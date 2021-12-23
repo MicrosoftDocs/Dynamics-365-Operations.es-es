@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 210d92b9fd962708b141b79f3634f142cca9787a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777776"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900719"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Mejoras de cXML de compra
 
@@ -141,7 +141,7 @@ Cuando haya terminado de configurar todas las propiedades y de establecer otras 
 
 Como se mencionó en la sección [Establecer las propiedades del pedido](#set-order-properties), si desea que el cXML entregado incluya texto de notas que se adjuntan al pedido de compra relevante o a los registros de proveedores, puede establecer las propiedades **POCOMMENTS** y/o **VENDCOMMENTOS** en _TRUE_ en la configuración del catálogo externo. Esta sección proporciona más detalles sobre cómo el sistema selecciona y procesa estos archivos adjuntos, si los usa.
 
-Para configurar los tipos de notas que buscará el sistema, vaya a **Adquisiciones y abastecimiento \> Preparar \> Formularios \> Desde la configuración**. En la ficha **Pedido de compra** configure el campo **Incluir documentos de tipo** como el tipo de nota que desea poder incluir. Solo se incluirán notas de texto, no documentos adjuntos.
+Para configurar los tipos de notas que buscará el sistema, vaya a **Adquisiciones y abastecimiento \> Preparar \> Formularios \> Configuración de formulario**. En la ficha **Pedido de compra** configure el campo **Incluir documentos de tipo** como el tipo de nota que desea poder incluir. Solo se incluirán notas de texto, no documentos adjuntos.
 
 ![Página de configuración de formulario.](media/cxml-form-setup.png "Página de configuración de formulario")
 

@@ -2,7 +2,7 @@
 title: Información general de control presupuestario
 description: Este tema presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772888"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890734"
 ---
 # <a name="budget-control-overview"></a>Información general de control presupuestario
 
@@ -78,9 +78,7 @@ A continuación, en la pestaña **Permisos de presupuesto excedido**, puede espe
 A continuación, en la pestaña **Fondos presupuestarios disponibles**, puede definir la fórmula que se usa para calcular los fondos presupuestarios disponibles. En función de como sea de conservadora la gestión de una organización de sus recursos financieros, o en función de las normas o a los requisitos del sector, el cálculo puede incluir el borrador o los documentos no registrados. 
 
 > [!NOTE]
-> Si este cálculo se modifica durante el ciclo presupuestario, los cambios no afectarán a los documentos que pasaron anteriormente las comprobaciones de control presupuestario y que se registraron o completaron. En la versión de la aplicación 10.0.17, una nueva característica **Realice un seguimiento de los montos en el cálculo de los fondos presupuestarios disponibles** estuvo disponible para clientes limitados. Esta función le permite cambiar qué datos se rastrean en las tablas de BudgetSourceTracking. Cuando esta función está activada, las cantidades se almacenan solo si se seleccionan para usarse en el cálculo de los fondos presupuestarios disponibles. Para solicitar que la función **Realizar un seguimiento de los montos en el cálculo de los fondos presupuestarios disponibles** esté habilitada, póngase en contacto con Soporte. 
-
-### <a name="documents-and-journals"></a>Documentos y diarios
+> Si este cálculo se modifica durante el ciclo presupuestario, los cambios no afectarán a los documentos que pasaron anteriormente las comprobaciones de control presupuestario y que se registraron o completaron. Una característica llamada **Realizar un seguimiento de los montos en el cálculo de los fondos presupuestarios disponibles** le permite cambiar qué datos se siguen en las tablas de BudgetSourceTracking. Cuando esta función está activada, las cantidades se almacenan solo si se seleccionan para usarse en el cálculo de los fondos presupuestarios disponibles. Para obtener más información, consulte [Fondos presupuestarios disponibles](budget-funds-available.md).
 
 A continuación, en la pestaña **Documentos y diarios**, puede seleccionar qué documentos de origen y diarios estarán sujetos a comprobaciones de control presupuestario y si las comprobaciones se producirán en el nivel de la entrada de línea o para el documento completo. 
 

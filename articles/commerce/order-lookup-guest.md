@@ -2,7 +2,7 @@
 title: Habilitar la búsqueda de pedidos para los pagos de invitados
 description: Este tema describe cómo habilitar la búsqueda de pedidos para los pagos de invitados en Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674985"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891509"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Habilitar la búsqueda de pedidos para los pagos de invitados
 
@@ -63,6 +63,16 @@ Después de cambiar el valor del campo **Incluir datos personales en la búsqued
 ## <a name="configure-the-order-lookup-module"></a>Configurar el módulo de búsqueda de pedidos
 
 El módulo de búsqueda de pedidos en la biblioteca del módulo de Comercio se usa para representar el formulario que los usuarios invitados usan para buscar pedidos. El módulo de búsqueda de pedidos se puede incluir en la ranura del cuerpo de cualquier página que no requiera el inicio de sesión del cliente. Para obtener información sobre cómo configurar el módulo, consulte [Módulo de búsqueda de pedidos](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Configurar la página de detalles del pedido
+
+Antes de que los usuarios invitados puedan ver los detalles de su pedido, la página de detalles del pedido en su sitio de comercio electrónico debe estar configurada para que no requiera iniciar sesión. Para desactivar el requisito de inicio de sesión para la página de detalles de su pedido, abra la página en el creador de sitios de Commerce, seleccione la ranura **Página predeterminada (requerida)** en la vista de árbol y desmarque la casilla **¿Requiere iniciar sesión?** en la parte inferior del panel de propiedades a la derecha.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Agregar un vínculo para los detalles del pedido en los correos electrónicos transaccionales
+
+En los correos electrónicos relacionados con pedidos, puede proporcionar un vínculo o botón que lleve a los clientes a la página de detalles de su pedido. Para agregar este vínculo o botón, cree un hipervínculo HTML que dirija a la página de detalles del pedido en su sitio de comercio electrónico y pase el id. de confirmación del pedido y la dirección de correo electrónico del cliente como parámetros de URL, como se muestra en el siguiente ejemplo.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

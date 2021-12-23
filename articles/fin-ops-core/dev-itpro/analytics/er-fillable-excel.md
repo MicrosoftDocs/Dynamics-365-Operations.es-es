@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731647"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890882"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
 [!include[banner](../includes/banner.md)]
 
-Puede diseñar una configuración de formato de [Informe electrónico (ER)](general-electronic-reporting.md) con un [componente de formato](general-electronic-reporting.md#FormatComponentOutbound) ER que puede configurar para generar un documento resultante en un formato de libro de trabajo de Microsoft Excel. Se deben usar componentes de formato ER específicos para este propósito.
+Puede diseñar una configuración de formato de [Informe electrónico (ER)](general-electronic-reporting.md) con un componente de formato ER que puede configurar para generar un documento resultante en un formato de libro de Microsoft Excel. Se deben usar componentes de formato ER específicos para este propósito.
 
 Para obtener más información sobre esta función, siga los pasos del tema [Diseñar una configuración para generar informes en formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -330,6 +330,40 @@ Cuando se genera el formato de libro de trabajo en un documento saliente en un M
 6. Genere un documento FTI imprimible y revise el pie de página del documento generado.
 
     ![Revisión del pie de página de un documento generado en formato Excel.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Ejemplo 2: solucionar el problema de EPPlus de celdas fusionadas
+
+Puede ejecutar un formato ER para generar un documento saliente en un formato de libro de Excel. Cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada en el espacio de trabajo **Administración de características**, la [biblioteca EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) se utiliza para generar resultados en Excel. Sin embargo, debido al [comportamiento de Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conocido y una limitación de la biblioteca EPPlus, es posible que encuentre la siguiente excepción: "No se pueden eliminar/sobrescribir las celdas combinadas. Un rango se fusiona parcialmente con el otro rango combinado". Para saber qué tipo de plantillas de Excel pueden causar esta excepción y cómo puede solucionar el problema, complete el siguiente ejemplo.
+
+1. En la aplicación de escritorio de Excel, cree un nuevo libro de Excel.
+2. En la hoja de trabajo **Hoja1**, agregue el nombre **ReportTitle** a la celda **A2**.
+3. Combine las celdas **A1** y **A2**.
+
+    ![Revise los resultados de la combinación de las celdas A1 y A2 en el libro de Excel diseñado en la aplicación de escritorio de Excel.](./media/er-fillable-excel-example2-1.png)
+
+3. En la página **Configuraciones**, [agregue un nuevo formato de ER](er-fillable-excel.md#add-a-new-er-format) para generar un documento saliente en formato de libro de Excel.
+4. En la página **Diseñador de formato**, [importe](er-fillable-excel.md#template-import) el libro de Excel diseñado en el formato ER agregado como una nueva plantilla para documentos salientes.
+5. En la pestaña **Asignación**, configure el enlace para el componente **ReportTitle** componente del tipo [Celda](er-fillable-excel.md#cell-component).
+6. Ejecute el formato ER configurado. Observe que se lanza la siguiente excepción: "No se pueden eliminar/sobrescribir las celdas combinadas. Un rango se fusiona parcialmente con el otro rango combinado".
+
+    ![Revise los resultados de ejecutar el formato ER configurado en la página del diseñador de formatos.](./media/er-fillable-excel-example2-2.png)
+
+Puede solucionar el problema de una de las siguientes formas:
+
+- **Más fácil pero no recomendada:** en el espacio de trabajo **Administración de características**, desactive la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos**. Aunque este enfoque es más fácil, es posible que experimente otros problemas si lo usa, porque algunas funciones de ER solo son compatibles cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada.
+- **Recomendada:** siga estos pasos:
+
+    1. En la aplicación de escritorio de Excel, modifique el libro de Excel de una de las siguientes formas:
+
+        - En la hoja de trabajo **Hoja1**, separe las celdas **A1** y **A2**.
+        - Cambie la referencia por el nombre **ReportTitle** de **=Sheet1!$A$2** a **=Sheet1!$A$1**.
+
+        ![Revise los resultados del cambio de la referencias en el libro de Excel diseñado en la aplicación de escritorio de Excel.](./media/er-fillable-excel-example2-3.png)
+
+    2. En la página **Diseñador de formato**, [importe](er-fillable-excel.md#template-import) el libro de Excel modificado en el formato ER editable para actualizar la plantilla existente.
+    3. Ejecute el formato de ER modificado.
+
+        ![Revise el documento generado en la aplicación de escritorio de Excel.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

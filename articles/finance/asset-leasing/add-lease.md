@@ -2,7 +2,7 @@
 title: Agregar o copiar arrendamientos (Vista previa)
 description: Este tema describe cómo crear un nuevo arrendamiento introduciendo información para él en Arrendamiento de activos o copiando información de un arrendamiento existente.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761335"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893654"
 ---
 # <a name="add-or-copy-leases-preview"></a>Agregar o copiar arrendamientos (Vista previa)
 
@@ -35,6 +35,8 @@ Siga estos pasos para crear un arrendamiento en Arrendamiento de activos.
 1. En la página **Resumen de arrendamientos**, en el panel Acciones, seleccione **Nuevo**.
 2. Introduzca la información del arrendameinto. Los campos obligatorios tienen los bordes rojos.
 
+> La fecha de inicio del pago por arrendamiento no puede ser anterior a la fecha de inicio del arrendamiento. Si introduce una fecha de inicio para el pago por arrendamiento que sea anterior a la fecha de inicio del arrendamiento, recibirá un mensaje de error.
+  
 ## <a name="create-a-lease-schedule"></a>Crear una programación de arrendamiento
 
 Una vez que haya terminado de introducir la información para el arrendamiento, siga estos pasos para crear una programación de arrendamiento.

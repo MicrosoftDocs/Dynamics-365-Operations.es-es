@@ -2,7 +2,7 @@
 title: Configurar un entorno de evaluación de Dynamics 365 Commerce
 description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarlo.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416488"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913736"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar un entorno de evaluación de Dynamics 365 Commerce
 
@@ -39,6 +39,7 @@ Después de que su entorno de evaluación de Commerce se haya aprovisionado de p
 1. Seleccione el entorno en la lista.
 1. En la información del entorno, a la derecha, seleccione **Iniciar sesión en entorno**. Se le enviará a la sede de Commerce.
 1. Asegúrese de que la entidad jurídica **USRT** está seleccionada en la esquina superior derecha.
+2. Vaya a **Parámetros de Commerce > Parámetros de configuración** y asegúrese de que hay una entrada para **ProductSearch.UseAzureSearch** establecida en **true**. Si falta esta entrada, puede agregarla y ejecutar **Base de datos de canal > Sincronización completa** para la unidad de escalado de Commerce asociada con su sitio web de comercio electrónico.
 
 Durante las actividades posteriores al aprovisionamiento en la sede de Commerce, asegúrese de que la entidad jurídica **USRT** siempre esté seleccionada.
 
@@ -105,6 +106,12 @@ Para activar la gestión de trabajos en Commerce, siga estos pasos.
     1. Seleccione el registro.
     1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
     1. Haga clic en **Cancelar** y, a continuación, en **Aceptar**.
+
+1. Si el estado del trabajo es **Retenido**, realice los siguientes pasos:
+
+    1. Seleccione el registro.
+    1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
+    1. Seleccione **Esperando** y, a continuación, seleccione **Aceptar**.
 
 Opcionalmente, también puede establecer el intervalo de recurrencia en un (1) minuto para los siguientes trabajos:
 

@@ -2,7 +2,7 @@
 title: Características quitadas u obsoletas de Dynamics 365 Finance
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781210"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890962"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas u obsoletas de Dynamics 365 Finance
 
@@ -32,6 +32,58 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Características quitadas o en desuso en la versión Finance 10.0.24
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Informe del impuesto sobre las ventas en Suecia (diseño basado en los códigos de notificación)
+
+[Informe del impuesto sobre las ventas en Suecia](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Sustituido por un nuevo diseño de declaración del IVA, [Declaración de IVA para Suecia](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: para el 1 de diciembre de 2022, tenemos previsto dejar de dar soporte al informe de impuestos sobre las ventas para Suecia (diseño de informe para Suecia). Se introducen los nuevos formatos de informes electrónicos (ER) **XML de declaración de IVA (SE**) y **Excel de declaración de IVA (SE)** en el modelo **Declaración de impuestos**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Declaración de IVA para Austria (diseño basado en códigos de notificación)
+
+[Detalles de la declaración de IVA para Austria](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Sustituido por un nuevo diseño de declaración del IVA, [Declaración de IVA para Austria](../localizations/emea-aut-vat-declaration-austria.md) |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: para el 1 de diciembre de 2022, tenemos previsto dejar de admitir el formato de informes electrónicos (ER) **Declaración de IVA (AT)** en el **Modelo de declaración de IVA**. Se introducen los nuevos formatos **XML de declaración de IVA (AT)** y **Excel de declaración de IVA (AT)** en el modelo **Declaración de impuestos**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Declaración ELSTER para Alemania (diseño basado en códigos de notificación)
+
+[Declaración de IVA](../localizations/emea-de-vat-declaration.md)</br>
+[Configuración de la declaración de impuestos electrónica para Alemania](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Transmisión electrónica de la declaración de IVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Sustituido por un nuevo diseño de declaración del IVA, [Declaración de IVA para Alemania](../localizations/emea-deu-vat-declaration-germany.md) |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: para el 1 de diciembre de 2022, tenemos previsto dejar de admitir los formatos de informes electrónicos (ER) **Elster (DE)** y **Modelo Elster**. Se introducen los nuevos formatos **XML de declaración de IVA (DE)** y **Excel de declaración de IVA (DE)** en el modelo **Declaración de impuestos**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Declaración OB para los Países Bajos (diseño basado en códigos de notificación)
+
+[Declaración OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Sustituido por un nuevo diseño de declaración del IVA, [Declaración de IVA para los Países Bajos](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: para el 1 de diciembre de 2022, tenemos previsto dejar de admitir los formatos de informes electrónicos (ER) **Declaración OB (NL)** y **Modelo de declaración OB**. Se introducen los nuevos formatos **XML de declaración de IVA (NL)** y **Excel de declaración de IVA (NL)** en el modelo **Declaración de impuestos**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Características quitadas o en desuso en la versión Finance 10.0.20
 

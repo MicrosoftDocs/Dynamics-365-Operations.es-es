@@ -2,7 +2,7 @@
 title: Información general de administración de prestaciones
 description: Este tema proporciona información general sobre la función Administración de beneficios de Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417418"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892511"
 ---
 # <a name="benefits-management-overview"></a>Información general de administración de prestaciones
 
@@ -109,21 +109,29 @@ Puede usar programas de crédito flexible para inscribir a los empleados en pres
 
 ## <a name="configure-required-employee-information"></a>Configure la información requerida de los empleados
 
-Antes de poder inscribir a los empleados en las prestaciones, debe proporcionar la información requerida para ellos. Todo empleado debe tener un puesto. Debe inscribir a los empleados en un plan de compensación fijo en su fecha de inicio, o deben tener un monto de salario de beneficios anual. Además, en la sección **Detalles de Empleo** sección de la página **Trabajador**, debe seleccionar un valor en el campo **Frecuencia de pago de prestaciones**.
+Antes de poder inscribir a los empleados en las prestaciones, debe proporcionar la información requerida para ellos. 
 
-Si tiene un empleado que recibe una compensación adicional como comisiones, puede agregar una cantidad **Salario anual de prestaciones** desde el registro del empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe anual de compensación fija. El **Salario anual de prestaciones** debe ser válido a partir de la fecha de inicio del empleado o del comienzo del período de prestaciones, lo que sea más reciente. Si se registra una compensación fija y un importe de salario anual de prestaciones para un empleado, el salario anual de prestaciones se utilizará para determinar los importes de cobertura.
+El empleado debe tener asignada un **Puesto**. Se puede asignar un **Puesto** al empleado en las páginas **Trabajador** o **Puesto** actualizando la **Asignación de trabajadores**. 
+
+Después, los empleados deben estar incluidos en un plan de compensación fijo en su fecha de inicio, o deben tener un importe de **Salario de prestaciones anual**. Antes de asignar una **Compensación fija** a un empleado, debe asignarse un **Puesto**. 
+
+> [!NOTE] 
+> La **Fecha de inicio de compensación fija** no puede ser anterior a la **Fecha de asignación del puesto**.
+
+De forma alternativa, si tiene un empleado que recibe una compensación adicional como comisiones, puede agregar una cantidad **Salario anual de prestaciones** desde el registro del empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe **Anual de compensación fija**. El **Salario anual de prestaciones** debe ser válido a partir de la fecha de inicio del empleado o del comienzo del período de prestaciones, lo que sea más reciente. Sin embargo, no se requiere un puesto para asignar el **Salario anual de prestaciones**. Para habilitar la característica de **Salario anual de prestaciones**, vaya a la página **Parámetros compartidos Human Resources**, en la pestaña **Administración de prestaciones**. Esta característica está desactivada de forma predeterminada.
+
+> [!IMPORTANT]
+> Si se introduce una **Compensación fija** y un importe de **Salario anual de prestaciones** para un empleado, el **Salario anual de prestaciones** se utilizará para determinar los importes de cobertura. En la sección **Detalles de Empleo** sección de la página **Trabajador**, debe seleccionar un valor en el campo **Frecuencia de pago de prestaciones**.
 
 ## <a name="configure-optional-employee-information"></a>Configure la información opcional de los empleados
-
 Cuando crea un plan de prestaciones que utiliza tarifas que se basan en el sexo o la edad, debe ingresar una fecha de nacimiento y género del empleado para calcular el costo de la prestaciones.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Procese a los empleados para determinar la elegibilidad
+Antes de que los empleados puedan inscribirse en los planes, se ejecuta el proceso de elegibilidad para determinar para qué planes son elegibles. Puede ver los resultados del proceso de elegibilidad en el **visor de resultados del proceso**. Para obtener más información, consulte [Proceso de elegibilidad de inscripción](hr-benefits-process-enrollment-eligibility.md).
 
-Antes de que los empleados puedan inscribirse en los planes, se ejecuta el proceso de elegibilidad para determinar para qué planes son elegibles. Puede ver los resultados del proceso de elegibilidad en el visor de resultados del proceso. Para obtener más información, consulte [Proceso de elegibilidad de inscripción](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Los empleados seleccionan planes a través del **Autoservicio para empleados** (opcional)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Los empleados seleccionan planes a través del autoservicio para empleados (opcional)
-
-Cuando se produce la inscripción abierta, se contrata a los empleados por primera vez o se produce un evento en la vida, los empleados pueden seleccionar o actualizar sus beneficios a través del autoservicio para empleados. Para más información, consulte [Configurar auto servicio de empleado](hr-benefits-setup-employee-self-service.md).
+Cuando se produce la inscripción abierta, se contrata a los empleados por primera vez o se produce un evento en la vida, los empleados pueden seleccionar o actualizar sus beneficios a través del **autoservicio para empleados**. Para más información, consulte [Configurar auto servicio de empleado](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Confirme las selecciones de planes de empleados
 

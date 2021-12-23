@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 081b6968575a8a057903d96de2833a98552ed123
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813735"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891780"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -50,6 +50,11 @@ Dependiendo de los procesos comerciales, el mismo registro de datos puede cambia
 > Algunos datos se pueden crear tanto en el concentrador como en la unidad de báscula. Ejemplos incluyen **Matrículas** y **Números de lote**. Se proporciona manejo de conflictos dedicado en caso de un escenario en el que se crea el mismo registro único tanto en el concentrador como en una unidad de escala durante el mismo ciclo de sincronización. Cuando esto suceda, la próxima sincronización fallará y deberá ir a **Administración del sistema > Consultas > Consultas sobre cargas de trabajo > Registros duplicados**, donde puede ver y combinar los datos.
 
 ## <a name="outbound-process-flow"></a>Flujo de proceso de salida
+
+Antes de implementar una carga de trabajo de administración de almacén en una unidad de escalado en la nube o perimetral, asegúrese de tener la característica *Compatibilidad de unidades de escalado para la liberación de pedidos salientes al almacén* habilitada en su centro empresarial. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
+
+- **Módulo:** *Gestión de almacén*
+- **Nombre de la característica**: *Compatibilidad de unidades de escalado para la liberación de pedidos salientes al almacén*
 
 El proceso de propiedad de los datos de salida depende de si está utilizando el proceso de planificación de carga. En todos los casos, el hub posee el *documentos fuente*, como órdenes de venta y órdenes de transferencia, así como el proceso de asignación de órdenes y los datos de transacciones de órdenes relacionadas. Pero cuando utiliza el proceso de planificación de carga, las cargas se crearán en el concentrador y, por lo tanto, inicialmente serán propiedad del concentrador. Como parte del proceso *Liberar al almacén*, la propiedad de los datos de carga se transfiere a la implementación de la unidad de báscula dedicada, que se convertirá en el propietario del siguiente *procesamiento de oleadas de envíos* (como asignación de trabajo, trabajo de reabastecimiento y creación de trabajo por demanda). Por lo tanto, los trabajadores del almacén solo pueden procesar las ventas salientes y el trabajo de órdenes de transferencia mediante una aplicación móvil de Warehouse Management que esté conectada a la implementación que ejecuta la carga de trabajo de la unidad de báscula específica.
 
@@ -202,7 +207,7 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Impresión de documentos relacionados con la carga                           | Sí | Sí|
 | Conocimiento de embarque y generación de ASN                            | No  | Sí|
 | Confirmación de envío                                             | No  | Sí|
-| Confirmación de envío con "Confirmar y transferir"            | No  | No |
+| Confirmación de envío con "Confirmar y transferir"            | No  | Sí|
 | Procesamiento de albaranes y facturas                        | Sí | No |
 | Selección corta (pedidos de venta y transferencia)                    | No  | Sí, sin eliminar las reservas para los documentos originales|
 | Selección en exceso (pedidos de venta y transferencia)                     | No  | Sí|
@@ -212,8 +217,8 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Etiqueta de oleada                                                   | No  | Sí|
 | División del trabajo                                                   | No  | Sí|
 | Procesamiento de trabajo: dirigido por 'Carga de transporte'            | No  | No |
-| Reducir cantidad seleccionada                                       | No  | No |
-| Invertir el trabajo                                                 | No  | No |
+| Reducir cantidad seleccionada                                       | No  | Sí|
+| Invertir el trabajo                                                 | No  | Sí|
 | Invertir confirmación de envíos                                | No  | Sí|
 
 ### <a name="inbound"></a>Entrada
@@ -227,7 +232,7 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Coste de aterrizaje y recepción de mercancía en tránsito                       | Sí | No |
 | Confirmación de envío entrante                                    | Sí | No |
 | Envío de órdenes de compra al almacén (procesamiento de órdenes de almacén) | Sí | No |
-| Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea</p> | Sí | No |
+| Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea mientras se procesa la operación de *solicitud de cancelación*.</p> | Sí | No |
 | Recepción de artículo del pedido de compra y ubicación                       | <p>Si,&nbsp;cuando&nbsp;no hay&nbsp;una orden de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p> |
 | Recepción de línea del pedido de compra y ubicación                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p></p> |
 | Recepción de pedido de devolución y ubicación                              | Sí | No |
@@ -246,7 +251,7 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Recepción con la creación del trabajo *Calidad en control de calidad*       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
 | Recepción con la creación de pedido de calidad                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
 | Procesamiento de trabajo: dirigido por *Ubicación de clúster*                 | Sí | No |
-| Procesamiento de trabajo con *Selección corta*                               | Sí | No |
+| Procesamiento de trabajo con *Selección corta*                               | Sí | Sí |
 | Carga de matrícula de entidad de almacén                                           | Sí | Sí |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operaciones de almacén y manejo de excepciones

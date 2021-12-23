@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647272"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890786"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lista de funciones ER en la categoría de fecha y hora
 
@@ -37,8 +37,8 @@ Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Esta función devuelve un valor *Cadena* que presenta un valor determinado de fecha/hora como texto en el formato especificado y en una cultura opcional especificada. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Esta función devuelve un valor *Fecha y hora* que se convierte de un determinado valor de texto en el formato especificado y en una cultura opcionalmente especificada a un valor de fecha / hora. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Esta función devuelve un valor *Fecha y hora* que se convierte de un determinado valor de datos a un valor de fecha / hora en hora universal coordinada (hora meridiano de Greenwich \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Esta función devuelve un valor *Fecha* que se convierte de un determinado valor de texto en el formato especificado y en una cultura opcionalmente especificada a un valor de fecha. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Esta función devuelve un valor *Entero* que representa el número de días entre el 1 de enero y la fecha especificada. |
+| [DateValue](er-functions-datetime-datevalue.md) | Esta función devuelve un valor *[Fecha](er-formula-supported-data-types-primitive.md#date)* que se convierte de un determinado valor de texto en el formato especificado y en una cultura opcionalmente especificada a un valor de fecha. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Esta función devuelve un valor *[Entero](er-formula-supported-data-types-primitive.md#integer)* que representa el número de días entre el 1 de enero y la fecha especificada. |
 | [Días](er-functions-datetime-days.md) | Esta función devuelve un valor *Entero* que representa el número de días entre una fecha especificada y una segunda fecha especificada. |
 | [Now](er-functions-datetime-now.md) | Esta función devuelve un valor *Fecha y hora* que representa la fecha y hora actuales del servidor de aplicaciones. |
 | [NullDate](er-functions-datetime-nulldate.md) | Esta función devuelve un valor *Fecha* que representa la fecha **nulo** (1 de enero de 1900). |
@@ -46,6 +46,7 @@ Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para
 | [SessionNow](er-functions-datetime-sessionnow.md) | Esta función devuelve un valor *Fecha y hora* que representa la fecha y hora actuales de la sesión de la aplicación. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Esta función devuelve un valor *Fecha* que representa la fecha actual de la sesión de la aplicación. |
 | [Hoy](er-functions-datetime-today.md) | Esta función devuelve un valor *Fecha* que representa la fecha actual del servidor de la aplicación. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Esta función devuelve un valor *Entero* que representa la semana del año. |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

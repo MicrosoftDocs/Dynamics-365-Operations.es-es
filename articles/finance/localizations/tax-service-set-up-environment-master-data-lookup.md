@@ -2,7 +2,7 @@
 title: Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos
 description: Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749519"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867361"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos. Hay una lista desplegable disponible para seleccionar valores en la configuración de cálculo de impuestos para campos como **Cuenta de proveedor**, **Código de artículo** y **Plazo de entrega**. Estos valores provienen del entorno Microsoft Dynamics 365 Finance conectado usando el origen de datos de Microsoft Dataverse.
+Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos. Hay una lista desplegable disponible para seleccionar valores en la configuración de cálculo de impuestos para campos como **Entidad jurídica**, **Cuenta de proveedor**, **Código de artículo** y **Plazo de entrega**. Estos valores provienen del entorno Microsoft Dynamics 365 Finance conectado usando el origen de datos de Microsoft Dataverse.
+
+> [!NOTE] 
+> La función de búsqueda de datos maestros de cálculo de impuestos es una función opcional. Puede omitir los siguientes pasos si deshabilita la característica **Soporte para orígenes de datos de Dataverse del servicio de impuestos** en Regulatory Configuration Service (RCS). Sin embargo, en ese caso, la lista desplegable no estará disponible en la configuración de cálculo de impuestos.
 
 1. Configure la integración de Microsoft Power Platform en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Integración de Microsoft Power Platform - Información general de complementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Después de completar este paso, el nombre de un entorno de Microsoft Power Platform aparecerá en la sección **Integración de Power Platform**.
 2. Vaya al [Centro de administración de Microsoft Power Platform](https://admin.powerplatform.microsoft.com/environments) y seleccione el nombre del entorno. Se proporciona la URL del entorno.

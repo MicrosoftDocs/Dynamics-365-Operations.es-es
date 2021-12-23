@@ -2,7 +2,7 @@
 title: Antes de comprar
 description: Orientación gradual que se usará al considerar comprar Dynamics 365 Finance, Dynamics 365 Supply Chain Management o Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 0218dd93440c3cd76f16ac954dd7956998873931444fa1334e7382a177ff3fc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757204"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874593"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -42,7 +42,7 @@ Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija loc
 - [Requisitos del sistema para implementaciones locales](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Las implementaciones locales no se admiten en ninguna infraestructura de nube pública, incluida Microsoft Azure.
+> Las implementaciones locales no se admiten en ninguna infraestructura de nube pública, incluida Microsoft Azure. Sin embargo, se admiten para ejecutarse en [Microsoft Azure Stack HCI](https://azure.microsoft.com/products/azure-stack/hci/) y [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Para obtener más información, consulte [Opciones de implementación](../../dev-itpro/deployment/choose-deployment-type.md).
 

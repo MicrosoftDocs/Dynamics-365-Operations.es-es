@@ -1,8 +1,8 @@
 ---
 title: Mejoras en la funcionalidad del registro de extractos
 description: En este tema se describen mejoras que se han realizado en la función de registro de extractos.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772213"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891452"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 En este tema se describe el primer conjunto de mejoras que se han realizado en la función de registro de extractos. Estas mejoras están disponibles en Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -116,9 +117,17 @@ Un extracto pasa por distintas operaciones (por ejemplo, Crear, Calcular, Desact
 
 ### <a name="aggregated-transactions"></a>Transacciones agregadas
 
-Durante el proceso de registro se agregan las transacciones de ventas según la configuración. Estas transacciones agregadas se almacenan en el sistema y se usan para crear pedidos de ventas. Cada transacción agregada crea un pedido de ventas correspondiente en el sistema. Puede ver las transacciones agregadas utilizando el botón **Transacciones agregadas** en el grupo **Detalles de ejecución** del extracto.
+Durante el proceso de registro, las operaciones de caja se agregan por cliente y producto. Por lo tanto, se reduce el número de pedidos de ventas y líneas que se crean. Las transacciones agregadas se almacenan en el sistema y se usan para crear pedidos de ventas. Cada transacción agregada crea un pedido de ventas correspondiente en el sistema. 
 
-La ficha **Detalles del pedido de ventas** de una transacción agregada muestra la siguiente información:
+Si un extracto no está totalmente registrado, puede ver las transacciones agregadas en el extracto. En el panel de acciones, en la ficha **Extracto**, en el grupo **Detalles de ejecución**, seleccione **Transacciones agregadas**.
+
+![Botón de transacciones agregadas para un extracto que no está completamente registrado.](media/aggregated-transactions.png)
+
+Para extractos registrados, puede ver transacciones agregadas en la página **Extractos registrados**. En el panel de acciones, seleccione **Consultas** y, a continuación, seleccione **Transacciones agregadas**.
+
+![Comando de transacciones agregadas para extractos registrados.](media/aggregated-transactions-posted-statements.png)
+
+La ficha desplegable **Detalles del pedido de ventas** de una transacción agregada muestra la siguiente información:
 
 - **Identificador de registro**: el identificador de la transacción agregada.
 - **Número de extracto**: el extracto al que pertenece la transacción agregada.
@@ -127,10 +136,26 @@ La ficha **Detalles del pedido de ventas** de una transacción agregada muestra 
 - **Número de líneas agregadas**: el número total de líneas para la transacción agregada y el pedido de ventas.
 - **Estado**: el último estado de la transacción agregada.
 - **Id. de factura**: el identificador del pedido de ventas asignado cuando se factura el pedido de ventas de la transacción agregada. Si este campo está en blanco, la factura del pedido de ventas no se ha registrado.
+- **Código de error**: este campo se establece si la agregación se encuentra en un estado de error.
+- **Mensaje de error**: este campo se establece si la agregación se encuentra en un estado de error. Muestra detalles sobre qué causó el error del proceso. Puede usar la información del código de error para solucionar el problema y luego reiniciar el proceso manualmente. Dependiendo del tipo de resolución, es posible que las ventas agregadas deban eliminarse y procesarse en un nuevo extracto.
 
-La ficha **Detalles de transacción** de una transacción agregada muestra todas las transacciones que se han insertado en la transacción agregada. Las líneas agregadas en la transacción agregada muestran todos los registros agregados de las transacciones. Las líneas agregadas también muestra detalles como el artículo, la variante, cantidad, precio, el importe neto, la unidad, y el almacén. Básicamente, cada línea agregada corresponde a una línea de pedido de ventas.
+![Campos de la ficha desplegable Detalles del pedido de ventas de una transacción agregada.](media/aggregated-transactions-error-message-view.png)
 
-En la página **Transacciones agregadas**, puede descargar los datos XML de una transacción agregada específica mediante el botón **Exportar XML del pedido de ventas** . Puede usar XML para depurar problemas que implican la creación y el registro de pedidos de ventas. Solo tiene que descargar los datos XML, cárgarlos en un entorno de pruebas y depurar el problema en el entorno de pruebas. La funcionalidad de descarga de datos XML para transacciones agregadas no está disponible para los extractos registrados.
+La ficha desplegable **Detalles de transacción** de una transacción agregada muestra todas las transacciones que se han insertado en la transacción agregada. Las líneas agregadas en la transacción agregada muestran todos los registros agregados de las transacciones. Las líneas agregadas también muestra detalles como el artículo, la variante, cantidad, precio, el importe neto, la unidad, y el almacén. Básicamente, cada línea agregada corresponde a una línea de pedido de ventas.
+
+![Ficha desplegable Detalles de la transacción de una transacción agregada.](media/aggregated-transactions-sales-details.png)
+
+En algunas situaciones, es posible que las transacciones agregadas no registren su pedido de ventas consolidado. En estas situaciones, se asociará un código de error con el estado del extracto. Para ver solo transacciones agregadas que tienen errores, puede activar la casilla de verificación habilitar el filtro **Mostrar solo errores** en la vista de transacciones agregadas. Al habilitar este filtro, limita los resultados a transacciones agregadas que tienen errores que requieren resolución. Para obtener información sobre cómo resolver esos errores, consulte [Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea](edit-order-trans.md).
+
+![Casilla de verificación para el filtro Mostrar solo errores en la vista de transacciones agregadas.](media/aggregated-transactions-failure-view.png)
+
+En la página **Transacciones agregadas**, puede descargar los datos XML de una transacción agregada específica seleccionando **Exportar datos de agregación** . Puede revisar el XML en cualquier formateador de XML para ver los detalles reales de los datos que implican la creación y el registro de los pedidos de venta. La funcionalidad de descarga de datos XML para transacciones agregadas no está disponible para los extractos registrados.
+
+![Botón Exportar datos de agregación en la página Transacciones agregadas.](media/aggregated-transactions-export.png)
+
+En el caso de que no pueda solucionar el error corrigiendo los datos del pedido de ventas o los datos que respaldan el pedido de ventas, tiene a su disposición el botón **Eliminar pedido de cliente**. Para eliminar un pedido, seleccione la transacción agregada con error y luego seleccione **Eliminar pedido de cliente**. Se eliminarán tanto la transacción agregada como el pedido de ventas correspondiente. Ahora puede revisar las transacciones utilizando la función de edición y auditoría. Alternativamente, pueden reprocesarse a través de un nuevo extracto. Una vez que se hayan solucionado todos los errores, puede reanudar el registro de extractos ejecutando la función de registro de extractos para el extracto relevante.
+
+![Botón Eliminar pedido de cliente en la vista de transacciones agregadas.](media/aggregated-transactions-delete-cust-order.png)
 
 La vista de transacciones agregadas proporciona las siguientes ventajas:
 

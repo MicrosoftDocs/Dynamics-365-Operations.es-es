@@ -1,7 +1,7 @@
 ---
 title: Dividir un activo fijo
 description: En este tema se explica cómo dividir un porcentaje de un libro de activos a un nuevo libro de activos.
-author: saraschi2
+author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJourna
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ac7bc9ae9040f9668c36c570be795ebeb7c6970049ff911b1caeadd06f31d0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778999"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883552"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir un activo fijo
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo dividir un porcentaje de un libro de activos a un nuevo libro de activos. Usa el rol de contable y los datos de prueba de USMF.
+En este tema se explica cómo dividir un porcentaje de un libro de activos a un nuevo libro de activos. 
 
 ## <a name="create-a-new-fixed-asset"></a>Crear un activo fijo nuevo
 

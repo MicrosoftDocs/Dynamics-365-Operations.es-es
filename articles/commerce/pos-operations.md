@@ -2,7 +2,7 @@
 title: Operaciones de punto de venta (PDV) en línea y sin conexión
 description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Dynamics 365 Commerce. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
-ms.date: 02/21/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88daca466e0e01bf3870b6eeee0628e0c159fea3
+ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745293"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7875486"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
 [!include [banner](includes/banner.md)]
 
-La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en el back office de Dynamics 365 Commerce . Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
+La mayoría de las acciones que los usuarios realizan en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en el back office de Dynamics 365 Commerce . Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
 
 En la tabla siguiente se proporcionan los detalles de las operaciones disponibles en Modern POS y PDV en la nube. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.
 
@@ -72,18 +72,17 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 121 | Borrar vendedor | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | No |
 | 1055 | Cerrar turno | Cierre el turno actual, imprima un informe Z y cierre la sesión del usuario del sistema. | Sí | Sí | Sí | No | No |
 | 139 | Concluir transacción | Pide confirmación al usuario para seleccionar el método de pago | Sí | Sí | No | Sí | No |
-| 620 | Crear pedido de cliente | Convierta la transacción de PDV en un pedido del cliente. | Sí | Sí | No | Sí\* | No |
 | 925 | Copiar el cheque bancario | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |
 | 620 | Crear pedido de cliente | Convierta la transacción de PDV en un pedido del cliente. | Sí | Sí | No | Sí\* | No |
 | 621 | Crear presupuesto | Convierta la transacción de PDV en un presupuesto de ventas. | Sí | Sí | No | Sí\* | No |
-| 636 | Crear transacción comercial | Esta operación permite al usuario crear una transacción de ventas estándar cuando el comportamiento de PDV predeterminado es crear pedidos del cliente. | Sí | Sí | No | Sí | No |
+| 636 | Crear transacción comercial | Cree una transacción de ventas estándar cuando el comportamiento de PDV predeterminado es crear pedidos del cliente. | Sí | Sí | No | Sí | No |
 | 600 | Cliente  | Agregue el cliente especificado a la transacción. | No | No | No | Sí | No |
 | 1100 | Depósito de cuenta de cliente | Permite realizar un pago en la cuenta de un cliente. | Sí | Sí | Sí | Sí | Sí |
-| 612 | Agregar cliente | Esta operación permite al usuario crear un nuevo registro de cliente. | Sí | Sí | Sí | Sí† | No |
+| 612 | Agregar cliente | Cree un registro de cliente nuevo. | Sí | Sí | Sí | Sí† | No |
 | 603 | Borrado de clientes | Quite al cliente de la transacción actual. | Sí | Sí | No | Sí | No |
-| 602 | Búsqueda de clientes | Esta operación permite al usuario buscar un registro de cliente navegando a la página de búsqueda de clientes en el PDV. | Sí | Sí | Sí | Sí | No |
+| 602 | Búsqueda de clientes | Busque un registro de cliente navegando a la página de búsqueda de clientes en el PDV. | Sí | Sí | Sí | Sí | No |
 | 609 | Transacciones del cliente | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | No |
-| 917 | Estado de conexión de base de datos | Esta operación permite al usuario ver los valores actuales de conexión, y cambiar entre los modos conectado y sin conexión. | Sí | Sí | Sí | Sí | No |
+| 917 | Estado de conexión de base de datos | Vea los valores actuales de conexión, y cambiar entre los modos conectado y sin conexión. | Sí | Sí | Sí | Sí | No |
 | 1200 | Declarar importe inicial | Declare el importe que se encuentra en la caja registradora al iniciar el día o el turno. | Sí | Sí | Sí | Sí | No |
 | 132 | Anular depósito | Permite invalidar el depósito predeterminado para los pedidos de cliente. | Sí | Sí | No | Sí\* | No |
 | 913 | Deshabilitar modo Diseño | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | No |
@@ -96,14 +95,14 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 615 | Editar presupuesto | Recupere el presupuesto seleccionado para que se pueda modificar en el PDV. | No | No | No | No | No |
 | 518 | Cuentas de gastos | Registre el dinero retirado de la caja registradora para gastos ocasionales. | Sí | Sí | Sí | Sí | No |
 | 919 | Inicio de sesión extendido | Permite asignar o quitar el permiso para iniciar sesión mediante la digitalización de un código de barras o el pase de una tarjeta. | Sí | Sí | Sí | Sí | No |
-| 1201 | Entrada flotante | Esta operación permite al usuario agregar dinero adicional a la caja registradora o el turno actual. | Sí | Sí | Sí | Sí | No |
+| 1201 | Entrada flotante | Agregue dinero adicional a la caja registradora o el turno actual. | Sí | Sí | Sí | Sí | No |
 | 1218 | Forzar desbloqueo de periférico | El sistema usa esta operación internamente para desbloquear periféricos de PDV. | No aplicable | No aplicable | No aplicable | No aplicable | No |
 | 520 | Saldo de tarjeta regalo | Muestra el saldo de una tarjeta regalo. | Sí | Sí | No | No | No |
 | 708 | Desactivar dispositivo | Desactive el dispositivo actual, para que no se pueda utilizar como caja registradora de PDV. | No | No | No | No | No |
 | 804 | Operaciones de entrada | Acceda a las funciones de gestión de inventario de la tienda entrante. | Sí | No | Sí | No| No |
 | 517 | Cuentas de ingresos | Registre el dinero colocado de la caja registradora por un motivo distinto a una venta. | Sí | Sí | Sí | Sí | No |
 | 801 | Búsqueda de inventario | Consulte cantidades disponibles, en pedido y neto no comprometido (ATP) para la tienda actual y otras ubicaciones disponibles. | Sí | Sí | Sí | No | No |
-| 122 | Comentario de factura | Esta operación permite al usuario escribir un comentario sobre la transacción actual. | Sí | Sí | No | Sí | No |
+| 122 | Comentario de factura | Permite especificar un comentario sobre la transacción actual. | Sí | Sí | No | Sí | No |
 | 511 | Emitir nota de crédito | Emita una nota de crédito para proporcionar un asiento en lugar de una devolución. | Sí | Sí | No | No | No |
 | 512 | Emitir tarjeta regalo | Emita una nueva tarjeta regalo por el importe especificado. | Sí | Sí | No | No | No |
 | 625 | Emitir tarjeta de fidelización | Emita una tarjeta de fidelización a un cliente para que este pueda participar en el programa de fidelización de la tienda. | Sí | Sí | Sí | No | No |
@@ -147,42 +146,42 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 1056 | Imprimir X | Imprima e informe X para el turno actual. | Sí | Sí | Sí | No | No |
 | 103 | Comentario del producto | Permite agregar un comentario al artículo de línea seleccionado en la transacción. | Sí | Sí | No | Sí | No |
 | 100 | Venta de producto | Agregue un producto especificado a la transacción. | Sí | Sí | Sí | Sí | No |
-| 108 | Búsqueda de productos | Esta operación permite al usuario buscar un producto navegando a la página de búsqueda de productos en el PDV. | Sí | Sí | Sí | Sí | No |
-| 633 | Fecha de vencimiento de presupuesto | Esta operación permite al usuario ver o modificar la fecha de caducidad en un presupuesto de ventas. | Sí | Sí | No | Sí\* | No |
+| 108 | Búsqueda de productos | Busque un producto navegando a la página de búsqueda de productos en el PDV. | Sí | Sí | Sí | Sí | No |
+| 633 | Fecha de vencimiento de presupuesto | Vea o modifique la fecha de caducidad en un presupuesto de ventas. | Sí | Sí | No | Sí\* | No |
 | 627 | Volver a calcular | Recalcule todas las líneas de pedidos e impuestos del cliente, en función de la configuración actual. | Sí | Sí | No | Sí\* | No |
 | 143 | Recalcular cargos | Vuelve a calcular los cargos automáticos aplicados al pedido. | Sí | Sí | No | No| No |
-| 515 | Recuperar pedido | Esta operación permite al usuario buscar y recuperar pedidos del cliente y presupuestos de ventas. | Sí | Sí | Sí | No | No |
-| 504 | Recuperar transacción | Esta operación permite al usuario recuperar una transacción suspendida anteriormente de la tienda actual. | Sí | Sí | No | Sí‡ | No |
+| 515 | Recuperar pedido | Busque y recupere pedidos del cliente y presupuestos de ventas. | Sí | Sí | Sí | No | No |
+| 504 | Recuperar transacción | Recupere una transacción suspendida anteriormente de la tienda actual. | Sí | Sí | No | Sí‡ | No |
 | 305 | Canjear puntos de fidelización | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |
-| 635 | Devolver los gastos de envío | Esta operación permite al usuario devolver gastos de envío de un pedido cancelado. | No | No | No | No | No |
+| 635 | Devolver los gastos de envío | Devuelva los cargos de envío de un pedido cancelado. | No | No | No | No | No |
 | 644 | Quitar código de vale | Pida al usuario que quite vales seleccionándolos en una lista de vales que están asociados actualmente a la transacción. | Sí | Sí | No | Sí | No |
 | 1057 | Volver a imprimir Z | Vuelva a imprimir el informe Z del turno anterior o de un turno seleccionado. | Sí | Sí | Sí | No | No |
 | 1216 | Escriba una contraseña nueva | Esta operación permite que un usuario que tiene permiso para restablecer la contraseña restablezca la contraseña de otro empleado mediante una contraseña temporal. | Sí | Sí | Sí | No | No |
-| 1219 | Abrir URL en POS | Esta operación permite que un usuario abra una dirección URL configurada por el administrador en PDV. | Sí | Sí | Sí | Sí | No | 
+| 1219 | Abrir dirección URL en PDV | Abra una URL configurada por el administrador en el PDV. | Sí | Sí | Sí | Sí | No |
 | 109 | Devolver producto | Realice la devolución de productos individuales. El siguiente producto digitalizado se muestra como producto devuelto con un precio y una cantidad negativos. | Sí | Sí | No | Sí | No |
 | 114 | Transacción de devolución | Recupere una transacción anterior por su número de recibo para devolver algunos o todos los productos. | Sí | Sí | Sí | Sí§ | No |
 | 1211 | Ingreso en caja fuerte | Permite realizar un ingreso seguro para trasladar dinero de la caja registradora a la caja fuerte. | Sí | Sí | Sí | Sí | No |
 | 516 | Factura de ventas | Esta operación permite al cliente crear pagos para la factura de ventas seleccionada. | Sí | Sí | No | No | No |
-| 502 | Vendedor | Esta operación permite al usuario establecer el valor **Secretario de ventas** en un pedido de ventas para los pedidos del cliente en el PDV. | Sí | Sí | No | Sí\* | No |
+| 502 | Vendedor | Establezca el valor **Secretario de ventas** en un pedido de ventas para los pedidos del cliente en el PDV. | Sí | Sí | No | Sí\* | No |
 | 2000 | Programar administración | Todavía no se admite esta operación. | Sí | Sí | Sí | No | No |
 | 2001 | Programar solicitudes | Todavía no se admite esta operación. | Sí | Sí | Sí | No | No |
 | 622 | Buscar pedidos | Esta operación permite a los usuarios preconfigurar los botones de PDV para realizar búsquedas por artículo, cliente, o la categoría. | Sí | Sí | Sí | Sí | No |
 | 1213 | Buscar dirección de envío | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | No |
-| 709 | Seleccionar estación de hardware | Esta operación permite al usuario seleccionar una estación de hardware en una lista de estaciones de hardware disponibles. | Sí | Sí | Sí | Sí | No |
-| 637 | Establecer representante de ventas predeterminado en transacción | Esta operación permite al usuario seleccionar uno de los grupos de ventas aptas de la comisión elegibles (representantes de ventas) como representante de ventas predeterminado para las líneas que se agregan posteriormente. | Sí | Sí | No | Sí | No |
+| 709 | Seleccionar hardware station | Seleccione una estación de hardware de una lista de estaciones de hardware disponibles. | Sí | Sí | Sí | Sí | No |
+| 637 | Establecer representante de ventas predeterminado en transacción | Seleccione uno de los grupos de ventas aptas de la comisión elegibles (representantes de ventas) como representante de ventas predeterminado para las líneas que se agregan posteriormente. | Sí | Sí | No | Sí | No |
 | 105 | Definir cantidad | Permite cambiar la cantidad de un artículo de línea en la transacción. | Sí | Sí | No | Sí | No |
-| 638 | Establecer representante de ventas en línea | Esta operación permite al usuario seleccionar uno de los grupos de ventas aptas de la comisión elegibles (representantes de ventas) para la línea seleccionada actualmente. | Sí | Sí | No | Sí | No |
+| 638 | Establecer representante de ventas en línea | Seleccione uno de los grupos de ventas aptas de la comisión elegibles (representantes de ventas) para la línea seleccionada actualmente. | Sí | Sí | No | Sí | No |
 | 630 | Enviar todos los productos | Establezca el modo de cumplimiento como **Envío** para todos los artículos de línea. | Sí | Sí | No | Sí\* | No |
 | 629 | Enviar productos seleccionados | Establezca el modo de cumplimiento como **Envío** para las líneas seleccionadas. | Sí | Sí | No | Sí\* | No |
 | 115 | Mostrar diario | Muestra el diario de la tienda. Puede ver transacciones, volver a imprimir recibos y recibos de regalo y recuperar para devolución. | Sí | Sí | Sí | Sí\*\* | No |
-| 802 | Recuento de existencias | Esta operación permite al usuario crear o modificar los diarios de recuento de existencias para el inventario físico o los recuentos cíclicos. | Sí | Sí | Sí | No | No |
+| 802 | Recuento de existencias | Cree o modifique los diarios de recuento de existencias para el inventario físico o los recuentos cíclicos. | Sí | Sí | Sí | No | No |
 | 401 | Submenú | Esta operación lleva al usuario a otra cuadrícula de botones vinculada. | Sí | Sí | Sí | Sí | No |
 | 1054 | Suspender turno | Suspenda el turno actual, para poder activar un turno nuevo o distinto en la caja registradora actual. | Sí | Sí | Sí | No | No |
 | 503 | Suspender transacción | Suspenda la transacción de ventas actual, para que pueda recuperarse más adelante en la tienda. | Sí | Sí | No | Sí‡ | No |
 | 1004 | Grabador de tareas | Abre el Grabador de tareas para registrar los pasos del procedimiento en el PDV. | No | No | No | Sí | No |
-| 1052 | Declaración por forma de pago | Esta operación permite al usuario especificar el importe de dinero en la caja registradora para cada método de pago contado. | Sí | Sí | Sí | Sí | No |
-| 1210 | Supresión de forma de pago | Esta operación permite al usuario quitar dinero de la caja registradora o el turno actual. | Sí | Sí | Sí | Sí | No |
-| 920 | Reloj de tiempo | Esta operación permite a los usuarios marcar la entrada y la salida de turnos de trabajo y descansos. | Sí | Sí | Sí | No | No |
+| 1052 | Declaración por forma de pago | Especifique el importe de dinero en la caja registradora para cada método de pago contado. | Sí | Sí | Sí | Sí | No |
+| 1210 | Supresión de forma de pago | Saque dinero la caja o turno actual. | Sí | Sí | Sí | Sí | No |
+| 920 | Reloj de tiempo | Marque la entrada y la salida de turnos de trabajo y descansos. | Sí | Sí | Sí | No | No |
 | 302 | Importe de descuento total | Escriba importe de descuento para la transacción. Esta operación solo se aplica a artículos a los que se pueden aplicar descuentos y solo dentro de los límites de descuento especificados. | Sí | Sí | No | Sí | No |
 | 303 | Porcentaje de descuento total | Escriba un porcentaje de descuento para la transacción. Esta operación solo se aplica a artículos a los que se pueden aplicar descuentos y solo dentro de los límites de descuento especificados. | Sí | Sí | No | Sí | No |
 | 501 | Comentario de transacción | Permite agregar un comentario a la transacción actual. | Sí | Sí | No | Sí | No |

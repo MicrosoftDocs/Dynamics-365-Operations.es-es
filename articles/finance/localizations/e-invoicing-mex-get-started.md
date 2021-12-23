@@ -2,7 +2,7 @@
 title: Comenzar con la facturación electrónica para México
 description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para México.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 385fc4e9c641b43734ddb030893904489361af7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742162"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "7881600"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Comenzar con la facturación electrónica para México
 
@@ -35,7 +35,15 @@ Este tema proporciona información que le ayudará a comenzar con la facturació
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de completar los pasos de este tema, debe completar los pasos de [Comenzar con el complemento de facturación electrónica](e-invoicing-get-started.md).
+Antes de completar los pasos de este tema, debe completar los pasos en [Comenzar con la administración de servicios de facturación electrónica](e-invoicing-get-started-service-administration.md) y [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Configurar Cadena XSLT
+
+Para agregar el esquema Cadena XSLT a la característica de globalización para el procesamiento de CFDI, complete los siguientes pasos.
+
+1. Descargue el esquema del [Sitio web del SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Comprima el esquema en un archivo ZIP.
+3. Guarde el archivo xslt en su cuenta de Azure Storage configurada en su entorno de servicio para el nuevo contenedor.
 
 ## <a name="rcs-setup"></a>Configuración de RCS
 
@@ -127,6 +135,17 @@ Para enviar la cancelación de la factura CFDI, se requieren las configuraciones
 
 > [!NOTE]
 > Siga los mismos pasos para actualizar la URL de la acción **Llamar al servicio PAC mexicano** para las configuraciones de función **Cancelar** y **Solicitud de cancelación**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Configurar la ruta para el esquema Cadena XLST
+
+1. En la página **Configuración de versión de características**, en la pestaña **Variables**, seleccione el nombre de la variable **DigitalSignatureXSLT**.
+2. En el campo **Valores**, introduzca: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
+   
+    donde: <RelativePath> = folder\\folder\\filename con barras invertidas dobles, ContainerName debe indicar el contenedor que se usa para el servicio.
+   
+    Un ejemplo de la variable sería:
+    
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Asignar la versión borrador a un entorno de facturación electrónica
 

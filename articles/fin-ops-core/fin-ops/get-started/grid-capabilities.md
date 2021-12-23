@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 10/25/2021
+ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700146"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890889"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -119,6 +119,9 @@ De la misma manera que puede seleccionar (o anular la selección) todas las fila
 
 ### <a name="hiding-column-names"></a>Ocultar nombres de columnas
 Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. Puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
+
+### <a name="grouping-on-date-and-time-columns"></a>Agrupación en columnas de fecha y hora
+A partir de la versión 10.0.24, para los campos de fecha o fecha y hora, la opción se ha agregado al grupo por año, mes o día. El "valor" del grupo en la fila de encabezado correspondiente coincidirá con el formato de ese campo. Además, para los campos DateTime y Time, podrá agrupar por hora, minuto o segundo.    
 
 ## <a name="freezing-columns"></a>Columnas de congelación
 Algunas columnas en una cuadrícula pueden ser lo suficientemente importantes para el contexto como para que no desee que se desplacen fuera de la vista. En su lugar, puede que desee que los valores de esas columnas estén siempre visibles. La característica **Congelar columnas en la cuadrícula** proporciona esta flexibilidad a los usuarios. 

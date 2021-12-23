@@ -2,7 +2,7 @@
 title: Visión general de los informes electrónicos (ER)
 description: Este tema proporciona una visión general de la herramienta de informes electrónicos. Describe conceptos clave, escenarios compatibles y formatos que forman parte de la solución.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562185"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867306"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562185"
 
 Este tema proporciona una visión general de la herramienta de informes electrónicos (ER). Incluye información sobre conceptos clave, escenarios compatibles con ER y una lista con los formatos diseñados y publicados como parte de la solución.
 
-Los informes electrónicos (ER) son una herramienta que puede utilizar para configurar formatos de entrada y de salida para documentos electrónicos en función de requisitos legales de diversos países o regiones. ER le permite administrar estos formatos durante su ciclo de vida. Por ejemplo, puede adoptar nuevos requerimientos normativos y puede generar documentos empresariales en el formato requerido para intercambiar información electrónicamente con organismos gubernamentales, bancos y otras partes.
+ER es una herramienta configurable que le ayuda a crear y mantener informes y pagos electrónicos regulatorios. Se basa en los siguientes tres conceptos:
+
+- Configuración en lugar de codificación:
+
+    - La configuración la puede realizar un usuario empresarial y no requiere un desarrollador.
+    - El modelo de datos se define en términos comerciales.
+    - Los editores visuales se utilizan para crear todos los componentes de la configuración de ER.
+    - El idioma que se usa para la transformación de datos se asemeja al idioma que se usa en Microsoft Excel.
+
+- Una configuración para múltiples versiones de Dynamics 365 Finance:
+
+    - Administre un modelo de datos específico de dominio que se define en términos comerciales.
+    - Aísle los detalles de la versión de la aplicación en asignaciones de modelos de datos dependientes de la versión.
+    - Mantenga una configuración de formato para múltiples lanzamientos de la versión actual, según el modelo de datos.
+
+- Actualización fácil o automática:
+
+    - Compatibilidad con el control de versiones de configuraciones de ER.
+    - La biblioteca de Microsoft Dynamics Lifecycle Services (LCS) Assets se puede utilizar como repositorio de configuraciones de ER para el intercambio de versiones.
+    - Las localizaciones que se basan en configuraciones ER originales se pueden introducir como versiones secundarias.
+    - Se proporciona un árbol de configuración de ER como una herramienta que ayuda a controlar las dependencias de las versiones.
+    - Las diferencias en la localización o la configuración delta se registran para permitir la actualización automática a una nueva versión de la configuración ER original.
+    - Es fácil resolver manualmente los conflictos que se descubren durante la actualización automática de las versiones de localización.
+
+ER le permite definir estructuras en formato electrónico y, a continuación, describir cómo deben rellenarse mediante datos y algoritmos. Puede utilizar un lenguaje de fórmulas que se parezca al lenguaje de Excel para la transformación de datos. Para hacer que la asignación de la base de datos al formato sea más manejable, reutilizable e independiente de los cambios de formato, se introduce un concepto de modelo de datos intermedio. Este concepto permite ocultar los detalles de implementación de la asignación de formato y permite reutilizar un único modelo de datos para asignaciones de múltiples formatos.
+
+Puede usar ER para configurar formatos de entrada y de salida para documentos electrónicos en función de requisitos legales de diversos países y regiones. ER le permite administrar estos formatos durante su ciclo de vida. Por ejemplo, puede adoptar nuevos requerimientos normativos y puede generar documentos empresariales en el formato requerido para intercambiar información electrónicamente con organismos gubernamentales, bancos y otras partes.
 
 El motor de ER está dirigido a usuarios empresariales en lugar de desarrolladores. Dado que configura formatos, en lugar de código, los procesos de creación y ajuste de formatos para documentos electrónicos son más rápidos y sencillos.
 
-ER admite actualmente los formatos de hoja de cálculo de texto, XML, documento Microsoft Word y OPENXML. Sin embargo, una interfaz de extensión proporciona compatibilidad con formatos adicionales.
+ER admite actualmente los formatos de hoja de cálculo de TEXTO, XML, JSON, PDF, Microsoft Word, Microsoft Excel y OPENXML.
 
 ## <a name="capabilities"></a>Capacidades
 
@@ -48,6 +74,10 @@ El motor de ER tiene las siguientes capacidades:
 
 ## <a name="key-concepts"></a>Conceptos clave
 
+### <a name="main-data-flow"></a>Flujo de datos principal
+
+[![Flujo de datos principal de ER](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Componentes
 
 ER admiten los siguientes tipos de componentes:
@@ -59,74 +89,6 @@ ER admiten los siguientes tipos de componentes:
 
 Para obtener más información, consulte [Informes de componentes electrónicos](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Componentes de modelos de datos y de asignación de modelos
-
-Un componente de modelo de datos es una representación abstracta de una estructura de datos. Se usa para describir un área de dominio empresarial específico con los detalles suficientes para cumplir los requisitos de creación de informes para dicho dominio. Un componente del modelo de datos consta de las siguientes partes:
-
-- <a name="DataModelComponent"></a>Un modelo de datos como un conjunto de entidades específicas de empresa de dominio y una definición jerárquicamente estructurada de las relaciones entre esas entidades.
-- <a name="ModelMappingComponent"></a>Una asignación de modelo que vincula orígenes de datos seleccionados de la aplicación a elementos individuales de un modelo de datos que especifica, en tiempo de ejecución, el flujo de datos y las reglas de población de datos empresariales a un componente del modelo de datos.
-
-Una entidad de negocio de un modelo de datos se representa como un contenedor (registro). Las propiedades de la entidad empresarial se representan como elementos de datos (campos). Cada elemento de datos tiene un nombre, ficha, descripción y valor únicos. El valor de cada elemento de datos se puede diseñar para que se reconozca como cadena, entero, real, fecha, enumeración, booleano, etc. Además, puede ser otro registro o lista de registros.
-
-Un único componente del modelo de datos puede contener varias jerarquías de entidades empresariales de dominio específicas. También contiene asignaciones de modelo que admiten un flujo de datos de informes específico en el tiempo de ejecución. Las jerarquías se distinguen por un único registro que se ha seleccionado como raíz para la asignación de modelo Por ejemplo, el modelo de datos del área de dominio de pago puede admitir las asignaciones siguientes:
-
-- Empresa \> Proveedor \> Transacciones de pago del dominio de proveedores
-- Cliente \> Empresa \> transacciones de pago del dominio de clientes
-
-Tenga en cuenta que las entidades empresariales como las transacciones de empres y de pago se diseñan una vez. Asignaciones diferentes, a continuación, vuelven a utilizarlas.
-
-Una asignación de modelo que admite documentos electrónicos salientes tiene las siguientes capacidades:
-
-- Puede utilizar distintos tipos de datos como orígenes de datos para un modelo de datos. Por ejemplo, puede utilizar tablas, entidades de datos, métodos o enumeraciones.
-- Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
-- Admite la transformación de los datos en los grupos necesarios. También permite, filtrar, clasificar y sumar datos y anexar campos lógicos calculados que están diseñados con las fórmulas que se asemejan las fórmulas de Microsoft Excel. Para obtener más información, consulte [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md).
-
-Una asignación de modelo que admite documentos electrónicos entrantes tiene las siguientes capacidades:
-
-- Puede utilizar distintos elementos de datos actualizables como objetivos. Estos elementos de datos incluyen tablas, entidades de datos y vistas. Los datos se pueden actualizar con los datos de los documentos electrónicos entrantes. Se pueden utilizar diversos objetivos en una sola asignación de modelo.
-- Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
-
-Un componente de modelo de datos está diseñado para cada dominio del negocio que se debe usar como origen de datos unificado para creación de informes y que aísla los informes de la implementación física de los orígenes de datos. Representa conceptos y funcionalidades de dominio de negocio específicos en un formulario que hace que el diseño inicial del formato y el mantenimiento posterior sean más eficientes.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componentes del formato para los documentos electrónicos salientes
-
-Un componente de formato es el esquema de la salida de informes que se generará en el momento de la ejecución. Un esquema consta de los siguientes elementos:
-
-- Un formato que define la estructura y el contenido del documento electrónico saliente que se genera en tiempo de ejecución.
-- Orígenes de datos como un conjunto de parámetros de entrada del usuario y un modelo determinado de los datos de dominio que usa la asignación de modelo seleccionado.
-- Una asignación de formato como un conjunto de vinculaciones de los orígenes de datos de formato que tienen elementos individuales de formato que especifican, en tiempo de ejecución, el flujo de datos y las reglas de generación de salida de formato.
-- Una validación del formato como un conjunto de reglas configurables que controlan la generación de informes en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la generación de los pagos de proveedor y produzca una excepción cuando falten los atributos específicos del proveedor seleccionado, por ejemplo el número de cuenta bancaria.
-
-Un componente de formato admite las siguientes características:
-
-- Creación de salida de informes como archivos individuales en diversos formatos, como por ejemplo, texto, XML, documentos de Microsoft Word u hojas de cálculo.
-- Creación de varios archivos por separado y encapsulación de esos archivos en archivos zip.
-
-Un componente de formato le permite adjuntar archivos específicos que se pueden usar en la salida de informes:
-
-- Libros de Excel que contienen una hoja de cálculo que se puede usar como plantilla para salida en el formato de hoja de cálculo de OPENXML
-- Los archivos de word que contienen un documento que se puede usar como plantilla para salida en el formato de documento de Microsoft Word
-- Otros archivos que se pueden incorporar en la salida de formato como archivos predefinidos
-
-La ilustración siguiente muestra fluyen los datos para estos formatos.
-
-[![Flujo de datos para componentes de formato saliente.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componentes del formato para los documentos electrónicos entrantes
-
-Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
-
-- Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
-- Una asignación de formato que vincula elementos individuales de formato a elementos de un modelo de datos específico de dominio. En tiempo de ejecución, los elementos en el modelo de datos especifican el flujo de datos y las reglas para importar datos desde un documento de entrada y después almacenar los datos en un modelo de datos.
-- Una validación del formato como un conjunto de reglas configurables que controlan la importación de datos en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la importación de datos de un extracto bancario que tenga pagos de proveedor y produzca una excepción cuando falte un atributo específico del proveedor seleccionado, por ejemplo el código de identificación del proveedor.
-
-La ilustración siguiente muestra fluyen los datos para estos formatos.
-
-[![Flujo de datos para componentes de formato entrante.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para el tipo distinto de documentos de entrada.
 
 #### <a name="component-versioning"></a>Control de versiones de componentes
 

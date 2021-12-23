@@ -2,7 +2,7 @@
 title: Depreciación de activo fijo
 description: Este tema proporciona información general de la depreciación en Activos fijos.
 author: moaamer
-ms.date: 10/30/2017
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675009"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890989"
 ---
 # <a name="fixed-asset-depreciation"></a>Depreciación de activo fijo
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema proporciona información general de la depreciación en Activos fijos.
 
 La depreciación es una transacción periódica que reduce normalmente el valor del activo fijo en el balance de situación y que se carga como un gasto en la cuenta de pérdidas y ganancias. Por lo tanto, se usa normalmente una cuenta principal para abonar la depreciación periódica en el balance de situación. Una cuenta de contrapartida es una cuenta en la parte de pérdidas y ganancias del plan contable.
+
+A partir de la versión 10.0.24, la opción de configuración de reserva del activo **Calcular la depreciación positiva** en la página **Reservas** permite la depreciación para cargar un activo fijo que se adquiere con valor neto negativo (crédito).
 
 ## <a name="depreciation-adjustment"></a>Ajuste de depreciación
 Normalmente, solo se registra una corrección en una transacción de depreciación registrada como un ajuste de depreciación. Por lo tanto, la cuenta principal y la cuenta de contrapartida se configuran de la misma forma que las cuentas para depreciación. Un ajuste de depreciación puede ser un importe positivo o negativo, pero la función de la cuenta principal (como una cuenta de balance de situación) y la función de la cuenta de contrapartida (por lo general, una cuenta de pérdidas y ganancias) no se modifica.

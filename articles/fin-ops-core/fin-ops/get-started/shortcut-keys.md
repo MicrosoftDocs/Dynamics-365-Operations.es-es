@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800202"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913527"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos en las aplicaciones de Finance and Operations.
 
@@ -150,6 +149,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Entrar                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
+| Mueve la columna actual a la posición siguiente/anterior (centrado en la fila del encabezado)                                   | Ctrl+Mayús+Flecha derecha / Ctrl+Mayús+Flecha izquierda |
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Entrar                           |
 | Cambiar el tamaño de la columna actual para que se ajuste al contenido (centrado en la fila del encabezado)                                           | A (o haga doble clic en el controlador de tamaño de la columna) |
 

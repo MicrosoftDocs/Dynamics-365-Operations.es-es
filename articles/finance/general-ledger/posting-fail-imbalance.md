@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605438"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903259"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Error de publicación de diario debido a desequilibrio
 
@@ -52,13 +52,13 @@ En un escenario admitido, un comprobante puede tener más de una divisa de trans
 
 Si todas las líneas de un comprobante tienen la misma divisa de transacción y si los importes en la divisa de la transacción están equilibrados, el sistema verifica que los importes en la divisa contable estén equilibrados. Si el comprobante se introducen en una divisa extranjera, el tipo de cambio en las líneas del comprobante se utiliza para convertir los importes en la divisa de la transacción a la divisa contable. Primero, cada línea del comprobante se traduce y se redondea a dos decimales. Luego, las líneas se suman para determinar el total de débitos y créditos. Debido a que se traduce cada línea, es posible que los débitos totales y los créditos totales no estén equilibrados. Sin embargo, si el valor absoluto de la diferencia está dentro del valor de **Diferencia máxima de céntimo** que se define en la página **Parámetros del libro mayor**, se publicará el comprobante y la diferencia se contabilizará automáticamente en la cuenta de diferencia de céntimos.
 
-Si el comprobante tiene más de una divisa de transacción, cada línea del comprobante se convierte a la divisa contable y se redondea dos decimales, y luego se suman las líneas para determinar el total de débitos y créditos. Para estar equilibrado, los débitos y créditos deben estar equilibrados, ya sea como traducidos o cuando se incluye la diferencia de redondeo del centavo de la moneda contable.
+Si el comprobante tiene más de una divisa de transacción, cada línea del comprobante se convierte a la divisa contable y se redondea dos decimales, y luego se suman las líneas para determinar el total de débitos y créditos. Para que se consideren equilibrados, los débitos y créditos deben estar equilibrados en la divisa contable.  Una cuenta de diferencia de decimales nunca se agrega al comprobante en la moneda contable para equilibrar los débitos y créditos. 
 
 ### <a name="reporting-currency"></a>Divisa de notificación
 
 Si todas las líneas de un comprobante tienen la misma divisa de transacción y si los importes en la divisa de la transacción están equilibrados, el sistema verifica que los importes en la divisa de notificación estén equilibrados. Si el comprobante se introducen en una divisa extranjera, el tipo de cambio en las líneas del comprobante se utiliza para convertir los importes en la divisa de la transacción a la divisa de notificación. Primero, cada línea del comprobante se traduce y se redondea a dos decimales. Luego, las líneas se suman para determinar el total de débitos y créditos. Debido a que se traduce cada línea, es posible que los débitos totales y los créditos totales no estén equilibrados. Sin embargo, si la diferencia está dentro del valor de **Redondeo máximo de céntimos en divisa de notificación** que se define en la página **Parámetros del libro mayor**, se publicará el comprobante y la diferencia se contabilizará automáticamente en la cuenta de diferencia de céntimos.
 
-Si el comprobante tiene más de una divisa de transacción, cada línea del comprobante se convierte a la divisa de notificación y se redondea dos decimales, y luego se suman las líneas para determinar el total de débitos y créditos. Para estar equilibrado, los débitos y créditos deben estar equilibrados, ya sea como traducidos o cuando se incluye la diferencia de redondeo del centavo de la moneda de notificación.
+Si el comprobante tiene más de una divisa de transacción, cada línea del comprobante se convierte a la divisa de notificación y se redondea dos decimales, y luego se suman las líneas para determinar el total de débitos y créditos. Para que se consideren equilibrados, los débitos y créditos deben estar equilibrados en la divisa de notificación.  Una cuenta de diferencia de decimales nunca se agrega al comprobante en la divisa de notificación para equilibrar los débitos y créditos.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Ejemplo de un desequilibrio de divisa contable
 

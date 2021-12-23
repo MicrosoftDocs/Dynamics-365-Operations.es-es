@@ -2,7 +2,7 @@
 title: Configurar nombres de diarios de arrendamiento
 description: Este tema explica cómo definir nombres de diarios de arrendamiento. Los nombres de los diarios de arrendamiento especifican los diarios en los que se contabilizan las entradas que se originan en Arrendamiento de activos.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b9d8136ae4f960a586b9526751fc8bf6e7675c8d
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343223"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890759"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurar nombres de diarios de arrendamiento
 
@@ -39,6 +39,7 @@ Para configurar los nombres de los diarios de arrendamiento, siga estos pasos.
 2. En la pestaña **General**, en el campo **Nombre del diario de reconocimiento inicial**, seleccione un diario. Todas las entradas del diario de reconocimiento inicial se registrarán en este nombre de diario.
 3. En el campo **Nombre de diario de facturas**, seleccione un diario. Si la opción **Pagar al proveedor** está configurada en **Sí** para el libro de arrendamiento, las facturas de pago de arrendamiento y gastos se publicarán en este nombre de diario.
 4. En el campo **Nombre de diario de arrendamiento**, seleccione un diario. Todos los movimientos de depreciación, intereses y reclasificación a corto plazo se registrarán en este nombre de diario. Si la opción **Pagar al proveedor** está configurada en **No** para el libro de arrendamiento, las movimientos de pagos de arrendamientos y de pagos de gastos se publicarán en este nombre de diario.
+5. En el campo **Nombre de diario de modificación de arrendamiento**, seleccione un diario. Las transacciones de ajuste, terminación y deterioro del arrendamiento se contabilizarán en este nombre de diario. El nombre de diario que seleccione no debe tener un flujo de trabajo o una aprobación asignados. Si el nombre del diario de modificación del arrendamiento no está definido, las transacciones de ajuste, terminación y deterioro del arrendamiento se registrarán en el nombre del diario que se seleccione en el campo **Nombre del diario de arrendamiento**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

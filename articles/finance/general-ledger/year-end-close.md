@@ -2,7 +2,7 @@
 title: Cierre de fin de año
 description: Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778275"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892486"
 ---
 # <a name="year-end-close"></a>Cierre de fin de año
 
@@ -44,7 +44,7 @@ En la página de **Cuenta principal**:
 En la página **Parámetros de Contabilidad general** en **Cierre del ejercicio**:
 
 - La opción **Eliminar entradas de cierre de año cuando se vuelve a cerrar el año** se usa para especificar si la transacción de apertura generada por el sistema de un cierre de fin de año anterior se debe eliminar cuando se realice de nuevo el cierre de fin de año. Si esta opción se establece **Sí**, se eliminará la transacción de apertura anterior y las transacciones opcionales de cierre y se creará una nueva transacción de apertura o cierre en los saldos actuales. Si se establece esta opción **No**, la transacción de apertura anterior y las transacciones opcionales de cierre se mantendrán y se creará una transacción de apertura o cierre adicional para mover los saldos de las transacciones de ajuste registrados después del cierre de fin de año anterior.
-- La opción **Creación de transacciones de cierre durante una transferencia** se usa para crear transacciones de cierre en el ejercicio que se está cerrando para poner a 0 (cero) los saldos de las cuentas de pérdidas y ganancias. Si esta opción se establece **Sí**, se crean la transacción de apertura y la transacción de cierre. Si se establece esta opción en **No**, solo se crea la transacción de apertura en el siguiente ejercicio para transferir los saldos. Los saldos de las cuentas de pérdidas y ganancias se mantienen al final del ejercicio.
+- La opción **Creación de transacciones de cierre durante una transferencia** se usa para crear transacciones de cierre en el ejercicio que se está cerrando para poner a 0 (cero) los saldos de todas las cuentas principales. Si esta opción se establece **Sí**, se crean la transacción de apertura y la transacción de cierre. Si se establece esta opción en **No**, solo se crea la transacción de apertura en el siguiente ejercicio para transferir los saldos. Los saldos de las cuentas principales se mantienen al final del ejercicio.
 - La opción **Establecer el estado del ejercicio en Cerrado de forma permanente** se usa para establecer el ejercicio en un estado cerrado de forma permanente. Utilice esta opción con cuidado, porque los períodos que tienen un estado cerrado permanentemente no se pueden volver a abrir. Por lo tanto, los ajustes no se pueden contabilizar en el año fiscal. Se recomienda establecer esta opción en **No**.
 - La opción **Se debe completar el número de cupón** ha sido eliminada. Ahora se requiere un comprobante cuando se ejecuta el proceso de cierre de fin de año. En ese momento, el número de cupón se ingresa manualmente.
 

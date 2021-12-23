@@ -1,7 +1,7 @@
 ---
 title: Proponer adquisiciones de activos fijos
 description: Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.
-author: saraschi2
+author: moaamer
 ms.date: 03/17/2021
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAss
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99202763ae32d02f94f1590783727d4f2cf7a7bbe45963d0e175bfc449b134d9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70347009ede494760cd7f51b46db04b434b9fbcc
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742938"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883829"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proponer adquisiciones de activos fijos
 

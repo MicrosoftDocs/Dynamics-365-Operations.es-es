@@ -2,7 +2,7 @@
 title: Transferencia de subdiarios al libro mayor
 description: Este tema describe las capacidades que tienen relación con el proceso de transferencia de subdiarios en la contabilidad general.
 author: rcarlson
-ms.date: 07/20/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 03c04a5eb8b544b582019ddd204382900b162d952842c901f69ed4a853bd8183
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716654"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900739"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferencia de subdiarios al libro mayor
 
@@ -39,7 +39,7 @@ En la versión 10.0.8, se realizaron mejoras para mejorar el rendimiento de la o
 
 La funcionalidad para la transferencia asincrónica de lotes del libro mayor auxiliar ayuda a mejorar la transferencia de datos del libro mayor auxiliar al libro mayor general. Al agrupar conjuntos de transacciones más pequeñas y transferir las transacciones en grupos, la funcionalidad procesa las transacciones de manera más eficiente. Cuando las transacciones se agrupan, los recursos del servidor por lotes se utilizan de manera más eficiente.
 
-La transferencia asincrónica de lotes del libro mayor auxiliar requiere que el servidor de lotes esté configurado, en línea y en funcionamiento. De lo contrario, la opción de transferencia **Asincrónica** no funcionará.
+La transferencia asíncrona de lotes de subdiario contable requiere que el servidor de lotes esté configurado, en línea y funcionando, ya que las tareas de lotes se crean para su ejecución inmediata en el servidor de lotes. Cuando la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general** está habilitado, el trabajo por lotes del sistema **Automatización de procesos** con el nombre **Trabajo del sistema de sondeo de automatización de procesos** también debe habilitarse. Para obtener más información, consulte [Automatización de procesos](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 El cambio de eficiencia a nivel de lote utiliza un único trabajo por lotes recurrente para todas las entidades legales del sistema. En tiempo de ejecución, se crea un nuevo trabajo por lotes para procesar los registros necesarios que aún no se han transferido. Se pueden controlar más configuraciones desde la página **Automatización de procesos** en la administración del sistema. En esa página, puede modificar el proceso en segundo plano, cambiar la frecuencia y definir un período de suspensión.
 

@@ -1,5 +1,5 @@
 ---
-title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.23
+title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
 description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777800"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891808"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ En este tema se enumeran las características nuevas o modificadas en la versió
 
 - **Versión preliminar:** octubre de 2021
 - **Disponibilidad general de la versión (actualización automática):** diciembre de 2021
+- **Disponibilidad general de la versión (actualización automática):** enero de 2022
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -53,6 +54,7 @@ Si desea activar o desactivar alguna de estas características, debe hacerlo en 
 | Gestión de inventario y almacenes | \[Rusia\] Registrar transacciones de inventario financieras Storno según el indicador de corrección del asiento financiero de los pedidos de ventas | Esta característica afecta la funcionalidad de correcciones de notas de crédito para Rusia. Permite el registro de transacciones de inventario para facturas de ventas de acuerdo con la opción de corrección en el libro de contabilidad. Cuando esta característica está habilitada, no hay más discrepancias entre la marca **Corrección** en el comprobante financiero de la transacción de inventario y la marca **Storno** en transacciones de inventario. |
 | Gestión de inventario y almacenes | (Rusia) Ejecutar cálculo de informe de facturación de saldo de inventario por lotes | Para la traducción al ruso de Supply Chain Management, esta característica proporciona la posibilidad de ejecutar el informe de *facturación de saldo de inventario* por lotes, almacenarlo y ver los informes generados anteriormente. |
 | Gestión de inventario y almacenes | (Rusia) Usar traducciones al idioma local en los formularios principales específicos del país o la región en Administración de inventario | Para la traducción al ruso de Supply Chain Management, esta característica permite el uso de traducciones rusas para nombres de productos/artículos y unidades de medida en las siguientes impresiones de inventario específicas de Rusia: Lista de recuento (INV-3), Lista de recuento (INV-5) y Lista de recuento (INV-6). |
+| Planificación maestra | Azure Machine Learning Service para previsión de demanda | Esta característica permite que Azure Machine Learning Service genere pronósticos de demanda basados en datos históricos. Para obtener más información, consulte [Configuración de la previsión de demanda](../master-planning/demand-forecasting-setup.md). |
 | Adquisición y abastecimiento | Eliminar historial de actualización de pedido de compra | Esta característica le permite eliminar registros históricos temporales relacionados con actualizaciones de órdenes de compra. Agrega un nuevo botón llamado **Eliminar historial de actualización de compra** al panel de acciones en la página **Todas las órdenes de compra**. De forma predeterminada, esta característica está habilitada. |
 | Control de producción | (Versión preliminar) Selección automática de materiales habilitados para almacén para las listas de selección con registro automático | Esta característica permite seleccionar y resolver automáticamente dimensiones de inventario para diarios de lista de selección registrados automáticamente, derivados y de lista de selección previa. |
 | Control de producción | Validar la caducidad de las materias primas frente a la fecha de consumo planificada | Esta característica cambia la forma en que se validan las fechas de vencimiento de los lotes al reservar un lote de materia prima para utilizarlo durante la producción. Cuando esta característica está habilitada, la fecha de vencimiento del lote se valida con la fecha de consumo planificado (la fecha de la materia prima), según lo establecido en la línea de lista de materiales de producción o en la línea de fórmula de orden de lote. Cuando esta característica está desactivada, la fecha de vencimiento del lote se valida con la fecha de entrega planificada de la producción o el pedido del lote (como anteriormente). |

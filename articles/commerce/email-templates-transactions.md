@@ -2,7 +2,7 @@
 title: Crear plantillas de correo electrónico para eventos transaccionales
 description: Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 69ba8821cde6788d6e0accb37288f92acdfc776c
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: 25d7fcb803645f50ee4f5c608f5b6e789dfe3c31
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713806"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913761"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
@@ -136,7 +136,7 @@ El tipo de notificación de cliente potencial B2B aprobado admite los siguientes
 | `storename`        | El nombre del canal en el que se creó el cliente potencial. |
 | `storeurl`         | Vacío por defecto. Se debe crear una extensión personalizada para usar este marcador de posición. |
 
-### <a name="b2b-prospect-approved"></a>Cliente potencial B2B aprobado
+### <a name="b2b-prospect-rejected"></a>Cliente potencial B2B rechazado
 
 El tipo de notificación *Cliente potencial B2B rechazado* se activa cuando se rechaza la solicitud de incorporación de un cliente potencial en la sede de Commerce. Para obtener más información sobre cómo aprobar o rechazar clientes potenciales B2B, consulte [Configurar el usuario administrador para un nuevo socio comercial](b2b/manage-b2b-users.md#set-up-the-administrator-user-for-a-new-business-partner). 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566704"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891962"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -223,7 +223,7 @@ Cuando usa este enfoque, la página **Relaciones de operación** se convierte en
 Si no especifica un recurso de operaciones o un grupo de recursos como parte de los requisitos de recurso para una operación, los recursos aplicables pueden operar a varias velocidades. Por lo tanto, el tiempo necesario para procesar una operación puede variar. Para resolver este problema, puede usar el campo **Fórmula** de la relación de operación para especificar cómo se calcula el tiempo del proceso. Están disponibles las siguientes opciones:
 
 - **Estándar**: (opción predeterminada) el cálculo usa solo los campos de la relación de operación y multiplica el tiempo de ejecución especificado por la cantidad del pedido.
-- **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. El **Tiempo de proceso** se calcula como **Cantidad de pedido** dividida por **Capacidad**.
+- **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. El **Tiempo de proceso** se calcula como **Cantidad de pedido** dividida por **Capacidad**. El valor de la capacidad no es específico de una unidad de medida concreta y, por tanto, no se convierte en función del campo **Unidad de capacidad** que es solo un campo descriptivo que no se utiliza en los cálculos.
 - **Lote:** una capacidad de lote se calcula usando la información de la relación de operación. El número de lotes y, por tanto, el tiempo del proceso se pueden calcular en función de la cantidad del pedido.
 - **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 

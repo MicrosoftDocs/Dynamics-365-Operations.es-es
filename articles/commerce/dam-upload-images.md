@@ -2,7 +2,7 @@
 title: Cargar imágenes
 description: En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 08/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423264"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891531"
 ---
 # <a name="upload-images"></a>Cargar imágenes
 
@@ -41,7 +41,8 @@ Al cargar una imagen, se puede especificar la siguiente información.
 - **Publicar activos después de subir**: cuando esta casilla de verificación está seleccionada, la imagen o las imágenes se publican inmediatamente después de la carga.
 
 > [!NOTE]
-> Los activos de imagen con una categoría asignada también se etiquetan automáticamente con la categoría como una palabra clave para ayudar a buscar activos de una categoría específica.
+> - Los activos de imagen con una categoría asignada también se etiquetan automáticamente con la categoría como una palabra clave para ayudar a buscar activos de una categoría específica.
+> - Las páginas de detalles del producto generan dinámicamente el **Texto alternativo** usando el nombre del producto, así que cambiar el **Texto alternativo** por una imagen de producto no tendrá ningún impacto en la imagen renderizada.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Convenciones de nomenclatura para imágenes omnicanal 
 

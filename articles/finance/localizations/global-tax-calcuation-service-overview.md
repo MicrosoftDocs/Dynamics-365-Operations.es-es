@@ -2,7 +2,7 @@
 title: Información general del cálculo de impuestos
 description: Este tema explica el alcance general y las características de la funcionalidad de cálculo de impuestos.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647066"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892433"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
@@ -64,6 +64,20 @@ El cálculo de impuestos está implementado en las siguientes geografías de Azu
 
 > [!NOTE]
 > Cálculo de impuestos no admite la versión anterior de Dynamics 365, como Dynamics AX 2012, o implementaciones locales de Dynamics 365.
+
+## <a name="versions"></a>Versiones
+Le recomendamos que importe y configure su configuración de cálculo de impuestos con la versión que coincida con su versión de Finance o Supply Chain Management.
+
+| Versión de Finance o Supply Chain Management | Versión de configuración de impuestos               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Configuración de impuestos - Europa 30.12.82     |
+| 10.0.19         | Configuración de Cálculo de impuestos 36.38.193 |
+| 10.0.20         | Configuración de Cálculo de impuestos 40.43.208 |
+| 10.0.21         | Configuración de Cálculo de impuestos 40.48.215 |
+| 10.0.22         | Configuración de Cálculo de impuestos 40.48.215 |
+| 10.0.23         | Configuración de Cálculo de impuestos 40.50.221 |
+| 10.0.24         | Configuración de Cálculo de impuestos 40.50.225 |
+
 
 ## <a name="data-flow"></a>Flujo de datos
 
@@ -169,6 +183,10 @@ En la versión 10.0.23 se admiten los siguientes países o regiones para la dire
 - Japón
 - Malasia
 - Singapur
+
+En la versión 10.0.24 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+
+- México
 
 ## <a name="related-resources"></a>Recursos relacionados
 

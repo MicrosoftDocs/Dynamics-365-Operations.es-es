@@ -2,19 +2,19 @@
 title: Descripción del servicio para aplicaciones de Finance and Operations
 description: Este tema proporciona la descripción del servicio para aplicaciones de Finance and Operations.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825409"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898398"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descripción del servicio para aplicaciones de Finance and Operations
 
@@ -314,7 +314,7 @@ Los planes y procedimientos de recuperación ante desastres de Microsoft se exam
 | Microsoft aprovisiona un entorno secundario en el centro de datos emparejado de Azure cuando se implementa la instancia de producción principal. Para obtener más información, consulte [Continuidad empresarial y recuperación ante desastres (BCDR): regiones emparejadas de Azure](/azure/best-practices-availability-paired-regions). | None |
 | Microsoft habilita la redundancia geográfica de Azure SQL y Azure Blob Storage cuando se implementa la instancia de producción principal. | None |
 | Microsoft habilita la copia de seguridad automática en las bases de datos de Azure SQL. | None |
-| <p>Cuando ocurre una interrupción, Microsoft determina si se debe realizar una conmutación por error para el cliente y si habrá pérdida de datos. La pérdida de datos puede durar hasta cinco segundos. Para más información, vea [Restauración geográfica de Azure SQL Database](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>En caso de pérdida de datos, Microsoft solicitará la aprobación del cliente para una conmutación por error.</p> | En caso de pérdida de datos, es posible que el cliente deba proporcionar una autorización por escrito para activar la conmutación por error. |
+| <p>Cuando ocurre una interrupción, Microsoft determina si se debe realizar una conmutación por error para el cliente y si habrá pérdida de datos. Los clientes podrían experimentar una pérdida de datos de hasta 15 minutos, dependiendo de la naturaleza y el momento de la interrupción. | En caso de pérdida de datos, es posible que el cliente deba proporcionar una autorización por escrito para activar la conmutación por error. |
 | Cuando se produce una conmutación por error, el servicio aplicable funciona en modo limitado. El mantenimiento de la actualización no se puede activar en el modo de conmutación por error. | El cliente no puede solicitar implementaciones de paquetes u otras solicitudes de mantenimiento regulares en modo de conmutación por error. |
 | Cuando el centro de datos se vuelve operativo, Microsoft vuelve a la instancia de producción en la región principal de Azure. Se reanudan las operaciones normales. | Es posible que el cliente tenga que cerrar sesión en la conmutación por recuperación a la instancia de producción en la región principal de Azure. |
 

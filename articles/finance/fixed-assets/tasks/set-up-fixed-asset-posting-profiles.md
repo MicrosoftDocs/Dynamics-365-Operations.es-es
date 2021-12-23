@@ -1,7 +1,7 @@
 ---
 title: Configuración de perfiles de registro de activos fijos
-description: Esta guía de la tarea configurará los perfiles de contabilización de activos fijos.
-author: saraschi2
+description: Este procedimiento muestra cómo configurar perfiles de contabilización de activos fijos.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767632"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883777"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configuración de perfiles de registro de activos fijos
 
 [!include [banner](../../includes/banner.md)]
 
-Esta guía de la tarea configurará los perfiles de contabilización de activos fijos.  Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.  Los ejemplos proporcionados en esta guía de la tarea son para un perfil de contabilización básico, aunque se deben crear perfiles de contabilización para sus requisitos específicos de plan de cuentas y de informes financieros.
+Este procedimiento muestra cómo configurar perfiles de contabilización de activos fijos. Los ejemplos proporcionados en el tema son para un perfil de contabilización básico, aunque se deben crear perfiles de contabilización para sus requisitos específicos de plan de cuentas y de informes financieros.
 
 1. En el panel de navegación, vaya a **Módulos > activos fijos > Configuración > Perfiles de contabilización de activos fijos**.
 2. Haga clic en **Nuevo**.
