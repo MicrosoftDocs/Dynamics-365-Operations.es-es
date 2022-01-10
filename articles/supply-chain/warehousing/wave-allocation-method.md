@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576025"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920607"
 ---
 # <a name="wave-allocation"></a>Asignación de oleadas
 
@@ -77,7 +77,7 @@ El procesamiento de la asignación en paralelo requiere que el procesado de olea
 
 Si es necesario, puede deshacer cada uno de los ajustes realizados de forma predeterminada cuando la función *Paralelización de oleadas para el método Asignar oleada* se habilita automáticamente para su instancia. Acción:
 
-- Vaya a **Gestión de almacenes \> Configurar \> Parámetros de gestión de almacenes**. En la pestaña **Procesamiento de oleadas**, aplique sus valores preferidos para **Procesar oleadas en lote** y **Esperar el bloqueo (ms)**.
+- Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**. En la pestaña **Procesamiento de oleadas**, aplique sus valores preferidos para **Procesar oleadas en lote** y **Esperar el bloqueo (ms)**.
 - Vaya a **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**. Seleccione el método `allocateWave`. En el panel de acciones, seleccione **Configuración de tareas** para abrir una página que enumera cada almacén donde el método está configurado para ejecutarse en paralelo. Modifique o elimine la cantidad de tareas por lotes y el grupo de oleadas asignado para cada almacén listado según sea necesario.
 
 ## <a name="troubleshooting"></a>Solución de problemas

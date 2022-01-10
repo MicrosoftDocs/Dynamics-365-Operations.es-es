@@ -2,7 +2,7 @@
 title: Función VALUEIN de ER
 description: Este tema proporciona información general sobre cómo usar la función VALUEIN de informes electrónicos (ER).
 author: NickSelin
-ms.date: 08/18/2020
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f230b05cd88554d30106337ae3e3f684c958c76eaf8ad8eae0dceda53f0b6862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: efa811df360b2ca38eb59bac849e70041405fa81
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729080"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922371"
 ---
 # <a name="valuein-er-function"></a>Función VALUEIN de ER
 
@@ -62,6 +62,9 @@ En general, la función `VALUEIN` se convierte a un conjunto de condiciones **OR
 ```
 
 En algunos casos, se puede traducir a una instrucción de la base de datos SQL mediante el uso del operador `EXISTS JOIN`.
+
+> [!NOTE]
+> El valor que devuelve la función `VALUEIN` devuelve se [usa de manera diferente](er-functions-list-filter.md#usage-notes), dependiendo de si esta función se utiliza para especificar los criterios de selección para la función [`FILTER`](er-functions-list-filter.md) o la función [`WHERE`](er-functions-list-where.md).
 
 ## <a name="example-1"></a>Ejemplo 1
 

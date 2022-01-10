@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 130487c41d8021692968141eca1a16d298a809e1
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913660"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927463"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar los parámetros de un formato de ER por entidad jurídica
 
@@ -224,6 +224,16 @@ También puede usar este enfoque de importar y exportar para transferir un forma
 Si configura parámetros específicos de la aplicación para una versión de un formato ER y luego importa una versión posterior del mismo formato en la instancia de Finance actual, los parámetros específicos de la aplicación existentes no se aplicarán a la versión importada a menos que use la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos**. Para obtener más información, consulte la sección [Reutilizar parámetros existentes](#reuse-existing-parameters) más adelante en este tema.
 
 Cuando selecciona un archivo para importarlo, la estructura de los parámetros específicos de la aplicación en ese archivo se compara con la estructura los orígenes de datos correspondientes del tipo **Búsqueda** en el formato de ER seleccionado para su importación. De forma predeterminada, la importación se completa solo si la estructura de cada parámetro específico de la aplicación coincide con la estructura del origen de datos correspondiente en el formato de ER seleccionado para su importación. Si las estructuras no coinciden, recibe un mensaje de advertencia que indica que la importación no se puede completar. Si fuerza la importación, los parámetros específicos de la aplicación existentes para el formato de ER seleccionado se borrarán, y deberá configurarlos desde el principio.
+
+
+A partir de la versión 10.0.24 de Dynamics 365 Finance, puede cambiar el comportamiento predeterminado y evitar recibir un mensaje de advertencia si habilita la característica **Alinear los parámetros específicos de la aplicación de informes electrónicos durante la importación** en el espacio de trabajo **Administración de características**. Cuando se habilita esta característica, si la estructura de los parámetros específicos de la aplicación que está importando es diferente de la estructura de los orígenes de datos correspondientes en el formato ER objetivo que se ha seleccionado para la importación, esta tendrá éxito en los siguientes casos:
+
+- La estructura del formato de ER de destino se ha cambiado al agregar nuevas columnas de condición a cualquier origen de datos existente del tipo **Búsqueda**. Cuando se completa la importación, se actualizan los parámetros específicos de la aplicación. En todos los registros importados de parámetros específicos de la aplicación, los valores en cada columna de condición agregada se inicializan con el valor predeterminado para el [tipo de datos](er-formula-supported-data-types-primitive.md) de esa columna.
+- La estructura del formato de ER de destino se ha cambiado al eliminar algunas columnas de condición de cualquier origen de datos existente del tipo **Búsqueda**. Cuando se completa la importación, se actualizan los parámetros específicos de la aplicación. En todos los registros importados de parámetros específicos de la aplicación, se eliminan los valores de cada columna de condición eliminada.
+- La estructura del formato de ER de destino se ha cambiado al agregar nuevos orígenes de datos del tipo **Búsqueda**. Cuando se completa la importación, se agregan las búsquedas añadidas a los parámetros específicos de la aplicación.
+- La estructura del formato de ER de destino se ha cambiado al eliminar algunos de los orígenes de datos existentes del tipo **Búsqueda**. Cuando se completa la importación, todos los artefactos relacionados con los orígenes de datos del tipo **Búsqueda** que se eliminaron del formato ER de destino se eliminan de los parámetros específicos de la aplicación importados.
+
+Cuando se completa la importación, además de los cambios que se acaban de describir, el estado de los parámetros específicos de la aplicación importados se cambia a **En curso**. Un mensaje de advertencia le informa que los parámetros específicos de la aplicación ajustados automáticamente deben editarse manualmente.
 
 ### <a name="reuse-existing-parameters"></a>Reutilizar parámetros existentes
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae02846c0ec937ebaff440dc5272a135e16c8aa7355ecc303929e760a54b6627
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cdc22eeabda6cf9f08484d698e5096f66af4a12
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760307"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920707"
 ---
 # <a name="quantity-exceeds-under-delivery-percentage-during-packing-slip-generation"></a>La cantidad excede el porcentaje de entrega insuficiente durante la generación del albarán
 
@@ -49,8 +49,8 @@ Utilice el siguiente procedimiento para ajustar el porcentaje de entrega insufic
 
 1. Vaya a **Clientes \> Pedidos \> Todos los pedidos**.
 1. Seleccione el pedido de cliente para el que no puede contabilizar un albarán para la carga.
-1. En la ficha **Líneas de pedido de ventas**, seleccione la línea de pedido de ventas del artículo que supera el porcentaje de entrega insuficiente.
-1. En la pestaña  **Detalles de la línea**, seleccione **Entrega**.
+1. En la ficha **Líneas de pedido de ventas**, seleccione la línea de pedido de ventas del artículo que supera el porcentaje de entrega insuficiente.
+1. En la pestaña **Detalles de la línea**, seleccione **Entrega**.
 1. Estabelzca el campo **Infraentrega** en un porcentaje mayor que se adapte a la cantidad que se ha recogido frente a la cantidad de carga, de modo que pueda producirse la generación del albarán.
 
 ### <a name="reverse-and-make-adjustments"></a>Invierta y haga ajustes
@@ -60,14 +60,14 @@ Invierta todo lo que se ha contabilizado para la carga (por ejemplo, el albarán
 Utilice el siguiente procedimiento para cancelar un albarán.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Cancelar albaranes**.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Cancelar albaranes**.
 
 Utilice el siguiente procedimiento para revertir una confirmación de envío.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
 
 Utilice el siguiente procedimiento para revertir el trabajo.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Cargas**, en el grupo **Trabajo**, seleccione **Invertir el trabajo**.
+1. En el panel de acciones, en la pestaña **Cargas**, en el grupo **Trabajo**, seleccione **Invertir el trabajo**.

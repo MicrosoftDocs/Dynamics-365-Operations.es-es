@@ -1,8 +1,8 @@
 ---
 title: Configurar y administrar el registro de la base de datos
 description: Puede realizar un seguimiento de los cambios en las tablas y campos en Dynamics 365 Human Resources con registro de base de datos.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781666"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924829"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar y administrar el registro de la base de datos
 
@@ -93,14 +93,14 @@ Puede eliminar todo o parte de los registros de la base de datos, utilizando las
 Siga estos pasos para configurar la limpieza del registro de bases de datos: 
 
 1. Vaya a **Administración del sistema > Enlaces > Base de datos > Registro de bases de datos**. Seleccione **Limpiar registro**.
-
-2. Elija un método de selección de registros para eliminar especificando una de las siguientes opciones:
+2. En el encabezado **Registros a incluir**, seleccione **Filtro**.
+3. Elija el método que se utilizará para seleccionar los registros que desee eliminar. Introduzca una de las siguientes opciones:
 
    - ID de tabla
    - Tipo de registro
    - Fecha y hora de creación
 
-3. Utilice la pestaña **Limpieza de registro de bases de datos** para determinar cuándo ejecutar la tarea de limpieza del registro. De forma predeterminada, los registros de la base de datos están disponibles durante 30 días.
+4. Utilice la pestaña **Limpieza de registro de bases de datos** para determinar cuándo ejecutar la tarea de limpieza del registro. De forma predeterminada, los registros de la base de datos están disponibles durante 30 días.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

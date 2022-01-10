@@ -2,7 +2,7 @@
 title: Configurar la visibilidad de inventario
 description: Este tema describe cómo configurar Visibilidad de inventario.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678480"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920307"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
 
@@ -61,7 +61,7 @@ Una vez completada la configuración, asegúrese de seleccionar **Actualizar con
 Cada origen de datos representa un sistema del que provienen sus datos. Los nombres de origen de datos de ejemplo incluyen `fno` (que significa aplicaciones de "Dynamics 365 Finance and Operations") y `pos` (que significa "punto de venta"). De forma predeterminada, Supply Chain Management está configurado como origen de datos predeterminado (`fno`) en Visibilidad de inventario.
 
 > [!NOTE]
-> El origen de datos `fno` está reservado para Dynamics 365 Supply Chain Management.
+> El origen de datos `fno` está reservado para Supply Chain Management. Si su complemento de visibilidad de inventario está integrado con un entorno de Supply Chain Management, le recomendamos que no elimine las configuraciones relacionadas con `fno` en la fuente de datos.
 
 Para añadir un origen de datos, siga estos pasos.
 
@@ -273,17 +273,17 @@ El resultado de `MyCustomAvailableforReservation`, basado en la configuración d
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuración de partición
 
-La configuración de la partición consta de una combinación de dimensiones base. Define el patrón de distribución de datos. Las operaciones de datos en la misma partición admiten un alto rendimiento y no cuestan demasiado. Por tanto, unos buenos patrones de partición pueden aportar importantes beneficios.
-
-Visibilidad de inventario proporciona la siguiente configuración de partición predeterminada.
+Actualmente, la configuración de la partición consta de dos dimensiones base (`SiteId` y `LocationId`) que indican cómo se distribuyen los datos. Las operaciones en la misma partición pueden ofrecer un mayor rendimiento a un menor costo. La siguiente tabla muestra la configuración de partición predeterminada que proporciona el complemento Visibilidad de inventario.
 
 | Dimensión base | Jerarquía |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> La configuración de partición predeterminada es solo para referencia. No es necesario definirla en Visibilidad de inventario. Actualmente, la configuración de la partición no es compatible.
+La solución incluye esta configuración de partición por defecto. Por lo tanto, *no es necesario volver a calcular manualmente*.
+
+> [!IMPORTANT]
+> No personalice la configuración de partición predeterminada. Si lo elimina o lo cambia, es probable que provoque un error inesperado.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configuración de jerarquía de índice de productos
 
