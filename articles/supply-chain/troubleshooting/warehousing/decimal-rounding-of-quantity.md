@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e0475aab452daa9e1a6f012e17a59e611010da
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726570"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920482"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>El redondeo decimal de la cantidad de actualización física es incorrecto
 
@@ -49,10 +49,10 @@ Use el siguiente procedimiento para revisar las líneas de carga y realizar ajus
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
 1. Seleccione la carga para la que el albarán no se puede generar.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
-1. En la pestaña  **Líneas de carga**, seleccione la línea de carga para el artículo que causa un problema.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En la pestaña **Líneas de carga**, seleccione la línea de carga para el artículo que causa un problema.
 1. Seleccione **Reducir la cantidad recolectada** para ajustar la cantidad recogida.
-1. En la pestaña  **Detalles de la línea**, seleccione **Pedido**.
+1. En la pestaña **Detalles de la línea**, seleccione **Pedido**.
 1. Establezca el campo **Cantidad** en la cantidad recogida (es decir, el valor del campo **Cantidad creada por trabajo**), para que pueda ocurrir la generación del albarán.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Revise sus líneas de carga y realice ajustes para asegurarse de que la unidad y la cantidad estén alineadas con la precisión decimal de la unidad

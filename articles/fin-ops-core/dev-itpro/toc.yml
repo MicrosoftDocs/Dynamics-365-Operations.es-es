@@ -228,7 +228,7 @@
               href: data-entities/data-task-automation.md
             - name: Espacio de trabajo de la lista de comprobación de validación de datos
               href: user-interface/data-validation-workspace.md
-            - name: Descripciones de errores de gestión de datos
+            - name: Descripciones de errores de administración de datos
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Archivos de memoria de traducción
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Extensión de Azure DevOps (versión preliminar pública)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Integración de Microsoft Power Platform
           items:
             - name: Información general
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Copiar un trabajo por lotes
                   href: sysadmin/copy-batch-job.md
+                - name: Programación de lotes basada en prioridades
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Períodos de lotes activos
                   href: sysadmin/activeperiod.md
                 - name: Compatibilidad del horario de verano para períodos de lotes activos
@@ -1924,7 +1928,7 @@
                   href: user-interface/section-stacked-chart-subpattern.md
                 - name: Subpatrón de lista tabulada de sección
                   href: user-interface/section-tabbed-list-subpattern.md
-                - name: Subpatrón de iconos de sección
+                - name: Subpatrón de mosaicos de sección
                   href: user-interface/section-tiles-subpattern.md
                 - name: Subpatrón de campos tabulares
                   href: user-interface/tabular-fields-subpattern.md
@@ -1954,7 +1958,7 @@
               items:
                 - name: Crear espacios de trabajo operativos
                   href: user-interface/build-workspaces.md
-                - name: Almacenamiento en caché de iconos y listas para espacios de trabajo
+                - name: Almacenamiento en caché de mosaicos y listas para espacios de trabajo
                   href: user-interface/tile-list-caching-workspaces.md
             - name: Grabador de tareas
               items:

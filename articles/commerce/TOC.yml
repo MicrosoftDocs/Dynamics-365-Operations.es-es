@@ -70,11 +70,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Pasos de instalación para los componentes del canal Retail en un entorno local
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Comprar Finance + Operations (on-premises)
+                - name: Comprar Finance + Operations (local)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Orientación para la implementación de Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-            - name: Obtener asistencia
+            - name: Obtener soporte
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Actualización y compatibilidad de N-1
               items:
@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (noviembre de 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (octubre de 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
@@ -842,7 +840,7 @@
           items:
             - name: Información general de extractos
               href: retail-statements.md
-            - name: Comprobador de coherencia de transacción
+            - name: Validar las transacciones de la tienda para el cálculo de extractos
               href: valid-checker.md
             - name: Deshabilitar reglas en comprobador de coherencia para transacciones comerciales
               href: disable-consistency-check-rule.md
@@ -1118,7 +1116,7 @@
                       href: interactive-feature-module.md
                     - name: Módulo de suscripción
                       href: subscribe-module.md
-                    - name: Módulo de lista de iconos
+                    - name: Módulo de lista de mosaicos
                       href: tile-list-module.md
                 - name: Módulos de encabezado y pie de página
                   items:
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Configurar integración fiscal para el canal de Commerce
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Configurar la canalización de compilación para la muestra de integración fiscal
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Perfiles de certificado definidos por el usuario para tiendas
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory Configuration Service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Ejemplo de integración de servicio de registro para Austria
                   href: localizations/emea-aut-fi-sample.md
+                - name: Directrices de implementación para la muestra de integración fiscal para Austria (heredada)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
               items:
                 - name: Localización de Commerce para Brasil
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Ejemplo de integración de servicio de registro fiscal para la República Checa
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Directrices de implementación para la muestra de integración fiscal para República Checa (heredada)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Polonia
                   items:
                     - name: Ejemplo de integración de impresora fiscal para Polonia
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Gestión de información de cliente para Polonia
                       href: localizations/emea-pol-customer-information.md
+                    - name: Directrices de implementación para la muestra de integración fiscal para Polonia (heredada)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Francia
               items:
                 - name: Funcionalidad de caja registradora
@@ -1380,6 +1386,8 @@
               items:
                 - name: Ejemplo de integración de servicio de registro fiscal para Alemania
                   href: localizations/emea-deu-fi-sample.md
+                - name: Directrices de implementación para la muestra de integración fiscal para Alemania (heredada)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: India
               items:
                 - name: Integración del impuesto de bienes y servicios (GST) para cajas registradoras
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Gestión de información de cliente para Italia
                   href: localizations/emea-ita-customer-information.md
+                - name: Directrices de implementación para la muestra de integración fiscal para Italia (heredada)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: México
               items:
                 - name: Facturas electrónicas de CFDI globales para México
@@ -1407,6 +1417,8 @@
                 - name: Funcionalidad de caja registradora
                   href: localizations/emea-nor-cash-registers.md
                 - name: Directrices de implementación para cajas registradoras
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Directrices de implementación para cajas registradoras (heredadas)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rusia
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Muestra de integración de unidad de control para Suecia
                   href: localizations/emea-swe-fi-sample.md
+                - name: Directrices de implementación para la muestra de integración de unidad de control para Suecia (heredada)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Muestra de integración de Retail POS con unidades de control (heredada)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Integraciones de informes y Power BI
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Crear un enganche de complemento de canalización de solicitudes
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Componente de la imagen
+                      href: e-commerce-extensibility/image-component.md
                 - name: Desarrollar acciones de datos
                   items:
                     - name: Información general de acciones de datos
@@ -2574,7 +2590,9 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Descargar muestras y paquetes de GitHub y NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: Preguntas frecuentes del SDK de Retail
+                - name: Configurar un agente de compilación de Visual Studio 2017 para crear Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
+                - name: Preguntas más frecuentes del SDK de Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Extensibilidad de punto de venta (PDV)
               items:

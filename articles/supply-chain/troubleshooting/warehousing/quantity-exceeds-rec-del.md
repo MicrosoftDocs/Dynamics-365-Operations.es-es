@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711696"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920407"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>La cantidad que está intentando actualizar supera la cantidad recibida / entregada
 
@@ -62,8 +62,8 @@ Utilice el siguiente procedimiento para ajustar la cantidad de la línea de carg
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
 1. Seleccione la carga para la que el albarán no se puede generar.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
-1. En la pestaña  **Líneas de carga**, seleccione la línea de carga para el artículo que causa un problema.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En la pestaña **Líneas de carga**, seleccione la línea de carga para el artículo que causa un problema.
 1. Seleccione **Reducir la cantidad recolectada** para ajustar la cantidad recogida.
 1. Seleccione el campo **Reducir la línea de carga** para reflejar los ajustes en la línea de carga.
 
@@ -75,5 +75,5 @@ Utilice el siguiente procedimiento para invertir el registro de recogida.
 
 1. Vaya a **Clientes \> Pedidos \> Todos los pedidos**.
 1. Seleccione el pedido de cliente para el que no puede contabilizar un albarán para la carga.
-1. Sobre la pesetaña **Líneas de orden de venta**, seleccione la línea de orden de venta para la que se realizó el registro de picking.
+1. Sobre la pestaña **Líneas de orden de venta**, seleccione la línea de orden de venta para la que se realizó el registro de picking.
 1. Seleccione **Línea de actualización \> Elegir** para despegar los artículos.

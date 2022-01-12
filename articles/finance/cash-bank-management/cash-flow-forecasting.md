@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752913"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945763"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -37,6 +37,7 @@ Una vez completadas estas tareas, puede calcular y analizar las previsiones de f
 La previsión del flujo de caja se puede integrar con el Libro mayor, los proveedores, los clientes y la gestión de presupuesto e inventario. El proceso de previsión utiliza la información de transacción que se especifica en el sistema y el proceso de cálculo prevé el impacto del efectivo esperado de cada transacción. Los siguientes tipos de transacciones se tienen en cuenta al calcular el flujo de efectivo:
 
 - **Pedidos de ventas**: pedidos de ventas que aún no se han facturado y que originan ventas físicas o financieras.
+- **Facturas de texto libre** - Facturas de texto libre que aún no se han publicado y que generan ventas financieras. 
 - **Pedidos de compra**: pedidos de compra que aún no se han facturado y que originan compras físicas o financieras.
 - **Clientes**: transacciones de clientes abiertas (facturas impagadas).
 - **Proveedores**: transacciones de proveedores abiertas (facturas impagadas).
@@ -44,7 +45,9 @@ La previsión del flujo de caja se puede integrar con el Libro mayor, los provee
 - **Entradas de registro de presupuesto**: asientos de registro presupuestario que se seleccionan para previsiones de flujo de efectivo.
 - **Previsiones de la demanda**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
 - **Previsiones de suministro**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
+- **Fuente de datos externa** - Datos externos que se ingresan o importan en los pronósticos de flujo de efectivo mediante plantillas de hojas de cálculo.
 - **Previsiones de proyectos**: gestión de proyectos y previsiones contables mediante modelo de previsión.
+- **Pagos de la autoridad fiscal sobre las ventas de flujo de efectivo** - Montos previstos de pago de la autoridad fiscal sobre las ventas y plazos que dan lugar a pagos financieros. Habilite la función Pagos de la autoridad fiscal sobre las ventas de flujo de efectivo.
 
 ## <a name="configuration"></a>Configuración
 
@@ -94,7 +97,7 @@ Las entradas del registro presupuestario se pueden incluir en la previsión de f
 Las previsiones de suministro y demanda de inventario se pueden incluir en las previsiones de flujo de efectivo. En la pestaña **Gestión del inventario** de la página **Configuración de la previsión de flujo de efectivo** , seleccione el modelo de previsión que se va a incluir en la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en líneas de previsión de suministro y demanda individuales.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurar dimensiones para la previsión del flujo de efectivo
-Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras utilizar para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá cuando la función de pronósticos de flujo de efectivo de Finance Insights esté habilitada. 
+Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras se utilizarán para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá solo cuando la función de pronósticos de flujo de efectivo esté habilitada.
 
 En la pestaña **Dimensiones**, elija de la lista de dimensiones que se utilizarán para el filtrado y utilice las teclas de flecha para moverlas a la columna de la derecha. Solo se pueden seleccionar dos dimensiones para filtrar los datos de pronósticos de flujo de efectivo. 
 
@@ -108,6 +111,10 @@ En la versión 10.0.17, una nueva característica permite la integración con la
 Una vez activada la función de pronóstico del proyecto de flujo de efectivo, el pronóstico del flujo de efectivo se puede ver para cada proyecto en la página **Todos los proyectos**. En el panel Acciones, en la pestaña **Plan**, en el grupo **Pronóstico**, seleccione **Pronóstico de flujo de efectivo**. En los espacios de trabajo **Resumen de efectivo** (véase la sección [Informes](#reporting) más adelante en este tema), el tipo de transacción de pronóstico del proyecto muestra las entradas (ingresos del pronóstico del proyecto) y las salidas (costes del pronóstico del proyecto). Los importes pueden incluirse solo si el campo **Etapa del proyecto** campo de los espacios de trabajo **Resumen de flujo de efectivo** están configurados como **En proceso**.
 
 Las transacciones del proyecto siguen incluidas en el pronóstico de flujo de efectivo de varias maneras, independientemente de si se activa la característica **Previsión del proyecto de flujo de efectivo**. Las facturas de proyecto registradas se incluyen en la previsión como parte de las transacciones de cliente abiertas. Los pedidos de ventas y pedidos de compra iniciados por el proyecto se incluyen en la previsión como pedidos abiertos después de registrarlos en el sistema. También puede transferir previsiones de proyecto a un modelo presupuestario contable. Este modelo presupuestario contable se incluye en la previsión de flujo de efectivo como parte de los asientos de registro presupuestario. Si ha activado la característica **Previsión del proyecto de flujo de efectivo**, no transfiera los pronósticos del proyecto a un modelo de presupuesto contable, ya que esta acción hará que los pronósticos del proyecto se cuenten dos veces.
+
+### <a name="sales-tax-authority-payments"></a>Pagos a la autoridad fiscal 
+
+La función de pagos de la autoridad de impuestos sobre las ventas de flujo de efectivo predice el impacto del flujo de efectivo de los pagos de impuestos sobre las ventas. Utiliza transacciones impagas de impuestos sobre las ventas, períodos de liquidación de impuestos y el plazo de pago del período impositivo para predecir la fecha y el monto de los pagos de flujo de efectivo. 
 
 ### <a name="calculation"></a>Cálculo
 

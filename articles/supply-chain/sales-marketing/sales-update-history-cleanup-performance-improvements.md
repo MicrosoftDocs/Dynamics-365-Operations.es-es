@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2de9d6a7b1b7793b6bb753dd580d052d3c2841
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 610f0d4e0448dd21d10765400f25cd89e3c7a84b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891803"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920282"
 ---
-# <a name="saleshistorycleanupperformanceimprovements"></a>Mejoras de rendimiento de limpieza del historial de ventas
+# <a name="sales-history-cleanup-performance-improvements"></a>Mejoras de rendimiento de limpieza del historial de ventas
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -34,7 +34,7 @@ La característica mejora el trabajo de limpieza existente de las siguientes for
 
 Después de habilitar la característica, el trabajo por lotes **Limpieza del historial de actualizaciones de ventas** (**Ventas y marketing \> Tareas periódicas \> Limpiar \> Limpieza del historial de actualizaciones de ventas**) funcionará como antes, pero con un mejor rendimiento y durante un máximo de 2 horas. Esto significa que es posible que deba ejecutarse varias veces para limpiar todos los datos durante un periodo de tiempo de retención específico.
 
-## <a name="turn-on-the-saleshistorycleanupperformanceimprovements-feature"></a>Activar la característica de mejoras en el rendimiento de la limpieza del historial de ventas
+## <a name="turn-on-the-sales-history-cleanup-performance-improvements-feature"></a>Activar la característica de mejoras en el rendimiento de la limpieza del historial de ventas
 
 Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
 

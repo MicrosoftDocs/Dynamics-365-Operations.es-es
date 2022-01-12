@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a11455c4e3f59ef52d9a1e3d2e6a10c57a070a79
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402234"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920432"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catálogo de aprendizaje para administradores de Dynamics 365 Supply Chain Management
 
@@ -66,7 +66,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 
 ## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
 
-| Contenido | Descripción | Formato | Longitud |
+| Contenido | Descripción | Formato | Length |
 |---------|-------------|--------|--------|
 | [Configurar la gestión de cambios de ingeniería para Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Los fabricantes actuales requieren una sólida gestión de datos de productos, control de versiones y gestión de cambios de ingeniería para tener éxito en un mundo en el que los ciclos de vida de los productos se reducen constantemente, los requisitos de calidad y fiabilidad aumentan y un mayor enfoque en la seguridad del producto. Aprenda a configurar la gestión de cambios de ingeniería en esta ruta de aprendizaje. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 4 horas |
 

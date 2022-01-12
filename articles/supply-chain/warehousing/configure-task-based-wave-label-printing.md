@@ -1,22 +1,22 @@
 ---
 title: Programar la impresión de etiquetas de oleada durante la oleada
 description: Este tema describe cómo configurar y utilizar la funcionalidad para la impresión de etiquetas wave basada en tareas.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777874"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920158"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programar la impresión de etiquetas de oleada durante la oleada
 
@@ -40,7 +40,7 @@ Para utilizar las funciones descritas en este tema, deben estar activadas en su 
 
 Primero debe crear el nuevo método de paso de oleada y habilitarlo para el procesamiento de tareas asincrónicas en paralelo.
 
-1. Vaya a  **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
+1. Vaya a **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
 1. En el panel acciones, seleccione **Regenerar método**. Darse cuenta de que *waveLabelPrinting* se agrega a la lista de métodos de proceso de oleada que puede utilizar en sus plantillas de oleada de envío.
 1. Seleccione el registro donde el campo **Nombre del método** está configurado en *waveLabelPrinting* y, a continuación, en el panel de acciones, seleccione **Configuración de tareas**.
 1. En el Panel de acciones, seleccione **Nuevo** para agregar una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
@@ -51,7 +51,7 @@ Primero debe crear el nuevo método de paso de oleada y habilitarlo para el proc
 
 Ahora puede actualizar una plantilla de oleada existente para que utilice el método de procesamiento *Impresión de etiquetas onduladas* de ondas. Alternativamente, puede crear una nueva plantilla de oleada que la utilice.
 
-1. Vaya a  **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
+1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. En el panel Acciones, seleccione **Editar**.
 1. En el panel de lista, seleccione la plantilla de oleada para actualizar. (Si está utilizando datos de demostración con fines de prueba, puede seleccionar el *envío predeterminado 24*).
 1. En la ficha desplegable **Métodos**, en la columna **Métodos restantes**, seleccione la fila donde el campo **Nombre** está establecido en *waveLabelPrinting*.

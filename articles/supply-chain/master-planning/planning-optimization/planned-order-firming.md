@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778530"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920732"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -80,6 +80,9 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
     - **Agrupar por acuerdo de compra**: establezca esta opción en *Sí* para agrupar órdenes de compra planificadas que tienen el mismo proveedor que los acuerdos de compra existentes y crear una orden de compra por acuerdo de compra. Esta opción se habilita automáticamente cuando **Agrupar por proveedor** está habilitado. Para usar **Agrupar por acuerdo de compra**, **Encontrar acuerdo de compra** debe establecerse en *Sí* en la página **Parámetros de planificación maestra**.
     - **Agrupar por período** (en la sección **Pedidos de compra**): seleccione el período por el que agrupar los pedidos de compra planificados. Para utilizar esta opción, también debe seleccionar la opción **Agrupar por proveedor**.
     - **Agrupar por período** (en la sección **Transferencias**): seleccione el período por el que agrupar los pedidos de transferencia planificados. Los pedidos se agruparán en función de los valores **Desde el almacén** y **Al almacén**.
+
+    > [!NOTE]
+    > Cada una de las opciones de "Agrupar por" hace que el sistema convierta cada orden planificada en una línea en la orden de compra única que resulta de la agrupación.
 
     ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación.](./media/manual-firming.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación")
 

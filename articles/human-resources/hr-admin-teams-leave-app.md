@@ -2,7 +2,7 @@
 title: Aplicación Recursos humanos en Teams
 description: Este tema presenta la aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams.
 author: twheeloc
-ms.date: 12/09/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8eebe154a19dd8476f6e9d75ebfd69fdc5b9e2b7
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913498"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924731"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -41,6 +41,21 @@ Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Team
 Para obtener información sobre la administración de permisos de aplicaciones en Teams, consulte [Administrar las directivas de permisos de aplicaciones en Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
 
 Si desea que sus usuarios vean el calendario de ausencias y ausencias en la aplicación, deberá habilitar **Calendario de ausencias y ausencias en Teams** en Gestión de funciones. Para obtener más información sobre la habilitación de características, consulte [Administrar características](hr-admin-manage-features.md).
+
+## <a name="update-app"></a>Actualización de la aplicación
+>[!NOTE]
+> A partir del 20 de diciembre de 2021, los servicios de bot de la aplicación de recursos humanos alojados en el inquilino de Microsoft serán retirados. No habrá ningún impacto para una extensión actualizada (versión 1.1.5) que está disponible para instalar. El impacto principal estará en la extensión desactualizada (versión 1.1.4). El bot de chat en esta versión dejará de funcionar. La pestaña **Tiempo libre** seguirá funcionando en ambas extensiones.
+
+Para la versión 1.1.4, el chat bot dejará de responder a cualquier mensaje. Por ejemplo, **Iniciar sesión**, **Ver saldos** y **Ver tiempo libre**. La aplicación debe actualizarse manualmente a la última versión. Para obtener más información, consulte [Actualizar aplicaciones en Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+
+Para actualizar a la versión 1.1.5, complete estos pasos:
+1. En Microsoft Teams, vaya a **Aplicaciones**.
+2. Busque la aplicación **Human Resources**.
+3. Seleccione **Actualizar**.
+
+Puede verificar la versión de la aplicación de Recursos Humanos yendo a la pestaña **Acerca de** o a la sección **Aplicación personal**. 
+
+![Pestaña **Acerca de** en Human Resources.](./media/HR-teams-about.png)
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Habilitar notificaciones para la aplicación Human Resources en Teams
 

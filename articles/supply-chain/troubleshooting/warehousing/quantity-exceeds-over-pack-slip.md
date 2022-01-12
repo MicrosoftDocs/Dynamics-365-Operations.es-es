@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 00e3da7767b80e16f9351f59b109765bffc0128fe149cefafc1edda3a6cbcb96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc74c5748950b1f0f001fd89acb2e023640065ee
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781354"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920059"
 ---
 # <a name="quantity-exceeds-over-delivery-percentage-during-packing-slip-generation"></a>La cantidad excede el porcentaje de entrega en exceso durante la generación del albarán
 
@@ -50,10 +50,10 @@ Utilice el siguiente procedimiento para ajustar la cantidad de la línea de carg
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
 1. Seleccione la carga para la que el albarán no se puede generar.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
-1. En la ficha **Líneas de carga**, seleccione la línea de carga del artículo que supera el porcentaje de sobreentrega.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En la ficha **Líneas de carga**, seleccione la línea de carga del artículo que supera el porcentaje de sobreentrega.
 1. Seleccione **Reducir la cantidad recolectada** para ajustar la cantidad recogida.
-1. En la pestaña  **Detalles de la línea**, seleccione **Pedido**.
+1. En la pestaña **Detalles de la línea**, seleccione **Pedido**.
 1. Establezca el campo **Cantidad** en la cantidad recogida (es decir, el valor del campo **Cantidad creada por trabajo**), para que pueda ocurrir la generación del albarán.
 
 ### <a name="adjust-the-over-delivery-percentage"></a>Ajuste el porcentaje de sobreentrega
@@ -62,8 +62,8 @@ Utilice el siguiente procedimiento para ajustar el porcentaje de sobreentrega.
 
 1. Vaya a **Clientes \> Pedidos \> Todos los pedidos**.
 1. Seleccione el pedido de cliente para el que no puede contabilizar un albarán para la carga.
-1. En la ficha **Líneas de pedido de ventas**, seleccione la línea de pedido de ventas del artículo que supera el porcentaje de sobreentrega.
-1. En la pestaña  **Detalles de la línea**, seleccione **Entrega**.
+1. En la ficha **Líneas de pedido de ventas**, seleccione la línea de pedido de ventas del artículo que supera el porcentaje de sobreentrega.
+1. En la pestaña **Detalles de la línea**, seleccione **Entrega**.
 1. Estabelzca el campo **Sobreentrega** en un porcentaje mayor que se adapte a la cantidad que se ha recogido frente a la cantidad de carga, de modo que pueda producirse la generación del albarán.
 
 ### <a name="reverse-and-make-adjustments"></a>Invierta y haga ajustes
@@ -73,14 +73,14 @@ Invierta todo lo que se ha contabilizado para la carga (por ejemplo, el albarán
 Utilice el siguiente procedimiento para cancelar un albarán.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Cancelar albaranes**.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Cancelar albaranes**.
 
 Utilice el siguiente procedimiento para revertir una confirmación de envío.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
 
 Utilice el siguiente procedimiento para revertir el trabajo.
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
-1. En el panel de acciones, en la pestaña **Cargas**, en el grupo **Trabajo**, seleccione **Invertir el trabajo**.
+1. En el panel de acciones, en la pestaña **Cargas**, en el grupo **Trabajo**, seleccione **Invertir el trabajo**.

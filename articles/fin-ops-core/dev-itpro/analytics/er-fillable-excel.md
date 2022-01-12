@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
+ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890882"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7943621"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -364,6 +364,22 @@ Puede solucionar el problema de una de las siguientes formas:
     3. Ejecute el formato de ER modificado.
 
         ![Revise el documento generado en la aplicación de escritorio de Excel.](./media/er-fillable-excel-example2-4.png)
+
+## <a name="limitations"></a>Limitaciones
+
+### <a name="known-epplus-library-limitations"></a>Limitaciones conocidas de la biblioteca EPPlus
+
+#### <a name="external-data-sources"></a>Orígenes de datos externos
+
+Si una de sus plantillas contiene una tabla dinámica basada en un modelo de PowerPivot que se refiere a una [fuente de datos externa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) y **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitado, recibe el siguiente mensaje de error cuando ejecuta un formato ER que usa esa plantilla para generar un documento saliente en formato Excel: "La fuente de caché no es una hoja de cálculo". Para solucionar este problema, tiene las siguientes opciones:
+
+- **Recomendado:** Rediseñe la solución de Excel que está utilizando:
+
+    1. Aísle la parte que contiene pivotes en un libro de Excel separado (libro de trabajo A). 
+    2. Utilice ER para generar un segundo libro de Excel (libro de trabajo B) de Finanzas que tenga los detalles requeridos. 
+    3. Consulte el libro de trabajo B en el libro de trabajo A tan pronto como se genere el libro de trabajo B.
+
+- Utilice una opción que no sea EPPlus para desactivar la función. 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

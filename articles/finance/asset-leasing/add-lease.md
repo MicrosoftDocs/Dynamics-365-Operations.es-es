@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
-ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
+ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
+ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7893654"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7931990"
 ---
 # <a name="add-or-copy-leases-preview"></a>Agregar o copiar arrendamientos (Vista previa)
 
@@ -50,6 +50,9 @@ Una vez que haya terminado de introducir la información para el arrendamiento, 
     La página **Detalles del libro** muestra cómo se contabiliza el arrendamiento mediante los libros que le han sido asignados. Desde aquí, puede ver las programaciones de arrendamiento.
 
     La programación de pagos contiene las entradas de la pestaña **Líneas de programación de pagos** en la página **Agregar arrendamiento**. Sigue pudiendo cambiar cada importe del pago y el pago variable. El pasivo por arrendamiento se calcula en base a la programación de pagos modificada.
+    
+> [!NOTE]
+> La fecha de inicio del pago del arrendamiento debe ser la misma o una fecha posterior a la fecha de inicio del arrendamiento. Recibirá un mensaje de error si la fecha de inicio para el pago es anterior a la fecha de inicio del arrendamiento. 
 
 4. Una vez que haya terminado de revisar la programación de pagos, seleccione **Confirmar programación**. Una vez confirmada la programación, el arrendamiento ya no está disponible para su edición.
 

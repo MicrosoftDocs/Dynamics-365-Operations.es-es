@@ -2,7 +2,7 @@
 title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: twheeloc
-ms.date: 11/03/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 10538c96a7637a95c60beef40a02fdb5432959ec
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771540"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924756"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -35,6 +35,9 @@ Puede encontrar la aplicación Dynamics 365 Human Resources en la tienda de Team
 1. En Microsoft Teams, vaya hasta la lista de aplicaciones.
  
 2. Busque Dynamics 365 Human Resources y luego seleccione el icono **Recursos humanos**.
+
+> [!NOTE]
+> A partir del 20 de diciembre de 2021, los servicios de bot de la aplicación de recursos humanos (versión 1.1.4) alojados en el inquilino de Microsoft serán retirados. La extensión más actualizada (versión 1.1.5) está disponible para instalar. Para obtener más información, consulte [Administrar solicitudes de baja en Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Seleccione el botón **Agregar** para instalar la aplicación.
 

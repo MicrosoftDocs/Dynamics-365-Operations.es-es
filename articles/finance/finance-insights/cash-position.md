@@ -2,7 +2,7 @@
 title: Posición de efectivo
 description: Este tema describe cómo la característica de pronóstico de flujo de efectivo predice la posición de efectivo de una organización para momentos específicos. También describe las opciones que están disponibles para mostrar pronósticos para diferentes períodos.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752889"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945810"
 ---
 # <a name="cash-position"></a>Posición de efectivo
 
@@ -45,5 +45,17 @@ La sección inferior de la pestaña **Posición de efectivo** muestra los detall
 - La cuadrícula **Cuenta bancaria** muestra el impacto de las entradas y salidas de efectivo esperadas en el saldo bancario.
 
 Para guardar y editar la posición de efectivo, cree una instantánea. Para obtener más información sobre cómo trabajar con instantáneas, consulte [Información general sobre instantáneas](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Detalles de la capacidad de posición de efectivo 
+
+La función de posición de efectivo incluye la siguiente funcionalidad. 
+
+- La función de posición de caja muestra el flujo de caja según los documentos existentes en el sistema y las líneas de entrada y salida de caja importadas de sistemas externos.
+- Facilita la integración de datos de flujo de efectivo de sistemas externos en Dynamics 365 Finance. La posición de efectivo también pueden utilizar el marco de importación y exportación de datos. Este marco facilita la integración con Excel OData. También puede combinar datos de varias fuentes para crear una solución integral de posición de efectivo.
+- Introduce una posición de efectivo inteligente. La posición de efectivo se crea en función del comportamiento de pago del cliente para predecir cuándo una empresa puede esperar que llegue efectivo a sus cuentas.
+- Para los pedidos y facturas de los clientes, la función de inteligencia artificial de predicción de pagos del cliente se utiliza para determinar el comportamiento histórico de pago del cliente cuando se pagará un pedido o una factura.
+- Para pedidos y facturas de proveedores, usamos el tiempo promedio entre el envío y la factura y el pago de una factura por proveedor para determinar cuándo se pagará un pedido o factura de proveedor, lo que hace que las salidas de efectivo sean más precisas.
+
+Esto crea una vista más precisa del flujo de efectivo basada en el comportamiento de pago histórico del tesorero. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

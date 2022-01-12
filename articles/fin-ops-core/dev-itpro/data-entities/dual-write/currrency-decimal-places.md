@@ -2,19 +2,19 @@
 title: Migración de tipo de datos de divisa para doble escritura
 description: Este tema describe cómo cambiar la cantidad de lugares decimales que admite la escritura dual para las divisas.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782816"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917739"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -83,9 +83,20 @@ Si necesita que la precisión de la divisa para una divisa específica difiera d
 
 ![Configuración de la divisa para un entorno local específico.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tablas: columna Divisa
+### <a name="tables-currency-column"></a>Tablas: columna Divisa
 
 El número de decimales que se pueden configurar para columnas de divisa específicas está limitado a cuatro.
 
+### <a name="default-currency-decimal-precision"></a>Precisión decimal de moneda predeterminada
+Para conocer el comportamiento esperado de la precisión decimal de la moneda predeterminada en escenarios de migración y no migración, consulte la siguiente tabla. 
+
+| Fecha de creación  | Campo decimal de divisa    | Organización existente (campo de moneda no migrado) | Organización existente (campo de moneda migrado) | Nueva organización creada para la compilación de la publicación 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Campo de moneda creado antes de la compilación 9.2.21111.00146  |     |  |       |
+|    | Precisión máxima visible en la interfaz de usuario   | 4 dígitos    | 10 dígitos    | No disponible    |
+| | Precisión máxima visible en la interfaz de usuario de resultados de consultas de bases de datos y bases de datos         | 4 dígitos   | 10 dígitos   | No disponible    |
+| Campo de moneda creado después de la compilación 9.2.21111.00146 |    |  |     |   |
+|   | Precisión decimal máxima visible en la interfaz de usuario     | 4 dígitos   | 10 dígitos   | 10 dígitos     |
+|          | Precisión decimal máxima visible en la interfaz de usuario de resultados de consultas de bases de datos y bases de datos | 10 dígitos. Sin embargo, solo 4 son significativos con todos los ceros más allá de los 4 dígitos decimales. Esto permite una migración más sencilla y rápida de la organización, si es necesario. | 10 dígitos      | 10 dígitos     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

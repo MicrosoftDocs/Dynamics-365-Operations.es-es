@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744663"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920233"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>La cantidad física de actualización en la unidad tiene que ser distinta de cero
 
@@ -63,10 +63,10 @@ Use el siguiente procedimiento para revisar las líneas de carga y realizar ajus
 
 1. Vaya a **Gestión de almacenes \> Cargas \> Todas las cargas**.
 1. Seleccione la carga para la que el albarán no se puede generar.
-1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
-1. En la ficha **Líneas de carga**, seleccione la línea de carga del artículo que supera la sobreentrega.
+1. En el panel de acciones, en la pestaña **Enviar y recibir**, en el grupo **Contrarrestar**, seleccione **Invertir confirmación de envíos**.
+1. En la ficha **Líneas de carga**, seleccione la línea de carga del artículo que supera la sobreentrega.
 1. Seleccione **Reducir la cantidad recolectada** para ajustar la cantidad recogida.
-1. En la pestaña  **Detalles de la línea**, seleccione **Pedido**.
+1. En la pestaña **Detalles de la línea**, seleccione **Pedido**.
 1. Establezca el campo **Cantidad** en la cantidad recogida (es decir, el valor del campo **Cantidad creada por trabajo**), para que pueda ocurrir la generación del albarán.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Revise sus líneas de carga y realice ajustes para asegurarse de que la unidad y la cantidad estén alineadas con la precisión decimal de la unidad

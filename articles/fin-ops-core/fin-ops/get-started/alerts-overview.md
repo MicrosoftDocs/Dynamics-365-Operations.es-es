@@ -1,5 +1,5 @@
 ---
-title: Visión general de alertas
+title: Resumen de alertas (contiene video)
 description: Este tema proporciona información general acerca de alertas. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable.
 author: RichdiMSFT
 ms.date: 09/04/2019
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d504b751a3a14309ab84192b6af0946018f43b61d8b27d86dd3cbea4299a69ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 857a837872abff44c8c7af5e938f7610fa61d94e
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757252"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937480"
 ---
 # <a name="alerts-overview"></a>Información general de alertas
 

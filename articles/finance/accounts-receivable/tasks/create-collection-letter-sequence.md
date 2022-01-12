@@ -1,8 +1,8 @@
 ---
 title: Crear una secuencia de cartas de cobro
 description: Use este procedimiento para crear una secuencia de cartas de cobro.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753595"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921234"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Crear una secuencia de cartas de cobro
 
@@ -31,10 +31,10 @@ Use este procedimiento para crear una secuencia de cartas de cobro. Esta tarea u
 3. En el campo **Secuencia de la carta de cobro**, especifique un identificador de secuencia que represente a la secuencia. Se usará cuando se configure un perfil de contabilización.
 4. En el campo **Descripción**, escriba un valor.  Las condiciones de pago son opcionales. Si especifica un valor aquí, la factura de la cuota de la carta de cobro usará estas condiciones de pago, en lugar de las condiciones de pago almacenadas con el cliente.  
 5. En el campo **Código de la carta de cobro**, seleccione el código para la primera carta de cobro que desee enviar. La primera carta de cobro se crea de acuerdo con la fecha de vencimiento que figura en la factura, el valor especificado para el período de gracia en el campo Días en esta línea y otra información indicada en esta línea.  
-6. En el campo **Descripción**, escriba un valor. La divisa de la cuota se establecerá por defecto en la divisa del cliente. Este código de divisa puede ser diferente de la divisa de la factura.  
-7. Haga clic en **Agregar** para agregar la siguiente carta de cobro que se enviará en la secuencia. En muchos casos, la primera carta de cobro es solo una advertencia. Puede agregar cuotas si es necesario.  
-8. En el campo del código de carta de cobro, seleccione la siguiente carta de cobro que se enviará en la secuencia.
-9. En el campo **Descripción**, escriba un valor.
+6. En el campo **Descripción**, escriba un valor. 
+7. La divisa predeterminada de la cuota es la divisa de la entidad jurídica. Este código de divisa puede ser diferente de la divisa de la factura.   
+8. Haga clic en **Agregar** para agregar la siguiente carta de cobro que se enviará en la secuencia. En muchos casos, la primera carta de cobro es solo una advertencia. Puede agregar cuotas si es necesario.  
+9. En el campo **Código de la carta de cobro**, seleccione la siguiente carta de cobro que se enviará en la secuencia.
 10. En el campo **Cuenta principal**, seleccione la cuenta de ingresos que se usará para las cuotas.
 11. Especifique la cuota que se cobrará cuando se registre esta carta de cobro.
 12. En el campo **Grupo de impuestos de artículos**, haga clic en el botón desplegable para abrir la búsqueda. Seleccione un grupo de impuestos de artículo si se deben calcular impuestos en la cuota.  
