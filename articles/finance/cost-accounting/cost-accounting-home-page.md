@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741593"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952555"
 ---
 # <a name="cost-accounting-home-page"></a>Página principal de la contabilidad de costes
 
@@ -38,7 +38,7 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Configurar las entidades bases (eLearning)](https://mbspartner.microsoft.com/Home) (requiere cuenta de CustomerSource)  |[Dimensiones de elemento de coste](cost-elements.md)  |
+|  [Introducción a la contabilidad de costes (Aprendizaje)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensiones de elemento de coste](cost-elements.md)  |
 |  [Jerarquía de dimensiones](dimension-hierarchy.md)  |[Definir unidades de control de costes](./tasks/define-cost-control-units.md)| 
 | [Bases de asignación](allocation-bases.md)|[Crear y asignar una directiva de asignación de costes a una unidad de control de costes](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Gestionar un origen de datos para el libro mayor de contabilidad de costes](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Procesar datos de origen y hacer un seguimiento](./tasks/process-trace-source-data.md)     | 

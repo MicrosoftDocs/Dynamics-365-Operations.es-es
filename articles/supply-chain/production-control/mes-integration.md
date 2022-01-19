@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891935"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952686"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integración con sistemas de ejecución de fabricación de terceros
 
@@ -37,10 +37,17 @@ La siguiente ilustración muestra una colección típica de eventos, procesos y 
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Activar la función de integración MES
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
+Antes de poder usar esta característica, un administrador debe activarla en su sistema como se describe en el procedimiento siguiente.
 
-- **Módulo:** *control de producción*
-- **Nombre de característica:** *Integración del sistema de ejecución de fabricación*
+1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
+1. Asegúrese de que la clave de licencia **Tiempo y asistencia** está habilitada (muestra una marca de verificación). Esta clave de licencia es necesaria porque controla la funcionalidad y los datos del sistema de ejecución de fabricación. Si no está habilitada, siga los siguientes pasos:
+    1. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. En la página **Configuración de licencia**, seleccione la casilla de verificación **Tiempo y asistencia**.
+    1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
+1. Active la característica que aparece en la siguiente forma (ver también [Resumen general de gestión de característica](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Módulo:** *control de producción*
+    - **Nombre de característica:** *Integración del sistema de ejecución de fabricación*
 
 ## <a name="processes-available-for-mes-integration"></a>Procesos disponibles para la integración de MES
 

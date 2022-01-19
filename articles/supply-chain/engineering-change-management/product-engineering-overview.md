@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937669"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952607"
 ---
 # <a name="engineering-change-management-overview"></a>Información general de la gestión de cambios de ingeniería
 
@@ -71,6 +71,7 @@ Luego, active las claves de configuración siguiendo estos pasos.
 
 1. Si también desea utilizar la dimensión de versión, seleccione también la casilla **Dimensión del producto: versión**. (Esta casilla está más abajo en la lista, no anidada debajo del nodo **Gestión de cambios de ingeniería**).
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Ejecute una sincronización de la base de datos para asegurarse de que las claves de configuración estén habilitadas correctamente.
 
 > [!IMPORTANT]
 > A partir de abril de 2022, las claves de licencia para **Gestión de cambios de ingeniería** y **Dimensión del producto: versión** estará habilitado de forma predeterminada para todas las instalaciones nuevas, pero seguirá pudiendo deshabilitarlas si es necesario.

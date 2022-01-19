@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581874"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952505"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar la visibilidad de inventario
 
@@ -71,6 +71,9 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 1. Acepte los términos y condiciones seleccionando la casilla de verificación **Términos y condiciones**.
 1. Seleccione **Instalar**. El estado del complemento se muestra como **Instalando**. Cuando se complete la instalación, actualice la página. El estado debería cambiar a **Instalado**.
 1. En Dataverse, seleccione la sección **Aplicaciones** en la navegación de la izquierda y verifique que **Visibilidad de inventario** Power Apps se instala correctamente. Si la sección **Aplicaciones** no exsite, póngase en contacto con el equipo de productos de Visibilidad del inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Le recomendamos que se una al grupo de usuarios del complemento Visibilidad de inventario, donde puede encontrar guías útiles, obtener nuestras últimas actualizaciones y publicar cualquier pregunta que pueda tener sobre el uso de Visibilidad de inventario. Para unirse, envíe un correo electrónico al equipo de productos de Visibilidad de inventario a [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e incluya su identificador de entorno de Supply Chain Management.
 
 > [!IMPORTANT]
 > Si tiene más de un entorno LCS, cree una aplicación de Azure AD diferente para cada entorno. Si usa el mismo ID de aplicación y el mismo ID de inquilino para instalar el complemento de visibilidad de inventario para diferentes entornos, se producirá un problema de token para los entornos más antiguos. Solo será válido el último que se instaló.

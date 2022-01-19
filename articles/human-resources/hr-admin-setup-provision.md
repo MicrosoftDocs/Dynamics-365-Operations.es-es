@@ -2,7 +2,7 @@
 title: Aprovisionar Human Resources
 description: En este tema se explica el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644536"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952711"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -44,7 +44,7 @@ Antes de aprovisionar su primer entorno de pruebas o producción, es posible que
 
 Los entornos de prueba brindan la capacidad de evaluar la funcionalidad de los recursos humanos para las personas que aún no tienen acceso a un entorno de recursos humanos. Si está aprovisionando un entorno de prueba y el usuario autenticado ya tiene acceso a uno o más entornos de recursos humanos existentes, el usuario será redirigido al entorno o lista de entornos existentes.
 
-Los entornos de prueba no están destinados para su uso como entornos de producción. Están limitados a un período de prueba de 60 días. Cuando expira el período de prueba, el entorno y todos los datos que contiene se eliminan y no se pueden recuperar. El entorno no se puede convertir en un entorno de pruebas o de producción. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
+Los entornos de prueba no están destinados para su uso como entornos de producción. Están limitados a un período de prueba de 30 días. Cuando expira el período de prueba, el entorno y todos los datos que contiene se eliminan y no se pueden recuperar. El entorno no se puede convertir en un entorno de pruebas o de producción. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
 Al crear un entorno de prueba de Recursos Humanos, también se crea un entorno de prueba de Power Apps en el inquilino y se vincula con el entorno de Human Resources. El entorno de Power Apps, denominado "TestDrive", tiene el mismo período de prueba que el entorno de Human Resources.
 

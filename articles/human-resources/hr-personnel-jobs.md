@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731549"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948484"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar los componentes de un trabajo
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
+Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
 
 Antes de poder crear trabajos, debe configurar información de referencia. Puede crear un trabajo que tiene solo un nombre. Sin embargo, incluyendo información adicional, como un puesto, ofrece los valores predeterminados para los puestos asignados al trabajo. Además, parte de la información que especifique se puede usar para filtrar planes de compensación para trabajos específicos. Si quiere configurar elegibilidad que pueda usar para filtrar planes de compensación para un trabajo específico, debe configurar funciones de trabajo y tipos de trabajo antes de configurar los trabajos. Con estos valores predeterminados disponibles, ahorrará tiempo al agregar puestos al trabajo. 
 

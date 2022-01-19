@@ -2,7 +2,7 @@
 title: Módulo de pago
 description: En este tema se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/18/2020
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 303b5f0bdfdb00accab2598acc2545bca69660412e170202152303c8ed81314e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774566"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952478"
 ---
 # <a name="payment-module"></a>Módulo de pago
 
@@ -90,7 +90,24 @@ Similar a los módulos de pago, una propiedad **Tipos de formas de pago admitido
 
 Un módulo de pago solo se puede agregar a un módulo de finalización de compra. Para obtener más información acerca de cómo configurar un módulo de pago para una página de finalización de compra, consulte [Módulo de finalización de compra](add-checkout-module.md).
 
-Si se necesitan conectores de pago de Adyen y PayPal, agregue ambos módulos a la sección de pago. Asegúrese de que el valor de la propiedad **Tipos de formas de pago admitidos** está configurado para PayPal y déjelo en blanco para Adyen. Además, configure la propiedad **Es un pago primario** en **True** para Adyen.
+## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>Configurar los conectores de pago de Adyen y PayPal cuando se utilizan ambos
+
+Si se utilizarán los conectores de pago de Adyen y PayPal para su sitio, siga estos pasos en el creador de sitios de Commerce para agregar módulos de pago para cada conector al módulo de pago y luego configure las propiedades para cada módulo.
+
+1. En el panel de propiedades del módulo de pago de PayPal, siga estos pasos:
+
+    1. En el campo para la propiedad **Tipos de licitación admitidos**, introduzca **Paypal**.
+    1. Desactive la casilla de verificación de la propiedad **Es pago primario**.
+    1. Seleccione la casilla de verificación para la propiedad **Usar ID de conector**.
+
+1. En el panel de propiedades del módulo de pago de Adyen, siga estos pasos:
+
+    1. Deje en blanco el campo para la propiedad **Tipos de licitación admitidos**.
+    1. Seleccione la casilla de verificación de la propiedad **Es pago primario**.
+    1. Seleccione la casilla de verificación para la propiedad **Usar ID de conector**.
+
+> [!NOTE]
+> Cuando configura los conectores de Adyen y PayPal para que se utilicen juntos, la configuración del **Conector de pago de Dynamics 365 para Adyen** debe estar en la primera posición en la configuración del conector del canal en línea **Cuentas de pago** en la sede de Commerce. Para confirmar o cambiar el orden de los conectores, vaya a **Tiendas en línea** y seleccione el canal para su sitio. Entonces, en la pestaña **Configurar**, en la ficha desplegable **Cuentas de pago**, en **Conector**, asegúrese de que la configuración del **Conector de pago de Dynamics 365 para Adyen** está en la primera posición (es decir, en la línea superior), y que la configuración del **Conector de pago de Dynamics 365 para PayPal** está en la segunda línea. Agregue o elimine conectores según sea necesario para reordenarlos.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

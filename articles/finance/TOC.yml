@@ -58,7 +58,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: Requisitos del sistema para implementaciones locales
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Comprar Finance + Operations (on-premises)
+                - name: Comprar Finance + Operations (local)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar Warehousing para implementaciones locales
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
@@ -1048,7 +1048,7 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Cierre masivo de período financiero
                   href: general-ledger/tasks/mass-financial-period-close.md
-                - name: Preguntas frecuentes sobre las actividades de fin de año
+                - name: Preguntas frecuentes sobre las actividades de fin de ejercicio
                   href: general-ledger/faq-year-end-activities.md
             - name: Impuestos
               items:
@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Habilitar previsiones de flujo de efectivo
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Datos externos en previsiones de flujo de efectivo
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Habilitar propuestas de presupuesto
                   href: finance-insights/enable-budget-proposal.md
                 - name: Crear proyecto integrador de datos
@@ -1232,10 +1234,8 @@
                   href: finance-insights/budget-proposals.md
                 - name: Posición de efectivo
                   href: finance-insights/cash-position.md
-                - name: Previsión de flujo de efectivo
+                - name: Previsión de efectivo
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Usar datos externos en previsiones de flujo de efectivo
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Predicciones de pago de cliente
                   href: finance-insights/payment-insights-overview.md
                 - name: Usar predicciones de pago de cliente
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Introducción a la facturación electrónica para Arabia Saudí
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Configurar la integración directa de FatturaPA italiana con SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Utilizar el servicio de facturación electrónica para importar facturas de proveedores
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Configurar la facturación electrónica
@@ -1508,10 +1510,14 @@
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-che-vat-declaration-switzerland.md
-                        - name: Informes de Reino Unido
+                        - name: Declaraciones de Reino Unido
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Declaraciones de Noruega
+                          items:
+                            - name: Declaración de IVA
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Habilitar el cálculo de impuestos para el pedido de transferencia
                       items:
                         - name: Compatibilidad de la característica de impuestos para pedidos de transferencia
@@ -1557,7 +1563,7 @@
                 - name: Declaración de IVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Informe de servicios transfronterizos
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Intrastat austriaco
                   href: localizations/emea-aut-intrastat.md
                 - name: Aranceles sobre la compra
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Métodos de depreciación para activos fijos
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Importar la entidad de datos de Impuesto Dorado chino
+                - name: Importar los archivos del Impuesto Dorado chino
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Modelo de coste medio mensual
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: Informe de pago de impuestos para Finlandia
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Intrastat finés
+                  href: localizations/emea-fin-intrastat.md
             - name: Francia
               items:
                 - name: Información general para Francia
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: Declaración de IVA para Indonesia
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Informe de retención de impuestos para Indonesia
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Italia
               items:
                 - name: Información general para Italia

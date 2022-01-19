@@ -2,19 +2,19 @@
 title: Descripción del servicio para aplicaciones de Finance and Operations
 description: Este tema proporciona la descripción del servicio para aplicaciones de Finance and Operations.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898398"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952375"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descripción del servicio para aplicaciones de Finance and Operations
 
@@ -117,7 +117,7 @@ Las aplicaciones de Finance and Operations se sirven desde varias regiones de Az
 ### <a name="countryregion-specific-considerations"></a>Consdieraciones específicas del país o región
 
 - Los clientes de la industria regulada u organizaciones comerciales que hacen negocios con entidades en Francia que requieren la residencia de datos local deben revisar [Finance and Operations en Francia](../../dev-itpro/deployment/france-local-deployment.md).
-- Los clientes que tienen operaciones en China deben revisar [Finance and Operations operado por 21Vianet en China](../../dev-itpro/deployment/china-local-deployment.md).
+- Los clientes que tienen operaciones en China deben revisar [Cuaderno de estrategias de Azure China](/azure/china/) y [Finance and Operations operado por 21Vianet en China](../../dev-itpro/deployment/china-local-deployment.md).
 - Los clientes que tienen operaciones en Rusia deben revisar la [Ley rusa de localización de datos personales](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Reglamento general de protección de datos (RGPD)
@@ -356,6 +356,7 @@ Microsoft está comprometido con una tasa de disponibilidad del 99,9 por ciento 
 - **[Guía de licencias](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** - Utilice esta guía para obtener más información sobre cómo obtener una licencia de Dynamics 365.
 - **[Atención al cliente](https://dynamics.microsoft.com/support/)** - Obtenga soporte líder en la industria para sus aplicaciones de Dynamics 365.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** - Administre el ciclo de vida de su aplicación y avance hacia implementaciones predecibles, repetibles y de alta calidad.
+- **[Guía de implementación de Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - Los documentos de la Guía de implementación de Dynamics 365 muestra los principios de Success by Design y proporciona una guía prescriptiva para diseñar, construir, probar e implementar soluciones de Dynamics 365.
 
 ## <a name="definitions"></a>Definiciones
 
@@ -428,6 +429,10 @@ El SLA se aplica a los servicios en línea de Microsoft. Para obtener más infor
 ### <a name="service-update"></a>Actualización del servicio
 
 Microsoft presta servicio a los entornos de Finance and Operations de forma coherente a través de actualizaciones de servicio. Los clientes establecen su propio calendario de actualización de servicios, en función de sus necesidades comerciales. Para obtener más información, consulte [Actualizaciones del servicio de una versión](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+El marco que guía sistemáticamente una implementación a través de una serie de evaluaciones en etapas críticas para garantizar una arquitectura, seguridad, rendimiento y experiencia de usuario óptimos para una solución de Dynamics 365.
 
 ### <a name="user"></a>Usuario
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345379"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947324"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciación de activo por derecho de uso (Vista previa)
 
@@ -35,7 +35,7 @@ Para los arrendamientos que se reconocen en el balance de situación de una orga
 1. En la página **Resumen de arrendamientos**, seleccione un arrendamiento. Luego seleccione **Libros \> Programación de depreciación de activos** para abrir la página **Programación de depreciación de activos**.
 
     El movimiento de diario de gastos de depreciación de activos por derecho de uso se basa en el importe de la columna **Gasto de depreciación**. Para ver un ejemplo de la guía para el cumplimiento de estándares contables, consulte la sección [Cálculo del gasto de amortización de activos de ROU para arrendamientos financieros](#calculation-of-rou-asset-amortization-expense-for-finance-leases), más adelante en este tema.
-
+    
 2. Seleccione el período de depreciación y luego seleccione **Crear diario**. Recibe un mensaje que indica que se creó el diario que se utilizará para registrar la depreciación.
 3. Seleccione **Diarios \> Diarios de arrendamiento de activos** para abrir la página **Diario de arrendamiento de activos**, donde puede ver el movimiento de diario de gastos de depreciación que se creó.
 
@@ -70,6 +70,8 @@ Como se indicó anteriormente, el gasto de arrendamiento lineal se calcula como 
 
 > [!NOTE]
 > De acuerdo con la ASC 842, la depreciación del activo por derecho de uso para un arrendamiento operativo se clasifica como un gasto de arrendamiento en el estado de resultados. Para mayor visibilidad, Arrendamiento de activos describe la entrada como la depreciación del activo por derecho de uso. Sin embargo, la entrada de débito debe asignarse a una cuenta de gastos de arrendamiento operativo, y la entrada de crédito debe asignarse directamente al activo por derecho de uso para el arrendamiento operativo. No obstante, en los parámetros de arrendamiento, puede especificar que las entradas de crédito se deban realizar en una cuenta de depreciación acumulada para activos por derecho de uso operativos.
+
+Si el arrendamiento se clasifica como arrendamiento operativo, la depreciación mensual después del deterioro se calculará utilizando la depreciación lineal.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Cálculo del gasto de amortización de activos por derecho de uso para arrendamientos financieros
 

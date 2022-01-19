@@ -2478,9 +2478,7 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Configurar Azure Key Vault para una administración segura de claves
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Crear un enganche de complemento de canalización de solicitudes
-                      href: e-commerce-extensibility/request-pipeline-hook.md
-                    - name: Componente de la imagen
+                    - name: Componente de imagen
                       href: e-commerce-extensibility/image-component.md
                 - name: Desarrollar acciones de datos
                   items:

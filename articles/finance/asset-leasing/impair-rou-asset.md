@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890839"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947349"
 ---
 # <a name="impair-right-of-use-assets"></a>Deteriorar activos por derecho de uso
 
@@ -44,6 +44,8 @@ El saldo restante del activo por derecho de uso se amortizará de forma lineal p
 
     > [!NOTE]
     > Una vez que se registra la transacción de deterioro, se crea una nueva versión del libro.
+
+    > Si el arrendamiento se clasifica como arrendamiento operativo, la depreciación mensual después del deterioro se calculará utilizando la depreciación lineal.
 
 9. Para ver la programación de depreciación de activos deteriorados, abra la programación de depreciación de activos del libro de arrendameinto en cuestión. El activo ahora se depreciará de forma lineal durante el número de meses que introdujo en el campo **Periodos restantes**.
 10. Para ver el asiento de diario de gastos por deterioro, seleccione **Diario de arrendamiento de activos** en el panel de acciones del libro de arrendamiento deteriorado. El sistema crea un asiento de diario que adeuda la cuenta de registro de gastos por deterioro y abona la cuenta de registro de activos de arrendamiento. 
@@ -100,6 +102,7 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
     | Cerrar libro             | No       |
 
 6. Se ha creado y registrado un asiento de diario de gastos por deterioro. Para verlo, vaya al diario de arrendamiento del activo en el libro de arrendamiento. Observe que el importe del deterioro se adeudó en la cuenta de registro de gastos por deterioro y se abonó en la cuenta de registro de activo por derecho de uso.
+
 7. Para ver el efecto neto del deterioro, vaya a las tablas de transacciones de activos y pasivos. Observe que el gasto por deterioro ha disminuido el activo por derecho de uso, pero el valor en libros del pasivo por arrendamiento no ha cambiado.
 
 El deterioro tiene otro efecto que debe considerar. Debido a que el monto del activo por derecho de uso es ahora mucho menor que el pasivo por arrendamiento, el importe debe depreciarse de manera diferente a como era antes. Específicamente, el activo ahora se deprecia de manera lineal durante los 84 meses restantes del arrendamiento, comenzando en la fecha de la transacción.
