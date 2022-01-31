@@ -86,7 +86,7 @@
                   href: dev-itpro/RetailSDK-update.md
             - name: Novedades y cambios
               items:
-                - name: Novedades y cambios de aplicaciones de Finance and Operations
+                - name: Novedades y cambios en aplicaciones de Finance and Operations
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Novedades y cambios en Commerce
                   items:
@@ -96,13 +96,11 @@
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (enero de 2022)
                       href: get-started/whats-new-commerce-10-0-23.md
-                    - name: Commerce 10.0.22 (noviembre de 2021)
-                      href: get-started/whats-new-commerce-10-0-22.md
                 - name: Características quitadas o en desuso
                   items:
                     - name: Página de inicio de características quitadas o en desuso
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/commerce/toc.json
-                    - name: Características quitadas o en desuso en Finance and Operations
+                    - name: Características quitadas u obsoletas en Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Características quitadas o en desuso en Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
@@ -712,6 +710,10 @@
                   href: sync-product-ratings.md
                 - name: Habilitar la publicación manual de calificaciones y opiniones por parte de un moderador
                   href: manual-publish-rating-reviews.md
+                - name: Importación y exportación de calificaciones y opiniones
+                  href: import-export-reviews.md
+                - name: Configurar autenticación de servicio a servicio
+                  href: service-to-service-auth.md
                 - name: Preguntas frecuentes de calificaciones y opiniones
                   href: ratings-reviews-faq.md
             - name: Administrar su inventario
@@ -998,8 +1000,6 @@
                       href: style-presets.md
                     - name: Agregar un icono favorito
                       href: add-favicon.md
-                    - name: Agregar un mensaje de bienvenida
-                      href: add-welcome-message.md
                     - name: Agregar un aviso de derechos de autor
                       href: add-copyright-notice.md
                     - name: Agregar idiomas
