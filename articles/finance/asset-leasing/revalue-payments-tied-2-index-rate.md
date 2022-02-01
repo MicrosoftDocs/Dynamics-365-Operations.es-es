@@ -2,25 +2,25 @@
 title: Revalorizar los pagos por arrendamiento vinculados a un tipo indexado
 description: Este tema describe el ajuste que se realiza para arrendar el pasivo para un activo por derecho de uso (ROU) cuando los pagos de arrendamiento variables cambian debido a un cambio en el tipo indexado.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734595"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968065"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Revalorizar los pagos por arrendamiento vinculados a un tipo indexado
 
@@ -43,7 +43,7 @@ Siga estos pasos para revalorizar los pagos por arrendamiento vinculados a un ti
 4. Seleccione los filtros para seleccionar los arrendamientos que deben incluirse en el procesamiento en segundo plano y luego seleccione **Aceptar**.
 
     Aparece el cuadro de diálogo **Vista previa de la revalorización del tipo indexado**, que muestra los arrendamientos que se revalorizarán. También muestra los ajustes de activos y pasivos o los ajustes de pagos variables.
-    
+
 5. Para evitar que los arrendamientos se revaloricen, seleccione los arrendamientos que **deberían** revalorizarse. Si no selecciona ningún arrendamiento, todos los arrendamientos se revalorizarán. Cuando haya terminado, seleccione **Aceptar** para revalorizar los pagos por arrendamiento.
 6. Para ver las transacciones que se crearon para un proceso de revalorización de índice específico, seleccione el id. de proceso y luego seleccione **Transacciones**.
 
@@ -66,5 +66,7 @@ Puede ver el programa de pago recién generado que comienza en la fecha de reval
 
 El movimiento de diario ha registrado automáticamente el movimiento de diario de ajuste en la cuenta para el cambio en los pagos por arrendamiento relacionados con la revalorización del índice.
 
+> [!NOTE]
+> Si la opción **Desglose del importe de pago** está habilitada en la ficha desplegable **General** de la página **Detalles del arrendamiento**, y el libro asociado es IFRS 16, el proceso de revaluación del índice agregará automáticamente un registro en el cuadro de diálogo **Desglose del importe de pago**. El importe reflejará el cambio que se realizó en el pago debido a la revaluación del índice. El registro se marcará como **Utilizado para la revaluación del índice IRFS 16**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

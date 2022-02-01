@@ -3,22 +3,21 @@ title: Descripción general del portal de clientes para Dynamics 365 Supply Chai
 description: Este tema presenta el portal del Cliente y explica quién debe usarlo y cómo funciona.
 author: Henrikan
 ms.date: 06/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c1383ee3c8e72f630d29a557de4150cdd3aa905f
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 04a1a06dce79259e35ce66dda469e9b157d7ed1c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937513"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983247"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Portal del cliente para introducción de Dynamics 365 Supply Chain Management
 
@@ -43,7 +42,7 @@ La plantilla del portal del cliente tiene todas las capacidades de personalizaci
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-El vídeo de la [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (que se muestra arriba) está incluido en la [lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo de la [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (que se muestra arriba) está incluido en la [lista de reproducción de disponible en Finanzas y Operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) en YouTube.
 
 ## <a name="who-should-use-it"></a>¿Quién debería usarlo?
 
@@ -63,7 +62,7 @@ El portal del cliente se proporciona como una plantilla de portales Power Apps. 
 
 [Portales Power Apps](/powerapps/maker/portals/overview) es una característica que permite a los usuarios crear un sitio web externo en el que las personas externas a la organización pueden iniciar sesión. Se requiere poca o ninguna codificación para crear portales. El portal del cliente es una de las muchas [Plantillas de portal de Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) que están disponibles en Microsoft.
 
-La [doble escritura](/powerapps/maker/portals/overview) es un producto de infraestructura listo para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de Finance and Operations. La doble escritura proporciona una integración bidireccional entre aplicaciones de Finance and Operations y Microsoft Dataverse. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de tablas que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las tablas apropiadas.
+La [doble escritura](/powerapps/maker/portals/overview) es un producto listo para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacciones con los clientes y aplicaciones de Finanzas y Operaciones. La doble escritura proporciona una integración bidireccional entre aplicaciones Finanzas y Operaciones y Microsoft Dataverse. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de tablas que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las tablas apropiadas.
 
 ![Dependencias del portal del cliente.](media/customer-portal-elements.png "Dependencias del portal del cliente")
 

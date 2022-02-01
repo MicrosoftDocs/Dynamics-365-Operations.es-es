@@ -3,7 +3,7 @@ title: Visión general de la impresión de documentos
 description: Puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Este artículo proporciona una visión general de cómo se imprimen los documentos.
 author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728247"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984917"
 ---
 # <a name="document-printing-overview"></a>Visión general de la impresión de documentos
 
@@ -51,10 +51,10 @@ La siguiente tabla describe los tres escenarios principales de impresión.
 Dado que la solución varía en función del escenario, las aplicaciones proporcionan servicios y herramientas integradas para ayudar a los usuarios a cumplir sus objetivos:
 
 - El **Escenario 1** es compatible con la representación del explorador del cliente HTML5.
-- El **Escenario 2** usa aplicaciones cliente y servicios de Microsoft 365.
+- El **Escenario 2** usa aplicaciones cliente y servicios de Microsoft 365.
 - El **Escenario 3** requiere soporte desde aplicaciones cliente y desde servicios que se hospedan en Microsoft Azure.
 
-Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada propia que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
+Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada de primera parte que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
 
 ## <a name="service-overview"></a>Visión general de servicios
 Aunque los documentos producidos por las aplicaciones hospedadas están esperando para ser impresos en un dispositivo conectado a la red, estos se guardan en el almacenamiento de blobs de Azure. El [Agente de instalar ruta de documentos para habilitar la impresión de red](install-document-routing-agent.md) utiliza la autenticación de Azure para establecer un canal seguro para los servicios de Azure.

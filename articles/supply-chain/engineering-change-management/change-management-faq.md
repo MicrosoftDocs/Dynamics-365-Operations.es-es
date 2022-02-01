@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba489358ef2d74e816186f29956aea5538a2432825c7d949e7c9cc23d947b997
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714387"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007616"
 ---
 # <a name="engineering-change-management-faq"></a>Preguntas frecuentes de administración de cambios de ingeniería
 
@@ -63,6 +63,11 @@ Las siguientes tablas muestran los campos que se copian durante estos procesos.
 | **Variantes del producto** | Todos los campos de la sección **Variante de producto predeterminada** | Los mismos campos que se copian para la empresa de ingeniería |
 
 Además de los campos que se muestran en la tabla anterior, todas las configuraciones de pedido predeterminadas se copian de la plantilla de artículo liberado, tanto cuando el producto se crea en la empresa de ingeniería como cuando se libera a una empresa operativa. (Para ver la configuración de pedido predeterminada para una plantilla de artículo liberado, abra la página **Detalles del producto liberado** correspondiente y luego, en el panel de acciones, en la pestaña **Administrar inventario**, seleccione **Configuración de pedido predeterminada**).
+
+> [!NOTE]
+>
+> - La unidad está predeterminada de la plantilla.
+> - Para minoristas que utilizan la funcionalidad de Dynamics 365 Commerce, al asignar una categoría minorista a un producto, la categoría minorista aplica valores predeterminados para muchos de los campos para el nivel de producto emitido. Estos valores predeterminados sobrescriben los valores predeterminados que ya había establecido la plantilla o que se habían copiado de ingeniería.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>¿Debo crear una entidad jurídica separada para productos de ingeniería o utilizar una entidad jurídica existente?
 

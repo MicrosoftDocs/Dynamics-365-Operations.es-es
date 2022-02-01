@@ -1,6 +1,6 @@
 ---
-title: 'Configuración de Finance insights para la versión preliminar pública (versión preliminar): versión 10.0.20 y posteriores'
-description: Este tema explica cómo configurar su sistema para que utilice las capacidades que están disponibles en Finance Insights para la versión preliminar pública en la versión 10.0.20 y posteriores.
+title: Configuración de Finance Insights - versión 10.0.20 y posterior
+description: Este tema explica cómo configurar su sistema para que utilice las capacidades que están disponibles en Finance Insights en la versión 10.0.20 y posteriores.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 7e5752b8deffbd2694193494652a0ff808ecbfb0
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 8ff20334445fba1db435d7005c4ca9ba18f97f72
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927413"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968971"
 ---
-# <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuración de Finance insights para la versión preliminar pública (versión preliminar): versión 10.0.20 y posteriores
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuración de Finance Insights - versión 10.0.20 y posterior
 
 [!include [banner](../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights combina la funcionalidad de Microsoft Dynamics 365 Finance con Dataverse, Azure y AI Builder para proporcionar potentes herramientas de pronóstico para su organización. Este tema explica cómo configurar Dynamics 365 Finance versión 10.0.20 para que su sistema pueda utilizar las capacidades que están disponibles en Finance Insights para la versión preliminar pública.
+Finance Insights combina la funcionalidad de Microsoft Dynamics 365 Finance con Dataverse, Azure y AI Builder para proporcionar potentes herramientas de pronóstico para su organización. Este tema explica cómo configurar Dynamics 365 Finance versión 10.0.20 para que su sistema pueda utilizar las capacidades que están disponibles en Finance Insights.
 
 > [!NOTE]
 > Los pasos de configuración que se describen en este tema se aplican solo a la versión 10.0.20 y posteriores de Finance. Para configurar Finance Insights en la versión 10.0.19 y anteriores, consulte [Configuración de Finance Insights: versiones hasta la 10.0.19](configure-for-fin-insites.md).
@@ -126,7 +126,7 @@ Si no puede encontrar ninguna de las aplicaciones anteriores, intente los siguie
         - **Rendimiento**: es recomendable seleccionar **Estándar**.
         - **Tipo de cuenta**: debe elegir **StorageV2**.
 
-    3. En el cuadro de diálogo **Opciones avanzadas**, para la opción **Data Lake Storage Gen2**, seleccione **Habilitar** en la característica **Espacios de nombres jerárquicos**. Si no activa esta característica, no puede emplear datos que las aplicaciones de Finance and Operations escriben utilizando servicios como flujos de datos de Power BI.
+    3. En el cuadro de diálogo **Opciones avanzadas**, para la opción **Data Lake Storage Gen2**, seleccione **Habilitar** en la característica **Espacios de nombres jerárquicos**. Si no activa esta característica, no puede emplear datos que las aplicaciones de Finanzas y Operaciones escriben utilizando servicios como flujos de datos de Power BI.
     4. Seleccione **Revisar y crear**. Cuando se completa la implementación, el nuevo recurso se muestra en Azure Portal.
     5. Vaya a la cuenta de almacenamiento que creó.
     6. En el menú izquierdo, seleccione **Claves de acceso**.
@@ -752,6 +752,6 @@ El complemento puede tardar varios minutos en instalarse.
 
 ## <a name="feedback-and-support"></a>Comentarios y soporte técnico
 
-Si está interesado en proporcionar comentarios o si necesita asistencia, envíe un correo elecrónico a [Finance Insights (versión preliminar)](mailto:fiap@microsoft.com).
+Si está interesado en proporcionar comentarios o si necesita asistencia, envíe un correo elecrónico a [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

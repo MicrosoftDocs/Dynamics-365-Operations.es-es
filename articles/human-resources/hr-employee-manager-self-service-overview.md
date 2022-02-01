@@ -3,7 +3,7 @@ title: Información general del autoservicio para empleado y director
 description: Este artículo proporciona una descripción general del espacio de trabajo de autoservicio para empleados y gerentes.
 author: twheeloc
 ms.date: 08/26/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cea92092701f960f12aa74efe4c82c379a2b2c6d
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 2a356aae6590c2bce289c8d180324027efc76983
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431220"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992050"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Información general del autoservicio para empleado y director
 
@@ -93,7 +93,7 @@ Ver y administrar documentos con el icono **Adjuntos**. Puedes gestionar todos l
 
 Esta sección proporciona enlaces a otras áreas de **autoservicio para empleados**, similares a la sección **Mi información profesional**.
 
-Regístrese para obtener beneficios a través del enlace **Beneficios**. Para obtener más información acerca de la gestión de Beneficios, consulte [Visión general de los beneficios](hr-benefits-management-overview.md)
+Regístrese para obtener beneficios a través del enlace **Beneficios**. Para obtener más información acerca de la Administración de prestaciones, consulte [Información general sobre prestaciones](hr-benefits-management-overview.md).
 
 En **Rendimiento** puede elegir **Diario de rendimiento** para crear entradas de diario de rendimiento para usar tanto en objetivos de rendimiento como en revisiones. Puede elegir **Enviar comentarios** para proporcionar comentarios a otros empleados dentro de su organización. Dependiendo de la configuración de su organización, los correos electrónicos pueden enviarse al destinatario, al remitente y a los administradores. Puede enviar comentarios a todos los empleados de la organización. El envío de comentarios no está restringido por la empresa.
 

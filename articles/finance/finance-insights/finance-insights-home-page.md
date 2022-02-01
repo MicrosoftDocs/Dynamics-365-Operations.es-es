@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813756"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968820"
 ---
 # <a name="finance-insights-home-page"></a>Página principal de Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Finance Insights proporciona soluciones configurables y extensibles para ayudarle a predecir con inteligencia el flujo de efectivo de su empresa, predecir cuándo recibirá los pagos pendientes y generar una propuesta de presupuesto que puede ayudar a acelerar su proceso de presupuestación. Estas funciones utilizan plantillas inteligentes de aprendizaje automático para crear modelos con los datos que usted proporciona (incluidos los datos de terceros, como información de informes de consumidores de un servicio de información). Estas capacidades inteligentes informan la toma de decisiones y lo ayudan a tomar medidas para responder de manera efectiva a los desafíos comerciales actuales y anticipados. Usted es responsable de todos los datos que se utilicen o procedan de Finance Insights.
 
 > [!NOTE]
-> La versión preliminar pública de Finance Insights está disponible para la implementación en los Estados Unidos de América, Canadá, Reino Unido, Europa, Asia Pacífico, Japón, Australia y Nueva Zelanda. Microsoft está agregando gradualmente soporte para más regiones.
+> Finance Insights está disponible para la implementación en los Estados Unidos de América, Canadá, Reino Unido, Europa, Asia Pacífico, Japón, Australia y Nueva Zelanda. Microsoft está agregando gradualmente soporte para más regiones.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

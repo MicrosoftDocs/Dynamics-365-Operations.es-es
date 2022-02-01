@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752793"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968921"
 ---
 # <a name="use-customer-payment-predictions"></a>Usar predicciones de pago de cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo utilizar las predicciones de pago de clientes. Antes de utilizar esta característica, asegúrese de haber completado los pasos de configuración correspondientes. Para obtener más información, consulte [Habilitar predicciones de pago de clientes](enable-cust-paymnt-prediction.md).
 

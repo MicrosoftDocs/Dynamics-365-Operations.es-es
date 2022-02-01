@@ -13,17 +13,16 @@ ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891452"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982212"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 En este tema se describe el primer conjunto de mejoras que se han realizado en la función de registro de extractos. Estas mejoras están disponibles en Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 

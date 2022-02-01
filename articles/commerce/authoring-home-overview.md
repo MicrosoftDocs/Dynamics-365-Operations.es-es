@@ -3,23 +3,22 @@ title: Visión general de creación de páginas
 description: Este tema proporciona una visión general de la página de creación en Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c837b018bddfeb28311c630a7558c09274ced2c1cfce7405587bd1be78d72a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719971"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984630"
 ---
 # <a name="authoring-page-overview"></a>Información general de creación de páginas
 

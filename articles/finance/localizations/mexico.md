@@ -3,22 +3,21 @@ title: Visión general de México
 description: Este tema proporciona vínculos a recursos de documentación para México de Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Mexico
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b57b16e21743167a3831222dda850343a68a6de52c98f13a6d9d3ad64a07314
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f114dc28769bbc1e2916da1fc563e40c01d57e8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748927"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982941"
 ---
 # <a name="mexico-overview"></a>Visión general de México
 

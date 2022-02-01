@@ -3,7 +3,7 @@ title: Segmentación por dispositivo, mercado y geolocalización
 description: Este tema describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
 author: sushma-rao
 ms.date: 07/30/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 3ecc04c97b42b17f257aa40f665136c70de398748b9bda0da860c7000c062807
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730860"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985146"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Segmentación por dispositivo, mercado y geolocalización
 
@@ -57,7 +57,7 @@ De forma predeterminada, los siguientes segmentos están disponibles y se pueden
     - Windows
     - Linux
     - iOS
-    - Android, Otro
+    - Android, otros
 
 - **Parámetros de la cadena de consulta** - Pruebe la existencia de un par de valores clave en un parámetro de cadena de consulta de una URL de solicitud. Por ejemplo, para la URL `www.fabrikam.com/en-us/request?promo=true`, se puede escribir una regla para probar que el parámetro **promoción** tiene el valor **verdadero**.
 - **Cookie** - Pruebe un valor de cookie establecido para el dominio en la URL de solicitud. Por ejemplo, una solicitud de Fabrikam.com podría incluir una cookie con el nombre **CustomLayout** y el valor **1**. La prueba de cookies comprueba la existencia de una cookie pero no la crea explícitamente. En el ejemplo anterior, JavaScript debe haber configurado previamente la cookie **CustomLayout** de otro módulo o algún otro proceso comercial.

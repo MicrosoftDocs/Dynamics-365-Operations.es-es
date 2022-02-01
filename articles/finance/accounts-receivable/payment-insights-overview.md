@@ -3,7 +3,7 @@ title: Información de pago del cliente (vista previa)
 description: Este tema describe la capacidad de informaciones de pago que ayuda a mejorar el conocimiento de las prácticas de pago típicas de los clientes individuales. La característica puede ayudarle a identificar circunstancias que justifiquen iniciar procesos de recolección antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: ecd368237f949b6cbfbbb7293f6ddc5b1199d6fc0aef7e0bf44f4a2a808a6ccb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737782"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984011"
 ---
 # <a name="customer-payment-insights-preview"></a>Información de pago del cliente (vista previa)
 
@@ -69,7 +69,7 @@ Envíe un correo electrónico a [Información de pagos de clientes (Vista previa
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Las versiones preliminares (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
+Las vistas previas (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance y Operaciones, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
 
 
 

@@ -3,7 +3,7 @@ title: Visión general de la configuración de proveedores
 description: Este artículo describe las páginas que usa para configurar la funcionalidad básica y opcional para Proveedores. También describen los pasos de configuración que debe completar antes de comenzar a configurar Proveedores.
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30fe9433e7fe5f240ed46272e869d442d226af6c7da19a42faba87a0baf5131b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4981f317697998298ba0c1ea84d50698f135474f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749183"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984889"
 ---
 # <a name="configure-accounts-payable-overview"></a>Visión general de la configuración de proveedores
 

@@ -2,22 +2,22 @@
 title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772754"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016109"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772754"
 
 Este tema muestra las actualizaciones normativas que se planifican y emiten en las ubicaciones admitidas por Dynamics 365 Finance. Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique. Para más información, consulte [Directiva de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener información adicional sobre otras características normativas planeadas y emitidas, consulte los [planes de lanzamiento de Dynamics 365 y Power Platform](/business-applications-release-notes/index).
+Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener más información sobre otras características normativas planeadas y emitidas, consulte los [planes de lanzamiento de Dynamics 365 y Power Platform](/business-applications-release-notes/index).
 
 Microsoft se esfuerza en implementar las nuevas normas legales lo antes posible. La fecha de entrega real depende de la fecha de presentación de la ley, de la disponibilidad de los detalles del requisito de las autoridades locales, de la disponibilidad de las herramientas de validación y el tamaño y la complejidad del cambio.
 
@@ -71,7 +71,7 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 
 ## <a name="additional-resources"></a>Recursos adicionales
-- Buscar todas las actualizaciones normativas planificadas y publicadas [Lifecycle Service - búsqueda de temas](https://lcs.dynamics.com/Logon/Index) (inicio de sesión obligatorio).
+- Para obtener más información sobre todas las actualizaciones reglamentarias específicas de cada país planeadas y emitidas, consulte [Buscar actualizaciones de normativas específicas de cada país](search-for-regulatory-updates.md). (Se requiere iniciar sesión).
 - Para consultar una lista de las ubicaciones que se admiten, consulte la [Guía de disponibilidad internacional](https://aka.ms/dynamics_365_international_availability_deck).
 
 

@@ -2,23 +2,22 @@
 title: Resumen de gestión de cambios de ingeniería (contiene vídeo)
 description: Este tema proporciona una descripción general de la gestión de cambios de ingeniería, que le ayuda a planificar y gestionar el control de versiones del producto y gestionar los ciclos de vida del producto y los cambios de ingeniería.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952607"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985221"
 ---
 # <a name="engineering-change-management-overview"></a>Información general de la gestión de cambios de ingeniería
 
@@ -39,9 +38,9 @@ La gestión de cambios de ingeniería le ayuda a planificar y gestionar el contr
 - Solicitudes de cambios de ingeniería que son compatibles con los flujos de trabajo
 - Pedidos de cambios de ingeniería que son compatibles con los flujos de trabajo
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-El video anterior ([Capacidades de gestión de cambios en Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluido en la [lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo anterior ([Capacidades de gestión de cambios en Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluido en la [lista de reproducción de Finanzas y Operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Active las funciones de gestión de cambios de ingeniería para su sistema
 
@@ -71,7 +70,9 @@ Luego, active las claves de configuración siguiendo estos pasos.
 
 1. Si también desea utilizar la dimensión de versión, seleccione también la casilla **Dimensión del producto: versión**. (Esta casilla está más abajo en la lista, no anidada debajo del nodo **Gestión de cambios de ingeniería**).
 1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Ejecute una sincronización de la base de datos para asegurarse de que las claves de configuración estén habilitadas correctamente.
+1. La base de datos debe sincronizarse para asegurarse de que las claves de configuración estén habilitadas correctamente. Realice uno de los siguientes pasos, según el tipo de entorno en el que esté trabajando:
+    - **Para entornos de nivel 1 (desarrollo)**: abra su proyecto en Microsoft Visual Studio y luego seleccione **Dynamics 365 \> Sincronizar base de datos \> Sincronizar**.
+    - **Para entornos de nivel 2 (y superiores)**: la base de datos se sincroniza automáticamente después de activar y desactivar el modo de mantenimiento del entorno, por lo que puede omitir este paso.
 
 > [!IMPORTANT]
 > A partir de abril de 2022, las claves de licencia para **Gestión de cambios de ingeniería** y **Dimensión del producto: versión** estará habilitado de forma predeterminada para todas las instalaciones nuevas, pero seguirá pudiendo deshabilitarlas si es necesario.

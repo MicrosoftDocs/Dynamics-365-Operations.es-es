@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724613"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964538"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Agregar secuencia de comandos a páginas del sitio para admitir telemetría
 
@@ -111,8 +111,6 @@ Para agregar un script externo directamente a una plantilla en el generador de s
 [Trabajar con archivos de invalidaciones CSS](css-override-files.md)
 
 [Agregar un icono de favoritos](add-favicon.md)
-
-[Agregar un mensaje de bienvenida](add-welcome-message.md)
 
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 

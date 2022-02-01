@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573354"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969096"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
@@ -69,7 +69,7 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
 2. Haga clic en **Acumular**.
 3. En el campo **Cliente**, especifique o seleccione un valor.
 4. En el campo **Fecha inicial**, seleccione la fecha en curso.
-5. Haga clic en **Aceptar**. Como resultado de ejecutar la función **Acumular**, el importe de la reclamación estimado se ha ajustado para responder al hecho de que el volumen total de ventas del cliente en el período relevante es mayor que cuando se generó la primera devolución. Más concretamente, puesto que la cantidad comprada total ha alcanzado las 100 unidades, el cliente ahora puede optar a 40 USD por unidad (según el segundo nivel de cantidades del acuerdo), o a 400 USD de devolución total. La diferencia se registra como nuevo "ajuste" de reclamación por 800 USD adicionales. Ahora el estado de las reclamaciones de devolución incluidas en la actualización Acumular están definidas en Calculado. 
+5. Haga clic en **Aceptar**. Como resultado de ejecutar la función **Acumular**, el importe de la reclamación estimado se ha ajustado para responder al hecho de que el volumen total de ventas del cliente en el período relevante es mayor que cuando se generó la primera devolución. Más concretamente, puesto que la cantidad comprada total ha alcanzado las 100 unidades, el cliente ahora puede optar a 40 USD por unidad (según el segundo nivel de cantidades del acuerdo), o a 4,000 USD de devolución total. La diferencia se registra como nuevo "ajuste" de reclamación por 800 USD adicionales. Ahora el estado de las reclamaciones de devolución incluidas en la actualización Acumular están definidas en Calculado. 
 6. En la lista, marque todas las filas.
 7. Haga clic en **Aprobar**.
 8. Haga clic **Procesar**.

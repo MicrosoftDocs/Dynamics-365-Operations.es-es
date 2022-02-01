@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0a2bd50ef11e92fb427a61a1e8624fcd7d15e163
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920183"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982159"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Programación con capacidad infinita
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
-<!--KFM: Preview until 1/14/2022 -->
 
 La fucnión *Programación de capacidad infinita para la optimización de la planificación* presenta la programación basada en la información de la ruta. Le permite programar trabajos basados en una amplia gama de configuraciones de ruta. La programación para la optimización de la planificación cubre la configuración de ruta de uso frecuente, incluida la secuencia de operación de ruta o los requisitos para los recursos de operación de ruta.
 
@@ -51,7 +49,9 @@ Durante el proceso de programación, el sistema también considera los *requerim
 - Capacidad (para obtener más información sobre esta función, consulte [Programación con selección de recursos según la capacidad](capability-based-scheduling.md)).
 
 > [!NOTE]
-> Los requisitos relacionados con los recursos humanos, como las habilidades o los requisitos de certificados, aún no se admiten.
+>
+> - Si el recurso o el grupo de recursos se establecen en capacidad infinita, la planificación maestra los considerará como capacidad infinita.
+> - Los requisitos relacionados con los recursos humanos, como las habilidades o los requisitos de certificados, aún no se admiten.
 
 La función también es compatible con las propiedades operativas **Tiempo de preparación** y **Tiempo de ejecución**. Cuando configura estas propiedades en una operación de ruta, el proceso de programación creará los trabajos de configuración y proceso adecuados.
 

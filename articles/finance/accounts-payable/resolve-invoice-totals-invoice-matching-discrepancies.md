@@ -3,7 +3,7 @@ title: Visión general de la resolución de discrepancias durante la conciliaci�
 description: Puede usar la conciliación de totales de factura para asegurarse de que los importes totales de factura no se desvían de los importes planificados más de la desviación aceptable.
 author: abruer
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a938dcc1b574361b6f0c8ed5f245b0d9443d2b50cef7153a5ed2bd9cb265d01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f15edb0423bba2a6fe01f4b3ef1ba1be4e463d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737244"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985322"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Visión general de la resolución de discrepancias durante la conciliación de los totales de las facturas
 

@@ -3,7 +3,7 @@ title: Predicciones de pago de cliente
 description: Este tema describe la capacidad de predicciones de pago que puede ayudarle a conocer mejor las prácticas de pago típicas de un cliente. Esta característica también puede ayudarle a identificar circunstancias que deberían provocar que comience procesos de cobro antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752746"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982048"
 ---
 # <a name="customer-payment-predictions"></a>Predicciones de pago de cliente
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe la capacidad de predicciones de pago que puede ayudarle a conocer mejor las prácticas de pago típicas de un cliente. Esta característica también puede ayudarle a identificar circunstancias que deberían provocar que comience procesos de cobros antes de lo haya hecho de otra manera.
 
@@ -39,7 +38,7 @@ Las organizaciones a menudo encuentran difícil predecir cuándo los clientes pa
 - Procesos de cobros que comienzan demasiado tarde
 - Pedidos que se entregan a clientes que podrían incumplir su pago
 
-Las predicciones de pagos de clientes (versión preliminar) ayudan a las organizaciones a predecir cuándo se pagará una factura a un cliente. Por lo tanto, pueden crear estrategias de cobro que ayuden a aumentar la probabilidad de que se paguen puntualmente.
+Las predicciones de pagos de clientes ayudan a las organizaciones a predecir cuándo se pagará una factura a un cliente. Por lo tanto, pueden crear estrategias de cobro que ayuden a aumentar la probabilidad de que se paguen puntualmente.
 
 ## <a name="predictions"></a>Predicciones
 

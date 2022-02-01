@@ -1,5 +1,5 @@
 ---
-title: Solucione el error del motor de programación "No se pudo encontrar suficiente capacidad"
+title: Solucione el error del motor de programación y capacidad limitada "No se pudo encontrar suficiente capacidad"
 description: Este tema proporciona información sobre las razones y resoluciones de la Orden de producción %1 no se pudo programar. No se pudo encontrar suficiente capacidad'.
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565768"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985039"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Solucione el error del motor de programación "No se pudo encontrar suficiente capacidad"
 
@@ -105,5 +105,11 @@ Para revisar la capacidad disponible en el grupo de recursos, siga estos pasos.
 
 1. Ir a **Administración de la organización \> Recursos \> Grupos de recursos** y seleccione un grupo de recursos que sea aplicable al pedido que no se puede programar.
 1. En el panel de acciones, en la pestaña **Grupo de recursos**, en el grupo **Vista**, seleccione **Carga de capacidad** o **Carga de capacidad, gráficamente** y asegúrese de que haya capacidad disponible.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>La planificación maestra reserva un recurso cuando el calendario de recursos está cerrado
+
+Al utilizar la programación de operaciones, la planificación maestra planificará la capacidad de acuerdo con el calendario del grupo de recursos principal. Reserva la operación secundaria al mismo tiempo que la operación principal y no tiene en cuenta los calendarios ni la capacidad de la operación secundaria. Esto puede provocar que el pedido de producción se programe en un calendario cerrado o en un momento en que la operación secundaria no esté disponible (calendario cerrado, sin capacidad).
+
+Al utilizar la programación de trabajos, la planificación maestra tendrá en cuenta la capacidad y el calendario de la operación principal y secundaria al programar el pedido. Para que se programe la orden, los calendarios de los recursos de ambas operaciones deben estar abiertos y tener capacidad disponible.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

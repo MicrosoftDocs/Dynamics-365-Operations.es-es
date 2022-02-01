@@ -1,8 +1,8 @@
 ---
-title: Gestión de procesos de contratación
-description: Este artículo describe un concepto que los reclutadores pueden usar para realizar un seguimiento de los pasos de un proceso de reclutamiento.
+title: Gestionar procesos de contratación
+description: Este tema describe un concepto que los reclutadores pueden usar para realizar un seguimiento de los pasos de un proceso de reclutamiento.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752999"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965073"
 ---
 # <a name="manage-recruiting-processes"></a>Gestionar procesos de contratación
 
@@ -42,7 +42,7 @@ Los proyectos de contratación permiten a los empleadores seguir el progreso de 
 - La fecha límite de la solicitud
 - La fecha de inicio estimada
 
-El proyecto de contratación contiene el **Anuncio de trabajo** utilizado en **Autoservicio para empleados** para publicitar la vacante. Para mostrar la vacante a los empleados, el proyecto de contratación debe tener un **Anuncio de trabajo**, el campo **Mostrar en autoservicio para empleados** debe estar establecido en Sí, **Fecha límite de la solicitud** debe estar establecido en una fecha futura y el proyecto de contratación debe tener Iniciado como **Estado del proyecto**. En la siguiente tabla se muestran los posibles estados de un proyecto de contratación y su descripción.
+El proyecto de contratación contiene el valor **Anuncio de trabajo** utilizado en la página **Autoservicio para empleados** para publicitar la vacante. La vacante se puede mostrar a los empleados solo si el proyecto de contratación tiene un valor de **Anuncio de trabajo**, el campo **Mostrar en autoservicio para empleados** está establecido en **Sí**, el campo **Fecha límite de la solicitud** está establecido en una fecha futura y el proyecto de contratación tiene un valor de **Estado del proyecto** de **Iniciado**. En la siguiente tabla se muestran los posibles estados de un proyecto de contratación y su descripción.
 
 | Estado    | Indica que...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Los empleadores también pueden registrar los **Medios** utilizados para publici
 
 ## <a name="applicants"></a>Candidatos
 
-Un candidato es una persona que solicita un trabajo en su empresa. Los candidatos se comparten entre todas las entidades jurídicas de la organización, lo cual proporciona una amplia selección de talentos donde buscar personal. Puede mantener capacidades, referencias, solicitudes de alojamiento e información personal sobre los candidatos. Al crear un registro de candidato, se creará un registro de la persona para dicho candidato en la libreta de direcciones global. Puede usar la página **Candidato** para actualizar la siguiente información de la libreta de direcciones global de candidatos:
+Un candidato es una persona que solicita un trabajo en su empresa. Los solicitantes se comparten entre todas las entidades jurídicas de su organización. Por lo tanto, tiene una gran reserva de talento en la que buscar. Puede mantener capacidades, referencias, solicitudes de alojamiento e información personal sobre los candidatos. Al crear un registro de candidato, se creará un registro de la persona para dicho candidato en la libreta de direcciones global. Puede usar la página **Candidato** para actualizar la siguiente información de la libreta de direcciones global de candidatos:
 
 - Información de dirección
 - Información de contacto
@@ -84,7 +84,7 @@ El estado de la solicitud indica el punto del proceso de contratación en el que
 
 ### <a name="correspondence-actions"></a>Acciones de correspondencia
 
-La acción de correspondencia de una **solicitud** determina el documento o la plantilla de correo electrónico utilizada para comunicarse con el candidato que envió la solicitud. Puede asociar **Marcadores de solicitud** con acciones de correspondencia para permitir usar valores de las páginas Solicitud, Candidato, Entrevista y Proyecto de contratación en sus comunicaciones con los candidatos. Se pueden crear **Plantillas de correo electrónico para solicitudes** para enviar rápidamente mensajes de correo electrónico a los candidatos con una solicitud con determinada combinación de acción de correspondencia y estado. Por ejemplo, puede enviar un mensaje de correo electrónico de confirmación a todas las solicitudes con **Estado** Recibido y **Acción de correspondencia** Recibido. Tras enviar el mensaje de correo electrónico, tiene la opción de actualizar automáticamente el estado de las solicitudes.
+La acción de correspondencia de una solicitud determina el documento o la plantilla de correo electrónico utilizada para comunicarse con el candidato que envió la solicitud. Al asociar **Marcadores de solicitud** con acciones de correspondencia, puede usar valores de las páginas **Solicitud**, **Candidato**, **Entrevista** y **Proyecto de contratación** en sus comunicaciones con los candidatos. Al crear **Plantillas de correo electrónico para solicitudes** para las acciones correspondientes, puede enviar rápidamente mensajes de correo electrónico a los candidatos con una solicitud con determinada combinación de acción de correspondencia y estado. Por ejemplo, puede enviar un mensaje de correo electrónico de confirmación a todas las solicitudes con valor de **Estado** **Recibido** y un valor de **Acción de correspondencia** de **Recibido**. Tras enviar el mensaje de correo electrónico, tiene la opción de actualizar automáticamente el estado de las solicitudes.
 
 ## <a name="application-routing"></a>Enrutamiento de solicitudes
 
@@ -101,6 +101,5 @@ Si varios trabajadores deben revisar una solicitud, puede usar la página **Enru
 ## <a name="hiring-applicants"></a>Contratación de candidatos
 
 Use la página **Solicitudes** para contratar a un candidato. Si contrata a un candidato, el registro de solicitud tendrá un estado **Empleado**, y el registro en la libreta de direcciones global del candidato se asociará al registro de nuevo trabajador. Las modificaciones de la información en la libreta de direcciones global del registro del trabajador nuevo también se mostrarán en el registro del candidato. Esto puede ayudar a reducir la entrada de datos si el nuevo trabajador solicitase un trabajo diferente en su empresa. Para contratar a un trabajador existente en un nuevo puesto, haga clic en **Cambiar puesto** en la ficha desplegable **Estado de la solicitud** para iniciar el proceso de transferencia.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

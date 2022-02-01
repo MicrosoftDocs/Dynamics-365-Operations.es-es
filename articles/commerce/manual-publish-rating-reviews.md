@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675058"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968212"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Habilitar la publicación manual de calificaciones y reseñas por parte de un moderador
 
@@ -68,3 +68,17 @@ La siguiente ilustración muestra un ejemplo en el que se seleccionan tres calif
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Información general de clasificaciones y revisiones](ratings-reviews-overview.md)
+
+[Optar por usar clasificaciones y revisiones de usuario](opt-in-ratings-reviews.md)
+
+[Administrar clasificaciones y revisiones](manage-reviews.md)
+
+[Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
+
+[Sincronizar clasificaciones de producto](sync-product-ratings.md)
+
+[Importación y exportación de calificaciones y opiniones](import-export-reviews.md)
+
+[Configurar autenticación de servicio a servicio](service-to-service-auth.md)
+
+[P+F de clasificaciones y revisiones](ratings-reviews-faq.md)

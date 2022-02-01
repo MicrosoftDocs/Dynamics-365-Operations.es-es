@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860676"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013843"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Habilitar Power BI para Contabilidad de inventario global
 
@@ -51,7 +51,8 @@ Para configurar la integración de Power BI, siga estos pasos.
 
     1. Vaya a **Mi espacio de trabajo**, busque el conjunto de datos de Contabilidad de inventario global y, a continuación, en el menú **Opciones**, seleccione **Ajustes**.
     1. En **Configuración de la contabilidad de inventario global**, expanda **Parámetros** y actualice todos los parámetros según sea necesario. En particular, asegúrese de verificar la siguiente configuración:
-        1. Sobrescriba los valores predeterminados **URL de Dataverse** e **Id. de entorno** usando los valores encontrados en la página **Detalles del entorno** en LCS (en la sección **Integración de Power Platform**).
+        1. Sobrescriba los valores predeterminados **URL de Dataverse** usando los valores encontrados en **Información de entorno de Power Platform** en LCS (en la sección **Integración con Power Platform**).
+        1. Sobrescriba los valores predeterminados **Id. de entorno** usando los valores encontrados en la página **Detalles del entorno** en LCS (en la sección **Administrar entornos**).
         1. Seleccione el vínculo **Editar credenciales** junto a la etiqueta **CDS** en la sección **Credenciales de origen de datos**. Después, inicie sesión en su cuenta de Dataverse usando el método de autenticación **OAuth2**.
     1. Verifique que los informes de Power BI de **Mi espacio de trabajo \> Informes \> Contabilidad de inventario global** ahora funcionan correctamente y muestran el contenido de su sistema.
 

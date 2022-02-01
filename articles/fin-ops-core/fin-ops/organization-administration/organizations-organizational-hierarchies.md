@@ -2,8 +2,8 @@
 title: Información general de las organizaciones y las jerarquías organizativas
 description: Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio.
 author: sericks007
-ms.date: 11/10/2021
-ms.topic: article
+ms.date: 01/03/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798355"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7992086"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visión general de las organizaciones y las jerarquías organizativas
 
@@ -54,7 +54,7 @@ Los tipos de unidades operativas se incluyen los centros de coste, las unidades 
 | Unidad de negocio       | Unidad operativa semiautónoma que se crea para cumplir objetivos empresariales estratégicos. | Se usa para la notificación financiera basada en industrias o líneas de productos que la organización produce independientemente de la entidades jurídicas. |
 | Flujo de valor        | Unidad operativa que controla uno o más flujos de producción. | Se usa comúnmente en la producción ajustada para controlar las actividades y flujos requeridos para suministrar un producto o servicio a los consumidores. |
 | Departamento          | Una unidad operativa que representa una categoría o parte funcional de una organización y que realiza una tarea determinada, como las ventas o la contabilidad. | Se usa para informar sobre las áreas funcionales. Un departamento puede tener responsabilidad de pérdidas y ganancias y puede estar compuesto de un grupos de centros de coste. |
-| Canal de Commerce      | Una unidad operativa que representa una tienda física, una tienda en línea o un mercado en línea. | Se usa para la administración y el control operativo de una o varias tiendas dentro o a través de entidades jurídicas. |
+| Canal comercial      | Una unidad operativa que representa una tienda física, una tienda en línea o centro de llamadas. | Se usa para la administración y el control operativo de una o varias tiendas dentro o a través de entidades jurídicas. |
 
 ### <a name="teams"></a>Equipos
 

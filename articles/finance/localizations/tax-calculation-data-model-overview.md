@@ -3,7 +3,7 @@ title: Modelo de datos de cálculo de impuestos
 description: Este tema proporciona información sobre el modelo de datos de impuestos y cómo los valores de campo de cada modelo de datos están determinados por el contexto de las transacciones de cálculo de impuestos.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864269"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985975"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de datos de cálculo de impuestos
 
 Este tema proporciona información sobre cómo se determinan los valores de campo del modelo de datos en las transacciones de cálculo de impuestos.
 
-El *modelo de datos fiscales* se compone de campos obligatorios para los cálculos de impuestos. Microsoft proporciona el *modelo de datos de cálculo de impuestos*, que incluye los campos de encabezado y los campos de línea de los documentos de transacción en aplicaciones de Finance and Operations. Los campos que se definen en el modelo de datos de cálculo de impuestos son las columnas disponibles de las tablas de reglas de aplicabilidad en la configuración de la configuración de la función de cálculo de impuestos.
+El *modelo de datos fiscales* se compone de campos obligatorios para los cálculos de impuestos. Microsoft proporciona el *modelo de datos de cálculo de impuestos*, que incluye los campos de encabezado y los campos de línea de los documentos de transacción en aplicaciones de Finanzas y Operaciones. Los campos que se definen en el modelo de datos de cálculo de impuestos son las columnas disponibles de las tablas de reglas de aplicabilidad en la configuración de la configuración de la función de cálculo de impuestos.
 
 > [!NOTE] 
 > Algunos nodos que se definen en el modelo de datos, como **ID de registro** e **ID de tabla**, son para fines técnicos. No son columnas disponibles en la configuración de la función de cálculo de impuestos.
@@ -55,7 +55,7 @@ También puede ver el modelo de datos de cálculo de impuestos y las columnas di
 
     [![Administrar columnas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-El modelo de datos de cálculo de impuestos está integrado con aplicaciones de Finance and Operations. Durante cada transacción relacionada con el cálculo de impuestos, los valores de los campos definidos en las tablas de reglas de aplicabilidad se recopilan y envían al servicio de cálculo de impuestos para su cálculo. En la versión 40.46, se encuentran disponibles 57 modelos de datos predefinidos para los siguientes tipos de transacciones: órdenes de compra, órdenes de venta, órdenes de transferencia, solicitudes de compra, solicitudes de cotización y cotizaciones de venta.
+El modelo de datos de cálculo de impuestos está integrado con aplicaciones de Finanzas y Operaciones. Durante cada transacción relacionada con el cálculo de impuestos, los valores de los campos definidos en las tablas de reglas de aplicabilidad se recopilan y envían al servicio de cálculo de impuestos para su cálculo. En la versión 40.46, se encuentran disponibles 57 modelos de datos predefinidos para los siguientes tipos de transacciones: órdenes de compra, órdenes de venta, órdenes de transferencia, solicitudes de compra, solicitudes de cotización y cotizaciones de venta.
 
 Se pueden incluir treinta y un modelos de datos como campos en el encabezado de una transacción. Sin embargo, no todos los campos son aplicables a todos los tipos de transacciones. La siguiente tabla muestra qué campos de encabezado están disponibles para tipos de transacciones específicos. En algunos casos, el mapeo de campo debe determinarse mediante una lógica predefinida. Donde sea aplicable, se proporciona la lógica.
 

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945810"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968996"
 ---
 # <a name="cash-position"></a>Posición de efectivo
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La posición de efectivo es la proyección del flujo de efectivo que se prevé para el corto plazo. Se basa en la proyección de los recibos de efectivo de los clientes que pagan facturas y pedidos pendientes, y también en la proyección de los desembolsos de efectivo que se pagan a los proveedores por las facturas y los pedidos de compra.
 

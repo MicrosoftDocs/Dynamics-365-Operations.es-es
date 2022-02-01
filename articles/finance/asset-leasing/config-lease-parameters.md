@@ -2,25 +2,25 @@
 title: Configurar parámetros de arrendamiento (versión preliminar)
 description: Este tema describe las opciones de configuración para el arrendamiento de activos, como la información de seguridad y la configuración de contabilidad.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e5f0aeddfa9d3f27500b033d4b4fb0fb1731105a28be4a6934b2328d62df6ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779047"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968086"
 ---
 # <a name="configure-lease-parameters"></a>Configurar parámetros de arrendamiento
 
@@ -39,10 +39,11 @@ Varias opciones de configuración afectan al comportamiento del arrendamiento de
 
     Si configura esta opción en **Sí** y el tipo de transición del libro es **Opción de recuperación acumulativa A o B**, el sistema establece el campo **Tipo de interés incremental del endeudamiento** al valor del campo **Tipo de interés incremental del endeudamiento en la transición**, en la página **Configuración del libro**. Si esta opción se establece en **No**, la tasa del arrendamiento principal se establece en el valor del campo **Tipo de interés incremental del endeudamiento** en la página **Detalles del libro**, independientemente del tipo de transición del libro.
 
-4. Establezca la opción **Permitir reversiones de depreciación en la versión de libro cerrado** en **Sí** para permitir la reversión de las transacciones de gastos de depreciación. Las transacciones de gastos se pueden revertir incluso cuando la versión del libro está cerrada.
+4. Establezca la opción **Permitir reversiones de depreciación en el libro cerrado** en **Sí** para permitir la reversión de las transacciones de gastos de depreciación. Las transacciones de gastos se pueden revertir incluso cuando la versión del libro está cerrada.
 
     > [!NOTE]
     > Le recomendamos que mantenga esta opción configurada en **No**. La configuración de esta opción se utiliza como validación y control para evitar que una versión de libro cerrado se deprecie accidentalmente. Manteniendo la opción establecida en **No**, ayuda a mantener precisos el valor neto en los libros y los cálculos de depreciación futura.
 
+5. Establezca la opción **Permitir el desglose del importe de pago** en **Sí** para permitir un desglose de los importes de pago en la ficha desplegable **Líneas de programación de pago** de la página **Arrendamiento**. Los tipos de desglose de pagos se definen en **Configuración** en la página **Tipos de importes de pago**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

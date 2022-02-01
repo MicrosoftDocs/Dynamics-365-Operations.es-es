@@ -1,29 +1,28 @@
 ---
-title: Vista previa de Administración de características
+title: Información general de la administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488187"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984468"
 ---
-# <a name="feature-management-overview"></a>Visión general de la administración de características
+# <a name="feature-management-overview"></a>Información general de la administración de características
 
 [!include [banner](../../includes/banner.md)]
 
@@ -75,9 +74,9 @@ Funciones que se actualizan a **Activada por defecto** están activadas de forma
 > [!NOTE]
 > Debido a que estas funciones se habilitarán automáticamente, es importante que determine si su organización está lista para adoptar estas funciones o si se requiere más tiempo. Si se requiere más tiempo, puede que sea necesario deshabilitar temporalmente estas funciones. Tenga en cuenta que la transición de una función a **Activado de forma predeterminada** se realiza normalmente en la versión principal antes de que la función esté destinada a convertirse en **Obligatoria**. En ese momento, no tendrá la opción de deshabilitar la función. 
 
-### <a name="released-features-mandatory"></a>Funciones publicadas (obligatorio)
+### <a name="mandatory"></a>Obligatoria
 
-**Publicado** es el estado final de las funciones. Indica que las funciones están activadas y que no puede desactivarlas sin ponerse en contacto con Microsoft. Se espera que las características opcionales sean obligatorias después de dos versiones principales. Las características críticas pueden, por excepción, introducirse como obligatorias.
+**Obligatoria** es el estado final esperado de las características. Indica que las funciones están activadas y que no puede desactivarlas sin ponerse en contacto con Microsoft. Se espera que las características opcionales sean obligatorias después de dos versiones principales. Las características críticas pueden, por excepción, introducirse como obligatorias.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Ejemplo de ciclos de vida esperados de características
 

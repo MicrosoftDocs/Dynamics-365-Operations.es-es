@@ -1,24 +1,23 @@
 ---
 title: Visión general de España
 description: Este tema proporciona vínculos a recursos de documentación para España.
-author: ShylaThompson
-ms.date: 07/27/2020
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Spain
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd69499aafc954243efe1279ad299d02a94c629e
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: d591fecfce07889ae4b20ed91f6e5de3be4cd5c7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674613"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983084"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
@@ -40,6 +39,7 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Opciones de pagaré español](emea-esp-promissory-note-options.md)
 - [Informe 340](emea-esp-report-340.md)
 - [Informe del Modelo 347](emea-esp-declaration-347-report.md)
+- [Declaración de IVA 303](emea-esp-vat-declaration-spain.md)
 - [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
 - [Entradas especiales y hojas de apertura](emea-esp-opening-sheets-spain.md)
 - [Suministro inmediato de información del IVA, SII](emea-esp-sii.md)

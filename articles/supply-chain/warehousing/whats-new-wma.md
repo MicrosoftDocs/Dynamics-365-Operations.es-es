@@ -2,7 +2,7 @@
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901897"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007583"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20140"></a>Versión 2.0.14.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Se solucionó un problema que deshabilitaba el botón Enviar predeterminado.
+
+## <a name="version-20130"></a>Versión 2.0.13.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+ 
+- Desplazamiento mejorado entre páginas con animación más suave.
+- Se corrigieron las respuestas poco intuitivas a los movimientos de deslizamiento y las congelaciones ocasionales de la pantalla.
+- Combinaciones mejoradas de color de fondo y texto en modo oscuro para una mejor legibilidad.
+- Se solucionó un problema por el cual parte del texto podía volverse muy pequeño al cambiar el tamaño de la ventana de la aplicación.
+- Se solucionó un problema que podía hacer que la aplicación fallara a veces al escanear códigos de barras.
+- Se agregó la posibilidad de reemplazar un control deslizante con un botón.
+- Se solucionó un problema que podía hacer que la aplicación mostrara el mensaje de error "AADSTS7000215: se proporcionó un secreto de cliente no válido".
+- Se corrigió la animación de sugerencias que mostraba cómo cerrar una página con un gesto de deslizar hacia abajo.
+- Se agregó la posibilidad de cerrar una página con un gesto de deslizar hacia abajo.
+- Se solucionó un problema por el cual los títulos de la lista desplegable no se mostraban en la página **Configuración de usuario**.
+- Se solucionó un problema de localización por el que la aplicación no reconocía una coma (,) como separador decimal.
+- Accesibilidad mejorada.
+- Se corrigió la navegación en la página **Nueva conexión** para proporcionar una mejor accesibilidad.
+- Se solucionó un problema por el cual el teclado virtual (en pantalla) no aparecía al seleccionar un campo de entrada.
+- Se solucionó un problema que podía bloquear la aplicación si los usuarios cambiaban rápidamente el tamaño de su ventana.
+- Se solucionó un problema por el cual una pulsación rápida de teclas a veces se interpretaba como una pulsación prolongada.
+- Se solucionó un problema por el cual el diseño de la aplicación podía corromperse debido a las personalizaciones de campo realizadas en Supply Chain Management.
+- Se solucionó un problema por el cual las ubicaciones de los elementos no se mostraban correctamente.
+- Se solucionó un problema relacionado con la selección corta para el flujo de trabajo de la variante del producto.
+- Se eliminó la validación innecesaria de campos que contienen valores predeterminados preestablecidos.
+- Rendimiento mejorado.
+- Se agregó una nueva configuración que permite a los usuarios elegir cómo se filtran y ordenan los campos en la página de la tarjeta.
 
 ## <a name="version-20110"></a>Versión 2.0.11.0
 
