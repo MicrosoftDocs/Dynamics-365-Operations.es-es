@@ -6,7 +6,7 @@
           href: index.md
         - name: Novedades y cambios
           items:
-            - name: Novedades y cambios de aplicaciones de Finance and Operations
+            - name: Novedades y cambios en aplicaciones de Finance and Operations
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novedades o cambios en Supply Chain Management
               items:
@@ -16,10 +16,6 @@
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (enero de 2022)
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: Supply Chain Management 10.0.22 (noviembre de 2021)
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: Supply Chain Management 10.0.21 (octubre de 2021)
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -3513,7 +3509,7 @@
                       href: warehousing/transfer-orders-warehouse.md
                 - name: Actualizar y migrar
                   items:
-                    - name: Actualizar los procesos de gestión de almacenes desde Microsoft Dynamics AX 2012 a Finance and Operations
+                    - name: Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Desarrollo de Supply Chain Management
           items:
