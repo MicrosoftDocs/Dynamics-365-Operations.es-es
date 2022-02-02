@@ -2,7 +2,7 @@
 title: Goteo en la creación de pedidos basados en fuente para transacciones de tienda
 description: En este tema se describe el goteo de la creación de pedidos basados en fuente para las transacciones de tienda en Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921254"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964638"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Goteo en la creación de pedidos basados en fuente para transacciones de tienda
 
@@ -47,6 +47,10 @@ Programe los siguientes trabajos para que se ejecuten con alta frecuencia:
 ### <a name="financial-statements"></a>Informes financieros
 
 El procesamiento de informes financieros está pensado para ser un proceso de final del día. Este tipo de procesamiento de extractos solo admite el método de cierre **Turno** y solo recogerá turnos cerrados. Los extractos se limitan a la conciliación financiera. Solo crearán los diarios para los importes de diferencia entre el importe contado y el importe de la transacción para las diferentes formas de pago, junto con los diarios para otras transacciones de gestión del efectivo.
+
+Los informes financieros también permiten revisar las siguientes transacciones: transacciones de declaración por forma de pago, transacciones de pago, transacciones de forma de pago bancarias y transacciones de forma de pago en caja fuerte. La página de detalles de forma de pago solo es visible cuando se selecciona un informe financiero.
+
+![Una imagen que muestra la sección de detalles de forma de pago del formulario de informes registrados solo es visible cuando se selecciona un informe financiero.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Programe las horas de inicio y finalización de los siguientes trabajos de informes financieros en función del final del día previsto:
 
