@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe029d6a3eb2555e0d77035b089c7cb3e710ee85
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782141"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075406"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
@@ -80,18 +80,20 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Sector público</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Características normativas regionales</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">Prestaciones</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desarrollo y formación de empleados</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Cuestionarios</a></p>
-<p><a href="hr/manage-recruiting-process.md">Contratación</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Nómina de EE. UU.</a></p>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Autoservicio para empleados</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Administración de personal</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Bajas y ausencias</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Beneficios</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desarrollo de empleados</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Aprendizaje</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Nómina de EE. UU.</a></p>
 
 </td>
 <td>
 <h3><a href="../../supply-chain/index.md">Gestión de la cadena de suministro</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gestión de costes</a></p>
-<p><a href="../../supply-chain/inventory/inventory-home-page.md">Gestión de inventarios</a></p>
+<p><a href="../../supply-chain/inventory/inventory-home-page.md">Administración de inventario</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Planificación maestra</a></p>
 <p><a href="../../supply-chain/procurement/procurement-sourcing-overview.md">Adquisición y abastecimiento</a></p>
 <p><a href="../../supply-chain/pim/product-information.md">Gestión de información de productos</a></p>
@@ -131,11 +133,6 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <p><a href="../../commerce/define-maintain-retail-channels.md">Configuración y gestión de canal</p>
 <p><a href="../../commerce/retail-peripherals-overview.md">MPOS y Cloud POS</p>
 <p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Desarrollador y administración de Commerce</p>
-
-<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Guía del administrador</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Guía de desarrollador</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Guía del usuario</a></p>
 
 
 </td>

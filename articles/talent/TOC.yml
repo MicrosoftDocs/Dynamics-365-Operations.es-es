@@ -1,6 +1,8 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Retirada de Dynamics 365 Talent
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
+    - name: Página principal de Dynamics 365 Talent
+      href: ./index.md
     - name: Introducción
       items:
         - name: Introducción a Talent

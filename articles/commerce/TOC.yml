@@ -92,6 +92,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.25 (abril de 2022)
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: Commerce 10.0.24 (febrero de 2022)
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (enero de 2022)
@@ -124,8 +126,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Vídeos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: Glosario
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Catálogo de aprendizaje
               items:
                 - name: Página principal de Catálogo de aprendizaje
@@ -1746,7 +1746,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
                         - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Format
+                        - name: Formato
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
@@ -1936,6 +1936,8 @@
                   items:
                     - name: Crear configuraciones para importar datos de un archivo XML externo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: Importar datos de archivos seleccionados manualmente en modo por lotes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar la importación de datos en modo de proceso por lotes de archivos que se encuentra en SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Importar archivos en formato XML
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: Application Update 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: Application Update 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Especificar una ubicación de almacenamiento personalizado para documentos generados
                   items:
                     - name: Suscribirse a un evento para solicitar una respuesta del controlador suscriptor
@@ -2384,6 +2388,8 @@
               items:
                 - name: Commerce para profesionales de TI y desarrolladores
                   href: dev-itpro/dev-retail-home-page.md
+                - name: Modernización de la pila tecnológica en la tienda de Commerce (notas del producto)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Configurar un entorno de desarrollo local
                   href: dev-itpro/setup-local-dev-env.md
             - name: Extensibilidad de canal en línea

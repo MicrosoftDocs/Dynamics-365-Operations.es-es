@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.25 (abril de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.24 (febrero de 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.23 (enero de 2022)
@@ -430,6 +432,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Desinstalar un paquete
                   href: deployment/uninstall-deployable-package.md
+                - name: Ejecutar scripts X++ personalizados sin tiempo de inactividad
+                  href: deployment/run-custom-scripts.md
                 - name: Solucionar problemas de aplicación de paquete
                   href: deployment/deployable-package-troubleshooting.md
             - name: Implementación de ayuda personalizada
@@ -854,6 +858,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: Filtrado de SysTest mediante atributos de clase y método
                   href: perf-test/systest-filtering.md
+                - name: Atributo SysTestRow para probar múltiples valores
+                  href: perf-test/systest-row.md
                 - name: Biblioteca de prueba de aceptación
                   items:
                     - name: Recursos de la biblioteca de prueba de aceptación

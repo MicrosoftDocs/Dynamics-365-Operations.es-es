@@ -2,7 +2,7 @@
 title: Validar las transacciones de la tienda para el cálculo de extractos
 description: En este tema se describe la funcionalidad para validar transacciones de tienda en Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924780"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087458"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Validar las transacciones de la tienda para el cálculo de extractos
 
@@ -51,7 +51,7 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 
 En la siguiente tabla se muestran las reglas de validación de encabezado de transacción que se comparan con el encabezado de las transacciones minoristas antes de que esas transacciones se pasen al registro de informes.
 
-| Cargo | Descripción |
+| Regla | Descripción |
 |-------|-------------|
 | Fecha de negocio | Esta regla valida que la fecha comercial de la transacción está asociada a un período fiscal abierto en el libro mayor. |
 | Redondeo de divisas | Esta regla valida que los importes de las transacciones se redondeen de acuerdo con la regla de redondeo de divisas. |
@@ -72,7 +72,7 @@ En la siguiente tabla se muestran las reglas de validación de encabezado de tra
 
 En la siguiente tabla se muestran las reglas de validación de línea de transacción que se comparan con los detalles de línea de las transacciones minoristas antes de que esas transacciones se pasen al registro de informes.
 
-| Cargo | Descripción |
+| Regla | Descripción |
 |-------|-------------|
 | Código de barras | Esta regla valida que todos los códigos de barras de artículos que se utilizan en las líneas de transacción existen en la base de datos. |
 | Líneas de cargo | Esta regla valida que la suma del importe calculado y el importe de impuestos exentos de las líneas de cargo es igual al importe calculado original. |

@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios de la página principal de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.25 (abril de 2022)
+                  href: get-started/whats-new-scm-10-0-25.md
                 - name: Supply Chain Management 10.0.24 (febrero de 2022)
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (enero de 2022)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vídeos
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Glosario
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/supply-chain/toc.json
             - name: Catálogo de aprendizaje
               items:
                 - name: Página principal de Catálogo de aprendizaje
@@ -308,6 +308,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube
+              href: cloud-edge/cloud-edge-workload-setup-warehouse-app.md
             - name: Pedidos de almacén para unidades de escalado en el perímetro y en la nube
               href: cloud-edge/cloud-edge-warehouse-order.md
             - name: Ajuste de inventario de almacén
@@ -1049,7 +1051,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Concatenate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Format
+                        - name: Formato
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/supply-chain/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/supply-chain/toc.json
@@ -1233,6 +1235,8 @@
                   items:
                     - name: Crear configuraciones para importar datos de un archivo XML externo
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Importar datos de archivos seleccionados manualmente en modo por lotes
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar la importación de datos en modo de proceso por lotes de archivos que se encuentra en SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Importar archivos en formato XML
@@ -1461,6 +1465,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Application Update 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Application Update 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Application Update 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Especificar una ubicación de almacenamiento personalizado para documentos generados
                   items:
                     - name: Suscribirse a un evento para solicitar una respuesta del controlador suscriptor
@@ -1691,12 +1699,16 @@
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Poner en firme pedidos planificados
                   href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Pedidos planificados simplificados
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Planificación con cantidades negativas disponibles
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Ver historial del plan y registros de planificación
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Cancelar un trabajo de planificación
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Mensajes de acción
+                  href: master-planning/action-messages.md
                 - name: Solucionar problemas de optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: Extensibilidad de Optimización de planificación
@@ -1729,8 +1741,6 @@
                   href: master-planning/cancel-master-planning-job.md
                 - name: Usar seguimiento para expansiones
                   href: master-planning/trace-explosion.md
-                - name: Mensajes de acción
-                  href: master-planning/action-messages.md
                 - name: Supervisar una ejecución de planificación maestra
                   href: master-planning/tasks/monitor-master-planning-run.md
                 - name: Crear una programación para un sitio
@@ -3763,6 +3773,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: No se encontró el ancla de confianza para la ruta de certificación al configurar y migrar a WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Se producen problemas de procesamiento después de instalar una carga de trabajo de almacén para unidades de escalado
+                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: La solicitud de reserva automática para el número de lote se muestra incluso con el inventario disponible
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: No se puede desbloquear el trabajo de picking debido a un trabajo de reabastecimiento sin terminar
@@ -3907,3 +3919,5 @@
       href: ../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md
