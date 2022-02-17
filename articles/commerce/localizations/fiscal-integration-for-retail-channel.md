@@ -2,29 +2,24 @@
 title: Visión general de la integración fiscal para canales de Commerce
 description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-manager: annbe
-ms.date: 09/22/2021
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
-audience: Application User
-ms.reviewer: josaw
+ms.date: 01/31/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: epopov
-ms.search.validFrom: 2019-1-16
-ms.dyn365.ops.version: 10
-ms.openlocfilehash: d63f26afb8f533728a6b7ab0a1f359b210be3e5b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983753"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077201"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visión general de la integración fiscal para canales de Commerce
 
 [!include [banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Este tema es una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce. 
 
@@ -38,32 +33,61 @@ La funcionalidad fiscal de la integración de ventas es un marco que ofrece una 
 
 Para admitir otros escenarios que no son compatibles por un ejemplo fiscal de la integración, para integrar Retail POS con otros dispositivos o servicios fiscales, o cubrir los requisitos de otros países o regiones, debe remitir un ejemplo fiscal existente de integración o crear un nuevo ejemplo mediante un ejemplo existente como un ejemplo.
 
-## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Proceso de registro fiscal y ejemplos fiscales de la integración de los dispositivos fiscales
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services"></a>Proceso de registro fiscal y ejemplos fiscales de la integración de los dispositivos y servicios fiscales
 
-Un proceso de registro fiscal en Retail POS puede estar formado por uno o más pasos. Cada paso implica el registro de transacciones fiscales o de eventos específicos en un dispositivo manual o servicio fiscal. Los siguientes componentes de la solución participan en el registro fiscal en un dispositivo fiscal asociado a una estación de hardware:
+Un proceso de registro fiscal en Retail POS puede estar formado por uno o más pasos. Cada paso implica el registro de transacciones fiscales o de eventos específicos en un dispositivo manual o servicio fiscal. Los siguientes componentes de la solución participan en el registro fiscal en un dispositivo o servicio fiscal:
 
-- **Extensión de Commerce runtime (CRT)**: este componente serializa la transacción/datos de eventos en el formato que también se usa para la interacción con el dispositivo fiscal, analiza respuestas del dispositivo fiscal, y almacena las respuestas en la base de datos del canal. La extensión también define las transacciones y los eventos específicos que deben estar registrados. Este componente suele denominarse como un *proveedor del documento fiscal*.
-- **Extensión de la estación de hardware** Este componente inicializa la comunicación con el dispositivo fiscal, envía solicitudes y comandos directos al dispositivo fiscal basado en la transacción/los datos de eventos de la información del documento fiscal y recibe respuestas del dispositivo fiscal. Este componente suele denominarse como un *conector fiscal*.
+- **Proveedor de documentos fiscales**: este componente serializa la transacción/datos de eventos en el formato que también se usa para la interacción con el dispositivo o servicio fiscal, analiza respuestas del dispositivo o servicio fiscal, y almacena las respuestas en la base de datos del canal. La extensión también define las transacciones y los eventos específicos que deben estar registrados.
+- **Conector fiscal**: este componente inicializa la comunicación con el dispositivo fiscal, envía solicitudes y comandos directos al dispositivo o servicio fiscal basado en la transacción/los datos de eventos de la información del documento o servicio fiscal y recibe respuestas del dispositivo o servicio fiscal.
 
-Un ejemplo fiscal de integración para un dispositivo fiscal contiene el CRT y extensiones de la estación de hardware para un proveedor fiscal de documentos y conector fiscal, respectivamente. También contiene las siguientes configuraciones de componentes:
+Un ejemplo fiscal de integración para un dispositivo fiscal podría contener el Commerce runtime (CRT) y extensiones de la estación de hardware para un proveedor fiscal de documentos y conector fiscal. También contiene las siguientes configuraciones de componentes:
 
-- **Configuración del proveedor fiscal del documento** La configuración define un método de salida y el formato de los documentos fiscales. También contiene una asignación de datos para los impuestos y los métodos de pago, para hacer que los datos del Retail POS sean compatibles con los valores que están predefinidas en el firmware fiscal del dispositivo.
-- **Configuración de conector fiscal** La configuración define la comunicación con física el dispositivo fiscal específico.
+- **Configuración del proveedor fiscal del documento** La configuración define un método de salida y el formato de los documentos fiscales. También contiene una asignación de datos para los impuestos y los métodos de pago, para hacer que los datos del Retail POS sean compatibles con los valores que están predefinidas en el firmware fiscal del dispositivo o servicio.
+- **Configuración de conector fiscal** La configuración define la comunicación con física el dispositivo o servicio fiscal específico.
 
-Un proceso de registro fiscal para un registro de PDV específico se define mediante un valor correspondiente del perfil de funcionalidad del PDV. Para obtener más información acerca de cómo configurar un proceso de registro fiscal, cargar el proveedor fiscal de documento y las configuraciones de conector fiscales, y cambiar los parámetros, consulte [Configurar un proceso de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+Un proceso de registro fiscal para un registro de PDV específico se define mediante un valor correspondiente del perfil de funcionalidad del PDV. Para obtener más información acerca de cómo configurar un proceso de registro fiscal, cargar el proveedor fiscal de documento y las configuraciones de conector fiscales, y cambiar los parámetros de configuración, consulte [Configurar un proceso de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
-El ejemplo siguiente muestra un flujo fiscal típico de la ejecución de registro para un dispositivo fiscal. El flujo empieza con un evento en PDV (por ejemplo, finalización de una transacción de ventas) e implementa la siguiente secuencia de pasos:
+El siguiente flujo de registro fiscal típico comienza con un evento en el POS (por ejemplo, la finalización de una transacción de venta) e implementa una secuencia predefinida de pasos que involucra otros componentes de Commerce (como el CRT y la estación de hardware).
 
-1. El PDV solicita un documento fiscal del CRT.
-1. El CRT determina si el evento actual requiere el registro fiscal.
-1. Según los valores fiscales del proceso de registro, CRT identifica un conector fiscal y un proveedor fiscal correspondiente del documento que desee utilizar para el registro fiscal.
-1. CRT ejecuta el proveedor del documento fiscal que genera un documento fiscal (por ejemplo, un documento XML) que represente la transacción o el evento.
-1. El PDV envía el documento fiscal que el CRT prepara para una estación de hardware.
-1. La estación de hardware ejecuta el conector fiscal que procesa el documento fiscal y lo comunica al dispositivo o servicio fiscal.
-1. El PDV analiza la respuesta del dispositivo o servicio fiscal para determinar si el registro fiscal ha tenido éxito.
-1. El CRT guarda la respuesta en la base de datos del canal.
+1. El POS solicita un documento fiscal del marco de integración fiscal (FIF).
+1. El FIF determina si el evento actual requiere el registro fiscal.
+1. Según la configuración del proceso de registro fiscal, FIF identifica un conector fiscal y un proveedor fiscal correspondiente del documento que desee utilizar para el registro fiscal.
+1. El FIF ejecuta el proveedor del documento fiscal que genera un documento fiscal (por ejemplo, un documento XML) que represente la transacción o el evento.
+1. El FIF devuelve el documento fiscal generado al TPV.
+1. El POS solicita que el FIF presente el documento fiscal al dispositivo o servicio fiscal.
+1. El FIF ejecuta el conector fiscal que procesa el documento fiscal y lo envía al dispositivo o servicio fiscal.
+1. El FIF devuelve la respuesta fiscal (es decir, la respuesta del dispositivo o servicio fiscal) al TPV.
+1. El PDV analiza la respuesta fiscal para determinar si el registro fiscal ha tenido éxito. Según sea necesario, el POS solicita que el FIF maneje cualquier error que haya ocurrido. 
+1. El TPV solicita que el FIF procese y guarde la respuesta fiscal.
+1. El proveedor del documento fiscal procesa la respuesta fiscal. Como parte de este procesamiento, el proveedor del documento fiscal analiza la respuesta y extrae datos ampliados de ella.
+1. El FIF guarda la respuesta y los datos ampliados en la base de datos del canal.
+1. Según sea necesario, el POS imprime un recibo a través de una impresora de recibos normal que está conectada a la estación de hardware. El recibo puede contener datos requeridos de la respuesta fiscal.
+ 
+Los ejemplos siguientes muestran flujos fiscales de la ejecución de registro para dispositivos o servicios fiscales típicos.
+ 
+### <a name="fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station"></a>El registro fiscal se realiza a través de un dispositivo conectado a la estación de Hardware
 
-![Esquema de la solución.](media/emea-fiscal-integration-solution.png "Esquema de la solución")
+Esta configuración se utiliza cuando un dispositivo fiscal físico, como una impresora fiscal, está conectado a la estación de hardware. También es aplicable cuando la comunicación con un dispositivo o servicio fiscal se realiza a través de un software instalado en la estación de Hardware. En este caso, el proveedor de documentos fiscales se encuentra en la CRT y el conector fiscal se encuentra en la estación de hardware.
+
+![El registro fiscal se realiza a través de un dispositivo conectado a la estación de Hardware](media/FIF-CRT-HWS.png)
+
+### <a name="fiscal-registration-is-done-via-an-external-service"></a>El registro fiscal se realiza a través de un servicio externo
+
+Esta configuración se utiliza cuando el registro fiscal se realiza a través de un servicio externo, como un servicio web operado por la autoridad fiscal. En este caso, el proveedor de documentos fiscales y el conector fiscal se encuentran en la CRT.
+
+![El registro fiscal se realiza a través de un servicio externo.](media/FIF-CRT-CRT.png)
+ 
+### <a name="fiscal-registration-is-done-internally-in-the-crt"></a>El registro fiscal se realiza internamente en el CRT
+
+Esta configuración se utiliza cuando no se requiere ningún dispositivo o servicio fiscal externo para el registro fiscal. Por ejemplo, se utiliza cuando el registro fiscal se realiza a través de la firma digital de transacciones de venta. En este caso, el proveedor de documentos fiscales y el conector fiscal se encuentran en la CRT.
+
+![El registro fiscal se realiza internamente en el CRT.](media/FIF-CRT-CRT-SGN.png)
+
+### <a name="fiscal-registration-is-done-via-a-device-or-service-in-the-local-network"></a>El registro fiscal se realiza a través de un dispositivo o servicio en la red local
+
+Esta configuración se utiliza cuando un dispositivo fiscal físico o un servicio fiscal está presente en la red local de la tienda y proporciona una interfaz de programación de aplicaciones (API) HTTPS. En este caso, el proveedor de documentos fiscales se encuentra en la CRT y el conector fiscal se encuentra en el PDV.
+
+![El registro fiscal se realiza a través de un dispositivo o servicio en la red local.](media/FIF-CRT-POS.png)
 
 ## <a name="error-handling"></a>Control de errores
 
@@ -73,19 +97,24 @@ El marco fiscal de la integración proporciona las opciones siguientes para gest
 - **Cancelar** La opción permite operadores posponer el registro fiscal de la transacción actual o del evento si falla. Después de que se posponga el registro, el transportista puede continuar trabajando en el PDV y puede completar todas las operaciones para las que el registro fiscal no sea necesario. Cuando cualquier evento que requiera el registro fiscal aparece en el sistema PDV (por ejemplo, se abre una nueva transacción), el cuadro de diálogo de tratamiento de errores aparece automáticamente para notificar el operador que la transacción anterior no se registró correctamente y para proporcionar las opciones de procesamiento de errores.
 - **Omitir** – Los operadores pueden usar esta opción cuando el registro fiscal se puede omitir bajo condiciones específicas y las operaciones regulares se pueden continuar en el PDV. Por ejemplo, esta opción se puede usar cuando una transacción de ventas que no se registró se puede registrar en un diario de papel especial.
 - **Marcar como registrado** – Los operadores pueden usar esta opción cuando se registró la transacción realmente en el dispositivo fiscal (por ejemplo, un recibo fiscal se imprimió), pero se produjo un error cuando la respuesta fiscal se guardada en la base de datos de canal.
+- **Posponer** – Los operadores pueden utilizar esta opción cuando la transacción no fue registrada porque el servicio de registro no estaba disponible. 
 
 > [!NOTE]
-> Las opciones **Omitir** y **Marcar como registrado** se deben activar en el proceso de registro fiscal antes usarse. Además, los permisos correspondientes se deben conceder a los operadores.
+> Las opciones **Omitir**, **Marcar como registrado** y **Posponer** se deben activar en el proceso de registro fiscal antes usarse. Además, los permisos correspondientes se deben conceder a los operadores.
 
-Las opciones **Omitir** y **Marcar como registrado** activan códigos de información para capturar cierta información específica acerca del error, como el motivo del error o de una justificación para saltarse el registro fiscal o marcar la transacción como registrada. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Las opciones **Omitir**, **Marcar como registrado** y **Posponer** activan códigos de información para capturar cierta información específica acerca del error, como el motivo del error o de una justificación para saltarse el registro fiscal o marcar la transacción como registrada. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Registro fiscal opcional
 
 El registro fiscal puede ser obligatorio para algunas operaciones pero opcional para otras. Por ejemplo, el registro fiscal de ventas y de devolución regulares puede ser obligatorio, pero el registro fiscal de las operaciones relacionadas con los depósitos de cliente puede ser opcional. En este caso, no finalizar el registro fiscal de una venta puede bloquear otras ventas, pero no finalizar el registro fiscal de un depósito de cliente no debe bloquear otras ventas. Para distinguir operaciones obligatorias y opcionales, se recomienda que las gestione a través de distintos proveedores de documentos distintos, y que configure los pasos individuales para el proceso de registro fiscal para dichos proveedores. El parámetro **Continuar con errores** debe estar habilitado para cualquier paso relacionada con el registro fiscal opcional. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-### <a name="manually-running-fiscal-registration"></a>Ejecutar el registro fiscal de forma manual
+### <a name="manually-rerun-fiscal-registration"></a>Volver a ejecutar el registro fiscal de forma manual
 
 Si el registro fiscal de una transacción o de un evento se ha aplazado después de un error (por ejemplo, si el transportista ha seleccionado **Cancelar** en el cuadro de diálogo de tratamiento de errores), puede volver a ejecutar manualmente el registro fiscal invocando una operación correspondiente. Para más información, consulte [Habilitar la ejecución manual del registro fisca postpuesto](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="postpone-option"></a>Posponer opción
+
+La opción **Posponer** le permite continuar con el proceso de registro fiscal si falla el paso actual. Se puede utilizar cuando existe la opción de respaldo del registro fiscal.
 
 ### <a name="fiscal-registration-health-check"></a>Comprobación del registro fiscal
 
@@ -114,8 +143,8 @@ Las transacciones fiscales son transferidas a la sede central por *P-trabajo*, j
 Una transacción fiscal almacena los siguientes datos:
 
 - Detalles fiscales del proceso de registro (proceso, grupo conector, conector, etc.). También guarda el número de serie del dispositivo fiscal en el campo **Número de registro** , si esta información se incluye en la respuesta fiscal.
-- El estado del registro fiscal: **Completado** para registros correctos, **Omitido** si el operador ha seleccionado la opción **Omitir** para un registro defectuoso, o **Marcado como registrado** si el operador ha seleccionado la opción **Marcar como registrado** .
-- Código de información de las transacciones relacionadas con una transacción fiscal seleccionada. Para ver las transacciones de código de información en el FastTab **Transacciones fiscales** , seleccione una transacción fiscal que tiene un estado **Omitido** o **Marcado como registrado**, y después seleccione **Código de información de transacciones**.
+- El estado del registro fiscal: **Completado** para registros correctos, **Omitido** si el operador ha seleccionado la opción **Omitir** para un registro defectuoso, o **Marcado como registrado** si el operador ha seleccionado la opción **Marcar como registrado** o **Pospuesto** si ha seleccionado la opción **Posponer**.
+- Código de información de las transacciones relacionadas con una transacción fiscal seleccionada. Para ver las transacciones de código de información en el FastTab **Transacciones fiscales**, seleccione una transacción fiscal que tiene un estado **Omitido**, **Marcado como registrado** o **Pospuesto**, y después seleccione **Código de información de transacciones**.
 
 Si selecciona **Datos extendidos**, también puede ver algunas propiedades de la transacción fiscal. La lista de propiedades que se pueden ver es específica de la funcionalidad de registro fiscal que generó la transacción fiscal. Por ejemplo, puede ver la firma digital, el número secuencial, la huella digital del certificado, la identificación del algoritmo hash y otras propiedades de transacciones fiscales para la funcionalidad de firma digital de Francia.
 

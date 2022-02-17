@@ -2,7 +2,7 @@
 title: Crear un sitio de comercio electrónico
 description: En este tema se describen los pasos y la información necesarios para crear un nuevo sitio de comercio electrónico con el generador de sitios de Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 07/02/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60fea46da2d1ac9b319ed0a7b832809da70baa6eb8ae22319321200fb938c70e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737637"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090778"
 ---
 # <a name="create-an-e-commerce-site"></a>Crear un sitio de comercio electrónico
 
@@ -48,8 +48,15 @@ Para configurar el sitio, haga lo siguiente.
 | Dominio                              | Seleccione un nombre de dominio que servirá como el dominio para esta tienda en línea. Si no ha configurado dominios en LCS, puede dejar este campo en blanco. Cuando su dominio se haya configurado en LCS, debe agregarlo a la tienda en línea en **Valores de configuración de sitio**.  |
 | Ruta                              | Cuando el sitio admite más de un idioma para un nombre de dominio determinado, use el campo de ruta para crear una dirección URL de sitio única para dicha combinación de dominio e idioma. Si el idioma que ha especificado en el campo **Idioma predeterminado** es el único idioma que admitirá para este dominio, o seguirá siendo el idioma predeterminado después de que haya localizado su sitio en otros idiomas, se recomienda dejar este campo en blanco. |
 
-
 Una vez creado el sitio, puede comprobar que esté asociado a la tienda en línea seleccionando la pestaña **Productos**. Solo debería ver la selección de productos que se ha asignado a la tienda en línea. Puede usar el menú desplegable en la parte superior izquierda de la página para obtener acceso a los productos asignados por categoría.
+
+## <a name="rename-your-site"></a>Cambiar el nombre del sitio
+
+Para cambiar de nombre el sitio en Site Builder, siga estos pasos.
+
+1. Para abrir la vista de lista de sitios, seleccione **Conmutador de sitios** en la esquina superior derecha y luego seleccione **Administrar sitios**. 
+1. Seleccione la casilla de verificación junto al sitio al que desea cambiar el nombre y, a continuación, seleccione **Cambiar de nombre** en la barra de comandos.
+1. En el cuadro de diálogo **Nuevo nombre de sitio**, escriba el nuevo nombre del sitio y seleccione **Aceptar**. La lista de sitios se actualizará para mostrar el nuevo nombre del sitio.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

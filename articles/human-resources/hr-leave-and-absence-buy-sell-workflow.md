@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d4fa6b6be890c4a16a18591bb979a28a9d0a32ea995d6de681fe8b7a771c513a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9e56c130cd831e6a1ad258c679562cb6de57d9b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777992"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070686"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Crear un flujo de trabajo de solicitudes de compras y ventas de permisos y ausencias
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

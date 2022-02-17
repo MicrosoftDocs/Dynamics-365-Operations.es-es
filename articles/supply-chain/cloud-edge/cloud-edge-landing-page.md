@@ -4,18 +4,19 @@ description: Este tema proporciona información sobre las unidades de escalado e
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733448"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065773"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escalado en una topología híbrida distribuida
 
@@ -51,8 +52,7 @@ Puede configurar un entorno de concentrador con unidades de escala de nube para 
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de administración de almacén dedicadas en una unidad de escala
 
-La carga de trabajo de gestión del almacén le permite ejecutar procesos de gestión de almacenes en una implementación aislada.
-Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](cloud-edge-workload-warehousing.md).
+La carga de trabajo de administración de almacén es la primera carga de trabajo distribuida para unidades de escala que se va a lanzar para disponibilidad general. Permite que las operaciones de su almacén se escalen y se ejecuten en un entorno resistente mediante el uso de ventanas de mantenimiento aisladas. La carga de trabajo de gestión de almacenes es compatible con la mayoría de los procesos de gestión de almacenes del centro empresarial. Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de ejecución de fabricación dedicadas en una unidad de escala
 

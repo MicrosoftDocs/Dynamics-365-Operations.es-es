@@ -2,7 +2,7 @@
 title: Configurar la importación de datos de SharePoint
 description: En este tema se explica cómo importar datos de Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675354"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074775"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar la importación de datos de SharePoint
 
@@ -192,11 +192,11 @@ También puede abrir la página **Estados de archivo para los orígenes** selecc
 
 ## <a name=""></a><a name="limitations">Limitaciones</a>
 
-El marco ER no ofrece la capacidad de iniciar un nuevo trabajo por lotes que ejecutará una asignación de modelo en modo desatendido para la importación de datos. Para hacer esto, debe desarrollar una nueva lógica para que la asignación del modelo ER configurada se pueda llamar desde la interfaz de usuario (UI) de la aplicación para importar datos de archivos entrantes. Por lo tanto, se requiere algún trabajo de ingeniería. 
+En las versiones de Dynamics 365 Finance anteriores a la versión 10.0.25, la interfaz de usuario (IU) del marco ER no ofrece la capacidad de iniciar un nuevo trabajo por lotes que ejecutará una asignación de modelo en modo desatendido para la importación de datos. En su lugar, debe desarrollar una nueva lógica para que la asignación del modelo ER configurada se pueda llamar desde la IU de la aplicación para importar datos de archivos entrantes. Para desarrollar esta lógica, se requiere algo de trabajo de ingeniería. 
 
-Para obtener más información sobre la API de ER relevante, consulte la sección [Código para ejecutar una asignación de formato para la importación de datos](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) en el tema [Cambios en la API de ER Framework para la actualización 7.3 de la aplicación](er-apis-app73.md).
+Para obtener más información sobre la API de ER relevante, consulte la sección [Código para ejecutar una asignación de formato para la importación de datos](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) en el tema [Cambios en la API de ER Framework para la actualización 7.3 de la aplicación](er-apis-app73.md). Revise el código en la clase `BankImport_RU` del modelo `Application Suite` para ver cómo se puede implementar su lógica personalizada. La clase `BankImport_RU` extiende la clase `RunBaseBatch`. En particular, revise el método `runER()`, donde se crea el objeto `ERIModelMappingDestinationRun` como el corredor de un mapeo de modelo ER.
 
-Revise el código en la clase `BankImport_RU` del modelo `Application Suite` para ver cómo se puede implementar su lógica personalizada. Esta clase extiende la clase `RunBaseBatch`. En particular, revise el método `runER()` donde se crea el objeto `ERIModelMappingDestinationRun` como el corredor de un mapeo de modelo ER.
+En Finance 10.0.25 y versiones posteriores, el marco ER ofrece la capacidad de iniciar un nuevo trabajo por lotes que ejecutará una asignación de modelo en modo desatendido para la importación de datos. Para obtener más información sobre este proceso, consulte [Importar datos en modo por lotes desde archivos seleccionados manualmente](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -205,6 +205,8 @@ Revise el código en la clase `BankImport_RU` del modelo `Application Suite` par
 [Cambios en la API del marco de ER para Application update 7.3](er-apis-app73.md)
 
 [Cambios en la API del marco de ER para Application update 10.0.23](er-apis-app10-0-23.md)
+
+[Cambios en la API del marco de ER para Application update 10.0.25](er-apis-app10-0-25.md)
 
 
 

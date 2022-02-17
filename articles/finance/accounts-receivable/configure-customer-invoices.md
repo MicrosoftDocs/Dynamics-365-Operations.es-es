@@ -1,26 +1,26 @@
 ---
 title: Crear una factura de cliente
-description: Una **factura de cliente para un pedido de ventas** es una factura en relación con una venta que una organización da a un cliente.
+description: Una factura de cliente para un pedido de ventas es una factura en relación con una venta que una organización da a un cliente.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723880"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087432"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -42,6 +42,23 @@ Para obtener más información, consulte:
 
 
 Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una factura proforma para una factura de cliente de un pedido de ventas o de una factura de servicios.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Uso de entidades de datos de factura de cliente de pedido de ventas
+Puede usar entidades de datos para importar y exportar información sobre una factura de cliente para un pedido de ventas. Hay diferentes entidades para la información sobre el encabezado de la factura de venta y las líneas de la factura de venta.
+
+Las siguientes entidades están disponibles para la información en el encabezado de la factura de venta:
+
+- **Encabezado del diario de facturas de ventas** entidad (SalesInvoiceJournalHeaderEntity)
+- **Encabezados de facturas de venta V2** entidad (SalesInvoiceHeaderV2Entity)
+
+Le recomendamos que utilice la entidad **Encabezado del diario de facturas de ventas**, porque proporciona una experiencia más eficaz para la importación y exportación de encabezados de ventas. Esta entidad no contiene el **Importe del impuesto sobre las ventas** (INVOICEHEADERTAXAMOUNT), que representa el valor del impuesto sobre las ventas en el encabezado de la factura de ventas. Si su escenario empresarial requiere esa información, utilice la entidad **Encabezados de facturas de venta V2** para importar y exportar la información del encabezado de la factura de venta.
+
+Las siguientes entidades están disponibles para la información en las líneas de la factura de venta:
+
+- Entidad **Líneas de factura del cliente** (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Líneas de factura de venta V3** entidad (SalesInvoiceLineV3Entity)
+
+Cuando esté determinando qué entidad de línea usar para las exportaciones, considere si se usará una inserción completa o incremental. Además, tenga en cuenta la composición de los datos. La entidad **Líneas de factura de venta V3** admite escenarios más complejos (por ejemplo, asignación a los campos de inventario). También es compatible con escenarios de exportación de inserción completa. Para las inserciones incrementales, le recomendamos que utilice la entidad **Líneas de factura del cliente**. Esta entidad contiene una composición de datos mucho más simple que la entidad **Líneas de factura de venta V3** y se prefiere, especialmente si no se requiere la integración del campo de inventario. Debido a las diferencias en el soporte de mapeo entre las entidades de línea, la entidad **Líneas de factura del cliente** normalmente tiene un rendimiento más rápido que la entidad **Líneas de factura de venta V3**.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Registro e impresión de facturas de cliente individuales basadas en pedidos de ventas
 Use este proceso para crear una factura basada en un pedido de ventas. Puede hacerlo si decide facturar al cliente antes de entregar los bienes o servicios. 

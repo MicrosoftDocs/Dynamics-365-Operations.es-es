@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 14278ec6bc05eb92c4606c97fa0bbe71c2a2af2b
-ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.openlocfilehash: d3455062584bdd18abedebe29ca9ff10f9327441
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7792625"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051463"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -623,6 +623,9 @@ Después de habilitar la característica **Admite varios números de registro de
 2. En la página **Parámetros de cálculo de impuestos**, en la pestaña **Múltiples registros de IVA**, seleccione la casilla **Declaración de IVA**.
 3. Defina el número de registro de IVA de la empresa a partir del nombre que informará al sistema SII de España en el campo **Identificación fiscal de la empresa** en los parámetros [**Clase ejecutable SIIGenerateItems**](#siigenerateitems) .
 4. Especifique el origen de datos **Historial de órdenes de transferencia** en la ficha desplegable **Registros para incluir** de los parámetros [**Clase ejecutable SIIGenerateItems**](#siigenerateitems).
+
+> [!NOTE]
+> Cuando se habilitan las funciones **Admite múltiples números de registro de IVA** y **Declaración de impuestos sobre las ventas para varios registros de IVA**, el sistema SII de España recoge el valor en el campo **NombreRazón** del campo **Nombre o descripción** en la página **Administrar direcciones** en lugar del nombre de la entidad legal.
 
 ## <a name="use-em-functionality-to-report-to-the-sii-system"></a>Usar la funcionalidad EM para notificar al sistema SII
 

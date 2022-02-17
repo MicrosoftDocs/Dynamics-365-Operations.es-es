@@ -2,7 +2,7 @@
 title: Configurar un canal en línea
 description: En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714720"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092121"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan a los clientes la opción de comprar productos de su tienda en línea además de en sus tiendas físicas.
 
@@ -60,6 +57,10 @@ La siguiente imagen muestra la creación de un nuevo canal en línea.
 La siguiente imagen muestra un ejemplo de canal en línea.
 
 ![Ejemplo de canal en línea.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Asigne el canal a Commerce Scale Unit
+
+Su nuevo canal debe estar asignado a Commerce Scale Unit. Para obtener instrucciones, consulte [Configurar canales para usar Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>Configurar idiomas
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738158"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087379"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -138,7 +138,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 - Los productos con peso capturado con variante habilitada no se pueden usar junto con la funcionalidad para convertir unidades de medida variables.
 - No se puede marcar productos de peso capturado como "kit de producto" comercial.
 - Los productos con peso capturado sólo se pueden usar en un grupo de secuencias que tenga unidades de gestión de material de peso capturado y que contenga la unidad de peso capturado como la secuencia más baja.
-- Para los productos con peso capturado, la unidad de inventario se puede convertir a la unidad de peso capturado si la conversión genera una cantidad nominal mayor de 1.
 - La configuración de los códigos de barras para los productos con peso capturado no admite una configuración variable de peso.
 
 ### <a name="order-processing"></a>Procesamiento de pedidos

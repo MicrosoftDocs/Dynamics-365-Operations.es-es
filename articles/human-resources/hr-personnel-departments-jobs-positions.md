@@ -2,7 +2,7 @@
 title: Organizar los recursos mediante departamentos, trabajos y puestos
 description: Este tema describe información conceptual sobre departamentos, trabajos y puestos, que son elementos organizativos que se mantienen en Recursos humanos.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731817"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071547"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,30 +51,16 @@ Un departamento es una unidad operativa que representa una categoría o un área
 
 ## <a name="jobs-and-positions"></a>Trabajos y puestos
 Un trabajo es un conjunto de tareas y responsabilidades que deberá cumplir la persona que realiza un trabajo. Un puesto es un caso individual de un trabajo. Las áreas de responsabilidad, las tareas de trabajo, las funciones de trabajo, las aptitudes, la información sobre los estudios y los certificados necesarios para un trabajo también se requieren para puestos asociados a un trabajo.
+
 ### <a name="job-tasks"></a>Tareas de trabajo
+
 Puede crear tareas de trabajo que describen las tareas básicas que un trabajador de un puesto debe completar para dicho trabajo. La misma tarea de trabajo se puede agregar a varios trabajos, y los puestos para dichos trabajos heredarán dichas tareas de trabajo. En la tabla siguiente se muestran algunos ejemplos de tareas de trabajo.
 
-<table>
-<thead>
-<tr class="header">
-<th>Trabajo</th>
-<th>Tarea de trabajo</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Director de ventas</td>
-<td><ul>
-<li><span class="input">Revisión de rendimiento</span>: permite revisar el rendimiento de trabajo de cada vendedor.</li>
-<li><span class="input">Revisión de ausencia</span>: permite aprobar o rechazar solicitudes o registros de ausencia de cada vendedor.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Contable</td>
-<td><span class="input">Informe financiero</span>: permite presentar informes financieros semanales al director financiero.</td>
-</tr>
-</tbody>
-</table>
+| Trabajo           | Tarea de trabajo                                                |
+|---------------|-------------------------------------------------------------|
+| Director de ventas | Revisión de rendimiento: permite revisar el rendimiento de trabajo de cada vendedor.    |
+| Contable    | Revisión de ausencia: permite aprobar o rechazar solicitudes o registros de ausencia de cada vendedor. |
+
 
 ### <a name="job-functions"></a>Funciones de trabajo
 

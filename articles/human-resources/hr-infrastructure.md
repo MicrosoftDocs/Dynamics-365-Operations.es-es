@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec6d47c44136f7a105a702358370dd676d9339c1
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018357"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024576"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Fusión de infraestructura de Dynamics 365 Human Resources: actualización de la versión 10.0.25
 
@@ -53,7 +53,7 @@ La fusión brindará consistencia a los usuarios de Human Resources de las sigui
     | Imprimir revisiones del rendimiento | Puede imprimir evaluaciones de rendimiento en formato PDF. | Disponibilidad general | 
     | Vínculos personalizados en **Autoservicio para directores** | Puede crear vínculos personalizados que aparecen en la sección **Vínculos relacionados** de **Autoservicio para directores**. | Disponibilidad general | 
     | Vista de compensación entre empresas | Los usuarios pueden ver los planes de compensación en **Autoservicio para directores** en todas las entidades jurídicas sin tener que cambiar de compañía. | Disponibilidad general | 
-    | Configurar varios niveles de compensación por trabajo\*&dagger; | Ahora los trabajos admiten varios niveles de compensación. | Disponibilidad general | 
+    | Configurar varios niveles de compensación por trabajo\*&dagger; | Ahora los trabajos admiten varios niveles de compensación. | Versión preliminar | 
     | Administración de tareas\* | Puede crear listas de verificación y tareas para el proceso de incorporación, baja y transición. | Versión preliminar | 
     | Entrada de empleados optimizada | Esta característica proporciona una experiencia de usuario actualizada en la página **Trabajador** existente. | Versión preliminar | 
     | Mejoras en la experiencia de usuario en departamentos de Recursos Humanos | Consulte la tabla en la siguiente sección.  | Versión preliminar | 

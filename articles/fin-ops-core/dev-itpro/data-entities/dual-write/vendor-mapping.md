@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782486"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063171"
 ---
 # <a name="integrated-vendor-master"></a>Maestro de proveedores integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 El termino *proveedor* se refiere a una organización proveedora o un propietario único que suministra bienes o servicios a una empresa. Aunque *proveedor* sea un concepto establecido en las aplicaciones de Microsoft Dynamics 365 Supply Chain Management, el concepto de proveedor no existe en aplicaciones Customer Engagement. Sin embargo, puede sobrecargar la tabla **Cuenta/contacto** para almacenar información del proveedor. El maestro de proveedores integrado presenta un concepto de proveedor explícito en aplicaciones Customer Engagement. Puede usar el nuevo diseño del proveedor o almacenar los datos del proveedor en la tabla **Cuenta/Contacto**. La doble escritura admite ambos enfoques.
 
@@ -37,7 +37,7 @@ Si quiere continuar almacenando los datos de proveedor de tienda en la tabla **C
 ![Flujo de datos ampliado del proveedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Si está usando portales Power Apps para proveedores de autoservicio, la información del proveedor puede fluir directamente a aplicaciones Finance and Operations.
+> Si está usando portales de Power Apps para proveedores de autoservicio, la información del proveedor puede fluir directamente a aplicaciones Finanzas y operaciones.
 
 ## <a name="templates"></a>Plantillas
 

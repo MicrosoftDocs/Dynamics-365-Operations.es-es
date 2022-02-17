@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774858"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074976"
 ---
 # <a name="safety-margins"></a>Márgenes de seguridad
 
@@ -61,9 +61,6 @@ Tenga en cuenta que no se aplica un margen de recepción cuando el inventario di
 
 ### <a name="reorder-margin"></a>Días de administración
 
-> [!NOTE]
-> **Próximamente**: esta característica aún no es compatible con Planning Optimization. Hasta que sea compatible, todos los valores que se especifican para **Días de administración agregados al plazo del artículo** serán tratados como *0* (cero).
-
 La siguiente ilustración destaca los días de administración.
 
 ![Días de administración.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ La siguiente ilustración destaca los días de administración.
 Los días de administración se agregan antes del plazo del artículo para todos los pedidos planificados durante la programación maestra. Por lo tanto, asegura tiempo adicional para que se realice un pedido de suministro. Este margen se usa generalmente como una reserva para asegurar el tiempo para los procesos de aprobación u otros procesos internos que se requieren durante la creación de pedidos de suministro. Los días de administración se colocan entre la *fecha de pedido* y *fecha de inicio* del suministro.
 
 ### <a name="issue-margin"></a>Días de emisión
-
-> [!NOTE]
-> **Próximamente**: esta característica aún no es compatible con Planning Optimization. Hasta que sea compatible, todos los valores que se especifican para **Días de emisión deducidos de la fecha de requisito** serán tratados como *0* (cero).
 
 La siguiente ilustración destaca los días de emisión.
 

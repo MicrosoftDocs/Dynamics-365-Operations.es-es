@@ -1,6 +1,6 @@
 ---
-title: Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
-description: Este tema explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finance and Operations y en Dataverse.
+title: Comprobar configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
+description: Este tema explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1f82705f3d8bc11eacbc13d32c14ad1765dcc559
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782636"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062809"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Verificar la configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Comprobar configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse. Específicamente explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finance and Operations y en Dataverse.
+
+Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse. Específicamente explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Verifique que la doble escritura esté configurada en una aplicación Finance and Operations
 
@@ -34,7 +34,7 @@ Para determinar si los errores que ve cuando intenta guardar filas para la actua
 
     ![Comprobar la conexión de la aplicación Finance and Operations con privilegios de administrador.](media/verify_fin_ops_1.png)
 
-+ Si no tiene privilegios de administrador, aparecerá un mensaje de error: *No se pueden escribir datos en la entidad nombre de la entidad \<entity name\>*. En el ejemplo de la siguiente ilustración, no puede crear una fila de cliente en la aplicación Finance and Operations, porque la escritura doble está configurada, pero el grupo de clientes y los datos de referencia de términos de pago no existen en Dataverse.
++ Si no tiene privilegios de administrador, aparecerá un mensaje de error: *No se pueden escribir datos en la entidad nombre de la entidad \<entity name\>*. En el ejemplo de la siguiente ilustración, no puede crear una fila de cliente en la aplicación Finanzas y operaciones, porque la escritura doble está configurada, pero el grupo de clientes y los datos de referencia de términos de pago no existen en Dataverse.
 
     ![Verificando la conexión de la aplicación Finance and Operations cuando no tiene privilegios de administrador.](media/verify_fin_ops_2.png)
 

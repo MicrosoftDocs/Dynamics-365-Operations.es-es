@@ -1,6 +1,6 @@
 ---
 title: Plan de prestaciones de trabajadores en nómina
-description: Este tema proporciona detalles y una consulta de ejemplo para la entidad de plan de prestaciones para trabajadores en nómina en Dynamics 365 Human Resources.
+description: Este tema proporciona detalles y una consulta de ejemplo para la entidad de plan de prestaciones de trabajadores en nómina en Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0837d9a153aba554d0a5293d16afb309bd37963c270da5b67e691558cae63b0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1805f7efaf2efc48d5996776f3aa27d75606886f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758721"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068443"
 ---
 # <a name="payroll-worker-benefit-plan"></a>Plan de prestaciones de trabajadores en nómina
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se describe la entidad del plan de prestaciones para trabajadores en nómina para Dynamics 365 Human Resources.
+Este tema describe la entidad del plan de prestaciones de trabajadores en nómina para Dynamics 365 Human Resources.
 
 Nombre físico: mshr_payrollworkerbenefitplanentities.
 

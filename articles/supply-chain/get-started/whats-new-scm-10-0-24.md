@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986312"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087559"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.24 (febrero de 2022)
 
@@ -34,6 +34,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
 | Topología híbrida distribuida | [Cargas de trabajo de ejecución de almacén mejoradas en unidades de escala](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-warehousing.md) | Habilitado por defecto. |
+| Topología híbrida distribuida | [Iniciar el pedido de producción en la carga de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-manufacturing.md) | Administración de características (*Iniciar el pedido de producción en la carga de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube*)  |
 | Planificada | [Soporte de optimización de la planificación para días de administración y el margen de emisión](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Márgenes de seguridad](../master-planning/planning-optimization/safety-margins.md) | Habilitado por defecto. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión
@@ -47,7 +48,6 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 | Control de producción | Comprobación de disponibilidad de material a petición para pedidos de producción | Esta característica hace que resulte más rápido abrir la página **Pedidos de producción para liberar**, que está disponible en el espacio de trabajo **Gestión de planta de producción**. Sin esta característica, el sistema comprueba automáticamente si los materiales están disponibles para todos los pedidos de fabricación enumerados en cuanto se abre la página, lo que puede llevar mucho tiempo si se tiene un gran número de pedidos. Cuando esta función está activada, el sistema proporciona un botón en la barra de herramientas, que puede utilizar para iniciar la comprobación de materiales solo para los pedidos seleccionados y cuando sea necesario. |
 | Control de producción | (Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS) | Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Esta característica solo admite artículos que no están habilitados para utilizar procesos de almacén avanzados (WMS). La compatibilidad con elementos habilitados para WMS está programada para una versión futura.<p>Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto. |
 | Control de producción | Notificar como finalizada la carga de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube | Esta función permite a los trabajadores usar la aplicación móvil Warehouse Management notificar que se ha finalizado una producción o un pedido por lotes cuando la aplicación se ejecuta en una carga de trabajo de administración de almacén en una unidad de escala en la nube o en el perímetro. Para más información, consulte [Notificar como terminado y almacenado en una unidad de escalado](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Control de producción | Iniciar el pedido de producción en la carga de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube | Esta función permite a los trabajadores usar la aplicación móvil Warehouse Management iniciar una producción o un pedido por lotes cuando la aplicación se ejecuta en una carga de trabajo de administración de almacén en una unidad de escala en la nube o en el perímetro. |
 | Gestión de almacenes | Nuevas páginas de área de trabajo de planificación de la carga | Habilita dos nuevas páginas de área de trabajo de planificación de la carga: **Área de trabajo de planificación de la carga entrante** y **Área de trabajo de planificación de la carga saliente**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
@@ -70,7 +70,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.24 de aplicaciones de Finanzas y Operaciones (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.24 de aplicaciones de Finanzas y operaciones (febrero de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
