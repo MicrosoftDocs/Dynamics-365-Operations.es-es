@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 241277ada768cc6497035cc377d0e158646a42d6
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063067"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse. Específicamente proporciona información que puede ayudarlo a solucionar problemas durante la sincronización inicial.
+
+Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse. Específicamente proporciona información que puede ayudarlo a solucionar problemas durante la sincronización inicial.
 
 > [!IMPORTANT]
 > Algunos de los problemas que aborda este tema pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
@@ -182,16 +182,16 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
     > Hay dos asignaciones que tienen el mismo nombre. Asegúrese de seleccionar la asignación tenga la descripción siguiente en la pestaña **Detalles**: **Plantilla de doble escritura para sincronización entre Contactos de proveedor FO.CDS V2 con CDS.Contacts. Requiere nuevo paquete \[Dynamics365SupplyChainExtended\].**
 
 5. Vuelva a agregar las columnas **InvoiceAccount** y **ContactPersonId** a la asignación **Clientes V3 (Cuentas)** y guarde la asignación. Tanto la columna **InvoiceAccount** como la columna **ContactPersonId** vuelven a ser parte del modo de sincronización en vivo. En el siguiente paso, completará la sincronización inicial para estas columnas.
-6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finance and Operations a Dataverse.
-7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** desde Dataverse a la aplicación Finance and Operations, debe utilizar un proyecto de integración de datos.
+6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finanzas y operaciones a Dataverse.
+7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** de Dataverse a la aplicación Finanzas y operaciones, debe utilizar un proyecto de integración de datos.
 
-    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas **Finance and Operations.Customers V3**. La dirección de datos debe ser de Dataverse a la aplicación Finance and Operations. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](/power-platform/admin/data-integrator).
+    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas de **Finanzas y operaciones.Customers V3**. La dirección de datos debe ser de Dataverse a la aplicación de Finanzas y operaciones. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](/power-platform/admin/data-integrator).
 
         La siguiente ilustración muestra un proyecto que actualiza **CustomerAccount** y **ContactPersonId**.
 
         ![Proyecto de integración de datos para actualizar CustomerAccount y ContactPersonId.](media/cust_selfref6.png)
 
-    2. Agregue los criterios de la empresa en el filtro del lado Dataverse, de forma que solo las filas que coinciden con los criterios de filtro se actualizarán en la aplicación Finance and Operations. Para agregar un filtro, seleccione el botón del filtro. Posteriormente, en el cuadro de diálogo **Editar consulta** puede agregar una consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**.
+    2. Agregue los criterios de la empresa en el filtro del lado de Dataverse, de forma que solo las filas que coinciden con los criterios de filtro se actualizarán en la aplicación Finanzas y operaciones. Para agregar un filtro, seleccione el botón del filtro. Posteriormente, en el cuadro de diálogo **Editar consulta** puede agregar una consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [NOTA] Si el botón del filtro no está presente, cree un ticket de soporte para solicitar al equipo de integración de datos que habilite la capacidad de filtro en su inquilino.
 
@@ -227,9 +227,9 @@ Es posible que reciba el siguiente mensaje de error cuando intente ejecutar la s
 
 *No se encontró el número de parte en Dataverse*.
 
-Hay un rango establecido en **DirPartyCDSEntity** para aplicaciones de Finance and Operations que filtra grupos de tipo **Persona** y **Organización**. Como resultado, una sincronización inicial de la asignación **Partes de CDS - msdyn_parties** no sincronizará partes de otros tipos, como **Entidad jurídica** y **Unidad Operativa**. El error puede aparecer al ejecutar la sincronización inicial para **Direcciones postales de parte de CDS (msdyn_partypostaladdresses)** o **Contactos de parte V3 (msdyn_partyelectronicaddresses)**.
+Hay un rango establecido en **DirPartyCDSEntity** para aplicaciones de Finanzas y operaciones que filtra grupos de tipo **Persona** y **Organización**. Como resultado, una sincronización inicial de la asignación **Partes de CDS - msdyn_parties** no sincronizará partes de otros tipos, como **Entidad jurídica** y **Unidad Operativa**. El error puede aparecer al ejecutar la sincronización inicial para **Direcciones postales de parte de CDS (msdyn_partypostaladdresses)** o **Contactos de parte V3 (msdyn_partyelectronicaddresses)**.
 
-Estamos trabajando en una solución que elimine el rango de tipo de parte en la entidad de Finance and Operations para que las partes de todo tipo puedan sincronizarse correctamente con Dataverse.
+Estamos trabajando en una solución que elimine el rango de tipo de parte en la entidad de tablas de Finanzas y operaciones para que las partes de todo tipo puedan sincronizarse correctamente con Dataverse.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>¿Hay algún problema de rendimiento al ejecutar la sincronización inicial para los datos de Clientes o Contactos?
 

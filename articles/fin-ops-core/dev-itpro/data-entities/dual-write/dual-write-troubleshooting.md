@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas generales
-description: Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse.
+description: Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,23 +9,23 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: bcedb9f6e8fb15210512ed6a376d4329759593e4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781183"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062347"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse.
+
+Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse.
 
 > [!IMPORTANT]
-> Algunos de los problemas que aborda este tema pueden requerir la función de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
+> Algunos de los problemas que aborda este tema pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 
@@ -48,10 +48,10 @@ Para ver el registro de seguimiento, siga estos pasos.
 
 **Rol requerido para ver los errores:** Administrador del sistema
 
-Los errores de doble escritura que se originan en Dataverse puede aparecer en la aplicación Finance and Operations. Para habilitar el registro detallado de errores, siga estos pasos:
+Los errores de doble escritura que se originan en Dataverse puede aparecer en la aplicación de Finanzas y operaciones. Para habilitar el registro detallado de errores, siga estos pasos:
 
-1. Para todas las configuraciones de proyecto en la aplicación de Finance and Operations hay un indicador **IsDebugMode** en la tabla **DualWriteProjectConfiguration**.
-2. Abra la tabla **DualWriteProjectConfiguration** mediante el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finance and Operations y agregue **DualWriteProjectConfiguration** a la hoja. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+1. Para todas las configuraciones del proyecto en las aplicaciones de Finanzas y operaciones tienen una propiedad **IsDebugMode** en la tabla **DualWriteProjectConfiguration**.
+2. Abra la tabla **DualWriteProjectConfiguration** mediante el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones, y agregue **DualWriteProjectConfiguration** a la hoja. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
 3. Establezca **IsDebugMode** en **Sí** para el proyecto.
 4. Ejecute el escenario que genera errores.
 5. Los registros detallados se almacenan en la tabla **DualWriteErrorLog**.
@@ -70,9 +70,9 @@ Los errores de doble escritura que se originan en Dataverse puede aparecer en la
 6. Seleccione **Registros de aplicaciones y servicios \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise la lista de errores recientes.
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular a otro entorno de Dataverse de una aplicación Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular otro entorno Dataverse de una aplicación de Finanzas y operaciones
 
-**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de Finance and Operations o Dataverse.
+**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de Finanzas y operaciones o Dataverse.
 
 1. Iniciar sesión en la aplicación Finance and Operations.
 2. Vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Doble escritura**.

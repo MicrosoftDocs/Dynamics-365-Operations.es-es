@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471653"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069438"
 ---
 # <a name="message-processor-messages"></a>Mensajes del procesador de mensajes
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471653"
 
 Los mensajes del procesador de mensajes se utilizan cuando se ejecutan unidades de escala de borde y en la nube para [cargas de trabajo de fabricación](cloud-edge-workload-manufacturing.md) y [cargas de trabajo de gestión de almacenes](cloud-edge-workload-warehousing.md).
 
-Se intercambia una gran cantidad de datos entre el concentrador y los entornos de implementación de la unidad de escalado para mantenerlos sincronizados, pero solo algunos de estos intercambios de datos serán procesados por el *procesador de mensajes*. Puede ver los mensajes procesados por el procesador de mensajes yendo a **Administración del sistema > Procesador de mensajes > Mensajes del procesador de mensajes**.
+Se intercambia una gran cantidad de datos entre el concentrador y los entornos de implementación de la unidad de escalado para mantenerlos sincronizados. Algunos de los datos intercambiados desencadenarán lógica adicional en el *procesador de mensajes*. Puede ver los mensajes procesados por el procesador de mensajes yendo a **Administración del sistema > Procesador de mensajes > Mensajes del procesador de mensajes**.
 
 ## <a name="message-grid-columns-and-filters"></a>Columnas y filtros de la cuadrícula de mensajes
 

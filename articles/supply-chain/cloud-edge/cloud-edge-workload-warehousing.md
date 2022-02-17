@@ -6,7 +6,7 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
+ms.search.form: PurchTable, InventTransferOrders, SalesTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: ae8e9791b590a32581b66853f55ea11bc389bb19
-ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "7891780"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068118"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -36,7 +36,18 @@ Las cargas de trabajo de gestión de almacenes permiten que las unidades de esca
 
 ## <a name="prerequisites"></a>Requisitos previos
 
+Antes de comenzar a trabajar con la carga de trabajo de administración de almacenes, su sistema debe estar preparado como se describe en esta sección.
+
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Implemente una unidad de báscula con la carga de trabajo de administración de almacenes
+
 Debe tener un centro de Dynamics 365 Supply Chain Management y una unidad de escala que se ha implementado con la carga de trabajo de gestión del almacén. Para obtener más información sobre la arquitectura y el proceso de implementación, consulte [Escale unidades en una topología híbrida distribuida](cloud-edge-landing-page.md).
+
+### <a name="turn-on-required-features-in-feature-management"></a>Habilitar características necesarias en la administración de características
+
+Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las dos funciones siguientes: (Ambas características aparecen bajo el módulo *Warehouse Management*).
+
+- Desacoplar el trabajo de ubicación de los avisos de envío por adelantado
+- (Vista previa) Compatibilidad con unidades de escalado para pedidos de almacén entrantes y salientes
 
 ## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Cómo funciona la carga de trabajo de ejecución de almacén en unidades de escala
 
@@ -108,6 +119,26 @@ El siguiente diagrama muestra el flujo de entrada e indica dónde tienen lugar l
 
 [![Flujo de procesamiento de entrada](media/wes_inbound_warehouse_processes-small.png "Flujo de procesamiento de entrada")](media/wes_inbound_warehouse_processes.png)
 
+## <a name="production-control"></a>Control de producción
+
+La carga de trabajo de gestión de almacenes admite los siguientes tres flujos de producción en la aplicación Warehouse Management:
+
+- Notificar como terminado y poner en ubicación
+- Iniciar pedido de producción
+- Registrar lista de selección
+
+### <a name="report-as-finished-and-put-away"></a>Notificar como terminado y poner en ubicación
+
+Los trabajadores pueden utilizar el flujo **Reportar como terminado y guardado** en la aplicación Warehouse Management para informar de una orden de producción o lote como terminada. También pueden informar coproductos y subproductos en un pedido por lotes como terminados. Cuando se informa que un trabajo ha terminado, el sistema generalmente genera trabajo de almacén de almacenamiento en la unidad de báscula. Si no requiere trabajo de almacenamiento, puede configurar sus políticas de trabajo para omitirlo.
+
+### <a name="start-production-order"></a>Iniciar pedido de producción
+
+Los trabajadores pueden utilizar el flujo **Iniciar orden de producción** en la aplicación Warehouse Management para registrar el inicio de una orden de producción o lote.
+
+### <a name="register-material-consumption"></a>Registrar lista de selección
+
+Los trabajadores pueden utilizar el flujo **Registrar consumo de material** en la aplicación Warehouse Management para notificar el consumo de material para una orden de producción o lote. A continuación, se crea un diario de lista de selección para el material notificado en la orden de producción o lote en la unidad de báscula. Las líneas de diario hacen una reserva física en el inventario consumido. Cuando los datos se sincronizan entre la unidad de báscula y el concentrador, se genera un diario de lista de selección y se publica en la instancia del concentrador.
+
 ## <a name="supported-processes-and-roles"></a>Procesos y roles admitidos
 
 No todos los procesos de gestión de almacenes son compatibles con una carga de trabajo de ejecución de almacén en una unidad de báscula. Por lo tanto, le recomendamos que asigne roles que coincidan con la funcionalidad que está disponible para cada usuario.
@@ -139,22 +170,26 @@ Los siguientes tipos de trabajo se pueden crear en una unidad de báscula y, por
 - **Recuento cíclico**: incluido un proceso de aprobación/rechazo como parte de las operaciones de recuento.
 - **Pedidos de compra**: trabajo de almacenamiento a través de un pedido de almacén cuando los pedidos de compra no se asocian con las cargas.
 - **Pedidos de ventas**: selección y carga sencillos.
+- **Recibo de transferencía** – A través del proceso de recepción de matrículas.
 - **Problema de transferencia**: recogida y carga sencillas.
 - **Reabastecimiento**: sin incluir materias primas para la producción.
 - **Guardado de productos terminados**: después del proceso de producción de informes como terminado.
 - **Eliminación de coproductos y subproductos**: después del proceso de producción de informes como terminado.
+<!-- - **Packed container picking** - After manual packing station processing. -->
 
-Actualmente, no se admite ningún otro tipo de procesamiento de documentos de origen o trabajo de almacén en unidades de escalado. Por ejemplo, para una carga de trabajo de ejecución de almacén en una unidad de escalado, no puede realizar un proceso de recepción de pedidos de transferencia (recepción de transferencias); en su lugar, esto debe procesarse mediante la instancia del centro de conectividad.
+Actualmente, no se admite ningún otro tipo de procesamiento de documentos de origen o trabajo de almacén en unidades de escalado. Por ejemplo, cuando ejecuta una carga de trabajo de ejecución de almacén en una unidad de báscula, no puede usar el proceso de recepción de pedidos de devolución de ventas para procesar pedidos de devolución. En su lugar, este procesamiento debe realizarlo la instancia del concentrador.
 
 > [!NOTE]
 > Los elementos del menú de dispositivo móvil y los botones para funciones no compatibles no se muestran en la _aplicación móvil Warehouse Management_ cuando está conectada a una implementación de unidad de escalado.
-> 
+>
+> Se requieren algunos pasos adicionales para configurar la aplicación móvil de Warehouse Management en una unidad de escala de borde o en la nube. Para más información, vea [Configurar la aplicación móvil Warehouse Management para unidades de escalado en la nube y en el perímetro](cloud-edge-workload-setup-warehouse-app.md).
+>
 > Cuando ejecuta una carga de trabajo en una unidad de escalado, no puede ejecutar procesos no admitidos para ese almacén específico en el concentrador. Las tablas que se proporcionan más adelante en este tema documentan las capacidades admitidas.
 >
 > Los tipos de trabajo de almacén seleccionados se pueden crear tanto en el concentrados como en las unidades de escalado, pero solo se pueden mantener en el concentrador o la unidad de escalado propietarios (la implementación que creó los datos).
 >
 > Incluso cuando un proceso específico es compatible con la unidad de escalado, tenga en cuenta que es posible que todos los datos necesarios no se sincronicen desde el concentrador a la unidad de escalado, o viceversa, lo que puede resultar en un procesamiento inesperado del sistema. Ejemplos de este escenario incluyen:
-> 
+>
 > - Si usa una consulta de directiva de ubicación que se une a un registro de tabla de datos que solo existe en la implementación del concentrador.
 > - Si usa el estado de ubicación o las funciones de carga volumétrica de ubicación. Estos datos no se sincronizarán entre las implementaciones y, por lo tanto, solo funcionarán cuando se actualice el inventario de ubicación disponible en una de las implementaciones.
 
@@ -174,16 +209,16 @@ Actualmente, la siguiente funcionalidad de gestión de almacenes no es compatibl
 - Procesamiento con elementos con peso capturado.
 - Procesamiento con artículos solo habilitados para la administración de transporte (TMS).
 - Procesamiento con inventario disponible negativo.
+- Uso compartido de datos entre empresas para productos. <!-- Planned -->
 - Procesamiento de trabajos de almacén con notas de envío.
 - Procesamiento de trabajos de almacén con manipulación de materiales y automatización de almacén.
 - Imágenes de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management).
-- Uso compartido de datos entre empresas para productos.
 
 > [!WARNING]
 > Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de gestión de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
-> 
+>
 > Otras capacidades pueden procesarse en ambos, pero requerirán un uso cuidadoso en algunas situaciones, como cuando el inventario disponible se actualiza para el mismo almacén tanto en el concentrador como en la unidad de escalado debido al proceso de actualización de datos asincrónicos.
-> 
+>
 > Las funcionalidades específicas (como *bloquear trabajo*), que son compatibles tanto con el concentrador como con las unidades de escalado solo serán compatibles con el propietario de los datos.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Saliente (compatible solo para pedidos de venta y transferencia)
@@ -211,6 +246,7 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Procesamiento de albaranes y facturas                        | Sí | No |
 | Selección corta (pedidos de venta y transferencia)                    | No  | Sí, sin eliminar las reservas para los documentos originales|
 | Selección en exceso (pedidos de venta y transferencia)                     | No  | Sí|
+| Consolidar matrículas de entidad de almacén                                   | No  | Sí|
 | Cambio de lugar de trabajo (pedidos de venta y transferencia)         | No  | Sí|
 | Trabajo completo (pedidos de venta y transferencia)                    | No  | Sí|
 | Imprimir informe de trabajo                                            | Sí | Sí|
@@ -220,6 +256,8 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Reducir cantidad seleccionada                                       | No  | Sí|
 | Invertir el trabajo                                                 | No  | Sí|
 | Invertir confirmación de envíos                                | No  | Sí|
+| Solicitar la cancelación de líneas de pedido de almacén                      | Sí | No, pero la solicitud será aprobada o rechazada |
+| <p>Liberar pedidos de transferencia para recepción</p><p>Este proceso ocurrirá automáticamente como parte del proceso de envío de la orden de transferencia. Sin embargo, se puede usar manualmente para habilitar la recepción de matrículas en una unidad de báscula si se han cancelado las líneas de pedidos de almacén entrantes o como parte de un nuevo proceso de implementación de carga de trabajo.</p> | Sí | No|
 
 ### <a name="inbound"></a>Entrada
 
@@ -232,17 +270,17 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Coste de aterrizaje y recepción de mercancía en tránsito                       | Sí | No |
 | Confirmación de envío entrante                                    | Sí | No |
 | Envío de órdenes de compra al almacén (procesamiento de órdenes de almacén) | Sí | No |
-| Cancelación de líneas de pedido de almacén<p>Tenga en cuenta que esto solo se aplica cuando no se ha realizado ningún registro en la línea mientras se procesa la operación de *solicitud de cancelación*.</p> | Sí | No |
+| Solicitar la cancelación de líneas de pedido de almacén                            | Sí | No, pero la solicitud será aprobada o rechazada |
+| Procesamiento de recepción de producto de documento de origen de pedido de compra                        | Sí | No |
 | Recepción de artículo del pedido de compra y ubicación                       | <p>Si,&nbsp;cuando&nbsp;no hay&nbsp;una orden de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p> |
 | Recepción de línea del pedido de compra y ubicación                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, cuando un pedido de compra no forma parte de una <i>carga</i></p></p> |
 | Recepción de pedido de devolución y ubicación                              | Sí | No |
 | Recepción de matrícula de entidad de almacén mixta y ubicación                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí |
 | Recepción de artículo de carga                                              | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
-| Recepción de matrícula de entidad de almacén y ubicación                             | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Recepción de matrícula de pedido de compra y ubicación              | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
+| Transferencia de matrícula de pedido de compra y ubicación             | No | Sí |
 | Recepción de artículo del pedido de transferencia y ubicación                       | Sí | No |
 | Recepción de línea del pedido de transferencia y ubicación                       | Sí | No |
-| Cancelar trabajo (entrante)                                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Si, pero solo cuando la opción <b>Dar de baja el recibo al cancelar el trabajo</b> (en la página <b>Parámetros de gestión de almacén</b>) se ha desactivado</p> |
-| Procesamiento de recepción de producto de pedido de compra                        | Sí | No |
 | Recepción de pedidos de compra con entrega incompleta                      | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí, pero solo haciendo una solicitud de cancelación desde el concentrador |
 | Recepción de pedidos de compra con entrega excesiva                       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí  |
 | Recepción con la creación del trabajo *Tránsito directo*                 | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
@@ -251,7 +289,8 @@ La siguiente tabla muestra qué funciones de entrada son compatibles y dónde se
 | Recepción con la creación del trabajo *Calidad en control de calidad*       | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
 | Recepción con la creación de pedido de calidad                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | No |
 | Procesamiento de trabajo: dirigido por *Ubicación de clúster*                 | Sí | No |
-| Procesamiento de trabajo con *Selección corta*                               | Sí | Sí |
+| Procesamiento de trabajo con *Selección corta*                               | Sí | No |
+| Cancelar trabajo (entrante)                                            | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | <p>Sí, pero solo cuando la opción <b>Dar de baja el recibo al cancelar el trabajo</b> (en la página <b>Parámetros de Warehouse Management</b>) se ha desactivado</p> |
 | Carga de matrícula de entidad de almacén                                           | Sí | Sí |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Operaciones de almacén y manejo de excepciones
@@ -274,12 +313,11 @@ La siguiente tabla muestra qué funciones de control de excepciones y operacione
 | Reimpresión de etiqueta (impresión de matrícula)             | Sí | Sí                          |
 | Creación de matrícula de entidad de almacén                                | Sí | No                           |
 | Interrupción de matrícula de entidad de almacén                                | Sí | No                           |
-| Empaquetar en matrículas de entidad de almacén anidadas                                | Sí | No                           |
+| Empaquetar en matrículas de entidad de almacén anidadas                      | Sí | No                           |
 | Registro de entrada del conductor                                    | Sí | No                           |
 | Registro de salida del conductor                                   | Sí | No                           |
 | Cambiar código de disposición de lote                      | Sí | Sí                          |
 | Mostrar lista de trabajo abierta                             | Sí | Sí                          |
-| Consolidar matrículas de entidad de almacén                         | Sí | No                           |
 | Procesamiento de reabastecimiento del umbral de zona y mínimo y máximo| Sí <p>La recomendación es no incluir las mismas ubicaciones como parte de las consultas</p>| Sí                          |
 | Procesamiento de reabastecimiento de slotting                  | Sí  | Sí<p>Tenga en cuenta que la configuración debe realizarse en la unidad de escalado</p>                           |
 | Bloquear y desbloquear trabajo                             | Sí | Sí                          |
@@ -291,29 +329,47 @@ La siguiente tabla muestra qué funciones de control de excepciones y operacione
 
 La siguiente tabla resume qué escenarios de producción de gestión de almacenes se admiten en las cargas de trabajo de la unidad de escalado actualmente.
 
-| Proceso | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala |
-|---------|-----|------------------------------|
-| Ubicación de bienes terminados y notificados como terminados | Sí | Sí |
-| Ubicación de coproducto y producto derivado | Sí | Sí |
-| Iniciar pedido de producción | Sí | Sí |
-| <p>Todos los demás procesos de gestión de almacenes están relacionados con la producción, incluyendo:</p><li>Liberar al almacén</li><li>Procesamiento de oleadas de producción</li><li>Picking de materia prima</li><li>Ubicación de kanban</li><li>Picking de kanban</li><li>Residuo de producción</li><li>Último pallet de producción</li><li>Registrar lista de selección</li><li>Vaciar kanban</li></ul> | Sí | No |
-| Reabastecimiento de materias primas | No | No |
+| Procesar | Concentrador | Carga de trabajo de ejecución de almacén en una unidad de escala |
+|---------|-----|----------------------------------------------|
+| Procesamiento de documentos de origen de orden de producción    | Sí | No |
+| Liberar al almacén                           | Sí | No |
+| Iniciar pedido de producción                         | Sí | Sí|
+| Crear pedidos de almacén                        | Sí | No |
+| Solicitar la cancelación de líneas de pedido de almacén        | Sí | No, pero la solicitud será aprobada o rechazada |
+| Ubicación de bienes terminados y notificados como terminados | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí|
+| Ubicación de coproducto y producto derivado             | <p>Sí, cuando no hay un pedido de almacén</p><p>No, cuando hay un pedido de almacén</p> | Sí|
+| Registrar lista de selección                  | Sí | Sí|
+| Procesamiento de oleadas de producción                     | Sí | No |
+| Picking de materia prima                           | Sí | No |
+| Ubicación de kanban                                | Sí | No |
+| Picking de kanban                                 | Sí | No |
+| Vaciar kanban                                   | Sí | No |
+| Residuo de producción                               | Sí | No |
+| Último pallet de producción                         | Sí | No |
+| Reabastecimiento de materias primas                     | No  | No |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Mantener unidades de escalado para la ejecución de almacén
 
 Varios trabajos por lotes se ejecutan tanto en el concentrador como en las unidades de escala.
 
-En la implementación del concentrador, puede mantener manualmente los trabajos por lotes. Puede gestionar los siguientes trabajos por lotes en **Gestión de almacenes \> Tareas periódicas \> Gestión de la carga de trabajo de back-office**:
+En la implementación del concentrador, puede mantener manualmente los siguientes trabajos por lotes:
 
-- Procesador de mensajes de unidad de escalado a centro
-- Registrar recepciones de pedido de origen
-- Completar pedidos de almacén
+- Gestionar los siguientes trabajos por lotes en **Warehouse Management \> Tareas periódicas \> Gestión de la carga de trabajo de back-office**:
 
-En la carga de trabajo, en unidades de escalado, puede gestionar los siguientes trabajos por lotes en **Gestión de almacenes \> Tareas periódicas \> Gestión de la carga de trabajo**:
+    - Procesador de mensajes de unidad de escalado a centro
+    - Registrar recepciones de pedido de origen
+    - Completar pedidos de almacén
 
-- Procesar registros de tabla de oleada
+- Gestionar los siguientes trabajos por lotes en **Warehouse Management \> Tareas periódicas \> Gestión de la carga de trabajo de back-office**:
+
+    - Procesador de mensajes del centro de almacén a la unidad de escalado
+    - Procesar las recepciones de línea del pedido de almacén para el registro de recepción de almacén
+
+En implementaciones de unidades de escalado, puede gestionar los siguientes trabajos por lotes en **Warehouse Management \> Tareas periódicas \> Gestión de la carga de trabajo**:
+
+- Procesar registros de tabla de lanzamiento
 - Procesador de mensajes del centro de almacén a la unidad de escalado
-- Procesar solicitudes de actualización de cantidad para líneas de pedido de almacén
+- Procesar las recepciones de línea del pedido de almacén para el registro de recepción de almacén
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

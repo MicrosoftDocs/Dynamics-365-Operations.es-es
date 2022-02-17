@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924875"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063271"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Paquete de orquestación de aplicaciones de escritura dual separada
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Anteriormente, el paquete de orquestación de aplicaciones de escritura dual era un paquete único que contenía las siguientes soluciones:
 
 - Notas de Dynamics 365
-- Anclaje Dynamics 365 Finance and Operations Common
-- Mapas de entidad de escritura dual de Dynamics 365 Finance and Operations
+- Delimitador común para Dynamics 365 Finance y operaciones
+- Mapas de entidades centrales de Dynamics 365 Finance y operaciones
 - Aplicación Administración de activos de Dynamics 365
 - Administración de activos de Dynamics 365
 - Común de HCM
 - Dynamics 365 Supply Chain extendido
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Dynamics 365 Finance y operaciones comunes
 - Empresa de Dynamics 365
 - Tipos de cambio de divisas
 - Field Service Common
@@ -51,7 +51,7 @@ El paquete Núcleo de la aplicación de doble escritura permite a los usuarios i
 | Nombre único                           | Nombre para mostrar                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Empresa de Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance y operaciones comunes |
 | CurrencyExchangeRates                 | Tipos de cambio de divisas                    |
 | msdyn_DualWriteAppCoreMaps            | Mapas de entidades centrales de aplicaciones de doble escritura   |
 | msdyn_DualWriteAppCoreAnchor          | Anclaje de núcleo de aplicaciones de doble escritura        |

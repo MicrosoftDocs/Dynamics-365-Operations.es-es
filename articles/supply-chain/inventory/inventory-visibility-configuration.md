@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920307"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061010"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Este tema describe cómo configurar la visibilidad de inventario usando la aplicación Visibilidad de inventario de Power Apps.
 
@@ -58,7 +58,7 @@ Una vez completada la configuración, asegúrese de seleccionar **Actualizar con
 
 ## <a name="data-source-configuration"></a>Configuración del origen de datos
 
-Cada origen de datos representa un sistema del que provienen sus datos. Los nombres de origen de datos de ejemplo incluyen `fno` (que significa aplicaciones de "Dynamics 365 Finance and Operations") y `pos` (que significa "punto de venta"). De forma predeterminada, Supply Chain Management está configurado como origen de datos predeterminado (`fno`) en Visibilidad de inventario.
+Cada origen de datos representa un sistema del que provienen sus datos. Los nombres de origen de datos de ejemplo incluyen `fno` (que significa aplicaciones de "Dynamics 365 Finance y operaciones") y `pos` (que significa "punto de venta"). De forma predeterminada, Supply Chain Management está configurado como origen de datos predeterminado (`fno`) en Visibilidad de inventario.
 
 > [!NOTE]
 > El origen de datos `fno` está reservado para Supply Chain Management. Si su complemento de visibilidad de inventario está integrado con un entorno de Supply Chain Management, le recomendamos que no elimine las configuraciones relacionadas con `fno` en la fuente de datos.

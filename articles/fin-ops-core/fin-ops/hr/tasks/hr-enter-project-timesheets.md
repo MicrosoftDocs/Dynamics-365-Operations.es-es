@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964943"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070484"
 ---
 # <a name="enter-project-timesheets"></a>Especificar hojas de horas de proyectos
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Este procedimiento le permite crear una hoja de horas a partir de una página en blanco. La nueva hoja de horas se puede basar en la información de una hoja de horas anterior, o en las asignaciones de proyecto y actividad de la página **Mis favoritos**. De forma predeterminada, la página de lista **Todas las hojas de horas** muestra todas las hojas de horas del período actual. Puede usar el campo **Mostrar** en la página **Mis hojas de horas** para filtrar la lista de la hoja de horas por período de tiempo o proyecto, o a para ver las hojas de horas que se crearon en nombre de otros trabajadores. Para crear este procedimiento se utiliza la empresa de datos de prueba **USSI**.
 

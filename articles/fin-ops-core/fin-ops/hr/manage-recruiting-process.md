@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965073"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075484"
 ---
 # <a name="manage-recruiting-processes"></a>Gestionar procesos de contratación
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
+
 
 Este tema describe un concepto que permite a los empleadores hacer un seguimiento de los pasos de un proceso de contratación, incluidas las tareas para publicitar vacantes y contratar candidatos, hacer un seguimiento de la información del candidato y de la solicitud, entrevistar a candidatos y seleccionar uno o varios candidatos para cubrir vacantes en su organización.
 

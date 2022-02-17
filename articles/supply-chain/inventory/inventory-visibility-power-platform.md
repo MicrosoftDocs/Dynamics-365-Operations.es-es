@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678528"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060981"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar la aplicación Visibilidad de inventario
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Este tema describe cómo usar la aplicación Visibilidad de inventario.
 

@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 11/08/2021
+ms.date: 01/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777994"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075431"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 En este tema explica cómo puede personalizar la aplicación y se cubren los siguientes temas: 
 
@@ -120,7 +124,9 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 - Utilice la herramienta **Seleccionar** praa seleccionar y cambiar las propiedades de un elemento. Para utilizar esta herramienta, seleccione el botón **Seleccionar** en la barra de herramientas, y seleccione el artículo deseado. La ventana de la propiedad del elemento aparece, donde podrá modificar las propiedades de dicho elemento. Es posible repetir el proceso para otros elementos que se pueden personalizar en la página. Tenga en cuenta que algunas propiedades de personalización no pueden estar disponibles en algunos casos. Por ejemplo, no puede bloquear un campo que es necesario.
 - Use la herramienta **Ocultar** para ocultar un elemento de la página. Para utilizar esta herramienta, seleccione el botón **Ocultar** en la barra de herramientas, y seleccione el artículo que desea ocultar. Al usar la herramienta **Ocultar**, todos los elementos que se ocultan actualmente se hacen visibles pero se muestran en un contenedor sombreado. A continuación puede hacer que un elemento sea visible seleccionándolo. Para ver el aspecto de la página con los artículos ocultos, cambie a otra herramienta de personalización o cierre la barra de herramientas de personalización.
 - Use la herramienta **Agregar campos** para agregar campos en la página. Al usar esta herramienta, puede agregar solamente los campos que forman parte de la definición de la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Crear y trabajar con campos personalizados](user-defined-fields.md). Tras seleccionar el botón **Agregar campos** en la barra de herramientas, primero debe seleccionar la cuadrícula o la sección donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con la cuadrícula o sección que haya seleccionado. En el cuadro de diálogo, seleccione uno o más campos para agregar desde las listas **Campos recomendados** o **Todos los campos**. Después de elegir los campos deseados, seleccione **Actualizar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
-    - La lista **Campos recomendados** muestra los campos que otros usuarios de su organización han agregado anteriormente. Esta lista de campos se actualiza en función de la frecuencia de repetición del **Recomendación de trabajo por lotes**. Existe una experiencia similar al agregar nuevos campos de filtro usando el panel Filtro en una página.
+
+    La lista **Campos recomendados** muestra los campos que otros usuarios de su organización han agregado anteriormente. Esta lista de campos se actualiza en función de la frecuencia de repetición del **Recomendación de trabajo por lotes**. Existe una experiencia similar al agregar nuevos campos de filtro usando el panel Filtro en una página.
+
 - Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. Tenga en cuenta que no puede mover un elemento fuera del grupo principal. Para utilizar esta herramienta, seleccione el botón **Mover** en la barra de herramientas, y seleccione el artículo que desea mover. Al seleccionar un elemento, la aplicación determina las ubicaciones adónde se puede mover el elemento. Estas ubicaciones se conocen como *zonas de colocación*. Mientras arrastra el elemento dentro del grupo actual, todas las zonas de colocación se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos del resumen seleccionando los campos.
@@ -152,7 +158,10 @@ Para algunas páginas que incluyan listas, la característica de personalizació
 
 - Para agregar una lista a un espacio de trabajo, primero debe clasificar o filtrar la lista de la página para que muestre la información tal y como desee que aparezca en el área de trabajo. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Lista**. Tras seleccionar **Configurar**, aparecerá un cuadro de diálogo, donde puede seleccionar las columnas que deben aparecer en la lista del área de trabajo. También puede especificar la etiqueta que se debe usar para la lista del espacio de trabajo.
 - Para agregar un mosaico a un espacio de trabajo, primero debe filtrar la lista de la página para que muestre los datos que debe resumir o a los que quiere tener acceso rápido. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Mosaico**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que se debe usar para el mosaico en el espacio de trabajo. También puede especificar si el mosaico debe mostrar un recuento. Una vez que el mosaico se agrega al espacio de trabajo, puede seleccionarlo para abrir la página actual del espacio de trabajo. Puede ver la lista filtrada que está asociada al mosaico.
-- Para agregar un vínculo a un espacio de trabajo, primero filtre la lista de la página para que muestre los datos que le interesan. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Vínculo**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que debe utilizarse para el vínculo. También puede especificar de forma opcional una etiqueta para una nueva sección que contenga este vínculo.
+- Para agregar un vínculo a un espacio de trabajo, primero filtre la lista de la página para que muestre los datos que le interesan. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Vínculo**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que debe utilizarse para el vínculo. También puede especificar de forma opcional una etiqueta para la sección que contenga este vínculo. Si esa sección no existe, se creará una nueva sección.
+
+> [!NOTE]
+> A partir de la versión 10.0.25, cuando configura su lista, mosaico o enlace, es posible que también deba seleccionar las vistas del área de trabajo a las que desea agregar el elemento si la característica **(Vista previa) Compatibilidad con vistas guardadas para espacios de trabajo** está habilitada. Las vistas del espacio de trabajo disponibles aparecerán en el cuadro de diálogo **Opciones de espacio de trabajo** de cada cuadro de diálogo **Configurar**. 
 
 Una vez que ha agregado una lista, el mosaico o el vínculo a un espacio de trabajo, puede abrir dicho espacio de trabajo y reordenar los elementos que contiene tal y como desee.
 
@@ -221,7 +230,7 @@ Si las vistas guardadas no están habilitadas, siga estos pasos para copiar una 
 Otra forma de compartir personalizaciones es mediante la exportación y la importación. Los usuarios individuales, o un administrador que actúe en su nombre, pueden utilizar este método para exportar sus personalizaciones o vistas, y luego entregar el archivo exportado a otros usuarios para que lo importen. Alternativamente, los usuarios pueden dar sus personalizaciones exportadas a un usuario que tiene privilegios de administrador, y ese usuario puede usar la página de administración **Personalización** para aplicar el archivo de personalización a muchos usuarios al mismo tiempo.
 
 > [!IMPORTANT]
-> Dado que las personalizaciones persisten en las actualizaciones, volver a importar todas las personalizaciones después de una actualización del servicio o en cualquier otro momento es innecesario y muy desaconsejado.   
+> Dado que las personalizaciones persisten en las actualizaciones, volver a importar todas las personalizaciones después de una actualización del servicio o en cualquier otro momento es innecesario y muy desaconsejado.
 
 #### <a name="export"></a>Exportar
 
@@ -271,11 +280,8 @@ Para clientes que han activado la característica **Vistas guardadas**, consulte
 Para los clientes que no hayan activado aún la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro fichas:
 
 - **Aplicar**: puede importar o seleccionar una personalización para uno o varios usuarios. Para aplicar una personalización a uno o varios usuarios, seleccione primero un rol y a los usuarios con dicho rol. A continuación seleccione una personalización para aplicarla a los usuarios seleccionados o importe un archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionados la próxima vez que abran la página seleccionada.
-
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
-
 - **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
-
 - **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalización de dimensiones de inventario

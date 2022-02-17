@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 06f7e9b39b72a5e2cbbc06949dda7f16f2405250dd6c25b919260daca76e33bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759194"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075233"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Página principal de Novedades y cambios en aplicaciones de Finance and Operations
 
@@ -33,9 +33,16 @@ ms.locfileid: "6759194"
 
 Para ver las novedades o los cambios de cada versión de una aplicación de Finance and Operations, consulte los siguientes temas:
 
-- **Finance**: [Novedades y cambios en Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md) 
+- **Finance**: [Novedades y cambios en Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
+- **Human Resources (infraesstructura combinada):** [Novedades y cambios en Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
 - **Supply Chain Management**: [Novedades y cambios en Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce**: [Novedades y cambios en Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
+
+
+## <a name="stand-alone-applications"></a>Aplicaciones independientes
+
+Para ver las novedades o los cambios en Dynamics 365 Human Resources independiente, consulte el siguiente tema:
+
 - **Human Resources:** [Novedades y cambios en Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platform updates

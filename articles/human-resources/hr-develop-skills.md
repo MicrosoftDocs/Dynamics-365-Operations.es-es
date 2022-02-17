@@ -1,7 +1,7 @@
 ---
 title: Configurar aptitudes
 description: Puede realizar un seguimiento de las aptitudes de su trabajador en Dynamics 365 Human Resources. También puede especificar las aptitudes necesarias para un puesto concreto.
-author: andreabichsel
+author: twheeloc
 manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
@@ -13,19 +13,21 @@ ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a8025dd4000a3678e7f7eb7faebfa45852f0054570a2948dadbc21913c63f578
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732162"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075080"
 ---
 # <a name="configure-skills"></a>Configurar aptitudes
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+> [!IMPORTANT]
+> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
+
 
 Puede realizar un seguimiento de las aptitudes de su trabajador en Dynamics 365 Human Resources. También puede especificar las aptitudes necesarias para un puesto concreto.
 

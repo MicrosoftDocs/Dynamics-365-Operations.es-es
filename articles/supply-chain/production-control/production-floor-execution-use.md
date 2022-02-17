@@ -2,7 +2,7 @@
 title: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 description: Este tema describe cómo se utiliza la interfaz de ejecución de la planta de producción desde el punto de vista de un trabajador.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920657"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075028"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -138,6 +138,65 @@ En este caso, el trabajador puede especificar el coproducto y la cantidad a repo
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar residuos seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar residuo**. En el cuadro de diálogo **Notificar residuo**, el trabajador introduce la cantidad de residuo a través del teclado numérico. El trabajador también selecciona un motivo (*Ninguno*, *Máquina*, *Operador* o *Material*).
 
 ![Cuadro de diálogo Notificar residuo.](media/pfei-report-scrap-dialog.png "Cuadro de diálogo Notificar residuo")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Ajustar el consumo de material y hacer reservas de material.
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Los trabajadores pueden ajustar el consumo de material para cada trabajo de producción. Esta funcionalidad se usa en escenarios donde la cantidad real de materiales consumidos por un trabajo de producción fue mayor o menor que la cantidad planificada. Por lo tanto, debe ajustarse para mantener los niveles de inventario actualizados.
+
+Los trabajadores también pueden hacer reservas sobre el lote y los números de serie de los materiales. Esta funcionalidad se usa en escenarios en los que un trabajador debe especificar manualmente qué lote de material o números de serie se consumieron para cumplir con los requisitos de trazabilidad del material.
+
+Los trabajadores pueden especificar la cantidad a ajustar seleccionando **Ajustar material**. Este botón no se encuentra disponible en las ubicaciones siguientes:
+
+- En el cuadro de diálogo **Notificar residuo**
+- En el cuadro de diálogo **Notificar progreso**
+- En la barra de herramientas de la derecha
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Ajuste el consumo de material desde los cuadros de diálogo Informar de desecho e Informar de progreso
+
+Después de que un trabajador ingresa la cantidad a informar en el cuadro de diálogo **Informar sobre el progreso** o **Informar de rechazo**, el botón **Ajustar material** pasa a estar disponible. Cuando el usuario selecciona este botón, aparece el cuadro de diálogo **Ajustar material**. Este cuadro de diálogo enumera los artículos que se planean consumir cuando se informa la cantidad buena o desechada para el trabajo.
+
+La lista del cuadro de diálogo muestra la siguiente información:
+
+- **Número de producto**: el producto maestro y las variantes del producto.
+- **Nombre de producto** – El nombre del producto.
+- **Propuesta**: la cantidad estimada de material que se consumirá cuando se notifique el progreso o el rechazo de la cantidad especificada para el trabajo.
+- **Consumo**: la cantidad real de material que se consumirá cuando se notifique el progreso o el rechazo de la cantidad especificada para el trabajo.
+- **Reservado** – La cantidad de material que se ha reservado físicamente en el inventario.
+- **Unidad**: la unidad de la lista de materiales (L. MAT).
+
+El lado derecho del cuadro de diálogo muestra la siguiente información:
+
+- **Número de producto**: el producto maestro y las variantes del producto.
+- **Estimada**: la cantidad estimada que se va a consumir.
+- **Empezado** – La cantidad que se ha iniciado en el trabajo de producción.
+- **Cantidad restante** – De la cantidad estimada, la cantidad que queda por consumir.
+- **Cantidad liberada**: la cantidad que se ha consumido.
+
+Se pueden realizar las siguientes acciones:
+
+- El trabajador puede especificar la cantidad a ajustar de un material seleccionando **Ajustar consumo**. Después de confirmar la cantidad, la cantidad en la columna **Consumo** se actualiza con la cantidad ajustada.
+- Cuando el trabajador selecciona **Ajustar material**, se crea un diario de lista de selección de producción. Este diario contiene los mismos artículos y cantidades que la lista **Ajustar material**.
+- Cuando el trabajador ajusta una cantidad en el cuadro de diálogo **Ajustar material**, el campo **Propuesta** en la línea de diario correspondiente se actualiza con la misma cantidad. Si el trabajador selecciona **Cancelar** en el cuadro de diálogo **Ajustar material**, la lista de selección se elimina.
+- Si el trabajador selecciona **OK**, la lista de selección no se elimina. Se publicará cuando el trabajo se informe en el cuadro de diálogo **Informar de rechazo** o **Informar sobre el progreso**.
+- Si el trabajador selecciona **Cancelar** en el cuadro de diálogo **Informar del progreso** o **Notificar residuo**, la lista de selección se elimina.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajuste el material desde la barra de herramientas de la derecha
+
+El botón **Ajustar material** se puede configurar para que aparezca en la barra de herramientas de la derecha. (Para más información, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md)). Un trabajador puede seleccionar **Ajustar material** para un trabajo de producción que está en curso. En este caso, aparece el cuadro de diálogo **Ajustar material**, donde el trabajador puede hacer los ajustes deseados. Cuando se abre el cuadro de diálogo, se crea una lista de selección de producción que contiene líneas para las cantidades ajustadas para la orden de producción. Si el trabajador selecciona **Publicar ahora**, se confirma el ajuste y se contabiliza la lista de selección. Si el trabajador selecciona **Cancelar**, se elimina la lista de selección y no se hace ningún ajuste.
+
+### <a name="reserve-materials"></a>Reserva de materiales
+
+En el cuadro de diálogo **Ajustar material**, un trabajador puede hacer y ajustar reservas de material seleccionando **Material de reserva**. El cuadro de diálogo **Material de reserva** que aparece muestra el inventario disponible físicamente para el artículo para cada dimensión de almacenamiento y seguimiento.
+
+Si el material está habilitado para los procesos de almacén avanzados, la lista muestra solo el inventario físicamente disponible para la ubicación de entrada de producción del material. La ubicación de entrada de producción se define en el recurso donde se planifica el trabajo de producción. Si el número de artículo está controlado por lote o número de serie, se muestra la lista completa de números de lote y serie físicamente disponibles. Para especificar una cantidad a reservar, el trabajador puede seleccionar **Material de reserva**. Para eliminar una reserva existente, el trabajador puede seleccionar **Eliminar reserva**.
+
+Para obtener más información sobre cómo configurar la ubicación de entrada de producción, consulte la siguiente publicación de blog: [Configuración de la ubicación de entrada de producción](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Las reservas que hace un trabajador en el cuadro de diálogo **Material de reserva** permanecerá cuando el trabajador seleccione **Cancelar** en el cuadro de diálogo **Informar sobre el progreso** o **Informar de rechazo**.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completar un trabajo e iniciar un trabajo nuevo
 

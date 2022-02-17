@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753035"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063246"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!IMPORTANT]
 > Este tema ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
@@ -498,7 +498,7 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition Julio 2017 con Platform update 8
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise Edition julio de 2017 con actualización de plataforma 8.
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversión de divisa para contabilidad y divisas de notificación
 

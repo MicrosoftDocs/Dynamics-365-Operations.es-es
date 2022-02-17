@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a642114d6fee90b084e2d7c3cb432d2b8fb29a95
-ms.sourcegitcommit: 3f77e0b988f6dd0c9edfdec1dbd9815380501dbb
+ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7916951"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087354"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Página principal de características quitadas o en desuso
 
@@ -30,7 +30,7 @@ Los siguientes temas proporcionan información sobre las funciones quitadas o en
 - [Características quitadas o en desuso en Dynamics 365 Commerce](../../../commerce/get-started/removed-deprecated-features-commerce.md)
 - [Características quitadas o en desuso en Dynamics 365 Finance](../../../finance/get-started/removed-deprecated-features-finance.md)
 - [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/removed-deprecated-features-scm-updates.md)
-- [Características quitadas o en desuso en Dynamics 365 Project Operations](/project-operations/whats-new/removed-depreciated-features-project)
+- [Características quitadas o en desuso en Dynamics 365 Project Operations](/dynamics365/project-operations/whats-new/removed-depreciated-features-project)
 - [Características de Platform quitadas o en desuso](../../dev-itpro/get-started/removed-deprecated-features-platform-updates.md)
 - [Características quitadas o en desuso de versiones anteriores](../../dev-itpro/migration-upgrade/deprecated-features.md)
 

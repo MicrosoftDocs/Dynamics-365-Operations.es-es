@@ -1,6 +1,6 @@
 ---
 title: Estado del plan de prestaciones para empleados
-description: En este tema se describe la opción de estado del plan de prestaciones para empleados establecida para Dynamics 365 Human Resources.
+description: En este tema se describe la opción de estado del plan de prestaciones establecida para Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 07/25/2021
 ms.topic: article
@@ -13,18 +13,21 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ce729acbe078479b5fdf7cb77c7035ecb402d652e445595886d7d35d0e54c66f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e038eebcb3c703ebf56c781a332edcd6a5badf1a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774159"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066177"
 ---
 # <a name="benefit-employee-plan-status"></a>Estado del plan de prestaciones para empleados
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se describe la opción de estado del plan de prestaciones para empleados establecida para Dynamics 365 Human Resources.
+En este tema se describe la opción de estado del plan de prestaciones establecida para Dynamics 365 Human Resources.
 
 ## <a name="option-set-process-type"></a>Conjunto de opciones: tipo de proceso
 

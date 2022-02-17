@@ -2,27 +2,24 @@
 title: Mejoras en la funcionalidad del registro de extractos
 description: En este tema se describen mejoras que se han realizado en la función de registro de extractos.
 author: analpert
-ms.date: 12/03/2021
+ms.date: 01/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6ee0cea76be05634aa21643acef5b341f19d75ef
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982212"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087612"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se describe el primer conjunto de mejoras que se han realizado en la función de registro de extractos. Estas mejoras están disponibles en Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -53,12 +50,24 @@ Como parte de las mejoras de la función de registro de extractos, se han inclui
 
 - **Deshabilitar recuento obligatorio**: si esta opción está establecida en **Sí**, el proceso de registro de un extracto continua, incluso si la diferencia entre el importe contado y el importe de transacción en el extracto está fuera del umbral definido en la ficha desplegable **Extracto** para tiendas.
 
+> [!NOTE]
+> A partir del lanzamiento de la versión 10.0.14 de Commerce, cuando la función **Estados de cuenta minoristas: alimentación por goteo** está habilitada, el trabajo por lotes **Publicar inventario** ya no es aplicable y no se puede ejecutar.
+
 Además, los siguientes parámetros se introducen en la ficha desplegable **Procesamiento por lotes** en la pestaña **Registro** de la página **Parámetros de Commerce** : 
 
 - **Número máximo de envío de extractos paralelos** - Este campo define el número de tareas por lotes que se utilizan para enviar varios extractos. 
 - **Subprocesos máximos para el procesamiento del pedido por extracto** - Este campo representa el número máximo de subprocesos usados por el trabajo por lotes del registro de extractos para crear y facturar los pedidos de ventas para un único extracto. El número total de subprocesos que se utilizan en el proceso de registro del extracto se calculará en función del valor de este parámetro multiplicado por el valor del parámetro **Número máximo de registros paralelos del extracto** . Establecer el valor del parámetro demasiado alto puede tener un impacto negativo en el rendimiento del proceso de registro del extracto.
 - **Líneas de transacción máximas incluidas en la agregación** - Este campo define el número de líneas de transacción que se incluyen en una única transacción agregada antes de que se cree uno nueva. Las transacciones agregadas se crean en función de diversos criterios de agregación como cliente, fecha de negocio o dimensiones financieras. Es importante tener en cuenta que las líneas de una sola transacción no se dividirán entre diversas transacciones agregadas. Esto significa que hay la posibilidad de que el número de líneas en una transacción agregada sean ligeramente mayores o menores basadas en factores como número de productos únicos.
 - **Número máximo de subprocesos para validar transacciones de la tienda** - Este campo define el número de subprocesos que se utilizan para validar transacciones. Validar transacciones es un paso necesario que debe aparecer antes de que las transacciones se pueden añadir a los extractos. También es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros de Commerce**. Esto necesita definirse incluso si la organización no utiliza tarjetas regalo.
+
+La siguiente tabla enumera los valores recomendados para los parámetros anteriores. Estos valores deben probarse y adaptarse a la configuración de implementación y la infraestructura disponible. Cualquier aumento en los valores recomendados puede afectar negativamente a otros procesos por lotes y debe validarse.
+
+| Parámetro | Valor recomendado | Detalles |
+|-----------|-------------------|---------|
+| Número máximo de extractos registrados en paralelo | <p>Establezca este parámetro en el número de tareas por lotes que están disponibles para el grupo de lotes que está ejecutando el trabajo **Declaración**.</p><p>**Regla general:** Multiplique la cantidad de servidores virtuales de Application Object Server (AOS) por la cantidad de tareas por lotes que están disponibles por servidor virtual AOS.</p> | Este parámetro no es aplicable cuando la característica **Estados de cuenta minoristas: alimentación por goteo** está habilitada. |
+| Subproceso máximo para el procesamiento de pedidos por extracto | Comience a probar los valores en **4**. Por lo general, el valor no debe exceder **8**. | Este parámetro especifica el número de subprocesos que se utilizan para crear y publicar pedidos de venta. Representa el número de hilos que están disponibles para publicar por declaración. |
+| Líneas de transacción máximas incluidas en la agregación | Comience a probar los valores en **1000**. Según la configuración de la sede, los pedidos más pequeños pueden ser más beneficiosos para el rendimiento. | Este parámetro determina el número de líneas que se incluirán en cada orden de venta durante la contabilización del estado de cuenta. Después de alcanzar este número, las líneas se dividirán en un nuevo pedido. Aunque el número de líneas de venta no será exacto, dado que la división se produce en el nivel de pedido de venta, estará cerca del número establecido. Este parámetro se usa para generar órdenes de venta para transacciones minoristas que no tienen un cliente designado. |
+| Número máximo de subprocesos para validar transacciones de la tienda | Le recomendamos que establezca este parámetro en **4** y que sólo lo aumentes si no consigues un rendimiento aceptable. La cantidad de subprocesos que utiliza este proceso no puede exceder la cantidad de procesadores que están disponibles para el servidor por lotes. Si asigna demasiados subprocesos aquí, podría afectar otros procesos por lotes. | Este parámetro controla la cantidad de transacciones que se pueden validar al mismo tiempo para una tienda determinada. |
 
 > [!NOTE]
 > Todos los valores y parámetros asociados a los registros de extracto y que se definen en las tiendas y en la página **Parámetros de Commerce**, son aplicables a la función mejorada del registro de extractos.

@@ -1,6 +1,6 @@
 ---
 title: Experiencia unificada del producto
-description: Este tema describe la integración de datos de productos entre aplicaciones de Finance and Operations y Dataverse.
+description: Este tema describe la integración de datos de productos entre aplicaciones Finance and Operations y Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 81f49cf08dcd1b4b1c3d71ff286a1f070e65e914
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782341"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062607"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Cuando un ecosistema de negocio está compuesto de aplicaciones de Dynamics 365, como Finance, Supply Chain Management y Sales, los negocios a menudo usan estas aplicaciones en los datos del producto de origen. Esto se debe a que estas aplicaciones proporcionan una infraestructura robusta de producto complementada con conceptos sofisticados de precios y datos de inventario disponibles exactos. Las empresas que usan un sistema externo de (PLM) de administración del ciclo de vida del producto para abastecer los datos del producto pueden pasar productos de Finance and Operations a otras aplicaciones de Dynamics 365. La experiencia unificada de producto lleva el modelo de datos del producto integrado a Dataverse, de modo que todos los usuarios de aplicación incluidos los usuarios de Power Platform puedan aprovechar la riqueza de datos de producto que procede de aplicaciones de Finance and Operations.
 
@@ -36,7 +36,7 @@ Estos dos modelos de datos se han integrado en Dataverse como se indica a contin
 
 ![Modelo de datos para productos de aplicaciones de Dynamics 365.](media/dual-write-products-6.jpg)
 
-Los mapas de tabla de escritura dual para productos se diseñaron para que los datos fluyan solo en una dirección y es una experiencia de tiempo casi real desde las aplicaciones de Finance and Operations hasta Dataverse. Sin embargo, la infraestructura del producto se ha creado abierta para hacerla bidireccional si procede. Aunque pueda personalizarla, este planteamiento es por su cuenta y riesgo, ya que Microsoft no recomienda este planteamiento.
+Los mapas de tabla de escritura dual para productos se diseñaron para que los datos fluyan solo en una dirección y es una experiencia de tiempo casi real desde las aplicaciones de Finanzas y operaciones hasta Dataverse. Sin embargo, la infraestructura del producto se ha creado abierta para hacerla bidireccional si procede. Aunque pueda personalizarla, este planteamiento es por su cuenta y riesgo, ya que Microsoft no recomienda este planteamiento.
 
 ## <a name="templates"></a>Plantillas
 
@@ -91,7 +91,7 @@ Cuando los productos están sincronizados, debe ingresar un valor para el campo 
 
 La creación de familias de productos desde Dynamics 365 Sales no es compatible con la sincronización de productos de escritura dual.
 
-La sincronización de productos se produce de las aplicaciones de Finance and Operations a Dataverse. Esto significa que los valores de las columnas de la tabla del producto se pueden cambiar en Dataverse, pero cuando se activa la sincronización (cuando una columna de producto se modifica en una aplicación de Finance and Operations), se sobrescribirán los valores de Dataverse.
+La sincronización de productos se produce de las aplicaciones de Finanzas y operaciones a Dataverse. Esto significa que los valores de las columnas de la tabla del producto se pueden cambiar en Dataverse, pero cuando se activa la sincronización (cuando una columna de producto se modifica en una aplicación de Finanzas y operaciones), se sobrescribirán los valores de Dataverse.
 
 Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement |
 ---|---
@@ -151,11 +151,11 @@ Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement |
 
 ### <a name="initial-synchronization-of-units"></a>Sincronización inicial de unidades
 
-Cuando la doble escritura está habilitada, las unidades de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365. Los grupos de unidades sincronizados desde aplicaciones de Finance and Operations con Dataverse tienen un indicador establecido que indica que se “mantienen externamente”.
+Cuando la doble escritura está habilitada, las unidades de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365. Los grupos de unidades sincronizados desde aplicaciones de Finanzas y operaciones con Dataverse tienen un indicador establecido que indica que se “mantienen externamente”.
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Conciliación de unidades y datos de clases de unidades/grupos de Finance and Operations y otras aplicaciones de Dynamics 365
 
-En primer lugar, es importante tener en cuenta que la clave de la integración de la unidad es msdyn_symbol. Por lo tanto, este valor debe ser único en Dataverse u otras aplicaciones de Dynamics 365. Dado que en otras aplicaciones de Dynamics 365 es el par “identificación del grupo de unidades” y “Nombre” el que define la exclusividad de una unidad, es necesario que tenga en cuenta diferentes escenarios para conciliar datos entre aplicaciones de Finance and Operations y Dataverse.
+En primer lugar, es importante tener en cuenta que la clave de la integración de la unidad es msdyn_symbol. Por lo tanto, este valor debe ser único en Dataverse u otras aplicaciones de Dynamics 365. Dado que en otras aplicaciones de Dynamics 365 es el par “identificación del grupo de unidades” y “Nombre” el que define la exclusividad de una unidad, es necesario que tenga en cuenta diferentes escenarios para conciliar datos entre aplicaciones de Finanzas y operaciones y Dataverse.
 
 Para las unidades que concilian/se superponen en aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365:
 
@@ -164,7 +164,7 @@ Para las unidades que concilian/se superponen en aplicaciones de Finance and Ope
 
 Para las unidades y clases de unidades de Finance and Operations que no existan en otras aplicaciones de Dynamics 365:
 
-Como parte de la doble escritura, los grupos de unidades de aplicaciones de Finance and Operations y sus correspondientes unidades se crean y sincronizan en otras aplicaciones de Dynamics 365 y Dataverse y el grupo de unidades se establecerá como “externamente mantenido”. No se requiere ningún esfuerzo de arranque adicional.
+Como parte de la doble escritura, los grupos de unidades de aplicaciones de Finanzas y operaciones y sus correspondientes unidades se crean y sincronizan en otras aplicaciones de Dynamics 365 y Dataverse y el grupo de unidades se establecerá como “externamente mantenido”. No se requiere ningún esfuerzo de arranque adicional.
 
 Para unidades de otras aplicaciones de Dynamics 365 que no existan en aplicaciones de Finance and Operations:
 
@@ -201,12 +201,12 @@ Si construye aplicaciones en Dataverse, debe prestar atención al uso de **Núme
 
 ### <a name="initial-synchronization-of-products"></a>Sincronización inicial de productos
 
-Cuando la doble escritura está habilitada, los productos de las aplicaciones Finance and Operations se sincronizan con Dataverse y con aplicaciones de Customer Engagement. Los productos creados en Dataverse y otras aplicaciones de Dynamics 365 antes de la publicación de la doble escritura no se actualizarán ni se conciliarán con datos de productos de aplicaciones Finance and Operations.
+Cuando la doble escritura está habilitada, los productos de las aplicaciones Finanzas y operaciones se sincronizan con Dataverse y con aplicaciones de Customer Engagement. Los productos creados en Dataverse y otras aplicaciones de Dynamics 365 antes de la publicación de la doble escritura no se actualizarán ni se conciliarán con datos de productos de aplicaciones Finanzas y operaciones.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Conciliación de datos de producto de Finance and Operations y otras aplicaciones de Dynamics 365
 
-Si los mismos productos se mantienen (solapan/concilian) en Finance and Operations y en Dataverse y otras aplicaciones de Dynamics 365, al habilitar la escritura dual, ocurrirá la sincronización de productos de Finance and Operations y filas duplicadas aparecerán en Dataverse para el mismo producto.
-Para evitar la situación anterior, si otras aplicaciones de Dynamics 365 tienen productos que se solapan/coinciden con Finance and Operations, el administrador que habilita la escritura dual debe arrancar las columnas **Empresa** (ejemplo: “USMF”) y **msdyn_productnumber** (ejemplo: “1234:Black:S”) antes de que se produzca la sincronización de productos. Es decir, estas dos columnas del producto en Dataverse se deben rellenar con la empresa respectiva de Finance and Operations con la que el producto debe correlacionarse y con su número de producto.
+Si los mismos productos se mantienen (solapan/concilian) en Finanzas y operaciones y en Dataverse y otras aplicaciones de Dynamics 365, al habilitar la escritura dual, ocurrirá la sincronización de productos de Finanzas y operaciones y filas duplicadas aparecerán en Dataverse para el mismo producto.
+Para evitar la situación anterior, si otras aplicaciones de Dynamics 365 tienen productos que se solapan/coinciden con Finance and Operations, el administrador que habilita la escritura dual debe arrancar las columnas **Empresa** (ejemplo: “USMF”) y **msdyn_productnumber** (ejemplo: “1234:Black:S”) antes de que se produzca la sincronización de productos. Es decir, estas dos columnas del producto en Dataverse se deben rellenar con la empresa respectiva de Finanzas y operaciones con la que el producto debe correlacionarse y con su número de producto.
 
 A continuación, cuando la sincronización se habilita y tiene lugar, los productos de Finance and Operations se sincronizarán con los productos asignados en Dataverse y otras aplicaciones de Dynamics 365. Esto es aplicable para productos únicos y variantes de producto.
 

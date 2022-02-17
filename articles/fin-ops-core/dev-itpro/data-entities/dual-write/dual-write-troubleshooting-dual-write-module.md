@@ -9,23 +9,23 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781207"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061819"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse. Específicamente, proporciona información que puede ayudarlo a solucionar problemas con el módulo de **Escritura doble** en aplicaciones Finance and Operations.
+
+Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse. Específicamente, proporciona información que puede ayudarlo a solucionar problemas con el módulo de **Escritura doble** en aplicaciones Finance and Operations.
 
 > [!IMPORTANT]
-> Algunos de los problemas que aborda este tema pueden requerir la función de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una función o credenciales específicas.
+> Algunos de los problemas que aborda este tema pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>No puede cargar el módulo de doble escritura en una aplicación Finance and Operations
 
@@ -49,7 +49,7 @@ Para solucionar el problema, inicie sesión utilizando una ventana InPrivate en 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Error al vincular el entorno para doble escritura o agregar una nueva asignación de tabla
 
-**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de Finance and Operations y Dataverse.
+**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de Finanzas y operaciones y Dataverse.
 
 Puede encontrar el siguiente error al vincular o crear mapas:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Dataverse se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de Finance and Operations y Dataverse puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de tabla. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
+Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Dataverse se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de Finanzas y operaciones y Dataverse puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de tabla. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Error al detener la asignación de tabla
 

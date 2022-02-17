@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: f16498f9e4766022951047d40173a0a3e664470d
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404114"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065748"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Claves de configuración y entidades de datos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Antes de usar entidades de datos para importar o exportar datos, le recomendamos que determina primero el impacto de las claves de configuración en las entidades de datos que tiene previsto utilizar.
 

@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414723"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065050"
 ---
 # <a name="choose-a-data-integration-technology"></a>Elegir una tecnología de integración de datos
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tema proporciona información para la integración con datos administrados por Dynamics 365 Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
 
@@ -129,7 +132,7 @@ Los proyectos de Data Integrator son apropiados para integraciones por lotes de 
 
 ### <a name="power-query"></a>Power Query
 
-El integrador de datos es compatible con [Power Query](/power-query/power-query-what-is-power-query) a través de su [Función de consulta avanzada](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query proporciona filtros y transformación de datos potentes y flexibles, incluido el rico lenguaje de fórmulas M. Power Query probablemente le sea familiar si ha desarrollado informes Power BI.
+El integrador de datos es compatible con [Power Query](/power-query/power-query-what-is-power-query) a través de su [función de consulta avanzada](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query proporciona filtros y transformación de datos potentes y flexibles, incluido el rico lenguaje de fórmulas M. Power Query probablemente le sea familiar si ha desarrollado informes de Power BI.
 
 ## <a name="deciding-on-an-integration-technology"></a>Decidir sobre una tecnología de integración
 

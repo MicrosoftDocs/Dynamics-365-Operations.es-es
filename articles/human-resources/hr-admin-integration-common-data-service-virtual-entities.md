@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414673"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069155"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources es una fuente de datos virtual en Microsoft Dataverse. Proporciona operaciones completas de creación, lectura, actualización y eliminación (CRUD) de Dataverse y Microsoft Power Platform. Los datos de las tablas virtuales no se almacenan en Dataverse, sino en la base de datos de la aplicación.
 
@@ -119,10 +122,10 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 
 4. En el **Centro de estado de la solución**, selecciona el icono **Búsqueda avanzada** en la parte superior derecha de la página de la aplicación.
 
-5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de orígenes de datos virtuales de Finance and Operations**.
+5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de fuentes de datos virtuales de Finance and Operations**.
 
    > [!NOTE]
-   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de orígenes de datos virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
+   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de datos de origen virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
 
 6. Seleccione **Resultados**.
 

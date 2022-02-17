@@ -2,7 +2,7 @@
 title: Configuración de cuadrículas de compensación
 description: Las cuadrículas de compensación se usan para definir y mantener las estructuras de pagos para los planes de compensación fija.
 author: twheeloc
-ms.date: 08/25/2021
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e6aabf5c05b2a7a5d2b37b43c9a7e93ea6e9bbb
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 51b98320eac539e49787d352f32683efadc11f41
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483826"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071515"
 ---
 # <a name="set-up-compensation-grids"></a>Configuración de cuadrículas de compensación
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,28 +70,16 @@ Las cuadrículas de compensación se usan para definir y mantener las estructura
 7. En el campo **Tipo de ajuste**, seleccione una opción.
 8. En el campo **Importe del ajuste**, escriba un número.
 9. En la lista, busque y seleccione el registro deseado.
-10. En la lista, busque y seleccione el registro deseado.
-11. En la lista, busque y seleccione el registro deseado.
-12. En la lista, busque y seleccione el registro deseado.
-13. Haga clic en **Aplicar a la cuadrícula**.
-14. En la lista, busque y seleccione el registro deseado.
-15. En la lista, busque y seleccione el registro deseado.
-16. En la lista, busque y seleccione el registro deseado.
-17. Haga clic en **Aplicar a la cuadrícula**.
-18. En la lista, busque y seleccione el registro deseado.
-19. En la lista, busque y seleccione el registro deseado.
-20. Haga clic en **Aplicar a la cuadrícula**.
-21. En la lista, busque y seleccione el registro deseado.
-22. Haga clic en Aplicar a la cuadrícula.
+10. Haga clic en **Aplicar a la cuadrícula**.
     * Ahora utilizaremos la función de cambio masivo para ajustar los puntos de referencia mínimo y máximo para cada nivel. Este ejemplo utilizará una propagación del 50 % de manera que el punto de referencia mínimo se ajustará un -20 % y el máximo se ajustará un +20 %.  
-23. En el campo **Importe del ajuste**, escriba un número.
-24. En el campo **Punto de referencia**, especifique o seleccione un valor.
-25. En la lista, active o desactive todas las filas.
-26. Haga clic en **Aplicar a la cuadrícula**.
-27. En el campo **Importe del ajuste**, escriba un número.
-28. En el campo **Punto de referencia**, especifique o seleccione un valor.
-29. En la lista, active o desactive todas las filas.
-30. Haga clic en **Aplicar a la cuadrícula**.
+11. En el campo **Importe del ajuste**, escriba un número.
+12. En el campo **Punto de referencia**, especifique o seleccione un valor.
+13. En la lista, active o desactive todas las filas.
+14. Haga clic en **Aplicar a la cuadrícula**.
+15. En el campo **Importe del ajuste**, escriba un número.
+16. En el campo **Punto de referencia**, especifique o seleccione un valor.
+17. En la lista, active o desactive todas las filas.
+18. Haga clic en **Aplicar a la cuadrícula**.
 
 
 

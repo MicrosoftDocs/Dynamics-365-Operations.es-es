@@ -2,7 +2,7 @@
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
 description: Este tema explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488123"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074800"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
 [!include[banner](../includes/banner.md)]
 
-Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](general-electronic-reporting.md#FormatComponentOutbound) configurado y [asignación de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se ejecuta una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, la comprobación proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
+Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](er-overview-components.md#format-components-for-outgoing-electronic-documents) configurado y [asignación de modelos](er-overview-components.md#model-mapping-component) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se ejecuta una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, la comprobación proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
 
 De forma predeterminada, la validación se aplica automáticamente en los siguientes casos para una configuración de ER que contiene los componentes de ER mencionados anteriormente:
 
@@ -236,6 +236,15 @@ La tabla siguiente proporciona información general de las inspecciones que prop
 <td>Error</td>
 <td>Hay más de dos componentes de rango sin replicación. Elimine los componentes innecesarios.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Ejecutabilidad de una expresión con función ORDERBY</a></td>
+<td>Ejecutabilidad</td>
+<td>Error</td>
+<td>
+<p>La expresión de lista de la función ORDERBY no es consultable.</p>
+<p><b>Error de runtime:</b> No se admite la ordenación. Valide la configuración para obtener más detalles sobre esto.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 8. Nombre el nuevo campo anidado **$AccNumber** y configúrelo para que contenga la expresión `TRIM(Vendor.AccountNum)`.
 9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión `FILTER(Vendor, Vendor.AccountNum="US-101")` en el origen de datos **Proveedor** pueda consultarse en el origen de datos.
 
-    ![Verificar que la expresión se puede consultar en la página Diseñador de asignación de modelos.](./media/er-components-inspections-04.gif)
+    ![Verificación de que la expresión que tiene la función FILTER se puede consultar en la página Diseñador de asignación de modelos.](./media/er-components-inspections-04.gif)
 
 10. Observe que se produce un error de validación, porque el origen de datos **Proveedor** contiene un campo anidado del tipo **Campo calculado** que no permite la expresión del origen de datos **FilteredVendor** se traduzca a la instrucción SQL directa.
 
@@ -671,19 +680,19 @@ La siguiente ilustración muestra el error de runtime que se produce si ignora l
 
 ![Error de runtime que ocurre durante la ejecución de asignación de formato en la página Diseñador de formato.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Resolución automática
+### <a name="automatic-resolution"></a>Resolución automática
 
 No hay ninguna opción disponible para solucionar este problema automáticamente.
 
-### <a name=&quot;manual-resolution&quot;></a>Resolución manual
+### <a name="manual-resolution"></a>Resolución manual
 
-#### <a name=&quot;option-1&quot;></a>Opción 1
+#### <a name="option-1"></a>Opción 1
 
 Eliminar la etiqueta **Caché** del origen de datos **Proveedor**. El origen de datos **FilteredVendor** se volverá ejecutable, pero el origen de datos **Proveedor** al que se hace referencia en la tabla VendTable se accederá cada vez que se llame al origen de datos **FilteredVendor**.
 
-#### <a name=&quot;option-2&quot;></a>Opción 2
+#### <a name="option-2"></a>Opción 2
 
-Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. En este caso, el origen de datos **Proveedor** al que se referencia en la tabla VendTable se accederá solo durante la primera llamada al origen de datos **Proveedor**. Sin embargo, la selección de registros se hará en memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
+Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum="US-101")` a `WHERE(Vendor, Vendor.AccountNum="US-101")`. En este caso, el origen de datos **Proveedor** al que se referencia en la tabla VendTable se accederá solo durante la primera llamada al origen de datos **Proveedor**. Sin embargo, la selección de registros se hará en memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Falta enlace
 
@@ -892,6 +901,47 @@ No hay ninguna opción disponible para solucionar este problema automáticamente
 #### <a name="option-1"></a>Opción 1
 
 Modifique el formato configurado cambiando la propiedad **Dirección de replicación** para todos los componentes **Excel\\Rango** incoherentes.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Ejecutabilidad de una expresión con función ORDERBY
+
+La función de ER incorporada [ORDERBY](er-functions-list-orderby.md) se utiliza para ordenar los registros de una fuente de datos ER del tipo **[Lista de registros](er-formula-supported-data-types-composite.md#record-list)** que se especifica como argumento de la función.
+
+Los argumetnos de la función `ORDERBY` se pueden [especificar](er-functions-list-orderby.md#syntax-2) para ordenar los registros de las tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada a la base de datos para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada.
+
+ER comprueba si se puede establecer una consulta de base de datos directa a una fuente de datos a la que se hace referencia en la función `ORDERBY`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que la expresión ER que incluye la función `ORDERBY` no se puede ejecutar en runtime.
+
+Los siguientes pasos muestran cómo puede ocurrir este problema.
+
+1. Comience a configurar el componente de asignación del modelo ER.
+2. Agregue un origen de datos del tipo **Dynamics 365 for Operations \\ Registros de tabla**.
+3. Asigne un origen de datos nuevo **Proveedor**. En el campo **Tabla**, seleccione **VendTable** para especificar que este origen de datos solicitará la tabla **VendTable**.
+4. Agregue un origen de datos del tipo **Campo calculado**.
+5. Nombre el nuevo origen de datos **OrderedVendors** y configúrelo para que contenga la expresión `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Configurar orígenes de datos en la página del diseñador de asignación de modelo.](./media/er-components-inspections-18-1.png)
+
+6. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión en el origen de datos **OrderedVendors** pueda consultarse en el origen de datos.
+7. Modifique el origen de datos **Proveedor** agregando un campo anidado del tipo **Campo calculado** para obtener el número de cuenta de proveedor recortado.
+8. Nombre el nuevo campo anidado **$AccNumber** y configúrelo para que contenga la expresión `TRIM(Vendor.AccountNum)`.
+9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión en el origen de datos **Proveedor** pueda consultarse en el origen de datos.
+
+    ![Verificar que la expresión en el origen de datos de proveedores se puede consultar en la página Diseñador de asignación de modelos.](./media/er-components-inspections-18-2.png)
+
+10. Observe que se produce un error de validación, porque el origen de datos **Proveedor** contiene un campo anidado del tipo **Campo calculado** que no permite la expresión del origen de datos **OrderedVendors** se traduzca a la instrucción de base de datos directa. El mismo error ocurre en tiempo de ejecución si ignora el error de validación y selecciona **Ejecutar** para ejecutar este mapeo de modelo.
+
+### <a name="automatic-resolution"></a>Resolución automática
+
+No hay ninguna opción disponible para solucionar este problema automáticamente.
+
+### <a name="manual-resolution"></a>Resolución manual
+
+#### <a name="option-1"></a>Opción 1
+
+En lugar de agregar un campo anidado del tipo **Campo calculado** al origen de datos **Proveedor** datos, agregue el campo anidado **$AccNumber** al origen de datos **FilteredVendors** y configúrelo para que contenga la expresión `TRIM(FilteredVendor.AccountNum)`. De esta manera, la expresión `ORDERBY("Query", Vendor, Vendor.AccountNum)` se puede ejecutar en el nivel de base de datos y el cálculo del campo anidado **$AccNumber** se puede hacer después.
+
+#### <a name="option-2"></a>Opción 2
+
+Cambiar la expresión del origen de datos **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` a `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. No recomendamos que cambie la expresión para una tabla que tiene un gran volumen de datos (tabla transaccional), porque todos los registros se recuperarán y la ordenación de los registros necesarios se realizará en la memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

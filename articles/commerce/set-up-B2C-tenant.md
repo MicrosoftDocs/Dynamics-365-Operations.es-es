@@ -2,7 +2,7 @@
 title: Configurar un inquilino B2C en Commerce
 description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952453"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092468"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -109,7 +109,7 @@ Para crear la aplicación B2C, siga estos pasos.
 1. Para **Redirigir URI**, introduzca sus URL de respuesta dedicadas como tipo **Web**. Para obtener información sobre las URL de respuesta y qué formato aplicarles, consulte [Direcciones URL de respuesta](#reply-urls) a continuación. Se debe ingresar un URI de redirección/URL de respuesta para habilitar las redirecciones desde Azure AD B2C vuelve a su sitio cuando un usuario se autentica. La URL de respuesta se puede agregar durante el proceso de registro o se puede agregar más tarde seleccionando el enlace **Agregar un URI de redirección** desde el menú **Descripción general** en la sección **Descripción general** aplicación B2C.
 1. Para **Permisos**, seleccione **Otorgar consentimiento del administrador a los permisos openid y offline_access**.
 1. Seleccione **Registrar**.
-1. Seleccione la aplicación recién creada y navegue hasta el menú **Permisos API**. 
+1. Seleccione la aplicación recién creada y navegue hasta el menú **Autenticación**. 
 1. Si se introduce una URL de respuesta, en **Concesión implícita y flujos híbridos** seleccione las dos opciones **Tokens de acceso** y **Tokens de identificación** para habilitarlas para la aplicación y, a continuación, seleccione **Guardar**. Si no se ingresó una URL de respuesta durante el registro, también se puede agregar en esta página seleccionando **Agregar una plataforma**, seleccionando **Web** y luego introduciendo el URI de redirección de la aplicación. La sección **Concesión implícita y flujos híbridos** estará disponible para seleccionar las dos opciones **Tokens de acceso** y **Tokens de identificación**.
 1. Vaya al menú **Visión general** menú de Azure Portal y copie el **ID de aplicación (cliente)**. Anote esta ID para los pasos de configuración posteriores (a la que se hace referencia más adelante como **GUID del cliente**).
 
@@ -309,19 +309,15 @@ Una vez configurado el inquilino de Azure AD B2C, debe configurar el inquilino d
 
 Para recopilar la información de la aplicación necesaria, siga estos pasos.
 
-1. En el portal de Azure, vaya a **Inicio \> Azure AD B2C - Aplicaciones**.
-1. Seleccione la aplicación y, a continuación, en el panel de navegación izquierdo, seleccione **Propiedades** para obtener los detalles de la aplicación.
-1. En el cuadro **Id. de aplicación**, recopile el Id. de la aplicación B2C creada en el inquilino de B2C. Posteriormente, este identificador se introducirá como **GUID de cliente** en el generador de sitios.
-1. En **URL de respuesta**, recopile la dirección URL de respuesta.
-1. Vaya a **Inicio \> Azure AD B2C - Flujos de usuario (directivas)** y, a continuación, recopile los nombres de cada directiva de flujo de usuario.
+1. En el portal de Azure, vaya a **Inicio \> Azure AD B2C - Registros de aplicaciones**.
+1. Seleccione la aplicación y, a continuación, en el panel de navegación izquierdo, seleccione **Información general** para obtener los detalles de la aplicación.
+1. En la referencia **Id. de (cliente de) aplicación**, recopile el Id. de la aplicación B2C creada en el inquilino de B2C. Posteriormente, este identificador se introducirá como **GUID de cliente** en el generador de sitios.
+1. Seleccione **URI de redirección** y recopile la URL de respuesta que se muestra para su sitio (la URL de respuesta ingresada en la configuración).
+1. Vaya a **Inicio \> Azure AD B2C - Flujos de usuario (directivas)** y, a continuación, recopile los nombres completos de cada directiva de flujo de usuario.
 
-La siguiente imagen muestra un ejemplo de la página **Azure AD B2C - Aplicaciones**.
+La siguiente imagen muestra un ejemplo de la página de información general **Azure AD B2C - Registros de aplicaciones**.
 
-![Ir a la aplicación B2C en el inquilino.](./media/B2CImage_19.png)
-
-La siguiente imagen muestra un ejemplo de la página **Propiedades** de una aplicación en Azure AD B2C. 
-
-![Copiar el id. de aplicación desde la página Propiedades de la aplicación B2C.](./media/B2CImage_21.png)
+![Azure AD B2C: página de resumen de registros de aplicaciones con el ID de la aplicación (cliente) resaltado](./media/ClientGUID_Application_AzurePortal.png)
 
 La siguiente imagen muestra un ejemplo de directivas de flujo de usuario en la página **Azure AD B2C - Flujos de usuarios (directivas)**.
 

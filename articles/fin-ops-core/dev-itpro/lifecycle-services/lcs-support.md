@@ -1,6 +1,6 @@
 ---
 title: Obtener soporte para aplicaciones de Finance and Operations o Lifecycle Services (LCS)
-description: Este tema explica cómo obtener ayuda con las aplicaciones de Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS).
+description: Este tema explica cómo obtener ayuda con las aplicaciones Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e697c574efb0b04db6cb04d01c41066a0ac3974
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713343"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068043"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtener soporte para aplicaciones de Finance and Operations o Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtener soporte técnico para las aplicaciones Finance and Operations o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo obtener ayuda con las aplicaciones de Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS). 
+
+[!INCLUDE [PEAP](../../../includes/peap-2.md)]
+
+Este tema explica cómo obtener ayuda con las aplicaciones Finance and Operations o Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>

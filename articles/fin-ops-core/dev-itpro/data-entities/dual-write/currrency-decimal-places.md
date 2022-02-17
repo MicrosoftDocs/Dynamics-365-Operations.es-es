@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
-ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "7917739"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061845"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Puede aumentar el número de lugares decimales admitidos para valores de divisa a un máximo de 10. El límite predeterminado es cuatro decimales. Al aumentar el número de lugares decimales, ayuda a evitar la pérdida de datos cuando utiliza la escritura dual para sincronizar datos. El aumento del número de decimales es un cambio opcional. Para implementarlo, debe solicitar asistencia de Microsoft.
 
@@ -29,7 +29,7 @@ El proceso de cambiar el número de lugares decimales tiene dos pasos:
 1. Solicite la migración de Microsoft.
 2. Cambiar el número de decimales en Dataverse.
 
-La aplicación Finance and Operations y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
+La aplicación de Finanzas y operaciones y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
 
 La migración es opcional. Si puede beneficiarse de la compatibilidad para más decimales, le recomendamos que considere la migración. Las organizaciones que no requieren valores con más de cuatro decimales no tienen que migrar.
 
@@ -37,7 +37,7 @@ La migración es opcional. Si puede beneficiarse de la compatibilidad para más 
 
 El almacenamiento para columnas de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevas columnas internas en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Las columnas de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
 
-Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación Finance and Operations y Dataverse.
+Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación de Finanzas y operaciones y Dataverse.
 
 La migración no cambia ningún dato. Después de convertir las columnas de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para las columnas de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
 

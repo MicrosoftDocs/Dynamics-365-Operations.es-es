@@ -2,7 +2,7 @@
 title: Agregar una página de sitio nueva
 description: En este tema se describe cómo agregar una página de sitio nueva en Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725395"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090728"
 ---
 # <a name="add-a-new-site-page"></a>Agregar una página de sitio nueva
 
@@ -33,11 +33,11 @@ Una vez que ha creado las plantillas y los fragmentos para su sitio, el paso sig
 
 Puede usar una plantilla o un diseño para su nueva página. Para obtener más información, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Nombre de página
+## <a name="specify-the-page-name"></a>Especificar el nombre de la página
 
-El nombre de la página debe ser único para la página. Debe ser descriptivo, de modo que pueda encontrarlo fácilmente y otras entidades sepan para qué está pensada la página. Elija el nombre de la página cuidadosamente porque no se podrá cambiar posteriormente.
+El nombre de la página debe ser único n el sitio y debe ser descriptivo, de modo que pueda encontrarlo fácilmente y otras entidades sepan para qué está pensada la página. Puede cambiar el nombre de su página más tarde editándola y luego seleccionando el símbolo de pluma junto al nombre de la página en el panel de propiedades.
 
-## <a name="page-url"></a>URL de página
+## <a name="specify-the-page-url"></a>Especificar la URL de la página
 
 Puede tener la opción de especificar una dirección URL para la nueva página. Al crear una página, puede especificar una cadena que se usará para formar una dirección URL completa. Esta cadena se conoce como dirección URL relativa o slug de URL. Una URL completa se genera entonces en función del slug de URL y se le asigna la nueva página. Puede cambiar el slug de URL más tarde, antes de publicar la página. Para obtener más información, consulte [Crear una URL de página](create-page-URL.md).
 

@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484105"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071579"
 ---
 # <a name="process-compensation"></a>Procesar compensaciones
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Una vez que los parámetros del evento de proceso se han guardado, puede hacer c
 
 Haga clic en el botón **Añadir** de la pestaña **Planes** para agregar un plan de compensación al evento de proceso. Las columnas **Utilizar otro endeudamiento**, **Factor de endeudamiento** y **Descripción del endeudamiento** se usan únicamente para los planes de compensación variable y no se van a tratar en este tema.
 
-Guarde el registro, haga clic en el botón **Añadir** de la pestaña **Acciones** para agregar las acciones de compensación fija al plan seleccionado. Utilice la opción **Habilitar recomendaciones** para especificar un importe distinto del incremento calculado para la acción. Para calcular una acción que se basa en el resultado de la acción anterior para vincular varias acciones de compensación, marque la opción **Usar resultado anterior**. Las acciones de compensación fija son tipos de lógica de compensación a los que puede dar nombres descriptivos. Para los planes de categoría y de banda, sólo puede agregar acciones de compensación fija de los siguientes tipos:
+Guarde el registro, haga clic en el botón **Añadir** de la pestaña **Acciones** para agregar las acciones de compensación fija al plan seleccionado. Utilice la opción **Habilitar recomendaciones** para especificar un importe distinto del incremento calculado para la acción. Para calcular una acción que se basa en el resultado de la acción anterior para vincular varias acciones de compensación, marque la opción **Usar resultado anterior**. Las acciones de compensación fija son tipos de lógica de compensación a los que puede dar nombres descriptivos. Para los planes de **categoría** y de **banda**, sólo puede agregar acciones de compensación fija de los siguientes tipos:
 
-| Tipo de acción de compensación fija | Funcionalidad                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo de acción de compensación fija | Funcionalidad                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Recursos propios                        | Las acciones de recursos propios comparan el índice de pago del empleado en la fecha final del ciclo con el punto de referencia más bajo para el nivel indicado en el trabajo del empleado. Si el índice de pago del empleado es inferior al punto de referencia mínimo, el aumento necesario para llevar al empleado al punto mínimo del intervalo será calculado.                                                                                |
 | Méritos                         | Las acciones de mérito calcularán un aumento basado en el índice de pago del empleado en la fecha final del ciclo y el porcentaje de aumento perteneciente al presupuesto de incremento fijo para el departamento, el sindicato y la ubicación del empleado.                                                                                                                                                                                         |
 | General                       | Las acciones generales calcularán un aumento basándose en un porcentaje o dando a los empleados un importe fijo. Esto se determina en función de la configuración **Compensación fija** en la ficha **General**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Guarde el registro, haga clic en el botón **Añadir** de la pestaña **Acciones
 
 Puede agregar sólo acciones de **Compensación fija** con un tipo de plan Paso a paso.
 
-| Tipo de acción de compensación fija | Funcionalidad                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo de acción de compensación fija | Funcionalidad                |
+|--------------------------------|------------------------------|
 | Paso                           | En la pestaña **General**, indique si esta acción de Paso debe hacer avanzar a los empleados 0, 1 o 2 pasos.                                                                                  |
 |                                | **0 pasos**: el empleado recibirá la tasa de pago del paso actual donde se encuentre.                                                                                                                      |
 |                                | **1 paso**: el sistema comprobará si el empleado ya está en el último punto de referencia de su nivel.                                                                                             |
-|                                | **2 pasos**: el sistema avanzará al empleado dos pasos en su nivel actual. Puede que el sistema sólo mueva al empleado uno o cero pasos si alcanza el último punto de referencia de su nivel. |
+|                                | **2 pasos**: el empleado avanzará al empleado dos pasos en su nivel actual. El empleado podría mover sólo al empleado uno o cero pasos si alcanza el último punto de referencia de su nivel. |
 
 ## <a name="run-the-compensation-process"></a>Ejecutar el proceso de compensación
 Una vez que el evento de proceso se haya configurado con los campos de fecha, los planes y las acciones necesarios, puede hacer clic en **Ejecutar proceso** en la página **Evento de proceso**, lo que abre el cuadro de diálogo **Ejecutar eventos de proceso de compensación**. Haga clic en la opción **Mostrar resultados de procesamiento** para ver cómo se calcularon los importes de la compensación de cada empleado. Al hacer clic en **Aceptar** se ejecuta el proceso de compensación para todos los empleados cuyos planes de compensación se encuentren en la fecha final del ciclo.

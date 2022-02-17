@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647569"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075509"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funciones ER de la categoría de texto.
 
@@ -35,6 +35,7 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 | [Concatenar](er-functions-text-concatenate.md) | Esta función devuelve todas las cadenas de texto especificadas como un valor *Cadena* después de que se hayan unido en una cadena. |
 | [Formato](er-functions-text-format.md) | Esta función devuelve la cadena especificada un valor *Cadena* tras haber sido formateado sustituyendo cualquier aparición de **%N** con el argumento *N*. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Esta función busca un valor específico *Enum* en el origen de datos de enumeración especificado utilizando el nombre de enumeración que se especifica como valor *Cadena*. Si el valor *Enum* se encuentra, la función lo devuelve. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Esta función busca una etiqueta específica para devolver un valor de *[cadena](er-formula-supported-data-types-primitive.md#string)* que representa la traducción de la etiqueta especificada en el idioma especificado. |
 | [GuidValue](er-functions-text-guidvalue.md) | Esta función convierte la entrada especificada del tipo *Cadena* a un elemento de datos del tipo *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Esta función analiza los datos en formato JavaScript Object Notation (JSON) a los que se accede por la ruta especificada y extrae un valor scalar que se basa en el Id. especificado. Luego devuelve el valor escalar extraído como valor *Cadena*. |
 | [Izquierdo](er-functions-text-left.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres desde el inicio de la cadena especificada. |

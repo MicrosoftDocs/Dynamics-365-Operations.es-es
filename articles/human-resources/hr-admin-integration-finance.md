@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba984d26c5c0b1376c0ad85e5c0665da004a46a5
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414697"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065025"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar la integración con Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Para integrar Dynamics 365 Human Resources con Dynamics 365 Finance, puede usar la plantilla Human Resources a Finance en [Integrador de datos](/powerapps/administrator/data-integrator). La plantilla de Human Resources a Finance permite el flujo de datos para trabajos, puestos y trabajadores. La plantilla permite que los datos fluyan de Human Resources a Finance, pero no permite que los datos fluyan de Finance a Human Resources.
 

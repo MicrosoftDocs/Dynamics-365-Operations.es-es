@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431471"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071508"
 ---
 # <a name="edit-personal-information"></a>Editar información personal
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Los parámetros establecidos en la página **Parámetros de libreta de direccion
     - Para agregar un número de identificación, seleccione **Nuevo**. Complete los campos según sea necesario y seleccione **Guardar**.
     - Para editar un número, seleccione **Editar**. Edite los campos según sea necesario y seleccione **Guardar**.
 
-7. Para cambiar los métodos por los cuales le pagan, seleccione la pestaña **Mi informacion de pago**. Esta pestaña solo está disponible si los métodos de pago están habilitados en el formulario **Parámetros de recursos humanos**. HR puede habilitar **Giro bancario**, **Efectivo**, **Cheque**, **Pago electrónico** u **Otro**. HR también puede deshabilitar la validación de pagos electrónicos (utilizada para la nómina de EE. UU.) y la validación de la cuenta bancaria y el número de ruta.
+7. Para cambiar los métodos por los cuales le pagan, seleccione la pestaña **Mi informacion de pago**. Esta pestaña solo está disponible si los métodos de pago están habilitados en la página **Parámetros de recursos humanos**. HR puede habilitar **Giro bancario**, **Efectivo**, **Cheque**, **Pago electrónico** u **Otro**. HR también puede deshabilitar la validación de pagos electrónicos (utilizada para la nómina de EE. UU.) y la validación de la cuenta bancaria y el número de ruta.
 
 8. Para cambiar la imagen que se muestra en Human Resources para su perfil, seleccione la pestaña **Imagen**. Dependiendo de la configuración de su organización, las imágenes pueden enrutarse para su aprobación.
 

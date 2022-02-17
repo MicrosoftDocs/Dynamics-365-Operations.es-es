@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431134"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071531"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definición del proceso de compensación y el cálculo de resultados
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Los procesos de compensación se usan para determinar nuevas concesiones e impor
     * La fecha activa de la transacción es la fecha en que las nuevas cuotas de compensación deben surtir efecto. Muchas empresas incluyen algunos meses entre su final de un ciclo y el tiempo en que las nuevas cuotas de compensación entran en vigor. El tiempo adicional se usa para procesar y revisar la nueva compensación.  
 8. En el campo **Fecha de activación de transacción**, especifique una fecha.
     * La fecha de referencia se usa para los planes de compensación variable que determinan el importe de la prima de un empleado basado en su índice de compensación en este momento.  
-    * La fecha de contratación prorrateada fija se usa con los planes de compensación fija con una regla de contratación de porcentaje.  Los empleados contratados entre el inicio del ciclo y la fecha de contratación prorrateada fija recibirán el 100 % de su incremento de compensación calculado, en lugar del porcentaje prorrateado.  
+    * La fecha de contratación prorrateada fija se usa con los planes de compensación fija con una regla de contratación de **porcentaje**. Los empleados contratados entre el inicio del ciclo y la fecha de contratación prorrateada fija recibirán el 100 % de su incremento de compensación calculado, en lugar del porcentaje prorrateado.  
 9. En el campo **Fecha de contratación prorrateada fija**, especifique una fecha.
     * El plazo de revisión es la fecha límite en la que todos los resultados de procesos deben revisarse para que se puedan cargar en el registro de compensación de un empleado antes de la fecha activa de la transacción. Este campo es únicamente informativo.  
 10. En el campo **Revisar fecha límite**, escriba una fecha.
 11. Haga clic en **Guardar**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurar las acciones y los planes de compensación para un proceso de compensación
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Configurar las acciones y los planes de compensación para un proceso de compensación
 1. Haga clic en **Configurar**.
     * La página **Configuración** se usa para seleccionar qué planes procesar como parte de este proceso de compensación, además de las acciones que se deben realizar con cada plan.  
 2. En el campo **Plan**, especifique o seleccione un valor.
@@ -56,7 +59,7 @@ Los procesos de compensación se usan para determinar nuevas concesiones e impor
 6. Haga clic en **Agregar**.
 7. En el campo **Acción**, seleccione un tipo de acción **Méritos**.
     * Las acciones de compensación se pueden “encadenar” de manera conjunta con el campo **Utilizar resultado anterior** para indicar si la acción seleccionada debe usar el pago base de los empleados o el resultado de la acción anterior como punto de partida para el cálculo de esta acción.  
-8. Seleccione **Sí** en el campo Utilizar resultado anterior.
+8. Seleccione **Sí** en el campo **Utilizar resultado anterior**.
 9. Haga clic en **Agregar**.
 10. En el campo **Acción**, seleccione un tipo de acción **General**.
     * Distintos tipos de acción de compensación habilitan diferentes campos. Para un tipo de acción de compensación general, se puede especificar un importe o un porcentaje de incremento.  
@@ -85,7 +88,7 @@ Los procesos de compensación se usan para determinar nuevas concesiones e impor
 1. Haga clic en **Procesar resultados**.
 2. Haga clic en **Resultados de empleados**.
 3. En la lista, busque y seleccione el registro deseado.
-4. Expanda la sección Compensación fija.
+4. Expanda la sección **Compensación fija**.
     * Expanda las fichas desplegables para ver los resultados del proceso. Si **Habilitar recomendaciones** se marcó para una acción de compensación, los campos **Recomendación** se habilitarán para esa acción.  
 5. En la lista, busque y seleccione el registro deseado.
     * Los resultados para un empleado único se pueden ver haciendo clic en el botón **Ver resultados**.  

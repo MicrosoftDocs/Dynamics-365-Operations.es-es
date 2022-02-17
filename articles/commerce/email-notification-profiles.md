@@ -2,7 +2,7 @@
 title: Configurar un perfil de notificación por correo electrónico
 description: Este tema describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771040"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087876"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificación por correo electrónico
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771040"
 
 Este tema describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
 
-Cuando crea canales, puede configurar un perfil de notificación por correo electrónico. De esa manera, se pueden enviar correos electrónicos a los clientes para varios eventos transaccionales, como creación de pedidos, estado de envío de pedidos y fallos de pago.
+Cuando crea canales, puede configurar un perfil de notificación por correo electrónico. El perfil de notificación por correo electrónico define los eventos de una transacción de ventas (como eventos de pedido creado, pedido empaquetado y pedido facturado) para los cuales enviará notificaciones a sus clientes. 
 
 Para obtener más información sobre cómo configurar el correo electrónico, consulte [Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ Para crear un perfil de notificación por correo electrónico, siga estos pasos.
 
 ### <a name="create-an-email-template"></a>Crear una plantilla de correo electrónico
 
-Antes de que se pueda habilitar un tipo de notificación por correo electrónico, debe crear una plantilla de correo electrónico de la organización en la sede de Commerce. Esta plantilla define el asunto del correo electrónico, el remitente, el idioma predeterminado y el cuerpo del correo electrónico para cada idioma que desea admitir.
+Antes de que se pueda habilitar un tipo de notificación por correo electrónico, debe crear una plantilla de correo electrónico de la organización en la sede de Commerce para cada tipo de notificación que desee admitir. Esta plantilla define el asunto del correo electrónico, el remitente, el idioma predeterminado y el cuerpo del correo electrónico para cada idioma admitido.
 
 Para crear una plantilla de correo electrónico, siga estos pasos:
 
@@ -61,6 +61,8 @@ La siguiente imagen muestra algunos ejemplos de configuración de plantillas de 
 
 ![Configuración de plantilla de correo electrónico.](media/email-template.png)
 
+Para obtener más información sobre cómo crear plantillas de correo electrónico, consulte [Crear plantillas de correo electrónico para eventos transaccionales](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Crear un evento de correo electrónico
 
 Para crear un evento de correo electrónico, siga estos pasos:
@@ -76,10 +78,12 @@ La siguiente imagen muestra algunos ejemplos de configuración de notificaciones
 
 ![Configuración de notificación de evento.](media/email-notification-profile.png)
 
+> [!NOTE]
+> El tipo de notificación creada por el cliente requiere que se implemente una personalización antes de que se pueda enviar una notificación por correo electrónico.
+
 ### <a name="next-steps"></a>Pasos siguientes
 
 Antes de poder enviar correos, debe configurar su servicio de correo saliente y configurar un trabajo por lotes. Para obtener más información, consulte [Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

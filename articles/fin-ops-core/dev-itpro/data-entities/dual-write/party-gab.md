@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781353"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060341"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 *Libreta de direcciones de partes* y *libreta de direcciones global* son conceptos de aplicaciones de Finance and Operations. Una parte puede ser una persona u organización. Es conveniente almacenar y administrar globalmente las propiedades de una parte, como el nombre, el idioma, los contactos y las direcciones. Luego, cuando el valor de una propiedad se cambie en un lugar, el cambio se refleja en todos los lugares donde está involucrada la parte.
 
@@ -142,7 +142,7 @@ Puede usar el botón **Nueva direccion electrónica** de encima de la cuadrícul
 Las direcciones electrónicas están disponibles solo en esta cuadrícula. En versiones futuras, todos los campos de direcciones electrónicas y postales se eliminarán de otras fichas (por ejemplo, las fichas **Resumen** y **Detalles**). Los datos de contacto que se muestran en la ficha **Detalles** son copias de solo lectura de la dirección electrónica principal, como el teléfono principal, el correo electrónico principal, el teléfono principal, el fax principal y el Id. de Twitter principal. Durante el proceso de calificación de clientes potenciales, puede proporcionar tanto un número de teléfono comercial como un número de teléfono móvil. El número de teléfono comercial se considera el teléfono principal si **IsMobile=No** y el número de teléfono móvil se considera el teléfono secundario si **IsMobile=Yes**.
 
 > [!TIP]
-> Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de Finance and Operations.
+> Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de Finanzas y operaciones.
 
 ## <a name="setup"></a>Configurar
 
@@ -296,7 +296,7 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
 + En aplicaciones de Finance and Operations, cuando crea un cliente junto con la dirección y lo guarda, es posible que la dirección no se sincronice con la tabla **Direcciones**. Esto se debe a un problema de secuenciación de la plataforma de escritura dual. Como solución alternativa, cree el cliente primero y guárdelo. Luego agregue la dirección.
-+ En aplicaciones de Finance and Operations, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación Finance and Operations se sincronizan con Dataverse junto con su dirección.
++ En aplicaciones de Finance and Operations, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación Finanzas y operaciones se sincronizan con Dataverse junto con su dirección.
 + Las direcciones electrónicas establecidas en la ficha de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
 + En aplicaciones de Finance and Operations, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
 
@@ -307,4 +307,4 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 
     ![Problema conocido con la dirección.](media/party-gab-address-issue.png)
 
-+ No puede introducir una dirección postal con fecha anticipada usando una aplicación de Finance and Operations con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación Finance and Operations, se sincroniza con Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de Finance and Operations.
++ No puede introducir una dirección postal con fecha anticipada usando una aplicación de Finanzas y operaciones con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación Finanzas y operaciones, se sincroniza con Dataverse Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de Finance and Operations.

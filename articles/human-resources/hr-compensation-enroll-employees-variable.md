@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431323"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071572"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscribir a un empleado en un plan de compensación variable
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-El director de compensaciones y de prestaciones puede inscribir a empleados en los planes de compensación variable para calcular las primas en efectivo y no efectivo para los empleados. Este procedimiento supone que se ha creado un plan de compensación variable con el campo **Habilitar inscripción definido** en Sí, y que se han creado reglas de idoneidad para dicho plan de compensación variable. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Para iniciar este procedimiento, vaya a **Recursos humanos** > **Trabajadores** > **Empleados** > **Compensación** > **Inscripción de plan variable**.
+El director de compensaciones y de prestaciones puede inscribir a empleados en los planes de compensación variable para calcular las primas en efectivo y no efectivo para los empleados. Este procedimiento supone que se ha creado un plan de compensación variable con el campo **Habilitar inscripción** definido en **Sí**, y que se han creado reglas de idoneidad para dicho plan de compensación variable. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Para iniciar este procedimiento, vaya a **Recursos humanos** > **Trabajadores** > **Empleados** > **Compensación** > **Inscripción de plan variable**.
 
 1. Haga clic en **Nuevo**.
 2. En el campo **Plan**, haga clic en el botón desplegable para abrir la búsqueda.
     * La búsqueda del plan se filtrará para mostrar únicamente los planes de compensación variable aptos para el empleado según las reglas de idoneidad.  
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. Expanda la sección General.
+4. Expanda la sección **General**.
 5. En el campo **Fecha de vigencia**, especifique una fecha.
 6. Haga clic en **Guardar**.
 7. Expanda la sección **Anulaciones**.

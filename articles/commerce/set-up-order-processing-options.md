@@ -2,7 +2,7 @@
 title: Configurar canales de centro de llamadas
 description: En este tema se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/06/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5f9afd1b67d6b164facc4dd15a8680866fe8c5b4e4b491d969cda6554eebb1de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750657"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092441"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canales del centro de llamadas
 
@@ -56,6 +56,9 @@ Si está activada la configuración **Habilitar finalización de pedidos** para 
 Además, si está activada la configuración **Habilitar finalización de pedidos**, cuando los usuarios crean pedidos de ventas y están en modo de entrada de artículo de línea, el campo **Origen** estará disponible en el encabezado principal del pedido de ventas. El campo **Origen** se utiliza para capturar un [código fuente del catálogo](/dynamics365/unified-operations/retail/call-center-catalogs) en un escenario de venta de marketing directo. Este código puede generar precios y promociones especiales.
 
 Incluso si está desactivada la configuración **Habilitar finalización de pedidos**, los usuarios todavía pueden aplicar un código fuente a un pedido de ventas. No obstante, primero deben abrir los detalles del encabezado del pedido de ventas para acceder al campo **Origen** . En otras palabras, son necesarios algunos clics adicionales. El mismo comportamiento se aplica a funciones como envío completado y pedidos urgentes. Estas funciones están disponibles para todos los pedidos que se creen en el centro de llamadas. Sin embargo, cuando está activada la configuración **Habilitar finalización de pedidos**, los usuarios pueden ver la configuración de estas funciones en el encabezado de ventas mientras están en la vista de entrada de línea. No tienen que explorar en los detalles del encabezado del pedido de ventas para encontrar la configuración y los campos adecuados.
+
+> [!NOTE]
+> Cuando la función **Pagos de pedidos de comercio omnicanal** está habilitada, el botón del centro de llamadas **Habilitar finalización de pedido** estará oculto en la sede en la ficha desplegable **General** del canal en **Retail y Commerce \> Canales \> Centros de llamadas**.
 
 ### <a name="enable-direct-selling"></a>Habilitar venta directa
 

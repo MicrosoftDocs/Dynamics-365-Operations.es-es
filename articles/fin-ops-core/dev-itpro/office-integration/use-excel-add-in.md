@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592674"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068801"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
 [!include [applies to](../includes/applies-to-commerce-finance-scm.md)]
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
 Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de Finance and Operations.
@@ -38,7 +41,7 @@ Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma
 Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir los datos de entidad en Excel en el inicio desde una aplicación de Finance and Operations
-1. En una página de una aplicación de Finance and Operations, seleccione **Abrir en Microsoft Office**.
+1. En una página de aplicación de Finanzas y operaciones, seleccione **Abrir en Microsoft Office**.
 
     Si el origen de datos raíz (tabla) de la página es el mismo que el origen de datos raíz de cualquier entidad, se generan las opciones **Abrir en Excel** predeterminadas en la página. Las opciones **Abrir en Excel** se pueden encontrar en las páginas utilizadas con frecuencia como, por ejemplo, **Todos los proveedores** y **Todos los clientes**.
  

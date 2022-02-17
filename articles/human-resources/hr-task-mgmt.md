@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 614f37236bbd0239925e37ebf29f59ac006d09cd
-ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
+ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "7948799"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087226"
 ---
 # <a name="task-management"></a>Administración de tareas
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 La administración de tareas le permite crear tareas que deben completarse para contratar (incorporar), despedir (expulsar) y transferir (transición) empleados. La gestión de tareas utiliza el concepto de listas de verificación. Una lista de verificación es una lista de tareas de incorporación, retirada o transición. La gestión de tareas utiliza listas de verificación para agrupar tareas y asignarlas a individuos o grupos. La funcionalidad de la lista de verificación para la incorporación, la retirada y las transiciones es similar.
 

@@ -13,17 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: d56e38edc00780ad16aaafdb501b8f5df49020f2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731694"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075258"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Crear calendarios y generar horarios de trabajo
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
+> [!IMPORTANT]
+> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
 
 
 Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este tema se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.

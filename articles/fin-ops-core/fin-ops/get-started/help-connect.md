@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594866"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071017"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-En este tema, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finance and Operations, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El tema también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+En este tema, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finanzas y operaciones, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El tema también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
-Las aplicaciones de Finance and Operations incluyen descripciones generales conceptuales y otros temas que se publican en el sitio de [Documentación de Microsoft Dynamics 365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
+Las aplicaciones de Finanzas y operaciones incluyen descripciones generales conceptuales y otros temas que se publican en el sitio de [documentación de Microsoft Dynamics 365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
 
 [![Arquitectura de la Ayuda.](./media/help-architecture.png)](./media/help-architecture.png)
 

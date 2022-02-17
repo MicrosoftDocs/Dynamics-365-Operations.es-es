@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732018"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067463"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Optimizar las consultas de tabla virtual de Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Emitir
 
@@ -120,7 +123,7 @@ Si experimenta alguno de los indicios antes mencionados de rendimiento lento al 
    > [!NOTE]
    > Si anteriormente recibió un error de tipo 429 de la consulta antes de la actualización, es posible que deba esperar el período de reintento antes de actualizar la consulta para que se complete correctamente.
 
-10. Hacer clic en **Cerrar y aplicar** en la cinta de acciones del Editor de Power Query.
+10. Hacer clic en **Cerrar y aplicar** en la cinta de acciones de Power Query Editor.
 
 Entonces puede comenzar a construir su informe de Power BI contra las columnas seleccionadas de la tabla virtual.
 

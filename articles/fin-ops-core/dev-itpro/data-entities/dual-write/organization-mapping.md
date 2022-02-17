@@ -1,6 +1,6 @@
 ---
 title: Jerarquía organizativa en Dataverse
-description: Este tema describe la integración de datos organizativos entre aplicaciones de Finance and Operations y Dataverse.
+description: Este tema describe la integración de datos organizatiovs entre aplicaciones de Finance and Operations y Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7ef3a11817d60343503c80d89493262711524b1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782317"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062095"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Jerarquía organizativa en Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Como Dynamics 365 Finance es un sistema financiero, *organización* es un concepto básico y la configuración del sistema empieza con la configuración de una jerarquía organizativa. Los operaciones empresariales se pueden seguir por tanto en el nivel de la organización y también en cualquier nivel de la jerarquía organizativa.
 
@@ -28,11 +28,11 @@ Aunque Dataverse no tenga el concepto de una jerarquía organizativa, tiene algu
 
 ## <a name="data-flow"></a>Flujo de datos
 
-Un ecosistema de negocio que conste de aplicaciones de Finance and Operations y Dataverse seguirá teniendo una jerarquía organizativa. Esta jerarquía organizativa se basa en aplicaciones de Finance and Operations, pero se expone en Dataverse para fines informativos y de extensibilidad. La ilustración siguiente muestra la información de la jerarquía organizativa expuesta en Dataverse como un flujo de datos unidireccional de aplicaciones de Finance and Operations a Dataverse.
+Un ecosistema de negocio que conste de aplicaciones de Finance and Operations y Dataverse seguirá teniendo una jerarquía organizativa. Esta jerarquía organizativa se basa en aplicaciones Finance and Operations pero se expone en Dataverse para fines informativos y de extensibilidad. La ilustración siguiente muestra la información de la jerarquía organizativa expuesta en Dataverse como un flujo de datos unidireccional de aplicaciones de Finance and Operations a Dataverse.
 
 ![Imagen de la arquitectura.](media/dual-write-data-flow.png)
 
-Los mapas de tabla de la jerarquía organizativa están disponibles para la sincronización unidireccional de datos de aplicaciones de Finance and Operations con Dataverse.
+Los mapas de tabla de la jerarquía organizativa están disponibles para la sincronización unidireccional de datos de aplicaciones de Finanzas y operaciones con Dataverse.
 
 ## <a name="templates"></a>Plantillas
 
