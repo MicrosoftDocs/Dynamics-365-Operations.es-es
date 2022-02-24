@@ -1,32 +1,31 @@
 ---
 title: Visión general de bajas y ausencias
-description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias.
-author: twheeloc
-ms.date: 10/28/2021
-ms.topic: overview
+description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069030"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420472"
 ---
 # <a name="leave-and-absence-overview"></a>Visión general de bajas y ausencias
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources le ayuda a proporcionar excelentes prestaciones de baja a sus trabajadores. El espacio de trabajo **Permisos y ausencias** proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos. Los análisis ayudan a su organización a medir y supervisar los saldos de bajas y el uso de sus planes de bajas.
 
@@ -36,8 +35,7 @@ Para poder crear planes de bajas para sus empleados, necesita realizar algunos p
 
 - [Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md)
 - [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)
-- [Crear un flujo de trabajo de solicitud de baja](hr-leave-and-absence-workflow.md)
-- [Configurar el rol de administrador de ausencias](hr-configure-absence-manager.md)
+- [Crear una solicitud de baja de flujo de trabajo](hr-leave-and-absence-workflow.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Crear y administrar planes de bajas
 
@@ -53,10 +51,6 @@ Antes de crear planes de bajas para sus trabajadores, debe crear tipos de permis
 
 Sus empleados pueden enviar solicitudes de tiempo libre y usted puede administrarlas en el espacio de trabajo **Autoservicio para empleados**.
 
-- [Solicitar permiso](hr-employee-self-service-request-time-off.md)
-- [Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
-- [Configurar el rol de administrador de ausencias](hr-configure-absence-manager.md)
+[Solicitar permiso](hr-employee-self-service-request-time-off.md)
+[Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

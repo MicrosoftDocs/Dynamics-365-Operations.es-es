@@ -2,22 +2,25 @@
 title: Clústeres de ubicación
 description: Los grupos de almacenamiento ofrecen una forma de elegir varias placas al mismo tiempo y luego llevarlas a almacenamiento en diferentes ubicaciones. Pueden ser muy útiles para negocios minoristas, donde las placas de matrícula generalmente no son paletas llenas de inventario.
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573018"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512339"
 ---
 # <a name="putaway-clusters"></a>Clústeres de ubicación
 
@@ -228,7 +231,7 @@ Este escenario simula el procesamiento del clúster de almacenamiento.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Reciba y clasifique el inventario en un grupo
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Recibir y ordenar clúster**.
 1. En el campo **Ponum**, introduzca el número de orden de compra.
@@ -270,7 +273,7 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 
 #### <a name="put-the-cluster-away"></a>Guardar el clúster
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Ubicación de clúster**.
 1. Seleccione **ID de clúster** e ingrese el ID de clúster que ingresó anteriormente para el clúster cerrado.
@@ -284,7 +287,7 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 
     Tiene las opciones estándar para anular o aprobar este paso.
 
-    ![Página Ubicación de clúster: ubicación.](media/Cluster_putaway-Put.png "Página Ubicación de clúster: ubicación")
+    ![Página Ubicación de clúster: ubicación](media/Cluster_putaway-Put.png "Página Ubicación de clúster: ubicación")
 
 1. Seleccione **Aceptar** para confirmar la ubicación del clúster.
 
@@ -293,6 +296,3 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 ## <a name="notes-and-tips"></a>Notas y consejos
 
 Para los casos en los que la identificación del grupo se convierte en la placa de matrícula principal de un palé anidado, la posición de colocación se da automáticamente cuando se escanea la identificación del grupo. No se deben escanear más matrículas, incluso si la generación de matrículas está configurada en manual.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

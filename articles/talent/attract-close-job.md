@@ -62,6 +62,3 @@ Puede cerrar un trabajo como **Puesto ocupado** después de que al menos un trab
    > Solo puede cerrar un trabajo como **Puesto ocupado** cuando al menos un trabajador potencial haya completado la etapa de propuesta. Si la solicitud de trabajo no tiene **Propuesta aceptada** seleccionado, o si la solicitud no muestra el estado **Aceptado** en la oferta, la opción **Puesto ocupado** no se mostrará en el desplegable **Motivo**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

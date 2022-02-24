@@ -2,9 +2,11 @@
 title: Configurar y filtrar espacios de trabajo
 description: Este artículo proporciona una visión general sobre cómo configurar y filtrar espacios de trabajo.
 author: jasongre
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace, HcmBenefitWorkspace, BudgetPlanningWorkspace, BusinessProcessGenericWorkspace, RetailCatalogManagementWorkspace, RetailCategoryAndProductWorkspace, RetailChannelManagementWorkspace, HcmCompensationWorkspace, CAMCostAccountingLedgerAdminWorkspace, CostAdminWorkspace, CostAnalysisWorkspace, CAMCostControlWorkspace, CustomerCollectionManagerWorkspace, CustomerInvoiceWorkspace, CustPaymentWorkspace, DataManagementWorkspace, DataValidationWorkspace, ERWorkspace, LedgerPeriodCloseProjectWorkspace, AssetWorkspace, GeneralJournalEntryWorkspace, VendVendorPortalInvoiceWorkspace, BudgetTrackingWorkspace, ReqCreatePlanWorkspace, BusinessProcessGenericOwnerWorkspace, SelfHealingWorkspace, WHSOutboundWorkMonitoringWorkspace, WHSWavePlanningWorkspace, PayrollWorkspace, HcmWorkforceWorkspace, RetailDiscountPricingWorkspace, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, EcoResProductVariantMaintainWorkspace, JmgShopSupervisorWorkspace, ProjProjectManagementWorkspace, VendVendorPortalWorkspace, PurchOrderMaintainWorkspace, PurchOrderProcessReceiptsWorkspace, HcmRecruitmentWorkspace, EcoResProductMaintainWorkspace, FMClerkWorkspace, OpResLifecycleManagementWorkspace, RetailITWorkspace, RetailChannelOperationsWorkspace, RetailStoreManagementWorkspace, SalesOrderProcessingWorkspace, SalesReturnWorkspace, SystemAdministrationWorkspaceForm, VendVendorRequestForQuotationsWorkspace, VendVendorProfileManagementWorkspace, VendInvoiceWorkspace, VendPaymentWorkspace
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 10f7e790fdab3866958af1fa131d25735f69a58c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068743"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798460"
 ---
 # <a name="configure-and-filter-workspaces"></a>Configurar y filtrar espacios de trabajo
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este artículo proporciona una visión general sobre cómo configurar y filtrar espacios de trabajo.
 
@@ -35,11 +34,11 @@ Este artículo proporciona una visión general sobre cómo configurar y filtrar 
 
 Puede cambiar el aspecto y comportamiento de algunos espacios de trabajo actualizando la configuración que se aplica a todo el espacio de trabajo. Cuando se puede configurar un espacio de trabajo, el Panel de acciones incluye un botón que le indica que haga clic en él para realizar los cambios de configuración. Por ejemplo, en la siguiente ilustración, el botón se denomina **Configurar mi espacio de trabajo**.
 
-[![configure-and-filter-workspaces.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![configure-and-filter-workspaces](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Cuando haga clic en el botón, aparecerá un diálogo en el que puede modificar la configuración predefinida para el espacio de trabajo. Los parámetros específicos que ve en este cuadro de diálogo varían con cada espacio de trabajo y dependen de los controles específicos y de los datos empresariales que están disponibles en el espacio de trabajo.
 
-[![configure-my-workspace.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![configure-my-workspace](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Filtrado de un espacio de trabajo
 
@@ -49,11 +48,11 @@ Muchos espacios de trabajo le permiten filtrar el contenido que aparece en ellos
 
 Puede filtrar todo el espacio de trabajo con un filtro de todo el espacio de trabajo. Un filtro de todo el espacio de trabajo aparece en la esquina superior izquierda del espacio de trabajo. Al seleccionar un valor específico en la lista desplegable, el contenido del espacio de trabajo se filtra en función de esa selección.
 
-[![workspace-filter.](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![workspace-filter](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Al hacer clic para abrir el filtro, se le presentarán varias opciones.
 
-[![workspace-filter-expanded.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![workspace-filter-expanded](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Seleccione una opción para filtrar el espacio de trabajo en función de esa opción.
 
@@ -61,9 +60,6 @@ Seleccione una opción para filtrar el espacio de trabajo en función de esa opc
 
 Si las secciones individuales del espacio de trabajo tienen filtros, puede filtrar cada sección por separado. En la siguiente ilustración, el filtro (el campo que contiene el texto "Filtro") es un ejemplo de un filtro del campo de texto en formato libre.
 
-[![workspace-section-filters.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Como un filtro de todo el espacio de trabajo, seleccione o especifique un valor en el campo para filtrar el contenido de la sección.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

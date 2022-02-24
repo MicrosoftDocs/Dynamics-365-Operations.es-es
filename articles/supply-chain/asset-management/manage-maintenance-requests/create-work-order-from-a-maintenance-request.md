@@ -1,10 +1,12 @@
 ---
 title: Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 description: En este tema se explica cómo crear una orden de trabajo a partir de una solicitud de mantenimiento en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726930"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018105"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 
@@ -50,8 +52,5 @@ Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente e
 
 6. Seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, y abra la nueva orden de trabajo.
 
-    ![Abrir nueva orden de trabajo.](media/05-manage-maintenance-requests.png)
+    ![Abrir nueva orden de trabajo](media/05-manage-maintenance-requests.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

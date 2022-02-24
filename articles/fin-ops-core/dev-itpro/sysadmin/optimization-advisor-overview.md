@@ -2,25 +2,28 @@
 title: Visión general del asesor de optimización
 description: Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Finance and Operations.
 author: roxanadiaconu
+manager: AnnBe
 ms.date: 07/23/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e53dbae2d139af554b1918102937f8c3579f64a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984111"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682546"
 ---
 # <a name="optimization-advisor-overview"></a>Visión general de aviso de optimización
 
@@ -91,6 +94,3 @@ Para desactivar la evaluación de reglas específicas, seleccione la oportunidad
 [Crear reglas para el asesor de optimización](./create-rules-optimization-advisor.md)
 
 [Asesor de optimización en Dynamics 365 for Finance and Operations (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

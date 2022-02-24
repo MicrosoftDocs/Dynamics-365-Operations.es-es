@@ -2,9 +2,11 @@
 title: Configurar los pasos de aprobación en un flujo de trabajo
 description: Este tema explica cómo configurar las propiedades de un paso de aprobación.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070786"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797105"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar los pasos de aprobación en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema explica cómo configurar las propiedades de un paso de aprobación.
 
@@ -159,7 +158,7 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
 
     - **Un único aprobador**: la acción que se aplica al documento la determina la primera persona que responde. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue es la primera persona que responde al documento, la acción que ella lleva a cabo se aplica al documento. Si Sue rechaza el documento, se lo rechaza y se lo vuelve a enviar a Sam. Si Sue aprueba el documento, se lo envía a Ann para que lo apruebe.
 
-        ![Flujo de trabajo que tiene un proceso de aprobación.](./media/workflow_multipleusersinstep.gif)
+        ![Flujo de trabajo que tiene un proceso de aprobación](./media/workflow_multipleusersinstep.gif)
 
     - **Mayoría de aprobadores**: la acción que se aplica al documento se determina cuando responde la mayoría de los aprobadores. Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 15.000 USD. En este momento, el informe de gastos está asignado a Sue, Jo y Bill. Si Sue y Jo son las dos primeras aprobadoras en responder, la acción que ellas llevan a cabo se aplica al documento.
 
@@ -277,6 +276,3 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
 
 5. Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6. Si los usuarios de la ruta de remisión a una instancia superior no responden en el tiempo asignado, el sistema realiza una acción en el documento de manera automática. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

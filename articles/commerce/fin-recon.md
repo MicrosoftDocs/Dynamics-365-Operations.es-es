@@ -2,9 +2,11 @@
 title: Conciliación financiera en tiendas minoristas
 description: Este tema describe la conciliación financiera en las tiendas minoristas de PDV para Microsoft Dynamics 365 Commerce.
 author: anpurush
+manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2afe967248136e9b658e1ee18053a54ab3f0d325c088a5eb2e522fac335c01f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752468"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965086"
 ---
-# <a name="financial-reconciliation-in-retail-stores"></a>Conciliación financiera en tiendas
+# <a name="financial-reconciliation-in-retail-stores"></a>Conciliación financiera en tiendas minoristas
 
 [!include [banner](includes/banner.md)]
 
-En Microsoft Dynamics 365 Commerce, versión 10.0.10 y anteriores, la funcionalidad que el cliente de punto de venta (PDV) proporciona para los procesos de fin de día en las tiendas minoristas, permite que los empleados y gerentes de las tiendas realicen las operaciones de fin de día. Por ejemplo, pueden hacer declaraciones de licitación, turnos de cierre a ciegas, conciliar transacciones de turnos y cerrar turnos. Sin embargo, no hay capacidad en PDV para finalizar la información financiera para los turnos, de modo que pueda usarse para publicar los datos financieros en la sede de Commerce. Por lo general, los gerentes de tienda son responsables de completar esta tarea. Antes de que puedan firmar un turno, deben revisar la información, hacer las correcciones necesarias y finalizar los totales de ese turno. Los totales finalizados deben publicarse en módulos financieros en la sede de Commerce.
+En Microsoft Dynamics 365 Commerce versión 10.0.10 y anteriores, la funcionalidad que el cliente de punto de venta (PDV) proporciona para los procesos de fin de día en las tiendas minoristas, permite que los empleados y gerentes de las tiendas realicen las operaciones de fin de día. Por ejemplo, pueden hacer declaraciones de licitación, turnos de cierre a ciegas, conciliar transacciones de turnos y cerrar turnos. Sin embargo, no hay capacidad en PDV para finalizar la información financiera para los turnos, de modo que pueda usarse para publicar los datos financieros en la sede de Commerce. Por lo general, los gerentes de tienda son responsables de completar esta tarea. Antes de que puedan firmar un turno, deben revisar la información, hacer las correcciones necesarias y finalizar los totales de ese turno. Los totales finalizados deben publicarse en módulos financieros en la sede de Commerce.
 
 Además, en Commerce versión 10.0.10 y anteriores, los gerentes de las tiendas pueden revisar y hacer algunos ajustes a las líneas de declaración en la sede de Commerce. Sin embargo, la capacidad es limitada y los gerentes de las tiendas rara vez tienen acceso al cliente de la sede de Commerce. Además, la revisión y el ajuste de los estados financieros minoristas solo se pueden realizar cuando las instrucciones se crean en la sede de Commerce. Sin embargo, ese proceso es típicamente un proceso nocturno. Por lo tanto, los gerentes de las tiendas deben esperar la firma del turno cuando se crean los estados financieros minoristas en la sede de Commerce.
 
@@ -59,6 +61,3 @@ Cuando se utiliza la contabilización de declaraciones de alimentación por gote
 Los detalles de la conciliación financiera para un turno se sincronizan con la sede de Commerce mediante el uso del trabajo P.
 
 Los extractos financieros minoristas en la sede de Commerce no calculan los totales para mostrar los detalles en las líneas de los extractos financieros. En cambio, las cantidades finalizadas en el cliente PDV se utilizan para crear y publicar extractos financieros minoristas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

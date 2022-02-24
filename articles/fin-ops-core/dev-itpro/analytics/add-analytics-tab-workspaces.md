@@ -1,23 +1,25 @@
 ---
 title: Agregar análisis a espacios de trabajo mediante Power BI Embedded
 description: Este tema muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo.
-author: RichdiMSFT
+author: tjvass
+manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760161"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680945"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -27,11 +29,11 @@ ms.locfileid: "6760161"
 > Esta función se admite en Finance and Operations (versión 7.2 y posterior).
 
 ## <a name="introduction"></a>Introducción
-Este tema muestra cómo insertar un informe de Microsoft Power BI en la pestaña **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
+Este tema muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
 
 ## <a name="prerequisites"></a>Requisitos previos
 + Obtenga acceso a un entorno del desarrollador de software que ejecute la actualización de plataforma 8 o posterior.
-+ Informe analítico (archivo .pbix) que se ha creado usando Microsoft Microsoft Power BI Desktop, y que tiene un modelo de datos originario de la base de datos del almacén de entidades.
++ Informe analítico (archivo .pbix) que se ha creado usando Microsoft Power BI Desktop, y que tiene un modelo de datos originario de la base de datos del almacén de entidades.
 
 ## <a name="overview"></a>Información general
 Si extiende un espacio de trabajo de la aplicación existente o presenta un nuevo espacio de trabajo propio, puede usar las visualizaciones analíticas incrustadas para entregar visualizaciones profundas e interactivas de los datos de la empresa. El proceso para agregar una ficha de espacio de trabajo analítico tiene cuatro pasos.
@@ -54,11 +56,11 @@ Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Vi
 3. En el cuadro de diálogo **Agregar nuevo artículo** , en **Artefactos de operaciones**, seleccione la plantilla **Recurso**.
 4. Escriba un nombre que se usará para hacer referencia al informe en metadatos X++, y después haga clic en **Agregar**.
 
-    ![Cuadro de diálogo Agregar nuevo artículo.](media/analytical-workspace-add.png)
+    ![Cuadro de diálogo Agregar nuevo artículo](media/analytical-workspace-add.png)
 
 5. Busque el archivo .pbix que contiene la definición del informe analítico y, a continuación haga clic en **Abrir**.
 
-    ![Seleccione un cuadro de diálogo del archivo de recursos.](media/analytical-workspace-select-resource.png)
+    ![Seleccione un cuadro de diálogo del archivo de recursos](media/analytical-workspace-select-resource.png)
 
 Ahora que ha agregado el archivo .pbix como recurso de Dynamics 365, puede insertar los informes en los espacios de trabajo y agregar vínculos directos mediante elementos de menú.
 
@@ -67,7 +69,7 @@ En este ejemplo, extenderemos el espacio de trabajo **Administración de reserva
 
 La ilustración siguiente muestra qué parece el formulario **FMClerkWorkspace** en el diseñador en Microsoft Visual Studio.
 
-![Formulario FMClerkWorkspace antes de los cambios.](media/analytical-workspace-definition-before.png)
+![Formulario FMClerkWorkspace antes de los cambios](media/analytical-workspace-definition-before.png)
 
 Siga estos pasos para extender la definición del formulario para el espacio de trabajo **Administración de reserva**.
 
@@ -92,7 +94,7 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 
 La ilustración siguiente muestra el aspecto del diseño después de aplicar estos cambios.
 
-![FMClerkWorkspace después de los cambios.](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace después de los cambios](media/analytical-workspace-definition-after.png)
 
 Ahora que ha agregado los controles de formulario que se usarán para insertar el informe del espacio de trabajo, debe definir el tamaño del control principal de modo que aloje el diseño. De forma predeterminada, la página **Panel de los filtros** y la página **Ficha** serán visibles en el informe. Sin embargo, puede cambiar la visibilidad de estos controles según corresponda para el consumidor de destino del informe.
 
@@ -142,7 +144,7 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
 
 Ha terminado la tarea de agregar la lógica de negocios para inicializar el control del visor del informe incrustado. La ilustración siguiente muestra el aspecto del espacio de trabajo después de aplicar estos cambios.
 
-![Informe insertado en el espacio de trabajo.](media/analytical-workspace-final.png)
+![Informe insertado en el espacio de trabajo](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Puede obtener acceso a la vista operativa existente mediante las fichas del espacio de trabajo de debajo del título de la página.
@@ -173,6 +175,3 @@ public static void initializeReportControl(
 | showFilterPane   | Un valor booleano que indica si el panel de filtros se debe mostrar (**true**) u ocultar (**false**).     |
 | showNavPane      | Un valor booleano que indica si el panel de navegación se debe mostrar (**true**) u ocultar (**false**). |
 | defaultFilters   | Los filtros predeterminados del informe de Power BI.                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

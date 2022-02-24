@@ -2,12 +2,15 @@
 title: Configurar y procesar un cambio en un pedido de devolución
 description: En este tema se explica cómo configurar un cambio en una devolución en Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 11/12/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6d7688e78a375bc262b1156c5439c0fff7cd1f0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459876"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar y procesar un cambio en un pedido de devolución
 
@@ -28,14 +31,11 @@ ms.locfileid: "6758345"
 
 En versiones anteriores de Dynamics 365 Commerce, las devoluciones relacionadas con pedidos de cliente se procesaban con el documento de pedido de devolución en Headquarters. Sin embargo, el documento de pedido de devolución se puede usar para procesar solo los productos devueltos. Los productos devueltos se indican con una cantidad negativa en las líneas de pedido de devolución. En cambio, las ventas se indican con una cantidad positiva. Sin embargo, el documento de pedido de devolución no admite cantidades positivas. Debido a esta limitación, las versiones anteriores de la aplicación no admitían situaciones en las que los cambios de producto se hacen con el documento de pedido de devolución.
 
-Ahora se ha agregado funcionalidad para admitir situaciones en las que los cambios se realizan con pedidos de devolución. Commerce usa el documento de pedido de ventas en lugar del documento de pedido de devolución para procesar estos tipos de transacciones.
+Ahora se ha agregado funcionalidad para admitir situaciones en las que los cambios se realizan con pedidos de devolución. Commerce usa el documento de pedido de ventas en lugar del documento de pedido de devolución para procesar transacciones de este tipo.
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Configurar Commerce para admitir cambios en pedidos de devolución
 
-> [!NOTE]
-> En la versión 10.0.20 de Commerce y posteriores, está disponible una nueva función, denominada "Experiencia unificada de procesamiento de devoluciones en PDV". Si habilita esta función, no serán necesarios los pasos de configuración siguientes. **Procesar devoluciones como pedidos de ventas** se convierte en una opción configurada de forma permanente y no podrá cambiarlo.
-
-Siga estos pasos para configurar el sistema de modo que admita cambios en pedidos de devolución (si no tiene habilitada la característica **Experiencia unificada de procesamiento de devoluciones en PDV**.
+Siga estos pasos para configurar el sistema de forma que admita cambios en pedidos de devolución.
 
 1. Vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros de Commerce**. En la ficha desplegable **Pedidos de cliente**, establezca la opción **Procesar pedidos de devolución como pedidos de ventas** en **Sí**.
 2. Ejecute el trabajo **Programación de distribución de configuración global** (**1110**).
@@ -51,6 +51,3 @@ Para proporcionar mayor visibilidad de los distintos importes del carro, se han 
 - **Depósito aplicado**: el importe del depósito que se aplica en una transacción cuando el usuario hace una recogida de pedido de cliente. Si no hay anulación de depósito y se configura un depósito del 10 por ciento, el importe de este campo es el 90 por ciento del importe total del pedido de cliente.
 - **Importe de realización**: el importe total de las líneas en las que el modo de entrega se estableció en **Realizar** cuando el pedido de cliente se creó o editó, o durante un cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
 - **Importe de devolución**: el importe total de las líneas que tienen cantidades negativas durante el cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

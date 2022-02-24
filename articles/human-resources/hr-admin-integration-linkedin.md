@@ -2,12 +2,15 @@
 title: Integrar con LinkedIn Talent Hub
 description: Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 Human Resources y LinkedIn Talent Hub.
 author: jaredha
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441274"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527894"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrar con LinkedIn Talent Hub
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](includes/preview-feature.md)]
 
-> [!IMPORTANT]
-> La integración entre Dynamics 365 Human Resources y LinkedIn Talent Hub descrito en este tema se retirará el 31 de diciembre de 2021. El servicio de integración dejará de estar disponible después de esta fecha. Las organizaciones que aún no utilicen el servicio de integración no podrán implementar el servicio antes de la jubilación.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) es una plataforma de sistema de seguimiento de candidatos (ATS). Permite buscar, administrar y contratar empleados, todo en un solo lugar. Mediante la integración de Microsoft Dynamics 365 Human Resources con LinkedIn Talent Hub, puede crear fácilmente registros de empleados en Human Resources para los solicitantes contratados para un puesto.
 
@@ -90,7 +92,7 @@ Hay que crear un usuario de aplicación para que el adaptador de LinkedIn Talent
 
 6. Utilice el menú desplegable situado encima de la lista para pasar de la vista predeterminada **Usuarios habilitados** a **Usuarios de la aplicación**.
 
-    ![Vista Usuarios de la aplicación.](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Vista Usuarios de la aplicación](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. En la barra de herramientas, seleccione **Nuevo**.
 
@@ -125,14 +127,14 @@ Después de guardar y cerrar el nuevo usuario de la aplicación en la sección a
     - **Nombre**: escriba el nombre del rol de seguridad de Power Apps que creó anteriormente, como **Integración HRIS de LinkedIn Talent Hub**.
     - **Id. de usuario**: seleccione un usuario que tenga permisos para escribir datos en Dirección de personal.
 
-### <a name="create-the-table-in-dataverse"></a>Crear la tabla en Dataverse
+### <a name="create-the-entity-in-common-data-service"></a>Crear la entidad en Common Data Service
 
 > [!IMPORTANT]
-> La integración con LinkedIn Talent Hub depende de tablas virtuales de Dataverse para Human Resources. Como requisito previo para este paso de la configuración, debe configurar las tablas virtuales. Para obtener más información sobre cómo configurar tablas virtuales, consulte [Configurar tablas virtuales de Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
+> La integración con LinkedIn Talent Hub depende de entidades virtuales de Common Data Service para Human Resources. Como requisito previo para este paso de la configuración, debe configurar las entidades virtuales. Para obtener más información sobre cómo configurar entidades virtuales, consulte [Configurar entidades virtuales de Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. En Human Resources, abra la página **Integración de Dataverse**.
+1. En Human Resources, abra la página **Integración de Common Data Service (CDS)**.
 
-2. Seleccione la pestaña **Tablas virtuales**.
+2. Seleccione la pestaña **Entidades virtuales**.
 
 3. Filtre la lista de entidades por etiqueta de entidad para encontrar **Candidato exportado de LinkedIn**.
 
@@ -162,7 +164,7 @@ Una vez que un candidato ha pasado por el proceso de contratación y ha sido con
     - En el campo **Ubicación**, especifique la ubicación en la que estará basado el empleado.
     - Escriba o compruebe la dirección de correo electrónico del empleado.
 
-![Exportar al panel HRIS en LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Exportar al panel HRIS en LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Completar la incorporación en Human Resources
 
@@ -186,8 +188,5 @@ Se importan los siguientes detalles y se incluyen en el nuevo registro de emplea
 
 ## <a name="see-also"></a>Consulte también
 
-[Configurar tablas virtuales de Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[¿Qué es Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Configurar entidades virtuales de Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[¿Qué es Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

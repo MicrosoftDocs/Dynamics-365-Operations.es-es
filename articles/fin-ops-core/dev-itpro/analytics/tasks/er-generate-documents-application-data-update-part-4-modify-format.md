@@ -1,10 +1,12 @@
 ---
 title: Modificar formatos para generar documentos que tengan datos de la aplicación
-description: Este tema describe cómo diseñar las configuraciones de los informes para generar un documento electrónico y actualizar datos de la aplicación.
+description: 'Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER Generar documentos con la actualización de datos de la aplicación (Parte 3: Modificar el modelo y la asignación)".'
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 312a49fc524cc7359d2c1815597214656df11c018034da384d30bfb9d9efee4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752420"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684556"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para generar documentos que tengan datos de la aplicación
 
@@ -147,6 +149,3 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 46. Cierre la página.
 47. Cierre la página.
 48. Cierre la página.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

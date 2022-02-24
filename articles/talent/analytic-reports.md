@@ -88,6 +88,3 @@ Una de las grandes características de Power BI es la forma que todas las repres
 ## <a name="export-to-excel"></a>Exportar a Excel
 
 Para ver los datos del informe en Excel, puede hacer clic en el menú de las opciones (tres puntos) en una representación visual y seleccionar **Exportar los datos subyacentes**. Los datos exportados se exportarán filtrados, respetando los permisos de usuario en Attract. Para obtener más información, consulte [Exportar los datos de visualizaciones](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

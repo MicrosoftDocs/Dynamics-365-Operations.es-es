@@ -2,9 +2,11 @@
 title: Objetos de coste
 description: Este artículo proporciona información sobre objetos de costes y explica cómo se acumulan los costes y las cantidades. Un objeto de coste es una entidad para la que se acumulan los costes y las cantidades. Una entidad de objeto de coste puede ser producto o variantes de producto, como variantes para estilo y color.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572178"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967667"
 ---
 # <a name="cost-objects"></a>Objetos de coste
 
@@ -64,20 +66,18 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 
 **Nota**: El parámetro **Incluir valor físico en coste** no tiene ningún efecto en los cálculos precedentes.
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
-[Grupo de dimensiones de producto](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
+[Grupo de dimensiones de producto](https://technet.microsoft.com/library/aa499382.aspx)
 
-[Grupo de dimensiones de almacenamiento](/dynamicsax-2012//storage-dimension-groups-form)
+[Grupo de dimensiones de almacenamiento](https://technet.microsoft.com/library/hh209317.aspx)
 
-[Grupo de dimensiones de seguimiento](/dynamicsax-2012//tracking-dimension-groups-form)
+[Grupo de dimensiones de seguimiento](https://technet.microsoft.com/library/hh209465.aspx)
 
-[Novedades y cambios](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
+[Novedades y cambios](../../fin-and-ops/get-started/whats-new-changed.md)
 
 [Entradas de costes](cost-entries.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

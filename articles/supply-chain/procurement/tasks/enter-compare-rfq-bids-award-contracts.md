@@ -1,24 +1,26 @@
 ---
 title: Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 description: Este tema explic a cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579481"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016687"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
@@ -32,7 +34,7 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Introduzca una respuesta como un proveedor
 
-1. Vaya a **Colaboración de proveedores \> Espacios de trabajo \> Ofertas de proveedores**.
+1. En el panel de información, seleccione **Oferta de proveedor**.
 2. En el lista **Nuevas invitaciones de la oferta**, encuentre una solicitud de presupuesto que acaba de registrar. Seleccione la solicitud de presupuesto para revisar qué se solicitó.
 3. Seleccione **Datos adjuntos de la solicitud de presupuesto** para revisar los archivos adjuntos que se hayan agregado.
 4. Seleccione **Propuesta** para hacer que los campos puedan editarse. Observe que el campo **Progreso de la oferta** está establecido en **El proveedor está actualizando**.
@@ -104,6 +106,3 @@ Puede especificar la propuesta como proveedor o profesional de compras. Para obt
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver el pedido de compra que se ha generado
 
 En el panel de acciones, en la pestaña **General**, seleccione **Pedido de compra**. La página que aparece muestra el pedido de compra que se generó al aceptar la oferta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

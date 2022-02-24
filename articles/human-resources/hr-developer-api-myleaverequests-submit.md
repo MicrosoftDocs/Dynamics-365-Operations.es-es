@@ -2,12 +2,15 @@
 title: Enviar una solicitud de baja al flujo de trabajo
 description: En Microsoft Dynamics 365 Human Resources, puede utilizar la interfaz de programación de aplicaciones (API) MyLeaveRequests submit() para enviar una solicitud de baja al flujo de trabajo.
 author: andreabichsel
+manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067513"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420346"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Enviar una solicitud de baja al flujo de trabajo
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 En Microsoft Dynamics 365 Human Resources, puede utilizar la interfaz de programación de aplicaciones (API) MyLeaveRequests submit() para enviar una solicitud de baja al flujo de trabajo. Esta API se expone como una acción en la entidad OData MyLeaveRequests.
 
@@ -110,5 +108,3 @@ Como parte de la llamada a la API de envío, Recursos Humanos realiza la validac
 
 - [Visión general de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Autenticación](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

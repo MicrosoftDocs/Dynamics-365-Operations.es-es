@@ -2,9 +2,11 @@
 title: Configuración de selecciones
 description: Este artículo describe qué es una selección y explica cómo configurar selecciones en Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774494"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969835"
 ---
 # <a name="set-up-assortments"></a>Configurar selecciones
 
@@ -31,7 +33,7 @@ Este artículo describe qué es una selección y explica cómo configurar selecc
 
 Una selección es una colección de productos relacionados que se asigna a un canal de Commerce, como una tienda física o en línea. Las selecciones se usan para identificar los productos disponibles en cada tienda. Una selección puede incluir categorías de productos. Por lo tanto, todos los productos asignados a una categoría específica se incluyen en la selección. Una selección también puede incluir productos específicos y variantes específicas de producto. Al configurar una selección, puede asignar miles de productos a los canales al mismo tiempo, en cualquier combinación que las tiendas requieran. Puede configurar tantas selecciones de producto como sea necesario. Cada producto se puede incluir en una o varias selecciones y cada selección se puede asignar a uno o varios canales. Por ejemplo, puede definir una selección que incluya un conjunto básico de productos. Todas las tiendas reciben esta selección. A continuación, puede definir otra selección que incluya solo equipamiento deportivo en gran volumen. Solo sus tiendas más grandes reciben esta selección. En el diagrama siguiente se muestra cómo se pueden asignar los productos a selecciones y cómo se pueden asignar las selecciones a los canales.
 
-![Relaciones de selecciones de productos.](./media/assortments_relationship.gif)
+![Relaciones de selecciones de productos](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -52,6 +54,3 @@ Después de completar los requisitos previos, puede crear una selección y asign
 2. Seleccionar los canales o grupos de alto nivel de canales a los que se aplica la selección.
 3. Agregar categorías de productos, productos individuales o variantes de producto a la selección. Puede incluir todos los productos de una categoría específica o puede excluir los productos seleccionados de una categoría incluida en la selección.
 4. Publicar la selección. Al publicar una selección, se ejecuta automáticamente el programador de selecciones. Este proceso genera la lista de productos. Al completar el proceso, estos productos estarán disponibles en los canales asignados a la selección de productos. Si se realizan cambios en una selección publicada o en los canales asignados a la selección, es necesario actualizar la selección. Para actualizar la selección al realizar cambios, puede ejecutar el programador de selecciones como trabajo por lotes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Facturas electrónicas de CFDI globales para México
 description: En este tema se ofrece una visión general de la funcionalidad para las facturas electrónicas de CFDI globales para México.
 author: EvgenyPopovMBS
+manager: annbe
 ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,18 +15,18 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2f0e6e0fee8122f9fb0b1c71a96cb08c00a05bc4db46cef702dc079810371948
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 315a61f71fc0b023fe0e25197abfc62ff6f56a6e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739298"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016946"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 
 [!include[banner](../includes/banner.md)]
 
-La funcionalidad Commerce para México admite el formato Comprobantes fiscales digitales por internet (CFDI) para comercios mexicanos. Para obtener más información sobre las facturas electrónicas de CFDI, consulte [Facturas electrónicas (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices). Cuando una empresa cierra el proceso diario, debe emitir un documento de CFDI globales para consolidar todos los recibos que se emitieron a los consumidores finales. Este documento incluye la siguiente información para cada transacción que se registra durante el período:
+La funcionalidad Commerce para México admite el formato Comprobantes fiscales digitales por internet (CFDI) para comercios mexicanos. Para obtener más información sobre las facturas electrónicas de CFDI, consulte [Facturas electrónicas (CFDI)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices). Cuando una empresa cierra el proceso diario, debe emitir un documento de CFDI globales para consolidar todos los recibos que se emitieron a los consumidores finales. Este documento incluye la siguiente información para cada transacción que se registra durante el período:
 
 - Un número de recibo
 - Un importe correspondiente
@@ -33,16 +35,16 @@ La funcionalidad Commerce para México admite el formato Comprobantes fiscales d
 
 La funcionalidad de CFDI globales le permite realizar las siguientes tareas:
 
-- Crear una factura electrónica, en el formato de CFDI global (diseño 3.3), que se basa en el extracto de comercio registrado. Para obtener más información sobre el diseño, consulte [Versión 3.3 del diseño de CFDI](/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-3-3).
+- Crear una factura electrónica, en el formato de CFDI global (diseño 3.3), que se basa en el extracto de comercio registrado. Para obtener más información sobre el diseño, consulte [Versión 3.3 del diseño de CFDI](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-3-3).
 
-- Para cada factura electrónica, genere un archivo en el formato .pdf o .xml, y envíelo al cliente como un archivo adjunto de correo electrónico. Después de generar las facturas electrónicas de CFDI globales, un proveedor de servicio de firma digital (PAC) las verifica y certifica de la misma manera que otros documentos de CFDI. Para obtener más información, consulte [Facturas electrónicas (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices) y [Consultar e imprimir una factura electrónica](./tasks/mx-00010-inquire-print-electronic-invoice.md).
+- Para cada factura electrónica, genere un archivo en el formato .pdf o .xml, y envíelo al cliente como un archivo adjunto de correo electrónico. Después de generar las facturas electrónicas de CFDI globales, un proveedor de servicio de firma digital (PAC) las verifica y certifica de la misma manera que otros documentos de CFDI. Para obtener más información, consulte [Facturas electrónicas (CFDI)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices) y [Consultar e imprimir una factura electrónica](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/mx-00010-inquire-print-electronic-invoice).
 
 Para generar y enviar una factura electrónica de CFDI globales, siga estos pasos.
 
 1. Como paso preparativo, en la pestaña **Venta minorista** de la página **Parámetros de facturas electrónicas** (**Administración de la organización \> Configuración \> Factura electrónica \> Parámetros de facturas electrónicas**), debe especificar los parámetros predeterminados del formato de CFDI globales.
 2. Cierre el turno en el punto de venta (PDV).
 3. Ejecute el trabajo P en la programación de distribución para transferir transacciones desde la base de datos del canal hasta Headquarters.
-4. Calcule y registre un extracto siguiendo los pasos en [Crear, calcular y registrar un extracto para una tienda](/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
+4. Calcule y registre un extracto siguiendo los pasos en [Crear, calcular y registrar un extracto para una tienda](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/create-calculate-post-statement-retail-store).
 5. Ejecute la operación periódica **Registrar CFDI – Facturas electrónicas** para crear facturas electrónicas de CFDI globales que se basan en un extracto registrado. Puede seleccionar un número de extracto para esta operación periódica. Si no selecciona un número de extracto, el sistema crea facturas electrónicas de CFDI globales para todos los extractos registrados que aún no se han procesado.
 
     Como resultado de la operación periódica **Registrar CFDI – Facturas electrónicas**, se crean dos facturas electrónicas de CFDI globales. Una factura electrónica recopila todos los recibos relacionados con las operaciones de ventas, y la otra recopila todos los recibos relacionados con las devoluciones. Para la factura electrónica relacionada con las devoluciones, el atributo **Devolución** se establece en **Sí**. Puede ver estas facturas electrónicas en la página **CFDI (facturas electrónicas)** (**Retail y Commerce \> Consultas e informes \> CFDI (facturas electrónicas)**).
@@ -57,13 +59,13 @@ En la versión 10.0.2 de Microsoft Dynamics 365 for Finance and Operations (mayo
 
 - En la solicitud del cliente, genere una factura electrónica de CFDI normales independiente que se basa en una operación de venta o devolución que se registra en el PDV.
 
-    En este caso, la operación de venta o de devolución debe registrarse como un pedido de cliente. Para obtener más información sobre la funcionalidad para pedidos de cliente, consulte [Pedidos de cliente en Modern POS (MPOS)](/dynamics365/unified-operations/retail/customer-orders-overview).
+    En este caso, la operación de venta o de devolución debe registrarse como un pedido de cliente. Para obtener más información sobre la funcionalidad para pedidos de cliente, consulte [Pedidos de cliente en Modern POS (MPOS)](https://docs.microsoft.com/dynamics365/unified-operations/retail/customer-orders-overview).
 
 - En una factura electrónica de CFDI que se genera según las devoluciones, especifique identificadores únicos universales (UUID) para facturas electrónicas de CFDI relacionadas con las operaciones de venta originales.
 
 A partir de la versión 10.0.2 de Dynamics 365 for Finance and Operations (mayo de 2019), la funcionalidad de CFDI globales también admite los siguientes escenarios adicionales:
 
-- [Devolucioens de artículos a través de múltiples pedidos y facturas de clientes](/dynamics365/unified-operations/retail/multireturn)
+- [Devolucioens de artículos a través de múltiples pedidos y facturas de clientes](https://docs.microsoft.com/dynamics365/unified-operations/retail/multireturn)
 - Devoluciones de pedidos de cliente que implican un intercambio, cuando una factura de cliente incluye líneas con importes positivos y líneas con importes negativos
 
 ### <a name="showing-related-cfdi-documents-in-a-cfdi-electronic-invoice"></a>Mostrar documentos relacionados con CFDI en una factura electrónica de CFDI
@@ -84,7 +86,7 @@ Las siguientes operaciones de pedidos de clientes pueden provocar que se registr
 
 - Recogida de pedido de cliente
 - Devolución de pedido de cliente
-- Pedido de cliente híbrido (Para obtener más información sobre este escenario, consulte [Pedidos de cliente híbridos](/dynamics365/unified-operations/retail/hybrid-customer-orders).)
+- Pedido de cliente híbrido (Para obtener más información sobre este escenario, consulte [Pedidos de cliente híbridos](https://docs.microsoft.com/dynamics365/unified-operations/retail/hybrid-customer-orders).)
 
 Cuando se desactiva el parámetro **Excluir pedidos de cliente de CFDI globales**, y no se registró ninguna factura de cliente anterior del mismo pedido de cliente y se procesó como una factura electrónica independiente (CFDI normales), los pedidos de cliente se incluyen en las facturas electrónicas de CFDI globales. De lo contrario, los pedidos de cliente se procesan como facturas electrónicas independientes (CFDI normales). Por lo tanto, se excluyen de las facturas electrónicas de CFDI globales.
 
@@ -96,6 +98,3 @@ Tenga en cuenta las siguientes limitaciones:
 
 - Todas las facturas de un pedido de ventas original se incluyen en una factura electrónica de devolución como documentos de CFDI relacionados.
 - El escenario de devolución de un pedido de cliente que implica un intercambio solo se admite para facturas electrónicas de CFDI globales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

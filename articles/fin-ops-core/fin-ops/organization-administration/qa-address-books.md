@@ -2,9 +2,11 @@
 title: P+F de las libretas de direcciones
 description: Este tema proporciona respuestas a las preguntas más frecuentes relacionadas con las libretas de direcciones.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463640"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796907"
 ---
 # <a name="address-books-faq"></a>Preguntas frecuentes sobre Libretas de direcciones
 
@@ -65,13 +67,3 @@ Puede especificar registros de partes en la libreta de direcciones global o en l
 ## <a name="can-i-translate-address-information-for-party-records"></a>¿Puedo traducir información de dirección para los registros de partes?
 
 Puede configurar traducciones de la información de dirección de modo que la información aparezca en el idioma del usuario (idioma del sistema) en su programa pero en otro idioma en documentos como los pedidos de ventas. Puede especificar las traducciones para los nombres de país o región, los propósitos de direcciones y las secuencias de nombres. Por ejemplo, su idioma del sistema es el danés y crea un pedido de ventas para un cliente en Francia. En este caso, puede ver el registro del cliente en danés en el programa pero visualizar la información de dirección en francés en el pedido de ventas impreso. Al configurar traducciones, debe especificar una traducción para cada elemento de la lista. Los artículos para los que no especifique una traducción aparecerán en el idioma del sistema. Por ejemplo, su idioma del sistema es el danés y envía un documento a un cliente en España. Si no ha especificado las traducciones de español (ESP) para la información de dirección, esa información aparecerá en danés tanto en el programa como en el documento impreso.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Después de importar direcciones, ¿por qué no puedo editar los registros?
-
-Cuando importa direcciones, hay un campo que se llama **IsLocationOwner**. Este campo indica si la parte que está asociada con la ubicación (dirección) es el propietario de la dirección. Si la parte es el propietario de la dirección, la dirección se puede editar cuando la parte se usa en la libreta de direcciones global o desde la página de registro maestra (como el cliente, proveedor o trabajador). Si la parte no es el propietario de la dirección, el registro no se puede editar. 
-
-Al importar direcciones, el campo **IsLocationOwner** debe establecerse en **Sí** si desea que la dirección sea editable utilizando la parte asociada. Si este campo se importa incorrectamente, el propietario de la ubicación se puede actualizar en la libreta de direcciones global.
-
-Para obtener más información sobre cómo cambiar el propietario de la ubicación de una dirección importada, consulte [Gestión de propietarios de ubicaciones](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

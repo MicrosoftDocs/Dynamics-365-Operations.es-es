@@ -157,6 +157,3 @@ Los candidatos son personas que se han agregado a un grupo de talentos pero no e
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Perfil: detalles del candidato | Crear, leer, actualizar y eliminar | Crear, leer, actualizar y eliminar | Sin acceso   |
 | Documentos                   | Crear, leer, actualizar y eliminar | Crear, leer, actualizar y eliminar | Sin acceso   |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,35 +2,37 @@
 title: Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 description: La interfaz de ejecución de la planta de producción está configurada para cada dispositivo en la planta de producción. Las empresas suelen configurar cada dispositivo de forma diferente, según su propósito. Por ejemplo, una empresa puede tener un dispositivo en el área de recepción, donde los trabajadores registran la entrada y la salida, y otro en el piso de producción, donde los trabajadores administran sus trabajos.
 author: johanhoffmann
+manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752841"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966288"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La interfaz de ejecución de la planta de producción está configurada para cada dispositivo en la planta de producción. Las empresas suelen configurar cada dispositivo de forma diferente, según su propósito. Por ejemplo, una empresa puede tener un dispositivo en el área de recepción, donde los trabajadores registran la entrada y la salida, y otro en el piso de producción, donde los trabajadores administran sus trabajos.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Establecer la configuración y los filtros para un dispositivo específico
 
-Para establecer la configuración y los filtros de trabajo para un dispositivo, inicie sesión en la página **Ejecución de planta de producción** mediante el uso de una cuenta que tiene un rol de seguridad que incluye la función *Mantener supervisión de tiempo*. (Entre los roles de seguridad listos para usar, solo *Supervisor de planta* tiene esta función). A continuación, siga estos pasos.
+Para establecer la configuración y los filtros de trabajo para un dispositivo, inicie sesión en la página **Ejecución de planta de producción** mediante el uso de una cuenta que tiene un rol de seguridad que incluye la función *Mantener supervisor de tiempo*. (Entre los roles de seguridad listos para usar, solo *Supervisor de planta* tiene esta función). A continuación, siga estos pasos.
 
-1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisión de tiempo*).
+1. Vaya al dispositivo que desea configurar e inicie sesión en Microsoft Dynamics 365 Supply Chain Management como supervisor de planta. (Utilice una cuenta que incluya la función *Mantener supervisor de tiempo*).
 1. Asegúrese de que haya una configuración disponible para el dispositivo que está configurando. Si no existe ninguna configuración, se proporciona una configuración predeterminada. Para obtener más información sobre cómo configurar una configuración, consulte [Configurar la interfaz de ejecución de la planta de producción](production-floor-execution-configure.md).
 1. Vaya a **Control de producción \> Ejecución de fabricación \> Ejecución de planta de producción**.
 
@@ -70,13 +72,10 @@ A menudo, ejecutará la interfaz de ejecución de la planta de producción en un
 
 La parte superior de la siguiente ilustración muestra el aspecto predeterminado de la interfaz. La parte inferior muestra cómo se ve en modo de pantalla completa cuando el panel de navegación está oculto.
 
-![Interfaz estándar frente a pantalla completa.](media/pfei-full-screen.png "Interfaz estándar frente a pantalla completa")
+![Interfaz estándar frente a pantalla completa](media/pfei-full-screen.png "Interfaz estándar frente a pantalla completa")
 
 ## <a name="extend-the-session-past-12-hours"></a>Extender la sesión más allá de las 12 horas
 
 De forma predeterminada, la interfaz de ejecución de la planta de producción cierra sesión automáticamente si nadie la usa durante 12 horas. Un usuario de Supply Chain Management deberá volver a iniciar sesión. Sin embargo, puede extender el límite de tiempo de espera hasta 90 días.
 
 Para extender el límite de tiempo de espera, inicie sesión en Supply Chain Management y vaya a **Administración del sistema \> Usuarios \> Extensiones de sesión**. Especifique la cuenta de usuario de Supply Chain Management que se utiliza para iniciar sesión en el dispositivo y el número de horas que la sesión debe permanecer activa.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

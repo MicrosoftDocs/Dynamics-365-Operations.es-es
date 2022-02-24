@@ -1,29 +1,31 @@
 ---
 title: Previsiones de flujo de efectivo
 description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
-author: panolte
-ms.date: 11/03/2021
+author: saraschi2
+manager: AnnBe
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7d462992816a5a2dee73979ed4cb1521ca4ce4f7
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945763"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645778"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Puede usar las herramientas para la previsión del flujo de efectivo para analizar el flujo de efectivo que va a entrar y los requisitos de divisa para estimar la futura necesidad de efectivo de la compañía. Para obtener una previsión fiable del flujo de efectivo, debe completar las tareas siguientes:
 
@@ -37,7 +39,6 @@ Una vez completadas estas tareas, puede calcular y analizar las previsiones de f
 La previsión del flujo de caja se puede integrar con el Libro mayor, los proveedores, los clientes y la gestión de presupuesto e inventario. El proceso de previsión utiliza la información de transacción que se especifica en el sistema y el proceso de cálculo prevé el impacto del efectivo esperado de cada transacción. Los siguientes tipos de transacciones se tienen en cuenta al calcular el flujo de efectivo:
 
 - **Pedidos de ventas**: pedidos de ventas que aún no se han facturado y que originan ventas físicas o financieras.
-- **Facturas de texto libre** - Facturas de texto libre que aún no se han publicado y que generan ventas financieras. 
 - **Pedidos de compra**: pedidos de compra que aún no se han facturado y que originan compras físicas o financieras.
 - **Clientes**: transacciones de clientes abiertas (facturas impagadas).
 - **Proveedores**: transacciones de proveedores abiertas (facturas impagadas).
@@ -45,9 +46,8 @@ La previsión del flujo de caja se puede integrar con el Libro mayor, los provee
 - **Entradas de registro de presupuesto**: asientos de registro presupuestario que se seleccionan para previsiones de flujo de efectivo.
 - **Previsiones de la demanda**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
 - **Previsiones de suministro**: líneas de modelo de previsión de inventario seleccionadas para previsiones de flujo de efectivo.
-- **Fuente de datos externa** - Datos externos que se ingresan o importan en los pronósticos de flujo de efectivo mediante plantillas de hojas de cálculo.
-- **Previsiones de proyectos**: gestión de proyectos y previsiones contables mediante modelo de previsión.
-- **Pagos de la autoridad fiscal sobre las ventas de flujo de efectivo** - Montos previstos de pago de la autoridad fiscal sobre las ventas y plazos que dan lugar a pagos financieros. Habilite la función Pagos de la autoridad fiscal sobre las ventas de flujo de efectivo.
+
+Aunque no haya integración directa con la gestión de proyectos y contabilidad, hay varias maneras de incluir transacciones de proyecto en la previsión de flujo de efectivo. Las facturas de proyecto registradas se incluyen en la previsión como parte de las transacciones de cliente abiertas. Los pedidos de ventas y pedidos de compra iniciados por el proyecto se incluyen en la previsión como pedidos abiertos después de registrarlos en el sistema. También puede transferir previsiones de proyecto a un modelo presupuestario contable. Este modelo presupuestario contable se incluye en la previsión de flujo de efectivo como parte de los asientos de registro presupuestario.
 
 ## <a name="configuration"></a>Configuración
 
@@ -87,34 +87,16 @@ Puede anular el valor predeterminado para el campo **Cuenta de liquidez** para p
 
 ### <a name="budgeting"></a>Gestión presupuestaria
 
-Los presupuestos creados a partir de los modelos presupuestarios se pueden incluir en previsiones de flujo de efectivo. En la página **Configuración de la previsión de flujo de efectivo**, en la pestaña **Presupuesto** , seleccione los modelos presupuestarios para incluir en la previsión. De forma predeterminada, los nuevos asientos de registro presupuestario se incluyen en las previsiones después de que el modelo presupuestario se haya habilitado para la previsión de flujo de efectivo.
+Los presupuestos creados a partir de los modelos presupuestarios se pueden incluir en previsiones de flujo de efectivo. En la pestaña **Presupuesto** de la página **Configuración de la previsión de flujo de efectivo** , seleccione los modelos presupuestarios para incluir en la previsión. De forma predeterminada, los nuevos asientos de registro presupuestario se incluyen en las previsiones después de que el modelo presupuestario se haya habilitado para la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en asientos de registro presupuestario individuales.
 
-Las entradas del registro presupuestario se pueden incluir en la previsión de flujo de efectivo de forma individual a través de la personalización. Cuando agrega la columna "Incluir en las previsiones de flujo de efectivo" a la página **Entrada de registro presupuestario**, el sistema sobrescribirá la configuración en la página **Configuración de pronóstico de flujo de efectivo** para incluir una entrada de registro de presupuesto individual en el pronóstico.
-
-
-### <a name="inventory-management"></a>Administración de inventario
+### <a name="inventory-management"></a>Gestión del inventario
 
 Las previsiones de suministro y demanda de inventario se pueden incluir en las previsiones de flujo de efectivo. En la pestaña **Gestión del inventario** de la página **Configuración de la previsión de flujo de efectivo** , seleccione el modelo de previsión que se va a incluir en la previsión de flujo de efectivo. La inclusión en la previsión de flujo de efectivo se puede sobrescribir en líneas de previsión de suministro y demanda individuales.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configurar dimensiones para la previsión del flujo de efectivo
-Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras se utilizarán para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá solo cuando la función de pronósticos de flujo de efectivo esté habilitada.
+Una nueva pestaña de la página **Configuración de pronósticos de flujo de efectivo** le permite controlar qué dimensiones financieras utilizar para filtrar en el espacio de trabajo **Previsión de flujo de efectivo**. Esta pestaña solo aparecerá cuando la función de pronósticos de flujo de efectivo esté habilitada. 
 
 En la pestaña **Dimensiones**, elija de la lista de dimensiones que se utilizarán para el filtrado y utilice las teclas de flecha para moverlas a la columna de la derecha. Solo se pueden seleccionar dos dimensiones para filtrar los datos de pronósticos de flujo de efectivo. 
-
-### <a name="setting-up-external-source"></a>Configurar origen externo
-Los datos externos se pueden introducir o importar en forma de pronósticos de flujo de efectivo. Antes de introducir o importar datos externos, debe configurar orígenes externos. En la pestaña **Origen externo**, configure categorías de flujo de efectivo externas. Una categoría puede ser **Saliente** o **Entrante**. **Liquidez** debe seleccionarse como tipo de registro. En la cuadrícula **Configuración de entidad legal**, seleccione las entidades legales y las cuentas principales correspondientes a las que se aplican las categorías de flujo de efectivo externas.
-
-### <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
-
-En la versión 10.0.17, una nueva característica permite la integración con la gestión y contabilidad de proyectos y la previsión de flujo de efectivo. En el espacio de trabajo **Gestión de funciones**, active la característica **Previsión del proyecto de flujo de efectivo** para incluir los costes e ingresos pronosticados en el pronóstico de flujo de efectivo. En la pestaña **Gestión y contabilidad de proyectos** de la página **Configuración de pronóstico de flujo de efectivo**, seleccione los tipos de proyectos y tipos de transacciones que deben incluirse en la previsión de flujo de efectivo. Luego seleccione el modelo de previsión del proyecto. Un submodelo de tipo de reducción funciona mejor. Las cuentas de liquidez que se introdujeron en la configuración de Clientes se utilizan como cuentas de liquidez predeterminadas. Por lo tanto, no es necesario introducir cuentas de liquidez predeterminadas cuando configure el pronóstico de flujo de efectivo. También se puede utilizar un modelo de presupuesto, pero solo se puede seleccionar un tipo en la página **Configuración de pronóstico de flujo de efectivo** para gestión de proyectos y contabilidad. Un modelo de pronóstico proporciona la mayor flexibilidad cuando se utiliza la gestión y contabilidad de proyectos o Project Operations.
-
-Una vez activada la función de pronóstico del proyecto de flujo de efectivo, el pronóstico del flujo de efectivo se puede ver para cada proyecto en la página **Todos los proyectos**. En el panel Acciones, en la pestaña **Plan**, en el grupo **Pronóstico**, seleccione **Pronóstico de flujo de efectivo**. En los espacios de trabajo **Resumen de efectivo** (véase la sección [Informes](#reporting) más adelante en este tema), el tipo de transacción de pronóstico del proyecto muestra las entradas (ingresos del pronóstico del proyecto) y las salidas (costes del pronóstico del proyecto). Los importes pueden incluirse solo si el campo **Etapa del proyecto** campo de los espacios de trabajo **Resumen de flujo de efectivo** están configurados como **En proceso**.
-
-Las transacciones del proyecto siguen incluidas en el pronóstico de flujo de efectivo de varias maneras, independientemente de si se activa la característica **Previsión del proyecto de flujo de efectivo**. Las facturas de proyecto registradas se incluyen en la previsión como parte de las transacciones de cliente abiertas. Los pedidos de ventas y pedidos de compra iniciados por el proyecto se incluyen en la previsión como pedidos abiertos después de registrarlos en el sistema. También puede transferir previsiones de proyecto a un modelo presupuestario contable. Este modelo presupuestario contable se incluye en la previsión de flujo de efectivo como parte de los asientos de registro presupuestario. Si ha activado la característica **Previsión del proyecto de flujo de efectivo**, no transfiera los pronósticos del proyecto a un modelo de presupuesto contable, ya que esta acción hará que los pronósticos del proyecto se cuenten dos veces.
-
-### <a name="sales-tax-authority-payments"></a>Pagos a la autoridad fiscal 
-
-La función de pagos de la autoridad de impuestos sobre las ventas de flujo de efectivo predice el impacto del flujo de efectivo de los pagos de impuestos sobre las ventas. Utiliza transacciones impagas de impuestos sobre las ventas, períodos de liquidación de impuestos y el plazo de pago del período impositivo para predecir la fecha y el monto de los pagos de flujo de efectivo. 
 
 ### <a name="calculation"></a>Cálculo
 
@@ -158,7 +140,7 @@ El espacio de trabajo **Visión general del efectivo para todas las empresas** m
 
 El espacio de trabajo **Visión general del efectivo para la empresa actual** muestra los análisis de previsión de flujo de efectivo en la divisa de contabilidad definida de la empresa. La divisa de contabilidad que se usa para el análisis se define en la página **Libro mayor**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para la empresa actual. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa de contabilidad, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
 
-Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte [contenido de Power BI de visión general de efectivo](Cash-Overview-Power-BI-content.md).
+Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de [contenido de Power BI de visión general de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pedidos y artículos específicos en las siguientes páginas:
 
@@ -168,6 +150,3 @@ Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pe
 - **Previsión de suministro**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de suministro del artículo seleccionado.
 - **Previsión de demanda**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de demanda del artículo seleccionado.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

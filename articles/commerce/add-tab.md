@@ -2,12 +2,15 @@
 title: Módulo de pestañas
 description: En este tema se tratan los módulos de pestañas y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723296"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415479"
 ---
-# <a name="tab-module"></a>Módulo de pestaña
+# <a name="tab-module"></a>Módulo de pestañas
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de pestañas y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 Los módulos de pestañas son módulos tipo contenedor que se utilizan para organizar la información de una página del sitio en pestañas. Se pueden usar en cualquier página donde la información deba presentarse en pestañas.
 
@@ -34,7 +39,7 @@ En cada módulo de pestañas, se pueden agregar uno o más elementos de pestaña
 
 La siguiente imagen muestra un ejemplo de un módulo de pestañas en una página de sitio. En este ejemplo, está seleccionada la pestaña **Envío**.
 
-![Ejemplo de un módulo de pestañas.](./media/ecommerce-tab.PNG)
+![Ejemplo de un módulo de pestañas](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Propiedades de los módulos de pestañas
 
@@ -79,6 +84,3 @@ Para agregar un módulo de pestaña a una página y establecer las propiedades, 
 [Módulo de acordeón](add-accordion.md)
 
 [Módulo de bloque de texto](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

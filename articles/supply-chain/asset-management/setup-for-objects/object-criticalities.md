@@ -1,10 +1,12 @@
 ---
 title: Tipos de importancia de los activos
 description: En este tema se explican los tipos de importancia de los activos en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776929"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021713"
 ---
 # <a name="asset-criticality-types"></a>Tipos de importancia de los activos
 
@@ -40,7 +42,7 @@ Para configurar la importancia, primero se crean los tipos de importancia que se
 4. En el campo **Nombre**, especifique un nombre para el tipo de importancia.
 5. En el campo **Factor**, escriba un factor. Este factor se utiliza durante el cálculo de la programación de órdenes de trabajo para determinar el registro de importancia que se debe utilizar. (Siempre se usa el registro que tiene el factor más alto). Este valor es relevante si, como se muestra en la siguiente ilustración, se crean líneas de importancia con el mismo valor de criticalidad.
 
-    ![Página de tipos de criticidad.](media/23-setup-for-objects.png)
+    ![Página de tipos de criticidad](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Configurar importancias de activos
 
@@ -59,6 +61,3 @@ Para configurar la importancia, primero se crean los tipos de importancia que se
 - La importancia de una orden de trabajo se actualiza cada vez que se agrega o se elimina una línea de la orden de trabajo.
 - Si una orden de trabajo contiene varios trabajos, siempre se usará la importancia más alta, según el campo **Factor** de la página **Tipos de importancia**, en la orden de trabajo.
 - Normalmente, la importancia de activo puede cambiar durante un período. La importancia se puede ver afectada por la compra de nuevo equipo, restauraciones y así sucesivamente. Considere reevaluar las importancias de los activos a intervalos regulares (por ejemplo, una vez al año o cada dos años) para asegurarse de que las definiciones de importancia coinciden con la configuración de la producción actual.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

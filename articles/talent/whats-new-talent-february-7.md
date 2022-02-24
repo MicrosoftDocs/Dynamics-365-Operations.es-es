@@ -58,6 +58,3 @@ Cuando cambie el trabajo de un puesto, **Familia de trabajo** ahora tomará un v
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Mejoras del rendimiento al generar espacios de trabajo
 Las fichas de análisis de zonas de trabajo ahora se cargarán solo cuando se tenga acceso a dichas páginas. Un indicador se mostrará durante la representación inicial de la página en la esquina superior izquierda de la página.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Agregar recomendaciones de producto en PDV
 description: Este tema describe el uso de las recomendaciones de productos en un dispositivo de punto de venta (PDV).
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969935"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Agregar recomendaciones de producto en PDV
 
@@ -39,7 +41,7 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 
     - Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el servicio de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
 
-    [![Recomendaciones en la página Detalles de producto.](./media/proddetails.png)](./media/proddetails.png)
+    [![Recomendaciones en la página Detalles de producto](./media/proddetails.png)](./media/proddetails.png)
 
 2. En la página **Transacción**:
 
@@ -48,7 +50,7 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
     > [!NOTE]
     > Para mostrar recomendaciones en la página **Transacción**, el minorista tiene que actualizar el diseño de la pantalla en Dynamics 365 Commerce. El control **Recomendaciones** debe quitarse de la página **Transacción**.
 
-    [![Recomendaciones de la página de la transacción.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Recomendaciones de la página de la transacción](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configure Commerce para habilitar las recomendaciones de PDV
 
@@ -89,6 +91,3 @@ Siga estos pasos para configurar recomendaciones de productos:
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

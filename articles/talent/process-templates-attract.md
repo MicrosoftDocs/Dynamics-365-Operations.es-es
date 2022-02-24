@@ -71,6 +71,3 @@ Siga estos pasos para crear una plantilla de proceso de contratación.
     - Para quitar una actividad, expándala y seleccione el botón de papelera en el encabezado de la actividad.
 
 8. Seleccione **Guardar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Crear pedidos de compra
 description: Este artículo describe el proceso y las opciones al crear un pedido de compra manualmente.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575521"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022290"
 ---
 # <a name="create-purchase-orders"></a>Crear pedidos de compra
 
@@ -65,7 +67,7 @@ A veces, es posible que desee dividir la cantidad que ha solicitado, de manera q
 Los cargos se pueden agregar automáticamente a las líneas de pedido de compra si se han configurado cargos automáticos para el proveedor o el grupo de cargos del proveedor, y para el artículo o el grupo de cargos del artículo. Sin embargo, por lo general, los cargos se agregan manualmente en el nivel de línea de pedido. Para agregar un cargo, abra la página **Mantener gastos** con la acción **Mantener gastos** del menú **Operaciones financieras** de la vista **Líneas**. La ventaja de agregar cargos directamente en el nivel de línea de pedido es que el cargo se puede asignar como coste de inventario. Para configurar códigos de cargos a coste de producto de cuenta, utilice la opción de débito **Artículo**. Estos tipos de cargos deben asignarse desde el encabezado del pedido de compra a las líneas para se pueda confirmar el pedido. Por ejemplo, puede que desee asignar cargos basados en la cantidad de cada línea. La categoría de cargo también afecta a cómo se contabilizan los cargos. Por ejemplo, los gastos fijos especifican un importe fijo y los gastos de porcentaje se calculan como un porcentaje del importe neto de la línea de pedido. Se pueden asignar pedidos de compra a una carga y la carga podría incluir una estimación de los gastos previsto para el coste de transporte. Puede asignar este gasto de la carga de nuevo a las líneas de pedido de compra.
 
 ## <a name="purchase-order-actions"></a>Acciones del pedido de compra
-Una vez haya agregado el encabezado y las líneas al pedido de compra, a menudo debe completar pasos adicionales para que el pedido esté listo para su confirmación. Dado que hay muchas opciones disponibles, es posible que le resulte útil usar [Búsqueda de acción](../../fin-ops-core/fin-ops/get-started/action-search.md) para encontrar el elemento de menú relevante.  
+Una vez haya agregado el encabezado y las líneas al pedido de compra, a menudo debe completar pasos adicionales para que el pedido esté listo para su confirmación. Dado que hay muchas opciones disponibles, es posible que le resulte útil usar [Búsqueda de acción](../../fin-and-ops/get-started/action-search.md) para encontrar el elemento de menú relevante.  
 
 Puede configurar los productos del pedido para que tengan artículos adicionales. Los artículos adicionales son productos que deben comprarse o que se pueden comprar junto con otros productos. Los productos adicionales se pueden agregar de manera gratuita como productos complementarios, o puede decidir si desea agregarlos al pedido o no. Puede revisar los artículos adicionales después de cada línea de pedido que se agrega. Sin embargo, probablemente encontrará más adecuado revisar y agregar artículos adicionales pertinentes para todas las líneas de pedido con la página **Artículos adicionales**, que puede abrir en el panel de acciones.  
 
@@ -80,7 +82,8 @@ Los pedidos de compra se pueden configurar para requerir la asignación de fondo
 
 Es posible que deba retrasar la finalización de un pedido de compra. Por ejemplo, es posible que requiera información adicional sobre productos o servicios, o que tenga que obtener autorización para el gasto. Hay varias maneras de retener un pedido. Por ejemplo, puede esperar para confirmar el pedido. De forma alternativa, si se utiliza un flujo de trabajo de administración de cambios, no envíe el pedido para su aprobación. Si debe bloquear todos los pedidos para un proveedor determinado, también puede marcar el proveedor como **En espera** para su procesamiento en el maestro de proveedores. También hay circunstancias que pueden impedir el procesamiento del pedido. Por ejemplo, es posible evitar el procesamiento si se han superado los límites de crédito o si los fondos presupuestarios necesarios no están disponibles.
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Visión general de los pedidos de compra](purchase-order-overview.md)
 
@@ -92,6 +95,3 @@ Es posible que deba retrasar la finalización de un pedido de compra. Por ejempl
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

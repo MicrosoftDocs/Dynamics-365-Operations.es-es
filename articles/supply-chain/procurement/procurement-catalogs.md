@@ -1,28 +1,28 @@
 ---
 title: Visión general de catálogos de compras
 description: Este artículo describe, en un nivel superior, la manera en que los responsables de compras pueden configurar y mantener catálogos de compras. Los catálogos de compras definen los artículos y servicios que los empleados de las empresas puedan pedir para su uso interno.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, CatDisplayProductRelationAdd
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efe0541859822b4c6404f2833ae38e07b79dd634
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fcbe55adfc834b6170ca4c2a242d6bff5264ac8a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984304"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019788"
 ---
 # <a name="procurement-catalogs-overview"></a>Visión general de catálogos de compras
 
@@ -68,12 +68,10 @@ Las actualizaciones se publican de forma manual o automática en función de la 
 -   **Ambas**: si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Estática**, se debe actualizar manualmente cuando se actualizan estas categorías. Si el catálogo incluye categorías de productos que tienen el tipo de actualización predeterminada **Dinámica**, se actualiza automáticamente siempre que haya cambiado.
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Configurar una jerarquía de categorías de compras](tasks/set-up-procurement-category-hierarchy.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

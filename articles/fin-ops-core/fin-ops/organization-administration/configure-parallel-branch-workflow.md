@@ -2,9 +2,11 @@
 title: Configurar ramas paralelas en un flujo de trabajo
 description: Para configurar una rama paralela, realice los siguientes procedimientos en el editor de flujo de trabajo.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7dac62abe080ac362abc3456a7760bbd3f790fd
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9d23e981526fd17a3cb856fffcc39e76cf24da68
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066502"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797710"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Configurar ramas paralelas en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Para configurar una rama paralela, realice los siguientes procedimientos en el editor de flujo de trabajo.
 
@@ -51,6 +50,3 @@ Siga estos pasos para diseñar y configurar los elementos de una rama paralela.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de la creación de flujos de trabajo](create-workflow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

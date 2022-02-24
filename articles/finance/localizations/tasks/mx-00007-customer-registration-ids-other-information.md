@@ -2,23 +2,26 @@
 title: MX-00007 Id. de registro del cliente y otra información
 description: Este procedimiento le muestra cómo crear un cliente con la información fiscal y otra información relacionada utilizada en facturas electrónicas e informes jurídicos para México.
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, DirPartyQuickCreateForm,  DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d460721d798b06c8253b9c9be3993948560eb8afd9a179b7af70d58a0722bbf3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ba0e9fb9f149a0762c99f216d58c0f8e9fbefe7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760600"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407797"
 ---
 # <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 
@@ -44,6 +47,3 @@ Este procedimiento le muestra cómo crear un cliente con la información fiscal 
     * Si el tipo de empresa para este cliente es extranjero, este campo es obligatorio.  
 13. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

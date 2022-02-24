@@ -2,12 +2,15 @@
 title: Devolver artículos a través de múltiples pedidos y facturas de clientes
 description: En este tema se describe la funcionalidad que permite realizar devoluciones a través de múltiples pedidos y facturas de clientes en Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 08/27/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,27 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 410a78dca29f1d723a5b5ef43836d07ec5502a567ec81098241fafeb6354373b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e95f06ffaaf2d250b02a8458faa2d9e0b5ef5631
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459854"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Devolver artículos a través de múltiples pedidos y facturas de clientes
 
 [!include [banner](includes/banner.md)]
 
 
-Las devoluciones se pueden realizar a través de múltiples pedidos y facturas de clientes. 
+En este artículo se describen dos características que optimizan las devoluciones de pedidos de clientes en varias facturas. 
 
-## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Configure Commerce para admitir devoluciones a través de múltiples pedidos y facturas de clientes
+## <a name="enable-refunds-over-multiple-captures"></a>Habilitar devoluciones en varias capturas
 
-1. Vaya a **Parámetros de Commerce \> Pedidos de cliente**.
-1. Active el parámetro **Permitir devoluciones para múltiples pedidos**. 
+Esta característica permite varias devoluciones vinculadas con el mismo pedido de cliente. 
+
+1. Vaya al espacio de trabajo **Administración de características** y busque **Habilitar devoluciones en varias capturas**.
+2. Seleccione **Habilitar devoluciones en varios pedidos** y luego haga clic en **Habilitar**. 
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial
+
+Esta característica garantiza que cuando se devuelve un pedido con varias facturas, los impuestos serán, finalmente, iguales al importe de impuestos cargado originalmente. 
+
+1. Vaya al espacio de trabajo **Administración de características** y busque **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial**.
+2. Seleccione **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial** y luego haga clic en **Habilitar**. 
+
 
 ## <a name="process-returns"></a>Procesar devoluciones
 
-Después de que el parámetro se active y los cambios se sincronicen en las tiendas, el cajero de la tienda puede seleccionar múltiples pedidos de ventas a un cliente para su devolución.
+Después de que estas características se activen y los cambios se sincronicen en las tiendas, el cajero de la tienda puede seleccionar múltiples pedidos de ventas a un cliente para su devolución.
 
 Cuando se seleccionan los pedidos, se mostrará una lista de todos los productos que se pueden devolver en todas las facturas para los pedidos. El cajero puede seleccionar los productos que se van a devolver. Se creará un único pedido de devolución para todos los productos seleccionados.
+
+Si el pedido se devuelve en su totalidad, la cantidad de impuestos devueltos al cliente será igual a la cantidad de impuestos cargada originalmente.
+

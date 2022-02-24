@@ -57,6 +57,3 @@ Los títulos se han expandido en esta actualización. El campo ahora tiene 65 ca
 ## <a name="benefit-enrollment-status-report"></a>Informe de estado de inscripción en prestaciones
 
 Los informes incorporados sobre la inscripción abierta para prestaciones le ayudan a comprender fácilmente dónde se encuentran sus empleados en el proceso de inscripción abierta. Puede saber cuántos empleados han completado el proceso, lo están completando actualmente y no lo han iniciado. Además, puede ver rápidamente cualquier problema que se produzca durante la inscripción de empleados y un registro completo de todos los envíos de empleado. Por lo tanto, puede comprobar y auditar fácilmente los envíos de empleado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

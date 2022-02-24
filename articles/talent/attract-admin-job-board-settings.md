@@ -51,6 +51,3 @@ Usted quiere presentar sus vacantes a tantos candidatos cualificados como sea po
 
 > [!NOTE]
 > Microsoft y Attract no están involucradas en crear y mantener estos valores. Es su responsabilidad mantenerlas actualizadas en Attract y trabajar con Broadbean para resolver los problemas relacionados con sus credenciales.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

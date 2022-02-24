@@ -1,34 +1,33 @@
 ---
 title: Planes de compensación
-description: Este tema describe cómo utilizar la administración de compensación para administrar y procesar planes de compensación.
-author: twheeloc
-ms.date: 08/25/2021
-ms.topic: overview
+description: Los directores de compensación y de prestaciones pueden usar la Administración de compensaciones para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066909"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420374"
 ---
 # <a name="compensation-plans"></a>Planes de compensación
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Los directores de compensación y de prestaciones pueden usar **Administración de compensaciones** para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
+Los directores de compensación y de prestaciones pueden usar la Administración de compensaciones para mantener y procesar los planes de compensación variable y fija para los empleados de la organización.
 
 ### <a name="introduction"></a>Introducción
 
@@ -45,7 +44,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Más información</th>
+<th>Más información...</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +90,7 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 </tr>
 <tr class="even">
 <td>Punto de control</td>
-<td>El punto de control define qué considerar el índice salarial ideal para todos los empleados de un nivel de compensación. Para estructuras de plan medio, los puntos de control suelen ser el punto medio de los intervalos. Las estructuras de la ficha desplegable raramente usan puntos de control. Puede especificar el punto de control de un plan de compensación fija en la página **Planes de compensación fija**.</td>
+<td>El punto de control define qué considerar el índice salarial ideal para todos los empleados de un nivel de compensación. Para estructuras de plan medio, los puntos de control suelen ser el punto medio de los intervalos. Las estructuras de la ficha desplegable raramente usan puntos de control. Puede especificar el punto de control de un plan de compensación fija en el formulario Planes de compensación fija.</td>
 </tr>
 <tr class="odd">
 <td>Funciones de trabajo</td>
@@ -123,7 +122,8 @@ En la tabla siguiente se muestran los componentes del proceso de compensación q
 ## <a name="process-events"></a>Procesar eventos
 Los eventos de proceso se utilizan para calcular información de compensación para un período específico para todos los empleados inscritos en uno o varios planes de compensación fija o variable. Puede ejecutar un evento de proceso repetidamente, por ejemplo, para probar o actualizar los resultados de compensación calculados.
 
-## <a name="compensation-events"></a>Eventos de compensación
+<a name="compensation-events"></a>Eventos de compensación
+-------------------
 
 Cada vez que se ejecuta un evento de proceso, se crea un evento de compensación.  Los eventos de compensación contienen los resultados del proceso de compensación para cada empleado incluido en ese evento de proceso.  Cuando los cálculos son correctos, puede cargar el evento de compensación para actualizar los registros de compensación para los empleados afectados por el evento de procesos.
 
@@ -132,6 +132,3 @@ Después de ejecutar un evento de proceso, puede recomendar ajustes en la prima 
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

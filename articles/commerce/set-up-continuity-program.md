@@ -2,9 +2,11 @@
 title: Configurar programas de continuidad para centros de llamadas
 description: En este artículo se describe cómo configurar un programa de continuidad para un centro de llamadas.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 39c3e6d740bff2af27a2fba2ac4c406c01b43a87218fdc1dcfe094c147cd3de3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 941685c9bad3b8f288e2acdf31bb25c7bcaa7cba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969760"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>Configurar programas de continuidad para centros de llamadas
 
@@ -47,6 +49,3 @@ Una vez haya configurado un programa de continuidad como se describe anteriormen
 - **Ampliar líneas de continuidad** (si es necesario): amplíe el número de veces que un evento de continuidad se puede repetir. La periodicidad de los envíos se puede ampliar más allá de límites que se establecieron en el campo **Umbral de repetición de continuidad** en los parámetros del centro de llamadas
 - **Realizar una actualización de continuidad** (si es necesario) : sincronice los cambios entre el programa de continuidad y los pedidos de ventas principales de continuidad.
 - **Cerrar pedidos y líneas principales de continuidad**: cierre pedidos de continuidad.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,30 +2,35 @@
 title: Seleccionar un tema de sitio
 description: Este tema describe cómo establecer o cambiar el tema del sitio en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a13400258a86087b6137b08ca724cbbfc1a90ad4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964790"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556438"
 ---
 # <a name="select-a-site-theme"></a>Seleccionar un tema de sitio
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo establecer o cambiar el tema del sitio en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 El diseño y el estilo de un sitio (por ejemplo, fuentes, tamaños y colores) se definen por el tema que seleccione y aplica al sitio. Un tema se creado y se implementa por un desarrollador de su empresa. Para obtener una descripción general de los temas, consulte [Visión general de creación de temas](e-commerce-extensibility/theming.md). Para obtener más información acerca de cómo crear e implementar temas, consulte [Crear un tema nuevo](e-commerce-extensibility/create-theme.md).
 
@@ -51,6 +56,8 @@ Para seleccionar el tema que se aplica al sitio, siga estos pasos.
 
 [Agregar un icono de favoritos](add-favicon.md)
 
+[Agregar un mensaje de bienvenida](add-welcome-message.md)
+
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar idiomas al sitio](add-languages-to-site.md)
@@ -61,6 +68,3 @@ Para seleccionar el tema que se aplica al sitio, siga estos pasos.
 
 [Crear un tema nuevo](e-commerce-extensibility/create-theme.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

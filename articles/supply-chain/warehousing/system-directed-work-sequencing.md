@@ -2,9 +2,11 @@
 title: Secuenciación del trabajo dirigida por el sistema
 description: En este tema se ofrece información sobre la secuencia del trabajo dirigida por el sistema. Esta funcionalidad le permite ordenar y filtrar las órdenes de trabajo que el sistema presenta a los usuarios para su ejecución. Resulta útil en escenarios donde se requieren criterios adicionales para realizar el proceso de picking del almacén.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577825"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970215"
 ---
 # <a name="system-directed-work-sequencing"></a>Secuenciación del trabajo dirigida por el sistema
 
@@ -302,6 +304,3 @@ Las consultas de secuencia de trabajo dirigidas por el sistema son *inclusivas*.
 Por lo tanto, en el ejemplo de este escenario, la consulta también capturó el id. de trabajo *4*. Cuando se creó, se agregaron dos líneas: una para 25 ea y otra para 10 ea. El trabajo se siguió presentando al usuario, porque al menos una línea de trabajo tiene una cantidad inferior a 20 ea.
 
 Dependiendo del escenario, puede evitar este comportamiento utilizando interrupciones de trabajo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

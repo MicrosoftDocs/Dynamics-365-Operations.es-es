@@ -1,10 +1,12 @@
 ---
 title: Tipos de activos
 description: En este tema se explica cómo crear tipos de activos en Administración de activos. También describe los elementos relacionados con los tipos de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730384"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017426"
 ---
 # <a name="asset-types"></a>Tipos de activos
 
@@ -45,9 +47,9 @@ Primero, se deben configurar los tipos de activo requeridos. A continuación, cr
 7. Seleccione **Guardar**.
 8. En la ficha desplegable **Tipos de trabajos de mantenimiento**, seleccione los tipos de trabajo de mantenimiento que deben relacionarse con el tipo de activo.
 
-    - Para seleccionar un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha.](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo de mantenimiento seleccionados**.
-    - Para seleccionar todos los tipos de trabajo de mantenimiento disponibles, seleccione el botón de ![flecha todo hacia delante.](media/30-setup-for-objects.png) . Todos los tipos de trabajo de mantenimiento se transfieren del campo **Tipos de trabajo de mantenimiento restantes** al campo **Tipos de trabajo de mantenimiento seleccionados**.
-    - Para cancelar la selección de un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda.](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo de mantenimiento restantes**.
+    - Para seleccionar un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para seleccionar todos los tipos de trabajo de mantenimiento disponibles, seleccione el botón de ![flecha todo hacia delante](media/30-setup-for-objects.png). Todos los tipos de trabajo de mantenimiento se transfieren del campo **Tipos de trabajo de mantenimiento restantes** al campo **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para cancelar la selección de un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo de mantenimiento restantes**.
 
 9. También puede seleccionar los contadores que deben estar relacionados con el tipo de activo. En la ficha desplegable **Contadores**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. Para obtener más información sobre la configuración de los contadores, consulte [Contadores](counters.md).
 10. También puede seleccionar los tipos de atributo que deben estar relacionados con el tipo de activo. En la ficha desplegable **Evaluaciones de condición**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. A continuación, cree la secuencia preferida de tipos de atributo, seleccione un tipo de atributo en el campo **Tipos de atributo seleccionados** y use los botones de flecha arriba y abajo para moverlo. La secuencia de tipos de atributo se mostrará en los activos que usen este tipo de activo. Para obtener más información sobre los atributos de activo, consulte [Tipos de atributo de mantenimiento](../setup-for-functional-locations/specification-types.md).
@@ -94,6 +96,3 @@ En la página **Recambios**, también puede crear nuevas piezas de repuesto para
 
 Para ver si el recambio de la línea seleccionada se usa en otro lugar en Administración de activos (por ejemplo, en relación con activos y órdenes de trabajo), seleccione **Artículo donde utilizado** para abrir la página **Artículo donde utilizado**. 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

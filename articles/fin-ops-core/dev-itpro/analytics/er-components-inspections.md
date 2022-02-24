@@ -2,9 +2,11 @@
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
 description: Este tema explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
 author: NickSelin
-ms.date: 01/03/2022
+manager: AnnBe
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074800"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797350"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
 [!include[banner](../includes/banner.md)]
 
-Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](er-overview-components.md#format-components-for-outgoing-electronic-documents) configurado y [asignación de modelos](er-overview-components.md#model-mapping-component) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se ejecuta una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, la comprobación proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
+Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) con [formato](general-electronic-reporting.md#FormatComponentOutbound) configurado y [asignación de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) puede ser [validado](er-fillable-excel.md#validate-an-er-format) en tiempo de diseño. Durante esta validación, se ejecuta una verificación de coherencia para ayudar a prevenir problemas de runtime que puedan ocurrir, como errores de ejecución y degradación del rendimiento. Para cada problema que se encuentra, la comprobación proporciona la ruta de un elemento problemático. Para algunos problemas, hay una solución automática disponible.
 
 De forma predeterminada, la validación se aplica automáticamente en los siguientes casos para una configuración de ER que contiene los componentes de ER mencionados anteriormente:
 
@@ -203,79 +205,37 @@ La tabla siguiente proporciona información general de las inspecciones que prop
 <td>Advertencia</td>
 <td>Nombre definido &lt;nombre del componente&gt; no existe en la hoja de Excel &lt;nombre de la hoja&gt;</td>
 </tr>
-<tr>
-<td><a href='#i14'>Formato no sincronizado</a></td>
-<td>Integridad de datos</td>
-<td>Advertencia</td>
-<td>
-<p>La etiqueta &lt;Control de contenido de Word etiquetado&gt; no existe en el archivo de plantilla de Word</p>
-<p><b>Error de runtime:</b> la etiqueta &lt;Control de contenido de Word etiquetado&gt; no existe en el archivo de plantilla de Word.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i15'>Sin asignación predeterminada</a></td>
-<td>Integridad de datos</td>
-<td>Error</td>
-<td>
-<p>Existe más de una asignación de modelo para el modelo de datos &lt;nombre del modelo (descriptor raíz)&gt; en las configuraciones &lt;nombres de configuración separados por comas&gt;. Establezca una de las configuraciones como predeterminada</p>
-<p><b>Error de runtime:</b> existe más de una asignación de modelo para el &lt;modelo de datos de nombre del modelo (descriptor raíz)&gt; en las configuraciones &lt;nombres de configuración separados por comas&gt;. Establezca una de las configuraciones como predeterminada.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i16'>Configuración incoherente de los componentes de encabezado o pie de página</a></td>
-<td>Integridad de datos</td>
-<td>Error</td>
-<td>
-<p>Encabezados/pies de página (&lt;tipo de componente: encabezado o pie de página&gt;) incoherentes</p>
-<p><b>Runtime:</b> el último componente configurado se utiliza en tiempo de ejecución si se ejecuta la versión de borrador del formato ER configurado.</p>
-</td>
-</tr>
-<tr>
-<td><a href='#i17'>Configuración incoherente del componente de página</a></td>
-<td>Integridad de datos</td>
-<td>Error</td>
-<td>Hay más de dos componentes de rango sin replicación. Elimine los componentes innecesarios.</td>
-</tr>
-<tr>
-<td><a href='#i18'>Ejecutabilidad de una expresión con función ORDERBY</a></td>
-<td>Ejecutabilidad</td>
-<td>Error</td>
-<td>
-<p>La expresión de lista de la función ORDERBY no es consultable.</p>
-<p><b>Error de runtime:</b> No se admite la ordenación. Valide la configuración para obtener más detalles sobre esto.</p>
-</td>
-</tr>
 </tbody>
 </table>
 
 ## <a name="type-conversion"></a><a id="i1"></a>Conversión de tipos
 
-ER comprueba si el tipo de datos de un campo de modelo de datos es compatible con el tipo de datos de una expresión que está configurada como el enlace de ese campo. Si los tipos de datos son incompatibles, se produce un error de validación en el diseñador de asignación del modelo ER. El mensaje que recibe indica que ER no puede convertir una expresión de tipo A en un campo de tipo B.
+ER comprueba si el tipo de datos de un campo de modelo de datos es compatible con el tipo de datos de una expresión que está configurada como el enlace de ese campo. Si los tipos de datos son incompatibles, se produce un error de validación en el diseñador de asignación del modelo informes electrónicos. El mensaje que recibe indica que ER no puede convertir una expresión de tipo A en un campo de tipo B.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
-1. Comience a configurar el modelo de datos ER y los componentes de asignación del modelo ER simultáneamente.
+1. Comience a configurar el modelo de datos de informes electrónicos y los componentes de asignación del modelo de informes electrónicos simultáneamente.
 2. En el árbol del modelo de datos, agregue un campo con el nombre **X** y seleccione **Entero** como tipo de datos.
 
-    ![El campo X y el tipo de datos Entero se agregaron al árbol del modo de datos en la página Modelo de datos.](./media/er-components-inspections-01.png)
+    ![El campo X y el tipo de datos Entero se agregaron al árbol del modo de datos en la página Modelo de datos](./media/er-components-inspections-01.png)
 
-3. En el diseñador de asignación de datos, en el panel **Orígenes de datos**, agregue un origen de datos del tipo **Campo calculado**.
+3. En el panel origen de datos de asignación de modelo, agregue un origen de datos del tipo **Campo calculado**.
 4. Nombre la nueva fuente de datos **Y** y configúrela para que contenga la expresión `INTVALUE(100)`.
 5. Enlazar **X** a **Y**.
 6. En el diseñador de modelos de datos, cambie el tipo de datos del campo **X** de **Entero** a **Int64**.
 7. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos**.
 
-    ![Validar el componente de asignación del modelo editable en la página Diseñador de asignación de modelos.](./media/er-components-inspections-01.gif)
+    ![validar el componente de asignación del modelo editable en la página Diseñador de asignación de modelos](./media/er-components-inspections-01.gif)
 
 8. Seleccione **Validar** para inspeccionar el componente de asignación del modelo de la configuración de ER seleccionada en la página **Configuraciones**.
 
-    ![Inspeccionar la asignación del modelo en la página Configuraciones.](./media/er-components-inspections-01a.png)
+    ![Validar para inspeccionar el componente de asignación del modelo en la página Configuraciones](./media/er-components-inspections-01a.png)
 
 9. Observe que se produce un error de validación. El mensaje indica que el valor del tipo **Entero** que la expresión `INTVALUE(100)` del origen de datos **Y** devuelve no se puede almacenar en el campo del modelo de datos **X** del tipo **Int64**.
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar un formato que esté configurado para usar la asignación del modelo.
 
-![Errores de runtime en la página del Diseñador de formato.](./media/er-components-inspections-01b.png)
+![Errores de runtime en la página del Diseñador de formato](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -305,7 +265,7 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 6. En el árbol de estructura de formato, cambie el tipo de datos del elemento **Y** de formato de **Entero** a **Int64**.
 7. Seleccione **Validar** para inspeccionar el componente de formato editable en la página **Diseñador de formato**.
 
-    ![Validación de la compatibilidad de tipos en la página Diseñador de formatos.](./media/er-components-inspections-02.gif)
+    ![Validación de la compatibilidad de tipos en la página del diseñador de formatos](./media/er-components-inspections-02.gif)
 
 8. Observe que se produce un error de validación. El mensaje indica que la expresión configurada solo puede aceptar valores **Int64**. Por tanto, el valor de del campo **X** del modelo de datos del tipo **Entero** no se puede introducir en el elemento de formato **Y**.
 
@@ -329,18 +289,18 @@ ER comprueba si las expresiones vinculantes contienen solo orígenes de datos qu
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
-1. Comience a configurar el modelo de datos ER y los componentes de asignación del modelo ER simultáneamente.
+1. Comience a configurar el modelo de datos de informes electrónicos y los componentes de asignación del modelo de informes electrónicos simultáneamente.
 2. En el árbol del modelo de datos, agregue un campo con el nombre **X** y seleccione **Entero** como tipo de datos.
 
-    ![El árbol de modelo de datos con el campo X y el tipo de datos Entero en la página Modelo de datos.](./media/er-components-inspections-01.png)
+    ![El árbol de modelo de datos con el campo X y el tipo de datos Entero en la página Modelo de datos](./media/er-components-inspections-01.png)
 
-3. En el diseñador de asignación de datos, en el panel **Orígenes de datos**, agregue un origen de datos del tipo **Campo calculado**.
+3. En el panel origen de datos de asignación de modelo, agregue un origen de datos del tipo **Campo calculado**.
 4. Nombre la nueva fuente de datos **Y** y configúrela para que contenga la expresión `INTVALUE(100)`.
 5. Enlazar **X** a **Y**.
-6. En el diseñador de asignación de modelos, en el panel **Orígenes de datos**, elimine el origen de datos **Y**.
+6. En el diseñador de asignación de modelos, en el panel de orígenes de datos, elimine el origen de datos **Y**.
 7. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos**.
 
-    ![Inspeccione el componente de asignación del modelo ER editable en la página Diseñador de asignación de modelos.](./media/er-components-inspections-03.gif)
+    ![Inspeccione el componente de asignación del modelo ER editable en la página Diseñador de asignación de modelos](./media/er-components-inspections-03.gif)
 
 8. Observe que se produce un error de validación. El mensaje afirma que la vinculación del campo del modelo de datos **X** contiene la ruta que se refiere al origen de datos **Y**, pero esta fuente de datos no se encuentra.
 
@@ -356,11 +316,11 @@ Desenlaza el campo **X** del modelo de datos para dejar de referirse al origen d
 
 #### <a name="option-2"></a>Opción 2
 
-En el panel **Orígenes de datos** del diseñador de asignación de modelos, agregue de nuevo el origen de datos **Y**.
+En el panel orígenes de datos del diseñador de asignación de modelo ER, agregue de nuevo el origen de datos **Y**.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Ejecutabilidad de una expresión con función FILTER
 
-La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada. ER comprueba si se puede establecer una consulta SQL directa a una fuente de datos a la que se hace referencia en la función `FILTER`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que la expresión ER que incluye la función `FILTER` no se puede ejecutar en runtime.
+La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada. ER comprueba si se puede establecer una consulta SQL directa a una fuente de datos a la que se hace referencia en la función `FILTER`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que la expresión ER que incluye la función `FILTER` no se puede ejecutar en runtime. 
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -374,13 +334,13 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 8. Nombre el nuevo campo anidado **$AccNumber** y configúrelo para que contenga la expresión `TRIM(Vendor.AccountNum)`.
 9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión `FILTER(Vendor, Vendor.AccountNum="US-101")` en el origen de datos **Proveedor** pueda consultarse en el origen de datos.
 
-    ![Verificación de que la expresión que tiene la función FILTER se puede consultar en la página Diseñador de asignación de modelos.](./media/er-components-inspections-04.gif)
+    ![La verificación de la expresión se puede consultar en la página del diseñador de asignación de modelos](./media/er-components-inspections-04.gif)
 
 10. Observe que se produce un error de validación, porque el origen de datos **Proveedor** contiene un campo anidado del tipo **Campo calculado** que no permite la expresión del origen de datos **FilteredVendor** se traduzca a la instrucción SQL directa.
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar un formato que esté configurado para usar la asignación del modelo.
 
-![Errores de runtime que ocurren cuando ejecuta el formato editable en la página del diseñador de formato.](./media/er-components-inspections-04a.png)
+![Errores de runtime que ocurren cuando ejecuta el formato editable en la página del diseñador de formato](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -398,7 +358,7 @@ Cambiar la expresión del origen de datos **FilteredVendor** de `FILTER(Vendor, 
 
 ## <a name="executability-of-a-groupby-data-source"></a><a id="i5"></a>Ejecutabilidad de una fuente de datos GROUPBY
 
-El origen de datos **GROUPBY** divide el resultado de la consulta en grupos de registros, generalmente con el propósito de realizar una o más agregaciones en cada grupo. Cada origen de datos **GROUPBY** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **GROUPBY** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a un origen de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que el origen de datos configurado **GROUPBY** no se puede ejecutar en runtime.
+El origen de datos **GROUPBY** divide el resultado de la consulta en grupos de registros, generalmente con el propósito de realizar una o más agregaciones en cada grupo. Cada origen de datos **GROUPBY** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **GROUPBY** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a un origen de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que el origen de datos configurado **GROUPBY** no se puede ejecutar en runtime.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -411,23 +371,23 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     - Seleccione el origen de datos **Trans** como la fuente de registros que deben agruparse.
     - En el campo **Ubicación de ejecución**, seleccione **Consulta** para especificar que desea ejecutar este origen de datos en el nivel de la base de datos.
 
-    ![Configuración del origen de datos en la página Editar parámetros 'Agrupar por'.](./media/er-components-inspections-05a.gif)
+    ![Configuración del origen de datos en la página Editar parámetros 'Agrupar por'](./media/er-components-inspections-05a.gif)
 
 6. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión configurada **GroupedTrans** pueda consultarse.
 7. Modifique el origen de datos **Trans** agregando un campo anidado del tipo **Campo calculado** para obtener el número de cuenta de proveedor recortado.
 8. Nombre el nuevo origen de datos **$AccNumber** y configúrelo para que contenga la expresión `TRIM(Trans.AccountNum)`.
 
-    ![Configurar el origen de datos en la página del diseñador de asignación de modelo.](./media/er-components-inspections-05a.png)
+    ![Configurar el origen de datos en la página del diseñador de asignación de modelo](./media/er-components-inspections-05a.png)
 
 9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión configurada **GroupedTrans** pueda consultarse.
 
-    ![Validar el componente de asignación del modelos ER y verificar que el origen de datos GroupedTrans pueda consultarse en la página Diseñador de asignación de modelos.](./media/er-components-inspections-05b.png)
+    ![Valide el componente de asignación del modelo ER y verifique que el origen de datos configurado, GroupedTrans pueda consultarse en la página del diseñador de asignación de modelo](./media/er-components-inspections-05b.png)
 
 10. Observe que se produce un error de validación, porque el origen de datos **Trans** contiene un campo anidado del tipo **Campo calculado** que no permite que la llamada del origen de datos **GroupedTrans** se traduzca a la instrucción SQL directa.
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar un formato que esté configurado para usar la asignación del modelo.
 
-![Errores de runtime que ocurren cuando la advertencia se ignora en la página del diseñador de formato.](./media/er-components-inspections-05c.png)
+![Errores de runtime que ocurren cuando la advertencia se ignora en la página del diseñador de formato](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -445,7 +405,7 @@ Cambie el valor del campo **Ubicación de ejecución** para el origen de datos *
 
 ## <a name="executability-of-a-join-data-source"></a><a id="i6"></a>Ejecutabilidad de una fuente de datos JOIN
 
-El origen de datos [JOIN](er-join-data-sources.md) combina registros de dos o más tablas de base de datos, según los campos relacionados. Cada origen de datos **JOIN** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **JOIN** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a orígenes de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa SQL con al menos un origen de datos referenciado, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que el origen de datos configurado **JOIN** no se puede ejecutar en runtime.
+El origen de datos [JOIN](er-join-data-sources.md) combina registros de dos o más tablas de base de datos, según los campos relacionados. Cada origen de datos **JOIN** se puede configurar para que se ejecute en el nivel de la base de datos o en la memoria. Cuando un origen de datos **JOIN** está configurado para que se ejecute en el nivel de la base de datos, ER comprueba si se puede establecer una consulta SQL directa a orígenes de datos a la que se hace referencia en ese origen de datos. Si no se puede establecer una consulta directa SQL con al menos un origen de datos referenciado, se produce un error de validación en el diseñador de asignación de modelos ER. El mensaje que recibe indica que el origen de datos configurado **JOIN** no se puede ejecutar en runtime.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -463,21 +423,21 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     2. Agregue el origen de datos **Vendor.FilteredTrans** como el segundo conjunto de registros para unirse. Seleccione **INNER** como el tipo.
     3. En el campo **Ejecutar**, seleccione **Consulta** para especificar que desea ejecutar este origen de datos en el nivel de la base de datos.
 
-    ![Configurar el origen de datos en la página del diseñador de Unir.](./media/er-components-inspections-06a.gif)
+    ![Configurar el origen de datos en la página del diseñador de Unir](./media/er-components-inspections-06a.gif)
 
 10. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión configurada **JoinedList** pueda consultarse.
 11. Cambiar la expresión del origen de datos **Vendor.FilteredTrans** de `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` a `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión configurada **JoinedList** pueda consultarse.
 
-    ![Validar el componente de asignación de modelos editable y verificar que el origen de datos JoinedList pueda consultarse en la pagina del diseñador de asignación de modelos.](./media/er-components-inspections-06b.png)
+    ![Valide el componente de asignación del modelo editable y verifique que la expresión configurada JoinedList pueda consultarse en la pagina del diseñador de asignación de modelo](./media/er-components-inspections-06b.png)
 
 13. Observe que se produce un error de validación, porque la expresión del origen de datos **Vendor.FilteredTrans** no se puede traducir a la llamada SQL directa. Además, la llamada SQL directa no permite la llamada al origen de datos **JoinedList** que se traducirá a la sentencia SQL directa.
 
-    ![Errores de runtime de la validación fallida del origen de datos JoinedList en la página Diseñador de asignación de modelos.](./media/er-components-inspections-06c.png)
+    ![Errores de runtime de la validación fallida de la fuente de datos JoinedList en la página del diseñador de mapas de modelos](./media/er-components-inspections-06c.png)
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar un formato que esté configurado para usar la asignación del modelo.
 
-![Ejecutar el formato editable en la página Diseñador de formatos.](./media/er-components-inspections-06e.png)
+![Ejecutar el formato editable en la página del diseñador de formatos](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -489,7 +449,7 @@ No hay ninguna opción disponible para solucionar este problema automáticamente
 
 Cambie la expresión del origen de datos **Vendor.FilteredTrans** de `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` de vuelta a `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, como aconsejaba la advertencia.
 
-![Expresión actualizada del origen de datos en la página del diseñador de asignación de modelo.](./media/er-components-inspections-06d.png)
+![Expresión actualizada del origen de datos en la página del diseñador de asignación de modelo](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Opción 2
 
@@ -497,7 +457,7 @@ Cambie el valor del campo **Ejecutar** para el origen de datos **JoinedList** de
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Preferibilidad de la función FILTER frente a WHERE
 
-La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. La función [WHERE](er-functions-list-where.md) recupera todos los registros de la fuente dada y registra la selección en la memoria. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de ambas funciones y especifica un origen para obtener registros. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **WHERE**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de mapas del modelo ER. El mensaje que recibe recomienda que utilice la función **FILTER** en lugar de la función **WHERE** para ayudar a mejorar la eficiencia.
+La función ER incorporada [FILTRAR](er-functions-list-filter.md) se utiliza para acceder a tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada SQL para obtener los datos requeridos como una lista de registros. La función [WHERE](er-functions-list-where.md) recupera todos los registros de la fuente dada y registra la selección en la memoria. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de ambas funciones y especifica un origen para obtener registros. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **WHERE**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de asignaciones del modelo ER. El mensaje que recibe recomienda que utilice la función **FILTER** en lugar de la función **WHERE** para ayudar a mejorar la eficiencia.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -512,11 +472,11 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 9. Nombre el nuevo origen de datos **FilteredVendor** y configúrelo para que contenga la expresión `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos**.
 
-    ![Inspeccione el componente de asignación del modelo editable en la página Diseñador de asignación de modelos.](./media/er-components-inspections-07a.png)
+    ![Valide para inspeccionar el componente de asignación del modelo editable en la página Diseñador de asignación de modelos](./media/er-components-inspections-07a.png)
 
 11. Tenga en cuenta que las advertencias de validación recomiendan que utilice la función **FILTER** en lugar de la función **WHERE** para los orígenes de datos **FilteredVendor** y **FilteredTrans** fuentes de datos.
 
-    ![Recomendación de usar la función FILTRO en lugar de la función DONDE en la página Diseñador de asignación de modelos.](./media/er-components-inspections-07b.png)
+    ![Advertencias de validación que recomiendan la función de filter en lugar de la función where en la página del diseñador de mapas de modelos](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -524,7 +484,7 @@ Seleccione **Reparar** para reemplazar automáticamente la función **WHERE** co
 
 Alternativamente, puede seleccionar la fila para una sola advertencia en la cuadrícula y luego seleccionar **Reparar seleccionado**. En este caso, la expresión se cambia automáticamente solo en el origen de datos que se menciona en la advertencia seleccionada.
 
-![Seleccione Reparar para reemplazar automáticamente la función DONDE con la función FILTROr en la página Diseñador de asignación de modelos.](./media/er-components-inspections-07c.png)
+![Seleccione Reparar para reemplazar automáticamente la función where con la función filter en la página del diseñador de mapas de modelos](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Resolución manual
 
@@ -532,7 +492,7 @@ Puede ajustar manualmente las expresiones de todos los orígenes de datos en la 
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Preferibilidad de la función ALLITEMSQUERY vs ALLITEMS
 
-Las funciones integradas [ALLITEMS](er-functions-list-allitems.md) y [ALLITEMSQUERY](er-functions-list-allitemsquery.md) de ER recuperan un valor aplanado de **Lista de registros** que consta de una lista de registros que representan todos los elementos que coinciden con la ruta especificada. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **ALLITEMS**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de mapas del modelo ER. El mensaje que recibe recomienda que utilice la función **ALLITEMSQUERY** en lugar de la función **ALLITEMS** para ayudar a mejorar la eficiencia.
+Las funciones integradas [ALLITEMS](er-functions-list-allitems.md) y [ALLITEMSQUERY](er-functions-list-allitemsquery.md) de ER recuperan un valor aplanado de **Lista de registros** que consta de una lista de registros que representan todos los elementos que coinciden con la ruta especificada. ER comprueba si se puede establecer una llamada SQL directa a una fuente de datos a la que se hace referencia en la función **ALLITEMS**. Si no se puede establecer una llamada directa, se produce una advertencia de validación en el diseñador de asignaciones del modelo ER. El mensaje que recibe recomienda que utilice la función **ALLITEMSQUERY** en lugar de la función **ALLITEMS** para ayudar a mejorar la eficiencia.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 
@@ -541,15 +501,15 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 3. Asigne un origen de datos nuevo **Proveedor**. En el campo **Tabla**, seleccione **VendTable** para especificar que este origen de datos solicitará la tabla VendTable.
 4. Agregue un origen de datos del tipo **Campo calculado** para obtener registros de varios proveedores.
 5. Nombre el nuevo origen de datos **FilteredVendor** y configúrelo para que contenga la expresión `FILTER(Vendor, OR(Vendor.AccountNum="US-101",Vendor.AccountNum="US-102"))`.
-6. Agregue un origen de datos del tipo **Campo calculado** para obtener las transacciones de todos los proveedores filtrados.
+6. Agregue un origen de datos del tipo **Campo calculado** para obtener transacciones de todos los proveedores filtrados.
 7. Nombre el nuevo origen de datos **FilteredVendorTrans** y configúrelo para que contenga la expresión `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos**.
 
-    ![Inspeccione el componente de asignación del modelo editable en la página Diseñador de asignación de modelos.](./media/er-components-inspections-08a.png)
+    ![Página del diseñador de asignación de modelos, botón Validar](./media/er-components-inspections-08a.png)
 
 9. Observe que se produce una advertencia de validación. El mensaje recomienda que utilice la función **ALLITEMSQUERY** en lugar de la función **ALLITEMS** función para el origen de datos **FilteredVendorTrans**.
 
-    ![Recomendación de usar la función ALLITEMSQUERY en lugar de la función ALLITEMS en la página Diseñador de asignación de modelos.](./media/er-components-inspections-08b.png)
+    ![Advertencia de validación para usar la función ALLITEMSQUERY en lugar de la función ALLITEMS en el componente de mapeo del modelo ER en la página del diseñador de asignación del modelo](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -557,7 +517,7 @@ Seleccione **Reparar** para reemplazar automáticamente la función **ALLITEMS**
 
 Alternativamente, puede seleccionar la fila para una sola advertencia en la cuadrícula y luego seleccionar **Reparar seleccionado**. En este caso, la expresión se cambia automáticamente solo en el origen de datos que se menciona en la advertencia seleccionada.
 
-![Página del diseñador de asignación de modelos, con Selección de corrección seleccionado.](./media/er-components-inspections-08c.png)
+![Página del diseñador de mapeo de modelos, seleccione Reparar seleccionado](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Resolución manual
 
@@ -578,9 +538,9 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     - Agregue un campo anidado del tipo **Cadena** y nómbrelo **Nombre**.
     - Agregue un campo anidado del tipo **Cadena** y nómbrelo **AccountNumber**.
 
-    ![Agregar campos anidados en la página del modelo de datos.](./media/er-components-inspections-09a.png)
+    ![Agregar campos anidados en la página del modelo de datos](./media/er-components-inspections-09a.png)
 
-6. En el diseñador de asignación de modelos, en el panel **Orígenes de datos**, agregue un origen de datos al tipo **Dynamics 365 for Operations \\ Registros de tabla**.
+6. En el panel origen de datos de asignación de modelo, agregue un origen de datos del tipo **Dynamics 365 for Operations \\ Registros de tabla**.
 7. Asigne un origen de datos nuevo **Proveedor**. En el campo **Tabla**, seleccione **VendTable** para especificar que este origen de datos solicitará la tabla VendTable.
 8. Agregue un origen de datos del tipo **General \\ Parámetro de entrada de usuario** para buscar una cuenta de proveedor en el cuadro de diálogo de runtime.
 9. Asigne un origen de datos nuevo **RequestedAccountNum**. En el campo **Etiqueta**, introduzca el **Número de cuenta del proveedor**. En el campo **Nombre del tipo de datos de operaciones**, deje el valor predeterminado, **Descripción**.
@@ -592,7 +552,7 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     - Enlazar **FilteredVendor.AccountNum** a **Vendor.AccountNumber**.
     - Enlazar **FilteredVendor.'name()'** a **Vendor.Name**.
 
-    ![Enlazar elementos del modelo de datos en la página del diseñador de asignación de modelo.](./media/er-components-inspections-09b.png)
+    ![Enlazar elementos del modelo de datos en la página del diseñador de asignación de modelo](./media/er-components-inspections-09b.png)
 
 13. En el árbol de estructura de formato, agregue los siguientes elementos para generar un documento saliente en formato XML que contenga los detalles del proveedor:
 
@@ -610,15 +570,15 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 
 15. Seleccione **Validar** para inspeccionar el componente de formato editable en la página **Diseñador de formato**.
 
-    ![Validar los elementos de formato que vinculó a los orígenes de datos en la página Diseñador de formatos.](./media/er-components-inspections-09c.png)
+    ![Valide los elementos de formato que vinculó a las fuentes de datos en la página del diseñador de formatos](./media/er-components-inspections-09c.png)
 
 16. Observe que se produce un error de validación. El mensaje indica que se puede generar un error para el formato configurado de los componentes **Instrucción\\Entidad\\Nombre** e **Instrucción\\Entidad\\AccountNum** en runtime si la lista `model.Vendor` esta vacía.
 
-    ![Error de validación sobre un posible error para los componentes de formato configurados.](./media/er-components-inspections-09d.png)
+    ![Error de validación que notifica un posible error para los componentes de formato configurados](./media/er-components-inspections-09d.png)
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia, selecciona **Ejecutar** para ejecutar el formato y seleccione el número de cuenta de un proveedor inexistente. Como el proveedor solicitado no existe, la lista `model.Vendor` estará vacía (es decir, no contendrá registros).
 
-![Errores de runtime que se producen durante la ejecución de asignación de formato.](./media/er-components-inspections-09e.png)
+![Errores de runtime debidos a que ocurrieron durante la ejecución de asignación de formato](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -630,7 +590,7 @@ Para la fila seleccionada en la cuadrícula en la pestaña **Advertencias**, pue
 
 Puede vincular el elemento de formato **Instrucción\\Entidad\\Nombre** al elemento de origen de datos `model.Vendor`. En runtime, este enlace llama primero al origen de datos `model.Vendor`. Cuando `model.Vendor` devuelve una lista de registros vacía, los elementos de formato anidados no se ejecutan. Por lo tanto, no se producen advertencias de validación para esta configuración de formato.
 
-![Vincule el elemento de formato al elemento del origen de datos en la página Diseñador de formatos.](./media/er-components-inspections-09e.gif)
+![Vincule el elemento de formato al elemento del origen de datos en la página del diseñador de formatos](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opción 2
 
@@ -641,7 +601,7 @@ Cambiar el enlace del elemento de formato **Instrucción\\Entidad\\Nombre** de `
 
 Por lo tanto, no se producen advertencias de validación para el elemento de formato **Instrucción\\Entidad\\Nombre** cuando está vinculado a la expresión `FIRSTORNULL(model.Vendor).Name`.
 
-![El enlace modificado resuelve las advertencias de validación en la página Diseñador de formatos.](./media/er-components-inspections-09f.gif)
+![El enlace modificado resuelve las advertencias de validación en la página del diseñador de formatos](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Opción 3
 
@@ -668,17 +628,17 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 7. Nombre el nuevo origen de datos **FilteredVendor** y configúrelo para que contenga la expresión `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Marca el origen de datos configurado **Proveedor** como en caché.
 
-    ![Configurar el componente de asignación de modelos en la página Diseñador de asignación de modelos.](./media/er-components-inspections-10a.gif)
+    ![Configura el componente de asignación del modelo en la página Diseñador de asignación de modelos](./media/er-components-inspections-10a.gif)
 
 9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos**.
 
-    ![Validar la función FILTRO aplicada al origen de datos de datos del proveedor de caché en la página Diseñador de mapas de asignación de modelos.](./media/er-components-inspections-10a.png)
+    ![Valide la función de filtro aplicada al origen de datos de datos del proveedor de caché en la página del diseñador de mapas de modelos](./media/er-components-inspections-10a.png)
 
 10. Observe que se produce un error de validación. El mensaje dice que la función **FILTER** no se puede aplicar al origen de datos **Proveedor** en caché.
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar el formato.
 
-![Error de runtime que ocurre durante la ejecución de asignación de formato en la página Diseñador de formato.](./media/er-components-inspections-10b.png)
+![Error de runtime que ocurre durante la ejecución de asignación de formato en la página del diseñador de formato](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -709,12 +669,12 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     - Agregue un campo anidado del tipo **Cadena** y nómbrelo **Nombre**.
     - Agregue un campo anidado del tipo **Cadena** y nómbrelo **AccountNumber**.
 
-    ![Agregar campos anidados al artículo del proveedor en la página Modelo de datos.](./media/er-components-inspections-11a.png)
+    ![Agregue campos anidados al artículo del proveedor en la página Modelo de datos](./media/er-components-inspections-11a.png)
 
-6. En el diseñador de asignación de modelos, en el panel **Orígenes de datos**, agregue un origen de datos al tipo **Dynamics 365 for Operations \\ Registros de tabla**.
+6. En el panel origen de datos de asignación de modelo, agregue un origen de datos del tipo **Dynamics 365 for Operations \\ Registros de tabla**.
 7. Asigne un origen de datos nuevo **Proveedor**. En el campo **Tabla**, seleccione **VendTable** para especificar que este origen de datos solicitará la tabla VendTable.
 8. Agregue un origen de datos del tipo **General \\ Parámetro de entrada de usuario** para buscar una cuenta de proveedor en el cuadro de diálogo de runtime.
-9. Asigne un origen de datos nuevo **RequestedAccountNum**. En el campo **Etiqueta**, introduzca el **Número de cuenta del proveedor**. En el campo **Nombre del tipo de datos de operaciones**, deje el valor predeterminado, **Descripción**.
+9 Nombre al nuevo origen de datos **RequestedAccountNum**. En el campo **Etiqueta**, introduzca el **Número de cuenta del proveedor**. En el campo **Nombre del tipo de datos de operaciones**, deje el valor predeterminado, **Descripción**.
 10. Agregue un origen de datos del tipo **Campo calculado** para filtrar un proveedor al que se consulte.
 11. Nombre el nuevo origen de datos **FilteredVendor** y configúrelo para que contenga la expresión `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 12. Vincule los elementos del modelo de datos a los orígenes de datos configurados de la siguiente manera:
@@ -725,7 +685,7 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     > [!NOTE]
     > El campo **Vendor.Name** del modelo de datos permanece sin consolidar.
 
-    ![Elementos del modelo de datos vinculados a orígenes de datos configurados y un elemento de modo de datos que se encuentra desenlazado en la página Diseñador de asignación de modelos.](./media/er-components-inspections-11b.png)
+    ![Elementos del modelo de datos vinculados a orígenes de datos configurados y un elemento de modo de datos que se encuentra en la página del diseñador de asignación del modelo](./media/er-components-inspections-11b.png)
 
 13. En el árbol de estructura de formato, agregue los siguientes elementos para generar un documento saliente en formato XML que contenga los detalles de los proveedores consultados:
 
@@ -744,15 +704,15 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 
 15. Seleccione **Validar** para inspeccionar el componente de formato editable en la página **Diseñador de formato**.
 
-    ![Validar el componente de formato ER en la página Diseñador de formato.](./media/er-components-inspections-11c.png)
+    ![Validar el componente de formato ER en la página de diseñador de formato](./media/er-components-inspections-11c.png)
 
 16. Observe que se produce una advertencia de validación. El mensaje dice que el campo del origen de datos **model.Vendor.Name** no está vinculado a ningún origen de datos en la asignación del modelo que está configurado para ser utilizado por el formato. Por lo tanto, el elemento de formato **Instrucción\\Entidad\\Nombre** es posible que el elemento de formato no se complete en runtime y que se produzca una excepción en runtime.
 
-    ![Validar el componente de formato ER en la página de diseñador de formato.](./media/er-components-inspections-11d.png)
+    ![Validar el componente de formato ER en la página de diseñador de formato](./media/er-components-inspections-11d.png)
 
 La siguiente ilustración muestra el error de runtime que se produce si ignora la advertencia y selecciona **Ejecutar** para ejecutar el formato.
 
-![Ejecutar el formato editable en la página Diseñador de formatos.](./media/er-components-inspections-11e.png)
+![Ejecutar el formato editable en la página del diseñador de formatos](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -766,7 +726,7 @@ Modifique la asignación del modelo configurado agregando un enlace para el camp
 
 #### <a name="option-2"></a>Opción 2
 
-Modifique el formato configurado eliminando el enlace para el elemento de formato **Instrucción\\Entidad\\Nombre**.
+Modifique el formato configurado eliminando un enlace para el elemento de formato **Instrucción\\Entidad\\Nombre**.
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Plantilla no vinculada
 
@@ -781,9 +741,9 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
 5. En el elemento **Excel\\Archivo**, seleccione el archivo de libro A.
 6. Seleccione **Validar** para inspeccionar el componente de formato editable en la página **Diseñador de formato**.
 
-    ![Validación del componente de formato editable del archivo del libro de trabajo en la página del diseñador de formato.](./media/er-components-inspections-12a.gif)
+    ![Validación del componente de formato editable del archivo del libro de trabajo en la página del diseñador de formato](./media/er-components-inspections-12a.gif)
 
-7. Observe que se produce una advertencia de validación. El mensaje indica que el archivo del libro B.xlsx no está vinculado a ningún componente y que se eliminará después de que se cambie el estado de la versión de configuración.
+7. Observe que se produce una advertencia de validación. El mensaje indica que el archivo del libro **B.xlsx** no está vinculado a ningún componente y que se eliminará después de que se cambie el estado de la versión de configuración.
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -806,14 +766,14 @@ Los siguientes pasos muestran cómo puede ocurrir este problema.
     > [!IMPORTANT]
     > Asegúrese de que el libro de Excel agregado no contenga el nombre **ReportTitle**.
 
-4. Agregue el siguiente **Título** de elemento **Excel\\Celda** como elemento anidado del elemento **Informe**. En el campo **Intervalo de Excel**, introduzca **ReportTitle**.
+4. Agregue el siguiente elemento **Excel\\Celda** elemento **Título** como el elemento anidado del elemento **Informe**. En el campo **Intervalo de Excel**, introduzca **ReportTitle**.
 5. Seleccione **Validar** para inspeccionar el componente de formato editable en la página **Diseñador de formato**.
 
-    ![Validar los elementos y campos anidados en la página Diseñador de formato.](./media/er-components-inspections-13a.png)
+    ![Valide los elementos y campos anidados en la página del diseñador de formato](./media/er-components-inspections-13a.png)
 
 6. Observe que se produce una advertencia de validación. El mensaje dice que el nombre **ReportTitle** no existe en la hoja **Hoja1** de la plantilla de Excel que está utilizando.
 
-    ![Advertencia de validación de que el nombre ReportTitle no existe en Sheet1 de la plantilla de Excel.](./media/er-components-inspections-13b.png)
+    ![Advertencia de validación de que el nombre ReportTitle no existe en Sheet1 de la plantilla de Excel](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Resolución automática
 
@@ -832,116 +792,6 @@ Modifique el formato configurado eliminando todos los elementos que hacen refere
 ### <a name="additional-consideration"></a>Consideración adicional
 
 Para saber cómo se puede sincronizar la estructura del formato con una plantilla de ER en el editor de plantillas de [Gestión de documentos empresariales](er-business-document-management.md), ver [Actualizar la estructura de una plantilla de documento empresarial](er-bdm-update-structure.md).
-
-## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>No sincronizado con un formato de plantilla de Word
-
-Cuando usted [configura](er-fillable-excel.md) un componente de formato ER para usar una plantilla de Word para generar un documento saliente, puede agregar manualmente el elemento **Excel\\Archivo**, agregar la plantilla de Word requerida como un adjunto del componente editable y seleccionar ese adjunto en el elemento **Excel\\Archivo** agregado.
-
-> [!NOTE]
-> Cuando se adjunta el documento de Word, el diseñador de formato ER presenta el elemento editable como **Palabra\\Archivo**.
-
-De esta manera, indicas que el elemento agregado llenará la plantilla seleccionada en runtime. Debido a que la plantilla de Word se ha diseñado externamente, el formato ER editable puede contener referencias a controles de contenido de Word que faltan en la plantilla agregada. El diseñador de formato ER le advierte sobre cualquier incoherencia entre las propiedades de los elementos del formato ER que se refieren a controles de contenido que no están incluidos en la plantilla de Word agregada.
-
-Para ver un ejemplo que muestra cómo puede ocurrir este problema, consulte [Configurar el formato editable para suprimir la sección de resumen](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control).
-
-### <a name="automatic-resolution"></a>Resolución automática
-
-No hay ninguna opción disponible para solucionar este problema automáticamente.
-
-### <a name="manual-resolution"></a>Resolución manual
-
-#### <a name="option-1"></a>Opción 1
-
-Modifique el formato configurado eliminando la fórmula **Eliminado** del elemento de formato que se menciona en la advertencia de validación.
-
-#### <a name="option-2"></a>Opción 2
-
-Modifique la plantilla de Word [agregando](er-design-configuration-word-suppress-controls.md#tag-control) la etiqueta requerida para el control de contenido de Word relevante.
-
-## <a name="no-default-mapping"></a><a id="i15"></a>Sin asignación predeterminada
-
-Cuando se realiza la inspección [Enlace que falta](#i11), los enlaces de formato inspeccionados se evalúan frente a los enlaces del componente de asignación de modelo relevante. Como puede importar [diversas](./tasks/er-manage-model-mapping-configurations-july-2017.md) configuraciones de asignación de modelos de ER a su instancia de Finance, y cada configuración puede contener el componente de asignación de modelos aplicable, se debe seleccionar una configuración como la configuración predeterminada. De lo contrario, cuando intente ejecutar, editar o validar el formato de ER inspeccionado, se producirá una excepción y recibirá el siguiente mensaje: "Existe más de una asignación de modelo para el \<model name (root descriptor)\> modelo de datos en las configuraciones \<configuration names separated by comma\>. Establezca una de las configuraciones como predeterminada".
-
-Para ver un ejemplo que muestra cómo puede ocurrir este problema y cómo se puede solucionar, consulte [Gestionar varias asignaciones derivadas para una única raíz de modelo](er-multiple-model-mappings.md).
-
-## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Configuración incoherente de los componentes de encabezado o pie de página
-
-Cuando usted [configura](er-fillable-excel.md) un componente de formato ER para usar una plantilla de Excel para generar un documento saliente, puede agregar el componente **Excel\\Encabezamiento** para completar los encabezados en la parte superior de una hoja de cálculo en un libro de Excel. También puede agregar el componente **Excel\\Pie de página** para rellenar pies de página en la parte inferior de una hoja de cálculo. Para cada componente **Excel\\Encabezamiento** o **Excel\\Pie de página** componente que agregue, debe establecer la propiedad **Apariencia del encabezado/pie de página** para especificar las páginas para las que se ejecuta el componente. Porque puede configurar varios componentes **Excel\\Encabezamiento** o **Excel\\Pie de página** para un solo componente **Hoja**, y puede generar diferentes encabezados o pies de página para diferentes tipos de páginas en una hoja de cálculo de Excel, debe configurar un único componente **Excel\\Encabezamiento** o **Excel\\Pie de página** para un valor específico de la propiedaad **Apariencia del encabezado/pie de página**. Si se configura más de un componente **Excel\\Encabezamiento** o **Excel\\Pie de página** para un valor específico de la propiedad **Apariencia del encabezado/pie de página**, se produce un error de validación y recibe el siguiente mensaje de error: "Encabezados/pies de página (&lt;tipo de componente: encabezado o pie de página&gt;) incoherentes".
-
-### <a name="automatic-resolution"></a>Resolución automática
-
-No hay ninguna opción disponible para solucionar este problema automáticamente.
-
-### <a name="manual-resolution"></a>Resolución manual
-
-#### <a name="option-1"></a>Opción 1
-
-Modifique el formato configurado eliminando uno de los componentes incoherentes **Excel\\Encabezamiento** o **Excel\\Pie de página**.
-
-#### <a name="option-2"></a>Opción 2
-
-Modifique el valor de la propiedad **Apariencia del encabezado/pie de página** para uno de los componentes incoherentes **Excel\\Encabezamiento** o **Excel\\Pie de página**.
-
-## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Configuración incoherente del componente Página
-
-Al [configurar](er-fillable-excel.md) un componente de formato ER para usar una plantilla de Excel para generar un documento saliente, puede agregar el componente **Excel\\Página** para paginar un documento generado mediante el uso de fórmulas de ER. Para cada componente **Excel\\Página** que agregue, puede agregar muchos componentes [Rango](er-fillable-excel.md#range-component) y seguirá la compatibilidad con la siguiente [estructura](er-fillable-excel.md#page-component-structure):
-
-- El primer componente **Rango** anidado se puede configurar para que la propiedad **Dirección de replicación** esté establecida en **Sin replicación**. Este rango se utiliza para crear encabezados de página en documentos generados.
-- Puede agregar muchos otros componentes **Rango** en los que la propiedad **Dirección de replicación** está establecida en **Vertical**. Estos rangos se utilizan para rellenar los documentos generados.
-- El último componente **Rango** anidado se puede configurar para que la propiedad **Dirección de replicación** esté establecida en **Sin replicación**. Este rango se utiliza para crear pies de página en documentos generados y para agregar los saltos de página necesarios.
-
-Si no sigue esta estructura para un formato ER en el diseñador de formato ER en tiempo de diseño, se produce un error de validación y se recibe el siguiente mensaje de error: "Hay más de dos componentes de rango sin replicación. Elimine los componentes innecesarios".
-
-### <a name="automatic-resolution"></a>Resolución automática
-
-No hay ninguna opción disponible para solucionar este problema automáticamente.
-
-### <a name="manual-resolution"></a>Resolución manual
-
-#### <a name="option-1"></a>Opción 1
-
-Modifique el formato configurado cambiando la propiedad **Dirección de replicación** para todos los componentes **Excel\\Rango** incoherentes.
-
-## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Ejecutabilidad de una expresión con función ORDERBY
-
-La función de ER incorporada [ORDERBY](er-functions-list-orderby.md) se utiliza para ordenar los registros de una fuente de datos ER del tipo **[Lista de registros](er-formula-supported-data-types-composite.md#record-list)** que se especifica como argumento de la función.
-
-Los argumetnos de la función `ORDERBY` se pueden [especificar](er-functions-list-orderby.md#syntax-2) para ordenar los registros de las tablas de aplicaciones, vistas o entidades de datos al realizar una sola llamada a la base de datos para obtener los datos requeridos como una lista de registros. Un origen de datos del tipo **Lista de registros** se utiliza como argumento de esta función y especifica el origen de la aplicación para la llamada.
-
-ER comprueba si se puede establecer una consulta de base de datos directa a una fuente de datos a la que se hace referencia en la función `ORDERBY`. Si no se puede establecer una consulta directa, se produce un error de validación en el diseñador de mapas del modelo ER. El mensaje que recibe indica que la expresión ER que incluye la función `ORDERBY` no se puede ejecutar en runtime.
-
-Los siguientes pasos muestran cómo puede ocurrir este problema.
-
-1. Comience a configurar el componente de asignación del modelo ER.
-2. Agregue un origen de datos del tipo **Dynamics 365 for Operations \\ Registros de tabla**.
-3. Asigne un origen de datos nuevo **Proveedor**. En el campo **Tabla**, seleccione **VendTable** para especificar que este origen de datos solicitará la tabla **VendTable**.
-4. Agregue un origen de datos del tipo **Campo calculado**.
-5. Nombre el nuevo origen de datos **OrderedVendors** y configúrelo para que contenga la expresión `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
- 
-    ![Configurar orígenes de datos en la página del diseñador de asignación de modelo.](./media/er-components-inspections-18-1.png)
-
-6. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión en el origen de datos **OrderedVendors** pueda consultarse en el origen de datos.
-7. Modifique el origen de datos **Proveedor** agregando un campo anidado del tipo **Campo calculado** para obtener el número de cuenta de proveedor recortado.
-8. Nombre el nuevo campo anidado **$AccNumber** y configúrelo para que contenga la expresión `TRIM(Vendor.AccountNum)`.
-9. Seleccione **Validar** para inspeccionar el componente de asignación del modelo editable en la página **Diseñador de asignación de modelos** y verifique que la expresión en el origen de datos **Proveedor** pueda consultarse en el origen de datos.
-
-    ![Verificar que la expresión en el origen de datos de proveedores se puede consultar en la página Diseñador de asignación de modelos.](./media/er-components-inspections-18-2.png)
-
-10. Observe que se produce un error de validación, porque el origen de datos **Proveedor** contiene un campo anidado del tipo **Campo calculado** que no permite la expresión del origen de datos **OrderedVendors** se traduzca a la instrucción de base de datos directa. El mismo error ocurre en tiempo de ejecución si ignora el error de validación y selecciona **Ejecutar** para ejecutar este mapeo de modelo.
-
-### <a name="automatic-resolution"></a>Resolución automática
-
-No hay ninguna opción disponible para solucionar este problema automáticamente.
-
-### <a name="manual-resolution"></a>Resolución manual
-
-#### <a name="option-1"></a>Opción 1
-
-En lugar de agregar un campo anidado del tipo **Campo calculado** al origen de datos **Proveedor** datos, agregue el campo anidado **$AccNumber** al origen de datos **FilteredVendors** y configúrelo para que contenga la expresión `TRIM(FilteredVendor.AccountNum)`. De esta manera, la expresión `ORDERBY("Query", Vendor, Vendor.AccountNum)` se puede ejecutar en el nivel de base de datos y el cálculo del campo anidado **$AccNumber** se puede hacer después.
-
-#### <a name="option-2"></a>Opción 2
-
-Cambiar la expresión del origen de datos **FilteredVendors** de `ORDERBY("Query", Vendor, Vendor.AccountNum)` a `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. No recomendamos que cambie la expresión para una tabla que tiene un gran volumen de datos (tabla transaccional), porque todos los registros se recuperarán y la ordenación de los registros necesarios se realizará en la memoria. Por lo tanto, este enfoque puede provocar un rendimiento deficiente.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -962,10 +812,3 @@ Cambiar la expresión del origen de datos **FilteredVendors** de `ORDERBY("Query
 [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 
 [Visión general de la gestión de documentos empresariales](er-business-document-management.md)
-
-[Suprimir los controles de contenido de Word en los informes generados](er-design-configuration-word-suppress-controls.md)
-
-[Gestionar varias asignaciones derivadas para una única raíz del modelo](er-multiple-model-mappings.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

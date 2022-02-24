@@ -2,25 +2,28 @@
 title: Reducir la depreciación del saldo después de una división
 description: Este tema describe el método que se usa en Activos fijos para calcular la depreciación después de que un activo se haya dividido mediante el método de reducción de saldo.
 author: moaamer
+manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737710"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650683"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reducir la depreciación del saldo después de una división
 
@@ -37,11 +40,8 @@ Por ejemplo, están en vigor las siguientes condiciones:
 - La depreciación del primer año fiscal es igual a 18.000 $, la depreciación mensual es igual a 150 $, y luego el activo se deprecia hasta noviembre de 2019, por un importe de 738,75 $.
 - En noviembre de 2019, el 80 por ciento del activo se divide en otro activo fijo.
 
-[![Reducir la depreciación del saldo después de una división.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Reducir la depreciación del saldo después de una división](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 La cantidad a depreciar del activo original es 1.822,25 $. Esta cantidad es igual al NBV antes de que se contabilice la transacción dividida (9.111,25), más el ajuste de adquisición que se genera durante la contabilización de la transacción dividida (- 8.000 $), más el ajuste de depreciación que se genera durante la transacción dividida (711 $). Por lo tanto, la depreciación para el segundo año es (1.822,25 × 18 por ciento) ÷ 12 = 27,33 $.
 
 La cantidad a depreciar para el nuevo activo fijo en el primer año es (8.000 × 18 por ciento) ÷ 12 = 120 $.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

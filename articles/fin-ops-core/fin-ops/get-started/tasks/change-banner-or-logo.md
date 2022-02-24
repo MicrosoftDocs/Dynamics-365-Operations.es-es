@@ -2,9 +2,11 @@
 title: Cambiar el encabezado o el logotipo
 description: El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica.
 author: aneesmsft
+manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee62376da24adbbe09cb039c095197067f2db59c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069357"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798079"
 ---
 # <a name="change-the-banner-or-logo"></a>Cambiar el encabezado o el logotipo
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
@@ -40,6 +39,3 @@ El procedimiento siguiente muestra los pasos que los administradores del sistema
 6. Vaya a **Panel de navegación > Módulos > Común > Común > Panel de información predeterminado**. Debe ver la nueva imagen de banner o logotipo en el panel de información.  
     
     Es posible que tenga que cambiar su empresa, con el selector de empresa, a aquella para la que cargó el banner.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

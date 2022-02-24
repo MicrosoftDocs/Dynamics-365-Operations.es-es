@@ -1,10 +1,12 @@
 ---
 title: Funciones quitadas u obsoletas de versiones anteriores
-description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores.
+description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
-ms.date: 02/16/2021
+manager: AnnBe
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063246"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679965"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Este tema ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
@@ -37,7 +39,7 @@ Este tema describe las características que se eliminaron o que están en desuso
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -84,7 +86,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: El 1 de octubre de 2020, planificamos no admitir más el método **setUtcString()**. Los programadores deben usar el método **setUtcDateTime()** en su lugar. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Informe de la lista negra (IT) - Referencia de funcionalidad IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>Informe de la lista negra (TI) - Referencia de funcionalidad IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -92,7 +94,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Localización italiana |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | En desuso: El 1 de octubre de 2020 planificamos no admitir más este informe. |
+| **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe de la lista negra (TI) - Referencia de funcionalidad IT-00001**. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Informe de impuestos nacional – Referencia de funcionalidad IT-00003
 
@@ -104,39 +106,6 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe sobre impuestos nacionales - Referencia de funcionalidad IT-00003**. |
 
-## <a name="october-2019-deprecation-announcement"></a>Anuncio de desactivación de octubre de 2019
-
-### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagramas de flujo en el Modelador de procesos empresariales
-
-<table>
-<tbody>
-<tr>
-<td><strong>Motivo de la depreciación/eliminación</strong></td>
-<td>Vamos a dejar de usar el componente de diagramas de flujo en el Modelador de procesos empresariales (BPM), ya que el diseño heredado hizo que se usara poco.</td>
-</tr>
-<tr>
-<td><strong>¿Reemplazado por otra función?</strong></td>
-<td>No</td>
-</tr>
-<tr>
-<td><strong>Áreas afectadas</strong></td>
-<td>Modelador de procesos empresariales</td>
-</tr>
-<tr>
-<td><strong>Estado</strong></td>
-<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. La siguiente funcionalidad no estará disponible:
-<ul>
-<li>Todos los diagramas de flujo serán de solo lectura y no estarán disponibles para edición. Las propiedades de forma asociadas con las actividades del diagrama de flujo tampoco estarán disponibles. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
-<li>Los pasos del proceso serán de solo lectura y no estarán disponibles para edición.</li>     
-<li>La función de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.
-<p><strong>Nota:</strong> esta función quedó en desuso anteriormente y fue reemplazada por las integraciones de Microsoft Azure DevOps.</p>
-</li>
-<li>El historial de versiones del diagrama de flujo no estará disponible.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con Platform update 29
 
@@ -180,7 +149,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **¿Reemplazado por otra característica?**   | A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda. |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
@@ -194,7 +163,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **¿Reemplazado por otra característica?**   | A partir de Platform update 21 se añadió una función para "acciones adhesivas predeterminadas". Esta función se puede habilitar en la página **Opciones de rendimiento del cliente**. |
 | **Áreas de producto afectadas**         | Cuadrículas en el cliente web |
 | **Opción de implementación**              | Todas |
@@ -205,7 +174,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La experiencia de filtrado "es uno de" se ha rediseñado en la Platform update 22, y se planea que acabe siendo la única experiencia de filtrado "es uno de". |
-| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento. |
@@ -216,7 +185,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La funcionalidad siempre será habilitada después de que se elimine el parámetro. |
-| **¿Reemplazado por otra característica?**   | No. La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.   |
+| **¿Reemplazado por otra característica?**   | N. º La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.   |
 | **Áreas de producto afectadas**         |El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará. Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType**, el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**. Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable**, el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable**, el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity**, el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**. |
 | **Opción de implementación**              | Todas  |
 | **Estado**                         | La deprecación se planifica para la oleada liberada en abril de 2020. |
@@ -241,7 +210,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
+| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -251,7 +220,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
+| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -262,7 +231,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Al usar la función **Cambiar el nombre de clave principal** para cambiar el ItemId de un producto emitido, solo se actualizan las referencias directas de clave extranjera. Cualquier otra referencia para el producto emitido, por ejemplo, de pedidos de producción, se conservará el ItemId antiguo. Como resultado, podría haber datos incoherentes que podrían bloquear procesos empresariales. |
-| **¿Reemplazado por otra característica?**   | No. |
+| **¿Reemplazado por otra característica?**   | N. º |
 | **Áreas de producto afectadas**         | Gestión de información de productos |
 | **Opción de implementación**              | Todos  |
 | **Estado**                         | Eliminado desde Finance and Operations 10.0.0 con Platform update 24.|
@@ -360,21 +329,11 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Finance and Operations. |
-| **¿Reemplazado por otra característica?**   | No |
+| **¿Reemplazado por otra característica?**   | Nº |
 | **Áreas de producto afectadas**         | Impuestos |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
-### <a name="payroll-and-human-resources-for-russia"></a>Nómina y recursos humanos para Rusia
-Módulo específico del país ruso para administrar la información de administración del personal, detalles de la hoja de horas para los empleados, contabilidad de nómina y creación de extractos de pago. 
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La nómina no está incluida en el enfoque estratégico global de la cartera de Dynamics 365. Los socios y los ISV están mejor posicionados para proporcionar una funcionalidad de nómina que cumpla con las regulaciones locales y las actualizaciones de impuestos.|
-| **¿Reemplazado por otra característica?**   | No|
-| **Áreas de producto afectadas**         | Gestión de recursos humanos y nómina rusa |
-| **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es una de las próximas actualizaciones de la versión 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 con Platform update 15
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
@@ -387,7 +346,7 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.  |
-| **¿Reemplazado por otra característica?**   | No. Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
+| **¿Reemplazado por otra característica?**   | N. º Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
 | **Áreas de producto afectadas**         | Recomendaciones de productos personalizados en PDV.                                                    |
 | **Opción de implementación**              | Todas                                                                                      |
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Operations 1611 y posteriores.  |
@@ -416,7 +375,7 @@ Estos dos informes ya no se admiten en Finance and Operations. En su lugar, el i
 | **Estado**                       | En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3. Sin embargo, el código para los informes permanece en el producto. El plan es quitar el código en una versión futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido Power BI disponibles en AppSource
-Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Rendimiento de canal minorista**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
+Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -455,7 +414,7 @@ Estos impuestos se han incluido en el GST indio.
 |              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motivo de la eliminación o depreciación**       | Falta de uso del cliente                                                  |
-| **¿Reemplazado por otra característica?**            | No                                                                      |
+| **¿Reemplazado por otra característica?**            | N.º                                                                      |
 | **Áreas de producto afectadas**                  | Retención de impuestos de la India                                                  |
 | **Opción de implementación**                       | Todos los módulos                                                                    |
 | **Estado**                                  | En desuso: No se ha establecido una fecha de eliminación para esta función.   |        
@@ -467,7 +426,7 @@ Los usuarios pueden descargar esto del portal gubernamental.
 |             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motivo de la eliminación o depreciación**       | Falta de uso del cliente                                                  |
-| **¿Reemplazado por otra característica?**            | No                                                                      |
+| **¿Reemplazado por otra característica?**            | N.º                                                                      |
 | **Áreas de producto afectadas**                  | Retención de impuestos de la India                                                  |
 | **Opción de implementación**                       | Todos los módulos                                                                   |
 | **Estado**                                  | En desuso: No se ha establecido una fecha de eliminación para esta función.     |    
@@ -478,7 +437,7 @@ Los usuarios pueden descargar esto del portal gubernamental.
 |              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Motivo de la eliminación o depreciación**       | Falta de uso del cliente                                                  |
-| **¿Reemplazado por otra característica?**            | No                                                                      |
+| **¿Reemplazado por otra característica?**            | N.º                                                                      |
 | **Áreas de producto afectadas**                  | Importar y exportar                                                       |
 | **Opción de implementación**                       | Todos los módulos                                                                    |
 | **Estado**                                  | En desuso: No se ha establecido una fecha de eliminación para esta función.  |    
@@ -492,13 +451,13 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 |  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.  |
-| **¿Reemplazado por otra característica?**   | No. Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
+| **¿Reemplazado por otra característica?**   | N. º Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.   |
 | **Áreas de producto afectadas**         | Recomendaciones de productos personalizados en PDV.                                                    |
 | **Opción de implementación**              | Todas                                                                                      |
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise Edition julio de 2017 con actualización de plataforma 8.
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition Julio 2017 con Platform update 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversión de divisa para contabilidad y divisas de notificación
 
@@ -531,7 +490,7 @@ Una regla de coincidencia se utilizó para seleccionar y marcar un documento ban
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Uso limitado.                                                                         |
-| **¿Reemplazado por otra característica?**   | No. Las capacidades de filtro de columnas se deben usar para buscar los documentos de la conciliación. |
+| **¿Reemplazado por otra característica?**   | N. º Las capacidades de filtro de columnas se deben usar para buscar los documentos de la conciliación. |
 | **Áreas de producto afectadas**         | Gestión de efectivo y bancos                                                               |
 | **Opción de implementación**              | Todas                                                                                    |
 | **Estado**                         | Se quitó en julio 2017.                                                               |
@@ -578,7 +537,7 @@ Se utiliza esta herramienta cuando un plan de cuentas en España requiere cambio
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Uso limitado                                                  |
-| **¿Reemplazado por otra característica?**   | No                                                             |
+| **¿Reemplazado por otra característica?**   | N.º                                                             |
 | **Áreas de producto afectadas**         | Contabilidad general                                                 |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
@@ -622,7 +581,7 @@ EDIVAT es una norma belga obsoleta para la declaración electrónica a través d
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La función ya no se usa.                           |
-| **¿Reemplazado por otra característica?**   | No                                                             |
+| **¿Reemplazado por otra característica?**   | N.º                                                             |
 | **Áreas de producto afectadas**         | Contabilidad general                                                 |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
@@ -655,7 +614,7 @@ Se utiliza una herramienta para configurar la recopilación de datos para los in
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Uso limitado                                                                            |
-| **¿Reemplazado por otra característica?**   | No. La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones. |
+| **¿Reemplazado por otra característica?**   | N. º La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones. |
 | **Áreas de producto afectadas**         | Libro mayor general                                                                           |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                           |
 
@@ -688,7 +647,7 @@ Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La integración con el cliente Isabel se ha interrumpido.   |
-| **¿Reemplazado por otra característica?**   | No. Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica. |
+| **¿Reemplazado por otra característica?**   | N. º Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica. |
 | **Áreas de producto afectadas**         | Proveedores     |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.    |
 
@@ -699,7 +658,7 @@ Esta característica se usa para los cambios en el plan de cuentas y en las regl
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Uso limitado                                                  |
-| **¿Reemplazado por otra característica?**   | No                                                             |
+| **¿Reemplazado por otra característica?**   | N.º                                                             |
 | **Áreas de producto afectadas**         | Contabilidad general                                                 |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
@@ -765,7 +724,7 @@ La gestión del rendimiento incluye la administración y la integración del obj
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La gestión del rendimiento se diseñó de nuevo y el número de páginas de objetivos se redujo para simplificar el proceso.                 |
-| **¿Reemplazado por otra característica?**   | No. Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador. |
+| **¿Reemplazado por otra característica?**   | N. º Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador. |
 | **Áreas de producto afectadas**         | Gestión del capital humano       |
 | **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.    |
 
@@ -787,7 +746,7 @@ La identificación por radiofrecuencia (RFID) es una tecnología de recopilació
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones.   |
-| **¿Reemplazado por otra característica?**   | No                                              |
+| **¿Reemplazado por otra característica?**   | N.º                                              |
 | **Áreas de producto afectadas**         | Gestión de inventarios                            |
 | **Estado**                         | Eliminado desde Dynamics 365 for Operations 1611. |
 
@@ -798,7 +757,7 @@ La legislación letona proporciona reglas específicas acerca de la numeración 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La numeración de la factura de estado ya no tiene que mantenerse. El informe sobre números de factura utilizados ya no es necesario. |
-| **¿Reemplazado por otra característica?**   | No       |
+| **¿Reemplazado por otra característica?**   | N.º       |
 | **Áreas de producto afectadas**         | Clientes    |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.  |
 
@@ -860,7 +819,7 @@ Información de nómina en Recursos humanos
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso                                                           |
-| **¿Reemplazado por otra característica?**   | No                                                                  |
+| **¿Reemplazado por otra característica?**   | N.º                                                                  |
 | **Áreas de producto afectadas**         | Recursos humanos                                                     |
 | **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611 |
 
@@ -883,7 +842,7 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Mejora del rendimiento        |
-| **¿Reemplazado por otra característica?**   | No                             |
+| **¿Reemplazado por otra característica?**   | N.º                             |
 | **Áreas de producto afectadas**         | Proveedores               |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
@@ -915,8 +874,8 @@ Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las v
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un ambiente de nube. |
-| **¿Reemplazado por otra característica?**   | No                                                                                      |
+| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube. |
+| **¿Reemplazado por otra característica?**   | N.º                                                                                      |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Gestión de inventarios                                    |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                          |
 
@@ -927,7 +886,7 @@ Forma de pago específica para las empresas brasileñas
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La ayuda de la forma de pago para el Bordero brasileño se ha interrumpido para la ubicación brasileña |
-| **¿Reemplazado por otra característica?**   | No   |
+| **¿Reemplazado por otra característica?**   | N.º   |
 | **Áreas de producto afectadas**         | Proveedores   |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
@@ -938,18 +897,18 @@ Extracto del impuesto federal para el impuesto de ICMS
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Este extracto ya no se aplica en algunos estados brasileños. |
-| **¿Reemplazado por otra característica?**   | No Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas. |
+| **¿Reemplazado por otra característica?**   | N. º Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas. |
 | **Áreas de producto afectadas**         | Libros fiscales    |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.   |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo brasileño de contingencia SCAN brasileña para NF-e
 
-El ambiente de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el ambiente de la Secretaría de Hacienda (SEFAZ) no está disponible.
+El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Este método de contingencia ya no es un aplicable en todos los estados brasileños |
-| **¿Reemplazado por otra característica?**   | No                                                                          |
+| **¿Reemplazado por otra característica?**   | N.º                                                                          |
 | **Áreas de producto afectadas**         | Clientes                                                         |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.              |
 
@@ -1000,7 +959,7 @@ El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los r
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Falta de uso del cliente. Microsoft SharePoint incluye la misma capacidad que estaba disponible en el Centro de cumplimiento. |
-| **¿Reemplazado por otra característica?**   | No   |
+| **¿Reemplazado por otra característica?**   | N.º   |
 | **Áreas de producto afectadas**         | Cumplimiento y controles internos  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
@@ -1011,7 +970,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por otra característica. |
-| **¿Reemplazado por otra característica?**   | Dataverse                                      |
+| **¿Reemplazado por otra característica?**   | Common Data Service                                      |
 | **Áreas de producto afectadas**         | Conector para Dynamics                         |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                           |
 
@@ -1029,7 +988,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los grupos de pilas se usaban para mostrar una o más pilas en el área de cuadro informativo. La capacidad era limitada y había también problemas de rendimiento, porque un cambio de registro en un formulario principal generaba una consulta por pila en el grupo de pilas. |
-| **¿Reemplazado por otra característica?**   | No      |
+| **¿Reemplazado por otra característica?**   | N.º      |
 | **Áreas de producto afectadas**         | Todos los módulos    |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.  |
 
@@ -1047,7 +1006,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se ha dejado de permitir usar el diseño de formato de cheque danés, y el informe se ha retirado de la localización DK. |
-| **¿Reemplazado por otra característica?**   | No    |
+| **¿Reemplazado por otra característica?**   | N.º    |
 | **Áreas de producto afectadas**         | Todos los módulos    |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.  |
 
@@ -1069,7 +1028,7 @@ Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos c
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los ambientes hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
+| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
 | **¿Reemplazado por otra característica?**   | El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.   |
 | **Áreas de producto afectadas**         | Todos los módulos  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
@@ -1079,7 +1038,7 @@ Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos c
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | No se ha encontrado ningún uso de la función. |
-| **¿Reemplazado por otra característica?**   | No                                     |
+| **¿Reemplazado por otra característica?**   | N.º                                     |
 | **Áreas de producto afectadas**         | Tiempo y asistencia                    |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.         |
 
@@ -1099,7 +1058,7 @@ En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la ba
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos. Debido a las mejoras del rendimiento y de seguridad que se han producido en Finance and Operations, esta funcionalidad ahora está dando más problemas que soluciones. |
-| **¿Reemplazado por otra característica?**   | No Ahora solo se da soporte a la comunicación de Retail Server estándar.  |
+| **¿Reemplazado por otra característica?**   | N. º Ahora solo se da soporte a la comunicación de Retail Server estándar.  |
 | **Áreas de producto afectadas**         | Base de datos de canales/Retail Modern POS   |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.  |
 
@@ -1137,7 +1096,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones  |
-| **¿Reemplazado por otra característica?**   | No              |
+| **¿Reemplazado por otra característica?**   | N.º              |
 | **Áreas de producto afectadas**         | Cumplimiento y controles internos, Proveedores  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
@@ -1146,7 +1105,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto. |
-| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el ambiente de Microsoft Visual Studio Tooling. |
+| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling. |
 | **Áreas de producto afectadas**         | Todos los módulos     |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.       |
 
@@ -1193,7 +1152,7 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Ya no se admite el formato XML para los informes de Lista de ventas de la UE para Alemania. Solo se puede usar el formato de archivo de texto ELMA5 para enviar el informe de la Lista de ventas de la UE a la delegación de hacienda alemana. |
-| **¿Reemplazado por otra característica?**   | No         |
+| **¿Reemplazado por otra característica?**   | N.º         |
 | **Áreas de producto afectadas**         | Impuesto        |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.   |
 
@@ -1246,7 +1205,7 @@ Esta función habilitó la generación de facturas electrónicas mexicanas media
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El método ya no es aplicable. La generación de facturas electrónicas usando el método CFD ha sido derogada por las autoridades fiscales y se ha sustituido por el Comprobante Fiscal Digital a través de Internet (CFDI), donde la firma se delega al tercer proveedor (PAC). Se ha quitado el informe mensual, y una opción de consulta permite a los usuarios consultar transacciones históricas. |
-| **¿Reemplazado por otra característica?**   | No    |
+| **¿Reemplazado por otra característica?**   | N.º    |
 | **Áreas de producto afectadas**         | Clientes, Proyecto   |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
@@ -1278,7 +1237,7 @@ Los diarios de almacén e inventario ya no admiten la opción de marcar un diari
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | No se ha encontrado ningún uso de la función. |
-| **¿Reemplazado por otra característica?**   | No                                     |
+| **¿Reemplazado por otra característica?**   | N.º                                     |
 | **Áreas de producto afectadas**         | Gestión de inventarios                   |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.         |
 
@@ -1311,7 +1270,7 @@ Esta función le permite cambiar el nombre de una de las tres dimensiones de pro
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La versión actual de Dynamics AX no admite cambios de etiqueta en tiempo de ejecución. |
-| **¿Reemplazado por otra característica?**   | No                                                                            |
+| **¿Reemplazado por otra característica?**   | N.º                                                                            |
 | **Áreas de producto afectadas**         | Gestión de información de productos                                                |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                |
 
@@ -1322,7 +1281,7 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Debido a los nuevos requisitos de seguridad, ahora solo se admite la comunicación segura mediante TLS 1.2 (o un número superior, si está disponible). El instalador de autoservicio configurará automáticamente el equipo para esta comunicación. |
-| **¿Reemplazado por otra característica?**   | No Ahora solo se da soporte a la comunicación de HTTPS estándar. |
+| **¿Reemplazado por otra característica?**   | N. º Ahora solo se da soporte a la comunicación de HTTPS estándar. |
 | **Áreas de producto afectadas**         | Retail Server  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
@@ -1340,7 +1299,7 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones |
-| **¿Reemplazado por otra característica?**   | No                                           |
+| **¿Reemplazado por otra característica?**   | N.º                                           |
 | **Áreas de producto afectadas**         | Impuestos de EE.UU                                 |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.               |
 
@@ -1351,7 +1310,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La infraestructura de Microsoft Azure que usa Dynamics AX tiene nuevas capacidades que se pueden usar en su lugar (por ejemplo, sitios de Azure). |
-| **¿Reemplazado por otra característica?**   | No   |
+| **¿Reemplazado por otra característica?**   | N.º   |
 | **Áreas de producto afectadas**         | Reclutamiento de recursos humanos, gestión de casos, solicitudes de presupuesto, registro de proveedores, áreas de trabajo colaborativas para oportunidades y campañas  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
@@ -1376,7 +1335,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 
 ### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
 
-La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](../../fin-ops/get-started/ax4-content-retired.md). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
+La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1392,7 +1351,7 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Finance and Operations es compatible con tabletas. La aplicación para tabletas ya no se requiere.    |
-| **¿Reemplazado por otra característica?**   | No          |
+| **¿Reemplazado por otra característica?**   | N. º          |
 | **Áreas de producto afectadas**         | Gestión de gastos   |
 | **Estado**                         | Quitado: Esta funcionalidad sólo está disponible para Dynamics AX 2012 R3. |
 
@@ -1414,6 +1373,3 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 |     <strong>Áreas de producto afectadas</strong>     |                                              Contabilidad general                                              |
 |             <strong>Estado</strong>             |                                      Eliminado a partir de Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

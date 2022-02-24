@@ -2,13 +2,16 @@
 title: Mostrar descuentos en PDV
 description: Este tema explica cómo Microsoft Dynamics 365 Commerce ayuda a los asociados de ventas a conocer las promociones y cómo se pueden usar para las ventas cruzadas y las ventas adicionales.
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731676"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415539"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descuentos en PDV
 
@@ -33,7 +36,7 @@ Las promociones juegan un papel importante en motivar a los clientes que toman d
 
 Commerce incluye una operación que se denomina "Ver todos los descuentos". Esta operación muestra todos los descuentos que se están ejecutando actualmente en una tienda. La operación "Ver todos los descuentos" se puede asignar a un botón en el punto de venta (PDV), y ese botón se puede agregar a la página **Bienvenido** o **Transacción**. La ilustración siguiente muestra un ejemplo de la página **Todos los descuentos** que está abierta.
 
-![Página todos los descuentos.](./media/View_all_discounts.png "Página todos los descuentos")
+![Página todos los descuentos](./media/View_all_discounts.png "Página todos los descuentos")
 
 Para mostrar descuentos, el sistema busca todos los descuentos que coincidan con una o más de las siguientes condiciones:
 
@@ -61,11 +64,8 @@ Las siguientes ilustraciones muestran la lógica que determina qué descuentos s
 
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio y compuesto dentro de la prioridad, nunca compuesto a través de prioridades**.
 
-![Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades.](./media/Model_1.png "Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades").
+![Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades](./media/Model_1.png "Lógica para el mejor precio y compuesto dentro de la prioridad, nunca compuesto entre prioridades").
 
 La siguiente ilustración muestra la lógica que se utiliza cuando el control de simultaneidad de descuento se establece en **El mejor precio solo dentro de la prioridad, siempre compuesto a través de la prioridad**.
 
-![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad.](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad](./media/Model_2.png "Lógica para el mejor precio solo dentro de la prioridad, siempre compuesto entre prioridad").

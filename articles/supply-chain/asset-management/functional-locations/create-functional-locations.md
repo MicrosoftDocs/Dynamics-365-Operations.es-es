@@ -1,10 +1,12 @@
 ---
 title: Crear ubicaciones técnicas
 description: En este tema se explica cómo crear una ubicación técnica en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationCopyStructure, EntAssetFunctionalLocationCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81b5b81d7c318ba0a195dbc6324d700ccb8d39bf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767543"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018230"
 ---
 # <a name="create-functional-locations"></a>Crear ubicaciones técnicas
 
@@ -129,6 +131,3 @@ Se puede eliminar una ubicación técnica con ubicaciones subordinadas relaciona
 
 >[!NOTE]
 >Si no puede eliminar una ubicación técnica, en su lugar puede controlar la eliminación configurando un estado de ciclo de vida de ubicación técnica con este propósito. Por ejemplo, puede configurar una etapa "Desechado" o "Eliminado" (que no debe ser una etapa activa) en el formulario **Estados de ciclo de vida de ubicación técnica**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

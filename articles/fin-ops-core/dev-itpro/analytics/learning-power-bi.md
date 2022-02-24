@@ -2,9 +2,11 @@
 title: Contenido de formación de Power BI
 description: Este tema describe el contenido en Power BI de formación.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742347"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685258"
 ---
 # <a name="learning-power-bi-content"></a>Contenido de formación de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de **Formación** Microsoft Power BI.
+Este tema describe el contenido del **Formación** de Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
@@ -60,6 +62,3 @@ Los siguientes datos se usan para rellenar los informes en el contenido en Power
 | Posición         | Puesto, título y equivalente a jornada completa                  | Programa del curso, asistentes al curso |
 | Nombre de empleado    | Nombre, apellido y nombre completo                             | Asistentes al curso |
 | Puesto del empleado   | Cargo y fecha de antigüedad                                         | Asistentes al curso |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

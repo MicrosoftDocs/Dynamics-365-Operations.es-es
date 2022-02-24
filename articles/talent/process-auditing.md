@@ -61,6 +61,3 @@ Los siguientes datos están disponibles con el proceso de auditoría.
 |Historial de la solicitud de trabajo | Solicitud de trabajo (msdyn_JobapplicatonId)<br></br>Estado (msdyn_status) <br></br>Motivo del estado (msdyn_statusreason) <br></br>Motivo de rechazo (msdyn_rejectionreason) |
 | Historial de oferta de trabajo | Oferta de trabajo (msdyn_JobopeningId) <br></br>Estado (msdyn_jobopeningstatus) <br></br>Motivo del estado (msdyn_jobopeningstatusreason) |
 | Historial del candidato | Candidato (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

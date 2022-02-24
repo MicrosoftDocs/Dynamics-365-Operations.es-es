@@ -1,10 +1,12 @@
 ---
 title: Estados de ciclo de vida de activos
 description: Este tema explica los estados de ciclo de vida y los modelos de ciclo de vida de activos en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722472"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016561"
 ---
 # <a name="asset-lifecycle-states"></a>Estados de ciclo de vida de activos
 
@@ -61,12 +63,9 @@ Una vez que haya creado los estados de ciclo de vida de activo necesarios, puede
 
 5. En el FastTab **Estados de ciclo de vida**, seleccione los estados de ciclo de vida de activo que se deben incluir en el modelo de ciclo de vida de activo:
 
-    - Para usar un estado de ciclo de vida para el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha.](media/15-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
-    - Para usar todos los estados de ciclo de vida disponibles para el modelo, seleccione el botón **Todos los estados de ciclo de vida disponibles** ![Todos los estados de ciclo de vida disponibles.](media/20-setup-for-objects.png). Todos los estados de ciclo de vida se transfieren a la sección **Estados de ciclo de vida seleccionados**.
-    - Para quitar un estado de ciclo de vida del modelo, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de flecha izquierda ![flecha izquierda.](media/16-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
+    - Para usar un estado de ciclo de vida para el modelo, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la flecha derecha ![Flecha derecha](media/15-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
+    - Para usar todos los estados de ciclo de vida disponibles para el modelo, seleccione el botón **Todos los estados de ciclo de vida disponibles** ![Todos los estados de ciclo de vida disponibles](media/20-setup-for-objects.png). Todos los estados de ciclo de vida se transfieren a la sección **Estados de ciclo de vida seleccionados**.
+    - Para quitar un estado de ciclo de vida del modelo, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la flecha izquierda ![Flecha izquierda](media/16-setup-for-objects.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
 
 6. Seleccione **Actualizaciones de estado de ciclo de vida** para definir los estados de ciclo de vida de activo que pueden seguir un estado de ciclo de vida seleccionado.
 7. Use el FastTab **Estado de activo** si administra activos que recibe para su reparación. En la sección **Entrante/saliente**, puede seleccionar estados de ciclo de vida de activo para indicar el flujo de trabajo de un activo que recibe para reparación. Si ofrece activos de préstamo a los clientes o departamentos, en la sección **Préstamo** puede seleccionar estados de ciclo de vida de activos de préstamo.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

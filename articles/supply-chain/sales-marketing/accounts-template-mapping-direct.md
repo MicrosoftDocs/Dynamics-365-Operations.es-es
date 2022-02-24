@@ -1,36 +1,39 @@
 ---
 title: Sincronizar cuentas directamente desde Sales con clientes de Supply Chain Management
 description: En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar cuentas de Dynamics 365 Sales en Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063094"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529219"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizar cuentas directamente desde Sales con clientes de Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar cuentas directamente de Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
@@ -38,7 +41,7 @@ En este tema se abordan las plantillas y las tareas subyacentes que se usan para
 
 La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales.  Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
-[![Flujo de datos en Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -63,11 +66,11 @@ Las cuentas se administran en Sales y se sincronizan con Supply Chain Management
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Cliente potencial para cobrar la solución por Sales
 
-La columna **Número de cuenta** está disponible en la página **Cuenta** . Se ha convertido en una clave natural y única para admitir la integración. La característica de clave natural de la solución de la gestión de relaciones con el cliente (CRM) puede afectar a los clientes que utilicen ya la columna **Número de cuenta** , pero que no usen los valores **Número de cuenta** únicos por cuenta. Actualmente, la solución de integración no admite este caso.
+El campo **Número de cuenta** está disponible en la página **Cuenta** . Se ha convertido en una clave natural y única para admitir la integración. La característica de clave natural de la solución de la gestión de relaciones con el cliente (CRM) puede afectar a los clientes que utilicen ya el campo **Número de cuenta** , pero que no usen los valores **Número de cuenta** únicos por cuenta. Actualmente, la solución de integración no admite este caso.
 
 Cuando se crea una nueva cuenta, si todavía no existe un valor **Número de cuenta** , se genera automáticamente mediante una secuencia numérica. El valor consiste en **ACC**, seguido por una secuencia numérica que aumenta y después un sufijo de seis caracteres. He aquí un ejemplo: **ACC-01000-BVRCPS**
 
-Cuando se aplique la solución de integración para Sales, una secuencia de comandos de actualización establece la columna **Número de cuenta** de las cuentas existentes en Sales. Si no hay valores para **Número de cuenta** , se usa la secuencia numérica que se ha mencionado anteriormente.
+Cuando se aplique la solución de integración para Sales, una secuencia de comandos de actualización establece el campo **Número de cuenta** de las cuentas existentes en Sales. Si no hay valores para **Número de cuenta** , se usa la secuencia numérica que se ha mencionado anteriormente.
 
 ## <a name="preconditions-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
@@ -92,14 +95,14 @@ Cuando se aplique la solución de integración para Sales, una secuencia de coma
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
 > [!NOTE]
-> Las columnas **Condiciones de pago**, **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estas columnas, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la tabla.
+> Los campos **Condiciones de pago**, **Condiciones de carga**, **Condiciones de entrega**, **Método de envío**, y **Modo de entrega** no se incluyen en las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
 
 Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla en la integración de datos. 
 
 > [!NOTE]
-> La asignación muestra qué información de columnas se sincronizará de Sales a Supply Chain Management.
+> La asignación muestra qué información de campos se sincronizará de Sales a Supply Chain Management.
 
-![Asignación de la plantilla en la integración de datos.](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Asignación de la plantilla en la integración de datos](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -114,6 +117,3 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 
 [Sincronizar encabezados y líneas de factura de ventas directamente desde Supply Chain Management a Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

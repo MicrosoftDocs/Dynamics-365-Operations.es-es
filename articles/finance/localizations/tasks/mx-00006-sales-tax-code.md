@@ -2,23 +2,26 @@
 title: MX-00006 Configuración de un código de impuesto sobre las ventas
 description: Los documentos financieros jurídicos, como declaraciones de impuestos o facturas electrónicas enviadas a las autoridades fiscales en México, deben contener distintos tipos de identificadores de registro de impuestos u otra información relacionada.
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxVatReportCategory_MX, TaxTable
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ee0b20ad2eeeaea7dd72dc458ded96299ca9aa4956c79ce838b7560c2baa8a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af288766dda7a6661589db78171f7b99035ca539
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738410"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668932"
 ---
 # <a name="mx-00006-set-up-sales-tax-code"></a>MX-00006 Configuración de un código de impuesto sobre las ventas
 
@@ -47,6 +50,3 @@ Los documentos financieros jurídicos, como declaraciones de impuestos o factura
     * El sistema valida los identificadores de registro de impuestos según el formato especificado por las autoridades fiscales de México.  
 15. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

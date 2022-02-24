@@ -2,36 +2,42 @@
 title: Enriquecer una página de aterrizaje de categoría
 description: Este tema aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771016"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415535"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer una página de aterrizaje de categoría
+
 
 [!include [banner](includes/banner.md)]
 
 Este tema aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
 
+## <a name="overview"></a>Visión general
+
 Commerce proporciona una página de aterrizaje de categoría predeterminada que se utiliza cuando se muestra los datos de categoría. Una página de categoría predeterminada contiene elementos necesarios, como refinadores, ubicación de producto categorizada, opciones de ordenación, resumen de opciones y controles de paginación. 
 
 Sin embargo, en lugar de usar la página de categoría predeterminada, es posible que desee usar una página de aterrizaje de categoría “enriquecida” que tenga más contenido y más elementos específicos. Un enriquecimiento típico puede implicar la adición de contenido de marketing específico de categoría a la página de categoría. Este contenido podría incluir la ubicación de productos entre categorías para fines de venta cruzada, listas editoriales, imágenes, vídeos y otro texto. Puede modificar la página de categoría predeterminada o definir una página de categoría diferente para una categoría específica.
 
-![Página de aterrizaje de categoría enriquecida.](./media/CategoryLandingPages.png)
+![Página de aterrizaje de categoría enriquecida](./media/CategoryLandingPages.png)
 
 En el generador de sitios de Commerce, la página **Productos** incluye una lista de categorías del canal que se asignan al sitio. Si el estado **Enriquecido** está seleccionado para una página de categoría, se ha enriquecido esa página de categoría. De lo contrario, la página de categoría predeterminada y el contenido se utilizan para la categoría. Puede obtener una vista preliminar de las páginas de categoría enriquecidas y no enriquecidas para una categoría seleccionando el nombre de la categoría.
 
@@ -59,8 +65,3 @@ Para enriquecer una página de categoría, haga lo siguiente.
 [Enriquecer una página de producto](enrich-product-page.md)
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
-
-[Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

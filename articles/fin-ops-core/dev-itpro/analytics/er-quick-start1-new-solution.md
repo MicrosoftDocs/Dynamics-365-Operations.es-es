@@ -2,27 +2,27 @@
 title: Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 description: En este tema se explica cómo diseñar una solución de informes electrónicos (ER) para imprimir un informe personalizado.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770077"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680251"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Diseñar una nueva solución de informes electrónicos para imprimir un informe personalizado
 
@@ -121,19 +121,19 @@ Los siguientes pasos explican cómo un usuario con el rol de Administrador del s
 
 - [Recursos adicionales](#References)
 
-En este ejemplo, va a crear una nueva solución de informes electrónicos para el módulo [Cuestionario](../../../human-resources/hr-learning-questionnaires.md). Esta nueva solución de informes electrónicos le permite diseñar un informe utilizando una hoja de cálculo de Microsoft Excel como plantilla. A continuación, puede generar el informe de **Cuestionario** con formato Excel o PDF, y generar el informe de SQL Server Reporting Services (SSRS) existente. También puede modificar el nuevo informe posteriormente, a petición. No se requiere codificación.
+En este ejemplo, va a crear una nueva solución de informes electrónicos para el módulo [Cuestionario](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Esta nueva solución de informes electrónicos le permite diseñar un informe utilizando una hoja de cálculo de Microsoft Excel como plantilla. A continuación, puede generar el informe de **Cuestionario** con formato Excel o PDF, y generar el informe de SQL Server Reporting Services (SSRS) existente. También puede modificar el nuevo informe posteriormente, a petición. No se requiere codificación.
 
 1. Para ejecutar el informe existente, vaya a **Cuestionario** \> **Diseño** \> **Informe de cuestionarios**.
 
-    ![Seleccionar el elemento de menú Informe de cuestionarios en el módulo Cuestionario para ejecutar el informe de SSRS existente.](./media/er-quick-start1-application-menu-origin.png)
+    ![Seleccionar el elemento de menú Informe de cuestionarios en el módulo Cuestionario para ejecutar el informe de SSRS existente](./media/er-quick-start1-application-menu-origin.png)
 
 2. En el cuadro de diálogo **Informe de cuestionarios**, especifique los criterios de selección. Aplique un filtro para que el informe solo incluya el cuestionario **SBCCrsExam**.
 
-    ![Especificar los criterios de selección en el cuadro de diálogo Informe de cuestionarios.](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Especificar los criterios de selección en el cuadro de diálogo Informe de cuestionarios](./media/er-quick-start1-ssrs-report-dialog.png)
 
 La siguiente ilustración muestra la versión generada del informe de SSRS para el cuestionario **SBCCrsExam**.
 
-![Informe de SSRS generado.](./media/er-quick-start1-ssrs-report.png)
+![Informe de SSRS generado](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Configurar el marco ER
 
@@ -187,7 +187,7 @@ Al completar los pasos de la sección [Importar una nueva configuración de mode
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importar una nueva configuración de modelo de datos
 
-1. Descargue el archivo [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
@@ -273,7 +273,7 @@ Para continuar, omita el siguiente procedimiento, [Crear una nueva configuració
 
     La siguiente ilustración muestra el modelo de datos editable completado en la página **Diseñador de modelo de datos**.
 
-    ![Modelo de datos configurado en el diseñador de modelo de datos de ER.](./media/er-quick-start1-model2.png)
+    ![Modelo de datos configurado en el diseñador de modelo de datos de ER](./media/er-quick-start1-model2.png)
 
 7. Guarde los cambios.
 8. Cierre la página **Diseñador de modelo de datos**.
@@ -287,7 +287,7 @@ Para continuar, omita el siguiente procedimiento, [Crear una nueva configuració
 
 El estado de la versión 1 de esta configuración cambia de **Borrador** a **Completada**. La versión 1 ya no se puede cambiar. Esta versión contiene el modelo de datos configurado y se puede utilizar como la base de otras configuraciones de informes electrónicos. Se crea la versión 2 de esta configuración y tiene un estado de **Borrador**. Puede editar esta versión para ajustar el modelo de datos **Questionnaire**.
 
-![Versiones de la configuración editable en la página Configuraciones.](./media/er-quick-start1-model-configuration.png)
+![Versiones de la configuración de ER editable en la página Configuraciones](./media/er-quick-start1-model-configuration.png)
 
 Para obtener más información sobre el control de versiones para configuraciones de ER, consulte [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -302,7 +302,7 @@ Al completar los pasos de la sección [Importar una nueva configuración de asig
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importar una nueva configuración de asignación de modelo
 
-1. Descargue el archivo [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel Acción, seleccione **Exchange** \> **Cargar del archivo XML**.
@@ -368,7 +368,7 @@ Debe configurar los orígenes de datos para acceder a las tablas de la aplicaci�
     2. Seleccione **Agregar**.
     3. En el cuadro de diálogo, en el campo **Nombre**, escriba **\$ResultGroup**.
     4. Seleccione **Editar fórmula**.
-    5. En el [Editor de fórmulas ER](general-electronic-reporting-formula-designer.md), en el campo **Fórmula**, escriba **FIRSTORNULL(\@ .'\<Relations'.KMQuestionResultGroup)** para usar la [ruta](er-formula-language.md#Paths) de la relación uno a varios entre las tablas KMCollection y KMQuestionResultGroup.
+    5. En el [Editor de fórmulas ER](general-electronic-reporting-formula-designer.md), en el campo **Fórmula**, escriba **FIRSTORNULL(\@ .'\<Relations'.KMQuestionResultGroup)** para usar la [ruta](er-formula-language.md#paths) de la relación uno a varios entre las tablas KMCollection y KMQuestionResultGroup.
     6. Seleccione **Guardar** y cierre el editor de fórmulas.
     7. Seleccione **Aceptar** para agregar el nuevo campo calculado.
 
@@ -441,7 +441,7 @@ Puede agregar etiquetas de ER para configurar algunos de sus orígenes de datos 
 5. Cierra el cuadro de diálogo **Traducción de texto**.
 6. Seleccione **Cancelar**.
 
-![Agregar etiquetas de ER para la asignación del modelo editable.](./media/er-quick-start1-adding-labels.png)
+![Agregar etiquetas de ER para la asignación del modelo editable](./media/er-quick-start1-adding-labels.png)
 
 Ha introducido etiquetas de ER solo para el idioma predeterminado. Para obtener información sobre cómo las etiquetas de ER se pueden traducir a otros idiomas, consulte [Diseñar informes multilingües](er-design-multilingual-reports.md).
 
@@ -475,7 +475,7 @@ Dado que debe transformar los resultados de la comparación entre los valores de
     8. Seleccione **Guardar** y cierre el editor de fórmulas.
     9. Seleccione **Aceptar** para agregar el nuevo origen de datos.
 
-![Asignación de datos configurada en el diseñador de asignación de modelo de ER.](./media/er-quick-start1-added-data-sources.png)
+![Asignación de datos configurada en el diseñador de asignación de modelo de ER](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Enlazar orígenes de datos a campos de modelo de datos
 
@@ -526,7 +526,7 @@ Debe enlaza los orígenes de datos configurados a los campos del modelo de datos
 
     La siguiente ilustración muestra el estado final de la asignación del modelo configurado en la página **Diseñador de asignación de modelo**.
 
-    ![Asignación de datos totalmente configurada en el diseñador de asignación de modelo de ER.](./media/er-quick-start1-mapping2.png)
+    ![Asignación de datos totalmente configurada en el diseñador de asignación de modelo de ER](./media/er-quick-start1-mapping2.png)
 
 7. Guarde los cambios.
 8. Cierre la página **Diseñador de distribución del modelo**.
@@ -540,7 +540,7 @@ Debe enlaza los orígenes de datos configurados a los campos del modelo de datos
 
 El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **Completada**. La versión 1.1 ya no se puede cambiar. Esta versión contiene la asignación de modelo configurada y se puede utilizar como la base de otras configuraciones de informes electrónicos. Se crea la versión 1.2 de esta configuración y tiene un estado de **Borrador**. Puede editar esta versión para ajustar la configuración **Asignación de cuestionario**.
 
-![Versiones de la configuración de ER editable en la página Configuraciones.](./media/er-quick-start1-mapping-configuration.png)
+![Versiones de la configuración de ER editable en la página Configuraciones](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > La asignación de modelo configurada es su implementación específica de Finance del modelo de datos abstracto que representa el dominio empresarial **Cuestionario**.
@@ -549,22 +549,22 @@ El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **C
 
 El marco de ER usa plantillas de documento predefinidas para generar informes con formatos de Microsoft Office (libros de Excel o documentos de Word). Mientras se genera el informe requerido, se rellena una plantilla con los datos necesario de acuerdo con el flujo de datos configurado. Por lo tanto, primero debe diseñar una plantilla para su informe personalizado. Esta plantilla debe diseñarse como un libro de Excel, cuya estructura representa el diseño de un informe personalizado. Debe asignar nombre a todos los elementos de Excel que planea completar con los datos requeridos.
 
-1. Descargue el archivo [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
 2. Abra el archivo en Excel y revise la estructura del libro.
 
 Como muestra la siguiente ilustración, la plantilla descargada ha sido diseñada para imprimir cuestionarios específicos que presentan las preguntas de un cuestionario junto con las respuestas adecuadas.
 
-![Plantilla de Excel para imprimir cuestionarios específicos.](./media/er-quick-start1-template-layout.png)
+![Plantilla de Excel para imprimir cuestionarios específicos](./media/er-quick-start1-template-layout.png)
 
 Se han agregado nombres de Excel a esta plantilla para completar los detalles del cuestionario. Puede utilizar el Administrador de nombres para revisar los nombres de Excel.
 
-![Uso del Administrador de nombres para revisar los nombres de Excel en la plantilla de Excel proporcionada.](./media/er-quick-start1-template-names.png)
+![Uso del Administrador de nombres para revisar los nombres de Excel en la plantilla de Excel proporcionada](./media/er-quick-start1-template-names.png)
 
 Se han agregado etiquetas de informe como texto fijo en el idioma inglés. Puede reemplazar las etiquetas del informe con nuevos nombres de Excel que rellenen las etiquetas con texto dependiente del idioma con las [etiquetas](#AddMmLabels) de formato de ER, como lo hizo para las expresiones dependientes del idioma en la asignación de modelo configurada. En este caso, las etiquetas de ER deben agregarse con el formato de ER editable.
 
 Como muestra la siguiente ilustración, se ha especificado el encabezado del informe personalizado para permitir que Excel realice la paginación.
 
-![Encabezado de informe personalizado en la plantilla de Excel suministrada.](./media/er-quick-start1-template-header.png)
+![Encabezado de informe personalizado en la plantilla de Excel suministrada](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Diseñar un formato
 
@@ -574,7 +574,7 @@ Al completar los pasos de la sección [Importar una configuración de formato di
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importar una configuración de formato diseñado
 
-1. Descargue el archivo [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) y guárdelo en su equipo local.
+1. Descargue el archivo [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) y guárdelo en su equipo local.
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En el espacio de trabajo **Informes electrónico**, seleccione **Configuraciones de informes**.
 4. En el panel de acciones, seleccione **Exchange** \> **Cargar desde un archivo XML**.
@@ -614,11 +614,11 @@ Para continuar, omita el siguiente procedimiento, [Crear una nueva configuració
     2. Busque y seleccione el archivo **Questionnaires report template.xslx** guardado localmente y, a continuación, seleccione **Abrir**.
     3. Seleccione **Aceptar** para importar la plantilla.
 
-    ![Importar una plantilla de informe.](./media/er-quick-start1-template-import.png)
+    ![Importar una plantilla de informe](./media/er-quick-start1-template-import.png)
 
 El elemento de formato **Excel\\File** se agrega automáticamente al formato editable como elemento raíz. Además, el elemento de formato **Excel\\Range** o el elemento de formato **Excel\\Cell** se agregan automáticamente para cada nombre de Excel reconocido de la plantilla importada. El formato **Excel\\Header** con el elemento **String** anidado se agrega automáticamente para reflejar la configuración del encabezado de la plantilla importada.
 
-![Estructura de formato que incluye automáticamente los elementos agregados en el diseñador de operaciones de ER.](./media/er-quick-start1-template-import2.png)
+![Estructura de formato que incluye automáticamente los elementos agregados en el diseñador de operaciones de ER](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Configurar un formato
 
@@ -629,12 +629,12 @@ El elemento de formato **Excel\\File** se agrega automáticamente al formato edi
 
     Para obtener información sobre cómo especificar los contextos de idioma y cultura para un proceso de ER, consulte [Diseñar informes multilingües](er-design-multilingual-reports.md).
 
-    ![Configurar las opciones de idioma y cultura para el informe diseñado en el diseñador de operaciones de ER.](./media/er-quick-start1-template-format-structure1.png)
+    ![Configurar las opciones de idioma y cultura para el informe diseñado en el diseñador de operaciones de ER](./media/er-quick-start1-template-format-structure1.png)
 
 5. En el árbol de formato, expanda el nodo raíz y luego seleccione **ResultsGroup**.
 6. En la pestaña **Formato**, en el campo **Dirección de replicación**, seleccione **Sin replicación**, ya que no espera tener varios grupos de resultados para un solo cuestionario.
 
-    ![Definición de la dirección de replicación para los elementos de formato de rango en el diseñador de operaciones de ER.](./media/er-quick-start1-template-format-structure2.png)
+    ![Definición de la dirección de replicación para los elementos de formato de rango en el diseñador de operaciones de ER](./media/er-quick-start1-template-format-structure2.png)
 
 7. Seleccione **Guardar**.
 
@@ -654,7 +654,7 @@ Debe especificar un enlace de datos para un elemento de formato que se utiliza p
 
 5. Cierre el editor de fórmulas.
 
-    ![Configurar el enlace para completar el título de un informe generado.](./media/er-quick-start1-add-report-title-label.png)
+    ![Configurar el enlace para completar el título de un informe generado](./media/er-quick-start1-add-report-title-label.png)
 
 Puede utilizar esta técnica para hacer que todas las demás etiquetas de la plantilla actual dependan del idioma. Para obtener más información sobre cómo se pueden traducir las etiquetas agregadas de una única configuración de ER a todos los idiomas ofrecidos, consulte [Diseñar informes multilingües](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ Puede utilizar esta técnica para hacer que todas las demás etiquetas de la pla
 2. Seleccione **Editar**.
 3. Revise la información en el cuadro de diálogo **Propiedades del origen de datos**. Este origen de datos representa la versión 1 del componente del modelo de datos **Cuestionarios** que reside en la configuración de ER **Modelo de cuestionarios**.
 
-![Propiedades del origen de datos de modelo en el diseñador de operaciones de ER.](./media/er-quick-start1-model-data-source.png)
+![Propiedades del origen de datos de modelo en el diseñador de operaciones de ER](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Enlazar elementos de formato a campos de origen de datos
 
@@ -680,11 +680,11 @@ Para especificar cómo se rellena una plantilla en tiempo de ejecución, debe vi
 
     El elemento de formato de rango **Cuestionario** está configurado como replicado verticalmente. Cuando se enlaza a un origen de datos de tipo **Lista de registros**, el rango de **Cuestionario** apropiado de la plantilla de Excel se repite para cada registro del origen de datos enlazado.
  
-    ![Enlazar el elemento de formato de rango de Cuestionario a los orígenes de datos de tipo lista de registros adecuados en el diseñador de operaciones de ER.](./media/er-quick-start1-bindings1.png)
+    ![Enlazar el elemento de formato de rango de Cuestionario a los orígenes de datos de tipo lista de registros adecuados en el diseñador de operaciones de ER](./media/er-quick-start1-bindings1.png)
 
     Como el rango **Cuestionario** de la plantilla de Excel se define entre las filas 5 y 14, estas filas se repiten para cada cuestionario incluido en el informe.
 
-    ![Filas de la plantilla de Excel que se repetirán en un informe generado para cada registro de los orígenes de datos de tipo lista de registros.](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Filas de la plantilla de Excel que se repetirán en un informe generado para cada registro de los orígenes de datos de tipo lista de registros](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configure enlaces similares para los elementos de formato restantes, como se describe en la siguiente tabla.
 
@@ -720,7 +720,7 @@ Para especificar cómo se rellena una plantilla en tiempo de ejecución, debe vi
 
 La siguiente ilustración muestra el estado final de los enlaces de datos configurados en la página **Diseñador de formato**.
 
-![Enlaces de datos configurados en el diseñador de operaciones de ER.](./media/er-quick-start1-bindings2.png)
+![Enlaces de datos configurados en el diseñador de operaciones de ER](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Toda la colección de orígenes de datos y enlaces especificados representa un componente de asignación de formato del formato configurado. Se llama a esta asignación de formato cuando se ejecuta el formato configurado para la generación de informes.
@@ -740,9 +740,9 @@ Ahora puede ejecutar un formato diseñado con fines de prueba desde la página *
 
 De forma [predeterminada](electronic-reporting-destinations.md#default-behavior), se entrega un informe generado como un archivo de Excel que se puede descargar. Las siguientes ilustraciones muestran dos páginas del informe generado con formato Excel.
 
-![Ejemplo de informe generado con formato Excel, página 1.](./media/er-quick-start1-report1a.png)
+![Ejemplo de informe generado con formato Excel, página 1](./media/er-quick-start1-report1a.png)
 
-![Ejemplo de informe generado con formato Excel, página 2.](./media/er-quick-start1-report1b.png)
+![Ejemplo de informe generado con formato Excel, página 2](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Ajustar un formato diseñado
 
@@ -763,7 +763,7 @@ Las preguntas no están ordenadas correctamente en un informe generado. Puede ca
 1. En la página **Diseñador de formato**, seleccione el elemento raíz **Report** .
 2. En la pestaña **Asignación**, en el árbol de formato, expanda **Report\\Questionnaire\\Question**.
 
-    ![Elemento de formato de pregunta del tipo Rango el diseñador de operaciones de ER.](./media/er-quick-start1-bindings3.png)
+    ![Elemento de formato de pregunta del tipo Rango el diseñador de operaciones de ER](./media/er-quick-start1-bindings3.png)
 
 3. En la pestaña **Asignación**, seleccione **model.Questionnaire**.
 4. Seleccione **Agregar** \> **Functions\\Calculated field** y, a continuación, en el campo **Nombre**, introduzca **OrderedQuestions**.
@@ -776,7 +776,7 @@ Las preguntas no están ordenadas correctamente en un informe generado. Puede ca
 11. Seleccione **Enlazar** y, a continuación, confirme que la ruta **model.Questionnaire.Questions** actual se reemplaza por la nueva ruta **model.Questionnaire.OrderedQuestions** en todos los enlaces de elementos anidados.
 12. Seleccione **Guardar**.
 
-![Vincular el elemento de formato de pregunta al origen de datos OrderedQuestions configurado en el diseñador de operaciones de ER.](./media/er-quick-start1-bindings4.png)
+![Vincular el elemento de formato de pregunta al origen de datos OrderedQuestions configurado en el diseñador de operaciones de ER](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Ejecutar un formato modificado a partir de un informe electrónico
 
@@ -790,7 +790,7 @@ Ahora puede ejecutar un formato modificado con fines de prueba desde el marco de
 
 La siguiente ilustración muestra un informe generado en formato Excel donde las preguntas están correctamente ordenadas.
 
-![Informe generado en formato Excel que tiene preguntas ordenadas correctamente.](./media/er-quick-start1-report2.png)
+![Informe generado en formato Excel que tiene preguntas ordenadas correctamente](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Completar el diseño del formato
 
@@ -801,7 +801,7 @@ La siguiente ilustración muestra un informe generado en formato Excel donde las
 
 El estado de la versión 1.1 de esta configuración cambia de **Borrador** a **Completada**. La versión 1.1 ya no se puede cambiar. Esta versión contiene el formato configurado y se puede utilizar para imprimir su informe personalizado. Se crea la versión 1.2 de esta configuración y tiene un estado de **Borrador**. Puede editar esta versión con el fin de ajustar el formato del informe **Questionnaire**.
 
-![Configuración de ER editable en la página Configuraciones.](./media/er-quick-start1-format-configuration.png)
+![Versiones de la configuración de ER editable en la página Configuraciones](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > El formato configurado es su diseño del informe **Questionnaire** y no contiene ninguna relación con los artefactos específicos de Finance.
@@ -1051,7 +1051,7 @@ Cree su proyecto para hacer que un nuevo elemento de menú esté disponible para
 
 1. Vaya a **Cuestionario** \> **Diseño** \> **Questionnaires report (powered by ER)**.
 
-    ![Seleccionar el elemento de menú Questionnaires report (powered by ER) en el módulo Questionnaire para ejecutar el formato de ER configurado.](./media/er-quick-start1-application-menu-modified.png)
+    ![Seleccionar el elemento de menú Questionnaires report (powered by ER) en el módulo Questionnaire para ejecutar el formato de ER configurado](./media/er-quick-start1-application-menu-modified.png)
 
 2. En el cuadro de diálogo, en el campo **Asignación de formato**, seleccione **Informe de cuestionarios**.
 3. Seleccione **Aceptar**.
@@ -1059,7 +1059,7 @@ Cree su proyecto para hacer que un nuevo elemento de menú esté disponible para
 5. Seleccione **Aceptar** para confirmar la opción de filtrado.
 6. Seleccione **Aceptar** para ejecutar el informe.
 
-    ![Especificar los criterios de selección en el cuadro de diálogo Informe electrónico.](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Especificar los criterios de selección en el cuadro de diálogo Informe electrónico](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Revise el informe generado.
 
@@ -1084,7 +1084,7 @@ Puede modificar la solución de ER configurada para que utilice la clase de prov
 
 El origen de datos agregado proporciona información sobre el id. de registro de la asignación de formato de ER en ejecución.
 
-![Origen de datos agregado en el diseñador de asignación de modelo de ER.](./media/er-quick-start1-mapping3.png)
+![Origen de datos agregado en el diseñador de asignación de modelo de ER](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Agregar un origen de datos para acceder a registros de asignación de formato de informe electrónico
 
@@ -1119,7 +1119,7 @@ Para continuar, edite la asignación del modelo seleccionado de forma que se int
 
 Como utilizó el campo **FormatName**, ahora la asignación de modelo configurada expone el nombre de un formato de ER que llama a esta asignación de modelo durante la ejecución.
 
-![Enlazar el campo del modelo de datos al método del origen de datos agregado en el diseñador de asignación de modelo de ER.](./media/er-quick-start1-mapping4.png)
+![Enlazar el campo del modelo de datos al método del origen de datos agregado en el diseñador de asignación de modelo de ER](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Completar el diseño de la asignación del modelo
 
@@ -1156,7 +1156,7 @@ Puede modificar el formato de ER configurado de forma que su nombre se muestre e
 
 Ahora el formato configurado se ha modificado para que se introduzca su nombre en el pie de página de un informe generado mediante el elemento **Footer\\String**.
 
-![Agregar el elemento de formato de pie de página al formato configurado en el diseñador de operaciones de ER.](./media/er-quick-start1-template-format-structure3.png)
+![Agregar el elemento de formato de pie de página al formato configurado en el diseñador de operaciones de ER](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Completar el diseño del formato
 
@@ -1178,7 +1178,7 @@ El estado de la versión 1.2 de esta configuración cambia de **Borrador** a **C
 
 Observe que el pie de página del informe generado contiene el nombre del formato de ER que se utilizó para generarlo.
 
-![Informe generado con formato Excel.](./media/er-quick-start1-report4.png)
+![Informe generado con formato Excel](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Ejecutar un formato a partir de un informe electrónico
 
@@ -1199,7 +1199,7 @@ Tenga en cuenta que el pie de página del informe generado no contiene el nombre
 3. En la ficha desplegable **Destino de archivo**, configure el [destino](er-destination-type-screen.md) de **Pantalla** para el componente de formato **Report** que se ha [agregado](#AddFormatRootElement) como el elemento raíz del formato de ER **Informe de cuestionario** configurado.
 4. En la ficha desplegable **Configuración de conversión de PDF**, configure el destino para convertir un informe al [formato PDF](electronic-reporting-destinations.md#OutputConversionToPDF) que usa la orientación de página **Horizontal**.
 
-![Configurar el destino de pantalla personalizado para el formato de ER en la página de destino de informes electrónicos.](./media/er-quick-start1-destination.png)
+![Configurar el destino de pantalla personalizado para el formato de ER en la página de destino de informes electrónicos](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Ejecutar un formato desde la aplicación para obtener una vista previa como un documento PDF
 
@@ -1211,12 +1211,12 @@ Tenga en cuenta que el pie de página del informe generado no contiene el nombre
 
     En la ficha desplegable **Destinos**, observe que el campo **Salida** está establecido en **Pantalla**. Si desea cambiar el destino configurado, seleccione **Cambiar**.
 
-    ![Cuadro de diálogo de tiempo de ejecución de informe de ER en el que puede cambiar el destino configurado.](./media/er-quick-start1-run-settings.png)
+    ![Cuadro de diálogo de tiempo de ejecución de informe de ER en el que puede cambiar el destino configurado](./media/er-quick-start1-run-settings.png)
 
 6. Seleccione **Aceptar** para ejecutar el informe.
 7. Revise el informe generado con formato PDF.
 
-    ![Vista previa en pantalla del informe generado con formato PDF.](./media/er-quick-start1-preview-PDF.png)
+    ![Vista previa en pantalla del informe generado con formato PDF](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Recursos adicionales
 
@@ -1233,6 +1233,3 @@ Tenga en cuenta que el pie de página del informe generado no contiene el nombre
 - [Función IF](er-functions-logical-if.md)
 - [Función ORDERBY](er-functions-list-orderby.md)
 - [Función SESSIONNOW](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

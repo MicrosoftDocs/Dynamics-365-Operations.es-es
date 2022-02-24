@@ -1,38 +1,38 @@
 ---
 title: Página principal de activos fijos
-description: Este tema proporciona acceso a recursos que pueden ayudarlo a usar los activos fijos para Microsoft Dynamics 365 Finance.
-author: moaamer
+description: Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "21481"
-- intro-internal
+ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: moaamer
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674860"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969086"
 ---
 # <a name="fixed-assets-home-page"></a>Página principal de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona acceso a recursos que pueden ayudarlo a usar los activos fijos para Microsoft Dynamics 365 Finance. Los activos fijos son artículos de valor que pertenecen a un individuo u organización. Los artículos incluyen edificios, vehículos, tierras y equipos. 
+Los activos fijos son artículos de valor, como edificios, vehículos, tierras y equipos, que posee una persona o una organización. 
 
-Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionar dichos activos depreciándolos y configurando un umbral de capitalización para determinar la depreciación. Puede calcular ajustes para los activos fijos y también desecharlos. Al utilizar Contabilidad general junto con Activos fijos, puede ver el valor actual de todos los activos fijos. La forma de gestionar los activos fijos se debe corresponder a los estándares de contabilidad internacional y a la legislación de contabilidad en cada país/región. Los requisitos deben incluir las reglas para registrar transacciones de uso y cancelación, depreciación, tiempo de vida útil, revalorizaciones y devaluaciones de los activos fijos. La función de activos fijos incorpora muchos de estos estándares y reglas.
+Puede configurar y especificar información de adquisición para activos fijos y, a continuación, gestionarlos depreciándolos y configurando un umbral de capitalización para determinar la depreciación. Puede calcular ajustes para los activos fijos y también desecharlos. Al utilizar Contabilidad general junto con Activos fijos, puede ver el valor actual de todos los activos fijos. La forma de gestionar los activos fijos se debe corresponder a los estándares de contabilidad internacional y a la legislación de contabilidad en cada país/región. Los requisitos deben incluir las reglas para registrar transacciones de uso y cancelación, depreciación, tiempo de vida útil, revalorizaciones y devaluaciones de los activos fijos. La función de activos fijos incorpora muchos de estos estándares y reglas.
 
-[![Proceso de negocio.](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Proceso empresarial](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
@@ -40,7 +40,7 @@ Puede configurar y especificar información de adquisición para activos fijos y
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a los [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
+Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 
@@ -60,6 +60,3 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

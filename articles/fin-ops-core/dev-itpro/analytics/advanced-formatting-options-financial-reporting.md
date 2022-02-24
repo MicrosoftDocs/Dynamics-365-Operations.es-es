@@ -1,10 +1,12 @@
 ---
 title: Opciones de formato avanzadas en informes financieros
-description: Este tema describe funciones de formato avanzadas, incluidos filtros, restricciones, filas que no se imprimen e instrucciones condicionales en los cálculos.
-author: panolte
+description: Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos.
+author: ryansandness
+manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e15869fdd598aeec7ef616f6d54593c7551cb906ab53763a64f4202473bcd926
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760135"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683172"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
@@ -281,10 +283,10 @@ Para restringir un cálculo a una sola unidad de notificación en un organigrama
 > [!NOTE]
 > Para usar esta función, un organigrama debe estar asociado con la definición de filas.
 
-La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comience en una construcción **SI \@Unit**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Aquí hay un ejemplo: **SI @Unit(VENTAS) O @Unit(VENTASOESTE) ENTONCES 5 SI NO @100**. Puede especificar una unidad en una restricción de tipo de cálculo de una de las siguientes maneras:
+La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila de datos financieros. El cálculo se registra en la celda **Fórmulas o filas o unidades relacionadas** de la definición de filas y de la restricción financiera del tipo de datos. El cálculo debe usar un cálculo condicional que comienza en una construcción **IF @Unidad**. Esto es un ejemplo: IF @Unit(SALES) THEN @100 ELSE 0 Este cálculo incluye el importe de la fila 100 en cada columna de informe, pero únicamente para la unidad de ventas. Si las unidades varias se denominan VENTAS, el importe aparece en cada una de las unidades. Además, la fila 100 puede ser una fila de datos financieros y se puede definir como sin impresión. En este caso, se evita que el importe aparezca en todas las unidades del organigrama. También puede limitar el importe a una columna única del informe, como la columna H, mediante una restricción de columna para imprimir el valor solo en esa columna del informe. Puede incluir combinaciones de **OR** en una expresión **SI**. Esto es un ejemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Puede especificar una unidad en una restricción de tipo cálculo de una de las siguientes formas:
 
-- Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **SI \@Unit(VENTAS)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
-- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **SI @Unit(ACME:VENTAS)** para restringir el cálculo en las unidades de ventas de la empresa ACME.
+- Escriba un nombre de la unidad para incluir las unidades que coinciden. Por ejemplo, **IF @Unit(SALES)** habilita el cálculo para cualquier unidad que se llame VENTAS, incluso si hay varias unidades de ventas en el organigrama.
+- Especifique el nombre de la empresa y la unidad para restringir el cálculo a unidades específicas de una empresa específica. Por ejemplo, escriba **IF @Unit(ACME:SALES**) para restringir el cálculo en las unidades de ventas de la empresa ACME.
 - Especifique el código completo de la jerarquía del organigrama para restringir el cálculo en una unidad específica. Por ejemplo, escriba **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -294,7 +296,7 @@ La fila de cálculo puede hacer referencia a una fila de cálculo o a una fila d
 
 1. En el Diseñador de informes, haga clic en **Definiciones de filas** y abra la definición de fila que desee modificar.
 2. Haga doble clic en la celda **Código de formato** y luego seleccione **CAL**.
-3. Haga clic en la celda **Fórmulas o filas o unidades relacionadas** y especifique un cálculo condicional que comience por una construcción **SI \@Unit**.
+3. Haga clic en la celda **Fórmulas o filas o unidades relacionadas** y especifique un cálculo condicional que comienza en una construcción **IF @Unidad**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>La expresiones IF/THEN/ELSE en una definición de columna
 
@@ -308,5 +310,3 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&).
 
 Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

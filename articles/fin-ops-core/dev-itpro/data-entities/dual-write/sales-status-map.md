@@ -2,19 +2,28 @@
 title: Configurar la asignación de las columnas de estado del pedido de ventas
 description: Este tema explica cómo configurar las columnas de estado de pedido de ventas para doble escritura.
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782293"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744308"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurar la asignación de las columnas de estado del pedido de ventas
 
@@ -93,7 +102,7 @@ Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
 1. En un explorador, vaya a `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Reemplace **\<test-name\>** con el enlace de su empresa en Sales.
 2. En la página que se abre, busque **organizationid** y anote el valor.
 
-    ![Cómo encontrar organizationid.](media/sales-map-orgid.png)
+    ![Cómo encontrar organizationid](media/sales-map-orgid.png)
 
 3. En Sales, abra la consola del explorador y ejecute el siguiente script. Use el valor **organizationid** del paso 2.
 
@@ -112,7 +121,7 @@ Para habilitar el atributo **IsSOPIntegrationEnabled**, siga estos pasos.
     );
     ```
 
-    ![Código JavaScript en la consola del explorador.](media/sales-map-script.png)
+    ![Código JavaScript en la consola del explorador](media/sales-map-script.png)
 
 4. Compruebe que **IsSOPIntegrationEnabled** está establecido en **true**. Use la dirección URL del paso 1 para comprobar el valor.
 
@@ -122,25 +131,22 @@ Para habilitar el atributo **isIntegrationUser**, siga estos pasos.
 
 1. En Sales, vaya a **Configuración \> Personalización \> Personaliza el sistema**, seleccione **Tabla de usuario** y abra **Formulario \> Usuario**.
 
-    ![Abrir el formulario de usuario.](media/sales-map-user.png)
+    ![Abrir el formulario de usuario](media/sales-map-user.png)
 
 2. En el explorador de campos, busque **Modo de usuario de integración** y haga doble clic en él para agregarlo al formulario. Guarde el cambio.
 
-    ![Agregar la columna Modo de usuario de integración al formulario.](media/sales-map-field-explorer.png)
+    ![Agregar la columna Modo de usuario de integración al formulario](media/sales-map-field-explorer.png)
 
 3. En Sales, vaya a **Configuración \> Seguridad \> Usuarios** y cambie la vista de **Usuarios habilitados** a **Usuarios de la aplicación**.
 
-    ![Cambiar la vista de usuarios habilitados a usuarios de aplicaciones.](media/sales-map-enabled-users.png)
+    ![Cambiar la vista de usuarios habilitados a usuarios de aplicaciones](media/sales-map-enabled-users.png)
 
 4. Seleccione las dos entradas para **DualWrite IntegrationUser**.
 
-    ![Lista de usuarios de aplicación.](media/sales-map-user-mode.png)
+    ![Lista de usuarios de aplicación](media/sales-map-user-mode.png)
 
 5. Cambie el valor de la columna **Modo de usuario de integración** a **Sí**.
 
-    ![Cambiar el valor de la columna Modo de usuario de integración.](media/sales-map-user-mode-yes.png)
+    ![Cambiar el valor de la columna Modo de usuario de integración](media/sales-map-user-mode-yes.png)
 
 Ahora los pedidos de ventas están asignados.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Evaluación de condiciones
 description: En este tema se explica cómo crear una plantilla y un registro de evaluación de condiciones para un activo en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectCondition, EntAssetConditionTemplate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18be786e6f78829f61db1521a923e229fc4f0e70
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736073"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021125"
 ---
 # <a name="condition-assessment"></a>Evaluación de condiciones
 
@@ -63,6 +65,3 @@ Tras un registro de evaluación de condiciones en un activo, puede imprimir un i
 
 >[!NOTE]
 >También puede registrar la evaluación de condiciones en una orden de trabajo (**Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** >  botón **Evaluación de condiciones**.)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

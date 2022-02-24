@@ -1,32 +1,34 @@
 ---
 title: Recursos de globalización
 description: Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad y ofertas específicas de un país o región.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747524"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685062"
 ---
 # <a name="globalization-resources"></a>Recursos de globalización
 
 ## <a name="local-and-regional-deployments"></a>Implementaciones locales y regionales
 Si la legislación de su gobierno exige almacenar los datos de manera distinta o usarlos de forma distinta que otros países/regiones, puede haber requisitos de país/región que debe tener en cuenta durante la implementación. Considere los siguientes recursos que pueden serle relevantes:
 
-[Aplicaciones de Finance and Operations operadas por 21Vianet en China](../deployment/china-local-deployment.md)
+[Aplicaciones de Finance and Operations operadas por 21Vianet en China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Características normativas y de localización
 
@@ -53,6 +55,7 @@ Los siguientes recursos proporcionan información sobre características de loca
 
 #### <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 -   [Actualizaciones reglamentarias](../../../finance/localizations/regulatory-updates.md)
+-   [Portal de localización](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (actualizado semanalmente)
 -   [Búsqueda de temas en Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (actualizado diariamente)
 
 #### <a name="communication-and-alerts"></a>Comunicación y alertas
@@ -60,14 +63,14 @@ Los siguientes recursos proporcionan información sobre características de loca
 -   [Enviar las alertas sobre características normativas específicas de países o regiones](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Planes de la versión de Dynamics 365
-Los [planes de la versión de Dynamics 365](/business-applications-release-notes/) ofrecen descripciones de las funcionalidades nuevas y mejoradas planeadas para las aplicaciones empresariales y las plataformas de aplicaciones de Dynamics 365. 
+Los [planes de la versión de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) ofrecen descripciones de las funcionalidades nuevas y mejoradas planeadas para las aplicaciones empresariales y las plataformas de aplicaciones de Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novedades en las aplicaciones de Finance and Operations
 La [página principal de Novedades y cambios en Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) muestra las características incluidas en versiones específicas de las aplicaciones de Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Informes electrónicos
 La herramienta de informes electrónicos (ER) le permite configurar formatos para documentos electrónicos en función de los requisitos legales de diversos países o regiones. ER le permite administrar estos formatos durante su ciclo de vida. Para obtener más información, consulte uno de los temas siguientes:
--   [Información general de los informes electrónicos (ER)](../analytics/general-electronic-reporting.md)
+-   [Visión general de los informes electrónicos (ER)](../analytics/general-electronic-reporting.md)
 -   [Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Crear configuraciones de informes electrónicos (ER)](../analytics/electronic-reporting-configuration.md)
 -   [Ampliar la lista de funciones de informes electrónicos (ER)](../analytics/general-electronic-reporting-formulas-list-extension.md)
@@ -130,6 +133,3 @@ Para obtener más información, consulte [Sistema de ayuda](../../fin-ops/get-st
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

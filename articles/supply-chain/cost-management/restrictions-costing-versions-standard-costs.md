@@ -2,9 +2,11 @@
 title: Restricciones en versiones de gestión de costes para costes estándar
 description: Este tema describe las restricciones que se aplican una versión de gestión de costes para costes estándar.
 author: AndersGirke
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -16,12 +18,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2028cdabde3d01de16050b38893ec9e42353ae542be7a0cd7362cf62e9315170
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748796"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963797"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restricciones en versiones de gestión de costes para costes estándar
 
@@ -39,7 +41,8 @@ Las siguientes restricciones ayudan garantizar el cumplimiento de los principios
 
 Los datos de costes estándar de un artículo pueden copiarse en otra versión de gestión de costes que incluya costes estándar o costes planificados. Sin embargo, los datos de costes planificados de un artículo no pueden copiarse en una versión de costes que incluya costes estándar, debido a que las restricciones que se describen anteriormente en este tema no se aplican a los costes planificados.
 
-## <a name="related-topics"></a>Temas relacionados
+<a name="related-topics"></a>Temas relacionados
+--------
 
 [Visión general de las versiones de gestión de costes](costing-versions.md)
 
@@ -47,6 +50,3 @@ Los datos de costes estándar de un artículo pueden copiarse en otra versión d
 
 [Preparar el mantenimiento de los costes estándar de artículos fabricados](update-standard-costs-manufacturing-environment.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

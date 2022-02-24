@@ -2,9 +2,11 @@
 title: Planificación de su jerarquía organizativa
 description: Antes de configurar las organizaciones y las jerarquías organizativas, asegúrese de saber cómo se modelará la empresa.
 author: sericks007
-ms.date: 02/19/2021
+manager: AnnBe
+ms.date: 08/28/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771881"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694698"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planificación de su jerarquía organizativa
 
@@ -164,7 +166,7 @@ Las unidades operativas usan el contexto del país o región de la entidad jurí
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si la organización se ha modelado como entidad jurídica
 
-Para los países o regiones que se admiten, se puede crear la mayoría de los informes estatutarios. 
+Para los países o regiones que se admiten, se puede crear la mayoría de los informes estatutarios. Para obtener más información acerca de qué informes están disponibles para cada país o región, vea el [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Se requiere una sesión en CustomerSource).
 
 > [!NOTE]
 > Una capa de registro en la contabilidad general permite realizar entradas de ajuste a una empresa matriz que usa un estándar de contabilidad distinto del de la empresa secundaria. Por ejemplo, para una empresa que usa prácticas de contabilidad normalmente aceptadas en el Reino Unido (GAAP de Reino Unido), puede crear entradas de ajuste en la capa de registro. Estas entradas se pueden consolidar en una empresa matriz que usa los principios contables generalmente aceptados (GAAP) en Estados Unidos. Las entradas de ajuste no afectan a los informes de GAAP de Reino Unido.
@@ -239,6 +241,3 @@ Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarq
 - Antes de modelar los escenarios de reestructuración principales, use las fechas de vigencia de la jerarquía para llevar a cabo un análisis de impacto y una prueba de validación.
 - Use el modo de borrador para cambiar una jerarquía antes de publicar una nueva versión en un entorno de producción.
 - Limite el número de personas con permisos para agregar o quitar organizaciones de una jerarquía en un entorno de producción. Un número más pequeño reduce la posibilidad de que se puedan producir costosos errores y de que se deban realizar correcciones.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

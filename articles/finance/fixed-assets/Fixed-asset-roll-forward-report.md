@@ -1,10 +1,12 @@
 ---
 title: Informe de puesta al día para activos fijos
 description: Este tema explica cómo utilizar el informe de puesta al día para activos fijos.
-author: moaamer
+author: saraschi2
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b0c0c8b1a33041e266ce266dc79b29c8a7dbfa14
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883602"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969162"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Informe de puesta al día para activos fijos
 
@@ -28,7 +30,7 @@ ms.locfileid: "7883602"
 
 El informe de **Puesta al día para activos fijos** proporciona, en un formato de Microsoft Excel fácil de leer, los datos detallados del activo fijo que pueda necesitar para el cierre del período, los informes financieros y la notificación de impuestos. El informe incluye los saldos de inicio y fin para los activos fijos, junto con los movimientos de la evaluación para el período y cualquier adquisición y disposición de activos nueva que se hayan producido durante el período. Los datos se notifican para activos fijos individuales y los valores también se resumen para los grupos de activos fijos y la entidad jurídica.
 
-El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Este informe sólo está disponible en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, o como sustitución de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
 
@@ -64,6 +66,3 @@ En la tabla siguiente se describen los campos disponibles en el informe.
 |           Cancelaciones: valor residual            |                                                                                               El valor residual para el libro de activos fijos con una cancelación – transacción residual.                                                                                               |
 |           Cancelaciones: pérdidas/ganancias            |                                                                                 El valor de pérdidas o ganancias que se calcula como parte de la transacción de cancelación del libro de activos fijos.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,82 +1,92 @@
 ---
-title: Configuración de la doble escritura de Lifecycle Services
-description: Este tema explica cómo configurar una conexión de escritura dual desde Microsoft Dynamics Lifecycle Services (LCS).
-author: laneswenka
-ms.date: 08/03/2021
+title: Configuración de doble escritura desde Lifecycle Services
+description: Este tema explica cómo configurar una conexión de doble escritura entre un entorno nuevo de Finance and Operations y un entorno nuevo de Dataverse desde Microsoft Dynamics Lifecycle Services (LCS).
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063681"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683534"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de doble escritura desde Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tema explica cómo habilitar escritura dual desde Microsoft Dynamics Lifecycle Services (LCS).
+Este tema explica cómo configurar una conexión de doble escritura entre un entorno nuevo de Finance and Operations y un entorno nuevo de Dataverse desde Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Debe completar la integración de Power Platform como se describe en los siguientes temas:
+Debe ser administrador para configurar una conexión de doble escritura.
 
-+ [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Integración de Power Platform: habilitar después de la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ Debe tener acceso al inquilino.
++ Debes ser administrador tanto en entornos Finance and Operations y entornos Dataverse.
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurar escritura dual para nuevos entornos de Dataverse
+## <a name="set-up-a-dual-write-connection"></a>Configurar una conexión de doble escritura
 
-Siga estos pasos para configurar la escritura dual desde la página de LCS **Detalles del entorno**:
+Siga estos pasos para configurar una conexión de doble escritura.
 
-1. En la página **Detalles del entorno**, expanda la sección **Integración de Power Platform**.
+1. En LCS, vaya a su proyecto.
+2. Seleccione **Configurar** para implementar un nuevo entorno.
+3. Seleccione la versión. 
+4. Seleccione la topología. Si solo hay una topología disponible, se selecciona automáticamente.
+5. Complete los primeros pasos en el asistente **Configuraciones de implementación**.
+6. En la pestaña **Dataverse**, siga uno de estos pasos:
 
-2. Seleccione el botón **Aplicación de escritura dual**.
+    - Si un entorno Dataverse ya está aprovisionado para su inquilino, puede seleccionarlo.
 
-    ![Integración de Power Platform.](media/powerplat_integration_step2.png)
+        1. Establezca la opción **Configurar Dataverse** a **Sí**.
+        2. En el campo **Entornos disponibles**, seleccione el entorno para integrar con sus datos Finance and Operations. La lista incluye todos los entornos donde tiene privilegios de administrador.
+        3. Selecciona la casilla de verificación **De acuerdo** para indicar que está de acuerdo con los términos y condiciones.
 
-3. Revise los términos y condiciones, y luego seleccione **Configurar**.
+        ![Pestaña Dataverse cuando un entorno Dataverse ya está aprovisionado para su inquilino](../dual-write/media/lcs_setup_1.png)
 
-4. Seleccione **Aceptar** para continuar.
+    - Si su inquilino aún no tiene un entorno Dataverse, se proporcionará un nuevo entorno.
 
-5. Puede supervisar el progreso actualizando periódicamente la página de detalles del entorno. La configuración suele tardar 30 minutos o menos.  
+        1. Establezca la opción **Configurar Dataverse** a **Sí**.
+        2. Escriba un nombre para el entorno Dataverse.
+        3. Seleccione la región para implementar el entorno.
+        4. Seleccione el idioma y la divisa predeterminados para el entorno.
 
-6. Cuando se complete la configuración, un mensaje le informará si el proceso tuvo éxito o si hubo un error. Si la configuración falla, se muestra un mensaje de error relacionado. Debe corregir cualquier error antes de pasar al siguiente paso.
+            > [!NOTE]
+            > No puede cambiar el idioma y la moneda más tarde.
 
-7. Seleccione **Enlazar al entorno de Power Platform** para crear un vínculo entre Dataverse y las bases de datos del entorno actual. Esto suele tardar menos de 5 minutos.
+        5. Selecciona la casilla de verificación **De acuerdo** para indicar que está de acuerdo con los términos y condiciones.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular al entorno de Power Platform.":::
+        ![Pestaña Dataverse cuando su inquilino aún no tiene un entorno Dataverse](../dual-write/media/lcs_setup_2.png)
 
-8. Cuando se completa el vínculo, se muestra un hipervínculo. Utilice el enlace para iniciar sesión en el área de administración de escritura dual en el entorno de Finance and Operations. Desde allí, puede configurar asignaciones de entidades.
+7. Complete los pasos restantes en el asistente **Configuraciones de implementación**.
+8. Después de que el entorno tenga un estado de **Implementado**, abra la página de detalles del entorno. La sección **Información del entorno de Dataverse** muestra los nombres de entorno Finance and Operations y el entorno Dataverse que están vinculados.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Configurar escritura dual para un entorno de Dataverse ya existente
+    ![Sección de información de entorno de Dataverse](../dual-write/media/lcs_setup_3.png)
 
-Para configurar la escritura dual para un entorno de Dataverse, debe crear una [incidencia de soporte técnico](../../lifecycle-services/lcs-support.md) de Microsoft. La incidencia debe incluir:
+9. Un administrador del entorno de Finance and Operations debe iniciar sesión en LCS y seleccionar **Enlazar a CDS para aplicaciones** para completar el enlace. La página de detalles del entorno muestra la información de contacto del administrador.
 
-+ Su Id. de entorno de Finance and Operations.
-+ El nombre de su entorno de Lifecycle Services.
-+ La ID de organización de Dataverse la ID de entorno de Power Platform del Centro de administración de Power Platform. En su ticket, solicite que el ID sea la instancia utilizada para la integración de Power Platform.
+    Una vez que se completa el enlace, el estado se actualiza a **Enlace de entorno completado con éxito**.
+
+10. Para abrir el espacio de trabajo **Integración de datos** en el entorno Finance and Operations y controlar de las plantillas disponibles, seleccione **Enlazar a CDS para aplicaciones**.
+
+    ![Enlace al botón CDS para aplicaciones en la sección de información del entorno de Dataverse](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > No puede desvincular entornos utilizando LCS. Para desvincular un entorno, abra el espacio de trabajo **Integración de datos** en el entorno Finance and Operations, y luego seleccione **Desvincular**.
-
-## <a name="linking-mismatch"></a>Desajuste de vinculación
-
-Es posible que su entorno LCS esté vinculado a una instancia de Dataverse, mientras que su entorno de escritura dual esté vinculado a otra instancia de Dataverse. Este desajuste de vinculación puede provocar un comportamiento inesperado y podría terminar enviando datos al entorno incorrecto. El entorno recomendado para usar para escritura dual es el que se crea como parte de la integración de Power Platform y, a largo plazo, esta será la única forma de establecer un vínculo entre entornos.
-
-Si su entorno tiene un desajuste de vinculación, LCS muestra una advertencia en la página de detalles de su entorno similar a "Microsoft ha detectado que su entorno está vinculado mediante escritura dual a un destino diferente al especificado en Integración de Power Platform, lo cual no se recomienda":
-
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="El enlace de integración de Power Platform no coincide.":::
-
-Si encuentra este error, hay dos opciones, según sus necesidades:
-
-+ [Desvincular y volver a vincular entornos de escritura dual (restablecer o cambiar la vinculación)](relink-environments.md#scenario-reset-or-change-linking) según se especifica en la página de detalles del entorno LCS. Esta es la opción ideal, porque puede ejecutarla sin el soporte técnico de Microsoft.  
-+ Si desea mantener su vínculo en escritura dual, puede solicitar ayuda al soporte técnico de Microsoft para cambiar la integración de Power Platform para usar su entorno de Dataverse existente como se documenta en la sección anterior.  
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

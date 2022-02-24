@@ -2,24 +2,27 @@
 title: Informe del Modelo 347
 description: Este tema proporciona información sobre cómo generar el informe del Modelo 347 que está disponible para las personas jurídicas que tienen su domicilio principal en España.
 author: Anasyash
+manager: AnnBe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 271523
 ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0f296cbc1cf3ddf77398114641e28fd5352f2d0118d0de98c25723197961f06b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfb8fd3bdd581ebc60a60f48240453015701b894
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752114"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407813"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]
@@ -56,12 +59,12 @@ Se deben establecer los siguientes requisitos previos antes de comenzar a trabaj
 
 ## <a name="setup"></a>Configurar
 
-1.  En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), en la Biblioteca de activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para los siguientes formatos de declaración de IVA:
+1.  En [Microsoft Dynamics Lifecycle Services (LCS) ](https://lcs.dynamics.com/V2), en la Biblioteca de activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para los siguientes formatos de declaración de IVA:
 
     -   Formato de exportación del Modelo 347 (ES)
     -   Formato de informes del Modelo 347 (ES)
 
-Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 2.  Vaya a **Impuestos** \> **Configuración** \> **Impuestos** \> **Cuentas contables de efectivo**.
 3.  En la página **Cuentas contables de efectivo**, especifique las cuentas contables de efectivo que se requieren para el Modelo 347.
@@ -88,7 +91,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 4.  Seleccione **Aceptar** para generar los datos en la página del **Modelo 347**.
 5.  Revise la información en la declaración.
 
-![Página del Modelo 347.](media/1_Declaration_347.png)
+![Página del Modelo 347](media/1_Declaration_347.png)
 
 La ficha **General** tiene los campos siguientes.
 
@@ -113,7 +116,7 @@ La pestaña **Totales** muestra el número de operaciones y los importes totales
 
 6.  Seleccione **Transacciones** para revisar y modificar la información para las transacciones agregadas de cliente y las transacciones de proveedor antes de generar el informe como archivo ASCII.
 
-![Página Transacciones, pestaña Descripción general.](media/2_Transactions.png)
+![Página Transacciones](media/2_Transactions.png)
 
 7.  En la página **Transacciones**, en la pestaña **General**, revise los siguientes campos.
 
@@ -141,7 +144,7 @@ La pestaña **Totales** muestra el número de operaciones y los importes totales
 
 8.  Si seleccionó la casilla **Arrendamiento** en la pestaña **General**, seleccione **Inquilinos del Modelo 347** para agregar información sobre los inquilinos.
 
-![Página Inquilinos del Modelo 347.](media/3_Declaration347_tenants.png)
+![Página Inquilinos del Modelo 347](media/3_Declaration347_tenants.png)
 
 9.  En la página **Inquilinos del Modelo 347**, en la pestaña **Descripción general**, configure los campos **Nombre**, **Importe**, **Referencia de inmuebles**, **Provincia**, **País o región**, **Ciudad** y **Calle**.
 10.  En la pestaña **General**, configure los campos **Código postal**, **Abreviatura de dirección**, **N.º de callle**, **Entrada**, **Piso**, **Puerta** y **Código de localización** para el edificio o propiedad.
@@ -174,11 +177,11 @@ Tenga en cuenta un ejemplo en la entidad jurídica **DEMF**.
 2.  En la ficha desplegable **Registro de impuestos**, en el campo **Número de registro de impuestos**, especifique **B80833593**.
 3.  Vaya a **Impuesto** \> **Configurar** \> **Impuesto** \> **Cuentas contables de efectivo** y seleccione **Nuevo** para crear una línea.
     
-![Página Cuentas contables de efectivo.](media/4_Cash_ledger_accounts.png)
+![Página Cuentas contables de efectivo](media/4_Cash_ledger_accounts.png)
 
 4.  Vaya a **Impuesto** \> **Configurar** \> **Impuesto** \> **Número de identificación fiscal** y seleccione **Nuevo** para crear una línea.
 
-![Página Números de identificación fiscal.](media/5_Tax_exempt_numbers.png)
+![Página Números de identificación fiscal](media/5_Tax_exempt_numbers.png)
 
 ### <a name="customer-transactions"></a>Transacciones de clientes
 
@@ -244,7 +247,7 @@ Tenga en cuenta un ejemplo en la entidad jurídica **DEMF**.
 2.  Seleccione **Aceptar**.
 3.  Seleccione la línea de declaración que se creó, seleccione **Transacciones** y revise los datos.
 
-![Página Transacciones.](media/6_Transactions.png)
+![Página Transacciones](media/6_Transactions.png)
 
 Tenga en cuenta los siguientes detalles:
 
@@ -260,7 +263,7 @@ Tenga en cuenta los siguientes detalles:
 -   El valor en la columna **Cantidad del primer trimestre** pasa a ser 7000 en lugar de 6500.
 -   El valor en la columna **Cantidad del segundo trimestre** pasa a ser 3000 en lugar de 0.
 
-![Página Transacciones, columnas de importe del primer y segundo trimestre.](media/7_Transactions.png)
+![Página Transacciones, columnas de importe del primer y segundo trimestre](media/7_Transactions.png)
 
 8.  Cierre la página **Transacciones**.
 9.  Seleccione **Resultado \> Informe delta**.
@@ -268,9 +271,6 @@ Tenga en cuenta los siguientes detalles:
 11.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**.
 12.  Abra el archivo descargado y revise los datos.
 
-![Datos generados para el formato del informe del Modelo 347 (ES).](media/8_Declaration347.png)
+![Datos generados para el formato del informe del Modelo 347 (ES)](media/8_Declaration347.png)
 
 Observe que solo la línea que tiene correcciones se imprime en el informe.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

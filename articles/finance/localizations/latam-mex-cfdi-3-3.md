@@ -2,9 +2,11 @@
 title: Versión 3.3 del diseño CFDI
 description: Este tema proporciona información sobre la versión 3.3 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
 author: sndray
+manager: AnnBe
 ms.date: 10/16/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, VendParameters
 audience: Application User
@@ -12,12 +14,12 @@ ms.reviewer: kfend
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 589620bd9ad6339e66f2a4f5cd64a77502bb9e11e71f385b5243926ea25eb750
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2d6e72607e4f18d0439038b91c54f92d03ff481d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767020"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964651"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
@@ -246,7 +248,7 @@ Esta sección describe el procesamiento y la configuración de un anticipo del c
 2. **Factura CFDI:** una vez que se realice la operación y se aplique el anticipo, la empresa debe emitir la factura CFDI de la operación y los detalles del UUID del anticipo de CFDI que se emitió en el paso 1.
 3. **Inversión del anticipo de CFDI:** se emite una factura electrónica para invertir el anticipo que se aplicó.
 
-![Proceso de pago avanzado.](./media/mex-advance-payments-cfdi.png "Diagrama que muestra el proceso de pago por adelantado")
+![Proceso de pago avanzado](./media/mex-advance-payments-cfdi.png "Diagrama que muestra el proceso de pago por adelantado")
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -428,6 +430,3 @@ Los complementos específicos se generan para los tipos de retención siguientes
 ### <a name="inquire-cfdi-withholding-documents"></a>Consultar los documentos de retención de CFDI
 
 Después de que el documento de retención de CFDI se emita al PAC, puede ver el estado y completar acciones relacionados seleccionando **Proveedores > Consulta > Diarios > Diario de retención de CFDI**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

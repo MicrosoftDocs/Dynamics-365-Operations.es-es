@@ -90,6 +90,3 @@ Para obtener más información, consulte [Entrada y navegación de empleados opt
 ### <a name="platform-update-29"></a>Actualización 29 de la plataforma
 
 Para obtener más información acerca de la Platform update 29, consulte [Características de vista previa en Dynamics 365 for Finance and Operations platform update 29 (octubre de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

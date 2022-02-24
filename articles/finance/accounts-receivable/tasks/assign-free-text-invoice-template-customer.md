@@ -2,9 +2,11 @@
 title: Asignar una plantilla de factura de servicios a un cliente
 description: Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cliente.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb8a683792051a95b443fac47b4670f37c12cc4b4142ee2290b89ee1845662cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb5dd96cb71dcee6db97ad1074e7e75565ac4101
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740107"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969637"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Asignar una plantilla de factura de servicios a un cliente
 
@@ -47,6 +49,3 @@ Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cl
     + Anual: seleccione esta opción y especifique el número de años en el campo Por. Por ejemplo, si escribe 2, se generará una factura cada dos años para este cliente.  
 14. En el campo **Por**, especifique un número.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

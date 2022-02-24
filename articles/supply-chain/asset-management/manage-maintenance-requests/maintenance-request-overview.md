@@ -1,29 +1,34 @@
 ---
 title: Solicitudes de mantenimiento
 description: Este tema proporciona una visión general de la gestión de solicitudes de mantenimiento en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985262"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019638"
 ---
 # <a name="maintenance-requests"></a>Solicitudes de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 Las solicitudes de mantenimiento son las notas o declaraciones que se crean para notificar a un administrador o planificador sobre un activo que requiere un trabajo de mantenimiento o de reparación, sin crear una orden de trabajo. Si el contenido de una solicitud de mantenimiento se considera válido, se puede crear una orden de trabajo a partir de la solicitud de mantenimiento.
 
@@ -39,7 +44,7 @@ Las solicitudes de mantenimiento se pueden crear para cualquier activo en Admini
 
 Para ver las solicitudes de mantenimiento, seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento**, **Solicitudes de mantenimiento activas** o **Mis solicitudes de mantenimiento de ubicación funcional**. Cada página de lista muestra la información relacionada con una solicitud de mantenimiento.
 
-![Ver solicitudes de mantenimiento.](media/01-manage-maintenance-requests.png)
+![Ver solicitudes de mantenimiento](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Use la página de lista **Mis solicitudes de mantenimiento de ubicación funcional** para ver una lista de las solicitudes de mantenimiento que contienen ubicaciones funcionales con las que está relacionado como trabajador o los activos que están instalados en ubicaciones funcionales con las que está relacionado como trabajador. (Para obtener información sobre cómo configurar ubicaciones funcionales en trabajadores de mantenimiento, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
@@ -48,7 +53,7 @@ Para ver las solicitudes de mantenimiento, seleccione **Administración de activ
 
 Para abrir la vista de detalles de un registro, en la página de lista **Todas las solicitudes de mantenimiento** , en la vista de cuadrícula, seleccione un vínculo en la columna **Solicitud de mantenimiento**.
 
-![Ver detalles de la solicitud de mantenimiento.](media/02-manage-maintenance-requests.png)
+![Ver detalles de la solicitud de mantenimiento](media/02-manage-maintenance-requests.png)
 
 Los botones del panel de acciones se organizan en fichas. La tabla siguiente describe brevemente los botones relacionados con Administración de activos.
 
@@ -67,6 +72,3 @@ Los botones del panel de acciones se organizan en fichas. La tabla siguiente des
 | Enviar activo en préstamo                  | Seleccione un activo en préstamo que debe ser una sustitución temporal del activo seleccionado en la solicitud de mantenimiento seleccionada. |
 | Devolver activo en préstamo                | Registrar el activo en préstamo como devuelto. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

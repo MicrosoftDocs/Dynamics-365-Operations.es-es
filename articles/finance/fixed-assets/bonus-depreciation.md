@@ -1,10 +1,12 @@
 ---
 title: Depreciación de bonificación
 description: Este artículo proporciona una visión general de la funcionalidad de depreciación de bonificación.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04ee70fab05d033923a675e0db5c62d3c938d0e4
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 41a59b9dfe0482c995cfefc7a70f63550794428d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674414"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969187"
 ---
 # <a name="bonus-depreciation"></a>Depreciación de bonificación
 
@@ -62,6 +64,3 @@ La amortización de bonificación se inserta como un porcentaje o un importe fij
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

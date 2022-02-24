@@ -1,10 +1,12 @@
 ---
 title: Plantilla de L. MAT
 description: Una plantilla de lista de materiales (L. MAT) le proporciona una lista estandarizada de componentes para objetos de servicio de los que se realiza un mantenimiento periódico.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -15,23 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571316"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965789"
 ---
-# <a name="template-boms"></a>Plantilla de L. MAT
+# <a name="template-boms"></a>Plantilla de L. MAT    
 
 [!include [banner](../includes/banner.md)]
+
 
 Una plantilla de lista de materiales (L. MAT) le proporciona una lista estandarizada de componentes para objetos de servicio de los que se realiza un mantenimiento periódico. Los componentes que aparecen en la plantilla de L. MAT representan los subcomponentes individuales del objeto de servicio. Aplicando una L. MAT de plantilla a un objeto de servicio, puede realizar un registro de los subcomponentes que se han sustituido en el objeto de servicio.
 
 Para aplicar una plantilla de L. MAT a un acuerdo de servicio o a un pedido de servicio, debe vincularla a la relación de objetos de servicio.
 
+
 > [!NOTE]
-> Puede aplicar solo una plantilla de L. MAT con un objeto de servicio.
+> <P>Puede aplicar solo una plantilla de L. MAT con un objeto de servicio.</P>
 
 ## <a name="create-a-template-bom"></a>Crear plantilla de L. MAT manual
 
@@ -39,8 +43,8 @@ La siguiente tabla contiene información sobre los distintos métodos que puede 
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,6 +72,7 @@ La siguiente tabla contiene información sobre los distintos métodos que puede 
 </tbody>
 </table>
 
+
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Aplicar la L. MAT de plantilla a un acuerdo de servicio o en un pedido de servicio
 
 Puede aplicar una plantilla de L. MAT a un acuerdo de servicio, a un pedido de servicio, o a ambos. El primero normalmente abarca una relación de largo plazo con un cliente. El historial de sustituciones registradas en la L. MAT de servicio está formado por datos de los que podrá disponer para el acuerdo de servicio.
@@ -78,7 +83,7 @@ También puede aplicar una L. MAT de plantilla a un pedido de servicio para regi
 
 Puede copiar el historial de una línea de L. MAT de servicio de un acuerdo de servicio a otro. Al copiar el historial de servicio entre los acuerdos de servicio, puede conservar el registro de las sustituciones realizadas a un artículo.
 
-### <a name="example"></a>Ejemplo
+**Ejemplo**
 
 Ha configurado un acuerdo de servicio de tres años para el vehículo de un cliente. Durante ese período, el cliente se acostumbrará al buen servicio prestado por la empresa. Por lo tanto, cuando expire el contrato, el cliente deseará configurar uno nuevo. Ahora puede negociar un acuerdo más favorable para la empresa. Dado que el registro de componentes sustituidos puede resultar de utilidad en el futuro, puede copiar el historial de la L. MAT de servicio en el nuevo acuerdo.
 
@@ -96,18 +101,26 @@ Puede cambiar el modo que se muestra la información de la línea de L. MAT para
 
 Para usar las L. MAT de plantilla, debe configurar dos secuencias numéricas. Configure una secuencia numérica para la L. MAT de plantilla y otra para el número de línea del historial de L. MAT.
 
+
 > [!NOTE]
-> Las secuencias numéricas se usan para asignar identificadores a los registros que los necesiten. Antes de poder asignar una secuencia numérica a una L. MAT de plantilla o a un número de línea del historial de L. MAT, debe configurar los códigos de secuencias numéricas.
+> <P>Las secuencias numéricas se usan para asignar identificadores a los registros que los necesiten. Antes de poder asignar una secuencia numérica a una L. MAT de plantilla o a un número de línea del historial de L. MAT, debe configurar los códigos de secuencias numéricas.</P>
+
 
 ## <a name="set-up-number-sequences"></a>Configurar secuencias numéricas
 
-1. En la página de lista **Secuencias numéricas**, cree las secuencias numéricas para las plantillas de L. MAT. y el número de línea del historial de L. MAT.
-1. Seleccione **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.
-1. Seleccione **Secuencias numéricas** y, a continuación, seleccione un código de secuencia numérica para las referencias de la secuencia numérica que haya creado en el formulario **Secuencias numéricas**.
-1. Cierre el formulario para guardar los cambios.
+1.  En la página de lista **Secuencias numéricas**, cree las secuencias numéricas para las plantillas de L. MAT. y el número de línea del historial de L. MAT. 
+
+2.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.
+
+3.  Haga clic en **Secuencias numéricas** y, a continuación, seleccione un código de secuencia numérica para las referencias de la secuencia numérica que haya creado en el formulario **Secuencias numéricas**.
+
+4.  Cierre el formulario para guardar los cambios.
+
 
 > [!NOTE]
-> El número de línea del historial de L. MAT lo usa el sistema para asociar las transacciones del historial de L. MAT a un acuerdo de servicio o a un pedido de servicio. El número no se muestra en la interfaz de usuario.
+> <P>El número de línea del historial de L. MAT lo usa el sistema para asociar las transacciones del historial de L. MAT a un acuerdo de servicio o a un pedido de servicio. El número no se muestra en la interfaz de usuario.</P>
+
+
 
 ## <a name="see-also"></a>Consulte también
 
@@ -117,4 +130,6 @@ Para usar las L. MAT de plantilla, debe configurar dos secuencias numéricas. Co
 
 [Modificar un L. MAT de servicio](modify-service-bom.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+ 
+
+

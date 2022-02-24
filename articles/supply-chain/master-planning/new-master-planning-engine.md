@@ -2,13 +2,16 @@
 title: Migración a la Optimización de planificación para la planificación maestra
 description: Este tema proporciona información sobre el nuevo motor de planificación maestro, Planning Optimization y sobre la migración desde el motor existente.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728588"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646005"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
@@ -63,12 +66,8 @@ Actualmente, las excepciones para la migración a Optimización de la planificac
 
 Una vez que las funciones necesarias estén disponibles, Microsoft proporcionará un período de gracia hasta que expire la excepción. Se informará al administrador del entorno cuando las funciones necesarias estén disponibles y haya comenzado el período de gracia.
 
-El siguiente diagrama de flujo resume la información proporcionada en este tema para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962).
-
-![Diagrama de flujo de excepciones.](media/exception-diagram.png "Diagrama de flujo de excepciones")
-
 > [!NOTE]
-> Solo puede solicitar una excepción para los inquilinos que actualmente incluyen, o incluirán, un entorno de producción, no solo para los inquilinos con entornos de espacio aislado. Si necesita deshabilitar el error de excepción de Planning Optimization en un entorno de espacio aislado de infraestructura como servicio (IaaS), ejecute la consulta SQL proporcionada en [Entornos de espacio aislado](#faq-sandbox).
+> Solo puede solicitar una excepción para entornos de producción, no para entornos sandbox. Si necesita deshabilitar el error de excepción de Planning Optimization en un entorno de espacio aislado de infraestructura como servicio (IaaS), ejecute la consulta SQL proporcionada en [Entornos de espacio aislado](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
@@ -117,6 +116,3 @@ Estoy usando la versión 10.0.16 o posterior y recibo el siguiente mensaje de er
 > Complete el siguiente cuestionario para comenzar y, si es relevante, solicite una excepción de la migración a Optimización de la planificación.
 
 **Responder:** No, la planificación maestra no está bloqueada. Su ejecución de planificación maestra se completó con éxito y puede utilizar el resultado de la forma habitual. Sin embargo, para evitar recibir este mensaje de error durante las futuras ejecuciones de planificación maestra, debe migrar a Optimización de la planificación inmediatamente o solicitar una excepción mediante el enlace del mensaje de error.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

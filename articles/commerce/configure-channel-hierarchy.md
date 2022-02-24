@@ -2,24 +2,27 @@
 title: Configurar un canal para usar una jerarquía de navegación de canales
 description: En este tema se describe cómo configurar un canal para usar una jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415439"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar un canal para usar una jerarquía de navegación de canales
 
@@ -28,7 +31,7 @@ ms.locfileid: "6714001"
 
 En este tema se describe cómo configurar un canal para usar una jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 
 Las jerarquías de navegación de canales organizan los productos en categorías para que los productos se puedan examinar en un sitio de comercio electrónico o en puntos de venta (PDV). Los canales comerciales y en línea deben configurarse con jerarquías de navegación de canales.
 
@@ -45,7 +48,7 @@ Para configurar un canal de forma que use una jerarquía de navegación de canal
 
 La siguiente imagen muestra cómo se configura un canal para usar una jerarquía de navegación de canales.
 
-![Ejemplo de configuración de canal.](media/configure-channel-hierarchy-1.png)
+![Ejemplo de configuración de canal](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Configurar metadatos de atributos
 
@@ -61,7 +64,7 @@ Para establecer metadatos de atributos, siga estos pasos.
 
 La siguiente imagen muestra un conjunto de ejemplos de atributos de producto de canal configurados en un nodo de categoría de canal.
 
-![Atributos de canal en un nodo de categoría de canal.](media/configure-channel-hierarchy-2.png)
+![Atributos de canal en un nodo de categoría de canal](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Publicar cambios
 
@@ -74,13 +77,10 @@ Para publicar cambios, siga estos pasos.
 
 La siguiente imagen muestra cómo publicar actualizaciones de canal.
 
-![Publicar actualizaciones de canal.](media/configure-channel-hierarchy-3.png)
+![Publicar actualizaciones de canal](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Crear una jerarquía de navegación de canales](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

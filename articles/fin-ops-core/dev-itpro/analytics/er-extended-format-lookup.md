@@ -2,9 +2,11 @@
 title: Búsqueda de formato extendido de informes electrónicos (ER)
 description: Este tema describe cómo se puede configurar una referencia de formato ER en la búsqueda de formato ER cuando el formato requerido se almacena en el repositorio Global.
 author: NickSelin
+manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 395282eb267e7e356fca6087f99c6f193741ac9d
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605166"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679495"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir a los usuarios configurar una referencia de formato ER preguntando un formato desde el repositorio global
 
@@ -30,31 +32,31 @@ Puede usar el marco de [informes electrónicos](general-electronic-reporting.md)
 
 Por lo general, debe especificar qué formato de ER se debe utilizar en un determinado proceso empresarial. Para hacerlo, seleccione un único formato de ER en un campo de búsqueda que esté configurado como parte de los parámetros específicos del proceso empresarial. Estos campos de búsqueda generalmente se implementan utilizando la API apropiada del marco de ER. Para más información, vea [API del marco de ER: código para mostrar una búsqueda de asignación de formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Por ejemplo, cuando configura [parámetros de comercio exterior](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters), debe configurar las referencias a formatos ER individuales que se utilizarán para generar la declaración Intrastat y el informe de control de la declaración Intrastat. Las capturas de pantalla a continuación muestran cómo se ve el campo de búsqueda de formatos ER en la página **Parámetros de comercio exterior**.
+Por ejemplo, cuando configura [parámetros de comercio exterior](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters), debe configurar las referencias a formatos ER individuales que se utilizarán para generar la declaración Intrastat y el informe de control de la declaración Intrastat. Las capturas de pantalla a continuación muestran cómo se ve el campo de búsqueda de formatos ER en la página **Parámetros de comercio exterior**.
 
 Si la instancia actual de Finance no contiene formatos de ER relacionados con el proceso comercial Intrastat, este campo de búsqueda estará vacío.
 
-[![Página de parámetros de comercio exterior, campo de asignación de formato de informe vacío.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Página Parámetros de comercio exterior](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Si la instancia actual de Finance contiene formatos de ER relacionados con el proceso comercial Intrastat, este campo ofrece los formatos de ER.
 
-[![Página de parámetros de comercio exterior, campo de asignación de formato de informe con opciones.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Página Parámetros de comercio exterior](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Esta búsqueda ofrece solo los formatos ER que ya se han importado a la instancia actual de Finance. Para [importar](./tasks/er-import-configuration-lifecycle-services.md) soluciones de ER para la instancia actual de Finance, debe tener permisos para ejecutar la función adecuada del marco de ER que admite el [ciclo de vida](general-electronic-reporting-manage-configuration-lifecycle.md) de soluciones de ER que contienen formatos ER.
 
 A partir de la versión 10.0.9 de Finance (versión de abril de 2020), se ha ampliado la interfaz de usuario de la búsqueda de formato ER que se implementa utilizando la API de marco ER. Todavía puede seleccionar los formatos ER existentes, en la ficha desplegable **Seleccionar configuración de formato**. Además, la búsqueda extendida ofrece la nueva opción de buscar en el repositorio global (GR) para localizar formatos ER específicos. Todos los formatos ER del GR se ofrecen en la ficha desplegable **Importar desde el repositorio global**.
 
-[![Página de parámetros de comercio exterior, ficha desplegable Importar desde repositorio global.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Página Parámetros de comercio exterior](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Similar a la ficha desplegable **Seleccionar configuración de formato**, la ficha desplegable **Importar desde el repositorio global** muestra solo los formatos ER que son aplicables al proceso de negocio para el que se selecciona un formato ER en este campo de búsqueda. En este ejemplo, la generación de la declaración Intrastat. El formato ER es aplicable para la compañía en la que el usuario está actualmente conectado, dependiendo del contexto del país de la compañía.
 
 Cuando selecciona un formato ER en la ficha desplegable **Importar desde el repositorio global**, la [configuración](general-electronic-reporting.md#Configuration) del formato ER seleccionado se importa del GR a la instancia actual de Finance.
 
-[![Página de parámetros de comercio exterior, nota de operación de procesamiento.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Página Parámetros de comercio exterior](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Luego, si la importación se completa con éxito, la referencia al formato ER importado se almacena en este campo de búsqueda. Cuando accede al GR por primera vez, debe seguir el enlace proporcionado para registrarse en el [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) que se usa para administrar el acceso al almacenamiento GR.
 
-[![Página de parámetros de comercio exterior, enlace para suscribirse a RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Página Parámetros de comercio exterior](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Por defecto, la ficha desplegable **Importar desde el repositorio global** presenta la lista de formatos ER del almacenamiento temporal que se crea automáticamente en función del contenido GR para mejorar el rendimiento. Esto sucede cuando la ficha desplegable **Importar desde el repositorio global** se abre la primera vez, lo que puede llevar varios segundos.
 
@@ -64,7 +66,7 @@ Si no ve el formato ER requerido en la ficha desplegable **Importar desde el rep
 
 La disponibilidad de esta funcionalidad está controlada por la función **Búsqueda extendida de configuraciones de formato ER que permite consultar el repositorio global** en **Administración de características**. De forma predeterminada, esta característica está habilitada.
 
-[![Página Administración de características.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Página Administración de características](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Consideraciones de seguridad
 
@@ -72,7 +74,7 @@ El privilegio **Mantener repositorios de configuración** (**ERMaintainSolutionR
 
 La siguiente captura de pantalla muestra cómo se puede otorgar este privilegio a los usuarios asignados al rol **Contable**. Este rol permite a los usuarios configurar parámetros de comercio exterior y establecer referencias a los formatos ER en los campos **Asignación de formato de archivo** y **Asignación de formato de informe** en la página **Parámetros de comercio exterior**.
 
-[![Página Configuración de seguridad.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Página Configuración de seguridad](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Limitaciones
 
@@ -89,6 +91,3 @@ Si ha habilitado la característica **Búsqueda extendida de configuraciones de 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [API de marco de informes electrónicos (ER)](er-apis-app73.md)
 - [Administrar el ciclo de vida de las configuraciones de los informes electrónicos (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Autorizar previsión de la demanda ajustada
 description: No todos los datos de previsión se deben autorizar inmediatamente. Este artículo se explica cómo puede especificar el período para el que una previsión está autorizada. También explica cómo puede autorizar la previsión para empresas y modelos de previsión específicos.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanImportForecastDialog
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72734
 ms.assetid: cb8fd809-605a-4a8b-a390-636edfec21f9
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f9ceeb01675a44388862e1dede11551d3a60bdc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ab8558f25f5ffd3b7eb3e1bc5680b1a1f8d5139
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961467"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>Autorizar previsión de la demanda ajustada
 
@@ -39,7 +41,8 @@ Puede seleccionar las empresas y los modelos de previsión para autorizar la pro
 
 Es muy importante que entienda cómo funciona la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base**. Si ha realizado ajustes manuales a la previsión estadística de línea base, los valores ajustados están autorizados para su uso, incluso si esta casilla está desactivada. Sin embargo, los cambios se descartan después de la autorización. Por lo tanto, la próxima vez que se genera una previsión, esa previsión solo es una previsión estadística y no tiene invalidación manual, incluso si selecciona **Transferir ajustes manuales a la previsión de la demanda**. Por lo tanto, puede considerar la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de la línea base** un mecanismo que le permite conservar o descartar todos los cambios manuales.
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
@@ -47,6 +50,3 @@ Es muy importante que entienda cómo funciona la casilla **Guardar los ajustes m
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

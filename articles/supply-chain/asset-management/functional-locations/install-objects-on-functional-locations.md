@@ -1,10 +1,12 @@
 ---
 title: Instalar activos en ubicaciones funcionales
 description: En este tema se explica cómo instalar activos en ubicaciones funcionales en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775756"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022039"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar activos en ubicaciones funcionales
 
@@ -80,6 +82,3 @@ Una vez que los datos de configuración estén disponibles, todo está listo par
 1. En la página **Todas las ubicaciones funcionales**, asegúrese de que la ubicación funcional en la que desea que se cree el activo automáticamente use el tipo de ubicación funcional que ha creado con este propósito.
 2. Seleccione la ubicación funcional en la lista.
 3. Seleccione **Actualizar estado de ubicación funcional** y, a continuación, seleccione el estado de ciclo de vida que ha creado con este propósito. Ahora se instala un activo automáticamente en la ubicación funcional. Este activo tiene el mismo nombre que la ubicación funcional.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

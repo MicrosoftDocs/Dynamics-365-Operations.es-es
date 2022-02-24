@@ -2,23 +2,26 @@
 title: MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 description: Configure parámetros específicos en el plan contable para habilitar la generación de informes de contabilidad electrónicos para una entidad jurídica mexicana.
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08019cb52080bac5d2c4038e4811ef48837ee720
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 803a40dcf5834891a62ac84b323327b51d2ba73d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595417"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407790"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 
@@ -33,7 +36,7 @@ Configure parámetros específicos en el plan contable para habilitar la generac
 3. En el campo Cuenta principal, escriba un valor.
 4. En el campo Nombre, escriba un valor.
 5. En el campo Valor predet. Debe/Haber, seleccione una opción.
-    * Use este campo para especificar la transacción típica (débito o crédito). Este campo se usa en el archivo XML para notificar el tipo de cuenta principal de gobierno en el nodo `<Natur>`.  El tipo de cuenta principal se usará para determinar el tipo de cuenta de gobierno cuando este campo esté en blanco.  
+    * Use este campo para especificar la transacción típica (débito o crédito). Este campo se usa en el archivo XML para notificar el tipo de cuenta principal de gobierno en el nodo <Natur>.  El tipo de cuenta principal se usará para determinar el tipo de cuenta de gobierno cuando este campo esté en blanco.  
 6. En el campo Cuenta principal, haga clic en el botón desplegable para abrir la búsqueda.
     * Ejemplo: 110 Use este archivo para configurar la cuenta principal del nivel anterior.     Deje este campo en blanco cuando la cuenta principal represente el primer nivel de empresa en el plan contable.    
 7. En la lista, busque y seleccione el registro deseado.
@@ -65,6 +68,3 @@ Configure parámetros específicos en el plan contable para habilitar la generac
     * Necesita repetir esta acción para cada cuenta principal creada en su empresa. Si tiene muchas cuentas principales que crear, puede usar la herramienta de gestión de datos para importar las cuentas principales desde un archivo de Microsoft Excel.  
 19. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

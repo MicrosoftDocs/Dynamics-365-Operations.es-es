@@ -2,9 +2,11 @@
 title: Preparar metadatos específicos de la aplicación para RCS y ER
 description: En este tema se explica cómo preparar metadatos específicos de la aplicación para Regulatory configuration service (RCS) e informes electrónicos (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735607"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680203"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Preparar metadatos específicos de la aplicación para RCS y ER
 
@@ -278,6 +280,3 @@ Cuando deba evaluar esta asignación de modelo mediante el uso de metadatos de u
 ## <a name="additional-resources"></a>Recursos adicionales
 
 Como alternativa, puede reproducir la guía de tareas **Preparar metadatos de la aplicación que pueden usarse en RCS** en la aplicación, así como las guías de tareas **Acceder a metadatos de la aplicación mediante el uso de una configuración de ER** y **Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas** en RCS. Estas guías de tareas se pueden descargar en la página [Guías de tareas de informes electrónicos para Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

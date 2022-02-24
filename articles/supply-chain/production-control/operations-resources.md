@@ -1,10 +1,12 @@
 ---
 title: Recursos de Operations
 description: Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades.
-author: johanhoffmann
+author: sorenva
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability, WrkCtrResourceGroup, WrkCtrResourceAbilityMap, OpResCapacityPlanningWorkspace, WrkCtrCapResGraph, WrkCtrResourceRequirementPart, WrkCtrCapResGraphDialog, WrkCtrResourceCopy, WrkCtrCapResStatistic
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9296ea874acece9af6be58ccfe777f8713a4d279
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 06f5c4ca565511c9392c2f33d081706e571f65e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566728"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966439"
 ---
 # <a name="operations-resources"></a>Recursos de Operations
 
@@ -29,7 +31,8 @@ ms.locfileid: "7566728"
 
 Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades. 
 
-## <a name="operations-resources"></a>Recursos de Operations
+<a name="operations-resources"></a>Recursos de Operations
+--------------------
 
 Los recursos de operaciones son las máquinas, las herramientas, los trabajadores, las instalaciones, las áreas físicas o los proveedores que realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y pueden tener diferentes capacidades.
 
@@ -81,6 +84,3 @@ Al definir una actividad como una operación de ruta o una previsión de horas d
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

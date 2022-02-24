@@ -1,20 +1,29 @@
 ---
 title: Disponibilidad de inventario en doble escritura
 description: Este tema proporciona información sobre cómo comprobar la disponibilidad de inventarios en doble escritura.
-author: RamaKrishnamoorthy
+author: yijialuan
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.author: ramasri
+ms.search.industry: ''
+ms.author: riluan
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782538"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839558"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilidad de inventario en doble escritura
 
@@ -57,12 +66,55 @@ Cuando selecciona el botón **Inventario disponible** en la página **Ofertas**,
 - Solicitudes de inventario de CDS disponibles (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Plantillas
-
 Las siguientes plantillas están disponibles para exponer los datos de inventario disponibles.
 
-Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Descripción
+Aplicaciones de Finance and Operations | Aplicación Customer Engagement | Descripción 
 ---|---|---
-[Entradas disponibles del inventario de CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
-[Solicitudes disponibles del inventario de CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
+[Entradas disponibles del inventario de CDS](#145) | msdyn_inventoryonhandentries |
+[Solicitudes disponibles del inventario de CDS](#147) | msdyn_inventoryonhandrequests |
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Entradas de inventario de CDS disponibles (msdyn_inventoryonhandentries)
+
+Esta plantilla sincroniza datos entre aplicaciones de Finance and Operations y Dataverse.
+
+Campo de Finance and Operations | Tipo de asignación | Campo Customer Engagement | Valor predeterminado
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Solicitudes de inventario de CDS disponibles (msdyn_inventoryonhandrequests)
+
+Esta plantilla sincroniza datos entre aplicaciones de Finance and Operations y Dataverse.
+
+Campo de Finance and Operations | Tipo de asignación | Campo Customer Engagement | Valor predeterminado
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

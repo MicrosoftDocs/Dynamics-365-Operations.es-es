@@ -2,9 +2,11 @@
 title: Novedades o cambios en la aplicación Dynamics AX versión 7.0.1 (mayo de 2016)
 description: Este artículo describe las características que son nuevas o que han cambiado en la aplicación Microsoft Dynamics AX versión 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
 author: sericks007
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748273"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797173"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la aplicación Dynamics AX versión 7.0.1 (mayo de 2016)
 
@@ -76,7 +78,7 @@ Este artículo describe las características que son nuevas o que han cambiado e
 </tr>
 <tr>
 <td>Admitir listas de materiales que incluyan artículos con diferentes dimensiones de producto del mismo artículo.</td>
-<td>Cuando se utiliza una o varias de las dimensiones del producto en producción, tendrá situaciones en las que desee producir un artículo, en función de una variante diferente del mismo artículo. Para obtener más información, consulte <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">este blog</a>.</td>
+<td>Cuando se utiliza una o varias de las dimensiones del producto en producción, tendrá situaciones en las que desee producir un artículo, en función de una variante diferente del mismo artículo. Para obtener más información, consulte <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">este blog</a>.</td>
 </tr>
 <tr>
 <td>Los pedidos de producción con estructuras circulares en el primer nivel de sus listas de materiales se excluyen del cálculo del nivel de L. MAT para la planificación de recursos materiales.</td>
@@ -104,6 +106,3 @@ Este artículo describe las características que son nuevas o que han cambiado e
 [Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

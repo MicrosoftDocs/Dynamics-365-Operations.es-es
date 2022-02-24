@@ -2,9 +2,11 @@
 title: Prueba independiente de datos mediante Regression Suite Automation Tool
 description: En este tema se describe las recomendaciones para la prueba independiente de datos mediante Regression Suite Automation Tool.
 author: kfend
+manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763419"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798211"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Prueba independiente de datos mediante Regression Suite Automation Tool
 
@@ -30,9 +32,9 @@ Aunque la validación funcional de una aplicación de ERP no puede ser completam
 - Marco de trabajo ATL
 - Regression Suite Automation Tool (RSAT)
 
-[![Pirámide de la clasificación de prueba.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Pirámide de la clasificación de prueba](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 -   **Marco de SysTest** El marco de SysTest es fiable para escribir pruebas de unidad. Dado que las pruebas de unidad prueban generalmente un método o función, siempre deberían ser independientes de los datos y depender solo de los datos introducidos proporcionados como parte de la prueba.
 -   **Marco de ATL** – Microsoft tiene un marco de ATL que es una abstracción en el marco de SysTest y hace que la prueba funcional de escritura sea mucho más sencilla y fiable. Este marco se debe usar para escribir pruebas de componentes o pruebas de integración sencillas.
 -   **RSAT** – El RSAT se usa para las pruebas de integración y las de ciclo de negocio. Las pruebas de ciclo de negocio, también denominadas las pruebas de la validación de la regresión, dependen de datos existentes. Sin embargo, estas pruebas se pueden convertir en independientes de datos si considera factores adicionales. 
@@ -42,11 +44,8 @@ Aunque la validación funcional de una aplicación de ERP no puede ser completam
     - o Introduzca los identificadores únicos, como números de factura mediante una secuencia numérica o usando funciones Microsoft Excel como =TEXT(NOW(),"yyyymmddhhmm"). Esta función proporcionará un número único cada minuto, lo que le permite seguir cuándo tuvo lugar la acción. Esto se puede usar para las variables como números de recibo de producto y números de factura de proveedor. Estas pruebas continúan trabajando en la misma base de datos una y otra vez, sin requerir ninguna restauración.
     - Establezca el **Modo de edición** del entorno siempre en **Lectura** o **Edición** como el primer caso de prueba porque la opción predeterminada es **Automático**. Las opciones **Automático** usan la configuración anterior y pueden producir pruebas poco fiables. 
  
-    [![Página opciones, pestaña Rendimiento.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Página opciones, pestaña Rendimiento](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Solo valide después de filtrar según una transacción en particular en lugar de una validación genérica. Por ejemplo, para el número de registros, filtre según el número de transacción o la fecha de transacción de modo que la validación excluya el resto de transacciones. 
     - Si está comprobando un saldo o una comprobación presupuestaria del cliente, guarde el valor primero y después agregue el valor de transacción para validar el resultado esperado en lugar de validar un valor esperado fijo. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Configurar las asignaciones del modelo de ER dependientes de contexto del país
 description: Este tema explica cómo puede configurar asignaciones de modelo de ER de modo que dependen del contexto del país o región de la entidad jurídica que controla su uso.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605380"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680886"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar las asignaciones del modelo de ER dependientes de contexto del país
 
@@ -48,7 +50,7 @@ Algunos pasos de este tema requieren la ejecución de un formato de ER. En algun
 
 Siga los pasos en el [Apéndice 1](#appendix1) de este tema para diseñar los componentes de ER requeridos. Ahora tiene la configuración del modelo de asignaciones **Asignación (general)** que contiene la asignación del modelo para la definición de **Punto de entrada 1**.
 
-![Página de configuraciones de ER, formato para aprender la configuración de asignaciones.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Ejecutar el formato configurado
 
@@ -61,7 +63,7 @@ Observe que el explorador web ofrece descargar el archivo de texto generado por 
 
 Siga los pasos en el [Apéndice 2](#appendix2) de este tema para diseñar los componentes de ER requeridos. Ahora tiene las configuraciones del modelo de asignaciones **Asignación (general)** y **Asignación (general), personalizada**, que cada una de ellas contiene la asignación del modelo para la definición de **Punto de entrada 1**.
 
-![Página de configuraciones de ER, configuración personalizada de asignación general.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Ejecutar el formato configurado
 
@@ -71,7 +73,7 @@ Siga los pasos en el [Apéndice 2](#appendix2) de este tema para diseñar los co
 
 Observe que la ejecución del formato de ER seleccionado no se ha desarrollado correctamente. Un mensaje de error le informa de que existe más de una asignación de modelo para el modelo **Modelo para aprender asignaciones** y la definición del **Punto de entrada 1** en las configuraciones de asignación de modelos **Asignación (general)** y **Asignación (general), personalizada**. El mensaje que recomienda también que seleccione una de estas configuración como la configuración predeterminada.
 
-![Página de configuraciones de ER con mensaje de error.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Definir una configuración predeterminada de asignación
 
@@ -82,7 +84,7 @@ Siga estos pasos para definir la configuración de la asignación de modelos **A
 3.  Establezca la opción **Predeterminado para la asignación de modelo** a **Sí**.
 4.  Seleccione **Guardar**.
 
-![Página de configuraciones de ER, predeterminado para el control deslizante de asignación de modelos establecido en Sí.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Ejecutar el formato configurado
 
@@ -101,7 +103,7 @@ Siga los pasos en el [Apéndice 3](#appendix3) de este tema para diseñar los co
 
 Observe que la versión 1 de la configuración de la asignación de modelos **Asignación (FR)** está configurada de modo que solo se aplique a los formatos de ER del modelo **Modelo para aprender asignaciones** que se ejecutan en las empresas con contexto de país o región francés.
 
-![Página de configuraciones de ER, configuración de asignación de modelos (FR).](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Ejecutar el formato configurado
 
@@ -121,7 +123,7 @@ Siga estos pasos para definir la configuración de la asignación de modelos per
 3.  Establezca la opción **Predeterminado para la asignación de modelo** a **Sí**.
 4.  Seleccione **Guardar**.
 
-![Página de configuraciones de ER, configuración de asignación (FR), predeterminado para el control deslizante de asignación de modelos establecido en Sí.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Página de configuraciones de ER](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Ejecutar el formato configurado
 
@@ -195,7 +197,7 @@ En la tabla, un signo más (+) indica la presencia de una configuración de asig
 1.  En el Panel de exploración, vaya a **Módulos \> Administración de la organización \> Informes electrónicos \> Configurar registro de depuración**.
 2.  Seleccione el botón **Volver a cargar esta página**.
 
-![Página de los registros de ejecución de ER.](./media/RCS-Context-specific-mapping-DebugLog.PNG)
+![Página de los registros de ejecución de ER](./media/RCS-Context-specific-mapping-DebugLog.PNG)
 
 Observe que se ha agregado un nuevo registro al registro de depuración de ER para el formato de ER ejecutado. Dado que el campo **Nivel** de este registro se establece en **Información**, el registro es informativo. Puesto que el campo del componente del formato está establecido en **Configuración de asignación**, el registro le informa sobre una asignación de modelos que se usó durante la ejecución del formato de ER **Formato para aprender asignaciones** (seleccionado en el campo **Nombre de configuración**). El contenido del campo **Texto generado** le informa de que se ha utilizado el componente de asignación **Asignación (FR)** que reside en la configuración de **Asignación (FR)** para ejecutar este informe.
 
@@ -236,7 +238,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 14. En el cuadro de diálogo desplegable, en el campo **Nombre**, introduzca **Descripción de funcionalidad**.
 15. Seleccione **Agregar**.
 
-    ![Página de diseñador del modelo de datos de ER.](./media/RCS-Context-specific-mapping-Model.PNG)
+    ![Página de diseñador del modelo de datos de ER](./media/RCS-Context-specific-mapping-Model.PNG)
 
 16. Seleccione **Guardar**.
 17. Cierre la página.
@@ -276,7 +278,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 5.  Seleccione **Guardar**.
 6.  Cierre la página **Diseñador de fórmula**.
 
-    ![Página del diseñador de asignaciones de modelos ER, definición del punto de entrada 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Seleccione **Guardar**.
 8.  Cierre la página **Diseñador de distribución del modelo**.
@@ -289,12 +291,12 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 15. Seleccione **Guardar**.
 16. Cierre la página **Diseñador de fórmula**.
 
-    ![Página del diseñador de asignaciones de modelos ER, definición del punto de entrada 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Seleccione **Guardar**.
 18. Cierre la página **Diseñador de distribución del modelo**.
 
-    ![Página de asignaciones de modelos de ER con definiciones de puntos de entrada.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Página de asignaciones de modelos de ER](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Cierre la página **Distribuciones del modelo**.
 
@@ -335,7 +337,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 2.  Seleccione el campo **Descripción de la funcionalidad**.
 3.  Seleccione **Enlazar**.
 
-    ![Página de diseñador de formato ER.](./media/RCS-Context-specific-mapping-Format.PNG)
+    ![Página de diseñador de formato ER](./media/RCS-Context-specific-mapping-Format.PNG)
 
 4.  Seleccione **Guardar**.
 5.  Cierre la página.
@@ -369,7 +371,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 6.  Seleccione **Guardar**.
 7.  Cierre la página.
 
-    ![Página del diseñador de asignación de modelos de ER, fórmula personalizada de funcionalidad genérica 1.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Seleccione **Guardar**.
 9.  Cierre la página.
@@ -380,12 +382,12 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 14. Seleccione **Guardar**.
 15. Cierre la página.
 
-    ![Página del diseñador de asignación de modelos de ER, fórmula personalizada de funcionalidad genérica 2.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Seleccione **Guardar**.
 17. Cierre la página.
 
-    ![Modelo de ER para la página de asignación de origen de datos para asignación de copia de asignación (general).](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![Página de asignaciones de modelos de ER](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Cierre la página.
 
@@ -432,7 +434,7 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 7.  Seleccione **Guardar**.
 8.  Cierre la página.
 
-    ![Página del diseñador de asignación de modelos de ER, fórmula de funcionalidad FR 1.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Seleccione **Guardar**.
 10. Cierre la página.
@@ -444,12 +446,12 @@ Observe que la versión 1 del borrador de esta configuración del ER está lista
 16. Seleccione **Guardar**.
 17. Cierre la página.
 
-    ![Página del diseñador de asignación de modelos de ER, fórmula de funcionalidad FR 2.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Página de diseñador de asignación de modelos de ER](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Seleccione **Guardar**.
 19. Cierre la página.
 
-    ![Modelo de ER para página de asignación de origen de datos.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![Página de asignaciones de modelos de ER](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Cierre la página.
 
@@ -494,6 +496,3 @@ Asegúrese de que la configuración de la asignación de modelos compartida no e
 - Al menos un versión de la configuración de la asignación de modelos de ER tiene su estado **Completado** o **Compartido**. En este caso, la versión que tiene el número de versión más alto se usará para la ejecución del formato de ER.
 - La opción **Borrador de ejecución** para la configuración de la asignación de modelos de ER está activada. En este caso, la versión que el estado **Borrador** se usará para la ejecución del formato de ER.
 > La opción **Ejecutar borrador** estará disponible en la página **Configuraciones** para cada configuración de asignación de modelos de ER cuando el parámetro de usuario de ER **Ejecutar valor** esté activado.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

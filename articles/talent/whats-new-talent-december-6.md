@@ -143,6 +143,3 @@ Las asignaciones actualizadas deben tener la misma apariencia que lo siguiente.
 
 ![Transformación de campo de género](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

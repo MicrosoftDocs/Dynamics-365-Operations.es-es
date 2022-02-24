@@ -2,9 +2,11 @@
 title: Automatización de procesos
 description: En este tema se ofrece información sobre cómo la automatización de procesos permite una programación sencilla de los procesos que ejecutará el servidor de lotes.
 author: RyanCCarlson2
-ms.date: 04/20/2021
+manager: tonyafehr
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746546"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682518"
 ---
 # <a name="process-automation"></a>Automatización de procesos
 
@@ -30,13 +32,13 @@ La automatización de procesos permite una programación sencilla de los proceso
 
 La página de administración central para todas las automatizaciones de procesos se encuentra en el módulo de Gestión del sistema en el menú **Configuración**. En esta página se mostrarán todos los procesos automatizados (serie) que se configuran en el sistema. También le permitirá agregar nuevas automatizaciones de procesos directamente desde esta página. Después de configurar una serie, puede administrar cada serie de esta lista. Puede optar por editar la serie completa, eliminarla, ver todas las repeticiones en una vista de lista o deshabilitar la serie si desea pausar el trabajo programado durante un período de tiempo. 
 
-Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato. El motor de programación de automatización de procesos se basa en la ejecución del trabajo por lotes del sistema **Trabajo del sistema de sondeo de automatización de procesos**. El trabajo no debe modificarse ni manipularse en ningún momento. 
+Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato.
 
 ## <a name="calendar-view"></a>Vista de calendario
 
 Uno de las principales ventajas de la automatización de procesos es la capacidad de ver el trabajo programado en una vista de calendario sencilla.  Esta vista le permite ver de una vez el trabajo para una semana. Verá esta vista en el lado derecho de la página **Automatización de procesos**. Se rellenará con el trabajo programado para la serie seleccionada. 
 
-[![Calendario de automatización de procesos.](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Calendario de automatización de procesos](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Cambios de repetición
 
@@ -45,6 +47,3 @@ Cada repetición puede modificarse sin afectar otras repeticiones definidas por 
 ## <a name="developer-documentation"></a>Documentación del desarrollador
 
 El marco de automatización de procesos permite a los desarrolladores ampliar el marco de automatización de procesos. La documentación del [Marco de automatización de procesos](../process-automation/process-automation-framework.md) proporciona información sobre cómo puede crear procesos personalizados que deben ser ejecutados por el servidor por lotes programado con el asistente de automatización de procesos y que aparecen automáticamente en la vista de calendario.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

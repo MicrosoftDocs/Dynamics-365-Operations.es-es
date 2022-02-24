@@ -1,10 +1,12 @@
 ---
 title: Realización de ajustes manuales en la previsión de línea base
 description: Este tema explica cómo puede realizar ajustes manuales a una previsión de línea base y ver los detalles de la previsión.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778042"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967039"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
@@ -67,13 +69,14 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 
 **Notas:**
 
--   Si habilita **Selección de modelo de previsión en Detalles de previsión de la demanda** desde Administración de características, podrá seleccionar en la página **Detalles de previsión de la demanda** los modelos de previsión que se van a incluir para la previsión histórica. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
+-   Si habilita **Selección de modelo de previsión en Detalles de previsión de la demanda** desde Administración de características, podrá seleccionar en la página **Detalles de previsión de la demanda** los modelos de previsión que se van a incluir para la previsión histórica.
 -   El intervalo de confianza que aparece en la sección **Previsión** de la página representa la diferencia entre el límite superior del intervalo de confianza y el límite inferior del intervalo de confianza. Para ver los valores de los límites máximo y mínimo, pase el ratón por encima del gráfico en la sección **Demanda y previsión históricas gráficamente**.
 -   Si utiliza el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genere. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
 
 También puede realizar ajustes manuales en la previsión en la página **Detalles de previsión de la demanda**, modificando los valores en la fila **Previsión** en la sección **Previsión**.
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)
 
@@ -81,6 +84,3 @@ También puede realizar ajustes manuales en la previsión en la página **Detall
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

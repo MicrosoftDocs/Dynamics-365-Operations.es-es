@@ -1,10 +1,12 @@
 ---
 title: Crear activos en función de los pedidos de compra
 description: En este tema se explica cómo puede crear una lista de artículos de activo que se puede usar como la base para crear activos para trabajos de mantenimiento en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectItem, EntAssetPendingAssets
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83419fa5c6b6aee0b321c526565c3518deaf4bd0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754116"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016993"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crear activos en función de los pedidos de compra
 
@@ -67,6 +69,3 @@ Puede ejecutar un **Recuento de activos pendientes** para ver si hay activos pen
 3. Puede configurar este trabajo para que se ejecute como un trabajo por lotes (por ejemplo, una vez al día).
 
 **Precaución:** si se cambian los datos en un pedido de compra *después* de crear un activo partir del artículo correspondiente, esos cambios no se reflejarán en el activo.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

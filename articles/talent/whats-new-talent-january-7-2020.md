@@ -53,6 +53,3 @@ Este cambio agrega una opción de eliminación en el formulario **Trabajadores s
 5. Selecciona el permiso **Eliminar** para Conceder.
 6. Seleccione la pestaña **Objetos sin publicar**.
 7. Seleccione **Publicar todo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

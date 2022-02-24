@@ -2,9 +2,11 @@
 title: Registro de ausencia en Tiempo y asistencia
 description: Este tema explica cómo administrar los registros de ausencia en Tiempo y asistencia.
 author: johanhoffmann
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JMGParameters, JmgAbsenceCalendar
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06adca12c172dffa241fe44a6b64bb30863bcb4a8f3867429ad10bc852efd7c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12a61f23ac5a16000275e53d3901c8aea202bab0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730235"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966639"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Registro de ausencia en Tiempo y asistencia
 
@@ -31,7 +33,7 @@ Este tema describe los conceptos para ausencia y explica cómo gestionar ausenci
 
 Los trabajadores se consideran ausentes por las horas que no trabajen durante las horas de trabajo normales. Las horas de trabajo normales se definen en el perfil de tiempo estándar de un trabajador.
 
-Por ejemplo, un trabajador trabaja en un perfil de día que tiene hora de entrada a las 7:00 y salida a las 15:00. Si el trabajador entra a trabajar a las 9:00, se considera ausente de 7:00 a 9:00 ese día.
+Por ejemplo, un trabajador trabaja en un perfil de día que tiene hora de entrada a las 7:00 y salida a las 15:00. Si el trabajador entra a trabajar a las 9:00, se considera ausentes de 7:00 a 9:00 ese día.
 
 En este caso, se pide a los trabajadores que especifiquen un motivo de la ausencia. Pueden especificar un motivo seleccionando un código de ausencia.
 
@@ -106,6 +108,3 @@ Por ejemplo, una trabajador entra a las 10 y selecciona un código de ausencia q
 ### <a name="calculate-and-approve-absence"></a>Calcular y aprobar ausencia
 
 - Seleccione **Asistencia de tiempo** &gt; **Revisar y aprobar** &gt; **Aprobar o calcular**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

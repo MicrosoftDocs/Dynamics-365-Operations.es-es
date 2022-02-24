@@ -41,6 +41,3 @@ Se han agregado nuevas opciones para licencias y ausencias (parámetros **Recurs
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Las acciones de contratación del trabajador se bloquean en el estado “flujo de trabajo completo”
 Se han realizado cambios para corregir un problema en el que una pequeña cantidad de flujos de trabajo terminaban con un estado “flujo de trabajo completo”. Los nuevos flujos de trabajo ahora pasan al estado “completado” cuando finaliza del flujo de trabajo. Cualquier flujo de trabajo que tenga un estado completado del flujo de trabajo se pasará al estado de error para permitir su actualización o eliminación si procede. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

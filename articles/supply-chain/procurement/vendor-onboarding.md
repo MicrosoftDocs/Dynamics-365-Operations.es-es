@@ -1,24 +1,26 @@
 ---
 title: Incorporación de proveedores
 description: En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566896"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019888"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 
@@ -172,6 +174,3 @@ Mediante la acción **Eliminar** en la solicitud de registro del proveedor poten
 |         Aprobada         |                                                                               La solicitud del proveedor ha sido aprobada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
 |         Rechazado         |                                                                               La solicitud del proveedor ha sido rechazada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

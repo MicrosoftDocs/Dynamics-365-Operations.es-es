@@ -2,24 +2,27 @@
 title: Ventas y ciclos de compra para España
 description: Este tema describe cómo configurar los ciclos de pedido de ventas o de compra para un proveedor o un cliente para las entidades jurídicas en España.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, SrmParameters, SalesPurchCycle
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 263444
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e9e3b365442feedccb4b4d66b9786d0d628f501b57aee939e04c069e8312b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9bcae6650762fa98adb06daef2e5cd3e2d56d37a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407819"
 ---
 # <a name="sales-and-purchase-cycles-for-spain"></a>Ventas y ciclos de compra para España
 
@@ -51,6 +54,3 @@ Puede especificar qué documentos estarán activos para un cliente o un proveedo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

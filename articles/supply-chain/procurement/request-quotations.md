@@ -1,28 +1,28 @@
 ---
 title: Visión general de las solicitudes de presupuesto
 description: Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983401"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016940"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
@@ -39,13 +39,13 @@ El proceso de solicitud de presupuesto consta de las siguientes tareas:
 
 La ilustración siguiente muestra una visión general del proceso de solicitud de presupuesto.
 
-[![Proceso RFQ.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![Proceso RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desde una solicitud de compra o mediante una entrada manual. El caso de solicitud de presupuesto es el documento base que se usa para enviar una solicitud de presupuesto a cada proveedor.
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
+Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.
 
@@ -80,23 +80,23 @@ En la página **Parámetros de adquisición y abastecimiento**, seleccione la pl
 - %Motivo para devolver la propuesta%
 - %Motivo de la enmienda%
 - %Enmienda preparada por%
-- %Company%
+- %Empresa%
 - %Nombre del caso de solicitud de presupuesto%
 - %Hora y fecha de caducidad%
-- %Date%
+- %Fecha%
 
-Los tokens %Motivo para devolver la propuesta% y %Motivo de la enmienda% se sustituirán por el texto que el profesional de compras especifique al completar la modificación en el asistente de **Enmienda**. Los valores de los tokens %Amendment prepared by% y %Company% se toman automáticamente de la solicitud de presupuesto. El token %Date% se reemplaza por la fecha actual.
+Los tokens %Motivo para devolver la propuesta% y %Motivo de la enmienda% se sustituirán por el texto que el profesional de compras especifique al completar la modificación en el asistente de **Enmienda**. Los valores de los tokens %Enmienda preparada por% y %Empresa% se toman automáticamente de la solicitud de presupuesto. El token %Fecha% se reemplaza por la fecha actual.
 
 Si desea cancelar una solicitud de presupuesto una vez que se haya enviado, puede hacerlo desde el caso de solicitud de presupuesto. Para la cancelación, hace falta una plantilla de correo electrónico para enviar la notificación de cancelación a las personas de contacto del proveedor. La plantilla se debe seleccionar en la página **Parámetros de la adquisición y abastecimiento**. Cuando se crea la plantilla, puede contener los tokens de sustitución siguientes:
 
 - %Motivo de la cancelación%
 - %Caso de solicitud de presupuesto%
 - %Solicitud de presupuesto cancelada por%
-- %Company%
+- %Empresa%
 - %Nombre del caso de solicitud de presupuesto%
-- %Date%
+- %Fecha%
 
-El token de %Motivo de la cancelación% se sustituye por el texto que el profesional de compras especifique en el asistente de **Cancelación**. El token %Date% se reemplaza por la fecha actual.
+El token de %Motivo de la cancelación% se sustituye por el texto que el profesional de compras especifique en el asistente de **Cancelación**. El token %Fecha% se reemplaza por la fecha actual.
 
 Si desea usar códigos de motivo en una oferta para indicar por qué se ha rechazado o aceptado, debe configurar códigos de motivo en la página **Motivos de proveedor**.
 
@@ -167,7 +167,7 @@ Si el configura el proceso de modificación de modo que sea más restrictivo, an
 
 Si configura el proceso de modificación para que sea menos restrictivo, no tiene que seleccionar **Crear** antes de poder modificar los campos de un caso de solicitud de presupuesto que se haya enviado ya. No obstante, debe agregar manualmente una nota de enmienda a la solicitud de presupuesto y enviar el caso de nuevo. Tenga en cuenta que este enfoque solo se puede utilizar si no se ha editado ninguna de las respuestas (propuestas). Si ha especificado una respuesta y se encuentra en estado **Recibido**, el botón **Enviar** no está disponible. En este caso, debe seleccionar **Crear** y luego **Finalizar**, como debe hacer en el proceso más restrictivo. La respuesta se restablece para reflejar los cambios al caso de solicitud de presupuesto.
 
-Si los proveedores utilizan la interfaz de colaboración del proveedor para especificar propuestas, debe usar siempre el proceso de modificación para notificar a los proveedores sobre cambios al caso de solicitud de presupuesto. Este proceso ayuda a evitar la situación en la que los proveedores hagan una oferta de un caso de solicitud de presupuesto obsoleto mientras que la oferta está en curso. Para obtener más información acerca de la colaboración de proveedores, consulte [Colaboración con proveedores externos](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Si los proveedores utilizan la interfaz de colaboración del proveedor para especificar propuestas, debe usar siempre el proceso de modificación para notificar a los proveedores sobre cambios al caso de solicitud de presupuesto. Este proceso ayuda a evitar la situación en la que los proveedores hagan una oferta de un caso de solicitud de presupuesto obsoleto mientras que la oferta está en curso. Para obtener más información acerca de la colaboración de proveedores, consulte [Colaboración con proveedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Si desea para invitar a proveedores adicionales para hacer una propuesta y no ha realizado ningún cambio en el caso de solicitud de presupuesto, puede usar el botón **Enviar**. Los proveedores que se han agregado aparecerán en la página **Enviar** y recibirán el correo electrónico de invitación.
 
@@ -246,6 +246,3 @@ En el siguiente ejemplo puede ver el estado más alto y el estado más bajo en e
 | Acepte una de las ofertas. (o al menos una línea) |                          Recibida                           |                           Aceptada                           |                    Recibida                    |                    Aceptada                     |                   Recibida                   |                   Aceptada                    |
 |           Rechazar todas las otras propuestas.           |                          Rechazado                           |                           Aceptada                           |                    Rechazado                    |                    Aceptada                     |                   Rechazado                   |                   Aceptado                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

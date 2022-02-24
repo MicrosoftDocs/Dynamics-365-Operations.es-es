@@ -72,5 +72,3 @@ Asigne el rol de usuario Talento al equipo de relaciones con talentos.
 
    1. Inicie sesión en el portal de portal de proyectos profesionales desde una nueva ventana de navegador.
    2. Solicite el trabajo en el portal de proyectos profesionales. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

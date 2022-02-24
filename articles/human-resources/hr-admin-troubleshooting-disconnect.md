@@ -1,32 +1,30 @@
 ---
 title: El cliente se desconecta
-description: En este tema se explica qué hacer si el cliente está desconectado del entorno.
-author: twheeloc
-ms.date: 08/19/2021
+description: Este artículo explica qué hacer si el cliente está desconectado del entorno y no sabe por qué.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b15c5db19f1b07e3d469986ac700138ecb1d1525
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071144"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4420501"
 ---
 # <a name="client-disconnects"></a>El cliente se desconecta
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Detalles del entorno** 
 
@@ -34,7 +32,7 @@ Este problema puede aparecer en todos los entornos.
  
 **Síntoma** 
 
-El cliente está desconectado del entorno y no sabe por qué. El cliente recibe uno de los mensajes de error siguientes:
+el cliente está desconectado del entorno y no sabe por qué. El cliente recibe uno de los mensajes de error siguientes:
 
 - Hemos perdido la conexión. Haga clic en Cerrar para continuar trabajando.
 - Parece que perdió la conectividad de red. Haga clic en Reintentar para intentarlo de nuevo.
@@ -54,6 +52,3 @@ Microsoft Dynamics 365 Human Resources desconecta a usuarios cuando dos sesiones
 Asegúrese de que sólo un entorno esté abierto al mismo tiempo para un tipo de explorador dado. Los usuarios pueden abrir variras sesiones en el mismo entorno (es decir, varias fichas en el mismo explorador).
 
 Los usuarios que desean desplazarse entre dos entornos al mismo tiempo deben abrir cada entorno en un tipo de explorador diferente. (Por ejemplo, el usuario A puede ver el entorno 1 en Chrome y el entorno 2 en Microsoft Edge.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

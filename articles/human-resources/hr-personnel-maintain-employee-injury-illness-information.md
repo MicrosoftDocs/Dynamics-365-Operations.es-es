@@ -1,31 +1,29 @@
 ---
 title: Mantener la información de lesiones y enfermedades del empleado
-description: Esta tarea describe cómo crear un caso de lesión o enfermedad.
-author: twheeloc
-ms.date: 11/03/2021
+description: Se recomienda completar primero la guía de tareas "Configuración de lesión o enfermedad", puesto que aquí se usa parte de la información de configuración.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 06307331db4d420e99de21c0eb0b3cf1c233f0d5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420381"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mantener la información de lesiones y enfermedades del empleado
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -33,54 +31,65 @@ Se recomienda completar primero la guía de tareas "Configuración de lesión o 
 
 
 
-Esta grabación de tareas cubre los pasos básicos para crear un caso de lesión o enfermedad. Además de los detalles de la lesión o enfermedad, se realiza un seguimiento del estado de un caso. De forma predeterminada, los casos tienen un estado de **Abierto**. Puede administrar el estado usando el elemento de menú **Estado del caso** en la parte superior de la página.
+Esta grabación de tareas cubre los pasos básicos para crear un caso de lesión o enfermedad. Además de realizar un seguimiento de los detalles de la lesión o enfermedad, hay un estado de caso del que se realiza también un seguimiento.  El caso toma como predeterminado un estado "abierto".  Los estados se pueden administrar desde el elemento de menú "Estado del caso" en la parte superior de la página.
 
-1. Vaya a **Recursos humanos \> Trabajadores \> Lesiones y enfermedades \> Incidentes de lesiones o enfermedad**.
-2. Seleccione **Nuevo**.
-3. En el campo **Descripción del caso**, indique un valor (por ejemplo, **Lesión de muñeca**).
-4. En el campo **Trabajador**, escriba o seleccione un valor (por ejemplo, **Ana Bowman**).
-5. En el campo **Fecha y hora del incidente**, ingrese una fecha y hora (por ejemplo, 20 de enero de 2016, a las 10:00 a. m.).
-6. En el campo **Tipo de lesión o enfermedad**, especifique o seleccione un valor (por ejemplo, **Fractura**).
-7. En el campo **Parte del cuerpo**, especifique o seleccione un valor (por ejemplo, **Muñeca**).
-8. En el campo **Tipo de resultado**, especifique o seleccione un valor (por ejemplo, **Terapia**).
-9. En el campo **Fecha y hora informadas**, especifique una fecha y una hora.
+1. Vaya a Recursos humanos > Trabajadores > Lesiones y enfermedades > Incidentes de lesiones o enfermedad.
+2. Haga clic en Nuevo.
+3. En el campo Descripción del caso, escriba un valor.
+    * Ejemplo: Lesión de muñeca  
+4. En el campo Trabajador, especifique o seleccione un valor.
+    * Ejemplo: Ahmed Barnett  
+5. En el campo Fecha y hora del incidente, especifique una fecha y una hora.
+    * Ejemplo: 20/1/2016 10:00 a.m.  
+6. En el campo Tipo de lesión o enfermedad, especifique o seleccione un valor.
+    * Ejemplo: Fractura  
+7. En el campo Parte del cuerpo, especifique o seleccione un valor.
+    * Ejemplo: Muñeca  
+8. En el campo Tipo de resultado, especifique o seleccione un valor.
+    * Ejemplo: Terapia  
+9. En el campo Fecha y hora informadas, especifique una fecha y una hora.
+    * La fecha y hora notificadas deben ser posteriores a la fecha y hora del incidente.  
+10. En el campo Persona que informó del caso, escriba o seleccione un valor.
+    * Podría ser el empleado u otro testigo del incidente.  Ejemplo: Ahmed Barnett  
+11. Expanda la sección Incidente.
+12. En el campo Lugar donde ocurrió el incidente, escriba un valor.
+    * Ejemplo: Almacén  
+13. Seleccione Sí en el campo En el sitio de trabajo.
+    * Si el incidente se produjo en las instalaciones del sitio de trabajo, seleccione sí.  
+14. En el campo Fecha y hora de inicio laboral, especifique una fecha y una hora.
+    * Escriba la fecha y la hora en que el individuo afectado empezó a trabajar, antes de que se produjera el incidente.  
+15. En el campo Trabajo o tarea del empleado, escriba un valor.
+    * Especifique el trabajo o la tarea que el trabajador estaba realizando cuando se produjo el incidente.  Ejemplo: Cargar cajas  
+16. En el campo Causa del incidente, escriba un valor.
+    * Especifique la causa del incidente.  Ejemplo: Se resbaló en suelo mojado  
+17. En el campo Nivel de gravedad, especifique o seleccione un valor.
+18. En el campo Acción que debe realizarse, escriba un valor.
+    * Ejemplo: Limpiar pronto vertidos  
+19. En el campo Días previstos de ausencia laboral, especifique un número.
+    * Especifique el número de días en que está previsto que el trabajador se ausente del trabajo.  Una vez que el individuo vuelva al trabajo, actualice el campo "Días de ausencia laboral" con el número real de días que ha estado ausente.  
+20. Expanda la sección Costes por lesión o enfermedad.
+21. Haga clic en Agregar.
+22. En el campo Fecha, escriba una fecha.
+23. En el campo Tipo de coste, especifique o seleccione un valor.
+    * Ejemplo: Tratamiento También puede especificar un importe y adjuntar cualquier documentación justificativa como facturas o notas del médico al coste.  
+24. Haga clic en Agregar.
+25. En el campo Fecha, escriba una fecha.
+26. En el campo Tipo de coste, especifique o seleccione un valor.
+    * Ejemplo: Médico  
+27. Expanda la sección Tratamiento de lesiones o enfermedades.
+28. Haga clic en Agregar.
+29. En el campo Fecha de tratamiento, especifique una fecha y una hora.
+30. En el campo Tipo de tratamiento, especifique o seleccione un valor.
+    * Ejemplo: Tablilla  
+31. De manera opcional, establezca la sección Traslado a unidad de emergencias en Sí.
+32. En el campo Comentarios sobre el tratamiento, escriba un valor.
+    * Ejemplo: Tablilla durante 2 semanas  
+33. En el campo Nombre del médico, escriba un valor.
+    * Ejemplo: Dr. Anderson  
+34. En el campo Centro de salud en el que se realiza el tratamiento y ubicación, escriba un valor.
+    * Ejemplo: Elm St. Emergency  
+35. En el campo Detalles del tratamiento, escriba un valor.
+    * Ejemplo: La radiografía confirma la fractura, llevar tablilla  
+36. Haga clic en Guardar.
+    * El estado del caso se puede actualizar en cualquier momento.  Establezca el caso en curso, si el procesamiento de la lesión o enfermedad está en curso.  Una vez cierre el incidente, solo podrá agregar o quitar costes, tratamientos o archivos relacionados con el incidente.  Para modificar otra información, vuelva a abrir el caso.  
 
-    La fecha y hora notificadas deben ser posteriores a la fecha y hora del incidente.
-
-10. En el campo **Persona que informó del caso**, escriba o seleccione un valor (por ejemplo, **Ana Bowman**).
-
-    La persona especificada podría ser el empleado u otro testigo del incidente.
-
-11. En la sección **Incidente**, en el campo **Donde ocurrió el incidente**, ingrese un valor (por ejemplo, **Depósito**).
-12. En el campo **En el sitio de trabajo**, seleccione **Sí** si el incidente ocurrió en el local de trabajo.
-13. En el campo **Fecha y hora de inicio laboral**, ingrese la fecha y hora en que la persona afectada comenzó a trabajar antes de que ocurriera el incidente.
-14. En el campo **Trabajo o tarea del empleado**, ingrese el trabajo o tarea que el trabajador estaba realizando cuando ocurrió el incidente (por ejemplo, **Cargando cajas**). 
-15. En el campo **Causa del incidente**, ingrese la causa del incidente (por ejemplo, **Resbaló en el piso mojado**).
-16. En el campo **Nivel de gravedad**, especifique o seleccione un valor.
-17. En el campo **Acción que debe realizarse**, ingrese un valor (por ejemplo, **Limpiar pronto vertidos**).
-18. En el campo **Días previstos de ausencia laboral**, ingrese el número de días que se espera que la persona esté fuera del trabajo.
-
-    Una vez que el individuo vuelva al trabajo, actualice el campo **Días de ausencia laboral** con el número real de días que ha estado ausente.
-
-19. En la sección **Costes por lesión o enfermedad**, seleccione **Agregar**.
-20. En el campo **Fecha**, escriba una fecha.
-21. En el campo **Tipo de coste**, especifique o seleccione un valor (por ejemplo, **Terapia**).
-
-    También puede especificar un importe y adjuntar cualquier documentación justificativa al coste (por ejemplo, facturas o notas del médico).
-
-22. Seleccione **Agregar**.
-23. En el campo **Fecha**, escriba una fecha.
-24. En el campo **Tipo de coste**, especifique o seleccione un valor (por ejemplo, **Médico**).
-25. En la sección **Tratamiento de lesiones o enfermedades**, seleccione **Agregar**.
-26. En el campo **Fecha de tratamiento**, especifique una fecha y una hora.
-27. En el campo **Tipo de tratamiento**, especifique o seleccione un valor (por ejemplo, **Tablilla**).
-28. Opcional: establezca la sección **Traslado a unidad de emergencias** en **Sí**.
-29. En el campo **Comentarios del tratamiento**, especifique un valor (por ejemplo, **Tablilla durante 2 semanas**).
-30. En el campo **Nombre del médico**, escriba un valor (por ejemplo, **Dr. Anderson**).
-31. En el campo **Centro de salud en el que se realiza el tratamiento y ubicación**, ingrese un valor (por ejemplo, **Elm St. Emergency**).
-32. En el campo **Detalles del tratamiento**, ingrese un valor (por ejemplo, **La radiografía confirma fractura, use tablilla**).
-33. Seleccione **Guardar**.
-
-El estado del caso se puede actualizar en cualquier momento. Si el procesamiento de la lesión o enfermedad está en curso, establezca el estado como **En curso**. Una vez cierre el incidente, solo podrá agregar o quitar costes, tratamientos o archivos relacionados con el incidente. Para cambiar otra información, debe reabrir el caso.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

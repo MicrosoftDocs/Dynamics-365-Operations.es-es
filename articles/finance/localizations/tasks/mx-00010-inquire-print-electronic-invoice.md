@@ -2,23 +2,26 @@
 title: MX-00010 Consultar e imprimir una factura electrónica
 description: 'Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente.'
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EInvoiceCFDIJournal_AR, EInvoiceXMLViewer_MX, DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3edfc0588ba43751c730e9109d45aac6d2b5afabcf29bc9e42d39dea821cb351
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14534abcff4dba41a1d66dc3b46487e1f1aaddf4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759757"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407793"
 ---
 # <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 
@@ -40,6 +43,3 @@ Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por co
 10. Cierre la página.
 11. Actualice la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

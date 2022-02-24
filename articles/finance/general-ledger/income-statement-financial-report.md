@@ -2,25 +2,28 @@
 title: Informe financiero de informe de ingresos
 description: En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe.
 author: jcart1106
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 118c7207f6efc252c0265d6c8f7b949c0e178203bf8523585aa2bfc53a69a6a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746401"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645586"
 ---
 # <a name="income-statement-financial-report"></a>Informe financiero de informe de ingresos
 
@@ -28,7 +31,8 @@ ms.locfileid: "6746401"
 
 En este artículo se describen los informes predeterminados para las declaraciones de ingresos. También se describen los componentes asociados con este informe. 
 
-## <a name="default-income-statement-report"></a>Informe de ingresos predeterminado
+<a name="default-income-statement-report"></a>Informe de ingresos predeterminado
+-------------------------------
 
 | Informe predeterminado             | Qué hace                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -56,7 +60,8 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Visión general de informes financieros](financial-reporting-getting-started.md)
 
@@ -66,6 +71,3 @@ Las definiciones de columnas contienen diversos tipos de columnas para proporcio
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

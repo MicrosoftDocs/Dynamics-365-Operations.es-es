@@ -102,6 +102,3 @@ Si está teniendo problemas registrando un trabajo en Broadbean, intente estos p
 [Crear, aprobar y registrar trabajos en Attract](./creating-jobs-attract.md)
 
 [Habilitar la integración con Broadbean en Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

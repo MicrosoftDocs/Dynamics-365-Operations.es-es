@@ -2,9 +2,11 @@
 title: Gestionar varias asignaciones derivadas para una única raíz de modelo
 description: Este tema explica cómo administrar varias asignaciones derivadas que se configuraron para una única raíz de modelo.
 author: NickSelin
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10363371713bd5a882b41900249e7061afc577ba6473fdb3356a822c8e48f8f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743296"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826118"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gestionar varias asignaciones derivadas para una única raíz de modelo
 
@@ -55,7 +57,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
 2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione el icono **Configuraciones de informes**.
 3. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, expanda **Modelo de factura**.
 
-    ![Revisión de las configuraciones importadas en la página Configuraciones.](./media/er-multiple-model-mappings-image1.png)
+    ![Revisión de las configuraciones importadas en la página Configuraciones](./media/er-multiple-model-mappings-image1.png)
 
 4. Revise el formato **Factura de servicios (Excel)**:
 
@@ -66,7 +68,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
     
        El formato ER actual está configurado para usar la definición de raíz **InvoiceCustomer** del **Modelo de factura**. Cuando se ejecuta este formato y se llama el origen de datos **Modelo**, la asignación del modelo que está configurado para la definición de raíz **InvoiceCustomer** se utiliza para acceder a los datos de la aplicación y completar el modelo de datos.
 
-        ![Revisar el origen de datos del modelo en la página del diseñador de formato.](./media/er-multiple-model-mappings-image2.png)
+        ![Revisar el origen de datos del modelo en la página del diseñador de formato](./media/er-multiple-model-mappings-image2.png)
 
     6. Cierre la página **Diseñador de formato**.
 
@@ -79,7 +81,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
         + La asignación del modelo **Factura del cliente** está configurada para la definición de raíz de **InvoiceCustomer** del **Modelo de factura**. Por lo tanto, cuando el formato de ER **Factura de servicios (Excel)** se ejecuta, la asignación de modelo de **Factura del cliente** de esta configuración de ER se puede elegir para acceder a los datos de la aplicación y completar el modelo de datos.
         + La asignación del modelo **Factura del proyecto** está configurada para la definición de raíz de **InvoiceProject** del **Modelo de factura**. Por lo tanto, cuando el formato de ER **Factura de proyecto (Excel)** se ejecuta, la asignación de modelo de **Factura del proyecto** de esta configuración de ER se puede elegir para acceder a los datos de la aplicación y completar el modelo de datos.
 
-        ![Asignación del modelo de factura en la página de asignación de modelo a origen de datos.](./media/er-multiple-model-mappings-image3.png)
+        ![Asignación del modelo de factura en la página de asignación de modelo a origen de datos](./media/er-multiple-model-mappings-image3.png)
 
     4. Cierre la página **Asignación de modelo a origen de datos**.
     5. En la ficha desplegable **Versiones**, seleccione **Eliminar** para eliminar todas las versiones de esta configuración de ER que sean posteriores a la versión 240.175.
@@ -90,7 +92,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
     2. En el panel de acciones, haga clic en **Diseñador**.
     3. En la página **Asignación de modelo a origen de datos**, observe que la configuración de asignación del modelo ER actual contiene la asignación del modelo **InvoiceProject** y que esta asignación de modelo está configurada para la definición de raíz **InvoiceProject** del **Modelo de factura**. Cuando el formato de ER **Factura de proyecto (Excel)** se ejecuta, seleccione la asignación de modelo **InvoiceProject** de esta configuración de ER para acceder a los datos de la aplicación y completar el modelo de datos.
 
-        ![Asignación del modelo de factura de proyecto en la página de asignación de modelo a origen de datos.](./media/er-multiple-model-mappings-image4.png)
+        ![Asignación del modelo de factura de proyecto en la página de asignación de modelo a origen de datos](./media/er-multiple-model-mappings-image4.png)
 
     4. Cierre la página **Asignación de modelo a origen de datos**.
     5. En la ficha desplegable **Versiones**, seleccione **Eliminar** para eliminar todas las versiones de esta configuración de ER que sean posteriores a la versión 226.35.
@@ -115,7 +117,7 @@ Esta sección explica cómo [personalizar](er-quick-start3-customize-report.md#c
 
 7. En el panel de acciones, seleccione **Diseñador** para revisar las asignaciones de modelos de esta configuración.
 
-    ![Revisión de las asignaciones del modelo de factura en la página de asignación de modelo a origen de datos.](./media/er-multiple-model-mappings-image5.png)
+    ![Revisión de las asignaciones del modelo de factura en la página de asignación de modelo a origen de datos](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Ahora puede abrir cualquiera de los componentes de asignación del modelo de ER de esta configuración ER en el diseñador para configurar su lógica personalizada. Para más información, consulte [Personalizar la configuración de la asignación del modelo](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,7 +128,7 @@ Ahora dispone de las configuraciones **Asignación del modelo de factura** y **A
  
 > Existe más de una asignación de modelo para el modelo de datos '\<model name\> (\<root descriptor\>)' en las configuraciones \<configuration names separated by commas\>. Establezca una de las configuraciones como predeterminada.
 
-![Abrir el formato para editar en la página Configuraciones.](./media/er-multiple-model-mappings-image6.gif)
+![Abrir el formato para editar en la página Configuraciones](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Personalizar la configuración de la asignación de modelo de factura de proyecto (RDP)
 
@@ -138,7 +140,7 @@ Ahora dispone de las configuraciones **Asignación del modelo de factura** y **A
 6. Para la configuración de la **Asignación del modelo de factura de proyecto Litware** que está actualmente seleccionada en el árbol de configuración, establezca la opción **Ejecutar borrador** en **Sí**.
 7. En el panel de acciones, seleccione **Diseñador** para revisar las asignaciones de modelos de esta configuración.
 
-    ![Revisión de las asignaciones del modelo de factura de proyecto personalizado en la página de asignación de modelo a origen de datos.](./media/er-multiple-model-mappings-image7.png)
+    ![Revisión de las asignaciones del modelo de factura de proyecto personalizado en la página de asignación de modelo a origen de datos](./media/er-multiple-model-mappings-image7.png)
 
 8. Cierre la página **Asignación de modelo a origen de datos**.
 
@@ -149,7 +151,7 @@ Ahora dispone de las configuraciones **Asignación de modelo de factura**, **Asi
 1. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, seleccione **Asignación de modelo de factura Litware**.
 2. Establezca la opción **Predeterminado para la asignación de modelo** a **Sí**.
 
-    ![Establecer la asignación del modelo como asignación de modelo predeterminada en la página Configuraciones.](./media/er-multiple-model-mappings-image8.png)
+    ![Establecer la asignación del modelo como asignación de modelo predeterminada en la página Configuraciones](./media/er-multiple-model-mappings-image8.png)
 
     Debido a esta configuración, la asignación de modelo **Copia de la factura del cliente** se usa cuando ejecuta, valida o edita la **Factura de servicios (Excel)**. La asignación de modelo **Factura de cliente** de la configuración **Asignación de modelo de factura** se ignora.
 
@@ -167,7 +169,7 @@ Ahora dispone de las configuraciones **Asignación de modelo de factura**, **Asi
 5. En la página **Asignación de modelo a origen de datos**, seleccione **Editar** para que la página sea editable, según sea necesario.
 6. Seleccione la asignación de modelo **Copia de factura de proyecto** y luego seleccione la casilla de verificación **Eliminado** para ello.
 
-    ![Establecer la asignación del modelo como eliminada virtualmente en la página Asignación de modelo a origen de datos.](./media/er-multiple-model-mappings-image9.png)
+    ![Establecer la asignación del modelo como eliminada virtualmente en la página Asignación de modelo a origen de datos](./media/er-multiple-model-mappings-image9.png)
 
     Debido a esta configuración, la configuración de **asignación del modelo de factura Litware** se trata como si no tuviera una asignación de modelo para la definición de raíz **InvoiceProject**. La asignación de modelo **Copia de InvoiceProject** se emite por defecto. La configuración, **asignación de modelo de factura de proyecto Litware**, que contiene la asignación de modelo, se marca como la configuración predeterminada. Debido a que está marcada como predeterminada, tiene una prioridad más alta que la asignación de modelo **InvoiceProject** de la configuración **Asignación del modelo de factura de proyecto (RDP)**.
 
@@ -180,6 +182,3 @@ La asignación de modelo **Copia de InvoiceProject** de la configuración **Asig
 - [Gestionar la asignación de modelos de informes electrónicos en distintas configuraciones de informes electrónicos](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurar asignaciones de modelo de informes electrónicos dependientes del contexto del país](er-country-dependent-model-mapping.md)
 - [Cambios en la API de marco de informes electrónicos](er-apis-app10-0-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

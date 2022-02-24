@@ -1,28 +1,28 @@
 ---
 title: Introducción a las ubicaciones funcionales
 description: Este tema proporciona una visión general de las ubicaciones funcionales en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationEditSubLocations, EntAssetFunctionalLocationLookup, EntAssetFunctionalLocationRename, EntAssetFunctionalLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2214"
-- intro-internal
+ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0cb76a05f0f19d3e57d1f79751e8bc5870b3c331aa4d1c37ec8dfde0a3c6d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 62cfd913393c3533c232dd89c90c3cdfffa72244
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767564"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018199"
 ---
 # <a name="introduction-to-functional-locations"></a>Introducción a las ubicaciones funcionales
 
@@ -82,6 +82,3 @@ Los botones del panel de acciones se organizan en fichas. La tabla siguiente des
 | Defectos                              | Abrir la página **Errores de activo**, donde puede ver una lista de los registros de errores de activos relacionados con la ubicación funcional seleccionada. |
 | Actualizar estado de ubicación técnica    | Cambiar la etapa de la ubicación funcional seleccionada.                                                                                        |
 | Registro de estado de ciclo de vida                 | Ver un registro que muestre las etapas de la ubicación funcional seleccionada.                                                                        |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

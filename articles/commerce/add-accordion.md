@@ -1,13 +1,16 @@
 ---
 title: Módulo de acordeón
-description: En este tema se tratan los módulos de acordeón y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan los módulos de acordeon y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719536"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415453"
 ---
 # <a name="accordion-module"></a>Módulo de acordeón
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de acordeón y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este tema se tratan los módulos de acordeon y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 Los módulos de acordeón son módulos en forma de contenedor que se utilizan para organizar la información o los módulos en una página al proporcionar una capacidad contraible tipo cajón. Se puede usar un módulo de acordeón en cualquier página.
 
@@ -34,7 +39,7 @@ Dentro de cada módulo de acordeón, se pueden agregar uno o más módulos de el
 
 La siguiente imagen muestra un ejemplo de un módulo de acordeón que se utiliza para organizar la información en la página de preguntas frecuentes (FAQ) de una tienda.
 
-![Ejemplo de un módulo de acordeón.](./media/ecommerce-accordion.PNG)
+![Ejemplo de un módulo de acordeón](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Propiedades de módulo de acordeón
 
@@ -82,6 +87,3 @@ Para agregar un módulo de acordeón a una página de preguntas frecuentes y est
 [Módulo de pestaña](add-tab.md)
 
 [Módulo de bloque de texto](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

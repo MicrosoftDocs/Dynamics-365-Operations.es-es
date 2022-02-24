@@ -2,23 +2,26 @@
 title: MX-00010 Definir parámetros para una factura electrónica
 description: Este procedimiento muestra cómo configurar una factura electrónica y la cuenta de PAC para obtener la aprobación y el sello digital.
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, DigitalCertificateLookup
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69d4c512080fd482bbeac710b6f38d3ceeab802dcfe288f44157588277d78c41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 093956eec8062f6e555c98eb5594d9c4f27c2a91
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721672"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407791"
 ---
 # <a name="mx-00010-set-parameters-for-an-electronic-invoice"></a>MX-00010 Definir parámetros para una factura electrónica
 
@@ -70,6 +73,3 @@ Este procedimiento muestra cómo configurar una factura electrónica y la cuenta
 15. En la lista, haga clic en el vínculo de la fila seleccionada.
 16. Active o desactive la casilla Enviar archivo de informe: PDF.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

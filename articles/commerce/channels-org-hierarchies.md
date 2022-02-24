@@ -2,30 +2,36 @@
 title: Configurar jerarquías organizativas
 description: En este tema se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746025"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415496"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar jerarquías organizativas
+
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 Antes de crear canales, debe asegurarse de configurar sus jerarquías organizativas.
 
@@ -54,7 +60,7 @@ Para crear una jerarquía organizativa, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de jerarquía organizativa creada para un conjunto de tiendas ficticio llamado "Adventure Works".
 
-![Ejemplo de jerarquía organizativa.](media/organizational-hierarchies.png)
+![Ejemplo de jerarquía organizativa](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Agregar organizaciones a una jerarquía
 
@@ -67,11 +73,11 @@ Para agregar organizaciones a una jerarquía, siga estos pasos.
 
 En la siguiente imagen se muestra una entidad jurídica agregada en la raíz de la jerarquía con cuatro centros de coste agregados para los canales "Centro comercial", "Tienda de ofertas", "En línea" y "Centro de llamadas". Se pueden agregar a cada uno de ellos varios canales minoristas, de centro de llamadas y en línea.
 
-![Ejemplo de diseñador de jerarquías.](media/hierarchy-designer.png)
+![Ejemplo de diseñador de jerarquías](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
 [Planificación de su jerarquía organizativa](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
@@ -82,6 +88,3 @@ En la siguiente imagen se muestra una entidad jurídica agregada en la raíz de 
 [Resumen de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

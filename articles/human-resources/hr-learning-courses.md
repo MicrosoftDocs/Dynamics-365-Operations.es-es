@@ -1,37 +1,36 @@
 ---
 title: Configuración de cursos de formación.
 description: Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066759"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420482"
 ---
 # <a name="set-up-training-courses"></a>Configuración de cursos de formación.
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
 Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
 
-##  <a name="set-up-prerequisites"></a> Requisitos previos de configuración
+ <a name="set-up-prerequisites"></a> Requisitos previos de configuración
+---------------------
 
 La siguiente información es necesaria y debe estar configurada antes de crear cursos.
 -   **Tipos de curso**
@@ -83,7 +82,7 @@ Para cada curso, puede realizar las tareas siguientes:
 - Definir el número mínimo y máximo de participantes.
 - Asignar una ubicación y un aula para el curso.
 - Recomendar hoteles a los participantes en el curso.
-- Crear una descripción del curso que puede anunciar en **Autoservicio para empleados**
+- Crear una descripción del curso que puede anunciar en Autoservicio para empleados.
 
   >**Nota** Solo puede eliminar un curso solo si nadie se ha registrado. 
 
@@ -129,7 +128,8 @@ En la tabla siguiente se muestran los estados posibles del curso y las acciones 
 ## <a name="course-participants"></a>Participantes en el curso
 Los participantes del curso son trabajadores que participan en un evento o curso de aprendizaje. Solo es posible registrar participantes para cursos abiertos. El número mínimo y máximo de participantes que se pueden registrar para un curso se define en la ficha desplegable **General** en la página **Cursos**.
 
-## <a name="workflow"></a>Flujo de trabajo
+<a name="workflow"></a>Flujo de trabajo
+--------
 
 Los empleados que se registran para un curso por medio de la página **Autoservicio del empleado** pueden dirigir su registro a través del flujo de trabajo para su aprobación. Puede asignar un flujo de trabajo a un curso en la ficha desplegable **General** de la página **Cursos**.
 
@@ -137,6 +137,3 @@ Los empleados que se registran para un curso por medio de la página **Autoservi
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

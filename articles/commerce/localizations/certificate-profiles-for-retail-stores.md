@@ -2,9 +2,11 @@
 title: Perfiles de certificado definidos por el usuario para tiendas
 description: Este tema proporciona una descripción general sobre cómo se utilizan los certificados en las tiendas minoristas.
 author: josaw
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719939"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018877"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfiles de certificado definidos por el usuario para tiendas
 
@@ -79,7 +81,7 @@ Cuando agrega una nueva línea a la página **Configuración de perfil de certif
 - **Certificado de Key Vault** - Este campo es obligatorio si configura el campo **Tipo de ubicación** como **Almacén de claves**. Úselo para especificar un certificado secreto de Key Vault.
 
     > [!NOTE]
-    > Antes de usar un certificado de Key Vault en perfiles de certificado, asegúrese de cargar un certificado en el almacenamiento de Key Vault y siga las instrucciones en [Configurar el cliente de Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
+    > Antes de usar un certificado de Key Vault en perfiles de certificado, asegúrese de cargar un certificado en el almacenamiento de Key Vault y siga las instrucciones en [Configurar el cliente de Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
 
 - **Nombre de la tienda** - Este campo es opcional y está disponible solo si configura el campo **Tipo de ubicación** como **Certificado local**. Úselo para especificar un nombre de tienda predeterminado que debe usarse para buscar certificados locales.
 - **Ubicación de la tienda** - Este campo es opcional y está disponible solo si configura el campo **Tipo de ubicacion** como **Certificado local**. Úselo para especificar una ubicación de tienda predeterminado que debe usarse para buscar certificados locales.
@@ -119,6 +121,3 @@ Si se introduce una nueva versión del certificado, pero no se puede actualizar 
 
 > [!NOTE]
 > En Commerce Runtime, se llamará primero a la nueva versión del certificado. Si el certificado aún no se ha actualizado en una tienda específica o en un terminal específico, se llamará a la versión anterior.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

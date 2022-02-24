@@ -2,13 +2,16 @@
 title: Operación de inventario saliente en PDV
 description: Este tema describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,19 +19,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581147"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415421"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario de salida en PDV
+# <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
 
 [!include [banner](includes/banner.md)]
 
 
-En Microsoft Dynamics 365 Commerce, versión 10.0.10 y posteriores, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de recogida y recepción.
+En Microsoft Dynamics 365 Commerce versión 10.0.10 y posterior, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de selección y recepción.
 
 > [!NOTE]
 > En la versión 10.0.10 y posteriores, cualquier función nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de operaciones de entrada. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
@@ -71,7 +74,7 @@ Los trabajos por lotes que cree se usarán para procesar documentos que fallan o
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Prerrequisito: agregar operación de salida al diseño de pantalla PDV
 
-Antes de que su organización pueda usar la funcionalidad de operación de salida, debe configurar la operación de PDV **Operación de salida** en uno o más de sus [Diseños de pantalla de PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implementar la nueva operación en un entorno de producción, asegúrese de probarla exhaustivamente y capacitar a sus usuarios para que la utilicen.
+Antes de que su organización pueda usar la funcionalidad de operación de salida, debe configurar la operación de PDV **Operación de salida** en uno o más de sus [Diseños de pantalla de PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implementar la nueva operación en un entorno de producción, asegúrese de probarla exhaustivamente y capacitar a sus usuarios para que la utilicen.
 
 ## <a name="overview"></a>Visión general
 
@@ -116,7 +119,7 @@ En la vista **Lista completa de pedidos**, puede seleccionar manualmente una lí
 
 ### <a name="over-delivery-shipping-validations"></a>Validaciones de envío en exceso
 
-Las validaciones ocurren durante el proceso de entrega de las líneas del documento. Incluyen validaciones para sobre-entrega. Si un usuario intenta enviar más inventario del que se ordenó en un pedido de transferencia, pero la entrega en exceso no está configurada o la cantidad enviada excede la tolerancia de entrega en exceso configurada para la línea de pedido de transferencia, el usuario recibe un error y no se le permite enviar la cantidad en exceso.
+Las validaciones ocurren durante el proceso de recepción de las líneas del documento. Incluyen validaciones para sobre-entrega. Si un usuario intenta recibir más inventario del que se ordenó en un pedido de compra, pero la entrega en exceso no está configurada o la cantidad recibida excede la tolerancia de entrega en exceso configurada para la línea de pedido de compra, el usuario recibe un error y no se le permite recibir la cantidad en exceso.
 
 ### <a name="underdelivery-close-lines"></a>Líneas de cierre de entrega incompleta
 
@@ -190,6 +193,3 @@ Las órdenes de transferencia enviadas completamente se trasladan a la pestaña 
 ## <a name="related-topics"></a>Temas relacionados
 
 [Operación de inventario entrante en PDV](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

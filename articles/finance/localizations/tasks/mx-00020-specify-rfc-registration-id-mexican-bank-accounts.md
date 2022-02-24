@@ -2,23 +2,26 @@
 title: MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 description: Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC.
 author: sndray
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable,  DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b8f77496efb88e4aacb9815490fef16c57d3e56b733d68bcac212d58c44fc09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b94a093229bd6cd92cc178cd088fea925406a235
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745733"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407823"
 ---
 # <a name="mx-00020---specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 
@@ -38,6 +41,3 @@ Esta tarea le guía por la creación de la cuenta bancaria para México y la asi
     * El número de Registro Federal del Contribuyentes (RFC) es el número de identificación fiscal asignado por las autoridades fiscales a una persona o una corporación. Los identificadores de registro de impuestos se validan según el formato especificado por las autoridades fiscales de México.  
 9. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

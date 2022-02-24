@@ -45,6 +45,3 @@ Con este cambio, el valor predeterminado del campo **Acción solicitado por** ah
 ### <a name="ideas-portal-updated"></a>Portal de las ideas actualizado
 En la aplicación, los vínculos para enviar una idea para Talent se han actualizado al nuevo portal Ideas. Todas las ideas especificadas en el portal antiguo se han migrado, por lo que todas tus grandes ideas siguen estando ahí y están disponibles para que los demás las voten.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

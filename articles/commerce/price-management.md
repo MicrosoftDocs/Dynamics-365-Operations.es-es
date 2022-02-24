@@ -2,24 +2,27 @@
 title: Administración de precio de ventas minoristas
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 07/28/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759294"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415411"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -46,7 +49,7 @@ Por sí mismo, un grupo de precios es solo un nombre, una descripción y, de for
 
 La siguiente ilustración muestra cómo se utilizan los grupos de precios. En esta ilustración, observe que el "Grupo de precios" se encuentra literalmente en el centro de la gestión de precios y descuentos. Las entidades comerciales que puede utilizar para gestionar precios y descuentos diferenciales se encuentran a la izquierda, y los registros reales de precios y descuentos están a la derecha.
 
-![Grupos de precios.](./media/PriceGroups.png "Grupos de precios")
+![Grupos de precios](./media/PriceGroups.png "Grupos de precios")
 
 Al crear grupos de precios, no debe utilizar un único grupo de precios para varios tipos de entidades comerciales. De lo contrario, puede resultar difícil determinar por qué un precio o descuento específico se está aplicando a una transacción.
 
@@ -214,30 +217,26 @@ Al establecer precios de venta en Dynamics 365, no especifica si el valor del pr
 
 Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que configure los precios correctamente, ya que el importe total que el cliente paga cambiará si se cambia la configuración **El precio incluye impuestos** en el canal.
 
-## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Diferencias entre precios comerciales y precios no comerciales
+## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Diferencias entre precios al por menor y precios no al por menor
 
 Un único motor de precios se utiliza para calcular precios en todos los canales: centro de llamadas, tienda y tiendas en línea. Esto ayuda a habilitar los escenarios de comercio unificados.
 
-Los precios están diseñados para trabajar con las entidades comerciales en lugar de con entidades no comerciales. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
+Los precios están diseñados para trabajar con las entidades minoristas en lugar de con entidades no minoristas. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
 
-El motor de precios comerciales **no admite** las siguientes características de precios:
+El motor de precios **no admite** las siguientes características de precios:
 
 - Establecer precios por sitio o por dimensiones de almacenamiento de sitio o almacén. Si solo especifica la dimensión del sitio en los acuerdos comerciales, el motor de precios omitirá el sitio y aplicará el acuerdo comercial a todos los sitios. Si especifica tanto el sitio como el almacén, el comportamiento será indefinido/no probado porque se espera que los minoristas utilicen los grupos de precios de la tienda para controlar los precios de cada tienda o almacén.
 - No se admiten precios basados en atributos.
 - No se admite la transferencia de descuentos de proveedor.
-- La función de moneda genérica no es compatible, es decir, incluso si un acuerdo comercial tiene **Incluir moneda genérica** activado, este acuerdo comercial solo se considerará válido para la moneda definida en el acuerdo comercial.
 - El motor de precios estándar de Supply Chain Management admite el cálculo de precios basado en la "Fecha de envío solicitada" y la "Fecha de recepción solicitada", junto con la fecha actual. Sin embargo, los precios minoristas actualmente no son compatibles con estos valores. La razón es que para los escenarios B2C los clientes no esperan que la fecha de entrega solicitada afecte el precio del artículo. En algunos casos, los minoristas tienen operaciones B2B y B2C. Para operaciones B2B, es común cambiar los precios en función de las fechas de entrega. Estos minoristas pueden usar los precios de Supply Chain Management para sus negocios B2B y precios minoristas para sus negocios B2C. El precio minorista solo se aplica si el usuario de la aplicación se agrega como usuario del centro de llamadas, por lo que los minoristas pueden asignar ciertos usuarios que trabajarán con los precios de Supply Chain Management y asignar algunos que funcionarán con el precio minorista, es decir, estos usuarios debe agregarse como usuarios de un centro de llamadas. Además, la propiedad **Usar la fecha de hoy para calcular precios** de la sección **Parámetros de Commerce > Precios y descuentos > Varios** debe estar activada. De esta manera, pueden mantener el valor del parámetro de clientes usando para la fecha de envío solicitada o la fecha de recepción solicitada para los precios de Supply Chain Management, pero los precios minoristas seguirán usando la fecha de hoy para el cálculo de precios.
 
-Además, el motor de precios comerciales **solo** admite las siguientes funciones:
+Además, el motor de precios **solo** admite las siguientes características:
 
-- El precio se basa en dimensiones del producto, en orden desde el precio variable más específico al precio variable menos específico para el precio del producto maestro. Un precio que se establece mediante el uso de dos dimensiones del producto (por ejemplo, color y tamaño) se utiliza antes que un precio que se establece usando solo una dimensión del producto (por ejemplo, tamaño).
+- El precio se basa en dimensiones del producto, en orden desde el precio variable más específico al precio variable menos específico para el precio del producto maestro. Un precio que se establece mediante el uso de dos dimensiones del producto (por ejemplo, Color y Tamaño) se utiliza antes que un precio que se establece usando solo una dimensión del producto (por ejemplo, Tamaño).
 - Se puede utilizar el mismo grupo de precios para controlar precios y descuentos.
 
 ## <a name="pricing-api-enhancements"></a>Mejoras en los precios de API
 
 El precio es uno de los factores más importantes que controlan las decisiones de compra de muchos clientes, y muchos clientes comparan precios en distintos sitios antes de hacer una compra. Para ayudar a garantizar que proporcionan precios competitivos, los minoristas observan detenidamente a sus competidores y a menudo realizan promociones. Para ayudar a minoristas a atraer a clientes, es muy importante que la búsqueda de producto, la característica de exploración, las listas, y la visualización de la página de detalles de productos muestren los precios más precisos.
 
-La interfaz de programación de la aplicación (API) **GetActivePrices** en Comercio devuelve los precios que incluyen descuentos simples (por ejemplo, los descuentos de una línea que no dependen de otros artículos del carro). De esta manera, los precios que aparecen están muy cerca del importe real que los clientes pagan por los artículos. Esta API incluye todos los tipos de descuentos simples: basados en afiliación, fidelidad, catálogo y en el canal. Además, la API devuelve los nombres y la información de la validez para descuentos aplicados, de modo que los minoristas pueden proporcionar una descripción más detallada del precio y crear una sensación urgencia de si la validez del descuento expirará pronto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+En una versión próxima de Commerce, la interfaz de programación (API) de la aplicación **GetActivePrices** devolverá los precios que incluyen descuentos simples (por ejemplo, los descuentos de una línea que no dependen de otros artículos del carro). De esta manera, los precios que aparecen están muy cerca del importe real que los clientes pagan por los artículos. Este API incluirá todos los tipos de descuentos simples: basados en afiliación, fidelidad, catálogo y en el canal. Además, la API devolverá los nombres y la información de la validez para descuentos aplicados, de modo que los minoristas pueden proporcionar una descripción más detallada del precio y crear una sensación urgencia de si la validez del descuento expirará pronto.

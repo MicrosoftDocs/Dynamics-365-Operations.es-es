@@ -1,33 +1,36 @@
 ---
 title: Sincronizar facturas de acuerdos en Field Service con facturas de texto libre en Supply Chain Management
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar facturas de acuerdo en Dynamics 365 Field Service a facturas de texto libre en Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060773"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528254"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizar facturas de acuerdos en Field Service con facturas de texto libre en Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar facturas de acuerdo en Dynamics 365 Field Service a facturas de texto libre en Dynamics 365 Supply Chain Management.
 
@@ -52,23 +55,23 @@ Las siguiente sincronización es necesaria antes de que pueda producirse la sinc
 
 | Field Service  | Gestión de la cadena de abastecimiento                 |
 |----------------|----------------------------------------|
-| facturas       | Encabezados de factura de servicios de cliente de Dataverse |
-| invoicedetails | Líneas de factura de servicios de cliente de Dataverse   |
+| facturas       | Encabezados de factura de servicios de cliente de CDS |
+| invoicedetails | Líneas de factura de servicios de cliente de CDS   |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
-Las facturas creadas desde un acuerdo en Field Service se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos del Microsoft Dataverse. Las actualizaciones de estas facturas se sincronizan a las facturas de Supply Chain Management si el estado contable de las facturas de servicios es **En proceso**. Una vez que las facturas de servicios se registren en Supply Chain Management y el estado contable se actualice a **Completado**, ya no se pueden sincronizar las actualizaciones desde Field Service.
+Las facturas creadas desde un acuerdo en Field Service se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos del Common Data Service. Las actualizaciones de estas facturas se sincronizan a las facturas de Supply Chain Management si el estado contable de las facturas de servicios es **En proceso**. Una vez que las facturas de servicios se registren en Supply Chain Management y el estado contable se actualice a **Completado**, ya no se pueden sincronizar las actualizaciones desde Field Service.
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
 
-La columna **Tiene líneas con origen del acuerdo** se ha agregado a la tabla **Factura**. Esta columna permite garantizar que solo las facturas que se crean a partir de un acuerdo se sincronicen. El valor es **verdadero** si la factura contiene al menos una línea de factura que origine desde un acuerdo.
+El campo **Tiene líneas con origen del acuerdo** se ha agregado a la entidad **Factura**. Este campo permite garantizar que solo las facturas que se crean a partir de un acuerdo se sincronicen. El valor es **verdadero** si la factura contiene al menos una línea de factura que origine desde un acuerdo.
 
-La columna **Tiene origen del acuerdo** se ha agregado a la tabla **Línea de factura**. Esta columna permite garantizar que solo las líneas de factura que se crean a partir de un acuerdo se sincronicen. El valor es **verdadero** si la línea de factura se origina desde un acuerdo.
+El campo **Tiene origen del acuerdo** se ha agregado a la entidad **Línea de factura**. Este campo permite garantizar que solo las líneas de facturas que se crean a partir de un acuerdo se sincronicen. El valor es **verdadero** si la línea de factura se origina desde un acuerdo.
 
-**Fecha de factura** es un campo obligatorio en Supply Chain Management. Por lo tanto, la columna debe contener un valor en Field Service antes de que se realice la sincronización. Para cumplir este requisito, se agrega la lógica siguiente:
+**Fecha de factura** es un campo obligatorio en Supply Chain Management. Por lo tanto, el campo debe contener un valor en Field Service antes de que se realice la sincronización. Para cumplir este requisito, se agrega la lógica siguiente:
 
-- Si la columna **Fecha de factura** está en blanco en la tabla **Factura** (es decir, si no tiene ningún valor), se establece en la fecha actual en que se agrega una línea de factura que se origina desde un acuerdo.
-- El usuario puede modificar la columna **Fecha de factura**. Sin embargo, cuando el usuario intenta guardar una factura que se origina desde un acuerdo, recibe un error de proceso de negocio si la columna **Fecha de factura** está en blanco en la factura.
+- Si el campo **Fecha de factura** está en blanco en la entidad **Factura** (es decir, si no tiene ningún valor), se establece en la fecha actual en que se agrega una línea de factura que se origina desde un acuerdo.
+- El usuario puede modificar el campo **Fecha de factura**. Sin embargo, cuando el usuario intenta guardar una factura que se origina desde un acuerdo, recibe un error de proceso de negocio si el campo **Fecha de factura** está en blanco en la factura.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
@@ -100,11 +103,8 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Facturas de acuerdo (Field service a Supply Chain Management): encabezados de facturas
 
-[![Asignación de plantillas en la integración de datos para encabezados de facturas.](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Asignación de la plantilla en la integración de datos](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Facturas de acuerdo (Field service a Supply Chain Management): líneas de facturas
 
-[![Asignación de plantillas en la integración de datos para líneas de facturas.](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Asignación de la plantilla en la integración de datos](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

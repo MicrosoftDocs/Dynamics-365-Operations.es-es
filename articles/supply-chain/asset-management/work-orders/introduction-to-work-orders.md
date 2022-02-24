@@ -1,26 +1,28 @@
 ---
 title: Introducción a las órdenes de trabajo
 description: Este tema proporciona una visión general de las órdenes de trabajo en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 378fc6d55deada95e94f91ed3f73f2518efbeb1f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754713"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021889"
 ---
 # <a name="introduction-to-work-orders"></a>Introducción a las órdenes de trabajo
 
@@ -51,7 +53,7 @@ Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo**
 
 La ilustración siguiente muestra un ejemplo de la página de lista **Todas las órdenes de trabajo**.
 
-![Figura 1.](media/01-work-orders.png)
+![Figura 1](media/01-work-orders.png)
 
 Para ver una lista de todas las órdenes de trabajo, seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Órdenes de trabajo activas**. 
 
@@ -69,7 +71,7 @@ Aquí hay algunas maneras que puede usar la página **Todos los pedidos de traba
 
 La ilustración siguiente muestra un ejemplo de vista detalles de **Todas las órdenes de trabajo**.
 
-![Figura 2.](media/02-work-orders.png)
+![Figura 2](media/02-work-orders.png)
 
 
 Los botones del panel de acciones se organizan en fichas. La tabla siguiente describe brevemente los botones relacionados con Administración de activos:
@@ -116,6 +118,3 @@ Los botones en el grupo **Proyecto** en la ficha **Orden de trabajo** del panel 
 >[!NOTE]
 >Para incluir las previsiones creadas en una orden de trabajo cuando ejecuta la programación maestra, use el modelo de previsión seleccionado en la página **Parámetros de administración de activos**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

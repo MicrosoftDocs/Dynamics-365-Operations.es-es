@@ -1,10 +1,12 @@
 ---
 title: L. MAT de activos
 description: Este tema describe las listas de materiales (BOM) de activos en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baaf516eb386c3cf63d72bf31800b8731121fe26
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751994"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019537"
 ---
 # <a name="asset-boms"></a>L. MAT de activos
 
@@ -81,6 +83,3 @@ Puede crear manualmente líneas de artículos para los activos.
 5. Si el artículo va a expirar, en el campo **Caducidad**, especifique una fecha final.
 6. Seleccione el artículo en el campo **Número de artículo**. El nombre se inserta automáticamente en el campo **Nombre de producto**.
 7. En el campo **Cantidad**, escriba la cantidad utilziada. El campo **Unidad** se actualiza automáticamente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

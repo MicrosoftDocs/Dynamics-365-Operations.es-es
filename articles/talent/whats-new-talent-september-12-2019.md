@@ -104,6 +104,3 @@ Esta versión ahora proporciona la capacidad de aplicar las listas de comprobaci
 Esta funcionalidad ya está disponible en los entornos de espacio aislado. Para activar esta característica, vaya a **Administración del sistema > vinculos > configuración > Parámetros del sistema > características de vista previa**. Seleccione **Formulario y navegación de trabajador mejorado**. Esto habilitará estos cambios para todos los usuarios. Puede desactivar esta opción en cualquier momento.
 
 Para obtener más información, consulte [Entrada y navegación de empleados optimizadas](./streamlined-employee-entry.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

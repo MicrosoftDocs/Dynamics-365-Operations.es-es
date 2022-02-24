@@ -1,50 +1,47 @@
 ---
-title: Sistema de ayuda (contiene video)
+title: Sistema de ayuda
 description: Este tema proporciona una visión general del sistema de ayuda para las aplicaciones de Finance and Operations.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070510"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695148"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Los usuarios de las siguientes aplicaciones pueden acceder a la ayuda contextual y a otro contenido basado en el mismo sistema de ayuda:
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 En todas esas aplicaciones, puede acceder a la ayuda específica del producto desde el panel **Ayuda**.
 
-![Panel Ayuda.](./media/help-pane-ops-help.png)
+![Panel Ayuda](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
 
-El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) es el origen predeterminado de la documentación de producto para las aplicaciones antes enumeradas. Este sitio ofrece las funciones siguientes:
+El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) es el origen predeterminado de la documentación de producto para las aplicaciones antes enumeradas. Este sitio ofrece las funciones siguientes:
 
 - **Acceso al contenido más actualizado**: el sitio nos ofrece a Microsoft una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, dispone de fácil acceso a la información técnica más reciente.
 - **Contenido escrito por expertos**: el contenido del sitio está abierto a contribuciones de miembros de la comunidad, tanto dentro como de fuera de Microsoft.
@@ -53,20 +50,9 @@ Puede encontrar contenido en docs.microsoft.com utilizando cualquier motor de b�
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
 
-Para suscribirse a una fuente RSS de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com en las aplicaciones de Finance and Operations, use el siguiente vínculo:
+Para suscribirse a una fuente Really Simple Syndication (RSS) de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com, use el siguiente vínculo:
 
-[Fuente RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> La fuente RSS devuelve una lista de los 100 temas actualizados más recientemente. La lista no se ordena por fecha.  
-
-Alternativamente, puede suscribirse a una fuente RSS por aplicación:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Cadena de suministro](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[Fuente RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>Envíenos sus comentarios
 
@@ -76,7 +62,7 @@ Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte
 
 2. Empiece a escribir sus comentarios y, continuación, seleccione **Enviar comentarios**.
 
-    ![Publicar comentario.](./media/feedback.png)
+    ![Publicar comentario](./media/feedback.png)
 
 > [!NOTE]
 > Si desea enviar comentarios sobre la documentación, debe iniciar sesión con una cuenta de GitHub. Para obtener más información, ver [Configurar y administrar el perfil de GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -89,7 +75,7 @@ Puede contribuir y hacer ediciones a la documentación. Para empezar, seleccione
 
 El vídeo [Cómo contribuir a la documentación de Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (se muestra más arriba) se incluye en el canal de Microsoft Dynamics 365 en YouTube.
 
-Para obtener más información, consulte la [Guía del colaborador de documentos](/contribute), que publica el equipo que creó el sitio docs.microsoft.com.
+Para obtener más información, consulte la [Guía del colaborador de documentos](https://docs.microsoft.com/contribute), que publica el equipo que creó el sitio docs.microsoft.com.
 
 > [!NOTE]
 > Solo aceptamos contribuciones a nuestra sección de contenido en inglés en este momento.
@@ -100,11 +86,11 @@ Una guía de tareas es una experiencia guiada, interactiva y controlada que le l
 
 Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 for Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este tema explica cómo buscar las guías de tareas correctas para su producto.
 
-![Vista de lectura de la guía de tareas.](./media/task-guide-ops.png)
+![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
 Para comenzar la experiencia interactiva y guiada, seleccione **Iniciar guía de tareas** en la parte inferior del panel **Ayuda**. Un puntero negro le mostrará a dónde ir primero. Siga las instrucciones que aparecen en la interfaz de usuario (IU) e introduzca datos como se indique.
 
-![Instrucción de pasos de la guía de tareas.](./media/task-guide-step-1-ops.png)
+![Instrucción de pasos de la guía de tareas](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Los datos que especifica cuando reproduce una guía de tareas son reales. Si está en un entorno de producción, los datos se especificarán en la empresa que está usando actualmente.
@@ -117,7 +103,7 @@ Algunos campos tienen descripciones de campo para ayudar a los usuarios a desblo
 
 Para acceder al contenido de la ayuda, seleccione el botón **Ayuda** (**?**) y luego seleccione **Ayuda**. Como alternativa, presione **Ctrl+Mayús+?**. En ambos casos, aparece el panel **Ayuda**. Desde el panel **Ayuda**, puede acceder a temas conceptuales o guías de tareas que son relevantes para el área del producto en el que se encuentra actualmente.
 
-![Panel Ayuda.](./media/help-pane-ops-help.png)
+![Panel Ayuda](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a temas de ayuda desde el panel Ayuda
 
@@ -134,13 +120,13 @@ Para poder acceder a las guías de tareas desde el panel **Ayuda**, un administr
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 Una vez que un administrador del sistema complete estos pasos, puede abrir el panel **Ayuda** y seleccionar la pestaña **Guías de tareas**. Podrá ver las guías de tareas que se aplican a la página en la que se encuentra actualmente. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda. Tras seleccionar una guía de tareas en el panel **Ayuda**, el panel **Ayuda** muestra las instrucciones detalladas y puede reproducir la guía de tareas.
 
-![Vista de lectura de la guía de tareas.](./media/task-guide-ops.png)
+![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>¿Dónde están las guías de tareas traducidas para las bibliotecas de Microsoft?
 
@@ -171,14 +157,10 @@ En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios q
 | Sitio | Descripción |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Este sitio hospeda toda la documentación del producto para Dynamics 365, o vincula a ella. |
-| [Microsoft Learn](/learn/) | Este sitio es el sitio gratuito de eLearning de Microsoft. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Este sitio es el sitio gratuito de eLearning de Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | este sitio proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y socios pueden utilizar para gestionar proyectos desde las preventas hasta la implementación y las operaciones. Resulta útil en todas las fases de una implementación. |
 | [Blog de soporte](https://aka.ms/AXSupportBlog) | este sitio proporciona sugerencias y trucos que publica el equipo de Soporte técnico. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Este sitio hospeda contenido de versiones anteriores. |
 | [Comunidad de Dynamics](https://community.dynamics.com/) | Este sitio hospeda blogs, foros y vídeos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este sitio ofrece información de evaluación y ventas. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Este sitio hospeda recursos de formación, informes descargables y documentación técnica, y es el sitio de asistencia principal para los titulares de planes de servicio. Puede ser necesario un plan de servicio para acceder a algunos recursos del sitio. |

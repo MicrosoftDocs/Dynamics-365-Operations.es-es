@@ -85,6 +85,3 @@ La información adicional sobre esta característica está disponible en [Tutori
 ## <a name="other-fixes"></a>Otras correcciones
 
 Este lanzamiento también incluye varias correcciones de errores, la adición de nuevas entidades, correcciones a las entidades existentes, y cambios de etiquetas localizados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

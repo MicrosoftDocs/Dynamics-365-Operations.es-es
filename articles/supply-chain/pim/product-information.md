@@ -2,31 +2,35 @@
 title: Información general del producto
 description: Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales.
 author: t-benebo
+manager: tfehr
 ms.date: 06/01/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063325"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527395"
 ---
 # <a name="product-information-overview"></a>Información general del producto
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales. 
 
@@ -55,7 +59,7 @@ Un producto se define principalmente con un número de producto, un nombre y una
 
 La definición de producto se puede crear en Supply Chain Management. También se puede importar de la gestión del ciclo de vida del producto (PLM), de la gestión de datos del producto (PDM) o de sistemas de gestión de la información del producto (PIM). Cuando se usa más de una instancia de Supply Chain Management, una instancia se suele usar como el maestro de los datos del producto para el resto de las instancias. Este enfoque es compatible con un gran conjunto de entidades de datos que habilitan la exportación e importación de datos de definición de productos desde una instancia a otra.
 
-Para apoyar la distribución de los datos de productos a varias instancias, Supply Chain Management le permite usar Microsoft Dataverse. Las definiciones de producto se pueden exportar de una instancia de Supply Chain Management a Microsoft Dataverse. A continuación las definiciones de producto se pueden utilizar para aprovisionar aplicaciones empresariales, como Dynamics 365 Sales, con datos de productos.
+Para apoyar la distribución de los datos de productos a varias instancias, Supply Chain Management le permite usar Common Data Service. Las definiciones de producto se pueden exportar de una instancia de Supply Chain Management a Common Data Service. A continuación las definiciones de producto se pueden utilizar para aprovisionar aplicaciones empresariales, como Dynamics 365 Sales, con datos de productos.
 
 Tenga en cuenta que, en organizaciones dinámicas y ágiles, los datos de la información de producto cambia cada día. Por lo tanto, el mantenimiento de datos de producto reales y precisos es un proceso empresarial crítico en sí mismo.
 
@@ -92,6 +96,3 @@ El espacio de trabajo consiste en un resumen de mosaicos y dos listas. La lista 
 ### <a name="manually-creating-a-new-released-product"></a>Creación manual de un nuevo producto emitido
 
 Puede crear manualmente un producto emitido en una sola ejecución, en función de los procesos empresariales de la organización y de las reglas sobre si esta función se debe usar. Esta función crea un nuevo producto y lo emite automáticamente a la entidad jurídica actual. Para crear un nuevo producto, haga clic en **Productos emitidos** en el espacio de trabajo **Mantenimiento de producto emitido** o en la página de lista **Producto emitido**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

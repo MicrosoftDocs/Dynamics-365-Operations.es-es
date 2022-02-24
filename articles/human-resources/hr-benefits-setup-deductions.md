@@ -1,33 +1,31 @@
 ---
 title: Configurar deducciones
 description: Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuánto, si corresponde, deducir del sueldo de un empleado por cada prestación.
-author: twheeloc
-ms.date: 08/24/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf7ddbfb8717c0311fab7388f346f03618a7b43d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065852"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420333"
 ---
 # <a name="configure-deductions"></a>Configurar deducciones
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuánto, si corresponde, deducir del sueldo de un empleado por cada prestación. Las deducciones son efectivas a partir de una fecha, por lo que puede mantener un registro histórico de la información de la deducción. 
 
@@ -48,12 +46,9 @@ Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuán
    | **Partida de importe** | El código de encabezado del sistema de nóminas que este importe de deducción usará para la parte de la deducción del empleado al procesar las prestaciones de la nómina. Normalmente, se utiliza cuando usa un proveedor de nómina externo. |
    | **Se puede eliminar** | Especifica si un valor exportado de Dynamics 365 for Finance and Operations puede hacer que el valor se elimine en el sistema de nómina. |
    | **Columnas emparejadas** | Especifica si se debe exportar el encabezado y el importe de deducción en columnas adyacentes emparejadas al sistema de nómina. |
-   | **Fecha de vigencia del cambio** | La fecha en la que entrará en vigor el cambio de deducción de prestaciones. En esta fecha, la deducción de prestaciones cambia y todos los planes de prestaciones asociados con esta deducción se actualizan, siempre y cuando ejecute el proceso de **Actualización de cambio de deducción**. |
+   | **Fecha de vigencia del cambio** | La fecha en la que entrará en vigor el cambio de deducción de prestaciones. En esta fecha, el sistema cambiará automáticamente la deducción de prestaciones y actualizará todos los planes de prestaciones asociados con esta deducción, siempre que ejecute el proceso de **Actualización de cambio de deducción**. |
    | **Cambio de deducción completado** | La casilla de **Cambio de deducción completado** se seleccionará automáticamente una vez que el proceso de cambio de actualización de deducción haya completado los cambios de deducción de prestaciones. |
    
 4. Para realizar un seguimiento y mantener los cambios en la configuración de la tasa de prestaciones, seleccione **Acciones** y luego seleccione **Mantener versiones**.
 
 5. Seleccione **Guardar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

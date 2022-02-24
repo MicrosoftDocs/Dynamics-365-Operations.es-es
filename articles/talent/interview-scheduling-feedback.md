@@ -102,6 +102,3 @@ Si se selecciona el campo **Heredar participantes de comentarios del equipo de c
 La actividad de la entrevista es una actividad opcional con tres componentes: **Solicitud de disponibilidad del candidato**, **Programación** y **Comentarios**. Use la actividad de la entrevista en la plantilla de trabajo si desea toda la solicitud, la programación y los comentarios del candidato en lugar de usarlos individualmente.
 
 Para incluir o limitar los candidatos que se entrevistarán con, seleccione un valor en el campo **A quién está entrevistando**. Las opciones disponibles son **Todos los candidatos**, **Candidatos externos** y **Candidatos internos**. Por ejemplo, si desea omitir candidatos internos en la primera ronda de entrevistas, establezca **A quién está entrevistando** en **Candidatos externos**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

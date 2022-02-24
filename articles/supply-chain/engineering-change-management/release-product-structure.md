@@ -2,9 +2,11 @@
 title: Liberar estructuras de producto
 description: Este tema explica cómo puede liberar estructuras de productos completas además de lanzar productos junto con sus versiones de ingeniería. De esta manera, puede asegurarse de que los datos de productos relevantes para la ingeniería se puedan reutilizar fácilmente en diferentes entidades legales.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967241"
 ---
 # <a name="release-product-structures"></a>Liberar estructuras de producto
 
@@ -75,6 +77,8 @@ Para ver un ejemplo de cómo aceptar un producto, consulte [Revisar y aceptar el
 
 No todas las empresas operativas necesitan los mismos datos de productos. En general, las empresas operativas que fabrican productos de ingeniería requieren una lista de materiales, mientras que las empresas operativas que solo venden productos de ingeniería no requieren una lista de materiales. Puede utilizar políticas de lanzamiento para establecer los parámetros que se utilizan para el lanzamiento de productos.
 
+Para los productos de ingeniería, la política de liberación se asigna en la categoría de producto de ingeniería y el campo es obligatorio. Para los productos estándar, la política se asigna al producto compartido y el campo es opcional.
+
 Para obtener más información sobre categorías de productos de ingeniería, consulte [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
 
 Durante el proceso de lanzamiento, puede influir en la configuración.
@@ -103,7 +107,6 @@ Configure los siguientes campos en la ficha desplegable **General** de una direc
 | Campo | Descripción |
 |---|---|
 | Tipo de producto | Seleccione si la política se aplica a los productos de tipo *Artículo* o *Servicio*. No puede cambiar esta configuración después de guardar el registro. |
-| Tipo de producción | Este campo aparece solo cuando ha habilitado [gestión del cambio de fórmula](manage-formula-changes.md) en su sistema. Seleccione el tipo de producción al que se aplica esta política de lanzamiento:<ul><li>**Coproducto**: utilice esta directiva de lanzamiento para administrar coproductos. Los coproductos se producen durante el proceso de fabricación y no se versionan ni son productos de ingeniería. Las directivas de lanzamiento de coproductos pueden ayudar a garantizar que configuraciones importantes, como **Grupo de dimensiones de almacenamiento** y **Grupo de dimensiones de seguimiento**, se configuran mediante una plantilla de producto publicado antes de que se publiquen en una empresa.</li><li>**Producto derivado**: utilice esta directiva de lanzamiento para administrar productos derivados. Los productos derivados se producen durante el proceso de fabricación y no se versionan ni son productos de ingeniería. Las directivas de lanzamiento de productos derivados pueden ayudar a garantizar que configuraciones importantes, como **Grupo de dimensiones de almacenamiento** y **Grupo de dimensiones de seguimiento**, se configuran mediante una plantilla de producto publicado antes de que se publiquen en una empresa.</li><li>**Ninguno**: utilice esta directiva para administrar productos estándar que no tienen versiones o productos de ingeniería, o coproductos o productos derivados.</li><li>**Elemento de planificación**: utilice esta directiva de liberación para gestionar los elementos de planificación que se producen mediante el proceso de fabricación. Los elementos de planificación utilizan fórmulas. Se parecen a los productos de fórmula, pero se utilizan para producir solo coproductos y productos derivados, no productos terminados.</li><li>**BOM**: utilice esta directiva de lanzamiento para administrar productos de ingeniería, que no usan fórmulas y, por lo general (pero no necesariamente) incluyen listas de materiales.</li><li>**Fórmula**: utilice esta directiva de liberación para gestionar los elementos terminados que se producen mediante el proceso de fabricación. Estos elementos tendrán una fórmula pero no una lista de materiales.</li></ul> |
 | Aplicar plantillas | Seleccione una de las siguientes opciones para especificar si se deben aplicar las plantillas de lanzamiento de productos y cómo se deben aplicar cuando se utiliza la política:<ul><li>**Siempre** - Siempre se debe utilizar una plantilla de producto liberado para los lanzamientos. Si selecciona esta opción, utilice la ficha desplegable **Todos los productos** para especificar la plantilla que se utiliza para cada empresa a la que se envía. Si no especifica una plantilla para cada empresa que aparece en la ficha desplegable **Todos los productos**, recibirá un error cuando intente guardar la política.</li><li>**Opcional** - Si se especifica un producto publicado por plantilla para una empresa que figura en la ficha desplegable **Todos los productos**, esa plantilla se usará cuando la publique para esa empresa. De lo contrario, no se utilizará ninguna plantilla. Si selecciona esta opción, puede guardar la política sin asignar plantillas a todas las empresas. (No se mostrará ninguna advertencia).</li><li>**Nunca** - No se utilizará ningún producto publicado por plantilla para ninguna empresa a la que le entregue, incluso si se especifica una plantilla para las empresas que figuran en la ficha desplegable **Todos los productos**. Las columnas de la plantilla no estarán disponibles.</li></ul> |
 | Activa | Utilice esta opción para ayudar a mantener sus políticas de lanzamiento. Ponlo en *Sí* para todas las políticas de lanzamiento que utilice. Ponlo en *No* para marcar una política de lanzamiento como inactiva cuando no se utiliza. Tenga en cuenta que no puede desactivar una política de lanzamiento asignada a una categoría de producto de ingeniería y solo puede eliminar las políticas de lanzamiento inactivas. |
 
@@ -156,6 +159,3 @@ Este comportamiento se aplica solo cuando un producto se selecciona directamente
 Por ejemplo, el producto X se asigna al grupo de propietarios de productos *Armarios de diseño*. El producto X también forma parte de la lista de materiales del producto Y, que se asigna al grupo de propietarios de productos *Ponentes de diseño*. Si un usuario del grupo propietario del producto *Ponentes de diseño* lanza el producto y su lista de materiales, el producto X se lanzará junto con el producto Y.
 
 Para obtener más información, consulte [Propietarios de productos](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

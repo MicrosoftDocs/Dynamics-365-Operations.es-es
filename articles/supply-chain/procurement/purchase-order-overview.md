@@ -1,28 +1,28 @@
 ---
 title: Visión general de pedidos de compra
 description: Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "93083"
-- intro-internal
+ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982313"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022240"
 ---
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
@@ -43,7 +43,7 @@ Los siguientes artículos proporcionan una visión general de las distintas fase
 -   [Crear pedidos de compra](purchase-order-creation.md)
 -   [Aprobar y confirmar pedidos de compra](purchase-order-approval-confirmation.md)
 -   [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
--   [Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de pedidos de compra
 Hay tres tipos de pedidos de compra. Al crear un pedido de compra, debe especificar el tipo. Puede configurar un tipo de pedido predeterminado para nuevos pedidos en la página **Parámetros de adquisición y abastecimiento**.
@@ -78,7 +78,8 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 -   **Confirmado**: este estado se asigna una vez se ha confirmado el pedido. Normalmente, este estado es el último estado de aprobación que se asigna a un pedido.
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Crear pedidos de compra](purchase-order-creation.md)
 
@@ -86,10 +87,7 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
-[Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

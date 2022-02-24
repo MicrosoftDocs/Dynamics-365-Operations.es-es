@@ -2,24 +2,27 @@
 title: Crear una jerarquía de navegación de canales
 description: En este tema se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749964"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415431"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Crear una jerarquía de navegación de canales
 
@@ -28,7 +31,7 @@ ms.locfileid: "6749964"
 
 En este tema se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 
 Una jerarquía de navegación de canales se usa para agrupar y organizar productos en categorías para que se puedan examinar productos en línea o en los puntos de venta (PDV).
 
@@ -49,7 +52,7 @@ Para crear una jerarquía de navegación de canales, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de nodo raíz.
 
-![Ejemplo de nodo raíz.](media/create-channel-hierarchy-1.png)
+![Ejemplo de nodo raíz](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Crear nodos de categoría de navegación
 
@@ -65,7 +68,7 @@ Para crear nodos de categoría de navegación adicionales para representar las c
 
 La siguiente imagen muestra un ejemplo de jerarquía de navegación de canales completada.
 
-![Ejemplo de jerarquía de canales.](media/create-channel-hierarchy-2.png)
+![Ejemplo de jerarquía de canales](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Agregar productos a nodos de categoría
 
@@ -77,11 +80,11 @@ Para agregar productos a nodos de categoría, siga estos pasos.
 1. En el panel de acciones, seleccione **Guardar**.
 
 > [!NOTE]
-> Agregar productos a un nodo dentro de la jerarquía de navegación de canales no es suficiente para que los productos se muestren en un canal seleccionado, los productos también se deben clasificar en un canal. Para obtener más información sobre selecciones, consute [Administración de selecciones](assortments.md).
+> Agregar productos a un nodo dentro de la jerarquía de navegación de canales no es suficiente para que los productos se muestren en un canal seleccionado. Los productos también se deben clasificar en un producto.
 
 La imagen siguiente muestra un ejemplo de nodo con productos agregados.
 
-![Productos agregados a nodos de categoría.](media/create-channel-hierarchy-3.png)
+![Productos agregados a nodos de categoría](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Agregar grupos de atributos de producto a nodos de categoría
 
@@ -97,13 +100,10 @@ Para agregar un grupo de atributos de producto a un nodo de categoría, siga est
 
 La imagen siguiente muestra un ejemplo de nodo con grupos de atributos de producto agregados.
 
-![Grupos de atributos de producto en un nodo.](media/create-channel-hierarchy-4.png)
+![Grupos de atributos de producto en un nodo](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Configurar selecciones](set-up-assortments.md)
 
 [Administrar atributos y grupos de atributos](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

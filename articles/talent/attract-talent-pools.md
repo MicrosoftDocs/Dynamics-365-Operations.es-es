@@ -149,6 +149,3 @@ Con frecuencia, hay varios buenos candidatos que no se seleccionan para un traba
 1. En la página de solicitud, seleccione **Agregar a grupo de talentos**. Se muestra una lista de grupos de talentos a los que tiene acceso.
 
 1. Seleccione o busque el grupo de talentos y, a continuación, seleccione **Agregar** para agregar el candidato a ese grupo de talentos.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

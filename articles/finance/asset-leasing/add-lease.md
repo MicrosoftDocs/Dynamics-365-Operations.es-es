@@ -2,25 +2,27 @@
 title: Agregar o copiar arrendamientos (Vista previa)
 description: Este tema describe cómo crear un nuevo arrendamiento introduciendo información para él en Arrendamiento de activos o copiando información de un arrendamiento existente.
 author: moaamer
-ms.date: 01/11/2022
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969612"
 ---
 # <a name="add-or-copy-leases-preview"></a>Agregar o copiar arrendamientos (Vista previa)
 
@@ -35,19 +37,6 @@ Siga estos pasos para crear un arrendamiento en Arrendamiento de activos.
 1. En la página **Resumen de arrendamientos**, en el panel Acciones, seleccione **Nuevo**.
 2. Introduzca la información del arrendameinto. Los campos obligatorios tienen los bordes rojos.
 
-La fecha de inicio del pago por arrendamiento no puede ser anterior a la fecha de inicio del arrendamiento. Si introduce una fecha de inicio para el pago por arrendamiento que sea anterior a la fecha de inicio del arrendamiento, recibirá un mensaje de error.
-
-Por defecto, la opción **Desglose del importe del pago** en el ficha desplegable **General** de la página **Detalles del arrendamiento** está configurada para **No** si la opción **Permitir desglose de pagos** en la página **Parámetros de arrendamiento de activos** está configurada en **Sí**. 
-
-Si la opción **Desglose del importe del pago** está configurada en **Sí**, el campo **Importe del pago** en la ficha desplegable **Líneas de multivencimientos** está bloqueado. Se fijará en el total de los importes de pago que se introduzcan posteriormente en el catálogo **Desglose del importe del pago**.
-
-Seleccione **Desglose del importe del pago** para abrir una página donde puede agregar los tipos de pago detallados. El botón **Agregar totales al importe del pago** moverá los totales al campo **Importe del pago**.
-
-> [!NOTE]
-> Si agrega un importe de pago detallado y luego selecciona la tecla **Esc**, los importes introducidos no se añadirán al campo **Importe del pago** en la ficha desplegable **Líneas de multivencimientos**. En su lugar, se almacenarán en el cuadro de diálogo **Desglose del importe del pago**. Si desea que el cuadro de diálogo muestre el importe total, seleccione la columna **Importe**, seleccione y mantenga presionado (o haga clic con el botón derecho) y luego seleccione **Totalizar esta columnatotal**. 
-
-El botón **Copiar línea** copiará el desglose de pago detallado.
-
 ## <a name="create-a-lease-schedule"></a>Crear una programación de arrendamiento
 
 Una vez que haya terminado de introducir la información para el arrendamiento, siga estos pasos para crear una programación de arrendamiento.
@@ -61,9 +50,6 @@ Una vez que haya terminado de introducir la información para el arrendamiento, 
     La página **Detalles del libro** muestra cómo se contabiliza el arrendamiento mediante los libros que le han sido asignados. Desde aquí, puede ver las programaciones de arrendamiento.
 
     La programación de pagos contiene las entradas de la pestaña **Líneas de programación de pagos** en la página **Agregar arrendamiento**. Sigue pudiendo cambiar cada importe del pago y el pago variable. El pasivo por arrendamiento se calcula en base a la programación de pagos modificada.
-
-    > [!NOTE]
-    > La fecha de inicio del pago del arrendamiento debe ser la misma o una fecha posterior a la fecha de inicio del arrendamiento. Recibirá un mensaje de error si la fecha de inicio para el pago es anterior a la fecha de inicio del arrendamiento. 
 
 4. Una vez que haya terminado de revisar la programación de pagos, seleccione **Confirmar programación**. Una vez confirmada la programación, el arrendamiento ya no está disponible para su edición.
 
@@ -102,6 +88,3 @@ Todos los movimientos de diario que se crean en Arrendamiento de activos se incl
 
 > [!NOTE]
 > El diario de arrendamiento de activos no se puede crear manualmente. Se crea automáticamente cuando se crean las programaciones de arrendamiento.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -102,6 +102,3 @@ Para evitar afectar negativamente a la interfaz de usuario (UI), no edite ni eli
 - **Otras**
 
 En su lugar, puede ampliar la enumeración **TalentSource** para agregar otros tipos de orígenes.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

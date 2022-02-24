@@ -1,28 +1,28 @@
 ---
 title: Visión general de solicitud de compra
 description: Este tema describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2174"
-- intro-internal
+ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982911"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020088"
 ---
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
@@ -49,7 +49,7 @@ Puede configurar el proceso del flujo de trabajo de la solicitud de compra para 
 
 En el diagrama siguiente se muestran los estados que se han asignado a una solicitud de compra y una línea de solicitud de compra a medida que avanzan por el proceso del flujo de trabajo.  
 
-[![Estados de encabezado y línea de solicitud de compra.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Estados de encabezado y línea de solicitud de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Relaciones de estados de encabezado y línea de solicitud de compra
 
@@ -181,7 +181,7 @@ Para crear un pedido de compra para líneas de solicitud de compra que no sean a
 
 El proceso para la consolidación de la demanda comienza cuando una solicitud de compra se aprueba en un flujo de trabajo y se han registrado las reservas de presupuesto y las pre-reservas de gastos, si se ha configurado control presupuestario para su organización. En el siguiente diagrama se muestra el flujo de proceso para la consolidación de la demanda.  
 
-[![Flujo de proceso de consolidación de demanda.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Flujo de proceso de consolidación de demanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 
@@ -192,7 +192,8 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 5.  Cree pedidos de compra para las líneas de solicitud consolidadas o para las líneas de solicitud de compra en una oportunidad de consolidación.
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Crear una solicitud para consumo](tasks/create-requisition-consumption.md)
 
@@ -200,6 +201,3 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

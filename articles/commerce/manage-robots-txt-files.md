@@ -2,30 +2,36 @@
 title: Administrar archivos robots.txt
 description: En este tema se describe cómo administrar los archivos robots.txt en Microsoft Dynamics 365 Commerce.
 author: BrianShook
+manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754401"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517461"
 ---
 # <a name="manage-robotstxt-files"></a>Administrar archivos robots.txt
+
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo administrar los archivos robots.txt en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 El estándar de exclusión de robots, o robots.txt, es un estándar que los sitios web utilizan para comunicarse con los robots web. Da instrucciones a los robots web sobre las áreas de un sitio web que no se deben visitar. Los motores de búsqueda suelen utilizar robots para indexar sitios web.
 
@@ -101,6 +107,3 @@ Para eliminar un archivo robots.txt en Commerce, siga estos pasos.
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

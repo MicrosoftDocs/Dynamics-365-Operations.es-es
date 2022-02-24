@@ -1,31 +1,37 @@
 ---
 title: Crear un cliente predeterminado
-description: Este tema describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
+description: Este tema describe cómo crear un cliente predeterminado para usar al crear un canal en Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415449"
 ---
 # <a name="create-a-default-customer"></a>Crear un cliente predeterminado
 
+
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
+Este tema describe cómo crear un cliente predeterminado para usar al crear un canal en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 Al crear un canal, deberá proporcionar un cliente predeterminado. Se puede crear fácilmente un cliente predeterminado después de crear primero el grupo de clientes y la libreta de direcciones de clientes.
 
@@ -47,7 +53,7 @@ Para crear un grupo de clientes, siga estos pasos.
 
 La siguiente imagen muestra varios grupos de clientes configurados.
 
-![Grupos de clientes.](media/customer-groups.png)
+![Grupos de clientes](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Crear una nueva libreta de direcciones de clientes.
 
@@ -63,16 +69,16 @@ Para crear una libreta de direcciones de clientes, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de libreta de direcciones.
 
-![Libreta de direcciones.](media/address-book.png)
+![Libreta de direcciones](media/address-book.png)
 
-## <a name="create-a-default-customer&quot;></a>Crear un cliente predeterminado
+## <a name="create-a-default-customer"></a>Crear un cliente predeterminado
 
 Para crear un cliente predeterminado, siga estos pasos.
 
 1. En el panel de navegación, vaya a **Módulos \> Venta minorista y comercio \> Clientes \> Todos los clientes**.
 1. En el panel de acciones, seleccione **Nueva**.
-1. En la lista desplegable **Tipo**, seleccione &quot;Persona&quot;.
-1. En la lista desplegable **Cuenta de cliente**, seleccione o ingrese un número de cuenta (por ejemplo, &quot;100001").
+1. En la lista desplegable **Tipo**, seleccione "Persona".
+1. En la lista desplegable **Cuenta de cliente**, seleccione o ingrese un número de cuenta (por ejemplo, "100001").
 1. En la lista desplegable **Nombre de pila**, seleccione o escriba un nombre (por ejemplo, "Predeterminado").
 1. En la lista desplegable **Segundo nombre**, seleccione o escriba un nombre (por ejemplo, "Venta minorista").
 1. En la lista desplegable **Apellido**, seleccione o escriba un nombre (por ejemplo, "Cliente").
@@ -86,11 +92,11 @@ Para crear un cliente predeterminado, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de creación de cliente.
 
-![Creación de un cliente predeterminado.](media/default-customer-creation.png)
+![Creación de un cliente predeterminado](media/default-customer-creation.png)
 
 La siguiente imagen muestra una configuración predeterminada del cliente.
 
-![Ejemplo de configuración de cliente.](media/default-customer-configuration1.png)
+![Ejemplo de configuración de cliente](media/default-customer-configuration1.png)
 
 La mayoría de los valores predeterminados en la pantalla de desviaciones del cliente pueden permanecer, pero se deben cambiar dos valores.
 
@@ -100,13 +106,10 @@ La mayoría de los valores predeterminados en la pantalla de desviaciones del cl
 
 En la imagen siguiente se muestra un ejemplo de configuración de cliente.
 
-![Ejemplo de configuración de cliente.](media/default-customer-configuration2.png)
+![Ejemplo de configuración de cliente](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general de canales](channels-overview.md)
+[Resumen de canales](channels-overview.md)
 
-[Requisitos previos de configuración del canal](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Requisitos previos de configuración de canales](channels-prerequisites.md)

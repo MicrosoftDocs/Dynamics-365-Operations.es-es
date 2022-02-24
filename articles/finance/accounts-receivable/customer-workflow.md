@@ -1,24 +1,27 @@
 ---
 title: Flujo de trabajo de cliente
 description: Este tema proporciona información sobre el flujo de trabajo de cliente. Cambia campos específicos para un cliente y, a continuación, envía esos cambios para su aprobación mediante el flujo de trabajo antes de que se añadan al cliente.
-author: abruer
+author: mikefalkner
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753835"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4459906"
 ---
 # <a name="customer-workflow"></a>Flujo de trabajo de cliente
 
@@ -58,6 +61,3 @@ Una vez que tenga al menos un cambio propuesto, aparecen dos menús adicionales 
     El estado en la página se cambia a **Cambios pendientes de aprobación**.
 
 El flujo de trabajo sigue el proceso de flujo de trabajo estándar en la aplicación. El aprobador es dirigido a la página **Cliente**, donde se pueden revisar los cambios en la página **Cambios propuestos** y, a continuación, seleccionar **Flujo de trabajo \> Aprobar** para aprobar el flujo de trabajo. Una vez que se completan todas las aprobaciones, los campos se actualizan con los valores que propuso.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

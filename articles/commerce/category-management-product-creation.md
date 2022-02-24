@@ -2,13 +2,16 @@
 title: Administrar las categorías de productos y los productos
 description: En este tema se describe cómo los encargados de comercialización pueden usar categorías de productos para administrar relaciones entre la jerarquía de productos de Commerce y los detalles del producto liberado.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResProductCategory, EcoResCategoryAddProduct, EcoResAttributeValue
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743993"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415502"
 ---
 # <a name="manage-product-categories-and-products"></a>Administrar las categorías de productos y los productos
 
@@ -35,17 +38,17 @@ Observe la estructura ampliada de la página **Jerarquía de productos de Commer
 
 En la estructura mejorada de categorías de productos, las propiedades del producto se separan de forma lógica en función de su aplicabilidad en un grupo, para así reflejar la estructura del formulario de detalles del producto liberado.
 
-![Campos agrupados en función del ámbito de aplicabilidad de las propiedades.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Campos agrupados en función del ámbito de aplicabilidad de las propiedades](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 Puede alternar entre gestionar las propiedades de entidades jurídicas específicas de todas las entidades jurídicas o gestionarlas según una entidad jurídica específica.
 
 Para gestionar propiedades en todas las entidades jurídicas, seleccione **Ver todas las entidades jurídicas** (o **Editar todas las entidades jurídicas**).
 
-![Ver o editar todas las entidades jurídicas.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Ver o editar todas las entidades jurídicas](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Para gestionar las propiedades de una entidad jurídica específica, seleccione **Ver una entidad jurídica específica** (o **Editar una entidad jurídica específica**).
 
-![Ver o editar una entidad jurídica específica.](media/ToggleToEditForAllLegalEntities.PNG)
+![Ver o editar una entidad jurídica específica](media/ToggleToEditForAllLegalEntities.PNG)
 
 Además, ahora en la estructura mejorada de categorías de productos un responsable de comercialización podrá definir valores predeterminados para un conjunto adicional de propiedades de producto en el nivel de categoría individual. Después, cuando se cran los productos, heredan los valores predeterminados de sus propiedades de producto, en función de la asociación de esas propiedades con una categoría individual de la jerarquía del producto. Estas propiedades de producto heredadas también se pueden modificar para cada producto y así poder cumplir con los requisitos empresariales individuales.
 
@@ -53,7 +56,4 @@ Además, ahora en la estructura mejorada de categorías de productos un responsa
 
 Puede usar la nueva estructura mejorada para las propiedades del producto para seleccionar las propiedades de producto actualizadas que deben incluirse en los productos asociados. En la página **Jerarquía de productos de Commerce**, en el panel de acciones, seleccione **Categoría** y, a continuación, seleccione **Actualizar productos** para abrir el cuadro de diálogo **Actualizar productos**.
 
-![Cuadro de diálogo Actualizar productos.](media/NewUpdateProductsEnhancedView.PNG)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Cuadro de diálogo Actualizar productos](media/NewUpdateProductsEnhancedView.PNG)

@@ -1,33 +1,31 @@
 ---
 title: Proporcionar programa de prestaciones de empleado
-description: En este tema se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación.
-author: twheeloc
-ms.date: 08/23/2021
+description: Este artículo muestra cómo crear elementos de la prestación que se usarán al crear una nueva prestación.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066077"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420442"
 ---
 # <a name="deliver-employee-benefits-program"></a>Proporcionar programa de prestaciones de empleado
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-En este tema se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
+Este artículo muestra cómo crear elementos de la prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
 
 
 ## <a name="create-benefit-elements"></a>Crear elementos de prestación
@@ -70,6 +68,3 @@ En este tema se explica cómo crear elementos de prestación que se usarán al c
 16. En el campo Base, seleccione una opción.
 17. En el campo Importe o índice, escriba un número.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

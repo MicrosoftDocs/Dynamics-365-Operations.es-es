@@ -2,25 +2,28 @@
 title: Página principal de Supply Chain Management
 description: En esta página se proporciona una lista de los temas de ayuda y de otros recursos para las características de Supply Chain Management.
 author: kamaybac
-ms.date: 09/15/2021
+manager: tfehr
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9255640240ae07c3857c0b6f55a7ee27ba3bf85b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487873"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459901"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
@@ -62,6 +65,7 @@ En este breve vídeo se resumen las nuevas características de administración d
 
 En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (diciembre de 2017).
 
+- [Integración de cliente potencial a cliente](https://youtu.be/AVV9x5x-XCg) 
 - [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Usar plantilla de almacén para copiar configuración](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -76,16 +80,17 @@ En estos breves vídeos se resumen las nuevas características de administració
 Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad de administración de la cadena de suministro de versiones anteriores de Finance and Operations. Esta funcionalidad ahora forma parte de Dynamics 365 Supply Chain Management; se siguen aplicando los mismos conceptos y los procedimientos son similares en la versión actual.
 
 - **Gestión de costes**:
-  - [Información general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+  - [Visión general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 - **Planificación maestra**:
   - [Extender la funcionalidad de previsión de la demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento](https://youtu.be/7v8BPmEs9Dg)
-  - [Ajuste de rendimiento de MRP](https://youtu.be/RLXybx20B5o)
+  - [Necesito ayuda: quiero que MRP funcione más rápido](https://youtu.be/RLXybx20B5o)
 - **Gestión de información de productos**:
   - [Configurador del producto en Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
-- **Gestión de almacenes:**
-  - [Sacar el máximo partido al sistema de gestión de almacenes](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Dynamics AX 2012 R3: Gestión avanzada de almacenes, Vida cotidiana de la fabricación en procesos](https://www.youtube.com/embed/QUxXUrN-7n4)
+- **Gestión de almacenes**:
+  - [Saque el máximo partido al sistema de gestión de almacenes](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [Etiquetas en la nueva gestión de almacenes de Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+  - [Dynamics AX 2012 R3: Gestión avanzada de almacenes - Vida cotidiana de la fabricación en procesos](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Vídeos de control de producción**:
   - [Subcontratación de operaciones y actividades en la fabricación](https://youtu.be/y1jrd3A_k70)
 - **Vídeos de administración de transporte**:
@@ -93,16 +98,13 @@ Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad d
 
 ## <a name="blogs"></a>Blogs
 
-Hay muchos temas sobre la administración de la cadena de suministro y la fabricación en el [blog del equipo de I+D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) y en el [blog del equipo de I+D de la Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La mayoría de ellos se crearon para la versión anterior, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares.
+Hay muchos temas sobre la administración de la cadena de suministro y la fabricación en el [blog del equipo de I+D de Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg/) y en el [blog del equipo de I+D de la Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La mayoría de ellos se crearon para la versión anterior, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares.
 
 ## <a name="white-papers"></a>Notas del producto
 
-- [Lean manufacturing: programación de trabajos kanban y CTP (capaz de comprometer)](/dynamics/s-e/)
+- [Lean manufacturing: programación de trabajos kanban y CTP (capaz de comprometer)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
 - [Cálculo de L. MAT con una hoja de gestión de costes](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para cursos y formación en línea, consulte [Dynamics 365 Supply Chain Management en Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Para cursos y formación en línea, consulte [Dynamics 365 Supply Chain Management en Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).

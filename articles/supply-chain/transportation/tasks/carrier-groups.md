@@ -2,28 +2,29 @@
 title: Grupos de transportistas
 description: Este tema describe cómo configurar datos para grupos de transportistas.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 10a30d8fae52a25b7d65b5a9cc991677df33a2a7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574890"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646434"
 ---
 # <a name="carrier-groups"></a>Grupos de transportistas
-
-[!include [banner](../../includes/banner.md)]
 
 Un grupo de transportistas es un conjunto de transportistas y servicios de transportistas. Cada grupo de transportistas especifica la secuencia preferida para los transportistas de envío y los servicios de transportista que le pertenecen.
 
@@ -37,6 +38,3 @@ Cuando existen varios transportistas de envío y servicios de transportista para
 1. En el campo **Nombre**, especifique un nombre descriptivo para el grupo.
 1. En la ficha desplegable **Detalles**, agregue una fila y seleccione un transportista de envío y un servicio de transportista para ello. Repita este paso hasta que haya agregado tantos operadores como necesite para el grupo.
 1. Cierre la página.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

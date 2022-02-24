@@ -1,10 +1,12 @@
 ---
 title: Crear y configurar garantías ampliadas
-description: En este tema se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan las garantías ampliadas y se describe cómo crearlos y configurarlos en Microsoft Dynamics 365 Commerce.
 author: sijoshi
+manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,18 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745389"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965130"
 ---
-# <a name="create-and-configure-extended-warranties"></a>Crear y configurar garantías extendidas
+# <a name="create-and-configure-extended-warranties"></a>Crear y configurar garantías ampliadas
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
+En este tema se tratan las garantías ampliadas y se describe cómo crearlos y configurarlos en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Información general
 
@@ -81,7 +83,7 @@ Para crear un artículo de garantía en Commerce, siga estos pasos.
 
     Por ejemplo, para una garantía de dos años, configure el campo **Unidad de tiempo** en **Años** y el campo **Duración** en **2**. Alternativamente, configure el campo **Unidad de tiempo** en **Meses** y el campo **Duración** en **24**, como se muestra en la siguiente ilustración.
 
-    ![Página de detalles del producto para un artículo de garantía.](./media/ew-time-properties.png)
+    ![Página de detalles del producto para un artículo de garantía](./media/ew-time-properties.png)
 
 1. Seleccione **Guardar** para guardar el artículo de garantía.
 1. Entregue el producto de garantía a la empresa para que pueda venderse. Para obtener más información, consulte [Configurar productos minoristas](set-up-retail-products.md).
@@ -94,7 +96,7 @@ Para crear un artículo de garantía en Commerce, siga estos pasos.
 
     Por ejemplo, la siguiente ilustración muestra el campo **Rango de precio base** establecido en **Precio base**, el campo **Límite inferior** establecido en 500 $, y el campo **Limite superior** establecido en 1000 $.
     
-    ![Página de detalles del producto publicado para un artículo de garantía.](./media/ew-release-product-details.png)
+    ![Página de detalles del producto publicado para un artículo de garantía](./media/ew-release-product-details.png)
 
 1. Seleccione el artículo de garantía al canal donde se venderá. Para obtener más información, consulte [Configurar selecciones](set-up-assortments.md).
 
@@ -161,11 +163,11 @@ Dos operaciones de PDV permiten a los asociados de ventas vender artículos de g
 
 La siguiente ilustración muestra un ejemplo de una página de terminal del PDV con un aviso para agregar un artículo de garantía para la compra actual de un artículo sujeto a garantía.
 
-![Ejemplo de un aviso para agregar un artículo de garantía para la compra actual.](./media/ew-sell-warranty.png)
+![Ejemplo de un aviso para agregar un artículo de garantía para la compra actual](./media/ew-sell-warranty.png)
 
 La siguiente ilustración muestra un ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía que se vendió anteriormente.
 
-![Ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía vendido anteriormente.](./media/ew-add-warranty-existing.png)
+![Ejemplo de la característica para agregar un artículo de garantía para un artículo sujeto a garantía vendido anteriormente](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Procesar transacciones de garantía
 
@@ -236,6 +238,3 @@ Una garantía es un servicio que se proporciona para un producto específico y �
 [Configurar selecciones](set-up-assortments.md)
 
 [Visión general de las secuencias numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

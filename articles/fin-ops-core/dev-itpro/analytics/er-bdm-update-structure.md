@@ -2,9 +2,11 @@
 title: Actualizar la estructura de una plantilla de documento empresarial
 description: Este tema explica cómo actualizar la estructura de una plantilla de documento empresarial mediante la función de administración de documentos empresariales.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775295"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728098"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Actualizar la estructura de una plantilla de documento empresarial 
 
@@ -58,7 +60,7 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 
     La nueva plantilla se abre para su edición en el control incrustado de Excel Online en la página del editor de plantillas.
 
-[![Uso del espacio de trabajo de administración de documentos empresariales para comenzar a editar una plantilla de documento empresarial.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Uso del espacio de trabajo de administración de documentos empresariales para comenzar a editar una plantilla de documento empresarial](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Revise la estructura actual de la plantilla editable
 
@@ -68,7 +70,7 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 4. En el panel **Estructura de la plantilla**, expanda **Informe \> Factura \> rptHeader \> rptHeaderPart1**.
 5. Observe que, en la estructura de la plantilla en Finance, el elemento **rptHeaderCompLogo** se presenta como un elemento secundario de **Informe \> Factura \> rptHeader \> rptHeaderPart1**.
 
-[![Usar el espacio de trabajo de administración de documentos empresariales para revisar la estructura actual de una plantilla editable.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Usar el espacio de trabajo de administración de documentos empresariales para revisar la estructura actual de una plantilla editable](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Actualizar la estructura de una plantilla de documento empresarial eliminando una imagen
 
@@ -85,7 +87,7 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 4. En el panel **Estructura de la plantilla**, expanda **Informe \> Factura \> rptHeader \> rptHeaderPart1**.
 5. Fíjese en que el elemento **rptHeaderCompLogo** ya no se incluye en la estructura de la plantilla en Finance.
 
-[![Uso del espacio de trabajo de administración de documentos empresariales para eliminar una imagen de una plantilla de documento empresarial.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Uso del espacio de trabajo de administración de documentos empresariales para eliminar una imagen de una plantilla de documento empresarial](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Actualizar la estructura de una plantilla de documento empresarial añadiendo una imagen
 
@@ -97,13 +99,10 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 6. En el panel **Estructura de la plantilla**, expanda **Informe \> Factura \> rptHeader \> rptHeaderPart1**.
 7. Fíjese en que la nueva imagen ya se incluye como un elemento en la estructura de la plantilla en Finance.
 
-[![Uso del espacio de trabajo de administración de documentos empresariales para agregar una imagen a una plantilla de documento empresarial.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Uso del espacio de trabajo de administración de documentos empresariales para agregar una imagen a una plantilla de documento empresarial](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Vínculos relacionados
 
-[Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
+[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
-[Información general de la gestión de documentos empresariales](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Visión general de la gestión de documentos empresariales](er-business-document-management.md)

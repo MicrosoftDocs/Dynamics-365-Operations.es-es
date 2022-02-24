@@ -2,23 +2,26 @@
 title: Creación avanzada de carga durante una oleada
 description: Este tema proporciona información sobre la construcción avanzada de carga de oleadas, que asigna automáticamente envíos a oleadas existentes durante la ejecución de oleadas. Por lo tanto, puede crear cargas significativas que representen camiones sin tener que usar el banco de trabajo de planificación de carga.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574746"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654207"
 ---
 # <a name="advanced-load-building-during-wave"></a>Creación avanzada de carga durante una oleada
 
@@ -247,6 +250,3 @@ Este escenario muestra cómo la configuración que se describió anteriormente e
 1. En el pedido de ventas que acaba de crear, en la ficha desplegable **Líneas de pedido de venta**, seleccione **Agregar línea** para añadir otra línea.
 1. En la nueva línea, establezca el campo **Número de artículo** a *M9200* y el campo **Cantidad** a *1*.
 1. Repita las líneas 6 a 9 para reservar la línea y liberarla en el almacén. Como antes, el sistema crea un envío **nuevo** para la línea que agregó. Sin embargo, porque el artículo es del grupo de artículos **Audio de automóvil**, **no pasa las restricciones que configuró para el grupo mixto de carga**. Por lo tanto, es **agregado a una nueva carga**. Si no hubiera especificado un grupo mixto de carga en la plantilla de construcción de carga, este envío se habría agregado a la primera carga.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

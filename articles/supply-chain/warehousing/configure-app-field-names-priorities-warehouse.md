@@ -1,10 +1,12 @@
 ---
-title: Configurar campos para la aplicación móvil Gestión de almacenes
-description: Este tema describe cómo definir y configurar nombres de campo y prioridades de los campos mostrados en la aplicación móvil Warehouse Management.
-author: Mirzaab
+title: Configuración de nombres de campo de aplicación en la aplicación de almacén
+description: Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902305"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963444"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para la aplicación móvil Gestión de almacenes
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo definir y configurar nombres de campo y prioridades de los campos mostrados en la aplicación móvil Warehouse Management.
+Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Este tema se aplica a las funciones de gestión de almacenes. No se aplica a las características de gestión del inventario. La aplicación móvil Warehouse Management es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación móvil Warehouse Management y cómo se usan.
+> Este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de la aplicación de almacén](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nombres de campo de la aplicación de almacén
 
@@ -137,9 +139,7 @@ En función de la configuración de la prioridad del campo de la aplicación de 
 
 Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog [Presentando Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
-[Instalar y conectar la aplicación móvil Gestión de almacenes](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Visión general sobre cómo instalar y configurar la aplicación almacén](install-configure-warehousing-app.md)

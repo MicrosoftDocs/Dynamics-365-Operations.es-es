@@ -1,10 +1,12 @@
 ---
 title: Calcular la carga de capacidad en órdenes de trabajo programadas
 description: En este tema se explica cómo calcular la carga de capacidad en órdenes de pedido programadas en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff244e51151a1cc0485cae25873566fa97253171516d48449fed75f070146431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b7e4a20ed56b1eac29d16d527693d6e455cdc37
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766227"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021663"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Calcular la carga de capacidad en órdenes de trabajo programadas
 
@@ -48,13 +50,10 @@ Puede calcular la carga de capacidad en órdenes de trabajo programadas para obt
 
 La ilustración siguiente muestra el resultado de un cálculo que cubre tres semanas para el tipo de carga **Reservada**.
 
-![Figura 1.](media/08-work-order-scheduling.png)
+![Figura 1](media/08-work-order-scheduling.png)
 
 [!NOTE]
 Si selecciona los tipos de carga **Capacidad** o **Restante** para el cálculo, aparecerá el mismo resultado si no se han realizado reservas para los recursos en el período seleccionado.
 
 Para obtener información sobre cómo calcular la carga de capacidad en las líneas de la programación de mantenimiento y las órdenes de trabajo no programadas, consulte [Calcular la carga de capacidad](../capacity-planning/calculate-capacity-load.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,49 +1,37 @@
 ---
 title: Suministro inmediato de información del IVA, SII
-description: Este tema describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
+description: Este tema describe cómo configurar y usar Microsoft Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: liza-golub
-ms.date: 11/09/2021
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d3455062584bdd18abedebe29ca9ff10f9327441
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 42cdb3c5d4d44764d2129ad747fed20dd7343268
+ms.sourcegitcommit: 0297fd1f594c59a39014a592231ce5999b173848
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051463"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "4659835"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
 [!include [banner](../includes/banner.md)]
 
-De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Estatal de Administración Tributaria (AEAT) y el contribuyente. En este tema, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
+De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Tributaria Española (AEAT) y el contribuyente. En el resto de este tema, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
 
 Para obtener más información sobre el sistema SII de España, consulte el [sitio web oficial del Suministro inmediato de información del IVA (SII)](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio/La_Agencia_Tributaria/Campanas/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_.shtml).
 
 ## <a name="overview"></a>Información general
 
-Microsoft Dynamics 365 Finance soporta el ciclo completo de tramitación, incluida la generación de formato y envío de los siguientes informes al sistema SII de España:
-
-- 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
-- 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**
-- 'Libro de registro de determinadas operaciones intracomunitarias': **Libro de registro de determinadas operaciones intracomunitarias**
-- 'Cobros sobre facturas registradas en el Libro de registro de Facturas Expedidas': **Pagos por facturas registradas en el libro registro de facturas emitidas**
-- 'Pagos para facturas registradas en el Libro de registro de Facturas Recibidas': **Pagos por facturas registradas en el libro registro de facturas recibidas**
-- 'Cobros en Metálico': **Pagos en efectivo**
-
-A partir de la versión 10.0.22 de Finance, si utiliza el servicio [Cálculo de impuestos](global-tax-calcuation-service-overview.md), y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede [Informar los siguientes informes al sistema SII de España de una entidad jurídica que tenga una dirección principal fuera de España](#multiple-vat):
-
-- 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
-- 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**
-
-Este tema describe cómo configurar y usar Finance para interoperar con el sistema SII de España. Incluye información sobre cómo completar las siguientes tareas:
+Este tema describe cómo configurar y usar Microsoft Dynamics 365 Finance para interoperar con el sistema SII de España. Incluye información sobre cómo completar las siguientes tareas:
 
 -   Importar configuraciones de informes electrónicos (ER).
 -   Configurar la funcionalidad de mensajería electrónica (EM).
@@ -78,31 +66,31 @@ Para obtener más información sobre cómo descargar configuraciones de ER desde
 
 ## <a name="import-a-package-of-data-entities-that-includes-a-predefined-em-setup"></a>Importar un paquete de entidades de datos que incluya una configuración EM predefinida
 
-La funcionalidad de mensajes electrónicos se proporciona para mantener los diferentes procesos que se utilizan en los informes electrónicos para diferentes tipos de documentos. Para obtener más información sobre los mensajes electrónicas, consulte [Mensajes electrónicos](../general-ledger/electronic-messaging.md).
+La funcionalidad de mensajes electrónicos se proporciona para mantener los diferentes procesos que se utilizan en los informes electrónicos para diferentes tipos de documentos. Para obtener más información sobre los mensajes electrónicas, consulte [Mensajes electrónicos](https://docs.microsoft.com/dynamics365/finance/general-ledger/electronic-messaging).
 
 El proceso de configuración de la funcionalidad de mensajes electrónicos para interoperar con el sistema SII tiene muchos pasos. Debido a que los nombres de algunas entidades predefinidas se usan en las configuraciones de ER, es importante que use un conjunto de valores predefinidos que se entregan en un paquete de entidades de datos para las tablas relacionadas, y que importe las configuraciones de ER antes de importar las entidades de datos.
 
 1.  En [Microsoft Dynamics Lifecycle Service (LCS)](https://lcs.dynamics.com/v2), vaya a la Biblioteca de activos compartidos y seleccione el tipo de activo **Paquete de datos**.
 2.  En la lista de archivos de paquetes de datos, busque y descargue **ES SII setup.zip**.
 
-![Biblioteca de activos compartidos de LCS.](media/emea-esp-sii-data-package-file.png)
+![Biblioteca de activos compartidos de LCS](media/emea-esp-sii-data-package-file.png)
 
 3.  Después de descargar el archivo, abra Finance y seleccione la compañía desde la cual interoperará con el sistema SII.
 4.  Vaya a **Espacios de trabajo \> Administración de datos**.
-5.  En el espacio de trabajo **Administración de datos**, vaya a **Parámetros del marco de trabajo \> Configuración de entidad** y seleccione **Actualizar lista de entidades**. Espere la confirmación de que la actualización se ha completado. Para obtener más información sobre cómo actualizar la lista de entidades, vea [Actualización de la lista de entidades](../../fin-ops-core/dev-itpro/data-entities/data-entities.md#entity-list-refresh).
-6.  Confirme que los datos de origen y destino estén asignados correctamente. Para obtener más información, consulte [Confirmar que los datos de origen y destino estén asignados correctamente](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md#validate-that-the-source-data-and-target-data-are-mapped-correctly).
+5.  En el espacio de trabajo **Administración de datos**, vaya a **Parámetros del marco de trabajo \> Configuración de entidad** y seleccione **Actualizar lista de entidades**. Espere la confirmación de que la actualización se ha completado. Para obtener más información sobre cómo actualizar la lista de entidades, vea [Actualización de la lista de entidades](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-entities#entity-list-refresh).
+6.  Confirme que los datos de origen y destino estén asignados correctamente. Para obtener más información, consulte [Confirmar que los datos de origen y destino estén asignados correctamente](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-import-export-job#validate-that-the-source-data-and-target-data-are-mapped-correctly).
 7.  Antes de que las entidades de datos se usen por primera vez para importar los datos del paquete, sincronice el mapeo de los datos de origen y de destino. En la lista del paquete, seleccione una entidad de datos y luego, en el Panel de acciones, seleccione **Modificar la asignación objetivo**.
 8.  Sobre la cuadrícula del paquete, seleccione **Generar asignación** para crear una asignación desde cero y luego guardar la asignación.
 9.  Repita los pasos 7 y 8 para cada entidad de datos en el paquete antes de comenzar la importación.
 
-Para obtener más información sobre la administración de datos, vea [Descripción general de la administración de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Para obtener más información sobre la administración de datos, vea [Descripción general de la administración de datos](https://docs.microsoft.com/dynamics365/dev-itpro/data-entities/data-entities-data-packages).
 
 Importe los datos desde el archivo **ES SII setup.zip** en la empresa seleccionada. En el espacio de trabajo **Administración de datos**, seleccione **Importar**, especifique un **Nombre de grupo**, seleccione **Agregar archivo** y luego, en el cuadro de diálogo desplegable, establezca el campo **Formato de datos de origen** en **Paquete** y establezca el campo **Formato de datos de origen** en **Paquete**.
 
 10.  Seleccione **Cargar y agregar**, seleccione el archivo **ES SII setup.zip** en su ordenador y cárguelo.
 11.  Después de cargar las entidades de datos, en el Panel de acciones, seleccione **Importar**.
 
-![Página de configuración de SII (ES).](media/emea-esp-sii-data-entities-upload.png)
+![Página de configuración de SII (ES)](media/emea-esp-sii-data-entities-upload.png)
 
 Recibirá una notificación en **Centro de acción**, o puede actualizar manualmente la página para ver el progreso de la importación de datos. Cuando se completa la importación, la página **Resumen de ejecución** muestra los resultados.
 
@@ -157,16 +145,17 @@ Las direcciones de Internet están sujetas a cambios por la AEAT. Por lo tanto, 
 
 6.  En la pestaña **General**, en el campo **Certificado de Key Vault** seleccione el certificado de seguridad que configuró para todos los servicios Web que utilizará para la interactuación con el sistema SII: **Factura de clie.**, **Factura de prov.**, **Intracomunitario**, **Pago de clie.**, **Pago de prov.** y **CollectionInCash**.
 
-![Página de configuración de los servicios Web.](media/emea-esp-sii-setup-key-vault-certificate.png)
+![Página de configuración de los servicios Web](media/emea-esp-sii-setup-key-vault-certificate.png)
 
 ## <a name="set-up-em-parameters-for-the-sii-system"></a>Configurar los parámetros de EM para el sistema SII
 
 Después de importar las entidades de datos a la base de datos, complete las siguientes tareas. Cuando los haya completado, la funcionalidad de la mensajería electrónica estará lista para usar.
 
 1.  Configure los parámetros de clase ejecutables.
-2.  Configurar los campos adicionales y reglas definidas automáticamente.
+2.  Configure los campos adicionales y reglas definidas automáticamente.
 3.  Configure secuencias numéricas para mensajes electrónicos.
-4.  Configure los roles de seguridad para el procesamiento de mensajes electrónicos.
+4.  Configure la configuración por lotes para el procesamiento automatizado de la interoperación con el sistema SII.
+5.  Configure los roles de seguridad para el procesamiento de mensajes electrónicos.
 
 ## <a name="set-up-executable-class-parameters"></a>Configurar los parámetros de clase ejecutables
 
@@ -174,53 +163,47 @@ Se incluyen tres clases ejecutables en los dos tipos de procesamiento de mensaje
 
 | **Nombre de la clase ejecutable**    | **Descripción**                                                                                                                                             |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SIIGenerateItems             | Esta clase completa elementos de EM de los siguientes tipos: <ul><li>Factura de cliente (FacturasСliente)</li><li>Factura de proveedor (FacturasProveedores)</li><li>Pago de cliente (PagosCliente)</li><li>Pago de proveedor (PagosProveedores)</li><li>Operaciones intracomunitarias (OperacionesIntracomunitarias)</li></ul><p>Para elementos EM rellenados, esta clase evalúa los valores para los siguientes campos adicionales:</p><ul><li>Tipo de factura (TipoFactura)</li><li>Referencia de resumen (NumSerieFactura)</li><li>Código de esquema especial (ClaveRegimenEspecialOTrascendencia)</li><li>Id. de transacción intracomunitaria (TipoOperacion)</li></ul> |
-| EvaluaciónAtributosParteSII | Para elementos EM rellenados (en estado **Creado**), esta clase evalúa los valores para los siguientes campos adicionales: <ul><li>Número de registro (ID)</li><li>Tipo Id. de impuesto (TipoID)</li><li>Código ISO de la parte (CodigoPaís)</li></ul>                                        |
+| SIIGenerateItems             | Esta clase completa elementos de EM de los siguientes tipos:                                                                                                        |
+| EvaluaciónAtributosParteSII | Para elementos EM rellenados (en estado **Creado**), esta clase evalúa los valores para los siguientes campos adicionales:                                         |
 | MonitorCollectionInCash      | Esta clase supervisa los cambios en los datos de los registros del informe **Cobro en efectivo** y luego actualiza el estado de los elementos de EM de la manera adecuada. |
 
-### <a name="set-up-the-siigenerateitems-executable-class"></a><a id="siigenerateitems"></a>Configurar la clase ejecutable SIIGenerateItems
+-   Factura de cliente (FacturasСliente)
+-   Factura de proveedor (FacturasProveedores)
+-   Pago de cliente (PagosCliente)
+-   Pago de proveedor (PagosProveedores)
+-   Operaciones intracomunitarias (OperacionesIntracomunitarias)
 
-1.  Para configurar los parámetros de la clase ejecutable **SIIGenerateItems**, vaya a **Impuesto** > **Configuración** > **Mensajería electrónica** > **Configuración de clase ejecutable**.
+Para elementos EM rellenados, esta clase evalúa los valores para los siguientes campos adicionales:
+
+-   Tipo de factura (TipoFactura)
+-   Referencia de resumen (NumSerieFactura)
+-   Código de esquema especial (ClaveRegimenEspecialOTrascendencia)
+-   Id. de transacción intracomunitaria (TipoOperacion)
+-   Número de registro (ID)
+-   Tipo Id. de impuesto (TipoID)
+-   Código ISO de la parte (CodigoPaís)
+
+### <a name="set-up-the-siigenerateitems-executable-class"></a>Configurar la clase ejecutable SIIGenerateItems
+
+1.  Para configurar los parámetros de la clase ejecutable **SIIGenerateItems**, vaya a **Impuesto \> Configuración \> Mensajería electrónica \> Configuración de clase ejecutable**.
 2.  En la página **Configuración de clase ejecutable**, seleccione la clase ejecutable **SIIGenerateItems** que está asociada con el nombre de clase ejecutable **EMCreateItemsController**.
-3.  En el Panel de acciones, seleccione **Parámetros** y, luego, en el cuadro de diálogo **Agregar nuevos elementos de mensaje electrónicos**, establezca los siguientes valores para los parámetros de la clase ejecutable.
+3.  En el Panel de acciones, seleccione **Parámetros** y, luego, en el cuadro de diálogo que aparece, establezca los siguientes valores para los parámetros de la clase ejecutable.
 
-   En el grupo **Campos Adicionales**:
+| **Nombre del parámetro**            | **Valor**                          |
+|-------------------------------|------------------------------------|
+| Tipo de factura                  | TipoFactura                        |
+| Referencia de resumen             | NumSerieFactura                    |
+| Código especial del esquema           | ClaveRegimenEspecialOTrascendencia |
+| El Id. de la operación intracomunitaria | TipoOperacion                      |
+| Facturas del cliente             | FacturasСliente                    |
+| Pagos del cliente             | PagosCliente                       |
+| Facturas de proveedores               | FacturasProveedores                |
+| Pagos a proveedores               | PagosProveedores                   |
+| Operaciones intracomunitarias     | Operaciones intracomunitarias       |
 
-   | **Nombre del parámetro**            | **Valor**                          |
-   |-------------------------------|------------------------------------|
-   | Tipo de factura                  | TipoFactura                        |
-   | Referencia de resumen             | NumSerieFactura                    |
-   | Código especial del esquema           | ClaveRegimenEspecialOTrascendencia |
-   | El Id. de la operación intracomunitaria | TipoOperacion                      |
+4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-   En el grupo **Tipos de elementos de mensaje**:
-
-   | **Nombre del parámetro**            | **Valor**                          |
-   |-------------------------------|------------------------------------|
-   | Facturas del cliente             | FacturasСliente                    |
-   | Pagos del cliente             | PagosCliente                       |
-   | Facturas de proveedores               | FacturasProveedores                |
-   | Pagos a proveedores               | PagosProveedores                   |
-   | Operaciones intracomunitarias     | Operaciones intracomunitarias       |
-
-A partir de la versión 10.0.22 de Finance, si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y tiene la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) habilitada en el espacio de trabajo **Gestión de funciones**, un grupo adicional **Múltiples parámetros de identificación fiscal** será visible en el cuadro de diálogo **Agregar nuevos elementos de mensajes electrónicos**. Establezca los siguientes valores para los parámetros de este grupo.
-
-   | **Nombre del parámetro**            | **Valor**                          |
-   |-------------------------------|------------------------------------|
-   | Id. de impuestos de la empresa                | Seleccione el número de registro de IVA de la empresa cuyo nombre informará al sistema SII de España en el campo **Identificación fiscal de la empresa**. |
-
-4. Expanda la ficha desplegable **Registros para incluir** y especifique los criterios adicionales que se aplicarán a las fuentes de datos de Finance a partir de las cuales se completarán las facturas en los elementos de EM. Están disponibles las siguientes fuentes de datos:
-
-   | **Orígenes de datos**               | **Descripción**                          |
-   |-------------------------------|------------------------------------|
-   | DIARIO DE FACTURAS DEL CLIENTE      | Esta fuente de datos rellena datos de la tabla **Diario de facturas del cliente** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
-   | DIARIO DE FACTURAS DEL PROVEEDOR        | Esta fuente de datos rellena datos de la tabla **Diario de facturas del proveedor** como elementos EM de del tipo **FacturasProveedores** para informar al sistema SII de España. |
-   | FACTURA DE PROYECTO               | Esta fuente de datos rellena datos de la tabla **Factura de proyecto** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
-   | TRANSFERIR HISTORIAL DE PEDIDOS        | Esta fuente de datos rellena datos de la tabla **Transferir historial de pedidos** como elementos EM de de los tipos **FacturasСliente** y **FacturasProveedores** para informar al sistema SII de España. Esta fuente de datos está disponible a partir de la versión 10.0.22 de Finance si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**. Para obtener más información, consulte la sección [Reportando al sistema SII de España para múltiples registros de IVA](#multiple-vat) más adelante en este tema. |
-
-5.  Seleccione **Aceptar** para iniciar la clase ejecutable.
-
-![Agregar nuevo panel de elementos de mensajería electrónica.](media/emea-esp-sii-siigenerateitems-executable-class.png)
+![Agregar nuevo panel de elementos de mensajería electrónica](media/emea-esp-sii-siigenerateitems-executable-class.png)
 
 ### <a name="set-up-the-siipartyattributesevaluation-executable-class"></a>Configurar la clase ejecutable SIIPartyAttributesEvaluation
 
@@ -228,15 +211,15 @@ A partir de la versión 10.0.22 de Finance, si está utilizando el servicio de [
 2.  En la página **Configuración de clase ejecutable**, seleccione la clase ejecutable **SIIPartyAttributesEvaluation** que está asociada con el nombre de clase ejecutable **EMAdditionalFieldsEvaluationController_ES**.
 3.  En el Panel de acciones, seleccione **Parámetros** y, luego, en el cuadro de diálogo que aparece, establezca los siguientes valores para los parámetros de la clase ejecutable.
 
-    | **Nombre del parámetro**  | **Valor**  |
-    |---------------------|------------|
-    | Número de registro | Id         |
-    | Tipo de id. de impuesto         | IDType     |
-    | Código ISO de parte      | CodigoPaís |
+| **Nombre del parámetro**  | **Valor**  |
+|---------------------|------------|
+| Número de registro | Id         |
+| Tipo de id. de impuesto         | IDType     |
+| Código ISO de parte      | CodigoPaís |
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-![Agregar el panel de parámetros de evaluación de campos.](media/emea-esp-sii-siipartyattributesevaluation-executable-class.png)
+![Agregar el panel de parámetros de evaluación de campos](media/emea-esp-sii-siipartyattributesevaluation-executable-class.png)
 
 ### <a name="set-up-the-monitorcollectionincash-executable-class"></a>Configurar la clase ejecutable MonitorCollectionInCash
 
@@ -244,14 +227,14 @@ A partir de la versión 10.0.22 de Finance, si está utilizando el servicio de [
 2.  En la página **Configuración de clase ejecutable**, seleccione la clase ejecutable **MonitorCollectionInCash** que está asociada con el nombre de clase ejecutable **EMCheckChangesCollectionInCashController_ES**.
 3.  En el Panel de acciones, seleccione **Parámetros** y, luego, en el cuadro de diálogo que aparece, establezca los siguientes valores para los parámetros de la clase ejecutable.
 
-    | **Nombre del parámetro** | **Valor**            |
-    |--------------------|----------------------|
-    | Cancelación pendiente     | CancelaciónPendiente |
-    | Corregido          | Corregido            |
+| **Nombre del parámetro** | **Valor**            |
+|--------------------|----------------------|
+| Cancelación pendiente     | CancelaciónPendiente |
+| Corregido          | Corregido            |
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-![Cobros de SII en el panel de parámetros de supervisión de efectivo.](media/emea-esp-sii-monitorcollectionincash-executable-class.png)
+![Cobros de SII en el panel de parámetros de supervisión de efectivo](media/emea-esp-sii-monitorcollectionincash-executable-class.png)
 
 ## <a name="set-up-additional-fields-and-automatically-defined-rules"></a>Configurar los campos adicionales y reglas definidas automáticamente
 
@@ -265,7 +248,7 @@ Los elementos de EM tienen campos adicionales que se incluyen tres clases ejecut
 | CodigoPaís                         | Código ISO                       | **SII** y **CollectionInCash**. Este campo es aplicable a todos los tipos de elementos de EM.                                                                                                               | Acción **Campos de evaluación**, clase ejecutable **SIIPartyAttributesEvaluation**.                                                                                                                                                                                                                                    |
 | ClaveRegimenEspecialOTrascendencia | Código especial del esquema            | Solo **SII**. Este campo solo es aplicable a los tipos de elemento de EM **FacturasСliente**, **FacturasProveedores**.                                                                              | Acción **GenerateMessageItem**, clase ejecutable **SIIGenerateItems**. El valor predeterminado es **01**. La configuración de las reglas definidas automáticamente está disponible.                                                                                                                                                                   |
 | NumSerieFactura                    | Referencia de resumen              | Solo **SII**. Este campo solo es aplicable a los tipos de elemento de EM **FacturasСliente**, **FacturasProveedores**.                                                                              | Acción **GenerateMessageItem**, clase ejecutable **SIIGenerateItems**.                                                                                                                                                                                                                                             |
-| TipoFactura                        | Tipo de factura                   | Solo **SII**. Este campo solo es aplicable a los tipos de elemento de EM **FacturasСliente**, **FacturasProveedores**.                                                                               | Acción **GenerateMessageItem**, clase ejecutable **SIIGenerateItems**. El valor predeterminado es **F1**. La configuración de las reglas definidas automáticamente está disponible.                                                                                                                                                                   |
+| TipoFactura                        | Tipo de factura                   | Solo **SII**. Este campo solo es aplicable a los tipos de elemento de EM **FacturasСliente**, **FacturasProveedores**.                                                                               | Acción **GenerateMessageItem**, clase ejecutable **SIIGenerateItems**. El valor predeterminado es **01**. La configuración de las reglas definidas automáticamente está disponible.                                                                                                                                                                   |
 | TipoOperacion                      | Tipo de operación intracomunitaria | Solo **SII**. Este campo solo es aplicable al tipo de elemento de EM **Operaciones intracomunitarias**.                                                                                              | Definición manual. El valor predeterminado es **A**. La configuración de las reglas definidas automáticamente está disponible y se puede aplicar durante la ejecución de la acción **GenerateMessageItem**.                                                                                                                                              |
 | EmitidaPorTerceros                 | Emitido por terceros        | Solo **SII**. Este campo solo es aplicable al tipo de elemento de EM **FacturasСliente**.                                                                                                           | Solo definición manual. El valor predeterminado es **N**. La configuración de las reglas definidas automáticamente está disponible.                                                                                                                                                                                                                   |
 | EntidadSucedidaNIF                 | Id. de impuesto de entidad jurídica correcta  | Solo **SII**. Este campo solo es aplicable a los tipos de elemento de EM **FacturasСliente**, **FacturasProveedores** y **OperacionesIntracomunitarias**.                                           | Definición manual. La configuración de las reglas definidas automáticamente está disponible.                                                                                                                                                                                                                                                    |
@@ -311,7 +294,7 @@ Los siguientes valores están disponibles para el campo adicional **IDType** com
 
 El valor del campo adicional **IDType** se informa en la etiqueta **IDType** debajo de la etiqueta **IDOtro** del informe.
 
-De forma predeterminada, para las contrapartidas fuera de España, cuando el **Id. de registro** no está definido en los datos maestros de la contrapartida, el sistema define los siguientes valores para el campo adicional **IDType**:
+De forma predeterminada, para las contrapartidas fuera de España, cuando el **Id. de registro** no está definido en los datos maestros de la contrapartida, el sistema define los siguientes valores para el campo adicional **Tipo de identificación**:
 
 -   **02** - Para contrapartidas de la UE
 -   **04** - Para contrapartidas de terceros países
@@ -411,16 +394,10 @@ Se pueden especificar razones financieras para las facturas que se contabilizan 
 -   Factura de servicios
 -   Pedido de compra
 -   Proyectos
--   Diario de facturas del proveedor (AP)
+-   Diario de proveedores (AP)
 -   Contabilidad general (GL), diario general
 
-> [!NOTE]
-> Cuando usted [informa al sistema SII de España desde entidad jurídica con domicilio principal fuera de España](#multiple-vat), puede especificar motivos financieros para las facturas que se contabilizan solo desde los siguientes documentos:
-> - Pedido de compra
-> - Diario de facturas del proveedor (AP)
-> - Contabilidad general (GL), diario general
-
-Cuando crea una factura a partir de los tipos de documentos a partir de los cuales se pueden crear facturas, puede establecer un motivo específico para la factura. La acción **GenerateMessageItem** analizará este motivo y se establecerá el código de SII para el elemento del mensaje electrónico.
+Cuando puede crear una factura a partir de los tipos de documentos a partir de los cuales se pueden crear facturas, puede establecer un motivo específico para la factura. La acción **GenerateMessageItem** analizará este motivo y se establecerá el código de SII para el elemento del mensaje electrónico.
 
 Siga estos pasos para configurar motivos financieros.
 
@@ -442,15 +419,6 @@ Para permitir que el sistema defina el tipo de factura en función de la configu
     -   **Grupo de impuestos de artículos**
 
      También puede especificar fechas de vigencia y vencimiento para su regla.
-
-### <a name="algorithm-to-define-the-tiporectificativa-tag-for-a-credit-note"></a>Algoritmo para definir la etiqueta TipoRectificativa para una nota de crédito
-
-Ambos formatos, **Libro de registro de facturas Recibidas** (facturas recibidas) y **Libro de registro de facturas Expedidas** (facturas emitidas), deben incluir una etiqueta **TipoRectificativa** para informar notas de crédito. Esta etiqueta informa el tipo de nota de crédito y puede tener uno de los siguientes valores:
-
-   - **I** (INCREMENTAL): Incremental
-   - **S** (SUSTITUTIVA): Sustituto
-
-Para reportar una nota de crédito con un valor **I** en la etiqueta **TipoRectificativa**, antes de publicar la nota de crédito, cuando especifica la factura original utilizando la función **Facturación de crédito**, seleccione **Corrección solo por diferencias** en el campo **Método de corrección** en el cuadro de diálogo **Facturación de crédito**.
 
 ### <a name="algorithm-to-define-the-tipooperacion-intra-community-operation-type-additional-field"></a>Algoritmo para definir el valor del campo adicional TipoOperacion (Tipo de operación intracomunitaria)
 
@@ -504,20 +472,19 @@ De acuerdo con la documentación oficial del sistema SII, los siguientes valores
 | 14              | Factura con IVA pendiente de devengo sobre certificaciones de trabajo con destinatarios de la Administración Pública para el primer semestre de 2017.                                                                                                                    |
 | 15              | Factura con IVA pendiente de devengo en transacciones de naturaleza consecutiva.                                                                                                                                                                    |
 | 16              | Primer semestre de 2017.                                                                                                                                                                                                                             |
-| 17              | Operación bajo cualquiera de los regímenes previstos en el Capítulo XI del Título IX (OSS e IOSS). |
 
 Puede configurar reglas definidas automáticamente para cualquier valor de la lista anterior. También puede ajustar la lista de posibles valores. Para las reglas definidas automáticamente, están disponibles los siguientes criterios:
 
 -   **Tipo de cuenta**: seleccione **Todo**, **Cliente** o **Proveedor**.
 -   **Código de cuenta**: seleccione **Todos**, **Grupo** o **Tabla**.
 
-    > [!NOTE]
-    > Puede especificar este criterio solo cuando **Tipo de cuenta** está configurado para **Cliente** o **Proveedor**.
+> [!NOTE]
+> Puede especificar este criterio solo cuando **Tipo de cuenta** está configurado para **Cliente** o **Proveedor**.
 
 -   **Número de grupo/cuenta**
 
-    > [!NOTE]
-    > Puede especificar este criterio solo cuando **Código de cuenta** está configurado para **Grupo** o **Tabla**.
+> [!NOTE]
+> Puede especificar este criterio solo cuando **Código de cuenta** está configurado para **Grupo** o **Tabla**.
 
 -   **Grupo de impuestos sobre las ventas**
 
@@ -544,7 +511,7 @@ La búsqueda por **Grupo de impuestos de ventas** y **Grupo de impuestos de vent
 
 La siguiente ilustración muestra el esquema del algoritmo para cada una de estas cuatro subetapas.
 
-![Esquema de algoritmo para las subetapas.](media/emea-esp-sii-claveregimenespecialotrascendencia-additional-field.png)
+![Esquema de algoritmo para las subetapas](media/emea-esp-sii-claveregimenespecialotrascendencia-additional-field.png)
 
 ## <a name="set-up-number-sequences-for-electronic-messages"></a>Configurar secuencias numéricas para mensajes electrónicos
 
@@ -553,8 +520,14 @@ Para trabajar con la funcionalidad de mensajes electrónicos, debe definir secue
 1.  Vaya a **Impuestos** \> **Configuración** \> **Parámetros de contabilidad general**.
 2.  En la pestaña **Secuencias numéricas**, configure dos secuencias numéricas:
 
-    -   Mensaje
-    -   Elemento de mensaje
+-   Mensaje
+-   Elemento de mensaje
+
+## <a name="set-up-batch-settings-for-automated-processing-of-interoperation-with-the-sii-system"></a>Configurar la configuración por lotes para el procesamiento automatizado de la interoperación con el sistema SII
+
+1.  Vaya a **Impuestos \> Configuración \> Mensajes electrónicos \> Procesamiento de mensaje electrónico**.
+2.  Seleccionar bien el procesamiento **SII** o **CollectionInCash**.
+3.  En la ficha desplegable **Lote**, seleccione **Crear lote**, y luego defina los parámetros requeridos.
 
 ## <a name="set-up-security-roles-for-electronic-message-processing"></a>Configure los roles de seguridad para el procesamiento de mensajes electrónicos
 
@@ -576,7 +549,7 @@ Si la casilla **Porcentaje de impuestos negativo** está desactivada en la pági
 -   Las facturas que solo tienen transacciones de impuestos con porcentajes negativos de impuestos a las ventas no se completarán como elementos de mensajes electrónicos para el procesamiento SII.
 -   Solo transacciones de impuestos que tienen códigos de impuestos a las ventas donde cuando la casilla **Porcentaje negativo de impuesto** está desactivada se incluirá en el archivo XML que se informa al sistema SII.
 
-![Página de parámetros del libro mayor, pestaña Libro mayor.](media/emea-esp-sii-negative-sales-tax-percentage.png)
+![Página de parámetros del libro mayor, pestaña Libro mayor](media/emea-esp-sii-negative-sales-tax-percentage.png)
 
 La casilla **Porcentaje negativo de impuesto** en la página **Parámetros del libro mayor** no afecta el informe de transacciones de cambio inverso.
 
@@ -592,15 +565,15 @@ Para informar correctamente los dos escenarios anteriores que involucran una tas
 | **Etiqueta en el sistema SII**         | **Tipo de valor impositivo** |
 |-------------------------------|-----------------------|
 | ImportePorArticulos7_14_Otros | IVA 0 %                |
-| ImporteTAIReglasLocalización  | Otra                 |
+| ImporteTAIReglasLocalización  | Otros                 |
 
-![Página de códigos de impuestos.](media/emea-esp-sii-zero-percent-vat-rates.png)
+![Página de códigos de impuestos](media/emea-esp-sii-zero-percent-vat-rates.png)
 
 ### <a name="intra-community-sales-tax-reporting-to-the-sii-system"></a>Registrar impuestos de ventas intracomunitarios en el sistema SII
 
 De acuerdo con las reglas del sistema SII, se debe usar un conjunto extendido de parámetros cuando las facturas intracomunitarias se informan al sistema SII. Para enviar información adicional en un formato específico para facturas intracomunitarias, el procesamiento de **SII** Finance llena en el tipo de elemento de mensaje **Operaciones intracomunitarias** para facturas que se informaron previamente como facturas estándar. La acción **GenerateMessageItem** ejecuta la clase ejecutable **SIIGenerateItems**. Según los siguientes criterios, identifica las facturas como facturas del tipo de elemento de mensaje **Operaciones intracomunitarias**:
 
--   La casilla **Intracomunitario** está seleccionada para el grupo de impuestos sobre las ventas (**Impuesto \> Impuestos \> Grupo de impuestos**) que se utiliza en la transacción del impuesto que está relacionada con la factura. Compruebe que la característica [IVA intracomunitario para España](./emea-esp-intra-community-vat.md) esté configurada y se utiliza en su sistema.
+-   La casilla **Intracomunitario** está seleccionada para el grupo de impuestos sobre las ventas (**Impuesto \> Impuestos \> Grupo de impuestos**) que se utiliza en la transacción del impuesto que está relacionada con la factura. Compruebe que la característica [IVA intracomunitario para España](https://docs.microsoft.com/dynamics365/finance/localizations/emea-esp-intra-community-vat) esté configurada y se utiliza en su sistema.
 -   El país o región de la dirección principal de la contrapartida de la factura se identifica como **UE** en la sección **Propiedades del país o región** de la página **Parámetros de comercio exterior** (**Impuesto \> Configuración \> Comercio Exterior \> Parámetros de comercio exterior**).
 -   La contrapartida está incluida en la configuración intracomunitaria de SII (vaya a **Impuesto \> Configuración \> Mensajes electrónicos \> Campos adicionales del elemento de mensaje**, y luego, en el campo **TipoOperación**, especifique aquellas contrapartidas para las que las facturas deben registrarse como facturas intracomunitarias).
 
@@ -610,23 +583,6 @@ Para comprobar que configuró correctamente los parámetros para la clase ejecut
 2.  Seleccione la clase ejecutable **SIIGenerateItems** que está asociada con el nombre de clase ejecutable **EMCreateItemsController**.
 3.  En el Panel de acciones, seleccione **Parámetros**, y luego configure el valor **TipoOperación** para el campo adicional **Id. de operación intracomunitaria**.
 
-## <a name="reporting-to-the-sii-system-of-spain-for-multiple-vat-registrations"></a><a name="multiple-vat"></a>Reportando al sistema SII de España para múltiples registros de IVA
-
-A partir de la versión 10.0.22 de Finance, si utiliza el servicio [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**, puede Informar los siguientes informes al sistema SII de España:
-
-- 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
-- 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**
-
-Después de habilitar la característica **Admite varios números de registro de IVA**, proporcione la siguiente configuración para que pueda informar al sistema SII desde una entidad legal con una dirección principal fuera de España.
-
-1. En el espacio de trabajo **Gestión de funciones**, habilite la característica **Declaración de impuestos sobre las ventas para varios registros de IVA**.
-2. En la página **Parámetros de cálculo de impuestos**, en la pestaña **Múltiples registros de IVA**, seleccione la casilla **Declaración de IVA**.
-3. Defina el número de registro de IVA de la empresa a partir del nombre que informará al sistema SII de España en el campo **Identificación fiscal de la empresa** en los parámetros [**Clase ejecutable SIIGenerateItems**](#siigenerateitems) .
-4. Especifique el origen de datos **Historial de órdenes de transferencia** en la ficha desplegable **Registros para incluir** de los parámetros [**Clase ejecutable SIIGenerateItems**](#siigenerateitems).
-
-> [!NOTE]
-> Cuando se habilitan las funciones **Admite múltiples números de registro de IVA** y **Declaración de impuestos sobre las ventas para varios registros de IVA**, el sistema SII de España recoge el valor en el campo **NombreRazón** del campo **Nombre o descripción** en la página **Administrar direcciones** en lugar del nombre de la entidad legal.
-
 ## <a name="use-em-functionality-to-report-to-the-sii-system"></a>Usar la funcionalidad EM para notificar al sistema SII
 
 La funcionalidad EM ejecuta automáticamente acciones que se incluyen en el procesamiento (**SII** o **CollectionInCash**), según el estado de los mensajes y los elementos del mensaje.
@@ -635,7 +591,7 @@ La funcionalidad EM ejecuta automáticamente acciones que se incluyen en el proc
 
 El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SII** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **SII**. Las acciones manuales del usuario no se incluyen en esta ilustración, pero se explican más adelante en este tema.
 
-![Esquema para el procesamiento general de SII.](media/emea-esp-sii-process.png)
+![Esquema para el procesamiento general de SII](media/emea-esp-sii-process.png)
 
 ### <a name="actions-of-sii-processing"></a>Acciones de procesamiento de SII
 
@@ -680,15 +636,6 @@ Para registrar facturas al sistema SII, siga estos pasos.
 2.  En el panel de acciones, seleccione **Ejecutar procesamiento**.
 3.  En el cuadro de diálogo, en campo **Procesamiento**, seleccione **SII**.
 4.  Si desea ejecutar todas las acciones posibles para el procesamiento de **SII**, anule la selección de la casilla **Elegir acción**. Si desea ejecutar solo una acción específica, seleccione la casilla **Elegir acción** y luego, en el campo **Acción**, seleccione la acción a ejecutar.
-
-### <a name="run-sii-processing-in-batch-mode-for-automated-processing-of-interoperation-with-the-sii-system"></a>Ejecute el procesamiento SII en modo por lotes para el procesamiento automatizado de la interoperación con el sistema SII
-Para ejecutar el procesamiento SII en modo por lotes para el procesamiento automatizado de la interoperación con el sistema SII, siga estos pasos:
-
-1.  Vaya a **Impuestos** > **Consultas e informes** > **Mensajes electrónicos** > **Elementos de mensajes electrónicos**.
-2.  En el panel de acciones, seleccione **Ejecutar procesamiento**.
-3.  En el cuadro de diálogo, en campo **Procesamiento**, seleccione **SII**.
-4.  Si desea ejecutar todas las acciones posibles para el procesamiento de **SII**, anule la selección de la casilla **Elegir acción**. Si desea ejecutar solo una acción específica, seleccione la casilla **Elegir acción** y luego, en el campo **Acción**, seleccione la acción a ejecutar.
-5.  Defina los parámetros del procesamiento por lotes en la ficha desplegable **Ejecutar en segundo plano** en el cuadro de diálogo **Ejecutar procesamiento**. Para obtener más información sobre el procesamiento por lotes, vea [Descripción general del procesamiento por lotes](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="exclude-an-invoice-from-reporting-to-the-sii-system"></a>Excluir una factura de su registro en el sistema SII
 
@@ -736,7 +683,7 @@ Utilice la funcionalidad de EM para generar un informe XML de datos que se gener
 
 El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SCollectionInCash** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **CollectionInCash**.
 
-![Esquema para el procesamiento general de CollectionInCash.](media/emea-esp-sii-collection-in-cash-process.png)
+![Esquema para el procesamiento general de CollectionInCash](media/emea-esp-sii-collection-in-cash-process.png)
 
 ### <a name="actions-of-collectionincash-processing"></a>Acciones de procesamiento de CollectionInCash
 
@@ -789,6 +736,3 @@ Para mantener la integridad de los datos entre estos elementos de mensajes elect
 | Una línea de informe se agrega durante la función **Generación**.                      | Este será un nuevo elemento de mensaje electrónico. Use el proceso estándar para registrarlo en el sistema SII.                                                                                                                                                                   |
 
 Para mantener la integridad de los datos, líneas en el informe **Cobro en efectivo** el informe no se puede eliminar manualmente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

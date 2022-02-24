@@ -1,24 +1,26 @@
 ---
 title: Devoluciones de proveedor
 description: Este tema proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566872"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966664"
 ---
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
 
@@ -53,7 +55,7 @@ Un acuerdo de devolución del proveedor es el registro de un contrato con un pro
 
 Para abrir la página **Acuerdos de devoluciones del proveedor**, seleccione **Adquisición y abastecimiento** &gt; **Devoluciones del proveedor** &gt; **Acuerdos de devoluciones**.
 
-![Acuerdo de compra.](media/purchase-agreement.PNG)
+![Acuerdo de compra](media/purchase-agreement.PNG)
 
 En la página **Acuerdos de devoluciones del proveedor**, puede ver información detallada sobre las condiciones negociadas en un contrato de proveedor.
 
@@ -129,7 +131,7 @@ Una vez aprobadas las reclamaciones, los proveedores (A/P) pueden procesarlas. U
 
     Se publicará un diario de acumulación de devoluciones según el importe reclamado. Este registro carga en la cuenta "Devoluciones del proveedor por cobrar acumuladas" el crédito esperado del proveedor y carga en la cuenta "Devoluciones del proveedor acumuladas recibidas" la ganancia prevista.
 
-    ![Mensaje.](media/message.png)
+    ![Mensaje](media/message.png)
 
 5. En la lista de devoluciones, seleccione la línea y en el panel de acciones, seleccione **Transacciones de devolución** para consultar el número de lote del diario de este registro de acumulación de devoluciones.
 
@@ -164,6 +166,3 @@ El proceso para administrar devoluciones de proveedor implica realizar varias ta
 - Crear reclamaciones de devolución precisas
 - Acumular el cobro esperado y las ganancias provisionales en el libro de contabilidad general
 - Actualizar el saldo del proveedor y el extracto de ingresos con las concesiones que estén pendientes
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

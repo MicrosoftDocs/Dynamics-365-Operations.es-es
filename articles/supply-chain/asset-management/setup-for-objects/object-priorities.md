@@ -1,10 +1,12 @@
 ---
 title: Niveles de servicio de activos
 description: Este tema explica los niveles de servicio de activos en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83b195add44927d847491e6394e72637323117b3
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723608"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021638"
 ---
 # <a name="asset-service-levels"></a>Niveles de servicio de activos
 
@@ -50,6 +52,3 @@ Para obtener más información sobre la configuración relacionada con el cálcu
 
 > [!NOTE]
 > Si cambia un registro de nivel de servicio de activo en la página **Niveles de servicio de activos** después de haberlo utilizado en una orden de trabajo, el nivel de servicio de las solicitudes de mantenimiento y las órdenes de trabajo no se actualiza como corresponde.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Importar versiones actualizadas de configuraciones ER
 description: Este tema explica cómo importar versiones actualizadas de informes electrónicos (ER) desde el repositorio global del servicio de configuración.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734897"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679519"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importar versiones actualizadas de configuraciones ER
 
@@ -28,7 +30,7 @@ ms.locfileid: "6734897"
 
 Los [repositorios](general-electronic-reporting.md#Repository) de informes electrónicos (ER) se usan para compartir [configuraciones ER](general-electronic-reporting.md#Configuration). Puede [importar](download-electronic-reporting-configuration-lcs.md) configuraciones de ER desde diferentes repositorios en su instancia de Microsoft Dynamics 365 Finance. Cuando importa configuraciones de ER, los [proveedores de configuración](general-electronic-reporting.md#Provider) puede publicar [versiones](general-electronic-reporting.md#component-versioning) nuevas de repositorios para que puedan ser compartidos.
 
-Este tema explica cómo importar versiones actualizadas de ER desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Este tema explica cómo importar versiones actualizadas de ER desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Revise las versiones actualizadas disponibles
 
@@ -41,11 +43,11 @@ Este tema explica cómo importar versiones actualizadas de ER desde el repositor
 2. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 3. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Importar versiones actualizadas de configuraciones**.
 
-    ![Página de ubicación de configuraciones.](./media/er-download-updated-versions-global-repo1.png)
+    ![Página de ubicación de configuraciones](./media/er-download-updated-versions-global-repo1.png)
 
 4. En el cuadro de diálogo **Importar actualizaciones de versiones de configuraciones de informes electrónicos**, en el campo **Modo de ejecución**, seleccione **Mostrar solo las actualizaciones disponibles**. A continuación seleccione **Aceptar**. 
 
-    ![El campo Modo de ejecución está configurado para mostrar solo las actualizaciones disponibles.](./media/er-download-updated-versions-global-repo2.png)
+    ![El campo Modo de ejecución está configurado para mostrar solo las actualizaciones disponibles](./media/er-download-updated-versions-global-repo2.png)
 
 5. Revise los mensajes que recibe. Estos mensajes proporcionan la siguiente información sobre las configuraciones de ER en la instancia actual de Finance y cómo se comparan con el contenido del repositorio global:
 
@@ -72,14 +74,14 @@ Este tema explica cómo importar versiones actualizadas de ER desde el repositor
 4. En el cuadro de diálogo **Importar actualizaciones de versiones de configuraciones de informes electrónicos**, en el campo **Modo de ejecución**, seleccione **Importar las últimas actualizaciones** para importar las últimas versiones de configuraciones ER desde el repositorio global a la instancia actual de Finance.
 5. Para programar un trabajo por lotes para la importación, en la ficha desplegable **Correr en segundo plano**, configure la opción **Procesamiento por lotes** **Sí**. Si desea repetir la importación periódicamente, configure la recurrencia requerida.
 
-    ![Campo de modo de ejecución configurado para importar las últimas actualizaciones.](./media/er-download-updated-versions-global-repo5.png)
+    ![Campo de modo de ejecución configurado para importar las últimas actualizaciones](./media/er-download-updated-versions-global-repo5.png)
 
 6. Seleccione **Aceptar**.
 7. Para saber qué versiones de configuración se han importado, siga uno de estos pasos:
 
     - Si ejecuta la importación de forma interactiva en lugar de utilizar un trabajo por lotes, revise los mensajes que recibe.
 
-        ![Mensajes recibidos durante una ejecución de importación interactiva.](./media/er-download-updated-versions-global-repo6.png)
+        ![Mensajes recibidos durante una ejecución de importación interactiva](./media/er-download-updated-versions-global-repo6.png)
 
     - Si ejecuta la importación en modo por lotes, siga estos pasos:
 
@@ -87,7 +89,7 @@ Este tema explica cómo importar versiones actualizadas de ER desde el repositor
         2. Encuentre y seleccione el trabajo **Importar actualizaciones de versiones de configuraciones de informes electrónicos** y luego, en el Panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Historial de trabajo por lotes** para ver el historial de trabajos.
         3. En la página **Historial de trabajo por lotes**, seleccione **Registro**. Luego, en el mensaje que recibe, seleccione el vínculo **Detalles del mensaje** para ver el registro de trabajo.
 
-        ![Registro de trabajo.](./media/er-download-updated-versions-global-repo7.png)
+        ![Registro de trabajo](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > No recomendamos que programe un trabajo por lotes recurrente para importar versiones actualizadas de configuraciones de ER directamente desde el repositorio global a un entorno de producción, porque las versiones importadas estarán disponibles de inmediato para su uso. En su lugar, utilice este enfoque para implementar versiones de configuraciones de ER en un entorno de espacio aislado. Luego pueden evaluarse en el entorno de espacio aislado antes de implementarse en un entorno de producción.
@@ -96,6 +98,3 @@ Este tema explica cómo importar versiones actualizadas de ER desde el repositor
 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Descargue las configuraciones de ER del repositorio global del servicio de configuración](er-download-configurations-global-repo.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

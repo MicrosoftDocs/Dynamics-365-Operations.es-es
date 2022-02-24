@@ -89,6 +89,3 @@ Puede cargar una imagen del logotipo de su empresa y otra información como un e
     ![Agregando vínculos a la directiva de privacidad y los términos de uso de su empresa para el pie de página del correo electrónico](./media/attract-admin-email-footer.png)
 
 4. Seleccione **Guardar** para guardar la configuración de plantilla de correo electrónico.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

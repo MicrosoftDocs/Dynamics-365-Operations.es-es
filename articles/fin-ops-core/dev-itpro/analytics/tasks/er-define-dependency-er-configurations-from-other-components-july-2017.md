@@ -1,10 +1,12 @@
 ---
-title: Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
-description: Este tema describe cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia de otros componentes de software.
+title: Definir la dependencia de las configuraciones de ER en otros componentes
+description: 'Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).'
 author: NickSelin
-ms.date: 07/23/2021
+manager: AnnBe
+ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717603"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681982"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia de las configuraciones de ER en otros componentes
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +46,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 5. Haga clic en Nuevo.
 6. Seleccionar el componente de requisito previo de producto.
 7. Seleccione Microsoft Dynamics 365 for Operations (1611).
-8. En el campo versión, escriba "[7.1.1541.3036,8)".
+8. En el campo Versión, escriba '[7.1.1541.3036,8)'.
     * [7.1.1541.3036,8)  
     * Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Finance and Operations, versión 7.1.1541.3036 o posterior, pero no debe superar la versión 8.   
 9. Haga clic en Guardar.
@@ -57,7 +59,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 16. Haga clic en Nuevo.
 17. Seleccionar el componente de requisito previo de producto.
 18. Seleccionar Microsoft Dynamics AX 7.0 RTW:
-19. En el campo versión, escriba "[7.0.1265.3015,7.1)".
+19. En el campo Versión, escriba '[7.0.1265.3015,7.1)'.
     * [7.0.1265.3015,7.1)  
     * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no ser inferior a la versión 1.   
 20. Haga clic en Guardar.
@@ -137,9 +139,3 @@ Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuev
 26. En el árbol, expanda "Modelo de datos de ejemplo".
     * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para la aplicación. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
     * Si inicia sesión en Finance and Operations, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
-
-## <a name="additional-resources"></a>Recursos adicionales
-
-[Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

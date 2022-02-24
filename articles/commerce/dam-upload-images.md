@@ -1,10 +1,12 @@
 ---
-title: Cargar imágenes
-description: En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+title: Subir imágenes
+description: En este tema se describe cómo cargar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 12/03/2021
+manager: annbe
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,18 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891531"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963019"
 ---
-# <a name="upload-images"></a>Cargar imágenes
+# <a name="upload-images"></a>Subir imágenes
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+En este tema se describe cómo cargar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 La Biblioteca de medios del creador de sitios de Commerce le permite cargar imágenes, ya sea individualmente o en masa, utilizando carpetas. Siempre debe cargar la versión de la imagen con la mayor resolución y calidad, ya que el componente de cambio de tamaño de la imagen optimizará automáticamente la imagen para diferentes ventanas y sus puntos de interrupción.
 
@@ -41,8 +45,7 @@ Al cargar una imagen, se puede especificar la siguiente información.
 - **Publicar activos después de subir**: cuando esta casilla de verificación está seleccionada, la imagen o las imágenes se publican inmediatamente después de la carga.
 
 > [!NOTE]
-> - Los activos de imagen con una categoría asignada también se etiquetan automáticamente con la categoría como una palabra clave para ayudar a buscar activos de una categoría específica.
-> - Las páginas de detalles del producto generan dinámicamente el **Texto alternativo** usando el nombre del producto, así que cambiar el **Texto alternativo** por una imagen de producto no tendrá ningún impacto en la imagen renderizada.
+> Los activos de imagen con una categoría asignada también se etiquetan automáticamente con la categoría como una palabra clave para ayudar a buscar activos de una categoría específica.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Convenciones de nomenclatura para imágenes omnicanal 
 
@@ -53,17 +56,9 @@ La convención de nomenclatura predeterminada varía según la categoría:
 - Las imágenes de categoría deben llamarse "**/Categories/\{CategoryName\}.png**"
 - Las imágenes de los clientes deben llamarse "**/Customers/\{CustomerNumber\}.jpg**"
 - Las imágenes de los empleados deben llamarse "**/Workers/\{WorkerNumber\}.jpg**"
-- Las imágenes del producto deben llamarse "**/Products/\{ProductNumber\}\_000_001.png**"
+- Las imágenes del producto deben llamarse "**/Products/\{ProductNumber\}_000_001.png**"
     - 001 es la secuencia de la imagen y puede ser 001, 002, 003, 004 o 005
-- Las imágenes de variante del producto deben llamarse "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Por ejemplo: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
-- Las imágenes de variante del producto con dimensión de configuración deben llamarse "**/Products/\{ProductNumber\} \^ \{Configuration\}\_Color 000_001.png**"
-    - Por ejemplo: 93039 \^ LB8017_000_001.png
-
-> [!NOTE]
-> Para las imágenes de variante del producto, si el valor de la dimensión está vacío, debe haber dos espacios en blanco entre los signos de intercalación en el nombre del archivo.
-
-Los ejemplos anteriores utilizan la configuración predeterminada. El carácter y las dimensiones del separador son configurables y el nombre exacto requerido puede variar entre implementaciones. Un método para identificar la convención de nomenclatura exacta requerida es usar la consola de desarrollador del explorador para inspeccionar las solicitudes de imágenes de variantes del producto mientras se cambian las dimensiones del producto en la página de detalles del producto (PDP) del escaparate.
+- Las imágenes de variante del producto deben llamarse "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**"
 
 ## <a name="upload-an-image"></a>Subir una imagen
 
@@ -101,6 +96,3 @@ Para subir en masa una carpeta de imágenes en el generador de sitios, siga esto
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

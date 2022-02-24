@@ -1,10 +1,12 @@
 ---
 title: Conciliar el flete en la administración del transporte
 description: En este tema se describe el proceso de conciliación de flete.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574914"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014517"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Conciliar el flete en la administración del transporte
 
@@ -35,13 +37,13 @@ La conciliación de flete se puede realizar manualmente o se puede configurar pa
 
 Las tasas de flete se calculan por el motor de velocidad que está asociado al transportista de envío pertinente. Cuando se confirma una carga, se genera un albarán de flete y las tasas de flete se transfieren a él. Las tasas de flete se distribuyen como gastos varios al documento de origen pertinente (pedido de compra, pedido de ventas o pedido de transferencia), en función de la configuración que se utiliza para el proceso de facturación normal. El proceso de conciliación de flete (que también se conoce como el proceso de conciliación) puede iniciarse tan pronto como llega la factura de flete del transportista de envío. La factura se puede recibir de manera electrónica o en papel. Si la factura en papel se recibe, puede generar una factura electrónica mediante el albarán de flete como plantilla.
 
-[![Proceso de conciliación de flete.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Proceso de conciliación de flete](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Conciliación manual
 
 Si está conciliando el flete manualmente, deben conciliar cada línea de factura con la línea o líneas del albarán de flete para la carga que se factura. Esto se hace conciliando en la página **Conciliación de albaranes de flete y facturas**. Si el importe de la línea de factura no coincide con el importe del albarán de flete, debe seleccionar un motivo de conciliación para la diferencia. Si hay varios motivos para la conciliación, puede dividir el importe no conciliado entre ellos. El motivo de conciliación determina cómo se registran los importes de diferencia en la contabilidad general. Cuando se contabiliza la conciliación de todo el importe de la factura, se envía para aprobación y, a continuación, se registra el diario. En la ilustración siguiente se muestra cómo generar una factura de flete y realizar la conciliación de flete.
 
-[![Tareas de conciliación de flete.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Tareas de conciliación de flete](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Conciliación automática
 
@@ -103,6 +105,3 @@ Otra forma de hacer la coincidencia manual para este ejemplo es proceder de la s
 1. Haga coincidir Inv1 e Inv 2 con FB uno tras otro. FB está completamente coincidente.
 
 Como muestra este ejemplo, las facturas de flete coincidentes con importes negativos solo deben realizarse manualmente. Esto garantizará que siempre sea posible hacer coincidir las facturas de flete con importes negativos con una factura de flete que no coincida completamente porque eso le permite controlar la secuencia de coincidencia.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: Función INTVALUE ER
 description: Este tema proporciona información general sobre cómo usar la función INTVALUE de informes electrónicos (ER).
 author: NickSelin
+manager: kfend
 ms.date: 12/05/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d54543a6f9878feb3482c1c1e6c1f1f468718489fbc46aded84a5a84bdfb04e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98b91a983c60bb99280763f7f7a944d08f535e60
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745949"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686012"
 ---
 # <a name="intvalue-er-function"></a>Función INTVALUE ER
 
@@ -70,6 +73,3 @@ Se trunca cualquier posición decimal.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de conversión de tipos](er-functions-category-type-conversion.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

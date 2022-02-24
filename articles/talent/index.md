@@ -1,28 +1,30 @@
 ---
-title: Página principal de Dynamics 365 Talent
+title: Esto es Dynamics 365 Talent
 description: Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.
 author: andreabichsel
+manager: AnnBe
 ms.date: 10/03/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.custom:
-- "20931"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: c9ebfec7a723e5f6cf2e4ad7f74a9531be7dfd89
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 3e77b5586c7b4a6abe58c8006b8773ee3a0f26f9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051404"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459844"
 ---
-# <a name="dynamics-365-talent-home-page"></a>Página principal de Dynamics 365 Talent
+# <a name="welcome-to-dynamics-365-talent"></a>Esto es Dynamics 365 Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -32,8 +34,5 @@ Talent incluye Attract, que puede ayudarle a identificar, entrevistar y contrata
 - [Introducción a Onboard](create-onboarding-experience.md)
 
 > [!IMPORTANT]
-> La funcionalidad de Dynamics 365 Talent: Core HR ahora forma parte de Dynamics 365 Human Resources. Puede ver la documentación de Human Resources en [Este es Dynamics 365 Human Resources]().
+> La funcionalidad de Dynamics 365 Talent: Core HR ahora forma parte de Dynamics 365 Human Resources. Puede ver la documentación de Human Resources en [Este es Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

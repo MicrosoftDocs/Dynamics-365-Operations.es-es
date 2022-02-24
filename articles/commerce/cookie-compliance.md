@@ -2,24 +2,27 @@
 title: Cumplimiento de cookies
 description: Este tema describe consideraciones para el cumplimiento de cookies y las políticas predeterminadas que se incluyen en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/30/2021
+manager: annbe
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747706"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415435"
 ---
 # <a name="cookie-compliance"></a>Cumplimiento de cookies
 
@@ -27,84 +30,31 @@ ms.locfileid: "6747706"
 
 Este tema describe consideraciones para el cumplimiento de cookies y las políticas predeterminadas que se incluyen en Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Información general
+
 La privacidad es un factor importante cuando se utilizan tecnologías de seguimiento que afectan a los clientes de comercio electrónico. Debido a los estándares de cumplimiento de privacidad, como el Reglamento General de Protección de Datos (GDPR) en la Unión Europea (UE), se deben tener en cuenta las pautas de privacidad electrónica para cualquier sitio que esté activo en la actualidad. Debido a que muchos sitios de comercio electrónico son accesibles globalmente de manera predeterminada, es importante que revise los estándares de cumplimiento para su sitio de comercio electrónico.
 
 Para obtener más información sobre los principios básicos que utiliza Microsoft para el cumplimiento de cookies, visite el [Centro de confianza de Microsoft](https://www.microsoft.com/trust-center). En ese sitio, también puede obtener más información sobre las áreas de cumplimiento y privacidad.
 
 La siguiente tabla muestra la lista de referencia actual de cookies colocadas por sitios de Dynamics 365 Commerce.
 
-| Nombre de la cookie                               | Uso                                                        | Duración |
-| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
-| .AspNet.Cookies                             | Almacena las cookies de autenticación de Microsoft Azure Active Directory (Azure AD) para el inicio de sesión único (SSO). Almacena la información principal del usuario cifrada (nombre, apellidos, correo electrónico). | Sesión |
-| \_msdyn365___cart_                           | Almacene el identificador del carrito de la compra para obtener la lista de productos agregados a la instancia del carrito. | Sesión |
-| \_msdyn365___checkout_cart_                           | Almacene el identificador del carrito de la compra de pago para obtener la lista de productos agregados a la instancia del carrito de pago. | Sesión |
-| \_msdyn365___ucc_                            | Seguimiento del consentimiento del cumplimiento de cookies.                          | 1 año |
-| ai_session                                  | Detecta cuántas sesiones de actividad del usuario han incluido ciertas páginas y características de la aplicación. | 30 minutos |
-| ai_user                                     | Detecta cuántas personas usaron la aplicación y sus características. Los usuarios se cuentan utilizando identificaciones anónimos. | 1 año |
-| b2cru                                       | Almacena de forma dinámica las URL de redireccionamiento.                              | Sesión |
-| JSESSIONID                                  | Utilizado por el conector de pago Adyen para almacenar la sesión del usuario.       | Sesión |
-| OpenIdConnect.nonce.&#42;                       | Autentificación                                               | 11 minutos |
-| x-ms-cpim-cache:.&#42;                          | Se utiliza para mantener el estado de la solicitud.                      | Sesión |
-| x-ms-cpim-csrf                              | Token de falsificación de solicitud entre sitios (CRSF) utilizado para la protección contra CRSF.     | Sesión |
-| x-ms-cpim-dc                                | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. | Sesión |
-| x-ms-cpim-rc.&#42;                              | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. | Sesión |
-| x-ms-cpim-slice                             | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. | Sesión |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Se usa para mantener la sesión SSO.                        | Sesión |
-| x-ms-cpim-trans                             | Se utiliza para llevar el seguimiento de transacciones (el número de pestañas abiertas que se autentican en un sitio de empresa a cliente (B2C)), incluida la transacción actual. | Sesión |
-| \_msdyn365___muid_                            | Se utiliza si la experimentación está activada para el entorno usado como id. de usuario con fines de experimentación. | 1 año |
-| \_msdyn365___exp_                             | Se utiliza si la experimentación está activada para el medio ambiente; utilizado para medir el rendimiento del equilibrio de carga.         | 1 hora |
-| d365mkt                                       | Se usa si la detección basada en la ubicación para rastrear la dirección IP de un usuario para sugerencias de ubicación de la tienda está habilitada en el creador de sitios de Commerce en **Configuración del sitio \> General \> Habilitar la detección de tiendas basada en la ubicación**.      | 1 hora |
-| \_msdyn365___tuid_                           | Se usa solo si la experimentación se activa para un entorno; genera un GUID que sirve como identificador de usuario. El valor cambiará si el estado de inicio de sesión de un usuario cambia.      | 1 año |
-| \_msdyn365___aud_0                          | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
-| \_msdyn365___aud_1                           | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
-| \_msdyn365___aud_2                           | Almacena los valores de segmento utilizados por la segmentación y solo se emplea si la segmentación está configurada en una página o un fragmento solicitado por un usuario del sitio. La cookie se coloca solo cuando los valores del segmento proceden de un proveedor de segmentación externo.      | 7 días |
-
-Si un usuario del sitio selecciona cualquier enlace de redes sociales dentro de un sitio, las cookies de la siguiente tabla también se rastrearán en su navegador.
-
-
-| Dominio                      | Cookie               | Descripción                                                  | Origen                                          |
-| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| .linkedin.com                | UserMatchHistory         | Sincronización de ID de anuncios de LinkedIn                                      | Etiqueta de información y noticias de LinkedIn                                |
-| .linkedin.com               | li_sugr                  | El identificador del navegador                                           | Etiqueta de LinkedIn Insight si la dirección IP no se encuentra en un país designado |
-| .linkedin.com               | BizographicsOptOut       | Determina el estado de exclusión voluntaria para el seguimiento de terceros.              | Controles de invitados de LinkedIn y páginas de exclusión voluntaria de la industria           |
-| .linkedin.com               | \_guid                    | Identificador de navegador de Google Ads.                            | Feed de LinkedIn                                                |
-| .linkedin.com               | li_oatml                 | Identificador indirecto de miembro para seguimiento de conversiones, reorientación y análisis. | Etiquetas de información y anuncios de LinkedIn                                |
-| Varios dominios propios | li_fat_id                | Identificador indirecto de miembro para seguimiento de conversiones, reorientación y análisis. | Etiquetas de información y anuncios de LinkedIn                                |
-| .adsymptotic.com            | U                        | El identificador del navegador                                           | Etiqueta de LinkedIn Insight si la dirección IP no se encuentra en un país designado |
-| .linkedin.com                | bcookie                  | Cookie de identificación del navegador                                            | Solicitudes a LinkedIn                                         |
-| .linkedin.com                | bscookie                 | Cookie de navegador segura                                        | Solicitudes a LinkedIn                                         |
-| .linkedin.com               | lang                     | Establece la configuración regional y el idioma predeterminados.                                 | Solicitudes a LinkedIn                                         |
-| .linkedin.com                | lidc                     | Se utiliza para enrutamiento.                                             | Solicitudes a LinkedIn                                         |
-| .linkedin.com               | aam_uuid                 | Cookie de administrador de audiencia de Adobe                                                     | Establecer para sincronización de ID                                              |
-| .linkedin.com               | \_ga                      | Cookie de Google Analytics                                            | Google Analytics                                             |
-| .linkedin.com               | \_gat                     | Cookie de Google Analytics                                             | Google Analytics                                             |
-| .linkedin.com               | liap                     | Cookie de Google Analytics                                             | Google Analytics                                             |
-| .linkedin.com               | lissc                    |                                                              |                                                              |
-| .facebook.com               | c_user                   | La cookie contiene el ID de usuario del usuario que ha iniciado sesión actualmente.  |   Facebook                                                           |
-| .facebook.com               | datr                     | Se utiliza para identificar el navegador web que se utiliza para conectarse a Facebook independientemente del usuario que inició sesión. | Facebook                                                             |
-| .facebook.com               | wd                       | Almacena las dimensiones de la ventana del navegador y lo utiliza Facebook para optimizar la representación de la página. | Facebook                                                             |
-| .facebook.com               | xs                       | Número de dos dígitos que representa el número de sesión. La segunda parte del valor es un secreto de sesión. |  Facebook                                                            |
-| .facebook.com               | fr                       | Contiene un navegador y una identificación de usuario únicos, que se utilizan para publicidad dirigida. |  Facebook                                                            |
-| .facebook.com               | sb                       | Usado para mejorar sugerencias de amigos de Facebook.                                |  Facebook                                                            |
-| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
-| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
-| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
-| .twitter.com                | personalization_id       | La cookie contiene el ID de usuario del usuario que ha iniciado sesión actualmente.  |  Twitter                                                             |
-| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
-| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
-| .pinterest.com              | \_auth                    | La cookie contiene el ID de usuario del usuario que ha iniciado sesión actualmente.  |   Pinterest                                                           |
-| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
-| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
-| .pinterest.com              | \_pinterest_referrer      | La cookie contiene páginas cuando el usuario selecciona el botón Pinterest.      |  Pinterest                                                            |
-| .pinterest.com              | \_pinterest_sess          | La cookie contiene páginas cuando el usuario selecciona el botón Pinterest.      |  Pinterest                                                            |
-| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
-| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
-| .pinterest.com              | cm_sub                   | Contiene un ID de usuario y la marca de tiempo cuando se creó la cookie. |  Pinterest                                                            |
-| .pinterest.com              | csrftoken                | La cookie contiene páginas cuando el usuario selecciona el botón Pinterest.      | Pinterest                                                             |
-| .pinterest.com              | sessionFunnelEventLogged | La cookie contiene páginas cuando el usuario selecciona el botón Pinterest.      | Pinterest                                                             |
-| .pinterest.com              | Almacenamiento local            |                                                              |  Pinterest                                                            |
-| .pinterest.com              | Trabadores de servicios          |                                                              |  Pinterest                                                            |
-
+| Nombre de la cookie                               | Uso                                                        |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| .AspNet.Cookies                             | Almacena las cookies de autenticación de Microsoft Azure Active Directory (Azure AD) para el inicio de sesión único (SSO). Almacena la información principal del usuario cifrada (nombre, apellidos, correo electrónico). |
+| &#95;msdyn365___cart&#95;                           | Almacene el identificador del carrito de la compra para obtener la lista de productos agregados a la instancia del carrito. |
+| &#95;msdyn365___ucc&#95;                            | Seguimiento del consentimiento del cumplimiento de cookies.                          |
+| ai_session                                  | Detecta cuántas sesiones de actividad del usuario han incluido ciertas páginas y características de la aplicación. |
+| ai_user                                     | Detecta cuántas personas usaron la aplicación y sus características. Los usuarios se cuentan utilizando identificaciones anónimos. |
+| b2cru                                       | Almacena de forma dinámica las URL de redireccionamiento.                              |
+| JSESSIONID                                  | Utilizado por el conector de pago Adyen para almacenar la sesión del usuario.       |
+| OpenIdConnect.nonce.&#42;                       | Autentificación                                               |
+| x-ms-cpim-cache:.&#42;                          | Se utiliza para mantener el estado de la solicitud.                      |
+| x-ms-cpim-csrf                              | Token de falsificación de solicitud entre sitios (CRSF) utilizado para la protección contra CRSF.     |
+| x-ms-cpim-dc                                | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. |
+| x-ms-cpim-rc.&#42;                              | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. |
+| x-ms-cpim-slice                             | Se utiliza para enrutar solicitudes a la instancia del servidor de autenticación de producción adecuada. |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Se usa para mantener la sesión SSO.                        |
+| x-ms-cpim-trans                             | Se utiliza para llevar el seguimiento de transacciones (el número de pestañas abiertas que se autentican en un sitio de empresa a cliente (B2C)), incluida la transacción actual. |
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Consentimiento de cookies del usuario del sitio en un sitio de comercio electrónico 
 
@@ -123,6 +73,3 @@ Si una característica o módulo de un sitio de comercio electrónico utiliza un
 [Módulo de consentimiento de cookies](cookie-consent-module.md) 
  
 [Módulo de encabezado](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

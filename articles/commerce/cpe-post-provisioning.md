@@ -1,31 +1,36 @@
 ---
 title: Configurar un entorno de evaluación de Dynamics 365 Commerce
-description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarlo.
+description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarse.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415428"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarlo.
+Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarse.
+
+## <a name="overview"></a>Información general
 
 Complete los procedimientos de este tema solo después de aprovisionar el entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar su entorno de evaluación de Commerce, vea [Provisión de un entorno de evaluación de Commerce](provisioning-guide.md).
 
@@ -39,7 +44,6 @@ Después de que su entorno de evaluación de Commerce se haya aprovisionado de p
 1. Seleccione el entorno en la lista.
 1. En la información del entorno, a la derecha, seleccione **Iniciar sesión en entorno**. Se le enviará a la sede de Commerce.
 1. Asegúrese de que la entidad jurídica **USRT** está seleccionada en la esquina superior derecha.
-2. Vaya a **Parámetros de Commerce > Parámetros de configuración** y asegúrese de que hay una entrada para **ProductSearch.UseAzureSearch** establecida en **true**. Si falta esta entrada, puede agregarla y ejecutar **Base de datos de canal > Sincronización completa** para la unidad de escalado de Commerce asociada con su sitio web de comercio electrónico.
 
 Durante las actividades posteriores al aprovisionamiento en la sede de Commerce, asegúrese de que la entidad jurídica **USRT** siempre esté seleccionada.
 
@@ -107,12 +111,6 @@ Para activar la gestión de trabajos en Commerce, siga estos pasos.
     1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
     1. Haga clic en **Cancelar** y, a continuación, en **Aceptar**.
 
-1. Si el estado del trabajo es **Retenido**, realice los siguientes pasos:
-
-    1. Seleccione el registro.
-    1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
-    1. Seleccione **Esperando** y, a continuación, seleccione **Aceptar**.
-
 Opcionalmente, también puede establecer el intervalo de recurrencia en un (1) minuto para los siguientes trabajos:
 
 * Procesar trabajo de notificación por correo electrónico de pedido comercial
@@ -135,7 +133,7 @@ Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos
 Para realizar transacciones de prueba en el sitio, puede usar esta información de la tarjeta de crédito de prueba:
 
 - **Número de tarjeta:** 4111-1111-1111-1111
-- **Fecha de vencimiento:** 10/30
+- **Fecha de vencimiento:** 10/20
 - **Código de seguridad de la tarjeta (CVV):** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ Para realizar transacciones de prueba en el sitio, puede usar esta información 
 Después de completar los pasos de aprovisionamiento y configuración, podrá comenzar a usar su entorno de evaluación. Use la URL del creador de sitios de Commerce para acceder a la experiencia de creación. Use la URL del sitio de Commerce para ir la experiencia del sitio de cliente minorista.
 
 Para configurar características opcionales para su entorno de evaluación de Commerce, consulte [Configurar características opcionales para un entorno de evaluación de Commerce](cpe-optional-features.md).
-
-> [!NOTE]
-> Los entornos de evaluación de comercio vienen con un inquilino de Azure Active Directory (Azure AD) de empresa-consumidor (B2C) cargado previamente con fines de demostración. Para entornos de evaluación, no es necesario que configure su propio inquilino Azure AD B2C con los pasos que se indican a continuación. Sin embargo, si está configurando el entorno de evaluación para utilizar su propio inquilino Azure AD B2C, asegúrese de agregar ``https://login.commerce.dynamics.com/_msdyn365/authresp`` como URL de respuesta a la aplicación Azure AD B2C a través del Azure Portal.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -162,15 +157,10 @@ Para configurar características opcionales para su entorno de evaluación de Co
 
 [Preguntas frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Configurar un inquilino B2C en Commerce](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

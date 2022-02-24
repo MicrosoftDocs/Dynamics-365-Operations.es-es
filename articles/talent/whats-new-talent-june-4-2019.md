@@ -98,6 +98,3 @@ Una nueva opción permitirá a los directores ver el rendimiento tanto de los in
 ### <a name="print-performance-reviews"></a>Imprimir evaluaciones del rendimiento
 
 Los empleados, los administradores y RR. HH. podrán imprimir la evaluación del rendimiento de un empleado.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

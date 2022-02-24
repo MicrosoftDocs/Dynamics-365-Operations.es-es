@@ -1,10 +1,12 @@
 ---
 title: Configuración de proyecto de orden de trabajo
 description: En este tema se explica la configuración de proyectos de órdenes de trabajo en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754092"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021563"
 ---
 # <a name="work-order-project-setup"></a>Configuración de proyecto de orden de trabajo
 
@@ -69,7 +71,7 @@ La configuración permite una integración completa con el módulo **Gestión de
 
     De forma predeterminada, la fecha inicial es la fecha en que agrega el proyecto de pedido de trabajo a la página. Se controla mediante el campo **Válido desde**, que está oculto de forma predeterminada. Para mostrar el campo **Válido desde**, seleccione **Ver** \> **Todos**. Luego puede utilizar el campo **Válido desde** junto con el campo **Fecha de finalización** para configurar un período de validez limitado para el proyecto de la orden de trabajo.
 
-    ![Página Configuración de proyecto de orden de trabajo.](media/17-setup-for-work-orders.png)
+    ![Página Configuración de proyecto de orden de trabajo](media/17-setup-for-work-orders.png)
 
 6. En la pestaña **Grupo de proyectos** haga clic en **Agregar**.
 7. En el campo **Tipo de orden de trabajo**, seleccione un tipo de orden de trabajo.
@@ -77,12 +79,9 @@ La configuración permite una integración completa con el módulo **Gestión de
 9. En el campo **Grupo de proyectos**, seleccione el grupo de proyectos que debe estar relacionado con el tipo de pedido del trabajo. Por ejemplo, un tipo de pedido de trabajo que se llama **Mantenimiento preventivo** puede estar asociado a un grupo de proyectos que se denomina **Mant ant** o **Interno**. Como alternativa, un tipo de pedido del trabajo **Inversión** que se usa para órdenes de trabajo relacionados con inversiones y activos fijos puede estar asociado un grupo de proyectos que se denomina **Invertir** o **Inversión**.
 10. Seleccione **Guardar**.
 
-![Página Configuración de proyecto de orden de trabajo, Agregar pedido de trabajo.](media/18-setup-for-work-orders.png)
+![Página Configuración de proyecto de orden de trabajo, Agregar pedido de trabajo](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Cada vez que se crea una línea de pedido de trabajo, la administración de activos busca un grupo de proyectos que debe estar relacionado con el proyecto de trabajo de la orden de trabajo. La búsqueda se basa en la configuración que se describe en este tema. Cada grupo de proyectos tiene un tipo de proyecto relacionado. Los grupos de proyectos que tienen el tipo de proyecto **Tiempo y material** o **precio fijo** solo serán válidos para los activos relacionados con una cuenta de cliente.
 >
 > Para los proyectos principales y los grupos de proyectos, cuando el sistema selecciona el proyecto o el grupo de proyectos disponibles de la orden de trabajo, la selección se basa en los registros que ha creado mediante el procedimiento anterior. La administración de activos revisa los registros relacionados con el proyecto de la orden de trabajo para comprobar si hay una posible coincidencia. Comprueba siempre primero la combinación más específica. Es decir, para el proyecto principal de orden de trabajo, la administración de activos primero busca una posible coincidencia para el campo **Activo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Tipo de activo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Ubicación técnica**, y así sucesivamente. Como puede ver en el diseño de la página **Configuración de proyecto de orden de trabajo**, este comportamiento significa que, para encontrar la combinación más específica, Administración de activos comprueba cada registro de derecha a izquierda en busca de una coincidencia. Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde sólo se selecciona un identificador de proyecto. El proceso para encontrar el grupo de proyectos relacionados es similar. Administración de activos primero comprueba si hay una posible coincidencia para el campo **Activo**, luego el campo **Tipo de activo** y, a continuación, el campo **Tipo de orden de trabajo**. Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde sólo se selecciona un grupo de proyectos.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

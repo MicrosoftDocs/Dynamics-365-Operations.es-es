@@ -2,33 +2,32 @@
 title: Migración de cliente potencial a efectivo desde Integrador de datos a escritura dual
 description: Este tema describe cómo migrar un cliente potencial a efectivo desde Integrador de datos a escritura dual.
 author: RamaKrishnamoorthy
-ms.date: 02/01/2022
+manager: AnnBe
+ms.date: 01/04/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2021-01-04
+ms.openlocfilehash: f1478f0246e7f1ff8bd72232cbaf4c2034cf4edb
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087277"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959855"
 ---
-# <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
+# <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migración de cliente potencial a efectivo desde Integrador de datos a escritura dual
 
 [!include [banner](../../includes/banner.md)]
-
-La solución Prospect to cash disponible para Data Integrator no es compatible con escritura dual. La razón de esto es el índice msdynce_AccountNumber en la tabla de cuentas que vino como parte de la solución Prospect to cash. Si este índice existe, no puede crear el mismo número de cuenta de cliente en dos entidades legales diferentes. Puede elegir comenzar de cero con doble escritura migrando los datos de Prospect to cash de Data Integrator a dual-write o puede instalar la última versión "dorman" de la solución Prospect to cash. Este tema cubre ambos enfoques.
-
-## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Instale la última versión "dorman" de Data Integrator Prospect to cash solution
-
-**Versión P2C 15.0.0.2** se considera la última versión "dorman" del integrador de datos Prospect to cash solution. Puede descargarlo desde [FastTrack for Dynamics 365](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/P2C).
-
-Necesita instalarlo manualmente. Después de la instalación, todo permanece exactamente igual, excepto que se elimina el índice msdynce_AccountNumber.
-
-## <a name="steps-to-migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Pasos para migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
 
 Para migrar su cliente potencial a efectivo desde Integrador de datos a escritura dual, siga estos pasos.
 
@@ -99,6 +98,3 @@ Ya que los datos de la tabla **Productos** están diseñados para fluir en una d
 ## <a name="quote-and-quote-product-tables"></a>Tablas de cotización y producto de cotización
 
 Para la tabla **Cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de pedidos](#order-table). Para la tabla **Producto de cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de productos de pedido](#order-products-table).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

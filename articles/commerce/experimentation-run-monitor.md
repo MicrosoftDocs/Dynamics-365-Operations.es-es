@@ -2,9 +2,11 @@
 title: Ejecutar y supervisar un experimento
 description: Este tema describe cómo ejecutar y supervisar un experimento en un servicio de terceros. También describe cómo realizar cambios en las variaciones después de que comenzó el experimento.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba6fb94033e227790e01676819308bb4f0cd6868
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965232"
 ---
 # <a name="run-and-monitor-an-experiment"></a>Ejecutar y supervisar un experimento
 
@@ -28,7 +30,7 @@ Este tema describe cómo ejecutar y supervisar su experimento en una aplicación
 
 El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en temas separados.
 
-[ ![Recorrido del usuario de experimentación: ejecutar y supervisar.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
+[ ![Recorrido del usuario de experimentación: ejecutar y supervisar](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 
 Después de publicar sus variaciones, habrá completado todos los pasos que debe seguir en Commerce para ejecutar su experimento. El siguiente paso es determinar qué variación mostrar a cada usuario cuando solicita una página. El servicio de terceros toma esa determinación, pero primero debe activar el experimento dentro del servicio. Dado que los pasos para activar un experimento varían de un servicio a otro, deberá seguir las instrucciones incluidas con su servicio o proveedor. Si el experimento no está activado, los usuarios solo verán la versión predeterminada de la página; no se mostrarán variaciones.
 
@@ -50,6 +52,3 @@ Si por alguna razón necesita modificar sus variaciones, siga los pasos a contin
 
 ## <a name="next-step"></a>Paso siguiente
 [Promover una variación y completar un experimento](experimentation-review-complete.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: Lista de funciones ER de la categoría de texto.
 description: Este tema proporciona información sobre las funciones de texto que son compatibles con los informes electrónicos (ER).
 author: NickSelin
-ms.date: 09/09/2021
+manager: kfend
+ms.date: 04/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075509"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686036"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funciones ER de la categoría de texto.
 
@@ -35,14 +38,12 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 | [Concatenar](er-functions-text-concatenate.md) | Esta función devuelve todas las cadenas de texto especificadas como un valor *Cadena* después de que se hayan unido en una cadena. |
 | [Formato](er-functions-text-format.md) | Esta función devuelve la cadena especificada un valor *Cadena* tras haber sido formateado sustituyendo cualquier aparición de **%N** con el argumento *N*. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Esta función busca un valor específico *Enum* en el origen de datos de enumeración especificado utilizando el nombre de enumeración que se especifica como valor *Cadena*. Si el valor *Enum* se encuentra, la función lo devuelve. |
-| [GetLabelText](er-functions-text-getlabeltext.md) | Esta función busca una etiqueta específica para devolver un valor de *[cadena](er-formula-supported-data-types-primitive.md#string)* que representa la traducción de la etiqueta especificada en el idioma especificado. |
 | [GuidValue](er-functions-text-guidvalue.md) | Esta función convierte la entrada especificada del tipo *Cadena* a un elemento de datos del tipo *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Esta función analiza los datos en formato JavaScript Object Notation (JSON) a los que se accede por la ruta especificada y extrae un valor scalar que se basa en el Id. especificado. Luego devuelve el valor escalar extraído como valor *Cadena*. |
 | [Izquierdo](er-functions-text-left.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres desde el inicio de la cadena especificada. |
 | [Len](er-functions-text-len.md) | Esta función devuelve un valor *Entero* que presenta el número de caracteres en la cadena especificada. |
 | [Lower](er-functions-text-lower.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que se haya convertido a letras minúsculas. |
-| [Mid](er-functions-text-mid.md) | Esta función devuelve un valor *[Cadena](er-formula-supported-data-types-primitive.md#string)* que presenta el número especificado de caracteres de la cadena especificada, empezando en la posición especificada. |
-| [NewGUID](er-functions-text-newguid.md) | Esta función devuelve un valor de *[ GUID](er-formula-supported-data-types-primitive.md#guid)* generado recientemente. |
+| [Mid](er-functions-text-mid.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres de la cadena especificada, empezando en la posición especificada. |
 | [NumberFormat](er-functions-text-numberformat.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado en el formato especificado y en una cultura opcional especificada. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Esta función devuelve el número especificado como un valor *Cadena* después de que se haya deletreado (es decir, convertido a cadenas de texto) en el idioma especificado. |
 | [PadLeft](er-functions-text-padleft.md) | Esta función devuelve un valor *Cadena* del largo especificado, en el que el comienzo de la cadena especificada cuenta con uno o más casos de los caracteres especificados. |
@@ -61,6 +62,3 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Idioma de fórmulas en los informes electrónicos](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

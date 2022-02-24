@@ -2,28 +2,29 @@
 title: Perfiles de clasificación
 description: Este tema describe cómo configurar datos para perfiles de clasificación.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af9051c6bbaed311f1f841a82dfd145633acab2c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c54e7457813774027debd301d9a0bf8ce1b6d47
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574818"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646431"
 ---
 # <a name="rating-profiles"></a>Perfiles de clasificación
-
-[!include [banner](../../includes/banner.md)]
 
 Un perfil de calificación se parece a un contrato de logística (pero no a un contrato legal). Se utiliza para determinar las tarifas de transporte de cargas. 
 
@@ -60,6 +61,3 @@ Sobre la página **Perfiles de calificación**, puede revisar todos los perfiles
 
 > [!NOTE]
 > Perfiles que se crean en la página **Transportistas de envío** también se muestran en la página **Perfiles de calificación**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

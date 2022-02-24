@@ -2,12 +2,15 @@
 title: Enviar pedidos desde otra tienda mediante la características de envío Caro
 description: Este tema describe la característica de envío Cargo.
 author: ashishmsft
+manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8c9c435c9ef8f692551a216d72a76f8a71b4ce6dc03dc6b13c23364a0aa81662
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746708"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415526"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Enviar pedidos desde otra tienda mediante la características de envío Caro
 
@@ -39,6 +42,3 @@ La característica de envío Cargo utiliza las siguientes operaciones de PDV: En
 La capacidad para seleccionar direcciones de “envío a” se mantiene sin cambio.
 
 Los métodos de envío que se pueden usar para cumplir la línea de pedido se basan en la configuración de modos válidos de entrega de productos y direcciones. Dado que las reglas sobre modos válidos de entrega sólo se mantienen en la Central el cliente de PDV realiza una llamada en tiempo real para capturar los modos de entrega válidos para una línea de envío.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

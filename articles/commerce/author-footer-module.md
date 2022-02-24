@@ -2,24 +2,27 @@
 title: Módulo de pie de página
 description: En este tema se tratan los módulos de pie de página y cómo crearlos en Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719995"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415515"
 ---
 # <a name="footer-module"></a>Módulo de pie de página  
 
@@ -27,11 +30,13 @@ ms.locfileid: "6719995"
 
 En este tema se tratan los módulos de pie de página y se describe cómo crearlos en Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Visión general
+
 El módulo de pie de página es un contenedor especial que se usa para hospedar los módulos que aparecen en el pie de página. Por ejemplo, puede incluir vínculos a las diversas páginas de todo el sitio, como las páginas **Ponerse en contacto con nosotros** y **Directivas de la tienda**.
 
 La siguiente imagen muestra un ejemplo de un módulo de pie de página en una página de sitio.
 
-![Ejemplo de módulo de pie de página.](./media/ecommerce-footer.PNG)
+![Ejemplo de módulo de pie de página](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Propiedades del módulo de pie de página 
 
@@ -82,6 +87,3 @@ Al agregar el fragmento a plantillas de página, ayuda a garantizar que el pie d
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

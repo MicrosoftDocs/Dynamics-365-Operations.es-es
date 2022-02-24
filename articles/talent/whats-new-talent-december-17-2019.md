@@ -56,6 +56,3 @@ Los cambios de esta semana corrigen un problema que impedía generar días de ca
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>El informe de saldo actual en licencia de PBI duplica el saldo de empleado (385581)
 
 Este cambio corrige el informe de saldo actual en este escenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

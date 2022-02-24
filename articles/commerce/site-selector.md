@@ -2,12 +2,15 @@
 title: Módulo selector de sitio
 description: En este tema se trata el modulo selector de sitio y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a5f6f6e3ff459447aa4b3c0058b5526c9e8d1038a5d2629eefbed197012aebf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772237"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665232"
 ---
-# <a name="site-selector-module"></a>Módulo de selector de sitios
+# <a name="site-selector-module"></a>Módulo selector de sitio
 
 [!include [banner](includes/banner.md)]
 
 En este tema se trata el modulo selector de sitio y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 Cuando una empresa tiene diferentes sitios en mercados, regiones y locales, los usuarios del sitio necesitan una forma fácil de cambiar entre sitios y seleccionar su sitio de compras preferido. Para hacer posible este escenario, el módulo selector de sitio permite a los usuarios navegar en varios sitios.
 
@@ -37,7 +42,7 @@ El módulo selector de sitio debe configurarse con la lista de sitios (mercados,
 
 La siguiente ilustración muestra un ejemplo de un módulo selector de sitio que aparece en el encabezado de una página de sitio.
 
-![Ejemplo de un módulo selector de sitio en el encabezado de una página de sitio.](./media/ecommerce-sitepicker.PNG)
+![Ejemplo de un módulo selector de sitio en el encabezado de una página de sitio](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Propiedades del módulo selector de sitio
 
@@ -59,6 +64,3 @@ El módulo selector de sitio se puede agregar al [Módulo de encabezado](author-
 [Módulo de navegación](add-breadcrumb.md)
 
 [Módulo de menú de navegación](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

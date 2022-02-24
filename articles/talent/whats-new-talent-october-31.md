@@ -97,6 +97,3 @@ Se ha actualizado la entidad del marco de gestión de datos HcmPersonalContactPe
 ## <a name="known-issue"></a>Problema conocido
 - **Emisión**: Al agregar un nuevo archivo adjunto a un trabajador, los botones **Nuevo** y **Editar** se atenúan. 
 - **Solución alternativa:** Antes de abrir la página de los datos adjuntos, asegúrese de que los cuadros informativos en la página **Trabajador** estén cerrados. Si se cierran los cuadros informativos cuando la página **Trabajador** se carga, los botones de datos adjuntos se habilitan. (Este problema se corregirá en la siguiente actualización de la plataforma).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

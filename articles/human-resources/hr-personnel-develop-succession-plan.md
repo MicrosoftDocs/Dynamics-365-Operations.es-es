@@ -1,63 +1,62 @@
 ---
-title: Desarrollar un plan de sucesión
-description: A medida que la organización crece, debe comenzar a planificar la sucesión.
-author: twheeloc
-ms.date: 10/28/2021
+title: Desarrollar plan de sucesión
+description: A medida que crece la organización y se considera la planificación de recursos, puede que desee buscar alguien que tenga aptitudes similares a las de otra persona.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adcb7387b9ac21a88c1ee047d1b9573708a14abb
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068878"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420351"
 ---
-# <a name="develop-a-succession-plan"></a>Desarrollar un plan de sucesión
+# <a name="develop-succession-plan"></a>Desarrollar plan de sucesión
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+A medida que crece la organización y se considera la planificación de recursos, puede que desee buscar alguien que tenga aptitudes similares a las de otra persona.  La distribución de perfiles le permite analizar a los empleados existentes y a los candidatos para considerar si coinciden con el conjunto de aptitudes de un empleado valorado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
-A medida que la organización crece, debe comenzar a planificar la sucesión. Durante la planificación de la sucesión, es posible que desee encontrar a alguien que tenga aptitudes similares a las de otra persona. La asignación de aptitudes permite analizar a los empleados existentes y a los candidatos para ver si tienen las mismas aptitudes que un empleado valorado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
-
-1. Vaya a **Recursos humanos > Competencias > Análisis de aptitudes > Perfiles de asignación de aptitudes**.
-2. Seleccione **Nuevo**.
-3. En el campo **Asignación de aptitudes**, especifique un nombre para la asignación de aptitudes. Ejemplo: Empleado.
-4. En el campo **Descripción**, escriba un valor.
-5. En el campo **Fecha**, escriba una fecha.
-6. Seleccione **Recuperar perfil**.
-7. Seleccione **Persona**.
-8. En el campo **Persona**, escriba un nombre o seleccione la ficha desplegable.
-9. Seleccione **Aceptar**.
-10. Expanda la ficha desplegable **Certificados** para ver o editar los certificados incluidos en la asignación de aptitudes.
-11. Expanda la ficha desplegable **Aptitudes** para ver o editar las aptitudes que se deben incluir.
-12. En la lista, marque la primera fila. Ejemplo: Contabilidad.
-13. Active la casilla **Opcional**.
-14. En el campo **Importancia**, seleccione una opción. Al marcar una aptitud como opcional, debe seleccionar el nivel de importancia de la aptitud.  
+1. Vaya a Recursos humanos > Competencias > Análisis de aptitudes > Perfiles de distribución de perfiles.
+2. Haga clic en Nuevo.
+3. En el campo Distribución de perfiles, especifique un nombre para la distribución de perfiles.  Ejemplo: Empleado.
+4. En el campo Descripción, escriba un valor.
+5. En el campo Fecha, escriba una fecha.
+6. Haga clic en Recuperar perfil.
+7. Haga clic en Persona.
+8. En el campo Persona, escriba un nombre o seleccione la ficha desplegable.  Ejemplo: Cassie Hicks.
+9. Haga clic en Aceptar.
+10. Expanda la ficha desplegable Certificados para ver o editar los certificados incluidos en la distribución de perfiles.
+11. Expanda la ficha desplegable Aptitudes para ver o editar las aptitudes que se deben incluir.
+12. En la lista, marque la primera fila.  Ejemplo: Contabilidad
+13. Haga clic en la casilla Opcional.
+14. En el campo Importancia, seleccione una opción.
+    * Al marcar una aptitud como opcional, se le requiere seleccionar el nivel de importancia de la aptitud.  
 15. En la lista, seleccione la fila 2.
-16. Active la casilla **Opcional**.
-17. En el campo **Importancia**, seleccione una opción.
+16. Haga clic en la casilla Opcional.
+17. En el campo Importancia, seleccione una opción.
 18. En la lista, seleccione la fila 3.
-19. Active la casilla **Opcional**.
-20. En el campo **Importancia**, seleccione una opción.
+19. Haga clic en la casilla Opcional.
+20. En el campo Importancia, seleccione una opción.
 21. En la lista, seleccione la fila 4.
-22. Active la casilla **Opcional**.
-23. En el campo **Importancia**, seleccione una opción.
-24. Expanda la ficha desplegable **Formación** para ver o editar las capacidades de formación que se incluirán en la asignación de aptitudes.
-25. Seleccione **Ejecutar**.
-26. Seleccione **Aceptar**.
-27. Seleccione **Resultado**.
-28. Seleccione **Informe**. El informe muestra las mejores coincidencias en la parte superior del informe. Puede ver en la lista un elemento de laguna. Una laguna es la diferencia entre el nivel de asignación de aptitudes y el nivel de las aptitudes de la persona.  
+22. Haga clic en la casilla Opcional.
+23. En el campo Importancia, seleccione una opción.
+24. Expanda la ficha desplegable Formación para ver o editar las capacidades de formación que se incluirán en la distribución de perfiles.
+25. Haga clic en Ejecutar.
+26. Haga clic en Aceptar
+27. Haga clic en Resultado.
+28. Haga clic en Informe.
+    * El informe enumerará las mejores coincidencias en la parte superior del informe.  Puede ver que hay un hueco en los elementos enumerados.  Esta es la diferencia entre el nivel que se muestra en la distribución de perfiles y el nivel de la aptitud que está asignado a la persona.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

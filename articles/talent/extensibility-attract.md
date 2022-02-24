@@ -91,6 +91,3 @@ La actividad de contenido Web (iframe) le permite insertar una solución web per
 
 > [!NOTE]
 > La actividad de contenido web está disponible únicamente con el complemento de contratación completo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

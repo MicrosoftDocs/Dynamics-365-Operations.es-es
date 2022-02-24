@@ -110,6 +110,3 @@ Esta versión corrige un problema que se produce cuando se elimina un diario de 
 ### <a name="print-performance-reviews"></a>Imprimir evaluaciones del rendimiento
 
 Consulte [Imprimir evaluaciones del rendimiento](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) en el plan de la oleada 2 de la versión Dynamics 365: 2019.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

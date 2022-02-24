@@ -2,13 +2,16 @@
 title: Cancelar recomendaciones personalizadas
 description: Este tema explica cómo puede permitir que los clientes opten por no recibir recomendaciones personalizadas en Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,18 +19,20 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415507"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Cancelar recomendaciones personalizadas
 
 [!include [banner](includes/banner.md)]
 
 Este tema explica cómo puede permitir que los clientes opten por no recibir recomendaciones personalizadas en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 Durante la creación de la cuenta, los nuevos clientes se configuran automáticamente para recibir recomendaciones personalizadas. Sin embargo, Dynamics 365 Commerce proporciona diversas formas para que los minoristas permitan a los usuarios optar por no recibir estas recomendaciones y restringir el procesamiento de sus datos personales. Los usuarios autenticados que opten por no recibir recomendaciones personalizadas dejarán de ver inmediatamente listas personalizadas. Además, todos los datos personales que se recopilan para la personalización se eliminarán de los modelos de recomendaciones personalizadas.
 
@@ -44,11 +49,11 @@ En la gestión de cuentas de la oficina administrativa de Commerce, los minorist
 1. Desde la página de inicio del área de operaciones, busque **todos los clientes**.
 1. Busque y seleccione un cliente, y luego seleccione la ficha desplegable **Retail**.
 
-    ![Ficha desplegable Retail.](./media/Disablepersonalizationpart1.png)
+    ![Ficha desplegable Retail](./media/Disablepersonalizationpart1.png)
 
 1. Debajo de **Privacidad**, establezca la opción **Deshabilitar personalización** en **Sí**.
 
-    ![Configuración de privacidad.](./media/Disablepersonalizationpart2.png)
+    ![Configuración de privacidad](./media/Disablepersonalizationpart2.png)
 
 1. Seleccione **Guardar** y cierre la página.
 
@@ -99,6 +104,3 @@ El siguiente ejemplo muestra cómo un minorista puede realizar esta tarea.
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

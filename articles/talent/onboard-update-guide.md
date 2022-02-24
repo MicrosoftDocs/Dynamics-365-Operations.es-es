@@ -52,6 +52,3 @@ Onboard automáticamente enviará al nuevo empleado contratado un correo electr�
     ![[Insertar los cambios de una plantilla de incorporación en todas las guías de incorporación creadas desde ella](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Los cambios serán visibles para los nuevos empleados contratados que abran las guías de incorporación. Sin embargo, Onboard no enviará avisos de correo electrónico a los nuevos contratados para informarles de que la guía de incorporación ha cambiado. Para facilitar la identificación, aparecerá una etiqueta roja indicando **Nuevo** junto a cada cambio. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

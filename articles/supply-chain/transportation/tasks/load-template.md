@@ -2,28 +2,29 @@
 title: Cargar plantillas
 description: Este tema describe cómo configurar plantillas de carga y cómo asociar una plantilla de carga a una nueva carga.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 694860d1ade74f9fd51a8ac579aa69fe7fb673a8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ea7f5244b483a1b9d6c55227c676a3878a71d83
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569922"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646432"
 ---
 # <a name="load-templates"></a>Cargar plantillas
-
-[!include [banner](../../includes/banner.md)]
 
 Cuando crea una nueva carga, puede asignar una plantilla de carga. La plantilla de carga contiene información sobre el equipo y sobre medidas como la altura, el ancho, la profundidad y el volumen de la carga.
 
@@ -53,6 +54,3 @@ Este tema describe cómo configurar plantillas de carga y cómo asociar una plan
 1. En el panel de acciones, en la ficha **Suministro y demanda**, en el grupo **Agregar**, seleccione **A una carga nueva**.
 1. En el cuadro de diálogo **Cargar plantilla**, en el campo **Cargar Id. de plantilla**, seleccione la plantilla para aplicar.
 1. Seleccione **Aceptar** para aplicar la plantilla.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

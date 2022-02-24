@@ -2,24 +2,27 @@
 title: Informes de listas de ventas de la UE
 description: Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 12811
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33a17461038d3e81d3f3a827e52c9cfd781a5874d45c262ee9006564fb3d489d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68cbd8d3495f8c10c57fa0751fabb03a6946c7dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780349"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407800"
 ---
 # <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
 
@@ -27,7 +30,8 @@ ms.locfileid: "6780349"
 
 Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 
-## <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
+<a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
+-----------------------
 
 Un proveedor que está suministrando mercancías o servicios intracomunitarios a empresas que se encuentran dentro de la Unión Europea (EU) debe enviar una declaración de suministros intracomunitarios (lista de ventas de la UE o ESL). El ESL debe ser enviado normalmente a las autoridades fiscales antes del último día del mes tras el período de calendario que cubre el ESL. El proveedor debe constatar el número de identificación fiscal (IVA) en el ESL y también debe constatar, por cliente, la siguiente información:
 
@@ -156,6 +160,3 @@ Cuando haya completado el proceso de notificación para un período específico 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

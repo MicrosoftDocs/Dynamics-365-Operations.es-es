@@ -2,24 +2,27 @@
 title: Visión general de la gestión de documentos empresariales
 description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
-ms.date: 04/23/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 12/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986260"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740965"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -44,9 +47,9 @@ Para usar la gestión de documentos empresariales para editar plantillas en form
 
 ## <a name="business-document-availability"></a>Disponibilidad de los documentos empresariales
 
-Para ver una lista completa de todos los informes previstos para la versión de octubre de 2019, consulte [Informes de documentos empresariales configurables en Word y Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Para ver una lista completa de todos los informes previstos para la versión de octubre de 2019, consulte [Informes de documentos empresariales configurables en Word y Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Para ver una lista completa de todos los informes previstos para la versión de octubre de 2020, consulte [Documentos empresariales configurables: plantillas de Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Para ver una lista completa de todos los informes previstos para la versión de octubre de 2020, consulte [Documentos empresariales configurables: plantillas de Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Más informes estarán disponibles en versiones futuras. Las notificaciones especiales sobre informes adicionales se enviarán por separado. Para saber cómo revisar la lista de informes disponibles actualmente, consulte la siguiente sección [Lista de configuraciones de informes electrónicos que se han publicado en Finance para admitir documentos empresariales configurables](#list-of-configurations-cbd).
 
@@ -56,7 +59,7 @@ Para obtener más información acerca de esta característica, complete el ejemp
 
 Dado que la gestión de documentos empresariales aprovecha el marco de ER, debe configurar los parámetros de ER para empezar a trabajar con la gestión de los documentos empresariales. Para ello, debe configurar los parámetros de ER como se describe en [Configurar el informe electrónico (ER)](electronic-reporting-er-configure-parameters.md). También debe agregar un nuevo proveedor de configuración como se describe en [Crear proveedores de configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Espacio de trabajo de ER.](./media/BDM-Overview-ERSetting.png)
+![Espacio de trabajo de ER](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Importar soluciones de ER
 
@@ -66,22 +69,22 @@ Los ejemplos de configuraciones de ER se utilizan en el ejemplo de este procedim
 
 | Archivo                                      | Contenido |
 |-------------------------------------------|---------|
-| Customer invoicing model.version.2.xml    | [Configuración del modelo datos de ER](https://download.microsoft.com/download/b/f/a/bfa5cb52-e6e2-42bc-a4c0-77014a4c54e6/Customerinvoicingmodel.version.2.xml) |
-| Customer FTI report (GER).version.2.3.xml | [Configuraciones del formato de ER para facturas de servicios](https://download.microsoft.com/download/3/c/2/3c2e58f2-6e56-43d9-85ea-4c97252a108d/CustomerFTIreportGER.version.2.3.xml) |
+| Customer invoicing model.version.2.xml    | [Configuración del modelo datos de ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Customer FTI report (GER).version.2.3.xml | [Configuraciones del formato de ER para facturas de servicios](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Solución de cheques de pago de ER de ejemplo**
 
 | Archivo                                     | Contenido |
 |------------------------------------------|---------|
-| Model for cheques.version.10.xml         | [Configuración del modelo datos de ER](https://download.microsoft.com/download/3/7/6/376cb0f6-181a-4895-a432-390ffca64162/Modelforcheques.version.10.xml) |
-| Cheques printing format.version.10.9.xml | [Configuración del formato de ER para cheques de pago](https://download.microsoft.com/download/6/d/6/6d61bfff-3d89-4377-9e34-2e3ee6d6df91/Chequesprintingformat.version.10.9.xml) |
+| Model for cheques.version.10.xml         | [Configuración del modelo datos de ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Cheques printing format.version.10.9.xml | [Configuración del formato de ER para cheques de pago](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Solución de comercio exterior de ER de ejemplo**
 
 | Archivo                             | Contenido |
 |----------------------------------|---------|
-| Intrastat model.version.1.xml    | [Configuración del modelo datos de ER](https://download.microsoft.com/download/2/0/0/200d6ed1-eff8-48ec-ab75-175a4acf9714/Intrastatmodel.version.1.xml) |
-| Intrastat report.version.1.9.xml | [Configuración del formato de ER para informes de control de intrastat](https://download.microsoft.com/download/7/a/2/7a2a27c3-a8a5-42a1-9d04-f0a8e1ec1707/Intrastatreport.version.1.9.xml) |
+| Intrastat model.version.1.xml    | [Configuración del modelo datos de ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Intrastat report.version.1.9.xml | [Configuración del formato de ER para informes de control de intrastat](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Use el procedimiento siguiente para importar cada archivo. Importe la configuración del *modelo de datos* de ER de cada solución de ER en las tablas de más arriba antes importar la configuración correspondiente del *formato* de ER.
 
@@ -91,11 +94,11 @@ Use el procedimiento siguiente para importar cada archivo. Importe la configurac
 4. Seleccione **Explorar** para cargar el archivo XML requerido.
 5. Seleccione **Aceptar** para confirmar la importación de la configuración.
 
-![Importar configuraciones de confirmación de la página de configuraciones de informes electrónicos.](./media/BDM-Overview-ERSolutions.png)
+![Importar configuraciones de confirmación de la página de configuraciones de informes electrónicos](./media/BDM-Overview-ERSolutions.png)
 
 Como alternativa, puede importar las configuraciones de formato de ER publicadas oficialmente desde Microsoft Dynamics Lifecycle Service (LCS). Por ejemplo, para completar este procedimiento puede importar la última versión de la configuración del formato de ER **Factura de servicios (Excel)**. El modelo de datos de ER correspondiente y las configuraciones de asignación de modelo de ER se importarán automáticamente.
 
-![Página de contenido de la biblioteca de activos compartidos de LCS.](./media/BDM-Overview-SharedAssetLibrary.png)
+![Página de contenido de la biblioteca de activos compartidos de LCS](./media/BDM-Overview-SharedAssetLibrary.png)
 
 Para obtener más información acerca de la importación de las configuraciones de ER, consulte [Gestionar el ciclo de vida de la configuración de ER](general-electronic-reporting-manage-configuration-lifecycle.md).
 
@@ -135,7 +138,7 @@ Para este tipo de documento, los valores de atributo siguientes se deben selecci
 
 Para obtener información sobre cómo configurar los parámetros de gestión de documentos requeridos y los tipos de documentos, consulte [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md).
 
-![Configurar el tipo de documento para la gestión de documentos.](./media/BDM-Overview-DMSetting.png)
+![Configurar el tipo de documento para la gestión de documentos](./media/BDM-Overview-DMSetting.png)
 
 ### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Configurar parámetros
 
@@ -153,7 +156,7 @@ Use el procedimiento siguiente para configurar parámetros básicos para todas l
 > [!NOTE]
 > Solo los tipos de documento que se configuran con una ubicación de SharePoint están disponibles para este parámetro.
 
-![Configurar los parámetros para la gestión de documentos empresariales.](./media/BDM-Overview-BDMSetting.png)
+![Configurar los parámetros para la gestión de documentos empresariales](./media/BDM-Overview-BDMSetting.png)
 
 El tipo de documento seleccionado es específico de una empresa y se usará cuando el usuario esté trabajando con la gestión de documentos empresariales en la empresa para la que se configuró el tipo de documento seleccionado. Cuando el usuario esté trabajando con la gestión de documentos empresariales en otra empresa, se usará el mismo tipo de documento seleccionado si no se hubiera configurado uno para esta empresa. Cuando se ha configurado un tipo de documento, se usará en lugar del seleccionado en el campo **Tipo de documento de SharePoint**.
 
@@ -164,7 +167,7 @@ El tipo de documento seleccionado es específico de una empresa y se usará cuan
 
 De forma predeterminada, cuando no se habilita el acceso a los permisos de la gestión de documentos empresariales, cada usuario con acceso al espacio de trabajo de la gestión de documentos empresariales verá todas las plantillas de la solución de ER disponibles. El espacio de trabajo de gestión de documentos empresariales mostrará solo las plantillas que residen en configuraciones del formato de ER y que están marcadas por una etiqueta **Tipo de documento empresarial**.
 
-![Página de configuraciones de informes electrónicos con etiqueta de tipo de documento empresarial.](./media/BDM-Overview-ERFormatTags.png)
+![Página de configuraciones de informes electrónicos con etiqueta de tipo de documento empresarial](./media/BDM-Overview-ERFormatTags.png)
 
 La lista de plantillas disponibles en el espacio de trabajo de la gestión de documentos empresariales se puede limitar configurando permisos de acceso. Esto puede ser importante cuando distintas plantillas se usan para preparar documentos empresariales para distintos dominios de negocio (áreas funcionales), y desea permitir el acceso de usuarios específicos a plantillas diferentes para editar en el espacio de trabajo de la gestión de documentos empresariales.
 
@@ -180,19 +183,19 @@ Use el procedimiento siguiente para configurar el acceso a los permisos de gesti
 
     Preste atención a la notificación que le indica que el uso de los permisos de acceso para la gestión de documentos empresariales no está habilitado actualmente.
 
-    ![Configurador de la página de los permisos de gestión de documentos empresariales.](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Configurador de la página de los permisos de gestión de documentos empresariales](./media/BDM-Overview-TemplatesAccess1.png)
 
     Con esta configuración, cada usuario asignado a cualquier rol de seguridad configurado para ejercer el derecho **Gestionar plantillas de documentos empresariales** (nombre AOT **ERBDManageTemplates**) podrá abrir el espacio de trabajo de gestión de documentos empresariales y editar cualquier plantilla que esté disponible.
 
     En el gráfico siguiente se muestra lo que está disponible en el espacio de trabajo de gestión de documentos empresariales para los usuarios asignados al rol **Funcionario de clientes** . Con el parámetro de permisos de acceso actual, el usuario puede editar plantillas de documentos empresariales de varias áreas funcionales incluidas la facturación, la generación de informes normativos y los pagos.
 
-    ![Página del espacio de trabajo de administración de documentos empresariales para el funcionario de clientes.](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Página del espacio de trabajo de administración de documentos empresariales para el funcionario de clientes](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. En la página **Configurador de permisos de acceso**, seleccione **Configuración de permisos de acceso**.
 4. En el cuadro de diálogo **Configuración de los permisos de acceso para editar plantillas**, habilite la opción **Aplicar permisos de acceso configurados**.
 5. Seleccione **Aceptar** para confirmar que se han habilitado los permisos de gestión de documentos empresariales.
 
-    ![Confirmar los permisos de gestión de documentos empresariales.](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Confirmar los permisos de gestión de documentos empresariales](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Seleccione **Agregar** para especificar un nuevo rol de negocio para el que es preciso que los permisos para acceder a las plantillas de la gestión de documentos empresariales estén configurados.
 7. En el cuadro de diálogo **Roles de seguridad**, seleccione el rol **Funcionario de clientes** y después seleccione **Aceptar** para confirmar el rol de la selección.
@@ -204,7 +207,7 @@ Use el procedimiento siguiente para configurar el acceso a los permisos de gesti
 
 11. Cambiar el panel **Información relacionada** desde el lado derecho de la página actual. El panel **Información relacionada** muestra cómo los permisos de acceso configurados se aplicarán, incluido qué plantillas de configuración de ER estarán disponibles para los usuarios que están asignados al rol **Funcionario de clientes**.
 
-    ![Panel de información relacionada sobre la página Configurador de permisos de acceso.](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Panel de información relacionada sobre la página Configurador de permisos de acceso](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. En la pestaña **Permisos de acceso por configuraciones**, seleccione el botón **Agregar**.
 13. En el cuadro de diálogo **Seleccionar configuración**, marque la configuración del formato de ER **Informe de intrastat**.
@@ -215,11 +218,11 @@ La configuración actual significa que para cualquier usuario asignado al rol **
 - Plantillas que tienen el valor **Facturación** para la etiqueta **Área funcional**.
 - Plantillas de las configuraciones de formato de ER que se enumeran en la pestaña **Permisos de acceso por configuraciones** (plantillas de la configuración del formato **Informe de intrastat** del dominio **Informes estatutarios** en este ejemplo).
 
-![Fichas desplegables de permisos de acceso en la página Configurador de permisos de acceso.](./media/BDM-Overview-TemplatesAccess4.png)
+![Fichas desplegables de permisos de acceso en la página Configurador de permisos de acceso](./media/BDM-Overview-TemplatesAccess4.png)
 
 En el gráfico siguiente se muestra lo que el espacio de trabajo de gestión de documentos empresariales proporciona a los usuarios asignados al rol **Funcionario de clientes**. Con el valor de permisos de acceso actual de la gestión de documentos empresariales, el usuario puede editar plantillas de documentos empresariales del dominio **Facturación** y la configuración del formato de ER **Informe de intrastat** . Las plantillas del dominio **Pagos** no están accesibles para el rol **Funcionario de clientes** .
 
-![Plantillas de edición de documentos empresariales en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-TemplatesForAlice2.png)
+![Plantillas de edición de documentos empresariales en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > Las reglas de **Permisos de acceso por configuraciones** se almacenan usando el identificador único de una configuración de formato de ER. Esto significa que estas reglas no se eliminarán cuando se elimine una configuración de ER que hace referencia a todas ellas. Al importar las configuraciones eliminadas de nuevo a esta instancia, estas reglas volverán a referirse a ellas. No es necesario configurar las reglas de nuevo tras volver a importar las configuraciones eliminadas.
@@ -241,7 +244,7 @@ Cuando la función **Experiencia de UI similar a la de la oficina para la gesti�
 - Plantillas que son propiedad de su proveedor de configuración de ER (es decir, el proveedor que actualmente está marcado como activo en el espacio de trabajo **Informes electrónicos**). Después de seleccionar una de estas plantillas, puede seleccionar **Editar plantilla** para comenzar o continuar editándola.
 - Plantillas que son propiedad de otros proveedores de configuración de ER. Después de seleccionar una de estas plantillas, puede seleccionar **Nuevo documento** para crear una copia que sea propiedad de su proveedor de configuración de ER y luego empezar a editar la copia.
 
-![Listas de plantillas en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-EditingTemplate1.png)
+![Listas de plantillas en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-EditingTemplate1.png)
 
 La pestaña **Plantilla** muestra el contenido de la plantilla seleccionada. Seleccione la pestaña **Detalles** para revisar los detalles de la plantilla seleccionada así como los detalles de una configuración del formato de ER donde resida esta plantilla. Observe que todas las plantillas tienen un estado de **Publicada**, y no contienen detalles en la columna **Revisión**. Esto significa que estas plantillas no se están editando actualmente.
 
@@ -254,7 +257,7 @@ Para trabajar con plantillas que son propiedad de otros proveedores de configura
 1. En el espacio de trabajo de gestión de documentos empresariales, seleccione la plantilla **Formato de impresión de cheques** en la lista.
 2. Seleccionar la pestaña **Detalles**.
 
-![Página del espacio de trabajo de la administración de documentos empresariales, pestaña Detalles.](./media/BDM-Overview-EditingTemplate2.png)
+![Página del espacio de trabajo de la administración de documentos empresariales, pestaña Detalles](./media/BDM-Overview-EditingTemplate2.png)
 
 La opción **Editar plantilla** está disponible para la plantilla seleccionada. Esta opción está siempre disponible para una plantilla en una configuración de formato de ER propiedad del proveedor de la configuración de ER activa (**Litware, Inc.** en este ejemplo). Cuando se selecciona **Editar plantilla**, la plantilla existente de la versión de borrador de la configuración del formato de ER subyacente estará disponible para editar.
 
@@ -262,32 +265,16 @@ La opción **Editar plantilla** está disponible para la plantilla seleccionada.
 
 1. En el espacio de trabajo de administración de documentos empresariales, seleccione el documento que desea usar como plantilla.
 
-    ![Seleccionar un documento en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-EditingTemplate3.png)
+    ![Seleccionar un documento en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-EditingTemplate3.png)
 
 2. Seleccione **Nuevo documento** y, en el campo **Título**, cambie el título de la plantilla editable si es necesario. El texto se usará para asignar un nombre a configuración del formato de ER que se crea automáticamente. Tenga en cuenta que la versión del borrador de esta configuración (**Copia de informe FTI de cliente (GER)**) que incluirá la plantilla editada se marcará automáticamente para ejecutar este formato de ER para el usuario actual. Al mismo tiempo, la plantilla original no modificada de la configuración del formato básico de ER se usará para ejecutar este formato de ER para cualquier otro usuario.
 3. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
 4. En el campo **Comentario**, cambie el comentario para la revisión creada automáticamente de la plantilla editable.
 5. Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
-![Confirmar el inicio del proceso de edición para crear una nueva plantilla.](./media/BDM-Overview-EditingTemplate4.png)
-
-Si no hay ningún proveedor, se ofrecerá crear. Si no hay un proveedor activo, se le ofrecerá elegirlo para activarlo.
-
-Para crear un proveedor, cambie el nombre del proveedor en el campo **Nombre**, actualice la dirección de Internet del nuevo proveedor en el campo **Dirección de Internet** y seleccione **Aceptar** para confirmar.
-
-   ![Crear nuevo proveedor en BDM.](./media/bdm_create_provider.png)
-
-Para activar el proveedor existente, elija el nombre del proveedor en el campo **Proveedor de configuración** y seleccione **Aceptar** para configurar el proveedor como activo.
-
-   ![Activar proveedor en BDM.](./media/bdm_choose_provider.png)
-
-> [!NOTE]
-> Cada plantilla BDM hace referencia al proveedor como autor de la configuración. Es por eso que se requiere un proveedor activo para la plantilla.
-
+![Confirmar el inicio del proceso de edición para crear una nueva plantilla](./media/BDM-Overview-EditingTemplate4.png)
 
 La opción **Nuevo documento** está siempre disponible para una plantilla en una configuración de formato de ER que proporciona el actual y otro proveedor (Microsoft en este ejemplo) sin ninguna revisión. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
-
-
 
 ### <a name="start-editing-a-template"></a>Comenzar a editar plantillas
 
@@ -295,19 +282,19 @@ La opción **Nuevo documento** está siempre disponible para una plantilla en un
 2. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
 3. En el campo **Comentario**, cambie los comentarios para la revisión creada automáticamente de la plantilla editable.
 
-    ![Editar una plantilla en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-EditingTemplate5.png)
+    ![Editar una plantilla en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-EditingTemplate5.png)
 
 4. Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
 La página **Editor de plantillas de BDM** se abrirá. La plantilla seleccionada estará disponible para la edición en línea de Microsoft 365.
 
-![Página del editor de plantillas de la gestión de documentos empresariales.](./media/BDM-Overview-EditingLayout1.png)
+![Página del editor de plantillas de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout1.png)
 
 ### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Editar una plantilla en Microsoft 365
 
 Puede modificar la plantilla mediante Microsoft 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente en la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure). Se configura para el marco ER.
 
-![Cambiar la fuente a negrita en el encabezado de la plantilla en la página del editor de plantillas de administración de documentos empresariales.](./media/BDM-Overview-EditingLayout2.png)
+![Cambiar la fuente a negrita en el encabezado de la plantilla en la página del editor de plantillas de administración de documentos empresariales](./media/BDM-Overview-EditingLayout2.png)
 
 ### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Editar una plantilla en la aplicación de escritorio de Office
 
@@ -317,15 +304,15 @@ Puede modificar la plantilla mediante Microsoft 365. Por ejemplo, en Office Onli
 1. Seleccione la opción **Abrir en aplicación de escritorio** para modificar la plantilla con la funcionalidad de la aplicación de escritorio de Office (Excel en este ejemplo). La plantilla editable se copia de almacenamiento permanente el almacenamiento temporal configurado en los parámetros de la gestión de documentos empresariales como una carpeta de SharePoint.
 2. Confirme que desea abrir la plantilla desde el almacenamiento de archivos temporal en la aplicación Excel de escritorio de Office.
 
-    ![Plantilla abierta en la aplicación de escritorio de Excel.](./media/BDM-Overview-EditingLayout3.png)
+    ![Plantilla abierta en la aplicación de escritorio de Excel](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifique la plantilla. Por ejemplo, cambie la fuente de los mensajes de campo en el encabezado de la plantilla actualizando el color de **Negro** a **Azul**.
 
-    ![Modificar el color de la fuente en el encabezado de la plantilla usando la aplicación de escritorio de Excel.](./media/BDM-Overview-EditingLayout4.png)
+    ![Modificar el color de la fuente en el encabezado de la plantilla usando la aplicación de escritorio de Excel](./media/BDM-Overview-EditingLayout4.png)
 
 4. Seleccione **Guardar** en la aplicación de escritorio de Excel para almacenar los cambios de la plantilla en el almacenamiento temporal.
 
-    ![Guardar los cambios en la página del editor de plantillas de administración de documentos empresariales utilizando la aplicación de escritorio de Excel.](./media/BDM-Overview-EditingLayout5.png)
+    ![Guardar los cambios en la página del editor de plantillas de administración de documentos empresariales utilizando la aplicación de escritorio de Excel](./media/BDM-Overview-EditingLayout5.png)
 
 5. Cierre la aplicación de escritorio de Excel.
 6. Seleccione **Sincronizar copia almacenada** para sincronizar el almacenamiento temporal de la plantilla al almacenamiento permanente de la plantilla.
@@ -339,13 +326,13 @@ Puede modificar la plantilla mediante Microsoft 365. Por ejemplo, en Office Onli
 2. Seleccione **Mostrar formato** para ver la estructura actual del formato de la configuración básica de formato de ER que se debe alinear con la plantilla editable. 
 3. Seleccione **Ocultar formato** para cerrar el panel.
 
-    ![Página del editor de plantillas de BDM.](./media/BDM-Overview-EditingTemplate6.png)
+    ![Página del editor de plantillas de BDM](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Cierre la página **Editor de plantillas de BDM**.
 
 La plantilla actualizada se muestra en la pestaña **Plantilla**. Tenga en cuenta que el estado de la plantilla editada ahora es **Borrador** y la revisión actual ya no estará vacía. Esto significa que el proceso de edición de esta plantilla se ha iniciado.
 
-![Ver la plantilla actualizada en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-EditingTemplate5.png)
+![Ver la plantilla actualizada en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Probar la plantilla modificada 
 
@@ -355,13 +342,13 @@ La plantilla actualizada se muestra en la pestaña **Plantilla**. Tenga en cuent
 4. Seleccione el nivel **Módulo - Clientes** \> **Documentos** \> **Factura de servicios** \> **Documento original** para especificar el ámbito de las facturas para procesar.
 5. En el campo **Formato del informe**, seleccione el formato de ER **Copia de informe FTI de cliente (GER)** para el nivel especificado del documento.
 
-    ![Página de configuración de la administración de impresión.](./media/BDM-Overview-TestRun1.png)
+    ![Página de configuración de la administración de impresión](./media/BDM-Overview-TestRun1.png)
 
 6. Presione **Esc** para cerrar la página actual.
 7. Seleccione **Imprimir** y, después, seleccione **Seleccionado**.
 8. Descargue el documento y ábralo mediante la aplicación de escritorio de Excel.
 
-![Página de facturas de servicios.](./media/BDM-Overview-TestRun2.png)
+![Página de facturas de servicios](./media/BDM-Overview-TestRun2.png)
 
 La plantilla modificada se usa para generar el informe de facturas de servicios para el artículo seleccionado. Para analizar cómo este informe se ve afectado por los cambios que haya especificado en la plantilla, puede ejecutar este informe en una sesión de la aplicación tras modificar la plantilla en otra sesión de la aplicación.
 
@@ -372,7 +359,7 @@ La plantilla modificada se usa para generar el informe de facturas de servicios 
 3. Si es necesario, en el campo **Nombre**, cambie el nombre de la segunda revisión y básese en la primera revisión activa actualmente.
 4. Si es necesario, en el campo **Comentario**, cambie los comentarios para la revisión creada automáticamente de la plantilla editable.
 
-    ![Crear revisiones de plantilla en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-AddRevision.png)
+    ![Crear revisiones de plantilla en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-AddRevision.png)
 
     Ha creado una nueva revisión de la plantilla que se había almacenado en el almacenamiento de la plantilla permanente. Ahora puede seguir editando la plantilla de la segunda revisión que está actualmente seleccionada como activa.
 
@@ -390,7 +377,7 @@ La plantilla modificada se usa para generar el informe de facturas de servicios 
 
 Al editar la plantilla desde un formato de ER propiedad del proveedor activo actual, se le ofrecerá la opción de revocar los cambios aplicados en la plantilla.
 
-![Rechazar cambios de plantilla en la página del espacio de trabajo de administración de documentos empresariales.](./media/BDM-Overview-RevokeChanges.png)
+![Rechazar cambios de plantilla en la página del espacio de trabajo de administración de documentos empresariales](./media/BDM-Overview-RevokeChanges.png)
 
 1. En la página **Editor de plantillas de BDM**, seleccione la pestaña **Plantilla**.
 2. Seleccione **Deshacer**.
@@ -434,9 +421,9 @@ Probablemente inició sesión en la instancia actual de la aplicación del domin
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Lista de configuraciones de informes electrónicos que se han publicado en Finance para admitir documentos empresariales configurables
 
-La [lista](general-electronic-reporting.md#list-of-configurations) de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. Puede [filtrar](../../../finance/localizations/enhanced-filtering-global-repo.md) el repositorio global para revisar la lista de configuraciones de informes electrónicos que se utilizan para admitir documentos empresariales configurables.
+La [lista](general-electronic-reporting.md#list-of-configurations) de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. Puede [filtrar](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) el repositorio global para revisar la lista de configuraciones de informes electrónicos que se utilizan para admitir documentos empresariales configurables.
 
-![Filtrar el contenido del repositorio global en la página de configuración del repositorio.](./media/bdm-overview-filterglobalrepo.gif)
+![Filtrar el contenido del repositorio global en la página de configuración del repositorio](./media/bdm-overview-filterglobalrepo.gif)
 
 La siguiente tabla muestra la lista de configuraciones de informes electrónicos que admiten documentos empresariales configurables y que se publicaron en Finance hasta diciembre de 2020.
 
@@ -592,6 +579,3 @@ La siguiente tabla muestra la lista de configuraciones de informes electrónicos
 |                             | Albarán del pedido de ventas (Excel) (LT)           |
 |                             | Albarán del pedido de ventas (Excel) (PL)           |
 |                             | Albarán del pedido de ventas (Word)                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Informe de declaración DIOT
 description: En este tema se proporciona información acerca del informe de declaración DIOT para México.
 author: sndray
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DIOTDeclarationConcept_MX, DIOTDeclarationTaxCode_MX, VendTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a716ae29cf05db67be03121cd0ef4865c5a44fba31900a9f281c4da29a0b26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9c1ae2c085eff8f1c659fbd6178f62487ad6781
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722652"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964639"
 ---
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
@@ -132,6 +134,3 @@ En el informe de declaración DIOT, los importes tienen signos positivos o negat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,36 @@
 title: Agregar una página de sitio nueva
 description: En este tema se describe cómo agregar una página de sitio nueva en Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 02/03/2022
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415481"
 ---
 # <a name="add-a-new-site-page"></a>Agregar una página de sitio nueva
+
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo agregar una página de sitio nueva en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 Una vez que ha creado las plantillas y los fragmentos para su sitio, el paso siguiente es empezar a crear las páginas que los usen. Para empezar, debe seleccionar una plantilla o un diseño, un nombre de página y una dirección URL de página.
 
@@ -33,11 +39,11 @@ Una vez que ha creado las plantillas y los fragmentos para su sitio, el paso sig
 
 Puede usar una plantilla o un diseño para su nueva página. Para obtener más información, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
 
-## <a name="specify-the-page-name"></a>Especificar el nombre de la página
+## <a name="page-name"></a>Nombre de página
 
-El nombre de la página debe ser único n el sitio y debe ser descriptivo, de modo que pueda encontrarlo fácilmente y otras entidades sepan para qué está pensada la página. Puede cambiar el nombre de su página más tarde editándola y luego seleccionando el símbolo de pluma junto al nombre de la página en el panel de propiedades.
+El nombre de la página debe ser único para la página. Debe ser descriptivo, de modo que pueda encontrarlo fácilmente y otras entidades sepan para qué está pensada la página. Elija el nombre de la página cuidadosamente porque no se podrá cambiar posteriormente.
 
-## <a name="specify-the-page-url"></a>Especificar la URL de la página
+## <a name="page-url"></a>URL de página
 
 Puede tener la opción de especificar una dirección URL para la nueva página. Al crear una página, puede especificar una cadena que se usará para formar una dirección URL completa. Esta cadena se conoce como dirección URL relativa o slug de URL. Una URL completa se genera entonces en función del slug de URL y se le asigna la nueva página. Puede cambiar el slug de URL más tarde, antes de publicar la página. Para obtener más información, consulte [Crear una URL de página](create-page-URL.md).
 
@@ -85,8 +91,3 @@ Para agregar una página de sitio nueva al sitio, siga estos pasos.
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
 
 [Verificar accesibilidad de contenido de página](verify-accessibility.md)
-
-[Crear páginas de comercio electrónico dinámicas basadas en parámetros de URL](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

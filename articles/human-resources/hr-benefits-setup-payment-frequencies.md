@@ -1,33 +1,31 @@
 ---
 title: Configurar frecuencias de pago
 description: Microsoft Dynamics 365 Human Resources utiliza las frecuencias de pago para calcular el salario anual de prestaciones, determinar el importe de la prima de beneficios que un empleado paga en cada período de pago y la frecuencia con la que se paga a los proveedores.
-author: twheeloc
-ms.date: 08/24/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ee21f24b2da8501888ac3c0a8b9a35c24785aa4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069589"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420441"
 ---
 # <a name="set-up-payment-frequencies"></a>Configurar frecuencias de pago
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources utiliza las frecuencias de pago para calcular el salario anual de prestaciones, determinar el importe de la prima de beneficios que un empleado paga en cada período de pago y la frecuencia con la que se paga a los proveedores.
 
@@ -58,6 +56,3 @@ Los campos de factores de conversión identifican el factor de conversión de la
    | **Factor de conversión de horas** | El factor de conversión anual para la frecuencia de pago. Por ejemplo, el factor de conversión anual para la frecuencia de pago mensual es: </br></br>(12 pagos mensuales / 2080 horas) = 0,005769
 
 4. Seleccione **Guardar**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

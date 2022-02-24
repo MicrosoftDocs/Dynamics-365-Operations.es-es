@@ -60,6 +60,3 @@ Una nueva opción permitirá a los directores ver el rendimiento tanto de los in
 ### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 para Finance and Operations
 
 Para obtener más información acerca de Platform update 29 para Finance and Operations, consulte [Características de vista previa en la platform update 29 de Dynamics 365 Finance and Operations (octubre de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

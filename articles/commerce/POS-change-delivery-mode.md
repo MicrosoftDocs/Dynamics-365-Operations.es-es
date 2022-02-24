@@ -2,9 +2,11 @@
 title: Cambiar modo de entrega en PDV
 description: En este tema se describe cómo configurar y usar el modo de cambio de la operación de entrega en PDV.
 author: hhainesms
+manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965436"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Cambiar modo de entrega en PDV
 
@@ -31,7 +33,7 @@ En Dynamics 365 Commerce versión 10.0.10 y posteriores está disponible la oper
 
 La característica de cambio de modo de entrega le ofrece la opción de cambiar el modo de entrega de una o más líneas de venta configuradas para el envío en la transacción de PDV. En versiones anteriores de Commerce, tenía que pasar por los flujos de configuración **Enviar todo** o **Enviar selección** completos si quería cambiar el modo de entrega en una línea existente que estaba configurada para el envío. Este proceso requería mucho tiempo y podía provocar cambios accidentales en el origen de la entrega o las fechas de entrega para la línea. La nueva funcionalidad proporciona un método alternativo para actualizar de forma eficiente el modo de entrega en estas líneas de venta.
 
-Para obtener más información sobre cómo agregar una operación a un botón en la cuadrícula de botones de PDV, consulte [Diseños de pantalla para el punto de venta](pos-screen-layouts.md).
+Para obtener más información sobre cómo agregar una operación a un botón en la cuadrícula de botones de PDV, consulte [Diseños de pantalla para el punto de venta](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
 
 Una vez configurada esta función en PDV, al seleccionar **Cambiar modo de entrega**, se le presentará una página de lista en la que podrá elegir las líneas de la transacción para las que desea cambiar el modo de entrega. Puede elegir algunas de las líneas o todas ellas, o salir sin realizar ningún cambio. Las líneas de ventas que se configuraron previamente para el envío son las únicas líneas que puede cambiar de la lista. Si desea cambiar una línea designada para recogida o reparto para envío, debe usar las operaciones **Enviar todo** o **Enviar selección**. Y a la inversa, si desea cambiar una línea designada como un envío para recogida o reparto, debe usar las operaciones **Recoger todo**, **Recoger selección**, **Repartir todo** o **Repartir selección**.
 
@@ -44,6 +46,3 @@ Cuando haya seleccionado el nuevo modo de entrega, se mostrará la página de tr
 [Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
 
 [Personalizar correos electrónicos transaccionales por modo de entrega](customize-email-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

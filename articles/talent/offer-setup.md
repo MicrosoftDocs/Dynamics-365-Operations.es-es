@@ -209,6 +209,3 @@ Existen varias partes del proceso de creación de la oferta que un administrador
 
 
 Para obtener más información acerca del proceso de creación de la oferta, consulte [Crear, aprobar y firmar ofertas](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

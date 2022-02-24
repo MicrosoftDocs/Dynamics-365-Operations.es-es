@@ -1,84 +1,73 @@
 ---
 title: Definir nuevos trabajos
 description: Esta tarea se centra en la creación de un nuevo trabajo.
-author: twheeloc
-ms.date: 11/03/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0029745b85927d56c7bb281b327de6bf5c8cdf18
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067311"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420435"
 ---
 # <a name="define-new-jobs"></a>Definir nuevos trabajos
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
 Esta tarea se centra en la creación de un nuevo trabajo. Se completará con entrada manual y copia de la funcionalidad de la plantilla. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea se va a utilizar para el especialista de recursos humanos.
 
-1. Vaya a **Recursos humanos \> Trabajos \> Trabajos**.
-2. Seleccione **Nuevo**.
-3. En el campo **Trabajo**, escriba un valor.
-4. En el campo **Descripción**, especifique un valor.
-5. Seleccione un cargo estándar que se usará para el trabajo.
-
-    Este cargo se usará como valor predeterminado para los nuevos puestos asignados al trabajo.
-
+1. Vaya a Recursos humanos > Trabajos > Trabajos.
+2. Haga clic en Nuevo.
+3. En el campo Trabajo, escriba un valor.
+4. En el campo Descripción, escriba un valor.
+5. Seleccione un cargo estándar que se usará para el trabajo. 
+    * El cargo especificado se usará como predeterminado para los nuevos puestos asignados al trabajo.  
 6. En la lista, busque y seleccione el registro deseado.
-7. En la lista, seleccione el vínculo de la fila seleccionada.
-8. En el grupo **Número máximo de posiciones**, seleccione **Posiciones máximas**.
+7. En la lista, haga clic en el vínculo de la fila seleccionada.
+8. En el grupo de número máximo de posiciones, seleccione "Posiciones máximas".
 9. Escriba el número máximo de posiciones. 
+    * No se podrán realizar asignaciones del puesto por encima del valor máximo especificado aquí.  
+10. Alterne la expansión de la sección Descripción.
+11. En el campo Nota, escriba "Especifique una descripción estándar para el trabajo".
+    * La descripción se aplica a todos los puestos asignados al trabajo definido aquí.  
+12. Alterne la expansión de la sección Clasificación de trabajo.
+13. Seleccione una función de trabajo que se usará en los informes estándar dentro de recursos humanos.
+14. En la lista, busque y seleccione el registro deseado.
+15. En la lista, haga clic en el vínculo de la fila seleccionada.
+16. Seleccione un tipo de trabajo para clasificar de forma más exhaustiva los trabajos dentro de su organización. 
+    * Los tipos de trabajos se pueden usar en informes en recursos humanos.  
+17. En la lista, busque y seleccione el registro deseado.
+18. En la lista, haga clic en el vínculo de la fila seleccionada.
+19. Alterne la expansión de la sección Compensación.
+20. Seleccione un nivel de compensación.
+    * El nivel de compensación definirá la compensación mínima y máxima que un empleado puede tener para el trabajo. Las reglas de compensación determinarán si la compensación de los empleados puede estar fuera del intervalo.  
+21. En la lista, busque y seleccione el registro deseado.
+22. En la lista, haga clic en el vínculo de la fila seleccionada.
+23. Alterne la expansión de la sección Aptitudes.
+    * Observe que los campos de las fichas desplegables Aptitudes, Formación y Certificados están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.   
+24. Haga clic en Guardar.
+25. Haga clic en Copiar desde.
+26. Haga clic en Copiar desde plantilla.
+27. En el campo Plantilla de trabajo, haga clic en el botón desplegable para abrir la búsqueda.
+28. En la lista, busque y seleccione el registro deseado.
+29. En la lista, haga clic en el vínculo de la fila seleccionada.
+30. Haga clic en la opción Nota.
+    * Solo los artículos que selecciona se copiarán al trabajo seleccionado.    
+31. Haga clic en Aceptar
+32. Alterne la expansión de la sección Certificados.
+33. Alterne la expansión de la sección Formación.
+34. Haga clic en Guardar.
 
-    No se permitirán asignaciones de puestos que superen este número.
-
-10. En la sección **Descripción**, en el campo **Nota**, ingrese **Especifique una descripción estándar para el trabajo**.
-
-    Esta descripción se aplica a todos los puestos asignados al trabajo que está definiendo.
-
-11. En la sección **clasificación del trabajo**, seleccione una función de trabajo que se usará en los informes estándar en Recursos humanos.
-12. En la lista, busque y seleccione el registro deseado.
-13. En la lista, seleccione el vínculo de la fila seleccionada.
-14. En el campo **Tipo de trabajo**, seleccione un tipo de trabajo para clasificar de forma más exhaustiva los trabajos en su organización.
-
-    Los tipos de trabajos se pueden usar en informes en recursos humanos.
-
-15. En la lista, busque y seleccione el registro deseado.
-16. En la lista, seleccione el vínculo de la fila seleccionada.
-17. En la sección **Compensación**, seleccione un nivel de compensación.
-
-    El nivel de compensación define la compensación mínima y máxima que un empleado puede tener para el trabajo. Las reglas de compensación determinarán si la compensación de los empleados puede estar fuera del intervalo.
-
-18. En la lista, busque y seleccione el registro deseado.
-19. En la lista, seleccione el vínculo de la fila seleccionada.
-20. En la sección **Aptitudes**, observe que los campos de las fichas desplegables **Aptitudes**, **Formación** y **Certificados** están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.
-21. Seleccione **Guardar**.
-22. Seleccione **Copiar de**.
-23. Seleccione **Copiar desde plantilla**.
-24. En el campo **Plantilla de trabajo**, seleccione la flecha desplegable para abrir la búsqueda.
-25. En la lista, busque y seleccione el registro deseado.
-26. En la lista, seleccione el vínculo de la fila seleccionada.
-27. Seleccione la opción **Nota**.
-
-    Solo los artículos que selecciona se copiarán al trabajo seleccionado.
-
-28. Seleccione **Aceptar**.
-29. Expanda la sección **Certificados**.
-30. Expanda la sección **Formación**.
-31. Seleccione **Guardar**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

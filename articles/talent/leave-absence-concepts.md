@@ -294,6 +294,3 @@ Saldo previsto (30) = Importe acumulación (10 x 1) + Saldo actual (40) – ajus
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3,00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1,00           | 9/1/2018        | 2.00    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,6 +129,3 @@ Si los candidatos aceptan compartir sus perfiles de LinkedIn con cualquier usuar
 [Publicar trabajos en LinkedIn desde Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
 [Solución de problemas de la integración con LinkedIn y Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

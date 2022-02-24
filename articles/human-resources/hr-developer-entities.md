@@ -1,13 +1,16 @@
 ---
-title: Tablas de Dataverse
-description: Microsoft Dynamics 365 Human Resources usa Dataverse para habilitar escenarios de extensibilidad e integración.
+title: Entidades de Common Data Service
+description: Microsoft Dynamics 365 Human Resources usa Common Data Service para habilitar escenarios de extensibilidad e integración.
 author: andreabichsel
-ms.date: 01/25/2021
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,30 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6774fad3543d80d04faacf5960c8037f1734f084
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066834"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4530015"
 ---
-# <a name="dataverse-tables"></a>Tablas de Dataverse
+# <a name="common-data-service-entities"></a>Entidades de Common Data Service
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
+Microsoft Dynamics 365 Human Resources usa Common Data Service para habilitar escenarios de extensibilidad e integración.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Para obtener más información acerca de Common Data Service, consulte [¿Qué es Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
-Microsoft Dynamics 365 Human Resources usa Dataverse para habilitar escenarios de extensibilidad e integración.
+Las siguientes entidades de Recursos Humanos están disponibles en Common Data Service.
 
-> [!NOTE]
-> Las entidades de Human Resources se corresponden con tablas de Dataverse. Para obtener más información sobre Dataverse (antes denominado Common Data Service) y actualizaciones de terminología, consulte [¿Qué es Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
+## <a name="benefit-entities"></a>Entidades de prestación
 
-Están disponibles las siguientes entidades de Dataverse basadas en entidades de Human Resources.
-
-## <a name="benefit-tables"></a>Tablas de prestaciones
-
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Frecuencia de cálculo de la prestación | cdm_benefitcalculationfrequency |
 | Período de pago de la frecuencia de cálculo de prestación | cdm_benefitcalculationfrequencypayperiod |
@@ -48,9 +47,9 @@ Están disponibles las siguientes entidades de Dataverse basadas en entidades de
 | Plan de prestaciones | cdm_benefitplan (No habilitada para la compatibilidad de campos personalizados) |
 | Tipo de prestación | cdm_benefittype |
 
-## <a name="business-process-tasks-tables"></a>Tablas de tareas de procesos de negocio
+## <a name="business-process-tasks-entities"></a>Entidades de tareas de procesos de negocio
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Calendario de proceso de negocio | cdm_businessprocesscalendar |
 | Asignación de grupo de procesos empresariales | cdm_businessprocessgroupassignment |
@@ -59,11 +58,11 @@ Están disponibles las siguientes entidades de Dataverse basadas en entidades de
 | Encabezado de plantilla de lista de comprobación | cdm_businessprocesstemplateheader |
 | Tarea de plantilla de lista de comprobación | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-tables"></a>Tablas de compensación
+## <a name="compensation-entities"></a>Entidades de compensación
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
-| Plan fijo de compensación | cdm_compensationfixedplan |
+| Plan de compensación fija | cdm_compensationfixedplan |
 | Cuadrícula de compensación | cdm_compensationgrid |
 | Nivel de compensación | cdm_compensationlevel |
 | Frecuencia de pago de compensación | cdm_compensationpayfrequency |
@@ -76,15 +75,15 @@ Están disponibles las siguientes entidades de Dataverse basadas en entidades de
 | Tipo de plan de compensación variable | cdm_compensationvariableplantype |
 | Evento de compensación fija | cdm_fixedcompensationevent |
 | Regla de atribución | cdm_vestingrule |
-| Compensación fija de trabajador | cdm_workerfixedcompensation |
+| Compensación fija del trabajador | cdm_workerfixedcompensation |
 
-## <a name="organization-tables"></a>Tablas de organización
+## <a name="organization-entities"></a>Entidades de la organización
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Departamento | cdm_department |
 | Empleo | cdm_employment |
-| Empresa | cdm_company |
+| Compañía | cdm_company |
 | Puesto | cdm_job |
 | Función de trabajo | cdm_jobfunction |
 | Puesto de trabajo | cdm_jobposition |
@@ -96,36 +95,36 @@ Están disponibles las siguientes entidades de Dataverse basadas en entidades de
 | Cargo | cdm_title |
 
 > [!NOTE]
-> Dimensiones financieras para **Tipo de puesto**, **Asignación de puesto de trabajador** y **Empleo** proporcionan integración unidireccional a Dataverse. Actualmente las actualizaciones de dimensiones financieras no se pueden sincronizar desde Dataverse a Human Resources. 
+> Dimensiones financieras para **Tipo de puesto**, **Asignación de puesto de trabajador** y **Empleo** proporcionan integración unidireccional a Common Data Service. Actualmente las actualizaciones de dimensiones financieras no se pueden sincronizar desde Common Data Service a Human Resources. 
 
-## <a name="leave-and-absence-tables"></a>Tablas de permisos y ausencias
+## <a name="leave-and-absence-entities"></a>Entidades de permisos y ausencias
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Transacción bancaria de bajas | cdm_leavebanktransaction |
-| Inscripción de baja | cdm_leaveenrollment |
+| Inscripción en baja | cdm_leaveenrollment |
 | Plan de bajas | cdm_leaveplan |
 | Solicitud de baja | cdm_leaverequest |
 | Detalles de solicitud de baja | cdm_leaverequestdetail |
 | Tipo de baja | cdm_leavetype |
 | Código de auditoría de tipo de baja | cdm_leavetypereasoncode |
 
-## <a name="payroll-tables"></a>Tablas de nómina
+## <a name="payroll-entities"></a>Entidades de nómina
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Ciclo de pago | cdm_paycycle |
 | Período de pago | cdm_payperiod |
-| Código de ganancias de nómina | cdm_payrollearningcode |
+| Código de ganancia de nómina | cdm_payrollearningcode |
 | Desembolso de cuenta bancaria | cdm_bankaccountdisbursement |
 | Región de impuestos | cdm_taxregion |
 
-## <a name="worker-tables"></a>Tablas de trabajador
+## <a name="worker-entities"></a>Entidades del trabajador
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Trabajador | cdm_worker |
-| Dirección del trabajador | cdm_workeraddress |
+| Dirección de trabajador | cdm_workeraddress |
 | Detalle personal del trabajador | cdm_workerpersonaldetail |
 | Número de identificación de persona del trabajador | cdm_workerpersonidentificationnumber |
 | Tipo de identificación de persona del trabajador | cdm_workerpersonidentificationtype |
@@ -134,57 +133,50 @@ Están disponibles las siguientes entidades de Dataverse basadas en entidades de
 | Vacaciones calendario de trabajo |cdm_workcalendarholiday |
 | Línea de festivo del calendario de trabajo | cdm_workcalendarholidayline |
 | Intervalo de tiempo del calendario de trabajo | cdm_workcalendartimeinterval (No habilitada para la compatibilidad de campos personalizados) |
-| Cuenta bancaria de trabajador | cdm_workerbankaccount |
+| Cuenta bancaria del trabajador | cdm_workerbankaccount |
 
-## <a name="worker-setup-tables"></a>Tablas de configuración de trabajador
+## <a name="worker-setup-entities"></a>Configurar entidades del trabajador
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
-| Estado de excombatiente | cdm_veteranstatus |
+| Estado de veterano | cdm_veteranstatus |
 | Origen étnico | cdm_ethnicorigin |
 | Código de motivo | cdm_reasoncode |
 | Agencia emisora de identificación de personas | cdm_personidentificationissuingagency |
 
-## <a name="competency-tables"></a>Tablas de competencia
+## <a name="competency-entities"></a>Entidades de competencia
 
-| Nombre | Tabla |
+| Nombre | Entidad |
 | --- | --- |
 | Tipo de aptitud | cdm_skilltype |
 
-## <a name="table-relationship-models"></a>Modelos de relación de tabla
+## <a name="entity-relationship-models"></a>Modelos de relación de entidad
 
 ### <a name="worker"></a>Trabajador
 
-![Trabajador.](./media/HCMCommon-worker-entity-diagram.png)
+![Trabajador](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Trabajo y puesto de trabajo
 
-![Trabajo y puesto de trabajo.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Trabajo y puesto de trabajo](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Beneficios
+### <a name="benefits"></a>Prestaciones
 
-![Beneficios.](./media/HCMCommon-benefits-entity-diagram.png)
+![Prestaciones](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Compensación
 
-![Compensación.](./media/HCMCommon-compensation-entity-diagram.png)
+![Compensación](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Salir
+### <a name="leave"></a>Dejar
 
-![Bajas y ausencias.](./media/HCMCommon-leave-entity-diagram.png)
+![Dejar](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Calendario de trabajo
 
-![Calendario de trabajo.](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Calendario de trabajo](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Consulte también
 
-[Elegir una tecnología de integración de datos](hr-admin-integration-choose-technology.md)<br>
-[Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md)<br>
-[Configurar tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Preguntas frecuentes sobre tablas virtuales para Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[¿Qué es Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
-[Actualizaciones de terminología](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Elegir una tecnología de integración de datos](hr-admin-integration-choose-technology.md)</br>
+[Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md)

@@ -1,31 +1,34 @@
 ---
 title: Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
-description: En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+description: En este tema se explica cómo configurar características opcionales para un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728300"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415430"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+En este tema se explica cómo configurar características opcionales para un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -100,7 +103,7 @@ Para cada evento transaccional para el que desea enviar mensajes de correo elect
 
 Es posible que desee personalizar las plantillas de correo electrónico para que utilicen imágenes diferentes. O puede que desee actualizar los vínculos en las plantillas para que vayan a su entorno de evaluación. Este procedimiento explica cómo descargar plantillas predeterminadas, personalizarlas y actualizar las plantillas en el sistema.
 
-1. En un explorador web, descargue el [archivo .zip de correo electrónico predeterminado de evaluación de Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) en su equipo local. Este archivo contiene los siguientes documentos HTML:
+1. En un explorador web, descargue [el archivo .zip de correo electrónico predeterminado de la evaluación de Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) en su equipo local. Este archivo contiene los siguientes documentos HTML:
 
     - Plantilla de confirmación de pedido
     - Emitir plantilla de tarjeta regalo
@@ -154,7 +157,7 @@ Los siguientes tokens se sustituyen con valores para cada producto del pedido.
 |------------------------|-------|
 | Lista de productos: inicio   | \<!--%tablebegin.salesline% --\> |
 | Lista de productos: final     | \<!--%tableend.salesline%--\> |
-| Nombre del producto           | %lineproductname% |
+| Nombre de producto           | %lineproductname% |
 | Descripción            | %lineproductdescription% |
 | Cantidad               | %linequantity% |
 | Unidad de precio de línea        | %lineprice% (comprobar) |
@@ -177,13 +180,10 @@ Los siguientes tokens se sustituyen con valores para cada producto del pedido.
 
 [Preguntas frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Comprimir documentos grandes que se generan en informes electrónicos
 description: Este tema explica cómo comprimir documentos grandes generados por un formato de informes electrónicos (ER).
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718608"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680864"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Comprimir documentos grandes que se generan en informes electrónicos 
 
 [!include [banner](../includes/banner.md)]
 
-Puedes usar el [Marco de informes electrónicos (ER)](general-electronic-reporting.md) para configurar una solución que obtenga datos transaccionales para generar un documento saliente. Este documento generado puede ser bastante grande. Cuando se genera este tipo de documento, se usa la memoria del [Servidor de objetos de aplicación (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) para retenerlo. En algún momento, el documento debe descargarse de su aplicación de Microsoft Dynamics 365 Finance. Actualmente, el tamaño máximo de un solo documento que se genera en ER está limitado a 2 gigabytes (GB). Además, Finance actualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) el tamaño de un archivo descargado a 1 GB. Por lo tanto, debe configurar una solución de ER que reduzca la probabilidad de que se excedan estas limitaciones y que reciba una excepción **La transmisión fue demasiado larga** o **Desbordamiento o subdesbordamiento en la operación aritmética**.
+Puedes usar el [Marco de informes electrónicos (ER)](general-electronic-reporting.md) para configurar una solución que obtenga datos transaccionales para generar un documento saliente. Este documento generado puede ser bastante grande. Cuando se genera este tipo de documento, se usa la memoria del [Servidor de objetos de aplicación (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) para retenerlo. En algún momento, el documento debe descargarse de su aplicación de Microsoft Dynamics 365 Finance. Actualmente, el tamaño máximo de un solo documento que se genera en ER está limitado a 2 gigabytes (GB). Además, Finance actualmente [limita](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) el tamaño de un archivo descargado a 1 GB. Por lo tanto, debe configurar una solución de ER que reduzca la probabilidad de que se excedan estas limitaciones y que reciba una excepción **La transmisión fue demasiado larga** o **Desbordamiento o subdesbordamiento en la operación aritmética**.
 
 Cuando configura una solución, puede ajustar su formato de ER en el diseñador de operaciones agregando un elemento raíz del tipo **Carpeta** para comprimir el contenido generado por cualquiera de sus elementos anidados. La compresión funciona "justo a tiempo", por lo que se puede reducir el uso máximo de memoria y el tamaño del archivo que se descargará.
 
@@ -55,7 +57,7 @@ Antes de que pueda completar los procedimientos en este tema, debe completar los
 1. [Ejecutar el formato importado](er-defer-xml-element.md#run-the-imported-format).
 2. Observe que el tamaño del documento generado en formato XML es de 3 kilobytes (KB).
 
-    ![Vista previa del documento saliente sin comprimir.](./media/er-compress-outbound-files1.png)
+    ![Vista previa del documento saliente sin comprimir](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Modificar el formato para comprimir la salida generada
 
@@ -80,7 +82,7 @@ Antes de que pueda completar los procedimientos en este tema, debe completar los
     > [!NOTE] 
     > La tasa de compresión del archivo XML que contiene este archivo zip es del 87 por ciento. La relación de compresión depende de los datos que se comprimen.
 
-    ![Vista previa del documento saliente comprimido.](./media/er-compress-outbound-files2.png)
+    ![Vista previa del documento saliente comprimido](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Si el [destino](electronic-reporting-destinations.md) de ER está configurado para el elemento de formato que genera la salida (el elemento **Informe** en este ejemplo), se omitirá la compresión de la salida.
@@ -92,6 +94,3 @@ Antes de que pueda completar los procedimientos en este tema, debe completar los
 [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 [Aplazar la ejecución de elementos de XML en formatos de informes electrónicos](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

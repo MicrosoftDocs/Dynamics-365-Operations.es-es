@@ -1,10 +1,12 @@
 ---
 title: Copiar líneas de plantilla de servicio
 description: La información de la plantilla se puede copiar a un acuerdo de servicio o a un pedido de servicio.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b72af2b22d7194ef567f5703134525c27c32d18b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7d542d7fc0ba33bb587bb3ffde22da2aa37d1e98
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966039"
 ---
 # <a name="copy-service-templates-lines"></a>Copiar líneas de plantilla de servicio 
 
@@ -57,6 +59,3 @@ Las líneas de la plantilla de servicio se habrán copiado al nuevo pedido de se
 [Plantillas de servicio](service-template.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

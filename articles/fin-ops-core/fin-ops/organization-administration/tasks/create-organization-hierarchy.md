@@ -2,9 +2,11 @@
 title: Crear una jerarquía organizativa
 description: Realice el procedimiento siguiente para crear una jerarquía organizativa.
 author: sericks007
+manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0623f4e97514246c3fb04e7bfbfe1254e8e08847566282f9a28aa526c806aa47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8627c1aa0ce9ec011b568224040b1143f0f54c31
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758978"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796931"
 ---
 # <a name="create-an-organization-hierarchy"></a>Crear una jerarquía organizativa
 
@@ -46,6 +48,3 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
     - Agregue organizaciones según sea necesario.  
     - Para agregar una organización, haga clic en **Editar** y, a continuación, en **Insertar** para agregar la organización. Cuando haya terminado de realiza cambios, puede **guardar** un borrador y/o **publicar** los cambios.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

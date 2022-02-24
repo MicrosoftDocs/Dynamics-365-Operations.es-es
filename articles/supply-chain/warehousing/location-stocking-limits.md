@@ -2,29 +2,32 @@
 title: Límites de existencias de la ubicación
 description: Este tema describe la funcionalidad para los límites de existencias de ubicaciones.
 author: perlynne
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
+ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714171"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "4607288"
 ---
 # <a name="location-stocking-limits"></a>Límites de existencias de la ubicación
 
 [!include [banner](../includes/banner.md)]
 
-Puede usar la página **Límites de almacenamiento de ubicación** (**Gestión de almacenes \> Preparar \> Almacén \> Límites de almacenamiento de ubicación**) para controlar la capacidad de carga en las ubicaciones de los almacenes sin tener que utilizar los procesos más avanzados para cálculos volumétricos de productos físicos.
+Puede usar la página **Límites de almacenamiento de ubicación** (**Gestion de almacenes \> Preparar \> Almacén \> Límites de almacenamiento de ubicación**) para controlar la capacidad de carga en las ubicaciones de los almacenes sin tener que utilizar los procesos más avanzados para cálculos volumétricos de productos físicos.
 
 El propósito de los límites de existencias de una ubicación es evaluar la cantidad máxima que puede contener una ubicación. Puede configurar la función en cualquiera de los tres niveles, cada uno de los cuales tiene su propia pestaña en la página **Límites de almacenamiento de ubicación**:
 
@@ -81,7 +84,7 @@ En este ejemplo, ejecutará un flujo de recepción de órdenes de compra para do
 
 Primero recibirá una cantidad de *4* de la unidad *PL* en tamaño *S* y revisará las ubicaciones de las líneas de colocación para el trabajo que se crea. Después recibirá una cantidad de *4* de la unidad *PL* en tamaño *L* y revisará las ubicaciones de las líneas de colocación para el trabajo que se crea.
 
-1. En la aplicación móvil Warehouse Management, inicie sesión utilizando *24* como el Id. de usuario y *1* como la contraseña.
+1. En la aplicación de almacén, inicie sesión utilizando *24* como el Id. de usuario y *1* como la contraseña.
 1. Seleccione **Entrante** \> **Recepción de compra**.
 1. Reciba *4* *PL* del número de artículo *D0013* en tamaño *S*.
 1. Revise el trabajo de ubicación que se creó. Debería ver el siguiente resultado:
@@ -101,6 +104,3 @@ Para explicar esta aparente falla, debe comprender los criterios de selección p
 
 > [!NOTE]
 > No puede utilizar los límites de existencias de la ubicación para controlar, por ejemplo, el reabastecimiento de artículos que tienen diferentes cantidades en la misma ubicación. En este caso, utilice una *plantilla de reposición*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

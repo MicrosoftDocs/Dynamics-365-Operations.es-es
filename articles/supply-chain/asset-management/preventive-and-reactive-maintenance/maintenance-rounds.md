@@ -1,10 +1,12 @@
 ---
 title: Rondas de mantenimiento
 description: En este tema se explican las rondas de mantenimiento en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740728"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018555"
 ---
 # <a name="maintenance-rounds"></a>Rondas de mantenimiento
 
@@ -80,7 +82,7 @@ En **Administración de activos**, puede crear rondas de mantenimiento para vari
 
 La ilustración siguiente muestra un ejemplo de una ronda de mantenimiento con tres activos.
 
-![Figura 1.](media/13-preventive-maintenance.png)
+![Figura 1](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Programar rondas de mantenimiento
@@ -106,14 +108,11 @@ Cuando haya configurado una ronda de mantenimiento, ejecute un trabajo de progra
 
 Las dos siguientes ilustraciones siguientes muestran un trabajo de programación en el cuadro de diálogo **Rondas de mantenimiento de programación** y las líneas del programa de mantenimiento creadas en **Todo el programa de mantenimiento** basándose en ese trabajo de programación.
 
-![Figura 2.](media/14-preventive-maintenance.png)
+![Figura 2](media/14-preventive-maintenance.png)
 
-![Figura 3.](media/15-preventive-maintenance.png)
+![Figura 3](media/15-preventive-maintenance.png)
 
 - Cuando se crean órdenes de trabajo manualmente en activos que son cubiertos por la garantía de un proveedor, se muestra un cuadro de diálogo para que el usuario reconozca la garantía. La creación de la orden de trabajo se puede cancelar. La comprobación de una relación de garantía se omite para órdenes de trabajo que se crean automáticamente.  
 - Puede configurar un trabajo por lotes en la ficha desplegable **Ejecutar en segundo plano** para programar rondas a intervalos periódicos.  
 - Si una ronda se incluye en varios grupos de órdenes de trabajo (consulte [Grupos de órdenes de trabajo](../work-orders/work-order-pools.md)), se muestra un registro para cada grupo en **Grupos del programa de mantenimiento abiertos**. Esto se hace para optimizar las opciones de filtrado para grupos de órdenes de trabajo.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

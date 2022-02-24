@@ -1,10 +1,12 @@
 ---
 title: Actividades de tiempo de inactividad por mantenimiento
 description: Este tema explica cómo se utiliza el tiempo de inactividad por mantenimiento para obtener una visión general de la capacidad necesaria para llevar a cabo trabajos de mantenimiento en determinados activos durante un período concreto.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e6168033afb97c6f4f1b8466801a6f16332df82a039927ec1b45e03aa3694b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727927"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017971"
 ---
 # <a name="maintenance-downtime-activities"></a>Actividades de tiempo de inactividad por mantenimiento
 
@@ -40,7 +42,7 @@ Cuando se hayan seleccionado activos en un registro de tiempo de inactividad por
 
 Haga clic en **Administración de activos** > **Común** > **Actividades del tiempo de inactividad por mantenimiento** > **Todas las actividades del tiempo de inactividad por mantenimiento** para abrir una lista de todas las actividades del tiempo de inactividad por mantenimiento y consultar parte de la información relacionada con las actividades. Haga clic en un vínculo de la columna **Actividades del tiempo de inactividad por mantenimiento** para abrir la vista de detalles. La ilustración siguiente muestra un ejemplo de lista de **Actividades de tiempo de inactividad por mantenimiento**.
 
-![Figura 1.](media/19-preventive-maintenance.png)
+![Figura 1](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Crear actividad de tiempo de inactividad por mantenimiento
@@ -61,7 +63,7 @@ Haga clic en **Administración de activos** > **Común** > **Actividades del tie
 
 La ilustración siguiente muestra un ejemplo de vista detallada de las **Actividades de tiempo de inactividad por mantenimiento**.
 
-![Figura 2.](media/20-preventive-maintenance.png)
+![Figura 2](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Los trabajos de mantenimiento de la orden de trabajo y las líneas del programa de mantenimiento relacionados con los activos seleccionados se actualizan automáticamente si se crean nuevas órdenes de trabajo o líneas del programa de mantenimiento después de que crease la actividad del tiempo de inactividad por mantenimiento. Por ejemplo, si programa planes de mantenimiento o rondas de mantenimiento en los activos relacionados dos días después de que se crease la actividad del tiempo de inactividad por mantenimiento, se agregan automáticamente nuevas líneas del programa de mantenimiento a la actividad del tiempo de inactividad por mantenimiento.
@@ -72,7 +74,7 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 
 10. Haga clic en **Aceptar** para iniciar el cálculo. El número total de horas se muestra en la visión general **Carga de capacidad**. En la pestaña **Carga de capacidad** > grupos del panel Acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de horas previstas. La ilustración siguiente muestra los resultados del cálculo de la **Carga de capacidad**.
 
-![Figura 3.](media/21-preventive-maintenance.png)
+![Figura 3](media/21-preventive-maintenance.png)
 
 11. Tras obtener una visión general de carga de capacidad, si desea realizar ajustes en los trabaos de mantenimiento de la orden de trabajo o en las líneas del programa de mantenimiento, regrese a la vista detalles **Actividades del tiempo de inactividad por mantenimiento** y seleccione las líneas que desea ajustar en las fichas desplegables **Trabajos de mantenimiento de orden de trabajo resultantes** y **Líneas del programa de mantenimiento**.
 
@@ -89,11 +91,8 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 
 16. Haga clic en **Aceptar** para iniciar el cálculo. El número total de previsiones de artículos se muestra en la visión general **Previsión de artículo**. En la pestaña **Previsión de artículo** > grupos del panel Acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de artículos previstos. La ilustración siguiente muestra los resultados de un cálculo de **Previsión de artículos**.
 
-![Figura 4.](media/22-preventive-maintenance.png)
+![Figura 4](media/22-preventive-maintenance.png)
 
 - Puede copiar activos desde una actividad del tiempo de inactividad por mantenimiento a otra. En **Todas las actividades del tiempo de inactividad por mantenimiento**, seleccione el botón **Copiar actividades del tiempo de inactividad por mantenimiento**, cree sus selecciones en los campos **Desde actividades del tiempo de inactividad por mantenimiento** y **A actividades del tiempo de inactividad por mantenimiento** y haga clic en **Aceptar**.
 - En **Todas las actividades del tiempo de inactividad por mantenimiento**, haga clic en el botón **Líneas del programa de mantenimiento** o en el botón **Órdenes de trabajo activas** para abrir las listas relacionadas y ver las líneas relacionadas con la actividad del tiempo de inactividad por mantenimiento seleccionada.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

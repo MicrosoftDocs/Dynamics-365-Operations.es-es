@@ -2,22 +2,25 @@
 title: Mecanismo de cargo invertido para el régimen de IVA e IBS
 description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
 author: epodkolz
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
+ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594724"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4515056"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mecanismo de cargo invertido para el régimen de IVA e IBS
 
@@ -45,6 +48,7 @@ Para aplicar el cargo invertido, debe completar la configuración siguiente.
 Recomendamos que use códigos de impuestos independientes para las operaciones de venta y las operaciones de compra.
 
 <table>
+<body>
 <tr>
 <td><strong>Impuestos sobre ventas</strong></td>
 <td>Cree un código de impuestos para las operaciones de ventas de cargo invertido (<strong>Impuestos</strong> &gt; <strong>Impuestos indirectos</strong> &gt; <strong>Impuestos</strong> &gt; <strong>Códigos de impuestos</strong>).
@@ -61,6 +65,7 @@ Debe asignar este código de impuestos negativo a un grupo de impuestos de artí
 <p>Para obtener más información, consulte la sección siguiente, &quot;Configurar grupos de impuestos y grupos de impuestos de artículos.&quot;</p>
 </td>
 </tr>
+</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
@@ -119,7 +124,7 @@ Cuando se registra una factura de compra con cargo invertido, se crean dos trans
 
 En el captura de pantalla siguiente, una transacción tiene la dirección **Impuestos soportados** y otra transacción tiene la dirección **Impuestos repercutidos**. 
 
-![Impuestos registrados.](media/apac-sau-posted-sales-tax.png)
+![Impuestos registrados](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Habilitar mecanismo de cargo invertido para la característica de régimen de IVA e IBS
 En el espacio de trabajo **Administración de características**, busque la característica y seleccione **Habilitar**.
@@ -132,6 +137,3 @@ Las siguientes páginas y elementos de menú relacionados con la configuración 
  - **Parámetros de comercio exterior** (**Impuesto** > **Configuración** > **Impuesto** > **Comercio Exterior** > **Parámetros de comercio exterior**). Vea [Configurar las propiedades de país o región](#Set-up-Country/region-properties).
 
 La casilla de verificación **Cargo invertido** estará disponible en las páginas **Grupo de impuestos** e **Impuesto registrado**. Para obtener más información, vea las secciones [Configurar grupos de impuestos y grupos de impuestos sobre las ventas de artículos](#sales-tax-item-sales-tax-groups), [Cargo invertido en facturas de venta](#reverse-charge-sale) y [Cargo invertido en facturas de compra](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

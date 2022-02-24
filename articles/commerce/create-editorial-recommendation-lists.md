@@ -2,9 +2,11 @@
 title: Crear manualmente recomendaciones curadas
 description: Este tema explica de qué manera los distribuidores pueden crear y administrar manualmente listas de productos para los clientes de Microsoft Dynamics 365 Commerce.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9ce8887f3cd7da0e250d3b0ffe96b222953de44
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965362"
 ---
 # <a name="manually-create-curated-recommendations"></a>Crear manualmente recomendaciones curadas
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica de qué manera los distribuidores pueden crear y administrar manualmente listas de recomendaciones de productos para los clientes de Microsoft Dynamics 365 Commerce.
+Este tema explica de qué manera los distribuidores pueden crear y administrar manualmente recomendaciones de productos para los clientes de Microsoft Dynamics 365 Commerce.
 
 Las listas mantenidas son colecciones de contenido individual creadas y mantenidas por las personas.  
 
@@ -47,11 +49,11 @@ Para crear una lista de recomendaciones de productos mantenida, siga estos pasos
 
 ## <a name="example-list"></a>Lista de ejemplos
 
-![Lista mantenida de ejemplos en oficina administrativa.](./media/examplecuratedrecolist.png)
+![Lista mantenida de ejemplos en oficina administrativa](./media/examplecuratedrecolist.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general de recomendaciones de producto](product-recommendations.md)
+[Visión general de recomendaciones de producto](product-recommendations.md)
 
 [Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
 
@@ -72,6 +74,3 @@ Para crear una lista de recomendaciones de productos mantenida, siga estos pasos
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

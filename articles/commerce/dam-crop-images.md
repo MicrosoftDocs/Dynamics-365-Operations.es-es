@@ -2,12 +2,15 @@
 title: Recortar imágenes
 description: En este tema se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744519"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594487"
 ---
 # <a name="crop-images"></a>Recortar imágenes
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 La Biblioteca de medios del generador de sitios de Commerce le permite recortar imágenes para optimizarlas para diferentes tipos de módulos y ventanas gráficas.
 
@@ -61,6 +66,3 @@ Una vez que se completa el recorte personalizado, las modificaciones de la image
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

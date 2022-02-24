@@ -2,9 +2,11 @@
 title: Preguntas frecuentes de clientes
 description: Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Finance and Operations.
 author: jasongre
+manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071042"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798508"
 ---
 # <a name="client-faq"></a>Preguntas frecuentes de clientes
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Finance and Operations.
 
@@ -55,6 +54,3 @@ La opción **Ver detalles** solo está disponible de dos formas diferentes:
 
 - Si un control tiene capacidades **Ver detalles**, y si el control tiene un valor, ese valor se muestra como hipervínculo. Puede hacer clic en el hipervínculo para abrir una página que contiene detalles adicionales.
 - **Ver detalles** también es una opción en los menús contextuales. Para obtener más información acerca de cuándo se muestran los menús contextuales al hacer clic con el botón secundario, consulte la sección anterior.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

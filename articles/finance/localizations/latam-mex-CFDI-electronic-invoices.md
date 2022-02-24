@@ -2,9 +2,11 @@
 title: Facturas electrónicas (CFDI)
 description: Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
 author: sndray
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EInvoiceCFDIJour_MX, EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, SalesTable, SalesTablePostings
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0836542bcc5d6c7bcd791df60c4bf07f5270e9d
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 64fd53d762952229738cccf8986ec6043eceb1c7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485562"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964648"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -50,7 +52,7 @@ Hay dos métodos para generar facturas electrónicas:
 
 El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. 
 
-![El proceso de facturas electrónicas en México.](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
+![El proceso de facturas electrónicas en México](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
 
 ### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 
@@ -92,9 +94,5 @@ Según se indica en detalle en el documento de ámbito de localización para Mé
 - [Consultar e imprimir una factura electrónica](./tasks/mx-00010-inquire-print-electronic-invoice.md)
 - [Cancelar una factura electrónica](./tasks/mx-00010-cancel-electronic-invoice.md)
 - [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
-- [Complemento Hoja de ruta (Carta de Porte) (version 1.0)](latam-mex-carta-de-porte.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

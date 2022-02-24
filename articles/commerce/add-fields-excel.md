@@ -2,12 +2,15 @@
 title: Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas
 description: En este tema se describe cómo agregar campos a un libro de Microsoft Excel para poder editar transacciones minoristas en Microsoft Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 359d4c360238db746402321a82f825f0d2c9a88a012800c5455d453e3a8bda73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dce5afdd440a3f953dea632183717d9d7273b032
+ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725467"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "4459910"
 ---
 # <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas
 
@@ -28,7 +31,7 @@ ms.locfileid: "6725467"
 
 En este tema se describe cómo agregar campos a un libro de Microsoft Excel para poder editar transacciones minoristas en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 
 Cuando genera un archivo de Excel para poder editar transacciones minoristas, el archivo se rellena con algunos campos predeterminados. Si un campo que debe actualizarse no está visible de forma predeterminada en el archivo de Excel generado, puede agregarlo.
 
@@ -53,6 +56,3 @@ El nuevo campo y los datos para él deberían estar ahora disponibles para su ed
 [Editar dimensiones financieras para transacciones minoristas](edit-financial-dim.md)
 
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

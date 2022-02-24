@@ -115,6 +115,3 @@ Se habilitarán las entidades siguientes para los campos personalizados en Commo
 - **Tipo de baja**
 - **Cuenta bancaria del trabajador**
 - **Calendario de trabajo**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

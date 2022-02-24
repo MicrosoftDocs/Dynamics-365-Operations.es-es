@@ -80,6 +80,3 @@ En muchas organizaciones, los administradores de compensación y prestaciones so
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
 Para obtener detalles adicionales sobre Platform update 24 para Finance and Operations, consulte [Novedades o cambios en la platform update 24 de Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

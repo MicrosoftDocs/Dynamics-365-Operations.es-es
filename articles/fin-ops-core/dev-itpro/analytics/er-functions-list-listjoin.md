@@ -2,8 +2,11 @@
 title: Función LISTJOIN de ER
 description: En este tema se proporciona información sobre cómo usar la función LISTJOIN de informes electrónicos (ER).
 author: NickSelin
+manager: kfend
 ms.date: 04/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755811"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682252"
 ---
 # <a name="listjoin-er-function"></a>Función LISTJOIN de ER
 
@@ -30,7 +33,7 @@ La función `LISTJOIN` devuelve un valor *Lista de registros* que consiste en un
 ## <a name="syntax"></a>Sintaxis
 
 ```vb
-LISTJOIN (list 1 [, list 2, …, list N])
+LIST (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Argumentos
@@ -65,21 +68,18 @@ Entonces especifique el origen de datos **Registro 2** del tipo `Container`. Est
 - **Cantidad**: este campo contiene una expresión que devuelve un valor de tipo `Real`.
 - **IsValid**: este campo contiene una expresión que devuelve un valor de tipo `Boolean`.
 
-![Página de diseñador de asignación de modelos de ER.](./media/er-functions-list-listjoin-image1.gif)
+![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image1.gif)
 
 En este caso, la expresión `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` devuelve una nueva lista que contiene dos registros.
 
-![Página del diseñador de asignación de modelos de ER con dos registros.](./media/er-functions-list-listjoin-image2.gif)
+![Página del diseñador de asignación de modelos de ER con dos registros](./media/er-functions-list-listjoin-image2.gif)
 
 La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`, porque este campo es el único campo que se presenta en cada argumento de la función llamada.
 
-![Campo de cantidad de la página de diseñador de asignación de modelos de ER.](./media/er-functions-list-listjoin-image3.gif)
+![Campo de cantidad de la página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
 
 [Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación](er-debug-data-sources.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

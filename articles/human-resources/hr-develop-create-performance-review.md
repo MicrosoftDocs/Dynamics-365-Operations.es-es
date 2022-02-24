@@ -1,31 +1,29 @@
 ---
 title: Crear evaluaciones del rendimiento
 description: Este tema explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión.
-author: twheeloc
-ms.date: 08/26/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066959"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420409"
 ---
 # <a name="create-performance-reviews"></a>Crear evaluaciones del rendimiento
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Este tema explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF.
@@ -68,18 +66,15 @@ Este tema explica cómo crear una revisión de rendimiento y describe el propós
 30. Seleccionar la pestaña **Calificaciones**.  
 
     - La ficha desplegable de **Detalles de valoración** permite a los empleados autoevaluarse y que el responsable evalúe al empleado. Si se utilizan ponderaciones, el valor ponderado de las puntuaciones se calculará automáticamente.  
-    - Para ver esta sección, habilite la configuración de parámetros para mostrar las calificaciones de los empleados en la página **Parámetros compartidos de recursos humanos**.  
+    - Para ver esta sección, habilite la configuración de parámetros para mostrar valoraciones de empleados.  
 
-31. Seleccione la ficha **Aprobaciones**. Si la revisión utiliza flujos de trabajo, entonces las aprobaciones aparecerán después de completar el flujo de trabajo. Si no se usa ningún flujo de trabajo, aquí aparecerán el trabajador y el responsable. La casilla **Necesaria** de **Aprobaciones** se selecciona en función de los valores del tipo de revisión.  
+31. Seleccione la ficha **Aprobaciones**. Si la revisión utiliza flujos de trabajo, entonces las aprobaciones aparecerán después de completar el flujo de trabajo. Si no se usa ningún flujo de trabajo, aquí aparecerán el trabajador y el responsable. La casilla necesaria se selecciona en función de los valores del tipo de revisión.  
 32. Seleccione la ficha **General**.
 
     - El período de rendimiento crea las fechas inicial y final predeterminadas. Estas fechas se pueden editar.  
-    - Los estados controlan el acceso a la revisión. El estado **No iniciada** permite a todo el mundo editar la revisión. El estado **En curso** solo permite que el empleado vea y edite la revisión. **Listo para revisión** permite que sólo el responsable vea y edite la revisión. El estado de **Revisión final** permite tanto al empleado como al gerente ver y editar la revisión si la opción **Permitir editar en la revisión final** está seleccionada en el tipo de revisión. Los estados **Completada** y **Cancelada** convierten la revisión en de sólo lectura. Si una revisión es **Rechazada** y se devuelve al empleado, tanto el empleado como el gerente pueden realizar las modificaciones necesarias para que el empleado pueda volver a enviarla.
+    - Los estados controlan el acceso a la revisión. El estado **No iniciada** permite a todo el mundo editar la revisión. El estado **En curso** solo permite que el empleado vea y edite la revisión. **Listo para revisión** permite que sólo el responsable vea y edite la revisión. El estado **Revisión final** permite que el empleado y el responsable vean la revisión y también la editen si se configura en el tipo de revisión. Los estados **Completada** y **Cancelada** convierten la revisión en de sólo lectura. Si una revisión es **Rechazada** y se devuelve al empleado, tanto el empleado como el gerente pueden realizar las modificaciones necesarias para que el empleado pueda volver a enviarla.
 
 33. En el campo **Visión general**, escriba un valor.
 34. Seleccione la ficha **Revisión**. A medida que la revisión pasa por los estados, el empleado y el responsable pueden agregar comentarios para cada objetivo o competencia.  
-35. Seleccione la pestaña **Aprobaciones** . El trabajador y el administrador podrán aprobar la revisión. Una vez efectuadas las aprobaciones necesarias, el estado cambiará a **Completada** y no podrán hacerse más cambios.  
+35. Seleccione la pestaña **Aprobaciones** . El trabajador y el administrador podrán aprobar la revisión. Una vez efectuadas todas las aprobaciones necesarias, el estado cambiará a **Completada** y no podrán hacerse más cambios.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

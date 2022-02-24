@@ -1,59 +1,62 @@
 ---
 title: Preguntas frecuentes sobre entorno de evaluación de Dynamics 365 Commerce
-description: Este tema proporciona respuestas a preguntas frecuentes acerca del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+description: Este tema proporciona respuestas a preguntas frecuentes acerca del entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e8a3e760353b351d42aff82c0d372d2aca350cd2
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415433"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Preguntas frecuentes sobre entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona respuestas a preguntas frecuentes acerca del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+Este tema proporciona respuestas a preguntas frecuentes acerca del entorno de evaluación de Microsoft Dynamics 365 Commerce.
 
-## <a name="can-we-use-the-commerce-evaluation-environment-as-an-e-commerce-storefront-for-customers-that-currently-implement-retail"></a>¿Podemos usar el entorno de evaluación de Commerce como escaparate de comercio electrónico para los clientes que actualmente implementan Retail?
+**¿Podemos usar el entorno de evaluación de Commerce como escaparate de comercio electrónico para los clientes que actualmente implementan Retail?**
 
 N. º El entorno de evaluación de Commerce sirve solo para la evaluación. Si necesita un entorno para un cliente que implementa Retail, póngase en contacto con Microsoft.
 
-## <a name="can-the-commerce-evaluation-environment-be-used-to-provision-the-e-commerce-features-on-top-of-an-existing-applicationenvironment-that-implements-retail"></a>¿Se puede usar el entorno de evaluación de Commerce para aprovisionar las características de comercio electrónico además de una aplicación / entorno existente que implementa Retail?
+**¿Se puede usar el entorno de evaluación de Commerce para aprovisionar las características de comercio electrónico además de una aplicación / entorno existente que implementa Retail?**
 
 No (mayormente). Los componentes de evaluación de Commerce están disponibles solo para entornos que coinciden con las configuraciones que se especifican en los requisitos previos y la guía de aprovisionamiento. Además, los datos de demostración base requeridos no estarán disponibles en entornos implementados con una versión inicial anterior a 10.0.8. 
 
-## <a name="what-costs-are-involved-in-deploying-the-commerce-evaluation-environment-on-microsoft-azure-via-microsoft-dynamics-lifecycle-services-lcs"></a>¿Qué costes están involucrados en la implementación del entorno de evaluación de Commerce en Microsoft Azure vía Microsoft Dynamics Lifecycle Services (LCS)?
+**¿Qué costos están involucrados en la implementación del entorno de evaluación de Commerce en Microsoft Azure vía Microsoft Dynamics Lifecycle Services (LCS)?**
 
-Se alojará en su suscripción de Azure un entorno de demostración de sedes centrales de Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce (máquina virtual \[VM\]). Puede usar la [Calculadora de precios de Azure](https://azure.microsoft.com/pricing/calculator/) para estimar este coste.
+Se alojará en su suscripción de Azure un entorno de demostración de sedes centrales de Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce (máquina virtual \[VM\]). Puede usar la [Calculadora de precios de Azure ](https://azure.microsoft.com/pricing/calculator/) para estimar este coste.
 
 Otros componentes como Commerce Scale Unit, el generador de sitios de Commerce y su sitio de comercio electrónico estarán disponibles como software como servicio (SaaS) y estarán alojados por Microsoft.
 
-## <a name="which-azure-geographies-are-currently-supported-for-the-commerce-evaluation-environment"></a>¿Qué geografías de Azure son compatibles actualmente para el entorno de evaluación de Commerce?
+**¿Qué geografías de Azure son compatibles actualmente para el entorno de evaluación de Commerce?**
 
 El entorno de evaluación de Commerce solo se puede implementar en la geografía de Norteamérica.
 
-## <a name="is-there-a-downloadable-virtual-hard-disk-vhd-that-has-the-complete-onebox-virtual-machine-vm-option"></a>¿Existe un disco duro virtual descargable (VHD) que tenga la opción completa de máquina virtual (VM) OneBox?
+**¿Existe un disco duro virtual descargable (VHD) que tenga la opción completa de máquina virtual (VM) OneBox?**
 
 Dynamics 365 Commerce y Commerce Scale Unit son completamente software como servicio (SaaS) y deben estar alojados en la nube.
 
-## <a name="how-long-can-the-commerce-evaluation-environment-be-used"></a>¿Cuánto tiempo se puede usar el entorno de evaluación de Commerce?
+**¿Cuánto tiempo se puede usar el entorno de evaluación de Commerce?**
 
 El entorno de evaluación de Commerce tiene un límite de tiempo de 30 días a partir de la fecha en que se aprovisionan componentes de SaaS como Commerce Scale Unit, el generador de sitios de Commerce y su sitio de comercio electrónico.
 
-## <a name="can-i-extend-the-time-limit-for-my-commerce-evaluation-environment"></a>¿Puedo extender el límite de tiempo para mi entorno de evaluación de Commerce?
+**¿Puedo extender el límite de tiempo para mi entorno de evaluación de Commerce?**
 
 La extensión del límite de tiempo es una excepción a la norma y se considera caso por caso. Póngase en contacto con su partner de Microsoft si requiere asistencia.
 
@@ -68,6 +71,3 @@ La extensión del límite de tiempo es una excepción a la norma y se considera 
 [Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](cpe-bopis.md)
 
 [Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

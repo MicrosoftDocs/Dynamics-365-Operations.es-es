@@ -52,6 +52,3 @@ Un cambio se ha realizado para establecer el código de “motivo de la finaliza
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Creada una nueva entidad para los niveles de compensación de trabajo
 Se ha creado una nueva entidad de marco de gestión de datos (DMF). La entidad se encarga de la creación y la actualización de los niveles de compensación, los valores de mercado, y la información de encuesta para cada trabajo definido en el sistema.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

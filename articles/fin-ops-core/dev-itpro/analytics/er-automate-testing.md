@@ -2,9 +2,11 @@
 title: Automatizar pruebas con informes electrónicos
 description: En este tema se explica cómo puede utilizar la funcionalidad de línea base del marco de informes electrónicos (ER) para automatizar la prueba de funcionalidades.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749809"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681457"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar pruebas con informes electrónicos
 
@@ -59,7 +61,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
 - Implementar una topología que admita la automatización de la prueba. Debe tener acceso a la instancia de esta topología para el rol **Administrador del sistema**. Esta topología debe contener los datos de prueba que se usarán en este ejemplo. Para obtener más información, consulte [Implementar y usar un entorno que admita la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md).
 - Para ejecutar pruebas de aceptación e integración de usuario, debe instalar RSAT en la topología que está utilizando y configurarla de la forma adecuada. Para obtener información sobre cómo instalar y configurar RSAT y configurarlo para trabajar con aplicaciones Finance and Operations y Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atención a los requisitos previos para usar la herramienta. En la siguiente ilustración se muestra un ejemplo de la configuración de RSAT. El rectángulo azul incluye los parámetros que especifican el acceso a Azure DevOps. El rectángulo verde incluye los parámetros que especifican el acceso a la instancia.
 
-    ![Configuración de RSAT.](media/GER-Configure.png "Captura de pantalla del cuadro de diálogo Configuración de RSAT")
+    ![Configuración de RSAT](media/GER-Configure.png "Captura de pantalla del cuadro de diálogo Configuración de RSAT")
 
 - Para organizar casos de prueba en conjuntos para ayudar a garantizar la secuencia de ejecución correcta, de modo que pueda recopilar registros de ejecuciones de pruebas para la generación de informes y la investigación, debe tener acceso a Azure DevOps desde la topología implementada.
 - Para completar el ejemplo en este tema, le recomendamos que descargue [ER uso para pruebas de RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Este archivo zip contiene las siguientes guías de tareas:
@@ -78,7 +80,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
     - **Asignación de modelo de pago 1611** Configuración de la asignación del modelo de ER
     - **BACS (Reino Unido)** Configuración de formato de ER
 
-    ![Configuraciones de informes electrónicos.](media/GER-Configurations.png "Captura de pantalla de Configuraciones en informes electrónicos")
+    ![Configuraciones de informes electrónicos](media/GER-Configurations.png "Captura de pantalla de Configuraciones en informes electrónicos")
 
 3. Seleccione la empresa de los datos de demostración **GBSI**, que tiene un contexto de país/región en Gran Bretaña.
 4. Configure los parámetros de Proveedores:
@@ -90,7 +92,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
         1. En la ficha desplegable **Formatos de archivo**, establezca la opción **Formato de exportación electrónica genérica** en **Sí**.
         2. En el campo **Configuración de formato de exportación**, seleccione **BACS (Reino Unido)**.
 
-    ![Página Formas de pago.](media/GER-APParameters.png "Captura de pantalla de la página Formas de pago")
+    ![Página Formas de pago](media/GER-APParameters.png "Captura de pantalla de la página Formas de pago")
 
     > [!NOTE]
     > Si tiene la versión derivada de este formato de ER que se creó para admitir personalizaciones, puede seleccionar esta configuración en el método de pago **Electrónico**.
@@ -100,7 +102,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
     1. Vaya a **Proveedores \> Pagos \> Diario de pagos**.
     2. Asegúrese de que no haya registro el diario de pagos.
 
-        ![Página Diario de pagos.](media/GER-APJournal.png "Captura de pantalla de la página Diario de pagos")
+        ![Página Diario de pagos](media/GER-APJournal.png "Captura de pantalla de la página Diario de pagos")
 
     3. Seleccione **Líneas** e introduzca una línea que tenga la siguiente información.
 
@@ -111,9 +113,9 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
         | Divisa            | GBP             |
         | Tipo de cuenta de contrapartida | Banco            |
         | Cuenta de contrapartida      | GBSI OPER       |
-        | Método de pago   | Electrónico      |
+        | Forma de pago   | Electrónica      |
 
-    ![Página Pagos a proveedores.](media/GER-APJournalLines.png "Captura de pantalla de la página Pagos a proveedores")
+    ![Página Pagos a proveedores](media/GER-APJournalLines.png "Captura de pantalla de la página Pagos a proveedores")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Preparar el marco de ER para probar el procesamiento de pago a proveedor
 
@@ -122,7 +124,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
 1. Vaya a **Administración de la organización \> Informes electrónicos \> Parámetros de informes electrónicos**.
 2. En la pestaña **Archivos adjuntos**, en el campo **Línea base**, seleccione **Archivo** como el tipo de documento que el marco Administración de documentos (DM) emplea para mantener los documentos relacionados con la característica de línea base como archivos adjuntos de DM.
 
-    ![Página de parámetros de informes electrónicos.](media/GER-ERParameters.png "Captura de pantalla de página Parámetros de informes electrónicos")
+    ![Página de parámetros de informes electrónicos](media/GER-ERParameters.png "Captura de pantalla de página Parámetros de informes electrónicos")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Generar copias de línea base de documentos relacionados con el pago a proveedor
 
@@ -139,7 +141,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
     - **Archivo** archivo de pago en formato de texto
     - **ERVendOutPaymControlReport** archivo de informe de control en formato XLSX
 
-    ![Archivos extraídos.](media/GER-APJournalProcessed.png "Captura de pantalla de los nombres de archivos extraídos en el explorador de Windows")
+    ![Archivos extraídos](media/GER-APJournalProcessed.png "Captura de pantalla de los nombres de archivos extraídos en el explorador de Windows")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>Activar la característica de línea base de ER
 
@@ -177,7 +179,7 @@ Al activar en el parámetro **Ejecutar en modo de depuración**, obliga al marco
     3. Examine para seleccionar el archivo de control guardado localmente **ERVendOutPaymControlReport** en formato XLSX.
     4. En el campo **Descripción**, introduzca **Informe de control XLSX de pago**.
 
-    ![Líneas base para el archivo de pago a proveedor e informe de control.](media/GER-BaselineAttachments.png "Captura de pantalla de la página Configuraciones con el informe de control XLSX de pago seleccionado")
+    ![Líneas base para el archivo de pago a proveedor e informe de control](media/GER-BaselineAttachments.png "Captura de pantalla de la página Configuraciones con el informe de control XLSX de pago seleccionado")
 
 8. Cierre la página.
 9. En la ficha deplegable **Líneas base**, seleccione **Nueva** para configurar una línea base para el archivo de pago:
@@ -196,7 +198,7 @@ Al activar en el parámetro **Ejecutar en modo de depuración**, obliga al marco
     4. En el campo **Máscara de nombre de archivo**, introduzca **\*.XLSX** para aplicar esta línea base solo a salidas del componente de formato de **ERVendOutPaymControlReport** con la extensión del nombre de archivo **.xslx** .
     5. En el campo **Línea base**, seleccione **Informde control XLSX de pago** para que esta línea base se utilice para compararla con la salida generada.
 
-    ![Ficha desplegable de líneas base en la página Configuraciones.](media/GER-BaselineRules.png "Captura de pantalla de la ficha desplegable Líneas base en la página Configuraciones")
+    ![Ficha desplegable de líneas base en la página Configuraciones](media/GER-BaselineRules.png "Captura de pantalla de la ficha desplegable Líneas base en la página Configuraciones")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Grabar pruebas para validar el procesamiento de pago a proveedor
 
@@ -226,15 +228,15 @@ Esta grabación de tareas realiza las siguientes acciones:
 
 1. Establezca el estado de la línea de pago procesada a **Ninguno**.
 
-    ![Pasos 3 a 4 de la grabación de tareas.](media/GER-Recording1Review1.png "Captura de pantalla de los pasos 3 a 4 de la grabación de tareas")
+    ![Pasos 3 a 4 de la grabación de tareas](media/GER-Recording1Review1.png "Captura de pantalla de los pasos 3 a 4 de la grabación de tareas")
 
 2. Active el parámetro de usuario de ER **Ejecutar en modo de depuración**.
 
-    ![Pasos 9 a 10 de la grabación de tareas.](media/GER-Recording1Review2.png "Captura de pantalla de los pasos 9 a 10 de la grabación de tareas")
+    ![Pasos 9 a 10 de la grabación de tareas](media/GER-Recording1Review2.png "Captura de pantalla de los pasos 9 a 10 de la grabación de tareas")
 
 3. Limpie el registro de depuración de ER que contiene los resultados de la comparación de archivos generados con las líneas base.
 
-    ![Pasos 13 a 15 de la grabación de tareas.](media/GER-Recording1Review3.png "Captura de pantalla de los pasos 13 a 15 de la grabación de tareas")
+    ![Pasos 13 a 15 de la grabación de tareas](media/GER-Recording1Review3.png "Captura de pantalla de los pasos 13 a 15 de la grabación de tareas")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Grabar los pasos para probar el procesamiento de pago a proveedor
 
@@ -253,21 +255,21 @@ Esta grabación de tareas realiza las siguientes acciones:
 1. Inicie el procesamiento de pago a proveedor.
 2. Seleccione los parámetros de tiempo de ejecución correctos y active la generación de un informe de control.
 
-    ![Pasos 3 a 8 de la grabación de tareas.](media/GER-Recording2Review1.png "Captura de pantalla de los pasos 3 a 8 de la grabación de tareas")
+    ![Pasos 3 a 8 de la grabación de tareas](media/GER-Recording2Review1.png "Captura de pantalla de los pasos 3 a 8 de la grabación de tareas")
 
 3. Acceda al registro de depuración de ER para grabar los resultados de la comparación de salidas generadas con las líneas base correspondientes.
 
     En el registro de depuración de ER, los resultados de la comparación aparecen en el campo **Texto generado**. Los campos **Componente de formato** y **Ruta del formato que provocó una entrada de registro** hacen referencia al componente del archivo para el que se ha comparado la salida generada con la línea base.
 
-    ![Entradas en la página registros de ejecución de informes electrónicos.](media/GER-ERDebugLog.png "Captura de pantalla de entradas en la página Registros de ejecución de informes electrónicos")
+    ![Entradas en la página registros de ejecución de informes electrónicos](media/GER-ERDebugLog.png "Captura de pantalla de entradas en la página Registros de ejecución de informes electrónicos")
 
 4. La comparación de la salida actual con la línea base se graba usando la opción del grabador de tareas **Validar** y seleccionando **Valor actual**.
 
-    ![Uso de la opción Validar para compararla con el valor actual.](media/GER-TRRecordValidation.png "Captura de pantalla del uso de la opción Validar para compararla con el valor actual")
+    ![Uso de la opción Validar para compararla con el valor actual](media/GER-TRRecordValidation.png "Captura de pantalla del uso de la opción Validar para compararla con el valor actual")
 
     La siguiente ilustración muestra el aspecto de los pasos de validación grabados en la grabación de tareas.
 
-    ![Pasos 13 y 15 de la grabación de tareas.](media/GER-Recording2Review2.png "Captura de pantalla de los pasos 13 y 15 de la grabación de tareas")
+    ![Pasos 13 y 15 de la grabación de tareas](media/GER-Recording2Review2.png "Captura de pantalla de los pasos 13 y 15 de la grabación de tareas")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Agregar las pruebas grabadas en Azure DevOps
 
@@ -284,7 +286,7 @@ Esta grabación de tareas realiza las siguientes acciones:
     1. Asigne un nombre al caso de prueba **Probar procesamiento de pagos a proveedor usando el formato de ER BACS (Reino Unido)**.
     2. Adjunte el archivo **Recording.xml** de la carpeta **Procesar** que descargó anteriormente.
 
-    ![Nuevos casos de prueba para el plan de prueba seleccionado.](media/GER-RSAT-DevOps-Tests-Passed.png "Captura de pantalla de los nuevos casos de prueba para el plan de prueba seleccionado")
+    ![Nuevos casos de prueba para el plan de prueba seleccionado](media/GER-RSAT-DevOps-Tests-Passed.png "Captura de pantalla de los nuevos casos de prueba para el plan de prueba seleccionado")
 
 > [!NOTE]
 > Preste atención al orden de ejecución correcto de las pruebas que se agregan.
@@ -296,14 +298,14 @@ Esta grabación de tareas realiza las siguientes acciones:
 1. Abra la aplicación de RSAT local en la topología actual.
 2. Seleccione **Cargar** para cargar las pruebas que residen actualmente en Azure DevOps en RSAT.
 
-    ![Pruebas cargadas en RSAT.](media/GER-RSAT-RSAT-Tests-Loaded.png "Captura de pantalla de las pruebas cargadas en RSAT")
+    ![Pruebas cargadas en RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Captura de pantalla de las pruebas cargadas en RSAT")
 
 ### <a name="create-automation-and-parameters-files"></a>Crear archivos de automatización y parámetros
 
 1. En RSAT, seleccione las pruebas que cargó de Azure DevOps.
 2. Seleccione **Nuevo** para crear archivos de automatización y parámetros de RSAT.
 
-    ![Archivos de automatización y parámetros de RSAT creados en RSAT.](media/GER-RSAT-RSAT-Tests-Initiated.png "Captura de pantalla de los archivos de automatización y parámetros de RSAT creados en RSAT")
+    ![Archivos de automatización y parámetros de RSAT creados en RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Captura de pantalla de los archivos de automatización y parámetros de RSAT creados en RSAT")
 
 ### <a name="modify-the-parameters-files"></a>Modificar los archivos de parámetros
 
@@ -315,7 +317,7 @@ Esta grabación de tareas realiza las siguientes acciones:
 6. En el libro de Excel que se abre, en la hoja de cálculo **General**, cambie el código de empresa a **GBSI**.
 7. En la hoja de cálculo **ERFormatMappingRunLogTable**, tenga en cuenta que las celdas A:3 y C:3 contienen el texto de los campos en la tabla de registro de depuración de ER que se utilizan para validar los resultados de la comparación de la salida a la línea base. Estos textos se utilizarán para evaluar registros de depuración de ER que se crean durante la ejecución de la prueba.
 
-    ![Hoja de cálculo de ERFormatMappingRunLogTable.](media/GER-RSAT-RSAT-ExcelParameters.png "Captura de pantalla de la hoja de cálculo de ERFormatMappingRunLogTable")
+    ![Hoja de cálculo de ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Captura de pantalla de la hoja de cálculo de ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Ejecutar las pruebas y analizar los resultados
 
@@ -330,11 +332,11 @@ Tenga en cuenta que los casos de prueba se ejecutan automáticamente en la aplic
 
 Los resultados de la ejecución de la prueba se almacenan en RSAT. Tenga en cuenta que ambas pruebas fueron correctas.
 
-![Pruebas que fueron correctas en RSAT.](media/GER-RSAT-RSAT-Tests-Passed.png "Captura de pantalla de pruebas que fueron correctas en RSAT")
+![Pruebas que fueron correctas en RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Captura de pantalla de pruebas que fueron correctas en RSAT")
 
 Tenga en cuenta que los resultados de la ejecución de la prueba también se envían a Azure DevOps para poder realizar un análisis adicional.
 
-![Resultados de la ejecución de la prueba en Azure DevOps.](media/GER-RSAT-DevOps-Tests-Added.png "Captura de pantalla de los resultados de la ejecución de la prueba en Azure DevOps")
+![Resultados de la ejecución de la prueba en Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Captura de pantalla de los resultados de la ejecución de la prueba en Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Simular una situación en la que las pruebas son incorrectas
 
@@ -357,15 +359,15 @@ Tenga en cuenta que los casos de prueba se ejecutan automáticamente en la aplic
 
 Los resultados de la ejecución de la prueba se almacenan en RSAT. Tenga en cuenta que la segunda prueba fue incorrecta durante la segunda ejecución.
 
-![Resultados de prueba incorrecta en RSAT.](media/GER-RSAT-RSAT-Tests-Failed.png "Captura de pantalla de los resultados de prueba incorrecta en RSAT")
+![Resultados de prueba incorrecta en RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Captura de pantalla de los resultados de prueba incorrecta en RSAT")
 
 Tenga en cuenta que los resultados de la ejecución de la prueba también se envían a Azure DevOps para poder realizar un análisis adicional.
 
-![Resultados de prueba incorrecta en Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed.png "Captura de pantalla de los resultados de prueba incorrecta en Azure DevOps")
+![Resultados de prueba incorrecta en Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Captura de pantalla de los resultados de prueba incorrecta en Azure DevOps")
 
 Puede acceder al estado de cada prueba. También puede acceder al reigstro de ejecución para analizar los motivos en caso de fallo. En la siguiente ilustración, el registro de ejecución muestra que se produjo el fallo debido a la diferencia en contenido entre el archivo de pago generado y su línea base.
 
-![Registro de ejecución para analizar un fallo en Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Captura de pantalla del registro de ejecución para analizar un fallo en Azure DevOps")
+![Registro de ejecución para analizar un fallo en Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Captura de pantalla del registro de ejecución para analizar un fallo en Azure DevOps")
 
 Por lo tanto, como ya ha visto, el funcionamiento de cualquier formato de ER se puede evaluar automáticamente mediante el uso de la RSAT como la plataforma de prueba y mediante el uso de casos de prueba basados en el grabador de tareas que utilizan la característica de línea base de ER.
 
@@ -378,6 +380,3 @@ Por lo tanto, como ya ha visto, el funcionamiento de cualquier formato de ER se 
 - [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md)
 - [ER Actualizar el formato adoptando una nueva versión de base de ese formato](tasks/er-upgrade-format.md)
 - [ER Importar una configuración de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

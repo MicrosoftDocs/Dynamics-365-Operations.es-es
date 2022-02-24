@@ -2,9 +2,11 @@
 title: Fecha LIFO con valor físico y marcado
 description: El método de valoración contable de fecha LIFO (Último en entrar, primero en salir) es un modelo de inventario. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario. Mediante la fecha LIFO, si no existe ninguna recepción antes de la emisión, ésta se liquida frente a cualquier recepción que ocurra después de la fecha de la emisión. Varias emisiones en una misma fecha se pueden liquidar en el orden de última emisión, última recepción.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567568"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967642"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
@@ -55,9 +57,7 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 
 El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. 
-
-![Fecha LIFO sin la opción Incluir valor físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario de fecha LIFO cuando no se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -92,9 +92,7 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente a 20,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. 
-
-![Fecha LIFO con la opción Incluir valor físico.](./media/lifodatewithincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario LIFO cuando se usa la opción **Incluir valor físico**. ![Fecha LIFO con Incluir valor físico en coste](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -140,7 +138,7 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente a 27,50 dólares USD. 
 
-La siguiente ilustración muestra el efecto que se deriva de seleccionar el modelo de inventario LIFO cuando se usa el marcado entre las emisiones y recepciones. ![Fecha LIFO con marcado.](./media/lifodatewithmarking.gif) 
+La siguiente ilustración muestra el efecto que se deriva de seleccionar el modelo de inventario LIFO cuando se usa el marcado entre las emisiones y recepciones. ![Fecha LIFO con marcado](./media/lifodatewithmarking.gif) 
 
 **Clave del diagrama**
 
@@ -158,6 +156,3 @@ La siguiente ilustración muestra el efecto que se deriva de seleccionar el mode
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

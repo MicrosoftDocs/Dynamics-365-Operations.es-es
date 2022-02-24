@@ -1,26 +1,28 @@
 ---
 title: Definiciones de organigramas en informes financieros
-description: Este artículo describe los organigramas de informes. Una definición del organigrama es un componente de informe que define la estructura de una organización.
-author: jinniew
-ms.date: 04/01/2021
+description: Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714644"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682683"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
@@ -52,7 +54,9 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 | Descripción de la unidad      | El título de la unidad de notificación aparece en el encabezado o el pie de página del informe si especifica **UnitDesc** como código en la pestaña **Encabezados y pies de página** de la definición del informe. El título aparece en la descripción de la fila del informe si especifica **UnitDesc** en la celda **Descripción** de la definición de la fila |
 | Dimensiones            | Una unidad de notificación que recaba información directamente de los datos financieros. Define la colocación y las longitudes lógicas para la cuenta y los segmentos relacionados. Cada fila de unidad organizacional debe tener una dimensión en esta columna. También puede colocar una dimensión en una fila de unidad de resumen (por ejemplo, para los gastos que están relacionados directamente con esa unidad). Si especifica una dimensión en una fila de resumen de unidad, las cuentas que se usan en unidades principales no se deben usar en unidades secundarias. De lo contrario, se pueden duplicar los importes. |
 | Definiciones de las filas       | El nombre de la definición de filas para la unidad de notificación. Se usa la misma definición de fila para todas las unidades del organigrama. Cuando se genera un informe, esta definición de fila se usa para todas las unidades organizacionales. La definición de fila puede incluir varios vínculos de dimensiones financieras. Si se especifica una definición de fila en el organigrama, active la casilla **Usar definición de fila del organigrama** de la pestaña **Informe** de la definición del informe. |
-| Vínculo de dimensiones financieras| El enlace de dimensiones financieras que se utilizará para la unidad de informes. Los vínculos de dimensiones financieras se definen para la definición de fila para identificar las dimensiones financieras con las que se crearán vínculos. |
+| Vínculo de fila              | Vínculo de fila que se va a usar para la unidad organizacional. Los vínculos de fila se especifican para la definición de fila para identificar las dimensiones financieras con las que se crearán vínculos. |
+| Vínculo externo         | Vínculo de fila que se va a usar para esta unidad organizacional. Los vínculos de fila se definen para que la definición de filas identifique el informe al que vincularla. |
+| Archivo externo         | La ruta de acceso al archivo de la hoja de cálculo de informes financieros del que extraer datos. |
 | Opciones de página          | Esta columna controla si se suprimen los detalles de la unidad organizacional cuando se ve o se imprime el informe. |
 | % de distribución              | El porcentaje de la unidad organizacional que se debe asignar a la unidad principal. El porcentaje especificado en esta columna solo se aplica a cada fila de la definición de filas antes de que el valor de la fila se agregue al informe principal. Por ejemplo, si se debe dividir una unidad secundaria uniformemente entre dos departamentos, los importes en cada fila se multiplican por el 50 por ciento antes de que el valor se agregue al informe del departamento. Una unidad organizacional no puede tener dos unidades principales. Para asignar los importes de una unidad organizacional a las unidades biparentales, cree otra unidad organizacional que tenga la misma dimensión para distribuir el 50 por ciento adicional. Especifique porcentajes enteros sin una coma decimal. Por ejemplo, **25** representa la asignación del 25 por ciento al elemento primario. Si incluye una coma decimal (**,25**), se asigna el porcentaje del 0,25% al elemento primario. Para usar un porcentaje inferior al 1 por ciento, use la opción **Permitir distribución de &lt;1%** en la definición del importe. Esta opción está en la pestaña **Opciones adicionales** en el cuadro de diálogo **Configuración de informes**. A este cuadro de diálogo se obtiene acceso desde el botón **Otra** en la pestaña **Configuración** de la definición del informe. |
 | Seguridad de la unidad         | Restricciones en los usuarios y grupos que pueden tener acceso a la información de la unidad organizacional. |
@@ -71,7 +75,7 @@ Para crear una definición de organigrama, siga estos siguientes pasos.
     | Incluir/posición de carácter       | En esta sección se muestran las dimensiones que se definen en los datos financieros y muestra el número de caracteres del valor más largo que se define para cada dimensión. Active la casilla para una dimensión para incluir esa dimensión en la jerarquía del organigrama. |
     | Jerarquía e intervalos de segmentación     | En esta sección se muestra la jerarquía de la dimensión. Puede mover las dimensiones en la lista para cambiar el orden de las notificaciones. En los cuadros **Desde la dimensión** y **Hasta la dimensión**, puede especificar un intervalo de valores en cada dimensión. Si no se especifica un intervalo, se insertan todos los valores de dimensión en el organigrama.<blockquote>[!NOTE] Si usa más de una dimensión, en los resultados solo se devuelven las combinaciones de dimensiones registradas.</blockquote> |
 
-    Para ver una ilustración que muestra un ejemplo del cuadro de diálogo **Insertar unidades de informe de dimensiones**, consulte la sección "Ejemplo del cuadro de diálogo Insertar unidades de informe de dimensiones", más adelante en este artículo.
+    Para una captura de pantalla que muestre un ejemplo del cuadro de diálogo **Insertar unidades de informe de dimensiones**, consulte la sección "Ejemplo del cuadro de diálogo Insertar las unidades de informe de dimensiones" más adelante en este artículo.
 
 5. Para crear segmentos adicionales (por ejemplo, como la división de un segmento en dos segmentos más cortos), haga clic en la ubicación correcta en un campo de **Posición del carácter**, y luego haga clic en **Dividir segmentos**.
 6. Para combinar dos segmentos en un segmento, haga clic en cualquiera de los cuadros de segmento para combinar y, a continuación, en **Combinar segmentos**.
@@ -111,10 +115,10 @@ Cada definición de organigrama se muestra en vistas únicas. Hay una vista grá
 
 Se usan los siguientes tipos de unidades organizacionales en los informes financieros:
 
-- Una unidad de detalle recaba información directamente de los datos financieros.
+- Una unidad detallada recaba información directamente de los datos financieros, de una hoja de cálculo de Excel o de otra hoja de cálculo de informes financieros.
 - Una unidad de resumen resume datos de las unidades de nivel inferior.
 
-Una unidad de notificación principal es una unidad de resumen que agrega información resumida de una unidad de detalle. Una unidad de resumen puede ser tanto una unidad de detalle y una unidad de resumen. Por tanto, una unidad de resumen puede recabar la información de una unidad de nivel inferior o de los datos financieros. Una unidad principal puede ser la unidad secundaria de una unidad de nivel superior principal. Una unidad organizacional secundaria puede ser una unidad de detalle que tira información directamente de los datos financieros. Una unidad organizacional secundaria también puede ser una unidad de resumen intermedia. En otras palabras, puede ser la unidad principal de una unidad de nivel inferior y también la unidad secundaria de una unidad de resumen de nivel superior. En la situación más común de las unidades organizacionales, las unidades principales tienen una celda en blanco en la columna **Dimensiones** y las unidades secundarias tienen vínculos a combinaciones de dimensiones específicas o de comodín.
+Una unidad de notificación principal es una unidad de resumen que agrega información resumida de una unidad de detalle. Una unidad de resumen puede ser tanto una unidad de detalle y una unidad de resumen. Por tanto, una unidad de resumen recabar la información de una unidad de nivel inferior, de los datos financieros o de una hoja de cálculo de Excel. Una unidad principal puede ser la unidad secundaria de una unidad de nivel superior principal. Una unidad organizacional secundaria puede ser una unidad de detalle que tira información directamente de los datos financieros o de una hoja de cálculo Excel. Una unidad organizacional secundaria también puede ser una unidad de resumen intermedia. En otras palabras, puede ser la unidad principal de una unidad de nivel inferior y también la unidad secundaria de una unidad de resumen de nivel superior. En la situación más común de las unidades organizacionales, las unidades principales tienen una celda en blanco en la columna **Dimensiones** y las unidades secundarias tienen vínculos a combinaciones de dimensiones específicas o de comodín.
 
 ### <a name="organize-reporting-units"></a> Organizar unidades de notificación
 
@@ -160,6 +164,19 @@ Puede evitar que determinados usuarios y grupos tengan acceso a una unidad de no
 3. En el cuadro de diálogo **Seguridad de la unidad**, seleccione un nombre y haga clic en **Quitar**.
 4. Haga clic en **Aceptar**.
 
+### <a name="link-to-reports"></a>Vínculo para informes
+
+Una vez que haya creado una columna **informe** en la definición de filas y haya especificado el informe que desee incluir en el informe, debe actualizar el organigrama con la columna vinculada y la información acerca del informe. Un informe se puede importar en cualquier unidad del organigrama.
+
+### <a name="identify-the-report-in-a-reporting-tree"></a>Identificar el informe en un organigrama
+
+1. En el diseñador de informes, abra la definición del organigrama para modificarla.
+2. En la columna **Definiciones de filas**, la información de las celdas se basa en la información para la fila seleccionada, porque la misma definición de la fila se debe usar en todas las unidades del organigrama. Haga doble clic en la celda **Definiciones de filas** y seleccione la definición de fila que contiene información acerca del informe.
+3. En la celda **Vínculo de la hoja de cálculo** para una unidad organizacional, seleccione el nombre del vínculo que corresponde al informe.
+4. En la celda **Ruta del informe o del libro** para la unidad de notificación, escriba el nombre del informe o explore para seleccionar el informe.
+5. Para especificar una hoja de cálculo en un informe, escriba el nombre de la hoja de cálculo en la celda **Nombre de a hoja de cálculo**.
+6. Repita los pasos 3 a 5 para cada unidad organizacional que debería recibir datos de un informe. Para evitar que los datos incorrectos aparezcan en su informe, asegúrese de que los nombres correctos del informe aparecen en la unidad correspondiente del organigrama.
+
 ## <a name="examples"></a>Ejemplo
 ### <a name="reporting-unit-structure--example-1"></a>Estructura de la unidad organizacional – Ejemplo 1
 
@@ -170,23 +187,23 @@ Consulte la estructura de las unidades organizacionales en el siguiente organigr
 - Las unidades de notificación de detalle más bajo (ventas para el hogar, ventas de automóviles, servicios al cliente y operaciones) representan departamentos en los datos financieros. Estas unidades de notificación se encuentran en el área sombreada del diagrama.
 - Las unidades de resumen de alto nivel resumen la información de las unidades de detalle.
 
-[![Estructura del informe de resumen de Contoso: ejemplo 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estructura de la unidad organizacional – Ejemplo 2
 
 En el diagrama siguiente, el organigrama tiene una estructura de organización que está dividida por la función de negocio.
 
-[![Estructura del informe de resumen de Contoso: ejemplo 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Ejemplo del cuadro de diálogo Insertar unidades organizacionales de dimensiones
 
 En la siguiente ilustración se muestra un ejemplo del cuadro de diálogo **Insertar unidades de notificaciones de dimensiones**. Para este ejemplo, los resultados devolverán la combinación de unidades de negocio, centros de costes y departamentos.
 
-[![Insertar unidades de informes.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 La definición del organigrama resultante se clasifica por unidad de negocio, a continuación, por centro de coste y, por último, por departamento. La dimensión para la quinta unidad organizacional es **Unidad de negocio = \[001\], Centro de coste =\[\], Departamento = \[022\]** e identifica una unidad organizacional para las cuentas que son específicas de la unidad de negocio 001 y el departamento 022.
 
-[![Ilustración del árbol de informes.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Ejemplos de distribución de datos
 
@@ -194,15 +211,12 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 
 #### <a name="example-1"></a>Ejemplo 1
 
-[![Ejemplo multiempresa.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Ejemplo 2
 
-[![Ejemplo de departamentos interempresas.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

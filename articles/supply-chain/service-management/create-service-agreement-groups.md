@@ -1,10 +1,12 @@
 ---
 title: Crear grupos de acuerdos de servicio
-description: Este tema ofrece un procedimiento que muestra cómo crear grupos de acuerdos de servicio.
-author: kamaybac
+description: Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio.
+author: ShylaThompson
+manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5770bd9d958b63e4c62135f39224aee68247beff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bbafd65073e6aba8f02aaed6877b8c1658a6dedc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580441"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965941"
 ---
 # <a name="create-service-agreement-groups"></a>Crear grupos de acuerdos de servicio 
 
@@ -28,7 +30,7 @@ ms.locfileid: "7580441"
 
 Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos de servicio.
 
-1. Vaya a **Administración de servicio** \> **Configuración** \> **Acuerdos de servicio** \> **Grupos de acuerdos de servicios**.
+1. Haga clic en **Gestión de servicio** \> **Configurar** \> **Contratos de servicio** \> **Grupos de contrato de servicio**.
 2. Presione **Alt+N** para crear un nuevo grupo de contratos de servicio.
 3. En el campo **Grupo de contrato de servicio**, introduzca un Id. para el grupo de contratos de servicio.
 4. En el campo **Descripción**, especifique una descripción para el grupo de contratos de servicio.
@@ -40,6 +42,3 @@ Los grupos de acuerdos de servicio son útiles para ordenar y filtrar acuerdos d
 ## <a name="related-topics"></a>Temas relacionados
 
 [Visión general del acuerdo de servicio](service-agreement-groups.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

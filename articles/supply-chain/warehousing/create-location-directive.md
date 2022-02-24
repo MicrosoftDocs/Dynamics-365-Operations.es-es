@@ -2,9 +2,11 @@
 title: Trabajar con directivas de ubicación
 description: Este tema describe cómo trabajar con directivas de ubicación. Las directivas de ubicación son reglas definidas por el usuario que ayudan a identificar las ubicaciones de picking y de colocación para el movimiento de inventario.
 author: Mirzaab
+manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e3139f62ca73f461ff4a4b5114f5e7ba181d3b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575252"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963319"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -44,14 +46,14 @@ Para poder crear una directiva de ubicación, debe seguir estos pasos a fin de a
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
 1. Cree un almacén.
 1. En la ficha desplegable **Almacenes**, establezca la opción **Usar procesos de gestión de almacenes** en *Sí*.
-1. Cree ubicaciones, tipos de ubicación, perfiles de ubicación y formatos de ubicación. Para obtener más información, consulte [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
-1. Cree sitios, zonas y grupos de zona. Para obtener más información, consulte [Configuración de almacén](../../commerce/channels-setup-warehouse.md) y [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Cree ubicaciones, tipos de ubicación, perfiles de ubicación y formatos de ubicación. Para obtener más información, consulte [Configurar ubicaciones en un almacén con WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Cree sitios, zonas y grupos de zona. Para obtener más información, consulte [Configuración de almacén](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) y [Configurar ubicaciones en un almacén con WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 
 ## <a name="work-order-types-for-location-directives"></a>Tipos de órdenes de trabajo para directivas de ubicación
 
 Muchos de los campos que se pueden configurar para las directivas de ubicación son comunes a todos los tipos de órdenes de trabajo. Sin embargo, otros campos son específicos para tipos de órdenes de trabajo particulares.
 
-![Tipos de órdenes de trabajo de directivas de ubicación.](media/Location_Directives_Work_Order_Types.png "Tipos de órdenes de trabajo de directivas de ubicación")
+![Tipos de órdenes de trabajo de directivas de ubicación](media/Location_Directives_Work_Order_Types.png "Tipos de órdenes de trabajo de directivas de ubicación")
 
 > [!NOTE]
 > Dos tipos de órdenes de trabajo, *Trabajo cancelado* e *Inventario cíclico*, son utilizados únicamente por el sistema. No se pueden crear directivas de ubicación para estos tipos de órdenes de trabajo.
@@ -143,14 +145,14 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
 - **Código de directiva** - Seleccione el código de directiva que se debe asociar con una plantilla de trabajo o de reabastecimiento. En la página **Código de directiva** puede crear nuevos códigos para utilizarlos con el fin de conectar plantillas de trabajo o plantillas de reabastecimiento a directivas de ubicación. También pueden usar códigos de directiva para establecer un vínculo entre cualquier línea de plantilla de trabajo y una directiva de ubicación (como compuerta o ubicación provisional).
 
     > [!TIP]
-    > Si se establece un código de directiva, el sistema no buscará las directivas de ubicación por número de secuencia cuando se debe generar el trabajo. En cambio, buscará por código de directiva. De esta manera, se puede ser más específico sobre la directiva de ubicación que se usa para un paso determinado en una plantilla de trabajo, como el paso de almacenamiento provisional de los materiales.
+    > Si se establece un código de directiva, el sistema no buscará las directivas de ubicación por número de secuencia cuando se debe generar el trabajo. En cambio, buscará por código de directiva. De esta manera, se puede ser más específico sobre la plantilla de ubicación que se usa para un paso determinado en una plantilla de trabajo, como el paso de almacenamiento provisional de los materiales.
 
 - **Múltiples SKU** – Establezca esta opción en *Sí* para habilitar varias referencias de almacén (SKU) para usar en una ubicación. Por ejemplo, se deben habilitar varios SKU para la ubicación de la puerta de bahía. Si habilita varios SKU, su ubicación de colocación se especificará en el trabajo, como se esperaba. Sin embargo, la ubicación de colocación solo podrá manejar una colocación de varios elementos (si el trabajo incluye diferentes SKU que deben seleccionarse y colocarse). No podrá manejar una sola puesta de SKU. Si configura esta opción en *No*, su ubicación de colocación se especificará solo si su colocación tiene solo un tipo de SKU.
 
     > [!IMPORTANT]
     > Para poder realizar colocaciones de varios elementos y de un solo SKU, debe especificar dos líneas que tengan la misma estructura y configuración, pero debe establecer la opción **Varios SKU** en *Sí* para una línea y *No* para la otra. Por lo tanto, para las operaciones de colocación, debe tener dos directivas de ubicación idénticas, aunque usted no distinga entre SKU únicas y SKU múltiples en el identificador de trabajo. A menudo, si no configura estas dos directivas de ubicación, las ubicaciones inesperadas de los procesos comerciales vendrán de la directiva de ubicación aplicada. Debe utilizar una configuración similar para las directivas de ubicación que tienen un **Tipo de trabajo** de *selección* si necesita procesar pedidos que incluyen varios SKU.
 
-    Utilice la opción **Varios SKU** para líneas de trabajo que manejan más de un número de artículo. (El número de artículo estará en blanco en los detalles del trabajo y se mostrará como **Múltiple** en las páginas de procesamiento en la aplicación móvil Warehouse Management).
+    Utilice la opción **Varios SKU** para líneas de trabajo que manejan más de un número de artículo. (El número de artículo estará en blanco en los detalles del trabajo y se mostrará como **Múltiple** en las páginas de procesamiento en la aplicación del almacén).
 
     En un escenario de ejemplo típico, una plantilla de trabajo se configura de modo que tenga más de un par de selección/colocación. En este caso, es posible que desee buscar una ubicación de ensayo específica para usar para las líneas con un **Tipo de trabajo** de *Ubicación*.
 
@@ -169,7 +171,7 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
     > [!NOTE]
     > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types).
 
-- **Código de disposición** - Este campo se utiliza para las directivas de ubicación que tienen un tipo de orden de trabajo de *Órdenes de compra*, *Almacenamiento de productos terminados* o *Órdenes de devolución*, y un tipo de trabajo de *Ubicación*. Úselo para guiar el flujo para usar una directiva de ubicación específica, según el código de disposición que seleccionó un trabajador en la aplicación móvil Warehouse Management. Por ejemplo, puede dirigir los productos devueltos a una ubicación de inspección antes de que se devuelvan al stock. Un código de disposición se puede vincular a un estado de inventario. De esta forma, se puede utilizar para cambiar el estado del inventario como parte de un proceso de recepción. Por ejemplo, tiene un código de disposición, *QA*, que establece el estado del inventario en *QA*. Luego, puede tener una directiva de ubicación separada para mover ese inventario a una ubicación de cuarentena.
+- **Código de disposición** - Este campo se utiliza para las directivas de ubicación que tienen un tipo de orden de trabajo de *Órdenes de compra*, *Almacenamiento de productos terminados* o *Órdenes de devolución*, y un tipo de trabajo de *Ubicación*. Úselo para guiar el flujo para usar una directiva de ubicación específica, según el código de disposición que seleccionó un trabajador en la aplicación de almacén. Por ejemplo, puede dirigir los productos devueltos a una ubicación de inspección antes de que se devuelvan al stock. Un código de disposición se puede vincular a un estado de inventario. De esta forma, se puede utilizar para cambiar el estado del inventario como parte de un proceso de recepción. Por ejemplo, tiene un código de disposición, *QA*, que establece el estado del inventario en *QA*. Luego, puede tener una directiva de ubicación separada para mover ese inventario a una ubicación de cuarentena.
 
     > [!NOTE]
     > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types).
@@ -237,7 +239,7 @@ Puede definir varias acciones de las directivas de la ubicación para cada líne
     - **Redondea al lote completo LP y FEFO** - Esta estrategia combina los elementos de las esterategias *Reserva de lotes FEFO* y *Redondea a un LP completo*. Es válido solo para elementos habilitados por lotes y directivas de ubicación que tienen un tipo de trabajo de *Selección*. La línea debe estar habilitada por lotes para usar la estrategia *Reserva de lotes FEFO* y la estrategia *Redondea a un LP completo* solo se puede utilizar para el reabastecimiento. Si esta estrategia se configura junto con un límite de existencias de la ubicación, puede provocar que la ubicación de trabajo seleccionada se sobrecargue y se ignoren los límites de existencias.
     - **Redondear por arriba hasta matrícula de entidad de almacén completa**: esta estrategia se usa para redondear hacia arriba la cantidad de inventario de modo que coincida con la cantidad de matrícula de entidad de almacén asignada a los artículos que se van a seleccionar. Solo puede usar esta estrategia para las directivas de ubicación de reabastecimiento del tipo *Selección*. Si esta estrategia se configura junto con un límite de existencias de la ubicación, puede provocar que la ubicación de trabajo seleccionada se sobrecargue y se ignoren los límites de existencias.
     - **Guiado por matrícula** – Use esta estrategia cuando libere el pedido al almacén para crear el trabajo de picking y colocación. Puede usar este enfoque para varias matrículas de entidad de almacén. Esta estrategia guiada por matrículas tratará de reservar y crear trabajo de picking en las ubicaciones que contienen las matrículas solicitadas que se han asociado con las líneas de orden de transferencia. Sin embargo, si estas acciones no se pueden completar, pero aún desea crear un trabajo de recolección, debe recurrir a otra estrategia para las acciones de directiva de ubicación. Dependiendo de los requisitos de su proceso empresarial, es posible que también desee buscar inventario en otra área del almacén.
-    - **Ubicación en blanco sin trabajo entrante**: use esta estrategia para localizar ubicaciones vacías. Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto. Solo puede usar esta estrategia para las directivas de ubicación que tienen el tipo de trabajo *Ubicación*.
+    - **Ubicación en blanco sin trabajo entrante**: use esta estrategia para localizar ubicaciones vacías. Una ubicación se considera vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto. Solo puede usar esta estrategia para las directivas de ubicación que tienen el tipo de trabajo *Selección*.
     - **Vencimiento de ubicación FIFO** – Puede usar la estrategia FIFO para enviar artículos con seguimiento por lotes y artículos sin seguimiento por lotes, según la fecha en que el inventario entró en el almacén. Esta capacidad puede ser especialmente útil para el inventario sin seguimiento por lotes, en el que una fecha de vencimiento no está disponible para utilizarla en la clasificación. La estrategia FIFO busca la ubicación que contiene la fecha de vencimiento más antigua y luego asigna el picking en función de esa fecha de vencimiento.
     - **Vencimiento de ubicación LIFO** – Puede usar la estrategia LIFO para enviar artículos con seguimiento por lotes y artículos sin seguimiento por lotes, según la fecha en que el inventario entró en el almacén. Esta capacidad puede ser especialmente útil para el inventario sin seguimiento por lotes, en el que una fecha de vencimiento no está disponible para utilizarla en la clasificación. La estrategia LIFO busca la ubicación que contiene la fecha de vencimiento más reciente y luego asigna el picking en función de esa fecha de vencimiento.
 
@@ -249,12 +251,9 @@ Para esta situación, tiene que definir dos acciones de la directiva de la ubica
 
 ## <a name="next-step"></a>Paso siguiente
 
-Tras crear las directivas de ubicación, puede asociar cada código de directiva a un código de plantilla de trabajo para la creación de trabajos. Para obtener más información, consulte [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](./control-warehouse-location-directives.md).
+Tras crear las directivas de ubicación, puede asociar cada código de directiva a un código de plantilla de trabajo para la creación de trabajos. Para obtener más información, consulte [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Tema de ayuda: [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

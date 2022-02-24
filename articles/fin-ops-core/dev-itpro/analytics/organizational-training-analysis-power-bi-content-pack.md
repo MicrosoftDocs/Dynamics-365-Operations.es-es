@@ -2,9 +2,11 @@
 title: Contenido de formación organizativa de Power BI
 description: Este tema describe el contenido de Finance and Operations - Formación organizativa de Power BI.
 author: jcart1106
+manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763557"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685844"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenido de formación organizativa de Power BI
 
@@ -28,7 +30,7 @@ ms.locfileid: "6763557"
 Este tema describe el contenido de Finance and Operations - Formación organizativa de Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
-Tras conectar el paquete de contenido con sus datos, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, puede aprender más de la aplicación en [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
+Tras conectar el paquete de contenido con sus datos, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe          | Contenido                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -55,6 +57,3 @@ Los datos de la aplicación se usan para rellenar los informes del paquete de co
 | Training\_Position        | Puesto, título y equivalente a jornada completa                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Nombre, apellido y nombre completo                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Cargo y fecha de antigüedad                                         | Training\_CourseAttendees |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

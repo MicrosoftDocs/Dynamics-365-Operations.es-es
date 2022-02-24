@@ -2,9 +2,11 @@
 title: Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 description: Este tema proporciona información sobre cómo usar el tipo de campo calculado para los orígenes de datos de ER.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fbe06f2f4f0b9e738f27e87ae3ed5d10998ce949b854d088520837cef3ed9a9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740368"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681265"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 
@@ -86,7 +88,7 @@ En este ejemplo, creará una configuración para la empresa del ejemplo, Litware
 
     La distribución de modelo en esta configuración implementa el modelo de datos base de todos los formatos ER creados para este modelo y ejecutados en Finance and Operations. Como consecuencia, el contenido de los orígenes de datos **Impuesto** y **Gr** se expone para los formatos de ER como orígenes de datos abstractos.
 
-    ![Página de diseñador de distribución de modelo que muestra los orígenes de datos Impuesto y Gr.](media/er-calculated-field-type-01.png)
+    ![Página de diseñador de distribución de modelo que muestra los orígenes de datos Impuesto y Gr](media/er-calculated-field-type-01.png)
 
 5.  Cierre la página **Diseñador de distribución del modelo**.
 6.  Cierre la página **Distribución del modelo**.
@@ -101,21 +103,21 @@ En este ejemplo, creará una configuración para la empresa del ejemplo, Litware
     - Mostrar los siguientes niveles de impuestos en el extracto de impuestos: regular, reducido, y ninguno.
     - Actuales varois detalles en cada nivel de impuestos y tener un número distinto de detalles en cada nivel.
 
-    ![Página de diseñador de formato.](media/er-calculated-field-type-02.png)
+    ![Página de diseñador de formato](media/er-calculated-field-type-02.png)
 
 4. Seleccione **Asignación**.
 5. Expanda las entradas **Modelo**, **Datos,** y **Resumen**. 
 
     El campo calculado **Model.Data.Summary.Level** contiene la expresión que devuelve el código del nivel de impuestos (**Regular**, **Reducido**, **Ninguno,** o **Otro**) como valor de texto para cualquier código de impuestos que se puede recuperar del origen de datos **Model.Data.Summary** en el tiempo de ejecución.
 
-    ![La página del diseñador del formato que muestra los detalles del modelo de datos Model para aprender las llamadas con parámetros.](media/er-calculated-field-type-03.png)
+    ![La página del diseñador del formato que muestra los detalles del modelo de datos Model para aprender las llamadas con parámetros](media/er-calculated-field-type-03.png)
 
 6. Expanda **Model**.**Data2**.
 7. Expanda **Model**.**Data2Summary2**.
    
     El origen de datos **Model**.**Data2.Summary2** está configurado para agrupar los detalles de transacción del origen de datos **Model.Data.Summary** por el nivel de impuestos (devuelto por el campo calculado **Model.Data.Summary.Level** ) y calcular las agregaciones.
 
-    ![Página del diseñador del formato que muestra los detalles del origen de datos Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
+    ![Página del diseñador del formato que muestra los detalles del origen de datos Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Revise los campos calculados **Model**.**Data2.Level1**, **Model**.**Data2.Level2**, y **Model**.**Data2.Level3.** Estos campos calculados se usan para filtrar la lista de registros de **Model**.**Data2.Summary2** y devolver solamente los registros que representan un nivel determinado de los impuestos.
 9. Cierre la página **Diseñador de formato**.
@@ -155,7 +157,7 @@ Puede mejorar el formato proporcionado agregando un campo calculado para filtrar
 
     El número máximo de parámetros que se pueden especificar para un solo campo calculado es 8.
 
-    ![Lista de orígenes de datos de parámetros.](media/er-calculated-field-type-05.png)
+    ![Lista de orígenes de datos de parámetros](media/er-calculated-field-type-05.png)
 
 5. Seleccione **Aceptar**.
 
@@ -165,7 +167,7 @@ Si agrega este parámetro, especifica la condición que debe existir en lugar de
 
    El parámetro configurado está disponible en la lista de orígenes de datos de este campo calculado. Puede agregar el parámetro a la expresión configurada seleccionando **Agregar origen de datos**.
 
-   ![Campo del origen de datos.](media/er-calculated-field-type-06.png)
+   ![Campo del origen de datos](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Definir una expresión para agregar un campo calculado
 
@@ -181,7 +183,7 @@ Si agrega este parámetro, especifica la condición que debe existir en lugar de
 
 5. Seleccione **Guardar**.
 
-    ![Información del campo de origen de datos.](media/er-calculated-field-type-07.png)
+    ![Información del campo de origen de datos](media/er-calculated-field-type-07.png)
 
 6. Cierre la página **Diseñador de fórmula**.
 
@@ -191,9 +193,9 @@ Si agrega este parámetro, especifica la condición que debe existir en lugar de
 
 En la página **Diseñador de formato**, el campo calculado configurado con parámetros **Niveles** requiere un argumento **Cadena**.
 
-![Lista ampliada de niveles del campo calculado.](media/er-calculated-field-type-08.png)
+![Lista ampliada de niveles del campo calculado](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Use el campo calculado configurado para vincular elementos del formato
+### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Use el campo calculado configurado para vincular elementos del formato
 
 1. Seleccione **Model.Data2.Levels** para seleccionar el campo calculado configurado.
 2. Seleccione el elemento de formato **Statement.Taxation.Regular**.
@@ -214,13 +216,13 @@ En la página **Diseñador de formato**, el campo calculado configurado con par�
 9. Seleccione **Enlazar**.
 10. Seleccione **Sí** para confirmar la sustitución del origen de datos usado actualmente, **Level3**, para el nuevo origen de datos, **Niveles**, en todos los elementos del formato anidados en el elemento del formato seleccionado.
 
-   Cuando se especifica el argumento del campo calculado con parámetros para el elemento XML que representa el nivel de impuestos (por ejemplo, **Model.Data2.Levels (&quot;Reduced")** como valor de texto), no es necesario hacer lo mismo para atributos XML anidados -sus vínculos heredarán automáticamente el valor del argumento definido en el nivel principal (**Model.Data2.Levels.aggregated.Base**, no **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Cuando se especifica el argumento del campo calculado con parámetros para el elemento XML que representa el nivel de impuestos (por ejemplo, **Model.Data2.Levels ("Reduced")** como valor de texto), no es necesario hacer lo mismo para atributos XML anidados -sus vínculos heredarán automáticamente el valor del argumento definido en el nivel principal (**Model.Data2.Levels.aggregated.Base**, no **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Las llamadas periódicas de cualquier campo calculado con parámetros no se admiten.
 
 Puede seleccionar **Editar fórmula** y cambiar el argumento aplicado de forma predeterminada del campo calculado con parámetros del vínculo seleccionado. Si falta este argumento, puede producir errores en tiempo de ejecución — se informa a los usuarios sobre esta situación cuando se valida el formato actual.
 
-![Notificación de aviso de validación.](media/er-calculated-field-type-10.png)
+![Notificación de aviso de validación](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Configurar un campo calculado con parámetros para devolver un registro
 Cuando un campo calculado con parámetros devuelve un registro, necesita admitir el vínculo de campos individuales de este registro para dar formato a elementos. En casos como éste no habrá vinculación principal que contenga el valor de un argumento para llamar a un campo calculado con parámetros —este valor debe definirse en la vinculación del campo de un único registro.
@@ -272,7 +274,7 @@ Cuando un campo calculado con parámetros devuelve un registro, necesita admitir
 8. Seleccione **Editar fórmula**.
 9. Cambie la expresión a **Model.Data2.LevelRecord("None").aggregated.Base**.
 
-![Expresión actualizada.](media/er-calculated-field-type-11.png)
+![Expresión actualizada](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Quite los campos calculados que no se utilizan
 
@@ -340,6 +342,3 @@ Puede importar las configuraciones revisadas de RCS mediante el repositorio de E
 - [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md)
 - [Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados](er-calculated-field-ds-performance.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Módulo de carrusel
 description: En este tema se tratan los módulos de carrusel y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721064"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415462"
 ---
 # <a name="carousel-module"></a>Módulo de carrusel
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de carrusel y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 Un módulo de carrusel sirve para colocar artículos promocionales (incluidas imágenes enriquecidas) en un banner de carrusel giratorio que los clientes pueden explorar. Por ejemplo, un minorista puede usar un módulo de carrusel en una página principal para mostrar productos o promociones nuevas.
 
@@ -40,7 +45,7 @@ Puede agregar los módulos de bloque de contenido dentro de un módulo de carrus
 
 La siguiente imagen muestra un ejemplo de un módulo de carrusel utilizado en una página principal. Este módulo de carrusel contiene múltiples elementos de bloque de contenido.
 
-![Ejemplo de módulo de carrusel.](./media/Hero.PNG)
+![Ejemplo de módulo de carrusel](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Propiedades de módulo de carrusel
 
@@ -81,6 +86,3 @@ Para agregar un módulo de carrusel a una página nueva y establecer las propied
 [Módulo de bloque de contenido](add-hero-module.md)
 
 [Módulo de reproductor de vídeo](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

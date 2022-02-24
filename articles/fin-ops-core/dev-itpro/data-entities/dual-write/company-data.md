@@ -1,29 +1,38 @@
 ---
 title: Concepto de empresa en Dataverse
-description: Este tema describe la integración de datos de empresa entre Finance and Operations y Dataverse.
+description: En este tema se describe la integración de datos de empresa entre Finance and Operations y Dataverse.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 08/04/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-07-15
+ms.openlocfilehash: bbe634b87b3cb30ed993f9b3afeb4321d70f07e6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061035"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744888"
 ---
 # <a name="company-concept-in-dataverse"></a>Concepto de empresa en Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-
-En Finance and Operations, el concepto *empresa* es una interpretación legal y una interpretación empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
+En Finance and Operations, el concepto *empresa* es una construcción legal y una construcción empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
 
 Dataverse no tiene un concepto equivalente. El concepto más cercano es *unidad de negocio*, que es un límite principalmente de seguridad y de visibilidad para los datos de usuario. Este concepto no tiene las mismas implicaciones legales o empresariales que el concepto de empresa.
 
@@ -36,7 +45,7 @@ Dado que la unidad de negocio y la empresa no son conceptos equivalentes, no es 
 
 En la siguiente ilustración se muestra un ejemplo de esta configuración de datos en Dataverse.
 
-![Configuración de datos en Dataverse.](media/dual-write-company-1.png)
+![Configuración de datos en Dataverse](media/dual-write-company-1.png)
 
 Debido a esta configuración, cualquier fila relacionada con la empresa USMF será propiedad de un equipo que está vinculado a la unidad de negocio de USMF en Dataverse. Por lo tanto, cualquier usuario que tenga acceso a esa unidad de negocio con un rol de seguridad que se establezca en la visibilidad de nivel de unidad de negocio podrá ver dichas filas. El siguiente ejemplo muestra cómo se pueden utilizar los equipos para proporcionar acceso correcto a dichas filas.
 
@@ -45,21 +54,21 @@ Debido a esta configuración, cualquier fila relacionada con la empresa USMF ser
 + El equipo de “ventas de USMF" está vinculado a la unidad de negocio de USMF antes mencionada.
 + Por lo tanto, los miembros del equipo de "ventas de USMF" pueden ver cualquier cuenta que sea propiedad del usuario de "USMF DW", que habría llegado de la tabla de la empresa USMF en Finance and Operations.
 
-![Cómo se pueden usar los equipos.](media/dual-write-company-2.png)
+![Cómo se pueden usar los equipos](media/dual-write-company-2.png)
 
 Como muestra la ilustración anterior, esta asignación 1:1 entre la unidad de negocio, la empresa y el equipo es solo un punto de partida. En este ejemplo, una nueva unidad de negocio “Europa” se crea manualmente en Dataverse como principal para DEMF y ESMF. Esta nueva unidad de negocio raíz no está relacionada con la escritura dual. Sin embargo, se puede usar para dar a los miembros del “equipo de ventas EUR” acceso a los datos de la cuenta en DEMF y ESMF estableciendo la visibilidad de los datos en **BU principal/secundaria** en el rol de seguridad asociado.
 
 Un tema final a discutir es cómo la escritura dual determina a qué equipo propietario debe asignar las filas. Este comportamiento se controla mediante la columna **Equipo propietario predeterminado** en la fila cdm\_Company. Cuando la fila cdm\_Company está habilitada para la escritura dual, un complemento crea automáticamente la unidad de negocio asociada y el equipo propietario (si no existe ya) y establece la columna **Equipo propietario predeterminado** . El administrador puede cambiar esta columna a un valor distinto. Sin embargo, el administrador no puede desactivar la columna cuando la tabla está habilitada para la escritura dual.
 
 > [!div class="mx-imgBorder"]
-![Columna de Equipo propietario predeterminado.](media/dual-write-default-owning-team.jpg)
+![Columna de Equipo propietario predeterminado](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fragmentación y arranque de la empresa
 
 La integración de Dataverse aporta paridad a la empresa mediante un identificador de empresa para fragmentar los datos. Como muestra la siguiente ilustración, todas las tablas específicas de la empresa se extienden de modo que tengan una relación muchos a uno (N:1) con la tabla cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![Relación N:1 entre una tabla específica de la empresa y la tabla cdm_Company.](media/dual-write-bootstrapping.png)
+![Relación N:1 entre una tabla específica de la empresa y la tabla cdm_Company](media/dual-write-bootstrapping.png)
 
 + Para las filas, después de que se agrega y se guarda una empresa, el valor pasa a ser de solo lectura. Por lo tanto, los usuarios deben asegurarse de que se selecciona la empresa correcta.
 + Solo las filas con datos de la empresa son aptos para la escritura dual entre la aplicación y Dataverse.
@@ -82,7 +91,7 @@ Hay varias formas de completar automáticamente el nombre de la empresa en las a
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="La elección de una fila cambia la empresa predeterminada.":::
 
-+ Si es un configurador o administrador del sistema y desea completar automáticamente los datos de la empresa en un formulario personalizado, puede usar [eventos de formulario](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Agregue una referencia de JavaScript a **msdyn_ /DefaultCompany.js** y utilice los siguientes eventos. Puede utilizar cualquier formulario listo para usar, por ejemplo, el formulario **Cuenta**.
++ Si es un configurador o administrador del sistema y desea completar automáticamente los datos de la empresa en un formulario personalizado, puede usar [eventos de formulario](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Agregue una referencia de JavaScript a **msdyn_ /DefaultCompany.js** y utilice los siguientes eventos. Puede utilizar cualquier formulario listo para usar, por ejemplo, el formulario **Cuenta**.
 
     + Evento **OnLoad** para el formulario: establezca la columna **defaultCompany**.
     + Evento **OnChange** para la columna **Empresa**: establezca la columna **updateDefaultCompany**.
@@ -91,8 +100,5 @@ Hay varias formas de completar automáticamente el nombre de la empresa en las a
 
 Para aplicar el filtrado basado en el contexto de la empresa en sus formularios personalizados o en las columnas de búsqueda personalizadas agregadas a los formularios estándar, abra el formulario y use la sección **Filtrado de registros relacionados** para aplicar el filtro de empresa. Debe establecer esto para cada columna de búsqueda que requiera filtrado según la empresa subyacente en una fila determinada. El ajuste se muestra para **Cuenta** en la siguiente ilustración.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa.":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa":::
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

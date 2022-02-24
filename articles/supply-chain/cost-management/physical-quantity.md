@@ -2,9 +2,11 @@
 title: Valores de objeto de inventario
 description: Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568960"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967442"
 ---
 # <a name="inventory-object-values"></a>Valores de objeto de inventario
 
@@ -44,7 +46,7 @@ El siguiente ejemplo muestra cómo se calculan los valores de un objeto de inven
 
 La tabla siguiente muestra el resultado del cálculo de un objeto de coste. Puede ver el resultado en la página **Objeto de coste**.
 
-<table>
+<table style="width:100%;">
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -80,7 +82,7 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de coste. Pued
 
 La tabla siguiente muestra el resultado del cálculo de un objeto de inventario. Puede ver el resultado haciendo clic en **Cantidad física** en la página **Objeto de coste**.
 
-<table>
+<table style="width:100%;">
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -133,16 +135,14 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Objetos de coste](cost-object.md)
 
 [Entradas de costes](cost-entries.md)
 
-[Novedades y cambios](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
+[Novedades y cambios](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

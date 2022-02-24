@@ -2,30 +2,35 @@
 title: Métodos para agregar contenido
 description: En este tema se proporciona una descripción general y vínculos seleccionados para saber dónde y cómo comenzar a administrar el contenido mediante el conjunto de herramientas de creación web del configurador de sitios de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727687"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415482"
 ---
 # <a name="ways-to-add-content"></a>Métodos para agregar contenido
 
 [!include [banner](includes/banner.md)]
 
 En este tema se proporciona una descripción general y vínculos a la documentación sobre cómo administrar contenido mediante el conjunto de herramientas de creación web del configurador de sitios de Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
 
 Hay muchas maneras de cambiar el aspecto y el contenido del sitio. En función del nivel de personalización requerido, muchos de estos cambios pueden ser implementados por personas sin conocimientos de programación en el configurador de sitios, el conjunto de herramientas de creación web incluido en Dynamics 365 Commerce. El configurador de sitios le permite crear plantillas, seleccionar temas y seleccionar y configurar módulos sin tener que escribir código. Por el contrario, se requieren aptitudes de desarrollo para crear un nuevo tema o módulo, ya que deben usarse el kit de desarrollo de software (SDK) de comercio electrónico y el flujo de trabajo de implementación de Lifecycle Services (LCS) de Microsoft Dynamics.
 
@@ -52,6 +57,3 @@ Seleccione uno de los siguientes temas para empezar.
 [Estados y ciclo de vida de documentos](document-states-overview.md)
 
 [Habilitar y usar el uso compartido entre canales](cross-channel-sharing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

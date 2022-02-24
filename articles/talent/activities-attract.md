@@ -91,6 +91,3 @@ La plantilla de proceso de contratación requiere la actividad de Offer. Para us
 > La aplicación integrada de administración de Offer está disponible únicamente con el complemento de contratación completo. Para obtener más información, consulte [Qué versión de Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

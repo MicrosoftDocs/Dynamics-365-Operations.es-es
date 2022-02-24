@@ -1,14 +1,17 @@
 ---
 title: Métodos de pago
 description: Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.
-author: BrianShook
-ms.date: 11/03/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779579"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415546"
 ---
 # <a name="payment-methods"></a>Métodos de pago
 
@@ -46,11 +49,3 @@ Para configurar los métodos de pago, debe completar las tareas siguientes.
 2. Creación de tipos y números de tarjeta de la organización. Si desea aceptar tarjetas de crédito o de débito, debe crear un método de pago para tarjetas y, a continuación, los tipos y números de tarjeta de la organización.
 3. Configurar métodos de pago en tienda. Asocie métodos de pago a cada tienda e indique la configuración específica de la tienda para cada método de pago.
 4. Configurar tipos de pago con tarjeta para tiendas. Complete la configuración de tarjeta para todos los métodos de pago con tarjeta que acepte la tienda.
-
-## <a name="handle-change-tendering-for-payment-methods"></a>Gestionar cambios en la forma de pago para métodos de pago
-
-Algunos métodos de pago no admiten cambios directos en la forma de pago si los fondos se deben devolver a los clientes durante las transacciones en el punto de venta. Solo los métodos de pago **Efectivo** y **Divisa** se pueden utilizar para cambios en la forma de pago. 
-
-Para gestionar casos en los que se requieren cambios en la forma de pago durante una transacción, pero el método de pago no lo admite, puede definir un método de pago **Cambio de la forma de pago**. Cuando configure los métodos de pago en tienda para la tienda, seleccione el método de pago que desee utilizar. A continuación, en la sección **Cambio**, en el campo **Cambio de la forma de pago**, ingrese una opción de cambio de forma de pago. Por ejemplo, puede ingresar **1** para indicar que el efectivo se puede utilizar como opción de cambio de forma de pago.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Reglas de directivas de auditoría
 description: Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas.
 author: panolte
+manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744315"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021250"
 ---
 # <a name="audit-policy-rules"></a>Reglas de directivas de auditoría
 
@@ -28,7 +30,8 @@ ms.locfileid: "6744315"
 
 Puede usar directivas de auditoría para evaluar si ciertos informes de gastos, facturas de proveedor y pedidos de compra para asegurarse de que cumplan las reglas de directivas que ha creado. Todas las reglas asociadas a una directiva de auditoría se ejecutan en el modo por lotes, de acuerdo con la programación que haya especificado.  Cada regla de directivas pertenece a un tipo de regla de directivas. Sólo puede haber una regla de directivas activa por cada tipo de regla de directivas. 
 
-## <a name="queries-and-query-types"></a>Consultas y tipos de consulta
+<a name="queries-and-query-types"></a>Consultas y tipos de consulta
+-----------------------
 
 Para crear una regla de directivas de auditoría, en primer lugar se selecciona un tipo de regla de directivas. El tipo de regla de directivas determina la consulta del árbol de objetos de aplicación (AOT) que se usa como punto de partida para crear la regla de directivas. También especifica el tipo de consulta que se usará para la regla de directivas. La consulta determina el documento de origen que evalúa la regla de directivas. También especifica los campos del documento de origen que identifican tanto la entidad jurídica y como la fecha que se usará al seleccionar documentos para una auditoría. El tipo de consulta controla los campos predeterminados de la página de consulta y de la página Regla de directivas de auditoría. En la tabla siguiente se incluyen los tipos de consulta disponibles para reglas de directivas de auditoría.
 
@@ -90,12 +93,10 @@ Todas las reglas de directivas de una directiva de auditoría concreta comparten
 
 
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Infracciones de directivas de auditoría y casos](audit-policy-violations-cases.md)
 [Defina directivas de auditoría para los documentos de origen](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

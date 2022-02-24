@@ -1,10 +1,12 @@
 ---
 title: Previsiones, órdenes de trabajo y proyectos
 description: En este tema se explica la integración de previsiones y órdenes de trabajo con el módulo Administración de proyectos y contabilidad en Administración de activos.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770345"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021043"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsiones, órdenes de trabajo y proyectos
 
@@ -58,13 +60,13 @@ Parte de esta información puede que no se encuentre en una orden de trabajo. Po
 
 Por ejemplo, en la siguiente ilustración, debido al modo que se configuró el tipo de activo **Motor de camión**, cada tarea de orden de trabajo que se crea con el tipo de activo **Motor de camión** será un subproyecto del identificador de proyecto 000186.
 
-![Figura 1.](media/01-integration-to-pma.png)
+![Figura 1](media/01-integration-to-pma.png)
 
 El propósito del identificador del proyecto en el trabajo de orden de trabajo y el número de actividad relacionado, es para llevar un seguimiento de los costes relacionados con el trabajo de la orden de trabajo y el activo seleccionada en el mismo, en el módulo **Gestión y contabilidad de proyectos**. Para ver el identificador y el número de actividad del proyecto, seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** y seleccione la orden de trabajo. En la ficha desplegable **Detalles de línea**, el campo **Id. de proyecto** muestra el identificador del proyecto y el campo **Número de actividad** muestra el número de actividad. Para obtener más información acerca del control de costes en Administración de activos, consulte [Control de costes y fechas](../controlling-and-reporting/cost-and-date-control.md).
 
 La siguiente ilustración presenta una visión general gráfica de los proyectos de órdenes de trabajo y las actividades de proyecto relacionadas.
 
-![Figura 2.](media/02-integration-to-pma.png)
+![Figura 2](media/02-integration-to-pma.png)
 
 Cuando se crea un trabajo nuevo de orden de trabajo, se creará automáticamente un proyecto de orden de trabajo para el trabajo. Las dimensiones financieras para el activo relacionado con el trabajo de la orden de trabajo se transfieren automáticamente al proyecto de la orden de trabajo.
 
@@ -86,18 +88,15 @@ Para ayudarle a garantizar que se usan los estados del ciclo de vida de la orden
 
 Las ilustraciones siguientes muestran las asociaciones entre los grupos de proyectos de órdenes de trabajo, los tipos de proyecto relacionados, las etapas de proyecto y los estados del ciclo de vida de la orden de trabajo.
 
-![Figura 3.](media/03-integration-to-pma.png)
+![Figura 3](media/03-integration-to-pma.png)
 
-![Figura 4.](media/04-integration-to-pma.png)
+![Figura 4](media/04-integration-to-pma.png)
 
-![Figura 5.](media/05-integration-to-pma.png)
+![Figura 5](media/05-integration-to-pma.png)
 
 Para obtener más información sobre cómo configurar tipos de órdenes de trabajo, consulte [Configuración de proyectos de órdenes de trabajo](../setup-for-work-orders/work-order-project-setup.md). Para obtener más información sobre cómo crear estados de ciclo de vida de órdenes de trabajo, consulte [Estados del ciclo de vida de la orden de trabajo](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 La ilustración siguiente muestra una visión general gráfica de los distintos proyectos creados en el módulo **Administración de activos** para habilitar la integración con el módulo **Gestión y contabilidad de proyectos**. También muestra a procesos de trabajo con que los proyectos están relacionados.
 
-![Figura 6.](media/06-integration-to-pma.png)
+![Figura 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
-description: 'Este tema describe cómo diseñar las configuraciones de los informes para generar documentos electrónicos que contienen imágenes insertadas. (Parte 1: configurar parámetros).'
+description: Para completar estos pasos, primero debe completar los pasos de la guía de tareas "ER crea informes en los formatos de MS Office con imágenes incrustadas (Parte 1 - Configurar parámetros)”.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717579"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684364"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
 
@@ -89,6 +91,3 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
     * Algunas etiquetas que se muestran en el formulario preimpreso del cheque se incluirán en el informe cuando se haya creado para hacer pruebas. Sin embargo, dichas etiquetas no se imprimirán durante la impresión real, porque el formulario preimpreso las incluye ya.  
 15. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

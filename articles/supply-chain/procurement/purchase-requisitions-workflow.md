@@ -1,10 +1,12 @@
 ---
 title: Flujo de trabajo de solicitudes de compra
 description: El proceso del flujo de trabajo mueve las solicitudes de compra por el proceso de revisión, desde un estado inicial de Borrador a un estado final de Aprobado. Cuando se envía una solicitud de compra a revisión, se inicia el proceso del flujo de trabajo. Cuando se aprueba una solicitud de compra, se puede generar un pedido de compra para las líneas de la solicitud de compra y enviarlo al proveedor para su cumplimiento.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66305688d1613b9882d3778a81886728df934931
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569466"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021989"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
@@ -51,7 +53,7 @@ En la siguiente ilustración se muestra la manera en la que una solicitud de com
 -   **Agente de compras**: usuario que realiza la revisión de una compra y que puede aprobar el documento.
 -   **Administrador del solicitante**: usuario que realiza la revisión administrada y que puede aprobar el documento.
 
-![Proceso de revisión de flujo de trabajo de solicitudes de compra.](./media/purchreqworkflowoverview_submission.gif)  
+![Proceso de revisión de flujo de trabajo de solicitudes de compra](./media/purchreqworkflowoverview_submission.gif)  
 En este ejemplo, el proceso del flujo de trabajo de la solicitud de compra incluye los pasos siguientes:
 
 1.  El preparador envía una solicitud de compra a revisión.
@@ -74,7 +76,7 @@ Los roles siguientes están incluidos en el proceso de flujo de trabajo de este 
 -   **Director de departamento**: usuario que realiza la revisión de gastos y que puede aprobar el documento.
 -   **Director de grupo**: usuario que realiza la revisión de autoridad de firmas y que puede aprobar el documento.
 
-![Proceso de revisión del flujo de trabajo de la línea de la solicitud de compra.](./media/purchreqlineworkflowoverview.gif)  
+![Proceso de revisión del flujo de trabajo de la línea de la solicitud de compra](./media/purchreqlineworkflowoverview.gif)  
 En este ejemplo, el proceso del flujo de trabajo de las líneas de la solicitud de compra incluye los pasos siguientes:
 
 1.  El preparador envía una solicitud de compra a revisión. Cada línea se enruta al revisor configurado para recibirla en el proceso del flujo de trabajo.
@@ -105,7 +107,8 @@ Puede configurar revisores de gastos en la página **Revisores de gastos de soli
 
 Para usar uno de los revisores de gastos que ha configurado en un flujo de trabajo, debe establecer la opción **Tipo de participante** en **Participantes de gastos** en las propiedades de **Asignación** del elemento de flujo de trabajo correspondiente.
 
-## <a name="additional-resources"></a>Recursos adicionales
+<a name="additional-resources"></a>Recursos adicionales
+--------
 
 [Crear una solicitud para consumo](tasks/create-requisition-consumption.md)
 
@@ -117,6 +120,3 @@ Para usar uno de los revisores de gastos que ha configurado en un flujo de traba
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

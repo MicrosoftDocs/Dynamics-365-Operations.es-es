@@ -1,28 +1,28 @@
 ---
 title: Visión general de las secuencias numéricas
 description: Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores.
-author: SunilGarg
+author: MargoC
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "15461"
-- intro-internal
+ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: sunilg
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985690"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797079"
 ---
 # <a name="number-sequences-overview"></a>Visión general de las secuencias numéricas
 
@@ -115,6 +115,3 @@ A menos que haya una norma legal para usar secuencias numéricas continuas, se r
 En caso de fallo eléctrico, un error de aplicación u otro error inesperado, el sistema no podrá reciclar números de manera automática para las secuencias numéricas continuas. Puede ejecutar el proceso de limpieza manualmente o automáticamente para recuperar los números perdidos.
 
 Valore detenidamente el uso del servidor al planificar el proceso de limpieza. Es recomendable que realice la limpieza como un trabajo por lotes durante las horas de menor demanda.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

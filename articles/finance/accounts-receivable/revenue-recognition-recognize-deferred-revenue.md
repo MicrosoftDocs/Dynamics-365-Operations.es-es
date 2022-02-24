@@ -2,30 +2,33 @@
 title: Reconocer ingresos diferidos
 description: En este tema se proporciona información acerca de cómo reconocer ingresos mediante la característica de reconocimiento de ingresos.
 author: kweekley
+manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f6b221104d7012d82a0021b6d8f9cc10fe44cb7b8f3473ab8e7ae7a89be0a5e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726119"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459880"
 ---
 # <a name="recognize-deferred-revenue"></a>Reconocer ingresos diferidos
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
+> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
 
 En este tema se describe el proceso para reconocer ingresos en la programación de reconocimiento de ingresos. Después de que la factura se haya registrado para un pedido de ventas, se crea una programación de reconocimiento de ingresos para cada línea de pedido de ventas que tiene una programación de ingresos. La programación de ingresos en una línea se usa para determinar si los ingresos de la línea se deben diferir.
 
@@ -34,11 +37,11 @@ En este tema se describe el proceso para reconocer ingresos en la programación 
 Hay dos maneras de tener acceso a los detalles de la programación de reconocimiento de ingresos.
 
 - Puede abrir la programación de aprobación de ingresos directamente a partir de un pedido de ventas facturado. En este caso, la información en la programación de ingresos se filtra para mostrar solo los detalles del pedido de ventas seleccionado. Este método resulta útil al validar los detalles de la programación para un pedido de ventas.
-- Puede abrir la programación de reconocimiento de ingresos desde la página **Reconocimiento de ingresos \> Tareas periódicas**. Este método se usa a menudo cuando los ingresos se reconocen al final de un período. Cuando se abre la página por primera vez, no se muestra ninguna información. Use los filtros sobre la cuadrícula para definir los criterios de los detalles de la programación que se deben mostrar. Puede filtrar según las fechas de factura introduciendo un intervalo de fechas, un pedido de ventas, un cliente, un id. de proyecto o un estado.
+- Puede abrir la programación de reconocimiento de ingresos desde la página **Reconocimiento de ingresos \> Tareas periódicas**. Este método se usa a menudo cuando los ingresos se reconocen al final de un período. Cuando se abre la página por primera vez, no se muestra ninguna información. Use los filtros sobre la cuadrícula para definir los criterios de los detalles de la programación que se deben mostrar. Puede filtrar según las fechas de factura si especifica un intervalo de fechas, un pedido de ventas, un cliente, un id. de proyecto o un estado.
 
-[![Ilustración de la página Programaciones de ingresos.](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![Página de programaciones de ingresos](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
-La ficha desplegable **Dimensión financiera** situada debajo de la cuadrícula muestra las dimensiones financieras de la línea del pedido de ventas. Estas dimensiones se consideraron durante el registro en los ingresos diferidos. También se consideran cuando se reconocen los ingresos. Los valores de dimensión que se utilizan dependen de la estructura contable que se asigna a las cuentas principales de ingresos y de ingresos diferidos.
+La ficha desplegable **Dimensión financiera** debajo de la cuadrícula muestra las dimensiones financieras de la línea del pedido de ventas. Estas dimensiones se consideraron durante el registro en los ingresos diferidos. También se consideran cuando se reconocen los ingresos. Los valores de dimensión que se utilizan dependen de la estructura contable que se asigna a las cuentas principales de ingresos y de ingresos diferidos.
 
 ## <a name="recognize-revenue"></a>Reconocer ingresos
 
@@ -46,7 +49,7 @@ Para reconocer ingresos, ejecute el proceso **Crear diario** en la página **Rec
 
 Para definir los criterios para seleccionar y registrar los ingresos, seleccione **Crear diario** para abrir el cuadro de diálogo **Crear diario**.
 
-[![Opciones de parámetros de Crear diario.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![Opciones de parámetros de Crear diario](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 En el cuadro de diálogo, utilice las opciones del grupo de campos **Fecha de procesamiento** para definir la fecha de registro que se utilizará cuando se reconozcan los ingresos. Si selecciona **Fecha seleccionada**, puede especificar una fecha de registro en el campo **Fecha de transacción**. Si selecciona **Fecha de programación de ingresos**, no se utiliza la fecha de la transacción. En su lugar, se utiliza el valor del campo **Fecha de reconocimiento** de cada línea de la programación como fecha de registro.
 
@@ -56,11 +59,11 @@ Una vez que haya terminado de definir las fechas, seleccione **Aceptar** en el c
 
 Una vez que se ejecute el proceso, las líneas de la programación que se han transferido al diario se marcan como **Procesado**. El indicador **Procesado** indica que las líneas se han transferido al diario, pero se pueden registrar o no registrar. Una vez registrado el diario de reconocimiento de ingresos, el indicador **Procesado** se mantiene. Si se elimina el diario de reconocimiento de ingresos, o si se elimina una línea, se quita el indicador **Procesado**. De esa manera, la línea se podrá reconocer cuando el proceso **Crear diario** se ejecute de nuevo.
 
-[![Página de programaciones de reconocimiento de ingresos.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![Página de programaciones de reconocimiento de ingresos](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 En la página **Diario de reconocimiento de ingresos** (**Reconocimiento de ingresos \> Entradas del diario \> Diario de reconocimiento de ingresos**), abra **Líneas** para ver los detalles de lo que se está reconociendo. Se creará siempre una transacción independiente para cada línea de la programación que se está reconociendo, incluso si todas las líneas se registran en la misma fecha mediante el uso de las mismas cuentas contables.
 
-[![Página Asiento del diario.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![Página Asiento del diario](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 La columna **Cuenta** muestra la cuenta contable de ingresos diferidos. Esta cuenta contable no se puede editar. Esta restricción ayuda a garantizar que se libera la cuenta contable correcta de ingresos diferidos. Esta cuenta contable no se valida con la estructura contable, porque es posible que haya cambiado desde que se produjo por última vez el registro en la cuenta contable de los ingresos diferidos.
 
@@ -82,7 +85,7 @@ Se permiten algunas ediciones en las líneas de la programación. Los siguientes
 
 - **En espera**: este indicador se puede establecer o quitar antes de que se procese la línea. Para borrar el indicador, seleccione la fila y, a continuación, seleccione **Eliminar retención**. Los ingresos no se pueden reconocer en las líneas que están en espera. Las líneas se pueden colocar automáticamente en espera si la programación de ingresos se configura para retenciones automáticas.
 
-    [![Programaciones de ingresos: editar líneas de la programación.](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Programaciones de ingresos: editar líneas de la programación](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Fecha de reconocimiento**: la fecha de reconocimiento se puede cambiar antes que se procese la línea. Cuando se ejecuta el proceso que crea el diario para reconocer ingresos, se especifica una fecha en el campo **Reconocimiento de ingresos a partir de la fecha**. Esa fecha se compara con la fecha en el campo **Fecha de reconocimiento** para determinar qué líneas se deben reconocer.
 - **Importe para liberar**: el importe que se liberará se puede modificar antes de que se procese la línea. Puede reducir el importe de los ingresos que se va a reconocer, pero no puede aumentarlo. Este campo permite a una organización reconocer parte de los ingresos en la fecha de reconocimiento. Si se cambia el importe, el importe del campo **Importe restante** muestra cuántos ingresos se deben seguir reconociendo.
@@ -94,18 +97,15 @@ Los detalles de la programación de ingresos se crean según la programación de
 
 Para cambiar la programación, seleccione cualquier línea de programación para el artículo que esté cambiando. En la siguiente ilustración está seleccionada la línea para el artículo S0008 que se ha registrado mediante una programación de ingresos de doce meses. Cuando se selecciona **Actualizar condiciones del contrato**, un cuadro de diálogo muestra las fechas iniciales y finales del contrato y la programación de ingresos.
 
-[![Fechas iniciales y finales del contrato.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![Fechas iniciales y finales del contrato](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 Cambie las fechas iniciales y finales del contrato para que reflejen el intervalo de fechas correcto. Cuando cambia el intervalo de fechas, el valor del campo **Número de repeticiones** debe coincidir con una programación de ingresos que se ha definido en el sistema. En este ejemplo, puesto que el contrato se cambió a un contrato de 24 meses, se debe configurar una programación de ingresos de 24 meses. Puesto que existe la programación de ingresos de 24 meses, se especifica de forma predeterminada y el contrato se puede modificar. Si no existe una programación de ingresos con un número coincidente de repeticiones, no se podrá modificar el contrato. Una vez que haya terminado de actualizar las condiciones del contrato y la programación de ingresos como sea necesario, seleccione **Aceptar** en el cuadro de diálogo para guardar los cambios.
 
-[![Intervalo de fechas del contrato actualizado.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![Intervalo de fechas del contrato actualizado](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 Los cambios del contrato tienen los efectos siguientes en los detalles de la programación de ingresos:
 
 - Si no se ha reconocido ningún ingreso para el producto, todos los detalles anteriores de la programación se eliminan y se reemplazan con los nuevos detalles de la programación de ingresos. Por ejemplo, el artículo S0008 tenía originalmente 12 líneas en los detalles de la programación. Esas 12 líneas se eliminan y se reemplazan por 24 líneas, en función de la nueva programación de ingresos.
 - Si se han reconocido los ingresos para el producto, algunos ingresos se han reconocido incorrectamente porque el reconocimiento se basaba en la programación incorrecta de ingresos. Esas líneas se deben invertir y reconocer de nuevo, en función de la nueva programación. En esta situación, se crean nuevas líneas de la programación de ingresos con importes negativos en la fecha de reconocimiento original. A continuación, se crean las nuevas líneas para reconocer los importes basados en la nueva programación de ingresos. Por ejemplo, el 8 de agosto de 2019, se reconocen los ingresos para $10.53. El 8 de septiembre de 2019, se reconocen los ingresos para $13.16. Por lo tanto, se crean dos nuevas líneas en las mismas fechas. Una línea es para -$10.53 y la otra línea es para -$13.16. A continuación, se crean veinticuatro nuevas líneas y los ingresos diferidos totales de $160.61 se asignan entre ellas. Para registrar las líneas de inversión, ejecute el proceso **Crear diario**.
 
-[![Programación de reconocimiento de ingresos.](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[![Programación de reconocimiento de ingresos](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
