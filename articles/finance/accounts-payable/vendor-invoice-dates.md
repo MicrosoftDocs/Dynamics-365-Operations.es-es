@@ -2,25 +2,25 @@
 title: Fechas de factura del proveedor
 description: Este tema describe las fechas que aparecen en las facturas de proveedores. También explica cómo configurar el sistema para que ajuste automáticamente la fecha de registro.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647910"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105473"
 ---
 # <a name="vendor-invoice-dates"></a>Fechas de factura del proveedor
 
@@ -50,6 +50,9 @@ Siga estos pasos para permitir que el sistema ajuste automáticamente la fecha d
     - **Cambiar siempre la fecha de registro a la fecha del sistema**: el sistema cambia automáticamente la fecha de registro a la fecha del sistema durante el registro.
     - **Cambiar la fecha de registro a la fecha del sistema cuando el período de fecha de registro esté cerrado o en espera**: el sistema cambia la fecha de registro a la fecha del sistema durante el registro, pero solo si el periodo correspondiente de la fecha de registro tiene un estado de **Cerrado** o **En espera**.
     - **Cambiar la fecha de registro al primer día del nuevo período cuando el período de fecha de registro esté cerrado o en espera**: el sistema cambia la fecha de registro al primer día del nuevo periodo abierto, pero solo si el periodo correspondiente de la fecha de registro tiene un estado de **Cerrado** o **En espera**.
+
+> [!NOTE]
+> Si la nueva fecha de registro que se ajustó automáticamente se encuentra en un nuevo ejercicio, la fecha de registro de la factura no se actualizará. El usuario recibirá un error "El ejercicio ha cambiado. Verifique y vuelva a introducir la fecha de registro". La fecha de registro de la factura debe actualizarse a la fecha del nuevo ejercicio para poder registrarse.
 
 ## <a name="impact-of-posting-date-changes"></a>Impacto de los cambios en la fecha de registro
 

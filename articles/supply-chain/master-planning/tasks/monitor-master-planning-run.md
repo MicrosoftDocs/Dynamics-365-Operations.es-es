@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778140"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103172"
 ---
 # <a name="monitor-a-master-planning-run"></a>Supervisar una ejecución de planificación maestra
 
@@ -28,12 +28,11 @@ ms.locfileid: "7778140"
 
 En la página **Ver el progreso de la planificación maestra**, puede ver los detalles de las ejecuciones históricos de la planificación maestra como gráfico de Gantt. Esta función puede ayudarle a comprender el tiempo que se emplea en las distintas fases de la planificación maestra. Para un trabajo de planificación de activo actual, la página **Ver el progreso de la planificación maestra** se puede usar para realizar el seguimiento del progreso y ver el tiempo estimado restante.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Activar y usar la función de la visualización del progreso del plan maestro
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Activar o desactivar la característica de la visualización del progreso del plan maestro
 
-Para usar esta funcionalidad, siga estos pasos.
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Visualización del progreso del plan maestro* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-1. En el espacio de trabajo **Administración de características**, en la pestaña **Nuevo**, seleccione **Visualización del progreso de la planificación maestra** en la lista. Si la característica no aparece en la pestaña **Nuevo**, mire en las pestañas **No habilitado** y **Todo**.
-1. Seleccione **Habilitar ahora**. Como alternativa, seleccione **Programación** y el tiempo en que desea que la función esté activada. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Usar la característica de la visualización del progreso del plan maestro
 
 La página **Ver el progreso de la planificación maestra** puede mostrar trabajos históricos de planificación y trabajos activos de planificación. 
 

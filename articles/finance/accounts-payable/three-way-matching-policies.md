@@ -2,25 +2,25 @@
 title: Directivas de triple conciliación
 description: Este tema proporciona ejemplos de triple conciliación.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722848"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8110002"
 ---
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
@@ -42,10 +42,10 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 ### <a name="prerequisites"></a>Requisitos previos
 
--   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Triple conciliación.
--   Ken establece la actualización automática de la alternancia de estado de coincidencia del encabezado en la entidad jurídica en Sí.
--   Ken establece el campo Conciliar totales de precios para la entidad jurídica en Porcentaje, y especifica 15% como porcentaje de tolerancia.
--   Ken establece la directiva de conciliación en el nivel de artículo para el artículo 1500 - Máquina de CNC Milicron en Triple conciliación. Este artículo es un artículo del activo que se usa para la producción en Fabrikam. Las facturas para este artículo se asocian a las líneas de pedido de compra para los precios y con las recepciones de producto para las cantidades.
+-   Ken establece la **directiva de conciliación** en el nivel de entidad jurídica en **Triple conciliación**.
+-   Ken establece la **actualización automática de la alternancia de estado de coincidencia del encabezado** en la entidad jurídica en **Sí**.
+-   Ken establece el campo **Conciliar totales de precios** para la entidad jurídica en **Porcentaje**, y especifica 15 % como **porcentaje de tolerancia**.
+-   Ken establece la directiva de conciliación en el nivel de artículo para el artículo 1500 - Máquina de CNC Milicron en **Triple conciliación**. Este artículo es un artículo del activo que se usa para la producción en Fabrikam. Las facturas para este artículo se asocian a las líneas de pedido de compra para los precios y con las recepciones de producto para las cantidades.
 -   Tony especifica un pedido para cinco máquinas de CNC Milicron. Alicia, vendedora del pedido de compra en Fabrikam, emite un pedido de compra en una entidad jurídica denominada Contoso para suministrar artículos.
 
     | Número de artículo                 | Cantidad | Precio unitario | Importe neto | Código de gastos        | Valor de gastos |
@@ -91,11 +91,11 @@ Las directivas de conciliación de facturas en este personas de la ayuda de ejem
 
 ### <a name="prerequisites"></a>Requisitos previos
 
--   Ken establece la directiva de conciliación en el nivel de entidad jurídica en Doble conciliación.
--   Ken establece el campo Conciliar totales de precios para la entidad jurídica en Porcentaje, y especifica 10% como porcentaje de tolerancia.
+-   Ken establece la **directiva de conciliación** en el nivel de entidad jurídica en **Doble conciliación**.
+-   Ken establece el campo **Conciliar totales de precios** para la entidad jurídica en **Porcentaje**, y especifica **10 %** como **porcentaje de tolerancia**.
 -   Ken establece el porcentaje de tolerancia de precios por unidad para todos los artículos al 2%.
--   Cassie establece la directiva de conciliación en el nivel de la combinación de artículo y proveedor para el artículo PH2500: equipo y proveedor Contoso en Triple conciliación.
--   Alicia, responsable del pedido de compra en Fabrikam en la división de Malasia, emite pedidos de compra a Contoso para suministrar tres artículos, tal y como se muestra en la siguiente tabla. Al crear el pedido de compra, anula la directiva de conciliación para que el mouse inalámbrico sea de triple conciliación en lugar de doble conciliación.
+-   Cassie establece la **directiva de conciliación** en el nivel de la combinación de artículo y proveedor para el artículo PH2500: equipo y proveedor Contoso en **Triple conciliación**.
+-   Alicia, responsable del pedido de compra en Fabrikam en la división de Malasia, emite pedidos de compra a Contoso para suministrar tres artículos, tal y como se muestra en la siguiente tabla. Al crear el pedido de compra, anula la **directiva de conciliación** para que el ratón inalámbrico sea de triple conciliación en lugar de doble conciliación.
 
     | Número de artículo           | Cantidad | Precio unitario | Importe neto | Directiva de conciliación (entrada predeterminada) | Directiva de conciliación (en la línea de pedido de compra) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -134,7 +134,7 @@ Tenga en cuenta los siguientes elementos:
 -   Para la línea MM01: mouse inalámbrico, la columna Cantidad de recepciones de producto para asignar tiene un icono de advertencia porque la línea de factura no coincide con una recepción de producto. La columna Conciliación de precio unitario tiene un icono de advertencia porque se supera la tolerancia del 2% de precio unitario neto.
 -   Para la línea Unidad USB, la columna Cantidad de recepciones de producto para asignar está en blanco porque la doble conciliación no coincide con la línea de factura y las cantidades de la línea de recepción de producto.
 
-Si es necesaria la aprobación para que las facturas se registren con discrepancias de conciliación de facturas, se debe activar Aprobar registro con discrepancias en la página Detalles de coincidencia de factura antes de poder registrar la factura con errores de conciliación de precio y de cantidad. Si la aprobación no es necesaria, el proceso de la factura puede continuar si no hay otros errores de registro.
+Si es necesaria la aprobación para que las facturas se registren con discrepancias de conciliación de facturas, se debe activar **Aprobar registro con discrepancias** en la página **Detalles de coincidencia de factura** antes de poder registrar la factura con errores de conciliación de precio y de cantidad. Si la aprobación no es necesaria, el proceso de la factura puede continuar si no hay otros errores de registro.
 
 
 Para obtener más información, consulte [Visión general de la conciliación de facturas de proveedores](accounts-payable-invoice-matching.md).

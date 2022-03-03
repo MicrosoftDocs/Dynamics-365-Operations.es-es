@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b6169362c9e8cb3a9ace2f300dd9d80aa9cd085
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568888"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103547"
 ---
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
@@ -96,13 +96,11 @@ Cuando **Reservar artículos pedidos** está deshabilitado, los recibos esperado
 
 Tenga en cuenta la diferencia en el estado y las dimensiones de la transacción entre los dos casos. Por este motivo, recomendamos habilitar la opción **Reservar artículos pedidos**.
 
-<!-- KFM: (Enable this section when the feature leaves private preview)
+### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Deshabilitar la característica de las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado
 
-### Disable expected receipts from quality orders that sample blocked inventory feature
+Para simplificar las transacciones de inventario en el caso de pedidos de calidad que muestran inventario bloqueado como consecuencia del estado del inventario, el sistema proporciona una característica que deshabilita las recepciones esperadas de dichos pedidos de calidad. Debido a que la recepción esperada se bloquea inmediatamente por el bloqueo del estado del inventario, no hay reducción del inventario disponible debido a este cambio.
 
-To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
-
--->
+Esta característica está desactivada de forma predeterminada. Los administradores pueden activarlo o desactivarlo buscando la característica *Deshabilitar las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

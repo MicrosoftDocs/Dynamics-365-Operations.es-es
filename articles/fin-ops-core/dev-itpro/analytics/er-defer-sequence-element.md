@@ -2,11 +2,9 @@
 title: Aplazar la ejecución de elementos de secuencia en formatos ER
 description: Este tema explica cómo diferir la ejecución de un elemento de secuencia en un formato de informe electrónico (ER).
 author: NickSelin
-manager: kfend
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680743"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323699"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Aplazar la ejecución de elementos de secuencia en formatos ER
 
@@ -30,7 +28,7 @@ ms.locfileid: "4680743"
 
 ## <a name="overview"></a>Visión general
 
-Puede usar el diseñador de operaciones del marco de [informes electrónicos (ER)](general-electronic-reporting.md) para [configurar](tasks/er-format-configuration-2016-11.md) el [componente de formato](general-electronic-reporting.md#FormatComponentOutbound) de una solución ER que se utiliza para generar documentos salientes en formato de texto. La estructura jerárquica del componente de formato configurado consta de elementos de formato de varios tipos. Estos elementos de formato se utilizan para completar los documentos generados con la información requerida en tiempo de ejecución. De forma predeterminada, cuando ejecuta un formato ER, los elementos de formato se ejecutan en el mismo orden en que se presentan en la jerarquía de formato: uno por uno, de arriba a abajo. Sin embargo, en tiempo de diseño, puede cambiar el orden de ejecución de cualquier elemento de secuencia del componente de formato configurado.
+Puede usar el diseñador de operaciones del marco de [informes electrónicos (ER)](general-electronic-reporting.md) para [configurar](tasks/er-format-configuration-2016-11.md) el componente de formato de una solución ER que se utiliza para generar documentos salientes en formato de texto. La estructura jerárquica del componente de formato configurado consta de elementos de formato de varios tipos. Estos elementos de formato se utilizan para completar los documentos generados con la información requerida en tiempo de ejecución. De forma predeterminada, cuando ejecuta un formato ER, los elementos de formato se ejecutan en el mismo orden en que se presentan en la jerarquía de formato: uno por uno, de arriba a abajo. Sin embargo, en tiempo de diseño, puede cambiar el orden de ejecución de cualquier elemento de secuencia del componente de formato configurado.
 
 Al activar la opción <a name="DeferredSequenceExecution"></a>**Ejecución aplazada** para un elemento de formato de secuencia en el formato configurado, puede diferir (posponer) la ejecución de ese elemento. En este caso, el elemento no se ejecuta hasta que se hayan ejecutado todos los demás elementos de su elemento primario.
 
@@ -44,7 +42,7 @@ La opción **Ejecución aplazada** no es aplicable a las secuencias que se han c
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento de secuencia en formato ER
 
-Los siguientes pasos explican cómo un usuario con el [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento de secuencia donde el orden de ejecución difiere del orden de la jerarquía de formatos.
+Los siguientes pasos explican cómo un usuario con el [rol](../sysadmin/tasks/assign-users-security-roles.md) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento de secuencia donde el orden de ejecución difiere del orden de la jerarquía de formatos.
 
 Estos pasos se pueden llevar a cabo en la empresa **USMF** de Microsoft Dynamics 365 Finance.
 
@@ -59,14 +57,14 @@ Si aún no ha completado el ejemplo del tema [Aplazar la ejecución de elementos
 
 | Descripción del contenido            | Nombre de archivo |
 |--------------------------------|-----------|
-| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del modelo datos de ER    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuración de la asignación del modelo ER | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Antes de comenzar, también debe descargar y guardar la siguiente configuración de la solución ER de ejemplo.
 
 | Descripción del contenido     |Nombre de archivo |
 |-------------------------|----------|
-| Configuración del formato de ER | [Format to learn deferred sequences.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración del formato de ER | [Format to learn deferred sequences.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar las configuraciones de ER de ejemplo
 
@@ -90,14 +88,14 @@ Antes de comenzar, también debe descargar y guardar la siguiente configuración
 6. En el árbol de configuración, expanda **Modelo para aprender elementos aplazados**.
 7. Revise la lista de configuraciones de ER importadas en el árbol de configuración.
 
-    ![Configuraciones de ER importadas en la página Configuraciones](./media/ER-DeferredSequence-Configurations.png)
+    ![Configuraciones de ER importadas en la página Configuraciones.](./media/ER-DeferredSequence-Configurations.png)
 
 ### <a name="activate-a-configurations-provider"></a>Activar un proveedor de las configuraciones
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo Litware, Inc. (`http://www.litware.com`) y que se ha marcado como activo. Si este proveedor de configuración no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![Empresa de ejemplo Litware, Inc. en la página Configuraciones de localización](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
+    ![Empresa de ejemplo Litware, Inc. en la página Configuraciones de localización.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Revisar la asignación de modelo importada
 
@@ -119,7 +117,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El origen de datos **Agrupado** del tipo *Agrupar por* está configurado para agrupar transacciones de impuestos filtradas del origen de datos **Filtrado**.
     - El campo de agregación **TotalSum** del origen de datos **Agrupado** está configurado para resumir los valores del campo **\$TaxAmount** del origen de datos **Filtrado** para todas las transacciones de impuestos filtradas de ese origen de datos.
 
-        ![Campo de agregación TotalSum en la página de parámetros Editar 'GroupBy'](./media/ER-DeferredSequence-GroupByParameters.png)
+        ![Campo de agregación TotalSum en la página de parámetros Editar 'GroupBy'.](./media/ER-DeferredSequence-GroupByParameters.png)
 
 9. Revise cómo los orígenes de datos configurados están vinculados al modelo de datos y cómo exponen los datos a los que se accede para que estén disponibles en un formato ER:
 
@@ -127,7 +125,7 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El campo **\$TaxAmount** del origen de datos **Filtrado** está vinculado al campo **Data.List.Value** del modelo de datos.
     - El campo **TotalSum** del origen de datos **Agrupado** está vinculado al campo **Data.Summary.Total** del modelo de datos.
 
-    ![Página de diseñador de asignación de modelos](./media/ER-DeferredSequence-ModelMapping.png)
+    ![Página de diseñador de asignación de modelos.](./media/ER-DeferredSequence-ModelMapping.png)
 
 10. Cierre las páginas **Diseñador de asignación de modelos** y **Asignaciones de modelos**.
 
@@ -140,12 +138,12 @@ Revise la configuración del componente de asignación del modelo ER que está c
 
     - El elemento de formato de secuencia **Informe\\Líneas** está configurado para llenar el documento saliente con una sola línea que se genera a partir de los elementos de secuencia anidados (**Encabezamiento**, **Registro** y **Resumen**).
 
-        ![Elemento de formato de secuencia de líneas y elementos anidados en la página del diseñador de formatos](./media/ER-DeferredSequence-Format.png)
+        ![Elemento de formato de secuencia de líneas y elementos anidados en la página del diseñador de formatos.](./media/ER-DeferredSequence-Format.png)
 
     - El elemento de formato de secuencia **Informe\\Líneas\\Encabezamiento** está configurado para llenar el documento saliente con una sola línea de encabezado que muestra la fecha y la hora en que comienza el procesamiento.
     - El elemento de formato de secuencia **Informe\\Líneas\\Registro** está configurado para llenar el documento saliente con una sola línea que muestra los detalles de las transacciones de impuestos individuales. Estas transacciones de impuestos están separadas por un punto y coma.
 
-        ![Elemento de formato de secuencia de registro que utiliza un punto y coma como delimitador](./media/ER-DeferredSequence-Format1.png)
+        ![Elemento de formato de secuencia de registro que utiliza un punto y coma como delimitador.](./media/ER-DeferredSequence-Format1.png)
 
     - El elemento de formato de secuencia **Informe\\Líneas\\Resumen** está configurado para llenar el documento saliente con una sola línea de resumen que incluye la suma de los valores de impuestos de las transacciones de impuestos procesadas.
 
@@ -164,14 +162,14 @@ Revise la configuración del componente de asignación del modelo ER que está c
     - El elemento **TotalTaxAmount** está enlazado a **model.Data.Summary.Total** para generar la suma de los valores fiscales de las transacciones fiscales procesadas.
     - El elemento **ExecutionDateTime** genera la fecha y la hora (incluidos los milisegundos) en que se agrega la línea de resumen.
 
-    ![Pestaña Asignación en la página Diseñador de formato](./media/ER-DeferredSequence-Format2.png)
+    ![Pestaña Asignación en la página Diseñador de formato.](./media/ER-DeferredSequence-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Ejecutar el formato importado
 
 1. En la página **Diseñador de formato**, seleccione **Ejecutar**.
 2. Descargue el archivo que ofrece el navegador web y ábralo para su revisión.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run.png)
+    ![Archivo de informe de muestra descargado.](./media/ER-DeferredSequence-Run.png)
 
 Observe que la línea de resumen 22 presenta la suma de los valores de impuestos para las transacciones procesadas. Debido a que el formato está configurado para usar el enlace **model.Data.Summary.Total** para devolver esta suma, la suma se calcula llamando a la agregación **TotalSum** del origen de datos **Grouped** del tipo *GroupBy* que usa la asignación del modelo. Para calcular esta agregación, la asignación de modelo recorre en iteración todas las transacciones que se han seleccionado en el origen de datos **Filtered**. Al comparar los tiempos de ejecución de las líneas 21 y 22, puede determinar que el cálculo de la suma tardó 10 milisegundos (ms). Al comparar los tiempos de ejecución de las líneas 2 y 21, puede determinar que la generación de todas las líneas transaccionales tardó 7 ms. Por lo tanto, se requirió un total de 17 ms.
 
@@ -185,12 +183,12 @@ Si el volumen de transacciones es mucho mayor que el volumen del ejemplo actual,
 4. Configure la expresión **Nombre de clave de datos recopilados** como `WsColumn`.
 5. Configure la expresión **Valor de clave de datos recopilados** como `WsRow`.
 
-    ![Elemento de secuencia de líneas en la página del diseñador de formato](./media/ER-DeferredSequence-Format3.png)
+    ![Elemento de secuencia de líneas en la página del diseñador de formato.](./media/ER-DeferredSequence-Format3.png)
 
 6. Seleccione el elemento numérico **Report\\Lines\\Record\\TaxAmount**.
 7. Configure la expresión **Nombre de clave de datos recopilados** como `SummingAmountKey`.
 
-    ![Elemento numérico TaxAmount en la página del diseñador de formato](./media/ER-DeferredSequence-Format4.png)
+    ![Elemento numérico TaxAmount en la página del diseñador de formato.](./media/ER-DeferredSequence-Format4.png)
 
     Puede considerar esta configuración como el cumplimiento de una hoja de trabajo virtual, donde el valor de la celda A1 se agrega con el valor del importe de los impuestos de cada transacción de impuestos procesada.
 
@@ -198,13 +196,13 @@ Si el volumen de transacciones es mucho mayor que el volumen del ejemplo actual,
 9. Configure la expresión `SUMIF(SummingAmountKey, WsColumn, WsRow)` utilizando la función ER [SUMIF](er-functions-datacollection-sumif.md) integrada.
 10. Seleccione **Guardar**.
 
-    ![Expresión SUMIF](./media/ER-DeferredSequence-FormulaDesigner.png)
+    ![Expresión SUMIF.](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. Cierre la página **Diseñador de fórmula**.
 12. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 13. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run1.png)
+    ![Archivo descargado: valores de impuestos sumados.](./media/ER-DeferredSequence-Run1.png)
 
     La línea 21 contiene el total acumulado de los valores impositivos para todas las transacciones procesadas utilizando la salida generada como origen de datos. Este origen de datos comienza desde el principio del informe y continúa hasta la última transacción fiscal. La línea 22 contiene la suma de los valores impositivos para todas las transacciones procesadas que se calculan en la asignación del modelo utilizando el origen de datos del tipo *GroupBy*. Tenga en cuenta que los valores son iguales. Por lo tanto, la suma basada en la salida se puede usar en lugar de **GroupBy**. Al comparar los tiempos de ejecución de las líneas 2 y 21, puede determinar que la generación y suma de todas las líneas transaccionales tardó 9 ms. Por lo tanto, en lo que respecta a la generación de líneas detalladas y la suma de los valores fiscales, el formato modificado es aproximadamente dos veces más rápido que el formato original.
 
@@ -213,7 +211,7 @@ Si el volumen de transacciones es mucho mayor que el volumen del ejemplo actual,
 16. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 17. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run2.png)
+    ![Archivo descargado con fórmula editada.](./media/ER-DeferredSequence-Run2.png)
 
     Observe que el total acumulado de los valores de impuestos de la última línea de detalles de la transacción ahora es igual a la suma en la línea de resumen.
 
@@ -226,7 +224,7 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run3.png)
+    ![Archivo descargado para sumar en el encabezado del informe.](./media/ER-DeferredSequence-Run3.png)
 
     Observe que la suma de los valores impositivos en la línea de resumen 2 ahora es igual a 0 (cero), porque esta suma ahora se calcula en función de la salida generada. Cuando se genera la línea 2, la salida generada aún no contiene líneas que tienen detalles de transacción. Puede configurar este formato para aplazar la ejecución del elemento de secuencia **Report\\Lines\\Summary** hasta que el elemento de secuencia **Report\\Lines\\Record** se haya ejecutado para todas las transacciones fiscales.
 
@@ -235,12 +233,12 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 1. En la página **Diseñador de formato**, en la pestaña **Formato**, seleccione el elemento de secuencia **Report\\Lines\\Summary**.
 2. Establezca la opción **Ejecución aplazada** en **Sí**.
 
-    ![Opción Ejecución aplazada del elemento de secuencia Resumen en la página Diseñador de formato](./media/ER-DeferredSequence-Format5.png)
+    ![Opción Ejecución aplazada del elemento de secuencia Resumen en la página Diseñador de formato.](./media/ER-DeferredSequence-Format5.png)
 
 3. Seleccione **Guardar** y, a continuación, seleccione **Ejecutar**.
 4. Descargue y revise el archivo que ofrece el navegador web.
 
-    ![Archivo descargado](./media/ER-DeferredSequence-Run4.png)
+    ![Archivo descargado: ejecución diferida.](./media/ER-DeferredSequence-Run4.png)
 
     El elemento de secuencia **Report\\Lines\\Summary** ahora se ejecuta solo después de todos los demás elementos que están anidados bajo su elemento principal, **Report\\Lines**. Por lo tanto, se ejecuta después de que el elemento de secuencia **Report\\Lines\\Record** se haya ejecutado para todas las transacciones fiscales del origen de datos **model.Data.List**. Los tiempos de ejecución de las líneas 1, 2 y 3 y de la última línea, 22, revelan este hecho.
 
@@ -249,3 +247,6 @@ Si, por ejemplo, debe presentar la suma de los valores impositivos en el encabez
 - [Configurar el formato para contar y sumar](./tasks/er-format-counting-summing-1.md)
 - [Ejecución de seguimiento del formato de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 - [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

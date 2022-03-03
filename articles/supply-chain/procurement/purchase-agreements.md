@@ -1,12 +1,10 @@
 ---
 title: Acuerdos de compra
 description: Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017196"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103747"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
@@ -43,10 +41,7 @@ Para evitar que se utilice y confirme su acuerdo de compra, marque el estado del
 Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario.
 
 > [!IMPORTANT]
-> Antes de poder usar la característica de parte responsable debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-> 
-> - **Módulo**: *Adquisición y abastecimiento*
-> - **Nombre de la característica**: *Parte responsable del acuerdo de compra*
+> Para usar la característica de parte responsable debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Parte responsable del acuerdo de compra* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar líneas de varios pedidos de compra para satisfacer el compromiso. Hay cuatro tipos de compromisos:
@@ -104,12 +99,13 @@ Si se crea un pedido de compra de empresas vinculadas que usa el acuerdo de comp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensiones financieras sobre acuerdos de compra
 Puede copiar dimensiones financieras en encabezados de documentos o líneas individuales de un acuerdo de compra. Si modifica las dimensiones en el encabezado del acuerdo o en la línea del acuerdo, el cambio no afecta a ninguno de los pedidos liberados, sino que se reflejará en los pedidos nuevos.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
-[Crear un acuerdo de compra](tasks/create-purchase-agreement.md)
-
-[Crear un pedido parcial de compra de un acuerdo de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Crear un acuerdo de compra](tasks/create-purchase-agreement.md)
+- [Aplicar un acuerdo de compra al crear un pedido de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

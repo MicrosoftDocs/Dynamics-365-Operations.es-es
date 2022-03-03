@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920732"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102722"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -35,17 +35,15 @@ Este tema describe cada método en detalle.
 
 La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management que utilizan Optimización de planificación. Sin embargo, algunas de las funciones que se describen en este tema deben estar activadas en Administración de funciones antes de poder utilizarlas.
 
-### <a name="enable-parallelized-firming-of-planned-orders"></a>Habilitar la confirmación en paralelo de pedidos planificados
+### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activar o desactivar la confirmación en paralelo de pedidos planificados
 
-La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados.
-
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación paralela de pedidos planificados*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
+La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados. Para utilizar esta funcionalidad, la característica *Puesta en firme en paralelo de pedidos planificados* debe estar activada para su sistema. A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Puesta en firme en paralelo de pedidos planificados*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar la confirmación de pedidos planificados con filtrado
 
 La confirmación de pedidos planificados con filtrado le permite definir criterios lógicos para seleccionar qué pedidos planificados confirmar. También puede obtener una vista previa de los pedidos planificados que se seleccionaron, ejecutar el proceso en segundo plano y/o programarlo como un trabajo por lotes.
 
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación de pedidos planificados con filtrado*.
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Puesta en firme en paralelo de pedidos planificados* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Habiitar la confirmación automática para Optimización de planificación
 

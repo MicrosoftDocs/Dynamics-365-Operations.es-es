@@ -2,7 +2,7 @@
 title: Los impuestos sobre los pedidos en línea se calculan incorrectamente
 description: Este tema proporciona una guía para la resolución de problemas que puede ayudar cuando los impuestos sobre los pedidos en línea se calculan incorrectamente o cuando el grupo de impuestos en la línea de ventas no está configurado correctamente.
 author: Reza-Assadi
-ms.date: 03/11/2021
+ms.date: 02/16/2022
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715269"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8312040"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Los impuestos sobre los pedidos en línea se calculan incorrectamente
 
@@ -33,6 +33,17 @@ Este tema proporciona una guía para la resolución de problemas que puede ayuda
 Cuando se realiza un pedido de comercio electrónico, los impuestos se calculan incorrectamente o el grupo de impuestos en la línea de ventas está configurado incorrectamente.
 
 ## <a name="resolution"></a>Resolución
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurar grupos generales de impuestos en la sede de Commerce
+
+Para configurar grupos de impuestos generales en la sede de Commerce, siga estos pasos.
+
+1. Vaya a **Impuestos \> Impuestos indirectos \> Impuestos \> Grupos de impuestos**.
+1. En el panel de navegación de la izquierda, seleccione el grupo de impuestos a configurar.
+1. En la ficha desplegable **Impuesto basado en el destino minorista**, configure los impuestos para el grupo de impuestos.
+
+> [!NOTE]
+> Para los envíos que no incluyen impuestos determinados por la dirección del cliente, la dirección de entrega de la línea y los impuestos basados en el destino que están configurados para el grupo de impuestos determinan el grupo de impuestos. Para más información, vea [Configurar impuestos para tiendas en línea según el destino](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Configurar el impuesto para una tienda minorista en la sede de Commerce
 
@@ -57,17 +68,6 @@ Para configurar el impuesto para una dirección de cliente en la sede de Commerc
 
 > [!NOTE]
 > Para envíos que implican impuestos en la dirección del cliente, la dirección de entrega de la línea determina el grupo de impuestos para la línea. Si el cliente realiza un envío a una dirección existente que tiene un grupo de impuestos que ya está configurado, se utilizará el grupo de impuestos existente. De forma predeterminada, las direcciones no tienen un grupo de impuestos al crearse.
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Configurar grupos generales de impuestos en la sede de Commerce
-
-Para configurar grupos de impuestos generales en la sede de Commerce, siga estos pasos.
-
-1. Vaya a **Impuestos \> Impuestos indirectos \> Impuestos \> Grupos de impuestos**.
-1. En la zona de navegación de la izquierda, seleccione el grupo de impuestos a configurar.
-1. En la ficha desplegable **Impuesto basado en el destino minorista**, configure los impuestos para el grupo de impuestos.
-
-> [!NOTE]
-> Para los envíos que no implican impuestos en la dirección del cliente, la dirección de entrega de la línea y los impuestos basados en el destino que están configurados para el grupo de impuestos determinan el grupo de impuestos. Para más información, vea [Configurar impuestos para tiendas en línea según el destino](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -2,7 +2,7 @@
 title: Generar informes financieros
 description: Este tema proporciona información acerca de la generación de un informe financiero.
 author: jinniew
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 101cf2b29bb6f91cec5a3dac0be30b53388905c96ecf481f5b7b3e90cda3f804
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740272"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119536"
 ---
 # <a name="generate-financial-reports"></a>Generar informes financieros
 
@@ -28,9 +28,22 @@ ms.locfileid: "6740272"
 
 Este tema proporciona información acerca de la generación de un informe financiero.
 
-Para generar un informe, abra la definición del informe y seleccione el botón **Generar** en la barra de herramientas. La página **Estado de la cola del informe** se abrirá e indicará la ubicación del informe en la cola. De forma predeterminada, el informe generado se abrirá en el visor de la web.
+Para generar un informe, abra la definición del informe y seleccione el botón **Generar** en la barra de herramientas. La página **Estado de la cola del informe** se abrirá e indicará la ubicación del informe en la cola.
 
-Las siguientes opciones están disponibles para generar informes:
+A medida que avanza la generación del informe, los siguientes indicadores de estado de la cola de informes pueden estar visibles en la página **Estado de la cola de informes**.
+
+| Status          | Estado o provincia | Description|
+|-----------------|--------|--------------------|
+| Colocando en cola        | Provisional |La definición del informe se valida antes de que el informe se coloque en la cola de generación.                    |
+| En cola          | Provisional | El informe entra en la cola de generación de informes y espera a ser procesado.                      |
+| En procesamiento      | Provisional | Este estado normalmente sigue al estado **En cola** y, por lo general, pasa a un estado **Final** cuando se completa el procesamiento.       |
+| Posprocesando | Provisional | Este estado sigue al estado **En procesamiento** e indica que se recopilaron todos los datos del informe, pero que se están realizando acciones derivadas, como el cálculo y la acumulación.            |
+| Cancelando      | Provisional | El informe se cancela a petición del usuario. Este estado es el resultado de una cancelación solicitada por el usuario para un informe en el estado **En cola** o **En procesamiento**. El sistema intenta colocar el informe en el estado **Cancelado**, a menos que el sistema esté demasiado avanzado y deba finalizarlo en otro estado. |
+| Cancelada        | Final | El informe terminó de procesarse pero no se completó debido a una detención solicitada por el usuario.            |
+| Completado       | Final | El informe está listo para usarse.                      |
+| Con error          | Final | El informe terminó de procesarse pero falló y no debe usarse. |
+
+De forma predeterminada, el informe generado se abrirá en el visor de la web. Las siguientes opciones están disponibles para generar informes:
 
 - Configurar una programación para generar un informe o a un grupo de informes automáticamente
 - Revisar cuentas o datos que faltan en un informe y validar la precisión de un informe

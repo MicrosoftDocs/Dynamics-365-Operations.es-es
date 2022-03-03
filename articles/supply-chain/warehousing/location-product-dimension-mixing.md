@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 20085c51230d3ceca46c5119fecbc3cf3291ecd4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578569"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103497"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinación de dimensiones de producto de ubicación
 
@@ -26,12 +26,9 @@ ms.locfileid: "7578569"
 
 La combinación de dimensiones de producto de ubicación es una funcionalidad de perfil de ubicación que le ayuda a mejorar la administración de ubicación cuando se utilizan variantes de productos o productos que tienen dimensiones, como en la industria de la moda. Le permite decidir si las configuraciones, colores, estilos y tallas se pueden mezclar para un perfil de ubicación específico, o si solo una de estas dimensiones o una combinación de ellas se puede colocar en la misma ubicación.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Active la función de combinación de dimensiones de producto de ubicación
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Activar o desactivar la característica de combinación de dimensiones de producto de ubicación
 
-Antes de que pueda usar la combinación de dimensiones de producto de ubicación, debe activar la función en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Combinación de dimensiones de producto de ubicación*
+Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Combinación de dimensiones de producto de ubicación* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Combinación de dimensiones de producto de ubicación* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Configurar
 

@@ -1,12 +1,10 @@
 ---
 title: Parámetros de administración de activos
 description: En Gestión de activos, se deben configurar los parámetros generales relativos a los activos y los pedidos de trabajo, y la programación de órdenes de trabajo.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020663"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105498"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
@@ -51,7 +49,7 @@ La pestaña **Órdenes de trabajo** proporciona la siguiente configuración:
 - **Tipo de orden de trabajo predeterminado** define la configuración estándar al crear una orden de trabajo.  
 - **Tipo de orden de trabajo preventivo** define el tipo de orden de trabajo usado al crear órdenes de trabajo a partir de planes de mantenimiento. Si este campo se deja en blanco, se usa el tipo de orden de trabajo en el campo **Tipo de orden de trabajo predeterminado** .  
 - En el campo **Máscara de orden de trabajo relacionada**, deberá definir el máximo número de órdenes de trabajo que pueden estar relacionadas con una orden de trabajo. Por ejemplo: ## permite tener hasta 99 órdenes de trabajo relacionadas. Si define una máscara como se describe aquí, las órdenes de trabajo relacionadas se numeran [identificador de la orden de trabajo con la que está relacionada una orden de trabajo] -01, -02, -03, y así sucesivamente. Si no define una máscara en este campo, una orden de trabajo relacionada obtendrá el identificador secuencial siguiente.  
-- Seleccione **Sí** para **Copiar errores** si desea copiar automáticamente los errores registrados en las órdenes de trabajo con solicitudes de mantenimiento relacionadas. 
+- Seleccione **Sí** para **Copiar errores** si desea copiar automáticamente los errores registrados en las solicitudes de mantenimiento a órdenes de trabajo relacionadas. 
 - En el campo **Nivel**, defina el nivel de la ubicación técnica que se inserta automáticamente en una orden de trabajo si todos los trabajos relacionados de la orden de trabajo hacen referencia a la misma ubicación. Si no todos los trabajos de la orden de trabajo están relacionados con la misma ubicación técnica en el nivel definido, el campo **Ubicación funcional** se deja en blanco en la orden de trabajo. Por ejemplo: si especifica el número "1"en este campo, este es el nivel superior de una estructura de ubicación técnica. Si especifica el número "0" en este campo, no ha definido un nivel de ubicación funcional específico, solo que todos los trabajos de la orden de trabajo deben estar relacionados con la misma ubicación técnica para que dicha ubicación se agregue a la orden de trabajo.  
 - Los diarios utilizados al registrar el consumo en una orden de trabajo se pueden seleccionar en el FastTab **General** de los campos **Hora**, **Artículo** y **Gasto**.  
 - En el campo **Origen de idioma del producto**, seleccione el idioma que se va a usar para los nombres de producto en los informes de Administración de activos. Puede seleccionar la configuración de idioma en la cuenta de empresa, o la configuración de idioma para el usuario que haya iniciado sesión actualmente.  
@@ -101,8 +99,11 @@ Los campos que se describen en la lista siguiente están relacionados con las pu
 
 ## <a name="the-document-types-tab"></a>La pestaña Tipos de documento
 
-Seleccione los tipos de documento que deben estar disponibles para imprimir los datos adjuntos relacionados con un informe de orden de trabajo. Para ello seleccione un tipo de documento en la sección **Disponible** y seleccione la ![flecha atrás](media/15-setup-for-objects.png). Si desea quitar un tipo de documento seleccionado, seleccione el tipo de documento en la sección **Seleccionado** y seleccione la ![flecha hacia delante](media/16-setup-for-objects.png) .
+Seleccione los tipos de documento que deben estar disponibles para imprimir los datos adjuntos relacionados con un informe de orden de trabajo. Para ello seleccione un tipo de documento en la sección **Disponible** y seleccione la ![flecha adelante.](media/15-setup-for-objects.png). Si desea quitar un tipo de documento seleccionado, seleccione el tipo de documento en la sección **Seleccionado** y seleccione la ![flecha hacia delante](media/16-setup-for-objects.png) .
 
 ## <a name="the-number-sequences-tab"></a>La pestaña Secuencias numéricas
 
 Seleccione las secuencias numéricas necesarias en esta sección. Existen dos secuencias numéricas para los activos: una para activos creados manualmente y otra para activos creados a través de activos pendientes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

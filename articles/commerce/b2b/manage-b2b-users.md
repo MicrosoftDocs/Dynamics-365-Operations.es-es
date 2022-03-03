@@ -1,8 +1,8 @@
 ---
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
-description: Este tema describe cómo los administradores pueden agregar, editar y eliminar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B).
+description: Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
 author: josaw1
-ms.date: 10/26/2021
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,72 +14,56 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
-ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7713702"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323464"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo los administradores pueden agregar, editar y eliminar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B).
+Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
 
-Los sitios web de comercio electrónico B2B requieren que las organizaciones se registren para convertirse en socios comerciales. Una vez que una organización envía los datos de registro a un sitio web de comercio electrónico B2B, pasa por un proceso de calificación. Si la organización logra calificarse, se incorpora como socio comercial.
+> [!NOTE]
+> El tema [Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md) es un requisito previo para este documento. 
+
+Los sitios web de comercio electrónico B2B requieren que las organizaciones se registren para convertirse en socios comerciales. Una vez que una organización envía los datos de registro a un sitio web de comercio electrónico B2B, la solicitud de registro pasa por un proceso de calificación. Si la organización logra calificarse, se incorpora como socio comercial.
 
 Una vez que una organización se incorpora como socio comercial, se identifica al usuario de la organización que inició la solicitud para convertirse en socio comercial como el usuario administrador, y se le otorgan privilegios para incorporar usuarios autorizados adicionales del sitio web de comercio electrónico B2B. Estos usuarios autorizados podrán realizar pedidos en nombre del socio comercial.
 
-## <a name="turn-on-the-b2b-e-commerce-capabilities-feature-in-commerce-headquarters"></a>Activar la característica de funciones de comercio electrónico B2B en la sede central de Commerce
-
-La característica de funciones de comercio electrónico B2B en la sede central de Commerce permite a las organizaciones incorporar socios comerciales y definir usuarios administradores. Esta característica también permite a los administradores crear y administrar usuarios y equipos de socios comerciales, y asignarles roles específicos. Por último, permite a los usuarios socios comerciales crear plantillas de pedidos y utilizar pedidos existentes para volver a encargar productos.
-
-Para activar la característica de funciones de comercio electrónico B2B en la sede central de Commerce, siga estos pasos.
-
-1. Vaya a **Áreas de trabajo \> Administración de características**.
-1. En la pestaña **Todos**, filtre por el campo **Módulo** con el término **Retail y Commerce**.
-1. Busque y seleccione la característica llamada **Habilitar el uso de funciones de comercio electrónico B2B** y, a continuación, seleccione **Habilitar ahora**.
-
-## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Crear una secuencia numérica y agregársela a los parámetros compartidos de Commerce
-
-Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. Para obtener más información sobre las secuencias numéricas, consulte [Información general de secuencias numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
-
-Para crear una secuencia numérica y agregársela a los parámetros compartidos de Commerce en la sede central de Commerce, siga estos pasos.
-
-1. Vaya a **Retail y Commerce \> Configuración de sede central \> Secuencias numéricas \> Secuencias numéricas** y cree una secuencia numérica.
-1. Vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros compartidos de Commerce** y agregue la nueva secuencia numérica a la referencia de **Id. de de jerarquía de clientes**.
-
 ## <a name="set-up-the-administrator-user-for-a-new-business-partner"></a>Configurar el usuario administrador para un nuevo socio comercial
 
-Los socios comerciales potenciales pueden iniciar el proceso de incorporación a un sitio web de comercio electrónico B2B enviando una solicitud de incorporación a través de un vínculo en el sitio. Una vez que un usuario socio comercial potencial selecciona el vínculo, puede proporcionar los detalles necesarios para la incorporación y el registro. Cuando se envía la solicitud, aparece una página de confirmación de envío. Si se aprueba el envío, el solicitante (es decir, el usuario que inició la solicitud de incorporación) se convierte en el usuario administrador del socio comercial.
+Los socios comerciales potenciales pueden iniciar el proceso de incorporación a un sitio web de comercio electrónico B2B enviando una solicitud de incorporación a través de un vínculo en el sitio web B2B. Luego pueden usar el formulario personalizable para proporcionar los detalles necesarios para la incorporación y el registro. Cuando se envía la solicitud, aparece una página de confirmación de envío. Si se aprueba el envío, la empresa para la que se envió la solicitud se convierte en socio comercial y el solicitante (es decir, el usuario que inició la solicitud de incorporación) se convierte en el usuario administrador del socio comercial.
 
-Para aprobar y configurar un usuario administrador de socio comercial en la sede central de Commerce, siga estos pasos.
+Para aprobar una solicitud de socio comercial en la sede central de Commerce, siga estos pasos.
 
 1. Vaya a **TI de Retail y Commerce \> Programación de distribución**.
 1. Ejecute el trabajo **P-0001** para extraer todas las solicitudes de incorporación de socios comerciales a la sede central de Commerce.
-1. Una vez que se haya ejecutado correctamente el trabajo **P-0001**, vaya a **TI de Retail y Commerce \> Cliente** y ejecute el trabajo **Sincronizar clientes y socios comerciales desde el modo asincrónico**. Una vez que se haya ejecutado correctamente este trabajo, las solicitudes de incorporación se crean como registros de clientes potenciales en la sede central de Commerce. El campo **Id. de tipo** de estos registros se establece en **Cliente potencial B2B**.
-1. Vaya a **Clientes \> Todos los clientes potenciales** y abra la página de clientes potenciales.
-1. Seleccione el registro de cliente potencial del nuevo socio comercial para abrir la página de detalles del cliente potencial.
-1. En la pestaña **General**, seleccione **Convertir \> Aprobar/Rechazar** para aprobar o rechazar la solicitud de incorporación. Cuando aparezca un mensaje de confirmación, confirme que desea continuar con el proceso y apruebe la solicitud. Se envía un correo electrónico a la dirección de correo electrónico del solicitante para confirmar que se ha aprobado su organización como socio comercial.
+1. Una vez que se haya ejecutado correctamente el trabajo **P-0001**, vaya a **TI de Retail y Commerce \> Cliente** y ejecute el trabajo **Sincronizar clientes y canalizar solicitudes**. Una vez que se haya ejecutado correctamente este trabajo, las solicitudes de incorporación se crean como clientes potenciales del tipo **Cliente potencial B2B** en la sede central de Commerce. 
+1. Vaya a **Clientes \> Todos los clientes potenciales** y seleccione el registro de cliente potencial del nuevo socio comercial para abrir la página de detalles del cliente potencial.
+1. En la pestaña **General**, seleccione **Convertir \> Aprobar/Rechazar** para aprobar la solicitud de incorporación. Cuando aparezca el mensaje de confirmación, confirme que desea continuar con el proceso y apruebe la solicitud. La aprobación cambia el campo **Estado** del registro del cliente potencial a **Aprobado**. Se envía un correo electrónico a la dirección de correo electrónico del solicitante para confirmar que se ha aprobado su organización como socio comercial. También se crea una jerarquía de clientes, donde el solicitante se agrega como administrador del socio comercial.
 
-    Después de aprobar la solicitud, el campo **Estado** del registro del cliente potencial se establece en **Aprobado**. Además, se crean dos nuevos registros de clientes en el sistema: un registro de cliente **De tipo organización** para la organización del socio comercial y un registro de cliente **De tipo persona** para el solicitante. También se crea un registro de jerarquía de clientes para el socio comercial. <!--(Please refer to the Org modeling of B2B customer section in this document for more information)-->
+    > [!NOTE]
+    > Actualmente, el correo electrónico de confirmación se envía inmediatamente después de la aprobación. Sin embargo, la futura funcionalidad de Commerce permitirá que el administrador active manualmente los correos electrónicos.
 
-1. Vaya a **TI de Retail y Commerce \> Programa de distribución** y ejecuta el trabajo **1010** (**Clientes**) para enviar los registros de clientes y jerarquía de clientes recién creados a la base de datos del canal.
+1. Vaya a **TI de Retail y Commerce \> Programa de distribución** y ejecute el trabajo **1010 (Clientes)** para enviar los nuevos registros de clientes y jerarquía de clientes a la base de datos del canal.
 
-Una vez que se haya aprobado la solicitud y se hayan sincronizado los registros de clientes y jerarquías de clientes con la base de datos del canal, el solicitante podrá iniciar sesión en el sitio web de comercio electrónico B2B con la dirección de correo electrónico que proporcionó al enviar la solicitud. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para habilitar el proveedor de identidad (Azure AD B2C) para vincularlo al registro de cliente B2B que se creó al registrarse o iniciar sesión, siga las instrucciones en [Habilitar la vinculación automática de registros de identidad a cuentas de clientes](../identity-record-linking.md).
+> [!NOTE]
+> Para garantizar que los nuevos registros de clientes se envíen a la base de datos del canal, al menos una de las libretas de direcciones asociadas con el cliente debe incluirse en la libreta de direcciones de clientes asociada con la tienda en línea. Puede automatizar este proceso configurando la libreta de direcciones en el cliente predeterminado de la tienda en línea para que el sistema copie el valor de la libreta de direcciones para cada nuevo cliente.
+
+Tras sincronizar los registros de clientes y jerarquías de clientes con la base de datos del canal, el solicitante podrá iniciar sesión en el sitio web de comercio electrónico B2B con la dirección de correo electrónico que proporcionó al enviar la solicitud de incorporación. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para obtener información sobre cómo habilitar el registro del proveedor de identidad B2C de Azure Active Directory (Azure AD) y vincularlo al registro del cliente B2B que se creó en la aprobación del cliente potencial, consulte [Habilitar vinculación automática](../identity-record-linking.md).
 
 ## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Notifique a los prospectos B2B cuando sean aprobados o rechazados
 
-Cuando aprueba o rechaza una solicitud de incorporación de un cliente potencial B2B, puede enviar automáticamente una notificación por correo electrónico al cliente potencial. 
+Cuando aprueba o rechaza una solicitud de incorporación de un cliente potencial B2B, puede enviar automáticamente una notificación por correo electrónico al cliente potencial.
 
-Para configurar notificaciones por correo electrónico en la sede de Comercio para eventos del tipo de notificación de prospecto B2B aprobado o prospecto B2B rechazado, siga estos pasos.
+Para configurar notificaciones por correo electrónico en la sede de Commerce para eventos del tipo de notificación de **Cliente potencial B2B aprobado** o **Cliente potencial B2B rechazado**, siga estos pasos.
 
-1. Cree plantillas de correo electrónico para los correos electrónicos que se enviarán a los clientes potenciales cuando se active el tipo de notificación de prospecto B2B aprobado o prospecto B2B rechazado.
-
-    Para obtener información sobre los marcadores de posición que admiten los tipos de notificación de prospecto B2B aprobado y prospecto B2B rechazado, consulte [Tipos de notificación](../email-templates-transactions.md#notification-types). Para obtener información sobre cómo crear plantillas de correo electrónico, consulte [Crear una plantilla de correo electrónico](../email-templates-transactions.md#create-an-email-template). 
-
-1. Agregue los tipos de notificación de prospecto B2B aprobado y prospecto B2B rechazado a su perfil de notificación por correo electrónico y asígnelos a las plantillas de correo electrónico que creó. Para obtener más información sobre cómo perfiles de notificación, consulte [Configurar un perfil de notificación de correo electrónico](../email-notification-profiles.md). 
+1. Cree plantillas de correo electrónico para los correos electrónicos que se enviarán a los clientes potenciales cuando se active el tipo de notificación de **Cliente potencial B2B aprobado** o **Cliente potencial B2B rechazado**. Para obtener información sobre los marcadores de posición que admiten los tipos de notificación, consulte [Tipos de notificación](../email-templates-transactions.md#notification-types). Para obtener información sobre cómo crear plantillas de correo electrónico, consulte [Crear una plantilla de correo electrónico](../email-templates-transactions.md#create-an-email-template).
+1. Agregue los tipos de notificación de **prospecto B2B aprobado** y **prospecto B2B rechazado** a su perfil de notificación por correo electrónico y asígnelos a las plantillas de correo electrónico que creó. Para obtener más información sobre cómo perfiles de notificación, consulte [Configurar un perfil de notificación de correo electrónico](../email-notification-profiles.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Incorporar usuarios socios comerciales adicionales
 
@@ -91,50 +75,53 @@ Para incorporar usuarios socios comerciales adicionales a un sitio web de comerc
 1. Vaya a **Mi cuenta \> Usuarios de la organización \> Ver detalles** y seleccione **Agregar un usuario**.
 1. Introduzca la información necesaria y, a continuación, seleccione **Guardar**. El estado del nuevo usuario se establece en **Pendiente**.
 
-    Una vez que se hayan ejecutado los trabajos **P-0001** y **Sincronizar clientes y socios comerciales desde el modo asincrónico**, en la sede central de Commerce se crea un registro de cliente **De tipo Persona**. Este registro de cliente también está asociado con el registro de jerarquía de clientes del socio comercial correspondiente. Además, se envía un correo electrónico a la dirección de correo electrónico del nuevo usuario para notificarle que se ha agregado como usuario de la organización del socio comercial y que ahora puede iniciar sesión en el sitio web de comercio electrónico B2B.
+Una vez que se hayan ejecutado los trabajos **P-0001** y **Sincronizar clientes y solicitudes del canal**, se creará un registro de cliente de tipo **Persona** para el nuevo usuario en la sede central de Commerce. Este registro de cliente también está asociado con el registro de jerarquía de clientes del socio comercial correspondiente. Además, se envía un correo electrónico a la dirección de correo electrónico del nuevo usuario para notificarle que se ha agregado como usuario de la organización del socio comercial y que ahora puede iniciar sesión en el sitio web de comercio electrónico B2B.
 
-1. Ejecute el trabajo **1010** (**Clientes**) para sincronizar el nuevo usuario del socio comercial con la base de datos del canal.
+Después, ejecute el trabajo **1010 (Clientes)** para sincronizar el nuevo usuario del socio comercial con la base de datos del canal.
 
-Una vez que se haya sincronizado el registro del cliente, el estado del usuario en el sitio web de comercio electrónico B2B se establece en **Activo**, y el nuevo usuario podrá iniciar sesión en el sitio web de comercio electrónico B2B utilizando su dirección de correo electrónico. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para habilitar el proveedor de identidad (Azure AD B2C) para vincularlo al registro de cliente B2B que se creó al registrarse o iniciar sesión, siga las instrucciones en [Habilitar la vinculación automática de registros de identidad a cuentas de clientes](../identity-record-linking.md).
+Una vez que se haya sincronizado el registro del cliente, el estado del usuario en el sitio web de comercio electrónico B2B se establece en **Activo**, y el nuevo usuario podrá iniciar sesión en el sitio web de comercio electrónico B2B utilizando su dirección de correo electrónico. Los usuarios pueden utilizar el flujo de registro para definir la contraseña de su cuenta. Para obtener información sobre cómo habilitar el registro del proveedor de identidad B2C de Azure AD y vincularlo al registro del cliente B2B que se creó en la sede central de Commerce, consulte [Habilitar vinculación automática](/dynamics365/commerce/identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Editar los detalles del usuario del socio comercial
 
 Para editar los detalles de los usuarios socios comerciales, siga estos pasos.
 
 1. Inicie sesión en el sitio web de comercio electrónico B2B como administrador.
-1. Vaya a **Mi cuenta \> Usuarios de la organización \> Ver detalles**, seleccione el botón **Editar** (símbolo de lápiz), realice los cambios necesarios y, a continuación, seleccione **Guardar**. Los cambios entrarán en vigor cuando se hayan ejecutado los trabajos **P-0001**, **Sincronizar clientes y socios comerciales desde el modo asincrónico** y **1010** (**Clientes**).
+1. Vaya a **Mi cuenta \> Usuarios de la organización \> Ver detalles**, seleccione el botón **Editar** (símbolo de lápiz), realice los cambios necesarios y, a continuación, seleccione **Guardar**. Los cambios entrarán en vigor cuando se hayan ejecutado los trabajos **P-0001**, **Sincronizar clientes y solicitudes del canal** y **1010 (Clientes)**.
 
 ## <a name="remove-a-business-partner-user"></a>Quitar un usuario socio comercial
 
 Cuando sea necesario, un administrador puede eliminar los usuarios existentes de una organización socio comercial de la lista de usuarios que pueden acceder al sitio web de comercio electrónico B2B.
-
 Para quitar un usuario socio comercial, siga estos pasos.
-
-1. Inicie sesión en el sitio web de comercio electrónico B2B como administrador.
-1. Vaya a **Mi cuenta \> Usuarios de la organización \> Ver detalles** y seleccione el botón **Quitar** (símbolo "X"). Cuando aparezca un mensaje de confirmación, confirme que desea quitar el usuario. El cambio solo surtirá efecto cuando se hayan ejecutado los trabajos **P-0001**, **Sincronizar clientes y socios comerciales desde el modo asincrónico** y **1010** (**Clientes**).
+- Inicie sesión en el sitio web de comercio electrónico B2B como administrador.
+- Vaya a **Mi cuenta > Usuarios de la organización \> Ver detalles** y seleccione el botón **Quitar** (símbolo "X"). Cuando aparezca un mensaje de confirmación, confirme que desea quitar el usuario. El cambio entrará en vigor cuando se hayan ejecutado los trabajos **P-0001**, **Sincronizar clientes y solicitudes del canal** y **1010 (Clientes)**.
 
 > [!NOTE]
 > Al quitar un usuario de la lista de usuarios que pueden acceder al sitio web de comercio electrónico B2B, el registro de cliente correspondiente se quita del registro de jerarquía de clientes del socio comercial. Sin embargo, el registro del cliente en sí no se elimina de la sede central de Commerce.
 
-## <a name="onboard-business-partner-and-users-in-commerce-headquarters"></a>Incorporación de socios comerciales y usuarios en la sede central de Commerce
+## <a name="onboard-existing-customers-as-business-partners-on-the-b2b-e-commerce-website"></a>Incorporar clientes existentes como socios comerciales en el sitio web de comercio electrónico B2B
 
-Los administradores pueden incorporar socios comerciales y usuarios directamente en la sede central de Commerce.
+Los administradores pueden incorporar socios comerciales y usuarios directamente en la sede central de Commerce. Esta capacidad es útil para incorporar a sus socios comerciales existentes en el sitio web de comercio electrónico B2B.
 
 Para incorporar socios comerciales y usuarios directamente en la sede central de Commerce, siga estos pasos.
 
-1. Cree un registro de cliente **De tipo organización** para la organización del socio comercial.
-1. Cree registros de clientes **De tipo persona** para usuarios socios comerciales. Asegúrese de especificar una dirección de correo electrónico principal para cada cliente.
-1. Para cada registro de cliente **De tipo persona** que haya que designar como usuario administrador de la organización del socio comercial, en la ficha desplegable **Retail**, establezca la opción **Administrador B2B** en **Sí**.
-1. Cree un id. de jerarquía de clientes. Escriba un nombre en el campo **Nombre**.
+1. Cree o seleecione un cliente del tipo **Organización** para agregarlo como socio comercial.
+1. Cree o seleccione un cliente del tipo **Persona** para agregarlo como administrador o usuario para el socio comercial. Asegúrese de que las direcciones de correo electrónico principales están asociadas con los clientes. Estas direcciones de correo electrónico se utilizan para iniciar sesión en el sitio web. 
+
+    > [!NOTE]
+    > El sistema debe poder encontrar un registro de cliente único para los usuarios que deberían poder iniciar sesión en el sitio web. Si el sistema encuentra más de un cliente que tiene la misma dirección de correo electrónico principal en la entidad jurídica, el usuario no podrá iniciar sesión en el sitio web.
+
+1. Cree un id. de jerarquía de clientes.
+1. Escriba un nombre en el campo **Nombre**.
 1. En el campo **Organización**, introduzca el cliente de la organización del socio comercial.
-1. Seleccione **Agregar** y, a continuación, seleccione un cliente en el campo **Nombre**.
-1. Repita este proceso para agregar clientes adicionales a la jerarquía.
+1. En la ficha desplegable **Jerarquía**, seleccione **Agregar**.
+1. En el campo **Nombre**, seleccione un cliente del tipo **Persona**.
+1. Seleccione el rol **Administrador** para el cliente que debe designarse como administrador.
+1. Repita este proceso para agregar más clientes a la jerarquía.
 
 ## <a name="additional-information"></a>Información adicional
 
 - Todos los trabajos que se mencionan en este tema pueden configurarse para ejecutarse según una programación en un formato por lotes. La expectativa es que los socios comerciales configuren los trabajos por lotes según sea necesario.
 - Actualmente, solo se puede designar un registro de usuario/cliente como usuario administrador, y ese rol solo se puede cambiar en la sede central de Commerce. No se ofrece funcionalidad de autoservicio que permita a los socios comerciales designar múltiples administradores o cambiar administradores de sitios web de comercio electrónico B2B.
-<!--- The modules and labels of the different fields referenced in the screenshots for e-commerce are only for illustration purposes. Customers have complete control on the placement of the B2B related modules and the labels.-->
 - Aunque se pueden definir límites de gasto para los usuarios, aún no se ha implementado el cumplimiento de los límites de gasto durante el proceso de entrada de pedidos.
 - Toda la lógica empresarial y la validación de la experiencia de un usuario en un sitio web de comercio electrónico B2B se basan en la configuración del registro del cliente que se asigna al usuario en la sede central de Commerce.
 
@@ -142,7 +129,7 @@ Para incorporar socios comerciales y usuarios directamente en la sede central de
 
 [Configurar un sitio de comercio electrónico B2B](set-up-b2b-site.md)
 
-[Crear jerarquías de modelado de organización para organizaciones B2B](org-model.md)
+[Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md)
 
 [Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B](payment-method.md)
 

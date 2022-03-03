@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777749"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103447"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar tarjeta de trabajo para dispositivos
 
@@ -34,21 +34,19 @@ Algunas de las configuraciones descritas en este tema deben estar habilitadas en
 
 Para que esta característica esté disponible, habilite las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en orden):
 
-1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
-1. Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo
+1. *Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo*<br>A partir de la versión 10.0.21 de Supply Chain Management, esta característica está activada de forma predeterminada. (A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria).
+1. *Habilitar la generación automática de matrícula de entidad de almacén al informar como terminado en el dispositivo de tarjetas de trabajo*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria).
 
 ### <a name="print-label"></a>Imprimir etiqueta
 
 Para que esta característica esté disponible, habilite las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en orden):
 
-1. Matrícula de entidad de almacén para informes de terminado agregada al dispositivo de tarjeta de trabajo (a partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de manera predeterminada).
-1. Imprimir etiqueta desde dispositivo de tarjeta de trabajo
+1. *Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo*<br>A partir de la versión 10.0.21 de Supply Chain Management, esta característica está activada de forma predeterminada. (A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria).
+1. *Imprimir etiqueta desde dispositivo de tarjeta de trabajo*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria).
 
 ### <a name="allow-locking-of-touch-screen"></a>Permitir el bloqueo de la pantalla táctil
 
-A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Si desea usarla, asegúrese de que la siguiente función está activada en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
-
-- Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Característica para bloquear un dispositivo de tarjetas de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>Administrar las configuraciones del dispositivo
 

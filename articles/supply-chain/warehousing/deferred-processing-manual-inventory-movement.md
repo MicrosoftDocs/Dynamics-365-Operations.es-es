@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777675"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102748"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Procesamiento diferido del movimiento manual de inventario
 
@@ -32,10 +32,10 @@ El procesamiento en segundo plano se logra utilizando la [Función de eventos de
 
 Para que esta característica esté disponible, active las siguientes características en la [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Debe activarlos en este orden:
 
-1. Bloqueo de trabajo en toda la organización (a partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
-1. Procesar eventos de la aplicación de almacén
-1. Operaciones de colocación diferidas
-1. Procesamiento diferido de la operación de movimiento de inventario manual
+1. *Bloqueo de trabajo en toda la organización*<br>(A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
+1. *Procesar eventos de la aplicación de almacén*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada).
+1. *Operaciones de colocación diferidas*
+1. *Procesamiento diferido de la operación de movimiento de inventario manual*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 
 ## <a name="configure-the-work-processing-policies"></a>Configurar las directivas de procesamiento de trabajos
 

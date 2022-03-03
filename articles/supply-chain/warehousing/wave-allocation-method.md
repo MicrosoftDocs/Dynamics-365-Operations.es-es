@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 527bd24d7f2e9a05f6e617c222005186520f9968
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920607"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103798"
 ---
 # <a name="wave-allocation"></a>Asignación de oleadas
 
@@ -67,7 +67,7 @@ Para configurar el procesamiento en paralelo:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Habilitar o deshabilitar la paralelización en todas las entidades jurídicas
 
-Le recomendamos que configure el método `allocateWave` para ejecutarse en paralelo en todas las entidades legales porque esto ayuda a mejorar el rendimiento del procesamiento de oleadas. A partir de la versión 10.0.17 de Supply Chain Management, la función *Paralelización de oleadas para el método Asignar oleada* está habilitada de forma predeterminada para todas las instalaciones nuevas y actualizadas y no se puede volver a desactivar. Después de habilitar esta función, ocurre lo siguiente:
+Le recomendamos que configure el método `allocateWave` para ejecutarse en paralelo en todas las entidades legales porque esto ayuda a mejorar el rendimiento del procesamiento de oleadas. A partir de la versión 10.0.17 de Supply Chain Management, la característica *Paralelización de oleadas para el método Asignar oleada* está activada de forma predeterminada para todas las instalaciones nuevas y actualizadas y no se puede volver a desactivar. Después de habilitar esta función, ocurre lo siguiente:
 
 - El método `allocateWave` se actualiza para incluir un ajuste de configuración de tareas que le permite usar la página **Métodos de proceso de oleadas** para definir el número de tareas que se ejecutarán simultáneamente, equivalente al número de procesos paralelos. Como resultado, el tiempo utilizado en el paso de asignación de oleada (que suele ser del 30% al 60% del tiempo total de procesamiento) se reduce en un factor aproximadamente equivalente al número de tareas. También es posible seleccionar qué lote se asignará para procesar estas tareas. Es importante tener en cuenta que todas sus entidades legales estarán configuradas para procesar oleadas por lotes. Para los almacenes que ya están configurados para procesar oleadas en lote y para los almacenes que ya están configurados para usar el método `allocateWave` en paralelo, se mantendrá la configuración existente.
 - De forma predeterminada, todas las nuevas entidades legales están configuradas para procesar oleadas por lotes. Todos los almacenes nuevos con la opción **Procesos de gestión de almacenes** habilitada tendrán el método `allocateWave` configurado para ejecutarse en paralelo de forma predeterminada.

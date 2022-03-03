@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777824"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102947"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -26,19 +26,14 @@ ms.locfileid: "7777824"
 
 Esta característica permite a los trabajadores de almacén crear y procesar pedidos de transferencia directamente desde la aplicación móvil de gestión de almacenes. Los trabajadores comienzan seleccionando el almacén de destino y luego pueden escanear una o más placas con la aplicación para agregar placas a la orden de transferencia. Cuando el trabajador del almacén selecciona **Orden completa**, un trabajo por lotes creará la orden de transferencia requerida y las líneas de orden según el inventario disponible registrado para esas placas.
 
-## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Habilitar la característica para crear pedidos de transferencia desde la aplicación de almacén
+## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Activar o desactivar esta característica
 
 Antes de poder usar esta característica, esta y sus requisitos previos deben estar habilitados en su sistema. Los administradores pueden usar la página [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario.
 
-1. Primero habilite la característica [Procesar eventos de aplicaciones de almacén](warehouse-app-events.md), que se enumera en [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) como:
-    - **Módulo**: gestión de almacén
-    - **Nombre de característica** - Procesar eventos de aplicación de almacén
-1. Luego habilite la característica *Crear pedidos de transferencia desde la aplicación de almacén*, que se enumera como:
-    - **Módulo**: gestión de almacén
-    - **Nombre de característica** - Crear y procesar pedidos de transferencia desde la aplicación de almacén
-1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [Confirmar envíos salientes de trabajos por lotes](confirm-outbound-shipments-from-batch-jobs.md). A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
-    - **Módulo**: gestión de almacén
-    - **Nombre de la característica**: Confirmar envíos salientes desde trabajos por lotes
+1. Habilite las siguientes dos características (en orden) en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir de la versión 10.0.25 de Supply Chain Management, estas dos características están activada de forma predeterminada.
+    1. *Procesar eventos de la aplicación de almacén*
+    1. *Crear y procesar pedidos de transferencia desde la aplicación de almacén*
+1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [Confirmar envíos salientes de trabajos por lotes](confirm-outbound-shipments-from-batch-jobs.md).
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Configurar un elemento de menú del dispositivo móvil para crear pedidos de transferencia
 

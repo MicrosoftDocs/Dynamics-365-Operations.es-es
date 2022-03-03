@@ -2,23 +2,23 @@
 title: Configurar la validación de conciliación de facturas de proveedores
 description: En este tema se brinda información sobre cómo configurar la validación Conciliación de facturas de proveedores.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722872"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182564"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar la validación de conciliación de facturas de proveedores
 
@@ -54,7 +54,7 @@ Hay disponibles cuatro tipos de validación de conciliación diferentes.
 12. En el campo **Tolerancia total de precio de compra**, especifique un importe en la divisa de contabilidad. Este campo está disponible cuando **Conciliar totales de precios** se establece en **Importe** o en **Porcentaje e importe**.
 13. En el campo **Mostrar icono de conciliación total de precios**, seleccione si un icono debe aparecer si la discrepancia de la conciliación de factura supera la tolerancia. El icono puede aparecer cuando una discrepancia positiva supere la tolerancia, o cuando una discrepancia positiva o negativa supere la tolerancia.
 Por ejemplo, la tolerancia es del 5 por ciento, y el total de precio de línea del pedido de compra es 10,00. Por tanto, se mostrará un icono de conciliación de precio si el total de precio de factura supera 10,50. Si selecciona **Si es superior o inferior a la tolerancia**, también se mostrará el icono si el total de precio de la factura es inferior a 9,50.
-13. Establezca la conciliación de gastos varios.
+13. Establezca la **conciliación de gastos varios**.
 14. Para que los cargos reales coincidan con los previstos, según la información del pedido de compra, active la casilla **Conciliar gastos varios**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Configurar porcentajes de tolerancia de precio unitario
@@ -75,7 +75,7 @@ De forma predeterminada, se permiten las discrepancias de precio negativo. Sin e
 
 ## <a name="set-up-matching-policy-override"></a>Configurar anulación de directiva de conciliación
 
-Vaya a **Proveedores > Configuración > Configuración de conciliación de facturas > Directiva de conciliación** para definir la entrada predeterminada para el campo Directiva de conciliación para las líneas del formulario Pedido de compra. Esta es una configuración opcional. Use este formulario para configurar una directiva de doble o triple conciliación para artículos, proveedores o combinaciones de artículo y proveedor. Estas entradas le permiten definir las directivas de conciliación más granulares que la directiva de conciliación de la entidad jurídica que definió en la página **Parámetros de proveedores**. La política de conciliación de líneas de la entidad jurídica predeterminada se aplica a todos los artículos y los proveedores, excepto a aquellos para los que se especifica una directiva de conciliación de líneas distinta en esta página.
+Vaya a **Proveedores > Configuración > Configuración de conciliación de facturas > Directiva de conciliación** para definir la entrada predeterminada para el campo **Directiva de conciliación** para las líneas la página **Pedido de compra**. Esta es una configuración opcional. Use esta página para configurar una directiva de doble o triple conciliación para artículos, proveedores o combinaciones de artículo y proveedor. Estas entradas le permiten definir las directivas de conciliación más granulares que la directiva de conciliación de la entidad jurídica que definió en la página **Parámetros de proveedores**. La política de conciliación de líneas de la entidad jurídica predeterminada se aplica a todos los artículos y los proveedores, excepto a aquellos para los que se especifica una directiva de conciliación de líneas distinta en esta página.
 
 En esta página, seleccione **Nivel de directiva de conciliación**. Seleccione el nivel de la jerarquía de la directiva de conciliación para la cual definir directivas de conciliación de líneas.
 

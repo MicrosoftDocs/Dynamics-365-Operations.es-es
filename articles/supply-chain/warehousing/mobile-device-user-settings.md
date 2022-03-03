@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901905"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103722"
 ---
 # <a name="mobile-device-user-settings"></a>Configuración de usuario del dispositivo móvil
 
@@ -39,12 +39,9 @@ Esta función puede ayudar a los trabajadores a comenzar más rápidamente cada 
 > [!IMPORTANT]
 > La función *configuración de usuario del dispositivo móvil* se aplica solo a la nueva aplicación móvil Warehouse Management. No funciona con la antigua aplicación de almacén.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Active la función de configuración de usuario del dispositivo móvil
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Activar o desactivar la característica de configuración de usuario del dispositivo móvil
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Configuración de usuario, iconos y títulos de pasos para la nueva aplicación de almacén*
+Para usar la funcionalidad descrita en este tema, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Crear y administrar configuraciones de usuario
 

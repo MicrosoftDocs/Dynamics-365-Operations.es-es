@@ -2,11 +2,9 @@
 title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798235"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119561"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
 [!include [banner](../includes/banner.md)]
 
-Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos en las aplicaciones de Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Los métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos en las aplicaciones de finanzas y operaciones. 
 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
@@ -36,11 +37,11 @@ Algunos de los atajos de esta página son *acordes clave*, lo que significa que 
 
 ## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
 
-A partir de la actualización de plataforma 11, los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página.
+Los usuarios pueden detectar accesos directos actualmente disponibles directamente desde la interfaz de usuario. Simplemente haga clic con el botón secundario en un control y seleccione **Ver los accesos directos**. Esto abrirá un cuadro de diálogo que muestra los accesos directos que puede usar en función de donde se encuentre en la página. Como alternativa, puede presionar Alt+Shift+K para abrir este cuadro de diálogo (y presionar Alt+Shift+K por segunda vez para ver todos los accesos directos disponibles actualmente para la página).    
 
 ## <a name="action-shortcuts"></a>Métodos abreviados de acción
 
-| Acción                                      | Presione                            |
+| Acción                                      | Presione                             |
 |-------------------------------------------------|----------------------------------|
 | Búsqueda de acción abierta                              | Ctrl+’ o Alt+Q                  |
 | Ir al panel de acciones estándar                | Alt+M,A o Ctrl+F6               |
@@ -129,8 +130,10 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 
 ## <a name="grid-shortcuts"></a>Métodos abreviado de cuadrícula
 
-| Acción                                                                                                             | Presione                           |
+| Acción                                                                                                             | Presione                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Desplazamiento vertical                                                                                                     | Rueda del mouse                     |
+| Desplazamiento horizontal                                                                                                   | Mayús + rueda del mouse             |
 | Ir a la columna siguiente/anterior                                                                                       | Tabulador / Mayús+Tab                 |
 | Ir a la fila siguiente/anterior                                                                                          | Flecha arriba / Flecha abajo           |
 | Ir a la fila siguiente/anterior sin seleccionarla<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote> | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
@@ -142,22 +145,24 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
 | Ir al último registro                                                                                                | Ctrl+Fin                        |
 | Seleccione o borre todas las filas                                                                                               | Ctrl+Mayús+M                    |
-| Ir a la primera fila marcada                                                                                           | Alt+Mayús+M, F                    |
-| Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                    |
-| Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                    |
-| Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                    |
+| Ir a la primera fila marcada                                                                                           | Alt+Mayús+M, F                  |
+| Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                  |
+| Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                  |
+| Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                  |
 | Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Entrar                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
+| Mueve la columna actual a la posición siguiente/anterior (centrado en la fila del encabezado)                                   | Ctrl+Mayús+Flecha derecha / Ctrl+Mayús+Flecha izquierda |
 | Abra la cuadrícula de filtro para la columna actual (con el enfoque en la fila de encabezado)                                              | Entrar                           |
+| Cambiar el tamaño de la columna actual para que se ajuste al contenido (centrado en la fila del encabezado)                                           | A (o haga doble clic en el controlador de tamaño de la columna) |
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 
-| Acción                                                                   | Presione                         |
+| Acción                                                                   | Presione                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Abrir el hipervínculo                                                           | Ctrl+Entrar                    |
-| Especificar la fecha de la sesión en un campo de fecha                                       | J                         |
-| Escribir la fecha actual en un campo de fecha                                       | M                         |
+| Especificar la fecha de la sesión en un campo de fecha                                       | J                             |
+| Escribir la fecha actual en un campo de fecha                                       | M                             |
 | Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                         | Alt+Flecha abajo                |
 | Cerrar búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                        | Esc                           |
 | Trasladar el enfoque a operaciones de búsqueda (cuando las búsquedas están ya abiertas)                   | Alt+Flecha abajo                |
@@ -204,8 +209,8 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Usar la herramienta Mover (cuando se esté en modo de personalización)                                                                       | M                                   |
 | Seleccionar el control actual para moverlo (cuando se usa la herramienta Mover y aún no se ha seleccionado ningún control para mover)  | Espacio o Entrar                      |
 | Borrar el control que se ha de mover (al usar la herramienta Mover)                                                                   | Esc                                 |
-| Ir a la siguiente posición del control seleccionado (cuando se utiliza la herramienta Mover)                                          | Tabulador o Flecha derecha o Flecha hacia abajo    |
-| Ir a la posición anterior del control seleccionado (cuando se utiliza la herramienta de movimiento)                                      | Mayús+Tabulador o Flecha izquierda o Flecha hacia arriba |
+| Mover el control seleccionado a la siguiente posición (cuando se utiliza la herramienta Mover)                                              | Tabulador o Flecha derecha o Flecha hacia abajo    |
+| Mover el control seleccionado a la posición anterior (cuando se utiliza la herramienta de movimiento)                                          | Mayús+Tabulador o Flecha izquierda o Flecha hacia arriba |
 | Usar la herramienta Ocultar (cuando se esté en modo de personalización)                                                                       | H                                   |
 | Mostrar u ocultar el control actual (al usar la herramienta Ocultar)                                     | Espacio o Entrar                      |
 | Usar la herramienta Omitir (cuando se esté en modo de personalización)                                                                       | mil                                   |
@@ -251,7 +256,14 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Expandir / contraer el mensaje emergente animado (mientras se reproduce una guía de tareas)              | Alt+R,C                    |
 | Mostrar más / menos información en el mensaje emergente animado (mientras se reproduce una guía de tareas) | Alt+R,M                    |
 
+## <a name="focus-management"></a>Administración de foco 
+La administración de foco describe cómo se maneja el foco del usuario en una aplicación. Las aplicaciones de finanzas y operaciones tienen comportamientos de enfoque especializados destinados a optimizar la productividad del usuario, especialmente para escenarios de entrada de datos. Los comportamientos de foco incluyen lo siguiente:  
+
+-  Cuando se carga una página, el primer control de entrada editable en la página tendrá el foco y puede aceptar la entrada del usuario inmediatamente. Si no hay un control de entrada editable en la página, la opción alternativa para el enfoque inicial es el primer control de entrada en la página seguido del primer control enfocable en la página.   
+-  Normalmente, cuando se selecciona un botón, la acción se procesa y el foco puede volver a la página. Cuando esto sucede, el enfoque tiende a volver al control de botón que se seleccionó. Esto es cierto en las aplicaciones de finanzas y operaciones **excepto** cuando el botón se encuentra en el Panel de acciones o en una barra de herramientas. En estos casos, cuando se completa la acción, el foco vuelve al último control *fuera* del panel de acciones (o barra de herramientas) que tenía el foco antes de seleccionar el botón.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

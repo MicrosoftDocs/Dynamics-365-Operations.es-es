@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762172"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182488"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Generación y registro de facturas de servicios
 
@@ -30,17 +30,17 @@ Las facturas recurrentes se utilizan para facturar a los clientes el mismo impor
 ## <a name="generate-recurring-invoices"></a>Generar facturas periódicas
 
 ## <a name="post-recurring-invoices"></a>Registrar facturas periódicas
-1. Vaya a Clientes > Facturas > Facturas periódicas > Registrar facturas periódicas.
+1. Vaya a **Clientes > Facturas > Facturas periódicas > Registrar facturas periódicas**.
     * Use esta página para ver e imprimir facturas periódicas que ya se hayan generado.  
 2. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Seleccione el grupo de facturas periódicas.  
-3. Haga clic en Totales.
+3. Haga clic en **Totales**.
     * Compruebe los totales para el grupo de facturas periódicas.  
-4. Haga clic en Cerrar.
-    * Cada línea a continuación es una factura de texto libre periódica. Puede seleccionar una línea y hacer clic en el botón Detalles para ver los detalles de la factura de texto libre.  
-5. Haga clic en Validar.
+4. Haga clic en **Cerrar**.
+    * Cada línea a continuación es una factura de texto libre periódica. Puede seleccionar una línea y hacer clic en el botón **Detalles** para ver los detalles de la factura de texto libre.  
+5. Hacer clic en **Validar**.
     * Compruebe que las facturas seleccionadas no tengan errores, pero no registre las facturas.  
-6. Haga clic en Registrar.
+6. Haga clic en **Registrar**.
     * Registrar las facturas seleccionadas.  
 
 

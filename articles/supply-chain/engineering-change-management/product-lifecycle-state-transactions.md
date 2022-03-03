@@ -2,7 +2,7 @@
 title: Transacciones y estados del ciclo de vida de producto
 description: Este tema explica cómo puede controlar qué transacciones están permitidas para cada estado del ciclo de vida a medida que un producto de ingeniería atraviesa su ciclo de vida.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574650"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322753"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transacciones y estados del ciclo de vida de producto
 
@@ -93,5 +93,13 @@ Por ejemplo, suponga que solo desea vender una variante (roja) de un producto de
 - Asigne al producto un estado de ciclo de vida que permita el proceso. Por ejemplo, asigne al producto de camiseta un estado de ciclo de vida de *Vendible*, lo que habilita el proceso *Pedidos de ventas*.
 - Asigne a la variante vendible un estado de ciclo de vida que permita el proceso. Por ejemplo, también asigne a la variante roja un estado de ciclo de vida de *Vendible*.
 - A todas las demás variantes se les asigna otro estado de ciclo de vida en el que el proceso está bloqueado. Por ejemplo, asigne a la variante blanca (y todas las demás variantes) un estado de ciclo de vida de *No vendible*, lo que bloquea el proceso *Pedidos de ventas*.
+
+## <a name="default-product-lifecycle-states"></a>Estados de ciclo de vida de producto predeterminados
+
+El estado del ciclo de vida predeterminado para una versión de ingeniería se especifica por su categoría de ingeniería. El estado será el predeterminado cuando cree una nueva versión de ingeniería, incluida la primera versión de un nuevo producto.
+
+Cuando crea un nuevo producto o producto de ingeniería, también puede establecer el estado del ciclo de vida predeterminado especificándolo en la plantilla del producto publicado de la política de lanzamiento asignada al producto.
+
+En este caso, es posible que el producto tenga un estado de ciclo de vida diferente al de la versión cuando crea un nuevo producto de ingeniería.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

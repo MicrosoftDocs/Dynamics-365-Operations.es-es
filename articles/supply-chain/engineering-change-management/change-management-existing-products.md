@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571986"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103622"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar la administración de cambios en productos existentes
 
@@ -27,12 +27,9 @@ Este tema explica cómo puede habilitar la gestión de cambios para productos ex
 
 Cuando habilita la administración de cambios para un producto existente, puede crear versiones de ese producto y rastrear los cambios que se le realizan a lo largo de su vida. Por lo tanto, puede realizar un seguimiento de esos cambios mediante el uso de órdenes de cambio. Para habilitar la gestión de cambios, debe convertir los productos relevantes a *artículos de ingeniería* (también denominados productos de ingeniería). Los productos de ingeniería son productos que se versionan y gestionan mediante la gestión de cambios. Se proporciona un asistente para guiarlo a través del proceso de conversión.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Activar la función en el sistema
+## <a name="turn-this-feature-on-or-off"></a>Activar o desactivar esta característica
 
-Para usar esta funcionalidad, debe completar las tareas siguientes:
-
-1. Habilite la función de administración de cambios de ingeniería y su clave de configuración como se describe en [Descripción general de la gestión de cambios de ingeniería](product-engineering-overview.md).
-1. Active la función *Habilite la gestión de cambios en productos existentes* en la administración de características. Para más información, consulte [Resumen de administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Habilitar la administración de cambios en productos existentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restricciones y limitaciones
 

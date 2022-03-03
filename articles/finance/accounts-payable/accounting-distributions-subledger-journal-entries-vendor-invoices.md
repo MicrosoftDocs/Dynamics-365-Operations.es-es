@@ -2,25 +2,25 @@
 title: Distribuciones contables y movimientos del diario contable de las facturas de proveedores
 description: Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables.
 author: sunfzam
-ms.date: 08/20/2017
+ms.date: 02/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7296b1e00bfd49bceb40a0e8b859d46c6517450a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
+ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594700"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "8325977"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuciones contables y movimientos del diario contable de las facturas de proveedores
 
@@ -62,7 +62,7 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 <td>Producto mantenido en existencias</td>
 <td><ol>
 <li>La distribución contable para la línea de pedido de compra.</li>
-<li>El campo Cuenta principal cuando está seleccionado Gasto de compra para el producto en la página Registro.</li>
+<li>El campo **Cuenta principal** cuando está seleccionado Gasto de compra para el producto en la página **Registro**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
@@ -73,35 +73,35 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 <td>Una categoría de compras o un producto que no se mantiene en existencias</td>
 <td><ol>
 <li>La distribución contable para la línea de pedido de compra, si la línea de factura de proveedor hace referencia a una línea de pedido de compra.</li>
-<li>El campo Cuenta principal cuando está seleccionado Gasto de compra para gasto en la página Registro.</li>
+<li>El campo **Cuenta principal** cuando está seleccionado Gasto de compra para gasto en la página **Registro**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Si la cuenta principal es una cuenta de asignación, use el valor predeterminado de la definición de cuenta de asignación.</li>
 <li>Use los valores de la dimensión financiera predeterminados en la factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Activo fijo</td>
 <td><ol>
 <li>La distribución contable para la línea de pedido de compra, si la línea de factura de proveedor hace referencia a una línea de pedido de compra.</li>
-<li>Si Adquisición está seleccionado en el campo Tipo de transacción del formulario Factura de proveedor, el campo Cuenta principal cuando Adquisición está seleccionado en la página Perfiles de contabilización de activos fijos.</li>
-<li>Si Ajuste de adquisición está seleccionado en el campo Tipo de transacción, el campo Cuenta principal cuando Ajuste de adquisición está seleccionado en la página Perfiles de contabilización de activos fijos.</li>
+<li>Si **Adquisición** está seleccionado en el campo **Tipo de transacción** de la página **Factura de proveedor**, el campo **Cuenta principal** cuando **Adquisición** está seleccionado en la página **Perfiles de contabilización de activos fijos**.</li>
+<li>Si **Ajuste de adquisición** está seleccionado en el campo **Tipo de transacción**, el campo **Cuenta principal** cuando **Ajuste de adquisición** está seleccionado en la página **Perfiles de contabilización de activos fijos**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Proyecto definido en la línea de factura de proveedor</td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable de la línea de pedido de compra.</li>
-<li>Si Saldo está seleccionado en el campo Registrar costes - Artículo en la página Grupos de proyectos, el campo Cuenta principal cuando Coste está seleccionado en la página Configuración de registro.</li>
-<li>Si Pérdidas y ganancias está seleccionado en el campo Registrar costes - Artículo en la página Grupos de proyectos, el campo Cuenta principal cuando Coste - artículo está seleccionado en la página Configuración de registro.</li>
+<li>Si **Saldo** está seleccionado en el campo **Registrar costes - Artículo** en la página **Grupos de proyectos**, el campo **Cuenta principal** cuando **Coste** está seleccionado en la página **Configuración de registro**.</li>
+<li>Si **Pérdidas y ganancias** está seleccionado en el campo **Registrar costes - Artículo** en la página **Grupos de proyectos**, el campo **Cuenta principal** cuando **Coste - artículo** está seleccionado en la página **Configuración de registro**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
@@ -111,18 +111,18 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 <td>Descuento de línea</td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable de la línea de pedido de compra.</li>
-<li>El campo Cuenta principal cuando Descuento se selecciona en la página Registro.</li>
+<li>El campo **Cuenta principal** cuando **Descuento** se selecciona en la página **Registro**.</li>
 <li>Si una cuenta principal para un descuento no se define en el perfil de registro, la distribución contable del precio total de la línea de pedido de compra.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable para la línea de pedido de compra.</li>
 <li>Use las dimensiones financieras de las distribuciones contables para el precio total de la línea de factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados para la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Cargo de compra, que se especifica en la ficha Precio y descuento de la línea de pedido de compra</td>
+<td>Cargo de compra, que se especifica en la ficha **Precio y descuento** de la línea de pedido de compra</td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable de la línea de pedido de compra.</li>
 <li>La distribución contable del precio total de la línea de pedido de compra.</li>
@@ -136,21 +136,21 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 <td>Gastos de línea</td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable de la línea de pedido de compra.</li>
-<li>Si Cuenta contable está seleccionado en el campo Tipo de débito en el formulario Código de gastos, el campo Cuenta de débito en la página Código de gastos.</li>
-<li>Si se selecciona Artículo en el campo Tipo de débito del formulario Código de gastos, la distribución contable para el precio total de la línea de pedido de compra.</li>
-<li>Si Cliente/Proveedor contable está seleccionado en el campo Tipo de débito en el formulario Código de gastos, el campo Cuenta de crédito en la página Código de gastos.</li>
+<li>Si **Cuenta contable** está seleccionado en el campo **Tipo de débito** en la página **Código de gastos**, el campo **Cuenta de débito** en la página **Código de gastos**.</li>
+<li>Si se selecciona **Artículo** en el campo **Tipo de débito** de la página **Código de gastos**, la distribución contable para el precio total de la línea de pedido de compra.</li>
+<li>Si **Cliente/Proveedor** contable está seleccionado en el campo **Tipo de débito** en la página **Código de gastos**, el campo **Cuenta de crédito** en la página **Código de gastos**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Use las dimensiones financieras de las distribuciones contables para el precio total de la línea de factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Impuestos, con la siguiente condición:
 <ul>
-<li>La opción Aplicar reglas impositivas de EE. UU. está seleccionada en la página Parámetros de contabilidad general.</li>
+<li>La opción Aplicar reglas impositivas de EE. UU. está seleccionada en la página **Parámetros de contabilidad general**.</li>
 </ul></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución contable de la línea de pedido de compra.</li>
@@ -165,61 +165,61 @@ Cuando se especifica una factura de proveedor, cada importe se distribuirá del 
 <tr class="odd">
 <td>Impuestos, con las siguientes condiciones:
 <ul>
-<li>La opción Aplicar reglas impositivas de EE. UU. está sin seleccionar en la página Parámetros de contabilidad general.</li>
-<li>El campo IVA de importación para el grupo de impuestos no está seleccionado en la página Grupos de impuestos.</li>
+<li>La opción Aplicar reglas impositivas de EE. UU. está sin seleccionar en la página **Parámetros de contabilidad general**.</li>
+<li>El campo **IVA de importación** para el grupo de impuestos no está seleccionado en la página **Grupos de impuestos**.</li>
 </ul></td>
 <td><ol>
-<li>Si el importe de impuestos es recuperable, el campo Impuestos soportados en la página Grupos de registro.</li>
+<li>Si el importe de impuestos es recuperable, el campo **Impuestos soportados** en la página **Grupos de registro**.</li>
 <li>Si el importe de impuestos no puede recuperarse, el precio total o la distribución contable para el cargo.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Use las dimensiones financieras del precio total o de las distribuciones contables para el cargo en la línea de factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Impuestos, con las siguientes condiciones:
 <ul>
-<li>La opción Aplicar reglas impositivas de EE. UU. está sin seleccionar en la página Parámetros de contabilidad general.</li>
-<li>El campo IVA de importación para el grupo de impuestos está seleccionado en la página Grupos de impuestos.</li>
+<li>La opción Aplicar reglas impositivas de EE. UU. está sin seleccionar en la página **Parámetros de contabilidad general**.</li>
+<li>El campo **IVA de importación** para el grupo de impuestos está seleccionado en la página **Grupos de impuestos**.</li>
 </ul></td>
 <td><ol>
-<li>Si el importe de impuestos es recuperable, el campo Impuestos soportados en la página Grupos de registro.</li>
-<li>Si el importe de impuestos no es recuperable, el campo Utilizar gasto de impuesto en la página Grupos de registro.</li>
+<li>Si el importe de impuestos es recuperable, el campo **Impuestos soportados** en la página **Grupos de registro**.</li>
+<li>Si el importe de impuestos no es recuperable, el campo **Utilizar gasto de impuesto** en la página **Grupos de registro**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Use las dimensiones financieras del precio total o de las distribuciones contables para el cargo en la línea de factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Cargo de encabezado</td>
 <td><ol>
-<li>Si Cuenta contable está seleccionado en el campo Tipo de débito en el formulario Código de gastos, el campo Cuenta de débito en la página Código de gastos.</li>
-<li>Si Cliente/Proveedor contable está seleccionado en el campo Tipo de débito en el formulario Código de gastos, el campo Cuenta de crédito en la página Código de gastos.</li>
+<li>Si **Cuenta contable** está seleccionado en el campo **Tipo de débito** en la página **Código de gastos**, el campo **Cuenta de débito** en la página **Código de gastos**.</li>
+<li>Si **Cliente/Proveedor** contable está seleccionado en el campo **Tipo de débito** en la página **Código de gastos**, el campo **Cuenta de crédito** en la página **Código de gastos**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Si la cuenta principal es una cuenta de asignación, use el valor predeterminado de la definición de cuenta de asignación.</li>
 <li>Use los valores de la plantilla predeterminada de la dimensión financiera del encabezado de la factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Descuento de encabezado</td>
 <td><ol>
-<li>El campo Cuenta principal para el tipo de registro Descuento de factura de proveedor en la página Cuentas para transacciones automáticas.</li>
+<li>El campo **Cuenta principal** para el **tipo de registro Descuento de factura de proveedor** en la página **Cuentas para transacciones automáticas**.</li>
 </ol></td>
 <td><ol>
 <li>Si la línea de factura hace referencia a una línea de pedido de compra, use la distribución de la cuenta para la línea de pedido de compra.</li>
 <li>Use las dimensiones financieras de las distribuciones contables para el precio total de la línea de factura de proveedor.</li>
 <li>Use los valores de dimensión financiera predeterminados de la línea de factura de proveedor.</li>
-<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página Plan contable.</li>
+<li>Use los valores de la dimensión financiera predeterminados de la cuenta principal en la página **Plan contable**.</li>
 </ol></td>
 </tr>
 </tbody>

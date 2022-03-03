@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566032"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102872"
 ---
 # <a name="change-work-pool-on-work"></a>Cambiar grupo de trabajo en trabajo
 
@@ -28,12 +28,9 @@ Puede usar grupos de trabajo para organizar el trabajo en grupos. Por ejemplo, p
 
 La característica *Cambiar grupo de trabajo en el trabajo* agrega un botón **Cambiar grupo de trabajo** al Panel de acciones para elementos de trabajo. Por lo tanto, los responsables de almacén pueden cambiar fácilmente el grupo de trabajo del trabajo existente. Esta característica permite a los responsables reaccionar rápidamente a los cambios en la planta del almacén, y ayuda a mejorar su capacidad de adaptarse a situaciones cambiantes y a la necesidad de transferir el trabajo a otro grupo de trabajo.
 
-## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Activar la función Cambiar grupo de trabajo en trabajo
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Activar o desactivar la característica Cambiar grupo de trabajo en trabajo
 
-Antes de comenzar a configurar o utilizar esta función, debe asegurarse de que está disponible en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Cambiar grupo de trabajo en trabajo*
+A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Cambiar grupo de trabajo en trabajo* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurar la característica Cambiar grupo de trabajo en trabajo
 

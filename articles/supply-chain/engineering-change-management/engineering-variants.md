@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e24bceac9457212ecaafda876d19ba62df049371
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7471845"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103647"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generar variantes de productos de ingeniería
 
@@ -23,15 +23,9 @@ ms.locfileid: "7471845"
 
 Este tema describe cómo generar variantes para productos de ingeniería.
 
-## <a name="turn-on-variant-generation-for-engineering-products"></a>Activar la generación de variantes de productos de ingeniería
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Activar o desactivar la generación de variantes de productos de ingeniería
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo**: *Administración de cambios de ingeniería*
-- **Nombre de característica**: *Generación de variantes de productos de ingeniería*
-
-> [!IMPORTANT]
-> La función *Generación de variantes para productos de ingeniería* será visible en su sistema solo después de que habilite la clave de configuración *Gestión de cambios de ingeniería*. Para instrucciones, vea [Resumen de gestión de cambios de ingeniería](product-engineering-overview.md).
+La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Generación de variantes de productos de ingeniería* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generar una o más variantes nuevas de un producto de ingeniería
 

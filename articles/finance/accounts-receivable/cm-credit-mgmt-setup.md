@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921224"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323419"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
@@ -50,7 +50,8 @@ También puede definir el número de días de gracia antes de que las reglas de 
 
 Si no especifica el número de días de gracia, las reglas de crédito se comprobarán en cada paso del registro que esté configurado para ejecutar reglas de administración de crédito. Si libera el pedido de ventas sin registrarlo y luego vuelve a ejecutar el mismo paso de procesamiento del pedido, las reglas de crédito se comprobarán nuevamente. Por ejemplo, un pedido se pone en espera después de una confirmación, y usted lo libera con o sin registro. En este caso, el pedido se pondrá en espera nuevamente si lo vuelve a confirmar. Use días de gracia si el pedido debe pasar al siguiente paso de procesamiento sin que se vuelva a retener.
 
-No es posible especificar días de gracia para algunos puntos de control de registro y no para otros. Debe configurar todos los puntos de control de registro para que tengan días de gracia o para que no los tengan.
+> [!Note]
+> Si se ha introducido un día de gracia en un punto de control de registro, todos los puntos de control marcados para registro deben tener días de gracia.
 
 - Seleccione la casilla **Registro** para ejecutar las reglas de administración de crédito cuando se ejecuta el punto de control de registro que se muestra en la línea. Si no activa la casilla, las reglas se comprobarán solo una vez durante todo el proceso de registro.
 - Si selecciona la casilla **Registro**, especifique el número de días de gracia que deben pasar antes de que las reglas de bloqueo se comprueben nuevamente. No puede agregar días de gracia si la casilla **Registro** está desactivada.

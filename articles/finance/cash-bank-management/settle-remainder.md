@@ -1,24 +1,24 @@
 ---
 title: Resto de liquidación
 description: Puede liquidar el importe restante de la actividad de liquidación aplicando dicho importe a una cuenta contable.
-author: roschlom
-ms.date: 10/16/2018
+author: twheeloc
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 216c5c1d7db72e5f5071f2cd03656df538a64e72
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754105"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182413"
 ---
 # <a name="settle-remainder"></a>Resto de liquidación
 
@@ -27,7 +27,7 @@ ms.locfileid: "7754105"
 Puede liquidar el importe restante de la actividad de liquidación aplicando dicho importe a una cuenta contable o a otro cliente. Puede liquidar el resto cuando liquide los importes especificados en un diario o cuando este liquidando solo transacciones abiertas.
 
 ## <a name="setting-up-defaults"></a>Configuración de las opciones predeterminadas 
-Debe habilitar la función de resto de Liquidación y configurar los valores predeterminados antes de utilizar el resto de liquidación.
+Debe habilitar la función de **Resto de liquidación** y configurar los valores predeterminados antes de utilizar el **resto de liquidación**.
 
 1)  Haga clic en **Clientes > parámetros > Liquidaciones** o en **Proveedores > parámetros > liquidaciones**
 2)  Seleccione la pestaña **Liquidación** y haga clic en **Habilitar resto de liquidación**.

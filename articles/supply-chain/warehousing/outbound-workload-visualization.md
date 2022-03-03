@@ -2,24 +2,22 @@
 title: Visualización de carga de trabajo de salida
 description: Este tema proporciona información acerca de la visualización de la carga de trabajo. Esta funcionalidad permite a los gerentes y supervisores del almacén crear gráficos de carga de trabajo personalizados que se pueden usar para monitorear el progreso del trabajo actual y la cantidad que queda. Los gerentes de almacén pueden crear múltiples vistas y configurar la actualización automática según lo requieran.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965561"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102897"
 ---
 # <a name="outbound-workload-visualization"></a>Visualización de carga de trabajo de salida
 
@@ -29,12 +27,9 @@ Capacidades de configuración avanzada a las que se puede acceder desde la pági
 
 Esta funcionalidad se puede utilizar para realizar un seguimiento del progreso del trabajo de picking. La función está integrada con la gestión de mano de obra y, si se configura la gestión de mano de obra, las visualizaciones de carga de trabajo de salida pueden mostrar un cálculo del número de horas que quedan para el trabajo de picking que se muestra (filtrado).
 
-## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Active la característica de visualización de carga de trabajo
+## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Activar o desactivar la característica de visualización de carga de trabajo
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Visualización de carga de trabajo saliente*
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Visualización de carga de trabajo* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configurar las visualizaciones de carga de trabajo de salida
 
@@ -62,7 +57,7 @@ Para configurar una visualización de carga de trabajo saliente, siga estos paso
     - **Días para incluir**: ingrese el número de días pasados para los que se debe generar el gráfico.
     - **Tipo de orden de trabajo**: seleccione los tipos de órdenes de trabajo salientes para filtrar.
 
-    ![Configurar la página de filtros](media/work-viz-filters-1.png "Configurar la página de filtros")
+    ![Configurar la página de filtros.](media/work-viz-filters-1.png "Configurar la página de filtros")
 
 1. Cierre la página **Configurar filtros** para volver a la página **Visualizaciones de cargas de trabajo salientes**.
 
@@ -72,11 +67,11 @@ Para configurar una visualización de carga de trabajo saliente, siga estos paso
     - **Última actualización**: este campo muestra la fecha y la hora en que se actualizó por última vez la información del gráfico.
     - **Tiempo estimado/real**: si los estándares laborales están configurados en su sistema, configure esta opción en *Sí* para mostrar los tiempos de recolección estimados acumulados en la parte superior de cada columna del gráfico. Si no utiliza las normas laborales, esta opción no está disponible.
 
-    ![Visualización de ejemplo](media/work-viz-chart.png "Visualización de ejemplo")
+    ![Visualización de ejemplo.](media/work-viz-chart.png "Visualización de ejemplo")
 
 1. Seleccione cualquier barra del gráfico para ver los detalles de la línea de trabajo asociada.
 
-    ![Detalles de línea de trabajo](media/work-viz-work-details.png "Detalles de línea de trabajo")
+    ![Detalles de línea de trabajo.](media/work-viz-work-details.png "Detalles de línea de trabajo")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Ejemplo: Visualización de carga de trabajo de salida para zonas
 
@@ -94,6 +89,9 @@ Para este ejemplo, desea configurar una visualización que muestre las líneas d
 
 La ilustración siguiente muestra un ejemplo del gráfico resultante.
 
-![Visualización de zona frente a estado de trabajo](media/work-viz-chart.png "Visualización de zona frente a estado de trabajo")
+![Visualización de zona frente a estado de trabajo.](media/work-viz-chart.png "Visualización de zona frente a estado de trabajo")
 
 Este gráfico muestra dos zonas que se nombran **FLOOR** y **BULK**, más una zona que se llama **En blanco**. La zona **En blanco** representa todas las líneas de trabajo que no son miembros de ninguna zona. El gráfico siempre muestra todos los datos filtrados no relacionados como **En blanco**, para proporcionar la mayor visibilidad posible. En la zona **FLOOR**, el gráfico muestra tres líneas cerradas y cuatro líneas abiertas. En la zona **BULK**, el gráfico muestra cuatro líneas cerradas, una línea abierta y 24 líneas canceladas. Finalmente, el gráfico muestra ocho líneas cerradas que no forman parte de ninguna zona y, por lo tanto, se enumeran como **En blanco**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

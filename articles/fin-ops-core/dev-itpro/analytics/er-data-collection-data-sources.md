@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: f001734baf9aee59f0a61d21ca5a99af0c55b56f
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413616"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323910"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Utilizar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos
 
 [!include [banner](../includes/banner.md)]
 
-Puede usar el Diseñador de operaciones del marco de [informes electrónico (ER)](general-electronic-reporting.md) para configurar el componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) de una solución de ER que se utiliza para generar documentos salientes en distintos formatos. La estructura jerárquica del componente de formato configurado consta de tipos de elementos de formato. Estos elementos de formato se utilizan para completar los documentos generados con la información requerida en tiempo de ejecución. De forma predeterminada, cuando ejecuta un formato de informes electrónicos, los elementos de formato se ejecutan en el mismo orden en que se presentan en la jerarquía de formato: uno por uno, de arriba abajo.
+Puede usar el Diseñador de operaciones del marco de [informes electrónico (ER)](general-electronic-reporting.md) para configurar el componente de formato de una solución de ER que se utiliza para generar documentos salientes en distintos formatos. La estructura jerárquica del componente de formato configurado consta de tipos de elementos de formato. Estos elementos de formato se utilizan para completar los documentos generados con la información requerida en tiempo de ejecución. De forma predeterminada, cuando ejecuta un formato de informes electrónicos, los elementos de formato se ejecutan en el mismo orden en que se presentan en la jerarquía de formato: uno por uno, de arriba abajo.
 
-Cuando ER ejecuta un elemento de formato que contiene un enlace, se ejecuta la fórmula de ese enlace y el elemento de formato agrega el valor a un documento generado. Por ejemplo, el enlace puede pasar el valor de un campo de [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) a un elemento de formato. Puede configurar un origen de datos de RECOPILACIÓN DE DATOS para recopilar valores de los campos del modelo de datos en tiempo de ejecución, sumar valores y rellenar un documento generado con los valores recopilados. Para utilizar este enfoque, cambie el enlace inicial para que el origen de datos de RECOPILACIÓN DE DATOS configurado se utilice para pasar el valor de un campo de modelo de datos a un elemento de formato. Al pasar valores a través del origen de datos de RECOPILACIÓN DE DATOS, puede recopilar los detalles necesarios para su uso posterior.
+Cuando ER ejecuta un elemento de formato que contiene un enlace, se ejecuta la fórmula de ese enlace y el elemento de formato agrega el valor a un documento generado. Por ejemplo, el enlace puede pasar el valor de un campo de modelo de datos a un elemento de formato. Puede configurar un origen de datos de RECOPILACIÓN DE DATOS para recopilar valores de los campos del modelo de datos en tiempo de ejecución, sumar valores y rellenar un documento generado con los valores recopilados. Para utilizar este enfoque, cambie el enlace inicial para que el origen de datos de RECOPILACIÓN DE DATOS configurado se utilice para pasar el valor de un campo de modelo de datos a un elemento de formato. Al pasar valores a través del origen de datos de RECOPILACIÓN DE DATOS, puede recopilar los detalles necesarios para su uso posterior.
 
 Cuando configure un origen de datos de RECOPILACIÓN DE DATOS, especifique un tipo de valor que se administrará en el origen de datos. Actualmente se admiten los siguientes [tipos de datos](er-formula-supported-data-types-primitive.md) para recopilar valores:
 

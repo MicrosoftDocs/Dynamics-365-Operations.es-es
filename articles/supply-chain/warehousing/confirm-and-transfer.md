@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592637"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103598"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar y transferir
 
@@ -53,12 +53,9 @@ Puede dividir solo cargas que cumplan con los siguientes criterios:
 >
 > Use la función *Confirmar y transferir* en situaciones donde las cargas generalmente se planifican y crean con anticipación, pero donde a veces ocurren excepciones en las que la carga no se ajusta al transporte disponible (como un camión).
 
-## <a name="turn-on-confirm-and-transfer"></a>Activar confirmar y transferir
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Activar o desactivar la característica de confirmar y transferir
 
-Antes de poder usar la característica *Confirmar y transferir*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Confirmar y transferir*
+Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Confirmar y transferir* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Confirmar y transferir* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurar confirmar y transferir
 

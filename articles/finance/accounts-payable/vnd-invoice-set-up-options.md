@@ -1,28 +1,25 @@
 ---
 title: Opciones de configuración para la automatización de facturas de proveedores (versión preliminar)
 description: Este tema describe las opciones que están disponibles para configurar y configurar la automatización de facturas de proveedores.
-author: abruer
-manager: AnnBe
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665207"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182452"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Opciones de configuración para la automatización de facturas de proveedores
 
@@ -30,12 +27,18 @@ ms.locfileid: "4665207"
 
 Este tema describe las opciones que están disponibles para configurar y configurar la automatización de facturas de proveedores. Las funciones de automatización de facturas utilizan los siguientes tipos de parámetros de configuración:
 
+- Parámetros para la aplicación automática de prepagos en facturas importadas.
 - Los parámetros para enviar facturas de proveedores importadas al sistema de flujo de trabajo y hacer coincidir las líneas de recepción de productos registradas con las líneas de facturas de proveedores pendientes.
 - Parámetros para tareas de segundo plano de automatización de procesos. El marco de automatización de procesos se utiliza para enviar facturas de proveedores importadas al sistema de flujo de trabajo. También se utiliza para hacer coincidir automáticamente líneas de recepción de productos registradas con líneas de facturas de proveedores pendientes y para realizar la validación de conciliación de facturas para las facturas manuales que se conciliaron automáticamente con las líneas de recepción de productos. Diferentes procesos de negocios utilizan este marco para definir la frecuencia de ejecución de un proceso seleccionado. Las frecuencias disponibles para los procesos de fondo **Hacer coincidir la recepción del producto con las líneas de la factura** y **Enviar las facturas del proveedor al flujo de trabajo** incluyen **Hora** y **Diario**.
 
-Para configurar o ver información sobre una tarea en segundo plano, vaya a **Administracion del sistema \> Preparar \> Automatizaciones de procesos** y seleccione la pestaña **Tarea de fondo**.
+Para configurar o ver información sobre una tarea en segundo plano, vaya a **Administración del sistema \> Preparar \> Automatizaciones de procesos** y seleccione la pestaña **Tarea de fondo**.
 
 Para lograr la automatización sin contacto desde el proceso de importación a través de la contabilización de facturas de proveedores, debe configurar un flujo de trabajo de facturas de proveedores. Para configurar un flujo de trabajo, vaya a **Proveedores > Configuración > Flujos de trabajo de proveedores**. Para asegurarse de que la factura se pueda procesar de principio a fin sin intervención manual, debe incluir una tarea de registro automatizado en la configuración de su flujo de trabajo.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Parámetros para la aplicación automática de prepagos en facturas importadas
+
+- **Aplicar anticipo automáticamente para facturas importadas**: cuando esta opción se establece en **Sí**, el sistema busca automáticamente los prepagos existentes para un pedido de compra correspondiente cuando se importan las facturas de proveedor. Si se encuentran prepagos que se pueden aplicar, se agrega una línea adicional para aplicar los prepagos en las facturas de proveedor que se están importando.
+- **Bloquear proceso de automatización de seguimiento en caso de error de solicitud de anticipo**: cuando esta opción se establece en **Sí**, las facturas se bloquearán si no se puede aplicar un prepago. Al igual que otros procesos automatizados, como el proceso de comparación de recibos y el envío a un proceso de flujo de trabajo, el proceso de automatización de facturas no recogerá las facturas bloqueadas hasta que el prepago se aplique manualmente. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parámetros para enviar facturas de proveedores importados al sistema de flujo de trabajo
 
@@ -52,7 +55,7 @@ Están disponibles los siguientes parámetros:
 
 - **Hacer coincidir los recibos de productos con las líneas de factura antes de enviarlos automáticamente** - Si configura esta opción en **Sí**, la factura importada no se puede enviar automáticamente al sistema de flujo de trabajo hasta que la cantidad recibida del producto coincidente sea igual a la cantidad de la factura. Al configurar esta opción en **Sí**, habilita la coincidencia automática de los recibos de productos registrados con las líneas de facturación para las que se define una política de coincidencia de tres vías. Ese proceso se ejecutará hasta que la cantidad recibida del producto coincidente sea igual a la cantidad de la factura. En ese momento, la factura se envía automáticamente al sistema de flujo de trabajo.
 
-    La opción 'Hacer coincidir los recibos de productos con las líneas de factura antes del envío automático está disponible solo si la opción **Habilitar la validación de coincidencia de facturas** está seleccionada. Cuando se selecciona esta opción, la opción **Hacer coincidir automáticamente los recibos de productos con las líneas de facturación** se selecciona automáticamente.
+    La opción **Hacer coincidir los recibos de productos con las líneas de factura antes del envío automático** está disponible solo si la opción **Habilitar la validación de coincidencia de facturas** está seleccionada. Cuando se selecciona esta opción, la opción **Hacer coincidir automáticamente los recibos de productos con las líneas de facturación** se selecciona automáticamente.
 
 - **Exigir que los totales calculados sean iguales a los totales importados para el envío automático del flujo de trabajo** - Si configura esta opción en **Sí**, la factura no se puede enviar automáticamente al sistema de flujo de trabajo hasta que los totales que se calculan para la factura sean iguales a los totales importados. Si esta opción se establece en **No**, la factura puede enviarse automáticamente al sistema de flujo de trabajo, pero no puede contabilizarse hasta que los totales calculados se corrijan para que coincidan con los totales importados. Si no importa el monto de la factura o el monto del impuesto sobre las ventas, esta opción debe establecerse en **No**.
 - **Hacer coincidir automáticamente los recibos de productos con las líneas de facturación** - Si configura esta opción en **Sí**, el procesamiento en segundo plano se puede utilizar para hacer una coincidencia automática de los recibos de productos registrados con las líneas de factura para las que se define una política de coincidencia de tres vías. Ese proceso se ejecutará hasta que la cantidad recibida del producto coincidente sea igual a la cantidad de la factura, o hasta que se alcance el valor del campo **Número de veces que se intenta la coincidencia automática**. El proceso se puede ejecutar hasta que la factura se haya enviado al sistema de flujo de trabajo.
@@ -63,3 +66,6 @@ Están disponibles los siguientes parámetros:
 
 - **Número de veces que se intenta la coincidencia automática** - Seleccione la cantidad de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. Cuando se alcanza el número especificado de intentos, la factura se elimina del procesamiento de automatización.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

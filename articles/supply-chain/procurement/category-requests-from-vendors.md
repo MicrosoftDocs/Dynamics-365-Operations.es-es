@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 560b62183f9c0c45c872998373a90dc9dc0ebbb3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571722"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103121"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitudes de categoría desde proveedores
 
@@ -26,11 +26,11 @@ El proceso de solicitud de categoría permite a los proveedores solicitar que se
 
 Las solicitudes de categoría las inician los proveedores, en el espacio de trabajo **Informacion del proveedor**. Luego se envían a su agencia para su revisión y aprobación. Las categorías aprobadas se agregan a la lista de categorías de compras para la cuenta del proveedor.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Activar la función en el sistema
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Activar o desactivar las solicitudes de categoría de la característica de proveedores
 
-Si su sistema aún no incluye la función que se describe en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Permitir que los proveedores soliciten categorías de adquisiciones mediante la colaboración de proveedores*.
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Permitir que los proveedores soliciten categorías de adquisición a través de la colaboración de proveedores* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Una vez activada la función, aún puede agregar manualmente categorías de compras a las cuentas de los proveedores. Para obtener información, consute [Aprobar proveedores para categorías de compras específicas](tasks/approve-vendors-specific-procurement-categories.md).
+Si se activa la característica, aún puede agregar manualmente categorías de compras a las cuentas de los proveedores. Para obtener información, consute [Aprobar proveedores para categorías de compras específicas](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Requisitos de colaboración de proveedores
 

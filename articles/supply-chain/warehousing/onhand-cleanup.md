@@ -2,11 +2,9 @@
 title: Trabajo de limpieza de entradas disponibles de gestión de almacén
 description: Este tema describe el trabajo de limpieza de entradas disponibles, que ayuda a mejorar el rendimiento del sistema al identificar y eliminar registros relacionados pero innecesarios.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -14,15 +12,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014492"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103872"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
+
+[!include [banner](../includes/banner.md)]
 
 El rendimiento de las consultas que se utilizan para calcular el inventario disponible se ve afectado por el número de registros en las tablas involucradas. Una forma de ayudar a mejorar el rendimiento es reducir el número de registros que la base de datos debe tener en cuenta.
 
@@ -58,7 +58,7 @@ Sin embargo, la mejora del rendimiento que proporciona el trabajo de limpieza de
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Hacer que la opción de Tiempo de ejecución máximo esté disponible
 
-De forma predeterminada, la opción de **Tiempo de ejecución máximo** no está disponible. Si quieres usarla, deberá usar [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica relacionada en su sistema. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
+La configuración **Tiempo máximo de ejecución** solo está disponible cuando la característica *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacenes* está activada. A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacenes* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacén*
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7978c7b326ef1b62f76711ac187c28539eb1f449
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798330"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103949"
 ---
 # <a name="inventory-value-reports"></a>Informes de valor de inventario
 
@@ -53,12 +53,9 @@ El informe **Almacenamiento de informes de valor de inventario** es útil cuando
 > [!NOTE]
 > El informe **Almacenamiento de informes de valor de inventario** no incluye los subtotales definidos en el diseño del informe. Tampoco incluye saldos de contabilidad general, incluso cuando se definen en el diseño del informe. La conciliación con la contabilidad general debe hacerse utilizando saldos de prueba. Sin embargo, el informe **Valor de inventario** estándar incluye estos subtotales y saldos.
 
-## <a name="turn-on-the-inventory-value-report-storage-feature"></a>Activar la función de almacenamiento de informes de valor de inventario
+## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Activar o desactivar la característica de almacenamiento de informes de valor de inventario
 
-El informe **Valor de inventario** estándar está habilitado de forma predeterminada. Sin embargo, si desea generar el informe más avanzado **Almacenamiento de informes de valor de inventario**, debe activar la función en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de costes*
-- **Nombre de la característica:** *Almacenamiento de informes de valor de inventario*
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Almacenamiento de informes de valor de inventario* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Definir configuraciones de informes de valor de inventario
 

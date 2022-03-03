@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579937"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103522"
 ---
 # <a name="wave-creation-and-processing"></a>Creación y procesamiento de oleadas
 
@@ -190,9 +190,9 @@ Si es necesario, puede cancelar una oleada que ya se ha procesado. Para cancelar
 
 Use la página **Detalles del trabajo por lotes de oleada** para inspeccionar los trabajos por lotes y las tareas relacionadas asociadas con cualquier oleada. Esto es especialmente útil para solucionar problemas de una oleada que ha fallado. Sin esta función, solo los administradores suelen tener acceso a los detalles del trabajo por lotes. La página **Detalles del trabajo por lotes de oleada** puede estar disponible para usuarios que no son administradores y proporciona una vista de solo lectura de los trabajos por lotes y las tareas relacionadas.
 
-### <a name="enable-the-wave-batch-job-details-page"></a>Habilite la página de detalles del trabajo por lotes de oleada
+### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Activar o desactivar la página de detalles del trabajo por lotes de oleada
 
-Si su sistema aún no incluye la página **Detalles del trabajo por lotes de oleada**, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Detalles del trabajo por lotes de oleada*.
+A partir de la versión 10.0.25 de Supply Chain Management, la página **Detalles del trabajo por lotes de oleada** está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Detalles del trabajo por lotes de oleada* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Use la página de detalles del trabajo por lotes de oleada
 

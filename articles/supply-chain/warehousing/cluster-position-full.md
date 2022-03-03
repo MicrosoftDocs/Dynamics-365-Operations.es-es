@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574266"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102847"
 ---
 # <a name="cluster-position-full"></a>Posición completa del clúster
 
@@ -28,12 +28,9 @@ La característica *Posición completa del clúster* ofrece una alternativa a la
 
 Esta característica introduce la capacidad de ejecutar el botón **Completo** en una de las unidades de trabajo en un clúster. En versiones anteriores, esta opción solo estaba disponible para el picking de pedidos normal, no para el picking en clúster. Sin embargo, esta característica difiere del botón estándar **Completo** en el que cancela el trabajo restante. No sugiere que el usuario agregue otro contenedor al mismo clúster y no crea automáticamente un nuevo trabajo.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Activar la característica Posición completa del clúster
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Activar o desactivar la característica Posición completa del clúster
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica**: *Posición completa del clúster*
+Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Posición completa del clúster* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Posición completa del clúster* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Configurar
 

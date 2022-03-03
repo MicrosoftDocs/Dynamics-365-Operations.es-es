@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720405"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103053"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gestionar cambios en fórmulas y sus componentes.
 
@@ -27,12 +27,9 @@ Si está utilizando las capacidades de fabricación de procesos de Microsoft Dyn
 - **Coproductos y subproductos:** edite cantidades y otra información de los coproductos y subproductos en una fórmula.
 - **Artículos de peso capturado:** gestione los cambios en los artículos con peso capturado.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Activar esta función en el sistema
+## <a name="turn-this-feature-on-or-off"></a>Activar o desactivar esta característica
 
-Para usar esta funcionalidad, debe completar las tareas siguientes:
-
-1. Habilite la función de *Administración de cambios de ingeniería* y su clave de configuración como se describe en [Descripción general de la gestión de cambios de ingeniería](product-engineering-overview.md). Como se menciona en ese tema, asegúrese de habilitar también la clave de licencia **Gestión de cambios para la fabricación de procesos**, que está anidada debajo de la clave de licencia **Gestión de cambios de ingeniería**.
-1. Active la característica *Gestionar cambios en fórmulas y sus componentes* en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Administrar cambios en fórmulas y sus componentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenciones de nomenclatura de funciones
 

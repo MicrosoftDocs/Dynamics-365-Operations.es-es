@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758273"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323674"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipos de datos compuestos admitidos para fórmulas de informes electrónicos
 
@@ -27,7 +27,7 @@ Este tema proporciona información sobre las entidades de datos compuestas que s
 
 El tipo de datos *clase* se refiere a una clase de aplicación pública. En ER, se representa como un [*registro*](#record) que contiene un campo separado para cada método público de la clase referenciada. Cuando se parametriza la llamada al método, también debe especificar los argumentos requeridos de los tipos apropiados en una expresión ER que está configurada para llamar al método.
 
-En los componentes [asignación](general-electronic-reporting.md#data-model-and-model-mapping-components) y [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER, puede agregar la fuente de datos **Clase** que se presenta como una fuente de datos y que devuelve un valor de tipo *clase*. Esta fuente de datos expone métodos públicos de la clase que se pueden llamar en tiempo de ejecución.
+En los componentes asignación y formato de ER, puede agregar la fuente de datos **Clase** que se presenta como una fuente de datos y que devuelve un valor de tipo *clase*. Esta fuente de datos expone métodos públicos de la clase que se pueden llamar en tiempo de ejecución.
 
 > [!NOTE]
 > Solo los métodos que devuelven un valor se pueden llamar desde expresiones ER.

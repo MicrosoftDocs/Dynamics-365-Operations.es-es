@@ -2,11 +2,9 @@
 title: Asignar usuarios a roles de seguridad
 description: Para obtener acceso a aplicaciones de Finance and Operations, se debe asignar a los usuarios a roles de seguridad.
 author: Peakerbl
-manager: AnnBe
-ms.date: 05/06/2020
+ms.date: 02/09/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679873"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105547"
 ---
-# <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
+# <a name="manage-users-and-security-roles"></a>Administrar usuarios y roles de seguridad
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,6 +40,8 @@ Este procedimiento explica cómo los administradores del sistema pueden asignar 
 10. Revise los roles asignados a varios usuarios para confirmar que la consulta de la asignación de roles fue correcta. Ajuste y vuelva a ejecutar si es necesario.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Excluir usuarios de la asignación automática de roles
+Este procedimiento explica cómo excluir usuarios de la asignación automática de roles.
+
 1. Cierre la página.
 2. Vaya a **Panel de navegación > Módulos > Administración del sistema > Seguridad > Asignar usuarios a roles**.
 3. En el árbol, seleccione "Supervisor contable". Seleccione una función. Para este ejemplo, seleccione Supervisor contable.  
@@ -57,3 +57,19 @@ Los usuarios que se asignan manualmente a roles de seguridad también los elimin
 2. En el árbol, seleccione un rol y, en el menú **Usuarios asignados al rol**, seleccione **Asignar o excluir usuarios de forma manual**.
 4. En **Asignar usuarios o excluir usuarios del rol**, los usuarios a los que no se les ha asignado el rol se enumeran con el **Modo de asignación** ajustado a **Ninguno**. Seleccione uno o más usuarios a los que se les debe asignar el rol.
 5. En el **Panel Acciones**, seleccione **Asignar a rol**. El **Modo de asignación** se actualiza a **Manual** y los usuarios ahora tienen un nuevo rol asignado.
+
+## <a name="manually-remove-users-from-roles"></a>Eliminar manualmente usuarios de roles
+Los usuarios que se asignan manualmente a roles de seguridad también los elimina manualmente el administrador. Estos usuarios no se eliminan de los roles a través de reglas de asignación automática de roles.
+
+1. Vaya a **Panel de navegación > Módulos > Administración del sistema > Seguridad > Asignar usuarios a roles**.
+2. Para eliminar un usuario, siga estos pasos:
+   1. En el árbol, seleccione un rol. 
+   2. En el área **Usuarios asignados al rol**, seleccione el usuario que debe eliminarse.
+   3. Seleccione **Eliminar** y el usuario se elimina del rol.
+3. Para eliminar a varios usuarios, siga estos pasos:
+   1. En el árbol, seleccione un rol. 
+   2. En el área **Usuarios asignados al rol**, seleccione **Asignar o excluir usuarios de forma manual**.
+   3. En la página **Asignar usuarios o excluir usuarios del rol**, los usuarios a los que no se les ha asignado el rol se enumeran con el **Modo de asignación** ajustado a **Ninguno**. Seleccione los usuarios que deben ser excluidos del rol.
+   4. En el **Panel de acciones**, seleccione **Excluir de rol**. La columna **Modo de asignación** se actualiza a **Manual** y los usuarios ahora están excluidos del rol.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Cálculo de impuestos en líneas de diario generales
 description: Este tema explica cómo se calculan los impuestos para distintos tipos de cuentas (proveedor, cliente, contabilidad, y proyecto) en las líneas del diario general.
 author: EricWangChen
-ms.date: 04/22/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488320"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311963"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de impuestos en líneas de diario generales
 [!include [banner](../includes/banner.md)]
@@ -77,19 +77,9 @@ El siguiente diagrama muestra gráficamente la regla.
 
 ### <a name="account-type-is-customer"></a>El tipo de cuenta es Cliente
 
-Si tiene un asiento línea de diario en el que tipo de cuenta es **Cliente**, todas las líneas de diario en el asiento aplicarán la misma dirección de impuestos. Los puntos siguientes muestran direcciones posibles de impuestos para las cuentas de cliente.
+Si un asiento tiene una línea de diario en la que tipo de cuenta es **Cliente**, todas las líneas de diario en el asiento aplicarán la misma dirección de impuestos. 
 
-•   Si el código de impuestos es exención de impuestos, la dirección de impuestos es Compra libre de impuestos.
-
-•   Si el código de impuestos es IVA intracomunitario, la dirección de impuestos es Impuestos soportados.
-
-•   Si el código de impuestos es cargo invertido, la dirección de impuestos es Impuestos soportados.
-
-De lo contrario, la dirección de impuestos es un impuesto repercutidos.
-
-El siguiente diagrama muestra gráficamente la regla.
-
-![Posibilidades de la dirección de impuestos de cuentas de cliente.](media/Sales-Tax-Direction-Customer.jpg)
+Si el código de impuestos es exención de impuestos, la dirección de impuestos es Venta libre de impuestos. De lo contrario, la dirección de impuestos es un impuesto repercutidos.
 
 ### <a name="account-type-is-ledger"></a>El tipo de cuenta es Libro mayor
 

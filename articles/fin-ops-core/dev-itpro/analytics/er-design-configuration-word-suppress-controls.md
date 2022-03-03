@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737984"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323934"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Suprimir los controles de contenido de Word en los informes generados
 
 [!include [banner](../includes/banner.md)]
 
-Para generar informes como documentos de Microsoft Word, debe diseñar una plantilla para los informes como documento de Word. Esta plantilla debe contener controles de contenido de Word como marcadores de posición para los datos que se completarán en tiempo de ejecución. Para utilizar un documento de Word creado como plantilla para sus informes, puede [configurar](er-design-configuration-word.md) una nueva [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md). La solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) de ER que contenga un componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER. Este formato de ER debe configurarse para utilizar la plantilla diseñada para la generación de informes.
+Para generar informes como documentos de Microsoft Word, debe diseñar una plantilla para los informes como documento de Word. Esta plantilla debe contener controles de contenido de Word como marcadores de posición para los datos que se completarán en tiempo de ejecución. Para utilizar un documento de Word creado como plantilla para sus informes, puede [configurar](er-design-configuration-word.md) una nueva [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md). La solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) de ER que contenga un componente de formato de ER. Este formato de ER debe configurarse para utilizar la plantilla diseñada para la generación de informes.
 
 En la versión 10.0.6 y posteriores de Dynamics 365 Finance, puede configurar fórmulas en su formato ER para suprimir algunos controles de contenido de Word en los documentos generados.
 

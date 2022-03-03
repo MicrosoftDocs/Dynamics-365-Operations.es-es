@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867315"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323884"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Diseñar una nueva configuración de ER para generar informes en formato Word
 
@@ -28,7 +28,7 @@ Para generar informes como documentos de Microsoft Word, debe diseñar una plant
 
 ![Plantilla de ejemplo para el informe de control en la aplicación de escritorio de Word.](./media/er-design-configuration-word-image1.png)
 
-Para utilizar un documento de Word como plantilla para informes en formato Word, puede configurar una nueva [solución](er-quick-start1-new-solution.md) de [informes electrónicos (ER)](general-electronic-reporting.md). Esta solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) de ER que contenga un componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) ER.
+Para utilizar un documento de Word como plantilla para informes en formato Word, puede configurar una nueva [solución](er-quick-start1-new-solution.md) de [informes electrónicos (ER)](general-electronic-reporting.md). Esta solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) de ER que contenga un componente de formato ER.
 
 > [!NOTE]
 > Cuando crea una nueva configuración de formato ER para generar informes en formato Word, debe seleccionar **Word** como el tipo de formato el cuadro de diálogo desplegable **Crear configuración** o dejar el campo **Tipo de formato** en blanco.

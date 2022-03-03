@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d860c2b9fe01231e8e47b085f93c79c5a7dc449e
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941253"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323988"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
 [!include [banner](../includes/banner.md)]
 
-Puede configurar [destinos](electronic-reporting-destinations.md) para cada componente de salida (carpeta o archivo) de una [configuración](general-electronic-reporting.md#Configuration) de [formato](general-electronic-reporting.md#FormatComponentOutbound) de [informe electrónico (ER)](general-electronic-reporting.md) que se usa para generar un documento de salida. Los usuarios que ejecutan un formato de informe electrónico de este tipo y que tienen los derechos de acceso adecuados también pueden cambiar los ajustes de destino configurados en runtime.
+Puede configurar [destinos](electronic-reporting-destinations.md) para cada componente de salida (carpeta o archivo) de una [configuración](general-electronic-reporting.md#Configuration) de [formato de informe electrónico (ER)](general-electronic-reporting.md) que se usa para generar un documento de salida. Los usuarios que ejecutan un formato de informe electrónico de este tipo y que tienen los derechos de acceso adecuados también pueden cambiar los ajustes de destino configurados en runtime.
 
 En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, un formato de informe electrónico se puede ejecutar mediante el [aprovisionamiento](er-apis-app10-0-17.md) de un código de acción que realiza el usuario al ejecutar ese formato de informe electrónico. Por ejemplo, en el módulo **clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informe electrónico que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción de usuario para el formato de informe electrónico en runtime, puede configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario. Este tema explica cómo configurar destinos de informes electrónicos para este tipo de formato de informe electrónico.
 
