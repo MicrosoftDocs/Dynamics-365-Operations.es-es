@@ -2,11 +2,9 @@
 title: Crear una nueva jerarquía de productos
 description: En este tema se describe cómo crear una nueva jerarquía de productos en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 68f6bc5b30cd4d7f7eea05233348b10608a4d6e63d4b8508bdb2088f88c445dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746001"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Crear una nueva jerarquía de productos
 
@@ -30,7 +28,7 @@ ms.locfileid: "4965229"
 
 En este tema se describe cómo crear una nueva jerarquía de productos en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Cada canal de tienda puede tener sus propios métodos de pago, grupos de precios, registros de puntos de venta (PDV), cuentas de ingresos y gastos, o personal. Debe configurar todos estos elementos antes de crear una canal de tienda. 
 
@@ -66,7 +64,7 @@ Para agregar nodos de jerarquía, siga estos pasos.
 
 La siguiente imagen muestra la creación de un nuevo nodo de jerarquía de productos.
 
-![Crear jerarquía de productos](media/create-product-hierarchy.png)
+![Crear jerarquía de productos.](media/create-product-hierarchy.png)
 
 ## <a name="other-settings"></a>Otras opciones de configuración
 
@@ -79,3 +77,6 @@ También se pueden asignar grupos de atributos de categoría a cada grupo según
 [Administrar las categorías de productos y los productos](category-management-product-creation.md)
 
 [Cambiar el orden de clasificación de entidades de comercialización](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

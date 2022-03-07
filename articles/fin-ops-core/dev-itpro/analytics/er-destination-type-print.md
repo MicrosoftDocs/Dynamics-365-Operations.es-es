@@ -1,12 +1,10 @@
 ---
 title: Tipo de destino de ER de impresora
-description: Este tema explica cómo configurar un destino de impresora para cada componente FOLDER o FILE de un formato de informe electrónico (ER) que está configurado para generar documentos salientes en formato PDF o de Microsoft Office (Excel o Word).
+description: Este tema explica cómo puede configurar un destino de impresora para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 83081f8c17a903cd447a34596df2e61ebda0cafc
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679615"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753441"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino de impresora
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino de la impresora
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,8 +47,6 @@ El destino de **impresora** solo se puede configurar para componentes de archivo
 
 ### <a name="limitations"></a>Limitaciones
 
-Esta característica está en versión preliminar y está sujeta a los términos de uso que se describen en [Términos de uso complementarios para las versiones preliminares de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
-
 El destino de **impresora** solo es compatible con implementaciones en la nube.
 
 ### <a name="use-the-printer-destination"></a>Usar destino de impresora
@@ -70,3 +66,6 @@ Para usar una [orientación de la página](electronic-reporting-destinations.md#
 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

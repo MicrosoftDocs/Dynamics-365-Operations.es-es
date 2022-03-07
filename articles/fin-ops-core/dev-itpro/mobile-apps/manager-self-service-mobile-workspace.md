@@ -1,12 +1,10 @@
 ---
 title: Espacio de trabajo móvil Mi equipo
-description: Este tema proporciona información sobre el espacio de trabajo Mi equipo, que permite a los administradores ver el personal subordinado directo y ampliado. Los usuarios también pueden enviar elogios a otras personas en su cadena de subordinados.
+description: Este tema proporciona información sobre el espacio de trabajo Mi equipo, que permite a los administradores ver el personal subordinado directo y ampliado.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767121"
 ---
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
@@ -80,7 +78,7 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
-[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Toque la pantalla para actualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Ver los miembros del equipo utilizando el espacio de trabajo móvil Mi equipo
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Mi equipo**. Aparece una lista de los miembros. La lista también muestra el puesto de cada miembro del equipo y los subordinados directos que tenga el miembro.
@@ -97,3 +95,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 1.  Seleccione **Enviar elogio**. 
 1. Escriba el texto del elogio que desee enviar. 
 1. Seleccione **Listo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

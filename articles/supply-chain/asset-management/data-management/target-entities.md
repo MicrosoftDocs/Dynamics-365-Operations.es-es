@@ -1,12 +1,10 @@
 ---
 title: Entidades de destino
 description: En este tema se explica cómo obtener una visión general de las entidades de destino en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb22c5b604f9bc7aacad014385b036e78d9110e6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772577"
 ---
 # <a name="target-entities"></a>Entidades de destino
 
@@ -36,13 +34,13 @@ En el espacio de trabajo **Administración de datos**, puede obtener una visión
 
 2. En la sección **Importar/exportar**, haga clic en **Entidades de datos**. 
 
-    ![Figura 1](media/01-data-management.png)
+    ![Figura 1.](media/01-data-management.png)
 
 3. En la página **Entidades de destino**, busque “administración de activos” en el filtro y presione Entrar para ver una lista de entidades relacionadas con la Administración de activos.
 
     La ilustración siguiente muestra algunas de las entidades de administración de activos.
 
-   ![Figura 2](media/02-data-management.png)
+   ![Figura 2.](media/02-data-management.png)
 
 4. Seleccione una entidad y haga clic en **Modificar asignación de destino**.
 
@@ -50,5 +48,8 @@ En el espacio de trabajo **Administración de datos**, puede obtener una visión
 
     En la siguiente ilustración se muestra una visualización de los campos relacionados con la entidad de tipos de activos.
 
-    ![Figura 3](media/03-data-management.png)
+    ![Figura 3.](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

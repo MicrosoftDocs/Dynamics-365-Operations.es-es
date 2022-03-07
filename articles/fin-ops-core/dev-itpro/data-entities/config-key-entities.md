@@ -1,31 +1,32 @@
 ---
 title: Claves de configuración y entidades de datos
 description: Este tema describe la relación entre las claves de configuración y entidades de datos.
-author: Sunil-Garg
-manager: AnnBe
+author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.custom: 25341
 ms.assetid: 8e214c95-616b-4ee1-b5a4-fa5ce5147f2c
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: e6145a2f6925932361851735df55374dda8ca03d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e9cc92563c426136b2543511ad943fd64b335b70
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679390"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065748"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Claves de configuración y entidades de datos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Antes de usar entidades de datos para importar o exportar datos, le recomendamos que determina primero el impacto de las claves de configuración en las entidades de datos que tiene previsto utilizar.
 
@@ -54,24 +55,24 @@ La siguiente tabla resume cómo los valores de la clave de configuración en los
 ### <a name="entity-list-refresh"></a>Actualización de lista de entidades
 Cuando se actualiza la lista de entidades, el marco de gestión de datos crea los metadatos de la clave de configuración para el uso del tiempo de ejecución. Estos metadatos se generan mediante la lógica descrita anteriormente. Le recomendamos encarecidamente que espere a que la actualización de la lista de entidades se complete antes de usar trabajos y entidades en el marco de gestión de datos. Si no espera, puede que no se actualicen los metadatos de la clave de configuración y podrían provocar resultados inesperados. Cuando se está actualizando la lista de entidades, el mensaje siguiente se muestra en la página de lista de entidades.
 
-![Actualización de lista de entidades](./media/Entity_refresh_list.png)
+![Actualización de lista de entidades.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Página de lista de entidad de datos
 La página de lista de entidad de datos en el espacio de trabajo de Gestión de datos muestra los valores de la clave de configuración para las entidades. Comience desde esta página a comprender el impacto de las claves de configuración en la entidad de datos.
 
 Esta información se muestra con los metadatos que se generan durante la actualización de la entidad. La columna de la clave de configuración muestra el nombre de la clave de configuración que está asociada a la entidad de datos. Si esta columna se deja en blanco significa que no hay clave de configuración asociada a la entidad de datos. La columna de estado de la clave de configuración muestra la estado de la clave de configuración. Si tiene una marca de verificación, significa que la clave está habilitada. Si está en blanco, significa que la clave está deshabilitada o que no hay ninguna clave asociada.
 
-![Página de lista de entidades](./media/Data_entity_list_page.png)
+![Página de lista de entidades.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Campos objetivo
 El siguiente paso es explorar en la entidad de datos para ver el impacto de las claves de configuración en las tablas y los campos. El formulario de campos objetivo para una entidad de datos muestra la clave de configuración y la información del estado de la clave para las tablas y campos en la entidad de datos. Si la propia entidad de datos tiene su clave de configuración deshabilitada, se muestra un mensaje de advertencia que indica que las tablas y los campos en los formularios de campos objetivo para esta entidad no estarán disponibles en absoluto independientemente de su estado de clave de configuración.
 
-![Campos objetivo](./media/Target_fields_1.png)
+![Campos objetivo.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Entidades secundarias 
 Algunas entidades tienen otras entidades como orígenes de datos, o bien son entidades de datos compuestas: la información de clave de configuración para estas entidades se muestra en el formulario de entidades secundario. Utilice este formulario de forma similar a la página de la lista de entidades descrita anteriormente. El formulario de campos objetivo par la entidad secundaria también se comporta como se describe anteriormente.
 
-![Campos objetivo](./media/Target_fields_2.png)
+![Campos objetivo.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Uso de entidades de datos
 Tras comprender el impacto completo, en su caso, de las claves de configuración en las entidades de datos que desee utilizar, ahora puede seguir usando las entidades de datos agregándolas a los proyectos de datos. 
@@ -93,4 +94,7 @@ Mediante los metadatos de la clave de configuración creados durante la lista de
 ### <a name="managing-configuration-key-changes"></a>Gestionar cambios de claves de configuración
 Cada vez que actualice las claves de configuración en la entidad, tabla o nivel de campo, debe actualizarse la lista de entidades en el marco de gestión de datos. Este proceso garantiza que el marco recoja los últimos valores de la clave de configuración. Hasta que se actualice la lista de entidades, aparecerá el siguiente mensaje de advertencia en la página de lista de entidades. Los cambios de clave de configuración actualizados surtirán efecto inmediatamente después de que se actualice la lista de entidades. Le recomendamos que valide los proyectos y trabajos de datos existentes para asegurarse de que funcionan como se espera después de que se pongan en vigor los cambios de claves de configuración.
 
-![Campos objetivo](./media/Target_fields_3.png)
+![Campos objetivo.](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

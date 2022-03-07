@@ -2,26 +2,22 @@
 title: Visión general de México
 description: Este tema proporciona vínculos a recursos de documentación para México de Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.search.region: Mexico
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2da66954a530e927767de8349298a4327ab21354
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f114dc28769bbc1e2916da1fc563e40c01d57e8c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407799"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982941"
 ---
 # <a name="mexico-overview"></a>Visión general de México
 
@@ -52,6 +48,9 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Visión general de los informes electrónicos](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Microsoft Dynamics Portal de localización: Informe de Australia (requiere cuenta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/mexico.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

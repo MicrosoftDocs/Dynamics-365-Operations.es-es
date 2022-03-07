@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209236"
 ---
-# <a name="tab-module"></a>Módulo de pestañas
+# <a name="tab-module"></a>Módulo de pestaña
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de pestañas y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Los módulos de pestañas son módulos tipo contenedor que se utilizan para organizar la información de una página del sitio en pestañas. Se pueden usar en cualquier página donde la información deba presentarse en pestañas.
 
@@ -84,3 +81,6 @@ Para agregar un módulo de pestaña a una página y establecer las propiedades, 
 [Módulo de acordeón](add-accordion.md)
 
 [Módulo de bloque de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

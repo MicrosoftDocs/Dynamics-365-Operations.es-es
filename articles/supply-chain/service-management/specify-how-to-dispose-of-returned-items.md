@@ -1,10 +1,12 @@
 ---
 title: Especificar la disposición de artículos devueltos
 description: Especificar la disposición de artículos devueltos.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
@@ -15,16 +17,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0049e47d5e0e5f8a2a6d7cc5feb29593c764d323
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991549"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Especificar la disposición de artículos devueltos
+# <a name="specify-how-to-dispose-of-returned-items"></a>Especificar la disposición de artículos devueltos 
 
 [!include [banner](../includes/banner.md)]
+
 
 Al gestionar un pedido de devolución, debe especificar un código de motivo de devolución para identificar por qué se devuelve el producto. También debe especificar un código de disposición y una acción de disposición de determinar qué se debe realizar con el producto devuelto en sí.
 
@@ -34,9 +37,9 @@ Se pueden definir los códigos de disposición necesarios para los procesos empr
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -124,8 +127,8 @@ Para cada código de disposición definido, debe seleccionar una acción de disp
 
 <table>
 <colgroup>
-<col />
-<col />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,15 +164,21 @@ Para cada código de disposición definido, debe seleccionar una acción de disp
 </tbody>
 </table>
 
+
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Seleccione un código de disposición para una orden de cuarentena
 
-1. Vaya a **Gestión del inventario** \> **Periódico** \> **Administración de calidad** \> **Órdenes de cuarentena**.
-1. Para una orden de cuarentena existente, seleccione una acción del campo **Código de disposición**, en la ficha **Visión general**.
+1.  Haga clic en **Gestión del inventario** \> **Periódico** \> **Administración de calidad** \> **Órdenes de cuarentena**.
+
+2.  Para una orden de cuarentena existente, seleccione una acción del campo **Código de disposición**, en la ficha **Visión general**.
+
+
 
 ## <a name="see-also"></a>Consulte también
 
-[Orden de cuarentena (formulario)](/dynamicsax-2012//quarantine-order-form)
+[Orden de cuarentena (formulario)](https://technet.microsoft.com/library/aa554073(v=ax.60))
 
 [Códigos de disposición (formulario)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

@@ -1,12 +1,11 @@
 ---
 title: Contenido de análisis de costes de contabilidad de Power BI
-description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1290cf971e7702affa325640a2b28ac64d74744e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683880"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563009"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de análisis de costes de contabilidad de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de **Análisis de contabilidad de costes** en Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe lo que se incluye en el contenido de Microsoft Power BI de **Análisis de contabilidad de costes**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -123,3 +122,6 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Calendarios fiscales                   | Calendario, descripción del calendario                                                                                       |
 | Ejercicios                       | Año natural                                                                                                        |
 | Períodos fiscales                     | Período del año natural                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,22 +2,22 @@
 title: Configuración de la administración de crédito
 description: En este tema se describe la configuración necesaria para la administración de crédito.
 author: JodiChristiansen
-ms.date: 02/15/2022
+ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182463"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753677"
 ---
 # <a name="credit-management-setup"></a>Configuración de la administración de crédito 
 
@@ -39,7 +39,7 @@ Puede poner un pedido de ventas en espera si las condiciones de pago del pedido 
 
 Si las clasificaciones de las condiciones de pago están activas y si las condiciones de pago del pedido tienen una clasificación más alta que las condiciones de pago predeterminadas para el cliente, el pedido de ventas se pondrá en espera.
 
-Para configurar la clasificación de condiciones de pago vaya a **Crédito y cobros \> Configuración \> Configuración de administración de crédito \>Clasificar condiciones de pago**.  
+Para configurar la clasificación de condiciones de pago vaya a **Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Clasificar condiciones de pago**  
 
 ### <a name="ranking-settlement-discounts"></a>Clasificación de descuentos de liquidación
 
@@ -86,7 +86,7 @@ Puede crear estados de cuenta en la página **Estados de cuenta** (**Crédito y 
 
 ## <a name="scoring-groups"></a>Grupos de clasificación
 
-Puede configurar **grupos de puntuación** para definir los factores de riesgo y los criterios que se utilizan para medirlos. Cuando la información sobre un cliente se aplica a un grupo de puntuación, se calcula una puntuación para cada factor de riesgo y se utiliza para colocar al cliente en un grupo de riesgo. El grupo de riesgo se puede utilizar para identificar la solvencia y calcular los límites de crédito automáticos.
+Puede configurar grupos de puntuación para definir los factores de riesgo y los criterios que se utilizan para medirlos. Cuando la información sobre un cliente se aplica a un grupo de puntuación, se calcula una puntuación para cada factor de riesgo y se utiliza para colocar al cliente en un grupo de riesgo. El grupo de riesgo se puede utilizar para identificar la solvencia y calcular los límites de crédito automáticos.
 
 Puede crear grupos de puntuación en la página **Grupos de puntuación** (**Crédito y cobros \> Configuración \> Configuración de administraciónde crédito \> Riesgo \> Grupos de puntuación**).
 

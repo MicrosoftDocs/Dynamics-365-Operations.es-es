@@ -2,7 +2,7 @@
 title: Proceso de idoneidad para inscripción
 description: Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420369"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466311"
 ---
 # <a name="process-enrollment-eligibility"></a>Proceso de idoneidad para inscripción
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 
@@ -72,3 +74,6 @@ Este artículo explica cómo ver los resultados del proceso de idoneidad.
    | **Estado de resultado** | Esto será elegible o no elegible. El estado del resultado será No elegible si el trabajador no cumplió con los criterios de la regla de elegibilidad, si el trabajador no tiene la información requerida, como una frecuencia de pago o una compensación fija, o si falta información en el plan de prestaciones que impide que los trabajadores se inscriban. |
    | **Mensaje de resultado** | Indica por qué un trabajador no es elegible para un plan de prestaciones o si se aprobó la regla de elegibilidad. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

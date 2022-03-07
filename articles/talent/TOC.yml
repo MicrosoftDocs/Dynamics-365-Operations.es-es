@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: Introducción
       items:
@@ -151,7 +151,7 @@
         - name: Exportar datos desde Attract y Onboard
           href: attract-onboard-export-data.md
         - name: Insertar aplicaciones de lienzo desde Power Apps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Obtener soporte para Talent
           href: talent-support.md
     - name: Dotar de personal a la organización con Attract

@@ -2,11 +2,9 @@
 title: Función SPLITLIST de ER
 description: En este tema se proporciona información acerca de cómo se usa la función SPLITLIST de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0f527dcf313a6a5e3b6601cac9a0f6495f66833
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680351"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745578"
 ---
 # <a name="splitlist-er-function"></a>Función SPLITLIST de ER
 
@@ -30,10 +28,16 @@ ms.locfileid: "4680351"
 
 La función `SPLITLIST` función divide la lista especificada en sublistas (o lotes), cada uno conteniendo el número de registros especificado. Devuelve luego el resultado como un nuevo valor *Lista de registros* que consiste en los lotes.
 
-## <a name="syntax"></a>Sintaxis
+## <a name="syntax-1"></a>Sintaxis 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Sintaxis 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumentos
@@ -45,6 +49,10 @@ La ruta válida de un origen de datos del tipo de datos *Lista de registros*.
 `number`: *Entero*
 
 El número máximo de registros por lote.
+
+`on-demand reading flag`: *Booleano*
+
+Un valor *Booleano* que especifica si los elementos de las sublistas deben generarse a petición.
 
 ## <a name="return-values"></a>Valores de retorno
 
@@ -64,6 +72,8 @@ La lista de lotes que se devuelve contiene los elementos siguientes:
 
     El número del lote actual en la lista devuelta.
 
+Cuando el indicador de lectura bajo demanda se establece en **Verdadero**, las sublistas se generan a petición, lo que permite una reducción en el consumo de memoria, pero puede causar una degradación del rendimiento si los elementos no se utilizan secuencialmente.
+
 ## <a name="example"></a>Ejemplo
 
 En la siguiente ilustración, se crea un origen de datos **Líneas** como una lista de registro que tiene tres registros. Esta lista se divide en lotes, cada uno contiene hasta dos registros.
@@ -81,3 +91,6 @@ La siguiente ilustración muestra el resultado cuando se ejecuta el formato dise
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

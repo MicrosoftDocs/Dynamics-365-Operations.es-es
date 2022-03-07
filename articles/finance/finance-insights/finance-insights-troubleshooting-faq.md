@@ -2,7 +2,7 @@
 title: Solucionar problemas de configuración de Finance Insights
 description: Este tema enumera los problemas que pueden ocurrir cuando usa las capacidades de Finance Insights. También explica cómo solucionar esos problemas.
 author: panolte
-ms.date: 02/11/2022
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109869"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064875"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Solucionar problemas de configuración de Finance Insights
 
@@ -111,14 +111,6 @@ Para obtener más información sobre cómo ajustar las categorías **A tiempo**,
 
 ### <a name="resolution"></a>Resolución
 
-El entrenamiento del modelo **Pronóstico de flujo de efectivo** requiere datos que abarquen más de un año y contengan más de 100 transacciones. Recomendamos que tenga al menos dos años de datos con más de 1000 transacciones.
+El entrenamiento del modelo **Pronóstico de flujo de efectivo** requiere datos que abarquen más de un año y contengan más de 100 transacciones. Estas transacciones deben afectar las cuentas de liquidez que se incluyen en la configuración de la previsión de flujo de efectivo.
 
-La característica **Predicciones de pago de cliente** requiere más de 100 transacciones en los seis a nueve meses anteriores. Las transacciones pueden incluir facturas de servicios, pedidos de venta y pagos de clientes. Estos datos deben estar repartidos por toda la configuración **A tiempo**, **Tarde** y **Muy tarde** definida en la página **Configuración**.    
-
-La característica **Propuesta de presupuesto** requiere un mínimo de tres años de presupuesto o datos reales. Esta solución utiliza de tres a diez años de datos en las proyecciones. Más de tres años de datos proporcionarán mejores resultados. Los datos en sí funcionan mejor cuando hay variación en los valores. Si los datos contienen todos los datos constantes, como un gasto de arrendamiento, la capacitación puede fallar porque la falta de variación no requiere que la IA proyecte las cantidades.
-
-## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>Síntoma: el mensaje de error indica que la "Tabla con el nombre, 'msdyn_paypredpredictionresultentities' no existe. El servidor remoto devolvió un error: (404) Not Found..."
-
-### <a name="resolution"></a>Resolución
-
-El entorno alcanzó el límite máximo de tablas de los servicios de Data Lake. Para obtener más información sobre el límite, consulte la sección **Habilitar cambios de datos casi en tiempo real** del tema, [Información general de Exportar a Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).
+**Predicciones de pago del cliente** requiere al menos 100 transacciones de facturas y pagos de clientes en los últimos seis a nueve meses para crear predicciones.  

@@ -2,11 +2,9 @@
 title: Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)
 description: Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Operations versión 1611.
 author: sericks007
-manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752817"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)
 
@@ -623,7 +621,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 | Configurar los informes de ER para generar documentos electrónicos en Excel, Microsoft Word o formato PDF. | Una configuración permite a informes de ER generar documentos electrónicos en tres formatos diferentes: Hoja de cálculo Open XML (Excel), Word y formato de datos de Formularios XML (XFDF) (PDF). Los usuarios pueden seleccionar un formato añadiendo una plantilla de formato a un informe de ER como Excel, Word o un documento PDF. |
 | Configurar los informes de ER para insertar datos en encabezados y pies de página de documentos electrónicos que se generan en formato de hoja de cálculo OpenXML, y para controlar los saltos de página. | Los informes del ER pueden especificar datos empresariales en encabezados y pies de página, y controlar dónde aparecen los saltos de página. Por lo tanto, los informes pueden dar soporte a las secciones estáticas de la parte superior e inferior para las páginas de los documentos electrónicos que se generan. También pueden admitir la paginación específica de aquellos documentos, para que cumplan con los requisitos legales. |
 | Configurar el destino de los informes de ER para que los resultados se envíen por correo electrónico y para poder utilizar los datos empresariales y la lógica de ER (expresiones) para especificar, en el tiempo de ejecución, la dirección de correo electrónico que se usará. | Anteriormente, cuando configuraba un destino de ER, la dirección de correo electrónico del destinatario podía definirse en el tiempo de diseño. Ahora puede configurar una expresión en el formato de ER. Esta expresión se puede seleccionar en un destino como origen de la dirección de correo electrónico para cada configuración del formato y cada componente de salida (carpeta o archivo) por separado. Por lo tanto, cuando un informe de ER está ejecutando, cada archivo generado se puede enviar a otro destinatario, y la dirección de correo electrónico se puede definir en función de la lógica y de los datos empresariales de ER. |
-| Configurar el destino de los informes de ER para que el resultado se pueda enviar a la carpeta de Microsoft SharePoint como un nuevo archivo o una nueva versión de archivo existente, y para poder utilizar los datos empresariales en el marco de Power BI de Microsoft como un conjunto de datos o un informe. | Cuando configura informes de ER, ahora puede preparar fácilmente (sin codificar) los datos empresariales solicitados para que se puedan usar por el marco de Power BI. Al ejecutar dichos informes de ER, puede proporcionar el marco de Power BI con los datos empresariales y/o los informes de Excel correspondientes que ya están disponibles. Si programa la ejecución del informe en el modo periódico, puede establecer la transmisión de datos empresariales programada desde Dynamics 365 for Operations a Power BI para mantener la programación de actualización de informes basados en Power BI. |
+| Configure el destino de los informes de ER para que el resultado se pueda enviar a la carpeta de Microsoft SharePoint como un nuevo archivo o una nueva versión del archivo existente, y para poder utilizar los datos empresariales en el marco de Microsoft Power BI como un conjunto de datos o un informe. | Cuando configura informes de ER, ahora puede preparar fácilmente (sin codificar) los datos empresariales solicitados para que se puedan usar por el marco de Power BI. Al ejecutar dichos informes de ER, puede proporcionar el marco de Power BI con los datos empresariales y/o los informes de Excel correspondientes que ya están disponibles. Si programa la ejecución del informe en el modo periódico, puede establecer la transmisión de datos empresariales programada desde Dynamics 365 for Operations a Power BI para mantener la programación de actualización de informes basados en Power BI. |
 | Configurar los informes de ER para utilizar la parte del documento electrónico que ya se ha generado como origen de datos para generar el resto de dicho documento. | Puede configurar los informes de ER que crean el resultado en formato de texto para realizar el recuento de las líneas del documento. Esta información se puede utilizar en otras partes del documento para crear líneas que incluyan los detalles de resumen. La información de resumen (los totales y los números) se puede calcular e imprimir en los documentos electrónicos generados, sin necesidad de más transformaciones de los datos. Por lo tanto, esta función mejora el rendimiento de la ejecución de informes y ayuda a mantener el mantenimiento futuro del formato de ER configurado más fácil. |
 | Configurar los informes de ER para especificar la extensión del nombre de archivo para los documentos electrónicos que se generan en formato de texto. | Puede configurar informes de ER para crear el resultado en formato de texto, para que se pueda guardar como archivo con una extensión específica. Además de la extensión .txt predeterminada, puede configurar extensiones como .csv y .prn, de acuerdo con la especificación de formato. |
 | Crear nuevos informes de ER que se basan en una versión específica de un modelo de ER. | Anteriormente, cuando se creaba un nuevo formato de ER, solo la versión más reciente del modelo seleccionado de ER se podía utilizar como ubicación de origen de datos del formato. Ahora puede seleccionar cualquier versión disponible del modelo de ER seleccionado. Esta función permite mantener los informes de ER para el año actual y diseñar una nueva versión del modelo de ER para el siguiente año en paralelo. |
@@ -945,3 +943,6 @@ Actualmente, Retail Modern POS solo está disponible como aplicación de Windows
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

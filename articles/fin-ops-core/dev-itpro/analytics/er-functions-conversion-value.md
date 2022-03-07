@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b32a802674725347ab496d3a09b99c8f04446d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7cdaa302e757b54858e36c3716167593383d7071
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681217"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561455"
 ---
 # <a name="value-er-function"></a>Función VALUE ER
 
@@ -63,3 +62,6 @@ Las comas y los caracteres de punto (.) se consideran separadores decimales y lo
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de conversión de tipos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

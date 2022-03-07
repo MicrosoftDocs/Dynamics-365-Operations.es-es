@@ -1,10 +1,12 @@
 ---
 title: Reglas de asignación contable
 description: Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 8006221c36abcc24893741458d2cf6b25a6010e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726880"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988761"
 ---
 # <a name="ledger-allocation-rules"></a>Reglas de asignación contable
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
+Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
 
 Las reglas de asignación de contabilidad se usan para calcular y para generar automáticamente diarios y asientos contables para asignar saldos contables o importes fijos. Los métodos de asignación pueden ser variables o fijos. Se pueden usar los siguientes métodos de asignación para las reglas de asignación de contabilidad:
 
@@ -48,6 +50,3 @@ Cada regla de asignación tiene cuatro componentes: general, origen, destino y c
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

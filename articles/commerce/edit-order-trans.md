@@ -2,15 +2,12 @@
 title: Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
 description: En este tema se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b9f2db25c8897662baa177752d0c5fc4ac6178a4
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: 99ad5be36587a3f726f5b40cccfdd30ab0ef48e1a87563a884f83264f40842fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4459911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765299"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
 
@@ -31,7 +28,7 @@ ms.locfileid: "4459911"
 
 En este tema se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Entre las versiones 10.0.5 y 10.0.6 de Commerce, se agregó soporte para editar transacciones de pago al contado sin entrega a domicilio (como ventas y devoluciones) y transacciones de gestión del efectivo (como entrada flotante y suspensión de forma de pago). En la versión 10.0.7 de Commerce, se agregó soporte para editar transacciones de pedidos en línea y transacciones de pedidos de clientes asincrónicas.
 
@@ -91,3 +88,6 @@ De forma predeterminada, una vez que los pedidos se sincronizan correctamente, s
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
 
 [Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Orientación sobre cómo configurar la doble escritura
 description: Este tema describe los escenarios que son compatibles con la configuración de doble escritura.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: e4072ee29984a99742de8c99be5943fb0f07639bf3c1c969bf43b1ab7076fd5b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776640"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Orientación sobre cómo configurar la doble escritura
 
@@ -138,3 +136,6 @@ Para obtener enlaces a un ejemplo y un enfoque alternativo, consulte la sección
 Por ejemplo, consulte [Habilitar la asignación de tablas Clientes V3—Contactos](enable-entity-map.md#enable-table-map)
 
 Para obtener un enfoque alternativo basado en volúmenes de datos en cada entidad en la que hay que ejecutar una sincronización inicial, consulte [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

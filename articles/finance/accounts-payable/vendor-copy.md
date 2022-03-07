@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 33338c331a53586b325def398267ab10db23f78a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459867"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214509"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiar proveedores mediante secuencias numéricas compartidas
 
@@ -65,3 +64,6 @@ También puede copiar proveedores mediante la función de búsqueda del número 
 
 1. Aparece una opción **Copiar proveedor**. Esta opción se establece en **No** de forma predeterminada. Para copiar el proveedor en la entidad jurídica actual, establezca la opción en **Sí**.
 2. Seleccione **Seleccionar**. Se crea el nuevo proveedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

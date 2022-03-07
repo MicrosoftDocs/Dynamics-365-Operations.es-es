@@ -1,28 +1,28 @@
 ---
 title: Vista general de adquisición y abastecimiento
 description: Este artículo ofrece una visión general de la funcionalidad que está disponible en el módulo Adquisición y abastecimiento.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 58021
+ms.custom:
+- "58021"
+- intro-internal
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4911b1729c811aafc5ca76fb4351ab672e3610f6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1d1e127fe96b29520022f18a5b02369d3593c46b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019713"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569538"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Vista general de adquisición y abastecimiento
 
@@ -92,3 +92,6 @@ Los pedidos de compra facturados registrarán el pasivo en la cuenta de proveedo
 ## <a name="vendor-performance"></a>Rendimiento de proveedores
 
 El rendimiento y revisión de la compra se tratan a través de *informes de compras y proveedores*, que incluye el análisis de gastos y el análisis de rendimiento del proveedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

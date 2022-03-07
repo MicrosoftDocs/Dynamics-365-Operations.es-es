@@ -2,11 +2,9 @@
 title: Valores de objeto de inventario
 description: Este artículo proporciona información sobre cómo se calculan los valores de un objeto de inventario.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 543253714b3cf318ad5f6092b190e777772f956f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967442"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910146"
 ---
 # <a name="inventory-object-values"></a>Valores de objeto de inventario
 
@@ -142,7 +140,10 @@ La tabla siguiente muestra el resultado del cálculo de un objeto de inventario.
 
 [Entradas de costes](cost-entries.md)
 
-[Novedades y cambios](../../fin-and-ops/get-started/whats-new-changed.md)
+[Novedades y cambios](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

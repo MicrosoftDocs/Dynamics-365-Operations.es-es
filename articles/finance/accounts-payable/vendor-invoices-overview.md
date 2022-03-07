@@ -1,9 +1,9 @@
 ---
 title: Visión general de facturas de proveedores
-description: Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
+description: Este tema ofrece información general relativa a facturas de proveedor.
 author: abruer
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
-ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
+ms.openlocfilehash: 0299eb3470f500bf469c3367f1c426715067a5dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "4701685"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993325"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
+Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago recibido para productos y servicios. Las facturas de proveedor pueden representar una cuenta para servicios continuos o se pueden basar en pedidos de compra para artículos y servicios específicos.
 
 ## <a name="vendor-invoices"></a>Facturas de proveedores
 
 Una factura de proveedor de un pedido de compra es una factura que se produce cuando se reciben productos o servicios de acuerdo con un pedido de compra que se ha configurado con un proveedor. La factura de proveedor contiene un encabezado y una o varias líneas para artículos o servicios. Una factura de proveedor finaliza el ciclo de pedido de compra con la recepción de producto en la factura de proveedor.
 
-Aunque algunas facturas de proveedor están relacionadas con un pedido de compra, las facturas de proveedor también pueden contener las líneas que no se corresponden con las líneas de pedido de compra. También puede crear facturas de proveedor que no estén asociadas a ningún pedido de compra. Estas facturas de proveedor pueden representar servicios en curso, como una cuenta de servicios, y no es necesario hacer referencia a un pedido de compra cuando se agreguen.
+Aunque algunas facturas de proveedor están relacionadas con un pedido de compra, las facturas de proveedor también pueden contener las líneas que no se corresponden con las líneas de pedido de compra. También puede crear facturas de proveedor que no estén asociadas a ningún pedido de compra. Estas facturas de proveedor pueden representar servicios continuos, como una factura de servicios públicos. No tiene que hacer referencia a un pedido de compra cuando agregue un servicio continuo.
 
 Hay varias formas de especificar una factura de proveedor:
 
@@ -48,12 +47,12 @@ La discusión siguiente proporciona más información sobre cómo se usan las p�
 
 ## <a name="understanding-invoice-line-quantities"></a>Comprensión de las cantidades de línea de factura
 
-Cuando abre una factura de proveedor desde un pedido de compra relacionado, las líneas de factura se crean a partir del pedido de compra. De forma predeterminada, las cantidades se toman de la cantidad de recepción de producto. Sin embargo, puede usar cualquiera de los comportamientos predeterminados siguientes:
+Cuando abre una factura de proveedor desde un pedido de compra relacionado, el sistema crea líneas de factura a partir del pedido de compra. De forma predeterminada, el sistema obtiene las cantidades de la recepción de producto. Sin embargo, puede usar cualquiera de los comportamientos predeterminados siguientes:
 
-- **Cantidad que se recibe ahora**: use esta opción para envíos parciales. El valor predeterminado del campo **Cantidad** proviene de la cantidad especificada en el campo **Recibir ahora** en el pedido de compra.
-- **Cantidad pedida**: use esta opción para envíos completos. El valor predeterminado del campo **Cantidad** proviene de la cantidad especificada en el campo **Pedido** en el pedido de compra.
+- **Cantidad que se recibe ahora**: use esta opción para envíos parciales. El sistema establece como valor predeterminado del campo **Cantidad** la cantidad especificada en el campo **Recibir ahora** en el pedido de compra.
+- **Cantidad pedida**: use esta opción para envíos completos. El sistema establece como valor predeterminado del campo **Cantidad** la cantidad especificada en el campo **Pedido** en el pedido de compra.
 - **Cantidad registrada**: use esta opción si el artículo requiere el registro, según lo especificado en la página **Grupos de modelos de artículo**. El valor predeterminado del campo **Cantidad** es la cantidad física de actualización registrada.
-- **Cantidad de la recepción de producto**: use esta opción si una recepción de producto se ha recibido ya para el pedido. El valor predeterminado del campo **Cantidad** procede de la cantidad total de recepciones de producto disponibles.
+- **Cantidad de la recepción de producto**: use esta opción si una recepción de producto se ha recibido ya para el pedido. El sistema usa el valor predeterminado del campo **Cantidad** de la cantidad total de recepciones de producto disponibles.
 - **Cantidad y servicios registrados**: use esta opción si las cantidades se han registrado en los diarios de recepción para los artículos mantenidos en existencias o los artículos que no se encuentran en existencias. Esta opción también incluye servicios, independientemente de si se registran.
 
 Si su entidad jurídica usa la conciliación de facturas, puede ver los resultados de la conciliación de cantidad en la columna **Cantidad de recepciones de producto para asignar**. También puede usar el botón **Detalles coincidentes** en la ficha **Revisar** del panel de acciones para ver los resultados de conciliación de cantidad.
@@ -64,23 +63,25 @@ Puede agregar una línea que no estaba en el pedido de compra a la factura de pr
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Envío de facturas de proveedor para su revisión
 
-La organización puede usar flujos de trabajo para gestionar el proceso de revisión de facturas de proveedor. La revisión de flujo de trabajo puede ser necesaria para el encabezado de factura, la línea de factura, o ambos. Los controles de flujo de trabajo se aplican al encabezado o la línea, en función de dónde está el enfoque al seleccionar el control. En lugar del botón **Registrar**, verá un botón **Enviar** que puede usar para enviar la factura de proveedor mediante el proceso de revisión.
+La organización puede usar flujos de trabajo para gestionar el proceso de revisión de facturas de proveedor. La revisión de flujo de trabajo puede ser necesaria para el encabezado de factura, la línea de factura, o ambos. Los controles de flujo de trabajo se aplican al encabezado o la línea, en función de dónde está el enfoque al seleccionar el control. En lugar del botón **Registrar**, verá un botón **Enviar** que puede usar para enviar la factura de proveedor a través del proceso de revisión.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Evitar que se envíe la factura al flujo de trabajo 
 
 A continuación se indican varias maneras de impedir que se envíe una factura a un flujo de trabajo.
 
-- **El total de la factura y el total registrado no coinciden.** La persona que envió la factura recibirá una alerta que le comunicará que los totales no coinciden para que pueda corregir los saldos antes de volver a enviar la factura al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el total de la factura y el total de la factura registrada no coinciden** de la página **Administración de características** está activado. 
+- **El total de la factura y el total registrado no coinciden.** La persona que envió la factura recibirá una alerta de que los totales no coinciden. La alerta ofrece la oportunidad de corregir los saldos antes de volver a enviar la factura al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el total de la factura y el total de la factura registrada no coinciden** de la página **Administración de características** está activado. 
 
 - **La factura contiene cargos no asignados.** La persona que envió la factura recibirá una alerta que le comunicará que la factura contiene cargos no asignados para que pueda corregir la factura antes de volver a enviarla al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si hay cargos no asignados en una factura de proveedor** de la página **Administración de características** está activado.
 
-- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá una alerta que le comunicará que se ha encontrado una factura con un número duplicado para que pueda corregirla antes de volver a enviarla al flujo de trabajo. Esta alerta se mostrará cuando el parámetro Proveedores etiquetado **Comprobar el número de factura utilizado** esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.  
+- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá una alerta que le comunicará que se ha encontrado una factura con un número duplicado para que pueda corregirla antes de volver a enviarla al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliación de facturas de proveedor a recepciones de producto
 
 Puede especificar y guardar la información de facturas de proveedor y asignar líneas de factura a líneas de recepción de producto. También puede conciliar cantidades parciales para una línea.
 
 Puede crear una factura de proveedor basada en los artículos de línea de recepción de producto recibidos hasta la fecha actual, incluso si no se han recibido todos los artículos de un pedido de compra en particular. Por ejemplo, esta opción se podría usar si un proveedor envía una factura al mes que cubre todas las entregas que envía a lo largo del mes. Cada recepción de producto representa una entrega parcial o completa de los artículos del pedido de compra.
+
+Cuando una factura está en el flujo de trabajo, el aprobador puede actualizar las cantidades de la factura para que coincidan con el valor del campo **Cantidad de recepciones de producto para asignar**. Para ello, seleccione la característica **Actualizar las cantidades de factura para que coincidan con las recibidas de productos en el flujo de trabajo** en el espacio de trabajo **Administración de características** y seleccione **Habilitar**. Si un aprobador del proceso de flujo de trabajo ha eliminado todas las coincidencias de todas las recepciones de productos de la línea de factura, la línea de factura se eliminará. Cuando esta característica no está habilitada, las cantidades de las facturas no se actualizan para las facturas en el flujo de trabajo.
 
 Al registrar la factura, la cantidad de **Recordatorio de factura** de cada artículo se actualiza con el total de las cantidades recibidas de las recepciones de producto seleccionadas. Si las cantidades tanto de **Recordatorio de factura** como de **Pendiente de entrega** para todos los artículos del pedido de compra son 0 (cero), el estado del pedido de compra cambia a **Facturado**. Si la cantidad de **Recordatorio de factura** no es 0, el estado del pedido de compra no cambia y se podrán entrar facturas adicionales para este.
 

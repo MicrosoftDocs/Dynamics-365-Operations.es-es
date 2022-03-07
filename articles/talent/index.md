@@ -2,27 +2,24 @@
 title: Esto es Dynamics 365 Talent
 description: Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.
 author: andreabichsel
-manager: AnnBe
 ms.date: 10/03/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 3e77b5586c7b4a6abe58c8006b8773ee3a0f26f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23e840db6175f97f31ba978a7f126686e3dcd175
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459844"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894375"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Esto es Dynamics 365 Talent
 
@@ -34,5 +31,8 @@ Talent incluye Attract, que puede ayudarle a identificar, entrevistar y contrata
 - [Introducción a Onboard](create-onboarding-experience.md)
 
 > [!IMPORTANT]
-> La funcionalidad de Dynamics 365 Talent: Core HR ahora forma parte de Dynamics 365 Human Resources. Puede ver la documentación de Human Resources en [Este es Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
+> La funcionalidad de Dynamics 365 Talent: Core HR ahora forma parte de Dynamics 365 Human Resources. Puede ver la documentación de Human Resources en [Este es Dynamics 365 Human Resources]().
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

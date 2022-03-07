@@ -2,11 +2,8 @@
 title: Función INT64VALUE ER
 description: Este tema proporciona información general sobre cómo usar la función INT64VALUE de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb750116312df82448f5a0048e380f9e5274f8e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 375117745b90b9e3e0e15ea45605de5bee6f133e6366d08adf5bae98423abd71
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748433"
 ---
 # <a name="int64value-er-function"></a>Función INT64VALUE ER
 
@@ -73,3 +70,6 @@ Se trunca cualquier posición decimal.
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de conversión de tipos](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

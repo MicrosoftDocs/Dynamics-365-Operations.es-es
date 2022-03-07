@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e26bd4eb53fa44330f15c7cda004cb3d19dfec6d
-ms.sourcegitcommit: ce51ff2b6099c75dceb99de6dea9d53baf99772d
+ms.openlocfilehash: 4d4b7e383ca2089ee98e70d23ccd890d0e6a86c5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "4459909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221807"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Editar dimensiones financieras para transacciones minoristas
 
@@ -54,3 +53,6 @@ Para editar dimensiones financieras para transacciones minoristas en la sede cen
 [Crear un libro de trabajo de Excel para editar transacciones minoristas](create-excel-edit.md)
 
 [Agregar campos a un libro de trabajo de Excel para editar transacciones minoristas](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

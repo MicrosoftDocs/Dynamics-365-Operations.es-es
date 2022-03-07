@@ -2,11 +2,9 @@
 title: Facturas electrónicas (CFDI)
 description: Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EInvoiceCFDIJour_MX, EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, SalesTable, SalesTablePostings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fd53d762952229738cccf8986ec6043eceb1c7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb5d24158f723fd8002e260698a85ba845d28f0fe2025e740d653b370366b8e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712137"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -52,7 +50,7 @@ Hay dos métodos para generar facturas electrónicas:
 
 El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. 
 
-![El proceso de facturas electrónicas en México](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
+![El proceso de facturas electrónicas en México.](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
 
 ### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 
@@ -96,3 +94,6 @@ Según se indica en detalle en el documento de ámbito de localización para Mé
 - [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

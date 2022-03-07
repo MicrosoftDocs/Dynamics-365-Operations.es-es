@@ -2,7 +2,7 @@
 title: Insertar aplicaciones de terceros
 description: Este tema explica cómo insertar aplicaciones de terceros para aumentar la funcionalidad de producto.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488243"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345419"
 ---
 # <a name="embed-third-party-apps"></a>Insertar aplicaciones de terceros
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de Finance and Operations (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
 

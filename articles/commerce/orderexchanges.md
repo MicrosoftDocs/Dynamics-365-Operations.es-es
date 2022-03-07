@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6d7688e78a375bc262b1156c5439c0fff7cd1f0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5419c18a510b0d35dabe5329a9557780cb7637b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459876"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257132"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar y procesar un cambio en un pedido de devolución
 
@@ -51,3 +50,6 @@ Para proporcionar mayor visibilidad de los distintos importes del carro, se han 
 - **Depósito aplicado**: el importe del depósito que se aplica en una transacción cuando el usuario hace una recogida de pedido de cliente. Si no hay anulación de depósito y se configura un depósito del 10 por ciento, el importe de este campo es el 90 por ciento del importe total del pedido de cliente.
 - **Importe de realización**: el importe total de las líneas en las que el modo de entrega se estableció en **Realizar** cuando el pedido de cliente se creó o editó, o durante un cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
 - **Importe de devolución**: el importe total de las líneas que tienen cantidades negativas durante el cambio de pedido de cliente. El importe de este campo incluye todos los impuestos y gastos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

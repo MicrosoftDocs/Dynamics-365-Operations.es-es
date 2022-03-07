@@ -1,12 +1,10 @@
 ---
 title: Programar órdenes de trabajo
 description: En este tema se explica cómo programar órdenes de trabajo en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718068"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -58,7 +56,7 @@ Solo se pueden programar las órdenes de trabajo con un estado de ciclo de vida 
 
 *Ejemplo:* en la ilustración siguiente, la fórmula insertada en el campo **Inicio previsto** generará la programación de la orden de trabajo para todas las órdenes de trabajo con fecha de inicio prevista de aquí a una semana y posteriormente. Esta fórmula puede ser útil cuando ejecute la programación de una orden de trabajo de forma continua, pero desea asegurarse de que las órdenes de trabajo programadas para los próximos 5-6 días no se vuelvan a programar.
 
-![Figura 1](media/03-work-order-scheduling.png)
+![Figura 1.](media/03-work-order-scheduling.png)
 
 El tipo de orden de trabajo relacionada con órdenes de trabajo puede configurar la programación para un trabajador de mantenimiento (botón de alternancia **Administración de activos** > **Configuración** > **Órdenes de trabajo** > **Tipos de órdenes de trabajo** > **Un trabajador de mantenimiento** establecido en "Sí"). Esto significa que si se utiliza el tipo de orden del trabajo en una orden de trabajo, el botón de alternancia **Un trabajador de mantenimiento** se establece automáticamente en "Sí" en la página de detalles **Todas las órdenes de trabajo** > vista **Encabezado** > ficha desplegable **Programar**. Durante la programación de la orden de trabajo, todas las tareas de la orden de trabajo creados en la orden de trabajo se programarán posteriormente al mismo trabajador de mantenimiento. Si es necesario, puede editar la selección en el botón de alternancia **Un trabajador de mantenimiento** en **Todas las órdenes de trabajo** para permitir la programación de varios trabajadores o de un trabajador en los trabajos de la orden de trabajo.
 
@@ -137,3 +135,6 @@ Para ver y trabajar con el diagrama de Gantt:
     - Para reprogramar una orden de trabajo visualizada, selecciónela y luego arrástrela a la nueva fecha y hora apropiadas.
 
 1. Si realizó algún cambio, seleccione **Guardar** en el panel Acciones para guardarlo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Espacio de trabajo móvil del directorio de empresa
 description: Este tema proporciona información sobre el espacio de trabajo móvil del directorio de empresa, que permite a los usuarios ver y contactar a otros empleados de su organización.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 51ed47075ad7fdea490bd0d06831449388ecdf6e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360801"
 ---
 # <a name="company-directory-mobile-workspace"></a>Espacio de trabajo móvil del directorio de empresa
 
@@ -79,7 +77,7 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
-[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Toque la pantalla para actualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Ver el directorio de empresa con el espacio de trabajo móvil
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Directorio de empresa**. Aparece una lista de los empleados.
@@ -89,3 +87,6 @@ Descargar e instalar la aplicación móvil de Finance and Operations:
 1.  En la aplicación móvil, seleccione el espacio de trabajo **Directorio de empresa**.
 2.  En el campo **Buscar**, especifique el nombre, el apellido, el puesto o el departamento del empleado para iniciar la búsqueda.
 3.  Seleccione un empleado. Aparece la página **Perfil de empleado**. La información de esta página incluye el nombre, el apellido, el puesto y departamento del empleado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

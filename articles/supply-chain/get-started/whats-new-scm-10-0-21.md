@@ -2,20 +2,20 @@
 title: Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.21 de octubre de 2021)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 10/28/2021
+ms.date: 08/09/2021
 ms.topic: article
-audience: Application User, Developer, IT Pro
+audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075308"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500564"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.21 de octubre de 2021)
 
@@ -26,6 +26,20 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 - **Versión preliminar de la versión:** agosto de 2021
 - **Disponibilidad general de la versión (actualización automática):** septiembre de 2021
 - **Disponibilidad general de la versión (actualización automática):** octubre de 2021
+
+## <a name="known-deployment-issue"></a>Problema de implementación conocido
+
+Al implementar la versión 10.0.21 en IaaS, es posible que reciba la siguiente advertencia de implementación:
+
+**Código de advertencia:** 95017
+
+**Mensaje de advertencia:** Fallo de ejecución del script \[SetupDiagnostics\] respecto a VM
+
+La implementación funcionará a pesar de la advertencia. Sin embargo, los siguientes problemas conocidos pueden ocurrir en Lifecycle Services (LCS):
+
+- En la página **Supervisión del entorno**, el enlace **Ver información detallada de la versión** no aparecerá, por lo que no podrá ver las versiones específicas de los módulos instalados en su entorno. Sin estos datos, las revisiones posteriores pueden fallar porque el proceso que aplica las revisiones utiliza estos datos para verificar que se cumplan los requisitos previos de la versión del módulo. Debido a que no es posible usar la compilación PEAP/Versión preliminar en producción o aplicar revisiones, el impacto debería ser mínimo.
+- Las fichas **Métricas de rendimiento** y **Análisis de índice** de la página **Supervisión del entorno** de SQL Insights no mostrarán ningún dato. Todas las demás funciones de **Supervisión del entorno** funcionarán según lo previsto.
+- La página **Diagnóstico completo del sistema** no será accesible. Los datos asociados sobre el estado de las ejecuciones nocturnas del recopilador y los problemas detectados por sus reglas tampoco aparecerán.
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
@@ -38,7 +52,8 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 | Inventario&nbsp;y&nbsp;logística | [Complemento de contabilidad de inventario global para Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Página principal de Contabilidad de inventario global](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Inventario&nbsp;y&nbsp;logística | [Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Códigos de motivo de recuento de inventario](../warehousing/reason-codes-for-counting-journals.md) |
 | Inventario&nbsp;y&nbsp;logística | [Directiva de exportación de datos de referencia del presupuesto de ventas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Elija si los cambios en los datos referenciados por los presupuestos harán que esos presupuestos (o líneas) se incluyan en la siguiente exportación incremental. Sus exportaciones incrementales se ejecutarán más rápidamente si decide no incluir dichos presupuestos o líneas.<br><br>Esta función agrega una configuración llamada **Omitir los datos de referencia de presupuestos de ventas durante el seguimiento de cambios** en la página **Parámetros de cliente**. |
-| Inventario&nbsp;y&nbsp;logística | [Ofertas selladas](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Oferta cerrada para solicitudes de presupuesto](../procurement/sealed-bidding.md) |
+| Inventario&nbsp;y&nbsp;logística | Ofertas selladas <!-- KFM: Add RP link when available --> | [Oferta cerrada para solicitudes de presupuesto](../procurement/sealed-bidding.md) |
+| Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) |
 | Inventario&nbsp;y&nbsp;logística | [Reserva flexible para el complemento de Visibilidad de inventario](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Reservas de visibilidad de inventario](../inventory/inventory-visibility-reservations.md) |
 | Inventario&nbsp;y&nbsp;logística | [Mejoras en la deducción y en la ponderación para la gestión de las devoluciones](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Gestionar las deducciones utilizando el banco de trabajo de deducciones](../rebate-management/deduction-workbench.md )<br><br>[Procesar, revisar y registrar devoluciones](../rebate-management/process-review-post.md)<br><br>[Acuerdos de gestión de devoluciones](../rebate-management/rebate-management-deals.md) |
 | Inventario&nbsp;y&nbsp;logística | [Instrucciones detalladas de la aplicación de almacén](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
@@ -49,7 +64,7 @@ La mayoría de estas características deben habilitarse mediante la [Administrac
 
 La tabla siguiente enumera las mejoras de características incluidas en esta versión. Cada uno de estos proporciona una mejora incremental de una función existente. Debido a que son solo mejoras, no se enumeran en el [plan de versión](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Sin embargo, para garantizar que estas mejoras no entren en conflicto con sus preferencias o personalizaciones existentes, cada una de ellas está desactivada de forma predeterminada (a menos que se indique lo contrario). Si desea utilizar alguna de estas funciones, debe habilitarlas explícitamente en [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Módulo | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
+| Área de características | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
 | Gestión de costes | Detalles del progreso del cierre de inventario | Esta función de vista previa permite una vista detallada del progreso de cierre del inventario. |
 | Adquisición y abastecimiento | Evitar el consumo excesivo de reservas de presupuesto general cuando hay varias solicitudes de compra en el flujo de trabajo | Esta función de vista previa mejora la verificación de errores cuando los usuarios envían y aprueban solicitudes de compra que exceden el saldo restante de una línea de reserva de presupuesto general. Esto ayuda a evitar el consumo excesivo de reservas presupuestarias generales cuando hay varias solicitudes de compra en el flujo de trabajo. |
@@ -58,64 +73,6 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 | Gestión de almacenes | Desacoplar el trabajo de ubicación de los avisos de envío por adelantado | Esta función es necesaria para enviar y recibir avisos de envío anticipados (ASN) cuando está ejecutando una carga de trabajo de administración de almacén en una unidad de escalado (como parte de una topología híbrida distribuida). Agrega una nueva tabla de base de datos dedicada a almacenar información sobre el trabajo de almacenamiento. Anteriormente, esta información se almacenaba en tablas que también se usaban para los ASN. |
 | Gestión de almacenes | Asignar unidades mixtas | Permite que el sistema coloque artículos en ubicaciones que incluyan unidades mixtas (como cajas y estuches). Para cada línea de plantilla de asignación de posiciones, esta función le permite elegir si la línea debe ubicar los artículos en ubicaciones de unidades mixtas o de unidades individuales. |
 | Gestión de almacenes | Use una API más rápida para el cierre o la reapertura de contenedores en la estación de embalaje | Cuando esta función de vista previa está habilitada, las transacciones de inventario relacionadas con los contenedores se crean mediante un nuevo proceso liviano que mejora el rendimiento del cierre o reapertura de los contenedores durante el procesamiento manual de la estación de embalaje. |
-
-## <a name="features-turned-on-by-default-in-this-release"></a>Las características se han activado de forma predeterminada en esta versión
-
-La tabla siguiente enumera las características que se han activado de forma predeterminada en 10.0.21. La mayoría de las características que se han activado de forma automática se pueden desactivar en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-
-| Nombre de característica | Habilitar fecha | Fecha de adición de característica | Estado de la característica | Módulo |
-| :--- | :--- | :--- | :--- | :--- |
-| Almacenamiento de informe de inventario disponible | 01/09/2021 | 01/04/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Transferir cancelación de pedido | 01/09/2021 | 13/07/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Desbloquear diario de inventario | 01/09/2021 | 17/08/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Vistas guardadas para Gestión del inventario | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Navegación hasta la versión de L.M. desde las líneas de L.M. | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Usar unidad de medida y la cantidad de unidad en diarios de inventario | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Permite valores de atributos de lote vacíos | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Incrementar automáticamente los números de línea de las líneas de pedido de transferencia de inventario | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Flujo de trabajo de aprobación el diario de inventario | 01/09/2021 | 06/01/2020 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Habilitar característica de advertencia de parámetros de administración de calidad de inventario | 01/09/2021 | 07/10/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Crear pedido de transferencia desde la línea de ventas | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Gestión de inventario y almacenes |
-| Selección de modelo de previsión según los detalles de la previsión de la demanda | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Planificación maestra |
-| Visualización del progreso de la planificación maestra | 01/09/2021 | 07/10/2019 | Activado de forma predeterminada | Planificación maestra |
-| Puesta en firme automática para la Optimización de la planificación | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Planificación maestra |
-| Puesta en firme en paralelo de pedidos planificados | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Planificación maestra |
-| Mensaje de envío de la oferta realizado correctamente | 01/09/2021 | 15/05/2019 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Vínculo de referencia de solicitud de presupuesto agregado al pedido de compra | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Capacidad de confirmar los pedidos de compra aceptados de la colaboración de proveedor en el lote | 01/09/2021 | 10/09/2019 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Mejoras de cXML de compra | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Mostrar el vínculo &quot;Abrir solicitudes publicadas para presupuestos&quot; como icono | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Preguntas y respuestas sobre solicitudes de presupuestos | 01/09/2021 | 19/02/2020 | Activado de forma predeterminada | Adquisición y abastecimiento |
-| Documentación de envío e información de producto de materiales peligrosos | 01/09/2021 | 14/06/2020 | Activado de forma predeterminada | Gestión de información de productos |
-| Validación estricta en las cantidades de pedido predeterminadas | 01/09/2021 | 24/06/2020 | Activado de forma predeterminada | Gestión de información de productos |
-| Característica de gestión del país de origen | 01/09/2021 | 13/07/2020 | Activado de forma predeterminada | Gestión de información de productos |
-| Vistas guardadas para productos emitidos | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Gestión de información de productos |
-| Mejoras en los cuadros de diálogo Aprobar y Transferir trabajos | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Control de producción |
-| Matrícula de entidad de almacén para notificaciones agregada al dispositivo de tarjetas de trabajo | 01/09/2021 | 31/08/2019 | Activado de forma predeterminada | Control de producción |
-| Se ha agregado un nuevo botón Detener descanso a la página Terminal de tarjeta de trabajo | 01/09/2021 | 19/02/2020 | Activado de forma predeterminada | Control de producción |
-| Habilite la recepción parcial de los productos subcontratados y solucione un problema con el cálculo de rechazo para las líneas de L.M. del tipo Proveedor. | 01/09/2021 | 11/11/2019 | Activado de forma predeterminada | Control de producción |
-| Vistas guardadas para el control de producción | 01/09/2021 | 17/08/2020 | Activado de forma predeterminada | Control de producción |
-| Dynamics 365 Guides para fabricación | 01/09/2021 | 13/07/2020 | Activado de forma predeterminada | Control de producción |
-| Ejecución de la planta de producción | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Control de producción |
-| Función para bloquear un dispositivo de tarjeta de trabajo y un terminal de tarjetas de trabajo para que se puedan desinfectar | 01/09/2021 | 10/05/2020 | Activado de forma predeterminada | Control de producción |
-| Asignación de gastos en un pedido de ventas | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Ventas y marketing |
-| Limitar el número de pedidos de ventas que pueden seleccionarse para registro | 01/09/2021 | 01/09/2021 | Activado de forma predeterminada | Ventas y marketing |
-| Eliminar historial de actualización de pedido de ventas | 01/09/2021 | 01/09/2021 | Activado de forma predeterminada | Ventas y marketing |
-| Cambiar la secuencia numérica para el trabajo de recuento cíclico | 01/09/2021 | 07/10/2019 | Activado de forma predeterminada | Gestión de almacenes |
-| Reabastecimiento de demanda de oleada basada en tareas | 01/09/2021 | 07/10/2019 | Obligatoria | Gestión de almacenes |
-| Ocultar el campo Valor total en las páginas &quot;Todas las cargas&quot; y &quot;Detalles de la carga&quot; | 01/09/2021 | 07/10/2019 | Activado de forma predeterminada | Gestión de almacenes |
-| Impresión de etiquetas de oleadas | 01/09/2021 | 19/02/2020 | Obligatoria | Gestión de almacenes |
-| Asociar transacciones de inventario de pedido de compra a carga | 01/09/2021 | 06/01/2020 | Obligatoria | Gestión de almacenes |
-| Diseños de etiquetas de matrícula de entidad de almacén mejorados | 01/09/2021 | 19/02/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| Bloqueo de trabajo en toda la organización | 01/09/2021 | 19/02/2020 | Obligatoria | Gestión de almacenes |
-| Detalles de línea de trabajo | 01/09/2021 | 11/10/2019 | Activado de forma predeterminada | Gestión de almacenes |
-| Hacer editable el campo de estado de inventario de movimiento de inventario de dispositivo móvil | 01/09/2021 | 16/10/2019 | Activado de forma predeterminada | Gestión de almacenes |
-| Confirmar envíos salientes de trabajos por lotes | 01/09/2021 | 13/07/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| Controlar si se mostrará una página de resumen de recepción en los dispositivos móviles | 01/09/2021 | 01/04/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| Solicitar la resolución de nombres de &#39;Ubicación / N.º licencia&#39; ambiguos | 01/09/2021 | 01/04/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| Capturar variantes del producto y dimensiones de seguimiento en la aplicación de gestión de almacenes durante la recepción de artículos de carga | 01/09/2021 | 10/05/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| No permitir la creación de cargas, que no cumplan los requisitos de la plantilla de planificación de carga de oleada. | 01/09/2021 | 17/08/2020 | Activado de forma predeterminada | Gestión de almacenes |
-| Evaluar todas las acciones para directivas de ubicación de SKU múltiples | 01/09/2021 | 30/9/2020 | Activado de forma predeterminada | Gestión de almacenes |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
@@ -137,9 +94,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.21 de aplicaciones de Finanzas y Operaciones (octubre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 incluye Platform updates. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.21 de aplicaciones de Finance and Operations (octubre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

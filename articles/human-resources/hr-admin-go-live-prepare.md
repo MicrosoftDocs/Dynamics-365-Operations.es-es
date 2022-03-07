@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4420491"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114105"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Prepararse para poner en marcha Human Resources
 
@@ -53,28 +53,36 @@ En la tabla siguiente se enumeran todos los pasos del proceso y se especifican l
 
 ## <a name="completing-the-lcs-methodology"></a>Completar la metodología LCS
 
-Un hito importante en cada proyecto de implementación es la transferencia al entorno de producción. 
-
-Para ayudar a garantizar que el entorno de producción se utilice para operaciones en vivo, Microsoft aprovisiona la instancia de producción solo cuando la implementación se acerca a la fase **Operar**, después de que se completen las actividades requeridas en la metodología LCS. Para obtener más información sobre los entornos de su suscripción, consulte la [Guía de licencias de Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Los clientes deben completar las fases **Análisis**, **Diseño y desarrollo** y **Prueba** de la metodología LCS para que el botón **Configurar**  para solicitar el entorno de producción pase a estar disponible. Para completar una fase en LCS, primero debe completar todos los pasos necesarios de esa fase. Cuando se hayan completado todos los pasos de una fase, puede completar la fase completa. Siempre puede volver a abrir una fase más tarde si debe realizar cambios. Para obtener más información, consulte  [Lifecycle Services (LCS) para clientes de aplicaciones de Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-El proceso de completar un paso tiene dos partes: 
+Un hito importante en cada proyecto de implementación es la transferencia al entorno de producción. El proceso de completar un paso tiene dos partes: 
 
 - Realizar el trabajo real, como un análisis de idoneidad/lagunas o una prueba de aceptación de usuarios (UAT). 
 - Marque el paso correspondiente en la metodología LCS como completado. 
 
-Es recomendable completar los pasos de la metodología a medida que se avanza en la implementación. No espere hasta el último minuto. No se limite a hacer clic en todos los pasos para obtener un entorno de producción. Lo mejor para el cliente es tener una implementación sólida. 
+Es recomendable completar los pasos de la metodología a medida que se avanza en la implementación. No espere hasta el último minuto. Lo mejor para el cliente es tener una implementación sólida. 
 
 ## <a name="uat-for-your-solution"></a>UAT para su solución
 
 Durante la fase de UAT, debe probar todos los procesos comerciales que ha implementado y cualquier personalización que haya realizado en un entorno de espacio aislado en el proyecto de implementación. Para ayudar a garantizar una puesta en marcha exitosa, debe considerar lo siguiente al completar la fase UAT: 
 
+- Recomendamos que su proceso de UAT comience con un entorno limpio y fresco donde los datos de su configuración GOLD se copien en el entorno antes del inicio del proceso de UAT. Le recomendamos que utilice el entorno de producción como su entorno GOLD hasta la puesta en marcha, momento en el que el entorno se convierte en producción.
 - Los casos de prueba cubren todo el ámbito de los requisitos. 
 - Pruebe a utilizar datos migrados. Estos datos deben incluir datos maestros, como trabajadores, trabajos y puestos. También incluya los saldos iniciales, como la acumulación de bajas y ausencias. Por último, incluya transacciones abiertas, como inscripciones a las prestaciones actuales. Realice pruebas con todo tipo de datos, aunque el conjunto de datos no esté finalizado. 
 - Pruebe a utilizar los roles de seguridad correctos (roles predeterminados y roles personalizados) que se asignan a los usuarios. 
 - Asegúrese de que la solución cumpla con los requisitos reglamentarios específicos de la empresa y la industria. 
 - Documente todas las funciones y obtenga la aprobación y el visto bueno del cliente. 
+
+## <a name="mock-go-live"></a>Simulación de la puesta en marcha
+
+Antes de la puesta en marcha, debe realizar una simulación de la puesta en marcha para probar los pasos necesarios para la transición de sus sistemas heredados al nuevo sistema. Debe realizar su simulación de la puesta en marcha en un entorno de espacio aislado e incluir todos los pasos en su plan de transición.
+
+- Le recomendamos que utilice el entorno de producción como entorno de configuración GOLD hasta la puesta en marcha.
+- Asegúrese de contar con un sólido proceso de gobernanza para proteger el entorno de producción de transacciones accidentales o actualizaciones antes de la puesta en marcha.
+- Cuando esté listo para realizar UAT o la puesta en marcha simulada, actualice el entorno de espacio aislado desde el entorno de producción. Para más información, consulte [Copiar una instancia](hr-admin-setup-copy-instance.md).
+- Pruebe cada paso de su plan de transición en el entorno de espacio aislado y luego valide el entorno de espacio aislado realizando verificaciones al azar o realizando pruebas de sus scripts de UAT en el entorno.
+  - Las pruebas deben incluir todas las migraciones de datos, incluidas las transformaciones necesarias para la puesta en marcha.
+  - El proceso debe incluir un corte de práctica de cualquier sistema heredado.
+  - Asegúrese de incluir cualquier paso de transición de integración o pasos del sistema externo en su transición simulada.
+- Si encuentra algún problema durante la transición simulada, es posible que se requiera una segunda transición simulada. Por esta razón, le recomendamos que planifique dos transiciones simuladas en su plan de proyecto.
 
 ## <a name="fasttrack-go-live-assessment"></a>Evaluación de puesta en marcha de FastTrack
 

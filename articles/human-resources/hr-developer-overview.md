@@ -1,12 +1,10 @@
 ---
-title: Información general
+title: Visión general del desarrollo
 description: Esta Guía de desarrolladores proporciona una API y una referencia de campos personalizados. También proporciona información sobre la integración con otras aplicaciones.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 5e67749e6f10b1c9202605b26164e30e5d39aa28
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528326"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793594"
 ---
-# <a name="overview"></a>Información general
+# <a name="development-overview"></a>Visión general del desarrollo
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ Esta Guía de desarrolladores proporciona una API y una referencia de campos per
 
 - [Ampliar con Power Apps y Power Automate](hr-developer-power-apps.md)
 
-- [Entidades de Recursos Humanos en Common Data Service](hr-developer-entities.md)
+- [Entidades de Recursos Humanos en Dataverse](hr-developer-entities.md)
 
 - [Campos personalizados](hr-developer-custom-fields.md)
 
 - Configurar integración de datos
   - [Elegir una tecnología de integración de datos](hr-admin-integration-choose-technology.md)
-  - [Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurar la integración con Finance](hr-admin-integration-finance.md)
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
   - [Crear una aplicación de exportación de datos periódica](hr-admin-integration-recurring-data-export.md)
@@ -62,3 +62,6 @@ Esta Guía de desarrolladores proporciona una API y una referencia de campos per
 - [Novedades y cambios en Recursos humanos](hr-admin-whats-new.md)
 - [Guía del administrador](hr-admin-overview.md)
 - [Manual del usuario](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,27 @@
 title: Página principal de contenido de Power BI
 description: Este tema enumera las soluciones de PowerBI.com que están disponibles y trata los recursos donde puede obtener más información acerca de las soluciones.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 265694
+ms.custom:
+- "265694"
+- intro-internal
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ea5b4e6a4a82845bb973ffd6b16b3f83e8c7b0d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 52c6c6cd9b05ca4e094486b5205584753e5a3132
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685742"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336793"
 ---
 # <a name="power-bi-content-home-page"></a>Página principal de Contenido de Power BI
 
@@ -65,3 +65,6 @@ Las soluciones de PowerBI.com siguientes están disponibles en [Microsoft AppSou
 - Gestión de costes
 - [Rendimiento financiero](financial-performance-power-bi-content-pack.md)
 - [Rendimiento de canal comercial ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

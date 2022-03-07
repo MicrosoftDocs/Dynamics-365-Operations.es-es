@@ -2,11 +2,9 @@
 title: Visión general de plantillas y diseños
 description: Este tema abarca plantillas y diseños en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962969"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804050"
 ---
 # <a name="templates-and-layouts-overview"></a>Visión general de plantillas y diseños
 
@@ -111,3 +109,6 @@ Para empezar a usar diseños preestablecidos, consulte [Trabajar con diseños pr
 [Trabajar con diseños predefinidos](work-with-layouts.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

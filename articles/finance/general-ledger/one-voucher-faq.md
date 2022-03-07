@@ -2,9 +2,11 @@
 title: Preguntas frecuentes sobre Un asiento
 description: Este tema responde a las preguntas frecuentes acerca de la funcionalidad de Un asiento. Un asiento para diarios financieros (diario, diario de activos fijos, diario de pago del proveedor, etc.) le permite especificar varias transacciones de subcontabilidad en el contexto de un asiento único.
 author: kweekley
+manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 04e1f53802a69aa9de84826bfad05db7b29739a26441b1222cabc224d2873177
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 916f0172a2d7f9fad9dcd70b31f8ecf65e47b2c8
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715055"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107758"
 ---
 # <a name="one-voucher-faq"></a>Preguntas frecuentes sobre Un asiento
 
@@ -49,6 +51,3 @@ Al igual que para toda característica nueva, los clientes deben ver el plan de 
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Cuando se haya determinado la fecha de obsolescencia, ¿dónde se comunicará?
 
 La obsolescencia de Un asiento es un cambio importante que recibirá una amplia difusión. Se comunicará a través de la documentación del producto, una entrada de blog y anuncios en las conferencias de Microsoft correspondientes, mucho antes de que entre en vigor la fecha de obsolescencia.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Configuración de selecciones
 description: Este artículo describe qué es una selección y explica cómo configurar selecciones en Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969835"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790991"
 ---
 # <a name="set-up-assortments"></a>Configurar selecciones
 
@@ -54,3 +52,6 @@ Después de completar los requisitos previos, puede crear una selección y asign
 2. Seleccionar los canales o grupos de alto nivel de canales a los que se aplica la selección.
 3. Agregar categorías de productos, productos individuales o variantes de producto a la selección. Puede incluir todos los productos de una categoría específica o puede excluir los productos seleccionados de una categoría incluida en la selección.
 4. Publicar la selección. Al publicar una selección, se ejecuta automáticamente el programador de selecciones. Este proceso genera la lista de productos. Al completar el proceso, estos productos estarán disponibles en los canales asignados a la selección de productos. Si se realizan cambios en una selección publicada o en los canales asignados a la selección, es necesario actualizar la selección. Para actualizar la selección al realizar cambios, puede ejecutar el programador de selecciones como trabajo por lotes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

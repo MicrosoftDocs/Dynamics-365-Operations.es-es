@@ -1,10 +1,12 @@
 ---
 title: Procesamiento de diarios generales
 description: Este tema describe las capacidades en Microsoft Dynamics 365 Finance que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: cd854b2188b07830e5641ccdd4bb02804a07b55c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726786"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975642"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
@@ -42,14 +44,14 @@ En la página **Nombres de diario**, puede configurar los siguientes elementos:
 
 Un nombre de diario también se puede usar solo para ajustes. En este caso, puede especificar que solo el tipo de cuenta **Libro mayor** es válido en todas las empresas. 
 
-[![Tipos de cuenta de control de diarios.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Tipos de cuenta de control de diarios](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Un nombre de diario solo se puede usar para un segmento específico o para un intervalo para las cuentas principales. 
 
-[![Segmento de control de diarios.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segmento de control de diarios](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 La opción **Inversión automática** solo está disponible en los diarios generales. Por ejemplo, tiene un ajuste de acumulación donde el documento real aún no se ha procesado, como se muestra en la siguiente ilustración.
-[![Inversión del diario general.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Inversión del diario general](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 El complemento de Microsoft Excel para el movimiento del diario proporciona un nivel adicional de automatización y hace que la entrada de datos sea más fácil. La acción **Líneas abiertas en Excel** está disponible en las páginas del **Diario general** y **Asiento del diario** . 
 
@@ -102,6 +104,3 @@ La capacidad de recuperar un diario en un flujo de trabajo que tiene un estado d
 
 ## <a name="delete-journal-lines"></a>Eliminar líneas de diario
 La capacidad de eliminar todas las líneas del diario se habilita rápidamente en un diario en **Funciones** > **Eliminar las líneas de diario**. Para habilitar esta característica, en **Administración de características**, seleccione **Eliminar otimizaciones de rendimiento del diario**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

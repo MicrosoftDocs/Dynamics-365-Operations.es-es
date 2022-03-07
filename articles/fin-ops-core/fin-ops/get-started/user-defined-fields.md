@@ -2,11 +2,9 @@
 title: Crear y trabajar con campos personalizados
 description: En este tema se muestra cómo crear campos personalizados a través de la interfaz de usuario para adaptar la aplicación a su negocio.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: a07c1a81f0436664acdfd23975a99c6670c6fb1c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798127"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754761"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Crear y trabajar con campos personalizados
 
@@ -162,3 +160,6 @@ Por motivos rendimiento y técnicos, solo las tablas que cumplen las siguientes 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>¿Puedo hacer referencia a campos personalizados desde las herramientas para desarrolladores?  
 
 Los campos personalizados solo se pueden administrar a través de la interfaz de usuario. No es posible hacer referencia a estos campos en el código. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

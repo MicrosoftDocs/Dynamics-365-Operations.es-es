@@ -2,15 +2,12 @@
 title: Procesar eventos de vida
 description: Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775026"
 ---
 # <a name="process-life-events"></a>Procesar eventos de vida
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida. Por ejemplo, matrimonio, cambio de empleo o cambio de dependiente/beneficiario. Para usar eventos de vida, debe habilitar los eventos de vida en el formulario de parámetros de prestaciones, configurar los tipos de eventos de vida y configurar opciones de eventos de vida para tipos de planes.
 
@@ -57,3 +56,6 @@ Por ejemplo, si hoy es 1 de febrero y está programado que el 14 de febrero el t
    4. Seleccione **Aceptar**. El proceso se ejecutará con los parámetros que establezca.
 
 4. Seleccione **Aceptar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

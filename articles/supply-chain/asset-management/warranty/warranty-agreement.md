@@ -1,12 +1,10 @@
 ---
 title: Contratos de garantía
 description: En este tema se explican los contratos de garantía en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8269b9f2084ddd0f69039044c29978ce7940270d5b569456f7a0bfca0a6f1f0b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735312"
 ---
 # <a name="warranty-agreements"></a>Contratos de garantía
 
@@ -53,4 +51,7 @@ Un acuerdo de la garantía puede incluir varias líneas del acuerdo para cubrir 
     3. Escriba un número en el campo **Intervalo**. Este campo define el número de períodos para los que la garantía debe ser válida.
     4. En el campo **Porcentaje**, especifique el porcentaje de cobertura para la línea de la garantía. El porcentaje indica cuánto está cubierta por la empresa.
 
-![Página de garantía](media/01-warranty.png)
+![Página de garantía.](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415420"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976598"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Seguimiento de las comisiones en el punto de venta (POS) mediante los grupos de ventas
 
@@ -72,7 +71,7 @@ Existen varias configuraciones del perfil de funcionalidad para un almacén que 
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Presentar la información del representante de ventas en la pantalla de las transacciones de PDV
 
-El diseño y los contenidos de la pantalla de transacción de PDV son configurables mediante el diseñador de pantalla y los diseños de pantalla asignados a las tiendas, los registros o trabajadores. El campo **Representante de ventas** se puede agregar a la ficha Líneas del panel de recepción.  Esto mostrará el identificador del grupo de ventas especificado para cada línea en la visualización de la transacción.
+El diseño y los contenidos de la pantalla de transacción de PDV son configurables mediante el diseñador de pantalla y los diseños de pantalla asignados a las tiendas, los registros o trabajadores. El campo **Representante de ventas** se puede agregar a la ficha Líneas del panel de recepción.  Esto mostrará el identificador del grupo de ventas especificado para cada línea en la visualización de la transacción.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Agregar el representante de ventas a las cuadrículas de botones de PDV
 
@@ -80,11 +79,11 @@ PDV permite a los usuarios configurar cuadrículas de botones, que se incluyen e
 
 | Operación                                 | Descripción |
 |-------------------------------------------|-------------|
-| Establecer representante de ventas en línea          | Esta operación de PDV muestra una lista de grupos de ventas aptos (identificador: Nombre) para la tienda. La selección de un grupo de ventas de esta lista establecerá el valor de la línea de transacción actual. |
+| Establecer representante de ventas en línea          | Esta operación de PDV muestra una lista de grupos de ventas aptos (identificador: Nombre) para la tienda. La selección de un grupo de ventas de esta lista establecerá el valor de la línea de transacción actual. |
 | Borrar representante de ventas en línea        | Esta operación de PDV quita el valor del grupo de ventas actual de la línea de transacción actual. |
-| Establecer representantes de ventas en la transacción   | Esta operación de PDV muestra una lista de grupos de ventas aptos (identificador: Nombre) para la tienda. La selección de un grupo de ventas de esta lista establecerá el valor predeterminado de la transacción actual. Cualquier línea existente sin un grupo de ventas asignado se definirá, así como las líneas agregadas posteriormente. |
+| Establecer representantes de ventas en la transacción   | Esta operación de PDV muestra una lista de grupos de ventas aptos (identificador: Nombre) para la tienda. La selección de un grupo de ventas de esta lista establecerá el valor predeterminado de la transacción actual. Cualquier línea existente sin un grupo de ventas asignado se definirá, así como las líneas agregadas posteriormente. |
 | Borrar el representante de ventas en la transacción | Esta operación de PDV quita el valor del grupo de ventas predeterminado actual de la transacción actual. No influye en las líneas que ya existen en la transacción. |
 
 ## <a name="calculating-commissions"></a>Cálculos de comisiones
 
-La comisión se calcula para los trabajadores de grupos de ventas especificados en el momento del registro de la declaración o del registro de pedido de ventas. El importe de la comisión se determina en función de la parte de la comisión del trabajador, como se define en la configuración del cálculo de la comisión asociada y en el grupo de ventas para el cliente o los productos de la transacción.
+La comisión se calcula para los trabajadores de grupos de ventas especificados en el momento del registro de la declaración o del registro de pedido de ventas. El importe de la comisión se determina en función de la parte de la comisión del trabajador, como se define en la configuración del cálculo de la comisión asociada y en el grupo de ventas para el cliente o los productos de la transacción.

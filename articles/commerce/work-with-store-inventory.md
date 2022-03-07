@@ -1,7 +1,7 @@
 ---
 title: Gestión de inventario en tienda
 description: En este tema se describen los tipos de documentos que puede usar para gestionar el inventario.
-author: BrianShook
+author: rubencdelgado
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a4a8f517ebb6fd4ce291b5d28ae22db62a832251
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779367"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793882"
 ---
 # <a name="commerce-inventory-management"></a>Gestión de inventario de Commerce
 
@@ -39,11 +39,11 @@ Las aplicaciones de Commerce que se ejecutan en CSU no admiten las siguientes di
 
 - La aplicación de punto de venta (PDV) puede ofrecer compatibilidad limitada para las siguientes dimensiones. PDV puede introducir automáticamente algunas de estas dimensiones en transacciones de inventario, según la configuración del almacén o la tienda. Sin embargo, PDV no admitirá completamente las dimensiones de la manera en que se contemplan si una transacción de ventas se introduce manualmente en la sede central de Commerce. 
 
-- **Ubicación del almacén**: cuando usan las nuevas operaciones de PDV [Operación entrante](./pos-inbound-inventory-operation.md) y [Operación saliente](./pos-outbound-inventory-operation.md), los usuarios pueden seleccionar una ubicación de inventario de almacén para recibir artículos o enviar artículos de pedido de transferencia al exterior. Si usan la operación obsoleta **Recogida y recepción**, el soporte de gestión de ubicación limitada está disponible para recibir y enviar transferencias salientes. Este soporte solo está disponible si la opción **Usar el proceso de gestión de almacén** se ha activado para el artículo y el almacén de la tienda. Actualmente no se puede usar una ubicación de inventario con la operación **Recuento de existencias** ni con la operación **Búsqueda de inventario**.
+- **Ubicación del almacén**: cuando usan las nuevas operaciones de PDV [Operación entrante](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) y [Operación saliente](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation), los usuarios pueden seleccionar una ubicación de inventario de almacén para recibir artículos o enviar artículos de pedido de transferencia al exterior. Si usan la operación obsoleta **Recogida y recepción**, el soporte de gestión de ubicación limitada está disponible para recibir y enviar transferencias salientes. Este soporte solo está disponible si la opción **Usar el proceso de gestión de almacén** se ha activado para el artículo y el almacén de la tienda. Actualmente no se puede usar una ubicación de inventario con la operación **Recuento de existencias** ni con la operación **Búsqueda de inventario**.
 
-- **Matrícula**: las matrículas solo se aplican cuando se ha habilitado la opción **Usar proceso de gestión de almacén** para el artículo y el almacén de la tienda. En PDV, si el inventario se recibe en el almacén de una tienda utilizando la operación **Operación entrante** o la operación **Recoger y recibir** donde se ha activado el proceso de gestión de almacén, y si la ubicación que se ha seleccionado para recibir el artículo está vinculada a un perfil de ubicación que requiere control de matrícula, la aplicación POS aplica sistemáticamente una matrícula a la línea de recepción. Los usuarios de PDV no pueden cambiar ni administrar estos datos de matrícula. Si es necesaria la administración completa de matrículas, se recomienda que la tienda use la [aplicación de almacenameinto](../supply-chain/warehousing/install-configure-warehousing-app.md) o el cliente administrativo para administrar la recepción de estos elementos.
+- **Matrícula**: las matrículas solo se aplican cuando se ha habilitado la opción **Usar proceso de gestión de almacén** para el artículo y el almacén de la tienda. En PDV, si el inventario se recibe en el almacén de una tienda utilizando la operación **Operación entrante** o la operación **Recoger y recibir** donde se ha activado el proceso de gestión de almacén, y si la ubicación que se ha seleccionado para recibir el artículo está vinculada a un perfil de ubicación que requiere control de matrícula, la aplicación POS aplica sistemáticamente una matrícula a la línea de recepción. Los usuarios de PDV no pueden cambiar ni administrar estos datos de matrícula. Si es necesaria la administración completa de matrículas, se recomienda que la tienda use la [aplicación de almacenameinto](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) o el cliente administrativo para administrar la recepción de estos elementos.
 
-- **Número de serie**: la aplicación PDV ofrece compatibilidad limitada para el registro de un único número de serie en una línea de transacción para los pedidos creados en PDV que incluyan artículos serializados. Este número de serie no se valida frente a los números de serie registrados que ya están en el inventario. Si un pedido de ventas se crea en el canal de centro de asistencia telefónica o se cumplimenta a través de planificación de recursos de empresa (ERP) y varios números de serie se registran en una sola línea de ventas durante el proceso de cumplimentación en ERP, dichos números de serie no se pueden aplicar ni validarse si una devolución se procesa para el pedido en PDV. Cuando se recibe inventario utilizando la operación **Operación entrante**, los usuarios pueden [registrarse o confirmar los números de serie recibidos](./pos-serialized-items.md).
+- **Número de serie**: la aplicación PDV ofrece compatibilidad limitada para el registro de un único número de serie en una línea de transacción para los pedidos creados en PDV que incluyan artículos serializados. Este número de serie no se valida frente a los números de serie registrados que ya están en el inventario. Si un pedido de ventas se crea en el canal de centro de asistencia telefónica o se cumplimenta a través de planificación de recursos de empresa (ERP) y varios números de serie se registran en una sola línea de ventas durante el proceso de cumplimentación en ERP, dichos números de serie no se pueden aplicar ni validarse si una devolución se procesa para el pedido en PDV. Cuando se recibe inventario utilizando la operación **Operación entrante**, los usuarios pueden [registrarse o confirmar los números de serie recibidos](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
 
 - **Id. del lote**: la aplicación PDV proporciona soporte limitado durante la publicación del estado de cuenta si se vende un artículo controlado por lotes, pero los usuarios de PDV no pueden definir el id. de lote que se vendió o seleccionó al usar la aplicación PDV.
 
@@ -56,11 +56,11 @@ Las aplicaciones de Commerce que se ejecutan en CSU no admiten las siguientes di
 
 ## <a name="purchase-orders"></a>Pedidos de compra
 
-Los pedidos de compra se crean en la Central de Commerce. Si se incluye un almacén comercial en el encabezado del pedido de compra o en las líneas del pedido de compra, las líneas pueden recibirse en la tienda usando la operación [Operación entrante](./pos-inbound-inventory-operation.md) en PDV. 
+Los pedidos de compra se crean en la Central de Commerce. Si se incluye un almacén comercial en el encabezado del pedido de compra o en las líneas del pedido de compra, las líneas pueden recibirse en la tienda usando la operación [Operación entrante](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) en PDV. 
 
 ## <a name="transfer-orders"></a>Pedidos de transferencia
 
-Los pedidos de transferencia se pueden crear en la Central deCommerce o a través de [Operación entrante](./pos-inbound-inventory-operation.md) u [Operación saliente](./pos-outbound-inventory-operation.md) en PDV. Utilice la operación PDV **Operación entrante** para crear una solicitud de pedido de transferencia para que se envíe el inventario a la tienda desde otro almacén o ubicación de la tienda. Utilice la operación PDV **Operación saliente** para crear una solicitud de pedido de transferencia para que se envíe el inventario desde la tienda desde otra ubicación de almacén o tienda. Después de crear una orden de transferencia para una tienda, esa tienda puede gestionar la recepción del inventario para la orden de transferencia a través de la operación **Operación entrante** en PDV. Si la tienda está enviando inventario a otra ubicación, la operación **Operación saliente** en PDV se utiliza para administrar el proceso de envío saliente de esa tienda.
+Los pedidos de transferencia se pueden crear en la Central deCommerce o a través de [Operación entrante](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) u [Operación saliente](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) en PDV. Utilice la operación PDV **Operación entrante** para crear una solicitud de pedido de transferencia para que se envíe el inventario a la tienda desde otro almacén o ubicación de la tienda. Utilice la operación PDV **Operación saliente** para crear una solicitud de pedido de transferencia para que se envíe el inventario desde la tienda desde otra ubicación de almacén o tienda. Después de crear una orden de transferencia para una tienda, esa tienda puede gestionar la recepción del inventario para la orden de transferencia a través de la operación **Operación entrante** en PDV. Si la tienda está enviando inventario a otra ubicación, la operación **Operación saliente** en PDV se utiliza para administrar el proceso de envío saliente de esa tienda.
 
 ## <a name="stock-counts"></a>Recuentos de existencias
 
@@ -68,7 +68,7 @@ Los recuentos de existencias se pueden programar o no. Los recuentos de existenc
 
 ## <a name="inventory-lookup"></a>Búsqueda de inventario
 
-La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página **Consulta de inventario**. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Seleccione la tienda para ver las cantidades NNC y, a continuación, seleccione **Mostrar disponibilidad en tienda**. Para obtener información sobre las opciones de configuración disponibles, consulte [Calcular la disponibilidad de inventario para canales minoristas](./calculated-inventory-retail-channels.md).
+La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página **Consulta de inventario**. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Seleccione la tienda para ver las cantidades NNC y, a continuación, seleccione **Mostrar disponibilidad en tienda**. Para obtener información sobre las opciones de configuración disponibles, consulte [Calcular la disponibilidad de inventario para canales minoristas](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

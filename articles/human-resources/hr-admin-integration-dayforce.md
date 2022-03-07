@@ -2,11 +2,9 @@
 title: Configurar la integración con Dayforce
 description: La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este artículo. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420339"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805091"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar la integración con Dayforce
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este artículo. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
 
@@ -676,3 +676,6 @@ Los empleados pueden declarar la información del pasaporte. Esta información e
 
 Los empleados pueden declarar números de identificación múltiples del tipo de identificación del **Pasaporte**. Sin embargo, solo la entrada de pasaporte activa actual se integra en Dayforce. Si todas las entradas de pasaporte han caducado, el pasaporte que se emitió más recientemente se integra en Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

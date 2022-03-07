@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5f76ce395d7f5a82ab622dd323aee52a39b09847
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069866"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314487"
 ---
 # <a name="payroll-integration-parameters"></a>Parámetros de integración de nómina
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

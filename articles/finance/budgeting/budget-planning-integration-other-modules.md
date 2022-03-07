@@ -1,7 +1,7 @@
 ---
 title: Integración de planificación presupuestaria con otros módulos
 description: Se pueden generar planes presupuestarios desde diversos recursos diferentes. Los elementos básicos del proceso periódico son iguales para todos los recursos.
-author: panolte
+author: ShylaThompson
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceae7296ef6d8a0f181c306bd533694c0219e467
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 1ccefb5c9738641577571ce979a95a8dd048939c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594751"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822164"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>Integración de planificación presupuestaria con otros módulos
 
@@ -30,7 +30,8 @@ ms.locfileid: "7594751"
 
 
 
-## <a name="periodic-processes-for-generating-budget-plans"></a>Procesos periódicos para generar planes presupuestarios
+<a name="periodic-processes-for-generating-budget-plans"></a>Procesos periódicos para generar planes presupuestarios
+----------------------------------------------
 
 Se pueden generar planes presupuestarios desde los recursos siguientes:
 

@@ -1,22 +1,22 @@
 ---
 title: Oferta cerrada para solicitudes de presupuesto
 description: Este tema describe cómo configurar ofertas selladas para mantener en secreto las respuestas a las ofertas del proveedor hasta que el personal de compras las abra.
-author: Henrikan
+author: yanansong
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: yanansong
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578089"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500643"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Oferta cerrada para solicitudes de presupuesto
 
@@ -53,11 +53,7 @@ Antes de comenzar a configurar o utilizar esta función, debe asegurarse de que 
 Supply Chain Management utiliza claves de cifrado para proteger todas las ofertas selladas y mantenerlas en secreto hasta el momento adecuado. Aprovecha las capacidades de Key Vault para generar y administrar las claves necesarias. Por lo tanto, debe configurar una conexión desde Supply Chain Management a un almacén de claves para habilitar el sistema.
 
 > [!IMPORTANT]
-> El almacén de claves que utilice para las licitaciones selladas deben cumplir con los siguientes requisitos:
->
-> - Si usa un espacio aislado para el desarrollo y las pruebas, debe tener una bóveda de claves dedicada para el espacio aislado y otra separada para la producción.
-> - Cada almacén de claves debe crearse en una suscripción de Azure que sea propiedad de su organización (no la suscripción en la que está ejecutando Supply Chain Management).
-> - Cada almacén de claves debe usarse exclusivamente para licitaciones selladas. No debe utilizar sus almacenes de claves de licitación selladas para ningún otro propósito.
+> El almacén de claves debe crearse en una suscripción de Azure que sea propiedad de su organización (no la suscripción en la que está ejecutando Supply Chain Management).
 
 Cada oferta recupera su propia clave secreta. Esta clave se utiliza cada vez que un usuario ve, actualiza o abre la oferta.
 

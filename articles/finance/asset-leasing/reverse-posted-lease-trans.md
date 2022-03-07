@@ -2,13 +2,11 @@
 title: Revertir transacciones de arrendamiento contabilizadas
 description: Este tema explica cómo revertir una transacción de arrendamiento contabilizada. Cualquier transacción que se cree mediante Arrendamiento de activos se puede revertir.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f76b75a968e9ee9a3c545f646077c16282b5b185aa88025653f7443fbcfd9581
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770674"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Revertir transacciones de arrendamiento contabilizadas
 
@@ -55,3 +53,6 @@ Para revocar una transacción revertida, siga estos pasos.
 Cuando selecciona **Seguimiento de reversiones**, aparece un cuadro de diálogo que muestra tanto las transacciones originales como las transacciones revertidas, junto con un número de seguimiento vinculado.
 
 También puede realizar un seguimiento de las revocaciones mediante el uso de la página **Programaciones**. El campo **Revertir** se borra, mientras que el campo **Diario registrado** se selecciona. Además, el campo **Último número de diario** se actualiza con el número de diario de la transacción de revocación y el campo **Número de diario** se actualiza con el número de diario de reversión.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

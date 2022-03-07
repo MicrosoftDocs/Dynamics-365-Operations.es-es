@@ -2,23 +2,26 @@
 title: Establecer valores comunes para la gestión de cambios de ingeniería
 description: Este tema describe cómo establecer valores comunes que se utilizan para los parámetros en varias partes de la gestión de cambios de ingeniería.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c2ff21490dc71859d75923dd757e264096d4fcba
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565936"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4437307"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Establecer valores comunes para la gestión de cambios de ingeniería
 
@@ -88,6 +91,3 @@ Para cada conjutno de reglas, establezca el siguiente campo:
 - **Gravedad** - Seleccione el nivel de gravedad para el que establecer reglas. Use la página **Severidades de cambios de ingeniería** para crear y nombrar los niveles. (Vea la sección anterior para obtener más información).
 
 Utilice los botones de la ficha desplegable **Reglas** para agregar o quitar una regla para la configuración de gravedad actual. Cada regla tiene un campo **Regla** y un campo **Nombre**. Las reglas las establece el sistema e indican los tipos de cambios que puede tener un producto. El nombre indica el tipo de modificación.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

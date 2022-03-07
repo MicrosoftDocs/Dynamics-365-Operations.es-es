@@ -1,33 +1,32 @@
 ---
-title: Diseñar cuestionarios
-description: Este artículo describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: Crear cuestionarios
+description: En este tema se describe el proceso de creación de un cuestionario.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420479"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729060"
 ---
-# <a name="design-questionnaires"></a>Diseñar cuestionarios
+# <a name="create-questionnaires"></a>Crear cuestionarios
 
-Este artículo describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
 Un cuestionario de cuidado diseño puede ayudarle a aumentar la calidad de los datos recopilados. Con un cuidado diseño, puede seleccionar mejor las opciones adecuadas para un cuestionario en el momento adecuado. Los siguientes puntos pueden ayudarle a planificar un cuestionario efectivo:
 
@@ -64,7 +63,7 @@ Algunos requisitos previos deben estar implementados para poder crear cuestionar
 
 ### <a name="questionnaire-types"></a>Tipos de cuestionario
 
-Los tipos de cuestionario son obligatorios y deben asignarse al crear un cuestionario. Los tipos de cuestionario ayudan a la gestión y clasificación de los cuestionarios. Use los tipos de cuestionario para clasificar los cuestionarios y diferenciarlos entre sí. Por ejemplo, si hay varios cuestionarios entre los que seleccionar, puede filtrarlos según el tipo para que sea más fácil encontrar un cuestionario concreto. Estos son algunos ejemplos de tipos de cuestionario:
+Los **tipos de cuestionario** son obligatorios y deben asignarse al crear un cuestionario. Los **tipos de cuestionario** ayudan a la gestión y clasificación de los cuestionarios. Use los tipos de cuestionario para clasificar los cuestionarios y diferenciarlos entre sí. Por ejemplo, si hay varios cuestionarios entre los que seleccionar, puede filtrarlos según el tipo para que sea más fácil encontrar un cuestionario concreto. Estos son algunos ejemplos de tipos de cuestionario:
 
 -   Desarrollo de recursos humanos
 -   Encuestas de clientes
@@ -72,9 +71,9 @@ Los tipos de cuestionario son obligatorios y deben asignarse al crear un cuestio
 
 ### <a name="question-types"></a>Tipos de pregunta
 
-Los tipos de pregunta son obligatorios y deben asignarse al crear una pregunta. 
+Los **tipos de pregunta** son obligatorios y deben asignarse al crear una pregunta. 
 
-Use los tipos de pregunta para clasificar las consultas para los informes. Los tipos de pregunta también facilitan la búsqueda de preguntas, porque puede usar tipos como filtros en la página **Consultas**. Estos son algunos ejemplos de tipos de pregunta:
+Use los **tipos de pregunta** para clasificar las consultas para los informes. Los **tipos de pregunta** también facilitan la búsqueda de preguntas, porque puede usar tipos como filtros en la página **Consultas**. Estos son algunos ejemplos de tipos de pregunta:
 
 -   Recursos humanos
 -   Actividades comerciales de gestión
@@ -91,9 +90,9 @@ Los códigos de secuencia numérica se usan para organizar preguntas y respuesta
 Debe definir todos los parámetros antes de empezar a crear los datos. Puede modificar los parámetros del cuestionario en cualquier momento.
 
 ## <a name="questionnaire-components"></a>Componentes de cuestionario
-Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario. Opcionalmente puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
+Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario. Opcionalmente, puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
 
-[![Componentes del cuestionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![Componentes del cuestionario.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Responder a grupos y respuestas
 
@@ -106,10 +105,10 @@ Para proporcionar una lista de posibles respuestas para preguntas cerradas, pued
 
 Los grupos de respuestas y las respuestas son componentes que conforman el cuerpo principal de la información a partir de la que se crean las preguntas. Después de crear un grupo de respuestas, puede asociar el grupo de respuestas con una pregunta en el campo **Grupo de respuestas** de la página **Preguntas**. 
 
-Un grupo de respuestas se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
+Un **grupo de respuestas** se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
 
 > [!NOTE]
-> Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
+> Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
 
 ### <a name="questions"></a>Preguntas
 
@@ -121,7 +120,7 @@ Un cuestionario debe contener preguntas. Las preguntas pueden ser abiertas o cer
     > [!NOTE]
     > Antes de configurar las preguntas cerradas, debe crear grupos de respuestas y respuestas.
 
-Se puede organizar las preguntas en una jerarquía de preguntas condicionales, de modo que las preguntas que sean secundarias dependan de la respuesta que el encuestado selecciona para la pregunta anterior. Puede escribir las preguntas primero y, a continuación, organizarlas en una jerarquía posteriormente.
+Se puede organizar las preguntas en una jerarquía de preguntas condicionales, de modo que las preguntas que sean secundarias dependan de la respuesta que el encuestado selecciona para la pregunta anterior. Puede escribir las preguntas primero y, a continuación, organizarlas en una jerarquía.
 
 ## <a name="setting-up-questionnaires"></a>Configurar cuestionarios
 
@@ -163,7 +162,7 @@ Puede completar las siguientes tareas en la página **Cuestionarios**:
 -   Realizar cambios en los grupos de resultados y la secuencia numérica 
 
 > [!CAUTION]
-> Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y por tanto para convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
+> Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y, por tanto, convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
 
 En un cuestionario, no puede eliminar los siguientes tipos de preguntas:
 
@@ -172,7 +171,7 @@ En un cuestionario, no puede eliminar los siguientes tipos de preguntas:
 
 ### <a name="result-groups"></a>Grupos de resultados
 
-Los grupos de resultados son opcionales al adjuntar preguntas a un cuestionario. 
+Los **grupos de resultados** son opcionales al adjuntar preguntas a un cuestionario. 
 
 El cálculo de los puntos y la clasificación de los resultados del cuestionario se realiza mediante un grupo de resultados. Si usa grupos de resultados, puede realizar las tareas siguientes:
 
@@ -193,7 +192,7 @@ Para adjuntar preguntas a un cuestionario mediante los grupos de resultados, pri
 Puede configurar varios grupos de resultados para evaluar los puntos que un encuestado obtiene en cada categoría. Una vez completado el cuestionario, puede ver los puntos obtenidos por cada grupo. 
 
 > [!TIP]
-> Para evaluar un cuestionario mediante los puntos, aunque sin categorías independientes, puede agregar todas las preguntas a un único grupo de resultados. 
+> Para evaluar un cuestionario mediante los puntos, aunque sin categorías independientes, puede agregar todas las preguntas a un único grupo de resultados. 
 
 También puede configurar uno o más mensajes basados en puntos que los encuestados reciben tras completar un cuestionario. El texto que se muestra puede variar en función de la puntuación que logre un encuestado en un grupo de resultados. Para utilizar mensajes basados en puntos, se deben definir los intervalos de puntos y la descripción de cada intervalo. Cuando un encuestado logra una puntuación en un intervalo concreto, el texto de ese intervalo se incluye en el informe de resultados. 
 
@@ -236,3 +235,5 @@ Para usar las preguntas condicionales para crear una jerarquía de preguntas en 
 Una entidad jurídica ofrece tanto artículos como servicios a sus clientes. Como suele ocurrir en esos casos, algunos clientes solo compran artículos, otros compran solo servicios y otros compran tanto artículos como servicios. Por tanto, cuando la entidad jurídica distribuye una encuesta de satisfacción del cliente, aplica una estructura condicional al cuestionario, de manera que los clientes que solo compran servicios no tengan que responder a preguntas sobre artículos. 
 
 De forma alternativa, configure un cuestionario de manera que un encuestado seleccione la respuesta A para la pregunta 1; la pregunta 2 es la siguiente en la secuencia de preguntas. Sin embargo, si el encuestado selecciona la respuesta B para la pregunta 1, la pregunta 5 será la siguiente.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

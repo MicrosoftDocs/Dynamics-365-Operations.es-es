@@ -2,15 +2,12 @@
 title: Módulo de mapa
 description: En este tema se tratan los módulos de mapa y se describe cómo configurarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747402"
 ---
 # <a name="map-module"></a>Módulo de mapa
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665429"
 
 En este tema se tratan los módulos de mapa y se describe cómo configurarlos en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Información general
-
-Un módulo de mapa muestra las ubicaciones de las tiendas en un mapa interactivo que se representa utilizando el [Control web de Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/). Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. Los módulos de mapa proporcionan diferentes vistas, como Carretera, Aérea y A pie de calle, que los usuarios pueden seleccionar para ver las ubicaciones de los mapas. También permiten interacciones como hacer zoom y usar la ubicación del usuario.
+Un módulo de mapa muestra las ubicaciones de las tiendas en un mapa interactivo que se representa utilizando el [Control web de Bing Maps V8](/bingmaps/v8-web-control/). Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos en la Central de Commerce. Los módulos de mapa proporcionan diferentes vistas, como Carretera, Aérea y A pie de calle, que los usuarios pueden seleccionar para ver las ubicaciones de los mapas. También permiten interacciones como hacer zoom y usar la ubicación del usuario.
 
 Un módulo de mapa funciona junto con el módulo selector de tiendas para determinar las ubicaciones geográficas de las tiendas que deben representarse en un mapa. El selector de tienda y los módulos de mapa interactúan cuando un usuario selecciona una tienda en uno de esos módulos en una página del sitio. Los módulos de mapas se pueden ampliar para otros escenarios, más allá de la interacción con los módulos de selector de tienda. Sin embargo, se requiere la personalización del módulo.
 
@@ -43,7 +38,7 @@ Un módulo de mapa funciona junto con el módulo selector de tiendas para determ
 
 La siguiente imagen muestra un ejemplo de un módulo de mapa utilizado en una página ubicación de tiendas.
 
-![Ejemplo de un módulo selector de tienda](./media/ecommerce-Storelocator.PNG)
+![Ejemplo de un módulo selector de tienda.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Propiedades del módulo
 
@@ -81,4 +76,7 @@ Para obtener información detallada sobre cómo configurar un módulo de mapa en
 
 [Administrar Mapas de Bing para su organización](./dev-itpro/manage-bing-maps.md)
 
-[Control web de Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Control web de Bing Maps V8](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

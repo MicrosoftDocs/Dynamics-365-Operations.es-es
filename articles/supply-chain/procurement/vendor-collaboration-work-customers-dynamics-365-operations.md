@@ -2,40 +2,36 @@
 title: Colaboración de proveedor con los clientes
 description: Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los pedidos de compra y supervisar el inventario de envío.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654349"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908044"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 Supply Chain Management. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
 
 - **Confirmación de pedidos de compra** Controle y respuesta a los pedidos de compra (PO).
 - **Oferta del proveedor**: Ver solicitudes de presupuesto y responder a ellas especificando propuestas.
 - **Información de proveedor**: Ver y actualizar datos maestros de proveedores.
-- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Los proveedores también pueden controlar la información acerca del inventario de entrega.
 
@@ -147,3 +143,6 @@ La información accesible es el nombre del proveedor, direcciones, información 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

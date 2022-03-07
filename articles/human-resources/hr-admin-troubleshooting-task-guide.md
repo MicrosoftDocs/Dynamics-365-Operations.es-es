@@ -1,38 +1,37 @@
 ---
 title: Guarda las guías de tareas en LCS y reproducirlas
-description: El artículo explica cómo guardar guías de tareas para Microsoft Dynamics Lifecycle Services (LCS) y, después, reproducirlas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Este tema explica cómo guardar las guías de la tarea en Microsoft Dynamics Lifecycle Services (LCS) y volver a reproducirlas.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42fad014590abebf159b71227a44eb8df60bf05e
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420423"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416890"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Guarda las guías de tareas en LCS y reproducirlas
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Detalles del entorno** 
 
 Microsoft Dynamics 365 Human Resources, que se ha implementado mediante Microsoft Dynamics Lifecycle Services (LCS)
 
-**Emisión**
+**Emitir**
 
-El cliente desea guardar nuevas grabaciones de tareas a su proyecto de LCS y volver a reproducir las guías guardadas de la tarea.
+El cliente desea guardar nuevas grabaciones de tareas al proyecto de LCS y volver a reproducir las guías guardadas de la tarea.
 
 **Resolución**
 
@@ -53,7 +52,7 @@ Siga estos pasos para guardar una grabación de tareas en LCS.
 10. Cree una grabación de tareas.
 11. Cuando haya terminado, seleccione **Guardar en Lifecycle Services**.
 
-    ![Guardar en Lifecycle Services](media/task-guides.png)
+    ![Guardar en Lifecycle Services.](media/task-guides.png)
 
 12. Seleccione la biblioteca y el nodo de BPM donde guardar la grabación de tareas.
 
@@ -63,3 +62,6 @@ Siga estos pasos para volver a consultar una guía de tareas desde LCS.
 2. Seleccione **Abrir desde LCS**.
 3. Seleccione la biblioteca y el nodo de BPM que tienen la guía de tareas guardada.
 4. Abra la guía de tareas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

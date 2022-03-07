@@ -1,27 +1,25 @@
 ---
 title: Documentación de la aplicación Finance and Operations
 description: Documentación para las aplicaciones de Finance and Operations
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: margoc
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694395"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075406"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
@@ -46,11 +44,11 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
  <p><a href="get-started/purchase-on-premises.md">Comprar Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida de la implementación</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Prepararse para la publicación</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de una versión</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de One Version</a></h3>
 <p><a href="get-started/one-version.md">Preguntas frecuentes sobre actualizaciones del servicio de One Version</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Directiva del ciclo de vida del software: nube</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Directiva del ciclo de vida del software: local</a></p>
@@ -67,7 +65,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integraciones</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Eventos de negocio</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Entidades de datos</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integración con Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integración mediante Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Administración financiera</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Proveedores</a></p>
@@ -78,22 +76,24 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Contabilidad de costes</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Activos fijos</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Contabilidad general</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Administración de proyectos</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Administración de proyectos</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Sector público</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Características normativas regionales</a></p>
 
-<h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
-<p><a href="../../human-resources/hr-benefits-manage-program.md">Prestaciones</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desarrollo y formación de empleados</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Cuestionarios</a></p>
-<p><a href="hr/manage-recruiting-process.md">Contratación</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Nómina de EE. UU.</a></p>
+<h3><a href="hr/hr-landing-page.md">Human Resources</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Autoservicio para empleados</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Administración de personal</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Bajas y ausencias</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Beneficios</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desarrollo de empleados</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Aprendizaje</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Nómina de EE. UU.</a></p>
 
 </td>
 <td>
 <h3><a href="../../supply-chain/index.md">Gestión de la cadena de suministro</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gestión de costes</a></p>
-<p><a href="../../supply-chain/inventory/inventory-home-page.md">Gestión de inventarios</a></p>
+<p><a href="../../supply-chain/inventory/inventory-home-page.md">Administración de inventario</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Planificación maestra</a></p>
 <p><a href="../../supply-chain/procurement/procurement-sourcing-overview.md">Adquisición y abastecimiento</a></p>
 <p><a href="../../supply-chain/pim/product-information.md">Gestión de información de productos</a></p>
@@ -128,16 +128,11 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 </td>
 <td>
 <h3>Productos relacionados</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Centro de llamadas</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Configuración y gestión de canal</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS y Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Desarrollador y administración de Commerce</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Guía del administrador</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Guía de desarrollador</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Manual del usuario</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Centro de llamadas</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Configuración y gestión de canal</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS y Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Desarrollador y administración de Commerce</p>
 
 
 </td>
@@ -145,3 +140,6 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

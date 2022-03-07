@@ -2,9 +2,11 @@
 title: Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
 description: Es necesario agregar un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940.
 author: panolte
+manager: AnnBe
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c891a5139ff7de85e6762513f57236e24f1644529d7825c9ce5e1dfda50fbad8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d3bd54f0f2329c8c0602171a7f3c1ca444672b3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739392"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985420"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
 
@@ -61,6 +63,3 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

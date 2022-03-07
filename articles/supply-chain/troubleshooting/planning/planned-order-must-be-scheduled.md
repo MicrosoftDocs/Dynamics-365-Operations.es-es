@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a89f5f98895be5b934dbdc1194fa58b9af34f9cbc7f5e2092f6f47791dd52400
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a360cb3cbd26e1bc1ebb1baf1a6a4d8282c28c5c
+ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777752"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6294177"
 ---
 # <a name="planned-production-order-must-be-scheduled-before-it-can-be-firmed"></a>El pedido de producción planificado se debe programar para poder ser firmado
 

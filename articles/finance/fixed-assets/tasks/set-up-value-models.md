@@ -1,69 +1,58 @@
 ---
 title: Configuración de modelos de valor
 description: Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos.
-author: moaamer
-ms.date: 12/03/2021
+author: saraschi2
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be3b5578bd6509859c36f6a50ea9730e9ef1780e
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 88c6ee10fa0a208f0946cf0f4e6bb73cb61203a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890721"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213541"
 ---
 # <a name="set-up-value-models"></a>Configuración de modelos de valor
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
-Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos.
+Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
+
 
 ## <a name="create-a-book"></a>Crear un libro
-1. Vaya a **Activos fijos \> Configuración \> Libros**.
-2. Seleccione **Nuevo**.
-3. En el campo **Libro**, escriba un valor.
-4. En el campo **Descripción**, especifique un valor.
-5. Establezca la opción **Calcular depreciación** en **Sí**.
-
-    Si la opción **Calcular depreciación** se establece en **Sí** para que el libro del activo asociado se incluya en las propuestas de depreciación. Si se establece en **No**, el libro de activos no se depreciará automáticamente.
-
-6. En el campo **Método de depreciación**, especifique o seleccione un valor.
-
-    * Un método de depreciación alternativo también se conoce como método de cambio de depreciación. La propuesta de depreciación cambiará a este perfil cuando el perfil alternativo calcule un importe de depreciación que sea mayor o igual que el perfil de depreciación predeterminado.
-    * El método de depreciación extraordinaria que se usa para la depreciación adicional de un activo en circunstancias inusuales. Por ejemplo, puede usar esta opción para registrar la depreciación que se produzca a causa de un desastre natural.
-    * Si selecciona **Crear ajustes de depreciación con ajustes de base**, los ajustes de depreciación se crearán automáticamente cuando se actualice el valor del activo. De lo contrario, el valor del activo actualizado afectará solo a los cálculos de depreciación futuros.
-
-7. Establezca la opción **Crear ajustes de depreciación con ajustes de base** en **Sí**.
-
-    * De forma predeterminada, las transacciones del libro de activos fijos se registran en la contabilidad general. No obstante, también puede deshabilitar el registro del libro en la contabilidad general configurando la opción **Registrar en el libro mayor** en **No**. Los libros que no se registran en la contabilidad general se suelen para informes tributarios. Esta opción proporciona más flexibilidad para eliminar las transacciones históricas para el libro de activos, ya que no se han asignado a la contabilidad general.
-    * De forma predeterminada, el campo **Capa de registro** se establece en **Capa actual** si el libro se registra en la contabilidad general y en **Ninguna** si no se registra en la contabilidad general. Actualice el valor del campo **Capa de registro** si las transacciones de este libro se deben registrar en una capa diferente.
-
-8. Calcule la depreciación positiva.
-
-    * De forma predeterminada, la opción **Calcular la depreciación positiva** se establece en **No**. Este ajuste indica que la depreciación se acreditará al libro de activos seleccionado. Asimismo, las opciones **Permitir un valor neto en los libros superior al precio de adquisición** y **Permitir un valor neto en los libros negativo** se establecen en **No** y los ajustes se pueden cambiar independientemente. 
-    * Para calcular la depreciación positiva, establezca la opción **Calcular la depreciación positiva** en **Sí**. Este ajuste indica que la depreciación se cargará en el libro de activos fijos. Cuando la opción **Calcular la depreciación positiva** se establece en **Sí**, las opciones **Permitir un valor neto en los libros superior al precio de adquisición** y **Permitir un valor neto en los libros negativo** se establecerán automáticamente en **Sí** y se bloquearán. Este bloqueo ayuda a asegurar que la depreciación positiva se aplicará solo a los activos fijos que se adquirieron con un valor en los libros negativo (crédito). 
-
-10. En el campo **Calendario**, especifique o seleccione un valor.
-
-    Los libros derivados registran las transacciones en distintos libros al mismo tiempo. Puede crear transacciones con el libro principal y durante el registro, una copia precisa de la transacción se registra en el libro derivado. No hay cálculo con transacciones del libro derivadas, por lo que no se va a utilizar para las transacciones de depreciación.
+1. Vaya a Activos fijos > Configuración > Libros.
+2. Haga clic en Nuevo.
+3. En el campo Libro, escriba un valor.
+4. En el campo Descripción, escriba un valor.
+    * Si se selecciona Calcular depreciación, el libro de activos asociado se incluirán en las propuestas de depreciación. Si no se selecciona, el libro de activos no se depreciará automáticamente.  
+5. Seleccione Sí en el campo Calcular depreciación.
+6. En el campo Método de depreciación, especifique o seleccione un valor.
+    * Un método de depreciación alternativo también se conoce como método de cambio de depreciación. La propuesta de depreciación cambiará a este perfil cuando el perfil alternativo calcule un importe de depreciación que sea mayor o igual que el perfil de depreciación predeterminado.  
+    * El método de depreciación extraordinaria que se usa para la depreciación adicional de un activo en circunstancias inusuales. Por ejemplo, puede usar esta opción para registrar la depreciación que se produzca a causa de un desastre natural.  
+    * Si está activado Crear ajustes de depreciación con ajustes de base, los ajustes de depreciación se crearán automáticamente cuando se actualice el valor del activo. Si no se selecciona, el valor del activo actualizado solo afectará a los cálculos de depreciación a partir de la fecha actual.  
+7. Seleccione Sí en el campo Crear ajustes de depreciación con ajustes de base.
+    * De forma predeterminada, las transacciones del libro de activos fijos se registran en la contabilidad general. Puede deshabilitar el registro en la contabilidad general para el libro configurando el registro en el campo de contabilidad general en No. Los libros que no se registran en la contabilidad general normalmente se utilizan para fines de informes de impuestos. Esto le da flexibilidad adicional para eliminar las transacciones históricas para el libro de activos ya que no se han confiado a la contabilidad general.  
+    * La capa de registro recibe los valores por defecto la capa Actual si el libro se registra en la contabilidad general y Ninguna si no se registra en la contabilidad general. Actualice la capa de registro si necesita que las transacciones de este libro se registren en otra capa.  
+8. En el campo Calendario, especifique o seleccione un valor.
+    * Los libros derivados registran las transacciones en distintos libros al mismo tiempo. Puede crear transacciones con el libro principal y durante el registro, una copia precisa de la transacción se registra en el libro derivado. No hay cálculo con transacciones del libro derivadas, por lo que no se va a utilizar para las transacciones de depreciación.  
 
 ## <a name="associate-the-book-with-a-fixed-asset-group"></a>Asociar el libro con un grupo de activos fijos
+1. Haga clic en Grupos de activos fijos.
+2. En el campo Grupo de activos fijos, escriba o seleccione un valor.
+3. En el campo Tiempo de vida, especifique un número.
+    * Tenga en cuenta que los Períodos de depreciación se calculan después de definir el tiempo de vida.  
+    * Puede establecer la convención de depreciación según sea necesario para fines de impuestos.  
 
-1. Seleccione **Grupos de activos fijos**.
-2. En el campo **Grupo de activos fijos**, escriba o seleccione un valor.
-3. En el campo **Tiempo de vida**, introduzca un número.
 
-    * Los períodos de depreciación se calculan después de introducir el tiempo de vida del activo.
-    * Puede establecer la convención de depreciación según sea necesario para fines de impuestos.
-    * Para los activos fijos asociados con arrendamientos, el valor del campo **Tiempo de vida** se anulará por el menor entre el plazo de arrendamiento en el libro de activos o la vida útil del activo. Si la opción **Transferencia de la propiedad** está configurada en **Sí** para el libro de arrendamiento, el valor del campo **Tiempo de vida** siempre será la vida útil del activo.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

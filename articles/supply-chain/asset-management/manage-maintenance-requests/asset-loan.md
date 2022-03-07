@@ -1,12 +1,10 @@
 ---
 title: Activos prestados
 description: En este tema se describe cómo registrar activos prestados en la Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752859"
 ---
 # <a name="asset-loans"></a>Activos prestados
 
@@ -46,7 +44,7 @@ Si su empresa recibe activos para trabajos de reparación o de mantenimiento de 
 
 Para ver una lista de todos los activos que ha prestado a otras ubicaciones o clientes, seleccione **Administración de activos** \> **Común** \> **Activo prestado** \> **Todos los activos prestados**. Si la casilla **Finalizado** está activada para un activo, significa que se ha registrado el activo como devuelto a su empresa.
 
-![Administrar solicitudes de mantenimiento](media/06-manage-maintenance-requests.png)
+![Administrar solicitudes de mantenimiento.](media/06-manage-maintenance-requests.png)
 
 En la página **Activos prestados activos** puede ver una lista de todos los activos prestados que aún no se han devuelto a su empresa.
 
@@ -57,3 +55,6 @@ En la página **Activos prestados activos** puede ver una lista de todos los act
 3. En el campo **Devuelto**, especifique la fecha y la hora.
 4. Seleccione **Aceptar**.
 5. Actualice la página de la lista **Activos prestados activos** y compruebe que el activo prestado ya no aparece en la lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

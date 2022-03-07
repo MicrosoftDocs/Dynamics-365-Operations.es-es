@@ -1,10 +1,12 @@
 ---
 title: Fórmulas y versiones de fórmula
 description: Este tema proporciona información sobre fórmulas y versiones de fórmula. Una fórmula define el material, los ingredientes y los resultados de un proceso determinado en la fabricación de procesos. Las fórmulas se utilizan para planificar y generar productos en la fabricación de procesos.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246198"
 ---
 # <a name="formulas-and-formula-versions"></a>Fórmulas y versiones de fórmula
 

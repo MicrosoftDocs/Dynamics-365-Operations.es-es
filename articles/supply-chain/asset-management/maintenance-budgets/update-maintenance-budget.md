@@ -1,12 +1,10 @@
 ---
 title: Actualizar presupuestos de mantenimiento
 description: En este tema se explica cómo actualizar un presupuesto de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724949"
 ---
 # <a name="update-maintenance-budgets"></a>Actualizar presupuestos de mantenimiento
 
@@ -74,3 +72,6 @@ En la página **Líneas de presupuesto de mantenimiento**, puede agregar manualm
 
 - Sabe que la restauración de algunos activos se encuentra actualmente en la fase de planificación, pero los trabajos relacionados aún no se han creado en Administración de activos. Sin embargo, desea que se incluyan los costes presupuestarios para esos trabajos en el presupuesto de mantenimiento.
 - Se han creado nuevos activos o tipos de activos desde que hizo el presupuesto de mantenimiento, pero los planes de mantenimiento aún no se han configurado en esos activos o tipos de activos. Sin embargo, desea que se incluyan los costes presupuestarios para esos tipos de activos en el presupuesto de mantenimiento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

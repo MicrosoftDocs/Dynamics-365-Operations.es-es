@@ -1,30 +1,32 @@
 ---
 title: Configurar y crear perfiles de depreciación
-description: Este procedimiento muestra cómo los perfiles de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.
-author: moaamer
+description: Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.
+author: saraschi2
+manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92089e366d1772b0a74add95d10f8440586c62bd
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: b7cf50474a467af2cd8cd3f1e97cac3ed410fde7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994874"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Configurar y crear perfiles de depreciación
 
 [!include [banner](../../includes/banner.md)]
 
-Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.
+Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.   Esta grabación usa la empresa de prueba USMF y el rol de contable.
 
 
 ## <a name="create-a-depreciation-profile"></a>Crear un método de depreciación
@@ -37,6 +39,3 @@ Los métodos de depreciación determinan el tipo y la frecuencia de la depreciac
 7. En el campo **Frecuencia de períodos**, seleccione una opción.
 8. Cierre el formulario.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

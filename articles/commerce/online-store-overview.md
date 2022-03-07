@@ -2,29 +2,26 @@
 title: Visión general del sitio de comercio electrónico
 description: Este tema proporciona una visión general de la compatibilidad para sitios de comercio electrónico en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a5ced6311f32405e544e66d18c912ce40deb177f
-ms.sourcegitcommit: 33a746e41cd6f7b6b056b19b550a84f6a1b905d4
+ms.openlocfilehash: d8d1b563b08cce1d7b56c0ab5ebc06d1c900f281e1ceb961721978ba8718eba8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4512926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741121"
 ---
 # <a name="e-commerce-site-overview"></a>Visión general del sitio de comercio electrónico
 
@@ -40,37 +37,37 @@ En Dynamics 365 Commerce utiliza un canal de la tienda en línea para establecer
 
 Solo tiene que configurar un canal de la tienda en línea para poder empezar a trabajar con Dynamics 365 Commerce. Sin embargo, un solo sitio de comercio electrónico puede proporcionar la experiencia en línea para múltiples tiendas en línea. Por ejemplo, si se configuran varias tiendas en línea para cubrir distintas regiones geográficas, se puede usar un solo conjunto de páginas de comercio electrónico para proporcionar las experiencias únicas que definen cada tienda. Para obtener más información sobre cómo configurar un sitio para cubrir varias tiendas en línea, consulte [Asociar un sitio en línea con un canal](associate-site-online-store.md).
 
-Después de configurar una tienda en línea, se puede asociar con el sitio de Dynamics 365 Commerce que servirá como escaparate en línea. Para obtener más información sobre las tiendas en línea y cómo configurarlas, consulte [Configurar tiendas en línea](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Después de configurar una tienda en línea, se puede asociar con el sitio de Dynamics 365 Commerce que servirá como escaparate en línea. Para obtener más información sobre las tiendas en línea y cómo configurarlas, consulte [Configurar tiendas en línea](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Implementar un inquilino nuevo de comercio electrónico
 
-Durante la inicialización de un sitio de comercio electrónico, se le solicita un nombre de dominio. Para obtener más información sobre los dominios en Commerce, consulte [Configurar tu nombre de dominio](configure-your-domain-name.md) y [Dominios en Dynamics 365 Commerce](domains-commerce.md). Para implementar un nuevo inquilino de comercio electrónico mediante [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), siga los pasos en [Implementar un nuevo inquilino de comercio electrónico](deploy-ecommerce-site.md). Después de que su inquilino de comercio electrónico esté configurado en LCS, se proporcionará un enlace al generador de sitios de Commerce. A continuación, puede utilizar el generador de sitios de Commerce para inicializar y configurar sus sitios de comercio electrónico.
+Durante la inicialización de un sitio de comercio electrónico, se le solicita un nombre de dominio. Para obtener más información sobre los dominios en Commerce, consulte [Configurar tu nombre de dominio](configure-your-domain-name.md) y [Dominios en Dynamics 365 Commerce](domains-commerce.md). Para implementar un nuevo inquilino de comercio electrónico mediante [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), siga los pasos en [Implementar un nuevo inquilino de comercio electrónico](deploy-ecommerce-site.md). Después de que su inquilino de comercio electrónico esté configurado en LCS, se proporcionará un enlace al generador de sitios de Commerce. A continuación, puede utilizar el generador de sitios de Commerce para inicializar y configurar sus sitios de comercio electrónico.
 
 ## <a name="initialize-your-e-commerce-site"></a>Inicializar su sitio de comercio electrónico
 
 Cuando inicia el generador de sitios de Commerce desde LCS, aparece la página **Sitios**. Esta página incluye dos sitios preconfigurados, **predefinido** y **fabrikam**, como se muestra en el ejemplo de la siguiente ilustración.
 
-![Página de sitios en el generador de sitios de Commerce](media/e-commerce-site-01.png)
+![Página de sitios en el generador de sitios de Commerce.](media/e-commerce-site-01.png)
 
 Cuando selecciona uno de estos sitios, se le solicita que seleccione un nombre de dominio, un canal de tienda en línea predeterminado, un idioma admitido para el canal seleccionado y una ruta de acceso. Si solo se utiliza un canal, puede dejar la ruta en blanco. Se pueden configurar más canales o idiomas de la tienda en línea más adelante en el generador de sitios de Commerce. Cada canal o idioma adicional requerirá una ruta de acceso única. Por ejemplo, tiene dos canales en línea asociados con un único sitio y el nombre de dominio del sitio es `www.fabrikam.com`. En este caso, la ruta de acceso de un canal puede ser el valor predeterminado que no tiene ruta (`https://www.fabrikam.com`), y el segundo canal se puede configurar en una nueva ruta, como **site2**, que tendrá la URL `https://www.fabrikam.com/site2`. La siguiente ilustración muestra un ejemplo de un cuadro de diálogo de inicialización del sitio en el generador de sitios de Commerce.
 
-![Cuadro de diálogo de inicialización del sitio en el generador de sitios de Commerce](media/e-commerce-site-02.png)
+![Cuadro de diálogo de inicialización del sitio en el generador de sitios de Commerce.](media/e-commerce-site-02.png)
 
 La página **Sitios** también incluye un botón **Nuevo sitio**. El cuadro de diálogo que aparece cuando selecciona este botón se parece al cuadro de diálogo de inicialización del sitio, pero se utiliza para crear un nuevo sitio. Los sitios nuevos están en blanco. No incluyen las mismas plantillas, fragmentos, páginas e imágenes predeterminadas que se proporcionan con los sitios **predeterminado** y **fabrikam**. Sin embargo, según lo requiera, puede abrir una incidencia de soporte técnico para solicitar que se agregue una copia del contenido predeterminado a un nuevo sitio en blanco. Para más información, consulte [Crear un sitio de comercio electrónico](create-ecommerce-site.md).
 
 Después de inicializar un nuevo sitio, aparece la página **Inicio** del generador de sitios de Commerce. Esta página incluye vínculos a acciones comunes y contenido de orientación, como se muestra en el ejemplo de la siguiente ilustración.
 
-![Enlaces en la página de inicio del generador de sitios de Commerce](media/e-commerce-site-03.png)
+![Enlaces en la página de inicio del generador de sitios de Commerce.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Modifique los canales de la tienda en línea o agregue canales de la tienda en línea a un sitio de comercio electrónico
 
 Una vez creado un sitio de comercio electrónico, puede cambiar el canal al que está asociado siguiendo los pasos de [Asociar un sitio de comercio electrónico con un canal en línea](associate-site-online-store.md). El ejemplo de la siguiente ilustración muestra cómo se puede cambiar un número de unidad operativa del canal (OUN) en la página **Canales** (**Configuración del sitio \> Canales**). Una vez que haya terminado de realizar un cambio, asegúrese de seleccionar **Guardar y publicar**. De esta forma, se asegura de que se publique el cambio.
 
-![Página de canales en el generador de sitios de Commerce](media/e-commerce-site-04.png)
+![Página de canales en el generador de sitios de Commerce.](media/e-commerce-site-04.png)
 
 Puede agregar nuevos canales seleccionando **Agregar un canal**. Para agregar nuevos idiomas a un canal, seleccione el canal y luego seleccione **Agregar una configuración regional** en el cuadro de diálogo del canal que aparece. Antes de que las configuraciones regionales puedan aparecer en el cuadro de diálogo, deben estar preconfiguradas para el canal de la tienda en línea en la sede central de Commerce.
 
-![Cuadro de diálogo del canal en el generador de sitios de Commerce](media/e-commerce-site-05.png)
+![Cuadro de diálogo del canal en el generador de sitios de Commerce.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Configurar un inquilino de Azure B2C
 
@@ -121,3 +118,6 @@ Para obtener información acerca de cómo administrar el contenido del sitio, ve
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
 
 [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

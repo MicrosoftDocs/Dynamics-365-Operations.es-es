@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680945"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568499"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -29,11 +28,11 @@ ms.locfileid: "4680945"
 > Esta función se admite en Finance and Operations (versión 7.2 y posterior).
 
 ## <a name="introduction"></a>Introducción
-Este tema muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
+Este tema muestra cómo insertar un informe de Microsoft Power BI en la pestaña **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
 
 ## <a name="prerequisites"></a>Requisitos previos
 + Obtenga acceso a un entorno del desarrollador de software que ejecute la actualización de plataforma 8 o posterior.
-+ Informe analítico (archivo .pbix) que se ha creado usando Microsoft Power BI Desktop, y que tiene un modelo de datos originario de la base de datos del almacén de entidades.
++ Informe analítico (archivo .pbix) que se ha creado usando Microsoft Microsoft Power BI Desktop, y que tiene un modelo de datos originario de la base de datos del almacén de entidades.
 
 ## <a name="overview"></a>Información general
 Si extiende un espacio de trabajo de la aplicación existente o presenta un nuevo espacio de trabajo propio, puede usar las visualizaciones analíticas incrustadas para entregar visualizaciones profundas e interactivas de los datos de la empresa. El proceso para agregar una ficha de espacio de trabajo analítico tiene cuatro pasos.
@@ -175,3 +174,6 @@ public static void initializeReportControl(
 | showFilterPane   | Un valor booleano que indica si el panel de filtros se debe mostrar (**true**) u ocultar (**false**).     |
 | showNavPane      | Un valor booleano que indica si el panel de navegación se debe mostrar (**true**) u ocultar (**false**). |
 | defaultFilters   | Los filtros predeterminados del informe de Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

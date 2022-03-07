@@ -1,39 +1,34 @@
 ---
 title: Información general del entorno de evaluación de Dynamics 365 Commerce
-description: Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
+description: Este tema ofrece una visión general del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bdd634a04b6bbcf50d04cae8d670367268e57f1e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415429"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795892"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Información general del entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
+Este tema ofrece una visión general del ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Los entornos de evaluación de Commerce no suelen estar disponibles y se conceden a socios y clientes por solicitud. Para obtener más información, póngase en contacto con su partner de Microsoft.
-
-## <a name="overview"></a>Información general
 
 El entorno de evaluación de Commerce es un entorno integral opcional de Dynamics 365 Commerce que permite a partners y posibles clientes probar el producto de Commerce.
 
@@ -64,3 +59,6 @@ Para aprovisionar el entorno de evaluación de Commerce, consulte [Aprovisionar 
 [Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Preguntas más frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

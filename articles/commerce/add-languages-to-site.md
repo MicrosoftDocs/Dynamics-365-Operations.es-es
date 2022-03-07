@@ -2,36 +2,30 @@
 title: Agregar idiomas al sitio
 description: Este tema explica cómo agregar compatibilidad para idiomas adicionales a un sitio de Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415474"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964563"
 ---
 # <a name="add-languages-to-your-site"></a>Agregar idiomas al sitio
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema explica cómo agregar compatibilidad para idiomas adicionales a un sitio de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Puede localizar su sitio web en cualquier idioma admitido por Commerce. (La lista de idiomas admitidos aparece más adelante en este tema.) Para agregar un idioma en su sitio web, primero debe agregarlo a una tienda en línea que esté enlazada a su sitio.
 
@@ -171,8 +165,9 @@ El idioma que ha agregado estará ahora disponible de modo que pueda configurar 
 
 [Agregar un icono de favoritos](add-favicon.md)
 
-[Agregar un mensaje de bienvenida](add-welcome-message.md)
-
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

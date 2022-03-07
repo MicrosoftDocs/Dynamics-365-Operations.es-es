@@ -2,11 +2,9 @@
 title: Guías de tareas nuevas o actualizadas (noviembre de 2016)
 description: 'En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (noviembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.'
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9c422b0d24c3f7bd4cd9b4b4d00fb26597bfdebb
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 3f36ceb535919991c1be0501daabd94e966723fa875cf8765439212d235e82a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728136"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Guías de tareas nuevas o actualizadas (noviembre de 2016)
 
@@ -547,3 +545,6 @@ La Biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guías de tareas nuevas o actualizadas (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

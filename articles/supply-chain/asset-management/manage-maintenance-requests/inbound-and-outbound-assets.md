@@ -1,12 +1,10 @@
 ---
 title: Activos de entrada y de salida
 description: En este tema se explica cómo registrar activos de entrada y salida en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759632"
 ---
 # <a name="inbound-and-outbound-assets"></a>Activos de entrada y de salida
 
@@ -44,7 +42,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 3. Seleccione **Actualizar estado de solicitud de mantenimiento**.
 4. Seleccione **Entrante** (u otro estado de ciclo de vida que haya creado para los activos de entrada) y, a continuación, seleccione **Aceptar**.
 
-![Registrar activos como de entrada](media/07-manage-maintenance-requests.png)
+![Registrar activos como de entrada.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registrar los activos entrantes como recibidos
 
@@ -53,7 +51,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 3. Seleccione **Recibir activos**.
 4. En el campo **Recibido**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de entrada**.
 
-![Registrar los activos entrantes como recibidos](media/08-manage-maintenance-requests.png)
+![Registrar los activos entrantes como recibidos.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registrar activos como de salida
 
@@ -70,3 +68,6 @@ Cuando haya completado el mantenimiento o el trabajo de reparación, puede regis
 2. Seleccione el activo o la solicitud de mantenimiento.
 3. Seleccione **Entregar activos**.
 4. En el campo **Entregado**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de salida**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,25 @@
 title: Cumplimiento de pedido de almacén
 description: Este tema proporciona una visión general del cumplimiento de los pedidos de almacén.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db2e9d8b4b0f5102418d842788d220a5099b831a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965411"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338312"
 ---
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
 
@@ -35,7 +34,7 @@ La operación de cumplimiento en el punto de venta ofrece una sola área de trab
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acceso al cumplimiento unificado de pedido en el punto de venta
 
-El cumplimiento de pedido, [Operación ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
+El cumplimiento de pedido, [Operación ID 928](pos-operations.md), puede usarse para tener acceso al área de trabajo de cumplimiento de pedido del almacén en el punto de venta.
 
 La operación de cumplimiento de pedido no tiene su propio permiso listo para usar, pero en el futuro, los usuarios podrán utilizar el permiso **Permitir recuperar pedido** para invocar la operación desde el punto de venta.
 
@@ -95,7 +94,7 @@ Una vez aceptado un pedido, las líneas se pueden seleccionar y marcar como **Se
 
 Las listas de selección se pueden imprimir en el punto de venta para ayudar a los trabajadores a realizar el proceso de selección. Una lista de selección impresa se puede llevar con el trabajador que realiza la selección y según se seleccionan los productos, el trabajador las marcaría manualmente como seleccionado en la lista de selección.
 
-El formato de lista de selección se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+El formato de lista de selección se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md).
 
 Si se seleccionan las líneas y se imprime una lista de selección para esas líneas, se actualizan automáticamente con el estado **Seleccionado**.
 
@@ -121,7 +120,7 @@ Las líneas de pedido se pueden empaquetar en cualquier momento después de que 
 - **Estado resultante:** Empaquetado o empaquetado parcialmente
 - **Estado back-office resultante:** Entregado o entregado parcialmente
 
-Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Commerce y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](receipt-templates-printing.md).
 
 **Acción: Marcar como empaquetado**
 
@@ -217,3 +216,6 @@ El cumplimiento de pedido en el punto de venta incluye un filtrado para ayudar a
 - Fecha de creación
 - Fecha de entrega
 - Fecha de recepción
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Nomenclatura de los nombres y los números de variante de los productos
 description: En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo].
-author: t-benebo
+author: roxanadiaconu
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87b78b3003a13586b10fac57fb1d39f004efdf1f81c23420614eb3abd1e4a016
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761053"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de los nombres y los números de variante de los productos
 

@@ -2,15 +2,12 @@
 title: Contratar candidatos de trabajo
 description: Este tema muestra cómo contratar candidatos en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669189"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6051818"
 ---
 # <a name="recruit-job-candidates"></a>Contratar candidatos de trabajo
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratación. También le ayuda a realizar una transición sin problemas de candidatos de puestos de trabajo a empleados. Si su organización usa una aplicación de contratación independiente, su proceso de contratación puede incluir los siguientes pasos:
 
@@ -38,7 +35,7 @@ Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratac
 Si no está usando una aplicación de contratación independiente, también puede administrar candidatos manualmente en Human Resources.
 
 >[!NOTE]
->Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, consulte [Configurar la integración de Common Data Service](hr-admin-integration-common-data-service.md) y [Configurar las entidades virtuales de Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, consulte [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md) y [Configurar las tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > También puede encontrar aplicaciones de integración de contratación en [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +43,13 @@ Si no está usando una aplicación de contratación independiente, también pued
 
 ## <a name="enable-recruiting-requests"></a>Habilitar solicitudes de contratación
 
-Si desea enviar solicitudes de contratación en Human Resources, debe habilitar primero la funcionalidad en **Parámetros de recursos humanos**.
+Si desea enviar solicitudes de contratación en Human Resources, debe habilitar primero la funcionalidad en **Parámetros compartidos de recursos humanos**.
 
 1. En el espacio de trabajo **Administración de personal**, seleccione **Vínculos**.
 
-2. En **Configuración**, seleccione **Parámetros de Recursos Humanos**.
+2. En **Configuración**, seleccione **Parámetros compartidos de Recursos Humanos**.
 
-3. Sobre la pestaña **General**, debajo de **CONTRATACIÓN**, establezca **Habilitar solicitudes de contratación** en **Sí**.
-
-   ![Habilitar solicitudes de contratación](./media/hr-recruit-0-enable-requests.png)
+3. En la pestaña **Contratación**, en **CONTRATACIÓN**, establezca **Habilitar solicitudes de contratación** en **Sí**.
 
 ## <a name="add-a-recruiting-request-location"></a>Agregar una ubicación de solicitud de contratación
 
@@ -224,6 +219,9 @@ Si es necesario, puede despedir a un candidato después de contratarlo. Por ejem
 
 ## <a name="see-also"></a>Consulte también
 
-[Configurar entidades virtuales de Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Configurar tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizar los recursos](hr-personnel-departments-jobs-positions.md)<br>
 [Configurar los componentes de un trabajo](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

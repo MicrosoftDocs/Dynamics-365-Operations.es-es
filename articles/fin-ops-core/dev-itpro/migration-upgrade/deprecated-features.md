@@ -1,12 +1,10 @@
 ---
 title: Funciones quitadas u obsoletas de versiones anteriores
-description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
+description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores.
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,14 +14,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679965"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193575"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +37,7 @@ Este tema describe las características que se eliminaron o que están en desuso
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -94,7 +92,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Localización italiana |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe de la lista negra (TI) - Referencia de funcionalidad IT-00001**. |
+| **Estado**                         | En desuso: El 1 de octubre de 2020 planificamos no admitir más este informe. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Informe de impuestos nacional – Referencia de funcionalidad IT-00003
 
@@ -106,6 +104,39 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe sobre impuestos nacionales - Referencia de funcionalidad IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>Anuncio de desactivación de octubre de 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagramas de flujo en el Modelador de procesos empresariales
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motivo de la depreciación/eliminación</strong></td>
+<td>Vamos a dejar de usar el componente de diagramas de flujo en el Modelador de procesos empresariales (BPM), ya que el diseño heredado hizo que se usara poco.</td>
+</tr>
+<tr>
+<td><strong>¿Reemplazado por otra función?</strong></td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>Áreas afectadas</strong></td>
+<td>Modelador de procesos empresariales</td>
+</tr>
+<tr>
+<td><strong>Estado</strong></td>
+<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. La siguiente funcionalidad no estará disponible:
+<ul>
+<li>Todos los diagramas de flujo serán de solo lectura y no estarán disponibles para edición. Las propiedades de forma asociadas con las actividades del diagrama de flujo tampoco estarán disponibles. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
+<li>Los pasos del proceso serán de solo lectura y no estarán disponibles para edición.</li>     
+<li>La función de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.
+<p><strong>Nota:</strong> esta función quedó en desuso anteriormente y fue reemplazada por las integraciones de Microsoft Azure DevOps.</p>
+</li>
+<li>El historial de versiones del diagrama de flujo no estará disponible.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con Platform update 29
 
@@ -149,7 +180,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **¿Reemplazado por otra característica?**   | A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda. |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
@@ -163,7 +194,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo de la depreciación/eliminación** | El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización. La nueva función acción adhesiva predeterminada corrige esto. Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **¿Reemplazado por otra característica?**   | A partir de Platform update 21 se añadió una función para "acciones adhesivas predeterminadas". Esta función se puede habilitar en la página **Opciones de rendimiento del cliente**. |
 | **Áreas de producto afectadas**         | Cuadrículas en el cliente web |
 | **Opción de implementación**              | Todas |
@@ -174,7 +205,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La experiencia de filtrado "es uno de" se ha rediseñado en la Platform update 22, y se planea que acabe siendo la única experiencia de filtrado "es uno de". |
-| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **¿Reemplazado por otra característica?**   | A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**. Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento. |
@@ -210,7 +241,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
+| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -220,7 +251,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
+| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o ambiente de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
@@ -334,6 +365,16 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Nómina y recursos humanos para Rusia
+Módulo específico del país ruso para administrar la información de administración del personal, detalles de la hoja de horas para los empleados, contabilidad de nómina y creación de extractos de pago. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | La nómina no está incluida en el enfoque estratégico global de la cartera de Dynamics 365. Los socios y los ISV están mejor posicionados para proporcionar una funcionalidad de nómina que cumpla con las regulaciones locales y las actualizaciones de impuestos.|
+| **¿Reemplazado por otra característica?**   | N.º|
+| **Áreas de producto afectadas**         | Gestión de recursos humanos y nómina rusa |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es una de las próximas actualizaciones de la versión 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 con Platform update 15
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
@@ -375,7 +416,7 @@ Estos dos informes ya no se admiten en Finance and Operations. En su lugar, el i
 | **Estado**                       | En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3. Sin embargo, el código para los informes permanece en el producto. El plan es quitar el código en una versión futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido Power BI disponibles en AppSource
-Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
+Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Rendimiento de canal minorista**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -874,7 +915,7 @@ Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las v
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube. |
+| **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un ambiente de nube. |
 | **¿Reemplazado por otra característica?**   | N.º                                                                                      |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Gestión de inventarios                                    |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                          |
@@ -903,7 +944,7 @@ Extracto del impuesto federal para el impuesto de ICMS
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo brasileño de contingencia SCAN brasileña para NF-e
 
-El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.
+El ambiente de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el ambiente de la Secretaría de Hacienda (SEFAZ) no está disponible.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -970,7 +1011,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por otra característica. |
-| **¿Reemplazado por otra característica?**   | Common Data Service                                      |
+| **¿Reemplazado por otra característica?**   | Dataverse                                      |
 | **Áreas de producto afectadas**         | Conector para Dynamics                         |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                           |
 
@@ -1028,7 +1069,7 @@ Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos c
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
+| **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los ambientes hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
 | **¿Reemplazado por otra característica?**   | El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.   |
 | **Áreas de producto afectadas**         | Todos los módulos  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
@@ -1105,7 +1146,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto. |
-| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling. |
+| **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el ambiente de Microsoft Visual Studio Tooling. |
 | **Áreas de producto afectadas**         | Todos los módulos     |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.       |
 
@@ -1335,7 +1376,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 
 ### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
 
-La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
+La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](../../fin-ops/get-started/ax4-content-retired.md). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1373,3 +1414,6 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 |     <strong>Áreas de producto afectadas</strong>     |                                              Contabilidad general                                              |
 |             <strong>Estado</strong>             |                                      Eliminado a partir de Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

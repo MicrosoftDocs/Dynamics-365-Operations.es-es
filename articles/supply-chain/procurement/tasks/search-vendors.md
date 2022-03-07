@@ -1,26 +1,24 @@
 ---
 title: Buscar proveedores
 description: Sepa cómo buscar proveedores según criterios específicos.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7caa146532d2bce06b009c45da635327766a88d1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9fd2b300586e5a4880a21fa2251342f37726ad0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020714"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577153"
 ---
 # <a name="search-for-vendors"></a>Buscar proveedores
 
@@ -38,3 +36,6 @@ Sepa cómo buscar proveedores según criterios específicos. Este ejemplo muestr
 6. En el campo País/región, escriba un valor.
 7. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

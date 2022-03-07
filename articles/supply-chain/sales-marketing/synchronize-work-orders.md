@@ -1,7 +1,7 @@
 ---
 title: Sincronizar pedidos de trabajo con proyecto de Field Service a Supply Chain Management
 description: En este tema se describe las plantillas y la tarea subyacente que se usan para sincronizar pedidos de trabajo con un número de proyecto de Dynamics 365 Field Service a pedidos de ventas en Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
 ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359820"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Sincronizar pedidos de trabajo con proyecto de Field Service a Supply Chain Management
 
@@ -61,19 +61,19 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Órdenes de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderHeader
 
-[![Asignación de plantillas en la integración de datos, pedidos de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderHeader.](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Órdenes de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderHeaderProject
 
-[![Asignación de plantillas en la integración de datos, pedidos de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderHeaderProject.](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Órdenes de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderProduct
 
-[![Asignación de plantillas en la integración de datos, pedidos de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderProduct.](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Órdenes de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderService
 
-[![Asignación de plantillas en la integración de datos, pedidos de trabajo con proyecto (Field Service a Supply Chain Management): WorkOrderService.](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

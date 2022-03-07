@@ -1,24 +1,26 @@
 ---
 title: Definir el recuento cíclico
 description: La cuenta de ciclo es un proceso de almacén que puede usar para revisar artículos de inventario disponibles.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45107dca67ac13669c468c4c32fb4adfdab2195b
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: f1424bc4c4ff0f8528d6577e80324082cb2ec7f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902155"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977172"
 ---
 # <a name="define-cycle-counting"></a>Definir el recuento cíclico 
 
@@ -93,6 +95,3 @@ La cuenta de ciclo es un proceso de almacén que puede usar para revisar artícu
 21. Haga clic en **Aceptar**.
 22. Cierre la página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

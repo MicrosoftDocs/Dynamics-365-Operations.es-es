@@ -1,12 +1,10 @@
 ---
 title: Administración de defectos
 description: Este tema explica la administración de defectos en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711962"
 ---
 # <a name="fault-management"></a>Administración de defectos
 
@@ -108,7 +106,7 @@ En el diseñador de defectos, configure los datos del defecto en tipos de activo
 
 7. Seleccione **Guardar** para guardar los cambios.
 
-![Página de diseñador de defecto](media/21-setup-for-work-orders.png)
+![Página de diseñador de defecto.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Crear causas de defecto
 
@@ -132,3 +130,6 @@ Siga estos pasos para crear una lista de sugerencias de soluciones y reparacione
 
 > [!NOTE]
 > Puede cambiar los nombres de los síntomas, áreas, tipos y causas de los defectos, así como de las soluciones según sea necesario. Los cambios en el nombre se reflejan automáticamente en los registros relacionados del defecto.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

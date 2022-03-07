@@ -2,15 +2,12 @@
 title: Personalizar puntos focales de imagen
 description: En este tema se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727615"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar puntos focales de imagen
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Cuando se carga una imagen en la Biblioteca multimedia del generador de sitios de Commerce, el sistema intenta determinar el punto focal de la imagen. Por ejemplo, si la imagen tiene una persona, el sistema establecerá el punto focal en la cara de la persona de forma predeterminada. En la mayoría de los casos, el punto focal configurado automáticamente funciona bien para todas las ventanas gráficas, pero a veces es posible que desee ajustar el punto focal para asegurarse de que una parte específica de la imagen esté siempre visible.
 
@@ -60,3 +55,6 @@ Para definir un punto focal personalizado para una imagen, siga estos pasos.
 [Recortar imágenes](dam-crop-images.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

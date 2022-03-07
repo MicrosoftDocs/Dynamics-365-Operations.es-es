@@ -5,6 +5,7 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
@@ -13,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 16f1c56ecd69f4dc7bfd80e74d3f35147cc173d6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576673"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919828"
 ---
 # <a name="rebate-management-deal-workflows"></a>Flujos de trabajo de acuerdos de gestión de devoluciones
 
@@ -27,12 +28,12 @@ ms.locfileid: "7576673"
 
 Para aprobar acuerdos de devoluciones, la gestión de devoluciones utiliza la misma plataforma de flujo de trabajo que otras aplicaciones de Finance and Operations. Hay dos procesos de trabajo asociados con cada flujo de trabajo:
 
-- Un elemento del flujo de trabajo aprueba el acuerdo.
 - Un elemento del flujo de trabajo activa el trato para que el usuario o el proceso del flujo de trabajo puedan aprobar las transacciones.
+- Un elemento del flujo de trabajo aprueba el acuerdo.
 
 Antes de poder utilizar una oferta de devolución, debe estar activa en el módulo **Gestión de devoluciones**. Para activar una oferta, primero debe crear y configurar un *Flujo de trabajo de la operación de gestión de devoluciones*.
 
-Los usuarios no pueden aprobar acuerdos manualmente. El flujo de trabajo debe usarse siempre.
+Una vez que se activa un flujo de trabajo para la gestión de devoluciones, los usuarios no pueden aprobar acuerdos manualmente. El flujo de trabajo debe usarse siempre.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Crear y administrar flujos de trabajo de acuerdos de gestión de devoluciones
 
@@ -42,17 +43,4 @@ Para trabajar con sus flujos de trabajo de gestión de devoluciones de acuerdos,
 
 Para activar un acuerdo a través de un flujo de trabajo, ábralo (por ejemplo, en la página **Todas las ofertas de gestión de devoluciones**). Luego, en el panel de acciones, seleccione **Flujo de trabajo \> Enviar**. Una vez que el nuevo acuerdo se haya procesado y aprobado a través del flujo de trabajo, estará activo y listo para usar.
 
-Una vez que se ha activado un acuerdo, no puede cambiar la mayoría de su configuración. Si debe cambiar una oferta activa, primero desactívela y luego cree una nueva oferta. Si el nuevo acuerdo se parece al anterior, puede crearlo copiando el anterior.
-
-Puede cambiar la siguiente configuración para una oferta después de que se haya activado:
-
-- Conciliar antes de
-- Garantía acumulativa
-- Perfil de contabilización
-- Perfil de contabilización para la garantía
-- Notas de documentos
-- Divisa
-- Fecha de inicio
-- Fecha de finalización
-
-Además, se pueden eliminar las líneas de reembolso.
+Una vez que se ha activado un acuerdo, no puede cambiar su configuración. Si debe cambiar una oferta activa, desactívela y luego cree una nueva oferta. Si el nuevo acuerdo se parece al anterior, puede crearlo copiando el anterior.

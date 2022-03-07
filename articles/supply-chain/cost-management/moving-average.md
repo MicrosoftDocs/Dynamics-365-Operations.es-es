@@ -2,11 +2,9 @@
 title: Moviendo mensaje
 description: La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6721c01fd0ad3eec30de99dee3b5e98de6bd3b52
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967492"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567544"
 ---
 # <a name="moving-average"></a>Moviendo mensaje
 
@@ -154,3 +152,6 @@ En este ejemplo de media móvil, se imprime el informe valor de inventario para 
 
 > [!NOTE]
 > No se puede conciliar el libro mayor con el inventario mediante la opción de orden **Hora de la transacción**. El informe se debe imprimir mediante la opción **Fecha de registro**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

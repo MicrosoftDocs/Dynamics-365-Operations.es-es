@@ -1,30 +1,32 @@
 ---
 title: Acceder a direcciones privadas por rol de seguridad
-description: El artículo explica cómo resolver la incidencia cuando un cliente no puede acceder a direcciones privadas.
-author: andreabichsel
-manager: AnnBe
-ms.date: 11/02/2018
+description: En este tema se explica cómo resolver el problema cuando un cliente no puede tener acceso a direcciones privadas.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fbe0e8acc1b879e4d7982b33413236432f25f630
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05895d58cfd108c45c3c75921cb6930b904a6482
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420392"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068393"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>Acceder a direcciones privadas por rol de seguridad
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Emisión**
 
@@ -38,4 +40,7 @@ Para solucionar el problema, el cliente debe seguir estos pasos para el rol de s
 2. En la pestaña **Seguridad de ubicación privada** , mueva el nuevo rol de seguridad desde la lista **Roles disponibles** a la lista **Roles seleccionados**.
 3. Seleccione **Guardar**.
 
-![Página de parámetros de la libreta de direcciones global](media/GAD-parameters.png)
+![Página de parámetros de la libreta de direcciones global.](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

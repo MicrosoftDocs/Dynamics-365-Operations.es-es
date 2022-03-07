@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 1b75d5cec991b2863e7e0213257ac63d5ab566a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233208"
 ---
 # <a name="advanced-load-building-during-wave"></a>Creación avanzada de carga durante una oleada
 
@@ -250,3 +249,6 @@ Este escenario muestra cómo la configuración que se describió anteriormente e
 1. En el pedido de ventas que acaba de crear, en la ficha desplegable **Líneas de pedido de venta**, seleccione **Agregar línea** para añadir otra línea.
 1. En la nueva línea, establezca el campo **Número de artículo** a *M9200* y el campo **Cantidad** a *1*.
 1. Repita las líneas 6 a 9 para reservar la línea y liberarla en el almacén. Como antes, el sistema crea un envío **nuevo** para la línea que agregó. Sin embargo, porque el artículo es del grupo de artículos **Audio de automóvil**, **no pasa las restricciones que configuró para el grupo mixto de carga**. Por lo tanto, es **agregado a una nueva carga**. Si no hubiera especificado un grupo mixto de carga en la plantilla de construcción de carga, este envío se habría agregado a la primera carga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

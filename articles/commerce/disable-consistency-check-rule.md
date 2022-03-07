@@ -1,16 +1,13 @@
 ---
-title: Deshabilitar reglas en el comprobador de coherencia para transacciones comerciales
-description: En este tema se describe la funcionalidad para deshabilitar las reglas del comprobador de coherencia de la transacción en Microsoft Dynamics 365 Commerce.
-author: josaw1
-manager: AnnBe
-ms.date: 10/15/2019
+title: Deshabilitar las reglas utilizadas en el proceso de validación de transacciones
+description: En este tema se describe la funcionalidad para deshabilitar las reglas de validación de transacciones en Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/11/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,21 +15,21 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 37209f1c1de19335f5f9fa6636ab55dd8b2fccc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cdaea51b4c84e6a62f0eb9412315ae77b4c11503
+ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459877"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7919536"
 ---
-# <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>Deshabilitar reglas en el comprobador de coherencia para transacciones comerciales 
+# <a name="disable-rules-used-in-the-transaction-validation-process"></a>Deshabilitar las reglas utilizadas en el proceso de validación de transacciones
 
 [!include [banner](../includes/banner.md)]
 
-Los minoristas pueden tener procesos y escenarios empresariales que son únicos para ellos. Por tanto, no todas las reglas que se incluyen de forma predeterminada en el comprobador de coherencia de transacción de Commerce son aplicables a todos los minoristas. Para adaptar diferencias, Microsoft Dynamics 365 Commerce proporciona una función que se puede usar para deshabilitar las reglas que no se pueden aplicar.
+Los minoristas pueden tener procesos y escenarios empresariales que son únicos para ellos. Por tanto, no todas las reglas que se incluyen en el proceso de validación de transacciones de Commerce son aplicables a todos los minoristas. Para adaptar diferencias, Microsoft Dynamics 365 Commerce proporciona funcionalidad que se puede usar para deshabilitar reglas que no se pueden aplicar.
 
-Para ver la lista de reglas disponibles en el comprobador de coherencia de transacción en su entorno y ver el estado de cada regla, vaya a **Venta minorista \> Retail y Commerce \> Parámetros \> Parámetros de Commerce** y seleccione la pestaña **Validación de transacciones**.
+Para ver la lista de reglas que están disponibles en el proceso de validación de transacciones en su entorno, así como para ver el estado de cada regla, vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros\> Parámetros de Commerce** y seleccione la pestaña **Validación de transacciones**. Todas las reglas habilitadas se utilizan para validar transacciones durante el proceso **Validar transacciones de la tienda** y deben pasar para que las transacciones se recopilen y registren en un extracto transaccional.
 
-De forma predeterminada, el estado de cada regla se establece en **Habilitado**. Por tanto, todas las reglas se utilizan para validar transacciones antes de que se incluyan en los extractos de Commerce. Para deshabilitar una regla, cambie su estado a **Deshabilitado**. No se consideran las reglas deshabilitadas cuando se validan las transacciones durante el proceso de cálculo de extractos.
+De forma predeterminada, el estado de cada regla se establece en **Habilitado**. Por tanto, todas las reglas se utilizan para validar transacciones antes de que se puedan incluir en los extractos transaccionales de Commerce. Para deshabilitar una regla, cambie su estado a **Deshabilitado**. Las reglas deshabilitadas no se consideran cuando se validan las transacciones durante el proceso **Validar transacciones de la tienda**.
 
-Para omitir el proceso de validación completo, con independencia de las reglas habilitadas, vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros de Commerce** y, a continuación, en la pestaña **Validación de transacciones**, establezca la opción **Deshabilitar comprobador de coherencia para transacciones de Commerce** en **Sí**. Después de que esta opción se establezca en **No**, no se podrá volver a establecer en **Sí** desde la interfaz de usuario (IU).
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

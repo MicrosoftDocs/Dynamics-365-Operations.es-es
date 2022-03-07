@@ -1,21 +1,21 @@
 ---
 title: Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management
 description: Este tema describe cómo asignar títulos e iconos de paso para flujos de tareas nuevos o personalizados para la aplicación móvil Warehouse Management.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103322"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049373"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management
 
@@ -25,11 +25,14 @@ Este tema describe cómo asignar títulos de paso e iconos de paso para flujos d
 
 Las siguientes ilustraciones muestran cómo aparecen los títulos e iconos de pasos en la aplicación móvil Warehouse Management.
 
-![Ejemplo de un icono de paso y un título de paso en la aplicación móvil Warehouse Management.](media/step-icon-example.png "Ejemplo de un icono de paso y un título de paso en la aplicación móvil Warehouse Management")
+![Ejemplo de un icono de paso y un título de paso en la aplicación móvil Warehouse Management](media/step-icon-example.png "Ejemplo de un icono de paso y un título de paso en la aplicación móvil Warehouse Management")
 
-## <a name="turn-this-feature-on-or-off"></a>Activar o desactivar esta característica
+## <a name="turn-on-this-feature-in-your-system"></a>Activar esta función en el sistema
 
-Para usar la funcionalidad descrita en este tema, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+
+- **Módulo:** *Gestión de almacén*
+- **Nombre de la función:** *Configuración de usuario, iconos y títulos de pasos para la nueva aplicación de almacén*
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Íconos, clases e ID de pasos estándar
 
@@ -347,13 +350,13 @@ Este ejemplo explica cómo configurar los iconos y los títulos de los pasos par
 
 En la ilustración siguiente se muestra el flujo de la tarea.
 
-![Diagrama de flujo de tarea.](media/step-icons-example-task-flow.png "Diagrama de flujo de tarea")
+![Diagrama de flujo de tarea](media/step-icons-example-task-flow.png "Diagrama de flujo de tarea")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Cree una clase de paso para la página de entrada del contenedor
 
 La página de entrada del contenedor permite al trabajador escanear o introducir una ID de contenedor.
 
-![Página de entrada del contenedor.](media/step-icons-example-container-input.png "Página de entrada del contenedor")
+![Página de entrada del contenedor](media/step-icons-example-container-input.png "Página de entrada del contenedor")
 
 En la página de entrada del contenedor, el nombre de control del campo de entrada es `ContainerId`. Debido a que este nombre de control no está en la [lista de ID de pasos](#step-ids-classes), no encontrará un paso existente que se base en él. Por lo tanto, debe crear una clase de paso que represente el paso. He aquí un ejemplo.
 
@@ -379,7 +382,7 @@ Para asignar un icono de paso, configure `defaultStepIcon` a uno de los ID de ic
 
 La página de entrada de peso le permite al trabajador introducir un peso.
 
-![Página de entrada de peso.](media/step-icons-example-weight-input.png "Página de entrada de peso")
+![Página de entrada de peso](media/step-icons-example-weight-input.png "Página de entrada de peso")
 
 En la página de entrada de peso, el nombre de control del campo de entrada es `Weight`, que está en la [lista de ID de pasos](#step-ids-classes). Por lo tanto, si el icono de paso y el título que se definen en la clase `WHSMobileAppStepWeight` son aceptables para usted, no tiene que cambiar nada para este paso.
 

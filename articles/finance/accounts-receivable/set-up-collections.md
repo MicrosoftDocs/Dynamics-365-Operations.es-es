@@ -2,9 +2,11 @@
 title: Configurar cobros
 description: En este artículo se explica cómo configurar la funcionalidad de cobros.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e06da265271e2148804c51abc7cd9ffc29a3e20e73dda3a1a23966f0e6586e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 732b9ba95e6a3fdbb8bdd3e6aa745c26cd3904b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769827"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971687"
 ---
 # <a name="set-up-collections"></a>Configurar cobros
 
@@ -40,7 +42,8 @@ En este artículo se explica cómo configurar la funcionalidad de cobros. Debe c
 
 Estos puntos se tratan con más detalle en el resto de este tema. 
 
-## <a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
+<a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
+-------------------------------
 
 Configure una definición de período de vencimiento. El período de vencimiento define las columnas que aparecen en las páginas de lista **Saldos vencidos**, **Actividades de cobros** y **Casos de cobros**. También define los períodos que aparecen en la página **Cobros**. Si un grupo de clientes está configurado, se usará la definición del período de vencimiento del grupo. Si no se ha configurado ningún grupo, se usará la definición de período de vencimiento predeterminada especificada en la página **Parámetros de clientes**. Si no se especifica ninguna definición de período de vencimiento predeterminada, se usa la primera definición de período de vencimiento de la página **Definiciones de período de vencimiento**.
 
@@ -111,6 +114,3 @@ Para obtener más información, consulte los siguientes temas:
 
  - [Revisar información de cobros](tasks/review-collections-information.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

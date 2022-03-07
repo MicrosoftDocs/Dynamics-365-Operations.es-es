@@ -2,9 +2,11 @@
 title: Establecer método de pago de cliente
 description: En este tema se explica cómo crear un método de pago para los pagos de clientes.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0dd9fb37c733730360c78b702c62adadfdc6bd476ba4c436da08c86a9ad7ff55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e60459c417c6018c4088009a323cf7f66616ef4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762148"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220212"
 ---
 # <a name="establish-customer-method-of-payment"></a>Establecer método de pago de cliente
 

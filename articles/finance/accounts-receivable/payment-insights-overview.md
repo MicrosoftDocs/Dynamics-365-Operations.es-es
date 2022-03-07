@@ -2,28 +2,27 @@
 title: Información de pago del cliente (vista previa)
 description: Este tema describe la capacidad de informaciones de pago que ayuda a mejorar el conocimiento de las prácticas de pago típicas de los clientes individuales. La característica puede ayudarle a identificar circunstancias que justifiquen iniciar procesos de recolección antes de lo haya hecho de otra manera.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644642"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984011"
 ---
 # <a name="customer-payment-insights-preview"></a>Información de pago del cliente (vista previa)
 
@@ -50,11 +49,11 @@ Para cada factura abierta, la Información de pago de clientes (Vista previa) pu
 
 La información de pago de clientes (Vista previa) también proporciona una vista agregada de los pagos esperados, que puede ayudar a las organizaciones a conocer el importe total de pago que pueden esperar de un cliente en una de las tres categorías, Puntual, Tarde y Muy tarde.
 
-[![Vista agregada de las predicciones de pago](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Vista agregada de las predicciones de pago.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Además, cada factura se asigna a una probabilidad de pago a tiempo. Si la probabilidad de pago a tiempo es inferior al 50 %, las facturas se etiquetan con un círculo rojo para indicar que estas facturas puede requerir la asistencia de cobros. 
 
-[![Lista de posibilidades de pago](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de posibilidades de pago.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Información de pago del cliente (versión preliminar) también proporcionan información contextual para explicar la predicción, como los factores de alto nivel que influenciaron las predicciones, el estado actual del negocio con el cliente, y los detalles sobre el comportamiento histórico de pago del cliente. En muchos negocios, el proceso de cobros se ha sido una actividad reactiva; el proceso de cobros no se inicia hasta que vencen las facturas debidas. 
 
@@ -70,6 +69,9 @@ Envíe un correo electrónico a [Información de pagos de clientes (Vista previa
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Las versiones preliminares (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
+Las vistas previas (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance y Operaciones, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

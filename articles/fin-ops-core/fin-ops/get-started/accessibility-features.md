@@ -2,11 +2,9 @@
 title: Características de accesibilidad
 description: Este tema describe la funcionalidad diseñada para ayudar a los usuarios que tienen diferentes discapacidades.
 author: TLeforMicrosoft
-manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,16 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798704"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071067"
 ---
 # <a name="accessibility-features"></a>Características de accesibilidad
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema describe la funcionalidad diseñada para ayudar a los usuarios que tienen diferentes discapacidades a usar esta aplicación. Por ejemplo, hay características para las personas que usan tecnologías de ayuda a la visión como Microsoft Windows Narrator.
 
@@ -54,13 +55,13 @@ Puede accederse a cada acción que se ofrece en una página desde un teclado, me
 
 Desea ejecutar la acción **Registro de notificación por correo electrónico** que aparece en el grupo **Notificación por correo electrónico** en la pestaña **Pedido de ventas** del panel de acciones.
 
-![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de &quot;Registro de la notificación por correo electrónico&quot; en el panel de acciones")
+![Acción de registro de la notificación por correo electrónico en el panel de acciones.](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de &quot;Registro de la notificación por correo electrónico&quot; en el panel de acciones")
 
 Una opción es para usar el teclado. Presione Ctrl+F6 para mover el enfoque al panel de acciones, y presione la ficha repetidamente para pasar por todas las fichas y acciones, hasta que la acción **Registro de notificación por correo electrónico** tenga el foco.
 
 Sin embargo, también puede ejecutar la acción más directamente. En cualquier lugar de la página, presione Ctrl+Apóstrofo (') para mostrar el cuadro de búsqueda para las acciones.
 
-![Cuadro de búsqueda de acciones](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Cuadro de búsqueda de acciones")
+![Cuadro de búsqueda de acciones.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Cuadro de búsqueda de acciones")
 
 En el cuadro de búsqueda, escriba palabras que describen la acción. La acción se a pone a su disposición, y puede ejecutarla directamente. Por ejemplo, si especifica **correo electrónico**, **notific** (una palabra parcial), o **registro**, puede "saltar" a la funcionalidad de registro de la notificación por correo electrónico.
 
@@ -97,3 +98,6 @@ En los teléfonos inteligentes y otras pantallas pequeñas, los controles y el d
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientación para ayudar a los desarrolladores y los clientes a incorporar un pensamiento accesible a sus personalizaciones
 
 Para obtener más información acerca de las prácticas recomendadas de Microsoft para habilitar la accesibilidad, consulte [Accesibilidad en formularios, productos y controles](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

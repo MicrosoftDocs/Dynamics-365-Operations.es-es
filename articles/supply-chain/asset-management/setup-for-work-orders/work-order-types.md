@@ -1,12 +1,10 @@
 ---
 title: Tipos de orden de trabajo
 description: En este tema se explican los tipos de órdenes de trabajo en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9111ffa552059883696cf8248a02dfe70bc12ee7
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d89d7c652837e881f7fcb6014fe017eedc2f876c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351474"
 ---
 # <a name="work-order-types"></a>Tipos de orden de trabajo
 
@@ -50,4 +48,7 @@ Para obtener más información sobre estados y etapas de proyecto del ciclo de v
 
 8. Seleccione **Guardar**.
 
-![Tipos de orden de trabajo](media/16-setup-for-work-orders.png)
+![Tipos de pedido de trabajo.](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

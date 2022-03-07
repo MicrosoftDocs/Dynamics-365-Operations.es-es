@@ -2,33 +2,35 @@
 title: Configurar directivas de factura de proveedor
 description: En este tema se explica cómo configurar políticas de facturas de proveedor.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 678ef8f0b7df00aec615af26cbcadec984331060
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109765"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220068"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Configurar directivas de factura de proveedor
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo configurar políticas de facturas de proveedor. Las directivas de factura de proveedor se ejecutan al registrar una factura de proveedor mediante la página **Factura de proveedor** y al abrir la página de **infracciones de directiva** de factura de proveedor. También puede configurar el flujo de trabajo de la factura de proveedor para ejecutar las directivas de factura de proveedor cada vez que envíe una factura al flujo de trabajo. 
+En este tema se explica cómo configurar políticas de facturas de proveedor. Las directivas de factura de proveedor se ejecutan al registrar una factura de proveedor mediante la página Factura de proveedor y al abrir la página de infracciones de directiva de factura de proveedor. También puede configurar el flujo de trabajo de la factura de proveedor para ejecutar las directivas de factura de proveedor cada vez que envíe una factura al flujo de trabajo. 
 
 - Las directivas de facturas de proveedor no se aplican a las facturas creadas en el registro de facturas o el diario de facturas.  
-- La validación de conciliación de facturas no usa directivas de factura de proveedor, sino que se configura en la página **Parámetros de proveedores**.  
-- Esta grabación usa la empresa de demostración USMF. El rol de administrador de proveedores o jefe de contabilidad realizaría estos pasos. Antes de empezar, asegúrese de que la clave de configuración **Conciliación de facturas** esté seleccionada.
+- La validación de conciliación de facturas no usa directivas de factura de proveedor, sino que se configura en la página Parámetros de proveedores.  
+- Esta grabación usa la empresa de demostración USMF. El rol de administrador de proveedores o jefe de contabilidad realizaría estos pasos. Antes de empezar, asegúrese de que la clave de configuración Conciliación de facturas esté seleccionada.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Preparación de la creación de directivas de facturas de proveedor

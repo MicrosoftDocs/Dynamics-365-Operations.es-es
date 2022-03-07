@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075003"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7548510"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Crear y facturar un pedido de venta de empresas vinculadas para un cliente externo
 
@@ -75,18 +75,5 @@ Siga estos pasos en la entidad jurídica B. Este procedimiento corresponde al cu
 1. Seleccione el pedido de ventas y seleccione **Aceptar**.
 
 La factura de cliente para el pedido de ventas de empresas vinculadas se registra automáticamente en la entidad jurídica B. La factura de proveedor de empresas vinculadas se crea y se registra automáticamente en la entidad jurídica A. Si el pedido de ventas original se configura como entrega directa, la factura de cliente se crea para el pedido de ventas original en la entidad jurídica A.
-
-> [!NOTE]
-> Anteriormente, para los escenarios de ventas de empresas vinculadas, si el flujo de trabajo de la factura del proveedor estaba configurado en la empresa compradora de empresas vinculadas, el pedido de ventas de empresas vinculadas no se podía facturar correctamente. Por lo tanto, el flujo de trabajo de la factura del proveedor tuvo que desactivarse para la empresa compradora de empresas vinculadas. 
-> 
-> Esta limitación se solucionó con una función reciente en la versión 10.0.25. Los pedidos de ventas de empresas vinculadas ahora se pueden facturar cuando el flujo de trabajo de facturas de proveedores está configurado en la empresa compradora de empresas vinculadas.
-> 
-> Para activar esta función, siga estos pasos.
->
-> 1. Seleccione la entidad jurídica de venta de empresas vinculadas.  
-> 2. Vaya a **Clientes \> Clientes \> Todos los clientes**.
-> 3. Seleccione el cliente para la empresa compradora de empresas vinculadas.
-> 4. Vaya a **General \> Configurar \> Empresas vinculadas**.
-> 5. En la pestaña **Políticas de orden de compra**, seleccione el parámetro **Omitir flujo de trabajo de facturas de proveedores para facturas de proveedores de empresas vinculadas**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

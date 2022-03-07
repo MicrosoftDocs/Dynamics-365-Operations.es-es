@@ -1,28 +1,25 @@
 ---
 title: Visión general del mantenimiento preventivo
 description: En este tema se explica el mantenimiento preventivo en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36a70a3e60566fd8048ad404e0c391d898053a0a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8c313a7873ae63b5bb85665067160fdcd6dc15a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016737"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985064"
 ---
 # <a name="preventive-maintenance-overview"></a>Visión general del mantenimiento preventivo
 
@@ -36,5 +33,8 @@ Los planes de mantenimiento se utilizan para el mantenimiento preventivo y react
 
 La siguiente ilustración proporciona una visión general del flujo de trabajo, desde la creación de planes de mantenimiento y rondas de mantenimiento hasta la creación de órdenes de trabajo para activos, en función de dichos planes y rondas de mantenimiento.
 
-![Figura 1](media/01-preventive-maintenance.png)
+![Figura 1.](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

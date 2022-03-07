@@ -1,7 +1,7 @@
 ---
-title: Depreciación con amortización degresiva del 200 %
-description: Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 200 %.
-author: moaamer
+title: Depreciación con amortización degresiva del 200%
+description: Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 200%.
+author: saraschi2
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52a199489ffe42bc7b2d21e85b18dcd0bf35c165
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3f7d821dbd6603eba7a228e5caa6def6d783e4774c72687839bd198f4e228633
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767014"
 ---
-# <a name="200-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 200 %
+# <a name="200-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 200%
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 200 %.
+Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 200%.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 200%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. El porcentaje se calcula en función del tiempo de vida del activo. Por ejemplo, si un activo tiene un tiempo de vida de cinco años, el porcentaje se calcula como 40 por ciento (200% ÷ 5). 
 

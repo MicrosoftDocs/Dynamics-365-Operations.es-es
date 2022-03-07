@@ -2,26 +2,26 @@
 title: Visión general de intrastat
 description: Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 28581
+ms.custom:
+- "28581"
+- intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5e74b43bbeae011b2cde5c29d5a05aab28ec07e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962731"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340068"
 ---
 # <a name="intrastat-overview"></a>Visión general de intrastat
 
@@ -75,7 +75,7 @@ La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 </tr>
 <tr class="odd">
 <td>Jerarquía de categorías de productos (jerarquía de ventas, jerarquía de compras)</td>
-<td>Asigne los códigos de mercancías de Intrastat a los nodos de categorías en la ficha <strong>Códigos de mercancía</strong> de la página <strong>Jerarquía de categoría</strong>. Cuando se asigna un código de mercancía a un nodo de categoría principal, dicho código se aplica a todos los nodos de categorías secundarias. Los códigos de mercancía seleccionados estarán disponibles en la vista <strong>Seleccionado</strong> al seleccionar un código de mercancía en los detalles de los productos emitidos y en el pedido de ventas, el pedido de compra y las líneas de pedido de transferencia.</td>
+<td>Asigne los códigos de mercancías de Intrastat a los nodos de categorías en la ficha <strong>Códigos de mercancía</strong> de la página <strong>Jerarquía de categoría</strong>. Cuando se asigna un código de mercancía a un nodo de categoría principal, dicho código se aplica a todos los nodos de categorías secundarias. Los códigos de mercancía seleccionados estarán disponibles en la vista <strong>Seleccionado</strong> al seleccionar un código de mercancía en los detalles de los productos y en el pedido de ventas, el pedido de compra y las líneas de pedido de transferencia.</td>
 </tr>
 <tr class="even">
 <td>Detalles de producto emitido</td>
@@ -86,10 +86,11 @@ La tabla siguiente muestra los requisitos previos para los informes Intrastat.
 <li><strong>País/región de origen</strong>: seleccione el país o la región predeterminado donde se obtiene o se producen las mercancías.</li>
 <li><strong>Comunidad autónoma/provincia de origen/destino</strong>: seleccione la comunidad autónoma o la provincia de destino predeterminados para las llegadas y la comunidad autónoma o la provincia de origen para distribuciones.</li>
 <li><strong>Peso neto en kg</strong></li>
+<li><strong>Excluir</strong> - Habilite este parámetro para no transferir transacciones con este producto a Intrastat</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Clientes</td>
+<td>Empresas cliente</td>
 <td>Configure la dirección de entrega del cliente en el país o la región de la UE.</td>
 </tr>
 <tr class="even">
@@ -239,3 +240,6 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,11 @@
 ---
 title: Configuración de los parámetros de costo descargado
-description: En este tema se describe cómo configurar la información general y los parámetros de configuración que se utilizan en el módulo de costos de aterrizaje para la publicación, las actualizaciones de estado, las secuencias de números y el comportamiento.
+description: En estos temas se describe cómo configurar la información general y los parámetros de configuración que se utilizan en el módulo de costos de aterrizaje para la publicación, las actualizaciones de estado, las secuencias de números y el comportamiento.
 author: sherry-zheng
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMParameters
 audience: Application User
@@ -13,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 834a8cc5b50e02afb1ecf7f53d2c4fa661764219
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571794"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833914"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuración de los parámetros de costo descargado
 
@@ -31,7 +32,7 @@ La página **Parámetros de costos descargados** se usa para configurar la infor
 
 Para trabajar con los parámetros, vaya a **Coste de aterrizaje \> Configuración \> Parámetros de costo aterrizado** y luego configure los campos como se describe en las siguientes subsecciones.
 
-![Página Parámetros de costos descargados.](media/landed-cost-parameters.png "Página Parámetros de costos descargados")
+![Página Parámetros de costos descargados](media/landed-cost-parameters.png "Página Parámetros de costos descargados")
 
 ## <a name="general-tab"></a>Pestaña General
 

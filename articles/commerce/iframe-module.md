@@ -2,15 +2,12 @@
 title: Módulo de iframe
 description: En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665405"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754023"
 ---
-# <a name="iframe-module"></a>Módulo de iframe
+# <a name="iframe-module"></a>Módulo de iFrame
 
 [!include [banner](includes/banner.md)]
 
 En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Un módulo de iframe proporciona un iframe (marco en línea) que aloja contenido externo en un sitio. Por ejemplo, se puede usar para alojar un vídeo YouTube o un visor de archivos PDF en cualquier página del sitio. 
 
@@ -42,7 +37,7 @@ Un módulo de iframe requiere una URL de destino. Luego aloja el contenido de la
 
 La siguiente imagen muestra ejemplos de módulos de iframe que muestran videos externos en las páginas del sitio.
 
-![Ejemplo de módulos de iframe que muestran vídeos externos](./media/ecommerce-iframe.PNG)
+![Ejemplo de módulos de iframe que muestran vídeos externos.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Propiedades de módulo de iframe
 
@@ -71,9 +66,15 @@ Para agregar un módulo de iframe a una página para mostrar un vídeo externo, 
 1. Establecer otras propiedades, como **Bóveda** y **Altura**, como lo requiera.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 1. Vaya a la página de marketing en su sitio. Debería ver que el vídeo se representa en el módulo de iframe.
- 
+
+> [!NOTE]
+> Debido a que el módulo de iframe hospeda contenido externo, los autores del sitio deben asegurarse de que el contenido hospedado en un módulo de iframe no infrinja las directivas de restricción de contenido en el mercado respectivo. Si hay una infracción de contenido en una página que utiliza el módulo de iframe, el autor del sitio puede eliminar el módulo de iframe abriendo la página en el creador del sitio y seleccionando **Quitar módulo** en la ranura del módulo de iframe y luego guardar y volver a publicar la página.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la biblioteca de módulos](starter-kit-overview.md)
+[Descripción general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Administrar la directiva de seguridad de contenido (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

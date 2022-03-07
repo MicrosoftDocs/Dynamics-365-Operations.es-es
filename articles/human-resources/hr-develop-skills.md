@@ -1,64 +1,114 @@
 ---
-title: Alienación de las aptitudes de los recursos con las necesidades empresariales
-description: Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus características. También puede especificar las aptitudes necesarias para un puesto concreto.
-author: andreabichsel
-manager: AnnBe
-ms.date: 11/01/2017
+title: Configurar aptitudes
+description: Puede realizar un seguimiento de las aptitudes de su trabajador en Dynamics 365 Human Resources. También puede especificar las aptitudes necesarias para un puesto concreto.
+author: twheeloc
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420424"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075080"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a>Alienación de las aptitudes de los recursos con las necesidades empresariales
+# <a name="configure-skills"></a>Configurar aptitudes
 
-Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus características. También puede especificar las aptitudes necesarias para un puesto concreto.
+> [!IMPORTANT]
+> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
+
+
+Puede realizar un seguimiento de las aptitudes de su trabajador en Dynamics 365 Human Resources. También puede especificar las aptitudes necesarias para un puesto concreto.
 
 Estos son ejemplos de aptitudes de las que se puede hacer un seguimiento:
--   Supervisión: capacidad para supervisar el trabajo de los demás.
--   Liderazgo: capacidad para dirigir empleados y dominios de empresa.
--   Planificación: capacidad para anticipar las cosas, formar visiones de futuro y ponerlas en práctica.
--   HTML: capacidad de escribir código HTML.
 
-Antes de poder asignar una aptitud a una persona o un puesto, crear una búsqueda de asignación de aptitudes o crear un perfil de aptitudes, debe especificar información sobre las aptitudes en la página **Aptitudes**. Para cada aptitud, puede seleccionar un tipo de aptitud y un modelo de evaluación.
+- Supervisión: capacidad para supervisar el trabajo de los demás.
+- Liderazgo: capacidad para dirigir empleados y dominios de empresa.
+- Planificación: capacidad para anticipar las cosas, formar instrucciones de visiones de futuro y ponerlas en práctica.
+- HTML: capacidad de escribir código HTML.
 
-## <a name="rating-models"></a>Modelos de tasación
-Los modelos de evaluación ayudan a evaluar el nivel de aptitud real de una persona, el nivel que deben trabajar para lograr o el nivel de aptitud necesario para un puesto. Puede escribir hasta 10 niveles para un modelo de evaluación.  Cada nivel del modelo de clasificación tiene asignado un factor.  El valor de factor se usará para normalizar las puntuaciones de las aptitudes que utilicen distintos modelos de clasificación.  El factor debe ser un número del 0 al 9 y cada nivel debe tener un factor único.  Los niveles con valores más altos de factor conllevan más peso en un modelo de evaluación.
+Si aún no ha configurado tipos de aptitudes y modelos de calificación, deberá agregar algunos antes de crear habilidades.
 
-## <a name="specify-job-skills"></a>Especificar las aptitudes de trabajo
-Cuando se incluye información acerca de un trabajo, se pueden especificar las aptitudes que debe tener una persona para realizar el trabajo necesario.  Además, puede especificar el nivel deseado para cada aptitud y el nivel de importancia de la aptitud. Los distintos trabajos pueden requerir niveles distintos de importancia de la misma aptitud.
+Las siguientes personas pueden ingresar aptitudes para un trabajador:
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Especificar las aptitudes para trabajadores, candidatos o contactos
-Puede especificar aptitudes objetivo o aptitudes reales para trabajadores, candidatos o contactos. Una aptitud objetivo es una aptitud una persona tiene previsto lograr. Una aptitud real es una aptitud que una persona tiene actualmente.
+- Los trabajadores pueden introducir aptitudes por sí mismos en el autoservicio para empleados. Estas habilidades requieren la aprobación del gerente.
+- Los gerentes pueden introducir aptitudes para sus trabajadores. Puede crear un flujo de trabajo que apruebe automáticamente estas aptitudes.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a>Distribución de habilidades y perfiles de distribución de habilidades
-Puede crear una búsqueda de distribución de aptitudes para encontrar un trabajador, un candidato o una persona de contacto cualificada para realizar un tipo específico de tarea. Las búsquedas de distribución de aptitudes realizan búsquedas de aptitudes, formación, certificados, puestos de confianza y experiencia en proyectos, y devuelven resultados que coincidan con los criterios especificados.  Por ejemplo, puede ser útil saber qué trabajadores de su organización tienen determinados certificados.
+## <a name="create-a-skill-type"></a>Crear un tipo de aptitud
 
-Los perfiles de distribución de aptitudes le permiten buscar empleados o candidatos actuales con cualificaciones que se correspondan directamente con sus necesidades empresariales.  Por ejemplo, podría crear un perfil de distribución de aptitudes para una vacante en su organización. Al crear un perfil para un determinado trabajo y copiar las aptitudes, la formación y los certificados de dicho trabajo al perfil, puede buscar rápidamente trabajadores, candidatos y personas de contacto que coincidan con uno o más de los criterios especificados en el perfil y ver una lista de los candidatos cuyas habilidades coincidan más con las aptitudes necesarias para el trabajo.
+Los tipos de aptitudes son categorías a las que pertenecen las aptitudes individuales, como Administración o Ventas.
 
-> **Nota** Solo los trabajadores, los candidatos y las personas de contacto que se seleccionan para incluirlas en las búsquedas de distribución de aptitudes se pueden mostrar en una lista de resultados de distribución de aptitudes o incluir en un perfil de aptitudes. Para incluir un trabajador, un candidato o una persona de contacto en búsquedas de distribución de perfiles, establezca **Incluir en distribución de habilidades** en Sí en las siguientes páginas:
-> 
-> + Trabajador
-> + Empleado
-> + Candidato
-> + Contactos
+1. En el espacio de trabajo **Desarrollo de empleado** seleccione **Enlaces**.
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Análisis de lagunas de aptitudes y análisis de perfiles de aptitudes
-Puede crear un análisis de aptitud para ver una lista de las capacidades para un trabajador, un candidato o una persona de contacto a partir de una fecha específica. Puede crear un análisis de lagunas de aptitudes para comparar las aptitudes de una persona con las aptitudes necesarias para un puesto.  
+2. En **Configuración de competencias**, seleccione **Tipos de aptitudes**.
 
+3. Seleccione **Nuevo**.
 
+4. Complete los siguientes campos:
+
+   - **Tipo de aptitud**: escriba un nombre para el tipo de aptitud.
+   - **Descripción**: escriba una descripción para el tipo de aptitud.
+
+5. Seleccione **Guardar**.
+
+## <a name="create-a-rating-model"></a>Crear un modelo de evaluación
+
+Los modelos de evaluación ayudan a evaluar el nivel de aptitud real de una persona, el nivel que deben trabajar para lograr o el nivel de aptitud necesario para un puesto. Cada nivel del modelo de clasificación tiene asignado un factor.
+
+1. En el espacio de trabajo **Desarrollo de empleado** seleccione **Enlaces**.
+
+2. En **Configuración de competencias**, seleccione **Modelos de clasificación**.
+
+3. Seleccione **Nuevo**.
+
+4. Complete los siguientes campos:
+
+   - **Clasificación**: introduzca un nombre para el modelo de clasificación, como **Aptitudes**.
+   - **Descripción**: introduzca una descripción para el modelo de calificación, como **Calificaciones de aptitud**.
+
+5. En la sección **Niveles** sección, seleccione **Nuevo**. Para cada nivel que desee agregar, complete los siguientes campos:
+
+   - **Nivel**: escriba un nombre para el nivel.
+   - **Descripción**: escriba una descripción del nivel.
+   - **Factor**: introduzca un valor de factor de 0 a 9. Los factores le ayudan a normalizar las puntuaciones de aptitudes que utilizan distintos modelos de evaluación. Cada nivel debe tener un factor único. Los niveles con valores más altos de factor conllevan más peso en un modelo de evaluación.
+
+   Continúe agregando niveles según sea necesario. Puede escribir hasta 10 niveles para cada modelo de evaluación.
+
+6. Seleccione **Guardar**.
+
+## <a name="create-a-skill"></a>Crear una aptitud
+
+Antes de poder asignar una aptitud, crear una búsqueda de asignación de aptitudes o un perfil de aptitudes, debe especificar información sobre las aptitudes en la página **Aptitudes**. Para cada aptitud, puede seleccionar un tipo de aptitud y un modelo de evaluación.
+
+1. En el espacio de trabajo **Desarrollo de empleado** seleccione **Enlaces**.
+
+2. En **Configuración de competencias**, seleccione **Aptitudes**.
+
+3. Seleccione **Nuevo**.
+
+4. Complete los siguientes campos:
+
+   - **Aptitud**: escriba un nombre para la aptitud.
+   - **Descripción**: escriba una descripción para la aptitud.
+   - **Valoración**: seleccione el modelo de valoración que quiere usar para esta aptitud.
+   - **Tipo de aptitud**: seccione de la lista de tipos de aptitudes.
+
+5. Seleccione **Guardar**.
+
+## <a name="see-also"></a>Consulte también
+
+[Introducir aptitudes](hr-develop-enter-skills.md)<br>
+[Asignar aptitudes](hr-develop-map-skills.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

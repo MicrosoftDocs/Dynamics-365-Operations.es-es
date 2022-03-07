@@ -2,11 +2,9 @@
 title: Seleccionar definiciones de modelo de datos al crear formatos
 description: 'Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, ER: Creación y activación de un proveedor de configuraciones.'
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44288cc3979a0ac2ed6b4a8478aac21a85aca24e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01f7afb6ca3bd1f317c25202e0cf72231008fca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684220"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744972"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Seleccionar definiciones de modelo de datos al crear formatos
 
@@ -98,3 +96,6 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
     * Tenga en cuenta que solo un elemento raíz está disponible ahora asignar a los orígenes de datos de la aplicación. Cuando se introduce al menos una asignación de modelo, solo los artículos raíz del modelo se asignan a los orígenes de datos de la aplicación se pueden seleccionar como definición de modelo cuando se agrega el formato de ER.   
 5. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

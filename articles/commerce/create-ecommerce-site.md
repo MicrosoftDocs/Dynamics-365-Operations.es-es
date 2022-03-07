@@ -2,11 +2,9 @@
 title: Crear un sitio de comercio electrónico
 description: En este tema se describen los pasos y la información necesarios para crear un nuevo sitio de comercio electrónico con el generador de sitios de Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795796"
 ---
 # <a name="create-an-e-commerce-site"></a>Crear un sitio de comercio electrónico
 
@@ -74,3 +72,6 @@ Una vez creado el sitio, puede comprobar que esté asociado a la tienda en líne
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

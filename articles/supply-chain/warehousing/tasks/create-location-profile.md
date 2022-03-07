@@ -1,7 +1,7 @@
 ---
 title: Crear un perfil de ubicación
 description: Este tema explica cómo crear un perfil de ubicación en Dynamics 365 Supply Chain Management.
-author: Mirzaab
+author: ShylaThompson
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 101d80216f786eb8edb687031e4deac8cc3033ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831035"
 ---
 # <a name="create-a-location-profile"></a>Crear un perfil de ubicación
 

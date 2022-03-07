@@ -1,33 +1,37 @@
 ---
 title: Configurar materiales peligrosos
 description: Este tema explica cómo configurar los datos necesarios para clasificar artículos como materiales peligrosos. Cuando crea un pedido de venta que incluye un artículo clasificado como material peligroso, el sistema genera documentación de material peligroso para el pedido de venta cuando se envía.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437038"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiales peligrosos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Para utilizar la funcionalidad de materiales peligrosos, primero debe configurar los datos necesarios para clasificar los artículos como materiales peligrosos. Luego, cuando crea un pedido de venta que incluye un artículo clasificado como material peligroso, el sistema genera documentación de material peligroso para el pedido de venta cuando se envía.
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Activar la función de materiales peligrosos en el sistema
 
-A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de información de productos*
 - **Nombre de la función:** *Información de productos de materiales peligrosos y documentación de envío*
@@ -280,6 +284,3 @@ Para configurar los valores de esta especificación, vaya a **Gestión de inform
 La especificación *Túnel de material peligroso* limita los tipos de túneles a través de los cuales se puede transportar un material peligroso, identificando los tipos de túneles que deben usarse. Las categorías de túneles están establecidas por las regulaciones aplicables para el transporte de materiales peligrosos. Esta especificación generalmente se aplica solo al transporte por carretera.
 
 Para configurar los valores de esta especificación, vaya a **Gestión de información de producto \> Configurar \> Documentación de envío de material peligroso \> Túnel de materiales peligrosos**. En la página **Túnel de material peligroso**, puede crear cualquier número de identificadores de túnel y configurar cada uno con un código identificador y una breve descripción.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

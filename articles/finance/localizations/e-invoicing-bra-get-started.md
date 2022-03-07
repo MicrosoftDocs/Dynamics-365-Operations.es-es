@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0320bd1d9e93cc30ed75f28e387ac2ec8dbfc226
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962844"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4447786"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Introducción al complemento de facturación electrónica para Brasil 
 

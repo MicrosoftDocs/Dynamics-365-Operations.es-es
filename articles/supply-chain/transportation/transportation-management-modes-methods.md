@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
-ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a24e2300f3f3ee21b9c480c8768c4382b21867aa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 71e37dcd4509813f930906ae3bb3d3b98c9100a0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574794"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828319"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Modos y métodos de gestión del transporte
 

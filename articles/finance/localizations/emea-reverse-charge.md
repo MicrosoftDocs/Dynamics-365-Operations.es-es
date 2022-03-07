@@ -2,25 +2,22 @@
 title: Mecanismo de cargo invertido para el régimen de IVA e IBS
 description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
 author: epodkolz
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
-ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4515056"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348890"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mecanismo de cargo invertido para el régimen de IVA e IBS
 
@@ -124,7 +121,7 @@ Cuando se registra una factura de compra con cargo invertido, se crean dos trans
 
 En el captura de pantalla siguiente, una transacción tiene la dirección **Impuestos soportados** y otra transacción tiene la dirección **Impuestos repercutidos**. 
 
-![Impuestos registrados](media/apac-sau-posted-sales-tax.png)
+![Impuestos registrados.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>Habilitar mecanismo de cargo invertido para la característica de régimen de IVA e IBS
 En el espacio de trabajo **Administración de características**, busque la característica y seleccione **Habilitar**.
@@ -137,3 +134,6 @@ Las siguientes páginas y elementos de menú relacionados con la configuración 
  - **Parámetros de comercio exterior** (**Impuesto** > **Configuración** > **Impuesto** > **Comercio Exterior** > **Parámetros de comercio exterior**). Vea [Configurar las propiedades de país o región](#Set-up-Country/region-properties).
 
 La casilla de verificación **Cargo invertido** estará disponible en las páginas **Grupo de impuestos** e **Impuesto registrado**. Para obtener más información, vea las secciones [Configurar grupos de impuestos y grupos de impuestos sobre las ventas de artículos](#sales-tax-item-sales-tax-groups), [Cargo invertido en facturas de venta](#reverse-charge-sale) y [Cargo invertido en facturas de compra](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

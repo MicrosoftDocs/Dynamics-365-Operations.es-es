@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729839"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791566"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Cancelar la recopilación de eventos de actividades web
 [!include [banner](includes/banner.md)]
@@ -40,7 +40,7 @@ En la gestión de cuentas de la Central de Commerce (HQ), los administradores pu
 1. En el cliente HQ, en la página **Todos los clientes**, busque y seleccione un cliente.
 1. En la página de detalles del cliente, en la ficha desplegable **Minorista**, en la sección **Privacidad**, establezca la opción **No seguir la actividad web** en **Sí**.
 
-    ![Configuración de privacidad.](media/Disablepersonalizationpart2.png)
+    ![Configuración de privacidad](media/Disablepersonalizationpart2.png)
 
 1. Haga clic en **Guardar** y, a continuación, cierre la página.
 

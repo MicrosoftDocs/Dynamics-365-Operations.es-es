@@ -1,26 +1,27 @@
 ---
 title: Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 description: Este tema describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan estacionar la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 10/15/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 2c53de92df1ece80f69daf0cc7a4473a2dafd0c9
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920357"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678772"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: GA with 10.0.23 -->
 
 > [!IMPORTANT]
 > Las características que se describen en este tema se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.

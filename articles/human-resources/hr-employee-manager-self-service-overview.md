@@ -2,30 +2,30 @@
 title: Resumen de autoservicio para empleados y gerentes
 description: Este artículo proporciona una descripción general del espacio de trabajo de autoservicio para empleados y gerentes.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.openlocfilehash: 6d7c68d22347861978eccff356139bab4fbc723b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4420496"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790821"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Resumen de autoservicio para empleados y gerentes
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo proporciona una descripción general del espacio de trabajo de autoservicio para empleados y gerentes.
 
@@ -214,3 +214,5 @@ Los gerentes pueden ver todos los objetivos de su equipo a través del mosaico *
 La pestaña **Comentarios** resume los comentarios que el empleado tiene en cada estado: **En progreso**, **Listo para revisar** y **Revisión final**. Para acceder a la revisión de un empleado, seleccione el botón **Detalles** y luego seleccione opiniones para colaborar. Según dónde se encuentra una revisión dentro del proceso de flujo de trabajo, puede ver si la revisión está disponible para actualizar. 
 
 Puede ver todos los comentarios para su equipo a través del mosaico **Comentarios de rendimiento del equipo** en la sección **Resumen** de **Mi equipo**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

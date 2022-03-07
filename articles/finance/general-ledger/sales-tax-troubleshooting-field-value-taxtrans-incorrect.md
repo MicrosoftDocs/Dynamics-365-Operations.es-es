@@ -1,10 +1,12 @@
 ---
 title: Valor de campo incorrecto en TaxTrans
 description: Este tema proporciona información sobre la resolución de problemas de valores de campo incorrectos en TaxTrans.
-author: EricWangChen
+author: bijian
+manager: beya
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 00424d98d5ff99123edf42ee19919d149e7a6abc
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 97f9bb24d32180f2fccb69c5a13e2aa0349c1ee4
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488296"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947702"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>Valor de campo incorrecto en TaxTrans
 
