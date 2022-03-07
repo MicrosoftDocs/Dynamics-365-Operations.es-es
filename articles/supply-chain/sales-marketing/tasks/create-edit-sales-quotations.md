@@ -1,7 +1,7 @@
 ---
 title: Crear y editar presupuestos de ventas
 description: Este procedimiento muestra cómo crear y actualizar un presupuesto de ventas.
-author: Henrikan
+author: omulvad
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTabl
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c409d294565f89eac95e42f6207573d22859100
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fb9c0b3cfa34fc61bb568b7d2677647cef495d81c7bfc9521dba0fd5e43482e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738876"
 ---
 # <a name="create-and-edit-sales-quotations"></a>Crear y editar presupuestos de ventas
 

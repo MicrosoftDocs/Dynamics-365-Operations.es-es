@@ -2,9 +2,11 @@
 title: Vencimiento de picking de inventario de directiva de ubicación
 description: Este tema explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección.
 author: mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578593"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500511"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 

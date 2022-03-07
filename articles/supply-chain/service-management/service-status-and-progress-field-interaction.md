@@ -1,10 +1,12 @@
 ---
 title: Interacción del campo de progreso y estado del servicio
 description: En el formulario Pedidos de servicio, el campo Progreso de la cabecera del pedido de servicio refleja el estado de todo el pedido de servicio, y el campo Estado indica el estado de líneas individuales del pedido de servicio.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -15,25 +17,26 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0758c370fd1548770d596115b18f133071f3bbc0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 314ca8c325205bd8f489daf46498e9586603eaf3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566104"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010456"
 ---
-# <a name="service-status-and-progress-field-interaction"></a>Interacción del campo de progreso y estado del servicio
+# <a name="service-status-and-progress-field-interaction"></a>Interacción del campo de progreso y estado del servicio 
 
 [!include [banner](../includes/banner.md)]
+
 
 En el formulario **Pedidos de servicio**, el campo **Progreso** de la cabecera del pedido de servicio refleja el estado de todo el pedido de servicio, y el campo **Estado** indica el estado de líneas individuales del pedido de servicio.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -83,8 +86,11 @@ En el formulario **Pedidos de servicio**, el campo **Progreso** de la cabecera d
 </tbody>
 </table>
 
+
 El progreso de un pedido de servicio será En proceso si todas las líneas tienen el estado **Creado** y también si alguna de las líneas tiene el estado **Cancelado** o **Registrado**.
 
 Si todas las líneas de un pedido de servicio tienen el estado **Registrado**, el progreso del pedido de estado será **Registrado**. Si algunas líneas tienen el estado **Registrado** y otras el estado **Cancelado**, el progreso seguirá siendo **Registrado**.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

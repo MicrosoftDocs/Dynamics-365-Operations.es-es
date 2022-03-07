@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 40118f329a676ffb30870eb882d127e3eb258599
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693291"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566976"
 ---
 # <a name="configure-workflow-properties"></a>Configurar propiedades del flujo de trabajo
 
@@ -73,6 +72,9 @@ Puede proporcionar instrucciones a los usuarios que envían los documentos que s
     4. En el campo **Texto traducido**, escriba el texto.
     5. Para personalizar el texto, puede insertar marcadores de posición. Para obtener instrucciones acerca de cómo agregar un marcador de posición, consulte el paso 3.
     6. Haga clic en **Cerrar**.
+
+> [!NOTE]
+> Los marcadores de posición no se pueden agregar usando copiar y pegar porque la información de destino no se pega correctamente. Utilice la interfaz para agregar marcadores de posición.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Especifique cuándo se usa este flujo de trabajo mediante condiciones de activación
 
@@ -179,3 +181,6 @@ Para escribir comentarios acerca de los cambios que realizó en el flujo de trab
 2. En el campo **Especificar comentarios sobre el flujo de trabajo**, escriba sus comentarios.
 3. Revise los comentarios: una vez agregados, no podrá modificarlos.
 4. Haga **Agregar** clic en para agregar sus comentarios al área **Historial de comentarios**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

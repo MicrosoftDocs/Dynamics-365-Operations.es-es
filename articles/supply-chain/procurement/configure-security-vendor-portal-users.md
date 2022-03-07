@@ -1,12 +1,10 @@
 ---
 title: Seguridad de usuario del portal de proveedor
 description: Este artículo explica cómo configurar la seguridad para proveedores externos que usan el Portal de proveedor. Esta información se aplica solo a las versiones de febrero de 2016 &amp; mayo de 2016 de Dynamics AX.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30231
 ms.assetid: 3574db17-81c7-4c5a-999b-0098aa0b9cda
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1be210728a6d5fa9a26daf9f13865ff08de03d2d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8e73e9e874fbb8df029e4eccce922a660513c1bf
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018200"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568096"
 ---
 # <a name="vendor-portal-user-security"></a>Seguridad de usuario del portal de proveedores
 
@@ -42,10 +40,12 @@ Antes de crear una cuenta de usuario para alguien que utilizará el portal de pr
 
 Si la misma persona requiere el acceso al portal de proveedores para varias cuentas de proveedor (para distintas entidades jurídicas, quizás), cada una de las cuentas de usuario de dicha persona debe estar asociada a la misma persona de contacto registrada. El rol de **Proveedor (externo)** incluye todas las capacidades básicas que se requieren para usar la funcionalidad que está disponible en el portal de proveedores. Esta configuración ayuda a garantizar que la interfaz de usuario que el usuario externo verá está centrada únicamente en la situación planificada.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Colaboración con los proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

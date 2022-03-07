@@ -1,12 +1,10 @@
 ---
 title: Usar catálogos externos para la adquisición electrónica de marcaje de salida
 description: Este tema explica cómo puede usar catálogos externos para crear y enviar solicitudes.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests, CatExternalCatalogBasketWizard, CatExternalCatalogPunchoutDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74b49e32684571f622b25dcdd179eeeed9b35365
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b236a17a7f93bfeb60d64fa25745bd1b4cb1b34b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018762"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578041"
 ---
 # <a name="use-external-catalogs-for-punchout-e-procurement"></a>Usar catálogos externos para la adquisición electrónica de marcaje de salida
 
@@ -54,3 +52,5 @@ Cuando la solicitud esté lista, use la acción **Flujo de trabajo** > **Enviar*
 
 - [Configurar un catálogo externo para la adquisición electrónica de marcaje de salida](set-up-external-catalog-for-punchout.md)
 - [Mejoras de cXML de compra](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

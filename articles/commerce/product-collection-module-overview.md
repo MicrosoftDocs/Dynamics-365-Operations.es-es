@@ -3,35 +3,32 @@ title: Módulos de colección de productos
 description: Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415406"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097112"
 ---
 # <a name="product-collection-modules"></a>Módulos de colección de productos
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 El descubrimiento de productos es una herramienta principal que los minoristas usan para interactuar con sus clientes en un sitio web de comercio electrónico. Los módulos de colección de productos ayudan a los minoristas a crear atractivas experiencias de compra al ofrecer una interfaz visual intuitiva que pueda usarse para crear rápidamente colecciones de productos.
 
@@ -67,6 +64,10 @@ En la siguiente tabla se describen diversos tipos de módulos de colección de p
 | Los usuarios que compraron este artículo también compraron | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que se compran con frecuencia junto con un producto determinado. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
 | A la gente también le gustó           | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que están relacionados con un producto determinado. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
 | Picking para usted              | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar los patrones de compra del usuario que ha iniciado sesión y proporcionar recomendaciones personalizadas basadas en esos patrones de compra. Para un usuario invitado, esta lista se contraerá. |
+
+## <a name="supported-modules"></a>Módulos admitidos 
+
+El módulo de colección de productos admite el [módulo de vista rápida](quick-view-module.md), que permite a los usuarios ver información de productos y agregar artículos al carro desde una página de colección de productos.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Agregar un módulo de colección de productos a una página de categoría
 
@@ -109,3 +110,5 @@ En la tabla siguiente se muestran los tipos de lista disponibles para la selecci
 [Módulo de cuadro de compra](add-buy-box.md)
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
+
+[Módulo de vista rápida](quick-view-module.md)

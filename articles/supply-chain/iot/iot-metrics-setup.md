@@ -1,24 +1,24 @@
 ---
 title: Configurar métricas de Azure para Inteligencia IoT
 description: Este tema explica cómo configurar métricas para la Inteligencia IoT.
-author: tonyafehr
+author: robinarh
 ms.date: 04/25/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85db0211c32ad4e27c3a9a65d2c74c5a39687f9c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 1f623e49422dfb238415ae450fd0ab354b68c38b
+ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783107"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7652082"
 ---
 # <a name="set-up-metrics-for-iot-intelligence"></a>Configurar métricas de Azure para Inteligencia IoT
 

@@ -2,7 +2,7 @@
 title: Deteriorar activos por derecho de uso
 description: Este tema describe la funcionalidad que registra un deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842).
 author: moaamer
-ms.date: 12/03/2021
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
-ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.openlocfilehash: 5d30812e77473a5bd2f4134496b237be81cc6c2c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "7947349"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841174"
 ---
 # <a name="impair-right-of-use-assets"></a>Deteriorar activos por derecho de uso
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Si el valor en libros de un activo por derecho de uso (ROU) no es recuperable, es posible que deba probar si el activo está deteriorado. Si determina que el activo está deteriorado, el arrendamiento de activos puede registrar el deterioro y ajustar el programa de depreciación en consecuencia. Este tema describe la funcionalidad que registra el deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842). El mismo método también se aplica a los arrendamientos de la Norma Internacional de Información Financiera 16 (IFRS 16).
 
@@ -38,18 +37,13 @@ El saldo restante del activo por derecho de uso se amortizará de forma lineal p
 3. En el cuadro de diálogo que aparece, en el campo **Importe del deterioro**, introduzca el importe del deterioro del activo. Para disminuir el activo por derecho de uso, debe introducir un valor positivo.
 4. En el campo **Fecha de Transacción**, introduzca la fecha en la que se debe publicar la entrada de deterioro.
 5. En el campo **Periodos restantes**, introduzca el número restante de meses para amortizar.
-6. Establezca la opción **Vista previa** para ver el saldo de activos propuesto y el movimiento financiero antes de que se creen o publiquen.
-7. Establezca la opción **Cerrar libro** en **Sí** para cerrar el libro de arrendamiento. Puede deshacer esta acción utilizando el estado **Reabrir arrendamiento**. Las entradas no se pueden registrar en arrendamientos cerrados y los arrendamientos cerrados no se pueden ajustar. 
-8. Seleccione **Publicar** para crear o publicar la entrada de deterioro.
-
-    > [!NOTE]
-    > Una vez que se registra la transacción de deterioro, se crea una nueva versión del libro.
-
-    > Si el arrendamiento se clasifica como arrendamiento operativo, la depreciación mensual después del deterioro se calculará utilizando la depreciación lineal.
-
-9. Para ver la programación de depreciación de activos deteriorados, abra la programación de depreciación de activos del libro de arrendameinto en cuestión. El activo ahora se depreciará de forma lineal durante el número de meses que introdujo en el campo **Periodos restantes**.
-10. Para ver el asiento de diario de gastos por deterioro, seleccione **Diario de arrendamiento de activos** en el panel de acciones del libro de arrendamiento deteriorado. El sistema crea un asiento de diario que adeuda la cuenta de registro de gastos por deterioro y abona la cuenta de registro de activos de arrendamiento. 
-11. Para ver el nuevo valor en libros del activo por derecho de uso, seleccione **Transacciones de activos** en el panel de acciones del libro de arrendamiento.
+6. Active el parámetro **Enviar** si desea que el sistema registre automáticamente el movimiento de diario de gasto por deterioro. Si deja este parámetro desactivado, el sistema crea la entrada pero no la registra. A continuación, puede registrar la entrada desde la página **Diarios de arrendamiento de activos**.
+7. Establezca la opción **Vista previa antes de registrar** en **Sí** para ver la entrada propuesta antes de crearla o publicarla.
+8. Establezca la opción **Cerrar libro** en **Sí** para cerrar el libro de arrendamiento. Esta acción no se puede deshacer. Las entradas no se pueden registrar en arrendamientos cerrados y los arrendamientos cerrados no se pueden ajustar.
+9. Seleccione **Aceptar** para crear o publicar la entrada de deterioro.
+10. Para ver la programación de depreciación de activos deteriorados, abra la programación de depreciación de activos del libro de arrendameinto en cuestión. El activo ahora se depreciará de forma lineal durante el número de meses que introdujo en el campo **Periodos restantes**.
+11. Para ver el asiento de diario de gastos por deterioro, seleccione **Diario de arrendamiento de activos** en el panel de acciones del libro de arrendamiento deteriorado. El sistema crea un asiento de diario que adeuda la cuenta de registro de gastos por deterioro y abona la cuenta de registro de activos de arrendamiento.
+12. Para ver el nuevo valor en libros del activo por derecho de uso, seleccione **Transacciones de activos** en el panel de acciones del libro de arrendamiento.
 
 ## <a name="example-of-rou-asset-impairment"></a>Ejemplo de deterioro de activos por derecho de uso
 
@@ -98,11 +92,10 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
     | Fecha movimiento       | 1/1/2022 |
     | Períodos restantes      | 84       |
     | Registrar                   | Sí      |
-    | Vista previa antes del registro | No       |
-    | Cerrar libro             | No       |
+    | Vista previa antes del registro | N.º       |
+    | Cerrar libro             | N.º       |
 
 6. Se ha creado y registrado un asiento de diario de gastos por deterioro. Para verlo, vaya al diario de arrendamiento del activo en el libro de arrendamiento. Observe que el importe del deterioro se adeudó en la cuenta de registro de gastos por deterioro y se abonó en la cuenta de registro de activo por derecho de uso.
-
 7. Para ver el efecto neto del deterioro, vaya a las tablas de transacciones de activos y pasivos. Observe que el gasto por deterioro ha disminuido el activo por derecho de uso, pero el valor en libros del pasivo por arrendamiento no ha cambiado.
 
 El deterioro tiene otro efecto que debe considerar. Debido a que el monto del activo por derecho de uso es ahora mucho menor que el pasivo por arrendamiento, el importe debe depreciarse de manera diferente a como era antes. Específicamente, el activo ahora se deprecia de manera lineal durante los 84 meses restantes del arrendamiento, comenzando en la fecha de la transacción.

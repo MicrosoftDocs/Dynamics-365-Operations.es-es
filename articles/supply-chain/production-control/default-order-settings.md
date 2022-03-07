@@ -1,10 +1,12 @@
 ---
 title: Configuración predeterminada de pedidos para dimensiones y variantes de producto.
 description: Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido.
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fef622b05c56844b8927a4efcffd5a1944726cd4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246270"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -115,9 +117,9 @@ Puede definir las reglas de configuración del pedido para cualquier dimensión 
 
 Considere el siguiente producto de ejemplo.
 
-| Artículo                                                | Valor                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
-| **Nombre del producto**                                    | Sensor fotoeléctrico                    |
+| **Nombre de producto**                                    | Sensor fotoeléctrico                    |
 | **Número de artículo**                                     | XW56                                    |
 | **Configuración** (usada para mostrar el tipo de luz) | C1-Luz roja visible, C2-luz infrarroja |
 | **Versión** | V1, V2, V3                              |
@@ -186,9 +188,12 @@ Puede elegir hasta qué punto debe ser estricto el sistema al validar las cantid
 
 La validación estricta se aplica a los valores en **Cantidad de pedido estándar** especificados en las fichas desplegables **Pedido de compra**, **Inventario** y **Pedidos de venta** de la pagina **Configuración de pedido predeterminada**. Cada ficha desplegable tiene su propia configuración de **Múltiplo**, que se utiliza para validar el valor **Cantidad de pedido estándar** especificado para esa ficha desplegable.
 
-### <a name="turn-the-strict-validation-option-on-or-off"></a>Activar o desactivar la opción de validación estricta
+### <a name="enable-the-strict-validation-option"></a>Habilitar la opción de validación estricta
 
-Para utilizar la validación estricta, la característica *Validación estricta en las cantidades de pedido predeterminadas* debe estar activada para su sistema. A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Validación estricta en las cantidades de pedido predeterminadas*.
+Antes de poder usar la opción de validación estricta, debe estar habilitada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. Aquí, la característica aparece como:
+
+- **Módulo** - *Gestión de información de productos*
+- **Nombre de la característica** - *Validación estricta en cantidades de pedido predeterminadas*
 
 ### <a name="set-the-validation-option"></a>Establecer la opción de validación
 

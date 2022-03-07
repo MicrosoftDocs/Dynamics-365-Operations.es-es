@@ -2,9 +2,11 @@
 title: Directivas de unidad de medida y de existencias
 description: Este artículo describe cómo se usan las unidades predeterminadas, las secuencias de unidad y las conversiones de unidades en los procesos de almacén.
 author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ad62f57bb6cf952733c1efff15a03f5afee962d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714845"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237092"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Directivas de unidad de medida y de existencias
 

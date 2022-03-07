@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 932949f31cbc4e4e8c07a2e489b8a0848843c54ad8d27d5d77f2b7031c68c30a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769140"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837138"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Configuración, autorización y captura de tarjetas de crédito
 
@@ -28,7 +28,8 @@ ms.locfileid: "6769140"
 
 Este artículo proporciona información general de la autorización de la tarjeta de crédito en Microsoft Dynamics 365 Finance. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
 
-## <a name="setting-up-the-credit-card-payment-service"></a>Configuración del servicio de pago con tarjeta de crédito
+<a name="setting-up-the-credit-card-payment-service"></a>Configuración del servicio de pago con tarjeta de crédito
+------------------------------------------
 
 Para usar tarjetas de crédito debe configurar y activar un servicio de pago en la página Servicios de pago. Un servicio de pago actúa como puente entre su entidad jurídica y el banco que procesa los gastos de tarjeta de crédito del cliente. Debe trabajar con un proveedor de tarjetas de crédito incluido en el campo Conector de pago y configurar una cuenta con dicho proveedor. A continuación debe configurar las demás opciones de la página Servicios de pago, configurar los tipos de tarjeta de crédito para American Express, Discover y Mastercard en la página Tipos de tarjetas de crédito, y activar el proveedor como proveedor predeterminado. También debe seguir estos pasos para completar su configuración:
 -   En la página Parámetros de clientes, especifique los parámetros para usar autorizaciones de tarjeta de crédito.
@@ -38,11 +39,13 @@ Para usar tarjetas de crédito debe configurar y activar un servicio de pago en 
 ## <a name="adding-a-new-credit-card"></a>Adición de una nueva tarjeta de crédito
 Puede crear nuevos registros de tarjeta de crédito nuevos en la página Clientes a través de Cliente, Configuración, Tarjeta de crédito. También puede crear registros de tarjeta de crédito al especificar pedidos de ventas en la página Pedido de ventas, mediante Gestionar, Cliente, Tarjeta de crédito, Registro.
 
-## <a name="adding-a-credit-card-to-a-sales-order"></a>Adición de una tarjeta de crédito a un pedido de ventas
+<a name="adding-a-credit-card-to-a-sales-order"></a>Adición de una tarjeta de crédito a un pedido de ventas
+-------------------------------------
 
 Puede agregar una tarjeta de crédito a un pedido de ventas seleccionando una tarjeta de crédito en la búsqueda de tarjetas de crédito en la ficha desplegable Precio y descuentos de la página Pedido de ventas. Para iniciar el proceso de autorización, en el panel de acciones, en la ficha Gestionar, seleccione Tarjeta de crédito y Autorizar.
 
-## <a name="authorizing-a-credit-card"></a>Autorización de una tarjeta de crédito
+<a name="authorizing-a-credit-card"></a>Autorización de una tarjeta de crédito
+-------------------------
 
 Cuando se autoriza una tarjeta de crédito, se verifica el número de la tarjeta y la identidad de su titular, y se confirma además el saldo de crédito disponible. Opcionalmente, se verifican el valor de verificación de tarjetas y la dirección del titular. A continuación, se carga el importe de la factura en la cuenta del cliente, descontándolo del saldo de crédito disponible. El servicio de pago envía información acerca de la aprobación o rechazo de la tarjeta de crédito. Cuando se factura el pedido de ventas, se carga (captura) el importe de la factura en la tarjeta de crédito.
 

@@ -1,12 +1,10 @@
 ---
 title: 'ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)'
-description: En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER.
+description: Este tema describe cómo configurar un modelo de informes electrónicos (ER) para usar dimensiones financieras como origen de datos para informes ER. (Parte 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681694"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605414"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)
 
@@ -58,14 +56,14 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 21. Seleccione Sí en el campo Pedir cuenta principal.
     * Establezca "Pedir cuenta principal" en Sí para permitir a los usuarios seleccionar la cuenta principal como parte de la lista de dimensiones.   Si se establece en No, la cuenta principal no se incluirá en la lista de dimensiones y la opción "La cuenta principal es obligatoria" se habilita. Si "La cuenta principal es obligatoria" se establece en Sí, incluya la cuenta principal en la lista de dimensiones independientemente de la selección del usuario.  
 22. Haga clic en Aceptar.
-![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Las propiedades del origen de datos de los detalles de las dimensiones financieras se deslizan hacia afuera.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. En el árbol, seleccione "Dynamics 365 for Operations\Registros de tabla".
 24. Haga clic en Agregar raíz.
 25. En el campo Nombre, escriba "LedgerJournal".
 26. Seleccione Sí en el campo Pedir consulta.
 27. En el campo Tabla, escriba "LedgerJournalTable".
 28. Haga clic en Aceptar.
-![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Página del diseñador de asignaciones <odel, tipo de origen de datos de registros de tabla.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Asignar los elementos del modelo de datos a los orígenes de datos agregados
 1. En el árbol, expanda "Diario".
@@ -96,7 +94,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 25. En el árbol, seleccione "LibroDiario\<Relaciones\LibroDiarioTrans\Cuenta.Dimensión(DimensiónContable.Dimensión)\Cuenta principal y dimensiones".
 26. En el árbol, seleccione "Diario\Transacción\Datos de dimensiones".
 27. Haga clic en Enlazar.
-![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Página del diseñador de asignación de modelos, pestaña de asignación, árbol de orígenes de datos.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. En el árbol, seleccione "LibroDiario\<Relaciones\LibroDiarioTrans\Débito(ImporteMonedaDébito)".
 29. En el árbol, seleccione "Diario\Transacción\Débito".
 30. Haga clic en Enlazar.
@@ -135,7 +133,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 63. En el campo expressionAsStringText, especifique "Company.'find()'.'name()".
     * Company.'find()'.'name()'  
 64. Haga clic en Guardar.
-![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping4.png)
+![Página de diseñador de asignación de modelos de ER.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Cierre la página.
 66. Haga clic en Guardar.
 67. Cierre la página.
@@ -146,4 +144,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 3. Haga clic en Cambiar estado.
 4. Haga clic en Completar.
 5. Haga clic en Aceptar.
-![Página de diseñador de asignación de modelos de ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+![Página de configuraciones de ER.](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

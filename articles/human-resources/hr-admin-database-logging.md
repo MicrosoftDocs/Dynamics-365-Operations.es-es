@@ -1,31 +1,33 @@
 ---
 title: Configurar y administrar el registro de la base de datos
 description: Puede realizar un seguimiento de los cambios en las tablas y campos en Dynamics 365 Human Resources con registro de base de datos.
-author: Darinkramer
-manager: AnnBe
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420414"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066452"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar y administrar el registro de la base de datos
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede realizar un seguimiento de los cambios en las tablas y campos en Dynamics 365 Human Resources con registro de base de datos. En este tema se describe cómo:
 
@@ -66,7 +68,22 @@ Para mejorar el rendimiento, limite las entradas en el registro seleccionando ca
 Puede usar el asistente **Registro de cambios en la base de datos** para configurar el registro de bases de datos. El asistente proporciona una forma flexible de configurar el registro de tablas o campos.
 
 1. Vaya a **Administración del sistema> Enlaces > Base de datos > Configuración del registro de bases de datos**. Seleccione **Nuevo** para comenzar el asistente **Registro de cambios en la base de datos**.
-2. Complete el asistente.
+2. Seleccione **Siguiente**. 
+3. En la página **Tablas y campos** del asistente, seleccione las tablas y los campos en los que desea habilitar el registro de la base de datos y seleccione **Siguiente**.
+
+   > [!Note]
+   > El registro de la base de datos no está disponible en todas las tablas de la base de datos de Human Resources. La selección de **Mostrar todas las tablas**, situada a continuación de la lista, expande la lista de tablas y campos para mostrar todas las tablas de la base de datos para las que está disponible el registro de la base de datos, pero esto será un subconjunto de la lista completa de tablas de la base de datos.
+
+4. En la página **Tipos de cambio** del asistente, seleccione las operaciones de datos para las que desea realizar un seguimiento de los cambios para cada uno de los campos y tablas, y seleccione **Siguiente**. Consulte la tabla siguiente para obtener una descripción de las operaciones de datos disponibles para el registro.
+5. En la página **Terminar**, revise los cambios que se realizarán y seleccione **Terminar**.
+
+| Operación | Descripción |
+| -- | -- |
+| Realizar seguimiento de transacciones nuevas | Cree un registro para los nuevos registros que se crean en la tabla. |
+| Actualización | Cree un registro para las actualizaciones de los registros de la tabla o actualizaciones de los campos seleccionados individualmente en la tabla. Si selecciona registrar las actualizaciones para la tabla, se crea un registro de registro cada vez que se realiza una actualización en cualquier campo de cualquier registro de la tabla. Si selecciona registrar actualizaciones para campos específicos, se crea un registro solo cuando se realizan actualizaciones en esos campos de registros de tabla. |
+| Suprimir | Cree un registro de los registros eliminados de la tabla. |
+| Asignar nuevo nombre a la clave | Cree un registro de registros cuando se cambie el nombre de una clave de tabla. |
+
 
 ## <a name="clean-up-database-logs"></a>Limpiar registros de bases de datos
 
@@ -79,11 +96,14 @@ Puede eliminar todo o parte de los registros de la base de datos, utilizando las
 Siga estos pasos para configurar la limpieza del registro de bases de datos: 
 
 1. Vaya a **Administración del sistema > Enlaces > Base de datos > Registro de bases de datos**. Seleccione **Limpiar registro**.
-
-2. Elija un método de selección de registros para eliminar especificando una de las siguientes opciones:
+2. En el encabezado **Registros a incluir**, seleccione **Filtro**.
+3. Elija el método que se utilizará para seleccionar los registros que desee eliminar. Introduzca una de las siguientes opciones:
 
    - ID de tabla
    - Tipo de registro
    - Fecha y hora de creación
 
-3. Utilice la pestaña **Limpieza de registro de bases de datos** para determinar cuándo ejecutar la tarea de limpieza del registro. De forma predeterminada, los registros de la base de datos están disponibles durante 30 días.
+4. Utilice la pestaña **Limpieza de registro de bases de datos** para determinar cuándo ejecutar la tarea de limpieza del registro. De forma predeterminada, los registros de la base de datos están disponibles durante 30 días.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

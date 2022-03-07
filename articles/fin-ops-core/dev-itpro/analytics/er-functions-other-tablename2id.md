@@ -2,11 +2,8 @@
 title: Función TABLENAME2ID de ER
 description: Este tema proporciona información general sobre cómo usar la función TABLENAME2ID de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68a8e1f4afa378ab446eae12bc90cdb3aba8b19
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a500eda75fbb5867f74b56753ee45016c60803b06f508340540764a6cd0399cc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725243"
 ---
 # <a name="tablename2id-er-function"></a>Función TABLENAME2ID de ER
 
@@ -59,3 +56,6 @@ La ejecución de esta función puede tener diferentes resultados en diferentes i
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Otras funciones (específicas de dominio empresarial)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

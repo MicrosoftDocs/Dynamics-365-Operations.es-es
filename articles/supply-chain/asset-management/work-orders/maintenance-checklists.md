@@ -1,12 +1,10 @@
 ---
 title: Listas de comprobación de mantenimiento
 description: En este tema se describen las listas de comprobación de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderChecklist, EntAssetMobileWorkOrderLineChecklistDetails
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2ec7130fbe8c397c30cdc2a76f34ecfdfdc0737
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 57a7d5920de610cd6d38a8184b96f75a7563911b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017927"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820403"
 ---
 # <a name="maintenance-checklists"></a>Listas de comprobación de mantenimiento
 
@@ -79,3 +77,6 @@ En la ilustración siguiente se muestra un ejemplo de lista de comprobación de 
 
 ![Figura 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

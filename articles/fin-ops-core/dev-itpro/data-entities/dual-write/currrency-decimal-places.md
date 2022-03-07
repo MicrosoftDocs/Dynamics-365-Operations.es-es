@@ -2,28 +2,19 @@
 title: Migración de tipo de datos de divisa para doble escritura
 description: Este tema describe cómo cambiar la cantidad de lugares decimales que admite la escritura dual para las divisas.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744384"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782816"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -84,14 +75,17 @@ Hay algunas limitaciones:
 
 Una vez completada la migración, los administradores pueden establecer la precisión de la divisa. Vaya a **Configuración \> Administración** y seleccione **Ajustes del sistema**. Luego, en la pestaña **General**, cambie el valor de la columna **Establecer la precisión de la divisa que se usa para fijar precios en todo el sistema**, como se muestra en la siguiente ilustración.
 
-![Configuraciones del sistema para la divisa](media/currency-system-settings.png)
+![Configuraciones del sistema para la divisa.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Administración empresarial: divisas
 
 Si necesita que la precisión de la divisa para una divisa específica difiera de la precisión de la divisa que se usa para fijar el precio, puede cambiarla. Vaya a **Configuraciones \> Administración empresarial**, S¡seleccione **Divisas** y seleccione la divisa que se va a cambiar. Luego configure la columna **Precisión de la divisa** según número de decimales que desee, como se muestra en la siguiente ilustración.
 
-![Configuración de la divisa para un entorno local específico](media/specific-currency.png)
+![Configuración de la divisa para un entorno local específico.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tablas: columna Divisa
 
 El número de decimales que se pueden configurar para columnas de divisa específicas está limitado a cuatro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

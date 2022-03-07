@@ -1,12 +1,10 @@
 ---
 title: Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados
-description: Este tema explica cómo puede ayudar a mejorar el rendimiento de las soluciones de generación de informes electrónicos (ER) agregando orígenes de datos de CAMPO CALCULADO parametrizados.
+description: Este tema explica cómo puede ayudar a mejorar el rendimiento de las soluciones de generación de Informes electrónicos (ER) agregando orígenes de datos de CAMPO CALCULADO parametrizados.
 author: NickSelin
-manager: AnnBe
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349193"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados
 
@@ -58,7 +56,7 @@ El primer paso es importar la solución ER de ejemplo para generar un informe de
     2. Seleccione **Exploración** y seleccione seleccionar el archivo adecuado para la configuración de ER en formato XML.
     3. Seleccione **Aceptar**.
 
-![Configuraciones importadas en la página Configuraciones](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Configuraciones importadas en la página Configuraciones.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Revisar la solución de ER de ejemplo
 
@@ -78,7 +76,7 @@ El primer paso es importar la solución ER de ejemplo para generar un informe de
 
     La distribución de modelo en esta configuración implementa el modelo de datos base de todos los formatos ER creados para este modelo y ejecutados en Finance. Por lo tanto, el contenido de los orígenes de datos **Trans** se expone para los formatos de ER como orígenes de datos **modelo** abstractos.
 
-    ![Origen de datos Trans en la página del diseñador de asignación de modelo](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Origen de datos Trans en la página del diseñador de asignación de modelo.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Cierre la página **Diseñador de distribución del modelo**.
 5. Cierre la página **Asignación de modelo a origen de datos**.
@@ -92,7 +90,7 @@ El primer paso es importar la solución ER de ejemplo para generar un informe de
 
     Este formato ER está diseñado para generar un informe de transacciones de proveedores en formato XML.
 
-    ![Formatear orígenes de datos y vínculos configurados de elementos de formato en la página del diseñador de formato](media/er-calculated-field-ds-performance-format.png)
+    ![Formatear orígenes de datos y vínculos configurados de elementos de formato en la página del diseñador de formato.](media/er-calculated-field-ds-performance-format.png)
 
 5. Cierre la página **Diseñador de formato**.
 
@@ -105,7 +103,7 @@ Supongamos que haya terminado de diseñar de la primera versión de la solución
 1. Seleccione la compañía **DEMF**.
 2. Siga los pasos en [Activar el seguimiento de rendimiento de ER](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) para generar un seguimiento de rendimiento mientras se ejecuta un formato ER.
 
-    ![Cuadro de diálogo parámetros de usuario](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Cuadro de diálogo parámetros de usuario.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Ejecutar formato del ER
 
@@ -126,7 +124,7 @@ La nueva información está ahora disponible para algunos artículos de orígene
 - El tiempo real empleado que se usó para obtener datos mediante el origen de datos
 - El mismo tiempo expresado como un porcentaje de tiempo total que se ha dedicado a ejecutar toda la distribución del modelo
 
-![Detalles del tiempo de ejecución en la página del diseñador de asignación de modelos](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Detalles del tiempo de ejecución en la página del diseñador de asignación de modelos.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 La cuadrícula **Estadísticas de rendimiento** muestra que el origen de datos **Trans** llama a la tabla VendTrans una vez. El valor **\[265\]\[Q: 265\]** del origen de datos **Trans** indica que se han obtenido 265 transacciones de proveedores de la tabla de la aplicación y se han devuelto al modelo de datos.
 
@@ -139,7 +137,7 @@ Los **Estadísticas de rendimiento** también muestran que la asignación de mod
 
 - Se llama a la tabla de proveedores para cada transacción de proveedor iterada, aunque las transacciones obtenidas se hayan registrado solo para cinco proveedores. De las 530 llamadas, 525 son duplicadas. La siguiente ilustración muestra el mensaje que recibe sobre llamadas duplicadas (solicitudes de base de datos).
 
-![Mensaje sobre solicitudes duplicadas a la base de datos en la página de diseñador de la distribución del modelo](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Mensaje sobre solicitudes duplicadas a la base de datos en la página de diseñador de la distribución del modelo.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Del tiempo total de ejecución de la asignación de modelos (aproximadamente ocho segundos), observe que más del 80 por ciento (aproximadamente seis segundos) se ha dedicado a recuperar valores de la tabla de aplicación VendTable. Ese porcentaje es demasiado grande para dos atributos de cinco proveedores, en comparación con el volumen de información de la tabla de aplicaciones de VendTrans.
 
@@ -174,7 +172,7 @@ Siga estos pasos para utilizar el almacenamiento en caché y un origen de datos 
     3. En el cuadro de diálogo desplegable, en el campo **Nombre**, escriba **Box**.
     3. Seleccione **Aceptar**.
 
-    ![Origen de datos Box en la página del diseñador de asignación de modelo](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Origen de datos Box en la página del diseñador de asignación de modelo.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Siga estos pasos para agregar un origen de datos parametrizado del tipo **Campo calculado**:
 
@@ -210,7 +208,7 @@ Siga estos pasos para utilizar el almacenamiento en caché y un origen de datos 
 
 9. Seleccione **Guardar**.
 
-    ![Origen de datos Vend en la página del diseñador de asignación de modelo](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Origen de datos Vend en la página del diseñador de asignación de modelo.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Cierre la página **Diseñador de distribución del modelo**.
 11. Cierre la página **Distribuciones del modelo**.
@@ -234,11 +232,11 @@ Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) 
 
 Observe que los ajustes que realizó en la distribución de modelo han eliminado las consultas duplicadas en la base de datos. El número de llamadas a las tablas de base de datos y de orígenes de datos para esta distribución de modelo también se ha reducido.
 
-![Realizar un seguimiento de la información en la página del diseñador de asignación de modelo 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Realizar un seguimiento de la información en la página del diseñador de asignación de modelo 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 El tiempo total de ejecución se ha reducido unas 20 veces (de unos 8 segundos a unos 400 milisegundos). Por lo tanto, el rendimiento de la solución completa de ER ha mejorado.
 
-![Realizar un seguimiento de la información en la página del diseñador de asignación de modelo 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Realizar un seguimiento de la información en la página del diseñador de asignación de modelo 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Apéndice 1: Descargar los componentes de la solución Microsoft ER de ejemplo
 
@@ -246,9 +244,9 @@ Debe descargar y también almacenar los siguientes archivos y guardarlos localme
 
 | Archivo                                        | Contenido |
 |---------------------------------------------|---------|
-| Mejora del rendimiento model.version.1     | [Configuración del modelo datos de ER de ejemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Mejora del rendimiento mapping.version.1.1 | [Configuración del modelo de mapeado de ER de ejemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Mejora del rendimiento format.version.1.1  | [Configuración de formato de ER de ejemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Mejora del rendimiento model.version.1     | [Configuración del modelo datos de ER de ejemplo](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Mejora del rendimiento mapping.version.1.1 | [Configuración del modelo de mapeado de ER de ejemplo](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Mejora del rendimiento format.version.1.1  | [Configuración de formato de ER de ejemplo](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Apéndice 2: Configurar el marco ER
 
@@ -300,3 +298,6 @@ Para obtener más información sobre proveedores de configuración de ER, consul
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
 - [Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

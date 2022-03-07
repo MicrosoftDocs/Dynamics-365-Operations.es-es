@@ -1,23 +1,25 @@
 ---
 title: Asignar un estado del ciclo de vida del producto a un producto maestro
 description: Este procedimiento muestra cómo asignar un estado de ciclo de vida de producto a un producto maestro liberado y sus variantes.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8a9f8f519c54ffe4f1a2a44da51ac5d97c56182a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567016"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992229"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Asignar un estado del ciclo de vida del producto a un producto maestro
 
@@ -51,6 +53,3 @@ Este procedimiento muestra cómo asignar un estado de ciclo de vida de producto 
 2. En la lista, marque la fila seleccionada.
 3. En el campo Estado de ciclo de vida de producto, especifique o seleccione un valor.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Pruebas de gestión de calidad
 description: Este tema describe cómo crear pruebas que se puedan usar para pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 95f759d051a520b577cb1cf3d595ce64e0dc4668
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573858"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021693"
 ---
 # <a name="quality-management-tests"></a>Pruebas de gestión de calidad
 

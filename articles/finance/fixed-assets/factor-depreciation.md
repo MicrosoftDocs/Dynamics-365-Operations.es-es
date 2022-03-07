@@ -1,26 +1,29 @@
 ---
 title: Depreciación de factor
 description: Este artículo ofrece una visión general del método de depreciación de factor.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674464"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447543"
 ---
 # <a name="factor-depreciation"></a>Depreciación de factor
 
@@ -28,7 +31,7 @@ ms.locfileid: "7674464"
 
 Este artículo ofrece una visión general del método de depreciación de factor.
 
-Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal.
+Los factores son porcentajes que se utilizan para depreciar activos. Cuando se configura un perfil de amortización de activos fijos y se selecciona **Factor** en el campo **Método** de la página **Métodos de depreciación**, puede configurar una depreciación progresiva, degresiva o lineal:
 
 -   En la depreciación progresiva, el importe de depreciación aumenta cada período de depreciación.
 -   En la depreciación degresiva, el importe de depreciación por período aumenta con el transcurso del tiempo.
@@ -76,6 +79,3 @@ El valor del campo **Factor** es igual a **50**. En este caso, la depreciación 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

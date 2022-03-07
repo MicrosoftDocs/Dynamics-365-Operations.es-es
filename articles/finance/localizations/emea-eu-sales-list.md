@@ -2,9 +2,11 @@
 title: Informes de listas de ventas de la UE
 description: Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c1e9a566b7dc4dc2ed1970294a22e72b0bd21a7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323481"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003014"
 ---
 # <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
 
@@ -27,7 +29,8 @@ ms.locfileid: "8323481"
 
 Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 
-## <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
+<a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
+-----------------------
 
 Un proveedor que está suministrando mercancías o servicios intracomunitarios a empresas que se encuentran dentro de la Unión Europea (EU) debe enviar una declaración de suministros intracomunitarios (lista de ventas de la UE o ESL). El ESL debe ser enviado normalmente a las autoridades fiscales antes del último día del mes tras el período de calendario que cubre el ESL. El proveedor debe constatar el número de identificación fiscal (IVA) en el ESL y también debe constatar, por cliente, la siguiente información:
 
@@ -68,19 +71,13 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse antes de c
 <td>Configure los parámetros de identificación fiscal en la página <strong>Parámetros de país o región</strong> (haga clic en <strong>Impuestos</strong> &gt; <strong>Configuración</strong> &gt; <strong>Impuestos</strong> &gt; <strong>Parámetros de país o región</strong>). Para cada país o región donde tiene contrapartidas, cree un registro en la página y especifique la información siguiente:
 <ul>
 <li><strong>País o región:</strong> seleccione un país o una región para asociarla con una identificación de exención fiscal.</li>
-<li><strong>Impuestos:</strong> indique el número de identificación de exención de impuestos (es decir, el número de registro de IVA o el prefijo del número de identificación fiscal) para el país o la región seleccionada.</li>
+<li><strong>Impuestos:</strong> indique el número de identificación de exención de impuestos (es decir, el prefijo del número de identificación fiscal) para el país o la región seleccionada.</li>
 <li><strong>Comprobar el número de exención de impuestos:</strong> seleccione esta casilla para validar la identificación de exención fiscal para el país o la región seleccionada.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Configuración:</strong> números de registro de IVA</td>
-<td>Cree números de registro de IVA para las contrapartidas en la página <strong>Todos los clientes</strong> (vaya a <strong>Ventas y marketing</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos los clientes</strong>, seleccione un registro de cliente y luego seleccione <strong>Clientes</strong> &gt; <strong>Id. de registro</strong>) o la página <strong>Proveedores</strong> (vaya a <strong>Adquisición y abastecimiento</strong> &gt; <strong>Proveedores</strong> &gt; <strong>Proveedores</strong>, seleccione un registro de proveedor y, a continuación, seleccione <strong>Proveedores</strong> &gt; <strong>Id. de registro</strong>). En la ficha desplegable <strong>Id. de registro</strong>, en la pestaña <strong>General</strong>, cree un registro y especifique la siguiente información:
-<ul>
-<li><strong>Tipo de registro</strong>: seleccione el tipo de registro asignado a la categoría de registro <strong>CIF</strong> para el país/región de la contrapartida.</li>
-<li><strong>Número de registro</strong>: introduzca el número de registro de IVA de la contrapartida.</li>
-<li><strong>Vigencia</strong>: seleccione el inicio del periodo de vigencia del número de registro de IVA.</li>
-</ul>  
-También puede crear un número de registro de IVA para las contrapartidas en la página <strong>Números de identificación fiscal</strong> (vaya a <strong>Impuestos</strong> &gt; <strong>Configuracion</strong> &gt; <strong>Impuestos</strong> &gt; <strong>Números de identificación fiscal</strong>). Para cada número de identificación fiscal (NIF), cree un registro en la página y especifique la información siguiente:
+<td><strong>Configuración: </strong>números de exención fiscal</td>
+<td>Cree los números de identificación fiscal (NIF) para las contrapartidas en la página <strong>Números de identificación fiscal</strong> (haga clic en <strong>Impuestos</strong> &gt; <strong>Configuracion</strong> &gt; <strong>Impuestos</strong> &gt; <strong>Números de identificación fiscal</strong>). Para cada número de identificación fiscal (NIF), cree un registro en la página y especifique la información siguiente:
 <ul>
 <li><strong>País o región: </strong>–seleccione el país o la región de registro de impuestos de la contrapartida.</li>
 <li><strong>número de identificación fiscal (NIF):</strong> indique el número de identificación fiscal (NIF) de la contrapartida.</li>
@@ -89,7 +86,7 @@ También puede crear un número de registro de IVA para las contrapartidas en la
 </tr>
 <tr class="even">
 <td><strong>Configuración: </strong>Registro de impuestos de contrapartidas</td>
-<td>Configure la información de registro de impuestos para las contrapartidas en la página <strong>Todos los clientes</strong> (haga clic en <strong>Ventas y marketing</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos los clientes</strong>, seleccione un registro de cliente y luego haga clic en la página <strong>Opciones</strong> &gt; <strong>Cambiar visualización</strong> &gt; <strong>Visualización de detalles</strong>) o la página <strong>Proveedores</strong> (haga clic en <strong>Adquisición y abastecimiento</strong> &gt; <strong>Proveedores</strong> &gt; <strong>Proveedores</strong>, seleccione un registro de proveedor y, a continuación, <strong>Opciones</strong> &gt; <strong>Cambiar visualización</strong> &gt; <strong>Visualización de detalles</strong>). En la ficha desplegable <strong>Factura y entrega</strong>, en el campo <strong>Número de identificación fiscal</strong>, seleccione el número de registro de IVA.</td>
+<td>Configure la información de registro de impuestos para las contrapartidas en la página <strong>Todos los clientes</strong> (haga clic en <strong>Ventas y marketing</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos los clientes</strong>, seleccione un registro de cliente y luego haga clic en la página <strong>Opciones</strong> &gt; <strong>Cambiar visualización</strong> &gt; <strong>Visualización de detalles</strong>) o la página <strong>Proveedores</strong> (haga clic en <strong>Adquisición y abastecimiento</strong> &gt; <strong>Proveedores</strong> &gt; <strong>Proveedores</strong>, seleccione un registro de proveedor y, a continuación, <strong>Opciones</strong> &gt; <strong>Cambiar visualización</strong> &gt; <strong>Visualización de detalles</strong>). En la ficha desplegable <strong>Factura y entrega</strong>, en el campo <strong>Número de identificación fiscal</strong>, seleccione el número de registro de impuestos.</td>
 </tr>
 <tr class="odd">
 <td><strong>Configuración: </strong>impuestos</td>
@@ -162,6 +159,3 @@ Cuando haya completado el proceso de notificación para un período específico 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

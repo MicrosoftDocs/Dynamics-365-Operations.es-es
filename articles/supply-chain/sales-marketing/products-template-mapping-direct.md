@@ -1,30 +1,27 @@
 ---
 title: Sincronizar productos directamente de Supply Chain Management con productos de Sales
 description: En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
-author: ChristianRytt
-manager: tfehr
+author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d7aa4eddf8d6a18b8203785ddd3dca6ff8537067
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527323"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573450"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizar productos directamente de Supply Chain Management con productos de Sales
 
@@ -33,7 +30,7 @@ ms.locfileid: "4527323"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](/powerapps/administrator/data-integrator).
 
 En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de directamente de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
 
@@ -41,7 +38,7 @@ En este tema se abordan las plantillas y las tareas subyacentes que se usan para
 
 La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
-[![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flujo de datos en Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -107,7 +104,7 @@ La siguiente ilustración muestra un ejemplo de una asignación de plantilla en 
 > [!NOTE]
 > La asignación muestra qué información de campos se sincronizará de Sales a Supply Chain Management.
 
-![Asignación de la plantilla en el integrador de datos](./media/products-direct-template-mapping-data-integrator-1.png)
+![Asignación de la plantilla en el integrador de datos.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Temas relacionados
@@ -124,3 +121,6 @@ La siguiente ilustración muestra un ejemplo de una asignación de plantilla en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

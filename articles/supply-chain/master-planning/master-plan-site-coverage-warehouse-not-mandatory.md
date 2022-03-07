@@ -2,11 +2,9 @@
 title: Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
 description: Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe5cb5f9d21afcd12f3041bb9acc89fff360c95e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e94deffb928704ff96491174a7bf31a823c7a38d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357080"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
 
@@ -43,14 +41,13 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 -   Están definidas relaciones de relleno para el almacén. Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**. En la ficha **Planificación maestra**, consulte el grupo de campos **Almacén principal**.
 -   El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban. Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. Seleccione el artículo y, a continuación, haga clic en **Planificar &gt; Configuración predeterminada de pedido**. En el formulario **Configuración predeterminada de pedido**, consulte el campo **Tipo de pedido predeterminado**.
 
-![Demanda de cobertura de sitios, almacén no obligatorio](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+![Demanda de cobertura de sitios, almacén no obligatorio.](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
+[Información general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
 
 [Planificación maestra de cobertura de sitios y almacén, almacén obligatorio](master-plan-site-coverage-warehouse-mandatory.md)
 
@@ -62,3 +59,6 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

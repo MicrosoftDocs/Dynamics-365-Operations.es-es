@@ -2,11 +2,9 @@
 title: Tránsito directo planificado
 description: Este tema describe la planificación avanzada del tránsito directo, donde la cantidad de inventario que se requiere para un pedido se dirige directamente desde la recepción o la creación hasta el muelle de salida o el área de preparación correcta. Todo el inventario restante de la fuente entrante se dirige a la ubicación de almacenamiento correcta a través del proceso regular de almacenamiento.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate, WHSLoadPostMethod, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSPlannedCrossDocking
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970315"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359086"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -30,19 +28,21 @@ Este tema describe la planificación avanzada del tránsito directo. El tránsit
 
 El tránsito directo permite a los trabajadores omitir la recogida entrante y la selección saliente del inventario que ya está marcado para un pedido saliente. Por lo tanto, el número de veces que se toca el inventario se minimiza, siempre que sea posible. Además, debido a que hay menos interacción con el sistema, se incrementan los ahorros de tiempo y espacio en el piso del almacén.
 
-Antes de que se pueda ejecutar el tránsito directo, el usuario debe configurar una nueva plantilla de tránsito directo, donde se especifique la fuente de suministro y otros conjuntos de requisitos para el tránsito directo. A medida que se crea la orden de salida, la línea debe marcarse contra una orden de entrada que contiene el mismo artículo.
+Para poder ejecutar el tránsito directo, debe configurar una nueva plantilla de tránsito directo, donde se especifique la fuente de suministro y otros conjuntos de requisitos para el tránsito directo. A medida que se crea la orden de salida, la línea debe marcarse contra una orden de entrada que contiene el mismo artículo. Puede seleccionar el campo de código de directiva en la plantilla de cross-docking, de forma similar a la forma en que configura el reabastecimiento y las órdenes de compra.
 
 En el momento de la recepción de la orden entrante, la configuración de tránsito directo identifica automáticamente la necesidad de tránsito directo y crea el trabajo de movimiento para la cantidad requerida, en función de la configuración de la directiva de ubicación.
 
 > [!NOTE]
-> Las transacciones de inventario son **no** sin registrar cuando se cancela el trabajo de tránsito directo, incluso si la configuración de esta capacidad está activada en los parámetros de gestión de Almacén.
+> Las transacciones de inventario son *no* sin registrar cuando se cancela el trabajo de tránsito directo, incluso si la configuración de esta capacidad está activada en los parámetros de gestión de Almacén.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Active la función de tránsito directo planificado
+## <a name="turn-on-the-planned-cross-docking-features"></a>Active las funciones de tránsito directo planificado
 
-Antes de que pueda usar la planificación avanzada de tránsito directo, debe activar la función en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las características siguientes por este orden:
 
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Tránsito directo planificado*
+1. *Tránsito directo planificado*
+1. *Plantillas de tránsito directo con directivas de ubicación*
+    > [!NOTE]
+    > Esta característica habilita el cmpo **Código de directiva** que se especificará en la plantilla de cross-docking, similar a la forma en que configura las plantillas de reabastecimiento. Habilitar esta función le impide agregar un código de directiva en las líneas de la plantilla de trabajo de cross-docking para la línea *Put*. Esto asegura que la ubicación de colocación final se pueda determinar durante la creación del trabajo antes de considerar las plantillas de trabajo.
 
 ## <a name="setup"></a>Configurar
 
@@ -89,6 +89,10 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Revalidar con el recibo de suministro:** *No*
 
         Esta opción define si el suministro debe revalidarse durante la recepción. Si esta opción está establecida en *Sí*, se verifican tanto la ventana de tiempo máximo como el rango de días de vencimiento.
+
+    - **Código de directiva:** deje en blanco este campo
+
+        Esta opción está habilitada por la característica *Plantillas de cross docking con directivas de ubicación*. El sistema utiliza directivas de ubicación para ayudar a determinar la mejor ubicación para mover el inventario de cross-docking. Puede configurarlo asignando un código de directiva a cada plantilla de cross-docking relevante. Si se establece un código de directiva, cuando haya que generar trabajo el sistema buscará las directivas de ubicación por código de directiva cuando se genera trabajo. De esta forma, puede limitar las directivas de ubicación que se utilizan para una plantilla de cross-docking en particular.
 
     - **Validar ventana de tiempo:** *Sí*
 
@@ -314,4 +318,7 @@ Actualmente, ambas identificaciones de trabajo tienen la misma matrícula de ent
 
 La siguiente ilustración muestra cómo puede aparecer el trabajo de tránsito directo completado en Microsoft Dynamics 365 Supply Chain Management.
 
-![Trabajo de tránsito directo completado](media/PlannedCrossDockingWork.png "Trabajo de tránsito directo completado")
+![Trabajo de tránsito directo completado.](media/PlannedCrossDockingWork.png "Trabajo de tránsito directo completado")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

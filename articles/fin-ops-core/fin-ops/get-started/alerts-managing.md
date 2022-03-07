@@ -1,25 +1,23 @@
 ---
 title: Procesamiento por lotes de alertas
 description: Este tema proporciona información acerca del procesamiento por lotes de alertas.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/10/2010
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bc5366ea0e0a93cbd7806bb87608590f5304031a92751ff25a1531c2a3b135b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764441"
 ---
 # <a name="batch-processing-of-alerts"></a>Procesamiento por lotes de alertas
 
@@ -82,3 +80,6 @@ Si configura una ventana de procesamiento por lotes, se envía una alerta cuando
 
 1. Vaya a **Administración del sistema** &gt; **Tareas periódicas** &gt; **Alertas** &gt; **Alertas de fecha de vencimiento**.
 2. En el cuadro **Avisos de fecha de vencimiento**, especifique la información adecuada.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

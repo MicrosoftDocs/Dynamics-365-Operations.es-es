@@ -2,15 +2,12 @@
 title: Módulo de consentimiento de cookies
 description: En este tema se tratan los módulos consentimiento de cookies y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 60ce530575841c22355e4a14e8b0bbec6c0e35ab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415434"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750747"
 ---
 # <a name="cookie-consent-module"></a>Módulo de consentimiento de cookies
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos consentimiento de cookies y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 El módulo de consentimiento de cookies solicita a los usuarios del sitio que brinden consentimiento explícito para permitir cookies para cualquier característica o módulo que rastree las cookies del navegador. Se requiere el consentimiento la primera vez que un usuario del sitio navega por un sitio en una nueva sesión de navegador. Cuando se recibe el consentimiento, se realiza un seguimiento y no se volverá a solicitar el consentimiento al usuario del sitio. Para obtener más información, consulte [Cumplimiento de las cookies](cookie-compliance.md).
 
@@ -40,7 +35,7 @@ Si no se recibe el consentimiento de las cookies del usuario del sitio, las func
 Se puede configurar un módulo de consentimiento de cookies en el fragmento de encabezado de una página para que se pueda hacer cumplir cuando se carga la página. El módulo de consentimiento de cookies debe tener un mensaje claro que informe al usuario del sitio sobre el uso de cookies en el sitio y debe proporcionar un enlace a la página de privacidad del sitio.
 
 La siguiente ilustración destaca un ejemplo de un mensaje de consentimiento de cookies con un enlace a la página de política de privacidad del sitio que se muestra en el encabezado de una página del sitio.
-![Ejemplo de un módulo de consentimiento de cookies](./media/ecommerce-cookieconsent.png)
+![Ejemplo de un módulo de consentimiento de cookies.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Propiedades del módulo de consentimiento de cookies
 
@@ -62,3 +57,6 @@ Para obtener más información sobre módulos y fragmentos de encabezado, consul
 [Módulo de encabezado](author-header-module.md) 
 
 [Cumplimiento de cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

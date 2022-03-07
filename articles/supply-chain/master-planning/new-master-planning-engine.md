@@ -2,16 +2,13 @@
 title: Migración a la Optimización de planificación para la planificación maestra
 description: Este tema proporciona información sobre el nuevo motor de planificación maestro, Planning Optimization y sobre la migración desde el motor existente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823466"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
@@ -116,3 +113,6 @@ Estoy usando la versión 10.0.16 o posterior y recibo el siguiente mensaje de er
 > Complete el siguiente cuestionario para comenzar y, si es relevante, solicite una excepción de la migración a Optimización de la planificación.
 
 **Responder:** No, la planificación maestra no está bloqueada. Su ejecución de planificación maestra se completó con éxito y puede utilizar el resultado de la forma habitual. Sin embargo, para evitar recibir este mensaje de error durante las futuras ejecuciones de planificación maestra, debe migrar a Optimización de la planificación inmediatamente o solicitar una excepción mediante el enlace del mensaje de error.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

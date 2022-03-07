@@ -1,12 +1,10 @@
 ---
 title: Crear presupuestos de mantenimiento
 description: En este tema se explica cómo crear un presupuesto de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 602a00060c1e56285d9954981d019bececaf90fd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776953"
 ---
 # <a name="create-maintenance-budgets"></a>Crear presupuestos de mantenimiento
 
@@ -52,9 +50,12 @@ Los presupuestos de mantenimiento se basan en los tipos de coste que se usan en 
     > [!NOTE]
     > Una vez que haya aprobado un presupuesto de mantenimiento, no puede volver a calcular o ajustar las líneas relacionadas en la página **Líneas de presupuesto de mantenimiento**, a menos que primero quite la aprobación. Para quitar la aprobación de un presupuesto de mantenimiento, selecciónelo en la página **Presupuestos de mantenimiento** y, a continuación, seleccione **Aprobar**. A continuación, en el cuadro **Aprobar el presupuesto**, seleccione **Aceptar**.
 
-![Presupuestos de mantenimiento](media/01-maintenance-budgets.png)
+![Presupuestos de mantenimiento.](media/01-maintenance-budgets.png)
 
 También puede crear un nuevo presupuesto de mantenimiento copiando un presupuesto existente. En la página **Presupuestos de mantenimiento**, seleccione el presupuesto que quiere copiar y, a continuación, seleccione **Copiar**. Este es enfoque es práctico si, por ejemplo, ha creado un presupuesto para un mes y desea copiarlo a otros meses.
 
 > [!NOTE]
 > El presupuesto de mantenimiento calcula solo los costes del presupuesto según las líneas de la programación de mantenimiento. Para calcular los costes reales para el mismo período, puede realizar dicho cálculo en la página **Control de costes de activos**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

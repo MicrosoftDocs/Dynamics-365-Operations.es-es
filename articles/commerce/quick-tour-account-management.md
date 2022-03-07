@@ -2,11 +2,9 @@
 title: Visión general de las páginas de la gestión de cuentas
 description: Este tema proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969860"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984528"
 ---
 # <a name="account-management-pages-overview"></a>Visión general de las páginas de la gestión de cuentas
 
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Las páginas de gestión de cuentas permiten a los clientes ver información relacionada con su cuenta y pedidos. Las páginas de la gestión de cuentas incluyen la página de aterrizaje de la gestión de cuentas, y las páginas para el perfil del usuario, direcciones, historial de pedidos, detalles de pedidos, puntos de fidelización y lista de deseos.
 
@@ -39,7 +35,7 @@ Cuando un cliente inicia sesión y selecciona **Mi cuenta**, se abre la página 
 
 La ilustración siguiente muestra un ejemplo de la página de aterrizaje de gestión de cuentas.
 
-![Ejemplo de una página de aterrizaje de gestión de cuentas](./media/Account-Management.PNG)
+![Ejemplo de una página de aterrizaje de gestión de cuentas.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Página Mi perfil
 
@@ -47,7 +43,7 @@ La página **Mi perfil** muestra la información de cuenta del cliente, como su 
 
 En la siguiente ilustración se muestra un ejemplo de una página **Mi perfil** que se creó con la biblioteca de módulos.
 
-![Ejemplo de una página Mi perfil](./media/Account-Management-MyProfile.PNG)
+![Ejemplo de una página Mi perfil.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Página Direcciones
 
@@ -55,7 +51,7 @@ La página **Direcciones** permite al cliente agregar direcciones a su cuenta. T
 
 La ilustración siguiente muestra un ejemplo de la página **Direcciones**.
 
-![Ejemplo de una página Direcciones](./media/Account-Management-Address.png)
+![Ejemplo de una página Direcciones.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Página Historial de pedidos y Detalles del pedido
 
@@ -63,11 +59,11 @@ La página **Historial del pedido** muestra un resumen de todos los pedidos que 
 
 La ilustración siguiente muestra un ejemplo de la página **Historial del pedido**.
 
-![Ejemplo de una página Historial del pedido](./media/Account-Management-OrderHistory.PNG)
+![Ejemplo de una página Historial del pedido.](./media/Account-Management-OrderHistory.PNG)
 
 La ilustración siguiente muestra un ejemplo de la página **Detalles del pedido**.
 
-![Ejemplo de una página Detalles del pedido](./media/Account-Management-OrderDetails.PNG)
+![Ejemplo de una página Detalles del pedido.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Página Programa de fidelización
 
@@ -75,7 +71,7 @@ La página **Programa de fidelización** permite al cliente convertirse en miemb
 
 En la ilustración siguiente se muestra un ejemplo de una página **Programa de fidelización**.
 
-![Ejemplo de una página del Programa de fidelización](./media/Account-Management-Loyalty.PNG)
+![Ejemplo de una página del Programa de fidelización.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Página de lista de deseos
 
@@ -83,7 +79,7 @@ La página **Lista de deseos** muestra una lista de los artículos que el client
 
 En la ilustración siguiente se muestra un ejemplo de una página **Lista de deseos**.
 
-![Ejemplo de una página Lista de deseos](./media/Account-Management-Wishlist.PNG)
+![Ejemplo de una página Lista de deseos.](./media/Account-Management-Wishlist.PNG)
 
 Para obtener más información acerca de los módulos de gestión de cuentas y de cómo crearlos, consulte [Administración de cuentas](account-management.md).
 
@@ -95,3 +91,6 @@ Para obtener más información acerca de los módulos de gestión de cuentas y d
 
 [Visión general de las páginas del carro y de la finalización de la compra](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

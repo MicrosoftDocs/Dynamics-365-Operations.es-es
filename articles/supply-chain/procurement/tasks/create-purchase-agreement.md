@@ -1,26 +1,24 @@
 ---
 title: Crear un acuerdo de compra
 description: Este tema le guía por el proceso de creación de un acuerdo de compra.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee2cf437446f2e4c2cdd3cc0cd3be863bbafa132
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016840"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565456"
 ---
 # <a name="create-a-purchase-agreement"></a>Crear un acuerdo de compra
 
@@ -71,3 +69,6 @@ Este tema le guía por el proceso de creación de un acuerdo de compra. Esto nor
 5. Seleccione **Confirmaciones del acuerdo de compra**. La opción **Vista previa/Imprimir** le permite generar un documento para el acuerdo de compra que después se puede imprimir o enviar al proveedor. Si se actualiza el acuerdo más adelante y se vuelve a confirmar, aquí se mostrarán las dos versiones.  
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

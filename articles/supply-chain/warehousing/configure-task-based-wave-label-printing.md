@@ -1,22 +1,22 @@
 ---
 title: Programar la impresión de etiquetas de oleada durante la oleada
 description: Este tema describe cómo configurar y utilizar la funcionalidad para la impresión de etiquetas wave basada en tareas.
-author: perlynne
+author: MSFTGarm
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735905"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programar la impresión de etiquetas de oleada durante la oleada
 
@@ -33,14 +33,14 @@ Cuando usa la función *Impresión de etiquetas de ondas basada en tareas*, el s
 Para utilizar las funciones descritas en este tema, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
 1. *Impresión de etiquetas onduladas* - Esta función es necesaria para habilitar el método de proceso de ondas para la impresión de etiquetas de ondas.
-1. *Bloqueo de trabajo en toda la organización*: esta característica es requerida para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
+1. *Bloqueo de trabajo en toda la organización*: esta característica es requerida para la configuración manual y automática de la creación de trabajos programados.
 1. *Impresión de etiquetas de ondas basada en tareas* - Esta función es necesaria para dividir la impresión de etiquetas de onda en un ámbito de transacción independiente.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Habilite manualmente el método de paso de nueva ola
 
 Primero debe crear el nuevo método de paso de oleada y habilitarlo para el procesamiento de tareas asincrónicas en paralelo.
 
-1. Vaya a **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
+1. Vaya a  **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
 1. En el panel acciones, seleccione **Regenerar método**. Darse cuenta de que *waveLabelPrinting* se agrega a la lista de métodos de proceso de oleada que puede utilizar en sus plantillas de oleada de envío.
 1. Seleccione el registro donde el campo **Nombre del método** está configurado en *waveLabelPrinting* y, a continuación, en el panel de acciones, seleccione **Configuración de tareas**.
 1. En el Panel de acciones, seleccione **Nuevo** para agregar una fila a la cuadrícula. Entonces establezca los siguientes campos para la fila nueva:
@@ -51,7 +51,7 @@ Primero debe crear el nuevo método de paso de oleada y habilitarlo para el proc
 
 Ahora puede actualizar una plantilla de oleada existente para que utilice el método de procesamiento *Impresión de etiquetas onduladas* de ondas. Alternativamente, puede crear una nueva plantilla de oleada que la utilice.
 
-1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
+1. Vaya a  **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. En el panel Acciones, seleccione **Editar**.
 1. En el panel de lista, seleccione la plantilla de oleada para actualizar. (Si está utilizando datos de demostración con fines de prueba, puede seleccionar el *envío predeterminado 24*).
 1. En la ficha desplegable **Métodos**, en la columna **Métodos restantes**, seleccione la fila donde el campo **Nombre** está establecido en *waveLabelPrinting*.

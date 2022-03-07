@@ -1,51 +1,49 @@
 ---
 title: Instalar, configurar y actualizar el portal del cliente
 description: Este tema proporciona detalles sobre licencias e instrucciones de configuracion del Portal del cliente.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529539"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060622"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar y actualizar el portal del cliente
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Requisitos de licencia
 
 Para implementar el portal del Cliente, debe tener las siguientes licencias:
 
-- **Portales Power Apps**: esta licencia es necesaria para alojar el portal del Cliente. Los portales tienen licencia en función del uso. Para más información, consulte los [requisitos de licencia de portales Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Doble escritura**: debe tener las licencias necesarias para habilitar la escritura dual para las entidades de Supply Chain Management. Para obtener más información, consulte los [requisitos del sistema para escritura dual](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Portales Power Apps**: esta licencia es necesaria para alojar el portal del Cliente. Los portales tienen licencia en función del uso. Para más información, consulte los [requisitos de licencia de portales Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Doble escritura**: debe tener las licencias necesarias para habilitar la escritura dual para las tablas de Supply Chain Management. Para obtener más información, consulte los [requisitos del sistema para escritura dual](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dependencias de doble escritura y los portales Power Apps
 
 El portal del cliente depende de los portales Power Apps portales y la doble escritura, como se muestra en la siguiente ilustración.
 
-![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")
+![Dependencias del portal del cliente.](media/customer-portal-elements.png "Dependencias del portal del cliente")
 
-A diferencia de otras características de Supply Chain Management, la plantilla del portal del cliente reside en los portales Power Apps. Por lo tanto, el portal del Cliente está limitado por la funcionalidad y las capacidades proporcionadas por los portales Power Apps y las entidades en doble escritura.
+A diferencia de otras características de Supply Chain Management, la plantilla del portal del cliente reside en los portales Power Apps. Por lo tanto, el portal del Cliente está limitado por la funcionalidad y las capacidades proporcionadas por los portales Power Apps y las tablas en doble escritura.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuración requerida para habilitar el portal del cliente
 
-Después de asegurarse de que tiene las licencias requeridas, puede configurar la escritura dual como se describe en [instrucciones de sincronización inicial de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Después de asegurarse de que tiene las licencias requeridas, puede configurar la escritura dual como se describe en [instrucciones de sincronización inicial de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
-Asegúrese de habilitar las siguientes asignaciones de entidades en doble escritura:
+Asegúrese de habilitar las siguientes asignaciones de tablas en doble escritura:
 
 - Encabezado de pedido de ventas
 - Detalles de pedido de ventas
@@ -77,12 +75,15 @@ Se podría agregar más funcionalidad al portal del Cliente más adelante. Cualq
 
 Para saber cómo puede configurar y personalizar el portal del Cliente, debe comenzar por revisar la siguiente documentación para las tecnologías subyacentes:
 
-- [Documentación de portales Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentación de portales Power Apps](/powerapps/maker/portals/overview)
 - [Documentación de doble escritura](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Para gestionar eficazmente sus portales, debe conocer los portales Power Apps y el ciclo de vida de Common Data Service. Para obtener más información, consulte los siguientes recursos:
+Para gestionar eficazmente sus portales, debe conocer los portales Power Apps y el ciclo de vida de Microsoft Dataverse. Para obtener más información, consulte los siguientes recursos:
 
-- [Sobre el ciclo de vida del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Actualizar un portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrar la configuración del portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Sobre el ciclo de vida del portal](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Actualizar un portal](/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrar la configuración del portal](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Administración de ciclo de vida de solución: Dynamics 365 para aplicaciones de Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

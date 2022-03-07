@@ -2,9 +2,11 @@
 title: IVA intracomunitario para España
 description: Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA).
 author: Anasyash
+manager: AnnBe
 ms.date: 07/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendFormletterParameters, VendParameters, TaxTrans
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 48d3644e392b79e1bd34f10397bb0bafb15bbd8281e10baa6d33c53e988d4127
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 631e0824c2df36ad1a1c615f1a1dd1c63e793ecc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743782"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992739"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]
@@ -50,7 +52,7 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 1. Vaya a **Proveedores** \> **Configuración** \> **Parámetros de proveedores**. 
 2. En la pestaña **Impuestos y contabilidad**, en la ficha desplegable **Impuestos**, establezca la opción **IVA intracomunitario** en **Sí**.
 
-![Página de parámetros de proveedores, pestaña de impuestos y contabilidad, campo de IVA intracomunitario.](media/1_Intra-community_VAT.png)
+![Página de parámetros de proveedores, pestaña de impuestos y contabilidad, campo de IVA intracomunitario](media/1_Intra-community_VAT.png)
 
 3. Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Códigos de impuestos** y cree un par de códigos de impuestos con el mismo porcentaje de impuestos para cada índice de impuestos. Un código debe tener un porcentaje de impuestos positivo, y el otro código debe tener un porcentaje de impuestos negativo. Para códigos con porcentaje de impuestos negativo, en la ficha desplegable **Cálculo**, establezca la opción **Permitir porcentaje de impuestos negativo a las ventas** en **Sí**.
 
@@ -68,11 +70,11 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 
 | **Código de impuestos** | **IVA intracomunitario** |
 |--------------------|-------------------------|
-| EU21               | No                      |
+| EU21               | Nº                      |
 | EU-21              | Sí                     |
-| EU10               | No                      |
+| EU10               | Nº                      |
 | EU-10              | Sí                     |
-| EU4                | No                      |
+| EU4                | Nº                      |
 | EU-4               | Sí                     |
 
 6.  Vaya a **Impuestos** \> **Impuestos indirectos** \> **Impuestos** \> **Grupos de impuestos de artículos** y cree los siguientes grupos de impuestos de artículos.
@@ -91,9 +93,6 @@ En el siguiente ejemplo se muestra cómo puede configurar códigos de impuestos 
 
 8.  Verifique que haya dos líneas en la lista **Transacciones de impuestos**.
 
-    ![Líneas de transacción de impuestos.](media/2_Sales_tax.png)
+    ![Líneas de transacción de impuestos](media/2_Sales_tax.png)
 
 9.  Seleccione **Registrar** para registrar la transacción y luego seleccione **Aceptar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

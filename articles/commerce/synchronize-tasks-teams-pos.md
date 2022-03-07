@@ -2,9 +2,11 @@
 title: Sincronizar la gestión de tareas entre Microsoft Teams y Dynamics 365 Commerce PDV
 description: Este tema describe cómo sincronizar la administración de tareas entre Microsoft Teams y Dynamics 365 Commerce punto de venta (PDV).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+manager: annbe
+ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,16 +15,17 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c07ca28b45335de5e327305b7426d1b6de8ce5c7
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: ca0cb32ac3ee508ddcd5346a895fb9904fa92517
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842741"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sincronizar la gestión de tareas entre Microsoft Teams y Dynamics 365 Commerce PDV
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tema describe cómo sincronizar la administración de tareas entre Microsoft Teams y Dynamics 365 Commerce punto de venta (PDV).
 
@@ -54,9 +57,6 @@ Para más información, consulte [Publique listas de tareas para crear y realiza
 ## <a name="link-pos-and-teams-for-task-management"></a>Vincular PDV y Teams para la gestión de tareas
 
 Para vincular las aplicaciones PDV y Microsoft Teams para la gestión de tareas en la sede de Commerce, siga estos pasos.
-
-> [!NOTE]
-> Antes de intentar integrar la administración de tareas con Microsoft Teams, asegúrese de haber habilitado la [integración de Dynamics 365 Commerce y Microsoft Teams](enable-teams-integration.md). 
 
 1. Vaya a **Retail y Commerce \> Administración de tareas \> Integración de tareas con Microsoft Teams**.
 1. En el panel Acciones, seleccione **Editar**.

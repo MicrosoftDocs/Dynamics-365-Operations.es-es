@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: VendParameters, BankPromissoryNoteTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264624
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b939caef9140545ab5200c1bf0edadb72ea2726b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3642aa13883401bd264ef5831791a80188f25575
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407805"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992724"
 ---
 # <a name="spanish-promissory-note-options"></a>Opciones de pagaré español
 

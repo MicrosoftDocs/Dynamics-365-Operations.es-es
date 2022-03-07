@@ -2,9 +2,11 @@
 title: Registro para ejecución de fabricación
 description: En este tema se describen los conceptos y los términos clave que necesita comprender para configurar y usar la ejecución de fabricación.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c843bc87c7b9c0676211c8f3363ec3e05ee97d20b3eedc940b9ffaee2d3211fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 19b1bf7055132c824bc4043c0bd1dbad3afce2a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209356"
 ---
 # <a name="registration-for-manufacturing-execution"></a>Registro para ejecución de fabricación
 

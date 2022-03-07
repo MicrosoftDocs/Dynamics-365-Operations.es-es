@@ -2,16 +2,13 @@
 title: Evaluar rentabilidad de clientes y productos
 description: Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca de los clientes y de la rentabilidad de productos desde sus datos de Dynamics 365 Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3218a29995791ce0d9a42d5b6d898d6e548f0f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 80a2f38f2b3f039b17556116d6aea738faa1db50
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415512"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797338"
 ---
 # <a name="assess-customer-and-product-profitability"></a>Evaluar rentabilidad de clientes y productos
 
@@ -56,3 +53,6 @@ Para esta evaluación, puede usar el informe listo para usar **Productos princip
 - Espacio de trabajo **Administración de tiendas** &gt; **Retail y Commerce** &gt; **Canales** &gt; **Administración de tiendas** &gt; **Informes** &gt; **Informe de productos principales**
 - Espacio de trabajo **Administración de categorías y productos** &gt; **Retail y Commerce** &gt; **Productos y categorías** &gt; **Administración de tiendas** &gt; **Informes** &gt; **Informe de productos principales**
 - Sección **Consultas e informes** &gt; **Retail y Commerce** &gt; **Consultas e informes** &gt; **Informes de ventas** &gt; **Informe de productos principales**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

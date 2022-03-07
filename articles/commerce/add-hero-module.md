@@ -2,15 +2,12 @@
 title: Módulo de bloque de contenido
 description: En este tema se tratan los módulos de bloque de contenido y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726448"
 ---
 # <a name="content-block-module"></a>Módulo de bloque de contenido
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de bloque de contenido y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Un módulo de bloque de contenido se usa para promociones o productos de mercado a través de una combinación de imágenes y texto. Por ejemplo, un minorista puede agregar un módulo de bloque de contenido a la página principal de un sitio de comercio electrónico para promocionar un nuevo producto y atraer la atención de los clientes.
 
@@ -52,11 +46,11 @@ Además, el tema puede exponer diferentes propiedades para cada diseño. Un desa
 
 La siguiente imagen muestra un ejemplo de módulo de bloque de contenido con un diseño de héroe.
 
-![Ejemplo de un módulo de elemento principal](./media/Hero.PNG)
+![Ejemplo de un módulo de elemento principal.](./media/Hero.PNG)
 
 La siguiente imagen muestra un ejemplo de módulo de bloque de contenido con un diseño de característica.
 
-![Ejemplos de módulos de características](./media/Feature.PNG)
+![Ejemplos de módulos de características.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Propiedades del módulo de bloque de contenido
 
@@ -107,3 +101,6 @@ Para agregar un módulo de elemento principal a una página nueva y establecer l
 [Módulo de bloque de texto](add-content-rich-block.md)
 
 [Módulo de reproductor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 641273dd3ae189853326bf7af7ceb06d48465b5c
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966288"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500559"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
 
@@ -79,3 +80,6 @@ La parte superior de la siguiente ilustración muestra el aspecto predeterminado
 De forma predeterminada, la interfaz de ejecución de la planta de producción cierra sesión automáticamente si nadie la usa durante 12 horas. Un usuario de Supply Chain Management deberá volver a iniciar sesión. Sin embargo, puede extender el límite de tiempo de espera hasta 90 días.
 
 Para extender el límite de tiempo de espera, inicie sesión en Supply Chain Management y vaya a **Administración del sistema \> Usuarios \> Extensiones de sesión**. Especifique la cuenta de usuario de Supply Chain Management que se utiliza para iniciar sesión en el dispositivo y el número de horas que la sesión debe permanecer activa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

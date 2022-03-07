@@ -1,44 +1,46 @@
 ---
-title: Cree planes de compensación variable
-description: La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este artículo describe los componentes que se deben configurar para poder usar compensación variable e inscribir un empleado en un plan de compensación variable.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: Crear planes de compensación variable
+description: Este tema describe los componentes que se deben configurar para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18347527517d6d051213fbe13caca54ed9214111
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420357"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066859"
 ---
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
-La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este artículo describe los componentes que se deben configurar para poder usar compensación variable e inscribir un empleado en un plan de compensación variable.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este tema explica cómo configurar los componentes necesarios para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
 
 El cálculo de los importes de compensación variable para sus empleados se puede basar en varios factores, como el rendimiento del empleado, el nivel de compensación del empleado y el rendimiento del departamento.
 
 ## <a name="variable-compensation-components"></a>Componentes de compensación variable
 ### <a name="create-compensation-types"></a>Crear tipos de compensación
 
-Los **Tipos de compensación variable** es un componente obligatorio. Los tipos de compensación variable le permiten describir los tipos de compensación variable que concede su organización. También permiten especificar si la compensación será en efectivo o en un formulario no monetario, como existencias.
+Los **Tipos de compensación variable** es un componente obligatorio. Los **Tipos de compensación variable** le permiten describir la compensación variable que concede su organización. También permiten especificar si la compensación será en efectivo o en un formulario no monetario, como existencias.
 
 ### <a name="describe-vesting-rules"></a>Describir reglas de atribución
 
-Opcionalmente, las empresas pueden configurar **reglas de atribución**. Las reglas de atribución describen cómo la prima variable debe asignarse en el tiempo. Por ejemplo, una regla de atribución puede indicar que el empleado recibirá el 25 por ciento de la prima total cada año para los cuatro años próximos. Las reglas de atribución solo son informativas.
+Opcionalmente, las empresas pueden configurar **Reglas de atribución**. Las **Reglas de atribución** describen cómo la prima variable debe asignarse en el tiempo. Por ejemplo, una regla de atribución puede indicar que el empleado recibirá el 25 por ciento de la prima total cada año para los cuatro años próximos. Las reglas de atribución solo son informativas.
 
 ## <a name="variable-compensation-plans"></a>Planes de compensación variable
 El **plan de compensación variable** contiene las reglas, los métodos de cálculo y los valores predeterminados para el cálculo de la compensación variable para los empleados inscritos. Al crear un plan de compensación variable, debe configurar el tipo de compensación variable. El tipo de compensación variable determina si el sistema calculará un importe de divisa o varias unidades como prima. También debe definir el método de cálculo:
@@ -48,24 +50,24 @@ El **plan de compensación variable** contiene las reglas, los métodos de cálc
 
 El importe de la prima variable se puede basar en un porcentaje de las ganancias base ordinarias del empleado o en un número establecido de unidades.
 
--   Seleccione la opción **Porcentaje de base** para escribir un porcentaje predeterminado y especificar si la base debe ser el índice salarial fijo del empleado o el punto de control para el nivel de compensación del empleado. El nivel de compensación se establece en el trabajo del empleado. Uno de los puntos de referencia de la estructura de compensación se puede establecer como punto de control en el plan de compensación fija. El sistema utilizará el nivel de compensación del trabajo del empleado y realizará una referencia cruzada con él con el punto de control que se muestra en el plan de compensación fija del empleado, para buscar el importe del punto de control para el nivel de compensación del empleado. Después, el importe del punto de control se usará en lugar del índice salarial fijo del empleado como base para la bonificación.
--   Seleccione la opción **Número de unidades** para especificar un número predeterminado de unidades, el valor de cada unidad y de la divisa del valor de unidad si el plan de compensación es para una prima que no es en efectivo (por ejemplo, 200 unidades de existencias con un valor de 40 USD) o solo el número de unidades si el plan de compensación es para una prima en efectivo. Para una prima en efectivo, el empleado recibirá el número de unidades de la divisa especificado que se usa para su plan de compensación fija (por ejemplo, 500 unidades de 1 USD). El control de la relación unívoca se puede usar para indicar si hay una asignación unívoca directa entre el número de unidades y el valor unitario. Al crear un plan de compensación variable para un plan de basado en efectivo usando el número de unidades, esta opción se bloquea automáticamente en **Sí** y el valor unitario es **1,0000**.
+-   Seleccione la opción **Porcentaje de base** para escribir un porcentaje predeterminado y especificar si la base debe ser el índice salarial fijo del empleado o el punto de control para el nivel de compensación del empleado. El nivel de compensación se establece en el trabajo del empleado. Uno de los puntos de referencia de la estructura de compensación se puede establecer como punto de control en el plan de compensación fija. Se utilizará el nivel de compensación del trabajo del empleado y realizará una referencia cruzada con el punto de control que se enumera en el plan de compensación fija del empleado, para buscar el importe del punto de control para el nivel de compensación del empleado. Después, el importe del punto de control se usará en lugar del índice salarial fijo del empleado como base para la bonificación.
+-   Seleccione la opción **Número de unidades** para especificar un número predeterminado de unidades, el valor de cada unidad y de la divisa del valor de unidad si el plan de compensación es para una prima que no es en efectivo (por ejemplo, 200 unidades de existencias con un valor de 40 USD) o solo el número de unidades si el plan de compensación es para una prima en efectivo. Para una prima en efectivo, el empleado recibirá el número de unidades de la divisa especificado que se usa para el plan de compensación fija (por ejemplo, 500 unidades de 1 USD). El control de la relación unívoca se puede usar para indicar si hay una asignación unívoca directa entre el número de unidades y el valor unitario. Al crear un plan de compensación variable para un plan de basado en efectivo usando el número de unidades, esta opción se bloquea automáticamente en **Sí** y el valor unitario es **1,0000**.
 
-La configuración **Regla de contratación** le permite especificar si todos los empleados deben recibir el mismo aumento, independientemente de la fecha en que se les contrató (**Regla de contratación** = **Ninguna**), o si los empleados deben recibir un porcentaje de la prima, que se basa en la duración del empleo durante el ciclo (**Regla de contratación** = **Porcentaje**). 
+La **Regla de contratación** especifica si todos los empleados deben recibir el mismo aumento, independientemente de la fecha en que se les contrató (**Regla de contratación** = **Ninguna**), o si los empleados deben recibir un porcentaje de la prima, que se basa en la duración del empleo durante el ciclo (**Regla de contratación** = **Porcentaje**). 
 
-**Endeudamiento** permite ajustar la prima de un empleado, en función del rendimiento del departamento del empleado. Las medidas de rendimiento se pueden establecer para cada departamento en la página **Departamentos**, en **Formularios relacionados** &gt; **Compensación** &gt; **Rendimiento**. El tipo de prima que los empleados del departamento reciben depende del valor del campo **Porcentaje del objetivo logrado**, que indica el rendimiento de departamento:
+**Desempeño** permite ajustar la prima de un empleado, en función del rendimiento del departamento del empleado. Las medidas de rendimiento se pueden establecer para cada departamento en la página **Departamentos**, en **Formularios relacionados** &gt; **Compensación** &gt; **Rendimiento**. El tipo de prima que los empleados del departamento reciben depende del valor del campo **Porcentaje del objetivo logrado**, que indica el rendimiento de departamento:
 
 -   Si el rendimiento del departamento es del 100 por cien, la prima para los empleados de ese departamento se incluye en el porcentaje que se establece en el campo **Pago al 100%**.
 -   Si el rendimiento del departamento es superior al 100 por cien, el sistema agrega el porcentaje que se establece en el campo **Por 1% por encima del objetivo** en el porcentaje que se establece en el campo **Pago al 100%** hasta que se alcance el valor que se establece en el campo **Pago máximo permitido**.
 -   Si el rendimiento del departamento es inferior al 100 por cien, el sistema resta el porcentaje que se establece en el campo **Por 1% por debajo del objetivo** del porcentaje que se establece en el campo **Pago al 100%** hasta que se alcance el valor que se establece en el campo **Pago mínimo permitido**.
 
-Puede establecer **niveles de tolerancia** en los porcentajes de umbral para que aparezca un mensaje de advertencia si el endeudamiento hace que el porcentaje se encuentre fuera del porcentaje del umbral. 
+Puede establecerse **Niveles de tolerancia** en los porcentajes de umbral para que aparezca un mensaje de advertencia si el desempeño hace que el porcentaje se encuentre fuera del porcentaje del umbral. 
 
-De forma predeterminada, el sistema busca el departamento definido en el puesto del empleado. Sin embargo, la prima de algunos empleados puede depender de rendimiento de varios departamentos. En este caso, los distintos departamentos y el porcentaje de la prima que se asigna al rendimiento de cada departamento se pueden establecer en la inscripción de compensación variable del empleado. Para obtener más información, consulte la sección “Inscripción de compensación variable” que se incluye a continuación. 
+De forma predeterminada, el sistema utiliza el departamento definido en el puesto del empleado para las primas a empleados. Sin embargo, la prima de algunos empleados puede depender de rendimiento de varios departamentos. En este caso, los distintos departamentos y el porcentaje de la prima que se asigna al rendimiento de cada departamento se pueden establecer en la inscripción de compensación variable del empleado. Para obtener más información, consulte la sección “Inscripción de compensación variable” que se incluye a continuación. 
 
 El endeudamiento se usa solo si la opción **Salario variable por rendimiento** está seleccionada al ejecuta el proceso de compensación. 
 
-La ficha de **anulaciones de niveles** permite anular el porcentaje predeterminado o el número de unidades de prima, en función del nivel de compensación del empleado. Si **Habilitar anulaciones de niveles** se establece en **Sí** para empleados inscritos en el plan de compensación variable, el sistema toma el nivel de trabajo de un empleado y, a continuación, lo busca en la tabla de anulaciones de niveles para determinar el porcentaje o el número de unidades para dicho nivel. Si el nivel no se encuentra en la tabla de anulaciones de niveles, se usa el porcentaje predeterminado o el número de unidades de la ficha **General**. El porcentaje y el número de unidades también se pueden anular en la inscripción del empleado en el plan de compensación variable.
+La ficha de **anulaciones de niveles** permite anular el porcentaje predeterminado o el número de unidades de prima, en función del nivel de compensación del empleado. Si **Habilitar anulaciones de niveles** se establece en **Sí** para empleados inscritos en el plan de compensación variable, el nivel de trabajo de un empleado se comparará con la tabla de anulaciones de niveles para determinar el porcentaje o el número de unidades para dicho nivel. Si el nivel no se encuentra en la tabla de anulaciones de niveles, se usa el porcentaje predeterminado o el número de unidades de la ficha **General**. El porcentaje y el número de unidades también se pueden anular en la inscripción del empleado en el plan de compensación variable.
 
 ## <a name="variable-compensation-enrollment"></a>Inscripción de compensación variable
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Determinar quién es apto para el plan
@@ -99,3 +101,6 @@ Puede usar la ficha **Anulaciones** para anular los valores específicos para el
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

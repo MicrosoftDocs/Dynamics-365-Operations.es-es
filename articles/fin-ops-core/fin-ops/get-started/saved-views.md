@@ -2,11 +2,9 @@
 title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
@@ -15,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693710"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744624"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
 [!include [banner](../includes/banner.md)]
+
 
 ## <a name="introduction"></a>Introducción
 
@@ -123,12 +122,14 @@ Para publicar una vista, siga estos pasos:
 1. Cree y guarde una copia personal de la vista que desea publicar. 
 2. Con esa vista cargada actualmente, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista. 
 3. Seleccione el botón **Más** y a continuación seleccione **Publicar**. El cuadro de diálogo de la publicación se abrirá.
-4. Introduzca un nombre y (opcionalmente) una descripción de la vista. El nombre que especifique es el nombre que los usuarios que reciben esta vista verán en los selectores de la vista. Los nombres de las vistas publicadas para una página deben ser únicos. No se permiten nombres duplicados, incluso si la lista de roles o entidades jurídicas a las que se aplican difieren.
-5. **Versión 10.0.9 y versiones posteriores**: determine si la vista debe publicarse como la vista predeterminada para los usuarios seleccionados. Cuando una vista se establece como vista predeterminada, los usuarios la verán la próxima vez que abran la página de destino. Se modificará la vista predeterminada global única de cada usuario objetivo. Sin embargo, los usuarios aún pueden cambiar su vista predeterminada después de que se haya publicado.
-6. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
-7. **Versión 10.0.13 y versiones posteriores**: determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
-7. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
-8. Seleccione **Publicar**.
+4. Introduzca un nombre para la vista. El nombre que especifique es el nombre que los usuarios que reciben esta vista verán en los selectores de la vista. Los nombres de las vistas publicadas para una página deben ser únicos. No se permiten nombres duplicados, incluso si la lista de roles o entidades jurídicas a las que se aplican difieren.
+5. **Actualización 10.0.17 o posterior:** Si la función de **(vista previa) Soporte de traducción para vistas de organización** está activada, puede agregar traducciones para el nombre de su vista en tantos idiomas como su organización lo requiera seleccionando el botón **Traducciones** junto al campo **Nombre**. El nombre de la vista se mostrará a los usuarios en su idioma actual. También puede establecer el idioma predeterminado para especificar la traducción que se mostrará a los usuarios que ejecutan idiomas para los que no se ha definido ninguna traducción.
+5. Opcional: ingrese una descripción para la vista, de modo que los usuarios que reciben esta vista puedan comprender mejor su propósito. 
+6. Determine si la vista debe publicarse como la vista predeterminada para los usuarios seleccionados. Cuando una vista se establece como vista predeterminada, los usuarios la verán la próxima vez que abran la página de destino. Se modificará la vista predeterminada global única de cada usuario objetivo. Sin embargo, los usuarios aún pueden cambiar su vista predeterminada después de que se haya publicado.
+7. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
+8. Determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
+9. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
+10. Seleccione **Publicar**.
 
 Tenga en cuenta que en algunos entornos esto podrá llevar tiempo (hasta una hora) antes de que los usuarios vean la vista publicada.
 
@@ -146,27 +147,15 @@ Si los cambios que desea realizar en una vista publicada afectan sólo a los par
 1. Cambie a la vista publicada para los parámetros que desea actualizar. 
 2. Seleccione **Volver a publicar** en el menú desplegable del selector de vista. Si está utilizando la versión 10.0.12 o versiones anteriores, debe seleccionar **Publicar** y después **Sí** para actualizar la vista existente.
 3. Actualice el nombre, la descripción, y/o los roles de seguridad y entidades jurídicas para la vista. 
-4. Seleccione **Publicar**. 
-5. **Versión 10.0.8 y versiones anteriores**: si actualizó el nombre de la vista publicada, también debe eliminar la vista publicada que tiene el nombre anterior. (Para obtener más información, consulte la sección [Administrar vistas publicadas](saved-views.md#managing-published-views)).
+4. Seleccione **Publicar**. Si originalmente seleccionó esta vista publicada como la vista predeterminada, será la vista predeterminada para los usuarios nuevamente después de volver a publicarla. 
 
-**Versión 10.0.9 y versiones posteriores**: si originalmente seleccionó esta vista publicada como la vista predeterminada, será la vista predeterminada para los usuarios nuevamente después de volver a publicarla.
-
-Si los cambios a la vista publicada implican modificar las personalizaciones o los filtros asociados a la vista, siga estos pasos: 
-
-**Versión 10.0.13 y versiones posteriores**: realice los cambios necesarios directamente en la vista. Un asterisco (\*) debería aparecer junto al nombre de la vista.
+Si los cambios a la vista publicada implican modificar las personalizaciones o los filtros asociados a la vista, siga estos pasos.
 
 1. Cargue la vista publicada que desea modificar. 
 2. Realice los cambios necesarios en el borrador local.
 3. Seleccione **Volver a publicar** en el menú desplegable del selector de vista.
 4. Seleccione **Sí** para indicar que desea publicar la vista junto con sus cambios no guardados. 
 5. Ajuste los parámetros de publicación que requieran ajustes y luego seleccione **Publicar**. 
-
-**Versión 10.0.12 y versiones anteriores**
-
-1. Cargue la vista publicada que desea modificar. 
-2. Guarde una copia de la vista publicada para crear un borrador local de la vista publicada. 
-3. Modificar el borrador local con los cambios necesarios.
-4. Publicar la vista con el nombre original. 
 
 ## <a name="managing-published-views"></a>Administrar las vistas publicadas
 
@@ -179,20 +168,20 @@ Para una lista de todas las vistas publicadas para dicha página, el conjunto de
 - **Volver a publicar**: use la acción **volver a publicar** para volver a publicar una vista después de haber cambiado los parámetros de publicación (nombre, descripción, roles de seguridad o entidades jurídicas).
 - **Publicar**: utilice la acción **Publicar** para publicar una vista que no está publicada actualmente. 
 - **Anular publicación**: utilice la acción **Anular publicación** para hacer que una vista esté inactiva. La vista seguirá estando disponible en el sistema, pero los usuarios no la verán en el selector de vista hasta que la vista se vuelva a publicar.
-- **Guardar como personal**: utilice la acción **Guardar como personal** para crear una copia de borrador personal de la vista publicada. Esta capacidad puede ayudarle a comprender el contenido de una vista que no se le había publicado o que aún no se ha publicado. También puede usarlo para editar y luego volver a publicar una vista. Esta capacidad se introduce en la versión 10.0.12.
+- **Guardar como personal**: utilice la acción **Guardar como personal** para crear una copia de borrador personal de la vista publicada. Esta capacidad puede ayudarle a comprender el contenido de una vista que no se le había publicado o que aún no se ha publicado. También puede usarlo para editar y luego volver a publicar una vista.
 - **Eliminar**: use la acción **Eliminar** para eliminar de forma permanente una vista publicada o no publicada. Esta acción también elimina la vista para todos los usuarios en el sistema. La eliminación de vistas publicadas surtirá efecto después de que se seleccione el botón **Guardar**. Después de eliminar una vista, no se puede recuperar. 
 
 ## <a name="managing-views-globally"></a>Gestionar vistas globalmente
 
 Aunque aparecen algunas capacidades de administración en cada página, como se indica en este tema, **administradores del sistema** y **ver administradores guardados** puede administrar vistas de manera más holística para el sistema a través de la página **Personalización**. En particular, esta página tiene las siguientes secciones y capacidades: 
 
-- **Vistas publicadas**: esta sección enumera todas las vistas que se han publicado para su organización. Desde aquí, puede volver a publicar una vista después de ajustar las características de seguridad o las entidades legales a las que se dirige la vista. También puede exportar, eliminar o cancelar la publicación de las vistas. En la versión 10.0.12 y posteriores, puede usar la acción **Guardar como personal** para crear una copia personal de la vista, de modo que pueda actualizar la vista u obtener una mejor comprensión de su contenido. 
-- **Vistas no publicada**: esta sección enumera todas las vistas de la organización en su sistema que no están publicadas actualmente. Estas vistas suelen entrar en el sistema a través de la funcionalidad de importación. Puede publicar, exportar o eliminar estas vistas. La acción **Publicación rápida** que se agregó en la versión 10.0.12 permite que se publiquen varias vistas de esta sección en una sola acción, utilizando el rol de seguridad existente y las configuraciones de entidad legal. En la versión 10.0.12 y posteriores, puede usar la acción **Guardar como personal** para crear copias personales de estas vistas, de modo que pueda obtener una mejor comprensión de sus contenidos.
+- **Vistas publicadas**: esta sección enumera todas las vistas que se han publicado para su organización. Desde aquí, puede volver a publicar una vista después de ajustar las características de seguridad o las entidades legales a las que se dirige la vista. También puede exportar, eliminar o cancelar la publicación de las vistas. Puede usar la acción **Guardar como personal** para crear una copia personal de la vista, de modo que pueda actualizar la vista u obtener una mejor comprensión de su contenido. 
+- **Vistas no publicada**: esta sección enumera todas las vistas de la organización en su sistema que no están publicadas actualmente. Estas vistas suelen entrar en el sistema a través de la funcionalidad de importación. Puede publicar, exportar o eliminar estas vistas. La acción **Publicación rápida** que se agregó en la versión 10.0.12 permite que se publiquen varias vistas de esta sección en una sola acción, utilizando el rol de seguridad existente y las configuraciones de entidad legal. Puede usar la acción **Guardar como personal** para crear copias personales de estas vistas, de modo que pueda obtener una mejor comprensión de sus contenidos.
 - **Vistas personales**: esta sección enumera todas las vistas que han creado los usuarios en el sistema. Desde aquí, puede publicar una vista personal en la organización, o copiar una o más de estas vistas a otros usuarios. También puede exportar o eliminar estas vistas como sea necesario.
 - **Ajustes del usuario**: seleccione un usuario para ver o ajustar la capacidad del usuario para usar la personalización para todo el sistema o para páginas específicas que el usuario ha visitado. Puede ver e interactuar con las personalizaciones del usuario en el sistema. También puede eliminar todas las personalizaciones para ese usuario o restablecer las llamadas de funciones para el usuario. Si se restablecen las llamadas de características que introducían nuevas características y que el usuario descartó anteriormente, estas ventanas emergentes aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
 - **Configuración del sistema**: puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, no se aplican personalizaciones para cualquier usuario, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
 
-Los usuarios con acceso a la página **Personalización** también pueden importar las vistas de la organización o de la plantilla con el botón **Importar vistas** del panel Acciones. En la versión 10.0.12 y posteriores, se ha agregado un mecanismo para publicar vistas inmediatamente cuando se importan.
+Los usuarios con acceso a la página **Personalización** también pueden importar las vistas de la organización o de la plantilla con el botón **Importar vistas** del panel Acciones. Para las vistas de la organización, puede seleccionar **Publica inmediatamente** para que las vistas estén disponibles para los usuarios sin una publicación explícita adicional.
 
 ## <a name="known-issues"></a>Problemas conocidos
 Para obtener una lista de los problemas conocidos con las vistas guardadas, consulte [Crear formularios que usan completamente las vistas guardadas](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +193,7 @@ Para obtener una lista de los problemas conocidos con las vistas guardadas, cons
 > [!NOTE]
 > La característica **Vistas guardadas** requiere que el sistema de personalización de Finance and Operations esté habilitado. Si la personalización se desactiva para todo el entorno, las vistas se deshabilitarán incluso si sigue los pasos siguientes. 
 
-**Versión 10.0.13 y versiones posteriores**
-
-La característica **Vistas guardada** ya no está en la versión preliminar. Ahora está disponible directamente a través de la Administración de características en cualquier entorno.
-
-**Versiones de la 10.0.9 a la 10.0.12**
-
-La característica **Vistas guardadas** está disponible directamente en Administración de características en cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Términos complementarios de acuerdo de uso](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8/Platform update 32 y anterior**
-
-La característica **Vistas guardadas** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos siguientes.
-
-1. **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Restablecer IIS** para vaciar la memoria caché estática de la distribución de paquetes piloto. 
-3. **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Vistas guardadas** no aparece en la lista, seleccione **Buscar actualizaciones**.
-4. **Habilitar la característica**: encuentre la característica **Vistas guardadas** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles.
-
-Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas habilitadas.
+Puede activar y desactivar la función **Vistas guardadas** a través de la gestión de funciones en cualquier entorno. Una vez activada, las vistas guardadas se habilitarán en todas las sesiones de usuario posteriores.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>¿Qué sucede a las personalizaciones existentes cuando se habilitan las vistas? 
 
@@ -253,3 +222,6 @@ Para las páginas con selectores de vista grandes (las personalizaciones y consu
 
 - Si navega a través de un mosaico a una página, la consulta del mosaico se ejecutará independientemente de la consulta asociada a la vista predeterminada. Si creó ese icono después de que se hubieran habilitado las vistas, al seleccionar un icono se abrirá la página con la vista asociada a ese icono.
 - Si navega a una página cuyo punto de entrada incluye una consulta, la consulta original se ejecutará originalmente en lugar de la consulta predeterminada de la vista. Debería recibir una alerta cuando esto se produce mediante un mensaje informativo cuando se cargue la vista. También puede confirmar esto cambiando a esta vista después de que la página cargue, ya que eso debería permitir a la consulta de la vista ejecutarse de forma independiente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

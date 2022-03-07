@@ -1,7 +1,7 @@
 ---
 title: Crear un producto maestro
 description: Cree un producto maestro para las variantes predefinidas.
-author: t-benebo
+author: ShylaThompson
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e76c367d4aa6c08332371374a26dd6fdbbdb4eb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 70008e903763fff35c6cff12c42396fe5fcabbee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577345"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832091"
 ---
 # <a name="create-a-product-master"></a>Crear un producto maestro
 

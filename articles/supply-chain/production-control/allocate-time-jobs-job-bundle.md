@@ -2,11 +2,9 @@
 title: Asignar tiempo a trabajos en una agrupación de trabajos
 description: En la ejecución de fabricación se pueden agrupar trabajos. A continuación puede iniciar varios trabajos a la vez en la página Lista de trabajos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966589"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811879"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Asignar tiempo a trabajos en una agrupación de trabajos
 
@@ -110,3 +108,6 @@ El coste corregido por hora y el tiempo de trabajo se registran en un diario de 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

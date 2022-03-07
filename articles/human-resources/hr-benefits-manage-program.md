@@ -1,39 +1,41 @@
 ---
 title: Definir y gestionar un programa de prestaciones
-description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
-author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este tema se ofrece información acerca de cómo configurar y gestionar prestaciones.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a7fe99d4982b8f35871b15e8049c39eb806e315c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f2bfa901aa299a091194978ee95ff0e69f2cdbf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420379"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065360"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
-Human Resources ofrece una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Human Resources ofrece una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este tema se ofrece información acerca de cómo configurar y gestionar prestaciones.
 
 ## <a name="benefit-setup"></a>Configuración de prestaciones
 
 Para que los trabajadores puedan inscribirse en prestaciones, debe crear los elementos de cada prestación. Estos elementos combinan planes de prestaciones similares y definen la configuración predeterminada, como las tasas de deducción y los detalles de contabilidad. Muchos de estos parámetros se pueden ajustar cuando los trabajadores se inscriben posteriormente en la prestación. Para cada plan de prestaciones, una organización puede ofrecer varias opciones de inscripción o un trabajador puede condonar inscripción en el plan. 
 
-[![Flujo del proceso de prestaciones](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Flujo del proceso de prestaciones.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Elementos de beneficio
 
@@ -45,7 +47,7 @@ Para poder comenzar a crear prestaciones e inscribir trabajadores en ellas, debe
 
 Para cada tipo de prestación, como de visión o dental, una organización puede ofrecer uno o varios planes a sus trabajadores. Para cada plan, la organización puede ofrecer diferentes opciones. Por ejemplo, los trabajadores pueden comprar cobertura adicional de seguro de vida a término una, dos o tres veces su sueldo anual. Cada combinación de un plan y de opciones se convierte en una prestación en la que los trabajadores pueden inscribirse. 
 
-[![imagen de prestación](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![imagen de prestación.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Idoneidad
 Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Al crear una prestación en Dynamics 365 Human Resources, puede establecer el tipo de idoneidad que se aplica a dicha prestación. 
@@ -64,3 +66,6 @@ A veces, una organización deja de ofrecer determinadas prestaciones. En este ca
 Del mismo modo, la extensión total de la prestación le permite ampliar la fecha de vencimiento tanto de una prestación como las inscripciones de trabajador para dicha prestación si decide ofrecer una prestación más tiempo de lo que planeó originalmente.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

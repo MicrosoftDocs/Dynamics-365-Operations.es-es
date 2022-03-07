@@ -2,11 +2,9 @@
 title: Función DAYS ER
 description: Este tema proporciona información general sobre cómo usar la función DAYS de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66398e624e4b9d69d4dc3ccf3ee8f97758f4f861
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 310359a29a506d69d1f34aaa710a82b0f2ea528e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682350"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746900"
 ---
 # <a name="days-er-function"></a>Función DAYS ER
 
@@ -63,3 +61,6 @@ La función `DAYS` devuelve un valor positivo cuando la primera fecha es posteri
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de fecha y de tiempo](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

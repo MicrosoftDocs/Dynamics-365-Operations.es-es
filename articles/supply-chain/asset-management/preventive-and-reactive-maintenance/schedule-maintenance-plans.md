@@ -1,12 +1,10 @@
 ---
 title: Programar planes de mantenimiento
 description: En este tema se explica la programación de planes de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731328"
 ---
 # <a name="schedule-maintenance-plans"></a>Programar planes de mantenimiento
 
@@ -54,14 +52,14 @@ La programación del mantenimiento preventivo genera entradas de calendario en l
 
 5. Haga clic en **Aceptar** para iniciar la generación de entradas del programa de mantenimiento en los activos. Las entradas generadas se mostrarán en la página de lista **Todo el programa de mantenimiento**. La ilustración siguiente muestra un ejemplo de la ventana **Planes de planificación de mantenimiento**.
 
-![Figura 1](media/09-preventive-maintenance.png)
+![Figura 1.](media/09-preventive-maintenance.png)
 
 - En el diálogo **Programar planes de mantenimiento**, puede configurar trabajos por lotes en la ficha desplegable **Ejecutar en segundo plano** para generar automáticamente entradas de calendario a intervalos periódicos.  
 - Cuando programe un mantenimiento preventivo, no se crearán líneas del programa de mantenimiento con fecha y hora de inicio prevista anterior a la fecha y hora del sistema.  
 
 La imagen siguiente proporciona una ilustración gráfica del cálculo de un plan de mantenimiento basado en la hora.  
 
-![Figura 2](media/10-preventive-maintenance.jpg)
+![Figura 2.](media/10-preventive-maintenance.jpg)
 
 En cuanto a los planes de mantenimiento basados en contador: en las ilustraciones siguientes aparecen dos ciclos de registro del contador diferentes. Se basan en un plan de mantenimiento configurado para el activo "V0001", que espera que el activo (un vehículo) ejecute aproximadamente 2000 km cada mes.
 
@@ -71,7 +69,10 @@ En la siguiente ilustración se registran 2000 km o más cada mes. Por lo tanto,
 
 Los ejemplos que se describen aquí indican que todos los registros de contador realizados en un activo muestran una tendencia que describe el desgaste de un activo. Esa tendencia se utiliza como base de cálculo en el momento de la programación del plan de mantenimiento.
 
-![Figura 3](media/11-preventive-maintenance.png)
+![Figura 3.](media/11-preventive-maintenance.png)
 
-![Figura 4](media/12-preventive-maintenance.png)
+![Figura 4.](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Crear un grupo de variantes
 description: En este tema se describe cómo crear un grupo de variantes de tamaño, estilo o color para un producto en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749940"
 ---
 # <a name="create-a-variant-group"></a>Crear un grupo de variantes
 
@@ -31,7 +29,7 @@ ms.locfileid: "4965162"
 
 En este tema se describe cómo crear un grupo de variantes de tamaño, estilo o color para un producto en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Dynamics 365 Commerce admite múltiples variantes para productos. Es ideal para configurar grupos de variantes para diferentes categorías de productos. Por ejemplo, se puede crear un grupo de tallas de camisetas, con tallas extra pequeñas, pequeñas, medianas, grandes y extra grandes, o se puede crear un grupo de colores para incluir todos los colores disponibles de un producto. Se deben agregar los grupos de variantes antes de agregar los productos.
 
@@ -63,12 +61,15 @@ Para agregar atributos a un grupo de tamaños, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de grupo de tamaños para "tallas de camisetas informales".
 
-![Crear grupo de tamaños](media/create-variant-group.png)
+![Crear grupo de tamaños.](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del producto](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
+[Información general del producto](../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json)
 
 [Configurar productos comerciales](set-up-retail-products.md)
 
 [Dimensiones de producto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

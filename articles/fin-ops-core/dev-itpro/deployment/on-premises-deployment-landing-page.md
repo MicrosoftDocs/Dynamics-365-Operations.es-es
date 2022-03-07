@@ -2,11 +2,9 @@
 title: Página principal de Implementación local
 description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679353"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749314"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
 
@@ -39,12 +37,14 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 
 ## <a name="onboard"></a>Incorporar
 - [Configurar en proyectos locales en Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Configurar e implementar entornos locales (actualización 12 de Platform y posteriores)](setup-deploy-on-premises-pu12.md)
+- [Configurar e implementar entornos locales (actualización 41 de Platform y posteriores)](setup-deploy-on-premises-pu41.md)
+- [Configurar e implementar ambientes locales (Actualizaciones 12 a 40 de la plataforma)](setup-deploy-on-premises-pu12.md)
 - [Instalar dispositivos de impresora de red en entornos locales](../analytics/install-network-printer-onprem.md)
 - [Configurar SQL Server Reporting Services para implementaciones locales](../analytics/configure-ssrs-on-premises.md)
 - [Desarrollar e implementar modelos personalizados para entornos locales](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Trabaje en su implementación local
+- [Configurar la alta disponibilidad para los nodos de SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importar configuraciones de informes electrónicos (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generación, publicación e impresión de documentos en implementaciones locales](../analytics/printing-capabilities-on-premises.md)
@@ -72,3 +72,6 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 - [Características quitadas u obsoletas para Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

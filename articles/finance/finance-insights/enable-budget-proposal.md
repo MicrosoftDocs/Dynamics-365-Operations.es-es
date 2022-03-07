@@ -2,7 +2,7 @@
 title: Habilitar propuestas de presupuesto
 description: Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd0ba4307f93148c241810759df9a95578592ba9
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109563"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752721"
 ---
 # <a name="enable-budget-proposal"></a>Habilitar propuestas de presupuesto
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
 
@@ -35,8 +36,5 @@ Este tema explica cómo activar la función de propuesta de presupuesto en Finan
     3. Activar la característica.
 
 2. Vaya a **Presupuestación \> Configurar \> Presupuesto básico \> Propuesta de presupuesto** y seleccione **Habilitar característica**.
-
-> [!NOTE]
-> La característica **Propuesta de presupuesto** requiere un mínimo de tres años de presupuesto o datos reales. Esta característica utiliza de tres a diez años de datos en las proyecciones. Más de tres años de datos proporciona mejores resultados. Los datos en sí funcionan mejor cuando hay variación en los valores. Si los datos contienen todos los datos constantes, como un gasto de arrendamiento, la capacitación puede fallar porque la falta de variación no requiere que la IA proyecte las cantidades.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

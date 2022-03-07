@@ -2,11 +2,9 @@
 title: Contenidos de gestión de gastos de Power BI
 description: Este tema describe lo que se incluye en el paquete de contenido de gestión de gasto de Power BI.
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769907"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenidos de gestión de gastos de Power BI
 
@@ -43,7 +41,7 @@ Hay dos paquetes de contenido de Power BI disponibles para su uso con la gestió
 Todos los importes se muestran en la divisa de la empresa. Se muestran los datos de todas las empresas, pero si es necesario, puede agregar un filtro de empresa. 
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-Puede encontrar los contenidos del Expense Admin Dashboard.pbix y Expense Personal Dashboard.pbix Power BI en la bibilioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Puede encontrar los contenidos del Expense Admin Dashboard.pbix y Expense Personal Dashboard.pbix Power BI en la bibilioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 El contenido está disponible en el área de trabajo de gestión de gastos como contenido incrustado de Power BI. Cualquier propietario de gastos puede tener acceso a gastos personales para ellos mismos, mientras que sólo los vendedores y los administradores de los proveedores pueden acceder al contenido de la gestión de casos para ver los datos de gastos de todo el usuario.
 
 ## <a name="refreshing-the-power-bi-content"></a>Actualizar el contenido de Power BI
@@ -93,3 +91,6 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 | Estadísticas del empleado | Informes de gasto por tipo de coste            |
 |                     | Gastos personales                       |
 |                     | Informes de gasto por grupo de estadísticas     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

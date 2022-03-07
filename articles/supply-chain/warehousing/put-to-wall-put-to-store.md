@@ -2,9 +2,11 @@
 title: Asignar a contenedor/Asignar a tienda
 description: En este tema se proporciona información sobre la funcionalidad Asignar a contenedor/Asignar a tienda. Esta funcionalidad le permite manejar escenarios en los que debe consolidar un producto en un área de almacenamiento provisional de preempaquetado, de acuerdo con criterios configurables. Ayuda a reducir el tiempo de selección porque permite seleccionar una única matrícula de entidad de almacén de destino y puede usar más posiciones de asignación que la selección de clústeres.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 3f2ae63758fcb6247c5e56433645d9252576c755
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574146"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996284"
 ---
 # <a name="put-to-wall---put-to-store"></a>Asignar a contenedor/Asignar a tienda
 
@@ -522,7 +524,7 @@ Ahora que todo el inventario se ha colocado en la ubicación de ordenación, deb
 
 Si las posiciones de ordenación deben cerrarse manualmente, la opción **Posición de ordenación de cierre automático** para la plantilla de ordenación de salida debe establecerse en *No*, y el cierre debe hacerse antes de que el inventario se pueda mover al área de la compuerta. Las posiciones se pueden cerrar de varias maneras:
 
-- Mediante la aplicación móvil Warehouse Management:
+- A través la aplicación de almacén:
 
     - El usuario puede escanear uno de los artículos que ya están en la posición y luego seleccionar **Cerrar** para cerrar la posición.
     - Si el usuario escanea un contenedor que ya se ha ordenado, se muestra un mensaje de error. Sin embargo, el usuario puede seguir cerrando la posición.
@@ -538,6 +540,3 @@ Si las posiciones de ordenación deben cerrarse manualmente, la opción **Posici
 
 > [!IMPORTANT]
 > Una vez que se haya creado un trabajo de movimiento desde la ubicación de ordenación, no debe cancelar el trabajo. De lo contrario, la posición y los contenedores que contiene se eliminarán del sistema y no estarán disponibles para su posterior procesamiento. El inventario también se eliminará.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

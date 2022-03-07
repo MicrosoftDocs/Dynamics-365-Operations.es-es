@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731040"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Procesamiento de reembolso de pagos en centros de llamadas
 
@@ -33,14 +33,11 @@ La lógica del centro de llamadas determina el método de pago para la línea de
 
 El centro de llamadas utiliza el método de pago del pedido original para determinar el método de pago que se debe aplicar a un pedido de devolución. Así es como funciona este proceso para los siguientes métodos de pago originales:
 
-- **Normal** (efectivo) o **Cheque**: cuando un pedido de devolución que se crea hace referencia a un pedido original que se pagó usando el tipo de pago normal (efectivo) o por cheque, la aplicación del centro de llamadas hace referencia a las configuraciones de la página **Métodos de reembolso del centro de llamadas**. Esta página permite a las organizaciones definir, por la divisa del pedido, cómo se emiten los reembolsos a los clientes por pedidos que originalmente se pagaron mediante el tipo de pago normal o por cheque. La página **Métodos de reembolso del centro de llamadas** también permite a las organizaciones seleccionar si se debe enviar al cliente un cheque de reembolso generado por el sistema. En estos escenarios, la lógica del centro de llamadas hace referencia a la divisa del pedido de devolución y luego usa el valor **Método de pago minorista** para esa divisa, para crear una línea de pago de reembolso el pedido de ventas de devolución. Posteriormente, se vincula a la divisa un diario de pagos de clientes (AR) que utiliza el método de pago AR asignado.
+- **Normal** (efectivo) o **Cheque**: cuando un pedido de devolución que se crea hace referencia a un pedido original que se pagó usando el tipo de pago normal (efectivo) o por cheque, la aplicación del centro de llamadas hace referencia a las configuraciones de la página **Métodos de reembolso del centro de llamadas**. Esta página permite a las organizaciones definir, por la divisa del pedido, cómo se emiten los reembolsos a los clientes por pedidos que originalmente se pagaron mediante el tipo de pago normal o por cheque. La página **Métodos de reembolso del centro de llamadas** también permite a las organizaciones seleccionar si se envía al cliente un cheque de reembolso generado por el sistema o si se crea un crédito en la cuenta del cliente contra el saldo interno de la cuenta del cliente. En estos escenarios, la lógica del centro de llamadas hace referencia a la divisa del pedido de devolución y luego usa el valor **Método de pago minorista** para esa divisa, para crear una línea de pago de reembolso el pedido de ventas de devolución. Posteriormente, se vincula a la divisa un diario de pagos de clientes (AR) que utiliza el método de pago AR asignado.
 
     La siguiente ilustración muestra la configuración de un escenario en el que un cliente devuelve productos de un pedido de ventas que está vinculado a la divisa USD y que originalmente se pagó mediante el tipo de pago normal o por cheque. En este escenario, se emitirá un reembolso al cliente a través de un cheque de reembolso generado por el sistema. El método de pago AR **REF-CHK** se ha configurado como un tipo de pago con cheque de reembolso.
 
     ![Configuración de los métodos de reembolso del centro de llamadas para pagos originales normales y por cheque.](media/callcenterrefundmethods.png)
-
-    > [!NOTE]
-    > La cuenta de cliente no es un método de reembolso admitido para pagos en efectivo o con cheque.
 
 - **Tarjeta de crédito**: cuando un pedido de devolución que se crea hace referencia a un pedido original que se pagó con una tarjeta de crédito, la lógica del centro de llamadas para los pagos de reembolso aplica la misma tarjeta de crédito original al pedido de devolución.
 - **Tarjeta de fidelidad**: cuando un pedido de devolución que se crea hace referencia a un pedido original que se pagó con una tarjeta de fidelidad, la lógica del centro de llamadas para los pagos de reembolso aplica el reembolso a la misma tarjeta de fidelidad.

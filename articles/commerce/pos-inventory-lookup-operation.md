@@ -2,7 +2,7 @@
 title: Operación de búsqueda de inventario en PDV
 description: Este tema describe cómo utilizar la operación de búsqueda de inventario en el punto de venta (POS) de Dynamics 365 Commerce para ver la disponibilidad de inventario de productos en tiendas y almacenes.
 author: boycezhu
-ms.date: 08/12/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343845"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353789"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operación de búsqueda de inventario en PDV
 
@@ -38,10 +38,10 @@ Cuando la operación de búsqueda de inventario se inicia desde la aplicación d
 
 Para un producto individual, la operación de búsqueda de inventario proporciona una vista de lista de búsqueda de inventario que muestra la siguiente información del producto para una lista de ubicaciones:
 
-- **Inventario** – Se refiere a la cantidad "física disponible" de un producto.
-- **Reservado** – Se refiere a la cantidad "física reservada" recuperada de la sede central.
-- **Pedido** - Se refiere a la cantidad "pedida en total" recuperada de la sede central.
-- **Unidad** – Se refiere a la unidad de medida de inventario configurada en la sede central.
+- **Inventario**: se refiere a la cantidad "física disponible" de un producto.
+- **Reservado**: se refiere a la cantidad "física reservada" recuperada de la sede central.
+- **Pedido**: se refiere a la cantidad "pedida en total" recuperada de la sede central.
+- **Unidad**: se refiere a la unidad de medida de inventario configurada en la sede central.
 
 La vista de lista de ubicaciones incluye todas las tiendas y almacenes que están configurados en los grupos de proceso de entrega a los que está vinculada la tienda actual, como se muestra en la siguiente imagen de ejemplo.
 
@@ -52,26 +52,25 @@ La vista de lista de ubicaciones incluye todas las tiendas y almacenes que está
 
 Las siguientes acciones están disponibles en la barra de aplicaciones del PDV:
 
-- **Ordenar** – Esta acción permite al usuario del PDV ordenar los datos en la vista de lista según varios criterios. El orden según la ubicación es la opción predeterminada.
-
-    - **Ubicación geográfica** (desde la ubicación más cercana a la ubicación más lejana, según la distancia a la tienda actual)
-    - **Nombre** (en orden ascendente o descendente)
-    - **Número de la tienda** (en orden ascendente o descendente)
-    - **Inventario** (en orden descendente)
-    - **Reservado** (en orden descendente)
-    - **Pedido** (en orden descendente)
-
-- **Filtrar** – Esta acción permite al usuario del PDV ver datos filtrados para una ubicación específica.
-- **Mostrar disponibilidad en tienda** – Esta acción permite al usuario del PDV ver las cantidades de neto no comprometido (NNC) para un producto en la tienda seleccionada.
-- **Mostrar ubicación de la tienda** – Esta acción abre una página diferente para mostrar la vista del mapa, la dirección y el horario de la tienda seleccionada.
-- **Recoger en tienda** – Esta acción crea un pedido de cliente para el producto que se recogerá de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
-- **Enviar producto** – Esta acción crea un pedido de cliente para el producto que se enviará de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
-- **Ver todas las variantes** – Para un producto con variantes, esta acción cambia de una vista de lista a una vista de matriz que muestra información de inventario para todas las variantes del producto.
-- **Agregar a la transacción** – Esta acción agrega el producto al carrito y redirige al usuario a la pantalla de transacciones.
+- **Ordenar**: esta acción permite al usuario del PDV ordenar los datos en la vista de lista según varios criterios. El orden según la ubicación es la opción predeterminada. 
+  - **Ubicación geográfica** (desde la ubicación más cercana a la ubicación más lejana, en comparación con la tienda actual)
+  - **Nombre** (en orden ascendente o descendente)
+  - **Número de la tienda** (en orden ascendente o descendente)
+  - **Inventario** (en orden descendente)
+  - **Reservado** (en orden descendente)
+  - **Pedido** (en orden descendente)
+- **Filtrar**: esta acción permite al usuario del PDV ver datos filtrados para una ubicación específica.
+- **Mostrar disponibilidad en tienda**: esta acción permite al usuario del PDV ver las cantidades de neto no comprometido (NNC) para un producto en la tienda seleccionada.
+- **Mostrar ubicación de la tienda**: esta acción abre una página diferente para mostrar la vista del mapa, la dirección y el horario de la tienda seleccionada.
+- **Recoger en tienda**: esta acción crea un pedido de cliente para el producto que se recogerá de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
+- **Enviar prodpucto**: esta acción crea un pedido de cliente para el producto que se enviará de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
+- **Ver todas las variantes**: para un producto con variantes, esta acción cambia de una vista de lista a una vista de matriz que muestra información de inventario para todas las variantes del producto.
+- **Agregar a la transacción**: esta acción agrega el producto al carrito y redirige al usuario a la pantalla de transacciones.
 
 > [!NOTE]
-> La clasificación basada en la ubicación que se introdujo en la versión 10.0.17 de Commerce muestra la tienda actual en la parte superior. Para otras ubicaciones, la distancia entre la ubicación y la tienda actual está determinada por las coordenadas (latitud y longitud) definidas en la sede central de Commerce. Para una tienda, la información de ubicación se define en la dirección principal de la unidad operativa asociada con la tienda. Para un almacén que no es una tienda, la información de ubicación se define en la dirección del almacén. Antes de la versión 10.0.17, la vista de lista siempre muestra la tienda actual en la parte superior y ordena otras ubicaciones alfabéticamente.
->
+> Para una clasificación basada en la ubicación, la distancia entre una ubicación y la tienda actual está determinada por las coordenadas (latitud y longitud) definidas en la sede central de Commerce. Para una tienda, la información de ubicación se define en la dirección principal de la unidad operativa asociada con la tienda. Para un almacén que no es una tienda, la información de ubicación se define en la dirección del almacén. Si la tienda actual no tiene las coordenadas definidas, la opción de clasificación basada en la ubicación mostrará la tienda actual en la parte superior de la lista y luego clasificará otras ubicaciones por nombre.
+
+> [!NOTE]
 > Las acciones **Mostrar disponibilidad en tienda**, **Mostrar ubicación de la tienda**, **Recoger en tienda** y **Enviar producto** no están disponibles para ubicaciones que no sean tiendas.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Vista de matriz de búsqueda de inventario para variantes
@@ -94,12 +93,12 @@ El orden de visualización de los valores de dimensión en la vista de matriz se
 
 Las acciones siguientes están disponibles en la celda de vista de matriz:
 
-- **Vender ahora** – Esta acción agrega la variante seleccionada al carrito y redirige al usuario a la pantalla de transacciones.
-- **Recoger en tienda** – Esta acción crea un pedido de cliente para la variante seleccionada que se recogerá de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
-- **Enviar producto** – Esta acción crea un pedido de cliente para la variante seleccionada que se enviará de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
-- **Disponibilidad** – Esta acción lleva al usuario a una página diferente que muestra las cantidades de NNC para la variante seleccionada en la tienda seleccionada.
-- **Mostrar todas las ubicaciones** – Esta acción cambia a la vista de lista de disponibilidad de inventario estándar que muestra la información de inventario para la variante seleccionada.
-- **Ver detalles del producto** – Esta acción redirige al usuario a la página de detalles del producto (PDP) de la variante seleccionada.
+- **Vender ahora**: esta acción agrega la variante seleccionada al carrito y redirige al usuario a la pantalla de transacciones.
+- **Recoger en tienda**: esta acción crea un pedido de cliente para la variante seleccionada que se recogerá de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
+- **Enviar prodpucto**: esta acción crea un pedido de cliente para la variante seleccionada que se enviará de la tienda seleccionada y redirigirá al usuario a la pantalla de transacción.
+- **Disponibilidad**: esta acción lleva al usuario a una página diferente que muestra las cantidades de NNC para la variante seleccionada en la tienda seleccionada.
+- **Mostrar todas las ubicaciones**: esta acción cambia a la vista de lista de disponibilidad de inventario estándar que muestra la información de inventario para la variante seleccionada.
+- **Ver detalles del producto**: esta acción redirige al usuario a la página de detalles del producto (PDP) de la variante seleccionada.
 
 ## <a name="access-inventory-lookup-from-other-pages-in-pos"></a>Acceder a la búsqueda de inventario desde otras páginas en el PDV
 
@@ -125,5 +124,7 @@ En la versión 10.0.9 de Commerce y anteriores, el valor **físico disponible** 
 [Configuraciones visuales de la interfaz de usuario de PDV](pos-screen-layouts.md)
 
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

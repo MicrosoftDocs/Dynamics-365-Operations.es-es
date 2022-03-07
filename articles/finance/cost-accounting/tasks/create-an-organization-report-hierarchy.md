@@ -2,11 +2,9 @@
 title: Creación o modificación de una jerarquía de informes
 description: Utilice este procedimiento para crear una jerarquía de informes para los informes de la organización.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51cd97ac2b78035224db543e3bcc5d606a16ffde
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4e9d5cc6fd6188c988a433fcd7f2bf81bf31668edf762c0ed3bcbf67477a4e35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719279"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Creación o modificación de una jerarquía de informes
 
@@ -94,3 +92,6 @@ Utilice este procedimiento para crear una jerarquía de informes para los inform
     * Seleccione el miembro de dimensión que se corresponde con el nodo.  
 59. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: 'Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 4: Ejecución del formato)'
-description: En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER.
+description: Este tema describe cómo configurar un formato de informes electrónicos para utilizar archivos de administración de documentos en la salida de informes electrónicos. (Parte 4)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 11b446d21a7ae57ffa2cccf983777beb882bf77de6b54c2d1aef810028a6d343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727470"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 4: Ejecución del formato)
 
@@ -69,3 +67,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 11. Haga clic en Aceptar.
     * Revise la salida generada. Tenga en cuenta que se ha creado un nodo XML por cada adjunto. El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

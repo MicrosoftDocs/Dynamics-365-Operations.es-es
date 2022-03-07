@@ -1,21 +1,21 @@
 ---
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
-author: Mirzaab
-ms.date: 01/18/2022
+author: ivanv-microsoft
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720093"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
@@ -23,88 +23,7 @@ ms.locfileid: "8067260"
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="version-20150"></a>Versión 2.0.15.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
-
-- Rendimiento mejorado al solucionar un problema de fuga de memoria.
-- Se solucionó un problema por el cual algunos valores de campo no se actualizaban correctamente cuando se seleccionaban en la página de detalles.
-
-## <a name="version-20140"></a>Versión 2.0.14.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
-
-- Se solucionó un problema que deshabilitaba el botón Enviar predeterminado.
-
-## <a name="version-20130"></a>Versión 2.0.13.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
- 
-- Desplazamiento mejorado entre páginas con animación más suave.
-- Se corrigieron las respuestas poco intuitivas a los movimientos de deslizamiento y las congelaciones ocasionales de la pantalla.
-- Combinaciones mejoradas de color de fondo y texto en modo oscuro para una mejor legibilidad.
-- Se solucionó un problema por el cual parte del texto podía volverse muy pequeño al cambiar el tamaño de la ventana de la aplicación.
-- Se solucionó un problema que podía hacer que la aplicación fallara a veces al escanear códigos de barras.
-- Se agregó la posibilidad de reemplazar un control deslizante con un botón.
-- Se solucionó un problema que podía hacer que la aplicación mostrara el mensaje de error "AADSTS7000215: se proporcionó un secreto de cliente no válido".
-- Se corrigió la animación de sugerencias que mostraba cómo cerrar una página con un gesto de deslizar hacia abajo.
-- Se agregó la posibilidad de cerrar una página con un gesto de deslizar hacia abajo.
-- Se solucionó un problema por el cual los títulos de la lista desplegable no se mostraban en la página **Configuración de usuario**.
-- Se solucionó un problema de localización por el que la aplicación no reconocía una coma (,) como separador decimal.
-- Accesibilidad mejorada.
-- Se corrigió la navegación en la página **Nueva conexión** para proporcionar una mejor accesibilidad.
-- Se solucionó un problema por el cual el teclado virtual (en pantalla) no aparecía al seleccionar un campo de entrada.
-- Se solucionó un problema que podía bloquear la aplicación si los usuarios cambiaban rápidamente el tamaño de su ventana.
-- Se solucionó un problema por el cual una pulsación rápida de teclas a veces se interpretaba como una pulsación prolongada.
-- Se solucionó un problema por el cual el diseño de la aplicación podía corromperse debido a las personalizaciones de campo realizadas en Supply Chain Management.
-- Se solucionó un problema por el cual las ubicaciones de los elementos no se mostraban correctamente.
-- Se solucionó un problema relacionado con la selección corta para el flujo de trabajo de la variante del producto.
-- Se eliminó la validación innecesaria de campos que contienen valores predeterminados preestablecidos.
-- Rendimiento mejorado.
-- Se agregó una nueva configuración que permite a los usuarios elegir cómo se filtran y ordenan los campos en la página de la tarjeta.
-
-## <a name="version-20110"></a>Versión 2.0.11.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
-
-- Soporte agregado para campos promocionados.
-- Se agregó soporte para la navegación del teclado por hardware.
-- Accesibilidad mejorada.
-- Tarjetas de detalles mejoradas.
-- Desvíos mejorados para pasos de elementos de menú.
-- Mejoras menores en la interfaz de usuario.
-- Se solucionó un problema que podía hacer que la aplicación fallara al escanear códigos de barras.
-- Se han solucionado varios problemas que podían provocar que el sistema dejara de responder.
-
-## <a name="version-20100"></a>Versión 2.0.10.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
-
-- Animación agregada al deslizar por listas y páginas.
-- El texto ahora se ajusta correctamente en la página de error de conexión.
-- Los cuadros combinados sin valores predeterminados ahora se muestran correctamente.
-- La información en el área del subtítulo ahora se muestra solo en la página de detalles completos.
-- Los campos de entrada vacíos ya no se muestran en la tarjeta de detalles.
-- Los valores de confirmación ya no están duplicados en la tarjeta de detalles.
-- Se han solucionado varios problemas que provocaban que el sistema dejara de responder.
-
-## <a name="version-2090"></a>Versión 2.0.9.0
-
-Esta versión soluciona un problema en el que la aplicación podía dejar de responder si los usuarios subían una página desde la parte superior de una lista.
-
-## <a name="version-2080"></a>Versión 2.0.8.0
-
-Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
-
-- Soporte agregado para la [función de instrucciones de paso](mobile-app-titles-instructions.md) que se introdujo en Supply Chain Management versión 10.0.21.
-- Se agregó una animación de sugerencias para mostrar a los usuarios que pueden cerrar superposiciones deslizando hacia abajo.
-- Se agregó soporte para teclas de función en listas de acciones y menús. Los usuarios pueden mantener pulsada cualquier tecla de función durante tres segundos para obtener una lista de los comandos disponibles.
-- Se solucionó un problema que causaba que se mostrara el siguiente mensaje de error en algunos dispositivos: "No se puede encontrar una vista adecuada para el tamaño especificado".
-- Se solucionó un problema por el cual el modo de pantalla completa no siempre funcionaba cuando se usaba el teclado en pantalla.
-- Se solucionó un problema por el cual el deslizamiento de página no funcionaba en dispositivos Windows.
-- Se han solucionado varios problemas que provocaban que el sistema dejara de responder.
-
-## <a name="version-2070"></a>Versión 2.0.7.0
+## <a name="2070"></a>2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nuevas funciones, correcciones y mejoras en la versión 2.0.7.0
 

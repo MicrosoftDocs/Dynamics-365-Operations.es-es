@@ -2,11 +2,9 @@
 title: Crear una aplicación de exportación de datos recurrente
 description: Este artículo muestra cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420456"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801128"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Crear una aplicación de exportación de datos recurrente
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo muestra cómo crear una aplicación lógica de Microsoft Azure que exporta datos de Microsoft Dynamics 365 Human Resources según una programación periódica. El tutorial aprovecha la interfaz de programación de aplicaciones (API) REST del paquete DMF de Human Resources para exportar los datos. Después de exportar los datos, la aplicación lógica guarda el paquete de datos exportados en la carpeta de Microsoft OneDrive for Business.
 
@@ -205,3 +205,6 @@ La siguiente ilustración muestra cómo se ve el Logic Apps Designer cuando todo
 En este tutorial, aprendió a usar una aplicación lógica para exportar datos de Human Resources y guardar los datos exportados en una carpeta de OneDrive for Business. Puede modificar los pasos de este tutorial según sea necesario para satisfacer las necesidades de su negocio.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

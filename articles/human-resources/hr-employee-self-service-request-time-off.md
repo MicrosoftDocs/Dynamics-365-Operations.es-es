@@ -2,11 +2,9 @@
 title: Solicitar licencia
 description: Solicite licencia en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420486"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924863"
 ---
 # <a name="request-time-off"></a>Solicitar licencia
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede enviar solicitudes de permisos, ver sus saldos de vacaciones y bajas, y ver el estado de sus solicitudes de bajas en Dynamics 365 Human Resources.
 
@@ -45,7 +45,7 @@ Puede enviar solicitudes de permisos, ver sus saldos de vacaciones y bajas, y ve
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Agregar un archivo adjunto a una solicitud existente
 
-Al actualizar una solicitud de permiso existente, puede agregar un archivo adjunto. También puede ver todas las solicitudes relacionadas para una fecha específica. 
+Al actualizar una solicitud de permiso existente, puede agregar un archivo adjunto. También puede ver todas las solicitudes relacionadas para una fecha específica.
 
 ## <a name="view-leave-balances"></a>Ver saldos de licencia
 
@@ -59,6 +59,23 @@ Al actualizar una solicitud de permiso existente, puede agregar un archivo adjun
 
 2. Para ver sus solicitudes de permiso aprobadas, seleccione **Permiso aprobado**. Para ver sus solicitudes de permiso pendientes, seleccione **Solicitudes de licencia**.
 
+## <a name="cancel-time-off-requests"></a>Cancelar solicitudes de permisos
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Ver permisos** en el mosaico **Saldos de permisos**.
+
+2. En el formulario **Tiempo libre**, seleccione una o más solicitudes de tiempo libre para cancelar.
+
+3. Seleccione el botón **Cancelar**.
+
+4. En el panel **Detalles de cancelación**, introduzca un comentario y luego seleccione **Enviar**.
+
+   ![Cancelar solicitud de baja](media/hr-leave-and-absence-cancel.png)
+
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

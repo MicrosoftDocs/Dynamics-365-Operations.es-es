@@ -2,11 +2,9 @@
 title: Búsqueda de navegación
 description: Este tema explica cómo usar la función de búsqueda para navegar por páginas.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069993"
 ---
 # <a name="navigation-search"></a>Búsqueda de navegación
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema explica cómo usar la función de búsqueda para navegar por páginas.
 
@@ -36,7 +37,7 @@ Para usar esta característica, haga clic en **Buscar** para que aparezca el cua
 > [!NOTE]
 > El cuadro **Buscar** le ayuda a encontrar páginas y a desplazarse por ellas. No le ayudará a encontrar datos o acciones específicos.
 
-[![cuadro de búsqueda](media/navigation-search.png "Cuadro de búsqueda")
+![cuadro de búsqueda.](media/navigation-search.png "Cuadro de búsqueda")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Desplácese rápidamente a una página determinada
 
@@ -62,3 +63,6 @@ La lista de resultados de la búsqueda está limitada a 10 artículos. Si no enc
 ## <a name="development"></a>Desarrollo
 
 Desde una perspectiva de desarrollo, es sencillo sacar provecho de la funcionalidad de búsqueda de navegación puesto que no hay prácticamente ningún retraso entre el desarrollo de los elementos de menú y su capacidad para aparecer en los resultados de la búsqueda. Siempre que los elementos de menú estén vinculados desde el panel de navegación o el panel de información, permitirán automáticamente las búsquedas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

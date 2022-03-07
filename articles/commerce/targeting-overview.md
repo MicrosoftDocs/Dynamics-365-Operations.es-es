@@ -2,7 +2,7 @@
 title: Segmentación por dispositivo, mercado y geolocalización
 description: Este tema describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
 author: sushma-rao
-ms.date: 02/03/2022
+ms.date: 07/30/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090703"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985146"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Segmentación por dispositivo, mercado y geolocalización
 
@@ -96,18 +96,6 @@ Para editar un público, seleccione el hipervínculo correspondiente en la pesta
 
 > [!NOTE]
 > Los públicos son un concepto a nivel de sitio en el geenrador de sitios de Commerce. Puede compartir el mismo público en varios destinos.
-
-### <a name="rename-an-audience-in-site-builder"></a>Cambiar el nombre del público en el generador de sitios
-
-Para cambiar el nombre de un público existente en el generador de sitios de Commerce, siga estos pasos.
-
-1. En el panel de navegación izquierdo, seleccione **Públicos**.
-1. Seleccione el nombre del segmento del público que desee cambiar.
-1. Seleccione **Editar** para empezar a editar la audiencia.
-1. En el panel de propiedades de la audiencia, seleccione el símbolo del bolígrafo junto al nombre de la audiencia.
-1. Edite el nombre del público según sea necesario.
-1. Seleccione la marca de verificación para confirmar el cambio de nombre.
-1. Seleccione **Finalizar edición**.
 
 ## <a name="targets"></a>Público objetivo
 

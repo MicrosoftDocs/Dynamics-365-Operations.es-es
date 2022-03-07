@@ -2,11 +2,9 @@
 title: División del trabajo
 description: Este tema proporciona información sobre la funcionalidad de división de trabajo. Esta funcionalidad le permite dividir órdenes de trabajo grandes en varias órdenes de trabajo más pequeñas que luego puede asignar a varios trabajadores del almacén. De esta forma, el mismo trabajo puede ser recogido simultáneamente por varios trabajadores del almacén.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a530f3887c3c66295177d480a8c486dd0984153
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965536"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778266"
 ---
 # <a name="work-split"></a>División del trabajo
+
+[!include [banner](../includes/banner.md)]
 
 La funcionalidad de división del trabajo le permite dividir las ID de trabajo grandes (es decir, las órdenes de trabajo que tienen varias líneas) en varias ID de trabajo más pequeñas que luego puede asignar a varios trabajadores del almacén. De esta forma, el mismo número de creación de trabajo puede ser recogido simultáneamente por varios trabajadores del almacén.
 
@@ -33,7 +33,7 @@ La funcionalidad de división del trabajo le permite dividir las ID de trabajo g
 
 Antes de poder utilizar la función de división del trabajo, debe activar la función y su función de requisito previo en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de las funciones y activarlas si es necesario.
 
-Primero, active el requisito previo de la función *Bloqueo de trabajo en toda la organización*, si aún no está activada. En el espacio de trabajo **Administración de características**, esta característica aparece de la siguiente forma:
+Primero, active el requisito previo de la función *Bloqueo de trabajo en toda la organización*, si aún no está activada. A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Bloqueo de trabajo en toda la organización*
@@ -53,7 +53,7 @@ La función *Trabajo dividido* añade los siguientes dos botones a la pestña **
 - **Dividir trabajo** – Dividir el identificador de trabajo actual en varios Id. más pequeños de trabajo para que se puedan procesar por trabajadores independientes.
 - **Cancelar sesión de trabajo dividido** - Cancelar la sesión de trabajo dividido y hacer que el trabajo esté disponible para su procesamiento.
 
-![Botones dividir trabajo y cancelar trabajo dividido sesión](media/Work_split_buttons.png "Botones dividir trabajo y cancelar trabajo dividido sesión")
+![Botones dividir trabajo y cancelar trabajo dividido sesión.](media/Work_split_buttons.png "Botones dividir trabajo y cancelar trabajo dividido sesión")
 
 > [!IMPORTANT]
 > El botón **Trabajo dividido** no estará disponible si se cumple alguna de las siguientes condiciones:
@@ -69,7 +69,7 @@ La función *Trabajo dividido* añade los siguientes dos botones a la pestña **
 >
 > - Actualmente, otro usuario está dividiendo el trabajo. Si intenta abrir la página de división para un trabajo que ya está siendo dividido por otro usuario, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# actualmente se está dividiendo. Vuelva a intentarlo en unos minutos. Si continúa recibiendo este mensaje, comuníquese con un supervisor ".
 
-Una nueva razón para bloquear el trabajo, *Trabajo dividido*, indica cuando el ID de trabajo está en proceso de ser dividido. Se muestra tanto en la página **Trabajo dividido** como en la aplicación del almacén si un usuario intenta ejecutar el trabajo. Cuando se utilizan motivos de bloqueo, el nombre del campo **Ola bloqueada** del ID de trabajo se cambia a **Bloqueado**.
+Una nueva razón para bloquear el trabajo, *Trabajo dividido*, indica cuando el ID de trabajo está en proceso de ser dividido. Se muestra tanto en la página **Trabajo dividido** como en la aplicación móvil Warehouse Management si un usuario intenta ejecutar el trabajo. Cuando se utilizan motivos de bloqueo, el nombre del campo **Ola bloqueada** del ID de trabajo se cambia a **Bloqueado**.
 
 ## <a name="initiate-a-work-split"></a>Iniciar una división de trabajo
 
@@ -96,7 +96,7 @@ Para dividir el trabajo, siga estos pasos.
 
     El campo **Motivo de bloqueo del trabajo** para el trabajo actual se establecerá en *Trabajo dividido* y el trabajo se bloqueará.
 
-    ![Razón de bloqueo](media/Blocking_reason.png "Razón de bloqueo")
+    ![Razón de bloqueo.](media/Blocking_reason.png "Razón de bloqueo")
 
 1. Seleccione las líneas para eliminar de la identificación de trabajo actual y agregar a una nueva identificación de trabajo. Se producen los eventos siguientes:
 
@@ -147,10 +147,13 @@ Para terminar de dividir el trabajo, debe eliminarse el motivo de bloqueo de *Tr
 
 Después de que se elimina la razón de bloqueo de *Trabajo dividido*, el trabajo se puede ejecutar en el dispositivo móvil, siempre que el estado **Bloqueado** esté configurado en *No* en la identificación del trabajo.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Bloqueo de usuarios en la aplicación del almacén
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Bloqueo de usuarios en la aplicación móvil Warehouse Management
 
-Si intenta utilizar la aplicación del almacén para ejecutar el trabajo de picking con un ID de trabajo que se está dividiendo, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente". Si recibe este mensaje, seleccione **Cancelar**. Luego puede continuar procesando otro trabajo.
+Si intenta utilizar la aplicación móvil Warehouse Management para ejecutar el trabajo de picking con un ID de trabajo que se está dividiendo, recibirá el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente". Si recibe este mensaje, seleccione **Cancelar**. Luego puede continuar procesando otro trabajo.
 
 ## <a name="other-blocked-operations"></a>Otras operaciones bloqueadas
 
 Cualquier operación que modifique líneas de trabajo, transacciones de inventario de trabajo o enlaces de reabastecimiento que estén relacionados con el trabajo que se está dividiendo fallará y se mostrará el siguiente mensaje de error: "El trabajo con ID \#\#\#\# se está dividiendo actualmente".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

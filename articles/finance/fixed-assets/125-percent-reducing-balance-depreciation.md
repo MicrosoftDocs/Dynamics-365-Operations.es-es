@@ -1,12 +1,10 @@
 ---
-title: Depreciación con amortización degresiva del 125%
-description: Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 125%.
-author: saraschi2
-manager: AnnBe
+title: Depreciación con amortización degresiva del 125 %
+description: Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 125 %.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969237"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883527"
 ---
-# <a name="125-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 125%
+# <a name="125-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 125 %
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 125%.
+Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 125 %.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 125%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. Este porcentaje se calcula en función del tiempo de vida del activo. Por ejemplo, si un activo tiene un tiempo de vida de cinco años, el porcentaje se calcula como 25 por ciento (125% ÷ 5).
 
@@ -66,7 +64,7 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Ejemplo de la depreciación degresiva del 125%
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Coste de adquisición               | 11.000 |
 | Valor residual                  | 1.000  |
@@ -87,3 +85,6 @@ El método de depreciación degresiva del 125 % divide el 125 por ciento entre l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

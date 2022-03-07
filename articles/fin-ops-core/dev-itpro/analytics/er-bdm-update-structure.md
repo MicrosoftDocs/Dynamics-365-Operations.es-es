@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
-ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
+ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "4728098"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681337"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Actualizar la estructura de una plantilla de documento empresarial 
 
@@ -56,7 +56,7 @@ Complete los siguientes procedimientos en [Descripción general de la gestión d
 5. Seleccione **Aceptar** para crear una plantilla nueva.
 
     > [!NOTE]
-    > Si aún no ha iniciado sesión en Office Online se le [dirigirá a la página de inicio de sesión de Office 365](er-business-document-management.md#frequently-asked-questions). Para volver a su entorno de Finance, seleccione el botón **Atrás** en su navegador.
+    > Si aún no ha iniciado sesión en Office Online se le [dirigirá a la página de inicio de sesión de Office 365](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Para volver a su entorno de Finance, seleccione el botón **Atrás** en su navegador.
 
     La nueva plantilla se abre para su edición en el control incrustado de Excel Online en la página del editor de plantillas.
 

@@ -2,11 +2,9 @@
 title: Cambiar modo de entrega en PDV
 description: En este tema se describe cómo configurar y usar el modo de cambio de la operación de entrega en PDV.
 author: hhainesms
-manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965436"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796399"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Cambiar modo de entrega en PDV
 
@@ -46,3 +44,6 @@ Cuando haya seleccionado el nuevo modo de entrega, se mostrará la página de tr
 [Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
 
 [Personalizar correos electrónicos transaccionales por modo de entrega](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

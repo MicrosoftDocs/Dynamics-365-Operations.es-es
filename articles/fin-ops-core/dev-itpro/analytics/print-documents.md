@@ -1,27 +1,27 @@
 ---
 title: Visión general de la impresión de documentos
 description: Puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Este artículo proporciona una visión general de cómo se imprimen los documentos.
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
-ms.custom: 69161
+ms.custom:
+- "69161"
+- intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680105"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984917"
 ---
 # <a name="document-printing-overview"></a>Visión general de la impresión de documentos
 
@@ -51,10 +51,10 @@ La siguiente tabla describe los tres escenarios principales de impresión.
 Dado que la solución varía en función del escenario, las aplicaciones proporcionan servicios y herramientas integradas para ayudar a los usuarios a cumplir sus objetivos:
 
 - El **Escenario 1** es compatible con la representación del explorador del cliente HTML5.
-- El **Escenario 2** usa aplicaciones cliente y servicios de Microsoft 365.
+- El **Escenario 2** usa aplicaciones cliente y servicios de Microsoft 365.
 - El **Escenario 3** requiere soporte desde aplicaciones cliente y desde servicios que se hospedan en Microsoft Azure.
 
-Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada propia que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
+Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada de primera parte que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
 
 ## <a name="service-overview"></a>Visión general de servicios
 Aunque los documentos producidos por las aplicaciones hospedadas están esperando para ser impresos en un dispositivo conectado a la red, estos se guardan en el almacenamiento de blobs de Azure. El [Agente de instalar ruta de documentos para habilitar la impresión de red](install-document-routing-agent.md) utiliza la autenticación de Azure para establecer un canal seguro para los servicios de Azure.
@@ -71,6 +71,9 @@ La solución basada en cliente permite a los clientes administrar la escala de s
 
 En el siguiente diagrama se muestran los componentes básicos que ayudan con las operaciones de impresión de red.
 
-[![componentes de servicio para la impresión de red\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
+[![componentes de servicio para la impresión de red\_2016.](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tenga en cuenta que una sola impresora se puede registrar con varios agentes de ruta de documento. Para resolver las preferencias de la impresora, el servicio hospedado utiliza la ruta de red que identifica de manera única a cada impresora de red. Como resultado, incluso cuando una impresora es registrada por varios clientes, aparece como única selección en la lista de impresoras disponibles en las aplicaciones.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

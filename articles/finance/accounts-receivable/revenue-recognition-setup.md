@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ba9f58bc21bed25a5e86cb0c9133507a83371d83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245673"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -29,7 +28,9 @@ ms.locfileid: "4459865"
 Se ha agregado un nuevo módulo **Reconocimiento de ingresos** que incluye elementos de menú para toda la configuración necesaria. En este tema se describen las opciones de configuración y sus implicaciones.
 
 > [!NOTE]
-> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
+> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
+
+> Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admite para su uso en los canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los elementos configurados con reconocimiento de ingresos no deben agregarse a pedidos o transacciones creadas en los canales de Commerce.
 
 El módulo **Reconocimiento de ingresos** contiene las opciones de configuración siguientes:
 
@@ -192,3 +193,6 @@ El reconocimiento de ingresos también se puede usar para pedidos de ventas que 
 
 - **Ingresos de factura diferidos** (bajo **Cuentas de ingresos**): especifique la cuenta principal para el precio de ingresos que se registra en los ingresos diferidos (en lugar de en los ingresos). El precio de ingresos se difiere si la línea de pedido de ventas tiene una programación de ingresos.
 - **Coste diferido** (bajo **Cuentas de costes**): especifique la cuenta principal para el importe de coste de bienes vendidos que se registra en el coste diferido de bienes vendidos si los ingresos también se han diferido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

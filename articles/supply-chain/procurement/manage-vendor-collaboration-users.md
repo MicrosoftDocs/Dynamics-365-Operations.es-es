@@ -1,7 +1,7 @@
 ---
 title: Gestionar usuarios de colaboración de proveedor
 description: Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración.
-author: RichardLuan
+author: mkirknel
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,18 +11,19 @@ ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: riluan
+ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6356c1d11ba507c0eaa42087bdebe982ef091dbd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019948"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4437137"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 

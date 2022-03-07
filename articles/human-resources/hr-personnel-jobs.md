@@ -2,30 +2,30 @@
 title: Configurar los componentes de un trabajo
 description: Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: anbichse
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420405"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891063"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar los componentes de un trabajo
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
 
@@ -86,4 +86,7 @@ Se mantienen las tareas de trabajo mediante la página **Tareas de trabajo**. En
 Use las áreas de responsabilidad para indicar los roles de trabajo, los procesos y los productos de los que sería responsable un trabajador en un puesto para dicho trabajo. Un ejemplo de área de responsabilidad para un trabajo denominado "Contable" podría ser "Informes financieros del producto A". Las áreas de responsabilidad se mantienen mediante la página **Áreas de responsabilidad** que puede encontrar mediante la función de búsqueda. En la página **Áreas de responsabilidad**, especifique un nombre y una descripción para la responsabilidad. En el campo **Nota** puede especificar información adicional opcionalmente. Las notas se pueden actualizar para un trabajo específico sin cambiar las notas que ha especificado aquí.
 
 ## <a name="steps-for-creating-a-job"></a>Pasos para crear un trabajo
-Consulte el artículo [Definir nuevos trabajos](../fin-and-ops/hr/tasks/define-new-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
+Consulte el artículo [Definir nuevos trabajos](./hr-personnel-define-jobs.md) para informarse del procedimiento detallado para crear un nuevo trabajo. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

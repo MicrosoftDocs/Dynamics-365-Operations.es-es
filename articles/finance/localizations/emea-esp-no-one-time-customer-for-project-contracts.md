@@ -2,27 +2,24 @@
 title: Clientes plantilla
 description: Este tema proporciona información sobre los clientes plantilla.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264394
 ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7135f0bf0037f287e2bd075d727a055e6f530c65
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1477d108a6cd70c4c86c25b524f4befc95062eb84be75d77caa16615ac9ef67f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741496"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 
@@ -46,3 +43,6 @@ Un cliente plantilla es un cliente que no tiene una relación a largo plazo con 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Configurar búferes de inventario y niveles de inventario
-description: Este tema explica cómo configurar búferes de inventario y niveles de inventario que determinan los mensajes de disponibilidad de inventario en los sitios de Microsoft Dynamics 365 Commerce.
+description: Este tema explica cómo configurar búferes de inventario y niveles de inventario que determinan los mensajes de disponibilidad de inventario en los sitios Microsoft Dynamics 365 Commerce.
 author: boycezhu
+manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -12,18 +14,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727542"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012447"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurar búferes de inventario y niveles de inventario
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar búferes de inventario y niveles de inventario que determinan los mensajes sobre disponibilidad de inventario en los sitios de Microsoft Dynamics 365 Commerce.
+Este tema explica cómo configurar búferes de inventario y niveles de inventario que determinan los mensajes sobre disponibilidad de inventario en los sitios Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Información general
 
 La sede central de Dynamics 365 Commerce mantiene los datos de inventario y varios canales, como aplicaciones de punto de venta (PDV), escaparates de comercio electrónico y otras aplicaciones integradas personalizadas que extraen e introducen inventario de forma asincrónica. Por lo tanto, los valores de inventario disponibles que se obtienen a través de la página de inventario disponible en la sede central de Commerce, a través de la interfaz de usuario de PDV (UI) y a través de las API de disponibilidad de inventario de comercio electrónico, no siempre tienen una precisión del 100 % en tiempo real.
 
@@ -40,7 +44,7 @@ Después de activar la característica, puede encontrar niveles de inventario en
 
 ## <a name="create-and-configure-an-inventory-level-profile"></a>Crear y configurar un perfil de nivel de inventario.
 
-Un *perfil de nivel de inventario* determina si un estado de cantidad de producto determinado se considera en existencias, agotado o en algún otro estado personalizado. Puede crear y configurar múltiples perfiles de nivel de inventario por entidad jurídica. Cada perfil consta de un conjunto de niveles de inventario, y cada nivel está definido por un *rango*, un *código* y una *etiqueta*.
+Un *perfil de nivel de inventario* determina si un estado de cantidad de producto determinado se considera en stock, agotado o en algún otro estado personalizado. Puede crear y configurar múltiples perfiles de nivel de inventario por entidad jurídica. Cada perfil consta de un conjunto de niveles de inventario, y cada nivel está definido por un *rango*, un *código* y una *etiqueta*.
 
 - **Rango**: cada rango está definido por una *cantidad inicial* y una *cantidad final*. Un valor de cantidad cae en un rango si es mayor que la cantidad inicial de ese rango y no supera la cantidad final.
 - **Código**: un código es una abreviatura interna que representa el nivel. Los clientes que se integran directamente con las API de inventario pueden usar códigos para construir lógica adicional para un nivel de inventario dado. Por ejemplo, pueden desactivar la capacidad de compra de un producto cuando su código de nivel de inventario es **OOS** ("Agotado").
@@ -57,7 +61,7 @@ Para crear un perfil de nivel de inventario, siga estos pasos.
 
 Cuando se crea un nuevo perfil, se inicializan automáticamente dos niveles de inventario:
 
-- **OOS**: el nivel de "existencias agotadas", donde el límite inferior del rango es infinito negativo. La cantidad inicial y el código no se pueden editar para este nivel.
+- **OOS**: el nivel de "stock agotado", donde el límite inferior del rango es infinito negativo. La cantidad inicial y el código no se pueden editar para este nivel.
 - **DISPONIBILIDAD**: el nivel "disponible", donde el límite superior del rango es infinito. La cantidad final y el código no se pueden editar para este nivel.
 
 > [!NOTE]
@@ -144,6 +148,3 @@ Para configurar la respuesta de las API de disponibilidad del producto, siga est
 [Aplicar configuración de inventario](inventory-settings.md)
 
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

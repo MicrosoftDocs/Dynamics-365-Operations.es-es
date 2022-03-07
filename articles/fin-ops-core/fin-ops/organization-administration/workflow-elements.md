@@ -2,11 +2,9 @@
 title: Elementos del flujo de trabajo
 description: Este tema describe los diversos elementos que componen un flujo de trabajo.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797585"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070459"
 ---
 # <a name="workflow-elements"></a>Elementos del flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema describe los diversos elementos que componen un flujo de trabajo.
 
@@ -62,7 +63,7 @@ Un *proceso de aprobación* es un proceso que consta de pasos individuales. En c
 
 Se puede crear un flujo de trabajo para procesar documentos o los artículos de línea de un documento. Por ejemplo, ha creado un flujo de trabajo de aprobación para las hojas de horas (Nos referiremos a este flujo de trabajo por el nombre de *flujo de trabajo de documento*). Puede agregar un *flujo de trabajo de artículos de línea* a dicho flujo de trabajo de documento. Cuando se ejecuta el artículo de cada línea en el documento, este se envía para su procesamiento. Quizás desee que el mismo flujo de trabajo de elementos procese todos los artículos de línea o, por lo contrario, tal vez prefiera que distintos flujos de trabajo de elementos procesen cada artículo de línea diferente. Imaginemos que un empleado ha enviado una hoja de horas que se asemeja a la siguiente ilustración.
 
-![Flujo de trabajo con artículos de línea](./media/workflow_lineitemworkflow.gif)
+![Flujo de trabajo con artículos de línea.](./media/workflow_lineitemworkflow.gif)
 
 En esta situación, podría crear los siguientes flujos de trabajo de elementos:
 
@@ -89,3 +90,6 @@ Una *actividad paralela* es un elemento de flujo de trabajo que incluye dos o m�
 ### <a name="subworkflow"></a>Subflujo de trabajo
 
 Un *subflujo de trabajo* es un flujo de trabajo que se ejecuta en el contexto de otro flujo de trabajo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

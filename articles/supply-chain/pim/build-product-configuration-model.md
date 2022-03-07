@@ -1,29 +1,27 @@
 ---
 title: Visión general de la configuración del producto
 description: La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C.
-author: t-benebo
+author: cvocph
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "75083"
-- intro-internal
+ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7d37b1c8ed23bf93f0480c76e10b8aaed86fe2a2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983376"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015986"
 ---
 # <a name="product-configuration-overview"></a>Visión general de la configuración del producto
 
@@ -144,7 +142,7 @@ El API se ejecuta mediante un sistema de clases de **PCAdaptor** que exponen la 
 
 En el diagrama de flujo de API siguiente se muestra el proceso.  
 
-[![Diagrama de flujo.](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Diagrama de flujo](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
 ## <a name="configure-products"></a>Configurar productos
 

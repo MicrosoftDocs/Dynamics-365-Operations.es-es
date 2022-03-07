@@ -1,12 +1,10 @@
 ---
 title: Informes de solicitud de mantenimiento
 description: En este tema se explica cómo crear informes de solicitud de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c93697921e6199587da6e3f3a116e55d4b079e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cd0d50bacd43fe66628fec94aead3a2406e8d4e62c1e2e6c3d31afa9073baa6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019613"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773618"
 ---
 # <a name="maintenance-request-reports"></a>Informes de solicitud de mantenimiento
 
@@ -43,7 +41,7 @@ El informe **Detalles de la solicitud de mantenimiento** muestra información di
 
 La ilustración siguiente muestra un ejemplo del informe **Detalles de la solicitud de mantenimiento**.
 
-![Informe de detalles de solicitud de mantenimiento](media/09-manage-maintenance-requests.png)
+![Informe de detalles de solicitud de mantenimiento.](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Crear un informe de lista de solicitudes de mantenimiento
 
@@ -56,4 +54,7 @@ El informe **Lista de solicitudes de mantenimiento** muestra una lista de todas 
 
 La ilustración siguiente se muestra un ejemplo del informe **Lista de solicitudes de mantenimiento** para todas las solicitudes de mantenimiento activas.
 
-![Informe de lista de solicitudes de mantenimiento](media/10-manage-maintenance-requests.png)
+![Informe de lista de solicitudes de mantenimiento.](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

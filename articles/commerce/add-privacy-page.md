@@ -2,42 +2,36 @@
 title: Agregar una página de directivas de Privacidad
 description: En este tema se describe cómo agregar una página de directiva de privacidad a su sitio en Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: faf2072a5c53aa84f0de2e6d2478557bf96b7832e3433ad4cba971bc3f6e5880
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729180"
 ---
-# <a name="add-a-privacy-policy-page"></a>Agregar una página de directivas de Privacidad
-
+# <a name="add-a-privacy-policy-page"></a>Agregar una página de directivas de privacidad
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo agregar una página de directiva de privacidad a su sitio en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
-
 El cumplimiento de la privacidad incluye medidas organizativas que informan a los usuarios del sitio sobre cómo se recopilan y manejan sus datos. Los usuarios pueden decidir cómo quieren que se manejen sus datos personales y pueden tomar las medidas adecuadas.
 
 ## <a name="review-the-microsoft-privacy-statement-in-dynamics-365-commerce"></a>Revisar la declaración de privacidad de Microsoft en Dynamics 365 Commerce
 
-Para revisar la declaración de privacidad de Microsoft mientras está conectado a las herramientas de creación de Dynamics 365 Commerce, seleccione el botón **Ayuda** ( **?**) en la esquina superior derecha y luego seleccione **Privacidad y cookies**. Se abre una nueva pestaña que tiene un enlace a la [Declaración de privacidad de Microsoft ](https://privacy.microsoft.com/privacystatement).
+Para revisar la declaración de privacidad de Microsoft mientras está conectado a las herramientas de creación de Dynamics 365 Commerce, seleccione el botón **Ayuda** ( **?**) en la esquina superior derecha y luego seleccione **Privacidad y cookies**. Se abre una nueva pestaña que tiene un enlace a la [Declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="build-a-privacy-policy-page-for-your-site"></a>Crear una página de directiva de privacidad para su sitio
 
@@ -50,7 +44,7 @@ Para comenzar, en las herramientas de creación, vaya al sitio para el que desea
 ### <a name="create-a-template"></a>Crear una plantilla
 
 > [!NOTE]
-> Si ya se ha creado una plantilla que se puede utilizar para la página de directiva de privacidad, salte a la sección [Crea una página de directiva de privacidad ](#build-a-privacy-policy-page).
+> Si ya se ha creado una plantilla que se puede utilizar para la página de directiva de privacidad, salte a la sección [Crea una página de directiva de privacidad](#build-a-privacy-policy-page).
 
 Para crear una plantilla, siga estos pasos.
 
@@ -109,3 +103,6 @@ Ahora se puede hacer referencia al fragmento en la plantilla para otras páginas
 [Cumplimiento de cookies](cookie-compliance.md)
 
 [Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,31 +1,33 @@
 ---
 title: Crear una solicitud de baja de flujo de trabajo
 description: Cree un flujo de trabajo de solicitudes de bajas y ausencias para administrar solicitudes de bajas de manera coherente en Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 05/08/2020
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 707b986c41cde2d4e26bdb4c5218b87b27702cee
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420354"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065185"
 ---
 # <a name="create-a-leave-request-workflow"></a>Crear una solicitud de baja de flujo de trabajo
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Puede crear un flujo de trabajo en Dynamics 365 Human Resources para administrar solicitudes de bajas y ausencias de manera coherente. Un flujo de trabajo de **permisos y ausencias** le permite:
 
@@ -43,7 +45,7 @@ Puede crear un flujo de trabajo en Dynamics 365 Human Resources para administrar
 
 4. Cuando el aparezca el cuadro de mensaje **¿Abrir este archivo?**, seleccione **Abrir** e inicie sesión con las credenciales de su empresa.
 
-5. Use el editor de flujo de trabajo para crear un flujo de trabajo para sus solicitudes de licencia. Para obtener más información sobre cómo trabajar con flujos de trabajo, consulte [Visión general de la creación de flujos de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+5. Use el editor de flujo de trabajo para crear un flujo de trabajo para sus solicitudes de licencia. Para obtener más información sobre cómo trabajar con flujos de trabajo, consulte [Visión general de la creación de flujos de trabajo](../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=%2fdynamics365%2fcommerce%2ftoc.json.)
 
 ## <a name="leave-and-absence-request-workflow-data-elements"></a>Elementos de datos de flujo de trabajo de solicitudes de bajas y ausencias
 
@@ -72,12 +74,15 @@ Puede usar los siguientes elementos de datos para crear aprobaciones condicional
 
 Estos ejemplos muestran cómo puede crear diferentes tipos de condiciones de flujo de trabajo utilizando estos elementos de datos:
 
-- Use **Código de razón** en una declaración condicional para enrutar solicitudes de baja por enfermedad con el código de razón **Cirugía** a RRHH para su aprobación, mientras encamina todos los demás códigos de razón al gerente. Para obtener más información sobre las declaraciones condicionales, consulte [Configurar decisiones condicionales en un flujo de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow). 
+- Use **Código de razón** en una declaración condicional para enrutar solicitudes de baja por enfermedad con el código de razón **Cirugía** a RRHH para su aprobación, mientras encamina todos los demás códigos de razón al gerente. Para obtener más información sobre las declaraciones condicionales, consulte [Configurar decisiones condicionales en un flujo de trabajo](../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md). 
 
-- Utilizar **Enviado por Recursos humanos** y **Enviado por el gerente** en una acción automática para aprobar automáticamente las solicitudes de baja que estos roles envían en nombre de los empleados. Para obtener más información sobre accciones automáticas, consulte [Configurar procesos de aprobación en un flujo de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).
+- Utilizar **Enviado por Recursos humanos** y **Enviado por el gerente** en una acción automática para aprobar automáticamente las solicitudes de baja que estos roles envían en nombre de los empleados. Para obtener más información sobre accciones automáticas, consulte [Configurar procesos de aprobación en un flujo de trabajo](../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md).
 
 - User **Tipo de baja** en una declaración condicional o acción automática para controlar cómo el flujo de trabajo enruta las solicitudes con ciertos tipos de bajas.
 
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

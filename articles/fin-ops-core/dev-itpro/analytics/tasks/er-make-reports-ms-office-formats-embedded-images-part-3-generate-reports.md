@@ -1,12 +1,10 @@
 ---
 title: Generar informes en los formatos de Office que tengan imágenes incrustadas
-description: En los pasos siguientes se explica cómo un usuario con rol de "Administrador de sistema" o "Desarrollador de informes electrónicos" puede diseñar configuraciones de informe electrónico (ER) para generar documentos electrónicos en formatos de MS Office (Excel y Word) que contienen imágenes incrustadas.
+description: Este tema describe cómo diseñar las configuraciones de informes electrónicos (ER) para generar documentos electrónicos en Excel y Word que contienen imágenes insertadas.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735535"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generar informes en los formatos de Office que tengan imágenes incrustadas
 
@@ -119,3 +117,6 @@ En este ejemplo, usará configuraciones de ER creadas para una empresa de ejempl
 23. Haga clic en Aceptar.
     * Revise el resultado creado. El resultado se ha generado como documento de Word con las imágenes incrustadas que presentan el logotipo de la empresa, la firma de una persona autorizada y el texto seleccionado de la marca de agua.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

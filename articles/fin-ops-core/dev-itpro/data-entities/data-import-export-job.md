@@ -1,25 +1,24 @@
 ---
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
-author: Sunil-Garg
-manager: AnnBe
-ms.date: 11/02/2020
+author: peakerbl
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684069"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612373"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -108,7 +107,7 @@ Existen dos vistas de asignación: **Visualización de la asignación** que es l
 
 Puede crear una asignación en la página seleccionando **Crear la asignación de origen**. Una asignación generada actúa como una asignación automática. Por lo tanto, debe asignar manualmente cualquier campo sin asignar.
 
-![Asignación de datos](./media/dixf-map.png)
+![Asignación de datos.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Compruebe la seguridad del trabajo de importación o exportación
 El acceso al área de trabajo **Administración de datos** puede ser limitado, de modo que los usuarios que no sean administradores solo pueden acceder a ciertos trabajos de datos. El acceso a un trabajo de datos implica acceso total al historial de ejecución de ese trabajo y acceso a las tablas de ensayo. Por lo tanto, debe asegurarse de que los controles de acceso son los adecuados al crear un trabajo de datos.
@@ -134,7 +133,7 @@ Puede ejecutar un trabajo una vez; para ello, seleccione el botón **Importar** 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Confirme que el trabajo funciona como es debido.
 Tiene disponible el historial de trabajos por si necesita solucionar algún problema o investigar algún trabajo de importación o exportación. Las ejecuciones de trabajos del historial se organizan según intervalos de tiempo.
 
-![Rangos del historial de trabajos](./media/dixf-job-history.md.png)
+![Rangos del historial de trabajos.](./media/dixf-job-history.md.png)
 
 Cada ejecución de trabajo proporciona los siguientes detalles:
 
@@ -163,19 +162,7 @@ Para acelerar la importación de datos, se puede habilitar el procesamiento para
     - En el campo **Importar recuento de registros de umbral**, ingrese el recuento de registros de umbral para la importación. Esto determina el recuento de registros que debe procesar un subproceso. Si un archivo tiene 10K registros, un recuento de registros de 2500 con un recuento de tareas de 4 significará que cada subproceso procesará 2500 registros.
     - En el campo **Recuento de tareas de importación**, ingrese el recuento de tareas de importación. Este no debe exceder los subprocesos de lote máximos asignados para el procesamiento por lotes en **Administracion del sistema \>Configuración del servidor**.
 
-## <a name="clean-up-the-staging-tables"></a>Limpiar las tablas de almacenamiento provisional
-Esta funcionalidad ha quedado en desuso desde la Platform update 29. Se ha reemplazado por una nueva versión de la funcionalidad de limpieza del historial de trabajo que se explica a continuación.
-
-Puede limpiar las tablas de almacenamiento provisional si usa la característica **Limpieza del almacenamiento provisional** del espacio de trabajo **Administración de datos**. Puede usar las opciones siguientes para seleccionar qué registros deben ser eliminados de una tabla de almacenamiento provisional específica:
-
-- **Entidad**: si solo se proporciona una entidad, todos los registros de la tabla de almacenamiento provisional de esa entidad se borran. Seleccione esta opción para borrar todos los datos de la entidad incluyendo todos los proyectos y trabajos de datos.
-- **Id. de trabajo**: si solo se proporciona un id. de trabajo, todos los registros de todas las entidades del trabajo seleccionado se eliminan de las tablas de almacenamiento provisional adecuadas.
-- **Proyectos de datos**: si solo se selecciona un proyecto de datos, todos los registros de las entidades y de todos los trabajos del proyecto de datos seleccionado se eliminan.
-
-También puede combinar estas opciones para restringir aún más el conjunto de registros que se van a eliminar.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Limpieza del historial de trabajo (disponible en Platform update 29 y actualizaciones posteriores)
-
+## <a name="job-history-clean-up"></a>Limpieza del historial de trabajos 
 La funcionalidad de limpieza del historial de trabajo de la administración de datos debe usarse para programar una limpieza periódica del historial de ejecución. Esta funcionalidad reemplaza la funcionalidad anterior de limpieza de tablas de almacenamiento provisional, que ahora ha quedado en desuso. Se limpiarán las tablas siguientes mediante el proceso de limpieza.
 
 -   Todas las tablas de almacenamiento provisional
@@ -211,16 +198,10 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 > [!NOTE]
 > Si los registros en las tablas de preparación no se limpian por completo, asegúrese de que el trabajo de limpieza esté programado para ejecutarse periódicamente. Como se explicó anteriormente, en cualquier ejecución de limpieza, el trabajo solo limpiará tantas ID de ejecución como sea posible dentro de las horas máximas proporcionadas. Para continuar la limpieza de los registros de etapas restantes, el trabajo debe programarse para ejecutarse periódicamente.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Limpieza y archivo del historial de trabajos (disponible para vista previa en la Platform update 39 o versión 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Limpieza y archivo del historial de trabajos 
 La función de limpieza y archivo del historial de trabajos reemplaza las versiones anteriores de la función de limpieza. Esta sección explicará estas nuevas capacidades.
 
-Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de las 12 de la noche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación.
-
-> [!NOTE]
-> Debido a que esta funcionalidad está en vista previa, el trabajo por lotes del sistema no eliminará ningún historial de ejecución hasta que se habilite a través del paquete piloto DMFEnableExecutionHistoryCleanupSystemJob. Cuando la función esté generalmente disponible en una versión futura, este paquete piloto no será necesario y el trabajo por lotes del sistema comenzará a purgarse y archivarse una vez que el sistema esté listo, según el programa definido como se explicó anteriormente. 
-
-> [!NOTE]
-> En una versión futura, las versiones anteriores de la función de limpieza se eliminarán de las aplicaciones Finance and Operations.
+Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
 
 El segundo cambio en el proceso de limpieza es el archivo del historial de ejecución depurado. El trabajo de limpieza archivará los registros eliminados en el almacenamiento de blobs que DIXF usa para integraciones regulares. El archivo archivado estará en el formato de paquete DIXF y estará disponible durante 7 días en el blob durante el cual se podrá descargar. La longevidad predeterminada de 7 días para el archivo archivado se puede cambiar a un máximo de 90 días en los parámetros.
 
@@ -243,3 +224,6 @@ Para descargar el historial de ejecución archivado, vaya al espacio de trabajo 
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

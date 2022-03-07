@@ -2,31 +2,31 @@
 title: Espacio de trabajo de facturación de colaboración de proveedor
 description: Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 author: abruer
-ms.date: 02/15/2022
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: a3f4729a8a788f4f5b2b2e9923f515b86590b946
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182638"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188817"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la **Facturacíon de colaboración de proveedor**.
+Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 
 El espacio de trabajo de **Facturación de colaboración de proveedor** se puede usar para ver información de la factura de proveedor y para enviar facturas al sistema mediante capacidades del flujo de trabajo.
 
@@ -45,11 +45,11 @@ Si hace clic en una ficha, abrirá una vista filtrada de la página **Lista de f
 
 ### <a name="tabular-lists"></a>Listas tabulares
 
-En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: **Borrador** y **Enviado**, listas **Más aprobadas**. Cuando se encuentre en estado de **Borrador**, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
+En la sección **Listas tabulares**, el estado de la facturación se desglosa de forma similar a las fichas del resumen: Borrador y Enviado, listas no aprobadas. Cuando se encuentre en estado de Borrador, una factura se puede enviar al flujo de trabajo o eliminarse. La última lista tabular es una opción para buscar facturas. Puede filtrar según busca para permitir búsquedas más rápidas.
 
 ### <a name="all-vendor-invoices-list-page"></a>Página de la lista de todas las facturas de proveedor
 
-Puede ver todas las facturas de proveedor registradas y sin registrar en la página de la lista de **Facturas de colaboración de proveedore**. Puede usar dicha página para ver el estado del pago de las facturas. Los estados del pago incluyen **No registradas**, **Sin pagar**, **Pagadas parcialemente** y **Pagadas completamente**.
+Puede ver todas las facturas de proveedor registradas y sin registrar en la página de la lista de **Facturas de colaboración de proveedore**. Puede usar dicha página para ver el estado del pago de las facturas. Los estados del pago incluyen No registradas, Sin pagar, Pagadas parcialemente y Pagadas completamente.
 Crear una nueva factura a partir de un pedido de compra
 
 Puede crear una nueva factura de proveedor seleccionando la acción **Nueva** en el espacio de trabajo de **Facturación de colaboración de proveedor**. El proveedor debe proporcionar el número de pedido de compra y de factura. De forma predeterminada, todas las líneas de pedido de compra del proveedor aparecerán en la nueva factura. La información sobre cantidad y coste se puede editar antes de enviar la factura de proveedor al flujo de trabajo. Puede adjuntar archivos, notas, imágenes y direcciones URL a una factura antes de enviarla.

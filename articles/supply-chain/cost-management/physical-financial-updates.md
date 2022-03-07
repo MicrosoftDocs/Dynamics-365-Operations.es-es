@@ -2,11 +2,9 @@
 title: Actualizaciones físicas y financieras
 description: En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b29c1c0727487992a478552d94b5bbe8684d0550
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 88432b9a5e564f9e81892e0bb379f95ff40d6c9d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967467"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842162"
 ---
 # <a name="physical-and-financial-updates"></a>Actualizaciones físicas y financieras
 
@@ -73,3 +71,6 @@ Cuando se registra una transacción financiera, el estado del registro de la tra
 -   Diarios de inventario de cantidad negativa, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
 
 Las transacciones que reducen la cantidad se registran en el precio de coste promedio móvil. De este modo, el procedimiento de cierre de inventario es necesario para liquidar las transacciones de emisión con las transacciones de recepción en función del modelo de inventario asignado a cada artículo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

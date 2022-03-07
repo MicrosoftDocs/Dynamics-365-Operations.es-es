@@ -2,7 +2,7 @@
 title: Configurar un sitio de comercio electrónico B2B
 description: Este tema describe cómo configurar un sitio de comercio electrónico de empresa a empresa (B2B) en Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 12/03/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 461e79f63569bbfe77f9075c562a5b1f3da28cc2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983326"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018864"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar un sitio de comercio electrónico B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Los sitios de comercio electrónico de empresa a empresa (B2B) proporcionan algunas funciones esenciales que optimizan el flujo de trabajo para un usuario de B2B. Este tema describe cómo configurar un sitio de comercio electrónico B2B en Microsoft Dynamics 365 Commerce. Recorre la los módulos y las opciones de sitio que hay que configurar para habilitar escenarios específicos de B2B.
 
@@ -37,7 +38,7 @@ Los sitios de comercio electrónico de empresa a empresa (B2B) proporcionan algu
 
 Puede acceder a la configuración de nivel de sitio en el generador de sitios, en **Configuración del sitio \> Extensiones**. Las dos opciones de configuración de nivel de sitio siguientes se aplican a escenarios B2B:
 
-- **Habilitar pagos de cuenta de cliente**: esta propiedad permite a los usuarios pagar pedidos utilizando cuentas de clientes. Los valores disponibles son **Habilitado para clientes de B2B**, **Habilitado para clientes de B2C**, **Habilitados para todos los clientes** y **Deshabilitados para todos los clientes**. Si el sitio B2B admite cuentas de clientes, debe seleccionar **Habilitados para clientes de B2B**.
+- **Habilitar pagos de cuenta de cliente**: esta propiedad permite a los usuarios pagar pedidos utilizando cuentas de clientes. Los valores disponibles son **Habilitado para clientes de B2B**, **Habilitado para clientes de B2C**, **Habilitados para todos los clientes** y **Deshabilitados para todos los clientes**. Si el sitio B2B admite cuentas de clientes, debe seleccionar **Habilitados para clientes de B2C**.
 - **Habilitar límites de cantidad de pedidos**: esta propiedad permite establecer límites en la cantidad de artículos que se pueden pedir para cada producto o categoría. Los valores disponibles son **Habilitado para clientes de B2B**, **Habilitado para clientes de B2C**, **Habilitados para todos los clientes** y **Deshabilitados para todos los clientes**.
 
 > [!NOTE]
@@ -306,30 +307,6 @@ Para agregar un módulo de adición rápida a una página de carrito en el gener
 
 > [!NOTE] 
 > El módulo de adición rápida está disponible a partir de la versión 10.0.17 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
-## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Agregar un módulo de compra al por mayor a una página de detalles del producto
-
-El módulo de compra al por mayor en una página de detalles del producto (PDP) ofrece una experiencia basada en una matriz que permite al comprador agregar rápidamente múltiples variantes de un producto al carrito. Cuando un usuario del sitio debe pedir múltiples variantes del mismo producto, esta experiencia elimina la necesidad de seleccionar la combinación de dimensiones del producto, definir la cantidad, agregar la variante al carrito y luego repetir el proceso para otras combinaciones de dimensiones del producto.
-
-Para agregar el módulo de compras al por mayor a un PDP en el generador de sitios de Commerce, siga estos pasos.
-
-1. Vaya a **Plantillas** y seleccione la plantilla de PDP de su sitio.
-1. Seleccione **Editar**.
-1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
-1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo de **Compra al por mayor** y, a continuación, **Aceptar**.
-1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
-1. Vaya a **Páginas** y seleccione la PDP de su sitio.
-1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
-1. En el panel de propiedades del módulo **Contenedor**, en **Anchura**, seleccione **Rellenar contenedor**.
-1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo de **Compra al por mayor** y, a continuación, **Aceptar**.
-1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
-
-> [!NOTE] 
-> El módulo de compra al por mayor está disponible a partir de la versión 10.0.24 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

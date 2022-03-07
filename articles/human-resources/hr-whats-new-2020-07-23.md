@@ -1,8 +1,8 @@
 ---
 title: Novedades o cambios en Dynamics 365 Human Resources (23 de julio de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 23 de julio de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0672e3039f54a4591db49eee00d69bf5e4278fd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f5e10d6d1dedfc251a1a00110b50c9096314d75b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528458"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127530"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-23-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (23 de julio de 2020)
 
@@ -33,7 +33,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 ## <a name="deleting-financial-dimensions-on-a-position-doesnt-work-as-expected-445476"></a>Eliminar dimensiones financieras en una posición no funciona como se esperaba (445476)
 
-Eliminar dimensiones de una posición ahora elimina esas mismas posiciones de Common Data Service.
+Eliminar dimensiones de una posición ahora elimina esas mismas posiciones de Dataverse.
 
 ## <a name="positions-not-in-hierarchy-show-inactive-positions-397257"></a>Las posiciones que no están en la jerarquía muestran posiciones inactivas (397257)
 
@@ -94,9 +94,9 @@ Ahora está disponible una entidad DMF para suspensiones acumuladas.
 
 ## <a name="coming-soon"></a>Próximamente
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Lista de entidades incluidas en Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Lista de entidades incluidas en Dataverse
 
-Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Common Data Service.
+Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Dataverse.
 
 ## <a name="platform-changes"></a>Cambios de plataforma
 

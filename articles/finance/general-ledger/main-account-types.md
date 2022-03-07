@@ -2,9 +2,11 @@
 title: Tipos de cuentas principales
 description: Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable.
 author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93aee50a1004ba6e8bd65fa9c19d1c21f14f7174908a2b42084ef447fdc32dc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f33cb0fa65c834435cc612070391a6837b7e675
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772836"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988636"
 ---
 # <a name="main-account-types"></a>Tipos de cuentas principales
 
@@ -38,6 +40,3 @@ Para obtener más información, vea [Configuración de categorías de la cuenta 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

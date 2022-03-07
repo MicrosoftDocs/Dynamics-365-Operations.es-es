@@ -2,22 +2,24 @@
 title: Parámetros para la gestión de cambios de ingeniería
 description: Este tema explica cómo configurar características de administración de cambios de ingteniería para Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: d5cf6826aa44e27fae989c73d87d2d3687e0cd0c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262294"
 ---
 # <a name="engineering-change-management-parameters"></a>Parámetros para la gestión de cambios de ingeniería
 

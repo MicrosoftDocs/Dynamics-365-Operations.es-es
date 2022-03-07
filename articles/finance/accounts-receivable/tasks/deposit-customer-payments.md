@@ -2,9 +2,11 @@
 title: Depositar pagos de cliente
 description: Pagos de cliente en depósito.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 776871aad417d26486ec109f8b0b7f51db32d065d801e51459584c82269f9ac7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7357683e46df04c3dedd7e22607748512c9de94a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771785"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220260"
 ---
 # <a name="deposit-customer-payments"></a>Depositar pagos de cliente
 

@@ -1,12 +1,10 @@
 ---
-title: Modificar formatos de informe electrónico al aplicar de nuevo plantillas de Excel
-description: Este tema proporciona información acerca de cómo puede modificar el formato de informes electrónicos (ER) que se usa para generar documentos empresariales reaplicando una plantilla de Excel modificada.
+title: Modificar formatos de informes electrónicos al aplicar de nuevo plantillas de Excel
+description: Este tema describe cómo modificar el formato de informes electrónicos (ER) que se usa para generar documentos empresariales reaplicando una plantilla de Excel modificada.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0ab7686ac0aba982fd44195214df878ba3ede446
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682226"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748726"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Modificar formatos de informe electrónico al aplicar de nuevo plantillas de Excel
 
@@ -33,3 +31,6 @@ La herramienta de informes electrónicos (ER) se usa para generar documentos emp
 La herramienta de ER se puede usar para generar documentos empresariales como archivos de Microsoft Excel. Puede usar un documento de Excel como plantilla para estos documentos. Para definir el diseño de documento en el diseñador de ER, puede importar el contenido del documento de Excel que desea utilizar como plantilla en el formato definido de ER. Para más detalles y practicar este escenario, reproduzca la guía de tareas **Diseñar una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)).
 
 Si edita el documento de Excel que se usa como plantilla para un documento empresarial, la nueva funcionalidad de ER permite reaplicar la plantilla actualiza al formato de ER. El formato de ER se actualiza a continuación para ajustarse a la plantilla actualizada. Para más detalles sobre esta funcionalidad, reproduzca la guía de tareas **Modificar un formato de ER reaplicando una plantilla de Excel** (parte del proceso empresarial 7.5.5.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10683)). En el paso de la guía de tareas donde importa una plantilla actualizada, utilice plantilla modificada del archivo de Excel de informe de pago, SampleVendPaymWsReport2, como plantilla.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

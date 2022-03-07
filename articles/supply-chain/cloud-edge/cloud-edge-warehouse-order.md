@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 080d45170c726cd0351ab344254aa36c1c56ba55
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471701"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271265"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -27,18 +27,16 @@ ms.locfileid: "7471701"
 
 ## <a name="what-are-warehouse-orders"></a>¿Qué son los pedidos de almacén?
 
-Los *pedidos de almacén* son un tipo de pedido que se usó para admitir implementaciones de almacén de unidades de escalado y concentradores. Le permiten recibir y enviar inventario cuando está ejecutando una carga de trabajo de almacén en una unidad de escalado.
+Los *pedidos de almacén* son un tipo de pedido que se creó para admitir implementaciones de almacén de unidades de escalado y concentradores. Le permiten recibir inventario cuando está ejecutando una carga de trabajo de almacén en una unidad de escalado. Actualmente se utilizan solo con pedidos de compra.
 
-Los pedidos de almacén se utilizan como parte del procesamiento de gestión de almacén de entrada y salida. Se crean como parte del proceso *Liberar al almacén*, que se inicializa en el concentrador.
-Para el procesamiento de entrada, Warehouse Mobile App se utiliza para registrar el inventario físico disponible durante el procesamiento de los pedidos de entrada, esto está disponible para pedidos de compra y producción que especifican un almacén de unidad de escala y artículos que están habilitados para usar procesos de administración de almacén.
-Los pedidos de almacén de salida se utilizan como parte del proceso de envío de pedidos para transferencias y pedidos de venta.
+Los pedidos de almacén se utilizan como parte del procesamiento de la administración del almacén, como cuando la aplicación móvil Warehouse Management se utiliza para registrar el inventario físico disponible durante el procesamiento de un pedido de compra entrante. Los pedidos de almacén se crean como parte del proceso *Liberar al almacén* que está disponible para pedidos de compra que especifican un almacén de unidad de escalada y artículos que están habilitados para usar procesos de administración de almacén.
 
 > [!IMPORTANT]
 > Los pedidos de almacén están disponibles solo en implementaciones que utilizan [cargas de trabajo de administración de almacenes para unidades de escalado de perímetro y en la nube](cloud-edge-workload-warehousing.md).
 
-## <a name="create-an-inbound-warehouse-order"></a>Crear un pedido de almacén entrante
+## <a name="create-a-warehouse-order"></a>Crear un pedido de almacén
 
-Para crear una orden de almacén de entrada para un proceso de orden de compra, siga estos pasos.
+Para crear un pedido de almacén, siga estos pasos.
 
 1. Inicie sesión en la instancia de Microsoft Dynamics 365 Supply Chain Management que se está ejecutando en el concentrador. (Debe iniciar el proceso *Liberar al almacén* mientras está conectado en el concentrador).
 1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Todos los pedidos de compra**.

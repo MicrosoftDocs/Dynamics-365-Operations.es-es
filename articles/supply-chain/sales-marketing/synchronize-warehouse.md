@@ -2,16 +2,13 @@
 title: Sincronizar almacenes de Supply Chain Management a Field Service
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar almacenes de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 author: ChristianRytt
-manager: tfehr
 ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 28445592d7a2a8964b1642ae52cff08be6feabbe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529515"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910270"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Sincronizar almacenes de Supply Chain Management a Field Service
 
@@ -45,23 +42,23 @@ La plantilla siguiente y las tareas subyacentes se usan para ejecutar sincroniza
 **Tarea en el proyecto de integración de datos**
 - Almacén
 
-## <a name="entity-set"></a>Conjunto de entidades
+## <a name="table-set"></a>Conjunto de tablas
 | Field Service    | Gestión de la cadena de abastecimiento                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Almacenes                             |
 
-## <a name="entity-flow"></a>Flujo de la entidad
-Los almacenes creados y mantenidos en Supply Chain Management se pueden sincronizar con Field Service mediante un proyecto de integración de datos del Common Data Service (CDS). Los almacenes que quiere sincronizar con Field Service se pueden controlar con la consulta y un filtrado avanzado en el proyecto. Los almacenes que se sincronizan desde Supply Chain Management se crean en Field Service con el campo **Se mantienen externamente** establecido en **Sí** y el registro se convierte en solo lectura.
+## <a name="table-flow"></a>Flujo de tabla
+Los almacenes creados y mantenidos en Supply Chain Management se pueden sincronizar con Field Service mediante un proyecto de integración de datos de Microsoft Dataverse. Los almacenes que quiere sincronizar con Field Service se pueden controlar con la consulta y un filtrado avanzado en el proyecto. Los almacenes que se sincronizan desde Supply Chain Management se crean en Field Service con la columna **Se mantienen externamente** establecida en **Sí** y el registro se convierte en solo lectura.
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
-Para admitir la integración entre Field Service y Supply Chain Management, la funcionalidad adicional de la solución de CRM Field Service es necesaria. En la solución, el campo **Se mantiene externamente** se ha agregado a la entidad **Almacén (msdyn_warehouses)**. Este campo ayuda a identificar si el almacén se administra desde Supply Chain Management o si solo existe en Field Service. Los parámetros de este campos son:
+Para admitir la integración entre Field Service y Supply Chain Management, la funcionalidad adicional de la solución de CRM Field Service es necesaria. En la solución, la columna **Se mantiene externamente** se ha agregado a la tabla **Almacén (msdyn_warehouses)**. Esta columna ayuda a identificar si el almacén se administra desde Supply Chain Management o si solo existe en Field Service. Los parámetros de esta columna son:
 - **Sí** - El almacén se ha originado en Supply Chain Management y no se podrá editar en Sales.
 - **No** – el almacén se especificó directamente en Field Service y se mantiene aquí.
 
-El campo **Se mantiene externamente** ayuda a controlar la sincronización de los niveles de inventario, los ajustes, las transferencias y uso en pedidos de trabajo. Solo los almacenes con **Se mantiene externamente** establecido en **Sí** se pueden usar para sincronizarse directamente con el mismo almacén en el otro sistema. 
+La columna **Se mantiene externamente** ayuda a controlar la sincronización de los niveles de inventario, los ajustes, las transferencias y uso en pedidos de trabajo. Solo los almacenes con **Se mantiene externamente** establecido en **Sí** se pueden usar para sincronizarse directamente con el mismo almacén en el otro sistema. 
 
 > [!NOTE]
-> Es posible crear varios almacenes en Field Service (con **Se mantiene externamente** = No) y después asignarlos a un único almacén, con la funcionalidad de consulta y filtrado avanzados. Se usa en situaciones en las que desea que Field Service domine el nivel de inventario detallado y solo envíe actualizaciones a Supply Chain Management. En este caso Field Service no recibirá actualizaciones del nivel de inventario desde Supply Chain Management. Para consultar información adicional, vea [Sincronizar los ajustes de inventario desde Field Service a Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) y [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas vinculados a proyecto en Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Es posible crear varios almacenes en Field Service (con **Se mantiene externamente** = No) y después asignarlos a un único almacén, con la funcionalidad de consulta y filtrado avanzados. Se usa en situaciones en las que desea que Field Service domine el nivel de inventario detallado y solo envíe actualizaciones a Supply Chain Management. En este caso Field Service no recibirá actualizaciones del nivel de inventario desde Supply Chain Management. Para consultar información adicional, vea [Sincronizar los ajustes de inventario desde Field Service a Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) y [Sincronizar pedidos de trabajo en Field Service con pedidos de ventas vinculados a proyecto en Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 ### <a name="data-integration-project"></a>Proyecto de integración de datos
@@ -81,3 +78,6 @@ La siguiente ilustración muestra la asignación de plantilla en la integración
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Almacenes (Supply Chain Management a Field Service): Almacén
 
 [![Asignación de la plantilla en la integración de datos](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

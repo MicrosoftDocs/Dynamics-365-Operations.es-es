@@ -1,12 +1,10 @@
 ---
 title: Configuración de máscaras de código de barras
 description: Este tema describe cómo configurar los caracteres de máscara de código de barras, máscaras de código de barras, y cómo asignar máscaras de código de barras a códigos de barras.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
@@ -15,15 +13,15 @@ ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5432741e7cdc21054d02bd24591deb307d096229
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969810"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779831"
 ---
 # <a name="set-up-bar-code-masks"></a>Configuración de máscaras de código de barras
 
@@ -82,3 +80,6 @@ Las máscaras de códigos de barras se deben asignar a los códigos de barras an
 5. Haga clic en **Guardar**.
 
 Ahora, la máscara de código de barras se podrá usar para crear códigos de barras para productos. Los pasos anteriores son ejemplos de cómo crear máscaras de código de barras para los productos, pero también muestra cómo crear máscaras de código de barras para cualquiera de los otros tipos de código de barras admitidos. Las máscaras de código de barras, los tipos, y las longitudes se deben ajustar para su uso en el entorno específico.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

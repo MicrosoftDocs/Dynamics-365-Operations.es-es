@@ -2,11 +2,9 @@
 title: Desplazamiento de trabajos kanban programados
 description: Este procedimiento se centra en mover trabajos kanban de proceso planificados a un período diferente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2769a7d519e12613796025b658db0b08cdfc4fde
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9d58ee740824809f15da68db66616bb01d5dbfab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961649"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825023"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Desplazamiento de trabajos kanban programados
 
@@ -61,3 +59,6 @@ Este procedimiento se centra en mover trabajos kanban de proceso planificados a 
 2. Haga clic en **Hacia adelante.** Observe cómo el trabajo baja una línea en la lista. 
 
 3. Haga clic en **Regresivo**. Observe cómo el trabajo sube una línea en la lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

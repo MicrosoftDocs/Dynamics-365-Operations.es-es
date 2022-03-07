@@ -2,11 +2,9 @@
 title: Abrir URL en POS
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Commerce.
 author: AamirAllaq
-manager: AnnBe
 ms.date: 01/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714123"
 ---
-# <a name="open-url-in-pos"></a>Abrir dirección URL en el punto de venta
+# <a name="open-url-in-pos"></a>Abrir dirección URL en PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo puede configurar un botón en Retail POS (PDV) para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
+Este tema describe cómo puede configurar un botón en un punto de venta (POS) Dynamics 365 Commerce para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
 
 Esta característica permite la configuración de un botón en PDV, mediante el Diseñador de la cuadrícula de botones para abrir una dirección URL. Actualmente, esto se admite en las siguientes configuraciones:
 
@@ -48,15 +46,15 @@ El abrir una dirección URL web dentro de PDV se admite actualmente solo para Mo
 
 Esta función también le permite especificar URL que no son de Web para abrir una aplicación nativa. Por ejemplo, puede especificar protocolos de URL como Mailto, SIP, IM o MSTEAMS, que se pueden administrar mediante aplicaciones nativas respectivas en el dispositivo del host. Para habilitarla, debe configurar la URL con la opción **Abrir en ventana nueva** seleccionada.
 
-- Para los equipos de Windows, consulte [Exportar o importar asociaciones de aplicaciones predeterminadas](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) para establecer las asociaciones predeterminadas de protocolos si configura su equipo utilizando la Administración y mantenimiento de imágenes de implementación (DISM).
-- Si utiliza MDM, como Intune para administrar los equipos de Windows, consulte [Directiva CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Si es desarrollador de software que crea una página Web personalizada, consulte [Iniciar la aplicación predeterminada para URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Para los equipos de Windows, consulte [Exportar o importar asociaciones de aplicaciones predeterminadas](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) para establecer las asociaciones predeterminadas de protocolos si configura su equipo utilizando la Administración y mantenimiento de imágenes de implementación (DISM).
+- Si utiliza MDM, como Intune para administrar los equipos de Windows, consulte [Directiva CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Si es desarrollador de software que crea una página Web personalizada, consulte [Iniciar la aplicación predeterminada para URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Abrir una aplicación nativa fácilmente
 
 Windows, IOS y, Android también permiten abrir aplicaciones más fácilmente, en función de la asociación del protocolo de la aplicación. Si su aplicación no está ya configurada para gestionar la apertura desde un explorador web, puede necesitar que un programador la configure.
 
-- Para Windows, consulte [Habilitar aplicaciones de páginas Web mediante controladores de URI de la aplicación](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Para Windows, consulte [Habilitar aplicaciones de páginas Web mediante controladores de URI de la aplicación](/windows/uwp/launch-resume/web-to-app-linking).
 - Para IOS, consulte [Vínculos universales para los desarrolladores](https://developer.apple.com/ios/universal-links/).
 - Para Android, consulte [Administrar vínculos de la aplicación de Android](https://developer.android.com/training/app-links/).
 
@@ -82,3 +80,6 @@ Para configurar una dirección URL para ser abierta en PDV, realice los pasos si
 5. Seleccione **Abrir URL** como la acción.
 6. Especifique la dirección URL que desee usar.
 7. Configurar si abrir la dirección URL en una ventana nueva.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

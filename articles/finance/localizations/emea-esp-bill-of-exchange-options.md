@@ -2,11 +2,9 @@
 title: Opciones de letras de cambio españolas
 description: Este tema describe opciones y cambios específicos en el proceso de letra de cambio básico implementado en Microsoft Dynamics 365 Finance para las entidades jurídicas en España.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, BankBillOfExchangeTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cc9ab2afffc323808d73c25100b78fcaa32f88e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 284d52c818eab8cfc9da51c065e267683f2a8b854a254879b35ffb8f1bd0a0b4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736130"
 ---
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 
@@ -57,3 +55,6 @@ Si el parámetro **Tratamiento de fecha en diario de letra de cambio** está est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

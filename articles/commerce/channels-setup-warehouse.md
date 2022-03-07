@@ -2,36 +2,30 @@
 title: Configurar un almacén
 description: En este tema se describe cómo configurar un almacén para utilizarlo con un nuevo canal en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734028"
 ---
 # <a name="warehouse-set-up"></a>Configuración de almacén
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo configurar un almacén para utilizarlo con un nuevo canal en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Cada canal de Commerce requiere que se le asocie un almacén configurado. Los siguientes procedimientos proporcionan la configuración mínima requerida para configurar un almacén para un canal de Commerce. Para obtener más información sobre la configuración del almacén, consulte la [Visión general de la gestión de almacenes](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -51,7 +45,7 @@ Para configurar un sitio de almacén, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de sitio de almacén.
 
-![Ejemplo de sitio de almacén](media/warehouse-site.png)
+![Ejemplo de sitio de almacén.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Configurar un almacén
 
@@ -104,7 +98,7 @@ Para configurar ubicaciones de inventario de almacén para inventario estándar,
     
 La siguiente imagen muestra una configuración de ubicación de inventario de almacén en San Francisco.
 
-![Ejemplo de configuración de ubicación de inventario](media/warehouse-inventory-locations.png)
+![Ejemplo de configuración de ubicación de inventario.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Configuración de almacén completo
 
@@ -127,13 +121,13 @@ Para completar la configuración de almacén, siga estos pasos.
 
 La siguiente imagen muestra los detalles de un almacén configurado.
 
-![Ejemplo de almacén configurado](media/warehouse-sample.png)
+![Ejemplo de almacén configurado.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la gestión de almacenes](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
+[Información general de la gestión de almacenes](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
 
@@ -147,3 +141,6 @@ La siguiente imagen muestra los detalles de un almacén configurado.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

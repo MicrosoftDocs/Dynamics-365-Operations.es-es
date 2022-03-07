@@ -1,34 +1,32 @@
 ---
 title: Generar informes de la Ley de Cuidado de salud asequible en la Administración de prestaciones
-description: En este tema se describe cómo la Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA).
-author: twheeloc
-ms.date: 08/23/2021
+description: Estos temas describen cómo la Administración de prestaciones ayuda a rastrear la información notificada en el Formulario 1095-B y el Formulario 1095-C para la orden del empresario de la Ley de Cuidado de salud asequible (ACA).
+author: andreabichsel
+manager: tfehr
+ms.date: 12/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 79bd8e02aeac1be94e735373740cf9508f494a06
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2e4b250f4a059719067a9e19bbf3ce4aecc9bb1f
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066002"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114192"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genere informes de ACA en la administración de prestaciones
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-La Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA). Al igual que la capacidad de los informes de ACA en el antiguo espacio de trabajo **Prestaciones**, esta funcionalidad solo se aplica a las entidades jurídicas de Estados Unidos.
+La Administración de prestaciones ayuda a rastrear la información notificada en el Formulario 1095-B y el Formulario 1095-C para la orden del empresario de la Ley de Cuidado de salud asequible (ACA). Al igual que la capacidad de los informes de ACA en el antiguo espacio de trabajo **Prestaciones**, esta funcionalidad solo se aplica a las entidades jurídicas de Estados Unidos.
 
 Para usar esta funcionalidad, primero debe activar la **Administración avanzada de prestaciones**. Para obtener más información, incluidas advertencias importantes sobre la Administración de prestaciones, consulte [Habilitar o deshabilitar la Administración de prestaciones](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -51,11 +49,11 @@ Los grupos de cobertura de Cuidado de salud asequible le ayudan a administrar es
 
 1. En el espacio de trabajo **Administración de prestaciones**, seleccione **Grupo de cobertura de Cuidado de salud asequible**.
 
-    ![Seleccionar un grupo de cobertura de Cuidado de salud asequible.](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Seleccionar un grupo de cobertura de Cuidado de salud asequible](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Seleccione **Nuevo** para crear un nuevo grupo de cobertura de Cuidado de salud asequible o **Editar** para cambiar un grupo existente.
 
-    ![Seleccionar Nuevo o Editar.](./media/hr-benefits-management-aca-new.png)
+    ![Seleccionar Nuevo o Editar](./media/hr-benefits-management-aca-new.png)
 
 3. Establezca los campos siguientes.
 
@@ -70,7 +68,7 @@ Los grupos de cobertura de Cuidado de salud asequible le ayudan a administrar es
     | Grupo válido desde | La primera fecha en la que este registro es válido. |
     | Grupo válido hasta | La última fecha en la que este registro es válido. Si no hay fecha de vencimiento, introduzca **Nunca**. |
 
-    ![Crear un grupo de cobertura.](./media/hr-benefits-management-aca-new-group.png)
+    ![Crear un grupo de cobertura](./media/hr-benefits-management-aca-new-group.png)
 
 4. Seleccione **Guardar**.
 
@@ -80,11 +78,11 @@ Los grupos de cobertura de Cuidado de salud asequible le ayudan a administrar es
 2. Seleccione el grupo al que desea asignar empleados.
 3. Seleccione **Asignación masiva**.
 
-    ![Seleccionar asignación masiva.](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Seleccionar asignación masiva](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Seleccione empleados de la lista y, a continuación, seleccione **Asignar**.
 
-    ![Asignar empleados seleccionados a un grupo.](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Asignar empleados seleccionados a un grupo](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Mantener varias versiones de opciones de cobertura
 
@@ -114,12 +112,12 @@ Para introducir excepciones para cualquier valor de un grupo de Cuidado de salud
 2. Seleccione el empleado en la lista.
 3. En la pestaña **Empleo**, en la sección **Más información**, seleccione **Cobertura de Cuidado de salud asequible**.
 
-    ![Cambiar las opciones de un empleado.](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Cambiar las opciones de un empleado](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Seleccione **Editar**.
 5. Para cada mes que requiera cambios, active la casilla **Sobrescribir la configuración predeterminada** y cambie los otros valores según sea necesario.
 
-    ![Reemplazar los valores predeterminados.](./media/hr-benefits-management-aca-override-default.png)
+    ![Reemplazar los valores predeterminados](./media/hr-benefits-management-aca-override-default.png)
 
 6. Seleccione **Guardar**.
 
@@ -134,7 +132,7 @@ Para indicar si se debe informar un plan de prestaciones, siga estos pasos.
 3. Seleccione **Editar**.
 4. Establezca la opción **Se informa por la Ley de Reportado Cuidado de salud asequible** en **Sí**.
 
-    ![Notificar cobertura de cuidad cuidado de salud.](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Notificar cobertura de cuidad cuidado de salud](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Seleccione **Guardar**.
 
@@ -148,25 +146,25 @@ Puede generar los formularios 1095-B y 1095-C de ACA y distribuirlos a cada uno 
 2. Cambie los parámetros según sea necesario y, a continuación, seleccione **Aceptar**.
 
     > [!NOTE]
-    > Si imprime formularios 1095-C para más de 500 empleados, recibirá más de un archivo PDF. Le recomendamos que aumente el valor del campo **Tamaño máximo de archivo en megabytes** en la página **Parámetros de la administración de documentos** a **150**. (Para abrir rápidamente esa página, utilice el campo de búsqueda en la barra de navegación).
+    > Si imprime formularios 1095-C para más de 500 empleados, recibirá más de un archivo PDF. Le recomendamos que aumente el valor del campo **Tamaño máximo de archivo en megabytes** en la página **Parámetros de la administración de documentos** a **150**. (Para abrir rápidamente esa página, puede usar el campo de búsqueda en la barra de navegación).
     >
-    > ![Cambiar el tamaño máximo de archivo.](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Cambiar el tamaño máximo de archivo](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Para comprobar el estado de los informes y verlos, utilice el campo de búsqueda en la barra de navegación para abrir la página **Trabajos de informes electrónicos**.
 
-    ![Búsqueda de la página de trabajos de informes electrónicos.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Búsqueda de la página de trabajos de informes electrónicos](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Seleccione el informe que desea ver y, a continuación, seleccione **Mostrar archivos**.
 
-    ![Mostrar archivos.](./media/hr-benefits-management-aca-show-files.png)
+    ![Mostrar archivos](./media/hr-benefits-management-aca-show-files.png)
 
 5. Seleccione **Abrir**.
 
-    ![Abrir un archivo.](./media/hr-benefits-management-aca-open-file.png)
+    ![Abrir un archivo](./media/hr-benefits-management-aca-open-file.png)
 
 6. En la barra de notificaciones que aparece en la parte inferior de la ventana del explorador, abra el archivo zip y seleccione el informe. Puede ver o imprimir el archivo PDF.
 
-    ![Formulario 1095-C de ejemplo.](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Formulario 1095-C de ejemplo](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Ver información de cobertura de ACA
 
@@ -181,7 +179,7 @@ Para ver esta información, siga estos pasos.
 1. En el espacio de trabajo **Administración de prestaciones**, seleccione **Grupo de cobertura de cobertura de cuidado de salud asequible del trabajador**.
 2. En el campo **Nombre del grupo**, seleccione un grupo.
 
-    ![Ver la cobertura de ACA.](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Ver la cobertura de ACA](./media/hr-benefits-management-aca-view-coverage.png)
 
 Si alguno de los valores predeterminados del grupo de cobertura de Cuidado de salud asequible se han anulado, aparecerá un asterisco junto al valor que se cambió. Si los valores para los 12 meses son iguales y no se han reemplazado, el valor se imprimirá en la columna **Todos los 12 meses**.
 
@@ -201,14 +199,11 @@ Para exportar cualquiera de las listas a Microsoft Excel, siga estos pasos.
 
 Si tiene que informar sobre las personas cubiertas porque proporciona cobertura autoasegurada, puede ver los dependientes cubiertos por los planes de prestaciones marcados como **Se informa para Ley de Cuidado de salud asequible**. En el panel de acciones, seleccione **Ver cobertura de dependientes**.
 
-![Ver la cobertura de dependientes.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Ver la cobertura de dependientes](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Se muestra la información de cobertura para los dependientes del empleado.
 
-![Cobertura de dependientes.](./media/hr-benefits-management-aca-dependents.png)
+![Cobertura de dependientes](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > La página muestra solo los planes de prestaciones que están marcados como **Se informa para Ley de Cuidado de salud asequible**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

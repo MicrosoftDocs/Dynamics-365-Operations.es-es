@@ -1,28 +1,28 @@
 ---
 title: Visión general de los informes electrónicos (ER)
-description: Este tema proporciona una visión general de la herramienta de informes electrónicos (ER). Incluye información sobre conceptos clave, escenarios compatibles con ER y una lista con los formatos diseñados y publicados como parte de la solución.
+description: Este tema proporciona una visión general de la herramienta de informes electrónicos. Describe conceptos clave, escenarios compatibles y formatos que forman parte de la solución.
 author: NickSelin
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723174"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -37,6 +37,7 @@ El motor de ER está dirigido a usuarios empresariales en lugar de desarrollador
 ER admite actualmente los formatos de hoja de cálculo de texto, XML, documento Microsoft Word y OPENXML. Sin embargo, una interfaz de extensión proporciona compatibilidad con formatos adicionales.
 
 ## <a name="capabilities"></a>Capacidades
+
 El motor de ER tiene las siguientes capacidades:
 
 - Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico de Finance and Operations.
@@ -46,6 +47,7 @@ El motor de ER tiene las siguientes capacidades:
 - Admite la capacidad de distribuir formatos a los socios y los clientes a través de Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Conceptos clave
+
 ### <a name="components"></a>Componentes
 
 ER es compatible con dos tipos de componentes: **Modelo de datos** y **Formato**.
@@ -71,7 +73,6 @@ Una asignación de modelo que admite documentos electrónicos salientes tiene la
 - Puede utilizar distintos tipos de datos como orígenes de datos para un modelo de datos. Por ejemplo, puede utilizar tablas, entidades de datos, métodos o enumeraciones.
 - Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
 - Admite la transformación de los datos en los grupos necesarios. También permite, filtrar, clasificar y sumar datos y anexar campos lógicos calculados que están diseñados con las fórmulas que se asemejan las fórmulas de Microsoft Excel. Para obtener más información, consulte [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md).
-
 
 Una asignación de modelo que admite documentos electrónicos entrantes tiene las siguientes capacidades:
 
@@ -102,11 +103,12 @@ Un componente de formato le permite adjuntar archivos específicos que se pueden
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
-[![Flujo de datos para componentes de formato saliente](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Flujo de datos para componentes de formato saliente.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
 
 #### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componentes del formato para los documentos electrónicos entrantes
+
 Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
 
 - Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
@@ -115,7 +117,7 @@ Un componente de formato es el esquema del documento entrante que se importa en 
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
-[![Flujo de datos para componentes de formato entrante](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Flujo de datos para componentes de formato entrante.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para el tipo distinto de documentos de entrada.
 
@@ -183,11 +185,11 @@ Tenga en cuenta que este tipo de repositorio es accesible en los entornos siguie
 
 Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un repositorio **RCS** proporciona acceso a la lista de configuraciones de una instancia específica del [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
+Un repositorio **RCS** proporciona acceso a la lista de configuraciones de una instancia específica del [servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
 
 Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER) desde RCS](./rcs-download-configurations.md).
 
-Un **repositorio global** proporciona acceso a la lista de configuraciones del repositorio global en el [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. Desde el repositorio global, puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
+Un **repositorio global** proporciona acceso a la lista de configuraciones del repositorio global en el [servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. Desde el repositorio global, puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
 
 Para más información, consulte [Importar configuraciones de informes electrónicos (ER) del repositorio Global del servicio de configuración](./er-download-configurations-global-repo.md).
 
@@ -196,6 +198,7 @@ Un repositorio de **Recursos de Operations** proporciona acceso a la lista de co
 Los repositorios necesarios del **Proyecto LCS**, **Sistema de archivos** y **Servicios de configuración reglamentaria (RCS)** se pueden registrar de manera individual para cada proveedor de configuración de la instancia actual. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 
 ## <a name="supported-scenarios"></a>Escenarios admitidos
+
 ### <a name="building-a-data-model"></a>Creación de un modelo de datos
 
 ER proporciona un diseñador de modelo que puede usar para crear un modelo de datos para un dominio concreto de negocio. Todas las entidades específicas de empresa de dominio y las relaciones entre ellas se pueden presentar en un modelo de datos como una estructura jerárquica. 
@@ -216,6 +219,7 @@ ER proporciona un diseñador de asignación de modelos que permite a los usuario
 Para familiarizarse con los detalles de este escenario, reproduzca las guías de tareas **CE Definir asignación del modelo y seleccionar orígenes de datos** y **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso de negocio **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurar asignaciones del modelo de datos para los documentos de entrada
+
 ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para destinos específicos. Por ejemplo, los modelos de datos se pueden asignar para los componentes de datos que se puede actualizar (tablas, entidades de datos y vistas). En característica de la asignación, los datos se actualizarán en tiempo de ejecución con los datos del modelo de datos. Como almacenamiento abstracto del formato de ER, el modelo de datos se rellena con los datos que se importan de un documento electrónico entrante. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Almacenar un componente modelo diseñado como una configuración del modelo
@@ -234,25 +238,27 @@ Para familiarizarse con los detalles de este escenario, reproduzca la guía de t
 
 El diseñador de formato de ER se puede utilizar para generar un documento electrónico en formato de hoja de cálculo OPENXML. 
 
-Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **Crear una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**). Como parte del paso de la guía de la tarea para importar una plantilla, utilice [Plantilla de informe de pago (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) el archivo de Excel como plantilla.
+Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **Crear una configuración ER para generar informes en formato OPENXML** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**). Como parte del paso de la guía de la tarea para importar una plantilla, utilice [Plantilla de informe de pago (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) el archivo de Excel como plantilla.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Creación de una configuración para generar documentos electrónicos en formato documento de Word.
+
 El diseñador de formato de ER se puede utilizar para generar un documento electrónico en formato de documento de Word. En la siguiente ilustración se muestra un ejemplo de este tipo de formato. Tenga en cuenta que este formato reutiliza la configuración actual de ER que diseñó originalmente para generar la salida de informes en formato de OPENXML.
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas Diseñar una configuración ER para generar informes en formato de Microsoft WORD (parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)). Como parte del paso de la guía de tareas para importar una plantilla, use los archivos de Word siguientes como plantillas para el formato de ER:
 
-- [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Plantilla de informe de pago (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Plantilla enlazada de pago (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Generar una configuración para importar datos desde documentos electrónicos entrantes
+
 El diseñador del formato de ER se puede utilizar para describir un documento electrónico que se planifica para la importación de datos en formato XML o de texto. El formato diseñado se usa para analizar un documento de entrada. El diseñador de la asignación de formato de ER se puede utilizar para definir el enlazado de los elementos del formato diseñado para el modelo de datos. 
 
 Para familiarizarse con los detalles de este escenario, reproduzca la guía Crear configuraciones de ER requeridas para importar datos desde una guía de tareas de archivo externo (parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)). Use archivos siguientes para reproducir este manual:
 
-- [Configuración del modelo de datos de ER (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Configuración del formato de ER (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Ejemplo de documento de entrada en formato XML (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Ejemplo de libro para administrar datos del documento de entrada (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Configuración del modelo de datos de ER (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [Configuración del formato de ER (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [Ejemplo de documento de entrada en formato XML (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [Ejemplo de libro para administrar datos del documento de entrada (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Almacenar un componente diseñado del formato en una configuración del formato
 
@@ -265,6 +271,7 @@ La aplicación se puede configurar para empezar a usar un formato creado para ge
 Para familiarizarse bien con los detalles de este escenario, reproduzca la guía de tareas **ER Usar formato para generar documentos electrónicos para pagos** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ## <a name="handling-er-components"></a>Tratamiento de componentes de ER
+
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Publicación de un componente de ER en LCS para ofrecerlo externamente (localización)
 
 El propietario de un componente (modelo o formato) que se ha creado puede usar ER para publicar la versión completada del componente en LCS. Se requiere Un repositorio del tipo **Proyecto de LCS** para el proveedor actual de la configuración de ER. Cuando cambie el estado de la versión completada de un componente de **COMPLETADO** a **COMPARTIDO**, esa versión se publica en el LCS. Cuando haya publicado un componente a LCS, el propietario de ese componente pasa a ser un proveedor de servicio para admitir el componente. Por ejemplo, si el componente del formato está diseñado para generar un documento electrónico legalmente necesario (por ejemplo, de acuerdo con una situación de localización), se supone que el formato se mantendrá compatible con los cambios legislativos y que el proveedor emitirá nuevas versiones del componente siempre surjan nuevos requisitos legislativos. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Cargar una configuración en Lifecycle Services** (parte del proceso empresarial **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
@@ -281,89 +288,16 @@ ER le permite crear (deriva) un nuevo componente de la versión actual de un com
 
 ER le permite adoptar automáticamente los cambios de la última versión del componente de la base de la versión actual del borrador de componentes derivados. Este proceso se conoce como *reorganización*. Por ejemplo, un cambio normativo nuevo que se ha introducido en la última versión del formato que se importó desde LCS se puede combinar automáticamente en la versión personalizada de este formato del documento electrónico. Los cambios que no se pueden combinar automáticamente se consideran conflictos. Estos conflictos se presentan para la resolución manual de la herramienta del diseñador para el componente apropiado. Para familiarizarse con los detalles de este escenario, reproduzca la guía de tareas **ER Actualizar formato adoptando una nueva versión base del mismo** (parte del proceso empresarial **7.5.5.3 Adquirir/Desarrollar componente cambiado de solución/servicios de la TI (10683)**).
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>Lista de configuraciones ER que se entregan en la solución de la aplicación
+## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>Lista de configuraciones de ER que se han lanzado en Finance
 
-| Configuraciones del modelo de datos específicos de dominio: título | Dominio                | Configuraciones de formato dependientes del modelo de datos: título | Descripción                                                        |
-|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| Modelo de archivo de auditoría                                 | Auditoría financiera       |                                                   |                                                                    |
-|                                                  |                       | Archivo de auditoría (NL)                                   | Formato de archivo de auditoría para Países Bajos                                  |
-| Modelo BAS                                        | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | BAS (AU)                                          | Formato BAS para Australia                                           |
-| Modelo del esquema del sector de la construcción               | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | Devolución mensual CIS (Reino Unido)                           | Formato de devolución mensual CIS para el Reino Unido                   |
-| Modelo de la carta de cobro                          | Facturas electrónicas  |                                                   |                                                                    |
-|                                                  |                       | Carta de cobro OIOUBL (DK)                     | Formato de carta de cobro OIOUBL para Dinamarca                        |
-| Modelo electrónico de cuenta contable (MX)          | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | Libro mayor auxiliar XML (MX)                         | Formato de transacciones de contabilidad auxiliar por cuenta para México |
-|                                                  |                       | Plan de cuentas XML (MX)                         | Formato de informe de plan de cuentas para México                          |
-|                                                  |                       | Diarios XML (MX)                                 | Formato de informe de transacciones de diario para México                      |
-|                                                  |                       | Saldo de comprobación XML (MX)                            | Formato de informe de saldo de comprobación para México                             |
-| Modelo Elster                                     | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | Elster (DE)                                       | Formato de Elster para Alemania                                          |
-| Modelo de lista de ventas de la UE                              | Informes comerciales       |                                                   |                                                                    |
-|                                                  |                       | Lista de ventas de la UE (DE)                                | Formato TXT de lista de ventas de la UE para Alemania                               |
-|                                                  |                       | Lista de ventas de la UE (DK)                                | Formato TXT de lista de ventas de la UE para Dinamarca                               |
-|                                                  |                       | Lista de ventas de la UE (FR)                                | Formato XML de lista de ventas de la UE para Francia                                |
-|                                                  |                       | Lista de ventas de la UE (NL)                                | Formato XML de lista de ventas de la UE para Países Bajos                           |
-|                                                  |                       | TXT de lista de ventas de la UE (UK)                            | Formato TXT de lista de ventas de la UE para el Reino Unido                    |
-|                                                  |                       | XML de lista de ventas de la UE (UK)                            | Formato XML de lista de ventas de la UE para el Reino Unido                    |
-|                                                  |                       | Informe de lista de ventas de la UE por columnas                   | Informe de lista de ventas de la UE por columnas                                    |
-|                                                  |                       | Informe de lista de ventas de la UE por filas                      | Informe de lista de ventas de la UE por filas                                       |
-| Modelo de contabilidad FEC (FR)                        | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | XML de datos contables FEC (FR)                      | Formato XML de exportación de datos contables FEC para Francia                   |
-| Archivo de auditoría alemán                                | Auditoría financiera       |                                                   |                                                                    |
-|                                                  |                       | Salida de archivo de auditoría alemán                          | Salida de archivo de auditoría para Alemania y Austria                          |
-| Modelo intrastat                                  | Informes comerciales       |                                                   |                                                                    |
-|                                                  |                       | Intrastat (DE)                                    | Formato de intrastat para Alemania                                       |
-|                                                  |                       | Intrastat (DK)                                    | Formato de intrastat para Dinamarca                                       |
-|                                                  |                       | INTRACOM intrastat (FR)                           | Formato INTRACOM intrastat para Francia                               |
-|                                                  |                       | SAISUNIC intrastat (FR)                           | Formato SAISUNIC intrastat para Francia                               |
-|                                                  |                       | Intrastat (NL)                                    | Formato de intrastat para Países bajos                               |
-|                                                  |                       | Intrastat (UK)                                    | Formato de intrastat para el Reino Unido                            |
-|                                                  |                       | Informe intrastat                                  | Informe de control Excel de intrastat                                     |
-| Modelo de factura de cliente                           | Facturas electrónicas  |                                                   |                                                                    |
-|                                                  |                       | Nota de abono de proyecto OIOUBL (DK)                   | Formato de nota de abono de proyecto OIOUBL para Dinamarca                      |
-|                                                  |                       | Factura del proyecto OIOUBL (DK)                       | Formato de factura de proyecto OIOUBL para Dinamarca                          |
-|                                                  |                       | Nota de abono de ventas OIOUBL (DK)                     | Formato de nota de abono de ventas OIOUBL para Dinamarca                        |
-|                                                  |                       | Factura de ventas OIOUBL (DK)                         | Formato de factura de ventas OIOUBL para Dinamarca                            |
-| Modelo de declaración OB                             | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | Declaración OB (NL)                               | Formato de declaración OB para Países Bajos                          |
-| Modelo de pago                                    | Pagos              |                                                   |                                                                    |
-|                                                  |                       | Betalingsservice (DK)                             | Formato de pago de Betalingsservice para Dinamarca                        |
-|                                                  |                       | Envío de letra de cambio (FR)                  | Formato de envío de letra de cambio para Francia                      |
-|                                                  |                       | BTL91 (NL)                                        | Formato de pago de proveedor BTL91 para Países Bajos                    |
-|                                                  |                       | Prelevements CFONB (FR)                           | Formato de pago de adeudo directo CFONB para Francia                       |
-|                                                  |                       | Virements CFONB (FR)                              | Formato de pago de proveedor nacional CFONB para Francia                    |
-|                                                  |                       | Proveedor de Nordea (DK)                                | Formato de pago de proveedor de Nordea Corporate Netbank para Dinamarca         |
-|                                                  |                       | Servicio de crédito directo ANZ (AU)                    | Formato para el servicio de crédito directo ANZ para Australia                 |
-|                                                  |                       | Servicio de crédito directo CBA (AU)                    | Formato para el servicio de crédito directo CBA para Australia                 |
-|                                                  |                       | Servicio de crédito directo NAB (AU)                    | Formato para el servicio de crédito directo NAB para Australia                 |
-|                                                  |                       | Servicio de crédito directo STG (AU)                    | Formato para el servicio de crédito directo STG para Australia                 |
-|                                                  |                       | Sistema de entrada directa WBC (AU)                      | Formato para el sistema de entrada directa WBC para Australia                   |
-|                                                  |                       | DirectLink (NZ)                                   | Formato para DirectLink para Nueva Zelanda                              |
-|                                                  |                       | Archivo de pago JBA (JP)                             | Formato de pago JBA para Japón                                       |
-|                                                  |                       | Transferencia de crédito ISO20022                          | Formato de transferencia de crédito SEPA para Europa                             |
-|                                                  |                       | Transferencia de crédito ISO20022 (FR)                     | Formato de transferencia de crédito SEPA para Francia                             |
-|                                                  |                       | Transferencia de crédito ISO20022 (DE)                     | Formato de transferencia de crédito SEPA para Alemania                            |
-|                                                  |                       | Transferencia de crédito ISO20022 (NL)                     | Formato de transferencia de crédito SEPA para Países Bajos                    |
-|                                                  |                       | Domiciliación bancaria ISO20022                             | Formato de adeudo directo SEPA para Europa                                |
-|                                                  |                       | Domiciliación bancaria ISO20022 (FR)                        | Formato de adeudo directo SEPA para Francia                                |
-|                                                  |                       | Domiciliación bancaria ISO20022 (DE)                        | Formato de adeudo directo SEPA para Alemania                               |
-|                                                  |                       | Domiciliación bancaria ISO20022 (NL)                        | Formato de adeudo directo SEPA para Países Bajos                       |
-|                                                  |                       | BACS (UK)                                         | Formato de pago de proveedor BACS para el Reino Unido                  |
-| Gasto invertido                                   | Informe de impuestos         |                                                   |                                                                    |
-|                                                  |                       | Lista de ventas de gastos invertidos                         | Formato de lista de ventas de gastos invertidos                                   |
-| Modelo de integración XBRL neerlandés                     | Informes de XBRL        |                                                   |                                                                    |
-|                                                  |                       | XBRL Semansys (NL)                                | Formato de exportación XBRL Semansys para Países Bajos                    |
-| Modelo GAF (MY)                                   | Auditoría financiera       |                                                   |                                                                    |
-|                                                  |                       | Archivo GAF (MY)                                     | Formato de GAF para Malasia                                         |
-| Informe de vencimientos de proveedores (CN)                         | Análisis de datos de proveedores |                                                   |                                                                    |
-|                                                  |                       | Formato del informe de vencimiento de proveedores (CN)                   | Formato del informe de vencimiento de proveedores para China                               |
-| Modelo de declaración de factura de proveedor                 | Análisis de datos de proveedores |                                                   |                                                                    |
-|                                                  |                       | Declaración de factura de proveedor (IS)                   | Formato de declaración de factura de proveedor para Islandia                      |
-|                                                  |                       | Informe de declaración de facturas de proveedor (IS)            | Informe de declaración de factura de proveedor para Islandia                      |
+La lista de las configuraciones de informes electrónicos para Finance se actualiza constantemente. Abra el [Repositorio global](er-download-configurations-global-repo.md) para revisar la lista de configuraciones de informes electrónicos que son compatibles actualmente. En la ficha desplegable **Detalles de discontinuación** puede revisar la información sobre las configuraciones que se han discontinuado o que ya no se mantienen. 
+
+![Contenido del repositorio global en la página de configuración del repositorio.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md)
 - [Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d845179077fc2e04dfb3bd05eaa70b0a2a016121
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b05cc531a84144708ff52913927bbd04574a3b2
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067110"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059193"
 ---
 # <a name="recruiting-request-status"></a>Estado de solicitud de contratación
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

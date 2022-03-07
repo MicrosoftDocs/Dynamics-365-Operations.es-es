@@ -2,11 +2,9 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 6256765c41ff128b067cda9107c790691c5b376a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797499"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777994"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -87,7 +85,7 @@ Algunos de los cambios más habituales y más importantes que se pueden realizar
 
 Además, los tipos más básicos de personalización están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la *ventana de la propiedad* del elemento.
 
-![Personalización de las propiedades de un elemento](./media/cli-element-property-window.png)
+![Personalización de las propiedades de un elemento.](./media/cli-element-property-window.png)
 
 Puede usar la ventana de propiedad para personalizar un elemento de las siguientes formas:
 
@@ -100,7 +98,7 @@ Puede usar la ventana de propiedad para personalizar un elemento de las siguient
 
 La ventana de la propiedad puede incluir otras capacidades de personalización, en función del elemento. Por ejemplo, la ventana de propiedad de un icono puede permitirle ascender ese icono a un panel de información y ventanas de la propiedad para elementos del panel puede de información predeterminado pueden dejarle crear un nuevo espacio de trabajo.
 
-### <a name="the-personalization-toolbar"></a>La barra de herramientas de personalización
+### <a name="personalization-toolbar"></a>Barra de herramientas de personalización
 
 Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, siga uno de estos pasos:
 
@@ -109,7 +107,7 @@ Si desea implementar varios cambios en una página o hacer cambios que no están
 - En el panel Acciones de la página, seleccione **Personalizar esta página** en el grupo **Personalizar** en la ficha **Opciones**.
 - Seleccione el botón **Configuración** (el símbolo de engranaje) en la barra de navegación y, a continuación, seleccione **Personalizar**.
 
-[![Barra de herramientas de personalización](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra de herramientas de personalización.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegación por la página
 
@@ -121,7 +119,8 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 
 - Utilice la herramienta **Seleccionar** praa seleccionar y cambiar las propiedades de un elemento. Para utilizar esta herramienta, seleccione el botón **Seleccionar** en la barra de herramientas, y seleccione el artículo deseado. La ventana de la propiedad del elemento aparece, donde podrá modificar las propiedades de dicho elemento. Es posible repetir el proceso para otros elementos que se pueden personalizar en la página. Tenga en cuenta que algunas propiedades de personalización no pueden estar disponibles en algunos casos. Por ejemplo, no puede bloquear un campo que es necesario.
 - Use la herramienta **Ocultar** para ocultar un elemento de la página. Para utilizar esta herramienta, seleccione el botón **Ocultar** en la barra de herramientas, y seleccione el artículo que desea ocultar. Al usar la herramienta **Ocultar**, todos los elementos que se ocultan actualmente se hacen visibles pero se muestran en un contenedor sombreado. A continuación puede hacer que un elemento sea visible seleccionándolo. Para ver el aspecto de la página con los artículos ocultos, cambie a otra herramienta de personalización o cierre la barra de herramientas de personalización.
-- Use la herramienta **Agregar campos** para agregar campos en la página. Al usar esta herramienta, puede agregar solamente los campos que forman parte de la definición de la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Crear y trabajar con campos personalizados](user-defined-fields.md). Tras seleccionar el botón **Agregar campos** en la barra de herramientas, primero debe seleccionar la cuadrícula o la sección donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con la cuadrícula o sección que haya seleccionado. En el cuadro de diálogo, seleccione uno o varios campos para añadirlos y luego seleccione **Actualizar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
+- Use la herramienta **Agregar campos** para agregar campos en la página. Al usar esta herramienta, puede agregar solamente los campos que forman parte de la definición de la página. Para obtener información sobre cómo crear nuevos campos que no son parte de la definición de la página actual, consulte [Crear y trabajar con campos personalizados](user-defined-fields.md). Tras seleccionar el botón **Agregar campos** en la barra de herramientas, primero debe seleccionar la cuadrícula o la sección donde desee agregar un campo. Un cuadro de diálogo muestra la lista de campos relacionados con la cuadrícula o sección que haya seleccionado. En el cuadro de diálogo, seleccione uno o más campos para agregar desde las listas **Campos recomendados** o **Todos los campos**. Después de elegir los campos deseados, seleccione **Actualizar**. Para quitar un campo que ha agregado anteriormente, repita el proceso, pero desactive la selección del campo en el cuadro de diálogo.
+    - La lista **Campos recomendados** muestra los campos que otros usuarios de su organización han agregado anteriormente. Esta lista de campos se actualiza en función de la frecuencia de repetición del **Recomendación de trabajo por lotes**. Existe una experiencia similar al agregar nuevos campos de filtro usando el panel Filtro en una página.
 - Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. Tenga en cuenta que no puede mover un elemento fuera del grupo principal. Para utilizar esta herramienta, seleccione el botón **Mover** en la barra de herramientas, y seleccione el artículo que desea mover. Al seleccionar un elemento, la aplicación determina las ubicaciones adónde se puede mover el elemento. Estas ubicaciones se conocen como *zonas de colocación*. Mientras arrastra el elemento dentro del grupo actual, todas las zonas de colocación se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos del resumen seleccionando los campos.
@@ -149,7 +148,7 @@ Para algunas páginas que incluyan listas, la característica de personalizació
 > [!NOTE]
 > Si la característica [Vistas guardadas](saved-views.md) está activada, el contenido que se inserta en un espacio de trabajo se vincula directamente a una vista. La consulta de la vista se utiliza para recuperar datos en el espacio de trabajo, y el mosaico o el vínculo correspondiente en el espacio de trabajo abre la página de esa vista para aplicar la consulta y las personalizaciones a la vista. Si la vista se actualiza, los elementos del espacio de trabajo correspondientes se ajustarán a la nueva definición de vista.
 
-[![Agregar al espacio de trabajo](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Agregar al espacio de trabajo.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Para agregar una lista a un espacio de trabajo, primero debe clasificar o filtrar la lista de la página para que muestre la información tal y como desee que aparezca en el área de trabajo. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Lista**. Tras seleccionar **Configurar**, aparecerá un cuadro de diálogo, donde puede seleccionar las columnas que deben aparecer en la lista del área de trabajo. También puede especificar la etiqueta que se debe usar para la lista del espacio de trabajo.
 - Para agregar un mosaico a un espacio de trabajo, primero debe filtrar la lista de la página para que muestre los datos que debe resumir o a los que quiere tener acceso rápido. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Mosaico**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que se debe usar para el mosaico en el espacio de trabajo. También puede especificar si el mosaico debe mostrar un recuento. Una vez que el mosaico se agrega al espacio de trabajo, puede seleccionarlo para abrir la página actual del espacio de trabajo. Puede ver la lista filtrada que está asociada al mosaico.
@@ -171,11 +170,97 @@ El panel de información suele ser la primera página que verá al abrir la apli
 Una funcionalidad de personalización única que está disponible en el tablero es la capacidad de agregar iconos. 
 
 - Si la característica **Aplicaciones de página completa** está desactivada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, iconos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, iconos, listas y vínculos a los espacios de trabajo](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) de este tema.
-- Si la característica **Aplicaciones de página completa** está activada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar una aplicación**. En el cuadro de diálogo, seleccione si desea agregar un icono para un nuevo espacio de trabajo o un icono que tenga contenido de Power Apps o un sitio web. Luego, siga los pasos para configurar la opción que seleccionó. Se creará un nuevo icono en la parte inferior del panel de información. 
+- Si la característica **Aplicaciones de página completa** está activada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar una aplicación**. En el cuadro de diálogo, seleccione si desea agregar un icono para un nuevo espacio de trabajo o un icono que tenga contenido de Power Apps o un sitio web. Luego, siga los pasos para configurar la opción que seleccionó. Se creará un nuevo icono en la parte inferior del panel de información. Para obtener más información sobre cómo agregar, editar, eliminar y compartir estas aplicaciones integradas, consulte [Insertar aplicaciones de lienzo desde Power Apps](embed-power-apps.md) e [Insertar aplicaciones de terceros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Uso compartido de personalizaciones
 
-Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios exportando la página personalizada. Luego puede solicitar a otros usuarios que importen el archivo de personalización. Como alternativa, puede dar sus personalizaciones a un usuario que tenga privilegios de administración. Ese usuario puede aplicar su archivo de personalización a muchos usuarios al mismo tiempo, utilizando la página de administración **Personalización**.
+Tras personalizar una página, hay varios métodos que puede usar para compartir sus personalizaciones con otros usuarios. En la siguiente lista, los métodos están ordenados del más recomendado al menos recomendado.
+
+1. Publique vistas para los usuarios.
+2. Copie vistas o personalizaciones para los usuarios.
+3. Exporte e importe vistas o personalizaciones.
+
+### <a name="publish-views-to-users"></a>Publicar vistas para los usuarios
+
+Si la característica [Vistas guardadas](saved-views.md) está activada y la página admite vistas, la mejor manera de compartir personalizaciones con otros usuarios es publicar la vista para los usuarios que tienen uno o más roles de seguridad. Para obtener más información, consulte [Publicación de vistas](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Copiar vistas o personalizaciones para los usuarios
+
+Si la característica [Vistas guardadas](saved-views.md) está desactivada o, si la página no admite vistas, la forma recomendada de compartir personalizaciones es copiarlas entre usuarios. Este método está disponible solo para usuarios privilegiados (por ejemplo, administradores del sistema). Sin embargo, los administradores pueden buscar la personalización de un usuario específico en el sistema (incluida la vista personal del usuario si las vistas guardadas están habilitadas) y copiar la configuración a otros usuarios.
+
+Si las vistas guardadas están habilitadas, siga estos pasos para copiar personalizaciones.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Siga estos pasos para copiar vistas personales:
+
+    1. Seleccione **Puntos de vista personales**.
+    2. Seleccione las vistas deseadas en la lista.
+    3. Seleccione **Copiar a los usuarios**.
+    4. Seleccione los usuarios a los que distribuir las vistas.
+
+    Siga estos pasos para copiar personalizaciones en páginas que no admiten vistas:
+
+    1. Seleccione **configuración de usuario**.
+    2. Seleccione el usuario que tiene la personalización que desea distribuir.
+    3. Seleccione **Gestionar todas las personalizaciones**.
+    4. Seleccione las personalizaciones deseadas en la lista.
+    5. Seleccione **Copiar a los usuarios**.
+    6. Seleccione los usuarios a los que distribuir las personalizaciones.
+
+Si las vistas guardadas no están habilitadas, siga estos pasos para copiar una personalización.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Seleccionar **Aplicar**.
+3. Seleccione los usuarios a los que distribuir la personalización.
+4. Seleccione **Seleccionar personalización existente**.
+5. Busque y seleccione la personalización (única) que le interesa.
+6. Seleccione **Aceptar**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar vistas o personalizaciones
+
+Otra forma de compartir personalizaciones es mediante la exportación y la importación. Los usuarios individuales, o un administrador que actúe en su nombre, pueden utilizar este método para exportar sus personalizaciones o vistas, y luego entregar el archivo exportado a otros usuarios para que lo importen. Alternativamente, los usuarios pueden dar sus personalizaciones exportadas a un usuario que tiene privilegios de administrador, y ese usuario puede usar la página de administración **Personalización** para aplicar el archivo de personalización a muchos usuarios al mismo tiempo.
+
+> [!IMPORTANT]
+> Dado que las personalizaciones persisten en las actualizaciones, volver a importar todas las personalizaciones después de una actualización del servicio o en cualquier otro momento es innecesario y muy desaconsejado.   
+
+#### <a name="export"></a>Exportar
+
+En general, puede exportar una de sus propias vistas o personalizaciones abriendo la página correspondiente, abriendo la barra de herramientas **Personalización** y luego seleccionando **Exportar**. Para obtener más información sobre la barra de herramientas, consulte la sección [Barra de herramientas de personalización](#personalization-toolbar) anteriormente en este tema. Alternativamente, si están habilitadas las [vistas guardadas](saved-views.md), puede ir a **Configuración \> Opciones de usuario \> Personalización** para ver una lista de todas sus personalizaciones en el sistema. Desde allí, puede seleccionar las vistas o personalizaciones para exportar y luego seleccionar **Exportar**.
+
+Además, los administradores pueden exportar las personalizaciones de otros usuarios siguiendo estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. En la pestaña **Usuarios**, seleccione el usuario deseado.
+3. Busque y seleccione la vista o personalización que le interesa.
+4. Seleccione **Exportar**.
+
+#### <a name="import"></a>Importar
+
+Para importar una vista o personalización, simplemente puede abrir la barra de herramientas **Personalización** y seleccionar **Importar**. Además, los administradores pueden importar un archivo y entregárselo inmediatamente a uno o más usuarios.
+
+Si las vistas guardadas están habilitadas, siga estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. En el panel de acciones, seleccione **Importar vistas \> Vistas de usuarios**.
+3. Seleccione el modo de importar:
+
+    - **Seleccionar usuarios específicos**: facilite la vista o la personalización a los usuarios seleccionados.
+    - **Importar como está**: importe la vista o personalización al mismo usuario que la exportó.
+
+4. Seleccione **Exploraar** y, a continuación, seleccione la personalización a importar.
+5. Seleccione **Siguiente**.
+6. Si seleccionó **Seleccionar usuarios específicos** en el paso 3, seleccione los usuarios a los que desea importar la personalización.
+7. Seleccione **Importar**.
+8. Resuelva los conflictos según sea necesario.
+
+Si las vistas guardadas no están habilitadas, siga estos pasos.
+
+1. Vaya a **Administración del sistema \> Configuración \> Personalización**.
+2. Seleccionar **Aplicar**.
+3. Seleccione los usuarios a los que distribuir la personalización.
+4. Seleccione **Importar personalizaciones de un archivo**.
+5. Seleccione **Exploraar** y, a continuación, seleccione la personalización a importar.
+6. Seleccione **Aceptar**.
 
 ## <a name="administration-of-personalizations"></a>Administración de personalizaciones
 
@@ -186,8 +271,11 @@ Para clientes que han activado la característica **Vistas guardadas**, consulte
 Para los clientes que no hayan activado aún la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro fichas:
 
 - **Aplicar**: puede importar o seleccionar una personalización para uno o varios usuarios. Para aplicar una personalización a uno o varios usuarios, seleccione primero un rol y a los usuarios con dicho rol. A continuación seleccione una personalización para aplicarla a los usuarios seleccionados o importe un archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionados la próxima vez que abran la página seleccionada.
+
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
+
 - **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
+
 - **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalización de dimensiones de inventario
@@ -195,3 +283,6 @@ Para los clientes que no hayan activado aún la característica [Vistas guardada
 Al personalizar la configuración de dimensiones de inventario en una página, tenga en cuenta los valores que se han creado usando la opción **Dimensión de visualización**. Por ejemplo, puede usar la personalización para ocultar una columna de la dimensión de inventario del número de lote, pero la columna aparecerá la próxima vez que la página esté abierta. Este comportamiento se produce porque la configuración de **Visualización de dimensiones** controla las columnas de la dimensión de inventario que se muestran. Los ajustes de **visualización de dimensiones** se aplican a todas las páginas y estos valores anulan cualquier configuración personalizada de campos de dimensión de inventario en las páginas individuales.
 
 En consecuencia, en el ejemplo anterior, si no desea que la columna de la dimensión de inventario de número de lote aparezca en una página, debe borrar dicha dimensión como parte de la opción **Dimensiones de la pantalla** para esa página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

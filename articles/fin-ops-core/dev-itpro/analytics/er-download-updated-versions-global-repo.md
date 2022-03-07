@@ -2,11 +2,9 @@
 title: Importar versiones actualizadas de configuraciones ER
 description: Este tema explica cómo importar versiones actualizadas de informes electrónicos (ER) desde el repositorio global del servicio de configuración.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 897663998c6c95ff6d7172de2abc4d4dd6ec5f12
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679519"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753369"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importar versiones actualizadas de configuraciones ER
 
@@ -98,3 +96,6 @@ Este tema explica cómo importar versiones actualizadas de ER desde el repositor
 
 - [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Descargue las configuraciones de ER del repositorio global del servicio de configuración](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

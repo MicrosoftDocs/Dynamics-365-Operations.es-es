@@ -2,28 +2,27 @@
 title: Desarrollar una estructura de compensaciones
 description: Este artículo le guía por el proceso de crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732378"
 ---
 # <a name="develop-a-compensation-structure"></a>Desarrollar una estructura de compensaciones
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artículo le guía por el proceso de crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad. Este artículo utiliza los datos de demostración de USMF y se aplica a los Gerentes de Compensación y Beneficios.
 
@@ -113,3 +112,6 @@ El nuevo plan de compensación fija no se puede asignar a un empleado hasta que 
 
 8. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

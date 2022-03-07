@@ -3,7 +3,7 @@ title: Descripción general del módulo de gestión de devoluciones
 description: Este tema proporciona una visión general del módulo de Gestión de devoluciones para Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985516"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020468"
 ---
 # <a name="rebate-management-module-overview"></a>Descripción general del módulo de gestión de devoluciones
 
@@ -70,7 +70,7 @@ Las devoluciones se pueden configurar en función de muchos parámetros diferent
 
 Los resultados del cálculo de la devolución también se pueden reducir mediante otras devoluciones, dependiendo de si la devolución está configurada para calcular en función del importe neto.
 
-En el lado del proveedor, las devoluciones basadsa en los pedidos de ventas pueden calcular el precio según una regla de primero en entrar, primero en salir (FIFO), el último precio de compra, el precio de compra promedio o el precio de venta.
+En el lado del proveedor, las devoluciones pueden calcular el precio según una regla de primero en entrar, primero en salir (FIFO), el último precio de compra, el precio de compra promedio o el precio de venta.
 
 ## <a name="rebate-target-transactions"></a>Transacciones de devolución de destino
 
@@ -84,15 +84,15 @@ Las salidas de artículos crean un pedido de venta de artículos gratuitos para 
 
 La combinación de las transacciones asociadas, la frecuencia de los cálculos, la base de cálculo y el método de cálculo que se selecciona determina la exactitud y precisión de los cálculos de devolución. Las provisiones de devoluciones se pueden utilizar para acumular valores contabilizados y reclamados.
 
-Las provisiones se pueden administrar diariamente, semanalmente, mensualmente o según un período personalizado. Sin embargo, la funcionalidad puede asignar o pagar el descuento, o recibir el pago del mismo, en cualquier frecuencia definida que tenga la misma duración o más que la frecuencia de provisión. La cancelación utiliza la misma frecuencia que la devolución. Los usuarios pueden ajustar fácilmente un plan o montos de pago en cualquier momento durante el pago.
+Las provisiones se pueden gestionar diaria o mensualmente. Sin embargo, la funcionalidad puede asignar o pagar la devolución, o recibir el pago, en cualquier frecuencia definida. Los usuarios pueden ajustar fácilmente un plan o montos de pago en cualquier momento durante el pago.
 
-Los usuarios ya no tienen que gestionar acuerdos o provisiones en dos pasos. Las provisiones y cancelaciones se contabilizan directamente en el libro mayor. Además, las notas de crédito se pueden crear automáticamente. Por lo tanto, existe una integración completa con proveedores y clientes. Durante el procesamiento, los cálculos pueden considerar los descuentos de liquidación, las facturas pagadas, los descuentos comerciales y las notas de crédito existentes para garantizar que las cantidades y los valores se calculen con precisión.
+Los usuarios ya no tienen que gestionar acuerdos o provisiones en dos pasos. Las provisiones y cancelaciones se contabilizan directamente en el libro mayor. Además, las notas de crédito se pueden crear automáticamente. Por lo tanto, existe una integración completa con proveedores y clientes. Durante el procesamiento, los cálculos consideran los descuentos de liquidación, las facturas pagadas, los descuentos comerciales y las notas de crédito existentes para garantizar que las cantidades y los valores se calculen con precisión.
 
-Cuando se calculan las devoluciones, el proceso crea transacciones que se pueden revisar antes de que se produzca la contabilización. Un proceso separado contabiliza las transacciones de adminstración de devoluciones. Luego, se puede crear una transacción de diario, nota de crédito o débito durante la contabilización en las transacciones propuestas. Se pueden obtener declaraciones de informes y listados de transacciones para garantizar el cumplimiento, la eficacia y la transparencia.
+Cuando se calculan las devoluciones, el proceso crea transacciones que se pueden revisar antes de que se produzca la contabilización. A continuación, se puede crear una transacción de diario, nota de crédito o débito. Un proceso separado contabiliza las transacciones de devolución y deducción. Se pueden obtener declaraciones de informes y listados de transacciones para garantizar el cumplimiento, la eficacia y la transparencia.
 
 ## <a name="guaranteed-royalty-payments"></a>Pagos de regalías garantizados
 
-En la gestión de devoluciones, la generación automática de pagos permite gestionar las regalías de forma rápida y sencilla, incluso cuando se aplican los mínimos garantizados.
+En la gestión de devoluciones, la generación automática de pagos permite gestionar las regalías de forma rápida y sencilla, incluso cuando se aplican los mínimos garantizados. 
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maximizar el gasto frente a las devoluciones
 

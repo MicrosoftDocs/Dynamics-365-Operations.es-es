@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0ed76d22ab6b917c931220f3ba462f4f14cae207
+ms.sourcegitcommit: bd684c9eb6de718573e6be5479e1832fe614d919
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064931"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373070"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Autenticación de servidor a servidor para la API de integración ATS
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -1,10 +1,12 @@
 ---
-title: Preguntas frecuentes sobre las actividades de fin de ejercicio
-description: Este tema enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio.
-author: moaamer
-ms.date: 12/21/2021
+title: Preguntas frecuentes sobre las actividades de fin de año
+description: Este tema se ha resumido para ayudar con las actividades de cierre de fin de año.
+author: kweekley
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,35 +15,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: a9feafcab5969e9ec8fcbb8a6903d7b59505f6ae
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249420"
 ---
-# <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de ejercicio 
+# <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de año 
 
-[!include [banner](../includes/banner.md)]
+Este tema se ha resumido para ayudar con las actividades de cierre de fin de año. La información de este tema se centra principalmente en dudas sobre actividades de cierre de fin de año para Contabilidad general y Proveedores.
 
-Este tema enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio. La información de este tema se centra principalmente en dudas sobre actividades de cierre de fin de ejercicio para contabilidad general y Proveedores.
-
-## <a name="general-ledger-year-end-enhancements"></a>Mejoras de fin de año de contabilidad general 
-La versión 10.0.20 introdujo una mejora de cierre de fin de ejercicio, que está habilitada de forma predeterminada a partir de la versión 10.0.25. Si su organización utiliza una versión anterior a la 10.0.25, le recomendamos habilitar esta característica antes de comenzar el proceso de cierre de fin de ejercicio. Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo Administración de características para comprobar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
- - Módulo: Contabilidad general
- - Nombre de la característica: mejoras de fin de año de contabilidad general
-
-La configuración de las plantillas de cierre de fin de año se ha pasado a una nueva página de configuración, **Configuración de plantilla de cierre de fin de ejercicio**. La página de cierre de fin de ejercicio actual cambiará de manera similar a la revalorización de divisa extranjera de contabilidad general, donde se muestra una lista cada vez que se ejecuta o revierte el cierre de fin de ejercicio. Un gerente de contabilidad puede iniciar el cierre de fin de ejercicio desde la nueva página. 
-
-Para revertir el cierre de fin de ejercicio, seleccione el año fiscal más reciente para la entidad legal apropiada y elija el botón **Revertir cierre de fin de ejercicio**. La reversión eliminará los asientos contables del cierre de fin de ejercicio anterior y no volverá a ejecutar el cierre de fin de ejercicio automáticamente. 
-
-Puede volver a ejecutar el cierre de fin de ejercicio reiniciando el proceso para el ejercicio y la entidad jurídica. El proceso continuará usando la configuración del parámetro Contabilidad laboral para determinar si la repetición del cierre de fin de ejercicio tendrá en cuenta solo las transacciones nuevas o modificadas, o revertirá completamente el cierre anterior, volviendo a ejecutar el proceso para todas las transacciones.  
-
-## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Contabilidad general: ¿Cómo puedo saber que estamos llevando a cabo el cierre de fin de ejercicio y no deshaciendo el cierre de fin de ejercicio?
+## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Contabilidad general: ¿cómo puedo saber que estamos llevando a cabo el cierre de fin de año y no deshaciendo el cierre de fin de año?
 Hemos visto organizaciones que intentas llevar a cabo el cierre de fin de año, pero, en su lugar, estaban deshaciéndolo. Si el cierre de fin de año está acabando muy rápido o no produce saldos de apertura, valide el ajuste **Deshacer cierre anterior** en **Cierre de fin de año** (**Contabilidad general > Cierre de período > Cierre de fin de año > Ejecutar cierre fiscal**). 
 
-[![Ejecutar el cierre de fin de año frente a deshacer el cierre de fin de año.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Ejecutar el cierre de fin de año frente a deshacer el cierre de fin de año](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Si la selección **Deshacer cierre anterior** se ha establecido en **Sí**, se estará deshaciendo el cierre de año anterior. Al deshacer, se eliminarán todos los saldos de cierre y apertura, como si nunca se hubiera ejecutado el cierre de fin de año. Los asientos se eliminan. El cierre de fin de año no se volverá a ejecutar de forma automática. Debe iniciar el proceso de nuevo, pero esta vez cambie **Deshacer cierre anterior** a **No**. 
 
@@ -51,11 +39,11 @@ Si la selección **Deshacer cierre anterior** se ha establecido en **Sí**, se e
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Contabilidad general: ¿cuál es la diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año?
 Puede haber confusión sobre la diferencia entre el parámetro **Deshacer cierre anterior**, que se encuentra en el cuadro de diálogo **Cierre de fin de año**, y el parámetro **Eliminar el asiento de cierre y apertura y generar uno nuevo** en Contabilidad general (**Contabilidad general > Cierre de período > Cierre de fin de año > Ejecutar cierre fiscal**).  
 
-[![Diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Diferencia entre los parámetros de Contabilidad general Deshacer y Eliminar con respecto al cierre de fin de año](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
-Seleccione **Deshacer cierre anterior** en el menú de diálogo desplegable al ejecutar el proceso de cierre de fin de año para eliminar todos los movimientos de saldo de cierre y de apertura, como si el cierre de fin de año nunca se hubiera ejecutado. Los asientos se eliminarán. El cierre de fin de año no se volverá a ejecutar de forma automática. Para ejecutar el cierre de fin de año, debe iniciar este proceso nuevamente, pero esta vez cambie **Deshacer cierre anterior** a **No** (**Contabilidad general > Configuración de contabilidad general > Parámetros de contabilidad general**). 
+Seleccione **Deshacer cierre anterior** en el menú de diálogo desplegable al ejecutar el proceso de cierre de fin de año para eliminar todos los saldos de cierre y de apertura, como si el cierre de fin de año nunca se hubiera ejecutado. Los asientos se eliminarán. El cierre de fin de año no se volverá a ejecutar de forma automática. Para ejecutar el cierre de fin de año, debe iniciar este proceso nuevamente, pero esta vez cambie **Deshacer cierre anterior** a **No** (**Contabilidad general > Configuración de contabilidad general > Parámetros de contabilidad general**). 
 
-[![Configuración de los parámetros de contabilidad general.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Configuración de los parámetros de contabilidad general](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 El parámetro **Eliminar el asiento de cierre y apertura y generar uno nuevo** en Contabilidad general se usa solo cuando se ejecuta (no al deshacer) el cierre de fin de año (la selección **Deshacer cierre anterior** está establecida en **No**). Si ese parámetro se establece en **Sí**, todas las entradas de saldo de cierre y de apertura se eliminarán y el cierre de fin de año se ejecutará de nuevo. Este proceso se utiliza cuando la organización desea que todas las transacciones, incluidos los ajustes desde el último cierre de año, se registren en una sola entrada contable para las entradas de saldo de cierre y de apertura. 
 
@@ -72,109 +60,80 @@ Al ejecutar el cierre de fin de año, se vuelve a crear el saldo de cada conjunt
 
 Los conjuntos de dimensiones innecesarios también afectan al trabajo por lotes **BudgetDimensionFocusInitializeBalance** (**Contabilidad general > Plan de cuentas > Dimensiones > Conjuntos de dimensiones financieras**).
 
-[![Conjuntos de dimensiones financieras.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Conjuntos de dimensiones financieras](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuración de la plantilla del cierre de fin de año
 La plantilla del cierre de fin de año permite a las organizaciones seleccionar el nivel de la dimensión financiera que deben mantener a la hora de transferir los saldos de pérdidas y ganancias a las ganancias retenidas. La configuración permite que una organización mantenga las dimensiones financieras detalladas (**Cerrar todo**) al mover los saldos a ganancias retenidas o elegir resumir los importes en un valor de dimensión única (**Cerrar uno**). Esto se puede definir para cada dimensión financiera. Para obtener más información sobre estas configuraciones, consulte el tema [Cierre de fin de año](year-end-close.md).
 
 Le recomendamos que evalúe los requisitos de su organización y, si es posible, cierre tantas dimensiones como sea posible mediante la opción de fin de año **Cerrar uno** para mejorar el rendimiento. Al cerrar a un valor de dimensión única (que también puede ser un valor en blanco), el sistema calcula menos detalles a la hora de determinar los saldos para los asientos contables de ganancias retenidas.
 
-## <a name="degenerate-dimensions"></a>Dimensiones degeneradas
-
-Una dimensión degenerada proporciona poca o ninguna reutilización por sí misma ni en combinación con otras dimensiones. Existen dos tipos de dimensiones degeneradas. El primer tipo es una dimensión que es degenerada de forma individual. Por lo general, este tipo de dimensión degenerada aparecerá únicamente en una sola transacción o en pequeños conjuntos de transacciones. El segundo tipo es una dimensión que se pasa a ser degenerada en combinación con una o más dimensiones adicionales que exhiben el mismo potencial, según las posibles permutaciones que pueden generarse. Una dimensión degenerada puede tener un impacto significativo en el rendimiento del proceso de cierre de fin de año. Para minimizar los problemas de rendimiento, defina todas las dimensiones degeneradas como **Cierre único** en la configuración de cierre de fin de ejercicio, como se describe en la sección anterior.
-
-## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Contabilidad general: ¿Qué hacen el cierre de período y el cierre de fin de ejercicio?
+### <a name="10013-update-or-later"></a>Actualización 10.0.13 o posterior
+Si ha actualizado a la versión 10.0.13 o posterior desde la última vez que su organización ejecutó un cierre de fin de año, este proceso podría tardar más debido a la [implementación de la función HashV2](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2). (El término *hash* se refiere a un campo que se calcula a partir de otros campos de cadena. La API para calcular el valor hash GUID se actualizó para mejorar la seguridad). Para acelerar el proceso de cierre de fin de año, recomendamos volver a crear los saldos de los conjuntos de dimensiones antes de ejecutar el cierre de fin de año. Si ya ha vuelto a crear los saldos del conjunto de dimensiones después de actualizar a la versión 10.0.13, no es necesario volver a crearlos.
+ 
+## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Contabilidad general: ¿qué hace el Cierre de período: cierre de fin de año?
  
-[![Cierre de período, cierre de fin de ejercicio.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Cierre de período, cierre de fin de año](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras
-Una nueva característica agregada en la versión 10.0.16 mejora el rendimiento de los procesos de cierre y consolidación de fin de ejercicio. La característica se llama: Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras. Esta función cambia la forma en que se reconstruyen los conjuntos de dimensiones para que se vuelvan a crear solo durante un plazo de tiempo relevante. En las versiones anteriores, los conjuntos de dimensiones se volvían a crear para todas las fechas. Por ejemplo, si está cerrando el año 2020, el sistema solo volverá a crear los saldos de las transacciones dentro del ejercicio de 2020. Si está ejecutando la consolidación para un intervalo de fechas del 1 de noviembre de 2020 al 30 de noviembre de 2020, el sistema solo volverá a crear los saldos para dicho intervalo.
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras (nueva característica)
+Una nueva característica agregada en la versión 10.0.16 mejora el rendimiento de los procesos de cierre y consolidación de fin de año. La característica se llama: Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras. Esta función cambia la forma en que se reconstruyen los conjuntos de dimensiones para que se vuelvan a crear solo durante un plazo de tiempo relevante. En las versiones anteriores, los conjuntos de dimensiones se volvían a crear para todas las fechas. Por ejemplo, si está cerrando el año 2020, el sistema solo volverá a crear los saldos de las transacciones dentro del ejercicio de 2020. Si está ejecutando la consolidación para un rango de fechas del 1 de noviembre de 2020 al 30 de noviembre de 2020, el sistema solo volverá a crear los saldos para ese tramo.
 
-Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo Administración de características para comprobar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Esta función se considera un cambio importante y deberá habilitarla mediante el espacio de trabajo **Administración de características**.
  
-- Módulo: Contabilidad general
-- Nombre de la característica: Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras
+[![Cierre de fin de año](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Proveedores: ¿Qué cambios se han realizado para respaldar el informe de fin de ejercicio 1099 para 2021?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Proveedores: ¿qué cambios se han realizado para respaldar la declaración de informe 1099 de fin de año para 2020?
 
-En 2021, los formularios DIV, NEC y MISC se modificaron ligeramente y se agregaron algunas casillas adicionales.
+Se han agregado dos nuevas características regulatorias para los cambios de fin de año de informe 1099 en 2020. La primera característica, **Aplicar cambios a los formularios 1099-NEC y 1099-MISC para 2020**, se lanzó a mediados de año como característica obligatoria. Su objetivo es garantizar que se pueda hacer un seguimiento de los datos transaccionales de informe 1099 para el año 2020 para el nuevo formulario 1099-NEC. Esta característica agregó los campos de IRPF que se necesitan para que el nuevo 1099-NEC sea compatible y actualizó los campos de 1099-MISC. Esta actualización también mejoró los datos del registro del proveedor para la información de la casilla 1099. 
 
-#### <a name="div-new-box2e-2f"></a>DIV: nuevas casillas 2e, 2f
- 
-- Casilla 2e. Muestra la parte del importe de la casilla 1a que es la ganancia de la sección 897 atribuible a la disposición de intereses de bienes raíces de EE. UU. (USRPI).  
-- Casilla 2f. Muestra la parte del importe de la casilla 2a que es la ganancia de la sección 897 atribuible a la disposición de USRPI. Tenga en cuenta que las casillas 2e y 2f se aplican solo a las personas y entidades extranjeras cuyos ingresos mantienen su carácter cuando se transfieren o distribuyen a sus propietarios o beneficiarios extranjeros directos o indirectos. Por lo general, se trata como si estuviera efectivamente conectado a un comercio o negocio de dentro de Estados Unidos. Consulte las instrucciones para su declaración de impuestos. 
- 
-#### <a name="nec-new-box-2"></a>NEC: nueva casilla 2 
- 
-Si se marca la casilla 2, informe de los productos de consumo por un total de 5000 $ o más que se le vendieron para reventa, en una compraventa, en depósito o comisión u otra base. En general, declare cualquier ingreso de su venta de estos productos en el Anexo C (Formulario 1040). 
- 
-Mientras tanto, se cambia el tamaño del formulario de NEC. Durante la impresión, existen tres formularios por página. 
- 
-#### <a name="misc-new-box-11"></a>MISC: nueva casilla 11 
- 
-La casilla 11 muestra el importe pagado por la compra de pescado para reventa de cualquier persona dedicada al comercio o negocio de la captura de pescado. Consulte las instrucciones de su declaración de impuestos para declarar este ingreso. 
- 
-#### <a name="electronic-filing"></a>Tramitación electrónica 
-Para obtener información sobre la tramitación electrónica, consulte [Publicación de los requisitos de presentación electrónica](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+La segunda característica regulatoria, **Impuesto 1099 actualizado para la ley tributaria de 2020**, contiene los siguientes cambios.
 
-Actualizar las especificaciones de formato y los diseños de registro para el informe electrónico de 2021 
-- Sec. 2 Registro de emisor “A”. 
-- Códigos de importe: posición de campo aumentada 28-45, longitud a 18. 
- 
-#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Sec. 2 Registro de emisor “A”, para declarar pagos en el formulario 1099-DIV: 
-- Tipo de importe: se agregó la Sección 897 de dividendos ordinarios y se agregó el código de importe H. 
-- Tipo de importe: se agregó la Sección 897 de ganancias de capital y se agregó el código de importe J. 
- 
-#### <a name="sec-3-payee-b-record"></a>Sec. 3 Registro de beneficiario “B” 
-- Registros de información general: se actualizó la tercera viñeta de los campos 16 a 18 de importe de pago. 
-- Campo de título del pago H: se actualizó la posición del campo 247-258, el título del campo, la longitud y la descripción general del campo. 
-- Campo de título del pago J: se actualizó la posición del campo 259-270, el título del campo, la longitud y la descripción general del campo. 
-- Campo en blanco actualizado a la posición de campo 271-286. 
-- Indicador de país extranjero actualizado a la posición de campo 287. 
-- Se actualizó el campo Línea de nombre del primer beneficiario a la posición de campo 288-327. 
-- Se actualizó el campo Línea de nombre del segundo beneficiario a la posición de campo 328-367. 
-- Posiciones de diseño de registro, formulario 1099-MISC: se eliminó la posición de campo 548 y el indicador de requisito de presentación FATCA del título del campo. 
-- Posiciones de diseño de registros, formulario 1099-NEC: 545-546 actualizado a en blanco, campo 547 actualizado a Indicador de ventas directas, Longitud y descripción, y campo Comentarios 548-722 actualizado a en blanco. 
- 
-#### <a name="sec-4-end-of-issuer-c-record"></a>Sec. 4 Fin del registro “C” del Emisor 
-- Campo de título del pago H: se actualizó la posición del campo 304-321, el título del campo, la longitud y la descripción general del campo. 
-- Campo de título del pago J: se actualizó la posición del campo 322-339, el título del campo, la longitud y la descripción general del campo. 
-- Título del campo 340-499: longitud actualizada a 160. 
- 
-#### <a name="sec-5-state-totals-k-record"></a>Sec. 5 Registro “K” de totales de 5 estados 
-- Campo de título del pago H: se actualizó la posición del campo 304-321, el título del campo, la longitud y la descripción general del campo. 
-- Campo de título del pago J: se actualizó la posición del campo 322-339, el título del campo, la longitud y la descripción general del campo. 
-- Título del campo 340-499: longitud actualizada a 160.  
+- 1099-OID: la Agencia tributaria ha transformado el formulario para su uso continuo.
+   - El tercer y cuarto dígito del año de notificación se deben completar cuando se imprime. Use el tercer y cuarto dígito del campo **Año de notificación** de **Opciones de impresión de IRPF**. 
 
-## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Proveedores: 1099, ¿Cómo cambio la casilla 1099 y los valores de un proveedor que no estaba haciendo un seguimiento de la información relacionada con el 1099 durante todo el año?
-Utilice la función de Actualizar 1099 (**Proveedores > Proveedores > Todos los proveedores > Seleccionar un proveedor > pestaña Proveedor en la cinta de opciones > Actualizar 1099**) para pasar por transacciones de facturas pagadas previamente para reasignar los datos relacionados con 1099 de manera adecuada de acuerdo con la configuración en la pestaña **1099** en la página **Proveedor**.
+- 1099-NEC: un nuevo formulario para 2020. Esto registra la compensación de los no empleados. 
 
-## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>¿Puedo ejecutar Actualizar 1099 para todos mis proveedores a la vez?
-No. La rutina de Actualizar 1099 se lleva a cabo en un solo proveedor al mismo tiempo. Si su organización necesita este requisito, vote por la idea llamada [Proceso por lotes para la actualización de los datos del 1099 del proveedor](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
+-   1099-MISC: debido a la creación del formulario 1099-NEC, la Agencia tributaria ha revisado el formulario 1099-MISC y ha reorganizado los números de casilla para notificar ciertos ingresos.
+Los cambios en la declaración de ingresos y los números de casilla del formulario se enumeran a continuación.
+   - El contribuyente realizó ventas directas de 5000 $ o más (marque la casilla) en la casilla 7.
+   - En la casilla 9 se notifican los ingresos obtenidos por los seguros agrícolas.
+   - Los ingresos brutos a un abogado se notifican en la casilla 10.
+   - Los aplazamientos de la sección 409A se notifican en la casilla 12.
+   - Los ingresos por compensación diferida no habilitada se notifican en la casilla 14.
+   - Las casillas 15, 16 y 17 sirven para notificar sobre los impuestos estatales retenidos, el número de identificación estatal y el importe de ingresos obtenidos en el estado, respectivamente.
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Proveedores: 1099, volver a calcular los importes existentes de la declaración de 1099 frente a Actualizar todo en la función Actualizar 1099.
-La casilla **Volver a calcular los importes existentes de la declaración 1099** restablecerá el importe de la declaración 1099 a los valores pagados totales cuando se use junto a la casilla **Actualizar todo**. 
+- 1099-DIV o 1099-INT no han sufrido cambios en 2020.
 
-[![Transacciones del 1099: antes de ejecutar la rutina de actualización.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+- Tramitación electrónica: el formato ha cambiado para adaptarse al nuevo formulario NEC y los cambios a la casilla MISC descritos anteriormente. Para obtener información específica sobre los requisitos de tramitación electrónica, consulte [Publicación de la agencia tributaria 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
 
-La casilla **Volver a calcular los importes existentes de la declaración de 1099** solo es útil cuando hay valores parciales en la declaración 1099 en la factura o si se ha modificado en el formulario de 1099. Por ejemplo, suponga que tiene una factura con valor de 1000 $, pero el usuario introduce manualmente un importe de declaración de 1099 en la factura de 500 $.
+## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Proveedores: IRPF - ¿cómo cambio la casilla 1099 y los valores de un proveedor que no estaba haciendo un seguimiento de la información relacionada con el IRPF durante todo el año?
+Utilice la función de Actualizar IRPF (**Proveedores > Proveedores > Todos los proveedores > Seleccionar un proveedor > pestaña Proveedor en la cinta de opciones > Actualizar IRPF**) para pasar por transacciones de facturas pagadas previamente para reasignar los datos relacionados con IRPF de manera adecuada de acuerdo con la configuración en la pestaña **IRPF** en la página **Proveedor**.
 
-[![Transacciones del 1099: marcar Actualizar todo y Volver a calcular los importes existentes de la declaración de 1099.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>¿Puedo ejecutar Actualizar IRPF para todos mis proveedores a la vez?
+No. La rutina de Actualizar IRPF se lleva a cabo en un solo proveedor al mismo tiempo. Si su organización necesita este requisito, vote por la idea llamada [Proceso por lotes para la actualización de los datos de IRPF del proveedor](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-Cuando se pague, 500 $ será el importe de 1099 que se pague. Si vuelve a calcular los importes, el sistema cambiará el importe del 1099 a 1000 $, que es el total que se ha pagado.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Proveedores: IRPF - "Volver a calcular los importes existentes de la declaración de IRPF" frente a "Actualizar todo" en la función Actualizar IRPF.
+La casilla **Volver a calcular los importes existentes de la declaración de IRPF** restablecerá el importe de la declaración de IRPF a los valores pagados totales cuando se use junto a la casilla **Actualizar todo**. 
 
-[![Transacciones del 1099: después de ejecutar la rutina de 1099.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Transacciones de IRPF: antes de ejecutar la rutina de actualización](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
-## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Proveedores: 1099 - Crear manualmente transacciones del 1099
-Es posible que una organización deba crear manualmente transacciones del 1099 que no estén asociadas con una factura. Puede agregar transacciones del 1099 manuales si va a **Proveedores > Tareas periódicas > 1099 > Liquidación del proveedor para 1099**. Seleccione el botón **Transacciones manuales de 1099**. 
+La casilla **Volver a calcular los importes existentes de la declaración de IRPF** solo es útil cuando hay valores parciales en la declaración de IRPF en la factura o si se ha modificado en el formulario de IRPF. Por ejemplo, suponga que tiene una factura con valor de 1000 $, pero el usuario introduce manualmente un importe de declaración de IRPF en la factura de 500 $.
 
-Las transacciones del 1099 creadas de forma manual no se actualizan con el proceso **Actualizar todo** or el proceso **Volver a calcular los importes de 1099 existentes** en la función **Actualizar 1099**.
+[![Transacciones de IRPF: marcar Actualizar todo y Volver a calcular los importes existentes de la declaración de IRPF](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Proveedores: 1099 - ¿Dynamics 365 Finance es compatible con el formulario 1099? 
+Cuando se pague, 500 $ será el importe de IRPF que se pague. Si vuelve a calcular los importes, el sistema cambiará el importe de IRPF a 1000 $, que es el total que se ha pagado.
+
+[![Transacciones de IRPF: después de ejecutar la rutina de IRPF](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+
+## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Proveedores: IRPF - Crear manualmente transacciones de IRPF
+Es posible que una organización deba crear manualmente transacciones de IRPF que no estén asociadas con una factura. Puede agregar transacciones de IRPF manuales si va a **Proveedores > Tareas periódicas > IRPF > Liquidación del proveedor para IRPF**. Seleccione el botón **Transacciones manuales de IRPF**. 
+
+Las transacciones de IRPF creadas de forma manual no se actualizan con el proceso **Actualizar todo** or el proceso **Volver a calcular los importes de 1099 existentes** en la función **Actualizar IRPF**.
+
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Proveedores: IRPF - ¿Dynamics 365 Finance es compatible con el formulario 1099? 
 
 Dynamics 365 Finance no imprime el formulario 1096 de resumen anual y transmisión de declaraciones de información de EE. UU.
 
-## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Proveedores: 1099 - ¿hay alguna nueva función compatible con el informe 1099 para el sector público? 
+## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Proveedores: IRPF - ¿hay alguna nueva función compatible con el informe 1099 para el sector público? 
 Se ha agregado una nueva característica para el sector público, **Actualizar información de informe 1099 por cuenta principal**, que puede habilitar en el espacio de trabajo **Administración de características**. Esta función le permite asociar los valores de informe 1099 a un proveedor por la cuenta principal en la distribución contable, en lugar de la cuenta predeterminada en el registro del proveedor.
 
 Para obtener más información, consulte [Configurar proveedores para informes 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).

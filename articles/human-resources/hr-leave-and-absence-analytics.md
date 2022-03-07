@@ -2,7 +2,7 @@
 title: Ver análisis de permisos y ausencias
 description: Ver análisis de bajas, acumulaciones y saldos, y tendencias de saldo en Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a6cca83cf6eb17d9d700058365ac54c54efca7eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c20d0da62724202e5b6c750e646bc205542191aa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420473"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468164"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>Ver análisis de permisos y ausencias
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources proporciona análisis para ayudar a comprender las tendencias de permisos y ausencias de su organización.
 
@@ -45,3 +47,5 @@ Dynamics 365 Human Resources proporciona análisis para ayudar a comprender las 
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

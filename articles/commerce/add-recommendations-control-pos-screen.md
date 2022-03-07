@@ -2,16 +2,13 @@
 title: Agregar recomendaciones a la pantalla de transacción
 description: Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731016"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Agregar recomendaciones a la pantalla de transacción
 
@@ -46,7 +43,7 @@ Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utili
 6. Cuando inicie sesión, aparece una página similar a la siguiente. El diseño variará en función de las personalizaciones que se crearon para su tienda.
 
 
-    [![Diseñador](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Diseñador.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Elija una opción de visualización
 
@@ -61,11 +58,11 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 1. Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.
 
 
-    [![La altura del espacio de los detalles de las líneas de transacción se ha reducido](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![La altura del espacio de los detalles de las líneas de transacción se ha reducido.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición. Cambie el control de modo que se ajuste a ese espacio.
 
-    [![Se han agreado al diseño las recomendaciones de control](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Se han agreado al diseño las recomendaciones de control.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Haga clic en la **X** para guardar y salir del Diseñador.
@@ -80,13 +77,13 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 
 2. Haga clic en **personalizar**.
 
-    [![Personalización - Pestaña de control del cuadro de diálogo](./media/pic-5.png)](./media/pic-5.png)
+    [![Personalización - Pestaña de control del cuadro de diálogo.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Haga clic en **Nueva pestaña**.
 4. Encuentre la nueva pestaña que acaba de agregar. Es posible que tenga que desplazarse hacia abajo.
 5. En la lista desplegable **Contenido**, seleccione **Productos recomendados**.
 
-    [![Seleccionando productos recomendados en el campo contenidos](./media/pic-6.png)](./media/pic-6.png)
+    [![Seleccionando productos recomendados en el campo contenidos.](./media/pic-6.png)](./media/pic-6.png)
 
 6. En el campo **Etiqueta** , escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba "Productos recomendados".
 7. En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.
@@ -119,3 +116,6 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

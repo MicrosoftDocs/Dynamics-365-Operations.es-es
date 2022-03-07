@@ -2,11 +2,9 @@
 title: Modificar celdas de definición de filas
 description: En este tema se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e0bab0c9ecff1161612a6654209735b23a40aa6d085c6e83cdd44d3bf41e8b5e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734729"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar celdas de definición de filas
 
@@ -176,7 +174,7 @@ En la columna **Código de formato** en una definición de fila, se aplican los 
 
 En el siguiente ejemplo, un usuario quiere evitar que se imprima el encabezado y los subrayados en la fila **Efectivo total** del informe porque no ha habido actividad en ninguna de las cuentas de efectivo. Por lo tanto, en la fila 220 (que, como el código de formato **---** indica, es una fila de formato), en la celda **Fórmulas, filas o unidades relacionadas**, escribe **250**, que es el código de fila de la fila de importe que desea eliminar.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Seleccionar la fila de base para el cálculo de una columna
 En los informes relacionales, se asignan una o varias filas de base en la definición de filas usando el código de formato **CBR** (fila de la base de cambio). ULuego se hace referencia a una fila de base en la definición de la columna. Algunos ejemplos típicos de cálculos de CBR:
@@ -401,7 +399,7 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 2. Haga doble clic en una celda de la columna **Vínculo a dimensiones financieras**.
 3. En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda situada bajo el nombre de la dimensión.
 4. En el cuadro de diálogo para la dimensión, seleccione **Individual o intervalo**.
-5. En el campo **Desde**, escriba la dimensión de inicio o haga clic en ![Examinar](media/browse.gif "Examinar") para buscar las dimensiones disponibles. Para especificar un intervalo de dimensiones, escriba la dimensión final en el campo **Hasta**.
+5. En el campo **Desde**, especifique la dimensión de inicio o haga clic en ![Examinar.](media/browse.gif "Examinar") para buscar dimensiones disponibles. Para especificar un intervalo de dimensiones, escriba la dimensión final en el campo **Hasta**.
 6. Haga clic en **Aceptar** para cerrar el cuadro de diálogo de la dimensión. El cuadro de diálogo **Dimensiones** muestra la dimensión o el intervalo actualizados.
 7. Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Dimensiones**.
 
@@ -478,7 +476,7 @@ En la tabla siguiente se describen los campos del cuadro de diálogo **Dimension
 
 | Artículo                | Descripción |
 |---------------------|-------------|
-| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar](media/browse.gif "Examinar") para explorar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
+| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar.](media/browse.gif "Examinar") para buscar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
 | Conjunto de valores de dimensión | En el campo **Nombre**, especifique el nombre de un conjunto de valores de dimensión. Para crear, modificar, copiar o eliminar un conjunto, haga clic en **Administrar los conjuntos de valores de dimensión**. El campo **Fórmula** se rellena con la fórmula de la celda **Vínculo a las dimensiones financieras** para este conjunto de valores de dimensión en la definición de filas. |
 | Cuentas totales   | En el campo **Nombre**, escriba o busque una dimensión de las cuentas de balance. El campo **Fórmula** se rellena con la fórmula en la celda **Vínculo a las dimensiones financieras** para esta cuenta de balance en la definición del informe. |
 
@@ -529,3 +527,6 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

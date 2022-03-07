@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 033b002a633a85144ded21f4494b3af3bc453c55
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94a40fad4f5b4f71393bfae89cd17774fec192a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407814"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992721"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 

@@ -2,16 +2,13 @@
 title: Determinar la combinación óptima de descuentos superpuestos
 description: Cuando los descuentos se superponen, debe determinar la combinación de descuentos superpuestos que generará el total más bajo de la transacción o el descuento total más alto. Cuando el importe de descuento varía en función del precio de los productos que se han comprado, por ejemplo en el descuento comercial habitual “Compre 1 y llévese otro con X por ciento de descuento” (BOGO), este proceso se convierte en un problema de optimización combinatoria.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415547"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804706"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar la combinación óptima de descuentos superpuestos
 
@@ -84,3 +81,6 @@ Para resolver el problema de un número de combinaciones que aumenta exponencial
 ![Fórmula para calcular el valor marginal](./media/overlapping-discount-combo-06.jpg)
 
 Después de calcular el valor marginal de cada descuento en un conjunto de productos compartidos, se aplican los descuentos a los productos compartidos en orden y exhaustivamente desde el valor marginal más alto hasta el más bajo. En este método todas las posibilidades restantes de descuentos no se comparan cada vez que se aplica una instancia única de un descuento. En su lugar, los descuentos superpuestos se comparan una vez y después se aplican en orden. No se realiza ninguna comparación adicional. Puede configurar el umbral para cambiar al método de valor marginal en la ficha **Descuento** de la página **Parámetros de Commerce**. El tiempo aceptable para calcular el descuento total varía en los diferentes sectores minoristas. Sin embargo, este tiempo normalmente va de milésimas de segundo a un segundo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

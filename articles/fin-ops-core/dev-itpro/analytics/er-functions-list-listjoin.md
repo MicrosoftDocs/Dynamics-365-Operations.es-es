@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6713823d8d089a677c39bc2a8b5cfe1d1b23b459
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682252"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563788"
 ---
 # <a name="listjoin-er-function"></a>Función LISTJOIN de ER
 
@@ -83,3 +82,6 @@ La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`,
 [Funciones de lista](er-functions-category-list.md)
 
 [Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

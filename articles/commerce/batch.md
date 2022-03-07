@@ -2,15 +2,12 @@
 title: Control administrado de artículos con seguimiento por lotes
 description: En este tema se describen las mejoras que se han realizado al control de los lotes para los artículos con seguimiento por lotes durante el proceso de registro de extracto.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459866"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799718"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Control mejorado de artículos con seguimiento por lotes
 
@@ -46,3 +43,6 @@ Para definir el id. de lote predeterminado que se usa para facturación de pedid
 
 > [!NOTE]
 > La compatibilidad para el control mejorado de los artículos con seguimiento por lotes durante el registro de extractos para los escenarios no avanzados de gestión de almacenes se introdujo en Retail versión 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

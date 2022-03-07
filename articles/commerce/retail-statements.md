@@ -2,13 +2,16 @@
 title: Extractos comerciales
 description: Este tema describe cómo se crean y registran los extractos.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738705"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4415654"
 ---
 # <a name="retail-statements"></a>Extractos comerciales
 
@@ -31,7 +34,7 @@ En Dynamics 365 Commerce, el proceso de registro de extractos se utiliza para co
 
 La siguiente ilustración muestra el proceso de registro de extractos. En este proceso, las transacciones que se registran en el PDV se transmiten al cliente mediante el programador de Commerce. Después de que el cliente reciba las transacciones, puede crear, calcular y registrar el extracto de la transacción para el almacén.
 
-[![Proceso de registro de extractos.](./media/retail-statements.png)](./media/retail-statements.png)
+[![Proceso de registro de extractos](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Crear y registrar extractos
 
@@ -85,6 +88,3 @@ Cuando se registra un extracto, los pedidos de venta y las facturas se crean par
 - Las ventas para las que se ha agregado un cliente a la transacción en POS generan pedidos de venta y facturas independientes, una para cada cliente único.
 
 Los diarios de pago se crean automáticamente para los pagos en el extracto, y el inventario se actualiza para la tienda del PDV.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

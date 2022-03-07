@@ -1,25 +1,27 @@
 ---
 title: Configurar códigos de disposiciones
 description: Este procedimiento se centra en la configuración de un código de disposición que se puede utilizar en un dispositivo móvil para el proceso de recepción de pedidos de devolución.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSDispositionTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb83108c934e864da0df39ec4ee36a0bc7ba7588
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b7c98526423b28fcb6c4e00a9f2cfd84d5a9119e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574074"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977022"
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposiciones
 
@@ -38,6 +40,3 @@ Este procedimiento se centra en la configuración de un código de disposición 
 6. En el campo Código de disposición de devolución, escriba un valor.
     * El código de disposición de devolución determina el resto del proceso del pedido de devolución para los artículos registrados. En este ejemplo, el cliente debe recibir una nota de abono. Agregue un código de disposición de devoluciones que contenga una acción de crédito.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

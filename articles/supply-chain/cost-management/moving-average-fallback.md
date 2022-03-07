@@ -2,26 +2,26 @@
 title: Media móvil secuencia de costes de reserva
 description: Este tema proporciona información sobre secuencias de costos de reserva para cálculos de promedio móvil en Microsoft Dynamics 365 Supply Chain Management.
 author: AndersGirke
-manager: tfehr
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: d91b3b4b8d49e59aa03d62f4dd101b5a1ec18c41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967592"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568216"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Media móvil secuencia de costes de reserva
+
+[!include [banner](../includes/banner.md)]
 
 Una forma de calcular el costo de su inventario es mediante el uso de una _media móvil_. Se pueden asociar hasta tres valores de coste con cada artículo de inventario:
 
@@ -44,4 +44,7 @@ Para seleccionar la secuencia de costes de respaldo para los cálculos de promed
     - **Coste activo - Última emisión**
     - **Coste activo - Precio del artículo** - Las organizaciones pueden experimentar problemas de rendimiento si utilizan procesos comerciales en los que el inventario se vuelve negativo regularmente y, al mismo tiempo, el volumen de transacciones es alto. Esta configuración puede ayudar a mitigar esos problemas de rendimiento.
 
-![Parámetros de contabilidad de inventario](media/inventory-accounting-parameters.png "Parámetros de contabilidad de inventario")
+![Parámetros de contabilidad de inventario.](media/inventory-accounting-parameters.png "Parámetros de contabilidad de inventario")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

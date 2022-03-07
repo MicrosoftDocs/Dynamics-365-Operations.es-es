@@ -2,16 +2,13 @@
 title: Definir y mantener canales comerciales
 description: Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas en Dynamics 365 Commerce. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda.
 author: mugunthanm
-manager: AnnBe
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef06d79e1fa4d024dc1de0125cc72bdba5671aad384c7988dc63d407323b7abc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760211"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
@@ -89,3 +86,6 @@ Commerce usa jerarquías organizativas para estructurar los canales. Las jerarqu
 > [!NOTE]
 > Para usar la funcionalidad de ventas de Commerce, la clave de configuración **Envíos múltiples** debe estar habilitada. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

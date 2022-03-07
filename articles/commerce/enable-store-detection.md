@@ -2,42 +2,36 @@
 title: Habilitar la detección de tienda según la ubicación
 description: Este tema describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
 author: brianshook
-manager: annbe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 98aa781a42b1c82cc00c8a680007b7200e9c7413fb8e3a67b0c723ff62c1d8e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749885"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar la detección de tienda según la ubicación
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
-
 La detección de tienda basada en ubicación le permite proporcionar el contenido del sitio relevante a los clientes, en función de su ubicación. Cuando se activa la detección de tienda basada en tienda, el servicio de representación de Commerce utiliza información de país o región de la dirección IP del explorador web del cliente para dirigir al cliente a la mejor configuración de sitio geográfico que esté disponible.
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Si activa la función de detección de tienda basada en ubicación, la información del explorador del cliente se envía un servicio de ubicación de Microsoft. Esta información se usa a continuación para proporcionar contenido del cliente que sea relevante para su ubicación. Tanto la información que se envía desde el explorador del cliente como la información basada en la ubicación que se devuelve al cliente están sujetas a directivas de cumplimiento de cookies y privacidad.
+Si activa la función de detección de tienda basada en ubicación, la información del explorador del cliente se envía un servicio de ubicación de Microsoft. Esta información se usa a continuación para proporcionar contenido del cliente que sea relevante para la ubicación del mismo. Tanto la información que se envía desde el explorador del cliente como la información basada en la ubicación que se devuelve al cliente están sujetas a directivas de cumplimiento de cookies y privacidad.
 
 ## <a name="turn-on-location-based-store-detection"></a>Activar la detección de tienda según la ubicación
 
@@ -69,3 +63,6 @@ Para activar la detección de tienda según la ubicación en Commerce, siga esto
 [Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

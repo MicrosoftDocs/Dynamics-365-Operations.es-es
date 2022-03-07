@@ -1,7 +1,7 @@
 ---
 title: Ejemplo de días de reducción
 description: Ejemplo de días de reducción.
-author: kamaybac
+author: ShylaThompson
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,29 +15,30 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97fb032d02df1dbedaeccec14496cb1d63e8cf70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ba0cfde66476d052f0c9a048977026341a5295c21603385c5b3774a15be5232
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727807"
 ---
-# <a name="reduction-days-example"></a>Ejemplo de días de reducción
+# <a name="reduction-days-example"></a>Ejemplo de días de reducción 
 
 [!include [banner](../includes/banner.md)]
+
 
 Ha creado una transacción de suscripción para la suscripción de mantenimiento de un cliente, tal como se describe en la tabla siguiente.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,20 +66,21 @@ Ha creado una transacción de suscripción para la suscripción de mantenimiento
 </tbody>
 </table>
 
+
 El cliente indica que no necesita cobertura de servicio durante dos días (el 10 de marzo y el 11 de marzo) y el usuario acepta reducir la suscripción por estos dos días.
 
 Se crea una nueva transacción del tipo **Días de reducción**, tal como se describe en la tabla siguiente.
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,10 +108,16 @@ Se crea una nueva transacción del tipo **Días de reducción**, tal como se des
 </tbody>
 </table>
 
+
 Cuando se facturen las transacciones de marzo de 2011, el precio de ventas de EUR 200 se reduce en EUR 12,90. Por lo tanto, el importe imputable para la transacción es EUR 187,10 y se facturan dos transacciones por un total de EUR 187,10.
 
 ## <a name="see-also"></a>Consulte también
 
 [Reducir los días de las cuotas de suscripción](reduce-the-days-on-subscription-fees.md)
+
+  
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

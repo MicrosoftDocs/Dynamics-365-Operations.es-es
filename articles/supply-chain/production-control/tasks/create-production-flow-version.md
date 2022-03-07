@@ -1,24 +1,26 @@
 ---
 title: Crear una versión de flujo de producción
 description: Este procedimiento se centra en crear una nueva versión de flujo de producción.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b72d6162edd0ae6ccbfdcfe3e63ecff30528454
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 115463c57b28e681d4c6bdc227e35272861779aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006925"
 ---
 # <a name="create-a-production-flow-version"></a>Crear una versión de flujo de producción
 
@@ -61,6 +63,3 @@ Este procedimiento se centra en crear una nueva versión de flujo de producción
     * Escriba un número de días en el período para tiempo de ciclo real. El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
 13. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

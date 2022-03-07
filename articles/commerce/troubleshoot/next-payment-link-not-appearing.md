@@ -2,9 +2,11 @@
 title: La opción Guardar para mi próximo pago no aparece
 description: Este tema proporciona una guía de solución de problemas que puede ayudar cuando la casilla Guardar para mi próximo pago no aparece en Método de pago en la página de pago de un sitio de comercio electrónico.
 author: Reza-Assadi
+manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a4fbcd522651ed1b82b72b751ff6ead44c94a71
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769280"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585521"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>La opción "Guardar para mi próximo pago" no aparece
 
@@ -34,7 +36,7 @@ La casilla **Guardar para mi próximo pago** no aparece en la sección **Método
 
 La siguiente ilustración muestra un ejemplo de una página de pago que incluye la casilla **Guardar para mi próximo pago**.
 
-![Casilla Guardar para mi próximo pago en el módulo Pagos.](media/payment-module-save-payment.jpg)
+![Casilla Guardar para mi próximo pago en el módulo Pagos](media/payment-module-save-payment.jpg)
 
 ## <a name="resolution"></a>Resolución
 
@@ -46,7 +48,7 @@ Para verificar que el conector de Dynamics 365 Payment para Adyen esté configur
 1. Seleccione la tienda en línea.
 1. En la ficha desplegable **Cuentas de pago**, asegúrese de que el campo **Permitir guardar información de pago en comercio electrónico** esté establecido en **Verdadero**.
 
-![Permitir guardar información de pago en el campo de comercio electrónico en la sede de Commerce.](media/payment-connector-save-payment.jpg)
+![Permitir guardar información de pago en el campo de comercio electrónico en la sede de Commerce](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

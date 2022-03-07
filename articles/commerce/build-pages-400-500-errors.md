@@ -2,36 +2,30 @@
 title: Generar páginas personalizadas de respuesta para los errores de código de estado 4xx/5xx
 description: Este tema describe cómo crear páginas de respuestas personalizadas para errores del código de estado 4xx y 5xx mediante las herramientas de creación en Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741150"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Generar páginas personalizadas de respuesta para los errores de código de estado 4xx/5xx
-
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo crear páginas de respuestas personalizadas para errores del código de estado 4xx y 5xx mediante las herramientas de creación en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Si una solicitud no es correcta, el servidor emite respuestas de error de código de estado HTTP. Se captura y se devuelve el código de estado 404 si no se encuentra una página, y el código de estado 500 se captura y se devuelve si se produce un error de servidor. En Dynamics 365 Commerce, los usuarios de aplicación pueden generar páginas de respuestas de error de código de estado personalizadas que se muestran a los usuarios para estas respuestas de error de código de estado.
 
@@ -58,7 +52,7 @@ Para crear la página de respuesta de error de código de estado, siga estos pas
 
 1. Vaya a **Páginas**.
 1. Seleccione **Nuevo** para crear una página.
-1. En el cuadro de diálogo **Elegir una plantilla**, seleccione una plantilla y luego, debajo de **Nombre de la página**, ingrese un nombre para la página de respuesta de error del código de estado. Deje el campo **URL de paǵina** en blanco.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione una plantilla y luego, debajo de **Nombre de la página**, ingrese un nombre para la página de respuesta de error del código de estado. Deje el campo **URL de página** en blanco.
 1. Cree la página.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
@@ -83,3 +77,6 @@ Para configurar una redirección para la página de respuesta de error de códig
 [Agregar una página de sitio nueva](add-new-page.md)
 
 [Crear un URL de página](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

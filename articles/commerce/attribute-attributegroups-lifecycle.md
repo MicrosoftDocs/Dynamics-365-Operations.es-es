@@ -2,16 +2,13 @@
 title: Administrar atributos y grupos de atributos
 description: Este tema describe cómo usar atributos para proporcionar una forma de describir un producto y sus características a través de campos definidos por el usuario.
 author: ashishmsft
-manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727663"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Administrar atributos y grupos de atributos
 
@@ -46,7 +43,7 @@ Por ejemplo, un producto de televisión típico puede tener los siguientes atrib
 |            | Entradas compuestas         | 0 – 10                        | 2             |
 |            | Entradas del componente         | 0 – 10                        | 1             |
 | LCD        | Preparada para 3D                 | Sí o No                   | Sí           |
-|            | Habilitada para 3D               | Sí o No                   | N.º            |
+|            | Habilitada para 3D               | Sí o No                   | No            |
 | Plasma     | Temporalidad de operación desde      | 32–110 grados              | 32            |
 |            | Temporalidad de operación hasta        | 32–110 grados              | 100           |
 | Proyección | Garantía de tubo de proyección | 612 o 18 meses         | 12            |
@@ -73,7 +70,7 @@ Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el
     - Nombre un tipo de atributo **Forma de la lente** y agregue los siguientes valores: **Óvalo**, **Cuadrado** y **Rectángulo**.
     - Nombre el otro tipo de atributo **Marca de gafas de sol** y agregue los siguientes valores: **Ray Ban**, **Aviador** y **Oakley**.
 
-![Tipos de atributo](media/AttributeType.png)
+![Tipos de atributo.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Configurar un atributo
 
@@ -82,7 +79,7 @@ Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el
 3. Cree un atributo con el nombre **Lente**.
 4. Establezca el campo **Tipo de atributo** en **Forma de la lente**.
 
-![Atributos](media/Attribute.png)
+![Atributos.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Metadatos de atributos
 
@@ -104,7 +101,7 @@ Aquí se muestran las opciones restantes de los metadatos de atributos en la pá
 
 Estas opciones estaban pensadas originalmente para mejorar la funcionalidad de búsqueda para el escaparate en línea. Aunque Commerce no incluye el escaparate en línea listo para usar, incluye el kit de desarrollo de software (SDK) de publicación de comercio electrónico. Los clientes pueden usar este SDK para poner productos en un índice de búsqueda de su elección. Aunque los datos del productos son importados, los clientes aún deben poder distinguir los datos que se pueden buscar, los datos que se pueden consultar, etc. De esa manera, pueden crear un índice óptimo para asegurarse de que solo indexan los atributos que, *en su opinión*, deben indexarse.
 
-Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Parámetros de filtro para atributos
 
@@ -137,7 +134,7 @@ La página **Preferencias de visualización de filtros** incluye los siguientes 
     - 200 – 500
     - 500 o más
 
-![Parámetros de filtro de atributos](media/AttributeFilterSettings.PNG)
+![Parámetros de filtro de atributos.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Grupos de atributos
 
@@ -145,7 +142,7 @@ Después de que se hayan definido los atributos, estos se pueden asignar a grupo
 
 También puede configurar valores predeterminados para los atributos incluidos en un grupo de atributos. Por ejemplo, puede agregar un atributo de color para un grupo de atributos y seleccionar **Azul** como el valor de atributo predeterminado. En este caso, cuando se agrega el grupo de atributos a un producto que incluye el color como uno de sus atributos, aparece **Azul** como el color predeterminado para ese producto.
 
-![Grupos de atributos](media/AttributeGroup.png)
+![Grupos de atributos.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Crear un grupo de atributos
 
@@ -158,7 +155,7 @@ También puede configurar valores predeterminados para los atributos incluidos e
 
 Se pueden asociar uno o más grupos de atributos a los nodos de categorías en los siguientes tipos de jerarquías de categorías: jerarquía de productos al por menor, jerarquía de categoría de navegación de canales y jerarquía de categoría de productos complementarios. A continuación, cuando se han clasificado los productos, heredan los atributos incluidos en los grupos de atributos.
 
-![Jerarquía de productos: grupos de atributos de producto](media/AGRetailProdHierarchy.PNG)
+![Jerarquía de productos: grupos de atributos de producto.](media/AGRetailProdHierarchy.PNG)
 
 Siga estos pasos para asignar grupos de atributos a las categorías de la jerarquía de productos de Commerce.
 
@@ -203,7 +200,7 @@ Uno o más grupos de atributos se pueden asociar a una o más tiendas en la jera
     3. Seleccione el nodo de categoría **Accesorios de moda**, seleccione la categoría **Gafas de sol modernas** y, a continuación, en la pestaña desplegable **Atributos de producto del canal**, seleccione **Incluir atributo** para cada atributo.
     4. Seleccione el nodo de categoría **Ropa de hombre**, seleccione la categoría **Pantalones** y, a continuación, en la pestaña desplegable **Atributos de producto del canal**, seleccione **Incluir atributo** para cada atributo.
 
-![Categorías de canal y atributos de producto – Grupos de atributos](media/CCPAttrGrp.png)
+![Categorías de canal y atributos de producto – Grupos de atributos.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Anular valores de atributos
 
@@ -217,7 +214,7 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 4. Seleccione el artículo requerido en la cuadrícula. A continuación, en el panel de acciones, en la pestaña **Producto** del grupo **Configurar**, haga clic en **Atributos del producto**.
 5. Seleccione un atributo en el panel izquierdo y, a continuación, actualice su valor en el panel derecho.
 
-![Página de detalles del producto – Grupos de atributos del producto](media/ProdDetailsProdAttrValues.png)
+![Página de detalles del producto – Grupos de atributos del producto.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Anular los valores de atributo de productos en un catálogo
 
@@ -236,7 +233,7 @@ Los valores predeterminados de atributos se pueden anular para productos individ
     > [!NOTE]
     > Si se crean medios del producto compartido y atributos del producto compartido, se aplican a todos los productos.
 
-![Grupos de atributos del producto de catálogo](media/CatalogProdAttrValues.png)
+![Grupos de atributos del producto de catálogo.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Anular los valores de atributo de productos en un canal
 
@@ -257,3 +254,6 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 
     > [!NOTE]
     > Si se crean medios del producto compartido y atributos del producto compartido, se aplican a todos los productos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

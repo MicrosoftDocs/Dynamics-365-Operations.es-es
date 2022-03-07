@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 26e895abe6154b395ddc25b136f84397c04037fc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685258"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568606"
 ---
 # <a name="learning-power-bi-content"></a>Contenido de formación de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido del **Formación** de Microsoft Power BI.
+Este tema describe el contenido de **Formación** Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
@@ -62,3 +61,6 @@ Los siguientes datos se usan para rellenar los informes en el contenido en Power
 | Posición         | Puesto, título y equivalente a jornada completa                  | Programa del curso, asistentes al curso |
 | Nombre de empleado    | Nombre, apellido y nombre completo                             | Asistentes al curso |
 | Puesto del empleado   | Cargo y fecha de antigüedad                                         | Asistentes al curso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

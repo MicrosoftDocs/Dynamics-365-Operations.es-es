@@ -7,23 +7,21 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b182e109220238a33d3af73cb859bee89e59dda6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1bf9a5cc8ce04bbcf1d0e16a407d8f8b29a87c08
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801296"
 ---
 # <a name="regulatory-job-category"></a>Categoría de trabajo reglamentaria
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

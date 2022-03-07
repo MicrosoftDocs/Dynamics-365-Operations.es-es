@@ -1,12 +1,10 @@
 ---
 title: Visión general de pedidos de compra
 description: Este artículo proporciona información general acerca de los pedidos de compra (PC) y vínculos a artículos adicionales relacionados con las distintas etapas por las que pasa un pedido de compra.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93083
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fef4eaa9563647b8878e0d0fb0bc185fdc4ed319
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022240"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825335"
 ---
 # <a name="purchase-order-overview"></a>Visión general de pedidos de compra
 
@@ -91,3 +89,6 @@ El campo **Estado de aprobación** se utiliza cuando un pedido de compra pasa po
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

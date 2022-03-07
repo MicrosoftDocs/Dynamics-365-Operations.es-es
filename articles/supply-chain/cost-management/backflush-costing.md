@@ -1,7 +1,7 @@
 ---
 title: Contabilización previa de los costes
 description: Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing.
-author: AndersGirke
+author: cvocph
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 272063
 ms.assetid: 62a2a7da-ff79-49bf-a6e8-29460ba5252f
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d158908182a35b7b4cbf0ad8a5d1fc7df37815d3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ca6ca1ce53e81ac7c64489f505decd84a9534f74
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579841"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834346"
 ---
 # <a name="backflush-costing"></a>Contabilización previa de los costes
 

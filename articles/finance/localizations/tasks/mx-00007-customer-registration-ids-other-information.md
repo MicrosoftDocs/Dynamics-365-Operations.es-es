@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTable, DirPartyQuickCreateForm,  DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ba0e9fb9f149a0762c99f216d58c0f8e9fbefe7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ccc0a741ddab2f879cdc366291ca6d6c46ae4aa2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407797"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234091"
 ---
 # <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 
@@ -47,3 +46,6 @@ Este procedimiento le muestra cómo crear un cliente con la información fiscal 
     * Si el tipo de empresa para este cliente es extranjero, este campo es obligatorio.  
 13. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

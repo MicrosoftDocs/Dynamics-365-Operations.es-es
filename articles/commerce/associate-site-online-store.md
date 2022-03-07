@@ -1,35 +1,32 @@
 ---
 title: Asociar un sitio de Dynamics 365 Commerce con un canal en línea
-description: Este tema explica cómo vincular el sitio de Microsoft Dynamics 365 Commerce a una o más tiendas en línea.
+description: Este tema explica cómo enlazar el sitio de Microsoft Dynamics 365 Commerce a una o más tiendas en línea.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737662"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Asociar un sitio de Dynamics 365 Commerce con un canal en línea
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo vincular el sitio de Microsoft Dynamics 365 Commerce a una o más tiendas en línea. 
+Este tema explica cómo enlazar el sitio de Microsoft Dynamics 365 Commerce a una o más tiendas en línea. 
 
 Una vez haya aprovisionado el entorno de comercio electrónico de Dynamics 365 Commerce mediante el portal de Microsoft Dynamics Lifecycle Services (LCS) de , estará listo para establecer su primer sitio web de comercio electrónico. Como parte de la creación del sitio inicial, asocia el sitio a una tienda en línea que se creó anteriormente. Este paso enlaza el sitio a un canal en línea y deja que el sitio muestre la jerarquía de navegación, los productos, las categorías, los precios, las opciones de envío y todo lo demás que ha definido en la tienda en línea.
 
@@ -58,3 +55,6 @@ Una vez creado el sitio, puede comprobar que esté asociado a la tienda en líne
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

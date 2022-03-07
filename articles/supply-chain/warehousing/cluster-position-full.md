@@ -2,23 +2,26 @@
 title: Posición completa del clúster
 description: Este tema proporciona información acerca de la característica Posición completa de clústeres. Esta característica ofrece una alternativa a la aplicación más estricta de las reglas de las pausas laborales cuando se utiliza el picking en clúster, ya que permite un mayor margen de error en las restricciones volumétricas de los contenedores o bolsas.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4437213"
 ---
 # <a name="cluster-position-full"></a>Posición completa del clúster
 
@@ -28,9 +31,12 @@ La característica *Posición completa del clúster* ofrece una alternativa a la
 
 Esta característica introduce la capacidad de ejecutar el botón **Completo** en una de las unidades de trabajo en un clúster. En versiones anteriores, esta opción solo estaba disponible para el picking de pedidos normal, no para el picking en clúster. Sin embargo, esta característica difiere del botón estándar **Completo** en el que cancela el trabajo restante. No sugiere que el usuario agregue otro contenedor al mismo clúster y no crea automáticamente un nuevo trabajo.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Activar o desactivar la característica Posición completa del clúster
+## <a name="turn-on-the-cluster-position-full-feature"></a>Activar la característica Posición completa del clúster
 
-Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Posición completa del clúster* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Posición completa del clúster* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+
+- **Módulo:** *Gestión de almacén*
+- **Nombre de la característica**: *Posición completa del clúster*
 
 ## <a name="setup"></a>Configurar
 
@@ -208,7 +214,7 @@ Se deberían haber creado dos identificadores de trabajo, cada uno de los cuales
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Ejecución del flujo de dispositivos móviles: configuración de la confirmación de trabajo para el producto
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario en el almacén *61*.
+1. Inicie sesión en la aplicación de almacén como un usuario en el almacén *61*.
 1. Vaya a **Saliente \> Creación de picking en clúster**.
 
     La página **TAREA: Asignar trabajo al clúster** aparece.
@@ -270,6 +276,3 @@ En este escenario, el picking en clúster se ha completado y se redirige al usua
     Recibe un mensaje "Clúster completado".
 
 Ahora puede usar el elemento de menú **Picking de ventas** para elegir la cantidad restante. A continuación, puede utilizar el elemento de menú **Carga de ventas** para mover los elementos desde la ubicación de almacenamiento provisional al muelle de carga.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

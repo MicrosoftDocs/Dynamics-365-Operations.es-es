@@ -1,12 +1,10 @@
 ---
 title: Colaboración con los proveedores mediante el portal de proveedores
 description: Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 &amp; mayo de 2016 de Dynamics AX.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 6e691d0e2e4260e75b70e22d94486afdb779871f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019112"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568073"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaboración con los proveedores mediante el portal de proveedores
 
@@ -94,12 +92,14 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 |                           Envíe la nueva versión de la OC al portal de proveedores.                            |                                                                                                                                                                    La nueva versión se registra en el portal de proveedores y se cambia el estado a <strong>Revisión externa</strong>.                                                                                                                                                                     |
 |                                El proveedor aprueba la nueva versión de la OC.                                 |                                                                                                                                                     El estado se cambia a <strong>Confirmado</strong> automáticamente o cuando reciba la respuesta del proveedor y después confirma la OC.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Seguridad de usuario del portal de proveedor](configure-security-vendor-portal-users.md)
 
-[Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Espacio de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

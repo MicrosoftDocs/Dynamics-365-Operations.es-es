@@ -1,26 +1,24 @@
 ---
 title: Visión general de la gestión de almacenes
 description: Use la gestión de almacenes para supervisar y automatizar procesos de almacén.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 04/20/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432004a7389434248ddde242b153dfb3cd955055
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa2b62a0bfda57879850771488e6576592fbb894
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970137"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982861"
 ---
 # <a name="warehouse-management-overview"></a>Visión general de la gestión de almacenes
 
@@ -73,3 +71,6 @@ Puede encontrar opiniones, noticias y otra información sobre administración de
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

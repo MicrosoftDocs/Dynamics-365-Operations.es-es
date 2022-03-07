@@ -3,7 +3,7 @@ title: Información general de impuestos deducidos en el origen (TDS) de la Indi
 description: Este tema proporciona información detallada sobre el impuesto deducido en el origen (TDS) de la India. La documentación de TDS cubre la funcionalidad de esta capacidad.
 author: kailiang
 ms.date: 03/19/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d33faaff8be4821005b8772875eb91f0afe26cb0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 8064f10978712fc474dd72a5b5bdd9a445606d7a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983912"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337730"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Información general de impuestos deducidos en el origen (TDS) de la India
 

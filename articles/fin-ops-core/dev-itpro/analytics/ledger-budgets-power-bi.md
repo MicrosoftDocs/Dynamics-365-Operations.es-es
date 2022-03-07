@@ -1,32 +1,30 @@
 ---
 title: Contenido Real frente a presupuesto de Power BI
-description: Este tema describe el contenido en Power BI de Real frente a presupuesto Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
-author: ryansandness
-manager: AnnBe
+description: Este tema describe el contenido en Power BI de Real frente a presupuesto. Explica cómo acceder a los informes y proporciona información sobre el modelo de datos.
+author: panolte
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737912"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenido Real frente a presupuesto de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Power BI de **Real frente a presupuesto**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe el contenido **Real frente a presupuesto** de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -57,3 +55,6 @@ La siguiente tabla ofrece información sobre las métricas que se encuentran en 
 | Libros mayores                   | Libros mayores que se pueden usar para filtrar el informe en la contabilidad actual              |
 | Códigos de presupuesto              | Códigos presupuestarios para filtrar informes                                                |
 | Entidades jurídicas            | Entidades jurídicas que se pueden usar para filtrar el informe para la entidad jurídica actual |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

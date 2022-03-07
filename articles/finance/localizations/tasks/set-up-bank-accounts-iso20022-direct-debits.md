@@ -2,9 +2,11 @@
 title: Configuración de clientes y cuentas bancarias de cliente para domiciliaciones bancarias ISO20022
 description: Esta tarea le guía por el procedimiento de configuración de una cuenta bancaria de cliente y una orden de domiciliación bancaria de cliente, necesarias para generar el archivo de pago de cliente como la domiciliación bancaria ISO20022.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, CustDirectDebitMandate, BankAccountTableLookUp,  LogisticsAddressCityLookup
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 595e89faa1e24ca937d399994e15ce53e3f5308b1c6fd7f43e4e831e70c15ad8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85c1faebe9a61ad2e708ba26c7a5f0cad15f5f8b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736876"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988210"
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Configuración de clientes y cuentas bancarias de cliente para domiciliaciones bancarias ISO20022
 
@@ -66,6 +68,3 @@ Este es el cuarto de cinco procedimientos que muestra el proceso de pago del cli
 8. Haga clic en Aceptar
 9. Haga clic en Guardar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

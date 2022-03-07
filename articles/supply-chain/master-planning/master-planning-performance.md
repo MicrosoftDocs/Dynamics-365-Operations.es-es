@@ -1,7 +1,7 @@
 ---
 title: Mejorar el rendimiento de la planificación maestra
 description: En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas.
-author: ChristianRytt
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570930"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935818"
 ---
 # <a name="improve-master-planning-performance"></a>Mejorar el rendimiento de la planificación maestra
 

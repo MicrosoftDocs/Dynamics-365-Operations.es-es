@@ -1,12 +1,10 @@
 ---
-title: Crear un producto nuevo en Commerce
-description: En este tema se describe cómo crear un producto nuevo en Microsoft Dynamics 365 Commerce.
+title: Crear un nuevo producto en Commerce
+description: En este tema se describe cómo crear un nuevo producto en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965331"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753731"
 ---
-# <a name="create-a-new-product-in-commerce"></a>Crear un producto nuevo en Commerce
+# <a name="create-a-new-product-in-commerce"></a>Crear un nuevo producto en Commerce
 
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo crear un producto nuevo en Microsoft Dynamics 365 Commerce.
+En este tema se describe cómo crear un nuevo producto en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Un producto se define principalmente con un número de producto, un nombre y una descripción. Sin embargo, otros datos también son necesarios para describir un producto o servicio:
 
@@ -51,13 +49,13 @@ Un producto se define principalmente con un número de producto, un nombre y una
 
 La imagen siguiente muestra un ejemplo de adición de producto.
 
-![Crear un producto](media/create-new-product.png)
+![Crear un producto.](media/create-new-product.png)
 
 Una vez que se agrega un producto, se pueden establecer datos adicionales para él, como **Descripción del producto**, **Grupos de variantes**, **Grupos de dimensiones**, **Atributos del producto** y **Productos relacionados**.
 
 La imagen siguiente muestra los detalles adicionales de un producto.
 
-![Detalles de producto](media/create-new-product-2.png)
+![Detalles de producto.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Crear variantes de productos
 
@@ -76,23 +74,23 @@ Para vender un producto, primero debe liberarse en una entidad jurídica.
 
 1. En la página del producto, seleccione **Emitir productos**.
 
-    ![Liberar producto](media/create-new-product-3.png)
+    ![Liberar producto.](media/create-new-product-3.png)
 
 1. Seleccione el producto que desea liberar y, a continuación, seleccione **Siguiente**.
 
-    ![Elija el producto que desea liberar](media/create-new-product-4.png)
+    ![Elija el producto que desea liberar.](media/create-new-product-4.png)
 
 1. Seleccione el conjunto de variantes de producto que desea liberar y, a continuación, seleccione **Siguiente**.
 
-    ![Elegir las variantes que se van a liberar](media/create-new-product-5.png)
+    ![Elegir las variantes que se van a liberar.](media/create-new-product-5.png)
 
 1. Seleccione la entidad jurídica y, a continuación, seleccione **Siguiente**.
 
-    ![Elegir entidad jurídica](media/create-new-product-6.png)
+    ![Elegir entidad jurídica.](media/create-new-product-6.png)
 
 1. Seleccione **Fin**.
 
-    ![Finalizar liberación de producto](media/create-new-product-7.png)
+    ![Finalizar liberación de producto.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurar un producto liberado
 
@@ -107,10 +105,13 @@ Una vez que se ha liberado un producto, requerirá una configuración adicional 
 
 En la siguiente imagen se muestra un ejemplo de configuración para un producto liberado.
 
-![Configurar un producto liberado](media/create-new-product-8.png)
+![Configurar un producto liberado.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Crear entidades jurídicas](channels-legal-entities.md)
 
 [Crear un grupo de variantes](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

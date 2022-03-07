@@ -2,27 +2,23 @@
 title: Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
 description: Este tema ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415501"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982443"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
 
@@ -34,7 +30,7 @@ Este tema ofrece una visión general de la página de aterrizaje de categoría p
 
 La página de aterrizaje de categoría predeterminada es la página a la que se llevan normalmente a los usuarios de sitio web cuando seleccionan una categoría en la jerarquía de navegación. La página de categoría le permite examinar, y también puede limitar y ordenar los productos clasificados.
 
-![Página de aterrizaje de categoría predeterminada](./media/SimpleCategoryLandingDressCategory.png)
+![Página de aterrizaje de categoría predeterminada.](./media/SimpleCategoryLandingDressCategory.png)
 
 En la parte superior de la página se encuentra un encabezado que muestra todas las categorías de producto y otras páginas que el administrador de comercialización ha clasificado. La configuración se realiza como parte de la configuración de la jerarquía de navegación de canal. En la parte inferior de la página hay un pie de página que incluye vínculos rápidos a diversos temas en los que un comprador puede estar interesado.
 
@@ -58,7 +54,7 @@ Los siguientes componentes son esenciales para una categoría:
 
 Si desea que una página de aterrizaje de categoría tener una experiencia más adaptada para una categoría específica, puede “enriquecer” la página de aterrizaje de categoría para dicha categoría. Por ejemplo, puede agregar un vídeo de marketing y alguna narración de la categoría para obtener la atención del comprador. Para obtener más información, consulte [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md).
 
-![Página de aterrizaje de categoría enriquecida](./media/CategoryLandingPages.png)
+![Página de aterrizaje de categoría enriquecida.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Sugerencia automática y páginas de resultados de la búsqueda
 
@@ -72,11 +68,11 @@ A continuación se muestran algunos de los tipos de sugerencias que es posible q
 - **Productos** proporcionan vínculos directos a la página de detalles de productos.
 - **Sugerencias de búsqueda de categorías con ámbito** muestran diversas categorías y permiten a los usuarios la búsqueda de palabra clave en una categoría específica.
 
-![Sugerencia automática inmersiva](./media/ImmersiveAutoSuggestUX.png)
+![Sugerencia automática inmersiva.](./media/ImmersiveAutoSuggestUX.png)
 
 Cuando los usuarios seleccionan una de las sugerencias de búsqueda de categoría con ámbito o palabra clave, o cuando no hay sugerencias para el término de búsqueda que introducen, se redirigen a una página de resultados de la búsqueda. A continuación, los usuarios pueden examinar, ordenar y limitar la lista de resultados de la búsqueda para encontrar el artículo deseado.
 
-![Aterrizaje de búsqueda](./media/SearchLanding.png)
+![Aterrizaje de búsqueda.](./media/SearchLanding.png)
 
 Los siguientes componentes son esenciales para una página de resultados de la búsqueda:
 
@@ -97,13 +93,13 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 
 >[!NOTE]
 >Estas capacidades de búsqueda basadas en la nube están disponibles a partir de la versión 10.0.8. Asegúrese de que en **Parámetros de Commerce > Parámetros de configuración** hay una entrada para "ProductSearch.UseAzureSearch establecido en 'true'". 
-![Parámetros de configuración para búsqueda en la nube](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parámetros de configuración para búsqueda en la nube.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la búsqueda con tecnología de nube](cloud-powered-search-overview.md)
+[Información general de la búsqueda con tecnología de nube](cloud-powered-search-overview.md)
 
-[Visión general de la página principal](quick-tour-home-page.md)
+[Información general de la página principal](quick-tour-home-page.md)
 
 [Visión general de las páginas de detalles de producto](quick-tour-pdp.md)
 
@@ -111,3 +107,6 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 
 [Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

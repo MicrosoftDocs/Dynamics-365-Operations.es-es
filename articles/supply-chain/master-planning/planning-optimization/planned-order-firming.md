@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7e3a86e2aa0e7182f7f9e853b9e8667e677a8ad6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102722"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103637"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -35,21 +35,23 @@ Este tema describe cada método en detalle.
 
 La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management que utilizan Optimización de planificación. Sin embargo, algunas de las funciones que se describen en este tema deben estar activadas en Administración de funciones antes de poder utilizarlas.
 
-### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activar o desactivar la confirmación en paralelo de pedidos planificados
+### <a name="enable-parallelized-firming-of-planned-orders"></a>Habilitar la confirmación en paralelo de pedidos planificados
 
-La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados. Para utilizar esta funcionalidad, la característica *Puesta en firme en paralelo de pedidos planificados* debe estar activada para su sistema. A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Puesta en firme en paralelo de pedidos planificados*.
+La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados.
+
+Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación paralela de pedidos planificados*.
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar la confirmación de pedidos planificados con filtrado
 
 La confirmación de pedidos planificados con filtrado le permite definir criterios lógicos para seleccionar qué pedidos planificados confirmar. También puede obtener una vista previa de los pedidos planificados que se seleccionaron, ejecutar el proceso en segundo plano y/o programarlo como un trabajo por lotes.
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Puesta en firme en paralelo de pedidos planificados* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación de pedidos planificados con filtrado*.
 
 ### <a name="enable-auto-firming-for-planning-optimization"></a>Habiitar la confirmación automática para Optimización de planificación
 
 La puesta en firme automática permite confirmar los pedidos planificados como parte del proceso de planificación maestra durante el intervalo de tiempo de confirmación. La confirmación automática siempre es compatible con el motor de planificación integrado en Supply Chain Management. Sin embargo, para usarlo también con Optimización de planificación, debe activar la función.
 
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación automática para Optimización de planificación*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
+Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación automática para Optimización de planificación*.
 
 ## <a name="manually-firm-planned-orders"></a>Confirmar manualmente pedidos planificados
 
@@ -79,10 +81,7 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
     - **Agrupar por período** (en la sección **Pedidos de compra**): seleccione el período por el que agrupar los pedidos de compra planificados. Para utilizar esta opción, también debe seleccionar la opción **Agrupar por proveedor**.
     - **Agrupar por período** (en la sección **Transferencias**): seleccione el período por el que agrupar los pedidos de transferencia planificados. Los pedidos se agruparán en función de los valores **Desde el almacén** y **Al almacén**.
 
-    > [!NOTE]
-    > Cada una de las opciones de "Agrupar por" hace que el sistema convierta cada orden planificada en una línea en la orden de compra única que resulta de la agrupación.
-
-    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación.](./media/manual-firming.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación")
+    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación](./media/manual-firming.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación")
 
 1. En la ficha desplegable **Ejecutar en segundo plano**, configure el trabajo para que se ejecute en modo por lotes. Sin embargo, no tiene sentido establecer una programación periódica si está haciendo confirmación manual. Los campos funcionan igual que para otros tipos de [trabajos en segundo plano](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) en Supply Chain Management. Sin embargo, para confirmación manual, el trabajo por lotes procesará solo los pedidos planificados seleccionados actualmente. No procesará ningún pedido que se ajuste a los filtros que se aplican actualmente en la página.
 1. Seleccione **Aceptar** para aplicar su configuración y generar los pedidos confirmados.
@@ -103,7 +102,7 @@ La confirmación automática permite confirmar los pedidos planificados como par
 
 La Optimización de planificación y el motor de planificación incorporado pueden utilizarse para confirmación automática de pedidos planificados. Sin embargo, existen algunas diferencias importantes. Por ejemplo, mientras que Optimización de planificación utiliza la fecha del pedido (es decir, la fecha inicial) para determinar qué pedidos planificados confirmar, el motor de planificación incorporado usa la fecha de requisito (es decir, la fecha final). En la tabla siguiente se resumen las diferencias.
 
-| Característica | Optimización de planificación | Motor de planificación incorporado |
+| | Optimización de planificación | Motor de planificación incorporado |
 |---|---|---|
 | **Base de fecha** | La puesta en firme automática se basa en la fecha del pedido (fecha inicial). | La puesta en firme automática en la fecha de requisito (fecha final). |
 | **Plazo** | Dado que la fecha del pedido (fecha inicial) activa la puesta en firme, no tiene que tener e cuenta el plazo como parte del límite de tiempo de la puesta en firme. | Para ayudar a garantizar que los pedidos se confirmen puntualmente, el límite de tiempo de confirmación debe ser superior al plazo. |
@@ -125,6 +124,8 @@ Si establece todos los límites de tiempo mencionados anteriormente en *0* (cero
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Confirmar pedidos planificados mediante una consulta
 
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+
 La confirmación basada en consultas le permite planificar la confirmación en función de criterios que se definen de antemano. A diferencia de la confirmación automática, la confirmación basada en consultas permite la confirmación automática de diferentes subconjuntos de pedidos en diferentes momentos. Además, puede utilizar operaciones manuales o automatizadas para confirmar diferentes tipos de pedidos planificados. También puede obtener una vista previa de los pedidos confirmados seleccionados en función de su configuración. Por lo tanto, puede confirmar que la selección se ajusta a sus expectativas.
 
 Puede combinar la confirmación automática con la confirmación basada en consultas. Por ejemplo, un trabajo de confirmación basado en consultas tiene un límite de tiempo hacia adelante que es más largo que el límite de tiempo para una configuración de cobertura de confirmación automática coincidente. Por lo tanto, el trabajo de confirmación basado en consultas procesará sus pedidos planificados antes de que se desencadene la confirmación automática. Puede aprovechar este comportamiento para programar pedidos para proveedores específicos de manera diferente a los pedidos de productos similares de otros proveedores.
@@ -141,15 +142,15 @@ Para confirmar un pedido planificado mediante el proceso de confirmación basado
     - **Días hacia adelante del límite de tiempo de confirmación**: seleccione hasta qué punto del futuro la planificación maestra debe calcular los distintos requisitos y otras consideraciones.
     - **Días hacia atrás del límite de tiempo de confirmación**: seleccione hasta qué punto del pasado la planificación maestra debe calcular los distintos requisitos y otras consideraciones.
 
-    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados.](./media/planned-order-firming-main-1.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados")
+    ![Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados](./media/planned-order-firming-main-1.png "Ficha desplegable Parámetros en el cuadro de diálogo Confirmación de pedidos planificados")
 
 1. Para especificar qué registros deben incluirse en el pedido, seleccione el botón **Filtrar** en la ficha desplegable **Registros a incluir**. Aparece un cuadro de diálogo de consulta estándar, donde puede definir criterios de selección, criterios de clasificación y combinaciones. Los campos funcionan igual que para otros tipos de consultas en Supply Chain Management. Los campos aquí son de solo lectura y muestran valores relacionados con su consulta.
 
-    ![Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados.](./media/planned-order-firming-main-2.png "Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados")
+    ![Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados](./media/planned-order-firming-main-2.png "Ficha desplegable Registros a incluir en el cuadro de diálogo Confirmación de pedidos planificados")
 
 1. Seleccione **Vista previa** para obtener una vista previa del contenido de su pedido confirmado, según su configuración hasta el momento. La lista de pedidos planificados que se confirmarán se muestra como un mensaje. A continuación, puede ajustar la configuración según sea necesario hasta que la vista previa muestre el pedido confirmado como lo desea.
 
-    ![Ejemplo de vista previa de un pedido confirmado.](./media/planned-order-firming-preview.png "Ejemplo de vista previa de un pedido confirmado")
+    ![Ejemplo de vista previa de un pedido confirmado](./media/planned-order-firming-preview.png "Ejemplo de vista previa de un pedido confirmado")
 
     > [!WARNING]
     > Esta función confirmará todos los pedidos planificados que coincidan con los criterios del filtro. La confirmación no crítica de los pedidos planificados puede provocar la creación de un gran número de pedidos de compra, transferencia y producción no deseados. Antes de continuar, utilice siempre el botón **Vista previa** para validar los registros que se incluirán.

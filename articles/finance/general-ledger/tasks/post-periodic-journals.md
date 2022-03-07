@@ -2,11 +2,9 @@
 title: Registrar diarios periódicos
 description: Los diarios periódicos a veces que se denominan diarios periódicos dado que el importe, el texto y otra información se repiten cada vez que se recupera el diario periódico.
 author: aprilolson
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763127"
 ---
 # <a name="post-periodic-journals"></a>Registrar diarios periódicos
 
@@ -57,3 +55,6 @@ Los diarios periódicos a veces que se denominan diarios periódicos dado que el
 27. En el campo **Número de diario periódico**, especifique o seleccione un valor.
 28. En la lista, haga clic en el vínculo de la fila seleccionada.
 29. Haga clic en **Aceptar**. El diario del período se puede revisar, aprobar o registrar ahora en función del requisito y la configuración.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Eliminación de un trabajo kanban de la programación
 description: Este procedimiento se centra en la eliminación de un trabajo kanban planificado de la programación revirtiendo el estado del trabajo a Sin planificar.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, SysLookupMultiSelectGrid, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 838270189e08065f791c9e58888351025e0a6df8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961624"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573642"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>Eliminación de un trabajo kanban de la programación
 
@@ -45,3 +43,6 @@ Este procedimiento se centra en la eliminación de un trabajo kanban planificado
 4. Haga clic en Aceptar
     * Esto revertirá el estado del trabajo actual de Planificado a Sin planificar, y lo eliminará del panel de tablero de procesos.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

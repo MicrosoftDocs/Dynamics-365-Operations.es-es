@@ -2,26 +2,23 @@
 title: EUR-00012 Emisión de un certificado de entrada de la UE
 description: Este procedimiento le muestra cómo habilitar un certificado de entrada de la UE, cómo configurar una cuenta de cliente para usar certificados de entrada y emitir un certificado.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters, CustTable, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustEntryCertificateJour_W, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0091af30b917aab3b8c4572a72a20d8d2d5d52e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 41ede621fdb36d39efc79788cd2da77aacfc282895dd84d572b99f4528456643
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768242"
 ---
 # <a name="eur-00012-issue-an-eu-entry-certificate"></a>EUR-00012 Emisión de un certificado de entrada de la UE
 
@@ -87,3 +84,6 @@ Este procedimiento le muestra cómo habilitar un certificado de entrada de la UE
 4. En el panel de acciones, haga clic en Factura.
 5. Haga clic en Ver certificados de entrada emitidos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

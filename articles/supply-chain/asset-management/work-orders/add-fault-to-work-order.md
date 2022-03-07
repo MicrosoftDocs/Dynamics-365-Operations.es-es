@@ -1,12 +1,10 @@
 ---
 title: Agregar error a orden de trabajo
 description: Este tema describe cómo agregar registros de error órdenes de trabajo en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761077"
 ---
 # <a name="add-fault-to-work-order"></a>Agregar error a orden de trabajo
 
@@ -52,7 +50,7 @@ Puede agregar los errores que se configuraron en el diseñador de errores para u
 
 En la ilustración siguiente se muestra un ejemplo de un registro de errores.
 
-![Figura 1](media/19-work-orders.png)
+![Figura 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Ver errores de activos
@@ -79,3 +77,6 @@ En la página de la lista **Todos los activos**, puede imprimir un informe de er
 >[!NOTE]
 >Para imprimir un informe de error para varios activos o tipos de activo, seleccione **Administración de activos** > **Informes** > **Activos** > **Error de activo**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

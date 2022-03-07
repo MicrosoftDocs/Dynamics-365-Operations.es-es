@@ -1,10 +1,12 @@
 ---
-title: Depreciación con amortización degresiva del 175 %
-description: Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
-author: moaamer
+title: Depreciación con amortización degresiva del 175%
+description: Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
+author: saraschi2
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883272"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230355"
 ---
-# <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175 %
+# <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175%
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
+Este tema le ofrece una visión general del método de depreciación Depreciación con amortización degresiva del 175%.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 175%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. 
 
@@ -64,9 +66,9 @@ Si selecciona **Fiscal** como año de depreciación, aparecen las siguientes opc
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Ejemplo de depreciación con amortización degresiva del 175%
 
-| Campo                          | Valor  |
+|                                |        |
 |--------------------------------|--------|
-| Coste de adquisición               | 11,000 |
+| Coste de adquisición               | 11.000 |
 | Valor residual                  | 1.000  |
 | Base de depreciación              | 10.000 |
 | Años de tiempo de vida             | 5      |

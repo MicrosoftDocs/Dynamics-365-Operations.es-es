@@ -2,7 +2,7 @@
 title: Configurar días de espera
 description: En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hito mensual para usarlo en los planes de beneficios.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb72e46674b64897e4ffb6dbf458e453801b4dc3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aba4a073e714e950b8efed1692ff2de7b3d557fa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420350"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468332"
 ---
 # <a name="configure-waiting-days"></a>Configurar días de espera
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hito mensual para usarlo en los planes de beneficios. Por ejemplo, un día de espera de 15 representa el día 15 de cada mes. 
 
@@ -42,3 +44,6 @@ En Microsoft Dynamics 365 Human Resources, los días de espera establecen un hit
    | **Día** | El día del mes en que el sistema debe establecer la fecha del período de espera. |
    
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

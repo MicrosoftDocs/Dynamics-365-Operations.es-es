@@ -2,11 +2,9 @@
 title: Crear estructuras contables
 description: Esta guía de tareas describe los pasos de la creación de una estructura contable.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a8df7d7d9c4555bf46ac1cc3f71695837b1369b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 93cc2e9ceb15070491bb3d0a790367e6d5bf8c4a30cd7efa690fd825963165b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779550"
 ---
 # <a name="create-account-structures"></a>Crear estructuras contables
 
@@ -60,3 +58,6 @@ Esta guía de tareas describe los pasos de la creación de una estructura contab
 29. En el panel de **Acción**, haga clic en **Activar**.
 30. Haga clic en **Activar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

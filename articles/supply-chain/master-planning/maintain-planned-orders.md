@@ -2,11 +2,9 @@
 title: Mantener pedidos planificados
 description: En este tema se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039fce86ac9649989df1eaa6179c79dd98b8ae3f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7f97dc4627f9bb3a0ac2020b966de7e58aafcedc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967084"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833674"
 ---
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
@@ -67,3 +65,6 @@ Si tiene previsto consolidar muchos pedidos al mismo tiempo, una ejecución en p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

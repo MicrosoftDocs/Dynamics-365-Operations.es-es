@@ -2,11 +2,9 @@
 title: Mostrar páginas en paralelo con la función Abrir en una ventana nueva
 description: Este artículo explica cómo mostrar páginas lado a lado.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798412"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068068"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Mostrar páginas en paralelo con la función Abrir en una ventana nueva
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este artículo explica cómo mostrar páginas lado a lado.
 
@@ -48,3 +49,6 @@ Antes de usar la característica **Abrir en ventana nueva**, debe configurar el 
 La característica **Abrir en ventana nueva** solo está disponible cuando hay más de una página abierta en la ventana. Además, la ventana emergente se cierra automáticamente cuando no hay más páginas abiertas (es decir, cuando cierre la última página de esa ventana). El sistema también cierra las páginas abiertas cuando navega a otra área de la aplicación. Por lo tanto, si tiene ventanas emergentes abiertas y navega a otra área de la aplicación, las ventanas emergentes se cierran automáticamente porque el sistema cerró las páginas de esas ventanas.
 
 La barra superior de las ventanas emergentes muestra información acerca de la empresa en la que se abrió la página y es de solo lectura. Las ventanas emergentes también dependen de la ventana del explorador principal. Si se cierra o se actualiza la ventana principal, todas las ventanas emergentes serán de solo lectura. Si se da esta situación, podrá seguir viendo la información en estas ventanas, pero no podrá interactuar con ella.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

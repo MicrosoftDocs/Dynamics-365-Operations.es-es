@@ -2,35 +2,30 @@
 title: Agregar un icono de favoritos
 description: En este tema se explica cómo agregar un icono de favoritos al sitio.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415469"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964741"
 ---
-# <a name="add-a-favicon"></a>Agregar un icono de favoritos
+# <a name="add-a-favicon"></a>Agregar un icono favorito
 
 [!include [banner](includes/banner.md)]
 
 En este tema se explica cómo agregar un icono de favoritos al sitio.
-
-## <a name="overview"></a>Visión general
 
 Un icono de favoritos es un pequeño archivo gráfico que se muestra en una pestaña del explorador web, en la barra de direcciones, en el historial de exploración, y en marcadores o favoritos, entre otros lugares. Recomendamos que agregue un icono de favoritos al sitio, ya que representa y refuerza su marca, y ayuda a diferenciar el sitio de otros que los clientes visitan.
 
@@ -66,7 +61,7 @@ Para crear un fragmento que contenga una metaetiqueta para el icono favorito, si
 1. En el cuadro de diálogo **Nuevo fragmento**, seleccione **Metaetiquetas** como módulo en el que se basa el fragmento.
 1. Especifique un nombre para el fragmento y después seleccione **Aceptar**.
 1. En el árbol de jerarquía de fragmentos, seleccione el elemento secundario **Metaetiquetas predeterminadas**.
-1. En el panel derecho, en **Metaetiquetas**, seleccione **Añadir** y luego introduzca la cadena HTML que creó anteriormente para el icono favorito. 
+1. En el panel derecho, en **Metaetiquetas**, seleccione **Añadir** y luego introduzca la cadena HTML que creó anteriormente para el icono favorito. 
 1. Seleccione **Finalizar edición** y luego seleccione **Publicar** para publicar el fragmento.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Agregar el fragmento de metaetiqueta a la sección de encabezado HTML de las páginas
@@ -91,11 +86,12 @@ Cuando obtenga una vista previa de las páginas que se basan en la plantilla a l
 
 [Trabajar con archivos de invalidaciones CSS](css-override-files.md)
 
-[Agregar un mensaje de bienvenida](add-welcome-message.md)
-
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar idiomas al sitio](add-languages-to-site.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

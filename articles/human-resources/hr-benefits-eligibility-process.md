@@ -2,28 +2,27 @@
 title: Proceso de idoneidad para prestación
 description: Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: d23dcf4a16979b14ddf58b54e812f21e6698dfc7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d5ea8e1255c91c930685f84b9f9f76b03da192d
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420335"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6053090"
 ---
 # <a name="benefit-eligibility-process"></a>Proceso de idoneidad para prestación
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestación. Cuando se complete el proceso, podrá ver los resultados. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
@@ -54,3 +53,6 @@ Este procedimiento muestra cómo funciona el proceso de idoneidad de la prestaci
 25. Abrir filtro de columna Estado.
 26. Ordenar de A a Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

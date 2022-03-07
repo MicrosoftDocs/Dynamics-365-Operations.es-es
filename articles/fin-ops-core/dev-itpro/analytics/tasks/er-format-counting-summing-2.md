@@ -1,12 +1,10 @@
 ---
 title: 'Informe electrónico Configurar el formato para contar y sumar (Parte 2: Configuración de cálculos)'
-description: Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada.
+description: Este tema describe cómo configurar un formato de informes electrónicos para realizar recuentos y sumas en función de los datos de la salida de texto ya generados. (Parte 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9314a8cd5838333a20dd59dfb52f80a43d89b8c6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 66b911a7cec6bc1506edb0e4cd6757cb6834a9e977c5e43052725cfa58c1342e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770846"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 2: Configuración de cálculos)
 
@@ -139,3 +137,6 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 83. Haga clic en Guardar.
 84. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

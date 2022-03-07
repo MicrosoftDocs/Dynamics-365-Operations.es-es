@@ -2,25 +2,28 @@
 title: Pagos de cliente para un importe parcial
 description: A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales.
 author: ShivamPandey-msft
+manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b4a930f7bb070d3105eff3978774bfd8a3ffbfd2b8eb77097028411da619c64
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769044"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4447468"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Pagos de cliente para un importe parcial
 
@@ -28,7 +31,8 @@ ms.locfileid: "6769044"
 
 A veces, los clientes realizan un pago inferior al importe de la factura. Este artículo describe las diferentes opciones para gestionar esta situación. Las opciones disponibles dependen de la configuración y de los requisitos empresariales.
 
-## <a name="partial-payment-with-no-discount"></a>Pagos parciales sin descuento
+<a name="partial-payment-with-no-discount"></a>Pagos parciales sin descuento
+--------------------------------
 
 Los clientes pueden realizar un pago parcial porque no dispongan de efectivo disponible para pagar la factura por completo, o porque haya desacuerdo acerca de un artículo en la factura. En esta situación, la factura se puede liquidar parcialmente con el pago. La factura permanecerá abierta y mostrará un saldo.
 
@@ -56,6 +60,3 @@ Los clientes pueden realizar un pago parcial que no pagará el importe restante 
 
 
 Para obtener más información, consulte [Depósito pagos del cliente](tasks/deposit-customer-payments.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

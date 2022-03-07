@@ -1,25 +1,27 @@
 ---
 title: Diagrama de árbol lean de pedidos de ventas
 description: Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8eca21f8bd988ca352c07e839295b3edd9669929
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 457e7128bed2232a3e092b31136f768940482741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580633"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994188"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Diagrama de árbol lean de pedidos de ventas
 
@@ -54,6 +56,3 @@ Este procedimiento se centra en validar el diagrama de árbol de una línea de v
 5. En el árbol, seleccione "Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559".
     * El trabajo para el segundo kanban también se planifica, ya que se planifica el diagrama de árbol completo. Observe que el estado del trabajo kanban se cambia de Sin planificar a Planificado.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

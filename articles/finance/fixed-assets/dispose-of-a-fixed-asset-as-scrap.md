@@ -2,11 +2,9 @@
 title: Retirar un activo fijo como desechado
 description: El tema describe el proceso de eliminar transacciones para un activo fijo que se ha desechado como residuo.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 4dee4468079a9ad500f513900cec090acf6026ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90eb791bae2bbe70cf9fe7127a98962305449e1d0b370cfa001afbd3654046ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752927"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Retirar un activo fijo como desechado
 
@@ -45,7 +43,7 @@ El tema describe el proceso de eliminar transacciones para un activo fijo que se
 Antes de desechar un activo fijo como residuo, debe crear cuentas contables asociadas al valor de adquisición del activo, la depreciación durante del año actual, la depreciación de los años anteriores, y el NBV del activo. Los tipos de transacción de activos fijos figuran en la página **Perfil de contabilización de activos fijos**. Vaya a **Activos fijos \> Configuración \> Perfiles de contabilización de activos fijos** y, en la ficha desplegable **Cancelación**, seleccione **Residuo** en el campo que está encima de la cuadrícula. La ilustración siguiente muestra la lista de tipos de transacciones de activos fijos en la página **Perfiles de contabilización de activos fijos**.
 
 
-[![Desechar un activo como residuo, Fig. 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Desechar un activo como residuo, Fig. 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Para el siguiente ejemplo, un activo fijo se adquirió el 1 de enero de 2018, y se dará de baja el 31 de marzo de 2019.
 
@@ -60,24 +58,27 @@ Valor neto en los libros = Precio de adquisición – depreciación
 
 En este ejemplo, se adquirió el activo fijo y se depreció durante 15 meses, de enero de 2018 a marzo de 2019. Por lo tanto, el NBV del activo es 9000,00 USD (24.000,00 USD – 15.000,00 USD).
 
-[![Ejemplo de depreciación para activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Ejemplo de depreciación para activos fijos.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Para crear un diario de cancelación, vaya a **Activos fijos \> Entradas de diario \> Diario de activos fijos** y, a continuación, en el panel de acciones, seleccione **Líneas**. Seleccione **Cancelación – residuos**, y a continuación, seleccione un identificador de activos fijos. Para cancelar completamente el activo, no inserte un valor en el campo **Débito** o el campo **Crédito** .
 
-[![Diario de activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Diario de activos fijos.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 La transacción de cancelación de activos fijos cambia los valores de campo del libro de activos fijos de las siguientes formas:
 
 - En la sección **Saldo** , el campo **Estado** se actualizará **Desechado**.
 - En la sección **Emisión** , el campo **Fecha de cancelación** se establece en la fecha en la que el activo se dio de baja.
 
-[![Detalle del diario de activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Detalle del diario de activos fijos.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 La ilustración siguiente muestra el saldo de activos fijos.
 
-[![Saldo de activos fijos](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Saldo de activos fijos.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 La ilustración siguiente muestra el asiento que se registra.
 
-[![Valor neto en los libros](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Valor neto en los libros.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

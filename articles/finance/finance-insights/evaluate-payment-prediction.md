@@ -1,34 +1,30 @@
 ---
-title: Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
+title: Evaluar el modelo de predicción de pago de cliente inicial
 description: Este tema describe los pasos que puede seguir para conocer el modelo de predicción de pagos de clientes y evaluar su efectividad.
 author: ShivamPandey-msft
-manager: AnnBe
-ms.date: 05/28/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644978"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969121"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Evaluar el modelo de predicción de pagos de clientes inicial (versión preliminar)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Evaluar el modelo de predicción de pago de cliente inicial
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema explica cómo evaluar un modelo de predicción después de haber activado Finance Insights y luego haber generado y entrenado su primer modelo. Este tema trata los modelos para predecir los pagos de los clientes. Describe los pasos que puede seguir para conocer el modelo de predicción de pagos de clientes y evaluar su efectividad.
 
@@ -36,32 +32,32 @@ Este tema explica cómo evaluar un modelo de predicción después de haber activ
 
 En la página **Parámetros de Finance Insights** de Microsoft Dynamics 365 Finance, aparece un vínculo **Mejorar la precisión del modelo** junto a la puntuación de precisión.
 
-[![Vínculo Mejorar la precisión del modelo](./media/prediction-model.png)](./media/prediction-model.png)
+[![Vínculo Mejorar la precisión del modelo.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Este vínculo le lleva a AI Builder, donde puede obtener más información sobre el modelo actual y también tomar medidas para mejorarlo. La ilustración siguiente muestra la página que se abre.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 La página que se abre muestra la siguiente información:
 
-- En la sección **Rendimiento**, el grado de rendimiento del modelo proporciona una perspectiva sobre la calidad del modelo. Para obtener más información sobre este grado, consulte [Rendimiento del modelo de predicción](https://docs.microsoft.com/ai-builder/prediction-performance) en la documentación de AI Builder.
+- En la sección **Rendimiento**, el grado de rendimiento del modelo proporciona una perspectiva sobre la calidad del modelo. Para obtener más información sobre este grado, consulte [Rendimiento del modelo de predicción](/ai-builder/prediction-performance) en la documentación de AI Builder.
 - La sección **Datos más influyentes** muestra la importancia de los diferentes tipos de datos de entrada para su modelo. Puede evaluar esta lista y los porcentajes correspondientes para determinar si la información es coherente con lo que sabe sobre su negocio y mercado.
 
-    [![Secciones de datos Rendimiento y Más influyentes para el modelo de predicción](./media/models.png)](./media/models.png)
+    [![Secciones de datos Rendimiento y Más influyentes para el modelo de predicción.](./media/models.png)](./media/models.png)
 
 - En la sección **Rendimiento**, seleccione **Ver detalles** para obtener más información sobre el grado y otras consideraciones. En la siguiente ilustración, los detalles muestran que el modelo usa menos información de la recomendada. Por tanto, el sistema ha generado un mensaje de advertencia.
 
-    [![Advertencias sobre el rendimiento del modelo](./media/details.png)](./media/details.png)
+    [![Advertencias sobre el rendimiento del modelo.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Mayor profundidad
 
 Aunque la precisión es un buen punto de partida para evaluar un modelo, y el grado de rendimiento proporciona perspectiva, AI Builder proporciona métricas más detalladas que puede utilizar para su evaluación. Para descargar los detalles, en la sección **Rendimiento**, seleccione el botón de puntos suspensivos (**...**) próximo al botón **Modelo de uso** y luego seleccione **Descargar métricas detalladas**.
 
-[![Comando Descargar métricas detalladas](./media/performance.png)](./media/performance.png)
+[![Comando Descargar métricas detalladas.](./media/performance.png)](./media/performance.png)
 
 La siguiente ilustración muestra el formato en el que puede descargar los datos.
 
-[![Formato de datos descargados](./media/data-format.png)](./media/data-format.png)
+[![Formato de datos descargados.](./media/data-format.png)](./media/data-format.png)
 
 Para un análisis más profundo de los resultados, un buen punto de partida es revisar la métrica "Matriz de confusión". Por ejemplo, aquí están los datos que se muestran para esta métrica en la ilustración anterior.
 
@@ -69,7 +65,7 @@ Para un análisis más profundo de los resultados, un buen punto de partida es r
 
 Puede expandir estos datos de la siguiente manera.
 
-|                          | Previsto Puntual | Previsto Tarde | Previsto Muy tarde |
+| &nbsp;                   | Previsto Puntual | Previsto Tarde | Previsto Muy tarde |
 |--------------------------|-------------------|----------------|---------------------|
 | Pago real puntual   | **71**            | 0              | 21                  |
 | Pago real tarde      | 5                 | **0**          | 27                  |
@@ -99,5 +95,4 @@ Una vez que comprenda mejor los resultados de su primer modelo, es posible que d
 
 Para obtener más información sobre cómo evaluar modelos de predicción, consulte [Resultados de los modelos de Machine Learning](/confusion-matrix.md)
 
-#### <a name="privacy-notice"></a>Aviso de privacidad
-Las versiones preliminares (1) pueden utilizar menos privacidad y menos medidas de seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) disponen de soporte limitado.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,32 @@
 ---
 title: Configurar autoservicio para empleados
 description: En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en autoservicio para empleados.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420466"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898449"
 ---
 # <a name="configure-employee-self-service"></a>Configurar autoservicio para empleados
 
-En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en autoservicio para empleados. El icono del plan de prestaciones dirige a los usuarios a los planes de prestaciones a los que pueden optar.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la navegación de nivel superior en **Autoservicio para empleados**. El icono del plan de prestaciones dirige a los usuarios a los planes de prestaciones a los que pueden optar.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Configurar un icono de planes de prestaciones
 
@@ -35,19 +34,16 @@ En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la naveg
 
 2. Seleccione la pestaña **Configuración del icono de planes de prestaciones** y luego seleccione **Nuevo**.
 
-3. Especifique los valores para los siguientes campos:
+3. Especifique valores para los campos siguientes.
 
-   | Campo | Descripción |
+   | Campo | Description |
    | --- | --- |
+   | **Código de tipo de plan** | El tipo de plan que se muestra cuando se selecciona este icono en **Autoservicio de prestaciones**. |
    | **Id. de icono** | El identificador único del icono. |
-   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en el autoservicio. |
+   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en **Autoservicio de prestaciones**. |
    | **Descripción** | Una descripción del icono. |
-   | **Dirección de Internet** | Introduzca la URL de la página de autoservicio del empleado. |
-   | **Tamaño de icono** | El tamaño del icono: pequeño, mediano o grande. |
-   | **Destino** | Especifica si la página debe abrirse en una nueva ventana o en la ventana actual. |
    | **Imagen de fondo de icono** | La URL de la imagen a usar para el icono (opcional). |
-   | **Inicio** | La fecha y hora de inicio del icono en las que debe estar disponible. |
-   | **Fin** | La fecha y hora de finalización del icono en las que debe estar disponible. |
+   | **Seguimiento de inscripción abierta** | Seleccione esta opción para realizar un seguimiento del progreso de la inscripción abierta para este tipo de plan. Por ejemplo, puede haber creado planes donde **Plan type = Other**. Estos planes pueden ser planes opcionales para los que no desea realizar un seguimiento del progreso de la inscripción. Si no selecciona este tipo de plan, este tipo de plan se ignorará al realizar un seguimiento del progreso o finalización de la inscripción en la pestaña **Inscripción abierta**. Esta configuración se aplica al tipo de plan que se selecciona para todos los períodos y entidades legales. |
 
 4. Seleccione **Guardar**.
 
@@ -57,18 +53,18 @@ En Microsoft Dynamics 365 Human Resources, puede configurar iconos para la naveg
 
 2. Seleccione la pestaña **Configuración del icono de plan de crédito flexible** y luego seleccione **Nuevo**.
 
-3. Especifique los valores para los siguientes campos:
+3. Especifique valores para los campos siguientes.
 
-   | Campo | Descripción |
+   | Campo | Description |
    | --- | --- |
+   | **Id. de crédito de prestación** | Los planes de programa de crédito flexible que se mostrarán cuando se seleccione este icono en **Autoservicio de prestaciones**. |
    | **Id. de icono** | El identificador único del icono. |
-   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en el autoservicio. |
+   | **Texto de etiqueta de icono** | El texto que aparecerá para el icono en **Autoservicio de prestaciones**. |
    | **Descripción** | Una descripción del icono. |
-   | **Dirección de Internet** | Introduzca la URL de la página de autoservicio del empleado. |
-   | **Tamaño de icono** | El tamaño del icono: pequeño, mediano o grande. |
-   | **Destino** | Especifica si la página debe abrirse en una nueva ventana o en la ventana actual. |
    | **Imagen de fondo de icono** | La URL de la imagen a usar para el icono (opcional). |
-   | **Inicio** | La fecha y hora de inicio del icono en las que debe estar disponible. |
-   | **Fin** | La fecha y hora de finalización del icono en las que debe estar disponible. |
+   | **Seguimiento de inscripción abierta** | Seleccione esta opción para realizar un seguimiento del progreso de la inscripción abierta para este tipo de plan. Por ejemplo, puede haber creado planes donde **Plan type = Other**. Estos planes pueden ser planes opcionales para los que no desea realizar un seguimiento del progreso de la inscripción. Si no selecciona este tipo de plan, este tipo de plan se ignorará al realizar un seguimiento del progreso o finalización de la inscripción en la pestaña **Inscripción abierta**. Esta configuración se aplica al tipo de plan que se selecciona para todos los períodos y entidades legales. |
 
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

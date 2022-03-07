@@ -1,12 +1,10 @@
 ---
 title: Trabajadores de mantenimiento responsables
 description: En este tema se explica cómo configurar trabajadores de mantenimiento responsables en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerResponsible
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 137ed393f28131262584d5a2ae414092b124ea0e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d68c9e6de6e9d62d1dea95c747b17900d343e7324857dcfc083d48e5c1006b0e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731304"
 ---
 # <a name="responsible-maintenance-workers"></a>Trabajadores de mantenimiento responsables
 
@@ -52,4 +50,7 @@ Para poder configurar los trabajadores de mantenimiento responsables, debe confi
 
 La ilustración siguiente muestra un ejemplo de la página **Trabajadores de mantenimiento responsables**.
 
-![Página de trabajadores de mantenimiento responsables](media/08-setup-for-requests.png)
+![Página de trabajadores de mantenimiento responsables.](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

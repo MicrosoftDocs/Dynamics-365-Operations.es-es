@@ -2,16 +2,13 @@
 title: Planificación maestra con previsiones de demanda
 description: Este tema explica cómo incluir previsiones de demanda durante la planificación maestra con Optimización de la planificación.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666731"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867256"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
 
@@ -44,7 +41,7 @@ Para configurar un plan maestro de modo que incluya un pronóstico de demanda, s
 1. En la ficha rápida **General**, establezca los siguientes campos:
 
     - **Modelo de previsión** - Seleccione el modelo de previsión para aplicar. Este modelo se considerará cuando se genere una sugerencia de suministro para el plan maestro actual.
-    - **Include demand forecast** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
+    - **Incluir previsión de la demanda** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
     - **Método utilizado para reducir los requisitos de pronóstico** - Seleccione el método que se debe utilizar para reducir los requisitos de pronóstico. Para obtener más información, consulte la sección [Previsión de las claves de reducción](#reduction-keys) más adelante en este tema.
 
 1. En la ficha desplegable **Valla de tiempo en días**, puede establecer los siguientes campos para especificar el período durante el cual se incluye el pronóstico de demanda:
@@ -87,11 +84,11 @@ Esta sección proporciona información sobre los distintos métodos que se usan 
 
 Cuando incluye una previsión en un plan maestro, puede seleccionar cómo se reducen los requisitos de previsión cuando la demanda real es incluida. Tenga en cuenta que la planificación maestra excluye los requisitos de pronóstico del pasado, lo que significa todos los requisitos de pronóstico antes de la fecha de hoy.
 
-Para incluir una previsión en un plan maestro y seleccionar el método que se usa para reducir los requisitos de previsión, vaya a **Planificación maestra \> Configuración \> Planes \> Planes maestros**. En el campo **Modelo de previsión** seleccione un modelo de previsión. En el campo **Método utilizado para reducir los requisitos de previsión**, seleccione un método. Las siguientes opciones están disponibles:
+Para incluir una previsión en un plan maestro y seleccionar el método que se usa para reducir los requisitos de previsión, vaya a **Planificación maestra \> Configuración \> Planes \> Planes maestros**. En el campo **Modelo de previsión** seleccione un modelo de previsión. En el campo **Método utilizado para reducir los requisitos de previsión**, seleccione un método. Las opciones siguientes están disponibles:
 
-- None
+- Ninguno
 - Porcentaje - clave de reducción
-- Transacciones: clave de reducción (aún no compatible con la optimización de planificación)
+- Transacciones – clave de reducción
 - Transacciones – período dinámico
 
 En las secciones siguientes se ofrece más información acerca de cada opción.
@@ -140,32 +137,85 @@ En este caso, si ejecuta la programación de previsión el 1 de enero, los requi
 
 #### <a name="transactions--reduction-key"></a>Transacciones – clave de reducción
 
-Si seleccionó **Transacciones - clave de reducción**, los requisitos de previsión se reducen mediante las transacciones que se producen durante los períodos definidos por la clave de reducción.
+Si configura el campo **Método utilizado para reducir los requisitos de previsión** en *Transacciones - clave de reducción*, los requisitos de pronóstico se reducen por las transacciones de demanda calificadas que se producen durante los períodos definidos por la clave de reducción.
+
+La demanda calificada está definida por el campo **Reducir el pronóstico en** en la página **Grupos de cobertura**. Si configura el campo **Reducir el pronóstico en** a *Pedidos*, solo las transacciones de órdenes de venta se consideran demanda calificada. Si lo configura en *Todas las transacciones*, cualquier transacción de inventario de emisión no intercompañía se considera demanda calificada. Si se deben considerarse demanda cualificada los pedidos de ventas de empresas vinculadas, establezca la opción **Incluir pedidos de empresas vinculadas** en *Sí*.
+
+La reducción del pronóstico comienza con el primer registro de pronóstico de demanda (el más temprano) en el período clave de reducción. Si la cantidad de transacciones de inventario calificadas es mayor que la cantidad de líneas de previsión de demanda en el mismo período clave de reducción, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad de previsión de demanda en el período anterior (si hay una previsión no consumida).
+
+Si no queda ningún pronóstico no consumido en el período clave de reducción anterior, el saldo de la cantidad de transacciones de inventario se utilizará para reducir la cantidad pronosticada en el mes siguiente (si hay un pronóstico no consumido).
+
+El valor del campo **Por ciento** en las líneas clave de reducción no se utiliza cuando el campo **Método utilizado para reducir los requisitos de previsión** está configurado en *Transacciones - clave de reducción*. Solo las fechas se utilizan para definir el período clave de reducción.
+
+> [!NOTE]
+> Cualquier pronóstico que se publique en o antes de la fecha de hoy se ignorará y no se utilizará para crear pedidos planificados. Por ejemplo, si su pronóstico de demanda para el mes se genera el 1 de enero y ejecuta una planificación maestra que incluye el pronóstico de demanda el 2 de enero, el cálculo ignorará la línea de pronóstico de demanda con fecha del 1 de enero.
 
 ##### <a name="example-transactions--reduction-key"></a>Ejemplo: Transacciones - clave de reducción
 
 Este ejemplo muestra cómo los pedidos reales, que se producen en períodos definidos por la clave de reducción, reducen los requisitos de previsión de la demanda.
 
-Para este ejemplo seleccione **Transacciones - clave de reducción** , en el campo **Método utilizado para reducir los requisitos de previsión** , de la página **Planes maestros**.
+[![Órdenes reales y previsión antes de ejecutar la planificación maestra.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Los siguientes pedidos de ventas existen el 1 de enero.
+Para este ejemplo seleccione *Transacciones - clave de reducción* , en el campo **Método utilizado para reducir los requisitos de previsión** , de la página **Planes maestros**.
 
-| Mes    | Número de piezas solicitadas |
-|----------|--------------------------|
-| Enero  | 956                      |
-| Febrero | 1.176                    |
-| Marzo    | 451                      |
-| Abril    | 119                      |
+Las siguientes líneas de pronóstico de demanda existen el 1 de abril.
 
-Si utiliza la misma previsión de la demanda de 1000 piezas por mes que se usó en el ejemplo anterior, las siguientes cantidades de requisitos se transfieren al plan maestro.
+| Fecha     | Número de piezas previsto |
+|----------|-----------------------------|
+| 5 de abril  | 100                         |
+| 12 de abril | 100                         |
+| 19 de abril | 100                         |
+| 26 de abril | 100                         |
+| mayo de 3    | 100                         |
+| mayo de 10   | 100                         |
+| mayo de 17   | 100                         |
 
-| Mes                | Número de piezas requeridas |
-|----------------------|---------------------------|
-| Enero              | 44                        |
-| Febrero             | 0                         |
-| Marzo                | 549                       |
-| Abril                | 881                       |
-| De mayo a diciembre | 1.000                     |
+Las siguientes líneas de órdenes de venta existen en abril.
+
+| Fecha     | Número de piezas solicitadas |
+|----------|----------------------------|
+| 27 de abril | 240                        |
+
+[![Suministro planificado generado en base a los pedidos de abril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+Las siguientes cantidades necesarias se transfieren al plan maestro cuando se ejecuta la planificación maestra el 1 de abril. Como puede ver, las transacciones de pronóstico de abril se redujeron en la cantidad de demanda de 240 en una secuencia, comenzando por la primera de esas transacciones.
+
+| Fecha     | Número de piezas requeridas |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| mayo de 3    | 100                       |
+| mayo de 10   | 100                       |
+| mayo de 17   | 100                       |
+
+Ahora, suponga que se importaron nuevos pedidos para el período de mayo.
+
+Las siguientes líneas de órdenes de venta existen en mayo.
+
+| Fecha   | Número de piezas solicitadas |
+|--------|----------------------------|
+| mayo de 4  | 80                         |
+| mayo de 11 | 130                        |
+
+[![Suministro planificado generado en base a los pedidos de abril y mayo.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+Las siguientes cantidades necesarias se transfieren al plan maestro cuando se ejecuta la planificación maestra el 1 de abril. Como puede ver, las transacciones de pronóstico de abril se redujeron en la cantidad de demanda de 240 en una secuencia, comenzando por la primera de esas transacciones. Sin embargo, las transacciones de pronóstico de mayo se redujeron en un total de 210, a partir de la primera transacción de pronóstico de demanda en mayo. Sin embargo, se conservan los totales por período (400 en abril y 300 en mayo).
+
+| Fecha     | Número de piezas requeridas |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| mayo de 3    | 0                         |
+| mayo de 4    | 80                        |
+| mayo de 10   | 0                         |
+| mayo de 11   | 130                       |
+| mayo de 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transacciones – período dinámico
 
@@ -250,7 +300,7 @@ Por lo tanto, se crean los siguientes pedidos planificados.
 Una clave de reducción de previsión se usa en **Transacciones - clave de reducción** y los métodos **Porcentaje - clave de reducción** para reducir los requisitos previstos de previsión. Siga estos pasos para crear y configurar una clave de reducción.
 
 1. Vaya a **Planificación maestra \> Configuración \> Cobertura \> Claves de reducción**.
-2. Seleccione **Nueva** o pulse **CTRL+N** para crear una clave de reducción.
+2. Seleccione **Nuevo** para crear una clave de reducción.
 3. En el campo **Clave de reducción** , especifique un identificador único para la clave de reducción de previsión. Después escriba un nombre en el campo **Nombre**. 
 4. Definir períodos y el porcentaje de la clave de reducción en cada período:
 
@@ -266,11 +316,78 @@ Una clave de reducción de previsión debe asignarse al grupo de cobertura del a
 2. En la ficha desplegable **Otro**, en el campo **Clave de reducción** seleccione la clave de reducción que se asignará al grupo de cobertura. La clave de reducción se aplicará a todos los artículos que pertenezcan al grupo de cobertura.
 3. Para usar una clave de reducción para calcular la reducción de previsión durante la programación maestra, debe definir esta configuración en el plan de previsión o el plan maestro. Vaya a una de las páginas ubicaciones:
 
-    - Planificación maestra \> Configuración \> Planes \> Planes de previsión
-    - Planificación maestra \> Configurar \> Planes \> Planes maestros
+    - **Planificación maestra \> Configuración \> Planes \> Planes de previsión**
+    - **Planificación maestra \> Configurar \> Planes \> Planes maestros**
 
 4. En la página **Planes de previsión** o **Planes maestros** , en la ficha desplegable **General** , en el campo **Método utilizado para reducir los requisitos de previsión** , seleccione **Porcentaje - clave de reducción** o **Transacciones - clave de reducción**.
 
 ### <a name="reduce-a-forecast-by-transactions"></a>Reducir una previsión por transacciones
 
 Cuando selecciona **Transacciones - clave de reducción** o **Transacciones - período dinámico** como método para reducir los requisitos previstos, puede especificar qué transacciones reducen la previsión. En la página **Grupos de cobertura** , en la ficha desplegable **Otro** , en el campo **Reducir la previsión por** , seleccione **Todas las transacciones** si todas las transacciones deben reducir la previsión o **Pedidos** si sólo los pedidos de ventas reducen la previsión.
+
+## <a name="forecast-models-and-submodels"></a>Modelos y submodelos de previsión
+
+Esta sección describe cómo crear modelos de pronóstico y cómo combinar varios modelos de pronóstico configurando submodelos.
+
+Un *modelo de previsión* denomina e identifica una previsión determinada. Una vez que haya creado el modelo de pronóstico, puede agregarle líneas de pronóstico. Para agregar líneas de previsión para varios artículos, use la página **Líneas de previsión de demanda**. Para agregar líneas de previsión para un artículo seleccionado específico, use la página **Productos lanzados**.
+
+Un modelo de pronóstico puede incluir pronósticos de otros modelos de pronóstico. Para lograr este resultado, agrega otros modelos de pronóstico como *submodelos* de un modelo de pronóstico principal. Debe crear cada modelo relevante antes de poder agregarlo como un submodelo de un modelo de pronóstico principal.
+
+La estructura resultante le brinda una forma poderosa de controlar los pronósticos, ya que le permite combinar (agregar) la entrada de múltiples pronósticos individuales. Por lo tanto, desde el punto de vista de la planificación, es fácil combinar pronósticos para simulaciones. Por ejemplo, puede configurar una simulación que se base en la combinación de un pronóstico regular con el pronóstico de una promoción de primavera.
+
+### <a name="submodel-levels"></a>Niveles de submodelo
+
+No hay límite en la cantidad de submodelos que se pueden agregar a un modelo de pronóstico principal. Sin embargo, la estructura solo puede tener un nivel de profundidad. En otras palabras, un modelo de pronóstico que es un submodelo de otro modelo de pronóstico no puede tener sus propios submodelos. Cuando agrega submodelos a un modelo de pronóstico, el sistema verifica si ese modelo de pronóstico ya es un submodelo de otro modelo de pronóstico.
+
+Si la planificación maestra encuentra un submodelo que tiene sus propios submodelos, recibirá un mensaje de error.
+
+#### <a name="submodel-levels-example"></a>Ejemplo de niveles de submodelo
+
+El modelo de pronóstico A tiene el modelo de pronóstico B como submodelo. Por lo tanto, el modelo de pronóstico B no puede tener sus propios submodelos. Si intenta agregar un submodelo al modelo de pronóstico B, recibirá el siguiente mensaje de error: "El modelo de pronóstico B es un submodelo para el modelo A".
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Agregar pronósticos a través de modelos de pronóstico
+
+Las líneas de pronóstico que ocurren el mismo día se agregarán en su modelo de pronóstico y sus submodelos.
+
+#### <a name="aggregation-example"></a>Ejemplo de agregación
+
+El modelo de pronóstico A tiene los modelos de pronóstico B y C como submodelos.
+
+- El modelo de pronóstico A incluye un pronóstico de demanda de 2 piezas (pcs) el 15 de junio.
+- El modelo de pronóstico B incluye un pronóstico de demanda de 3 pcs el 15 de junio.
+- El modelo de pronóstico C incluye un pronóstico de demanda de 4 pcs el 15 de junio.
+
+El pronóstico de demanda resultante será una demanda única de 9 unidades (2 + 3 + 4) el 15 de junio.
+
+> [!NOTE]
+> Cada submodelo utiliza sus propios parámetros, no los del modelo de previsión principal.
+
+### <a name="create-a-forecast-model"></a>Crear un modelo de previsión
+
+Para crear un modelo de previsión, siga estos pasos.
+
+1. Ir **Planificacion maestra \> Configuración \> Previsión de la demanda \> Modelos de pronóstico**.
+1. En el panel de acciones, haga clic en **Nueva**.
+1. Configure los siguientes campos para el nuevo modelo de pronóstico:
+
+    - **Modelo** - Escriba un identificador único para el modelo de evaluación.
+    - **Nombre** - Especifique un nombre descriptivo para el modelo.
+    - **Interrumpido** - Por lo general, debe configurar esta opción en *No*. Defina *Sí* solo si desea evitar la edición de todas las líneas de pronóstico asignadas al modelo.
+
+    > [!NOTE]
+    > El campo **Incluir en las previsiones de flujo de caja** y los campos en la ficha desplegable **Proyecto** no están relacionados con la planificación maestra. Por lo tanto, puede ignorarlos en este contexto. Debe considerarlos solo cuando trabaje con pronósticos para el módulo **Gestión y contabilidad de proyectos**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Asignar submodelos a un modelo de previsión
+
+Para asignar submodelos a un modelo de previsión, siga estos pasos:
+
+1. Ir **Gestión del inventario \> Configuración \> Pronóstico \> Modelos de previsión**.
+1. En el panel de lista, seleccione el modelo de previsión para el que desee establecer un submodelo.
+1. En la ficha desplegable **Submodelo**, seleccione **Agregar** para agregar una fila a la cuadrícula.
+1. Establezca los siguientes campos en la fila nueva.
+
+    - **Submodelo** - Seleccione el modelo de pronóstico para agregar como submodelo. Este modelo de pronóstico ya debe existir y no debe tener ningún submodelo propio.
+    - **Nombre** - Especifique un nombre descriptivo para el submodelo. Por ejemplo, este nombre podría indicar la relación del submodelo con el modelo de pronóstico principal.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

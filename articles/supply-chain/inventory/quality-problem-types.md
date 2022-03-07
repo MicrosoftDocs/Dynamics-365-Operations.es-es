@@ -1,7 +1,7 @@
 ---
 title: Tipos de problemas para disconformidades
 description: Este tema describe cómo crear y utilizar tipos de problemas para disconformidades.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ded53fd273ace8a6ed7f37219ca50ade329d9f08249596b524b1e3673d6ad547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568816"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744831"
 ---
 # <a name="problem-types-for-nonconformances"></a>Tipos de problemas para disconformidades
 

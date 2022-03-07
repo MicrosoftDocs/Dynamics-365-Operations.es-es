@@ -1,12 +1,10 @@
 ---
 title: Estados de ciclo de vida de solicitud de mantenimiento
 description: Este tema describe cómo configurar los estados de ciclo de vida de la solicitud de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestLifecycleState, EntAssetRequestLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3c2f717969b938d05e68ac775d31b6a5d5ec26a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 3ece0fc1121211706350d804fec59e72ef08282fcba4e65f557a510834738b11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743683"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Estados de ciclo de vida de solicitud de mantenimiento
 
@@ -50,7 +48,7 @@ Los estados de ciclo de vida de solicitud de mantenimiento definen las etapas po
 
 La ilustración siguiente muestra un ejemplo de la página **Estados de ciclo de vida de solicitud de mantenimiento**.
 
-![Página de estados de ciclo de vida de solicitud de mantenimiento](media/02-setup-for-requests.png)
+![Página de estados de ciclo de vida de solicitud de mantenimiento.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Los estados de ciclo de vida de solicitud de mantenimiento, los grupos de estados de ciclo de vida y sus tipos están relacionados con (y se usan del mismo modo que) los estados de ciclo de vida de la orden de trabajo, los grupos de estados de ciclo de vida y sus tipos. 
@@ -68,9 +66,9 @@ Una vez que haya creado los estados de ciclo de vida necesarios para sus solicit
 
 5. En el FastTab **Estados de ciclo de vida**, seleccione los estados de ciclo de vida que se deben incluir en el modelo de ciclo de vida:
 
-    - Para incluir un estado de ciclo de vida en el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha](media/03-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida seleccionados** .
-    - Para incluir todos los estados de ciclo de vida disponibles en el modelo de ciclo de vida, seleccione el botón **Seleccionar todos los estados disponibles** ![Seleccionar todos los estados disponibles](media/04-setup-for-requests.png). Todos los estados de ciclo de vida se mueven a la sección **Estados de ciclo de vida seleccionados**.
-    - Para quitar un estado de ciclo de vida del modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de la ![flecha izquierda](media/05-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
+    - Para incluir un estado de ciclo de vida en el modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida restantes** y seleccione el botón de la ![flecha derecha.](media/03-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida seleccionados**.
+    - Para incluir todos los estados de ciclo de vida disponibles en el modelo de ciclo de vida, seleccione el botón **Seleccionar todos los estados disponibles** ![Seleccionar todos los estados disponibles.](media/04-setup-for-requests.png). Todos los estados de ciclo de vida se mueven a la sección **Estados de ciclo de vida seleccionados**.
+    - Para quitar un estado de ciclo de vida del modelo de ciclo de vida, selecciónelo en la sección **Estados de ciclo de vida seleccionados** y seleccione el botón de flecha izquierda ![flecha izquierda.](media/05-setup-for-requests.png) para moverlo a la sección **Estados del ciclo de vida restantes**.
 
 6. En el FastTab **General**, los campos de la sección **Actualizaciones** son relevantes si usa la reparación interna.
 
@@ -79,4 +77,7 @@ Una vez que haya creado los estados de ciclo de vida necesarios para sus solicit
 
 La ilustración siguiente muestra un ejemplo de la página **Modelos de ciclo de vida de solicitud de mantenimiento**.
 
-![Página de modelos de ciclo de vida de solicitud de mantenimiento](media/06-setup-for-requests.png)
+![Página de modelos de ciclo de vida de solicitud de mantenimiento.](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

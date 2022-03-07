@@ -2,11 +2,9 @@
 title: Creación de dimensiones financieras para los registros de PDV y configuración de los valores de dimensión en los registros
 description: Este procedimiento le muestra la creación de dimensiones financieras para registros del punto de venta (PDV) y muestra cómo configurar valores de dimensión financiera en los registros.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c51c77f4b9f411ae45fb955032aa40cb34738e9a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eecb126ae550d67310ada22bd7d91438f7a20cf2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964780"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790967"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Creación de dimensiones financieras para los registros de PDV y configuración de los valores de dimensión en los registros
 
@@ -47,3 +45,6 @@ Este procedimiento le muestra la creación de dimensiones financieras para regis
 17. En la lista, busque y seleccione el valor de dimensión para el registro que se está actualizando.
 18. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

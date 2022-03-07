@@ -10,18 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7844671202a03533eb6215f557a206c13978e902
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 97c27006ce95d0cd4551fec209f40328779b435b
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860701"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678600"
 ---
 # <a name="conventions"></a>Convenios
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Una convención es un contenedor para un conjunto de políticas que afectan el comportamiento del sistema. Según los requisitos de su negocio, debe definir convenciones mediante una combinación de las diversas políticas que establecen cómo se deben contabilizar los costos en la Contabilidad de inventario global. Puede asociar cada convención con uno o más libros mayores para garantizar la coherencia en las políticas contables que se aplican en todos los libros mayores.
 

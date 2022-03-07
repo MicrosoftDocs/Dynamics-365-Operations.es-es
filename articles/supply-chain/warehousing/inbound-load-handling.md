@@ -1,38 +1,39 @@
 ---
 title: Manejo de almacén de cargas entrantes para pedidos de compra
 description: Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4437179"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
-[!include [banner](../includes/banner.md)]
-
 Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
 
-Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacionado y también puede contener una especificación de carga relacionada y / o un plan de transporte. Para obtener más información sobre cómo crear y administrar cargas entrantes, vea [Proceso empresarial: planificación del transporte para cargas entrantes](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacionado y también puede contener una especificación de carga relacionada y / o un plan de transporte. Para obtener más información sobre cómo crear y administrar cargas entrantes, vea [Proceso empresarial: planificación del transporte para cargas entrantes](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Descripción general: cómo se crean, registran y reciben las cargas entrantes
 
 La siguiente ilustración muestra el flujo típico para manejar cargas entrantes que tienen cantidades de pedidos de compra cuando llegan a su almacén.
 
-![El proceso de manejo de carga entrante.](media/inbound-process.png "El proceso de manejo de carga entrante")
+![El proceso de manejo de carga entrante](media/inbound-process.png "El proceso de manejo de carga entrante")
 
 1. **El proveedor confirma el pedido de compra.**
 
@@ -40,11 +41,11 @@ La siguiente ilustración muestra el flujo típico para manejar cargas entrantes
 
 1. **Se crea un registro de carga entrante para planificar la llegada y su contenido.**
 
-    El registro de carga entrante representa un envío de proveedor de uno o más pedidos de compra. Se espera que la carga llegue al almacén como una unidad de transporte física (como una carga de camión). El registro de carga entrante se utiliza con fines de planificación y permite al coordinador de logística realizar un seguimiento del progreso de la carga del proveedor. También se utiliza para registrar cantidades de línea de pedido y administrar el progreso a través de las operaciones de almacén, como el trabajo de llegada y su guardado. Las cargas se pueden crear de forma automática o manual y se pueden basar en un pedido de compra o en un aviso de envío avanzado (ASN) del proveedor. Para más información, consulte [Crear o modificar una carga entrante](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    El registro de carga entrante representa un envío de proveedor de uno o más pedidos de compra. Se espera que la carga llegue al almacén como una unidad de transporte física (como una carga de camión). El registro de carga entrante se utiliza con fines de planificación y permite al coordinador de logística realizar un seguimiento del progreso de la carga del proveedor. También se utiliza para registrar cantidades de línea de pedido y administrar el progreso a través de las operaciones de almacén, como el trabajo de llegada y su guardado. Las cargas se pueden crear de forma automática o manual y se pueden basar en un pedido de compra o en un aviso de envío avanzado (ASN) del proveedor. Para más información, consulte [Crear o modificar una carga entrante](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **El proveedor confirma el despacho de carga.**
 
-    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte**, la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Cuando el proveedor despacha la carga, el coordinador de logística en el almacén receptor confirma el envío de la carga. Si la empresa receptora está utilizando el módulo **Gestión del transporte**, la confirmación del envío entrante activará otros procesos de gestión de carga que están asociados con las cargas entrantes. Para más información, consulte [Confirmar una carga para envío](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **La carga llega al almacén y los trabajadores registran cantidades.**
 
@@ -66,7 +67,7 @@ Cuando una carga entrante llega por primera vez al almacén, los trabajadores de
 
 - **Un menú de dispositivo móvil que está configurado para admitir la recepción de carga**
 
-    La [aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
+    La [aplicación de almacén](install-configure-warehousing-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
 
     - Recepción de artículo de carga
     - Recepción de artículo de carga y ubicación
@@ -205,7 +206,7 @@ La siguiente tabla resume los efectos de la configuración **Permitir recibo de 
 | Permitir recibo de múltiples productos por carga | Cantidad de carga | Estado de la carga | Billete |
 |---|---|---|---|
 | Cuando este campo no está disponible (versiones anteriores a 10.0.10) | <p>La cantidad de carga se establece para que sea igual a la cantidad registrada.</p><p>Si la cantidad de carga se actualiza a 0 (cero), lo que significa que no se ha realizado ningún registro, la línea de carga se elimina.</p><p>Si no hay líneas de carga en la carga, la carga se elimina.</p> | _Recibida_ | Si existen varias cargas para la cantidad registrada de la línea de pedido, solo el estado de la carga desde la que se registró el recibo se actualiza a _Recibido_. |
-| No | <p>La cantidad de carga se establece de modo que sea igual a la cantidad registrada que está asociada con la ID de carga.</p><p>Si no se registra ninguna ID de carga para la transacción de inventario, el comportamiento coincide con el comportamiento en versiones anteriores a 10.0.10.</p> | _Recibida_ | |
+| Nº | <p>La cantidad de carga se establece de modo que sea igual a la cantidad registrada que está asociada con la ID de carga.</p><p>Si no se registra ninguna ID de carga para la transacción de inventario, el comportamiento coincide con el comportamiento en versiones anteriores a 10.0.10.</p> | _Recibida_ | |
 | Sí | Sin actualizaciones | _Recibido_, si la cantidad de carga total registrada es igual o mayor que la cantidad de carga | |
 | Sí | Sin actualizaciones | _Enviado_ o _En proceso_, si la cantidad de carga total registrada es menor que la cantidad de carga | |
 
@@ -267,7 +268,7 @@ Estos escenarios requieren la característica _Múltiples contabilizaciones de r
 
 1. Abra el espacio de trabajo **Administración de características**. (Para obtener detalles completos sobre cómo encontrar y usar este espacio de trabajo, vea [Resumen de gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
 
-1. Asegúrese de que la función _Asociar transacciones de inventario de pedido de compra a carga_ está activada. A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
+1. Active la característica _Asociar transacciones de inventario de orden de compra con carga_, que se enumera de la siguiente manera:
 
     - **Módulo:** _Gestión de almacén_
     - **Nombre de la característica:** _Asociar transacciones de inventario de orden de compra con carga_
@@ -285,7 +286,7 @@ Para trabajar en estos escenarios mediante el uso de los registros y valores de 
 
 Antes de que los empleados de recepción del almacén puedan usar un dispositivo móvil para registrar el inventario entrante que está vinculado a una carga, debe crear un elemento de menú del dispositivo móvil para ese propósito.
 
-En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación móvil Warehouse Management.
+En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación de almacén.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Dispositivo móvil \> Elementos del menú del dispositivo móvil** y asegúrese de que el menú de su dispositivo móvil incluya un elemento de menú que tenga la siguiente configuración:
 
@@ -295,7 +296,7 @@ En esta sección, creará un elemento de menú del dispositivo móvil y lo agreg
 
     Puede dejar todas las demás configuraciones en sus valores predeterminados.
 
-    ![Configuración del elemento de menú del dispositivo móvil.](media/inbound-mobile-menu-items.png "Configuración del elemento de menú del dispositivo móvil")
+    ![Configuración del elemento de menú del dispositivo móvil](media/inbound-mobile-menu-items.png "Configuración del elemento de menú del dispositivo móvil")
 
     Para obtener más información sobre cómo configurar los elementos del menú del dispositivo móvil, vea [Configurar dispositivos móviles para trabajos de almacén](configure-mobile-devices-warehouse.md).
 
@@ -330,7 +331,7 @@ En este procedimiento, creará manualmente un pedido de compra y una carga asoci
     - En la ficha desplegable **Carga**, el campo **Estado de carga** se establece en _Abierto_.
     - En la sección **Líneas de carga**, hay una sola línea donde el campo **Cantidad** se establece en _10_ y el campo **Cantidad de trabajo creado** se establece en _0_ (cero).
 
-    ![Detalles de la carga.](media/inbound-load-details.png "Detalles de la carga")
+    ![Detalles de la carga](media/inbound-load-details.png "Detalles de la carga")
 
 1. En el panel de acciones, en la ficha **Enviar y recibir**, seleccione **Confirmar \> Envío entrante**. Tenga en cuenta que el **Estado de carga** ha cambiado a _Enviado_.
 1. Tome nota del valor **Id. de carga**, para que pueda usarlo en el siguiente procedimiento.
@@ -477,6 +478,3 @@ Para este escenario, el empleado receptor registrará una cantidad que exceda la
     - **Cantidad** - Introduzca _7_, que es la cantidad restante que el proveedor está autorizado a entregar como parte de la cantidad total de pedido de compra de 12 (donde 10 es la cantidad de pedido original y 2 es la cantidad de entrega en exceso permitida del 20 %). Recuerde que ya se han registrado 5 unidades en la primera carga.
 
 La segunda carga ahora se ha actualizado con una cantidad de 7 y puede actualizarse la recepción del producto basada en esta cantidad.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

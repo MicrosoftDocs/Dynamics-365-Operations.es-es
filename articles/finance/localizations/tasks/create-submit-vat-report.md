@@ -2,11 +2,9 @@
 title: Crear y enviar un informe de IVA
 description: Este procedimiento le muestra cómo crear y enviar el informe de IVA a las autoridades competentes alemanas.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22ff180f09d7f017f7119c4c5e4dd908c3e048e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26418be526ff13d8b77e0418b3b252881ff05140e6eb7678f526444a0850a84b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719684"
 ---
 # <a name="create-and-submit-vat-report"></a>Crear y enviar un informe de IVA
 
@@ -34,3 +32,6 @@ Este procedimiento le muestra cómo crear y enviar el informe de IVA a la autori
 5. Seleccione Sí en el campo Crear documento de impuestos electrónicos.
 6. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

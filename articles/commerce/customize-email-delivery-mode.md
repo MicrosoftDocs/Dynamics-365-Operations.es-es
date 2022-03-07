@@ -2,32 +2,28 @@
 title: Personalizar correos electrónicos transaccionales por modo de entrega
 description: Este tema describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
 author: stuharg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Commerce, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: faf5fba70bf9297727464e6046806696ab725001
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749916"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizar correos electrónicos transaccionales por modo de entrega
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tema describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
 
@@ -73,3 +69,6 @@ Para configurar plantillas de correo electrónico para modos específicos de ent
 [Crear pedidos de centro de llamadas](tasks/create-call-center-orders.md)
 
 [Cambiar el modo de entrega en PDV](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

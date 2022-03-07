@@ -1,10 +1,12 @@
 ---
 title: Reservar cantidades de inventario
 description: En este tema se describen las diferentes opciones de reserva de inventario disponibles.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 553e350ba5ffa12672a839baec5698d198bd8457
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571146"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000218"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
@@ -46,7 +48,7 @@ Las directivas de reserva de inventario se establecen en la página de **Grupos 
 
 La sección de **Directivas de inventario** contiene las siguientes directivas de reserva.
 
-| &nbsp;                  | &nbsp;                                                                                                                                     |
+|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Directiva de las reservas**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Fecha FIFO controlada    | Si activa la opción **FIFO controlado mediante la fecha**, la reserva de inventario se controla mediante una fecha de ordenación según el principio FIFO. Los lotes se reservan en función de la fecha de recepción de artículos más antigua, según el principio de que el primero en entrar es el primero en salir (FIFO).                                                                                                                                                                                                                                                                       |
@@ -80,6 +82,3 @@ Existen dos opciones relacionadas con las reservas de la página de **Parámetro
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Directivas de la reserva de inventario en la página de los Parámetros de producción
 
 El valor del campo **Reserva** de la pestaña **General** en la página de **Parámetros de producción** determina el punto predeterminado en el proceso de producción en el que se debe reservar el inventario. Por ejemplo, el inventario puede reservarse cuando se programa el trabajo o cuando el trabajo se ha iniciado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

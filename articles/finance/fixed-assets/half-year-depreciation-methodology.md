@@ -2,9 +2,11 @@
 title: Metodología de la convención de depreciación semestral
 description: Este tema describe el método que utilizan los activos fijos para calcular la depreciación mediante la convención semestral, que calcula seis meses de depreciación durante el primer y último año de servicio de un activo.
 author: moaamer
+manager: Ann Beebe
 ms.date: 08/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 5e71beb316494d05a3d8ce6066f2a4c72e32a2ad3d75a4ba3560cb0aebfe4cc8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb027513da086d882942c4677892b15cf8e7b338
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260814"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodología de la convención de depreciación semestral
 
@@ -36,7 +38,7 @@ El primer año de servicio concluirá en diciembre de 2020, lo que significa que
 > Depreciación anual 50 000/5 = 10 000 depreciación mensual 10 000/12 = 833,33 <br>
 > Depreciación del primer año 10 000/2 = 5000 y la depreciación mensual subsiguiente 5000/9 = 555,56
 
-   [![Programa de depreciación para la convención de depreciación semestral.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Programa de depreciación para la convención de depreciación semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Los períodos de depreciación extendidos que se agregan por la convención semestral proporcionan una asignación más precisa de la depreciación. La convención de seis meses representa los gastos de depreciación de manera más equitativa, lo que es útil para informar sobre el estado de pérdidas y ganancias.
 

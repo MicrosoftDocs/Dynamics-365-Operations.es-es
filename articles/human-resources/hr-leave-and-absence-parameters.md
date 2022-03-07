@@ -1,33 +1,32 @@
 ---
 title: Configurar parámetros de bajas y ausencias
-description: Defina parámetros de recursos humanos para bajas y ausencias en Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 11/02/2020
+description: Este tema describe cómo definir parámetros de recursos humanos para permisos y ausencias en Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.openlocfilehash: 59d89c4b22d71057fd3b398c91e1fbf04112e4a9
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4420505"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728866"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parámetros de bajas y ausencias
 
-Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources, es una buena idea comprobar la configuración de todos los parámetros de recursos humanos relacionados, incluidos los siguientes:
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources, es una buena idea comprobar la configuración de todos los **Parámetros de recursos humanos** relacionados, incluidos los siguientes:
 
 - Secuencia numérica para solicitudes de licencia
 - Configuración de Ley de Ausencia Familiar y Médica
@@ -75,7 +74,7 @@ Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources,
 
     - Seleccione **Cálculo de saldo** para mostrar los saldos a partir de hoy o del período de acumulación. Si selecciona **Saldo a partir de hoy**, el saldo muestra el total de todas las acumulaciones, ajustes y solicitudes a partir de hoy. Si selecciona **Saldo a partir del período de acumulación**, el saldo muestra el total de todas las acumulaciones, ajustes y solicitudes a partir del período de acumulación definido por la frecuencia en el plan de permisos. 
 
-    - Establezca la hora de inicio para el trabajo por lotes de vencimiento de transferencia.  
+    - Establezca la **Hora de inicio** para el trabajo por lotes **Vencimiento de transferencia**.  
     
     - Seleccione **Sí** para **Permitir que los empleados compren bajas** y **Permitir que los empleados vendan bajas**. Si selecciona **Sí** para estas opciones, puede crear políticas de compra y venta de bajas y permitir que los empleados envíen solicitudes de compra y venta de bajas.
 
@@ -92,3 +91,6 @@ Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources,
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

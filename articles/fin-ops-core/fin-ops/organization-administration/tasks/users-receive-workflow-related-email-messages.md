@@ -2,11 +2,9 @@
 title: Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo
 description: Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo.
 author: jasongre
-manager: AnnBe
 ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 221e38cbe31e2ad24a56cb2e71206a1ebcdd619e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 368fe2fbf1f8a1adcabe37ced5ed942f9fb86fc8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799013"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070434"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo. Por ejemplo, los mensajes de correo electrónico se pueden enviar a los usuarios cuando se les asignan documentos para su aprobación. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
@@ -41,3 +42,6 @@ Usted puede configurar el sistema para enviar mensajes de correo electrónico a 
 
 > [!NOTE]
 > Las plantillas de correo electrónico del flujo de trabajo se obtendrán de las plantillas de correo electrónico del sistema o de las plantillas de correo electrónico de la organización, dependiendo de si el flujo de trabajo es un flujo de trabajo a nivel de sistema (no específico de la compañía) o de nivel de organización (específico de la compañía).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

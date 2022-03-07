@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: b51a7ae8587a3cbb65efc4af574929efcbc8fbf8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eebca6575a0b23f75baabbb91727f498de44d9cb
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681481"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570719"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar los parámetros de un formato de ER por entidad jurídica
 
@@ -260,3 +259,6 @@ En el ejemplo anterior, ha accedido a parámetros específicos de la aplicación
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
 
 [Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

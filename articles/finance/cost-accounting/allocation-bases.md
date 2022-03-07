@@ -2,9 +2,11 @@
 title: Bases de asignación
 description: Este tema proporciona información sobre las bases de asignación. Las bases de asignación son componentes principales en contabilidad de costes y se usan principalmente para asignar costes generales.
 author: AndersGirke
+manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2e51d0320d66a2ae094573735df96bc9bc3f93d359f3bbeab2e5cec3081dddbe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b6d4e7fae1df977a5db311d3ea662a5eb3ffd30
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743058"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260838"
 ---
 # <a name="allocation-bases"></a>Bases de asignación 
 
@@ -212,7 +214,7 @@ Una vez se hayan procesado los datos de origen de la medida estadística, las en
 
 **Entradas estadísticas**
 
-| Objeto de coste | Nombre   | Fecha contable | Miembro de dimensión estadística |    Descripción          | Magnitud |
+| Objeto de coste |    | Fecha contable | Miembro de dimensión estadística |    Descripción          | Magnitud |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
 | CC001       | RR. HH. | 31/1/17      | Electricidad                  | Consumo de electricidad | 2,450.00  |
 | CC002       | FI | 31/1/17      | Electricidad                  | Consumo de electricidad | 4,100.00  |
@@ -404,9 +406,9 @@ La función de vista previa le permite validar la base de asignación de fórmul
 
 **Detalles de base de asignación**
 
-| Objeto de coste |  Nombre  | Fórmula                                                                                                                             | Magnitud |
+| Objeto de coste |    | Fórmula                                                                                                                             | Magnitud |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | HR | ((2450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
+| CC001       | RR. HH. | ((2450,00 \> 10 000,00) × ((10 000,00 × 0,75) + (2 450,00 – 10 000,00) × 1,15)) + ((2 450,00 \<= 10 000,00) × 2 450,00 × 0,75)     | 1,837.50  |
 | CC002       | FI | ((4100,00 \> 10 000,00) × ((10 000,00 × 0,75) + (4100,00 – 10 000,00) × 1,15)) + ((4100,00 \<= 10 000,00) × 4100,00 × 0,75)     | 3,075.00  |
 | CC003       | TI | ((15 000,00 \> 10 000,00) × ((10 000,00 × 0,75) + (15 000,00 – 10 000,00) × 1,15)) + ((15 000,00 \<= 10 000,00) × 15 000,00 × 0,75) | 1,3250.00 |
 

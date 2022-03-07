@@ -1,12 +1,10 @@
 ---
 title: Recepción de producto frente a pedidos de compra
 description: Este tema describe las distintas opciones para registrar productos como recibidos.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a07b6b05b8eb25b8c41a5eecbb71fb765a3e9d5f
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ca52f4127b3ec80eab3ba5c3c239c36d01178c00
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019688"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825479"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -68,3 +66,6 @@ Puede tener acceso a esta página desde el grupo de acción **Recibo** de la pá
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

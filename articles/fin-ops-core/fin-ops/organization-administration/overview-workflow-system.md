@@ -2,30 +2,33 @@
 title: Visión general del sistema de flujo de trabajo
 description: Este tema describe el sistema de flujo de trabajo.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797005"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067942"
 ---
 # <a name="workflow-system-overview"></a>Visión general del sistema de flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema describe el sistema de flujo de trabajo.
 
@@ -41,7 +44,7 @@ El flujo de trabajo es un sistema que se ejecuta en Application Object Server (A
 
 Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo define el flujo o movimiento de un documento en el sistema al mostrar quién debe completar una tarea, tomar una decisión o aprobar un documento. Por ejemplo, en la siguiente ilustración se muestra un flujo de trabajo de informes de gastos.
 
-![Flujo de trabajo con elementos que están asignados a usuarios](./media/workflow_user.gif)
+![Flujo de trabajo con elementos que están asignados a usuarios.](./media/workflow_user.gif)
 
 Para comprender mejor este flujo de trabajo, supongamos que Sam envía un informe de gastos por un total de 7.000 USD. En esta situación, Ivan debe revisar los recibos que Sam le envía. A continuación, Frank y Sue deben aprobar el informe de gastos. Ahora supongamos que Sam envía un informe de gastos por un total de 11.000 USD. En esa situación, Ivan debe revisar los recibos y Frank, Sue y Ann deben aprobar el informe de gastos.
 
@@ -71,3 +74,6 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 + [Configurar ramas paralelas en un flujo de trabajo](configure-parallel-branch-workflow.md)
 + [Configurar flujos de trabajo de elementos](configure-line-item-workflow.md)
 + [Preguntas frecuentes sobre flujos de trabajo](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

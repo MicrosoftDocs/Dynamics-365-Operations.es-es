@@ -1,33 +1,30 @@
 ---
 title: Habilitar varios modos de recogida de la entrega para pedidos de clientes
-description: Este tema explica la funcionalidad en Microsoft Dynamics 365 Commerce que le permite crear pedidos de clientes para recoger en una tienda.
+description: Este tema explica la funcionalidad de Microsoft Dynamics 365 Commerce que le permite crear pedidos de clientes para recoger en una tienda.
 author: hhainesms
-manager: annbe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594995"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020660"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar varios modos de recogida de la entrega para pedidos de clientes
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-En Microsoft Dynamics 365 Commerce versión 10.0.16 y posteriores, las organizaciones pueden definir múltiples modos de entrega entre los que los compradores o asociados de ventas pueden elegir cuando crean un pedido que se recogerá en una tienda. De esta manera, las organizaciones pueden brindar múltiples opciones de recolección a sus compradores. Por ejemplo, muchos minoristas ahora ofrecen a los compradores la opción de recoger sus pedidos en la tienda o en un punto de entrega. Commerce admite la configuración de estos diferentes modos de recogida de la entrega. Los usuarios pueden aprovecharlos cuando crean pedidos de clientes en cualquier canal de Commerce compatible (comercio electrónico, centro de llamadas o tienda).
+
+En Microsoft Dynamics 365 Commerce, versión 10.0.16 y posteriores, las organizaciones pueden definir múltiples modos de entrega entre los que los compradores o asociados de ventas pueden elegir cuando crean un pedido que se recogerá en una tienda. De esta manera, las organizaciones pueden brindar múltiples opciones de recolección a sus compradores. Por ejemplo, muchos minoristas ahora ofrecen a los compradores la opción de recoger sus pedidos en la tienda o en un punto de entrega. Commerce admite la configuración de estos diferentes modos de recogida de la entrega. Los usuarios pueden aprovecharlos cuando crean pedidos de clientes en cualquier canal de Commerce compatible (comercio electrónico, centro de llamadas o tienda).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Habilitar y configurar varios modos de recogida de la entrega
 
@@ -85,4 +82,7 @@ Cuando hay varios modos de recogida de la entrega disponibles para un canal, se 
 
 ## <a name="considerations-for-distributed-order-management"></a>Consideraciones para la gestión de pedidos distribuida
 
-La característica [gestión de pedidos distribuida (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) de Commerce ignoran las líneas de venta que están marcadas para la recogida en tienda. Estas características se han actualizado para garantizar que las líneas de ventas que están vinculadas a los modos de recogida de la entrega configurados omitan la lógica DOM y no se reasignen a un nuevo almacén de cumplimiento.
+La característica [gestión de pedidos distribuida (DOM)](./dom.md) de Commerce ignoran las líneas de venta que están marcadas para la recogida en tienda. Estas características se han actualizado para garantizar que las líneas de ventas que están vinculadas a los modos de recogida de la entrega configurados omitan la lógica DOM y no se reasignen a un nuevo almacén de cumplimiento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

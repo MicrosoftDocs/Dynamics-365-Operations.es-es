@@ -2,11 +2,9 @@
 title: Paga basada en los registros
 description: Este tema explica cómo se calcula el sueldo en función de los registros del trabajador.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715731"
 ---
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
@@ -79,7 +77,7 @@ Para comprender esta situación, vea los campos siguientes.
 
 #### <a name="calculation-of-flex"></a>Cálculo del horario flexible+.
 
-De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si el trabajador entra a las 06:30, obtiene 0.5 horas. Esta cantidad de tiempo se agrega a la cuenta de horario flexible del trabajador.
+De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si el trabajador entra a las 06:30, obtiene 0,5 horas. Esta cantidad de tiempo se agrega a la cuenta de horario flexible del trabajador.
 
 #### <a name="calculation-of-flex-"></a>Cálculo del horario flexible-
 
@@ -118,7 +116,7 @@ Una vez que haya calculado los registros de diario en la página **Aprobar**, pu
 
 #### <a name="calculation-of-flex"></a>Cálculo del horario flexible+.
 
-De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si la trabajadora entra a las 06:30, gana 0.5 horas de tiempo de horario flexible+ en su saldo de horario flexible.
+De acuerdo con el perfil flexible, el tiempo entre las 06:00 a. m. y las 07:00 a. m. es un período de horario flexible+. Por lo tanto, si la trabajadora entra a las 06:30, gana 0,5 horas de tiempo de horario flexible+ en su saldo de horario flexible.
 
 #### <a name="calculation-of-flex-"></a>Cálculo del horario flexible-
 
@@ -170,9 +168,9 @@ Para configurar el sistema para distinguir claramente el tiempo estándar y las 
 
 En la página **Parámetros de cálculo**, seleccione **Horas extra** como el tipo de especificación de perfil y establezca la opción **Tiempo salarial** en **No**, como se muestra aquí.
 
-| Especificación del registro | Tipo de especificación de perfil | Cálculo   |     | Pagado         |     |
+| Especificación del registro | Tipo de especificación de perfil | Cálculo   | Configuración | Pagado         | Configuración |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Horario de trabajo       | Horas extra                   | Hora estándar | Sí | Tiempo salarial     | N.º  |
+| Horario de trabajo       | Horas extra                   | Hora estándar | Sí | Tiempo salarial     | No  |
 |                    |                            | Tiempo salarial      | Sí | Horas extra de sueldo | Sí |
 
 Después de ajustar los parámetros de cálculo, se generan los siguientes elementos de sueldo.
@@ -561,7 +559,7 @@ Por el contrario, si la casilla de verificación **Deducir horas extra** se dese
 
 El siguiente ejemplo muestra cómo una cuenta de horario flexible de un trabajo puede ser reducida convirtiendo el período de ausencia en un período de horarios flexibles.
 
-El trabajador entra a las 7:00 y sale a las 13:00. Ella ha alcanzado un acuerdo con el supervisor por el que puede irse a casa para el fin de semana si resta estas horas de su cuenta de horario flexible. Cuando la trabajadora registra la hora de salida a la 01:00 P.M., se le pide que seleccione un código de ausencia, ya que el período de ausencia para la parte restante del día laborable afectado no es un período de horario flexible- planificado. Para convertir la parte restante del día laborable a un período de horario flexible-, el trabajador puede seleccionar un código de ausencia que esté configurado para reducir su cuenta de horario flexible.
+El trabajador entra a las 7:00 y sale a las 13:00. El trabajador tiene un acuerdo de que puede irse a casa durante el fin de semana si deducen estas horas de su cuenta flexible. Cuando la trabajadora registra la hora de salida a la 01:00 P.M., se le pide que seleccione un código de ausencia, ya que el período de ausencia para la parte restante del día laborable afectado no es un período de horario flexible- planificado. Para convertir la parte restante del día laborable a un período de horario flexible-, el trabajador puede seleccionar un código de ausencia que esté configurado para reducir su cuenta de horario flexible.
 
 Para reducir el saldo de horas flexibles de los trabajadores que registran ausencia en un día laborable, seleccione **Tiempo y asistencia** &gt; **Configuración** &gt; **Grupos** &gt; **Grupos de ausencias** y seleccione la casilla de verificación **Reducir horario flexible**.
 
@@ -598,3 +596,6 @@ Si el trabajador no aparece en el trabajo en un día laborable y no hay ausencia
 - Insertar autom. ausencia
 
 Cuando los registros diarios se calculan para un trabajador que está habilitado para horas flexibles, el código de ausencia que se especifica en el campo **Insertar autom. horario flexible-** se usa como código de ausencia predeterminado. Si el trabajador no está habilitado para horas flexibles, se usa el código de ausencia que se especifica en el campo **Ausencia de inserción automática**. Si una empresa tiene una combinación de trabajadores que están habilitados para horas flexibles y trabajadores que no están habilitados para horas flexibles, ambos parámetros deben estar configurados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

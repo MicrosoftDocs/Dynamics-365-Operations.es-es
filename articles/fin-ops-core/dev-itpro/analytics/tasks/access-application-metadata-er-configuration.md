@@ -1,12 +1,11 @@
 ---
 title: Acceder a metadatos de la aplicación mediante el uso de una configuración de ER
-description: Los pasos de este tema explican cómo un usuario de Regulatory Configuration Service (RCS) puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos en Finance and Operations.
+description: Este tema describe cómo un usuario de Regulatory Configuration Service puede diseñar una nueva asignación de modelo de informes electrónicos mediante el uso de metadatos.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 91c50047781fdc21c9157ceb634822c6cfb5a075
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682174"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559660"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Acceder a metadatos de la aplicación mediante el uso de una configuración de ER
 
@@ -125,3 +124,6 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 > [!NOTE]
 > Esta forma de obtener información sobre metadatos de la aplicación es la única disponible para aplicaciones implementadas localmente (cuando se utiliza un modelo de implementación de datos empresariales locales (LBD), o en las instalaciones).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

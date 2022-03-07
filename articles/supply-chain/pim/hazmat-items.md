@@ -1,7 +1,7 @@
 ---
 title: Materiales peligrosos en productos, pedidos, envíos y cargas
 description: Este tema explica cómo establecer las propiedades de los materiales peligrosos para los productos despachados, cómo establecer límites de existencias para los artículos peligrosos y cómo incluir materiales peligrosos en un pedido de venta, envío o carga.
-author: t-benebo
+author: dasani-madipalli
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: b0fb2f77b4e95c90e3eb8a4c74929deead34de5c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570714"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829411"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiales peligrosos en productos, pedidos, envíos y cargas
 

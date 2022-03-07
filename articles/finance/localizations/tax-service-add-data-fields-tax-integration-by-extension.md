@@ -2,9 +2,10 @@
 title: Agregar campos de datos en la integración fiscal mediante el uso de extensiones
 description: Este tema explica cómo usar las extensiones X++ para agregar campos de datos en la integración de impuestos.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8e3573f9c9971d4a5af33ece08b7e0b43f2e813a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323527"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921174"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Agregar campos de datos en la integración fiscal mediante el uso una extensión
 
@@ -41,7 +42,7 @@ Esta es una lista de los objetos principales:
 
 La siguiente ilustración muestra cómo se relacionan estos objetos.
 
-[![Relación de objeto de modelo de datos.](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![Relación de objeto de modelo de datos](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 Un objeto **Documento** puede contener muchos objetos **Línea**. Cada objeto contiene metadatos para el servicio de impuestos.
 
@@ -353,77 +354,15 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-En este código, `_destination` es el objeto contenedor que se utiliza para generar la solicitud de registro, y `_source` es el objeto `TaxIntegrationLineObject`.
+En este código, `_destination` es el objeto contenedor que se utiliza para generar la solicitud de registro, y `_source` es el objeto `TaxIntegrationLineObject`. 
 
 > [!NOTE]
-> Defina la clave que se utiliza en el formulario de solicitud como **private const str**. La cadena debe ser exactamente igual que el nombre de la medida agregada en el tema [Agregar campos de datos en configuraciones de impuestos](tax-service-add-data-fields-tax-configurations.md).
-> Establezca el campo en el método **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** usando el método **SetField**. El tipo de datos del segundo parámetro debe ser **cadena**. Si el tipo de datos no es **cadena**, conviértalo.
-> Si un **Tipo de enumeración** X++ se extiende, tenga en cuenta la diferencia entre su valor, etiqueta y nombre.
-> 
->   - El valor de la enumeración es un entero.
->   - La etiqueta de la enumeración puede ser diferente en los idiomas preferidos. No use **enum2Str** para convertir el tipo de enumeración en cadena.
->   - Se recomienda el nombre de la enumeración porque es fijo. **enum2Symbol** se puede usar para convertir la enumeración a su nombre. El valor de enumeración agregado en la configuración de impuestos debe ser exactamente el mismo que el nombre de enumeración.
-
-## <a name="model-dependency"></a>Dependencia del modelo
-
-Para compilar correctamente el proyecto, agregue los siguientes modelos de referencia a las dependencias del modelo:
-
-- ApplicationPlatform
-- ApplicationSuite
-- Motor de impuestos
-- Dimensiones, si se utiliza la dimensión financiera
-- Otros modelos necesarios referenciados en el código
-
-## <a name="validation"></a>Validación
-
-Después de completar los pasos anteriores, puede validar sus cambios.
-
-1. En finanzas, vaya a **Proveedores** y agregue **&debug=vs%2CconfirmExit&** a la URL. Por ejemplo, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. El **&** final es esencial.
-2. Abra la página **Pedido de compra** y seleccione **Nuevo** para crear un pedido de compra.
-3. Establezca el valor para el campo personalizado y luego seleccione **Impuesto de ventas**. Un archivo de solución de problemas con prefijo, **TaxServiceTroubleshootingLog**, se descarga automáticamente. Este archivo contiene la información de la transacción enviada al Servicio de cálculo de impuestos. 
-4. Compruebe si el campo personalizado añadido está presente en la sección **Entrada de cálculo del servicio de impuestos JSON** y si su valor es correcto. Si el valor no es correcto, vuelva a comprobar los pasos de este documento.
-
-Archivo de ejemplo:
-
-```
-===Tax service calculation input JSON:===
-{
-  "TaxableDocument": {
-    "Header": [
-      {
-        "Lines": [
-          {
-            "Line Type": "Normal",
-            "Item Code": "",
-            "Item Type": "Item",
-            "Quantity": 0.0,
-            "Amount": 1000.0,
-            "Currency": "EUR",
-            "Transaction Date": "2022-1-26T00:00:00",
-            ...
-            /// The new fields added at line level
-            "Cost Center": "003",
-            "Project": "Proj-123"
-          }
-        ],
-        "Amount include tax": true,
-        "Business Process": "Journal",
-        "Currency": "",
-        "Vendor Account": "DE-001",
-        "Vendor Invoice Account": "DE-001",
-        ...
-        // The new fields added at header level, no new fields in this example
-        ...
-      }
-    ]
-  },
-}
-...
-```
+> * Defina la clave que se utiliza en el formulario de solicitud como `private const str`.
+> * Establezca el campo en el método `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` usando el método `SetField`. El tipo de datos del segundo parámetro debe ser `string`. Si el tipo de datos no es `string`, conviértalo a `string`.
 
 ## <a name="appendix"></a>Apéndice
 
-Este apéndice muestra el código de muestra completo para la integración de dimensiones financieras, **Centro de cose** y **Proyecto**, a nivel de línea.
+Este apéndice muestra el código de muestra completo para la integración de dimensiones financieras (**Centro de cose** y **Proyecto**) a nivel de línea.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

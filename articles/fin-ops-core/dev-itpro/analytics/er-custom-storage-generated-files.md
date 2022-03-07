@@ -2,11 +2,9 @@
 title: Especificar ubicaciones de almacenamiento personalizado para documentos generados
 description: Este tema explica cómo ampliar la lista de ubicaciones de almacenamiento para los documentos generados por los formatos de informes electrónicos (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680767"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594918"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar ubicaciones de almacenamiento personalizado para documentos generados
 
@@ -29,7 +27,7 @@ La interfaz de programación de aplicaciones (API) del marco de informes electr�
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Implementar una topología que admita una compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). También debe tener acceso a esta topología para uno de los siguientes roles:
+Implementar una topología que admita una compilación continua. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). También debe tener acceso a esta topología para uno de los siguientes roles:
 
 - Desarrollador de informes electrónicos
 - Consultor funcional de informes electrónicos
@@ -43,7 +41,7 @@ Todas las tareas de este tema se pueden completar en la empresa **USMF**.
 
 Para generar los documentos para los que planea agregar una ubicación de almacenamiento personalizada, [importe](er-download-configurations-global-repo.md) el formato de configuración de ER **Renovación de activos fijos** en la topología actual.
 
-![Página de configuración del repositorio](./media/er-custom-storage-generated-files-import-format.png)
+![Página de configuración del repositorio.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Ejecute el Informe de puesta al día para activos fijos
 
@@ -54,7 +52,7 @@ Para generar los documentos para los que planea agregar una ubicación de almace
 5. En el campo **Asignación de formato**, seleccione **Renovación de activos fijos**.
 6. Seleccione **Aceptar**.
 
-![Cuadro de diálogo de runtime para el informe de avance de activos fijos](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Cuadro de diálogo de runtime para el informe de avance de activos fijos.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 En Microsoft Excel, revise el documento saliente que se genera y está disponible para descargar. Este comportamiento es el [comportamiento por defecto](electronic-reporting-destinations.md#default-behavior) para un formato ER que no tiene [destinos](electronic-reporting-destinations.md) configurados y que se ejecutan en modo interactivo.
 
@@ -257,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifique la clase existente `AssetRollForwardService` y escriba el código para configurar una fábrica de destino personalizada para el ejecutor de informes. Observe que cuando se construye una fábrica de destino personalizada, se pasa el parámetro controlado por la aplicación que especifica una carpeta de destino. De esta manera, esa carpeta de destino se usa para almacenar archivos generados.
 
     > [!NOTE] 
-    > Asegúrese de que la carpeta especificada (**c:\\0** en este ejemplo) está presente en el sistema de archivos local del servidor que ejecuta el servicio AOS. De lo contrario, una excepción [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) se lanzará en runtime.
+    > Asegúrese de que la carpeta especificada (**c:\\0** en este ejemplo) está presente en el sistema de archivos local del servidor que ejecuta el servicio AOS. De lo contrario, una excepción [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) se lanzará en runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -341,3 +339,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 - [Página de inicio de extensibilidad](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

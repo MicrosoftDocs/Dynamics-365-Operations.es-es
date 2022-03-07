@@ -1,8 +1,8 @@
 ---
 title: Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
-description: En este tema se explica cómo utilizar informes electrónicos (ER) para generar documentos empresariales que tienen imágenes y formas incrustadas en los encabezados o pies de página.
+description: Este tema explica cómo utilizar los informes electrónicos (ER) para generar documentos comerciales que tienen imágenes y formas incrustadas en los encabezados o pies de página.
 author: NickSelin
-ms.date: 08/11/2021
+ms.date: 06/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: e67c10ecb9f297d1855a55431cd07c53ee87d40a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323795"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361423"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
 
@@ -153,9 +153,9 @@ Para agregar las configuraciones ER estándar a su instancia actual de Dynamics 
 3. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, expanda **Modelo de factura**.
 4. Además del formato de ER **Factura de servicios (Excel)** seleccionado, se importaron otras configuraciones de ER necesarias. Asegúrese de que las siguientes configuraciones de ER estén disponibles en el árbol de configuración:
 
-    - **Modelo de factura** - Esta configuración contiene el modelo de datos del componente ER que representa la estructura de datos del dominio comercial de factura.
-    - **Asignación del modelo de factura** - Esta configuración contiene el asignado de modelos del componente ER que describe cómo se completa el modelo de datos con los datos de la aplicación en tiempo de ejecución.
-    - **Factura de servicios (Excel)** - Esta configuración contiene el formato y componentes de ER de mapeo de formato. El componente de formato especifica el diseño del informe, basado en una plantilla en formato Excel. El componente de asignación de formato contiene el origen de datos del modelo y especifica cómo se usa este origen de datos para rellenar el diseño del informe en tiempo de ejecución.
+    - **Modelo de factura** - Esta configuración contiene el [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) del componente ER que representa la estructura de datos del dominio comercial de factura.
+    - **Asignación del modelo de factura** - Esta configuración contiene el [asignado de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) del componente ER que describe cómo se completa el modelo de datos con los datos de la aplicación en tiempo de ejecución.
+    - **Factura de servicios (Excel)** - Esta configuración contiene el [formato](general-electronic-reporting.md#FormatComponentOutbound) y componentes de ER de mapeo de formato. El componente de formato especifica el diseño del informe, basado en una plantilla en formato Excel. El componente de asignación de formato contiene el origen de datos del modelo y especifica cómo se usa este origen de datos para rellenar el diseño del informe en tiempo de ejecución.
 
 ![Configuraciones de ER importadas en la página Configuraciones.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

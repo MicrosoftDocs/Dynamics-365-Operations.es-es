@@ -2,11 +2,9 @@
 title: Reabastecimiento de umbral de zona
 description: El reabastecimiento basado en zonas utiliza una estrategia de reabastecimiento mínimo/máximo (mín./máx.), pero evalúa zonas de almacén completas en lugar de solo ubicaciones individuales. Por lo tanto, los directores de almacén pueden aprender más rápido cuándo se requiere un inventario adicional en una zona de picking.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965511"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569008"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimiento de umbral de zona
 
@@ -343,3 +341,6 @@ Aquí se muestran algunas notas y consejos para trabajar con la característica:
 
 - Si está utilizando ubicaciones dinámicas, se creará un trabajo de reabastecimiento para la primera ubicación disponible o para una ubicación que ya contiene inventario, si la acción de directiva de ubicación está configurada para usar la estrategia **Consolidar**.
 - Si utiliza ubicaciones fijas en lugar de zonas, debe usar el [reabastecimiento mín./máx. estándar](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

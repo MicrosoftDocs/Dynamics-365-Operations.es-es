@@ -1,31 +1,33 @@
 ---
-title: Crear un plan de permisos y ausencias
-description: Crear planes de ausencias en Dynamics 365 Human Resources para diferentes tipos de baja.
-author: andreabichsel
-manager: AnnBe
-ms.date: 09/11/2020
+title: Crear un plan de bajas y ausencias
+description: Este tema describe cómo crear planes de vacaciones en Dynamics 365 Human Resources para diferentes tipos de licencia.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420467"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070259"
 ---
-# <a name="create-a-leave-and-absence-plan"></a>Crear un plan de permisos y ausencias
+# <a name="create-a-leave-and-absence-plan"></a>Crear un plan de bajas y ausencias
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Defina planes de permisos y ausencias en Dynamics 365 Human Resources para cada tipo de licencia que ofrezca. Los planes de permisos y ausencias pueden acumularse en diferentes frecuencias, como anualmente, mensualmente o cada dos meses. También puede definir un plan como concesión, donde una sola acumulación se produce en una fecha específica. Por ejemplo, puede crear un plan que conceda vacaciones flotantes anualmente.
 
@@ -383,3 +385,6 @@ Saldo previsto (30) = Importe acumulación (10 x 1) + Saldo actual (40) – ajus
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)
 - [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

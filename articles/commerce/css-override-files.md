@@ -2,36 +2,30 @@
 title: Trabajar con archivos de anulación de CSS
 description: Este tema describe por qué, cuándo y cómo usar las hojas de estilo en cascada (CSS) para archivos de anulación en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415538"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964613"
 ---
-# <a name="work-with-css-override-files"></a>Trabajar con archivos de anulación de CSS
-
+# <a name="work-with-css-override-files"></a>Trabajar con archivos de anulaciones CSS
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe por qué, cuándo y cómo usar las hojas de estilo en cascada (CSS) para archivos de anulación en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Los estilos de sitio permanentes generalmente se deben manejar a través del tema de un sitio. Los temas proporcionan lo fundamental para CSS y las configuraciones de estilo para los módulos en cualquier página de su sitio. Los temas se crean utilizando el kit de desarrollo de software en línea (SDK) de Dynamics 365 Commerce, y se implementan en sus sitios web a través de Microsoft Dynamics Lifecycle Services (LCS). Las capacidades de depuración de temas y las configuraciones de la interfaz del módulo en el SDK ayudan a los desarrolladores del sitio a crear paquetes de diseño del sitio personalizables y coherentes. Cuando estos paquetes de diseño se implementan en un sitio, los autores del sitio pueden centrarse en crear, editar y publicar contenido en lugar de desarrollar el sitio.
 
@@ -107,10 +101,11 @@ Para desactivar un archivo de anulación de CSS en su sitio, siga estos pasos.
 
 [Agregar un icono de favoritos](add-favicon.md)
 
-[Agregar un mensaje de bienvenida](add-welcome-message.md)
-
 [Agregar un aviso de derechos de autor](add-copyright-notice.md)
 
 [Agregar idiomas al sitio](add-languages-to-site.md)
 
 [Agregar secuencia de comandos a páginas del sitio para admitir telemetría](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

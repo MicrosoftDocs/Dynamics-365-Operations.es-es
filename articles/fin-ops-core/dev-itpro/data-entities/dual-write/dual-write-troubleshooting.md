@@ -2,11 +2,9 @@
 title: Solución de problemas generales
 description: Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744550"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542500"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -46,16 +44,16 @@ Después de instalar la herramienta Package Deployer, instale el paquete de la s
 
 1. Descargue el archivo del paquete de solución más reciente de Yammer.com. Después de descargar el archivo zip del paquete, haga clic con el botón derecho y seleccione **Propiedades**. Selecciona la casilla **Desbloquear** y luego elija **Aplicar**. Si no ve la casilla de verificación **Desbloquear**, el archivo zip ya está desbloqueado y puede omitir este paso.
 
-    ![Cuadro de diálogo Propiedades](media/unblock_option.png)
+    ![Cuadro de diálogo Propiedades.](media/unblock_option.png)
 
 2. Extraiga el archivo zip del paquete y copie todos los archivos en la carpeta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Contenido de la carpeta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Contenido de la carpeta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Pegue todos los archivos copiados en la carpeta **Herramientas** de la herramienta Package Deployer. 
 4. Ejecute **PackageDeployer.exe** para seleccionar el entorno Dataverse e instalar las soluciones.
 
-    ![Contenido de la carpeta Herramientas](media/paste_copied_files.png)
+    ![Contenido de la carpeta Herramientas.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 
@@ -63,14 +61,14 @@ Después de instalar la herramienta Package Deployer, instale el paquete de la s
 
 Para activar el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
+1. Inicie sesión en la aplicación Customer Engagement, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
 2. En la página **Administración** , seleccione **Configuración del sistema**.
 3. En la pestaña **Personalización**, en la columna **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
 
 
 Para ver el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complementos**.
+1. Inicie sesión en la aplicación Customer Engagement, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complemento**.
 2. Encuentre los registros de seguimiento donde la columna **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
 
@@ -122,3 +120,6 @@ Para volver a habilitar la opción de formulario **Información**, siga estos pa
 2. Busque el formulario **Información** bajo el nodo de formularios. 
 3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 
 4. Cambie la configuración de seguridad a **Mostrar para todos**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

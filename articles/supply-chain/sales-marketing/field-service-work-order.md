@@ -2,16 +2,13 @@
 title: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345557"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 
@@ -34,7 +31,7 @@ ms.locfileid: "4528932"
 
 En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Dynamics 365 Field Service a pedidos de ventas en Dynamics 365 Supply Chain Management.
 
-[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
@@ -62,13 +59,13 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 | **Field Service** | **Gestión de la cadena de abastecimiento** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Encabezado de pedidos de ventas de CDS |
-| msdyn_workorderservices | Líneas de pedido de ventas de CDS   |
-| msdyn_workorderproducts | Líneas de pedido de ventas de CDS   |
+| msdyn_workorders        | Encabezados de pedido de ventas de Dataverse |
+| msdyn_workorderservices | Líneas de pedido de ventas de Dataverse   |
+| msdyn_workorderproducts | Líneas de pedido de ventas de Dataverse   |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
-Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado de la orden de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, las órdenes de trabajo se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos de Common Data Service. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Supply Chain Management. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
+Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado de la orden de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, las órdenes de trabajo se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos de Microsoft Dataverse. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Supply Chain Management. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
 
 ## <a name="estimated-versus-used"></a>Estimado versus utilizado
 
@@ -248,28 +245,31 @@ Las siguientes ilustraciones muestran la asignación de plantilla en la integrac
 
 Filtro: (msdyn_systemstatus ne 690970005) y (msdyn_systemstatus ne 690970000) y (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004)
 
-[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
 
-[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004) y (msdyn_allocated eq true)
 
-[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 
-[![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Asignación de la plantilla en la integración de datos.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

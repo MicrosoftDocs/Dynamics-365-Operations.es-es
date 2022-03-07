@@ -2,11 +2,9 @@
 title: Entradas de costes
 description: Este artículo proporciona información acerca de las entradas de coste y de cuándo se crean. Una entrada de coste es un registro que registra la cantidad y el coste de un evento dado.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19131
 ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12ff771cf44595420ca721605daabaa6b071a4ff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 53e2dd7375daf0d33ff61b870fecfdaa44dd0838
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967834"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575929"
 ---
 # <a name="cost-entries"></a>Entradas de costes
 
@@ -64,10 +62,12 @@ La página **Entradas de costes** permite el filtrado por id. de documento y fec
 > [!NOTE]
 > Las entradas de costes solo están disponibles para [objetos de costes](cost-object.md) o productos liberados.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Objetos de coste](cost-object.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

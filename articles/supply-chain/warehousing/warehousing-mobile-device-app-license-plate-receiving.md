@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103072"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576049"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
 
@@ -77,13 +77,15 @@ Cuando esta característica está activada, los elementos del menú del disposit
 - **Mostrar un resumen detallado** - Durante la recepción de la placa, los trabajadores verán una página adicional que muestra la información de aviso de envío por adelantado completa.
 - **Saltar el resumen** - Los trabajadores no verán la información completa de aviso del envío por adelantado. Los trabajadores del almacén tampoco podrán establecer un código de disposición ni agregar excepciones durante el proceso de recepción.
 
-Para usar esta funcionalidad, la característica *Controlar si desea mostrar una página de resumen de recepción en dispositivos móviles* debe activarse en su sistema. A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Controlar si desea mostrar una página de resumen de recepción en dispositivos móviles* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para que esta funcionalidad esté disponible en su sistema, debe activar la característica *Controlar si desea mostrar una página de resumen de recepción en dispositivos móviles* en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Evite que las matrículas del pedido de transferencia enviadas se utilicen en almacenes que no sean el almacén de destino
 
 No se puede utilizar un proceso de recepción de matrículas si un aviso de envío por adelantado contiene una id. de matrícula que ya existe y tiene datos físicos disponibles en una ubicación de almacén distinta de la ubicación de almacén donde se está registrando la matrícula.
 
-Para escenarios de órdenes de transferencia donde el almacén de tránsito no rastrea las matrículas de entidad (y, por lo tanto, tampoco rastrea el inventario físico disponible por matrícula), puede usar la característica *Evite que las matrículas de la orden de transferencia enviadas se utilicen en otros almacenes distintos del almacén de destino* para evitar actualizaciones físicas disponibles de las matrículas de entidad que están en tránsito. Para que esta funcionalidad esté disponible, debe activar la característica *Evitar que la transferencia de matrículas de pedido se usen en otros almacenes que no sean el almacén de destino* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta característica en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para escenarios de órdenes de transferencia donde el almacén de tránsito no rastrea las matrículas de entidad (y, por lo tanto, tampoco rastrea el inventario físico disponible por matrícula), puede usar la característica *Evite que las matrículas de la orden de transferencia enviadas se utilicen en otros almacenes distintos del almacén de destino* para evitar actualizaciones físicas disponibles de las matrículas de entidad que están en tránsito.
+
+Para que esta funcionalidad esté disponible en su sistema, debe activar la característica *Evitar que la transferencia de matrículas de pedido se usen en otros almacenes que no sean el almacén de destino* en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Para administrar la funcionalidad cuando esta característica está disponible, siga estos pasos.
 

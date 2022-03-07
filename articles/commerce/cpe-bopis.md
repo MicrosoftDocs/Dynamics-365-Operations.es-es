@@ -1,38 +1,35 @@
 ---
 title: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
-description: Este tema explica cómo configurar "comprar en línea, recoger en la tienda" (BOPIS) en un entorno de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
-author: rubendel
-manager: annbe
+description: Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
+author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415432"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779803"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar "comprar en línea, recoger en la tienda" (BOPIS) en un entorno de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
+Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
 
 ## <a name="prerequisite"></a>Requisito previo
 
-Complete los procedimientos de este tema solo después de que se haya aprovisionado y configurado su entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de evaluación de Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Complete los procedimientos de este tema solo después de que se haya aprovisionado y configurado su entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de evaluación de Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 Después de que su entorno de Commerce se haya aprovisionado y configurado de principio a fin, puede usar este tema para habilitar escenarios BOPIS.
 
@@ -40,7 +37,7 @@ Después de que su entorno de Commerce se haya aprovisionado y configurado de pr
 
 ### <a name="configure-modern-pos"></a>Configurar Modern POS
 
-Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una estación de hardware. La estación de hardware se ha incluido en el programa Modern POS para clientes Windows y Android. Si está utilizando Cloud POS o Modern POS para iOS, el cliente del punto de venta (PDV) debe estar emparejado con una estación de hardware compartida. Este tema explica cómo configurar BOPIS para clientes Windows y Android. Para obtener más información sobre cómo configurar una estación de hardware compartida, consulte [Configurar e instalar la estación de hardware de Retail](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una estación de hardware. La estación de hardware se ha incluido en el programa Modern POS para clientes Windows y Android. Si está utilizando Cloud POS o Modern POS para iOS, el cliente del punto de venta (PDV) debe estar emparejado con una estación de hardware compartida. Este tema explica cómo configurar BOPIS para clientes Windows y Android. Para obtener más información sobre cómo configurar una estación de hardware compartida, consulte [Configurar e instalar la estación de hardware de Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Vaya a **Venta minorista y comercio \> Configuración de canal \> Configuración de PDV \> Registros**.
 2. Seleccione el registro **SANFRAN-5** y luego seleccione **Editar**.
@@ -57,7 +54,7 @@ Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una 
 4. Seleccione **Descargar** y luego **Retail Modern POS**. 
 5. Cuando descargue el archivo **ModernPOSSetup.exe**, seleccione **Abrir archivo**.
 
-    ![Abrir archivo](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Abrir archivo.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Seleccione **Siguiente** para ejecutar el proceso de instalación. Cuando se complete la instalación, seleccione **Cerrar**.
 
@@ -90,7 +87,7 @@ Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una 
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Crear un pedido de escaparate para recoger en la tienda
 
-1. Vaya a la URL que especificó en el paso [Inicializar comercio electrónico](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) durante la configuración del entorno.
+1. Vaya a la URL que especificó en el paso [Inicializar comercio electrónico](./provisioning-guide.md#initialize-e-commerce) durante la configuración del entorno.
 2. Seleccione un artículo y seleccione **Añadir al carrito**.
 3. En la página de la bolsa de compras, seleccione **Recoger esto** para la línea de pedido que acaba de agregar.
 4. En el cuadro de diálogo **Seleccionar una tienda**, ingrese **San Francisco** y luego seleccione el botón **Buscar**.
@@ -115,7 +112,7 @@ Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una 
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Sincronizar pedidos en línea con la oficina administrativa
 
-Para obtener información sobre cómo sincronizar pedidos en línea, vea [Publicación de ventas y pagos en línea](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Para obtener información sobre cómo sincronizar pedidos en línea, vea [Publicación de ventas y pagos en línea](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Recoger un pedido en tienda
 
@@ -151,16 +148,19 @@ Para todos los problemas generales, siempre debe consultar los registros de even
 
 [Preguntas frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Conector de pago Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Conector de pago Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Guardar los instrumentos de pago en línea con el conector de Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Guardar los instrumentos de pago en línea con el conector de Adyen](./dev-itpro/adyen-connector-listpi.md)
 
-[Visión general de pagos omnicanal](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Visión general de pagos omnicanal](./omni-channel-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Configurar modos y cargos de entrega del centro de llamadas
 description: Este tema describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748580"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
@@ -67,11 +65,11 @@ En la sección **Líneas**, puede definir uno o varios gastos por divisa, según
 
 Las empresas suelen configurar gastos por niveles. En este caso, el importe que los clientes pagan para la entrega se basa en el valor del pedido. Para configurar los gastos por niveles, introduzca valores en los campos **Importe inicial** e **Importe final** además de definir el propio gasto en el campo **Valor de gastos**. Por ejemplo, para los pedidos que tengan un valor inferior a 50 €, un distribuidor gasta 5,95 $ por el envío terrestre. Para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor gasta 7,95 $. Por último, para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor ofrece un envío gratuito. La siguiente ilustración muestra la configuración de estos gastos.
 
-![Ejemplo de gastos fijos por niveles](media/fixedtieredcharges.png)
+![Ejemplo de gastos fijos por niveles.](media/fixedtieredcharges.png)
 
 Puede utilizar una combinación de categorías para los gastos, en función de sus requisitos empresariales. Por ejemplo, para todos los pedidos que tengan un valor inferior a 100 €, existe un gasto fijo de 9,95 $ por el envío. A continuación, para pedidos que tengan un valor igual o superior 100 $, los gastos de entrega se calculan en un índice del 5 por ciento del valor del pedido. La siguiente ilustración muestra la configuración de estos gastos.
 
-![Ejemplo de gastos mixtos por niveles](media/mixedtieredcharges.png)
+![Ejemplo de gastos mixtos por niveles.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Aplicar modos de entrega durante la entrada de pedidos en un centro de llamadas
 
@@ -94,3 +92,6 @@ De forma opcional, puede vincular un código de urgencia a cualquier modo de ent
 Por ejemplo, para pedidos que se enviarán por aire al día siguiente, el picking se debe realizar cada día en el almacén aproximadamente las 13:00. En este caso, se puede crear un código de urgencia, y ese código se puede vincular a cualquier modo de entrega al día siguiente que se configure en el sistema. Cuando el almacén crea su oleada de picking, el código de urgencia adecuado en el campo **Urgente** se pueden utilizar como un filtro, de manera que el picking se ejecuta solo para pedidos que tienen modos de entrega que se vinculan a ese código.
 
 Además, cuando se introduce un pedido del centro de llamadas, se puede aplicar manualmente un código de urgencia a la cabecera del pedido de ventas o a una línea de pedido de ventas individual. Una vez más, el código se puede usar con fines de ordenación o creación de informes A veces, un pedido debe manipularse con cuidado debido a un problema de servicio de atención al cliente. En este caso, se puede aplicar un código de urgencia específico a la cabecera o las líneas del pedido para ayudar a identificar y a dar prioridad al pedido durante el proceso de suministro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

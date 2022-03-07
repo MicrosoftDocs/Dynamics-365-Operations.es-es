@@ -1,7 +1,7 @@
 ---
 title: Configurar dispositivos móviles para el trabajo de almacén
 description: En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: dee8d0962626c42ab76e908072e686cc5c0a61d1
+ms.sourcegitcommit: f332cabe9d5c6ece431fd5aa06759481be53f06a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902191"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506544"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 

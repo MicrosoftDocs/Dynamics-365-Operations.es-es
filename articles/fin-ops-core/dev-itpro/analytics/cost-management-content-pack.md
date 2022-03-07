@@ -2,11 +2,9 @@
 title: Contenido de gestión de costes de Power BI
 description: Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752649"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -31,12 +29,7 @@ ms.locfileid: "4683904"
 
 ## <a name="overview"></a>Información general
 
-El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
-
-> [!NOTE]
-> Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 Finance and Operations 8.0.
-> 
-> El paquete de contenido de **Gestión de costes** Power BI, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte [Funcionalidades eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o personas de la organización que son responsables o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
 
 Este contenido de Power BI proporciona un formato categorizado que ayuda a controlar el rendimiento de inventarios y visualizar cómo fluyen los coste a través de ellos. Puede obtener información de gestión como el ratio de facturación, el número de días que el inventario está disponible, precisión y "clasificación ABC" de su nivel agregado preferido (empresa, artículo, grupo de artículos o sitio). La información que se facilita se puede usar también como suplemento detallado del informe financiero.
 
@@ -207,3 +200,6 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Entidades jurídicas                                          | Nombres de entidad jurídica                              |
 | Calendarios fiscales                                        | Calendario fiscal, año, trimestre, período, mes   |
 | Sitio                                                    | Identificador, nombre, dirección, Comunidad autónoma, País               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: KPI de activo
 description: Este tema explica los KPI de activos en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778757"
 ---
 # <a name="asset-kpis"></a>KPI de activo
 
@@ -84,8 +82,11 @@ En la siguiente tabla, aparecerá una descripción de los campos de la página *
 
 La ilustración siguiente muestra una captura de pantalla de un cálculo de KPI para cuatro activos.
 
-![Captura de pantalla de un cálculo de KPI para cuatro activos](media/11-controlling-and-reporting.png)
+![Captura de pantalla de un cálculo de KPI para cuatro activos.](media/11-controlling-and-reporting.png)
 
 - Puede seleccionar varios activos en **Todos los activos** y hacer clic en el botón **KPI de activo** en la pestaña **General**. A continuación, haga clic en **Aceptar** en el cuadro de diálogo **Calcular los KPI del activo** para calcular los KPI de los activos seleccionados.  
 - Los resultados de un cálculo de KPI pueden o no incluir los [registros de tiempo de inactividad por mantenimiento](../work-orders/maintenance-downtime.md), en función de la configuración y el uso de los códigos del motivo del tiempo de inactividad por mantenimiento. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

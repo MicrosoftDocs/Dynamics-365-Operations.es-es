@@ -1,12 +1,10 @@
 ---
 title: Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
 description: Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
-author: perlynne
-manager: tfehr
+author: sherry-zheng
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9293578144c51baef34204a2b592d517baa3b0dd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3487f4790e1c32ce827c62dcedde810783bd6fe7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967189"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102877"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
 
@@ -139,3 +137,6 @@ Puede generar el informe **Enviado a los clientes** para identificar la cantidad
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>¿Se puede realizar el seguimiento de los coproductos y los productos derivados?
 Puede realizar el seguimiento de los coproductos, pero no de los productos derivados porque las dimensiones de seguimiento no suelen asignarse a ellos. Cuando realiza el seguimiento de un artículo, los detalles de seguimiento incluyen los coproductos relacionados. Un nodo que contiene un coproducto incluye la palabra "coproducto" en los detalles. También puede ver detalles acerca de un coproducto si selecciona el nodo en los detalles de seguimiento y, a continuación, hace clic en la ficha desplegable **Producción**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

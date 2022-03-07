@@ -2,35 +2,30 @@
 title: Módulo Contenedor
 description: En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715449"
 ---
-# <a name="container-module"></a>Módulo Contenedor
+# <a name="container-module"></a>Módulo de contenedor
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Un módulo de contenedor es un módulo que hospeda otros módulos dentro. El propósito principal de un módulo de contenedor es definir, mediante las propiedades que se establecen para él, el diseño de los módulos que contiene. Por ejemplo, esos módulos pueden aparecer de forma paralela en un diseño de dos, tres, cuatro o seis columnas. También se pueden limitar al ancho del contenedor o bien, pueden rellenar la pantalla. También se puede agregar una encabezado a cada módulo de contenedor.
 
@@ -47,7 +42,7 @@ Se admiten tres módulos de contenedor: contenedor, contenedor con 2 franjas y c
 
 La siguiente imagen muestra un ejemplo de un módulo contenedor que contiene un módulo carrusel en el creador de sitios de Commerce. En este ejemplo, la propiedadel **Anchura** del módulo contenedor se establece en **Rellenar pantalla**.
 
-![Ejemplo de módulo contenedor](./media/ecommerce-container.PNG)
+![Ejemplo de módulo contenedor.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Propiedades de módulo de contenedor
 
@@ -142,3 +137,6 @@ Para agregar un módulo de reproductor de contenedor a una página nueva y estab
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Visión general de la gestión de documentos empresariales
 description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740965"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749546"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -579,3 +577,6 @@ La siguiente tabla muestra la lista de configuraciones de informes electrónicos
 |                             | Albarán del pedido de ventas (Excel) (LT)           |
 |                             | Albarán del pedido de ventas (Excel) (PL)           |
 |                             | Albarán del pedido de ventas (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
