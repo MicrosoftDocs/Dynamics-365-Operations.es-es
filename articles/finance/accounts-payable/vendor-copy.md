@@ -1,26 +1,24 @@
 ---
 title: Copiar proveedores mediante secuencias numéricas compartidas
 description: En este tema se explica cómo usar secuencias numéricas compartidas para copiar un proveedor en otra entidad jurídica pero conservando el mismo id. de proveedor.
-author: mikefalkner
-manager: aolson
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4cea8269082b39e2374ffb3c3dc82def8ce35679
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214509"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358474"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiar proveedores mediante secuencias numéricas compartidas
 
@@ -38,9 +36,9 @@ También puede copiar proveedores entre entidades jurídicas si usa id. de prove
 
 ## <a name="copy-a-vendor"></a>Copiar proveedor
 
-Para copiar un proveedor, seleccione **Nuevo** en la página de lista **Todos los proveedores** para abrir la página **Todos los proveedores, nuevo registro**. Tenga en cuenta que el nuevo id. de proveedor no se asigna inmediatamente. Este comportamiento difiere del comportamiento en versiones anteriores. Dado que aún no ha seleccionado el grupo de proveedores, el sistema no puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un nuevo proveedor o copiar un proveedor. Por lo tanto, no se asigna el id. del proveedor hasta que no se seleccione **Guardar** en la parte inferior de la página.
+Para copiar un proveedor, seleccione **Nuevo** en la página de lista **Todos los proveedores** para abrir la página **Todos los proveedores, nuevo registro**. El nuevo id. de proveedor no se asigna inmediatamente. Este comportamiento difiere del comportamiento en versiones anteriores. Dado que aún no ha seleccionado el grupo de proveedores, no se puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un nuevo proveedor o copiar un proveedor. Por lo tanto, no se asigna el id. del proveedor hasta que no se seleccione **Guardar** en la parte inferior de la página.
 
-Si está creando un proveedor nuevo, puede continuar rellenando todos los campos como lo hace normalmente. Cuando haya terminado, y seleccione **Guardar**, verá que el id. del proveedor se asignó automáticamente. También, para secuencias numéricas manuales, verá que se usó su id. de proveedor manual.
+Si está creando un proveedor nuevo, puede continuar rellenando todos los campos como lo hace normalmente. Cuando haya terminado, y seleccione **Guardar**, el id. del proveedor se asigna automáticamente. También, para secuencias numéricas manuales, verá que se usó su id. de proveedor manual.
 
 Para copiar un proveedor, en el campo **Nombre**, escriba uno o más caracteres que representen al cliente que busca. Un cuadro de diálogo de búsqueda muestra una lista de partes que podrían representar al proveedor que busca. Al seleccionar una de las partes, aparece información adicional en el lado derecho del cuadro de diálogo:
 
@@ -56,11 +54,11 @@ Puede copiar una parte solo si tiene un rol de proveedor y si tiene dicho rol en
 
 ## <a name="validation"></a>Validación
 
-Al copiar un proveedor, el sistema intenta guardar la nueva información del proveedor. Las validaciones se ejecutan para comprobar que los datos que se copiaron son correctos. Recibe un mensaje de error para cada validación con error. Los mensajes de error explican qué información se debe actualizar. No se puede guardar la copia del proveedor hasta que no se corrijan todos los errores de validación.
+Al copiar un proveedor, se intenta guardar la nueva información del proveedor. Las validaciones se ejecutan para comprobar que los datos que se copiaron son correctos. Recibe un mensaje de error para cada validación con error. Los mensajes de error explican qué información se debe actualizar. No se puede guardar la copia del proveedor hasta que no se corrijan todos los errores de validación.
 
 ## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a>Copiar un proveedor mediante la función de búsqueda del número de identificación fiscal
 
-También puede copiar proveedores mediante la función de búsqueda del número de identificación fiscal que se encuentra en el grupo **Registro** de la pestaña **Proveedor** del panel de acciones de la página **Todos los proveedores**. El cuadro de diálogo **Búsqueda de NIF** que aparece muestra los números de identificación fiscal, el id. del proveedor, el nombre del proveedor y la entidad jurídica en la que se usa el identificador fiscal. Solo puede copiar un proveedor si se encuentra en una entidad jurídica que no es la entidad jurídica actual. Tras seleccionar un proveedor que cumpla este criterio, siga estos pasos.
+También puede copiar proveedores mediante la función de búsqueda del **número de identificación fiscal** que se encuentra en el grupo **Registro** de la pestaña **Proveedor** del panel de acciones de la página **Todos los proveedores**. El cuadro de diálogo **Búsqueda de NIF** que aparece muestra los números de identificación fiscal, el id. del proveedor, el nombre del proveedor y la entidad jurídica en la que se usa el identificador fiscal. Solo puede copiar un proveedor si se encuentra en una entidad jurídica que no es la entidad jurídica actual. Tras seleccionar un proveedor que cumpla este criterio, siga estos pasos.
 
 1. Aparece una opción **Copiar proveedor**. Esta opción se establece en **No** de forma predeterminada. Para copiar el proveedor en la entidad jurídica actual, establezca la opción en **Sí**.
 2. Seleccione **Seleccionar**. Se crea el nuevo proveedor.
