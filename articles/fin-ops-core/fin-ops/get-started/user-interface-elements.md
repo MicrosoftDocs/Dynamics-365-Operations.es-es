@@ -12,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754737"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069332"
 ---
 # <a name="user-interface-elements"></a>Elementos de la interfaz de usuario
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Este tema describe los elementos (UI) de la interfaz de usuario utilizados en la aplicación. Para que los usuarios puedan navegar por la interfaz, es importante conocer los nombres y las funciones de los elementos que componen la interfaz.
 

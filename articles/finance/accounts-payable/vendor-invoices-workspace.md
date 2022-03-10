@@ -2,24 +2,24 @@
 title: Espacio de trabajo de automatización de facturas de proveedor
 description: Este tema explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI.
 author: abruer
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
-ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954144"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182588"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Espacio de trabajo de automatización de facturas de proveedor
 
@@ -60,14 +60,14 @@ Cuando la característica **Automatización de facturas de proveedor** está act
 
 Los iconos de la sección **Resumen de facturas pendientes** de la vista **Mi trabajo** ofrecen una visión general del estado de sus facturas de proveedor. Puede ver los diarios que aún no se han registrado y las facturas retenidas. Además, hay cuatro iconos asociados con la característica Automatización de facturas de proveedores:
 
-- Es necesaria una coincidencia de recepción manual
-- Validación de coincidencia no correcta
-- Facturas no enviadas al flujo de trabajo
-- Facturas no importadas
+- **Es necesaria una coincidencia de recepción manual**
+- **Validación de coincidencia no correcta**
+- **Facturas no enviadas al flujo de trabajo**
+- **Facturas no importadas**
 
-(Estos cuatro mosaicos requieren que la característica Automatización de facturas de proveedores esté activada en Administración de características).
+(Estos cuatro mosaicos requieren que la característica Automatización de facturas de proveedores esté activada en **Administración de características**).
 
-Para usar el icono **Recuperar facturas de proveedores**, la característica debe estar activada en Parámetros de proveedores. Vaya a **Proveedores \> Parámetros de proveedores** y, a continuación, en la pestaña **Factura**, establezca la opción **Permitir recuperación de factura de proveedor** en **Sí**.
+Para usar el icono **Recuperar facturas de proveedores**, la característica debe estar activada en **Parámetros de proveedores**. Vaya a **Proveedores \> Parámetros de proveedores** y, a continuación, en la pestaña **Factura**, establezca la opción **Permitir recuperación de factura de proveedor** en **Sí**.
 
 Cuando la característica está activada, también verá en el espacio de trabajo tres iconos agrupados en una sección llamada **Diarios**. Los iconos se titulan **Diarios**, **Diarios asignados a mí** y **Grupo de facturas**. 
 

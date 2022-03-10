@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735360"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novedades o cambios en Dynamics 365 Human Resources 22 de junio de 2021
 
@@ -44,7 +44,7 @@ Las siguientes características estarán disponible de forma generalizada en est
 | --- | --- | --- |
 | Informar a los usuarios de los trabajadores sin la función de empleo: cuando el acceso avanzado está activado y la función **Ver todos los trabajadores sin empleo** está desactivada en la gestión de funciones, se mostrará un banner en el formulario de trabajadores sin empleos. El banner indicará al usuario que encienda la función **Ver todos los trabajadores sin empleo**. | No aplicable| [Trabajadores sin empleo](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Soporte de campos personalizados para las reglas de idoneidad de gestión de prestaciones | [Soporte de campo personalizado para el procesamiento de idoneidad](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Configurar reglas de elegibilidad](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Auditoría de transacciones de acumulación de bajas | No aplicable | [Auditoría de transacciones de acumulación de bajas](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Auditoría de transacciones de acumulación de bajas | No aplicable | [Auditoría de transacciones de acumulación de bajas](hr-leave-and-absence-accrue.md)|
 | Mejoras en la experiencia del flujo de trabajo de bajas y ausencias | [Mejoras en la experiencia del flujo de trabajo de bajas y ausencias](https://go.microsoft.com/fwlink/?linkid=2147528) | [Solicitar permiso](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Correcciones de errores

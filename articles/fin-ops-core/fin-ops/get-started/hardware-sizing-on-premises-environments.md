@@ -2,11 +2,9 @@
 title: Requisitos de dimensionamiento de hardware para entornos locales
 description: Este tema muestra los requisitos de dimensionamiento de hardware para un entorno local.
 author: sericks007
-manager: AnnBe
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763443"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -38,7 +36,7 @@ Una vez que haya revisado la documentación, puede iniciar el proceso de calcula
 
 Todos los factores que se muestran en la siguiente ilustración contribuyen al dimensionamiento. Cuanta más información detallada se recopile, con mayor precisión podrá determinar el dimensionamiento. Es probable que el dimensionamiento de hardware, sin datos complementarios, sea impreciso. El requisito mínimo absoluto para todos los datos necesarios es la carga de línea de transacción máxima por hora.
 
-[![Dimensionamiento de hardware para entornos locales](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Dimensionamiento de hardware para entornos locales.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Visto de izquierda a derecha, el primer y más importante factor necesario para calcular el dimensionamiento con precisión es un perfil de transacción o una caracterización de transacción. Es importante encontrar siempre el volumen transaccional máximo por hora. Si hay varios periodos máximos, estos periodos tienen que definirse de manera detallada.
 
@@ -134,10 +132,15 @@ En la mayoría de los casos, salvo que se utilicen extensivamente, los requisito
 
 Solo puede implementarse un nodo SSRS para la versión de disponibilidad general. Controle su nodo SSRS mientras realiza la prueba y aumente el número de núcleos disponible para SSRS en función de las necesidades. Asegúrese de que tiene un nodo secundario preconfigurado disponible en un host virtual que sea diferente de la MV de SSR. Esto es importante si hay un problema con la máquina virtual que aloja a SSRS o al host virtual. Si este es el caso, tendría que reemplazarse.
 
+A partir de la versión 10.0.17, es posible configurar nodos SSRS adicionales para lograr una alta disponibilidad. Para obtener más información, consulte [Configurar la alta disponibilidad para los nodos de SQL Server Reporting Services (SSRS)](../../dev-itpro/deployment/onprem-ssrsha.md)
+
 ## <a name="environment-orchestrator"></a>Orquestador de entorno
 
-El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Planificar y preparar la implementación del clúster autónomo de Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Planificar y preparar la implementación del clúster autónomo de Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualización y sobresuscripción
 
 Los servicios fundamentales para la misión, como el AOS, deben hospedarse en host virtuales que tiene recursos dedicados - núcleos, memoria y disco.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

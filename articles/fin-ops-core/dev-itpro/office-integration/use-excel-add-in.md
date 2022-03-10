@@ -2,7 +2,7 @@
 title: Ver y actualizar datos de entidad con Excel
 description: Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761363"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068801"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
 [!include [applies to](../includes/applies-to-commerce-finance-scm.md)]
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
 Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de Finance and Operations.
@@ -38,7 +41,7 @@ Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma
 Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea](https://youtu.be/RTicLb-6dbI).
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir los datos de entidad en Excel en el inicio desde una aplicación de Finance and Operations
-1. En una página de una aplicación de Finance and Operations, seleccione **Abrir en Microsoft Office**.
+1. En una página de aplicación de Finanzas y operaciones, seleccione **Abrir en Microsoft Office**.
 
     Si el origen de datos raíz (tabla) de la página es el mismo que el origen de datos raíz de cualquier entidad, se generan las opciones **Abrir en Excel** predeterminadas en la página. Las opciones **Abrir en Excel** se pueden encontrar en las páginas utilizadas con frecuencia como, por ejemplo, **Todos los proveedores** y **Todos los clientes**.
  
@@ -60,7 +63,7 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 
 6. Seleccione **Aceptar** y, a continuación **Sí** para confirmar el cambio. El complemento de Excel se reinicia y carga los metadatos.
 
-    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un botón **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información, consulte “Aparece el botón Cargar applets” en la sección [Solución de problemas](../office-integration/use-excel-add-in.md#troubleshooting) de este tema.
+    El botón **Diseño** está ahora disponible. Si el complemento de Excel tiene un enlace **Cargar applets**, probablemente no haya iniciado sesión como el usuario correcto. Para obtener más información sobre cómo abordar este problema, consulte la entrada [Cargar subprogramas](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) de solución de problemas.
 
 7. Seleccione **Diseño**. El complemento de Excel recupera los metadatos de la entidad.
 8. Seleccione **Agregar tabla**. Aparece una lista de entidades. Las entidades aparecen con el formato "Nombre - Etiqueta".
@@ -136,7 +139,7 @@ Los datos que se leen en el libro de un entorno se pueden copiar en otro entorno
 ## <a name="troubleshooting"></a>Solución de problemas
 Existen problemas que se pueden resolver con unos sencillos pasos.
 
-- **Aparece el botón Cargar applets** - Si el complemento de Excel tiene un botón **Cargar applets** tras el inicio de sesión, probablemente no haya iniciado sesión como el usuario correcto. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
+- **El enlace Cargar subprogramas se muestra**: para obtener más información sobre este problema, consulte la entrada [Cargar subprogramas](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) de solución de problemas. 
 - **Recibe un "Mensaje prohibido"** - Si recibe un mensaje “Prohibido” mientras que el complemento de Excel está cargando metadatos, la cuenta que ha iniciado sesión en el complemento de Excel no tiene permisos para usar el servicio, la instancia o en la base de datos objetivo. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
 - **Aparece una página web en blanco sobre Excel** - Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento de Excel no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](/deployoffice/overview-office-deployment-tool) para [cambiar del canal diferido al canal actual](/deployoffice/overview-update-channels).
 - **Recibe un tiempo de espera mientras publica cambios de datos**: si recibe mensajes de tiempo de espera mientras intenta publicar cambios de datos en una entidad, piense en reducir el tamaño del lote de publicación para el libro afectado. Las entidades que desencadenan mayores cantidades de lógica en los cambios de registro pueden requerir que las actualizaciones se envíen en lotes más pequeños para ayudar a evitar tiempos de espera.

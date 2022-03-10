@@ -1,23 +1,23 @@
 ---
 title: Configuración de parámetros de la administración de crédito
 description: En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa.
-author: mikefalkner
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4243b7163d822f8b496fb79f6c72cf8d5502ca7e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835349"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323419"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
@@ -31,7 +31,7 @@ Existen cuatro fichas desplegables en la sección **Crédito** en las que puede 
 
 ### <a name="credit-holds"></a>Retenciones de crédito
 
-- Establezca la opción **Permitir la edición del valor de los pedidos de ventas después de que se libere la retención de pedidos** en **No** para exigir que se vuelvan a comprobar las reglas de contabilización si el valor del pedido de ventas (precio extendido) ha aumentado desde que se eliminó el pedido de ventas de la lista de retención. .
+- Establezca la opción **Permitir la edición del valor de los pedidos de ventas después de que se libere la retención de pedidos** en **No** para exigir que se vuelvan a comprobar las reglas de contabilización si el valor del pedido de ventas (precio extendido) ha aumentado desde que se eliminó el pedido de ventas de la lista de retención.
 - En el campo **Motivos de pedidos cancelados**, seleccione el motivo de liberación que se usará de manera predeterminada cuando se cancele un pedido de ventas que estaba en espera de administración de crédito.
 - Establezca la opción **Comprobar el límite de crédito de grupos de crédito de cliente** en **Sí** para comprobar el límite de crédito de un grupo de crédito de cliente cuando el cliente de un pedido de ventas pertenece a un grupo de crédito de cliente. Se comprobará el límite de crédito para el grupo y después, si es suficiente, se comprobará el límite de crédito para el cliente.
 - Establezca la opción **Comprobar el límite de crédito cuando aumenta las condiciones de pago** en **Sí** para comprobar las clasificaciones de las condiciones de pago a fin de determinar si las condiciones de pago del pedido de ventas difieren de las condiciones de pago predeterminadas del cliente. Si las nuevas condiciones de pago tienen una clasificación más alta que las condiciones de pago originales, el pedido se pone en espera de administración de crédito.
@@ -50,7 +50,8 @@ También puede definir el número de días de gracia antes de que las reglas de 
 
 Si no especifica el número de días de gracia, las reglas de crédito se comprobarán en cada paso del registro que esté configurado para ejecutar reglas de administración de crédito. Si libera el pedido de ventas sin registrarlo y luego vuelve a ejecutar el mismo paso de procesamiento del pedido, las reglas de crédito se comprobarán nuevamente. Por ejemplo, un pedido se pone en espera después de una confirmación, y usted lo libera con o sin registro. En este caso, el pedido se pondrá en espera nuevamente si lo vuelve a confirmar. Use días de gracia si el pedido debe pasar al siguiente paso de procesamiento sin que se vuelva a retener.
 
-No es posible especificar días de gracia para algunos puntos de control de registro y no para otros. Debe configurar todos los puntos de control de registro para que tengan días de gracia o para que no los tengan.
+> [!Note]
+> Si se ha introducido un día de gracia en un punto de control de registro, todos los puntos de control marcados para registro deben tener días de gracia.
 
 - Seleccione la casilla **Registro** para ejecutar las reglas de administración de crédito cuando se ejecuta el punto de control de registro que se muestra en la línea. Si no activa la casilla, las reglas se comprobarán solo una vez durante todo el proceso de registro.
 - Si selecciona la casilla **Registro**, especifique el número de días de gracia que deben pasar antes de que las reglas de bloqueo se comprueben nuevamente. No puede agregar días de gracia si la casilla **Registro** está desactivada.
@@ -72,6 +73,10 @@ Se incluyen varias estadísticas de administración de crédito en cuadro inform
 
 - En Administración de crédito, el límite de crédito del cliente se muestra en la divisa del cliente. Debe definir el tipo de cambio para el límite de crédito en la divisa del cliente. En el campo **Tipo de cambio de límite de crédito**, seleccione el tipo de tipo de cambio que se debe usar para convertir el límite de crédito principal en el límite de crédito del cliente.
 - Seleccione la opción **Permitir la edición manual de los límites de crédito** en **No** para evitar que los usuarios editen los límites de crédito en la página **Cliente**. Si esta opción está establecida en **No**, los cambios en el límite de crédito de un cliente solo pueden realizarse registrando transacciones de ajuste de límite de crédito.
+- Establezca la opción **Omitir reservas de inventario** en **Sí** para ignorar las reservas de inventario cuando se verifican las reglas de bloqueo de la gestión de crédito. En este caso, el sistema verifica las cantidades de línea completas y habilita períodos de gracia en los puntos de control, independientemente de la cantidad de reserva de inventario.
+- Cuando la gestión de crédito está habilitada, la configuración del campo **Mensaje al exceder el límite de crédito** se utiliza para procesar solo facturas de servicios. Aunque todavía se agregan mensajes a los pedidos de ventas cuando los clientes han excedido su límite de crédito, la presencia de esos mensajes no bloqueará la confirmación, la impresión de listas de selección y albaranes ni la publicación de facturas.
+
+    La gestión de crédito está habilitada de forma predeterminada, pero puede deshabilitarla. Si está habilitado, utiliza las reglas de bloqueo de la gestión de crédito y los puntos de control para identificar cuándo los clientes han superado su límite de crédito. Si está deshabilitado, los mensajes que se agregan a los pedidos de ventas en función de la configuración del campo **Mensaje al exceder el límite de crédito** puede ayudarlo a identificar cuándo los clientes han excedido su límite de crédito.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Secuencias numéricas y parámetros de secuencia numérica compartida
 

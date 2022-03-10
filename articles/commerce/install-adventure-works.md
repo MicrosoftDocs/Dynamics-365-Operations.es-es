@@ -2,7 +2,7 @@
 title: Instalar el tema de Adventure Works
 description: Este tema describe cómo instalar el tema Adventure Works en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/21/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9c94dd8ead32f58a25a396376840101d9c2c9b08
-ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
+ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6655857"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913711"
 ---
 # <a name="install-the-adventure-works-theme"></a>Instalar el tema de Adventure Works
 
@@ -32,7 +32,7 @@ Este tema describe cómo instalar el tema Adventure Works en Microsoft Dynamics 
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de instalar el tema Adventure Works, debe tener un entorno Dynamics 365 Commerce (Commerce versión 10.0.20 o posterior) que incluya Retail Cloud Scale Unit (RCSU), el kit de desarrollo de software en línea (SDK) de Commerce y la biblioteca del módulo de Commerce. Para obtener información sobre cómo instalar el SDK de Commerce y la biblioteca de módulos, consulte [Actualizaciones de biblioteca de módulos y SDK](e-commerce-extensibility/sdk-updates.md). 
+Antes de instalar el tema Adventure Works, debe tener un entorno Dynamics 365 Commerce (Commerce versión 10.0.20 o posterior) que incluya Retail Cloud Scale Unit (RCSU), el kit de desarrollo de software en línea (SDK) de Commerce y la biblioteca del módulo de Commerce. Para obtener información sobre cómo instalar el SDK de Commerce y la biblioteca de módulos, consulte [Configurar un entorno de desarrollo](e-commerce-extensibility/setup-dev-environment.md). 
 
 ## <a name="installation-steps"></a>Pasos de instalación
 
@@ -48,11 +48,19 @@ El paquete de temas Adventure Works está disponible en la fuente **dynamics365-
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Para instalar el paquete en su entorno local, ejecute el siguiente comando desde el símbolo del sistema. Este comando actualiza automáticamente el archivo package.json para que incluya la dependencia.
+Para instalar el paquete en su entorno local, ejecute el comando `yarn add THEME_PACKAGE@VERSION` desde el símbolo del sistema, donde **THEME_PACKAGE** es el paquete de temas (@msdyn365-commerce-theme/adventureworks-theme-kit) y **VERSION** es el número de versión de la biblioteca de módulos que se está utilizando. Es importante que las versiones del paquete de temas y la biblioteca de módulos coincidan. Para encontrar el número de versión de la biblioteca del módulo correcto para usar, abra el archivo package.json y localice el valor **starter-pack** en la sección **dependencies**. En el siguiente ejemplo, el archivo package.json usa la versión 9.32 de la biblioteca de módulos que se asigna a la versión 10.0.22 de Dynamics 365 Commerce.  
 
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
+```json
+"dependencies": {
+    "@msdyn365-commerce-modules/starter-pack": "9.32",
+}
+```
 
-En el archivo **package.json**, debe actualizar la versión del tema a una versión específica.
+El siguiente ejemplo muestra cómo ejecutar el comando `yarn add` para agregar la versión 9.32 del tema Adventure Works. El comando actualiza automáticamente el archivo package.json para que incluya la dependencia.
+
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
+
+Para obtener información sobre cómo actualizar la versión de la biblioteca del módulo, consulte [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md). 
 
 > [!IMPORTANT]
 > - La versión del tema debe coincidir con la versión de la biblioteca del módulo para garantizar que todas las funciones funcionen como se espera. 

@@ -1,7 +1,7 @@
 ---
 title: Previsiones del inventario
 description: Este tema describe la funcionalidad de previsión de suministro y demanda que se puede usar para crear previsiones de inventario en Microsoft Dynamics 365 Supply Chain Management.
-author: crytt
+author: ChristianRytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306424"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577561"
 ---
 # <a name="inventory-forecasts"></a>Previsiones del inventario
 
@@ -94,7 +94,7 @@ La tabla siguiente describe los comandos disponibles en el panel de acciones de 
 
 | Comando | Descripción |
 |---|---|
-| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. |
+| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema). |
 | Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este tema.) |
 | Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este tema.) |
 | Crear requisito de artículo | Abra un cuadro de diálogo donde puede crear requisitos de artículos y pedidos de ventas o líneas de diario de artículos para transacciones de previsión relacionadas con el proyecto. Aunque este comando está disponible tanto para las líneas de previsión de suministro como para las líneas de previsión de la demanda, no se puede utilizar en la página **Previsión de suministro**. |
@@ -201,7 +201,7 @@ La tabla siguiente describe los comandos disponibles en el panel de acciones de 
 
 | Comando | Descripción |
 |---|---|
-| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. |
+| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema).|
 | Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este tema.) |
 | Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este tema.) |
 | Crear requisito de artículo | Abra un cuadro de diálogo donde puede crear requisitos de artículos y pedidos de ventas o líneas de diario de artículos para transacciones de previsión relacionadas con el proyecto. |
@@ -296,7 +296,7 @@ La pestaña **Dimensión de inventario** muestra todos los valores de la dimensi
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La cuadrícula Asignación en la página Previsión de la demanda
 
-Si está utilizando una clave de asignación de artículos, o si ha ingresado una previsión de artículo para uno o más períodos futuros, puede asignar la previsión seleccionando **Asignar previsión** en la barra de herramientas de la pestaña **Descripción general**. Luego, la cantidad se distribuye de la manera indicada por las líneas en la cuadrícula **Asignación**.
+Si está utilizando una clave de asignación de artículos, o si ha ingresado una previsión de artículo para uno o más períodos futuros, puede asignar la previsión seleccionando **Asignar previsión** en la barra de herramientas de la pestaña **Descripción general**. Luego, la cantidad se distribuye de la manera indicada por las líneas en la cuadrícula **Asignación**. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema).
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsión del inventario
 
@@ -328,6 +328,25 @@ La siguiente tabla describe los campos en la cuadrícula en la página **Previsi
 | **Sub L. MAT** | El número de L. MAT de una sub L. MAT. |
 | **Subruta** | El número de ruta de una subruta específica. |
 | (Otras dimensiones) | Las dimensiones adicionales se pueden mostrar como columnas en la cuadrícula. Para seleccionar las dimensiones adicionales que se muestran, seleccione **Inventario \> Dimensiones de la pantalla** en el Panel de acciones. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Asignar previsión
+
+Use el siguiente procedimiento para procesar líneas de transacción de previsión seleccionadas. Cuando asigna una previsión, la cantidad se distribuye según lo indicado por las líneas en la cuadrícula **Asignación**.
+
+1. Según el tipo de entidad para la que va a crear una previsión y el tipo de previsión que desee crear, abra una página de previsión de suministro o demanda como se describe en [Ver e ingresar manualmente las líneas de previsión](#manual-entry).
+1. En la página de líneas de previsión de oferta o demanda, seleccione una línea de previsión y, a continuación, en la pestaña **Visión general**, seleccione **Asignar previsión** en la barra de herramientas.
+1. En el cuadro de diálogo **Asignar previsión**, configure los campos que se describen en la siguiente tabla. (El valor que seleccione en el campo **Método** determina que otros campos que están disponibles).
+
+    | Campo | Descripción |
+    |---|---|
+    | Método | <p>Seleccione el método que se utiliza para asignar la transacción de previsión:</p><ul><li>**Ninguna**: ninguna asignación tiene lugar.</li><li>**Período**: pronostique la misma cantidad para cada período. Si selecciona este valor, especifique una cantidad en el campo **Por** y una unidad de tiempo en el campo **Unidad**.</li><li>**Clave**: asigne la cantidad de previsión de acuerdo con la clave de asignación de períodos que se especifica en el campo **Clave de período**. Puede usar este método cuando desee tener en cuenta las variaciones estacionales.</li><ul>|
+    | Por | <p>Especifique el número de intervalos de tiempo que la previsión se extiende en el futuro. Este campo está disponible únicamente si selecciona *Período* en el campo **Método**.</p><p>Por ejemplo, seleccione *Período* en el campo **Método**, especifique *1* en el campo **Por** y seleccione *Meses* en el campo **Unidad**. Luego, en el campo **Final**, especifica una fecha final que se extienda un año en el futuro. En este caso, se creará una línea de previsión por cada mes del año próximo, basándose en el artículo y la cantidad indicados en la línea de encabezado. |
+    | Unidad | Seleccione la unidad del intervalo de tiempo: *Dias*, *Meses*, o *Años*. La asignación corresponde, pues, al número de días, meses o años especificado en el campo **Por**.|
+    | Clave de período | Especifique la clave de asignación de período que se utiliza para asignar la previsión. Para obtener más información, consulte [Asignación de datos de la planificación presupuestaria](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Fin | Especifique la fecha de finalización que se aplica a su configuración en los campos **Por** y **Unidad**. |
+
+1. Seleccione **Aceptar** para confirmar la configuración.
+1. Puede revisar los resultados en la pestaña **Asignación** para la misma línea.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Transacciones de previsión de actualización masiva
 

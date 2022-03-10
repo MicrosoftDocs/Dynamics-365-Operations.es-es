@@ -2,11 +2,9 @@
 title: Creación avanzada de carga durante una oleada
 description: Este tema proporciona información sobre la construcción avanzada de carga de oleadas, que asigna automáticamente envíos a oleadas existentes durante la ejecución de oleadas. Por lo tanto, puede crear cargas significativas que representen camiones sin tener que usar el banco de trabajo de planificación de carga.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1b75d5cec991b2863e7e0213257ac63d5ab566a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233208"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574746"
 ---
 # <a name="advanced-load-building-during-wave"></a>Creación avanzada de carga durante una oleada
 

@@ -4,24 +4,17 @@ description: Este tema explica cómo filtrar los pedidos de empresas vinculadas 
 author: negudava
 ms.date: 11/09/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: negudava
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5e7b0188d5c2dc4ee7691266aa4c857fc189d0f0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347257"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782562"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Filtrar pedidos de empresas vinculadas para evitar la sincronización de Orders y OrderLines
 

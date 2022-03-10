@@ -2,7 +2,7 @@
 title: Módulo del menú de navegación
 description: En este tema se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798762"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109691"
 ---
 # <a name="navigation-menu-module"></a>Módulo de menú de navegación
 
@@ -33,7 +33,7 @@ El propósito principal de los módulos de menú de navegación es permitir que 
 El módulo de menú de navegación se puede agregar al módulo de encabezado de una página. En el tema Fabrikam, el menú de navegación muestra dos niveles por defecto. En el tema Starter, el menú de navegación muestra tres niveles por defecto. Para cambiar el número de niveles, se requiere una extensión de vista en el tema.
 
 La siguiente ilustración muestra un ejemplo de un menú de navegación para el sitio de Fabrikam con dos niveles de jerarquía de categorías y algunos elementos de menú estáticos.
-![Ejemplo de un módulo de menú de navegación](./media/ecommerce-header.png)
+![Ejemplo de un módulo de menú de navegación.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Propiedades del módulo del menú de navegación
 
@@ -41,8 +41,8 @@ La siguiente ilustración muestra un ejemplo de un menú de navegación para el 
 |---------------------------|-----------------------|-------------|
 | Origen                  | **Minorista**, **Creación manual**, **Creación minorista y manual** | El valor **Minorista** permite que la jerarquía de navegación del canal de la sede de Commerce se muestre en el menú de navegación. El valor **Autoría manual** permite seleccionar elementos estáticos del menú. El valor **Autoría minorista y manual** permite una combinación de ambos. |
 | Mostrar imágenes de categoría | **Verdadero** o **Falso**    | Cuando está habilitada, esta propiedad muestra imágenes de categoría en el menú de navegación como se define en la central de Commerce para cada categoría. Agregado en la versión 10.0.14 de Commerce. |
-| Mostrar promociones | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, las promociones se pueden configurar mediante imágenes, vínculos y texto. Esta propiedad se agregó en la versión 10.0.17 de Commerce. |
-| Agregar promociones | Texto, imagen o vínculo | Cuando la propiedad **Mostrar promociones** está habilitada, puede agregar texto, una imagen o un vínculo como contenido promocional en el menú de navegación. |
+| Mostrar imágenes promocionales | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, las promociones se pueden configurar mediante imágenes, vínculos y texto. Esta propiedad se agregó en la versión 10.0.17 de Commerce. |
+|Agregar contenido promocional de la categoría | Texto, imagen o vínculo | Cuando la propiedad **Mostrar imágenes promocionales** está habilitada, puede agregar texto, una imagen o un vínculo como contenido promocional en el menú de navegación. |
 | Habilitar el menú de navegación de varios niveles | **Verdadero** o **Falso** | Cuando esta propiedad está habilitada, el menú de navegación puede mostrar varios niveles de la jerarquía de navegación. Esta característica está disponible en Commerce versión 10.0.15. |
 | Número de niveles | entero | Esta propiedad define el número de niveles que deben mostrarse si la propiedad **Habilitar el menú de navegación de varios niveles** está establecida en **Verdadero**. |
 | Elemento de menú estático| Matriz de valores| Elementos de menú estáticos que asocian un nombre de elemento de menú con un enlace a una página de sitio estática. Puede crear elementos de menú debajo de otros elementos de menú. De forma predeterminada, los menús estáticos aparecen en el nivel raíz y se agregarán a la jerarquía de navegación del canal si existe. |
@@ -50,7 +50,7 @@ La siguiente ilustración muestra un ejemplo de un menú de navegación para el 
 | Menú raíz | cadena | Esta propiedad se puede utilizar con el fin de definir texto para una raíz personalizada si la propiedad **Mostrar menú raíz** está establecida en **Verdadero**. |
 
 La siguiente ilustración muestra un ejemplo de una imagen de categoría que se muestra en el menú de navegación del sitio de Fabrikam.
-![Ejemplo de un módulo de menú de navegación con imágenes de categoría](./media/ecommerce-categoryimages.PNG)
+![Ejemplo de un módulo de menú de navegación con imágenes de categoría.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Agregar un módulo de menú de navegación a un módulo de encabezado
 
@@ -62,11 +62,11 @@ Para obtener detalles sobre cómo agregar un módulo de menú de navegación a u
 
 [Módulo de navegación](add-breadcrumb.md)
 
-[Módulo selector de sitio](site-selector.md)
+[Módulo de selector de sitios](site-selector.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 
-[Cumplimiento de cookies](cookie-compliance.md)
+[Cookie de conformidad](cookie-compliance.md)
 
 [Módulo de encabezado](author-header-module.md)
 

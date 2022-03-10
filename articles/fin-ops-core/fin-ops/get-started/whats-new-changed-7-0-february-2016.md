@@ -2,11 +2,9 @@
 title: Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics AX 7.0. Esta versión contiene características tanto de plataforma como de aplicación y se publicó en febrero de 2016.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757228"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -734,7 +732,7 @@ Retail Server y la gestión de datos permite a los consumidores y las empresas c
 </tr>
 <tr>
 <td>Mueva los datos entre la oficina administrativa de Microsoft Dynamics AX y los canales mediante Commerce Data Exchange.</td>
-<td>Commerce Data Exchange es un sistema que transfiere datos entre Microsoft Dynamics AX y canales minoristas, como tiendas en línea o tiendas físicas. Para obtener más información, consulte <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange es un sistema que transfiere datos entre Microsoft Dynamics AX y canales minoristas, como tiendas en línea o tiendas físicas. Para obtener más información, consulte <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Hay una paridad funcional con Microsoft Dynamics AX 2012 CU8. No obstante, tenga en cuenta los siguientes detalles:
 <ul>
 <li>Commerce Data Exchange se ha rediseñado para la nube.</li>
@@ -1033,3 +1031,6 @@ No se han agregado funciones nuevas.
 [Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
 
 [Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

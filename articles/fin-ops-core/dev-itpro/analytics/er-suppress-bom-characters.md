@@ -13,30 +13,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893285"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323802"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Diseñe configuraciones de ER para suprimir caracteres BOM en archivos generados
 
 [!include [banner](../includes/banner.md)]
 
-Puede diseñar una [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes. Para generar los documentos como archivos de texto o XML, la solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) ER que contiene un componente en [formato](general-electronic-reporting.md#FormatComponentOutbound) ER. Para especificar la [codificación de caracteres](/windows/win32/intl/character-sets) que representa el conjunto de caracteres en archivos generados, el formato ER debe contener el elemento de formato **Común\\Archivo**. Para configurar el componente de formato ER, abra la versión [borrador](general-electronic-reporting.md#component-versioning) de la configuración ER creada en el diseñador de formato ER y añada el elemento **Común\\Archivo**. En el campo **Codificación**, especifique la codificación de los archivos salientes que se generan en tiempo de ejecución mediante este componente.
+Puede diseñar una [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes. Para generar los documentos como archivos de texto o XML, la solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) ER que contiene un componente en formato ER. Para especificar la [codificación de caracteres](/windows/win32/intl/character-sets) que representa el conjunto de caracteres en archivos generados, el formato ER debe contener el elemento de formato **Común\\Archivo**. Para configurar el componente de formato ER, abra la versión [borrador](general-electronic-reporting.md#component-versioning) de la configuración ER creada en el diseñador de formato ER y añada el elemento **Común\\Archivo**. En el campo **Codificación**, especifique la codificación de los archivos salientes que se generan en tiempo de ejecución mediante este componente.
 
 > [!NOTE]
 > Si el formato contiene un nombre de codificación incorrecto, se genera un error al guardar los cambios en la configuración del formato.
 
-![Agregar un elemento raíz en la página del diseñador de formato](./media/er-suppress-bom-characters-image1.gif)
+![Agregar un elemento raíz en la página del diseñador de formato.](./media/er-suppress-bom-characters-image1.gif)
 
 Si especifica **UTF-8**, **UTF-16** o **UTF-32** como la codificación, la opción **Suprimir caracteres BOM** estará disponible. Establezca esta opción en **Sí** para suprimir [caracteres de marca BOM](/globalization/encoding/byte-order-mark) en archivos salientes que se generan en tiempo de ejecución cuando se ejecuta el formato ER editable.
 
 > [!NOTE]
 > Si se deja el campo **Codificación** en blanco, se usará la codificación predeterminada **UTF-8**.
 
-![Configuración de la opción Suprimir caracteres BOM de la página de diseñador de formato](./media/er-suppress-bom-characters-image2.gif)
+![Configuración de la opción Suprimir caracteres BOM de la página de diseñador de formato.](./media/er-suppress-bom-characters-image2.gif)
 
 Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento apropiado. Por ejemplo, complete los pasos del tema [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md). Una vez que haya completado los pasos de la sección [Modificar el formato para que el cálculo se base en la salida generada](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de ese tema, siga estos pasos adicionales.
 
@@ -59,7 +59,7 @@ Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento
 
     La primera diferencia que notará está en el encabezado del archivo. El archivo SampleXmlReport.xml contiene un carácter BOM, mientras que el archivo SampleXmlReport (1).xml, no.
 
-    ![Comparación de archivos generados mediante una herramienta de comparación de archivos](./media/er-suppress-bom-characters-image3.png)
+    ![Comparación de archivos generados mediante una herramienta de comparación de archivos.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Consulte también
 

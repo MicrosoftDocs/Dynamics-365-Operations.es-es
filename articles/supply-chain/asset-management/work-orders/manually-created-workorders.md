@@ -1,12 +1,10 @@
 ---
 title: Órdenes de trabajo creadas manualmente
 description: En este tema se explica cómo crear órdenes de trabajo manualmente en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b704699c5e04f38c3b79691f935287f8f9c24fba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750109"
 ---
 # <a name="manually-created-work-orders"></a>Órdenes de trabajo creadas manualmente
 
@@ -113,7 +111,7 @@ Puede crear una orden de trabajo relacionada con una orden de trabajo existente.
 
 La ilustración muestra un ejemplo del cuadro de diálogo **Crear orden de trabajo relacionada**.
 
-![Figura 1](media/03-work-orders.png)
+![Figura 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Si ha configurado una máscara de orden de trabajo relacionada en la ficha **Parámetros de administración de activos** > **Órdenes de trabajo** > campo **Máscara de orden de trabajo relacionada**, los id. de orden de trabajo se crearán de acuerdo con la configuración de la máscara. Si no se ha configurado ninguna máscara de orden de trabajo relacionada, se utiliza el siguiente id. de orden de trabajo disponible para las órdenes de trabajo relacionadas.
@@ -139,7 +137,7 @@ Puede crear rápidamente una nueva orden de trabajo a partir de una orden de tra
 
 La ilustración siguiente muestra un ejemplo del diálogo **Copiar orden de trabajo**.
 
-![Figura 2](media/04-work-orders.png)
+![Figura 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Crear una orden de trabajo basada en una solicitud de mantenimiento
@@ -159,7 +157,7 @@ La ilustración siguiente muestra un ejemplo del diálogo **Copiar orden de trab
 
 La ilustración siguiente muestra un ejemplo del diálogo **Crear orden de trabajo**.
 
-![Figura 3](media/05-work-orders.png)
+![Figura 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

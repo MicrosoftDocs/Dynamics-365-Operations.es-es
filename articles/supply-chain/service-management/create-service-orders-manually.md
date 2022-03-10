@@ -1,7 +1,7 @@
 ---
 title: Crear pedidos de servicio manualmente
 description: Es posible crear pedidos de servicio manualmente mediante un acuerdo de servicio o mediante el formulario **Pedidos de servicio**.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 486b4a0291ca527e647c9b5a41ff2e65a7820291
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817590"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578857"
 ---
 # <a name="create-service-orders-manually"></a>Crear pedidos de servicio manualmente    
 

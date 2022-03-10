@@ -2,25 +2,25 @@
 title: Migración de tipo de datos de divisa para doble escritura
 description: Este tema describe cómo cambiar la cantidad de lugares decimales que admite la escritura dual para las divisas.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782816"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061845"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Puede aumentar el número de lugares decimales admitidos para valores de divisa a un máximo de 10. El límite predeterminado es cuatro decimales. Al aumentar el número de lugares decimales, ayuda a evitar la pérdida de datos cuando utiliza la escritura dual para sincronizar datos. El aumento del número de decimales es un cambio opcional. Para implementarlo, debe solicitar asistencia de Microsoft.
 
@@ -29,7 +29,7 @@ El proceso de cambiar el número de lugares decimales tiene dos pasos:
 1. Solicite la migración de Microsoft.
 2. Cambiar el número de decimales en Dataverse.
 
-La aplicación Finance and Operations y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
+La aplicación de Finanzas y operaciones y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
 
 La migración es opcional. Si puede beneficiarse de la compatibilidad para más decimales, le recomendamos que considere la migración. Las organizaciones que no requieren valores con más de cuatro decimales no tienen que migrar.
 
@@ -37,7 +37,7 @@ La migración es opcional. Si puede beneficiarse de la compatibilidad para más 
 
 El almacenamiento para columnas de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevas columnas internas en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Las columnas de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
 
-Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación Finance and Operations y Dataverse.
+Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación de Finanzas y operaciones y Dataverse.
 
 La migración no cambia ningún dato. Después de convertir las columnas de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para las columnas de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
 
@@ -83,9 +83,20 @@ Si necesita que la precisión de la divisa para una divisa específica difiera d
 
 ![Configuración de la divisa para un entorno local específico.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>tablas: columna Divisa
+### <a name="tables-currency-column"></a>Tablas: columna Divisa
 
 El número de decimales que se pueden configurar para columnas de divisa específicas está limitado a cuatro.
 
+### <a name="default-currency-decimal-precision"></a>Precisión decimal de moneda predeterminada
+Para conocer el comportamiento esperado de la precisión decimal de la moneda predeterminada en escenarios de migración y no migración, consulte la siguiente tabla. 
+
+| Fecha de creación  | Campo decimal de divisa    | Organización existente (campo de moneda no migrado) | Organización existente (campo de moneda migrado) | Nueva organización creada para la compilación de la publicación 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Campo de moneda creado antes de la compilación 9.2.21111.00146  |     |  |       |
+|    | Precisión máxima visible en la interfaz de usuario   | 4 dígitos    | 10 dígitos    | No disponible    |
+| | Precisión máxima visible en la interfaz de usuario de resultados de consultas de bases de datos y bases de datos         | 4 dígitos   | 10 dígitos   | No disponible    |
+| Campo de moneda creado después de la compilación 9.2.21111.00146 |    |  |     |   |
+|   | Precisión decimal máxima visible en la interfaz de usuario     | 4 dígitos   | 10 dígitos   | 10 dígitos     |
+|          | Precisión decimal máxima visible en la interfaz de usuario de resultados de consultas de bases de datos y bases de datos | 10 dígitos. Sin embargo, solo 4 son significativos con todos los ceros más allá de los 4 dígitos decimales. Esto permite una migración más sencilla y rápida de la organización, si es necesario. | 10 dígitos      | 10 dígitos     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

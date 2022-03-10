@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2031fcedc978a198a244908951679d6f70e9cb90
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 7af08e2d21bc1d806a62065e6c527b2f2de28c18
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314483"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069741"
 ---
 # <a name="process-type"></a>Tipo de proceso
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -30,7 +33,7 @@ Este tema describe la opción No Sí para Dynamics 365 Human Resources.
 
 Nombre físico: mshr_hrmCompProcessType
 
-Esta enumeración proporciona un conjunto de opciones para el tipo de proceso en entidades virtuales de Recursos Humanos.
+Esta enumeración proporciona el conjunto de opciones para el tipo de proceso en entidades virtuales de Recursos Humanos.
 
 | Valor | Etiqueta | Descripción |
 | --- | --- | --- |

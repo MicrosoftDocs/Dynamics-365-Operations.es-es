@@ -10,18 +10,22 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766169"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103647"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Generar variantes de productos de ingeniería
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo generar variantes para productos de ingeniería.
+
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Activar o desactivar la generación de variantes de productos de ingeniería
+
+La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Generación de variantes de productos de ingeniería* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Generar una o más variantes nuevas de un producto de ingeniería
 
@@ -38,10 +42,15 @@ El siguiente procedimiento proporciona un ejemplo de cómo crear varias variante
 1. Agregue una lista de materiales (BOM) y enrute a la variante según sea necesario.
 1. En el panel de acciones, abra la pestaña **Producto** y, en el grupo **Producto maestro**, seleccione **Dimensiones de producto**.
 1. Se abrirá la página **Dimensiones del producto**. Esta página incluye una pestaña para cada dimensión disponible. En cada pestaña, agregue una fila para cada valor que admitirá para cada dimensión relevante. (Para este ejemplo, puede agregar filas en la ficha **Color** para *Blanco*, *Amarillo* y *Verde*).
-1. Cierre la página y seleccione **Variantes de producto lanzado**. Tenga en cuenta que aparece la primera variante creada (V-1 blanco).
-1. Seleccione **Sugerencias de variantes**.
-1. El sistema sugiere variantes con los valores de color creados (por ejemplo, blanco V-1, amarillo V-1 y verde V-1).
-1. Seleccione las variantes sugeridas y seleccione **Aceptar** para entregar las variantes a la empresa de ingeniería. Tenga en cuenta que se aplicarán las condiciones siguientes: 
+1. Cierre la página y luego seleccione **Variantes de producto lanzado**. Observe que aparece la primera variante que creó (azul V-1).
+1. En el panel de acciones, en la pestaña **Variante de producto**, seleccione **Sugerencias de variantes**.
+1. En el cuadro de diálogo **Sugerencias de variantes**, siga uno de estos pasos:
+
+    - En la parte superior del cuadro de diálogo, hay una sección para cada dimensión disponible. Para cada dimensión, seleccione la casilla de verificación para cada valor para el que desea generar una sugerencia de variante y luego seleccione **Sugerir** en la barra de herramientas. Las sugerencias relevantes se agregan a la sección **Variantes sugeridas**.
+    - Seleccione **Sugerir todo** en la barra de herramientas para generar sugerencias de variantes para todas las combinaciones disponibles de valores de dimensión. Las sugerencias se agregan a la sección **Variantes sugeridas**.
+
+1. En la sección **Variantes sugeridas**, seleccione la casilla de verificación para cada variante que desee crear. Luego seleccione **Crear** para generar y entregar las variantes seleccionadas a la empresa de ingeniería. Se aplican las siguientes condiciones:
+
     - Ninguna de las variantes creadas tendrá una lista de materiales o una ruta.
     - Los atributos para estas variantes serán predeterminados de la categoría de ingeniería y no se copiarán de la variante anterior.
 

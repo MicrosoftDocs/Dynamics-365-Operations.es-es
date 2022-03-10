@@ -2,31 +2,33 @@
 title: Visión general de facturas de proveedores
 description: Este tema ofrece información general relativa a facturas de proveedor.
 author: abruer
-manager: AnnBe
-ms.date: 12/18/2019
-ms.topic: article
+ms.date: 06/03/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13971
+ms.custom:
+- "13971"
+- intro-internal
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0299eb3470f500bf469c3367f1c426715067a5dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993325"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985346"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago recibido para productos y servicios. Las facturas de proveedor pueden representar una cuenta para servicios continuos o se pueden basar en pedidos de compra para artículos y servicios específicos.
 
@@ -70,10 +72,9 @@ La organización puede usar flujos de trabajo para gestionar el proceso de revis
 A continuación se indican varias maneras de impedir que se envíe una factura a un flujo de trabajo.
 
 - **El total de la factura y el total registrado no coinciden.** La persona que envió la factura recibirá una alerta de que los totales no coinciden. La alerta ofrece la oportunidad de corregir los saldos antes de volver a enviar la factura al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el total de la factura y el total de la factura registrada no coinciden** de la página **Administración de características** está activado. 
-
 - **La factura contiene cargos no asignados.** La persona que envió la factura recibirá una alerta que le comunicará que la factura contiene cargos no asignados para que pueda corregir la factura antes de volver a enviarla al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si hay cargos no asignados en una factura de proveedor** de la página **Administración de características** está activado.
-
-- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá una alerta que le comunicará que se ha encontrado una factura con un número duplicado para que pueda corregirla antes de volver a enviarla al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.  
+- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá un mensaje indicándole que se encontró una factura con un número duplicado. El número duplicado se puede corregir antes de volver a enviar la factura al flujo de trabajo. Esta alerta se mostrará cuando el parámetro **Comprobar el número de factura utilizado** de Proveedores esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.
+- **La factura contiene una línea en la que la cantidad de la factura es menor que la cantidad de recepción del producto correspondiente.** La persona que envíe la factura o intente publicar recibirá un mensaje de que las cantidades no son iguales. Este mensaje ofrece la oportunidad de corregir los valores antes de volver a enviar la factura al flujo de trabajo. Esta función está disponible si el parámetro **Bloquear la publicación y el envío de facturas de proveedores al flujo de trabajo** en la página **Gestión de funciones** está activada y el parámetro **Bloquear publicación y envío al flujo de trabajo** en la página **Parámetros de cuentas por pagar** está encendida.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliación de facturas de proveedor a recepciones de producto
 
@@ -118,9 +119,32 @@ Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuper
 Puede usar la página **Historial del flujo de trabajo** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página **Factura de proveedor** o si navega a **Común > Consultas > Flujo de trabajo**. Para restablecer el estado del flujo de trabajo en **Borrador**, seleccione **Recuperar**. También puede restablecer el estado del flujo de trabajo a Borrador seleccionando la acción **Recuperar** en **Factura de proveedor** o **Facturas de proveedor pendientes**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de proveedor**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Ver el total de la factura en la página de Facturas de proveedores pendientes
+
 Puede ver el total de la factura en la página **Facturas de proveedores pendientes** habilitando el parámetro **Mostrar el total de la factura en la lista de facturas de proveedores pendientes**, en la página **Parámetros de proveedores**. 
 
+## <a name="vendor-open-transactions-report"></a>Informe de transacciones de proveedor abiertas
 
+El informe **Transacciones de proveedor abiertas** proporciona información detallada sobre las transacciones abiertas para cada proveedor de la fecha que especifique. Este informe se utiliza a menudo durante el procedimiento de auditoría para verificar los saldos entre las transacciones del libro de proveedores y las transacciones de la cuenta contable.
+
+Para cada transacción, el informe incluye los siguientes detalles:
+
+- Número de factura
+- Fecha movimiento
+- Número de asiento
+- Importe de la transacción en la moneda de la transacción y la moneda contable
+- Saldo de crédito en la moneda de la transacción y la moneda contable
+- Saldo de débito en la moneda de la transacción y la moneda contable
+- Importe subtotal en divisa de contabilidad
+- Fecha de vencimiento de pago
+
+### <a name="filter-the-data-on-the-report"></a>Filtrar los datos del informe
+
+Cuando genere el informe **Transacciones de proveedor abiertas**, los siguientes parámetros predeterminados estarán disponibles. Puede usarlos para filtrar los datos que se incluirán en el informe.
+
+- **Excluir liquidación futura**: seleccione esta casilla para excluir las transacciones que se liquidan después de la fecha que se introduce en el campo **Transacciones abiertas por**.
+- **Transacciones abiertas por**: introduzca una fecha para incluir las transacciones que están abiertas a esa fecha. Si no introduce una fecha, este campo se establece en la fecha máxima. (La fecha máxima es la última fecha que aceptará el sistema, 31 de diciembre de 2154). De forma predeterminada, la próxima vez que se ejecute el informe, este campo se establecerá como la última fecha que se introdujo en él.
+
+Puede usar los filtros en el campo **Registro a incluir** para limitar aún más los datos de la transacción que se incluyen en el informe.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -129,3 +153,6 @@ Puede ver el total de la factura en la página **Facturas de proveedores pendien
 - [Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Registrar una factura de proveedor en el diario de facturas](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

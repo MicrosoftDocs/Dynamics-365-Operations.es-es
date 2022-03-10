@@ -2,11 +2,9 @@
 title: Acciones en los procesos de aprobación de flujo de trabajo
 description: Este artículo explica las acciones que cada participante de un proceso de aprobación de flujo de trabajo puede realizar.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,22 +14,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694296"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070942"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Acciones en los procesos de aprobación de flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Este artículo explica las acciones que cada participante de un proceso de aprobación de flujo de trabajo puede realizar.
 
 Un flujo de trabajo puede incluir varios grupos de personas: el originador, los usuarios asignados a la tarea, los responsables de la toma de decisiones y los aprobadores. Por ejemplo, en el siguiente flujo de trabajo de informes de gastos, Sam es el originador, los miembros de la cola son los usuarios asignados a la tarea, John es el responsable de la toma de decisiones y Frank, Sue y Ann son los aprobadores.
 
-[![Flujo de trabajo\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Flujo de trabajo\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 En las siguientes secciones, se explican las acciones de flujo de trabajo que puede realizar cada grupo.
 
@@ -141,3 +142,6 @@ Cuando un aprobador solicita que se realice un cambio en un documento, este se d
 Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 12.000 USD que, en este momento, está asignado a Sue. Si Sue solicita un cambio, el informe de gastos se devuelve a Sam.
 
 Sam podrá volver a enviar el informe de gastos. Puede realizar los cambios solicitados primero o volver a enviar la versión original del informe de gastos. Si Sam lo vuelve a enviar, se envía a Frank para que lo apruebe porque él es el primer aprobador del proceso de aprobación.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

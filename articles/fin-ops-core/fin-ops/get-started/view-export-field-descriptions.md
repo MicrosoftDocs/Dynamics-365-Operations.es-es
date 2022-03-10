@@ -2,7 +2,6 @@
 title: Ver y exportar descripciones de campos
 description: En este artículo se describe cómo ver las descripciones de campos y cómo utilizar la página Descripciones de campos para exportar las descripciones.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,16 +15,19 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265b540ba36b7526a8d6cb64f29157b6126e4dae
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566207"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069282"
 ---
 # <a name="view-and-export-field-descriptions"></a>Ver y exportar descripciones de campos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 En este artículo se describe cómo ver las descripciones de campos y cómo utilizar la página Descripciones de campos para exportar las descripciones.
 
@@ -44,7 +46,7 @@ Puede ver descripciones de los campos manteniendo el ratón sobre un campo. Si n
 
 En la ilustración siguiente se muestra la descripción del campo que aparece al mantener el puntero sobre el campo **Bloquear artículos durante el recuento**.
 
-[![Ejemplo de una descripción de campo](./media/field-description.png)](./media/field-description.png)
+[![Ejemplo de una descripción de campo.](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Utilice la página Descripciones de campos para ver y exportar la ayuda de campo.
 

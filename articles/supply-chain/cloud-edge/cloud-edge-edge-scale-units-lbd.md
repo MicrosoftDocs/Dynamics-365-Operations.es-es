@@ -2,7 +2,7 @@
 title: Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
 description: Este tema explica cómo aprovisionar unidades de escalado perimetrales locales mediante el uso de hardware personalizado y la implementación que se basa en datos comerciales locales (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8913debd614827ef66ded88e0da61663ca9c6b3d
-ms.sourcegitcommit: 29d34f2fd509e2bb27d8572cd57c397d014a8e38
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7894727"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024551"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
 
@@ -26,6 +26,13 @@ Las unidades de escalado perimetrales juegan un papel importante en la topologí
 Las unidades de escalado perimetrales se pueden implementar mediante la creación de datos comerciales locales (LBD) [entorno local](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) y luego configurándolo para que funcione como una unidad de escala en su topología híbrida distribuida para la gestión de la cadena de suministro. Esto se logra asociando el entorno de LBD local con un entorno de Supply Chain Management en la nube, que se ha configurado para funcionar como un centro de conectividad.  
 
 Este tema describe cómo configurar un entorno LBD local como una unidad de escala perimetral y luego asociarlo con un centro de conectividad.
+
+## <a name="infrastructure-considerations"></a>Consideraciones sobre la infraestructura
+
+Las unidades de escala perimetral se ejecutan en entornos locales, por lo que los requisitos de infraestructura son bastante similares. Sin embargo, hay ciertas diferencias que deben tenerse en cuenta:
+
+- Las unidades de escala perimetral no utilizan Financial Reporting, por lo que no requieren nodos de Financial Reporting.
+- Las cargas de trabajo de fabricación y almacenamiento no requieren un uso intensivo de cómputo, así que considere dimensionar su poder de cómputo para los nodos AOS en consecuencia.
 
 ## <a name="deployment-overview"></a>Información general de implementación
 
@@ -142,7 +149,7 @@ Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesa
     1. Ejecute los siguientes comandos SQL en su base de datos empresarial (AXDB).
 
         ```sql
-        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
         delete from NumberSequenceTable
         delete from NumberSequenceReference
         delete from NumberSequenceScope

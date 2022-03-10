@@ -1,7 +1,7 @@
 ---
 title: Modelar una organización eficiente
 description: El artículo proporciona información sobre los conceptos clave en los modelos de una organización lean.
-author: cvocph
+author: johanhoffmann
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910386"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570210"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelar una organización eficiente
 

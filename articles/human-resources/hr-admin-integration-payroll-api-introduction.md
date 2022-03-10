@@ -2,38 +2,39 @@
 title: Introducción a la API de integración de nóminas
 description: Este tema describe la API de integración de nóminas de Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 61b90c566325bb8d83b09fceebc721cfb14d3fc8
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 4c71d31d7045c73097b81671793181a29dcac3b5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891135"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064950"
 ---
 # <a name="payroll-integration-api-introduction"></a>Introducción a la API de integración de nóminas
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este documento describe la API de integración de nóminas de Dynamics 365 Human Resources. La API permite integraciones optimizadas de un extremo a otro entre los recursos humanos y los sistemas de nómina asociados. La experiencia integrada comienza en Recursos Humanos con el perfil del empleado, salario y deducción e información de cotización. Cuando contrata a un empleado e ingresa el perfil requerido y la información de pago en Recursos Humanos, el sistema de nómina extrae esta información para usarla al procesar la nómina. Cualquier actualización realizada al empleado o la información de pago también se extrae para su uso en ejecuciones de pago posteriores.
 
-![Flujo de integración de nóminas](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Flujo de integración de nóminas.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Para habilitar la integración, Recursos Humanos incluye los siguientes componentes:
 
-- Funcionalidad para marcar a un empleado como listo para pagar
-- Una API de integración que abre la nueva funcionalidad para integrar aplicaciones
+- [Funcionalidad para marcar a un empleado como listo para pagar.](hr-compensation-payroll.md)
+- Una API de integración que abre la nueva funcionalidad para integrar aplicaciones.
 
 ## <a name="microsoft-dataverse"></a>Microsoft Dataverse
 
@@ -62,7 +63,7 @@ Para obtener información sobre la generación de tablas virtuales para la API, 
 
 El siguiente diagrama ilustra las relaciones dentro de la API. Diversos tipos tienen claves extranjeras para otras entidades preexistentes en Recursos Humanos que no se ilustran aquí. Este documento proporciona información sobre las entidades específicas para los escenarios de integración de nóminas. Sin embargo, hay muchas otras entidades en la API web de Dataverse para Human Resources que también pueden ser relevantes para su integración. Algunas de estas entidades están referenciadas en relaciones de clave externa o propiedades de navegación.
 
-![Modelo de datos de API de integración de nóminas](media/hr-admin-payroll-api-data-model.png)
+[![Modelo de datos de API de integración de nóminas.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Empleado de nómina y entidades relacionadas
 
@@ -70,7 +71,8 @@ Entidades:
 
 - [Empleado con nómina](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Dirección del trabajador de la nómina](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Plan de compensación fija con nómina](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Plan de compensación fija con nómina](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Plan de compensación variable con nómina](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Trabajo de puesto de nómina](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Puesto de nómina](hr-admin-integration-payroll-api-payroll-position.md)
 

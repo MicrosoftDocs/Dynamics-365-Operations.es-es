@@ -1,5 +1,5 @@
 ---
-title: Restablecer trabajos por lotes atascados
+title: Restablecer trabajos por lotes bloqueados
 description: Este tema explica cómo resolver problemas con trabajos por lotes que están atascados.
 author: andreabichsel
 ms.date: 03/19/2021
@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,14 +14,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: 01ef0bf8ccc486614eec42d3fb6f0b2941fc47c0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 859f039a928cdc57c9f227885d0f00ef79980f28
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794958"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070409"
 ---
-# <a name="reset-stuck-batch-jobs"></a>Restablecer trabajos por lotes atascados
+# <a name="reset-stuck-batch-jobs"></a>Restablecer trabajos por lotes bloqueados
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -47,7 +49,7 @@ Cuando un trabajo por lotes se atasca en un estado **Ejecución** o **Cancelaci�
 
 5. En la página **Seleccionar nuevo estado**, seleccione **Esperando** y luego seleccione **Aceptar**.
 
-   ![Seleccionar un nuevo estado de trabajo por lotes](./media/hr-admin-reset-batch-job-status.png)
+   ![Seleccionar un nuevo estado de trabajo por lotes.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Consulte también
 

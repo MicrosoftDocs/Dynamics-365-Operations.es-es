@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: d55767ef47e01edd11099f644134cfa48ea70e18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675746"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913611"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Imprimir información fiscal en los documentos del pedido de transferencia
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Este tema explica cómo imprimir información fiscal en documentos de pedidos de transferencia. Puede imprimir el documento de factura proforma de un pedido de transferencia para transferencias de stock que se consideran suministros intracomunitarios y adquisiciones intracomunitarias según las regulaciones del impuesto al valor agregado (IVA) de la Unión Europea (UE). 
 

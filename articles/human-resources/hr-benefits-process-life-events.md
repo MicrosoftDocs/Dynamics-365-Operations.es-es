@@ -1,8 +1,8 @@
 ---
 title: Procesar eventos de vida
 description: Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9155795edf657d6589539e58d4c1536f7e9d64c3
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775026"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069664"
 ---
 # <a name="process-life-events"></a>Procesar eventos de vida
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida. Por ejemplo, matrimonio, cambio de empleo o cambio de dependiente/beneficiario. Para usar eventos de vida, debe habilitar los eventos de vida en el formulario de parámetros de prestaciones, configurar los tipos de eventos de vida y configurar opciones de eventos de vida para tipos de planes.
+Durante el ciclo de vida de los empleados en Microsoft Dynamics 365 Human Resources, cada empleado puede sufrir varios cambios en los eventos de la vida. Por ejemplo, matrimonio, cambio de empleo o cambio de dependiente/beneficiario. Para usar eventos de vida, debe habilitar los eventos de vida en la página **Parámetros de prestaciones**, configurar los tipos de eventos de vida y configurar las opciones de eventos de vida para los tipos de planes.
 
 Antes de poder procesar eventos de vida, ya debe haber ejecutado la inscripción abierta al menos una vez durante un periodo de contratación. En los Estados Unidos, la inscripción abierta suele ser una vez al año. Fuera de los Estados Unidos, la inscripción abierta puede realizarse al momento de la contratación. Un trabajador no necesita seleccionar un plan de prestaciones para que se procesen los eventos de la vida, pero debe haber sido incluido en el proceso de inscripción abierta. 
 

@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: edffccfec552d90ce704190b4be0b4594964fa81
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271014"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574338"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuración de publicación de gestión de devoluciones
 

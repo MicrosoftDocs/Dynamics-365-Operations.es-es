@@ -2,7 +2,7 @@
 title: Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
 description: Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767788"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 
@@ -82,20 +82,34 @@ Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden 
 
 ![Ciclo de vida de la configuración de ER.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Consideración de la persistencia de datos
+## <a name="data-persistence-consideration"></a>Consideración de la persistencia de datos
 
 Puede individualmente [importar](tasks/er-import-configuration-lifecycle-services.md) diferentes [versiones](general-electronic-reporting.md#component-versioning) de una [configuración](general-electronic-reporting.md#Configuration) de ER a su instancia de Finance. Cuando se importa una nueva versión de una configuración de ER, el sistema controla el contenido de la versión preliminar de esta configuración:
 
-   - Cuando la versión importada es inferior a la versión más alta de esta configuración en la instancia de Finance actual, el contenido de la versión preliminar de esta configuración permanece sin cambios.
-   - Cuando la versión importada es superior a cualquier otra versión de esta configuración en la instancia de Finance actual, el contenido de la versión importada se copia en la versión preliminar de esta configuración para permitirle continuar editando la última versión completa.
+- Cuando la versión importada es inferior a la versión más alta de esta configuración en la instancia de Finance actual, el contenido de la versión preliminar de esta configuración permanece sin cambios.
+- Cuando la versión importada es superior a cualquier otra versión de esta configuración en la instancia de Finance actual, el contenido de la versión importada se copia en la versión preliminar de esta configuración para permitirle continuar editando la última versión completa.
 
 Si esta configuración es propiedad del [proveedor](general-electronic-reporting.md#Provider) de la configuración que está actualmente activada, la versión preliminar de esta configuración está visible para usted en la ficha desplegable **Versiones** de la página **Configuraciones** (**Administración de la organización** > **Informes electrónicos** > **Configuraciones**). Puede seleccionar la versión preliminar de la configuración y [modificar](er-quick-start2-customize-report.md#ConfigureDerivedFormat) su contenido utilizando el diseñador de ER relevante. Cuando haya editado la versión en borrador de una configuración de ER, su contenido ya no coincide con el contenido de la versión más alta de esta configuración en la instancia de Finance actual. Para evitar la pérdida de sus cambios, el sistema muestra un error de que la importación no puede continuar porque la versión de esta configuración es superior a la versión más alta de esta configuración en la instancia de Finance actual. Cuando esto sucede, por ejemplo con la configuración de formato **X**, se muestra el error de que la **versión de formato 'X' no está completa**.
 
 Para deshacer los cambios que introdujo en la versión preliminar, seleccione la versión más alta completada o compartida de su configuración de ER en Finanzas en la ficha desplegable **Versiones** y, a continuación, seleccione la opción **Obtener esta versión**. El contenido de la versión seleccionada se copia a la versión preliminar.
 
+## <a name="applicability-consideration"></a>Consideración de aplicabilidad
+
+Cuando diseña una nueva versión de una configuración de ER, puede definir su [dependencia](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) en otros componentes de software. Este paso se considera un requisito previo para controlar la descarga desde la versión de esta configuración de un repositorio de ER o un archivo XML externo y para cualquier uso futuro de la versión. Cuando intenta importar una nueva versión de una configuración de ER, el sistema usa los requisitos previos configurados para controlar si la versión se puede importar.
+
+En algunos casos, es posible que necesite que el sistema ignore los requisitos previos configurados cuando importe nuevas versiones de configuraciones de ER. Para que el sistema ignore los requisitos previos durante la importación, siga estos pasos.
+
+1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
+2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
+3. Establezca la opción **Omitir actualizaciones de productos y comprobación de requisitos previos de la versión durante la importación** en **Sí**.
+
+    > [!NOTE]
+    > Este parámetro es específico del usuario y específico de la compañía.
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
+[Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

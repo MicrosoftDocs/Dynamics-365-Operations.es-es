@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMRebateParameters
 audience: Application User
@@ -14,22 +13,21 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: a0a3bad751aba4f138db7fdae069a67a4faed4a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 0665ce41233308c814a514fccf3b73e20de64098
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839110"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576697"
 ---
 # <a name="rebate-management-parameters"></a>Parámetros de administración de devoluciones
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La página **Parámetros de gestión de devoluciones** se utiliza para definir la configuración que se aplica al módulo **Gestión de devoluciones**. Estas configuraciones afectan la publicación, actualizaciones de estado, secuencias de números y otros comportamientos. La configuración de esta página se comparte entre las entidades jurídicas y los usuarios que tienen los permisos de seguridad adecuados pueden modificarla.
 
-Para abrir la página **Parámetros de gestión de devoluciones**, vaya a **Devoluciones y deducciones \> Configuración \> Parámetros de gestión de devoluciones**. Luego, configure los campos que se describen en las siguientes subsecciones.
+Para abrir la página **Parámetros de gestión de devoluciones**, vaya a **Administración de devoluciones \> Configuración \> Parámetros de gestión de devoluciones**. Luego, configure los campos que se describen en las siguientes subsecciones.
 
 ## <a name="rebate-management-tab"></a>Pestaña Gestión de devoluciones
 
@@ -38,12 +36,12 @@ La siguiente tabla describe los campos que están disponibles en la pestaña **A
 | Campo | Descripción |
 |---|---|
 | Estado predeterminado | Seleccione el estado predeterminado para todas las ofertas nuevas. Para definir el conjunto de valores de estado que está disponible para su selección, utilice la [página **Estados de devoluciones**](rebate-statuses.md). |
-| Proceso por dimensión | Seleccione si las transacciones de provisión, devolución y cancelación deben procesarse por dimensión financiera. Cuando esta opción está activada, el sistema utiliza dimensiones financieras para las transacciones de origen. |
+| Proceso por dimensión | Seleccione si las transacciones de provisión, devolución y cancelación deben procesarse por dimensión financiera. Cuando esta opción está activada, el sistema utiliza dimensiones financieras de las transacciones de origen en las transacciones de destino. |
 | Compruebe si se ha publicado anteriormente | <p>Seleccione el comportamiento del sistema si las transacciones de devolución no contabilizadas se procesan más de una vez durante el mismo período:</p><ul><li>**Advertencia**: el sistema permite a los usuarios anular las líneas de transacciones originales, pero se muestra una advertencia.</li><li>**Error**: el sistema evita que los usuarios anulen las líneas de transacciones originales y se muestra un mensaje de error. |
 | Publicar diarios automáticamente | Seleccione si el sistema debe publicar automáticamente los diarios propuestos. Esos diarios incluyen diarios que se utilizan para provisiones y deducciones de clientes, y también diarios de facturas de impuestos de proveedores. |
 | Contabilizar facturas de servicios periódicas | Seleccione si el sistema debe publicar automáticamente las facturas de servicios. Esta opción solo se aplica a las facturas de servicios en las que el tipo de pago se establece en *Deducciones de clientes de facturas fiscales*. |
-| Referencia de pedido de artículo de devolución | Seleccione la referencia de devolución para usar en pedidos de compra y venta que se generan a partir del proceso de devolución (*Ninguno*, *Oferta de devoluciones y deducciones*, *Número de devoluciones y deducciones*, *Número de transacción de devolución*, o *Notas del documento*). |
-| Usar proceso de reclamación | <p>Establezca esta opción en *Sí* para utilizar una proceso de reclamaciones. De esta manera, puede marcar las transacciones que la Administración de devoluciones crea como reclamadas o no reclamadas, y luego registrar solo las transacciones reclamadas.</p><p>Por ejemplo, calcula devoluciones por transacciones de un mes, pero el cliente ha dejado dos días sin reclamar. En este caso, las transacciones no reclamadas se volverán a crear la próxima vez que ejecute la función *Proceso* durante el mismo período.</p><p>Si configura esta opción en *No*, se registran todas las transacciones de reclamaciones.</p> |
+| Referencia de pedido de artículo de devolución | Seleccione la referencia de devolución para usar en pedidos de compra y venta que se generan a partir del proceso de devolución (*Ninguno*, *Adminisración de devoluciones*, *Número de administración de devoluciones*, *Número de transacción de devolución*, o *Notas del documento*). |
+| Usar proceso de reclamación | <p>Establezca esta opción en *Sí* para utilizar una proceso de reclamaciones. De esta manera, puede marcar las transacciones que la Administración de devoluciones crea como reclamadas o no reclamadas, y luego registrar solo las transacciones reclamadas.</p><p>Por ejemplo, calcula devoluciones por transacciones de un mes, pero el cliente ha dejado dos días sin reclamar. En este caso, las transacciones no reclamadas se volverán a crear la próxima vez que ejecute la función *Proceso* durante el período siguiente.</p><p>Si configura esta opción en *No*, se registran todas las transacciones de reclamaciones.</p> |
 | Incluir orden de tipo de diario | Para acuerdos o líneas de acuerdos en los que el tipo de transacción se establece en *Pedido*, esta opción controla si un pedido de cliente del tipo *Diario* se debe incluir. Proporciona flexibilidad si esos tipos de pedidos se utilizan en escenarios en los que aún no debería aplicarse una devolución. |
 
 ## <a name="number-sequences-tab"></a>Ficha Secuencias numéricas
@@ -52,8 +50,8 @@ Use la pestaña **Secuencias numéricas** en la página **Parámetros de gestió
 
 | Referencia | Descripción |
 |---|---|
-| Acuerdo de devoluciones y deducciones | La secuencia numérica asigna un valor clave único a cada acuerdo de devolución. Esta clave se usa cuando se crean acuerdos. |
-| Número de devoluciones y deducciones | La secuencia numérica asigna un valor clave único a cada devolución. Esta clave se utiliza para identificar las relaciones de devoluciones. |
+| Acuerdo de gestión de devoluciones | La secuencia numérica asigna un valor clave único a cada acuerdo de devolución. Esta clave se usa cuando se crean acuerdos. |
+| Número de gestión de devoluciones | La secuencia numérica asigna un valor clave único a cada devolución. Esta clave se utiliza para identificar las relaciones de devoluciones. |
 | Número de transacción de devolución | La secuencia numérica asigna un valor clave único a cada transacción de devolución. Esta clave se utiliza para identificar las relaciones de transacciones. |
 | Factura de impuestos | La secuencia numérica asigna un valor clave único a cada factura de devolución. Esta clave se utiliza cuando los diarios de devoluciones se contabilizan automáticamente. |
 

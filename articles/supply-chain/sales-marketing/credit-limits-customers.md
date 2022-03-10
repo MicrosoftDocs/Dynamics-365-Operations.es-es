@@ -1,7 +1,7 @@
 ---
 title: Límites de crédito para clientes
 description: Este artículo proporciona información general sobre el funcionamiento de los límites de crédito en Dynamics 365 Supply Chain Management.
-author: omulvad
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908093"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574314"
 ---
 # <a name="credit-limits-for-customers"></a>Límites de crédito para clientes
 

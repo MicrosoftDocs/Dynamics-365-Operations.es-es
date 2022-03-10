@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730211"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para la programación de trabajos
 
@@ -45,10 +45,10 @@ El gráfico de Gantt se puede abrir en dos diferentes vistas, **Vista de pedidos
 
 ## <a name="order-view"></a>Vista de pedidos
 
-[![Vista de pedidos](./media/orderview.png)](./media/orderview.png)
+[![Vista de pedidos.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Vista de recursos
-[![Vista de recursos](./media/resview.png)](./media/resview.png)
+[![Vista de recursos.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Actividades
 Las actividades aparecen como barras y se organizan en una cuadrícula de la escala de tiempo con una hora inicial y final programada, haciendo que la longitud de las barras sea proporcional al tiempo necesario para completar la actividad. Las actividades se muestran según una escala de tiempo. Puede ajustar la escala de tiempo en el menú donde selecciona una fecha inicial y final y una unidad de tiempo, por ejemplo, horas o días. Ajustando la escala de tiempo puede establecer el foco en un intervalo de tiempo en el que desee gestionar actividades. 
@@ -102,25 +102,25 @@ No es posible programar un trabajo fuera del intervalo de tiempo definido del gr
 
 En una red de actividades, como los trabajos que pertenecen al mismo pedido de producción, puede usar la función **Programar trabajos anteriores** para programar los trabajos anteriores en relación con un trabajo seleccionado en la red. En el siguiente ejemplo, la actividad resaltada es el trabajo seleccionado. El gráfico muestra el antes y después del trabajo anterior programado. 
 
-[![Programar el trabajo anterior](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Programar el trabajo anterior.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Programar trabajos posteriores
 
 Puede usar la función **Programar trabajos posteriores** para programar los trabajos posteriores relativos a un trabajo seleccionado en una red de actividades. En el siguiente ejemplo, la actividad resaltada es el trabajo seleccionado. El gráfico muestra el antes y después del siguiente trabajo programado. 
 
-[![Programar el siguiente trabajo](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Programar el siguiente trabajo.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Programación en torno al trabajo
 
 Puede usar la función **Programación en torno al trabajo** para programar el trabajo posterior y el trabajo anterior relativos a un trabajo seleccionado en una red de actividades. En el siguiente ejemplo, la actividad resaltada es el trabajo seleccionado. El gráfico muestra el antes y después del trabajo programado. 
 
-[![Programación en torno al trabajo](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Programación en torno al trabajo.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Organizar trabajos
 
 Puede usar la función **Organizar** para organizar actividades seleccionadas en el mismo recurso. Estas actividades pueden estar en la misma red de actividades, pero también pueden pertenecer a redes distintas. Cuando use la función Organizar, los espacios de tiempo entre las actividades seleccionadas se eliminarán. Puede utilizar esta función para optimizar el uso de capacidad de los recursos. El gráfico muestra el antes y después del trabajo programado. 
 
-[![Organizar trabajo](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Organizar trabajo.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Reasignar actividades de un recurso a otro
 

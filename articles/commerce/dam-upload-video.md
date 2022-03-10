@@ -2,15 +2,12 @@
 title: Subir vídeos
 description: En este tema se describe cómo subir vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735639"
 ---
 # <a name="upload-videos"></a>Subir vídeos
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo subir vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 La Biblioteca de medios del generador de sitios de Commerce le permite subir vídeos. Siempre debe cargar la versión de la versión del vídeo con la mayor velocidad de bits y resolución, porque el vídeo se convertirá automáticamente para ser adecuado para diferentes ventanas y sus puntos de interrupción.
 
@@ -40,7 +35,7 @@ La Biblioteca de medios del generador de sitios de Commerce le permite subir ví
 Al subir un vídeo, se puede especificar la siguiente información.
 
 - **Título, descripción, palabras clave**: metadatos del vídeo.
-- **Generar subtítulos automáticamente**: especifica si los subtítulos deben generarse automáticamente para el vídeo.
+- **Generar subtítulos automáticamente**: especifica si los subtítulos deben generarse automáticamente para el vídeo (solo se admite el idioma inglés). 
 - **Subtítulos** : especifica los subtítulos que se utilizarán.
 - **Audio normal**: especifica la pista de audio normal que se utilizará.
 - **Miniatura**: especifica la miniatura del vídeo. Si no se especifica, se generará automáticamente.
@@ -73,3 +68,6 @@ Si está cargando varios tipos de activos simultáneamente (por ejemplo, imágen
 [Personalizar puntos focales de imagen](dam-custom-focal-point.md)
 
 [Cargar y servir archivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

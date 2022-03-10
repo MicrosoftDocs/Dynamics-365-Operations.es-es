@@ -2,11 +2,9 @@
 title: Tarjetas regalo digitales de comercio electrónico
 description: Este tema describe cómo funcionan las tarjetas regalo digitales en la implementación de comercio electrónico de Microsoft Dynamics 365 Commerce. También proporciona una descripción general de los pasos de configuración importantes.
 author: anupamar-ms
-manager: annbe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a88bef72e13b7b0d948bfd7617cb1dbbcd9ce49
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727566"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Tarjetas regalo digitales de comercio electrónico
 
@@ -36,13 +34,13 @@ La compra de tarjetas regalo digitales se admite en la versión de Dynamics 365 
 
 La siguiente ilustración muestra un ejemplo de la página de detalles del producto (PDP) para una tarjeta regalo digital en el sitio de comercio electrónico de Fabrikam.
 
-![Ejemplo de una tarjeta regalo digital PDP en el sitio de comercio electrónico de Fabrikam](./media/GiftcardPDP.PNG)
+![Ejemplo de una tarjeta regalo digital PDP en el sitio de comercio electrónico de Fabrikam.](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>Active la función de tarjeta regalo digital en la sede de Commerce
 
 Para que funcione el flujo de compra de las tarjetas regalo digitales en Dynamics 365 Commerce, la característica **Compra de tarjetas regalo en la función de comercio electrónico** debe estar activada en la sede central de Commerce. Puede encontrar la característica en el espacio de trabajo **Administración de características** de la sede de Commerce, como muestra la ilustración siguiente.
 
-![Espacio de trabajo de administración de características en la sede central de Commerce](./media/Featureflag.PNG)
+![Espacio de trabajo de administración de características en la sede central de Commerce.](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Configurar una tarjeta regalo digital en la sede central de Commerce
 
@@ -51,16 +49,16 @@ Los productos de tarjetas regalo digitales deben configurarse en la sede central
 - Al configurar productos de tarjetas regalo digitales en el cuadro de diálogo **Nuevo producto**, configure el campo **Tipo de producto** en **Servicio**. (Para abrir el cuadro de diálogo, vaya a **Venta minorista y comercio \> Productos y categorías \> Productos por categoría** y seleccione **Nuevo**). No se comprueba el inventario disponible para los productos del tipo **Servicio** antes de realizar un pedido. Para obtener más información, consulte [Crear un nuevo producto](create-new-product-commerce.md#create-a-new-product).
 - En la página **Parámetros comerciales**, en la página **Destino**, el campo **Producto de tarjeta regalo** debe establecerse en **Tarjeta regalo digital**, como se muestra en la siguiente ilustración. Si el producto es una tarjeta regalo externa, consulte [Soporte para tarjetas regalo externas](./dev-itpro/gift-card.md) para más información.
 
-    ![Campo de producto de tarjeta regalo en la sede de Commerce](./media/PostGiftcard.png)
+    ![Campo de producto de tarjeta regalo en la sede de Commerce.](./media/PostGiftcard.png)
 
-- Si una tarjeta regalo debe admitir varios importes predefinidos (por ejemplo, 25 $, 50 $ y 100 $), la dimensión **Tamaño** debe utilizarse para configurar esos importes predefinidos. Cada importe predefinido será una variante. Para obtener más información, consulte [Dimensiones del producto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Si una tarjeta regalo debe admitir varios importes predefinidos (por ejemplo, 25 $, 50 $ y 100 $), la dimensión **Tamaño** debe utilizarse para configurar esos importes predefinidos. Cada importe predefinido será una variante. Para obtener más información, consulte [Dimensiones del producto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Si los clientes deben poder especificar un importe personalizado para una tarjeta regalo, primero configure una variante que permita un importe personalizado. A continuación, abra el producto desde la página **Productos lanzados en la categoría** y luego, en la ficha desplegable **Commerce**, establezca el campo **Teclear precio** en **Debe teclear un nuevo precio**, como se muestra en la siguiente ilustración. Esta configuración garantiza que los clientes puedan introducir un precio cuando exploran el producto en un PDP.
 
-    ![Teclear en el campo de precio en la sede central de Commerce](./media/KeyInPrice.png)
+    ![Teclear en el campo de precio en la sede central de Commerce.](./media/KeyInPrice.png)
 
-- El modo de entrega de una tarjeta regalo digital debe establecerse en **Electrónico**. En la página **Modos de entrega** (**Venta minorista y comercio \> Configuración de cana l\> Modos de entrega**), selecciona el modo **Electrónico** de entrega en el panel de la lista, y luego agregue el producto de tarjeta regalo digital a la cuadrícula en la ficha desplegable **Productos**, como se muestra en la siguiente ilustración. Para obtener más información, consulte [Configurar los modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- El modo de entrega de una tarjeta regalo digital debe establecerse en **Electrónico**. En la página **Modos de entrega** (**Venta minorista y comercio \> Configuración de cana l\> Modos de entrega**), selecciona el modo **Electrónico** de entrega en el panel de la lista, y luego agregue el producto de tarjeta regalo digital a la cuadrícula en la ficha desplegable **Productos**, como se muestra en la siguiente ilustración. Para obtener más información, consulte [Configurar los modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
-    ![Productos de tarjetas regalo digitales en la página Modo de entrega en la sede de Commerce](./media/ElectronicMode.PNG)
+    ![Productos de tarjetas regalo digitales en la página Modo de entrega en la sede de Commerce.](./media/ElectronicMode.PNG)
 
 - Asegúrese de que se haya creado un perfil de funcionalidad en línea y asociado con su tienda en línea en la sede de Commerce. En el perfil de funcionalidad, configure la opción **Productos agregados** en **Sí**. Esta configuración garantiza que se agreguen todos los elementos, excepto las tarjetas regalo. Para más información, consulte [Crear un perfil de funcionalidad en línea](online-functionality-profile.md).
 - Para asegurarse de que los clientes reciban un correo electrónico después de facturar una tarjeta regalo, cree un nuevo tipo de notificación por correo electrónico en la página **Perfiles de notificación por correo electrónico** y establezca el campo **Tipo de notificación por correo electrónico** en **Emitir tarjeta regalo**. Para más información, vea [Configurar un perfil de notificaciones por correo electrónico](email-notification-profiles.md).
@@ -91,12 +89,15 @@ Para configurar una cantidad personalizada para una tarjeta regalo digital en el
 
 [Crear un nuevo producto en Commerce](create-new-product-commerce.md)
 
-[Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensiones de producto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Dimensiones de producto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Configurar perfil de notificación por correo electrónico](email-notification-profiles.md)
 
 [Crear un perfil de funcionalidad en línea](online-functionality-profile.md)
 
 [Compatibilidad para tarjetas regalo externas](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

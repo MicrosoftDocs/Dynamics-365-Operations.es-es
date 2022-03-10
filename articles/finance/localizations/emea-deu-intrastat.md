@@ -1,24 +1,26 @@
 ---
 title: Intrastat alemán
 description: Este tema contiene información sobre la declaración Intrastat en Alemania.
-author: andosip
-ms.date: 08/2/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759852"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487934"
 ---
 # <a name="german-intrastat"></a>Intrastat alemán
 
-La página **Intrastat** se usa para generar y presentar información sobre el comercio entre los países de la Unión Europea (UE). La declaración Intrastat alemana contiene información sobre el comercio de mercancías para informar.
+[!include [banner](../includes/banner.md)]
+
+La página **Intrastat** se usa para generar y presentar información sobre el comercio entre los países de la Unión Europea (UE). La declaración Intrastat alemana contiene información sobre el comercio de mercancías para informar. El informe tiene el formato de las directrices de las autoridades alemanas que se presentan en la página [6.2 Declaraciones de archivos en formato INSTAT/XML](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html).
 
 La siguiente tabla muestra los campos que se incluyen en la declaración Intrastat alemana.
 
@@ -57,7 +59,7 @@ La siguiente tabla muestra los campos que se incluyen en la declaración Intrast
     > [!NOTE]
     > Si genera un informe de Intrastat para afiliados, en el campo **Número de registro de impuestos**, introduzca el número de registro fiscal de su empresa matriz.
 
-2. En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index), en la Biblioteca de activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para el siguiente formato de declaración de Intrastat:
+2. En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index), en la biblioteca Activos compartidos, descargue las últimas versiones de las configuraciones de informes electrónicos (ER) para la declaración de Intrastat.
 
     - Modelo intrastat
     - Informe intrastat
@@ -71,15 +73,16 @@ La siguiente tabla muestra los campos que se incluyen en la declaración Intrast
     3. En el campo **Asignación de formato de informe**, seleccione **Informe Intrastat**.
     4. En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, seleccione **Intrastat**.
     5. En el campo **Codigo de transacción**, seleccione el código de transacción para transferencias de propiedad. Use este código para transacciones que provoquen transferencisa de propiedad reales o planificadas contra compensación (financieras o de otro tipo). Úselo también para correcciones.
-    6. En el campo **Nota de crédito**, seleccione el código de transacción para la devolución de mercancías. Use este código para la devolución de mercancías después de que la transacción que se registró originalmente bajo el código de transacción.
-    7. En el campo **Autoridad**, seleccione la autoridad de Intrastat.
-    8. Vaya a **Impuestos** > **Impuestos indirectoss** > **Impuesto de ventas** > **Autoridades de impuestos de ventas** e introduzca la siguiente información para la autoridad de Intrastat que seleccionó en el paso anterior:
+    6. En el campo **Nota de abono**, seleccione el código de transacción para la devolución de mercancías.
+    7. En el campo **Trabajador**, seleccione la persona de contacto para el informe Intrastat. Alternativamente, en la pestaña **Contacto**, introduzca o seleccione valores en los campos **Nombre**, **Teléfono**, **Fax**, **Correo electrónico** y **Dirección de Internet**. Estos campos se incluyen en el informe.
+    8. En el campo **Autoridad**, seleccione la autoridad de Intrastat.
+    9. Vaya a **Impuestos** > **Impuestos indirectoss** > **Impuesto de ventas** > **Autoridades de impuestos de ventas** e introduzca la siguiente información para la autoridad de Intrastat que seleccionó en el paso anterior:
 
        - Identificación de la autoridad
        - Dirección
        - Información de contacto
 
-    9. En la pestaña **Propiedades de país o región**, en el campo **País o región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región, en el campo **Tipo de país o región**, seleccione **UE**, para que el país o región aparezcan en su informe de Intrastat.
+    10. En la pestaña **Propiedades de país o región**, en el campo **País o región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región, en el campo **Tipo de país o región**, seleccione **UE**, para que el país o región aparezcan en su informe de Intrastat.
 
 4. Configurar códigos de región.
 
@@ -172,7 +175,7 @@ Este ejemplo muestra cómo publicar llegadas y envíos para Intrastat. Usa la en
     4. En el campo **Autoridad**, seleccione **TA**.
     5. En la ficha desplegable **Informes electrónicos**, en el campo **Asignación de formato de archivo**, seleccione **INSTAT XML (DE)**.
     6. En el campo **Asignación de formato de informe**, seleccione **Informe Intrastat**.
-    7. En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, asegúrese de que **Intrastat** está seleccionado.
+    7. En la ficha desplegable **Jerarquía de códigos de mercancías**, en el campo **Jerarquía de categorías**, asegúrese de que **Intrastat** está seleccionado.
     8. En la pestaña **Propiedades de país o región**, seleccione **Nueva**.
     9. En el campo **País o región de la parte**, seleccione **FRA**.
     10. En el campo **Tipo de país/región**, seleccione **EU**.
@@ -205,7 +208,7 @@ Este ejemplo muestra cómo publicar llegadas y envíos para Intrastat. Usa la en
     9.  En la pestaña **Líneas**, en la ficha desplegable **Líneas** **de pedido de ventas**, en el campo **Número de artículo**, seleccione **D0001**. En el campo **Cantidad**, especifique **10**.
     10. En la ficha desplegable **Detalles de la línea**, en la pestaña **Comercio exterior**, asegúrese de que los campos **Código de transacción**, **Transporte**, **Mercancía** y **País o región de origen** se establecen automáticamente.
     11. En el panel Acciones, seleccione **Guardar**.
-    12. En el panel de acciones, en la ficha **Factura**, en la sección **Generar**, seleccione **Factura**.
+    12. En el panel de acciones, en la pestaña **Factura**, en la sección **Generar**, seleccione **Factura**.
     13. En el cuadro de diálogo **Registro de factura**, en la ficha desplegable **Parámetros**, en la sección **Parámetro**, en el campo **Cantidad**, seleccione **Todos**.
     14. Seleccione **Aceptar** para registrar la factua.
 
@@ -218,7 +221,7 @@ Este ejemplo muestra cómo publicar llegadas y envíos para Intrastat. Usa la en
     5. En el cuadro de diálogo **Filtro de Intrastat**, en la pestaña **Rango**, seleccione la primera línea y asegúrese de que el campo **Campo** esté establecido en **Fecha**.
     6. En el campo **Criterio**, seleccione la fecha actual.
     7. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Filtro de Intrastat**.
-    8. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Intrastat (Transferir)** y revisar el resultado. La línea representa el pedido de ventas que creó antes.
+    8. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Intrastat (Transferir)** y revise el resultado. La línea representa el pedido de ventas que creó antes.
 
         ![Línea que representa el pedido de ventas en la página de Intrastat](media/intrastat_deu_1.png)
 
@@ -239,7 +242,7 @@ Este ejemplo muestra cómo publicar llegadas y envíos para Intrastat. Usa la en
     9. En la ficha desplegable **Detalles de la línea**, en la pestaña **Comercio exterior**, en el campo **Código de transacción**, seleccione **21**.
     10. Asegúrese de que los campos **Transporte**, **Mercancía** y **País o región de origen** se establecen automáticamente.
     11. En el panel Acciones, seleccione **Guardar**.
-    12. En el panel de acciones, en la ficha **Factura**, en la sección **Generar**, seleccione **Factura**.
+    12. En el panel de acciones, en la pestaña **Factura**, en la sección **Generar**, seleccione **Factura**.
     13. En el cuadro de diálogo **Registro de factura**, en la ficha desplegable **Parámetros**, en la sección **Parámetro**, en el campo **Cantidad**, seleccione **Todos**.
     14. Seleccione **Aceptar** para registrar la factua.
 

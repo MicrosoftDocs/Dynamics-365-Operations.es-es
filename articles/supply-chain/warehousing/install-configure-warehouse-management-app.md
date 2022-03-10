@@ -1,7 +1,7 @@
 ---
 title: Instale y conecte la aplicación móvil Warehouse Management
 description: Este tema explica cómo instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782356"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103422"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
 
@@ -39,12 +39,9 @@ La aplicación móvil Warehouse Management está disponible para los sistemas op
 - Windows 10 (Plataforma universal de Windows \[UWP\]) October 2018 update 1809 (build 10.0.17763) o posterior
 - Android 4.4 o posterior
 
-## <a name="turn-on-the-feature"></a>Activar la característica
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Activar o desactivar las características de la aplicación móvil de Warehouse Management en Supply Chain Management
 
-Antes de poder usar la aplicación, debe estar activada en su sistema una característica relacionada. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Configuración de usuario, iconos y títulos de pasos para la nueva aplicación de almacén*
+Para utilizar la aplicación móvil Warehouse Management, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Obtenga la aplicación móvil Warehouse Management
 
@@ -109,7 +106,7 @@ Para obtener más información sobre cómo configurar aplicaciones de servicios 
     - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Cree y configure una cuenta de usuario en Supply Chain Management.
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Cree y configure una cuenta de usuario en Supply Chain Management.
 
 Para permitir que Supply Chain Management use su aplicación Azure AD, siga estos pasos.
 
@@ -117,17 +114,24 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
 
     1. En Supply Chain Management, vaya a **Administración del sistema \> Usuarios \> Usuarios**.
     1. Crear un usuario.
-    1. Asigne el usuario del dispositivo móvil de almacenamiento.
+    1. Asigne el rol *Usuario del dispositivo móvil de almacenamiento* al usuario.
 
     ![Asigne el usuario del dispositivo móvil de almacenamiento.](media/app-connect-app-users.png "Asignar el usuario del dispositivo móvil de almacenamiento")
 
 1. Asocie su aplicación Azure AD con el usuario de la aplicación móvil Warehouse Management:
 
     1. Vaya a **Administración del sistema \> Configuración \> Aplicaciones de Azure Active Directory**.
-    1. Crear una línea.
-    1. Introduzca la ID de cliente que anotó en la sección anterior, asígnele un nombre y seleccione el usuario que acaba de crear. Se reomienda etiquetar todos los dispositivos. Luego, si un dispositivo se pierde, puede eliminar fácilmente su acceso a Supply Chain Management desde esta página.
+    1. Seleccione **Nuevo** en el panel de acciones para crear una línea.
+    1. En el campo **Id. de cliente**, introduzca el id. de cliente que anotó en la sección anterior.
+    1. Escriba un nombre en el campo **Nombre**.
+    1. En el campo **Id. de usuario**, seleccione el id. de usuario que acaba de crear.
 
     ![Aplicaciones de Azure Active Directory.](media/app-connect-aad-apps.png "Aplicaciones de Azure Active Directory")
+
+> [!TIP]
+> Una forma de usar esta configuración es crear un Id. De cliente en Azure para cada uno de sus dispositivos físicos y luego agregar cada Id. de cliente a la página **Aplicaciones de Azure Active Directory**. Luego, si un dispositivo se pierde, puede eliminar fácilmente su acceso a Supply Chain Management eliminando su id. de cliente en esa página. (Este enfoque funciona porque las credenciales de conexión que se guardan en cada dispositivo también especifican un ID de cliente, como se describe más adelante en este tema).
+>
+> Además, la configuración predeterminada de idioma, formato numérico y zona horaria para cada ID de cliente se establece mediante las preferencias establecidas para el valor **Id. de usuario** que se asigna aquí. Por lo tanto, puede usar esas preferencias para establecer la configuración predeterminada para cada dispositivo o colección de dispositivos, según el ID del cliente. Sin embargo, estos valores predeterminados se anularán si también se definen para la *cuenta de usuario de la aplicación de almacén* que un trabajador usa para iniciar sesión en el dispositivo. (Para obtener más información, consulte [Cuentas de usuario de dispositivo móvil](mobile-device-work-users.md)).
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando un certificado o secreto de cliente
 
@@ -136,6 +140,10 @@ La autenticación con Azure AD proporciona una forma segura de conectar un dispo
 Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación móvil Warehouse Management. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 
 Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación móvil Warehouse Management. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube.
+
+Se requieren algunos pasos adicionales si planea ejecutar la aplicación móvil Warehouse Management en una unidad de escala de borde o en la nube. Para instrucciones, vea [Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar la aplicación importando la configuración de conexión
 
@@ -150,8 +158,8 @@ Puede importar la configuración de conexión desde un archivo o un código QR. 
 | ConnectionName | Especifique el nombre de la configuración de conexión. La longitud máxima es de 20 caracteres. Dado que este valor es el identificador único de una configuración de conexión, asegúrese de que sea único en la lista. Si ya existe una conexión con el mismo nombre en el dispositivo, la configuración del archivo importado la anulará. |
 | ActiveDirectoryClientAppId | Especifica el id. de cliente que anotó mientras estaba configurando Azure AD en la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Especifique la URL raíz de Supply Chain Management. |
-| ActiveDirectoryTenant | Especifica el inquilino de Azure AD que está utilizando con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
-| Compañía | Especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. |
+| ActiveDirectoryTenant | Especifique el nombre de dominio de Azure AD que está utilizando con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obtener más información sobre cómo encontrar su nombre de dominio de Azure AD, consulte [Localizar identificaciones importantes para un usuario](/partner-center/find-ids-and-domain-names). |
+| Empresa | Especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. |
 | ConnectionType | (Opcional) Especifique si la configuración de conexión debe usar un certificado o un secreto de cliente para conectarse a un entorno. Los valores válidos son *"certificate"* y *"clientsecret"*. El valor predeterminado es *"certificate"*.<p>**Nota:** los secretos de cliente no pueden importarse.</p> |
 | IsEditable | (Opcional) Especifica si el usuario de la aplicación debería poder editar la configuración de conexión. Los valores válidos son *"verdadero"* y *"falso"*. El valor predeterminado es *"verdadero"*. |
 | IsDefault | (Opcional) Especifica si la conexión es la conexión predeterminada. Una conexión que se establece como conexión predeterminada se preseleccionará automáticamente cuando se abra la aplicación. Sólo puede establecerse una conexión como conexión predeterminada. Los valores válidos son *"verdadero"* y *"falso"*. El valor predeterminado es *"falso"*. |
@@ -268,7 +276,7 @@ Si no dispone de un archivo o de un código QR, puede configurar la aplicación 
         > [!IMPORTANT]
         > No termine este valor con una barra inclinada (/).
 
-    - **Inquilino de Active Directory**: introduca el inquilino de Azure AD que usa con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Inquilino de Active Directory**: introduca el nombre de dominoi de Azure AD que usa con el servidor de Supply Chain Management. Este valor tiene la forma `https://login.windows.net/<your-Azure-AD-domain-name>`. Este es un ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com`. Para obtener más información sobre cómo encontrar su nombre de dominio de Azure AD, consulte [Localizar identificaciones importantes para un usuario](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > No termine este valor con una barra inclinada (/).
@@ -299,5 +307,6 @@ Si un dispositivo está perdido o defectuoso, debe quitar el acceso a Supply Cha
 
 - [Configuración de usuario del dispositivo móvil](mobile-device-user-settings.md)
 - [Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management](step-icons-titles.md)
+- [Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

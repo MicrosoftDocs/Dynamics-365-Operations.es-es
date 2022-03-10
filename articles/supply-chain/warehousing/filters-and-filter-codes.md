@@ -2,11 +2,9 @@
 title: Configurar filtros de productos para transacciones de almacén
 description: En este tema se describe cómo configurar filtros y filtros de producto para clasificar artículos de inventario de un almacén. También puede usar filtros para especificar qué clientes pueden pedir un artículo concreto y qué artículos se pueden comprar de un proveedor concreto.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSFilters,WHSFilterGroupTable,EcoResProductDetailsExtended,WHSFilterGenerallyAvail
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 922ff818e069f41c139cc00db9161dc6e113888b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973744"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567688"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de productos para transacciones de almacén
 
@@ -48,11 +46,11 @@ Los filtros de producto proporcionan hasta 10 características **Título del fil
 1. Seleccione un valor en el campo **Título de filtro**.
 1. En el campo **Código de filtro**, escriba un valor.
 
-    ![Configurar un filtro de producto](media/Product_Filters10.png "Configurar un filtro de producto")
+    ![Configurar un filtro de producto.](media/Product_Filters10.png "Configurar un filtro de producto")
 
 1. En el campo **Descripción**, especifique un nombre para el código. Por ejemplo, *Codigo 2* podría representar a los proveedores. A continuación, puede crear un filtro de producto para un proveedor o grupo de proveedores específico. Para obtener más información, consulte la sección [Configurar códigos de filtro de proveedor](#vendor-product-filters) más adelante en este tema.
 
-    ![Configuración de filtros de producto](media/Product_Filters.png "Configuración de filtros de producto")
+    ![Configuración de filtros de producto.](media/Product_Filters.png "Configuración de filtros de producto")
 
 ## <a name="set-up-product-filter-groups"></a>Configuración de los grupos de filtro de producto
 
@@ -71,7 +69,7 @@ Para configurar grupos de filtros, siga estos pasos.
 1. En el campo **Grupo de artículos**, seleccione el grupo de artículos al que se debe aplicar el filtro de productos.
 1. En los campos de **Código 1** a **Código 10**, seleccione los códigos de filtro para incluir en el grupo, según sea necesario.
 
-    ![Grupo de artículos](media/ProdFilterGroup.png "Grupo de artículos")
+    ![Grupo de artículos.](media/ProdFilterGroup.png "Grupo de artículos")
 
 > [!NOTE]
 > Si recibe un mensaje de error al cerrar la página, es posible que falte una configuración de código. En la página **Grupos de artículos**, puede hacer que los códigos sean obligatorios para un grupo de artículos seleccionando las casillas de verificación **Asignar filtro Código 1 para el grupo de artículos**, **Asignar filtro Código 2 para el grupo de artículos**, y así sucesivamente.
@@ -90,7 +88,7 @@ Para configurar códigos de filtro en grupos de artículos, siga estos pasos.
 
     Para actualizar un producto lanzado, abra su página **Detalles del producto publicado** y, a continuación, en el panel de Acción, seleccione **Editar**. Los filtros que están asociados con los códigos están disponibles en la ficha desplegable **Almacén**.
 
-    ![Grupos de artículos](media/ItemGroup10.png "Grupos de artículos")
+    ![Grupos de artículos.](media/ItemGroup10.png "Grupos de artículos")
 
 1. En la sección **Filtro de grupo de artículos**, seleccione las casillas de verificación de los filtros que deben coincidir para que el grupo de filtros sea el grupo de filtros predeterminado para un elemento.
 
@@ -165,3 +163,6 @@ Para configurar códigos de filtro de proveedor, siga estos pasos.
 ## <a name="see-also"></a>Consulte también
 
 [Para obtener más información, consulte la publicación de blog WMS-Warehouse Filter Codes](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

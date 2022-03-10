@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: c2a35079f43b92b5ff6d68aa7068f3e1f68ce8c2c32d23cdd22798f95c9a0ff4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732234"
 ---
 # <a name="enter-skills"></a>Introducir aptitudes
 
@@ -45,17 +45,17 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 4. En el panel **Crear flujo de trabajo**, seleccione **Aptitudes del trabajador**.
 
-   [![Seleccione el flujo de trabajo de aptitudes del trabajador](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Seleccione el flujo de trabajo de aptitudes del trabajador.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. En el diálogo **¿Abrir este archivo?**, seleccione **Abrir**. Cuando se le solicite, introduzca sus credenciales.
 
 6. En el editor de flujo de trabajo, seleccione el elemento de flujo de trabajo **Aprobar aptitudes** y arrástrelo al lienzo.
 
-   [![Seleccione el elemento de flujo de trabajo Aprobar aptitudes](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Seleccione el elemento de flujo de trabajo Aprobar aptitudes.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Conecte el elemento **Comienzo** al elemento **Aprobar aptitudes 1**, y luego conecte el elemento **Aprobar aptitudes 1** al elemento **Final**. Es posible que deba desplazarse hacia abajo para ver el elemento **Final**. Puede arrastrarlo más cerca de los otros elementos.
 
-   [![Conectar elementos del flujo de trabajo](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Conectar elementos del flujo de trabajo.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Haga doble clic en el elemento de flujo de trabajo **Aprobar aptitudes 1** y, a continuación, haga clic con el botón derecho en el elemento **Paso 1**. Haga clic con el botón secundario en el elemento **Paso 1** y, a continuación, seleccione **Propiedades**.
 
@@ -65,7 +65,7 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 11. Seleccione **Agregar condición**. Tras **Dónde**, seleccione **Aptitudes de autoservicio de los empleados** y luego seleccione **Aptitudes de autoservicio de los empleados.**. Tras **es**, seleccione **campo** y luego seleccione **Relación de usuario a persona.**.
 
-    [![Especificar condición](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Especificar condición.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Seleccione **Asignación** en la barra de navegación de la izquierda.
 
@@ -73,11 +73,11 @@ Para introducir aptitudes sin requerir aprobación, debe crear un flujo de traba
 
 14. En la pestaña **Selección de jerarquía**, en el campo **Tipo de jerarquía:**, seleccione **Jerarquía gerencial**.
 
-    [![Especificar jerarquía gerencial](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Especificar jerarquía gerencial.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Seleccione **Cerrar**, seleccione **Flujo de trabajo** en la ruta de navegación del lienzo y, a continuación, seleccione **Guardar y cerrar**.
 
-Para obtener más información sobre crear flujos de trabajo, consulte [Visión general del sistema de flujos de trabajo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json).
+Para obtener más información sobre crear flujos de trabajo, consulte [Visión general del sistema de flujos de trabajo](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="enter-skills-for-a-worker"></a>Introducir aptitudes para un trabajador
 

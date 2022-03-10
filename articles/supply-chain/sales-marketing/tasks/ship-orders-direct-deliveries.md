@@ -1,27 +1,24 @@
 ---
 title: Enviar pedidos como entregas directas
 description: En este tema se demuestra cómo crear una entrega directa para un pedido de ventas.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437268"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572450"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar pedidos como entregas directas
 
@@ -82,3 +79,6 @@ En este tema se demuestra cómo crear una entrega directa para un pedido de vent
     - La página Entrega directa actúa como área de trabajo que proporciona al agente de compras una visión general de todas las líneas de pedidos de ventas que se procesarán por entrega directa y le permite crear los pedidos de compra respectivos. Además, puede ver los pedidos abiertos de entrega directa y los pedidos confirmados en las fichas Confirmación y Entrega.  
     - Después de crear un pedido de entrega directa, se desplazó automáticamente a la ficha de confirmación. Puede elegir confirmar el pedido directamente desde esta página. Cuando se confirme la compra, se moverá automáticamente a la ficha Entrega, desde la que puede registrar su recepción.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

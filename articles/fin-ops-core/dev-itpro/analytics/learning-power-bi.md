@@ -2,7 +2,6 @@
 title: Contenido de formación de Power BI
 description: Este tema describe el contenido en Power BI de formación.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26e895abe6154b395ddc25b136f84397c04037fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742347"
 ---
 # <a name="learning-power-bi-content"></a>Contenido de formación de Power BI
 

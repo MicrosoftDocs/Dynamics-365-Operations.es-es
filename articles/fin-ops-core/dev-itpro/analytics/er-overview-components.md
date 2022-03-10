@@ -3,7 +3,6 @@ title: Componentes de los informes electrónicos
 description: Este tema describe los componentes de informes electrónicos (ER).
 author: nselin
 ms.date: 09/28/2021
-ms.topic: ''
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -12,15 +11,16 @@ ms.reviewer: kfend
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
+ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de8bccf5a8a9bb81be51658010ad4c2ef67aabb2
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562258"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324044"
 ---
 # <a name="electronic-reporting-components"></a>Componentes de los informes electrónicos
 

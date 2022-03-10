@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271110"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069438"
 ---
 # <a name="message-processor-messages"></a>Mensajes del procesador de mensajes
 
@@ -29,7 +29,7 @@ ms.locfileid: "6271110"
 
 Los mensajes del procesador de mensajes se utilizan cuando se ejecutan unidades de escala de borde y en la nube para [cargas de trabajo de fabricación](cloud-edge-workload-manufacturing.md) y [cargas de trabajo de gestión de almacenes](cloud-edge-workload-warehousing.md).
 
-Se intercambia una gran cantidad de datos entre el concentrador y los entornos de implementación de la unidad de escalado para mantenerlos sincronizados, pero solo algunos de estos intercambios de datos serán procesados por el *procesador de mensajes*. Puede ver los mensajes procesados por el procesador de mensajes yendo a **Administración del sistema > Procesador de mensajes > Mensajes del procesador de mensajes**.
+Se intercambia una gran cantidad de datos entre el concentrador y los entornos de implementación de la unidad de escalado para mantenerlos sincronizados. Algunos de los datos intercambiados desencadenarán lógica adicional en el *procesador de mensajes*. Puede ver los mensajes procesados por el procesador de mensajes yendo a **Administración del sistema > Procesador de mensajes > Mensajes del procesador de mensajes**.
 
 ## <a name="message-grid-columns-and-filters"></a>Columnas y filtros de la cuadrícula de mensajes
 
@@ -44,7 +44,7 @@ Puede utilizar los campos en la parte superior de la página **Mensajes del proc
   - *Puesto en cola*: el mensaje está listo para ser procesado por el procesador de mensajes.
   - *Procesado*: el mensaje lo ha procesado correctamente el procesador de mensajes.
   - *Cancelado*: el mensaje se procesó, pero el procesamiento falló.
-- **Contenido del mensaje**: este filtro realiza una búsqueda de texto completa del contenido del mensaje. (El contenido del mensaje no se muestra en la cuadrícula). El filtro trata la mayoría de los símbolos especiales (como "-") como espacios y trata todos los caracteres de espacio como operadores booleanos OR. T = Por ejemplo, esto significa que si busca un valor de `journalid` igual a "USMF-123456", el sistema encontrará todos los mensajes que contengan "USMF" o "123456", lo que probablemente será una lista larga. Por lo tanto, sería mejor introducir solo "123456" porque eso devolverá resultados más específicos.
+- **Contenido del mensaje**: este filtro realiza una búsqueda de texto completa del contenido del mensaje. (El contenido del mensaje no se muestra en la cuadrícula). El filtro trata la mayoría de los símbolos especiales (como "-") como espacios y trata todos los caracteres de espacio como operadores booleanos OR. Por ejemplo, esto significa que si busca un valor de `journalid` igual a "USMF-123456", el sistema encontrará todos los mensajes que contengan "USMF" o "123456", lo que probablemente será una lista larga. Por lo tanto, sería mejor introducir solo "123456" porque eso devolverá resultados más específicos.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Tipo de mensaje de ejemplo: solicitar actualización financiera de ajuste de inventario
 
@@ -65,7 +65,7 @@ La barra de herramientas de la pestaña **Registrar** incluye los siguientes bot
 
 ## <a name="message-processor-batch-job"></a>Trabajo por lotes del procesador de mensajes
 
-Al ejecutar una implementación de borde en la nube, el trabajo por lotes del *Procesador de mensajes* se activará automáticamente cuando se cree un nuevo mensaje para su procesamiento, por lo que no debería necesitar programar este trabajo manualmente.
+Al ejecutar una topología híbrida distribuida con unidades de escalado, el trabajo por lotes del *Procesador de mensajes* se activará automáticamente cuando se cree un nuevo mensaje para su procesamiento, por lo que no debería necesitar programar este trabajo manualmente.
 
 Si es necesario, puede acceder al trabajo por lotes yendo a **Administración del sistema > Procesador de mensajes > Procesador de mensajes**.
 
@@ -88,15 +88,15 @@ En este ejemplo, usar **Cuando ocurre un evento empresarial** con *Microsoft Pow
 
 1. En [Power Automate](https://preview.flow.microsoft.com), cree un nuevo flujo de nube automatizado para el desencadenador de flujo **Cuando ocurre un evento empresarial: aplicación Fin & Ops (Dynamics 365)** seguido por los pasos **Analizar JSON** y **Enviar un correo electrónico**, como se muestra en la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flujo de nube automatizado de Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flujo de nube automatizado de Power Automate.":::
 
 1. En el paso **Cuando ocurre un evento empresarial**, puede buscar el centro de conectividad **Instancia** o entrar en él, siguiendo la **Categoría** y luego el **Evento empresarial** *Mensaje procesado del procesador de mensajes*, como se muestra en la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Paso de Power Automate Cuando ocurre un evento empresarial":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Paso de Power Automate Cuando ocurre un evento empresarial.":::
 
 1. Para el paso **Analizar JSON**, introduzca un **Esquema** que defina los campos extendidos. Puede usar la opción *Descargar esquema* en la página **Catálogo de eventos empresariales** en Supply Chain Management o comience pegando el texto del esquema de ejemplo. Este texto de ejemplo se proporciona después de la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Paso de Power Automate de analizar JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Paso de Power Automate de analizar JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ En este ejemplo, usar **Cuando ocurre un evento empresarial** con *Microsoft Pow
 
 1. En el paso **Enviar un correo electrónico**, puede seleccionar los campos individuales o comenzar pegando el ejemplo del cuerpo del correo electrónico en el campo **Cuerpo**. Este ejemplo se proporciona después de la siguiente ilustración.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Paso de Power Automate de enviar un mensaje de correo electrónico":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Paso de Power Automate de enviar un mensaje de correo electrónico.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

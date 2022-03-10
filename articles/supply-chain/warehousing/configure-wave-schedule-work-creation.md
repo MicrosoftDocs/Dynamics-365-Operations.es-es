@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2918d2cfa8792cc249e48990ccfa0dcf03e9b8c96f1264b48d3efd51f30cabd0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777656"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920133"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Programar la creación del trabajo durante la oleada
 
@@ -33,7 +33,7 @@ Cuando la funcionalidad está habilitada, el trabajo planificado se creará auto
 
 Para utilizar las funciones descritas en este tema, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
-1. **Bloqueo de trabajo en toda la organización**: requerido para la configuración manual y automática de la creación de trabajos programados.
+1. **Bloqueo de trabajo en toda la organización**: requerido para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. **Creación de trabajo programado**: requerido para la configuración manual y automática de la creación de trabajos programados.
 1. **Método de oleada "Creación de trabajo programado" en toda la organización**: requerido para la configuración automática de la creación de trabajos programados. No necesita esta función si solo va a utilizar la configuración manual.
 
@@ -65,7 +65,7 @@ Si no habilitó la [función *Método de oleada de "creación de trabajos progra
 
 Para aprovechar un método asincrónico paralelo para crear trabajo de almacén, su proceso de oleada debe ejecutarse por lotes. Para configurar:
 
-1. Vaya a  **Gestión de almacenes \> Configurar \> Parámetros de gestión de inventario y almacenes**.
+1. Vaya a **Gestión de almacenes \> Configuración \> Parámetros de gestión de almacenes**.
 1. En la pestaña **General**, establezca **Procesar oleadas en lote** a *Sí*. Opcionalmente, también puede seleccionar **Grupo de lotes de procesamiento de oleadas** para evitar que el procesamiento de la cola por lotes se ejecute al mismo tiempo que otros procesos.
 1. Elija la **hora de Esperar bloqueo (ms)**, que se aplica cuando el sistema está procesando varias oleadas al mismo tiempo. Para la mayoría de los procesos de creación de oleadas más grandes, recomendamos un valor de *60 000*.
 
@@ -73,8 +73,8 @@ Para aprovechar un método asincrónico paralelo para crear trabajo de almacén,
 
 Comience creando el nuevo método de paso de oleada y habilitándolo para el procesamiento de tareas asincrónicas en paralelo.
 
-1. Vaya a  **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
-1. Seleccione  **Regenerar métodos** y vea que se ha agregado *WHSScheduleWorkCreationWaveStepMethod* a la lista de métodos de proceso de oleada que puede utilizar en sus plantillas de oleada de envío.
+1. Vaya a **Gestión de almacenes \> Configuración \> Oleadas \> Métodos de proceso de oleadas**.
+1. Seleccione **Regenerar métodos** y vea que se ha agregado *WHSScheduleWorkCreationWaveStepMethod* a la lista de métodos de proceso de oleada que puede utilizar en sus plantillas de oleada de envío.
 1. Seleccione el registro con el **Nombre del método** *WHSScheduleWorkCreationWaveStepMethod* y seleccione **Configuración de tareas**.
 1. Para agregar una nueva fila a la cuadrícula, seleccione **Nuevo** en el panel de acciones y use los siguientes ajustes:
 
@@ -84,7 +84,7 @@ Comience creando el nuevo método de paso de oleada y habilitándolo para el pro
 
 Ahora puede actualizar una plantilla de oleada existente (o crear una nueva) para usar el método de procesamiento de oleadas *Programar creación de trabajo*.
 
-1. Vaya a  **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
+1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
 1. En el panel Acciones, seleccione **Editar**.
 1. En el panel de lista, seleccione la plantilla de oleada que le gustaría actualizar (si está probando con datos de demostración, entonces podría usar *Envío predeterminado 24*).
 1. Amplíe la ficha desplegable **Métodos** y seleccione la fila con el **Nombre** *Programar creación de trabajo* en la cuadrícula **Métodos restantes**.

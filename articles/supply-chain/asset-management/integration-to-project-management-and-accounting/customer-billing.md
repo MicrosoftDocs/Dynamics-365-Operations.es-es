@@ -2,13 +2,11 @@
 title: Facturar por mantenimiento de activos del cliente
 description: Este tema explica cómo crear, procesar y facturar el trabajo de mantenimiento que se realiza sobre los activos que poseen sus clientes.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetWorkOrderProjCostInfoPart
+ms.search.form: ProjProjectContractsListPage, ProjInvoiceTable, ProjProjectsListPage, ProjTable, EntAssetWorkOrderType, EntAssetWorkOrderProjectSetup, EntAssetObjectTable, EntAssetWorkOrderTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 643e59f082949ed51ab61d79648a98b83a7f0b03
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774954"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Facturar por mantenimiento de activos del cliente
 
@@ -177,3 +175,6 @@ En esta sección, seguirá trabajando en la orden de trabajo en la que trabajó 
 1. En el panel de acciones, en la pestaña **Facturación**, seleccione **Nueva propuesta de factura**.
 1. En el cuadro de diálogo **Crear propuesta de factura**, en la sección **Transacciones de proyecto**, seleccione la casilla **Seleccionar** para todas las líneas que quiera facturar.
 1. Seleccione **Aceptar** para cerrar el cuadro de diálogo y ver la nueva propuesta de factura.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

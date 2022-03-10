@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818929"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580081"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Establecer diferentes dimensiones para el embalaje y almacenamiento
 

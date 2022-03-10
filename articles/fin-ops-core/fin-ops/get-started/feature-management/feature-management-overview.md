@@ -1,69 +1,103 @@
 ---
-title: Vista previa de Administración de características
+title: Información general de la administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
-author: ChrisGarty
-manager: AnnBe
-ms.date: 10/05/2020
-ms.topic: article
+author: Peakerbl
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: cgarty
+ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798362"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068018"
 ---
-# <a name="feature-management-overview"></a>Visión general de la administración de características
+# <a name="feature-management-overview"></a>Información general de la administración de características
 
 [!include [banner](../../includes/banner.md)]
 
-Las características se suman y se actualizan en cada versión. La experiencia de administración de la característica proporciona un espacio de trabajo en el que puede ver una lista de características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación.
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
+
+Las características se suman y se actualizan en cada versión. La experiencia de administración de la característica proporciona un espacio de trabajo en el que puede ver una lista de características que se han entregado en cada versión. A continuación, puede utilizar el espacio de trabajo para ver la documentación de las funciones y habilitar o deshabilitar funciones.
 
 ## <a name="the-feature-management-workspace"></a>El espacio de trabajo Administración de características.
 
-Puede abrir el espacio de trabajo **Administración de características** seleccionando el mosaico adecuado en el panel de información. Verá una página que muestra una lista de características para todos las versiones que son compatibles con la experiencia de Administración de características. Con el tiempo, Microsoft ampliará la experiencia de la Administración de características de modo que incluya una mayor funcionalidad para ayudarle a gestionar características.
+Puede abrir el espacio de trabajo **Administración de características** seleccionando el mosaico adecuado en el panel de información. Verá una página que muestra una lista de características para todos las versiones que son compatibles con la experiencia de Administración de características. 
 
 La lista de características incluye la información siguiente:
 
 - **Nombre de la característica** - Una descripción de la función que se ha agregado.
-- **Estado habilitado** - Un símbolo indica si se ha activado una característica (marca de verificación), no está activada (en blanco), se ha programado para ser activada (reloj), es obligatorio activarla (candado), requiere atención antes de activarla (advertencia) o no se puede habilitar (X). El valor que se muestra se usa para todas las entidades jurídicas. Tenga en cuenta que incluso cuando se ha activado, una característica aún se controla mediante la seguridad. Por lo tanto, la característica sólo estará disponible para los usuarios que tengan acceso a ella, en función de su rol de seguridad. También estará disponible solo en las entidades jurídicas a las que tiene acceso el usuario.
+- **Estado** - Un símbolo indica si una característica está activada (marca de verificación), no está activada (en blanco), se ha programado para ser activada (reloj), es obligatoria (candado), requiere atención antes de activarla (símbolo de advertencia) o no se puede activar (X). El valor que se muestra se usa para todas las entidades jurídicas. Tenga en cuenta que incluso cuando se ha activado, una característica aún se controla mediante la seguridad. Por lo tanto, la característica sólo estará disponible para los usuarios que tengan acceso a ella, en función de su rol de seguridad. También estará disponible solo en las entidades jurídicas a las que tiene acceso el usuario.
 - **Fecha de habilitación** - La fecha en que la característica se ha activado o está programado que lo haga.
 - **Característica agregada** - La fecha en que la característica se ha agregado al entorno. Esta fecha se introduce automáticamente durante la actualización del entorno durante los ciclos de lanzamiento mensuales.
+- **Estado de la característica** - El estado actual del ciclo de vida de la característica: **Vista previa**, **Publicada** (se muestra en blanco), **Activada por defecto** y **Obligatoria**. Los estados se tratan con más detalles más adelante en este tema. 
 - **Módulo** - El módulo afectado por la nueva característica.
+
+> [!NOTE]
+> LLa columna **Estado de la característica** se incluye a partir de la versión 10.0.21.
 
 Al seleccionar una característica, más información aparece en el panel de información a la derecha de la lista de la función. En la parte superior del panel podrá ver el nombre de la función, la fecha en la que la característica se ha agregado, el módulo afectado por la función, y un vínculo a **Más información** . Seleccione este vínculo para ver la documentación para la característica. Si la documentación no está disponible, le llevarán a una página temporal. El panel de detalles también incluye un campo **Comentarios** donde puede agregar sus propios comentarios acerca de la característica.
 
 El espacio de trabajo **Administración de características** también tiene varias pestañas y cada una muestra una lista de funciones de ella.
 
 - **Nuevo** - Esta pestaña muestra todas las características que se han agregado desde la última actualización de mensual. Si ha omitido cualquier actualización mensual, la ficha muestra todas las nuevas características que se han agregado desde la última vez que se actualizó. Las características más nuevas aparecen en la parte superior de la lista. El número total de nuevas características también se muestra en un mosaico en la parte superior de la página.
-- **No habilitado** - La ficha muestra todas las funciones que no se han activado. Las características más nuevas aparecen en la parte superior de la lista. El número total de nuevas características que no se han activado también se muestra en un mosaico en la parte superior de la página.
-- **Programado** - Esta pestaña muestra todas las características que se han programado para ser habilitadas en el futuro. Las características que tienen la fecha programada más próxima aparecen en la parte superior de la lista. El número total de nuevas características programadas también se muestra en un mosaico en la parte superior de la página.
+- **No habilitado** - La ficha muestra todas las funciones que no se han activado. Las características más nuevas aparecen en la parte superior de la lista. Además, un mosaico en la parte superior de la página muestra el número total de funciones nuevas que están actualmente desactivadas.
+- **Programado** - Esta pestaña muestra todas las características que se han programado para ser habilitadas en el futuro. Las características que tienen la fecha programada más próxima aparecen en la parte superior de la lista. También se muestra en un mosaico en la parte superior de la página que muestra el número total de las funciones programadas.
 - **Todas** - La ficha muestra todas las funciones. Las características más nuevas aparecen en la parte superior de la lista.
 
-## <a name="turn-on-a-feature"></a>Activar una característica
+## <a name="feature-states"></a>Estados de características
+Las funciones pueden pasarde unos estados a otros, desde introducirse en la gestión de funciones hasta que eventualmente se vuelven obligatorias en el producto. Esta sección describe los estados válidos de las funciones.
 
-Si una característica no se ha activado, un botón **Habilitar ahora** aparece en el panel de detalles. Puede usar este botón para activar la característica.
+### <a name="preview-features-optional"></a>Características en vista previa (opcional)
 
-- Seleccione la característica que desea activar y, a continuación, en el panel de detalles, seleccione **Habilitar ahora**. Se activa la función.
+Los equipos de productos pueden decidir iniciar al principio una nueva característica como una característica en vista previa. Las características en vista previa no están habilitadas de forma predeterminada y son opcionales. El equipo del productos propietario actualizará las funciones a publicadas después de que hayan completado un período de vista previa exitoso.
 
-Algunas funciones no se pueden desactivar tras activarlas. Si la función que intenta activar no se puede desactivar, se mostrará una advertencia. En este punto, puede seleccionar **Cancelar** para cancelar la operación y para dejar la característica desactivada. Sin embargo, si se selecciona **Habilitar** y activa la característica, no podrá desactivarla posteriormente.
+> [!NOTE]
+> Las características en vista previa están sujetas a una vista previa específica [Términos y condiciones](https://go.microsoft.com/fwlink/?linkid=2105274). 
+
+### <a name="released-features-optional"></a>Funciones publicadas (opcional)
+
+La columna **Estado de la función** de estas funciones está en blanco. Las funciones que se agregan inicialmente como publicadas no están activadas de forma predeterminada y habilitarlas es opcional. Las funciones que se actualizan desde la vista previa mantendrán su estado de habilitación.
+
+### <a name="on-by-default-features-optional"></a>Características activadas por defecto (opcional)
+
+Funciones que se actualizan a **Activada por defecto** están activadas de forma predeterminada, pero se pueden desactivar. Después de que las funciones que se pueden deshabilitar hayan estado en el estado **Publicado** durante al menos seis meses, se espera que se trasladen a este estado en la próxima versión importante. Se espera que las aracterísticas que hacen la transición a **Activada por defecto** se comuniquen en el tema [Novedades](../whats-new-changed.md) para el lanzamiento. La actualización la inicia el equipo de producto propietario.
+
+> [!NOTE]
+> Debido a que estas funciones se habilitarán automáticamente, es importante que determine si su organización está lista para adoptar estas funciones o si se requiere más tiempo. Si se requiere más tiempo, puede que sea necesario deshabilitar temporalmente estas funciones. Tenga en cuenta que la transición de una función a **Activado de forma predeterminada** se realiza normalmente en la versión principal antes de que la función esté destinada a convertirse en **Obligatoria**. En ese momento, no tendrá la opción de deshabilitar la función. 
+
+### <a name="mandatory"></a>Obligatoria
+
+**Obligatoria** es el estado final esperado de las características. Indica que las funciones están activadas y que no puede desactivarlas sin ponerse en contacto con Microsoft. Se espera que las características opcionales sean obligatorias después de dos versiones principales. Las características críticas pueden, por excepción, introducirse como obligatorias.
+
+## <a name="example-of-expected-feature-lifecycles"></a>Ejemplo de ciclos de vida esperados de características
+
+Se espera que las funciones que se pueden deshabilitar y que se agregaron como publicadas y opcionales antes o como parte de la versión de abril pasen a **Activada de forma predeterminada** en el siguiente lanzamiento de octubre. Se espera que se conviertan en **Obligatoria** en abril del año siguiente.
+
+Se espera que las funciones que no se pueden deshabilitar y que se agregaron como publicadas y opcionales antes o como parte de la versión de abril pasen a **Obligatoria** en abril del año siguiente.
+
+## <a name="enable-a-feature"></a>Habilitar una característica
+
+Si una característica no se ha activado, un botón **Habilitar ahora** aparece en el panel de detalles. Puede usar este botón para habilitar la característica.
+
+Algunas funciones no se pueden deshabilitar tras habilitarlas. Si la función que intenta activar no se puede activar, se mostrará una advertencia. En este punto, puede seleccionar **Cancelar** para cancelar la operación y para dejar la característica deshabilitada. Sin embargo, si se selecciona **Habilitar** para habilitar la característica, no podrá deshabilitarla posteriormente.
 
 Algunas funciones mostrarán un mensaje con información adicional antes de activarlas. Estas funciones están marcadas con un símbolo amarillo de advertencia. Debe leer la información adicional cuidadosamente para averiguar qué sucederá cuando se habilite la función. No obstante, aún podrá seleccionar **Habilitar** para activar la función.
 
 Algunas funciones mostrarán un mensaje de que la característica no puede habilitarse hasta que se tomen medidas. Estas funciones se indican con un símbolo de una X roja. Debe realizar los pasos que se describen en la descripción antes de que se habilite la función. Por ejemplo, si no puede usar una característica hasta que se deshabilite una clave de configuración, debe deshabilitar la clave de configuración primero y después volver a la administración de características para habilitar la función.
 
-Después de que se active la característica, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica la fecha futura en la que está programada que se active. Aparecerá cada vez que seleccione la característica en la lista de la función.
+Después de que se habilite una característica, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica la fecha futura en la que está programada que se active. Aparecerá cada vez que seleccione la característica en la lista de la función.
 
 Las características programadas para activarse en el futuro aparecen en la pestaña **Programado**. Un proceso por lotes las activará a medianoche en la fecha especificada, en función de la zona horaria que se representa por la fecha del sistema.
 
@@ -75,35 +109,33 @@ Si una característica se ha programado para activarse en el futuro, un botón *
 2. En el cuadro de diálogo que aparece, en el campo **Fecha de habilitación**, especifique la nueva fecha en que la característica se debe activar.
 3. Seleccione **Habilitar** para volver a programar la característica o **Deshabilitar** para cancelar la programación.
 
-## <a name="turn-off-a-feature"></a>Desactivar una característica
+## <a name="disable-a-feature"></a>Deshabilitar una característica
 
-Si una característica ya se ha habilitado, un botón **Deshabilitar** aparece en el panel de detalles. Puede usar este botón para desactivar la característica. El botón **Deshabilitar** no está disponible si la característica no se puede desactivar después de que se active.
+Si una característica se ha habilitado, un botón **Deshabilitar** aparece en el panel de detalles. Puede usar este botón para deshabilitar la característica. El botón **Deshabilitar** no está disponible si la característica no se puede deshabilitar. 
 
-- Seleccione la característica que desea desactivar y, a continuación, en el panel de detalles, seleccione **Deshabilitar**. Se desactiva la característica, y se borra el campo **Fecha de habilitación**.
+Después de que se deshabilite una característica, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje afirma que la característica no se ha activado. Aparecerá cada vez que seleccione la característica en la lista de la función. Las funciones que no se han activado aparecen en la pestaña **No activado**.
 
-Después de que se desactive la característica, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje afirma que la característica aún no se ha activado. Aparecerá cada vez que seleccione la característica en la lista de la función. Las funciones que no se han activado aparecen en la pestaña **No activado**.
+## <a name="features-that-must-be-enabled"></a>Características que deben habilitarse
 
-## <a name="features-that-must-be-turned-on"></a>Características que deben activarse
-
-A veces se lanza una característica crítica que se activará automáticamente cuando se actualice. Estas características se activan automáticamente en la fecha especificada en el campo **Fecha de habilitación**. Para estas características, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica la fecha futura en la que está programada que se activará. Aparecerá cada vez que seleccione la característica en la lista de la función.
+A veces se lanza una característica crítica que se activará automáticamente cuando se actualice. Estas características se activan automáticamente en la fecha especificada en el campo **Fecha de habilitación**. Para estas características, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica cuándo lo hará en el futuro. Aparecerá cada vez que seleccione la característica en la lista de la función.
 
 ## <a name="enable-all-features"></a>Habilitar todas las características
 
-De forma predeterminada todas las características que se añaden a su entorno se desactivan. Puede habilitar todas las funciones seleccionando el botón **Habilitar todo**. 
+Puede habilitar todas las funciones seleccionando el botón **Habilitar todo**. 
 
-Cuando selecciona **Habilitar todo**, aparece una opción para proporcionar la siguiente información:
+Cuando selecciona **Habilitar todo**, aparece una opción donde debe proporcionar la siguiente información:
+
 - Una lista de todas las características que requieren confirmación antes de que puedan habilitarse. Si desea habilitar las características de la lista, seleccione **Sí** para el botón **Habilitar las características que requieren confirmación**.
 - Se mostrará una lista de todas las características que no se pueden habilitar. Estas características no se habilitarán.
 
 Todas las funciones que se pueden habilitar se habilitarán. Si una característica ya está programada para ser habilitada en el futuro, la programación no cambiará. 
 
-## <a name="turn-on-all-features-automatically"></a>Activar todas las funciones automáticamente
+## <a name="enable-all-features-automatically"></a>Activar todas las funciones automáticamente
 
-De forma predeterminada todas las características que se añaden a su entorno se desactivan a menos que sean características obligatorias. Sin embargo, si se desea activar automáticamente todas las nuevas características, puede usar la lista desplegable bajo al título del espacio de trabajo para cambiar qué ocurre cuando se agregan las nuevas características.
+Si se desea activar automáticamente todas las nuevas características, puede usar la lista desplegable bajo al título del espacio de trabajo para cambiar qué ocurre cuando se agregan las nuevas características.
 
-- Seleccione `Enable new features automatically` para activar automáticamente todas las nuevas características cuando se añaden al entorno.
-- Seleccione `Do not enable new features automatically` para desactivar por defecto todas las nuevas características cuando se añaden al entorno.
-
+- Seleccione **Habilitar nuevas características automáticamente** para activar automáticamente todas las nuevas características cuando se añaden al entorno.
+- Seleccione **No habilitar nuevas características automáticamente** si todas las nuevas características aplicables deberían estar desactivadas de forma predeterminada cuando se añadan al entorno.
 
 Si habilita todas las características automáticamente, se habilitan todas las funciones que se habilitarían al hacer clic en el botón **Habilitar todo**. No se habilitarán las características que requieren confirmación o las características que no se pueden habilitar hasta que se tomen medidas.
 
@@ -134,15 +166,11 @@ Los ejemplos siguientes describen lo que ocurre cuando utilice la entidad **Admi
 - Si cambia el valor del campo **EnableDate** a una fecha futura, la característica se programa para esa fecha.
 - Si cambia el valor del campo **Habilitado** a **Sí** y cambia el valor del campo **EnableDate** a una fecha futura, la característica se programa para esa fecha. 
 - Si cambia el valor del campo **Habilitado** a **No** pero también cambia el valor del campo **EnableDate** a una fecha futura, la característica se programa para esa fecha.
-- Si una característica está activada y se agrega un campo **EnableDate** que se establece en una fecha futura, la característica continuará activada. Para reprogramar la característica, debe cambiar el campo **Habilitado** a **No**.
+- Si una característica está activada y se agrega un campo **EnableDate** que se establece en una fecha futura, la característica continuará activada. Para reprogramar la característica, debe cambiar el valor del campo **Habilitado** a **No**.
 
 ## <a name="feature-management-and-flighting"></a>Administración de características y distribución de paquetes piloto
 
 La Administración de características le permite controlar las características que se añaden en cada versión. La distribución de paquetes piloto permite a los Microsoft Teams presentar características a un número limitado de clientes para poder ser probadas y validarlas las características sin afectar a todos los clientes. La Administración de características no controla la distribución de paquetes piloto de cualquier característica.
-
-## <a name="new-features-are-optional-for-12-months"></a>Las nuevas funciones son opcionales durante 12 meses
-
-Cuando se instala una nueva característica no crítica, será opcional por un período de 12 meses. Esto le permite a usted y a su organización tiempo para planificar con anticipación cuándo utilizar una función y hacer que se pruebe en sus operaciones diarias. Para obtener más información, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usar la Administración de características para activar las características de ISV o las personalizadas
 
@@ -151,25 +179,24 @@ La administración de características no está actualmente disponible para las 
 ## <a name="frequently-asked-questions-faq"></a>Preguntas frecuentes
 
 ### <a name="when-are-features-added-removed-or-changed"></a>¿Cuándo se agregan, quitan o cambian características? 
-Las características se agregan, eliminan y cambian mediante cambios en el código. Los entornos deben actualizarse para recibir esos cambios.
+Los equipos de producto propietarios son los que agregan, eliminan y cambian las características mediante cambios en el código. Los entornos deben actualizarse para recibir esos cambios.
 
 ### <a name="does-a-feature-become-mandatory-automatically"></a>¿Una característica se vuelve obligatoria automáticamente? 
-No, una función que se vuelve obligatoria no es una acción automática. Los equipos de producto necesitan hacer un cambio de código.
-
-### <a name="when-do-features-become-mandatory"></a>¿Cuándo se vuelven obligatorias las características? 
-La política es que todas las nuevas características se habiliten por un período de 12 meses y que no requieran ninguna gestión de cambios hasta que habilite la función. Los equipos de productos pueden elegir si hacer que una característica sea obligatoria una vez que finaliza ese período. 
+No, una característica no se vuelve obligatoria automáticamente. El equipo de producto propietario necesita hacer un cambio de código.
 
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>¿Por qué no hay una "fecha habilitada obligatoria" específica? 
 El tiempo de actualización es variable, el tiempo de actualización del entorno es variable y los clientes pueden optar por omitir algunas actualizaciones. Como resultado, las fechas específicas son difíciles de determinar. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>¿Dónde está la documentación de las características que se hacen obligatorias? 
-Esta documentación proviene de los equipos de aplicación. A menudo, estos se mencionarán en [Funciones eliminadas o en desuso](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>¿Dónde está la documentación de las características que son obligatorias? 
+Esta documentación proviene de cada equipo de aplicación de Dynamics 365. A menudo, estas características se mencionarán en [Actualizaciones de los estados de las funciones del cliente](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) o [Funciones eliminadas o en desuso](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>¿Hay una notificación en el producto o una señal de que una característica será obligatoriamente habilitada? 
 Hoy en día no existe un mecanismo de notificación relacionado con hacer que una característica sea obligatoria.
 
 ### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>¿Se habilitan las características sin que el cliente lo sepa? 
-Sí, si las características no tienen un impacto funcional, entonces pueden habilitarse de manera predeterminada.
+Sí, las funciones se pueden habilitar sin el conocimiento del cliente en las siguientes situaciones:
+- Una característica se mueve a **Activada por defecto**. En este estado, la función aún se puede deshabilitar. 
+- Una función se actualiza a **Obligatoria**. Este cambio solo se producirá en combinación con una versión principal. Las características críticas podrían, por excepción, moverse a **Obligatoria** en cualquier actualización.
 
 ### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>¿Qué es el paquete piloto de características y cómo se relaciona con la gestión de características? 
 Los paquetes piloto de características son interruptores de encendido y apagado en tiempo real que controla Microsoft. Están fuera del control del cliente que proporciona Feature Management. 
@@ -203,3 +230,6 @@ IFeatureLifecycle es un mecanismo interno de Microsoft para indicar la etapa del
 - `PublicPreview`: se muestra de forma predeterminada, pero con una advertencia de que la función está en vista previa.
 - `Released`: completamente publicada.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

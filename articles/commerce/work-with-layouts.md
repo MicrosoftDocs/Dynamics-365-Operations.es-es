@@ -2,11 +2,9 @@
 title: Trabajar con diseños predefinidos
 description: En este tema se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2539880e76ffb1861e0d18227a935a2ef35c120
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210884"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090854"
 ---
 # <a name="work-with-preset-layouts"></a>Trabajar con diseños predefinidos
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Antes de completar los procedimientos de este tema, asegúrese de leer [Diseños personalizados y preestablecidos](templates-layouts-overview.md#preset-and-custom-layouts). Para una visión general, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
 
@@ -96,12 +91,24 @@ Para obtener una vista previa de los cambios, abra una página existente que uti
 
 Cuando haya obtenido una vista previa de los cambios para su diseño preestablecido, siga uno de estos pasos para publicar el diseño en el sitio activo:
 
-* Vaya a **Diseños**, seleccione el diseño y, a continuación, **Publicar**.
-* Seleccione el nombre del diseño para abrir el editor de diseño y después seleccione **Publicar**.
-* Publique una página que haga referencia al diseño sin publicar. El diseño se publicará automáticamente.
+1. Vaya a **Diseños**, seleccione el diseño y, a continuación, **Publicar**.
+1. Seleccione el nombre del diseño para abrir el editor de diseño y después seleccione **Publicar**.
+1. Publique una página que haga referencia al diseño sin publicar. El diseño se publicará automáticamente.
 
 > [!WARNING]
 > Varias páginas pueden hacer referencia a diseños preestablecidos. Al publicar un diseño preestablecido, tenga en cuenta que puede afectar al diseño de varias páginas.
+
+## <a name="rename-a-preset-layout"></a>Cambiar de nombre un diseño preestablecido
+
+Para cambiar de nombre el diseño prestablecido en Site Builder, siga estos pasos.
+
+1. En el panel de navegación izquierdo, seleccione **Diseños**.
+1. Seleccione el nombre del diseño del diseño que desea cambiar de nombre.
+1. Seleccione **Editar** para empezar a editar el diseño.
+1. En el panel de propiedades de diseño, seleccione el símbolo del bolígrafo junto al nombre del diseño.
+1. Edite el nombre del diseño según sea necesario.
+1. Seleccione la marca de verificación para confirmar el cambio de nombre.
+1. Seleccione **Finalizar edición**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

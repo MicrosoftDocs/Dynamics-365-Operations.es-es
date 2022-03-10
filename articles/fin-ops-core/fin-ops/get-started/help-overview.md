@@ -1,9 +1,9 @@
 ---
-title: Sistema de ayuda
+title: Sistema de ayuda (contiene video)
 description: Este tema proporciona una visión general del sistema de ayuda para las aplicaciones de Finance and Operations.
 author: edupont04
 ms.date: 07/20/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemParameters
@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646522"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070510"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Los usuarios de las siguientes aplicaciones pueden acceder a la ayuda contextual y a otro contenido basado en el mismo sistema de ayuda:
 

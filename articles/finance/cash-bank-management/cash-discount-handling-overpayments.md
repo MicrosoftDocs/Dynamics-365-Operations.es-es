@@ -2,28 +2,25 @@
 title: Descuentos por pronto pago para sobrepagos
 description: Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0714eab80f43695b2b93f77a70f31c360277f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7e2e3a6805e1c668de8a3fb62e7190ded6fc20d754ecfca23245e2861f6c2cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715972"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Descuentos por pronto pago para sobrepagos
 
@@ -139,3 +136,6 @@ El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

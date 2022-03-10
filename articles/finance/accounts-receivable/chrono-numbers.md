@@ -2,11 +2,9 @@
 title: Numeración cronológica de documentos y vales
 description: Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 31745632de7339d167ac9f18f02e6611e1a78b28
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: ced09fb4be49dbfd10dac9f9ece86372d38e854460c7ca6cd72922c64ac7cce4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724144"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numeración cronológica de documentos y vales
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 En algunos países, existe el requisito legal de numerar los documentos y los vales relacionados en orden cronológico. La cronología debe estar organizada por períodos. Todos los números que pertenecen a períodos anteriores deben ser menores que los números que pertenecen a períodos posteriores. Para cumplir con este requisito, se ha implementado la funcionalidad de numeración cronológica. Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 
@@ -72,7 +69,7 @@ Para definir secuencias numéricas, vaya a **Administración de la organización
 
 Especifique una empresa para cada secuencia numérica. Los segmentos de las secuencias numéricas deben definirse de modo que proporcionen un orden cronológico a los períodos. Por ejemplo, los nombres de los segmentos pueden contener un prefijo especial que identifique un período específico.
 
-![Configurar secuencia numérica](media/chrono-num-sequence.jpg)
+![Configurar secuencia numérica.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Configurar grupos de secuencias numéricas
 
@@ -80,7 +77,7 @@ Para configurar grupos de secuencias numéricas, vaya a **Clientes** > **Configu
 
 Para cada grupo, en la sección **Referencia**, seleccione una de las referencias de documentos compatibles y, en el campo **Código de secuencia numérica**, haga referencia a una secuencia numérica que se creó previamente para el período relacionado.
 
-![Configurar grupo de secuencias numéricas](media/chrono-num-sequence-group.jpg)
+![Configurar grupo de secuencias numéricas.](media/chrono-num-sequence-group.jpg)
 
 De manera similar, configure grupos de secuencias numéricas en los módulos **Proveedores** y **Gestión de proyectos y contabilidad**.
 
@@ -88,7 +85,7 @@ De manera similar, configure grupos de secuencias numéricas en los módulos **P
 
 Para configurar la cronología de los grupos de secuencias numéricas, vaya a **Administración de la organización** > **Secuencias numéricas** > **Grupos de secuencias numéricas cronológicas**. Defina las condiciones de aplicabilidad para grupos de secuencias numéricas.
 
-![Configuración de números cronológicos](media/chrono-num-sequence-group-period.jpg)
+![Configuración de números cronológicos.](media/chrono-num-sequence-group-period.jpg)
 
 | Campo            | Descripción                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -101,7 +98,10 @@ Para configurar la cronología de los grupos de secuencias numéricas, vaya a **
 ## <a name="document-posting"></a>Contabilización de documentos
 Al registrar un documento, el grupo de secuencias numéricas apropiado se asigna al documento, según la fecha de contabilidad del documento, y luego se usa para generar un número de documento basado en la secuencia numérica detectada. El sistema proporciona un mensaje sobre la asignación del grupo de secuencias numéricas.
 
-![Número de documento](media/chrono-num-sequence-fti.jpg)
+![Número de documento.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Para algunos países, ya existe una lógica específica implementada para la numeración de documentos. En este caso, la lógica específica del país anulará la característica **Numeración cronológica**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

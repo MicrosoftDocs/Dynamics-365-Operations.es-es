@@ -2,26 +2,23 @@
 title: Crear pagos para un cliente con órdenes de domiciliación bancaria
 description: Este procedimiento muestra cómo generar un archivo de pago por domiciliación bancaria ISO20022 para un cliente que tiene la domiciliación bancaria configurada y una factura que debe pagarse.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ecc28cb11b8c34a438bb47b1cfa9a37e17297e421020b32030261af95b86a49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757943"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Crear pagos para un cliente con órdenes de domiciliación bancaria
 
@@ -68,3 +65,6 @@ Este es el quinto de cinco procedimientos que muestra el proceso de pago del cli
 11. Haga clic en Aceptar.
 12. Haga clic en Aceptar.
 13. Haga clic en Crear pagos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
