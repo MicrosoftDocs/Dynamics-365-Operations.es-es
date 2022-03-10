@@ -2,7 +2,7 @@
 title: Trabajar con plantillas
 description: En este tema se describe cómo trabajar con plantillas en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f9487ab7a6ea10c841708e41fb7085d4bafe0d224ec5eb28810ec34b35a0ebc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762533"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090803"
 ---
 # <a name="work-with-templates"></a>Trabajar con plantillas
 
@@ -49,7 +49,7 @@ Como se trató en [Visión general de plantillas y diseños](templates-layouts-o
 
 Las plantillas se modifican mediante el editor de plantillas.
 
-Para abrir el editor de plantillas, siga uno de estos pasos:
+Para abrir el editor de plantillas en el creador de sitios de Commerce, siga uno de estos pasos:
 
 - En el panel de navegación del sitio, seleccione **Plantillas** y, a continuación, seleccione la plantilla que desea modificar.
 - En el editor de páginas para una página existente, seleccione el nodo superior en el árbol de esquema de la izquierda. A continuación, en el panel de propiedades de la derecha, seleccione **Editar plantilla**.
@@ -66,7 +66,7 @@ La vista del árbol de esquema de la izquierda muestra las opciones de módulo y
 
 ## <a name="create-a-new-template"></a>Crear una nueva plantilla
 
-Para crear una nueva plantilla, siga estos pasos.
+Para crear una nueva plantilla en el generador de sitios de Commerce, siga estos pasos.
 
 1. En el panel de navegación del sitio, seleccione **Plantillas** para abrir la vista del inspector de plantillas.
 1. Seleccione **Nueva plantilla**.
@@ -85,7 +85,7 @@ La plantilla es válida ahora técnicamente, y se puede guardar, proteger y usar
 
 ## <a name="add-a-header-and-a-footer"></a>Agregar un encabezado o un pie de página
 
-Si su sitio ya tiene un fragmento de encabezado, siga estos pasos para agregar un encabezado y un pie de página a una plantilla.
+Si su sitio ya tiene un fragmento de encabezado, siga estos pasos en el generador de sitios para agregar un encabezado y un pie de página a una plantilla.
 
 1. En el árbol de esquema, expanda la franja **Cuerpo** y su módulo de página secundaria.
 1. Seleccione la franja **Encabezado**.
@@ -98,7 +98,7 @@ Si su sitio no tiene aún un fragmento de encabezado, consulte [Crear un fragmen
 
 ## <a name="change-the-template-theme"></a>Cambiar el tema de la plantilla
 
-Para establecer el tema predeterminado para todas las páginas que usan una plantilla, siga estos pasos.
+Para establecer el tema predeterminado para todas las páginas que usan una plantilla, siga estos pasos en el generador de sitios.
 
 1. En el árbol de esquema de la izquierda, expanda la franja **Cuerpo**.
 1. En la franja **Cuerpo**, seleccione el módulo de contenedor de página (por ejemplo, **Página predeterminada**).
@@ -110,7 +110,7 @@ De forma predeterminada, todas las páginas nuevas usarán ahora el tema selecci
 
 Puede agregar elementos de **&lt;script&gt;** HTML que contengan JavaScript a su plantilla. De esta manera, puede proporcionar comportamientos de script predeterminados al encabezado HTML, inicio del cuerpo y secciones finales del cuerpo de sus páginas.
 
-Para agregar un script a una plantilla, siga estos pasos.
+Para agregar un script a una plantilla directamente en el generador de sitios, siga estos pasos.
 
 1. En el árbol de esquema de la izquierda, seleccione la franja donde desee agregar el elemento **&lt;script&gt;** (por ejemplo, el encabezado HTML, el inicio del cuerpo o el final del cuerpo).
 1. Seleccione el botón de puntos suspensivos para la franja y, a continuación, seleccione **Agregar módulo**.
@@ -123,7 +123,7 @@ Para agregar un script a una plantilla, siga estos pasos.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Guardar, proteger, obtener una vista previa y publicar una plantilla
 
-Para guardar y proteger una plantilla, siga estos pasos.
+Para guardar y proteger una plantilla en el generador de sitios, siga estos pasos.
 
 1. Seleccione **Guardar** en la parte superior del editor de plantillas. Los cambios guardados no afectan a las páginas en sentido descendente hasta que se protegen.
 1. Seleccione **Finalizar edición**. Sus cambios son ahora detectables para flujos de trabajo en sentido descendente.
@@ -138,6 +138,18 @@ Cuando haya obtenido una vista previa de los cambios para su plantilla, siga uno
 
 > [!WARNING]
 > Cuando se publica una plantilla, o cualquier otro artículo del sistema de gestión de contenidos (CMS), es detectable en Internet. No publique documentos o activos hasta que esté listo para hacerlos público. Las versiones de documentos que se han guardado y protegido, pero que no se han publicado, solo son detectables para usuarios autenticados del sistema.
+
+## <a name="rename-a-template"></a>Cambiar de nombre una plantilla
+
+Para cambiar el nombre de una plantilla existente en el generador de sitios de Commerce, siga estos pasos.
+
+1. En el panel de navegación izquierdo, seleccione **Plantillas**.
+1. Seleccione el nombre de la plantilla que desee cambiar.
+1. Seleccione **Editar** para empezar a editar la plantilla. Tenga en cuenta que no puede editar una plantilla si alguien más ya la está editando.
+1. En el panel de propiedades de la plantilla, seleccione el símbolo junto al nombre de la plantilla.
+1. Edite el nombre de la plantilla según sea necesario.
+1. Seleccione la marca de verificación para confirmar el cambio de nombre.
+1. Seleccione **Finalizar edición**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

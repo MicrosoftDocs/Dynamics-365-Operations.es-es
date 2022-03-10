@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742593"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
@@ -35,7 +35,7 @@ El kanban de transporte se puede utilizar para mover un kanban de un único art�
 
 La situación siguiente muestra el sistema de reabastecimiento basado en extracción donde una señal de extracción activa la creación de un kanban para reabastecer material para un proceso de producción. 
 
-[![La señal de extracción activa la creación de un kanban para reabastecer material para un proceso de producción](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![La señal de extracción activa la creación de un kanban para reabastecer material para un proceso de producción.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban de transporte
 2.  Ubicación "desde" kanban y ubicación de colocación para trabajo de almacén
@@ -72,7 +72,7 @@ Si la distancia entre las ubicaciones del almacén y la ubicación de entrada de
 
 En el escenario siguiente, la actividad de transferencia de kanban de transporte se configura para transferir entre dos ubicaciones del mismo almacén. La actividad de la transferencia de kanban de transporte se establece para que se complete automáticamente. 
 
-[![La actividad de la transferencia se completa automáticamente cuando se procesa el trabajo de picking](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![La actividad de la transferencia se completa automáticamente cuando se procesa el trabajo de picking.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Almacén compartido para materias primas y producción
 2.  Ubicaciones de almacén para materias primas

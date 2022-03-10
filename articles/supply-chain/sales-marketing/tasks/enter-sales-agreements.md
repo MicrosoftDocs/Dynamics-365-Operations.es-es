@@ -1,7 +1,7 @@
 ---
 title: Especificar los acuerdos de ventas
 description: Este tema explica cómo crear un acuerdo de venta que compromete uno de los clientes a comprar un producto en una cantidad acordada durante un período de tiempo a cambio de descuentos especiales.
-author: omulvad
+author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 675eeda04880601f0261c6ae5e5a49de38f75a7c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810855"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568312"
 ---
 # <a name="enter-sales-agreements"></a>Especificar los acuerdos de ventas
 

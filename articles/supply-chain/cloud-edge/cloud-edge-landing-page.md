@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
+ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065773"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119196"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escalado en una topología híbrida distribuida
 
@@ -52,7 +52,7 @@ Puede configurar un entorno de concentrador con unidades de escala de nube para 
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de administración de almacén dedicadas en una unidad de escala
 
-La carga de trabajo de administración de almacén es la primera carga de trabajo distribuida para unidades de escala que se va a lanzar para disponibilidad general. Permite que las operaciones de su almacén se escalen y se ejecuten en un entorno resistente mediante el uso de ventanas de mantenimiento aisladas. La carga de trabajo de gestión de almacenes es compatible con la mayoría de los procesos de gestión de almacenes del centro empresarial. Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](cloud-edge-workload-warehousing.md).
+La carga de trabajo de Warehouse Management permite que las operaciones de su almacén se escalen y se ejecuten en un entorno resistente mediante el uso de ventanas de mantenimiento aisladas. La carga de trabajo de gestión de almacenes es compatible con la mayoría de los procesos de gestión de almacenes del centro empresarial. Para más información, vea [Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Capacidades de carga de trabajo de ejecución de fabricación dedicadas en una unidad de escala
 
@@ -194,7 +194,7 @@ En la pestaña **Cargas de trabajo definidas**, use el botón **Crear carga de t
 
 :::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Definir diálogo de cargas de trabajo.":::
 
-#### <a name="manage-workloads"></a>Gestionar cargas de trabajo
+#### <a name="manage-workloads"></a><a name="manage-workloads"></a>Gestionar cargas de trabajo
 
 Cuando una o más cargas de trabajo están habilitadas, use la opción **Gestionar cargas de trabajo** para iniciar y gestionar procesos como los que se enumeran en la siguiente tabla.
 
@@ -212,6 +212,28 @@ Cuando una o más cargas de trabajo están habilitadas, use la opción **Gestion
 
 > [!TIP]
 > Con el tiempo, se agregarán mejoras incrementales a la experiencia de Scale Unit Manager para ayudar a facilitar las operaciones de administración del ciclo de vida. Las capacidades específicas para la versión actual están documentadas en un manual de incorporación que está disponible para los clientes que están en el proceso de incorporación a la topología híbrida distribuida para Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
+
+## <a name="feature-management-considerations-for-workloads"></a>Consideraciones sobre la administración de características para las cargas de trabajo
+
+Esta sección explica algunos aspectos importantes que debe tener en cuenta al instalar cargas de trabajo, agregar características o eliminarlas en una implementación de topología híbrida distribuida. Varios escenarios pueden influir en si tendrá que ejecutar una [actualización de la carga de trabajo](#manage-workloads) después de hacer cambios. Sin embargo, normalmente tendrá que hacerlo cuando actualice o agregue nuevas consultas de intercambio de datos o cuando agregue nuevas tablas o campos a una carga de trabajo previamente instalada.
+
+### <a name="mandatory-features-for-installing-a-workload"></a>Características obligatorias para instalar una carga de trabajo
+
+Cuando instala una carga de trabajo, el proceso de instalación crea una definición de carga de trabajo que contiene información sobre las tablas de datos que se usan cuando los datos se sincronizan entre las dos implementaciones. La creación de una definición de carga de trabajo se gestiona automáticamente en función de las características que están habilitadas actualmente en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). En la siguiente tabla, se enumeran las características que se deben habilitar para generar las definiciones de carga de trabajo necesarias para ejecutar una carga de trabajo de almacén o fabricación.
+
+| Característica obligatoria | Carga de trabajo |
+|---|---|
+| Asignación automática de los GUID en la creación de usuarios de WHS | Almacén |
+| Bloqueo de trabajo en toda la organización | Almacén |
+| Detalles de etiqueta de oleada de envío | Almacén |
+| Soporte de unidad de escalado para listas de trabajo de aplicaciones de almacén | Almacén |
+| Ejecución de la planta de producción | Fabricación |
+
+Cuando implementa una carga de trabajo mediante las [herramientas de implementación de unidades de escala para entornos de desarrollo de una sola caja](https://github.com/microsoft/SCMScaleUnitDevTools) o el [portal de Scale Unit Manager](https://sum.dynamics.com), todas las características obligatorias se habilitarán automáticamente. Sin embargo, si realiza una implementación de prueba manual en la que faltan una o más características obligatorias, la instalación de la carga de trabajo fallará y recibirá un mensaje que enumera las que faltan. A continuación, debe habilitar manualmente esas características y volver a activar la instalación de la carga de trabajo.
+
+### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Habilitar o deshabilitar características que tienen dependencias de sincronización de datos
+
+Las características que afectan la selección de datos que se sincronizan entre el concentrador y sus unidades de escala también afectan a la forma en que se crea la definición de la carga de trabajo. Por lo tanto, es importante que estas características estén habilitadas antes de instalar la carga de trabajo. Si habilita este tipo de característica mientras ejecuta una carga de trabajo, debe volver a generar la definición de la carga de trabajo ejecutando una [actualización de la carga de trabajo](#manage-workloads) después de habilitar la característica. Del mismo modo, si deshabilita una característica que tiene dependencias de sincronización de datos mientras ejecuta una carga de trabajo, debe ejecutar una [actualización de la carga de trabajo](#manage-workloads) para eliminar la información de sincronización de datos relevante de la definición de la carga de trabajo.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

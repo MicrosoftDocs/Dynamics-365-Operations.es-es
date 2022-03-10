@@ -1,26 +1,28 @@
 ---
 title: Visión general de impuestos
 description: Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
-author: ShylaThompson
+author: kailiang
 ms.date: 10/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 13111
+ms.custom:
+- "13111"
+- intro-internal
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 021692e0b599731db1d991405fcb4632080582bf
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826627"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983937"
 ---
 # <a name="sales-tax-overview"></a>Visión general de impuestos
 
@@ -28,14 +30,13 @@ ms.locfileid: "5826627"
 
 Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
-<a name="overview"></a>Visión general
---------
+## <a name="overview"></a>Visión general
 
 El marco de impuestos admite muchos tipos de impuestos indirectos, como impuestos, impuesto sobre el valor añadido (IVA), impuesto de bienes y servicios (GST), cuotas basadas en unidad y retención de impuestos. Estos impuestos se calculan y se documentan durante transacciones de compra y de ventas. Periódicamente, se notifican y se pagan a las autoridades fiscales. 
 
 En el diagrama siguiente se muestran las entidades de la configuración de impuestos y cómo se relacionan.
 
-[![Diagrama que muestra la información general de las entidades de configuración de impuestos](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagrama que muestra la información general de las entidades de configuración de impuestos.](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Para todos los impuestos que una empresa debe tener en cuenta, se debe definir un código de impuestos. Un código de impuestos almacena las tasas de impuestos y las reglas de cálculo para los impuestos. 
 

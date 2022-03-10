@@ -1,26 +1,25 @@
 ---
 title: Visión general de las tareas de servicio
 description: Utilice tareas de servicios para describir la tarea que hay que realizar durante un pedido de servicio. Tanto técnicos como clientes pueden ver esta información.
-author: ShylaThompson
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebad3a5fdd65155eb822dcd69a1d2624a1891337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a789c435bfba6948895f6d00c6a350c03b2e9d63
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835831"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982493"
 ---
 # <a name="service-tasks-overview"></a>Visión general de las tareas de servicio
 

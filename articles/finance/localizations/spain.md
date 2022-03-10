@@ -1,24 +1,23 @@
 ---
 title: Visión general de España
 description: Este tema proporciona vínculos a recursos de documentación para España.
-author: ShylaThompson
-ms.date: 07/27/2020
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Spain
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c7c89a0c8ea9c1655ea0454fd9686d3d34712d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: d591fecfce07889ae4b20ed91f6e5de3be4cd5c7
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338141"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983084"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
@@ -34,11 +33,13 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Usar datos fiscales de la cuenta de factura](emea-esp-fiscal-data-invoice-account.md)
 - [Grupos de revalorización de activos fijos](emea-esp-fixed-asset-group-revaluation.md)
 - [IVA intracomunitario](emea-esp-intra-community-vat.md)
+- [Intrastat español](emea-esp-intrastat.md)
 - [Clientes plantilla](emea-esp-no-one-time-customer-for-project-contracts.md)
 - [Imprimir cheques con diseño español](emea-esp-print-checks-with-spanish-layout.md)
 - [Opciones de pagaré español](emea-esp-promissory-note-options.md)
 - [Informe 340](emea-esp-report-340.md)
 - [Informe del Modelo 347](emea-esp-declaration-347-report.md)
+- [Declaración de IVA 303](emea-esp-vat-declaration-spain.md)
 - [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
 - [Entradas especiales y hojas de apertura](emea-esp-opening-sheets-spain.md)
 - [Suministro inmediato de información del IVA, SII](emea-esp-sii.md)

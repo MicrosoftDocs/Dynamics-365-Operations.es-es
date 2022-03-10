@@ -2,11 +2,9 @@
 title: Cuentas de contrapartida predeterminadas para diarios de facturas de proveedor y diarios de aprobación de facturas
 description: Este tema le ayudará a decidir dónde debe asignar cuentas predeterminadas para diarios de facturas.
 author: abruer
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e67bebcfb934a3e6dae78cafd7bb2b01c05e450
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749037"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Cuentas de contrapartida predeterminadas para diarios de facturas de proveedor y diarios de aprobación de facturas
 

@@ -2,9 +2,7 @@
 title: Función MID de ER
 description: Este tema proporciona información general sobre cómo usar la función MID de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0520bc54465f00d36e88787933b291847dee852
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 33a8d02e937b3d88d98cac96ae28a30345ccffb23be37d7add67f721dfb9cc70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742371"
 ---
 # <a name="mid-er-function"></a>Función MID de ER
 

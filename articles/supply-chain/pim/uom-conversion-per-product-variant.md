@@ -1,27 +1,25 @@
 ---
 title: Conversión de unidad de medida por variante del producto
 description: Este tema explica cómo configurar las conversiones de unidades de medida para variantes de producto. Incluye un ejemplo de configuración.
-author: johanhoffmann
-manager: tfehr
+author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ddb6c614ede98e46e46ff284a1a16669bbaaaf66
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258056"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579577"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversión de unidad de medida por variante del producto
 
@@ -58,7 +56,7 @@ Para configurar un producto maestro para admitir la conversión de unidades por 
     - **Producto**: si selecciona este valor, puede configurar una conversión de unidades para el producto maestro. Esa conversión de unidades se utilizará como alternativa para todas las variantes de producto para las que no esté definida ninguna conversión de unidades.
     - **Variante del producto**: si selecciona este valor, puede configurar una conversión de unidades para una variante del producto específica. Utilicer el campo **Variante del producto** para seleccionar la variante.
 
-    ![Agregar una nueva conversión de unidades](media/uom-new-conversion.png "Agregar una nueva conversión de unidades")
+    ![Agregar una nueva conversión de unidades.](media/uom-new-conversion.png "Agregar una nueva conversión de unidades")
 
 1. Use los otros campos que se proporcionan para configurar su conversión de unidades.
 1. Seleccione **Aceptar** para guardar la nueva conversión de unidades.
@@ -105,7 +103,7 @@ Para exportar conversiones de unidades a Excel, en la página **Conversiones de 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Gestionar la unidad de medida](tasks/manage-unit-measure.md)
+[Gestionar las unidades de medida](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

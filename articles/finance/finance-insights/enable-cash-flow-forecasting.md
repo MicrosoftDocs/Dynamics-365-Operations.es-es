@@ -1,8 +1,8 @@
 ---
-title: Habilitar la previsión de flujo de efectivo (versión preliminar)
+title: Habilitar las previsiones de flujo de efectivo
 description: Este tema explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 29118557a1de4d3521f8125395b26471f7f48f3e
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 763818f70095964d77ff82cf02178367d05eaf23
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638630"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109588"
 ---
-# <a name="enable-cash-flow-forecasting-preview"></a>Habilitar la previsión de flujo de efectivo (versión preliminar)
+# <a name="enable-cash-flow-forecasting"></a>Habilitar las previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,33 +30,27 @@ Este tema explica cómo activar la característica de previsiones de flujo de ef
 
 > [!NOTE]
 > Para utilizar predicciones de pagos en el flujo de efectivo, debe configurar la característica de predicciones de pagos de clientes como se describe en [Habilitar las predicciones de pagos de clientes](enable-cust-paymnt-prediction.md).
-
-1. Utilice la información de la página de entorno en Microsoft Dynamics Lifecycle Services (LCS) para conectarse a la instancia principal de Azure SQL para ese entorno. Ejecute el siguiente comando Transact-SQL (T-SQL) para activar paquetes piloto para el entorno de espacio aislado. (Es posible que tenga que activar el acceso para su dirección IP en LCS antes de poder conectarse de forma remota a Application Object Server \[AOS\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Omita este paso si usa la versión 10.0.20 o posterior, o si usa una implementación de Service Fabric. El equipo de información financiera ya debería haber activado el paquete piloto por usted. Si no ve la característica en el espacio de trabajo **Administración de características**, o si experimenta problemas al intentar activarlas, póngase en contacto con <fiap@microsoft.com>.
   
-2. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
+1. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
 
     1. Seleccione **Buscar actualizaciones**.
-    2. Active las siguientes características:
+    2. En la pestaña **Todo**, busque **Previsiones de flujo de efectivo**. Si no encuentra esa caraterística, busque **(Versión preliminar) Previsiones de flujo de efectivo**. 
+    3. Activar la característica.
 
-        - Nuevo control de cuadrícula
-        - Agrupación en cuadrículas (versión preliminar) 
-        - Previsiones de pago de clientes (versión preliminar)
-        - Previsiones de flujo de efectivo (versión preliminar)
-
-3. Vaya a **Gestión de efectivo y banco \> Configuración de pronóstico de flujo de efectivo** y agregue las cuentas de liquidez que deben incluirse en las previsiones.
+2. Vaya a **Gestión de efectivo y banco \> Configuración de pronóstico de flujo de efectivo** y agregue las cuentas de liquidez que deben incluirse en las previsiones. También configure la cuenta de liquidez para pagos en las pestañas **Clientes** y **Proveedores**. Asegúrese de volver a calcular la previsión de flujo de efectivo.
 
     > [!NOTE]
     > Si no se configuran cuentas de liquidez, no se puede generar el flujo de efectivo.
+    >
+    > Para obtener más información sobre cómo configurar previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](../cash-bank-management/cash-flow-forecasting.md).
 
-4. Vaya a **Gestión de efectivo y banco \> Configurar \> Finance Insights (versión preliminar) \> Previsiones de flujo de efectivo (versión preliminar)** y siga estos pasos:
+3. Vaya a **Gestión de efectivo y banco \> Configurar \> Finance Insights (versión preliminar) \> Previsiones de flujo de efectivo (versión preliminar)** y siga estos pasos:
 
     1. En la pestaña **Pronóstico de flujo de efectivo**, seleccione **Habilitar característica**.
     2. Seleccione **Crear modelo de predicción**.
+
+> [!NOTE]
+> El entrenamiento del modelo **Pronóstico de flujo de efectivo** requiere datos que contengan más de 100 transacciones y abarquen más de un año. Recomendamos que tenga al menos dos años de datos con más de 1000 transacciones.
 
 Para obtener más información sobre cómo configurar la capacidad de previsión de flujo de efectivo, consulte [Previsiones de flujo de efectivo](cash-flow-forecast-intro.md).
 

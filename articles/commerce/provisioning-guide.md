@@ -2,11 +2,9 @@
 title: Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
 description: En este tema se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777509"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
 
@@ -34,8 +32,6 @@ Antes de comenzar, le recomendamos que lea rápidamente este tema para tener una
 
 > [!NOTE]
 > Los entornos de evaluación de Commerce no suelen estar disponibles y se conceden a socios y clientes por solicitud. Para obtener más información, póngase en contacto con su partner de Microsoft.
-
-## <a name="overview"></a>Información general
 
 Para aprovisionar correctamente un entorno de evaluación de Commerce, debe crear un proyecto que tenga un nombre y tipo de producto específicos. El entorno y Commerce Scale Unit (CSU) también tienen algunos parámetros específicos que necesita usar posteriormente cuando prevea el aprovisionamiento de comercio electrónico. Las instrucciones de este tema describen todos los pasos que son necesarios para completar el aprovisionamiento y los parámetros que debe usar.
 
@@ -80,7 +76,7 @@ Para crear un proyecto nuevo en LCS, siga estos pasos.
 
 ### <a name="add-the-azure-connector"></a>Agregar el conector de Azure
 
-Para agregar Azure Connector a su proyecto LCS, siga los pasos en [Completar el proceso de incorporación de Azure Resource Manager (ARM)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
+Para agregar Azure Connector a su proyecto LCS, siga los pasos en [Completar el proceso de incorporación de Azure Resource Manager (ARM)](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
 
 ### <a name="deploy-the-environment"></a>Implementar el entorno
 
@@ -94,16 +90,16 @@ Para implementar el entorno, siga estos pasos.
 1. En el campo **Versión de la aplicación**, seleccione la versión más actual. Si tiene una necesidad específica de seleccionar una versión de la aplicación que no sea la versión más actual, no seleccione una versión anterior a **10.0.14**.
 1. En el campo **Versión de la plataforma**, use la versión de plataforma que se elige automáticamente para la versión de la aplicación que ha seleccionado. 
 
-    ![Seleccionar las versiones de la aplicación y la plataforma](./media/project1.png)
+    ![Seleccionar las versiones de la aplicación y la plataforma.](./media/project1.png)
 
 1. Seleccione **Siguiente**.
 1. Seleccione **Demostración** como topología del entorno.
 
-    ![Seleccionar la topología del entorno 1](./media/project2.png)
+    ![Seleccionar la topología del entorno 1.](./media/project2.png)
 
 1. En la página **Implementar entorno**, escriba un nombre de entorno. Deje la configuración avanzada tal cual.
 
-    ![Página Implementar entorno](./media/project4.png)
+    ![Página Implementar entorno.](./media/project4.png)
 
 1. Ajuste el tamaño de la máquina virtual si es necesario. (Recomendamos la referencia de almacén de VM \[SKU\]**D13 v2**).
 1. Revise los términos de precios y licencias y, a continuación, active la casilla para indicar que los acepta.
@@ -184,10 +180,13 @@ Para continuar con el proceso de aprovisionamiento y configurar su entorno de ev
 
 [Preguntas más frecuentes sobre el entorno de evaluación Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (nube)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (nube)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

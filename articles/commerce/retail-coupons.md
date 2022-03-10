@@ -1,12 +1,10 @@
 ---
 title: Configurar vales para ventas minoristas
-description: Este tema proporciona una visión general de los cupones y explica cómo configurarlos.
-author: scott-tucker
-manager: AnnBe
-ms.date: 06/04/2020
+description: Este tema proporciona una visión general de los cupones y explica cómo configurarlos en Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979684"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603132"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
@@ -40,6 +38,10 @@ Para crear un vale, cree el descuento y el vale por separado. A continuación lo
 
 > [!NOTE]
 > Después de vincular un vale a un descuento, varios campos de la página de descuentos de Commerce se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
+> 
+> Mientras usa el cupón en el canal del centro de llamadas, debe seleccionar el botón **Recalcular** **(Pestaña Vender> Calcular> Recalcular)** para que se aplique el descuento asociado al cupón. Este paso adicional se eliminará en una versión futura.
+
+Para aplicar un vale a una transacción de venta en el punto de venta (PDV), puede utilizar **Código de vale** o **Código de barras del vale**. Para usar **Código de vale**, la operación **Agregar código de vale** debe configurarse en el PDV **Transacción** [diseño de pantalla](pos-screen-layouts.md). Seleccione **Agregar código de vañe** e introduzca el código del vale. Alternativamente, para usar **Código de barras del vale**, escanee el código de barras o introduzca el código de barras usando el teclado numérico en la pantalla **Transacción**.
 
 ### <a name="limited-use-coupons"></a>Vales de uso limitado
 
@@ -81,3 +83,6 @@ La funcionalidad de vales incluye varias características distintivas. Commerce 
 - **La central se actualiza parcialmente, pero no se actualizan Commerce Scale Unit ni los PDV.** En una actualización de la central, se actualizan el vale y las páginas de descuento, y el motor de precios de Commerce también se actualiza. Si solo uno de estos dos componentes se actualiza, algunas páginas de Commerce no coincidirán los datos de cálculo de precio. Por lo tanto, cálculos de descuento o errores inesperados pueden producirse durante cálculos de descuento.
 - **La central se actualiza, pero no se actualizan Commerce Scale Unit ni los PDV (N-1).** Dado que no todas las tiendas se pueden actualizar al mismo tiempo, recomendamos que actualice la central antes de actualizar las tiendas. En la situación N-1, la nueva funcionalidad relacionada con vales no estará disponible en las tiendas que todavía no se hayan actualizado. Por ejemplo, la funcionalidad de vales introduce líneas de “exclusión”. Si usa líneas de exclusión en un descuento, estas no se aplicarán en una tienda que esté ejecutando una versión anterior.
 - **La central no se actualiza, pero se actualizan Commerce Scale Unit ni los PDV (N+1).** Dado que el motor de precios actualizado en el servidor de Commerce Scale Unit puede gestionar códigos de descuento antiguos durante los cálculos de precios, la actualización no debe tener ningún impacto funcional en este escenario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

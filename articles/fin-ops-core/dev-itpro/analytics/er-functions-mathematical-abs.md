@@ -2,9 +2,7 @@
 title: Función ABS de ER
 description: Este tema proporciona información general sobre cómo usar la función ABS de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12165174806395b3c36a1dbb227ed7a86def77b1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: db12ddddb087556414e81d646c4c87d273a77c133e49152091452d0731916e93
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776083"
 ---
 # <a name="abs-er-function"></a>Función ABS de ER
 

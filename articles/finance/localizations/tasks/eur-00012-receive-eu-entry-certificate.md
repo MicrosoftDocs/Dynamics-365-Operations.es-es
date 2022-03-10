@@ -2,11 +2,9 @@
 title: EUR-00012 Recepción de un certificado de entrada de la UE
 description: Este procedimiento le muestra cómo registrar un certificado de entrada de la UE emitido por un tercero y recibido del cliente.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustEntryCertificateJour_W
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a796529736f4923b2fa206a883d55afee80f817
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 337013ca2a3c00213e537a0542dc0ebcb755f07db4aad3e77b3abd66173e5634
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736893"
 ---
 # <a name="eur-00012-receive-an-eu-entry-certificate"></a>EUR-00012 Recepción de un certificado de entrada de la UE
 
@@ -41,3 +39,6 @@ La empresa de datos de demostración utilizada para crear este procedimiento es 
     * Adjunte información adicional al diario.  
     * Por ejemplo, vincule una imagen escaneada del certificado de entrada de la UE al diario.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

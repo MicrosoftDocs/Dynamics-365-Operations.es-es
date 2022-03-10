@@ -1,35 +1,35 @@
 ---
-title: Ver y evaluar los resultados de los cuestionarios
-description: Este artículo explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/20/2017
+title: Ver y evaluar los resultados de cuestionarios
+description: En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 54530a8735cb8ce4b21688eae86fda83035133ed
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464967"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070711"
 ---
-# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de los cuestionarios
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de cuestionarios
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo explica cómo puede ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
+En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan. 
 
 Después de que los encuestados completen un cuestionario, puede ver y evaluar los resultados del mismo de las maneras siguientes:
 

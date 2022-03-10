@@ -3,31 +3,30 @@ title: Visión general sobre integración con Microsoft Dynamics 365 Field Servi
 description: Este tema proporciona una visión general de la integración con Microsoft Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9428308211d51e7de8c61fb9aadef6ce1fd9886f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062684"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visión general sobre integración con Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Supply Chain Management permite la sincronización de procesos empresariales entre Dynamics 365 Supply Chain Management y Dynamics 365 Field Service. Los escenarios de integración se configuran utilizando las plantillas extensibles integradoras y Microsoft Dataverse para habilitar la sincronización de procesos empresariales.
 Las plantillas estándar se pueden usar para crear proyectos personalizados de integración donde la norma adicional estándar y las tablas y las columnas personalizadas se pueden asignar para ajustar la integración y para cumplir con las necesidades empresariales. 

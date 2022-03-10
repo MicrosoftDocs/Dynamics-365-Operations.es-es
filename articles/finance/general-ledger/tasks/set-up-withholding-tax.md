@@ -2,11 +2,9 @@
 title: Configurar retención de impuestos
 description: Este tema explica cómo configurar la retención de impuestos.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae7b13f743336e01f17248c8d6492b31e8044ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2fbe2343a56210bfbed01c7d39ebb8c98829e32952fa1037a3ae0845776be064
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768276"
 ---
 # <a name="set-up-withholding-tax"></a>Configurar retención de impuestos
 

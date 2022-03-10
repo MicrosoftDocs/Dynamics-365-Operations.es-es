@@ -1,8 +1,8 @@
 ---
 title: Definir reglas y directivas de idoneidad para prestaciones
-description: Este artículo muestra cómo puede crear reglas y directivas de opción a prestaciones y después asignar reglas a las prestaciones.
-author: andreabichsel
-ms.date: 02/03/2020
+description: En este tema se explica cómo crear reglas y directivas de idoneidad para prestaciones y después asignar reglas a las prestaciones.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 57bcce908dec0b202880d865bbb6014ae13e385642dc2785b16c33abc4ab53bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752066"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067663"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Definir reglas y directivas de idoneidad para prestaciones
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema muestra cómo puede crear reglas y directivas de idoneidad para prestaciones y después asignar reglas a las prestaciones.  
+En este tema se explica cómo crear reglas y directivas de idoneidad para prestaciones y después asignar reglas a las prestaciones.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Creación de tipos de reglas de directivas de opción de prestaciones
 

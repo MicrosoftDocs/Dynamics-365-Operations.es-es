@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102623"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778092"
 ---
 # <a name="wave-label-printing"></a>Impresión de etiquetas de oleadas
 
@@ -53,7 +53,7 @@ Estas mejoras hacen que el etiquetado de cajas antes de la paletización sea má
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activar la característica de impresión de etiquetas de oleada
 
-Para poder usar la característica *Impresión de etiquetas de oleada*, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar. Sin embargo, la característica sigue apareciendo en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Impresión de etiquetas de oleada*
@@ -933,5 +933,6 @@ Para la mayoría de estas páginas, puede encontrar la función relevante selecc
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Volver a imprimir y anular etiquetas de lanzamiento](reprint-and-void-wave-labels.md)
+- [Programar la impresión de etiquetas de oleada durante la oleada](configure-task-based-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

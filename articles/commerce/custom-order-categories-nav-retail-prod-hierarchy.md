@@ -2,11 +2,9 @@
 title: Cambiar el orden de clasificación de entidades de comercialización
 description: Este tema explica los conceptos relacionados con el control el orden de visualización para diversas entidades relacionadas con la comercialización en Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
@@ -14,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 694f95e274dc068cba02a2a519c1ce3ed186eaf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976772"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779551"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Cambiar el orden de clasificación de entidades de comercialización
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales. La funcionalidad Varios puede ayudar a los clientes a detectar fácilmente productos. Por ejemplo, pueden examinar categorías, buscar y filtrar.
 
@@ -53,9 +51,9 @@ Antes de poder completar este procedimiento, los datos de prueba se deben instal
 
 El orden de visualización para la jerarquía de navegación de canal se reflejará en la sede para la jerarquía de productos comerciales y productos liberados por categoría.
 
-![Jerarquía de productos ordenada de forma personalizada con valores negativos](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Jerarquía de productos ordenada de forma personalizada con valores negativos.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Productos liberados por categoría ordenados de forma personalizada en función de la jerarquía de productos](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Productos liberados por categoría ordenados de forma personalizada en función de la jerarquía de productos.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configurar el orden de visualización para las categorías de la jerarquía de navegación de canales
 
@@ -79,11 +77,14 @@ Antes de poder completar este procedimiento, los datos de prueba se deben instal
 
 El orden de visualización para la jerarquía de navegación de canales se refleja en la sede, el catálogo y los canales.
 
-![Jerarquía de navegación de canales ordenada de forma personalizada](./media/ChannelNavCustomSorted.png)
+![Jerarquía de navegación de canales ordenada de forma personalizada.](./media/ChannelNavCustomSorted.png)
 
-![Jerarquía de navegación de catálogos ordenada de forma personalizada en función de la jerarquía de navegación de canales](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Jerarquía de navegación de catálogos ordenada de forma personalizada en función de la jerarquía de navegación de canales.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![PDV con categorías ordenadas de forma personalizada](./media/POSChannelCategoriesCustomSorted.png)
+![PDV con categorías ordenadas de forma personalizada.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

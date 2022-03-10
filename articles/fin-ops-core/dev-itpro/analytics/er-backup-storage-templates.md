@@ -2,11 +2,9 @@
 title: Almacenamiento de copia de seguridad de las plantillas de ER
 description: Este tema explica cómo utilizar el almacenamiento de copia de seguridad de los informes electrónicos (ER) para recuperar plantillas.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767886"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
@@ -67,19 +65,19 @@ Para configurar el parámetro **Ejecutar automáticamente el procedimiento de re
 > [!NOTE]
 > Este parámetro se define como usuario de aplicación y específico de la empresa registrada.
 
-![Página de configuraciones de ER](./media/GER-BackupTemplates-1.png)
+![Página de configuraciones de ER.](./media/GER-BackupTemplates-1.png)
 
 La ilustración siguiente muestra un ejemplo del mensaje que se genera cuando el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes** se establece en **Activado**.
 
-![Página del diario de pagos a proveedores](./media/GER-BackupTemplates-2.png)
+![Página del diario de pagos a proveedores.](./media/GER-BackupTemplates-2.png)
 
 La ilustración siguiente muestra el proceso por lotes **Restaurar plantillas rotas desde la copia de seguridad interna de la base de datos** en la página **trabajo por lotes**.
 
-![Página de trabajos por lotes](./media/GER-BackupTemplates-3.png)
+![Página de trabajos por lotes.](./media/GER-BackupTemplates-3.png)
 
 El registro de la ejecución del proceso por lotes **Restaurar plantillas rotas desde la copia de seguridad interna de la base de datos** completado incluye información acerca de las plantillas que se han restablecido desde la ubicación de almacenamiento de copia de seguridad a la ubicación de almacenamiento principal.
 
-![Página del historial de trabajos por lotes](./media/GER-BackupTemplates-4.png)
+![Página del historial de trabajos por lotes.](./media/GER-BackupTemplates-4.png)
 
 De forma predeterminada, el proceso de crear automáticamente las copias de seguridad de las plantillas que residen en configuraciones de formato de ER está activado. Para detener el crear copias de seguridad de plantillas, establezca la opción **Detener la creación de copias de seguridad de plantillas** en **Sí** en la pestaña **Archivos adjuntos** de la página **Parámetros de informes electrónicos**. Puede abrir esta página desde el espacio de trabajo **Informes electrónicos**.
 
@@ -87,7 +85,7 @@ Si establece la opción **Detener la creación de copias de seguridad de plantil
 
 Si ha actualizado el entorno a Finance and Operations, versión 10.0.5 (octubre de 2019), y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
 
-![Página de parámetros de informes electrónicos](./media/GER-BackupTemplates-5.png)
+![Página de parámetros de informes electrónicos.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Recuperación manual
 
@@ -102,3 +100,6 @@ En Finance and Operations, versión 10.0.5, el almacenamiento de copia de seguri
 [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Proyectos de contratación masiva
-description: Los proyectos de contratación masiva permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Este tema describe los proyectos de contratación masiva, que permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3d0747232ba4682afe4b28dc7d24ad2413448bb
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: fcfc973dc9acea624336f059d68562fa5eb41353
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052854"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070223"
 ---
 # <a name="mass-hire-projects"></a>Proyectos de contratación masiva
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,19 +46,19 @@ Use proyectos de contratación masiva cuando contrate varios trabajadores al mis
 
 En el verano, usted contrata normalmente a 15-20 estudiantes universitarios a tiempo parcial para suplir las vacantes de prácticas disponibles en su empresa. Este año, desea contratar cinco contables, cinco procesadores de pedidos y cinco cajeros. En lugar de crear cada registro del puesto y del trabajador de forma independiente, creará un proyecto de contratación masiva denominado “SummerInterns". Las fechas de inicio y finalización del proyecto se correlacionan con las fechas de inicio y finalización de las duraciones de los puestos que cree para el proyecto de contratación masiva.
 
-En la página **Proyectos de contratación masiva**, seleccione el proyecto “SummerInterns” y haga clic en **Abrir proyecto**. En el proyecto de contratación masiva abierto, haga clic en **Crear puestos** y especifique la información acerca del puesto de contable. Puede indicar que desea que se creen cinco puestos de contable con la misma información para cada uno y, a continuación, hacer clic en Aceptar. Repita este proceso para los puestos de procesador de pedidos y para el cajero.
+En la página **Proyectos de contratación masiva**, seleccione el proyecto **SummerInterns** y haga clic en **Abrir proyecto**. En el proyecto de contratación masiva abierto, seleccione **Crear puestos** y especifique la información acerca del puesto de contable. Puede indicar que desea que se creen cinco puestos de contable y que se debe usar la misma información para cada uno. A continuación seleccione **Aceptar**. Repita este proceso para los puestos de procesador de pedidos y para el cajero.
 
-Después de seleccionar los estudiantes que ocuparán los puestos en prácticas, especificará la información relativa al puesto en **Detalles del puesto**. Una vez especificados todos los detalles del puesto, seleccione el puesto en la página Proyectos de contratación masiva y haga clic en **Contratación**. Se creará un registro de puesto para cada puesto, y se creará y se asignará un registro de trabajador a la posición correcta para cada persona que contrate.
+Después de seleccionar los estudiantes que ocuparán los puestos en prácticas, especificará la información relativa al puesto en los detalles del puesto. Una vez especificados todos los detalles del puesto, seleccione el puesto en la página **Proyectos de contratación masiva** y seleccione **Contratación**. Se creará un registro de puesto para cada puesto, y se creará y se asignará un registro de trabajador a la posición correcta para cada persona que contrate.
 
 ## <a name="mass-hire-project-statuses"></a>Estados del proyecto de contratación masiva
 
 Un proyecto de contratación masiva puede tener los siguientes estados.
 
-- Creado
-- Abierta
+- Creada
+- Pendiente
 - Cerrado
 
-En la página **Proyecto de contratación masiva**, haga clic en **Abrir proyecto** o en **Cerrar proyecto** para cambiar el estado de un proyecto de contratación masiva. La siguiente tabla describe lo que puede hacer con un proyecto en función de su estado.
+En la página **Proyecto de contratación masiva**, seleccione **Abrir proyecto** o **Cerrar proyecto** para cambiar el estado de un proyecto de contratación masiva. La siguiente tabla describe lo que puede hacer con un proyecto en función de su estado.
 
 <table>
 <thead>
@@ -75,8 +78,8 @@ En la página **Proyecto de contratación masiva**, haga clic en **Abrir proyect
 </tr>
 <tr>
 <td>Cerrado</td>
-<td>No puede agregar los puestos al proyecto. Para agregar los puestos al proyecto de contratación masiva, abra el proyecto de nuevo. Éste es el estado de los proyectos completados.
-<blockquote>[!NOTE] Antes de cerrar un proyecto de contratación masiva, todos los puestos en el proyecto deben tener estado Creado o Cerrado.</blockquote>
+<td><p>No puede agregar los puestos al proyecto. Para agregar los puestos al proyecto de contratación masiva, abra el proyecto de nuevo. Éste es el estado de los proyectos completados.</p>
+<p><strong>Nota:</strong> Antes de cerrar un proyecto de contratación masiva, todos los puestos en el proyecto deben tener estado <b>Creado</b> o <b>Cerrado</b>.</p>
 </td>
 </tr>
 </tbody>

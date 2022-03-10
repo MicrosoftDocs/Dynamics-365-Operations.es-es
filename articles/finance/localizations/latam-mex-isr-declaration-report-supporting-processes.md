@@ -2,11 +2,9 @@
 title: Informe de declaración de ISR y procesos auxiliares para México
 description: En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este tema proporciona información acerca de la generación de este informe financiero.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ISRConcept_MX, ISRConceptMainAccount_MX, ISRRateTable_MX
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d268191dc50e30f599a547b571f63ca2151ef139
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6d0964f301507fc676758144ffbf4c22f49488f29da94bc117a2697f442a3e9e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964630"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761210"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 
@@ -45,7 +43,7 @@ Antes de generar el informe de ISR, configure la categoría del concepto y para 
 
 Debe crear conceptos para identificar las distintas secciones del informe y vincular a continuación una o más cuentas principales para cada concepto. Puede vincular un intervalo o cuentas principales específicas, en función de la estructura del plan de cuentas. Cuando se vincula una cuenta principal, puede seleccionar **Débitos** para usar el importe del débito, **Crédito** para usar solo el importe de crédito o **Ambos**. El informe de ISR muestra el valor, en función del concepto que haya configurado. **Ejemplo**
 
-|               |                                                          |
+| &nbsp;        | &nbsp;                                                   |
 |---------------|----------------------------------------------------------|
 | **Ingresos**   | Cuentas principales 4010001, 401002, 4010003, 4100001, 4100002 |
 | **Inventario** | Cuentas principales 1155001, 1155002, 1155003                  |
@@ -76,3 +74,6 @@ Puede generar un informe de ISR detallado o el informe puede resumir cada cuenta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

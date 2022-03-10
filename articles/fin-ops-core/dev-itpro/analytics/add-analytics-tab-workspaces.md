@@ -1,8 +1,7 @@
 ---
 title: Agregar análisis a espacios de trabajo mediante Power BI Embedded
 description: Este tema muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +9,15 @@ ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760161"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -55,11 +54,11 @@ Siga estos pasos para agregar un archivo .pbix como artefacto del proyecto de Vi
 3. En el cuadro de diálogo **Agregar nuevo artículo** , en **Artefactos de operaciones**, seleccione la plantilla **Recurso**.
 4. Escriba un nombre que se usará para hacer referencia al informe en metadatos X++, y después haga clic en **Agregar**.
 
-    ![Cuadro de diálogo Agregar nuevo artículo](media/analytical-workspace-add.png)
+    ![Cuadro de diálogo Agregar nuevo artículo.](media/analytical-workspace-add.png)
 
 5. Busque el archivo .pbix que contiene la definición del informe analítico y, a continuación haga clic en **Abrir**.
 
-    ![Seleccione un cuadro de diálogo del archivo de recursos](media/analytical-workspace-select-resource.png)
+    ![Seleccione un cuadro de diálogo del archivo de recursos.](media/analytical-workspace-select-resource.png)
 
 Ahora que ha agregado el archivo .pbix como recurso de Dynamics 365, puede insertar los informes en los espacios de trabajo y agregar vínculos directos mediante elementos de menú.
 
@@ -68,7 +67,7 @@ En este ejemplo, extenderemos el espacio de trabajo **Administración de reserva
 
 La ilustración siguiente muestra qué parece el formulario **FMClerkWorkspace** en el diseñador en Microsoft Visual Studio.
 
-![Formulario FMClerkWorkspace antes de los cambios](media/analytical-workspace-definition-before.png)
+![Formulario FMClerkWorkspace antes de los cambios.](media/analytical-workspace-definition-before.png)
 
 Siga estos pasos para extender la definición del formulario para el espacio de trabajo **Administración de reserva**.
 
@@ -93,7 +92,7 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 
 La ilustración siguiente muestra el aspecto del diseño después de aplicar estos cambios.
 
-![FMClerkWorkspace después de los cambios](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace después de los cambios.](media/analytical-workspace-definition-after.png)
 
 Ahora que ha agregado los controles de formulario que se usarán para insertar el informe del espacio de trabajo, debe definir el tamaño del control principal de modo que aloje el diseño. De forma predeterminada, la página **Panel de los filtros** y la página **Ficha** serán visibles en el informe. Sin embargo, puede cambiar la visibilidad de estos controles según corresponda para el consumidor de destino del informe.
 
@@ -143,7 +142,7 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
 
 Ha terminado la tarea de agregar la lógica de negocios para inicializar el control del visor del informe incrustado. La ilustración siguiente muestra el aspecto del espacio de trabajo después de aplicar estos cambios.
 
-![Informe insertado en el espacio de trabajo](media/analytical-workspace-final.png)
+![Informe insertado en el espacio de trabajo.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Puede obtener acceso a la vista operativa existente mediante las fichas del espacio de trabajo de debajo del título de la página.

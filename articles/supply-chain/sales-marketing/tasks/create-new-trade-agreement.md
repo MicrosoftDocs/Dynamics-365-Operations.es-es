@@ -1,26 +1,24 @@
 ---
 title: Crear un nuevo acuerdo comercial
 description: Este procedimiento muestra cómo crear un acuerdo comercial por el que se registra un nuevo precio de venta acordado con un cliente específico.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c4ac436b57b6010a5d5b3759d2ccf1c4af95446
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208144"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573426"
 ---
 # <a name="create-a-new-trade-agreement"></a>Crear un nuevo acuerdo comercial
 
@@ -28,8 +26,8 @@ ms.locfileid: "5208144"
 
 Este procedimiento muestra cómo crear un acuerdo comercial por el que se registra un nuevo precio de venta acordado con un cliente específico. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Si utiliza sus propios datos, antes de comenzar este procedimiento deberá asegurarse de que exista un nombre de diario de acuerdo comercial en el que la relación predeterminada esté establecida en "Precio (ventas)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Creación y registro de un diario de acuerdos comerciales nuevos
+
 1. Vaya a **Panel de navegación > Módulos > Ventas y marketing > Precios y descuentos > Diarios de acuerdos comerciales**.
 2. Haga clic en **Nuevo**.
 3. En el campo **Nombre**, haga clic en el botón desplegable para abrir la búsqueda.
@@ -60,22 +58,26 @@ Este procedimiento muestra cómo crear un acuerdo comercial por el que se regist
 20. Haga clic en **Aceptar**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Visualización de acuerdos comerciales para un producto
+
 1. Vaya a **Panel de navegación > Módulos > Gestión de información de productos > Productos > Productos despachados**.
 2. En la lista, busque y seleccione el producto cuyo precio acaba de actualizar.
 3. En **Panel de acciones**, haga clic en **Vender**.
 4. Haga clic en **Ver acuerdos comerciales**
     
-    Revise los detalles del acuerdo comercial de precios que acaba de crear.    
+    Revise los detalles del acuerdo comercial de precios que acaba de crear.
 
 5. Cierre la página.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 ### <a name="whitepaper"></a>Notas del producto
+
 Para obtener más información, descargue las siguientes notas del producto (escrito para ser compatible con AX2012, pero aún sirve para Dynamics 365 Supply Chain Management)
-- [Acuerdos comerciales](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Acuerdos comerciales](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Blogs de la comunidad
+
 - [Precios de ventas en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

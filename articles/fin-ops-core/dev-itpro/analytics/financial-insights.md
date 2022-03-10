@@ -1,12 +1,10 @@
 ---
-title: Financial Insights
-description: Financial Insights utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros.
+title: Análisis financiero
+description: El análisis financiero utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,20 +14,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682780"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416314"
 ---
-# <a name="financial-insights"></a>Financial Insights
+# <a name="financial-analysis"></a>Análisis financiero
 
 [!include [banner](../includes/banner.md)]
 
-**Financial Insights** utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros. Power BI se incorpora en la aplicación. El enfoque de **Financial Insights** es un informe analítico. Las personas de una organización pueden ver, investigar, entender y actuar. 
+**Análisis financiero** utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financiero (KPI), los gráficos y los informes financieros. Power BI se incorpora en la aplicación. El enfoque de **Análisis financiero** es un informe analítico. Las personas de una organización pueden ver, investigar, entender y actuar. 
 
-**Financial Insights** combina datos de la contabilidad general y las auxiliares para dar una imagen más completa del estado financiero de una organización.
+**Análisis financiero** combina datos de contabilidad general y auxiliares para dar una imagen más completa del estado financiero de una organización.
 
 > [!NOTE]
 > Este documento utiliza la siguiente terminología de Power BI:
@@ -38,14 +36,14 @@ ms.locfileid: "4682780"
 > - **Página**: una pestaña en un único archivo .pbix. Cada página puede contener uno o más elementos visuales.
 > - **Elemento visual**: una única fuente de datos, como una tarjeta, un KPI, un gráfico, una matriz o un informe financiero. Una página que tiene un informe financiero como un elemento visual no puede tener otros elementos visuales debido al tamaño de los datos que se están notificando.
 
-Actualmente, **Financial Insights** se emplea para ver los datos de la entidad jurídica activa o de todas las entidades jurídicas. En versiones futuras, el espacio de trabajo evolucionará hasta convertirse en el lugar en el que puede usar Power BI para editar y crear elementos visuales.
+El espacio de trabajo **Análisis financiero** se centra en permitirle ver y filtrar los datos de informes existentes. Puede agregar nuevos elementos visuales al espacio de trabajo **Análisis financiero**. El espacio de trabajo **Análisis financiero** está disponible para la empresa actual, así como para todas las empresas, para mostrar datos de todas las entidades jurídicas, independientemente de las entidades jurídicas a las que tenga acceso el rol.
 
-El espacio de trabajo **Visión general de director financiero (CFO)** muestra los mismos elementos visuales que la **Financial Insights**, pero se centra en permitirle visualizar y filtrar los datos en informes existentes. En versiones futuras, podrá agregar nuevos elementos visuales al espacio de trabajo **Financial Insights** . Los nuevos elementos visuales también pueden estar disponibles en espacios de trabajo que se centran en otros roles, como gestores de proyectos o administradores de proveedores. El espacio de trabajo **Visión general de director financiero (CFO)** sigue mostrando los datos de todas las entidades jurídicas, independientemente de las entidades jurídicas a las que el rol tiene acceso.
+- [Agregar o editar visualizaciones de Power BI en su panel](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Instalación de Dynamics 365 Finance
 **Contabilidad general**
 
-El tipo de cuenta principal y las categorías de cuenta principal se emplean para rellenar las cuentas principales predeterminadas adecuadas en el informe financiero **Balance de situación** y los distintos informes financieros **Informe de ingresos** en **Infomación financiera**.
+El tipo de cuenta principal y las categorías de cuenta principal se emplean para rellenar las cuentas principales predeterminadas adecuadas en el informe financiero **Balance de situación** y los distintos informes financieros de **Informe de ingresos** en **Análisis financiero**.
 
 En la página **Cuentas principales**, debe definir la cuenta principal para que se le asigne uno de los siguientes tipos:
 
@@ -57,23 +55,20 @@ En la página **Cuentas principales**, debe definir la cuenta principal para que
 
 No asigne ningún otro tipo de cuenta principal, como **Balance de situación** o **Pérdidas y ganancias** a sus cuentas principales. Los informes no pueden determinar el tipo de cuenta principal cuando se asignan otros tipos de cuenta principal, ya que no son lo suficientemente granulares. Debe determinarse el tipo de cuenta principal para mostrar pasivos e ingresos como importes positivos en informes financieros.
 
-Para que aparezca en los informes financieros y ser incluida en distintos elementos visuales, como los KPI, cada cuenta principal se debe asignar una categoría de cuenta principal. Se han ampliado las categorías de cuenta principal para que incluyan un orden de visualización. El orden de visualización se utiliza específicamente en informes financieros en **Financial Insights**. Tras editar o agregar una nueva categoría de cuenta principal, puede cambiar el valor **Orden de visualización** para definir el orden en que se deben mostrar las categorías de cuenta principal en un informe financiero. Si debe cambiar el orden de visualización para muchas categorías de cuenta principal, puede usar la función Abrir en Excel para volver a editar y publicar rápidamente los cambios en la aplicación.
+Para que aparezca en los informes financieros y ser incluida en distintos elementos visuales, como los KPI, cada cuenta principal se debe asignar una categoría de cuenta principal. Se han ampliado las categorías de cuenta principal para que incluyan un orden de visualización. El orden de visualización se utiliza específicamente en informes financieros en **Análisis financiero**. Tras editar o agregar una nueva categoría de cuenta principal, puede cambiar el valor **Orden de visualización** para definir el orden en que se deben mostrar las categorías de cuenta principal en un informe financiero. Si debe cambiar el orden de visualización para muchas categorías de cuenta principal, puede usar la función Abrir en Excel para volver a editar y publicar rápidamente los cambios en la aplicación.
 
 ## <a name="entity-store"></a>Almacén de entidades
-Los datos para **Financial Insights** se extraen del almacén de entidades (**Administración del sistema** \> **Configuración** \> **Almacén de entidades**). Si abre el espacio de trabajo **Visión general de director financiero (CFO)** o **Financial Insights** y aparece el siguiente mensaje de advertencia en los elementos visuales, debe actualizar las entidades.
+Los datos para **Análisis financiero** se extraen del almacén de entidades (**Administración del sistema** \> **Configuración** \> **Almacén de entidades**). Si abre el espacio de trabajo **Visión general de CFO** o **Análisis financiero** y aparece el siguiente mensaje de advertencia en los elementos visuales, debe actualizar las entidades.
 
-![Advertencia](./media/Cantdisplay.png)
+![Advertencia.](./media/Cantdisplay.png)
 
-Debe actualizar las siguientes entidades para ver datos en los espacios de trabajo **Financial Insights** y **Visión general de director financiero (CFO)**:
+Debe actualizar las siguientes entidades para ver datos en el espacio de trabajo **Análisis financiero**:
 
-- Versión 2 de los datos de transacción del informe financiero (**Nota:** esto es una novedad de la versión 10.0.1 y sustituye a la entidad anterior).
-- Datos de transacción de informes financieros
-- CustCollectionsBIMeasurements
+- Datos de transacción de informes financieros versión 3 
+- Crédito y cobros V2
 - LedgerCovLiquidityMeasurement
 - Cubo de compra
 - Cubo de venta
-
-En la versión anterior, las entidades LedgerActivityMeasure y VendPaymentBIMeasure se utilizaron para los datos en el espacio de trabajo **Visión general de director financiero (CFO)** . Sin embargo, ya no se emplean en la versión actual.
 
 Puede definir un lote periódico para actualizar con frecuencia los datos en las entidades. Puesto que cada entidad se reconstruye por completo durante una actualización, seleccione cuidadosamente la hora y la frecuencia de las actualizaciones de entidades. La entidad principal que se emplea para informes financieros es la entidad FinancialReportingTransactionData. Por lo tanto, puede que decida actualizar dicha entidad con mayor frecuencia.
 
@@ -82,32 +77,31 @@ Actualmente, los datos en informes incrustados de Power BI no pueden limitarse a
 
 | Deber                                    | Roles | Descripción |
 |-----------------------------------------|-------|------------|
-| Ver espacio de trabajo de la visión general del director financiero             | Director financiero | Este derecho proporciona acceso al espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
-| Ver información financiera de la empresa actual | <ul><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Auditor</li><li>Administrador presupuestario</li><li>Director General</li><li>Director financiero</li><li>Controlador financiero</li></ul> | Este derecho proporciona acceso a Financial Insights. De forma predeterminada, la empresa activa se usa como filtro. No puede agregar otras entidades jurídicas. |
-| Ver información financiera entre empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
+| Ver el análisis financiero de la empresa actual | <ul><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Auditor</li><li>Administrador presupuestario</li><li>Director General</li><li>Director financiero</li><li>Controlador financiero</li></ul> | Este derecho proporciona acceso a Análisis financiero. De forma predeterminada, la empresa activa se usa como filtro. No puede agregar otras entidades jurídicas. |
+| Ver el análisis financiero de todas las empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Financial Reporting frente Finanical Insights
-Aunque **Financial Insights** contiene informes financieros, no es una sustitución del informe financiero de la aplicación. Los informes financieros predeterminados en **Financial Insights** tienen un alcance limitado y no incluyen todos los tipos de informes financieros. El informe financiero sigue siendo la herramienta principal para diseñar, crear y generar informes financieros estatutarios.
+## <a name="financial-reporting-vs-financial-analysis"></a>Informes financieros frente a Análisis financiero
+Aunque **Análisis financiero** contiene informes financieros, no es una sustitución de los informes financieros de la aplicación. Los informes financieros predeterminados en **Análisis financiero** tienen un alcance limitado y no incluyen todos los tipos de informes financieros. El informe financiero sigue siendo la herramienta principal para diseñar, crear y generar informes financieros estatutarios.
 
 El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
 
 
-|                                                          | Informes financieros                                               | Financial Insights |
+| Característica                                                   | Financial Reporting                                               | Análisis financiero |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Editar informes predeterminados**                                 | Sí                                                               | N.º |
-| **Crear nuevos informes**                                   | Sí                                                               | N.º |
-| **Imprimir informes**                                        | Sí                                                               | N.º |
+| **Editar informes predeterminados**                                 | Sí                                                               | No |
+| **Crear nuevos informes**                                   | Sí                                                               | No |
+| **Imprimir informes**                                        | Sí                                                               | No |
 | **Exportar a Excel**                                      | Sí                                                               | Exportación limitada de datos sin procesar a Excel, no un informe formateado |
-| **Jerarquía de informes de soporte/jerarquía organizativa**   | Sí                                                               | N.º |
+| **Jerarquía de informes de soporte/jerarquía organizativa**   | Sí                                                               | No |
 | **Informe en datos de subcontabilidad**                             | Sí Limitado para un único proveedor, cliente                              | Sí Proveedor, cliente, grupos de proveedores o de clientes, direcciones de proveedores o de clientes, etc. |
 | **Divisa de notificación**                                   | Sí La divisa de contabilidad de y traduce a la divisa de notificación       | No Divisa de contabilidad solo |
 | **Seguridad**                                             | Sí, se adhiere a Finance y al informe de seguridad del árbol | Vista limitada de informes para todas las empresas (independientemente de la seguridad de Finance and Operations) o solo la empresa activa |
-| **Adnmite diferentes planes de cuentas y años fiscales** | Sí                                                               | N.º |
-| **Informe de datos externos**                              | N.º                                                                | N.º |
+| **Adnmite diferentes planes de cuentas y años fiscales** | Sí                                                               | No |
+| **Informe de datos externos**                              | No                                                                | No |
 | **Admite consolidaciones**                               | Sí                                                               | Limitado puede notificar en varias empresas pero solo usa divisa de contabilidad |
 
-Además de la interfaz de usuario en el espacio de trabajo original **Visión general de director financiero (CFO)**, ahora están disponibles nuevos KPI, gráficos e informes financieros. Están disponibles los siguientes informes financieros:
+Están disponibles los siguientes informes financieros:
 
 - Saldo de comprobación
 - Balance de situación
@@ -120,7 +114,7 @@ Además de la interfaz de usuario en el espacio de trabajo original **Visión ge
 - Ventas por cliente
 
 ## <a name="edit-visuals"></a>Editar elementos visuales
-En la versión inicial **Financial Insights**, no se puede editar ninguno de los elementos visuales. En versiones futuras, los usuarios que dispongan de la seguridad adecuada podrán crear nuevos elementos visuales, copiar elementos visuales existentes y editar elementos visuales. Aunque los archivos .pbix que contienen los informes están disponibles como recursos, no se recomienda editar los informes predeterminados. Se harán cambios adicionales en el modelo de datos, los informes predeterminados y el elemento visual del informe financiero personalizado que se utilizan para crear los informes financieros. Por lo tanto, para aprovechar las nuevas funciones y cambios en el modelo de datos en el siguiente versión, tendrá que volver a realizar los cambios que hizo en los informes predeterminados mediante Microsoft Power BI Desktop.
+En las versiones anteriores de **Análisis financiero**, no se podía editar ninguno de los elementos visuales. En versiones futuras, los usuarios que dispongan de la seguridad adecuada podrán crear nuevos elementos visuales, copiar elementos visuales existentes y editar elementos visuales. Aunque los archivos .pbix que contienen los informes están disponibles como recursos, no se recomienda editar los informes predeterminados. Se harán cambios adicionales en el modelo de datos, los informes predeterminados y el elemento visual del informe financiero personalizado que se utilizan para crear los informes financieros. Por lo tanto, para aprovechar las nuevas características y cambios en el modelo de datos en la siguiente versión, tendrá que volver a realizar los cambios que hizo en los informes predeterminados mediante Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtrado
 Los usuarios pueden filtrar el informe mediante el panel **Filtro** a la izquierda. Este panel es el mismo panel que está disponible mediante Power BI Desktop. Existen varios niveles de filtrado, algunos pueden no estar disponibles, en función de lo que haya seleccionado en una página (pestaña) o de si usa las capacidades de exploración:
@@ -130,7 +124,7 @@ Los usuarios pueden filtrar el informe mediante el panel **Filtro** a la izquier
 - **Filtros a nivel visual:** estos filtros solo se aplican al elemento visual seleccionado. Estos filtros se aplican encima de los filtros a nivel de página.
 - **Filtro de exploración:** este filtro filtra desde un elemento visual "de origen" que se aplica al elemento visual actual cuando se explora del elemento visual de origen al elemento visual actual.
 
-![Opciones de filtro](./media/filter.png)
+![Opciones de filtro.](./media/filter.png)
 
 Para quitar un valor específico de filtro, seleccione el símbolo de la goma situado junto a él. No quite un filtro seleccionando la X. Si selecciona la X, el campo sobre el que se está filtrando se quita como opción de filtro. Si quita accidentalmente un campo del filtro, cierre el espacio de trabajo y, a continuación, vuelva a abrirlo. Los parámetros de filtro predeterminado se volverán a aplicar.
 
@@ -160,14 +154,14 @@ Las siguientes dimensiones se utilizan en los informes predeterminados. Ninguna 
 
 - Proveedor
 - Grupo de proveedores
-- Cliente 
+- Cliente
 - Grupo de clientes
 - País o región
 - Estado o provincia
 - Población
 
 > [!IMPORTANT] 
-> Si resume las transacciones para varios proveedores o clientes en un único asiento mediante los diarios financieros, los datos serán incorrectos. Los informes no pueden determinar qué proveedor o cliente está relacionado con una cuenta contable específica en un movimiento de diario, dado que la información no se mantiene en ningún lugar. Por lo tanto, no se recomienda introducir varios proveedores, clientes, activos fijos o proyectos en un único asiento.
+> Si resume las transacciones para varios proveedores o clientes en un único asiento mediante los diarios financieros, los datos serán incorrectos. El proceso de informes no puede determinar qué proveedor o cliente está relacionado con una cuenta contable específica en un movimiento de diario, dado que la información no se mantiene en ningún lugar. Por lo tanto, no se recomienda introducir varios proveedores, clientes, activos fijos o proyectos en un único asiento.
 
 ## <a name="drill-on-data"></a>Explorar en datos
 
@@ -175,27 +169,27 @@ Los distintos niveles de exploración están disponibles mediante Power BI. Cada
 
 En la siguiente ilustración, el informe **Saldo de comprobación** se contrae al máximo nivel de la jerarquía de la fila, el tipo de cuenta principal.
 
-![Instrucción de saldo de comprobación](./media/trial-balance.png)
+![Instrucción de saldo de comprobación.](./media/trial-balance.png)
 
 Para ver el siguiente nivel de la jerarquía, las categorías de cuenta principal, puede establecer el campo **Explorar en** para **Filas** y luego seleccionar el botón **Expandir** (el tercer botón después del campo Explorar en). Ahora verá todas las categorías de cuenta principal ampliadas. Actualmente, Power BI no le permite expandir una sola fila o columna pero puede seguir viendo el resto de filas o columnas.
 
-![Desglose del saldo de comprobación en las filas](./media/trial-balance2.png)
+![Desglose del saldo de comprobación en las filas.](./media/trial-balance2.png)
 
 Para ampliar a la cuenta principal para todas las filas, puede volver a utilizar el botón **Expandir** . Sin embargo, para explorar a fondo las cuentas principales para una sola fila, seleccione primero el botón **Explorar a fondo** (una sola flecha apuntando hacia abajo a la derecha de la ventana) y luego seleccione la fila que desea explorar a fondo. La siguiente ilustración muestra el resultado cuando se selecciona la fila **Ventas** después de que se seleccione el botón **Explorar a fondo** .
 
-![Botón para expandir el saldo de comprobación](./media/trial-balance3.png)
+![Botón para expandir el saldo de comprobación.](./media/trial-balance3.png)
 
-Tras explorar a fondo una sola fila, se requieren múltiples clics para volver al saldo de comprobación completo. El botón **Explorar a fondo** (el primer botón después del campo **Explorar en**) explora a fondo solo en el contexto de la categoría **Ventas**, como se muestra en la siguiente ilustración.
+Tras explorar en profundidad una sola fila, se requieren múltiples clics para volver al saldo de comprobación completo. El botón **Explorar a fondo** (el primer botón después del campo **Explorar en**) explora a fondo solo en el contexto de la categoría **Ventas**, como se muestra en la siguiente ilustración.
 
-![Botón de desglose del saldo de comprobación](./media/trial-balance4.png)
+![Botón de desglose del saldo de comprobación.](./media/trial-balance4.png)
 
 Puede seguir usando el botón **Explorar a fondo** para volver al máximo nivel de resumen de las filas.
 
 Power BI también dispone de un botón que le permite ir al siguiente nivel de la jerarquía (el segundo botón después del campo **Explorar en**). El efecto de este botón es diferente al efecto del botón **Expandir** (el tercer botón después del campo **Explorar en** ), que se utiliza para expandir la jerarquía. Cuando expanda la jerarquía, la jerarquía se mantiene en el informe. Por ejemplo, como se mostró anteriormente, si expande en el tipo de cuenta principal, todavía puede ver el tipo de cuenta principal en el informe. Sin embargo, cuando va al siguiente nivel de la jerarquía, el informe ya no muestra la principal en la jerarquía, como se muestra en la siguiente ilustración.
 
-![Botón de retroceder del saldo de comprobación](./media/trial-balance5.png)
+![Botón de retroceder del saldo de comprobación.](./media/trial-balance5.png)
 
-Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Finance and Operations.
+Para ver los detalles de transacción detrás de los saldos resumidos, puede seleccionar algunas importes para volver a explorar en Financial and Operations.
 
 La exploración inversa desde los informes financieros le lleva al Explorador de origen de contabilidad (ASE), no a las transacciones de asiento. El ASE no muestra solo los asientos contables en la contabilidad general. En su lugar, se muestran los detalles de la transacción de subdiario contable. Por lo tanto, obtiene mucho más detalle acerca de la transacción de origen y puede utilizarla para el análisis. Por ejemplo, puede consultar quién era el proveedor o cliente, qué compró el cliente o que vendió el proveedor, e incluso qué proyecto figuraba en la transacción.
 
@@ -232,7 +226,7 @@ Actualmente, los informes financieros no admiten las jerarquías organizativas, 
 ## <a name="data-limitations"></a>Limitaciones de datos
 Los elementos visuales del informe financiero tienen un límite en el número de filas que se pueden mostrar. Actualmente, el límite se establece en 30 000. Si supera este límite, el elemento visual tendrá un símbolo de advertencia para notificarle sobre esta situación.
 
-![Limitaciones de datos](./media/data-limit.png)
+![Limitaciones de datos.](./media/data-limit.png)
 
 Si se supera el máximo, los totales que aparecen en el informe financiero serán incorrectos, ya que no se cargaron todas las filas en el elemento visual.
 
@@ -242,8 +236,11 @@ Power BI no proporciona una opción para ocultar o mostrar filas vacías. Si una
 
 ## <a name="additional-resources-for-power-bi"></a>Recursos adicionales para Power BI
 
-No se requiere la información de los siguientes recursos para habilitar los informes incrustados para el espacio de trabajo **Visión general de director financiero (CFO)** o **Financial Insights** en un entorno de producción. En su lugar, son útiles para los cuadros de desarrollo y si desea incrustar sus propios informes de Power BI.
+No se requiere la información de los siguientes recursos para habilitar los informes incrustados para el espacio de trabajo **Análisis financiero** de un entorno de producción. En su lugar, son útiles para los cuadros de desarrollo y si desea incrustar sus propios informes de Power BI.
 
-- [Acceso a espacios de trabajo analíticos e informes en un entorno de 1 caja](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Acceso a espacios de trabajo analíticos e informes en un entorno de 1 caja](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Agregar análisis a espacios de trabajo mediante Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Agregar análisis a espacios de trabajo mediante Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

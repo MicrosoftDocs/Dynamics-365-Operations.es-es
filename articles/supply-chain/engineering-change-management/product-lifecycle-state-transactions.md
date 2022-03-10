@@ -2,11 +2,9 @@
 title: Transacciones y estados del ciclo de vida de producto
 description: Este tema explica cómo puede controlar qué transacciones están permitidas para cada estado del ciclo de vida a medida que un producto de ingeniería atraviesa su ciclo de vida.
 author: t-benebo
-manager: tfehr
-ms.date: 09/28/2020
+ms.date: 02/17/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
+ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005336"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322753"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transacciones y estados del ciclo de vida de producto
 
@@ -75,3 +73,33 @@ Los siguientes campos están disponibles para cada proceso que se enumera en la 
 | Póliza | Seleccione uno de los siguientes valores para controlar si se permitirá el proceso actual para los productos que se encuentran en este estado de ciclo de vida y cómo:<ul><li>**Habilitado** - El proceso empresarial está permitido.</li><li>**Obstruido** - El proceso no está permitido. Si un usuario intenta utilizar el proceso en un producto que se encuentra en este estado de ciclo de vida, el sistema bloqueará el intento y mostrará un error. Por ejemplo, puede bloquear la compra de productos al final de su vida útil.</li><li>**Habilitado con advertencia** - El proceso está permitido, pero se mostrará una advertencia. Por ejemplo, es posible que desee que un producto prototipo se coloque en una orden de producción creada por el departamento de Investigación y Desarrollo. Sin embargo, otros departamentos deben tener en cuenta que aún no deben producir el producto.</li></ul> |
 
 Si está agregando más reglas de estado del ciclo de vida como personalización, puede ver esas reglas en la interfaz de usuario (IU) seleccionando **Actualizar procesos** en el panel superior. El botón **Actualizar procesos** está disponible solo para administradores.
+
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Estados del ciclo de vida para productos lanzados y variantes de productos
+
+Para un producto que tiene variantes (maestro y variantes), el producto (maestro) tendrá un estado de ciclo de vida y cada una de las variantes también puede tener un estado de ciclo de vida diferente.
+
+Para procesos específicos, si la variante o el producto están bloqueados, el proceso también se bloqueará. Específicamente, para determinar si un proceso está bloqueado, el sistema realizará las siguientes verificaciones:
+
+- Para productos controlados por ingeniería:
+  - Si la versión de ingeniería actual está bloqueada, bloquee el proceso.
+  - Si la versión actual está bloqueada, bloquee el proceso.
+  - Si el producto lanzado está bloqueado, bloquee el proceso.
+- Para productos estándar:
+  - Si la versión actual está bloqueada, bloquee el proceso.
+  - Si el producto lanzado está bloqueado, bloquee el proceso.
+
+Por ejemplo, suponga que solo desea vender una variante (roja) de un producto determinado (camiseta) y bloquear las ventas de todas las demás variantes por ahora. Puede implementar esto usando la siguiente configuración:
+
+- Asigne al producto un estado de ciclo de vida que permita el proceso. Por ejemplo, asigne al producto de camiseta un estado de ciclo de vida de *Vendible*, lo que habilita el proceso *Pedidos de ventas*.
+- Asigne a la variante vendible un estado de ciclo de vida que permita el proceso. Por ejemplo, también asigne a la variante roja un estado de ciclo de vida de *Vendible*.
+- A todas las demás variantes se les asigna otro estado de ciclo de vida en el que el proceso está bloqueado. Por ejemplo, asigne a la variante blanca (y todas las demás variantes) un estado de ciclo de vida de *No vendible*, lo que bloquea el proceso *Pedidos de ventas*.
+
+## <a name="default-product-lifecycle-states"></a>Estados de ciclo de vida de producto predeterminados
+
+El estado del ciclo de vida predeterminado para una versión de ingeniería se especifica por su categoría de ingeniería. El estado será el predeterminado cuando cree una nueva versión de ingeniería, incluida la primera versión de un nuevo producto.
+
+Cuando crea un nuevo producto o producto de ingeniería, también puede establecer el estado del ciclo de vida predeterminado especificándolo en la plantilla del producto publicado de la política de lanzamiento asignada al producto.
+
+En este caso, es posible que el producto tenga un estado de ciclo de vida diferente al de la versión cuando crea un nuevo producto de ingeniería.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

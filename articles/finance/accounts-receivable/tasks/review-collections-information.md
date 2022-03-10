@@ -2,26 +2,23 @@
 title: Revisar información de cobros
 description: Este tema explica cómo revisar la información de cobros junto con diferentes opciones de configuración y transacciones de cobros.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59fcaef39460761dbe68273aecb5cbff8850ef031d43393277a17d07dd92db3b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778395"
 ---
 # <a name="review-collections-information"></a>Revisar información de cobros
 
@@ -143,3 +140,6 @@ Este tema explica cómo revisar la información de cobros junto con diferentes o
 5. Seleccione **Mostrar lista**.
 - Seleccione una cuenta de cliente o acepte la entrada predeterminada. De forma predeterminada esta es la cuenta de cliente seleccionada en la página de lista o en el formulario desde el que abrió este formulario. Si ha abierto el formulario desde una página de lista, los clientes de la lista son los clientes incluidos en la sección de cobros que se usa en la página de lista.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

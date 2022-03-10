@@ -2,11 +2,9 @@
 title: Configurar un canal para usar una jerarquía de navegación de canales
 description: En este tema se describe cómo configurar un canal para usar una jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714001"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar un canal para usar una jerarquía de navegación de canales
 
@@ -47,7 +45,7 @@ Para configurar un canal de forma que use una jerarquía de navegación de canal
 
 La siguiente imagen muestra cómo se configura un canal para usar una jerarquía de navegación de canales.
 
-![Ejemplo de configuración de canal](media/configure-channel-hierarchy-1.png)
+![Ejemplo de configuración de canal.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Configurar metadatos de atributos
 
@@ -63,7 +61,7 @@ Para establecer metadatos de atributos, siga estos pasos.
 
 La siguiente imagen muestra un conjunto de ejemplos de atributos de producto de canal configurados en un nodo de categoría de canal.
 
-![Atributos de canal en un nodo de categoría de canal](media/configure-channel-hierarchy-2.png)
+![Atributos de canal en un nodo de categoría de canal.](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Publicar cambios
 
@@ -76,7 +74,7 @@ Para publicar cambios, siga estos pasos.
 
 La siguiente imagen muestra cómo publicar actualizaciones de canal.
 
-![Publicar actualizaciones de canal](media/configure-channel-hierarchy-3.png)
+![Publicar actualizaciones de canal.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

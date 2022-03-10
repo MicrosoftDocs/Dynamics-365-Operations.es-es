@@ -2,7 +2,7 @@
 title: Página principal de Supply Chain Management
 description: En esta página se proporciona una lista de los temas de ayuda y de otros recursos para las características de Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06babeb7784c4bb9f67dd5d4fda1647926f20461
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337657"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487873"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
@@ -62,7 +62,6 @@ En este breve vídeo se resumen las nuevas características de administración d
 
 En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (diciembre de 2017).
 
-- [Integración de cliente potencial a cliente](https://youtu.be/AVV9x5x-XCg) 
 - [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Usar plantilla de almacén para copiar configuración](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -81,7 +80,7 @@ Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad d
 - **Planificación maestra**:
   - [Extender la funcionalidad de previsión de la demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento](https://youtu.be/7v8BPmEs9Dg)
-  - [Necesito ayuda: quiero que MRP funcione más rápido](https://youtu.be/RLXybx20B5o)
+  - [Ajuste de rendimiento de MRP](https://youtu.be/RLXybx20B5o)
 - **Gestión de información de productos**:
   - [Configurador del producto en Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gestión de almacenes:**

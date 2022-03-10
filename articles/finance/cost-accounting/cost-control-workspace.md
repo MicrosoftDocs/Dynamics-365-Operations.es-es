@@ -2,11 +2,9 @@
 title: Espacio de trabajo de control de costes
 description: Este tema proporciona información sobre del espacio de trabajo Control de costes. Este espacio de trabajo es un punto central donde los directores responsables de supervisar un objeto de coste o un conjunto de objetos de coste dentro de una dimensión o a través de dimensiones pueden obtener acceso a los informes.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763199"
 ---
 # <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes 
 
@@ -118,7 +116,7 @@ El espacio de trabajo **Control de costes** está diseñado como un informe web.
 
 La lista de informes disponibles para los usuarios, como los directores, la controla la configuración de la opción **Publicación** en la página **Configuraciones del espacio de trabajo de control de costes**.
 
-![Un informe que los usuarios pueden ver en el espacio de trabajo Control de costes](./media/report-cost-control.png)
+![Un informe que los usuarios pueden ver en el espacio de trabajo Control de costes.](./media/report-cost-control.png)
 
 Un director puede seleccionar el período del calendario fiscal que se va a ver. Se utiliza la fecha de la sesión para determinar el periodo actual predeterminado.
 
@@ -138,11 +136,11 @@ Una cuadrícula muestra cada elemento de coste que está asociado al nodo de la 
 
 Dos gráficos muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período.
 
-![Los gráficos que muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período](./media/cost-element-details-operations.png)
+![Los gráficos que muestran un resumen de los valores reales frente a los del presupuesto y la desviación del presupuesto por período.](./media/cost-element-details-operations.png)
 
 Los usuarios pueden hacer clic en **Entradas de costes** para explorar en profundidad los detalles de la entrada según necesiten.
 
-![Entradas de costes](./media/cost-entries.png)
+![Entradas de costes.](./media/cost-entries.png)
 
 Por ejemplo, el alquiler es un gasto que se distribuye a los centros de coste. Un usuario que desee saber el coste del alquiler que su centro de coste debe asumir puede explorar en profundidad para ver cómo se ha calculado el alquiler.
 
@@ -150,10 +148,13 @@ Si los usuarios hacen clic en **Base de asignación** en la página **Entradas d
 
 En el siguiente ejemplo, la base de la asignación es del tipo **Base de asignación de la fórmula**, y se muestra la fórmula. Se enumeran los factores que definen la fórmula. Además, una cuadrícula muestra el cálculo que se realizó por objeto de coste.
 
-![Cálculos por objeto de coste](./media/cost-entries-allocation-base.png)
+![Cálculos por objeto de coste.](./media/cost-entries-allocation-base.png)
 
 Recursos adicionales 
 
 [Definir los derechos de acceso de un controlador de objeto de coste](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

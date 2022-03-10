@@ -1,25 +1,23 @@
 ---
 title: Asignación automática de gastos
 description: La característica de gastos de Microsoft Dynamics 365 Supply Chain Management le ayuda a asignar automáticamente los gastos a los pedidos de compra o los pedidos de ventas.
-author: dasani-madipalli
-manager: tfehr
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983186"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592549"
 ---
 # <a name="automatic-allocation-of-charges"></a>Asignación automática de gastos
 
@@ -28,6 +26,16 @@ ms.locfileid: "4983186"
 Según el cliente con el que trabaja o el artículo que vende, es posible que desee aplicar gastos adicionales específicos. La característica de *gastos* de Microsoft Dynamics 365 Supply Chain Management le ayuda a asignar automáticamente los gastos a los pedidos de compra o los pedidos de ventas.
 
 Los cargos automáticos, o gastos automáticos, se aplican automáticamente al crear un pedido de ventas o un pedido de compra. Puede definir los gastos automáticos de proveedores, clientes, grupos o artículos específicos. También puede definir gastos automáticos que se apliquen a todos los proveedores, clientes o artículos.
+
+## <a name="set-up-parameters"></a>Configurar parámetros
+
+La página **Parámetros de adquisición y abastecimiento** tiene algunas configuraciones que son especialmente relevantes cuando quiera asignar cargos automáticamente. Para completar esta configuración de almacén, siga estos pasos.
+
+1. Vaya a **Adquisición y abastecimiento \> Configuración \> Parámetros de adquisición y abastecimiento**.
+1. Abra la pestaña **Precios**.
+1. En la ficha desplegable **Precios**, realice la siguiente configuración:
+    - **Buscar cargos automáticos para el encabezado**: especifica si los cargos deben asignarse automáticamente a los encabezados de los pedidos de compra. Establezca esto en *Sí* para utilizar la asignación automática de cargos.
+    - **Buscar cargos automáticos por línea**: especifica si los cargos deben asignarse automáticamente a las líneas de pedidos de compra. Establezca esto en *Sí* para utilizar la asignación automática de cargos.
 
 ## <a name="set-up-charges-codes"></a>Configurar códigos de gastos
 
@@ -146,7 +154,7 @@ Una vez que haya configurado los códigos de gasto, siga estos pasos para defini
     - **Sitio** y **Almacén**: especifique un sitio y un almacén si los cargos deben aplicarse solo a un sitio y un almacén específicos.
     - **Conservar**: active esta casilla para conservar las transacciones de gastos tras la facturación, de modo que el gasto se pueda aplicar cada vez que se cree una nueva factura para la cuenta de cliente seleccionada.
 
-1. **Solo para pedidos de ventas:** Si desea calcular los gastos por niveles, consulte [Gastos por niveles en pedidos de ventas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obtener más información.
+1. **Solo para pedidos de ventas:** Si desea calcular los gastos por niveles, consulte [Gastos por niveles en pedidos de ventas](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obtener más información.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Asignar gastos del encabezado a una línea
 
@@ -176,3 +184,6 @@ El siguiente procedimiento muestra cómo asignar gastos de nivel de encabezado a
         > Al trabajar con la cuadrícula **Elija las líneas que desee excluir de la asignación**, asegúrese de dejar la cuadrícula abierta hasta que seleccione **Asignar**. Si cierra la cuadrícula antes de seleccionar **Asignar**, se perderá su configuración de la cuadrícula. Por lo tanto, los cargos se asignarán en función de los criterios que definió anteriormente.
 
 1. Seleccione **Asignar** para aplicar su configuración y cerrar el cuadro de diálogo de consulta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

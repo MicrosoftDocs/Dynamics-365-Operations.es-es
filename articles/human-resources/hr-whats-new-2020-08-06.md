@@ -1,55 +1,54 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (06 de agosto de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 6 de agosto de 2020.
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528434"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062195"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (06 de agosto de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3444. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
 
 ## <a name="platform-update-1001236-is-now-available"></a>La Platform update 10.0.12(36) ya está disponible.
 
-Para obtener más información, consulte [Platform updates para la versión 10.0.12 de aplicaciones de Finance and Operations (agosto de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Para obtener más información, consulte [Platform updates para la versión 10.0.12 de aplicaciones de Finance and Operations (agosto de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entidades del marco de gestión de datos (DMF) para la gestión de ventajas
  
 Las entidades de gestión de ventajas se están lanzando. Las entidades DMF le permite importar y exportar datos para configurar fácilmente la gestión de ventajas. Una plantilla de gestión de ventajas estará disponible para mover datos. La plantilla exporta e importa los datos de manera secuencial para respetar las dependencias de datos. Para obtener más información, consulte:
 
-- [Compatibilidad con la entidad DMF](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
-- [Visión general de la administración de datos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [Compatibilidad con la entidad DMF](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
+- [Visión general de la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire crea un flujo de trabajo para comprar y vender solicitudes de licencia (446557)
 
 Para obtener más información, consulte:
 
-- [Permitir que los empleados compren y vendan licencias](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) en el plan de la segunda ola de lanzamiento de Dynamics 365 en 2020
-- [Gestionar directivas de compra y venta de bajas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Comprar y vender bajas](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Permitir que los empleados compren y vendan licencias](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) en el plan de la segunda ola de lanzamiento de Dynamics 365 en 2020
+- [Gestionar directivas de compra y venta de bajas](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Comprar y vender bajas](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>La entidad Direcciones postales de los trabajadores V2 tiene acceso a través de entidades legales con acceso restringido (459126)
@@ -62,7 +61,7 @@ Ahora, cuando usa el marcador de posición para abrir una revisión de rendimien
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nuevas entidades para comprar y vender solicitudes de licencia (473180)
 
-Ahora las entidades del marco de administración de datos están disponibles para la compra y venta de licencias. Para más información, consulte [Información general sobre la administración de datos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Ahora las entidades del marco de administración de datos están disponibles para la compra y venta de licencias. Para más información, consulte [Información general sobre la administración de datos](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Al ver información de registros y utilizar filtros avanzados, un usuario puede obtener acceso a los registros de otros empleados (472490)
 
@@ -96,9 +95,9 @@ Con este cambio, la detección de referencia circular de la jerarquía de puesto
 
 Algunas organizaciones ofrecen un beneficio que permite a los empleados comprar o vender su baja. Este proceso a menudo se gestiona manualmente. Esta característica automatiza las políticas de gestión y las solicitudes del departamento de recursos humanos. Agiliza el proceso de gestión de bajas y ayuda a eliminar errores. Para obtener más información, consulte:
 
-- [Permitir que los empleados compren y vendan licencias](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) en el plan de la segunda ola de lanzamiento de Dynamics 365 en 2020
-- [Gestionar directivas de compra y venta de bajas](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Comprar y vender bajas](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Permitir que los empleados compren y vendan licencias](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) en el plan de la segunda ola de lanzamiento de Dynamics 365 en 2020
+- [Gestionar directivas de compra y venta de bajas](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Comprar y vender bajas](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Acumulación de bajas para una sola compañía o plan único
 
@@ -126,15 +125,15 @@ Puede crear una regla para suspender la acumulación de bajas para empleados con
 
 Ahora puede hacer que los campos sean obligatorios mediante las características de personalización de Recursos Humanos. Esta característica requiere **Vistas guardadas**. Para obtener más información sobre las vistas guardadas, consulte:
 
-- [Vistas guardadas: disponibilidad general](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) en el plan del segundo lanzamiento de versiones de Dynamics 365 en 2020
-- [Crear formularios que usan completamente las vistas guardadas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Vistas guardadas: disponibilidad general](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) en el plan del segundo lanzamiento de versiones de Dynamics 365 en 2020
+- [Crear formularios que usan completamente las vistas guardadas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Aplicación Human Resources en Teams
 
 Los empleados pueden ver y solicitar tiempo fuera del trabajo en Microsoft Teams. Pueden interactuar con un bot para crear solicitudes de baja. Para obtener más información, consulte:
 
-- [Experiencia de bajas y ausencias de empleados en Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
-- [Aplicación Human Resources en Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Experiencia de bajas y ausencias de empleados en Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) en el plan del primer lanzamiento de versiones de Dynamics 365 en 2020
+- [Aplicación Human Resources en Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>Entidad DMF disponible para suspensiones acumuladas
 
@@ -142,9 +141,9 @@ Ahora está disponible una entidad DMF para suspensiones acumuladas.
 
 ## <a name="coming-soon"></a>Próximamente
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Lista de entidades incluidas en Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Lista de entidades incluidas en Dataverse
 
-Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Common Data Service.
+Las entidades de lista de verificación para los procesos Incorporación, Retirada, Transferencias y Empresa estarán disponibles pronto en Dataverse.
 
 ## <a name="known-issues"></a>Problemas conocidos
 
@@ -172,6 +171,9 @@ Es posible que el espacio de trabajo **Administración de características** mue
 ## <a name="see-also"></a>Consulte también
 
 [Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
-[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

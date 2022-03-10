@@ -2,27 +2,27 @@
 title: Página de inicio de arrendamiento de activos
 description: Este tema proporciona una descripción general de la documentación de arrendamiento de activos y vínculos a temas específicos.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944139a8b3d7d549bd7be83918bd680717e6fdf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775227"
 ---
 # <a name="asset-leasing-home-page"></a>Página de inicio de arrendamiento de activos
 
@@ -30,7 +30,9 @@ ms.locfileid: "4979048"
 
 Este tema enumera los temas de ayuda que están disponibles para el arrendamiento de activos e incluye vínculos a temas específicos. 
 
-El arrendamiento de activos es una capacidad avanzada para administrar, rastrear y automatizar las transacciones financieras del arrendatario para los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento.  
+El arrendamiento de activos es una capacidad avanzada para administrar, rastrear y automatizar las transacciones financieras del arrendatario para los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento.
+
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. En el espacio de trabajo **Gestión de funciones**, busque y seleccione la característica denominada **Arrendamiento de activos** y luego haga clic en el boton **Habilitar ahora**.
 
 ## <a name="asset-leasing-topics"></a>Temas de arrendamiento de activos
 El siguiente tema está disponible para ayudar a configurar y utilizar el arrendamiento de activos. 
@@ -84,7 +86,7 @@ Este tema describe los informes que están disponibles para arrendamientos de ac
 
 ### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
+Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 ### <a name="blogs"></a>Blogs
 
@@ -95,3 +97,6 @@ El [blog de la comunidad Microsoft Dynamics Operations Partner](https://communit
 ### <a name="videos"></a>Vídeos
 
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

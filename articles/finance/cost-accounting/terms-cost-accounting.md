@@ -2,11 +2,9 @@
 title: Terminología de contabilidad de costes
 description: Este tema define los términos clave que se utilizan en la Contabilidad de costes.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990626"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774386"
 ---
 # <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
 
@@ -130,7 +128,7 @@ La mayoría de los sistemas de origen pueden proporcionar datos que coincidan co
 |---|---|---|---|
 | Miembros de dimensión de elemento de coste  |  Sí | Sí  | Sí  |
 |  Miembros de dimensión de objeto de coste |  Sí | Sí  | Sí  |
-|  Miembros de dimensión estadística | Sí  | N.º  | N.º  |
+|  Miembros de dimensión estadística | Sí  | No  | No  |
 |  Contabilidad general | Sí  | Sí  | Sí  |
 |  Entradas de presupuesto  | Sí  | Sí  | Sí  |
 |  Medidas estadísticas | Sí  | Sí  | Sí  |
@@ -204,3 +202,6 @@ Las instrucciones son vistas para los administradores responsables del control d
 Las versiones se usan para simular, ver y comparar resultados diferentes. De forma predeterminada, todos los costes reales se ven en una versión base que se conoce como *real*. Para los presupuestos y los cálculos, puede trabajar con tantas versiones como sea necesario. Por ejemplo, puede importar datos de presupuesto en una versión original y después revisar el presupuesto en una versión revisada. Para los cálculos, puede crear varias versiones. En estas diferentes versiones, puede crear cálculos mediante diferentes reglas de cálculo que se aplicarán a la asignación de costes.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

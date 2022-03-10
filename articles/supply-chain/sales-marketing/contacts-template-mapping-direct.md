@@ -1,7 +1,7 @@
 ---
 title: Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar entidades de Contacto (Contactos) y Contacto (Clientes) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7bc4b48260907788eb90a19c5dc0b5c8f1d9d3b5
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908117"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062524"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](/powerapps/administrator/data-integrator).
@@ -38,7 +38,7 @@ En este tema se describen las plantillas y las tareas subyacentes que se usan pa
 
 La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
-[![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flujo de datos en Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
@@ -117,13 +117,13 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 > [!NOTE]
 > La asignación muestra qué información de columnas se sincronizará de Sales a Supply Chain Management.
 
-### <a name="contact-to-contact"></a>Contacto con contacto
+### <a name="contact-to-contact-example"></a>Ejemplo de Contacto para contactar
 
-![Asignación de la plantilla en el integrador de datos](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Asignación de plantilla contacto a contactar en el integrador de datos.](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
-### <a name="contact-to-customer"></a>Contacto con cliente
+### <a name="contact-to-customer-example"></a>Ejemplo de cliente para contactar
 
-![Asignación de la plantilla en el integrador de datos](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Asignación de plantilla contacto a cliente en el integrador de datos.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Temas relacionados

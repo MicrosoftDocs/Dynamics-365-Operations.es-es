@@ -1,29 +1,29 @@
 ---
 title: Visión general de llegadas
 description: Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 2bc0cfc3c4689953c867109da4e414d4291515f9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219422"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567448"
 ---
 # <a name="arrival-overview"></a>Visión general de llegadas
 
@@ -36,7 +36,7 @@ La página **Visión general de llegadas** proporciona una visión general de to
 ## <a name="business-scenario"></a>Escenario empresarial
 Considere el escenario siguiente en los procesos de entrada.
 
-[![Escenario empresarial](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Escenario empresarial.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, empleado de recepción, desea saber qué se espera que sea recibido en el día actual. En la página **Visión general de llegadas** , Sammy puede obtener una visión general de las tareas actuales, y obtener una estimación somera de cantidades, volumen, peso, diversos tipos de pedido, y así sucesivamente. Más adelante, una entrega llega a uno de los muelles de llegada, y Sammy recibe una lista de entrega. En la página **Visión general de llegadas**, puede realizar las siguientes tareas:
 
@@ -68,7 +68,7 @@ Para crear automáticamente los diarios de recepción de la página **Visión ge
 
 -   Debe especificar un nombre de diario para crear un nuevo diario.
 
-[![Especificar un nombre de diario](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Especificar un nombre de diario.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Si especifica valores en los campos **Almacén** y **Ubicación** , estos valores se aplican en las líneas de diario. Si no especifica valores, el sistema utiliza los valores de la dimensión que se especifica en las transacciones de inventario.
 

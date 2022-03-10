@@ -5,23 +5,22 @@ author: laneswenka
 ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729052"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063681"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tema explica cómo habilitar escritura dual desde Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -29,8 +28,8 @@ Este tema explica cómo habilitar escritura dual desde Microsoft Dynamics Lifecy
 
 Debe completar la integración de Power Platform como se describe en los siguientes temas:
 
-+ [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Integración de Power Platform: configurará tras la implementación del entorno](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Integración de Power Platform: habilitar después de la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurar escritura dual para nuevos entornos de Dataverse
 
@@ -73,7 +72,7 @@ Es posible que su entorno LCS esté vinculado a una instancia de Dataverse, mien
 
 Si su entorno tiene un desajuste de vinculación, LCS muestra una advertencia en la página de detalles de su entorno similar a "Microsoft ha detectado que su entorno está vinculado mediante escritura dual a un destino diferente al especificado en Integración de Power Platform, lo cual no se recomienda":
 
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="El vínculo de integración de Power Platform no coincide.":::
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="El enlace de integración de Power Platform no coincide.":::
 
 Si encuentra este error, hay dos opciones, según sus necesidades:
 

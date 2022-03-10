@@ -1,7 +1,7 @@
 ---
 title: Recepción de producto frente a pedidos de compra
 description: Este tema describe las distintas opciones para registrar productos como recibidos.
-author: kamaybac
+author: Henrikan
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca52f4127b3ec80eab3ba5c3c239c36d01178c00
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c22b4f914dc7eba34f2f9a2657d21d66f38c019
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825479"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570523"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -53,8 +53,7 @@ Una vez que se ha procesado la recepción de producto en el pedido de compra, el
 
 Puede tener acceso a esta página desde el grupo de acción **Recibo** de la página **Pedido de compra**. La información en los diarios incluye detalles acerca de las cantidades, las fechas y las dimensiones.
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los pedidos de compra](purchase-order-overview.md)
 
@@ -62,7 +61,7 @@ Puede tener acceso a esta página desde el grupo de acción **Recibo** de la pá
 
 [Aprobar y confirmar pedidos de compra](purchase-order-approval-confirmation.md)
 
-[Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Visión general de facturas de proveedores](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

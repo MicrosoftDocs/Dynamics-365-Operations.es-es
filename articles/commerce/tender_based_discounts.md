@@ -2,16 +2,13 @@
 title: Descuentos basados en forma de pago
 description: Este tema proporciona una visión general de la funcionalidad que permite a minoristas configurar descuentas para tipos de forma de pago específicos.
 author: bebeale
-manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4be0c9a6f0a32016e07b8e31d0aaff44b4a29623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719474"
 ---
 # <a name="tender-based-discounts"></a>Descuentos basados en forma de pago
 
@@ -35,7 +32,7 @@ Es un una práctica común entre minoristas emitir tarjetas de crédito con marc
 
 Como alternativa, los minoristas que no proporcionan tarjetas de crédito de la marca pueden estar interesados en animar a los clientes a pagar con otros tipos de forma de pago, como efectivo, tarjetas regalo, o puntos de fidelidad. De esta manera, ayudan reducir el gasto de tarifas de tramitación de la tarjeta de crédito. Por lo tanto, los minoristas pueden proporcionar descuentos a los clientes que usan estos tipos de forma de pago alternativos.
 
-En Microsoft Dynamics 365 Commerce 365, los minoristas pueden configurar un porcentaje de descuento que se aplica a las líneas elegibles si el cliente paga mediante el tipo de forma de pago preferido. El cliente podrá decidir si desea hacer un pago parcial o un pago completo, y Commerce determina el importe de descuento adecuado. Tenga en cuenta que el descuento siempre se da sobre el importe de antes de impuestos de los artículos elegibles.
+En Microsoft Dynamics 365 Commerce, los minoristas pueden configurar un porcentaje de descuento que se aplica a las líneas elegibles si el cliente paga mediante el tipo de forma de pago preferido. El cliente podrá decidir si desea hacer un pago parcial o un pago completo, y Commerce determina el importe de descuento adecuado. Tenga en cuenta que el descuento siempre se da sobre el importe de antes de impuestos de los artículos elegibles.
 
 Los descuentos basados en la forma de pago no compiten con los descuentos basados en artículos, como los descuentos periódicos o manuales. Se componen siempre sobre los descuentos de artículos. Por lo tanto, incluso si un descuento periódico exclusivo se aplica a un artículo, el descuento basado en la forma de pago se seguirá aplicando encima del descuento periódico exclusivo. Del mismo modo, si un descuento de umbral se aplica a la transacción, y el descuento basado en la forma de pago reduce el total por debajo del umbral, el descuento de umbral se seguirá aplicando a la transacción.
 
@@ -72,3 +69,6 @@ Los minoristas eligen a menudo excluir algunos productos, como artículos nuevos
 
 > [!NOTE]
 > Cuando la configuración **Evite todos los descuentos** está establecida en **Sí**, no se aplicará ningún descuento al producto. Ni siquiera se aplicarán descuentos basados en la forma de pago.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

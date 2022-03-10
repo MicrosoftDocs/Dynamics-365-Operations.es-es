@@ -2,11 +2,11 @@
 title: Asociar activos fijos con arrendamientos
 description: El tema explica cómo asociar un activo fijo existente con un nuevo arrendamiento.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseDetail
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0e2261755d98ee38564b4b864daf8e79551d1239
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814089"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392483"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Asociar activos fijos con arrendamientos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 El tema explica cómo asociar un activo fijo existente con un nuevo arrendamiento. Cuando asocia un activo fijo con un arrendamiento, el valor del activo por derecho de uso (ROU) en el reconocimiento inicial será el coste de adquisición del activo fijo.
 
@@ -49,8 +50,18 @@ Después de registrar el movimiento de diario de reconocimiento inicial, la tran
 
 El activo fijo ahora se puede depreciar utilizando la funcionalidad de depreciación estándar de Activos fijos. Para obtener más información sobre depreciación, consulte [Convenciones y métodos de depreciación](../fixed-assets/depreciation-methods-conventions.md).
 
+Cuando un arrendamiento está asociado con un activo fijo, el campo **Tiempo de vida** del libro de activos fijos se actualizará para alinearse con el valor más pequeño de los siguientes criterios: 
+
+ - La vida útil del activo
+ - El plazo de arrendamiento del libro de arrendamiento asociado
+
+Si el campo **Transferencia de la propiedad** está configurado en **Sí** para el libro de arrendamiento, el valor del campo **Tiempo de vida** siempre será la vida útil del activo. 
+ 
+El Tiempo de vida se actualizará cada vez que se ajuste el arrendamiento para garantizar que el activo por derecho de uso se deprecie durante el plazo del arrendamiento, como si se depreciara en el arrendamiento de activos.
+
 > [!NOTE]
 > Si asocia un activo fijo con un arrendamiento, los botones **Depreciación de activos** y **Deterioro del arrendamiento** están desactivados en Arrendamiento de activos. Puede ver la depreciación de activos y las transacciones de deterioro de arrendamientos desde Activos fijos. El botón **Transacciones de activos**, que abre un formulario de consulta, también está desactivado. También puede abrir el formulario de consulta **Transacciones de activos** en Activos fijos.  
 
+Las páginas **Activos fijos** y **Libro de activos fijos** mostrarán el id. de arrendamiento asociado con un activo fijo. Si un activo fijo está asociado con un arrendamiento, el id. del arrendamiento y la descripción del arrendamiento se mostrarán en la ficha desplegable **Información de arrendamiento** de la página **Activos fijos**. Para los libros de activos fijos asociados con los libros de arrendamiento, los campos **Id. de arrendamiento**, **Descripción de arrendamiento** y **Tipo de libro** mostrarán información del libro de activos fijos seleccionado en la ficha desplegable **Información de arrendamiento**, para indicar que está asociado con un libro de arrendamiento.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

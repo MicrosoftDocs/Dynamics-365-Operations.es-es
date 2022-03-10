@@ -1,26 +1,24 @@
 ---
 title: Auditar facturas e introducir datos en el sistema de proveedores
 description: Este tema muestra cómo auditar facturas e introducir datos en el sistema de proveedores.
-author: saraschi2
-manager: AnnBe
+author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6188b10327e4827cf5752fa56c3d491ef315b955
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f49f8c87f628d68f2c7f355b93cdf5e0a9403251
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204770"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883728"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Auditar facturas e introducir datos en el sistema de proveedores
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714147"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificaciones de pedidos en el punto de venta (PDV)
 
@@ -72,14 +72,14 @@ Los botones de PDV pueden mostrar ahora un recuento para ayudar a los trabajador
 
 La siguiente ilustración muestra la configuración de contenido en vivo en el diseñador de cuadrícula de botones.
 
-![Configuración de contenido en vivo en el diseñador de cuadrícula de botones](./media/ButtonGridDesigner.png "Configuración de contenido en vivo en el diseñador de cuadrícula de botones")
+![Configuración de contenido en vivo en el diseñador de cuadrícula de botones.](./media/ButtonGridDesigner.png "Configuración de contenido en vivo en el diseñador de cuadrícula de botones")
 
 Para mostrar el recuento de la notificación en un botón, deberá asegurarse que se esté actualizando el diseño de pantalla correcto. Para determinar el diseño de pantalla que está siendo usado por el PDV, seleccione el icono **Valores** en esquina superior derecha y anote el **Identificador de diseño de pantalla** y la **Resolución de diseño**. Ahora mediante el explorador Edge, vaya a la página **Diseño de Pantalla**, encuentre el **Identificador de diseño de pantalla** y la **Resolución de diseño** identificados arriba y seleccione la casilla de verificación **Activar contenido activo**. Vaya **Retail y Commerce \> TI de Retail y Commerce \> Programación distribución** y ejecuta el trabajo 1090 (Registros) para sincronizar los cambios de diseño.
 
-![Encuentre el diseño de pantalla utilizado por PDV](./media/Choose_screen_layout.png "Encontrar el diseño de pantalla")
+![Encuentre el diseño de pantalla utilizado por PDV.](./media/Choose_screen_layout.png "Encontrar el diseño de pantalla")
 
 La siguiente ilustración muestra el efecto de seleccionar **Superior derecha** frente **Centro** en el campo **Alineación de contenido** para los botones de varios tamaños.
 
-![Contenido en vivo en los botones de PDV](./media/ButtonsWithLiveContent.png "Contenido en vivo en los botones de PDV")
+![Contenido en vivo en los botones de PDV.](./media/ButtonsWithLiveContent.png "Contenido en vivo en los botones de PDV")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

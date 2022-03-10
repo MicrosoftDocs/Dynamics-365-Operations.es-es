@@ -2,7 +2,6 @@
 title: Contenido de análisis de costes de contabilidad de Power BI
 description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1290cf971e7702affa325640a2b28ac64d74744e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747378"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de análisis de costes de contabilidad de Power BI
 
@@ -41,7 +40,7 @@ Para obtener más información acerca de la contabilidad de costes, consulte [la
 Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte [Configurar la seguridad del contenido del análisis de contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Asegúrese de descargar el contenido de **Análisis de contabilidad de costes** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
 

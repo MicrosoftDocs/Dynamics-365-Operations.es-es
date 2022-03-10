@@ -14,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348638"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069307"
 ---
 # <a name="find-information-by-using-lookups"></a>Encontrar información mediante el uso de búsquedas
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad. Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos. En este tema, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
 

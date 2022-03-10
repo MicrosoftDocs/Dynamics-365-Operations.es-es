@@ -2,11 +2,9 @@
 title: Seguimiento de las comisiones en el punto de venta (POS) mediante los grupos de ventas
 description: Es habitual en la práctica del comercio al por menor realizar un seguimiento de las ventas en función del asociado que trabajó con el cliente (dando asistencia, vendiendo productos adicionales, facilitando ventas cruzadas y procesando la transacción).
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770918"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Seguimiento de las comisiones en el punto de venta (POS) mediante los grupos de ventas
 
@@ -87,3 +85,6 @@ PDV permite a los usuarios configurar cuadrículas de botones, que se incluyen e
 ## <a name="calculating-commissions"></a>Cálculos de comisiones
 
 La comisión se calcula para los trabajadores de grupos de ventas especificados en el momento del registro de la declaración o del registro de pedido de ventas. El importe de la comisión se determina en función de la parte de la comisión del trabajador, como se define en la configuración del cálculo de la comisión asociada y en el grupo de ventas para el cliente o los productos de la transacción.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

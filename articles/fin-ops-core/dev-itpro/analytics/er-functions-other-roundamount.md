@@ -2,9 +2,7 @@
 title: Función ROUNDAMOUNT de ER
 description: En este tema se proporciona información sobre cómo usar la función ROUNDAMOUNT de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a80587236d17160a996d701ca4ae38be21c818c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1b05c6024d9eeecfe74022df10d793055a026d5a159e9c011f37708f6a4e6e0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770870"
 ---
 # <a name="roundamount-er-function"></a>Función ROUNDAMOUNT de ER
 
@@ -71,7 +69,7 @@ Cuando el parámetro `round rule` se establece en **RoundOffType.RoundDown**, es
 
 Cuando el parámetro `round rule` se establece en **RoundOffType.RoundUp**, esta función redondea hacia arriba a la cantidad de redondeo más cercana.
 
-Cuando el parámetro `round rule` se establece en **RoundOffType.Ordinary**, esta función se comporta como la función de Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) y la función de X++ [ROUND](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-math-run-time-functions#round).
+Cuando el parámetro `round rule` se establece en **RoundOffType.Ordinary**, esta función se comporta como la función de Excel [MROUND](https://support.office.com/article/mround-function-c299c3b0-15a5-426d-aa4b-d2d5b3baf427) y la función de X++ [ROUND](../dev-ref/xpp-math-run-time-functions.md#round).
 
 ## <a name="remarks"></a>Comentarios
 

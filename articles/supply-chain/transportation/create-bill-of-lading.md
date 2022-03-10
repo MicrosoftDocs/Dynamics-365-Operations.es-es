@@ -1,29 +1,26 @@
 ---
 title: Crear un conocimiento de embarque
 description: Este tema describe cómo crear un conocimiento de embarque al utilizar procesos de gestión de almacenes.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench, WHSBillOfLadingCarrier, WHSBillOfLadingOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd014f5804681936920b47e999709f153def11bc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b79408e21e9acda12617cf35464007e58ae1b5fe
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437272"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573138"
 ---
 # <a name="create-a-bill-of-lading"></a>Crear un conocimiento de embarque
 
@@ -43,3 +40,6 @@ Si hay más de un envío en la carga, puede generar un conocimiento de embarque 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

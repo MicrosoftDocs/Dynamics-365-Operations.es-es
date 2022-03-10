@@ -2,7 +2,6 @@
 title: Tipo de destino de ER de Power BI
 description: Este tema proporciona información sobre cómo configurar el tipo de destino de ER de Power BI para los documentos salientes.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: a6b6a2e4bc3c0eca8185f501121d9d1ba1b4e063
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777437"
 ---
 # <a name="power-bi-destination"></a>Destino de Power BI
 
@@ -31,11 +30,11 @@ Puede configurar un destino de Microsoft Power BI para cada componente de archiv
 
 Establezca **Habilitado** en **Sí** para usar la configuración de ER para organizar la transferencia de datos de la instancia de Dynamics 365 Finance a los servicios de Microsoft Power BI. Los archivos transferidos se almacenan en una instancia de Microsoft SharePoint Server que debe configurarse para ese propósito. Para obtener más información, consulte [Configurar informes electrónicos (ER) para proporcionar datos a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
-[![Página Configuración de destino](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Página Configuración de destino.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+- [Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 

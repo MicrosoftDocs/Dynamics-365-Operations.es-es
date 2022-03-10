@@ -1,26 +1,24 @@
 ---
 title: Configurar precios basados en atributos para productos configurables
 description: En este tema se explica cómo configurar unos precios en función del atributo.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2f9a78902ff1a0333c46c8ad9142338678b6e7d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986788"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578161"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Configurar precios basados en atributos para productos configurables
 
@@ -30,17 +28,18 @@ En este tema se explica cómo configurar unos precios en función del atributo. 
 
 
 ## <a name="create-a-new-price-model"></a>Cree un nuevo modelo de precio
-1. Seleccione **Definición de modelo de variante del producto** en la página de inicio.
-2. Seleccione **Modelos de configuración del producto** en la sección **vínculos**.
-3. En la lista, seleccione la línea **Altavoz de gama alta**, pero no seleccione el vínculo del nombre.
-4. En el panel de acciones, haga clic en **Modelo**.
-5. Seleccione **Modelos de precio**.
-6. Seleccione **Nuevo**.
-7. En el campo **Nombre de modelo de precio**, escriba un valor. Use un nombre que permita identificar fácilmente el modelo.  
-8. En el campo **Descripción**, escriba un valor.
-9. Seleccione **Guardar**.
+
+1. Vaya a **Gestión de información de productos \> Productos \> Modelos de configuración del producto**.
+1. En la lista, seleccione la línea **Altavoz de gama alta**, pero no seleccione el vínculo del nombre.
+1. En el panel de acciones, haga clic en **Modelo**.
+1. Seleccione **Modelos de precio**.
+1. Seleccione **Nuevo**.
+1. En el campo **Nombre de modelo de precio**, escriba un valor. Use un nombre que permita identificar fácilmente el modelo.  
+1. En el campo **Descripción**, escriba un valor.
+1. Seleccione **Guardar**.
 
 ## <a name="add-price-elements"></a>Agregue elementos de precio
+
 1. Seleccione **Editar**. Cada componente de un modelo de producto puede tener un elemento de precio base y cualquier número de reglas de la expresión del precio. También puede agregar precios en divisas distintas.  
 2. En el campo **Expresión de precio base**, escriba un valor. Por ejemplo, escriba 100. Una expresión del precio base puede ser un valor numérico, o puede estar compuesto por un cálculo aritmético que contenga uno o varios atributos.  
 3. Seleccione **Agregar**.
@@ -51,3 +50,6 @@ En este tema se explica cómo configurar unos precios en función del atributo. 
 8. En el campo **Expresión**, escriba un valor. Por ejemplo, escriba `50`. 
 9. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

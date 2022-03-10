@@ -2,11 +2,9 @@
 title: Módulo de pestañas
 description: En este tema se tratan los módulos de pestañas y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723296"
 ---
 # <a name="tab-module"></a>Módulo de pestaña
 
@@ -36,7 +34,7 @@ En cada módulo de pestañas, se pueden agregar uno o más elementos de pestaña
 
 La siguiente imagen muestra un ejemplo de un módulo de pestañas en una página de sitio. En este ejemplo, está seleccionada la pestaña **Envío**.
 
-![Ejemplo de un módulo de pestañas](./media/ecommerce-tab.PNG)
+![Ejemplo de un módulo de pestañas.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Propiedades de los módulos de pestañas
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743707"
 ---
 # <a name="creating-work-orders"></a>Creación de órdenes de trabajo
 
@@ -48,7 +48,7 @@ Para crear órdenes de trabajo basadas en su programa de mantenimiento, siga est
 
     Aparecerá el cuadro de diálogo **Crear órdenes de trabajo**. El campo **Horas de previsión de mantenimiento** muestra el número total de horas previstas para las líneas seleccionadas.
 
-    ![Cuadro de diálogo Crear órdenes de trabajo](media/18-preventive-maintenance.png)
+    ![Cuadro de diálogo Crear órdenes de trabajo.](media/18-preventive-maintenance.png)
 
 1. En la sección **Parámetros**, especifique el número de órdenes de trabajo que se deben crear. Seleccione una de las siguientes opciones:
 

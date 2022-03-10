@@ -1,26 +1,24 @@
 ---
 title: Liberación automática de envío para tránsito directo
 description: En este tema se describe una estrategia de tránsito directo que le permite liberar automáticamente un pedido de demanda al almacén cuando el pedido de producción que suministra la cantidad de demanda se indique como terminado, de modo que la cantidad se mueve directamente de la ubicación de salida de producción a la ubicación de salida.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233184"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577945"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Liberación automática de envío para tránsito directo
 
@@ -163,7 +161,7 @@ Para realizar un tránsito directo de la cantidad de productos terminados a la u
 8. En la página **Pedido de producción**, en el panel de acciones, en la pestaña **Pedido de producción**, en el grupo **Procesar**, seleccione **Estimar** y luego seleccione **Aceptar**. Se estima el pedido y la cantidad de materias primas se reserva para la producción.
 9. En el panel de acciones, en la pestaña **Pedido de producción**, en el grupo **Procesar**, seleccione **Liberar** y luego seleccione **Aceptar**. Se crea el trabajo de picking de almacén para materias primas.
 10. Abra y revise el trabajo. En el panel de acciones, en la pestaña **Almacén**, en el grupo **General**, seleccione **Detalles de trabajo**. Anote el id. de trabajo.
-11. Inicie sesión en la aplicación de almacén para ejecutar trabajos en el almacén 51.
+11. Inicie sesión en la aplicación móvil Warehouse Management para ejecutar trabajos en el almacén 51.
 12. Vaya a **Producción** \> **Selección de producción**.
 13. Introduzca el id. de trabajo para iniciar y complete el picking de materia prima. 
 

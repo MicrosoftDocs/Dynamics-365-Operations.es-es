@@ -2,9 +2,7 @@
 title: Función RIGHT de ER
 description: Este tema proporciona información general sobre cómo usar la función RIGHT de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75255eccf4da468b0946253f7570b1621f905cd7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 45696d0498f712218126af8557521a2317d584eea5059ac3b588d3792d42495c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740296"
 ---
 # <a name="right-er-function"></a>Función RIGHT de ER
 

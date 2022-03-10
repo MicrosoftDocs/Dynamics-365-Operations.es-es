@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551813"
 ---
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
@@ -1328,83 +1328,12 @@ La tabla siguiente muestra el resultado cuando se aplican los servicios de Embal
 ## <a name="conclusion"></a>Conclusión
 En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía a un identificador ficticio de centro de coste. Por lo tanto, los contables de coste sabrán que este coste se debe asignar. En contabilidad de costes, los costes fluyen en las unidades organizativas y los niveles en función de las directivas y las reglas que se aplican. Cada coste se ha asociado con una base de asignación que proporciona la mejor evaluación para la asignación de costes.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Elemento de coste</th>
-<th colspan="9">Objeto de coste</th>
-<th rowspan="2">Total</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>Proy 1</th>
-<th>Proy 2</th>
-<th>Prod 1</th>
-<th>Prod 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Electricidad</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30.00</strong></td>
-<td style="text-align: right;"><strong>10.00</strong></td>
-<td style="text-align: right;"><strong>7,770.57</strong></td>
-<td style="text-align: right;"><strong>2,189.43</strong></td>
-<td style="text-align: right;"><strong>10,000.00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Sin clasificar</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Coste fijo</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1,000.00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Coste variable</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9,000.00</strong></td>
-</tr>
-</tbody>
-</table>
+Elemento de coste | Objeto de coste<br>CC099 | Objeto de coste<br>CC001 | Objeto de coste<br>CC002 | Objeto de coste<br>CC003 | Objeto de coste<br>CC004 | Objeto de coste<br>Proy 1 | Objeto de coste<br>Proy 2 | Objeto de coste<br>Prod 1 | Objeto de coste<br>Prod 2 | Total
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Electricidad | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Sin clasificar | 0,00 |  |  |  |  |  |  |  |  |  |
+Coste fijo | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Coste variable | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Directiva de acumulación de costes y cálculo de costes generales](cost-rollup.md).

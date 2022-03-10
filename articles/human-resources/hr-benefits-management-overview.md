@@ -1,32 +1,34 @@
 ---
-title: Visión general de administración de prestaciones
-description: Visión general de la característica de administración de prestaciones en Dynamics 365 Human Resources. Ofrezca a sus empleados opciones de prestaciones ampliadas con una experiencia en línea fácil de usar.
-author: andreabichsel
-ms.date: 07/13/2021
-ms.topic: article
+title: Información general de administración de prestaciones
+description: Este tema proporciona información general sobre la función Administración de beneficios de Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 12/06/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 696c7632fd8adda71b2b67d59fba7f7d83193f5b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719152"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065952"
 ---
-# <a name="benefits-management-overview"></a>Visión general de la administración de prestaciones
+# <a name="benefits-management-overview"></a>Información general de administración de prestaciones
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones para atraer y retener a sus mejores empleados. Además de las prestaciones estándar como la cobertura médica y dental, es posible que también quiera ofrecer servicios ampliados como asistencia de adopción, programas de recreación y asignaciones de ropa. La administración de prestaciones en Microsoft Dynamics 365 Human Resources le brinda una solución flexible que admite una amplia variedad de opciones de prestaciones. Recursos humanos también incluye una experiencia fácil de usar para los empleados que muestra sus ofertas.
+Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones para atraer y retener a sus mejores empleados. Además de las prestaciones estándar como la cobertura médica y dental, es posible que también quiera ofrecer servicios ampliados como asistencia de adopción, programas de recreación y asignaciones de ropa. La administración de beneficios de Microsoft Dynamics 365 Human Resources ofrece una solución flexible que admite una amplia variedad de opciones de prestaciones. Recursos humanos también incluye una experiencia fácil de usar para los empleados que muestra sus ofertas.
 
 - Los planes de prestaciones mejoradas le permiten crear y administrar planes de prestaciones únicas y admitir tablas complejas de tasas de prestaciones y niveles anidados. Puede crear fácilmente programas de beneficios, agrupaciones y reglas de inscripción automática para una experiencia más fácil para los empleados.
 - Los programas de crédito flexible le permiten prorratear para asistir en la jubilación y otros eventos de la vida.
@@ -37,13 +39,13 @@ Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones 
 Si desea acceder a los datos de demostración, deberá volver a implementar su entorno de espacio aislado.
 
 > [!NOTE]
-> Ahora puede personalizar los formularios de administración de prestaciones. Ahora puede agregar campos personalizados relacionados con las tasas de cobertura al formulario **Opción de cobertura** para planes de prestaciones. Para obtener más información sobre el trabajo con campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
+> Ahora puede personalizar las páginas de administración de prestaciones. Se pueden agregar campos personalizados relacionados con las tasas de cobertura a la página **Opción de cobertura** para planes de prestaciones. Para obtener más información sobre el trabajo con campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
 >
 > ![Campos personalizados de gestión de prestaciones](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Habilitar la administración de prestaciones
 
-Este tema describe cómo activar las características en Recursos humanos. También le indica qué características existentes en Human Resources son reemplazadas por la administración de prestaciones o qué características están desactivadas tras activar la administración de prestaciones.
+Este tema describe cómo activar las características en Recursos humanos. También se explica qué características existentes en Human Resources son reemplazadas por la administración de prestaciones y qué características se desactivan tras activar la administración de prestaciones.
 
 > [!IMPORTANT]
 > Después de habilitar la gestión de prestaciones en un entorno de **Producción**, no puede deshabilitarlo. Recomendamos habilitar y probar la gestión de prestaciones en un entorno **Espacio aislado** antes de habilitarlo en un entorno de **Producción**. Existen diferencias significativas entre la funcionalidad de prestación heredada y la nueva funcionalidad de administración de prestaciones que requieren una configuración adicional y deben probarse antes de su puesta en producción.
@@ -109,21 +111,29 @@ Puede usar programas de crédito flexible para inscribir a los empleados en pres
 
 ## <a name="configure-required-employee-information"></a>Configure la información requerida de los empleados
 
-Antes de poder inscribir a los empleados en las prestaciones, debe proporcionar la información requerida para ellos. Todo empleado debe tener un puesto. Debe inscribir a los empleados en un plan de compensación fijo en su fecha de inicio, o deben tener un monto de salario de beneficios anual. Además, en la sección **Detalles de Empleo** sección de la página **Trabajador**, debe seleccionar un valor en el campo **Frecuencia de pago de prestaciones**.
+Antes de poder inscribir a los empleados en las prestaciones, debe proporcionar la información requerida para ellos. 
 
-Si tiene un empleado que recibe una compensación adicional como comisiones, puede agregar una cantidad **Salario anual de prestaciones** desde el registro del empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe anual de compensación fija. El **Salario anual de prestaciones** debe ser válido a partir de la fecha de inicio del empleado o del comienzo del período de prestaciones, lo que sea más reciente. Si se registra una compensación fija y un importe de salario anual de prestaciones para un empleado, el salario anual de prestaciones se utilizará para determinar los importes de cobertura.
+El empleado debe tener asignada un **Puesto**. Se puede asignar un **Puesto** al empleado en las páginas **Trabajador** o **Puesto** actualizando la **Asignación de trabajadores**. 
+
+Después, los empleados deben estar incluidos en un plan de compensación fijo en su fecha de inicio, o deben tener un importe de **Salario de prestaciones anual**. Antes de asignar una **Compensación fija** a un empleado, debe asignarse un **Puesto**. 
+
+> [!NOTE] 
+> La **Fecha de inicio de compensación fija** no puede ser anterior a la **Fecha de asignación del puesto**.
+
+De forma alternativa, si tiene un empleado que recibe una compensación adicional como comisiones, puede agregar una cantidad **Salario anual de prestaciones** desde el registro del empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe **Anual de compensación fija**. El **Salario anual de prestaciones** debe ser válido a partir de la fecha de inicio del empleado o del comienzo del período de prestaciones, lo que sea más reciente. Sin embargo, no se requiere un puesto para asignar el **Salario anual de prestaciones**. Para habilitar la característica de **Salario anual de prestaciones**, vaya a la página **Parámetros compartidos Human Resources**, en la pestaña **Administración de prestaciones**. Esta característica está desactivada de forma predeterminada.
+
+> [!IMPORTANT]
+> Si se introduce una **Compensación fija** y un importe de **Salario anual de prestaciones** para un empleado, el **Salario anual de prestaciones** se utilizará para determinar los importes de cobertura. En la sección **Detalles de Empleo** sección de la página **Trabajador**, debe seleccionar un valor en el campo **Frecuencia de pago de prestaciones**.
 
 ## <a name="configure-optional-employee-information"></a>Configure la información opcional de los empleados
-
 Cuando crea un plan de prestaciones que utiliza tarifas que se basan en el sexo o la edad, debe ingresar una fecha de nacimiento y género del empleado para calcular el costo de la prestaciones.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Procese a los empleados para determinar la elegibilidad
+Antes de que los empleados puedan inscribirse en los planes, se ejecuta el proceso de elegibilidad para determinar para qué planes son elegibles. Puede ver los resultados del proceso de elegibilidad en el **visor de resultados del proceso**. Para obtener más información, consulte [Proceso de elegibilidad de inscripción](hr-benefits-process-enrollment-eligibility.md).
 
-Antes de que los empleados puedan inscribirse en los planes, se ejecuta el proceso de elegibilidad para determinar para qué planes son elegibles. Puede ver los resultados del proceso de elegibilidad en el visor de resultados del proceso. Para obtener más información, consulte [Proceso de elegibilidad de inscripción](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Los empleados seleccionan planes a través del **Autoservicio para empleados** (opcional)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Los empleados seleccionan planes a través del autoservicio para empleados (opcional)
-
-Cuando se produce la inscripción abierta, se contrata a los empleados por primera vez o se produce un evento en la vida, los empleados pueden seleccionar o actualizar sus beneficios a través del autoservicio para empleados. Para más información, consulte [Configurar auto servicio de empleado](hr-benefits-setup-employee-self-service.md).
+Cuando se produce la inscripción abierta, se contrata a los empleados por primera vez o se produce un evento en la vida, los empleados pueden seleccionar o actualizar sus beneficios a través del **autoservicio para empleados**. Para más información, consulte [Configurar auto servicio de empleado](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Confirme las selecciones de planes de empleados
 

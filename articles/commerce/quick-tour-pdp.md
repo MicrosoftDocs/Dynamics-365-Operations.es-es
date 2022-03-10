@@ -2,11 +2,9 @@
 title: Visión general de las páginas de detalles de producto
 description: Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243849"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986210"
 ---
 # <a name="product-details-pages-overview"></a>Visión general de las páginas de detalles de producto
 
@@ -29,13 +27,11 @@ ms.locfileid: "5243849"
 
 Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Información general
-
 Una PDP proporciona información detallada sobre un producto y permite a los clientes seleccionar opciones de productos como un tamaño, un estilo y un color. Una PDP debe mostrar toda la información de producto que un cliente necesita para tomar una decisión de compra.
 
 En la ilustración siguiente se muestra un ejemplo de una PDP.
 
-![Ejemplo de una página de detalles de productos](./media/pdp.PNG)
+![Ejemplo de una página de detalles de productos.](./media/pdp.PNG)
 
 ## <a name="header-and-footer-modules"></a>Módulos de encabezado y pie de página
 

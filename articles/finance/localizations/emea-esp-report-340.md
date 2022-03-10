@@ -2,11 +2,9 @@
 title: Informe 340 para España
 description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
 author: anasyash
-manager: AnnBe
 ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 94a40fad4f5b4f71393bfae89cd17774fec192a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b467a8603541c60bfc6f075d735ed4bf3b46d08a3769197739e8f2f0d4a5361e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775873"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
@@ -55,7 +53,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 
 2.  Vaya a **Impuestos \> Configuración \> Impuestos \> Libros de IVA españoles**.
 
-![Página de libros de impuestos españoles](media/1_Spanish_VAT_book.png)
+![Página de libros de impuestos españoles.](media/1_Spanish_VAT_book.png)
 
 3.  En los campos **Libro de IVA** y **Descripción**, introduzca un nombre y una descripción para el libro de IVA.
 4.  En el campo **Tipo de libro** seleccione un tipo de libro: **Impuestos repercutidos**, **Impuestos soportados** o **Todos los libros**.
@@ -89,7 +87,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 10.  Seleccione **Aceptar** para crear una línea en la página **Informes de IVA español**, según los criterios que definió en el paso anterior.
 11.  Revise la línea que se crea.
 
-![Página Informes de impuestos españoles](media/2_Spanish_VAT_report.png)
+![Página Informes de impuestos españoles.](media/2_Spanish_VAT_report.png)
 
 > [!NOTE]
 > No puede modificar los valores de los campos **Período de liquidación**, **Método de numeración** y **Desde fecha** en la página **Informes de IVA españoles**.
@@ -107,7 +105,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 
 13.  Seleccione **Líneas de informes de IVA** para abrir la página **Líneas de informes de IVA** . En esta página, puede ver los detalles de las transacciones de IVA que se transfieren al informe de IVA. Si alguna de las líneas que se transfieren automáticamente no tienen que notificarse, puede editarlas o eliminarlas.
 
-![Página de líneas de informe de IVA](media/3_VAT_report_lines.png)
+![Página de líneas de informe de IVA.](media/3_VAT_report_lines.png)
 
 14.  Seleccione **Impuesto registrado** para abrir la página **Impuesto registrado**. En esta página, puede revisar las transacciones de impuestos registrados.
 15.  Cierre las páginas **Impuesto registrado** y **Líneas de informe de IVA**.
@@ -163,7 +161,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 -   EUS
 -   IVA 10
 
-![Página de libros de IVA en español, ficha desplegable Configuración](media/4_Spanish_VAT_book.png)
+![Página de libros de IVA en español, ficha desplegable Configuración.](media/4_Spanish_VAT_book.png)
 
 8.  Seleccione **Informes de IVA español**.
 9.  Seleccione **Crear nuevo**.
@@ -175,10 +173,13 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 
 11.  Seleccione **Líneas de informe de IVA** y revise los datos generados.
 
-![Datos generados en la página de líneas de informe de IVA](media/5_VAT_report_lines.png)
+![Datos generados en la página de líneas de informe de IVA.](media/5_VAT_report_lines.png)
 
 12.  Seleccione **Resultado \> Imprimir**.
 13.  En el campo **Asignación de formato**, seleccione el formato **Libro de registro de IVA (ES)** que descargó anteriormente.
 14.  Seleccione **Aceptar**, abra el archivo descargado y revise los datos.
 
-![Datos del libro de registro de IVA español](media/6_Spanish_VAT_register_book.png)
+![Datos del libro de registro de IVA español.](media/6_Spanish_VAT_register_book.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Confirmar pedidos de ventas
 description: Este procedimiento muestra cómo confirmar pedidos de ventas.
-author: omulvad
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e681a822ae1ec628fd20931263a6115b998ffba9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30396c121b67d1b7095a175d85399ed664f68557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836479"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572514"
 ---
 # <a name="confirm-sales-orders"></a>Confirmar pedidos de ventas
 

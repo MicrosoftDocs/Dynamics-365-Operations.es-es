@@ -1,12 +1,10 @@
 ---
 title: Planificar rutas de transporte de flete con varias paradas
 description: Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484e1a405354e6c932658519e2b8c14e37b3947e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eff1efd7530c410b392646e39325b58cbd8bcf78
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010281"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571242"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planificar rutas de transporte de flete con varias paradas
 
@@ -52,3 +50,6 @@ El Área de trabajo de planificación de la carga utiliza direcciones y fechas d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Distribuir y programar cuestionarios
-description: En este artículo se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar.
-author: andreabichsel
-ms.date: 04/04/2017
+description: En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,28 @@ ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ea9b61b9e4ed47f6bb1dd051e532ed4dcbce48
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058718"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069538"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuir y programar cuestionarios
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este artículo se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. 
+En este tema se explica cómo distribuir los cuestionarios que diseña, de modo que estén disponibles para la persona o el grupo de personas que lo van a completar. 
 
 Hay varias manera de distribuir un cuestionario:
 
--   Marcar el cuestionario como activo. El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.
+-   Marcar el cuestionario como **Activo**. El cuestionario estará entonces disponible para todos los empleados, a menos que se configure un grupo de cuestionarios para restringir el acceso al mismo.
 -   Asigne derechos a un grupo de cuestionarios. El cuestionario estará entonces disponible para todos los miembros del grupo seleccionado.
 -   Crear sesiones de respuestas planificadas. El cuestionario está entonces disponible solo para una persona concreta.
 -   Crear una programación. El cuestionario estará entonces disponibles para varias personas.

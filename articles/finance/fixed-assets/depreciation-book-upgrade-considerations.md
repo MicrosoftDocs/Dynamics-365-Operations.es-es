@@ -1,37 +1,37 @@
 ---
-title: Visión general de la actualización del libro amortización
-description: En versiones anteriores, había dos conceptos de la evaluación para activos fijos, modelos de valor y libros de depreciación.
-author: ShylaThompson
-manager: AnnBe
+title: Información general de la actualización del libro amortización
+description: Este tema describe la funcionalidad del libro actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación.
+author: moaamer
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom: 221624
+ms.custom:
+- "221624"
+- intro-internal
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241243"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985092"
 ---
-# <a name="depreciation-book-upgrade-overview"></a>Visión general de la actualización del libro amortización
+# <a name="depreciation-book-upgrade-overview"></a>Información general de la actualización del libro amortización
 
 [!include [banner](../includes/banner.md)]
 
-En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro. Este tema proporciona algunas cosas a tener en cuenta para la actualización. 
+Este tema describe la funcionalidad del libro actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación. La función de modelo de valor y la funcionalidad de libro de depreciación se han combinado en un solo concepto que se conoce como libro. La funcionalidad del libro le permite utilizar un único conjunto de páginas, consultas e informes para todos los procesos de activos fijos de su organización. Este tema proporciona algunos asuntos que debe considerar antes de actualizar. 
 
-El proceso de actualización moverá la configuración existente y todas las transacciones existentes a la estructura del nuevo libro. Los modelos de valor se mantendrán como hasta ahora, como un libro que registra en la contabilidad general. Los libros de amortización se moverán a un libro que tiene la opción **Registrar en la contabilidad general** establecida como **No**. Los nombres del diario del libro de depreciación se moverán a un nombre de diario de la contabilidad general con la capa de registro establecida a **Ninguno**. Las transacciones del libro de depreciación se moverán a transacción de activo fijo. 
+El proceso de actualización moverá la configuración existente y todas las transacciones existentes a la estructura del nuevo libro. Los modelos de valor se mantendrán como hasta ahora, como un libro que registra en la contabilidad general. Los libros de amortización se moverán a un libro que tiene la opción Registrar en la contabilidad general establecida como No. Los nombres del diario del libro de depreciación se moverán a un nombre de diario de la contabilidad general con la capa de registro establecida a Ninguno. Las transacciones del libro de depreciación se moverán a transacción de activo fijo.
 
-Antes de ejecutar la actualización de datos, debe comprender las dos opciones disponibles para actualizar las líneas del diario del libro de depreciación a los asientos de la transacción, y la secuencia numérica que se usará para la serie de asientos. 
+Antes de ejecutar la actualización de datos, debe comprender las dos opciones disponibles para actualizar las líneas del diario del libro de depreciación a los asientos de la transacción, y la secuencia numérica que se usará para la serie de asientos.
 
 Opción 1:  **secuencia numérica definida por el sistema** - Esta es la opción predeterminada para optimizar el rendimiento de la actualización. La actualización no utilizará el marco de las secuencias numéricas, pero por el contrario, debe asignar los asientos con un enfoque establecido. Una vez finalizada la actualización, se creará la nueva secuencia numérica con el **Conjunto del siguiente número** basado correctamente en las transacciones actualizadas. De forma predeterminada, la secuencia numérica usada tendrá el formato de FADBUpgr\#\#\#\#\#\#\#\#\# . Existen algunos parámetros disponibles para ajustar el formato al utilizar este planteamiento:
 
@@ -42,19 +42,19 @@ Opción 1:  **secuencia numérica definida por el sistema** - Esta es la opción
     -   Nombre constante: **NumberSequenceDefaultParameterPrefix**
     -   Valor predeterminado: "FADBUpgr"
 -   **Longitud alfanumérica** – La longitud del segmento alfanumérico de la secuencia numérica.
-    -   Nombre constante: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Nombre de constante: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Valor predeterminado: 9
 -   **Número de inicio** - El primer número que se utilizará en la secuencia numérica.
-    -   Nombre constante: **NumberSequenceDefaultParameterStartNumber  **
+    -   Nombre de constante: **NumberSequenceDefaultParameterStartNumber**
     -   Valor predeterminado: 1
 
 Opción 2: **Secuencia numérica definida por el usuario existente**: esta opción le permitirá definir la secuencia numérica que se utilizará para la actualización. Considere el uso de esta opción si necesita la configuración avanzada de la secuencia numérica. Para usar una secuencia numérica, debe modificar la clase ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans de la actualización con la siguiente información:
 
 -   **Código de secuencia numérica**: El código de la secuencia numérica.
-    -   Nombre constante: **NumberSequenceExistingCode **
+    -   Nombre de constante: **NumberSequenceExistingCode**
     -   Valor predeterminado: No hay valor predeterminado, debe actualizarse al código de secuencia numérica.
 -   **Secuencia numérica compartida**: Un valor booleano para identificar el ámbito de la secuencia numérica. Use “verdadero” para las secuencias numéricas compartidas en todas las empresas, y "falso" para el ámbito específico de una empresa. Cuando use “falso”, la secuencia numérica con el nombre especificado debe existir en cada empresa que contenga transacciones del libro de depreciación. Las secuencias numéricas compartidas existen en cada parte que contenga transacciones del libro depreciación.
-    -   Nombre constante: **NumberSequenceExistingIsShared **
+    -   Nombre de constante: **NumberSequenceExistingIsShared**
     -   Valor predeterminado: verdadero
 
 Los parámetros se encuentran al principio de la clase ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 

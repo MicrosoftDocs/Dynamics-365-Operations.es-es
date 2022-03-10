@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729995"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103272"
 ---
 # <a name="warehouse-app-event-processing"></a>Procesamiento de eventos de la aplicación de almacén
 
@@ -26,12 +26,9 @@ ms.locfileid: "6729995"
 
 Los trabajos por lotes que se ejecutan en Supply Chain Management pueden usar datos de una cola para procesar eventos emitidos por la aplicación móvil Warehouse Management para reaccionar según sea necesario a los eventos señalados. Esta función agrega eventos relevantes a la cola en respuesta a ciertos tipos de acciones realizadas por los trabajadores que usan la aplicación. Un ejemplo es cuando se usa la característica *Crear y procesar pedidos de transferencia desde la aplicación de almacén*, el encabezado y las líneas de la orden de transferencia se crean y actualizan en el back-end cuando el sistema está ejecutando el trabajo por lotes **Procesar eventos de aplicaciones de almacén**.
 
-## <a name="enable-the-process-warehouse-app-events-feature"></a>Habilitar la función Procesar eventos de aplicación de almacén
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Activar o desactivar la característica Procesar eventos de aplicación de almacén
 
-Antes de poder usar esta característica, debe estar habilitada en su sistema. Los administradores pueden usar la página [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. La característica Procesar eventos de aplicación de almacén se muestra como:
-
-- **Módulo**: gestión de almacén
-- **Nombre de característica** - Procesar eventos de aplicación de almacén
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Procesar eventos de aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurar un trabajo por lotes para procesar eventos de aplicaciones de almacén
 

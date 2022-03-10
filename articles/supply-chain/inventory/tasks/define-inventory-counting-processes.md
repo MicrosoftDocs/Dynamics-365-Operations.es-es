@@ -1,27 +1,25 @@
 ---
 title: Definición de procesos de recuento de inventario
 description: Este tema describe la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento.
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961382"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580849"
 ---
 # <a name="define-inventory-counting-processes"></a>Definición de procesos de recuento de inventario
 
@@ -84,3 +82,6 @@ Este tema describe la configuración de procesos de recuento de inventario bási
 5. En el menú desplegable del campo **Grupo de recuento**, seleccione un grupo de recuento. Puede seleccionar un grupo de recuento específico que se debe aplicar al artículo del almacén específico seleccionado. Cuando el recuento se realice en ese almacén, esta directiva de recuento anulará la directiva de recuento general para el artículo.  
 6. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

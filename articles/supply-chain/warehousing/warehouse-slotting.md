@@ -2,26 +2,23 @@
 title: Slotting de almacén
 description: En este tema se proporciona información acerca del slotting de almacén. El slotting de almacén le permite consolidar la demanda por artículo y unidad de medida de los pedidos que tienen un estado de Pedido, Reservado o Liberado. Ayuda a los directores de almacén a planificar de manera inteligente las ubicaciones de picking antes de liberar pedidos al almacén y crear trabajos de picking.
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627758"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575156"
 ---
 # <a name="warehouse-slotting"></a>Slotting de almacén
 
@@ -384,3 +381,6 @@ Una vez que todos los elementos requeridos estén en su lugar, puede configurar 
 1. Establezca la periodicidad para que se ejecute automáticamente, si lo desea.
 
 Para los ejercicios del escenario, **no** configure el slotting automático.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

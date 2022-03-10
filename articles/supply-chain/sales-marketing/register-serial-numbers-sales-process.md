@@ -1,12 +1,10 @@
 ---
 title: Trabajo con artículos serializados
 description: Este tema explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001533"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571698"
 ---
 # <a name="working-with-serialized-items"></a>Trabajo con artículos serializados
 
@@ -79,3 +77,6 @@ Esta funcionalidad está disponible para todos los roles que pueden mantener alb
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

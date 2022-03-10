@@ -2,15 +2,12 @@
 title: Novedades y cambios en Dynamics 365 Human Resources (12 de febrero de 2020)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 12 de febrero de 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128098"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063038"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (12 de febrero de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este artículo describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.2867. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -55,7 +54,7 @@ Las siguientes características de vista previa están disponibles desde el 3 de
 
 ### <a name="platform-update-32"></a>Actualización 32 de la plataforma 
 
-Platform update 32 estará disponible pronto. [Obtener más información sobre Platform update 32 aquí](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platform update 32 estará disponible pronto. [Obtener más información sobre Platform update 32 aquí](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Solución Dataverse actualizada
 
@@ -75,6 +74,8 @@ Una nueva solución Dataverse estará disponible pronto con los siguientes cambi
 ## <a name="see-also"></a>Consulte también
 
 [Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
-[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

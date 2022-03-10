@@ -2,15 +2,12 @@
 title: Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 14 de mayo de 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,22 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127858"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063756"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3244. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte para referencia de Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Cambios de plataforma
 
-Los cambios de plataforma están incluidos en la versión de esta semana. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.10 de aplicaciones de Finance and Operations (mayo de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Esta versión incluye correcciones de errores y cambios en las vistas guardadas.
+Los cambios de plataforma están incluidos en la versión de esta semana. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.10 de aplicaciones de Finance and Operations (mayo de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versión incluye correcciones de errores y cambios en las vistas guardadas.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Asegurar que las listas de selección de Dataverse sean consistentes con las enumeraciones de bajas (436343)
 
@@ -116,6 +115,8 @@ Puede especificar un tipo de transferencia de baja para transferir saldos en los
 ## <a name="see-also"></a>Consulte también
 
 [Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
-[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Precio base y acuerdos comerciales
 description: Este procedimiento le muestra la creación de acuerdos comerciales de precios de venta específicos de canal.
 author: josaw1
-manager: AnnBe
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db3a91807c0cfb51426c03eeaf7785168e6ad0de
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 282cbe0cb115d6204137613f4754068b8a9a321400d24808eb67266a83d7bcc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730740"
 ---
 # <a name="base-price-and-trade-agreements"></a>Precio base y acuerdos comerciales
 
@@ -69,3 +67,6 @@ Este procedimiento le muestra la creación de acuerdos comerciales de precios de
 38. En el panel **Acciones**, haga clic en Vender.
 39. Haga clic en **Precio de ventas**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

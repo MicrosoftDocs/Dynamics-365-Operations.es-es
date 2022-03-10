@@ -1,30 +1,30 @@
 ---
 title: Solucionar problemas de informes analíticos
-description: Este artículo explica qué hacer si los cambios en los datos de un cliente no se muestran en los espacios de trabajo de un cliente.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: En este tema se explica cómo solucionar y diagnosticar problemas si los cambios en los datos de un cliente no se muestran en los espacios de trabajo de un cliente.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e0befe1a35aa46b2eabb4516559fe07ce27e9f18
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 6ea04c06858cc98b0e233b9133d9dfbebfe59fd6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466673"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067738"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Solucionar problemas de informes analíticos
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -44,7 +44,7 @@ Este problema podría ser simplemente una cuestión de control de tiempo. Siga e
 1. Encuentre el trabajo **Implementación de medida** en la lista.
 1. Seleccione **Editar** en la parte superior de la página, y establezca la fecha /hora inicial programada a un valor que actualice el análisis más cercano a la hora actual.
 
-![Trabajos por lotes](media/batch-jobs.png)
+![Trabajos por lotes.](media/batch-jobs.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

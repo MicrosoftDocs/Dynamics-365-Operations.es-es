@@ -1,7 +1,7 @@
 ---
 title: Subcontratación
 description: Este tema le ayudará a compilar un tutorial de subcontratación en la fabricación en Dynamics 365 Supply Chain Management.
-author: christophernread
+author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: josaw
+ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825191"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579361"
 ---
 # <a name="subcontracting"></a>Subcontratación
 
@@ -41,7 +41,7 @@ La ilustración siguiente muestra las tres operaciones y los materiales que cons
 
 ![Operaciones de pre-ensamblado, capa, y acabado, y los materiales que consumen.](./media/subcontract01_operations-materials.png)
 
-## <a name="setup"></a>Configuración
+## <a name="setup"></a>Configurar
 
 Antes del inicio del tutorial, debe configurar los datos.
 
@@ -52,30 +52,30 @@ Este procedimiento lo lleva por el proceso de configuración del producto emitid
 1. Seleccione **Gestión de información de productos \> Productos \> Productos emitidos** para abrir la página **Detalles de producto emitido**.
 2. En el campo de filtro rápido, escriba **D8100** para encontrar el producto emitido existente.
 
-    ![Filtrado del producto emitido D8100 en la página de Detalles de producto emitido](./media/subcontract02_filtering-released-products.png)
+    ![Filtrado del producto emitido D8100 en la página de Detalles de producto emitido.](./media/subcontract02_filtering-released-products.png)
 
 3. En el panel de acciones, en la pestaña **Ingeniero**, seleccione **Ruta** para abrir la página **Ruta**.
 
     La página **Ruta** muestra las ocho versiones de ruta para el producto emitido D8100. Las ocho versiones de ruta se dividen en cuatro ruta en el sitio 1 y el sitio. 5. La ruta 000400 se utiliza para la gestión de costes, la ruta 00041 se usa cuando la operación de la capa es una operación interna, y la ruta 00042 se usa cuando la operación de la capa es una operación externa.
 
-    ![Ocho versiones de ruta en la página de la ruta](./media/subcontract03_route-page.png)
+    ![Ocho versiones de ruta en la página de la ruta.](./media/subcontract03_route-page.png)
 
 4. En el panel superior, en la cuadrícula **Versiones**, seleccione la versión de ruta **00042** para el sitio **5**.
 5. En el panel inferior, en la pestaña **Visión general**, seleccione la operación **20** (**Cbnt CtSc**) en la cuadrícula.
 
-    ![Operación 20 para la versión de ruta 00042 del sitio 5 seleccionado](./media/subcontract04_route-version-operation.png)
+    ![Operación 20 para la versión de ruta 00042 del sitio 5 seleccionado.](./media/subcontract04_route-version-operation.png)
 
 6. Seleccione la ficha **General**.
 
     Observe que el campo **Tipo de ruta** del campo está establecido en **Proveedor**. Este valor indica que la operación 20 (Cbnt CtSc) es una operación subcontratada.
 
-    ![Campo de tipo de ruta establecido en Proveedor en la pestaña General](./media/subcontract05_general-tab.png)
+    ![Campo de tipo de ruta establecido en Proveedor en la pestaña General.](./media/subcontract05_general-tab.png)
 
 7. Seleccione la ficha **Requisitos de recursos**.
 
     Las capacidades se usarán para buscar un recurso aplicable durante la programación de producción. Para la operación 20 (Cbnt CtSc), observe que se requiere un recurso que tiene dos capacidades, **Capa** y **Cajas acústicas con revestimiento**.
 
-    ![Capacidades de Capa y cajas acústicas con revestimiento en la ficha de los requisitos de recursos](./media/subcontract06_resource-requirements-tab.png)
+    ![Capacidades de Capa y cajas acústicas con revestimiento en la ficha de los requisitos de recursos.](./media/subcontract06_resource-requirements-tab.png)
 
 8. Seleccione **Recursos aplicables** para abrir el cuadro de diálogo **Recursos aplicables**.
 
@@ -86,7 +86,7 @@ Este procedimiento lo lleva por el proceso de configuración del producto emitid
 9. Seleccione **Aceptar** para cerrar el cuadro **Recursos aplicables** y regresar a la página **Ruta**.
 10. Cierre la página **Ruta** para volver a la página **Detalles de producto emitido**.
 
-    ![Página de detalles de productos emitidos](./media/subcontract08_released-product-details-page.png)
+    ![Página de detalles de productos emitidos.](./media/subcontract08_released-product-details-page.png)
 
 11. En el panel de acciones, en la pestaña **Ingeniero**, seleccione **Versiones de L. MAT** para abrir la página **Versiones de L. MAT**.
 
@@ -94,7 +94,7 @@ Este procedimiento lo lleva por el proceso de configuración del producto emitid
 
     Tenga en cuenta que el elemento S8050 es un producto del tipo del elemento **Servicio**. Este elemento representa el trabajo subcontratado.
 
-    ![Cuatro versiones de L.MAT en la página de las versiones de L.MAT](./media/subcontract09_bom-versions-page.png)
+    ![Cuatro versiones de L.MAT en la página de las versiones de L.MAT.](./media/subcontract09_bom-versions-page.png)
 
 12. En la ficha desplegable **Líneas de lista de materiales**, seleccione **Editatr** para abrir el cuadro **Editar línea de L.MAT**.
 
@@ -102,7 +102,7 @@ Este procedimiento lo lleva por el proceso de configuración del producto emitid
 
     Observe que la línea de L.MAT está conectada a la operación de la capa a través del número de operación (en este caso, 20).
 
-    ![Edición del cuadro de diálogo de la línea de L MAT](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Edición del cuadro de diálogo de la línea de L MAT.](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Crear una contraseña para los trabajadores de almacén
 
@@ -111,7 +111,7 @@ Debe definir una contraseña para los trabajadores de almacén que usan el dispo
 1. Seleccione **Administración de almacenes \> Configuración \> Trabajador** para abrir la página **Usuarios de trabajo**.
 2. En la ficha desplegable **Usuarios**, seleccione la fila del usuario **51**.
 
-    ![Página de usuario de trabajo](./media/subcontract11_work-users-page.png)
+    ![Página de usuario de trabajo.](./media/subcontract11_work-users-page.png)
 
 3. Seleccione **Restablecer contraseña**.
 4. En los campos **Contraseña** y **Confirmar contraseñas**, especifique **1**.
@@ -126,14 +126,14 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 1. Seleccione **Control de producción \> Pedidos de producción \> Todos los pedidos de producción** para abrir la página **Todos los pedidos de producción**.
 2. En el panel de acciones, seleccione **Nuevo pedido de producción** para abrir el cuadro **Crear orden de producción**.
 
-    ![Cuadro de diálogo Crear un pedido de producción](./media/subcontract12_create-production-order-dialog.png)
+    ![Cuadro de diálogo Crear un pedido de producción.](./media/subcontract12_create-production-order-dialog.png)
 
 3. En el campo **Código de artículo**, seleccione **D8100**.
 4. Después de seleccionar el número de elemento, se muestran los campos para las dimensiones del inventario. En el campo **Color**, seleccione **Cromo**.
 
     Un cuadro de mensaje aparece que pregunta si las versiones activas de la lista de materiales y la ruta deben insertarse.
 
-    ![Cuadro de mensaje](./media/subcontract13_message-box.png)
+    ![Cuadro de mensaje.](./media/subcontract13_message-box.png)
 
 5. Seleccione **Sí**. 
 
@@ -149,15 +149,15 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     > [!NOTE]
     > Para la L. MAT y la ruta, la versión 000042 se utiliza para subcontratar la capa de la caja acústica con el proveedor US-801.
 
-    ![Valores establecidos en el cuadro de diálogo Crear pedido de producción](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Valores establecidos en el cuadro de diálogo Crear pedido de producción.](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Seleccione **Crear** para crear el pedido de producción y regresar a la página **Todos los pedidos de producción**.
 
-    ![Nuevo pedido de producción en la página Todos los pedidos de producción](./media/subcontract15_new-production-order.png)
+    ![Nuevo pedido de producción en la página Todos los pedidos de producción.](./media/subcontract15_new-production-order.png)
 
 10. En el panel de acciones, en la ficha **Pedido de producción**, seleccione **Estimación** para abrir el cuadro **Estimación**.
 
-    ![Cuadro de diálogo Estimación](./media/subcontract16_estimate-dialog.png)
+    ![Cuadro de diálogo Estimación.](./media/subcontract16_estimate-dialog.png)
 
 11. Seleccione **Aceptar** para confirmar la estimación y regresar a la página **Todos los pedidos de producción**.
 
@@ -168,7 +168,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 
     Para el artículo de servicio S8050, observe que se hace referencia al pedido de compra que se ha generado cuando se estimó al pedido de producción.
 
-    ![Líneas de L. MAT del pedido de producción en la página de L. MAT](./media/subcontract17_production-order-bom-lines.png)
+    ![Líneas de L. MAT del pedido de producción en la página de L. MAT.](./media/subcontract17_production-order-bom-lines.png)
 
 13. Cierre la página **L. MAT** para regresar a la página **Todos los pedidos de producción**.
 14. En el panel de acciones, en la ficha **Programación**, seleccione **Programar trabajos** para abrir el cuadro de diálogo **Programación de trabajos**.
@@ -177,24 +177,24 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     - En el campo **Dirección de programación**, seleccione **Remitir a partir de hoy**.
     - Establezca la opción **Capacidad limitada** a **Sí**.
 
-    ![Cuadro de diálogo Programación de trabajos](./media/subcontract18_job-scheduling-dialog.png)
+    ![Cuadro de diálogo Programación de trabajos.](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Seleccione **Aceptar** para cerrar el cuadro **Programación de trabajos** y regresar a la página **Todos los pedidos de producción**.
 17. En el panel de acciones, en la pestaña **Programación**, seleccione **Gantt** para abrir la página **Diagrama de Gantt - vista de recursos**.
 
     El gráfico de Gantt proporciona una visión general visual de cómo los trabajos de producción se programan en los recursos. Observe que la operación de capa externa consta de tres trabajos: un trabajo de proceso, un trabajo de transporte, y un trabajo de tiempo en cola.
 
-    ![Diagrama de Gantt en el gráfico de Gantt - página de la vista de recursos](./media/subcontract19_gantt-chart.png)
+    ![Diagrama de Gantt en el gráfico de Gantt - página de la vista de recursos.](./media/subcontract19_gantt-chart.png)
 
 18. Cierre la página **Diagrama de Gantt - vista de recursos** para regresar a la página **Todos los pedidos de producción**.
 19. En el panel de acciones, en la ficha **Pedido de producción**, seleccione **Liberar** para abrir el cuadro **Liberar**.
 
-    ![Cuadro de diálogo Liberar](./media/subcontract20_release-dialog.png)
+    ![Cuadro de diálogo Liberar.](./media/subcontract20_release-dialog.png)
 
 20. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Liberar**.
 21. Seleccione **Control de producción \> Tareas periódicas \> Liberar al almacén \> Liberación automática de L. MAT. y líneas de fórmula** para abrir el cuadro de diálogo **Liberación automática de L. MAT. y líneas de fórmula**.
 
-    ![Cuadro de diálogo Liberación automática de L. MAT. y líneas de fórmula](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Cuadro de diálogo Liberación automática de L. MAT. y líneas de fórmula.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Seleccione **Aceptar** para ejecutar el trabajo de liberación automática de L. MAT y líneas de fórmula.
 
@@ -206,7 +206,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 
     Observe que la página muestra dos conjuntos de trabajos para la selección de la materia prima. El primer trabajo es para los materiales M8100 y M8101. Estos materiales los consume la operación 10. El segundo trabajo es para los materiales M8202 y M8250. Estos materiales los consume la operación 20, que es la operación subcontratada.
 
-    ![Dos conjuntos de trabajos para la selección de la materia prima en la página Trabajo](./media/subcontract22_work-page.png)
+    ![Dos conjuntos de trabajos para la selección de la materia prima en la página Trabajo.](./media/subcontract22_work-page.png)
 
 26. Inicie la aplicación móvil Warehouse Management para procesar el trabajo del almacén para la operación 10.
 
@@ -220,7 +220,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     - En el campo **Desde n.º oper.** seleccione **10**.
     - En el campo **Hasta n.º oper.** seleccione **10**.
 
-    ![Valores definidos en la ficha General 1](./media/subcontract23_start-dialog.png)
+    ![Valores definidos en la ficha General 1.](./media/subcontract23_start-dialog.png)
 
 31. Seleccione **Aceptar** para cerrar el cuadro **Inicio** y regresar a la página **Todos los pedidos de producción**.
 
@@ -238,7 +238,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
     - En el campo **Cantidad**, especifique **10**.
     - Establezca la opción **Registrar ahora la lista de selección** en **No**.
 
-    ![Valores definidos en la ficha General 2](./media/subcontract24_general-tab.png)
+    ![Valores definidos en la ficha General 2.](./media/subcontract24_general-tab.png)
 
 35. Seleccione **Aceptar** para cerrar el cuadro **Inicio** y regresar a la página **Todos los pedidos de producción**.
 
@@ -247,57 +247,57 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 36. En el panel de acciones, en la pestaña **Ver**, seleccione **Lista de selección** para abrir la página **Lista de selección**.
 37. Seleccione la lista de selección que no está registrada, y seleccione el número de diario para ver las líneas de diario.
 
-    ![Líneas del diario en la página lista de selección](./media/subcontract25_picking-list.png)
+    ![Líneas del diario en la página lista de selección.](./media/subcontract25_picking-list.png)
 
 38. En el panel de acciones, seleccione **Imprimir** \> **Informe de lista de selección** para abrir el cuadro de diálogo **Informe de lista de selección**.
 39. Establezca la opción **Utilizar diseño de nota de entrega** a **Sí**.
 
-    ![Cuadro de diálogo Informe Lista de selección](./media/subcontract26_picking-list-report-dialog.png)
+    ![Cuadro de diálogo Informe Lista de selección.](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Seleccione **Aceptar** para generar un informe de **lista de selección**.
 
     En este caso, una nota de entrega de proveedor se imprime desde el diario de lista de selección de producción. La nota de entrega especifica los materiales que se envían al proveedor que realizará la operación de capa.
 
-    ![Informe de lista de selección](./media/subcontract27_picking-list-report.png)
+    ![Informe de lista de selección.](./media/subcontract27_picking-list-report.png)
 
 41. Cierre el informe **lista de selección** para volver a la página **lista de selección**.
 42. En el panel de acciones, seleccione **Registrar** para abrir el cuadro de diálogo **Registrar diario**.
 
-    ![Cuadro de diálogo Registrar diario](./media/subcontract28_post-journal-dialog.png)
+    ![Cuadro de diálogo Registrar diario.](./media/subcontract28_post-journal-dialog.png)
 
 43. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Registrar diario**.
 44. Abra el pedido de compra.
 
-    ![Página Pedido de compra](./media/subcontract29_purchase-order-page.png)
+    ![Página Pedido de compra.](./media/subcontract29_purchase-order-page.png)
 
 45. En el panel de acciones, en la pestaña **Compra**, seleccione **Confirmar**.
 46. Seleccione **Registrar** para abrir el cuadro de diálogo **Registrar diario**.
 47. Seleccione **Aceptar** para cerrar el cuadro de diálogo **Registrar diario** y regresar a la página **Pedido de compra**.
 48. Cambie el precio unitario de **33** a **40**.
 
-    ![Precio por unidad cambiado en la página del pedido de compra](./media/subcontract30_unit-price.png)
+    ![Precio por unidad cambiado en la página del pedido de compra.](./media/subcontract30_unit-price.png)
 
 49. Confirme el pedido de compra de nuevo.
 50. Recepción de producto.
 
-    ![Cuadro de diálogo Registro de recepción de productos](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Cuadro de diálogo Registro de recepción de productos.](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Factura de compra.
 52. Actualizar el estado de conciliación.
 
-    ![Página de factura del proveedor](./media/subcontract32_vendor-invoice-page.png)
+    ![Página de factura del proveedor.](./media/subcontract32_vendor-invoice-page.png)
 
 53. Notificar como terminado.
 
-    ![Cuadro de diálogo Notificar como terminado](./media/subcontract33_report-as-finished-dialog.png)
+    ![Cuadro de diálogo Notificar como terminado.](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Fin.
 
-    ![Cuadro de diálogo Fin](./media/subcontract34_end-dialog.png)
+    ![Cuadro de diálogo Fin.](./media/subcontract34_end-dialog.png)
 
 55. Comparación del coste.
 
-    ![Gráficos de comparación del coste](./media/subcontract35_cost-comparison-charts.png)
+    ![Gráficos de comparación del coste.](./media/subcontract35_cost-comparison-charts.png)
 
 Configuración que falta en datos.
 

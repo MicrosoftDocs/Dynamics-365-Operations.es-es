@@ -1,12 +1,10 @@
 ---
 title: Nivel de servicio y descripción
 description: Este tema explica el nivel de servicio y su descripción en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758697"
 ---
 # <a name="service-level-and-description"></a>Nivel de servicio y descripción
 
@@ -47,7 +45,7 @@ Cuando cree una orden de trabajo, puede que desee definir los niveles de servici
 8. Para establecer una hora de finalización para la orden de trabajo, además de una fecha de finalización, establezca la opción **Establecer hora de finalización** en **Sí**. A continuación, especifique la hora de finalización en el campo **Hora de finalización**. Si establece la opción **No**, se utiliza la hora del día actual.
 9. Seleccione **Guardar**.
 
-![Página de nivel de servicio de órdenes de trabajo](media/19-setup-for-work-orders.png)
+![Página de nivel de servicio de órdenes de trabajo.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Crear una descripción
 
@@ -55,3 +53,6 @@ Cuando cree una orden de trabajo, puede que desee definir los niveles de servici
 2. Seleccione **Nuevo**.
 3. En el campo **Descripción**, escriba la descripción.
 4. Seleccione **Guardar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

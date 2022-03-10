@@ -3,33 +3,29 @@ title: Visión general de clasificaciones y revisiones
 description: En este tema se tratan las clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0788091755fb784621e972a0573f7004952e8e11
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792108"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982261"
 ---
-# <a name="ratings-and-reviews-overview"></a>Visión general de clasificaciones y revisiones
-
+# <a name="ratings-and-reviews-overview"></a>Información general de clasificaciones y revisiones
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan las clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
 
 Las clasificaciones y revisiones son fundamentales para los clientes de comercio electrónico que desean conocer de qué manera otros clientes perciben un producto. También pueden ayudar a los consumidores a tomar decisiones de compra. En Dynamics 365 Commerce, la solución de clasificaciones y revisiones permite a los minoristas capturar revisiones y clasificaciones de productos de clientes. Los minoristas pueden mostrar a continuación la información de la media de clasificaciones y revisiones en todo el sitio web de comercio electrónico.
 
@@ -39,7 +35,7 @@ Las funcionalidad de clasificaciones y revisiones en Dynamics 365 Commerce es un
 
 La ilustración siguiente muestra cómo funciona la solución de clasificaciones y revisiones en Dynamics 365 Commerce.
 
-![Clasificaciones y revisiones en Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Clasificaciones y revisiones en Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 La solución de clasificaciones y revisiones de Dynamics 365 Commerce usa Azure Cognitive Services para ofrecer la moderación automática de palabras profanas en 40 idiomas. Dado que no se requiere la aprobación humana, se reducen los costes de la moderación. El sistema también proporciona herramientas de moderador que se pueden usar para responder a preocupaciones de los clientes, comentarios y solicitudes de retirada, y para abordar solicitudes de los usuarios.
 
@@ -56,6 +52,14 @@ La solución de revisiones y clasificaciones también proporciona una plantilla 
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
 
 [Sincronizar clasificaciones de productos en Dynamics 365 Commerce](sync-product-ratings.md)
+
+[Habilitar la publicación manual de calificaciones y reseñas por parte de un moderador](manual-publish-rating-reviews.md)
+
+[Importación y exportación de calificaciones y opiniones](import-export-reviews.md)
+
+[Configurar autenticación de servicio a servicio](service-to-service-auth.md)
+
+[P+F de clasificaciones y revisiones](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

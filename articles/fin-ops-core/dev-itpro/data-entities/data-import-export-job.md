@@ -2,27 +2,29 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: peakerbl
-ms.date: 10/07/2021
-ms.topic: article
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612373"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071094"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Para crear y administrar la importación y exportación de datos de trabajos, debe usar el espacio de trabajo **Gestión de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
@@ -68,6 +70,9 @@ Al seleccionar una entidad, debe seleccionar el formato de los datos que se expo
 | Excel                  | Excel                                      | \-N/D-                     |
 | XML                    | \-N/D-                                      | Elemento-XML atributo-XML |
 | Delimitado, ancho fijo | Coma, punto y coma, tabulador, barra vertical, dos puntos | \-N/D-                     |
+
+> [!NOTE]
+> Es importante seleccionar el valor correcto para **Delimitador de fila**, **Delimitador de columna**, y **Calificador de texto** si la opción **Formato de archivo** está configurada en **Delimitado**. Asegúrese de que sus datos no contengan el carácter utilizado como delimitador o calificador, ya que esto puede provocar errores durante la importación y exportación.
 
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
 Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela.
@@ -201,7 +206,7 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 ## <a name="job-history-clean-up-and-archival"></a>Limpieza y archivo del historial de trabajos 
 La función de limpieza y archivo del historial de trabajos reemplaza las versiones anteriores de la función de limpieza. Esta sección explicará estas nuevas capacidades.
 
-Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finance and Operations que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
+Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finanzas y Operaciones que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
 
 El segundo cambio en el proceso de limpieza es el archivo del historial de ejecución depurado. El trabajo de limpieza archivará los registros eliminados en el almacenamiento de blobs que DIXF usa para integraciones regulares. El archivo archivado estará en el formato de paquete DIXF y estará disponible durante 7 días en el blob durante el cual se podrá descargar. La longevidad predeterminada de 7 días para el archivo archivado se puede cambiar a un máximo de 90 días en los parámetros.
 

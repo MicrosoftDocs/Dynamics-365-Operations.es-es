@@ -1,27 +1,24 @@
 ---
 title: Mejoras de cXML de compra
 description: La característica Mejoras de cXML de compra se basa en la funcionalidad de catálogo externo existente, llamada marcaje de salida, que se utiliza para las solicitudes de compra.
-author: dasani-madipalli
-manager: tfehr
+author: Henrikan
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-08-03
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d7184f14ab67d646451c8c2b1313336d47e59316
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437284"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900719"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Mejoras de cXML de compra
 
@@ -31,7 +28,7 @@ La característica _Mejoras de cXML de compra_ se basa en la [funcionalidad de c
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>Activar la característica Mejoras de cXML de compra
 
-Para activar la característica, abra la página **[Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y busque la característica denominada *Mejoras de cXML de compra*. Seleccione la característica y, a continuación, seleccione **Habilitar ahora** para activarla.
+Para activar la característica, abra la página **[Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** y busque la característica denominada *Mejoras de cXML de compra*. Seleccione la característica y, a continuación, seleccione **Habilitar ahora** para activarla. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 Después de activar la característica, debe establecer su configuración en las tres áreas siguientes:
 
@@ -41,7 +38,7 @@ Después de activar la característica, debe establecer su configuración en las
 
 En la siguiente ilustración se resume esta configuración.
 
-![Áreas para configurar características cXML](media/cxml-settings-areas.png "Áreas para configurar características cXML")
+![Áreas para configurar características cXML.](media/cxml-settings-areas.png "Áreas para configurar características cXML")
 
 Además, debe configurar el [Trabajo por lotes de solicitud de pedido de compra](#po-batch). Este trabajo por lotes se utiliza para enviar los pedidos de compra confirmadas.
 
@@ -49,7 +46,7 @@ Además, debe configurar el [Trabajo por lotes de solicitud de pedido de compra]
 
 Use la página **Parámetros de cXML** para establecer algunas opciones de configuración globales que se aplican a la funcionalidad de envío de pedidos de compra.
 
-![Página de parámetros de cXML](media/cxml-parameters.png "Página de parámetros de cXML")
+![Página de parámetros de cXML.](media/cxml-parameters.png "Página de parámetros de cXML")
 
 Vaya a **Adquisiciones y abastecimiento \> Preparar \> Administración de cXML \> Parámetros de cXML** y establezca los siguientes parámetros:
 
@@ -70,7 +67,7 @@ Cada vez que confirma un pedido de compra donde la opción **Enviar pedido de co
 - Para configurar un proveedor de forma que utilice automáticamente cXML para todos los pedidos de compra nuevos que se crean a partir de una solicitud, vaya a **Adquisiciones y abastecimiento \> Proveedores \> Todos los proveedores** y seleccione o cree un proveedor para abrir su página de detalles. En la ficha desplegable **Valores predeterminados del pedido de compra**, establezca la opción **Enviar pedido de compra a través de cXML** en _Sí_. Si también hubiera que usar cXML automáticamente para nuevos pedidos de compra que **no** se han creado a partir de una solicitud, debe establecer la propiedad **ENABLEMANUALPO** del pedido en _Verdadero_ para el catálogo externo relacionado, como se describe en la sección [Establecer las propiedades del pedido](#set-order-properties) más adelante en este tema.
 - Para pedidos de compra individuales, vaya a **Adquisiciones y abastecimiento \> Pedidos de compra \> Todos los pedidos compra** y seleccione o cree un pedido de compra para abrir su página de detalles. Cambie a la vista **Encabezado** y, en la ficha desplegable **Preparar**, establezca la opción **Enviar pedido de compra a través de cXML** según sea necesario.
 
-![Configuración predeterminada para pedidos de compra de proveedores](media/cxml-order-defaults.png "Configuración predeterminada para pedidos de compra de proveedores")
+![Configuración predeterminada para pedidos de compra de proveedores.](media/cxml-order-defaults.png "Configuración predeterminada para pedidos de compra de proveedores")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Configurar un catálogo externo para usar cXML
 
@@ -79,7 +76,7 @@ En la página **Catálogos externos** para cada uno de sus catálogos, puede con
 > [!NOTE]
 > Cuando confirma un pedido de compra que se puede enviar a través de cXML, el sistema busca el proveedor que está asociado con el pedido de compra y busca el primer catálogo externo activo que está asociado con ese proveedor. El sistema utiliza la configuración de ese catálogo externo para enviar el pedido de compra. Si se configuran varios catálogos externos, el sistema utiliza solo el primer catálogo externo que encuentra, según el proveedor del pedido de compra. Por lo tanto, le recomendamos que cree un solo catálogo externo por cada proveedor.
 
-![Configuración de catálogo externo](media/cxml-supplier-catalog.png "Configuración de catálogo externo")
+![Configuración de catálogo externo.](media/cxml-supplier-catalog.png "Configuración de catálogo externo")
 
 ### <a name="set-the-punchout-protocol-type"></a>Establecer el tipo de protocolo de marcaje de salida
 
@@ -144,13 +141,13 @@ Cuando haya terminado de configurar todas las propiedades y de establecer otras 
 
 Como se mencionó en la sección [Establecer las propiedades del pedido](#set-order-properties), si desea que el cXML entregado incluya texto de notas que se adjuntan al pedido de compra relevante o a los registros de proveedores, puede establecer las propiedades **POCOMMENTS** y/o **VENDCOMMENTOS** en _TRUE_ en la configuración del catálogo externo. Esta sección proporciona más detalles sobre cómo el sistema selecciona y procesa estos archivos adjuntos, si los usa.
 
-Para configurar los tipos de notas que buscará el sistema, vaya a **Adquisiciones y abastecimiento \> Preparar \> Formularios \> Desde la configuración**. En la ficha **Pedido de compra** configure el campo **Incluir documentos de tipo** como el tipo de nota que desea poder incluir. Solo se incluirán notas de texto, no documentos adjuntos.
+Para configurar los tipos de notas que buscará el sistema, vaya a **Adquisiciones y abastecimiento \> Preparar \> Formularios \> Configuración de formulario**. En la ficha **Pedido de compra** configure el campo **Incluir documentos de tipo** como el tipo de nota que desea poder incluir. Solo se incluirán notas de texto, no documentos adjuntos.
 
-![Página de configuración de formulario](media/cxml-form-setup.png "Página de configuración de formulario")
+![Página de configuración de formulario.](media/cxml-form-setup.png "Página de configuración de formulario")
 
 Los archivos adjuntos solo se incluirán con un pedido de compra si el campo **Tipo** se establece en el valor que seleccione en el campo **Incluir documentos de tipo**, y si el campo **Restricción** está establecido en _Externa_. Para crear, ver o editar los archivos adjuntos de un pedido de compra, vaya a **Adquisiciones y abastecimiento \> Todos los pedidos de compra**, seleccione o cree un pedido de compra y luego haga clic en el botón **Archivos adjuntos** (símbolo de un clip) en la esquina superior derecha.
 
-![Nota adjunta que está configurada para enviarse a un proveedor](media/cxml-note-to-vendor.png "Nota adjunta que está configurada para enviarse a un proveedor")
+![Nota adjunta que está configurada para enviarse a un proveedor.](media/cxml-note-to-vendor.png "Nota adjunta que está configurada para enviarse a un proveedor")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Ver el registro de mensajes de carro de cXML para el marcaje de salida del catálogo externo
 
@@ -158,7 +155,7 @@ Al establecer el campo **Tipo de protocolo de marcaje** en _cXML_ para un catál
 
 Para abrir el registro de un catálogo externo, seleccione el catálogo relevante y, en el panel de acciones, seleccione **Registro de mensajes de carro de cXML**. La página **Registro de mensajes de carro de cXML** muestra una lista de carros que se han devuelto, el código XML relacionado con esos carros y las líneas que se crearon en la solicitud de compra relacionada.
 
-![Página de registro de mensajes de carro de cXML](media/cxml-cart-message-log.png "Página de registro de mensajes de carro de cXML")
+![Página de registro de mensajes de carro de cXML.](media/cxml-cart-message-log.png "Página de registro de mensajes de carro de cXML")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Establecer los elementos extrínsecos para el marcaje de salida del catálogo externo
 
@@ -181,21 +178,21 @@ Para agregar elementos extrínsecos a un catálogo externo, siga estos pasos.
         - **Apellido**: utilice el apellido de la persona de contacto asociada al usuario que accede al catálogo externo.
         - **Número de teléfono**: utilice el número de teléfono principal de la persona de contacto asociada al usuario que accede al catálogo externo.
 
-![Configuración de elementos extrínsecos](media/cxml-extrinsics.png "Configuración de elementos extrínsecos")
+![Configuración de elementos extrínsecos.](media/cxml-extrinsics.png "Configuración de elementos extrínsecos")
 
 El usuario o administrador no verá los elementos extrínsecos, porque no se agregan hasta que el usuario realiza un marcaje de salida. Se insertarán automáticamente entre los elementos **BuyerCookie** y **BrowserFromPost** en el mensaje de solicitud de configuración cXML. Por lo tanto, no tiene que configurarlos manualmente en el código XML al configurar el catálogo externo.
 
-![Elementos extrínsecos agregados al código XML](media/cxml-extrinsics-xml.png "Elementos extrínsecos agregados al código XML")
+![Elementos extrínsecos agregados al código XML.](media/cxml-extrinsics-xml.png "Elementos extrínsecos agregados al código XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Crear y procesar un pedido de compra
 
 Al crear un pedido de compra para un proveedor, heredará la configuración de la opción **Enviar pedido de compra a través de cXML** de ese proveedor. Sin embargo, el ajuste permanece disponible en la ficha desplegable **Preparar** en la vista **Encabezado** del pedido de compra, para que pueda cambiarla más tarde según sea necesario.
 
-![Pedido de compra configurado para usar cXML](media/cxml-purchase-order.png "Pedido de compra configurado para usar cXML")
+![Pedido de compra configurado para usar cXML.](media/cxml-purchase-order.png "Pedido de compra configurado para usar cXML")
 
 Al crear un pedido de compra a partir de una solicitud de compra que proviene de un flujo de marcaje de salida, se rellenarán todos los detalles de la línea requerida. Después puede agregar manualmente líneas de pedido de compra o copiarlas de otros pedidos de compra. Asegúrese de configurar todos los campos obligatorios. Estos campos obligatorios incluyen el número de referencia externo, que es el número de proveedor que se utilizará en el mensaje cXML.
 
-![Ejemplo de un número de referencia externo](media/cxml-line-details.png "Ejemplo de un número de referencia externo")
+![Ejemplo de un número de referencia externo.](media/cxml-line-details.png "Ejemplo de un número de referencia externo")
 
 Cuando haya terminado de rellenar todos los detalles del pedido de compra, asegúrese de confirmarlo. No se envía ningún mensaje a menos que se confirme el pedido de compra. Para confirmar un pedido de compra, en el panel de acciones, en la pestaña **Compra**, en el grupo **Acciones**, seleccione **Confirmar** para confirmar el pedido de compra. 
 
@@ -203,17 +200,17 @@ Una vez confirmado el pedido de compra, puede ver el estado de la confirmación 
 
 Cada pedido de compra puede tener muchas confirmaciones. Cada confirmación está marcada con un número incremental. En la siguiente ilustración, el pedido de compra es *00000275* y la confirmación es *00000275-1*. Esta numeración refleja la funcionalidad estándar de Supply Chain Management, en la que los cambios en una pedido de compra y, por lo tanto, el tipo de mensaje cXML que debe enviarse al proveedor, se identifican en función de la confirmación. Como muestra la ilustración, la página **Confirmaciones de pedidos de compra** también incluye los campos **Estado de envío del pedido** y **Estado de proveedor de solicitud de pedido**. Para obtener más información sobre los distintos valores de estado que puede ver en esta página, consulte la sección [Supervisar las solicitudes de pedido de compra](#monitor-po-requests) más adelante en este tema.
 
-![Página de confirmaciones de pedidos de compra](media/cxml-po-confirmations.png "Página de confirmaciones de pedidos de compra")
+![Página de confirmaciones de pedidos de compra.](media/cxml-po-confirmations.png "Página de confirmaciones de pedidos de compra")
 
 Para ver más información sobre el documento, seleccione **Solicitud de pedido de compra** encima de la cuadrícula.
 
 La página **Solicitud de pedido de compra** incluye dos cuadrículas. La cuadrícula en la parte superior de la página tiene un registro para cada pedido de compra que esté marcada para enviar. La cuadrícula de la ficha **Historial de solicitudes de pedido de compra** en la parte inferior de la página puede tener varios registros para el pedido de compra seleccionado, a fin de indicar el estado de cada confirmación. La siguiente ilustración muestra el pedido de compra 00000275 en la cuadrícula superior y el documento 00000275-1 en la cuadrícula de la ficha **Historial de solicitudes de pedido de compra**.
 
-![Página de solicitud de pedido de compra](media/cxml-po-request.png "Página de solicitud de pedido de compra")
+![Página de solicitud de pedido de compra.](media/cxml-po-request.png "Página de solicitud de pedido de compra")
 
 Si el trabajo por lotes está configurado y en ejecución, se enviará el documento. Puede ver el cambio de estado después de que se haya enviado el documento. En la siguiente ilustración, el campo **Estado de envío del pedido** está establecido en _Enviado_. El campo **Estado de proveedor de solicitud de pedido** está establecido en _Confirmado_ para indicar que el proveedor recibió el documento y pudo leerlo y almacenarlo en su sistema. La cuadrícula de la pestaña **Historial de solicitudes de pedido de compra** muestra la hora a la que se envió el documento. Para obtener más información sobre los distintos valores de estado que puede ver en esta página, consulte la sección [Supervisar las solicitudes de pedido de compra](#monitor-po-requests).
 
-![Mensajes de estado en la página Solicitud de pedido de compra](media/cxml-po-request-2.png "Mensajes de estado en la página Solicitud de pedido de compra")
+![Mensajes de estado en la página Solicitud de pedido de compra.](media/cxml-po-request-2.png "Mensajes de estado en la página Solicitud de pedido de compra")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Programar el trabajo por lotes de solicitud de pedido de compra
 
@@ -229,7 +226,7 @@ El proceso buscará documentos de solicitud de pedido de compra que tengan el es
 
 Cuando se confirman los pedidos que se pueden enviar a través de cXML, pasan a estado _En espera_. Como se describió en la sección [Crear y procesar un pedido de compra](#create-po), puede ver el estado del pedido de compra en la página **Solicitud de pedido de compra**. Cada solicitud de pedido de compra puede tener uno de varios estados, según sus parámetros y datos. Esta sección describe los distintos tipos de estado y los valores que pueden tener. Esta información puede ayudarle a administrar problemas y a comprender el estado de sus pedidos de compra.
 
-![Estado de pedido de compra en la página Solicitud de pedido de compra](media/cxml-monitor-po-request.png "Estado de pedido de compra en la página Solicitud de pedido de compra")
+![Estado de pedido de compra en la página Solicitud de pedido de compra.](media/cxml-monitor-po-request.png "Estado de pedido de compra en la página Solicitud de pedido de compra")
 
 La cuadrícula en la parte superior de la página **Solicitud de pedido de compra** puede mostrar los siguientes valores de estado:
 
@@ -265,15 +262,18 @@ La cuadrícula de la pestaña **Historial de solicitudes de pedido de compra** e
 
 Para ver el XML del mensaje de solicitud de pedido de compra, seleccione la pestaña **Texto de XML de solicitud** en la parte inferior de la página **Solicitud de pedido de compra**. La información de esta pestaña puede ser útil durante las pruebas o la validación de errores. Para que la información sea más fácil de leer, puede verla como un mensaje formateado. Copie el contenido de la pestaña en un archivo de texto y luego visualícelo en un editor XML.
 
-![Pestaña Texto de XML de solicitud](media/cxml-request-xml-text.png "Pestaña Texto de XML de solicitud")
+![Pestaña Texto de XML de solicitud.](media/cxml-request-xml-text.png "Pestaña Texto de XML de solicitud")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Ver los detalles de la respuesta del proveedor
 
 Para ver el contenido de una confirmación de proveedor o una respuesta de error, seleccione la pestaña **XML de respuesta** en la parte inferior de la página **Solicitud de pedido de compra**.
 
-![Pestaña XML de respuesta](media/cxml-response-xml.png "Pestaña XML de respuesta")
+![Pestaña XML de respuesta.](media/cxml-response-xml.png "Pestaña XML de respuesta")
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configurar un catálogo externo para la adquisición electrónica de marcaje de salida](set-up-external-catalog-for-punchout.md)
 - [Usar catálogos externos para la adquisición electrónica de marcaje de salida](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

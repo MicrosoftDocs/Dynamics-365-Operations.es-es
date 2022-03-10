@@ -1,12 +1,10 @@
 ---
-title: Asistente de configuración de planificación maestra
-description: En este tema se describen distintas estrategias y parámetros importantes que se utilizan para configurar una planificación maestra.
-author: t-benebo
-manager: tfehr
+title: Asistencia de configuración de planificación maestra (contiene vídeo)
+description: Este tema describe cómo ejecutar el asistente de configuración de planificación maestra para configurar la planificación maestra.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 2f2ec94b8d3bce9ca9fb565fe06b268f5c7458fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005036"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937642"
 ---
-# <a name="master-planning-setup-wizard"></a>Asistente de configuración de planificación maestra
+# <a name="master-planning-setup-wizard"></a>Asistencia de configuración de planificación maestra
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,13 +45,13 @@ La primera página del asistente pregunta por los requisitos específicos de la 
 
 Si el número de subprocesos calculado excede el 75 por ciento del número de subprocesos disponible, se limita en el 75 por ciento del número de subprocesos que está disponible para cada cliente. (El número de subprocesos disponible será determinado para cada cliente).
 
-Para más información, consulte [Número de subprocesos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Para más información, consulte [Número de subprocesos](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Tamaño de agrupación de trabajos
 
 El tamaño de la agrupación de trabajos se establecerá en **1**. Este valor es a menudo el mejor valor, ya que ayuda a mejorar el rendimiento de la planificación maestra.
 
-Para obtener más información, consulte [Número de tareas en la agrupación de trabajos del ayudante](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Para obtener más información, consulte [Número de tareas en la agrupación de trabajos del ayudante](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Tamaño de agrupación de trabajos de puesta en firme
 
@@ -66,7 +64,7 @@ Cálculo de la agrupación de trabajos = (Número de pedidos planificados × (l�
 
 El tamaño de caché se establecerá en **Máximo**. Este valor es a menudo el mejor valor, ya que ayuda a mejorar el rendimiento de la planificación maestra.
 
-Para obtener más información, consulte [Asignar tiempo a los trabajos de una agrupación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Para obtener más información, consulte [Asignar tiempo a los trabajos de una agrupación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Configuración de la fabricación
 
@@ -90,7 +88,7 @@ La resto de las preguntas en esta página y sus respuestas siguen el mismo esque
 - **Sí, como se define en este plan maestro**: la opción **Plan de previsión (límite de tiempo)** se establecerá en **Sí**. Se usará el número de días que especifique y se invalidarán los valores que se establecen en los grupos de cobertura.
 - **Sí, como se define en el grupo de cobertura**: la opción **Plan de previsión (límite de tiempo)** se establecerá en **No**.
 
-Para obtener más información, consulte [Programación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obtener más información, consulte [Programación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opciones de programación
 
@@ -101,7 +99,7 @@ La respuesta a la primera pregunta de esta página (“¿Necesita programar las 
 - **Sí**: se usará la programación de trabajos.
 - **No**. se ussará la programación de operaciones.
 
-Para obtener más información, consulte [Programación de operaciones](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) y [Programación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obtener más información, consulte [Programación de operaciones](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) y [Programación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Actualizaciones de demanda y suministro
 
@@ -208,3 +206,6 @@ En el asistente, se especifican los siguientes valores para Contoso Retailer:
     - **Respuesta:** “Sí, como se define en este plan maestro”. Se especifica **1 día**.
 
     Contoso usa las solicitudes aprobadas de sus tiendas para crear pedidos de compra planificados para reabastecer las tiendas. Dado que la planificación maestra se ejecuta cada día, se incluirán en la planificación las solicitudes a partir del último día.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

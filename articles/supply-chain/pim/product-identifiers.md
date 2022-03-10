@@ -1,7 +1,7 @@
 ---
 title: Identificadores de producto
 description: Este tema proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
-author: cvocph
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
@@ -13,19 +13,19 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 1e706e184f0bdf3a44e69640a85a15d9cd3d0fb2ae097d6605a9a401d6da9051
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746972"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063350"
 ---
 # <a name="product-identifiers"></a>Identificadores de producto
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ En Dynamics 365 Supply Chain Management el identificador principal de un product
 
 En muchos casos, el número de producto no se crea originalmente en Dynamics 365 Supply Chain Management. En su lugar, se ha asociado a un producto en un sistema de administración del ciclo de vida del producto (PLM) o un sistema de gestión de datos de producto (PDM). En este caso, se utilizan entidades de datos para importar los productos y las variantes de producto. Supply Chain Management usa los números de todas las operaciones.
 
-Cuando implementa Supply Chain Management debe prestar especial atención a su estrategia para los números de producto. Un buen sistema de numeración mejora los flujos de logística y ayuda a evitar errores. Un buen identificador de producto tiene un máximo de 15 caracteres. Idealmente, tiene menos de 10 caracteres y no incluye más de cinco caracteres de clasificación. También puede usar nombres de búsqueda para habilitar búsquedas rápidas. Un nombre de búsqueda es un nombre extra que representa las clasificaciones de un producto.
+Cuando implementa Supply Chain Management debe prestar especial atención a su estrategia para los números de producto. Un buen sistema de numeración mejora los flujos de logística y ayuda a evitar errores. Un buen identificador de producto generalmente debe tener 20 caracteres o menos, pero generalmente recomendamos usar menos de 10 caracteres y no incluir más de 5 caracteres de clasificación. También puede usar nombres de búsqueda para habilitar búsquedas rápidas. Un nombre de búsqueda es un nombre extra que representa las clasificaciones de un producto.
 
 Cuando use Microsoft Dataverse, el número del producto en Supply Chain Management es también el número de producto en Microsoft Dataverse. Las variantes de producto se sincronizan con Dataverse como productos únicos.
 

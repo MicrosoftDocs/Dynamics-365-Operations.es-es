@@ -2,11 +2,9 @@
 title: Configurar libros de contabilidad
 description: Este tema proporciona información sobre cómo configurar libros contables para cada entidad jurídica. Incluye información sobre cómo seleccionar las divisas, los calendarios fiscales, el plan de cuentas y las estructuras de cuentas que deben usarse con cada entidad jurídica.
 author: kweekley
-manager: ''
 ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712228"
 ---
 # <a name="configure-ledgers"></a>Configurar libros de contabilidad
 
@@ -81,3 +79,6 @@ Si usa dos divisas, o si usa una sola divisa pero las transacciones se registran
 Las ganancias y pérdidas realizadas son ganancias y pérdidas que se obtienen a partir de transacciones completadas. Se registran en el balance de pérdidas y ganancias. Las ganancias y pérdidas no realizadas son ganancias y pérdidas que se han materializado, pero la transacción no está completa. En otras palabras, ha registrado una factura, por ejemplo, pero la factura aún no se ha liquidado ni pagado. Las ganancias y pérdidas no realizadas se registran en el balance de situación.
 
 Para obtener más información sobre cómo usar dos divisas, consulte [Divisa doble](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,15 +10,15 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360433"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578689"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 

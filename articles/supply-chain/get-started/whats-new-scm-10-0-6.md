@@ -1,28 +1,25 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.6 (noviembre de 2019)
 description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.6.
-author: josaw1
-manager: tfehr
+author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9ee25036488d2f7f24c1691d36239f3f34caf0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436902"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568912"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.6 (noviembre de 2019)
 
@@ -59,7 +56,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.6 incluye la Platform update
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: segunda oleada de lanzamiento de versiones de 2019
 ¿Le gustaría conocer las nuevas y futuras funcionalidades disponibles en nuestra plataforma y en nuestras aplicaciones empresariales?
 
-Consulte [Dynamics 365: plan de la segunda oleada de lanzamiento de versiones de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
+Consulte [Dynamics 365: plan de la segunda oleada de lanzamiento de versiones de 2019](/dynamics365-release-plan/2019wave2/). Hemos recogido absolutamente todos los detalles en un solo documento que puede usar para la planificación.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
@@ -71,3 +68,6 @@ En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain M
 Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

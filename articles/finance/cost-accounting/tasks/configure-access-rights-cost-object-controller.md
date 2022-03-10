@@ -2,11 +2,9 @@
 title: Configurar los derechos de acceso para un controlador de objeto de coste
 description: Use este procedimiento para configurar los derechos de acceso para el controlador de objeto de coste.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d6208e867bd322ddfc4e599856b1905fa8e19b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 70428b653f1263f5c753e0c2d756238b647fe4ba657add467a0142369bbbdd8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778323"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Configurar los derechos de acceso para un controlador de objeto de coste
 
@@ -68,3 +66,6 @@ Use este procedimiento para configurar los derechos de acceso para el controlado
     * Si selecciona Sí, un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes, funcionario contable de costes y controlador de objetos de coste. Si selecciona No, solo un usuario al que se asigna uno de los cuatro roles siguientes puede ver los informes del área de trabajo de control de costes: administrador de contabilidad de costes, contable de costes y funcionario contable de costes.    
 9. Haga clic en Guardar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

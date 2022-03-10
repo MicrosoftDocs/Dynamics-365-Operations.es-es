@@ -1,30 +1,27 @@
 ---
 title: Supervisión de la precisión de previsión
 description: Este tema describe los tipos de precisión de previsión que Dynamics 365 Supply Chain Management calcula, y se explica cómo puede ver los valores de precisos.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4246a277aa5d88193c18336cb1de69916ec2a3c2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4437082"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565792"
 ---
 # <a name="monitor-forecast-accuracy"></a>Supervisión de la precisión de previsión
 
@@ -41,8 +38,7 @@ Supply Chain Management calcula los siguientes tipos de precisión de previsión
 > Si usa el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda, el cálculo de la precisión del modelo interno se basa en el conjunto de datos de prueba. Para especificar el tamaño del conjunto de datos de la prueba, establezca el parámetro **TEST\_SET\_SIZE\_PERCENT** en la página **Parámetros de previsión de demanda**. Por ejemplo, si establece el valor a **20**, el último 20 por ciento de los datos históricos se usarán para calcular la precisión de modelo interna.
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Autorizar previsión de la demanda ajustada](authorize-adjusted-forecast.md)
 
@@ -50,3 +46,6 @@ Supply Chain Management calcula los siguientes tipos de precisión de previsión
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

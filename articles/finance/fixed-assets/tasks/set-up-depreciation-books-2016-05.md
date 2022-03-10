@@ -1,27 +1,24 @@
 ---
 title: Configurar libros de amortización
 description: Este procedimiento explica el proceso de creación de un nuevo libro de amortización y lo asocia con un grupo de activos fijos.
-author: saraschi2
-manager: AnnBe
+author: moaamer
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b8a15ac60fd2620c600d78b84a25e3caf6d2bf
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447677"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883629"
 ---
 # <a name="set-up-depreciation-books"></a>Configurar libros de amortización 
 
@@ -55,3 +52,6 @@ Este procedimiento explica el proceso de creación de un nuevo libro de amortiza
 6. En el campo Tiempo de vida, especifique un número.
     * Tenga en cuenta que el valor del campo Períodos de depreciación se calcula después de definir el tiempo de vida.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

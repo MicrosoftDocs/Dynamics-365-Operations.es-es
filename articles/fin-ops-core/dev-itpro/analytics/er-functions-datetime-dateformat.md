@@ -2,9 +2,7 @@
 title: Función DATEFORMAT ER
 description: En este tema se proporciona información sobre cómo usar la función DATEFORMAT de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
-ms.date: 01/04/2021
-ms.topic: article
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a9580b0ab9e472796375f498059ec0864a919ce
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4a6c113f5f8147cbeaab103e86a44d4c66272c13
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563663"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485501"
 ---
 # <a name="dateformat-er-function"></a>Función DATEFORMAT ER
 
 [!include [banner](../includes/banner.md)]
 
-La función `DATEFORMAT` devuelve un valor *Cadena* que presenta un valor determinado de fecha como texto en el formato especificado y en una [cultura](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcional especificada. Para obtener información acerca de los formatos admitidos, vea [estándar](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) y [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).
+La función `DATEFORMAT` devuelve un valor *[Cadena](er-formula-supported-data-types-primitive.md#string)* que presenta un valor determinado de fecha como texto en el formato especificado y en una [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) opcional especificada. Para obtener información acerca de los formatos admitidos, vea [estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings) y [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Sintaxis 1
 
@@ -43,20 +41,20 @@ DATEFORMAT (date, format, culture)
 
 ## <a name="arguments"></a>Argumentos
 
-`date`: *Fecha*
+`date`: *[Fecha](er-formula-supported-data-types-primitive.md#date)*
 
 Un valor de fecha / hora que representa la fecha a formatear.
 
 `format`: *Cadena*
 
-El formato de la cadena de salida.
+El formato de la cadena de salida. Para obtener información acerca de los formatos admitidos, vea [estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings) y [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
-> La cadena de formato distingue mayúsculas de minúsculas cuando utiliza un formato estándar o un formato personalizado. Por ejemplo, el especificador de formato "d" [estándar](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) devuelve la fecha utilizando el patrón de fecha corta, mientras que el especificador de formato estándar "D" devuelve la fecha utilizando el patrón de fecha larga. Además, el especificador de formato "M" [personalizado](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) devuelve los meses del 1 al 12, mientras que el especificador de formato personalizado "m" devuelve los minutos del 0 al 59.
+> La cadena de formato distingue mayúsculas de minúsculas cuando utiliza un formato estándar o un formato personalizado. Por ejemplo, el especificador de formato "d" [estándar](/dotnet/standard/base-types/standard-date-and-time-format-strings) devuelve la fecha utilizando el patrón de fecha corta, mientras que el especificador de formato estándar "D" devuelve la fecha utilizando el patrón de fecha larga. Además, el especificador de formato "M" [personalizado](/dotnet/standard/base-types/custom-date-and-time-format-strings) devuelve los meses del 1 al 12, mientras que el especificador de formato personalizado "m" devuelve los minutos del 0 al 59.
 
 `culture`: *Cadena*
 
-La cultura a utilizar para formatear.
+La cultura a utilizar para formatear. Para obtener información sobre las culturas admitidas, consulte [cultura](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Valores de retorno
 

@@ -2,30 +2,27 @@
 title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233088"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087379"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Exposición de la función
 
@@ -43,7 +40,7 @@ Para poder usar el producto en la gestión del almacén, debe hacer cierta confi
 - Configurar un grupo de la secuencia de la unidad en la unidad de peso capturado se define como la referencia de almacén inferior (SKU).
 - Configurar una directiva de manipulación de artículos con peso capturado
 
-Para obtener más información, consulte [Configuración y mantenimiento de artículos con peso capturado](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Para obtener más información, consulte [Configuración y mantenimiento de artículos con peso capturado](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Ajustes de transacciones
 
@@ -52,7 +49,7 @@ Dado que el peso del inventario cuando especifica un almacén puede ser diferent
 > [!NOTE]
 > La actividad de dispositivo móvil solo activará los ajustes de la transacción si el método de desviación de peso de salida de la directiva de manipulación de artículos de peso capturado del artículo es **Permitir la desviación del peso**.
 
-**Ejemplo 1**
+### <a name="example-1"></a>Ejemplo 1
 
 Durante un proceso de producción **Notificar como terminado** , el peso de entrada de una matrícula de entidad de almacén que contiene ocho cajas de un producto con peso capturado se captura como 80,1 kilogramos. La matrícula de entidad se almacena en el área de productos finalizados y durante el proceso de almacenado, algo de peso se pierde en el aire.
 
@@ -60,7 +57,7 @@ Más adelante, como parte de un proceso de selección de pedido de ventas, el pe
 
 En este caso, el sistema ajusta automáticamente la diferencia registrando una transacción para los 0,3 kg que faltan.
 
-**Ejemplo 2**
+### <a name="example-2"></a>Ejemplo 2
 
 En su definición, un producto se configura para tolerar un peso mínimo de 8 kilogramos y un máximo de 12 kg para la unidad **Caja** de peso capturado.
 
@@ -106,7 +103,7 @@ Además, cuando se realiza un seguimiento de etiqueta de un artículo, hay un pa
 **Cuando se usa el seguimiento de la etiqueta de peso capturado**, siempre se debe crear una etiqueta para cada unidad de peso capturado recibida, y cada etiqueta debe asociarse siempre a un peso.
 
 Por ejemplo, **Caja** es la unidad de peso capturado, y usted recibe un pallet de ocho cajas. En este caso, deberán crearse ocho etiquetas únicas de peso capturado, y un peso se debe asociar a cada etiqueta. En función de la etiqueta de entrada con peso capturado, el peso de las ocho cajas puede capturarse, y el peso medio se puede distribuir a cada caja, o se puede capturar un peso único para cada caja.
-Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación de almacén no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
+Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación móvil Warehouse Management no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
 
 **Cuando el seguimiento de etiquetas de peso capturado no se usa**, el peso se puede capturar para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y cada dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
 
@@ -141,7 +138,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 - Los productos con peso capturado con variante habilitada no se pueden usar junto con la funcionalidad para convertir unidades de medida variables.
 - No se puede marcar productos de peso capturado como "kit de producto" comercial.
 - Los productos con peso capturado sólo se pueden usar en un grupo de secuencias que tenga unidades de gestión de material de peso capturado y que contenga la unidad de peso capturado como la secuencia más baja.
-- Para los productos con peso capturado, la unidad de inventario se puede convertir a la unidad de peso capturado si la conversión genera una cantidad nominal mayor de 1.
 - La configuración de los códigos de barras para los productos con peso capturado no admite una configuración variable de peso.
 
 ### <a name="order-processing"></a>Procesamiento de pedidos
@@ -194,7 +190,11 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 
 ### <a name="catch-weight-tags"></a>Etiquetas de peso capturado
 
-Una etiqueta de peso capturado se puede crear mediante un proceso de la aplicación de almacén, manualmente en el formulario o mediante un proceso de la entidad de datos. Si una etiqueta de peso capturado se asocia a una línea de entrada del documento de origen, como por ejemplo una línea de pedido de compra, se registra la etiqueta. Si la línea se utiliza para el procesamiento de salida, se actualizará la etiqueta como enviada.
+Una etiqueta de peso capturado se puede crear mediante un proceso de la aplicación móvil Warehouse Management, manualmente en el formulario **Administración de almacén > Consultas e informes > Etiqueta de peso capturado** o mediante un proceso de la entidad de datos. Si una etiqueta de peso capturado se asocia a una línea de entrada del documento de origen, como por ejemplo una línea de pedido de compra, se registra la etiqueta. Si la línea se utiliza para el procesamiento de salida, se actualizará la etiqueta como enviada. Puede ver todos los eventos históricos de registro de etiquetas de peso capturado a través de la opción **Registro de la etiqueta de captura de peso** de la página **Etiqueta de peso capturado**.
+
+Puede usar la opción **Cambiar la etiqueta de peso capturado** para actualizar manualmente el valor de peso para una etiqueta de peso capturado. Tenga en cuenta que el peso del inventario disponible no se ajustará como parte de este proceso manual, pero puede utilizar fácilmente la página **Discrepancias disponibles para artículos etiquetados con peso capturado** para buscar cualquier discrepancia entre las etiquetas de peso capturado actualmente activas y el inventario actual.
+
+Otras opciones manuales son **Registrar etiqueta** a una línea de documento de origen y **Registrar trabajo** contra un trabajo de almacén existente.
 
 Además de las restricciones que se aplican actualmente para los productos de peso capturado, los productos de peso capturado etiquetados tienen otras restricciones que se aplican actualmente.
 

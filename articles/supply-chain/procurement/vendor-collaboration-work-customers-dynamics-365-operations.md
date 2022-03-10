@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908044"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022983"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
@@ -78,7 +78,7 @@ Si está usando el inventario de entrega, puede usar la interfaz de colaboraci
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Trabajo con solicitudes de presupuesto en el área de trabajo de oferta del proveedor
 
-El área de trabajo **Oferta del proveedor** permite ver las solicitudes de presupuesto (RFQ) a las que su empresa ha sido invitada a responder. También puede responder a las solicitudes de presupuesto. 
+El área de trabajo **Oferta del proveedor** permite ver las solicitudes de presupuesto (RFQ) a las que su empresa ha sido invitada a responder. También puede responder a las solicitudes de presupuesto.
 
 El área de trabajo también muestra a todas las solicitudes de presupuesto que ha perdido o ha obtenido. Además, si el sistema está configurado para el sector público, el área de trabajo muestra las solicitudes de presupuesto que están disponibles al público.
 
@@ -100,9 +100,17 @@ Las personas que trabajan en el sector público pueden ver las solicitudes de pr
 
 - Seleccione el vínculo **Solicitudes de presupuestos publicadas abiertas** para ver una lista de solicitudes de presupuesto abiertas disponibles para el público. Una solicitud de presupuesto abierta es una solicitud de presupuesto que aún no ha vencido. Puede encontrar la fecha y hora de vencimiento en el encabezado de la solicitud de presupuesto.
 
-    Si ha sido invitado a realizar una oferta, puede encontrar la misma solicitud de presupuesto en la página **Nuevas invitaciones a oferta**. En ocasiones, puede que desee realizar una oferta de una solicitud de presupuesto abierta, pero no ha sido invitado a realizar una oferta. En este caso, podrá invitarse usted mismo, siempre que el cliente haya habilitado la auto-invitación para el caso de solicitud de presupuesto.
+    Si ha sido invitado a realizar una oferta, puede encontrar la misma solicitud de presupuesto en la página **Nuevas invitaciones a oferta**. En ocasiones, puede que desee realizar una oferta de una solicitud de presupuesto abierta, pero no ha sido invitado a realizar una oferta. En este caso, podrá invitarse usted mismo, siempre que el cliente haya habilitado la auto-invitación para el caso de solicitud de presupuesto. 
 
-    Mejore la accesibilidad del enlace **Abrir solicitudes de cotizaciones publicadas** activando la función **Mostrar el vínculo "Abrir solicitudes de cotización publicadas" como mosaico**. Esta función convierte el enlace en un mosaico y lo mueve a una ubicación destacada para que sea fácil de encontrar.
+    La página **Nuevas convocatorias de ofertas** puede proporcionar un filtro que le permite ver las RFQ abiertas e identificar aquellas que contienen líneas que coinciden con sus categorías de compras aprobadas. Para que este filtro esté disponible, debe activar la función *Permitir que los proveedores busquen RFQ por categoría de adquisición* en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de esta característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+
+    - **Módulo**: *Proveedores*
+    - **Nombre de la función:** *Permitir que los proveedores busquen RFQ por categoría de adquisición* <!-- KFM: I don't see this here, is this right? -->
+
+    Puede mejorar la accesibilidad del enlace **Abrir solicitudes de cotizaciones publicadas** activando la función *Mostrar el vínculo "Abrir solicitudes de cotización publicadas" como mosaico*. Esta función convierte el enlace en un mosaico y lo mueve a una ubicación destacada para que sea fácil de encontrar. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de esta característica y activarla si es necesario. (A partir de la versión 10.0.21 de Supply Chain Management, la función está activada de forma predeterminada). Allí, la función se muestra de la siguiente manera:
+
+    - **Módulo**: *Adquisición y abastecimiento*
+    - **Nombre de la característica**: *Mostrar el vínculo Abrir solicitudes publicadas para presupuestos como icono*
 
 - Seleccione el vínculo **Solicitudes de presupuestos publicadas cerradas** para ver una lista de solicitudes de presupuesto cerradas disponibles para el público. Una solicitud de presupuesto cerrada es una solicitud de presupuesto que ha vencido. Puede encontrar la fecha y hora de vencimiento en el encabezado de la solicitud de presupuesto.
 

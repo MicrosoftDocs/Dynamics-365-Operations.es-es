@@ -2,11 +2,9 @@
 title: Descuentos por pronto pago
 description: Los descuentos por pronto pago se configuran y se comparten para Proveedores y Clientes.  El descuento por pronto pago disponible se puede definir en la factura de cliente o la factura de proveedor, y se tomará si la factura se paga dentro de la fecha de descuento por pronto pago.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d4f6d5bdf4f2fdc4529d9f51515ed2ac4b5b3b5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91249186b6f2c7647991d7adb1a2fffd87de65f226345e74cc41460b68a7e6fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775155"
 ---
 # <a name="cash-discounts"></a>Descuentos por pronto pago
 
@@ -65,3 +63,6 @@ El 15 de febrero se registra una factura de 1000 dólares con términos de descu
 > [!NOTE]
 > Si está seleccionada la opción Calcular descuento por pronto pago para pagos parciales en la página Parámetros de clientes o Parámetros de proveedores, se usa el tipo de cambio que esté en vigor en la fecha de cada pago parcial. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

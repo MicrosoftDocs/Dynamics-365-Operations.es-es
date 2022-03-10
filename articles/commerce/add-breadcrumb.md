@@ -1,12 +1,10 @@
 ---
 title: Módulo de navegación
-description: En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986088"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109741"
 ---
-# <a name="breadcrumb-module"></a>Módulo de navegación
+# <a name="breadcrumb-module"></a>Módulo de ruta de navegación
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Información general
+En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Los módulos de navegación se utilizan para proporcionar navegación secundaria en las páginas del sitio. Por lo general, se muestran en la parte superior de las páginas, debajo del encabezado. Aunque los módulos de navegación se pueden agregar a cualquier página, se usan con mayor frecuencia en páginas de detalles de productos (PDP), para mostrar la jerarquía de categorías de productos y proporcionar una forma rápida de moverse por un sitio. Un módulo de navegación también se puede utilizar para mostrar un vínculo "Volver a los resultados" cuando los usuarios abren un PDP desde una página de búsqueda o lista. De esta manera, los usuarios pueden regresar rápidamente a su página de lista filtrada para continuar comprando.
 
@@ -41,7 +37,7 @@ En las páginas que tienen contexto de categoría de producto, como PDP y págin
 
 La siguiente imagen muestra un ejemplo de un módulo de navegación que muestra la jerarquía de categorías en un PDP.
 
-![Ejemplo de un módulo de navegación](./media/ecommerce-breadcrumb.PNG)
+![Ejemplo de un módulo de navegación.](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Configuración del módulo de navegación
 
@@ -85,7 +81,7 @@ Para agregar un módulo de navegación a un PDP y establecer las propiedades nec
 
 [Módulo de menú de navegación](nav-menu-module.md)
 
-[Módulo selector de sitio](site-selector.md)
+[Módulo de selector de sitios](site-selector.md)
 
 [Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
@@ -94,3 +90,6 @@ Para agregar un módulo de navegación a un PDP y establecer las propiedades nec
 [Módulo de cuadro de compra](add-buy-box.md)
 
 [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

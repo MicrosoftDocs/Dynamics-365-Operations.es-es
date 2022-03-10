@@ -1,26 +1,24 @@
 ---
 title: Generar y procesar devoluciones de cliente
 description: Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54242bfac2fa8dbdd982d36083c1dd0f4b8e077e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006800"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969096"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
@@ -64,14 +62,14 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
 
 ## <a name="process-rebate-claims"></a>Procesar demandas de devolución
 1. Vaya al **Panel de navegación > Módulos > Ventas y marketing >Devoluciones de cliente > Devoluciones**.
-    - La página Devoluciones funciona como área de trabajo desde donde se pueden revisar, aprobar y procesar reclamaciones de devoluciones. Ahora procesará las reclamaciones creadas como resultado de facturar un pedido de ventas para el cliente US-009, el tema del acuerdo de devolución USMF-000001.   
+    - La página Devoluciones funciona como un banco de trabajo donde se pueden revisar, aprobar y procesar reclamaciones. Ahora procesará las reclamaciones creadas como resultado de facturar un pedido de ventas para el cliente US-009, el tema del acuerdo de devolución USMF-000001.   
     - La primera línea representa una reclamación de devolución de 800 USD, que se basa en las ventas de 40 unidades del producto T0020, calculado a 20 USD por unidad. Esto coincide con las condiciones del primer nivel de cantidad del acuerdo de devolución.  
     - La segunda reclamación es por 2.400 USD y se basa en la venta de 60 unidades del producto T0020, calculado a 40 USD por unidad, según el segunda nivel de cantidad del acuerdo.  
     - Ambas reclamaciones se encuentran en estado "Para calcularse". Esto significa que están asociadas con un contrato que sigue el rendimiento de ventas del cliente periódicamente y que tienen que volver a calcularse para representar el volumen total de ventas dentro del período correspondiente.   
 2. Haga clic en **Acumular**.
 3. En el campo **Cliente**, especifique o seleccione un valor.
 4. En el campo **Fecha inicial**, seleccione la fecha en curso.
-5. Haga clic en **Aceptar**. Como resultado de ejecutar la función **Acumular**, el importe de la reclamación estimado se ha ajustado para responder al hecho de que el volumen total de ventas del cliente en el período relevante es mayor que cuando se generó la primera devolución. Más concretamente, puesto que la cantidad comprada total ha alcanzado las 100 unidades, el cliente ahora puede optar a 40 USD por unidad (según el segundo nivel de cantidades del acuerdo), o a 400 USD de devolución total. La diferencia se registra como nuevo "ajuste" de reclamación por 800 USD adicionales. Ahora el estado de las reclamaciones de devolución incluidas en la actualización Acumular están definidas en Calculado. 
+5. Haga clic en **Aceptar**. Como resultado de ejecutar la función **Acumular**, el importe de la reclamación estimado se ha ajustado para responder al hecho de que el volumen total de ventas del cliente en el período relevante es mayor que cuando se generó la primera devolución. Más concretamente, puesto que la cantidad comprada total ha alcanzado las 100 unidades, el cliente ahora puede optar a 40 USD por unidad (según el segundo nivel de cantidades del acuerdo), o a 4,000 USD de devolución total. La diferencia se registra como nuevo "ajuste" de reclamación por 800 USD adicionales. Ahora el estado de las reclamaciones de devolución incluidas en la actualización Acumular están definidas en Calculado. 
 6. En la lista, marque todas las filas.
 7. Haga clic en **Aprobar**.
 8. Haga clic **Procesar**.
@@ -81,3 +79,6 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
     - La cuenta de acumulación de devoluciones se ha abonado para representar el pasivo de futuros del cliente.
     - La cuenta de gastos de la devolución se ha abonado, para reconocer el coste que se incurrió en relación con las ventas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

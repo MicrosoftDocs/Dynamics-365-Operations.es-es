@@ -1,33 +1,26 @@
 ---
 title: Cambiar entre diseños de proveedor
-description: Este tema describe como cambiar la integración de datos de proveedor entre aplicaciones de Finance and Operations y Dataverse.
+description: Este tema describe como cambiar la integración de datos de proveedor entre aplicaciones de Finanzas y operaciones y Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 24a39f35b81c47fb7f17adf335738ac6a32713308be90f6194d24908e152884e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769230"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062759"
 ---
 # <a name="switch-between-vendor-designs"></a>Cambiar entre diseños de proveedor
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 
 

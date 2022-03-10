@@ -1,25 +1,23 @@
 ---
 title: Crear un estado de ciclo de vida de producto predeterminado
 description: Este procedimiento muestra cómo crear un estado de ciclo de vida de producto predeterminado además de cómo asociar el estado predeterminado con los productos emitidos.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16f604d5e06859b15c6f610e7a5c822ef2089ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a628ed2b609f48c22076f409889c212e4d9463ac
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966914"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578209"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Crear un estado de ciclo de vida de producto predeterminado
 
@@ -61,3 +59,6 @@ Este procedimiento muestra cómo crear un estado de ciclo de vida de producto pr
 > [!NOTE]
 > Supongamos que ha configurado un estado activo, ahora puede seleccionar el estado activo para permitir que el producto se use en el cálculo de la planificación maestra y del nivel de L.MAT. Obviamente, esto solo tiene sentido si se especifican todos los detalles del producto que se necesitan para una planificación coherente.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

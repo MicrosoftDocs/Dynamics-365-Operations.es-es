@@ -2,11 +2,9 @@
 title: Configurar y procesar facturas periódicas
 description: Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b155d163c57f3c917b4d87fae7cbd737e7c45fd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 53b667b8a5aef0a788abd6a9d5d4a3b4d8d890e2a18bb5f74e58bb198fab5fa8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743876"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar y procesar facturas periódicas
 
@@ -30,8 +28,7 @@ ms.locfileid: "4971612"
 
 Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Crear una plantilla de factura de servicios recurrente
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>Crear una plantilla de factura de servicios recurrente
 
 Para facturar a los clientes por los mismos servicios periódicamente, debe definir una plantilla de factura de servicios que se puede volver a usar para crear las facturas. Esta plantilla contiene la siguiente información:
 
@@ -54,15 +51,16 @@ Un cliente puede tener varias plantillas con diferentes frecuencias.
 ## <a name="generate-the-recurring-invoices"></a>Generar las facturas periódicas
 En la página **Facturas periódicas**, hay una tarea que procesa las plantillas de facturas periódicas. Especifique la fecha de la factura y la plantilla desde la que desea generar las facturas. Las facturas se generarán y se le asignarán un número de id. de periodicidad único para cada grupo de facturas que se procese.
 
-<a name="post-recurring-free-text-invoices"></a>Registrar facturas de servicios periódicas
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>Registrar facturas de servicios periódicas
 
 Después de que se generen las facturas periódicas, los identificadores de periodicidad de factura aparecen en una tarea de registro en la página **Facturas periódicas**. Para ver todas las facturas para un id. de periodicidad, haga clic en el vínculo. Durante su revisión de las facturas para el id. de periodicidad, puede eliminar facturas individuales. La configuración de la periodicidad del cliente se restablecerá para esa plantilla, para que se pueda volver a generar posteriormente. Puede registrar una, muchas o todas las facturas para un id. de periodicidad. Si se habilitan los flujos de trabajo, debe hacer clic en **Enviar** para poder registrar las facturas.
 
-<a name="print-recurring-free-text-invoices"></a>Imprimir facturas de servicios periódicas
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>Imprimir facturas de servicios periódicas
 
 Después de registrar las facturas periódicas, puede imprimir las facturas desde la página de lista de facturas de servicios. Puede imprimir las facturas seleccionadas o puede seleccionar un intervalo de facturas para imprimirlas.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

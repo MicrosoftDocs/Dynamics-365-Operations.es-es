@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776929"
 ---
 # <a name="asset-criticality-types"></a>Tipos de importancia de los activos
 
@@ -40,7 +40,7 @@ Para configurar la importancia, primero se crean los tipos de importancia que se
 4. En el campo **Nombre**, especifique un nombre para el tipo de importancia.
 5. En el campo **Factor**, escriba un factor. Este factor se utiliza durante el cálculo de la programación de órdenes de trabajo para determinar el registro de importancia que se debe utilizar. (Siempre se usa el registro que tiene el factor más alto). Este valor es relevante si, como se muestra en la siguiente ilustración, se crean líneas de importancia con el mismo valor de criticalidad.
 
-    ![Página de tipos de criticidad](media/23-setup-for-objects.png)
+    ![Página de tipos de criticidad.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Configurar importancias de activos
 

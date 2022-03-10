@@ -1,8 +1,8 @@
 ---
 title: Desarrollar una estructura de compensaciones
-description: Este artículo le guía por el proceso de crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Este tema explica cómo crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e35f4978cc4e8162c56ba05de28ab5b2366ccc7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732378"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065295"
 ---
 # <a name="develop-a-compensation-structure"></a>Desarrollar una estructura de compensaciones
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo le guía por el proceso de crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad. Este artículo utiliza los datos de demostración de USMF y se aplica a los Gerentes de Compensación y Beneficios.
+Este tema describe la creación de un plan de compensación fija y la inscripción de los empleados en el plan siguiendo reglas de idoneidad. Este tema utiliza los datos de demostración de USMF y los aplica a los administradores de compensación y prestaciones.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Crear un plan de compensación fija
 
@@ -42,7 +45,7 @@ Este artículo le guía por el proceso de crear un plan de compensación fijo e 
 
 7. En el campo **Tipo,** seleccione si el plan de compensación fija es un plan de **Banda**, **Categoría** o **Paso**.
 
-8. La casilla **Recomendación permitida** actúa como valor predeterminado para las acciones agregadas a este plan de un evento de procesos. Habilitar las recomendaciones le permite anular el importe calculado del criterio al procesar la compensación.
+8. La casilla **Recomendación permitida** será el valor predeterminado para las acciones agregadas a este plan de un evento de proceso. Habilitar las recomendaciones le permite anular el importe calculado del criterio al procesar la compensación.
 
 9. El campo **Fuera de intervalo de tolerancia** le permite especificar cómo desea gestionar los importes de contrapartida que se encuentran fuera del intervalo de la estructura de compensación para el nivel dado. Establecer el campo **Fuera del rango de tolerancia** a **Ninguno** le permite usar cualquier importe de compensación. Una **Tolerancia débil** advertirá a los usuarios si el importe de compensación es inferior o superior al importe de punto de referencia máximo para ese nivel. El usuario puede ignorar la advertencia y continuar. Una **Tolerancia estricta** generará un error si la compensación del empleado está fuera de los puntos de referencia mínimo y máximo para el nivel y ajustará automáticamente la compensación del empleado para que esté dentro del intervalo.
 

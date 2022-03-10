@@ -2,15 +2,12 @@
 title: Establecer programas de crédito flexible
 description: Puede usar programas de crédito flexible en Microsoft Dynamics 365 Human Resources para inscribir a los empleados en prestaciones de acuerdo con un número predeterminado de créditos flexibles.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitCreditPrograms, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a4966aeb0adb50c82e4edd626ea9c0289703e3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 8f28e3fb603fde2c19669e9936ea0bdcfc866d0e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464311"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065927"
 ---
 # <a name="set-up-flex-credit-programs"></a>Establecer programas de crédito flexible
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

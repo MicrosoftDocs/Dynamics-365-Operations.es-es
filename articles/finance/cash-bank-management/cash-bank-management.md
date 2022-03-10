@@ -1,28 +1,28 @@
 ---
 title: Página principal de gestión de efectivo y bancos
 description: Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias de la entidad jurídica y los instrumentos financieros asociados a dichas cuentas bancarias.
-author: panolte
-manager: AnnBe
+author: roschlom
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f889a95884027eaa1c02794fd7258cd802942555
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985395"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883703"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
@@ -32,12 +32,12 @@ Puede usar la Gestión de efectivo y bancos para mantener las cuentas bancarias 
 
 Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras de cambio y pagarés. También puede conciliar extractos bancarios e imprimir los datos bancarios en informes estándar.
 
-**Procesos empresariales**
+**Procesos de negocio**
 
-[![Proceso empresarial](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Proceso de negocio.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Descuentos por pronto pago](cash-discounts.md)
--   [Descripción de la liquidación](settlement-overview.md)
+-   [Información general de la liquidación](settlement-overview.md)
 -   [Configurar liquidación](configure-settlement.md)
 -   [Revalorización de divisa extranjera para clientes y proveedores](foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 -   [Carta de crédito](letters-of-credit.md)
@@ -47,7 +47,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 ### <a name="bank-reconciliation"></a>Conciliación bancaria
 
--   [Visión general de conciliación bancaria avanzada](advanced-bank-reconciliation-overview.md)
+-   [Información general de conciliación bancaria avanzada](advanced-bank-reconciliation-overview.md)
 -   [Proceso de configuración de conciliación bancaria avanzada](configure-advanced-bank-reconciliation.md)
 -   [Configurar el proceso de importación avanzada de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Conciliar extractos bancarios mediante la conciliación bancaria avanzada](reconcile-bank-statements-advanced-bank-reconciliation.md)
@@ -85,7 +85,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
+Vaya a los [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 
@@ -99,3 +99,6 @@ Hay ayuda adicional disponible como guías de tareas en Finance. Para tener acce
 #### <a name="videos"></a>Vídeos
 
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

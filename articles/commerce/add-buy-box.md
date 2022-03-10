@@ -2,27 +2,24 @@
 title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717804"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -30,9 +27,7 @@ ms.locfileid: "4517097"
 
 En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
-
-El término *cuadro de compra* hace referencia normalmente a una página de detalles de productos que se encuentra “por encima del pliegue” y que hospeda toda la información más importante necesaria para crear una compra del producto. (Un área que está “por encima del pliegue” es visible cuando la página se carga por primera vez, de modo que los usuarios no tengan que desplazarse hacia abajo para verla).
+El término *cuadro de compra* hace referencia normalmente a una página de detalles de productos (PDP) que se encuentra “por encima del pliegue” y que hospeda toda la información más importante necesaria para crear una compra del producto. (Un área que está “por encima del pliegue” es visible cuando la página se carga por primera vez, de modo que los usuarios no tengan que desplazarse hacia abajo para verla).
 
 Un módulo de cuadro de compra es el contenedor especial que se usa para hospedar todos los módulos que se muestran en el área del cuadro de compra de una página de detalles de producto.
 
@@ -40,7 +35,7 @@ La dirección URL de una página de detalles de producto incluye el id. de produ
 
 La siguiente imagen muestra un ejemplo de un módulo de cuadro de compra en una página de detalles del producto.
 
-![Ejemplo de un módulo de cuadro de compra](./media/ecommerce-pdp-buybox.PNG)
+![Ejemplo de un módulo de cuadro de compra.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Franjas y propiedades del módulo de cuadro de compra 
 
@@ -72,14 +67,16 @@ Las siguientes opciones de cuadro de compra pueden configurarse en **Configuraci
 
 - **Límite de cantidad de línea de carro**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
 - **Inventario**: para obtener información sobre cómo aplicar la configuración de inventario, consulte [Aplicar configuración de inventario](inventory-settings.md).
-- **Agregar producto al carro**: esta propiedad se utiliza para especificar el comportamiento después de agregar un artículo al carro. Los valores posibles son **Navegar a la página del carro**, **No navegar a la página del carro** y **Mostrar notificaciones**. Cuando el valor se establece en **Navegar a la página del carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **No navegar a la página del carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **Mostrar notificación**, los usuarios reciben una notificación de confirmación y pueden continuar navegando en la página de detalles del producto. 
+- **Agregar producto al carrito** - Para obtener información sobre cómo aplicar la configuración **Agregar producto al carrito**, vea [Agregar producto a la configuración del carrito](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Compre extensiones de definición de módulo de caja en el tema Adventure Works
+
+El módulo de caja de compra que proporciona el tema Adventure Works tiene una extensión de definición de módulo que admite la implementación de un módulo de especificaciones de producto dentro de un módulo de acordeón en una caja de compra de PDP. Para mostrar los atributos de especificación del producto en una caja de compra de PDP, agregue un módulo de especificación de producto a la ranura del módulo de acordeón en la ranura de la caja de compra.
+
 
 > [!IMPORTANT]
-> La configuración de sitio **Agregar producto al carro** está disponible en Dynamics 365 Commerce 10.0.11. Si está actualizando desde una versión anterior de Dynamics 365 Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones sobre cómo actualizar el archivo appsettings.json, consulte [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> El tema de Adventure Works está disponible a partir del lanzamiento de la versión 10.0.20 de Dynamics 365 Commerce.
 
-La siguiente imagen muestra un ejemplo de una notificación de confirmación de "agregado al carro" en el sitio de Fabrikam.
-
-![Ejemplo de un módulo de notificación](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
 
@@ -133,6 +130,11 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 [Módulo de compartir en redes sociales](social-share-module.md)
 
-[Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
+[Agregar producto a la configuración del carrito](add-cart-settings.md)
 
-[Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+[Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md)
+
+[Actualizaciones de SDK y bibliotecas de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

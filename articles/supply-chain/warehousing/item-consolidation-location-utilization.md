@@ -2,11 +2,9 @@
 title: 'Consolidación de artículos: utilización de ubicación'
 description: Este tema proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página Consolidación de artículos para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6edabc51981d8935672b44e53b453cfbaca9031b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004661"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578617"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
@@ -149,7 +147,7 @@ Esta sección describe cómo preparar su sistema para utilizar la consolidación
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
-El siguiente escenario usa la aplicación de almacén en un dispositivo móvil para hacer un *ajuste en* inventario a dos ubicaciones del almacén.
+El siguiente escenario usa la aplicación móvil Warehouse Management para hacer un *ajuste en* inventario a dos ubicaciones del almacén.
 
 ### <a name="add-inventory-to-locations"></a>Agregar inventario a ubicaciones
 
@@ -207,3 +205,6 @@ El siguiente escenario usa la aplicación de almacén en un dispositivo móvil p
 
     > [!NOTE]
    > El sistema crea un Id. de trabajo para cada movimiento que debe completarse. Si especifica una ubicación que ya contiene inventario, solo se crea un Id. de trabajo. Si especifica una nueva ubicación, se crean dos Id. de trabajo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

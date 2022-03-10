@@ -1,27 +1,25 @@
 ---
 title: Creación de un nuevo diseño de almacén
 description: En este tema se describe cómo configurar la información sobre las ubicaciones en un almacén.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2f6f97bc13bc27ec88570992872a256926522c52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218714"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580897"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Creación de un nuevo diseño de almacén
 

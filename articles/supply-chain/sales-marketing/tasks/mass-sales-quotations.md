@@ -1,27 +1,24 @@
 ---
 title: Creación masiva de presupuestos de ventas
 description: Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen un conjunto de productos o servicios que se deben enviar a varios clientes.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: acb2b49c7cb2024aec1140d04150bd1ab9d75c14
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436653"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573378"
 ---
 # <a name="mass-create-sales-quotations"></a>Creación masiva de presupuestos de ventas
 
@@ -101,3 +98,6 @@ Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen
 11. Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.
     * Compruebe que los presupuestos se han creado para todos los clientes especificados en la rutina de actualización masiva, basándose en la plantilla seleccionada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

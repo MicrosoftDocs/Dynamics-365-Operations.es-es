@@ -2,11 +2,9 @@
 title: Dominios en Dynamics 365 Commerce
 description: Este tema describe cómo se manejan los dominios en Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734000"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dominios en Dynamics 365 Commerce
 
@@ -40,7 +38,7 @@ Al aprovisionar un ambiente de comercio electrónico en [Microsoft Dynamics Life
 
 La siguiente ilustración muestra la pantalla de aprovisionamiento de comercio electrónico LCS con el cuadro **Nombres de host admitidos** resaltado. 
 
-![Pantalla de aprovisionamiento de comercio electrónico de LCS con el cuadro **Nombres de host admitidos** resaltado](./media/Domains_ProvisioningeCommerceScreen.png)
+![Pantalla de aprovisionamiento de comercio electrónico de LCS con el cuadro **Nombres de host admitidos** resaltado.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Puede crear una solicitud de servicio para agregar dominios adicionales a un ambiente si ya se ha realizado el aprovisionamiento. Para crear una solicitud de servicio en LCS, en su ambiente vaya a **Soporte \> Problemas de soporte** y seleccione **Presentar un incidente**.
 
@@ -58,7 +56,7 @@ Cuando configura por primera vez un sitio en el creador de sitios, el cuadro de 
 
 La siguiente ilustración muestra el cuadro de diálogo **Configurar su sitio** para un sitio llamado "predeterminado" cuando accede al sitio por primera vez en el creador de sitios.
 
-![Cuadro de diálogo **Configurar su sitio**](./media/Domains_SetupyoursiteScreen.png)
+![Cuadro de diálogo **Configurar su sitio**.](./media/Domains_SetupyoursiteScreen.png)
 
 El cuadro de diálogo **Seleccionar un dominio** le permite asociar uno de los nombres de host admitidos proporcionados para su sitio en LCS a su sitio en el creador de sitios.
 
@@ -81,11 +79,11 @@ Una vez que su sitio está configurado con una ruta de acceso, todas las direcci
 
 La siguiente ilustración muestra el cuadro de diálogo **Dirección URL nueva** en el creador de sitios con una ruta de la dirección URL de ejemplo resaltada. 
 
-![Cuadro de diálogo **Nueva dirección URL** en el creador de sitios](./media/Domains_PageSetup2a.png)
+![Cuadro de diálogo **Nueva dirección URL** en el creador de sitios.](./media/Domains_PageSetup2a.png)
 
 La siguiente ilustración muestra la página **Direcciones URL** en el creador de sitios con una ruta de la dirección URL de ejemplo resaltada en la lista.
 
-![Opción Ejecutar flujo de usuario en flujo de directiva](./media/Domains_URLsInSiteBuilder2a.png)
+![Opción Ejecutar flujo de usuario en flujo de directiva.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Dominios en el creador de sitios
 
@@ -153,7 +151,7 @@ La instancia de Azure Front Door proporcionada por Commerce no admite dominios a
 
   [Implementar un inquilino nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
-  [Configurar un canal de la tienda en línea](online-stores.md)
+  [Configurar un canal de la tienda en línea](./channel-setup-online.md)
 
   [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
@@ -167,7 +165,7 @@ La instancia de Azure Front Door proporcionada por Commerce no admite dominios a
 
   [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
 
-  [Configurar múltiples inquilinos B2C en un ambiente de Commerce](configure-multi-B2C-tenants.md)
+  [Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
 
   [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 

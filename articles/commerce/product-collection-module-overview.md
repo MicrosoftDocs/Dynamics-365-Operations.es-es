@@ -2,31 +2,27 @@
 title: Módulos de colección de productos
 description: Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 01/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097112"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984553"
 ---
 # <a name="product-collection-modules"></a>Módulos de colección de productos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 
@@ -43,7 +39,7 @@ Los orígenes de las colecciones de productos pueden ser listas de los cuatro ti
 
 La ilustración siguiente muestra los diferentes tipos de colecciones de productos que se utilizan en un sitio de comercio electrónico.
 
-![Ejemplo de los diferentes tipos de colecciones de productos en un sitio de comercio electrónico](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Ejemplo de los diferentes tipos de colecciones de productos en un sitio de comercio electrónico.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Use siempre los módulos de colección de productos para mostrar un grupo de productos de un tipo similar.
@@ -112,3 +108,6 @@ En la tabla siguiente se muestran los tipos de lista disponibles para la selecci
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
 [Módulo de vista rápida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

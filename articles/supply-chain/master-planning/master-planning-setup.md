@@ -1,12 +1,10 @@
 ---
 title: Configurar planificación maestra
 description: En este tema se describen distintas estrategias y parámetros importantes que se utilizan para configurar una planificación maestra.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 5e71cfd451a51a5dabd12419541202ecc39df631
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999965"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580729"
 ---
 # <a name="set-up-master-planning"></a>Configurar planificación maestra
 
@@ -108,11 +106,11 @@ Para cada plan, en la ficha desplegable **General** de la página **Planes maest
 
 ### <a name="operations-scheduling"></a>Programación de operaciones
 
-Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción. La programación de operaciones no expande las operaciones de la ruta de producción en trabajos. Para obtener más información sobre la programación de operaciones, consulte [Programación de operaciones](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción. La programación de operaciones no expande las operaciones de la ruta de producción en trabajos. Para obtener más información sobre la programación de operaciones, consulte [Programación de operaciones](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Programación de trabajos
 
-La programación de trabajos es un método de programación más detallado, en el que cada operación se divide en sus tareas o trabajos individuales. La programación de trabajos incluye información acerca de capacidad. Se utiliza normalmente para programar trabajos individuales en la planta para un período de tiempo inmediato o a corto plazo. Para obtener más información sobre la programación de trabajos, consulte [Programación de trabajos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+La programación de trabajos es un método de programación más detallado, en el que cada operación se divide en sus tareas o trabajos individuales. La programación de trabajos incluye información acerca de capacidad. Se utiliza normalmente para programar trabajos individuales en la planta para un período de tiempo inmediato o a corto plazo. Para obtener más información sobre la programación de trabajos, consulte [Programación de trabajos](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Límites de tiempo en días
 
@@ -160,7 +158,7 @@ Los mensajes de acción sugieren cambios que se pueden hacer en el pedido de sum
 
 Al establecer la opción **Mensaje de acción** en **Sí**, puede anular el límite de tiempo del mensaje de acción definido para el artículo durante la programación maestra. En este caso, especifique el número de días durante los que la programación maestra debe generar mensajes de acción para los requisitos. El límite de tiempo de mensajes de acción se calcula en adelante desde la fecha actual.
 
-Para obtener más información acerca de los mensajes de acción, consulte [Mensajes de acción](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Para obtener más información acerca de los mensajes de acción, consulte [Mensajes de acción](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > El cálculo de mensajes de acción provoca un mayor tiempo de ejecución para la planificación maestra. Si los mensajes de acción no se analizan y aplican de forma periódica (a diario, cada semana, etc.), considere desactivar el cálculo durante la ejecución de la planificación maestra. Para desactivar el cálculo, en la página **Planes maestros**, establezca el límite de tiempo **Mensaje de acción** en **0** (cero) para el plan maestro que está ejecutando. Asegúrese también de que la configuración **Mensaje de acción** está desactivada para todos los grupos de cobertura.
@@ -225,4 +223,7 @@ Plazo + Días negativos + Fecha actual – Fecha de requisito
 
 El sistema utiliza solo los pedidos de suministro planificados que se encuentran dentro del límite de tiempo, y crea un nuevo pedido planificado fuera de este. La ventaja de los días negativos dinámicos es que incluirá el plazo del producto individual, para volver a utilizar los pedidos existentes e impedir la creación de nuevos pedidos planificados que terminarán con un día posterior, debido a los retrasos causados por el plazo. 
 
-Para obtener más información, consulte [Días negativos y días negativos dinámicos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Para obtener más información, consulte [Días negativos y días negativos dinámicos](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

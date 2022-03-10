@@ -1,7 +1,7 @@
 ---
 title: Simulación de precios
 description: Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado.
-author: omulvad
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d2c6bf3d13f11482ab31d71e804144d0c5f54db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807809"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580513"
 ---
 # <a name="price-simulation"></a>Simulación de precios
 

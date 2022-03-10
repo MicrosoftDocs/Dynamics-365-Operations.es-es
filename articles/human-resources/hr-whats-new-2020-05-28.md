@@ -1,31 +1,30 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (28 de mayo de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 28 de mayo de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 00a5881ea88749c8553e4c810fb57070f217b01c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 624201841b512b01daf94d13e3d9fe7c381f5c11b328d57e22fbd73e1066bf88
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741390"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (28 de mayo de 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3287. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
 
@@ -61,7 +60,7 @@ Ahora puede agregar archivos adjuntos durante el proceso de inscripción de bene
 
 ## <a name="human-resources-application-in-teams"></a>Aplicación Human Resources en Teams
 
-Los empleados pueden ver y solicitar tiempo fuera del trabajo en Microsoft Teams. Pueden interactuar con un bot para crear solicitudes de baja. Para más información, consulte [Aplicación de recursos humanos en Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Los empleados pueden ver y solicitar tiempo fuera del trabajo en Microsoft Teams. Pueden interactuar con un bot para crear solicitudes de baja. Para más información, consulte [Aplicación de recursos humanos en Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="leave-suspension"></a>Dejar suspensión
 
@@ -107,6 +106,8 @@ Ahora está disponible una entidad DMF para suspensiones acumuladas.
 ## <a name="see-also"></a>Consulte también
 
 [Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
-[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Actualizar proceso](hr-admin-setup-update-process.md)</br>
 [Administrar características](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

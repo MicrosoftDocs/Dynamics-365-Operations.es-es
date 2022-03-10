@@ -1,47 +1,54 @@
 ---
-title: Modificación manual de una previsión de demanda
-description: Este procedimiento muestra cómo modificar la previsión de un artículo.
-author: ShylaThompson
-manager: tfehr
+title: 'Guía: Modificar manualmente una previsión de demanda'
+description: Este tema describe cómo modificar la previsión de un artículo
+author: ChristianRytt
 ms.date: 08/12/2019
 ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31c057d686edc97a11027f156b9c14ff453294ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f48e1689d21fd0085ec38aab8f5171997fbf432
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240398"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567208"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Modificación manual de una previsión de demanda
+# <a name="guide-modify-a-demand-forecast-manually"></a>Guía: Modificar manualmente una previsión de demanda
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento muestra cómo modificar la previsión de un artículo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Esta grabación va destinada al planificador de producción. 
+Este procedimiento muestra cómo modificar la previsión de un artículo. Este procedimiento se va a utilizar para el planificador de producción.
 
+## <a name="modify-the-forecast-for-a-selected-item"></a>Modificación de la previsión para un artículo seleccionado
 
-## <a name="modify-the-forecast-for-an-item"></a>Modificación de la previsión para un artículo
-1. En el **Panel de navegación**, vaya a **Módulos > Gestión de información de productos > Productos > Productos emitidos**.
-2. En la lista, busque y seleccione el registro deseado. Seleccione el artículo para el que desee modificar la previsión. Por ejemplo, puede seleccionar el artículo D0001.  
-3. En el **panel de acciones**, haga clic en **Plan**.
-4. Haga clic en **Previsión de la demanda**.
-5. En la lista, marque la fila seleccionada. Si no hay líneas de previsión, cree una nueva haciendo clic en Nuevo en la barra de la aplicación.  
-6. En el campo **Cantidad de ventas**, introduzca un número. Este número representa la cantidad prevista para el artículo.  
-7. Haga clic en Guardar.
+Para modificar la previsión para un artículo seleccionado:
 
-## <a name="modify-the-forecast-in-excel"></a>Modificación de la previsión en Excel
-1. Haga clic en **Abrir** en Microsoft Office.
-2. Haga clic en **Editar previsión de la demanda** en Excel. En Excel, puede agregar, eliminar y editar líneas de previsión de demanda. Si no puede ver los datos en Excel, necesita iniciar sesión con la opción Mantener la sesión iniciada habilitada, así como es preciso que confíe en la aplicación de conexión de datos.  
+1. Vaya a **Módulos \> Gestión de información de productos \> Productos \> Productos despachados**.
+1. En la lista, busque y seleccione el registro deseado. Seleccione el artículo para el que desee modificar la previsión.
+1. En el panel de acciones, abra la pestaña **Plan** y seleccione **Previsión de demanda**.
+1. En la lista, seleccione una fila. Si no hay líneas de previsión, cree una nueva seleccionando **Nuevo** en el panel de acciones.  
+1. En el campo **Cantidad de ventas**, introduzca un número positivo. Este número representa la cantidad prevista para el artículo. Se mostrará un error si ingresa un número negativo.
+1. Rellene los demás campos según sea necesario.
+1. Seleccione **Guardar** en el panel Acciones.
 
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Modificar la previsión de uno o más elementos con Microsoft Excel
+
+Para modificar la previsión de uno o más elementos con Microsoft Excel:
+
+1. Realice una de las acciones siguientes:
+    - Abra la página **Previsión de demanda** para cualquier elemento (no importa cuál) como se describe en la sección anterior.
+    - Vaya a **Planificación maestra \> Previsión \> Previsión de demanda \> Previsión de la demanda ajustada**.
+1. En el panel de acciones, seleccione **Abrir en Microsoft Office \> Entradas de previsión de demanda**.
+1. Seleccione una ubicación de descarga, guarde y luego abra el archivo descargado en Excel.
+1. Si ve una advertencia, elija **Permitir la edición**.
+1. En Excel, inicie sesión en Supply Chain Management utilizando el panel de tareas de Microsoft Dynamics. Debes iniciar sesión con la opción **Mantenme conectado** habilitada y debe confiar en la aplicación de conexión de datos.
+1. La hoja de cálculo de Excel ahora muestra todas las líneas de pronóstico de demanda actuales para su empresa.  Puede agregar, eliminar y editar líneas de previsión de demanda según sea necesario.
+1. Seleccione **Publicar** en el panel de tareas de Microsoft Dynamics para volver a cargar los cambios en Supply Chain Management.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 description: Este tema describe cómo se utiliza la interfaz de ejecución de la planta de producción desde el punto de vista de un trabajador.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907726"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075028"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -32,7 +32,7 @@ Antes de que los trabajadores puedan empezar a usar el dispositivo, un superviso
 
 Una vez que se ha preparado el dispositivo, aparece la página de inicio de sesión. Esta página muestra información sobre el estado de los trabajos para la celda de trabajo local. Esta información se actualiza periódicamente. En la página, los trabajadores usan sus credenciales de identificación para firmar. Aunque los trabajadores no tienen que tener una cuenta de usuario para Supply Chain Management, sí deben tener una cuenta de *trabajador con tiempo registrado* que pueden usar cuando inician sesión.
 
-![Página de inicio de sesión de la interfaz de ejecución de la planta de producción](media/pfei-sign-in-page.png "Página de inicio de sesión de la interfaz de ejecución de la planta de producción")
+![Página de inicio de sesión de la interfaz de ejecución de la planta de producción.](media/pfei-sign-in-page.png "Página de inicio de sesión de la interfaz de ejecución de la planta de producción")
 
 Las secciones restantes de este tema describen cómo interactúan los trabajadores con la interfaz.
 
@@ -40,7 +40,7 @@ Las secciones restantes de este tema describen cómo interactúan los trabajador
 
 La pestaña **Todos los trabajos** proporciona una lista de trabajos que muestra todos los trabajos de producción que tienen un estado de *No empezado*, *Detenido* o *Empezado*. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
 
-![Pestaña Todos los trabajos](media/pfei-all-jobs-tab.png "Pestaña Todos los trabajos")
+![Pestaña Todos los trabajos.](media/pfei-all-jobs-tab.png "Pestaña Todos los trabajos")
 
 La lista de trabajos tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
 
@@ -59,7 +59,7 @@ La lista de trabajos tiene las siguientes columnas. Los números se corresponden
 
 Las pestañas **Trabajos activos** muestran una lista de todos los trabajos que el trabajador que inició sesión ya ha comenzado. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
 
-![Pestaña Trabajos activos](media/pfei-active-jobs-tab.png "Pestaña Trabajos activos")
+![Pestaña Trabajos activos.](media/pfei-active-jobs-tab.png "Pestaña Trabajos activos")
 
 La lista de trabajos activos tiene las siguientes columnas:
 
@@ -76,7 +76,7 @@ La lista de trabajos activos tiene las siguientes columnas:
 
 La pestaña **Mi maquina** permite a los trabajadores seleccionar un activo que está conectado a un recurso de máquina dentro del filtro establecido en la pestaña **Todos los trabajos**. Luego, el trabajador puede ver el estado y la salud del activo seleccionado leyendo los valores de hasta cuatro contadores seleccionados y listas de solicitudes de mantenimiento recientes y tiempos de inactividad registrados. El trabajador también puede solicitar mantenimiento para el activo seleccionado y registrar y editar el tiempo de inactividad de la máquina. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
  
-![La pestaña Mi máquina](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
+![La pestaña Mi máquina.](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
 
 La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
 
@@ -87,18 +87,17 @@ La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corres
 
 1. **Configuraciones** - Seleccione el icono de engranaje para abrir un cuadro de diálogo donde puede elegir qué contadores ver para el activo de máquina seleccionado. Los valores de estos contadores se muestran en la parte superior de la pestaña **Gestión de activos**. El menú **Configuraciones** (que se muestra en la siguiente captura de pantalla) le permite habilitar hasta cuatro contadores. Para cada contador que desee habilitar, use el campo de búsqueda en la parte superior del icono para seleccionar un contador. Las listas del campo de búsqueda enumera todos los contadores asociados al activo seleccionado en la parte superior de la página **Gestión de activos**. Configure cada contador para supervisar el valor **Agregado** o el último valor **Real** para el contador. Por ejemplo, si configura un contador que rastrea cuántas horas ha estado funcionando la máquina, debe configurarlo en **Agregado**. Si configura un contador para medir la temperatura o presión actualizada más reciente, debe configurarlo en **Real**. Seleccione **Aceptar** para guardar la configuración y cerrar el cuadro de diálogo.
 
-    ![Configuración de la pestaña Mi máquina](media/pfei-my-machine-tab-settings.png "Configuración de la pestaña Mi máquina")
+    ![Configuración de la pestaña Mi máquina.](media/pfei-my-machine-tab-settings.png "Configuración de la pestaña Mi máquina")
 
 1. **Solicitar mantenimiento** - Seleccione este botón para abrir un cuadro de diálogo donde puede crear una solicitud de mantenimiento. Podrá proporcionar una descripción y una nota. La solicitud se presentará a un usuario de Supply Chain Management, que luego podrá convertir la solicitud de mantenimiento en una orden de trabajo de mantenimiento.
 1. **Registrar el tiempo de inactividad** - Seleccione este botón para abrir un cuadro de diálogo donde puede registrar el tiempo de inactividad de la máquina. Podrá seleccionar un código de motivo e ingresar un intervalo de fecha/hora para el tiempo de inactividad. El registro del tiempo de inactividad de la máquina se utiliza para calcular la eficiencia del activo de la máquina.
 1. **Ver o editar** - Seleccione este botón para abrir un cuadro de diálogo donde puede editar o ver los registros de tiempo de inactividad existentes.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Iniciar y completar trabajos de producción
 
 Para iniciar un trabajo de producción, los trabajadores seleccionan un trabajo en la pestaña **Todos los trabajos** y después seleccionan **Iniciar trabajo** para abrir el cuadro de diálogo **Iniciar trabajo**.
 
-![Cuadro de diálogo Iniciar trabajo](media/pfei-start-job-dialog.png "Cuadro de diálogo Iniciar trabajo")
+![Cuadro de diálogo Iniciar trabajo.](media/pfei-start-job-dialog.png "Cuadro de diálogo Iniciar trabajo")
 
 Los trabajadores utilizan el cuadro de diálogo **Iniciar trabajo** para confirmar la cantidad de producción y después iniciar el trabajo. Para ajustar la cantidad, los trabajadores pueden seleccionar el campo **Cantidad** y usar el teclado numérico que aparece. A continuación, los trabajadores seleccionan **Iniciar** para empezar a desarrollar el trabajo. El cuadro de diálogo **Iniciar trabajo** se cierra y el trabajo se agrega a la pestaña **Trabajos activos**.
 
@@ -108,13 +107,96 @@ Los trabajadores pueden iniciar un trabajo que se encuentra en cualquier estado.
 
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar buenas cantidades que se produjeron seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar progreso**. En el cuadro de diálogo **Notificar progreso**, el trabajador introduce la cantidad buena a través del teclado numérico. La cantidad está en blanco de forma predeterminada. Después de especificar una cantidad, el trabajador puede actualizar el estado del trabajo a *En curso*, *Detenido* o *Terminado*.
 
-![Cuadro de diálogo Notificar progreso](media/pfei-report-progress-dialog.png "Cuadro de diálogo Notificar progreso")
+![Cuadro de diálogo Notificar progreso.](media/pfei-report-progress-dialog.png "Cuadro de diálogo Notificar progreso")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Informar buenas cantidades en pedidos de lotes que tienen coproductos y subproductos
+
+Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados.
+
+Algunos fabricantes, especialmente en las industrias de procesos, utilizan pedidos por lotes para gestionar sus procesos de producción. Los pedidos por lotes se crean a partir de fórmulas, y esas fórmulas se pueden definir para que tengan coproductos y subproductos como salida. Cuando se informa sobre los comentarios sobre esos pedidos por lotes, la cantidad de salida debe registrarse en el artículo de fórmula y también en los coproductos y subproductos.
+
+Cuando un trabajador completa o completa parcialmente un trabajo en un pedido por lotes, puede informar las cantidades buenas o de desecho para cada producto que se define como salida para el pedido. Los productos que se definen como salida para un pedido de lote pueden ser del tipo *Fórmula*, *Coproducto* o *Subproducto*.
+
+Para informar buenas cantidades de los productos, un trabajador selecciona un trabajo en la pestaña **Trabajos activos** y luego selecciona **Informe el progreso**.
+
+Entonces, en el cuadro de diálogo **Informe el progreso**, el trabajador puede seleccionar entre los productos que se definen como salida para la orden de lote para informar. El trabajador puede seleccionar uno o varios productos de la lista y luego seleccionar **Informe el progreso**. Para cada producto, la cantidad está en blanco por defecto y el trabajador puede usar el teclado numérico para ingresar la cantidad. El trabajador puede utilizar los botones **Anterior** y **Siguiente** para moverse entre los productos seleccionados. Después de especificar la cantidad para cada producto, el trabajador puede actualizar el estado del trabajo a *En curso*, *Detenido* o *Terminado*.
+
+![Informar sobre coproductos y productos derivados](media/report-co-by-products.png "Informar sobre coproductos y productos derivados")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Elaboración de informes sobre pedidos de lote para artículos de planificación
+
+Cuando un trabajador completa un trabajo en un pedido de lote para un artículo de planificación, informará las cantidades solo de coproductos y subproductos, porque los artículos de planificación no contienen un artículo del tipo *Fórmula*.
+
+### <a name="reporting-co-product-variation"></a>Informar la variación del coproducto
+
+Si un pedido de lote se crea a partir de una versión de fórmula donde la opción **Variaciones de coproductos** está configurada en *Sí*, el trabajador puede informar sobre coproductos que no forman parte de la definición de los pedidos por lotes. Esta funcionalidad se utiliza en escenarios en los que puede producirse una salida de producto inesperada en el proceso de producción.
+
+En este caso, el trabajador puede especificar el coproducto y la cantidad a reportar seleccionando **Variaciones de coproductos** en el cuadro de diálogo de progreso del informe. A continuación, el trabajador puede seleccionar entre todos los productos emitidos que se definen como coproductos.
 
 ## <a name="reporting-scrap"></a>Notificar residuo
 
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar residuos seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar residuo**. En el cuadro de diálogo **Notificar residuo**, el trabajador introduce la cantidad de residuo a través del teclado numérico. El trabajador también selecciona un motivo (*Ninguno*, *Máquina*, *Operador* o *Material*).
 
-![Cuadro de diálogo Notificar residuo](media/pfei-report-scrap-dialog.png "Cuadro de diálogo Notificar residuo")
+![Cuadro de diálogo Notificar residuo.](media/pfei-report-scrap-dialog.png "Cuadro de diálogo Notificar residuo")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Ajustar el consumo de material y hacer reservas de material.
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Los trabajadores pueden ajustar el consumo de material para cada trabajo de producción. Esta funcionalidad se usa en escenarios donde la cantidad real de materiales consumidos por un trabajo de producción fue mayor o menor que la cantidad planificada. Por lo tanto, debe ajustarse para mantener los niveles de inventario actualizados.
+
+Los trabajadores también pueden hacer reservas sobre el lote y los números de serie de los materiales. Esta funcionalidad se usa en escenarios en los que un trabajador debe especificar manualmente qué lote de material o números de serie se consumieron para cumplir con los requisitos de trazabilidad del material.
+
+Los trabajadores pueden especificar la cantidad a ajustar seleccionando **Ajustar material**. Este botón no se encuentra disponible en las ubicaciones siguientes:
+
+- En el cuadro de diálogo **Notificar residuo**
+- En el cuadro de diálogo **Notificar progreso**
+- En la barra de herramientas de la derecha
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Ajuste el consumo de material desde los cuadros de diálogo Informar de desecho e Informar de progreso
+
+Después de que un trabajador ingresa la cantidad a informar en el cuadro de diálogo **Informar sobre el progreso** o **Informar de rechazo**, el botón **Ajustar material** pasa a estar disponible. Cuando el usuario selecciona este botón, aparece el cuadro de diálogo **Ajustar material**. Este cuadro de diálogo enumera los artículos que se planean consumir cuando se informa la cantidad buena o desechada para el trabajo.
+
+La lista del cuadro de diálogo muestra la siguiente información:
+
+- **Número de producto**: el producto maestro y las variantes del producto.
+- **Nombre de producto** – El nombre del producto.
+- **Propuesta**: la cantidad estimada de material que se consumirá cuando se notifique el progreso o el rechazo de la cantidad especificada para el trabajo.
+- **Consumo**: la cantidad real de material que se consumirá cuando se notifique el progreso o el rechazo de la cantidad especificada para el trabajo.
+- **Reservado** – La cantidad de material que se ha reservado físicamente en el inventario.
+- **Unidad**: la unidad de la lista de materiales (L. MAT).
+
+El lado derecho del cuadro de diálogo muestra la siguiente información:
+
+- **Número de producto**: el producto maestro y las variantes del producto.
+- **Estimada**: la cantidad estimada que se va a consumir.
+- **Empezado** – La cantidad que se ha iniciado en el trabajo de producción.
+- **Cantidad restante** – De la cantidad estimada, la cantidad que queda por consumir.
+- **Cantidad liberada**: la cantidad que se ha consumido.
+
+Se pueden realizar las siguientes acciones:
+
+- El trabajador puede especificar la cantidad a ajustar de un material seleccionando **Ajustar consumo**. Después de confirmar la cantidad, la cantidad en la columna **Consumo** se actualiza con la cantidad ajustada.
+- Cuando el trabajador selecciona **Ajustar material**, se crea un diario de lista de selección de producción. Este diario contiene los mismos artículos y cantidades que la lista **Ajustar material**.
+- Cuando el trabajador ajusta una cantidad en el cuadro de diálogo **Ajustar material**, el campo **Propuesta** en la línea de diario correspondiente se actualiza con la misma cantidad. Si el trabajador selecciona **Cancelar** en el cuadro de diálogo **Ajustar material**, la lista de selección se elimina.
+- Si el trabajador selecciona **OK**, la lista de selección no se elimina. Se publicará cuando el trabajo se informe en el cuadro de diálogo **Informar de rechazo** o **Informar sobre el progreso**.
+- Si el trabajador selecciona **Cancelar** en el cuadro de diálogo **Informar del progreso** o **Notificar residuo**, la lista de selección se elimina.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajuste el material desde la barra de herramientas de la derecha
+
+El botón **Ajustar material** se puede configurar para que aparezca en la barra de herramientas de la derecha. (Para más información, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md)). Un trabajador puede seleccionar **Ajustar material** para un trabajo de producción que está en curso. En este caso, aparece el cuadro de diálogo **Ajustar material**, donde el trabajador puede hacer los ajustes deseados. Cuando se abre el cuadro de diálogo, se crea una lista de selección de producción que contiene líneas para las cantidades ajustadas para la orden de producción. Si el trabajador selecciona **Publicar ahora**, se confirma el ajuste y se contabiliza la lista de selección. Si el trabajador selecciona **Cancelar**, se elimina la lista de selección y no se hace ningún ajuste.
+
+### <a name="reserve-materials"></a>Reserva de materiales
+
+En el cuadro de diálogo **Ajustar material**, un trabajador puede hacer y ajustar reservas de material seleccionando **Material de reserva**. El cuadro de diálogo **Material de reserva** que aparece muestra el inventario disponible físicamente para el artículo para cada dimensión de almacenamiento y seguimiento.
+
+Si el material está habilitado para los procesos de almacén avanzados, la lista muestra solo el inventario físicamente disponible para la ubicación de entrada de producción del material. La ubicación de entrada de producción se define en el recurso donde se planifica el trabajo de producción. Si el número de artículo está controlado por lote o número de serie, se muestra la lista completa de números de lote y serie físicamente disponibles. Para especificar una cantidad a reservar, el trabajador puede seleccionar **Material de reserva**. Para eliminar una reserva existente, el trabajador puede seleccionar **Eliminar reserva**.
+
+Para obtener más información sobre cómo configurar la ubicación de entrada de producción, consulte la siguiente publicación de blog: [Configuración de la ubicación de entrada de producción](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Las reservas que hace un trabajador en el cuadro de diálogo **Material de reserva** permanecerá cuando el trabajador seleccione **Cancelar** en el cuadro de diálogo **Informar sobre el progreso** o **Informar de rechazo**.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completar un trabajo e iniciar un trabajo nuevo
 

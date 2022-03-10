@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 686600e857c7b5aab74d80b7bc31c6bbaaf8d2336d57ff5839752d0ff33def84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
+ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741689"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8313576"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utilizar una ruta relativa en vínculos de datos de modelos y formatos de ER
 
@@ -26,8 +26,8 @@ ms.locfileid: "6741689"
 
 La herramienta Informes electrónicos (ER) permite a los usuarios definir estructuras en formato electrónico y, a continuación, describir cómo deben rellenarse esas estructuras con los datos y algoritmos que existen en la aplicación. Para obtener más información, consulte [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md). Para especificar el flujo de datos con el fin de recuperar los datos de Finance and Operations y utilizarlos para generar un documento electrónico, debe hacer lo siguiente:
 
-- Enlace los orígenes de datos configurados con los elementos del [modelo de datos](general-electronic-reporting.md#data-model-and-model-mapping-components) específico del dominio diseñado. La estructura del modelo y los orígenes de datos seleccionados podrían formar parte de una estructura jerárquica compleja. Debido a esto, los enlaces finales pueden ser bastante grandes y contener muchos elementos de diferentes tipos (por ejemplo, relaciones, tablas y métodos,). Los enlaces pueden ser menos legibles y bastante complejos de revisar y entender, especialmente para los que no son propietarios. 
-- Enlace elementos del modelo de datos con componentes del [formato](general-electronic-reporting.md#FormatComponentOutbound) para definir qué datos se rellenarán del modelo de datos a la salida del formato generado.
+- Enlace los orígenes de datos configurados con los elementos del modelo de datos específico del dominio diseñado. La estructura del modelo y los orígenes de datos seleccionados podrían formar parte de una estructura jerárquica compleja. Debido a esto, los enlaces finales pueden ser bastante grandes y contener muchos elementos de diferentes tipos (por ejemplo, relaciones, tablas y métodos,). Los enlaces pueden ser menos legibles y bastante complejos de revisar y entender, especialmente para los que no son propietarios. 
+- Enlace elementos del modelo de datos con componentes del formato para definir qué datos se rellenarán del modelo de datos a la salida del formato generado.
 
 Para mejorar la facilidad de uso de los diseñadores de asignación de ER, se ha liberado la función de [ruta relativa](er-formula-language.md#relative-path). De forma predeterminada, la opción de representación de la ruta relativa está activada para cualquier nueva instancia de la aplicación donde se habilita la experiencia de diseño de ER ( Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos el parámetro de la ruta relativa de modo que los usuarios puedan seguir utilizando la ruta completa cuando trabajen con esta presentación de enlaces de ER.
 

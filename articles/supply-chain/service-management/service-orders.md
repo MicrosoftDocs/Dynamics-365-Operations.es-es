@@ -1,7 +1,7 @@
 ---
 title: Pedidos de servicio
-description: Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta.
-author: ShylaThompson
+description: Este tema proporciona información sobre cómo trabajar con pedidos de servicio.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739715"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566128"
 ---
-# <a name="service-orders"></a>Pedidos de servicio   
+# <a name="service-orders"></a>Pedidos de servicio
 
 [!include [banner](../includes/banner.md)]
-
 
 Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta. Cada pedido de servicio consta de una o más líneas de pedido de servicio. Las líneas de pedido de servicio representan las horas de trabajo que debe llevar a cabo el técnico de servicio, así como la relación de artículos, gastos y cuotas.
 
@@ -39,19 +38,19 @@ También puede crear pedidos de servicio de forma individual, sin asociarlos a u
 
 
 > [!NOTE]
-> <P>Para crear pedidos de servicio que no estén asociadas a un acuerdo de servicio, debe activar la casilla <STRONG>Permitir sin acuerdo de servicio</STRONG> en el formulario <STRONG>Parámetros de la gestión de servicio</STRONG>.</P>
+> Para crear pedidos de servicio que no estén asociadas a un acuerdo de servicio, debe activar la casilla **Permitir sin acuerdo de servicio** en la página **Parámetros de la gestión de servicio**.
 
-**Situación**
+### <a name="scenario"></a>Situación
 
 El siguiente ejemplo describe otra situación en la que resulta útil crear un pedido de servicio que no esté asociado a un acuerdo de servicio.
 
-El distribuidor de la empresa recibe una solicitud de servicio de emergencia para resolver un problema relacionado con un ascensor. No hay tiempo para configurar un acuerdo ni un proyecto para el servicio. Por lo tanto, el distribuidor crea un pedido de servicio directamente en el formulario **Pedidos de servicio**, vincula el pedido de servicio a un proyecto existente y crea las líneas de pedido de servicio. El distribuidor también crea una relación de tareas u objetos para un pedido de servicio existente con el fin de registrar el trabajo que no está relacionado con el acuerdo de servicio. Para obtener más información, vea [Crear pedidos de servicio manualmente](create-service-orders-manually.md) y [Crear relaciones de tareas de servicio](create-service-task-relations.md).
+El distribuidor de la empresa recibe una solicitud de servicio de emergencia para resolver un problema relacionado con un ascensor. No hay tiempo para configurar un acuerdo ni un proyecto para el servicio. Por lo tanto, el distribuidor crea un pedido de servicio directamente en la página **Pedidos de servicio**, vincula el pedido de servicio a un proyecto existente y crea las líneas de pedido de servicio. El distribuidor también crea una relación de tareas u objetos para un pedido de servicio existente con el fin de registrar el trabajo que no está relacionado con el acuerdo de servicio. Para obtener más información, vea [Crear pedidos de servicio manualmente](create-service-orders-manually.md) y [Crear relaciones de tareas de servicio](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Supervisión del progreso de los pedido de servicio
 
 Para supervisar el progreso de un pedido de ventas a través de los diferentes equipos y procesos de trabajo, puede configurar un sistema de etapas y códigos de motivos para los pedidos de servicio. Puede especificar las acciones habilitadas para cada etapa. Para obtener más información acerca de códigos de motivo, vea [Crear códigos de motivo](create-reason-codes.md).
 
-**Ejemplo**
+### <a name="example"></a>Ejemplo
 
 Es el distribuidor quien aprueba un pedido de servicio. El distribuidor actualiza la etapa del pedido de servicio y especifica un código de motivo que indique que el pedido se ha comunicado al técnico del servicio. El técnico va al sitio del cliente y realiza el pedido.
 
@@ -59,7 +58,7 @@ Es el distribuidor quien aprueba un pedido de servicio. El distribuidor actualiz
 
 Puede especificar los artículos del inventario que son necesarios para los pedidos de servicio. Sin embargo, el pedido de servicio se debe asociar a un proyecto. Los requisitos de artículo para los pedidos de servicio se procesan a través de un proyecto. 
 
-**Ejemplo**
+### <a name="example"></a>Ejemplo
 
 Los pedidos de servicio creados a partir del acuerdo de servicio los procesa el distribuidor. En el primer pedido de servicio, el distribuidor se da cuenta de que el técnico necesita una pieza de repuesto importante que no está disponible en el inventario. Por lo tanto, el distribuidor crea un requisito de artículo para la pieza de repuesto directamente desde el pedido de servicio.
 
@@ -73,7 +72,7 @@ Uno de los restantes pedidos de servicio generados para el mes de enero se vuelv
 
 ## <a name="post-from-projects"></a>Registrar desde proyectos
 
-Al final de cada semana, el distribuidor desea registrar todos los pedidos de servicio vinculados a un proyecto concreto. Por lo tanto, el distribuidor ubica el proyecto correspondiente en el formulario **Proyectos** y registra los pedidos de servicio que se hayan completado. Para obtener más información, vea [Registrar pedidos de servicio (formulario de clase)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Al final de cada semana, el distribuidor desea registrar todos los pedidos de servicio vinculados a un proyecto concreto. Por lo tanto, el distribuidor ubica el proyecto correspondiente en la página **Proyectos** y registra los pedidos de servicio que se hayan completado. Para obtener más información, vea [Registrar pedidos de servicio (formulario de clase)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Eliminar pedidos de servicio
 

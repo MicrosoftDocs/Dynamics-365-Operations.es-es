@@ -2,24 +2,24 @@
 title: Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 description: Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 author: abruer
-ms.date: 09/08/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827827"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109952"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 
@@ -29,7 +29,7 @@ Este tema explica el proceso de enviar facturas de proveedores al sistema de flu
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Enviar facturas de proveedores importadas al sistema de flujo de trabajo y hacer coincidir las líneas de recepción de productos registradas con las líneas de facturas de proveedores pendientes
 
-Como parte de un proceso de facturación de Cuentas por pagar sin contacto, puede hacer que el sistema envíe automáticamente una factura importada al sistema de flujo de trabajo. Puede configurar el proceso de envío de facturas importadas al sistema de flujo de trabajo en la pestaña **Automatización de facturas de proveedores** de la página **Parámetros de cuentas por pagar** (**Cuentas por pagar \> Preparar \> Parámetros de cuentas por pagar**). El proceso de envío al flujo de trabajo se ejecutará en segundo plano, con la frecuencia que especifique (ya sea por hora o por día).
+Como parte de un proceso de facturación de Proveedores sin contacto, se puede enviar automáticamente una factura importada al sistema del flujo de trabajo. Puede configurar el proceso de envío de facturas importadas al sistema de flujo de trabajo en la pestaña **Automatización de facturas de proveedores** de la página **Parámetros de cuentas por pagar** (**Cuentas por pagar \> Preparar \> Parámetros de cuentas por pagar**). El proceso de envío al flujo de trabajo se ejecutará en segundo plano, con la frecuencia que especifique (ya sea por hora o por día).
 
 Cuando envía facturas automáticamente al sistema de flujo de trabajo, debe comenzar con una factura importada. Para asegurarse de que la factura se pueda procesar de principio a fin sin intervención manual, debe incluir una tarea de registro automatizado en la configuración del flujo de trabajo. Las facturas relacionadas con las órdenes de compra (PO) y las facturas que contienen una categoría de aprovisionamiento sin orden de compra y líneas no almacenadas se pueden enviar automáticamente al sistema de flujo de trabajo. Las facturas que se ingresan manualmente deben enviarse manualmente al sistema de flujo de trabajo.
 
@@ -37,7 +37,7 @@ El valor **Presentado por** en el flujo de trabajo es el ID de usuario que se in
 
 ## <a name="matching-posted-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Hacer coincidir los recibos de productos registrados con las líneas de factura que tienen una política de coincidencia de tres vías
 
-Como parte de un proceso de facturación de Cuentas por pagar sin contacto, el sistema puede hacer coincidir automáticamente los recibos de productos registrados con las líneas de facturación. Se debe definir una política de coincidencia de tres vías para esta tarea. Esta función está disponible si la función **Automatización de facturas de proveedores** se ha habilitado en la página **Gestión de funciones**.
+Como parte de un proceso de facturación de Proveedores sin contacto, se pueden hacer coincidir automáticamente los recibos de productos registrados con las líneas de facturación. Se debe definir una política de coincidencia de tres vías para esta tarea. Esta función está disponible si la función **Automatización de facturas de proveedores** se ha habilitado en la página **Gestión de funciones**.
 
 El proceso de correspondencia se ejecutará hasta que la cantidad recibida del producto correspondiente sea igual a la cantidad de la factura. Sin embargo, si hay varios recibos de productos para una sola línea de factura, deberá ejecutar el proceso varias veces para lograr la coincidencia total de la cantidad. Puede especificar el número máximo de veces que el sistema debe intentar hacer coincidir los recibos de productos con una línea de factura antes de concluir que el proceso falló. El proceso se ejecutará en segundo plano, ya sea cada hora o diariamente. 
 

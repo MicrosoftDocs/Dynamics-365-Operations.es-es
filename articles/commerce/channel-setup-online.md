@@ -2,36 +2,30 @@
 title: Configurar un canal en línea
 description: En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4415686"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092121"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
-
 
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan a los clientes la opción de comprar productos de su tienda en línea además de en sus tiendas físicas.
 
@@ -58,11 +52,15 @@ Para crear y configurar un nuevo canal en línea, siga estos pasos.
 
 La siguiente imagen muestra la creación de un nuevo canal en línea.
 
-![Nuevo canal en línea](media/channel-setup-online-1.png)
+![Nuevo canal en línea.](media/channel-setup-online-1.png)
 
 La siguiente imagen muestra un ejemplo de canal en línea.
 
-![Ejemplo de canal en línea](media/channel-setup-online-2.png)
+![Ejemplo de canal en línea.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Asigne el canal a Commerce Scale Unit
+
+Su nuevo canal debe estar asignado a Commerce Scale Unit. Para obtener instrucciones, consulte [Configurar canales para usar Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>Configurar idiomas
 
@@ -70,7 +68,7 @@ Si su sitio de comercio electrónico admite varios idiomas, expanda la sección 
 
 ## <a name="set-up-payment-account"></a>Configurar una cuenta de pago
 
-En la sección **Cuenta de pago** puede agregar un proveedor de pagos de terceros. Para obtener información sobre cómo configurar un conector de pagos de Adyen, consulte [Conector de pagos de Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md).
+En la sección **Cuenta de pago** puede agregar un proveedor de pagos de terceros. Para obtener información sobre cómo configurar un conector de pagos de Adyen, consulte [Conector de pagos de Dynamics 365 para Adyen](./dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Configuración de canal adicional
 
@@ -78,7 +76,7 @@ Las tareas adicionales requeridas para la configuración del canal en línea inc
 
 La siguiente imagen muestra las opciones de configuración **Modos de entrega**, **Métodos de pago** y **Asignación de grupo de cumplimiento** en la pestaña **Configurar**.
 
-![Acciones adicionales de configuración de canales en línea](media/channel-setup-online-3.png)
+![Acciones adicionales de configuración de canales en línea.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pago
 
@@ -93,11 +91,11 @@ Para configurar métodos de pago, siga los pasos siguientes para cada tipo de pa
 
 En la imagen siguiente se muestra un ejemplo de método de pago en efectivo.
 
-![Ejemplo de métodos de pago](media/channel-setup-retail-5.png)
+![Ejemplo de métodos de pago.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar modos de entrega
 
-Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del **Panel de acciones**.  
+Para ver los modos de entrega configurados, seleccione **Modos de entrega** en la pestaña **Configurar** del **panel Acciones**.  
 
 Para cambiar o agregar un modo de entrega, siga estos pasos.
 
@@ -107,7 +105,7 @@ Para cambiar o agregar un modo de entrega, siga estos pasos.
 
 En la imagen siguiente se muestra un ejemplo de mode de entrega.
 
-![Configurar modos de entrega](media/channel-setup-retail-7.png)
+![Configurar modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Configurar una asignación de grupo de cumplimiento
 
@@ -121,16 +119,19 @@ Para configurar una asignación de grupo de cumplimiento, siga estos pasos.
 
 La siguiente imagen muestra un ejemplo de configuración de asignación de grupo de cumplimiento.
 
-![Configurar la asignación de grupo de cumplimiento](media/channel-setup-retail-9.png)
+![Configurar la asignación de grupo de cumplimiento.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen de canales](channels-overview.md)
+[Información general de canales](channels-overview.md)
 
-[Requisitos previos de configuración de canales](channels-prerequisites.md)
+[Requisitos previos de configuración del canal](channels-prerequisites.md)
 
 [Configurar un canal comercial](channel-setup-retail.md)
 
 [Configurar un canal de centro de llamadas](channel-setup-callcenter.md)
 
-[Conector de pago de Dynamics 365 para Adyen](../retail/dev-itpro/adyen-connector.md)
+[Conector de pago de Dynamics 365 para Adyen](./dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

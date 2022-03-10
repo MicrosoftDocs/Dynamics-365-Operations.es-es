@@ -1,44 +1,43 @@
 ---
-title: Ver demanda planificada de empresa vinculada saliente
-description: Este procedimiento muestra cómo ver todos los pedidos planificados que cumplirá un proveedor de empresas vinculadas.
-author: ShylaThompson
-manager: tfehr
+title: Ver la demanda planificada de empresas vinculadas saliente
+description: Este tema proporciona un procedimiento que muestra cómo ver la demanda de empresas vinculadas planificada saliente.
+author: ChristianRytt
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97cccc0d27d1154d8f8cb5018cf5040efcf190a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8cf2350d754c5da9d3d428e2b75950d027ccfd63
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001783"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569754"
 ---
-# <a name="view-outbound-planned-intercompany-demand"></a>Ver demanda planificada de empresa vinculada saliente
+# <a name="view-outbound-planned-intercompany-demand"></a>Ver la demanda planificada de empresas vinculadas saliente
 
 [!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo ver todos los pedidos planificados que cumplirá un proveedor de empresas vinculadas. La empresa de datos de demostración utilizada para crear este procedimiento es DEMF.
 
-1. Haga clic en Planificación maestra.
-2. En el campo Plan, especifique o seleccione un valor.
-    * Seleccione el plan 10 en el campo Plan.  
-3. Haga clic en Ejecutar.
-4. En el campo Número de subprocesos, especifique un número.
+1. Seleccione **Planificación maestra**.
+2. En el campo **Plan**, especifique o seleccione un valor.
+    * En el campo **Plan** seleccione plan *10*.  
+3. Seleccione *Ejecutar*.
+4. En el campo **Número de subprocesos**, especifique un número.
     * Esto representa el número de subprocesos paralelos que se utilizarán para la planificación maestra.  
-5. Haga clic en Aceptar
+5. Seleccione **Aceptar**.
     * Esto puede tardar unos minutos.  
-6. Haga clic en Demanda planificada de empresa vinculada.
-7. Haga clic en Demanda planificada de empresa vinculada saliente.
+6. Seleccione en **Demanda planificada de empresa vinculada**.
+7. Seleccione **Demanda planificada de empresas vinculadas saliente**.
     * Esta página ofrece una visión general de toda la demanda planificada que cumplirá un proveedor interno de la cadena de suministro.  
-8. Expanda la sección de los detalles de la demanda de nivel superior.
+8. Expanda la sección **Detalles de la demanda de nivel superior**.
     * En esta sección, puede ver detalles acerca de cómo se cumplirá con la demanda. Es posible que tenga que esperar la planificación maestra que se ejecutará en la empresa de aprovisionamiento antes de que se pueda ver información adicional aquí.  
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

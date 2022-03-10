@@ -2,34 +2,29 @@
 title: Asignar listas de tareas a tiendas o empleados
 description: Este tema describe cómo asignar listas de tareas a tiendas o empleados en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730836"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Asignar listas de tareas a tiendas o empleados
 
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo asignar listas de tareas a tiendas o empleados en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 La gestión de tareas en Dynamics 365 Commerce le permite asignar una lista de tareas a múltiples tiendas o empleados, o a una combinación de tiendas y empleados. Por ejemplo, un gerente regional de 20 tiendas podría querer asignar la lista de tareas **Preparación de la temporada de vacaciones** a las 20 tiendas.
 
@@ -50,7 +45,7 @@ Para comenzar el proceso de asignación de una lista de tareas, siga estos pasos
 
 La siguiente ilustración muestra un ejemplo de cómo encontrar y seleccionar tiendas en el cuadro de diálogo **Iniciar proceso**.
 
-![Encontrar y seleccionar tiendas en el cuadro de diálogo Iniciar proceso](media/HQ-Assign-Tasks-Lists.png)
+![Encontrar y seleccionar tiendas en el cuadro de diálogo Iniciar proceso.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Asigna listas de tareas de forma periódica
 
@@ -67,7 +62,7 @@ El minorista a veces tiene tareas recurrentes, como "Lista de verificación de c
 
 La siguiente ilustración muestra un ejemplo de cómo ingresar criterios de frecuencia en el cuadro de diálogo **Definir periodicidad**.
 
-![Introducir el criterio de frecuencia en el cuadro de diálogo Definir periodicidad](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Introducir el criterio de frecuencia en el cuadro de diálogo Definir periodicidad.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Seguimiento del estado de la lista de tareas
 
@@ -92,3 +87,6 @@ Para realizar un seguimiento de la lista de estado de tareas de todas las tareas
 [Crear listas de tareas y agregar tareas](task-mgmt-create-lists.md)
 
 [Administración de tareas en PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Copiar clientes mediante secuencias numéricas compartidas
 description: En este tema se explica cómo usar secuencias numéricas compartidas para copiar un cliente en otra entidad jurídica pero conservando el mismo id. de cliente.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/31/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ab2beb9ca1b7cd8a4bdbb84c46ed223f58ce377d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a93f0519b292c12ea31a8faf3bff051fc111216
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991158"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753522"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiar clientes mediante secuencias numéricas compartidas
 
@@ -64,3 +62,6 @@ También puede copiar clientes mediante la función de búsqueda del número de 
 
 1. Aparece una opción **Copiar cliente**. Esta opción se establece en **No** de forma predeterminada. Para copiar el cliente en la entidad jurídica actual, establezca la opción en **Sí**. 
 2. Seleccione **Seleccionar**. Se crea el nuevo cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

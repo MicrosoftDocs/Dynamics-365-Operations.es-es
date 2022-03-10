@@ -1,7 +1,7 @@
 ---
 title: Crear una celda de trabajo subcontratado para lean manufacturing (producción ajustada)
 description: Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda de trabajo que esté asociada al proveedor que proporciona el trabajo.
-author: cvocph
+author: johanhoffmann
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dc1e28202c42502cbec0f0066863d24d4396c88
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f37a38227ef57e6e66a77e90883bf157792e7f81
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828907"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576841"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Crear una celda de trabajo subcontratado para lean manufacturing (producción ajustada)
 

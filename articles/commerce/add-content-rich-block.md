@@ -2,11 +2,9 @@
 title: Módulo de bloque de texto
 description: En este tema se tratan los módulos de bloque de texto y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cad6a26ea1858d6afac33ef8eab10e16b404035b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723320"
 ---
 # <a name="text-block-module"></a>Módulo de bloque de texto
 
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de bloque de texto y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 Un módulo de bloque de texto es un módulo que se utiliza para agregar contenido textual. Este contenido puede ser informativo o promocional.
 
@@ -46,7 +42,7 @@ Los módulos de bloque de texto se pueden utilizar de las siguientes maneras:
 
 La siguiente imagen muestra un ejemplo de un módulo de bloque de texto utilizado en una página principal.
 
-![Ejemplo de un módulo de bloque de texto](./media/ecommerce-textblock.PNG)
+![Ejemplo de un módulo de bloque de texto.](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Propiedades de módulo de bloque de texto
 
@@ -88,3 +84,6 @@ Para agregar un módulo de bloque de texto a una nueva página y establecer las 
 
 [Módulo de reproductor de vídeo](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

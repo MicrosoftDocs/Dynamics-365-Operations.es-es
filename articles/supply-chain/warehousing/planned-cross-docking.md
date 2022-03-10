@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359086"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573042"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -117,6 +117,9 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Número de secuencia:** *1*
     - **Fuente de suministro:** *Orden de compra*
 
+> [!NOTE]
+> Puede configurar una consulta para controlar cuándo se usa una determinada plantilla de tránsito directo. La consulta de plantillas de tránsito directo solo tiene la tabla *InventTable* (elementos) y la tabla *WHSInventTable* interior unida (artículos WHS). Si desea agregar otras tablas a la consulta, puede unirlas usando solo *existen uniones* o *no existen uniones*. Cuando filtra en las tablas unidas, se recupera un registro de la tabla principal para cada registro coincidente en la tabla unida. Si el tipo de unión es *existe unión*, la búsqueda finaliza una vez que se ha encontrado la primera coincidencia. Por ejemplo, si une la tabla de línea de pedido de ventas a la tabla de artículos, el sistema valida y devuelve los artículos para los que al menos una línea del pedido de ventas tiene la condición definida. Básicamente, los datos se obtienen de la tabla principal (artículos), no de la tabla secundaria (línea de pedido de ventas). Por lo tanto, el filtrado por documentos de origen, como líneas de pedidos de venta o clientes, no se puede realizar de forma inmediata.
+
 ### <a name="create-a-work-class"></a>Crear una clase de trabajo
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Trabajo \> Clases de trabajo**.
@@ -151,6 +154,9 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Identificador de la clase de trabajo**: *CrossDock*
 
 1. Seleccione **Guardar** y confirme que la casilla de verificación **Válido** está seleccionada para la plantilla *51 Cross Dock*.
+1. Opcional: seleccione **Editar consulta** si desea establecer criterios para controlar cuándo y dónde se usa la plantilla de trabajo.
+
+    Puede configurar una consulta para controlar si se usa una determinada plantilla de trabajo. Por ejemplo, puede especificar que una plantilla se pueda usar para trabajar solo en una ubicación específica. Si desea que la plantilla de trabajo de tránsito directo se aplique en una ubicación específica, debe filtrar por el campo **Ubicación de inicio**, no por el campo **Ubicación**, porque la creación de trabajo para los procesos de entrada (compra, tránsito directo y reabastecimiento) comienza desde la línea de venta. Cuando se crea el trabajo, la directiva de ubicación establece el campo **Ubicación** con la ubicación de colocación. Sin embargo, la ubicación de recogida se almacena en el campo **Ubicación de inicio**.
 
 > [!NOTE]
 > Los identificadores de clase de trabajo para los tipos de trabajo *Recoger* y *Colocar* deben ser iguales.

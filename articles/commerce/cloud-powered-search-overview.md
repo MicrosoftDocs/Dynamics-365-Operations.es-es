@@ -2,36 +2,29 @@
 title: Visión general de la búsqueda con tecnología de nube
 description: Este tema ofrece una visión general de la búsqueda con tecnología de nube en Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4415412"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983678"
 ---
-# <a name="cloud-powered-search-overview"></a>Visión general de la búsqueda con tecnología de nube
-
+# <a name="cloud-powered-search-overview"></a>Información general de la búsqueda con tecnología de nube
 
 [!include [banner](includes/banner.md)]
 
 Este tema ofrece una visión general de la búsqueda con tecnología de nube en Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visión general
 
 La detectabilidad de productos ayuda a garantizar que los clientes pueden encontrar productos rápida y fácilmente examinando categorías, buscando y filtrando. Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales.
 
@@ -47,7 +40,7 @@ El rendimiento y la relevancia de la búsqueda son factores clave en la experien
 
 La ilustración siguiente muestra un ejemplo de la funcionalidad de búsqueda y exploración típica.
 
-![Página de aterrizaje de búsqueda](./media/SearchLanding.png)
+![Página de aterrizaje de búsqueda.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Resumen de opciones y navegación por facetas 
 
@@ -57,7 +50,7 @@ Al usar la navegación por facetas, puede configurar diferentes refinadores para
 
 La ilustración siguiente muestra un ejemplo donde se usa la navegación por facetas en una búsqueda.
 
-![Resumen de opciones](./media/ChoiceSummary.png)
+![Resumen de opciones.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Sugerencia automática inmersiva
 
@@ -67,7 +60,7 @@ Dynamics 365 Commerce también admite la funcionalidad para coincidencias de pal
 
 La ilustración siguiente muestra un ejemplo en el que se usa la sugerencia automática inmersiva.
 
-![sugerencia automática inmersiva](./media/ImmersiveAutoSuggestUX.png)
+![sugerencia automática inmersiva.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Ordenar
 
@@ -75,10 +68,13 @@ La ordenación mejorada en Dynamics 365 Commerce permite a los clientes ordenar,
 
 >[!NOTE]
 >Estas capacidades de búsqueda basadas en la nube están disponibles a partir de la versión 10.0.8. Asegúrese de que en **Parámetros de Commerce > Parámetros de configuración** hay una entrada para "ProductSearch.UseAzureSearch establecido en 'true'". 
-![Parámetros de configuración para búsqueda en la nube](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parámetros de configuración para búsqueda en la nube.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
+[Información general de la página de aterrizaje de la categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Administrar metadatos de SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

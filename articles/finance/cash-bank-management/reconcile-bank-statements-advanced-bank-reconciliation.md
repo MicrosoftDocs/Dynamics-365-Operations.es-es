@@ -2,28 +2,25 @@
 title: Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 description: La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este tema se explica el proceso de conciliación.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714457"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
@@ -31,8 +28,7 @@ ms.locfileid: "4447605"
 
 La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Dynamics 365 Finance. En este tema se explica el proceso de conciliación.  
 
-<a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
 
 Importa los extractos bancarios mediante la acción **Importar extracto** en la página **Extractos bancarios**. En el extracto bancario, la cuenta bancaria se identifica mediante una combinación de valores que se establecen en los detalles de la cuenta bancaria. Estos valores incluyen el nombre del banco, el número de cuenta bancaria, el número de ruta, el código SWIFT (Society for Worldwide Interbank Financial Telecommunication, Sociedad para la telecomunicación financiera interbancaria en el mundo) y el número internacional de cuenta bancaria (IBAN). 
 
@@ -96,3 +92,6 @@ Las transacciones de extracto bancario que marcó como **Nueva** en la hoja de c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

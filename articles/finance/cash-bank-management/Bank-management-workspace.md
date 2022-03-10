@@ -1,7 +1,7 @@
 ---
 title: Espacio de trabajo para la gestión bancaria
-description: Este tema proporciona información acerca del espacio de trabajo Gestión bancaria. Este espacio de trabajo muestra la información relacionada con las cuentas bancarias de la empresa e incluye una vista resumida y una página de análisis. La vista resumida muestra las fichas del resumen, la información de cuentas bancarias, un gráfico de saldos e información relacionada. La página de Análisis utiliza las capacidades de Microsoft Microsoft Power BI para mostrar representaciones visuales relacionadas con los saldos de la cuenta bancaria.
-author: saraschi2
+description: Este tema proporciona información acerca del espacio de trabajo Gestión bancaria. Este espacio de trabajo muestra la información relacionada con las cuentas bancarias de la empresa.
+author: roschlom
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 262b871a7c35d01283386af6454bb2852197e3b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f12f907e6135af60e092a2c20ebfd4d196b2d861
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818833"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883346"
 ---
 # <a name="bank-management-workspace"></a>Espacio de trabajo para la gestión bancaria
 

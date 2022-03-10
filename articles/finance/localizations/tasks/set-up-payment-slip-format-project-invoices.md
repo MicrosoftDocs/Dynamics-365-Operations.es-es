@@ -1,6 +1,6 @@
 ---
 title: Configuración de un formato de resguardo de pago para facturas de proyecto
-description: Las empresas suelen adjuntar resguardos de pago impresos a las facturas para ofrecer asistencia a los clientes y proporcionar una referencia de pago para su registro y liquidación.
+description: Este tema explica cómo adjuntar resguardos de pago impresos a facturas de proyectos y proporcionar una referencia de pago para su registro y liquidación.
 author: EvgenyPopovMBS
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f32975a9ad6887a4396bdceb37b27a6f08ca30c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88bdce7697e47fc49b6ffb2fe6a8a468860f41f3
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832453"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601510"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configuración de un formato de resguardo de pago para facturas de proyecto
 

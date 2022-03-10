@@ -2,11 +2,9 @@
 title: Estándares compatibles para la facturación electrónica en Europa
 description: Este tema explica el nivel de cobertura que existe en la facturación electrónica para Europa.
 author: mrolecki
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5e0bf6af3f255d277d4363b4d6c8c499c7a173f5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
+ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002832"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7941231"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Estándares compatibles para la facturación electrónica en Europa
 
@@ -46,7 +44,7 @@ Los formatos específicos de país siguientes de facturas electrónicas están d
 -   Formato específico estonio versión 1.2
 -   Finvoice 3.0 para Finlandia
 
-La facturación electrónica se basa en [Informes electrónicos (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). SE han creado configuraciones de modelos de datos para un **Modelo de factura**, asignaciones de modelos de facturas y de formatos de informes electrónicos específicos para países o regiones para los siguientes países o regiones: 
+La facturación electrónica se basa en [Informes electrónicos (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). SE han creado configuraciones de modelos de datos para un **Modelo de factura**, asignaciones de modelos de facturas y de formatos de informes electrónicos específicos para países o regiones para los siguientes países o regiones: 
 
 - Austria (AT)
 - Dinamarca (DK)
@@ -101,13 +99,14 @@ La configuración y los detalles de las facturas electrónicas dependen del paí
 
 - [Italia](emea-ita-e-invoices.md)
 - [Noruega](emea-nor-e-invoices.md)
+- [Dinamarca](emea-dnk-e-invoices.md)
 - [Alemania](emea-deu-e-invoices.md)
 - [Finlandia](https://support.microsoft.com/help/4559937)
 - [Estonia](https://support.microsoft.com/help/4552679)
 - [PEPPOL](https://support.microsoft.com/help/4490320)
 
 ## <a name="additional-resources"></a>Recursos adicionales
-Para obtener más información acerca de cómo configurar facturas electrónicas, puede reproducir las siguientes [Guías de la tarea](../../fin-and-ops/get-started/help-overview.md#task-guides) en el panel de la Ayuda:
+Para obtener más información acerca de cómo configurar facturas electrónicas, puede reproducir las siguientes [Guías de la tarea](../../fin-ops-core/fin-ops/get-started/help-overview.md#task-guides) en el panel de la Ayuda:
 
  - Configurar la facturación electrónica OIOUBL
  - Importar configuraciones de facturación electrónica OIOUBL
@@ -115,3 +114,6 @@ Para obtener más información acerca de cómo configurar facturas electrónicas
 
 > [!NOTE] 
 > Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países o regiones compatibles con desviaciones de menor importancia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Módulo de opciones de entrega
 description: En este tema se tratan los módulos de opciones de entrega y se explica cómo configurarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/05/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f97dcd42e22e319d9af7cbf57fce7c10d8565d04
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69d3da5cbee5d7b921b0b0b422d838b9821e9c877d6f1951e85aeb49474bd4bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760909"
 ---
 # <a name="delivery-options-module"></a>Módulo de opciones de entrega
 
@@ -29,11 +29,11 @@ En este tema se tratan los módulos de opciones de entrega y se explica cómo co
 
 Los módulos de opciones de entrega permiten a los clientes seleccionar un modo de entrega, como envío o recogida, para su pedido en línea. Se requiere una dirección de envío para determinar el modo de entrega. Si cambia la dirección de envío, las opciones de entrega se deben recuperar de nuevo. Si el pedido solo incluye artículos que se recogerán en una tienda, este módulo se oculta automáticamente.
 
-Para obtener información sobre cómo configurar los modos de entrega, consulte [Configuración de canales en línea](channel-setup-online.md) y [Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Para obtener información sobre cómo configurar los modos de entrega, consulte [Configuración de canales en línea](channel-setup-online.md) y [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Cada modo de entrega puede tener un cargo asociado. Para obtener más información sobre cómo configurar cargos para una tienda en línea, consulte [Cargos automáticos avanzados omnicanal](omni-auto-charges.md).
 
-En la versión 10.0.13 de Commerce, el módulo de opciones de entrega se ha actualizado para admitir las características **Cargos de encabezado sin prorrateo** y **Envío como cargo de línea**. Si el prorrateo está desactivado, se espera que el flujo de trabajo de comercio electrónico no permita un modo mixto de entrega para los artículos del carro (es decir, algunos artículos se seleccionan para envío, pero otros se seleccionan para recogida). La característica **Cargos de encabezado sin prorrateo** requiere que se active la marca **Habilitar modo de entrega coherente en el canal** en la sede de Commerce. Cuando esa marca está activada, los cargos de envío se aplicarán en el nivel de encabezado o en el nivel de línea, según la configuración de la sede de Commerce.
+En la versión 10.0.13 de Commerce, el módulo de opciones de entrega se ha actualizado para admitir las características **Cargos de encabezado sin prorrateo** y **Envío como cargo de línea**. Si el prorrateo está desactivado, se espera que el flujo de trabajo de comercio electrónico no permita un modo mixto de entrega para los artículos del carro (es decir, algunos artículos se seleccionan para envío, pero otros se seleccionan para recogida). La característica **Cargos de encabezado sin prorrateo** requiere que se active la marca **Habilitar modo de entrega coherente en el canal** en la sede de Commerce. Cuando la marca de característica está activada, los cargos de envío se aplicarán en el nivel de encabezado o en el nivel de línea, según la configuración de la sede de Commerce.
 
 El tema Fabrikam admite un modo de entrega mixto, en el que algunos artículos se seleccionan para envío y otros se seleccionan para recogida. En este modo, los cargos de envío se prorratearán para todos los artículos seleccionados para el modo de envío. Para que funcione un modo mixto de entrega, primero debe configurar la característica **Cargos de encabezado con prorrateo** en la sede de Commerce. Para obtener más información sobre esta configuración, consulte [Prorratear los cargos de encabezado para que coincidan con las líneas de ventas](pro-rate-charges-matching-lines.md).
 
@@ -41,7 +41,7 @@ Si se aplican cargos de envío a los artículos de línea, se pueden mostrar en 
 
 La siguiente ilustración muestra un ejemplo de un módulo de opciones de entrega en una página de finalización de compra.
 
-![Ejemplo de módulo de opciones de entrega en una página de finalización de compra](./media/ecommerce-deliveryoptions.PNG)
+![Ejemplo de módulo de opciones de entrega en una página de finalización de compra.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Propiedades del módulo de opciones de entrega
 
@@ -50,6 +50,7 @@ La siguiente ilustración muestra un ejemplo de un módulo de opciones de entreg
 | Cabecera | Texto de encabezado y etiqueta de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | Un encabezado opcional para el módulo de opciones de entrega. |
 | Nombre de clase CSS personalizado | Texto | Nombre de clase de hojas de estilo en cascada personalizadas (CSS) que se utilizará para representar este módulo, si corresponde. |
 | Filtrar opción de modo de entrega | **No filtrar** o **Modos sin envío** | Un valor que especifica si el módulo de opciones de entrega debe filtrar todos los modos de entrega que no son de envío. |
+| Seleccionar automáticamente una opción de entrega | **No filtrar**, **Seleccionar automáticamente la opción de entrega y mostrar el resumen** o **Seleccionar automáticamente la opción de entrega y no mostrar el resumen** | Esta propiedad aplica automáticamente la primera opción de entrega disponible a la finalización de la compra, sin necesidad de que el usuario la seleccione. Debe usarse solo si hay una opción de entrega disponible. Esta propiedad se admite desde la versión 10.0.19 de Commerce. |
 
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Agregar un módulo de opciones de entrega a una página de finalización de compra y establecer las propiedades necesarias
 
@@ -77,7 +78,7 @@ Un módulo de opciones de entrega solo se puede agregar a un módulo de finaliza
 
 [Prorratear los cargos de encabezado para que coincidan con las líneas de ventas](pro-rate-charges-matching-lines.md)
 
-[Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Control administrado de artículos con seguimiento por lotes
-description: En este tema se describen las mejoras que se han realizado al control de los lotes para los artículos con seguimiento por lotes durante el proceso de registro de extracto.
+description: En este tema se describen el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2019
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,34 +15,41 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2453ed711d47e062c82d3888ff471b770b5bb2ef
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799718"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485792"
 ---
-# <a name="improved-handling-of-batch-tracked-items"></a>Control mejorado de artículos con seguimiento por lotes
-
+# <a name="improved-handling-of-batch-tracked-items"></a>Control administrado de artículos con seguimiento por lotes
 
 [!include [banner](includes/banner.md)]
 
+En este tema se describen el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
 
-En el punto de venta (PDV), no se pueden obtener los números de lotes para los artículos con seguimiento por lotes en el momento de la venta. Sin embargo, para las configuraciones específicas, cuando se registran las ventas en las sedes a través del registro de extractos o pedidos de clientes, el sistema de Microsoft Dynamics espera que existan números de lotes válidos para artículos con seguimiento por lotes y que se usarán durante el proceso de facturación.
+En el punto de venta (PDV) de Dynamics 365 Commerce, los números de lotes no se pueden obtener para los artículos con seguimiento por lotes en el momento de la venta. Sin embargo, para las configuraciones específicas cuando se registran las ventas en las sedes centrales de Commerce a través del registro de extractos o pedidos de clientes, Commerce espera que existan números de lotes válidos para artículos con seguimiento por lotes y se usarán durante el proceso de facturación.
 
-Si hay números de lotes válidos disponibles para los productos, el proceso de facturación de pedidos de clientes y el proceso de facturación de pedidos de ventas del registro de extractos los usan. De lo contrario, el proceso de facturación de pedidos de clientes no puede registrar y el usuario del PDV recibe un mensaje de error. El registro de extractos entra a continuación en un estado de error. Este estado de error se produce cuando se ha activado inventario negativo para los productos.
+Si hay números de lotes válidos disponibles para los productos, tanto el proceso de facturación de pedidos de clientes como el proceso de facturación de pedidos de ventas del registro de extractos los usan. Si los números de lote válidos no están disponibles para los productos, no se puede registrar el proceso de facturación de pedidos de clientes y el usuario de PDV recibe un mensaje de error. A continuación, el registro de extractos entra en un estado de error, incluso si se ha activado el inventario negativo para los productos.
 
-Las mejoras que se han realizado en Retail versión 10.0.4 y posteriores ayudan a garantizar que, cuando se activa inventario negativo para artículos con seguimiento por lotes, no se bloquean la facturación de pedidos de clientes ni la facturación de pedidos de ventas a través del registro de extractos para esos artículos si el inventario es 0 (cero) o un número de lote no está disponible. La nueva funcionalidad usa un id. de lote predeterminado para las líneas de ventas cuando los números de lotes no están disponibles.
+Las mejoras que se han realizado en Commerce ayudan a garantizar que, cuando se activa inventario negativo para artículos con seguimiento por lotes, no se bloquean la facturación de pedidos de clientes ni la facturación de pedidos de ventas a través del registro de extractos para esos artículos si el inventario es 0 (cero) o un número de lote no está disponible. La funcionalidad mejorada usa un id. de lote predeterminado para las líneas de ventas cuando los números de lotes no están disponibles.
 
-Para definir el id. de lote predeterminado que se usa para pedidos de cliente, en la página **Parámetros de Commerce**, en la pestaña **Pedidos de cliente**, en la ficha desplegable **Pedido**, establezca el campo de **Id. de lote predeterminado**.
+## <a name="define-the-default-batch-id-that-is-used-for-customer-orders"></a>Defina el id. de lote predeterminado que se utiliza para los pedidos de clientes.
 
-Para definir el id. de lote predeterminado que se usa para facturación de pedidos de ventas a través del registro de extractos, en la página **Parámetros de Commerce**, en la pestaña **Registro**, en la ficha desplegable **Actualización del inventario**, establezca el campo de **id. de lote predeterminado**.
+Para definir el id. de lote predeterminado que se utiliza para los pedidos de clientes, siga estos pasos.
+
+1. En la sede central de Commerce, vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros de Commerce**.
+1. En la pestaña **Pedidos de cliente**, en la ficha desplegable **Pedido**, introduzca un valor en el campo **Id. de lote predeterminado**.
+
+## <a name="define-the-default-batch-id-that-is-used-for-sales-order-invoicing-through-statement-posting"></a>Defina el id. de lote predeterminado que se utiliza para la facturación de pedidos de ventas mediante el registro de extractos.
+
+Para definir el id. de lote predeterminado que se utiliza para la facturación de pedidos de ventas mediante el registro de extractos, siga estos pasos.
+
+1. En la sede central de Commerce, vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros de Commerce**.
+1. En la pestaña **Registro**, en la ficha desplegable **Actualización del inventario**, introduzca un valor en el campo **Id. de lote predeterminado**.
 
 > [!NOTE]
-> Esta funcionalidad solo está disponible cuando el almacenamiento avanzado está activado para los artículos y el almacén de la tienda específicos. En una versión posterior, la funcionalidad también se admitirá para escenarios donde no se use la gestión avanzada de almacenes.
-
-> [!NOTE]
-> La compatibilidad para el control mejorado de los artículos con seguimiento por lotes durante el registro de extractos para los escenarios no avanzados de gestión de almacenes se introdujo en Retail versión 10.0.5.
-
+> - La funcionalidad de id. de lote predeterminado solo está disponible cuando el almacenamiento avanzado está habilitado para los artículos y el almacén de la tienda específicos. En una versión futura, la funcionalidad de id. de lote predeterminado también se habilitará para escenarios donde no se use la gestión avanzada de almacenes.
+> - La compatibilidad para el control mejorado de los artículos con seguimiento por lotes durante el registro de extractos para los escenarios no avanzados de gestión de almacenes se introdujo en Commerce versión 10.0.5.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

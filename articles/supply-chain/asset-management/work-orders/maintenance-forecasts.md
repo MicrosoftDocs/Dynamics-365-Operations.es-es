@@ -1,12 +1,10 @@
 ---
 title: Previsiones de mantenimiento
 description: En este tema se explican las previsiones de mantenimiento en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderForecastToJournals, EntAssetWorkOrderForecast
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5cf1a634ef5ab60707cf471ef017ec167e3013f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6503d5110a4cb5e4041afa7b4e80395b2974a64e5a150eb6bfce1f32a6703e06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761863"
 ---
 # <a name="maintenance-forecasts"></a>Previsiones de mantenimiento
 
@@ -104,7 +102,7 @@ Para obtener una visión general de dónde se usa el artículo de la línea sele
 
 La ilustración muestra un ejemplo de la página **Previsión de mantenimiento de orden de trabajo**.
 
-![Figura 1](media/06-work-orders.png)
+![Figura 1.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Actualización automática de previsiones de orden de trabajo
@@ -122,7 +120,7 @@ En Administración de activos, puede actualizar automáticamente cualquier cambi
 
 La ilustración muestra un ejemplo del cuadro de diálogo **Actualizar previsión de orden de trabajo**.
 
-![Figura 2](media/07-work-orders.png)
+![Figura 2.](media/07-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

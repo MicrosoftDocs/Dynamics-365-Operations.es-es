@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 83081f8c17a903cd447a34596df2e61ebda0cafc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712721"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino de la impresora
 
@@ -30,7 +30,7 @@ Puede enviar un documento generado directamente a una impresora de red para su i
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de comenzar, debe instalar y configurar el Agente de enrutamiento de documentos y luego registrar las impresoras de red. Para más información, consulte [Instalar el agente de ruta de documentos para habilitar la impresión de red](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent)
+Antes de comenzar, debe instalar y configurar el Agente de enrutamiento de documentos y luego registrar las impresoras de red. Para más información, consulte [Instalar el agente de ruta de documentos para habilitar la impresión de red](./install-document-routing-agent.md)
 
 ## <a name="make-the-printer-destination-available"></a>Hacer que el destino de impresora esté disponible
 
@@ -39,7 +39,7 @@ Para hacer que el destino de **impresora** esté disponible en la instancia actu
 1. Convertir documentos de salida de informes electrónicos desde formatos de Microsoft Office a PDF
 2. Agente de ruta de documentos como destino de informes electrónicos para documentos de salida
 
-[![Activar la característica de destino de impresora de ER en Administración de características](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Activar la característica de destino de impresora de ER en Administración de características.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Aplicabilidad
 
@@ -55,7 +55,7 @@ El destino de **impresora** solo es compatible con implementaciones en la nube.
 2. En el campo **Nombre de impresora**, seleccione la impresora de red requerida.
 3. Establezca la opción **¿Guardar en archivo de impresión?** en **Sí** para almacenar la salida generada en el archivo de impresión, de modo que esté disponible para su posterior impresión. Para acceder a la salida archivada más tarde, vaya a **Administración de la organización** \> **Consultas e informes** \> **Archivo de informes**.
 
-[![Uso del destino de impresora](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Uso del destino de impresora.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > La opción **Convertir a PDF** no tiene que estar activada cuando se configura el destino de **impresora**. La conversión a PDF para fines de impresión ocurrirá incluso si la opción está desactivada.

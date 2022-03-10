@@ -1,12 +1,10 @@
 ---
 title: Grupos de suscripción
 description: Este tema delinea lo que se define en el grupo de suscripciones.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4541e067513da5d37631415e2628313fb4932b56
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 642d53048e8a19132f760f3248d2efa1974b9edc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242334"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580249"
 ---
 # <a name="subscription-groups"></a>Grupos de suscripción    
 

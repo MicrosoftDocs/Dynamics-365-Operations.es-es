@@ -1,9 +1,9 @@
 ---
-title: Descripción general de instantáneas (Vista previa)
+title: Información general de instantáneas
 description: Este tema describe la característica de instantáneas, que le permite guardar un pronóstico de flujo de efectivo para analizarlo o compararlo con los datos reales más adelante. Cuando genera un pronóstico de flujo de efectivo, puede guardar ese pronóstico como una "instantánea". Luego, puede usar esas instantáneas para editar las cuentas que se incluyeron en el pronóstico o comparar el pronóstico en la instantánea con los datos reales.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
-ms.topic: article
+ms.date: 11/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc7bfbf88acca3f74b2cc57e5caf38cea43a833f12e6ec40eebcb9b249b059
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765037"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983526"
 ---
-# <a name="snapshots-overview-preview"></a>Descripción general de instantáneas (Vista previa)
+# <a name="snapshots-overview"></a>Información general de instantáneas
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,8 +40,6 @@ Puede crear una instantánea seleccionando **Nueva instantánea** en cualquiera 
 
 Las entradas y salidas de efectivo en instantáneas se pueden editar en cualquier momento. Cuando se edita un importe de entrada o un importe de salida, el importe actualizado se prorratea a las cuentas de liquidez que formaron el saldo original. Cuando haya terminado de editar una instantánea, seleccione **Guardar** para guardar los cambios.
 
-Para comparar varias instantáneas, seleccione **Comparar instantáneas**. Puede comparar dos instantáneas a la vez. Seleccione las dos instantáneas a comparar y luego seleccione **Aceptar**. La página **Comparar instantánea** le mostrará una comparación de las instantáneas seleccionadas. El gráfico de la sección superior de la página muestra una comparación de las entradas de efectivo, las salidas de efectivo y los saldos bancarios en los períodos superpuestos entre las dos instantáneas. La cuadrícula de la sección inferior muestra una comparación detallada de los dos pronósticos para cada importe de liquidez. La columna **Desviación** de la cuadrícula muestra la diferencia entre los saldos de un período.
-
-Para comparar los resultados financieros reales con un pronóstico que se guardó como instantánea, seleccione **Comparar con datos reales**. La página **Comparar instantánea** mostrará una comparación de los importes reales y el pronóstico. El gráfico de la sección superior de la página muestra una comparación de las entradas de efectivo, las salidas de efectivo y los saldos bancarios en los períodos superpuestos entre las dos instantáneas. La cuadrícula de la sección inferior muestra una comparación detallada de los saldos actuales para cada periodo y el saldo previsto para cada importe de liquidez. La columna **Desviación** de la cuadrícula muestra la diferencia entre el saldo actual de un período y el saldo previsto.
+Para comparar los resultados financieros reales con un pronóstico que se guardó como instantánea, seleccione **Comparar con datos reales**. La página **Comparar con datos reales** mostrará una comparación de los importes reales y la previsión. El gráfico de la sección superior de la página muestra una comparación de las entradas de efectivo, las salidas de efectivo y los saldos bancarios en los períodos superpuestos entre las dos instantáneas. La cuadrícula de la sección inferior muestra una comparación detallada de los saldos actuales para cada periodo y el saldo previsto para cada importe de liquidez. La columna **Desviación** de la cuadrícula muestra la diferencia entre el saldo actual de un período y el saldo previsto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

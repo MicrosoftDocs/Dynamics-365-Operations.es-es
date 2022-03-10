@@ -2,9 +2,7 @@
 title: Función TRIM de ER
 description: Este tema proporciona información general sobre cómo usar la función TRIM de informes electrónicos (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b671ef72a3558c17fb16db939770394b225656da
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ba47df2b5f06b979436339e414e9e0cf7d9fd0358d8c9055c1591923b5d9c517
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734753"
 ---
 # <a name="trim-er-function"></a>Función TRIM de ER
 

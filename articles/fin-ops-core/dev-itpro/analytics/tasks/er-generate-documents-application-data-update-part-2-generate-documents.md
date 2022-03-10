@@ -2,7 +2,6 @@
 title: Diseñar configuraciones para generar documentos que tengan datos de la aplicación
 description: 'Este tema describe cómo diseñar las configuraciones de los informes electrónicos (ER) para generar un documento electrónico. (Parte 1: importar configuraciones).'
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217eca9bd1502d4327857720fb2d32a3ec3508ef
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726270"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Diseñar configuraciones para generar documentos que tengan datos de la aplicación
 

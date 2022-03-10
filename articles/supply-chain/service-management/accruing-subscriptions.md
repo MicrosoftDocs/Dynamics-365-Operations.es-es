@@ -1,29 +1,26 @@
 ---
 title: Acumulación de suscripciones
 description: Con las suscripciones de servicios, puede acumular ingresos manualmente en los períodos siguientes a la fecha de facturación de una transacción de gastos.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ebd65655db56ee1169f24dbc79fbfb5130f06a5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d17737c415f6204359dae3ea4b2a0cb4ebb5d65
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436807"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580489"
 ---
 # <a name="accruing-subscriptions"></a>Acumulación de suscripciones 
 
@@ -44,7 +41,7 @@ Si abona importes de suscripción facturados, puede usar dos métodos diferentes
 
   - Puede tener los importes acumulados invertidos en la fecha en la que la nota de abono se registra o en la fecha de registro original de acumulación.
 
-Para obtener más información, consulte [Parámetros de suscripción (formulario)](https://technet.microsoft.com/library/aa619615.aspx).
+Para obtener más información, consulte [Parámetros de suscripción (formulario)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Configurar requisitos
 
@@ -68,7 +65,7 @@ Para poder acumular ingresos para suscripciones, debe activarse la casilla **Acu
 
 ## <a name="enable-revenue-accrual-on-a-subscription-group"></a>Habilitar acumulación de ingresos en un grupo de suscripciones
 
-1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
+Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.
 
 ## <a name="periods"></a>Períodos
 
@@ -78,8 +75,8 @@ La tabla siguiente proporciona una visión general de los períodos de acumulaci
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -152,3 +149,6 @@ Puede controlar el número de transacciones contables que se crean al registrar 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

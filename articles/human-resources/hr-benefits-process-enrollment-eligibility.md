@@ -1,35 +1,35 @@
 ---
-title: Proceso de idoneidad para inscripción
-description: Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
-author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+title: Procesar idoneidad de inscripción
+description: En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25699d643b3e74fe7118884457ab17314d1f9132
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466311"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067638"
 ---
-# <a name="process-enrollment-eligibility"></a>Proceso de idoneidad para inscripción
+# <a name="process-enrollment-eligibility"></a>Procesar idoneidad de inscripción
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
+En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesamiento de idoneidad para inscripción**.
 
@@ -56,11 +56,11 @@ Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 ## <a name="view-process-results"></a>Ver resultados de proceso
 
-Este artículo explica cómo ver los resultados del proceso de idoneidad.
+En este tema se explica cómo ver los resultados del proceso de idoneidad.
 
 1.  En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesar resultados**.
 
-2.  En el formulario **Procesar resultados**, se especifican los siguientes campos:
+2.  En la página **Procesar resultados**, se especifican los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |

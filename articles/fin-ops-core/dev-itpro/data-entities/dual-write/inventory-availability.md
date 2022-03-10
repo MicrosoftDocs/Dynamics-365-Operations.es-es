@@ -1,29 +1,20 @@
 ---
 title: Disponibilidad de inventario en doble escritura
 description: Este tema proporciona información sobre cómo comprobar la disponibilidad de inventarios en doble escritura.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4457039"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782538"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilidad de inventario en doble escritura
 
@@ -57,3 +48,21 @@ El cuadro de diálogo devuelve la información de NNC de Supply Chain Management
 - Cantidad de recepción
 - Cantidad de emisión
 - Cantidad disponible
+
+## <a name="how-it-works"></a>Cómo funciona
+
+Cuando selecciona el botón **Inventario disponible** en la página **Ofertas**, **Pedidos** o **Facturas**, se realiza una llamada de escritura dual en vivo a la API **Inventario disponible**. La API calcula el inventario disponible para el producto dado. El resultado se almacena en **InventCDSInventoryOnHandRequestEntity** y en las tablas **InventCDSInventoryOnHandEntryEntity**, y luego se escribe en Dataverse mediante escritura dual. Para utilizar esta funcionalidad, debe ejecutar los siguientes mapas de escritura dual. Omita la sincronización inicial cuando ejecute los mapas.
+
+- Entradas de inventario de CDS disponibles (msdyn_inventoryonhandentries)
+- Solicitudes de inventario de CDS disponibles (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Plantillas
+
+Las siguientes plantillas están disponibles para exponer los datos de inventario disponibles.
+
+Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Descripción
+---|---|---
+[Entradas disponibles del inventario de CDS](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Solicitudes disponibles del inventario de CDS](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

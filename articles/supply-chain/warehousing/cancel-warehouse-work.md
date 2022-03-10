@@ -1,7 +1,7 @@
 ---
 title: Cancelar trabajo de almacén para control de excepciones
 description: En este tema se describe la funcionalidad Cancelar trabajo que permite a los supervisores de almacén gestionar el trabajo bloqueado.
-author: omulvad
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 552c83be411ed0be83b15d2541493ff0213fbe58
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831419"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572418"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Cancelar trabajo de almacén para control de excepciones
 

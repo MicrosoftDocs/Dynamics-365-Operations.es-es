@@ -1,7 +1,7 @@
 ---
 title: Asignación de datos de la planificación presupuestaria
 description: Este tema describe los métodos de asignación que están disponibles en Microsoft Dynamics 365 Finance y cómo se pueden usar.
-author: ShylaThompson
+author: panolte
 ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 112d3d37d1f70218265f264cda7ecefcb76f1f67
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c6011c4c005a26720fd57caca0075483404f41b4
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343871"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595126"
 ---
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 

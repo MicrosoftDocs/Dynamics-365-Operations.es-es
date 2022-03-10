@@ -1,12 +1,10 @@
 ---
 title: Registrar consumo
 description: En este tema se explica cómo registrar el consumo en Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765594"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -56,7 +54,7 @@ En algunos casos, es posible que pueda agregar o eliminar líneas de previsión 
 
 La siguiente captura de pantalla muestra un ejemplo de los registros de horas y artículos en una orden de trabajo en **Diarios de órdenes de trabajo**.
 
-![Figura 1](media/01-consumption.png)
+![Figura 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Horas divididas en órdenes de trabajo con varios trabajos de una orden trabajo
@@ -75,13 +73,13 @@ Si una orden de trabajo contiene varias tareas, puede registrar las horas de tra
 
 6. Inserte el número de horas de trabajo que se van a dividir en el campo **Horas**.
 
-    ![Figura 2](media/02-consumption.png)
+    ![Figura 2.](media/02-consumption.png)
 
 7. Haga clic en **Aceptar**.
 
 *Ejemplo:* en la siguiente captura de pantalla se muestran las líneas de diario para una orden de trabajo que contiene tres tareas. La primera línea, que contiene tres horas de trabajo, se ha dividido, y una hora de trabajo se registra en cada tarea de la orden de trabajo. Una vez creadas las tres líneas de registro de horas, decida qué hacer con la línea de registro de horas original (la primera línea del ejemplo). Puede conservarla tal cual o eliminarla. 
 
-![Figura 3](media/03-consumption.png)
+![Figura 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Dimensiones financieras en los registros de consumo
 
@@ -94,3 +92,6 @@ Al hacer registros de consumo, las dimensiones financieras relacionadas con los 
 >[!NOTE]
 >Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Esta es la configuración estándar con otras aplicaciones Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

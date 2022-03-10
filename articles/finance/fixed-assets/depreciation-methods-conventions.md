@@ -1,8 +1,8 @@
 ---
 title: Convenciones y métodos de depreciación
 description: Este artículo proporciona una visión general de las convenciones de depreciación y los métodos de depreciación que son compatibles con Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-ms.date: 04/25/2017
+author: moaamer
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3f0f3b8be86225fd68df9b099e5c8e13a220a213
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713243"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927438"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Convenciones y métodos de depreciación
 
@@ -32,7 +32,7 @@ Puede seleccionar varios métodos de depreciación y convenciones de amortizacio
 
 Si utiliza convenciones de amortización y modifica la última fecha de ejecución de la depreciación de un activo que se salta algunas depreciaciones, la depreciación del último año puede ser mayor o menor de lo esperado. La depreciación se ajusta con el número de períodos de depreciación afectados por la modificación de la última fecha de ejecución de la depreciación.
 
-Por ejemplo, si utiliza la convención de amortización de medio año durante tres años, la amortización ocurrirá normalmente a lo largo de 3 1/2 años. Si cambia la última fecha de ejecución de la depreciación durante los 3 1/2 años, el último año de depreciación cambiará el número de períodos afectados. Si cambia la fecha en tres meses, el último año tendrá un valor de depreciación de nueve meses, cuando normalmente serían seis meses.
+Por ejemplo, si utiliza la convención de depreciación de medio año durante tres años, la depreciación ocurrirá normalmente a lo largo de 3 años y medio. Si cambia la última fecha de ejecución de la depreciación durante estos 3 años y medio, el último año de depreciación cambiará el número de períodos afectados. Si cambia la fecha en tres meses, el último año tendrá un valor de depreciación de nueve meses, cuando normalmente serían seis meses.
 
 Puede seleccionar entre las siguientes convenciones de amortización.
 

@@ -1,28 +1,25 @@
 ---
 title: Desactivar una versión de flujo de producción
 description: Cuando ya no se necesita una versión del flujo de producción activa, se puede desactivar.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e818d3d75be8b24531afc6280ae0c37eca4de23
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1691dc644e2e191a9e74980784d6dcf741dcd598
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436559"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576769"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Desactivar una versión de flujo de producción
 
@@ -46,3 +43,6 @@ Para este procedimiento necesita un flujo de producción con una versión que se
     * No continúe si no está convencido de que esta versión del flujo de producción está obsoleta. Haciendo clic en Acepar expirarán todas las reglas kanban activas y se pondrá fin de forma inmediata a todas las actividades de producción y de reabastecimiento de esta versión del flujo de producción.  
 6. Haga clic en Aceptar
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

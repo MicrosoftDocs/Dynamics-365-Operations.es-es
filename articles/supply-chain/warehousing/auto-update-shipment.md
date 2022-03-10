@@ -1,12 +1,10 @@
 ---
 title: Actualizaciones automáticas de envíos
 description: Este tema proporciona una visión general de la funcionalidad que proporciona las actualizaciones automáticas para envíos.
-author: josaw1
-manager: tfehr
+author: Mirzaab
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f10c5c5dd1d287b51a6dda482614d6520bb3a1f9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3402a4c90299cf52e489e85ed55aff9762796545
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233160"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580105"
 ---
 # <a name="shipment-auto-updates"></a>Actualizaciones automáticas de envíos
 

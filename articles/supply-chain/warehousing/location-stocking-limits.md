@@ -2,11 +2,9 @@
 title: Límites de existencias de la ubicación
 description: Este tema describe la funcionalidad para los límites de existencias de ubicaciones.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714171"
 ---
 # <a name="location-stocking-limits"></a>Límites de existencias de la ubicación
 
@@ -83,7 +81,7 @@ En este ejemplo, ejecutará un flujo de recepción de órdenes de compra para do
 
 Primero recibirá una cantidad de *4* de la unidad *PL* en tamaño *S* y revisará las ubicaciones de las líneas de colocación para el trabajo que se crea. Después recibirá una cantidad de *4* de la unidad *PL* en tamaño *L* y revisará las ubicaciones de las líneas de colocación para el trabajo que se crea.
 
-1. En la aplicación de almacén, inicie sesión utilizando *24* como el Id. de usuario y *1* como la contraseña.
+1. En la aplicación móvil Warehouse Management, inicie sesión utilizando *24* como el Id. de usuario y *1* como la contraseña.
 1. Seleccione **Entrante** \> **Recepción de compra**.
 1. Reciba *4* *PL* del número de artículo *D0013* en tamaño *S*.
 1. Revise el trabajo de ubicación que se creó. Debería ver el siguiente resultado:

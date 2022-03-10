@@ -1,29 +1,26 @@
 ---
 title: Actualización automática de los contadores de activos
 description: Este tema describe la actualización automática de contadores de activos en la Administración de activos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fcc46fad8d57b7d4d57edfa4f2ae06de923d1c14
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9a3814a575fbe4379b59723f269d83379a253ede71962c0c82b5f4cc55d36e6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738304"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Actualización automática de los contadores de activos
 
@@ -52,7 +49,7 @@ Como se mencionó anteriormente, los contadores automáticos se pueden actualiza
 
     La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Actualizar contadores de activos**.
 
-    ![Figura 1](media/12-work-orders.png)
+    ![Figura 1.](media/12-work-orders.png)
 
 5. Seleccione **Aceptar**. 
 
@@ -62,7 +59,7 @@ En la página **Valor agregado de activo**, puede obtener una visión general de
 
 La ilustración siguiente muestra un ejemplo de la página **Valor agregado de activos**.
 
-![Figura 2](media/13-work-orders.png)
+![Figura 2.](media/13-work-orders.png)
 
 Tenga en cuenta los aspectos siguientes:
 
@@ -70,3 +67,6 @@ Tenga en cuenta los aspectos siguientes:
 
 - Puede configurar los contadores que están relacionados con otro contador. En este caso, cuando se actualiza un contador, los contadores relacionados se actualizan automáticamente al mismo tiempo. Para obtener más información sobre la configuración de los contadores relacionados, consulte [Contadores](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

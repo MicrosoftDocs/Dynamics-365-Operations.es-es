@@ -1,32 +1,34 @@
 ---
-title: Opciones del informe
-description: El artículo explica cómo resolver la incidencia cuando un cliente quiere personalizar informes de Microsoft Dynamics 365 Human Resources o crear nuevos informes.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+title: Opciones de informes
+description: En este tema se explica cómo personalizar informes de Microsoft Dynamics 365 Human Resources o crear informes nuevos.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3c82f3d4f040f680cab68228f1aa8ab16f548961
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114120"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069080"
 ---
-# <a name="reporting-options"></a>Opciones del informe
+# <a name="reporting-options"></a>Opciones de informes
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 **Detalles del entorno**
 
@@ -36,7 +38,7 @@ Este problema se aplica a todos los entornos.
 
 El cliente desea personalizar informes de Microsoft Dynamics 365 Human Resources o crear nuevos informes.
 
-**Emisión**
+**Emitir**
 
 El usuario no puede personalizar los informes incrustados de Microsoft Power BI.
 
@@ -49,3 +51,6 @@ El usuario no puede personalizar los informes incrustados de Microsoft Power BI.
 **Solución a largo plazo**
 
 Las opciones adicionales de Power BI estarán disponibles, y más entidades y datos formarán parte de Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

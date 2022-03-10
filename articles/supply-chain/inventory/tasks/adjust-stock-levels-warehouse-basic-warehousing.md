@@ -1,27 +1,25 @@
 ---
 title: Ajuste de niveles de existencias en el almacén (almacenaje básico)
 description: Este procedimiento muestra el proceso para crear y registrar un diario de ajuste de inventario para ajustar niveles de existencias de productos en el almacén.
-author: MarkusFogelberg
-manager: tfehr
+author: yufeihuang
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b397dd7efdfcd8874bc5bb44aaa12ab1dc8cb66
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 02458d588c9925a1f4cb9afeada793dfc55a2071
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011580"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573834"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajuste de niveles de existencias en el almacén (almacenaje básico)
 
@@ -59,3 +57,6 @@ Este procedimiento muestra el proceso para crear y registrar un diario de ajuste
 5. Cierre el formulario.
 6. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

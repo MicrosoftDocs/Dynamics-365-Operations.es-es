@@ -2,7 +2,6 @@
 title: Tipo de destino de ER de archivo
 description: Este tema proporciona información sobre cómo configurar un destino de archivo para un formato ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c597a627ab755e411469f3b3f847d43b7a875bdd
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: adb32efd3849c94294d9fe9e706f39d209116d259e0d964d1558cc0e49009a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760807"
 ---
 # <a name="file-destination"></a>Destino de archivo
 
@@ -31,11 +30,11 @@ Puede configurar un destino de archivo para cada componente FOLDER o FILE de un 
 
 En la página **Configuración de destino**, si establece **Habilitado** en **Sí** se abre un cuadro de diálogo para abrir o guardar cuando la configuración termina de ejecutarse.
 
-[![Página Configuración de destino](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![Página Configuración de destino.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+- [Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
 

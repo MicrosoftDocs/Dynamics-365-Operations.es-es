@@ -1,26 +1,23 @@
 ---
 title: Tareas periódicas de administración del crédito
 description: En este tema se describen las tareas periódicas que son una parte necesaria del proceso de administración de los límites de crédito para los clientes.
-author: mikefalkner
-manager: AnnBe
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4447568"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753516"
 ---
 # <a name="periodic-credit-management-tasks"></a>Tareas periódicas de gestión de crédito.
 
@@ -44,3 +41,6 @@ A medida que las empresas evolucionan y las circunstancias cambian, los riesgos 
 Puede ejecutar el proceso **Actualizar las estadísticas de saldo del cliente** para actualizar el cálculo de estadísticas de saldo que se muestra en la página **Consulta de estadísticas de saldo**. Esta información se usa para calcular las puntuaciones de riesgo y los valores que se muestran en los cuadros de datos de estadísticas de crédito en la página **Cliente**.
 
 Al ejecutar el proceso, actualiza las estadísticas de saldo de cliente para un solo cliente. Para configurar un trabajo por lotes con el fin de ejecutar el proceso para varios clientes, puede usar la página **Calcular estadísticas de saldo** (**Administración de crédito \> Tareas periódicas \> Calcular estadísticas de saldo**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

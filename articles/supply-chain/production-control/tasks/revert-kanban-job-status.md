@@ -1,28 +1,25 @@
 ---
 title: Invertir estado del trabajo kanban
 description: Este procedimiento se centra en la inversión de un estado de trabajo kanban incorrecto.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cca5ea3a4c33c7f36acd18a8af7034466b3b580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 771c3b95be05904c84483473a533c708964fbe62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4436815"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574410"
 ---
 # <a name="revert-kanban-job-status"></a>Invertir estado del trabajo kanban
 
@@ -55,3 +52,6 @@ Este procedimiento se centra en la inversión de un estado de trabajo kanban inc
     * Seleccione el mismo trabajo.  
     * Observe que el estado del trabajo kanban se revierte a Planificado, lo que se indica con un icono de kanban vacío.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

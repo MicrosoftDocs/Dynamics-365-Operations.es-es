@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348890"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594724"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mecanismo de cargo invertido para el régimen de IVA e IBS
 
@@ -45,7 +45,6 @@ Para aplicar el cargo invertido, debe completar la configuración siguiente.
 Recomendamos que use códigos de impuestos independientes para las operaciones de venta y las operaciones de compra.
 
 <table>
-<body>
 <tr>
 <td><strong>Impuestos sobre ventas</strong></td>
 <td>Cree un código de impuestos para las operaciones de ventas de cargo invertido (<strong>Impuestos</strong> &gt; <strong>Impuestos indirectos</strong> &gt; <strong>Impuestos</strong> &gt; <strong>Códigos de impuestos</strong>).
@@ -62,7 +61,6 @@ Debe asignar este código de impuestos negativo a un grupo de impuestos de artí
 <p>Para obtener más información, consulte la sección siguiente, &quot;Configurar grupos de impuestos y grupos de impuestos de artículos.&quot;</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos

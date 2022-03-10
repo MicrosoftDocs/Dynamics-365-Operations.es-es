@@ -2,28 +2,25 @@
 title: Crear cheques que tengan el estado en blanco
 description: En este tema se explica cómo crear cheques en blanco para una cuenta bancaria en la página de cheques.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c431ed975aecf116fbf626018038b112a0a8cca063e1462e31e206480643e11
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720559"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Crear cheques que tengan el estado en blanco
 
@@ -39,3 +36,6 @@ En la página **Cheques**, realice las tareas de mantenimiento para cheques. Por
 Para abrir la página **Cheques**, vaya a **Gestión de efectivo y bancos \> Cuentas bancarias \> Cuentas bancarias** y, a continuación, en el panel de acciones, en la pestaña **Administrar pagos**, en el grupo **Información relacionada**, seleccione **Cheques**. Como alternativa, vaya a **Gestión de efectivo y bancos \> Consultas e informes \> Cheques**.
 
 A continuación, para crear cheques con estado **En blanco**, en el panel de acciones, seleccione **Crear cheques en blanco**. Mientras el sistema está creando cheques en blanco, la cuenta bancaria asociada se desactiva temporalmente. Este comportamiento reduce el riesgo de que se generen pagos a la vez que se crean cheques en blanco. Tras completar el procesamiento, se reactiva la cuenta bancaria asociada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,33 +1,35 @@
 ---
 title: Directivas de idoneidad para beneficio
-description: Este artículo proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Este tema proporciona información sobre las directivas de idoneidad de prestaciones, que definen quién es apto para prestaciones específicas.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cc5dfedc0022cbf9bdbc636bbe96971422c29838
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e1f64a0beffe12f6b4e0ad53d3bbaa96822dc7e8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114115"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066052"
 ---
-# <a name="benefit-eligibility-policies"></a>Directivas de idoneidad para prestaciones
+# <a name="benefit-eligibility-policies"></a>Directivas de idoneidad para beneficio
 
-Este artículo proporciona información acerca de las directivas de idoneidad de prestación, que le ayudan a definir quién es apto para las prestaciones específicas.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Este tema proporciona información sobre las directivas de idoneidad de prestaciones, que definen quién es apto para prestaciones específicas.
 
 Cuando crea prestaciones, decide qué beneficios estarán disponibles para qué empleados. En la tabla siguiente se muestran ejemplos de las prestaciones que puede poner a disposición de empleados específicos.
 
@@ -49,3 +51,6 @@ Define el ámbito de la regla dentro de la directiva. Por ejemplo, si crea un ti
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

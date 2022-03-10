@@ -2,25 +2,22 @@
 title: Clústeres de ubicación
 description: Los grupos de almacenamiento ofrecen una forma de elegir varias placas al mismo tiempo y luego llevarlas a almacenamiento en diferentes ubicaciones. Pueden ser muy útiles para negocios minoristas, donde las placas de matrícula generalmente no son paletas llenas de inventario.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512339"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103672"
 ---
 # <a name="putaway-clusters"></a>Clústeres de ubicación
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512339"
 
 Los grupos de almacenamiento ofrecen una forma de elegir varias placas al mismo tiempo y luego llevarlas a almacenamiento en diferentes ubicaciones. Este proceso suele denominarse como *recorrido*. Los clústeres de ubicación pueden ser muy útiles para negocios minoristas, donde las placas de matrícula generalmente no son paletas llenas de inventario. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Activar la característica de ubicación de clúster
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Activar o desactivar la característica de ubicación de clúster
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Función de almacenamiento en grupo*
+Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Función de almacenamiento en grupo* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Función de almacenamiento en grupo* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Configuración para el escenario de ejemplo
 
@@ -231,7 +225,7 @@ Este escenario simula el procesamiento del clúster de almacenamiento.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Reciba y clasifique el inventario en un grupo
 
-1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Recibir y ordenar clúster**.
 1. En el campo **Ponum**, introduzca el número de orden de compra.
@@ -273,7 +267,7 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 
 #### <a name="put-the-cluster-away"></a>Guardar el clúster
 
-1. Inicie sesión en la aplicación de almacén como un usuario configurado para el almacén *61*.
+1. Inicie sesión en la aplicación móvil Warehouse Management como un usuario configurado para el almacén *61*.
 1. En el menú principal, seleccione **Entrada**.
 1. En el menú **Entrante**, seleccione **Ubicación de clúster**.
 1. Seleccione **ID de clúster** e ingrese el ID de clúster que ingresó anteriormente para el clúster cerrado.
@@ -287,7 +281,7 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 
     Tiene las opciones estándar para anular o aprobar este paso.
 
-    ![Página Ubicación de clúster: ubicación](media/Cluster_putaway-Put.png "Página Ubicación de clúster: ubicación")
+    ![Página Ubicación de clúster: ubicación.](media/Cluster_putaway-Put.png "Página Ubicación de clúster: ubicación")
 
 1. Seleccione **Aceptar** para confirmar la ubicación del clúster.
 
@@ -296,3 +290,6 @@ Antes de que los elementos del clúster se puedan guardar, el clúster debe cerr
 ## <a name="notes-and-tips"></a>Notas y consejos
 
 Para los casos en los que la identificación del grupo se convierte en la placa de matrícula principal de un palé anidado, la posición de colocación se da automáticamente cuando se escanea la identificación del grupo. No se deben escanear más matrículas, incluso si la generación de matrículas está configurada en manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

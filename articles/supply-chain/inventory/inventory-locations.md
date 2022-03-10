@@ -1,12 +1,10 @@
 ---
 title: Ubicaciones del inventario
 description: Las ubicaciones de inventario se usan con el almacenamiento básico (WMS I) para determinar dónde se almacenan los artículos y dónde se seleccionan los artículos desde un almacén de WMS I.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSLocation, WMSBlockingCause, WHSLocation
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 2134
 ms.assetid: 69bf6922-4151-447f-b678-4ba95637f54c
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31096aa9c97f0307c7004d1af1e424dde1dc65cd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264075"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573954"
 ---
 # <a name="inventory-locations"></a>Ubicaciones del inventario
 
@@ -61,8 +59,7 @@ Es posible copiar las ubicaciones de un almacén a otro y crear ubicaciones a tr
 
 
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Creación de un nuevo diseño de almacén](tasks/create-new-warehouse-layout.md)
 

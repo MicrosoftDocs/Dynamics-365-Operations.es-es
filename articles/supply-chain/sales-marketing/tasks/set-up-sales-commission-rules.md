@@ -1,26 +1,24 @@
 ---
 title: Configurar reglas de comisión de ventas
 description: Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cálculo de las comisiones de ventas.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended, CommissionEmplSalesGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b49865cf9d4073c2da7aa6ccc610b92055c711c1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f42f2fbe22124dbaaf2c4bd2f4394f734d166d5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010731"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578905"
 ---
 # <a name="set-up-sales-commission-rules"></a>Configurar reglas de comisión de ventas
 
@@ -95,3 +93,6 @@ Este procedimiento muestra cómo configurar y habilitar el seguimiento y el cál
 17. En la lista, seleccione el grupo de comisión que ha creado anteriormente.
 18. Seleccione **Guardar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

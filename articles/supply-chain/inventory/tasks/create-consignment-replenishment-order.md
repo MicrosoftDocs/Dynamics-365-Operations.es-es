@@ -1,28 +1,25 @@
 ---
 title: Crear un pedido de reabastecimiento de entrega
 description: Este tema explica cómo crear un pedido de reabastecimiento de entrega donde puede seguir la entrega prevista de un proveedor en su inventario de entrega.
-author: mkirknel
-manager: tfehr
+author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple, ConsignmentProductReceiptJournal, ConsignmentReplenishmentOrderLineQuantity
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mkirknel
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4437259"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574602"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Crear un pedido de reabastecimiento de entrega
 
@@ -62,3 +59,6 @@ Este tema explica cómo crear un pedido de reabastecimiento de entrega donde pue
 3. Seleccione **Visión general**. Los artículos que se han recibido como inventario de entrega propiedad del proveedor están disponibles. La cantidad restante en el pedido de reabastecimiento de entrega se muestra en el campo **Pedido en total**.  
 4. Cierre la página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

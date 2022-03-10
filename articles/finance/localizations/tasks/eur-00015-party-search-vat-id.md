@@ -2,11 +2,9 @@
 title: EUR-00015 Búsqueda de la parte mediante el Id. de IVA
 description: Este procedimiento muestra cómo realizar una búsqueda de parte mediante un identificador de registro.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyTable, DirPartTaxRegistrationSearch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63bbd9c77879d953cfdbf7e56c8ead5eaf49bd1d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b112d37dace0e43c5171f746a60bf987ae77c3aa65edc515f93b53d4e1cf625
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758762"
 ---
 # <a name="eur-00015-party-search-using-vat-id"></a>EUR-00015 Búsqueda de la parte mediante el Id. de IVA
 

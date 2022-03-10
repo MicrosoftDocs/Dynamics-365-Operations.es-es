@@ -1,9 +1,9 @@
 ---
 title: Visión general de la administración de transporte
 description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
-author: MarkusFogelberg
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359518"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985454"
 ---
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 

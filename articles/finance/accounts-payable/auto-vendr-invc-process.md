@@ -3,7 +3,7 @@ title: Visión general de los procesos automatizados de facturación de proveedo
 description: Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado.
 author: abruer
 ms.date: 02/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 37dd76773abb69819bfd32bb2813bb8b42b2a375
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820844"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985665"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visión general de los procesos automatizados de facturación de proveedores
 
@@ -33,6 +33,7 @@ Puede automatizar algunos procesos de facturación de proveedores de Cuentas a p
 
 Los procesos de automatización se pueden utilizar para realizar estas tareas:
 
+- Aplicar anticipo automáticamente para facturas de proveedores
 - Envíe automáticamente facturas importadas al sistema de flujo de trabajo.
 - Concilia recepciones de productos con líneas de factura de proveedor pendientes.
 - Simule la contabilización antes de que se contabilice una factura de proveedor.
