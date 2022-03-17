@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 30f36ccf967c47d6a034c00544d45cdfdc3d1907
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103397"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384756"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -75,9 +75,41 @@ Esta función permite agregar un campo de búsqueda a la lista de trabajos. Los 
 
 ### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar los informes sobre coproductos y productos derivados
 
-Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados. Para usar esta característica, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados. Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Informe de coproductos y productos derivados de la interfaz de ejecución de planta de producción*
+
+### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Habilite la visualización de números completos de serie, lote y matrícula
+
+Esta función proporciona una experiencia mejorada para ver listas de números de serie, lote y matrícula de entidad de almacén en la interfaz de ejecución de la planta de producción. La pantalla cambia de una vista de tarjeta que muestra un número limitado de caracteres a una vista de lista que proporciona suficiente espacio para mostrar los valores completos. La lista también ofrece la posibilidad de buscar números específicos.
+
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Mostrar número de serie completo, lote y matrículas de entidad de almacén en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+### <a name="enable-registering-of-material-consumption"></a>Habilitar el registro de consumo de material
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto.
+
+Existen dos versiones de esta característica. Una admite artículos que *no están* habilitados para utilizar procesos de almacén avanzados (WMS). El otro admite elementos que *están* habilitado para usar WMS. Para usar esta funcionalidad, active una o ambas de las siguientes características en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden), dependiendo de si tiene elementos habilitados para WMS:
+
+- *(Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*
+- *(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
+
+> [!IMPORTANT]
+> Puede usar solo la función que no es WMS. Sin embargo, si usa WMS, debe habilitar ambas funciones.
+
+### <a name="enable-reporting-on-catch-weight-items"></a>Habilitar informes sobre artículos con peso capturado
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes para artículos de peso capturado. Los pedidos por lotes se crean a partir de fórmulas, que se pueden definir para que tengan productos de peso capturado y productos de fórmula, coproductos y subproductos. También se puede definir una fórmula para que tenga líneas de fórmula para los ingredientes definidos para el peso capturado. Los artículos con peso capturado utilizan dos unidades de medida para realizar un seguimiento del inventario: cantidad de peso capturado y cantidad de inventario. Por ejemplo, en la industria alimentaria, la carne en caja se puede definir como un artículo con peso capturado, en el que la cantidad de peso capturado se usa para rastrear el número de cajas y la cantidad de inventario se usa para rastrear el peso de las cajas.
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *(Versión preliminar) Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción*
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 

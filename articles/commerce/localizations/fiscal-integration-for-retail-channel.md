@@ -1,22 +1,22 @@
 ---
-title: Visión general de la integración fiscal para canales de Commerce
+title: Información general de la integración fiscal para canales de Commerce
 description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077201"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388322"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visión general de la integración fiscal para canales de Commerce
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Información general de la integración fiscal para canales de Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -46,6 +46,9 @@ Un ejemplo fiscal de integración para un dispositivo fiscal podría contener el
 - **Configuración de conector fiscal** La configuración define la comunicación con física el dispositivo o servicio fiscal específico.
 
 Un proceso de registro fiscal para un registro de PDV específico se define mediante un valor correspondiente del perfil de funcionalidad del PDV. Para obtener más información acerca de cómo configurar un proceso de registro fiscal, cargar el proveedor fiscal de documento y las configuraciones de conector fiscales, y cambiar los parámetros de configuración, consulte [Configurar un proceso de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> Si necesita dispositivos para operaciones no fiscales, como la búsqueda de catálogos de productos, la búsqueda de clientes o la creación de borradores de transacciones, puede seleccionarlos como registros con restricciones de procesos fiscales. Para más información, ver [Configurar registros con restricciones de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
 El siguiente flujo de registro fiscal típico comienza con un evento en el POS (por ejemplo, la finalización de una transacción de venta) e implementa una secuencia predefinida de pasos que involucra otros componentes de Commerce (como el CRT y la estación de hardware).
 

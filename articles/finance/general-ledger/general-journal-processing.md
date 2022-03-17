@@ -2,7 +2,7 @@
 title: Procesamiento de diarios generales
 description: Este tema describe las capacidades en Microsoft Dynamics 365 Finance que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726786"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367901"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
@@ -101,7 +101,7 @@ Un botón está disponible en la página del diario para desbloquear los diarios
 La capacidad de recuperar un diario en un flujo de trabajo que tiene un estado de “irrecuperable” se habilita usando el botón **Flujo de trabajo** en un diario y en la página **Historial de flujo de trabajo**. Esto se habilita mediante la característica denominada **Restablecer el estado del flujo de trabajo para los diarios** en la página **Administración de características**.
 
 ## <a name="delete-journal-lines"></a>Eliminar líneas de diario
-La capacidad de eliminar todas las líneas del diario se habilita rápidamente en un diario en **Funciones** > **Eliminar las líneas de diario**. Para habilitar esta característica, en **Administración de características**, seleccione **Eliminar otimizaciones de rendimiento del diario**.
+La capacidad de eliminar todas las líneas del diario se habilita rápidamente en un diario en **Funciones** > **Eliminar las líneas de diario**. Para habilitar esta característica, en **Administración de características**, seleccione **Eliminar otimizaciones de rendimiento del diario**. Esta característica afecta las extensiones en la tabla **LedgerJournalTrans** mesa y el método **Borrar**, ya que el conjunto de líneas se eliminan sin llamar a cada línea del método **Borrar**. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

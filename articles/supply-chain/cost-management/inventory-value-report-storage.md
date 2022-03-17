@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103949"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384704"
 ---
 # <a name="inventory-value-reports"></a>Informes de valor de inventario
 
@@ -102,7 +102,7 @@ Utilice la página **Informes de valor de inventario** para configurar el conten
         - Artículos recibidos y aún no facturados cuando la opción **Publicar inventario físico** está desactivada para el grupo de modelos de artículo relevante.
         - Artículos recibidos y aún no facturados cuando la opción **Registrar recepción de producto en el libro mayor** esté desactivada en la ficha desplegable **Recepción de producto** en la pestaña **General** de la página **Parámetros de proveedores** (**Proveedores \> Configuración \> Parámetros de proveedores**).
 
-    - **Calcular coste unitario promedio** - Establezca esta opción en *Sí* para mostrar una columna que muestre el coste unitario promedio. El coste unitario promedio es la cantidad total dividida por el importe total.
+    - **Calcular coste unitario promedio** - Establezca esta opción en *Sí* para mostrar una columna que muestre el coste unitario promedio. El coste unitario promedio es el importe total dividido por la cantidad total.
     - **Cantidad total y valor** - Establezca esta opción en *Sí* para mostrar columnas que muestran la cantidad total de inventario físico (y cantidades financieras) y el importe de inventario de inventario físico (e importes financieros). Puede establecer esta opción en *Sí* solo si la opción **Resumir valores físicos y financieros** está establecida en *No*.
     - **Dimensiones de inventario** - En esta cuadrícula, seleccione la casilla de verificación **Ver** para cada dimensión que desee mostrar en el informe. Solo dimensiones donde la opción **Inventario financiero** está habilitada mostrarán valores en el informe. Otras dimensiones mostrarán solo columnas en blanco. Para las dimensiones que seleccione mostrar, puede seleccionar la casilla de verificación **Total** para incluir los totales también.
     - **ID de recurso** - Establezca la opción **Ver** como *Sí* para mostrar una columna que identifica el elemento de cada fila. Establezca la opción **Total** como *Sí* para incluir totales también. Según el tipo de artículo que se enumera en cada fila, la columna muestra uno de los siguientes tipos de información:

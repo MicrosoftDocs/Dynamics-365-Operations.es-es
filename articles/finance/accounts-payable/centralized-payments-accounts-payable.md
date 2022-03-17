@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182527"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8331751"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagos centralizados para Proveedores
 
 [!include [banner](../includes/banner.md)]
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este tema proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
-
-Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que se simplifica el proceso de pago.
 
 En una organización de pagos centralizados, existen muchas entidades jurídicas para realizar las operaciones, y cada entidad jurídica operativa administra sus propias facturas de proveedores. Los pagos de las entidades jurídicas operativas se generan desde una única entidad jurídica conocida como la entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibirá las transacciones de pérdidas o de beneficios realizados, y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos entre empresas. En la línea de diario de pago centralizado, el **Tipo de cuenta** se debe establecer en el proveedor. El **Tipo de cuenta de contrapartida** debe establecerse en banco o libro mayor. La cuenta bancaria debe estar en la empresa actual. 
 

@@ -2,7 +2,7 @@
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075431"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384652"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -158,6 +158,7 @@ Para algunas páginas que incluyan listas, la característica de personalizació
 
 - Para agregar una lista a un espacio de trabajo, primero debe clasificar o filtrar la lista de la página para que muestre la información tal y como desee que aparezca en el área de trabajo. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Lista**. Tras seleccionar **Configurar**, aparecerá un cuadro de diálogo, donde puede seleccionar las columnas que deben aparecer en la lista del área de trabajo. También puede especificar la etiqueta que se debe usar para la lista del espacio de trabajo.
 - Para agregar un mosaico a un espacio de trabajo, primero debe filtrar la lista de la página para que muestre los datos que debe resumir o a los que quiere tener acceso rápido. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Mosaico**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que se debe usar para el mosaico en el espacio de trabajo. También puede especificar si el mosaico debe mostrar un recuento. Una vez que el mosaico se agrega al espacio de trabajo, puede seleccionarlo para abrir la página actual del espacio de trabajo. Puede ver la lista filtrada que está asociada al mosaico.
+    - A partir de la versión 10.0.26, si la función **Permitir que los usuarios seleccionen y cambien los tamaños de los mosaicos** está habilitada, puede seleccionar uno de los cuatro **Tamaños de mosaicos** disponibles para su nuevo mosaico en el diálogo **Configurar mosaico**. Esta característica también le permite ajustar el tamaño del mosaico después de crearlo directamente desde el espacio de trabajo.   
 - Para agregar un vínculo a un espacio de trabajo, primero filtre la lista de la página para que muestre los datos que le interesan. (Si está activada la característica **Vistas guardadas**, no podrá continuar hasta que guarde una vista que tenga estas condiciones.) A continuación, seleccione **Agregar al espacio de trabajo**. Seleccione un área de trabajo y, a continuación, en el campo **Presentación**, seleccione **Vínculo**. Tras seleccionar **Configurar**, aparece un cuadro de diálogo donde puede especificar la etiqueta que debe utilizarse para el vínculo. También puede especificar de forma opcional una etiqueta para la sección que contenga este vínculo. Si esa sección no existe, se creará una nueva sección.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Una vez que ha agregado una lista, el mosaico o el vínculo a un espacio de trab
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Agregar un resumen de un espacio de trabajo a un panel de información
 
 Algunas áreas de trabajo contienen mosaicos de recuento (es decir, mosaicos que contienen), y es posible que desee que dichos mosaicos aparezcan también en el panel. En un espacio de trabajo, haga clic con el botón secundario en un mosaico de recuento, seleccione **Personalizar** y, a continuación, seleccione **Anclar al panel de información** en la ventana de propiedades del mosaico. La próxima vez que abra y actualice el panel de información seleccionado, verá el recuento debajo del mosaico de navegación del área de trabajo. Puede seleccionar dicho recuento para ir directamente a los datos que representa.
+
+### <a name="changing-the-size-of-a-tile"></a>Cambiar el tamaño de un mosaico
+A partir de la versión 10.0.26, la función **Permitir que los usuarios seleccionen y cambien los tamaños de los mosaicos** permite a los usuarios modificar el tamaño de cualquier mosaico que no sea KPI a través de la personalización. En un espacio de trabajo, haga clic con el botón derecho en un mosaico y seleccione **Personalizar**. En la ventana de propiedades del mosaico, seleccione el tamaño deseado en las opciones **Tamaño de mosaico**. El tamaño del mosaico se ajustará inmediatamente. Si la característica **(Vista previa) Compatibilidad con vistas guardadas para espacios de trabajo** está habilitada, puede guardar esta personalización en una vista del espacio de trabajo.  
 
 ### <a name="personalizing-your-dashboard"></a>Personalización del panel de información
 

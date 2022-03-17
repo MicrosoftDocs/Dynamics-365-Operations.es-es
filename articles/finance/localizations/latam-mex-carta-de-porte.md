@@ -2,7 +2,7 @@
 title: Complemento Hoja de ruta (Carta de Porte)
 description: Este tema explica cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte).
 author: v-oloski
-ms.date: 09/08/2021
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: v-oloski
+ms.author: v-olgaoskina
 ms.search.validFrom: 2021-08-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0c9cb25dd26a61ad208babc7aa3264643d8c5e91
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 00483c15607c37874b83b81ee79582ca3f2be40d
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485636"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388509"
 ---
 # <a name="waybill-carta-de-porte-complement"></a>Complemento Hoja de ruta (Carta de Porte)
 
@@ -29,9 +29,9 @@ Este tema ofrece información sobre cómo configurar y enviar albaranes y órden
 Para generar el complemento Hoja de ruta (Carta de Porte) en documentos de factura electrónica (CFDI), introduzca la información de transporte en la página **Detalles de transporte**. Puede abrir esta página desde cualquiera de los documentos empresariales siguientes:
 
 - **Un registro de pedido de ventas:** estos pedidos de venta incluyen pedidos de venta para el proyecto. Vaya a **Clientes** \> **Pedidos** \> **Todos los pedidos de ventas**. En el panel de acciones, seleccione **Recoger y empaquetar**.
-- **Un pedido de transferencia:** vaya a **Administración del inventario** \> **Pedidos salientes** \> **Pedidos de transferencia** y, en el panel de acciones, seleccione **Enviar**.
+- **Una orden de transferencia:** Vaya a **Gestión del inventario** \> **Pedidos de salida** \> **Orden de transferencia**. En el panel Acciones, seleccione **Enviar**.
 - **Un envío:** vaya a **Administración del inventario** \> **pedidos salientes** \> **Envíos**.
-- **Requerimientos del proyecto:** vaya a **Administración y contabilidad de proyectos** \> **Tareas de elementos** \> **Requerimientos del proyecto** y, en el panel de acciones, seleccione **Administrar**.
+- **Requisitos del proyecto**: vaya a **Administración y contabilidad de proyectos** \> **Tareas de elementos** \> **Requisitos del proyecto**. En el panel de acciones, seleccione **Administrar**.
 
 > [!NOTE]
 > Puede ver la información de transporte en las páginas de lista **CFDI: facturas electrónicas de albarán** y **CFDI: facturas electrónicas de transferencia de inventario**.
@@ -41,6 +41,13 @@ Para generar el complemento Hoja de ruta (Carta de Porte) en documentos de factu
 Esta sección proporciona información sobre los campos que son obligatorios en la página **Detalles de transporte**. En la siguiente ilustración, se han resaltado los campos obligatorios.
 
 ![Página de detalles de transporte.](media/latam-mx-transportation-details.png)
+
+> [!NOTE]
+> A partir de la versión 10.0.23 (compilación 10.0.1037.160) la siguiente funcionalidad está disponible:
+>
+> - En la ficha desplegable **Cargando** de la página **Detalles de transporte**, introduzca un valor en los campos **Fecha y hora de carga** y **Nombre** (dirección de envío). Si deja el campo **Fecha y hora de carga** en blanco, el sistema selecciona el valor de la transacción. Si deja el campo **Nombre** (dirección de envío) en blanco, el sistema selecciona el valor de la dirección del almacén o sitio.
+> - Seleccione un valor en el campo **Peso por unidad**. Antes de la versión 10.0.23, la unidad de peso **XAG** era un valor fijo en un archivo XML. Si deja este campo en blanco, el atributo correspondiente en el archivo XML se completa con **XAG**.
+> - Además de los datos de dos conductores, puede completar los actores de transporte seleccionando **Actores del transporte** en el Panel de acciones. Sin embargo, primero debe completar el catálogo de actores yendo a **Administración de la organización** \> **Configuración** \> **Aclaración SAT** \> **Transporte**.
 
 ### <a name="general-fasttab"></a>Ficha desplegable General
 
@@ -144,7 +151,7 @@ Si su empresa ha implementado el módulo **Activos fijos**, introduzca informaci
 
 ### <a name="workers"></a>Trabajadores
 
-Siga estos pasos para introducir números RFC, números de registro e información de licencia para conductores. Antes de comenzar, asegúrese de que los tipos de identificación se hayan configurado en **Recursos humanos** \> **Configuración** \> **Tipos de identificación**.
+Siga estos pasos para introducir números de identificación fiscal (RFC), números de registro e información de licencia para conductores. Antes de comenzar, asegúrese de que los tipos de identificación se hayan configurado en **Recursos humanos** \> **Configuración** \> **Tipos de identificación**.
 
 1. Vaya a **Recursos humanos** \> **Trabajadores** \> **Empleados/ Contratistas/Trabajadores**.
 2. En el panel de acciones, seleccione **Informacion personal** \> **Números de identificación**.
@@ -159,12 +166,14 @@ Después de habilitar la función, siga estos pasos para introducir información
 1. Vaya a **Gestión de información de productos** \> **Productos** \> **Todos los productos emitidos**.
 2. Abra el registro de artículo y luego, en la ficha desplegable **Administrar inventario**, configure la opción **Materiales peligrosos** en **Sí**.
 3. En el panel de acciones, seleccione **Administrar inventario** \> **Cumplimiento**.
-4. En la página **Artículos de materiales peligrosos**, en el encabezado, establezca el campo **Código de regulación**. 
+4. En la página **Artículos de materiales peligrosos**, en el encabezado, establezca el campo **Código de regulación**.
 5. En la ficha desplegable **Gestión de materiales**, en la sección **Grupo de embalaje**, establezca el campo **Grupo de embalaje**.
 
-> [!NOTE] 
-> Para seleccionar valores para los campos **Código de regulación** y **Grupo de embalaje**, primero complete las tablas **Regulación de materiales peligrosos** y **Grupos de embalaje de materiales peligrosos**, de acuerdo con los catálogos SAT **c_MaterialPeligroso** y **c_TipoEmbalaje** que se encuentran en **Gestión de información de producto** > **Configuración** > **Documentación de envío de materiales peligrosos**.    
+> [!NOTE]
+> Para seleccionar valores para los campos **Código de regulación** y **Grupo de embalaje**, primero complete las tablas **Regulación de materiales peligrosos** y **Grupos de embalaje de materiales peligrosos**, de acuerdo con los catálogos SAT **c\_MaterialPeligroso** y **c\_TipoEmbalaje** que se encuentran en **Gestión de información de producto** \> **Configuración** \> **Documentación de envío de materiales peligrosos**.
+>
+> A partir de la versión 10.0.23 (compilación 10.0.1037.149), puede trabajar con la opción **Mostrar estado peligroso** al enviar el atributo **matrialPeligrosso** como salida en un archivo XML. Si la opción **Mostrar estado peligroso** está establecida en **Sí**, puede configurar la opción **Materiales peligrosos** a **Sí**.
 
-   ![Página de artículo de materiales peligrosos.](media/latam-mx-hazardous2.png)
+![Página de artículo de materiales peligrosos.](media/latam-mx-hazardous2.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

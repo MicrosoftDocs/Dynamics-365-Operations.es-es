@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860518"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384806"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introducción a la contabilidad de inventario global
 
@@ -121,7 +121,7 @@ Siga estos pasos para configurar la integración entre la contabilidad de invent
 1. Inicie sesión en de Supply Chain Management.
 1. Vaya a **Administración del sistema \> Administración de funciones**.
 1. Seleccione **Buscar actualizaciones**.
-1. Sobre la pestña **Todas**, busque la característica que se denomina *Contabilidad global de inventarios*.
+1. En la pestaña **Todas**, busque la característica que se denomina *(Vista previa) Contabilidad global de inventarios*.
 1. Seleccione **Habilitar ahora**.
 1. Ir **Contabilidad global de inventarios \> Configuración \> Parámetros de contabilidad de inventario global \> Parámetros de integraciones**.
 1. En los campos **Punto final del servicio de datos** y **Punto final de contabilidad de inventario global**, ingrese las URL del correo electrónico que envió el equipo de Contabilidad de inventario global cuando se registró para la vista previa.

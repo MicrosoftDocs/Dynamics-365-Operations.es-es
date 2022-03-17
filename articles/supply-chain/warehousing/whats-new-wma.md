@@ -2,7 +2,7 @@
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067260"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384380"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20170"></a>Versión 2.0.17.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Se solucionó un problema por el cual los códigos de barras se escaneaban incorrectamente.
+- Se solucionó el problema de escaneo GS1 para el escáner de la cámara.
+- Se solucionó el problema de escaneo GS1 para el escáner de código de barras en los dispositivos Zebra.
+- Se mejoró el flujo de consulta de desvíos, por lo que seleccionar una tarjeta en un desvío ahora vuelve al flujo principal.
+- Se agregó soporte para un flujo de consulta de datos genéricos.
+- Se agregó un mensaje para informar a los usuarios sobre los cambios en el estado de conectividad de la red.
+- Permisos de almacenamiento alineados con la política de privacidad de almacenamiento en Android 10.
+- Para los flujos que lo necesitan, el indicador de cantidad ahora incluye una posición que permite a los usuarios enviar un valor numérico vacío.
+- Se corrigieron problemas con la orientación del número giratorio.
+- Se solucionó un problema por el cual la rueda giratoria de cantidad saltaba al valor incorrecto.
+- Se solucionó un problema por el cual la entrada a la página principal se perdía cuando se completaba desde la página de detalles.
+- Se solucionó un problema por el cual el texto del marcador de posición se trataría como el valor seleccionado inicialmente en las listas de selección.
+- El botón "Enviar" en los pasos de confirmación ahora se habilita automáticamente si hay valores preseleccionados.
+- Se corrigió la tarjeta de detalles para mostrar tantas líneas como sea posible para los campos de texto que tienen varias líneas.
+- Se corrigió la altura de los botones "Enviar" y "Más acciones", por lo que ahora ocupan menos espacio en la pantalla.
+- Se agregaron títulos de lista de selección faltantes.
+- Se solucionó un problema por el cual el botón Atrás no funcionaba.
+- Se agregaron varias correcciones y mejoras de navegación del teclado, incluso en las siguientes páginas:
+  - Inicio de sesión de usuario
+  - Seleccionar conexión
+  - Editar conexión
+- Se corrigió el desplazamiento al usar la navegación del teclado.
+- Accesibilidad mejorada, incluidas las siguientes mejoras:
+  - Visibilidad y contraste de colores fijos.
+  - Se evitó la pérdida del enfoque del teclado cuando se cierran las páginas emergentes.
+  - Se agregaron mensajes de error a la narración.
+  - Aumentó el tamaño de los valores de marcador de posición en el banner de paso.
+- Se corrigió el ejemplo de la página heredada personalizada en modo de demostración.
 
 ## <a name="version-20150"></a>Versión 2.0.15.0
 
@@ -39,7 +72,7 @@ Esta versión introduce las características nuevas, correcciones y mejoras sigu
 ## <a name="version-20130"></a>Versión 2.0.13.0
 
 Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
- 
+
 - Desplazamiento mejorado entre páginas con animación más suave.
 - Se corrigieron las respuestas poco intuitivas a los movimientos de deslizamiento y las congelaciones ocasionales de la pantalla.
 - Combinaciones mejoradas de color de fondo y texto en modo oscuro para una mejor legibilidad.

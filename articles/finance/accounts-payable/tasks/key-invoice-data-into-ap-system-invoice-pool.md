@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777273"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358298"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas
 
@@ -58,7 +58,7 @@ En este tema se describe cómo utilizar el registro de facturas para crear factu
 6. Seleccione **Cambiar vista**.
 7. Seleccione **Vista de cuadrícula**.
 8. Seleccione **Registrar**.
-9. Cierre el formulario.
+9. Cierre la página.
 10. En el panel de exploración, vaya a **Módulos > Proveedores > Proveedores > Proveedores**.
 11. Seleccione el proveedor que estaba en el pedido de compra. Por ejemplo, seleccione el proveedor **1001**.
 12. En el panel de acciones, seleccione **Proveedor**.

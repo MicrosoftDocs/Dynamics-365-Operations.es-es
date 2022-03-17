@@ -2,7 +2,7 @@
 title: Ejemplo de integración de servicio de registro fiscal para la República Checa
 description: Este tema proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
@@ -10,16 +10,17 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 990de96f57f4a22b4d58da5f970b1b96f5fc21f5
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: cb9679bd02c5400fc015c6807407b01e9bf55343
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077099"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388245"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Ejemplo de integración de servicio de registro fiscal para la República Checa
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Este tema proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
 
@@ -68,7 +69,7 @@ El ejemplo de integración del servicio de registro fiscal implementa las siguie
 - Una transacción relacionada con un depósito en la cuenta de un cliente o el depósito de un pedido de un cliente se registra en el servicio de registro fiscal como una transacción de una sola línea y se marca con un atributo especial. El grupo de IVA de depósito se especifica en esta línea.
 - Cuando se crea un pedido de cliente híbrido, es decir, un pedido de cliente que contiene productos que pueden ser realizados fuera de la tienda por el cliente, así como productos que serán recogidos o enviados posteriormente, la transacción se registra en el servicio de registro fiscal. contiene líneas para los productos que se realizan, así como una línea para el depósito del pedido.
 - Un pago de una cuenta de cliente se considera un pago regular y se marca con un atributo especial cuando la transacción se registra en el servicio de registro fiscal.
-- El monto del depósito del pedido del cliente que se aplica a una operación *Seleccionar* de un pedido del cliente se considera un pago regular y se marca con un atributo especial cuando la transacción se registra en el servicio de registro fiscal.
+- El monto del depósito del pedido del cliente que se aplica a una operación seleccionar de un pedido del cliente se considera un pago regular y se marca con un atributo especial cuando la transacción se registra en el servicio de registro fiscal.
 
 ### <a name="offline-registration"></a>Registro sin conexión
 
@@ -291,14 +292,28 @@ Para configurar un entorno de desarrollo para probar y ampliar la muestra, siga 
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Instale las extensiones de la estación de hardware:
+1. Instalar extensiones de conector fiscal:
 
-    1. En la carpeta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, busque el instalador **HardwareStation.EFR.Installer**.
-    1. Inicie el instalador de extensiones desde la línea de comandos:
+    Puede instalar extensiones de conector fiscal en la [estación de hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) o el [registro de PDV](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Instale las extensiones de la estación de hardware:
+
+        1. En la carpeta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, busque el instalador **HardwareStation.EFR.Installer**.
+        1. Inicie el instalador de la extensión desde la línea de comandos ejecutando el siguiente comando.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Instale las extensiones de PDV:
+
+        1. Abra la solución de muestra del conector fiscal PDV en **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** y construirlo.
+        1. En la carpeta **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**, encuentre el instalador **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Inicie el instalador de la extensión desde la línea de comandos ejecutando el siguiente comando.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Entorno de producción
 
@@ -350,5 +365,28 @@ El conector admite las siguientes solicitudes.
 #### <a name="configuration"></a>Configuración
 
 El archivo de configuración para el conector fiscal se encuentra en **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** en el repositorio de [Soluciones de Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). El propósito del archivo es permitir la configuración del conector fiscal desde la sede de Comercio. El formato de archivo está alineado con los requisitos para la configuración de integración fiscal.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Diseño de la extensión del conector fiscal del PDV
+
+El propósito de la extensión del conector fiscal PDV es comunicarse con el servicio de registro fiscal del PDV. Utiliza el protocolo HTTPS para la comunicación.
+
+#### <a name="fiscal-connector-factory"></a>Fábrica del conector fiscal
+
+La fábrica de conectores fiscales asigna el nombre del conector a la implementación del conector fiscal y se encuentra en el archivo **Pos. Extensión\\Connectors\\FiscalConnectorFactory.ts**. El nombre del conector debe coincidir con el nombre del conector fiscal que se especifica en la sede de Commerce.
+
+#### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
+
+El conector fiscal EFR se encuentra en el archivo **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Implementa la interfaz **IFiscalConnector** que admite las siguientes solicitudes:
+
+- **FiscalRegisterSubmitDocumentClientRequest** - Esta solicitud envía documentos al servicio de registro fiscal y devuelve una respuesta de ella.
+- **FiscalRegisterIsReadyClientRequest** - Esta solicitud se utiliza para una verificación del servicio de registro fiscal.
+- **FiscalRegisterInitializeClientRequest** - Esta solicitud se utiliza para inicializar el servicio de registro fiscal.
+
+#### <a name="configuration"></a>Configuración
+
+El archivo de configuración se encuentra en la carpeta **src\\FiscalIntegration\\Efr\\Configuraciones\\Conectores** del repositorio [Soluciones de Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). El propósito del archivo es permitir la configuración del conector fiscal desde la sede de Comercio. El formato de archivo está alineado con los requisitos para la configuración de integración fiscal. Se agregan los siguientes parámetros:
+
+- **Dirección de punto final** - La URL del servicio de registro fiscal.
+- **Tiempo de espera** - La cantidad de tiempo, en milisegundos, que el conector esperará una respuesta del servicio de registro fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

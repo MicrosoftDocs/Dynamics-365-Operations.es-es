@@ -2,7 +2,7 @@
 title: Tipo de destino de ER de impresora
 description: Este tema explica cómo puede configurar un destino de impresora para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
-ms.date: 02/24/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712721"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388297"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino de la impresora
 
@@ -43,7 +43,24 @@ Para hacer que el destino de **impresora** esté disponible en la instancia actu
 
 ### <a name="applicability"></a>Aplicabilidad
 
-El destino de **impresora** solo se puede configurar para componentes de archivo que se utilizan para generar resultados en formato PDF imprimible (elementos de formato de archivo PDF o fusión de PDF) o de Microsoft Office Excel/Word (archivo Excel). Cuando la salida se genera en formato PDF, se envía a una impresora. Cuando la salida se genera en formato de Microsoft Office, se convierte automáticamente a formato PDF y luego se envía a una impresora.
+#### <a name="pdf-printing"></a>Impresión PDF
+
+En las versiones de Finance anteriores a la versión 10.0.18, el destino de **Impresora** solo se puede configurar para componentes de archivo que se utilizan para generar resultados en formato PDF imprimible (**elementos de formato de archivo PDF** o **fusión de PDF**) o de formato Microsoft Office Excel y Word (elemento de formato de **archivo Excel**). Cuando la salida se genera en formato PDF, se envía a una impresora. Cuando la salida se genera en formato de Office usando el elemento de formato **Archivo Excel**, se convierte automáticamente a formato PDF y luego se envía a una impresora.
+
+Sin embargo, a partir de la versión 10.0.18, puede configurar el destino **Impresora** para el elemento de formato **Archivo común**. Este elemento de formato se usa principalmente para generar resultados en formato TXT o XML. Puede configurar un formato ER que contenga el elemento de formato **Archivo común** como el elemento de formato raíz y el elemento de formato **Contenidos binarios** como el único elemento anidado debajo de él. En este caso, el elemento de formato **Archivo común** producirá una salida en el formato especificado por el enlace que configure para el elemento de formato **Contenidos binarios**. Por ejemplo, puede configurar este enlace para [llenar](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) este elemento con el contenido de un adjunto de un [Gestor de documentos](../../fin-ops/organization-administration/configure-document-management.md) en formato PDF u Office (Excel o Word). Puede imprimir la salida usando el destino **Impresora** configurado. 
+
+> [!NOTE]
+> Cuando selecciona el elemento de formato **Common\\File** elemento de formato para configurar el destino **Impresora**, no hay forma de garantizar, en el momento del diseño, que el elemento seleccionado producirá una salida en formato PDF o una salida que se pueda convertir a formato PDF. Por lo tanto, recibe el siguiente mensaje de advertencia: "Por favor, asegúrese de que la salida generada por el componente de formato seleccionado se pueda convertir a PDF. De lo contrario, desmarque la opción 'Convertir a PDF'". Debe tomar medidas para ayudar a evitar problemas de tiempo de ejecución cuando se proporciona una salida que no es PDF o que no es PDF convertible para imprimir en tiempo de ejecución. Si espera recibir la salida en el formato de Office (Excel o Word), la opción **Convertir a PDF** debe seleccionarse.
+>
+> En la versión 10.0.26 y posteriores, para usar la opción **Convertir a PDF**, debe seleccionar **PDF** para el parámetro **Tipo de enrutamiento de documentos** del destino de **Impresora** configurado.
+
+#### <a name="zpl-printing"></a>Impresión ZPL
+
+En la versión 10.0.26 y posteriores, puede configurar el destino **Impresora** para el elemento de formato **Common\\File** seleccionando **ZPL** para el parámetro **Tipo de enrutamiento de documentos**. En este caso, la opción **Convertir a PDF** se ignora en tiempo de ejecución y la salida TXT o XML se envía directamente a una impresora seleccionada mediante el contrato del lenguaje de programación Zebra (ZPL) del [Agente de enrutamiento de documentos (DRA)](install-document-routing-agent.md). Utilice esta función para un formato ER que represente un diseño de etiqueta ZPL II para imprimir varias etiquetas.
+
+[![Configuración del parámetro Tipo de enrutamiento de documentos en el cuadro de diálogo Configuración de destino.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+
+Para obtener más información acerca de esta función, consulte [Diseñe una nueva solución ER para imprimir etiquetas ZPL](er-design-zpl-labels.md).
 
 ### <a name="limitations"></a>Limitaciones
 

@@ -2,18 +2,18 @@
 title: Commerce analytics (versión preliminar)
 description: Este tema explica cómo instalar y utilizar la capacidad de análisis en Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 11/23/2021
+ms.date: 02/24/2022
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 8cfe2af756315b5be3eb22d99376a96166fffc52
-ms.sourcegitcommit: f9fca3d55b47e615e5ef64669dab184e057ec234
+ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7862782"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349752"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce analytics (versión preliminar)
 
@@ -28,7 +28,6 @@ Puede probar una [demostración en vivo de Commerce Analytics (versión prelimin
 ![Resumen de Commerce Analytics (versión preliminar)](media/CommerceAnalytics_Summary.png)
 ![Pagos de Commerce Analytics (versión preliminar)](media/CommerceAnalytics_Payments.png)
 ![Actividad web de Commerce Analytics (versión preliminar)](media/CommerceAnalytics_WebActivity.png)
-
 
 ## <a name="commerce-analytics-preview-system-architecture"></a>Arquitectura del sistema Commerce analytics (versión preliminar)
 
@@ -98,7 +97,7 @@ La aplicación de plantillas Commerce Analytics incluye las siguientes páginas 
 12. [Actividad Web](#WebActivityPage)
 13. [Actividad web: filtro de nivel superior](#WebActivityTopLevelFilters)
 
-####  <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Filtros de nivel superior
+#### <a name="top-level-filters"></a><a name="TopLevelFilters"></a> Filtros de nivel superior
 
 - Configuración de fecha
 
@@ -122,13 +121,13 @@ La aplicación de plantillas Commerce Analytics incluye las siguientes páginas 
     - Jerarquía de categoría
     - Categoría
 
-####  <a name="products"></a><a name="ProductsPage"></a> Productos
+#### <a name="products"></a><a name="ProductsPage"></a> Productos
 
 - Ventas
 - Margen
 - Devoluciones
 
-####  <a name="customers"></a><a name="CustomersPage"></a> Clientes
+#### <a name="customers"></a><a name="CustomersPage"></a> Clientes
 
 - Ventas
 - Margen
@@ -313,7 +312,7 @@ Si los visitantes navegan por su sitio de comercio electrónico mientras están 
 
 #### <a name="impressions"></a>Impresiones
 
-Una impresión es una vista única de un elemento visual de producto por parte de un visitante de comercio electrónico. Por ejemplo, un visitante de comercio electrónico va a la página de inicio de su sitio web de comercio electrónico y ve un producto de esterilla de yoga en un módulo de lista **Más vendidos**. A continuación, el visitante ve el mismo producto de esterilla de yoga en un módulo de lista **Selecciones para ti**. En este caso, hay dos impresiones de producto. 
+Una impresión es una vista única de un elemento visual de producto por parte de un visitante de comercio electrónico. Por ejemplo, un visitante de comercio electrónico va a la página de inicio de su sitio web de comercio electrónico y ve un producto de esterilla de yoga en un módulo de lista **Más vendidos**. A continuación, el visitante ve el mismo producto de esterilla de yoga en un módulo de lista **Selecciones para ti**. En este caso, hay dos impresiones de producto.
 
 Actualmente, las impresiones se registran en las siguientes superficies:
 
@@ -349,32 +348,60 @@ La página **Informe de impresiones** incluye las siguientes métricas:
 ## <a name="commerce-analytics-preview-installation"></a>Instalación de Commerce analytics (versión preliminar)
 
 > [!NOTE]
-> Commerce analytics (versión preliminar) está en versión preliminar en las regiones de Estados Unidos, Canadá, Reino Unido, Europa, Sudeste de Asia, Este de Asia, Australia y Japón. Si su entorno de Finance and Operations se encuentra en cualquiera de esas regiones, puede habilitar esta función en su entorno utilizando Microsoft Dynamics Lifecycle Services (LCS). Antes de poder utilizar esta función, consulte [Configurar la exportación a Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce analytics (versión preliminar) está en versión preliminar en las regiones de Estados Unidos, Canadá, Reino Unido, Europa, Sudeste de Asia, Este de Asia, Australia y Japón. Si su entorno de finanzas y operaciones se encuentra en cualquiera de esas regiones, puede habilitar esta característica en su entorno utilizando Microsoft Dynamics Lifecycle Services (LCS). Antes de poder utilizar esta función, consulte [Configurar la exportación a Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Habilitar y configurar Commerce analytics (versión preliminar)
 
-Para instalar Commerce analytics (versión preliminar), debe tener permisos para crear recursos en una suscripción de Azure. También debe tener permisos para instalar complementos en LCS. Esta es una visión general de los pasos:
+Para instalar Commerce analytics (versión preliminar), debe tener permisos para crear recursos en una suscripción de Azure. También debe tener permisos para instalar complementos en LCS. 
 
-1. [Envíe el formulario de admisión de versión preliminar para Commerce analytics (versión preliminar)](#joinPreview).
-2. [Habilitar y configurar Exportar a Data Lake](#enableExportToDataLake).
-3. [Habilitar y configurar el complemento Commerce analytics (versión preliminar)](#enableCommerceAnalyticsAddin).
-4. [Generar un token de firma de acceso compartido (SAS) para su cuenta de almacenamiento](#getSASToken).
-5. [Descargar los scripts de implementación para vistas de Azure Synapse](#downloadSynapseDeploymentScripts).
-6. [Instalar y configurar un Azure Synapse workspace](#configureAzureSynapse).
-7. [Instalar la aplicación de plantillas Power BI](#powerbi).
+Para habilitar y configurar Commerce analytics (versión preliminar), siga estos pasos.
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Enviar el formulario de admisión de versión preliminar para Commerce analytics (versión preliminar)
+1. [Habilitar y configurar el complemento Exportar a Data Lake](#enableExportToDataLake).
+1. [Instalar y configurar un Azure Synapse workspace](#configureAzureSynapse).
+1. [Agregar secretos al almacén de claves](#addSecrets).
+1. [Habilitar y configurar el complemento Commerce analytics (versión preliminar)](#enableCommerceAnalyticsAddin).
+1. [Instalar la aplicación de plantillas Power BI](#powerbi).
 
-Envíe el [formulario de admisión de versión preliminar para Commerce analytics (versión preliminar)](https://forms.office.com/r/vW5VLJGXZ2). Espere hasta tres días hábiles para que se procese el formulario. Una vez procesado, se enviará un correo electrónico de confirmación a la dirección de correo electrónico que proporcionó en el formulario.
+### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Habilitar y configurar el complemento Export a Data Lake
 
-### <a name="enable-and-configure-export-to-data-lake"></a><a name="enableExportToDataLake"></a>Habilitar y configurar Exportar a Data Lake
+> [!IMPORTANT]
+> Cuando configure el complemento Exportar a Data Lake, borre la casilla **Cambios de datos en tiempo real** en la página de configuración del complemento Exportar a Data Lake para asegurarse de que los cambios de datos en tiempo real no estén habilitados. La característica **Cambios de datos en tiempo real** está en versión preliminar y actualmente no es compatible con Commerce Analytics. Si habilita la característica, Commerce Analytics no podrá procesar sus datos en el lago de datos y la mayoría de sus informes de Power BI no mostrarán datos.
 
 Commerce analytics (versión preliminar) se basa en la función Exportar a Data Lake para exportar datos de la sede central de Commerce a Data Lake y mantener los datos actualizados. Antes de configurar Commerce analytics (versión preliminar), habilite y configure Exportar a Data Lake siguiendo los pasos en [Configurar la exportación a Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
-Mientras configura Exportar a Data Lake, tome nota de la siguiente información, ya que tendrá que ingresarla más tarde:
+Mientras configura el complemento Exportar a Data Lake, tome nota de la siguiente información, ya que tendrá que introducirla más tarde:
 
-- <a name="keyVault"></a>El nombre del sistema de nombres de dominio (DNS) del almacén de claves y los nombres secretos donde almacena el ID de la aplicación y el secreto de la aplicación. Para obtener información, vea [Agregar secretos al almacén de claves](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
-- <a name="storageAccount"></a>El nombre de la cuenta de almacenamiento para la instancia de Data Lake. Para más información, vea [Crear una cuenta de Data Lake Storage (Gen2) en su suscripción](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createsubscription).
+- <a name="keyVault"></a>El nombre del Sistema de nombres de dominio (DNS) del almacén de claves que proporcionó.
+- Los nombres de secretos que proporcionó y que contienen el id. de la aplicación y el secreto de la aplicación. Para obtener información, vea [Agregar secretos al almacén de claves](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
+
+### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Instalar y configurar un Azure Synapse workspace
+
+Commerce Analytics (versión preliminar) requiere que se aprovisione Synapse SQL a petición en su Azure Synapse workspace. Para instalar y configurar un Azure Synapse workspace, siga estos pasos.
+
+1. Instale un Azure Synapse workspace en su suscripción de Azure. Para más información, vea [Inicio rápido: crear un espacio de trabajo de Synapse](/azure/synapse-analytics/quickstart-create-workspace).
+1. <a name="serverlessep"></a>Después de aprovisionar el espacio de trabajo, abra la página de información general de recursos y tome nota del valor de **Extremo de Serverless SQL**. Tendrá que almacenar este valor en el almacén de claves en la siguiente sección.
+1. En la página de resumen, seleccione el vínculo **Abrir Synapse Studio** para abrir Azure Synapse Studio para su espacio de trabajo.
+1. Seleccione **Administrar** en el menú izquierdo. Para ver los nombres de los menús, es posible que deba seleccionar el vínculo para expandir en el menú de la izquierda.
+1. Debajo de **Grupo de seguridad**, seleccione **Control de acceso**. 
+1. Seleccione **Agregar**.
+1. En el panel **Agregar asignación de roles**, establezca las opciones como se describe en la siguiente tabla.
+
+    | Opción | Valor |
+    |--------|-------|
+    | Ámbito | Seleccione **Espacio de trabajo**. |
+    | Rol | Seleccione **Administrador de Synapse SQL**.|
+    | Seleccionar usuario | Busque el nombre de la aplicación que [creó durante la instalación del complemento Exportar a Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createapplication). Cuando la aplicación aparezca en los resultados de la búsqueda, selecciónela. La aplicación ahora aparecerá en la sección **Usuarios, grupos o entidades de servicio seleccionados**. |
+
+1. Seleccione **Aplicar** para completar la asignación de roles. La aplicación tiene concedidos privilegios de administrador de Synapse SQL. Por lo tanto, puede crear las vistas requeridas durante la configuración del complemento LCS de Commerce Analytics (versión preliminar).
+
+### <a name="add-secrets-to-the-key-vault"></a><a name="addSecrets"></a>Agregar secretos al almacén de claves
+
+En el mismo [almacén de claves](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createkeyvault) que usó mientras configuraba el complemento Exportar a Data Lake, debe agregar los secretos que se muestran en la siguiente tabla. Para cada secreto, debe proporcionar un nombre de secreto y el valor especificado.
+
+| Nombre de secreto sugerido | Valor secreto | Valor de secreto de ejemplo |
+|---------|---------|---------|
+| synapse-sql-server | El valor del extremo de serverless SQL que anotó mientras [configuró el Azure Synapse workspace](#serverlessep). | `test-ondemand.sql.azuresynapse.net` |
+| <a name="roUser"></a>readonly-sql-pwd | La contraseña que se establecerá para el usuario de solo lectura de SQL. El informe de Power BI usará esta contraseña para conectarse a Serverless SQL. Para establecer la contraseña, siga las directivas de contraseña de su organización. | |
 
 ### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a>Habilitar y configurar el complemento Commerce analytics (versión preliminar)
 
@@ -385,147 +412,55 @@ Para instalar y configurar el complemento Commerce analytics (versión prelimina
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/) y vaya a su entorno.
 2. En la página **Entorno**, en la pestaña **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 3. En el cuadro de diálogo, seleccione **Commerce analytics (versión preliminar)**.
-
-    Si **Commerce analytics (versión preliminar)** no aparece en la lista, asegúrese de que se ha unido al Insider Program.
-
 4. En el cuadro de diálogo **Configurar complemento**, especifique la siguiente información.
 
     | Información | Origen | Valor de ejemplo |
     |---|---|---|
-    | Identificación de inquilino de Azure AD para su entorno | Inicie sesión en el [Portal de Azure](https://portal.azure.com/) y abra el servicio **Azure Active Directory**. A continuación, abra la página **Propiedades** y copie el valor en el campo **ID de directorio**. | 72f988bf-0000-0000-00000-2d7cd011db47 |
-    | Nombre DNS de su almacén de claves | Proporcione el [nombre DNS](#keyVault) de su almacén de claves. Debería haber anotado este valor en la sección anterior. | `https://contosod365datafeedpoc.vault.azure.net/` |
-    | Secreto que contiene el ID de la aplicación | Escriba el [nombre secreto que almacena el ID de la aplicación](#keyVault). Debería haber anotado este valor en la sección anterior. | app-id |
-    | Secreto que contiene el secreto de la aplicación | Escriba el [nombre secreto que almacena el secreto de la aplicación](#keyVault). Debería haber anotado este valor en la sección anterior. | app-secret |
+    | Id. de suscriptor de Azure Active Directory (Azure AD) | Inicie sesión en el [Portal de Azure](https://portal.azure.com/) y abra el servicio **Azure Active Directory**. A continuación, abra la página **Propiedades** y copie el valor en el campo **Id. de suscriptor**. | `72f988bf-0000-0000-00000-2d7cd011db47` |
+    | Nombre DNS de su almacén de claves de Azure | Proporcione el nombre DNS de su almacén de claves. Debería haber tomado nota de este valor mientras [configuró el complemento Exportar a Data Lake](#keyVault). | `https://contosod365datafeedpoc.vault.azure.net/` |
+    | Nombre de secreto que contiene el id. de la aplicación | Escriba el nombre secreto que almacena el ID de la aplicación. Debería haber tomado nota de este valor mientras [configuró el complemento Exportar a Data Lake](#keyVault). | `app-id` |
+    | Nombre de secreto que contiene el secreto de la aplicación | Escriba el nombre secreto que almacena el secreto de la aplicación. Debería haber tomado nota de este valor mientras [configuró el complemento Exportar a Data Lake](#keyVault). | `app-secret` |
+    | Nombre de secreto que contiene el extremo de Serverless SQL para Azure Synapse | Escriba el nombre de secreto que almacena el extremo de Serverless SQL. Debería haber creado el secreto mientras [agregó secretos al valor de clave](#addSecrets). | `synapse-sql-server` |
+    | Nombre de secreto que contiene la contraseña que se establecerá para los usuarios de solo lectura de SQL en Azure Synapse | Introduzca el nombre de secreto que almacena la contraseña que se establecerá para el usuario de solo lectura de Serverless SQL. Este usuario se creará para usted y debe usarse en el informe de Power BI para conectarse a Serverless SQL server. Debería haber creado el secreto mientras [agregó secretos al valor de clave](#addSecrets). | `readonly-sql-pwd` |
 
-5. Acepte los términos de la oferta seleccionando la casilla de verificación y luego seleccione **Instalar**.
+1. Acepte los términos de la oferta seleccionando la casilla de verificación y luego seleccione **Instalar**.
 
     El sistema instala y configura el complemento Commerce analytics (versión preliminar) para el entorno. El proceso puede tardar unos minutos. Una vez completado, **Commerce analytics (versión preliminar)** debe figurar en la página **Entorno** y el estado debe ser **Instalado**.
-
-### <a name="generate-a-sas-token-for-your-storage-account"></a><a name="getSASToken"></a>Genere un token SAS para su cuenta de almacenamiento
-
-Un token SAS permite que las entidades externas accedan a su cuenta de almacenamiento y tengan un conjunto específico de privilegios durante un período de tiempo finito. Azure Synapse utilizará el token SAS para acceder a los datos subyacentes en Data Lake.
-
-> [!NOTE]
-> Debido a una limitación conocida de Commerce analytics (versión preliminar), la instancia de Azure Synapse perderá el acceso al lago de datos cuando caduque el token SAS. Por lo tanto, cuando genere el token SAS, debe establecer la fecha de vencimiento máxima que permiten las directivas de seguridad de su organización.
-
-Siga los siguientes pasos para generar un token SAS.
-
-1. En el Azure Portal, vaya a la [cuenta de almacenamiento](#storageAccount) que creó mientras configuraba Exportar a Data Lake.
-2. En el panel izquierdo, debajo de la cuenta de almacenamiento, seleccione **Firma de acceso compartido**.
-3. En la página **Opciones de SAS**, configure los siguientes campos.
-
-    | Campo | Valor |
-    |---|---|
-    | Servicios permitidos | Seleccione **Blob**. |
-    | Tipos de recursos permitidos | Seleccione **Servicio**, **Contenedor** y **Objeto**. |
-    | Permisos permitidos | Seleccione **Leer**, **Escribir**, **Eliminar**, **Enumerar**, **Agregar** y **Crear**. |
-    | Permisos de versiones de Blob | Seleccione **Habilita eliminación de versiones**. |
-    | Fecha/hora de inicio y vencimiento | Establezca una fecha y hora de inicio y finalización para el token SAS según corresponda. |
-    | Direcciones IP permitidas | Deje este campo en blanco. |
-    | Protocolos permitidos | Seleccione **Solo HTTPS**. |
-    | Nivel de enrutamiento preferido | Seleccione **Básico (predeterminado)**. |
-    | Clave de firma | Seleccione **clave1** o **clave2**, según sea apropiado. |
-
-4. Seleccione **Generar SAS y cadena de conexión**.
-5. Copie el valor en el campo **Token SAS** y péguelo en un editor de texto como el Bloc de notas.
-
-### <a name="download-the-deployment-scripts-for-azure-synapse-views"></a><a name="downloadSynapseDeploymentScripts"></a>Descargar los scripts de implementación para vistas de Azure Synapse
-
-Para crear y publicar las vistas requeridas en un Azure Synapse workspace debe ejecutar un conjunto de scripts. Siga estos pasos para descargar los scripts.
-
-1. En GitHub, vaya al repositorio de [microsoft/Dynamics365Commerce.Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions).
-2. Descargue los scripts en su equipo local clonando el repositorio o descargándolo como un archivo zip.
-
-### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a>Instalar y configurar un Azure Synapse workspace
-
-Para instalar y configurar un Azure Synapse workspace, siga estos pasos.
-
-1. Instale un Azure Synapse workspace en su suscripción de Azure. Para más información, vea [Inicio rápido: crear un espacio de trabajo de Synapse](/azure/synapse-analytics/quickstart-create-workspace).
-2. En el Bloc de notas u otro editor de texto, abra el archivo de script **SetupSynapse.sql** desde la carpeta de su equipo local en el que clonó o descargó el repositorio de Dynamics365Commerce.Solutions en la sección anterior. El archivo de script estará en la carpeta /Pipeline/CommerceAnalyticsSynapse/. En el script, reemplace el texto del marcador de posición con valores como se muestra en la siguiente tabla.
-
-    | Texto de marcador de posición | Valor de sustitución |
-    |---|---|
-    | placeholder_storageaccount | El nombre de la [cuenta de almacenamiento](#storageAccount) que creó mientras configuraba Exportar a Data Lake. |
-    | <a name="phContainer"></a>placeholder_container | El nombre del contenedor de almacenamiento que se creó en su instancia de Data Lake después de instalar correctamente el complemento Exportar a Data Lake en LCS. Para obtener el nombre del contenedor, debe usar el Explorador de almacenamiento en Azure Portal para explorar su cuenta de almacenamiento. |
-    | placeholder_sastoken | El [Token SAS](#getSASToken) que generó. Asegúrese de quitar el signo de interrogación (**?**) del comienzo del valor del token SAS. |
-    | <a name="phUserPwd"></a>placeholder_password | Una contraseña segura de su elección. Tome nota de esta contraseña. Se establecerá como contraseña para la nueva cuenta **reportreadonlyuser** que crea el script. **No** ingrese la contraseña de la cuenta de **sqladminuser**. |
-
-3. Copie el contenido actualizado del archivo de script.
-4. En Azure Portal, vaya al nuevo Azure Synapse workspace. En la página **Visión general**, seleccione **Abrir Synapse Studio**.
-5. En Synapse Studio, seleccione **Nuevo \> Script SQL** y pegue el contenido del archivo de script en el editor de script de SQL.
-6. Asegúrese de que el campo **Usar base de datos** está configurado en **master**.
-7. Seleccione **Ejecutar** y espere a que termine de ejecutarse el script. La ejecución correcta del script creará la base de datos para Commerce analytics, credenciales para acceder al lago de datos y una cuenta de usuario de solo lectura que Power BI utilizará para conectarse a la instancia de Azure Synapse.
-8. En su equipo local, abra Windows PowerShell en modo de administrador y vaya a la carpeta /Pipeline/CommerceAnalyticsSynapse/ debajo de la carpeta en la que clonó o descargó el repositorio de Dynamics365Commerce.Solutions.
-9. Configure la directiva de ejecución de Windows PowerShell ejecutando el siguiente comando.
-
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-
-10. Si el módulo SQL Server PowerShell aún no está instalado, instálelo ejecutando el siguiente comando.
-
-    ```powershell
-    Install-Module sqlserver
-    ```
-
-    > [!NOTE]
-    > Durante la instalación del módulo, es posible que se le solicite que instale el proveedor NuGet. En este caso, seleccione **S** para instalar el proveedor NuGet. También es posible que se le solicite que reconozca que está instalando módulos desde un repositorio que no es de confianza. En este caso, seleccione **S** para continuar con la instalación. Opcionalmente, puede ejecutar el cmdlet **Set-PSRepository** para confiar en el repositorio de **PSGallery**.
-
-11. Publique las vistas de Azure Synapse ejecutando el siguiente comando.
-
-    ```powershell
-    .\PublishSynapseViews.ps1 -serverName SERVER_NAME -password PASSWORD -storageAccount STORAGE_ACCOUNT -containerName CONTAINER_NAME -datarootpath DATA_ROOT_PATH
-    ```
-
-    Cuando ejecute este comando, reemplace los valores de marcador de posición como se muestra en la siguiente tabla.
-
-    | Valor de marcador de posición | Valor de sustitución |
-    |---|---|
-    | SERVER_NAME | El nombre del extremo de Azure Synapse Serverless SQL. Puede obtener este valor de la página **Visión general** para el Azure Synapse workspace en el portal de Azure. |
-    | PASSWORD | La contraseña para la cuenta de **sqladminuser**. |
-    | STORAGE_ACCOUNT | El nombre de la cuenta de almacenamiento para Data Lake. |
-    | CONTAINER_NAME | El nombre del contenedor creado por la función Exportar a Data Lake. Este contenedor es el mismo contenedor que especificó como valor de [placeholder_container](#phContainer) en el paso 2. |
-    | DATA_ROOT_PATH | El nombre de la carpeta debajo del contenedor que contiene todos los datos. |
-
-    > [!NOTE]
-    > Puede encontrar el nombre de la cuenta de almacenamiento, el nombre del contenedor y la ruta de la raíz de datos mediante el explorador de Azure Storage y su cuenta de almacenamiento de Data Lake en Azure Portal.
-
-12. Espere a que termine de ejecutarse el script. La ejecución exitosa del script creará vistas SQL en la instanacia de Azure Synapse Serverless SQL.
 
 ### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a>Instalar la aplicación de plantillas Power BI
 
 Para instalar la aplicación de plantillas Power BI para Commerce analytics (versión preliminar), siga estos pasos.
 
 1. Inicie sesión en el [portal de Power BI](https://powerbi.microsoft.com/) mediante el ID de su organización.
-2. Instale la aplicación de plantillas Power BI de Commerce analytics (versión preliminar) yendo a [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Es posible que reciba una advertencia que indique que la aplicación no figura en AppSource. Seleccione **Instalar**.
-3. Si está instalando la aplicación por primera vez, continúe con el paso 5. Si ha instalado esta aplicación antes, se muestran las siguientes opciones para actualizar la aplicación:
+1. Instale la aplicación de plantillas Power BI de Commerce analytics (versión preliminar) yendo a [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Alternativamente, visite la [página de AppSource para Dynamics 365 Commerce Analytics](https://appsource.microsoft.com/product/power-bi/dynamics-365-commerce.dydnamics-365-commerce-analytics) y seleccione **Obtener ahora**.
+1. Si está instalando la aplicación por primera vez, continúe con el paso 5. Si la ha instalado antes, las siguientes opciones para actualizar la aplicación son aplicables:
 
     - **Actualizar el espacio de trabajo y la aplicación** - Actualice la aplicación de plantillas existente y sobrescriba la configuración de aplicación existente, como el nombre de la instancia de la aplicación y las configuraciones de permisos.
     - **Actualizar solo el contenido del espacio de trabajo sin actualizar la aplicación** - Actualice la aplicación de plantilla existente, pero mantenga la configuración de la aplicación existente. *Esta es la opción recomendada para las actualizaciones de la aplicación.*
     - **Instalar otra copia de la aplicación en un nuevo espacio de trabajo** - Cree un nuevo espacio de trabajo y luego cree en él una copia de la aplicación de plantillas existente. El espacio de trabajo existente se dejará intacto.
 
-4. Seleccione una de las opciones de actualización y luego seleccione **Instalar**.
-5. Abra la aplicación instalada seleccionando **Aplicaciones** en el panel izquierdo y luego seleccionando la aplicación.
-6. Conecte la aplicación a su origen de datos seleccionando **Conectar**. Si ha instalado la aplicación antes, seleccione el enlace **Conectar sus datos** en la barra de mensajes amarilla.
-7. Establezca los campos siguientes.
+1. Seleccione una de las opciones de actualización y luego seleccione **Instalar**.
+1. Abra la aplicación instalada seleccionando **Aplicaciones** en el panel izquierdo y luego seleccionando la aplicación.
+1. Conecte la aplicación a su origen de datos seleccionando **Conectar**. Si ha instalado la aplicación antes, seleccione el enlace **Conectar sus datos** en la barra de mensajes amarilla.
+1. Establezca los campos siguientes.
 
     | Campo | Valor |
     |---|---|
-    | Servidor | Ingrese el nombre del extremo Azure Synapse Serverless SQL que creó en la sección anterior. Puede obtener este valor de la página **Visión general** para el Azure Synapse workspace en el portal de Azure. |
+    | Servidor | Especifique el extremo de Serverless SQL que anotó después de [crear el Azure Synapse workspace](#serverlessep). |
     | Base de datos | Escriba **CommerceAnalytics**. |
     | Idioma | Seleccione un valor de la lista. Este campo se utiliza para nombres de categorías y productos localizados. El valor distingue entre mayúsculas y minúsculas. |
     | Intervalo de fechas | Seleccione un valor de la lista. Los datos para el número seleccionado de meses se importarán en el conjunto de datos de Power BI. El valor que seleccione afecta al tamaño del conjunto de datos y el tiempo necesario para la sincronización. |
 
-8. Seleccione **Siguiente**. Se le pedirá que ingrese las credenciales para conectarse a la base de datos SQL de Azure Synapse. Configure los campos como se describe en la tabla siguiente.
+1. Seleccione **Siguiente**. Cuando se le solicite que introduzca las credenciales para conectarse a la base de datos SQL de Azure Synapse, establezca los valores de campo como se muestran en la siguiente tabla.
 
     | Campo | Valor |
     |---|---|
     | Método de autenticación | Seleccione **Básico**. |
     | Nombre de usuario | Escriba **reportreadonlyuser**. |
-    | Contraseña | Ingrese el valor que reemplazó el marcador de posición [placeholder_password](#phUserPwd) dentro del script SetupSynapse.sql. Esta contraseña es la contraseña para la cuenta **reportreadonlyuser**. |
+    | Contraseña | Escriba la contraseña que [almacenó para el usuario de solo lectura de SQL en el almacén de claves](#roUser). |
 
-9. Seleccione **Iniciar sesión y conectar**.
-10. Espere hasta que el conjunto de datos se actualice correctamente. Luego seleccione el botón **Editar aplicación** para abrir el espacio de trabajo de la aplicación, donde puede ver el estado de actualización del conjunto de datos. En el espacio de trabajo de la aplicación, también puede configurar opcionalmente programas de actualización automática para su conjunto de datos, administrar permisos y cambiar el nombre de la instancia de la aplicación.
+1. Seleccione **Iniciar sesión y conectar**.
+1. Espere hasta que el conjunto de datos se haya actualizado correctamente. Luego seleccione **Editar aplicación** para abrir el espacio de trabajo de la aplicación, donde puede ver el estado de actualización del conjunto de datos. En el espacio de trabajo de la aplicación, también puede configurar opcionalmente programas de actualización automática para su conjunto de datos, administrar permisos y cambiar el nombre de la instancia de la aplicación.
 
 ### <a name="privacy"></a><a name="privacy"></a>Privacidad
 

@@ -2,7 +2,7 @@
 title: Preguntas frecuentes de flujo de trabajo
 description: Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 author: ChrisGarty
-ms.date: 09/21/2020
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
+ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065589"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370889"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -34,7 +34,7 @@ Si se rechaza un elemento de trabajo, ese elemento de trabajo se completa como r
 Cada notificación es para un elemento de trabajo diferente, pero la semejanza puede provocar la confusión. Estamos buscando formas de mejorar esto en una versión futura.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>¿Por qué mis exportaciones del flujo de trabajo están fallando?
-Existen actualmente un límite en la función de exportación del flujo de trabajo que impide que los nombres del flujo de trabajo pasen de 48 caracteres. Usar un nombre que sea más largo de 48 caracteres puede resultar en un error “El servidor no puede autenticar la solicitud” y/o evitar que se exporte un archivo sin un tipo de archivo. La siguiente entrada del blog proporciona más detalles [Solución de problemas de exportación del flujo de trabajo](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Existen actualmente un límite en la función de exportación del flujo de trabajo que impide que los nombres del flujo de trabajo pasen de 48 caracteres. Usar un nombre que sea más largo de 48 caracteres puede resultar en un error “El servidor no puede autenticar la solicitud” y/o evitar que se exporte un archivo sin un tipo de archivo. La siguiente entrada del blog proporciona más detalles [Solución de problemas de exportación del flujo de trabajo](https://community.dynamics.com/365/financeandoperations/b/elandaxdynamicsaxupgradesanddevelopment/posts/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>¿El remitente de un flujo de trabajo también puede aprobar el flujo de trabajo?
 Sí, el remitente de un flujo de trabajo también puede aprobar el flujo de trabajo si está configurado de ese modo. Para evitar este comportamiento, establezca **Administración del sistema > Flujo de trabajo > Parámetros del flujo de trabajo > General > Aprobador > No permitir aprobación por parte del remitente** en **Sí**.

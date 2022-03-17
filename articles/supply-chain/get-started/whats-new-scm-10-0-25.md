@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 8a9b873b7b4bba43b7b3e6e83c389ac35b4e223e
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103005"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384547"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -34,10 +34,10 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
-| Inventario&nbsp;y&nbsp;logística | Mejoras para materiales peligrosos | Estas mejoras se basan en la funcionalidad de materiales peligrosos existente para ayudar mejor a las empresas a cumplir con las regulaciones locales al transportar materiales peligrosos en diferentes geografías. <!-- KFM: Update to 2022w1 link when published -->| Administración de características:<br>*Mejoras para materiales peligrosos* |
-| Inventario&nbsp;y&nbsp;logística | Trabajo de embalaje para estaciones de embalaje | Esta característica mejora en gran medida la flexibilidad y agilidad de sus operaciones de empaque y envío. Durante el proceso de empaque, los trabajadores del almacén ahora pueden empacar y enviar paquetes individuales relacionados con el mismo envío y carga. Las líneas de pedido que forman parte del mismo envío no necesariamente deben enviarse juntas si algunos artículos están listos para el envío de inmediato. Un solo pedido se puede empacar y enviar en varios paquetes en diferentes tiempos de envío, lo que reduce los tiempos de espera y agrega agilidad.<!-- KFM: Update to 2022w1 link when published --> | Administración de características:<br>*Trabajo de embalaje para estaciones de embalaje* |
-| Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) <!-- KFM: Update to 2022w1 link when published --> | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) | Administración de características:<br>*Digitalizar códigos de barras de GS1* |
-| Fabricación | [Consumo de material y reservas en la interfaz de ejecución de planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)* |
+| Inventario&nbsp;y&nbsp;logística | [Mejoras para materiales peligrosos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Próximamente | Administración de características:<br>*Mejoras para materiales peligrosos* |
+| Inventario&nbsp;y&nbsp;logística | [Trabajo de embalaje para estaciones de embalaje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Próximamente | Administración de características:<br>*Trabajo de embalaje para estaciones de embalaje* |
+| Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) | Administración de características:<br>*Digitalizar códigos de barras de GS1* |
+| Fabricación | [Consumo de material y reservas en la interfaz de ejecución de planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*<br><br>Y/o:<br><br>Administración de características:<br>*(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)* |
 | Fabricación | [Registro de consumo de material en unidaes de escalado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-manufacturing.md) | Administración de características:<br>*Registrar el consumo de material en la aplicación móvil en una unidad de escalado* |
 | Planificada | [Sugerencias de optimización de la planificación para optimizar el suministro existente](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Mensajes de acción](../master-planning/action-messages.md) | Habilitado por defecto |
 | Planificada | Pedidos planificados simplificados | [Pedidos planificados simplificados](../master-planning/planning-optimization/planned-orders-simplified.md ) | Administración de características:<br>*Pedidos planificados simplificados* |

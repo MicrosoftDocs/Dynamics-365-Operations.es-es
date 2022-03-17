@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952661"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388272"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -83,31 +83,48 @@ En la pestaña **Asignación** del diseñador de operación ER, puede configurar
 
 ## <a name="range-component"></a>Componente Rango
 
-El componente **Rango** indica un rango de Excel que debe controlarse mediante este componente ER. El nombre del rango se define en la propiedad **Rango de Excel** de este componente.
-
-### <a name="replication"></a>Réplica
-
-La propiedad **Dirección de replicación** especifica si el rango se repetirá y cómo lo hará en un documento generado:
-
-- Si la propiedad **Dirección de replicación** se establece en **Sin replicación**, el rango de Excel apropiado no se repetirá en el documento generado.
-- Si la propiedad **Dirección de replicación** se establece en **Vertical**, el rango de Excel apropiado se repetirá en el documento generado. Cada rango replicado se coloca debajo del rango original en una plantilla de Excel. El número de repeticiones se define por el número de registros de un origen de datos del tipo de **Lista de registros** que está vinculado a este componente ER.
-- Si la propiedad **Dirección de replicación** se establece en **Horizontal**, el rango de Excel apropiado se repetirá en el documento generado. Cada rango replicado se coloca a la derecha del rango original en una plantilla de Excel. El número de repeticiones se define por el número de registros de un origen de datos del tipo de **Lista de registros** que está vinculado a este componente ER.
-
-Para obtener más información sobre la replicación horizontal, siga los pasos de [Usar rangos expandibles horizontalmente para agregar columnas dinámicamente en informes de Excel](tasks/er-horizontal-1.md).
-
 ### <a name="nested-components"></a>Componentes anidados
 
-El componente **Rango** puede tener otros componentes ER anidados que se usan para introducir valores en los rangos con nombre de Excel apropiados.
+#### <a name="data-typing"></a>Tipos de datos
+
+El componente **Rango** puede tener otros componentes ER anidados que se usan para introducir valores en los rangos apropiados.
 
 - Si algún componente del grupo **Texto** se usa para introducir valores, el valor se introduce en un rango de Excel como un valor de texto.
 
     > [!NOTE]
     > Use este patrón para formatear los valores introducidos en función de la configuración regional definida en la aplicación.
 
-- Si el componente **Celda** del grupo **Excel** se usa para Introducir valores, el valor se introduce en un rango de Excel como un valor del tipo de datos que se define mediante el vínculo de ese componente **Celda** (por ejemplo, **Cadena**, **Real** o **Entero**).
+- Si el componente **Celda** del grupo **Excel** se usa para Introducir valores, el valor se introduce en un rango de Excel como un valor del tipo de datos que se define mediante el vínculo de ese componente **Celda**. Por ejemplo, el tipo de datos podría ser **Cadena**, **Real**, o **Entero**.
 
     > [!NOTE]
     > Use este patrón para permitir que la aplicación Excel formatee los valores introducidos en función de la configuración regional del equipo local que abre el documento resultante.
+
+#### <a name="row-handling"></a>Gestión de fila
+
+El componente **Rango** se puede configurar como replicado verticalmente, de modo que se generen varias filas en una hoja de cálculo de Excel. Las filas pueden ser generadas por el componente **Rango** principal o por sus componentes **Rango** anidados.
+
+En la versión 10.0.26 y posteriores, puede forzar una hoja de trabajo generada para mantener las filas generadas en la misma página. En el diseñador de formato ER, configure la opción **Mantener las filas juntas** a **Sí** para el componente principal **Rango** en el formato ER editable. Luego, ER intentará mantener todo el contenido generado por ese rango en la misma página. Si la altura del contenido excede el espacio restante en la página actual, se agregará un salto de página y el contenido comenzará en la parte superior de la siguiente página nueva.
+
+> [!NOTE]
+> Le recomendamos que configure la opción **Mantener las filas juntas** solo para rangos que abarcan todo el ancho de un documento generado.
+>
+> La opción **Mantener las filas juntas** es aplicable sólo a componentes **Excel \> Archivo** que están configurados para usar una plantilla de libro de Excel.
+>
+> La opción **Mantener las filas juntas** puede usarse solo cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada.
+>
+> Esta función se puede utilizar para componentes **Rango** que residen bajo el componente **Página**. Sin embargo, no hay garantía de que los [totales de pie de página](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) se calculen correctamente utilizando orígenes de datos de [Recopilación de datos](er-data-collection-data-sources.md) .
+
+Para aprender a usar esta opción, siga los pasos de ejemplo en [Diseñe un formato ER para mantener las filas juntas en la misma página de Excel](er-keep-excel-rows-together.md).
+
+### <a name="replication"></a>Réplica
+
+La propiedad **Dirección de replicación** especifica si un rango se repetirá y cómo lo hará en un documento generado:
+
+- **Sin replicación** – El rango de Excel adecuado no se repetirá en el documento generado.
+- **Vertical** – El rango de Excel adecuado se repetirá verticalmente en el documento generado. Cada rango replicado se colocará debajo del rango original en una plantilla de Excel. El número de repeticiones se define por el número de registros de un origen de datos del tipo de **Lista de registros** que está vinculado a este componente ER.
+- **Horizontal** – El rango de Excel adecuado se repetirá horizontalmente en el documento generado. Cada rango replicado se colocará a la derecha del rango original en una plantilla de Excel. El número de repeticiones se define por el número de registros de un origen de datos del tipo de **Lista de registros** que está vinculado a este componente ER.
+
+    Para obtener más información sobre la replicación horizontal, siga los pasos de [Usar rangos expandibles horizontalmente para agregar columnas dinámicamente en informes de Excel](tasks/er-horizontal-1.md).
 
 ### <a name="enabling"></a>Habilitando
 
@@ -280,12 +297,12 @@ Cuando se genera el formato de libro de trabajo en un documento saliente en un M
 
 - Seleccione **Automático** para volver a calcular todas las fórmulas dependientes cada vez que se agregan a un documento generado nuevos rangos, celdas, etc.
 
-    >[!NOTE]
+    > [!NOTE]
     > Esto puede causar un problema de rendimiento para las plantillas de Excel que contienen varias fórmulas relacionadas.
 
 - Seleccione **Manual** para evitar el recálculo de fórmulas cuando se genera un documento.
 
-    >[!NOTE]
+    > [!NOTE]
     > El recálculo de fórmulas se fuerza manualmente cuando un documento generado se abre para obtener una vista previa con Excel.
     > No use esta opción si configura un destino de ER que asume el uso de un documento generado sin su vista previa en Excel (conversión de PDF, envío de correo electrónico, etc.) porque el documento generado podría no contener valores en celdas que contienen fórmulas.
 

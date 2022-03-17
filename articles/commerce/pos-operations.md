@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311988"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349726"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -159,7 +159,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 305 | Canjear puntos de fidelización | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |
 | 635 | Devolver los gastos de envío | Devuelva los cargos de envío de un pedido cancelado. | No | No | No | No | No |
 | 644 | Quitar código de vale | Pida al usuario que quite vales seleccionándolos en una lista de vales que están asociados actualmente a la transacción. | Sí | Sí | No | Sí | No |
-| 1057 | Volver a imprimir Z | Vuelva a imprimir el informe Z del turno anterior o de un turno seleccionado. | Sí | Sí | Sí | No | No |
+| 1057 | Volver a imprimir Z | Vuelva a imprimir el informe Z del turno anterior. | Sí | Sí | Sí | No | No |
 | 1216 | Escriba una contraseña nueva | Esta operación permite que un usuario que tiene permiso para restablecer la contraseña restablezca la contraseña de otro empleado mediante una contraseña temporal. | Sí | Sí | Sí | No | No |
 | 1219 | Abrir dirección URL en PDV | Abra una URL configurada por el administrador en el PDV. | Sí | Sí | Sí | Sí | No |
 | 109 | Devolver producto | Realice la devolución de productos individuales. El siguiente producto digitalizado se muestra como producto devuelto con un precio y una cantidad negativos. | Sí | Sí | No | Sí | No |

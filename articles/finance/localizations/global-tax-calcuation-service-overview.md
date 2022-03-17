@@ -2,7 +2,7 @@
 title: Información general del cálculo de impuestos
 description: Este tema explica el alcance general y las características de la funcionalidad de cálculo de impuestos.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105446"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388504"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
@@ -58,6 +58,7 @@ El cálculo de impuestos está implementado en las siguientes geografías de Azu
 - Canadá
 - Europa
 - Japón
+- Suiza
 - Reino Unido
 - Estados Unidos
 
@@ -77,6 +78,7 @@ Le recomendamos que importe y configure su configuración de cálculo de impuest
 | 10.0.23         | Configuración de Cálculo de impuestos 40.50.221 |
 | 10.0.24         | Configuración de Cálculo de impuestos 40.50.225 |
 | 10.0.25         | Configuración de Cálculo de impuestos 40.50.225 |
+| 10.0.26         | Configuración de Cálculo de impuestos 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flujo de datos
@@ -136,6 +138,11 @@ En la versión 10.0.23 se admiten las siguientes transacciones:
 
 - Factura de servicios
 
+En la versión 10.0.26 se admiten las siguientes transacciones: 
+
+- Diarios generales
+- Diario de facturas del proveedor
+
 ## <a name="supported-countriesregions"></a>Países o regiones admitidos
 
 Cálculo de impuestos se puede habilitar por entidad jurídica. 
@@ -187,6 +194,12 @@ En la versión 10.0.23 se admiten los siguientes países o regiones para la dire
 En la versión 10.0.24 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
 
 - México
+
+En la versión 10.0.26 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+
+- China
+- República Checa
+- España
 
 ## <a name="related-resources"></a>Recursos relacionados
 

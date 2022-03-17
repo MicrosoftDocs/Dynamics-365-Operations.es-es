@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 02/01/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83d0b6243efd802ffc959f8de14f6232736fc88c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087583"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384449"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -67,7 +67,10 @@ Si comete un error y ya no desea ver un total en una columna en particular, haga
 ### <a name="calculating-totals"></a>Cálculo de los totales
 Cuando llega a una página con el pie de página visible y las columnas ya configuradas para los totales, los totales pueden mostrarse o no en el pie de página. El comportamiento depende del tamaño del conjunto de datos en la página. Si el conjunto de datos es lo suficientemente pequeño, los totales se mostrarán automáticamente, junto con el número de filas en el conjunto de datos. Si hay guiones en el pie de página debajo de las columnas que configuró para los totales, entonces el conjunto de datos es demasiado grande para que el sistema muestre los totales de inmediato, y se necesita una acción explícita para calcular los totales. Para hacer esto, haga clic en el botón **Calcular** en el pie de página, o haga clic con el botón derecho en una columna para la que desea un total y seleccione **Totalizar esta columna**.
 
-Si el cálculo tarda demasiado, puede cancelar la operación seleccionando el botón **Cancelar**. Sin embargo, a veces, el conjunto de datos será demasiado grande para calcular los totales (un límite impuesto por su organización) y, en su lugar, se le notificará para que filtre más sus datos.
+Si el cálculo tarda demasiado en completarse, puede cancelar la operación seleccionando el botón **Cancelar**. A veces, el conjunto de datos será demasiado grande para calcular los totales (un límite impuesto por su organización) y, en su lugar, se le notificará para que filtre más sus datos. 
+
+> [!NOTE]
+> Las administraciones del sistema pueden modificar el límite del número de registros disponibles para el cálculo de totales ajustando el parámetro **Número máximo de registros locales para cada cuadrícula** en la página **Opciones de rendimiento del cliente**. El valor predeterminado es de 25 000 registros. Los administradores deben tener cuidado al ajustar este valor porque un valor demasiado grande puede agotar la memoria disponible en la máquina del usuario. La recomendación es no superar los 50 000 registros.   
 
 Los totales se actualizarán automáticamente a medida que actualice, elimine o cree filas en el conjunto de datos.
 

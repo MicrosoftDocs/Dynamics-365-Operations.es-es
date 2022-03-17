@@ -2,23 +2,24 @@
 title: Directrices de implementación para la muestra de integración de la impresora fiscal para Italia (heredada)
 description: Este tema proporciona pautas para implementar la muestra de integración de impresora fiscal para Italia desde el Kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076921"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388453"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Directrices de implementación para la muestra de integración de la impresora fiscal para Italia (heredada)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Este tema proporciona pautas para implementar la muestra de integración de la impresora fiscal para Italia desde el kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte el [ejemplo de integración de la impresora fiscal para Italia](emea-ita-fpi-sample.md). 
 
@@ -89,13 +90,13 @@ Para crear paquetes desplegables que contengan componentes de Commerce y aplicar
 1. Complete los pasos que se describen en la sección [Entorno de desarrollo](#development-environment) anterior en este tema.
 2. Realice los siguientes cambios en los archivos de configuración del paquete en la carpeta **RetailSdk\\Assets**:
 
-    - En los archivos de configuración **commerceruntime.ext.config** y **CommerceRuntime.MPOSOffline.Ext.config**, agregue la siguiente línea a la sección **composition**.
+    1. En los archivos de configuración **commerceruntime.ext.config** y **CommerceRuntime.MPOSOffline.Ext.config**, agregue la siguiente línea a la sección **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - En el archivo de configuración **HardwareStation.Extension.config**, agregue la siguiente línea a la sección **composition**.
+    1. En el archivo de configuración **HardwareStation.Extension.config**, agregue la siguiente línea a la sección **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ Para crear paquetes desplegables que contengan componentes de Commerce y aplicar
 
 3. Realice los siguientes cambios en el archivo de configuración de personalización del paquete **Ajustes de personalización** en la carpeta **BuildTools**:
 
-    - Agregue la siguiente línea para incluir la extensión CRT en los paquetes desplegables.
+    1. Agregue la siguiente línea para incluir la extensión CRT en los paquetes desplegables.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Agregue la siguiente línea para incluir la extensión de la estación de hardware en los paquetes desplegables.
+    1. Agregue la siguiente línea para incluir la extensión de la estación de hardware en los paquetes desplegables.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Inicie el símbolo del sistema de MSBuild para la utilidad Visual Studio y luego ejecute **msbuild** en la carpeta Retail SDK para crear paquetes implementables.
-5. Aplique los paquetes a través de LCS o manualmente. Para obtener más información, consulte [Crear paquetes implementables](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+4. Realice los siguientes cambios en el archivo **SDK.ModernPos.Shared.csproj** en la carpeta **Packages\_SharedPackagingProjectComponents** para incluir los archivos de recursos para Italia en paquetes desplegables:
+
+    1. Agregue una sección **ItemGroup** que contiene nodos que apuntan a los archivos de recursos para las traducciones deseadas. Asegúrese de especificar los espacios de nombres y los nombres de muestra correctos. El siguiente ejemplo agrega nodos de recursos para las configuraciones regionales **it** y **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. En la sección **Nombre de destino="CopyPackageFiles"** sección, agregue una línea para cada configuración regional, como se muestra en el siguiente ejemplo.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. Realice los siguientes cambios en el archivo **SDK.RetailServerSetup.proj** en la carpeta **Packages\_SharedPackagingProjectComponents** para incluir los archivos de recursos para Italia en paquetes desplegables:
+
+    1. Agregue una sección **ItemGroup** que contiene nodos que apuntan a los archivos de recursos para las traducciones deseadas. Asegúrese de especificar los espacios de nombres y los nombres de muestra correctos. El siguiente ejemplo agrega nodos de recursos para las configuraciones regionales **it** y **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. En la sección **Nombre de destino="CopyPackageFiles"** sección, agregue una línea para cada configuración regional, como se muestra en el siguiente ejemplo.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Inicie el símbolo del sistema de MSBuild para la utilidad Visual Studio y luego ejecute **msbuild** en la carpeta Retail SDK para crear paquetes implementables.
+7. Aplique los paquetes a través de LCS o manualmente. Para obtener más información, consulte [Crear paquetes implementables](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Diseño de las extensiones
 

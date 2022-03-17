@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062095"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358373"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Jerarquía organizativa en Dataverse
 
@@ -36,11 +36,11 @@ Los mapas de tabla de la jerarquía organizativa están disponibles para la sinc
 
 ## <a name="templates"></a>Plantillas
 
-La información de producto contiene toda la información relacionada con el producto y la definición, como las dimensiones del producto o el seguimiento y las dimensiones de almacenamiento. Como la tabla siguiente muestra, una colección de mapas de la tabla se crea para sincronizar los productos y la información relacionada.
+Una organización es un grupo de personas que trabajan juntas para llevar a cabo un proceso empresarial o lograr un objetivo. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Puede definir los siguientes tipos de organizaciones internas: entidades jurídicas, unidades operativas y equipos. Como muestra la siguiente tabla, se crea una colección de mapas de tablas para sincronizar entidades legales, unidades operativas e información relacionada con la jerarquía de la organización.
 
-Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Descripción
+Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Description
 -----------------------|--------------------------------|---
-[Entidades jurídicas](mapping-reference.md#102) | cdm_companies | Proporciona la sincronización bidireccional de la información de la entidad jurídica (empresa).
+[Entidades jurídicas](mapping-reference.md#102) | cdm_companies | 
 [Entidades jurídicas](mapping-reference.md#142) | msdyn_internalorganizations |
 [Unidad operativa](mapping-reference.md#143) | msdyn_internalorganizations |
 [Jerarquía organizativa - publicada](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Esta plantilla proporciona la sincronización unidireccional de la tabla publicada de la jerarquía organizativa.

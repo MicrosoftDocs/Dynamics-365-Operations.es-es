@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927488"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384729"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -65,7 +65,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | No. Cualquier plan adicional con respecto a esta funcionalidad se comunicará a través de nuestro proceso de divulgación de la ola de lanzamiento estándar. |
 | **Áreas de producto afectadas**         | Cliente web: experiencia de adjuntar documentos |
 | **Opción de implementación**              | Todo |
-| **Estado**                         | En desuso  |
+| **Status**                         | En desuso  |
 
 ## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.23 de aplicaciones Finance and Operations
 
@@ -177,24 +177,25 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Los artefactos de metadatos asociados con Dynamics AX 2012 Enterprise Portal (EP) han quedado obsoletos, ya que EP nunca fue compatible con aplicaciones de Finance and Operations. |
+| **Motivo de la depreciación/eliminación** | Los artefactos de metadatos asociados con Dynamics AX 2012 Enterprise Portal (EP) han quedado obsoletos, ya que EP nunca fue compatible con aplicaciones de finanzas y operaciones. |
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | En desuso: todo el código EP está programado para ser eliminado en el lanzamiento de octubre de 2021. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
+## <a name="deprecation-effective-december-2020"></a>Desactivación efectiva en diciembre de 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La compatibilidad de Internet Explorer 11 con Dynamics 365 está en desuso
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365. |
+| **Motivo de la depreciación/eliminación** | A partir de diciembre de 2020, queda en desuso la compatibilidad de Microsoft Internet Explorer 11 con todos los productos de Dynamics 365 y Dynamics Lifecycle Services (LVS) e Internet Explorer 11 no se admitirá después de agosto de 2021.<br><br>Esto afectará a los clientes que usan productos Dynamics 365 y LCS que están diseñados para usarse a través de una interfaz de Internet Explorer 11. Después de agosto de 2021, Internet Explorer 11 no será compatible con dichos productos de Dynamics 365 y LCS. |
 | **¿Reemplazado por otra característica?**   | Recomendamos que los clientes hagan la transición a Microsoft Edge.|
-| **Áreas de producto afectadas**         | Todos los productos Dynamics 365 |
-| **Opción de implementación**              | Todos|
-| **Estado**                         | En desuso: Internet Explorer 11 no se admitirá después de agosto de 2021.|
+| **Áreas de producto afectadas**         | Todos los productos Dynamics 365 y LCS |
+| **Opción de implementación**              | Todo|
+| **Status**                         | En desuso: Internet Explorer 11 no se admitirá después de agosto de 2021.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
 

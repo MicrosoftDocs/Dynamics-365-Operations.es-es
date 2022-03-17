@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068118"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384495"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
@@ -210,9 +210,9 @@ Actualmente, la siguiente funcionalidad de gestión de almacenes no es compatibl
 - Procesamiento con artículos solo habilitados para la administración de transporte (TMS).
 - Procesamiento con inventario disponible negativo.
 - Uso compartido de datos entre empresas para productos. <!-- Planned -->
-- Procesamiento de trabajos de almacén con notas de envío.
-- Procesamiento de trabajos de almacén con manipulación de materiales y automatización de almacén.
+- Procesamiento de trabajo de almacén con notas de envío (por ejemplo, notas de embalaje en la estación de embalaje).
 - Imágenes de datos maestros del producto (por ejemplo, en la aplicación móvil Warehouse Management).
+- Procesamiento de trabajos de almacén con manipulación de materiales y automatización de almacén.
 
 > [!WARNING]
 > Algunas funciones de almacén no estarán disponibles para los almacenes que ejecutan las cargas de trabajo de gestión de almacenes en una unidad de escalado y tampoco se admiten en el concentrador o en la carga de trabajo de la unidad de escalado.
@@ -236,8 +236,7 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Mantener envíos por ola                                  | No  | Sí|
 | Procesamiento de trabajos de almacén (incluida la impresión de matrículas)        | No  | Sí, pero solo para las capacidades compatibles antes mencionadas |
 | Picking en clúster                                              | No  | Sí|
-| Procesamiento de embalaje manual, incluido el procesamiento de trabajo 'Selección de contenedor empaquetado' | No <P>Se puede realizar algún procesamiento después de un proceso de selección inicial gestionado por una unidad de escalada, pero no se recomienda debido a las siguientes operaciones bloqueadas.</p>  | No |
-| Quitar el contenedor del grupo                                  | No  | No |
+| Procesamiento de estación de embalaje manual  | No  | No |
 | Procesamiento de ordenación de salida                                  | No  | No |
 | Impresión de documentos relacionados con la carga                           | Sí | Sí|
 | Conocimiento de embarque y generación de ASN                            | No  | Sí|
@@ -258,6 +257,7 @@ La siguiente tabla muestra qué funciones de salida son compatibles y dónde se 
 | Invertir confirmación de envíos                                | No  | Sí|
 | Solicitar la cancelación de líneas de pedido de almacén                      | Sí | No, pero la solicitud será aprobada o rechazada |
 | <p>Liberar pedidos de transferencia para recepción</p><p>Este proceso ocurrirá automáticamente como parte del proceso de envío de la orden de transferencia. Sin embargo, se puede usar manualmente para habilitar la recepción de matrículas en una unidad de báscula si se han cancelado las líneas de pedidos de almacén entrantes o como parte de un nuevo proceso de implementación de carga de trabajo.</p> | Sí | No|
+<!--| Procesamiento de estación de embalaje manual, incluido el trabajo "Selección de contenedor empaquetado"  | No  | Sí, pero sin el manifiesto de envío de TMS y la publicación del albarán de venta y sin las notas de embalaje ni las imágenes del producto. |-->
 
 ### <a name="inbound"></a>Entrada
 
@@ -359,6 +359,7 @@ En la implementación del concentrador, puede mantener manualmente los siguiente
     - Procesador de mensajes de unidad de escalado a centro
     - Registrar recepciones de pedido de origen
     - Completar pedidos de almacén
+    - Generar pedidos de almacén de salida que faltan
 
 - Gestionar los siguientes trabajos por lotes en **Warehouse Management \> Tareas periódicas \> Gestión de la carga de trabajo de back-office**:
 

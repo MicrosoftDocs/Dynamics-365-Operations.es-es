@@ -2,13 +2,13 @@
 title: Visión general de facturas de proveedores
 description: Este tema ofrece información general relativa a facturas de proveedor.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985346"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358450"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -51,10 +51,10 @@ La discusión siguiente proporciona más información sobre cómo se usan las p�
 
 Cuando abre una factura de proveedor desde un pedido de compra relacionado, el sistema crea líneas de factura a partir del pedido de compra. De forma predeterminada, el sistema obtiene las cantidades de la recepción de producto. Sin embargo, puede usar cualquiera de los comportamientos predeterminados siguientes:
 
-- **Cantidad que se recibe ahora**: use esta opción para envíos parciales. El sistema establece como valor predeterminado del campo **Cantidad** la cantidad especificada en el campo **Recibir ahora** en el pedido de compra.
-- **Cantidad pedida**: use esta opción para envíos completos. El sistema establece como valor predeterminado del campo **Cantidad** la cantidad especificada en el campo **Pedido** en el pedido de compra.
+- **Cantidad que se recibe ahora**: use esta opción para envíos parciales. El valor predeterminado en el campo **Cantidad** se establece en la cantidad especificada en el campo **Recibir ahora** en el pedido de compra.
+- **Cantidad pedida**: use esta opción para envíos completos. El valor predeterminado del campo **Cantidad** se establece en la cantidad especificada en el campo **Pedido** en el pedido de compra.
 - **Cantidad registrada**: use esta opción si el artículo requiere el registro, según lo especificado en la página **Grupos de modelos de artículo**. El valor predeterminado del campo **Cantidad** es la cantidad física de actualización registrada.
-- **Cantidad de la recepción de producto**: use esta opción si una recepción de producto se ha recibido ya para el pedido. El sistema usa el valor predeterminado del campo **Cantidad** de la cantidad total de recepciones de producto disponibles.
+- **Cantidad de la recepción de producto**: use esta opción si una recepción de producto se ha recibido ya para el pedido. El valor predeterminado del campo **Cantidad** es la cantidad total de recepciones de producto disponibles.
 - **Cantidad y servicios registrados**: use esta opción si las cantidades se han registrado en los diarios de recepción para los artículos mantenidos en existencias o los artículos que no se encuentran en existencias. Esta opción también incluye servicios, independientemente de si se registran.
 
 Si su entidad jurídica usa la conciliación de facturas, puede ver los resultados de la conciliación de cantidad en la columna **Cantidad de recepciones de producto para asignar**. También puede usar el botón **Detalles coincidentes** en la ficha **Revisar** del panel de acciones para ver los resultados de conciliación de cantidad.
@@ -102,7 +102,7 @@ Para especificar el número de facturas que se deben incluir en el lote y el nú
 
 ## <a name="working-with-multiple-invoices"></a>Trabajar con múltiples facturas
 
-Puede trabajar con varias facturas a la vez y registrarlas todas a la vez. Si necesita crear varias facturas, use la página **Facturas de proveedor pendientes**. Si debe registrar e imprimir varias facturas de proveedor, utilice el diario de aprobación de facturas. Si usa el diario de aprobación de facturas, debe registrarse al menos una recepción de producto para el pedido de compra y debe registrarse una factura del pedido de compra en un registro de facturas. La información financiera de la factura proviene de la factura registrada en el registro.
+Puede trabajar con varias facturas a la vez y registrarlas todas a la vez. Si necesita crear varias facturas, use la página **Facturas de proveedor pendientes**. Si debe registrar e imprimir varias facturas de proveedor, utilice el **Diario de aprobación de facturas**. Si usa el **Diario de aprobación de facturas**, debe registrarse al menos una recepción de producto para el pedido de compra y debe registrarse una factura del pedido de compra en un registro de facturas. La información financiera de la factura proviene de la factura registrada en el registro.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Recuperar facturas de proveedor que se están usando
 

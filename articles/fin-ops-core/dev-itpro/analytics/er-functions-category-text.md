@@ -2,7 +2,7 @@
 title: Lista de funciones ER de la categoría de texto.
 description: Este tema proporciona información sobre las funciones de texto que son compatibles con los informes electrónicos (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075509"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367776"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funciones ER de la categoría de texto.
 
@@ -51,7 +51,7 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 | [Derecho](er-functions-text-right.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres desde el final de la cadena especificada. |
 | [Texto](er-functions-text-text.md) | Esta función devuelve el número especificado como un valor *Cadena* después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de la aplicación. |
 | [Traducir](er-functions-text-translate.md) | Esta función devuelve un valor *Cadena* que contiene el resultado del reemplazo de caracteres del texto especificado en caracteres de otro conjunto proporcionado de caracteres. |
-| [Trim](er-functions-text-trim.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de haber truncado los espacios principales y finales, y después de haber quitado múltiples espacios entre palabras. |
+| [Trim](er-functions-text-trim.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que los caracteres de tabulación, retorno de carro, salto de línea y salto de página hayan sido reemplazados por un solo carácter de espacio, después de que se hayan truncado los espacios iniciales y finales, y después de que se hayan eliminado varios espacios entre palabras. |
 | [Upper](er-functions-text-upper.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que se haya convertido a letras mayúsculas. |
 
 ## <a name="additional-resources"></a>Recursos adicionales

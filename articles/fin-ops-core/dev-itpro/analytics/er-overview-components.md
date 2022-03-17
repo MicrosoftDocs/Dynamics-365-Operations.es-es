@@ -15,12 +15,12 @@ ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a24aa52c805722c20045b6227ceac0103cfbe6b
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324044"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367833"
 ---
 # <a name="electronic-reporting-components"></a>Componentes de los informes electrónicos
 
@@ -91,9 +91,23 @@ Un componente de formato le permite adjuntar archivos específicos que se pueden
 
 La ilustración siguiente muestra fluyen los datos para estos formatos.
 
-[![Flujo de datos para componentes de formato entrante.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Flujo de datos para componentes de formato saliente](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
-Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para los tipos distintos de documentos de entrada.
+Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Componentes del formato para los documentos electrónicos entrantes
+Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
+
+- Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
+- Una asignación de formato que vincula elementos individuales de formato a elementos de un modelo de datos específico de dominio. En tiempo de ejecución, los elementos en el modelo de datos especifican el flujo de datos y las reglas para importar datos desde un documento de entrada y después almacenar los datos en un modelo de datos.
+- Una validación del formato como un conjunto de reglas configurables que controlan la importación de datos en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la importación de datos de un extracto bancario que tenga pagos de proveedor y produzca una excepción cuando falte un atributo específico del proveedor seleccionado, por ejemplo el código de identificación del proveedor.
+
+La ilustración siguiente muestra fluyen los datos para estos formatos.
+
+[![Flujo de datos para componentes de formato entrante](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Para ejecutar una única configuración del formato de ER para importar datos desde un documento electrónico entrante, debe identificar la asignación deseada de una configuración del formato, así como el punto de la integración de una asignación de modelo. Puede usar la misma asignación y destinos de modelos así como los formatos diferentes para el tipo distinto de documentos de entrada.
+
 
 ## <a name="component-versioning"></a>Control de versiones de componentes
 

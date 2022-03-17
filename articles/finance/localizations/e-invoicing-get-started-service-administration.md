@@ -18,11 +18,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463820"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7984837"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Comenzar con la administración de servicios de facturación electrónica
 
@@ -48,10 +48,10 @@ Antes de que pueda completar los procedimientos de este tema, debe tener prepara
 
 1. Inicie sesión en su cuenta de LCS y en el panel de proyecto de LCS, seleccione un proyecto de LCS.
 2. En el proyecto, en el panel **Entornos**, seleccione su entorno implementado. El entorno que seleccione debe estar ejecutándose.
-3. En la pestaña **Integracion de Power Platform**, en el grupo de campo **Complementos del entorno**, seleccione **Instalar un nuevo complemento**.
+3. En la pestaña **Integración de Power Platform**, en el grupo de campo **Complementos del entorno**, seleccione **Instalar un nuevo complemento**.
 4. Seleccione **Facturacion electrónica**.
 5. En el campo **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es fijo.
-6. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure. El inqulino de Azure Active Directory (Azure AD) que especifique debe ser el mismo inquilino que se utiliza para RCS.
+6. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure. El inquilino de Azure Active Directory (Azure AD) que especifique debe ser el mismo inquilino que se utiliza para RCS.
 7. Revise los términos y condiciones, y luego seleccione la casilla.
 8. Seleccione **Instalar**. La instalación puede tardar varios minutos.
 

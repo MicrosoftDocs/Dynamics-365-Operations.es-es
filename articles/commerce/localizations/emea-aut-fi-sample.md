@@ -2,23 +2,24 @@
 title: Ejemplo de integración de servicio de registro para Austria
 description: Este tema proporciona una visión general del ejemplo de integración fiscal para Austria en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: d720bffb98965bdc0276660d2a2e50d2bf155e74
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077174"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388372"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Ejemplo de integración de servicio de registro para Austria
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Este tema proporciona una visión general del ejemplo de integración fiscal para Austria en Microsoft Dynamics 365 Commerce.
 
@@ -301,14 +302,28 @@ Para configurar un entorno de desarrollo para probar y ampliar la muestra, siga 
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Instale las extensiones de la estación de hardware:
+1. Instalar extensiones de conector fiscal:
 
-    1. En la carpeta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, busque el instalador **HardwareStation.EFR.Installer**.
-    1. Inicie el instalador de extensiones desde la línea de comandos.
+    Puede instalar extensiones de conector fiscal en la [estación de hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) o el [registro de PDV](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Instale las extensiones de la estación de hardware:
+
+        1. En la carpeta **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461**, busque el instalador **HardwareStation.EFR.Installer**.
+        1. Inicie el instalador de la extensión desde la línea de comandos ejecutando el siguiente comando.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Instale las extensiones de PDV:
+
+        1. Abra la solución de muestra del conector fiscal PDV en **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** y construirlo.
+        1. En la carpeta **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**, encuentre el instalador **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Inicie el instalador de la extensión desde la línea de comandos ejecutando el siguiente comando.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Entorno de producción
 
@@ -321,7 +336,7 @@ La muestra de integración de servicio de registro para Austria se basa en la [f
 > [!WARNING]
 > Debido a las limitaciones del [nuevo modelo de empaquetado y extensión independiente](../dev-itpro/build-pipeline.md), actualmente no se puede utilizar para esta muestra de integración fiscal. Debe utilizar la versión anterior de Retail SDK en una máquina virtual (VM) de desarrollador en LCS. Para más información, vea [Directrices de implementación para la muestra de integración fiscal para Austria (heredada)](emea-aut-fi-sample-sdk.md). El soporte para el nuevo modelo de extensión y empaquetado independiente para muestras de integración fiscal está previsto para versiones posteriores.
 
-### <a name="commerce-runtime-extension-design"></a>Diseño de extensión de Commerce Runtime
+### <a name="commerce-runtime-extension-design"></a>Diseño de extensión de Commerce Runtime 
 
 El propósito de la extensión que es un proveedor de documentos fiscales es generar documentos específicos del servicio y manejar respuestas desde el servicio de registro fiscal.
 
@@ -352,7 +367,7 @@ El propósito de estos archivos es permitir que la configuración del proveedor 
 
 ### <a name="hardware-station-extension-design"></a>Diseño de extensiones de la estación de hardware
 
-El propósito de la extensión que es un conector fiscal es comunicarse con el servicio de registro fiscal. La extensión de la estación de hardware utiliza el protocolo HTTP para enviar documentos que genera la extensión de CRT al servicio de registro fiscal. También maneja las respuestas que se reciben del servicio de registro fiscal.
+El propósito de la extensión del conector fiscal es comunicarse con el servicio de registro fiscal. La extensión de la estación de hardware utiliza los protocolos HTTP y HTTPS para enviar documentos que genera la extensión de CRT al servicio de registro fiscal. También maneja las respuestas que se reciben del servicio de registro fiscal.
 
 #### <a name="request-handler"></a>Manejador de solicitudes
 
@@ -369,5 +384,28 @@ El conector fiscal admite las siguientes solicitudes:
 #### <a name="configuration"></a>Configuración
 
 El archivo de configuración para el conector fiscal se encuentra en **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** en el repositorio de [Soluciones de Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). El propósito del archivo es permitir la configuración del conector fiscal desde la sede de Comercio. El formato de archivo está alineado con los requisitos para la configuración de integración fiscal.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Diseño de la extensión del conector fiscal del PDV
+
+El propósito de la extensión del conector fiscal PDV es comunicarse con el servicio de registro fiscal del PDV. Utiliza el protocolo HTTPS para la comunicación.
+
+#### <a name="fiscal-connector-factory"></a>Fábrica del conector fiscal
+
+La fábrica de conectores fiscales asigna el nombre del conector a la implementación del conector fiscal y se encuentra en el archivo **Pos. Extensión\\Connectors\\FiscalConnectorFactory.ts**. El nombre del conector debe coincidir con el nombre del conector fiscal que se especifica en la sede de Commerce.
+
+#### <a name="efr-fiscal-connector"></a>Conector fiscal EFR
+
+El conector fiscal EFR se encuentra en el archivo **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Implementa la interfaz **IFiscalConnector** que admite las siguientes solicitudes:
+
+- **FiscalRegisterSubmitDocumentClientRequest** - Esta solicitud envía documentos al servicio de registro fiscal y devuelve una respuesta de ella.
+- **FiscalRegisterIsReadyClientRequest** - Esta solicitud se utiliza para una verificación del servicio de registro fiscal.
+- **FiscalRegisterInitializeClientRequest** - Esta solicitud se utiliza para inicializar el servicio de registro fiscal.
+
+#### <a name="configuration"></a>Configuración
+
+El archivo de configuración se encuentra en la carpeta **src\\FiscalIntegration\\Efr\\Configuraciones\\Conectores** del repositorio [Soluciones de Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). El propósito del archivo es permitir la configuración del conector fiscal desde la sede de Comercio. El formato de archivo está alineado con los requisitos para la configuración de integración fiscal. Se agregan los siguientes parámetros:
+
+- **Dirección de punto final** - La URL del servicio de registro fiscal.
+- **Tiempo de espera** - La cantidad de tiempo, en milisegundos, que el conector esperará una respuesta del servicio de registro fiscal.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

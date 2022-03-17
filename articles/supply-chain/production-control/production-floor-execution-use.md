@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075028"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384434"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -71,6 +71,18 @@ La lista de trabajos activos tiene las siguientes columnas:
 - **Completado**: esta columna muestra la cantidad que ya se completó para un trabajo.
 - **Desechado**: esta columna muestra la cantidad que ya se desechó para un trabajo.
 - **Restante**: esta columna muestra la cantidad que queda por completar de un trabajo.
+
+## <a name="my-jobs-tab"></a>Pestaña Mis trabajos
+
+La pestaña **Mis trabajos** permite a los trabajadores ver fácilmente todos los trabajos no iniciados y sin terminar que se les asignan específicamente. Es útil en empresas donde los trabajos a veces o siempre se asignan a trabajadores específicos (recursos humanos) en lugar de otros tipos de recursos (como máquinas). 
+
+El sistema de programación asigna automáticamente cada trabajo de producción a un registro de recursos específico y cada registro de recursos tiene un tipo (como máquina o humano). Cuando configura a un empleado como trabajador de producción, puede asociar la cuenta del trabajador con un registro de recursos humanos único. 
+
+La pestaña **Mis trabajos** enumera todos los trabajos no iniciados y sin terminar que se han asignado al registro de recursos humanos del trabajador que inició sesión, si hay algún trabajador que haya iniciado sesión. Nunca enumera los trabajos que se han asignado a una máquina u otro tipo de recurso, incluso si el trabajador que inició sesión comenzó a trabajar en esos trabajos.
+
+Para ver todos los trabajos iniciados por el trabajador que inició sesión, independientemente del tipo de recurso al que esté asignado cada trabajo, use la pestaña **trabajos activos**. Para ver todos los trabajos sin terminar que coinciden con la configuración del filtro de trabajo local, independientemente del trabajador o el estado de inicio, use la pestaña **Todos los trabajos**.
+
+![Pestaña Mis trabajos.](media/pfei-my-jobs-tab.png "Pestaña Mis trabajos")
 
 ## <a name="my-machine-tab"></a>Pestaña Mi máquina
 
@@ -133,6 +145,13 @@ Si un pedido de lote se crea a partir de una versión de fórmula donde la opci�
 
 En este caso, el trabajador puede especificar el coproducto y la cantidad a reportar seleccionando **Variaciones de coproductos** en el cuadro de diálogo de progreso del informe. A continuación, el trabajador puede seleccionar entre todos los productos emitidos que se definen como coproductos.
 
+### <a name="reporting-catch-weight-items"></a>Informar artículos con peso capturado
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes que se crean para artículos de peso capturado. Los pedidos por lotes se crean a partir de fórmulas, que se pueden definir para que tengan productos de peso capturado y productos de fórmula, coproductos y subproductos. También se puede definir una fórmula para que tenga líneas de fórmula para los ingredientes definidos para el peso capturado. Los artículos con peso capturado utilizan dos unidades de medida para realizar un seguimiento del inventario: cantidad de peso capturado y cantidad de inventario. Por ejemplo, en la industria alimentaria, la carne en caja se puede definir como un artículo con peso capturado, en el que la cantidad de peso capturado se usa para rastrear el número de cajas y la cantidad de inventario se usa para rastrear el peso de las cajas.
+
 ## <a name="reporting-scrap"></a>Notificar residuo
 
 Cuando un trabajador completa (o completa parcialmente) un trabajo, puede notificar residuos seleccionando un trabajo en la pestaña **Trabajos activos** y seleccionando a continuación **Notificar residuo**. En el cuadro de diálogo **Notificar residuo**, el trabajador introduce la cantidad de residuo a través del teclado numérico. El trabajador también selecciona un motivo (*Ninguno*, *Máquina*, *Operador* o *Material*).
@@ -187,6 +206,13 @@ Se pueden realizar las siguientes acciones:
 
 El botón **Ajustar material** se puede configurar para que aparezca en la barra de herramientas de la derecha. (Para más información, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md)). Un trabajador puede seleccionar **Ajustar material** para un trabajo de producción que está en curso. En este caso, aparece el cuadro de diálogo **Ajustar material**, donde el trabajador puede hacer los ajustes deseados. Cuando se abre el cuadro de diálogo, se crea una lista de selección de producción que contiene líneas para las cantidades ajustadas para la orden de producción. Si el trabajador selecciona **Publicar ahora**, se confirma el ajuste y se contabiliza la lista de selección. Si el trabajador selecciona **Cancelar**, se elimina la lista de selección y no se hace ningún ajuste.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajustar el consumo de material para artículos con peso capturado
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Los trabajadores pueden ajustar el consumo de material para artículos con peso capturado. Esta funcionalidad se usa en escenarios donde la cantidad real de material de peso capturado consumido por un trabajo de producción fue mayor o menor que la cantidad planificada. Por lo tanto, debe ajustarse para mantener los niveles de inventario actualizados. Cuando un trabajador ajusta el consumo de un artículo de peso capturado, puede ajustar tanto la cantidad de peso capturado como la cantidad de inventario. Por ejemplo, si se planea que un trabajo de producción consuma cinco cajas que tienen un peso estimado de 2 kilogramos por caja, el trabajador puede ajustar tanto la cantidad de cajas a consumir como el peso de las cajas. El sistema validará que el peso especificado de las cajas esté dentro del umbral mínimo y máximo definido en el producto liberado.
+
 ### <a name="reserve-materials"></a>Reserva de materiales
 
 En el cuadro de diálogo **Ajustar material**, un trabajador puede hacer y ajustar reservas de material seleccionando **Material de reserva**. El cuadro de diálogo **Material de reserva** que aparece muestra el inventario disponible físicamente para el artículo para cada dimensión de almacenamiento y seguimiento.
@@ -197,6 +223,8 @@ Para obtener más información sobre cómo configurar la ubicación de entrada d
 
 > [!NOTE]
 > Las reservas que hace un trabajador en el cuadro de diálogo **Material de reserva** permanecerá cuando el trabajador seleccione **Cancelar** en el cuadro de diálogo **Informar sobre el progreso** o **Informar de rechazo**.
+>
+> No es posible ajustar reservas para artículos con peso capturado.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completar un trabajo e iniciar un trabajo nuevo
 

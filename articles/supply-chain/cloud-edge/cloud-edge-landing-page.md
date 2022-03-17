@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119196"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376191"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escalado en una topología híbrida distribuida
 
@@ -40,7 +40,7 @@ Las capacidades de carga de trabajo se lanzan de forma continua a través de mej
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unidades de escalado y cargas de trabajo dedicadas
 
-Las unidades de escala amplían su entorno central de Supply Chain Management agregando capacidad de procesamiento dedicada. Las unidades de escala se pueden ejecutar en la nube. Alternativamente, pueden ejecutarse en el borde, en las instalaciones de su instalación local.
+Las unidades de escala amplían su entorno central de Supply Chain Management agregando capacidad de procesamiento dedicada. Las unidades de escala se pueden ejecutar en la nube. Alternativamente, pueden ejecutarse en el [borde](cloud-edge-edge-scale-units-lbd.md), en las instalaciones de su instalación local.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unidades de escalado.":::
 
@@ -125,33 +125,27 @@ Cuando habilita su entorno de Dynamics 365 para admitir la topología híbrida d
 - Configuraciones de carga de trabajo, incluidos los nombres y direcciones físicas de entidades e instalaciones legales, para que su topología se pueda mostrar en un mapa geográfico.
 - Métricas recopiladas (como latencia y rendimiento) que se mostrarán en la página de análisis del mapa para ayudarlo a seleccionar el uso más beneficioso de sus unidades de escala.
 
-Los datos que se transfieren y almacenan en los centros de datos de EE. UU. Se eliminarán de acuerdo con las políticas de retención de datos de Microsoft. Su privacidad es importante para Microsoft. Para obtener más información, lea nuestra [Declaracion de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839).
+Los datos que se transfieren y almacenan en los centros de datos de EE. UU. Se eliminarán de acuerdo con las políticas de retención de datos de Microsoft. Su privacidad es importante para Microsoft. Para obtener más información, lea nuestra [Declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-## <a name="onboarding-in-two-stages"></a>Incorporación en dos etapas
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Incorporarse a la topología híbrida distribuida para Supply Chain Management
 
-El proceso de incorporación a la topología híbrida distribuida tiene dos etapas. Durante la primera etapa, debe validar las personalizaciones para asegurarse de que funcionen en la topología distribuida que tiene unidades de escala. Los entornos sandbox y de producción se mueven solo durante la segunda etapa.
+### <a name="try-out-the-distributed-hybrid-topology"></a>Intentar escalar la topología híbrida distribuida
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Etapa 1: evaluar las personalizaciones en entornos de desarrollo de una sola caja
+El proceso de incorporación a la topología híbrida distribuida tiene dos etapas. Durante la primera etapa, debe [probar](cloud-edge-try-out.md) la solución y validar las personalizaciones para asegurarse de que funcionen en una topología distribuida que incluye unidades de escalado. (Puede usar entornos de desarrollo existentes para realizar la validación). Luego puede continuar con la segunda etapa, donde adquiere entornos de producción.
 
-Antes de comenzar a incorporar sus entornos sandbox o de producción, le recomendamos que explore las unidades de escala en una configuración de desarrollo, como un entorno de una sola caja (también conocido como entorno de nivel 1), para que pueda validar procesos, personalizaciones, y soluciones. Durante esta etapa, los datos y las personalizaciones se aplicarán a los entornos one-box. Un entorno asume el papel de centro y el otro el papel de unidad de escala. Esta configuración proporciona la mejor manera de identificar y solucionar problemas. La última compilación de acceso temprano (PEAP) también se puede utilizar para completar esta etapa.
-
-Para la etapa 1, debe usar las [herramientas de implementación de unidades de escala para entornos de desarrollo de una sola caja](https://github.com/microsoft/SCMScaleUnitDevTools). Estas herramientas le permiten configurar unidades de escala y concentradores en uno o dos entornos de una sola caja separados. Las herramientas se proporcionan como una versión binaria y en código fuente en GitHub. Estudie la wiki del proyecto, que incluye una [Guía de uso paso a paso](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) que describe cómo se utilizan las herramientas.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Etapa 2: Adquiera complementos e impleméntelos en sus entornos sandbox y de producción
-
-Para incorporar uno de sus entornos sandbox o de producción a la nueva topología, debe adquirir complementos para una o más unidades de escala de nube (y, en el futuro, para unidades de escala de borde). Los complementos otorgarán los espacios correspondientes al proyecto y al entorno en [LCS](https://lcs.dynamics.com/) para que se puedan implementar los entornos de la unidad de escala.
-
-> [!NOTE]
-> Los complementos de la unidad de escala no están acoplados a un número limitado de usuarios, pero pueden ser utilizados por cualquier usuario de la suscripción existente, según los roles que asigne el administrador.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Seleccione el inquilino de su proyecto LCS y el proceso de incorporación detallado
 
 Las unidades de báscula se ofrecen en varias unidades de mantenimiento de existencias (SKU) y opciones de precios. Por lo tanto, puede elegir la opción que mejor se adapte a los requisitos de rendimiento y volumen de transacciones mensuales planificados.
+
+> [!TIP]
+> Para identificar el tamaño que mejor se adapte a sus necesidades, trabaje con su socio de implementación y Microsoft para comprender el tamaño de transacción mensual que necesita.
 
 El SKU de nivel de entrada se conoce como *Básico* y el SKU de mayor rendimiento se conoce como *Estándar*. Cada SKU viene precargado con un número específico de transacciones mensuales. Sin embargo, puede aumentar el presupuesto de transacciones mensual agregando complementos excedentes para cada SKU.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Complementos para unidades de escala de nube.":::
 
-> [!TIP]
-> Para identificar el tamaño que mejor se adapte a sus necesidades, trabaje con su socio y Microsoft para comprender el tamaño de transacción mensual que necesita.
+> [!NOTE]
+> Los complementos de unidades de escalado no están acoplados a un número limitado de usuarios. Están disponibles para cualquier usuario en su suscripción existente (siempre que su administrador les haya asignado los roles de usuario requeridos).
 
 La compra de cada complemento de unidad de báscula no solo le brinda un volumen mensual de transacciones, sino que también le da derecho a un número específico de espacios de entorno en LCS. Por cada complemento de unidad de escala en la nube, tiene derecho a una nueva ranura de producción y una nueva ranura de espacio aislado. Durante el proceso de incorporación, se agregará un nuevo proyecto LCS que tiene estos espacios. Los derechos de uso de las ranuras están vinculados de modo que las ranuras se deben usar como unidades de escala que tienen un centro en la nube.
 
@@ -159,9 +153,6 @@ Los complementos excedentes no le dan derecho a nuevas ranuras de entorno.
 
 Si desea adquirir más entornos de sandbox, puede comprar ranuras de sandbox regulares adicionales. Microsoft puede ayudarlo a habilitar esas ranuras como unidades de escala de espacio aislado para la topología híbrida.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Incorporarse a la topología híbrida distribuida para Supply Chain Management
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Seleccione el inquilino de su proyecto LCS y el proceso de incorporación detallado
 
 Una vez que haya terminado de planificar cómo se incorporará a la topología híbrida distribuida para Supply Chain Management, utilizará el [Portal de Scale Unit Manager](https://aka.ms/SCMSUM) para comenzar el proceso de incorporación. En el portal, seleccione la pestaña **Inqulinos de Dynamics 365**. Esta pestaña muestra la lista de inquilinos de los que forma parte su cuenta y dónde es propietario o administrador de entorno para un proyecto LCS.
 

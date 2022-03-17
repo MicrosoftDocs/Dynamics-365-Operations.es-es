@@ -2,27 +2,22 @@
 title: Periféricos
 description: En este tema explica los conceptos relacionados con los periféricos de Commerce.
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092493"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370985"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -45,7 +40,7 @@ Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail
 
 ### <a name="modern-pos"></a>Modern POS
 
-Modern POS es el programa de PDV para Microsoft Windows. Se puede implementar en sistemas operativos Windows 10 (OSs).
+Modern POS es el programa de PDV para Microsoft Windows. Se puede implementar en sistemas operativos Windows 10 y Windows 11.
 
 ### <a name="cloud-pos"></a>PDV en la nube
 
@@ -108,7 +103,7 @@ Las terminales para el ingreso del número de identificación personal (PIN) se 
 
 ### <a name="secondary-display"></a>Pantalla secundaria
 
-Cuando se configura una pantalla secundaria, se utilizará el número 2 de pantalla de Windows para mostrar la información básica. El propósito de la pantalla secundaria es admitir la extensión de proveedor independiente de software (ISV); dado que no requiere instalación, la pantalla secundaria no se puede configurar y muestra contenido limitado.
+Cuando se configura una pantalla secundaria, se utilizará el número 2 de pantalla de Windows para mostrar la información básica. De forma predeterminada, la pantalla secundaria no se puede configurar y muestra contenido limitado. El propósito de la pantalla secundaria es admitir una extensión de proveedor de software independiente (ISV). 
 
 ### <a name="payment-device"></a>Dispositivo de pago
 
@@ -176,7 +171,7 @@ Para usar la estación de hardware dedicada, siga estos pasos.
 1. Abra Modern POS en modo sin cajón y use la operación **Administrar estaciones de hardware** para activar las capacidades de la estación de hardware. La estación de hardware dedicada estará activa de forma predeterminada. 
 1. Salga de Modern POS. Luego vuelva a iniciar sesión y abra un turno. Los periféricos que están configurados en el perfil de hardware ahora serán utilizables. 
 
-### <a name="shared"></a>Compartido 
+### <a name="shared"></a>Compartido
 
 También denominada a veces estación de hardware "IIS", "IIS" implica que la aplicación PDV se conecta a la estación de hardware a través de Microsoft Internet Information Services. La aplicación de PDV se conecta a la estación de hardware de IIS a través de los servicios web que se ejecutan en un equipo donde los dispositivos se conectan. Cuando se usa la estación de hardware compartida, los periféricos asociados a una estación de hardware se pueden usar por cualquier registro de PDV que esté en la misma red que la estación de hardware de IIS. Dado que solo Modern POS para Windows y Android incluyen compatibilidad integrada para periféricos, el resto de aplicaciones de Modern POS deben usar la estación de hardware de IIS para comunicarse con los periféricos de PDV que se configuran en el perfil de hardware. Por lo tanto, cada instancia de la estación de hardware de IIS requiere un equipo que ejecute el servicio web y la aplicación que se comunica con los dispositivos. 
 
@@ -184,7 +179,7 @@ La estación de hardware compartida se puede usar para permitir que varios clien
 
 Cuando se usa una estación de hardware para admitir el intercambio de periféricos entre varios clientes de PDV, solo se deben usar cajas registradoras, impresoras de recibos y terminales de pago. No puede conectar directamente los escáneres de código de barras independientes, los MSR, pantallas las de línea, las balanzas u otros dispositivos. Si no, aparecerán conflictos cuando varios dispositivos PDV intentan demandar esos periféricos al mismo tiempo. Aquí se explica cómo se gestionan los conflictos de los dispositivos admitidos:
 
--   **La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo. El único problema que puede ocurrir cuando se llama a la caja registradora es que ya esté abierta. En el caso de las estaciones de hardware compartidas, la caja registradora se debe establecerse en **Compartida** en el perfil de hardware. Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.
+-   **La caja registradora** la caja registradora se abre mediante un evento que se envía al dispositivo. Pueden darse problemas si se llama a una caja registradora cuando el cajón ya esté abierto. Una caja registradora usada en una configuración de hardware de estación compartida debe establecerse en **Compartida** en el perfil de hardware. Este valor impide que los PDV comprueben si la caja registradora ya está abierta cuando envían comandos para abrirla.
 -   **Impresora de recibos**: si se envían dos comandos de impresión de recibos a la estación de hardware al mismo tiempo, uno de los siguientes comandos se puede perder, en función del dispositivo. Algunos dispositivos tienen memoria interna o agrupaciones que pueden evitar este problema. Si un comando de impresión no se realiza correctamente, el cajero recibe un mensaje de error y puede reintentar el comando de impresión desde el PDV.
 -   **Termina de pago**: si un cajero intenta realizar una transacción en un terminal de pago que ya se está usando, un mensaje notifica al cajero que se está utilizando el terminal y se solicita al cajero que lo intente de nuevo más adelante. Normalmente, los cajeros pueden ver que un terminal ya se está usando y esperarán hasta que se complete la otra transacción antes de intentarlo de nuevo.
 
@@ -205,7 +200,7 @@ La lógica que controla los periféricos físicamente conectados y que se pueden
 ## <a name="setup-and-configuration"></a>Establecimiento y configuración
 ### <a name="hardware-station-installation"></a>Instalación de la estación de hardware
 
-Para más información, consulte [Configurar e instalar la estación de hardware](retail-hardware-station-configuration-installation.md).
+Para obtener más información sobre cómo instalar una estación de hardware IIS, consulte [Configurar e instalar la estación de hardware](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Windows
 
@@ -431,7 +426,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Todos los clientes de Modern POS compartían una estación de hardware de IIS
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>Todos los clientes de Modern POS que comparten una estación de hardware de IIS
 
 > [!NOTE]
 > Cuando la estación de hardware de IIS es "compartida”, varios dispositivos pueden usar la estación de hardware al mismo tiempo. Para este escenario, debe usar solamente los dispositivos que se muestran en la tabla siguiente. Si intenta compartir los dispositivos que no se enumeran aquí, como los escáneres de código de barras y los MSR, aparecerán errores cuando varios dispositivos intenten demandar el mismo periférico. En el futuro, tal configuración se impedirá explícitamente.
@@ -487,7 +482,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuración para los escenarios admitidos
-Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md). 
+Para obtener más información sobre cómo crear perfiles de hardware, consulte [Conectar periféricos en el punto de venta (POS)](define-maintain-channel-clients-registers-hw-stations.md). 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
 
@@ -623,9 +618,8 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 | Fabricante | Modelo    | Interfaz | Comentarios                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPDV      |                         |
-| Epson        | TM-T88VI | OPDV      |                         |
-| Epson        | TM-T88   | Personalizar    | Conectado a través de la red   |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB             |
+| Epson        | TM-T88IV | OPDV      |                         |
+| HP           | H300     | OPDV      | Con tecnología USB             |
 | Star         | TSP650II | Personalizar    | Conectado a través de la red   |
 | Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
 | Toshiba      | HSP100   | OPDV      |                         |
@@ -637,26 +631,17 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 #### <a name="bar-code-scanner"></a>Escáner de códigos de barras
 
 | Fabricante  | Modelo         | Interfaz | Comentarios |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPDV      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Símbolo        | LS2208        | OPDV      |          |
-| HP integrado | E1L07AA       | OPDV      |          |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPDV      |          |
+| Honeywell     | 1900          | UWP       |          |
+| HP integrado | E1L07AA       | OPDV      |          |
+| Símbolo        | LS2208        | OPDV      |          |
 
-#### <a name="pin-pad"></a>Terminal para introducción de PIN
+#### <a name="payment-terminals-and-pin-pads"></a>Terminales de pago y teclados de PIN
 
-| Fabricante | Modelo  | Interfaz | Comentarios                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPDV      | Requiere personalización del conector de pago |
+Dynamics 365 Commerce proporciona una solución lista para usar para la integración con Adyen para servicios de pago. EL [Conector de pago de Dynamics 365 para Adyen](dev-itpro/adyen-connector.md) utiliza la [Interfaz de programación de aplicaciones (API) de Adyen Payment Terminal](https://www.adyen.com/blog/introducing-the-terminal-api) que no depende de dispositivos y puede interactuar con todos los terminales de pago que admiten esta API. Para obtener una lista completa de los terminales de pago admitidos, consulte [Terminales PDV Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminal de pago 
-
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizar    | Requiere personalización del conector de pago                                |
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+También puede utilizar otros proveedores de pago con Dynamics 365 Commerce creando un conector personalizado. Cualquier terminal de pago que sea compatible con el proveedor de pago se puede utilizar con Dynamics 365 Commerce. De forma similar, Dynamics 365 Commerce permite cualquier modelo de integración de dispositivo de pago que sea compatible con el proveedor de pago, como IP local, API en la nube o conexión directa (por ejemplo, a través de USB) al POS. Para más información, consulte [Crear integración de pago de un extremo a otro para un terminal de pago](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Caja registradora
 
@@ -670,10 +655,10 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 
 #### <a name="line-display"></a>Visualización de líneas
 
-| Fabricante  | Modelo   | Interfaz | Comentarios |
-|---------------|---------|-----------|----------|
-| HP integrado | G6U79AA | OPDV      |          |
-| Epson         | M58DC   | OPDV      |          |
+| Fabricante | Modelo    | Interfaz | Comentarios |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPDV      |          |
+| HP           | T-series | OPDV      |          |
 
 #### <a name="signature-capture"></a>Captura de firma
 
@@ -701,39 +686,29 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 
 #### <a name="printer"></a>Impresora
 
-| Fabricante | Modelo    | Interfaz | Comentarios              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPDV      |                       |
-| Epson        | TM-T88VI | OPDV      |                       |
-| Epson        | TM-T88V  | Personalizar    | Conectado a través de la red |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red |
-| Toshiba      | HSP100   | OPDV      |                       |
-| Toshiba      | HSP150   | OPDV      |                       |
-
-
+| Fabricante | Modelo    | Interfaz | Comentarios                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPDV      |                         |
+| Epson        | TM-T88IV | OPDV      |                         |
+| HP           | H300     | OPDV      | Con tecnología USB             |
+| Star         | TSP650II | Personalizar    | Conectado a través de la red   |
+| Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
+| Toshiba      | HSP100   | OPDV      |                         |
+| Toshiba      | HSP150   | OPDV      |                         |
 
 #### <a name="bar-code-scanner"></a>Escáner de códigos de barras
 
-| Fabricante  | Modelo   | Interfaz | Comentarios |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPDV      |          |
-| Símbolo        | LS2208  | OPDV      |          |
-| HP integrado | E1L07AA | OPDV      |          |
+| Fabricante  | Modelo         | Interfaz | Comentarios |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPDV      |          |
+| HP integrado | E1L07AA       | OPDV      |          |
+| Símbolo        | LS2208        | OPDV      |          |
 
-#### <a name="pin-pad"></a>Terminal para introducción de PIN
+#### <a name="payment-terminals-and-pin-pads"></a>Terminales de pago y teclados de PIN
 
-| Fabricante | Modelo  | Interfaz | Comentarios                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPDV      | Requiere personalización del conector de pago |
+Dynamics 365 Commerce proporciona una solución lista para usar para la integración con Adyen para servicios de pago. EL [Conector de pago de Dynamics 365 para Adyen](dev-itpro/adyen-connector.md) utiliza la [API Adyen Payment Terminal](https://www.adyen.com/blog/introducing-the-terminal-api) que no depende de dispositivos y puede interactuar con todos los terminales de pago que admiten esta API. Para obtener una lista completa de los terminales de pago admitidos, consulte [Terminales PDV Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminal de pago 
-
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizar    | Requiere personalización del conector de pago                                |
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+También puede utilizar otros proveedores de pago con Dynamics 365 Commerce creando un conector personalizado. Cualquier terminal de pago que sea compatible con el proveedor de pago se puede utilizar con Dynamics 365 Commerce. De forma similar, Dynamics 365 Commerce permite cualquier modelo de integración de dispositivo de pago que sea compatible con el proveedor de pago, como IP local, API en la nube o conexión directa (por ejemplo, a través de USB) al POS. Para más información, consulte [Crear integración de pago de un extremo a otro para un terminal de pago](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Caja registradora
 
@@ -780,22 +755,20 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 
 #### <a name="printer"></a>Impresora
 
-| Fabricante | Modelo    | Interfaz | Comentarios              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPDV      |                       |
-| Epson        | TM-T88VI | OPDV      |                       |
-| Epson        | TM-T88   | Personalizar    | Conectado a través de la red |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red |
-| Toshiba      | HSP100   | OPDV      |                       |
-| Toshiba      | HSP150   | OPDV      |                       |
+| Fabricante | Modelo    | Interfaz | Comentarios                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPDV      |                         |
+| Epson        | TM-T88IV | OPDV      |                         |
+| HP           | H300     | OPDV      | Con tecnología USB             |
+| Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
+| Toshiba      | HSP100   | OPDV      |                         |
+| Toshiba      | HSP150   | OPDV      |                         |
 
 #### <a name="payment-terminal"></a>Terminal de pago 
 
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+Dynamics 365 Commerce proporciona una solución lista para usar para la integración con Adyen para servicios de pago. EL [Conector de pago de Dynamics 365 para Adyen](dev-itpro/adyen-connector.md) utiliza la [API Adyen Payment Terminal](https://www.adyen.com/blog/introducing-the-terminal-api) que no depende de dispositivos y puede interactuar con todos los terminales de pago que admiten esta API. Para obtener una lista completa de los terminales de pago admitidos, consulte [Terminales PDV Adyen](https://www.adyen.com/pos-payments/terminals).
+
+También puede utilizar otros proveedores de pago con Dynamics 365 Commerce creando un conector personalizado. Cualquier terminal de pago que sea compatible con el proveedor de pago se puede utilizar con Dynamics 365 Commerce. De forma similar, Dynamics 365 Commerce permite cualquier modelo de integración de dispositivo de pago que sea compatible con el proveedor de pago, como IP local, API en la nube o conexión directa (por ejemplo, a través de USB) al POS. Para más información, consulte [Crear integración de pago de un extremo a otro para un terminal de pago](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Caja registradora
 
@@ -822,7 +795,7 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 
 **Solución:** cualquiera de los factores siguientes puede producir este problema:
 
--   La estación de hardware no se ha configurado correctamente en la sede central. Siga los pasos anteriores en este tema para comprobar que el perfil de la estación de hardware y la estación de hardware se especificaron correctamente.
+-   La estación de hardware no se ha configurado correctamente en la sede central. Para más información, consulte [Configurar e instalar la estación de hardware para Retail](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   Los trabajos no se han ejecutado para actualizar la configuración del canal. En este caso, ejecute el trabajo 1070 para la configuración del canal.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS no refleja nuevos parámetros de la caja registradora

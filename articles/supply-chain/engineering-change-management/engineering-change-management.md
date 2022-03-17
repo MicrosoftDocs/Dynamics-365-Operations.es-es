@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102922"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384677"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -217,5 +217,15 @@ La mayoría de los campos de las órdenes de cambio de ingeniería son los mismo
 
 Puede usar el botón **Mantener/copiar información de cambios** para copiar la información de cambio entre los productos afectados.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Use firmas electrónicas para aprobar y activar listas de materiales y rutas
+
+Para usar firmas electrónicas para aprobar y/o activar listas de materiales (BOM) y/o cambios de ruta, vaya a **Administración de la organización \> Configuración \> Firma electrónica \> Requisitos de firma electrónica**. Luego, asegúrese de que cada uno de los siguientes elementos tenga **Firma requerida** ajustado a *Sí*:
+
+- Activar la lista de materiales del producto del pedido de cambio de ingeniería
+- Activar ruta del producto del pedido de cambio de ingeniería
+- Aprobar la lista de materiales del producto del pedido de cambio de ingeniería
+- Aprobar ruta del producto del pedido de cambio de ingeniería
+- Aprobar L. MAT. y versiones de L. MAT. de versión de ingeniería
+- Aprobar versión de ingeniería y de ruta
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

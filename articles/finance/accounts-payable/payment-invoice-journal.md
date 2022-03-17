@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: bd288ac48ef59d8e2a4e0922aa652276dddb666d
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075579"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358348"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Aplicar una programación de pagos al diario de facturas
 
 [!include [banner](../includes/preview-banner.md)]
 
-En Microsoft Dynamics 365 Finance versión 10.0.25, ahora se admite un cronograma de pago en el diario de facturas del proveedor.
+En Microsoft Dynamics 365 Finance versión 10.0.25, ahora se admite un cronograma de pago en el **Diario de facturas del proveedor**.
 
 Para utilizar esta función, debe habilitar la función **Aplicar programa de pagos al diario de facturas** en Gestión de funciones.
 
@@ -34,13 +34,10 @@ Una vez habilitada la función, se agrega un nuevo campo **Calendario de pago** 
 
 Puede cambiar el cronograma de pago que se utiliza, de acuerdo con los requisitos de su negocio. Durante la contabilización del diario de facturas de proveedor, se crearán transacciones abiertas de proveedor de acuerdo con la programación de pagos.
 
-Para revisar múltiples transacciones abiertas de proveedores que se generaron a partir del cronograma de pagos, vaya a **Cuentas por pagar \> Facturas \> Abrir facturas de proveedor** e introduzca el número de factura o la cuenta de proveedor.
-
-Para revisar o configurar el calendario de pagos, vaya a **Cuentas por pagar \> Configuración de pago \> Calendario de pago**.
-
-Para configurar las condiciones de pago y asignar un cronograma de pago, vaya a **Cuentas por pagar \> Configuración de pago \> Condiciones de pago**.
-
-Para actualizar las condiciones de pago de un proveedor, vaya a **Cuentas por pagar \> Todos los proveedores**, seleccione la cuenta de proveedor y, a continuación, en la pestaña **Pago**, configure el campo **Condiciones de pago**.
+ - Para revisar múltiples transacciones abiertas de proveedores que se generaron a partir del cronograma de pagos, vaya a **Cuentas por pagar \> Facturas \> Abrir facturas de proveedor** e introduzca el número de factura o la cuenta de proveedor.
+ - Para revisar o configurar el calendario de pagos, vaya a **Cuentas por pagar \> Configuración de pago \> Calendario de pago**.
+ - Para configurar las condiciones de pago y asignar un cronograma de pago, vaya a **Cuentas por pagar \> Configuración de pago \> Condiciones de pago**.
+ - Para actualizar las condiciones de pago de un proveedor, vaya a **Cuentas por pagar \> Todos los proveedores**, seleccione la cuenta de proveedor y, a continuación, en la pestaña **Pago**, configure el campo **Condiciones de pago**.
 
 La función de programación de pagos también está disponible en el proceso **Registro de facturas de proveedores**. Si se selecciona un programa de pago en el diario de registro de facturas, varias líneas de pago de proveedor **no** generarse cuando se contabiliza el registro de facturas. Las líneas de pago del proveedor se generarán cuando se apruebe la factura.
 
@@ -48,4 +45,4 @@ La función de programación de pagos también está disponible en el proceso **
 
 Para una factura de proveedor pendiente, si el programa de pago está en el encabezado de la factura, hay una página avanzada que permite a los usuarios editar las líneas de pago. (Por ejemplo, los usuarios pueden editar la fecha de vencimiento y el valor de cada línea de pago). Las líneas de pago que se generan a partir del diario de facturas tendrán el valor del programa de pagos.
 
-Esta funcionalidad estará disponible para el diario de facturas de proveedores y las facturas pendientes en una versión futura.
+Esta funcionalidad estará disponible para el **Diario de facturas de proveedores** y las **Facturas pendientes** en una versión futura.

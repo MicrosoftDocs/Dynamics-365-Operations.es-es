@@ -2,7 +2,7 @@
 title: Diseñar las configuraciones de ER para completar las plantillas de PDF
 description: Este tema proporciona información acerca de cómo diseñar un informe electrónico (ER) para completar una plantilla de PDF.
 author: NickSelin
-ms.date: 03/24/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758297"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367865"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Diseñar las configuraciones de ER para completar las plantillas de PDF
 
@@ -294,6 +294,20 @@ La ilustración siguiente muestra un ejemplo de la primera página del informe q
 La ilustración siguiente muestra un ejemplo de otra página del informe que se ha generado.
 
 ![Otra página del informe generado.](media/rcs-ger-filloutpdf-generatedreport2.png)
+
+## <a name="limitations"></a>Limitaciones
+
+Los nombres de los campos rellenables deben ser únicos en el formulario PDF que planea usar como plantilla de informe. Para cada uno de estos campos, se crea un elemento de formato individual con el nombre correspondiente en el formato ER editable cuando se importa un formulario PDF. Si un formulario PDF contiene varios campos con el mismo nombre, se crea un elemento de formato único para los campos que no permite que se completen individualmente en tiempo de ejecución.
+
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Cuando ejecuto el formato ER para generar un informe en formato PDF, ¿por qué obtengo los siguientes errores: **No se pueden manejar flujos de iref. La implementación actual de PDFSharp no puede gestionar esta característica de PDF introducida con Acrobat 6.** y **Un nombre de PDF debe comenzar con una barra inclinada (/)?**
+
+El marco ER utiliza la versión 1.5 de la biblioteca PDFSharp para generar estos informes en PDF. Algunas características de PDF 1.5 (Adobe Reader 6.0) aún no están implementados en esta biblioteca. Por lo tanto, PDFSharp aún no puede abrir algunos archivos que están marcados como **para PDF 1.5 o superior** y puede resultar en los errores recibidos. Use uno de las soluciones siguientes para resolver el problema:
+
+-   Cuando utilice su propia plantilla PDF: cambie la plantilla a una versión anterior de Adobe y comience a usar una nueva plantilla en su formato ER.
+-   Cuando usa una plantilla de formato de ER que otro proveedor de configuración compartió con usted como parte de una solución de ER: contacte con el propietario de esta solución de ER y proporcione una descripción del problema.
+-   Cuando utiliza la solución ISV que contiene una versión anterior de la biblioteca PDFSharp: contacte con el propietario de la solución y sugiera una actualización a la versión más reciente de PDFSharp.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

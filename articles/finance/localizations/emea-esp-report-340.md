@@ -2,7 +2,7 @@
 title: Informe 340 para España
 description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
 author: anasyash
-ms.date: 07/23/2020
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b467a8603541c60bfc6f075d735ed4bf3b46d08a3769197739e8f2f0d4a5361e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 688df6a774b867f15d66d998a7c1782d04be3510
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775873"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384630"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
@@ -82,7 +82,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 | Plantilla (en la sección **Numeración manual**)        | Especifique la plantilla ara el número de línea. Por ejemplo, escriba #####.                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Declaración sustitutiva                               | Establezca esta opción en **Sí** para reemplazar la declaración anterior.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Número declaración anterior                          | Especifique el número de 13 dígitos de la declaración anterior. Este campo solo se puede editar si la opción **Declaración sustitutiva** se establece en **Sí**.                                                                                                                                                                                                                                                                                                                     |
-| Cuenta de pago mínimo en efectivo                       | Especifique el importe de pago de efectivo mínimo que se debería notificarse en la declaración.                                                                                                                                                                                                                                                                                                                                                                                       |
+| Cuenta de pago mínimo en efectivo                       | Especifique el importe de pago de efectivo mínimo que se debería notificarse en la declaración. Si no necesita incluir pagos en efectivo en el informe, ingrese 9999999999 en este campo.                                                                                                                                                                                                                                                                                                                                                                                      |
 
 10.  Seleccione **Aceptar** para crear una línea en la página **Informes de IVA español**, según los criterios que definió en el paso anterior.
 11.  Revise la línea que se crea.

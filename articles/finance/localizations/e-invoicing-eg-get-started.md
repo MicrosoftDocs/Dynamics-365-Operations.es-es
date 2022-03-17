@@ -1,80 +1,106 @@
 ---
-title: Comenzar con la facturación electrónica para Egipto
-description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Egipto en Finance y Supply Chain Management.
+title: Facturación electrónica para Egipto
+description: Este tema proporciona información que le ayudará a comenzar con la Facturación electrónica para Egipto en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 04/20/2021
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b25a3489d009a02b45d66d4c3a0271a56a92f5ac
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985634"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371365"
 ---
-# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Comenzar con la facturación electrónica para Egipto
+# <a name="electronic-invoicing-for-egypt"></a>Facturación electrónica para Egipto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Egipto. El tema le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Egipto. Le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Service (RCS). Estos pasos complementan los pasos que se describen en [Configurar la facturación electrónica](e-invoicing-set-up-overview.md).
 
-## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Configuración específica del país para la función de facturación electrónica de la factura electrónica egipcia (EG)
+## <a name="prerequisites"></a>Requisitos previos
 
-Algunos de los parámetros de la **Característica de facturación electrónica egipcia (EG)** se publican con valores predeterminados. Revise los valores y, si es necesario, actualícelos para que reflejen mejor sus necesidades de operación comercial antes de implementar la función de facturación electrónica en el entorno del servicio.
+Antes de que pueda comenzar los procedimientos de este tema, complete los siguientes requisitos previos:
 
-Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+- Familiarícese con la Facturación electrónica tal como se describe en [Descripción general de la facturación electrónica](e-invoicing-service-overview.md).
+- Regístrese para RCS y configure la Facturación electrónica Para obtener más información, consulte los siguientes temas:
 
-### <a name="prerequisites"></a>Requisitos previos
+    - [Alta e instalación del servicio de Factura Electrónica](e-invoicing-sign-up-install.md)
+    - [Configurar los recursos de Azure para la facturación electrónica](e-invoicing-set-up-azure-resources.md)
+    - [Instalar el complemento para microservicios en Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
+    
+- Active la integración entre su aplicación Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management y el servicio de Facturación Electrónica como se describe en [Activar y configurar la integración con Facturación Electrónica](e-invoicing-activate-setup-integration.md).
+- Cree un secreto de certificado digital en Azure Key Vault y configúrelo como se describe en [Certificados y secretos de clientes](e-invoicing-customer-certificates-secrets.md). Para fines de prueba, la autoridad fiscal egipcia proporciona certificados digitales de prueba específicos que deben usarse solo durante las fases de prueba y validación de la solución. Para obtener más información, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo que se proporciona en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 
-Para completar el procedimiento, en esta sección, debe:
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Configuración específica del país para la característica de factura electrónica egipcia (EG)
 
-- Cree un secreto de certificado digital, como se describe en la sección **Crear secreto de certificado digital** en [Comenzar con la administración del servicio de facturación electrónica](e-invoicing-get-started-service-administration.md). Para fines de prueba, la autoridad fiscal egipcia proporciona certificados digitales de prueba específicos que deben usarse solo durante las fases de prueba y validación de la solución. Para obtener más información, consulte el sitio web de la autoridad fiscal egipcia utilizando el vínculo proporcionado en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+Algunos de los parámetros de la **Característica de facturación electrónica egipcia (EG)** se publican con valores predeterminados. Para implementar la característica de facturación electrónica en el entorno del servicio, revise los valores predeterminados y actualícelos según sea necesario para que reflejen mejor la operación comercial.
 
-1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
-2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Factura electrónica egipcia (EG)** que creó.
-3. En la pestaña **Versiones**, verifique que se selecciona la versión **Borrador**.
-4. En la pestaña **Configuraciones**, en la cuadrícula, seleccione la configuración de la característica **Factura de ventas**.
-5. Seleccione **Editar** y, en la pestaña **Acciones** pestaña del grupo de campos **Comportamiento**, seleccione **Firmar el documento json para la autoridad fiscal egipcia**.
-6. En el grupo de campos **Parámetros** , seleccione el parámetro **Nombre del certificado** y seleccione el nombre del certificado digital creado para usarlo con la función de facturación electrónica.
-7. En el grupo de campos **Acciones**, seleccione **Integrarse con el servicio ETA egipcio**. Repita este paso para las dos apariciones de esta acción.
-8. En el grupo de campos **Parámetros** , seleccione **URL del servicio web** y **URL del servicio de inicio de sesión** y, si es necesario, revise los parámetros de URL. Consulte el sitio web de la autoridad fiscal egipcia para obtener la URL de pruebas y producción, utilizando el enlace proporcionado en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-9. Seleccione **Guardar** y cierre la página.
-10. Para implementar la función de facturación electrónica en el ambiente del servicio, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
-
-## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Configuración específica del país de la configuración de la aplicación para la función de facturación electrónica de factura electrónica egipcia (EG)
-
-Complete estos pasos antes de implementar la configuración de la aplicación en su aplicación conectada de Finance o Supply Chain Management.
-
-Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
-
-1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
-2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Factura electrónica egipcia (EG)**.
+1. Importe la última versión de la característica de globalización **Factura electrónica egipcia (EG)** como se describe en [Importar características del repositorio global](e-invoicing-import-feature-global-repository.md).
+2. Cree una copia de la característica de Globalización importada y seleccione su proveedor de configuración, como se describe en [Crear una característica de globalización](e-invoicing-create-new-globalization-feature.md).
 3. En la pestaña **Versiones**, verifique que esté seleccionada la versión **Borrador**.
-4. En la pestaña **Configuraciones**, seleccione **Configuración de la aplicación** y, en el campo **Aplicación conectada**, seleccione la aplicación donde desea implementar.
-5. En el campo **Nombre de la tabla**, verifique que el diario de facturas del cliente esté seleccionado.
-6. Seleccione **Tipos de respuesta** y luego seleccione **Nuevo**.
-7. En el campo **Tipo de respuesta**, introduzca "Respuesta" y, en el campo **Descripción**, introduzca "Descripción".
-8. En el campo **Estado de envío**, seleccione **Pendiente**.
-9. En el campo **Asignación de modelos**, seleccione **Asignación de modelos desde mensaje de respuesta**, con **(Versión preliminar) Formato de importación de mensaje de respuesta** y luego seleccione **Guardar**.
-10. Seleccione **Nuevo** y, en el campo **Tipo de respuesta**, introduzca "ResponseData" como valor fijo. En el campo **Descripción**, escriba "Descripción".
-11. En el campo **Estado de envío**, seleccione **Pendiente**.
-12. En el campo **Nombre de la entidad de datos**, seleccione **Encabezados de facturas de venta V2**.
-13. En el campo **Asignación de modelos**, seleccione **Importación de datos de respuesta egipcia**, con **(Versión preliminar) Importación de datos de respuesta egipcia** y luego seleccione **Guardar**.
-14. Para implementar la configuración de la aplicación en la aplicación conectada de Finance o Supply Chain Management, consulte [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+4. En la pestaña **Configuraciones**, en la cuadrícula, seleccione la configuración de la característica **Factura de ventas derivada**.
+5. Seleccione **Editar**.
+6. En la pestaña **Canalización de procesamiento**, en la sección **Canalización de procesamiento**, seleccione **Firmar el documento json para la autoridad fiscal egipcia**.
+7. En la sección **Parámetros**, seleccione **Nombre del certificado** y luego seleccione el nombre del certificado digital que creó.
+8. En la sección **Canalización de procesamiento**, seleccione **Integrarse con el servicio ETA egipcio**. Repita este paso para las dos apariciones de esta acción.
+9. En la sección **Parámetros**, seleccione **URL de servicio web** y **URL de inicio de sesión de servicio**. A continuación, revise los parámetros de URL. Para obtener la URL de pruebas y producción, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo proporcionado en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+10. Seleccione **Guardar** y cierre la página.
+11. Repita los pasos del 4 al 10 para la configuración de características **Factura de proyecto derivada**.
+
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-application-setup"></a>Configuración específica del país para la configuración de la aplicación de factura electrónica egipcia (EG)
+
+Hay parámetros que deben configurarse en su entorno de Finance o Supply Chain Management. Puede completar esta configuración en estos dos lugares:
+
+- Directamente en su entorno de Finance o Supply Chain Management. Para obtener más información, consulte [Configurar los parámetros de facturación electrónica](e-invoicing-set-up-parameters.md).
+- En RCS. En el ámbito de la configuración de característica de facturación electrónica, puede definir todos los parámetros y luego implementarlos directamente en su entorno de Finance o Supply Chain Management cuando implemente la característica de facturación electrónica.
+
+Para ambas opciones, los parámetros son los mismos. Si está configurando su primera característica en el servicio de Facturación electrónica, le recomendamos que siga estos pasos para configurar los parámetros en RCS y luego implementarlos en su aplicación conectada.
+
+> [!NOTE]
+> Algunas versiones de características de facturación electrónica pueden contener un conjunto predefinido de parámetros específicos de la aplicación para Finance o Supply Chain Management. En este caso, debe comprobar que los datos sean correctos. De lo contrario, establezca manualmente los parámetros.
+
+1. Encuentre la copia de la característica de globalización **Factura electrónica egipcia (EG)** que creó.
+2. En la pestaña **Versiones**, verifique que esté seleccionada la versión **Borrador**.
+3. En la pestaña **Configuraciones**, seleccione **Configuración de la aplicación**.
+4. En el campo **Aplicaciones conectadas**, seleccione la aplicación donde desea implementar los parámetros.
+5. En la página **Tipos de documentos electrónicos**, seleccione **Agregar** para crear un registro.
+6. En el campo **Nombre de la tabla**, agregue **CustInvoiceJour**.
+7. En el campo **Contexto**, agregue una referencia al nombre de asignación **Contexto de la factura del cliente**. La configuración es **Modelo de contexto de factura de cliente**.
+8. En el campo **Asignación de documentos electrónicos**, agregue una referencia al nombre de asignación **Contexto de la factura del cliente**. La configuración es **Asignación de modelos de factura**.
+9. Seleccione **Guardar**.
+10. En la página **Tipos de respuestas**, seleccione **Agregar**.
+11. En el campo **Tipo de respuesta** , especifique **Respuesta**.
+12. En el campo **Descripción**, escriba **Respuesta de proceso**.
+13. En el campo **Estado de envío**, seleccione **Pendiente**.
+14. En el campo **Asignación de modelos**, seleccione **Importación de mensaje de respuesta**. La configuración es **Importación de mensaje de respuesta de Egipto (EG)**.
+15. Seleccione **Guardar**.
+16. Seleccione **Agregar**.
+17. En el campo **Tipo de respuesta** , especifique **ResponseData**.
+18. En el campo **Descripción**, escriba **Datos de respuesta de proceso**.
+19. En el campo **Estado de envío**, seleccione **Pendiente**.
+20. En el campo **Nombre de la entidad de datos**, seleccione **SalesInvoiceHeaderV2Entity**.
+21. En el campo **Asignación de modelos**, seleccione **Importación de datos de respuesta**. La configuración es **Formato de importación de datos de respuesta de Egipto (EG)**.
+22. Seleccione **Guardar** y cierre la página.
+23. Cierre la página.
+
+Para implementar una característica en el entorno de servicio y una configuración de aplicación en la aplicación conectada de Finance o Supply Chain Management, consulte [Completar, publicar e implementar una característica de globalización](e-invoicing-complete-publish-deploy-globalization-feature.md)
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Habilitar la característica **Factura electrónica egipcia (EG)** puede requerir el envío de datos limitados, que incluyen el id. de registro fiscal de la organización. Este dato se transmitirá a agencias de terceros autorizadas por la autoridad tributaria con el fin de enviar facturas electrónicas a esta autoridad tributaria en el formato predefinido requerido para la integración con el servicio web del gobierno. Un administrador puede habilitar y deshabilitar la característica yendo a **Administración de la organización** > **Configuración** > **Parámetros de documentos electrónicos**. En la pestaña **Características**, seleccione las fila que contiene la característica **Factura electrónica egipcia (EG)** y luego haga la selección apropiada. Los datos importados de estos sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte las secciones de Aviso de privacidad en la documentación de características específicas de cada país o región para obtener más información.
+Habilitar la función **Factura electrónica egipcia (EG)** puede requerir que se envíen datos limitados. Estos datos incluyen el número de identificación fiscal de la organización. Los datos se transmitirán a agencias de terceros autorizadas por la autoridad tributaria para enviar facturas electrónicas a esa autoridad tributaria en el formato predefinido requerido para la integración con el servicio web del gobierno. Un administrador puede habilitar y deshabilitar la característica yendo a **Administración de la organización** \> **Configuración** \> **Parámetros de documentos electrónicos**. En la pestaña **Características**, seleccione las fila que contiene la característica **Factura electrónica egipcia (EG)** y luego haga la selección apropiada. Los datos que se importan de sistemas externos a este servicio en línea de Dynamics 365 están sujetos a nuestra [declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=512132). Para más información, vea la sección "Aviso de privacidad" en la documentación de características específicas de cada país.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -82,6 +108,5 @@ Habilitar la característica **Factura electrónica egipcia (EG)** puede requeri
 - [Comenzar con la administración de servicios de facturación electrónica](e-invoicing-get-started-service-administration.md)
 - [Comenzar con la facturación electrónica](e-invoicing-get-started.md)
 - [Facturas electrónicas de clientes en Egipto](emea-egy-e-invoices.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
