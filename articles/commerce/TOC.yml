@@ -32,7 +32,7 @@
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
             - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
-        - name: Introducción
+        - name: Comenzar
           items:
             - name: Descripción del servicio
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
@@ -794,7 +794,7 @@
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
                     - name: Crear paquetes de producto para pedidos de compra
                       href: tasks/create-product-packages-purchase-orders.md
-        - name: Administrar sus  pedidos
+        - name: Administrar sus pedidos
           items:
             - name: Pedidos de cliente
               items:
@@ -1020,9 +1020,11 @@
                   href: unit-of-measure.md
                 - name: Aplicar la configuración de visualización para las dimensiones del producto
                   href: dimension-settings.md
+                - name: Habilitar y activar el modo de mantenimiento de comercio electrónico
+                  href: enable-maintenance-mode.md
             - name: Administrar el contenido de su sitio
               items:
-                - name: Métodos para agregar contenido
+                - name: Formas de agregar contenido
                   href: add-manage-content.md
                 - name: Glosario del modelo de página
                   href: page-elements-overview.md
@@ -2100,6 +2102,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Depurar orígenes de datos
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Configurar modelos de datos
+                  items:
+                    - name: Admitir llamadas parametrizadas de modelos de datos ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar asignaciones de modelos
                   items:
                     - name: Configurar asignaciones de modelos de informes electrónicos dependientes del contexto del país
@@ -2760,9 +2766,11 @@
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Ampliar una definición de módulo
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Cambiar cadenas estáticas de biblioteca de módulos
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Acciones de datos
                       items:
-                        - name: Anulaciones de la acción de datos
+                        - name: Reemplazos de acciones de datos
                           href: e-commerce-extensibility/data-action-overrides.md
                         - name: Enlaces de acción de datos
                           href: e-commerce-extensibility/data-action-hooks.md
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Ampliar un tema a partir de un tema base
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Cambiar cadenas de módulos de tema
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Empaquetado e implementación
                   items:
                     - name: Empaquetar configuraciones e implementarlas en un entorno en línea
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Caché de instancia de acciones de datos
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Optimización de CSS de módulos
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Telemetría y análisis
                       items:
                         - name: Registrador de telemetría

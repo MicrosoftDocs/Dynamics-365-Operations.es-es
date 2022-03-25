@@ -4,106 +4,58 @@
       items:
         - name: Página principal de Dynamics 365 Human Resources
           href: index.md
-        - name: Infraestructura versión 10.0.25
-          href: hr-infrastructure.md
-        - name: Qué hay de nuevo o cambiado en la fusión de la infraestructura de Dynamics 365 Human Resources
-          href: ./get-started/hr-whats-new-changed-10-0-25.md
-        - name: Introducción
+        - name: Novedades y cambios
           items:
-            - name: Novedades
-              href: hr-admin-whats-new.md
-            - name: Novedades o archivos cambiados 2021
+            - name: Novedades y cambios en aplicaciones de finanzas y operaciones
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+            - name: Novedades y cambios en Human Resources
               items:
-                - name: 29 de noviembre de 2021
-                  href: hr-whats-new-2021-11-29.md
-                - name: 5 de octubre de 2021
-                  href: hr-whats-new-2021-10-04.md
-                - name: 20 de septiembre de 2021
-                  href: hr-whats-new-2021-09-20.md
-                - name: 6 de septiembre de 2021
-                  href: hr-whats-new-2021-09-06.md
-                - name: 23 de agosto de 2021
-                  href: hr-whats-new-2021-08-23.md
-                - name: 9 de agosto de 2021
-                  href: hr-whats-new-2021-08-09.md
-                - name: 26 de julio de 2021
-                  href: hr-whats-new-2021-07-26.md
-                - name: 12 de julio de 2021
-                  href: hr-whats-new-2021-07-12.md
-                - name: 22 de junio de 2021
-                  href: hr-whats-new-2021-06-22.md
-                - name: 20 de mayo de 2021
-                  href: hr-whats-new-2021-05-20.md
-                - name: 3 de mayo de 2021
-                  href: hr-whats-new-2021-05-03.md
-                - name: 19 de abril de 2021
-                  href: hr-whats-new-2021-04-19.md
-                - name: 5 de abril de 2021
-                  href: hr-whats-new-2021-04-05.md
-                - name: 22 de marzo de 2021
-                  href: hr-whats-new-2021-03-22.md
-                - name: 8 de marzo de 2021
-                  href: hr-whats-new-2021-03-08.md
-                - name: 22 de febrero de 2021
-                  href: hr-whats-new-2021-02-22.md
-                - name: 28 de enero de 2021
-                  href: hr-whats-new-2021-01-28.md
-                - name: 21 de enero de 2021
-                  href: hr-whats-new-2021-01-21.md
-            - name: Novedades en los archivos de 2020
-              items:
-                - name: 2 de diciembre de 2020
-                  href: hr-whats-new-2020-12-02.md
-                - name: 22 de octubre de 2020
-                  href: hr-whats-new-2020-10-22.md
-                - name: 6 de octubre de 2020
-                  href: hr-whats-new-2020-10-06.md
-                - name: 26 de septiembre de 2020
-                  href: hr-whats-new-2020-09-26.md
-                - name: 16 de septiembre de 2020
-                  href: hr-whats-new-2020-09-16.md
-                - name: 3 de septiembre de 2020
-                  href: hr-whats-new-2020-09-03.md
-                - name: 20 de agosto de 2020
-                  href: hr-whats-new-2020-08-20.md
-                - name: 6 de agosto de 2020
-                  href: hr-whats-new-2020-08-06.md
-                - name: 23 de julio de 2020
-                  href: hr-whats-new-2020-07-23.md
-                - name: 8 de julio de 2020
-                  href: hr-whats-new-2020-07-08.md
-                - name: 25 de junio de 2020
-                  href: hr-whats-new-2020-06-23.md
-                - name: 11 de junio de 2020
-                  href: hr-whats-new-2020-06-11.md
-                - name: 28 de mayo de 2020
-                  href: hr-whats-new-2020-05-28.md
-                - name: 14 de mayo de 2020
-                  href: hr-whats-new-2020-05-14.md
-                - name: 1 de mayo de 2020
-                  href: hr-whats-new-2020-05-01.md
-                - name: 13 de abril de 2020
-                  href: hr-whats-new-2020-04-13.md
-                - name: 3 de abril de 2020
-                  href: hr-whats-new-2020-04-03.md
-                - name: 24 de marzo de 2020
-                  href: hr-whats-new-2020-03-24.md
-                - name: 19 de marzo de 2020
-                  href: hr-whats-new-2020-03-19.md
-                - name: 10 de marzo de 2020
-                  href: hr-whats-new-2020-03-10.md
-                - name: 3 de marzo de 2020
-                  href: hr-whats-new-2020-03-03.md
-                - name: 25 de febrero de 2020
-                  href: hr-whats-new-2020-02-25.md
-                - name: 18 de febrero de 2020
-                  href: hr-whats-new-2020-02-18.md
-                - name: 12 de febrero de 2020
-                  href: hr-whats-new-2020-02-12.md
-                - name: 7 de febrero de 2020
-                  href: hr-whats-new-2020-02-07.md
-                - name: 3 de febrero de 2020
-                  href: hr-whats-new-2020-02-03.md
+                - name: Human Resources 10.0.26 (infraestructura fusionada)
+                  href: ./get-started/hr-whats-new-changed-10-0-26.md
+                - name: Human Resources 10.0.25 (infraestructura fusionada)
+                  href: ./get-started/hr-whats-new-changed-10-0-25.md
+                - name: Novedades de Dynamics 365 Human Resources (independiente)
+                  items:
+                    - name: Novedades de los archivos de Dynamics 365 Human Resources (independiente) en 2021
+                      href: hr-admin-whats-new.md
+                    - name: 29 de noviembre de 2021
+                      href: hr-whats-new-2021-11-29.md
+                    - name: 5 de octubre de 2021
+                      href: hr-whats-new-2021-10-04.md
+                    - name: 20 de septiembre de 2021
+                      href: hr-whats-new-2021-09-20.md
+                    - name: 6 de septiembre de 2021
+                      href: hr-whats-new-2021-09-06.md
+                    - name: 23 de agosto de 2021
+                      href: hr-whats-new-2021-08-23.md
+                    - name: 9 de agosto de 2021
+                      href: hr-whats-new-2021-08-09.md
+                    - name: 26 de julio de 2021
+                      href: hr-whats-new-2021-07-26.md
+                    - name: 12 de julio de 2021
+                      href: hr-whats-new-2021-07-12.md
+                    - name: 22 de junio de 2021
+                      href: hr-whats-new-2021-06-22.md
+                    - name: 20 de mayo de 2021
+                      href: hr-whats-new-2021-05-20.md
+                    - name: 3 de mayo de 2021
+                      href: hr-whats-new-2021-05-03.md
+                    - name: 19 de abril de 2021
+                      href: hr-whats-new-2021-04-19.md
+                    - name: 5 de abril de 2021
+                      href: hr-whats-new-2021-04-05.md
+                    - name: 22 de marzo de 2021
+                      href: hr-whats-new-2021-03-22.md
+                    - name: 8 de marzo de 2021
+                      href: hr-whats-new-2021-03-08.md
+                    - name: 22 de febrero de 2021
+                      href: hr-whats-new-2021-02-22.md
+                    - name: 28 de enero de 2021
+                      href: hr-whats-new-2021-01-28.md
+                    - name: 21 de enero de 2021
+                      href: hr-whats-new-2021-01-21.md
+        - name: Comenzar
+          items:
             - name: Información general
               href: hr-admin-overview.md
             - name: Requisitos del sistema

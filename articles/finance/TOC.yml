@@ -32,7 +32,7 @@
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
             - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
-        - name: Introducción
+        - name: Comenzar
           items:
             - name: Descripción del servicio
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
@@ -1528,6 +1528,10 @@
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: Informes de Dinamarca
+                          items:
+                            - name: Declaración de IVA
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: Informes de Francia
                           items:
                             - name: Declaración de IVA
@@ -2344,6 +2348,8 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Lista de ventas de la UE
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: Declaración de IVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Hungría
               items:
                 - name: Información general para Hungría
@@ -3566,7 +3572,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Dimensiones de subsidiaria fiscal
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Informe de IVA diferido
+                - name: Informes de IVA
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: Retención de impuestos
                   href: localizations/apac-tha-withholding-tax.md
@@ -4285,6 +4291,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Depurar orígenes de datos
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: Configurar modelos de datos
+                  items:
+                    - name: Admitir llamadas parametrizadas de modelos de datos ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar asignaciones de modelos
                   items:
                     - name: Configurar asignaciones de modelos de informes electrónicos dependientes del contexto del país
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar destinos dependientes de la acción
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar destinos de informes electrónicos específicos de registros de gestión de impresión
+                    - name: Configurar destinos específicos de registros de gestión de impresión
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Diseñar una nueva solución de informes electrónicos para imprimir etiquetas ZPL
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar una referencia a un formato de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Validar automáticamente los informes generados

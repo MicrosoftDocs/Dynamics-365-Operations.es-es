@@ -32,7 +32,7 @@
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
             - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Introducción
+        - name: Comenzar
           items:
             - name: Descripción del servicio
               href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
@@ -747,13 +747,37 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Informe de almacenamiento de comparación de precios de artículos
                   href: cost-management/compare-item-price.md
+            - name: Metodologías de gestión de costes
+              items:
+                - name: Media móvil del precio de coste
+                  href: cost-management/running-average-cost-price.md
+                - name: Seguimiento de la media móvil del coste por dimensión de inventario
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO con valor físico y marcado
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Fecha LIFO con valor físico y marcado
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO con valor físico y marcado
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Media ponderada con valor físico y marcado
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Fecha de media ponderada con valor físico y marcado
+                  href: cost-management/weighted-average-date.md
+                - name: Media móvil
+                  href: cost-management/moving-average.md
+                - name: Media móvil de secuencia de costes de reserva
+                  href: cost-management/moving-average-fallback.md
             - name: Contabilidad de inventario
               items:
+                - name: Actualizaciones físicas y financieras
+                  href: cost-management/physical-financial-updates.md
+                - name: Incluir valor físico
+                  href: cost-management/include-physical-value.md
                 - name: Objetos de coste
                   href: cost-management/cost-object.md
                 - name: Ver saldo de objeto de coste
                   href: cost-management/tasks/view-cost-object-balance.md
-                - name: Ver el extracto de inventario y KPI por el objeto de coste
+                - name: Ver el extracto de inventario y el KPI por el objeto de coste
                   href: cost-management/tasks/view-inventory-statement-kpi-cost-object.md
                 - name: Entradas de costes
                   href: cost-management/cost-entries.md
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Grupos de coste
                   href: cost-management/cost-groups.md
-                - name: FIFO con valor físico y marcado
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Incluir valor físico en coste
-                  href: cost-management/include-physical-value.md
                 - name: Valores de objeto de inventario
                   href: cost-management/physical-quantity.md
-                - name: Fecha LIFO con valor físico y marcado
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO con valor físico y marcado
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Media móvil
-                  href: cost-management/moving-average.md
-                - name: Secuencia de costes de reserva de media móvil
-                  href: cost-management/moving-average-fallback.md
-                - name: Actualizaciones físicas y financieras
-                  href: cost-management/physical-financial-updates.md
-                - name: Ejecución del precio de coste promedio móvil
-                  href: cost-management/running-average-cost-price.md
-                - name: Seguimiento del coste promedio móvil por dimensión de inventario
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Fecha media ponderada
-                  href: cost-management/weighted-average-date.md
-                - name: Media ponderada con valor físico y marcado
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Cierre de inventario
                   href: cost-management/inventory-close.md
                 - name: Ajuste de valores de coste de inventario disponible
@@ -1431,6 +1433,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Depurar orígenes de datos
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurar modelos de datos
+                  items:
+                    - name: Admitir llamadas parametrizadas de modelos de datos ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar asignaciones de modelos
                   items:
                     - name: Configurar asignaciones de modelos de informes electrónicos dependientes del contexto del país
@@ -1683,11 +1689,11 @@
               items:
                 - name: Cierre de inventario
                   href: cost-management/inventory-close.md
-                - name: Ejecución del precio de coste promedio móvil
+                - name: Media móvil del precio de coste
                   href: cost-management/running-average-cost-price.md
                 - name: Ajuste del valor de coste de inventario disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Seguimiento del coste promedio móvil por dimensión de inventario
+                - name: Seguimiento de la media móvil del coste por dimensión de inventario
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Transacciones de inventario de archivos
               href: inventory/archive-inventory-transactions.md
@@ -3855,7 +3861,9 @@
               items:
                 - name: Warehouse mobile app
                   items:
-                    - name: No se encontró el ancla de confianza para la ruta de certificación al configurar la conexión de la aplicación
+                    - name: Diferencia inesperada entre la solicitud y los datos de la sesión durante la prueba
+                      href: troubleshooting/warehousing/request-session-data-difference.md
+                    - name: No se ha encontrado el anclaje de confianza para la ruta de certificación al configurar la conexión de la aplicación
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: No se encontró el ancla de confianza para la ruta de certificación al configurar y migrar a WMS
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md

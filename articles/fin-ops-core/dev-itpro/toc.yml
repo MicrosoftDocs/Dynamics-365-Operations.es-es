@@ -238,10 +238,12 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Instalar el complemento Exportar a Azure Data Lake
               href: data-entities/configure-export-data-lake.md
-            - name: aplicaciones de finanzas y operaciones en Azure Data Lake
+            - name: Aplicaciones de finanzas y operaciones en Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
-            - name: Hacer que un almacén de entidades esté disponible como un Data Lake
+            - name: Hacer que un almacén de entidades esté disponible como Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Eventos de negocio generados por el servicio Exportar a Azure Data Lake (versión preliminar)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Cambiar datos en Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operaciones de movimientos de base de datos
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Filtrar pedidos de empresas vinculadas para evitar la sincronización de pedidos y líneas de pedido
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Desinstalar soluciones de orquestación de aplicaciones de escritura dual
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Gestión de doble escritura
                   items:
                     - name: Personalizar asignaciones de entidad y campo
@@ -1248,7 +1252,7 @@
           items:
             - name: Recursos de plataforma móvil
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Introducción
+            - name: Comenzar
               items:
                 - name: Introducción a la plataforma móvil
                   href: mobile-apps/platform/mobile-platform-getting-started.md
