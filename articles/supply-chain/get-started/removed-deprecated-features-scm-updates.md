@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720429"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396534"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
 
@@ -52,7 +52,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | A partir de abril de 2021, *Dynamics 365 for Finance and Operations - Almacenamiento* (la aplicación de almacén) está obsoleta y no se admitirá después de abril de 2022. Ahora es reemplazado por la *Aplicación móvil Warehouse Management*, que se lanzó con la versión 10.0.17 de Supply Chain Management. La nueva aplicación es un reemplazo completo, pero utiliza el mismo marco subyacente, lo que facilita la migración. Si es necesario, las dos aplicaciones se pueden usar una al lado de la otra para ayudar a los usuarios a adaptarse gradualmente a medida que aprenden a usar la nueva aplicación.<br><br>Para más información sobre la nueva aplicación móvil Warehouse Management, consulte [Aplicación móvil Warehouse Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instalar y conectar la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motivo de la depreciación/eliminación** | A partir de abril de 2021, *Dynamics 365 for Finance and Operations - Warehousing* (la aplicación de almacén) está obsoleta y no se admitirá después de abril de 2022. Ahora es reemplazado por la *Aplicación móvil Warehouse Management*, que se lanzó con la versión 10.0.17 de Supply Chain Management. La nueva aplicación es un reemplazo completo, pero utiliza el mismo marco subyacente, lo que facilita la migración. Si es necesario, las dos aplicaciones se pueden usar una al lado de la otra para ayudar a los usuarios a adaptarse gradualmente a medida que aprenden a usar la nueva aplicación.<br><br>Para más información sobre la nueva aplicación móvil Warehouse Management, consulte [Aplicación móvil Warehouse Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instalar y conectar la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md). |
 | **¿Reemplazado por otra característica?**   | Sí, reemplazada por la nueva aplicación móvil Warehouse Management. |
 | **Áreas de producto afectadas**         | Supply Chain Management: aplicación de almacén |
 | **Opción de implementación**              | Nube y local |
@@ -78,7 +78,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí, la optimización de la planificación reemplazará al motor de planificación maestro de Supply Chain Management integrado. |
 | **Áreas de producto afectadas**         | Supply Chain Management: planificación maestra |
 | **Opción de implementación**              | Solo en la nube. Optimización de planificación no se admite en implementaciones locales. |
-| **Estado**                         | En desuso. El 1 de abril de 2022, los escenarios de fabricación ya no serán compatibles con lel motor de planificación maestra de Dynamics 365 Supply Chain Management integrado. Para escenarios de fabricación, los clientes deben usar Optimización de planificación para los cálculos de planificación maestra. Para obtener más información, consulte la [documentación de Optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md). Los clientes con implementaciones locales de Dynamics 365 Supply Chain Management pueden continuar usando el motor de planificación maestra de Supply Chain Management para escenarios de fabricación después de abril de 2022. Sin embargo, no se proporcionarán más mejoras de funciones. |
+| **Estado**                         | En desuso. El 1 de abril de 2022, los escenarios de fabricación ya no serán compatibles con el motor de planificación maestra de Supply Chain Management integrado. A partir de esa fecha, Microsoft detendrá todo el desarrollo activo en escenarios de fabricación para el motor de planificación integrado, no lanzará ninguna característica nueva y solo lanzará correcciones de errores críticos. Después de esa fecha, todas las empresas que requieran soporte para escenarios de fabricación deben utilizar la Optimización de la planificación para sus cálculos de planificación maestra. Se espera que la Optimización de la planificación sea totalmente compatible con los escenarios de fabricación para octubre de 2022. Para obtener más información, consulte la [documentación de Optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Las compañías con implementaciones locales de Supply Chain Management pueden continuar usando el motor de planificación maestra integrado para escenarios de fabricación después de abril de 2022. Sin embargo, no se proporcionarán más mejoras de funciones. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Funciones quitadas o en desuso en la versión 10.0.11 de Supply Chain Management
 

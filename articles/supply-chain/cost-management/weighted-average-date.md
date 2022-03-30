@@ -1,198 +1,303 @@
 ---
-title: Fecha de media ponderada
+title: Fecha de media ponderada con valor físico y marcado incluido
 description: La fecha de media ponderada es un modelo de inventario basado en el principio de media ponderada, según el cual las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en inventario para cada día diferente en el período de cierre de inventario.
 author: AndersGirke
-ms.date: 10/25/2017
+ms.date: 03/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
-ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
+ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572034"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392010"
 ---
-# <a name="weighted-average-date"></a>Fecha de media ponderada
+# <a name="weighted-average-date-with-include-physical-value-and-marking"></a>Fecha de media ponderada con valor físico y marcado incluido
 
 [!include [banner](../includes/banner.md)]
 
-La fecha de media ponderada es un modelo de inventario basado en el principio de medias ponderadas. En el principio de medias ponderadas, las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en el inventario para cada día del período de cierre de inventario. 
+La *fecha de promedio ponderado* es un modelo de inventario basado en un promedio que se calcula multiplicando cada componente (transacción de artículos) por un factor (precio de costo) que refleja su importancia (cantidad) en cada día del periodo. En otras palabras, es un modelo de inventario que asigna el costo de las transacciones de emisión en función del valor medio de todo el inventario recibido cada día, más cualquier inventario disponible del día anterior.
 
-Cuando se ejecuta un cierre de inventario con la fecha de media ponderada, todas las recepciones de un día se liquidan contra una emisión virtual. Esta emisión virtual mantiene la cantidad recibida total y el valor para dicho día. La emisión virtual tiene una recepción virtual correspondiente a partir de la cual se liquidarán las emisiones. Así pues, todas las emisiones reciben el mismo coste medio. La emisión y la recepción virtual pueden verse como una transferencia virtual llamada *transferencia de cierre de inventario de media ponderada*. 
+Cuando ejecuta un cierre de inventario utilizando el modelo de inventario de fecha de promedio ponderado, hay dos métodos de crear una liquidación. Normalmente, todas las recepciones se liquidan contra una emisión virtual, que mantiene la cantidad recibida total y el valor. Esta emisión virtual tiene una recepción virtual correspondiente a partir de la cual se liquidan las emisiones. De este modo, todas las emisiones obtienen el mismo coste medio cada día. La emisión virtual y el recibo virtual pueden considerarse una transferencia virtual. Esta transferencia virtual se conoce como *transferencia de cierre de inventario promedio ponderado*. Por lo tanto, este método de liquidación se denomina *liquidación resumida media ponderada*. Si solo existe una recepción, todas las emisiones se pueden liquidar a partir de ella y no se creará la transferencia virtual. Este método de liquidación se conoce como *liquidación directa*. Cualquier inventario que esté disponible después de realizar el cierre del inventario se valora al promedio ponderado del último día anterior y se incluye en el cálculo de fecha de promedio ponderado en el período siguiente.
 
-Si solo ha tenido lugar una recepción hasta la fecha, no es necesario valorar la media. Dado que todas las emisiones se liquidan a partir de esa recepción, no se creará la transferencia virtual. Del mismo modo, si solo tienen lugar emisiones en la fecha, no hay recepciones a partir de las cuales valorar la media, por lo que tampoco se creará la transferencia virtual. Al usar la fecha de media ponderada, puede marcar las transacciones de inventario de modo que se liquide una recepción de artículo específica con una emisión específica. En este caso, no utilizará la regla de fecha de media ponderada. Recomendamos un cierre de inventario mensual si se utiliza el modelo de inventario de fecha de media ponderada. 
+Puede reemplazar el principio de fecha de media ponderada marcando las transacciones de inventario de modo que se liquide una recepción de artículo específica con una emisión específica. Se requiere un cierre de inventario periódico cuando utiliza el modelo de inventario de fecha media ponderada para crear liquidaciones y ajustar el valor de las emisiones de acuerdo con el principio de fecha de media ponderada. Hasta que ejecute el cierre de inventario, las transacciones de emisión se valoran en el promedio móvil cuando ocurrieron las actualizaciones físicas y financieras. A menos que esté utilizando el marcado, el promedio móvil se calcula cuando se realiza la actualización física o financiera.
 
-La fórmula siguiente se usa para calcular el método de gestión de costes de fecha media ponderada: 
+El método de gestión de costes de inventario de fecha de media ponderada se calcula mediante la fórmula siguiente cada día:
 
-Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+*Costo* = \[(*Q*<sub>*b*</sub> × *P*<sub>*b*</sub>) + &#x2211;<sub>*n*</sub>(*Q*<sub>*n*</sub> × *P*<sub>*n*</sub>)\] ÷ (*Q*<sub>*b*</sub> + &#x2211;<sub>*n*</sub>*Q*<sub>*n*</sub>)
 
-Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre, tal y como se muestra en la ilustración siguiente. 
+- *Q* = cantidad de la transacción
+- *P* = precio de la transacción
 
-![Modelo de cálculo diario de fecha de media ponderada.](./media/weightedaveragedatedailycalculationmodel.gif) 
+En otras palabras, el costo promedio ponderado es igual a la cantidad inicial por el precio inicial, más la suma de cada cantidad recibida por su precio recibido, todo dividido por la cantidad inicial más la suma de las cantidades recibidas.
 
-Las transacciones de inventario que salen del inventario, como los pedidos de ventas, los diarios de inventario y los pedidos de producción, se producen con un precio de coste estimado en la fecha del registro. Este precio de coste estimado recibe también el nombre de precio de coste promedio móvil. En la fecha de cierre del inventario, el sistema analizará las transacciones de inventario de los períodos anteriores, los días anteriores y del día actual. Este análisis se utiliza para determinar cuáles de los siguientes principios de cierre deberán utilizarse:
+Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre.
 
--   Liquidación directa
--   Liquidación resumida
+> [!NOTE]
+> Para obtener más información sobre liquidaciones, consulte [Cierre de inventario](inventory-close.md).
 
-Las liquidaciones son registros del cierre del inventario que ajustan las emisiones con el fin de obtener el valor correcto de la media ponderada en la fecha de cierre. 
+En los ejemplos siguientes se muestra el efecto del uso del método de fecha de media ponderada con cinco configuraciones:
 
-**Nota:** Para obtener más información acerca de las liquidaciones, vea el artículo acerca del cierre de inventario. En los ejemplos siguientes se muestra el efecto del uso del método de media ponderada con cinco configuraciones:
-
--   Liquidación directa de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
--   Liquidación resumida de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
--   Liquidación directa de la fecha de media ponderada cuando se usa la opción **Incluir valor físico en coste**
--   Liquidación resumida de la fecha de media ponderada cuando se usa la opción **Incluir valor físico en coste**
--   Fecha de media ponderada cuando se usa el marcado
+- Liquidación directa de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
+- Liquidación resumida de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
+- Liquidación directa de la fecha de media ponderada cuando se usa la opción **Incluir valor físico en coste**
+- Liquidación resumida de la fecha de media ponderada cuando se usa la opción **Incluir valor físico en coste**
+- Fecha de media ponderada cuando se usa el marcado
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-isnt-used"></a>Liquidación directa de la fecha de media ponderada cuando no se usa la opción Incluir valor físico en coste
-La versión actual utiliza el mismo principio de liquidación directa que se usa para la media ponderada de las versiones anteriores. El sistema efectúa la liquidación directa de las recepciones y las emisiones. El sistema utiliza este principio de liquidación directa en situaciones específicas:
 
--   Se ha registrado una o varias recepciones en el período.
--   Solo se han registrado emisiones en el período y el inventario incluye artículos disponibles de un cierre anterior.
+El principio de liquidación directa crea liquidaciones directamente entre recibos y salidas, sin crear transacciones de inventario adicionales. El sistema utiliza este principio de liquidación directa en las siguientes situaciones:
 
-En el siguiente caso, se ha registrado una recepción y una emisión actualizadas financieramente. Durante el cierre de inventario, el sistema liquidará directamente la recepción contra la emisión, y no será necesario realizar ningún ajuste en el precio de coste de la emisión. 
+- Se ha registrado una o más recepciones en el período.
+- Solo se han registrado emisiones en el período y el inventario incluye artículos disponibles de un cierre anterior.
 
-La ilustración que sigue muestra estas transacciones:
-
--   1a. Recepción del inventario físico actualizado para una cantidad de 5 unidades a un coste de 10,00 dólares USD por unidad.
--   1b. Recepción del inventario financiero actualizado para una cantidad de 5 unidades a un coste de 10,00 dólares USD por unidad.
--   2a. Emisión del inventario físico actualizado para una cantidad de 2 unidades a un coste de 10,00 dólares USD por unidad.
--   2b. Emisión del inventario financiero actualizado para una cantidad de 2 unidades a un coste de 10,00 dólares USD por unidad.
--   3. El cierre de inventario se realiza mediante el método de liquidación directa para liquidar la recepción financiera de inventario a la emisión financiera de inventario.
-
-![Liquidación directa de la fecha de media ponderada sin la opción Incluir valor físico en coste.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
-
-**Clave de la ilustración:**
-
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato *Cantidad*@*Precio unitario*.
--   Los valores de transacciones de inventarios entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Si los valores de transacciones de inventarios no van incluidos entre paréntesis es que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas con rayas que van en sentido diagonal desde las recepciones a las emisiones.
-
-## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Liquidación resumida de la fecha de media ponderada cuando no se usa la opción Incluir valor físico en coste
-La media ponderada se basa en el principio de que todas las recepciones dentro de un período de cierre se resumen en una nueva transacción de transferencia de inventario. Esta transacción se denomina *cierre de inventario de media ponderada*. Todas las recepciones efectuadas en un día se liquidan contra las emisiones de las nuevas transacciones de transferencias del inventario. Todas las emisiones efectuadas en un día se liquidan contra las recepciones de las nuevas transacciones de transferencias del inventario. Si el inventario disponible es positivo tras el cierre de inventario, se muestra un resumen de dicho inventario disponible y el valor del inventario en la nueva transacción de transferencia de inventario (recepción). Si el inventario disponible es negativo tras el cierre de inventario, el inventario disponible y el valor del inventario son la suma de las emisiones individuales que no se han liquidado totalmente. 
-
-En el caso siguiente, se han registrado varias recepciones y emisiones actualizadas financieramente durante el período. Durante el cierre de inventario, el sistema evaluará cada día para determinar cómo debe tratarse cada día durante el cierre. 
-
-La ilustración que sigue muestra estas transacciones: 
+En este ejemplo, la casilla de verificación **Incluir valor físico** está desactivada en la página **Grupo de modelo de artículo** para el producto emitido. En el diagrama siguiente se muestran estas transacciones:
 
 **Día 1:**
 
--   1a. Recepción del inventario físico actualizado para una cantidad de 3 unidades a un coste de 15,00 dólares USD por unidad.
--   1b. Recepción del inventario financiero actualizado para una cantidad de 3 unidades a un coste de 15,00 dólares USD por unidad.
--   2a. Emisión del inventario físico actualizado de una cantidad de 1 unidad a un coste promedio móvil de 15,00 dólares USD por unidad.
--   2b. Emisión del inventario financiero de una cantidad de 1 unidad a un coste promedio móvil de 15,00 dólares USD por unidad.
-
-El sistema utilizará el método de liquidación directa para el día 1. 
+- 1a. Recepción del inventario físico de una cantidad de 10 unidad a un coste de 10,00 dólares USD por unidad.
+- 1b. Recepción del inventario financiero de una cantidad de 10 unidad a un coste de 10,00 dólares USD por unidad.
+- 2a. Recepción del inventario físico de una cantidad de 10 unidad a un coste de 20,00 dólares USD por unidad.
+- 3a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 10,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+- 3b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 10,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
 
 **Día 2:**
 
--   3a. Emisión del inventario físico para una cantidad de 1 unidad a un coste promedio móvil de 15,00 dólares USD por unidad.
--   3b. Emisión financiera de inventario para una cantidad de 1 a un coste de promedio móvil de 15.00 dólares
-
-El sistema utilizará el método de liquidación directa para el día 2. 
+- 4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 25,00 dólares USD por unidad.
+- 5a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 5b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 6a. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de 20,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
 
 **Día 3:**
 
--   4a. Emisión del inventario físico para una cantidad de 1 unidad a un coste promedio móvil de 15,00 dólares USD por unidad.
--   4b. Emisión financiera de inventario para una cantidad de 1 a un coste de promedio móvil de 15.00 dólares
--   5a. Recepción del inventario físico para una cantidad de 1 unidad a un coste de 17,00 dólares USD por unidad.
--   5b. Recepción del inventario financiero para una cantidad de 1 unidad a un coste de 17,00 dólares USD por unidad.
+- 7\. Se efectúa el cierre de inventario. Basado en el método de fecha de promedio ponderado, el sistema utiliza el método de liquidación directa para el 30 de diciembre (30/12) porque solo se actualiza financieramente un recibo el 30/12. En este ejemplo, se crea un asentamiento entre las transacciones 1b y 3b. Se realiza un ajuste de USD 10,00 para llevar el valor de la transacción 3b hasta 20,00. No se realiza ningún ajuste o liquidación al 31 de diciembre (31/12) porque no hay emisiones actualizadas financieramente al 31/12.
 
-Se efectúa el cierre de inventario. Será necesario utilizar la liquidación directa, ya que se registran varias recepciones que atraviesan días diferentes.
+En el diagrama siguiente se muestra esta serie de transacciones y los efectos que resultan de usar el modelo de inventario de media ponderada y el principio de liquidación directa sin la opción **Incluir valor físico** en coste.
 
--   7a. Se crea una emisión financiera para la transacción de cierre de inventario de media ponderada para una cantidad de 2 unidades por un coste de 32,00 dólares USD para resumir las liquidaciones de todas las recepciones financieras de inventario hasta la fecha que no se han cerrado.
--   7b. Se crea una recepción del inventario financiero para la transacción de cierre de inventario de media ponderada como contrapartida de 7a.
+![Liquidación directa de la fecha de media ponderada sin la opción Incluir valor físico en coste.](media/weighted-average-date-direct-settlement-without-include-physical-value.png)
 
-El sistema genera y registra la transacción de transferencia de inventario resumida. Además, el sistema liquida todas las recepciones del día y el inventario disponible de los días anteriores contra la transacción resumida de emisión de transferencia de inventario. Todas las emisiones efectuadas en el día se liquidan con la transacción de recepción de transferencia de inventario resumida. Se calcula el precio de coste de media ponderada con un valor de 16,00 dólares USD por unidad. Se realiza un ajuste en la emisión de 1,00 dólar USD con el fin de ajustar el coste de media ponderada. El nuevo precio de coste promedio móvil es de 16,00 dólares USD. 
+**Clave del diagrama:**
 
-En la ilustración siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación resumida pero sin usar la opción **Incluir valor físico en coste**. 
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las transacciones físicas están representadas por flechas grises claras más cortas.
+- Las transacciones financieras están representadas por flechas negras más largas.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima del eje.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo del eje.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Las fechas están separadas por finas líneas negras verticales. Las fechas se anotan en la parte inferior del diagrama.
+- Los cierres de inventario se representan por medio de líneas rojas verticales discontinuas.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
-![Liquidación resumida de la fecha de media ponderada sin la opción Incluir valor físico en coste.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Liquidación resumida de la fecha de media ponderada cuando no se usa la opción Incluir valor físico en coste
 
-**Clave de la ilustración**
+Cuando hay varios recibos en un período, la fecha de media ponderada utiliza el principio de liquidación de que todas las recepciones dentro de un día único se resumen en una transacción denominada *cierre de inventario de media ponderada*. Todas las recepciones del día se liquidarán con la emisión de la transacción de inventario recién creada. Todas las emisiones del día se liquidarán contra la recepción de la nueva transacción de inventario. Si hay un valor restante de inventario disponible tras el cierre del inventario, el valor del inventario disponible se incluye en el recibo de la transacción de las transacciones de cierre de inventario de media ponderada.
 
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato *Cantidad*@*Precio unitario*.
--   Los valores de transacciones de inventarios entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Si los valores de transacciones de inventarios no van incluidos entre paréntesis es que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas con rayas que van en sentido diagonal desde las recepciones a las emisiones.
--   Las flechas rojas diagonales muestran las transacciones de recepción que se liquidan con las transacciones de emisión creadas por el sistema.
--   La flecha verde diagonal representa la transacción de recepción de compensación generada por el sistema con la que se liquida la transacción de emisión registrada inicialmente.
+En el diagrama siguiente se muestran estas transacciones:
+
+**Día 1:**
+
+- 1a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 1b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 2a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 20,00 dólares USD por unidad.
+- 2b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 22,00 dólares USD por unidad.
+- 3a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+- 3b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+
+**Día 2:**
+
+- 4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 25,00 dólares USD por unidad.
+- 5a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 5b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 6a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 23,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+
+**Día 3:**
+
+- 7\. Se efectúa el cierre de inventario.
+- 7a. Se crea una emisión financiera Transacción de cierre de inventario de media ponderada para realizar la suma de las liquidaciones de todas las recepciones financieras de inventario.
+
+    - La transacción 1b se liquida por una cantidad de 1 con una cantidad liquidada de USD 10,00.
+    - La transacción 2b se liquida por una cantidad de 1 con una cantidad liquidada de USD 22,00.
+    - La transacción 7a se liquida por una cantidad de 2 con una cantidad liquidada de USD 32,00. Esta transacción compensa la suma de las dos transacciones de recibo que se actualizan financieramente en el período.
+
+- 7b. Se crea una recepción del inventario financiero para la transacción de cierre de inventario de media ponderada como contrapartida de las operaciones financieras cerradas.
+
+    - La transacción 3b se liquida por una cantidad de 1 con una cantidad liquidada de USD 16,00. Esta transacción no se ajusta porque es el promedio ponderado de las transacciones registradas financieramente el 1 de diciembre (12/1).
+    - La transacción 7b se crea para una cantidad de 2 con un monto financiero de USD 32,00 y un monto liquidado de USD 16,00 para compensar la transacción 3b. Esta transacción compensa la suma de la transacción de recibo que se actualiza financieramente en el período. La transacción permanece abierta porque todavía hay uno disponible.
+
+En el diagrama siguiente se muestra esta serie de transacciones con los efectos que resultan de elegir el modelo de inventario de media ponderada y el principio de liquidación resumida pero sin usar la opción **Incluir valor físico en coste**.
+
+![Liquidación resumida de la fecha de media ponderada sin la opción Incluir valor físico en coste.](media/weighted-average-date-summarized-settlement-without-include-physical-value.png)
+
+**Clave del diagrama:**
+
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las transacciones físicas están representadas por flechas grises claras más cortas.
+- Las transacciones financieras están representadas por flechas negras más largas.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima del eje.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo del eje.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Las fechas están separadas por finas líneas negras verticales. Las fechas se anotan en la parte inferior del diagrama.
+- Los cierres de inventario se representan por medio de líneas rojas verticales discontinuas.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 ## <a name="weighted-average-date-direct-settlement-when-the-include-physical-value-option-is-used"></a>Liquidación directa de la fecha de media ponderada cuando se usa la opción Incluir valor físico en coste
-La versión actual usa el mismo principio de liquidación directa para fecha de media ponderada que se utilizaba en versiones anteriores. El sistema efectúa la liquidación directa de las recepciones y las emisiones. El sistema utiliza este principio de liquidación directa en situaciones específicas:
 
--   Se ha registrado una o varias recepciones en el período.
--   Solo se han registrado emisiones en el período y el inventario contiene artículos disponibles de un cierre anterior.
+En la versión actual del producto, la opción **Incluir valor físico en coste** funciona de manera diferente con el modelo de inventario de fecha de media ponderada que funcionaba en las versiones anteriores. Cuando selecciona la casilla **Incluir valor físico en coste** para un artículo en la página **Grupo de modelos de artículo**, el sistema utiliza las recepciones actualizadas físicamente al calcular el precio de coste estimado o el promedio móvil. Las emisiones se registrarán con el precio de coste estimado durante el período. Durante el cierre de inventario, solo se tendrán en cuenta para el cálculo de la media ponderada las transacciones de recepción actualizadas financieramente.
 
-Si selecciona la casilla **Incluir valor físico en coste** para un artículo en la página **Grupo de modelos de artículo**, el sistema utiliza las recepciones actualizadas físicamente al calcular el precio de coste estimado o el promedio móvil. Las emisiones se registran según el precio de coste estimado durante el período. Durante el cierre de inventario, solo se tendrán en cuenta para el cálculo de la media ponderada las transacciones de recepción actualizadas financieramente.
+En el diagrama siguiente se muestran estas transacciones:
+
+**Día 1:**
+
+- 1a. Recepción del inventario físico de una cantidad de 10 unidad a un coste de 10,00 dólares USD por unidad.
+- 1b. Recepción del inventario financiero de una cantidad de 10 unidad a un coste de 10,00 dólares USD por unidad.
+- 2a. Recepción del inventario físico de una cantidad de 10 unidad a un coste de 20,00 dólares USD por unidad.
+- 3a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 15,00 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+- 3b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 15,00 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+
+**Día 2:**
+
+- 4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 25,00 dólares USD por unidad.
+- 5a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 5b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de 21,25 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+
+**Día 3:**
+
+- 7\. Se efectúa el cierre de inventario. Basado en el método de fecha de promedio ponderado, el sistema utiliza el método de liquidación directa para el 30 de diciembre (30/12) porque solo se actualiza financieramente un recibo el 30/12. En este ejemplo, se crea un asentamiento entre las transacciones 1b y 3b. No se hace ningún ajuste a la emisión el 30/12. Además, no se realiza ningún ajuste o liquidación al 31 de diciembre (31/12) porque no hay emisiones actualizadas financieramente al 31/12.
+
+En el diagrama siguiente se muestra esta serie de transacciones y los efectos que resultan de usar el modelo de inventario de media ponderada y el principio de liquidación directa con la opción **Incluir valor físico** en coste.
+
+![Liquidación directa de media ponderada con la opción Incluir valor físico en coste.](media/weighted-average-date-direct-settlement-with-include-physical-value.png)
+
+**Clave del diagrama:**
+
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las transacciones físicas están representadas por flechas grises claras más cortas.
+- Las transacciones financieras están representadas por flechas negras más largas.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima del eje.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo del eje.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Las fechas están separadas por finas líneas negras verticales. Las fechas se anotan en la parte inferior del diagrama.
+- Los cierres de inventario se representan por medio de líneas rojas verticales discontinuas.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 ## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-is-used"></a>Liquidación resumida de la fecha de media ponderada cuando se usa la opción Incluir valor físico en coste
-Si selecciona la casilla **Incluir valor físico en coste** para un artículo en la página **Grupo de modelos de artículo**, el sistema utiliza las recepciones actualizadas físicamente al calcular el precio de coste estimado o el promedio móvil. Las emisiones se registran según el precio de coste estimado durante el período. Durante el cierre de inventario, solo se tendrán en cuenta para el cálculo de la media ponderada las transacciones de recepción actualizadas financieramente. La liquidación de media ponderada se basa en el principio de que las recepciones dentro de un período de cierre se resumen en una nueva transacción de transferencia de inventario denominada *cierre de inventario de media ponderada*. Todas las recepciones efectuadas en un día se liquidan contra las emisiones de las nuevas transacciones de transferencias del inventario. Todas las emisiones efectuadas en un día se liquidan contra las recepciones de las nuevas transacciones de transferencias del inventario. Si el inventario disponible es positivo tras el cierre de inventario, se muestra un resumen de dicho inventario disponible y el valor del inventario en la nueva transacción de transferencia de inventario (recepción). Si el inventario disponible es negativo tras el cierre de inventario, el inventario disponible y el valor del inventario son la suma de las emisiones individuales que no se han liquidado totalmente.
+
+En la versión actual del producto, la opción **Incluir valor físico en coste** funciona de manera diferente con el modelo de inventario de media ponderada que funcionaba en las versiones anteriores. Cuando selecciona la casilla **Incluir valor físico en coste** para un artículo en la página **Grupo de modelos de artículo**, el sistema utiliza las recepciones actualizadas físicamente al calcular el precio de coste estimado o el promedio móvil. Las emisiones se registrarán con el precio de coste estimado durante el período. Durante el cierre de inventario, solo se tendrán en cuenta para el cálculo de la media ponderada las transacciones de recepción actualizadas financieramente. Es recomendable que realice un cierre de inventario mensual cuando se usa el modelo de inventario de media ponderada. En este ejemplo de liquidación resumida de fecha de media ponderada, el modelo de inventario está marcado para incluir el valor físico en coste.
+
+En el diagrama siguiente se muestran estas transacciones:
+
+**Día 1:**
+
+- 1a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 1b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 2a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 20,00 dólares USD por unidad.
+- 2b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 22,00 dólares USD por unidad.
+- 3a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+- 3b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+
+**Día 2:**
+
+- 4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 25,00 dólares USD por unidad.
+- 5a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 5b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 23,67 dólares USD por unidad (promedio móvil de transacciones registradas física y financieramente).
+
+**Día 3:**
+
+- 7\. Se efectúa el cierre de inventario.
+- 7a. Se crea una emisión financiera Transacción de cierre de inventario de media ponderada para realizar la suma de las liquidaciones de todas las recepciones financieras de inventario.
+
+    - La transacción 1b se liquida por una cantidad de 1 con una cantidad liquidada de USD 10,00.
+    - La transacción 2b se liquida por una cantidad de 1 con una cantidad liquidada de USD 22,00.
+    - La transacción 7a se liquida por una cantidad de 2 con una cantidad liquidada de USD 32,00. Esta transacción compensa la suma de las dos transacciones de recibo que se actualizan financieramente en el período.
+
+- 7b. Se crea una recepción del inventario financiero para la transacción de cierre de inventario de media ponderada como contrapartida de las operaciones financieras cerradas.
+
+    - La transacción 3b se liquida por una cantidad de 1 con una cantidad liquidada de USD 16,00. Esta transacción no se ajusta porque es el promedio ponderado de las transacciones registradas financieramente el 1 de diciembre (12/1).
+    - La transacción 7b se crea para una cantidad de 2 con un monto financiero de USD 32,00 y un monto liquidado de USD 16,00 para compensar la transacción 3b. Esta transacción compensa la suma de la transacción de recibo que se actualiza financieramente en el período. La transacción permanece abierta porque todavía hay uno disponible.
+
+En el diagrama siguiente se muestra esta serie de transacciones y los efectos que resultan de usar el modelo de inventario de media ponderada y el principio de liquidación resumida sin la opción **Incluir valor físico** en coste.
+
+![Liquidación resumida de media ponderada con Incluir valor físico en coste.](media/weighted-average-date-summarized-settlement-with-include-physical-value.png)
+
+**Clave del diagrama:**
+
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las transacciones físicas están representadas por flechas grises claras más cortas.
+- Las transacciones financieras están representadas por flechas negras más largas.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima del eje.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo del eje.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Las fechas están separadas por finas líneas negras verticales. Las fechas se anotan en la parte inferior del diagrama.
+- Los cierres de inventario se representan por medio de líneas rojas verticales discontinuas.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 ## <a name="weighted-average-date-when-marking-is-used"></a>Fecha de media ponderada cuando se usa el marcado
-La marcación es un proceso que permite vincular una transacción de emisión con una transacción de recepción. La marcación se puede efectuar con anterioridad o con posterioridad al registro de una transacción. Puede utilizar la marcación cuando desee asegurarse del coste exacto del inventario cuando se registra una transacción o cuando se efectúa el cierre de inventario. 
 
-Por ejemplo, supongamos que el Departamento de Atención al Cliente ha aceptado un pedido urgente de un cliente importante. Al tratarse de un pedido urgente, tendrá que pagar más por el artículo para poder atender a la solicitud del cliente. Debe asegurarse de que el coste del artículo de inventario correspondiente queda reflejado en el margen, o coste de mercancías vendidas (COGS), de la factura de este pedido de ventas. Cuando se registra el pedido de compra, se anota la recepción en el inventario con un coste de 120,00 dólares USD. El documento de pedido de ventas se marca con el pedido de compra antes de registrar el albarán o la factura. El coste de mercancías vendidas (COGS) será de 120,00 USD en lugar del coste promedio móvil actual para el artículo. Si el albarán o la factura del pedido de ventas se registra antes de que se realice la marcación, el coste de mercancías vendidas (COGS) se registrará con el precio de coste promedio móvil. Antes de que se efectúe el cierre de inventario, puede mantenerse el marcado de las transacciones. Cuando una transacción de recepción se marca con una transacción de emisión, se descarta el método de valoración definido en el grupo de modelos de artículo. En su lugar, el sistema liquida estas transacciones entre sí. 
+La marcación es un proceso que permite vincular, o marcar, una transacción de emisión con una transacción de recepción. La marcación se puede efectuar con anterioridad o con posterioridad al registro de una transacción. Puede utilizar la marcación cuando desee asegurarse del coste exacto del inventario cuando se registra una transacción o cuando se efectúa el cierre de inventario.
 
-Puede marcar una transacción de emisión con una transacción de recepción antes de registrar una transacción. Puede hacerlo desde una línea de pedido de ventas en la página **Detalles del pedido de ventas**. Puede ver las transacciones de recepción abiertas en la página **Marcado**. Puede marcar una transacción de emisión con una transacción de recepción después de registrar una transacción. Puede confrontar o marcar una transacción de emisión para una transacción de recepción abierta para un artículo en inventario desde un diario de ajuste de inventario registrado. La ilustración que sigue muestra estas transacciones:
+Por ejemplo, supongamos que el Departamento de Atención al Cliente ha aceptado un pedido urgente de un cliente importante. Al tratarse de un pedido urgente, tendrá que pagar más por el artículo para poder responder a la solicitud del cliente. Debe asegurarse de que el coste del artículo de inventario correspondiente queda reflejado en el margen, o coste de mercancías vendidas (COGS), de la factura de este pedido de ventas.
 
--   1a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
--   1b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
--   2a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad.
--   2b. Recepción del inventario financiero de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad.
--   3a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 25,00 dólares USD por unidad.
--   4a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 30,00 dólares USD por unidad.
--   4b. Recepción del inventario financiero de una cantidad de 1 unidad con un precio de coste de 30,00 dólares USD por unidad.
--   5a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad (promedio móvil de transacciones actualizadas físicamente y financieramente).
--   5b. La emisión del inventario financiero de una cantidad de 1 unidad se marca con la recepción de inventario 2b antes de registrar la transacción. Esta transacción se registra con un precio de coste de 20,00 dólares USD.
--   6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad.
--   7. Se efectúa el cierre de inventario. Dado que la transacción actualizada financieramente se ha marcado con una recepción existente, estas transacciones se liquidan entre sí y no se realiza ningún ajuste.
+Cuando se registra el pedido de compra, se anota la recepción en el inventario con un coste de 120,00 USD. Si se marca el documento de pedido de ventas con el pedido de compra antes de registrar el albarán o la factura, el coste de mercancías vendidas (COGS) será de 120,00 dólares, en lugar del precio de coste promedio móvil actual del artículo. Si el albarán o la factura del pedido de ventas se registra después de que se realice la marcación, el coste de mercancías vendidas (COGS) se registrará con el precio de coste promedio móvil.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente a 27,50 dólares USD. La ilustración siguiente muestra esta serie de transacciones y los efectos que resultan de usar el inventario de fecha de media ponderada y el marcado.
+Antes de que se efectúe el cierre de inventario, puede mantenerse el marcado de las transacciones.
 
-![Fecha de media ponderada con marcado.](./media/weightedaveragedatewithmarking.gif) 
+Si una transacción de recepción se marca con una transacción de emisión, se descarta el método de valoración seleccionado en el grupo de modelos de artículo y el sistema liquidará estas transacciones entre sí.
 
-**Clave de la ilustración:**
+Puede marcar una transacción de emisión con una transacción de recepción antes de registrar una transacción. Puede hacer este marcado desde una línea de pedido de ventas en la página **Detalles del pedido de ventas**. Las transacciones de recepción abiertas se ven en la página **Marcado**.
 
--   Las transacciones de inventario se representan por medio de flechas verticales.
--   Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
--   Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
--   Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato *Cantidad*@*Precio unitario*.
--   Los valores de transacciones de inventarios entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
--   Si los valores de transacciones de inventarios no van incluidos entre paréntesis es que la transacción de inventario se ha registrado financieramente en el inventario.
--   Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
--   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
--   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
--   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas con rayas que van en sentido diagonal desde las recepciones a las emisiones.
+También puede marcar una transacción de emisión con una transacción de recepción después de registrarla. Puede confrontar o marcar una transacción de emisión para una transacción de recepción abierta para un artículo en inventario desde un diario de ajuste de inventario registrado.
 
+En el diagrama siguiente se muestran estas transacciones:
 
+**Día 1:**
 
+- 1a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 1b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 10,00 dólares USD por unidad.
+- 2a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 20,00 dólares USD por unidad.
+- 2b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 22,00 dólares USD por unidad.
+- 3a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+- 3b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 16,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+- 3c. El problema financiero de inventario para la transacción 3b está marcado como problema financiero de inventario para la transacción 2b.
 
+**Día 2:**
 
+- 4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 25,00 dólares USD por unidad.
+- 5a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 5b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
+- 6a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 23,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente).
+
+**Día 3:**
+
+- 7\. Se efectúa el cierre de inventario. Según el principio de marcado que utiliza el método de media ponderada, las transacciones marcadas se liquidan entre sí. En este ejemplo, la transacción 3b se liquida contra la transacción 2b, y se contabiliza un ajuste para USD 6,00 en la transacción 3b para llevar el valor a USD 22,00. En este ejemplo, no se realizan liquidaciones adicionales porque el cierre crea liquidaciones solo para transacciones actualizadas financieramente.
+
+El diagrama siguiente muestra esta serie de transacciones y los efectos que resultan de usar el inventario de media ponderada y el marcado.
+
+![Media ponderada con marcado.](media/weighted-average-date-with-marking.png)
+
+**Clave del diagrama:**
+
+- Las transacciones de inventario se representan por medio de flechas verticales.
+- Las transacciones físicas están representadas por flechas grises claras más cortas.
+- Las transacciones financieras están representadas por flechas negras más largas.
+- Las recepciones de inventario se representan por medio de flechas verticales por encima del eje.
+- Las emisiones de inventario se representan por medio de flechas verticales por debajo del eje.
+- Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
+- Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
+- Las fechas están separadas por finas líneas negras verticales. Las fechas se anotan en la parte inferior del diagrama.
+- Los cierres de inventario se representan por medio de líneas rojas verticales discontinuas.
+- Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700014"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396508"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferencias entre la planificación maestra incorporada y Optimización de planificación
 
@@ -36,6 +36,7 @@ Los resultados de Optimización de planificación pueden diferir de los resultad
 | Cumplimiento de existencias de seguridad | La Optimización de planificación siempre utiliza la opción *Fecha de hoy + hora de adquisición* para el campo **Cumplir con el mínimo** en la página **Cobertura de artículos**. Esto ayuda a evitar pedidos planificados no deseados y otros problemas porque, si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen con inventario disponible siempre se retrasarán debido al tiempo inicial. |
 | Diagrama de árbol de existencias de seguridad y requisitos netos | El tipo de requisito *Stock de seguridad* no se incluye y no se muestra en la página **Requisitos netos**. El stock de seguridad no representa la demanda y no tiene una fecha de requisito asociada. En cambio, establece una restricción sobre la cantidad de inventario que debe estar presente en todo momento. Sin embargo, el valor de campo **Mínimo** se sigue teniendo en cuenta al calcular las órdenes planificadas durante la planificación maestra. Le sugerimos que inspeccione la columna **Cantidad acumulada** de la página **Requisitos netos** para ver cómo se consideró este valor. |
 | Calendarios de transporte | Se ignora el valor de la columna **Calendario de transporte** de la página **Modos de entrega**. |
+| Código de cobertura mínima/máxima sin valores| Con el motor de planificación integrado, cuando utiliza un código de cobertura mínimo/máximo en el que no se establecen valores mínimos ni máximos, el motor de planificación trata el código de cobertura como un requisito y crea un pedido para cada requisito. Con la optimización de la planificación, el sistema creará un pedido por día para cubrir el monto total de ese día.  |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

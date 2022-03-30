@@ -2,19 +2,19 @@
 title: Actualizar al modelo de parte y libreta de direcciones global
 description: Este tema describe cómo actualizar datos de escritura dual al modelo de libreta de direcciones global y de grupo.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060494"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407804"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Actualizar al modelo de parte y de libreta de direcciones global
 
@@ -151,13 +151,19 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
 ## <a name="run-the-templates"></a>Ejecutar las plantillas
 
-1. Detenga las asignaciones de doble escritura de **Cuenta**, **Contacto** y **Proveedor** a continuación que usan la aplicación Finanzas y Operaciones:
+1. Detenga las asignaciones de doble escritura de **Parte**, **Cuenta**, **Contacto** y **Proveedor** que usan aplicaciones de finanzas y operaciones:
 
+    + Partes de CDS (msdyn_parties) 
     + Clientes V3 (cuentas)
     + Clientes V3 (contactos)
     + Contactos de CDS V2 (contactos)
     + Contactos de CDS V2 (contactos)
     + Proveedor V2 (msdyn_vendors)
+    + Contactos V2 (msdyn_contactforparties)
+    + Ubicaciones de direcciones postales de parte de CDS (msdyn_partypostaladdresses)
+    + Historial de direcciones postales de CDS V2 (msdyn_postaladdresses)
+    + Ubicaciones de direcciones postales de CDS (msdyn_postaladdresscollections)
+    + Contactos de parte V3 (msdyn_partyelectronicaddresses)
 
 2. Asegúrese de que las asignaciones se eliminen de la tabla **msdy_dualwriteruntimeconfig** en Dataverse.
 3. Instale [Soluciones de libreta de direcciones global y de fiesta de escritura dual](https://aka.ms/dual-write-gab) de AppSource.

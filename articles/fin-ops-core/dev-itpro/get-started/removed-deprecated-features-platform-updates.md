@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384729"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396558"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -31,6 +31,18 @@ En este tema se describen las características que se han eliminado, o que está
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Eliminación de funciones a partir del 14 de marzo de 2022
+
+### <a name="xslt-scripting-in-data-management"></a>Secuencias de comandos XSLT en la gestión de datos
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | La compatibilidad con secuencias de comandos XSLT en la gestión de datos está obsoleta para mejorar la seguridad y la protección de datos en las aplicaciones de finanzas y operaciones.  |
+| **¿Reemplazado por otra característica?**   | No Los clientes y los ISV deberían considerar volver a implementar sus soluciones basadas en el lenguaje X++, en lugar de las secuencias de comandos XSLT. |
+| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones. |
+| **Opción de implementación**              | Todos. |
+| **Status**                         | En desuso: la fecha de eliminación planificada es el 14 de marzo de 2022.<br><br>Excepción: Clientes que actualmente usan secuencias de comandos XLST. Pueden seguir usándolo hasta que actualicen a la versión 10.0.30 o posterior. Los clientes con esta excepción han recibido una notificación en el Centro de mensajes disponible en el Centro de administración de Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Eliminación de funciones a partir de octubre de 2021
 

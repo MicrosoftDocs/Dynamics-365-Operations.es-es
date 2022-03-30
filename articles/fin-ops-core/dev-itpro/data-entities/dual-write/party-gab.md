@@ -2,19 +2,19 @@
 title: Libreta de direcciones de partes y global
 description: Este tema describe la funcionalidad de libreta de direcciones de partes y global de escritura dual.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060341"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407774"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -22,7 +22,7 @@ ms.locfileid: "8060341"
 
 
 
-*Libreta de direcciones de partes* y *libreta de direcciones global* son conceptos de aplicaciones de Finance and Operations. Una parte puede ser una persona u organización. Es conveniente almacenar y administrar globalmente las propiedades de una parte, como el nombre, el idioma, los contactos y las direcciones. Luego, cuando el valor de una propiedad se cambie en un lugar, el cambio se refleja en todos los lugares donde está involucrada la parte.
+*Libreta de direcciones de partes* y *libreta de direcciones global* son conceptos de aplicaciones de finanzas y operaciones. Una parte puede ser una persona u organización. Es conveniente almacenar y administrar globalmente las propiedades de una parte, como el nombre, el idioma, los contactos y las direcciones. Luego, cuando el valor de una propiedad se cambie en un lugar, el cambio se refleja en todos los lugares donde está involucrada la parte.
 
 ## <a name="party"></a>Parte
 
@@ -46,7 +46,7 @@ La siguiente ilustración muestra el modelo de datos de parte:
 > [!TIP]
 > Cuando intente crear un nuevo registro de cuenta, utilice el campo **Parte** para buscar el registro por nombre. Así, en caso de que encuentre el registro, solo necesita seleccionarlo. El sistema rellena luego automáticamente todos los datos de la parte. No es necesario introducir manualmente todos los campos obligatorios. Este comportamiento se puede encontrar en las páginas listas para usar de **Cuenta**, **Contacto** y **Proveedor**.
 
-La escritura doble no admite todos los roles de parte de las aplicaciones de Finance and Operations. Para obtener una lista completa de los roles de parte, consulte [Descripción general de la libreta de direcciones global](../../../fin-ops/organization-administration/overview-global-address-book.md).
+La escritura doble no admite todos los roles de parte de las aplicaciones de finanzas y operaciones. Para obtener una lista completa de los roles de parte, consulte [Descripción general de la libreta de direcciones global](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Libreta de direcciones global
 
@@ -75,7 +75,7 @@ La tabla **Contacto** puede almacenar los siguientes tipos de filas.
 |----------|-------------|
 | Una persona que es un cliente (por ejemplo, un contacto al que se puede vender o un cliente B2C) | Un registro de contacto marcado donde el campo **Empresa** no está en blanco y el campo **Es cliente** está configurado en **Sí**. |
 | Una persona que es un proveedor (por ejemplo, un propietario único, como un proveedor) | Un registro de contacto marcado donde el campo **Empresa** no está en blanco y el campo **Es proveedor** está configurado en **Sí**. |
-| Una persona que es tanto un cliente como un proveedor | Un registro de contacto marcado donde el campo **Empresa** no está en blanco, el campo **Es cliente** está configurado en **Sí** y el campo **Es proveedor** está configurado en **Sí**. Una persona puede ser tanto productor de un producto como consumidor de otro. Ambas aplicaciones de Finance and Operations y la escritura dual admiten esta relación. |
+| Una persona que es tanto un cliente como un proveedor | Un registro de contacto marcado donde el campo **Empresa** no está en blanco, el campo **Es cliente** está configurado en **Sí** y el campo **Es proveedor** está configurado en **Sí**. Una persona puede ser tanto productor de un producto como consumidor de otro. Ambas aplicaciones de finanzas y operaciones y la escritura dual admiten esta relación. |
 | Una persona que es la persona de contacto de una organización, pero que no es ni cliente ni proveedor | Un registro de contacto no marcado donde el campo **Empresa** está en blanco, el campo **Es cliente** está configurado en **No** y el campo **Es proveedor** está configurado en **No**. |
 
 ## <a name="contact-for-party-table"></a>Contacto de tabla de partes
@@ -142,7 +142,7 @@ Puede usar el botón **Nueva direccion electrónica** de encima de la cuadrícul
 Las direcciones electrónicas están disponibles solo en esta cuadrícula. En versiones futuras, todos los campos de direcciones electrónicas y postales se eliminarán de otras fichas (por ejemplo, las fichas **Resumen** y **Detalles**). Los datos de contacto que se muestran en la ficha **Detalles** son copias de solo lectura de la dirección electrónica principal, como el teléfono principal, el correo electrónico principal, el teléfono principal, el fax principal y el Id. de Twitter principal. Durante el proceso de calificación de clientes potenciales, puede proporcionar tanto un número de teléfono comercial como un número de teléfono móvil. El número de teléfono comercial se considera el teléfono principal si **IsMobile=No** y el número de teléfono móvil se considera el teléfono secundario si **IsMobile=Yes**.
 
 > [!TIP]
-> Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de Finanzas y operaciones.
+> Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de finanzas y operaciones.
 
 ## <a name="setup"></a>Configurar
 
@@ -226,11 +226,11 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
     ![Regla de duplicados para Contactos.](media/duplicate-rule-2.PNG)
 
-11. Si ya es usuario de escritura dual, siga las instrucciones en [Actualizar al modelo de libreta de direcciones global y de parte](upgrade-party-gab.md) y actualice sus datos.
+11. Si ya es usuario de escritura dual, siga las instrucciones en [Actualizar al modelo de libreta de direcciones global y de parte](upgrade-party-gab.md) y actualice sus datos. **No continúe con el paso 12 sin completar este paso.** Si es un nuevo usuario de doble escritura, vaya al paso 12.
 
-12. Ejecute las asignaciones en el orden siguiente. Si recibe un error que dice "Error en la validación del proyecto. Falta el campo de destino... ", entonces abra el mapa y seleccione **Actualizar tablas**. Luego ejecute la asignación.
+12. Si ya es un usuario de doble escritura, complete el paso 11 y podrá ejecutar los mapas en el siguiente orden. Si es un nuevo cliente de doble escritura, puede proceder directamente. Si recibe un mensaje de error que dice "Error en la validación del proyecto. Falta el campo de destino... ", entonces abra el mapa y seleccione **Actualizar tablas** y después ejecute el mapa.
 
-    Aplicación de Finance and Operations | Aplicación Customer Engagement  
+    Aplicación de finanzas y operaciones | Aplicación Customer Engagement  
     ----------------------------|------------------------
     [Partes de CDS](mapping-reference.md#220) | msdyn_parties
     [Ubicaciones de dirección postal de CDS](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
 Una colección de mapas de tabla funciona conjuntamente para la interacción de partes y la libreta de direcciones global, como se muestra en la tabla siguiente.
 
-| Aplicación de Finance and Operations | Aplicación Customer Engagement | Descripción |
+| Aplicación de finanzas y operaciones | Aplicación Customer Engagement | Description |
 |----------------------------|-------------------------|-------------|
 | [Cargos de persona de contacto](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Clientes V3](mapping-reference.md#101) | cuentas |
@@ -295,10 +295,10 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
-+ En aplicaciones de Finance and Operations, cuando crea un cliente junto con la dirección y lo guarda, es posible que la dirección no se sincronice con la tabla **Direcciones**. Esto se debe a un problema de secuenciación de la plataforma de escritura dual. Como solución alternativa, cree el cliente primero y guárdelo. Luego agregue la dirección.
-+ En aplicaciones de Finance and Operations, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación Finanzas y operaciones se sincronizan con Dataverse junto con su dirección.
++ En aplicaciones de finanzas y operaciones, cuando crea un cliente junto con la dirección y lo guarda, es posible que la dirección no se sincronice con la tabla **Direcciones**. Esto se debe a un problema de secuenciación de la plataforma de escritura dual. Como solución alternativa, cree el cliente primero y guárdelo. Luego agregue la dirección.
++ En aplicaciones de finanzas y operaciones, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación finanzas y operaciones se sincronizan con Dataverse junto con su dirección.
 + Las direcciones electrónicas establecidas en la ficha de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
-+ En aplicaciones de Finance and Operations, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
++ En aplicaciones de finanzas y operaciones, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
 
     ![Problema conocido con Agregar contacto.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Para más información, consulte [Referencia de asignación de escritura doble](
 
     ![Problema conocido con la dirección.](media/party-gab-address-issue.png)
 
-+ No puede introducir una dirección postal con fecha anticipada usando una aplicación de Finanzas y operaciones con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación Finanzas y operaciones, se sincroniza con Dataverse Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de Finance and Operations.
++ No puede introducir una dirección postal con fecha anticipada usando una aplicación de finanzas y operaciones con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación finanzas y operaciones, se sincroniza con Dataverse Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de finanzas y operaciones.

@@ -2,7 +2,7 @@
 title: Información general sobre el reconocimiento de ingresos (contiene vídeo)
 description: Este tema proporciona información acerca de la característica Reconocimiento de ingresos. Esta característica proporciona un marco flexible que permite definir reglas específicas de la empresa para reconocer tanto el precio como la programación de ingresos en pedidos de varios elementos.
 author: kweekley
-ms.date: 11/11/2019
+ms.date: 03/15/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
+ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982596"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "8446187"
 ---
 # <a name="revenue-recognition-overview"></a>Introducción al reconocimiento de ingresos
 
@@ -26,10 +26,7 @@ ms.locfileid: "7982596"
 
 Las empresas de sectores que venden múltiples elementos, como productos, servicios, suscripciones, etc., necesitan poder desglosar pedidos con varios elementos para poder reconocer los ingresos en función de un conjunto de directrices específicas de la empresa y del sector.
 
-> [!NOTE]
-> La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
-
-> Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admite para su uso en los canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los elementos configurados con reconocimiento de ingresos no deben agregarse a pedidos o transacciones creadas en los canales de Commerce.
+Reconocimiento de ingresos, incluida la funcionalidad de agrupación de trabajos, no se admite para su uso en los canales de Commerce (comercio electrónico, PDV, centro de llamadas). Los elementos configurados con reconocimiento de ingresos no deben agregarse a pedidos o transacciones creadas en los canales de Commerce.
 
 En general, el proceso de reconocimiento de ingresos se puede usar para realizar estas tareas:
 

@@ -2,7 +2,7 @@
 title: Crear una factura de cliente
 description: Una factura de cliente para un pedido de ventas es una factura en relación con una venta que una organización da a un cliente.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087432"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392920"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -82,6 +82,9 @@ Vea el estado de los pedidos de ventas en la página de lista **Todos los pedido
 Use este proceso cuando uno o varios pedidos de ventas están listos para su facturación y desea consolidarlos en una única factura. 
 
 Puede seleccionar varias facturas en la página de lista **Pedido de ventas** y, después, usar **Generar facturas** para consolidarlas. En la página **Registro de factura**, puede cambiar la opción **Pedido de resumen** para resumir por el número de pedido (donde hay varios albaranes para un único pedido de ventas) o por cuenta de facturación (donde hay varios pedidos de ventas para una única cuenta de facturación). Use el botón **Organizar** para consolidar pedidos de ventas en facturas únicas, en función de los ajustes de **Pedido de resumen**.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registrar en la cuenta de ingresos para líneas de factura de pedido de ventas que no tienen precio
+Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio. Para configurar o ver esta información, vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio. Se define una cuenta de ingresos en la página del parámetro **Publicación de inventario**, en la pestaña **Pedidos de ventas** de definición de cuenta. Si no se selecciona esta opción, las líneas que no tienen información de precios no se contabilizarán en la cuenta **Ingresos**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Opciones adicionales que modifican el comportamiento de registro
 Los siguientes campos cambian el comportamiento del proceso de registro.

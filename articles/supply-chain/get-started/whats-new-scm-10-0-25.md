@@ -2,7 +2,7 @@
 title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
-ms.date: 02/01/2022
+ms.date: 03/14/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 068e65d0bd76d7a9af36c6c3539d0c813efd528a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
+ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384547"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8414129"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -39,6 +39,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) | Administración de características:<br>*Digitalizar códigos de barras de GS1* |
 | Fabricación | [Consumo de material y reservas en la interfaz de ejecución de planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*<br><br>Y/o:<br><br>Administración de características:<br>*(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)* |
 | Fabricación | [Registro de consumo de material en unidaes de escalado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-manufacturing.md) | Administración de características:<br>*Registrar el consumo de material en la aplicación móvil en una unidad de escalado* |
+| Planificada | [Mantenimiento de calendario centralizado de optimización de planificación](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendarios y planificación maestra](../master-planning/supply-chain-calendars-master-planning.md) | Habilitado por defecto |
 | Planificada | [Sugerencias de optimización de la planificación para optimizar el suministro existente](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Mensajes de acción](../master-planning/action-messages.md) | Habilitado por defecto |
 | Planificada | Pedidos planificados simplificados | [Pedidos planificados simplificados](../master-planning/planning-optimization/planned-orders-simplified.md ) | Administración de características:<br>*Pedidos planificados simplificados* |
 

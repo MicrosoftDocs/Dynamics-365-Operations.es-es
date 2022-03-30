@@ -2,7 +2,7 @@
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384380"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418649"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Versión 2.0.19.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Se mejoró el flujo de consulta de datos genéricos.
+- Se mejoró el problema de vibración en las páginas **Lista de trabajo** y **Consulta de artículo**.
+- Reducción del consumo de batería.
+- Se eliminó el límite en la cantidad de campos para tarjetas de trabajo.
+- Se ajustó la altura de las tarjetas de trabajo para que todas tengan el mismo tamaño, independientemente del número de campos en cada una.
+- Se solucionó un problema por el cual los caracteres de espacio en los códigos de barras se recortaban.
+- Se agregó la configuración **Estilo de botón**, que le permite cambiar entre la vista deslizante y la vista de botones en todos los tipos de dispositivos.
+- Se han solucionado varios problemas que podían provocar que la aplicación dejase de funcionar.
+- Establecer foco automáticamente en el primer cuadro de texto en páginas personalizadas.
+- Mejoras de accesibilidad relacionadas con la luminosidad, el contraste, la narración y los textos de marcador de posición que faltan.
 
 ## <a name="version-20170"></a>Versión 2.0.17.0
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344987"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408024"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -58,7 +58,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Característica | Problema mencionado | Explicación | Disponibilidad prevista |
 | --- | --- | --- | --- |
 | Acciones | Grupos de cobertura con el cálculo de acciones habilitado: _\#_ | Esta característica está pendiente. Actualmente, las acciones no se generan durante la planificación maestra cuando la optimización de la planificación está habilitada, independientemente de esta configuración. El objetivo principal de las acciones es sugerir cambios en los pedidos existentes. Evalúe si las acciones se aplican activamente como parte de sus procesos comerciales o si la información de demora relacionada con los pedidos es suficiente. | 2022 de abril |
-| Calendarios base | Calendarios que usan el calendario base: _\#_ | Esta característica está pendiente. Actualmente, el calendario base se ignora cuando la optimización de la planificación está habilitada. Evalúe si el calendario base es necesario para sus procesos comerciales o si la configuración directa en calendarios es suficiente. | 2022 de abril | 
+| Calendarios base | Calendarios que usan el calendario base: _\#_ | Esta característica ahora se admite. | 2022 de marzo | 
 | Códigos de disposición de lote | Maestros de disposición de lote no incluidos: _\#_ | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. | Octubre de 2022 o posterior |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: _\#_ | Esta característica está pendiente. Actualmente, CTP se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | 2022 de octubre |
 | Copia estática en plan dinámico | La copia de plan estático a dinámico está habilitada en los parámetros de planificación maestra. | La optimización de la planificación no copia el plan estático en el plan dinámico, independientemente de esta configuración. En general, este concepto es menos relevante debido a la velocidad y la regeneración completa que proporciona la optimización de planificación. Si se utilizan dos o más planes, se debe activar la planificación maestra para cada plan. | 2022 de octubre |

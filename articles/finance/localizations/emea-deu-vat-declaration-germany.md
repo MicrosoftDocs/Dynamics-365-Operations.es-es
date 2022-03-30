@@ -2,19 +2,19 @@
 title: Declaración de IVA (Alemania)
 description: Este tema describe cómo configurar y generar una declaración anticipada del impuesto al valor agregado (IVA) para Alemania en el formato XML oficial.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860887"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402812"
 ---
 # <a name="vat-declaration-germany"></a>Declaración de IVA (Alemania)
 
@@ -163,6 +163,9 @@ Abra el espacio de trabajo **Informes electrónicos** e importe las siguientes v
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Configurar parámetros específicos de la aplicación para campos de declaración de IVA
 
 Para generar automáticamente una declaración de IVA, asocie los códigos de impuestos sobre las ventas en la aplicación y los resultados de búsqueda en la configuración de ER.
+
+> [!NOTE]
+> Le recomendamos, que habilite la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos** en el espacio de trabajo **Administración de características**. Cuando esta función está habilitada, los parámetros configurados para la versión anterior de un formato ER se aplican automáticamente a la versión posterior del mismo formato. Si esta característica no está habilitada, debe configurar los parámetros específicos de la aplicación explícitamente para cada versión de formato. La característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos** está disponible en el espacio de trabajo **Administración de características** a partir de la versión 10.0.23 de Finance. Para obtener más información sobre cómo configurar los parámetros de un formato ER para cada entidad jurídica, consulte [Configurar los parámetros de un formato de ER por entidad jurídica](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 Siga estos pasos para definir qué códigos de impuestos sobre las ventas generan qué casillas en la declaración de IVA.
 

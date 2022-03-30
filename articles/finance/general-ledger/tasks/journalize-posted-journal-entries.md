@@ -2,41 +2,40 @@
 title: Registrar en el diario movimientos de diario
 description: Este procedimiento muestra los pasos para registrar en el diario las entradas del diario registradas.
 author: aprilolson
-ms.date: 08/09/2019
+ms.date: 03/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 519431684cd26d566ae4c9dd75010d5c98881b602681211908c0c70215448fea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d8fca167563b14c825ebe29874c6488ddfb4d9a
+ms.sourcegitcommit: 06acdfbccd7bd213a2397ea7b85d104f01914437
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738464"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8400884"
 ---
-# <a name="journalize-posted-journal-entries"></a>Registrar en el diario movimientos de diario
+# <a name="journalize-posted-journal-entries"></a>Registrar en el diario movimientos de diario registrados
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento muestra los pasos para registrar en el diario las entradas del diario registradas. Este procedimiento usa la empresa de datos de demostración USMF.
+El proceso de contabilización en el libro mayor proporciona una manera de agrupar e informar sobre asientos de comprobantes registrados para su libro mayor. En función de los criterios que proporcione, el procesamiento genera una lista de comprobantes que utilizan una secuencia numérica única y que tienen el valor del libro mayor **Número de diario** como referencia.
 
-1. En el **Panel de exploración**, vaya a **Módulos > Contabilidad general > Configuración de contabilidad > Parámetros de contabilidad general**.
-2. El campo **Diario contable ampliado** se puede establecer en Sí o No. Si Sí, la salida de informes es diferente.
-3. Seleccione si el período puede cerrarse si el proceso de registro en el diario no se ha ejecutado. Si esta opción se establece en Sí, no puede cerrarse el período hasta que el proceso de registro en el diario se haya completado para ese período.  
+Siga estos pasos para registrar en el diario las entradas del diario registradas. Este procedimiento usa la empresa de datos de demostración **USMF**.
+
+1. Vaya a **Contabilidad general** \> **Configuración de contabilidad** \> **Parámetros de Contabilidad general**.
+2. En el campo **Diario de libro mayor extendido**, seleccione un valor. Si selecciona **Sí**, la salida de informes es diferente.
+3. Seleccione si el período puede cerrarse si el proceso de registro en el diario no se ha ejecutado. Si selecciona **Sí**, no puede cerrarse el período hasta que el proceso de registro en el diario se haya completado para ese período.
 4. Cierre la página.
-5. En el **Panel de exploración**, vaya a **Módulos > Contabilidad general > Tareas periódicas > Creación de diarios**.
-6. Haga clic en **Filtro.**
-7. Resalte la fila con los criterios de filtro que desee definir.
-8. En el campo **Criterios**, especifique o seleccione los criterios de filtro.
-9. Haga clic en **Aceptar** para cerrar la página de filtro.
-10. Haga clic en **Aceptar** para iniciar el proceso de registro en el diario. Se generará un informe después de que se complete el proceso.  
-
-
+5. Vaya a **Contabilidad general** \> **Tareas periódicas** \> **Periodismo** y seleccione **Filtrar**.
+6. Seleccione la fila con los criterios de filtro que desee definir.
+7. En el campo **Criterios**, especifique o seleccione los criterios de filtro.
+8. Seleccione **Aceptar** para cerrar la página.
+9. Seleccione **Aceptar** para iniciar el proceso de registro en el diario. Se generará un informe después de que se complete el proceso.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

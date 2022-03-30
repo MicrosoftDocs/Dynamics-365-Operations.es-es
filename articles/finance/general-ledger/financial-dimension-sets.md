@@ -2,7 +2,7 @@
 title: Conjuntos de dimensiones financieras
 description: Este tema describe los conjuntos de dimensiones financieras y proporciona algunos consejos para optimizar su uso.
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739987"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392945"
 ---
 # <a name="financial-dimension-sets"></a>Conjuntos de dimensiones financieras
 
@@ -61,6 +61,11 @@ Utilice el botón **Reconstruir saldos** para recrear los saldos desde cero. De 
 ## <a name="clear-balances"></a>Borrar saldos
 
 Utilice **Saldos claros** para eliminar los saldos y detener cualquier actualización adicional. El conjunto de dimensiones ya no tendrá un impacto en las actividades de contabilización del libro mayor.
+
+## <a name="delete-a-dimension-set"></a>Eliminar un grupo de dimensiones
+
+No **elimine y vuelva a crear** conjuntos de dimensiones como cualquier forma de solución alternativa para resolver posibles problemas con los datos de saldo para un conjunto de dimensiones específico. Volver a crear un conjunto de dimensiones es costoso. Para obtener más ayuda con los problemas, comuníquese con el servicio de atención al cliente. 
+
 
 Para obtener más información, consulte [Dimensiones financieras](financial-dimensions.md).
 

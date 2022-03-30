@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087175"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407854"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Proceso de lanzamiento de Optimización de planificación e historial de versiones
 
@@ -29,10 +29,11 @@ Mientras se actualiza Optimización de planificación, la planificación maestra
 
 Los entornos que utilizan Optimización de planificación reciben automáticamente la última versión. No se requiere ninguna acción por parte del usuario: el servicio se actualiza automáticamente. Sin embargo, ninguna funcionalidad de cambio radical se envía automáticamente a los entornos. De forma predeterminada, los cambios que se consideran radicales están desactivados y deben activarse explícitamente mediante el uso de [administración de características ](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Por lo tanto, esos cambios no aparecerán en los entornos hasta que elija habilitarlos.
 
-Debido a que las notificaciones no se muestran cuando se actualiza Optimización de planificación en su entorno, puede revisar las notas de la versión en la siguiente tabla para determinar cuándo se publicaron los cambios y qué funcionalidad introdujeron. Esta tabla muestra los cambios que se publicaron para Optimización de planificación, si esos cambios están asociados con una función de la administración de características y la fecha del lanzamiento.
+Debido a que las notificaciones no se muestran cuando se actualiza Optimización de planificación en su entorno, puede revisar las notas de la versión en la siguiente tabla para determinar cuándo se publicaron los cambios y qué funcionalidad introdujeron. Esta tabla muestra los cambios que se publicaron para Optimización de planificación, si esos cambios están asociados con una función de la gestión de funciones y la fecha del lanzamiento.
 
-| Cambios | Detalles de la administración de características | Fechas de emisión |
+| Cambios | Detalles de la gestión de funciones | Fechas de emisión |
 |---|---|---|
+| <p>Mejoras generales de rendimiento, calidad y estabilidad.<p>Mantenimiento de calendario centralizado de optimización de planificación<p>Sugerencias de optimización de la planificación para optimizar el suministro existente | No se requiere administración de características. | 7-11 de marzo de 2022 |
 | <p>Se agregó soporte de prioridad de planificación para órdenes de producción. | Disponible con la versión 10.0.25 como parte de la función denominada *Soporte de MRP basado en prioridades para la optimización de la planificación*. | 12-18 de noviembre de 2021 |
 | <p>Mejoras generales de rendimiento, calidad y estabilidad. | No se requiere administración de características. | 12-18 de noviembre de 2021 |
 | <p>Se agregó compatibilidad para fórmulas de cálculo de tiempo de proceso, ruta de producción con superposición y número de operación de producción en transacciones de requisitos.</p><p>Mensajes de error mejorados para la programación de producción relacionados con el tiempo de espera, no se pudo encontrar la capacidad y ruta cíclica.</p><p>Consistencia mejorada al calcular las fechas de recepción y emisión tanto en pedidos planificados como en pedidos firmes.</p><p>Mejoras generales de rendimiento, calidad y estabilidad. | Nombre de la función: *Programación de capacidad infinita para Optimización de planificación* | Octubre 22-27, 2021 |

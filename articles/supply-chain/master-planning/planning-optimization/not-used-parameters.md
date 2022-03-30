@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087508"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408239"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parámetros no utilizados por Optimización de planificación
 
@@ -194,12 +194,6 @@ Optimización de planificación no utiliza la siguiente opción de parámetro en
   - **Control de fecha de entrega** - Planning Optimization no es compatible con la opción *CTP*, pendiente la compatibilidad con *CTP*.
   - **Plazo de inventario** - En las versiones del servicio de Planning Optimization que son anteriores a la versión del 6 de agosto de 2021, Planning Optimization usa este parámetro para calcular el pedido y las fechas de entrega correctos, pero no guarda el tiempo de espera calculado en sí mismo en el pedido planificado. En versiones posteriores, el servicio también utiliza el tiempo de espera calculado para establecer el campo **Tiempo de espera** y la opción **Días laborables** según sea necesario para la orden previsional relevante.
   - **Días laborables** - En las versiones del servicio de Planning Optimization que son anteriores a la versión del 6 de agosto de 2021, Planning Optimization usa este parámetro para calcular el pedido y las fechas de entrega correctos, pero no guarda el tiempo de espera calculado en sí mismo en el pedido planificado. En versiones posteriores, el servicio también utiliza el tiempo de espera calculado para establecer el campo **Tiempo de espera** y la opción **Días laborables** según sea necesario para la orden previsional relevante.
-
-## <a name="working-time-calendars-page"></a>Página Calendarios de horarios de trabajo
-
-Planning Optimization no utiliza el siguiente parámetro en la página **Calendarios de horas laborables**:
-
-- **Calendario base** - Pendiente la compatibilidad con *Calendarios base*.
 
 ## <a name="batch-disposition-master-page"></a>Página Disposición maestra de lote
 

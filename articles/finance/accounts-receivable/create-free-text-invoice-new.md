@@ -1,23 +1,23 @@
 ---
 title: Crear una factura de servicios
 description: Este tema explica cómo crear facturas de texto sin formato.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763295"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392894"
 ---
 # <a name="create-a-free-text-invoice"></a>Crear una factura de servicios
 
@@ -68,6 +68,7 @@ Este tema explica cómo crear facturas de texto sin formato. Para el procedimien
 
     * Puede cambiar el control de tiempo de la impresión de facturas. Seleccionar **Actual** para imprimir cada factura según se actualiza. Seleccione **Posterior** para imprimir cuando todas las facturas estén actualizadas.
     * Para cambiar cómo se comprueba el límite de crédito del cliente antes de registrar la factura, cambie el valor en el campo **Tipo de límite de crédito**.
+    * Puede seleccionar detener la contabilización de facturas de servicios cuando se produce un error en la pestaña **Actualizaciones** en la página **Parámetros de clientes** (**Clientes > Configuración > Parámetros de clientes**). Seleccione **Sí** para que el parámetro **Detener la publicación de facturas de texto libre en el primer error** detenga la contabilización de facturas de servicios cuando se produce un error. Si realiza la publicación en un lote, un error detendrá el proceso de publicación y el estado del lote se establecerá en **Error**. Si no se selecciona esta opción, el proceso de contabilización omitirá una factura con un error de contabilización y continuará contabilizando facturas adicionales. Si se contabiliza en un lote, un error de contabilización no evitará que se contabilicen otras facturas. El estado del lote será **Terminado**. Un informe detallado del proceso de publicación estará disponible para su revisión en el historial de trabajos por lotes.
     * Para imprimir la factura, establezca la opción en **Sí**.
     * Para registrar la factura, establezca la opción en **Sí**. Puede imprimir la factura sin registrarla.
 
@@ -82,6 +83,12 @@ Una vez que copie las líneas, puede editar la información según sus necesidad
 Puede crear una factura de servicios a partir de una plantilla. Cuando seleccione **Nueva a partir de plantilla** desde la pestaña **Factura**, puede seleccionar un nombre de plantilla y la cuenta del cliente para la nueva factura de servicios. Los valores predeterminados como las condiciones de pago y el método de pago se pueden rellenar automáticamente a partir del cliente o utilizar los valores que se guardaron en la plantilla.
 
 Se creará una nueva factura de servicios y puede editar los valores según sus necesidades.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Restablecimiento del estado del flujo de trabajo para las facturas de servicios de Irrecuperable a Borrador
+Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuperable tendrá un estado flujo trabajo **Irrecuperable**. Cuando el estado de un flujo de trabajo de facturas de servicio de clientes es **Irrecuperable**, puede restablecerlo a **Borrador** seleccionando **Recuperar** desde las acciones del flujo de trabajo. A continuación, puede editar la factura de servicios del cliente. Esta característica solo está disponible si el parámetro **Restablecer el estado del flujo de trabajo de facturas de servicios de Irrecuperable a Borrador** de la página **Administración de características** está activado.
+
+Puede usar la página **Historial del flujo de trabajo** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página **Factura de servicios** o si navega a **Común > Consultas > Flujo de trabajo**. Para restablecer el estado del flujo de trabajo en **Borrador**, seleccione **Recuperar**. También puede restablecer el estado del flujo de trabajo a **Borrador** seleccionando la acción **Recuperar** en la página **Factura de servicios** o la pagina **Todas las facturas de servicios**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de servicios**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
