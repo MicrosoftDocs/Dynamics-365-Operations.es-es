@@ -1,7 +1,7 @@
 ---
 title: Planificación con cantidades negativas disponibles
 description: Este tema explica cómo se maneja la disponibilidad negativa cuando utiliza la optimización de planificación.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758553"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469153"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planificación con cantidades negativas disponibles
 

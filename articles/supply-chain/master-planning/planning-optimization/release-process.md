@@ -1,21 +1,21 @@
 ---
 title: Proceso de lanzamiento de Optimización de planificación e historial de versiones
 description: Este tema proporciona información sobre el proceso de lanzamiento y el historial de lanzamiento de Optimización de planificación.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407854"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469712"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Proceso de lanzamiento de Optimización de planificación e historial de versiones
 
@@ -33,7 +33,7 @@ Debido a que las notificaciones no se muestran cuando se actualiza Optimización
 
 | Cambios | Detalles de la gestión de funciones | Fechas de emisión |
 |---|---|---|
-| <p>Mejoras generales de rendimiento, calidad y estabilidad.<p>Mantenimiento de calendario centralizado de optimización de planificación<p>Sugerencias de optimización de la planificación para optimizar el suministro existente | No se requiere administración de características. | 7-11 de marzo de 2022 |
+| <p>Mejoras generales de rendimiento, calidad y estabilidad.<p>[Mantenimiento de calendario centralizado de optimización de planificación](../supply-chain-calendars-master-planning.md)<p>[Sugerencias de optimización de la planificación para optimizar el suministro existente](../action-messages.md)<p>[Soporte de optimización de planificación para subcontrataciones](../../production-control/manage-subcontract-work-production.md) | No se requiere administración de características. | 7-11 de marzo de 2022 |
 | <p>Se agregó soporte de prioridad de planificación para órdenes de producción. | Disponible con la versión 10.0.25 como parte de la función denominada *Soporte de MRP basado en prioridades para la optimización de la planificación*. | 12-18 de noviembre de 2021 |
 | <p>Mejoras generales de rendimiento, calidad y estabilidad. | No se requiere administración de características. | 12-18 de noviembre de 2021 |
 | <p>Se agregó compatibilidad para fórmulas de cálculo de tiempo de proceso, ruta de producción con superposición y número de operación de producción en transacciones de requisitos.</p><p>Mensajes de error mejorados para la programación de producción relacionados con el tiempo de espera, no se pudo encontrar la capacidad y ruta cíclica.</p><p>Consistencia mejorada al calcular las fechas de recepción y emisión tanto en pedidos planificados como en pedidos firmes.</p><p>Mejoras generales de rendimiento, calidad y estabilidad. | Nombre de la función: *Programación de capacidad infinita para Optimización de planificación* | Octubre 22-27, 2021 |

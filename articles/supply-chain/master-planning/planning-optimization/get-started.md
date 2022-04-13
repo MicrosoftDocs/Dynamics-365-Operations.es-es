@@ -1,7 +1,7 @@
 ---
 title: Introducción a la optimización de la planificación
 description: Este tema explica cómo empezar a usar la función de optimización de la planificación.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902568"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469824"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
@@ -58,7 +58,7 @@ Antes de instalar el complemento de Optimización de planificación, debe tener 
 
 - Debe ejecutar Supply Chain Management en un entorno de alta disponibilidad habilitado para LCS, nivel 2 o superior (no un entorno OneBox), con Dynamics 365 Supply Chain Management, versión 10.0.7 o posterior. Si intenta instalar el complemento en un entorno OneBox, la instalación no se completará y deberá cancelarla.
 
-- Su sistema debe estar configurado para la integración con Power Platform. Para obtener más información, consulte [Integración de Microsoft Power Platform con aplicaciones Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Su sistema debe estar configurado para la integración con Power Platform. Para obtener más información, consulte Integración de [Microsoft Power Platform con las aplicaciones de finanzas y operaciones](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Habilitar la licencia de Optimización de planificación
 

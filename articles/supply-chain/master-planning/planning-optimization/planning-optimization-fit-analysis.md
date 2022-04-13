@@ -1,7 +1,7 @@
 ---
 title: Análisis de aptitud de la optimización de la planificación
 description: Este tema explica cómo comprobar la configuración actual y los datos frente a las prestaciones de la funcionalidad de optimización de la planificación.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408024"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487653"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -84,7 +84,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Producción | L. MAT/líneas de fórmula con consumo de recursos: _\#_ | Esta característica está pendiente. Actualmente, las líneas de BOM y fórmulas que tienen un consumo de recursos se ignoran cuando la optimización de la planificación está habilitada. Cuando se admite esta característica, el requisito de material se establecerá en la fecha de inicio de producción. Hasta que se admita esta característica no se generarán requisitos para materiales indicados con una marca de consumo de recursos. | 2022 de octubre |
 | Producción | L. MAT/líneas de fórmula con consumo de pasos: _\#_ | Esta característica está pendiente. Actualmente, el consumo de pasos se ignora en las líneas de la lista de materiales y la fórmula cuando la optimización de la planificación está habilitada. | 2022 de octubre |
 | Producción | L. MAT con residuo constante o residuo variable definido: _\#_ | Esta característica está pendiente. Actualmente, el rechazo constante y el rechazo variable que se definen en las listas de materiales se ignoran cuando la optimización de la planificación está habilitada. | 2022 de octubre |
-| Producción | L. MAT con subcontratación: _\#_ | Esta característica está pendiente. Actualmente, la configuración de la subcontratación en las listas de materiales se ignora cuando la optimización de la planificación está habilitada, independientemente de esta configuración. | 2022 de abril |
+| Producción | L. MAT con subcontratación: _\#_ | Esta característica ahora se admite. | Compatible |
 | Producción | L. MAT sin sitio: _\#_ | Esta característica ahora se admite. Para obtener información adicional, consulte [Planificación de producción](production-planning.md) | Compatible |
 | Producción | Demanda con requisitos específicos de L. MAT o ruta definidos: _\#_ | Esta característica está pendiente. Actualmente, los requisitos de ruta o lista de materiales específicos que se definen en la demanda (como una sublista de materiales o una ruta secundaria en un pedido de cliente) se ignoran cuando la optimización de la planificación está habilitada. Se utilizará la lista de materiales o la ruta estándar, independientemente de esta configuración. | 2022 de octubre |
 | Producción | Versiones de fórmula con coproductos o productos derivados: _\#_ | Esta característica está pendiente. Actualmente, los coproductos y subproductos asociados con la versión de la fórmula se ignoran cuando la optimización de la planificación está habilitada. | 2022 de octubre |

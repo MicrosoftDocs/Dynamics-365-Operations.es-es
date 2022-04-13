@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068801"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464948"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -48,7 +48,7 @@ Para obtener más información sobre el uso del complemento de Excel, vea el bre
 2. Seleccione la opción **Abrir en Excel** y abra el libro que se ha generado. Este libro contiene información vinculante para la entidad, un puntero para su entorno y un puntero para el complemento de Excel.
 3. En Excel, seleccione **Habilitar edición** para habilitar el complemento de Excel que desee ejecutar. El complemento de Excel se ejecuta en un panel a la derecha de la ventana de Excel.
 4. Si ejecuta el complemento de Excel por primera vez, seleccione **Confiar en este complemento**.
-5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de Finance and Operations. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
+5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de Finance and Operations. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
 
 El complemento de Excel lee automáticamente los datos de la entidad que ha seleccionado. Tenga en cuenta que no habrá datos en el libro hasta que el complemento de Excel lo haya leído.
 

@@ -1,23 +1,23 @@
 ---
 title: Características quitadas u obsoletas de Dynamics 365 Finance
 description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890962"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466845"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas u obsoletas de Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Características quitadas o en desuso en la versión Finance 10.0.26
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Informe del impuesto sobre las ventas en Finlandia (diseño basado en los códigos de notificación)
+
+[Informe fiscal de ventas para Finlandia](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Sustituido por un nuevo diseño de declaración del IVA, [Declaración de IVA para Finlandia](../localizations/emea-fin-vat-declaration.md). |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Aplicación |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: para el 1 de marzo de 2023, tenemos previsto dejar de dar soporte al informe de impuestos sobre las ventas para Finlandia (diseño de informe para Finlandia). Se introducen los nuevos formatos de informes electrónicos (ER) **Declaración de IVA en TXT (FI**) y **Declaración de IVA en Excel (FI)** en el modelo **Declaración de impuestos**. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Características quitadas o en desuso en la versión Finance 10.0.24
 

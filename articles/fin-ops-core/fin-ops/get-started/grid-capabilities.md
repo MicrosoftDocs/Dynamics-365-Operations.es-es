@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384449"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462803"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -151,7 +151,7 @@ Al igual que en Excel, los usuarios pueden forzar automáticamente el cambio de 
 
 La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Después de habilitar la función en Administración de características, todas las sesiones de usuario posteriores utilizarán el nuevo control de cuadrículas. 
 
-Esta característica está habilitada de forma predeterminada a partir de la versión 10.0.21 y se prevé que sea obligatoria con la versión 10.0.25. 
+Esta característica está habilitada de forma predeterminada a partir de la versión 10.0.21 y se prevé que sea obligatoria en octubre de 2022.  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
 Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.

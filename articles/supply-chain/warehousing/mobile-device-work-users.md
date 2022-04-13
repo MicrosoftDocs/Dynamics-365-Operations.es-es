@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902106"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462681"
 ---
 # <a name="mobile-device-user-accounts"></a>Cuentas de usuario de dispositivo móvil
 
@@ -90,8 +90,8 @@ Cuando un trabajador inicia sesión en la aplicación móvil Warehouse Managemen
 1. En el panel de acciones, seleccione **Opciones de usuario**.
 1. En la pestaña **Preferencias**, establezca los campos siguientes:
 
-    - **Idioma** - Seleccione el idioma que prefiera el trabajador. Este campo también controla el formato de fecha que se muestra en la aplicación del almacén.
-    - **Formato de fecha, hora y número** - Seleccione el idioma que determinará los formatos de números que se muestran en la aplicación del almacén. Tenga en cuenta que los formatos de fecha y hora que se muestran en la aplicación del almacén están determinados por el campo **Idioma**, no por este campo.
+    - **Idioma** - Seleccione el idioma que prefiera el trabajador. Este campo también controla el formato de número que se muestra en la aplicación del almacén.
+    - **Formato de fecha, hora y número** – Seleccionar el formato de fecha y hora que prefiera el trabajador. La aplicación de almacén utiliza el formato de número asociado con el idioma elegido para el campo **Idioma**, en lugar de esta configuración.
     - **Zona horaria** - Seleccione la zona horaria donde trabaja el trabajador. Este campo afecta la marca de tiempo de todos los registros que el trabajador realiza mediante la aplicación.
 
 > [!NOTE]

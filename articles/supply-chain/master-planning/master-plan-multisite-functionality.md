@@ -1,7 +1,7 @@
 ---
 title: Visión general de la planificación maestra y la funcionalidad multisitio
 description: La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 7f05c031-a446-4168-8cce-03a6305f5c4d
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e594cfd71201c6a629c04d5557c117649e6b19b0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982338"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470174"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Visión general de la planificación maestra y la funcionalidad multisitio
 

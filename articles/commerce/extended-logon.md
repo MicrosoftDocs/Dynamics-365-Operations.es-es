@@ -1,8 +1,8 @@
 ---
-title: Configuración de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
-description: En este tema se abordan las opciones de configuración de inicio de sesión extendido para Cloud POS y Retail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+title: Configurar y utilizar la capacidad de inicio de sesión ampliada
+description: En este tema se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478680"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491448"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Configurar y utilizar la capacidad de inicio de sesión ampliada
 
 [!include [banner](includes/banner.md)]
 
-En este tema se abordan las opciones de configuración de inicio de sesión extendido para Cloud POS y Retail Modern POS (MPOS).
+En este tema se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 
-## <a name="setting-up-extended-logon"></a>Configuración del inicio de sesión extendido
+El Cloud POS (CPOS) y el Modern POS (MPOS) brindan una capacidad de inicio de sesión extendida que permite a los trabajadores de tiendas minoristas iniciar sesión en la aplicación de PDV escaneando un código de barras o deslizando una tarjeta usando un lector de bandas magnéticas (MSR).
 
-Puede encontrar la configuración de las máscaras de código de barras en **Retail y Commerce** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de funcionalidad**. La ficha desplegable **Funciones** incluye las siguientes opciones que están relacionadas con el inicio de sesión extendido.
+## <a name="set-up-extended-logon"></a>Configurar el inicio de sesión extendido
 
-### <a name="staff-bar-code-logon"></a>Inicio de sesión de código de barras de personal
+Para configurar el inicio de sesión extendido para cajas registradoras en PDV en una tienda minorista, siga estos pasos.
 
-Cuando la opción **Inicio de sesión de código de barras del personal** se activa, los trabajadores que tienen un inicio de sesión extendido asignado a sus credenciales del punto de venta (PDV) pueden iniciar sesión mediante un código de barras.
+1. En la sede central de Commerce, vaya a **Retail y Commerce \> Configuración de canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de funcionalidad**. 
+2. En el panel de navegación izquierdo, seleccione el perfil de funcionalidad asociado con la tienda minorista.
+3. En la ficha desplegable **Funciones**, bajo **Opciones adicionales de autenticación en el inicio de sesión**, ponga las siguientes opciones en **Sí** o **No** según corresponda:
 
-### <a name="staff-bar-code-logon-requires-password"></a>El inicio de sesión de código de barras de personal requiere contraseña
+    - **Inicio de sesión del personal con código de barras** – Establezca esta opción en **Sí** si desea que sus trabajadores inicien sesión en el PDV escaneando un código de barras. 
+    - **Inicio de sesión del personal con contraseña** – Establezca esta opción en **Sí** si desea que sus trabajadores inicien sesión en el PDV introduciendo una contraseña.
+    - **Inicio de sesión del personal con tarjeta** – Establezca esta opción en **Sí** si desea que sus trabajadores inicien sesión en el PDV pasando una tarjeta.
+    - **Inicio de sesión del personal con tarjeta y contraseña** – Establezca esta opción en **Sí** si desea que sus trabajadores inicien sesión en el PDV introduciendo una contraseña después de pasar una tarjeta.
 
-Cuando se activa la opción **El inicio de sesión de código de barras del personal necesita contraseña**, el inicio de sesión de código de barras del personal selecciona únicamente el trabajador al que se la asignado el inicio de sesión extendido que se presenta. Los trabajadores aún tienen que especificar su contraseña cuando se activa esta opción.
+El código de barras o la tarjeta están asociadas a las credenciales que se pueden asignar a un trabajador. Las credenciales deben tener al menos seis caracteres. La cadena que contiene los primeros cinco caracteres debe ser única y se considera una *ID de credencial* que se utiliza para buscar un trabajador. Los caracteres restantes se utilizan para la verificación de seguridad. Por ejemplo: tiene dos tarjetas, una con las credenciales 12345DGYDEYTDW y otra con las credenciales 12345EWUTBDAJH. Debido a que estas dos tarjetas tienen el mismo ID de credencial (12345), no se pueden asignar ambas correctamente a los trabajadores.
 
-### <a name="staff-card-logon"></a>Inicio de sesión de tarjeta de personal
-
-Cuando la opción **Inicio de sesión de tarjeta del personal**, los trabajadores que tienen un inicio de sesión extendido asignado a sus credenciales del PDV pueden iniciar sesión mediante una barra magnética.
-
-### <a name="staff-card-logon-requires-password"></a>El inicio de sesión de tarjeta de personal requiere contraseña
-
-Cuando se activa la opción **El inicio de sesión de tarjeta del personal necesita contraseña**, el inicio de sesión de tarjeta del personal selecciona únicamente el trabajador al que se la asignado el inicio de sesión extendido que se presenta. Los trabajadores aún tienen que especificar su contraseña cuando se activa esta opción.
-
-## <a name="assigning-an-extended-logon"></a>Asignación de un inicio de sesión extendido
+## <a name="assign-extended-logon"></a>Asignar inicio de sesión extendido
 
 De forma predeterminada, solo los directores pueden asignar el inicio de sesión extendido a los trabajadores. Para asignar el inicio de sesión extendido, vaya a **Inicio de sesión extendido** en PDV. A continuación, busque un trabajador introduciendo el Id. de operador del trabajador en el campo de búsqueda. Seleccione el trabajador y, a continuación, haga clic en la pestaña **Asignar**. En la siguiente página, pase o o escanee el inicio de sesión que desee asignar al trabajador. Si se lee correctamente, el botón **Aceptar** estará disponible. Haga clic en **Aceptar** para guardar el inicio de sesión extendido para dicho trabajador.
 
-## <a name="deleting-an-extended-logon"></a>Eliminación de un inicio de sesión extendido
+## <a name="delete-extended-logon"></a>Eliminar inicio de sesión extendido
 
 Para eliminar el inicio de sesión extendido que se asigna a un trabajador, busque el trabajador mediante la operación **Inicio de sesión extendido**. Seleccione el trabajador y, a continuación, haga clic en **Anular asignación**. Se eliminarán todas las credenciales de inicio de sesión extendidas asociadas con dicho trabajador.
 
-## <a name="extending-extended-logon"></a>Extensión de inicio de sesión extendido
+## <a name="use-extended-logon"></a>Usar el inicio de sesión extendido
 
-El inicio de sesión extendido solo permite que cinco caracteres significativos sean el identificador único listo para usar. Por ejemplo, si configura dos tarjetas con los ID "1234567" y "1234578", ambas se considerarán "12345". Podría crear una extensión para admitir más personajes. Para obtener instrucciones detalladas, consulte [Ampliación de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Tras configurar el inicio de sesión extendido y asignar a un trabajador un código de barras o una cinta magnética, el trabajador solo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV. Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.
 
-El servicio del inicio de sesión puede ser extendido para admitir dispositivos de inicio de sesión extendidos adicionales, como escáneres de la palma. Para obtener más información, consulte la documentación de extensibilidad del PDV.
+## <a name="extend-extended-logon"></a>Ampliación del inicio de sesión extendido
 
-## <a name="using-extended-logon"></a>Uso del inicio de sesión extendido
+La implementación lista para usar de la capacidad de inicio de sesión extendido requiere que las credenciales tengan una longitud mínima de seis caracteres y que los primeros cinco caracteres (el ID de la credencial) sean únicos. Originalmente se pensó como una muestra que los desarrolladores pudieran personalizar para cumplir con los requisitos de una implementación específica. (Por ejemplo, podría personalizarse para admitir más caracteres o usar diferentes reglas de verificación de seguridad). Para obtener información detallada sobre cómo crear extensiones para el inicio de sesión extendido, consulte [Ampliación de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Cuando se configura el inicio de sesión extendido, y se le ha asignado a un trabajador un código de barras o una cinta magnética, el trabajador solo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV. Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.
-
+El servicio del inicio de sesión también puede ser extendido para admitir dispositivos de inicio de sesión extendidos adicionales, como escáneres de la palma de la mano. Para obtener más información, consulte la [documentación de extensibilidad del PDV](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Hacer único el delimitador del plan de cuentas
 description: Este tema explica cómo no puede tener el mismo delimitador para el plan contable y los valores de dimensión. Debe cambiar los valores del delimitador tras la actualización.
 author: panolte
-ms.date: 09/17/2021
+ms.date: 03/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
+ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500512"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468060"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Hacer único el delimitador del plan de cuentas
 
@@ -32,8 +32,10 @@ Si existe conflicto con el plan de cuentas, se puede cambiar el delimitador del 
 - Puede cambiar el delimitador del plan de cuentas después de la actualización en **Parámetros de contabilidad general** > **Plan de cuentas y dimensiones** > **Cambiar delimitador**. 
 - Si el único conflicto está en el formato de Id. de proyecto/subproyecto, es posible cambiar el valor en **Gestión de proyectos y parametros de contabilidad** > **General** > **Modificar el formato de subproyecto**. 
 
+### <a name="other-considerations"></a>Otras consideraciones
+Al igual que el ID de proyecto/subproyecto, cualquier otro registro de datos maestros que se use como dimensiones financieras (como proveedores o clientes) no debe tener valores de ID de cuenta que usen el mismo carácter que el delimitador del plan de cuentas. 
+
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Cómo determinar si el entorno requiere delimitadores actualizados 
 Si los delimitadores en el entorno actualizado están en conflicto, es posible que se produzca inestabilidad al especificar valores en un control de entrada segmentado o control de entrada de dimensiones. Esto significa que deberá usar siempre búsquedas o un menú desplegable al especificar combinaciones de cuenta y dimensión.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

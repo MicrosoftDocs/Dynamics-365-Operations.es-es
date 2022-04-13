@@ -1,7 +1,7 @@
 ---
 title: Configurar el rol de administrador de ausencias
 description: Este tema explica cómo configurar el rol de administrador de ausencias para la gestión de las vacaciones de los empleados.
-author: hasrivas
+author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hasrivas
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69a9bfe47c342f2efdae51bd62a317b4b0ab7ff5
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065235"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534119"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurar el rol de administrador de ausencias
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353367"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489039"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Detectar carros abandonados y enviar notificaciones a los clientes
 
@@ -127,7 +127,7 @@ Para configurar la aplicación de muestra de conector de carro abandonado, modif
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-El estado del trabajo de recuperación de carros abandonados, los id. de carros y las marcas de tiempo modificadas se almacenan en Cosmos DB de Azure. De forma predeterminada, la configuración del archivo de configuración apunta a la instancia del emulador local de Cosmos DB de Azure. Cuando implemente el conector en producción, debe actualizar esta configuración para que apunte a la instancia de Cosmos DB de Azure en su suscripción de Azure. Para pruebas locales o de espacio aislado, puede usar el [Emulador de Azure Cosmos](/azure/cosmos-db/local-emulator).
+El estado del trabajo de recuperación de carros abandonados, los id. de carros y las marcas de tiempo modificadas se almacenan en Cosmos DB de Azure. De forma predeterminada, la configuración del archivo de configuración apunta a la instancia del emulador local de Cosmos DB de Azure. Cuando implemente el conector en producción, debe actualizar esta configuración para que apunte a la instancia de Cosmos DB de Azure en su suscripción de Azure. Para pruebas locales o de espacio aislado, puede usar el [emulador de Azure Cosmos DB](/azure/cosmos-db/local-emulator).
 
 | Propiedad    | Description |
 | ----------- | ----------- |

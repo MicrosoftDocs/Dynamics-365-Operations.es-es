@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062120"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524476"
 ---
 # <a name="inventory-visibility-public-apis"></a>API públicas de visibilidad de inventario
 
@@ -41,15 +41,17 @@ En la tabla siguiente se muestran las API actualmente disponibles:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Registrar | [Establecer/reemplazar cantidades disponibles](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Registrar | [Crear un evento de reserva](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Registrar | [Crear varios eventos de reserva](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/on-hand/changeschedule | Registrar | [Crear un cambio de inventario disponible programado](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Registrar | [Crear múltiples cambios de inventario disponible programados](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Registrar | [Consulta mediante el método POST](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obtener | [Consulta mediante el método GET](#query-with-get-method) |
-
-Microsoft ha proporcionado una colección de solicitudes *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > La parte {environmentId} de la ruta es el id. de entorno en Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > La API masiva puede devolver un máximo de 512 registros para cada solicitud.
+
+Microsoft ha proporcionado una colección de solicitudes *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Buscar el punto de conexión de acuerdo con su entorno de Lifecycle Services
 
@@ -517,6 +519,9 @@ El parámetro `groupByValues` debe seguir su configuración para la indexación.
 
 El parámetro `returnNegative` controla si los resultados contienen entradas negativas.
 
+> [!NOTE]
+> Si ha habilitado las características del programa de cambios de inventario disponible y neto no comprometido (NNC), su consulta también puede incluir el parámetro booleano `QueryATP`, que controla si los resultados de la consulta incluyen información de NNC. Para obtener más información y ver ejemplos, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
+
 El siguiente ejemplo muestra el contenido del cuerpo de muestra.
 
 ```json
@@ -572,5 +577,9 @@ Aquí hay una URL de GET de muestra. Esta solicitud GET es exactamente la misma 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>Neto no comprometido
+
+Puede configurar la visibilidad del inventario para que le permita programar futuros cambios de inventario disponible y calcular las cantidades de NNC. El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso del cálculo del NNC puede aumentar considerablemente la capacidad de entrega de su pedido. Para obtener información sobre cómo habilitar esta función y cómo interactuar con la visibilidad de inventario a través de su API después de habilitar la característica, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

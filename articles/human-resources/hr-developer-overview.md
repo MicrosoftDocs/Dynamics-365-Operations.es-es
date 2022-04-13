@@ -1,7 +1,7 @@
 ---
 title: Visión general del desarrollo
 description: Esta Guía de desarrolladores proporciona una API y una referencia de campos personalizados. También proporciona información sobre la integración con otras aplicaciones.
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.search.scope: Human Resources
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78fc1afc596ca5a847d15a0da2db841aa303bad7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6839ab724885e745d7098b4b27c2c2d991990f4d
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066809"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534284"
 ---
 # <a name="development-overview"></a>Visión general del desarrollo
 

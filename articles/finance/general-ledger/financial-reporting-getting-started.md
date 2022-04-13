@@ -2,25 +2,27 @@
 title: Visión general de informes financieros
 description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983986"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527324"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a los informes financieros 
 
@@ -174,7 +176,7 @@ Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **
 * En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza y luego elija **Sitios**. En **Agregar este sitio web a la zona**, introduzca "\*\.dynamics.com" (sin comillas) y luego seleccione **Agregar**. 
 * En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza. En el área etiquetada como Nivel de seguridad para esta zona, cambie la opción a **Medio-bajo**.
 * Deshabilite el bloqueador de elementos emergentes en su navegador.
-* Se requieren estaciones de trabajo para instalar Microsoft .NET Framework 4.6.2 o superior. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Se requieren estaciones de trabajo para instalar Microsoft .NET Framework 4.7.2 o superior. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Si está usando el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando Chrome en modo ingógnito, asegúrese de que la extensión ClickOnce esté activada para el modo incógnito. Para obtener más información acerca de la extensión ClickOnce de Chrome, consulte [Requisitos del sistema para implementaciones en la nube](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Si esta usando Microsoft Edge con un navegador Chrome, no es necesario instalar una extensión ClickOnce para Edge Chromium. Sin embargo, debe habilitar la opción ClickOnce para descargar el cliente Diseñador de informes. Si está ejecutando en modo incógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito.
 

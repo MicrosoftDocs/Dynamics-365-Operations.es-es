@@ -2,7 +2,7 @@
 title: Cargos automáticos avanzados omnicanal
 description: Este tema describe las capacidades para gestionar otros cargos de pedidos de los pedidos del canal de Commerce mediante el uso de varias funciones avanzadas de cargos automáticos.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743440"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489627"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -187,6 +187,9 @@ Si los códigos de motivo se capturan para cargos sobrescritos, un nuevo informe
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Recuperación de cargos de una transacción de devolución de PDV
 
 Si el parámetro **Usar cargos automáticos avanzados** se establece en **Sí**, el parámetro de Commerce existente para **Devolver cargos de envío** ya no es aplicable. Para indicar qué cargos se deben devolver sistemáticamente a un cliente al usar cargos automáticos avanzados, asegúrese de que el código de cargos relacionado se ha configurado como **Reembolsable** en la página de configuración **Código de cargos** . Asegúrese de que los valores se hayan sincronizado a las bases de datos del canal de Commerce con el proceso de programación de la distribución.
+
+> [!TIP]
+> Para obtener orientación que le ayude a garantizar que los cargos reembolsables a nivel de línea se calculen en función de la cantidad que se devuelve, consulte [Los cargos reembolsables no están calculados según la cantidad devuelta](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Devolución de cargos de una transacción de devolución de pedido
 

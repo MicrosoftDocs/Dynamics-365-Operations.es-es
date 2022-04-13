@@ -2,7 +2,7 @@
 title: P+F de restablecimiento de data mart
 description: En este tema se proporcionan respuestas a algunas preguntas más frecuentes sobre los restblecimientos de data mart.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119521"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466422"
 ---
 # <a name="data-mart-resets-faq"></a>P+F de restablecimiento de data mart
 
@@ -47,10 +47,14 @@ Si una o más de las siguientes afirmaciones se aplican a su situación, su orga
 Aquí tiene algunas de las circunstancias en las que no recomendamos restablecer un data mart:
 
 - Está experimentando problemas de rendimiento de integración de datos.
+- Su integración con Financial Reporter no está habilitada. 
+
+    - Esto significa que los datos de contabilidad general ya no se sincronizan con el datamart de Financial Reporting. Es posible que Financial Reporter no obtenga números actualizados para sus informes financieros. Esto suele ocurrir si lleva mucho tiempo sin usar Financial Reporter.
+    - Se le pedirá que habilite la integración reiniciando el datamart. Para proceder, seleccione **Sí**. También puede optar por restablecer el data mart en otro momento. Una vez habilitada la integración, los datos de contabilidad general se sincronizan nuevamente en Financial Reporter. 
 - Tiene un patrón de restablecimiento recurrente debido a alguna de las siguientes razones:
 
     - **Datos perdidos o inesperados en el informe**: si nota que faltan datos, abra un ticket de soporte con Microsoft para revisar el formato de su informe y los posibles problemas de sincronización de datos.
-    - **Estado de integración atascado**
+    - **Estado de integración atascado** - Si nota que el estado de la integración está atascado en ejecución, esto puede deberse a un gran volumen de transacciones en el sistema. Este estado se resolverá solo. Sin embargo, si nota que el estado de integración está atascado durante más de cuatro horas, abra una incidencia de soporte técnico con Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Si restablezco el data mart, ¿perderé los informes que ya diseñé?
 

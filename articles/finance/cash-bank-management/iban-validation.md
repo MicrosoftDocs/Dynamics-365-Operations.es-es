@@ -1,23 +1,23 @@
 ---
 title: Gestionar la validación de la cuenta del número internacional de cuenta bancaria (IBAN)
 description: En este tema se explica cómo gestionar la validación de la cuenta del número internacional de cuenta bancaria (IBAN)
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860828"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462775"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Gestionar la validación de la cuenta del número internacional de cuenta bancaria (IBAN)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860828"
 
 La validación del número internacional de cuenta bancaria (IBAN) incrementa la cantidad de validación que se hace al agregar un IBAN a una cuenta bancaria.
 
-La información acerca de la estructura de IBAN se almacena en Microsoft Dynamics 365 Finance. Esta información se carga automáticamente al usar por primera vez el IBAN en cuentas bancarias. Contiene la longitud de IBAN, las posiciones iniciales del número de cuenta bancaria y el número de ruta, y la longitud del número de cuenta bancaria y el número de ruta.
+La información sobre la estructura del IBAN se almacena en Microsoft Dynamics 365 Finance y se carga automáticamente cuando usa por primera vez el IBAN en cuentas bancarias. Contiene la longitud de IBAN, las posiciones iniciales del número de cuenta bancaria y el número de ruta, y la longitud del número de cuenta bancaria y el número de ruta.
 
 ## <a name="set-up-iban-structures"></a>Configurar estructuras de IBAN
 
 1. Vaya a **Gestión de efectivo y bancos \> Configuración \> Estructuras del IBAN**.
 2. Observe que las estructuras de IBAN para cada país o región se han configurado automáticamente.
-3. Si quiere personalizar las estructuras de un país o región específico, puede editarlas.
+3. Seleccione el botón **Editar** si la estructura debe ser actualizada para un país o región específicos.
 4. Las definiciones de la estructura formarán parte de cada nueva versión. Puede usar el menú **Restablecer estructuras** para cargar las últimas definiciones después de cada actualización.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Valide la estructura de IBAN de una cuenta bancaria

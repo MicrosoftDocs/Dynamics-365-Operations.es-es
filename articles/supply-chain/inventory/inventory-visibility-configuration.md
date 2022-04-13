@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061010"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524532"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
 
@@ -39,22 +39,25 @@ Antes de comenzar a trabajar con Visibilidad de inventario, debe completar la si
 
 Antes de comenzar, instale y configure el complemento de visibilidad de inventario como se describe en [Instalar y configurar la visibilidad del inventario](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Habilite las funciones de visibilidad de inventario en la gestión de funciones de Power Apps
-
-El complemento de visibilidad de inventario agrega varias funciones nuevas a su instalación de Power Apps. De forma predeterminada, estas funciones están desactivadas. Para usarlas, abra la página **Configuración** en Power Apps y luego, en la ficha **Gestión de funciones**, active las siguientes caracetrísticas.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Buscar el punto de conexión de servicio
-
-Si no conoce el punto de conexión de servicio de visibilidad de inventario correcto, abra la página **Configuración** en Power Apps y luego seleccione **Mostrar punto de conexión de servicio** en la esquina superior derecha. La página mostrará el punto de conexión de servicio correcto.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La página de configuración de la aplicación Inventory Visibility
 
 En Power Apps, la página **Configuración** de la [aplicación Visibilidad de inventario](inventory-visibility-power-platform.md) le ayuda a configurar la configuración disponible y la configuración de reserva flexible. Una vez instalado el complemento, la configuración predeterminada incluye el valor de Microsoft Dynamics 365 Supply Chain Management (el origen de datos `fno`). Puede revisar la configuración predeterminada. Además, según sus requisitos comerciales y los requisitos de registro de inventario de su sistema externo, puede modificar la configuración para estandarizar la forma en que los cambios de inventario se pueden publicar, organizar y consultar en los múltiples sistemas. Las secciones restantes de este tema explican cómo utilizar cada parte de la página **Configuración**.
 
 Una vez completada la configuración, asegúrese de seleccionar **Actualizar configuración** en la aplicación.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Habilite las funciones de visibilidad de inventario en la gestión de funciones de Power Apps
+
+El complemento de visibilidad de inventario agrega varias funciones nuevas a su instalación de Power Apps. De forma predeterminada, estas funciones están desactivadas. Para usarlas, abra la página **Configuración** y luego, en la pestaña **Gestión de funciones**, active las siguientes características según sea necesario.
+
+| Nombre de Administración de características | Description |
+|---|---|
+| OnHandReservation | Esta característica le permite crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario. Para obtener más información, consulte [Reservas de Visibilidad de inventario](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Esta característica proporciona un resumen de inventario de productos junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | La característica habilita las características programa de cambio de inventario disponible y neto no comprometido (NNC). Para obtener más información, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Buscar el punto de conexión de servicio
+
+Si no conoce el punto de conexión de servicio de visibilidad de inventario correcto, abra la página **Configuración** en Power Apps y luego seleccione **Mostrar punto de conexión de servicio** en la esquina superior derecha. La página mostrará el punto de conexión de servicio correcto.
 
 ## <a name="data-source-configuration"></a>Configuración del origen de datos
 
@@ -178,15 +181,21 @@ Para configurar una medida calculada personalizada, siga estos pasos:
 
 1. Inicie sesión en su entorno de Power Apps y abra **Visibilidad de inventario**.
 1. Abra la página **Configuración**.
-1. En la ficha **Medida calculada**, seleccione **Nueva medida calculada** para agregar una medida calculada. Luego, configure los campos como se describe en la tabla siguiente.
+1. En la ficha **Medida calculada**, seleccione **Nueva medida calculada** para agregar una medida calculada.
+1. Configure los siguientes campos para la nueva medida calculada:
 
-    | Campo | Valor |
-    |---|---|
-    | Nuevo nombre de medida calculada | Escriba el nombre de la medida calculada. |
-    | Origen de datos | El sistema de consultas es un origen de datos. |
-    | Origen de datos del modificador | Introduzca el origen de datos del modificador. |
-    | Modificador | Introduzca el nombre del modificador. |
-    | Tipo de modificador | Seleccione el tipo de modificador (*Suma* o *Resta*). |
+    - **Nombre de la nueva medida calculada** – Introduzca el nombre de la medida calculada.
+    - **Origen de datos**: seleccione el origen de datos asociado al nuevo modificador. El sistema de consultas es un origen de datos.
+
+1. Seleccione **Agregar** para agregar un modificador a la nueva medida calculada.
+1. Establezca los siguientes campos para el nuevo modificador:
+
+    - **Modificador**: seleccione el tipo de modificador (*Suma* o *Resta*).
+    - **Origen de datos** – Seleccione la fuente de datos donde se debe encontrar la medida que proporciona el valor del modificador.
+    - **Medida** – Seleccione el nombre de la medida (del origen de datos seleccionado) que proporciona el valor para el modificador.
+
+1. Repita los pasos 5 y 6 hasta que haya agregado todos los modificadores necesarios.
+1. Seleccione **Guardar**.
 
 Por ejemplo, podría tener el siguiente resultado de consulta.
 
@@ -465,6 +474,10 @@ En este ejemplo, puede realizar reservas en las siguientes secuencias de dimensi
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Una secuencia de dimensión válida debe seguir estrictamente la jerarquía de reservas, dimensión por dimensión. Por ejemplo, la secuencia de jerarquía`(SiteId, LocationId, SizeId)` no es válida, porque falta `ColorId`.
+
+## <a name="available-to-promise-configuration-optional"></a>Configuración de neto no comprometido (opcional)
+
+Puede configurar la visibilidad del inventario para que le permita programar futuros cambios de inventario disponible y calcular las cantidades de neto no comprometido (NNC). El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso de este cálculo puede aumentar considerablemente la capacidad de entrega de su pedido. Para usar esta función, debe habilitarla en la pestaña **Administración de características** y luego configurarla en la pestaña **Ajustes de NNC**. Para más información, ver [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Completar y actualizar la configuración
 

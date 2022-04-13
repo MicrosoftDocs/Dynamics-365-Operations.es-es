@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330710"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487592"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integración con sistemas de ejecución de fabricación de terceros
 
@@ -65,6 +65,8 @@ Puede habilitar cualquiera o todos los siguientes procesos para la integración.
 ## <a name="monitor-incoming-messages"></a>Supervisar mensajes entrantes
 
 Para supervisar los mensajes entrantes al sistema, abra la página **Integración de sistemas de ejecución de fabricación**. Allí, puede ver, procesar y solucionar problemas.
+
+Todos los mensajes para un pedido de producción específico se procesan en la secuencia en que se reciben. Sin embargo, es posible que los mensajes para diferentes pedidos de producción no se procesen en la secuencia recibida porque los trabajos por lotes se procesan en paralelo. En caso de error, el trabajo por lotes intentará procesar cada mensaje tres veces antes de establecerlo en el estado *Con errores*.
 
 ## <a name="call-the-api"></a>Llamar a la API
 
@@ -119,13 +121,13 @@ La siguiente tabla muestra los campos que admite cada línea de la sección `Rep
 | `ReportedGoodQuantity` | Opcional | Real|
 | `ReportedErrorCatchWeightQuantity` | Opcional | Real |
 | `ReportedGoodCatchWeightQuantity` | Opcional | Real |
-| `AcceptError` | Opcional |Booleano |
+| `AcceptError` | Opcional | Enum (Sí \| No) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `ExecutedDateTime` | Opcional | Fecha y hora |
 | `ReportAsFinishedDate` | Opcional | Fecha |
 | `AutomaticBOMConsumptionRule` | Opcional | Enum (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | Opcional |Enum (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | Opcional | Booleano |
+| `RespectFlushingPrincipleDuringOverproduction` | Opcional | Enum (Sí \| No) |
 | `ProductionJournalNameId` | Opcional | Cadena |
 | `PickingListProductionJournalNameId` | Opcional | Cadena|
 | `RouteCardProductionJournalNameId` | Opcional | Cadena |
@@ -133,11 +135,11 @@ La siguiente tabla muestra los campos que admite cada línea de la sección `Rep
 | `ToOperationNumber` | Opcional | Entero|
 | `InventoryLotId` | Opcional | Cadena |
 | `BaseValue` | Opcional | Cadena |
-| `EndJob` | Opcional | Booleano |
-| `EndPickingList` | Opcional | Booleano |
-| `EndRouteCard` | Opcional | Booleano |
-| `PostNow` | Opcional | Booleano |
-| `AutoUpdate` | Opcional | Booleano |
+| `EndJob` | Opcional | Enum (Sí \| No) |
+| `EndPickingList` | Opcional | Enum (Sí \| No) |
+| `EndRouteCard` | Opcional | Enum (Sí \| No) |
+| `PostNow` | Opcional | Enum (Sí \| No) |
+| `AutoUpdate` | Opcional | Enum (Sí \| No) |
 | `ProductColorId` | Opcional | Cadena|
 | `ProductConfigurationId` | Opcional | Cadena |
 | `ProductSizeId` | Opcional | Cadena |
@@ -181,7 +183,7 @@ La siguiente tabla muestra los campos que admite cada línea de la sección `Pic
 | `OperationNumber` | Opcional | Entero |
 | `LineNumber` | Opcional | Real |
 | `PositionNumber` | Opcional | Cadena |
-| `IsConsumptionEnded` | Opcional | Booleano |
+| `IsConsumptionEnded` | Opcional | Enum (Sí \| No) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `InventoryLotId` | Opcional | Cadena |
 
@@ -217,9 +219,9 @@ La siguiente tabla muestra los campos que admite cada línea de la sección `Rou
 | `ConsumptionDate` | Opcional | Fecha |
 | `TaskType` | Opcional | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | Opcional | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
-| `OperationCompleted` | Opcional | Booleano |
-| `BOMConsumption` | Opcional | Booleano |
-| `ReportAsFinished` | Opcional | Booleano |
+| `OperationCompleted` | Opcional | Enum (Sí \| No) |
+| `BOMConsumption` | Opcional | Enum (Sí \| No) |
+| `ReportAsFinished` | Opcional | Enum (Sí \| No) |
 
 ### <a name="end-production-order-message"></a>Mensaje Finalizar pedido de producción
 
@@ -230,9 +232,13 @@ Para el mensaje *finalziar pedido de producción*, el valor de `_messageType` es
 | `ProductionOrderNumber` | Obligatoria | Cadena |
 | `ExecutedDateTime` | Opcional | Fecha y hora |
 | `EndedDate` | Opcional | Fecha |
-| `UseTimeAndAttendanceCost` | Opcional | Booleano |
-| `AutoReportAsFinished` | Opcional | Booleano |
-| `AutoUpdate` | Opcional | Booleano |
+| `UseTimeAndAttendanceCost` | Opcional | Enum (Sí \| No) |
+| `AutoReportAsFinished` | Opcional | Enum (Sí \| No) |
+| `AutoUpdate` | Opcional | Enum (Sí \| No) |
+
+## <a name="other-production-information"></a>Otra información de producción
+
+Los mensajes respaldan acciones o eventos que ocurren en la planta. Se procesan mediante el marco de integración MES descrito en este tema. El diseño asume que otra información de referencia que se compartirá con el MES (como la información relacionada con el producto o la lista de materiales o la ruta (con sus tiempos de instalación y configuración específicos) utilizada en una orden de producción específica) se extraerá del sistema utilizando [entidades de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) mediante transferencia de archivos u OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Recibir comentarios sobre el estado de un mensaje
 

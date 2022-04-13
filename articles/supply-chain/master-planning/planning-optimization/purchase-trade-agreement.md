@@ -1,7 +1,7 @@
 ---
 title: Planificación maestra con acuerdos comerciales de compra
 description: Este tema describe cómo Optimización de planificación puede encontrar el proveedor y/o el tiempo de entrega de un pedido planificado, en función del mejor precio o tiempo de entrega que se encuentra en los acuerdos comerciales de compra.
-author: ChristianRytt
+author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757767"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468424"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planificación maestra con acuerdos comerciales de compra
 

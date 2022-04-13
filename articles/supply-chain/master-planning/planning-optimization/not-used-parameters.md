@@ -1,22 +1,22 @@
 ---
 title: Parámetros no utilizados por Optimización de planificación
 description: Este tema enumera los parámetros que Planning Optimization no considera actualmente durante su funcionamiento.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408239"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469125"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parámetros no utilizados por Optimización de planificación
 
@@ -65,18 +65,6 @@ Optimización de planificación no utiliza los siguientes parámetros u opciones
   - **Utilice la lista de materiales o la versión de fórmula especificada** - Pendiente compatibilidad con *Versiones de fórmula con Co / Por producto*.
   - **Utilice la versión de ruta especificada** - Pendiente compatibilidad con *Demanda con requisitos de ruta o lista de materiales específicos definidos*.
 
-- Ficha desplegable **Acción**:
-
-  - **Mensaje de acción** - Pendiente compatibilidad con *Comportamiento*.
-  - **Límite de tiempo de acción** - Pendiente compatibilidad con *Comportamiento*.
-  - **Posponer margen** - Pendiente compatibilidad con *Comportamiento*.
-  - **Avanzar margen** - Pendiente compatibilidad con *Comportamiento*.
-  - **Fecha base** - Pendiente compatibilidad con *Comportamiento*.
-  - **Avanzar** - Pendiente compatibilidad con *Comportamiento*.
-  - **Posponer** - Pendiente compatibilidad con *Comportamiento*.
-  - **Reducir** - Pendiente compatibilidad con *Comportamiento*.
-  - **Aumentar** - Pendiente compatibilidad con *Comportamiento*.
-  - **Acciones derivadas** - Pendiente compatibilidad con *Comportamiento*.
 
 - Ficha desplegable **Otro**:
 
@@ -149,7 +137,6 @@ Planning Optimization no utiliza los siguientes parámetros u opciones en la pá
   - **Plan de previsión**: más compatibilidad con *Pronóstico* pendiente.
   - **Capacidad** - Pendiente la compatibilidad con *Planificación*.
   - **Plan de continuidad** - Pendiente la compatibilidad con *Programación de continuidad*.
-  - **Mensaje de acción** - Pendiente compatibilidad con *Comportamiento*.
   - **Retrasos calculados** - Pendiente más compatibilidad con *Retrasos calculados*.
   - **Secuenciación** - Pendiente compatibilidad con *Producción*.
 
