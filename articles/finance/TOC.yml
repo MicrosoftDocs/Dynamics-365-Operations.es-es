@@ -16,13 +16,11 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (abril)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (febrero)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
-                - name: Características quitadas o en desuso en Dynamics 365 Finance
+                - name: Características quitadas o en desuso de Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Características quitadas o en desuso de versiones anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copiar una programación de facturación
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Características de las programaciones de facturación
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturación por hitos
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Proceso de soporte y renovación
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Programaciones de índice de precios al consumidor
+                      href: accounts-receivable/cpischedules.md
                     - name: Finalizar programaciones de facturación
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Aplazamientos de ingresos y gastos
-                  items: null
+                  items:
+                    - name: Configurar aplazamientos de ingresos y gastos
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Programaciones de aplazamientos
+                      items:
+                        - name: Crear programaciones de aplazamientos
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Transacciones predeterminadas de aplazamientos
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Asignación de ingresos de varios elementos
-                  items: null
+                  items:
+                    - name: Configurar la asignación de ingresos de varios elementos
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Pagos y liquidaciones
               items:
                 - name: Información general de pagos de cliente
@@ -922,6 +936,8 @@
               items:
                 - name: Planificar su plan de cuentas
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Planificar su plan de cuentas local
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Cuentas principales
                   items:
                     - name: Tipos de cuentas principales
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI versión 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI versión 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: Id. de registro de cliente y otra información
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: Informe de declaración DIOT

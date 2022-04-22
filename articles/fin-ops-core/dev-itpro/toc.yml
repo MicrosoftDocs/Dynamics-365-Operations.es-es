@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.25 (abril de 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Actualizaciones de la plataforma para la versión 10.0.24 (febrero de 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Configurar servidores proxy para entornos locales
                       href: deployment/onprem-reverseproxy.md
+                    - name: Instalar dispositivos de impresora de red en entornos locales
+                      href: analytics/install-network-printer-onprem.md
                     - name: Diagnósticos locales
                       href: deployment/on-premises-diagnostics.md
                     - name: Configuración local de recuperación ante desastres
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: Preguntas frecuentes sobre las VM de desarrollo y compilación que no permiten el acceso del administrador
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Configurar el VHD descargable para el primer uso
+                  href: dev-tools/vhd-setup.md
                 - name: Cambiar el nombre de los entornos locales para tener acceso a Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Requisitos de sistema de desarrollo
@@ -1028,11 +1030,13 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Extensión de Azure DevOps (versión preliminar pública)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Tutorial de extensión de Azure DevOps (versión preliminar pública)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Integración de Microsoft Power Platform
           items:
             - name: Información general
               href: power-platform/overview.md
-            - name: Cómo habilitar la integración de Power Platform
+            - name: Habilitar la integración de Power Platform
               href: power-platform/enable-power-platform-integration.md
             - name: Autenticación y autorización
               href: power-platform/authentication-and-authorization.md
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Ejecutar Regression Suite Automation Tool (RSAT) con ejecución en paralelo
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: Integrar RSAT con canalizaciones de Azure DevOps
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Solución de problemas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lanzar soluciones mediante Lifecycle Services
