@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: 996988b1a4d59ae9ad7b4031e492824c0a6abc95
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524448"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547884"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Vista previa de Dynamics 365 Supply Chain Management 10.0.26 (mayo de 2022)
 
@@ -34,7 +34,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
-| Inventario y logística | [Consulta de visibilidad de inventario disponible para admitir artículos avanzados de gestión de almacén](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Próximamente | Administración de características:<br>*Habilitar artículos de almacén en Visibilidad de inventario* |
+| Inventario y logística | [Consulta de visibilidad de inventario disponible para admitir artículos avanzados de gestión de almacén](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Soporte de visibilidad de inventario para artículos WHS](../inventory/inventory-visibility-whs-support.md) | Administración de características:<br>*Habilitar artículos de almacén en Visibilidad de inventario* |
 | Inventario y logística | [Disponible para prometer para el complemento de visibilidad de inventario](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](../inventory/inventory-visibility-available-to-promise.md) | Habilitado por configuración de servicio |
 | Fabricación | [Peso capturado de artículos para la interfaz de ejecución de la planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Versión preliminar) Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción* |
 | Fabricación | Pestaña Mis trabajos en la interfaz de ejecución de la planta de producción <!-- KFM: Add link to release plan when available --> | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*Pestaña Mis trabajos en la interfaz de ejecución de la planta de producción* |
@@ -51,7 +51,7 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 | Adquisición y abastecimiento | Sincronizar las dimensiones de seguimiento en líneas de pedidos de compra y ventas de empresas vinculadas | Esta característica le permite controlar si las dimensiones de seguimiento del número de serie y de lote se sincronizan en las líneas de órdenes de compra y ventas de empresas vinculadas. Agrega nuevas configuraciones a las pestañas **Directivas de pedido de compra** y **Directivas de pedido de venta** de la página de configuración para clientes y proveedores **Empresas vinculadas**. También actualiza los nombres de algunas configuraciones cercanas relacionadas para mayor claridad.<br><br>Si utiliza gestión avanzada de almacenes (WMS), tenga en cuenta que esta función solo sincronizará el número de serie y lote cuando estas dimensiones estén por encima de la ubicación en la jerarquía de reservas de destino. |
 | Gestión de información de productos | Limpiar valores de atributo del producto | Esta característica agrega una tarea periódica denominada **Limpiar valores de atributo del producto**, que limpia los registros de valores de atributos de productos que ya no están asociados a ningún producto a través de una categoría de producto. |
 | Gestión de inventario y almacenes | (Rusia) Evitar discrepancias al emitir GTD para pedidos de compra que incluyan artículos habilitados para WMS | Esta función solo está disponible la localización en ruso. Evita las discrepancias que se producen al emitir números de declaración de aduanas (GTD) rusos para pedidos de compra de importación que incluyen artículos habilitados para almacenamiento avanzado (WMS). El proceso de emisión de GTD cambia algunos valores de dimensión de inventario en las transacciones de inventario relacionadas para las facturas incluidas en el diario personalizado, lo que genera discrepancias entre los registros de trabajo del pedido de compra y las transacciones de inventario de la compra. Cuando esta función está habilitada, el proceso de emisión de GTD genera un trabajo de ajuste que elimina dichas discrepancias. |
-| Gestión de almacenes | Analizador mejorado para códigos de barras GS1 | Esta característica agrega un analizador mejorado para datos de símbolos GS1. El nuevo analizador implementa el algoritmo de especificación general GS1 para analizar los símbolos GS1 y proporciona una validación de datos más sólida. |
+| Gestión de almacenes | Analizador mejorado para códigos de barras GS1 | Esta característica agrega un analizador mejorado para datos de símbolos GS1. El nuevo analizador implementa el algoritmo de especificación general GS1 para analizar los símbolos GS1 y proporciona una validación de datos más sólida. Para obtener más información consulte [Escanear códigos de barras GS1](../warehousing/gs1-barcodes.md). |
 | Gestión de almacenes | Nuevas páginas de área de trabajo de planificación de la carga | Agrega dos nuevas páginas de área de trabajo de planificación de la carga: **Área de trabajo de planificación de la carga entrante** y **Área de trabajo de planificación de la carga saliente**. |
 | Gestión de almacenes | Aplicación Warehouse Management: GTD en blanco | Esta función solo está disponible la localización en ruso. Permite a los trabajadores que utilizan la Warehouse Management mobile app dejar en blanco los números de declaración de aduanas (GTD) rusos cuando sea necesario. Si la dimensión de seguimiento de GTD está configurada para permitir valores en blanco, el sistema aceptará valores en blanco para GTD para operaciones de inventario siempre que haya inventario disponible. |
 
@@ -68,7 +68,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.26 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.26 de aplicaciones de Finanzas y Operaciones (mayo de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.26 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.26 de aplicaciones de Finanzas y Operaciones (mayo de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

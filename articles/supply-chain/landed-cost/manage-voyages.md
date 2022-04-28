@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570955"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570447"
 ---
 # <a name="manage-voyages"></a>Gestionar viajes
 
@@ -66,9 +66,9 @@ La tabla siguiente describe las acciones disponibles en la pestaña **Gestionar*
 | En tránsito | Actualice el campo **Estado del viaje** al estado en tránsito que se establece en la página **[Parámetros de costo aterrizado](landed-cost-parameters.md)**. No hay más lógica en este proceso. Un viaje también se puede actualizar automáticamente al estado en tránsito, según la configuración del [Centro de control de seguimiento](delivery-information-setup.md).
 | Listo para la gestión de costes | Actualice el campo **Estado del viaje** al estado listo para gestión de costes que se establece en la página **[Parámetros de costo aterrizado](landed-cost-parameters.md)**. Se puede calcular el costo de un viaje cuando se han procesado todas las facturas (facturas de stock y facturas de costo del viaje) y se han recibido las mercancías. Si no se han calculado los costes estimados asociados con un viaje, se produce un error cuando intenta procesar el costeo de un viaje. |
 | Estimado | Elimine cualquier irregularidad en los costos después de que exista una factura para todas las órdenes de compra y los costos del viaje. Cuando selecciona este botón, el cuadro de diálogo **Actualización de viaje - Estimado**. Allí, puede seleccionar publicar en la fecha financiera estándar o especificar una fecha de publicación y luego ejecutar la acción. Puede volver a ejecutar la acción tantas veces como desee. También puede utilizar el cuadro de diálogo **Actualización de viaje - Estimado** para establecer una programación para ejecutar la acción como una tarea periódica (trabajo por lotes). Le recomendamos que ejecute la acción con regularidad configurándola como un trabajo por lotes. |
-| Registrar lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el viaje. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de publicación de lista de recibos para cada empresa y se debe procesar en cada entidad jurídica. |
-| Registrar recepción de productos | Publique un recibo de producto para todas las líneas de órdenes de compra en el viaje. El proceso de recepción de productos para las líneas de órdenes de compra que están asociadas con un viaje se utilizará solo si las mercancías **no** pasan por el procesamiento de mercancías en tránsito. Si las mercancías pasarán por el procesamiento de mercancías en tránsito, recibirá un error cuando intente registrar el recibo del producto para una línea de orden de compra. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de contabilización de notas de entrega para cada empresa. |
-| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el viaje. Si las mercancías en el viaje pasarán por el procesamiento de mercancías en tránsito, las líneas de la orden de compra se facturarán antes de que se complete el proceso de recepción. Cuando se factura la orden de compra original, se crearán las órdenes de mercancías en tránsito asociadas con las líneas de la orden de compra original. A continuación, el almacén podrá recibir esos pedidos. Si se utilizan envíos de varias empresas, se abre un nuevo cuadro de diálogo de contabilización de facturas para cada empresa. |
+| Registrar lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el viaje.  |
+| Registrar recepción de productos | Publique un recibo de producto para todas las líneas de órdenes de compra en el viaje. El proceso de recepción de productos para las líneas de órdenes de compra que están asociadas con un viaje se utilizará solo si las mercancías **no** pasan por el procesamiento de mercancías en tránsito. Si las mercancías pasarán por el procesamiento de mercancías en tránsito, recibirá un error cuando intente registrar el recibo del producto para una línea de orden de compra.  |
+| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el viaje. Si las mercancías en el viaje pasarán por el procesamiento de mercancías en tránsito, las líneas de la orden de compra se facturarán antes de que se complete el proceso de recepción. Cuando se factura la orden de compra original, se crearán las órdenes de mercancías en tránsito asociadas con las líneas de la orden de compra original. A continuación, el almacén podrá recibir esos pedidos.  |
 | Pedido de transferencia de envío | Publique un viaje de orden de transferfencia para todas las líneas de órdenes de transferencia en el viaje. Cuando se selecciona este botón, solo las órdenes de transferencia estarán disponibles para su actualización. |
 | Recibir pedido de transferencia | Publique un recibo de orden de transferfencia para todas las líneas de órdenes de transferencia en el viaje. |
 | Recibir mercancía en tránsito | Reciba todas las líneas de pedido que se encuentren en tránsito en el viaje. Este botón es una de las tres opciones disponibles para recibir mercancías en tránsito en un viaje. (Las otras dos opciones son el botón **Crear diario de llegadas** que se describe más adelante en esta tabla, y la aplicación móvil Warehouse Management). Esta opción es la opción más simple y procesará las mercancías en tránsito desde el almacén de mercancías en tránsito hasta el almacén de destino final. Si desea tener más control sobre el proceso, utilice el diario de llegadas o un dispositivo móvil para procesar la recepción de mercancías. |
@@ -84,7 +84,7 @@ La tabla siguiente describe los botones disponibles en la pestaña **General** d
 
 | Botón | Descripción |
 |---|---|
-| Lista de recepciones | Abra una lista de recibos de producto para todas las líneas de órdenes de compra en el viaje. Si se utilizan viajes de varias empresas, se abre una nueva lista de recibos para cada empresa. Si no se han procesado listas de recepción de productos, este botón no está disponible. |
+| Lista de recepciones | Abra una lista de recibos de producto para todas las líneas de órdenes de compra en el viaje.  Si no se han procesado listas de recepción de productos, este botón no está disponible. |
 | Recepción de producto | Abra el registro de recepción de producto para las líneas de la orden de compra que están asociadas con el viaje, si se utiliza ese registro. Si no se han publicado recibos de productos, este botón no está disponible. El proceso de recepción de productos no se utilizará si utiliza el procesamiento de mercancías en tránsito. |
 | Recepción de artículos | Abra el diario de llegada de artículos, si se utiliza. |
 | Seguimiento | Abra la página **Seguimiento entrante**, donde puede actualizar la fecha de llegada prevista de las mercancías en un contenedor de envío y un viaje y, posteriormente, actualizar las fechas de entrega previstas de las líneas de la orden de compra. |

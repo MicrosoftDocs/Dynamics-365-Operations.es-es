@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060447"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565639"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -40,6 +40,10 @@ Para poder aprovisionar un nuevo entorno de producción, deben cumplirse los sig
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Proporcionar un entorno de prueba de recursos humanos
 
+>[!NOTE]
+> A partir de abril de 2022, los entornos de prueba de Recursos Humanos no estarán disponibles en la aplicación independiente. Los clientes potenciales que estén interesados en evaluar las capacidades de Recursos humanos dentro de las aplicaciones de finanzas y operaciones pueden hacerlo utilizando la prueba gratuita de 30 días junto con los datos de demostración. Dynamics 365 Finance incluirá las capacidades de Recursos Humanos traídas a la infraestructura de Finanzas a través de la fusión de la aplicación independiente. Para más información, consulte [La fusión de las ofertas de recursos humanos reúne capacidades para los clientes](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Para obtener más información acerca de las pruebas de Dynamics 365 Finance, consulte la [guía](/fin-ops/get-started/before-you-buy) paso a paso. 
+
+
 Antes de aprovisionar su primer entorno de pruebas o producción, es posible que desee aprovisionar un [Entorno de prueba de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar la funcionalidad de Recursos Humanos. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Human Resources. 
 
 Los entornos de prueba brindan la capacidad de evaluar la funcionalidad de los recursos humanos para las personas que aún no tienen acceso a un entorno de recursos humanos. Si está aprovisionando un entorno de prueba y el usuario autenticado ya tiene acceso a uno o más entornos de recursos humanos existentes, el usuario será redirigido al entorno o lista de entornos existentes.
@@ -58,7 +62,7 @@ Antes de crear su primer entorno de Human Resources, debe planificar cuidadosame
 Consideraciones sobre entornos adicionales:
 
 - **Migración de datos**: es posible que deba considerar un entorno adicional para las actividades de migración de datos a fin de permitir que su entorno de espacio aislado se utilice con fines de prueba durante todo el proyecto. Disponer de un entorno adicional permite que las actividades de migración de datos continúen mientras las actividades de prueba y configuración se llevan a cabo simultáneamente en un entorno diferente.
-- **Integración**: es posible que deba considerar un entorno adicional para configurar y probar integraciones. Esto podría incluir integraciones nativas como la de Ceridian Dayforce LinkedIn Talent Hub, o integraciones personalizadas como las de nómina, sistemas de seguimiento de candidatos o sistemas y proveedores de prestaciones.
+- **Integración**: es posible que deba considerar un entorno adicional para configurar y probar integraciones. Esto podría incluir integraciones nativas como la de Ceridian Dayforce o LinkedIn Talent Hub, o integraciones personalizadas como las de nómina, sistemas de seguimiento de candidatos o sistemas y proveedores de prestaciones.
 - **Formación**: es posible que necesite un entorno independiente configurado con un conjunto de datos de entrenamiento para capacitar a sus empleados en el uso del nuevo sistema. 
 - **Proyecto multifase**: es posible que necesite un entorno adicional para la configuración, la migración de datos, las pruebas u otras actividades en una fase del proyecto que se planifica después de la puesta en funcionamiento inicial del proyecto.
 

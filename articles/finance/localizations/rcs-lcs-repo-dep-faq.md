@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
-ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
+ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7715239"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547993"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)
 
@@ -52,7 +52,7 @@ Importe todas las configuraciones requeridas desde LCS a RCS, y luego publíquel
 
 1. Si una instancia de RCS no está ya disponible, aprovisione una. Para más información, consulte [la descripción general de RCS](rcs-overview.md).
 2. En la instancia de RCS aprovisionada, para cada proyecto LCS en la biblioteca de activos que incluye configuraciones ER derivadas, registre el repositorio LCS apropiado.
-3. Importe las configuraciones ER de los repositorios LCS a RCS. Para más información, consulte [Importar configuraciones desde LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md).
+3. Importe las configuraciones ER de los repositorios LCS a RCS. Para más información, consulte [Importar configuraciones desde LCS](/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services).
 4. Si el repositorio Global no se proporciona automáticamente, regístrelo en RCS.
 5. Suba todas las configuraciones derivadas de la instancia RCS actual al repositorio Global. Utilice la función **Paquetes de configuración** para ayudar con la carga. Para más información, consulte [Carga del repositorio global de RCS](rcs-global-repo-upload.md).
 
@@ -104,4 +104,4 @@ Para obtener más información sobre el soporte del producto, consulte [Descripc
 
 ### <a name="whats-the-cost-of-using-rcs"></a>¿Cuál es el coste de usar RCS?
 
-RCS y el repositorio de globalización se proporcionan de forma gratuita como parte de las licencias de aplicaciones existentes de Finance and Operations. No hay costos separados asociados con el uso del servicio de diseño RCS o con el almacenamiento de configuraciones en el repositorio global. Actualmente no hay límite en el número de configuraciones o aplicaciones conectadas.
+RCS y el repositorio de globalización se proporcionan de forma gratuita como parte de las licencias de aplicaciones existentes de finanzas y operaciones. No hay costos separados asociados con el uso del servicio de diseño RCS o con el almacenamiento de configuraciones en el repositorio global. Actualmente no hay límite en el número de configuraciones o aplicaciones conectadas.

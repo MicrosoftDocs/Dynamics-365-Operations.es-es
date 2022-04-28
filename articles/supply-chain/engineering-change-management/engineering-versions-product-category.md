@@ -2,7 +2,7 @@
 title: Versiones de ingeniería y categorías de productos de ingeniería
 description: Este tema proporciona información sobre el concepto de versiones de ingeniería. Las versiones de ingeniería garantizan que los diferentes estados de un producto y sus datos se mantengan actualizados y claros, y que se puedan visualizar en el sistema.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572898"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553373"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versiones de ingeniería y categorías de productos de ingeniería
 
@@ -137,7 +137,7 @@ Para cada fila que agregue a la cuadrícula, configure los siguientes campos.
 |---|---|
 | Nombre | Seleccione el atributo para agregar. |
 | Valor | Seleccione el valor predeterminado para el atributo. |
-| Obligatoria | Para los atributos de tipo *Booleano*, si esta opción se establece en *Sí*, los usuarios deben establecer el atributo en *Sí*. Si esta opción se establece en *No*, los usuarios pueden establecer el atributo en *Sí* o *No*. Para otros tipos de datos, la configuración de esta opción es solo informativa. |
+| Obligatoria | Elija si el atributo es obligatorio, lo que significa que los usuarios deben especificar un valor válido para el atributo antes de poder guardar un producto. El efecto de esta configuración varía ligeramente según el tipo de datos del atributo seleccionado, como se define en la siguiente lista.<ul><li>**Booleano**: establézcalo en *Sí* exigir que el atributo tenga un valor de *Sí* (el sistema se negará a guardar un producto cuyo atributo esté establecido en *No*). Establezca esta opción en *No* para aceptar un valor de *Sí* o *No*. (Los atributos de tipo *Booleano* no puede tener un valor vacío).</li><li>**Entero o Decimal**: establézcalo en *Sí* para solicitar a los usuarios que introduzcan un valor distinto de cero para este atributo. Establézcalo en *No* para permitir que los usuarios guarden con valor cero.  (Los atributos de estos tipos no puede tener un valor vacío).</li><li>**Lista**: las listas tienen un tipo de datos de *Texto*, pero también incluyen una lista predefinida de valores posibles. Por lo tanto, no es posible introducir un valor en blanco para atributos de este tipo, por lo que esta configuración no tiene efecto y es solo informativa.</li><li>**Todos los demás tipos de datos**: establézcalo en *Sí* para hacer que el atributo sea obligatorio. Establezca esto en *No* para permitir a los usuarios guardar un producto sin proporcionar un valor para este atributo.</li></ul> |
 | Atributo de lote | Seleccione si el atributo debe propagarse a través de la funcionalidad por lotes. |
 
 ### <a name="readiness-policy-fasttab"></a>Ficha desplegable Política de preparación

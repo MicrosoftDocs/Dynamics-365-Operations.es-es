@@ -2,19 +2,19 @@
 title: Solución de problemas generales
 description: Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062347"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554610"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -29,20 +29,31 @@ Este tema proporciona información general para solución de problemas de integr
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 
+Los registros de seguimiento pueden ser útiles para solucionar problemas de sincronización en vivo de doble escritura entre Finance + Operations y Dataverse. Los registros pueden proporcionar detalles específicos a los equipos que brindan soporte técnico y de ingeniería para Dynamics 365. Este artículo cubre cómo habilitar los registros de seguimiento y cómo verlos. Los registros de seguimiento se administran en la página Configuración de Dynamics 365 y requieren privilegios de nivel de administrador para cambiarlos y verlos. 
+
 **Rol requerido para activar el registro de seguimiento y ver los errores:** Administrador del sistema
 
+### <a name="turn-on-the-trace-log"></a>Activar el registro de seguimiento
 Para activar el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación Customer Engagement, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
-2. En la página **Administración** , seleccione **Configuración del sistema**.
-3. En la pestaña **Personalización**, en la columna **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
+1.  En la barra de navegación superior, inicie sesión en Dynamics 365 y luego seleccione **Configuración**. En la página Sistemas, haga clic en **Administración**.
+2.  En la página Administración , haga clic en **Configuración del sistema**.
+3.  Seleccione la pestaña **Personalización** y el complemento, y luego, en la sección Seguimiento de actividad de flujo de trabajo personalizado, cambie el desplegable a **Todo**. Esto rastreará todas las actividades y proporciona un conjunto completo de datos para los equipos que deben revisar los posibles problemas.
 
+> [!NOTE]
+> Configurar el menú desplegable en **Excepción** solo proporcionará información de seguimiento cuando se produzcan excepciones (errores).
 
+Una vez habilitados, los registros de seguimiento del complemento se seguirán recopilando hasta que se desactiven manualmente regresando a esta ubicación y seleccionando **Desactivado**.
+
+### <a name="view-the-trace-log"></a>Ver el archivo de seguimiento
 Para ver el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación Customer Engagement, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complemento**.
-2. Encuentre los registros de seguimiento donde la columna **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
+1. En la página Configuración de Dynamics 365, seleccione **Configuración** en la barra de navegación superior. 
+2. Seleccione **Registro de seguimiento de complementos** en la sección **Personalizaciones** de la página.
+3. Puede encontrar entradas en la lista de registros de seguimiento, en función del nombre del tipo y/o el nombre del mensaje.
+4. Abra la entrada deseada para ver el registro completo. El bloque de mensajes en la sección Ejecución proporcionará información disponible para el complemento. Si está disponible, también se proporcionarán los detalles de la excepción. 
+
+Puede copiar el contenido de los registros de seguimiento y pegarlos en otra aplicación, como el Bloc de notas, u otras herramientas para ver registros o archivos de texto, para ver todo el contenido más fácilmente. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
 
@@ -69,6 +80,34 @@ Los errores de doble escritura que se originan en Dataverse puede aparecer en la
 5. Abra el visor de eventos.
 6. Seleccione **Registros de aplicaciones y servicios \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise la lista de errores recientes.
+
+## <a name="dual-write-ui-landing-page-showing-blank"></a>La página de inicio de la interfaz de usuario de doble escritura se muestra en blanco
+Al abrir la página de doble escritura en los navegadores Microsoft Edge o Google Chrome, la página de inicio no se carga y se ve una página en blanco, o un error como "Algo salió mal".
+En Devtools, aparece un error en los registros de la consola:
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+
+La interfaz de usuario utiliza el 'almacenamiento de sesión' del navegador para almacenar algunos valores de propiedad para cargar la página de inicio. Para que esto funcione, las cookies de terceros deben estar permitidas en el navegador del sitio. El error indica que la interfaz de usuario no puede acceder al almacenamiento de la sesión. Puede haber dos escenarios en los que se encuentre este problema:
+
+1.  Está abriendo la interfaz de usuario en modo de incógnito de Edge/Chrome y las cookies de terceros en modo de incógnito están bloqueadas.
+2.  Ha bloqueado las cookies de terceros por completo en Edge/Chrome.
+
+### <a name="mitigation"></a>Mitigación
+Las cookies de terceros deben estar permitidas en la configuración del navegador.
+
+### <a name="google-chrome-browser"></a>Navegador Google Chrome
+1.ª opción:
+1.  Vaya a la configuración introduciendo chrome://settings/ en la barra de direcciones y luego navegue hasta Privacidad y seguridad -> Cookies y otros datos del sitio.
+2.  Seleccione 'Permitir todas las cookies'. Si no desea hacer esto, vaya a la segunda opción.
+
+2.ª opción:
+1.  Vaya a la configuración introduciendo chrome://settings/ en la barra de direcciones y luego navegue hasta Privacidad y seguridad -> Cookies y otros datos del sitio.
+2.  Si está seleccionado 'Bloquear cookies de terceros en modo incógnito' o 'Bloquear cookies de terceros', vaya a 'Sitios que siempre pueden usar cookies' y haga clic en **Agregar**. 
+3.  Agregue el nombre del sitio de las aplicaciones de Finance + Operations: https://<your_FinOp_instance>.cloudax.dynamics.com. Asegúrese de seleccionar la casilla "Todas las cookies, solo en este sitio". 
+
+### <a name="microsoft-edge-browser"></a>Navegador Microsoft Edge
+1.  Vaya a Configuración -> Permisos del sitio -> Cookies y datos del sitio.
+2.  Desactive 'Bloquear cookies de terceros'.  
 
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular otro entorno Dataverse de una aplicación de Finanzas y operaciones
 
@@ -97,14 +136,14 @@ Para volver a habilitar la opción de formulario **Información**, siga estos pa
 
 Para solucionar algunos problemas, el equipo de soporte técnico puede tener que revisar trazas de red. Para crear una traza de red, siga estos pasos:
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Navegador Google Chrome
 
 1. En la pestaña abierta, presione **F12** o elija **Herramientas de desarrollo** para abrir las herramientas de desarrollo.
 2. Abra la pestaña **Red** y escriba **integ** en el cuadro de texto del filtro.
 3. Ejecute el escenario y observe las solicitudes que se registran.
 4. Haga clic con el botón secundario en las entradas y seleccione **Guardar todo como un HAR con contenido**.
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Navegador Microsoft Edge
 
 1. En la pestaña abierta, presione **F12** o elija **Herramientas de desarrollo** para abrir las herramientas de desarrollo.
 2. Abra la pestaña **Red**.

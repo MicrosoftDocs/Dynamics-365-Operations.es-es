@@ -2,7 +2,7 @@
 title: Introducción al cálculo de impuestos
 description: Este tema explica cómo configurar el cálculo de impuestos.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952530"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558324"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introducción al cálculo de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre cómo comenzar con el cálculo de impuestos. Las secciones en este tema le guían a través del diseño de alto nivel y pasos de configuración en Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
+Este tema proporciona información sobre cómo comenzar con el cálculo de impuestos. Las secciones de este tema le guían a través del diseño de alto nivel y pasos de configuración en Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
 
 La configuración consta de tres pasos principales.
 
@@ -36,7 +36,7 @@ La configuración consta de tres pasos principales.
 
 ## <a name="high-level-design"></a>Diseño de alto nivel
 
-### <a name="runtime-design"></a>Diseño de runtime
+### <a name="runtime-design"></a><a name="runtime"></a> Diseño de runtime
 
 En la ilustración siguiente se muestra el diseño de runtime de alto nivel del Cálculo de impuestos. Dado que el Cálculo de impuestos se puede integrar con varias aplicaciones de Dynamics 365, la ilustración utiliza la integración con Finance como ejemplo.
 
@@ -95,6 +95,14 @@ Antes de que pueda completar los procedimientos restantes de este tema, debe cum
 - Las siguientes funcionalidades deben estar activadas en el espacio de trabajo **Administración de características** de su entorno de RCS implementado.
 
     - Características de globalización
+
+- Los siguientes roles deben asignarse según corresponda a los usuarios en su entorno de RCS:
+
+    - Desarrollador de informes electrónicos
+    - Desarrollador de características de globalización
+    - Desarrollador de motor de impuestos
+    - Consultor funcional de motor de impuestos
+    - Desarrollador de servicios de impuestos
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Configurar el cálculo de impuestos en LCS
 
@@ -201,17 +209,23 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | ---------------- | --------- | ------- | ------------ |
     | Sales            | DEU       | DEU     | DEU_Nacional |
     | Sales            | DEU       | FRA     | DEU_UE       |
-    | Sales            | BEL       | BEL     | BEL_Nacional |
-    | Sales            | BEL       | FRA     | BEL_UE       |
+    | Ventas            | BEL       | BEL     | BEL_Nacional |
+    | Ventas            | BEL       | FRA     | BEL_UE       |
+    
+    > [!NOTE]
+    > Si el grupo de impuestos sobre las ventas predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este tema.
 
 22. En la pestaña **Aplicabilidad del grupo de impuestos de artículos**, seleccione las columnas necesarias para determinar el código de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos de artículos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos de artículos en la línea de transacción.
 
     He aquí un ejemplo.
 
-    | Código de artículo | Grupo de impuestos de artículos |
+    | Código de artículo | Grupo de impuestos del artículo |
     | --------- | -------------- |
     | D0001     | Completa           |
     | D0003     | Reducido        |
+
+    > [!NOTE]
+    > Si el grupo de impuestos sobre las ventas de artículos predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este tema.
 
     Para obtener más información sobre cómo se determinan los códigos de impuestos en Cálculo de impuestos, consulte [Lógica de determinación del grupo de impuestos y el grupo de impuestos de artículos](global-sales-tax-group-determination.md).
 

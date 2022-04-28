@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920209"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
 
@@ -57,7 +57,7 @@ Si desea activar o desactivar alguna de estas características, debe hacerlo en 
 | Adquisición y abastecimiento | Eliminar historial de actualización de pedido de compra | Esta característica le permite eliminar registros históricos temporales relacionados con actualizaciones de órdenes de compra. Agrega un nuevo botón llamado **Eliminar historial de actualización de compra** al panel de acciones en la página **Todas las órdenes de compra**. De forma predeterminada, esta característica está habilitada. |
 | Control de producción | (Versión preliminar) Selección automática de materiales habilitados para almacén para las listas de selección con registro automático | Esta característica permite seleccionar y resolver automáticamente dimensiones de inventario para diarios de lista de selección registrados automáticamente, derivados y de lista de selección previa. |
 | Control de producción | Validar la caducidad de las materias primas frente a la fecha de consumo planificada | Esta característica cambia la forma en que se validan las fechas de vencimiento de los lotes al reservar un lote de materia prima para utilizarlo durante la producción. Cuando esta característica está habilitada, la fecha de vencimiento del lote se valida con la fecha de consumo planificado (la fecha de la materia prima), según lo establecido en la línea de lista de materiales de producción o en la línea de fórmula de orden de lote. Cuando esta característica está desactivada, la fecha de vencimiento del lote se valida con la fecha de entrega planificada de la producción o el pedido del lote (como anteriormente). |
-| Ventas y marketing | Eliminar historial de actualización de ventas según la antigüedad | Esta función le permite establecer la antigüedad máxima de los registros que se deben mantener al ejecutar la tarea periódica **Limpieza del historial de actualización de ventas**. Se eliminarán los registros más antiguos. Esto es útil cuando configura la tarea para que se ejecute periódicamente porque el vencimiento siempre se calcula en relación con la fecha en que se ejecuta la tarea. Sin esta función, solo puede establecer una fecha específica para conservar los registros más antiguos. |
+| Ventas y marketing | Eliminar historial de actualización de ventas según la antigüedad | Esta función le permite establecer la antigüedad máxima de los registros que se deben mantener al ejecutar la tarea periódica **Limpieza del historial de actualización de ventas**. Se eliminarán los registros más antiguos. Esto es útil cuando configura la tarea para que se ejecute periódicamente porque el vencimiento siempre se calcula en relación con la fecha en que se ejecuta la tarea. Sin esta función, solo puede establecer una fecha específica para conservar los registros más antiguos. Para obtener más información, consulte [Programar la limpieza de datos del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventas y marketing | Mejorar el rendimiento de los 100 mejores clientes | Esta característica mejora el rendimiento del informe de clientes **Los 100 mejores** ejecutando siempre el informe en todos los clientes (que es su uso previsto) en lugar de permitir consultas personalizadas. Cuando esta característica está habilitada, todas las configuraciones de **Registros a incluir** están deshabilitadas en el cuadro de diálogo del informe **Los 100 mejores**. |
 | Gestión de almacenes | Compatibilidad de unidades de escalado para la liberación de pedidos salientes al almacén | Cuando esta característica está habilitada, los pedidos salientes se pueden liberar desde el centro directamente a la unidad de escalado, desde donde se van a cumplir los pedidos. |
 
@@ -79,9 +79,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 incluye Platform updates. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.23 de aplicaciones de Finance and Operations (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.23 de aplicaciones de Finanzas y Operaciones (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

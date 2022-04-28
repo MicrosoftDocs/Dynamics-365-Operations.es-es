@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920582"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570336"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novedades y cambios en la versión 10.0.19 de Dynamics 365 Supply Chain Management (junio de 2021)
 
@@ -50,7 +50,7 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 | Módulo | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
-| Ventas y marketing | Mejoras en el rendimiento de la limpieza del historial de ventas | La limpieza del historial de ventas puede llevar mucho tiempo si se ejecuta con poca frecuencia en entornos con un gran volumen de actualizaciones de ventas. Para reducir la duración y mejorar la fiabilidad, esta función divide la limpieza en lotes que se ejecutan por una duración limitada. Siempre que sea posible, se aprovecharán las capacidades de la base de datos para minimizar el bloqueo y evitar unir tablas transaccionales durante la limpieza. Para obtener más información, consulte [Mejoras de rendimiento de limpieza del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Ventas y marketing | Mejoras en el rendimiento de la limpieza del historial de ventas | La limpieza del historial de ventas puede llevar mucho tiempo si se ejecuta con poca frecuencia en entornos con un gran volumen de actualizaciones de ventas. Para reducir la duración y mejorar la fiabilidad, esta función divide la limpieza en lotes que se ejecutan por una duración limitada. Siempre que sea posible, se aprovecharán las capacidades de la base de datos para minimizar el bloqueo y evitar unir tablas transaccionales durante la limpieza. Para obtener más información, consulte [Programar la limpieza de datos del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventas y marketing | Actualizar la fecha de recepción solicitada con la fecha confirmada para pedidos entre empresas vinculadas | Esta función le permite controlar lo que sucederá con los valores del campo de fecha de compra y venta cuando utilice la entrega directa entre empresas. Puede elegir si el sistema actualizará las fechas solicitadas u omitirá actualizarlas. Si omite la actualización, las fechas solicitadas representarán lo que el cliente ha solicitado. Si habilita la actualización, las fechas solicitadas (cuando se usa el control de fecha de entrega) solo representan inicialmente lo que solicitó el cliente. Control de fecha de entrega, cuando sea diferente de *Ninguno*, anulará lo que se solicitó inicialmente. Puede configurar esta opción utilizando la nueva configuración **Actualizar la fecha de recepción solicitada con la fecha confirmada** en la configuración del proveedor de empresas vinculadas o cliente.<br><br>Si la función está desactivada, el sistema sobrescribirá la fecha de recepción solicitada en los pedidos de venta originales según la regla de control de la fecha de entrega, pero la fecha de envío solicitada permanecerá como está. |
 | Gestión de almacenes | Redondear cantidades por debajo a la unidad de ventas más cercana durante la liberación al almacén | Esta función agrega una opción que puede restringir las cantidades de los pedidos en el momento de su liberación al almacén. Cuando está habilitada, las cantidades de los pedidos se redondearán a la unidad de ventas completa más cercana y los pedidos que incluyan cantidades de menos de una unidad de ventas se rechazarán para su liberación. |
 | Gestión de almacenes | Método de oleada "Programar creación de trabajo" de toda la organización | Al habilitar esta función, el método de oleada *Programar creación de trabajo* se configura para ejecutarse en paralelo en todas las entidades legales. También se verán afectados varios ajustes adicionales. Para más información, consulte [Programar la creación del trabajo durante el lanzamiento](../warehousing/configure-wave-schedule-work-creation.md). |
@@ -70,9 +70,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.19 de aplicaciones Finance and Operations (junio de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 incluye Platform updates. Para obtener más información, consulte [Actualizaciones de la plataforma para la versión 10.0.19 de aplicaciones de Finanzas y Operaciones (junio de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

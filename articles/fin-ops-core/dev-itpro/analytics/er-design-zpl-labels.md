@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392972"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612367"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Diseñar una nueva solución de informes electrónicos para imprimir etiquetas ZPL
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Este tema explica cómo un usuario con el rol de Administrador del sistema, Desarrollador de informes electrónicos o Consultor funcional de informes electrónicos puede configurar los parámetros del marco de [Informes electrónicos (ER)](general-electronic-reporting.md), diseñar las [configuraciones](general-electronic-reporting.md#Configuration) de ER necesarias para una nueva solución de ER con el fin de acceder a los datos del sistema de Warehouse Management, y generar etiquetas personalizadas de ubicación de almacén en el formato del lenguaje de programación Zebra (ZPL) II. Estos pasos se pueden llevar a cabo en la empresa **USRT**.
 
@@ -69,7 +68,7 @@ Puede ver una versión editable del modelo de datos configurado en la página **
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Diseñar una asignación de modelo para el modelo de datos configurado
 
-Como usuario con el rol de Desarrollador de informes electrónicos, debe crear una nueva configuración de ER que contenga un componente de [asignación de modelo](er-overview-components.md#model-mapping-component) para el modelo de datos Warehouse. Este componente implementa el modelo de datos configurado para Dynamics 365 Finance, es específico para esa aplicación. Debe configurarlo para especificar los objetos de la aplicación que hay que usar para completar el modelo de datos configurado con los datos de la aplicación en tiempo de ejecución. Para completar esta tarea, debe entender cómo la estructura de datos del dominio empresarial de Warehouse Management se implementa en Finance.
+Como usuario con el rol de Desarrollador de informes electrónicos, debe crear una nueva configuración de ER que contenga un componente de [asignación de modelo](er-overview-components.md#model-mapping-component) para el modelo de datos Warehouse. Este componente implementa el modelo de datos configurado para Dynamics 365 Finance y es específico para esa aplicación. Debe configurarlo para especificar los objetos de la aplicación que hay que usar para completar el modelo de datos configurado con los datos de la aplicación en tiempo de ejecución. Para completar esta tarea, debe entender cómo la estructura de datos del dominio empresarial de Warehouse Management se implementa en Finance.
 
 ### <a name="import-a-model-mapping-configuration"></a>Importar una configuración de asignación de modelo
 

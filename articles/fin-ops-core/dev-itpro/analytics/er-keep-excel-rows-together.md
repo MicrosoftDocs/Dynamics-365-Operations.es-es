@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388598"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612381"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Diseñe un formato ER para mantener las filas juntas en la misma página de Excel
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Este tema explica cómo un usuario con el rol de administrador del sistema o Consultor funcional de Informes electrónicos puede configurar un [formato](er-overview-components.md#format-component) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes en Microsoft Excel y gestionar la paginación de documentos para que las filas que se creen se conserven en la misma página.
 
@@ -55,7 +54,7 @@ Siga los pasos de [Configurar el marco de ER](er-quick-start2-customize-report.m
 
 ## <a name="import-the-standard-er-format-configuration"></a>Importar configuraciones del formato estándar de ER
 
-Siga los pasos de [Importar la configuración de formato estándar de ER](er-quick-start2-customize-report.md#ImportERSolution1) para agregar las configuraciones de ER estándar a su instancia actual de Dynamics 365 Finance. Por ejemplo, importa la versión **252.116** de la configuración de la **Factura de servicios (Excel)**. Versión básica de la base **252** de la configuración del **Modelo de factura** que se importa automáticamente desde el repositorio junto con la configuración de la **Asignación del modelo de factura** necesaria.
+Siga los pasos de [Importar la configuración de formato estándar de ER](er-quick-start2-customize-report.md#ImportERSolution1) para agregar las configuraciones estńdar de ER a su instancia actual de Dynamics 365 Finance. Por ejemplo, importa la versión **252.116** de la configuración de la **Factura de servicios (Excel)**. Versión básica de la base **252** de la configuración del **Modelo de factura** que se importa automáticamente desde el repositorio junto con la configuración de la **Asignación del modelo de factura** necesaria.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Configurar la gestión de impresión para usar el formato ER estándar
 

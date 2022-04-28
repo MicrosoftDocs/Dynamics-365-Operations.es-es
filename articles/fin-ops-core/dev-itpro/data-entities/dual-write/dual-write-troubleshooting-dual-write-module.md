@@ -2,19 +2,19 @@
 title: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 description: Este tema proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061819"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565977"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 
@@ -70,6 +70,21 @@ Es posible que reciba el siguiente mensaje de error cuando intenta detener las a
 Este error ocurre cuando el entorno vinculado Dataverse no está disponible.
 
 Para solucionar el problema, cree un ticket para el equipo de integración de datos. Adjunte la traza de red para que el equipo de integración de datos pueda marcar los mapas como **No ejecutando** en el back-end.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Habilitar el procesamiento paralelo en las aplicaciones de finanzas y operaciones para mejorar el rendimiento
+
+Habilitar el procesamiento paralelo puede reducir el tiempo necesario para importar datos de las aplicaciones de finanzas y operaciones a las aplicaciones de participación del cliente y Microsoft Dataverse. 
+
+Para habilitar el procesamiento paralelo en las aplicaciones de finanzas y operaciones, realice los pasos siguientes.
+
+1. Inicie sesión en su entorno de finanzas y operaciones.
+2. Vaya a **Administración de datos > Parámetros de marco**.
+3. Seleccione **Configuración de la entidad** y seleccione **Configurar parámetros de ejecución de entidad**.
+4. Agregue los parámetros para el procesamiento paralelo:
+    - **Recuento de registros de umbral de importación**: el número de registros que se deben cumplir antes de que se habilite el procesamiento paralelo.
+    - **Importar recuento de tareas**: el número de subprocesos (tareas) para ejecutar en paralelo.
+5. Seleccione **Guardar**.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Errores al intentar iniciar una asignación de tabla
 

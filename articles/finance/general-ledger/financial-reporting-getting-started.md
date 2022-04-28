@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
-ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
+ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8527324"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573661"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a los informes financieros 
 
@@ -150,7 +150,7 @@ Puede crear un número ilimitado de organigramas para mostrar los datos de su or
 
 Las aplicaciones de Finanzas y Operaciones se actualizan todos los meses. Sin embargo, los informes financieros no se actualizan necesariamente con esa cadencia. Además, los clientes tienen más opciones sobre cuándo implementar actualizaciones para las aplicaciones de Finanzas y Operaciones. Las actualizaciones de informes financieros se instalan automáticamente. Los informes financieros tienen una versión designada que se utiliza en un entorno de cliente cuando se implementa una actualización de servicio, cuando se inicia el tiempo de inactividad o cuando el entorno de un cliente está en modo de mantenimiento. Este proceso se conoce como *deslizamiento* o *verdad hasta*, porque todas las implementaciones de los clientes están configuradas con la misma versión de informes financieros.
 
-Los cambios que se publican en cada versión se pueden encontrar en [Novedades y cambios en Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Las actualizaciones de la plataforma y las correcciones de errores se pueden encontrar en la sección "Recursos adicionales" en la parte inferior de la página de cada versión.
+Los cambios que se publican en cada versión se pueden encontrar en [Novedades y cambios de Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Las actualizaciones de la plataforma y las correcciones de errores se pueden encontrar en la sección "Recursos adicionales" en la parte inferior de la página de cada versión.
 
 La versión de deslizamiento seleccionada es una versión revisada y validada de los informes financieros que está lista para la producción. Es compatible con cualquier versión anterior o futura de Dynamics 365 Finance. Por ejemplo, los informes financieros pueden estar en la última compilación 10.0.19, mientras el cliente todavía tiene la versión 10.0.16 de la aplicación.
 
@@ -212,7 +212,7 @@ A continuación se incluyen algunos pasos que puede seguir para que su conversac
 Los siguientes pasos describen el proceso de activación de los mensajes del visor de eventos para Financial reporting. Los registros que genera el visor de eventos ayudarán a los ingenieros de soporte a identificar rápidamente el origen del problema de conexión. Envíe copias de estos registros junto con su vale cuando se comunique con el soporte técnico.
 
 
-1. Copie el archivo RegisterETW.zip en la estación de trabajo del cliente (preferiblemente el escritorio) y extraiga [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+1. Copie el archivo RegisterETW.zip en la estación de trabajo del cliente (preferiblemente el escritorio) y extraiga [RegisterETW.zip](https://mbs2.microsoft.com/fileexchange/?fileID=60b1106b-d5f8-4e0f-8041-039102505122).
 2. Asegúrese de que el visor de eventos de Windows esté cerrado.
 3. Abra un símbolo del sistema de Administrador de PowerShell y vaya al directorio donde se encuentra RegisterETW.ps1.
 4. Ejecute el siguiente comando: .\RegisterETW.ps1

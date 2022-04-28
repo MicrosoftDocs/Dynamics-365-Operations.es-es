@@ -2,7 +2,7 @@
 title: Crear pedidos de ventas
 description: Este procedimiento muestra cómo crear un pedido de ventas.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566320"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551735"
 ---
 # <a name="create-sales-orders"></a>Crear pedidos de ventas
 
@@ -66,5 +66,7 @@ Los productos vendidos por la organización pueden venir en variantes que se dif
     
 3. Seleccione **Aceptar**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Mejora del rendimiento de la creación del pedido de ventas
+La nueva característica introducida con la versión 10.0.26 de la aplicación reduce la creación de registros adicionales para tablas **SourceDocumentHeader** y **SourceDocumentLine**. Se mejora el rendimiento y se reduce el tamaño de almacenamiento porque estos registros no se crean. Estas tablas del marco del documento de origen subyacente no se usan para pedidos de ventas en el producto en este momento y no hay planes programados para utilizarlas. Habilitar esta función se considera un cambio seguro para mejorar el rendimiento. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

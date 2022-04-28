@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413615"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603065"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Configurar de informes electrónicos específicos de registros de gestión de impresión
 
@@ -35,9 +35,9 @@ Los procedimientos se pueden llevar a cabo en la empresa USMF. No se requiere co
 
 ## <a name="introduction"></a>Introducción
 
-Puede configurar [destinos](electronic-reporting-destinations.md) para cada carpeta del componente de salida de archivo de una [configuración](general-electronic-reporting.md#Configuration) de [formato](general-electronic-reporting.md#FormatComponentOutbound) de informe electrónico (ER) que se usa para generar un documento saliente. Si cuando ejecuta un formato de informe electrónico de este tipo tiene los derechos de acceso adecuados, también puede cambiar los ajustes de destino configurados en tiempo de ejecución.
+Puede configurar [destinos](electronic-reporting-destinations.md) para cada carpeta del componente de salida de archivo de una [configuración](general-electronic-reporting.md#Configuration) de [formato](general-electronic-reporting.md) de informe electrónico (ER) que se usa para generar un documento saliente. Si cuando ejecuta un formato de informe electrónico de este tipo tiene los derechos de acceso adecuados, también puede cambiar los ajustes de destino configurados en tiempo de ejecución.
 
-En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, se puede [configurar](er-apis-app10-0-17.md) un código de acción para un formato de informes electrónicos a fin de especificar la acción que realizan los usuarios al ejecutar ese formato de informes electrónicos. Por ejemplo, en el módulo **Clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informes electrónicos que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción para el formato de informes electrónicos en tiempo de ejecución, puede [configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario](er-action-dependent-destinations.md).
+En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, se puede [configurar](er-apis-app10-0-17.md) un código de acción para un formato de ER, a fin de especificar la acción que realizan los usuarios al ejecutar ese formato de informes electrónicos. Por ejemplo, en el módulo **Clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informes electrónicos que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción para el formato de informes electrónicos en tiempo de ejecución, puede [configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario](er-action-dependent-destinations.md).
 
 En la **versión 10.0.21 y posteriores** de Finance, se puede [configurar](er-apis-app10-0-21.md) un destino con nombre para un formato de informes electrónicos y asignarlo al registro de gestión de impresión que se procesa cuando se ejecuta ese formato de ER. Por ejemplo, en el módulo **Clientes**, en los ajustes de gestión de impresión, desea configurar el registro **Original** para realizar las siguientes acciones:
 

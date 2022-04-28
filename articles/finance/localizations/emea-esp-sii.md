@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d3455062584bdd18abedebe29ca9ff10f9327441
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 872beeb5f43e2bee1c08c10c02896074f5f20f8c
+ms.sourcegitcommit: 254922c904715a062515cf8a7238f3b2645ebf0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051463"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8549874"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -146,12 +146,12 @@ Para obtener más información sobre cómo configurar Key Vault, vea [Configurar
 
 | **Nombre del servicio Web** | **Descripción**                                                                                                                                                                                                                 | **Probar la dirección de Internet**                               |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| Factura clie.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas emitidas, y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                            | `https://www7.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP`  |
-| Factura de prov.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas recibidas, y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                          | `https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP`  |
-| Intracomunitario      | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas intracomunitarias y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                   | `https://www7.aeat.es/wlpl/SSII-FACT/ws/oi/SiiFactOIV1SOAP`  |
-| Pago de clie.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre pagos de clientes para tipos de factura específicos y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII. | `https://www7.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactCOBV1SOAP` |
-| Pago de prov.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre pagos a proveedores para tipos de factura específicos y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII.     | `https://www7.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactPAGV1SOAP` |
-| CollectionInCash     | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre transacciones de pagos en efectivo de clientes y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII.        | `https://www7.aeat.es/wlpl/SSII-FACT/ws/pm/SiiFactCMV1SOAP`  |
+| Factura clie.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas emitidas, y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                            | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactFEV1SOAP`  |
+| Factura de prov.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas recibidas, y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                          | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactFRV1SOAP`  |
+| Intracomunitario      | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre facturas intracomunitarias y envía una respuesta que contiene información sobre el procesamiento de facturas en el lado del sistema SII.                   | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/oi/SiiFactOIV1SOAP`  |
+| Pago de clie.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre pagos de clientes para tipos de factura específicos y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII. | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/fe/SiiFactCOBV1SOAP` |
+| Pago de prov.         | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre pagos a proveedores para tipos de factura específicos y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII.     | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/fr/SiiFactPAGV1SOAP` |
+| CollectionInCash     | Este servicio web es proporcionado por la AEAT. Se utiliza para enviar información sobre transacciones de pagos en efectivo de clientes y envía una respuesta que contiene información sobre el procesamiento en el lado del sistema SII.        | `https://prewww1.aeat.es/wlpl/SSII-FACT/ws/pm/SiiFactCMV1SOAP`  |
 
 Las direcciones de Internet están sujetas a cambios por la AEAT. Por lo tanto, le recomendamos que compruebe las direcciones de Internet reales en el [sitio web oficial del sistema SII](https://www.agenciatributaria.es/AEAT.internet/en_gb/SII.html). La documentación oficial también tiene información sobre las direcciones de Internet de *producción* reales que debe configurar.
 
@@ -550,8 +550,8 @@ La siguiente ilustración muestra el esquema del algoritmo para cada una de esta
 
 Para trabajar con la funcionalidad de mensajes electrónicos, debe definir secuencias numéricas relacionadas.
 
-1.  Vaya a **Impuestos** \> **Configuración** \> **Parámetros de contabilidad general**.
-2.  En la pestaña **Secuencias numéricas**, configure dos secuencias numéricas:
+1.  Vaya a **Impuesto** \> **Preparar** \> **Parámetros del libro mayor**.
+2.  En la pestaña **Secuencias numéricas** , configure dos secuencias numéricas:
 
     -   Mensaje
     -   Elemento de mensaje

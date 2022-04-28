@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371820"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603036"
 ---
 # <a name="create-a-globalization-feature"></a>Crear una característica de globalización
 
@@ -47,7 +47,7 @@ Para crear una característica de facturación electrónica, siga estos pasos.
 8. En la cuadrícula **Configuraciones**, busque y seleccione las configuraciones de formato que se requieren para la canalización de procesamiento (por ejemplo, para generar archivos de facturas electrónicas o procesar respuestas de servicios web externos).
 9. Seleccione **Aceptar**. Ahora puede usar las configuraciones en acciones de la canalización de procesamiento. Para obtener más información, consulte [Trabajar con configuraciones](e-invoicing-work-configurations.md).
 10. Para agregar una configuración de características de facturación electrónica, créela en la pestaña **Configuraciones** de la página **Nueva característica**. Para obtener más información, consulte [Trabajar con configuraciones de características](e-invoicing-feature-setup.md).
-11. Complete la configuración e implemente la característica de facturación electrónica en el entorno del servicio. Para obtener más información, consulte [Completar, publicar e implementar una característica de globalización](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Complete la configuración e implemente la característica de facturación electrónica en el entorno del servicio. Para obtener más información, consulte [Completar, publicar e implementar una característica de globalización](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Cree configuraciones de formato de archivo que se deriven del modelo de factura existente
 
@@ -91,4 +91,4 @@ Las nuevas configuraciones de formato de archivo deben compartirse con el domini
     - Revise las configuraciones, en caso de que deba personalizar los formatos de informes electrónicos y su vínculo con asignaciones de formatos para la versión de la característica.
     - Revise la configuración, en caso de que deba personalizar la pestaña **Acciones**, la pestaña **Reglas de aplicabilidad** o la pestaña **Variables** para la versión de la característica.
 
-9. Complete la configuración e implemente la característica de facturación electrónica en el entorno del servicio. Para obtener más información, consulte [Completar, publicar e implementar una característica de globalización](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Complete la configuración e implemente la característica de facturación electrónica en el entorno del servicio. Para obtener más información, consulte [Completar, publicar e implementar una característica de globalización](e-invoicing-complete-publish-deploy-globalization-feature.md).

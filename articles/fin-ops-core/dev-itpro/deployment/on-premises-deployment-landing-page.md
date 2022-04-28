@@ -4,7 +4,8 @@ description: Este tema proporciona información y vínculos al contenido acerca 
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712577"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566050"
 ---
-# <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
+# <a name="on-premises-deployment-home-page"></a>Página principal de la implementación local
 
 [!include [banner](../includes/banner.md)]
 
-Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
+Puede implementar Dynamics 365 Finance + Operations (on-premises). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
 
 ## <a name="get-started"></a>Introducción
 - [Visión general de la implementación local](on-premises-overview.md)
 - [Planificar y prepararse para implementaciones locales](plan-onprem-deployment.md)
 - [Requisitos del sistema para implementaciones locales](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Software compatible con Microsoft Dynamics 365 Finance + Operaciones (local)](onprem-compatibility.md)
+- [Software compatible con Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [Requisitos de dimensionamiento de hardware para entornos locales](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Comprar Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Comparación de características locales y en la nube](../../fin-ops/get-started/cloud-prem-comparison.md)

@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Spain
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0908646f1d0d0b47083ff4b3c707b57e9f6cb843bf86fa9c4b1b6daaaffab2f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee49c46f1f35cb1e4c0ec4bb97e3fb5d833002e5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725975"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566109"
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 

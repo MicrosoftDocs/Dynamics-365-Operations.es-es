@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752817"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)
 
@@ -816,7 +816,7 @@ Actualmente, Retail Modern POS solo está disponible como aplicación de Windows
 | Como proveedor, recoge la información acerca del importe de inventario consignado que se transfiere al cliente. | Para facturar a un cliente, el proveedor requiere información acerca de las materias primas que se han adquirido desde el inventario de envío y la fecha de la compra. El proveedor también puede supervisar el inventario disponible en la ubicación del cliente mediante la interfaz de colaboración de proveedor. |
 | Mover el inventario propiedad del proveedor mediante un diario de transferencia. | Para realizar un seguimiento de la posición física del inventario propiedad del proveedor, debería poder registrar la posición en el sistema. Mediante el uso de un diario de transferencia, puede registrar el movimiento físico del inventario, como el movimiento desde una ubicación en un almacén a otra en ese mismo almacén. |
 | Ajustar el inventario propiedad del proveedor mediante un diario de recuento. | Es importante que se conserve el inventario del sistema disponible sincronizado con el inventario físico real. El inventario propiedad del proveedor se puede ajustar dentro y fuera mediante procesos de recuento como procesos de ajuste de cantidad y diarios de recuento. |
-| Descubra más información acerca del soporte del envío en Dynamics 365 for Operations | Para obtener más información sobre el soporte para los procesos de envío, consulte [Envío](../../../supply-chain/inventory/consignment.md), [Configuración del envío](../../../supply-chain/inventory/set-up-consignment.md), [Crear un pedido de reabastecimiento de envío (Guía de tareas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), y [Cambiar la propiedad del inventario de envío en base a la demanda de la producción (Guía de tareas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Descubra más información acerca del soporte del envío en Dynamics 365 for Operations | Para obtener más información sobre el soporte para los procesos de envío, consulte [Envío](../../../supply-chain/inventory/consignment.md), [Configuración del envío](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Crear un pedido de reabastecimiento de envío (Guía de tareas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), y [Cambiar la propiedad del inventario de envío en base a la demanda de la producción (Guía de tareas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Colaboración del proveedor (conocido anteriormente como el Portal de proveedores)
 

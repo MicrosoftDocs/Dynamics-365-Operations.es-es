@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575785"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570461"
 ---
 # <a name="manage-folios"></a>Administrar folios
 
 [!include [banner](../../includes/banner.md)]
 
-Un folio suele estar determinado por las normas aduaneras. Puede constar de los productos de un proveedor para una entidad o empresa por envío. Los productos en un folio pueden estar en un contenedor o pueden estar esparcidos entre múltiples contenedores.
+Un folio suele estar determinado por las normas aduaneras. Puede constar de los productos de un proveedor para una entidad o empresa por envío. Las mercancías de un folio se gestionan en un contenedor.
 
 Para abrir la página **Todos los folios**, vaya a **Coste de aterrizaje \> Folios \> Todos los folios**. Esta página muestra una lista de todos los folios actuales. Puede utilizar los botones del Panel de acciones para crear, eliminar y trabajar con folios. Seleccione cualquier folio de la lista para ver sus detalles en la página **Folios**.
 

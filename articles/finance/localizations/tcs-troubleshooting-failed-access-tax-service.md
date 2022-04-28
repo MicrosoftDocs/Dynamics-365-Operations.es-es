@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 48a75cd0c1d91c3b3d9c3fb2e6cab93a76756532
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388562"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612327"
 ---
 # <a name="failed-to-access-tax-service"></a>Error al acceder al servicio de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Este tema explica cómo solucionar el error "Error al acceder al servicio de impuestos" del servicio de Cálculo de impuestos.
 
 ## <a name="symptoms"></a>Síntomas
 
-En Microsoft Dynamics 365 Finance, usted va a **Impuesto** \> **Configuración** \> **Configuración de impuestos** \> **Parámetros del servicio de impuestos**. En la pestaña **General**, habilite la opción **Habilitar cálculo de impuestos**. Si luego intenta seleccionar un valor en el campo **Nombre de configuración de funciones**, se produce un error. El mensaje de error dice: "Error al acceder al servicio de impuestos".
+En Microsoft Dynamics 365 Finance, vaya a **Impuesto** \> **Configuración** \> **Configuración de impuestos** \> **Parámetros del servicio de impuestos**. En la pestaña **General**, habilite la opción **Habilitar cálculo de impuestos**. Si luego intenta seleccionar un valor en el campo **Nombre de configuración de funciones**, se produce un error. El mensaje de error dice: "Error al acceder al servicio de impuestos".
 
 ## <a name="cause"></a>Causa
 

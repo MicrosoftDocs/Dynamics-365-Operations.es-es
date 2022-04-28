@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349752"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550016"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce analytics (versión preliminar)
 
@@ -352,15 +352,20 @@ La página **Informe de impresiones** incluye las siguientes métricas:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Habilitar y configurar Commerce analytics (versión preliminar)
 
-Para instalar Commerce analytics (versión preliminar), debe tener permisos para crear recursos en una suscripción de Azure. También debe tener permisos para instalar complementos en LCS. 
+Para instalar Commerce analytics (versión preliminar), debe tener permisos para crear recursos en una suscripción de Azure. También debe tener permisos para instalar complementos en LCS.
 
 Para habilitar y configurar Commerce analytics (versión preliminar), siga estos pasos.
 
-1. [Habilitar y configurar el complemento Exportar a Data Lake](#enableExportToDataLake).
-1. [Instalar y configurar un Azure Synapse workspace](#configureAzureSynapse).
-1. [Agregar secretos al almacén de claves](#addSecrets).
-1. [Habilitar y configurar el complemento Commerce analytics (versión preliminar)](#enableCommerceAnalyticsAddin).
-1. [Instalar la aplicación de plantillas Power BI](#powerbi).
+1. [Envíe el formulario de admisión en versión preliminar para Commerce analytics (versión preliminar)](#joinPreview)
+2. [Habilitar y configurar el complemento Exportar a Data Lake](#enableExportToDataLake).
+3. [Instalar y configurar un Azure Synapse workspace](#configureAzureSynapse).
+4. [Agregar secretos al almacén de claves](#addSecrets).
+5. [Habilitar y configurar el complemento Commerce analytics (versión preliminar)](#enableCommerceAnalyticsAddin).
+6. [Instalar la aplicación de plantillas Power BI](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Enviar el formulario de admisión de versión preliminar para Commerce analytics (versión preliminar)
+
+Envíe el [formulario de admisión de versión preliminar para Commerce analytics (versión preliminar)](https://forms.office.com/r/vW5VLJGXZ2). Una vez procesada la solicitud, se enviará un correo electrónico de confirmación a la dirección de correo electrónico que proporcionó en el formulario.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Habilitar y configurar el complemento Export a Data Lake
 

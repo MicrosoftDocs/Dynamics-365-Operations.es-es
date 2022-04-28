@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983426"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570392"
 ---
 # <a name="landed-cost-module"></a>Módulo de costo descargado
 
@@ -39,7 +39,7 @@ El costo de entrega proporciona estimaciones de costos precisas y oportunas para
 
 ### <a name="voyages"></a>Viajes
 
-En el costo de aterrizaje, un viaje es un movimiento distinto desde una ubicación de salida, a través de un conjunto específico de destinos durante un período específico, a una ubicación de almacén de entrada específica. Los pedidos de compra y las líneas de pedido se pueden agregar a un solo contenedor o a varios contenedores para un viaje, y los costos se asignarán correctamente a la línea del artículo. Los pedidos y las líneas de pedido también se pueden agregar entre entidades legales para un solo viaje.
+En el costo de aterrizaje, un viaje es un movimiento distinto desde una ubicación de salida, a través de un conjunto específico de destinos durante un período específico, a una ubicación de almacén de entrada específica. Los pedidos de compra y las líneas de pedido se pueden agregar a un solo contenedor o a varios contenedores para un viaje, y los costos se asignarán correctamente a la línea del artículo. 
 
 ### <a name="item-ownership"></a>Propiedad del artículo
 

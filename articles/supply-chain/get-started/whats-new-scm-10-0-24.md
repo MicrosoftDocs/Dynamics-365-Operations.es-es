@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087559"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570293"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.24 (febrero de 2022)
 
@@ -63,7 +63,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 | Planificación maestra | [Usar el diario de existencias de seguridad para actualizar la cobertura mínima para artículos](../master-planning/safety-stock-journal.md) |
 | Control de producción | [Personalizar la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-customize.md) |
 | Control de producción | [Estilo de la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-styles.md) |
-| Ventas y marketing | [Mejoras de rendimiento de limpieza del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
+| Ventas y marketing | [Programar la limpieza de datos del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Gestión de almacenes | [Cuentas de usuario de dispositivo móvil](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Recursos adicionales

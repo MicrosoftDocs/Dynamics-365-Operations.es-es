@@ -13,22 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 5b87499042c9c4bfe76e182b170adf4f1cfeac4b
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388563"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612300"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Lista de funciones de impuestos vacía en los parámetros de cálculo de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="symptom"></a>Síntoma
 
-Publicó una característica en el Regulatory Configuration Service (RCS), para que pueda usarla en Microsoft Dynamics 365 Finance. Sin embargo, cuando abra Finance, vaya a **Impuestos** \> **Configuración** \> **Configuración de impuestos** \> **Parámetros de cálculo de impuestos** e intente seleccionar un valor en el campo **Nombre de configuración de funciones**, la lista de valores está vacía.
+Ha publicado una característica en Regulatory Configuration Service (RCS), para que pueda usarla en Microsoft Dynamics 365 Finance. Sin embargo, cuando abra Finance, vaya a **Impuestos** \> **Configuración** \> **Configuración de impuestos** \> **Parámetros de cálculo de impuestos** e intente seleccionar un valor en el campo **Nombre de configuración de funciones**, la lista de valores está vacía.
 
 ## <a name="reason"></a>Motivo
 
