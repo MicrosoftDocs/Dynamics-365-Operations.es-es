@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384434"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645001"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -74,9 +74,9 @@ La lista de trabajos activos tiene las siguientes columnas:
 
 ## <a name="my-jobs-tab"></a>Pestaña Mis trabajos
 
-La pestaña **Mis trabajos** permite a los trabajadores ver fácilmente todos los trabajos no iniciados y sin terminar que se les asignan específicamente. Es útil en empresas donde los trabajos a veces o siempre se asignan a trabajadores específicos (recursos humanos) en lugar de otros tipos de recursos (como máquinas). 
+La pestaña **Mis trabajos** permite a los trabajadores ver fácilmente todos los trabajos no iniciados y sin terminar que se les asignan específicamente. Es útil en empresas donde los trabajos a veces o siempre se asignan a trabajadores específicos (recursos humanos) en lugar de otros tipos de recursos (como máquinas).
 
-El sistema de programación asigna automáticamente cada trabajo de producción a un registro de recursos específico y cada registro de recursos tiene un tipo (como máquina o humano). Cuando configura a un empleado como trabajador de producción, puede asociar la cuenta del trabajador con un registro de recursos humanos único. 
+El sistema de programación asigna automáticamente cada trabajo de producción a un registro de recursos específico y cada registro de recursos tiene un tipo (como máquina o humano). Cuando configura a un empleado como trabajador de producción, puede asociar la cuenta del trabajador con un registro de recursos humanos único.
 
 La pestaña **Mis trabajos** enumera todos los trabajos no iniciados y sin terminar que se han asignado al registro de recursos humanos del trabajador que inició sesión, si hay algún trabajador que haya iniciado sesión. Nunca enumera los trabajos que se han asignado a una máquina u otro tipo de recurso, incluso si el trabajador que inició sesión comenzó a trabajar en esos trabajos.
 
@@ -87,7 +87,7 @@ Para ver todos los trabajos iniciados por el trabajador que inició sesión, ind
 ## <a name="my-machine-tab"></a>Pestaña Mi máquina
 
 La pestaña **Mi maquina** permite a los trabajadores seleccionar un activo que está conectado a un recurso de máquina dentro del filtro establecido en la pestaña **Todos los trabajos**. Luego, el trabajador puede ver el estado y la salud del activo seleccionado leyendo los valores de hasta cuatro contadores seleccionados y listas de solicitudes de mantenimiento recientes y tiempos de inactividad registrados. El trabajador también puede solicitar mantenimiento para el activo seleccionado y registrar y editar el tiempo de inactividad de la máquina. (El nombre de esta pestaña se puede personalizar y puede ser diferente para su sistema).
- 
+
 ![La pestaña Mi máquina.](media/pfei-my-machine-tab.png "La pestaña Mi máquina")
 
 La pestaña **Mi maquina** tiene las siguientes columnas. Los números se corresponden con los números de la ilustración anterior.
@@ -202,9 +202,9 @@ Se pueden realizar las siguientes acciones:
 - Si el trabajador selecciona **OK**, la lista de selección no se elimina. Se publicará cuando el trabajo se informe en el cuadro de diálogo **Informar de rechazo** o **Informar sobre el progreso**.
 - Si el trabajador selecciona **Cancelar** en el cuadro de diálogo **Informar del progreso** o **Notificar residuo**, la lista de selección se elimina.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Ajuste el material desde la barra de herramientas de la derecha
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Ajuste el material desde la barra de herramientas principal o secundaria
 
-El botón **Ajustar material** se puede configurar para que aparezca en la barra de herramientas de la derecha. (Para más información, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md)). Un trabajador puede seleccionar **Ajustar material** para un trabajo de producción que está en curso. En este caso, aparece el cuadro de diálogo **Ajustar material**, donde el trabajador puede hacer los ajustes deseados. Cuando se abre el cuadro de diálogo, se crea una lista de selección de producción que contiene líneas para las cantidades ajustadas para la orden de producción. Si el trabajador selecciona **Publicar ahora**, se confirma el ajuste y se contabiliza la lista de selección. Si el trabajador selecciona **Cancelar**, se elimina la lista de selección y no se hace ningún ajuste.
+El botón **Ajustar material** se puede configurar para que aparezca en la barra de herramientas principal o secundaria. (Para más información, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md)). Un trabajador puede seleccionar **Ajustar material** para un trabajo de producción que está en curso. En este caso, aparece el cuadro de diálogo **Ajustar material**, donde el trabajador puede hacer los ajustes deseados. Cuando se abre el cuadro de diálogo, se crea una lista de selección de producción que contiene líneas para las cantidades ajustadas para la orden de producción. Si el trabajador selecciona **Publicar ahora**, se confirma el ajuste y se contabiliza la lista de selección. Si el trabajador selecciona **Cancelar**, se elimina la lista de selección y no se hace ningún ajuste.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Ajustar el consumo de material para artículos con peso capturado
 
@@ -260,6 +260,42 @@ En ambos escenarios, después de que Shannon confirme su selección, va a la pá
 Los trabajadores pueden registrar descansos. Los descansos se pueden definir de manera flexible, como se describe en [Pago basado en registros](pay-based-on-registrations.md).
 
 Un trabajador registra una pausa seleccionando **Descanso** y seleccionando a continuación la tarjeta que representa el tipo de descanso (por ejemplo, almuerzo). Una vez que el trabajador ha confirmado la selección, el dispositivo muestra la página de inicio de sesión o una página que esperará a que el trabajador confirme que ha regresado del descanso. La página que aparece depende de la configuración de la interfaz de ejecución de la planta de producción. (Para obtener más información, vea [Configurar la interfaz de ejecución de la planta de producción](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Ver el cuadro de diálogo "Mi día"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+El diálogo **Mi día** proporciona a los trabajadores una visión general de sus registros y saldos. El diálogo se divide en las siguientes tres secciones:
+
+- La sección principal enumera los registros que el trabajador actual realizó en una fecha seleccionada. Se abre mostrando los registros para el día actual y proporciona un selector de fechas que permite al trabajador ver otros días.
+- La sección **Último saldo diario calculado** muestra los saldos actuales del trabajador por tiempo pagado, horas extra pagadas, ausencia y ausencia pagada. Estos valores se basan en los registros que se han calculado durante el proceso de aprobación.
+- La sección **Saldos** proporciona una descripción general de los saldos en un período definido para categorías seleccionadas de registros (como vacaciones, tiempo estándar y horas extra). Estos saldos se basan en la forma en que se configuran los saldos estadísticos en el módulo **Tiempo y asistencia**. Para obtener más información sobre cómo configurar esto, consulte [Mostrar saldos de vacaciones en la interfaz de ejecución de la planta de producción](production-floor-execution-payroll-stats.md).
+
+Los administradores pueden agregar esta característica a la interfaz colocando el botón **Mi día** en una barra de herramientas para cada pestaña relevante como se describe en [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Trabajar en equipos
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Cuando se asigna a varios trabajadores al mismo trabajo de producción, pueden formar un equipo. El equipo puede designar a un trabajador como piloto. Los trabajadores restantes se convierten automáticamente en asistentes de ese piloto. Para el equipo resultante, solo el piloto debe registrar el estado del trabajo. Los registros de tiempo se aplican a todos los miembros del equipo.
+
+### <a name="prerequisites"></a>Requisitos previos
+
+Para usar equipos, un administrador debe habilitar la acción **Asistente** para la barra de herramientas principal en la pestaña **Todos los trabajos** de la interfaz de ejecución de la planta de producción. Para instrucciones, vea [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Formar un nuevo equipo que tenga un piloto y un asistente
+
+Un trabajador puede registrarse como asistente seleccionando **Asistente** en la pestaña **Todos los trabajos**. A continuación, en el cuadro de diálogo **Seleccionar empleado al cual asistir** que aparece, el trabajador puede seleccionar un piloto en una lista de trabajadores que están trabajando activamente en un trabajo. Una vez que el trabajador confirma su selección, se convierte en asistente del trabajador seleccionado, quien se convierte en el piloto del nuevo equipo.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Asignar un nuevo piloto a un equipo existente
+
+Cuando un equipo quiere seleccionar un nuevo piloto, el piloto actual debe designar a otro trabajador del equipo como nuevo piloto. Para designar a un nuevo piloto, el piloto actual selecciona **Asistente** en la pestaña **Todos los trabajos**. A continuación, en el cuadro de diálogo **Cambiar piloto** que aparece, el piloto puede seleccionar un nuevo piloto en una lista de trabajadores que ya están en el equipo. Después de que el piloto actual confirme su selección, se elimina del equipo por completo. Sin embargo, puede reincorporarse al equipo cuando lo requiera.
+
+### <a name="assistant-clocks-out"></a>Un asistente ficha la salida
+
+Cuando un empleado que trabaja como asistente ficha la salida, deja el equipo. Si las opciones **Equipos permanentes** y **Reiniciar a la hora de entrada** están configuradas como *Sí*, un trabajador que ficha la salida se reincorporará automáticamente al equipo la próxima vez que fiche la entrada. Puede encontrar estas opciones en la pestaña **General** de la página **Parámetros de Tiempo y asistencia**.
 
 ## <a name="opening-instructions"></a>Instrucciones de apertura
 

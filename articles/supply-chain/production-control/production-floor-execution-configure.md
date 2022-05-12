@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384756"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644408"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -111,17 +111,67 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 - *(Versión preliminar) Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción*
 
+### <a name="enable-the-my-day-dialog"></a>Habilitar el cuadro de diálogo "Mi día"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+El cuadro de diálogo **Mi día** proporciona a los trabajadores una descripción general de sus registros diarios y saldos actuales de tiempo pagado, horas extra pagadas, ausencias y ausencias pagadas.
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Vista "Mi día" de la interfaz de ejecución de la planta de producción*
+
+### <a name="enable-teams"></a>Habilitar equipos
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Cuando se asigna a varios trabajadores al mismo trabajo de producción, pueden formar un equipo. El equipo puede designar a un trabajador como piloto. Los trabajadores restantes se convierten automáticamente en asistentes de ese piloto. Para el equipo resultante, solo el piloto debe registrar el estado del trabajo. Los registros de tiempo se aplican a todos los miembros del equipo.
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Equipos de producción en la interfaz de ejecución de la planta de producción*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar configuración adicional en la interfaz de ejecución de la planta de producción
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Esta característica agrega configuraciones para la siguiente funcionalidad a la página **Configurar ejecución de planta de producción**:
+
+- Abra automáticamente el cuadro de diálogo **Iniciar trabajo** cuando se completa una búsqueda.
+- Abra automáticamente el cuadro de diálogo **Informar de progreso** cuando se completa una búsqueda.
+- Llene previamente la cantidad restante en el cuadro de diálogo **Informar de progreso**.
+- Habilite los ajustes de consumo de material desde el cuadro de diálogo **Informar de progreso**. (Esta funcionalidad también requiere la característica *Registrar el consumo de material en la interfaz de ejecución de la planta de producción (no WMS)*).
+- Habilitar búsquedas por id. de proyecto
+
+Más adelante en este tema se ofrece información sobre cómo utilizar los ajustes.
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Configuración adicional de la interfaz de ejecución de la planta de producción*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 
 Para crear y mantener configuraciones de ejecución de la planta de producción, vaya a **Control de producción \> Configuración \> Ejecución de fabricación \> Configurar la ejecución de la planta de producción**. La página **Configurar la ejecución de la planta de producción** muestra una lista de configuraciones existentes. En esta página , puede realizar las acciones siguientes:
 
 - Seleccione cualquier configuración de planta de producción que figure en la lista de la columna izquierda para verla y editarla.
-- Seleccione **Nuevo** en el panel Acciones para agregar una nueva configuración a la lista. A continuación, en el campo **Configuración**, escriba un nombre para identificar la nueva configuración. El nombre que especifique aquí debe ser único entre todas las configuraciones, y no podrá editarlo más tarde.
+- En el panel de Acciones, seleccione **Nuevo** para agregar una nueva configuración a la lista. A continuación, en el campo **Configuración**, escriba un nombre para identificar la nueva configuración. El nombre que especifique aquí debe ser único entre todas las configuraciones, y no podrá editarlo más tarde. En el campo **Descripción**, puede introducir opcionalmente una descripción de la configuración.
 
-A continuación, configure los distintos ajustes para la configuración seleccionada. Están disponibles los siguientes campos:
+A continuación, configure los diversos ajustes para la configuración seleccionada, como se describe en las siguientes subsecciones.
 
-- **Ficha de entrada y salida solamente** - Establezca esta opción en *Sí* para crear una interfaz simplificada que solo proporcione funciones de reloj de entrada y salida. Esto desactiva la mayoría de las otras opciones de esta página. Debe eliminar todas las líneas de la ficha desplegable **Selección de pestaña** antes de que pueda habilitar esta opción.
+### <a name="the-general-fasttab"></a>La ficha desplegable General
+
+Las siguientes configuraciones están disponibles en la ficha desplegable **General**.
+
+- **Ficha de entrada y salida solamente** - Establezca esta opción en *Sí* para crear una interfaz simplificada que solo proporcione funciones de reloj de entrada y salida. Esta configuración desactiva la mayoría de las otras opciones de esta página. Debe eliminar todas las líneas de la ficha desplegable **Selección de pestaña** antes de que pueda habilitar esta opción.
 - **Habilitar búsqueda**: establezca esta opción en *Sí* para incluir un campo de búsqueda en la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras.
+- **Habilitar búsqueda por ID de proyecto**: establezca esta opción en *Sí* para permitir que los trabajadores busquen por ID de proyecto (además de ID de trabajo e ID de pedido) en el campo de búsqueda de la interfaz de ejecución de la planta de producción. Puede establecer esta opción en *Sí* solo cuando la opción **Habilitar búsqueda** también está establecida en *Sí*.
+- **Abrir automáticamente el cuadro de diálogo de inicio**: cuando esta opción está habilidad en *Sí*, el cuadro de diálogo **Iniciar trabajo** se abre automáticamente cuando los trabajadores utilizan la barra de búsqueda para encontrar un trabajo.
+- **Abrir automáticamente el cuadro de diálogo de informar de progreso**: cuando esta opción está habilidad en *Sí*, el cuadro de diálogo **Informar de progreso** se abre automáticamente cuando los trabajadores utilizan la barra de búsqueda para encontrar un trabajo.
+- **Habilitar ajustar material**: establezca esta opción en *Sí* para habilitar el botón **Ajustar material** en el cuadro de diálogo **Informar del progreso**. Los trabajadores pueden seleccionar este botón para ajustar el consumo de material para el trabajo.
 - **Informar de cantidad a la salida del trabajo**: establezca esta opción en *Sí* para solicitar a los trabajadores que aporten comentarios sobre los trabajos en curso al salir del trabajo. Cuando se establece en *No*, no se avisará a los trabajadores.
 - **Bloquear empleado**: cuando esta opción se establece en *No*, se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). La interfaz volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí*, los trabajadores permanecerán conectados a la interfaz de ejecución de la planta de producción. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras la interfaz de ejecución de la planta de producción continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
 - **Usar el tiempo real de registro**: establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No*, se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí*, si ha establecido las opciones **Bloquear empleado** o **Trabajador único**, en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.
@@ -130,7 +180,17 @@ A continuación, configure los distintos ajustes para la configuración seleccio
 - **Duración del bloqueo de pantalla**: cuando la opción **Permitir bloqueo de pantalla táctil** está establecida en *Sí*, use esta opción para especificar la cantidad de segundos que la pantalla táctil debe estar bloqueada para su limpieza. La duración debe estar entre 5 y 120 segundos.
 - **Generar matrícula**: establezca esta opción en *Sí* para generar una nueva matrícula cada vez que un trabajador usa la interfaz de ejecución de la planta de producción para informar como terminado. El número de matrícula de entidad de almacén se genera a partir de una secuencia numérica configurada en la página **Parámetros de gestión de almacén**. Cuando esta opción se establece en *No*, los trabajadores deben especificar una matrícula existente al informar de la conclusión.
 - **Etiqueta de impresión**: establezca esta opción en *Sí* para imprimir una etiqueta de matrícula cuando un trabajador usa la interfaz de ejecución de la planta de producción para informar de su conclusión. La configuración de la etiqueta se configura en la ruta del documento, como se describe en [Diseño de ruta de documento para etiqueta de matrícula](../warehousing/document-routing-layout-for-license-plates.md).
-- **Selección de pestaña** - Utilice la configuración de esta sección para elegir qué pestañas debe mostrar la interfaz de ejecución de la planta de producción cuando la configuración actual está activa. Puede diseñar tantas pestañas como necesite y luego agregarlas y organizarlas aquí según sea necesario. Para obtener detalles sobre cómo diseñar pestañas y trabajar con la configuración aquí, consulte [Diseñar la interfaz de ejecución del piso de producción](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>La ficha desplegable Selección de Pestaña
+
+Use la configuración en la ficha desplegable **Selección de pestaña** para elegir qué pestañas debe mostrar la interfaz de ejecución de la planta de producción cuando la configuración actual está activa. Puede diseñar tantas pestañas como necesite, y luego añadirlas y organizarlas como desee utilizando los botones de la barra de herramientas de la ficha desplegable. Para obtener información sobre cómo diseñar pestañas y trabajar con la configuración aquí, consulte [Diseñar la interfaz de ejecución del piso de producción](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>La ficha desplegable Informar del progreso
+
+Las siguientes configuraciones están disponibles en la ficha desplegable **Informar del progreso**.
+
+- **Habilitar ajustar material**: establezca esta opción en *Sí* para incluir el botón **Ajustar material** en el cuadro de diálogo **Informar del progreso**. Los trabajadores pueden seleccionar este botón para ajustar el consumo de material para el trabajo.
+- **Cantidad restante predeterminada**: establezca esta opción en *Sí* para completar previamente la cantidad restante esperada para un trabajo de producción en el cuadro de diálogo **Informar del progreso**.
 
 ## <a name="clean-up-job-configurations"></a>Limpiar configuraciones de trabajo
 

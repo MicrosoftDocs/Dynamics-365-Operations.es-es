@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 5c587f4e6a1dd58a7b8c238fc5afb16774828b2a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782690"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644397"
 ---
 # <a name="iot-intelligence-home-page"></a>Página principal de Inteligencia de IoT
 
@@ -37,32 +37,35 @@ Inteligencia de IoT es un complemento para Microsoft Dynamics 365 Supply Chain M
 
 Inteligencia de IoT admite los siguientes escenarios:
 
-+ **Retrasos en la producción** - Este escenario compara el tiempo de ciclo real con el tiempo de ciclo planificado. Supply Chain Management le notifica cuando la producción no está según lo programado, para que pueda intervenir para maximizar la eficiencia operativa y evitar retrasos en los pedidos.
-+ **Tiempo de inactividad del equipo** - Este escenario compara el tiempo de actividad medido con los parámetros definidos por el usuario. Supply Chain Management le notifica cuando se excede un umbral de interrupción, para que pueda tomar acciones como reprogramar una orden de trabajo de producción o crear una orden de trabajo de mantenimiento.
-+ **Calidad del producto** - Este escenario compara las lecturas de los sensores, como la humedad y la temperatura, con las métricas de calidad definidas por el usuario. Supply Chain Management le notifica cuando ocurre una desviación, para que pueda intervenir para mantener los estándares de calidad y minimizar el desperdicio.
+- **Retrasos en la producción** - Este escenario compara el tiempo de ciclo real con el tiempo de ciclo planificado. Supply Chain Management le notifica cuando la producción no está según lo programado, para que pueda intervenir para maximizar la eficiencia operativa y evitar retrasos en los pedidos.
+- **Tiempo de inactividad del equipo** - Este escenario compara el tiempo de actividad medido con los parámetros definidos por el usuario. Supply Chain Management le notifica cuando se excede un umbral de interrupción, para que pueda tomar acciones como reprogramar una orden de trabajo de producción o crear una orden de trabajo de mantenimiento.
+- **Calidad del producto** - Este escenario compara las lecturas de los sensores, como la humedad y la temperatura, con las métricas de calidad definidas por el usuario. Supply Chain Management le notifica cuando ocurre una desviación, para que pueda intervenir para mantener los estándares de calidad y minimizar el desperdicio.
 
 La siguiente ilustración muestra la interacción de Azure IoT Hub, Inteligencia de IoT y Supply Chain Management.
 
 ![IoT Hub, Inteligencia de IoT y Supply Chain Management.](media/iot_intelligence.png)
 
-## <a name="setup"></a>Configurar
+<!-- KFM: hide setup info for now
 
-Puede instalar y configurar Inteligencia de IoT sin escribir ningún código. Estos son los pasos básicos.
+## Setup
 
-1. [Configurar recursos de Azure](iot-azure-setup.md) - Cree un centro de IoT, una caché de Redis y una bóveda de claves a las que se pueda acceder desde Supply Chain Management.
-2. [Formatos de esquema de mensajes para IoT Hub](iot-schema-format.md) - Configure sus dispositivos para enviar mensajes a IoT Hub y defina el formato de mensaje de notación de objetos JavaScript (JSON).
-3. En Gestión de funciones, habilite la marca de función de Inteligencia de IoT. 
-4. [Instale el complemento Inteligencia de IoT en Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) - Instale el complemento en LCS y configure los secretos de Azure.
-5. [Configurar métricas](iot-metrics-setup.md) - Configurar métricas en Supply Chain Management.
-6. [Configuración de escenario](iot-scenario-setup.md) - Configurar los escenarios en Supply Chain Management.
+You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
+
+1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
+2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
+3. In Feature Management, enable the IoT Intelligence feature flag. 
+4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
+5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
+6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
+
+-->
 
 ## <a name="tracking-and-maintenance"></a>Seguimiento y mantenimiento
 
-+ [Supervisar escenarios en Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-+ [Deshabilitar un escenario](iot-scenario-setup.md#disable-a-scenario)
-+ [Desinstalar el complemento](iot-lcs-setup.md#uninstall-addin)
-+ [Modificar un escenario de Inteligencia IoT en ejecución](iot-management.md#modify-a-running-iot-intelligence-scenario)
-+ [Opciones de simulación](iot-management.md#simulation-options)
+- [Supervisar escenarios en Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
+- [Deshabilitar un escenario](iot-scenario-setup.md#disable-a-scenario)
+- [Modificar un escenario de Inteligencia IoT en ejecución](iot-management.md#modify-a-running-iot-intelligence-scenario)
+- [Opciones de simulación](iot-management.md#simulation-options)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

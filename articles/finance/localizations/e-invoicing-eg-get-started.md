@@ -1,6 +1,6 @@
 ---
 title: Facturación electrónica para Egipto
-description: Este tema proporciona información que le ayudará a comenzar con la Facturación electrónica para Egipto en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
+description: Este tema proporciona información que le ayudará a comenzar con la Facturación electrónica para Egipto en Microsoft en Microsoft Dynamics 365 Finance y Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371365"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661733"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Facturación electrónica para Egipto
 
@@ -41,8 +41,8 @@ Antes de que pueda comenzar los procedimientos de este tema, complete los siguie
     - [Configurar los recursos de Azure para la facturación electrónica](e-invoicing-set-up-azure-resources.md)
     - [Instalar el complemento para microservicios en Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Active la integración entre su aplicación Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management y el servicio de Facturación Electrónica como se describe en [Activar y configurar la integración con Facturación Electrónica](e-invoicing-activate-setup-integration.md).
-- Cree un secreto de certificado digital en Azure Key Vault y configúrelo como se describe en [Certificados y secretos de clientes](e-invoicing-customer-certificates-secrets.md). Para fines de prueba, la autoridad fiscal egipcia proporciona certificados digitales de prueba específicos que deben usarse solo durante las fases de prueba y validación de la solución. Para obtener más información, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo que se proporciona en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Active la integración entre su aplicación Microsoft Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management y el servicio de Facturación Electrónica como se describe en [Activar y configurar la integración con Facturación Electrónica](e-invoicing-activate-setup-integration.md).
+- Cree un secreto de certificado digital en Azure Key Vault y configúrelo como se describe en [Certificados y secretos de clientes](e-invoicing-customer-certificates-secrets.md). Para fines de prueba, la autoridad fiscal egipcia proporciona certificados digitales de prueba específicos que deben usarse solo durante las fases de prueba y validación de la solución. Para obtener más información, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo que se proporciona en el [SDK de facturación electrónica egipcia](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Configuración específica del país para la característica de factura electrónica egipcia (EG)
 
@@ -56,7 +56,7 @@ Algunos de los parámetros de la **Característica de facturación electrónica 
 6. En la pestaña **Canalización de procesamiento**, en la sección **Canalización de procesamiento**, seleccione **Firmar el documento json para la autoridad fiscal egipcia**.
 7. En la sección **Parámetros**, seleccione **Nombre del certificado** y luego seleccione el nombre del certificado digital que creó.
 8. En la sección **Canalización de procesamiento**, seleccione **Integrarse con el servicio ETA egipcio**. Repita este paso para las dos apariciones de esta acción.
-9. En la sección **Parámetros**, seleccione **URL de servicio web** y **URL de inicio de sesión de servicio**. A continuación, revise los parámetros de URL. Para obtener la URL de pruebas y producción, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo proporcionado en el [SDK de facturación electrónica egipcia](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. En la sección **Parámetros**, seleccione **URL de servicio web** y **URL de inicio de sesión de servicio**. A continuación, revise los parámetros de URL. Para obtener la URL de pruebas y producción, vaya al sitio web de la autoridad fiscal egipcia utilizando el vínculo proporcionado en el [SDK de facturación electrónica egipcia](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Seleccione **Guardar** y cierre la página.
 11. Repita los pasos del 4 al 10 para la configuración de características **Factura de proyecto derivada**.
 

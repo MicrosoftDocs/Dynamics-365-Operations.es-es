@@ -2,7 +2,7 @@
 title: Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B
 description: Este tema describe cómo configurar el método de pago de la cuenta del cliente en Microsoft Dynamics 365 Commerce. También describe cómo los límites de crédito afectan la captura de pagos a cuenta en sitios de comercio electrónico de empresa a empresa (B2B).
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323364"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616841"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B
 
@@ -82,20 +82,20 @@ Los valores que la propiedad **Tipo de límite de crédito** admite son **Ningun
 
 Otra propiedad que afecta los pedidos a cuenta es **Límite de crédito obligatorio**, que se encuentra en la ficha desplegable **Crédito y cobros** del registro del cliente. Al establecer esta propiedad en **Sí** para clientes específicos, puede obligar al sistema a verificar su límite de crédito, incluso si la propiedad **Tipo de límite de crédito** se ha establecido en **Ninguno** para especificar que el límite de crédito no debe comprobarse para ningún cliente.
 
-Actualmente, los sitios B2B donde la propiedad **Límite de crédito obligatorio** está habilitada tiene funcionalidad adicional. Si la propiedad está habilitada en un registro de cliente, cuando el cliente realiza un pedido, el sitio B2B le impide usar el método de pago a cuenta para pagar más que el saldo de crédito restante. Por ejemplo, si el saldo de crédito restante del cliente es de 1000 $, pero el pedido vale 1200 $, el cliente puede pagar solo 1000 $ mediante el método a cuenta. Deben usar algún otro método de pago para pagar el saldo. Si la propiedad **Límite de crédito obligatorio** está deshabilitada en un registro de cliente, el cliente puede pagar cualquier cantidad utilizando el método de pago a cuenta. Sin embargo, aunque un cliente puede realizar pedidos, el sistema no permitirá que se cumplan esos pedidos si superan el límite de crédito. Si debe verificar el límite de crédito para todos los clientes que son elegibles para pagos a cuenta, le recomendamos que configure la propiedad **Tipo de límite de crédito** a **Saldo + albarán o recibo del producto** y la propiedad **Límite de crédito obligatorio** a **No**.
+Actualmente, un cliente que utiliza el método de pago a cuenta no puede pagar más que el saldo de crédito restante de un pedido. Por ejemplo, si el saldo de crédito restante de un cliente es de 1000 $, pero el pedido vale 1200 $, el cliente puede pagar solo 1000 $ mediante el método a cuenta. Entonces, el cliente debe usar algún otro método de pago para pagar el saldo. En una versión futura, una configuración de Commerce permitirá a los usuarios gastar más allá de su límite de crédito al realizar pedidos.
 
 El módulo **Crédito y cobros** tiene nuevas capacidades de gestión de crédito. Para activar estas funciones, habilite la característica **Gestión de créditos** en el espacio de trabajo **Administración de características**. Una de las nuevas funciones permite poner en espera los pedidos de venta según las reglas de bloqueo. La persona del administrador de crédito puede liberar o rechazar los pedidos después de un análisis más detallado. Sin embargo, la capacidad de poner pedidos de venta en espera no se aplica a los pedidos de Commerce, porque los pedidos de venta a menudo tienen un prepago y la característica **Gestión de créditos** no es totalmente compatible con los escenarios de prepago. 
 
 Independientemente de si la característica **Gestión de créditos** está habilitada, si el saldo de un cliente supera el límite de crédito durante el proceso de entrega del pedido, los pedidos de venta no quedarán en espera. En su lugar, Commerce generará un mensaje de advertencia o un mensaje de error, según el valor del campo **Mensaje que aparece al exceder el límite de crédito** en la ficha rápida **Límites de crédito**.
 
-La propiedad **Excluir de administración de crédito** que evita que los pedidos de venta de Commerce queden en espera se encuentra en el encabezado del pedido de venta (**Retail y Commerce \> Clientes \> Todos los pedidos de venta**). Si esta propiedad se establece en **Sí** (el valor predeterminado) para los pedidos de venta de Commerce, los pedidos se excluirán del flujo de trabajo en espera de la gestión de créditos. Tenga en cuenta que, aunque la propiedad se llame **Excluir de administración de crédito**, el límite de crédito definido seguirá utilizándose durante el proceso de entrega del pedido. Los pedidos simplemente no quedarán en espera.
+La propiedad **Excluir de administración de crédito** que evita que los pedidos de venta de Commerce queden en espera se encuentra en el encabezado del pedido de venta (**Retail y Commerce \> Clientes \> Todos los pedidos de venta**). Si esta propiedad se establece en **Sí** (el valor predeterminado) para los pedidos de venta de Commerce, los pedidos se excluirán del flujo de trabajo en espera de la gestión de créditos. Aunque la propiedad se llame **Excluir de administración de crédito**, el límite de crédito definido seguirá utilizándose durante el proceso de entrega del pedido. Los pedidos simplemente no quedarán en espera.
 
 La capacidad de poner en espera los pedidos de venta de Commerce en función de las reglas de bloqueo está planificada para futuras versiones de Commerce. Hasta que sea compatible, si debe obligar a los pedidos de venta de Commerce a pasar por los nuevos flujos de administración de crédito, puede personalizar los siguientes archivos XML en su solución de Visual Studio. En los archivos, modifique la lógica para que el indicador **CredManExcludeSalesOrder** se establezca en **No**. De esta manera, la propiedad **Excluir de la administración de crédito** se establecerá en **No** por defecto para los pedidos de venta de Commerce.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Tenga en cuenta que, si el indicador **CredManExcludeSalesOrder** se establece en **No** y un cliente B2B puede comprar en las tiendas mediante la aplicación de punto de venta (PDV), es posible que falle el registro de las transacciones de efectivo y transporte. Por ejemplo, hay una regla de bloqueo en el tipo de pago en efectivo y el cliente B2B compró algunos artículos en la tienda usando efectivo. En este caso, el pedido de venta resultante no se facturará correctamente porque quedará en espera. Por lo tanto, el registro fallará. Por este motivo, le recomendamos que realice pruebas de un extremo a otro después de implementar esta personalización.
+Sii el indicador **CredManExcludeSalesOrder** se establece en **No** y un cliente B2B puede comprar en las tiendas mediante la aplicación de punto de venta (PDV), es posible que falle el registro de las transacciones de efectivo y transporte. Por ejemplo, hay una regla de bloqueo en el tipo de pago en efectivo y el cliente B2B compró algunos artículos en la tienda usando efectivo. En este caso, el pedido de venta resultante no se facturará correctamente porque quedará en espera. Por lo tanto, el registro fallará. Por este motivo, le recomendamos que realice pruebas de un extremo a otro después de implementar esta personalización.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

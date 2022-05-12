@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487653"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649168"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -57,7 +57,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 
 | Característica | Problema mencionado | Explicación | Disponibilidad prevista |
 | --- | --- | --- | --- |
-| Acciones | Grupos de cobertura con el cálculo de acciones habilitado: _\#_ | Esta característica está pendiente. Actualmente, las acciones no se generan durante la planificación maestra cuando la optimización de la planificación está habilitada, independientemente de esta configuración. El objetivo principal de las acciones es sugerir cambios en los pedidos existentes. Evalúe si las acciones se aplican activamente como parte de sus procesos comerciales o si la información de demora relacionada con los pedidos es suficiente. | 2022 de abril |
+| Acciones | Grupos de cobertura con el cálculo de acciones habilitado: _\#_ | Esta característica está pendiente. Actualmente, las acciones no se generan durante la planificación maestra cuando la optimización de la planificación está habilitada, independientemente de esta configuración. El objetivo principal de las acciones es sugerir cambios en los pedidos existentes. Evalúe si las acciones se aplican activamente como parte de sus procesos comerciales o si la información de demora relacionada con los pedidos es suficiente. | Compatible |
 | Calendarios base | Calendarios que usan el calendario base: _\#_ | Esta característica ahora se admite. | 2022 de marzo | 
 | Códigos de disposición de lote | Maestros de disposición de lote no incluidos: _\#_ | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. | Octubre de 2022 o posterior |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: _\#_ | Esta característica está pendiente. Actualmente, CTP se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | 2022 de octubre |

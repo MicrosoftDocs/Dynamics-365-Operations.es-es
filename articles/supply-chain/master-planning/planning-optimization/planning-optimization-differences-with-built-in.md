@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468339"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618271"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferencias entre la planificación maestra incorporada y Optimización de planificación
 
@@ -37,6 +37,7 @@ Los resultados de Optimización de planificación pueden diferir de los resultad
 | Diagrama de árbol de existencias de seguridad y requisitos netos | El tipo de requisito *Stock de seguridad* no se incluye y no se muestra en la página **Requisitos netos**. El stock de seguridad no representa la demanda y no tiene una fecha de requisito asociada. En cambio, establece una restricción sobre la cantidad de inventario que debe estar presente en todo momento. Sin embargo, el valor de campo **Mínimo** se sigue teniendo en cuenta al calcular las órdenes planificadas durante la planificación maestra. Le sugerimos que inspeccione la columna **Cantidad acumulada** de la página **Requisitos netos** para ver cómo se consideró este valor. |
 | Calendarios de transporte | Se ignora el valor de la columna **Calendario de transporte** de la página **Modos de entrega**. |
 | Código de cobertura mínima/máxima sin valores| Con el motor de planificación integrado, cuando utiliza un código de cobertura mínimo/máximo en el que no se establecen valores mínimos ni máximos, el motor de planificación trata el código de cobertura como un requisito y crea un pedido para cada requisito. Con la optimización de la planificación, el sistema creará un pedido por día para cubrir el monto total de ese día.  |
+| Requisitos netos y pedidos previsionales creados manualmente | Con el motor de planificación incorporado, los pedidos de suministro creados manualmente para un artículo aparecen automáticamente entre los requisitos netos de ese artículo. Por ejemplo, al crear un pedido de compra a partir de un pedido de ventas, el pedido de ventas aparece en la página **Requisitos netos** sin necesidad de realizar ninguna acción previa. Esto se debe a que el motor de planificación integrado registra las transacciones de inventario en la tabla `inventLogTTS` y muestra los cambios en la página **Requisitos netos** para planes dinámicos. Sin embargo, con la Optimización de la planificación, los pedidos creados manualmente no aparecerán entre los requisitos netos de un artículo hasta que se ejecute la Optimización de la Planificación (usando un plan que incluya el artículo), o hasta que seleccione **Actualizar \> Planificacion maestra** en el Panel de Acciones en la página **Requisitos netos**, que ejecutará la planificación maestra para el artículo. Para obtener más información sobre cómo trabajar con la página **Requisitos netos**, consulte [Requisitos netos e información de diagrama de árbol con la Optimización de la Planificación](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781598"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645088"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instalar el complemento Inteligencia IoT en LCS
 
 [!include [banner](../../includes/banner.md)]
 
 Este tema explica cómo instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS). Tenga en cuenta que los complementos no se pueden instalar en un entorno de demostración/prueba. Para poder instalar el complemento, debe [crear los recursos de Azure](iot-azure-setup.md).
+
+Puede instalar y configurar Inteligencia de IoT sin escribir ningún código. Estos son los pasos básicos.
+
+1. [Configurar recursos de Azure](iot-azure-setup.md) - Cree un centro de IoT, una caché de Redis y una bóveda de claves a las que se pueda acceder desde Supply Chain Management.
+2. [Formatos de esquema de mensajes para IoT Hub](iot-schema-format.md) - Configure sus dispositivos para enviar mensajes a IoT Hub y defina el formato de mensaje de notación de objetos JavaScript (JSON).
+3. En Gestión de funciones, habilite la marca de función de Inteligencia de IoT.
+4. Instale el complemento Inteligencia de IoT en Microsoft Dynamics Lifecycle Services (LCS) - Instale el complemento en LCS y configure los secretos de Azure. (como se describe en este tema).
+5. [Configurar métricas](iot-metrics-setup.md) - Configurar métricas en Supply Chain Management.
+6. [Configuración de escenario](iot-scenario-setup.md) - Configurar los escenarios en Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Configurar el entorno LCS
 

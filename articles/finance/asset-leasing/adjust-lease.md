@@ -2,7 +2,7 @@
 title: Ajustar arrendamientos
 description: El tema explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729663"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644566"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamientos
 
@@ -134,5 +134,19 @@ Si se ha ajustado un arrendamiento, puede ver las diferentes versiones de este. 
 2. Para ver programaciones históricas, abra el arrendamiento modificado desde la página **Resumen de arrendamiento**, seleccione el libro deseado y, a continuación, en el Panel de acciones, seleccione **Historial de versiones del libro**.
 3. En la página **Versión del libro**, seleccione una versión y una programación a ver.
 
+## <a name="adjust-a-lease-book"></a>Ajustar un libro de arrendamiento
+
+Para ajustar un libro de arrendamiento solo, siga estos pasos.
+
+1. Vaya a **Arrendamiento de activos** \> **Arrendamientos** \> **Resumen de arrendamiento**.
+2. Seleccione y abra un arrendamiento.
+3. En la página **Detalles del arrendamiento**, seleccione **Libros**.
+4. En la página **Detalles del libro**, en el panel Acciones, en el grupo **Mantener**, seleccione **Ajustar libro**. 
+5. Elimar las líneas de programación de pagos
+6. En el campo **Fecha de modificación del arrendamiento**, escriba la fecha de modificación. Luego, considere eliminar todas las consideraciones adicionales de activos/pasivos (coste directo inicial, incentivo de arrendamiento, pago anticipado por arrendamiento, coste de desmantelamiento y garantía de valor residual), si las hubiera. 
+7. Para ayudar a evitar cálculos inexactos para el ajuste del arrendamiento, agregue nuevas líneas de programación de pago para las nuevas fechas de pago que coincidan con la fecha de modificación. 
+
+> [!NOTE] 
+> Le recomendamos que utilice el asistente **Ajuste de arrendamiento** para ajustar un arrendamiento. El asistente reduce la cantidad de pasos manuales, proporciona una vista previa de los saldos después del ajuste y le permite cambiar los montos antes de contabilizarlos.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Administrar metadatos de SEO
 description: Este tema describe cómo administrar los metadatos de la optimización de motor de búsqueda (SEO) en Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751576"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644768"
 ---
 # <a name="manage-seo-metadata"></a>Administrar metadatos de SEO
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tema describe cómo administrar los metadatos de la optimización de motor de búsqueda (SEO) en Microsoft Dynamics 365 Commerce.
 
@@ -62,17 +63,21 @@ Dynamics 365 Commerce le permite administrar metadatos SEO para páginas individ
 ### <a name="modify-page-metadata"></a>Modificar metadatos de página
 
 Para modificar metadatos de página, siga estos pasos.
-
 1. En **Sitios**, seleccione **Fabrikam** (o el nombre del sitio).
 1. En el panel de navegación de la izquierda, seleccione **Páginas**.
 1. Seleccione la página principal para abrirla en el editor de páginas.
 1. En la barra de comandos, seleccione **Editar**.
-1. En el panel de propiedades de la derecha, expanda **Etiquetas META predeterminadas**.
-1. Para agregar una nueva etiqueta META, seleccione **Agregar** y después introduzca la etiqueta en el campo. Para quitar un etiqueta META existente, seleccione el símbolo de papelera que se encuentra a su derecha.
+1. En el editor de páginas, en la parte superior del control de contorno de la página a la izquierda, seleccione el (símbolo de engranaje) **Opción de modo de esquema** y, a continuación, seleccione **Vista de esquema avanzada**.
+1. En la vista de esquema, expanda los controles de árbol para mostrar el contenido de la ranura **Encabezado HTML**.
+1. En la ranura **Encabezado HTML**, seleccione el módulo SEO deseado (por ejemplo, **Resumen de la página**, **Resumen de la página del producto**, **Resumen de la página de categoría** o **Metaetiquetas**).
+1. En el panel de propiedades de la derecha, edite los datos SEO deseados para el módulo SEO seleccionado (por ejemplo, **Título**, **Descripción** o **Compartir imagen**).
 1. Seleccione **Guardar** y, a continuación, seleccione **Finalizar edición**.
-1. En el campo **Comentarios**, especifique **Etiquetas META actualizadas** y, a continuación seleccione **Aceptar**.
+1. En el campo **Comentarios**, escriba **Datos SEO actualizados** y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Vista previa** para obtener una vista previa de la página. Cuando haya terminado, cierre la pestaña de vista previa para volver a la herramienta de creación.
 1. Seleccione **Publicar**.
+
+> [!TIP]
+> Los autores pueden utilizar el (símbolo de engranaje) **Opción de modo de esquema** en la parte superior del control de contorno izquierdo en el editor de páginas para cambiar entre **Vista de esquema básica** y **Vista de esquema avanzada**. **Vista de esquema básica** es la configuración predeterminada y filtra el esquema para que muestre solo los módulos en la ranura HTML **Cuerpo** para una página. **Vista de esquema avanzada** muestra todo el módulo de la página, incluidas las ranuras **Encabezado HTML**, **Comienzo del cuerpo** y **Fin del cuerpo**. Esta vista es útil cuando los autores deben editar la configuración específica del módulo de script o SEO para una página.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -2,7 +2,7 @@
 title: Información general de control presupuestario
 description: Este tema presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986065"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644860"
 ---
 # <a name="budget-control-overview"></a>Información general de control presupuestario
 
@@ -80,7 +80,9 @@ A continuación, en la pestaña **Fondos presupuestarios disponibles**, puede de
 > [!NOTE]
 > Si este cálculo se modifica durante el ciclo presupuestario, los cambios no afectarán a los documentos que pasaron anteriormente las comprobaciones de control presupuestario y que se registraron o completaron. Una característica llamada **Realizar un seguimiento de los montos en el cálculo de los fondos presupuestarios disponibles** le permite cambiar qué datos se siguen en las tablas de BudgetSourceTracking. Cuando esta función está activada, las cantidades se almacenan solo si se seleccionan para usarse en el cálculo de los fondos presupuestarios disponibles. Para obtener más información, consulte [Fondos presupuestarios disponibles](budget-funds-available.md).
 
-A continuación, en la pestaña **Documentos y diarios**, puede seleccionar qué documentos de origen y diarios estarán sujetos a comprobaciones de control presupuestario y si las comprobaciones se producirán en el nivel de la entrada de línea o para el documento completo. 
+### <a name="documents-and-journals"></a>Documentos y diarios
+
+En la pestaña **Documentos y diarios**, puede seleccionar qué documentos de origen y diarios estarán sujetos a comprobaciones de control presupuestario y si las comprobaciones se producirán en el nivel de la entrada de línea o para el documento completo. Además, la nueva característica **Mejora del filtrado de documentos de control presupuestario** que está disponible a partir de la versión 10.0.27 Microsoft Dynamics 365 Finance proporciona una opción de filtro basada en consultas para cada documento que se incluye en el control presupuestario. Por lo tanto, puede especificar qué documentos de control presupuestario se verifican en el presupuesto. De esta manera, la característica permite que solo se verifique el presupuesto de un subconjunto de un tipo de documento. Por ejemplo, puede verificar solo las órdenes de compra donde el campo **Pool** se establece en **01**. Una nueva columna que se añade a la pestaña **Documentos y diarios** indica si una consulta está definida para el tipo de documento seleccionado. Además, dos nuevos botones que se agregan a la barra de herramientas sobre la cuadrícula del documento le permiten agregar, editar o eliminar filtros. 
 
 Los documentos de origen que se seleccionen deben coincidir con las casillas para los saldos que se incluyen en el cálculo de los fondos presupuestarios disponibles. Por ejemplo, si ha seleccionado **Reservas de presupuesto para reservas de gasto**, debe seleccionar la opción **Pedidos de compra**. Al realizar una comprobación presupuestaria con los importes y las cuentas de una línea de compra, se asigna a la reserva la categoría de control presupuestario **Reserva de gasto**. Al realizar una comprobación presupuestaria con los importes y las cuentas de una solicitud de compra, la categoría de control presupuestario que se asigna a la reserva es **Pre-reserva de gasto**. 
 

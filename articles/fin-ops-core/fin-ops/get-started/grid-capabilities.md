@@ -2,7 +2,7 @@
 title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602974"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644425"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -106,7 +106,7 @@ Para usar esta característica, haga clic con el botón derecho en la columna qu
 - Número de filas de datos en este grupo
 - Subtotales para cualquier columna configurada para mostrar totales
 
-Con [Vistas guardadas](saved-views.md) habilitado, esta agrupación se puede guardar mediante personalización como parte de una vista para un acceso rápido la próxima vez que visite la página.
+Con [Vistas guardadas](saved-views.md) habilitado, puede guardar la agrupación como parte de una vista en páginas que permiten guardar consultas en vistas. Por ejemplo, aquellos con selectores de vista grandes. Consulte la sección [Cambiar entre vistas](saved-views.md#switching-between-views) para obtener más información. 
 
 ### <a name="multiple-levels-of-grouping"></a>Múltiples niveles de agrupación
 Una vez que haya agrupado los datos en una sola columna, puede agrupar los datos en una columna diferente seleccionando **Agrupar por esta columna** en la columna deseada. Este proceso se puede repetir hasta que tenga 5 niveles anidados de agrupación, que es la profundidad máxima admitida. En este punto, ya no podrá agrupar por columnas adicionales.

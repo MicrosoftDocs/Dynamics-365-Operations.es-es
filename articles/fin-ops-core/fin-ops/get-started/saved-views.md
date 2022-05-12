@@ -2,7 +2,7 @@
 title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065715"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644798"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -45,7 +45,7 @@ Una vez que las vistas se hayan puesto a disposición para un entorno, en la par
 
 Existen dos variantes de tamaño en selector de la vista: 
 
-- **Selectores grandes de vista**: las páginas que cuentan con una lista prominente tendrán un selector de imagen mayor por varios motivos. Lo que es más importante, el selector de imagen mayor indica las páginas en la vista que pueden incluir los filtros definidos por el usuario. Dado que los filtros se incluyen en las vistas, el tamaño mayor de selector también se garantiza ya que los nombres de vista son normalmente la mejor descripción de los datos que se muestran en la pantalla y la expectativa es que los usuarios cambiarán entre las vistas más a menudo en estos tipos de la página.
+- **Selectores grandes de vista**: las páginas que cuentan con una lista prominente tendrán un selector de imagen mayor por varios motivos. Lo que es más importante, el selector de imagen mayor indica las páginas en la vista que pueden incluir los filtros y ordenaciones definidos por el usuario. Dado que los filtros y ordenaciones se incluyen en las vistas, el tamaño mayor de selector también se garantiza ya que los nombres de vista son normalmente la mejor descripción de los datos que se muestran en la pantalla y la expectativa es que los usuarios cambiarán entre las vistas más a menudo en estos tipos de la página. La agrupación en una cuadrícula también se puede guardar en vistas en una página con selectores de vistas grandes. 
 - **Selectores de vista pequeños**: el resto de las páginas a pantalla completa (con excepción de los espacios de trabajo y el panel) tienen un selector de vista más pequeño que aparece junto a la leyenda de la página. Las vistas en estas páginas incluyen solo personalizaciones y los filtros no definido por el usuario.. En estas páginas, la leyenda de la página o título de registro es normalmente la información más importante en la parte superior de la página. El tamaño más pequeño del selector de vistas también refleja una frecuencia esperada inferior de conmutación de estas páginas. 
  
 Si selecciona el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página

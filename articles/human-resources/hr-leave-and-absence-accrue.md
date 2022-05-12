@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533723"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644313"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planes de bajas y ausencias
 
@@ -105,8 +105,10 @@ Eliminar registros de acumulación para un plan e intervalo de fechas específic
 **Auditoría de acumulación de permisos** se muestra cada vez que ejecuta o elimina una acumulación para uno o todos los empleados. También se muestra la fecha y la persona que realizó la acción.
 
 1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
-
 2. Debajo de **Administrar bajas**, seleccione **Eliminar auditoría de acumulaciones de permisos**.
+
+## <a name="leave-accrual-rounding"></a>Redondeo de acumulación de bajas
+Cuando un empleado está inscrito o no inscrito, el redondeo de la acumulación de licencias se prorrateará. Anteriormente, el redondeo solo se permitía cuando un plan de licencia se configuraba para prorratear y un empleado se inscribía o cancelaba durante la mitad del período. Las acumulaciones de licencias ahora se redondearán independientemente de la inscripción/cancelación de la inscripción a la mitad del período o al comienzo de un período.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Auditoría de transacciones de acumulación de bajas
 

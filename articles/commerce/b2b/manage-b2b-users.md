@@ -2,7 +2,7 @@
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 description: Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323464"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616866"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323464"
 Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
 
 > [!NOTE]
-> El tema [Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md) es un requisito previo para este documento. 
+> - El tema [Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md) es un requisito previo para este documento.
+> - Asegúrese de inicializar la entidad de tipos de documentos en la sede de Commerce abriendo el formulario **Tipos de documentos** en **Administración de la organización \> Gestión de documentos \> Tipos de documentos**.
 
 Los sitios web de comercio electrónico B2B requieren que las organizaciones se registren para convertirse en socios comerciales. Una vez que una organización envía los datos de registro a un sitio web de comercio electrónico B2B, la solicitud de registro pasa por un proceso de calificación. Si la organización logra calificarse, se incorpora como socio comercial.
 

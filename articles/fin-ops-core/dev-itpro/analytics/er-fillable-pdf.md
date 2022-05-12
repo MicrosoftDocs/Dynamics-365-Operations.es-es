@@ -2,7 +2,7 @@
 title: Diseñar las configuraciones de ER para completar las plantillas de PDF
 description: Este tema proporciona información acerca de cómo diseñar un informe electrónico (ER) para completar una plantilla de PDF.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367865"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645118"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Diseñar las configuraciones de ER para completar las plantillas de PDF
 
@@ -252,10 +252,14 @@ Dado que ambas propiedades son opcionales para un elemento de formato **Campo**,
 - Si se define el atributo **Nombre**, y la expresión **Nombre** está configurada, el campo de PDF con el mismo nombre que el valor devuelto por la expresión **Nombre** del artículo de formato se rellena.
 
 > [!NOTE]
-> Una casilla de comprobación de PDF se puede completar de las siguientes formas:
+> Cuando una casilla de verificación en la plantilla PDF no pertenece a un grupo de casillas de verificación, se representa en el formato ER editable como un elemento de **Campo** que está anidado bajo el elemento **Archivo PDF**. Esta casilla de verificación del tipo de PDF puede establecerse como seleccionada de las siguientes maneras:
 >
-> - Cuando el elemento correspondiente del formato **Campo** está enlazado a un campo del origen de datos del tipo de datos **Booleano** tiene el valor **Verdad**
-> - Cuando el elemento correspondiente del formato **Campo** contiene un elemento anidado del formato **Cadena** que se ha enlazado a un campo del origen de datos con el valor de texto **1**, **Verdad**, o **Sí**
+> - El elemento correspondiente del formato **Campo** está enlazado a un campo del origen de datos del tipo de datos *[Booleano](er-formula-supported-data-types-primitive.md#boolean)* que tiene un valor de **Verdad**.
+> - El elemento correspondiente del formato **Campo** contiene un elemento anidado del formato **Cadena** que se ha enlazado a un campo del origen de datos con el valor de texto **1**, **Verdad**, o **Sí**.
+>
+> Su plantilla puede contener un grupo de casillas de verificación donde solo se puede seleccionar una casilla de verificación a la vez. Esas casillas de verificación se representan en una plantilla PDF como múltiples campos de formulario del TIPO *CASILLA DE VERIFICACIÓN*. Cada campo tiene el mismo nombre pero un valor de exportación diferente. Cuando importe la plantilla al formato ER editable, cada casilla de verificación se representará en la estructura jerárquica del formato como un elemento **Artículo de grupo de casillas de verificación** que está agrupado bajo el mismo elemento **Grupo de casillas de verificación**. El nombre del elemento **Grupo de casillas de verificación** será igual al nombre de los campos de casilla de verificación en la plantilla PDF. El nombre de cada elemento **Artículo del grupo de casillas de verificación** será igual al valor de exportación del campo correspondiente de la casilla de verificación en la plantilla PDF.
+>
+> Puede vincular un elemento **Artículo del grupo de casillas de verificación** solo a un campo de fuente de datos del tipo *Booleano*.
 
 ## <a name="run-the-format-configuration"></a>Ejecutar la configuración del formato
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577657"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644649"
 ---
 # <a name="costing-parameter-values-setup"></a>Configuración de los valores de los parámetros de gestión de costes
 
@@ -123,9 +123,9 @@ En la tabla siguiente se describen los ajustes disponibles para cada plantilla.
 
 ## <a name="volumetric-divisors"></a>Divisores volumétricos
 
-Los divisores volumétricos se utilizan para calcular el peso volumétrico. Cada empresa de envío / flete formula sus propios divisores volumétricos. Además, los divisores de una empresa suelen variar, según el modo de entrega. Por ejemplo, el aire y el mar a menudo tienen divisores muy diferentes. Una empresa también puede hacer que sus reglas sean más complejas, según el lugar desde el que envíe.
+Los divisores volumétricos se utilizan para calcular el peso volumétrico. Cada empresa de envío / flete formula sus propios divisores volumétricos. Además, los divisores de una empresa suelen variar, según el modo de entrega. Por ejemplo, el aire y el mar a menudo tienen divisores muy diferentes. Una empresa también puede hacer que sus reglas sean más complejas, según el lugar desde el que envíe. El sistema usa la siguiente fórmula para encontrar el peso volumétrico: VolumetricWeight = Volume ÷ VolumetricDivisor.
 
-Por ejemplo, un paquete que se envía por vía aérea tiene un volumen de 3 metros cúbicos (m³). La empresa cobra por peso volumétrico y aplica un divisor volumétrico de 6. Este divisor se multiplica por el volumen para determinar el peso volumétrico. Por lo tanto, el peso volumétrico de este ejemplo es 3 × 6 = 18 kilogramos (kg).
+Por ejemplo, un paquete que se envía por vía aérea tiene un volumen de 3 metros cúbicos (m³). La empresa cobra por peso volumétrico y aplica un divisor volumétrico de 6. Este divisor se divide por el volumen para determinar el peso volumétrico. Por lo tanto, el peso volumétrico de este ejemplo es 3 ÷ 6 = 0,5 kilogramos (kg).
 
 Para configurar divisores volumétricos, vaya a **Coste de aterrizaje \> Configuración de costos \> Divisores volumétricos**. La página **Divisores volumétricos** proporciona una cuadrícula que enumera todos los divisores volumétricos existentes. Puede utilizar los botones del Panel de acciones para agregar, eliminar y editar filas en la cuadrícula.
 
@@ -136,4 +136,7 @@ En la tabla siguiente se describen los campos disponibles en cada fila de la cua
 | Empresa de transporte | Seleccione la cuenta de proveedor de la empresa de envío asociada al divisor volumétrico. |
 | Código de tipo de coste | Seleccione el código de tipo de costo asociado con el divisor volumétrico. Utilice este campo para colocar los tipos de costos en grupos de informes. Los informes se pueden imprimir por categorías de informes o por tipo de costo. |
 | Puerto de origen | Seleccione el puerto "desde" al que se aplica el divisor volumétrico. |
-| Divisor volumétrico | Introduzca el valor de divisor volumétrico que se aplica a la fila. El valor que ingrese será *multiplicado* por el volumen de cada paquete para determinar el peso volumétrico de ese paquete. |
+| Divisor volumétrico | Introduzca el valor de divisor volumétrico que se aplica a la fila. El volumen de cada paquete se dividirá por el valor que introduzca aquí para determinar el peso volumétrico de ese paquete. |
+
+> [!NOTE]
+> El sistema utilizará el valor máximo entre **peso actual** y **peso volumétrico**.

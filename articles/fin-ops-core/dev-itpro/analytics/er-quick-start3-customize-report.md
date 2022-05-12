@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324096"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661669"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
 
 [!include[banner](../includes/banner.md)]
 
-El [Marco de informes electrónicos (ER)](general-electronic-reporting.md) permite cargar las [configuraciones](general-electronic-reporting.md#Configuration) de informaciones electrónicos que Microsoft le proporciona a su instancia de Microsoft Dynamics 365 Finance. De esta manera, las configuraciones proporcionadas por Microsoft pueden servir como la solución de informes electrónicos que se utiliza para generar facturas electrónicas de los clientes. Puede utilizar esta solución de ER para configurar su solución de ER personalizada, a fin de acceder a sus campos de base de datos personalizados y generar facturas electrónicas que cumplan sus requisitos específicos, sin tener que editar el código fuente.
+El [Marco de informes electrónicos (ER)](general-electronic-reporting.md) permite cargar las [configuraciones](general-electronic-reporting.md#Configuration) de informaciones electrónicos que Microsoft le proporciona a su instancia de Microsoft Microsoft Dynamics 365 Finance. De esta manera, las configuraciones proporcionadas por Microsoft pueden servir como la solución de informes electrónicos que se utiliza para generar facturas electrónicas de los clientes. Puede utilizar esta solución de ER para configurar su solución de ER personalizada, a fin de acceder a sus campos de base de datos personalizados y generar facturas electrónicas que cumplan sus requisitos específicos, sin tener que editar el código fuente.
 
 ## <a name="overview"></a>Información general
 
@@ -61,7 +61,7 @@ Como usuario con el rol de Consultor funcional de informes electrónicos o Desar
 ### <a name="configure-er-parameters"></a>Configurar los parámetros de ER
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
+2. En la página **Blueprint de localización**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
 3. En la página **Parámetros de informes electrónicos**, en la pestaña **General**, establezca la opción **Habilitar modo de diseño** en **Sí**.
 4. En la pestaña **Archivos adjuntos**, en el campo **Configuraciones**, seleccione **Archivo**.
 5. En los campos **Archivo de trabajo**, **Temporal**, **Base** y **Otros**, seleccione el tipo **Archivo**.
@@ -78,13 +78,13 @@ Cada configuración de ER que se agrega está marcada como propiedad de un prove
 #### <a name="review-the-list-of-er-configuration-providers"></a>Revise la lista de proveedores de configuración de ER
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Proveedores de configuración**.
+2. En la página **Blueprint de localización**, en la sección **Vínculos relacionados**, seleccione **Proveedores de configuración**.
 3. En la página **Tabla de proveedor de configuración**, cada registro de proveedor tiene un nombre y URL únicos. Revise el contenido de esta página. Si un registro para **Litware, Inc.** (`https://www.litware.com`) ya existe, omita el siguiente procedimiento, [Agregar un nuevo proveedor de configuración de ER](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Añada una nueva configuración para el proveedor de ER
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Proveedores de configuración**.
+2. En la página **Blueprint de localización**, en la sección **Vínculos relacionados**, seleccione **Proveedores de configuración**.
 3. En la página **Proveedores de configuración**, seleccione **Nuevo**.
 4. En el campo **Nombre**, introduzca **Litware, Inc.**
 5. En el campo **Dirección de Internet**, introduzca `https://www.litware.com`.
@@ -93,7 +93,7 @@ Cada configuración de ER que se agrega está marcada como propiedad de un prove
 #### <a name="activate-an-er-configuration-provider"></a>Activar un proveedor de configuración de ER
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, seleccione el mosaico **Litware, Inc.** y luego seleccione **Establecer activo**.
+2. En la página **Blueprint de localización**, en la sección **Proveedores de configuración**, seleccione el mosaico **Litware, Inc.** y luego seleccione **Establecer activo**.
 
 Para obtener más información sobre proveedores de configuración de ER, consulte [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Para obtener más información sobre proveedores de configuración de ER, consul
 Para agregar las configuraciones estándar de ER a su instancia actual de Finance, debe importarlas desde el [repositorio](general-electronic-reporting.md#Repository) de ER que se configuró para esa instancia.
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, seleccione el mosaico **Microsoft** y luego seleccione **Repositorios** para ver la lista de repositorios para el proveedor de Microsoft.
+2. En la página **Blueprint de localización**, en la sección **Proveedores de configuración**, seleccione el mosaico **Microsoft** y luego seleccione **Repositorios** para ver la lista de repositorios para el proveedor de Microsoft.
 3. En la página **Configuración de repositorios**, seleccione el repositorio existente del tipo **Global** y después seleccione **Abrir**. Si se le solicita autorización para conectarse al Regulatory Configuration Service, siga las instrucciones de autorización.
 4. En la página **Repositorio de configuración**, en el árbol de configuración del panel izquierdo, seleccione el formato de configuración **Factura de ventas Peppol**.
 5. En la ficha desplegable **Versiones**, seleccione la versión **11.2.2**.
@@ -116,7 +116,7 @@ Para agregar las configuraciones estándar de ER a su instancia actual de Financ
 ### <a name="review-the-imported-er-configurations"></a>Revisar las configuraciones importadas de ER
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Configuraciones**, seleccione el icono **Configuraciones de informes**.
+2. En la página **Blueprint de localización**, en la sección **Configuraciones**, seleccione el icono **Configuraciones de informes**.
 3. En la página **Configuraciones**, expanda la ficha desplegable **Componentes de configuración**.
 4. En el árbol de configuración del panel izquierdo, expanda **Modelo de factura** y, a continuación, expanda **Factura de ventas UBL**.
 

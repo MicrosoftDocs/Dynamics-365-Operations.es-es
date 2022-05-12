@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749061"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629477"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
@@ -48,7 +48,7 @@ La consulta de la propuesta de pago contiene diferentes fichas, cada una con var
 - **Incluir facturas de proveedor de otras entidades jurídicas**: si su organización tiene un proceso centralizado para el pago y la propuesta de pago debe incluir facturas de otras entidades jurídicas incluidas en los criterios de búsqueda, establezca esta opción en **Sí**.
 - **Proponer pagos de proveedor independientes por entidad jurídica**: si esta opción está establecida en **Sí**, se crea un pago aparte para cada entidad jurídica por proveedor. El proveedor en el pago es el proveedor de la factura de cada entidad jurídica. Si la opción está definida en **No** y el mismo proveedor tiene facturas que pagar en varias entidades jurídicas, se crea un pago para el importe total de las facturas seleccionadas. El proveedor en el pago es el proveedor en la entidad jurídica actual. Si la cuenta de proveedor no existe en la entidad jurídica actual, se usa la cuenta de proveedor de la primera factura que se debe pagar.
 - **Divisa de pago**: este campo especifica la divisa en la que se crean todos los pagos. Si no se ha definido ninguna divisa, cada factura se paga en la divisa de la factura.
-- **Día de pago**: especifique el día de la semana en el que se debe efectuar el pago. Este campo solo se usa si el método de pago se configura para sumar las facturas por pagar en un día concreto de la semana.
+- **Pago entre semana** – Escriba el día de la semana en que se debe realizar el pago, este campo se usa solo si el método de pago se establece en **Semana**. El importe de las facturas a pagar se totaliza el día de la semana especificado para el pago.
 - **Tipo de cuenta de contrapartida** y **Cuenta de contrapartida**: establezca estos campos para definir un tipo de cuenta específico (como **Libro mayor** o **Banco**) y una cuenta de contrapartida (como una cuenta bancaria concreta). El método de pago para la factura define el tipo de cuenta de contrapartida predeterminada como cuenta de contrapartida, si bien puede usar estos campos para reemplazar los valores predeterminados.
 - **Fecha de pago total**: Se utiliza únicamente cuando el campo **Periodo** de la forma de pago se establece en **Total**. Si se ha definido una fecha, todos los pagos se crean con esta fecha. El campo **Fecha de pago mínima** no se tiene en cuenta.
 - **Filtros adicionales**: en la ficha desplegable **Registros que incluir** puede definir más intervalos como criterios. Por ejemplo, si desea pagar solo a un intervalo específico de proveedores, puede definir un filtro para el intervalo de proveedores. Esta función a menudo se usa para seleccionar facturas para un método de pago determinado. Por ejemplo, si define un filtro donde **Método de pago** = **Cheque**, solo se seleccionan para pagarse las facturas que tengan esa forma de pago, siempre que también se cumplan otros criterios especificados en la consulta.

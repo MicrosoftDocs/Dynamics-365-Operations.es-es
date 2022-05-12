@@ -2,27 +2,42 @@
 title: Configurar la integración fiscal para canales de Commerce
 description: En este tema se proporcionan instrucciones para configurar la funcionalidad de integración fiscal para canales de Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462175"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661758"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar la integración fiscal para canales de Commerce
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 En este tema se proporcionan instrucciones para configurar la funcionalidad de integración fiscal para canales de Commerce. Para obtener más información acerca de la integración fiscal, consulte [Visión general de la integración fiscal para los canales de Commerce](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Habilitar características en la sede central de Commerce
+
+Para habilitar características relacionadas con la funcionalidad de integración fiscal para los canales de Commerce, siga estos pasos.
+
+1. En la sede de Commerce, vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
+1. Busque y habilite las siguientes características:
+
+    - **Integración fiscal directa desde los registros de PDV** – Esta característica amplía el marco de integración fiscal al agregar la capacidad de crear conectores fiscales que se ejecutarán en el punto de venta (POS). Este tipo de conector se comunica con un dispositivo o servicio fiscal que proporciona una interfaz de programación de aplicaciones (API) HTTP y no requiere una máquina física dedicada en la tienda. Por ejemplo, esta funcionalidad permite la integración fiscal para dispositivos móviles sin necesidad de una estación de hardware compartida.
+    - **Anulaciones de perfiles técnicos de integración fiscal** – Esta característica permite ampliar la configuración de la integración fiscal y agrega la capacidad de verificar los parámetros de conexión en la página de configuración de un registro POS. Cuando esta característica está habilitada, puede anular los parámetros de un perfil técnico.
+    - **Estado de registro fiscal de los registros de PDV** – Cuando esta característica está habilitada, puede deshabilitar el proceso de registro fiscal para registros de PDV específicos. Si el registro fiscal está deshabilitado para un registro de PDV, las transacciones de venta no se pueden completar en ese registro.
+    - **Copia de seguridad del almacenamiento de datos local** – Esta característica amplía las capacidades de control de errores del marco de integración fiscal. También permite la copia de seguridad automática de los datos del registro fiscal en caso de pérdida de datos, de modo que los datos en el almacenamiento local se restauran mientras se activa un dispositivo.
+
 ## <a name="set-up-commerce-parameters"></a>Configurar los parámetros de Commerce
+
+Para configurar parámetros de Commerce, siga estos pasos.
 
 1. En la página **Parámetros compartidos de Commerce**, en la pestaña **General**, establezca la opción **Habilitar integración fiscal** en **Sí**.
 1. En la ficha **Secuencias numéricas**, defina el número de secuencias para las siguientes referencias:
@@ -33,8 +48,8 @@ En este tema se proporcionan instrucciones para configurar la funcionalidad de i
 
 1. En la página **Parámetros de Commerce** defina la secuencia numérica para el número de perfil funcional fiscal.
 
-    > [!NOTE]
-    > Las secuencias numéricas son opcionales. Los números de las entidades de integración fiscal se pueden generar desde secuencias numéricas o manualmente.
+> [!NOTE]
+> Las secuencias numéricas son opcionales. Los números de las entidades de integración fiscal se pueden generar desde secuencias numéricas o manualmente.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Configuración de un proceso de registro fiscal
 
@@ -43,7 +58,7 @@ El proceso de configurar la integración fiscal incluye las tareas globales sigu
 - Configurar los conectores fiscales que representan los dispositivos o servicios fiscales que se usan para fines fiscales de registro, como impresoras fiscales.
 - Configurar los proveedores de documentos que generan los documentos fiscales que se registrarán en dispositivos o servicios fiscales mediante conectores fiscales.
 - Configurar el proceso de registro fiscal que define una secuencia de pasos de registro fiscal y los conectores fiscales y proveedores de documentos fiscales que se usan para cada paso.
-- Asignar el proceso de registro fiscal a perfiles de funcionalidad de punto de venta (PDV).
+- Asigne el proceso de registro fiscal a perfiles de funcionalidad de PDV.
 - Asignar perfiles técnicos de conectores a los perfiles de hardware.
 - Asignar perfiles técnicos de conectores a los perfiles de hardware PDV o de funcionalidad.
 
@@ -176,7 +191,7 @@ El flujo de registro fiscal se define mediante el proceso de registro fiscal y t
 - La suscripción de eventos y transacciones al registro fiscal está predefinida en el proveedor de documentos fiscales.
 - El proveedor de documentos fiscales también es responsable de identificar el conector fiscal que se usa para el registro fiscal. Coincide con los perfiles funcionales de conectores que se incluyen en el grupo de conectores fiscales que se especifica para el paso actual del proceso de registro fiscal con el perfil técnico de conectores que se asigna el perfil de hardware de la emisora de hardware a la que está emparejado el PDV.
 - El proveedor de documentos fiscales usa la configuración de asignación de datos de la configuración del proveedor de documentos fiscales para transformar datos de transacciones u eventos como impuestos y pagos mientras se genera un documento fiscal.
-- Cuando el proveedor de documentos fiscales genera un documento fiscal, el conector fiscal puede enviarlo al dispositivo fiscal tal como está, o bien analizarlo y transformarlo en una secuencia de comandos de la interfaz de programación de la aplicación (API) para dispositivos, en función de cómo se gestiona la comunicación.
+- Cuando el proveedor de documentos fiscales genera un documento fiscal, el conector fiscal puede enviarlo al dispositivo fiscal tal como está, o bien analizarlo y transformarlo en una secuencia de comandos de la API para dispositivos, en función de cómo se gestiona la comunicación.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Configurar registros con restricciones de registro fiscal
 
@@ -283,4 +298,21 @@ Para habilitar la ejecución manual de un registro fiscal postpuesto, debe agreg
     1. En la página **Programación de distribución**, ejecute el trabajo **1090** para transferir sus cambios a la base de datos del canal.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Ver parámetros de conexión y otra información en PDV
+
+Para ver parámetros de conexión y otra información en PDV, siga estos pasos.
+
+1. Abra Modern POS (MPOS) o Cloud POS (CPOS).
+1. Seleccione **Configuración**. Si la integración fiscal está habilitada, la sección **Integración Fiscal** de la derecha mostrará la siguiente información:
+
+    - Estado del registro fiscal
+    - Estado de la última transacción fiscal
+    - Número de de eventos de auditoría pendientes
+
+1. Seleccione **Detalles** para ver la siguiente información:
+
+    - Pasos del proceso de registro
+    - Parámetros de conexión
+    - Detalles de eventos de auditoría
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

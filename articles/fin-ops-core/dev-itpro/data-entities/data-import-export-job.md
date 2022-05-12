@@ -2,7 +2,7 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071094"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644472"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -74,8 +74,11 @@ Al seleccionar una entidad, debe seleccionar el formato de los datos que se expo
 > [!NOTE]
 > Es importante seleccionar el valor correcto para **Delimitador de fila**, **Delimitador de columna**, y **Calificador de texto** si la opción **Formato de archivo** está configurada en **Delimitado**. Asegúrese de que sus datos no contengan el carácter utilizado como delimitador o calificador, ya que esto puede provocar errores durante la importación y exportación.
 
+> [!NOTE]
+> Para formatos de archivo basados en XML, asegúrese de usar solo caracteres legales. Para obtener más detalles sobre los caracteres válidos, consulte [Caracteres válidos en XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 no permite ningún carácter de control excepto tabulaciones, retornos de carro y saltos de línea. Ejemplos de caracteres ilegales son corchetes, corchetes y barras invertidas. 
+
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
-Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela.
+Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Unidades de ejecución, niveles y secuencias
 La unidad de ejecución, el nivel de la unidad de ejecución y el orden de una entidad le permiten controlar el orden de los datos que se exportan o importan.

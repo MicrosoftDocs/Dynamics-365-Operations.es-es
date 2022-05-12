@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782436"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644711"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuración de escenarios para Inteligencia IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo configurar escenarios para Inteligencia de IoT en Microsoft Dynamics 365 Supply Chain Management. Para poder configurar los escenarios, debe [configurar Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+Este tema explica cómo configurar escenarios para Inteligencia de IoT en Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 En este tema, configurará el escenario **Tiempo de inactividad del equipo** para generar una notificación en Supply Chain Management cuando una máquina queda inactiva. El tema también muestra cómo configurar el escenario **Calidad del producto** para que se genere una notificación si un atributo de un elemento está fuera de un rango especificado, y cómo configurar el escenario **Retrasos en la producción** para que se genere una notificación si el rendimiento de producción cae por debajo de un valor umbral.
 

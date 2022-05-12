@@ -2,19 +2,19 @@
 title: Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 description: Este tema proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565977"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613893"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de doble escritura en aplicaciones de Finance and Operations
 
@@ -73,7 +73,7 @@ Para solucionar el problema, cree un ticket para el equipo de integración de da
 
 ## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Habilitar el procesamiento paralelo en las aplicaciones de finanzas y operaciones para mejorar el rendimiento
 
-Habilitar el procesamiento paralelo puede reducir el tiempo necesario para importar datos de las aplicaciones de finanzas y operaciones a las aplicaciones de participación del cliente y Microsoft Dataverse. 
+Habilitar el procesamiento paralelo puede reducir el tiempo necesario para importar datos de las aplicaciones de Dynamics 365 customer engagement y Microsoft Dataverse a las aplicaciones de finanzas y operaciones. 
 
 Para habilitar el procesamiento paralelo en las aplicaciones de finanzas y operaciones, realice los pasos siguientes.
 

@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396558"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644618"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -32,17 +32,29 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Eliminación de funciones a partir del 14 de marzo de 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Aviso de desactivación de características a partir de abril de 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>Resolución de URL XML en Administración de datos 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos eliminando la compatibilidad con la resolución de URL XML, ya que se ha identificado como una posible vulnerabilidad de seguridad. Esto significa que ya no se resolverán los recursos externos asociados con los archivos XML.  |
+| **¿Reemplazado por otra característica?**   | No |
+| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Aviso de desactivación de características a partir del 14 de marzo de 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>Secuencias de comandos XSLT en la gestión de datos
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La compatibilidad con secuencias de comandos XSLT en la gestión de datos está obsoleta para mejorar la seguridad y la protección de datos en las aplicaciones de finanzas y operaciones.  |
+| **Motivo de la depreciación/eliminación** | La compatibilidad con secuencias de comandos XSLT en Administración de datos queda en desuso para mejorar la seguridad y la protección de datos en las aplicaciones de finanzas y operaciones.  |
 | **¿Reemplazado por otra característica?**   | No Los clientes y los ISV deberían considerar volver a implementar sus soluciones basadas en el lenguaje X++, en lugar de las secuencias de comandos XSLT. |
-| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones. |
-| **Opción de implementación**              | Todos. |
-| **Status**                         | En desuso: la fecha de eliminación planificada es el 14 de marzo de 2022.<br><br>Excepción: Clientes que actualmente usan secuencias de comandos XLST. Pueden seguir usándolo hasta que actualicen a la versión 10.0.30 o posterior. Los clientes con esta excepción han recibido una notificación en el Centro de mensajes disponible en el Centro de administración de Microsoft 365. |
+| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso <br><br>**Excepción:** Clientes que actualmente usan secuencias de comandos XLST. Pueden seguir usándolo hasta que actualicen a la versión 10.0.30 o posterior. Para versiones anteriores, la excepción caducará a partir del 31 de enero de 2023. Los clientes con esta excepción han recibido una notificación en el Centro de mensajes disponible en el Centro de administración de Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Eliminación de funciones a partir de octubre de 2021
 

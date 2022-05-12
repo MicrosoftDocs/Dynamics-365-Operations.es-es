@@ -2,7 +2,7 @@
 title: Novedades o cambios en la aplicación móvil Warehouse Management
 description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487847"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644743"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>Versión 2.0.21.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Se corrigieron varios problemas de bloqueo.
+- Se solucionó un problema por el cual algunos caracteres no se reconocían al escanear o escribir en la página predeterminada.
+- Se solucionó un problema por el que presionar la tecla retroceso en la página predeterminada se eliminaban dos caracteres a la vez.
+- Se solucionó un problema por el cual el campo **Ordenar por** en la lista **Lista de trabajo** mostraba un valor incorrecto que no correspondería con el orden de clasificación real de las tarjetas.
+- Se solucionó un problema por el que se mostraba un diseño incorrecto después de cambiar el tamaño de la ventana de la aplicación mientras se ejecutaba en Microsoft Windows.
+- Se solucionó un problema por el que desplazarse en una lista emergente podía hacer que algunos elementos de la lista permanecieran ocultos o se distorsionaran.
+- Se rediseñó la página de inicio de sesión para permitir que muestre los campos de nombre de usuario y contraseña en la misma página cuando se ejecuta en pantallas más grandes.
+- Se mejoró la forma en que los controles reaccionan al toque rápido.
+- Se agregó una vista de registro de errores en la aplicación.
+- Se agregaron varias mejoras de accesibilidad (narración mejorada, se corrigieron marcadores de posición austentes en Android, se habilitó entrada de teclado para controles deslizantes y más).
 
 ## <a name="version-20200"></a>Versión 2.0.20.0
 

@@ -2,24 +2,20 @@
 title: Crear devoluciones en PDV.
 description: Este tema describe cómo iniciar devoluciones para transacciones de pago al contado sin entrega a domicilio o pedidos de clientes en la aplicación del punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349700"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648997"
 ---
 # <a name="create-returns-in-pos"></a>Crear devoluciones en PDV.
 
@@ -107,9 +103,64 @@ La siguiente lista proporciona los requisitos mínimos de versión para los dist
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial
 
 Esta característica garantiza que cuando se devuelve un pedido con varias facturas, los impuestos serán, finalmente, iguales al importe de impuestos cargado originalmente.
-1.  Vaya al espacio de trabajo **Administración de características** y busque **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial**.
-2.  Seleccione **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial** y luego haga clic en **Habilitar**.
 
+1. En el espacio de trabajo **Administración de características** busque **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial**.
+1. Seleccione la característica **Habilitar el cálculo de impuestos correcto para devoluciones con cantidad parcial** y luego seleccione **Habilitar**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Configurar ubicaciones de devolución para tiendas
+
+Commerce le permite configurar las ubicaciones de devolución que se basan en códigos de información comercial y códigos de motivo de ventas y marketing. Cuando los clientes devuelven sus compras, los cajeros suelen indicar el motivo de la devolución. Puede especificar que los productos devueltos se asignen a diferentes ubicaciones de devolución en el inventario, según los códigos de información y los códigos de motivo que los cajeros seleccionan en la caja regitradora.
+
+Por ejemplo, un cliente devuelve un producto defectuoso y el cajero procesa la transacción de devolución. Cuando Retail POS muestra el código de información para devoluciones, el cajero selecciona el subcódigo para devoluciones defectuosas. El producto devuelto se asigna automáticamente a una ubicación de devolución específica.
+
+Una ubicación de devolución puede ser un almacén, una ubicación de una tienda o un almacén, o incluso un pallet específico, en función de las ubicaciones de inventario que haya configurado la organización. Puede asignar cada lugar de devolución a uno o más códigos de información de venta al público y códigos de razón de venta y marketing.
+
+### <a name="prerequisites"></a>Requisitos previos
+
+Para poder configurar las ubicaciones de devolución, debe configurar los siguientes elementos:
+
+- **Códigos de información comercial:** preguntas en el PDV que se establecen en el módulo **Retail**. Para obtener más información, vea [Configurar códigos de información](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Códigos de motivo de ventas y marketing:** preguntas en las cajas registradoras de PDV que se configuran en el módulo de **Ventas y marketing**. Para obtener más información, vea [Configurar códigos de motivo](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Ubicaciones de inventario:** lugares donde se guarda el inventario. Para obtener más información, consulte [Configurar ubicaciones de inventario](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Configurar ubicaciones de devolución
+
+Para establecer ubicaciones de devolución, siga estos pasos.
+
+1. Vaya a **Retail y Commerce \> Configuración del canal \> Almacenes** y seleccione un almacén.
+1. En la ficha desplegable **Retail** en el campo **Ubicación de devolución por defecto**, seleccione la ubicación del inventario que se utilizará para las devoluciones en las que los códigos de información o los códigos de motivo no están asignados a las ubicaciones de devolución.
+1. En el campo **pallet de devolución por defecto**, seleccione el pallet que se utilizará para las devoluciones en las que los códigos de información o los códigos de motivo no están asignados a las ubicaciones de devolución.
+1. Vaya a **Retail y Commerce \> Gestión de inventarios \> Ubicaciones de devolución**.
+1. Seleccione **Nueva** para crear una nueva directiva de ubicaciones de devoluciones.
+1. Escriba un nombre único para la ubicación de devolución y una descripción.
+
+    > [!NOTE]
+    > Si se ha configurado una secuencia numérica para las ubicaciones de devolución, el nombre se escribe automáticamente.
+
+1. En la ficha desplegable **General**, establezca la opción **Imprimir etiquetas** en **Sí** para imprimir etiquetas para todos los productos que se asignan a las ubicaciones de devolución.
+1. Establezca la opción **Bloquear inventario** en **Sí** para sacar los productos devueltos en la ubicación de devolución predeterminada del inventario y evitar que se vendan.
+1. Para asignar códigos y subcódigos de información minorista específicos a ubicaciones de devolución, siga estos pasos:
+
+    1. En la ficha desplegable **Códigos de información comercial**, seleccione **Agregar**.
+    1. En el campo **Código de información**, seleccione un código de información para las devoluciones.
+    1. En el campo **Subcódigo**, seleccione un subcódigo para el motivo de la devolución. El campo **Descripción** muestra la descripción del subcódigo seleccionado.
+    1. En el campo **Tienda** seleccione la tienda donde se utiliza el código de información.
+    1. Utilice los campos **Almacén**, **Ubicación** e **ID de pallet** para especificar una ubicación de devolución. Por ejemplo, para especificar una ubicación concreta de una tienda, seleccione una tienda en el campo **Tienda** y una ubicación en el campo **Ubicación**.
+    1. Seleccione la casilla **Bloquear inventario** para sacar los productos devueltos del inventario y evitar que se vendan.
+
+1. Para asignar códigos de motivo de ventas y marketing específicos a las ubicaciones de devolución, siga estos pasos:
+
+    1. En la ficha desplegable **Códigos de motivo de ventas y marketing** seleccione **Agregar**.
+    1. En el campo **Código de motivo**, seleccione un nuevo código para devoluciones. El campo **Descripción** muestra la descripción del código de motivo seleccionado.
+    1. En el campo **Tienda** seleccione la tienda donde se utiliza el código de motivo.
+    1. Utilice los campos **Almacén**, **Ubicación** e **ID de pallet** para especificar una ubicación de devolución. Por ejemplo, para especificar un pallet concreto en una ubicación de un almacén, seleccione un almacén en el campo **Almacén**, una ubicación en el campo **Ubicación** y un pallet en el campo **ID de pallet**.
+    1. Seleccione la casilla **Bloquear inventario** para sacar los productos devueltos del inventario y evitar que se vendan.
+
+    > [!NOTE]
+    > Si se usa una directiva de ubicación de devoluciones para un artículo, pero el motivo de devolución que selecciona un cajero no coincide con ningún código que se especifica en la ficha desplegable **Códigos de información comercial** o **Códigos de motivo de ventas y marketing**, el artículo se envía a la ubicación de devolución predeterminada que se define en la página **Almacén**. Adicionalmente, la configuración de la casilla **Bloquear inventario** en la ficha desplegable **General** de la página **Ubicaciones de devolución** determina si el artículo devuelto debe bloquearse en el inventario.
+
+1. Vaya a **Retail y Commerce \> Jerarquía de productos de Commerce**.
+1. En la ficha desplegable **Administrar propiedades de categoría de inventario** en el campo **Ubicación de devolución**, seleccione una ubicación de devolución. Debido a que se pueden definir varias directivas de ubicación de devolución para la misma tienda, el valor que seleccione aquí determina la directiva de ubicación de devolución que se utiliza.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

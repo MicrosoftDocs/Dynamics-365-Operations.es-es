@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388272"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645146"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -141,7 +141,12 @@ Puede configurar su plantilla de Excel para usar celdas para presentar datos tex
 > [!NOTE]
 > Debido a una conocida [Limitación de Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), incluso si configura celdas para ajustar el texto, y configura las filas que contienen esas celdas para ajustar automáticamente su altura para ajustarse al texto ajustado, es posible que no pueda utilizar las características **Autoajuste** y **Ajustar texto** de Excel para celdas combinadas y las filas que las contienen. 
 
-A partir de Dynamics 365 Finance versión 10.0.23, puede forzar a ER a calcular, en un documento generado, la altura de cada fila que se configuró para ajustar automáticamente su altura al contenido de las celdas anidadas siempre que esa fila contenga al menos una celda combinada que se configuró para ajustar el texto que contiene. La altura calculada se utiliza para cambiar el tamaño de la fila y garantizar que todas las celdas de la fila sean visibles en el documento generado. Para comenzar a usar esta funcionalidad cuando ejecuta cualquier formato de ER que se configuró para usar plantillas de Excel para generar documentos salientes, siga estos pasos.
+A partir de la versión 10.0.23 de Dynamics 365 Finance, cuando trabaje en un documento generado, puede forzar a ER a calcular, en un documento generado, la altura de cada fila que se configuró para ajustar automáticamente su altura al contenido de las celdas anidadas siempre que esa fila contenga al menos una celda combinada que se configuró para ajustar el texto que contiene. La altura calculada se utiliza para cambiar el tamaño de la fila y garantizar que todas las celdas de la fila sean visibles en el documento generado.
+
+> [!NOTE]
+> Tenga en cuenta que es posible que esta funcionalidad no funcione como se espera cuando se usa una fuente personalizada para dar formato a una celda combinada. Debido a que Excel no incrusta fuentes personalizadas, no proporciona información sobre el tamaño de fuente personalizado. Por lo tanto, el tamaño de la celda combinada se puede estimar incorrectamente.
+
+Para comenzar a usar esta funcionalidad cuando ejecuta cualquier formato de ER que se configuró para usar plantillas de Excel para generar documentos salientes, siga estos pasos.
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En la página **Configuraciones localizadas**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
@@ -224,7 +229,7 @@ Cuando usa el componente **Página** para la paginación de Excel, no sabrá el 
 > [!TIP]
 > Para lograr este resultado en un encabezado o pie de página de Excel, puede usar el [formato](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) Excel especial para encabezados y pies de página.
 
-Los componentes **Página** configurados no se tienen en cuenta al actualizar una plantilla de Excel en formato editable en la versión 10.0.22 de Dynamics 365 Finance. Esta funcionalidad se considera para futuras versiones de Finance.
+Los componentes de **Página** configurados no se tienen en cuenta al actualizar una plantilla de Excel en el formato editable en la versión 10.0.22 de Dynamics 365 Finance. Esta funcionalidad se considera para futuras versiones de Finance.
 
 Si configura su plantilla de Excel para usar [formato condicional](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), es posible que no funcione como se esperaba en algunos casos.
 

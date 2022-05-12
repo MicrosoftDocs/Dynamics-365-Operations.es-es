@@ -2,7 +2,7 @@
 title: Módulo de resultados de búsqueda
 description: En este tema se tratan los módulos de resultados de búsqueda y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919483"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644935"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de búsqueda
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de resultados de búsqueda y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -86,53 +86,44 @@ Para agregar un módulo de resultados de la búsqueda a una página de categorí
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Habilitar el conocimiento del inventario para el módulo de resultados de búsqueda
 
-Los clientes generalmente esperan que un sitio de comercio electrónico tenga en cuenta el inventario durante toda la experiencia de navegación, de modo que puedan decidir qué hacer si no hay inventario para un producto. El módulo de resultados de búsqueda se puede mejorar para que incorpore datos de inventario y proporcione las siguientes experiencias:
+Los clientes generalmente esperan que el sitio web de comercio electrónico tenga en cuenta el inventario durante toda la experiencia de navegación, de modo que puedan decidir qué hacer si no hay inventario para un producto. El módulo de resultados de búsqueda se puede configurar para que incorpore datos de inventario y proporcione las siguientes experiencias:
 
-- Muestre una etiqueta de disponibilidad de inventario junto con los productos.
-- Ocultar productos agotados.
-- Muestre los productos agotados al final de la lista de resultados de búsqueda.
-    
-Para habilitar estas experiencias, debe configurar los siguientes requisitos previos en la sede de Commerce.
+- Muestre una etiqueta de disponibilidad de inventario junto con el producto.
+- Oculte los productos agotados de la lista de productos.
+- Muestre los productos agotados al final de la lista de productos.
+- Filtre productos en los resultados de búsqueda por nivel de inventario.
 
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Habilitar la característica de detección de productos de comercio electrónico mejorados para que reconozcan el inventario
+Para habilitar estas experiencias, primero debe habilitar la característica **Detección de productos de comercio electrónico mejorados para que reconozcan el inventario** en el espacio de trabajo **Administración de características**.
 
 > [!NOTE]
-> La característica **Descubrimiento mejorado de productos de comercio electrónico para tener en cuenta el inventario** está disponible a partir de la versión 10.0.20 de Commerce.
+> La característica **Descubrimiento mejorado de productos de comercio electrónico para tener en cuenta el inventario** está disponible en la versión 10.0.20 de Commerce y posteriores.
 
-Para habilitar la característica **Descubrimiento mejorado de productos de comercio electrónico para tener en cuenta el inventario** en la sede de Comercio, siga estos pasos.
+La búsqueda de productos basada en el inventario utiliza los atributos del producto para obtener información sobre la disponibilidad del inventario. Como requisito previo para la función, se deben crear atributos de productos dedicados, se deben ingresar datos de inventario para ellos y se deben agregar al canal en línea. 
 
-1. Vaya a **Espacios de trabajo \> Administración de características**.
-1. Busque la característica **Descubrimiento mejorado de productos de comercio electrónico para tener en cuenta el inventario** y habilítela.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Configurar los atributos del producto con el trabajo de nivel de inventario
-
-El trabajo **Completar los atributos del producto con el nivel de inventario** crea un nuevo atributo de producto para capturar la disponibilidad del inventario y luego establece ese atributo en el último valor de nivel de inventario para cada producto maestro. Debido a que la disponibilidad de inventario de un producto o surtido que se vende cambia constantemente, le recomendamos encarecidamente que programe el trabajo como un proceso por lotes.
-
-Para configurar el trabajo **Completar los atributos del producto con el nivel de inventario** en la sede de Comercio, siga estos pasos.
+Para crear atributos de producto dedicados para admitir el módulo de resultados de búsqueda con reconocimiento de inventario, siga estos pasos.
 
 1. Vaya a **Retail y Commerce \> Retail y Commerce TI \> Productos e inventario**.
-1. Seleccione **Rellenar los atributos del producto con el nivel de inventario**.
-1. En el cuadro de diálogo **Completar los atributos del producto con el nivel de inventario**, siga estos pasos:
+1. Seleccione y abra **Rellenar los atributos del producto con el nivel de inventario**.
+1. En el cuadro de diálogo, especifique la información siguiente:
 
-    1. Debajo de **Parámetros**, en el campo **Atributo del producto y nombre del tipo**, especifique un nombre para el atributo de producto dedicado que se creará para capturar la disponibilidad del inventario.
-    1. Debajo de **Parámetros**, en el campo **Disponibilidad de inventario basada en**, seleccione la cantidad en la que se debe basar el cálculo del nivel de inventario (por ejemplo, **Físico disponible**).
-    1. Debajo de **Ejecutar en segundo plano**, configure el trabajo para que se ejecute en segundo plano y, opcionalmente, active la opción **Procesamiento por lotes**. 
+    1. En el campo **Atributo del producto y nombre del tipo**, especifique un nombre para el atributo de producto dedicado que se creará para capturar datos del inventario.
+    1. En el campo **Disponibilidad de inventario basada en**, seleccione el tipo de cantidad en el que se debe basar el cálculo del nivel de inventario (por ejemplo, **Físico disponible**). 
 
-> [!NOTE]
-> Para un cálculo uniforme del nivel de inventario en los PDP y las páginas de la lista de productos en su sitio de comercio electrónico, asegúrese de seleccionar la misma opción de cantidad para los ajustes **Disponibilidad de inventario basada en** en la sede de Comercio y **Nivel de inventario basado en** en el creador de sitios de Commerce. Para obtener más información sobre la configuración de inventario en el generador de sitios, consulte [Aplicar configuración de inventario](inventory-settings.md).
-
-### <a name="configure-the-new-product-attribute"></a>Configurar el nuevo atributo de producto
-
-Después de ejecutar el trabajo **Completar los atributos del producto con el nivel de inventario**, debe configurar el atributo de producto recién creado en el sitio de comercio electrónico donde desea habilitar el conocimiento del inventario para el módulo de resultados de búsqueda.
-
-Para configurar el nuevo atributo de producto en la sede central de Commerce, siga estos pasos.
-
-1. Vaya a **Retail y Commerce \> Configuración de canal \> Categorías de canal y atributos de producto** y seleccione un sitio de comercio electrónico.
-1. Seleccione y abra un grupo de atributos asociado, agregue el atributo de producto recién creado y luego cierre la página.
-1. Seleccione **Establecer metadatos de atributos**, seleccione el atributo de producto recién agregado y luego active las opciones **Mostrar atributo en el canal**, **Recuperable**, **Puede ser refinado** y **Puede ser consultado**.
+1. Ejecute el trabajo en segundo plano. Dado que inventario de productos cambia constantemente en un entorno omnicanal, le recomendamos encarecidamente que programe este trabajo como un proceso por lotes.
 
 > [!NOTE]
-> Para los productos que se muestran en el módulo de resultados de búsqueda, el nivel de inventario se ingresa en el nivel de producto maestro en lugar del nivel de variante individual. Tiene solo dos valores posibles: "disponible" y "agotado". El texto real de los valores se recupera de la definición del [perfil de nivel de inventario](inventory-buffers-levels.md). Un producto maestro se considera agotado solo cuando todas sus variantes están agotadas. El nivel de inventario de una variante se determina en función de la definición del perfil de nivel de inventario del producto. 
+> Para un cálculo uniforme del nivel de inventario en las páginas y los módulos en su sitio web de comercio electrónico, asegúrese de seleccionar el mismo tipo de cantidad para los ajustes **Disponibilidad de inventario basada en** en la sede de Comercio y **Nivel de inventario basado en** en el creador de sitios de Commerce. Para obtener más información sobre la configuración de inventario en el generador de sitios, consulte [Aplicar configuración de inventario](inventory-settings.md).
+
+Para configurar los atributos del producto para un canal en línea, siga estos pasos. 
+
+1. Vaya a **Retail y Commerce \> Configuración de canal \> Categorías de canal y atributos de producto**.
+2. Seleccione un canal en línea para el que habilitar el módulo de resultados de búsqueda con reconocimiento de inventario.
+3. Seleccione y abra un grupo de atributos asociado y, a continuación, agréguele el atributo de producto recién creado.
+4. Para versiones de Commerce anteriores a la 10.0.27, seleccione **Establecer metadatos de atributos**, seleccione el atributo de producto recién agregado y luego active las opciones **Mostrar atributo en el canal**, **Recuperable**, **Puede ser refinado** y **Puede ser consultado**.
+5. Vaya a **Retail y Commerce \> TI de Retail y Commerce \> Programación distribución** y ejecute el trabajo **1150 (Catálogo)**. Si programa el trabajo **Rellenar los atributos del producto con el nivel de inventario** como un proceso por lotes, le recomendamos que también programe el trabajo 1150 como un proceso por lotes que se ejecuta con la misma frecuencia.
+
+> [!NOTE]
+> Para los productos que se muestran en el módulo de resultados de búsqueda, el nivel de inventario se muestra en el nivel de producto maestro en lugar del nivel de variante individual. Tiene solo dos valores posibles: "disponible" y "agotado". La etiqueta real del valor se recupera de la definición del [perfil de nivel de inventario](inventory-buffers-levels.md). Un producto maestro se considera agotado solo cuando todas sus variantes están agotadas.
 
 Una vez completados todos los pasos de configuración anteriores, los refinadores de las páginas de resultados de búsqueda mostrarán un filtro basado en el inventario y el módulo de resultados de la búsqueda recuperará los datos del inventario entre bastidores. A continuación, puede configurar el ajuste **Configuración de inventario para páginas de lista de productos** en el creador de sitios de Commerce para controlar cómo el módulo de resultados de búsqueda muestra los productos agotados. Para obtener más información, consulte [Aplicar configuración de inventario](inventory-settings.md).
 

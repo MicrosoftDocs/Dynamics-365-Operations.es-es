@@ -2,7 +2,7 @@
 title: Configurar los parámetros de un formato de ER por entidad jurídica
 description: En este tema se explica cómo puede configurar los parámetros de un formato de informes electrónicos (ER) por entidad jurídica.
 author: NickSelin
-ms.date: 10/22/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927463"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644510"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar los parámetros de un formato de ER por entidad jurídica
 
@@ -226,7 +226,7 @@ Si configura parámetros específicos de la aplicación para una versión de un 
 Cuando selecciona un archivo para importarlo, la estructura de los parámetros específicos de la aplicación en ese archivo se compara con la estructura los orígenes de datos correspondientes del tipo **Búsqueda** en el formato de ER seleccionado para su importación. De forma predeterminada, la importación se completa solo si la estructura de cada parámetro específico de la aplicación coincide con la estructura del origen de datos correspondiente en el formato de ER seleccionado para su importación. Si las estructuras no coinciden, recibe un mensaje de advertencia que indica que la importación no se puede completar. Si fuerza la importación, los parámetros específicos de la aplicación existentes para el formato de ER seleccionado se borrarán, y deberá configurarlos desde el principio.
 
 
-A partir de la versión 10.0.24 de Dynamics 365 Finance, puede cambiar el comportamiento predeterminado y evitar recibir un mensaje de advertencia si habilita la característica **Alinear los parámetros específicos de la aplicación de informes electrónicos durante la importación** en el espacio de trabajo **Administración de características**. Cuando se habilita esta característica, si la estructura de los parámetros específicos de la aplicación que está importando es diferente de la estructura de los orígenes de datos correspondientes en el formato ER objetivo que se ha seleccionado para la importación, esta tendrá éxito en los siguientes casos:
+A partir de la versión 10.0.24, puede cambiar el comportamiento predeterminado y evitar recibir un mensaje de advertencia si habilita la **característica Alinear los parámetros específicos de la aplicación de informes electrónicos durante la importación** en el espacio de trabajo **Administración de características**. Cuando se habilita esta característica, si la estructura de los parámetros específicos de la aplicación que está importando es diferente de la estructura de los orígenes de datos correspondientes en el formato ER objetivo que se ha seleccionado para la importación, esta tendrá éxito en los siguientes casos:
 
 - La estructura del formato de ER de destino se ha cambiado al agregar nuevas columnas de condición a cualquier origen de datos existente del tipo **Búsqueda**. Cuando se completa la importación, se actualizan los parámetros específicos de la aplicación. En todos los registros importados de parámetros específicos de la aplicación, los valores en cada columna de condición agregada se inicializan con el valor predeterminado para el [tipo de datos](er-formula-supported-data-types-primitive.md) de esa columna.
 - La estructura del formato de ER de destino se ha cambiado al eliminar algunas columnas de condición de cualquier origen de datos existente del tipo **Búsqueda**. Cuando se completa la importación, se actualizan los parámetros específicos de la aplicación. En todos los registros importados de parámetros específicos de la aplicación, se eliminan los valores de cada columna de condición eliminada.
@@ -235,9 +235,33 @@ A partir de la versión 10.0.24 de Dynamics 365 Finance, puede cambiar el compor
 
 Cuando se completa la importación, además de los cambios que se acaban de describir, el estado de los parámetros específicos de la aplicación importados se cambia a **En curso**. Un mensaje de advertencia le informa que los parámetros específicos de la aplicación ajustados automáticamente deben editarse manualmente.
 
+#### <a name="replicate-parameters"></a>Replicar parámetros
+
+A partir de la versión 10.0.27 de Finance, puede copiar los parámetros que configuró en una empresa a otras empresas al mismo tiempo.
+
+Para copiar parámetros, complete los siguientes pasos.
+
+1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
+2. Seleccione **Configuraciones de informes**.
+3. En el árbol de configuraciones, seleccione el formato **Formato para aprender a buscar datos de LE**.
+4. En el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Parámetros específicos de la aplicación**, seleccione **Configurar**.
+5. Seleccione la versión **1.1.1** del formato de ER.
+6. En el panel de acciones, seleccione **Replicar**.
+7. En el cuadro de diálogo **Replicar** en la pestaña **Empresas**, seleccione las empresas a las que desea copiar los parámetros.
+
+    > [!NOTE]
+    > La lista de empresas objetivo se ofrece solo a los usuarios a los que se les asigna un [rol](../sysadmin/role-based-security.md#security-roles) de seguridad que está configurado para otorgar acceso a todas las organizaciones.
+
+8. Seleccione **Aceptar**.
+
+    > [!NOTE]
+    > El cuadro de diálogo de confirmación le informa si algunas empresas de destino contienen parámetros previamente configurados para la versión seleccionada de un formato ER. Seleccione **Sí** para reemplazar los parámetros copiándolos de la empresa actual.
+
+    El conjunto configurado de parámetros específicos de la aplicación ahora se copia a las empresas seleccionadas.
+
 ### <a name="reuse-existing-parameters"></a>Reutilizar parámetros existentes
 
-A partir de la versión 10.0.23 de Dynamics 365 Finance, puede reutilizar los parámetros específicos de la aplicación que se han configurado para una versión de un formato ER cuando ejecuta una versión superior del mismo formato. Para hacerlo, habilite la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos** en el espacio de trabajo **Administración de características**. Cuando esta característica está habilitada y ejecuta una versión de un formato ER que intenta leer parámetros específicos de la aplicación, el informe electrónico intentará encontrar parámetros específicos de la aplicación que se hayan configurado para la versión en ejecución de este formato. O, cuando no estén disponibles, para la versión inferior más cercana de este formato.
+A partir de la versión 10.0.23 de Finance, puede reutilizar los parámetros específicos de la aplicación que se han configurado para una versión de un formato ER cuando ejecuta una versión superior del mismo formato. Para reutilizar los parámetros existentes, habilite la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos** en el espacio de trabajo **Administración de características**. Cuando esta característica está habilitada y ejecuta una versión de un formato ER que intenta leer parámetros específicos de la aplicación, el informe electrónico intentará encontrar parámetros específicos de la aplicación que se hayan configurado para la versión en ejecución del formato. Si no están disponibles, ER intentará encontrarlos para la versión inferior más cercana del formato.
 
 > [!NOTE]
 > Puede reutilizar parámetros específicos de la aplicación solo en el ámbito de la entidad jurídica actual.
