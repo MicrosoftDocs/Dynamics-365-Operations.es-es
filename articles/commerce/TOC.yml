@@ -12,14 +12,12 @@
               items:
                 - name: Novedades y cambios en la página principal de Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (julio de 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mayo de 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (abril de 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (febrero de 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (enero de 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Configurar los impuestos para pedidos en línea
                           href: sales-tax-config.md
+                        - name: Ocultar información de desglose de impuestos en resúmenes de pedidos
+                          href: hide-taxes-breakup.md
                     - name: Configurar perfil de notificación por correo electrónico
                       href: email-notification-profiles.md
                     - name: Secuencias numéricas
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Orientación para la implementación de la gestión de dispositivos
                       href: implementation-considerations-devices.md
-                    - name: Elegir entre MPOS y Cloud POS
+                    - name: Elija entre Store Commerce y Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Operaciones de PDV en línea y sin conexión
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Crear dimensiones financieras para los canales comerciales y configurar los valores en las tiendas
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Configurar secuencias numéricas para extractos comerciales
+                  href: retail-statements-number-sequences.md
                 - name: Habilitar la gestión del modo de entrega coherente en los canales de comercio electrónico
                   href: consistent-delivery-mode-handling.md
             - name: Configurar un canal en línea
@@ -884,6 +886,8 @@
           items:
             - name: Información general de extractos
               href: retail-statements.md
+            - name: Parámetros de registro de Commerce
+              href: commerce-posting-parameters.md
             - name: Validar las transacciones de la tienda para el cálculo de extractos
               href: valid-checker.md
             - name: Deshabilitar reglas en comprobador de coherencia para transacciones comerciales
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: Instalar el tema de Adventure Works
                       href: install-adventure-works.md
+                - name: Guía de localización de Commerce
+                  href: e-commerce-localization-guide.md
             - name: Administrar activos digitales
               items:
                 - name: Información general de la administración de activos digitales
@@ -1312,6 +1318,14 @@
               href: b2b/payment-method.md
             - name: Establecer límites de cantidad de productos para sitios de comercio electrónico B2B
               href: b2b/quantity-limits.md
+            - name: Catálogos de Commerce para sitios B2B
+              items:
+                - name: Crear catálogos de Commerce para sitios B2B
+                  href: catalogs-b2b-sites.md
+                - name: Impacto de extensibilidad de los catálogos de Commerce para personalizaciones B2B
+                  href: catalogs-b2b-sites-dev.md
+                - name: P+F de catálogos de Commerce para sitios B2B
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Supervisión y análisis
           items:
             - name: Supervisar las ventas y el rendimiento de margen
@@ -2474,13 +2488,17 @@
                       href: dev-itpro/extension-resource-localization.md
             - name: Commerce sin periféricos
               items:
+                - name: Información general
+                  items:
+                    - name: Introducción a Commerce Scale Unit (CSU) esencial
+                      href: dev-itpro/CSU-core.md
                 - name: API y referencia
                   items:
                     - name: Cliente de Commerce Scale Unit y API de clientes
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Consumir las API de Retail Server en aplicaciones externas
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Proxies de Typescript y C# para Retail POS
+                    - name: Proxies de TypeScript y C# para Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Arquitectura y configuración del tiempo Commerce Runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,7 +2546,9 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Empaquetado e implementación
                   items:
-                    - name: Eliminar extensiones de la unidad de escalado de la nube
+                    - name: Crear un paquete de Cloud Scale Unit
+                      href: dev-itpro/CSU-packaging.md
+                    - name: Eliminar extensiones de Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
               items:
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Migrar extensiones del PDV al SDK de Commerce
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Depurar extensiones de Store Commerce con VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: Configuración del entorno
                   items:
                     - name: Entorno de desarrollo local
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Crear un paquete de extensión de Cloud POS
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Crear un paquete de instalador de extensión de Store Commerce
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: Comercio electrónico
               items:
                 - name: Información general
@@ -2814,11 +2838,15 @@
                       items:
                         - name: Registrador de telemetría
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: Extensión de paquete CDX
+                  items:
+                    - name: Ampliar el paquete CDX de cliente para agregar datos personalizados
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Empaquetado e implementación
                   items:
-                    - name: Crear paquete de pago de Commerce para implementación para finanzas y operaciones
+                    - name: Crear paquete de pago de Commerce para implementación de finanzas y operaciones
                       href: dev-itpro/payment-connector-package.md
             - name: SDK de Retail (heredado)
               items:

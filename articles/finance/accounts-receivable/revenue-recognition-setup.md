@@ -2,7 +2,7 @@
 title: Configuración de reconocimiento de ingresos
 description: En este tema se describen las opciones de configuración para el reconocimiento de ingresos y sus implicaciones.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867229"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656732"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Especifique valores descriptivos en los campos **Programación de ingresos** y *
     - **Repeticiones**: el importe se asigna a partes iguales entre las repeticiones, pero puede incluir un período adicional si se selecciona **Fecha inicial real** como convención de reconocimiento.
     - **Período fiscal por días**: el importe se asigna en función de los días reales de cada período fiscal. 
 
-    Los resultados de **Mensual por días** y **Período fiscal por días** será los mismos cuando los períodos fiscales sigan los meses calendario. La única excepción es cuando la convención de reconocimiento se establece en **Fin de mes/período**, y los campos **Fecha de inicio del contrato** y **Fecha de finalización** se dejan en blanco en una línea de pedido de ventas.
+         - Los resultados de **Mensual por días** y **Período fiscal por días** será los mismos cuando los períodos fiscales sigan los meses calendario. La única excepción es cuando la convención de reconocimiento se establece en **Fin de mes/período**, y los campos **Fecha de inicio del contrato** y **Fecha de finalización** se dejan en blanco en una línea de pedido de ventas.
 
 - **Convención de reconocimiento**: la convención de reconocimiento determina las fechas que se establecen en la programación de ingresos para la factura.
 
@@ -108,7 +108,7 @@ Especifique valores descriptivos en los campos **Programación de ingresos** y *
     - **Primero de mes/período**: la fecha de la primera línea de la programación es la fecha inicial del contrato (o fecha de factura). Sin embargo, todas las líneas siguientes de la programación se crean para el primer día del mes o período fiscal.
     - **División de medio mes**: la fecha de la primera línea de la programación depende de la fecha de factura. Si la factura se registra en los primeros quince días del mes, la programación de ingresos se crea mediante el uso del primer día del mes. Si la factura se registra en los últimos quince días del mes, la programación de ingresos se crea mediante el uso del primer día del mes siguiente.
 
-        La **división de medio mes** no se puede seleccionar si la base de reconocimiento se establece en **Período fiscal por días**.
+        - La **división de medio mes** no se puede seleccionar si la base de reconocimiento se establece en **Período fiscal por días**.
 
     - **Primer día del mes siguiente/período**: la fecha en la que comienza la programación es el primer día del mes siguiente o período fiscal.
     - **Fin de mes/período**: la fecha de la primera línea de la programación es la fecha inicial del contrato (o fecha de factura). Sin embargo, todas las líneas siguientes de la programación se crean para el último día del mes o período fiscal. 

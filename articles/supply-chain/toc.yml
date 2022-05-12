@@ -12,14 +12,12 @@
               items:
                 - name: Novedades y cambios de la página principal de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (julio de 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mayo de 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (abril de 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (febrero de 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (enero de 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -1723,10 +1721,8 @@
               href: iot/iot-intelligence-home-page.md
             - name: Configurar recursos de Azure
               href: iot/iot-azure-setup.md
-            - name: Formatos de esquema de mensaje para el centro de IoT
+            - name: Formatos de esquema de mensaje para IoT Hub
               href: iot/iot-schema-format.md
-            - name: Instalar el complemento en LCS
-              href: iot/iot-lcs-setup.md
             - name: Configurar métricas
               href: iot/iot-metrics-setup.md
             - name: Configuración de escenario
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
                   href: production-control/production-floor-execution-use.md
+                - name: Mostrar saldos de vacaciones en la interfaz de ejecución de la planta de producción
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Diseñar la interfaz de ejecución de la planta de producción
                   href: production-control/production-floor-execution-styles.md
                 - name: Personalizar la interfaz de ejecución de la planta de producción
