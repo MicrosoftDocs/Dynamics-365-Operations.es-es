@@ -1,28 +1,28 @@
 ---
 title: Página principal de clientes
 description: Use Clientes para controlar todas las facturas de cliente y los pagos entrantes.
-author: roschlom
+author: kfend
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "20671"
 - intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 946a4e3cab6549af8b6c07248b6889e3b610f27f
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726951"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711865"
 ---
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
@@ -41,7 +41,7 @@ Puede crear facturas de cliente basadas en pedidos de ventas o albaranes. Tambi�
 
 Use Clientes para controlar todas las facturas y los pagos que reciba de los clientes. Puede configurar los grupos de clientes, perfiles de registro, notas de interés, cartas de cobro, comisiones, parámetros relativos a los clientes, cargos, entregas y destinos, letras de cambio, así como otros tipos de informaciones de clientes. 
 
-- [Distribuciones contables y asientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Distribuciones contables y movimientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
 - [Perfiles de contabilización del cliente](customer-posting-profiles.md)
 - [Configuración, autorización y captura de tarjetas de crédito](credit-card-authorizations.md)
 - [Crear una factura de cliente](configure-customer-invoices.md)
@@ -83,9 +83,9 @@ Vaya a la [Guía básica de Microsoft Dynamics 365](/dynamics365/release-plans/)
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el blog de [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog de [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información sobre clientes y otras soluciones en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en la aplicación. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.

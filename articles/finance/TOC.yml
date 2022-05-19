@@ -84,10 +84,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: Requisitos del sistema para implementaciones locales
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Comprar Finance + Operations (local)
+                - name: Comprar Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar Warehousing para implementaciones locales
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Recursos de documentación
               items:
                 - name: Sistema de ayuda
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Perfiles de contabilización del proveedor
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Crear códigos de gastos
+              href: accounts-receivable/create-charges-codes.md
             - name: Fechas de facturas de proveedor
               href: accounts-payable/vendor-invoice-dates.md
             - name: Revalorización de divisa extranjera para clientes y proveedores
@@ -292,6 +292,8 @@
               items:
                 - name: Pagos centralizados para proveedores
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Configurar y procesar pagos puente
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Configurar liquidación
                   href: cash-bank-management/configure-settlement.md
                 - name: Resto de liquidación
@@ -352,10 +354,14 @@
               href: accounts-receivable/customer-workflow.md
             - name: Configurar y procesar facturas periódicas
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Distribuciones contables y asientos del subdiario contable para las facturas de servicios
+            - name: Distribuciones contables y movimientos del subdiario contable para las facturas de servicios
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Registro de clientes
+              href: general-ledger/accts-recvble-posting.md
             - name: Perfiles de contabilización del cliente
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Crear códigos de gastos
+              href: accounts-receivable/create-charges-codes.md
             - name: Información general de las domiciliaciones SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Configurar orden de domiciliación bancaria SEPA
@@ -364,7 +370,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: Crear una factura de servicios
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: Distribuciones contables y asientos del subdiario contable para las facturas de servicios
+            - name: Distribuciones contables y movimientos del subdiario contable para las facturas de servicios
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Crear una plantilla de factura de servicios
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Escenarios de fecha de alineación
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: División de ingresos
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Aplazamientos de ingresos y gastos
                   items:
                     - name: Configurar aplazamientos de ingresos y gastos
@@ -452,6 +460,8 @@
               items:
                 - name: Información general de pagos de cliente
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Configurar y procesar pagos puente
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Pagos centralizados para Clientes
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Depositar pagos de cliente
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Divisa dual
                       href: general-ledger/dual-currency.md
+                - name: Perfiles de contabilización
+                  items:
+                    - name: Descripción general de perfiles de contabilización
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Prácticas recomendadas para perfiles de contabilización
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Cuentas para transacciones automáticas
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Reglas de asignación
                   items:
                     - name: Reglas de asignación contable

@@ -96,7 +96,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Pasos de instalación para los componentes del canal Retail en un entorno local
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Comprar Finance + Operations (local)
+                - name: Comprar Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Orientación para la implementación de Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
@@ -600,6 +600,8 @@
                       href: wallets.md
                     - name: Pagos mejorados en la finalización de la compra en tienda
                       href: dev-itpro/enhanced-sca.md
+                    - name: Configurar pagos exprés para PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: Preguntas frecuentes sobre pagos
                       href: dev-itpro/payments-retail.md
                 - name: Correo electrónico y notificaciones
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: Crear un sitio de comercio electrónico
               items:
+                - name: Asignar canales a sitios de comercio electrónico
+                  href: map-channels-sites.md
                 - name: Configurar su nombre de dominio
                   href: configure-your-domain-name.md
                 - name: Implementar un inquilino nuevo de comercio electrónico
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Migrar extensiones del PDV al SDK de Commerce
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Crear un proyecto de paquete de extensiones de PDV
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: Depurar extensiones de Store Commerce con VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: Extensiones MPOS y CPOS selladas
+                      items:
+                        - name: Crear un archivo .appx para un paquete de extensiones de Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: Depurar extensiones CPOS y MPOS selladas
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Configuración del entorno
                   items:
                     - name: Entorno de desarrollo local
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: Crear un proyecto de paquete de extensiones de PDV
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Crear un archivo .appx para un paquete de extensiones de Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Depurar extensiones de PDV
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API y referencia
                   items:
                     - name: Ver información de paquete de extensión de PDV
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Optimización de CSS de módulos
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Optimizar imágenes en las páginas de detalles del producto
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Optimizar imágenes en páginas de categorías y búsqueda
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Telemetría y análisis
                       items:
                         - name: Registrador de telemetría

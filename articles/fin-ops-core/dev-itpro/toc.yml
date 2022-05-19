@@ -50,10 +50,6 @@
           items:
             - name: Integración entre aplicaciones de finanzas y operaciones y servicios de terceros
               href: data-entities/integration-overview.md
-            - name: Limitación basada en prioridades
-              hreF: data-entities/priority-based-throttling.md
-            - name: Preguntas frecuentes sobre limitación basada en prioridades
-              href: data-entities/throttling-faq.md
             - name: API de integración de datos
               items:
                 - name: API de REST de paquete de administración de datos
@@ -74,7 +70,19 @@
                   href: data-entities/recurring-integrations.md
                 - name: Probar servicios usando utilidades de terceros
                   href: data-entities/third-party-service-test.md
-            - name: Conector de Finance and Operations
+            - name: Límites de protección del servicio
+              items:
+                - name: Límites de API de protección del servicio
+                  href: data-entities/service-protection-api-limits.md
+                - name: Priorización de limitación
+                  href: data-entities/priority-based-throttling.md
+                - name: Reintentar operaciones
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Supervisar limitación de API
+                  href: data-entities/service-protection-monitoring.md
+                - name: Maximizar rendimiento de API
+                  href: data-entities/service-protection-maximizing-api-throughput.md
+            - name: Conector de finanzas y operaciones
               href: data-entities/fin-ops-connector.md
             - name: Desarrollo para la integración
               items:
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Configurar servidores proxy para entornos locales
                       href: deployment/onprem-reverseproxy.md
+                    - name: Configurar la aplicación Warehousing para implementaciones locales
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Instalar dispositivos de impresora de red en entornos locales
                       href: analytics/install-network-printer-onprem.md
                     - name: Diagnósticos locales
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Ampliar, personalizar y colaborar en la ayuda'
                   href: help/contributor-guide.md
-            - name: Consideraciones sobre la implementación
+            - name: Servicios regionales de aplicaciones de finanzas y operaciones
               items:
-                - name: Opciones de implementación de nube soberana y local para Dynamics 365 Finance y Dynamics 365 Supply Chain Management
+                - name: Geografías locales
                   href: deployment/deployment-options-geo.md
-                - name: Finance y Supply Chain Management en US Government Community Cloud (GCC)
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance y Supply Chain Management operadas por 21Vianet en China
+                - name: Operado por 21Vianet en China
                   href: deployment/china-local-deployment.md
-                - name: aplicaciones de finanzas y operaciones en Francia
-                  href: deployment/france-local-deployment.md
         - name: Desarrollar y personalizar
           items:
             - name: Página principal de Desarrollar y personalizar
@@ -559,7 +567,7 @@
                     - name: Información general de la creación de modelos y elementos de modelo de datos
                       href: dev-tools/create-data-model-elements.md
                     - name: Directrices de nomenclatura para extensiones
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Desactivar la personalización de modelos y dejar de utilizar la funcionalidad
                       href: dev-tools/lock-models.md
                 - name: Informe de análisis de personalización

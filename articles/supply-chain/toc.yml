@@ -84,10 +84,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Requisitos del sistema para implementaciones locales
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Comprar Finance + Operations (local)
+                - name: Comprar Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar Warehousing para implementaciones locales
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Recursos de documentación
               items:
                 - name: Sistema de ayuda
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrar artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Importar ASN entrantes a través de la entidad de datos V2
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Importar ASN entrantes a través de la entidad de datos V3
+                  href: warehousing/import-asn-data-entity.md
                 - name: Productos de tránsito directo del almacén de recepción a las tiendas
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Configurar una directiva de ubicación para la ubicación de pedidos de compra

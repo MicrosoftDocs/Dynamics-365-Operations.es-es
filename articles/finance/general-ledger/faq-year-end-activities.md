@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947271"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725611"
 ---
 # <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de ejercicio 
 
@@ -168,11 +168,11 @@ Cuando se pague, 500 $ será el importe de 1099 que se pague. Si vuelve a calcu
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Proveedores: 1099 - Crear manualmente transacciones del 1099
 Es posible que una organización deba crear manualmente transacciones del 1099 que no estén asociadas con una factura. Puede agregar transacciones del 1099 manuales si va a **Proveedores > Tareas periódicas > 1099 > Liquidación del proveedor para 1099**. Seleccione el botón **Transacciones manuales de 1099**. 
 
-Las transacciones del 1099 creadas de forma manual no se actualizan con el proceso **Actualizar todo** or el proceso **Volver a calcular los importes de 1099 existentes** en la función **Actualizar 1099**.
+Las transacciones del 1099 creadas de forma manual no se actualizan con el proceso **Actualizar todo** o el proceso **Volver a calcular los importes de 1099 existentes** en la función **Actualizar 1099**.
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Proveedores: 1099 - ¿Dynamics 365 Finance es compatible con el formulario 1099? 
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Proveedores: 1099 - ¿es Dynamics 365 Finance compatible con el formulario 1099? 
 
-Dynamics 365 Finance no imprime el formulario 1096 de resumen anual y transmisión de declaraciones de información de EE. UU.
+Dynamics 365 Finance no imprime el formulario 1096 de resumen anual y transmisión de declaraciones de información de EE. UU.
 
 ## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Proveedores: 1099 - ¿hay alguna nueva función compatible con el informe 1099 para el sector público? 
 Se ha agregado una nueva característica para el sector público, **Actualizar información de informe 1099 por cuenta principal**, que puede habilitar en el espacio de trabajo **Administración de características**. Esta función le permite asociar los valores de informe 1099 a un proveedor por la cuenta principal en la distribución contable, en lugar de la cuenta predeterminada en el registro del proveedor.
