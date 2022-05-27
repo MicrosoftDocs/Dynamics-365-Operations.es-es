@@ -1,7 +1,7 @@
 ---
 title: Detalles de línea de trabajo
 description: En este tema se ofrece información sobre la página Detalles de la línea de trabajo, que muestra una lista completa, ordenable y filtrable de las líneas de trabajo individuales en su sistema.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 4d7c6991c0171b0e09752b3305e0fa11a25b7833
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778290"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674121"
 ---
 # <a name="work-line-details"></a>Detalles de línea de trabajo
 

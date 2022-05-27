@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f515b614aedce3d58994bf21104ada25702a71e
-ms.sourcegitcommit: fc19ee0aba2a6174fef305d151f1eb23ca6c0346
+ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7385709"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689281"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Novedades y cambios en Dynamics 365 Human Resources, 9 de agosto de 2021
 
@@ -67,7 +66,7 @@ Para obtener una lista completa de las funciones previstas y sus lanzamientos pr
 
 | Característica | Detalles |
 | --- | --- |
-| Actualización de la plataforma 10.0.21 (45) | Está programado que el despliegue de la actualización de la plataforma 10.0.21 comience a implementarse con la próxima versión de servicio el 4 de octubre de 2021. Para obtener más información, consulte [Actualizaciones de la plataforma para la versión 10.0.21 de las aplicaciones de Finance and Operations (octubre de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Actualización de la plataforma 10.0.21 (45) | Está programado que el despliegue de la actualización de la plataforma 10.0.21 comience a implementarse con la próxima versión de servicio el 4 de octubre de 2021. Para obtener más información, consulte [Platform updates para la versión 10.0.21 de aplicaciones de finanzas y operaciones (octubre de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 
 ## <a name="see-also"></a>Consulte también
 

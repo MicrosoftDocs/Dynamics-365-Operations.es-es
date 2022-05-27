@@ -1,25 +1,25 @@
 ---
 title: Configuración de escenarios para Inteligencia IoT
 description: Este tema explica cómo configurar escenarios para Inteligencia de IoT en Microsoft Dynamics 365 Supply Chain Management.
-author: tonyafehr
+author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: kamaybac
 ms.custom: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644711"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675188"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuración de escenarios para Inteligencia IoT
 

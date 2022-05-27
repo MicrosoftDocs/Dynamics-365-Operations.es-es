@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ebe5a6ae19d00b94247381c700ff21d31910fcac1968ab4f8a673f89ddd2f0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c01d00e7ede44c20e64fc4a8cd8646201caa3992
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782644"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686810"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Novedades o cambios en Dynamics 365 Human Resources 12 de julio de 2021
 
@@ -81,7 +80,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 
 | Característica | Detalles |
 | --- | --- |
-| Actualización de la plataforma 10.0.20 (44) | La actualización de la plataforma 10.0.20 está programada para comenzar a implementarse con la próxima versión de servicio el 26 de julio de 2021. Para obtener más información, consulte [Platform updates para la versión 10.0.20 de aplicaciones de Finance and Operations (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Actualización de la plataforma 10.0.20 (44) | La actualización de la plataforma 10.0.20 está programada para comenzar a implementarse con la próxima versión de servicio el 26 de julio de 2021. Para obtener más información, consulte [Platform updates para la versión 10.0.20 de aplicaciones de finanzas y operaciones (agosto de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

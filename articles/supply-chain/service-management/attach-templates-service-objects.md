@@ -1,7 +1,7 @@
 ---
 title: Adjuntar plantillas a los objetos del servicio
 description: Una lista de materiales (L. MAT) de plantilla se puede vincular a una relación de objeto de servicio.
-author: kamaybac
+author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77f03a4f74ae4f0ebec67c2a86e369d7e7280b01
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 73462e7dd54d2f666de9eb4fbe8fb82857c57937
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566272"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676814"
 ---
 # <a name="attach-templates-to-service-objects"></a>Adjuntar plantillas a los objetos del servicio    
 

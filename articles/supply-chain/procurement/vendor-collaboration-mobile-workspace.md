@@ -1,7 +1,7 @@
 ---
 title: Espacio de trabajo de móvil de colaboración de proveedor
 description: Este tema proporciona información acerca del espacio de trabajo móvil de colaboración de proveedor. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: henrikan
+ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577033"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670115"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espacio de trabajo de móvil de colaboración de proveedor
 
@@ -29,7 +29,7 @@ Este tema proporciona información acerca del espacio de trabajo móvil **Colabo
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.
 
-## <a name="overview"></a>Información general 
+## <a name="overview"></a>Visión general 
 El espacio de trabajo móvil de **Colaboración de proveedores** mantiene a los proveedores informados sobre nuevos pedidos de compra de modo que puedan ver pedidos y responder a ellos en el cliente web. 
 
 >[!NOTE]
@@ -109,7 +109,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
-Descargar e instalar la aplicación móvil de Finance and Operations:
+Descargue e instale la aplicación móvil Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

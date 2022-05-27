@@ -1,23 +1,23 @@
 ---
 title: Catálogo de aprendizaje para usuarios de Dynamics 365 Supply Chain Management
 description: Encuentre todas las opciones de formación para usuarios de Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402675"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673197"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catálogo de aprendizaje para usuarios de Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 |---------|-------------|--------|--------|
 | [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? ¿Quizás no sabe por dónde empezar con las aplicaciones de Microsoft Dynamics 365 y Power Platform? Aprenda cómo el poder de las aplicaciones comerciales puede ayudarle a transformar su negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 8 horas |
 | [Aspectos básicos de Dynamics 365 y Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas |
-| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de Finance and Operations respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
+| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de finanzas y operaciones respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a la gestión de activos para Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Administración de activos es un módulo para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management. Administración de activos permite gestionar y realizar eficientemente tareas relacionadas con la gestión y el mantenimiento de muchos tipos de equipos de la empresa, por ejemplo, máquinas, equipos de producción y vehículos. Administración de activos admite soluciones de numerosos sectores. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 1 hora |
 | [Comenzar con el complemento de administración de cambios de ingeniería para Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management capacita a los empleados y las organizaciones con la capacidad de obtener una vista unificada del inventario, el almacén, la fabricación, el servicio y la logística con los análisis predictivos que convierten los datos en información detallada para admitir mejores decisiones estratégicas. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Con Dynamics 365 Intelligent Order Management, los clientes pueden gestionar la orquestación de los pedidos hasta el proceso de entrega. Estas capacidades permiten a las organizaciones orquestar los flujos de pedidos a través de diferentes plataformas y aplicaciones. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 4 horas |

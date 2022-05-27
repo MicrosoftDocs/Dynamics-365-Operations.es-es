@@ -1,7 +1,7 @@
 ---
 title: Espacio de trabajo móvil de pedidos de ventas
 description: Este tema proporciona información sobre el espacio de trabajo móvil Pedidos de ventas. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.
-author: Mirzaab
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 712b45cf1fd35de9f823af1bf89db9c4a572d61ebf7aa3e1fded16902c09557a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a746ae5d7f0c6ca2fd8e69a23114cfcaa24b16b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767373"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675020"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
 
@@ -30,7 +30,7 @@ Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos 
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
 
 El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.
@@ -117,7 +117,7 @@ Si se ha implementado Dynamics 365 for Operations versión 1611 con actualizaci�
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargar e instalar la aplicación móvil de Finance and Operations:
+Descargue e instale la aplicación móvil Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

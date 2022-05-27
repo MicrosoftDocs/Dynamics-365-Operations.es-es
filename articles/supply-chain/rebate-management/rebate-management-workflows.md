@@ -9,23 +9,22 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576673"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687423"
 ---
 # <a name="rebate-management-deal-workflows"></a>Flujos de trabajo de acuerdos de gestión de devoluciones
 
 [!include [banner](../includes/banner.md)]
 
-Para aprobar acuerdos de devoluciones, la gestión de devoluciones utiliza la misma plataforma de flujo de trabajo que otras aplicaciones de Finance and Operations. Hay dos procesos de trabajo asociados con cada flujo de trabajo:
+Para aprobar acuerdos de devoluciones, la gestión de devoluciones utiliza la misma plataforma de flujo de trabajo que otras aplicaciones de finanzas y operaciones. Hay dos procesos de trabajo asociados con cada flujo de trabajo:
 
 - Un elemento del flujo de trabajo aprueba el acuerdo.
 - Un elemento del flujo de trabajo activa el trato para que el usuario o el proceso del flujo de trabajo puedan aprobar las transacciones.

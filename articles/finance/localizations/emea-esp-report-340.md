@@ -2,7 +2,7 @@
 title: Informe 340 para España
 description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
 author: anasyash
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Spain
-ms.author: epodkolz
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 688df6a774b867f15d66d998a7c1782d04be3510
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 39a721956af171a258bcd2411dd177c9df8f08d2
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384630"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8679574"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
@@ -139,8 +139,8 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 > [!NOTE]
 > Para códigos con porcentaje de impuestos negativo, en la ficha desplegable **Cálculo**, establezca la opción **Permitir porcentaje de impuestos negativo a las ventas** en **Sí**.
 
-2.  Configure los impuestos de ventas. Para instrucciones, vea [Descripción general del impuesto](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/general-ledger/indirect-taxes-overview.md).
-3.  Configurar el IVA intracomunitario para compras en la UE. Para instrucciones, vea [IVA intracomunitario para España](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-esp-intra-community-vat.md).
+2.  Configure los impuestos de ventas. Para instrucciones, vea [Descripción general del impuesto](../general-ledger/indirect-taxes-overview.md).
+3.  Configurar el IVA intracomunitario para compras en la UE. Para instrucciones, vea [IVA intracomunitario para España](emea-esp-intra-community-vat.md).
 
 4.  Publique las siguientes transacciones.
 

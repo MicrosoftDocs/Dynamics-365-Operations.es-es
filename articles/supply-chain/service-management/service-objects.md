@@ -1,7 +1,7 @@
 ---
 title: Visión genera de los objetos de servicio
 description: Este tema proporciona información sobre cómo trabajar con objetos de servicio.
-author: kamaybac
+author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad758d32c6e9de0758c6fddb57a7dea886ab73d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986444"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677685"
 ---
 # <a name="service-objects-overview"></a>Visión genera de los objetos de servicio
 

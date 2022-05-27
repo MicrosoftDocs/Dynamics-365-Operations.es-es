@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: 3ba1ecc97183c147b46ea2396df78fcdce07c27e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924756"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687991"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de bajas en Teams
 
@@ -186,7 +185,7 @@ En Human Resources, seleccione **Ajustes** y luego seleccione **Opciones de usua
 
 ![Opciones de usuario de Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
-Si aún tiene problemas de traducción, háganoslo saber. Para obtener información, consulte [Obtener soporte técnico para aplicaciones de Finance and Operations o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Si aún tiene problemas de traducción, háganoslo saber. Para obtener información, consulte [Obtener soporte técnico para aplicaciones de finanzas y operaciones o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
 

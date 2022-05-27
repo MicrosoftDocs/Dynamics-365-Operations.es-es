@@ -1,7 +1,7 @@
 ---
 title: Incorporación de proveedores
 description: En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566896"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671011"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 
@@ -46,7 +46,7 @@ En la tabla siguiente muestran los pasos y los roles que están involucrados en 
 | Administrador            | | | Cree un usuario en Supply Chain Management y Microsoft Azure. | | | |
 | Persona de contacto del proveedor    | | | Enviar correo electrónico a la persona de contacto. | Registrar la información del proveedor. | | |
 
-Para obtener una demostración rápida del proceso de incorporación de proveedores, vea este breve vídeo de YouTube: [Integrar a un nuevo proveedor en Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Para ver una demostración rápida del proceso de integración del proveedor, vea este vídeo corto de YouTube sobre [Cómo Integrar a un nuevo proveedor Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importar la solicitud de registro del proveedor potencial
 

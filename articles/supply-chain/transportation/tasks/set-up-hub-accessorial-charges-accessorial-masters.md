@@ -1,7 +1,7 @@
 ---
 title: Configuración de cargos adicionales del centro y listas maestras de cargos adicionales
 description: Este procedimiento muestra cómo crear cargos adicionales maestros para un centro y cómo usarlos para crear un cargo adicional del centro.
-author: Henrikan
+author: Weijiesa
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1480dec82912d547bde5db614703164e3f8451c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1ae7580e0c2a2f776512a7cf4c378266f1a878e9
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576241"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672637"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Configuración de cargos adicionales del centro y listas maestras de cargos adicionales
 

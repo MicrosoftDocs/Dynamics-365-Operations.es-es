@@ -1,7 +1,7 @@
 ---
 title: Página inicial de adquisición y abastecimiento
 description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para Adquisición y abastecimiento.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565504"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673029"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
@@ -57,7 +57,7 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Demostración de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(documentación)
 -   [Supervisar el inventario de entrega mediante la colaboración de proveedores](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md) (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
--   [Seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 Finance and Operations)
+-   [Seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 de Finance and Operations)
 -   [Espacio de trabajo de móvil de colaboración de proveedor](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestión de compra de productos

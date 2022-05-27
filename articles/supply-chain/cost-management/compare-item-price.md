@@ -1,7 +1,7 @@
 ---
 title: Informe para Comparar precios de almacenamiento de artículos
 description: Aprenda a generar un informe para Comparar precios de almacenamiento de artículos y después explorar y/o exportar el resultado.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76a4ba07d191f79b4033fc78acff62d4909c7d32
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566008"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675386"
 ---
 # <a name="compare-item-prices-storage-report"></a>Informe para Comparar precios de almacenamiento de artículos
 

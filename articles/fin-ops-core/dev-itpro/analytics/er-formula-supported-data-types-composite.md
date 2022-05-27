@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323674"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689253"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipos de datos compuestos admitidos para fórmulas de informes electrónicos
 
@@ -81,7 +81,7 @@ Una *lista de registros* es una lista de elementos del tipo *registro*. Por lo g
 
 De forma predeterminada, se accede a los registros de una *lista de registros* de forma secuencial. Para acceder a un registro específico, puede utilizar la función [INDEX](er-functions-list-index.md) y especificar el índice *entero*.
 
-El valor predeterminado de una *lista de registro* es **vacío**. Puedes usar la función [ISEMPTY](/er-functions-list-isempty.md) para evaluar si una *lista de registros* esta vacía.
+El valor predeterminado de una *lista de registro* es **vacío**. Puedes usar la función [ISEMPTY](er-functions-list-isempty.md) para evaluar si una *lista de registros* esta vacía.
 
 > [!NOTE]
 > Si una *lista de registros* está vacía, cualquier intento de obtener un valor de campo para un *registro* en él hace que se lance una excepción en tiempo de ejecución. Para saber cómo puede ayudar a prevenir excepciones de tiempo de ejecución de este tipo, consulte [Consideración de casos de lista vacía](er-components-inspections.md#i9).

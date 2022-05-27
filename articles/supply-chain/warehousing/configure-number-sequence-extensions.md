@@ -1,7 +1,7 @@
 ---
 title: Configurar secuencias numéricas para flujos de almacén
 description: Este tema proporciona una descripción general de la funcionalidad que ofrece extensiones de secuencia numérica para identificaciones de matrículas, identificaciones de etiquetas de oleada, identificaciones de contenedores e identificaciones de conocimiento de embarque.
-author: GarmMSFT
+author: Mirzaab
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 20438ed3e34775a6312508595bcd32b16a37a81d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574722"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669566"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar secuencias numéricas para flujos de almacén
 
