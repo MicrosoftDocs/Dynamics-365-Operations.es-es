@@ -1,7 +1,7 @@
 ---
 title: Procesamiento de mercancía en tránsito
 description: En este tema se describe cómo trabajar con pedidos de mercancía en tránsito. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, las mercancías se pueden facturar antes de que se reciban en el almacén para su consumo.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: DeliveryTerms, InventLocation, InventPosting, ITMGoodsInTransitOrder, ITMTableListPage, ITMTable, ITMContainersListPage, ITMContainers, ITMFolioTableListPage, ITMFolioTable, ITMGoodsInTransitOrderEditLines, SysOperationTemplateForm, WHSRFMenuItem, WHSLocDirTable, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e85e3ba92b61e0208e1cf95d3f361d38772d83cb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571050"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694666"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902516"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717485"
 ---
 # <a name="close-the-fiscal-year"></a>Cerrar el ejercicio
 
@@ -30,49 +30,49 @@ Este procedimiento describe el proceso de cierre de fin de año que transfiere l
 ## <a name="validate-year-end-close-parameters"></a>Valide los parámetros de cierre de fin de año
 1. Vaya a **Panel de exploración > Módulos > Contabilidad general > Configuración de contabilidad > Parámetros de contabilidad general**.
 2. Expanda la sección **Cierre del ejercicio**.
-3. Seleccione "Sí" o "No" para la opción **Eliminar el asiento de cierre y apertura y generar uno nuevo**.
+3. Seleccione **Sí** o **No** para la opción **Eliminar el asiento de cierre y apertura y generar uno nuevo**.
     
-    Si ya ha cerrado el año fiscal y el cierre de fin de año se ejecuta de nuevo, este valor es importante. Si se establece en Sí, el asiento del cierre de fin de año anterior se borrará y se creará un nuevo asiento para todas las cuentas con saldos iniciales. Si se establece en No, se conservará el asiento anterior y solo se creará un nuevo asiento para ajustar las entradas que se han registrado después del último cierre de fin de año.
+Si ya ha cerrado el año fiscal y el cierre de fin de año se ejecuta de nuevo, este valor es importante. Si se establece en **Yes**, el asiento del cierre de fin de año anterior se borrará y se creará un nuevo asiento para todas las cuentas con saldos iniciales. Si se establece en **No**, se conservará el asiento anterior y solo se creará un nuevo asiento para ajustar las entradas que se han registrado después del último cierre de fin de año.
 
-4. Seleccione "Sí" o "No" para la opción **Crear el asiento de cierre al lanzar el proceso de transacciones de cierre / apertura**.
+4. Seleccione **Yes** o **No** para la opción **Crear el asiento de cierre al lanzar el proceso de transacciones de cierre / apertura**.
 
-    Si se establece en Sí, se crean dos transacciones. Un asiento se crea en el ejercicio que se cierra para llevar los saldos de todas las cuentas contables a cero y un segundo asiento se crea en el ejercicio siguiente para los saldos iniciales. Si se establece en No, se crea un asiento único en el ejercicio siguiente para saldos iniciales.  
+Si se establece en **Sí**, se crean dos transacciones. Un asiento se crea en el ejercicio que se cierra para llevar los saldos de todas las cuentas contables a cero y un segundo asiento se crea en el ejercicio siguiente para los saldos iniciales. Si se establece en **No**, se crea un asiento único en el ejercicio siguiente para saldos iniciales.  
 
-5. Seleccione "Sí" o "No" para la opción **Establecer el estado del ejercicio en Cerrado de forma permanente**.
+5. Seleccione **Sí** o **No** para la opción **Establecer el estado del ejercicio en Cerrado de forma permanente**.
 
-    Si se establece en Sí, el estado del ejercicio se fijará en Cerrado de forma permanente.  Debido a que un año cerrado de forma permanente no se puede volver a abrir, ser recomienda establecer esta opción en No.  
+Si se establece en **Sí**, el estado del ejercicio se fijará en Cerrado de forma permanente. Debido a que un año cerrado de forma permanente no se puede volver a abrir, ser recomienda establecer esta opción en **No**.  
 
-6. Seleccione "Sí" o "No" para la opción **Decidir si completar un número de asiento durante el cierre de fin de año**.
+6. Seleccione "**Sí** o **No** para la opción **Decidir si completar un número de asiento durante el cierre de fin de año**.
 
-    Si se establece en Sí, deberá especificarse un número de asiento manualmente durante el proceso de cierre de fin de año. No se usa ninguna secuencia numérica para generar dicho número de asiento. Se recomienda elegir Sí.  
+Si se establece en **Sí**, deberá especificarse un número de asiento manualmente durante el proceso de cierre de fin de año. No se usa ninguna secuencia numérica para generar dicho número de asiento. Se recomienda elegir **Sí**.  
 
 7. Cierre la página.
 8. Vaya a **Contabilidad general > Cierre de período > Cierre de fin de año**.
 9. Haga clic en **Nuevo** para crear una plantilla de cierre de fin de año.
 
-    Se puede crear una plantilla para un grupo de entidades jurídicas para ejecutar el cierre de fin de año. Esta plantilla se puede volver a usar un año tras otro.  
+Se puede crear una plantilla para un grupo de entidades jurídicas para ejecutar el cierre de fin de año. Esta plantilla se puede volver a usar un año tras otro.  
 
 10. En el campo **Nombre del grupo**, especifique un nombre de plantilla de cierre de fin de año.
 11. En el campo **Calendario fiscal**, seleccione el ejercicio para el que se va a crear la plantilla.
 
-    Solo las entidades jurídicas que utilizan el mismo ejercicio se pueden agrupar en la plantilla de cierre de fin de año. Esto se debe a que el cierre de fin de año se hace seleccionando un ejercicio, no una fecha.  
+Solo las entidades jurídicas que utilizan el mismo ejercicio se pueden agrupar en la plantilla de cierre de fin de año. Esto se debe a que el cierre de fin de año se hace seleccionando un ejercicio, no una fecha.  
 
 12. En el **panel de acciones**, haga clic en **Guardar**.
 13. En la sección **Entidades jurídicas**, haga clic en **Agregar** para seleccionar las entidades jurídicas para esta plantilla.
     
-    Las entidades jurídicas se pueden agregar al seleccionar las entidades jurídicas o seleccionando una jerarquía organizativa.  Sólo se agregan las entidades jurídicas con la jerarquía organizativa con el mismo calendario fiscal seleccionado.  
+Las entidades jurídicas se pueden agregar al seleccionar las entidades jurídicas o seleccionando una jerarquía organizativa. Sólo se agregan las entidades jurídicas con la jerarquía organizativa con el mismo calendario fiscal seleccionado.  
 
 14. Seleccione las entidades jurídicas o la jerarquía organizativa.
 15. Haga clic en **Aceptar**.
-16. Seleccione "Sí" o "No" en **Transferir dimensiones de balance de situación**.
+16. Seleccione **Sí** o **No** en **Transferir dimensiones de balance de situación**.
 
-    Es una práctica recomendada establecer esta opción en Sí para las cuentas de balance de situación. Esto mantendrá las dimensiones financieras de las transacciones registradas al crear los saldos iniciales para las cuentas de balance de situación. Para las cuentas de pérdidas y ganancias, puede seleccionar mantener las dimensiones financieras (Cerrar todo) cuando los saldos se mueven a las ganancias retenidas o puede seleccionar que las dimensiones financieras se reemplacen con un valor de la dimensión diferente (Cerrar uno). Si elige Cerrar uno, puede definir un valor de dimensión concreto para cada dimensión o incluso optar por dejarlo en blanco.  
+Es una práctica recomendada establecer esta opción en **Sí** para las cuentas de balance de situación. Esto mantendrá las dimensiones financieras de las transacciones registradas al crear los saldos iniciales para las cuentas de balance de situación. Para las cuentas de pérdidas y ganancias, puede seleccionar mantener las dimensiones financieras (**Cerrar todo**) cuando los saldos se mueven a las ganancias retenidas o puede seleccionar que las dimensiones financieras se reemplacen con un valor de la dimensión diferente (**Cerrar uno**). Si elige **Cerrar uno**, puede definir un valor de dimensión concreto para cada dimensión o incluso optar por dejarlo en blanco.  
 
 17. Haga clic en **Guardar**.
 18. Inicie el cierre de fin de año eligiendo **Ejecutar cierre fiscal** en el **panel de acciones**. El cierre de fin de año se ejecutará para la plantilla seleccionada.  
 19. Seleccione todas o un subconjunto de entidades jurídicas de la plantilla para el que ejecutar el cierre de fin de año.
 
-    En la primera ejecución del cierre de fin de año, para obtener los saldos iniciales la mayoría de las organizaciones pueden elegir ejecutar el cierre de fin de año para todas las entidades jurídicas dentro de la plantilla. Si después ajusta entradas, puede elegir ejecutar el cierre de fin de año para solo las entidades jurídicas que requieren ajustes.  
+En la primera ejecución del cierre de fin de año, para obtener los saldos iniciales la mayoría de las organizaciones pueden elegir ejecutar el cierre de fin de año para todas las entidades jurídicas dentro de la plantilla. Si después ajusta entradas, puede elegir ejecutar el cierre de fin de año para solo las entidades jurídicas que requieren ajustes.  
 
 20. Haga clic en **Aceptar**.
 21. Seleccione el ejercicio para el que ejecutar el cierre de fin de año.

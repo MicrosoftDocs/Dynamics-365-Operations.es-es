@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
-ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8616841"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689646"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar el método de pago de la cuenta del cliente para sitios de comercio electrónico B2B
 

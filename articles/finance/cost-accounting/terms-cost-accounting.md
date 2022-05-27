@@ -1,27 +1,27 @@
 ---
 title: Terminología de contabilidad de costes
 description: Este tema define los términos clave que se utilizan en la Contabilidad de costes.
-author: ShylaThompson
+author: aprilolson
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50f7849ac3c097d64a8499a19157f24d7a7b317
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774386"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712436"
 ---
 # <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
 

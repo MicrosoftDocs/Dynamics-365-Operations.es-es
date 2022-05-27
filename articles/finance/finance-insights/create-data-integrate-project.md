@@ -2,7 +2,7 @@
 title: Crear un proyecto de integración de datos
 description: Este tema explica cómo crear un proyecto de integración de datos.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107296"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722895"
 ---
 # <a name="create-a-data-integration-project"></a>Crear un proyecto de integración de datos
 
@@ -55,11 +55,14 @@ Este tema explica cómo crear un proyecto de integración de datos.
 
 5. Abra los [entornos de Power Apps](https://admin.powerapps.com/environments) y siga estos pasos:  
 
-    1. Cree proyectos de integración de datos para las siguientes plantillas utilizando el conjunto de conexiones que acaba de crear:
+    1. Cree un proyecto de integración de datos único para cada una las siguientes plantillas utilizando el conjunto de conexiones que acaba de crear:
 
         - Resultado de información sobre pagos del cliente (CDS a Fin and Ops 10.0.17+)
         - Resultados de series de tiempo de flujo de efectivo (CDS a Fin and Ops)
         - Resultados de series de tiempo de presupuestos (CDS a Fin and Ops)
+
+      > [!NOTE]
+      > La creación de múltiples proyectos de integración de datos para cada plantilla puede causar errores que bloquearán las actualizaciones.
 
     2. Establezca la programación adecuada para cada proyecto.
 

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 38760879d84d8262cc1e8395c59bcbc0429bc753
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7347694"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694185"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Reglas de redondeo de cálculo de impuestos
 
@@ -39,7 +38,7 @@ Los campos **Precisión de redondeo** y **Método de redondeo** determinan cómo
 
 ## <a name="rounding-precision"></a>Precisión del redondeo
 
-Los campos de **Precisión de redondeo** admiten un valor de hasta seis decimales. Por ejemplo, si configura el campo **Precisión de redondeo** con el valor **0.000000**, los importes calculados se redondean a seis decimales y luego se envían a Microsoft Dynamics 365 Finance. Por ejemplo, si se utiliza el método de redondeo **Normal**, la cantidad **987.1234567** se redondea a **987.123457**.
+Los campos de **Precisión de redondeo** admiten un valor de hasta seis decimales. Por ejemplo, si configura el campo **Precisión de redondeo** con el valor **0,000000**, los importes calculados se redondean a seis decimales y luego se envían a Microsoft Dynamics 365 Finance. Por ejemplo, si se utiliza el método de redondeo **Normal**, la cantidad **987.1234567** se redondea a **987.123457**.
 
 > [!NOTE]
 > Finanzas redondea los importes de acuerdo con las reglas de redondeo de divisas. Por lo tanto, los importes de impuestos que se muestran y registran en las transacciones se ven afectados tanto por las reglas de redondeo de cálculo de impuestos como por las reglas de redondeo de divisas.

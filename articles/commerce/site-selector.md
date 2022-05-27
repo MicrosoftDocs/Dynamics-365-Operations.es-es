@@ -2,7 +2,7 @@
 title: Módulo de selector de sitios
 description: En este tema se trata el modulo de selector de sitios y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/06/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551703"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710312"
 ---
 # <a name="site-picker-module"></a>Módulo de selector de sitios
 
@@ -43,7 +43,23 @@ El módulo de selector de sitios debe configurarse con la lista de sitios (merca
 
 ## <a name="add-a-site-picker-module-to-a-page"></a>Agregar un módulo de selector de sitios a una página
 
-El módulo de selector de sitios se puede agregar a la franja **Selector de sitios** del [módulo de encabezado](author-header-module.md). Una vez agregado un módulo de selector de sitios, puede definir el encabezado del módulo y las opciones del sitio. Por lo general, un módulo de encabezado está contenido en un fragmento de encabezado que se puede compartir en las páginas de comercio electrónico de un sitio. En el siguiente ejemplo, el módulo selector de sitios se ha agregado a la franja **Selector de sitios** de un módulo de encabezado que está contenido en un fragmento de encabezado que se denomina **HeaderContainer**.
+El módulo de selector de sitios se puede agregar a la franja **Selector de sitios** del [módulo de encabezado](author-header-module.md). Una vez agregado un módulo de selector de sitios, puede definir el encabezado del módulo y las opciones del sitio. Por lo general, un módulo de encabezado está contenido en un fragmento de encabezado que se puede compartir en las páginas de comercio electrónico de un sitio. 
+
+Para agregar el módulo de selector de sitios a un módulo de encabezado, siga estos pasos.
+
+1. En la ranura **Selector de sitios** del módulo de encabezado del fragmento de encabezado, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Seleccionar módulos**, agregue un módulo **Selector de sitios** y luego seleccione **Aceptar**.
+1. En el panel de propiedades **Selector de sitios**, seleccione **Agregar lista de opciones del sitio**. Aparece una opción editable **Lista de opciones del sitio**.
+1. Seleccione **Lista de opciones de sitio**. Aparece el cuadro de diálogo **Lista de opciones del sitio**.
+1. Bajo **Nombre del sitio**, ingrese el texto del nombre del sitio que se mostrará en la lista desplegable del selector de sitios.
+1. Bajo **URL de redireccionamiento del sitio**, seleccione **Añadir un enlace**. Aparece el panel del elemento emergente **Agregar enlace**.
+1. En el panel flotante **Añadir un enlace**, seleccione **Página personalizada** y luego seleccione **Siguiente**.
+1. En la lista de URL del sitio, seleccione la URL con la ruta que creó al agregar el canal al sitio (por ejemplo, `www.adventure-works.com/fr-ca`) y luego seleccione **Aplicar**.
+1. Seleccione **Aceptar**.
+1. Seleccione **Guardar** y, a continuación, seleccione **Finalizar edición**.
+1. Seleccione **Publicar** para publicar la página.
+
+En el siguiente ejemplo, el módulo selector de sitios se ha agregado a la franja **Selector de sitios** de un módulo de encabezado que está contenido en un fragmento de encabezado que se denomina **HeaderContainer**.
 
 ![Ejemplo de un módulo de selector de sitios en un fragmento de encabezado.](./media/ecommerce-sitepicker-2.png)
 

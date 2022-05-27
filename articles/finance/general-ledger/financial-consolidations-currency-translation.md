@@ -1,30 +1,30 @@
 ---
 title: Visión general de la conversión de consolidaciones financieras y divisa
 description: Este tema describe las consolidaciones financieras y la conversión de divisas en contabilidad general.
-author: jiwo
+author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982414"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713879"
 ---
-# <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
+# <a name="financial-consolidations-and-currency-translation-overview"></a>Información general de la conversión de consolidaciones financieras y divisa
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le informa sobre el método que Microsoft Dynamics 365 Finance y el informe financiero usan para las consolidaciones. Describe las situaciones que implican informes de varias compañías, agregaciones, eliminaciones e intereses minoritarios. También explica cómo gestionar situaciones especiales, como escenarios donde las entidades jurídicas tienen varios períodos fiscales o varios planes contables.
+Este tema le informa sobre el método que Microsoft Dynamics 365 Finance y Financial reporting usan para las consolidaciones. Describe las situaciones que implican informes de varias compañías, agregaciones, eliminaciones e intereses minoritarios. También explica cómo gestionar situaciones especiales, como escenarios donde las entidades jurídicas tienen varios períodos fiscales o varios planes contables.
 
 Este tema se escribió para los usuarios y los consultores funcionales, y supone que los lectores tienen una comprensión general de Finance y los informes financieros. La configuración básica no se aborda.
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735360"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694435"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novedades o cambios en Dynamics 365 Human Resources 22 de junio de 2021
 
@@ -83,7 +82,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 
 | Característica | Detalles |
 | --- | --- |
-| Actualización de la plataforma 10.0.19 (43) | La actualización de la plataforma 10.0.19 está programada para comenzar a implementarse con la próxima versión de servicio el 28 de junio de 2021. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.19 de aplicaciones de Finance and Operations (junio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Actualización de la plataforma 10.0.19 (43) | La actualización de la plataforma 10.0.19 está programada para comenzar a implementarse con la próxima versión de servicio el 28 de junio de 2021. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.19 de aplicaciones de finanzas y operaciones (junio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Alternar visualización de años de servicio | Esta función ofrece la opción de usar diferentes fechas para calcular los años de servicio que se muestran en el formulario **Entrada de empleados simplificada** y en el formulario **Personas**.  Estará disponible en los parámetros de Recursos Humanos. |
 |  Habilitar a un administrador de ausencias para administrar la licencia | [Habilitar a un administrador de ausencias para administrar la licencia](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Adjuntos de mandato para tipos de licencia específicos | Esta característica permite a los administradores exigir que se agreguen archivos adjuntos al enviar solicitudes de baja para tipos de baja específicos. |

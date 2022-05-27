@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051379"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710641"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuración de Finance Insights
 
@@ -30,7 +30,7 @@ ms.locfileid: "8051379"
 Finance Insights combina la funcionalidad de Microsoft Dynamics 365 Finance con Dataverse, Azure y AI Builder para proporcionar potentes herramientas de pronóstico para su organización. Este tema explica los pasos de configuración que permitirán que su sistema utilice las capacidades que están disponibles en Finance Insights. Para completar con éxito los procedimientos de este tema, debe tener acceso de administrador del sistema y personalizador del sistema en el [Centro de administración de Power Portal](https://admin.powerplatform.microsoft.com/), acceso de Administrador del sistema en Dynamics 365 Finance y acceso para crear entornos en Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
-> Los siguientes procedimientos para configurar Finance Insights son válidos para versiones Dynamics 365 Finance versión 10.0.21 y posteriores.
+> Los siguientes procedimientos para configurar Finance Insights son válidos para las versiones de Dynamics 365 Finance version 10.0.21 y posteriores.
 
 ## <a name="deploy-dynamics-365-finance"></a>Implementar Dynamics 365 Finance
 
@@ -90,7 +90,7 @@ El complemento puede tardar varios minutos en instalarse.
 
 ## <a name="one-last-thing"></a>Una última cosa...
 
-Una vez que el complemento se haya instalado correctamente, puede que tarde hasta una hora antes de que pueda habilitar las funciones de Finance Insights en el espacio de trabajo **Administración de características** en Dynamics 365 Finance. Si no desea esperar tanto, puede ejecutar manualmente el proceso **Comprobación del estado de aprovisionamiento de conclusiones**. 
+Una vez que el complemento se haya instalado correctamente, puede que tarde hasta una hora antes de que pueda habilitar las características de Finance Insights en el espacio de trabajo **Administración de características** en Dynamics 365 Finance. Si no desea esperar tanto, puede ejecutar manualmente el proceso **Comprobación del estado de aprovisionamiento de conclusiones**. 
 
 1. En Dynamics 365 Finance, vaya a **Administración del sistema \> Configuración \> Automatización de procesos**.
 2. En la pestaña **Procesos en segundo plano**, busque **Comprobación del estado de aprovisionamiento de conclusiones** y seleccione **Editar**.

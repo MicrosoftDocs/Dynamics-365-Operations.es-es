@@ -1,23 +1,23 @@
 ---
 title: Crear una directiva de acumulación de costes
 description: Este procedimiento muestra cómo crear una directiva de acumulación de costes y crea reglas para la directiva.
-author: ShylaThompson
+author: panolte
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd7a390ced7b7b4997d9c86b9218f1fa83ee14729e450e1ae1cb53dbbd605edb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dfadde13c4bed494f6cd7ef63ed0ed6bf996ac61
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755675"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714240"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Crear una directiva de acumulación de costes
 

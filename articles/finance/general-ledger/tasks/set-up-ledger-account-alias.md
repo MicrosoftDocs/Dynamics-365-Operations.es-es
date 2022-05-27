@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50b486cd01850049ab3d23117d994c3db1038124
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745805"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716898"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar un alias de cuenta contable
 
@@ -26,17 +26,14 @@ ms.locfileid: "6745805"
 
 Este procedimiento muestra cómo crear un alias de cuenta que proporcione un método abreviado para especificar un número de cuenta. Este procedimiento usa la empresa de datos de demostración USMF.
 
-1. Vaya a Contabilidad general > Plan contable > Cuentas > Alias de cuenta contable.
-2. Haga clic en Nuevo.
-3. En el campo Alias de cuenta contable, escriba un valor.
-4. En el campo Estructura contable, seleccione la estructura a la que pertenecen la cuenta y las dimensiones.
-5. En el campo Empresa, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, busque y seleccione la empresa a la que se aplica el alias.
-7. En la lista, haga clic en el vínculo de la fila seleccionada.
-8. En el campo Definición del alias de la cuenta contable, especifique la cuenta y las dimensiones.
+1. Vaya a **Contabilidad general > Plan contable > Cuentas > Alias de cuenta contable**, haga clic en **Nuevo**.
+2. En el campo **Alias de cuenta contable**, escriba un valor.
+3. En el campo **Estructura contable**, seleccione la estructura a la que pertenecen la cuenta y las dimensiones.
+4. En el campo **Empresa**, en la lista, busque y seleccione la empresa a la que se aplica el alias.
+5. En el campo **Definición del alias de la cuenta contable**, especifique la cuenta y las dimensiones.
     * La cuenta y las dimensiones se rellenarán al usar el método abreviado.  
-9. En el campo Enfoque inicial, seleccione la dimensión que tendrá enfoque cuando se usa el alias.
-    * Después de escribir el método abreviado, y de que se rellenen la cuenta y las dimensiones, el campo Enfoque inicial es donde se moverá el cursor o el enfoque.  
+6. En el campo **Enfoque inicial**, seleccione la dimensión que tendrá enfoque cuando se usa el alias.
+    * Después de escribir el método abreviado, y de que se rellenen la cuenta y las dimensiones, el campo **Enfoque inicial** es donde se moverá el cursor o el enfoque.  
 
 
 

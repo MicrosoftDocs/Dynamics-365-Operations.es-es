@@ -1,6 +1,6 @@
 ---
 title: Configurar el espacio de trabajo móvil de gestión de activos
-description: Este tema describe cómo configurar Microsoft Dynamics 365 Supply Chain Management y la aplicación móvil Finance and Operations (Dynamics 365) para ejecutar un espacio de trabajo móvil de administración de activos que los trabajadores pueden usar para realizar tareas de administración de activos.
+description: Este tema describe cómo configurar Microsoft Dynamics 365 Supply Chain Management y la aplicación móvil de finanzas y operaciones (Dynamics 365) para ejecutar un espacio de trabajo móvil de administración de activos que los trabajadores pueden usar para realizar tareas de administración de activos.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572202"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693511"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurar el espacio de trabajo móvil de gestión de activos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar Microsoft Dynamics 365 Supply Chain Management y la aplicación móvil Finance and Operations (Dynamics 365) para ejecutar un espacio de trabajo móvil de **administración de activos** que los trabajadores pueden usar para realizar tareas de administración de activos.
+Este tema describe cómo configurar Microsoft Dynamics 365 Supply Chain Management y la aplicación móvil de finanzas y operaciones (Dynamics 365) para ejecutar un espacio de trabajo móvil de **administración de activos** que los trabajadores pueden usar para realizar tareas de administración de activos.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurar usuarios de trabajadores de mantenimiento en Supply Chain Management
 
@@ -42,7 +41,7 @@ Para cada usuario que requiera acceso al espacio de trabajo móvil de **gestión
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Publicación del espacio de trabajo móvil de gestión de activos
 
-Para que las funciones de gestión de activos estén disponibles en la aplicación móvil de Finance and Operations (Dynamics 365), debe publicar el espacio de trabajo móvil de **Gestión de activos**.
+Para que las funciones de gestión de activos estén disponibles en la aplicación móvil de finanzas y operaciones (Dynamics 365), debe publicar el espacio de trabajo móvil de **Gestión de activos**.
 
 1. En Supply Chain Management, seleccione el botón **Configuraciones** (el símbolo del engranaje en la esquina superior derecha) y luego seleccione **Aplicación movil** en el menú.
 1. En el cuadro de diálogo **Administrar aplicación móvil**, busque el icono de **Gestión de activos**. Si contiene el texto "En metadatos, no publicado", el espacio de trabajo aún no se ha publicado. Si contiene el texto "En metadatos: publicado", el espacio de trabajo ya se ha publicado y puede omitir el resto de este procedimiento.
@@ -51,14 +50,14 @@ Para que las funciones de gestión de activos estén disponibles en la aplicaci�
 
 1. Seleccione el icono **Gestión de activos** y luego seleccione **Publicar** en la barra de herramientas. Después de unos segundos, debería recibir una notificación que indica que el espacio de trabajo se ha publicado correctamente. Además, el texto del icono debería cambiar a "En metadatos: publicado".
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Instale y configure la aplicación móvil Finance and Operations (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Instalar y configurar la aplicación móvil de finanzas y operaciones (Dynamics 365)
 
-1. Vaya a una de las siguientes tiendas de aplicaciones para instalar la aplicación **Microsoft Finance and Operations (Dynamics 365)** en su dispositivo móvil:
+1. Vaya a una de las siguientes tiendas de aplicaciones para instalar la aplicación **Finanzas y operaciones de Microsoft (Dynamics 365)** en su dispositivo móvil:
 
     - [Para dispositivos Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Para dispositivos Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Abra la aplicación Finance and Operations (Dynamics 365). Debería aparecer la página de inicio de sesión. En el campo **Iniciar sesión**, ingrese su URL de Supply Chain Management o seleccione una URL reciente en la lista **Entornos recientes** y luego toque **Conectar**.
+1. Abra la aplicación de finanzas y operaciones (Dynamics 365). Debería aparecer la página de inicio de sesión. En el campo **Iniciar sesión**, ingrese su URL de Supply Chain Management o seleccione una URL reciente en la lista **Entornos recientes** y luego toque **Conectar**.
 
     ![Página de inicio de sesión.](media/mobile-app-sign-in.png "Página de inicio de sesión")
 
@@ -81,7 +80,7 @@ Para que las funciones de gestión de activos estén disponibles en la aplicaci�
 
 Para obtener más información sobre cómo trabajar con el espacio de trabajo **Administración de activos**, consulte [Uso del espacio de trabajo móvil de administración de activos](asset-management-mobile-workspace.md).
 
-Para obtener más información sobre la aplicación móvil Finance and Operations (Dynamics 365), consulte la [Página de inicio de la aplicación móvil](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Para obtener más información sobre la aplicación móvil de finanzas y operaciones (Dynamics 365), consulte la [Página de inicio de la aplicación móvil](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

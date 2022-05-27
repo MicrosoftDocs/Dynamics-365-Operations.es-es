@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565288"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695574"
 ---
 # <a name="sales-returns"></a>Devoluciones de ventas
 
@@ -76,7 +76,6 @@ Al crear un pedido de devolución, es preciso incluir la información de la sigu
 | Número RMA         | El identificador que se asigna al pedido de devolución              | El número de RMA se usa como clave alternativa en el proceso del pedido de devolución. El número de RMA que se asigna en función de la secuencia numérica del RMA que se configura en la página **Parámetros de clientes**.                                                                                                                              |
 | Fecha límite           | La última fecha en que se puede devolver el artículo.               | El valor predeterminado se calcula como la fecha actual más el periodo de validez. Por ejemplo, si una devolución es válida únicamente por 90 días a partir de la fecha en la que se creó el pedido de devolución, y se creó el pedido de devolución el 1 de mayo, el valor del campo es **30 de julio**. El período de validez se establece en la página **Parámetros de clientes**. |
 | Código de motivo de devolución | El motivo del cliente para devolver el producto          | El código del motivo se selecciona en la lista de códigos de motivos definido por el usuario. Puede actualizar este campo en cualquier momento.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Crear línea de pedido de devolución
 
 Después de finalizar la encabezado de devolución, puede crear líneas de devolución mediante uno de los métodos siguientes:
@@ -84,7 +83,8 @@ Después de finalizar la encabezado de devolución, puede crear líneas de devol
 -   Especifique manualmente los detalles del artículo, la cantidad, y otra información para cada línea de devolución.
 -   Cree una línea de devolución mediante la función **Buscar pedido de ventas**. Se recomienda usar esta función al crear un pedido de devolución. La función **Buscar pedido de ventas** establece una referencia desde la línea de devolución a la línea del pedido de ventas facturado y recupera los detalles de línea como número de artículo, la cantidad, el precio, el descuento y los valores de coste de la línea de ventas. La referencia ayuda a garantizar que, cuando el producto se devuelve a la empresa, se ha valorado según el mismo coste unitario al que se vendió. La referencia también valida que los pedidos de devolución no están creados para una cantidad que excede la cantidad a la que se vendió en la factura.
 
->[Nota] Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este tema.
+>[!NOTE] 
+>Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este tema.
 
 ### <a name="charges"></a>Gastos
 
@@ -189,8 +189,10 @@ Durante el proceso de llegada, las devoluciones se integran con el proceso gener
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identificar los productos de la lista de la Visión general de entradas
 
-La **Visión general de entradas** muestra todas las entradas planificadas. 
->[Nota] Las llegadas de pedidos de devolución se deben procesar por separado de otros tipos de transacciones de entrada. Una vez haya identificado un paquete de entrada en la página **Visión general de entradas** (por ejemplo, con el documento de RMA asociado), en el panel de acciones, haga clic en **Iniciar entrada** para crear y inicializar a un diario de entradas que coincida con la llegada.
+La **Visión general de entradas** muestra todas las entradas planificadas.
+
+>[!NOTE] 
+>Las llegadas de pedidos de devolución se deben procesar por separado de otros tipos de transacciones de entrada. Una vez haya identificado un paquete de entrada en la página **Visión general de entradas** (por ejemplo, con el documento de RMA asociado), en el panel de acciones, haga clic en **Iniciar entrada** para crear y inicializar a un diario de entradas que coincida con la llegada.
 
 ### <a name="edit-the-arrival-journal"></a>Editar el diario de entradas
 
@@ -232,7 +234,8 @@ Si envía un artículo de sustitución al cliente y utiliza la acción de dispos
 
 El artículo de sustitución se entregará mediante un pedido de ventas independiente, el pedido de ventas de sustitución. Se crea este pedido de ventas cuando se genera el albarán para el pedido de devolución. El encabezado del pedido utiliza información del cliente a la que se hace referencia en el encabezado del pedido de devolución. La información de línea se obtiene de la información que se especifica en la página **Artículo de sustitución**. La página **Artículo de sustitución** se debe completar para las líneas con acciones de disposición que comienzan por la palabra “sustitución". Sin embargo, ni la cantidad ni la identidad del artículo de sustitución se valida o limita. Este comportamiento permite casos en los que el cliente desea recibir el mismo artículo, pero en una configuración o tamaño diferentes y también los casos en los que los clientes desean un artículo completamente diferente. De forma predeterminada, los artículos idénticos se especifican en la página **Artículo de sustitución**. Sin embargo, puede seleccionar un artículo diferente, siempre que la función se haya configurado. 
 
->[Nota] Puede editar y eliminar el pedido de ventas de sustitución después de que se haya creado.
+>[!NOTE] 
+>Puede editar y eliminar el pedido de ventas de sustitución después de que se haya creado.
 
 ## <a name="generate-a-packing-slip"></a>Generar un albarán
 Antes de recibir los artículos devueltos en el inventario, es preciso que actualice el albarán para el pedido al que pertenecen los artículos. Del mismo modo que el proceso de actualización de facturas es la actualización de la transacción financiera, el proceso de actualización de albaranes es la actualización física del registro de inventario. es decir, este proceso envía los cambios al inventario. En el caso de las devoluciones, los pasos que se asignan a la acción de disposición se implementan durante la actualización del albarán. Cuando se genera el albarán, se producen los eventos siguientes:
@@ -253,8 +256,10 @@ Aunque la página **Pedido de devolución** contenga la información y las accio
 
 ### <a name="credit-correction"></a>Corrección de crédito
 
-Como parte del proceso de facturación, compruebe los gastos varios son correctos. Para hacer que registros contables pasen a ser correcciones (Storno), piense en usar la opción **Corrección del crédito** en otra ficha **Otros** de la página **Registrando factura** al registrar la factura o la nota de abono. 
->[Nota] De forma predeterminada, la opción **Corrección de crédito** se activa si la opción **Nota de abono como corrección** en la página **Parámetros de clientes** se ha habilitado. Sin embargo, se recomienda no registrar devoluciones con Storno.
+Como parte del proceso de facturación, compruebe los gastos varios son correctos. Para hacer que registros contables pasen a ser correcciones (Storno), piense en usar la opción **Corrección del crédito** en otra ficha **Otros** de la página **Registrando factura** al registrar la factura o la nota de abono.
+
+> [!NOTE]
+> De forma predeterminada, la opción **Corrección de crédito** se activa si la opción **Nota de abono como corrección** en la página **Parámetros de clientes se ha habilitado**. Sin embargo, se recomienda no registrar devoluciones con Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Crear pedidos de devolución de empresas vinculadas
 Los pedidos de devolución se pueden completar entre dos empresas de la organización. Se admiten los siguientes escenarios:
@@ -308,7 +313,8 @@ El pedido de devolución no hace referencia una factura de cliente. Se abona el 
 
 ![Pedido de devolución no hace referencia a una factura del cliente.](./media/SalesReturn09.png)  
 
->[Nota] el precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste** de la devolución. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
+> [!NOTE]
+> El precio del artículo maestro se usa como el valor predeterminado para el parámetro **Precio de coste** de la devolución. El precio predeterminado difiere del precio de coste en el momento de la emisión de inventario. Por lo tanto, la implicación que se ha incurrido en una pérdida de 3. Además, el pedido de devolución no incluye el descuento que se ha concedido al cliente en el pedido de ventas. Por lo tanto, aparece un crédito excesivo.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Ejemplo 2: La corrección de crédito se selecciona para el pedido de devolución
 
@@ -316,7 +322,8 @@ El ejemplo 2 es lo mismo que el ejemplo 1, se selecciona el parámetro **Correcc
 
 ![Pedido de devolución donde se selecciona la corrección del crédito.](./media/SalesReturn10.png)  
 
->[Nota] Los registros contables se especifican como correcciones negativas.
+>[!NOTE] 
+>Los registros contables se especifican como correcciones negativas.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Ejemplo 3: La línea de pedido de devolución se crea mediante la función Buscar pedido de ventas
 
@@ -324,7 +331,8 @@ En este ejemplo, la línea de pedido de devolución se crea mediante la función
 
 ![Línea de pedido de devolución que se crea mediante Buscar pedido de ventas.](./media/SalesReturn11.png)  
 
->[Nota] **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
+> [!NOTE]
+> **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
 
 
 

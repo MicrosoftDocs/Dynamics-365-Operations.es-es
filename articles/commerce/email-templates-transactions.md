@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919510"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722528"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
@@ -64,8 +64,8 @@ El tipo de notificación de albarán completado admite los siguientes marcadores
 | ------------------- | ------- |
 | `pickupstorename`     | El nombre de la tienda donde está disponible el pedido para recogerlo. |
 | `pickupstoreaddress`  | La dirección de la tienda donde está disponible el pedido para recogerlo. |
-| `pickupstorehourfrom` | La hora de apertura de la tienda de recogida. |
-| `pickupstorehourto`   | La hora de cierre de la tienda de recogida. |
+| `pickupstoreopenfrom` | La hora de apertura de la tienda de recogida. |
+| `pickupstoreopento` | La hora de cierre de la tienda de recogida. |
 | `pickupchannelid`     | El ID del canal de la tienda de recogida. |
 | `packingslipid`      | El ID del albarán del pedido que se recogerá. |
 | `confirmationid`      | El ID de la confirmación del pedido que se recogerá. (Este ID a veces se denomina ID de referencia del canal). |
@@ -102,7 +102,7 @@ El tipo de notificación de emisión de tarjeta de regalo admite los siguientes 
 | Nombre de marcador de posición      | Propósito |
 | --------------------- | ------- |
 | `giftcardnumber`        | Número de la tarjeta regalo, para productos del tipo de tarjeta regalo. |
-| `giftcardbalance`       | Saldo de la tarjeta regalo, para productos del tipo de tarjeta regalo. |
+| `availablebalance` | El saldo restante en la tarjeta regalo. |
 | `giftcardmessage`       | Mensaje de la tarjeta regalo, para productos del tipo de tarjeta regalo. |
 | `giftcardpin`         | Número de identificación personal (PIN) de la tarjeta regalo, para productos del tipo de tarjeta regalo. (Este marcador de posición es específico para tarjetas de regalo externas). |
 | `giftcardexpiration`    | Fecha de vencimiento de la tarjeta regalo, para productos del tipo de tarjeta regalo. (Este marcador de posición es específico para tarjetas de regalo externas). |

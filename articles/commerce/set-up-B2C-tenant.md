@@ -2,7 +2,7 @@
 title: Configurar un inquilino B2C en Commerce
 description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109898"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714321"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -117,7 +117,7 @@ Para obtener más información sobre los registros de aplicaciones en Azure AD B
 
 ### <a name="reply-urls"></a>Direcciones URL de respuesta
 
-Las direcciones URL de respuesta son importantes, ya que ofrecen una lista blanca de los dominios de retorno cuando su sitio llama a Azure AD B2C para autenticar a un usuario. Esto posibilita que el usuario autenticado regrese al dominio desde el que inició sesión (el dominio de su sitio). 
+Las direcciones URL de respuesta son importantes, ya que ofrecen una lista de permitidos de los dominios de retorno cuando su sitio llama a Azure AD B2C para autenticar a un usuario. Esto posibilita que el usuario autenticado regrese al dominio desde el que inició sesión (el dominio de su sitio). 
 
 En el cuadro **Dirección URL de respuesta** de la pantalla **Azure AD B2C - Aplicaciones \> Nueva aplicación** debe agregar líneas independientes para el dominio de su sitio y (una vez que se haya aprovisionado el entorno) la dirección URL generada por Commerce. Estas direcciones URL siempre deben usar un formato de URL válido y deben ser direcciones URL base únicamente (sin barras diagonales ni rutas). Hay que agregar a las direcciones URL base la cadena ``/_msdyn365/authresp``, como en los siguientes ejemplos.
 
@@ -332,9 +332,9 @@ Para agregar a Commerce la información de su aplicación de inquilino de Azure 
 
 1. Inicie sesión como administrador en el generador de sitios de Commerce para su entorno.
 1. En el panel de navegación izquierdo, seleccione el nodo **Configuración de inquilino** para expandirlo.
-1. En **Configuración de inquilino**, seleccione **Configuración de B2C**. 
-1. En la ventana principal, junto a **Aplicaciones B2C**, seleccione **Administrar**. (Si su inquilino aparece en la lista de aplicaciones B2C, significa que ya lo agregó un administrador. Compruebe que los elementos del paso 6 a continuación correspondan a su aplicación B2C).
-1. Seleccione **Agregar aplicación B2C**.
+1. Bajo **Configuración del inquilino**, seleccione **Configuración de la autenticación del sitio**. 
+1. En la ventana principal junto a **Perfiles de autenticación del sitio**, seleccione **Gestionar**. (Si su inquilino aparece en la lista de perfiles de autenticación del sitio, significa que ya lo agregó un administrador. Compruebe que los elementos del paso 6 a continuación correspondan a los de la configuración B2C prevista. También se puede crear un nuevo perfil usando similares Inquilinos de Azure AD B2C o aplicaciones para tener en cuenta diferencias menores, como diferentes ID de políticas de usuario).
+1. Seleccione **Agregar perfil de autenticación de sitio**.
 1. Introduzca los siguientes elementos obligatorios en el formulario que se muestra, utilizando los valores del inquilino de B2C y la aplicación B2C. Los campos que no son obligatorios (los que no muestran un asterisco) pueden dejarse en blanco.
 
     - **Nombre de la aplicación**: el nombre de la aplicación B2C (por ejemplo, "Fabrikam B2C").
@@ -347,12 +347,13 @@ Para agregar a Commerce la información de su aplicación de inquilino de Azure 
 1. Seleccione **Aceptar**. Ahora debería ver el nombre de su aplicación B2C en la lista.
 1. Seleccione **Guardar** para guardar los cambios.
 
+El campo opcional **Iniciar sesión dominio personalizado** solo debe usarse si está configurando un dominio personalizado para el inquilino B2C de Azure AD. Para detalles adicionales y consideraciones sobre el uso del campo **Iniciar sesión dominio personalizado**, vea [Información B2C adicional](#additional-b2c-information) a continuación.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Asociar la aplicación B2C a su sitio y canal
 
 > [!WARNING]
-> Si su sitio ya está asociado a una aplicación B2C, al cambiar a una aplicación B2C distinta se eliminarán las referencias actuales establecidas para los usuarios que ya se han registrado en este entorno. Si se hace el cambio, las credenciales asociadas con la aplicación B2C asignada actualmente no estarán disponibles para los usuarios. 
-> 
-> Solo debe actualizar la aplicación B2C si va a configurar la aplicación B2C del canal por primera vez o si tiene la intención de hacer que los usuarios vuelvan a registrarse con nuevas credenciales para este canal con la nueva aplicación B2C. Tenga cuidado al asociar canales a aplicaciones B2C, y asigne nombres claros a las aplicaciones. Si un canal no se asocia a una aplicación B2C en los pasos siguientes, los usuarios que inicien sesión en ese canal del sitio se introducirán en la aplicación B2C que se muestra como **predeterminada** en la lista **Configuración del inquilino \> Configuración de B2C** de aplicaciones B2C.
+> - Si su sitio ya está asociado a una aplicación B2C, al cambiar a una aplicación B2C distinta se eliminarán las referencias actuales establecidas para los usuarios que ya se han registrado en este entorno. Si se hace el cambio, las credenciales asociadas con la aplicación B2C asignada actualmente no estarán disponibles para los usuarios. 
+> - Solo debe actualizar la aplicación B2C si va a configurar la aplicación B2C del canal por primera vez o si tiene la intención de hacer que los usuarios vuelvan a registrarse con nuevas credenciales para este canal con la nueva aplicación B2C. Tenga cuidado al asociar canales a aplicaciones B2C, y asigne nombres claros a las aplicaciones. Si un canal no se asocia a una aplicación B2C en los pasos siguientes, los usuarios que inicien sesión en ese canal del sitio se introducirán en la aplicación B2C que se muestra como **predeterminada** en la lista **Configuración del inquilino \> Configuración de B2C** de aplicaciones B2C.
 
 Para asociar la aplicación B2C a su sitio y canal, siga estos pasos.
 
@@ -378,6 +379,23 @@ Para obtener información adicional sobre la personalización de las interaccion
 ### <a name="secondary-admin"></a>Administrador secundario
 
 Se puede agregar una cuenta de administrador secundario opcional en la sección **Usuarios** del inquilino de B2C. Puede ser una cuenta directa o una cuenta general. Si necesita compartir una cuenta entre los recursos del equipo, también puede crear una cuenta común. Por la confidencialidad de los datos almacenados en Azure AD B2C, una cuenta común debe supervisarse estrechamente siguiendo los procedimientos de seguridad de la empresa.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Configurar un dominio de inicio de sesión personalizado
+
+Azure AD B2C le permite configurar un dominio de inicio de sesión personalizado para el inquilino B2C de Azure AD. Para obtener instrucciones, consulte [Habilitar dominios personalizados para Azure Active Directory B2C](/azure/active-directory-b2c/custom-domain). 
+
+Si usa un dominio de inicio de sesión personalizado, el dominio debe ingresarse en el creador de sitios de Commerce.
+
+Para introducir un dominio de inicio de sesión en el generador de sitios, siga estos pasos.
+
+1. En la esquina superior derecha del generador de sitios, seleccione el conmutador de sitios y luego seleccione **Administrar sitios**.
+1. En el panel de navegación izquierdo, seleccione **Configuración de inquilino \> Configuración de autenticación del sitio**.
+1. En la sección **Perfiles de autenticación del sitio**, seleccione **Gestionar**.
+1. En el menú desplegable de la derecha, seleccione el botón **Editar** (símbolo de lápiz) junto al perfil de autenticación del sitio para el que desea ingresar un dominio personalizado.
+1. En el cuadro de diálogo **Editar perfil de autenticación del sitio**, bajo **Iniciar sesión dominio personalizado**, ingrese su dominio de inicio de sesión personalizado (por ejemplo, 'login.fabrikam.com').
+
+> [!WARNING]
+> Cuando actualiza a un dominio personalizado para el Arrendatario de Azure AD B2C, el cambio afecta los detalles del emisor del arrendatario para el token generado. Los detalles del emisor incluirán el dominio personalizado en lugar del dominio predeterminado proporcionado por Azure AD B2C. Una configuración de **Editor** diferente en la sede de Comercio (**Retail y Commerce \> Configuración de la sede \> Parámetros \> Parámetros compartidos de Commerce \> Proveedores de identidad**) cambia la interacción del sistema con los usuarios del sitio, creando potencialmente un nuevo registro de cliente si un usuario se está autenticando contra el nuevo emisor. Cualquier cambio de dominio personalizado debe probarse a fondo antes de cambiar al dominio personalizado en un entorno de Azure AD B2C activo.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

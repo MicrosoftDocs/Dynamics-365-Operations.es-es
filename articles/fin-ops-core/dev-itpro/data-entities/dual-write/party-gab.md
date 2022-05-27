@@ -2,19 +2,19 @@
 title: Libreta de direcciones de partes y global
 description: Este tema describe la funcionalidad de libreta de direcciones de partes y global de escritura dual.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407774"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717457"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -139,7 +139,7 @@ La cuadrícula incluye las siguientes columnas:
 
 Puede usar el botón **Nueva direccion electrónica** de encima de la cuadrícula para crear tantas direcciones como desee.
 
-Las direcciones electrónicas están disponibles solo en esta cuadrícula. En versiones futuras, todos los campos de direcciones electrónicas y postales se eliminarán de otras fichas (por ejemplo, las fichas **Resumen** y **Detalles**). Los datos de contacto que se muestran en la ficha **Detalles** son copias de solo lectura de la dirección electrónica principal, como el teléfono principal, el correo electrónico principal, el teléfono principal, el fax principal y el Id. de Twitter principal. Durante el proceso de calificación de clientes potenciales, puede proporcionar tanto un número de teléfono comercial como un número de teléfono móvil. El número de teléfono comercial se considera el teléfono principal si **IsMobile=No** y el número de teléfono móvil se considera el teléfono secundario si **IsMobile=Yes**.
+Durante el proceso de calificación de clientes potenciales, puede proporcionar tanto un número de teléfono comercial como un número de teléfono móvil. El número de teléfono comercial se considera el número de teléfono principal si **IsMobile=No**, y el número de teléfono móvil se considera el número teléfono secundario si **IsMobile=Yes**.
 
 > [!TIP]
 > Use las fichas **Direcciones** y **Direcciones electrónicas** de los formularios **Cuenta** y **Contacto** para gestionar direcciones postales y electrónicas. Esto asegura que los datos de la dirección se sincronicen con las aplicaciones de finanzas y operaciones.
@@ -148,7 +148,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
 1. Abra el entorno de su aplicación de interacción con el cliente.
 
-2. Instale la última versión (2.2.2.60 o posterior) de [Solución de orquestación de aplicaciones de doble escritura](https://aka.ms/dual-write-app).
+2. Instale todas las soluciones de requisitos previos, como se describe en [Paquete de orquestación de aplicaciones de doble escritura independientes](separated-solutions.md).
 
 3. Instale [Soluciones de libreta de direcciones global y de parte de escritura dual](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 
     Mapa | Actualizar a esta versión | Cambios
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Este es un nuevo mapa agregado como parte de esta versión.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Este es un nuevo mapa agregado como parte de esta versión.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Este es un nuevo mapa agregado como parte de esta versión.
     `Customers V3 (accounts)` | 1.0.0.5 |Se eliminó `PartyNumber` y otros campos relacionados con la parte como el nombre, los datos personales, los campos de dirección postal y, los campos de dirección de contacto electrónica.
     `Customer V3 (contacts)` | 1.0.0.5 | Se eliminó `PartyNumber` y otros campos relacionados con la parte como el nombre, los datos personales, los campos de dirección postal y, los campos de dirección de contacto electrónica.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Se eliminó `PartyNumber` y otros campos relacionados con la parte como el nombre, los datos personales, los campos de dirección postal y, los campos de dirección de contacto electrónica.
@@ -174,16 +174,17 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Se reemplazó a la persona de contacto con la referencia `ContactforParty`.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Se reemplazó a la persona de contacto con la referencia `ContactforParty`.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Este es un nuevo mapa agregado como parte de esta versión.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Este es un nuevo mapa agregado como parte de esta versión.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Este es un nuevo mapa agregado como parte de esta versión.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Este es un nuevo mapa agregado como parte de esta versión.
 
 8. Antes de ejecutar los mapas anteriores, debe actualizar las claves de integración manualmente como se describe en los siguientes pasos. A continuación, seleccione **Guardar**.
 
@@ -251,6 +252,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
     [Encabezado de presupuesto de ventas de CDS](mapping-reference.md#215) | presupuestos
     [Encabezado de pedidos de ventas de CDS](mapping-reference.md#217) | salesorders
     [Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas
+    [Roles de dirección CDS](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > La asignación `CDS Contacts V2 (contacts)` es la asignación que detuvo en el paso 1. Cuando intenta ejecutar otras asignaciones, estas 2 asignaciones pueden aparecer en la lista de dependientes. No ejecute estas asignaciones.
@@ -258,7 +260,7 @@ Las direcciones electrónicas están disponibles solo en esta cuadrícula. En ve
 > Si la solución de libreta de direcciones global y de parte está instalada, debe deshabilitar el complemento denominado `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Si desinstala la solución de libreta de direcciones global y de parte, entonces debe volver a habilitar el complemento.
 >
 > El campo `msdyn_*partynumber` (un campo de texto de una sola línea) que se incluye en las tablas **Cuenta**, **Contacto** y **Proveedor** no debe utilizarse en el futuro. El nombre de la etiqueta tiene un prefijo de **(En desuso)** para mayor claridad. En su lugar, use el campo **msdyn_partyid**. El campo es una búsqueda de la tabla **msdyn_party**.
-
+>
 > Nombre de la tabla | Campo antiguo | Nuevo campo
 > --------|-------|--------
 > Cuenta | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Una colección de mapas de tabla funciona conjuntamente para la interacción de 
 | [Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas |
 | [Formas de saludo](mapping-reference.md#228) | msdyn\_salutations |
 | [Proveedores V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Roles de dirección CDS](mapping-reference.md#301) |msdyn\_addressroles|
 
 Para más información, consulte [Referencia de asignación de escritura doble](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Roles de direcciones como una lista desplegable de selección múltiple
+Una dirección postal o una dirección electrónica pueden servir para más de un propósito. Por ejemplo, una dirección postal puede servir como dirección de facturación y dirección de entrega. En estos casos, un usuario puede seleccionar tanto **Factura** como **Entrega** en la lista desplegable, como se muestra en la siguiente ilustración. 
+
+![Lista desplegable Propósito/Rol](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
 + En aplicaciones de finanzas y operaciones, cuando crea un cliente junto con la dirección y lo guarda, es posible que la dirección no se sincronice con la tabla **Direcciones**. Esto se debe a un problema de secuenciación de la plataforma de escritura dual. Como solución alternativa, cree el cliente primero y guárdelo. Luego agregue la dirección.
 + En aplicaciones de finanzas y operaciones, cuando un registro de cliente tiene una dirección principal y usted crea un nuevo contacto para ese cliente, entonces el registro de contacto hereda una dirección principal del registro de cliente asociado. Esto también sucede con el contacto del proveedor. Dataverse actualmente no admite este comportamiento. Si la escritura dual está habilitada, los contactos de cliente heredados con una dirección principal de la aplicación finanzas y operaciones se sincronizan con Dataverse junto con su dirección.
-+ Las direcciones electrónicas establecidas en la ficha de direcciones electrónicas de los formularios **Cuenta**, **Contacto** y **Proveedor** provienen de la tabla `msdyn_partyelectronicaddress`. Esta información no fluye a sus transacciones asociadas como pedido de ventas, presupuesto y orden de compra. Planeamos solucionar este problema en una versión incremental. Los datos existentes en los campos de dirección electrónica de la cuenta y los registros de contacto seguirán funcionando en transacciones como pedidos de venta, presupuesto y pedido de compra.
 + En aplicaciones de finanzas y operaciones, puede crear un registro de contacto desde el formulario **Agregar contacto**. Cuando intenta crear un nuevo contacto desde el formulario **Ver contacto**, la acción falla. Este es un problema conocido.
 
     ![Problema conocido con Agregar contacto.](media/party-gab-contact-issue.png)
 
-+ **Sincronización inicial** no es compatible con los campos de tiempo **Disponible de** y **Disponible para** en **ContactForParty**, porque DIXF convierte el valor en una cadena en lugar de un número entero. La conversión desencadena el error `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Cuando una dirección postal se utiliza por más de un motivo, por ejemplo, la dirección de comunicación comercial y la dirección de facturación, debe aparecer como `Business;Invoice`, como se muestra en la siguiente imagen. Si agrega un espacio entre los valores, obtendrá un error.
-
-    ![Problema conocido con la dirección.](media/party-gab-address-issue.png)
-
++ **Sincronización inicial** no es compatible con los campos de tiempo **Disponible de** y **Disponible para** en **ContactForParty**, porque DIXF convierte el valor en una cadena en lugar de un número entero. La conversión desencadena el error `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + No puede introducir una dirección postal con fecha anticipada usando una aplicación de finanzas y operaciones con escritura dual, porque Dataverse no es compatible con la fecha de vigencia. Si introduce una dirección postal con fecha futura usando una aplicación finanzas y operaciones, se sincroniza con Dataverse Dataverse completamente y verá la dirección en la interfaz de usuario inmediatamente. Cualquier actualización de este registro resultará en un error, ya que está fechado en el futuro y no está actualizado en la aplicación de finanzas y operaciones.

@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "260624"
 - intro-internal
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c867d051f5e32c5f98ea49a92475c6f15427ad54
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075055"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692790"
 ---
 # <a name="human-resources-home-page"></a>Página principal de Human Resources
 
@@ -47,7 +46,7 @@ Recursos Humanos conecta a los datos de operaciones y personas para contribuir a
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Para obtener información sobre Dynamics 365 Finance, vaya a la [Página principal de Finance](../finance/index.md).
+Para obtener información acerca de Dynamics 365 Finance, consulte la [Página principal de Finance](../finance/index.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711e2f445e043dc74cba0ee11f1ab2dc22215ff30f495e06dce1f6f3ab4a0a09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a871e379826626edbad2434b11281fce5e29e14e
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723808"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717317"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Liquidar transacciones entre las cuentas contables
 
@@ -28,22 +28,22 @@ Este procedimiento muestra cómo liquidar transacciones entre cuentas contables 
 
 
 ## <a name="settle-transaction-between-ledger-accounts"></a>Liquidar transacción entre las cuentas contables
-1. Vaya a Contabilidad general > Tareas periódicas > Liquidaciones de contabilidad.
+1. Vaya a **Contabilidad general > Tareas periódicas > Liquidaciones de contabilidad**.
 2. En la lista, encuentre la transacción que desee liquidar.
    > [!NOTE]
    > El importe del saldo debe ser cero.  
-3. Haga clic en Incluir.
-4. Haga clic en Aceptar.
+3. Haga clic en **Incluir**.
+4. Haga clic en **Aceptar**.
 
 ## <a name="cancel-a-ledger-settlement"></a>Cancelar una liquidación de contabilidad
 
-1. Vaya a Contabilidad general > Consultas e informes > Saldo de comprobación.
-2. Haga clic en Parámetros para abrir el cuadro de diálogo desplegable.
-3. Haga clic en Actualizar.
+1. Vaya a **Contabilidad general > Consultas e informes > Saldo de comprobación**.
+2. Haga clic en **Parámetros** para abrir el cuadro de diálogo desplegable.
+3. Haga clic en **Actualizar**.
 4. En la lista, encuentre la cuenta que tiene la transacción liquidada.
-5. Haga clic en Todas las transacciones.
+5. Haga clic en **Todas las transacciones**.
 6. Use un filtro para buscar fácilmente la transacción en la lista.
-7. Haga clic en Liquidaciones contables.
+7. Haga clic en **Liquidaciones contables**.
 8. En la lista, marque la fila seleccionada.
 
 

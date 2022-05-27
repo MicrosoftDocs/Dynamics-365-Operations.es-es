@@ -1,7 +1,7 @@
 ---
 title: Seguimiento de viajes entrantes y viajes de contenedores de envío
 description: Este tema explica cómo puede utilizar la página de seguimiento de entrada para realizar un seguimiento del progreso de sus viajes y viajes de contenedores de envío.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMContainerActivityTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67ee22af7a73c18d4f77018fedf5a89f0777774d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 07f93cfe563c90d06dd73d46bad678a11a51c5eb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580777"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693455"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Seguimiento de viajes entrantes y viajes de contenedores de envío
 

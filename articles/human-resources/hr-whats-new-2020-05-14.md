@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 891301a979fd6823528d9b6034066a038ba17315
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063756"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692069"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 
@@ -32,7 +31,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 ## <a name="platform-changes"></a>Cambios de plataforma
 
-Los cambios de plataforma están incluidos en la versión de esta semana. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.10 de aplicaciones de Finance and Operations (mayo de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versión incluye correcciones de errores y cambios en las vistas guardadas.
+Los cambios de plataforma están incluidos en la versión de esta semana. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.10 de aplicaciones de finanzas y operaciones (mayo de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Esta versión incluye correcciones de errores y cambios en las vistas guardadas.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Asegurar que las listas de selección de Dataverse sean consistentes con las enumeraciones de bajas (436343)
 

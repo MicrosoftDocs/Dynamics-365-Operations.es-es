@@ -2,20 +2,20 @@
 title: Paquete de orquestación de aplicaciones de escritura dual separada
 description: El paquete de orquestación de aplicaciones de escritura dual ya no es un paquete único, sino que se ha separado en paquetes más pequeños. Este tema explica las soluciones y los mapas que contiene cada paquete, y su dependencia de otros paquetes.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063271"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716563"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Paquete de orquestación de aplicaciones de escritura dual separada
 
@@ -26,19 +26,19 @@ ms.locfileid: "8063271"
 Anteriormente, el paquete de orquestación de aplicaciones de escritura dual era un paquete único que contenía las siguientes soluciones:
 
 - Notas de Dynamics 365
-- Delimitador común para Dynamics 365 Finance y operaciones
-- Mapas de entidades centrales de Dynamics 365 Finance y operaciones
+- Delimitador común de finanzas y operaciones de Dynamics 365
+- Mapas de entidad de escritura dual de finanzas y operaciones de Dynamics 365
 - Aplicación Administración de activos de Dynamics 365
 - Administración de activos de Dynamics 365
 - Común de HCM
 - Dynamics 365 Supply Chain extendido
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance y operaciones comunes
+- Finanzas y operaciones de Dynamics 365 comunes
 - Empresa de Dynamics 365
 - Tipos de cambio de divisas
 - Field Service Common
 
-Debido a que era un paquete único, este paquete creaba una situación de "todo o nada" para los clientes. Sin embargo, Microsoft ahora lo ha separado en paquetes más pequeños. Por lo tanto, el cliente puede seleccionar solo los paquetes para las soluciones que necesite. Por ejemplo, si es un cliente de Microsoft Dynamics 365 Supply Chain Management y no requiere integración con Dynamics 365 Human Resources, notas y gestión de activos, puede excluir esas soluciones de las soluciones que están instaladas. Debido a que los nombres de la solución subyacente, el editor y las versiones del mapa siguen siendo los mismos, este cambio no es rotundo. Se actualizarán las instalaciones existentes.
+Debido a que era un paquete único, este paquete creaba una situación de "todo o nada" para los clientes. Sin embargo, Microsoft ahora lo ha separado en paquetes más pequeños. Por lo tanto, los clientes pueden seleccionar solo los paquetes para las soluciones que necesite. Por ejemplo, si es un cliente de Microsoft Dynamics 365 Supply Chain Management y no requiere integración con Dynamics 365 Human Resources, notas y gestión de activos, puede excluir esas soluciones de las soluciones que están instaladas. Debido a que los nombres de la solución subyacente, el editor y las versiones del mapa siguen siendo los mismos, este cambio no es rotundo. Se actualizarán las instalaciones existentes.
 
 ![Paquete separado.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ El paquete Núcleo de la aplicación de doble escritura permite a los usuarios i
 | Nombre único                           | Nombre para mostrar                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Empresa de Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance y operaciones comunes |
+| Dynamics365FinanceAndOperationsCommon | Finanzas y operaciones de Dynamics 365 comunes |
 | CurrencyExchangeRates                 | Tipos de cambio de divisas                    |
 | msdyn_DualWriteAppCoreMaps            | Mapas de entidades centrales de aplicaciones de doble escritura   |
 | msdyn_DualWriteAppCoreAnchor          | Anclaje de núcleo de aplicaciones de doble escritura        |
@@ -191,9 +191,9 @@ El paquete de Finance de doble escritura contiene las soluciones y los mapas nec
 | Nombre único                            | Nombre para mostrar                               |
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
-| msdyn_Dynamics365FinanceExtendedMaps   | Mapas de entidad Dynamics 365 Finance extended |
+| msdyn_Dynamics365FinanceExtendedMaps   | Mapas de entidades de Dynamics 365 Finance Extended |
 | FieldServiceCommon                     | Field Service Common                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | Anclaje de Dynamics 365 Finance extended      |
+| msdyn_Dynamics365FinanceExtendedAnchor | Delimitador de Dynamics 365 Finance Extended      |
 
 Los siguientes mapas están disponibles en este paquete.
 
@@ -300,3 +300,47 @@ Project Operations depende de los siguientes paquetes. Por lo tanto, debe instal
 - Paquete de cadena de suministro de doble escritura
 - Paquete de Administración de activos de doble escritura
 - Paquete de Human Resources de doble escritura
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Soluciones de libreta de direcciones global y de parte de escritura dual
+
+El paquete de libreta de direcciones global y de grupo de escritura dual contiene las siguientes soluciones y mapas necesarios para sincronizar los datos de la libreta de direcciones global y de grupo. 
+
+| Nombre único                       | Nombre para mostrar                            |
+|-----------------------------------|-----------------------------------------|
+| Parte                             | Parte                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB ampliado               |
+| Dynamics365GABDualWriteEntityMaps | Mapas de entidad de escritura dual de Dynamics 365 GAB |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB y parte              |
+
+Los siguientes mapas están disponibles en este paquete.
+
+| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | 
+|-----------------------------|--------------------------|
+| Partes de CDS | msdyn_parties | 
+| Ubicaciones de dirección postal de CDS | msdyn_postaladdresscollections | 
+| Historial de dirección postal de CDS V2 | msdyn_postaladdresses | 
+| Ubicaciones de dirección postal de entidad CDS | msdyn_partypostaladdresses | 
+| Contactos de parte V3 | msdyn_partyelectronicaddresses | 
+| Clientes V3 | cuentas | 
+| Clientes V3 | contactos | 
+| Proveedores V2 | msdyn_vendors | 
+| Cargos de persona de contacto | msdyn_salescontactpersontitles | 
+| Despedidas de agradecimiento | msdyn_complimentaryclosings | 
+| Formas de saludo | msdyn_salutations | 
+| Roles de toma de decisiones | msdyn_decisionmakingroles | 
+| Funciones de trabajo de empleo | msdyn_employmentjobfunctions | 
+| Niveles de fidelización | msdyn_loyaltylevels | 
+| Tipos de carácter personal | msdyn_personalcharactertypes | 
+| Contactos V2 | msdyn_contactforparties | 
+| Encabezado de presupuesto de ventas de CDS | presupuestos | 
+| Encabezado de pedidos de ventas de CDS | salesorders | 
+| Encabezados de factura de ventas V2 | facturas | 
+| Roles de dirección CDS | msdyn_addressroles |
+
+**Información de dependencia**
+
+Las soluciones de libreta de direcciones global y de parte de escritura dual dependen de los siguientes tres paquetes. Por lo tanto, debe instalar estos paquetes antes de instalar el paquete de soluciones de libreta de direcciones global y de parte de doble escritura.
+
+- Paquete de núcleo de aplicación de doble escritura
+- Paquete de Finance de doble escritura
+- Paquete de cadena de suministro de doble escritura
