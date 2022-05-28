@@ -1,7 +1,7 @@
 ---
 title: Hojas de gestión de costes
 description: 'La configuración de la hoja de gestión de costes implica dos objetivos. En primer lugar, se define el formato para la visualización de la información de coste de los bienes vendidos acerca de un artículo fabricado o un pedido de producción. La visualización con formato se denomina "hoja de gestión de costes". En segundo lugar, se define la base del cálculo de los costes indirectos. La configuración de la hoja de gestión de costes se basa en la característica de grupo de costes para la visualización de información y para las fórmulas de cálculo de costes indirectos. En este artículo se describen los dos objetivos de la configuración de la hoja de gestión de costes:'
-author: AndersGirke
+author: JennySong-SH
 ms.date: 11/18/2021
 ms.topic: article
 ms.search.form: CostSheetDesigner, CostSheetCalculationFactor
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 53201
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64b8a9b8b29193f25e706e52424de2af3454aec8
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.openlocfilehash: 6891fc4472e714133a7d0cdf77f2908becc0547c
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825367"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672441"
 ---
 # <a name="costing-sheets"></a>Hojas de gestión de costes
 

@@ -1,29 +1,29 @@
 ---
-title: Tareas periódicas de administración del crédito
-description: En este tema se describen las tareas periódicas que son una parte necesaria del proceso de administración de los límites de crédito para los clientes.
+title: Tareas periódicas de gestión de crédito.
+description: En este tema se describen las tareas periódicas que son parte del proceso de administración de los límites de crédito para los clientes.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 53b7cd00b3287f18ba65391842ac259ab2434b86
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753516"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735447"
 ---
 # <a name="periodic-credit-management-tasks"></a>Tareas periódicas de gestión de crédito.
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las tareas periódicas que son una parte necesaria del proceso de administración de los límites de crédito para los clientes.
+En este tema se describen las tareas periódicas que son parte del proceso de administración de los límites de crédito para los clientes.
 
 ## <a name="update-risk-scores"></a>Actualizar clasificaciones del riesgo
 

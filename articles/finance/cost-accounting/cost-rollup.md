@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779965"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734440"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779965"
 La contabilidad de costes permite obtener detalles sobre cómo en el flujo de costes está relacionado con los productos y los servicios que se entregan en una organización. Para ver la transparencia de los costes, es esencial lograr una asignación de costes entre los objetos de coste basada en una base de asignación adecuada. De forma predeterminada, la asignación de costes se consigue para el elemento de costes principal, lo que se desea en algunos casos, pero tiene ciertas implicaciones que deben considerarse.
 
 -   Los objetos de coste auxiliares terminan con un saldo de cero para el elemento de coste principal después del cálculo de gastos generales.
-
 -   El volumen de entradas de coste generado por el cálculo de gastos generales puede ser muy alto.
-
 -   No se puede supervisar el flujo de coste entre los objetos de coste.
 
 Para evitar estas implicaciones, la contabilidad de costes le permite configurar la asignación de costes para se ajuste a los requisitos de generación de informes ejecutivos de la organización. Este tema describe cómo puede determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.

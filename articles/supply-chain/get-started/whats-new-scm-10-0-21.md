@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075308"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739398"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management (10.0.21 de octubre de 2021)
 
@@ -130,7 +130,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 | Planificación maestra | [Ver historial del plan y registros de planificación](../master-planning/planning-optimization/plan-history-logs.md) |
 | Gestión de almacenes | [Estrategias de embalaje de contenedores](../warehousing/container-packing-strategy-overview.md) |
 | Gestión de almacenes | [Escenarios de ejemplo de recuento cíclico](../warehousing/cycle-counting-scenarios.md) |
-| Gestión de almacenes | [Importar ASN entrantes a través de la entidad de datos V2](../warehousing/import-asn-v2-data-entity.md) |
+| Gestión de almacenes | [Importar ASN entrantes a través de la entidad de datos V3](../warehousing/import-asn-data-entity.md) |
 | Gestión de almacenes | [Selección en exceso de pedidos de ventas y pedidos de transferencia](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Gestión de almacenes | [Programar la impresión de etiquetas de oleada durante la oleada](../warehousing/configure-task-based-wave-label-printing.md) |
 | Gestión de almacenes | [Novedades o cambios en la aplicación móvil Warehouse Management](../warehousing/whats-new-wma.md) |

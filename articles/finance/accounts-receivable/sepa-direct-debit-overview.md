@@ -1,6 +1,6 @@
 ---
-title: Descripción de las domiciliaciones SEPA
-description: La Zona única de Pagos en Euros (SEPA) lo establece la Comisión Europea y dicta que todos los pagos electrónicos se consideran como nacionales, independientemente del país o región donde se encuentren el individuo, la empresa o la organización y el banco. No hay diferencia entre los pagos nacionales y transfronterizos. SEPA incluye a los 28 estados miembros de la Unión Europea (UE), además de Islandia, Liechtenstein, Noruega, Suiza, Mónaco y San Marino. SEPA ayuda a formar un mercado único para las transacciones de pago en el Área Económica Europea (AEE). En última instancia, se espera que SEPA reduzca el número de formatos de pago con los que deben trabajar los bancos, las empresas y las personas.
+title: Información general de las domiciliaciones SEPA
+description: Este tema proporciona información sobre la Zona Única de Pagos en Euros (SEPA), creada por la Comisión Europea.
 author: ShivamPandey-msft
 ms.date: 08/22/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "11144"
 - intro-internal
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f71eca0ca9ee07d43bdf737874f442f0029e87e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ad115fbc8f57f0d6b69d425b2f5180f208771409
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984387"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8726417"
 ---
-# <a name="sepa-direct-debit-overview"></a>Descripción de las domiciliaciones SEPA
+# <a name="sepa-direct-debit-overview"></a>Información general de las domiciliaciones SEPA
 
 [!include [banner](../includes/banner.md)]
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8058c1acdde20a1b48130fa1e8b75aa415bafce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062195"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691985"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (06 de agosto de 2020)
 
@@ -32,7 +31,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 ## <a name="platform-update-1001236-is-now-available"></a>La Platform update 10.0.12(36) ya está disponible.
 
-Para obtener más información, consulte [Platform updates para la versión 10.0.12 de aplicaciones de Finance and Operations (agosto de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Para obtener más información, consulte [Platform updates para la versión 10.0.12 de aplicaciones de finanzas y operaciones (agosto de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entidades del marco de gestión de datos (DMF) para la gestión de ventajas
  

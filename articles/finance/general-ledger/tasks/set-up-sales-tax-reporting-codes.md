@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728754"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734850"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de notificación de impuestos
 
 [!include [banner](../../includes/banner.md)]
 
-Los códigos de notificación de impuestos hacen referencia a un número de campo enumerado en un informe de impuestos. Se utilizan en diseños de informes específicos de cada país. También se utilizan en el informe Pago de impuestos por código. Ese informe muestra los importes de los impuestos para un período de liquidación, resumido para cada código de informe. Una vez creados los códigos de notificación de impuestos, puede hacer referencia a ellos en las fichas desplegables de configuración de informes, a las que puede acceder desde la página **Código de impuestos**. 
+Los **códigos de notificación de impuestos** hacen referencia a un número de campo enumerado en un informe de impuestos. Se utilizan en diseños de informes específicos de cada país. También se utilizan en el informe Pago de impuestos por código. Ese informe muestra los importes de los impuestos para un período de liquidación, resumido para cada código de informe. Una vez creados los **códigos de notificación de impuestos**, puede hacer referencia a ellos en las fichas desplegables de **configuración de informes**, a las que puede acceder desde la página **Código de impuestos**. 
 
 Esta grabación usa la empresa de demostración DEMF.
 

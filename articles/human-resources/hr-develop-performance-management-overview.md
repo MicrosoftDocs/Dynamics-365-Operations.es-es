@@ -7,7 +7,6 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "221024"
 - intro-internal
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984755"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735734"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.  
+El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.
 
 Como se muestra en el siguiente diagrama, hay tres páginas que le ayudan a gestionar el proceso:
 
@@ -35,7 +34,7 @@ Como se muestra en el siguiente diagrama, hay tres páginas que le ayudan a gest
 -   Objetivos
 -   Revisión de rendimiento
 
-El diagrama siguiente muestra cómo se relacionan entre sí los componentes principales de la gestión del rendimiento. [![Visión general del proceso de rendimiento.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+El diagrama siguiente muestra cómo se relacionan entre sí los componentes principales de la gestión del rendimiento. <!--note from editor: This alt text should describe the relationship among the boxes so a reader with low vision will understand. This will require using the :::image type="complex"::: tag and a long description. -->[![Visión general del proceso de rendimiento.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Diario de rendimiento
 
@@ -57,7 +56,7 @@ También puede vincular el diario de rendimiento a una página web externa almac
 
 ### <a name="send-feedback"></a>Enviar comentarios
 
-El diario de rendimiento contiene una característica adicional que se denomina **Enviar comentarios**. Al hacer clic en **Enviar comentarios**, puede seleccionar un empleado y proporcionar comentarios de retroalimentación a dicho empleado por correo electrónico. El mensaje se envía al empleado que recibe el comentario, al administrador de ese empleado, al empleado que envía el comentario y al administrador de ese empleado. La entrada de diario de rendimiento se crea para cada persona que recibe el mensaje de comentarios.
+El diario de rendimiento contiene una característica adicional que se denomina **Enviar comentarios**. Al seleccionar **Enviar comentarios**, puede elegir un empleado y proporcionar comentarios acerca de dicho empleado por correo electrónico. El mensaje se envía al empleado sobre el que se trata el comentario.<!--note from editor: Suggested-->, el director de ese empleado, el empleado que envía los comentarios y el director de ese empleado. La entrada de diario de rendimiento se crea para cada persona que recibe el mensaje de comentarios.
 
 ## <a name="goals"></a>Objetivos
 
@@ -72,11 +71,11 @@ Un objetivo básico debe incluir la siguiente información:
 
 También puede especificar una categoría de objetivo para ayudarle a organizar los objetivos. Los administradores también verán el nombre de la persona a la que se ha asignado el objetivo. 
 
-Si tiene más instrucciones detalladas para un objetivo, puede crear temas de objetivo. Dichos temas incluyen un título y una descripción. Puede incluir tantos temas como sea necesario para ayudar a garantizar que los detalles del objetivo están claros tanto para el empleado como para el administrador. Los empleados y los administradores también pueden introducir comentarios acerca del progreso de los objetivos. 
+Si tiene más instrucciones detalladas para un objetivo, puede crear temas de objetivo. Dichos temas incluyen un título y una descripción. Puede incluir tantos temas como sea necesario para ayudar a garantizar que los detalles del objetivo están claros tanto para el empleado como para el administrador. Tanto el empleado como el director también pueden introducir comentarios acerca del progreso de los objetivos. 
 
 Los objetivos tienen a menudo resultados cuantificables. Puede añadir medidas para realizar un seguimiento de los resultados del objetivo de destino y los resultados reales. Si la medida es un objetivo elástico, puede marcar la medida mediante la opción **Objetivo elástico**. 
 
-El diario de rendimiento contendrá las actividades que proporcionan más información a su administrador sobre cómo logró el objetivo. Si ha vinculado un diario de rendimiento al objetivo, aparece en sección **Actividades** de dicho objetivo. También puede añadir un nuevo diario de rendimiento desde la página **Objetivos de rendimiento**. Ese diario de rendimiento se vinculará automáticamente al objetivo. 
+Su diario de rendimiento describirá<!--note from editor: Suggested.--> las actividades que proporcionan más información a su administrador sobre cómo logró el objetivo. Si ha vinculado un diario de rendimiento al objetivo, aparece en la sección **Actividades** de dicho objetivo. También puede añadir un nuevo diario de rendimiento desde la página **Objetivos de rendimiento**. Ese diario de rendimiento se vinculará automáticamente al objetivo. 
 
 Si desea adjuntar un documento al objetivo, como un certificado de finalización, puede hacerlo en la sección de **Datos adjuntos** de la página **Objetivos de rendimiento**. Se proporciona un visor de documentos para poder ver rápidamente el contenido de cualquier documento adjunto. 
 
@@ -84,13 +83,13 @@ Puede crear una plantilla de un objetivo y usarla para crear nuevos objetivos ba
 
 ## <a name="performance-reviews"></a>Evaluaciones de rendimiento
 
-Las evaluaciones de rendimiento se conocen más formalmente como discusiones. Son lo suficientemente flexibles como para admitir comentarios de retroalimentación, planes de desarrollo y evaluaciones más formales. Puede crear rápidamente reuniones pequeñas para dos personas, como una reunión de uno en uno, o puede crear una evaluación más compleja que coincida con el proceso de evaluación de la empresa. 
+Las evaluaciones de rendimiento se conocen más formalmente como discusiones. Son lo suficientemente flexibles como para admitir comentarios continuos, planes de desarrollo y evaluaciones más formales. Puede crear rápidamente pequeñas reuniones para dos personas<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> o puede crear una revisión más compleja que coincida con el proceso de revisión de su empresa. 
 
-Una reunión como la de uno en uno es una evaluación simple y requiere un nombre corto, una descripción más larga del contenido de la reunión y la fecha de la reunión, y el período de revisión que se discute. Los administradores también verán el nombre de la persona para la que se ha creado la evaluación. 
+Una reunión como la de uno en uno es una evaluación simple que requiere un nombre corto, una descripción más larga del contenido de la reunión y la fecha de la reunión, y el período de revisión que se discute. Los administradores también verán el nombre de la persona para la que se ha creado la evaluación. 
 
 Para obtener evaluaciones más detalladas, puede extraer objetivos activos y completados y escribir comentarios sobre ellos. Todas las actividades y medidas del diario de rendimiento que están relacionadas con un objetivo aparecerán en la evaluación. Cuando concluye la evaluación, se guarda una captura de las medidas para mantener el historial de aquellos artículos en el momento de la evaluación. 
 
-También puede usar la sección **Capacidades** para discutir, revisar y calificar las capacidades del empleado. Puede añadir tantas capacidades como sea necesario y puede elegir si la capacidad debe calificarse. 
+También puede usar la sección **Competencias** para tratar, revisar y calificar las capacidades del empleado. Puede añadir tantas capacidades como sea necesario y puede elegir si la capacidad debe calificarse. 
 
 Puede crear nuevas evaluaciones basadas en plantillas que ha creado. Por ejemplo, puede tener una plantilla para reuniones de uno en uno, planes de desarrollo o evaluaciones periódicas. Puede seleccionar la plantilla al crear una nueva evaluación.
 
@@ -105,23 +104,23 @@ Puede incluir varios tipos de información en las evaluaciones de rendimiento. D
 
 ### <a name="review-detail"></a>Detalles de la evaluación
 
-Puede extraer sus objetivos en los detalles de la evaluación y hacer comentarios en ellos. También puede configurar capacidades y hacer comentarios en ellos.
+Puede extraer sus objetivos en los detalles de la evaluación y hacer comentarios en ellos. También puede configurar competencias y hacer comentarios en ellas.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
 
 ### <a name="measurements"></a>Medidas
 
-Puede ver las medidas relacionadas con un objetivo o una evaluación. También puede añadir una nueva medida relacionada con la evaluación.
+Puede ver las medidas relacionadas con un objetivo o una evaluación. También puede agregar una nueva medida relacionada con la evaluación.
 
 ### <a name="activities"></a>Actividades
 
 Puede mostrar los artículos del diario de rendimiento relacionados con la evaluación. También puede añadir un diario de rendimiento, que se vinculará automáticamente a la evaluación.
 
-### <a name="ratings"></a>Calificaciones
+### <a name="ratings"></a>Evaluaciones
 
-Puede aplicar una calificación a cualquier objetivo o capacidad que se encuentra en la evaluación. Puede definir los modelos de calificación para cada evaluación. Los valores predeterminados para las calificaciones se encuentran en la página **Parámetros de recursos humanos compartidos** debajo de **Rendimiento.**
+Puede aplicar una calificación a cualquier objetivo o competencia que se encuentra en la evaluación. Puede definir los modelos de calificación para cada evaluación. Los valores predeterminados para las calificaciones se encuentran en la página **Parámetros de recursos humanos compartidos** debajo de **Rendimiento.**
 
 ### <a name="sign-offs"></a>Aprobaciones
 
-El empleado y/o el administrador se enumerarán en la evaluación en función de los parámetros de evaluación que configure. Las evaluaciones pueden ser obligatorias u opcionales. Una vez se han llevado a cabo todas las aprobaciones, la evaluación se marcará con el estado de **Completa**.
+El empleado y/o el administrador se enumerarán en la evaluación en función de los parámetros de evaluación que configure. Las evaluaciones pueden ser obligatorias u opcionales. Después<!--note from editor: Via Writing Style Guide.--> de que se hayan llevado a cabo todas las aprobaciones, la evaluación se marcará con el estado de **Completa**.
 
 ### <a name="attachments"></a>Archivos adjuntos
 
@@ -129,33 +128,33 @@ Puede adjuntar un documento a una evaluación en la sección **Datos adjuntos** 
 
 ## <a name="workflow-for-performance-management"></a>Flujo de trabajo para la gestión del rendimiento
 
-Puede usar el flujo de trabajo de la Evaluación del empleado para controlar la aprobación de una evaluación. También puede elegir saltarse el flujo de trabajo automatizado y cambiar manualmente el estado de la evaluación, que permite crear documentos más sencillos como el de uno en uno sin tener que utilizar el proceso de flujo de trabajo. El acceso a una evaluación se controla mediante el estado de la evaluación.
+Puede usar el flujo de trabajo de la Evaluación del empleado para controlar la aprobación de una evaluación. También puede elegir saltarse el flujo de trabajo automatizado y cambiar manualmente el estado de la evaluación, que permite crear documentos más sencillos como el de uno en uno sin tener que utilizar el proceso de flujo de trabajo. El acceso a una evaluación se controla mediante el estado de la evaluación, de la siguiente manera:<!--note from editor: Suggested as an intro to the list.-->
 
-1.  Cuando se crea la evaluación, se establece con el estado de **No iniciado**. La evaluación puede editarla cualquiera.
+1.  Cuando se crea la evaluación, se establece en **No iniciado**. La evaluación puede editarla cualquiera.
 
-2.  Una vez el empleado pulsa el botón **Comenzar evaluación**, la evaluación se establece con el estado **En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
+2.  Una vez el empleado selecciona **Comenzar evaluación**, la evaluación se establece en **En curso**. A continuación, el empleado comienza a añadir contenido. En este punto, el administrador ya no puede ver el documento de evaluación.
 
 3.  El empleado cambia el estado a **Preparado para evaluación**.
 
 4.  El administrador puede añadir comentarios y calificaciones. En este punto, solo el administrador puede ver la evaluación.
 
-5.  El administrador cambia el estado a **Evaluación final**, de modo que el administrador y el empleado puedan ver la evaluación y comentarla. En los parámetros puede especificar si la evaluación se puede editar o no en este punto. Este paso también es opcional si el administrador solo desea compartir la evaluación con el empleado y marcarla como **Completa** cuando terminan.
+5.  El administrador cambia el estado a **Evaluación final**, de modo que el administrador y el empleado puedan ver la evaluación y comentarla. En los parámetros puede especificar si la evaluación se puede editar en este punto. Este paso también es opcional si el administrador solo desea compartir la evaluación con el empleado y marcarla como **Completa** cuando terminan.
 
-6.  Una vez se completen las abrobaciones, el estado se cambia a **Completa**. En este punto, la evaluación no puede cambiarse.
+6.  Una vez se completen las abrobaciones, el estado se cambia a **Completa**. En este punto, la evaluación no se puede cambiar.
 
 El flujo de trabajo de la Evaluación del empleado tiene dos elementos:
 
-1.  Aprobar evaluación. Añadir este elemento para controlar el cambio de estado de **En curso** a **Preparado para evaluación**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de Administrador de Employee.line = 1.
+1.  Aprobar evaluación. Añadir este elemento para controlar el cambio de estado de **En curso** a **Preparado para evaluación**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de **Administrador de Employee.line = 1**.<!--note from editor: Edit assumes that this is a UI string. -->
 
-2.  Evaluación final. Añadir este elemento para controlar el cambio de estado de **Listo para revisión** a **Revisión final**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de Administrador de Employee.line = 1 si desea que el administrador apruebe la evaluación final. Cambiar la asignación al usuario del flujo de trabajo si desea que el empleado la apruebe. Si desea que el administrador y el empleado la aprueben, añada dos pasos al flujo de trabajo y cree la asignación adecuada para cada paso en el orden en el que quiere que sigan las aprobaciones.
+2.  Evaluación final. Añadir este elemento para controlar el cambio de estado de **Listo para revisión** a **Revisión final**. Cambiar la asignación para usar la jerarquía directiva donde el nivel de **Administrador de Employee.line = 1** si desea que el administrador apruebe la evaluación final. Cambiar la asignación al **Usuario del flujo de trabajo** si desea que el empleado la apruebe. Si desea que el administrador y el empleado la aprueben, añada dos pasos al flujo de trabajo y cree la asignación adecuada para cada paso en el orden en el que quiere que sigan las aprobaciones.<!--note from editor: I like this, so succinct.-->
 
 ## <a name="setup"></a>Configurar
 
-Existen tres páginas que ayudan a configurar la información necesaria para completar el proceso de rendimiento: **Medidas**, **Tipos de origen del diario de rendimiento** y **Tipos de evaluación**.
+Tres páginas<!--note from editor: Suggested, to avoid "there are" (via Writing Style Guide).--> ayudan a configurar la información necesaria para completar el proceso de rendimiento: **Medidas**, **Tipos de origen del diario de rendimiento** y **Tipos de evaluación**.
 
 ### <a name="measurements"></a>Medidas
 
-La página **Medidas** permite crear las medidas estándar que se utilizarán en las páginas **Objetivos de rendimiento** y **Evaluaciones**. Puede crear medidas que son fechas, importes, cantidades o porcentajes, o medidas que se basan en un modelo de evaluación.
+Use la página **Medidas** para<!--note from editor: Via Writing Style Guide, https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=35221--> crear las medidas estándar que se utilizarán en las páginas de **objetivos de rendimiento** y **evaluaciones**. Puede crear medidas que son fechas, importes, cantidades o porcentajes, o medidas que se basan en un modelo de evaluación.
 
 ### <a name="performance-journal-source-types"></a>Tipos de origen de diario de rendimiento
 

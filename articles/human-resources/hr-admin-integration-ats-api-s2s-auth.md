@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064931"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743552"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Autenticación de servidor a servidor para la API de integración ATS
 
@@ -89,7 +89,7 @@ Para el nuevo rol, se debe asignar el acceso apropiado a, como mínimo, las sigu
 
 El segundo paso es asegurarse de que la aplicación tenga los permisos adecuados para los datos de Recursos humanos vinculándola a un usuario en la aplicación de Recursos humanos. Para un usuario de la aplicación, las llamadas de servidor a servidor a través de tablas virtuales de Dataverse se realizan en el contexto de la identidad del usuario (aplicación) en Dataverse que está invocando la acción. A continuación, el servicio de adaptador de tabla virtual busca al usuario asociado en Recursos humanos y ejecuta la consulta en el contexto de ese usuario. Esto significa que se debe crear un usuario en Recursos Humanos con los roles correctos asignados para brindar acceso a los datos que necesitará la aplicación integradora.
 
-El usuario de Recursos Humanos también deberá tener asignados los permisos correctos para los datos en Recursos Humanos. La función **Solicitud de reclutamiento** (HcmRecruitingIntegrator) está disponible con privilegios para las entidades principales necesarias para la integración con los datos de contratación. Este rol se puede asignar al usuario de la aplicación en la página **Usuarios** para otorgar el acceso adecuado a los datos. Para obtener más información sobre los roles de seguridad de Recursos humanos, consulte [Seguridad basada en roles](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+El usuario de Recursos Humanos también deberá tener asignados los permisos correctos para los datos en Recursos Humanos. La función **Solicitud de reclutamiento** (HcmRecruitingIntegrator) está disponible con privilegios para las entidades principales necesarias para la integración con los datos de contratación. Este rol se puede asignar al usuario de la aplicación en la página **Usuarios** para otorgar el acceso adecuado a los datos. Para obtener más información sobre los roles de seguridad de Recursos humanos, consulte [Seguridad basada en roles](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Configurar el nuevo usuario con los permisos adecuados
 

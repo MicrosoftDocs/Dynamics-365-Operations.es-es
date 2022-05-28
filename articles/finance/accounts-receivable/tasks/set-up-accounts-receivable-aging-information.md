@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 5b67c33f73a33721167cedde1a8d83a81aa77db3
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753569"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735413"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Configurar y generar información de vencimiento de clientes
 
 [!include [banner](../../includes/banner.md)]
 
-Esta guía le ayudará a configurar una definición de período de vencimiento, vencer saldos de cliente y ver los saldos en la lista Saldos vencidos para mostrar la página Cobros. Esta grabación usa la empresa de demostración USMF.
+Esta guía le ayudará a configurar una definición de período de vencimiento, vencer saldos de cliente y ver los saldos en la lista **Saldos vencidos** para mostrar la página **Cobros**. Esta grabación usa la empresa de demostración USMF.
 
 
 ## <a name="create-an-aging-period-definition"></a>Crear una definición de período de vencimiento

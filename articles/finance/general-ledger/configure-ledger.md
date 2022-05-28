@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712228"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711559"
 ---
 # <a name="configure-ledgers"></a>Configurar libros de contabilidad
 
@@ -28,7 +28,7 @@ Este tema proporciona información sobre cómo configurar libros contables para 
 
 ## <a name="selecting-the-chart-of-accounts"></a>Selección del plan de cuentas
 
-Para cada entidad legal en Microsoft Dynamics 365 Finance, se deben configurar los detalles sobre el libro mayor. La página **Libro mayor** le permite seleccionar el plan de cuentas y las estructuras de cuentas que se utilizarán para la entidad jurídica seleccionada. Puede compartir su plan de cuentas y las estructuras de cuentas configurando la página **Libro mayor** de cada entidad jurídica para utilizar el mismo plan de cuentas y las mismas estructuras de cuentas. También puede compartir parte de la configuración de cada entidad jurídica y tener configuraciones específicas en cada entidad jurídica.
+Para cada entidad jurídica en Microsoft Dynamics 365 Finance, se deben configurar los detalles sobre el libro mayor. La página **Libro mayor** le permite seleccionar el plan de cuentas y las estructuras de cuentas que se utilizarán para la entidad jurídica seleccionada. Puede compartir su plan de cuentas y las estructuras de cuentas configurando la página **Libro mayor** de cada entidad jurídica para utilizar el mismo plan de cuentas y las mismas estructuras de cuentas. También puede compartir parte de la configuración de cada entidad jurídica y tener configuraciones específicas en cada entidad jurídica.
 
 Si sus entidades jurídicas deben tener diferentes planes de cuentas o diferentes estructuras de cuentas, la función de anulación de entidad jurídica puede ser útil. Al utilizar el mismo plan de cuentas y estructuras de cuentas para varias entidades jurídicas, y luego administrar las excepciones a través de anulaciones de entidades jurídicas, puede simplificar el mantenimiento con el tiempo.
 

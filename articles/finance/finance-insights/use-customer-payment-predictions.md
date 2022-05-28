@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968921"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740635"
 ---
 # <a name="use-customer-payment-predictions"></a>Usar predicciones de pago de cliente
 
@@ -86,10 +86,6 @@ Los datos de las fichas desplegables **Información del cliente** e **Historial 
 
 Puede ver la precisión de las predicciones de pagos yendo a **Crédito y cobros \> Configurar \> Información financiera \> Parámetros de información financiera**. En la pestaña **Información de pagos del clientes**, la sección **Modelo de predicción** muestra la precisión del modelo de predicción en forma de porcentaje.
 
-[![Precisión de las predicciones de pagos.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
 Si no está satisfecho con la precisión, seleccione el vínculo **Mejorar la precisión del modelo** para abrir la experiencia de la extensión AI Builder. En la experiencia de la extensión AI Builder, puede seleccionar o cancelar la selección de campos hasta que haya seleccionado los campos que crea que son más importantes para predecir con precisión las probabilidades de pago. Cuando haya terminado, puede volver a entrenar fácilmente el modelo de predicción y publicar sus cambios. El modelo de predicción recién entrenado se seleccionará automáticamente para las predicciones en Dynamics 365 Finance.
-
-[![Experiencia de extensión AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

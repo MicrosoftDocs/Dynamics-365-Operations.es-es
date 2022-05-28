@@ -1,28 +1,28 @@
 ---
 title: Visión general de la contabilidad general y los informes financieros
 description: Use Contabilidad general para definir y gestionar los registros financieros de la entidad jurídica.
-author: ShylaThompson
+author: kfend
 ms.date: 08/14/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "65431"
 - intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985271"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8719954"
 ---
 # <a name="general-ledger-home-page"></a>Página principal de contabilidad general
 
@@ -61,7 +61,7 @@ Vaya al tema [Visión general de Financial Reporting](../../fin-ops-core/dev-itp
 
 #### <a name="blogs"></a>Blogs
 
-Encontrará opiniones, noticias y otra información en el [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el [blog Microsoft Dynamics 365 Finance y Operaciones - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 

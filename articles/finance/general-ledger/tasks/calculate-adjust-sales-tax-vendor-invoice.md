@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648d94e895a4941f5f3148134130b3ffa693a9d57e0bb4e236f5d5fb33aca48f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779821"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734700"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calcular y ajustar los impuestos en una factura de proveedor
 
@@ -26,7 +26,7 @@ ms.locfileid: "6779821"
 
 En este tema se explica cómo ajustar los impuestos para una factura de proveedor. Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro. Esta tarea usa la empresa de demostración DEMF.
 
-1. En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Diario de facturas**.
+1. Vaya a **Proveedores > Facturas > Diario de facturas**.
 2. Seleccione **Nuevo**.
 3. En el campo **Nombre** de la nueva fila, seleccione una opción en el menú desplegable.
 4. En el panel de acciones, seleccione **Líneas**.

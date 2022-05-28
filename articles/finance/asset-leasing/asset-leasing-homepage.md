@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "4464"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775227"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710396"
 ---
 # <a name="asset-leasing-home-page"></a>Página de inicio de arrendamiento de activos
 
@@ -30,7 +30,7 @@ ms.locfileid: "6775227"
 
 Este tema enumera los temas de ayuda que están disponibles para el arrendamiento de activos e incluye vínculos a temas específicos. 
 
-El arrendamiento de activos es una capacidad avanzada para administrar, rastrear y automatizar las transacciones financieras del arrendatario para los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento.
+El arrendamiento de activos es una capacidad avanzada para administrar, realizar un seguimiento y automatizar las transacciones financieras de los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento.
 
 Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. En el espacio de trabajo **Gestión de funciones**, busque y seleccione la característica denominada **Arrendamiento de activos** y luego haga clic en el boton **Habilitar ahora**.
 
@@ -90,9 +90,9 @@ Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/releas
 
 ### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 ### <a name="videos"></a>Vídeos
 

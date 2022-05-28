@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109869"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725916"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Solucionar problemas de configuración de Finance Insights
 
@@ -34,7 +34,7 @@ Este tema enumera los problemas que pueden ocurrir cuando usa las capacidades de
 
 ### <a name="resolution"></a>Resolución
 
-Es posible que esté utilizando una plantilla para una versión anterior. Antes del lanzamiento de la versión 10.0.17, los clientes de vista previa configuraban la plantilla **Resultados de información sobre pagos del cliente (CDS a Fin and Ops)** de integración de datos (DI) mediante la entidad **Resultado de la predicción de pago (vista previa)**. Después de una actualización a 10.0.17 y posterior, debe usar la plantilla **Resultados de información sobre pagos del cliente (CDS a Fin and Ops 10.0.17 y posterior)** DI para completar la asignación. Es posible que no pueda asignar la columna de destino de la plantilla DI hasta que se actualice la lista de entidades de administración de datos y la entidad **Resultado de la predicción de pago** aparece. Para actualizar la lista de entidades y mostrar el resultado de la predicción de pago, completará los pasos en Microsoft Dynamics 365 Finance y Dataverse (anteriormente conocido como el Common Data Service \[CDS\] portal de administración).
+Es posible que esté utilizando una plantilla para una versión anterior. Antes del lanzamiento de la versión 10.0.17, los clientes de vista previa configuraban la plantilla **Resultados de información sobre pagos del cliente (CDS a Fin and Ops)** de integración de datos (DI) mediante la entidad **Resultado de la predicción de pago (vista previa)**. Después de una actualización a 10.0.17 y posterior, debe usar la plantilla **Resultados de información sobre pagos del cliente (CDS a Fin and Ops 10.0.17 y posterior)** DI para completar la asignación. Es posible que no pueda asignar la columna de destino de la plantilla DI hasta que se actualice la lista de entidades de administración de datos y la entidad **Resultado de la predicción de pago** aparece. Para actualizar la lista de entidades y mostrar el resultado de la predicción de pago, completará los pasos en tanto con Microsoft Dynamics 365 Finance como en Dataverse (anteriormente conocido como el Common Data Service \[CDS\] portal de administración).
 
 ### <a name="in-finance"></a>En Finance
 

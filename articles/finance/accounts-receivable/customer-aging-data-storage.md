@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557889"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735532"
 ---
 # <a name="customer-aging-data-storage"></a>Almacenamiento de datos de vencimiento de cliente
 
 [!include [banner](../includes/banner.md)]
 
-
-Este tema describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. En Microsoft Dynamics 365 Finance, puede ejecutar el proceso de almacenamiento de datos de vencimiento del cliente para que la salida esté disponible para su exportación a un sistema externo. Cuando ejecuta el proceso, las mismas opciones de informes de vencimiento que están disponibles en el sistema están disponibles para sistemas externos. Los detalles siempre se incluyen en los datos exportados.
+Este tema describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. In Microsoft Dynamics 365 Finance, puede ejecutar el proceso **Almacenamiento de datos de vencimiento de cliente** para que la salida esté disponible para su exportación a un sistema externo. Cuando ejecuta el proceso, las mismas opciones de informes de vencimiento que están disponibles en el sistema están disponibles para sistemas externos. Los detalles siempre se incluyen en los datos exportados.
 
 Puede resultar útil poner los datos de vencimiento de los clientes a disposición de un sistema externo para su almacenamiento en los casos en que la salida contenga muchos clientes y / o muchas transacciones. Si el informe **de vencimientos de clientes** agota el tiempo de espera debido a que tiene demasiados datos para imprimir, esta función proporciona una forma alternativa de obtener los mismos datos.
 

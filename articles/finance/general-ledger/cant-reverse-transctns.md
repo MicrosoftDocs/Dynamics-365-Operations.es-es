@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 869832f085ee91f6c1fee53dad508cf5e54535627dadd6fb59a7586b03c8ec3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719744"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724540"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>¿Por qué no puedo revertir esta transacción?
 
@@ -35,7 +35,7 @@ Las organizaciones pueden encontrarse en situaciones en las que deban revertir u
 
 ## <a name="resolution"></a>Resolución
 
-Las transacciones deben cumplir criterios específicos para que puedan revertirse. Las secciones restantes de este tema proporcionan la validación de cada módulo. Aunque este tema se centra en las transacciones de Microsoft Dynamics 365 Finance, algunos de los conceptos y la validación pueden aplicarse a otras aplicaciones, como Dynamics 365 Supply Chain Management.
+Las transacciones deben cumplir criterios específicos para que puedan revertirse. Las secciones restantes de este tema proporcionan la validación de cada módulo. Aunque este tema se centra en las transacciones en Microsoft Dynamics 365 Finance, algunos de los conceptos y la validación se pueden aplicar a otras aplicaciones, como Dynamics 365 Supply Chain Management.
 
 Además, el lugar donde se revierte una transacción puede afectar a si se puede revertir o no. Por ejemplo, un pago a un proveedor que se contabiliza como un cheque solo se puede revertir desde la sección **Cheques** en la página de transacción para las cuentas bancarias. No se puede revertir desde la página **Transacciones de asiento** de la contabilidad general.
 

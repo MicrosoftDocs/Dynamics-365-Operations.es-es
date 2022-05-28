@@ -1,7 +1,7 @@
 ---
 title: Moviendo mensaje
 description: La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6721c01fd0ad3eec30de99dee3b5e98de6bd3b52
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0be72c8ba3c123300be83513531d2f805dc8f5e3
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567544"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676114"
 ---
 # <a name="moving-average"></a>Moviendo mensaje
 

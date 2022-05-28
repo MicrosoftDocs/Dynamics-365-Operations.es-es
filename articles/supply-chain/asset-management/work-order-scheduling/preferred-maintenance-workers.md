@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38b7371ab668eb76801fbe7f15894609a846bbd8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734436"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687684"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar trabajadores de mantenimiento preferidos
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Durante la programación de la orden de trabajo, puede crear una preferencia en cuanto a qué trabajador o grupo de trabajadores de mantenimiento se asigna para completar la orden de trabajo. El uso de esta función es opcional, pero puede ayudarle a elegir al trabajador de mantenimiento más cualificado para que complete un trabajo en función de las aptitudes y competencias del trabajador. Solo se programarán trabajadores de mantenimiento que estén disponibles en el momento de la programación. Si una configuración de trabajador de mantenimiento preferido coincide con una orden de trabajo durante la programación, pero el trabajador de mantenimiento está asignado a otros trabajos, la orden de trabajo se programará a otro trabajado de mantenimiento, en caso de que esté disponible.
 
@@ -51,13 +49,15 @@ Cuantas más selecciones haga para el mismo registro, más específica será la 
 
 3. Empiece con la creación de un trabajador o un grupo de trabajadores "predeterminado". Esto significa que solo crea una selección en el campo **Grupo de trabajadores de mantenimiento preferido** o en el campo **Trabajador de mantenimiento preferido**. En la siguiente captura de pantalla, verá un ejemplo en el primer registro en el que se selecciona "Solicitudes" como **grupo de trabajadores de mantenimiento preferido**.
 
-    [!NOTE] La configuración predeterminada se usará durante la programación de la orden de trabajo si hay ninguna otra combinación más específica que coincida con el contenido de la orden de trabajo.
+    > [!NOTE]
+    > La configuración predeterminada se usará durante la programación de la orden de trabajo si hay ninguna otra combinación más específica que coincida con el contenido de la orden de trabajo.
 
 4. Repita el paso 2 para crear un nuevo registro. Haga las selecciones necesarias en función del nivel de detalle del trabajador o grupo de trabajadores preferido. 
 
     *Ejemplo:* en la captura de pantalla siguiente, en el sexto registro, el trabajador de mantenimiento Shawn Richardson es seleccionado como trabajador preferido. Será seleccionado automáticamente durante la programación de una orden de trabajo que incluya el activo "CH-BP1-03-02" y el tipo de trabajo de mantenimiento "Evaluación de la instalación", si este está disponible a la hora programada.
 
-    [!NOTE] Por lo general, cuando se selecciona un trabajador de mantenimiento preferido durante la programación de una orden de trabajo, la Administración de activos pasa por todos los registros **Trabajadores de mantenimiento preferidos** para comprobar si existe una coincidencia posible, comprobando siempre en primer lugar la combinación más específica. Si no se encuentra ninguna coincidencia, se utiliza el registro "predeterminado" con una selección en el campo **Grupo de trabajadores de mantenimiento preferido** o en el campo **Trabajador de mantenimiento preferido**.
+    > [!NOTE]
+    > Por lo general, cuando se selecciona un trabajador de mantenimiento preferido durante la programación de una orden de trabajo, la Administración de activos pasa por todos los registros **Trabajadores de mantenimiento preferidos** para comprobar si existe una coincidencia posible, comprobando siempre en primer lugar la combinación más específica. Si no se encuentra ninguna coincidencia, se utiliza el registro "predeterminado" con una selección en el campo **Grupo de trabajadores de mantenimiento preferido** o en el campo **Trabajador de mantenimiento preferido**.
 
 ![Figura 1.](media/02-work-order-scheduling.png)
 

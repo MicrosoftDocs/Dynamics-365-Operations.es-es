@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753979"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734468"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Agregar información de administración de crédito para los clientes
 
@@ -32,7 +32,7 @@ Puede agregar los detalles de clientes en la pestaña **Crédito y cobros** de l
 1. Establezca la opción **Límite de crédito ilimitado** en **Sí** si el cliente no debe estar limitado por pruebas de límite de crédito.
 2. Establezca la opción **Excluir de administración de crédito** en **Sí** para excluir al cliente de las acciones que suelen producirse durante los procesos de administración de crédito.
 3. Seleccione el grupo de administración de crédito para el cliente.
-4. Para calcular el límite de crédito en la divisa del cliente, en el campo **Límite de crédito en la divisa del cliente**, introduzca el límite de crédito del cliente. El límite de crédito en la divisa de la empresa se convertirá con los tipos de cambio definidos por el tipo de cambio del límite de crédito que se selecciona en los parámetros de administración de crédito.
+4. Para calcular el límite de crédito en la divisa del cliente, en el campo **Límite de crédito en la divisa del cliente**, introduzca el límite de crédito del cliente. El límite de crédito en la divisa de la empresa se convertirá con los tipos de cambio definidos por el tipo de cambio del límite de crédito que se selecciona en los **Parámetros de gestión de créditos**.
 5. En el campo **Última fecha de revisión**, introduzca la fecha en la un administrador de crédito revisó por última vez el límite de crédito del cliente.
 6. En el campo **Próxima fecha de revisión programada**, introduzca la fecha en la que está programada una revisión y actualización del crédito del cliente.
 7. En el campo **Límite de crédito elegible**, introduzca el límite de crédito más alto que se puede asignar al cliente, en función de la revisión del historial de crédito de ese cliente. El límite de crédito elegible puede diferir del límite de crédito que se muestra en la ficha desplegable **Crédito y cobros**.
@@ -46,7 +46,8 @@ Puede agregar los detalles de clientes en la pestaña **Crédito y cobros** de l
 15. En el campo **Cliente desde**, introduzca la fecha en la que que se procesaron las primeras transacciones para el cliente. Esta información se usa para crear puntuaciones de riesgo.
 16. Escriba notas que el equipo de crédito pueda usar para evaluar mejor la solvencia del cliente.
 
-Tenga en cuenta que parte de la información que se muestra en la página **Cliente** es creada por otro proceso:
+> [!Note] 
+> Parte de la información que se muestra en la página **Cliente** se crea por otro proceso:
 
 - El campo **Fecha de vencimiento del límite de crédito** muestra la fecha de vencimiento del límite de crédito. Si no configura este campo, el límite de crédito del cliente no vencerá.
 - El campo **Fecha del límite de crédito** muestra la fecha de vencimiento en la que se creó el límite de crédito. Este campo se actualiza cada vez que se ajusta el límite de crédito.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570762"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736044"
 ---
 # <a name="dual-use-goods"></a>Bienes de doble uso
 
@@ -34,7 +34,7 @@ Considere el siguiente escenario:
 2. La página **Detalles de producto emitido** para el producto X-100 indica que es un bien de doble uso. Juntos, el código, la categoría, el grupo y el régimen indican la clasificación de control de exportación a la que pertenece el producto.
 3. La página **Certificados de doble uso** incluye un certificado para el producto X-100 cuando se envía a Francia. Este certificado vence el 1 de enero de 2020.
 4. El 17 de junio de 2020, usted crea un pedido de venta para una empresa cliente con sede en Francia, y el pedido contiene el producto X-100.
-5. Cuando guarda el pedido de cliente, el sistema determina la siguiente información:
+5. Cuando confirma el pedido de cliente, el sistema determina la siguiente información:
 
     1. ¿El pedido incluye algún bien que sea de doble uso?
     2. Si el pedido incluye bienes de doble uso, ¿el país de destino requiere certificados de doble uso?

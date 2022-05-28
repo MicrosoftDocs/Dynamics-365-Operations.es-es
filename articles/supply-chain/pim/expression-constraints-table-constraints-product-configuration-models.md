@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8775a9225313c0f5a132dbccbe583470fe23beab
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7e98e9c6931edbbac49c09d8c2fa4d11d90da5d7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570738"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694407"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
@@ -98,7 +98,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <thead>
 <tr class="header">
 <th>Operador</th>
-<th>Descripción</th>
+<th>Description</th>
 <th>Sintaxis</th>
 <th>Ejemplo</th>
 </tr>
@@ -106,7 +106,7 @@ En las tablas siguientes se enumeran los operadores y la notación de infijo que
 <tbody>
 <tr class="odd">
 <td>Implica</td>
-<td>Se aplica si la primera condición es falsa, la segunda condición es verdadera, o se dan ambas condiciones.</td>
+<td>Si la condición a es verdadera, aplique la restricción b.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Operador:</strong> Implies[x != 0, y &gt;= 0]</li>

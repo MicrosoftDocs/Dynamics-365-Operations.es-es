@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066427"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743497"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Los empleados seleccionan planes a través del Autoservicio para empleados (opcional)
 
@@ -35,11 +34,11 @@ Para acceder a sus ventajas por inscripción, el empleado debe ir a **Autoservic
 En la página **Autoservicio de prestaciones**, los planes de prestaciones están agrupados por tipo de plan. Para ver los planes de prestaciones en un tipo de plan, el empleado selecciona un icono en la página **Prestaciones del empleado**. El empleado verá solo las prestaciones que tiene disponibles.
 
 > [!IMPORTANT]
-> Antes de que se pueda mostrar un tipo de plan en **Autoservicio para empleados**, debe estar configurado. Para obtener más información, consulte [Configurar auto servicio de empleado](/hr-benefits-setup-employee-self-service.md).
+> Antes de que se pueda mostrar un tipo de plan en **Autoservicio para empleados**, debe estar configurado. Para obtener más información, consulte [Configurar auto servicio de empleado](/dynamics365/human-resources/hr-benefits-setup-employee-self-service).
 
 Según el tipo de plan, se pueden seleccionar una o más prescripciones para la inscripción. Por ejemplo, se puede configurar un tipo de plan médico para limitar al empleado a un plan médico. Un tipo de plan de seguro de vida podría permitirle al empleado seleccionar varios planes de seguro de vida.
 
-Una vez que el empleado ha decidido en qué plan inscribirse, es posible que deba seleccionar a sus dependientes. Si el empleado ha seleccionado una opción de cobertura que es **Empleado +1**, **Empleado + hijos** o **Familia**, se deben seleccionar dependientes. Para obtener más información sobre las opciones de cobertura, consulte [Crear opciones de cobertura](/hr-benefits-setup-coverage-options.md).
+Una vez que el empleado ha decidido en qué plan inscribirse, es posible que deba seleccionar a sus dependientes. Si el empleado ha seleccionado una opción de cobertura que es **Empleado +1**, **Empleado + hijos** o **Familia**, se deben seleccionar dependientes. Para obtener más información sobre las opciones de cobertura, consulte [Crear opciones de cobertura](/dynamics365/human-resources/hr-benefits-setup-coverage-options).
 
 Para seleccionar un plan de prestaciones, el empleado selecciona el botón de puntos suspensivos (**...**) o **Agregar al carro**. Una vez que el empleado ha terminado de agregar todas las selecciones de prestaciones al carro, selecciona **Ver carro**. Luego, el empleado pasa a la página **Planes**, donde puede ver sus planes de prestaciones seleccionados y condonados.
 

@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763199"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734615"
 ---
 # <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes 
 
@@ -54,7 +54,7 @@ En el FastTab **Filtrado de datos**, se definen los datos base para el informe. 
 | Libro mayor de contabilidad de costes                                            | El **Libro mayor de la contabilidad de costes** en el que se basa el informe. El valor se deriva del campo **Unidad de control de costes**. |
 | Unidad de control de costes                                                 | El valor que seleccione determina el libro mayor de contabilidad de costes y los objetos de coste en los que se basará este informe. |
 | Jerarquía de dimensión estadística, jerarquía de dimensión de elemento de coste | Un registro de configuración del espacio de trabajo **Control de costes** puede notificar valores monetarios o no monetarios, pero no con el mismo diseño. Seleccione un valor en el campo **Jerarquía de dimensión de elemento de coste** para notificar valores monetarios. Seleccione un valor en el campo **Jerarquía de dimensión estadística** para notificar valores no monetarios. El registro de la jerarquía de dimensión que seleccione determina la estructura de informe y de los niveles de agregación.<blockquote>[!NOTE]<br>Para ver valores monetarios y no monetarios de forma simultánea, puede exportar datos a Microsoft Excel para el paquete de contenido de Microsoft Power BI.</blockquote> |
-| Jerarquía de dimensión de objeto de coste                                   | Seleccione la jerarquía de dimensión de la dimensión del objeto de coste que se adapte al propósito del modo de notificación que esté definiendo. |
+| Jerarquía de dimensión de objeto de coste      | Seleccione la jerarquía de dimensión de la dimensión del objeto de coste que se adapte al propósito del modo de notificación que esté definiendo. |
 | Versión original del presupuesto                                           | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto original en el contexto de este informe. |
 | Versión revisada del presupuesto                                            | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto revisado en el contexto de este informe. |
 

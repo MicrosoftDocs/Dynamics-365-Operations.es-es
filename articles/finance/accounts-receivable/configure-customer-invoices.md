@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392920"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756974"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -30,7 +30,7 @@ Una **factura de cliente para un pedido de ventas** es una factura en relación 
 
 Las **facturas de servicios** no están relacionadas con los pedidos de ventas. Contienen líneas de pedido que incluyen cuentas contables, descripciones de texto libre y un importe de ventas que especifica el usuario. No puede especificar un número de artículo en este tipo de factura. Debe indicar la información de impuestos correspondiente. En cada línea de factura, se indica una cuenta principal para la venta, que se puede distribuir a varias cuentas contables si hace clic en **Distribuir importes** en la página **Factura de servicios**. Además, el saldo del cliente se registra en la cuenta de resumen del perfil de contabilización que se usa para la factura de servicios.
 
-Para obtener más información, consulte: 
+Para obtener más información, consulte:
 
 [Crear facturas de servicios](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Para obtener más información, consulte:
 [Generación y registro de facturas de servicios](tasks/post-recurring-free-text-invoices.md)
 
 
-Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una factura proforma para una factura de cliente de un pedido de ventas o de una factura de servicios.
+Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una **factura proforma** para una factura de cliente de un pedido de ventas o de una factura de servicios. 
+
+>[!NOTE]
+> En el caso de una interrupción del sistema durante el proceso de facturación proforma de ventas, una factura proforma puede quedar huérfana. Una factura proforma huérfana se puede eliminar ejecutando el trabajo periódico **Eliminar facturas proforma manualmente**. Vaya a **Ventas y marketing > Tareas periódicas > Limpiar > Eliminar facturas pro forma manualmente**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Uso de entidades de datos de factura de cliente de pedido de ventas
 Puede usar entidades de datos para importar y exportar información sobre una factura de cliente para un pedido de ventas. Hay diferentes entidades para la información sobre el encabezado de la factura de venta y las líneas de la factura de venta.
@@ -70,7 +73,7 @@ Puede ver el estado de los pedidos de ventas en la página de lista **Todos los 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Registro e impresión de facturas de cliente basadas en albaranes y fechas
 Use este proceso cuando uno o varios albaranes se han registrado para el pedido de ventas. La factura de cliente se basa en estos albaranes y refleja sus cantidades. La información financiera de la factura se basa en la información especificada al registrar la factura. 
 
-Puede crear una factura de cliente basada en los artículos de línea de albarán enviados hasta la fecha, incluso si aún no se han enviado todos los artículos de un pedido de ventas en particular. Puede hacerlo, por ejemplo, si la entidad jurídica emite una factura por cliente al mes que cubre todas las entregas que se envían durante el mes. Cada albarán representa una entrega parcial o completa de los artículos del pedido de ventas. 
+Puede crear una factura de cliente basada en los artículos de línea de albarán enviados hasta la fecha, incluso si no se han enviado todos los artículos de un pedido de ventas en particular. Puede hacerlo, por ejemplo, si la entidad jurídica emite una factura por cliente al mes que cubre todas las entregas que se envían durante el mes. Cada albarán representa una entrega parcial o completa de los artículos del pedido de ventas. 
 
 Al registrar la factura, la cantidad de **Recordatorio de factura** de cada artículo se actualiza con el total de cantidades entregadas de los albaranes seleccionados. Si las cantidades tanto de **Recordatorio de factura** como de **Pendiente de entrega** para todos los artículos de un pedido de ventas son 0 (cero), el estado del pedido de ventas cambia a **Facturado**. Si la cantidad de **Recordatorio de factura** no es 0 (cero), el estado del pedido de ventas no cambia y se podrán entrar facturas adicionales para este. 
 
@@ -82,6 +85,11 @@ Vea el estado de los pedidos de ventas en la página de lista **Todos los pedido
 Use este proceso cuando uno o varios pedidos de ventas están listos para su facturación y desea consolidarlos en una única factura. 
 
 Puede seleccionar varias facturas en la página de lista **Pedido de ventas** y, después, usar **Generar facturas** para consolidarlas. En la página **Registro de factura**, puede cambiar la opción **Pedido de resumen** para resumir por el número de pedido (donde hay varios albaranes para un único pedido de ventas) o por cuenta de facturación (donde hay varios pedidos de ventas para una única cuenta de facturación). Use el botón **Organizar** para consolidar pedidos de ventas en facturas únicas, en función de los ajustes de **Pedido de resumen**.
+
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Dividir facturas de pedidos de venta por sitio e información de entrega
+Puede configurar la división de facturas de clientes de pedidos de ventas por sitio o por dirección de entrega en la pestaña **Actualización conjunta** de la página **Parámetros de clientes**. 
+ - Active la opción **Dividir según el sitio de factura** para crear una factura por cada sitio al registrar. 
+ - Active la opción **Dividir según la información de la entrega de factura** para crear una factura por cada dirección de entrega de línea de pedido de ventas al registrar. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registrar en la cuenta de ingresos para líneas de factura de pedido de ventas que no tienen precio
 Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio. Para configurar o ver esta información, vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio. Se define una cuenta de ingresos en la página del parámetro **Publicación de inventario**, en la pestaña **Pedidos de ventas** de definición de cuenta. Si no se selecciona esta opción, las líneas que no tienen información de precios no se contabilizarán en la cuenta **Ingresos**.

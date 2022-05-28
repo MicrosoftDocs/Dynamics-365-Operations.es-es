@@ -1,22 +1,22 @@
 ---
 title: Números de serie y lote de empresas vinculadas
 description: Este tema explica lo que sucederá cuando registre números de lote y números de serie para pedidos de empresas vinculadas
-author: GalynaFedorova
+author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-gfedorova
+ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 4da936263bb57c24eeb7021ac61b3945bb2777fb
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
+ms.openlocfilehash: 9d5e6ddd0bf9ab9dd032e3ab8d1e11d53fba639e
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548527"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672945"
 ---
 # <a name="intercompany-batch-and-serial-numbers"></a>Números de serie y lote de empresas vinculadas
 

@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 59613e41eed95c248595be006f13fb2f32854728
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984011"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713229"
 ---
 # <a name="customer-payment-insights-preview"></a>Información de pago del cliente (vista previa)
 
@@ -69,7 +69,7 @@ Envíe un correo electrónico a [Información de pagos de clientes (Vista previa
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Las vistas previas (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance y Operaciones, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
+Las versiones preliminares (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
 
 
 

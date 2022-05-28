@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066609"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733996"
 ---
 # <a name="recruit-job-candidates"></a>Contratar candidatos de trabajo
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066609"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratación. También le ayuda a realizar una transición sin problemas de candidatos de puestos de trabajo a empleados. Si su organización usa una aplicación de contratación independiente, su proceso de contratación puede incluir los siguientes pasos:
+Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratación. También le ayuda a realizar una transición sin problemas de candidatos de puestos de trabajo a empleados. Si su organización usa una aplicación de contratación independiente, su proceso de contratación puede incluir los siguientes pasos:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Introduzca su solicitud de contratación en Recursos Humanos.
 - Reciba referencias de candidatos en Human Resources desde la aplicación de contratación.
@@ -38,17 +37,22 @@ Dynamics 365 Human Resources le ayuda a administrar las solicitudes de contratac
 Si no está usando una aplicación de contratación independiente, también puede administrar candidatos manualmente en Human Resources.
 
 > [!NOTE]
-> Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, consulte [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md) y [Configurar las tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+> Si es administrador o desarrollador, y desea integrar Human Resources con una aplicación de contratación de terceros, vaya a [Configurar la integración de Dataverse](hr-admin-integration-common-data-service.md) y [Configurar las tablas virtuales de Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > También puede encontrar aplicaciones de integración de contratación en [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Habilitar solicitudes de contratación
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Habilitar solicitudes de contratación en la infraestructura fusionada
 
-Si desea enviar solicitudes de contratación en Human Resources, debe habilitar primero la funcionalidad en **Parámetros compartidos de recursos humanos**.
+Si desea enviar solicitudes de contratación en la contratación de recursos humanos, primero debe habilitar las características **Experiencia de usuario de recursos humanos** y **Gestión de procesos de contratación**.
 
-1. En el espacio de trabajo **Administración de personal**, seleccione **Vínculos**.
-2. En **Configuración**, seleccione **Parámetros compartidos de Recursos Humanos**.
-3. En la pestaña **Contratación**, en **Contratación**, establezca **Habilitar solicitudes de contratación** en **Sí**.
+Una vez que las características estén activadas, seleccione la funcionalidad con los siguientes pasos: 
+1. Vaya a **Recursos Humanos** > **Configuración** > **Parámetros de recursos humanos**.
+2. En la pestaña  **Contratación**, establezca el campo **Contratación deshabilitada** en **No**.
+3. En el menú desplegable **Experiencia de contratación**, seleccione **Contratación de recursos humanos**.   
+
+> [!Note] 
+> Una vez seleccionada la opción **Contratación de recursos humanos**, **Proyectos de contratación** (heredado) será de solo lectura. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Agregar una ubicación de solicitud de contratación
 
@@ -60,8 +64,8 @@ Si su organización tiene varias ubicaciones, puede agregarlas para que los soli
 
     ![Agregar una ubicación de solicitud de contratación.](./media/hr-recruit-0a-add-location.png)
 
-4. En la **Descripción**, escriba una descripción para la ubicación.
-5. En **Ubicación**, seleccione **Agregar**. Si aparece el cuadro de diálogo **Nueva dirección**, introduzca la dirección de la ubicación.
+4. Para la **Descripción**, escriba una descripción para la ubicación.
+5. En **Ubicación**, seleccione **Agregar**. Si aparece el cuadro de diálogo **Nueva dirección**, introduzca la dirección de la ubicación.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Especificar dirección.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
     ![Completar la solicitud de contratación.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Seleccione **Continuar**. Aparece la solicitud de contratación para su puesto.
-6. En **General**, seleccione un contratante el menú desplegable **Contratante** y, a continuación, seleccione una ubicación en el menú desplegable **Ubicación de la solicitud de contratación**.
+6. En **General**, seleccione un contratante en la lista desplegable **Contratante** y, a continuación, seleccione una ubicación en la lista desplegable **Ubicación de la solicitud de contratación**.
 7. En **Trabajo**, cambie cualquier información según sea necesario y, a continuación, seleccione **Crear detalles a partir del trabajo**.
 
     ![Crear detalles desde el trabajo.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,7 +95,7 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
     El resto de la solicitud de contratación se completará con la información predeterminada para el trabajo que ha introducido.
 
 8. En **Descripción externa**, introduzca una descripción de trabajo externa.
-9. En **Puestos**, seleccione **Agregar** y, a continuación, un puesto para esta solicitud de contratación.
+9. En **Puestos**, seleccione **Agregar** y, a continuación, un puesto para esta solicitud de contratación.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Agregar un puesto.](./media/hr-recruit-4-select-position.png)
 
@@ -101,7 +105,7 @@ Los responsables pueden enviar solicitudes de contratación en Human Resources. 
     ![Agregar requisitos educativos.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. En **Comentario**, agregue comentarios según sea necesario.
-13. En **Compensación**, seleccione un nivel en el menú desplegable **Nivel** y luego ajuste **Umbral inferior**, **Punto de control** y **Umbral superior** según sea necesario.
+13. En **Compensación**, seleccione un nivel en la lista desplegable **Nivel** y luego ajuste **Umbral inferior**, **Punto de control** y **Umbral superior** según sea necesario.
 14. Cuando se complete su solicitud de contratación y esté listo para iniciar el proceso de contratación, seleccione **Activar** en la barra de menús.
 
     ![Activar solicitud de contratación.](./media/hr-recruit-6-activate-recruit-request.png)
@@ -174,7 +178,7 @@ Cuando esté listo para contratar a un candidato, siga este procedimiento para h
 5. Seleccione **Continuar** para crear el registro de empleado.
 
     > [!NOTE]
-    > Dependiendo de los flujos de trabajo de su organización, el registro de candidato puede pasar por pasos de aprobación adicionales antes de convertirse en un registro de empleado.
+    > Dependiendo de los flujos de trabajo de su organización, el registro de candidato podría pasar por pasos de aprobación adicionales antes de convertirse en un registro de empleado.
 
 ## <a name="decide-not-to-hire-a-candidate"></a>Decide no contratar a un candidato
 

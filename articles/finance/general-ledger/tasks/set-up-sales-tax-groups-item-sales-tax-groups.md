@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739344"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734878"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
 
 [!include [banner](../../includes/banner.md)]
 
-Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos. Los códigos de impuestos son grupos de códigos de impuestos vinculados a clientes y proveedores. También están vinculados a cuentas contables de transacciones que no están registradas con un proveedor o cliente determinado.  Los grupos de impuestos de artículos son grupos de códigos de impuestos vinculados a los recursos como productos.  Los impuestos que se aplican a una transacción concreta se determinan a través de los códigos de impuestos incluidos en el grupo de impuestos y en el grupo de impuestos de artículos de la transacción.  Los impuestos puede calcularse solo si se selecciona un grupo de impuestos y un grupo de impuestos de artículos para cada transacción para la que se deben calcular o registrar impuestos.  
+Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos. Los códigos de impuestos son grupos de códigos de impuestos vinculados a clientes y proveedores. También están vinculados a cuentas contables de transacciones que no están registradas con un proveedor o cliente determinado. Los grupos de impuestos de artículos son grupos de códigos de impuestos vinculados a los recursos como productos. Los impuestos que se aplican a una transacción concreta se determinan a través de los códigos de impuestos incluidos en el grupo de impuestos y en el grupo de impuestos de artículos de la transacción. Los impuestos puede calcularse solo si se selecciona un grupo de impuestos y un grupo de impuestos de artículos para cada transacción para la que se deben calcular o registrar impuestos.  
 
 1. Vaya al **Panel de navegación > Módulos > Impuestos > Impuestos indirectos > Impuestos > Grupos de impuestos**.
 2. Haga clic en **Nuevo**.
