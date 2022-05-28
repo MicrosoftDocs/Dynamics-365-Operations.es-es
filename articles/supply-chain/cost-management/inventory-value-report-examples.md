@@ -1,22 +1,22 @@
 ---
 title: Ejemplos de informes de valor de inventario y lógica
 description: Este tema proporciona algunos ejemplos de resultados que se presentan en cada tipo de informe de valor de inventario. Los informes de valor de inventario proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 4ad85058c8743895185d3da2e8975711f1e3bc2c
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798398"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675330"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Ejemplos de informes de valor de inventario y lógica
 

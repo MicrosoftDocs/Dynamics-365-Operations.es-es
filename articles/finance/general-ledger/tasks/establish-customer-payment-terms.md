@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766979"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716982"
 ---
 # <a name="establish-customer-payment-terms"></a>Establecer condiciones de pago de cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766979"
 
 Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento. Esta guía de la tarea usa la empresa de demostración USMF.
 
-1. Vaya a **Panel de exploración > Módulos > Clientes > Configuración de pagos > Días de pago**. La configuración de los **términos de pago** se comparte para **clientes** y **proveedores**. Si los define en un módulo, estarán disponibles en el otro módulo también. Para esta guía de la tarea, configuraré todos los términos de pago en **clientes**.
+1. Vaya a **Panel de exploración > Módulos > Clientes > Configuración de pagos > Días de pago**. La configuración de los **términos de pago** se comparte para **clientes** y **proveedores**. Si los define en un módulo, estarán disponibles en el otro módulo también. Para esta guía de la tarea, se configuraran todos los términos de pago en **Clientes**.
 2. Haga clic en **Nuevo**. Cree un día de pago si sus condiciones de pago requieren un día concreto de la semana (lunes, martes, etc.) o de una fecha específica del mes (5, 10, etc.). 
 3. En el campo **Día de pago**, escriba un identificador.
 4. En el campo **Descripción**, especifique una descripción del día de pago.

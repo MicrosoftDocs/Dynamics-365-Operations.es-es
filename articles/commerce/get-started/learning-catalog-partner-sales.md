@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 66e73ff2bd5dbff2cb0bcca8e0645c485f3a0bba
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 7ea395b1514cb632b823ca62eb92c098d4e0c0ce
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402406"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687368"
 ---
 # <a name="learning-catalog-for-commerce-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-commerce"></a>Catálogo de aprendizaje para los roles de marketing y ventas de los partners de Microsoft de Commerce para Dynamics 365 Commerce
 
@@ -30,7 +29,7 @@ Para capacitación sobre características compartidas con otras aplicaciones Fin
 
 ## <a name="get-started"></a>Introducción<a name="get-started"></a>
 
-| Contenido  | Descripción  | Formato  | Longitud    |
+| Contenido  | Description  | Formato  | Longitud    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Esta experiencia de aprendizaje es un camino que empieza por mostrándole cómo la transformación digital y la eficacia de las aplicaciones empresariales pueden transformar su negocio. Trataremos sobre cómo Dynamics 365 y Power Platform le ayudarán a tomar decisiones informadas en función de las necesidades y objetivos de su organización, mediante cuatro pilares de la transformación digital: moderno, unificado, inteligente y personalizable. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 6.5 horas |
 | [Introducción a Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce, basado en las capacidades demostradas de Dynamics 365 Retail, ofrece una completa solución de omnicanal que unifica las experiencias administrativas, en tienda, de centro de llamadas y digitales. Dynamics 365 Commerce le permite crear fidelización de marca a través de compromisos personalizados de cliente, aumentar los ingresos con productividad mejorada de empleados, optimizar operaciones para reducir costes e impulsar las eficacias de la cadena de suministro, ofreciendo en última instancia mejores resultados de negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas   |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580513"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689689"
 ---
 # <a name="price-simulation"></a>Simulación de precios
 
@@ -32,7 +32,8 @@ Una simulación de precios para un presupuesto muestra un importe total nuevo, b
 
 Una simulación de precios no cambia el precio del presupuesto. Si la simulación de precios se aplica a todo el presupuesto, se trata como un descuento especial en el encabezado del presupuesto. Si la simulación de precios se aplica a artículos específicos, se trata como un descuento especial en las líneas de presupuesto. El precio unitario de venta de una línea de presupuesto que se crea no cambia cuando se aplique una simulación de precio. En cambio, se aplica un porcentaje de descuento que corresponda a la reducción de precios de la línea de presupuesto. Cuando se aplique una simulación de precios, el precio unitario y el porcentaje de descuento se transfieren a la línea de presupuesto o encabezado de presupuesto.  
 
->\[Nota\]: cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
+>[!NOTE]
+>Cuando se realice una simulación de precios, únicamente se usa la divisa de ventas para crear la simulación. No obstante, al visualizar los totales de presupuesto, verá una combinación de la divisa de empresa y la de ventas.  
 
 Los artículos adicionales que se agregan a líneas de presupuesto pueden desencadenar descuentos de línea o descuentos multilínea. También podrían desencadenar descuentos totales que modifiquen los márgenes y coeficientes de contribución de las líneas de presupuesto y el descuento completo.  
 

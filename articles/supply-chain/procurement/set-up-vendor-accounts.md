@@ -1,7 +1,7 @@
 ---
 title: Configuración de cuentas de proveedor
 description: Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565480"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676985"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
@@ -63,7 +63,7 @@ Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar de
 
 No puede eliminar un registro de la persona de contacto si al contacto se hace referencia en un documento. En su lugar, puede desactivar el contacto.  
 
-Puede agregar contactos de proveedor a sus contactos personales de Microsoft 365. Sin embargo, debe configurar primero la sincronización entre Supply Chain Management y Microsoft 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
+Puede agregar contactos de proveedor a sus contactos personales de Microsoft 365. Sin embargo, debe configurar primero la sincronización entre Supply Chain Management y Microsoft 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Proveedores en diferentes entidades jurídicas
 Si un proveedor se registra solo para una entidad jurídica de su organización, y otras entidades jurídicas deben registrar el mismo proveedor, puede utilizar la página **Agregar proveedor a otra entidad jurídica** para configurar el proveedor para hacer negocios con otra entidad jurídica. Debe seleccionar un grupo de proveedores, una divisa y un estado de suspensión para el proveedor, en la entidad jurídica seleccionada.  

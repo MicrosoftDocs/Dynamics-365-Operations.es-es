@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649112"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695399"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Agregar campos de datos en la integración fiscal mediante el uso una extensión
 
@@ -383,7 +382,7 @@ Para compilar correctamente el proyecto, agregue los siguientes modelos de refer
 
 Después de completar los pasos anteriores, puede validar sus cambios.
 
-1. En finanzas, vaya a **Proveedores** y agregue **&debug=vs%2CconfirmExit&** a la URL. Por ejemplo, https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. El **&** final es esencial.
+1. En finanzas, vaya a **Proveedores** y agregue **&debug=vs%2CconfirmExit&** a la URL. Por ejemplo, `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. El **&** final es esencial.
 2. Abra la página **Pedido de compra** y seleccione **Nuevo** para crear un pedido de compra.
 3. Establezca el valor para el campo personalizado y luego seleccione **Impuesto de ventas**. Un archivo de solución de problemas con prefijo, **TaxServiceTroubleshootingLog**, se descarga automáticamente. Este archivo contiene la información de la transacción enviada al Servicio de cálculo de impuestos. 
 4. Compruebe si el campo personalizado añadido está presente en la sección **Entrada de cálculo del servicio de impuestos JSON** y si su valor es correcto. Si el valor no es correcto, vuelva a comprobar los pasos de este documento.

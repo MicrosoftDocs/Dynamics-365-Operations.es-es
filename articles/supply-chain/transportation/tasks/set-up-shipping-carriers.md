@@ -1,7 +1,7 @@
 ---
 title: Configuración de transportistas de envío
 description: En este tema se muestra cómo configurar un transportista y definir detalles como el servicio, el modo de envío, la forma de pago de transporte, las restricciones de transporte y las tarifas de envío.
-author: Henrikan
+author: Weijiesa
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 876a3ffd94f554ef042da995311df0f8009eee12
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660390"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672665"
 ---
 # <a name="set-up-shipping-carriers"></a>Configuración de transportistas de envío
 

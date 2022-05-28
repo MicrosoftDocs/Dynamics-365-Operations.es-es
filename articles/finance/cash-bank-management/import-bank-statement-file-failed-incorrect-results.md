@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas de la importación de archivos de extractos bancarios
-description: Es importante que el archivo de extracto bancario del banco coincida con el diseño admitido por Microsoft Dynamics 365 Finance. Debido a los estrictos estándares para extractos bancarios, la mayoría de las integraciones funcionarán correctamente. Sin embargo, a veces, el archivo de extracto no se puede importar o tiene resultados incorrectos. Normalmente, estos problemas son originados por pequeñas diferencias en el archivo de extracto bancario. En este artículo se explica cómo corregir estas diferencias y resolver los problemas.
+description: Este artículo explica cómo corregir problemas son originados por pequeñas diferencias en el archivo de extracto bancario.
 author: panolte
 ms.date: 03/29/2021
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc5b9cf3449b48767a27891a019f8fe8df2a900559898e3cb1849d25bec7c987
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757130"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711184"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solución de problemas de la importación de archivos de extractos bancarios
 

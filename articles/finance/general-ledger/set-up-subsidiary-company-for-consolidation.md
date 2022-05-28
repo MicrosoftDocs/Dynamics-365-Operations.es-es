@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa913ca1778391ce0f5a1b2fdf6e5828b30cb66
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727968"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724484"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Configurar una entidad jurídica subsidiaria para consolidación
 

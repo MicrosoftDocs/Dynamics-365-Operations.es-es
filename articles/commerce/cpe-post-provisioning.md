@@ -2,7 +2,7 @@
 title: Configurar un entorno de evaluación de Dynamics 365 Commerce
 description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarlo.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913736"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747646"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar un entorno de evaluación de Dynamics 365 Commerce
 
@@ -39,7 +39,9 @@ Después de que su entorno de evaluación de Commerce se haya aprovisionado de p
 1. Seleccione el entorno en la lista.
 1. En la información del entorno, a la derecha, seleccione **Iniciar sesión en entorno**. Se le enviará a la sede de Commerce.
 1. Asegúrese de que la entidad jurídica **USRT** está seleccionada en la esquina superior derecha.
-2. Vaya a **Parámetros de Commerce > Parámetros de configuración** y asegúrese de que hay una entrada para **ProductSearch.UseAzureSearch** establecida en **true**. Si falta esta entrada, puede agregarla y ejecutar **Base de datos de canal > Sincronización completa** para la unidad de escalado de Commerce asociada con su sitio web de comercio electrónico.
+1. Vaya a **Parámetros de Commerce \> Parámetros de configuración** y asegúrese de que hay una entrada para **ProductSearch.UseAzureSearch** y que el valor está establecido en **verdadero**. Si falta esta entrada, puede agregarla, establecer el valor en **verdadero** y, a continuación, seleccionar **Base de datos de canal \> Sincronización de datos completa** para la Commerce Scale Unit asociada a su sitio web de comercio electrónico.
+1. Vaya a **Retail y Commerce \> Configuración de sede central \> Programador de Commerce \> Inicializar programador de Commerce**. En el menú flotante **Inicializar programador de Commerce**, establezca la opción **Eliminar configuración existente** en **Sí** y, a continuación, seleccione **Aceptar**.
+1. Para agregar canales a la Commerce Scale Unit, vaya a **Venta minorista y comercio \> Configuración de sede central \> Planificador de comercio \>Base de datos de canales** y, a continuación, en el panel izquierdo, seleccione la Commerce Scale Unit. En la ficha desplegable **Canal comercial**, agregue los canales **Tienda en línea AW**, **Tienda en línea AW Business** y **Tienda en línea ampliada de Fabrikam**. Opcionalmente, también puede agregar tiendas minoristas si va a utilizar PDV (por ejemplo, **Seattle**, **San Francisco** y **San José**).
 
 Durante las actividades posteriores al aprovisionamiento en la sede de Commerce, asegúrese de que la entidad jurídica **USRT** siempre esté seleccionada.
 
@@ -85,6 +87,7 @@ Para comenzar a configurar su sitio de evaluación en Commerce, siga estos pasos
 1. Seleccione **es-es** como idioma predeterminado.
 1. Deje el valor del campo **Ruta** tal cual está.
 1. Seleccione **Aceptar**. Aparece la lista de páginas del sitio.
+1. Repita los pasos 2-7 para el sitio de **AdventureWorks** (que se asigna al canal **Tienda en línea AW**) y el sitio de **AdventureWorks Business** (que se asigna al canal **Tienda en línea AW Business**). Si el campo **Ruta de acceso** para el sitio de Fabrikam está vacío, debe agregar rutas de acceso para los dos sitios de AdventureWorks (por ejemplo, "aw" y "awbusiness").
 
 ## <a name="enable-jobs"></a>Habilitar trabajos
 
@@ -149,6 +152,28 @@ Para configurar características opcionales para su entorno de evaluación de Co
 
 > [!NOTE]
 > Los entornos de evaluación de comercio vienen con un inquilino de Azure Active Directory (Azure AD) de empresa-consumidor (B2C) cargado previamente con fines de demostración. Para entornos de evaluación, no es necesario que configure su propio inquilino Azure AD B2C con los pasos que se indican a continuación. Sin embargo, si está configurando el entorno de evaluación para utilizar su propio inquilino Azure AD B2C, asegúrese de agregar ``https://login.commerce.dynamics.com/_msdyn365/authresp`` como URL de respuesta a la aplicación Azure AD B2C a través del Azure Portal.
+
+## <a name="troubleshooting"></a>Solución de problemas
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>La lista de canales del generador de sitios está vacía al configurar el sitio
+
+Si el generador de sitios no muestra ningún canal de tienda en línea, en la sede central asegúrese de que los canales se hayan agregado a la Commerce Scale Unit como se describe en la sección anterior [Antes de comenzar](#before-you-start). También, ejecute **Inicializar programador de Commerce** con el valor de **Eliminar configuración existente** establecido en **Sí**.  Una vez completados estos pasos, en la página **Base de datos de canales** (**Venta minorista y comercio \> Configuración de sede central \> Planificador de comercio \> Base de datos de canales**), ejecute el trabajo **9999** en la Commerce Scale Unit.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Las muestras de color no se muestran en la página de categoría, pero sí en la página de detalles del producto (PDP)
+
+Siga estos pasos para asegurarse de que las muestras de color y tamaño estén configuradas para que se puedan refinar.
+
+1. En la sede central, vaya a **Retail y Commerce \> Configuración de canal \> Categorías de canal y atributos de producto**.
+1. En el panel izquierdo, seleccione el canal de la tienda en línea y luego seleccione **Configurar metadatos de atributos**.
+1. Establezca la opción **Mostrar atributo en el canal** en **Sí**, establezca la opción **Se puede refinar** en **Sí** y luego seleccione **Guardar**. 
+1. Regrese a la página del canal de la tienda en línea y luego seleccione **Publicar actualizaciones de canal**.
+1. Vaya a **Venta minorista y comercio \> Configuración de sede central \> Planificador de comercio \> Base de datos de canales** y ejecute el trabajo **9999** en la Commerce Scale Unit.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Las características comerciales no parecen estar activadas para el sitio empresarial de AdventureWorks
+
+En la sede central, asegúrese de que el canal de la tienda en línea esté configurado con el **Tipo de cliente** establecido en **B2B**. Si el **Tipo de cliente** se establece en **B2C**, se debe crear un nuevo canal, ya que el canal existente no se puede editar. 
+
+Los datos de demostración enviados en Commerce versión 10.0.26 y anteriores tenían un error en el que el canal de la **Tienda en línea AW Business** estaba mal configurado. La solución consiste en crear un nuevo canal con los mismos ajustes y configuraciones excepto para **Tipo de cliente**, que debe establecerse en **B2B**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

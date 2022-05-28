@@ -1,7 +1,7 @@
 ---
 title: Planificar rutas de transporte de flete con varias paradas
 description: Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eff1efd7530c410b392646e39325b58cbd8bcf78
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7e3d316b5bed67e84fdd5cec8b518069c053436d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571242"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671602"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planificar rutas de transporte de flete con varias paradas
 

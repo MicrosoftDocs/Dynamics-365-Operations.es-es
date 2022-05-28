@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087226"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710233"
 ---
 # <a name="task-management"></a>Administración de tareas
 
@@ -57,18 +56,14 @@ La pestaña **Retirada** contiene una lista de empleados que están saliendo de 
 La pestaña **Transiciones** contiene una lista **Todas las tareas** que muestra todas las tareas de todos los empleados que cambiarán de puesto o que han cambiado de puesto recientemente. También hay una lista de tareas atrasadas y una lista de tareas que están asignadas al usuario actual.
 
 En las tres pestañas, los asistentes y gerentes de recursos humanos pueden completar las siguientes actividades:
-
-- Aplicar una lista de verificación a un empleado.
-- Actualizar el estado de una tarea.
-- Reasignar una tarea.
-- Actualizar la fecha de vencimiento de una tarea.
+- Aplicar una lista de verificación a un empleado
+- Actualizar el estado de una tarea
+- Reasignar una tarea
+- Actualizar la fecha de vencimiento de una tarea
 
 > [!NOTE]
 > De forma predeterminada, la pestaña **Incorporación** muestra a los empleados que fueron contratados en los últimos siete días. Para cambiar esta configuración, en la página **Parámetros de recursos humanos**, en la pestaña **General**, en el campo **Contrataciones recientes**, introduzca un plazo de tiempo. Los datos en la lista **Contrataciones recientes** se pueden mostrar para un número específico de días, meses o años. Por ejemplo, para ver la lista de empleados que fueron contratados en los últimos 14 días, configure el campo **Período** como **14** y el campo **Unidad** como **Días**.
->
-> En la página **Parámetros de recursos humanos**, también puede actualizar el rango de fechas para las listas de empleados salientes y dados de baja que se muestran en la pestaña **Retirada**.
->
-> Estos ajustes también se aplican al espacio de trabajo **Gestión de personal**.
+> En la página **Parámetros de Recursos Humanos**, también puede actualizar el rango de fechas para las listas de empleados salientes y dados de baja que se muestran en la pestaña **Retirada**. Esta configuración también se aplica al espacio de trabajo **Administración de personal**.
 
 ## <a name="setting-up-tasks"></a>Configuración de tareas
 
@@ -188,6 +183,13 @@ También puede aplicar una lista de verificación a un empleado abriendo su pág
 ## <a name="completing-tasks"></a>Completando tareas
 
 En la página **Autoservicio para los empleados**, un empleado puede ver todas las tareas que se le han asignado. Para cada tarea asignada, se muestran los valores de **Tarea**, **Descripción**, **Instrucciones**, y **Persona de contacto**. Además, para cada tarea, el empleado puede abrir la página web externa asociada o la página asociada en la aplicación de Dynamics 365.
+
+Las tareas también se pueden mostrar en el panel predeterminado. Para mostrar tareas en el panel predeterminado:
+1. Vaya a **Opciones de usuario – Preferencias – Administración de tareas** 
+2. Seleccione la opción **Mostrar tareas en el panel predeterminado:** en **Activado**.  
+
+>[!Note] 
+>La característica **Administración de tareas** debe estar activada en **Administración de características** para la opción que se mostrará en **Opciones de usuario**.
 
 Las tareas se pueden marcar como **En curso**, **Canceladas** o **Completadas**. Si una tarea se asignó a un grupo, la tarea se marcará como **Completada** cuando una persona del grupo la completa.
 

@@ -1,6 +1,6 @@
 ---
 title: Plantillas de proveedor para miembros de dimensiones estadísticas y proveedores de medidas
-description: Este tema proporciona información acerca de miembros de dimensión estadística y plantillas de proveedor de medidas estadísticas. Los miembros de dimensión estadística se pueden usar como base de asignación en directivas como la distribución de costes y la asignación de costes. También se pueden usar para notificar el consumo no monetario del coste.
+description: Este tema proporciona información acerca de miembros de dimensión estadística y plantillas de proveedor de medidas estadísticas.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767656"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733917"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Plantillas de proveedor para miembros de dimensiones estadísticas y proveedores de medidas
 

@@ -2,7 +2,7 @@
 title: Personalizar la interfaz de ejecución de la planta de producción
 description: Este tema explica cómo extender los formularios actuales o crear nuevos formularios y botones para la interfaz de ejecución de planta de producción.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066555"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712954"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Personalizar la interfaz de ejecución de la planta de producción
 
@@ -60,7 +60,7 @@ Cuando haya terminado, el nuevo botón (acción) aparecerá automáticamente en 
 1. Crea una extensión que se llame `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, donde el método `getMainMenuItemsList` se amplía agregando el nuevo elemento de menú a la lista. El código siguiente muestra un ejemplo.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Agregar controles de fecha y hora a un formulario o cuadro de diálogo
+
+Esta sección muestra cómo agregar controles de fecha y hora a un formulario o cuadro de diálogo. Los controles táctiles de fecha y hora permiten a los trabajadores especificar fechas y horas. Las siguientes capturas de pantalla muestran cómo suelen aparecer los controles en la página. El control de tiempo ofrece versiones de 12 y 24 horas; la versión que se muestra seguirá la preferencia establecida para la cuenta de usuario con la que se ejecuta la interfaz.
+
+![Ejemplo de control de fecha](media/pfe-customize-date-control.png "Ejemplo de control de fecha")
+
+![Ejemplo de control de tiempo con reloj de 12 horas.](media/pfe-customize-time-control-12h.png "Ejemplo de control de tiempo con reloj de 12 horas")
+
+![Ejemplo de control de tiempo con reloj de 24 horas.](media/pfe-customize-time-control-24h.png "Ejemplo de control de tiempo con reloj de 24 horas")
+
+El siguiente procedimiento muestra un ejemplo de cómo agregar controles de fecha y hora a un formulario.
+
+1. Agregue un controlador al formulario para cada control de fecha y hora que debe contener el formulario. (El número de controladores debe ser igual al número de controles de fecha y hora en el formulario).
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Declare las variables requeridas (de tipo `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Cree métodos en los que los controladores de fecha y hora actualicen la fecha y hora. En el ejemplo siguiente se muestra un método como este.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Configure el comportamiento de cada controlador de fecha y hora, y conecte cada controlador a una parte del formulario. El siguiente ejemplo muestra cómo configurar los datos para los controles de fecha y hora. Puede agregar un código similar para los controles de fecha y hora (no se muestra).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Si todo lo que necesita es un control de fecha, puede omitir la configuración del control de tiempo y, en su lugar, configurar el control de fecha como se muestra en el siguiente ejemplo:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

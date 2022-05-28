@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982518"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694379"
 ---
 # <a name="sales-agreements-overview"></a>Visión general de los acuerdos de ventas
 
@@ -36,7 +36,8 @@ El período de validez de un acuerdo de venta se define en los campos **Fecha de
 
 Puede crear un pedido de ventas directamente desde un acuerdo de venta mediante la acción **Pedido parcial**. Como alternativa, puede seleccionar un acuerdo de venta en vigor cuando está tomando pedidos (consulte la sección “Aplicación de acuerdos de venta en el proceso de pedidos” de este artículo).  
 
-> [Nota] En versiones anteriores se hace referencia a los acuerdos de ventas, como pedidos marco de ventas.
+> [!NOTE] 
+> En versiones anteriores se hace referencia a los acuerdos de ventas, como pedidos marco de ventas.
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de venta expresa un compromiso para vender algo. Normalmente hay dos categorías de compromiso:

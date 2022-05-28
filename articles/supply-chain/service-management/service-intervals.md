@@ -1,7 +1,7 @@
 ---
 title: Intervalos de servicio
 description: Este tema proporciona información sobre cómo trabajar con intervalos de servicio. El intervalo de contrato de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando se crean pedidos de servicio automáticamente.
-author: kamaybac
+author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ec58037657f7d04e50c31aec0f343a09b9fa4e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580321"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675638"
 ---
 # <a name="service-intervals"></a>Intervalos de servicio
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2e1aa349b505713d0502aa90ddd5c3caff1f083c
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595188"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734555"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Cheques de proveedor de ejemplo para informes electrónicos
 
@@ -30,7 +30,7 @@ Puede usar informes electrónicos (ER) para dar formato a los cheques de proveed
 
 Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista actual de archivos disponibles que tienen un tipo de activo de **Configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, incluye un vínculo al tema que explica cómo crear un repositorio de LCS para que pueda revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
 
-Microsoft Dynamics 365 Finance también incluye un formato de muestra donde el cheque está en la parte superior, seguido de dos secciones de la remesa. También incluye un formato de muestra donde el cheque está en el medio, entre dos secciones de la remesa. Estos formatos de ejemplo se corresponden con los formatos de cheques empresariales Deluxe.
+Microsoft Dynamics 365 Finance incluye un formato de muestra donde el cheque está en la parte superior, seguido de dos secciones de la remesa. También incluye un formato de muestra donde el cheque está en el medio, entre dos secciones de la remesa. Estos formatos de ejemplo se corresponden con los formatos de cheques empresariales Deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>¿Qué tengo que configurar?
 

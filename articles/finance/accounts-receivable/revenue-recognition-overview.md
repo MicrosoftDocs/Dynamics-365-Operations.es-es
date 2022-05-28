@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446187"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725774"
 ---
 # <a name="revenue-recognition-overview"></a>Introducción al reconocimiento de ingresos
 
@@ -35,7 +35,7 @@ En general, el proceso de reconocimiento de ingresos se puede usar para realizar
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-El vídeo [Cómo usar el reconocimiento de ingresos en Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (se muestra arriba) se incluye en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo [Cómo usar el reconocimiento de ingresos en Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (se muestra arriba) se incluye en la [Lista de reproducción de finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 La característica de reconocimiento de ingresos proporciona un marco flexible que permite definir reglas específicas de la empresa para reconocer tanto el precio como la programación de ingresos.
 

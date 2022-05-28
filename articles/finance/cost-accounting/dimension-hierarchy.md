@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766990"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735093"
 ---
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
@@ -203,13 +203,13 @@ Si crea informes mediante Excel o Power BI, solo los primeros 15 niveles de las 
 El siguiente ejemplo muestra el aspecto de una jerarquía de dimensiones en la estructura de informes.
 
 | Jerarquía de dimensión de objeto de coste - Nivel 1 | Jerarquía de dimensión de objeto de coste - Nivel 2 | Jerarquía de dimensión de objeto de coste - Nivel 3 | Jerarquía de dimensión de objeto de coste - Nivel 4 | Jerarquía de dimensión de objeto de coste - Nivel 15 |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organización                              | Administrador                                     | Finanzas                                   | CC002                                     |                                            |
-| Organización                              | Administrador                                     | Finanzas                                   | CC003                                     |                                            |
-| Organización                              | Administrador                                     | Finanzas                                   | CC007                                     |                                            |
-| Organización                              | Administrador                                     | RR. HH.                                        | CC001                                     |                                            |
-| Organización                              | Producción                                | Empaquetado                                 | CC005                                     |                                            |
-| Organización                              | Producción                                | Ensamblado                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organización              | Administrador                 | Finanzas                    | CC002              |                                            |
+| Organización              | Administrador                 | Finanzas                    | CC003              |                                            |
+| Organización              | Administrador               | Finanzas                     | CC007               |                                            |
+| Organización              | Administrador                | RR. HH.                           | CC001              |                                            |
+| Organización              | Producción           | Empaquetado                    | CC005             |                                            |
+| Organización              | Producción          | Ensamblado                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Actualizar las jerarquías de dimensiones que se usan para informes 
 

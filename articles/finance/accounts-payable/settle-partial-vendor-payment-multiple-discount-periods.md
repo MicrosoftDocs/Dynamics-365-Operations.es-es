@@ -1,6 +1,6 @@
 ---
 title: Liquidar un pago de proveedor parcial con varios períodos de descuento
-description: Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago.
+description: Este tema le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737098"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716290"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de proveedor parcial con varios períodos de descuento
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago. 
+Este tema le guía por un escenario en el que se realizan varios pagos parciales a un proveedor que ofrece varios descuentos por pronto pago. 
 
 El proveedor 3054 ofrece a Fabrikam un descuento por pronto pago del dos por ciento si una factura se paga en cinco días y un descuento por pronto pago del uno por ciento si una factura se paga en 14 días.
 

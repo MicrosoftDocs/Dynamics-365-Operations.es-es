@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerAllocationRequest, LedgerJournalTable, LedgerJournalTransAllocation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d37b1a9869cc130786d0e8fde68184e04c881bad1f64c86943174213025db82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765677"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722163"
 ---
 # <a name="process-ledger-allocation-journal"></a>Procesar diario de asignaciones contables
 
@@ -26,7 +26,7 @@ ms.locfileid: "6765677"
 
 En este tema se explica cómo procesar una solicitud de asignación. Use la página Solicitud de asignación de proceso para crear un diario de asignaciones que se pueda revisar y aprobar antes de registrarlo en la contabilidad general o se pueda registrar directamente en la contabilidad general. Antes de crear un diario de asignaciones, debe haber al menos una regla de asignación de diario activa. Esta tarea usa la empresa de demostración USMF.
 
-1. En el panel de navegación, vaya a **Módulos > Contabilidad general > Asignaciones > Solicitud de asignación de proceso**.
+1. En el panel de navegación, vaya a **Contabilidad general > Asignaciones > Solicitud de asignación de proceso**.
 2. En el campo **Regla**, seleccione el registro deseado en el menú desplegable.
 3. En el campo **A partir de la fecha**, escriba una fecha.
 

@@ -1,7 +1,7 @@
 ---
 title: Iniciar y detener registro de horas en un pedido de servicio
 description: Iniciar y detener registro de horas en un pedido de servicio.
-author: kamaybac
+author: sorenva
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f6a704629b70fceb6cf0c3d1b689a750bbcb468
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cf65d5b41438b167847f0cd31f7d76169af26cb8
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567832"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675554"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Iniciar y detener registro de horas en un pedido de servicio 
 

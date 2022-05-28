@@ -1,7 +1,7 @@
 ---
 title: Control de calidad
 description: Este tema proporciona información acerca de la característica Control de calidad. Esta característica permite que los trabajadores del almacén realicen verificaciones rápidas de calidad mientras reciben artículos en la zona del muelle de llegada.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0848eeb2ad073915ad90d2fd2a4a91f0f420c0ab
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103297"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677993"
 ---
 # <a name="quality-check"></a>Control de calidad
 

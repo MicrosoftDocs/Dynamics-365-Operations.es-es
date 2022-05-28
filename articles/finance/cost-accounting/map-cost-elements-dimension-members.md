@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728040"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735475"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
 
@@ -33,12 +33,12 @@ Si es una empresa global y cumple con los requisitos estatutarios de contabilida
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Asigne miembros de dimensión de elemento de coste a un formato común
 El siguiente ejemplo le muestra cómo siendo controlador de coste, puede crear una nueva dimensión de elemento de coste en Contabilidad de costes que asigne a los miembros de la dimensión del elemento de coste desde la estructura del plan contable de Estados Unidos y la estructura francesa a un conjunto común de miembros de dimensión de elemento de coste. Puede utilizar el conjunto de común de miembros de la dimensión del elemento de coste para analizar datos de coste de las dos entidades jurídicas en un libro mayor de costes.
 
-| Origen: plan contable de Estados Unidos                                          | Origen: plan contable francés                                          | Nuevo conjunto común de miembros de la dimensión del elemento de coste                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Origen: plan contable de Estados Unidos          | Origen: plan contable francés           | Nuevo conjunto común de miembros de la dimensión del elemento de coste                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Miembros de dimensión del elemento de coste importados del plan contable de Estados Unidos. | Miembros de dimensión del elemento de coste importados del plan contable francés. | Asignación de miembros de dimensión de elemento de coste de Estados Unidos y francés a un conjunto común |
-| 5001: Ventas                                                           | 5001: Ventas y publicidad                                               | 5000: Ventas y publicidad                                             |
-| 5030: Publicidad                                                     | 6390: Compra de existencias\*                                                    | 7000: Gastos de limpieza                                                 |
-| 7001: Gastos de limpieza                                               | 7001: Gastos de viaje                                                      | 7001: Gastos de viaje                                                   |
+| 5001: Ventas                   | 5001: Ventas y publicidad                      | 5000: Ventas y publicidad                               |
+| 5030: Publicidad             | 6390: Compra de existencias\*                          | 7000: Gastos de limpieza                                   |
+| 7001: Gastos de limpieza              | 7001: Gastos de viaje                     | 7001: Gastos de viaje                                                   |
 
 \*No se ha asignado el miembro de la dimensión del elemento de coste francés de la Compra de existencias.
 

@@ -2,23 +2,23 @@
 title: Ver el asiento de empresas vinculadas relacionadas del diario
 description: La ventana relacionada con asientos muestra el asiento de la empresa de contrapartida al registrar una transacción de empresas vinculadas del diario general.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 05/5/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c41826986aea79206c8ec6ed045078e93a285a90042f0950fb5725c0bd850ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5a2f226c9b784a687296157b995bebb761aae27b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772788"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717289"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Ver el asiento de empresas vinculadas relacionadas del diario
 
@@ -28,28 +28,22 @@ La ventana relacionada con asientos muestra el asiento de la empresa de contrapa
 
 
 ## <a name="post-an-intercompany-journal"></a>Registrar un diario de empresas vinculadas
-1. Vaya a Diarios generales.
-2. Haga clic en Nuevo.
-3. En la lista, marque la fila seleccionada.
-4. En el campo Nombre, especifique o seleccione el nombre de diario de empresas vinculadas.
-5. Haga clic en Líneas.
-6. En la lista, marque la fila seleccionada.
-7. En el campo Cuenta, especifique los valores deseados.
-8. En el campo Descripción, especifique o seleccione un valor.
-9. En el campo Descripción, escriba un valor.
-10. Cierre la página.
-11. En el campo Débito, escriba un número.
-12. En el campo Empresa de contrapartida, escriba o seleccione la empresa de contrapartida.
-13. En el campo Empresa de contrapartida, especifique o seleccione un valor.
-14. Cierre la página.
-15. En el campo Cuenta de contrapartida, especifique los valores deseados.
-16. Haga clic en Registrar.
+1. Vaya a **Diarios generales**, haga clic en **Nuevo**.
+2. En la lista, marque la fila seleccionada.
+3. En el campo **Nombre**, especifique o seleccione el nombre de diario de empresas vinculadas.
+4. Haga clic en **Líneas**, en la lista, marque la fila seleccionada.
+5. En el campo **Cuenta**, especifique los valores deseados.
+6. En el campo **Descripción**, especifique o seleccione un valor.
+7. Cierre la página.
+8. En el campo **Débito**, escriba un número.
+9. En el campo **Empresa de contrapartida**, escriba o seleccione la empresa de contrapartida.
+10. En el campo **Cuenta de contrapartida**, especifique los valores deseados.
+11. Haga clic en **Registrar**.
 
 ## <a name="view-related-intercompany-voucher"></a>Ver asiento de empresas vinculadas relacionadas
-1. Haga clic en Asiento.
-2. Haga clic en Asientos relacionados.
-3. En la lista, marque la fila seleccionada.
-4. Haga clic en Asiento.
+1. Haga clic en **Asiento**.
+2. Haga clic en **Cupones relacionados**, en la lista, marque la fila seleccionada.
+3. Haga clic en **Asiento**.
 
 
 

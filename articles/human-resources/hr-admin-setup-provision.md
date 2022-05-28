@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625368"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710874"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -144,7 +143,7 @@ Use la orientación siguiente al determinar en qué entorno de Power Apps implem
 6. Las capacidades de doble escritura para integrar datos de Recursos Humanos con el entorno de Power Apps solo se pueden utilizar si la opción **Habilitar aplicaciones de Dynamics 365** se selecciona para el entorno. Consulte [Página de inicio de doble escritura](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obtener más información sobre doble escritura.
 
     > [!NOTE]
-    > La opción **Habilitar aplicaciones de Dynamics 365** debe seleccionarse en el momento de crear el entorno de Power Apps. Si la opción no está seleccionada en el momento del aprovisionamiento, no podrá utilizar la dobe escritura para integrar datos entre Dynamics 365 Human Resources y el entorno de Power Apps, ni instalar aplicaciones de Dynamics 365, como Dynamics 365 Sales y Field Service, en el entorno. Esta opción no es reversible. Para más información, consulte [Algunas consideraciones importantes al crear un nuevo entorno](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) en el sitio de documentación de Power Platform.
+    > La opción **Habilitar aplicaciones de Dynamics 365** debe seleccionarse en el momento de crear el entorno de Power Apps. Si la opción no está seleccionada en el momento del aprovisionamiento, no podrá utilizar la dobe escritura para integrar datos entre Dynamics 365 Human Resources y el entorno de Power Apps, ni instalar aplicaciones de Dynamics 365, como Dynamics 365 Sales y Field Service, en el entorno. Esta opción no es reversible. Para más información, consulte [Algunas consideraciones importantes al crear un nuevo entorno](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) en el sitio de documentación de Power Platform.
 
 7. Una vez que haya determinado el entorno correcto para utilizar, podrá continuar con el proceso de abastecimiento. 
 

@@ -2,7 +2,7 @@
 title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649140"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711925"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -29,11 +29,11 @@ Las actualizaciones normativas son características que se implementan para admi
 
 Microsoft se esfuerza en implementar las nuevas normas legales lo antes posible. La fecha de entrega real depende de la fecha de presentación de la ley, de la disponibilidad de los detalles del requisito de las autoridades locales, de la disponibilidad de las herramientas de validación y el tamaño y la complejidad del cambio.
 
-Planeamos crear actualizaciones normativas en las actualizaciones de servicio de One Version que se publican a tiempo para que los clientes se actualicen y para estar listas en ser la fecha de cumplimiento (para las actualizaciones normativas transaccionales), o para la primera fecha límite de notificación (obligatorio para las actualizaciones normativas relacionadas con la notificación). Los clientes y socios pueden obtener una vista preliminar de las nuevas actualizaciones normativas en el programa de adopción temprana de la vista previa (PEAP).
+Planeamos crear actualizaciones normativas en las actualizaciones de servicio de One Version que se publican a tiempo para que los clientes se actualicen y para estar listas en ser la fecha de cumplimiento (para las actualizaciones normativas transaccionales), o para la primera fecha límite de notificación (obligatorio para las actualizaciones normativas relacionadas con la notificación). Los clientes y socios pueden obtener una vista preliminar de las nuevas actualizaciones normativas en el paquete de vista previa que se proporciona para cada actualización de servicio.
 
 En el caso de fechas de alerta tardías, de disponibilidad tardía de los detalles del requisito o de herramientas de validación, o de cambios excepcionalmente grandes y complejo, puede que no sea posible crear una actualización regulatoria en la fecha de la actualización mensual de disponibilidad general. En estos casos, la actualización regulatoria se proporcionará como correcciones urgentes para las actualizaciones mensuales disponibles relevantes.
 
-Las actualizaciones normativas que se publican como parte del actualizado mensual se indican solo mediante la versión de lanzamiento. Las actualizaciones normativas que se entregan como correcciones urgentes o como parte de una vista preliminar de publicación se puede identificar con las siglas HF y PEAP, respectivamente. 
+Las actualizaciones normativas que se publican como parte del actualizado mensual se indican solo mediante la versión de lanzamiento. Las actualizaciones normativas que se entregan como correcciones urgentes o como parte de una vista preliminar de publicación se puede identificar con las siglas HF y Vista previa, respectivamente. 
 
 Para ver los últimos planes de actualizaciones regulatorias, consulte la siguiente tabla.   
 

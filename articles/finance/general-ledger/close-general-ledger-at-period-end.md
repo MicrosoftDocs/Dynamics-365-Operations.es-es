@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740011"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717541"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Cerrar la contabilidad general al final del período
 
@@ -28,7 +28,7 @@ ms.locfileid: "6740011"
 
 En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general. 
 
-En Contabilidad general, puede completar los procedimientos de cierre de un período o un año. El cierre de procesos prepara al sistema para un período nuevo. Para preparar el sistema para un año nuevo, debe ejecutar el proceso de cierre de ejercicio. Cada organización tiene diferentes procesos y pasos que realiza para el final de un período. A continuación se indican algunos pasos opcionales para finales de períodos:
+En Contabilidad general, puede completar los procedimientos de cierre de un período o un año. El cierre de procesos prepara al sistema para un período nuevo. Para preparar para un año nuevo, debe ejecutar el proceso de cierre de ejercicio. Cada organización tiene diferentes procesos y pasos que realiza para el final de un período. A continuación se indican algunos pasos opcionales para finales de períodos:
 
 -   Completar todas las tareas para todos los demás módulos, como Clientes, Proveedores e Inventario.
 -   Comprobar que se registran todos los diarios.
@@ -41,7 +41,7 @@ En Contabilidad general, puede completar los procedimientos de cierre de un per�
 -   Generar resultados financieros de final de período con Informes financieros.
 -   Definir períodos contables en **En espera**, de modo que no se produzca ningún otro registro. También puede restringir un período a un grupo de usuarios específico mientras se estén produciendo actividades de final de período, para un mayor control. No es buena idea establecer períodos en **Cerrado de forma permanente** porque no se puede volver a abrir un período que se ha cerrado.
 
-El espacio de trabajo de cierre del período financiero se puede usar para organizar y seguir las tareas necesarias para varios procesos de cierre del ejercicio. 
+El espacio de trabajo **Cierre del período financiero** se puede usar para organizar y seguir las tareas necesarias para varios procesos de cierre del ejercicio. 
 
 
 Para obtener más información, vea los siguientes temas:

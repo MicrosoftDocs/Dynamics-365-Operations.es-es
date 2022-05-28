@@ -3,7 +3,7 @@ title: Módulo selector de tienda
 description: En este tema se trata el modulo selector de tiendao y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772165"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710789"
 ---
 # <a name="store-selector-module"></a>Módulo de selector de tienda
 
@@ -59,6 +59,16 @@ Para introducir la longitud y latitud de una ubicación de la tienda en la sede 
     ![Ejemplo de configuración de latitud y longitud para una tienda en la sede.](./media/Store-latitude-longitude.png)
 
 1. En el panel Acciones, seleccione **Guardar**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Ocultar una tienda del módulo selector de tiendas
+
+Es posible que algunas tiendas de un grupo de cumplimiento no sean ubicaciones de recogida válidas. Para asegurarse de que solo las ubicaciones de recogida válidas aparezcan como opciones en el módulo de selección de tiendas, siga estos pasos en la sede de Commerce.
+
+1. Vaya a **Retail y Commerce \> Configuración de Commerce \> Grupos de cumplimiento \> Todas las tiendas**.
+1. En el panel Acciones, seleccione **Editar**.
+1. Bajo **Configuración**, para cada tienda que no sea una ubicación de recogida válida, borre la casilla **Es la ubicación de recogida**.
+1. En el panel Acciones, seleccione **Guardar**.
+1. Ejecute el trabajo de programación de distribución 1070 **Configuración del canal**.
 
 ## <a name="bing-maps-integration"></a>Integración con Bing Maps
 
