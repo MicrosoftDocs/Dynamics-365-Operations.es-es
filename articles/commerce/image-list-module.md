@@ -2,7 +2,7 @@
 title: Módulo de lista de imágenes
 description: En este tema se tratan los módulos de lista de imágenes y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7df62fe426799905f9d6d412c4c510b8ce021b7ddd768a98b8180ca7e9b467a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742397"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780852"
 ---
 # <a name="image-list-module"></a>Módulo de lista de imágenes
 
@@ -54,11 +54,11 @@ Para agregar un módulo de lista de imágenes a una página nueva y establecer l
 
 1. Vaya a **Plantillas** y abra la plantilla de marketing para la página de inicio de su sitio (o cree una nueva plantilla de marketing).
 1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Lista de imágenes** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Lista de imágenes** y, a continuación, **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Vaya a **Páginas** y abra la página de inicio del sitio (o cree una nueva página de inicio utilizando la plantilla de marketing).
 1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione **Lista de imágenes** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Lista de imágenes** y, a continuación, **Aceptar**.
 1. En el panel de propiedades del módulo de lista de imágenes, agregue un encabezado (por ejemplo, **Nuestras marcas**).
 1. Agregue un elemento de lista de imágenes y especifique una imagen, un texto de párrafo y una URL de redireccionamiento.
 1. Agregue y configure módulos de elemento de lista de imágenes adicionales según sea necesario.

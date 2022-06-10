@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (julio de 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (julio de 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mayo de 2022)
@@ -1300,6 +1302,10 @@
               items:
                 - name: Generar páginas personalizadas de respuesta para los errores de código de estado 4xx/5xx
                   href: build-pages-400-500-errors.md
+            - name: Integración del servicio
+              items:
+                - name: Integrar Customer Voice en páginas del sitio de comercio electrónico
+                  href: customer-voice-integration.md
         - name: Fraud Protection
           items:
             - name: Integración de Dynamics 365 Fraud Protection con Dynamics 365 Commerce
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Usar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Usar orígenes de datos de USER INPUT PARAMETER para especificar parámetros para un informe que desea generar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Depurar orígenes de datos
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar modelos de datos
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Simular el estado registrado durante un desarrollo local
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Configurar la transferencia de autenticación de la API web usando Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Configurar las propiedades del módulo para que se muestren según el contexto
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Globalizar módulos mediante la clase CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: El refinador de calificaciones aparece en los resultados de la búsqueda y las páginas de categorías cuando la solución de calificaciones y opiniones no está habilitada
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: El subtotal del resumen del pedido no incluye los impuestos sobre los gastos cuando se utilizan módulos personalizados de resumen del pedido.
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Gestión de clientes
               items:
                 - name: El correo electrónico de bienvenida no se envía cuando se crean nuevos clientes

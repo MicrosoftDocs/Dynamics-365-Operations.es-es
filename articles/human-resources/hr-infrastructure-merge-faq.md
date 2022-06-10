@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688131"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809624"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Preguntas frecuentes de la fusión de infraestructura de Dynamics 365 Human Resources
 
@@ -40,7 +40,7 @@ Dynamics 365 Human Resources es una aplicación independiente que utiliza una in
 - Estos cambios eliminan la confusión causada por varios conjuntos de capacidades de recursos humanos (RR.HH.) en Dynamics 365.
 - Proporcionan tanto extensibilidad de Microsoft Power Platform como una forma de ampliar la lógica empresarial y las opciones de funciones.
 - Añaden consistencia entre Dynamics 365 Human Resources y otras aplicaciones de Finanzas y operaciones en términos de gestión del ciclo de vida de las aplicaciones (ALM), Microsoft Dynamics Lifecycle Services (LCS), disponibilidad geográfica, extensibilidad y más.
-- Le permiten aprovechar las herramientas y los servicios compartidos y ayudan a reducir los costos.
+- Le permiten aprovechar las herramientas y los servicios compartidos y ayudan a reducir los costes.
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mi organización usa el módulo de Recursos Humanos en Dynamics 365 Finance, Supply Chain Management, Commerce, o Project Operations. ¿Qué beneficios veremos de estos cambios?
 
@@ -132,6 +132,9 @@ Si los entornos de Dynamics 365 Human Resources y Finanzas y operaciones que se 
 
 Sin embargo, si los entornos de Dynamics 365 Human Resources y Finanzas y operaciones están actualmente conectados a entornos de Dataverse distintos, los dos entornos de Dataverse deberán combinarse para que estén conectados a un solo entorno de la nueva infraestructura. Para esta migración de Dataverse, las tablas Dataverse que son estándar para las soluciones de Recursos Humanos se pueden conectar y resincronizar con el nuevo entorno de Dataverse. Las extensiones del entorno de Dataverse no se migrarán automáticamente, sino que se deben volver a implementar en el nuevo entorno. Le recomendamos que utilice soluciones gestionadas para gestionar sus extensiones de Dataverse. Para más información, vea [Introducción a las soluciones](/powerapps/developer/data-platform/introduction-solutions).
 
+### <a name="we-have-utilized-the-custom-field-functionality-within-dynamics-365-human-resources-will-those-custom-fields-migrate-automatically"></a>Hemos utilizado la funcionalidad de campo personalizado en Dynamics 365 Human Resources, ¿esos campos personalizados se migrarán automáticamente?
+Sí, los campos personalizados que se agregaron se migrarán a la nueva infraestructura.
+
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>Hemos configurado flujos Microsoft Power Automate y / o Microsoft Power Apps para trabajar con Dynamics 365 Human Resources. ¿Se migrarán estos componentes Microsoft Power Platform y funcionarán automáticamente después de que se complete el cambio de infraestructura?
 
 Los flujos Power Apps, Power Automate y otras personalizaciones Microsoft Power Platform son similares a extensiones Dataverse. Que funcionen automáticamente después de la migración a la nueva infraestructura depende de si la aplicación de Recursos Humanos y las aplicaciones Finanzas y operaciones están conectadas al mismo entorno de Power Apps antes de la migración.
@@ -218,13 +221,13 @@ Los trabajos por lotes aplicables se migrarán automáticamente a la nueva infra
 
 Esta documentación no reemplaza ni reemplaza ninguna de la documentación legal que cubre los derechos de uso.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-does-our-licensing-or-cost-change"></a>Mi organización usa Dynamics 365 Human Resources para gestionar sus operaciones de recursos humanos. ¿Cambian nuestras licencias o nuestros costos?
+### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-does-our-licensing-or-cost-change"></a>Mi organización usa Dynamics 365 Human Resources para gestionar sus operaciones de recursos humanos. ¿Cambian nuestras licencias o nuestros costes?
 
-Los clientes que han comprado licencias Dynamics 365 Human Resources no se verán afectados. No hay migración de licencias para estos clientes. La unidad de mantenimiento de existencias (SKU) de la zona de pruebas adicional que era específica para Recursos humanos ya no será aplicable. En cambio, los clientes pueden optar por comprar un espacio aislado de aplicaciones Finance and Operations de nivel 2 a un costo ligeramente menor. Los clientes existentes que hayan comprado un espacio aislado de recursos humanos se migrarán a un espacio aislado de aplicaciones Finance and Operations de nivel 2 sin costo adicional.
+Los clientes que han comprado licencias Dynamics 365 Human Resources no se verán afectados. No hay migración de licencias para estos clientes. La unidad de mantenimiento de existencias (SKU) de la zona de pruebas adicional que era específica para Recursos humanos ya no será aplicable. En cambio, los clientes pueden optar por comprar un espacio aislado de aplicaciones Finance and Operations de nivel 2 a un coste ligeramente menor. Los clientes existentes que hayan comprado un espacio aislado de recursos humanos se migrarán a un espacio aislado de aplicaciones Finance and Operations de nivel 2 sin coste adicional.
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mi organización usa el módulo de Recursos Humanos en Dynamics 365 Finance, Supply Chain Management, Commerce, o Project Operations. ¿Cambian mis licencias o costes?
 
-Usuarios existentes de aplicaciones de Dynamics 365 y usuarios independientes Dynamics 365 Finance, Supply Chain Management, Commerce y Project Operations pueden acceder a Recursos humanos como parte de esas licencias hasta febrero de 2025 o hasta que expire el acuerdo de licencia actual, lo que ocurra primero. Puede optar por pasar a las licencias de Recursos Humanos antes si esto le ayuda a lograr mejores ahorros de costos. A partir de febrero de 2025, todos los clientes existentes de CSP y EA deben abandonar el módulo de recursos humanos y comprar licencias de recursos humanos para aprovechar las nuevas capacidades que se están incorporando a las aplicaciones Finance and Operations.
+Usuarios existentes de aplicaciones de Dynamics 365 y usuarios independientes Dynamics 365 Finance, Supply Chain Management, Commerce y Project Operations pueden acceder a Recursos humanos como parte de esas licencias hasta febrero de 2025 o hasta que expire el acuerdo de licencia actual, lo que ocurra primero. Puede optar por pasar a las licencias de Recursos Humanos antes si esto le ayuda a lograr mejores ahorros de costes. A partir de febrero de 2025, todos los clientes existentes de CSP y EA deben abandonar el módulo de recursos humanos y comprar licencias de recursos humanos para aprovechar las nuevas capacidades que se están incorporando a las aplicaciones Finance and Operations.
 
 ### <a name="my-organization-is-live-with-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-will-we-be-required-to-purchase-an-additional-environment-to-support-the-infrastructure-merge"></a>Mi organización está en directo con Dynamics 365 Finance, Supply Chain Management, Commerce o Project Operations. ¿Se nos pedirá que compremos un entorno adicional para respaldar la fusión de la infraestructura?
 

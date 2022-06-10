@@ -2,7 +2,7 @@
 title: Visión general de España
 description: Este tema proporciona vínculos a recursos de documentación para España.
 author: kfend
-ms.date: 01/15/2022
+ms.date: 05/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d591fecfce07889ae4b20ed91f6e5de3be4cd5c7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b9cb3407c0bd68e1fa9aec28f04fac222c74f31c
+ms.sourcegitcommit: d27d63c3953b758225cdf29f13f9747e827e59c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983084"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8807846"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
@@ -43,6 +43,7 @@ Este tema proporciona vínculos a recursos de documentación para España.
 - [Ciclos de compra y venta](emea-esp-sales-purchase-cycle.md)
 - [Entradas especiales y hojas de apertura](emea-esp-opening-sheets-spain.md)
 - [Suministro inmediato de información del IVA, SII](emea-esp-sii.md)
+- [Lista de ventas de la UE para España (Informe 349)](emea-esp-sales-list.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

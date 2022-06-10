@@ -14,7 +14,9 @@
               items:
                 - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para la versión 10.0.27 (julio de 2022)
+                - name: Actualizaciones de la plataforma para la versión 10.0.28 (agosto de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.27 (julio de 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.26 (mayo de 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
@@ -384,9 +386,9 @@
                   items:
                     - name: Configurar proyectos locales en LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Configurar e implementar entornos locales (Platform update 41 y posteriores)
+                    - name: Configurar e implementar entornos locales (Actualización de la plataforma 41 y posteriores)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Configurar e implementar entornos locales (Platform updates de la 12 a la 40)
+                    - name: Configurar e implementar entornos locales (Actualizaciones de la plataforma de la 12 a la 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Pasos de instalación para los componentes del canal Retail en un entorno local
                       href: deployment/deploy-retail-onprem.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Reiniciar servicios del entorno
               href: lifecycle-services/restart-environment-services.md
+            - name: Actualizar administrador de entorno
+              href: lifecycle-services/update-environment-admin.md
             - name: Notificar una interrupción de la producción
               href: lifecycle-services/report-production-outage.md
             - name: Seguimiento de inicios de sesión de usuario
@@ -1266,6 +1270,8 @@
               items:
                 - name: Información general sobre los complementos
                   href: power-platform/add-ins-overview.md
+            - name: Creación de experiencias móviles
+              href: power-platform/build-mobile-experiences.md
             - name: Directivas y comunicaciones
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plataforma móvil

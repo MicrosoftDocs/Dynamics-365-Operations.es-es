@@ -2,7 +2,7 @@
 title: Módulo de finalización de compra
 description: En este tema se describe cómo agregar un módulo de finalización de compra a una página y establecer las propiedades necesarias.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715515"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780523"
 ---
 # <a name="checkout-module"></a>Módulo de finalización de compra
 
@@ -91,14 +91,14 @@ La mayor parte de la información de finalización del pago, como la dirección 
 Para agregar un módulo de finalización del pago a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo, **Nuevo fragmento**, seleccione el módulo **Finalización de compra**.
+1. En el cuadro de diálogo, **Seleccionar fragmento**, seleccione el módulo **Finalización de compra**.
 1. En **Nombre del fragmento**, introduzca el nombre **Fragmento de finalización de compra** y luego seleccione **Aceptar**.
 1. Seleccione el espacio **Módulo de finalización de compra**.
 1. En el panel de propiedades de la derecha, seleccione el símbolo del lápiz, introduzca el texto del encabezado en el campo y luego seleccione el símbolo de marca de verificación.
 1. En el espacio **Información de finalización de compra**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione los módulos **Dirección de Envío**, **Opciones de entrega**, **Contenedor de sección de finalización de compra** e **Información del contacto** y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione los módulos **Dirección de Envío**, **Opciones de entrega**, **Contenedor de sección de finalización de compra** e **Información del contacto** y luego seleccione **Aceptar**.
 1. En el módulo **Contenedor de sección de finalización de compra**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione los módulos **Tarjeta regalo**, **Fidelidad** y **Pago** y, a continuación, **Aceptar**. De esta manera, asegúrese de que todos los métodos de pago aparecen juntos en una sección.
+1. En el cuadro de diálogo **Seleccionar módulo**, seleccione los módulos **Tarjeta regalo**, **Fidelidad** y **Pago** y, a continuación, **Aceptar**. De esta manera, asegúrese de que todos los métodos de pago aparecen juntos en una sección.
 1. En el espacio **Términos y condiciones**, agregue un módulo **Términos y condiciones de finalización de compra** si es necesario. En el panel de propiedades del módulo, configure el texto de los términos y las condiciones según corresponda.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar el fragmento. Es posible que los módulos que no tienen un contexto de carro no se representen en la vista previa.
 1. Seleccione **Finalizar edición** para comprobar en el fragmento y luego seleccione **Publicar** para publicarlo.

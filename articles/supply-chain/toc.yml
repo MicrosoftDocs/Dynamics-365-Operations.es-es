@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios de la página principal de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (agosto de 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (julio de 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (mayo de 2022)
@@ -711,6 +713,8 @@
           items:
             - name: Página principal de Gestión de costes
               href: cost-management/cost-management-home-page.md
+            - name: Preguntas frecuentes sobre costes de inventario
+              href: cost-management/inventory-costing-faq.md
             - name: Requisitos previos de los costes estándar
               items:
                 - name: Información general de los requisitos previos de los costes estándar
@@ -1427,6 +1431,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Usar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Usar orígenes de datos de USER INPUT PARAMETER para especificar parámetros para un informe que desea generar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Depurar orígenes de datos
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar modelos de datos
@@ -1707,7 +1713,9 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Reservas de Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
-                - name: Programación de cambio disponible de visibilidad de inventario y neto no comprometido
+                - name: Asignación de inventario de Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
+                - name: Programación de cambio disponible de Inventory Visibility y neto no comprometido
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: API públicas de visibilidad de inventario
                   href: inventory/inventory-visibility-api.md
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: Informes de costes en destino
               href: landed-cost/landed-cost-reports.md
+            - name: Entidades de datos de coste descargado
+              items:
+                - name: Información general de entidades de costes descargados
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Entidades de creación de viajes
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Entidades de transacción de costes
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Entidad de actividades de contenedor
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Entidades de factura de proveedor
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Gestión de almacenes
           items:
             - name: Información general de la gestión de almacenes
