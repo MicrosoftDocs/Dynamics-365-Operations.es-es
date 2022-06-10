@@ -2,7 +2,7 @@
 title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644618"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811257"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -31,6 +31,33 @@ En este tema se describen las características que se han eliminado, o que está
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Aviso de desactivación de características a partir de junio de 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Instalar y configurar la aplicación móvil de Finanzas y Operaciones (Dynamics 365) 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Estamos descartando la plataforma y la aplicación móvil Finanzas y Operaciones (Dynamics 365) para consolidar una única plataforma móvil, que es Power Apps. |
+| **¿Reemplazado por otra característica?**   | Sí, las experiencias móviles sobre los datos de la aplicación Finanzas y Operaciones se pueden crear con integración Power Platform. Consulte [Creación de experiencias móviles](../power-platform/build-mobile-experiences.md) para más detalles. |
+| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso. La fecha de finalización del soporte está prevista para octubre de 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.29 de aplicaciones Finance and Operations
+
+### <a name="panorama-tab-style"></a>Estilo de pestaña Panorámica
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Las páginas de desplazamiento horizontal se alinean con patrones de diseño obsoletos que tienen problemas conocidos de usabilidad y accesibilidad.  |
+| **¿Reemplazado por otra característica?**   | No, pero todavía hay otros estilos de pestañas disponibles. |
+| **Áreas de producto afectadas**         | Cliente web |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Aviso de desactivación de características a partir de abril de 2022
 

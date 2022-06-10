@@ -2,7 +2,7 @@
 title: Módulo de iframe
 description: En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754023"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780243"
 ---
 # <a name="iframe-module"></a>Módulo de iFrame
 
@@ -56,12 +56,15 @@ Para agregar un módulo de iframe a una página para mostrar un vídeo externo, 
 1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de la plantilla**, introduzca **Plantilla de marketing** y luego seleccione **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
-1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Plantilla de marketing**. En **Nombre de página**, introduzca **Página de marketing** y después seleccione **Aceptar**.
+1. En el cuadro de diálogo **Crear nueva página**, en **Nombre de página**, introduzca **Página de marketing** y luego seleccione **Siguiente**.
+1. En **Elegir plantilla**, seleccione la **Plantilla de marketing** que creó y, a continuación, seleccione **Siguiente**.
+1. En **Elija un diseño**, seleccione un diseño de página (por ejemplo, **Diseño flexible**), y luego seleccione **Siguiente**.
+1. En **Revisar y terminar**, revise la configuración de la página. Si necesita editar la información de la página, seleccione **Atrás**. Si la información de la página es correcta, seleccione **Crear página**. 
 1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
 1. En el panel de propiedades del módulo, establezca el valor **Ancho** para **Llenar contenedor**.
 1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **iframe** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **iframe** y, a continuación, **Aceptar**.
 1. En el panel de propiedades del módulo, establezca el valor **URL de destino** a una URL externa para un vídeo.
 1. Establecer otras propiedades, como **Bóveda** y **Altura**, como lo requiera.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.

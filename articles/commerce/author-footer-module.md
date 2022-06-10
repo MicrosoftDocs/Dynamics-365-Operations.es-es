@@ -2,7 +2,7 @@
 title: Módulo de pie de página
 description: En este tema se tratan los módulos de pie de página y cómo crearlos en Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 03/02/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
-ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8374840"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780268"
 ---
 # <a name="footer-module"></a>Módulo de pie de página  
 
@@ -46,15 +46,15 @@ Como la mayoría de los contenedores, un módulo de pie de página admite propie
 ## <a name="create-a-footer-module"></a>Crear un módulo de pie de página
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Contenedor**, especifique un nombre para el fragmento y, a continuación, seleccione **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el módulo **Contenedor**, especifique un nombre para el fragmento y, a continuación, seleccione **Aceptar**.
 1. En el espacio **Contenedor predeterminado**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Categoría de pie de página** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Categoría de pie de página** y, a continuación, **Aceptar**.
 1. En el espacio **Categoría de pie de página**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Elemento de pie de página** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Elemento de pie de página** y, a continuación, **Aceptar**.
 1. Seleccione el espacio **Elemento de pie de página** y luego, en el panel de propiedades de la derecha, configure el encabezado, el vínculo y el texto del vínculo, y la imagen según sea necesario.
 1. Para agregar más elementos de pie de página, repita para cada uno los pasos del 5 al 7.
-1. Para agregar un vínculo "Volver arriba" a su pie de página, seleccione los puntos suspensivos (**...**) en el módulo de categoría **Pie de página** y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Volver arriba** y, a continuación, **Aceptar**.
+1. Para agregar un vínculo "Volver arriba" a su pie de página, seleccione los puntos suspensivos (**...**) en el espacio **Categoría de pie de página** y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Volver arriba** y, a continuación, **Aceptar**.
 1. Seleccione el espacio **Volver arriba** y luego, en el panel de propiedades de la derecha, configure el texto y otras propiedades del módulo según sea necesario.
 1. Seleccione **Finalizar edición** para comprobar en el fragmento y luego seleccione **Publicar** para publicarlo.
 

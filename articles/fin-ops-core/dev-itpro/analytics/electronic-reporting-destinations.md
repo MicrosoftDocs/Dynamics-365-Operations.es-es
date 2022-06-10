@@ -2,7 +2,7 @@
 title: Destinos de informes electrónicos (ER)
 description: Este tema proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647102"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780471"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Puede configurar un destino para cada configuración de formato de informes electrónicos y su componente de salida (una carpeta o un archivo). Los usuarios que tienen derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este tema se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad.
+Puede configurar un destino para cada configuración de formato de informes electrónicos (ER) y su componente de salida (una carpeta o un archivo). Los usuarios que tienen derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este tema se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad.
 
 Las configuraciones de formato ER suelen contener al menos un componente de salida: un archivo. Normalmente, las configuraciones contienen varios componentes de salida de archivo de diferentes tipos (por ejemplo, XML, TXT, XLSX, DOCX, o PDF) que se agrupan en una carpeta única o varias carpetas. La administración de destinos ER le permite preconfigurar lo que ocurre cuando se ejecuta cada componente. De forma predeterminada, cuando se ejecuta una configuración, se muestra un cuadro de diálogo que le permite guardar o abrir el archivo. El mismo comportamiento también se da al importar una configuración de ER y no configurar destinos específicos para ella. Después de que se cree un destino para un componente de salida principal, ese destino anula el comportamiento predeterminado y la carpeta o el archivo se envía según la configuración del destino.
 
@@ -45,9 +45,9 @@ O bien, puede instalar uno de los siguientes requisitos previos. Sin embargo, te
 - Versión de aplicación Microsoft Dynamics AX 7.0.1 (mayo de 2016)
 - [Revisión electrónica de la aplicación de administración de destinos de informes](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-También hay un tipo de destino de [Impresión](er-destination-type-print.md). Para usarlo, debe instalar Microsoft Dynamics 365 Finance versión 10.0.9 (abril de 2020).
+También hay un tipo de destino de [Impresión](er-destination-type-print.md). Para usarlo, debe instalar Microsoft Microsoft Dynamics 365 Finance, versión 10.0.9 (abril de 2020).
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 Puede configurar destinos solo para configuraciones de ER que se han [importado](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) en la instancia de Finance actual y para los formatos que están disponibles en la página **Configuraciones de informes electrónicos**. La funcionalidad de administración de destinos de ER está disponible en **Administración de la organización** \> **Informes electrónicos** \> **Destino de informes electrónicos**.
 
@@ -158,7 +158,7 @@ Puede usar la opción de conversión de PDF para convertir la salida en formato 
 
 ### <a name="make-pdf-conversion-available"></a>Hacer que la conversión de PDF esté disponible
 
-Para que la opción de conversión de PDF esté disponible en la instancia de Finance actual, abra el espacio de trabajo **Gestión de funciones** y active la función **Convertir documentos salientes de informes electrónicos de formatos de Microsoft Office a PDF**.
+Para que la opción de conversión de PDF esté disponible en la instancia de Finance actual, abra el área de trabajo **Gestión de funciones** y active la función **Convertir documentos salientes de informes electrónicos de formatos de Microsoft Office a PDF**.
 
 [![Activar la función de conversión de PDF de documentos salientes en Administración de características.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
@@ -173,13 +173,13 @@ En versiones de Finance **antes de la versión 10.0.18**, la opción de conversi
 
 ### <a name="limitations"></a>Limitaciones
 
-La opción de conversión de PDF solo está disponible para implementaciones en la nube.
+A partir de Finance, **versión 10.0.9**, la opción de conversión de PDF solo está disponible para implementaciones en la nube. Comenzando por Finance, versión **10.0.27**, la opción de conversión de PDF está disponible para cualquier implementación local que tenga activada la [conectividad a Internet](../user-interface/client-disconnected.md).
 
 El documento en PDF producido está limitado a una longitud máxima de 300 páginas.
 
-En la **versión 10.0.9** de Finance, solo se admite la orientación de página horizontal en el documento PDF que se produce a partir de una salida de Excel. En la **versión 10.0.10 (mayo de 2020) y posteriores**, puede [especificar la orientación de la página](#SelectPdfPageOrientation) del documento PDF que se produce a partir de una salida de Excel mientras configura un destino de informes electrónicos.
+A partir de Finance, **versión 10.0.9**, solo se admite la orientación de página horizontal en el documento PDF que se produce a partir de una salida de Excel. A partir de la **versión 10.0.10**, puede [especificar la orientación de la página](#SelectPdfPageOrientation) del documento PDF que se produce a partir de una salida de Excel mientras configura un destino de informes electrónicos.
 
-Solo se usan las fuentes comunes del sistema operativo Windows para la conversión de una salida que no contiene fuentes incrustadas.
+Solo se usan las fuentes comunes del sistema operativo Windows para la conversión de una salida que no contiene fuentes insertadas.
 
 ### <a name="use-the-pdf-conversion-option"></a>Usar la opción de conversión de PDF
 
@@ -216,7 +216,7 @@ Cuando configura un destino para el componente **Carpeta** de su formato ER, pue
 
 ### <a name="make-output-unfolding-available"></a>Haga que el despliegue de salida esté disponible
 
-Para que la opción de despliegue de salida esté disponible en la instancia de Finance actual, abra el espacio de trabajo **Gestión de funciones** y active la característica **Permitir configurar destinos ER para enviar contenido de carpetas como archivos separados**.
+Para que la opción de despliegue de salida esté disponible en la instancia de Finance actual, abra el área de trabajo **Gestión de funciones** y active la característica **Permitir configurar destinos ER para enviar contenido de carpetas como archivos separados**.
 
 ### <a name="applicability"></a>Aplicabilidad
 

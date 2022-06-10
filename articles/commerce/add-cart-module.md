@@ -2,7 +2,7 @@
 title: Módulo de carro
 description: En este tema se tratan los módulos de carro y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 962710f7b65c8d26b301b5034a89fc25476b6e0f
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716893"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780548"
 ---
 # <a name="cart-module"></a>Módulo de carro
 
@@ -75,12 +75,12 @@ El módulo del carro recupera la información de producto mediante las API de Co
 Para agregar un módulo de carro a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Carrito**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el módulo **Carrito**.
 1. En **Nombre del fragmento**, introduzca el nombre **Fragmento de carro** y luego seleccione **Aceptar**.
 1. Seleccione el espacio **Carro**.
 1. En el panel de propiedades de la derecha, seleccione el símbolo del lápiz, introduzca el texto del encabezado en el campo y luego seleccione el símbolo de marca de verificación.
-1. En el espacio **Carro**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Selector de tienda** y elija **Aceptar**.
+1. En el espacio **Carrito**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Selector de tienda** y elija **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger el fragmento y luego seleccione **Publicar** para publicarlo.
 1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
 1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de plantilla**, introduzca un nombre para la plantilla.

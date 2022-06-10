@@ -2,19 +2,19 @@
 title: Mejoras en la funcionalidad del registro de extractos
 description: En este tema se describen mejoras que se han realizado en la función de registro de extractos.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649028"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770178"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
@@ -151,6 +151,9 @@ La vista de transacciones agregadas proporciona las siguientes ventajas:
 - El usuario tiene visibilidad de cómo se agregan las transacciones.
 - El usuario tiene una traza de auditoría completa, desde las transacciones hasta los pedidos de ventas y las facturas de ventas. Esta traza de auditoría no estaba disponible en la antigua función de registro de extractos.
 - El archivo de datos XML agregados facilita la identificación de problemas durante la creación y facturación de pedidos de ventas.
+
+> [!NOTE]
+> Cuando se agregan las transacciones, el miembro del personal asignado a la transacción ya no está disponible para el **Informe de ventas del personal superior**, lo que significa que el **Informe de ventas del personal superior** no mostrará todas las transacciones. Le recomendamos que no utilice el **Informe de ventas del personal superior** con transacciones agregadas.
 
 ### <a name="journal-vouchers"></a>Asientos del diario
 

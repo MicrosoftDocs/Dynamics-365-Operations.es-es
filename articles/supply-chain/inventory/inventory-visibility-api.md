@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524476"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786877"
 ---
 # <a name="inventory-visibility-public-apis"></a>API públicas de visibilidad de inventario
 
@@ -41,17 +41,22 @@ En la tabla siguiente se muestran las API actualmente disponibles:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Registrar | [Establecer/reemplazar cantidades disponibles](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Registrar | [Crear un evento de reserva](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Registrar | [Crear varios eventos de reserva](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | Registrar | [Crear un cambio de inventario disponible programado](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Registrar | [Crear múltiples cambios de inventario disponible programados](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | Registrar | [Crear un cambio de inventario disponible programado](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Registrar | [Crear múltiples cambios de inventario disponible programados](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Registrar | [Consulta mediante el método POST](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obtener | [Consulta mediante el método GET](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | Registrar | [Crear un evento de asignación](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | Registrar | [Crear un evento de desasignación](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | Registrar | [Crear un evento de reasignación](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | Registrar | [Crear un evento de consumo](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | Registrar | [Resultado de asignación de consulta](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > La parte {environmentId} de la ruta es el id. de entorno en Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > La API masiva puede devolver un máximo de 512 registros para cada solicitud.
 
-Microsoft ha proporcionado una colección de solicitudes *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft ha proporcionado una colección de solicitudes *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Buscar el punto de conexión de acuerdo con su entorno de Lifecycle Services
 
@@ -84,7 +89,7 @@ Microsoft ha creado una interfaz de usuario (IU) en Power Apps para que pueda ob
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autentificación
 
-El token de seguridad de la plataforma se utiliza para llamar a la API pública de Visibilidad de inventario. Por lo tanto, debe generar un _token de Azure Active Directory (Azure AD)_ usando su aploicación de Azure AD. A continuación, debe utilizar el token de Azure AD para obtener el _token de acceso_ del servicio de seguridad.
+El token de seguridad de la plataforma se utiliza para llamar a la API pública de Visibilidad de inventario. Por lo tanto, debe generar un _Token de Azure Active Directory (Azure AD)_ usando su aplicación de Azure AD. A continuación, debe utilizar el token de Azure AD para obtener el _token de acceso_ del servicio de seguridad.
 
 Microsoft proporciona una colección de token *Postman* lista para usar. Puede importar esta colección a su software de *Postman* mediante el siguiente enlace compartido: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -172,7 +177,7 @@ La siguiente tabla resume el significado de cada campo en el cuerpo JSON.
 | `organizationId` | El identificador de la organización vinculada al evento. Este valor se asigna a una organización o Id. de área de datos en Supply Chain Management. |
 | `productId` | El identificador del producto. |
 | `quantities` | La cantidad por la que se debe cambiar la cantidad de inventario disponible. Por ejemplo, si se agregan 10 libros nuevos a un estante, este valor será `quantities:{ shelf:{ received: 10 }}`. Si se sacan tres libros del estante o se venden, este valor será `quantities:{ shelf:{ sold: 3 }}`. |
-| `dimensionDataSource` | El origen de datos de las dimensiones utilizadas en la consulta y el evento de cambio de registro. Si especifica la fuente de datos, puede utilizar las dimensiones personalizadas de la fuente de datos especificada. Visibilidad de inventario puede asignar la configuración de dimensiones para asignar las dimensiones personalizadas a las dimensiones predeterminadas generales. Si no se especifica ningún valor de `dimensionDataSource`, solo puede utilizar las [dimensiones base](inventory-visibility-configuration.md#data-source-configuration-dimension) generales en sus consultas. |
+| `dimensionDataSource` | El origen de datos de las dimensiones utilizadas en la consulta y el evento de cambio de registro. Si especifica el origen de datos, puede utilizar las dimensiones personalizadas del origen de datos especificada. Visibilidad de inventario puede asignar la configuración de dimensiones para asignar las dimensiones personalizadas a las dimensiones predeterminadas generales. Si no se especifica ningún valor de `dimensionDataSource`, solo puede utilizar las [dimensiones base](inventory-visibility-configuration.md#data-source-configuration-dimension) generales en sus consultas. |
 | `dimensions` | Una par de clave-valor dinámico. Los valores se asignan a algunas de las dimensiones en Supply Chain Management. Sin embargo, también puede agregar dimensiones personalizadas (por ejemplo, _Origen_) para indicar si el evento proviene de Supply Chain Management o de un sistema externo. |
 
 > [!NOTE]
@@ -231,7 +236,7 @@ El siguiente ejemplo muestra el contenido del cuerpo de muestra. En esta muestra
 }
 ```
 
-El siguiente ejemplo muestra el contenido del cuerpo de muestra sin `dimensionDataSource`. En este caso, `dimensions` serán las [dimensiones base](inventory-visibility-configuration.md#data-source-configuration-dimension). Si `dimensionDataSource` está establecido, `dimensions` puede ser las dimensiones de la fuente de datos o las dimensiones base.
+El siguiente ejemplo muestra el contenido del cuerpo de muestra sin `dimensionDataSource`. En este caso, `dimensions` serán las [dimensiones base](inventory-visibility-configuration.md#data-source-configuration-dimension). Si `dimensionDataSource` está establecido, `dimensions` puede ser las dimensiones del origen de datos o las dimensiones base.
 
 ```json
 {
@@ -383,7 +388,7 @@ Para usar la API de *Reserva*, debe abrir la función de reserva y completar la 
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Crear un evento de reserva
 
-Se puede hacer una reserva con diferentes configuraciones de fuente de datos. Para configurar este tipo de reserva, primero especifique la fuente de datos en el parámetro `dimensionDataSource`. Entonces, en el parámetro `dimensions`, especifique las dimensiones de acuerdo con la configuración de dimensión en la fuente de datos de destino.
+Se puede hacer una reserva con diferentes configuraciones de origen de datos. Para configurar este tipo de reserva, primero especifique el origen de datos en el parámetro `dimensionDataSource`. Entonces, en el parámetro `dimensions`, especifique las dimensiones de acuerdo con la configuración de dimensión en el origen de datos de destino.
 
 Cuando llama a la API de reserva, puede controlar la validación de la reserva especificando el parámetro booleano `ifCheckAvailForReserv` en el cuerpo de la solicitud. Un valor `True` significa que se requiere la validación, mientras que un valor `False` significa que la validación no es necesaria. El valor predeterminado es `True`.
 
@@ -539,7 +544,7 @@ El siguiente ejemplo muestra el contenido del cuerpo de muestra.
 }
 ```
 
-Los siguientes ejemplos muestran cómo consultar todos los productos en un sitio y ubicación específicos.
+El siguiente ejemplo muestra cómo consultar todos los productos en un sitio y una ubicación específicos.
 
 ```json
 {
@@ -580,6 +585,10 @@ Aquí hay una URL de GET de muestra. Esta solicitud GET es exactamente la misma 
 
 ## <a name="available-to-promise"></a>Neto no comprometido
 
-Puede configurar la visibilidad del inventario para que le permita programar futuros cambios de inventario disponible y calcular las cantidades de NNC. El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso del cálculo del NNC puede aumentar considerablemente la capacidad de entrega de su pedido. Para obtener información sobre cómo habilitar esta función y cómo interactuar con la visibilidad de inventario a través de su API después de habilitar la característica, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
+Puede configurar la visibilidad del inventario para que le permita programar futuros cambios de inventario disponible y calcular las cantidades de NNC. El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso del cálculo del NNC puede aumentar considerablemente la capacidad de entrega de su pedido. Para obtener información sobre cómo habilitar esta función y cómo interactuar con la visibilidad de inventario a través de su API después de habilitar la característica, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Asignación
+
+Las API relacionadas con la asignación se encuentran en [Asignación de visibilidad de inventario](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

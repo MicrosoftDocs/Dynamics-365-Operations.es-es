@@ -2,7 +2,7 @@
 title: Diseñar una configuración para generar documentos en formato de Excel
 description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645146"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811431"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -144,7 +144,7 @@ Puede configurar su plantilla de Excel para usar celdas para presentar datos tex
 A partir de la versión 10.0.23 de Dynamics 365 Finance, cuando trabaje en un documento generado, puede forzar a ER a calcular, en un documento generado, la altura de cada fila que se configuró para ajustar automáticamente su altura al contenido de las celdas anidadas siempre que esa fila contenga al menos una celda combinada que se configuró para ajustar el texto que contiene. La altura calculada se utiliza para cambiar el tamaño de la fila y garantizar que todas las celdas de la fila sean visibles en el documento generado.
 
 > [!NOTE]
-> Tenga en cuenta que es posible que esta funcionalidad no funcione como se espera cuando se usa una fuente personalizada para dar formato a una celda combinada. Debido a que Excel no incrusta fuentes personalizadas, no proporciona información sobre el tamaño de fuente personalizado. Por lo tanto, el tamaño de la celda combinada se puede estimar incorrectamente.
+> Tenga en cuenta que es posible que esta funcionalidad no funcione como se espera cuando se usa una fuente personalizada para dar formato a una celda combinada. Debido a que Excel no inserta fuentes personalizadas, no proporciona información sobre el tamaño de fuente personalizado. Por lo tanto, el tamaño de la celda combinada se puede estimar incorrectamente.
 
 Para comenzar a usar esta funcionalidad cuando ejecuta cualquier formato de ER que se configuró para usar plantillas de Excel para generar documentos salientes, siga estos pasos.
 
@@ -175,7 +175,7 @@ En la pestaña **Asignación** del diseñador de operación ER, puede configurar
 - Si una expresión de la propiedad **Habilitado** se configura para devolver **Verdadero** en tiempo de ejecución, o si no hay ninguna expresión configurada, el objeto apropiado se rellenará en el documento generado. La vinculación de este componente **Celda** especifica un valor que se coloca en el objeto apropiado.
 - Si una expresión de la propiedad **Habilitado** está configurada para devolver **Falso** en tiempo de ejecución, el objeto apropiado no se rellenará en el documento generado.
 
-Cuando un componente **Celda** está configurado para Introducir un valor en una celda, puede vincularse con una fuente de datos que devuelve el valor de un tipo de datos primitivo (por ejemplo, **Cadena**, **Real** o **Entero**). En este caso, el valor se introduce en la celda como un valor del mismo tipo de datos.
+Cuando un componente **Celda** está configurado para Introducir un valor en una celda, puede vincularse con un origen de datos que devuelve el valor de un tipo de datos primitivo (por ejemplo, **Cadena**, **Real** o **Entero**). En este caso, el valor se introduce en la celda como un valor del mismo tipo de datos.
 
 Cuando un componente **Celda** está configurado para Introducir un valor en formato de Excel, puede vincularse con un origen de datos que devuelve un valor de un tipo de datos primitivo (por ejemplo, **Cadena**, **Real** o **Entero**). En este caso, el valor se introduce en la forma de Excel como texto de dicha forma. Para valores de tipos de datos que no son **Cadena**, la conversión a texto se realiza automáticamente.
 
@@ -187,7 +187,7 @@ Cuando un componente **Celda** está configurado para Introducir un valor en una
 > [!NOTE]
 > Se considera que cada imagen y forma de Excel está anclada por su esquina superior izquierda a una celda o rango específico de Excel. Si desea replicar una imagen o forma de Excel, debe configurar la celda o rango al que está anclada como una celda o rango replicados.
 
-Para obtener más información sobre cómo incrustar imágenes y formas, consulte [Incrustar imágenes y formas en documentos que genere utilizando ER](electronic-reporting-embed-images-shapes.md).
+Para obtener más información sobre cómo insertar imágenes y formas, consulte [Incrustar imágenes y formas en documentos que genere utilizando ER](electronic-reporting-embed-images-shapes.md).
 
 ## <a name="page-break-component"></a>Componente de salto de página
 
@@ -288,6 +288,16 @@ Puede elegir **Actualizar desde Excel** en la pestaña **Importar** del panel Ac
 
 ![Opción Crear elemento de formato de hoja de Excel en el cuadro de diálogo Actualizar desde Excel.](./media/er-excel-format-update-template.png)
 
+En la versión 10.0.28 y posteriores, puede utilizar la opción **Actualizar elementos de formato de encabezado y pie de página de Excel**.
+
+- Cuando configura esta opción en **No**, los elementos de formato de encabezado y pie de página de Excel permanecen sin cambios, incluso si los encabezados o pies de página correspondientes se han actualizado en las hojas de cálculo de la plantilla importada en el formato de libro de Excel.
+- Cuando configura esta opción en **Sí**, los elementos de formato de encabezado y pie de página de Excel cambiarán cuando los encabezados o pies de página correspondientes se han actualizado en las hojas de cálculo de la plantilla importada en el formato de libro de Excel.
+
+    - Si la estructura del encabezado o pie de página de una hoja de cálculo no se ha modificado, o si solo se ha agregado, se actualiza la estructura del elemento de formato de encabezado o pie de página de Excel correspondiente. Se conservarán los enlaces de los elementos de formato anidados bajo este elemento de formato de encabezado o pie de página de Excel.
+    - Si la estructura del encabezado o pie de página de una hoja de cálculo se ha modificado, el elemento de formato de encabezado o pie de página de Excel correspondiente volverá a crearse. Se eliminarán los enlaces de los elementos de formato anidados bajo este elemento de formato de encabezado o pie de página de Excel.
+
+![Opción Actualizar elementos de formato de encabezado y pie de página de Excel en el cuadro de diálogo Actualizar desde Excel.](./media/er-excel-format-update-template2.png)
+
 Para obtener más información sobre esta función, siga los pasos de [Modificar formatos de informes electrónicos volviendo a aplicar plantillas de Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Validar un formato ER
@@ -355,7 +365,7 @@ Cuando se genera el formato de libro de trabajo en un documento saliente en un M
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Ejemplo 2: solucionar el problema de EPPlus de celdas fusionadas
 
-Puede ejecutar un formato ER para generar un documento saliente en un formato de libro de Excel. Cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada en el espacio de trabajo **Administración de características**, la [biblioteca EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) se utiliza para generar resultados en Excel. Sin embargo, debido al [comportamiento de Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conocido y una limitación de la biblioteca EPPlus, es posible que encuentre la siguiente excepción: "No se pueden eliminar/sobrescribir las celdas combinadas. Un rango se fusiona parcialmente con el otro rango combinado". Para saber qué tipo de plantillas de Excel pueden causar esta excepción y cómo puede solucionar el problema, complete el siguiente ejemplo.
+Puede ejecutar un formato ER para generar un documento saliente en un formato de libro de Excel. Cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada en el área de trabajo **Administración de características**, la [biblioteca EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) se utiliza para generar resultados en Excel. Sin embargo, debido al [comportamiento de Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) conocido y una limitación de la biblioteca EPPlus, es posible que encuentre la siguiente excepción: "No se pueden eliminar/sobrescribir las celdas combinadas. Un rango se fusiona parcialmente con el otro rango combinado". Para saber qué tipo de plantillas de Excel pueden causar esta excepción y cómo puede solucionar el problema, complete el siguiente ejemplo.
 
 1. En la aplicación de escritorio de Excel, cree un nuevo libro de Excel.
 2. En la hoja de trabajo **Hoja1**, agregue el nombre **ReportTitle** a la celda **A2**.
@@ -372,7 +382,7 @@ Puede ejecutar un formato ER para generar un documento saliente en un formato de
 
 Puede solucionar el problema de una de las siguientes formas:
 
-- **Más fácil pero no recomendada:** en el espacio de trabajo **Administración de características**, desactive la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos**. Aunque este enfoque es más fácil, es posible que experimente otros problemas si lo usa, porque algunas funciones de ER solo son compatibles cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada.
+- **Más fácil pero no recomendada:** en el área de trabajo **Administración de características**, desactive la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos**. Aunque este enfoque es más fácil, es posible que experimente otros problemas si lo usa, porque algunas funciones de ER solo son compatibles cuando la característica **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitada.
 - **Recomendada:** siga estos pasos:
 
     1. En la aplicación de escritorio de Excel, modifique el libro de Excel de una de las siguientes formas:
@@ -393,7 +403,7 @@ Puede solucionar el problema de una de las siguientes formas:
 
 #### <a name="external-data-sources"></a>Orígenes de datos externos
 
-Si una de sus plantillas contiene una tabla dinámica basada en un modelo de PowerPivot que se refiere a una [fuente de datos externa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) y **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitado, recibe el siguiente mensaje de error cuando ejecuta un formato ER que usa esa plantilla para generar un documento saliente en formato Excel: "La fuente de caché no es una hoja de cálculo". Para solucionar este problema, tiene las siguientes opciones:
+Si una de sus plantillas contiene una tabla dinámica basada en un modelo de PowerPivot que se refiere a un [origen de datos externo](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b) y **Habilitar el uso de la biblioteca EPPlus en el marco de informes electrónicos** está habilitado, recibe el siguiente mensaje de error cuando ejecuta un formato ER que usa esa plantilla para generar un documento saliente en formato Excel: "La fuente de caché no es una hoja de cálculo". Para solucionar este problema, tiene las siguientes opciones:
 
 - **Recomendado:** Rediseñe la solución de Excel que está utilizando:
 

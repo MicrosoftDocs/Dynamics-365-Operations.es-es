@@ -2,7 +2,7 @@
 title: Búsqueda de productos y de clientes en el punto de venta (PDV)
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700098"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806437"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -106,6 +106,8 @@ Para establecer criterios de búsqueda como métodos abreviados, el administrado
 > Si agrega demasiados métodos abreviados, el menú desplegable de la barra de la búsqueda en el PDV se desordenará y la experiencia de búsqueda del empleado se puede ver afectada. Es recomendable solo agragar tantos métodos abreviados como le sean necesarios.
 
 El campo **Visualizar orden** determina el orden en que los accesos directos se muestran en PDV. Los criterios que se muestran son propiedades que el algoritmo de búsqueda del cliente usa para buscar clientes Sin embargo, los asociados pueden agregar propiedades personalizadas como métodos abreviados de búsqueda. Para agregar propiedades personalizadas como métodos abreviados de búsqueda, la administración del sistema debe remitir enumeración extensible (enum) que se usa para los criterios de búsqueda del cliente y después marcar las propiedades personalizadas de los asociados como métodos abreviados. Los socios son responsables de escribir el código para encontrar resultados cuando sus métodos abreviados personalizados se usan para las búsquedas.
+
+Se requieren traducciones para accesos directos si desea que los accesos directos se representen en el POS. Si el idioma de su canal es diferente al idioma predeterminado del sistema, debe definir la traducción para cada acceso directo en el idioma esperado. Puede definir traducciones seleccionando **Traducir** para cada atajo. 
 
 > [!NOTE]
 > Una propiedad personalizada que se agrega al enum no afecta al algoritmo de búsqueda estándar del cliente. Es decir, el algoritmo de búsqueda del cliente no buscará en la propiedad personalizada. Los usuarios pueden usar una propiedad personalizada para las búsquedas si dicha propiedad personalizada se agrega como método abreviado o si el algoritmo de búsqueda predeterminado ha sido reemplazado.

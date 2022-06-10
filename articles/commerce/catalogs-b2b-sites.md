@@ -2,19 +2,19 @@
 title: Crear catálogos de Commerce para sitios B2B
 description: Este tema describe cómo crear catálogos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656863"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782846"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Crear catálogos de Commerce para sitios B2B
 
@@ -24,7 +24,7 @@ ms.locfileid: "8656863"
 Este tema describe cómo crear catálogos de productos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce. Para obtener respuestas a las preguntas más frecuentes sobre los catálogos de Commerce para sitios B2B, consulte [Catálogos de Commerce para preguntas frecuentes B2B](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Este tema se aplica a la versión 10.0.26 Dynamics 365 Commerce y posteriores.
+> Este tema se aplica a la versión 10.0.27 Dynamics 365 Commerce y posteriores.
 
 Puede usar los catálogos de Commerce para identificar los productos que desee ofrecer en las tiendas B2B en línea. Al crear un catálogo, identifica las tiendas en línea en las que se ofrecen los productos, agrega los productos que desee incluir y mejora las ofertas de producto mediante la adición de detalles de comercialización. Puede crear varios catálogos para cada tienda B2B en línea.
 
@@ -42,7 +42,7 @@ Los catálogos de productos de Commerce le permiten definir la siguiente informa
 - **Grupos de precios** – Puede configurar precios y promociones específicas para un catálogo determinado. Esta capacidad es una razón central para definir un catálogo para un canal B2B. Los grupos de precios para catálogos permiten a las organizaciones hacer que los productos estén disponibles para sus organizaciones B2B previstas y aplicar sus precios y descuentos preferidos. Los clientes B2B que realizan pedidos de un catálogo configurado pueden beneficiarse de precios especiales y promociones después de iniciar sesión en un sitio Commerce B2B. Para configurar precios específicos del catálogo, seleccione **Grupos de precios** en la pestaña **Catálogos** para vincular uno o varios grupos de precios al catálogo. Todos los acuerdos comerciales, diarios de ajuste de precios y descuentos avanzados que se han vinculado al mismo grupo de precios se aplicarán cuando los clientes pidan de ese catálogo. (Los descuentos avanzados incluyen descuentos por umbral, por cantidad y combinados). Para obtener más información acerca de los grupos de precios, consulte [Grupos de precios](price-management.md#price-groups).
 
 > [!NOTE]
-> Esta característica está disponible en la versión 10.0.26 Dynamics 365 Commerce. Para configurar configuraciones específicas del catálogo, como la jerarquía de navegación y la jerarquía de clientes, en la sede de Commerce, abra el espacio de trabajo **Gestión de características** (**Administración del sistema \> Espacios de trabajo \> Gestión de características**), habilite la característica **Habilitar el uso de múltiples catálogos en canales minoristas** y, a continuación, ejecute el trabajo **1110 CDX**.
+> Esta característica está disponible en la versión 10.0.27 Dynamics 365 Commerce. Para configurar configuraciones específicas del catálogo, como la jerarquía de navegación y la jerarquía de clientes, en la sede de Commerce, abra el espacio de trabajo **Gestión de características** (**Administración del sistema \> Espacios de trabajo \> Gestión de características**), habilite la característica **Habilitar el uso de múltiples catálogos en canales minoristas** y, a continuación, ejecute el trabajo **1110 CDX**.
 
 ## <a name="catalog-process-flow"></a>Flujo de procesos del catálogo
 

@@ -2,7 +2,7 @@
 title: Ver y actualizar datos de entidad con Excel
 description: Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464948"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762664"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -110,7 +110,7 @@ Puede usar al diseñador para ajustar las columnas que se agregan automáticamen
 5. Si ha agregado un campo (columna), seleccione **Actualizar** para extraer un conjunto de datos actualizado.
 
 ## <a name="change-the-publish-batch-size"></a>Cambiar el tamaño del lote de publicación
-Cuando los usuarios publican cambios en registros de datos mediante el complemento de Excel, las actualizaciones se envían por lotes. El tamaño de lote de publicación predeterminado es 100 filas. En la versión 10.0.17 y posteriores, la característica **Permitir la configuración del tamaño del lote de publicación en el complemento de Excel** le ofrece un control flexible sobre el tamaño del lote de publicación.
+Cuando los usuarios publican cambios en registros de datos mediante el complemento de Excel, las actualizaciones se envían por lotes. El tamaño de lote de publicación predeterminado (y máximo) es de 100 filas; sin embargo, la característica **Permitir la configuración del tamaño del lote de publicación en el complemento de Excel** le brinda flexibilidad para reducir el tamaño del lote de publicación, especialmente si ve tiempos de espera cuando intenta publicar actualizaciones desde Excel.
 
 Los administradores del sistema pueden especificar un límite para todo el sistema en el tamaño del lote de publicación para los libros "Abrir en Excel" estableciendo el campo **Publicar límite de lote** de la sección **Parámetros de aplicación** de la página **Parámetros de aplicación de Office**.
 

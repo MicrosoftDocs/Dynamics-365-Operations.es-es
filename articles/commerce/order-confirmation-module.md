@@ -2,7 +2,7 @@
 title: Módulo de confirmación de pedido
 description: En este tema se tratan los módulos de confirmación de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/06/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733855"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780393"
 ---
 # <a name="order-confirmation-module"></a>Módulo de confirmación de pedido
 
@@ -51,15 +51,18 @@ Para agregar un módulo de confirmación del pedido a una página nueva y establ
 1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
 1. En el cuadro de diálogo **Nueva plantilla**, en de **Nombre de la plantilla**, especifique el nombre **Plantilla de confirmación del pedio** y luego seleccione **Aceptar**.
 1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
 1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Confirmación del pedido** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Confirmación del pedido** y, a continuación, **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la plantilla. No se representará el módulo de confirmación de pedido porque requiere el contexto del número de confirmación de pedido.
 1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
-1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Plantilla de confirmación del pedido**. En **Nombre de página**, introduzca **Página de confirmación del pedido** y después seleccione **Aceptar**.
+1. En el cuadro de diálogo **Crear nueva página**, en **Nombre de página**, introduzca una **Página de confirmación de pedido** y luego seleccione **Siguiente**.
+1. En **Elegir plantilla**, seleccione **Plantilla de confirmación de pedido** y luego seleccione **Siguiente**.
+1. En **Elija un diseño**, seleccione un diseño de página (por ejemplo, **Diseño flexible**), y luego seleccione **Siguiente**.
+1. En **Revisar y terminar**, revise la configuración de la página. Si necesita editar la información de la página, seleccione **Atrás**. Si la información de la página es correcta, seleccione **Crear página**. 
 1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Confirmación del pedido** y, a continuación, **Aceptar**.
+1. En el cuadro de diálogo **Seleccionar módulos**, seleccione el módulo **Confirmación del pedido** y, a continuación, **Aceptar**.
 1. En el panel de propiedades del módulo de confirmación del pedido, seleccione **Encabezado** al lado del símbolo de lápiz.
 1. En el campo **Texto de encabezado** del cuadro de diálogo **Encabezado**, especifique el texto de encabezado **Confirmación del pedido** y luego seleccione **Aceptar**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.

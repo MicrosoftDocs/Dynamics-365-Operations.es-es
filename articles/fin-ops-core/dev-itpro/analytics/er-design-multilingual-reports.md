@@ -2,7 +2,7 @@
 title: Diseñar informes multilingües en informes electrónicos
 description: Este tema explica cómo puede usar las etiquetas de informes electrónicos (ER) para diseñar y generar informes multilingües.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313700"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811618"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Diseñar informes multilingües en informes electrónicos
 
@@ -46,7 +46,7 @@ Puede configurar recursos dependientes del idioma como etiquetas ER. Luego puede
 
 Las etiquetas de ER se pueden configurar en cada [configuración](general-electronic-reporting.md#Configuration) de ER que contiene diferentes componentes. Las etiquetas se pueden mantener independientemente de la lógica configurada de los modelos de datos ER, las asignaciones de modelos ER y los componentes de formato ER.
 
-Cada etiqueta ER se identifica mediante un identificador que es único en el alcance de la configuración ER que contiene esa etiqueta. Cada etiqueta puede contener texto de etiqueta para cada idioma admitido en la instancia actual de Microsoft Dynamics 365 Finance. Estos idiomas admitidos incluyen los idiomas de las personalizaciones implementadas.
+Cada etiqueta ER se identifica mediante un identificador que es único en el alcance de la configuración ER que contiene esa etiqueta. Cada etiqueta puede contener texto de etiqueta para cada idioma admitido en la instancia actual de Microsoft Microsoft Dynamics 365 Finance. Estos idiomas admitidos incluyen los idiomas de las personalizaciones implementadas.
 
 ## <a name="entry"></a>Entrada
 
@@ -89,7 +89,7 @@ Cuando el atributo **Etiqueta** del origen de datos **Parámetro de entrada del 
 
 ### <a name="format-component"></a>Componente de formato
 
-Cuando configura un formato ER, puede agregarle etiquetas ER. Los atributos **Etiqueta** y **Texto de ayuda** de cada origen de datos configurado se pueden vincular a una etiqueta ER que se agrega al formato ER. Los atributos **Etiqueta** y **Descripción** de cada valor enumeración <a id="LinkFormatEnum"></a>de formato también se puede vincular a una etiqueta ER que sea accesible desde el formato ER editable.
+Cuando configura un formato ER, puede agregarle etiquetas ER. Los atributos **Etiqueta** y **Texto de ayuda** de cada origen de datos configurado se pueden vincular a una etiqueta ER que se agrega al formato ER. Los atributos **Etiqueta** y **Descripción** de cada valor de enumeración de formato <a id="LinkFormatEnum"></a> también se pueden vincular a una etiqueta ER que sea accesible desde el formato ER editable.
 
 > [!NOTE]
 > También puede vincular estos atributos a una etiqueta ER del modelo de datos ER primario que reutiliza las etiquetas del modelo en cada formato ER configurado para este modelo de datos ER.
@@ -218,6 +218,11 @@ Las etiquetas de un componente ER que se pueden editar se guardan, junto con otr
 
 Se puede hacer referencia a las etiquetas de un componente ER base en una versión derivada del componente ER que cree para introducir sus modificaciones.
 
+> [!TIP]
+> Cuando diseña una solución de ER, puede derivar su propio componente de ER [modelo de datos](er-overview-components.md#data-model-component) del que se proporciona. En este modelo de datos derivado, puede introducir sus propias etiquetas de ER y usarlas en todos los formatos de ER que usarán el modelo de datos como origen de datos. A continuación, puede derivar su propio componente de ER [formato](er-overview-components.md#format-component) del que se proporciona, seleccionando su modelo de datos de ER derivado en lugar del proporcionado. En la versión 10.0.28 y posteriores, puede habilitar la característica **Acceso mejorado a etiquetas del modelo de datos de ER ascendente** para acceder a etiquetas de un modelo de datos ER ascendente en componentes de formato ER derivados, incluso si el modelo de datos de ER seleccionado para el componente ER derivado difiere del que se usó en el componente de ER base.
+>
+> Cuando se usa el mismo nombre de etiqueta en su componente derivado y sus componentes ascendentes, su traducción de esa etiqueta se usa como la más relevante.
+
 El control de versiones de ER controla la asignación de etiquetas a cualquier atributo en un componente de ER. Los cambios en la asignación de etiquetas se registran en la lista de cambios (delta) de un componente ER editable que se ha creado como una versión derivada del componente ER proporcionado. Estos cambios se validarán cuando una versión derivada se cambie a una nueva versión base.
 
 ## <a name="functions"></a>Funciones
@@ -231,14 +236,14 @@ Como se describió anteriormente en este tema, los atributos **Etiqueta** y **De
 
 ## <a name="performance"></a><a name=performance></a>Rendimiento
 
-Cuando configura un componente de formato ER para generar un informe en su preferencia de [idioma](#language), o para importar un documento entrante donde el contenido se analiza en su idioma preferido, le recomendamos que habilite la función **Almacene en caché el idioma preferido del usuario actual para las ejecuciones de ER** en el espacio de trabajo [Gestión de funciones](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esta función ayuda a mejorar el rendimiento, especialmente para los componentes de formato ER que contienen múltiples referencias a etiquetas en fórmulas y enlaces ER y muchas reglas de [validación](general-electronic-reporting-formula-designer.md#TestFormula) para generar mensajes de usuario en su idioma preferido.
+Cuando configura un componente de formato ER para generar un informe en su preferencia de [idioma](#language), o para importar un documento entrante donde el contenido se analiza en su idioma preferido, le recomendamos que habilite la función **Almacene en caché el idioma preferido del usuario actual para las ejecuciones de ER** en el área de trabajo [Gestión de funciones](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esta función ayuda a mejorar el rendimiento, especialmente para los componentes de formato ER que contienen múltiples referencias a etiquetas en fórmulas y enlaces ER y muchas reglas de [validación](general-electronic-reporting-formula-designer.md#TestFormula) para generar mensajes de usuario en su idioma preferido.
 
 Cuando cambia el estado de una versión de configuración de ER de **Borrador** a **Terminado**, si la versión de configuración contiene etiquetas ER, esas etiquetas se almacenan en la base de datos de la aplicación. El esquema de almacenamiento depende del estado de la característica **Acelerar el almacenamiento de etiquetas ER**:
 
 - Si la función no está habilitada, todas las etiquetas se almacenan en el campo **LABELXML** de la tabla **ERSOLUTIONVERSIONTABLE** como un único fragmento de código XML.
 - Si la característica está habilitada, se crea un registro separado para cada idioma en la tabla **ERSOLUTIONVERSIONLABELSTABLE**. El campo **CONTENIDO** de esta tabla almacena etiquetas por idioma como un fragmento XML comprimido.
 
-Le recomendamos que habilite la característica **Acelerar el almacenamiento de etiquetas ER** en el espacio de trabajo **Gestión de características**. Esta función ayuda a mejorar la utilización del ancho de banda de la red y el rendimiento general del sistema porque, en la mayoría de los casos, se utilizan etiquetas de ER de un solo idioma cuando se trabaja con una configuración de ER única.
+Le recomendamos que habilite la característica **Acelerar el almacenamiento de etiquetas ER** en el área de trabajo **Gestión de características**. Esta función ayuda a mejorar la utilización del ancho de banda de la red y el rendimiento general del sistema porque, en la mayoría de los casos, se utilizan etiquetas de ER de un solo idioma cuando se trabaja con una configuración de ER única.
 
 Para aplicar el esquema de almacenamiento seleccionado para mantener las etiquetas de todas las configuraciones de ER en la instancia de Finance actual, complete los siguientes pasos.
 

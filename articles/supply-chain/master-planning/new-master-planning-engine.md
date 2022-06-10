@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469908"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809106"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
@@ -63,7 +63,7 @@ Actualmente, las excepciones para la migración a Optimización de la planificac
 
 Una vez que las funciones necesarias estén disponibles, Microsoft proporcionará un período de gracia hasta que expire la excepción. Se informará al administrador del entorno cuando las funciones necesarias estén disponibles y haya comenzado el período de gracia.
 
-El siguiente diagrama de flujo resume la información proporcionada en este tema para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962).
+El siguiente diagrama de flujo resume la información proporcionada en este tema para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962). El grupo de productos es responsable de evaluar y aprobar cada solicitud de excepción, así que envíe su solicitud directamente al grupo de productos mediante el enlace provisto y no cree un ticket de soporte para ello. Si se rechaza su solicitud, no cree una incidencia de soporte técnico porque el Soporte de Microsoft no puede volver a evaluar ni otorgar excepciones.
 
 ![Diagrama de flujo de excepciones.](media/exception-diagram.png "Diagrama de flujo de excepciones")
 

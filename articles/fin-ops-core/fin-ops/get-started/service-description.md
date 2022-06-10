@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740663"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758780"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descripción del servicio para aplicaciones de finanzas y operaciones
 
@@ -132,9 +132,9 @@ Esta sección describe algunos eventos típicos de administración de datos y en
 
 LCS proporciona [herramientas de autoservicio](../../dev-itpro/deployment/infrastructure-stack.md) y [operaciones de movimiento de base de datos](../../dev-itpro/database/dbmovement-operations.md) que se utilizan para realizar tareas de gestión de datos y entorno. A continuación, encontrará algunos ejemplos:
 
-**Evento:** [Solicitando una instancia de producción](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Evento:** [Solicitando una instancia de producción](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Completar la [Lista de verificación de puesta en marcha](../imp-lifecycle/prepare-go-live.md) y envíela al equipo de [Microsoft FastTrack](/dynamics365/fasttrack/).
+- Completar la [Revisión de preparación de puesta en marcha](../imp-lifecycle/prepare-go-live.md) y envíela al equipo de [Microsoft FastTrack](/dynamics365/fasttrack/).
 - Completar el [Estimador de suscripción LCS](../../dev-itpro/lifecycle-services/subscription-estimator.md) antes de solicitar una instancia de producción.
 - Completar todas las tareas de implementación que se especifican en la [Metodología LCS](../../dev-itpro/lifecycle-services/create-methodology.md).
 

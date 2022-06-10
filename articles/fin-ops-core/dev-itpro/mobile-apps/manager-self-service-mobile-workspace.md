@@ -2,7 +2,7 @@
 title: Espacio de trabajo móvil Mi equipo
 description: Este tema proporciona información sobre el espacio de trabajo Mi equipo, que permite a los administradores ver el personal subordinado directo y ampliado.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767121"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811068"
 ---
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Mi equipo**. Este espacio de trabajo permite a los administradores ver su personal subordinado directo y ampliado. También pueden enviar elogios a otras personas en su cadena de subordinados.
 
@@ -54,7 +55,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </ul>
 </td>
 <td>Administrador del sistema</td>
-<td>Si aún no tiene un aplicación de Finance and Operations implementada en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si aún no tiene Recursos humanos implementado en su organización, el administrador del sistema puede acceder a una versión de prueba en la <a href="https://dynamics.microsoft.com/human-resources/overview/">página web de Recursos humanos</a>.
+<td>Si no tiene la aplicación Finance and Operations implementado en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si aún no tiene Recursos humanos implementado en su organización, el administrador del sistema puede acceder a una versión de prueba en la <a href="https://dynamics.microsoft.com/human-resources/overview/">página web de Recursos humanos</a>.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +68,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
-Descargar e instalar la aplicación móvil de Finance and Operations:
+Descargue e instale la aplicación móvil Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

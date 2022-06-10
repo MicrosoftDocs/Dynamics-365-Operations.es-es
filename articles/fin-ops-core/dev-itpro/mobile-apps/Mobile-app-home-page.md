@@ -2,7 +2,7 @@
 title: Página principal de aplicación móvil
 description: Este tema describe la aplicación móvil de Finance and Operations (Dynamics 365) y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729717"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811184"
 ---
 # <a name="mobile-app-home-page"></a>Página principal de aplicación móvil
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Este tema describe la aplicación móvil de **Finance and Operations (Dynamics 365)** y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
 
@@ -131,7 +132,7 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 <td>Usuario</td>
 <td>Descargar e instalar la aplicación móvil.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Aplicación Finance and Operations para Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662"> Aplicación Finance and Operations para Android</a><BR/>
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Aplicación Finance and Operations para iOS</a><BR/>
 (Windows puede no admitido)
 </td>

@@ -2,7 +2,7 @@
 title: Operaciones de punto de venta (PDV) en línea y sin conexión
 description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Dynamics 365 Commerce. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740691"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811211"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -44,7 +44,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 > [!NOTE]
 > Las operaciones que se muestran a continuación se aplican a la última versión de Commerce. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
 
-| Id.   | Operación                                         | Description                                                                                                                                                                                                    | ¿Operación de usuario?    | Pantalla de transacción | Pantalla de bienvenida | ¿Disponible sin conexión? | Específico de configuración regional |
+| Id.   | Operación                                         | Description                                                                                                                                                                                                    | Operaciones de usuario    | Pantalla de transacción | Pantalla de bienvenida | ¿Disponible sin conexión? | Específico de configuración regional |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Venta de producto                                      | Agregue un producto especificado a la transacción.                                                                                                                                                                    | Sí            | Sí                | Sí            | Sí               | No              |
 | 101  | Comprobación de precio                                       | Buscar el precio de un producto específico.                                                                                                                                        | Sí            | Sí                | Sí            | Sí               | No              |
@@ -273,11 +273,11 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 1219 | Abrir dirección URL en PDV                                   | Abra una URL configurada por el administrador en el PDV.                                                                                                                                                                           | Sí            | Sí                | Sí            | Sí               | No              |
 | 1220 | Administrar caja fuerte                                       | Administrar la caja fuerte para diferentes registros.                                                                                                                                                                       | Sí            | Sí                | Sí            | Sí               | No              |
 | 1221 | Anular transacciones suspendidas                       | Anular transacciones suspendidas.                                                                                                                                                                               | Sí            | Sí                | Sí            | Sí               | No              |
-| 1300 | Omitir registro fiscal                          | Omitir registro fiscal.                                                                                                                                                                                       | Sí            | Sí                | Sí            | Sí               | Sí             |
-| 1301 | Marcar evento fiscal registrado                      |  Marcar evento fiscal como registrado.                                                                                                                                                                                  | Sí            | Sí                | Sí            | Sí               | Sí             |
-| 1302 | Completar de proceso de registro fiscal              | Completar el proceso de registro fiscal.                                                                                                                                                                           | Sí            | Sí                | Sí            | Sí               | Sí             |
-| 1303 | Omitir error de comprobación de estado                           | Omitir error de comprobación de estado.                                                                                                                                                                                        | Sí            | Sí                | Sí            | Sí               | Sí             |
-| 1304 |  Posponer registro fiscal                     | Posponer registro fiscal.                                                                                                                                                                                  | Sí            | Sí                | Sí            | Sí               | Sí             |
+| 1300 | Omitir registro fiscal                          | Omitir registro fiscal.                                                                                                                                                                                       | No            | No                | No            | Sí               | No             |
+| 1301 | Marcar evento fiscal registrado                      |  Marcar evento fiscal como registrado.                                                                                                                                                                                  | No            | No                | No            | Sí               | No             |
+| 1302 | Completar de proceso de registro fiscal              | Completar el proceso de registro fiscal.                                                                                                                                                                           | No            | No                | Sí            | Sí               | Sí             |
+| 1303 | Omitir error de comprobación de estado                           | Omitir error de comprobación de estado.                                                                                                                                                                                        | Sí            | Sí                | Sí            | Sí               | No             |
+| 1304 |  Posponer registro fiscal                     | Posponer registro fiscal.                                                                                                                                                                                  | No            | No                | No            | Sí               | No             |
 | 1400 | Administrar listas de comprobación y tareas                       | Administre la lista de verificación y las tareas de los empleados.                                                                                                                                                                        | No             | No                 | Sí            | No                | No              |
 | 2000 | Programar administración                               | Todavía no se admite esta operación.                                                                                                                                                                           | Sí            | Sí                | Sí            | No                | No              |
 | 2001 | Programar solicitudes                                 | Todavía no se admite esta operación.                                                                                                                                                                           | Sí            | Sí                | Sí            | No                | No              |

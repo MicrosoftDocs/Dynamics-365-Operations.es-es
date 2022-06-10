@@ -1,8 +1,8 @@
 ---
-title: Firmar MPOS con un certificado de firma codificado
+title: Firmar archivo .appx MPOS con el certificado de firma codificado
 description: Este tema explica cómo registrarse para MPOS con un certificado de firma de código.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741552"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811094"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>Firmar archivo .appx de MPOS con el certificado de firma codificado
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Firmar archivo .appx MPOS con el certificado de firma codificado
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Para instalar Modern POS (MPOS), debe firmar la aplicación MPOS con un certificado de firma de código de un proveedor confiable e instalar el mismo certificado en todas las máquinas donde MPOS está instalado en la carpeta raíz confiable para el usuario actual.
 
@@ -42,7 +43,7 @@ El uso de una tarea de archivo seguro es el enfoque recomendado para la firma de
 ![Flujo de firma de la aplicación MPOS.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> Actualmente, el paquete OOB solo admite la firma del archivo appx, los diferentes instaladores de autoservicio como MPOIS, RSSU y HWS no están firmados por este proceso. Debe firmarlo manualmente con SignTool u otras herramientas de firma. El certificado utilizado para firmar el archivo appx debe estar instalado en la máquina donde está instalado Modern POS.
+> Actualmente, el paquete OOB solo admite la firma del archivo .appx, los diferentes instaladores de autoservicio como MPOIS, RSSU y HWS no están firmados por este proceso. Debe firmarlo manualmente con SignTool u otras herramientas de firma. El certificado utilizado para firmar el archivo .appx debe estar instalado en la máquina donde está instalado Modern POS.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Pasos para configurar el certificado para iniciar sesión en Azure Pipelines
 
@@ -51,21 +52,22 @@ El uso de una tarea de archivo seguro es el enfoque recomendado para la firma de
 Descargue la [tarea DownloadFile](/visualstudio/msbuild/downloadfile-task) y agréguela como primer paso en el proceso de compilación. La ventaja de usar la tarea de archivo seguro es que el archivo se cifra y se coloca en el disco durante la compilación sin importar si la canalización de compilación se realiza correctamente, falla o se cancela. El archivo se elimina de la ubicación de descarga una vez que se completa el proceso de compilación.
 
 1. Descargue y agregue la tarea Archivo seguro como primer paso en la canalización de compilación de Azure. Puede descargar la tarea Archivo seguro desde [DownloadFile](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Cargue el certificado en la tarea Archivo seguro y configure el Nombre de referencia en Variables de salida, como se muestra en la siguiente imagen.
+1. Cargue el certificado en la tarea Archivo seguro y configure el Nombre de referencia en Variables de salida, como se muestra en la siguiente imagen.
     > [!div class="mx-imgBorder"]
     > ![Tarea Archivo seguro.](media/SecureFile.png)
-3. Cree una nueva variable en Azure Pipelines seleccionando **Nueva variable** bajo la pestaña **Variables**.
-4. Proporcione un nombre para la variable en el campo de valor, por ejemplo, **MySigningCert**.
-5. Guarde la variable.
-6. Abra el archivo **Customization.settings** de **RetailSDK\\BuildTools** y actualice el **ModernPOSPackageCertificateKeyFile** con el nombre de la variable creada en la canalización (paso 3). Por ejemplo:
+1. Cree una nueva variable en Azure Pipelines seleccionando **Nueva variable** bajo la pestaña **Variables**.
+1. Proporcione un nombre para la variable en el campo de valor, por ejemplo, **MySigningCert**.
+1. Guarde la variable.
+1. Abra el archivo **Customization.settings** de **RetailSDK\\BuildTools** y actualice el **ModernPOSPackageCertificateKeyFile** con el nombre de la variable creada en la canalización (paso 3). Por ejemplo:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Este paso es obligatorio si el certificado no está protegido con contraseña. Si el certificado está protegido con contraseña, continúe con los siguientes pasos.
- 
-7. En la pestaña **Variables** de la canalización, agregue una nueva variable de texto seguro. Establezca el nombre en **MySigningCert.secret** y establezca el valor de la contraseña para el certificado. Seleccione el icono de candado para proteger la variable.
-8. Agregue una tarea **Guión de Powershell** a la canalización (después de Descargar archivo seguro y antes del paso Crear). Proporcione el nombre para **mostrar** y establezca el Tipo como **En línea**. Copie y pegue lo siguiente en la sección del script.
+    
+1. Si desea colocar una marca de tiempo en el archivo MPOS .appx al firmarlo con un certificado, abra el archivo **Retail SDK\\Build tool\\Customization.settings** y actualice la variable **ModernPOSPackageCertificateTimestamp** con el proveedor de marca de tiempo (por ejemplo, `http://timestamp.digicert.com`).
+1. En la pestaña **Variables** de la canalización, agregue una nueva variable de texto seguro. Establezca el nombre en **MySigningCert.secret** y establezca el valor de la contraseña para el certificado. Seleccione el icono de candado para proteger la variable.
+1. Agregue una tarea **Guión de Powershell** a la canalización (después de Descargar archivo seguro y antes del paso Crear). Proporcione el nombre para **mostrar** y establezca el Tipo como **En línea**. Copie y pegue lo siguiente en la sección del script.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Descargue la [tarea DownloadFile](/visualstudio/msbuild/downloadfile-task) y agr
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Abra el archivo **Customization.settings** de **RetailSDK\\BuildTools** y actualice **ModernPOSPackageCertificateThumbprint** con el valor de la huella digital del certificado.
+1. Abra el archivo **Customization.settings** de **RetailSDK\\BuildTools** y actualice **ModernPOSPackageCertificateThumbprint** con el valor de la huella digital del certificado.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ Descargue la [tarea DownloadFile](/visualstudio/msbuild/downloadfile-task) y agr
  
 Para obtener detalles sobre cómo obtener la huella digital de un certificado, consulte [recuperar la huella digital de un certificado](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Descargue o genere un certificado para firmar la aplicación MPOS manualmente usando msbuild en SDK
 
 Si se usa un certificado descargado o generado para firmar la aplicación MPOS, entonces actualice el nodo **ModernPOSPackageCertificateKeyFile** del archivo **BuildTools\\Customization.settings** para apuntar a la ubicación del archivo pfx (**$(SdkReferencesPath)\\appxsignkey.pfx**). Por ejemplo:

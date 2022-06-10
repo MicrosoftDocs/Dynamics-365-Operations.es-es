@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547799"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786849"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
 
@@ -60,12 +60,12 @@ El complemento de visibilidad de inventario agrega varias funciones nuevas a su 
 
 Si no conoce el punto de conexión de servicio de visibilidad de inventario correcto, abra la página **Configuración** en Power Apps y luego seleccione **Mostrar punto de conexión de servicio** en la esquina superior derecha. La página mostrará el punto de conexión de servicio correcto.
 
-## <a name="data-source-configuration"></a>Configuración del origen de datos
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuración del origen de datos
 
 Cada origen de datos representa un sistema del que provienen sus datos. Los nombres de origen de datos de ejemplo incluyen `fno` (que significa "Aplicaciones de finanzas y operaciones de Dynamics 365") y `pos` (que significa "punto de venta"). De forma predeterminada, Supply Chain Management está configurado como origen de datos predeterminado (`fno`) en Visibilidad de inventario.
 
 > [!NOTE]
-> El origen de datos `fno` está reservado para Supply Chain Management. Si su complemento de visibilidad de inventario está integrado con un entorno de Supply Chain Management, le recomendamos que no elimine las configuraciones relacionadas con `fno` en la fuente de datos.
+> El origen de datos `fno` está reservado para Supply Chain Management. Si su complemento de visibilidad de inventario está integrado con un entorno de Supply Chain Management, le recomendamos que no elimine las configuraciones relacionadas con `fno` en el origen de datos.
 
 Para añadir un origen de datos, siga estos pasos.
 
@@ -141,7 +141,7 @@ Para agregar asignaciones de dimensiones, siga estos pasos.
 
 Por ejemplo, si su origen de datos incluye una dimensión de color de producto, puede asignarla a la dimensión base `ColorId` para agregar una dimensión personalizada de `ProductColor` en el origen de datos `exterchannel`. Luego se asigna a la dimensión base `ColorId`.
 
-### <a name="physical-measures"></a>Medidas físicas
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Medidas físicas
 
 Cuando un origen de datos publica un cambio de inventario en Visibilidad de inventario, publica ese cambio utilizando *medidas físicas*. Las medidas físicas modifican la cantidad y reflejan el estado del inventario. Puede definir sus propias medidas físicas, según sus requisitos. Las consultas pueden basarse en las medidas físicas.
 
@@ -176,6 +176,9 @@ Si el origen de datos es Supply Chain Management, no es necesario que vuelva a c
 
 Puede utilizar Visibilidad del inventario para consultar tanto las medidas físicas del inventario como *medidas calculadas personalizadas*. Las medidas calculadas proporcionan una fórmula de cálculo personalizada que consta de una combinación de medidas físicas. Esta funcionalidad le permite definir un conjunto de medidas físicas que se agregarán o un conjunto de medidas físicas que se restarán, para crear la medida personalizada.
 
+> [!IMPORTANT]
+> Una medida calculada es una composición de medidas físicas. Su fórmula puede incluir solo medidas físicas sin duplicados, y no medidas calculadas.
+
 La configuración le permite definir un conjunto de modificadores que se suman o restan para obtener la cantidad de salida agregada total.
 
 Para configurar una medida calculada personalizada, siga estos pasos:
@@ -192,7 +195,7 @@ Para configurar una medida calculada personalizada, siga estos pasos:
 1. Establezca los siguientes campos para el nuevo modificador:
 
     - **Modificador**: seleccione el tipo de modificador (*Suma* o *Resta*).
-    - **Origen de datos** – Seleccione la fuente de datos donde se debe encontrar la medida que proporciona el valor del modificador.
+    - **Origen de datos** – Seleccione el origen de datos donde se debe encontrar la medida que proporciona el valor del modificador.
     - **Medida** – Seleccione el nombre de la medida (del origen de datos seleccionado) que proporciona el valor para el modificador.
 
 1. Repita los pasos 5 y 6 hasta que haya agregado todos los modificadores necesarios.
@@ -283,7 +286,7 @@ El resultado de `MyCustomAvailableforReservation`, basado en la configuración d
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuración de partición
 
-Actualmente, la configuración de la partición consta de dos dimensiones base (`SiteId` y `LocationId`) que indican cómo se distribuyen los datos. Las operaciones en la misma partición pueden ofrecer un mayor rendimiento a un menor costo. La siguiente tabla muestra la configuración de partición predeterminada que proporciona el complemento Visibilidad de inventario.
+Actualmente, la configuración de la partición consta de dos dimensiones base (`SiteId` y `LocationId`) que indican cómo se distribuyen los datos. Las operaciones en la misma partición pueden ofrecer un mayor rendimiento a un menor coste. La siguiente tabla muestra la configuración de partición predeterminada que proporciona el complemento Visibilidad de inventario.
 
 | Dimensión base | Jerarquía |
 |---|---|
@@ -401,7 +404,7 @@ Para definir la asignación de reserva flexible, siga estos pasos.
     | Resta | `pos` | `Outbound` |
     | Resta | `iv` | `SoftReservOrdered` |
 
-    Le recomendamos que configure la medida calculada para que contenga la medida física en la que se basa la medida de reserva. De esta forma, la cantidad de medida calculada se verá afectada por la cantidad de medida de reserva. Por lo tanto, en este ejemplo, la medida calculada `AvailableToReserve` de la fuente de datos `iv` debe contener la medida física `SoftReservOrdered` de `iv` como componente.
+    Le recomendamos que configure la medida calculada para que contenga la medida física en la que se basa la medida de reserva. De esta forma, la cantidad de medida calculada se verá afectada por la cantidad de medida de reserva. Por lo tanto, en este ejemplo, la medida calculada `AvailableToReserve` del origen de datos `iv` debe contener la medida física `SoftReservOrdered` de `iv` como componente.
 
 1. Abra la página **Configuración**.
 1. En la ficha **Asignación de reservas flexibles**, configure la asignación de la medida física a la medida calculada. Para el ejemplo anterior, puede usar la siguiente configuración para asignar `AvailableToReserve` a la medida física `SoftReservOrdered` definida previamente.
