@@ -1,6 +1,6 @@
 ---
 title: Página principal de Finance
-description: En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance.
+description: En este artículo se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance.
 author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887901"
 ---
 # <a name="finance-home-page"></a>Página principal de Finance
 
 [!include [banner](includes/banner.md)]
 
-En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance. 
+En este artículo se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance. 
 
 Seleccione un área de características para obtener más información al respecto.
 

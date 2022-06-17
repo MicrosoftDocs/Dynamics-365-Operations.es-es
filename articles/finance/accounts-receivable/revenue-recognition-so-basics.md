@@ -1,6 +1,6 @@
 ---
 title: Reconocimiento de ingresos en pedidos de ventas
-description: En este tema se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en el pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas.
+description: En este artículo se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en el pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899968"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconocimiento de ingresos en pedidos de ventas
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725495"
 > [!NOTE]
 > La característica Reconocimiento de ingresos no se puede activar a través de Administración de características. Actualmente, debe utilizar las claves de configuración para activarla.
 
-En este tema se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en un pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas. El pedido de ventas también se puede crear mediante un proyecto de tiempo y materiales.
+En este artículo se describe la funcionalidad básica para reconocer ingresos en pedidos de ventas y facturas. El reconocimiento de ingresos está disponible en un pedido de ventas y en la factura correspondiente que se crea a partir del pedido de ventas. El pedido de ventas también se puede crear mediante un proyecto de tiempo y materiales.
 
 > [!NOTE]
-> En las ilustraciones de este tema, se han ocultado o agregado columnas en la cuadrícula para mostrar mejor los conceptos. Por lo tanto, las páginas y los datos de las ilustraciones pueden ser diferentes a los que ve en el producto.
+> En las ilustraciones de este artículo, se han ocultado o agregado columnas en la cuadrícula para mostrar mejor los conceptos. Por lo tanto, las páginas y los datos de las ilustraciones pueden ser diferentes a los que ve en el producto.
 
 ## <a name="enter-a-sales-order"></a>Especificar un pedido de ventas
 

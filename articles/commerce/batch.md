@@ -1,6 +1,6 @@
 ---
 title: Control administrado de artículos con seguimiento por lotes
-description: En este tema se describen el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 736ab8dd21f04d7119cca6d53bfeb5e408b8cbd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881889"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Control administrado de artículos con seguimiento por lotes
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describen el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
+En este artículo se describe el control mejorado de los artículos con seguimiento por lotes durante el proceso de registro de extracto en Microsoft Dynamics 365 Commerce.
 
 En el punto de venta (PDV) de Dynamics 365 Commerce, los números de lotes no se pueden obtener para los artículos con seguimiento por lotes en el momento de la venta. Sin embargo, para las configuraciones específicas cuando se registran las ventas en las sedes centrales de Commerce a través del registro de extractos o pedidos de clientes, Commerce espera que existan números de lotes válidos para artículos con seguimiento por lotes y se usarán durante el proceso de facturación.
 

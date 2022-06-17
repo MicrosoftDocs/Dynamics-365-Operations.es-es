@@ -1,6 +1,6 @@
 ---
 title: Agrupaciones de reconocimiento de ingresos
-description: Este tema describe la funcionalidad de agrupación que se incluye en la capacidad de reconocimiento de ingresos en Clientes. Una agrupación comprende un elemento principal y varios elementos componentes.
+description: Este artículo describe la funcionalidad de agrupación que se incluye en la capacidad de reconocimiento de ingresos en Clientes. Una agrupación comprende un elemento principal y varios elementos componentes.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876307"
 ---
 # <a name="revenue-recognition-bundles"></a>Agrupaciones de reconocimiento de ingresos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la funcionalidad de agrupación que se incluye en la capacidad de reconocimiento de ingresos en Clientes. Una agrupación comprende un elemento principal y varios elementos componentes. El elemento principal se introduce en un pedido de ventas, por lo que la entrada de pedidos es más eficiente. Sin embargo, luego se desglosa en los elementos componentes. Los documentos internos, como el albarán, enumerarán los elementos componentes. Sin embargo, los documentos externos solo mostrarán el elemento principal.
+Este artículo describe la funcionalidad de agrupación que se incluye en la capacidad de reconocimiento de ingresos en Clientes. Una agrupación comprende un elemento principal y varios elementos componentes. El elemento principal se introduce en un pedido de ventas, por lo que la entrada de pedidos es más eficiente. Sin embargo, luego se desglosa en los elementos componentes. Los documentos internos, como el albarán, enumerarán los elementos componentes. Sin embargo, los documentos externos solo mostrarán el elemento principal.
 
 > [!NOTE]
 > Los canales de Microsoft Dynamics 365 Commerce, como en línea, punto de venta (PDV) y centros de llamadas, no admiten el reconocimiento de ingresos (incluida la funcionalidad de agrupación). Esto también incluye la solución Cliente potencial a efectivo para Dynamics 365 Supply Chain Management y Dynamics 365 Sales. Los elementos que están configurados para usar el reconocimiento de ingresos no deben agregarse a pedidos o transacciones creados en los canales de Commerce ni en la solución Cliente potencial a efectivo.

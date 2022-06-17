@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Servicio previo y postservicio
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pausar actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Recibir notificaciones acerca de las actualizaciones de servicio
@@ -1529,6 +1531,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Solucionar problemas de rendimiento en configuraciones de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Reducir el número de campos de tabla que se capturan en tiempo de ejecución
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Administración de documentos empresariales (BDM)
                   items:
                     - name: Información general del BDM

@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes sobre las actividades de fin de ejercicio
-description: Este tema enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio.
+description: Este artículo enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865751"
 ---
 # <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de ejercicio 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio. La información de este tema se centra principalmente en dudas sobre actividades de cierre de fin de ejercicio para contabilidad general y Proveedores.
+Este artículo enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio. La información de este artículo se centra principalmente en dudas sobre actividades de cierre de fin de ejercicio para contabilidad general y Proveedores.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Mejoras de fin de año de contabilidad general 
 La versión 10.0.20 introdujo una mejora de cierre de fin de ejercicio, que está habilitada de forma predeterminada a partir de la versión 10.0.25. Si su organización utiliza una versión anterior a la 10.0.25, le recomendamos habilitar esta característica antes de comenzar el proceso de cierre de fin de ejercicio. Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo Administración de características para comprobar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
@@ -75,7 +75,7 @@ Los conjuntos de dimensiones innecesarios también afectan al trabajo por lotes 
 [![Conjuntos de dimensiones financieras.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuración de la plantilla del cierre de fin de año
-La plantilla del cierre de fin de año permite a las organizaciones seleccionar el nivel de la dimensión financiera que deben mantener a la hora de transferir los saldos de pérdidas y ganancias a las ganancias retenidas. La configuración permite que una organización mantenga las dimensiones financieras detalladas (**Cerrar todo**) al mover los saldos a ganancias retenidas o elegir resumir los importes en un valor de dimensión única (**Cerrar uno**). Esto se puede definir para cada dimensión financiera. Para obtener más información sobre estas configuraciones, consulte el tema [Cierre de fin de año](year-end-close.md).
+La plantilla del cierre de fin de año permite a las organizaciones seleccionar el nivel de la dimensión financiera que deben mantener a la hora de transferir los saldos de pérdidas y ganancias a las ganancias retenidas. La configuración permite que una organización mantenga las dimensiones financieras detalladas (**Cerrar todo**) al mover los saldos a ganancias retenidas o elegir resumir los importes en un valor de dimensión única (**Cerrar uno**). Esto se puede definir para cada dimensión financiera. Para obtener más información sobre estas configuraciones, consulte el artículo [Cierre de fin de año](year-end-close.md).
 
 Le recomendamos que evalúe los requisitos de su organización y, si es posible, cierre tantas dimensiones como sea posible mediante la opción de fin de año **Cerrar uno** para mejorar el rendimiento. Al cerrar a un valor de dimensión única (que también puede ser un valor en blanco), el sistema calcula menos detalles a la hora de determinar los saldos para los asientos contables de ganancias retenidas.
 

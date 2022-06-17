@@ -1,6 +1,6 @@
 ---
 title: Saldos de apertura que faltan en el cierre de fin de año
-description: Este tema explica por qué pueden faltar los saldos de apertura al cerrar un año y cómo reconstruir esos saldos si faltan.
+description: Este artículo explica por qué pueden faltar los saldos de apertura al cerrar un año y cómo reconstruir esos saldos si faltan.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894859"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Saldos de apertura que faltan en el cierre de fin de año
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica por qué pueden faltar los saldos de apertura al cerrar un año y cómo reconstruir esos saldos si faltan.
+Este artículo explica por qué pueden faltar los saldos de apertura al cerrar un año y cómo reconstruir esos saldos si faltan.
 
 ### <a name="symptom"></a>Síntoma
 
@@ -36,7 +36,7 @@ Estas son cosas a comprobar si ha cerrado un año en el libro mayor y luego ha g
 
 Si el campo **Deshacer cierre anterior** está establecido en **Sí**, se estará deshaciendo el cierre de año anterior para el mismo ejercicio. Al ejecutar un proceso de deshacer el cierre de fin de ejercicio, se eliminarán todas las entradas de los saldos de cierre y apertura, como si nunca se hubiera ejecutado el cierre de fin de ejercicio. Los asientos también se eliminan. El proceso de cierre de fin de ejercicio no se volverá a ejecutar de forma automática. Debe iniciar el proceso de nuevo, pero esta vez actualice la opción **Deshacer cierre anterior** a **No**.
 
-Este escenario se trata en el tema de preguntas frecuentes sobre el cierre de fin de ejercicio. Para más información, consulte [Preguntas frecuentes sobre actividades de fin de ejercicio](faq-year-end-activities.md).
+Este escenario se trata en el artículo de preguntas frecuentes sobre el cierre de fin de ejercicio. Para más información, consulte [Preguntas frecuentes sobre actividades de fin de ejercicio](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Síntoma
 

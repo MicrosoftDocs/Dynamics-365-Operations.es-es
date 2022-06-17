@@ -60,6 +60,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Servicio previo y postservicio
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Pausar actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Recibir notificaciones acerca de las actualizaciones de servicio
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Redondeo y cálculo de impuestos
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Cálculo de impuestos en líneas de diario generales
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcular y ajustar los impuestos en una factura de proveedor
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Intrastat estonio
                   href: localizations/emea-est-intrastat.md
+                - name: Lista de ventas de la UE
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europa
               items:
                 - name: Información general para Europa
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Informes de impuestos para Hungría
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Intrastat húngaro
+                  href: localizations/emea-hun-intrastat.md
                 - name: Cálculos de impuestos diferidos
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islandia
@@ -3106,12 +3114,14 @@
                   href: localizations/emea-lva-fixed-assets-location-fields-change.md
                 - name: Numeración de factura y albarán
                   href: localizations/emea-invoices-packing-slips-numbering.md
-                - name: Impuesto sobre recursos naturales
+                - name: Informe de impuesto sobre recursos naturales
                   href: localizations/emea-lva-tax-natural-resources.md
                 - name: Detalles de declaración de IVA
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Intrastat letón
                   href: localizations/emea-lva-intrastat.md
+                - name: Lista de ventas de la UE
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lituania
               items:
                 - name: Información general para Lituania
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Configurar los documentos de transferencia para el movimiento de mercancías dentro de una empresa
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: Lista de ventas de la UE
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malasia
               items:
                 - name: Información general para Malasia
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Solucionar problemas de rendimiento en configuraciones de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Reducir el número de campos de tabla que se capturan en tiempo de ejecución
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Administración de documentos empresariales (BDM)
                   items:
                     - name: Información general del BDM

@@ -1,6 +1,6 @@
 ---
 title: Validar las transacciones de la tienda para el cálculo de extractos
-description: En este tema se describe la funcionalidad para validar transacciones de tienda en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe la funcionalidad para validar transacciones de tienda en Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890524"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Validar las transacciones de la tienda para el cálculo de extractos
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe la funcionalidad para validar transacciones de tienda en Microsoft Dynamics 365 Commerce. El proceso de validación identifica y marca las transacciones que causarán errores de registro, antes de que se seleccionen por el proceso de registro de extractos.
+En este artículo se describe la funcionalidad para validar transacciones de tienda en Microsoft Dynamics 365 Commerce. El proceso de validación identifica y marca las transacciones que causarán errores de registro, antes de que se seleccionen por el proceso de registro de extractos.
 
 Cuando intenta registrar un extracto, se puede generar un error en el proceso de validación debido a datos incoherentes en las tablas de transacciones de Commerce. A continuación, se muestran algunos ejemplos de factores que pueden causar estas incoherencias:
 

@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865843"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Obtenga información sobre cómo hacer que las aplicaciones de Finance and Operations funcionen para su empresa, usando los recursos de este tema para encontrar contenido óptimo para usuarios finales, desarrolladores y profesionales de TI. 
+Obtenga información sobre cómo hacer que las aplicaciones de finanzas y operaciones funcionen para su empresa, usando los recursos de este artículo para encontrar contenido óptimo para usuarios finales, desarrolladores y profesionales de TI. 
 
 Mucho de este contenido también se aplica a los productos relacionados: Dynamics 365 Commerce y Dynamics 365 Human Resources. 
 
@@ -72,7 +72,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Dynamic
 <p><a href="../../finance/accounts-receivable/accounts-receivable.md">Clientes</a></p>
 <p><a href="../../finance/budgeting/budgeting-overview.md">Gestión presupuestaria</a></p>
 <p><a href="../../finance/cash-bank-management/cash-bank-management.md">Gestión de efectivo y bancos</a></p>
-<p><a href="../../finance/general-ledger/audit-policy-rules.md">Conformidad</a></p>
+<p><a href="../../finance/general-ledger/audit-policy-rules.md">Cumplimiento</a></p>
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Contabilidad de costes</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Activos fijos</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Contabilidad general</a></p>

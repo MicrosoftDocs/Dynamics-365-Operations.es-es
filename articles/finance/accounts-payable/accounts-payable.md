@@ -1,6 +1,6 @@
 ---
-title: Página principal de proveedores
-description: Este tema proporciona información general de los proveedores.
+title: Página principal de Proveedores
+description: Este artículo proporciona información general de los proveedores.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595296"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946112"
 ---
-# <a name="accounts-payable-home-page"></a>Página principal de proveedores
+# <a name="accounts-payable-home-page"></a>Página principal de Proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general de los proveedores. 
+Este artículo proporciona información general de los proveedores. 
 
 Puede especificar facturas de proveedor manualmente o recibirlas electrónicamente a través de una entidad de datos. Después de que las facturas se especifican o se reciben, puede revisar y aprobar las facturas mediante un diario de aprobación de facturas o la página **Factura de proveedor**. Puede usar la conciliación de facturas, las directivas de facturas de proveedor y el flujo de trabajo para automatizar el proceso de revisión de manera que las facturas que cumplan determinados criterios se aprueben automáticamente y las facturas restantes se marquen para revisión por parte de un usuario autorizado.
 
@@ -126,9 +126,9 @@ Vaya a los [Planes de la versión Microsoft Dynamics 365](/dynamics365/release-p
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre Proveedores y otras soluciones en el blog [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)y el blog [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información sobre proveedores y otras soluciones en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 #### <a name="community-blogs"></a>Blogs de la comunidad
 

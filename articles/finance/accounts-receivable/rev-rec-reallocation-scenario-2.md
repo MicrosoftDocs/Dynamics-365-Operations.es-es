@@ -1,6 +1,6 @@
 ---
 title: 'Reasignación de reconocimiento de ingresos: escenario 2'
-description: En este tema se aborda un escenario de reasignación en el que se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
+description: En este artículo se aborda un escenario de reasignación en el que se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4026b8c69e51cb33c64bcf71a62a13b28b86bd49
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904855"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Reasignación de reconocimiento de ingresos: escenario 2
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se aborda un escenario de reasignación en el que se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
+En este artículo se aborda un escenario de reasignación en el que se introducen dos pedidos de ventas y luego el cliente agrega un artículo al contrato después de facturar el primer pedido de ventas. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
 
 En este escenario, la opción **Registrar correcciones de factura en clientes al reasignar** se establece en **No** en la pestaña **Reconocimiento de ingresos** de la página **Parámetros de Contabilidad general** (**Reconocimiento de ingresos \> Configuración \> Parámetros de Contabilidad general**).
 

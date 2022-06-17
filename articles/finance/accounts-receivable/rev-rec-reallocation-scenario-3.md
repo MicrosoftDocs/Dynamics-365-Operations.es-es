@@ -1,6 +1,6 @@
 ---
 title: 'Reasignación de reconocimiento de ingresos: escenario 3'
-description: En este tema se aborda un escenario de reasignación en el que se agrega una nueva línea a un pedido de ventas facturado y existente. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
+description: En este artículo se aborda un escenario de reasignación en el que se agrega una nueva línea a un pedido de ventas facturado y existente. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904827"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Reasignación de reconocimiento de ingresos: escenario 3
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se aborda un escenario de reasignación en el que se agrega una nueva línea a un pedido de ventas facturado y existente. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente. En este escenario también se muestra lo que ocurre cuando se actualiza Clientes debido a la reasignación.
+En este artículo se aborda un escenario de reasignación en el que se agrega una nueva línea a un pedido de ventas facturado y existente. Cuando se agrega un nuevo artículo a un contrato, se puede agregar a un nuevo pedido de ventas o al pedido de ventas existente. En este escenario también se muestra lo que ocurre cuando se actualiza Clientes debido a la reasignación.
 
 En este escenario, la opción **Registrar correcciones de factura en clientes al reasignar** se establece en **Sí** en la pestaña **Reconocimiento de ingresos** de la página **Parámetros de Contabilidad general** (**Reconocimiento de ingresos \> Configuración \> Parámetros de Contabilidad general**).
 

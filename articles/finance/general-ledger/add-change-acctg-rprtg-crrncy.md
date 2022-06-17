@@ -1,6 +1,6 @@
 ---
 title: Cambiar la divisa contable o de notificación
-description: Este tema explica cómo cambiar la divisa contable o de notificación, o agregar una divisa de notificación a la configuración de un libro mayor.
+description: Este artículo explica cómo cambiar la divisa contable o de notificación, o agregar una divisa de notificación a la configuración de un libro mayor.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904625"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Cambiar la divisa contable o de notificación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo cambiar la divisa contable o de notificación, o agregar una divisa de notificación a la configuración de un libro mayor.
+Este artículo explica cómo cambiar la divisa contable o de notificación, o agregar una divisa de notificación a la configuración de un libro mayor.
 
 ## <a name="symptom"></a>Síntoma
 
@@ -73,8 +73,8 @@ Siga estos pasos para copiar la configuración y los datos maestros de la entida
 10. En el área **Entidades seleccionadas**, elija **Agregar plantilla**.
 11. Seleccione las plantillas a utilizar. Entre las plantillas sugeridas para una nueva entidad jurídica se encuentran **025 - Libro mayor** y **Finanzas**. Le recomendamos que revise todas las demás plantillas disponibles para determinar si alguna de ellas puede aplicarse a sus necesidades.
 12. Seleccione **Copiar en entidad jurídica** para iniciar un proceso por lotes que creará las entidades seleccionadas y las copiará en la entidad jurídica de destino.
-13. Una vez completado el proceso, pero antes de registrar cualquier transacción, vaya al libro mayor y actualice las divisas contable y de notificación, como se describió anteriormente en este tema.
+13. Una vez completado el proceso, pero antes de registrar cualquier transacción, vaya al libro mayor y actualice las divisas contable y de notificación, como se describió anteriormente en este artículo.
 
-Si creó una nueva entidad jurídica para poder cambiar la divisa contable o de notificación, verifique que los saldos iniciales se conviertan de las divisas de la entidad jurídica anterior a las nuevas divisas.
+Si creó una nueva entidad jurídica para poder cambiar la divisa contable o de notificación, compruebe que los saldos iniciales se conviertan de las divisas de la entidad jurídica anterior a las nuevas divisas.
 
 Para ver un vídeo que muestra los pasos anteriores, consulte [Copiar a entidad jurídica](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017).

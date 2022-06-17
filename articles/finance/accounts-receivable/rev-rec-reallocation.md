@@ -1,6 +1,6 @@
 ---
 title: Reasignación de reconocimiento de ingresos
-description: Este tema proporciona información sobre la reasignación, que permite a las organizaciones volver a calcular los precios de los ingresos cuando se modifican los términos de una venta contractual. Incluye vínculos a otros temas que describen cómo reconocer los ingresos en múltiples escenarios.
+description: Este artículo proporciona información sobre la reasignación, que permite a las organizaciones volver a calcular los precios de los ingresos cuando se modifican los términos de una venta contractual. Incluye vínculos a otros temas que describen cómo reconocer los ingresos en múltiples escenarios.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903431"
 ---
 # <a name="revenue-recognition-reallocation"></a>Reasignación de reconocimiento de ingresos
 
@@ -58,9 +58,9 @@ Hay un parámetro que afecta al proceso de reasignación.
 
 Debido a que la reasignación se puede realizar en un pedido de ventas que se factura total o parcialmente, cualquier asiento contable anterior de la factura debe corregirse utilizando los nuevos precios de ingresos reasignados. Esta corrección se realiza mediante la inversión del asiento contable de la factura original y la contabilización de un nuevo asiento basado en los precios de los ingresos reasignados.
 
-Cada organización debe decidir si la corrección debe actualizar solo la contabilidad general o si también debe actualizar los clientes. La decisión que se tome determina la configuración adecuada de la **Registrar correcciones de factura en clientes** en la pestaña **Reconocimiento de ingresos** de la página **Parámetros de Contabilidad general** (**Reconocimiento de ingresos \> Configuración \> Parámetros de Contabilidad general**). La configuración adecuada depende de cada escenario específico. Para obtener más información sobre posibles escenarios, utilice los vínculos de la sección [Escenarios de reasignación](#scenarios-for-reallocation) más adelante en este tema.
+Cada organización debe decidir si la corrección debe actualizar solo la contabilidad general o si también debe actualizar los clientes. La decisión que se tome determina la configuración adecuada de la **Registrar correcciones de factura en clientes** en la pestaña **Reconocimiento de ingresos** de la página **Parámetros de Contabilidad general** (**Reconocimiento de ingresos \> Configuración \> Parámetros de Contabilidad general**). La configuración adecuada depende de cada escenario específico. Para obtener más información sobre posibles escenarios, utilice los vínculos de la sección [Escenarios de reasignación](#scenarios-for-reallocation) más adelante en este artículo.
 
-[![Pestaña Reconocimiento de ingresos en la página Parámetros de Contabilidad general.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Pestaña Reconocimiento de ingresos en la página Parámetros de Contabilidad general](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Si la opción **Registrar correcciones de factura en clientes** se establece en **Sí**, el proceso de reasignación genera el siguiente resultado:
 
@@ -90,7 +90,7 @@ Para iniciar el proceso de reasignación, seleccione **Reasignar precio con nuev
 
 [![Página Reasignar precio con nuevas líneas de pedido.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La cuadrícula superior de la página **Reasignar precio con nuevas líneas de pedido** se llama **Ventas**. Enumera los pedidos de ventas del cliente. Seleccione los pedidos de ventas que deben reasignarse. Si un pedido de ventas tiene un identificador de reasignación, ya se ha marcado para reasignación por otro usuario. Si uno o más pedidos de ventas se reasignaron anteriormente y deben incluirse en otra reasignación, primero se debe deshacer la reasignación de esos pedidos de ventas. Luego se puede incluir en una nueva reasignación. Para obtener información más detallada, consulte las secciones [Deshacer una reasignación](#undo-a-reallocation) y [Reasignar varias veces](#reallocate-multiple-times) más adelante en este tema.
+La cuadrícula superior de la página **Reasignar precio con nuevas líneas de pedido** se llama **Ventas**. Enumera los pedidos de ventas del cliente. Seleccione los pedidos de ventas que deben reasignarse. Si un pedido de ventas tiene un identificador de reasignación, ya se ha marcado para reasignación por otro usuario. Si uno o más pedidos de ventas se reasignaron anteriormente y deben incluirse en otra reasignación, primero se debe deshacer la reasignación de esos pedidos de ventas. Luego se puede incluir en una nueva reasignación. Para obtener información más detallada, consulte las secciones [Deshacer una reasignación](#undo-a-reallocation) y [Reasignar varias veces](#reallocate-multiple-times) más adelante en este artículo.
 
 La cuadrícula inferior de la página se llama **Líneas**. Al seleccionar uno o más pedidos de ventas en la cuadrícula **Ventas**, la cuadrícula **Líneas** muestra las líneas correspondientes a esos pedidos. Seleccione las líneas de pedidos de ventas que deben reasignarse. Si seleccionó un solo pedido de ventas, se deben reasignar las líneas del mismo pedido de ventas. Esta situación puede darse cuando una de las líneas se facturó previamente y luego se agregó una nueva línea o se eliminó o canceló una línea existente. Si se eliminó una línea, no aparecerá en la cuadrícula. Por lo tanto, no se puede seleccionar. Sin embargo, aún se tendrá en cuenta cuando se ejecute el proceso de reasignación.
 

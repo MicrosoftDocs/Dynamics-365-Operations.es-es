@@ -1,6 +1,6 @@
 ---
 title: Recursos de globalización
-description: Este tema incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad y ofertas específicas de un país o región.
+description: Este artículo incluye listas de recursos que pueden ayudarle a obtener más información acerca de una funcionalidad y ofertas específicas de un país o región.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866548"
 ---
 # <a name="globalization-resources"></a>Recursos de globalización
 
 ## <a name="local-and-regional-deployments"></a>Implementaciones locales y regionales
 Si la legislación de su gobierno exige almacenar los datos de manera distinta o usarlos de forma distinta que otros países/regiones, puede haber requisitos de país/región que debe tener en cuenta durante la implementación. Considere los siguientes recursos que pueden serle relevantes:
 
-[Aplicaciones de Finance and Operations operadas por 21Vianet en China](../deployment/china-local-deployment.md)
+[Aplicaciones de finanzas y operaciones operadas por 21Vianet en China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Características normativas y de localización
 
 [!include [banner](../includes/banner.md)]
 
-Las aplicaciones de Finance and Operations incluyen funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/dynamics_365_international_availability_deck). Esta función se activa según la dirección principal de la entidad jurídica activa. 
+Las aplicaciones de finanzas y operaciones incluyen funcionalidad para los países o regiones documentados en la [Guía de disponibilidad de la localización y la traducción del producto](https://aka.ms/dynamics_365_international_availability_deck). Esta función se activa según la dirección principal de la entidad jurídica activa. 
 
-Este tema incluye listas de recursos que pueden ayudarle a hacer lo siguiente: 
+Este artículo incluye listas de recursos que pueden ayudarle a hacer lo siguiente: 
 - Aprender más sobre el desarrollo de soluciones específicas del país o región.
 - Obtener actualizaciones específicas del país o región.
 - Enviar y revisar alertas reglamentarias.
@@ -63,7 +63,7 @@ Los siguientes recursos proporcionan información sobre características de loca
 Los [planes de la versión de Dynamics 365](/business-applications-release-notes/) ofrecen descripciones de las funcionalidades nuevas y mejoradas planeadas para las aplicaciones empresariales y las plataformas de aplicaciones de Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novedades en las aplicaciones de Finance and Operations
-La [página principal de Novedades y cambios en Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) muestra las características incluidas en versiones específicas de las aplicaciones de Finance and Operations.
+[Novedades y cambios en la página principal de Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) muestra las características incluidas en versiones específicas de las aplicaciones de Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Informes electrónicos
 La herramienta de informes electrónicos (ER) le permite configurar formatos para documentos electrónicos en función de los requisitos legales de diversos países o regiones. ER le permite administrar estos formatos durante su ciclo de vida. Para obtener más información, consulte uno de los temas siguientes:

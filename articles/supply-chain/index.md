@@ -1,6 +1,6 @@
 ---
 title: Página principal de Supply Chain Management
-description: En esta página se proporciona una lista de los temas de ayuda y de otros recursos para las características de Supply Chain Management.
+description: En esta página se proporciona una lista de los artículos de ayuda y de otros recursos para las características de Supply Chain Management.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879087"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de Dynamics 365 Supply Chain Management.
+En este artículo se proporciona una lista de los artículos de ayuda y de otros recursos para las características de Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
@@ -93,7 +93,7 @@ Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad d
 
 ## <a name="blogs"></a>Blogs
 
-Hay muchos temas sobre la administración de la cadena de suministro y la fabricación en el [blog del equipo de I+D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) y en el [blog del equipo de I+D de la Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La mayoría de ellos se crearon para la versión anterior, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares.
+Hay muchos artículos sobre la administración de la cadena de suministro y la fabricación en el [blog del equipo de I+D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) y en el [blog del equipo de I+D de la Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La mayoría de ellos se crearon para la versión anterior, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares.
 
 ## <a name="white-papers"></a>Notas del producto
 
