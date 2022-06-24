@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources, 19 de abril de 2021
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 19 de abril de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 19 de abril de 2021.
 author: marcelbf
 ms.date: 04/19/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846311"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Novedades y cambios en Dynamics 365 Human Resources, 19 de abril de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Emitir |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 552164 | **Vista guardada** en **Autoservicio para empleados > Cursos abiertos** no funciona para cursos que contienen una agenda | Si se utiliza una vista guardada en cursos abiertos (ESS) y uno de los cursos tiene una agenda adjunta, la vista ya no mostrará varias líneas para ese curso |
 | 560614 | **Beneficios > Opciones de eventos de vida** muestran discrepancias en la documentación de información sobre herramientas y el comportamiento del código. | Información de herramientas actualizadas en **Opciones de eventos de vida** para mostrar un comportamiento correcto. |

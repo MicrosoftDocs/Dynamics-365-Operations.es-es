@@ -1,6 +1,6 @@
 ---
 title: Configurar un canal en línea
-description: En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 02/04/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: fe137fe0c69a5b9613086c66366b064194b9b6c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864938"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan a los clientes la opción de comprar productos de su tienda en línea además de en sus tiendas físicas.
 

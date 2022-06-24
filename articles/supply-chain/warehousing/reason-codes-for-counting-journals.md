@@ -1,6 +1,6 @@
 ---
 title: Códigos de motivo para recuento de inventario
-description: En este tema se describe cómo configurar y aplicar códigos de motivo para tareas de recuento.
+description: En este artículo se describe cómo configurar y aplicar códigos de motivo para tareas de recuento.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857123"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Códigos de motivo para recuento de inventario
 
@@ -42,7 +42,7 @@ Antes de configurar el sistema, le recomendamos que defina una estrategia para t
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Active las funciones del código de motivo en su sistema
 
-Si no ve todas las funciones que se describen en este tema en su sistema, probablemente tenga que activar la función *Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida*. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Si no ve todas las funciones que se describen en este artículo en su sistema, probablemente tenga que activar la función *Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida*. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la función:** *Contabilizar ajustes disponibles utilizando códigos de motivo configurables conectados a cuentas de contrapartida*
@@ -111,7 +111,7 @@ Siga estos pasos para configurar códigos de motivo de recuento.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Configuración de grupos de código de motivo de recuento
 
-Los *Grupos de códigos de motivo de recuento* se pueden utilizar como parte de las opciones de menú *Entrada de ajuste* y *Salida de ajuste* en la aplicación móvil Warehouse Management para limitar la lista de códigos de motivo de recuento. (Para obtener más información sobre los grupos de códigos de motivo de recuento, consulte la sección [Configurar opciones de menú del dispositivo móvil para la entrada y salida de ajuste](#setup-adjustment-in-out) más adelante en este tema.)
+Los *Grupos de códigos de motivo de recuento* se pueden utilizar como parte de las opciones de menú *Entrada de ajuste* y *Salida de ajuste* en la aplicación móvil Warehouse Management para limitar la lista de códigos de motivo de recuento. (Para obtener más información sobre los grupos de códigos de motivo de recuento, consulte la sección [Configurar opciones de menú del dispositivo móvil para la entrada y salida de ajuste](#setup-adjustment-in-out) más adelante en este artículo.)
 
 1. Vaya a **Gestión del inventario** \> **Configuración** \> **Inventario** \> **Grupos de códigos de motivo de recuento**.
 1. En el Panel de acciones, seleccione **Nuevo** para agregar un grupo.
@@ -174,7 +174,7 @@ Para configurar una opción de menú de dispositivo móvil para la entrada o sal
         - *Ocultar* - No se muestra el código de motivo.
 
     - **Editar código de motivo de recuento** - Defina esta opción como *Sí* para que el trabajador pueda editar el código de motivo cuando se muestre en el dispositivo móvil durante el recuento. Defínalo como *No* para evitar que el trabajador edite el código.
-    - **Grupo de códigos de motivo de recuento** - Seleccione un grupo de códigos de motivo si desea limitar la lista de opciones que se presenta a los trabajadores. Para obtener información sobre cómo configurar grupos de códigos de motivo, consulte la sección [Configurar grupos de códigos de motivo de recuento](#reason-groups) anterior en este tema. 
+    - **Grupo de códigos de motivo de recuento** - Seleccione un grupo de códigos de motivo si desea limitar la lista de opciones que se presenta a los trabajadores. Para obtener información sobre cómo configurar grupos de códigos de motivo, consulte la sección [Configurar grupos de códigos de motivo de recuento](#reason-groups) anterior en este artículo. 
 
 > [!NOTE]
 > Cuando asigna un grupo de códigos de motivo de recuento a opciones de menú de *Entrada de ajuste* y *Salida de ajuste* donde la opción **Usar guía de proceso** está configurada en *Sí*, puede obtener una lista limitada de los códigos de motivo de recuento como parte del procesamiento en la aplicación móvil Warehouse Management.

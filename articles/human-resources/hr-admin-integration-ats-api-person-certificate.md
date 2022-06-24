@@ -1,6 +1,6 @@
 ---
 title: Certificado de la persona
-description: Este tema describe la entidad Certificado de la persona para Dynamics 365 Human Resources.
+description: Este artículo describe la entidad Certificado de la persona para Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 300bf294bb4b2fadd4c5d3e68e74674a69dd48f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a3c3be061cb8a18a19729932352c82ff3b787000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897933"
 ---
 # <a name="person-certificate"></a>Certificado de la persona
 
@@ -27,7 +27,7 @@ ms.locfileid: "8067838"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe la entidad Certificado de la persona para Dynamics 365 Human Resources.
+Este artículo describe la entidad Certificado de la persona para Dynamics 365 Human Resources.
 
 Nombre físico: mshr_hcmpersoncertificateentity
 

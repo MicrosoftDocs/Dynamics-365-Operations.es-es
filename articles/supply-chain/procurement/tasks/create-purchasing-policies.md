@@ -1,6 +1,6 @@
 ---
 title: Crear directivas de compra
-description: Este tema le explica cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras.
+description: Este artículo le explica cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878856"
 ---
 # <a name="create-purchasing-policies"></a>Crear directivas de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema le explica cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras. Para crear directivas de compra, es necesario configurar los parámetros de directiva de compra. Es posible crear, modificar y retirar una directiva de compras, pero no puede eliminar una directiva de compras. Este procedimiento lo realizará normalmente un director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
+Este artículo le explica cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras. Para crear directivas de compra, es necesario configurar los parámetros de directiva de compra. Es posible crear, modificar y retirar una directiva de compras, pero no puede eliminar una directiva de compras. Este procedimiento lo realizará normalmente un director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 
 
 ## <a name="set-up-policy-parameters"></a>Configuración de los parámetros de directivas

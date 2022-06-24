@@ -1,6 +1,6 @@
 ---
 title: Configurar Activos fijos
-description: Este tema proporciona información general de la configuración del módulo de Activos fijos.
+description: Este artículo proporciona información general de la configuración del módulo de Activos fijos.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910153"
 ---
 # <a name="set-up-fixed-assets"></a>Configurar Activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general de la configuración del módulo de **Activos fijos**. 
+Este artículo proporciona información general de la configuración del módulo de **Activos fijos**. 
 
 Los parámetros controlan el comportamiento general de los Activos fijos. Los grupos de activos fijos le permiten agrupar los activos y especificar los atributos predeterminados para cada activo que se asigna a un grupo. Los libros se asignan a grupos de activos fijos. Los libros siguen al valor financiero de un activo fijo con el tiempo mediante la configuración de la depreciación que se define en el perfil de depreciación.
 

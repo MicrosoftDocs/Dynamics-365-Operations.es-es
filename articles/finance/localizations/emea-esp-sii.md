@@ -1,6 +1,6 @@
 ---
 title: Suministro inmediato de información del IVA, SII
-description: Este tema describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
+description: Este artículo describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: liza-golub
 ms.date: 11/09/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 872beeb5f43e2bee1c08c10c02896074f5f20f8c
-ms.sourcegitcommit: 254922c904715a062515cf8a7238f3b2645ebf0f
+ms.openlocfilehash: a0741faf3d72151c5cbc1ec7611ffa1f73f83d6a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8549874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883098"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
 [!include [banner](../includes/banner.md)]
 
-De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Estatal de Administración Tributaria (AEAT) y el contribuyente. En este tema, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
+De acuerdo con el R.D. 596/2016 en España, un nuevo sistema de gestión del impuesto sobre el valor agregado (IVA) basado en el Suministro inmediato de información del IVA (SII) permite una relación bidireccional y automatizada entre la Agencia Estatal de Administración Tributaria (AEAT) y el contribuyente. En este artículo, este sistema se denominará el sistema SII. A partir del 1 de julio de 2017, los contribuyentes sujetos a SII, y otros que lo adopten voluntariamente, deben enviar detalles de sus registros de facturación en un plazo de cuatro días mediante presentación en línea en el sitio web de AEAT.
 
 Para obtener más información sobre el sistema SII de España, consulte el [sitio web oficial del Suministro inmediato de información del IVA (SII)](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio/La_Agencia_Tributaria/Campanas/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_.shtml).
 
@@ -43,7 +43,7 @@ A partir de la versión 10.0.22 de Finance, si utiliza el servicio [Cálculo de 
 - 'Libro de registro de facturas Expedidas': **Libro registro de facturas emitidas**
 - 'Libro de registro de facturas Recibidas': **Libro registro de facturas recibidas**
 
-Este tema describe cómo configurar y usar Finance para interoperar con el sistema SII de España. Incluye información sobre cómo completar las siguientes tareas:
+Este artículo describe cómo configurar y usar Finance para interoperar con el sistema SII de España. Incluye información sobre cómo completar las siguientes tareas:
 
 -   Importar configuraciones de informes electrónicos (ER).
 -   Configurar la funcionalidad de mensajería electrónica (EM).
@@ -124,7 +124,7 @@ El procesamiento de mensajes electrónicos de la tabla anterior funciona con los
 | FacturasСliente                   | **Facturas del cliente**                                                                                                                                                                                                                                                                                                                                                                                                         | SII              |
 | PagosCliente                      | **Pagos de clientes**: los elementos de mensaje de este tipo se crean para facturas de clientes existentes donde el valor **Código de esquema especial** se establece en **07**.                                                                                                                                                                                                                                                             | SII              |
 | PagosProveedores                  | **Pagos de proveedores**: los elementos de mensaje de este tipo se crean para facturas de proveedores existentes donde el valor **Código de esquema especial** se establece en **07**.                                                                                                                                                                                                                                                                  | SII              |
-| Operaciones intracomunitarias      | **Operaciones intracomunitarias**: los elementos de mensaje de este tipo se crean para facturas de proveedores existentes que cumplen con criterios específicos dentro de la comunidad. Para obtener más información, consulte la descripción en la sección [Algoritmo para definir el campo adicional TipoOperación (tipo de operación intracomunitaria)](#algorithm-to-define-the-tipooperacion-intra-community-operation-type-additional-field) más adelante en este tema. | SII              |
+| Operaciones intracomunitarias      | **Operaciones intracomunitarias**: los elementos de mensaje de este tipo se crean para facturas de proveedores existentes que cumplen con criterios específicos dentro de la comunidad. Para obtener más información, consulte la descripción en la sección [Algoritmo para definir el campo adicional TipoOperacion (tipo de operación intracomunitaria)](#algorithm-to-define-the-tipooperacion-intra-community-operation-type-additional-field) más adelante en este artículo. | SII              |
 | CobrosEnMetálico                  | **Cobros en metálico**: los elementos de mensaje de este tipo se completan a partir de la información preliminar que se recopila sobre las transacciones de pago que se registran de los clientes en cuentas de efectivo específicas.                                                                                                                                                                                                                 | CollectionInCash |
 
 Para revisar los tipos de mensaje electrónico, vaya a **Impuesto** \> **Configuración** \> **Mensajes electrónicos** \> **Tipos de elementos de mensaje**.
@@ -216,7 +216,7 @@ A partir de la versión 10.0.22 de Finance, si está utilizando el servicio de [
    | DIARIO DE FACTURAS DEL CLIENTE      | Esta fuente de datos rellena datos de la tabla **Diario de facturas del cliente** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
    | DIARIO DE FACTURAS DEL PROVEEDOR        | Esta fuente de datos rellena datos de la tabla **Diario de facturas del proveedor** como elementos EM de del tipo **FacturasProveedores** para informar al sistema SII de España. |
    | FACTURA DE PROYECTO               | Esta fuente de datos rellena datos de la tabla **Factura de proyecto** como elementos EM de del tipo **FacturasСliente** para informar al sistema SII de España. |
-   | TRANSFERIR HISTORIAL DE PEDIDOS        | Esta fuente de datos rellena datos de la tabla **Transferir historial de pedidos** como elementos EM de de los tipos **FacturasСliente** y **FacturasProveedores** para informar al sistema SII de España. Esta fuente de datos está disponible a partir de la versión 10.0.22 de Finance si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**. Para obtener más información, consulte la sección [Reportando al sistema SII de España para múltiples registros de IVA](#multiple-vat) más adelante en este tema. |
+   | TRANSFERIR HISTORIAL DE PEDIDOS        | Esta fuente de datos rellena datos de la tabla **Transferir historial de pedidos** como elementos EM de de los tipos **FacturasСliente** y **FacturasProveedores** para informar al sistema SII de España. Esta fuente de datos está disponible a partir de la versión 10.0.22 de Finance si está utilizando el servicio de [Cálculo de impuestos](global-tax-calcuation-service-overview.md) y la característica [Admite varios números de registro de IVA](emea-multiple-vat-registration-numbers.md) está habilitada en el espacio de trabajo **Gestión de funciones**. Para obtener más información, consulte la sección [Reportando al sistema SII de España para múltiples registros de IVA](#multiple-vat) más adelante en este artículo. |
 
 5.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
@@ -550,8 +550,8 @@ La siguiente ilustración muestra el esquema del algoritmo para cada una de esta
 
 Para trabajar con la funcionalidad de mensajes electrónicos, debe definir secuencias numéricas relacionadas.
 
-1.  Vaya a **Impuesto** \> **Preparar** \> **Parámetros del libro mayor**.
-2.  En la pestaña **Secuencias numéricas** , configure dos secuencias numéricas:
+1.  Vaya a **Impuestos** \> **Configuración** \> **Parámetros de contabilidad general**.
+2.  En la pestaña **Secuencias numéricas**, configure dos secuencias numéricas:
 
     -   Mensaje
     -   Elemento de mensaje
@@ -633,7 +633,7 @@ La funcionalidad EM ejecuta automáticamente acciones que se incluyen en el proc
 
 ### <a name="process-for-reporting-invoices-to-the-sii-system"></a>Proceso para registrar facturas en el sistema SII
 
-El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SII** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **SII**. Las acciones manuales del usuario no se incluyen en esta ilustración, pero se explican más adelante en este tema.
+El paquete **ES SII setup.zip** proporciona la configuración para el procesamiento **SII** en la funcionalidad EM que admite la interactuación con el sistema SII. La siguiente ilustración muestra el esquema general del procesamiento **SII**. Las acciones manuales del usuario no se incluyen en esta ilustración, pero se explican más adelante en este artículo.
 
 ![Esquema para el procesamiento general de SII.](media/emea-esp-sii-process.png)
 

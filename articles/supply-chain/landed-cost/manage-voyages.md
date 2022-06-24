@@ -1,6 +1,6 @@
 ---
 title: Gestionar viajes
-description: En este tema se describe cómo trabajar con viajes. Un viaje típicamente representa una nave. Sin embargo, dependiendo de sus prácticas y procedimientos, puede representar un proveedor, una orden de compra o algún otro artículo que tenga sentido para su organización.
+description: En este artículo se describe cómo trabajar con viajes. Un viaje típicamente representa una nave. Sin embargo, dependiendo de sus prácticas y procedimientos, puede representar un proveedor, una orden de compra o algún otro artículo que tenga sentido para su organización.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905874"
 ---
 # <a name="manage-voyages"></a>Gestionar viajes
 
@@ -96,7 +96,7 @@ Para abrir la vista **Líneas**, abra un viaje y luego seleccione la pestaña **
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Información sobre la ficha desplegable del encabezado de viaje
 
-La ficha desplegable **Encabezado de viaje** de la vísta **Líneas** de un viaje contiene información básica que describe el viaje. Muchos de los campos que aparecen en esta ficha desplegable también aparecen en la vista **Encabezamiento**, como se describe más adelante en este tema.
+La ficha desplegable **Encabezado de viaje** de la vísta **Líneas** de un viaje contiene información básica que describe el viaje. Muchos de los campos que aparecen en esta ficha desplegable también aparecen en la vista **Encabezamiento**, como se describe más adelante en este artículo.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Información sobre la ficha desplegable de líneas del viaje
 

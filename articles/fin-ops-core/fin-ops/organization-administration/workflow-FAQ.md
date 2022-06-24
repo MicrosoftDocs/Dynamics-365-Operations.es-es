@@ -1,6 +1,6 @@
 ---
-title: Preguntas frecuentes de flujo de trabajo
-description: Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
+title: Preguntas frecuentes sobre flujos de trabajo
+description: Este artículo responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896590"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370889"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
+Este artículo responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>¿Por qué se reciben varias notificaciones cuando se rechaza un elemento de trabajo?
 Si se rechaza un elemento de trabajo, ese elemento de trabajo se completa como rechazado. Otro elemento de trabajo se crea y se asigna al originador. Esto significa que hay una notificación al originador del elemento de trabajo rechazado, y una notificación independiente al usuario asignado al nuevo elemento de trabajo de “cambio solicitado”. 

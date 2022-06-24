@@ -1,6 +1,6 @@
 ---
-title: Acuerdos de gestión de devoluciones
-description: En este tema se describe cómo crear Acuerdos de gestión de devoluciones. Las ofertas se utilizan para controlar diferentes métodos y bases para el cálculo de devoluciones y regalías. Incluyen reglas para inclusiones y exclusiones.
+title: Ofertas de administración de devoluciones
+description: En este artículo se describe cómo crear Acuerdos de gestión de devoluciones. Las ofertas se utilizan para controlar diferentes métodos y bases para el cálculo de devoluciones y regalías. Incluyen reglas para inclusiones y exclusiones.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851605"
 ---
 # <a name="rebate-management-deals"></a>Acuerdos de gestión de devoluciones
 
 [!include [banner](../includes/banner.md)]
 
-Los Acuerdos de gestión de devoluciones se utilizan para controlar diferentes métodos y bases para el cálculo de devoluciones y regalías. Incluyen reglas para inclusiones y exclusiones. Hay tres tipos de acuerdos de gestión de devoluciones: devoluciones de clientes, regalías de clientes y devoluciones de proveedores. Los tres tipos utilizan configuraciones similares. Este tema señala las diferencias donde existen.
+Los Acuerdos de gestión de devoluciones se utilizan para controlar diferentes métodos y bases para el cálculo de devoluciones y regalías. Incluyen reglas para inclusiones y exclusiones. Hay tres tipos de acuerdos de gestión de devoluciones: devoluciones de clientes, regalías de clientes y devoluciones de proveedores. Los tres tipos utilizan configuraciones similares. Este artículo señala las diferencias donde existen.
 
 ## <a name="create-a-deal"></a>Crear un acuerdo
 
@@ -118,7 +118,7 @@ La pestaña **General** en la ficha desplegable **Detalles de la gestión de dev
 
 | Campo | Descripción |
 |---|---|
-| Método de cálculo | Seleccione el método que se utilizará cuando la línea de acuerdo seleccionada se combine con otras líneas de acuerdo (*Escalonado*, *Acumulativo*, *Recurrente*, o *Total*). El valor de este campo puede afectar drásticamente el resultado de sus cálculos de devolución. Para obtener una descripción completa de cada método y ejemplos que muestran cómo afecta el cálculo de la devolución, consulte la sección [Métodos de cálculo para líneas de acuerdo](#calc-methods) más adelante en este tema. |
+| Método de cálculo | Seleccione el método que se utilizará cuando la línea de acuerdo seleccionada se combine con otras líneas de acuerdo (*Escalonado*, *Acumulativo*, *Recurrente*, o *Total*). El valor de este campo puede afectar drásticamente el resultado de sus cálculos de devolución. Para obtener una descripción completa de cada método y ejemplos que muestran cómo afecta el cálculo de la devolución, consulte la sección [Métodos de cálculo para líneas de acuerdo](#calc-methods) más adelante en este artículo. |
 | Base | Seleccione si el reembolso se aplica en función de la cantidad (es decir, el número total de unidades que se compran o venden) o el valor (es decir, el precio total de los bienes que se compran o venden). |
 | Tipo de transacción | <p>Seleccione el punto del proceso en el que debe producirse el cálculo:</p><ul><li>*Pedido* - Utilice la cantidad o el valor pedidos como base para el cálculo.</li><li>*Entregado* - Utilice la cantidad o el valor entregados como base para el cálculo.</li><li>*Facturado* - Utilice la cantidad o el valor facturados como base para el cálculo.</li></ul> |
 | Unidad | Si seleccionó *Cantidad* en el campo **Base**, seleccione la unidad en la que se debe especificar la cantidad. |

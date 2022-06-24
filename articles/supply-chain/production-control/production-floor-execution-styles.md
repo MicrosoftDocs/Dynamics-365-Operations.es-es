@@ -1,6 +1,6 @@
 ---
 title: Diseñar la interfaz de ejecución de la planta de producción
-description: El tema explica cómo configurar los controles de formulario para que se les apliquen los estilos de ejecución predeterminados del piso de producción.
+description: El artículo explica cómo configurar los controles de formulario para que se les apliquen los estilos de ejecución predeterminados del piso de producción.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859151"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>Diseñar la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
 
-El tema explica cómo configurar los controles de formulario para que se les apliquen los estilos de ejecución predeterminados del piso de producción.
+El artículo explica cómo configurar los controles de formulario para que se les apliquen los estilos de ejecución predeterminados del piso de producción.
 
 ## <a name="forms-and-dialogs"></a>Formularios y diálogos
 
@@ -31,7 +31,7 @@ Los estilos se pueden aplicar a un formulario o cuadro de diálogo solo si se cu
 - Si el formulario debe parecerse al formulario de progreso del informe existente, el nombre de su formulario o cuadro de diálogo debe comenzar con `JmgProductionFloorExecutionCustomInputDialog`.
 - El formulario o cuadro de diálogo puede contener una parte de formulario detallada. Para aplicarle estilos, el nombre de la parte del formulario de detalle debe comenzar con `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Si el formulario o cuadro de diálogo debe tener una vista simple, entonces el nombre de la vista simple debe comenzar con `JmgProductionFloorExecutionCustomDialog`. Ejemplos de formularios que tienen una vista simple incluyen el formulario de inicio y el formulario de actividad indirecta.
-- Todos los controles del cuadro de diálogo deben configurarse como se describe en este tema.
+- Todos los controles del cuadro de diálogo deben configurarse como se describe en este artículo.
 
 > [!IMPORTANT]
 > Las características mencionadas en los dos primeros puntos de esta lista requieren la versión 10.0.19 o posterior de Supply Chain Management.

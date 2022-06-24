@@ -1,6 +1,6 @@
 ---
 title: Configuración de costes automáticos
-description: Este tema describe cómo configurar reglas de costos para varios niveles de viaje de entrada. Con base en estas reglas, el sistema calcula los costos y los agrega automáticamente. Por lo tanto, los usuarios no tienen que agregar los costos manualmente.
+description: Este artículo describe cómo configurar reglas de costos para varios niveles de viaje de entrada. Con base en estas reglas, el sistema calcula los costos y los agrega automáticamente. Por lo tanto, los usuarios no tienen que agregar los costos manualmente.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852400"
 ---
 # <a name="auto-costs-setup"></a>Configuración de costes automáticos
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695343"
 
 Puede usar la página **Costes automáticos** para configurar reglas de costos para diversas áreas de costos (como viajes, contenedores de envío, folios, órdenes de compra, artículos o líneas de órdenes de transferencia). Según las reglas y los campos que los usuarios seleccionan cuando crean registros para una de las áreas de costos, el sistema calcula los costos y los agrega automáticamente. Por lo tanto, los usuarios no tienen que agregar los costos manualmente.
 
-Para trabajar con costes automáticoses, vaya a **Coste de aterrizaje \> Configuración de costos \> Costes automáticos**. Luego, configure sus reglas de costos automáticos como se describe en el resto de este tema.
+Para trabajar con costes automáticoses, vaya a **Coste de aterrizaje \> Configuración de costos \> Costes automáticos**. Luego, configure sus reglas de costos automáticos como se describe en el resto de este artículo.
 
 ## <a name="work-with-cost-areas"></a>Trabajar con áreas de costos
 

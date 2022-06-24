@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources, 5 de abril de 2021
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 5 de abril de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 5 de abril de 2021.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899538"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Novedades y cambios en Dynamics 365 Human Resources, 5 de abril de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Emitir |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 550852 | El botón **Aprobación** no se valida con los campos obligatorios establecidos en el formulario **Revisar**. | Cuando configura un campo en el formulario **Revisar** como obligatorio y publicar los cambios para el rol de Gerente, el formulario no se valida como se esperaba. |
 | 559564 | Las acciones históricas de los trabajadores para el cambio de compensación fija dan error para los usuarios despedidos. | La acción del trabajador de la compensación de un empleado salido da un error. Después de que se despide a un empleado, la acción de promoción del trabajador antes de la terminación da un error. |

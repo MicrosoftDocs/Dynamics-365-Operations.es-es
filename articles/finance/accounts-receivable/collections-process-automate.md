@@ -1,6 +1,6 @@
 ---
 title: Automatización del proceso de cobros
-description: Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro o una carta de cobro que se enviará al cliente.
+description: Este artículo describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro o una carta de cobro que se enviará al cliente.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486878"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946190"
 ---
 # <a name="collections-process-automation"></a>Automatización del proceso de cobros
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro (como una llamada telefónica) o una carta de cobro que se enviará al cliente. 
+Este artículo describe el proceso de configuración de estrategias de procesos de cobro que identifican automáticamente las facturas de los clientes que requieren un recordatorio por correo electrónico, una actividad de cobro (como una llamada telefónica) o una carta de cobro que se enviará al cliente. 
 
 Las organizaciones a menudo dedican una cantidad significativa de tiempo a investigar informes de saldos antiguos, cuentas de clientes y facturas abiertas para determinar con qué clientes hay que contactar sobre una factura abierta o un saldo de cuenta. Esta investigación le quita tiempo al agente de cobros que dedica a comunicarse con los clientes para cobrar saldos deudores o resolver disputas de facturas. La automatización del proceso de cobros le permite configurar un enfoque basado en estrategias para su proceso de cobros. Esto le ayuda a aplicar las actividades de cobros de manera consistente al proporcionar recordatorios personalizados por correo electrónico o un proceso programado para enviar cartas de cobro. 
 

@@ -1,6 +1,6 @@
 ---
 title: Intrastat francés
-description: Este tema contiene información sobre la declaración Intrastat en Francia.
+description: Este artículo contiene información sobre la declaración Intrastat en Francia.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887864"
 ---
 # <a name="french-intrastat"></a>Intrastat francés
 
@@ -90,14 +90,14 @@ La tabla también indica el nivel de informe del campo. El campo puede ser **4**
 
     Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2.  En Dynamics 365 Finance, vaya a **Impuesto** > **Configuración** >  **Comercio Exterior** > **Parámetros de comercio exterior** y siga estos pasos:
+2.  En Dynamics 365 Finance, vaya a **Impuesto** > **Configuración** >  **Comercio exterior** > **Parámetros de comercio exterior** y siga estos pasos:
 
     1. En la pestaña **Intrastat**, en la ficha desplegable **Informes electrónicos** en el campo **Asignación de formato de archivo**, seleccione **Intrastat INTRACOM (FR)** o **Intrastat SAISUNIC (FR)**.
     2. En el campo **Asignación de formato de informe**, seleccione **Informe Intrastat**.
     3. En la ficha desplegable **Jerarquía de códigos de bienes**, en el campo **Jerarquía de categorías**, seleccione **Intrastat**.
     4. En la ficha desplegable **General**, en el campo **Código de transacción**, seleccione el código que se utiliza para las transferencias de mercancías.
     5. En el campo **Nota de crédito**, seleccione el código que se utiliza para las devoluciones de mercancías.
-    6. En el campo **Nivel de obligación de exportación**, introduzca el nivel de detalle para el informe de exportación. El nivel que seleccione afecta a las líneas que se muestran en el informe. Para obtener más información, consulte las tablas que aparecen al principio de este tema.
+    6. En el campo **Nivel de obligación de exportación**, introduzca el nivel de detalle para el informe de exportación. El nivel que seleccione afecta a las líneas que se muestran en el informe. Para obtener más información, consulte las tablas que aparecen al principio de este artículo.
 
 3. Vaya a **Administración de organizaciones** > **Organizaciones** > **Entidades jurídicas**, seleccione su empresa y siga estos pasos:
 

@@ -1,6 +1,6 @@
 ---
 title: Tiempo de vida de depreciación lineal
-description: Este tema le ofrece una visión general del método de depreciación Tiempo de vida de servicio de depreciación lineal.
+description: Este artículo le ofrece una visión general del método de depreciación Tiempo de vida de depreciación lineal.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896474"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Tiempo de vida de depreciación lineal
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le ofrece una visión general del método de depreciación Tiempo de vida de servicio de depreciación lineal.
+Este artículo le ofrece una visión general del método de depreciación Tiempo de vida de depreciación lineal.
 
 Al configurar un método de depreciación de activos fijos y seleccionar Tiempo de vida de depreciación lineal en el campo Método en la página Perfiles de depreciación, la depreciación de los activos fijos que se asigna a este método de depreciación se basa en el tiempo de vida total del activo. Generalmente, éste es el mismo importe de depreciación en cada período de depreciación. 
 
@@ -41,7 +41,7 @@ Puede seleccionar Calendario o Fiscal en el campo Año de depreciación de la p�
 
 Al seleccionar Calendario, se asume un año comprendido entre el 1 de enero y el 31 de diciembre, aun cuando haya definido el calendario fiscal de forma diferente. 
 
-La opción Calendario actualiza la base de depreciación, que normalmente es el valor neto menos el valor residual, el 1 de enero de cada año. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
+La opción Calendario actualiza la base de depreciación, que normalmente es el valor neto menos el valor residual, el 1 de enero de cada año. En el ejemplo, más adelante en este artículo, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
 
 Si selecciona Calendario, tiene las siguientes opciones disponibles en el campo Frecuencia de períodos, que define las fechas de registro de acumulación de depreciación a lo largo del año de calendario:
 - Anual registra un importe el 31 de diciembre.

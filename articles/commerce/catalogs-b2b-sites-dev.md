@@ -1,6 +1,6 @@
 ---
 title: Impacto de extensibilidad de los catálogos de Commerce para personalizaciones B2B
-description: Este tema describe el impacto de extensibilidad de los catálogos de Commerce para la característica B2B en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe el impacto de extensibilidad de los catálogos de Commerce para la característica B2B en Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849024"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impacto de extensibilidad de los catálogos de Commerce para personalizaciones B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tema describe el impacto de extensibilidad de los **catálogos de Commerce para la característica B2** en Microsoft Dynamics 365 Commerce.
+Este artículo describe el impacto de extensibilidad de los catálogos de **Commerce para la característica B2B** en Microsoft Dynamics 365 Commerce.
 
 Si está interesado en ampliar el contexto del catálogo a escenarios personalizados, es posible que deba actualizar sus personalizaciones. Esta actualización sigue el proceso estándar que los clientes deben seguir, ya que es posible que sus personalizaciones no admitan automáticamente las funciones más recientes después de realizar las actualizaciones. Si sus personalizaciones incluyen alguna característica nueva o correcciones de errores en sus experiencias, le recomendamos que actualice el código de personalización en consecuencia. Esta actualización se asemeja a los cambios que Microsoft podría haber realizado para el código principal.
 

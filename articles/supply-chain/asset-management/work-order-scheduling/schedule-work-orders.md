@@ -1,6 +1,6 @@
 ---
 title: Programar órdenes de trabajo
-description: En este tema se explica cómo programar órdenes de trabajo en Administración de activos.
+description: En este artículo se explica cómo programar órdenes de trabajo en Administración de activos.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845065"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718068"
 
  
 
-En este tema se explica cómo programar órdenes de trabajo en Administración de activos. 
+En este artículo se explica cómo programar órdenes de trabajo en Administración de activos. 
 
 El número necesario de horas para una orden de trabajo se define mediante la suma de horas previstas menos las horas registradas. Si se requiere más tiempo, la previsión debe ajustarse según corresponda. En **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, puede ver o editar previsiones en una orden de trabajo seleccionando la orden de trabajo y haciendo clic en **Pronóstico** en la pestaña **Orden de trabajo**. Cuando se hayan creado y estimado las órdenes de trabajo, el paso siguiente para completar las órdenes de trabajo consiste en asignar los trabajadores de mantenimiento y las herramientas que se necesitan.
 

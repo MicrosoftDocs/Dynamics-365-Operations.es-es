@@ -1,6 +1,6 @@
 ---
-title: Diseñador de fórmula
-description: Este tema explica cómo utilizar el diseñador de fórmulas para analizar y mantener fórmulas en una vista de árbol.
+title: Diseñador de fórmulas
+description: Este artículo explica cómo utilizar el diseñador de fórmulas para analizar y mantener fórmulas en una vista de árbol.
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849282"
 ---
-# <a name="formula-designer"></a>Diseñador de fórmula
+# <a name="formula-designer"></a>Diseñador de fórmulas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo utilizar el diseñador de fórmulas para analizar y mantener fórmulas en una vista de árbol.
+Este artículo explica cómo utilizar el diseñador de fórmulas para analizar y mantener fórmulas en una vista de árbol.
 
 Al abrir la página **Diseñador de fórmulas** en la página **Productos emitidos**, el árbol en el panel izquierdo muestra la lista de los coproductos y la jerarquía de los ingredientes para el producto liberado. La estructura deriva de la jerarquía de las fórmulas que están activas y aprobadas para el artículo seleccionado y sus ingredientes, el sitio del pedido predeterminad del artículo y la fecha real.
 

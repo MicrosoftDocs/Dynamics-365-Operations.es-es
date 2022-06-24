@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de informes analíticos
-description: En este tema se explica cómo solucionar y diagnosticar problemas si los cambios en los datos de un cliente no se muestran en los espacios de trabajo de un cliente.
+description: En este artículo se explica cómo solucionar y diagnosticar problemas si los cambios en los datos de un cliente no se muestran en los espacios de trabajo de un cliente.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e81bae4d9cb0bb0b77bb57bac16cc67bbbcf9ea
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1e6ae8931679feb2103172eb1a21649734acd995
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902238"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Solucionar problemas de informes analíticos
 

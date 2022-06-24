@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868170"
 ---
 # <a name="configure-rates"></a>Configurar tarifas
 
@@ -47,7 +47,7 @@ Use tasas para determinar cuánto pagan los empleados y empresarios por cada pre
    | **Vigente** | La fecha de entrada en vigor de esta tasa. La fecha actual del sistema es el valor predeterminado. Esta fecha debe coincidir con su período de beneficios o antes. Una buena práctica es establecer esta fecha en la fecha del plan de prestaciones. |
    | **Caducidad** | La fecha final de la tasa. 12/31/2154 (que representa nunca) es el valor predeterminado. |
    | **Usar niveles** |  Use este campo si tiene lógica que deba usarse para determinar una tasa. Por ejemplo, si una tasa debe aumentar según la edad, seleccione un valor aquí. Seleccione **Nivel único** para una tasa de prestación de un nivel o **Doble nivel** para una tasa de prestación de dos niveles. Un ejemplo de un nivel doble es un nivel basado en el sexo y la edad. Después de seleccionar un valor, seleccione **Acciones** y luego seleccione **Tarifas de nivel**. Si tiene una tarifa fija que no cambia, deje este campo en blanco. |
-   | **Frecuencia de pago** | Especifique la frecuencia con la que se debe pagar la tarifa de la prima de beneficios al proveedor de beneficios. Las tarifas que ingrese en la página que se describe más adelante en este tema se basarán en la frecuencia de pago que especifique aquí. Por ejemplo, si ingresa **Mensual** en este campo, e ingresa una tarifa de empleado de **100 $**, se supone que la prestación le costará al empleado 100 $ por mes. Sin embargo, a un empleado se le puede pagar dos veces al mes, según la frecuencia de pago de beneficios que se establece en el registro del empleado. En este caso, cuando el empleado se registre en el **autoservicio para empleados**, la cantidad que pagará será 50 $, porque la tarifa que muestra el **autoservicio para empleados** se basa en la frecuencia de pago del empleado. |
+   | **Frecuencia de pago** | Especifique la frecuencia con la que se debe pagar la tarifa de la prima de beneficios al proveedor de beneficios. Las tarifas que ingrese en la página que se describe más adelante en este artículo se basarán en la frecuencia de pago que especifique aquí. Por ejemplo, si ingresa **Mensual** en este campo, e ingresa una tarifa de empleado de **100 $**, se supone que la prestación le costará al empleado 100 $ por mes. Sin embargo, a un empleado se le puede pagar dos veces al mes, según la frecuencia de pago de beneficios que se establece en el registro del empleado. En este caso, cuando el empleado se registre en el **autoservicio para empleados**, la cantidad que pagará será 50 $, porque la tarifa que muestra el **autoservicio para empleados** se basa en la frecuencia de pago del empleado. |
    | **Redondeo de la tasa de frecuencia de pago** | Los métodos para redondear la tasa son: estándar, truncado, normal, a la baja y al alza. </br></br><ul><li>**Estándar**: siempre redondea hacia arriba. Por ejemplo, 10,611 se redondeará a 10,62. -10,231 se redondeará a -10,23. </li><li>**Truncado** : siempre redondea hacia abajo. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,24. </li><li>**Normal**: los valores decimales que terminan en 5 o más se redondearán desde cero. Los valores decimales que terminan en 4 o menos se redondearán hacia cero. Por ejemplo, 10,615 se redondeará a 10,62. -10,235 se redondeará a -10,24. 10,614 se redondeará a 10,61. -10,234 se redondeará a -10,23. </li><li>**Hacia abajo**: redondea hacia cero. Por ejemplo, 10,619 se redondeará a 10,61. -10,231 se redondeará a -10,23. </li><li>**Redondeando**: redondea desde cero. Por ejemplo, 10,619 se redondeará a 10,62. -10,231 se redondeará a -10,24. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |
    | **Importe del empleado si no es fumador** | El importe que el proveedor de prestaciones cobra por un empleado que no fuma. Este es el importe que el empresario paga al proveedor de prestaciones y debe basarse en la frecuencia de pago para la configuración de la tasa. |

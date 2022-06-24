@@ -1,6 +1,6 @@
 ---
 title: Contenido de director de prácticas de Power BI
-description: En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica.
+description: En este artículo se describe lo que se incluye en el contenido de Power BI para Director de práctica.
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898998"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe lo que se incluye en el contenido de **Director de prácticas** en Microsoft Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+En este artículo se describe lo que se incluye en el contenido de Microsoft Power BI para **Director de práctica**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 

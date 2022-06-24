@@ -1,6 +1,6 @@
 ---
 title: Alta e instalación del servicio de Factura Electrónica
-description: Este tema proporciona información sobre cómo configurar e instalar el servicio de facturación electrónica.
+description: Este artículo proporciona información sobre cómo configurar e instalar el servicio de facturación electrónica.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865537"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Alta e instalación del servicio de Factura Electrónica
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre cómo configurar e instalar el servicio de facturación electrónica. Hay cuatro pasos en este proceso. Los pasos del 1 al 3 son obligatorios y el paso 4 es opcional.
+Este artículo proporciona información sobre cómo configurar e instalar el servicio de facturación electrónica. Hay cuatro pasos en este proceso. Los pasos del 1 al 3 son obligatorios y el paso 4 es opcional.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Paso 1: Inicie sesión en Regulatory Configuration Service
 

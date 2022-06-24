@@ -1,6 +1,6 @@
 ---
 title: Ejemplo de integración de impresora fiscal para Polonia
-description: Este tema proporciona una visión general del ejemplo de integración fiscal para Polonia en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general del ejemplo de integración fiscal para Polonia en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876958"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Ejemplo de integración de impresora fiscal para Polonia
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del ejemplo de integración fiscal para Polonia en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general del ejemplo de integración fiscal para Polonia en Microsoft Dynamics 365 Commerce.
 
 La funcionalidad de Dynamics 365 Commerce para Polonia incluye una integración de muestra del punto de venta (POS) con una impresora fiscal. La muestra extiende la [funcionalidad de integración fiscal](fiscal-integration-for-retail-channel.md) y admite el protocolo POSNET THERMAL HD 2.02 para impresoras fiscales de [Posnet Polska SA.](https://www.posnet.com.pl) La muestra permite la comunicación con una impresora fiscal que está conectada a través de un puerto COM mediante un controlador de software nativo. Se implementó y probó utilizando un emulador de software que Posnet proporcionó para la impresora fiscal Posnet Thermal HD FV EJ. La muestra se proporciona en forma de código fuente y es parte del kit de desarrollo de software (SDK) de Retail.
 

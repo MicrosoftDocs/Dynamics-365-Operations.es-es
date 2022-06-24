@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848205"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
@@ -79,9 +79,9 @@ Su diario de rendimiento describirá<!--note from editor: Suggested.--> las acti
 
 Si desea adjuntar un documento al objetivo, como un certificado de finalización, puede hacerlo en la sección de **Datos adjuntos** de la página **Objetivos de rendimiento**. Se proporciona un visor de documentos para poder ver rápidamente el contenido de cualquier documento adjunto. 
 
-Puede crear una plantilla de un objetivo y usarla para crear nuevos objetivos basados en la plantilla. Al crear la plantilla de un objetivo, se guardan la descripción, los temas y las medidas de destino. Sin embargo, se eliminan todas las medidas reales, las fechas de terminación y los comentarios sobre el tema.
+Puede crear una plantilla de un objetivo y usarla para crear nuevos objetivos basados en la plantilla. Al crear la plantilla de un objetivo, se guardan la descripción, los temas y las medidas de destino. Sin embargo, se eliminan todas las medidas reales, las fechas de terminación y los comentarios sobre el artículo.
 
-## <a name="performance-reviews"></a>Evaluaciones de rendimiento
+## <a name="performance-reviews"></a>Revisiones de rendimiento
 
 Las evaluaciones de rendimiento se conocen más formalmente como discusiones. Son lo suficientemente flexibles como para admitir comentarios continuos, planes de desarrollo y evaluaciones más formales. Puede crear rápidamente pequeñas reuniones para dos personas<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> o puede crear una revisión más compleja que coincida con el proceso de revisión de su empresa. 
 

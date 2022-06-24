@@ -1,6 +1,6 @@
 ---
 title: Periféricos
-description: En este tema explica los conceptos relacionados con los periféricos de Commerce.
+description: En este artículo explica los conceptos relacionados con los periféricos de Commerce.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880090"
 ---
 # <a name="peripherals"></a>Periféricos
 
 [!include[banner](includes/banner.md)]
 
-En este tema explica los conceptos relacionados con los periféricos de tiendas. Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV.
+En este artículo explica los conceptos relacionados con los periféricos de tiendas. Describe las distintas maneras en que se pueden conectar los periféricos al punto de venta (PDV) y los componentes responsables de gestionar la conexión con el PDV.
 
 ## <a name="concepts"></a>Conceptos
 
@@ -55,7 +55,7 @@ Modern POS para Android es una versión basada en Android del programa Modern PO
 
 ### <a name="pos-peripherals"></a>Periféricos de PDV
 
-Los periféricos de PDV son dispositivos que admiten explícitamente las funciones del PDV. Estos periféricos se suelen dividir en clases específicas. Para obtener más información sobre estas clases, consulte la sección sobre clases de dispositivos de este tema.
+Los periféricos de PDV son dispositivos que admiten explícitamente las funciones del PDV. Estos periféricos se suelen dividir en clases específicas. Para obtener más información sobre estas clases, consulte la sección sobre clases de dispositivos de este artículo.
 
 ### <a name="hardware-station"></a>Estación de hardware
 

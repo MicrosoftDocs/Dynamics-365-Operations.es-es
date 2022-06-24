@@ -1,6 +1,6 @@
 ---
 title: Sincronizar productos directamente de Supply Chain Management con productos de Sales
-description: En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
+description: En este artículo se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856001"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizar productos directamente de Supply Chain Management con productos de Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062472"
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](/powerapps/administrator/data-integrator).
 
-En este tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de directamente de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
+En este artículo se abordan las plantillas y las tareas subyacentes que se usan para sincronizar productos de directamente de Dynamics 365 Supply Chain Management a Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
@@ -107,7 +107,7 @@ La siguiente ilustración muestra un ejemplo de una asignación de plantilla en 
 ![Asignación de la plantilla en el integrador de datos.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Cliente potencial a cliente](prospect-to-cash.md)
 

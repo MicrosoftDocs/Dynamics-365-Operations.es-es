@@ -1,6 +1,6 @@
 ---
 title: Dimensiones financieras y registro
-description: Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos.
+description: Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este artículo explica cuál es cada componente y cómo los componentes funcionan juntos.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910124"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
 [!include [banner](../includes/banner.md)]
 
-Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos.
+Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este artículo explica cuál es cada componente y cómo los componentes funcionan juntos.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Componentes de plan contable y dimensiones financieras
 
@@ -46,7 +46,7 @@ Puede definir una dimensión financiera del saldo. En la página **libro mayor**
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Las dimensiones financieras predeterminada/fijas en la cuenta principal.
 
-Las dimensiones predeterminadas proceden de distintas ubicaciones, como grabaciones master (por ejemplo, cliente o los registros de proveedor), encabezados del documento, y la cuenta principal. Este tema se centra en las dimensiones predeterminadas en la cuenta principal de la entidad jurídica. Puede definir si una cuenta principal tiene un valor **No fijo** o **Fijo** para cada dimensión financiera que se utilice en todas las estructuras contables para el libro mayor. Si una dimensión financiera es **No fijo**, usa un valor predeterminado, pero este valor se puede sobrescribir. Este comportamiento se aplica a todos los valores predeterminados en el sistema, incluso los valores predeterminados que proceden de registros maestros. Si una dimensión financiera se establece en un valor **Fijo**, el valor se aplica siempre, independientemente de si vino de alguna parte como valor predeterminado o si el usuario lo ha especificado.
+Las dimensiones predeterminadas proceden de distintas ubicaciones, como grabaciones master (por ejemplo, cliente o los registros de proveedor), encabezados del documento, y la cuenta principal. Este artículo se centra en las dimensiones predeterminadas en la cuenta principal de la entidad jurídica. Puede definir si una cuenta principal tiene un valor **No fijo** o **Fijo** para cada dimensión financiera que se utilice en todas las estructuras contables para el libro mayor. Si una dimensión financiera es **No fijo**, usa un valor predeterminado, pero este valor se puede sobrescribir. Este comportamiento se aplica a todos los valores predeterminados en el sistema, incluso los valores predeterminados que proceden de registros maestros. Si una dimensión financiera se establece en un valor **Fijo**, el valor se aplica siempre, independientemente de si vino de alguna parte como valor predeterminado o si el usuario lo ha especificado.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Orden en que las dimensiones predeterminadas se aplican durante el registro
 

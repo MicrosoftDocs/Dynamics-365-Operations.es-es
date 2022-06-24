@@ -1,6 +1,6 @@
 ---
 title: Integración de notas
-description: Este tema describe la integración de datos de notas en escritura doble.
+description: Este artículo describe la integración de datos de notas en escritura doble.
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876726"
 ---
 # <a name="note-integration"></a>Integración de notas
 
@@ -22,7 +22,7 @@ ms.locfileid: "8062784"
 
 
 
-Durante los procesos comerciales, los usuarios de Microsoft Dynamics 365 a menudo recopilan información sobre sus clientes. Esta información se registra como actividades y notas. Este tema describe la integración de datos de notas en escritura doble.
+Durante los procesos comerciales, los usuarios de Microsoft Dynamics 365 a menudo recopilan información sobre sus clientes. Esta información se registra como actividades y notas. Este artículo describe la integración de datos de notas en escritura doble.
 
 La información del cliente se puede clasificar de las siguientes formas:
 

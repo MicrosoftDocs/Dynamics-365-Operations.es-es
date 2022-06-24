@@ -1,6 +1,6 @@
 ---
 title: Interfaz de usuario estilo Microsoft Office en la Administración de documentos empresariales (contiene video)
-description: Este tema explica cómo usar la nueva interfaz de usuario de documentos en la función de Administración de documentos empresariales del marco de informes electrónicos (ER).
+description: Este artículo explica cómo usar la nueva interfaz de usuario de documentos en la función de Administración de documentos empresariales del marco de informes electrónicos (ER).
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892236"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interfaz de usuario estilo Microsoft Office en la Administración de documentos empresariales
 
@@ -32,7 +32,7 @@ La nueva interfaz de usuario (UI) es más clara y más cómoda de usar. El área
 
 Puedes usar el botón **Nuevo documento** en el espacio de trabajo **Gestión de documentos comerciales** para crear y editar una plantilla en una [configuración](general-electronic-reporting.md#Configuration) de formato de [Reporte electrónico (ER)](general-electronic-reporting.md) proporcionado por otro proveedor y ubicado en la instancia de Finance actual, o para cargar una nueva plantilla desde un libro de Excel. Además, en la versión 10.0.25 y posteriores, puede utilizar el botón **Nuevo documento** para crear y editar una plantilla en una configuración de formato ER que se almacena en el [Repositorio mundial](general-electronic-reporting.md#Repository).
 
-En los ejemplos de este tema, el proveedor activo es Contoso y lo usa para crear una plantilla basada en una plantilla proporcionada por Microsoft. Alternativamente, puede crear una plantilla cargando su propia plantilla en formato Excel.
+En los ejemplos de este artículo, el proveedor activo es Contoso y lo usa para crear una plantilla basada en una plantilla proporcionada por Microsoft. Alternativamente, puede crear una plantilla cargando su propia plantilla en formato Excel.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

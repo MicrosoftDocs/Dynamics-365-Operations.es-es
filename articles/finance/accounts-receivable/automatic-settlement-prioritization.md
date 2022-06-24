@@ -1,6 +1,6 @@
 ---
 title: Liquidación y priorización automáticas
-description: Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
+description: Este artículo describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855531"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Liquidación y priorización automáticas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
+Este artículo describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
 
 Tiene dos opciones al liquidar pagos con facturas y otras transacciones. También puede seleccionar manualmente las transacciones para liquidar, o el sistema puede seleccionar las transacciones automáticamente mediante la funcionalidad de liquidación automática. También puede personalizar cómo se procesan las liquidaciones automáticas mediante la opción **Priorizar liquidación**. Todas estas opciones son parte de los parámetros de liquidación que se definen en la página **Parámetros de clientes**. La forma en que las transacciones se liquidan automáticamente puede variar en función del método que se usa para la liquidación automática. Están disponibles los siguientes métodos:
 

@@ -1,6 +1,6 @@
 ---
 title: Revalorizar los pagos por arrendamiento vinculados a un tipo indexado
-description: Este tema describe el ajuste que se realiza para arrendar el pasivo para un activo por derecho de uso (ROU) cuando los pagos de arrendamiento variables cambian debido a un cambio en el tipo indexado.
+description: Este artículo describe el ajuste que se realiza para arrendar el pasivo para un activo por derecho de uso (ROU) cuando los pagos de arrendamiento variables cambian debido a un cambio en el tipo indexado.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903258"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Revalorizar los pagos por arrendamiento vinculados a un tipo indexado
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el ajuste que se realiza para el pasivo por arrendamiento para un activo por derecho de uso (ROU) cuando los pagos de arrendamiento variables cambian debido a un cambio en el tipo indexado. El pasivo por arrendamiento y los activos por derecho de uso se ajustarán para los nuevos importes de pago. Según el Tema 842 de Codificación de Normas de Contabilidad (ASC 842), que es el estándar en los Principios de Contabilidad Generalmente Aceptados en los EE. UU. (US GAAP), solo los pagos variables cambian cuando los pagos aumentan o disminuyen debido a un cambio en el tipo indexado, a menos que existan cambios adicionales en los flujos de efectivo. Estos cambios adicionales pueden incluir un cambio en los términos del arrendamiento relacionados con las tasas de interés. Para obtener más información, consulte la ASC 842-10-55-225 y el párrafo 42 (b) de la Norma Internacional de Información Financiera 16 (IFRS 16).
+Este artículo describe el ajuste que se realiza para el pago por arrendamiento para un activo por derecho de uso (ROU) cuando los pagos de arrendamiento variables cambian debido a un cambio en el tipo indexado. El pasivo por arrendamiento y los activos por derecho de uso se ajustarán para los nuevos importes de pago. Según el Tema 842 de Codificación de Normas de Contabilidad (ASC 842), que es el estándar en los Principios de Contabilidad Generalmente Aceptados en los EE. UU. (US GAAP), solo los pagos variables cambian cuando los pagos aumentan o disminuyen debido a un cambio en el tipo indexado, a menos que existan cambios adicionales en los flujos de efectivo. Estos cambios adicionales pueden incluir un cambio en los términos del arrendamiento relacionados con las tasas de interés. Para obtener más información, consulte la ASC 842-10-55-225 y el párrafo 42 (b) de la Norma Internacional de Información Financiera 16 (IFRS 16).
 
 ## <a name="adjust-lease-payments"></a>Ajustar los pagos de arrendamientos
 

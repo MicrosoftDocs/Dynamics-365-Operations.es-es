@@ -1,6 +1,6 @@
 ---
 title: Crear un activo fijo
-description: En este tema se explica cómo crear un nuevo registro de activo fijo desde la página de lista de activos fijos.
+description: En este artículo se explica cómo crear un nuevo registro de activo fijo desde la página de lista de activos fijos.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714296"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868500"
 ---
 # <a name="create-a-fixed-asset"></a>Crear un activo fijo
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo crear un nuevo registro de activo fijo desde la página de lista **Activos fijos**.
+En este artículo se explica cómo crear un nuevo registro de activo fijo desde la página de lista de **activos fijos**.
 
 El sistema asigna el número de activo, basado la secuencia numérica que se asigna al grupo de activos fijos. Si utiliza la plantilla de activos fijos para importar activos a través del complemento de Microsoft Excel, o si utiliza otro trabajo de importación, el sistema creará automáticamente registros de activos fijos e incrementará el número de activo.
 

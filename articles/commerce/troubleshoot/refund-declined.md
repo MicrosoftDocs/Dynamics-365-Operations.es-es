@@ -1,6 +1,6 @@
 ---
 title: Se rechaza el reembolso de un pedido de devolución
-description: Este tema proporciona una guía para la resolución de problemas que puede ayudar cuando se rechaza un reembolso en un pedido de devolución porque la tarjeta de crédito que se usa para la facturación es diferente de la tarjeta que se usó durante la autorización de pago original.
+description: Este artículo proporciona una guía para la resolución de problemas que puede ayudar cuando se rechaza un reembolso en un pedido de devolución porque la tarjeta de crédito que se usa para la facturación es diferente de la tarjeta que se usó durante la autorización de pago original.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8880d72d702758d611755bce48a331e3f2e28ca1b7abf485e8b4f7301317c875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8360be76fe5ef5ddfbcf290cf6272825bc1849f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879986"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Se rechaza el reembolso de un pedido de devolución
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema proporciona una guía para la resolución de problemas que puede ayudar cuando se rechaza un reembolso en un pedido de devolución porque la tarjeta de crédito que se usa para la facturación es diferente de la tarjeta que se usó durante la autorización de pago original.
+Este artículo proporciona una guía para la resolución de problemas que puede ayudar cuando se rechaza un reembolso en un pedido de devolución porque la tarjeta de crédito que se usa para la facturación es diferente de la tarjeta que se usó durante la autorización de pago original.
 
 ## <a name="description"></a>Descripción
 

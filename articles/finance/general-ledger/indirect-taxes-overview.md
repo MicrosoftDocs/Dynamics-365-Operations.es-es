@@ -1,6 +1,6 @@
 ---
-title: Visión general de impuestos
-description: Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
+title: Información general de impuestos
+description: Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 author: kailiang
 ms.date: 10/28/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d235a761ffdfcfb945f7f6213dc8ec44f73aab
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3261552b60f30afc1a564b50a8269a12f4eeb2b3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871286"
 ---
-# <a name="sales-tax-overview"></a>Visión general de impuestos
+# <a name="sales-tax-overview"></a>Información general de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
+Este artículo proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
 ## <a name="overview"></a>Visión general
 

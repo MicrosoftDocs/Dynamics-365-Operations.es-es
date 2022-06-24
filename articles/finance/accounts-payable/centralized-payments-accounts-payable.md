@@ -1,6 +1,6 @@
 ---
 title: Pagos centralizados para Proveedores
-description: Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este tema proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
+description: Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 5478a2ac61fb7304bc617f3d2614e68cda6154de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8331751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903460"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagos centralizados para Proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este tema proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
+Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 
 En una organización de pagos centralizados, existen muchas entidades jurídicas para realizar las operaciones, y cada entidad jurídica operativa administra sus propias facturas de proveedores. Los pagos de las entidades jurídicas operativas se generan desde una única entidad jurídica conocida como la entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibirá las transacciones de pérdidas o de beneficios realizados, y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos entre empresas. En la línea de diario de pago centralizado, el **Tipo de cuenta** se debe establecer en el proveedor. El **Tipo de cuenta de contrapartida** debe establecerse en banco o libro mayor. La cuenta bancaria debe estar en la empresa actual. 
 

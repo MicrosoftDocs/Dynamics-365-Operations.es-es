@@ -1,6 +1,6 @@
 ---
 title: Fechas de factura del proveedor
-description: Este tema describe las fechas que aparecen en las facturas de proveedores. También explica cómo configurar el sistema para que ajuste automáticamente la fecha de registro.
+description: Este artículo describe las fechas que aparecen en las facturas de proveedores. También explica cómo configurar el sistema para que ajuste automáticamente la fecha de registro.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876423"
 ---
 # <a name="vendor-invoice-dates"></a>Fechas de factura del proveedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las fechas que aparecen en las facturas de proveedores. También explica cómo configurar el sistema para que ajuste automáticamente la fecha de registro.
+Este artículo describe las fechas que aparecen en las facturas de proveedores. También explica cómo configurar el sistema para que ajuste automáticamente la fecha de registro.
 
 En la página **Factura de proveedor pendiente detallada**, el encabezado de la factura muestra cuatro fechas: la fecha de recepción de la factura, la fecha de la factura, la fecha de registro y la fecha de vencimiento. Cuando se crea una factura de proveedor, se introducen las siguientes fechas de manera predeterminada:
 
@@ -37,7 +37,7 @@ En la página **Factura de proveedor pendiente detallada**, el encabezado de la 
 
 A veces, una factura de proveedor puede estar en estado pendiente durante mucho tiempo después del cierre del periodo. Cuando esté listo para el registro, se seguirá utilizando la fecha de registro anterior del periodo de registro anterior. Sin embargo, ese periodo ya se ha cerrado. Por lo tanto, un contable de proveedores (AP) debe cambiar manualmente todas las fechas de registro al nuevo periodo de registro para todas las facturas pendientes que se crearon anteriormente.
 
-La característica que se describe en este tema le permite configurar el sistema para que ajuste automáticamente la fecha de registro de acuerdo con los requisitos comerciales.
+La característica que se describe en este artículo le permite configurar el sistema para que ajuste automáticamente la fecha de registro de acuerdo con los requisitos comerciales.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parámetro para ajustar automáticamente la fecha de registro de la factura del proveedor
 

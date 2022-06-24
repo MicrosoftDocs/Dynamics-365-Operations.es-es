@@ -1,6 +1,6 @@
 ---
 title: Facturas electrónicas de CFDI globales para México
-description: En este tema se ofrece una visión general de la funcionalidad para las facturas electrónicas de CFDI globales para México.
+description: En este artículo se ofrece una visión general de la funcionalidad para las facturas electrónicas de CFDI globales para México.
 author: EvgenyPopovMBS
 ms.date: 06/28/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2f0e6e0fee8122f9fb0b1c71a96cb08c00a05bc4db46cef702dc079810371948
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6ec387a6fb0f34873fb115f86402106c1c6acf48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864144"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 

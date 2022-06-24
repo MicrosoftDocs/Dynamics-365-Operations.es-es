@@ -1,6 +1,6 @@
 ---
 title: Retenciones de crédito para pedidos de ventas
-description: En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito.
+description: En este artículo se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856839"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenciones de crédito para pedidos de ventas
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito. Las reglas de bloqueo de la administración de crédito pueden aplicarse a un cliente individual o a un grupo de clientes. Las reglas de bloqueo definen respuestas a las siguientes circunstancias:
+En este artículo se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito. Las reglas de bloqueo de la administración de crédito pueden aplicarse a un cliente individual o a un grupo de clientes. Las reglas de bloqueo definen respuestas a las siguientes circunstancias:
 
 1. Número de días vencido
 2. Estado de cuentas

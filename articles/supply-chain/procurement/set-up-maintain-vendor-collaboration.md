@@ -1,6 +1,6 @@
 ---
 title: Configurar y mantener la colaboración de proveedor
-description: En este tema se explica cómo configurar la colaboración del proveedor en Dynamics 365 Supply Chain Management. También explica cómo proporcionar nuevos usuarios de colaboración de proveedores y administrar los roles de seguridad para esos usuarios.
+description: En este artículo se explica cómo configurar la colaboración del proveedor en Dynamics 365 Supply Chain Management. También explica cómo proporcionar nuevos usuarios de colaboración de proveedores y administrar los roles de seguridad para esos usuarios.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890839"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Configurar y mantener la colaboración de proveedor
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677573"
 
 La interfaz de colaboración del proveedor expone un conjunto limitado de información a los usuarios de proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Desde esta interfaz, un proveedor también puede responder a las solicitudes de cotización (RFQ) y ver y editar la información básica de la empresa.
 
-En este tema se explica cómo configurar la colaboración del proveedor en Dynamics 365 Supply Chain Management. También explica cómo configurar un flujo de trabajo para aprovisionar nuevos usuarios de colaboración de proveedores y cómo administrar los roles de seguridad para esos usuarios.
+En este artículo se explica cómo configurar la colaboración del proveedor en Dynamics 365 Supply Chain Management. También explica cómo configurar un flujo de trabajo para aprovisionar nuevos usuarios de colaboración de proveedores y cómo administrar los roles de seguridad para esos usuarios.
 
 > [!NOTE]
 > La información sobre la configuración de roles de seguridad para la colaboración de proveedores se aplica solo a la versión actual de finanzas y operaciones. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre los permisos de usuario para el portal de proveedores en Microsoft Dynamics AX, vea [Seguridad del usuario del portal de proveedores](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ El **Rol de proveedor (externo)** se puede utilizar para proveedores externos qu
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Configurar roles de seguridad que se utilizan cuando se incorporan posibles proveedores
 
-Para incorporar proveedores que se inician a través de una solicitud de registro de proveedor potencial, debe configurar un rol de seguridad externo. Este rol se asignará a los nuevos usuarios durante el proceso de aprovisionamiento que está controlado por el flujo de trabajo del tipo **Flujo de trabajo de solicitud de usuario (plataforma)**. Para obtener más información, consulte la sección [Configurar flujos de trabajo para procesar solicitudes de usuarios de colaboración de proveedores](#set-up-workflows-to-process-vendor-collaboration-user-requests) más adelante en este tema.
+Para incorporar proveedores que se inician a través de una solicitud de registro de proveedor potencial, debe configurar un rol de seguridad externo. Este rol se asignará a los nuevos usuarios durante el proceso de aprovisionamiento que está controlado por el flujo de trabajo del tipo **Flujo de trabajo de solicitud de usuario (plataforma)**. Para obtener más información, consulte la sección [Configurar flujos de trabajo para procesar solicitudes de usuarios de colaboración de proveedores](#set-up-workflows-to-process-vendor-collaboration-user-requests) más adelante en este artículo.
 
 Para obtener información sobre cómo incorporar a los posibles proveedores, consulte [Proveedores a bordo](vendor-onboarding.md).
 

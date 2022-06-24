@@ -1,6 +1,6 @@
 ---
 title: Incluir peso y volumen del contenedor de la carga
-description: En este tema se describe cómo configurar y aplicar una funcionalidad para incluir el peso y el volumen del contenedor en las cargas.
+description: En este artículo se describe cómo configurar y aplicar una funcionalidad para incluir el peso y el volumen del contenedor en las cargas.
 author: Weijiesa
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8574e312375ee8d50b42369979c329fd20f311a0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 66dc84171f8b175476f37f736489d3d83cacfe57
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897411"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Incluir peso y volumen del contenedor de la carga
 

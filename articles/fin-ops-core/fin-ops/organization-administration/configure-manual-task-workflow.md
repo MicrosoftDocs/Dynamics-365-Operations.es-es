@@ -1,6 +1,6 @@
 ---
 title: Configurar tareas manuales en un flujo de trabajo
-description: Este tema explica cómo configurar las propiedades para una tarea manual.
+description: Este artículo explica cómo configurar las propiedades para una tarea manual.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 726abcf20789fb3a7a9a3adbebf17249042910d1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 265f127f948aa7425c5eb523abe18986a942cfb0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889218"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurar tareas manuales en un flujo de trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066477"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema explica cómo configurar las propiedades para una tarea manual.
+Este artículo explica cómo configurar las propiedades para una tarea manual.
 
 Para configurar una tarea manual en el editor de flujo de trabajo, haga clic con el botón secundario en la tarea y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la tarea manual.
 

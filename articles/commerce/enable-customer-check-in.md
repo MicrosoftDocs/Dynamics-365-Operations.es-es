@@ -1,6 +1,6 @@
 ---
 title: Habilitar las notificaciones de registro del cliente en el punto de venta (PDV)
-description: Este tema describe cómo habilitar las notificaciones de registro de clientes en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo habilitar las notificaciones de registro de clientes en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885154"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Habilitar las notificaciones de registro del cliente en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar las notificaciones de registro de clientes en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo habilitar las notificaciones de registro de clientes en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 
 En sus correos electrónicos de "pedido listo para recoger", las organizaciones pueden proporcionar un enlace o botón que permita a los clientes notificar a la tienda que están en las instalaciones y esperando que les traigan su paquete. Luego, los clientes reciben una confirmación de registro y la tienda recibe una notificación como una tarea en su aplicación de PDV. Esta tarea sirve como aviso para que un asociado de ventas entregue el pedido en el vehículo del cliente. Por tanto, el cliente no tiene que entrar en la tienda.
 
@@ -70,7 +70,7 @@ Para probar la característica de registro de clientes, siga estos pasos.
 1. Registre la página, pero no la publique.
 1. Agregue el siguiente enlace a una plantilla de correo electrónico que invoca el tipo de notificación de embalaje completo para un modo de entrega de recogida. Para obtener más información, consulte [Crear plantillas de correo electrónico para eventos transaccionales](email-templates-transactions.md).
 
-    - **Para entornos de preproducción (UAT):** agregue el fragmento de código de la sección [Configurar la plantilla de correo electrónico transaccional](#configure-the-transactional-email-template) anterior en este tema.
+    - **Para entornos de preproducción (UAT):** agregue el fragmento de código de la sección [Configurar la plantilla de correo electrónico transaccional](#configure-the-transactional-email-template) anterior en este artículo.
     - **Para entornos de producción:** agregue el siguiente código comentado para que los clientes existentes no se vean afectados.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

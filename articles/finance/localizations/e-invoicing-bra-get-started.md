@@ -1,6 +1,6 @@
 ---
 title: Comenzar con la facturación electrónica para Brasil
-description: Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil en Finance y Supply Chain Management.
+description: Este artículo proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil en Finance y Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846595"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Comenzar con la facturación electrónica para Brasil 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil. El tema le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+Este artículo proporciona información que le ayudará a comenzar con la facturación electrónica para Brasil. El artículo le guía a través de los pasos de configuración que dependen del país en Regulatory Configuration Services (RCS) y complementa los pasos descritos en el artículo [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configuración específica del país para la función de facturación electrónica brasileña NF-e (BR)
 
 Algunos de los parámetros de la **Característica de facturación electrónica brasileña NF-e (BR)** se publican con valores predeterminados. Revise los valores y, si es necesario, actualícelos para que reflejen mejor sus necesidades de operación comercial antes de implementar la función de facturación electrónica en el entorno del servicio.
 
-Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el tema [Comenzar con la de facturación electrónica](e-invoicing-get-started.md).
+Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el artículo [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)** que creó.
@@ -51,7 +53,7 @@ Esta sección complementa la sección **Configuración específica del país par
 
 Complete estos pasos antes de implementar la configuración de la aplicación en su aplicación conectada Finance o Supply Chain Management.
 
-Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el artículo [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NF-e (BR)**.
@@ -71,7 +73,7 @@ Esta sección complementa la sección **Configuración específica del país par
 
 Algunos de los parámetros de la **Característica de facturación electrónica brasileña NFS-e ABRASF Curitiba (BR)** se publican con valores predeterminados. Revise y, si es necesario, actualice los valores para que se adapten mejor a sus necesidades de operación comercial antes de implementar la función de facturación electrónica en el entorno del servicio.
 
-Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el tema [Comenzar con la de facturación electrónica](e-invoicing-get-started.md).
+Esta sección complementa la sección **Configuración específica del país para la característica de facturación electrónica** en el artículo [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)** que creó.
@@ -96,7 +98,7 @@ Esta sección complementa la sección **Configuración específica del país par
 
 Complete estos pasos antes de implementar la configuración de la aplicación en su aplicación conectada Finance o Supply Chain Management.
 
-Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el tema [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
+Esta sección complementa la sección **Configuración específica del país para la instalación de la aplicación** en el artículo [Comenzar con la facturación electrónica](e-invoicing-get-started.md).
 
 1. En RCS, en la sección **Características** del espacio de trabajo **Característica de globalización**, seleccione el mosaico **Facturación electrónica**.
 2. En la página **Características de facturación electrónica**, compruebe que esté seleccionada la característica de facturación electrónica **Brasileña NFS-e ABRASF Curitiba (BR)**.

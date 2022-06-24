@@ -1,6 +1,6 @@
 ---
 title: Módulo de información de recogida
-description: En este tema se trata el modulo de información de recogida y se describe la forma de agregarlo a las páginas de finalización de la compra en Microsoft Dynamics 365 Commerce.
+description: En este artículo se trata el modulo de información de recogida y se describe la forma de agregarlo a las páginas de finalización de la compra en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892606"
 ---
 # <a name="pickup-information-module"></a>Módulo de información de recogida
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo de información de recogida y se describe la forma de agregarlo a las páginas de finalización de la compra en Microsoft Dynamics 365 Commerce.
+En este artículo se trata el modulo de información de recogida y se describe la forma de agregarlo a las páginas de finalización de la compra en Microsoft Dynamics 365 Commerce.
 
 El módulo de información de recogida se puede utilizar en un módulo de finalización del pedido para mostrar la información de recogida de pedidos. Los clientes pueden ver las fechas de recogida disponibles y los intervalos de tiempo, y luego seleccionar una hora adecuada para recoger su pedido. Por ejemplo, un cliente puede elegir recoger un pedido a las 15:00 horas del 21 de marzo en la tienda de San Francisco.
 

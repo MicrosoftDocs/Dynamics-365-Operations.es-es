@@ -1,6 +1,6 @@
 ---
 title: Crear catálogos de Commerce para sitios B2B
-description: Este tema describe cómo crear catálogos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo crear catálogos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
+ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848998"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Crear catálogos de Commerce para sitios B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tema describe cómo crear catálogos de productos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce. Para obtener respuestas a las preguntas más frecuentes sobre los catálogos de Commerce para sitios B2B, consulte [Catálogos de Commerce para preguntas frecuentes B2B](catalogs-b2b-sites-FAQ.md).
+Este artículo describe cómo crear catálogos de productos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce. Para obtener respuestas a las preguntas más frecuentes sobre los catálogos de Commerce para sitios B2B, consulte [Catálogos de Commerce para preguntas frecuentes B2B](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Este tema se aplica a la versión 10.0.27 Dynamics 365 Commerce y posteriores.
+> Este artículo se aplica a la versión 10.0.27 Dynamics 365 Commerce y posteriores.
 
 Puede usar los catálogos de Commerce para identificar los productos que desee ofrecer en las tiendas B2B en línea. Al crear un catálogo, identifica las tiendas en línea en las que se ofrecen los productos, agrega los productos que desee incluir y mejora las ofertas de producto mediante la adición de detalles de comercialización. Puede crear varios catálogos para cada tienda B2B en línea.
 

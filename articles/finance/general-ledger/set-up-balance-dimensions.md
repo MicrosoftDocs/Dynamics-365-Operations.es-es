@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo configuro las dimensiones financieras de equilibrio?
-description: Este tema describe las opciones para configurar y utilizar la función Equilibrar la dimensión financiera.
+description: Este artículo describe las opciones para configurar y utilizar la función Equilibrar la dimensión financiera.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878023"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>¿Cómo configuro las dimensiones financieras de equilibrio?
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las opciones para configurar y utilizar la función Equilibrar la dimensión financiera.
+Este artículo describe las opciones para configurar y utilizar la función Equilibrar la dimensión financiera.
 
 ## <a name="symptom"></a>Síntoma
 
-Hay dos opciones para configurar las dimensiones financieras de equilibrio. La primera opción es utilizar el campo **Equilibrio de la dimensión financiera** en la página de configuración **Libro mayor** (**Libro mayor \> Configuración del libro mayor \> Libro mayor**). La segunda opción es usar el campo **Requerir que la dimensión se equilibre** en la página **Dimensioens financieras** (**Libro mayor > Plan de cuentas \> Dimensiones \> Conjuntos de dimensiones financieras**). Este tema explica la diferencia entre estas dos opciones.
+Hay dos opciones para configurar las dimensiones financieras de equilibrio. La primera opción es utilizar el campo **Equilibrio de la dimensión financiera** en la página de configuración **Libro mayor** (**Libro mayor \> Configuración del libro mayor \> Libro mayor**). La segunda opción es usar el campo **Requerir que la dimensión se equilibre** en la página **Dimensioens financieras** (**Libro mayor > Plan de cuentas \> Dimensiones \> Conjuntos de dimensiones financieras**). Este artículo explica la diferencia entre estas dos opciones.
 
 ## <a name="resolution"></a>Resolución
 

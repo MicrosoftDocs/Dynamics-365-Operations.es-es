@@ -1,6 +1,6 @@
 ---
 title: Configurar grupos de impuestos de artículos
-description: En este tema se explica cómo configurar grupos de impuestos de artículos en el servicio de cálculo de Impuestos.
+description: En este artículo se explica cómo configurar grupos de impuestos de artículos en el servicio de cálculo de Impuestos.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 88dd8e2fd9d4d4e5172dcc7b1bd27a70a2f59f03
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3bc705bc8173ad2bc8ef883e6dc80b0a187314ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846474"
 ---
 # <a name="set-up-item-tax-groups"></a>Configurar grupos de impuestos de artículos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar grupos de impuestos de artículos en el servicio de cálculo de Impuestos. También se explica cómo configurar la matriz de reglas de aplicabilidad de los grupos impositivos de artículos y configurar las líneas en la matriz.
+En este artículo se explica cómo configurar grupos de impuestos de artículos en el servicio de cálculo de Impuestos. También se explica cómo configurar la matriz de reglas de aplicabilidad de los grupos impositivos de artículos y configurar las líneas en la matriz.
 
 El concepto de grupos de impuestos de artículos en el servicio de cálculo de impuestos se asemeja al concepto de grupos de impuestos de ventas de artículos en Microsoft Dynamics 365 Finance. Son grupos de códigos de impuestos. El servicio de cálculo de impuestos utiliza la intersección de un grupo de impuestos y un grupo de impuestos de artículos para determinar los códigos de impuestos.
 

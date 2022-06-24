@@ -1,6 +1,6 @@
 ---
 title: Convenciones de depreciación de activos fijos
-description: En este tema se describen las convenciones de depreciación de los activos fijos.
+description: En este artículo se describen las convenciones de depreciación de los activos fijos.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e151d20fbfb9aa8fca9afc5be4f112b3de13cc7
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858403"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Convenciones de depreciación de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las convenciones de depreciación de los activos fijos. Las convenciones de depreciación se usan para determinar cuándo y cómo la depreciación se calcula para tanto para el año en que se adquiere el activo fijo como para el año en que se cancela el activo fijo.
+En este artículo se describen las convenciones de depreciación de los activos fijos. Las convenciones de depreciación se usan para determinar cuándo y cómo la depreciación se calcula para tanto para el año en que se adquiere el activo fijo como para el año en que se cancela el activo fijo.
 
 Las convenciones de depreciación se pueden asignar a la configuración para un libro del grupo de activos fijos. Para ver o asignar la convención de depreciación, en el área de instalación de activos fijos, seleccione los grupos **Activo fijo**. Seleccione el botón **Libros**. En este caso, las convenciones de depreciación que se asignan se usan como valores predeterminados cuando se crean los libros de activos fijos. Las convenciones de depreciación también se pueden establecer en un libro de activo fijo individual. Para ello, seleccione **Libros** en el área de instalación de activos fijos, y seleccione el botón **Grupos de activos fijos**.
 

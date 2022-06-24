@@ -1,6 +1,6 @@
 ---
-title: Visión general de la conversión de consolidaciones financieras y divisa
-description: Este tema describe las consolidaciones financieras y la conversión de divisas en contabilidad general.
+title: Información general de la conversión de consolidaciones financieras y divisa
+description: Este artículo describe las consolidaciones financieras y la conversión de divisas en contabilidad general.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846868"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Información general de la conversión de consolidaciones financieras y divisa
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le informa sobre el método que Microsoft Dynamics 365 Finance y Financial reporting usan para las consolidaciones. Describe las situaciones que implican informes de varias compañías, agregaciones, eliminaciones e intereses minoritarios. También explica cómo gestionar situaciones especiales, como escenarios donde las entidades jurídicas tienen varios períodos fiscales o varios planes contables.
+Este artículo le informa sobre el método que Microsoft Dynamics 365 Finance y Financial reporting usan para las consolidaciones. Describe las situaciones que implican informes de varias compañías, agregaciones, eliminaciones e intereses minoritarios. También explica cómo gestionar situaciones especiales, como escenarios donde las entidades jurídicas tienen varios períodos fiscales o varios planes contables.
 
-Este tema se escribió para los usuarios y los consultores funcionales, y supone que los lectores tienen una comprensión general de Finance y los informes financieros. La configuración básica no se aborda.
+Este artículo se escribió para los usuarios y los consultores funcionales, y supone que los lectores tienen una comprensión general de Finance y los informes financieros. La configuración básica no se aborda.
 
 > [!NOTE]
-> El término *entidad jurídica* se utiliza en Finance y el término *empresa* se usa en informes financieros. Ambos términos se utilizan en este tema. Sin embargo, a efectos de este tema, sus significados son iguales.
+> El término *entidad jurídica* se utiliza en Finance y el término *empresa* se usa en informes financieros. Ambos términos se utilizan en este artículo. Sin embargo, a efectos de este artículo, sus significados son iguales.
 
-## <a name="audience"></a>Audiencia
-Este tema está destinado a los usuarios de las finanzas y contabilidad y los consultores de solicitudes que desean utilizar Finance and Reporting y los informes financieros para la consolidar varias empresas y datos en varias divisas.
+## <a name="audience"></a>Público
+Este artículo está destinado a los usuarios de las finanzas y contabilidad y los consultores de solicitudes que desean utilizar Finance and Reporting y los informes financieros para la consolidar varias empresas y datos en varias divisas.
 
 ## <a name="approach"></a>Enfoque
 Finance usa una entidad jurídica independiente para procesar una consolidación. Habilita las consolidaciones de instancia única pero proporciona una opción para obtener datos de otros orígenes. El proceso de consolidación debe ejecutarse cada vez que los cambios se introducen en las entidades jurídicas de origen.

@@ -1,6 +1,6 @@
 ---
 title: Estimar y administrar los costos descargados
-description: El sistema utiliza su configuración de costo automático para determinar una estimación de su costo de entrega. Este tema explica cómo puede definir varios escenarios para ofrecer una estimación más precisa.
+description: El sistema utiliza su configuración de costo automático para determinar una estimación de su costo de entrega. Este artículo explica cómo puede definir varios escenarios para ofrecer una estimación más precisa.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854452"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimar y administrar los costos descargados
 
@@ -50,7 +50,7 @@ En la tabla siguiente se describen los campos disponibles para cada plantilla.
 
 Utilizar el cuadro de diálogo **Costo estimado** para generar una nueva estimación de costos basada en una plantilla de costos seleccionada, un conjunto seleccionado de elementos y otros detalles de un viaje. Luego, estos ajustes se utilizan para determinar los costos de desembarque estimados de los bienes. Estas estimaciones de costos se utilizan principalmente para trabajar con elementos de costo estándar. Al agregar los costos estimados de desembarque al costo estándar de los bienes en el inventario, debe experimentar transacciones de variación más pequeña cuando los bienes se agregan a un viaje, porque el costo estándar reflejará las estimaciones de esos costos de desembarque.
 
-Para abrir el cuadro de diálogo **Costo estimado**, vaya a **Coste de aterrizaje \> Tareas periódicas \> Costo estimado**. Luego, configure los campos que se describen en las siguientes subsecciones. Finalmente, seleccione **Aceptar** para crear la nueva estimación. La página **Costo estimado** (**Coste de aterrizaje \> Consultas \> Coste estimado**) luego aparece y muestra su nueva estimación, como se describe más adelante en este tema.
+Para abrir el cuadro de diálogo **Costo estimado**, vaya a **Coste de aterrizaje \> Tareas periódicas \> Costo estimado**. Luego, configure los campos que se describen en las siguientes subsecciones. Finalmente, seleccione **Aceptar** para crear la nueva estimación. La página **Costo estimado** (**Coste de aterrizaje \> Consultas \> Coste estimado**) luego aparece y muestra su nueva estimación, como se describe más adelante en este artículo.
 
 ### <a name="settings-on-the-parameters-tab"></a>Configuración en la pestaña Parámetros
 
@@ -91,7 +91,7 @@ Para ver o ajustar los detalles de volumen y / o peso de un artículo, seleccion
 
 ## <a name="manage-estimated-costs"></a>Gestionar costes estimados
 
-Para ver y editar las estimaciones de costos que ha creado, vaya a **Coste de aterrizaje \> Consultas \> Coste estimado**. Sobre la página **Estimaciones de costos**, el panel de lista de la izquierda muestra todas las estimaciones de costos actuales. Puede utilizar los botones del Panel de acciones para trabajar con una estimación seleccionada. Tenga en cuenta que no puede crear una nueva estimación de costos a partir de la página **Coste estimado**. En su lugar, use el cuadro de diálogo **Costo estimado** (**Coste de aterrizaje \> Tareas periódicas \> Costo estimado**), como se describió anteriormente en este tema.
+Para ver y editar las estimaciones de costos que ha creado, vaya a **Coste de aterrizaje \> Consultas \> Coste estimado**. Sobre la página **Estimaciones de costos**, el panel de lista de la izquierda muestra todas las estimaciones de costos actuales. Puede utilizar los botones del Panel de acciones para trabajar con una estimación seleccionada. Tenga en cuenta que no puede crear una nueva estimación de costos a partir de la página **Coste estimado**. En su lugar, use el cuadro de diálogo **Costo estimado** (**Coste de aterrizaje \> Tareas periódicas \> Costo estimado**), como se describió anteriormente en este artículo.
 
 La página **Coste estimado** muestra cómo se derivó cada costo estimado. También muestra el costo de entrega estimado para cada artículo. Puede modificar una estimación de costos cambiando el precio de costo y / o la moneda asociada con los diversos bienes. También puede modificar los costos de viaje asociados tanto a nivel de viaje como a nivel de contenedor. Cuando usa esta página para modificar los costos, se le solicita que vuelva a calcular los costos estimados para los artículos en la estimación de costos. Cuando esté listo, puede usar las estimaciones para actualizar el precio de costo de los artículos en la plantilla de costo.
 

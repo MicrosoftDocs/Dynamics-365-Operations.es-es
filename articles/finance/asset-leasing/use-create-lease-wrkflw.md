@@ -1,6 +1,6 @@
 ---
 title: Usar flujos de trabajo de aprobación de arrendamiento
-description: Este tema explica cómo utilizar los flujos de trabajo para aprobar arrendamientos de activos y cómo realizar un seguimiento del estado y el historial de los flujos de trabajo.
+description: Este artículo explica cómo utilizar los flujos de trabajo para aprobar arrendamientos de activos y cómo realizar un seguimiento del estado y el historial de los flujos de trabajo.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906453"
 ---
 # <a name="use-lease-approval-workflows"></a>Usar flujos de trabajo de aprobación de arrendamiento
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo utilizar los flujos de trabajo para aprobar arrendamientos de activos y cómo realizar un seguimiento del estado y el historial de los flujos de trabajo. Los flujos de trabajo ayudan a dar coherencia a la gestión de las aprobaciones de arrendamientos al proporcionar un conjunto estándar de pasos de aprobación y asignar usuarios específicos que aprueban cada paso del proceso. Un aprobador puede aprobar un arrendamiento, rechazarlo, solicitar un cambio o asignarlo a otro usuario para su aprobación. Los flujos de trabajo también pueden brindar más visibilidad al proceso de aprobación al permitirle rastrear su estado e historial. Además, puede ver una lista de trabajo centralizada que enumera las tareas y aprobaciones asignadas a aprobadores específicos.
+Este artículo explica cómo utilizar los flujos de trabajo para aprobar arrendamientos de activos y cómo realizar un seguimiento del estado y el historial de los flujos de trabajo. Los flujos de trabajo ayudan a dar coherencia a la gestión de las aprobaciones de arrendamientos al proporcionar un conjunto estándar de pasos de aprobación y asignar usuarios específicos que aprueban cada paso del proceso. Un aprobador puede aprobar un arrendamiento, rechazarlo, solicitar un cambio o asignarlo a otro usuario para su aprobación. Los flujos de trabajo también pueden brindar más visibilidad al proceso de aprobación al permitirle rastrear su estado e historial. Además, puede ver una lista de trabajo centralizada que enumera las tareas y aprobaciones asignadas a aprobadores específicos.
 
 Antes de utilizar este procedimiento, asegúrese de que se haya creado al menos un flujo de trabajo de aprobación de arrendamiento. Si no existe ningún flujo de trabajo, cree uno. Para obtener información sobre cómo configurar un flujo de trabajo, consulte [Configurar flujos de trabajo de aprobación de arrendamiento](set-up-lease-wrkflw.md).
 

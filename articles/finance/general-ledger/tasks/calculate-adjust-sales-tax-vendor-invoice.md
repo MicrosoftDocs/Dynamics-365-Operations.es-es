@@ -1,6 +1,6 @@
 ---
 title: Calcular y ajustar los impuestos en una factura de proveedor
-description: En este tema se explica cómo ajustar los impuestos para una factura de proveedor en Dynamics 365 Finance.
+description: En este artículo se explica cómo ajustar los impuestos para una factura de proveedor en Dynamics 365 Finance.
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9a1093631688351d065d6b55bc65055b6f92d256
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868384"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calcular y ajustar los impuestos en una factura de proveedor
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo ajustar los impuestos para una factura de proveedor. Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro. Esta tarea usa la empresa de demostración DEMF.
+En este artículo se explica cómo ajustar los impuestos para una factura de proveedor. Si el documento de origen inicial muestra diferentes importes de impuestos según los calcula, puede ajustar dichos importes antes del registro. Esta tarea usa la empresa de demostración DEMF.
 
 1. Vaya a **Proveedores > Facturas > Diario de facturas**.
 2. Seleccione **Nuevo**.

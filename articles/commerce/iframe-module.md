@@ -1,6 +1,6 @@
 ---
-title: Módulo de iframe
-description: En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+title: Módulo de iFrame
+description: En este artículo se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9f1804cde1010c585d53d63bc0a487bc5407552
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858946"
 ---
 # <a name="iframe-module"></a>Módulo de iFrame
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se trata el modulo de iframe y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Un módulo de iframe proporciona un iframe (marco en línea) que aloja contenido externo en un sitio. Por ejemplo, se puede usar para alojar un vídeo YouTube o un visor de archivos PDF en cualquier página del sitio. 
 

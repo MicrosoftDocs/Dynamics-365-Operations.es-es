@@ -1,6 +1,6 @@
 ---
 title: Crear planes de compensación variable
-description: Este tema describe los componentes que se deben configurar para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
+description: Este artículo describe los componentes que se deben configurar para poder usar compensación variable e inscribir un empleado en un plan de compensación variable.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853085"
 ---
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688668"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este tema explica cómo configurar los componentes necesarios para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
+La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este artículo explica cómo configurar los componentes necesarios para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
 
 El cálculo de los importes de compensación variable para sus empleados se puede basar en varios factores, como el rendimiento del empleado, el nivel de compensación del empleado y el rendimiento del departamento.
 

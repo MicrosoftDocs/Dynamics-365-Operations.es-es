@@ -1,6 +1,6 @@
 ---
 title: Aprobar y confirmar pedidos de compra
-description: Este tema describe los estados por los que pasa un pedido de compra una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
+description: Este artículo describe los estados por los que pasa un pedido de compra una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907388"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los estados por los que pasa un pedido de compra (PO) una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
+Este artículo describe los estados por los que pasa un pedido de compra (PO) una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
 
 Una vez se ha creado un pedido de compra, puede que tenga que pasar por un proceso de aprobación. Después de que el proveedor haya aceptado el pedido, el pedido de compra se establece en un estado de **Confirmado**.
 

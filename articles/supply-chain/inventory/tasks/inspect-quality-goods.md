@@ -1,6 +1,6 @@
 ---
 title: Inspeccionar la calidad de las mercancías
-description: Este tema explica cómo procesar los pedidos de calidad.
+description: Este artículo explica cómo procesar los pedidos de calidad.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,20 +14,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc2fbbedb608b38c6855fbd48ff0c3e26ee3e0bc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eeb14a3b0a61f34819bdd8d524e65ac214a81c35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857587"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspeccionar la calidad de las mercancías
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo procesar los pedidos de calidad. Las inspecciones de calidad las realiza normalmente un empleado de control de calidad.
+Este artículo explica cómo procesar los pedidos de calidad. Las inspecciones de calidad las realiza normalmente un empleado de control de calidad.
 
-Si los datos de demostración estándar están instalados, puede utilizarlos para completar los procedimientos de este tema. Para usar los datos de demostración, seleccione la entidad legal *USMF* antes de empezar. A continuación, debe confirmar la orden de compra *000016* y registrar una recepción de producto. Se genera automáticamente un pedido de calidad.
+Si los datos de demostración estándar están instalados, puede utilizarlos para completar los procedimientos de este artículo. Para usar los datos de demostración, seleccione la entidad legal *USMF* antes de empezar. A continuación, debe confirmar la orden de compra *000016* y registrar una recepción de producto. Se genera automáticamente un pedido de calidad.
 
 ## <a name="step-1-select-a-quality-order"></a>Paso 1: seleccionar un pedido de calidad
 

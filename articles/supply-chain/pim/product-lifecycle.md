@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850652"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visión general del estado de ciclo de vida de producto
 
@@ -74,7 +74,7 @@ Las entidades de datos admiten los estados del ciclo de vida del producto y el e
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Busque los productos y las variantes de productos obsoletos
 
-Puede ejecutar un análisis de simulación para encontrar los productos liberados o las variantes de producto obsoletos y actualice su estado del ciclo de vida de producto. Para encontrar porductos obsoletos, vea [Buscar productos liberados o las variantes de producto obsoletos y asignar un estado del ciclo de vida de producto](tasks/obsolete-product-variants.md). Este tema muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoletos. También muestra cómo ver los resultados de la simulación y evalua la cantidad de productos y variantes de producto se asociarán con un estado del ciclo de vida del nuevo producto al ejecutar la actualización sin la simulación.  
+Puede ejecutar un análisis de simulación para encontrar los productos liberados o las variantes de producto obsoletos y actualice su estado del ciclo de vida de producto. Para encontrar porductos obsoletos, vea [Buscar productos liberados o las variantes de producto obsoletos y asignar un estado del ciclo de vida de producto](tasks/obsolete-product-variants.md). Este artículo muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoletos. También muestra cómo ver los resultados de la simulación y evalua la cantidad de productos y variantes de producto se asociarán con un estado del ciclo de vida del nuevo producto al ejecutar la actualización sin la simulación.  
 
 Al ejecutar el análisis en modo de simulación, los productos y las variantes de producto identificados como obsoletos se muestran en un formulario específico, donde se pueden revisar fácilmente. Las búsquedas de análisis para transacciones y datos maestros específicos para identificar los productos que no tienen ninguna demanda dentro de un período variable y ningún dato maestro que pueda resultar en demanda. Los nuevos productos liberados en un período variable se pueden excluir del análisis. Cuando la simulación de análisis devuelve el resultado esperado, el usuario puede ejecutar el análisis y establecer un estado del ciclo de vida del producto a todos los productos identificados como obsoletos por el análisis.  
 
@@ -97,7 +97,7 @@ Use los siguientes criterios para seleccionar y actualizar los productos liberad
 - No existen líneas de acuerdos de compra o ventas activos o futuros para el producto o la variante del producto.
 - El producto o la variante del producto no se usa en una lista de materiales que esté asociada a una versión aprobada no caducada de lista de materiales para un producto o una variante que esté activo para la planificación.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Crear un nuevo estado de ciclo de vida de producto](tasks/new-product-lifecycle-state.md)
 - [Crear un estado predeterminado de ciclo de vida de producto](tasks/default-product-lifecycle-state.md)

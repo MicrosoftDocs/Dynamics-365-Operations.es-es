@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de rendimiento de producción
-description: Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción.
+description: Este artículo describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881472"
 ---
 # <a name="production-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido sobre **Rendimiento de la producción** en Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe lo que se incluye en el contenido de Microsoft Power BI sobre **Rendimiento de la producción**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -63,7 +63,7 @@ Los datos siguientes se usan para las páginas de informes en el contenido de Po
 
 La tabla siguiente muestra las medidas agregadas clave que se usan como base del contenido de Power BI.
 
-| Entidad                   | Medidas agregadas clave  | Origen de datos para aplicaciones Finance and Operations | Campo              |
+| Entidad                   | Medidas agregadas clave  | Origen de datos para aplicaciones de Finance and Operations | Campo              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

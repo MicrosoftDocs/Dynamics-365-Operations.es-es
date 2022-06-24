@@ -1,6 +1,6 @@
 ---
 title: Buscar actualizaciones reglamentarias específicas de cada país
-description: Este tema proporciona vínculos a actualizaciones reglamentarias planificadas y publicadas específicas de países para Microsoft Dynamics 365 Finance.
+description: Este artículo proporciona vínculos a actualizaciones reglamentarias planificadas y publicadas específicas de países para Microsoft Dynamics 365 Finance.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896193"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Buscar actualizaciones reglamentarias específicas de cada país
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona vínculos a actualizaciones reglamentarias planificadas y publicadas específicas de países para Microsoft Dynamics 365 Finance. Debe iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) para acceder a esta información.
+Este artículo proporciona vínculos a actualizaciones reglamentarias planificadas y publicadas específicas de países para Microsoft Dynamics 365 Finance. Debe iniciar sesión en Microsoft Dynamics Lifecycle Services (LCS) para acceder a esta información.
 
 | País o región    | Tema en Búsqueda de temas en LCS |
 |----------------------|---------------------------|

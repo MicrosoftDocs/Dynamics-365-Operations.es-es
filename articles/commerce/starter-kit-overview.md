@@ -1,6 +1,6 @@
 ---
 title: Descripción general de la biblioteca de módulos
-description: Este tema presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
+description: Este artículo presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882179"
 ---
 # <a name="module-library-overview"></a>Descripción general de la biblioteca de módulos
 
 [!include [banner](includes/banner.md)]
 
-Este tema presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
+Este artículo presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
 
 La biblioteca de módulos de Dynamics 365 Commerce es una colección de módulos que se pueden usar para crear un sitio web de comercio electrónico. Los módulos tienen tanto aspectos de la interfaz de usuario (IU) como aspectos de comportamiento funcional.
 

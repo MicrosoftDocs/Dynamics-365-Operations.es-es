@@ -1,6 +1,6 @@
 ---
 title: Importar tipos de cambio de divisa
-description: Este tema proporciona información sobre los requisitos para importar tasas de referencia de divisa extranjera publicadas por los proveedores de tipo de cambio.
+description: Este artículo proporciona información sobre los requisitos para importar tasas de referencia de divisa extranjera publicadas por los proveedores de tipo de cambio.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894946"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 
 [!include [banner](../includes/banner.md)]
 
-Si una entidad jurídica ha recibido facturas en divisas extranjeras, la divisa extranjera se debe convertir en la divisa local. Esto significa que se requieren tipos de cambio actualizados para las distintas divisas. Este tema proporciona una visión general de los ajustes y el proceso necesarios para importar las tasas de referencia de divisa extranjera publicadas por los proveedores de tipos de cambio, como el Banco Central Europeo y el Central Bank of Russia.
+Si una entidad jurídica ha recibido facturas en divisas extranjeras, la divisa extranjera se debe convertir en la divisa local. Esto significa que se requieren tipos de cambio actualizados para las distintas divisas. Este artículo proporciona una visión general de los ajustes y el proceso necesarios para importar las tasas de referencia de divisa extranjera publicadas por los proveedores de tipos de cambio, como el Banco Central Europeo y el Central Bank of Russia.
 
 Las siguientes secciones describen el flujo de información que se utiliza para configurar y procesar la importación de tipos de cambio extranjeros.
 

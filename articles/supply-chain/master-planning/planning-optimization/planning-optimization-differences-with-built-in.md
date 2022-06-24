@@ -1,6 +1,6 @@
 ---
 title: Diferencias entre la planificación maestra incorporada y Optimización de planificación
-description: Este tema enumera las características que Optimización de planificación aún no admite y que no aparecen en la página de análisis de ajuste de Optimización de planificación.
+description: Este artículo enumera las características que Optimización de planificación aún no admite y que no aparecen en la página de análisis de ajuste de Optimización de planificación.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897585"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferencias entre la planificación maestra incorporada y Optimización de planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Los resultados de Optimización de planificación pueden diferir de los resultados del motor de planificación maestro integrado. Las diferencias pueden estar provocadas por funciones pendientes. Este tema enumera las características que Optimización de planificación aún no admite y que no aparecen en la **[página de análisis de ajuste de Optimización de planificación](planning-optimization-fit-analysis.md)**].
+Los resultados de Optimización de planificación pueden diferir de los resultados del motor de planificación maestro integrado. Las diferencias pueden estar provocadas por funciones pendientes. Este artículo enumera las características que Optimización de planificación aún no admite y que no aparecen en la **[página de análisis de ajuste de Optimización de planificación](planning-optimization-fit-analysis.md)**].
 
 | Característica | Comportamiento actual en Optimización de planificación |
 |---|---|

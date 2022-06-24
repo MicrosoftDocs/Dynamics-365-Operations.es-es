@@ -1,6 +1,6 @@
 ---
 title: Trabajar con preajustes de estilo
-description: En este tema se describe cómo trabajar con estilos de sitio preestablecidos en el creador de sitios de Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo trabajar con estilos de sitio preestablecidos en el creador de sitios de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900369"
 ---
 # <a name="work-with-style-presets"></a>Trabajar con preajustes de estilo
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo trabajar con estilos de sitio preestablecidos en el creador de sitios de Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo trabajar con estilos de sitio preestablecidos en el creador de sitios de Microsoft Dynamics 365 Commerce.
 
 Un estilo preestablecido es un conjunto almacenado de todos los valores de estilo autorizables en el tema de un sitio. Se puede usar para cambiar inmediatamente el aspecto de un sitio desde el creador de sitios. Los preajustes de estilo permiten a los creadores de sitios web de Commerce cambiar, previsualizar y activar rápidamente un conjunto de valores de estilo en su sitio, sin tener que usar Hojas de estilo en cascada (CSS) ni desplegar temas. Los estilos de fuente, los estilos de botón y los colores del sitio son ejemplos típicos de variables de estilo que se pueden administrar a través de preajustes de estilo.
 

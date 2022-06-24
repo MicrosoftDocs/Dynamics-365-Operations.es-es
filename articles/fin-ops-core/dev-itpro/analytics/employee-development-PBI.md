@@ -1,6 +1,6 @@
 ---
 title: Contenido de desarrollo de empleados de Power BI
-description: Este tema describe el contenido en Power BI de Desarrollo de empleados.
+description: Este artículo describe el contenido en Power BI de Desarrollo de empleados.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 280053703a8afac15f0ae377e0d439a9bc9e918fb4c8413022cabad08431f3e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67fd3b5907cb52dc1f10d754e12316e21876e888
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850998"
 ---
 # <a name="employee-development-power-bi-content"></a>Contenido de desarrollo de empleados de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en de **Desarrollo de empleados** en Microsoft Power BI.
+Este artículo describe el contenido en Microsoft Power BI de **Desarrollo de empleados**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 Los informes incluidos en el contenido de Power BI de **Desarrollo de empleados** tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.

@@ -1,6 +1,6 @@
 ---
 title: Trabajar con directivas de ubicación
-description: Este tema describe cómo trabajar con directivas de ubicación. Las directivas de ubicación son reglas definidas por el usuario que ayudan a identificar las ubicaciones de picking y de colocación para el movimiento de inventario.
+description: Este artículo describe cómo trabajar con directivas de ubicación. Las directivas de ubicación son reglas definidas por el usuario que ayudan a identificar las ubicaciones de picking y de colocación para el movimiento de inventario.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903706"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103147"
 Las directivas de ubicación son reglas que ayudan a identifica las ubicaciones de picking y de colocación para el movimiento de inventario. Por ejemplo, en una transacción de pedido de ventas, una directiva de ubicación determina dónde se hará el picking de los artículos y dónde se colocarán los artículos seleccionados. Las directivas de ubicación constan de un encabezado y líneas asociadas. Se crean para *tipos de órdenes de trabajo*.
 
 > [!NOTE]
-> Este tema se aplica a las características del módulo **Gestión de almacenes**. No se aplica a las características del módulo [Gestión de inventarios](../inventory/inventory-home-page.md).
+> Este artículo se aplica a las características del módulo **Gestión de almacenes**. No se aplica a las características del módulo [Gestión de inventarios](../inventory/inventory-home-page.md).
 
 Puede usar directivas de ubicación para realizar las tareas siguientes:
 
@@ -109,7 +109,7 @@ La siguiente tabla enumera los campos que son específicos para tipos de órdene
 
 Para abrir la página **Directivas de ubicación**, vaya a **Gestión de almacenes \> Configuración \> Directivas de ubicación**.
 
-Desde allí, puede ver, crear y editar sus directivas de ubicación mediante los comandos del Panel de acciones. Consulte las secciones restantes de este tema para obtener información sobre cómo utilizar todos los campos que están disponibles en la página.
+Desde allí, puede ver, crear y editar sus directivas de ubicación mediante los comandos del Panel de acciones. Consulte las secciones restantes de este artículo para obtener información sobre cómo utilizar todos los campos que están disponibles en la página.
 
 ## <a name="action-pane"></a>Panel de acciones
 
@@ -162,7 +162,7 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
 - **Código de disposición aplicable** – Especifique si el código de disposición de la ubicación de la directiva debe coincidir con el código de disposición que se aplica cuando se recibe el artículo o si la ubicación de la directiva se puede seleccionar en función de los códigos de disposición. Si selecciona *Coincidencia exacta* y el campo **Código de disposición** está en blanco, solo se tendrán en cuenta los códigos de disposición en blanco para esta directiva de ubicación.
 
     > [!NOTE]
-    > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types) antes en este tema.
+    > Este campo está disponible solo para tipos de órdenes de trabajo seleccionados donde se permite el reabastecimiento. Para obtener una lista completa, consulte la sección [Campos que son específicos de los tipos de órdenes de trabajo](#fields-specific-types) antes en este artículo.
 
 - **Localizar por** - Especifique si la cantidad almacenada debe ser la cantidad total en la placa de matrícula o si debe ser artículo por artículo. Utilice este campo para asegurarse de que todo el contenido de una placa se coloque en una ubicación y que el sistema no sugiera que divida el contenido en varias ubicaciones para procesos **ASN** (recepción de matrículas), de recepción de **Matrícula mixta** y de recepción de **Clúster**. (El proceso de recepción de **Clúster** requiere que la [Función de almacenamiento en grupo](putaway-clusters.md) esté activada). El comportamiento de la consulta de la directiva de ubicación, las líneas y las acciones de la directiva de ubicación variarán, según el valor que seleccione. La ficha desplegable **Líneas** solo se usa cuando **Localizar por** se establece en *Artículo*.
 
@@ -254,7 +254,7 @@ Tras crear las directivas de ubicación, puede asociar cada código de directiva
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Tema de ayuda: [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
+- Artículo de ayuda: [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

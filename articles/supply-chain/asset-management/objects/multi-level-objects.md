@@ -1,6 +1,6 @@
 ---
 title: Activos de varios niveles
-description: Este tema explica cómo crear y eliminar activos de varios niveles.
+description: Este artículo explica cómo crear y eliminar activos de varios niveles.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908783"
 ---
 # <a name="multi-level-assets"></a>Activos de varios niveles
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769620"
 
  
 
-Este tema explica cómo crear y eliminar activos de varios niveles. Puede crear activos y subactivos relacionados en una estructura en árbol jerárquica. De esta manera, puede mostrar las relaciones y dependencias entre los activos. Los trabajos de mantenimiento pueden estar relacionadas con todos los niveles de la estructura de árbol. También se pueden crear estadísticas para un nivel individual o como suma de todos los niveles de subactivos.
+Este artículo explica cómo crear y eliminar activos de varios niveles. Puede crear activos y subactivos relacionados en una estructura en árbol jerárquica. De esta manera, puede mostrar las relaciones y dependencias entre los activos. Los trabajos de mantenimiento pueden estar relacionadas con todos los niveles de la estructura de árbol. También se pueden crear estadísticas para un nivel individual o como suma de todos los niveles de subactivos.
 
 En la página de lista **Todos los activos** (**Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**), la columna **Activo** muestra los activos por orden jerárquico. La columna **Principal** muestra el elemento principal relacionado. Además, si los activos y los subactivos ya se han creado, la sección **Árbol de activos** en el panel **Información relacionada** se muestra los activos en una estructura de árbol.
 

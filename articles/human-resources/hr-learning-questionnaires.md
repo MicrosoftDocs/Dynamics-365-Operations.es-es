@@ -1,6 +1,6 @@
 ---
 title: Cuestionarios
-description: En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada.
+description: Este artículo proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897904"
 ---
 # <a name="questionnaires"></a>Cuestionarios
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690761"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
+Este artículo proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados. 
 
 Puede personalizar un cuestionario para que se adapte a sus requisitos específicos mediante las diversas características que están disponibles en Microsoft Dynamics 365 Finance. A continuación, se muestran algunos ejemplos de cómo se pueden usar los cuestionarios:
 
@@ -40,11 +40,11 @@ Puede personalizar un cuestionario para que se adapte a sus requisitos específi
 
 En la siguiente tabla se proporcionan vínculos a información sobre cómo usar las tareas principales de los cuestionarios. Haga clic en los vínculos para obtener más información.
 
-| Tema| Description|
+| Artículo | Description|
 |------|------------|
-| [Diseñar un cuestionario](hr-learning-design-questionnaires.md) | Este tema ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
-| [Distribuir y programar cuestionarios](hr-learning-distribute-questionnaires.md) | Este tema proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios. |
-| [Ver y evaluar los resultados de un cuestionario](hr-learning-evaluate-questionnaire-results.md) | Este tema ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados. |
+| [Diseñar un cuestionario](hr-learning-design-questionnaires.md) | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
+| [Distribuir y programar cuestionarios](hr-learning-distribute-questionnaires.md) | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios. |
+| [Ver y evaluar los resultados de un cuestionario](hr-learning-evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

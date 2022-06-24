@@ -1,6 +1,6 @@
 ---
 title: Segmentación por dispositivo, mercado y geolocalización
-description: Este tema describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
+description: Este artículo describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881666"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Segmentación por dispositivo, mercado y geolocalización
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
+Este artículo describe cómo crear, editar y administrar públicos y destinos en el creador de sitios de Microsoft Dynamics 365 Commerce mediante el uso de información de dispositivo, mercado y geolocalización.
 
 Dynamics 365 Commerce le permite personalizar variaciones del contenido de su página (conocido como *destinos*) para grupos específicos de clientes (conocidos como *públicos*) para ayudar a aumentar la involucración y la satisfacción de los usuarios. Primero puede crear un público o un destino. Sin embargo, una experiencia de focalización exitosa requiere ambos componentes.
 

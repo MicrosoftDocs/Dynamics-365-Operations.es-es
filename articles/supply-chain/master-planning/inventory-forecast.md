@@ -1,6 +1,6 @@
 ---
 title: Previsiones del inventario
-description: Este tema describe la funcionalidad de previsión de suministro y demanda que se puede usar para crear previsiones de inventario en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe la funcionalidad de previsión de suministro y demanda que se puede usar para crear previsiones de inventario en Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844536"
 ---
 # <a name="inventory-forecasts"></a>Previsiones del inventario
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo ver y crear previsiones de inventario. Puede crear y ver líneas de previsión de oferta y demanda para artículos, grupos de artículos, claves de asignación de artículos, cuentas de clientes, grupos de clientes, cuentas de proveedores y grupos de proveedores.
+Este artículo describe cómo ver y crear previsiones de inventario. Puede crear y ver líneas de previsión de oferta y demanda para artículos, grupos de artículos, claves de asignación de artículos, cuentas de clientes, grupos de clientes, cuentas de proveedores y grupos de proveedores.
 
 Para cada línea de previsión, puede seleccionar el modelo de previsión que se utiliza. Luego puede especificar el artículo o grupo de artículos, más la cantidad o el importe de la transacción. También puede configurar una programación de hora para asignar la cantidad de previsión.
 
@@ -60,7 +60,7 @@ Como muestra la tabla del paso 1, hay diferentes formas de acceder a las página
     Dependiendo de su selección, aparecerá la página de **Previsión de suministro** o de **Previsión de la demanda**. Muestra las líneas de previsión existentes para el registro que seleccionó antes de abrir la página.
 
 1. En el panel de acciones, seleccione **Nuevo** para agregar una línea de previsión a la cuadrícula en la parte superior de la página.
-1. En la nueva línea, en el campo **Modelo**, seleccione el modelo de previsión a utilizar. Luego introduzca otros detalles según sea necesario, como el artículo, el grupo de artículos, la cuenta o el grupo de cliente o proveedor, la cantidad del artículo o el importe total de la transacción. Para obtener detalles completos sobre los campos que están disponibles en las páginas de **Previsión de suministro** y **Previsión de la demanda**, consulte las secciones posteriores de este tema.
+1. En la nueva línea, en el campo **Modelo**, seleccione el modelo de previsión a utilizar. Luego introduzca otros detalles según sea necesario, como el artículo, el grupo de artículos, la cuenta o el grupo de cliente o proveedor, la cantidad del artículo o el importe total de la transacción. Para obtener detalles completos sobre los campos que están disponibles en las páginas de **Previsión de suministro** y **Previsión de la demanda**, consulte las secciones posteriores de este artículo.
 1. Para distribuir la previsión durante el período, en la pestaña **Descripción general**, seleccione **Asignar previsión** en la barra de herramientas.
 1. En la cuadrícula **Asignación**, revise el horizonte de tiempo y los intervalos de tiempo que se usan para distribuir las cantidades de previsión.
 
@@ -68,7 +68,7 @@ Como muestra la tabla del paso 1, hay diferentes formas de acceder a las página
 
 La previsión de suministro le permite crear un plan para los artículos que se deben comprar. Informa a los empleados de adquisiciones y abastecimiento lo que se espera que pidan.
 
-Puede ingresar una previsión de suministro por artículo, grupo de artículos, clave de asignación de artículos, proveedor y grupo de proveedores. Para obtener información sobre todas las formas de abrir la página de **Previsión de suministro** para varias entidades y registros, consulte la sección [Ver e ingresar manualmente las líneas de previsión](#manual-entry) anterior en este tema.
+Puede ingresar una previsión de suministro por artículo, grupo de artículos, clave de asignación de artículos, proveedor y grupo de proveedores. Para obtener información sobre todas las formas de abrir la página de **Previsión de suministro** para varias entidades y registros, consulte la sección [Ver e ingresar manualmente las líneas de previsión](#manual-entry) anterior en este artículo.
 
 La parte superior de la página **Previsión de suministro** proporciona una cuadrícula de líneas de previsión de suministro y un conjunto de pestañas que puede usar para ver y establecer más información sobre una línea de previsión seleccionada. La parte inferior de la página proporciona una cuadrícula de **Asignación**.
 
@@ -94,9 +94,9 @@ La tabla siguiente describe los comandos disponibles en el panel de acciones de 
 
 | Comando | Descripción |
 |---|---|
-| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema). |
-| Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este tema.) |
-| Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este tema.) |
+| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este artículo). |
+| Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este artículo.) |
+| Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este artículo.) |
 | Crear requisito de artículo | Abra un cuadro de diálogo donde puede crear requisitos de artículos y pedidos de ventas o líneas de diario de artículos para transacciones de previsión relacionadas con el proyecto. Aunque este comando está disponible tanto para las líneas de previsión de suministro como para las líneas de previsión de la demanda, no se puede utilizar en la página **Previsión de suministro**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>La pestaña Descripción general en la página Previsión de suministro
@@ -173,7 +173,7 @@ Si está utilizando una clave de asignación de artículos, o si ha ingresado un
 
 La previsión de la demanda le permite ingresar o generar demanda para un cliente. Ayuda a los empleados de ventas y marketing a informar a los empleados de planificación maestra sobre la demanda esperada durante el próximo período de previsión.
 
-Puede ingresar una previsión de la demanda por artículo, grupo de artículos, clave de asignación de artículos, cliente y grupo de clientes. Para obtener información sobre todas las formas de abrir la página de **Previsión de la demanda** para varias entidades y registros, consulte la sección [Ver e ingresar manualmente las líneas de previsión](#manual-entry) anterior en este tema.
+Puede ingresar una previsión de la demanda por artículo, grupo de artículos, clave de asignación de artículos, cliente y grupo de clientes. Para obtener información sobre todas las formas de abrir la página de **Previsión de la demanda** para varias entidades y registros, consulte la sección [Ver e ingresar manualmente las líneas de previsión](#manual-entry) anterior en este artículo.
 
 La parte superior de la página **Previsión de la demanda** proporciona una cuadrícula de líneas de previsión de la demanda y un conjunto de pestañas que puede usar para ver y establecer más información sobre una línea de previsión seleccionada. La parte inferior de la página proporciona una cuadrícula de **Asignación**.
 
@@ -201,9 +201,9 @@ La tabla siguiente describe los comandos disponibles en el panel de acciones de 
 
 | Comando | Descripción |
 |---|---|
-| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema).|
-| Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este tema.) |
-| Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este tema.) |
+| Asignar previsión | Si está utilizando un método de asignación, genere las líneas de programación individuales para la transacción de previsión. Luego, la cantidad de la línea se distribuye por fecha (de acuerdo con los intervalos de tiempo seleccionados), cantidad e importe para todo el horizonte de tiempo. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este artículo).|
+| Actualización masiva | Abre la página **Editar transacciones de previsión**. (Ver la sección [Transacciones de previsión de actualización masiva](#bulk-update) más adelante en este artículo.) |
+| Previsión del inventario | Abra una vista de la página **Previsión de inventario** que se filtra para la combinación de artículo/modelo seleccionado. (Consulte la sección Previsión [de inventario](#inventory-forecast) más adelante en este artículo.) |
 | Crear requisito de artículo | Abra un cuadro de diálogo donde puede crear requisitos de artículos y pedidos de ventas o líneas de diario de artículos para transacciones de previsión relacionadas con el proyecto. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>La pestaña Descripción general en la página Previsión de la demanda
@@ -296,7 +296,7 @@ La pestaña **Dimensión de inventario** muestra todos los valores de la dimensi
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La cuadrícula Asignación en la página Previsión de la demanda
 
-Si está utilizando una clave de asignación de artículos, o si ha ingresado una previsión de artículo para uno o más períodos futuros, puede asignar la previsión seleccionando **Asignar previsión** en la barra de herramientas de la pestaña **Descripción general**. Luego, la cantidad se distribuye de la manera indicada por las líneas en la cuadrícula **Asignación**. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este tema).
+Si está utilizando una clave de asignación de artículos, o si ha ingresado una previsión de artículo para uno o más períodos futuros, puede asignar la previsión seleccionando **Asignar previsión** en la barra de herramientas de la pestaña **Descripción general**. Luego, la cantidad se distribuye de la manera indicada por las líneas en la cuadrícula **Asignación**. (Consulte la sección [Asignar previsión](#allocate-forecast) más adelante en este artículo).
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsión del inventario
 

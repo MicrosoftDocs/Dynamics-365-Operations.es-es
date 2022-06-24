@@ -1,6 +1,6 @@
 ---
 title: Proporcionar programa de prestaciones de empleado
-description: En este tema se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación.
+description: En este artículo se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: c2ca6712346295454fd0d516816c596d4b010abb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc063c42ba0b627eb4711b44533c745925d718af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877841"
 ---
 # <a name="deliver-employee-benefits-program"></a>Proporcionar programa de prestaciones de empleado
 
@@ -26,7 +26,7 @@ ms.locfileid: "8688299"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
+En este artículo se explica cómo crear elementos de prestación que se usarán al crear una nueva prestación. La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta tarea está pensada para un director de compensaciones y prestaciones.
 
 
 ## <a name="create-benefit-elements"></a>Crear elementos de prestación

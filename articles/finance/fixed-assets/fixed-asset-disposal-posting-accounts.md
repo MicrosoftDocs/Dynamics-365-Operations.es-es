@@ -1,6 +1,6 @@
 ---
 title: Cuentas de registro de cancelación de activos fijos
-description: En este tema se explica cómo configurar cuentas de registro de contabilidad general para cancelar activos.
+description: En este artículo se explica cómo configurar cuentas de registro de contabilidad general para cancelar activos.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871344"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Cuentas de registro de cancelación de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar cuentas de registro de contabilidad general cuando cancela activos.
+En este artículo se explica cómo configurar cuentas de registro de contabilidad general cuando cancela activos.
 
 Para configurar cuentas de registro del libro mayor para usar cuando se deshaga de un activo, seleccione **Eliminación - venta** y **Eliminación - desperdicio** en la ficha desplegable **Cuentas contables** en la página **Perfiles de contabilización de activos fijos**.
 

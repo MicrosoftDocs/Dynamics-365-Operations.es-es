@@ -1,26 +1,26 @@
 ---
 title: Copiar un sitio de comercio electrónico
-description: Este tema describe cómo copiar un sitio de comercio electrónico existente dentro o entre entornos de comercio electrónico en el creador de sitios de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo copiar un sitio de comercio electrónico existente dentro o entre entornos de comercio electrónico en el creador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: cb53a76b2ebe5b511bf5009727f20f20755e5720
+ms.sourcegitcommit: 13c7a1cc4c90417e3e88db59b7d2165b3c40a56c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462335"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "8935753"
 ---
 # <a name="copy-an-e-commerce-site"></a>Copiar un sitio de comercio electrónico
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo copiar un sitio de comercio electrónico existente dentro o entre entornos de comercio electrónico en el creador de sitios de Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo copiar un sitio de comercio electrónico existente dentro o entre entornos de comercio electrónico en el creador de sitios de Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce admite la copia o clonación de sitios como una operación de autoservicio en el creador de sitios de Commerce. Los sitios se pueden copiar dentro de un solo entorno de comercio electrónico o entre dos entornos de comercio electrónico. El usuario que inicia la operación de copia del sitio debe ser un administrador de inquilinos en los entornos de comercio electrónico tanto de origen como de destino.
 
@@ -40,23 +40,23 @@ Para copiar un sitio dentro de un entorno de comercio electrónico, siga estos p
 1. Inicie sesión en el creador de sitios para el entorno en el que desea realizar la operación de copia.
 1. Para abrir la vista de lista de sitios, seleccione **Conmutador de sitios** en la esquina superior derecha y luego seleccione **Administrar sitios**.
 1. Encuentre el sitio que desea copiar o clonar, y selecciónelo activando la casilla junto al nombre del sitio.
-1. En el panel de acciones, seleccione **Copiar sitio**.
-1. En el cuadro de diálogo **Copiar sitio**, en el campo **Nuevo nombre de sitio** introduzca un nombre para el nuevo sitio. El nuevo nombre del sitio debe ser único en el entorno de comercio electrónico. Los campos **Inquilino de origen** y **Sitio de origen** se configuran automáticamente con la información del inquilino actual y del sitio seleccionado.
+1. En la barra de comandos, seleccione **Copiar sitio**.
+1. En el menú flotante **Copiar sitio**, en el campo **Nuevo nombre de sitio** introduzca un nombre para el nuevo sitio. El nuevo nombre del sitio debe ser único en el entorno de comercio electrónico. Los campos **Inquilino de origen** y **Sitio de origen** se configuran automáticamente con la información del inquilino actual y del sitio seleccionado.
 1. Seleccione **Crear copia**.
 
 Una vez validada la información, una notificación indica que se ha creado un nuevo trabajo de copia del sitio. Puede controlar el progreso del trabajo en el [panel derecho de la página **Trabajos de inquilino**](#monitor-the-site-copy-operation). Cuando la operación de copia se ha completado correctamente, el nuevo sitio aparece en la lista de sitios de la vista de lista de sitios.
 
-La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Copiar sitio** en el generador de sitios.
+La siguiente ilustración muestra un ejemplo del menú flotante **Copiar sitio** en el generador de sitios.
 
-![Cuadro de diálogo Copiar sitio en el creador de sitios.](media/site-copy_1.png)
+![Menú flotante Copiar sitio en el creador de sitios.](media/site-copy_1.png)
 
 ## <a name="copy-a-site-between-two-e-commerce-environments"></a>Copiar un sitio entre dos entornos de comercio electrónico
 
 Para copiar un sitio entre dos entornos de comercio electrónico, siga estos pasos.
 
 1. Inicie sesión en el generador de sitios para el entorno de comercio electrónico.
-1. En el panel de acciones, seleccione **Copiar sitio**.
-1. En el cuadro de diálogo **Copiar sitio**, en el campo **Nuevo nombre de sitio** introduzca un nombre para el nuevo sitio. El nuevo nombre del sitio debe ser único en el entorno de comercio electrónico.
+1. En la barra de comandos, seleccione **Copiar sitio**.
+1. En el menú flotante **Copiar sitio**, en el campo **Nuevo nombre de sitio** introduzca un nombre para el nuevo sitio. El nuevo nombre del sitio debe ser único en el entorno de comercio electrónico.
 1. En e campo **Inquilino de origen**, seleccione el nombre del inquilino de origen.
 1. En el campo **Sitio de origen**, seleccione el sitio de origen.
 1. Seleccione **Crear copia**.
@@ -66,6 +66,32 @@ Para copiar un sitio entre dos entornos de comercio electrónico, siga estos pas
 
 Una vez validada la información, una notificación indica que se ha creado un nuevo trabajo de copia del sitio. Puede controlar el progreso del trabajo en el [panel derecho de la página **Trabajos de inquilino**](#monitor-the-site-copy-operation). Cuando la operación de copia se ha completado correctamente, el nuevo sitio aparece en la lista de sitios de la vista de lista de sitios.
 
+## <a name="map-channels-during-the-site-copy-operation-optional"></a>Asignar canales durante la operación de copia del sitio (opcional)
+
+Los canales y las configuraciones regionales de origen se pueden asignar a canales y configuraciones regionales de destino como parte de la operación de copia del sitio. Si la asignación de canales se realiza como parte de la operación de copia del sitio, no es necesario inicializar el sitio mediante el proceso FRE ni configurar los canales en la configuración del sitio. 
+
+Para asignar todos los canales y configuraciones regionales "tal cual" (1 a 1) en el generador de sitios, siga estos pasos.
+
+1. Para abrir la vista de lista de sitios, seleccione **Conmutador de sitios** en la esquina superior derecha y luego seleccione **Administrar sitios**.
+1. Encuentre el sitio que desea copiar o clonar, y selecciónelo activando la casilla junto al nombre del sitio.
+1. En la barra de comandos, seleccione **Copiar sitio**.
+1. En el menú flotante **Copiar sitio**, introduzca valores para **Nuevo nombre del sitio**, **Suscriptor de origen** y **Sitio de origen** (si no están presentes ya).
+1. Seleccione **Agregar asignación de canales**.
+1. En el menú flotante **Configurar canales y configuraciones regionales del sitio**, seleccione **Canal de origen** y luego seleccione el canal de origen.  
+1. Seleccione **Canal de destino** y luego seleccione el mismo canal que el canal de origen. 
+1. Seleccione **Agregar configuración regional**.
+1. Seleccione **Configuración regional del origen** y, a continuación, seleccione la configuración regional de origen.
+1. Seleccione **Configuración regional del destino** y luego seleccione la misma configuración regional que la configuración regional de origen. 
+1. En **Ruta de URL**, ingrese una ruta URL única que no se use actualmente en el entorno de destino.
+1. Repita los pasos del 8 al 11 para cada configuración regional que desee asignar al canal.
+1. Seleccionar **Aplicar**.
+1. Repita los pasos 6 a 11 para cada canal de origen.
+1. Seleccione **Cerrar**.
+1. Revise la configuración para verificar su precisión y luego seleccione **Copiar sitio**.
+
+> [!NOTE]
+> Todos los canales y las configuraciones regionales de origen deben asignarse y solo pueden asignarse una vez.
+
 ## <a name="monitor-the-site-copy-operation"></a>Supervisar la operación de copia del sitio
 
 Para supervisar el progreso de la operación de copia del sitio, siga estos pasos.
@@ -74,9 +100,9 @@ Para supervisar el progreso de la operación de copia del sitio, siga estos paso
 1. En el panel de izquierdo, seleccione **Trabajos de inquilino**.
 1. En la página **Trabajos de inquilino**, busque y seleccione el trabajo de copia del sitio en la lista. Aparece un panel a la derecha que muestra el estado y los detalles del trabajo seleccionado.
 
-Puede cancelar un trabajo que tenga un estado de **En curso**. Seleccione el trabajo en la lista y luego seleccione **Cancelar** en el Panel de acciones.
+Puede cancelar un trabajo que tenga un estado de **En curso**. Seleccione el trabajo en la lista y luego seleccione **Cancelar** en la barra de comandos.
 
-Puede volver a intentar un trabajo que tenga un estado de **Con error** o **Completado con errores**. Seleccione el trabajo en la lista y luego seleccione **Reintentar** en el Panel de acciones.
+Puede volver a intentar un trabajo que tenga un estado de **Con error** o **Completado con errores**. Seleccione el trabajo en la lista y luego seleccione **Reintentar** en la barra de comandos.
 
 > [!NOTE]
 > El procesamiento de recursos de vídeo puede continuar después de que se complete un trabajo de copia del sitio.

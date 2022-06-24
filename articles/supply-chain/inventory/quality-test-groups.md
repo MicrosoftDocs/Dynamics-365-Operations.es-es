@@ -1,6 +1,6 @@
 ---
 title: Grupos de pruebas de gestión de calidad
-description: Este tema describe cómo crear grupos de prueba, de modo que se puedan usar varias pruebas con pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo crear grupos de prueba, de modo que se puedan usar varias pruebas con pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857717"
 ---
 # <a name="quality-management-test-groups"></a>Grupos de pruebas de gestión de calidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear grupos de prueba, de modo que se puedan usar varias pruebas con pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe cómo crear grupos de prueba, de modo que se puedan usar varias pruebas con pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
 
 Use a página **Grupos de pruebas** para establecer, editar y ver los grupos de pruebas y las pruebas individuales asignadas a ellos. La parte superior de la página muestra los grupos de pruebas y la inferior muestra las pruebas asignadas a un grupo de pruebas seleccionado.
 

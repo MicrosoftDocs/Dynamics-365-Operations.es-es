@@ -1,6 +1,6 @@
 ---
 title: Especificar ubicaciones de almacenamiento personalizado para documentos generados
-description: Este tema explica cómo ampliar la lista de ubicaciones de almacenamiento para los documentos generados por los formatos de informes electrónicos (ER).
+description: Este artículo explica cómo ampliar la lista de ubicaciones de almacenamiento para los documentos generados por formatos de informes electrónicos (ER).
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898867"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar ubicaciones de almacenamiento personalizado para documentos generados
 
 [!include[banner](../includes/banner.md)]
 
-La interfaz de programación de aplicaciones (API) del marco de informes electrónicos (ER) permite ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de ER generan. Este tema explica cómo agregar una ubicación de almacenamiento personalizada para documentos generados al delegar la tarea de crear destinos ER a la fábrica de destino predeterminada y luego implementar una clase personalizada que tiene su propia lógica de destino.
+La interfaz de programación de aplicaciones (API) del marco de informes electrónicos (ER) permite ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de ER generan. Este artículo explica cómo agregar una ubicación de almacenamiento personalizada para documentos generados al delegar la tarea de crear destinos ER a la fábrica de destino predeterminada y luego implementar una clase personalizada que tiene su propia lógica de destino.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -35,7 +35,7 @@ Implementar una topología que admita una compilación continua. Para obtener m�
 
 También debe tener acceso al entorno de desarrollo para esta topología.
 
-Todas las tareas de este tema se pueden completar en la empresa **USMF**.
+Todas las tareas de este artículo se pueden completar en la empresa **USMF**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Importar el formato ER de avance de activos fijos
 

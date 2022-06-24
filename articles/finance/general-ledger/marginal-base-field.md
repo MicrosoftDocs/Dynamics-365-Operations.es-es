@@ -1,6 +1,6 @@
 ---
 title: Índices de impuestos en función de la base marginal y los métodos de cálculo
-description: Este tema explica cómo los valores de los campos Base marginal y Método de cálculo determinan los índices de impuestos en transacciones de compras y ventas.
+description: Este artículo explica cómo los valores de los campos Base marginal y Método de cálculo determinan los índices de impuestos en transacciones de compras y ventas.
 author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d334b0c5dcce1e5211fb0580872731d38fb87b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 00cdc470397cedfd951e4c3a05a32f048775a4b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903142"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Índices de impuestos en función de la base marginal y los métodos de cálculo
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo los valores de los campos Base marginal y Método de cálculo determinan los índices de impuestos en transacciones de compras y ventas.
+Este artículo explica cómo los valores de los campos Base marginal y Método de cálculo determinan los índices de impuestos en transacciones de compras y ventas.
 
 La base marginal en la ficha desplegable Cálculo de la página Códigos de impuestos determina qué importe usar para seleccionar las tasas de impuestos adecuadas para los índices en la página Valores de código de impuestos. El tipo de importe en el campo Base marginal, junto con el método del campo Método de cálculo, determinan la lógica para buscar las tasas de impuestos correctas para una transacción. 
 

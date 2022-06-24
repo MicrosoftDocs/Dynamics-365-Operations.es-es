@@ -1,6 +1,6 @@
 ---
 title: Resultados de los modelos de aprendizaje automático
-description: Este tema analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML.
+description: Este artículo analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910182"
 ---
 # <a name="results-of-machine-learning-models"></a>Resultados de los modelos de aprendizaje automático
 
 [!include [banner](../includes/banner.md)]
 
-Este tema analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML. El público objetivo incluye ingenieros, analistas y gerentes que desean desarrollar sus conocimientos y habilidades en ciencia de datos.
+Este artículo analiza las matrices de confusión, los problemas de clasificación y la precisión en los modelos de aprendizaje automático (ML). El propósito es mejorar su conocimiento de la precisión en los resultados de la predicción de ML. El público objetivo incluye ingenieros, analistas y gerentes que desean desarrollar sus conocimientos y habilidades en ciencia de datos.
 
 ## <a name="confusion-matrix"></a>Matriz de confusión
 Una vez que se entrena un problema de ML supervisado en un conjunto de datos históricos, se prueba mediante el uso de datos que se retienen del proceso de entrenamiento. De esta forma, puede comparar las predicciones del modelo entrenado con los valores reales. La matriz de confusión proporciona un medio para evaluar el éxito de un problema de clasificación y dónde se cometen errores (es decir, dónde se vuelve "confuso").
@@ -73,16 +73,16 @@ La precisión es una herramienta importante para comunicarse con expertos en el 
 
 Para el escenario de predicción de pagos, puede establecer un objetivo para el modelo de ML que incluya factores en diferentes comportamientos de pago. El objetivo es que el modelo mejore una suposición ingenua al reducir el número de respuestas incorrectas en al menos un 50 por ciento. En otras palabras, desea una precisión objetivo que divida la diferencia entre la precisión de una suposición ingenua y el 100 por ciento.
 
-La siguiente tabla resume este principio para las matrices de confusión en este tema.
+La siguiente tabla resume este principio para las matrices de confusión en este artículo.
 
-| Modelo   | Suposición ingenua | Objetivo | Precisión del modelo | ¿Se alcanzó el objetivo?                                          |
+| Modelo   | Suposición ingenua | Destino | Precisión del modelo | ¿Se alcanzó el objetivo?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | Modelo 1 | 0.50        | 0.75   | 0.73           | Casi. Este modelo mejora significativamente la suposición. |
 | Modelo 2 | 0.80        | 0.90   | 0.83           | Nº Se requiere una mejora.                              |
 
 ## <a name="classification-f1-accuracy"></a>Precisión de clasificación F1
 
-La consideración final en este tema es una medida más avanzada del rendimiento de clasificación ML, que se conoce como precisión F1.
+La consideración final en este artículo es una medida más avanzada del rendimiento de clasificación ML, que se conoce como precisión F1.
 
 Antes de poder definir la precisión F1, se deben introducir dos métricas adicionales: precisión y recuperación. La precisión indica cuántas del número total de predicciones que se especifican como positivas se asignaron correctamente. Esta métrica también se conoce como valor predictivo positivo. Recuperación es el número total de casos positivos reales que se predijeron correctamente. Esta métrica también se conoce como sensibilidad.
 
@@ -97,7 +97,7 @@ La medida F1 combina precisión y recuperación. El resultado es la media armón
 
 - F1 = 2 × (Precisión × Recuperación) ÷ (Precisión + Recuperación)
 
-Veamos un ejemplo concreto. Anteriormente en este tema, hubo un ejemplo de un modelo que predijo si un animal era un perro o un gato. Aquí se repite la ilustración.
+Veamos un ejemplo concreto. Anteriormente en este artículo, hubo un ejemplo de un modelo que predijo si un animal era un perro o un gato. Aquí se repite la ilustración.
 
 [![Ejemplo de predicción de especies (repetido).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Como puede ver, el valor F1 está entre los valores de precisión y recuperació
 
 Aunque la precisión de F1 no es tan fácil de entender, agrega matices al número de precisión básico. También puede ayudar con conjuntos de datos no equilibrados, como se mostrará en la siguiente discusión.
 
-La sección [Precisión del modelo](#model-accuracy) de este tema comparó las siguientes dos matrices de confusión. Aunque el primer modelo tenía una precisión menor, se consideró un modelo más útil porque mostró más mejoras que la suposición predeterminada de un pago puntual.
+La sección [Precisión del modelo](#model-accuracy) de este artículo comparó las siguientes dos matrices de confusión. Aunque el primer modelo tenía una precisión menor, se consideró un modelo más útil porque mostró más mejoras que la suposición predeterminada de un pago puntual.
 
 ![Ejemplo de predicción de pago frente a datos reales.](media/payment-prediction-matrix.png)
 

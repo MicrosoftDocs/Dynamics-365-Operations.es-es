@@ -1,6 +1,6 @@
 ---
 title: Diseñar una nueva solución de informes electrónicos para imprimir etiquetas ZPL
-description: En este tema se explica cómo diseñar una nueva solución de informes electrónicos (ER) para imprimir etiquetas del lenguaje de programación Zebra (ZPL).
+description: En este artículo se explica cómo diseñar una nueva solución de informes electrónicos (ER) para imprimir etiquetas del lenguaje de programación Zebra (ZPL).
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845726"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Diseñar una nueva solución de informes electrónicos para imprimir etiquetas ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema explica cómo un usuario con el rol de Administrador del sistema, Desarrollador de informes electrónicos o Consultor funcional de informes electrónicos puede configurar los parámetros del marco de [Informes electrónicos (ER)](general-electronic-reporting.md), diseñar las [configuraciones](general-electronic-reporting.md#Configuration) de ER necesarias para una nueva solución de ER con el fin de acceder a los datos del sistema de Warehouse Management, y generar etiquetas personalizadas de ubicación de almacén en el formato del lenguaje de programación Zebra (ZPL) II. Estos pasos se pueden llevar a cabo en la empresa **USRT**.
+Este artículo explica cómo un usuario con el rol de Administrador del sistema, Desarrollador de informes electrónicos o Consultor funcional de informes electrónicos puede configurar los parámetros del marco de [Informes electrónicos (ER)](general-electronic-reporting.md), diseñar las [configuraciones](general-electronic-reporting.md#Configuration) de ER necesarias para una nueva solución de ER con el fin de acceder a los datos del sistema de Warehouse Management, y generar etiquetas personalizadas de ubicación de almacén en el formato del lenguaje de programación Zebra (ZPL) II. Estos pasos se pueden llevar a cabo en la empresa **USRT**.
 
 ## <a name="business-scenario"></a>Escenario empresarial
 

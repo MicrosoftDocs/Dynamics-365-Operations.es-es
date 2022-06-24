@@ -1,6 +1,6 @@
 ---
 title: Cargar plantillas
-description: Este tema describe cómo configurar plantillas de carga y cómo asociar una plantilla de carga a una nueva carga.
+description: Este artículo describe cómo configurar plantillas de carga y cómo asociar una plantilla de carga a una nueva carga.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844192"
 ---
 # <a name="load-templates"></a>Cargar plantillas
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674656"
 
 Cuando crea una nueva carga, puede asignar una plantilla de carga. La plantilla de carga contiene información sobre el equipo y sobre medidas como la altura, el ancho, la profundidad y el volumen de la carga.
 
-Este tema describe cómo configurar plantillas de carga y cómo asociar una plantilla de carga a una nueva carga.
+Este artículo describe cómo configurar plantillas de carga y cómo asociar una plantilla de carga a una nueva carga.
 
 ## <a name="set-up-a-load-template"></a>Configurar una plantilla de carga
 

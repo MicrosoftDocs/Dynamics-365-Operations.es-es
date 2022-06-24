@@ -1,6 +1,6 @@
 ---
 title: Consejos de visibilidad de inventario
-description: Este tema proporciona algunos consejos que debe tener en cuenta al configurar y utilizar el complemento de visibilidad de inventario.
+description: Este artículo proporciona algunos consejos que debe tener en cuenta al configurar y utilizar el complemento de visibilidad de inventario.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885968"
 ---
 # <a name="inventory-visibility-tips"></a>Consejos de visibilidad de inventario
 
@@ -34,5 +34,6 @@ Aquí tiene algunos consejos que debe tener en cuenta al configurar y utilizar e
 - Si agrega una o más medidas nuevas a su entorno de Supply Chain Management, también debe agregarlas en Visibilidad de inventario. Sin embargo, todos los cambios de cantidad para nuevas medidas deben provenir de su entorno de Supply Chain Management.
 - Actualmente, la [configuración de la partición](inventory-visibility-configuration.md#partition-configuration) consta de dos dimensiones base (`SiteId` y `LocationId`) que indican cómo se distribuyen los datos. Las operaciones en la misma partición pueden ofrecer un mayor rendimiento a un menor costo. La solución incluye esta configuración de partición por defecto. Por lo tanto, *no es necesario volver a calcular manualmente*. No personalice la configuración de partición predeterminada. Si lo elimina o lo cambia, es probable que provoque un error inesperado.
 - Las dimensiones base que se definen en la configuración de la partición no deben definirse en la [configuración de jerarquía de índice de productos](inventory-visibility-configuration.md#index-configuration).
+- La [configuración de jerarquía de índice de productos](inventory-visibility-configuration.md#index-configuration) debe incluir al menos una jerarquía de índice (por ejemplo, que contenga la dimensión base `Empty`), de lo contrario, las consultas fallarán con el error "No se ha establecido una jerarquía de índice".
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

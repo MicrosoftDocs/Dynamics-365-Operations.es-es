@@ -1,6 +1,6 @@
 ---
 title: Colaboración de proveedor con los clientes
-description: Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los pedidos de compra y supervisar el inventario de envío.
+description: Este artículo describe cómo puede usar la colaboración del proveedor para trabajar con los pedidos de compra y supervisar el inventario de envío.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859180"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 Supply Chain Management. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
+Este artículo describe cómo puede usar la colaboración del proveedor para trabajar con los clientes en Microsoft Dynamics 365 Supply Chain Management. Los proveedores pueden completar una serie de procesos empresariales de las áreas de trabajo siguientes:
 
 - **Confirmación de pedidos de compra** Controle y respuesta a los pedidos de compra (PO).
 - **Oferta del proveedor**: Ver solicitudes de presupuesto y responder a ellas especificando propuestas.
 - **Información de proveedor**: Ver y actualizar datos maestros de proveedores.
-- **Facturación**: Trabajo con facturas. Este tema no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Facturación**: Trabajo con facturas. Este artículo no cubre el área de trabajo **Facturación**. Para obtener más información sobre este área de trabajo, consulte [Espacio de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Los proveedores también pueden controlar la información acerca del inventario de entrega.
 
@@ -47,9 +47,9 @@ Existen tres listas en el espacio de trabajo de **Confirmación de pedido de com
 
 Se pueden usar las siguientes páginas para trabajar con los PO:
 
-- **Pedidos de compra para revisión** Esta página contiene la misma información que la lista de **Pedidos de compra para revisión** en el área de trabajo. Consulte la descripción anterior en este tema.
+- **Pedidos de compra para revisión** Esta página contiene la misma información que la lista de **Pedidos de compra para revisión** en el área de trabajo. Consulte la descripción anterior en este artículo.
 - **Historial de confirmación del proveedor del pedido de compra**: Esta página contiene todas las versiones del PO que se han enviado al proveedor. También contiene todas las respuestas que ha devuelto el proveedor.
-- **Pedidos de compra confirmados abiertos** Esta página contiene la misma información que la lista de **Pedidos de compra confirmados abiertos** en el área de trabajo. Consulte la descripción anterior en este tema.
+- **Pedidos de compra confirmados abiertos** Esta página contiene la misma información que la lista de **Pedidos de compra confirmados abiertos** en el área de trabajo. Consulte la descripción anterior en este artículo.
 - **Todos los pedidos de compra confirmados** Esta página contiene todos los PO que han sido confirmados. Los PO qeu se muestran en esta página incluye PO en los que se han recibido los productos o servicios. Puede usar esta lista para supervisar los PO para los que puede enviar facturas.
 
 ### <a name="responding-to-pos"></a>Responder a los PO

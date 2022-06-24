@@ -1,6 +1,6 @@
 ---
 title: Configurar códigos de impuestos
-description: Este tema explica cómo configurar códigos de impuestos en Dynamics 365 Finance.
+description: Este artículo explica cómo configurar códigos de impuestos en Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858479"
 ---
 # <a name="set-up-sales-tax-codes"></a>Configurar códigos de impuestos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo configurar códigos de impuestos. Los códigos de impuestos se crean para cada impuesto indirecto o arancel que la entidad jurídica está obligada a calcular, recaudar y pagar a las autoridades fiscales.
+Este artículo explica cómo configurar códigos de impuestos. Los códigos de impuestos se crean para cada impuesto indirecto o arancel que la entidad jurídica está obligada a calcular, recaudar y pagar a las autoridades fiscales.
 
 Esta tarea usa la empresa de demostración USMF.
 

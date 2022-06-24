@@ -1,6 +1,6 @@
 ---
 title: Introducción a la contabilidad de inventario global
-description: Este tema describe cómo comenzar con la Contabilidad de inventario global.
+description: Este artículo describe cómo comenzar con la Contabilidad de inventario global.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891100"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introducción a la contabilidad de inventario global
 
@@ -38,12 +38,18 @@ La contabilidad de inventario global es un complemento. Para que sus funciones e
 
 Actualmente, la contabilidad de inventario global no admite todas las funciones de administración de costos que están integradas en Supply Chain Management. Por lo tanto, es importante que evalúe si el conjunto de funciones que están disponibles actualmente cumplirá sus requisitos.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Cómo obtener la vista previa pública de Contabilidad de inventario global
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Cómo obtener el complemento Contabilidad de inventario global
 
 > [!IMPORTANT]
 > Para utilizar la contabilidad de inventario global, debe tener un entorno de alta disponibilidad habilitado para LCS (no un entorno OneBox). Además, debe ejecutar Supply Chain Management versión 10.0.19 o posterior.
 
-Para suscribirse a la vista previa pública de Contabilidad de inventario global, envíe su ID de entorno LCS por correo electrónico al [Equipo de contabilidad de inventario global](mailto:GlobalInvAccount@microsoft.com). Una vez que haya sido aprobado para el programa, el equipo le enviará un correo electrónico de seguimiento que contiene una clave beta de Contabilidad de inventario global y los puntos finales de su servicio. Después de recibir la clave beta, puede [instalar el complemento](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management versión 10.0.19 a 10.0.26
+
+Para instalar Contabilidad de inventario global para Supply Chain Management versión 10.0.19 a 10.0.26, comience [instalando el complemento](#install). A continuación, envíe su ID de entorno LCS y el nombre de la empresa por correo electrónico al [Equipo de contabilidad de inventario global](mailto:GlobalInvAccount@microsoft.com). El equipo le enviará un correo electrónico de seguimiento que contiene los puntos de conexión del servicio de Contabilidad de inventario global.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management versión 10.0.27 y posterior
+
+Para instalar Contabilidad de inventario global para Supply Chain Management versión 10.0.27 y posterior, [instale el complemento](#install). Para estas versiones de Supply Chain Management, los puntos de conexión del servicio de Contabilidad de inventario global se configurarán automáticamente, por lo que no es necesario que los encuentre manualmente. Si experimenta algún problema al configurar el complemento, comuníquese con el [Equipo de contabilidad de inventario global](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licencias
 
@@ -98,12 +104,7 @@ Si el idioma predeterminado de su instalación Dataverse no es en inglés, siga 
 
 Siga estos pasos para instalar el complemento y poder utilizar la Contabilidad de inventario global.
 
-1. [Suscríbase](#sign-up) a la vista previa pública de Contabilidad de inventario global.
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Vaya a **Administración de funciones de vista previa**.
-1. Seleccione el signo más (**+**).
-1. En el campo **Código**, introduzca su clave beta de la contabilidad de inventario global. (Debería haber recibido su clave beta por correo electrónico cuando se registró).
-1. Seleccione **Desbloquear**.
 1. Abra el entorno LCS donde desea agregar el servicio.
 1. Vaya a **Detalles completos**.
 1. Vaya a **Integración de Power Platform** y seleccione **Configuración**.
@@ -124,6 +125,8 @@ Siga estos pasos para configurar la integración entre la contabilidad de invent
 1. En la pestaña **Todas**, busque la característica que se denomina *(Vista previa) Contabilidad global de inventarios*.
 1. Seleccione **Habilitar ahora**.
 1. Ir **Contabilidad global de inventarios \> Configuración \> Parámetros de contabilidad de inventario global \> Parámetros de integraciones**.
-1. En los campos **Punto final del servicio de datos** y **Punto final de contabilidad de inventario global**, ingrese las URL del correo electrónico que envió el equipo de Contabilidad de inventario global cuando se registró para la vista previa.
+1. Según qué versión de Supply Chain Management esté ejecutando, realice uno de los siguientes pasos:
+    - **Supply Chain Management versión 10.0.19 a 10.0.26**: En los campos **Extremo del servicio de datos** y **Punto de conexión de contabilidad de inventario global**, ingrese las URL que le fueron enviadas por correo electrónico desde el equipo de Contabilidad de inventario global (vea también [Cómo obtener el complemento Contabilidad de inventario global](#sign-up)).
+    - **Supply Chain Management versión 10.0.27 y posteriores**: no necesita ingresar los puntos de conexión, por lo que puede omitir este paso.
 
 La Contabilidad de inventario global ya está lista para usar.

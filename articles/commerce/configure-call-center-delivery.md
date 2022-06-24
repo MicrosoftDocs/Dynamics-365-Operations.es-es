@@ -1,6 +1,6 @@
 ---
 title: Configurar modos y cargos de entrega del centro de llamadas
-description: Este tema describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Dynamics 365 Commerce.
+description: Este artículo describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888307"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
@@ -35,7 +35,7 @@ Commerce tiene capacidades que permiten a los usuarios limitar los modos de entr
 
 Antes de que especifique los modos de entrega que se pueden utilizar para pedidos de centro de llamadas y definir las reglas y gastos asociados, debe definir los modos de entrega. Vaya a **Ventas y marketing \> Configuración \> Distribución \> Modos de entrega**. Seleccione **Nuevo** para crear un nuevo modo de entrega. De forma alternativa, seleccione un modo de entrega existente en la lista y, a continuación, seleccione **Editar** para hacer cambios.
 
-En el campo **Modo de entrega**, puede introducir cualquier combinación de caracteres alfanuméricos, en función de su requisito empresarial. A continuación, puede utilizar el campo **Descripción** para proporcionar contexto adicional. Los campos **Grupo de gastos** y **Urgente** son opcionales y se explican con más detalle más adelante en este tema.
+En el campo **Modo de entrega**, puede introducir cualquier combinación de caracteres alfanuméricos, en función de su requisito empresarial. A continuación, puede utilizar el campo **Descripción** para proporcionar contexto adicional. Los campos **Grupo de gastos** y **Urgente** son opcionales y se explican con más detalle más adelante en este artículo.
 
 En la ficha desplegable **Canales de Commerce**, agregue cualquier canal comercial que debe permitirse para utilizar el modo de entrega cuando las transacciones de venta se creen en dicho canal.
 

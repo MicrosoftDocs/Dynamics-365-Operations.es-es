@@ -1,6 +1,6 @@
 ---
 title: Experiencia unificada del producto
-description: Este tema describe la integración de datos de productos entre aplicaciones Finance and Operations y Dataverse.
+description: Este artículo describe la integración de datos de productos entre aplicaciones de finanzas y operaciones y Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885009"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -126,7 +126,7 @@ Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Configuración predeterminada de pedido y Configuración de pedido predeterminada específica del producto
 
-Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información está disponible en Dataverse mediante la configuración de pedido predeterminada y la entidad de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en el [Tema de la configuración de pedido predeterminada](../../../../supply-chain/production-control/default-order-settings.md).
+Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información está disponible en Dataverse mediante la configuración de pedido predeterminada y la entidad de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en el [Artículo de la configuración de pedido predeterminada](../../../../supply-chain/production-control/default-order-settings.md).
 
 Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement |
 ---|---

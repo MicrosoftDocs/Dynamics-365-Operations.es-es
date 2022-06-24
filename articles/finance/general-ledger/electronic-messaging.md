@@ -1,8 +1,8 @@
 ---
 title: Mensajes electrónicos
-description: Este tema proporciona información general y de configuración del correo electrónico en Microsoft Dynamics 365 Finance.
+description: Este artículo proporciona información general y de configuración del correo electrónico en Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934690"
 ---
-# <a name="electronic-messaging"></a>Mensajería electrónica
+# <a name="electronic-messaging"></a>Mensajes electrónicos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general e información de configuración para la funcionalidad de **mensajes electrónicos** (EM).
+Este artículo proporciona información general e información de configuración para la funcionalidad de **mensajes electrónicos** (EM).
 
 Recientemente, los gobiernos y las autoridades legislativas de varios países y regiones en todo el mundo han implementado los requisitos de informe para las empresas que se registran en dichos países o regiones. El objetivo de los requisitos es habilitar que los datos que se obtienen de dichas empresas estén en formato electrónico, directamente desde sistemas donde se han contabilizado, almacenado, y procesado.
 
@@ -58,6 +58,16 @@ La funcionalidad de EM admite los escenarios siguientes:
 - Almacenar y revisar toda la información de registro relacionada con las acciones que se ejecutan para un mensaje o un elemento de mensaje.
 - Controlar el procesamiento a través de distintos estados de mensaje y estados de elementos de mensaje.
 
+## <a name="security-privileges"></a>Privilegios de seguridad
+
+Los siguientes privilegios de seguridad están disponibles para mensajes electrónicos.
+
+| Privilegio de seguridad           | Nivel de acceso | Asociación |
+|------------------------------|--------------|-------------|
+| Mantener mensajes electrónicos | Este privilegio brinda acceso completo a la funcionalidad EM. Si tiene este privilegio, puede configurar la mensajería electrónica y ejecutar todo el procesamiento. | Este privilegio está incluido en el deber de seguridad **Mantener las transacciones de impuestos sobre las ventas**. Ese deber, a su vez, está incluido en el rol de seguridad **Contador**. |
+| Visualizar mensajes electrónicos     | Este privilegio brinda acceso de solo lectura a la funcionalidad EM. Si tiene este privilegio, puede ver la configuración de mensajería electrónica y los mensajes. Sin embargo, no puede configurar ni ejecutar nada. | Este privilegio está incluido en el deber de seguridad **Consultar el estado de transacciones de impuestos**. Ese deber, a su vez, está incluido los siguientes roles de seguridad:<ul><li>Administrador de cobros</li><li>Funcionario de clientes</li><li>Administrador de clientes</li><li>Contable de impuestos</li><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Director de ventas</li><li>Funcionario de proveedores</li></ul> |
+| Operar mensajes electrónicos  | Este privilegio da acceso solo a las páginas **Mensajes electronicos** y **Elementos de mensaje electrónico**. Si tiene este privilegio, puede ejecutar todo el procesamiento que se llama desde esas páginas. | Este privilegio está incluido en el deber de seguridad **Operar mensajes electrónicos**. Ese deber, a su vez, está incluido en el rol de seguridad **Operador de mensajes electrónicos**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Funciones normativas específicas del país compatibles con la funcionalidad EM
 
 La siguiente tabla proporciona información sobre algunas características normativas específicas de cada país que son compatibles con la funcionalidad EM.
@@ -78,7 +88,13 @@ La siguiente tabla proporciona información sobre algunas características norma
 | Rusia      | [Declaración de impuestos evaluada](../localizations/rus-assessed-tax-declaration.md) | |
 | Rusia      | [Declaración de impuestos de transporte](../localizations/rus-transport-tax-declaration.md) | |
 | Rusia      | [Declaración de impuestos de terreno](../localizations/rus-land-tax-declaration.md) | |
-
+| Noruega      | [Devolución de IVA con envío directo a Altinn](../localizations/emea-nor-vat-return.md) | [Nueva devolución de IVA con envío directo a Altinn en Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Francia      | [Informe declarativo de VAT (Francia)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Austria     | [Declaración de IVA (Austria)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Alemania     | [Declaración de IVA (Alemania)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Países Bajos | [Declaración de IVA para Países Bajos](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Suecia      | [Declaración de IVA (Suecia)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Suiza | [Declaración de IVA (Suiza)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

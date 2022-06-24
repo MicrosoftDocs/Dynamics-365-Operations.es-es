@@ -1,6 +1,6 @@
 ---
-title: Cumplir con la visión general de los acuerdos de servicio
-description: Este tema proporciona información general de las tareas para cumplir con los acuerdos de servicio.
+title: Cumplir con la información general de los acuerdos de servicio
+description: Este artículo proporciona información general de las tareas para cumplir con los acuerdos de servicio.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852110"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Cumplir con la visión general de los acuerdos de servicio
+# <a name="fulfill-service-agreements-overview"></a>Cumplir con la información general de los acuerdos de servicio
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general de las tareas para cumplir con los acuerdos de servicio. En el tema también se enumeran los formularios asociados a cada componente del proceso empresarial y se describen las tareas relacionadas con cada componente de dicho proceso.
+Este artículo proporciona información general de las tareas para cumplir con los acuerdos de servicio. En el artículo también se enumeran los formularios asociados a cada componente del proceso empresarial y se describen las tareas relacionadas con cada componente de dicho proceso.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Formularios para los componentes del proceso empresarial de prestación de contratos de servicios
 

@@ -1,6 +1,6 @@
 ---
 title: Detalles de transacción de inventario
-description: Este tema proporciona una descripción general de la página de detalles de transacciones que muestra los detalles de una transacción de inventario seleccionada.
+description: Este artículo proporciona una descripción general de la página de detalles de transacciones que muestra los detalles de una transacción de inventario seleccionada.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859398"
 ---
 # <a name="inventory-transaction-details"></a>Detalles de transacción de inventario
 
@@ -36,8 +36,8 @@ La página **Detalles de la transacción** se divide en varias fichas desplegabl
 
 | Ficha desplegable | Description |
 |---|---|
-| General | Esta ficha desplegable muestra información básica acerca de la transacción de inventario seleccionada. Además de los campos que aparecen en la página **Transacciones de inventario**, incluye los campos adicionales que se describen más adelante en este tema. |
-| Actualizaciones | Esta ficha desplegable muestra información relacionada con los aspectos físicos, financieros y de liquidación de la transacción de inventario seleccionada. Según el estado actual de la transacción, algunos campos pueden estar en blanco. Sin embargo, esos campos se establecerán automáticamente cuando se registren las transacciones. Además de los campos que aparecen en la página **Transacciones de inventario**, esta ficha desplegable incluye los campos adicionales que se describen más adelante en este tema. |
+| General | Esta ficha desplegable muestra información básica acerca de la transacción de inventario seleccionada. Además de los campos que aparecen en la página **Transacciones de inventario**, incluye los campos adicionales que se describen más adelante en este artículo. |
+| Actualizaciones | Esta ficha desplegable muestra información relacionada con los aspectos físicos, financieros y de liquidación de la transacción de inventario seleccionada. Según el estado actual de la transacción, algunos campos pueden estar en blanco. Sin embargo, esos campos se establecerán automáticamente cuando se registren las transacciones. Además de los campos que aparecen en la página **Transacciones de inventario**, esta ficha desplegable incluye los campos adicionales que se describen más adelante en este artículo. |
 | Registros contables | Esta ficha desplegable muestra el tipo de registro y la cuenta contable que se utilizan para la actualización física, la actualización financiera, los ingresos físicos, los cargos físicos, los ingresos financieros y los cargos financieros relacionados con la transacción de inventario seleccionada. |
 | Referencias | Esta ficha desplegable muestra información adicional acerca de la transacción de origen que creó la transacción de inventario seleccionada. Por ejemplo, esta información puede incluir detalles del pedido de compra o del pedido de venta. |
 | Información relacionada | Esta ficha desplegable muestra información adicional acerca de la transacción de inventario seleccionada. Es posible que estos campos no estén configurados si no está utilizando algunas características, como categorías de compras o proyectos. |

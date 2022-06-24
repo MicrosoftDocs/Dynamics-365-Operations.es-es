@@ -1,6 +1,6 @@
 ---
 title: Configurar e instalar tutorial Regression Suite Automation Tool
-description: Este tema es un tutorial que muestra cómo configurar e instalar Regression Suite Automation Tool (RSAT).
+description: Este artículo es un tutorial que muestra cómo configurar e instalar Regression Suite Automation Tool (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858601"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Configurar e instalar tutorial Regression Suite Automation Tool
 
-Este tema es un tutorial que le ayuda a configurar e iniciar la RSAT y las herramientas asociadas al uso de la RSAT.
+Este artículo es un tutorial que le ayuda a configurar e iniciar la RSAT y las herramientas asociadas al uso de la RSAT.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ En este tutorial, utilizará al Modelador de procesos empresariales (BPM) de LCS
 
 ## <a name="configure-the-lcs-project"></a>Configurar el proyecto LCS
 
-Necesita un proyecto de Lifecycle Services (LCS) para su biblioteca de pruebas maestra. El Modelador de procesos empresariales (BPM) de LCS se utiliza como la biblioteca maestra para sus casos de prueba. BPM se emplea para adminsitrar y distribuir bibliotecas de prueba en proyectos de LCS. Por ejemplo, un partner de Microsoft o un proveedor de software independiente (ISV) que crea bibliotecas de prueba publicarán casos de prueba en forma de biblioteca de BPM. En BPM, los casos de prueba se organizan por proceso empresarial. BPM no define el orden o la frecuencia de ejecución de la aprobación de su prueba. Estos detalles se administran en Azure DevOps, como se describe más tarde en este tema.  
+Necesita un proyecto de Lifecycle Services (LCS) para su biblioteca de pruebas maestra. El Modelador de procesos empresariales (BPM) de LCS se utiliza como la biblioteca maestra para sus casos de prueba. BPM se emplea para adminsitrar y distribuir bibliotecas de prueba en proyectos de LCS. Por ejemplo, un partner de Microsoft o un proveedor de software independiente (ISV) que crea bibliotecas de prueba publicarán casos de prueba en forma de biblioteca de BPM. En BPM, los casos de prueba se organizan por proceso empresarial. BPM no define el orden o la frecuencia de ejecución de la aprobación de su prueba. Estos detalles se administran en Azure DevOps, como se describe más tarde en este artículo.  
 
 Para su proyecto de LCS, puede usar una implementación de cliente existente o un proyecto de partner.
 

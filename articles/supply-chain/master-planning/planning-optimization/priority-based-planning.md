@@ -1,6 +1,6 @@
 ---
 title: Planificación basada en prioridades
-description: Este tema describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873822"
 ---
 # <a name="priority-based-planning"></a>Planificación basada en prioridades
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la Planificación de requisitos de materiales basada en la demanda (DDMRP). La planificación basada en prioridades permite a Optimización de planificación generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
+Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la Planificación de requisitos de materiales basada en la demanda (DDMRP). La planificación basada en prioridades permite a Optimización de planificación generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
 
 La planificación basada en prioridades le permite priorizar pedidos de reabastecimiento para garantizar que la demanda urgente tenga prioridad sobre la demanda menos importante. Por ejemplo, un pedido de reabastecimiento agotado tendrá prioridad sobre un pedido de reabastecimiento de relleno estándar. El sistema puede dividir automáticamente los pedidos más grandes en pedidos más pequeños separados donde las líneas de pedido se agrupan por prioridad. Luego, puede procesar primero todos los pedidos de alta prioridad.
 

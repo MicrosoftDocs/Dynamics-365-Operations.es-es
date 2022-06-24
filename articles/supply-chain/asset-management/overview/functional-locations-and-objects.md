@@ -1,6 +1,6 @@
 ---
 title: Ubicaciones funcionales y activos
-description: En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
+description: En este artículo se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875666"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -28,11 +28,11 @@ ms.locfileid: "6750157"
 
  
 
-En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
+En este artículo se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Información general
 
-Administración de activos está integrado de manera fluida con varios módulos con otras aplicaciones Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
+Administración de activos se integra de manera fluida con varios módulos con otras aplicaciones de Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
 
 ![Diagrama que muestra cómo la Administración de activos interactúa con otros módulos.](media/01-overview-image.png)
 

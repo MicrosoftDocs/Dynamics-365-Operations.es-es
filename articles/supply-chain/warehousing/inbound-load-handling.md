@@ -1,6 +1,6 @@
 ---
 title: Manejo de almacén de cargas entrantes para pedidos de compra
-description: Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
+description: Este artículo describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855943"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
+Este artículo describe el proceso de manejo de almacén para cargas entrantes para pedidos de compra.
 
 Para cada carga entrante, su sistema ya debe incluir un pedido de ventas relacionado y también puede contener una especificación de carga relacionada y / o un plan de transporte. Para obtener más información sobre cómo crear y administrar cargas entrantes, vea [Proceso empresarial: planificación del transporte para cargas entrantes](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -209,7 +209,7 @@ La siguiente tabla resume los efectos de la configuración **Permitir recibo de 
 | Sí | Sin actualizaciones | _Recibido_, si la cantidad de carga total registrada es igual o mayor que la cantidad de carga | |
 | Sí | Sin actualizaciones | _Enviado_ o _En proceso_, si la cantidad de carga total registrada es menor que la cantidad de carga | |
 
-Después de que el campo **Estado de carga** se establece en _Recibido_, no se pueden realizar más contabilizaciones de recibos de productos para esa carga. Sin embargo, el trabajador puede registrar la cantidad de pedido restante contra la carga recibida en las siguientes condiciones. (Para obtener más información, consulte la sección [Exceso de recepción de carga](#load-over-receiving) descrita anteriormente en este tema).
+Después de que el campo **Estado de carga** se establece en _Recibido_, no se pueden realizar más contabilizaciones de recibos de productos para esa carga. Sin embargo, el trabajador puede registrar la cantidad de pedido restante contra la carga recibida en las siguientes condiciones. (Para obtener más información, consulte la sección [Exceso de recepción de carga](#load-over-receiving) descrita anteriormente en este artículo).
 
 - La versión de Supply Chain Management es anterior a la versión 10.0.11.
 - La función _Sobre recepción de cantidades de carga_ está activada y el campo **Cantidad de línea de carga sobre recibida** en el elemento de menú del dispositivo móvil para la acción de recepción del elemento de carga se establece en _Permitir_.

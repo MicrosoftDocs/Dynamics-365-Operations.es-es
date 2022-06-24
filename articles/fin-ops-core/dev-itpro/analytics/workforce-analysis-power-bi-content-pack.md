@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de métricas de recursos
-description: Este tema describe el contenido en Power BI de métricas de recursos.
+description: Este artículo describe el contenido en Power BI de métricas de recursos.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884499"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenido de Power BI de métricas de recursos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de **Métricas de recursos** en Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe el contenido en Microsoft Power BI de **métricas de recursos**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:

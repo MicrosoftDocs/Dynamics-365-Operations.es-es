@@ -1,6 +1,6 @@
 ---
 title: Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
-description: En este tema se proporciona información acerca de cómo agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel mediante la característica de gestión de documentos empresariales.
+description: En este artículo se proporciona información acerca de cómo agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel mediante la característica de gestión de documentos empresariales.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869413"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767251"
 
 Puede agregar nuevos campos a una plantilla que se usa para generar documentos empresariales en formato Microsoft Excel. Estos campos se pueden agregar como marcadores de posición que se utilizan para rellenar documentos generados con la información necesaria de la aplicación. Para cada campo que agregue, también puede especificar un enlace a los orígenes de datos, a fin de especificar qué datos de la aplicación se introducirán en el campo cuando la plantilla se use para generar documentos empresariales.
 
-Para obtener más información acerca de esta característica, complete el ejemplo de este tema. Este ejemplo muestra cómo actualizar una plantilla para rellenar los campos en formularios de facturas de servicios que se generan.
+Para obtener más información acerca de esta característica, complete el ejemplo de este artículo. Este ejemplo muestra cómo actualizar una plantilla para rellenar los campos en formularios de facturas de servicios que se generan.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Configurar la gestión de documentos empresariales para editar plantillas
 
 Puesto que la gestión de documentos empresariales (BDM) se basa en el marco [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md), debe configurar los parámetros necesarios de ER y BDM antes de poder empezar a trabajar con BDM.
 
 1.  Inicie sesión en la instancia de Microsoft Dynamics 365 Finance como administrador del sistema.
-2.  Complete los siguientes pasos del ejemplo en el tema [Visión general de la gestión de documentos empresariales](er-business-document-management.md):
+2.  Complete los siguientes pasos del ejemplo en el artículo [Visión general de la gestión de documentos empresariales](er-business-document-management.md):
 
     1.  Configure los parámetros de ER.
     2.  Active BDM.

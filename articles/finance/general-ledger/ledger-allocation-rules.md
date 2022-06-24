@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa58a7b072b75fe5a58f6d04bd6426f2958f1f8
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901295"
 ---
 # <a name="ledger-allocation-rules"></a>Reglas de asignación contable
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
+Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
 
 Las reglas de asignación de contabilidad se usan para calcular y para generar automáticamente diarios y asientos contables para asignar saldos contables o importes fijos. Los métodos de asignación pueden ser variables o fijos. Se pueden usar los siguientes métodos de asignación para las reglas de asignación de contabilidad:
 

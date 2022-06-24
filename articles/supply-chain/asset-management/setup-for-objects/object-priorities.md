@@ -1,6 +1,6 @@
 ---
 title: Niveles de servicio de activos
-description: Este tema explica los niveles de servicio de activos en Administración de activos.
+description: Este artículo explica los niveles de servicio de activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908696"
 ---
 # <a name="asset-service-levels"></a>Niveles de servicio de activos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6723608"
 
  
 
-Este tema explica los niveles de servicio de activos en Administración de activos. Los niveles de servicio de activos están relacionados con los activos y se transfieren a las solicitudes de mantenimiento y a las órdens de trabajo. Se utilizan para calcular la prioridad de las órdenes de trabajo durante la programación de estas. Los niveles de servicio de activo se pueden cambiar, si es necesario.
+Este artículo explica los niveles de servicio de activos en Administración de activos. Los niveles de servicio de activos están relacionados con los activos y se transfieren a las solicitudes de mantenimiento y a las órdens de trabajo. Se utilizan para calcular la prioridad de las órdenes de trabajo durante la programación de estas. Los niveles de servicio de activo se pueden cambiar, si es necesario.
 
 Para obtener más información sobre la configuración relacionada con el cálculo de puntuaciones para la programación de órdenes de trabajo, consulte [Parámetros de administración de activos](../setup-for-objects/enterprise-asset-management-parameters.md). Debe configurar al menos un registro predeterminado para el nivel de servicio de activo. Este registro predeterminado se usa si no se encuentra ninguna otra coincidencia durante la programación de las órdenes de trabajo.
 

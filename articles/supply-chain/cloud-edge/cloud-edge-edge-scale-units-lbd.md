@@ -1,6 +1,6 @@
 ---
 title: Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
-description: Este tema explica cómo aprovisionar unidades de escalado perimetrales locales mediante el uso de hardware personalizado y la implementación que se basa en datos comerciales locales (LBD).
+description: Este artículo explica cómo aprovisionar unidades de escalado perimetrales locales mediante el uso de hardware personalizado y la implementación que se basa en datos comerciales locales (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882761"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Implementar unidades de escalado en el perímetro en hardware personalizado mediante LBD
 
@@ -27,7 +27,7 @@ Las unidades de escalado perimetrales juegan un papel importante en la topologí
 
 Las unidades de escalado perimetrales se pueden implementar mediante la creación de datos comerciales locales (LBD) [entorno local](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) y luego configurándolo para que funcione como una unidad de escala en su topología híbrida distribuida para la gestión de la cadena de suministro. Esto se logra asociando el entorno de LBD local con un entorno de Supply Chain Management en la nube, que se ha configurado para funcionar como un centro de conectividad.  
 
-Este tema describe cómo configurar un entorno LBD local como una unidad de escala perimetral y luego asociarlo con un centro de conectividad.
+Este artículo describe cómo configurar un entorno LBD local como una unidad de escala perimetral y luego asociarlo con un centro de conectividad.
 
 ## <a name="infrastructure-considerations"></a>Consideraciones sobre la infraestructura
 
@@ -44,21 +44,21 @@ Esta es una visión general de los pasos de implementación.
 
 1. **Configure e implemente un entorno LBD con una base de datos *vacía*.**
 
-    Utilice LCS para implementar el entorno LBD con la topología más reciente y una base de datos vacía. Para obtener más información, consulte la sección [Configurar e implementar un entorno LBD con una base de datos vacía](#set-up-deploy) más adelante en este tema. Debe utilizar la versión 10.0.21 o posterior de Supply Chain Management en todos los entornos de centros de conectividad y unidades de escalado.
+    Utilice LCS para implementar el entorno LBD con la topología más reciente y una base de datos vacía. Para obtener más información, consulte la sección [Configurar e implementar un entorno LBD con una base de datos vacía](#set-up-deploy) más adelante en este artículo. Debe utilizar la versión 10.0.21 o posterior de Supply Chain Management en todos los entornos de centros de conectividad y unidades de escalado.
 
 1. **Cargue los paquetes de destino en los activos del proyecto LBD en LCS.**
 
-    Prepare paquetes de aplicaciones, plataformas y personalización que utilice en el centro de conectividad y la unidad de escala perimetral. Para obtener más información, consulte la sección [Cargar los paquetes de destino en los activos del proyecto LBD en LCS](#upload-packages) más adelante en este tema.
+    Prepare paquetes de aplicaciones, plataformas y personalización que utilice en el centro de conectividad y la unidad de escala perimetral. Para obtener más información, consulte la sección [Cargar los paquetes de destino en los activos del proyecto LBD en LCS](#upload-packages) más adelante en este artículo.
 
 1. **Dar servicio al entorno LBD con los paquetes de destino.**
 
-    Este paso garantiza que se implementen la misma compilación y personalizaciones en el centro de conectividad y el radio. Para obtener más información, consulte la sección [Dar servicio al entorno LBD con paquetes de destino](#service-target-packages) más adelante en este tema.
+    Este paso garantiza que se implementen la misma compilación y personalizaciones en el centro de conectividad y el radio. Para obtener más información, consulte la sección [Dar servicio al entorno LBD con paquetes de destino](#service-target-packages) más adelante en este artículo.
 
 1. **Complete la configuración de la unidad de escalado y la asignación de carga de trabajo.**
 
-    Para obtener más información, consulte la sección [Asignar su unidad de escala de borde LBD a un centro de conectividad](#assign-edge-to-hub) más adelante en este tema.
+    Para obtener más información, consulte la sección [Asignar su unidad de escala de borde LBD a un centro de conectividad](#assign-edge-to-hub) más adelante en este artículo.
 
-En las secciones restantes de este tema se proporcionan más detalles acerca de cómo completar estos pasos.
+En las secciones restantes de este artículo se proporcionan más detalles acerca de cómo completar estos pasos.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Configure e implemente un entorno LBD con una base de datos vacía.
 
@@ -67,7 +67,7 @@ Este paso crea un entorno funcional LBD. Sin embargo, el entorno no tiene necesa
 1. Siga las instrucciones en [Configurar e implementar entornos locales (Platform update 41 y posteriores)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Debe utilizar la versión 10.0.21 o posterior de Supply Chain Management en todos los entornos de centros de conectividad y unidades de escalado. Además, debe utilizar la versión 2.12.0 o posterior de los scripts de infraestructura. 
 
     > [!IMPORTANT]
-    > Leer el resto de esta sección **antes** de completar los pasos de ese tema.
+    > Leer el resto de esta sección **antes** de completar los pasos de ese artículo.
 
 1. Antes de describir su configuración en la infraestructura\\ConfigTemplate.xml, ejecute el siguiente script:
 

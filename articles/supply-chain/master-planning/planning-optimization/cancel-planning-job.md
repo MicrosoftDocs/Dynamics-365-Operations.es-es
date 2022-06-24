@@ -1,6 +1,6 @@
 ---
 title: Cancelar un trabajo de planificación
-description: Este tema explica cómo cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación.
+description: Este artículo explica cómo cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación.
 author: t-benebo
 ms.date: 02/18/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 02bfae460566e7dfcb9abbc43b2b57a6b06d444c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900952"
 ---
 # <a name="cancel-a-planning-job"></a>Cancelar un trabajo de planificación
 

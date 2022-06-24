@@ -1,6 +1,6 @@
 ---
 title: Mejorar el rendimiento de las soluciones de ER al reducir la cantidad de campos de tabla que se localizan en runtime
-description: Este tema explica cómo puede ayudar a mejorar el rendimiento al reducir la cantidad de campos de tabla que se localizan en runtime.
+description: Este artículo explica cómo puede ayudar a mejorar el rendimiento al reducir la cantidad de campos de tabla que se localizan en runtime.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847462"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Mejorar el rendimiento de las soluciones de ER al reducir la cantidad de campos de tabla que se localizan en runtime
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811964"
 
 Puede diseñar [formatos](er-overview-components.md#format-components-for-outgoing-electronic-documents) de [informes electrónicos](general-electronic-reporting.md) (ER) que generen documentos salientes en varios formatos. Cuando se genera un documento, un formato de ER llama a los orígenes de datos que se configuraron en una [asignación de modelo](er-overview-components.md#model-mapping-component) de ER correspondiente. Para configurar el acceso a las tablas, consultas o entidades de la aplicación para la recuperación del registro, puede usar los orígenes de datos de ER del tipo *Registros de tabla*. Por defecto, un origen de datos del tipo *Registros de tabla* recupera los valores de todos los campos en los registros solicitados. Sin embargo, puede configurar este tipo de origen de datos para que obtenga solo los valores de campo que se requieren para el formato de ER en ejecución. Esta configuración ayuda a reducir el consumo de memoria del servidor de aplicaciones que realiza la recuperación de datos y el posterior almacenamiento en caché de registros.
 
-Para obtener más información sobre cómo limitar la lista de campos obtenidos de fuentes de datos del tipo *Registros de tabla*, complete el ejemplo en este tema.
+Para obtener más información sobre cómo limitar la lista de campos obtenidos de fuentes de datos del tipo *Registros de tabla*, complete el ejemplo en este artículo.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Ejemplo: reducir la cantidad de campos de tabla que se obtienen en tiempo de ejecución
 
@@ -49,7 +49,7 @@ Siga los pasos de [Configurar el marco de ER](er-quick-start2-customize-report.m
 
 ### <a name="import-the-sample-er-configurations"></a>Importar las configuraciones de ER de ejemplo
 
-Si aún no ha completado el ejemplo en el tema [Diseñar una nueva solución de ER para imprimir un informe personalizado](er-quick-start1-new-solution.md), descargue y almacene localmente los archivos XML para las siguientes configuraciones de la solución de ER proporcionada.
+Si aún no ha completado el ejemplo en el artículo [Diseñar una nueva solución de ER para imprimir un informe personalizado](er-quick-start1-new-solution.md), descargue y almacene localmente los archivos XML para las siguientes configuraciones de la solución de ER proporcionada.
 
 | Descripción del contenido            | Nombre de archivo |
 |--------------------------------|-----------|

@@ -1,6 +1,6 @@
 ---
 title: Configurar una plantilla de trabajo para pedidos de compra
-description: En este tema se describe cómo configurar una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos.
+description: En este artículo se describe cómo configurar una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877374"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar una plantilla de trabajo para pedidos de compra
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo configurar una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos. Las plantillas de trabajo determinan el sistema de instrucciones presentadas al trabajador del almacén en un dispositivo móvil al mover artículos desde el área de recepción. Puede utilizar este procedimiento con los datos mencionados en la empresa de datos de demostración USMF. Antes de comenzar esta guía, cree un id. de grupo de trabajo. En este ejemplo, se usa un id. grupo de trabajo denominado Entrada. Este procedimiento va destinado al encargado de almacén.
+En este artículo se describe cómo configurar una plantilla de trabajo simple que se debe usar al ubicar los artículos recibidos. Las plantillas de trabajo determinan el sistema de instrucciones presentadas al trabajador del almacén en un dispositivo móvil al mover artículos desde el área de recepción. Puede utilizar este procedimiento con los datos mencionados en la empresa de datos de demostración USMF. Antes de comenzar esta guía, cree un id. de grupo de trabajo. En este ejemplo, se usa un id. grupo de trabajo denominado Entrada. Este procedimiento va destinado al encargado de almacén.
 
 1. En el panel de navegación, vaya a **Módulos > Gestión de almacenes > Configuración > Trabajo > Plantillas de trabajo**.
 2. En el campo **Tipo de orden de trabajo**, seleccione **Pedidos de compra**.

@@ -1,6 +1,6 @@
 ---
 title: Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
-description: Este tema proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
+description: Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879722"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
+Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
 
 El 28 de junio, April crea una factura de 2.000,00 del proveedor 3052. La factura tiene un descuento por pronto pago del 1 por ciento si la factura se paga en 14 días.
 

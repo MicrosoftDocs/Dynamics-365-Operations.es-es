@@ -1,6 +1,6 @@
 ---
 title: Ubicación de salida de producción
-description: Este tema describe la jerarquía que se usa para identificar la ubicación de salida de producción.
+description: Este artículo describe la jerarquía que se usa para identificar la ubicación de salida de producción.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893305"
 ---
 # <a name="production-output-location"></a>Ubicación de salida de producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la jerarquía que se usa para identificar la ubicación de salida de producción.
+Este artículo describe la jerarquía que se usa para identificar la ubicación de salida de producción.
 
 La ubicación de salida de producción es la ubicación en la que un producto terminado se almacena por primera vez después de que produzca. Normalmente, esta ubicación está cerca del proceso de producción que produce el producto terminado. La ubicación de salida de producción se usa como almacenamiento intermedio para el material antes de que se traslade al área de envío, una ubicación de almacenamiento, una ubicación de entrada de producción para un proceso de producción descendente, y así sucesivamente. 
 

@@ -1,6 +1,6 @@
 ---
 title: Instalar el complemento Inteligencia IoT en LCS
-description: Este tema explica cómo instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS).
+description: Este artículo explica cómo instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887497"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instalar el complemento Inteligencia IoT en LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS). Tenga en cuenta que los complementos no se pueden instalar en un entorno de demostración/prueba. Para poder instalar el complemento, debe [crear los recursos de Azure](iot-azure-setup.md).
+Este artículo explica cómo instalar el complemento Inteligencia IoT en Microsoft Dynamics Lifecycle Services (LCS). Tenga en cuenta que los complementos no se pueden instalar en un entorno de demostración/prueba. Para poder instalar el complemento, debe [crear los recursos de Azure](iot-azure-setup.md).
 
 Puede instalar y configurar Inteligencia de IoT sin escribir ningún código. Estos son los pasos básicos.
 
 1. [Configurar recursos de Azure](iot-azure-setup.md) - Cree un centro de IoT, una caché de Redis y una bóveda de claves a las que se pueda acceder desde Supply Chain Management.
 2. [Formatos de esquema de mensajes para IoT Hub](iot-schema-format.md) - Configure sus dispositivos para enviar mensajes a IoT Hub y defina el formato de mensaje de notación de objetos JavaScript (JSON).
 3. En Gestión de funciones, habilite la marca de función de Inteligencia de IoT.
-4. Instale el complemento Inteligencia de IoT en Microsoft Dynamics Lifecycle Services (LCS) - Instale el complemento en LCS y configure los secretos de Azure. (como se describe en este tema).
+4. Instale el complemento Inteligencia de IoT en Microsoft Dynamics Lifecycle Services (LCS) - Instale el complemento en LCS y configure los secretos de Azure. (como se describe en este artículo).
 5. [Configurar métricas](iot-metrics-setup.md) - Configurar métricas en Supply Chain Management.
 6. [Configuración de escenario](iot-scenario-setup.md) - Configurar los escenarios en Supply Chain Management.
 

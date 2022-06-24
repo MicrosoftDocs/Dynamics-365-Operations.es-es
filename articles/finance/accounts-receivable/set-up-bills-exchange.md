@@ -1,6 +1,6 @@
 ---
 title: Configurar letras de cambio
-description: Este tema describe los pasos para configurar letras de cambio.
+description: Este artículo describe los pasos para configurar letras de cambio.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874736"
 ---
 # <a name="set-up-bills-of-exchange"></a>Configurar letras de cambio
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los pasos para configurar letras de cambio.
+Este artículo describe los pasos para configurar letras de cambio.
 
 Una letra de cambio es una orden escrita o electrónica de un cliente que se especifica que otra parte, normalmente un banco, debería pagar un importe establecido a la empresa. Al usar una letra de cambio como pago de una factura de pedido de ventas o de servicios, se abona en la cuenta del cliente el importe correspondiente. Ese abono se garantiza mediante la letra de cambio hasta que el cliente la pague al banco. Normalmente, la factura se liquida con la letra de cambio en la fecha de vencimiento. Cuando reciba una notificación del banco que indique que la letra de cambio se ha liquidado, podrá cerrarla. Puede librar una letra de cambio a través del banco en cualquiera de estos momentos:
 

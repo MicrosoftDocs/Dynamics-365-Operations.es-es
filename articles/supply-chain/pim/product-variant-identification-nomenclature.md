@@ -1,6 +1,6 @@
 ---
 title: Nomenclatura de los nombres y los números de variante de los productos
-description: En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo].
+description: En este artículo se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo].
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b437279c275244e96692c1a629e891973d30d48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850623"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de los nombres y los números de variante de los productos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]. La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para los nombres de producto. Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
+En este artículo se describe cómo se puede configurar una nomenclatura de número de producto para reemplazar el formato fijo [Número de producto maestro - Configuración - Tamaño - Color - Estilo]. La nueva nomenclatura tiene el formato destinado que incluye el número de producto maestro, las dimensiones de producto activo y los delimitadores de texto de su elección. También puede crear una nomenclatura para los nombres de producto. Por último, también puede crear una nomenclatura para identificar configuraciones creadas por el configurador de producto basado en restricciones. Estas nomenclaturas pueden contener atributos de su elección.
 
 Las nuevas nomenclaturas para números y nombres de variante de producto permiten incluir segmentos en los identificadores de variantes de producto. Estos segmentos pueden incluir el número y el nombre del producto maestro, identificadores y nombres de dimensiones de producto, secuencias numéricas, constantes de texto y atributos. Esta funcionalidad permite encontrar rápidamente una variante de producto específica al crear un pedido de ventas o un pedido de compra. Puede crear nomenclaturas para números y nombres de variante de producto en la página **Nomenclatura de producto** . Para abrir esta página, haga clic en **Gestión de información de productos** &gt; **Configuración**.
 

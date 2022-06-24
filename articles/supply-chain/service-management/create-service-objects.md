@@ -1,6 +1,6 @@
 ---
 title: Crear objetos de servicio
-description: Este tema proporciona un procedimiento que muestra cómo crear objetos de servicio.
+description: Este artículo proporciona un procedimiento que muestra cómo crear objetos de servicio.
 author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 585a268f4ebbe7bc8626f028c038d1533812c5e4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852139"
 ---
 # <a name="create-service-objects"></a>Crear objetos de servicio  
 
@@ -34,7 +34,7 @@ Los objetos de servicio son los activos y los productos de un cliente para los q
 4. En el campo **Grupo de objetos de servicio**, seleccione el grupo al que pertenece el objeto. 
 5. Opcional: seleccione un artículo para la línea de objetos de servicio, o seleccione una lista de materiales (L. MAT) de plantilla.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Visión genera de los objetos de servicio](service-objects.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Creación y procesamiento de oleadas
-description: En este tema se describe cómo crear, procesar y liberar una oleada para crear un trabajo de picking para una carga, un envío, un pedido de producción o un pedido del kanban.
+description: En este artículo se describe cómo crear, procesar y liberar una oleada para crear un trabajo de picking para una carga, un envío, un pedido de producción o un pedido del kanban.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851286"
 ---
 # <a name="wave-creation-and-processing"></a>Creación y procesamiento de oleadas
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo crear, procesar y liberar una oleada para crear un trabajo de picking para una carga, un envío, un pedido de producción o un pedido del kanban. Puede crear oleadas para los siguientes tipos de pedidos:
+En este artículo se describe cómo crear, procesar y liberar una oleada para crear un trabajo de picking para una carga, un envío, un pedido de producción o un pedido del kanban. Puede crear oleadas para los siguientes tipos de pedidos:
 
 - **Pedidos de ventas**: use oleadas de envío para incluir líneas de pedidos de ventas. Cuando un pedido de ventas se libera al almacén, las líneas de pedido de ventas se pueden incluir en la oleada.
 - **Pedidos de producción**: use oleadas de producción para incluir líneas a partir de la lista de materiales (L. MAT) para un producto.

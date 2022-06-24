@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (5 de octubre de 2021)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 5 de octubre de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 5 de octubre de 2021.
 author: marcelbf
 ms.date: 10/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc8cd8616f1b82258fccbb2b41d5e72a90aaed63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845123"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Novedades y cambios en Dynamics 365 Human Resources (5 de octubre de 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se describen las funciones que son nuevas, han cambiado o estarán disponibles próximamente en Microsoft Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Microsoft Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Problema | Descripción |
+| Número del problema | Problema | Description |
 |---|---|---|
 | 598896 | El importe del empleado no se muestra hasta que el empleado haya completado la inscripción | En la página **Autoservicio para el empleado**, no se mostraba el importe del empleado por el beneficio. Ahora se muestra el importe del empleado en la página **Autoservicio de prestaciones**.  |
 | 613440 | No se pueden exportar datos de **Administración de datos** | Al exportar datos para un proyecto en **Administración de datos**, la exportación falla inesperadamente. |

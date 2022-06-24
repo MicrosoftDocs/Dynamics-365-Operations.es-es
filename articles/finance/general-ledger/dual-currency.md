@@ -1,6 +1,6 @@
 ---
 title: Divisa dual
-description: Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 Finance.
+description: Este artículo proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 Finance.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906366"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
@@ -36,7 +36,7 @@ Además, diferentes módulos se han mejorado para seguir, informar y usar la div
 - Activos fijos 
 - Consolidaciones
 
-Tras realizar una actualización, debe completar pasos específicos para Gestión de efectivo y bancos, y Activos fijos. Por lo tanto, asegúrese de leer y comprender las secciones relevantes de este tema.
+Tras realizar una actualización, debe completar pasos específicos para Gestión de efectivo y bancos, y Activos fijos. Por lo tanto, asegúrese de leer y comprender las secciones relevantes de este artículo.
 
 ## <a name="posting-process"></a>Proceso de registro
 
@@ -93,7 +93,7 @@ Los siguientes cambios adicionales se realizaron en el módulo **Contabilidad ge
 - Un tipo de cambio independiente de la divisa de notificación se puede definir en la contabilidad. Si una organización no desea usar un tipo de cambio distinto, puede dejar el campo para el tipo de cambio de la divisa de notificación en blanco. De manera alternativa, puede seleccionar el mismo tipo de cambio que se usa para la divisa de contabilidad. Si deja el campo en blanco, el sistema utiliza el tipo de cambio de la divisa de contabilidad.
 - Un diario nuevo, el diario de ajuste de divisa de notificación, permite registrar los ajustes en cuentas contables solo en la divisa de notificación. Este diario habilita el registro únicamente en las cuentas contables. No admite empresas vinculadas, y la divisa debe ser la divisa de notificación de la entidad jurídica en la que se registra el diario. Cuando se registra el diario, los importes de divisa de transacción y la divisa de contabilidad son 0 (cero), y el importe de la divisa de notificación se registra con el importe especificado en la transacción. Dado que ha cambiado la forma en que se usa la divisa de notificación en los módulos **proveedores**, **clientes**, y **Activos fijos**, este diario se puede usar para los ajustes después de la actualización. Para ver ejemplos de cómo este diario se puede usar, consulte las secciones de estos módulos.
 - El proceso para la asignación de período se ha actualizado para que asigne importes en las divisas de transacción, contabilidad e informe. Anteriormente, los importes se asignaban en las divisas de transacción y contabilidad y, a continuación, el importe de la divisa de contabilidad se convertía a la divisa de notificación. Dicho comportamiento podía hacer que un saldo permaneciera en la cuenta contable en la divisa de notificación. Ahora, cuando los importes se calculan y se usan en la entrada contable, no se hace ninguna conversión.
-- El proceso para la revalorización de divisa extranjera ya revalorizó importes en la divisa de notificación. Sin embargo, el importe de la divisa de notificación ahora se calcula con el importe de la divisa de la transacción, como se describe en la sección [Proceso de registro](#posting-process) anterior en este tema.
+- El proceso para la revalorización de divisa extranjera ya revalorizó importes en la divisa de notificación. Sin embargo, el importe de la divisa de notificación ahora se calcula con el importe de la divisa de la transacción, como se describe en la sección [Proceso de registro](#posting-process) anterior en este artículo.
 - Muchos informes y consultas de contabilidad general tenían ya la divisa de notificación, pero algunos no la tenían. Un ejemplo es la página de lista **Saldo de comprobación**. Esta página de lista ahora incluye columnas para la divisa de contabilidad y la divisa de notificación. Tenga en cuenta que las columnas para la divisa de notificación están ocultas si la divisa de contabilidad y la divisa de notificación son iguales, o si no se definió ninguna divisa de notificación en el libro mayor.
 
 ### <a name="financial-reporting"></a>Informes financieros

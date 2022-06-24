@@ -1,6 +1,6 @@
 ---
 title: Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
-description: En este tema se explica cómo personalizar las configuraciones de informe electrónico (ER) proporcionadas por Microsoft para generar un documento electrónico personalizado.
+description: En este artículo se explica cómo personalizar las configuraciones de informe electrónico (ER) proporcionadas por Microsoft para generar un documento electrónico personalizado.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854709"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
 
@@ -32,9 +32,9 @@ El [Marco de informes electrónicos (ER)](general-electronic-reporting.md) permi
 
 ## <a name="overview"></a>Información general
 
-Para el ejemplo de este tema, debe especificar un código de identificación fiscal federal como un nuevo atributo personalizado de cada cliente al que envíe facturas electrónicas. Por lo tanto, debe personalizar la estructura de la factura que se utiliza actualmente, agregando un nuevo artículo que se debe completar con el código de impuestos en cada factura electrónica que se genere.
+Para el ejemplo de este artículo, debe especificar un código de identificación fiscal federal como un nuevo atributo personalizado de cada cliente al que envíe facturas electrónicas. Por lo tanto, debe personalizar la estructura de la factura que se utiliza actualmente, agregando un nuevo artículo que se debe completar con el código de impuestos en cada factura electrónica que se genere.
 
-Los procedimientos de este tema explican cómo un usuario con el rol de administrador del sistema, desarrollador de informes electrónicos o consultor funcional de informes electrónicos puede realizar las tareas siguientes en su instancia de Finance:
+Los procedimientos de este artículo explican cómo un usuario con el rol de administrador del sistema, desarrollador de informes electrónicos o consultor funcional de informes electrónicos puede realizar las tareas siguientes en su instancia de Finance:
 
 - [Configurar el conjunto mínimo de parámetros de ER necesarios para empezar a utilizar el marco de ER](#ConfigureER).
 - [Importar las versiones iniciales de las configuraciones estándar de ER que se proporcionan para generar facturas electrónicas](#ImportERConfigurations1).

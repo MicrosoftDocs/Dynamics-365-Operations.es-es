@@ -1,6 +1,6 @@
 ---
-title: Procesar idoneidad de inscripción
-description: En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
+title: Proceso de idoneidad para inscripción
+description: Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a7de6dbb8d8ed13392eb7eb9aa02b15db2e009
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c01d7a6f456514fc9da1889ccaff5af1ae7c0f52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877754"
 ---
-# <a name="process-enrollment-eligibility"></a>Procesar idoneidad de inscripción
+# <a name="process-enrollment-eligibility"></a>Proceso de idoneidad para inscripción
 
 
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
+Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesamiento de idoneidad para inscripción**.
 
@@ -55,7 +55,7 @@ En este tema se explica cómo ejecutar el proceso de idoneidad de inscripción.
 
 ## <a name="view-process-results"></a>Ver resultados de proceso
 
-En este tema se explica cómo ver los resultados del proceso de idoneidad.
+Este artículo explica cómo ver los resultados del proceso de idoneidad.
 
 1.  En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesar resultados**.
 

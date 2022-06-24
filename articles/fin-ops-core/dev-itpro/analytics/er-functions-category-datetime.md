@@ -1,6 +1,6 @@
 ---
 title: Lista de funciones ER en la categoría de fecha y hora
-description: Este tema proporciona información sobre las funciones de fecha y hora que son compatibles con los informes electrónicos (ER).
+description: Este artículo proporciona información sobre las funciones de fecha y hora que son compatibles con los informes electrónicos (ER).
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880265"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lista de funciones ER en la categoría de fecha y hora
 
 [!include [banner](../includes/banner.md)]
 
-Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para extraer información de los valores de fecha y hora, y para realizar operaciones en ellos. Este tema proporciona un resumen de estas funciones.
+Las funciones de fecha y hora de informes electrónicos (ER) se pueden usar para extraer información de los valores de fecha y hora, y para realizar operaciones en ellos. Este artículo proporciona un resumen de estas funciones.
 
 ## <a name="list-of-supported-functions"></a>Lista de funciones permitidas.
 

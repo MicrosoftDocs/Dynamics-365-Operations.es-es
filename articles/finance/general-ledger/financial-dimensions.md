@@ -1,6 +1,6 @@
 ---
 title: Dimensiones financieras
-description: Este tema describe los diferentes tipos de dimensiones financieras y cómo se configuran.
+description: Este artículo describe los diferentes tipos de dimensiones financieras y cómo se configuran.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850000"
 ---
 # <a name="financial-dimensions"></a>Dimensiones financieras
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica los diferentes tipos de dimensiones financieras y cómo se configuran.
+Este artículo explica los diferentes tipos de dimensiones financieras y cómo se configuran.
 
 Use la página **Dimensiones financieras** para crear las dimensiones financieras que se pueden usar como segmentos de cuentas para los planes contables compartidos. Existen dos tipos de dimensiones financieras: dimensiones personalizadas y dimensiones respaldadas por entidad. Las dimensiones personalizadas se comparten entre entidades jurídicas y los valores los introduce y mantiene los usuarios. Para dimensiones respaldadas por entidad, los valores se definen en otra ubicación del sistema, como en Clientes o Tiendas. Algunas dimensiones respaldadas por entidad se comparten entre entidades jurídicas, mientras que otras dimensiones respaldadas por entidad son específicas de una empresa.
 

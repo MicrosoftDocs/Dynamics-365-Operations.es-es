@@ -1,6 +1,6 @@
 ---
 title: Trabajadores responsables de aprobar disconformidades
-description: Este tema describe cómo configurar trabajadores que son responsables de aprobar disconformidades.
+description: Este artículo describe cómo configurar trabajadores que son responsables de aprobar disconformidades.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907417"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>Trabajadores responsables de aprobar disconformidades
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar trabajadores que son responsables de aprobar disconformidades.
+Este artículo describe cómo configurar trabajadores que son responsables de aprobar disconformidades.
 
 Las disconformidades deben aprobarse antes de que los usuarios puedan comenzar a introducir detalles como correcciones u operaciones. Antes de que los usuarios puedan aprobar o rechazar las disconformidades, su id. de usuario (registro de usuario) debe estar vinculado a un registro de trabajador. Opcionalmente, puede configurar trabajadores que son responsables de la calidad y luego permitir que un trabajador apruebe el trabajo en nombre de otro trabajador.
 

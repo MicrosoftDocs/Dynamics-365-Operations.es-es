@@ -1,6 +1,6 @@
 ---
 title: Habilitar la publicación manual de calificaciones y reseñas por parte de un moderador
-description: Este tema describe cómo habilitar la publicación manual de calificaciones y reseñas por parte de un moderador en Microsoft Dynamics 365 Commerce y cómo publicar calificaciones y reseñas manualmente.
+description: Este artículo describe cómo habilitar la publicación manual de calificaciones y reseñas por parte de un moderador en Microsoft Dynamics 365 Commerce y cómo publicar calificaciones y reseñas manualmente.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892632"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Habilitar la publicación manual de calificaciones y reseñas por parte de un moderador
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar la publicación manual de calificaciones y reseñas por parte de un moderador en Microsoft Dynamics 365 Commerce y cómo publicar calificaciones y reseñas manualmente.
+Este artículo describe cómo habilitar la publicación manual de calificaciones y reseñas por parte de un moderador en Microsoft Dynamics 365 Commerce y cómo publicar calificaciones y reseñas manualmente.
 
 La solución de calificaciones y reseñas de Dynamics 365 Commerce utiliza Azure Cognitive Services para redactar automáticamente las malas palabras en los títulos y el contenido de las reseñas, y para publicar calificaciones y reseñas. Por lo tanto, no se requiere la intervención manual para revisar y publicar calificaciones y reseñas en su sitio de comercio electrónico.
 

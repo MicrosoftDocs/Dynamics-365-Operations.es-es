@@ -1,6 +1,6 @@
 ---
-title: Crear y configurar garantías ampliadas
-description: En este tema se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
+title: Crear y configurar garantías extendidas
+description: En este artículo se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
 author: sijoshi
 ms.date: 06/08/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ed9851a9609e8a87ae0ffadc5cdd20c03fa17ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886993"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Crear y configurar garantías extendidas
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan las garantías ampliadas y se describe cómo crearlas y configurarlas en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Información general
 

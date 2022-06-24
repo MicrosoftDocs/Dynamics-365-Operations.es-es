@@ -1,6 +1,6 @@
 ---
 title: Funcionalidad de intervalo de capitalización
-description: Este tema proporciona información que le ayudará a elegir entre intervalos de capitalización mensuales, trimestrales, semestrales y anuales.
+description: Este artículo proporciona información que le ayudará a elegir entre intervalos de capitalización mensuales, trimestrales, semestrales y anuales.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886439"
 ---
 # <a name="compounding-interval-functionality"></a>Funcionalidad de intervalo de capitalización
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tema proporciona información que le ayudará a elegir entre intervalos de capitalización mensuales, trimestrales, semestrales y anuales. La función de intervalo de capitalización se utiliza para determinar el número de períodos de capitalización por año en la programación de pagos de un arrendamiento. Cada uno de los cuatro ejemplos de este tema muestra cómo se verá la programación de pagos de un arrendamiento para un intervalo diferente.
+Este artículo proporciona información que le ayudará a elegir entre intervalos de capitalización mensuales, trimestrales, semestrales y anuales. La función de intervalo de capitalización se utiliza para determinar el número de períodos de capitalización por año en la programación de pagos de un arrendamiento. Cada uno de los cuatro ejemplos de este artículo muestra cómo se verá la programación de pagos de un arrendamiento para un intervalo diferente.
 
 No puede seleccionar un intervalo de capitalización que sea menos frecuente que la frecuencia de pago del arrendamiento. Por ejemplo, un intervalo de capitalización trimestral no se puede usar con una frecuencia de pago mensual, y un intervalo de capitalización anual no se puede usar con una frecuencia de pago semestral. Si intenta seleccionar un intervalo de capitalización que sea menos frecuente que la frecuencia de pago del arrendamiento, recibirá un mensaje de error.
 
 > [!NOTE]
-> En los cuatro ejemplos de este tema, el intervalo de capitalización coincide con la frecuencia de pago.
+> En los cuatro ejemplos de este artículo, el intervalo de capitalización coincide con la frecuencia de pago.
 
 ## <a name="examples"></a>Ejemplo
 

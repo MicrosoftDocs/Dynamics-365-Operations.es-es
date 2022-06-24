@@ -1,6 +1,6 @@
 ---
 title: Zonas de cuarentena para disconformidades
-description: Este tema describe cómo crear y utilizar zonas de cuarentena para disconformidades.
+description: Este artículo describe cómo crear y utilizar zonas de cuarentena para disconformidades.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857732"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Zonas de cuarentena para disconformidades
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear y utilizar zonas de cuarentena para disconformidades.
+Este artículo describe cómo crear y utilizar zonas de cuarentena para disconformidades.
 
 Use la página **Zonas de cuarentena** para definir zonas que pueden asignarse a disconformidades. Cuando crea una disconformidad, puede establecer los campos **Zona de cuarentena** y **Tipo de cuarentena** en la pestaña **General** de la página **Disconformidades**. El campo **Zona de cuarentena** normalmente indica el área o ubicación donde se encuentra el artículo. El campo **Tipo de cuarentena** define el elemento como *Uso restringido* o *Inutilizable*.
 

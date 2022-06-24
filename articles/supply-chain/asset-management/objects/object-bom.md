@@ -1,6 +1,6 @@
 ---
 title: L. MAT de activos
-description: Este tema describe las listas de materiales (BOM) de activos en Administración de activos.
+description: Este artículo describe las listas de materiales (BOM) de activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882790"
 ---
 # <a name="asset-boms"></a>L. MAT de activos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751994"
 
  
 
-Este tema describe las listas de materiales (BOM) de activos en Administración de activos. La página **L. MAT de activos** muestra una lista de todos los elementos (piezas de repuesto y otros) que se utilizan en un activo durante su vida útil completa. Al crear un nuevo activo, debe considerar configurar una L. MAT de activos como parte del procedimiento de configuración. De esta manera, puede realizar un seguimiento del historial de artículos para el activo a partir de la fecha de creación.
+Este artículo describe las listas de materiales (BOM) de activos en Administración de activos. La página **L. MAT de activos** muestra una lista de todos los elementos (piezas de repuesto y otros) que se utilizan en un activo durante su vida útil completa. Al crear un nuevo activo, debe considerar configurar una L. MAT de activos como parte del procedimiento de configuración. De esta manera, puede realizar un seguimiento del historial de artículos para el activo a partir de la fecha de creación.
 
 Cuando haya completado un trabajo de mantenimiento y el consumo de artículos se ha registrado en una orden de trabajo, puede seguir el consumo de repuestos y otros elementos que se utilicen en el activo. Esta funcionalidad permite conservar un registro completo del consumo de artículos para todos sus activos. Por ejemplo, puede usar el registro para controlar si una pieza de repuesto específica se reemplazará con frecuencia o para realizar un seguimiento de las piezas de repuesto u otros artículos que se usan actualmente en un activo.
 

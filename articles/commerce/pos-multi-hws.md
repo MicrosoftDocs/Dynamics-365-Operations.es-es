@@ -1,6 +1,6 @@
 ---
 title: Terminales de pago dedicados y avisos para una impresora y un cajón de efectivo
-description: Este tema proporciona información sobre la capacidad de tener un terminal de pago dedicado y solicita al usuario que seleccione un cajón de efectivo y una impresora de recibos.
+description: Este artículo proporciona información sobre la capacidad de tener un terminal de pago dedicado y solicita al usuario que seleccione un cajón de efectivo y una impresora de recibos.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874930"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminales de pago dedicados y avisos para una impresora y un cajón de efectivo
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre la capacidad de tener un terminal de pago dedicado y solicita al usuario que seleccione un cajón de efectivo y una impresora de recibos.
+Este artículo proporciona información sobre la capacidad de tener un terminal de pago dedicado y solicita al usuario que seleccione un cajón de efectivo y una impresora de recibos.
 
 ## <a name="overview"></a>Información general
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce admite estas tendencias al habilitar un escenari
 
 ## <a name="supported-pos-clients-and-devices"></a>Clientes y dispositivos PDV compatibles
 
-La funcionalidad que se describe en este tema es compatible con Modern POS para Windows y Modern POS para clientes PDV Android.
+La funcionalidad que se describe en este artículo es compatible con Modern POS para Windows y Modern POS para clientes PDV Android.
 
 Esta funcionalidad admite terminales de pago con capacidad de red e impresoras de recibos. Puede proporcionar asistencia para el cajón de efectivo conectando el cajón de efectivo a la impresora de recibos habilitada para red a través del puerto d/k.
 

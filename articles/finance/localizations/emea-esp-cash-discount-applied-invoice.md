@@ -1,6 +1,6 @@
 ---
 title: Parámetro El descuento por pronto pago se aplica a la factura
-description: En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
+description: En este artículo se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a78ea414ae1a9fbbd19dd837b710a5ad87202367f967c90973dd85809680cc4b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29f6b0886248eb4c7941540ffb698bcefaff7383
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871134"
 ---
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
+En este artículo se describe el descuento por pronto pago aplicado en el parámetro de factura para España.
 
 Normalmente los descuentos por pronto pago se calculan durante el proceso de liquidación para transacciones abiertas del cliente o proveedor. Sin embargo, el parámetro **El descuento por pronto pago se aplica a la factura** permite cambiar el cálculo de descuentos por pronto pago de modo que se produzca durante el proceso de actualización de facturas. Si la dirección principal de la entidad jurídica se encuentra en España, este parámetro está disponible en la ficha desplegable **Opciones de impuestos** de la pestaña **Impuestos** de la página **Parámetros de contabilidad general**. Si habilita el parámetro **El descuento por pronto pago se aplica a la factura**, los descuentos por pronto pago se calculan durante el proceso de actualización de facturas para los siguientes documentos:
 

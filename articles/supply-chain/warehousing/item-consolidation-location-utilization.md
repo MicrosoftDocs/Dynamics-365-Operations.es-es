@@ -1,6 +1,6 @@
 ---
 title: 'Consolidación de artículos: utilización de ubicación'
-description: Este tema proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página Consolidación de artículos para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
+description: Este artículo proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página Consolidación de artículos para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849195"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página **Consolidación de artículos** para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
+Este artículo proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página **Consolidación de artículos** para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
 
 ## <a name="turn-on-the-features"></a>Activar las características
 
-Antes de poder usar las funciones que se describen en este tema, debe activarlas en su sistema. Los administradores pueden usar la configuración de [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas funciones y activarlas si es necesario. Active las dos siguientes características, en el orden en que se enumeran. (Ambas características son para el módulo **Gestión de almacenes**).
+Antes de poder usar las funciones que se describen en este artículo, debe activarlas en su sistema. Los administradores pueden usar la configuración de [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas funciones y activarlas si es necesario. Active las dos siguientes características, en el orden en que se enumeran. (Ambas características son para el módulo **Gestión de almacenes**).
 
 1. Estado de ubicación de almacén
 2. Uso de la ubicación de consolidación de artículos
@@ -51,7 +51,7 @@ Estos campos permiten a los directores de almacén obtener una mejor visión gen
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Configurar la consolidación de artículos y la utilización de ubicación
 
-Esta sección describe cómo preparar su sistema para utilizar la consolidación de artículos y la utilización de la ubicación. Los procedimientos utilizan valores de muestra de los datos de demostración estándar. Si planea trabajar en el escenario de ejemplo que se proporciona más adelante en este tema, seleccione la entidad jurídica **USMF** (que contiene los datos de demostración estándar) y cree cada registro que se describe en esta sección. Si no planea trabajar en el escenario de ejemplo, los valores que se proporcionan aquí pueden considerarse ejemplos de los tipos de configuración que debe completar para usar las funciones.
+Esta sección describe cómo preparar su sistema para utilizar la consolidación de artículos y la utilización de la ubicación. Los procedimientos utilizan valores de muestra de los datos de demostración estándar. Si planea trabajar en el escenario de ejemplo que se proporciona más adelante en este artículo, seleccione la entidad jurídica **USMF** (que contiene los datos de demostración estándar) y cree cada registro que se describe en esta sección. Si no planea trabajar en el escenario de ejemplo, los valores que se proporcionan aquí pueden considerarse ejemplos de los tipos de configuración que debe completar para usar las funciones.
 
 ### <a name="released-product"></a>Producto emitido
 

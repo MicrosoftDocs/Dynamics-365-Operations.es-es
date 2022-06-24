@@ -1,6 +1,6 @@
 ---
 title: Referencias a facturas originales en notas de crédito
-description: Este tema explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
+description: Este artículo explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861542"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referencias a facturas originales en notas de crédito
 
 [!include [banner](../includes/banner.md)]
 
 
-En algunos países y regiones, existe un requisito legal de que las notas de crédito impresas incluyan referencias a las facturas originales. Este tema explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
+En algunos países y regiones, existe un requisito legal de que las notas de crédito impresas incluyan referencias a las facturas originales. Este artículo explica cómo configurar e imprimir los números de factura originales en notas de crédito relacionadas.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 - En espacio de trabajo **Administración de características**, active la característica **Diseño de facturación de crédito para informes de facturas de ventas y proyectos**. Para más información, consulte [Resumen de administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Los formatos imprimibles de los documentos necesarios deben configurarse en la Administración de impresión.
 
-La funcionalidad que se describe en este tema se aplica a los siguientes documentos:
+La funcionalidad que se describe en este artículo se aplica a los siguientes documentos:
 
 **Clientes**
 

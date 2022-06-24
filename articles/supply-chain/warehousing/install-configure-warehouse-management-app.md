@@ -1,6 +1,6 @@
 ---
-title: Instale y conecte la aplicación móvil Warehouse Management
-description: Este tema explica cómo instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
+title: Instalar y conectar la aplicación móvil Warehouse Management
+description: Este artículo explica cómo instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
+ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103422"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941777"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instale y conecte la aplicación móvil Warehouse Management
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar y conectar la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tema describe cómo configurar la nueva aplicación de almacén para gestión de almacenes. Si busca información sobre cómo configurar la aplicación de almacén anterior (ahora en desuso), consulte [Instalar y conectar la aplicación del almacén](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Este artículo describe cómo configurar la nueva aplicación de almacén para gestión de almacenes. Si busca información sobre cómo configurar la aplicación de almacén anterior (ahora en desuso), consulte [Instalar y conectar la aplicación del almacén](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Este tema explica cómo descargar e instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+Este artículo explica cómo descargar e instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 
@@ -39,7 +39,7 @@ La aplicación móvil Warehouse Management está disponible para los sistemas op
 - Windows 10 (Plataforma universal de Windows \[UWP\]) October 2018 update 1809 (build 10.0.17763) o posterior
 - Android 4.4 o posterior
 
-## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Activar o desactivar las características de la aplicación móvil de Warehouse Management en Supply Chain Management
+## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Activar o desactivar las características de la aplicación móvil de Warehouse Management en Supply Chain Management
 
 Para utilizar la aplicación móvil Warehouse Management, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -87,11 +87,11 @@ Para habilitar la aplicación móvil Warehouse Management para interactuar con u
 
     ![Asistente de Registrar una aplicación.](media/app-connect-azure-register-wizard.png "Asistente de Registrar una aplicación")
 
-1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este tema como *Id. de cliente*.
+1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este artículo como *Id. de cliente*.
 
     ![Identificador de aplicación (cliente).](media/app-connect-azure-app-id.png "Id. de aplicación (cliente)")
 
-1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este tema).
+1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este artículo).
 
     - **Cargar certificado**: cargue un certificado para usarlo como secreto. Recomendamos este enfoque, porque es más seguro y también se puede automatizar más completamente. Si está ejecutando la aplicación móvil Warehouse Management en dispositivos Windows, anote el valor de **Huella digital** que se muestra después de cargar el certificado. Necesitará este valor cuando configure el certificado en dispositivos Windows.
     - **Nuevo secreto de cliente**: cree una clave introduciendo una descripción de clave y una duración en la sección **Contraseñas** y luego seleccione **Añadir**. Haga una copia de la clave y guárdela de forma segura.
@@ -101,7 +101,7 @@ Para habilitar la aplicación móvil Warehouse Management para interactuar con u
 Para obtener más información sobre cómo configurar aplicaciones de servicios web en Azure AD, vea los siguientes recursos:
 
 - Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes temas:
+- Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes artículos:
 
     - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -129,13 +129,13 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
     ![Aplicaciones de Azure Active Directory.](media/app-connect-aad-apps.png "Aplicaciones de Azure Active Directory")
 
 > [!TIP]
-> Una forma de usar esta configuración es crear un Id. De cliente en Azure para cada uno de sus dispositivos físicos y luego agregar cada Id. de cliente a la página **Aplicaciones de Azure Active Directory**. Luego, si un dispositivo se pierde, puede eliminar fácilmente su acceso a Supply Chain Management eliminando su id. de cliente en esa página. (Este enfoque funciona porque las credenciales de conexión que se guardan en cada dispositivo también especifican un ID de cliente, como se describe más adelante en este tema).
+> Una forma de usar esta configuración es crear un Id. De cliente en Azure para cada uno de sus dispositivos físicos y luego agregar cada Id. de cliente a la página **Aplicaciones de Azure Active Directory**. Luego, si un dispositivo se pierde, puede eliminar fácilmente su acceso a Supply Chain Management eliminando su id. de cliente en esa página. (Este enfoque funciona porque las credenciales de conexión que se guardan en cada dispositivo también especifican un ID de cliente, como se describe más adelante en este artículo).
 >
 > Además, la configuración predeterminada de idioma, formato numérico y zona horaria para cada ID de cliente se establece mediante las preferencias establecidas para el valor **Id. de usuario** que se asigna aquí. Por lo tanto, puede usar esas preferencias para establecer la configuración predeterminada para cada dispositivo o colección de dispositivos, según el ID del cliente. Sin embargo, estos valores predeterminados se anularán si también se definen para la *cuenta de usuario de la aplicación de almacén* que un trabajador usa para iniciar sesión en el dispositivo. (Para obtener más información, consulte [Cuentas de usuario de dispositivo móvil](mobile-device-work-users.md)).
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando un certificado o secreto de cliente
 
-La autenticación con Azure AD proporciona una forma segura de conectar un dispositivo móvil a Supply Chain Management. Puede autenticar usando un secreto de cliente o un certificado. Si va a importar la configuración de conexión, le recomendamos que use un certificado en lugar de un secreto de cliente. Debido a que el secreto del cliente siempre debe almacenarse de forma segura, no puede importarlo desde un archivo de configuración de conexión o un código QR, como se describe más adelante en este tema.
+La autenticación con Azure AD proporciona una forma segura de conectar un dispositivo móvil a Supply Chain Management. Puede autenticar usando un secreto de cliente o un certificado. Si va a importar la configuración de conexión, le recomendamos que use un certificado en lugar de un secreto de cliente. Debido a que el secreto del cliente siempre debe almacenarse de forma segura, no puede importarlo desde un archivo de configuración de conexión o un código QR, como se describe más adelante en este artículo.
 
 Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación móvil Warehouse Management. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 
@@ -266,7 +266,7 @@ Si no dispone de un archivo o de un código QR, puede configurar la aplicación 
 
 1. Especifique la siguiente información:
 
-    - **Usar secreto del cliente**: establezca esta opción en _Sí_ para usar un secreto de cliente para autenticarse con Supply Chain Management. Establezca en _No_ para usar un certificado para la autenticación. (Para obtener más información, consulte la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service) que aparece más arriba en este tema.)
+    - **Usar secreto del cliente**: establezca esta opción en _Sí_ para usar un secreto de cliente para autenticarse con Supply Chain Management. Establezca en _No_ para usar un certificado para la autenticación. (Para obtener más información, consulte la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service) que aparece más arriba en este artículo.)
     - **Nombre de la conexión**: introduzca un nombre para la nueva conexión. Este nombre aparecerá en el campo **Seleccionar conexión** la próxima vez que abra la configuración de conexión. El nombre que introduzca debe ser único. (En otras palabras, debe diferir de todos los demás nombres de conexión que están almacenados en su dispositivo, si hay otros nombres de conexión almacenados allí.)
     - **Id. de cliente de Active Directory**: introduzca el id. de cliente que anotó mientras estaba configurando Azure AD en la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service).
     - **Secreto del cliente de Active Directory**: este campo solo está disponible cuando la opción **Usar secreto del cliente** está establecida en _Sí_. Introduzca el secreto de cliente que anotó mientras estaba configurando Azure AD en la sección [Crear una aplicación de servicio web en Azure Active Directory](#create-service).

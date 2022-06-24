@@ -1,6 +1,6 @@
 ---
 title: Crear un acuerdo de compra
-description: Este tema le guía por el proceso de creación de un acuerdo de compra.
+description: Este artículo le guía por el proceso de creación de un acuerdo de compra.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877577"
 ---
 # <a name="create-a-purchase-agreement"></a>Crear un acuerdo de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema le guía por el proceso de creación de un acuerdo de compra. Esto normalmente lo haría el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado clasificaciones de acuerdo de compra antes de comenzar. Una vez que haya creado un acuerdo, podrá usarlo cuando cree un pedido de compra; esto copiará las condiciones del acuerdo de compra al encabezado y a cualquier línea del pedido a la que afecte el acuerdo.
+Este artículo le guía por el proceso de creación de un acuerdo de compra. Esto normalmente lo haría el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado clasificaciones de acuerdo de compra antes de comenzar. Una vez que haya creado un acuerdo, podrá usarlo cuando cree un pedido de compra; esto copiará las condiciones del acuerdo de compra al encabezado y a cualquier línea del pedido a la que afecte el acuerdo.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Creación de un acuerdo de compra nuevo

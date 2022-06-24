@@ -1,6 +1,6 @@
 ---
 title: Ajustar arrendamientos
-description: El tema explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias.
+description: El artículo explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898338"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamientos
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-El tema explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias. El arrendamiento de activos cumple con la orientación que proporcionan el Tema 842 de la Codificación de Normas de Contabilidad (ASC 842) y la Norma Internacional de Información Financiera 16 (NIIF 16) sobre las modificaciones del arrendamiento. ASC 842-20-15-1 define una modificación de arrendamiento como cualquier cambio en los términos y condiciones de un contrato que provoque un cambio en el ámbito o la consideración de un arrendamiento. El párrafo 39 de la IFRS 16 establece que un arrendatario debe volver a evaluar el pasivo por arrendamiento de manera que refleje los cambios en los pagos por arrendamiento.
+El artículo explica cómo ajustar un arrendamiento. Es posible que se requiera un ajuste si se modifican los términos del arrendamiento, se prorroga el arrendamiento o cambian otras circunstancias. El arrendamiento de activos cumple con la orientación que proporcionan el Tema 842 de la Codificación de Normas de Contabilidad (ASC 842) y la Norma Internacional de Información Financiera 16 (NIIF 16) sobre las modificaciones del arrendamiento. ASC 842-20-15-1 define una modificación de arrendamiento como cualquier cambio en los términos y condiciones de un contrato que provoque un cambio en el ámbito o la consideración de un arrendamiento. El párrafo 39 de la IFRS 16 establece que un arrendatario debe volver a evaluar el pasivo por arrendamiento de manera que refleje los cambios en los pagos por arrendamiento.
 
 Para las organizaciones que se adhieren a ASC 842 o IFRS 16, un arrendamiento se vuelve a medir para reflejar un cambio en el valor presente de los pagos mínimos futuros del arrendamiento (PVFMLP). Si el PVFMLP aumenta, el movimiento de diario que se crea será un débito en la cuenta del activo por derecho de uso (ROU) y un crédito en la cuenta de pasivo por arrendamiento por la diferencia entre el nuevo PVFMLP y el PVFMLP anterior. Si el PVFMLP disminuye, el movimiento del diario será un débito en la cuenta del pasivo por arrendamiento y un crédito en la cuenta del activo por derecho de uso por la diferencia.
 

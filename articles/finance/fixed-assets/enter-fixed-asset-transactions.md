@@ -1,6 +1,6 @@
 ---
 title: Opciones de transacciones de activos fijos
-description: Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
+description: Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 507e263e7267fe96cdf9ed78a84924839c2de982
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 402679b6f1003f14f7e277a326784edaaea719d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883369"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opciones de transacciones de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
+Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 
 Puede configurar los activos fijos de la integración con los proveedores, clientes, adquisición y abastecimiento y contabilidad general. También puede transferir los artículos en gestión de inventarios a los activos fijos si desea usar dichos artículos internamente.
 

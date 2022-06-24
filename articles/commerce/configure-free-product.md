@@ -1,6 +1,6 @@
 ---
 title: Configurar un producto para comprarlo gratis
-description: Este tema describe cómo configurar un producto para que se pueda comprar gratis en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo configurar un producto para que se pueda comprar gratis en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 760b97a895758073c8ffd1209be4a5f7df0f13a8
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 4bd7e4f7a7873e471f1aee94f15e7932e8d9eecd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890364"
 ---
 # <a name="configure-a-product-to-be-purchased-for-free"></a>Configurar un producto para comprarlo gratis
 
 [!include [banner](includes/banner.md)]
 
 
-Este tema describe cómo configurar un producto para que se pueda comprar gratis en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo configurar un producto para que se pueda comprar gratis en Microsoft Dynamics 365 Commerce.
 
 ## <a name="configure-the-product"></a>Configurar el producto
 

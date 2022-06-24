@@ -1,6 +1,6 @@
 ---
 title: Equilibrio por lotes
-description: En este tema se describe el proceso de equilibrio por lotes.
+description: En este artículo se describe el proceso de equilibrio por lotes.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856059"
 ---
 # <a name="batch-balancing"></a>Equilibrio por lotes
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo se admite el proceso de equilibrio por lotes.
+En este artículo se describe cómo se admite el proceso de equilibrio por lotes.
 
 Para obtener más información, mira un [vídeo sobre el equilibrio por lotes](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
@@ -149,7 +149,7 @@ La cantidad equilibrada del ingrediente de relleno se calcula como la diferencia
 El proceso de equilibrio por lotes se realiza desde la página **Equilibrio por lotes** .
 Seleccione **Gestión de costes \> Pedidos de lote** y, a continuación, en la pestaña **Proceso**, seleccione **Equilibrio por lotes**. El equilibrio por lotes está disponible para los pedidos por lote que tengan un estado **Iniciado**.
 
-En general, el equilibrio por lotes se puede aplicar a pedidos de lote si la fórmula tiene al menos una línea de fórmula en la que el **Tipo de ingrediente** es *Activo*. (Para la excepción a esta regla, consulte la sección "Pedidos de lote que no son aplicables para el equilbrio por lotes" más adelante en este tema.)
+En general, el equilibrio por lotes se puede aplicar a pedidos de lote si la fórmula tiene al menos una línea de fórmula en la que el **Tipo de ingrediente** es *Activo*. (Para la excepción a esta regla, consulte la sección "Pedidos de lote que no son aplicables para el equilbrio por lotes" más adelante en este artículo.)
 
 El proceso de equilibrio por lotes se puede dividir en dos subprocesos:
 

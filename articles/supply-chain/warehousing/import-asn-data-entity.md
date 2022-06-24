@@ -1,6 +1,6 @@
 ---
 title: Importar ASN entrantes a través de la entidad de datos V3
-description: Este tema explica cómo administrar la importación de avisos de envío avanzados entrantes (ASN) a través de la entidad de datos Inbound ASN.
+description: Este artículo explica cómo administrar la importación de avisos de envío avanzados entrantes (ASN) a través de la entidad de datos Inbound ASN.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907127"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importar ASN entrantes a través de la entidad de datos V3
 
@@ -26,7 +26,7 @@ Los avisos de envío avanzados (ASN) le notifican sobre las entregas de proveedo
 
 Los ASN pueden ayudar a los trabajadores del almacén a saber qué llega y cuándo. Por lo tanto, pueden prepararse. Además, los trabajadores del almacén pueden usar ASN para hacer coincidir los detalles de un envío con la orden de compra relacionada que se creó anteriormente.
 
-En este tema se presenta una colección de escenarios que muestran, a través de ejemplos, cómo trabajar con asrchivos ASN.
+En este artículo se presenta una colección de escenarios que muestran, a través de ejemplos, cómo trabajar con asrchivos ASN.
 
 > [!IMPORTANT]
 > La importación *ASN entrante* se aplica solo a los artículos que están habilitados para la gestión avanzada de almacenes (WMS). Antes de recibir un ASN, se debe registrar una orden de compra en el sistema contra el proveedor que envía ese ASN.

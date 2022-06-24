@@ -1,6 +1,6 @@
 ---
 title: Configurar directivas de consolidación de envíos
-description: Este tema explica cómo configurar directivas de consolidación de envíos predeterminadas y personalizadas.
+description: Este artículo explica cómo configurar directivas de consolidación de envíos predeterminadas y personalizadas.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845935"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672581"
 
 El proceso de consolidación de envíos que utiliza directivas de consolidación de envíos permite la consolidación automatizada de envíos durante la liberación automática y manual al almacén. Después de activar esta característica, debe configurar sus directivas iniciales. Si no se configuran directivas, cada línea de ventas generará un envío separado que tiene una sola línea de carga.
 
-Los escenarios que se presentan en este tema muestran cómo configurar directivas de consolidación de envío predeterminadas y personalizadas.
+Los escenarios que se presentan en este artículo muestran cómo configurar directivas de consolidación de envío predeterminadas y personalizadas.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Active la característica Directivas de consolidación de envíos
 
 > [!IMPORTANT]
-> En el [primer escenario](#scenario-1) que se describe en este tema, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
+> En el [primer escenario](#scenario-1) que se describe en este artículo, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
 
 Antes de poder usar la característica *Directivas de consolidación de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
 
@@ -40,7 +40,7 @@ Antes de poder usar la característica *Directivas de consolidación de envíos*
 
 ## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-Cada escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
+Cada escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Escenario 1: configurar directivas de consolidación de envíos predeterminadas
 
@@ -339,7 +339,7 @@ Ahora que ha creado todas sus directivas, debe establecer el orden en que se apl
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Escenarios de ejemplo de cómo usar las directivas de consolidación de envíos
 
-Los siguientes escenarios ilustran cómo podría utilizar las directivas de consolidación de envíos que creó al leer este tema. Cada escenario le lleva por unproceso de consolidación de envíos que utiliza directivas de consolidación de envíos durante el deespacho automátizado o manual al almacén:
+Los siguientes escenarios ilustran cómo podría utilizar las directivas de consolidación de envíos que creó al leer este artículo. Cada escenario le lleva por unproceso de consolidación de envíos que utiliza directivas de consolidación de envíos durante el deespacho automátizado o manual al almacén:
 
 - Escenario 1: [Consolidar los envíos cuando se despachan al almacén mediante Despacho automático de pedidos de ventas](../warehousing/consolidate-shipments-automatic.md)
 - Escenario 2: [Consolidar envíos cuando la directiva de consolidación de envíos se anula desde la página Despachar al almacén](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

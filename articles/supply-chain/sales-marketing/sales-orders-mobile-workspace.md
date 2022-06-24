@@ -1,6 +1,6 @@
 ---
 title: Espacio de trabajo móvil de pedidos de ventas
-description: Este tema proporciona información sobre el espacio de trabajo móvil Pedidos de ventas. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.
+description: Este artículo proporciona información sobre el espacio de trabajo móvil Pedidos de ventas. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.
 author: Henrikan
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: be9fd32f5f5d80bb9bce5f0de7e4ff92d6f5d28f
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844775"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
+Este artículo proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
 

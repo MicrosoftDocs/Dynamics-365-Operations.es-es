@@ -1,6 +1,6 @@
 ---
 title: Cargos para operaciones de disconformidad
-description: Este tema describe cómo crear cargos por calidad que se pueden usar con operaciones para una disconformidad.
+description: Este artículo describe cómo crear cargos por calidad que se pueden usar con operaciones para una disconformidad.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850739"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Cargos para operaciones de disconformidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear cargos por calidad que se pueden usar con operaciones para una disconformidad.
+Este artículo describe cómo crear cargos por calidad que se pueden usar con operaciones para una disconformidad.
 
 Use la página **Gastos de calidad** para definir los tipos de cargos que pueden agregarse a operaciones para una disconformidad. Los cargos le permiten realizar un seguimiento de los detalles sobre las tarifas o los cargos que debe a un cliente por productos en disconfomidad, o que un proveedor le debe por productos en disconformidad que recibió. También puede utilizar cargos para realizar un seguimiento de los costes que son necesarios para que los proveedores o servicios externos realicen una operación.
 

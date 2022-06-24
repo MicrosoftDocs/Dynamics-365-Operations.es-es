@@ -1,6 +1,6 @@
 ---
 title: Gestión de clientes en tiendas
-description: Este tema explica cómo los minoristas pueden habilitar las capacidades de gestión de clientes en el punto de venta (PDV) en Microsoft Dynamics 365 Commerce.
+description: Este artículo explica cómo los minoristas pueden habilitar las capacidades de gestión de clientes en el punto de venta (PDV) en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863496"
 ---
 # <a name="customer-management-in-stores"></a>Gestión de clientes en tiendas
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo los minoristas pueden habilitar las capacidades de gestión de clientes en el punto de venta (PDV) en Microsoft Dynamics 365 Commerce.
+Este artículo explica cómo los minoristas pueden habilitar las capacidades de gestión de clientes en el punto de venta (PDV) en Microsoft Dynamics 365 Commerce.
 
 Es importante que los empleados de la tienda puedan crear y editar registros de clientes en el PDV. De esa manera, pueden capturar cualquier actualización de la información del cliente, como la dirección de correo electrónico, el número de teléfono y la dirección. Esta información es útil en sistemas posteriores, como el marketing, porque la efectividad de esos sistemas depende de la precisión de los datos de sus clientes.
 

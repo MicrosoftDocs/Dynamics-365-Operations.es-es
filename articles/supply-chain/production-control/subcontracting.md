@@ -1,6 +1,6 @@
 ---
 title: Subcontratación
-description: Este tema le ayudará a compilar un tutorial de subcontratación en la fabricación en Dynamics 365 Supply Chain Management.
+description: Este artículo le ayudará a compilar un tutorial de subcontratación en la fabricación en Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854188"
 ---
 # <a name="subcontracting"></a>Subcontratación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le ayudará a compilar un tutorial de subcontratación en la fabricación en Microsoft Dynamics 365 Supply Chain Management. La primera parte de este tema describe la configuración de los datos. La segunda parte le guía a través de los pasos en el tutorial.
+Este artículo le ayudará a compilar un tutorial de subcontratación en la fabricación en Microsoft Dynamics 365 Supply Chain Management. La primera parte de este artículo describe la configuración de los datos. La segunda parte le guía a través de los pasos en el tutorial.
 
 ## <a name="target-audience"></a>Público objetivo
 
-En este tema, aprenderá a configurar la subcontratación en la fabricación. Usará datos existentes en la entidad jurídica de HQUS para realizar la configuración básica de un flujo de actividad de subcontratación. Los datos de prueba en la entidad jurídica de HQUS incluyen los parámetros de configuración que se han preestablecido para admitir los pasos del tutorial. Aunque el tutorial aborda puntos y desafíos del panel de claves para varios roles, lo puede completar el administrador del sistema.
+En este artículo, aprenderá a configurar la subcontratación en la fabricación. Usará datos existentes en la entidad jurídica de HQUS para realizar la configuración básica de un flujo de actividad de subcontratación. Los datos de prueba en la entidad jurídica de HQUS incluyen los parámetros de configuración que se han preestablecido para admitir los pasos del tutorial. Aunque el tutorial aborda puntos y desafíos del panel de claves para varios roles, lo puede completar el administrador del sistema.
 
 ## <a name="demo-scenario"></a>Supuesto de demostración
 

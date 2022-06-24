@@ -1,6 +1,6 @@
 ---
 title: Configurar la contabilidad de empresas vinculadas
-description: Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
+description: Este artículo explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c9914d9fff3407d8d469fe2ed27a9bfd6b26a50
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871228"
 ---
 # <a name="intercompany-accounting-setup"></a>Configurar la contabilidad de empresas vinculadas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
+Este artículo explica cómo configurar la contabilidad de empresas vinculadas de manera que pueda usar los diarios de empresas vinculadas para las asignaciones de contabilidad y los diarios financieros, como diarios, diarios de facturas de proveedor y diarios de pagos.
 
 Los diarios de empresas vinculadas se pueden crear en diversos escenarios, como diarios, diarios de facturas de proveedor, asignaciones de contabilidad y pagos centralizados. Para habilitar estos escenarios, debe configurar la contabilidad de empresas vinculadas.
 

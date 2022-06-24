@@ -1,6 +1,6 @@
 ---
 title: Configuración de un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra
-description: En este tema se muestra cómo configurar un elemento de menú Dispositivo móvil.
+description: En este artículo se muestra cómo configurar un elemento de menú Dispositivo móvil.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882297"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Configuración de un elemento de menú del dispositivo móvil para completar trabajo del tipo pedido de compra
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se muestra cómo configurar un elemento de menú Dispositivo móvil. En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra. La clase de trabajo asociado al elemento de menú determina qué valor es válido. Puede usar esta guía en la empresa de datos de demostración USMF. Este procedimiento lo suele realizar un director de almacén.
+En este artículo se muestra cómo configurar un elemento de menú Dispositivo móvil. En este ejemplo, el elemento de menú se usa para realizar el trabajo del tipo Pedido de compra. La clase de trabajo asociado al elemento de menú determina qué valor es válido. Puede usar esta guía en la empresa de datos de demostración USMF. Este procedimiento lo suele realizar un director de almacén.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Crear un elemento de menú del dispositivo móvil

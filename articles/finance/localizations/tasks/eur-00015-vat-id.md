@@ -13,18 +13,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0980a286c187f789e8ee53aa213a53da9791c4fb91a1e25b5c4b3daf586ea082
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1533e634a623abfb931612e94069ff204b4a2a9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896163"
 ---
 # <a name="eur-00015-set-up-vat-id"></a>EUR-00015 Configurar Id. de IVA
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento recorre los requisitos previos de registro del identificador de IVA, como configuración de un tipo de registro y asignación a la categoría del registro. Puede obtener información adicional acerca del identificador de registro y el procesamiento del identificador de registro, incluidas requisitos previos necesarios, en el tema de ayuda Id. de registro. 
+Este procedimiento recorre los requisitos previos de registro del identificador de IVA, como configuración de un tipo de registro y asignación a la categoría del registro. Puede obtener información adicional acerca del identificador de registro y el procesamiento del identificador de registro, incluidas requisitos previos necesarios, en el artículo de ayuda Id. de registro. 
 
 Esta información se aplica a todos los países o regiones europeos. La tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal de entidad jurídica en Alemania. Esta tarea está destinada a administradores del sistema. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 

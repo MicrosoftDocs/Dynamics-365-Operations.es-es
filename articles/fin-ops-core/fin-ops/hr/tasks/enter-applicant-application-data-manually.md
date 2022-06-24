@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909260"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Especificar los datos del candidato y de la solicitud manualmente
 
 > [!NOTE]
-> La funcionalidad de contratación en este tema se denominará Proyectos de contratación y se centra en los solicitantes, las solicitudes y los proyectos de contratación.  
+> La funcionalidad de contratación en este artículo se denominará Proyectos de contratación y se centra en los solicitantes, las solicitudes y los proyectos de contratación.  
 
 
 Este procedimiento muestra cómo mantener manualmente la información de los candidatos y sus solicitudes. Puede especificar y mantener información personal, fechas y horas de entrevistas, referencias, capacidades y los solicitudes de alojamiento de los candidatos. También puede actualizar el estado de las solicitudes de empleo de los candidatos y crear cartas o mensajes de correo electrónico para comunicarse con ellos. Al crear un registro de candidato, se creará un registro de la persona para dicho candidato en la libreta de direcciones global. Para crear este procedimiento se utiliza la empresa de datos de prueba **USMF**.

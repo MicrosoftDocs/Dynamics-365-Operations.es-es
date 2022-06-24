@@ -1,6 +1,6 @@
 ---
-title: Visión general de los acuerdos de ventas
-description: Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
+title: Información general de los acuerdos de ventas
+description: Este artículo proporciona información acerca de los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 author: Henrikan
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3e84b8be597870deea3beaf1bdc4a98021b7f135
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903851"
 ---
-# <a name="sales-agreements-overview"></a>Visión general de los acuerdos de ventas
+# <a name="sales-agreements-overview"></a>Información general de los acuerdos de ventas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
+Este artículo proporciona información acerca de los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 
 Un acuerdo de venta es un contrato que compromete el cliente para comprar productos en una cantidad específica o por un importe específico a lo largo del tiempo, a cambio de precios especiales, descuentos especiales y otras condiciones especiales, como condiciones de pago y de entrega. Los precios y descuentos de acuerdo de venta anulan todos los precios y descuentos indicados en cualquier contrato comercial que pudiera existir.  
 

@@ -1,6 +1,6 @@
 ---
 title: Ciclo de vida de la administración de modelos
-description: Este tema describe formas de mantener los modelos de aprendizaje automático de su organización para optimizar las predicciones que generan.
+description: Este artículo describe formas de mantener los modelos de aprendizaje automático de su organización para optimizar las predicciones que generan.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a7b57bc0322e0f9a78dddfb924e379ac05ffca32
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 526916929e4bc079f9cea82d8ea9f80813e89b83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880886"
 ---
 # <a name="model-management-lifecycle"></a>Ciclo de vida de la administración de modelos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe formas de mantener los modelos de aprendizaje automático de su organización para optimizar las predicciones que generan.
+Este artículo describe formas de mantener los modelos de aprendizaje automático de su organización para optimizar las predicciones que generan.
 
 Le recomendamos que entrene el modelo de IA en un entorno de espacio aislado y luego utilice soluciones administradas para implementarlo en un entorno de producción. Este enfoque ayuda a garantizar que se implementen los controles correctos para administrar el ciclo de vida del modelo.
 

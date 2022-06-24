@@ -1,6 +1,6 @@
 ---
-title: Contenido de facturación de suscripción de Power BI
-description: Este tema describe lo que se incluye en el contenido de facturación de suscripción de Microsoft Power BI.
+title: Contenido de Power BI de facturación de suscripción
+description: Este artículo describe lo que se incluye en el contenido de facturación de suscripción de Microsoft Power BI.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-04-13
-ms.openlocfilehash: fad96bdaf60e7772e9ea1ff937435b0274303505
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849971"
 ---
-# <a name="subscription-billing-power-bi-content"></a>Contenido de facturación de suscripción de Power BI
+# <a name="subscription-billing-power-bi-content"></a>Contenido de Power BI de facturación de suscripción
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de facturación de suscripción de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido. 
+Este artículo describe lo que se incluye en el contenido de facturación de suscripción de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido. 
 
 ## <a name="overview"></a>Información general
 

@@ -1,6 +1,6 @@
 ---
 title: Planificación de producción
-description: Este tema describe la planificación de la producción y explica cómo modificar los pedidos de producción planificados mediante Optimización de planificación.
+description: Este artículo describe la planificación de la producción y explica cómo modificar los pedidos de producción planificados mediante Optimización de planificación.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469069"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873793"
 ---
 # <a name="production-planning"></a>Planificación de producción
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469069"
 
 Optimización de planificación admite varios escenarios de producción. Si está migrando desde el motor de planificación maestro integrado existente, es importante estar al tanto de algunos cambios de comportamiento.
 
-El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este tema: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
+El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este artículo: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
 
-Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Pedidos de producción planificados para Planning Optimization*.
+Si su sistema aún no incluye las funciones descritas en este artículo, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Pedidos de producción planificados para Planning Optimization*.
 
 ## <a name="planned-production-orders"></a>Pedidos de producción planificados
 
@@ -65,7 +65,7 @@ Si desea cambiar la información de un pedido planificado y ver el impacto en lo
 2. Apruebe el pedido planificado.
 3. Ejecute la planificación maestra.
 
-Cuando ejecuta la planificación maestra, no debe utilizar filtros si se incluyen pedidos de producción planificados. Para obtener más información, consulte la sección [Filtros](#filters) más adelante en este tema.
+Cuando ejecuta la planificación maestra, no debe utilizar filtros si se incluyen pedidos de producción planificados. Para obtener más información, consulte la sección [Filtros](#filters) más adelante en este artículo.
 
 > [!NOTE]
 > Si la fecha de entrega del pedido previsional se cambia a una fecha posterior, la demanda podría estar vinculada a un nuevo pedido planificado. Este comportamiento se produce cuando la nueva fecha de suministro provoca un retraso para la demanda vinculada pero, según la configuración del plazo de entrega, el retraso se puede evitar.

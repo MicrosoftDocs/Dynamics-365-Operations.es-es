@@ -1,6 +1,6 @@
 ---
 title: Modificar una página de sitio existente
-description: En este tema se describe cómo modificar una página de sitio existente en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo modificar una página de sitio existente en Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848872"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificar una página de sitio existente
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo modificar una página de sitio existente en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo modificar una página de sitio existente en Microsoft Dynamics 365 Commerce.
 
 Si debe modificar una página, el primer paso es abrirla en el editor de páginas. Vaya al sitio que contiene su página y, a continuación, en la lista de páginas, encuentre la página que desea. Si no encuentra la página, puede usar la función de búsqueda enriquecida de la herramienta de creación. Escriba el nombre de página exacto o escriba las primeras letras y luego un asterisco (\*). Aparece una lista filtrada de páginas. Puede usar esta lista para encontrar la página que desea. Cuando encuentre la página correcta, seleccione el nombre de la página para abrirla en el editor de páginas.
 

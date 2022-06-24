@@ -1,6 +1,6 @@
 ---
 title: Previsiones de flujo de efectivo
-description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
+description: Este artículo proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
 author: panolte
 ms.date: 02/16/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4979a57c966f25dba62a944a4e44086e5f6aed28
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c811afb0129b25a257bdc3519c511d70ecb44714
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904683"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -110,7 +110,7 @@ Para obtener más información, consulte [Datos externos en la previsión de flu
 
 En la versión 10.0.17, una nueva característica permite la integración con la gestión y contabilidad de proyectos y la previsión de flujo de efectivo. En el espacio de trabajo **Gestión de funciones**, active la característica **Previsión del proyecto de flujo de efectivo** para incluir los costes e ingresos pronosticados en el pronóstico de flujo de efectivo. En la pestaña **Gestión y contabilidad de proyectos** de la página **Configuración de pronóstico de flujo de efectivo**, seleccione los tipos de proyectos y tipos de transacciones que deben incluirse en la previsión de flujo de efectivo. Luego seleccione el modelo de previsión del proyecto. Un submodelo de tipo de reducción funciona mejor. Las cuentas de liquidez que se introdujeron en la configuración de Clientes se utilizan como cuentas de liquidez predeterminadas. Por lo tanto, no es necesario introducir cuentas de liquidez predeterminadas cuando configure el pronóstico de flujo de efectivo. También se puede utilizar un modelo de presupuesto, pero solo se puede seleccionar un tipo en la página **Configuración de pronóstico de flujo de efectivo** para gestión de proyectos y contabilidad. Un modelo de pronóstico proporciona la mayor flexibilidad cuando se utiliza la gestión y contabilidad de proyectos o Project Operations.
 
-Una vez activada la función de pronóstico del proyecto de flujo de efectivo, el pronóstico del flujo de efectivo se puede ver para cada proyecto en la página **Todos los proyectos**. En el panel Acciones, en la pestaña **Plan**, en el grupo **Pronóstico**, seleccione **Pronóstico de flujo de efectivo**. En los espacios de trabajo **Resumen de efectivo** (véase la sección [Informes](#reporting) más adelante en este tema), el tipo de transacción de pronóstico del proyecto muestra las entradas (ingresos del pronóstico del proyecto) y las salidas (costes del pronóstico del proyecto). Los importes pueden incluirse solo si el campo **Etapa del proyecto** campo de los espacios de trabajo **Resumen de flujo de efectivo** están configurados como **En proceso**.
+Una vez activada la función de pronóstico del proyecto de flujo de efectivo, el pronóstico del flujo de efectivo se puede ver para cada proyecto en la página **Todos los proyectos**. En el panel Acciones, en la pestaña **Plan**, en el grupo **Pronóstico**, seleccione **Pronóstico de flujo de efectivo**. En los espacios de trabajo **Resumen de efectivo** (véase la sección [Informes](#reporting) más adelante en este artículo), el tipo de transacción de pronóstico del proyecto muestra las entradas (ingresos del pronóstico del proyecto) y las salidas (costes del pronóstico del proyecto). Los importes pueden incluirse solo si el campo **Etapa del proyecto** campo de los espacios de trabajo **Resumen de flujo de efectivo** están configurados como **En proceso**.
 
 Las transacciones del proyecto siguen incluidas en el pronóstico de flujo de efectivo de varias maneras, independientemente de si se activa la característica **Previsión del proyecto de flujo de efectivo**. Las facturas de proyecto registradas se incluyen en la previsión como parte de las transacciones de cliente abiertas. Los pedidos de ventas y pedidos de compra iniciados por el proyecto se incluyen en la previsión como pedidos abiertos después de registrarlos en el sistema. También puede transferir previsiones de proyecto a un modelo presupuestario contable. Este modelo presupuestario contable se incluye en la previsión de flujo de efectivo como parte de los asientos de registro presupuestario. Si ha activado la característica **Previsión del proyecto de flujo de efectivo**, no transfiera los pronósticos del proyecto a un modelo de presupuesto contable, ya que esta acción hará que los pronósticos del proyecto se cuenten dos veces.
 

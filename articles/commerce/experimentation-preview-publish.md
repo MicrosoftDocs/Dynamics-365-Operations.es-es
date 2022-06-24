@@ -1,30 +1,24 @@
 ---
 title: Obtener una vista previa y publicar un experimento
-description: Este tema describe cómo obtener una vista previa y publicar un experimento desde Dynamics 365 Commerce.
+description: Este artículo describe cómo obtener una vista previa y publicar un experimento desde Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740392"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946151"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Obtener una vista previa y publicar un experimento
 
-Este tema describe cómo obtener una vista previa y publicar su experimento en Dynamics 365 Commerce después de que haya [conectado su experimento y editado sus variaciones](experimentation-connect-edit.md). El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en temas separados.
+Este artículo describe cómo obtener una vista previa y publicar su experimento en Dynamics 365 Commerce después de que haya [conectado su experimento y editado sus variaciones](experimentation-connect-edit.md). El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en artículos separados.
 
 [ ![Recorrido del usuario de experimentación: vista previa y publicación.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -51,6 +45,10 @@ Al utilizar grupos de publicación con experimentos, hay algunas consideraciones
 - Los experimentos que están conectados a las páginas de un sitio activo no están disponibles para las páginas de los grupos de publicación y viceversa. Del mismo modo, las páginas que tienen experimentos en ejecución en un sitio en vivo no están disponibles para otros experimentos en grupos de publicación y viceversa.
 - Cuando publica o programa un grupo de publicación, se publica todo el contenido del grupo de publicación, independientemente de si hay un experimento asociado con el grupo de publicación.
 - Debido a que un grupo de publicación continúa persistiendo después de que se haya publicado en un sitio activo, los experimentos en el grupo de publicación también persistirán. Por lo tanto, no podrá asociar otros experimentos con la misma página o fragmento. Para evitar esta limitación, elimine cualquier grupo de publicación con experimentos persistentes. Del mismo modo, si desea eliminar un experimento en un sitio activo que también existe en un grupo de publicación, elimínelo primero del grupo de publicación.
+
+### <a name="force-variations-for-testing"></a>Forzar variaciones para pruebas
+
+Una vez que el experimento esté activo, puede anexar el ID del experimento y el ID de la variación a la URL de la página predeterminada para forzar una variación con fines de prueba o automatización. Por ejemplo, si la URL de la página predeterminada es `https://fabrikam.com/modern/homepage`, puede forzar una variación con una URL como `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Puede obtener el ID del experimento y el ID de la variación del experimento de la URL de vista previa en al experiencia de **Vista previa** explicada anteriormente.
 
 ## <a name="previous-step"></a>Paso anterior
 [Conectar y editar un experimento](experimentation-connect-edit.md)

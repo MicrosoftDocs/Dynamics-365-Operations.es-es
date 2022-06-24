@@ -1,6 +1,6 @@
 ---
 title: Configurar intervalos de servicio
-description: Este tema describe cómo configurar intervalos de servicio. El intervalo de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando crea pedidos de servicio.
+description: Este artículo describe cómo configurar intervalos de servicio. El intervalo de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando crea pedidos de servicio.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 943ed0b8f329b45225b61247998e15a1d82356aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 56b8a31af061b90aeddfb460f6e86c2c5636b280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845964"
 ---
 # <a name="set-up-service-intervals"></a>Configurar intervalos de servicio  
 
@@ -48,7 +48,7 @@ Desea crear un intervalo de servicio de 10 días.
 5. En el campo **Frecuencia**, escriba 10.
 6. Presione **Alt+S** para guardar el intervalo de servicio.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Intervalos de servicio](service-intervals.md)  
 

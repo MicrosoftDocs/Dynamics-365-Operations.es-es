@@ -1,6 +1,6 @@
 ---
 title: Selección en exceso de pedidos de ventas y pedidos de transferencia
-description: Este tema explica cómo habilitar la selección en exceso de pedidos de ventas y pedidos de transferencia.
+description: Este artículo explica cómo habilitar la selección en exceso de pedidos de ventas y pedidos de transferencia.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897295"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Selección en exceso de pedidos de ventas y pedidos de transferencia
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta un escenario que muestra cómo permitir que un trabajador específico o todos los trabajadores realicen una selección en exceso. El proceso de selección en exceso permite una selección en exceso controlada durante el trabajo de selección.
+Este artículo presenta un escenario que muestra cómo permitir que un trabajador específico o todos los trabajadores realicen una selección en exceso. El proceso de selección en exceso permite una selección en exceso controlada durante el trabajo de selección.
 
 La selección en exceso del almacén es un concepto simple. El sistema permite a los trabajadores recoger más artículos de los especificados para un pedido. Sin embargo, todavía considera el límite de sobreentrega que se establece en el nivel de línea para la orden de transferencia o la orden de venta. Si se excede ese límite, la aplicación Warehouse Management notifica a los trabajadores que están excediendo el límite de sobreentrega.
 
@@ -41,11 +41,11 @@ La función de selección en exceso puede ayudar a los trabajadores a ahorrar ti
 > [!IMPORTANT]
 > La función de selección en exceso se aplica solo a la selección y procesamiento de pedidos de venta y pedidos de transferencia. El reabastecimiento no admite la selección en exceso. Cuando se ejecuta el trabajo de reabastecimiento, el sistema no permitirá que los usuarios realicen una selección en exceso.
 
-El escenario de este tema muestra cómo configurar y usar la función de selección en exceso.
+El escenario de este artículo muestra cómo configurar y usar la función de selección en exceso.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Requisito previo del escenario: hacer que los datos de demostración estén disponibles
 
-El escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en *USMF* antes de empezar.
+El escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en *USMF* antes de empezar.
 
 ## <a name="scenario-setup"></a>Configuración de escenario
 

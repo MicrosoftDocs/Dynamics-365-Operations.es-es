@@ -1,6 +1,6 @@
 ---
 title: Configurar tiendas en línea
-description: Este artículo proporciona vínculos a temas que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.
+description: Este artículo proporciona vínculos a artículos que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861888"
 ---
 # <a name="configure-online-stores"></a>Configurar tiendas en línea
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona vínculos a temas que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.
+Este artículo proporciona vínculos a artículos que le ayudarán a configurar y administrar de forma centralizada una tienda en línea.
 
-Los temas que aparecen en la siguiente tabla le ayudarán a configurar los componentes de Commerce y una tienda en línea en el cliente.
+Los artículos que aparecen en la siguiente tabla le ayudarán a configurar los componentes de Commerce y una tienda en línea en el cliente.
 
 ## <a name="configure-an-online-store"></a>Configurar una tienda en línea
 
-| Tarea                                                | Detalles                                                                                                                                                                                                                                                                                                                                                   | Temas                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Tarea                                                | Detalles                                                                                                                                                                                                                                                                                                                                                   | Artículos                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurar componentes.                        | Configurar y mantener información para operaciones comerciales. Esta información incluye tiendas, impuestos, productos, tarjetas regalo, promociones y descuentos.                                                                                                                                                                                                          | [Configuración y mantenimiento de Retail](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (contenido TechNet para Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Configurar una jerarquía de navegación de canales.    | Crear una jerarquía de categorías de navegación de canales para configurar una estructura de categorías para los productos que ofrece a través de una tienda en línea. Puede definir la jerarquía de categorías y asignar productos, grupos de atributos de productos y valores de atributo a las categorías. A continuación, asigne la jerarquía de categoría a una tienda en línea.                            | [Configuración de una jerarquía comercial](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (Contenido de TechNet para AX 2012)</br> [Configurar atributos y tipos de atributos](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types)  (Contenido de TechNet para AX 2012)</br> [Configurar grupos de atributos comerciales](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (Contenido de TechNet para AX 2012) |
@@ -41,7 +41,7 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 
 ## <a name="configure-online-store-products"></a>Configurar los productos de la tienda en línea
 
-| Tarea                                 | Detalles                                                                                                                                           | Temas                                                                                                                                                                                                                                                                            |
+| Tarea                                 | Detalles                                                                                                                                           | Artículos                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Agregar selecciones a la tienda en línea. | Agregar los surtidos que incluyan los productos que ofrece en la tienda en línea.                                                                  | [Configurar una tienda en línea](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (contenido TechNet para AX 2012)                                                                                                                                              |
 | Administrar catálogos.                     | Utilice los catálogos de producto para identificar los productos que desee ofrecer en las tiendas.                                                              | [Tareas clave: crear catálogos de productos comerciales](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (contenido TechNet para AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Configurar el intercambio de datos entre Commerce y la tienda en línea.
 
-| Tarea                                 | Detalles                                                                                                                               | Temas                                                                                                                                                                                                                                                                                  |
+| Tarea                                 | Detalles                                                                                                                               | Artículos                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurar perfiles de integración de canales. | Los perfiles permiten a los componentes comunicarse entre sí. Antes de configurar los ajustes del intercambio de datos, defina los perfiles. | [Configurar un perfil de Real-time Service](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (Contenido de TechNet para AX 2012)</br> [Configurar un perfil de canal](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (Contenido de TechNet para AX 2012) |
 

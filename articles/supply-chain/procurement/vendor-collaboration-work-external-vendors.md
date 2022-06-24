@@ -1,6 +1,6 @@
 ---
 title: Colaboración de proveedor con proveedores externos
-description: Este tema explica cómo los agentes de compras pueden colaborar con los proveedores externos para intercambiar información sobre los pedidos de compra y el inventario de entrega.
+description: Este artículo explica cómo los agentes de compras pueden colaborar con los proveedores externos para intercambiar información sobre los pedidos de compra y el inventario de entrega.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907301"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
 [!include [banner](../includes/banner.md)]
 
-El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 Supply Chain Management. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este tema explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
+El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 Supply Chain Management. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este artículo explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
 
 Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> La información sobre la colaboración del proveedor en este tema sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
+> La información sobre la colaboración del proveedor en este artículo sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
 
 Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ El PO que se envió al proveedor y que se encuentra en estado de <strong>En revi
 <li>Sustituir un artículo.</li>
 </ul>
 El proveedor no puede cambiar la información de precios y gastos. Sin embargo, el proveedor puede sugerir estos cambios mediante notas.</td>
-<td>La respuesta del proveedor se registra como <strong>Aceptado con cambios</strong>, y el estado del PO se mantiene como <strong>En revisión externa</strong>. Los estados muestran los tipos de cambios que ha sugerido el proveedor. Para obtener más información sobre el consumo automático de los cambios, consulte la sección siguiente de este tema, sobre &quot;actualizar el PO cuando un proveedor sugiere cambios&quot;. </td>
+<td>La respuesta del proveedor se registra como <strong>Aceptado con cambios</strong>, y el estado del PO se mantiene como <strong>En revisión externa</strong>. Los estados muestran los tipos de cambios que ha sugerido el proveedor. Para obtener más información sobre el consumo automático de los cambios, consulte la sección siguiente de este artículo, sobre &quot;actualizar el PO cuando un proveedor sugiere cambios&quot;. </td>
 </tr>
 </tbody>
 </table>

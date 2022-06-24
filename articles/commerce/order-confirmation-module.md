@@ -1,6 +1,6 @@
 ---
 title: Módulo de confirmación de pedido
-description: En este tema se tratan los módulos de confirmación de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
+description: En este artículo se tratan los módulos de confirmación de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 994ec92abc53efeb240bca5dc8d67aabb45fbe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845814"
 ---
 # <a name="order-confirmation-module"></a>Módulo de confirmación de pedido
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de confirmación de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de confirmación de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
 
 El módulo para la confirmación del pedido se usa para mostrar los detalles de confirmación de pedido después de que se haya realizado un pedido. Muestra el id. de confirmación del pedido, la información de contacto del pedido y otros detalles del pedido, como los artículos que se compraron, la información de pago, las opciones de recogida y el método de envío.
 

@@ -1,6 +1,6 @@
 ---
 title: Muestra de integración de unidad de control para Suecia
-description: Este tema proporciona una visión general del ejemplo de integración fiscal para Suecia en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general del ejemplo de integración fiscal para Suecia en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885411"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Muestra de integración de unidad de control para Suecia
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del ejemplo de integración fiscal para Suecia en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general del ejemplo de integración fiscal para Suecia en Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Esta funcionalidad de integración fiscal de muestra reemplaza la anterior [muestra para la integración de POS con unidades de control para Suecia](retail-sdk-control-unit-sample.md). La muestra anterior no aprovecha el [marco de integración fiscal](./fiscal-integration-for-retail-channel.md) y quedará obsoleto en actualizaciones posteriores. Para obtener información sobre cómo migrar de la muestra anterior a la muestra que corresponde a Dynamics 365 Commerce versión **10.0.22 y anteriores**, vea [Migrar desde la muestra de integración anterior](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ Sobre la página **Campos personalizados**, agregue los siguientes registros par
 
 Para cada formato de recibo que es requerido, cambie el valor del campo **Comportamiento de impresión** a **Imprimir siempre**.
 
-En el diseñador de formato de recibo, agregue los siguientes campos personalizados a la sección **Pie de página**. Tenga en cuenta que los nombres de los campos corresponden a los textos de idioma que definió en la sección anterior de este tema.
+En el diseñador de formato de recibo, agregue los siguientes campos personalizados a la sección **Pie de página**. Tenga en cuenta que los nombres de los campos corresponden a los textos de idioma que definió en la sección anterior de este artículo.
 
 - **Registrar código de control** - Este campo imprime el código de control.
 - **Registrar dispositivo** - Este campo imprime el número de fabricación de la unidad de control.

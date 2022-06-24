@@ -1,6 +1,6 @@
 ---
 title: Procesamiento de mercancía en tránsito
-description: En este tema se describe cómo trabajar con pedidos de mercancía en tránsito. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, las mercancías se pueden facturar antes de que se reciban en el almacén para su consumo.
+description: En este artículo se describe cómo trabajar con pedidos de mercancía en tránsito. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, las mercancías se pueden facturar antes de que se reciban en el almacén para su consumo.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854395"
 ---
 # <a name="goods-in-transit-processing"></a>Procesamiento de mercancía en tránsito
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo trabajar con pedidos de mercancía en tránsito. Este tipo de orden es utilizado solo por el módulo **Coste de aterrizaje**. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, no tiene que esperar hasta que los productos se reciban en el almacén para facturarlos. En cambio, las mercancías se facturan cuando salen del almacén del vendedor o del puerto de origen, y los costos financieros se reconocen cuando comienza el viaje. Esta funcionalidad le permite apropiarse correctamente del inventario, porque las mercancías a menudo se convierten en propiedad de su organización cuando salen del puerto de envío.
+En este artículo se describe cómo trabajar con pedidos de mercancía en tránsito. Este tipo de orden es utilizado solo por el módulo **Coste de aterrizaje**. Cuando se configura un pedido o un viaje para utilizar el procesamiento de mercancías en tránsito, no tiene que esperar hasta que los productos se reciban en el almacén para facturarlos. En cambio, las mercancías se facturan cuando salen del almacén del vendedor o del puerto de origen, y los costos financieros se reconocen cuando comienza el viaje. Esta funcionalidad le permite apropiarse correctamente del inventario, porque las mercancías a menudo se convierten en propiedad de su organización cuando salen del puerto de envío.
 
 Cuando se utilizan pedidos de mercancías en tránsito, los artículos actualizados financieramente se reciben en un almacén provisional que se conoce como almacén de mercancías en tránsito. Luego, las mercancías permanecen en este almacén hasta que se pueden recibir en el almacén de destino final (es decir, el almacén que se define en la línea de compra). No se pueden eliminar manualmente.
 

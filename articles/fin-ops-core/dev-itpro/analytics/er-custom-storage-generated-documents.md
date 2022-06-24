@@ -1,6 +1,6 @@
 ---
-title: Especifique una ubicación de almacenamiento personalizada para los documentos generados
-description: Este tema explica cómo ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de informes electrónicos (ER) generan.
+title: Especificar una ubicación de almacenamiento personalizado para documentos generados
+description: Este artículo explica cómo ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de informes electrónicos (ER) generan.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864757"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especifique una ubicación de almacenamiento personalizada para los documentos generados
 
 [!include[banner](../includes/banner.md)]
 
-La interfaz de programación de aplicaciones (API) del marco de informes electrónicos (ER) permite ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de ER generan. Este tema proporciona una visión general de las principales tareas que debe completar para agregar una ubicación de almacenamiento personalizada.
+La interfaz de programación de aplicaciones (API) del marco de informes electrónicos (ER) permite ampliar la lista de ubicaciones de almacenamiento para los documentos que los formatos de ER generan. Este artículo proporciona una visión general de las principales tareas que debe completar para agregar una ubicación de almacenamiento personalizada.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -118,7 +118,7 @@ Se activa el evento **AttachingFile()** cuando se procesan los destinos de ER si
 ## <a name="configure-an-er-destination"></a>Configurar un destino de ER
 
 1. Configure el destino archivado de uno de los elementos anteriormente mencionados (archivo, carpeta, combinación o datos adjuntos) del formato de ER que ha creado o importado. Para obtener instrucciones, consulte [Destinación de configuración de ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Utilice el tipo de documento que ha agregado anteriormente para el destino configurado. (Para el ejemplo en este tema, el tipo de documento es **FileX**.)
+2. Utilice el tipo de documento que ha agregado anteriormente para el destino configurado. (Para el ejemplo en este artículo, el tipo de documento es **FileX**.)
 
 ![Cuadro de diálogo Configuración de destino.](media/er-extend-file-storages-destination.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Contratación de contenido de Power BI
-description: Este tema describe el contenido en Power BI de contratación.
+description: Este artículo describe el contenido en Power BI de contratación.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890107"
 ---
 # <a name="recruiting-power-bi-content"></a>Contratación de contenido de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de **Contratación** en Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe el contenido en Microsoft Power BI de **contratación**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**.

@@ -1,6 +1,6 @@
 ---
 title: Oferta cerrada para solicitudes de presupuesto
-description: Este tema describe cómo configurar ofertas selladas para mantener en secreto las respuestas a las ofertas del proveedor hasta que el personal de compras las abra.
+description: Este artículo describe cómo configurar ofertas selladas para mantener en secreto las respuestas a las ofertas del proveedor hasta que el personal de compras las abra.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890897"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Oferta cerrada para solicitudes de presupuesto
 
@@ -148,7 +148,7 @@ El proceso de creación de un caso de solicitud de presupuesto para licitación 
 Los casos de solicitud de presupuesto para licitación sellada deben tener un **Tipo de oferta** *Sellada*. Hay tres formas de asignar este valor a un caso de solicitud de presupuesto:
 
 - Establecer el valor directamente en el caso de solicitud de presupuesto después de crearla.
-- Definir la oferta sellada como el tipo de oferta predeterminada para todos los casos de solicitud de presupuesto en los parámetros de Adquisición y abastecimiento. (Vea la sección [Establecer el tipo de oferta predeterminado](#set-default-bid-type) anterior en este tema.)
+- Definir la oferta sellada como el tipo de oferta predeterminada para todos los casos de solicitud de presupuesto en los parámetros de Adquisición y abastecimiento. (Vea la sección [Establecer el tipo de oferta predeterminado](#set-default-bid-type) anterior en este artículo.)
 - Cuando cree un nuevo caso de solicitud de presupuesto, seleccione un tipo de solicitud que esté configurado para licitación sellada. (Vea la sección [Establecer el tipo de oferta predeterminado](#set-default-bid-type)).
 
 Para licitación sellada, el valor de **Fecha y hora de vencimiento** de la solicitud de presupuesto establece cuándo se pueden abrir las ofertas enviadas. El valor de **Fecha y hora de vencimiento** de cada línea coincidirá con el valor del encabezado.

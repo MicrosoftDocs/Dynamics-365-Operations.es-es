@@ -1,6 +1,6 @@
 ---
 title: Devoluciones de proveedor
-description: Este tema proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
+description: Este artículo proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890810"
 ---
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672973"
 
 Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
 
-Este tema proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. En esta introducción se detallan las siguientes tareas:
+Este artículo proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. En esta introducción se detallan las siguientes tareas:
 
 - Revisar los detalles de un acuerdo de devolución
 - Identificar los pedidos válidos para realizar devoluciones y generar las reclamaciones de devolución.
@@ -34,7 +34,7 @@ Este tema proporciona una visión general de las tareas comunes que quiera lleva
 
 ## <a name="audience-and-purpose"></a>Público y propósito
 
-La información de este tema está destinada a aquellos responsables de la toma de decisiones de las empresas, como gerentes de compras, directores financieros (CFO) y administradores contables, que tienen las responsabilidades siguientes:
+La información de este artículo está destinada a aquellos responsables de la toma de decisiones de las empresas, como gerentes de compras, directores financieros (CFO) y administradores contables, que tienen las responsabilidades siguientes:
 
 - Negociar el precio de proveedor, el descuento y los acuerdos de devoluciones.
 - Gestionar el personal que procesa las reclamaciones de las devoluciones y obtiene los pagos.

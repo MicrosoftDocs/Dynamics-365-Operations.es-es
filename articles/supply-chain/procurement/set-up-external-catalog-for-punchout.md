@@ -1,6 +1,6 @@
 ---
 title: Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
-description: Este tema describe el uso de un catálogo externo o del catálogo de marcaje de salida para recopilar información de presupuestos de un proveedor y agregarla a una solicitud.
+description: Este artículo describe el uso de un catálogo externo o del catálogo de marcaje de salida para recopilar información de presupuestos de un proveedor y agregarla a una solicitud.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e46be093a14139c884870b8685d54865fc6953
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5b109ec1db39240e6816d79092763b4686857676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882500"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 

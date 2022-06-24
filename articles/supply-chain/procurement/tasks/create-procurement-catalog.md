@@ -1,6 +1,6 @@
 ---
 title: Crear un catálogo de compras
-description: Este tema explica cómo crear un catálogo de compras.
+description: Este artículo explica cómo crear un catálogo de compras.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869557"
 ---
 # <a name="create-a-procurement-catalog"></a>Crear un catálogo de compras
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo crear un catálogo de compras. Esta tarea la llevaría a cabo normalmente un profesional de compras. También obtendrá información acerca de cómo los empleados pueden utilizar el catálogo al crear una solicitud. Para que pueda crear un catálogo, debe haber una jerarquía de categoría de compras en su sistema. La jerarquía es hereda por el nuevo catálogo, junto con todos los productos que se encuentran en la jerarquía. Puede usar esta guía en la empresa de datos de demostración USMF donde la jerarquía de categoría de compras está disponible, así como los ejemplos usados en los pasos de procedimiento.
+Este artículo explica cómo crear un catálogo de compras. Esta tarea la llevaría a cabo normalmente un profesional de compras. También obtendrá información acerca de cómo los empleados pueden utilizar el catálogo al crear una solicitud. Para que pueda crear un catálogo, debe haber una jerarquía de categoría de compras en su sistema. La jerarquía es hereda por el nuevo catálogo, junto con todos los productos que se encuentran en la jerarquía. Puede usar esta guía en la empresa de datos de demostración USMF donde la jerarquía de categoría de compras está disponible, así como los ejemplos usados en los pasos de procedimiento.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Asegúrese de que existe una jerarquía de categoría de compras

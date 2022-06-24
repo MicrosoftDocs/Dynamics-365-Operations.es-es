@@ -1,6 +1,6 @@
 ---
 title: Aprovisionar Microsoft Teams desde Dynamics 365 Commerce
-description: Este tema describe cómo aprovisionar Microsoft Teams mediante el uso de datos organizativos de Dynamics 365 Commerce.
+description: Este artículo describe cómo aprovisionar Microsoft Teams mediante el uso de datos organizativos de Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868944"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Aprovisionar Microsoft Teams desde Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo aprovisionar Microsoft Teams mediante el uso de datos organizativos de Dynamics 365 Commerce.
+Este artículo describe cómo aprovisionar Microsoft Teams mediante el uso de datos organizativos de Dynamics 365 Commerce.
 
 Dynamics 365 Commerce ofrece una manera fácil de aprovisionar Teams si aún no ha configurado equipos para sus tiendas minoristas allí. Al aprovechar la información bien definida de Commerce que desea usar en Teams, puede ayudar a los empleados de su tienda a comenzar en Teams. Esta información incluye la jerarquía organizativa, los nombres de las tiendas, la información de los empleados y cuentas Azure Active Directory (Azure AD). 
 

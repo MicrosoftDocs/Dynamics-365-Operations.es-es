@@ -1,6 +1,6 @@
 ---
 title: Diseñe expresiones de ER para abrir métodos de clase de aplicación
-description: Este tema describe cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos llamando a los métodos necesarios de clases de aplicación.
+description: Este artículo describe cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos llamando a los métodos necesarios de clases de aplicación.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883636"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Diseñe expresiones de ER para abrir métodos de clase de aplicación
 
 [!include [banner](../../includes/banner.md)]
 
-Esta tema describe cómo volver a usar la lógica de aplicación existente en las configuraciones de [informes electrónicos (ER)](../general-electronic-reporting.md) llamando a los métodos necesarios de clases de aplicación en expresiones de ER. Los valores de los argumentos para las clases de llamada se pueden definir dinámicamente en tiempo de ejecución. Por ejemplo, los valores se pueden basar en la información del documento de análisis para garantizar su corrección.
+Esta artículo describe cómo volver a usar la lógica de aplicación existente en las configuraciones de [informes electrónicos (ER)](../general-electronic-reporting.md) llamando a los métodos necesarios de clases de aplicación en expresiones de ER. Los valores de los argumentos para las clases de llamada se pueden definir dinámicamente en tiempo de ejecución. Por ejemplo, los valores se pueden basar en la información del documento de análisis para garantizar su corrección.
 
-Por el ejemplo de este tema, diseñe un proceso que analice los extractos bancarios de entrada para una actualización de los datos de la aplicación. Recibirá los extractos bancarios entrantes como archivos de texto (.txt) que contienen códigos de número de cuenta bancaria internacional (IBAN). Como parte del proceso de importación de extractos bancarios, debe validar la corrección del código de IBAN mediante la lógica que esté ya disponible.
+Por el ejemplo de este artículo, diseñe un proceso que analice los extractos bancarios de entrada para una actualización de los datos de la aplicación. Recibirá los extractos bancarios entrantes como archivos de texto (.txt) que contienen códigos de número de cuenta bancaria internacional (IBAN). Como parte del proceso de importación de extractos bancarios, debe validar la corrección del código de IBAN mediante la lógica que esté ya disponible.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Los procedimientos de este tema se ha creado para los usuarios a los que se ha asignado el rol de **Administrador del sistema** o **Desarrollador de informes electrónicos**.
+Los procedimientos de este artículo se ha creado para los usuarios a los que se ha asignado el rol de **Administrador del sistema** o **Desarrollador de informes electrónicos**.
 
 El procedimiento se puede completar mediante cualquier conjunto de datos.
 
 Para completarlos, debe descargar y guardar el archivo siguiente: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-En este tema, creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. Por tanto, antes de que pueda completar los procedimientos en este tema, debe completar los siguientes pasos:
+En este artículo, creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. Por tanto, antes de que pueda completar los procedimientos en este artículo, debe completar los siguientes pasos:
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
 2. En la página **Configuraciones de localización**, compruebe que está disponible el proveedor de la configuración para la empresa de ejemplo **Litware, Inc.** y que se ha marcado como activo. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento [Creación de proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md).

@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 20 de mayo de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 20 de mayo de 2021.
 author: marcelbf
 ms.date: 05/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc7e89fabe1651c858097a6c564b4910a524331f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a399e1c7ccbd85b58286ec4f3d294f80332c3fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891303"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Problema |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 583776 | La inscripción masiva de empleados en planes de vacaciones está provocando un error de registro duplicado | Este error se ha corregido con la última versión y las inscripciones al plan de licencia masiva deben procesarse correctamente. |
 | 582263 | No se puede ejecutar el procesamiento de eventos de vida para todos los trabajadores a la vez | Cuando el campo **Trabajador** se deja en blanco para el procesamiento de eventos de vida, todos los trabajadores serán procesados. |

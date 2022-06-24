@@ -1,6 +1,6 @@
 ---
 title: Complemento Hoja de ruta (Carta de Porte)
-description: Este tema explica cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte).
+description: Este artículo explica cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte).
 author: v-oloski
 ms.date: 03/02/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Mexico
 ms.author: v-olgaoskina
 ms.search.validFrom: 2021-08-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 00483c15607c37874b83b81ee79582ca3f2be40d
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 6bc6f4a1994682e435551c809b0ee9f44e82a7d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906217"
 ---
 # <a name="waybill-carta-de-porte-complement"></a>Complemento Hoja de ruta (Carta de Porte)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información sobre cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte). A partir del 1 de octubre de 2021, el complemento Hoja de ruta (Carta de Porte) es obligatorio para los contribuyentes que transportan bienes y mercancías en el territorio nacional.
+Este artículo ofrece información sobre cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte). A partir del 1 de octubre de 2021, el complemento Hoja de ruta (Carta de Porte) es obligatorio para los contribuyentes que transportan bienes y mercancías en el territorio nacional.
 
 Para generar el complemento Hoja de ruta (Carta de Porte) en documentos de factura electrónica (CFDI), introduzca la información de transporte en la página **Detalles de transporte**. Puede abrir esta página desde cualquiera de los documentos empresariales siguientes:
 

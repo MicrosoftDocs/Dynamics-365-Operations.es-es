@@ -1,6 +1,6 @@
 ---
 title: Lista de ventas de la UE para España (Informe 349)
-description: Este tema proporciona información sobre el informe de lista de ventas de la Unión Europea (UE) para España, también conocido como Informe 349.
+description: Este artículo proporciona información sobre el informe de lista de ventas de la Unión Europea (UE) para España, también conocido como Informe 349.
 author: AKroshkina
 ms.date: 05/26/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d1f953417d5f39fee0946057fff0db8c7087011
-ms.sourcegitcommit: d27d63c3953b758225cdf29f13f9747e827e59c7
+ms.openlocfilehash: 8cd92b4172becd782a2714ae5832669ac10bcaf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8808112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864155"
 ---
 # <a name="eu-sales-list-for-spain-report-349"></a>Lista de ventas de la UE para España (Informe 349)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre el informe de lista de ventas de la Unión Europea (UE) para España, también conocido como Informe 349. El informe de lista de ventas de la UE en español contiene información sobre la compra y venta de bienes y servicios para informar en formato de texto.
+Este artículo proporciona información sobre el informe de lista de ventas de la Unión Europea (UE) para España, también conocido como Informe 349. El informe de lista de ventas de la UE en español contiene información sobre la compra y venta de bienes y servicios para informar en formato de texto.
 
 Los siguientes campos se incluyen en el informe de lista de ventas de la UE en España:
 

@@ -1,6 +1,6 @@
 ---
-title: Diseño de enrutamiento de documentos para matrículas de entidad
-description: Este tema describe cómo usar métodos de formato para imprimir valores en etiquetas.
+title: Diseño de enrutamiento de documentos para etiquetas de matrículas
+description: Este artículo describe cómo usar métodos de formato para imprimir valores en etiquetas.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847886"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
 
@@ -53,7 +53,7 @@ Varias herramientas de generación de etiquetas ampliamente disponibles pueden a
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
 
-Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Diseños mejorados de etiquetas de matrículas*. A partir de la versión 10.0.21 de Supply Chain Management, esta característica está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar.
+Si su sistema aún no incluye las funciones descritas en este artículo, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Diseños mejorados de etiquetas de matrículas*. A partir de la versión 10.0.21 de Supply Chain Management, esta característica está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar.
 
 ## <a name="custom-number-formats"></a>Formatos de números personalizados
 
@@ -129,7 +129,7 @@ Puede imprimir desde un método de visualización utilizando el siguiente format
 $DisplayMethod()$
 ```
 
-Puede combinar este formato con otros tipos que se describieron anteriormente en este tema. Por ejemplo, tiene un método de visualización que se denomina `DisplayListOfItemsNumbers()`, y desea imprimir el primer número de elemento de este método. En este caso, puede usar el código siguiente.
+Puede combinar este formato con otros tipos que se describieron anteriormente en este artículo. Por ejemplo, tiene un método de visualización que se denomina `DisplayListOfItemsNumbers()`, y desea imprimir el primer número de elemento de este método. En este caso, puede usar el código siguiente.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

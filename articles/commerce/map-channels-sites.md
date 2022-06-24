@@ -1,6 +1,6 @@
 ---
 title: Asignar canales a sitios de comercio electrónico
-description: Este tema describe algunos de los escenarios de asignación de canales más comunes en Microsoft Dynamics 365 Commerce que se pueden extrapolar para la mayoría de los demás requisitos empresariales.
+description: Este artículo describe algunos de los escenarios de asignación de canales más comunes en Microsoft Dynamics 365 Commerce que se pueden extrapolar para la mayoría de los demás requisitos empresariales.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902772"
 ---
 # <a name="map-channels-to-e-commerce-sites"></a>Asignar canales a sitios de comercio electrónico
 
-Este tema describe algunos de los escenarios de asignación de canales más comunes en Microsoft Dynamics 365 Commerce que se pueden extrapolar para la mayoría de los demás requisitos empresariales.
+Este artículo describe algunos de los escenarios de asignación de canales más comunes en Microsoft Dynamics 365 Commerce que se pueden extrapolar para la mayoría de los demás requisitos empresariales.
 
 Dynamics 365 Commerce admite muchos escenarios empresariales para los [canales en línea](#channels) de asignación que tienen configurado un conjunto de productos, precios y descuentos para las experiencias del [sitio de comercio electrónico](#e-commerce-sites) para los clientes.
 
-Este tema abarca los siguientes escenarios:
+Este artículo abarca los siguientes escenarios:
 
 - **Un canal de un solo idioma que tiene una experiencia única de sitio de comercio electrónico.** Por ejemplo, este escenario podría implicar un sitio de una sola marca configurado para el mercado inglés de EE. UU.
 - **Un canal de varios idiomas que tiene una experiencia única de sitio localizado.** Por ejemplo, este escenario podría implicar un sitio de una sola marca configurado para Canadá con la compatibilidad de idioma inglés y francés. En este escenario, los usuarios que seleccionan diferentes idiomas tienen la misma experiencia en el sitio, pero está localizada en el idioma seleccionado de cada usuario.
@@ -63,7 +63,7 @@ La ilustración de ejemplo siguiente muestra una configuración de canal en Comm
 
 ![Valores de entidad jurídica, moneda e idioma para la tienda en línea Adventure Works resaltados en Commerce headquarters.](media/channel-mapping-3.png)
 
-El único canal en línea se puede asignar a un único sitio de comercio electrónico en el generador de sitios. Para obtener información acerca de cómo crear un nuevo sitio y asignarlo a un canal, consulte la sección [Asignar un canal a un sitio en el generador de sitios](#map-a-channel-to-a-site-in-site-builder) de este tema.
+El único canal en línea se puede asignar a un único sitio de comercio electrónico en el generador de sitios. Para obtener información acerca de cómo crear un nuevo sitio y asignarlo a un canal, consulte la sección [Asignar un canal a un sitio en el generador de sitios](#map-a-channel-to-a-site-in-site-builder) de este artículo.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Canal de varios idiomas que tiene una experiencia única de sitio localizado
 
@@ -73,7 +73,7 @@ La limitación de este escenario es que se puede configurar un solo canal con un
 
 Cada idioma en un canal se puede configurar con su propio nombre de dominio. Por ejemplo, el dominio `www.adventure-works.ca` se puede configurar para la versión en inglés de Canadá, y el dominio `www.adventure-works-fr.ca` se puede configurar para la versión en francés de Canadá. Alternativamente, se pueden configurar diferentes idiomas de un canal en un solo dominio y luego se puede usar una ruta diferente para cada idioma. Por ejemplo, el dominio `www.adventure-works.ca` se puede configurar para la versión en inglés de Canadá y, a continuación, la ruta de acceso a `www.adventure-works.ca/fr` se puede configurar para la versión en francés de Canadá. [Detección geográfica](geo-detection-redirection.md) también se puede habilitar para redirigir automáticamente a un usuario al sitio correcto, según la ubicación del usuario.
 
-Para obtener información sobre cómo permitir que los clientes pasen manualmente de un idioma a otro, consulte la sección [Agregar y configurar el módulo selector de sitios](#add-and-configure-the-site-picker-module) de este tema. Para obtener información acerca de cómo personalizar páginas y fragmentos localizados, consulte la sección [Administrar el contenido del sitio que tiene múltiples canales e idiomas](#manage-site-content-that-has-multiple-channels-and-languages).
+Para obtener información sobre cómo permitir que los clientes pasen manualmente de un idioma a otro, consulte la sección [Agregar y configurar el módulo selector de sitios](#add-and-configure-the-site-picker-module) de este artículo. Para obtener información acerca de cómo personalizar páginas y fragmentos localizados, consulte la sección [Administrar el contenido del sitio que tiene múltiples canales e idiomas](#manage-site-content-that-has-multiple-channels-and-languages).
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Canal de varios idiomas que tiene una experiencia de sitio diferente por idioma
 
@@ -87,7 +87,7 @@ Un sitio de marca puede requerir varios canales en línea por región para admit
 
 En este escenario, cada mercado se puede configurar con sus propios nombres de dominio. Por ejemplo, el dominio `www.adventure-works.com` se puede configurar para el mercado de EE. UU., y el dominio `www.adventure-works.de` se puede configurar para el mercado alemán. Como alternativa, cada mercado se puede configurar para usar una ruta diferente. Por ejemplo, el dominio `www.adventure-works.com` se puede configurar para el mercado de EE. UU., y la ruta de acceso de `www.adventure-works.com/de` se puede configurar para el mercado alemán. [Detección geográfica](geo-detection-redirection.md) también se puede habilitar para redirigir automáticamente a los usuarios al sitio correcto, según su ubicación.
 
-También es posible que desee que su sitio proporcione una lista desplegable que permita a los usuarios cambiar manualmente a un mercado específico. Para obtener más información, consulte la sección [Agregar y configurar el módulo selector de sitios](#add-and-configure-the-site-picker-module), de este tema.
+También es posible que desee que su sitio proporcione una lista desplegable que permita a los usuarios cambiar manualmente a un mercado específico. Para obtener más información, consulte la sección [Agregar y configurar el módulo selector de sitios](#add-and-configure-the-site-picker-module), de este artículo.
 
 Para obtener información sobre cómo configurar varios canales en un solo sitio, consulte la sección [Configurar varios canales en un sitio de comercio electrónico](#configure-multiple-channels-on-an-e-commerce-site).
 
@@ -180,7 +180,7 @@ En lugar de crear manualmente cada página y fragmento, puede exportar cada pág
 
 Un sitio que tiene varios canales y/o idiomas almacena una variante única de cada página y fragmento para cada combinación de un canal y un idioma. Este comportamiento permite que las variantes de página contengan datos localizados, pero también le brinda la flexibilidad de cambiar la apariencia de una página para una variante específica.
 
-Para obtener información sobre cómo trabajar con variantes de página, consulte la sección [Implementar variantes de página para cada idioma](#implement-page-variants-for-each-language) de este tema.
+Para obtener información sobre cómo trabajar con variantes de página, consulte la sección [Implementar variantes de página para cada idioma](#implement-page-variants-for-each-language) de este artículo.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Configurar varios canales en un sitio de comercio electrónico
 

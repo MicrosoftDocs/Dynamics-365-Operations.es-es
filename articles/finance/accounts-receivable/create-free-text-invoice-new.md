@@ -1,6 +1,6 @@
 ---
-title: Crear una factura de servicios
-description: Este tema explica cómo crear facturas de texto sin formato.
+title: Crear una factura de servicio
+description: Este artículo explica cómo crear facturas de texto sin formato.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878171"
 ---
-# <a name="create-a-free-text-invoice"></a>Crear una factura de servicios
+# <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo crear facturas de texto sin formato. Para el procedimiento, utilice la empresa de demostración **USMF**.
+Este artículo explica cómo crear facturas de texto sin formato. Para el procedimiento, utilice la empresa de demostración **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
 
@@ -37,7 +37,7 @@ Este tema explica cómo crear facturas de texto sin formato. Para el procedimien
     * Si está usando las órdenes de SEPA (Zona Única de Pagos en Euros), la orden de débito directo se rellenará automáticamente cuando seleccione la cuenta de cliente.
 
 4. En el campo **Descripción**, especifique un valor.
-5. En el campo **Cuenta principal**, especifique un número de cuenta sin dimensiones. Especificará dimensiones más adelante en este tema.
+5. En el campo **Cuenta principal**, especifique un número de cuenta sin dimensiones. Especificará dimensiones más adelante en este artículo.
 
     También puede especificar uno o varios caracteres para la cuenta principal y usar la búsqueda para encontrar la cuenta.
 

@@ -1,6 +1,6 @@
 ---
 title: Agregar un logotipo
-description: En este tema se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871789"
 ---
 # <a name="add-a-logo"></a>Agregar un logotipo
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
 
 Cuando crea su sitio, una de las primeras cosas que probablemente hará es agregar el logotipo de su empresa o marca al encabezado del sitio. La biblioteca del módulo de Dynamics 365 Commerce Online proporciona un módulo que facilita esta tarea.
 
-Puede agregar un logotipo directamente a una plantilla, diseño o página. De esta manera, puede cambiar fácilmente el logotipo que aparece en páginas específicas o grupos de páginas. Sin embargo, este tema cubre el escenario más frecuente, donde agrega su logotipo a un fragmento de encabezado que puede reutilizarse en todas las páginas de su sitio.
+Puede agregar un logotipo directamente a una plantilla, diseño o página. De esta manera, puede cambiar fácilmente el logotipo que aparece en páginas específicas o grupos de páginas. Sin embargo, este artículo cubre el escenario más frecuente, donde agrega su logotipo a un fragmento de encabezado que puede reutilizarse en todas las páginas de su sitio.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

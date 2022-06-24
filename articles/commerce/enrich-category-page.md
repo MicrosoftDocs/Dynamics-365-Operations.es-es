@@ -1,6 +1,6 @@
 ---
 title: Enriquecer una página de aterrizaje de categoría
-description: Este tema aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
+description: Este artículo aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfee3b09768fa19ab95c880d7f7cbf330a8c58d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771016"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856973"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer una página de aterrizaje de categoría
 
 [!include [banner](includes/banner.md)]
 
-Este tema aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
+Este artículo aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
 
 Commerce proporciona una página de aterrizaje de categoría predeterminada que se utiliza cuando se muestra los datos de categoría. Una página de categoría predeterminada contiene elementos necesarios, como refinadores, ubicación de producto categorizada, opciones de ordenación, resumen de opciones y controles de paginación. 
 

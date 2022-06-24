@@ -1,6 +1,6 @@
 ---
 title: Requisitos netos e información de diagrama de árbol con planificación integrada
-description: Este tema proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol en planificación maestra integrada.
+description: Este artículo proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol en planificación maestra integrada.
 author: t-benebo
 ms.date: 04/20/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: 08a25af0d7ea15b4bc426dfc54b9b960762e11f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846080"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Requisitos netos e información de diagrama de árbol con planificación integrada
 

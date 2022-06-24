@@ -1,6 +1,6 @@
 ---
 title: Habilitar la búsqueda de pedidos para los pagos de invitados
-description: Este tema describe cómo habilitar la búsqueda de pedidos para los pagos de invitados en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo habilitar la búsqueda de pedidos para los pagos de invitados en Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891996"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Habilitar la búsqueda de pedidos para los pagos de invitados
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar la búsqueda de pedidos para los pagos de invitados en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo habilitar la búsqueda de pedidos para los pagos de invitados en Microsoft Dynamics 365 Commerce.
 
 La función de búsqueda de pedidos para pagos de invitados permite a los clientes que realizan compras como usuarios invitados buscar sus pedidos. La capacidad de búsqueda de pedidos es útil cuando los clientes desean realizar acciones como verificar el estado de cumplimiento de los productos en un pedido, verificar la dirección a la que se envió un pedido, reordenar un producto o confirmar en la tienda que se recogerá un pedido.
 

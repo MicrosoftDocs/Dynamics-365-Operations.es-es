@@ -1,6 +1,6 @@
 ---
 title: Declaración de IVA para Egipto
-description: Este tema explica cómo configurar y generar el formulario de devolución de IVA para Egipto.
+description: Este artículo explica cómo configurar y generar el formulario de devolución de IVA para Egipto.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870046"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaración de IVA para Egipto (EG-00002)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403957"
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar y generar el formulario de devolución de IVA y los libros de compra y venta para entidades legales en Egipto.
+En este artículo se explica cómo configurar y generar el formulario de devolución de IVA y los libros de compra y venta para entidades legales en Egipto.
 
 El formulario de devolución de IVA para Egipto es el documento oficial que resume el importe total del impuesto del IVA repercutido adeudado, el importe total del impuesto del IVA soportado recuperable y el importe del impuesto del IVA correspondiente. El formulario se utiliza para todo tipo de contribuyentes y debe completarse manualmente a través del portal de la autoridad tributaria. El formulario de devolución de IVA se conoce comúnmente como presentación de devolución de IVA.
 

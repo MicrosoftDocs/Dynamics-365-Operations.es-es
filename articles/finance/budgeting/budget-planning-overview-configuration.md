@@ -1,6 +1,6 @@
 ---
-title: Visión general de la planificación presupuestaria
-description: Este tema describe la planificación presupuestaria. Contiene información que puede ayudarle a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
+title: Información general de planificación presupuestaria
+description: Este artículo describe la planificación presupuestaria. Contiene información que puede ayudarle a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853565"
 ---
-# <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
+# <a name="budget-planning-overview"></a>Información general de planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la planificación presupuestaria. Contiene información que puede ayudarle a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
+Este artículo describe la planificación presupuestaria. Contiene información que puede ayudarle a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
 
 ## <a name="overview-of-budget-planning"></a>Visión general de la planificación presupuestaria
 
@@ -91,7 +91,7 @@ Un flujo de trabajo de planificación presupuestaria consiste en un conjunto ord
 
 Cree el flujo de un trabajo de planificación presupuestaria en la sección **Etapas de flujo de trabajo** de la página **Configuración de planificación presupuestaria**. Ahí, puede seleccionar las etapas y el flujo de trabajo de presupuesto que se usarán y configurar opciones adicionales.
 
-Una buena práctica es crear un flujo de trabajo de planificación presupuestaria para cada nivel de una jerarquía de presupuesto. A continuación, asigna un flujo de trabajo de presupuesto que contenga elementos que correspondientes a las etapas del flujo de trabajo de planificación presupuestaria. En el esquema de ejemplo que aparece anteriormente en este tema, se crearía un flujo de trabajo de planificación presupuestaria para los departamento de ventas y otro, para las sedes. Un flujo de trabajo persupuestario mueve los planes presupuestarios por las etapas.
+Una buena práctica es crear un flujo de trabajo de planificación presupuestaria para cada nivel de una jerarquía de presupuesto. A continuación, asigna un flujo de trabajo de presupuesto que contenga elementos que correspondientes a las etapas del flujo de trabajo de planificación presupuestaria. En el esquema de ejemplo que aparece anteriormente en este artículo, se crearía un flujo de trabajo de planificación presupuestaria para los departamento de ventas y otro, para las sedes. Un flujo de trabajo persupuestario mueve los planes presupuestarios por las etapas.
 
 Cree el flujo de trabajo presupuestario para la planificación presupuestaria en la página **Flujos de trabajo presupuestarios**. El proceso es similar al proceso para crear otros flujos de trabajo. En la ilustración siguiente se muestra un ejemplo de un flujo de trabajo de sedes.
 
@@ -141,7 +141,7 @@ Las asignaciones de etapa se usan para asignar automáticamente líneas del plan
 
 Cuando configura una asignación de etapa, asocia el flujo de trabajo y la etapa de planificación presupuestaria con la programación de asignación. El flujo de trabajo de planificación presupuestaria se debe asociar a un flujo de trabajo de gestión presupuestaria que use la tarea de flujo de trabajo automatizada **Asignación de etapa de la planificación presupuestaria**. Cuando el flujo de trabajo alcanza la etapa especificada, la asignación se produce automáticamente. Esta tarea automatizada se puede usar para crear líneas de plan presupuestario en un nuevo escenario.
 
-En el esquema de ejemplo que aparece anteriormente en este tema, se realiza una asignación para transferir importes de un plan presupuestario y escenario de la etapa de "Línea base" para de sedes a otro plan presupuestario y escenarios en la etapa de "Estimación" del departamento de ventas. En la ilustración siguiente se muestra la sección relevante del esquema de ejemplo.
+En el esquema de ejemplo que aparece anteriormente en este artículo, se realiza una asignación para transferir importes de un plan presupuestario y escenario de la etapa de "Línea base" para de sedes a otro plan presupuestario y escenarios en la etapa de "Estimación" del departamento de ventas. En la ilustración siguiente se muestra la sección relevante del esquema de ejemplo.
 
 [![Asignación de etapa.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

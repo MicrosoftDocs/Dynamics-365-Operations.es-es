@@ -1,6 +1,6 @@
 ---
 title: Procesar, revisar y publicar devoluciones
-description: Este tema describe cómo procesar sus acuerdos de gestión de devoluciones, calcular sus descuentos, revisar las transacciones que se generan, contabilizar transacciones y revisar las contabilizaciones.
+description: Este artículo describe cómo procesar sus acuerdos de gestión de devoluciones, calcular sus descuentos, revisar las transacciones que se generan, contabilizar transacciones y revisar las contabilizaciones.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901948"
 ---
 # <a name="process-review-and-post-rebates"></a>Procesar, revisar y publicar devoluciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo procesar sus acuerdos de gestión de devoluciones, calcular sus descuentos, revisar las transacciones que se generan, contabilizar transacciones y revisar las contabilizaciones.
+Este artículo describe cómo procesar sus acuerdos de gestión de devoluciones, calcular sus descuentos, revisar las transacciones que se generan, contabilizar transacciones y revisar las contabilizaciones.
 
 ## <a name="change-the-status-of-a-deal"></a>Cambio del estado de un acuerdo
 
@@ -45,7 +45,7 @@ Vaya a **Gestión de devoluciones \> Tareas periódicas \> Calcular el precio de
 
 Puede crear los pedidos de venta o los pedidos de compra que tengan transacciones de origen antes o después de crear un acuerdo de gestión de devoluciones aplicable.
 
-Puede configurar cada línea del acuerdo para que cree automáticamente una provisión de devolución contabilizando la entrega o la factura de una orden de venta o de compra. Defina el campo **Tipo de transacción** para la línea del acuerdo como *Entrega* o *Factura* y establezca **Procesar en contabilización** como *Sí*. Si el campo **Tipo de transacción** está configurado en *Pedido*, el procesamiento en contabilización está deshabilitado. Para las transacciones de origen que se crearon después de que se activó un acuerdo, aún puede procesar la provisión como se describe en la sección [Procesar Acuerdos de gestión de devoluciones](#process-deals) más adelante en este tema.
+Puede configurar cada línea del acuerdo para que cree automáticamente una provisión de devolución contabilizando la entrega o la factura de una orden de venta o de compra. Defina el campo **Tipo de transacción** para la línea del acuerdo como *Entrega* o *Factura* y establezca **Procesar en contabilización** como *Sí*. Si el campo **Tipo de transacción** está configurado en *Pedido*, el procesamiento en contabilización está deshabilitado. Para las transacciones de origen que se crearon después de que se activó un acuerdo, aún puede procesar la provisión como se describe en la sección [Procesar Acuerdos de gestión de devoluciones](#process-deals) más adelante en este artículo.
 
 ### <a name="enable-price-details"></a>Habilitar detalles de precio
 

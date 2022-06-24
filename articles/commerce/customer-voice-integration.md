@@ -1,6 +1,6 @@
 ---
-title: Integrar Customer Voice en las páginas del sitio de comercio electrónico
-description: Este tema describe cómo integrar Microsoft Dynamics 365 Customer Voice en las páginas de sitios de comercio electrónico de Dynamics 365 Commerce.
+title: Integrar Customer Voice en páginas del sitio de comercio electrónico
+description: Este artículo describe cómo integrar Microsoft Dynamics 365 Customer Voice en las páginas de sitios de comercio electrónico de Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850339"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Integrar Customer Voice en las páginas del sitio de comercio electrónico
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Integrar Customer Voice en páginas del sitio de comercio electrónico
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo integrar Microsoft Dynamics 365 Customer Voice en las páginas de sitios de comercio electrónico de Dynamics 365 Commerce.
+Este artículo describe cómo integrar Microsoft Dynamics 365 Customer Voice en las páginas de sitios de comercio electrónico de Dynamics 365 Commerce.
 
 Puede integrar [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) en su sitio de comercio electrónico para recopilar, analizar y realizar un seguimiento de los comentarios de los clientes en tiempo real. Para comenzar con la integración, debe crear una cuenta y seleccionar una plantilla de proyecto de Customer Voice para el tipo de comentarios que desea recopilar.
 
@@ -37,7 +37,7 @@ Para seleccionar una plantilla de proyecto de Customer Voice, siga estos pasos.
 1. Seleccione la plantilla de proyecto para el tipo de comentarios que desea recopilar y, a continuación, seleccione **Siguiente**.
 1. En la pestaña **Enviar**, en **Eegir un formato de inserción**, seleccione un formato de inserción. El campo **Código insertado** muestra el código que se debe insertar en el creador de sitios de Commerce.
 
-Los ejemplos en este tema usan la plantilla de proyecto **Encuesta periódica a clientes** y el formato insertado **Botón**.
+Los ejemplos en este artículo usan la plantilla de proyecto **Encuesta periódica a clientes** y el formato insertado **Botón**.
 
 La siguiente ilustración de ejemplo muestra la página de plantilla de proyecto **Encuesta periódica a clientes**, donde está seleccionada la opción para el formato insertado **Botón** y el código para insertar aparece en el campo **Código insertado**. Se requieren tres acciones separadas para insertar el código facilitado en las páginas de su sitio, como se describe en las siguientes secciones.
 

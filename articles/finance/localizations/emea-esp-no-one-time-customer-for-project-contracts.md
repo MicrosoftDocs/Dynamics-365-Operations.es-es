@@ -1,6 +1,6 @@
 ---
 title: Clientes plantilla
-description: Este tema proporciona información sobre los clientes plantilla.
+description: Este artículo proporciona información sobre los clientes plantilla.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1477d108a6cd70c4c86c25b524f4befc95062eb84be75d77caa16615ac9ef67f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77908d278a1a1757403a56634b0e33f2adf7c910
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870014"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre los clientes plantilla.  
+Este artículo proporciona información sobre los clientes plantilla.  
 
 Un cliente plantilla es un cliente que no tiene una relación a largo plazo con su empresa. Para los clientes plantilla, normalmente no es necesario guardar información como la dirección, el contacto, o los detalles de identificación fiscal. Para indicar que un cliente es un cliente plantilla, siga estos pasos:
 

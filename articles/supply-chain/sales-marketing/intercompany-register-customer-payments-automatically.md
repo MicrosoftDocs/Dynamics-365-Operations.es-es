@@ -1,6 +1,6 @@
 ---
 title: Registrar pagos automáticamente para las facturas de cliente de empresas vinculadas
-description: Este tema explica cómo registrar pagos automáticamente para las facturas de cliente de empresas vinculadas
+description: Este artículo explica cómo registrar pagos automáticamente para las facturas de cliente de empresas vinculadas
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: dbd06b21d736d1e247cd087e5bb86fbe641352e6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e8f784cd310026f0a647a0f509999e11ab26ce5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878798"
 ---
 # <a name="register-payments-automatically-for-intercompany-customer-invoices"></a>Registrar pagos automáticamente para las facturas de cliente de empresas vinculadas
 

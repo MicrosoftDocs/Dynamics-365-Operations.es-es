@@ -1,6 +1,6 @@
 ---
 title: Modelo de datos de cálculo de impuestos
-description: Este tema proporciona información sobre el modelo de datos de impuestos y cómo los valores de campo de cada modelo de datos están determinados por el contexto de las transacciones de cálculo de impuestos.
+description: Este artículo proporciona información sobre el modelo de datos de impuestos y cómo los valores de campo de cada modelo de datos están determinados por el contexto de las transacciones de cálculo de impuestos.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859706"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de datos de cálculo de impuestos
 
-Este tema proporciona información sobre cómo se determinan los valores de campo del modelo de datos en las transacciones de cálculo de impuestos.
+Este artículo proporciona información sobre cómo se determinan los valores de campo del modelo de datos en las transacciones de cálculo de impuestos.
 
 El *modelo de datos fiscales* se compone de campos obligatorios para los cálculos de impuestos. Microsoft proporciona el *modelo de datos de cálculo de impuestos*, que incluye los campos de encabezado y los campos de línea de los documentos de transacción en aplicaciones de Finanzas y Operaciones. Los campos que se definen en el modelo de datos de cálculo de impuestos son las columnas disponibles de las tablas de reglas de aplicabilidad en la configuración de la configuración de la función de cálculo de impuestos.
 
@@ -99,7 +99,7 @@ Se pueden incluir treinta y dos modelos de datos como campos en el encabezado de
 | Envío a provincia/estado          | <ul><li>**Pedido de ventas:**<ol><li>Encabezamiento &gt; Dirección de entrega &gt; Estado</li></ol></li><li>**Pedido de compra:**<ol><li>Encabezamiento &gt; Dirección de entrega &gt; Estado</li></ol></li><li>**Pedido de transferencia: Envío**<ol><li>Encabezamiento &gt; A almacén &gt; Dirección primaria &gt; Estado</li><li>Encabezamiento &gt; A sitio &gt; Dirección primaria &gt; Estado</li></ol></li><li>**Pedido de transferencia: Recepción**<ol><li>Encabezamiento &gt; A almacén &gt; Dirección primaria &gt; Estado</li><li>Encabezamiento &gt; A sitio &gt; Dirección primaria &gt; Estado</li></ol></li><li>**Solicitud de presupuesto:**<ol><li>Encabezamiento &gt; Dirección de entrega &gt; Estado</li></ol></li><li>**Presupuesto de ventas:**<ol><li>Encabezamiento &gt; Dirección de entrega &gt; Estado</li></ol></li><li>**Factura de servicios**:<ol><li>Encabezamiento &gt; Cuenta de cliente &gt; Dirección de entrega predeterminada &gt; Estado</li><li>Encabezamiento &gt; Cuenta de cliente &gt; Dirección principal &gt; Estado</li></ol></li><li>**Diario (cliente):**<ol><li>Cuenta de cliente &gt; Dirección de entrega predeterminada &gt; Estado</li><li>Cuenta de cliente &gt; Dirección principal &gt; Estado</li></ol></li><li>**Diario (proveedor):**<ol><li>Entidad legal &gt; Dirección de entrega predeterminada &gt; Estado</li><li>Entidad legal &gt; Dirección primaria &gt; Estado</li></ol></li></ul> |
 | Envío a código postal                 | <ul><li>**Pedido de ventas:**<ol><li>Encabezado &gt; Dirección de entrega &gt; Código postal</li></ol></li><li>**Pedido de compra:**<ol><li>Encabezado &gt; Dirección de entrega &gt; Código postal</li></ol></li><li>**Pedido de transferencia: Envío**<ol><li>Encabezamiento &gt; A almacén &gt; Dirección primaria &gt; Código postal</li><li>Encabezamiento &gt; A sitio &gt; Dirección primaria &gt; Código postal</li></ol></li><li>**Pedido de transferencia: Recepción**<ol><li>Encabezamiento &gt; A almacén &gt; Dirección primaria &gt; Código postal</li><li>Encabezamiento &gt; A sitio &gt; Dirección primaria &gt; Código postal</li></ol></li><li>**Solicitud de presupuesto:**<ol><li>Encabezado &gt; Dirección de entrega &gt; Código postal</li></ol></li><li>**Presupuesto de ventas:**<ol><li>Encabezado &gt; Dirección de entrega &gt; Código postal</li></ol></li><li>**Factura de servicios**:<ol><li>Encabezamiento &gt; Cuenta de cliente &gt; Dirección de entrega predeterminada &gt; Código postal</li><li>Encabezamiento &gt; Cuenta de cliente &gt; Dirección principal &gt; Código postal</li></ol></li><li>**Diario (cliente):**<ol><li>Cuenta de cliente &gt; Dirección de entrega predeterminada &gt; Código postal</li><li>Cuenta de cliente &gt; Dirección principal &gt; Código postal</li></ol></li><li>**Diario (proveedor):**<ol><li>Entidad legal &gt; Dirección de entrega predeterminada &gt; Código postal</li><li>Entidad legal &gt; Dirección principal &gt; Código postal</li></ol></li></ul> |
 | Sitio                             | <ul><li>**Pedido de ventas**: sitio</li><li>**Pedido de compra:** sitio</li><li>**Pedido de transferencia - Envío:** sitio de Desde almacén</li><li>**Pedido de transferencia - Recepción:** sitio de A almacén</li><li>**Solicitud de presupuesto:** sitio</li><li>**Presupuesto de ventas:** sitio</li></ul> |
-| Dirección fiscal                    | <ul><li>**Pedido de ventas:** salida</li><li>**Pedido de compra:** entrada</li><li>**Pedido de transferencia - Envío:** salida</li><li>**Pedido de transferencia - Recepción:** entrada</li><li>**Solicitud de compra:** entrada</li><li>**Solicitud de presupuesto:** entrada</li><li>**Presupuesto de ventas:** salida</li><li>**Factura de servicios**: salida</li></ul> |
+| Dirección fiscal                    | <ul><li>**Pedido de ventas:** salida</li><li>**Pedido de compra:** entrada</li><li>**Pedido de transferencia - Envío:** salida</li><li>**Pedido de transferencia - Recepción:** entrada</li><li>**Solicitud de compra:** entrada</li><li>**Solicitud de presupuesto:** entrada</li><li>**Presupuesto de ventas:** salida</li><li>**Factura de servicios**: salida</li><li>**Diario:** Salida</li></ul> |
 | Cuenta del proveedor                   | <ul><li>**Pedido de compra:** cuenta de proveedor</li><li>**Diario (proveedor):** Cuenta de proveedor</li></ul> |
 | Cuenta de facturas del proveedor           | <ul><li>**Pedido de compra:** cuenta de factura</li><li>**Diario (proveedor):**<ol><li>Proveedor maestro &gt; Cuenta de facturación</li><li>Cuenta del proveedor</li></ol></li></ul> |
 | Almacén                        | <ul><li>**Pedido de ventas:** almacén</li><li>**Pedido de compra:** almacén</li><li>**Pedido de transferencia - Envío:** desde almacén</li><li>**Orden de transferencia - Recibir:** al almacén</li><li>**Solicitud de presupuesto:** almacén</li><li>**Cotización de venta:** almacén</li></ul> |

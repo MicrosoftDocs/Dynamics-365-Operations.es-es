@@ -1,6 +1,6 @@
 ---
 title: Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
-description: Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
+description: Este artículo explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861629"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar facturas al sistema de flujo de trabajo y conciliar líneas de recepción de productos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
+Este artículo explica el proceso de enviar facturas de proveedores al sistema de flujo de trabajo y hacer coincidir automáticamente las líneas de recepción de productos registradas con las facturas de proveedores.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Enviar facturas de proveedores importadas al sistema de flujo de trabajo y hacer coincidir las líneas de recepción de productos registradas con las líneas de facturas de proveedores pendientes
 

@@ -1,6 +1,6 @@
 ---
 title: Bases de asignación
-description: Este tema proporciona información sobre las bases de asignación. Las bases de asignación son componentes principales en contabilidad de costes y se usan principalmente para asignar costes generales.
+description: Este artículo proporciona información sobre las bases de asignación. Las bases de asignación son componentes principales en contabilidad de costes y se usan principalmente para asignar costes generales.
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894095"
 ---
 # <a name="allocation-bases"></a>Bases de asignación 
 
@@ -174,11 +174,11 @@ La contabilidad de costes admite una recopilación de medidas estadísticas medi
 - Herramienta de importación o exportación de la administración de datos
 - Medidas estadísticas
 
-Para extraer medidas estadísticas del sistema, se requiere una plantilla de proveedor de medidas estadísticas. Para obtener más información, vea la plantilla de proveedor de medidas estadísticas (Se agregará un vínculo una vez que se escriba este tema.)
+Para extraer medidas estadísticas del sistema, se requiere una plantilla de proveedor de medidas estadísticas. Para obtener más información, vea la plantilla de proveedor de medidas estadísticas (Se agregará un vínculo una vez que se escriba este artículo.)
 
 **Plantillas de proveedor de medidas estadísticas**
 
-| Nombre  | Función | Tabla de origen  | Campo de suma      | Campo Fecha     |
+| Name  | Función | Tabla de origen  | Campo de suma      | Campo Fecha     |
 |-------|----------|---------------|----------------|----------------|
 | EJC | Cuenta    | HcmEmployment | No aplicable | No aplicable |
 

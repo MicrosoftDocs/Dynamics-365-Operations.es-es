@@ -1,6 +1,6 @@
 ---
 title: Crear y actualizar franjas horarias para la recogida del cliente
-description: En este tema se describe cómo crear, configurar y actualizar franjas horarias de recogida para el cliente en la sede central de Commerce.
+description: En este artículo se describe cómo crear, configurar y actualizar franjas horarias de recogida para el cliente en Commerce headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882242"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Crear y actualizar franjas horarias para la recogida del cliente
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo crear, configurar y actualizar franjas horarias de recogida para el cliente en la sede central de Commerce.
+En este artículo se describe cómo crear, configurar y actualizar franjas horarias de recogida para el cliente en Commerce headquarters.
 
 La característica de franja horaria ofrece a los minoristas una forma de definir franjas horarias para los artículos para los que está activado el modo de recogida de la entrega del cliente. Las franjas horarias permiten a los minoristas definir los días y las horas en que se pueden recoger los pedidos en una tienda. Los minoristas también pueden definir la cantidad de pedidos que se pueden recoger durante un período determinado. De esta forma, los minoristas pueden limitar el número de pedidos que se pueden recoger en un día y en un momento determinados. El resultado es una experiencia de mejor calidad para sus clientes.
 

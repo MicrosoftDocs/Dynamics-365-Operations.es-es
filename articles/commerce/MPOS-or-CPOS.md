@@ -1,6 +1,6 @@
 ---
 title: Elija entre Store Commerce y Cloud POS
-description: Este tema explica las diferencias clave entre Store Commerce y Cloud POS, y describe varios factores que los minoristas que implementan Dynamics 365 Commerce deben considerar para ayudarles a tomar la mejor decisión para sus necesidades.
+description: Este artículo explica las diferencias clave entre Store Commerce y Cloud POS, y describe varios factores que los minoristas que implementan Dynamics 365 Commerce deben considerar para ayudarles a tomar la mejor decisión para sus necesidades.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854015"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Elija entre Store Commerce y Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica las diferencias clave entre Store Commerce y Cloud POS, y describe varios factores que los minoristas que implementan Dynamics 365 Commerce deben considerar para ayudarles a tomar la mejor decisión para sus necesidades. También proporciona a los implementadores antecedentes, sugerencias, y directrices adicionales para los factores que deben tener en cuenta al implementar Dynamics 365 Commerce. Revisando y siguiendo esta orientación como parte del proceso de implementación, los implementadores podrán evitar problemas que podrían afectar a la satisfacción del usuario o al rendimiento.
+Este artículo explica las diferencias clave entre Store Commerce y Cloud POS, y describe varios factores que los minoristas que implementan Dynamics 365 Commerce deben considerar para ayudarles a tomar la mejor decisión para sus necesidades. También proporciona a los implementadores antecedentes, sugerencias, y directrices adicionales para los factores que deben tener en cuenta al implementar Dynamics 365 Commerce. Revisando y siguiendo esta orientación como parte del proceso de implementación, los implementadores podrán evitar problemas que podrían afectar a la satisfacción del usuario o al rendimiento.
 
 ## <a name="insights"></a>Información
 
@@ -44,7 +44,7 @@ Commerce admite las siguientes opciones de PDV:
 En todos los casos, el PDV (Store Commerce y CPOS) comparte el mismo código de aplicación básica. Este punto es importante por los siguientes motivos:
 
 - La interfaz de usuario (IU) es coherente, independientemente de la plataforma o factor de forma.
-- La mayoría de las capacidades funcionales son iguales, independientemente de la plataforma o factor de forma. Sin embargo, existen algunas diferencias importantes. Estas diferencias se indican en este tema.
+- La mayoría de las capacidades funcionales son iguales, independientemente de la plataforma o factor de forma. Sin embargo, existen algunas diferencias importantes. Estas diferencias se indican en este artículo.
 - En cada almacén determinado, las variaciones de POS se pueden combinar y se pueden ejecutar simultáneamente. Por ejemplo, para sus registros principales, un minorista puede usar Store Commerce en equipos que ejecutan Windows. Sin embargo, el minorista puede complementar dichos registros con terminales basados en el explorador o dispositivos móviles.
 - Las personalizaciones y extensiones se pueden utilizar con facilidad a través de varias plataformas y factores de forma. Dado que el código de aplicación básica se comparte, la mayoría de las personalizaciones se pueden implementar una vez en lugar de varias veces.
 

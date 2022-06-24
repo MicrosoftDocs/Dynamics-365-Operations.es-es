@@ -1,6 +1,6 @@
 ---
 title: Configuración de parámetros de la administración de crédito
-description: En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa.
+description: En este artículo se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa.
 author: JodiChristiansen
 ms.date: 12/10/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876365"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa. Para comenzar a usar las características de Administración de crédito, configure los parámetros en la página **Parámetros de crédito y cobros** (**Crédito y cobros \> Configurar \> Parámetros de crédito y cobros**).
+En este artículo se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa. Para comenzar a usar las características de Administración de crédito, configure los parámetros en la página **Parámetros de crédito y cobros** (**Crédito y cobros \> Configurar \> Parámetros de crédito y cobros**).
 
 ## <a name="credit-parameters"></a>Parámetros de crédito
 

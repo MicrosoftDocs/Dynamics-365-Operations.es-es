@@ -1,6 +1,6 @@
 ---
 title: Vistas guardadas
-description: Este tema describe cómo usar las características guardadas de las vistas.
+description: Este artículo describe cómo usar las características guardadas de las vistas.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845424"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -196,7 +196,7 @@ Para una lista de todas las vistas publicadas para dicha página, el conjunto de
 
 ## <a name="managing-views-globally"></a>Gestionar vistas globalmente
 
-Aunque aparecen algunas capacidades de administración en cada página, como se indica en este tema, **administradores del sistema** y **ver administradores guardados** puede administrar vistas de manera más holística para el sistema a través de la página **Personalización**. En particular, esta página tiene las siguientes secciones y capacidades: 
+Aunque aparecen algunas capacidades de administración en cada página, como se indica en este artículo, **administradores del sistema** y **ver administradores guardados** puede administrar vistas de manera más holística para el sistema a través de la página **Personalización**. En particular, esta página tiene las siguientes secciones y capacidades: 
 
 - **Vistas publicadas**: esta sección enumera todas las vistas que se han publicado para su organización. Desde aquí, puede volver a publicar una vista después de ajustar las características de seguridad o las entidades legales a las que se dirige la vista. También puede exportar, eliminar o cancelar la publicación de las vistas. Puede usar la acción **Guardar como personal** para crear una copia personal de la vista, de modo que pueda actualizar la vista u obtener una mejor comprensión de su contenido. 
 - **Vistas no publicada**: esta sección enumera todas las vistas de la organización en su sistema que no están publicadas actualmente. Estas vistas suelen entrar en el sistema a través de la funcionalidad de importación. Puede publicar, exportar o eliminar estas vistas. La acción **Publicación rápida** que se agregó en la versión 10.0.12 permite que se publiquen varias vistas de esta sección en una sola acción, utilizando el rol de seguridad existente y las configuraciones de entidad legal. Puede usar la acción **Guardar como personal** para crear copias personales de estas vistas, de modo que pueda obtener una mejor comprensión de sus contenidos.

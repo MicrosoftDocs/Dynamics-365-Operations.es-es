@@ -1,6 +1,6 @@
 ---
 title: Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
-description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
+description: Este artículo describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877432"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
+Este artículo describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 
 Las instrucciones que los trabajadores de almacén reciben en un dispositivo móvil están determinadas por las plantillas de trabajo de Dynamics 365 Supply Chain Management que configura para definir los distintos procesos y tareas de almacén. Las plantillas de trabajo determinan cómo se realiza el trabajo para cada proceso de almacén. Si vincula un directorio de ubicación a plantillas de trabajo, puede ayudar a garantizar que el trabajo se produce en áreas físicas específicas de los almacenes.
 
@@ -73,7 +73,7 @@ Las directivas de ubicación determinan *dónde* los artículos deben ser recogi
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Tema de ayuda: [Trabajar con directivas de ubicación](create-location-directive.md)
+- Artículo de ayuda: [Trabajar con directivas de ubicación](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

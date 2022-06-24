@@ -1,6 +1,6 @@
 ---
 title: Preguntas más frecuentes sobre cálculos para modelos de configuración de productos
-description: En este tema se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
+description: En este artículo se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890955"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Preguntas más frecuentes sobre cálculos para modelos de configuración de productos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
+En este artículo se describen los cálculos para los modelos de configuración de productos y se explica cómo utilizar los cálculos junto con las restricciones.
 
 Se pueden usar cálculos para operaciones aritméticas o lógicas. Complementan restricciones de expresión en modelos de configuración de productos. Puede definir cálculos en la página **Detalles del modelo de configuración de productos basados en restricciones** y después crear expresiones para los cálculos en el editor de expresiones. Para obtener más información, consulte Crear cálculos.
 

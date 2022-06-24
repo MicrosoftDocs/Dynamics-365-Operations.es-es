@@ -1,6 +1,6 @@
 ---
-title: Aplazar la ejecución de elementos XML en formatos ER
-description: Este tema explica cómo diferir la ejecución de un elemento XML en un formato de informe electrónico (ER).
+title: Aplazar la ejecución de elementos de XML en formatos de informes electrónicos
+description: Este artículo explica cómo diferir la ejecución de un elemento XML en un formato de informe electrónico (ER).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 074b14cbb018a8e34b99124b8aaec3a5bdb30be2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861856"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Aplazar la ejecución de elementos XML en formatos ER
 
@@ -32,7 +32,7 @@ Puede usar el diseñador de operaciones del marco de [informes electrónicos (ER
 
 Al activar la opción <a name="DeferredXmlElementExecution"></a>**Ejecución aplazada** para un elemento XML en el formato configurado, puede diferir (posponer) la ejecución de ese elemento. En este caso, el elemento no se ejecuta hasta que se hayan ejecutado todos los demás elementos de su elemento primario.
 
-Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
+Para obtener más información acerca de esta característica, complete el ejemplo de este artículo.
 
 ## <a name="limitations"></a>Limitaciones
 
@@ -55,7 +55,7 @@ Para este ejemplo, debe tener acceso a la empresa **USMF** de Finance para uno d
 - Consultor funcional de informes electrónicos
 - Administrador del sistema
 
-Si aún no ha completado el ejemplo del tema [Aplazar la ejecución de elementos de secuencia en formatos ER](er-defer-sequence-element.md#Example), descargue las siguientes [configuraciones](general-electronic-reporting.md#Configuration) de la solución ER de ejemplo.
+Si aún no ha completado el ejemplo del artículo [Aplazar la ejecución de elementos de secuencia en formatos ER](er-defer-sequence-element.md#Example), descargue las siguientes [configuraciones](general-electronic-reporting.md#Configuration) de la solución ER de ejemplo.
 
 | Descripción del contenido            | Nombre de archivo |
 |--------------------------------|-----------|
@@ -95,7 +95,7 @@ Antes de comenzar, también debe descargar y guardar la siguiente configuración
 ### <a name="activate-a-configuration-provider"></a>Activar un proveedor de configuración
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo Litware, Inc. (`http://www.litware.com`) y que se ha marcado como activo. Si este proveedor de configuración no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo Litware, Inc. (`http://www.litware.com`) y que se ha marcado como activo. Si este proveedor de configuración no aparece en la lista o si no está marcado como activo, siga los pasos del artículo [Crear un proveedor de configuración y marcarlo como activo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Empresa de ejemplo Litware, Inc. en la página Configuraciones de localización.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 

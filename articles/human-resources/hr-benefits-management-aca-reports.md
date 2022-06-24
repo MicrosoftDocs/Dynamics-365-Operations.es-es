@@ -1,6 +1,6 @@
 ---
 title: Generar informes de la Ley de Cuidado de salud asequible en la Administración de prestaciones
-description: En este tema se describe cómo la Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA).
+description: En este artículo se describe cómo la Administración de prestaciones hace un seguimiento de la información notificada en el Formulario 1095-B y el Formulario 1095-C para el mandato del empleador de la Ley de atención sanitaria asequible (ACA).
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 118dace557c7c8a8d101e2f2ad1d94fb14547c1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889733"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genere informes de ACA en la administración de prestaciones
 

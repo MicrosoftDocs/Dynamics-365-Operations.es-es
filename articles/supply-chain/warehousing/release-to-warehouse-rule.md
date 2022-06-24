@@ -1,6 +1,6 @@
 ---
 title: Regla de liberación al almacén
-description: En este tema se ofrece información sobre la característica Regla de liberación al almacén, que proporciona flexibilidad durante la liberación al almacén. Agrega una opción de configuración que controla si el sistema permite liberar líneas de pedido parcialmente reservadas.
+description: En este artículo se ofrece información sobre la característica Regla de liberación al almacén, que proporciona flexibilidad durante la liberación al almacén. Agrega una opción de configuración que controla si el sistema permite liberar líneas de pedido parcialmente reservadas.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895478"
 ---
 # <a name="release-to-warehouse-rule"></a>Regla de liberación al almacén
 
@@ -78,7 +78,7 @@ También puede usar estos escenarios como guía para la característica cuando t
 En este escenario se muestra cómo funciona la característica para los almacenes definidos en **Requerir reserva completa**.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
-1. Para el almacén _62_, establezca el campo **Requisito de reserva de inventario** en **Requerir reserva completa**, como se describe en la sección [Establecer la regla de liberación al almacén para cada almacén](#set-option-warehouse) anterior en este tema.
+1. Para el almacén _62_, establezca el campo **Requisito de reserva de inventario** en **Requerir reserva completa**, como se describe en la sección [Establecer la regla de liberación al almacén para cada almacén](#set-option-warehouse) anterior en este artículo.
 1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
 1. Seleccione **Nuevo** para crear un pedido de ventas.
 1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
@@ -112,7 +112,7 @@ En este escenario se muestra cómo funciona la característica para los almacene
 En este escenario se muestra cómo funciona la característica para los almacenes definidos en **Permitir liberación parcial**.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
-1. Para el almacén _62_, establezca el campo **Requisito de reserva de inventario** en **Permitir reserva parcial**, como se describe en la sección [Establecer la regla de liberación al almacén para cada almacén](#set-option-warehouse) anterior en este tema.
+1. Para el almacén _62_, establezca el campo **Requisito de reserva de inventario** en **Permitir reserva parcial**, como se describe en la sección [Establecer la regla de liberación al almacén para cada almacén](#set-option-warehouse) anterior en este artículo.
 1. Como hizo en el [escenario anterior](#scenario1), vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas** y cree un pedido de ventas para la cuenta del cliente _US-004_ del almacén _62_. Agregue las siguientes dos líneas de pedido:
 
     - **Línea 1**: establezca el campo **Número de artículo** a _A0001_, el campo **Cantidad** a _2_ y el campo **Unidad** a _UDS_.

@@ -1,6 +1,6 @@
 ---
 title: Reservar cantidades de inventario
-description: En este tema se describen las diferentes opciones de reserva de inventario disponibles.
+description: En este artículo se describen las diferentes opciones de reserva de inventario disponibles.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899451"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las diferentes opciones de reserva de inventario disponibles.
+En este artículo se describen las diferentes opciones de reserva de inventario disponibles.
 
 Puede reservar automáticamente cantidades de inventarios para un pedido de ventas concreto. Esto significa que el inventario reservado no se puede sacar del almacén para otros pedidos excepto que se cancele la reserva de inventario o parte de la reserva de inventario.
 

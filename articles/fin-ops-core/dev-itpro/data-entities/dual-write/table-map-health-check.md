@@ -1,20 +1,20 @@
 ---
 title: Códigos de error para la comprobación de estado de la asignación de la tabla
-description: Este tema describe los códigos de error para la comprobación del estado de la asignación de la tabla.
-author: nhelgren
-ms.date: 10/04/2021
+description: Este artículo describe los códigos de error para la comprobación del estado de la asignación de la tabla.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884094"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Códigos de error para la comprobación de estado de la asignación de la tabla
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061287"
 
 
 
-Este tema describe los códigos de error para la comprobación del estado de la asignación de la tabla.
+Este artículo describe los códigos de error para la comprobación del estado de la asignación de la tabla.
 
 ## <a name="error-100"></a>Error 100
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 El mensaje de error es "Se realiza un seguimiento para la tabla: \{datasourceTable.Key.subscribedTableName\} para la entidad \{datasourceTable.Key.entityName\} para la entidad \{origTableToEntityMaps.EntityName\}. Las mismas tablas a las que se hace un seguimiento para múltiples entidades pueden afectar el rendimiento del sistema para las transacciones de sincronización en vivo".
 
 Si varias entidades realizan el seguimiento de la misma tabla, cualquier cambio en la tabla desencadenará una evaluación de escritura dual para las entidades vinculadas. Aunque las cláusulas de filtro enviarán solo los registros válidos, la evaluación puede causar un problema de rendimiento si hay consultas de larga duración o planes de consultas no optimizados. Es posible que este problema no se pueda evitar desde la perspectiva empresarial. Sin embargo, si hay muchas tablas que se cruzan en varias entidades, debería tener en cuenta la posibilidad de simplificar la entidad o comprobar las optimizaciones para las consultas de entidad.
+
+## <a name="error-1800"></a>Error 1800
+El mensaje de error es: "Datasource : {} for entity CustCustomerV3Entity incluye un valor de rango. Modificaciones de registros entrantes de Dataverse a finanzas y operaciones puede verse afectado por valores de rango en la entidad. Pruebe las actualizaciones de registro de Dataverse a finanzas y operaciones con registros que no coincidan con los criterios de filtro para validar su configuración".
+
+Si hay un rango especificado en la entidad en las aplicaciones de finanzas y operaciones, entonces la sincronización entrante de Dataverse a las aplicaciones de finanzas y operaciones se debe probar el comportamiento de actualización en los registros que no coinciden con este criterio de rango. La entidad trata cualquier registro que no coincida con el rango como una operación de inserción. Si hay un registro existente en la tabla subyacente, la inserción fallará. Le recomendamos que pruebe este caso de uso para todos los escenarios antes de implementarlo en producción.
+
+## <a name="error-1900"></a>Error 1900
+El mensaje de error es: "Entidad: tiene {} orígenes de datos que no se están siguiento para escritura dual saliente. Esto puede afectar el rendimiento de las consultas de sincronización en vivo. Remodele la entidad en finanzas y operaciones para eliminar orígenes de datos y tablas no utilizadas o implemente getEntityRecordIdsImpactedByTableChange para optimizar las consultas en tiempo de ejecución".
+
+Si hay muchos orígenes de datos que no se utilizan para el seguimiento en la sincronización en vivo real de las aplicaciones de finanzas y operaciones, existe la posibilidad de que el rendimiento de la entidad pueda afectar la sincronización en vivo. Para optimizar las tablas rastreadas, use el método getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Error 5000
+El mensaje de error es: "Los complementos sincrónicos están registrados para eventos de administración de datos para cuentas de entidades. Estos pueden afectar el rendimiento de importación de la sincronización inicial y la sincronización en vivo en Dataverse. Para obtener el mejor rendimiento, cambie los complementos a procesamiento asincrónicos. Lista de complementos registrados {}."
+
+Los complementos asincrónicos en una entidad de Dataverse pueden afectar la sincronización en vivo y el rendimiento de la sincronización inicial a medida que aumenta la carga de transacciones. El enfoque recomendado es desactivar los complementos o hacer que estos complementos sean asincrónicos si se enfrenta tiempos de carga lentos en la sincronización inicial o la sincronización en vivo para una entidad en particular.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

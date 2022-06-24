@@ -1,6 +1,6 @@
 ---
 title: Informe de puesta al día para activos fijos
-description: Este tema explica cómo utilizar el informe de puesta al día para activos fijos.
+description: Este artículo explica cómo utilizar el informe de puesta al día para activos fijos.
 author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cbdb63c8b52baf030be10f27c27d27d58e3103a5
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870144"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Informe de puesta al día para activos fijos
 

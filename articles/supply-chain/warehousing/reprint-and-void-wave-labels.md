@@ -1,6 +1,6 @@
 ---
-title: Reimprimir y anular etiquetas de oleada
-description: En este tema se explica cómo anular y reimprimir las etiquetas de oleada existentes.
+title: Volver a imprimir y anular etiquetas de oleadas
+description: En este artículo se explica cómo anular y reimprimir las etiquetas de oleada existentes.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871844"
 ---
-# <a name="reprint-and-void-wave-labels"></a>Reimprimir y anular etiquetas de oleada
+# <a name="reprint-and-void-wave-labels"></a>Volver a imprimir y anular etiquetas de oleadas
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo administrar etiquetas generadas por el procesamiento de oleada. (Para obtener una descripción detallada e instrucciones de configuración, consulte [Configurar la impresión de etiquetas de oleada](../warehousing/configure-wave-label-printing.md).)
+En este artículo se explica cómo administrar etiquetas generadas por el procesamiento de oleada. (Para obtener una descripción detallada e instrucciones de configuración, consulte [Configurar la impresión de etiquetas de oleada](../warehousing/configure-wave-label-printing.md).)
 
 Puede reimprimir etiquetas de oleada en cualquier momento. Por ejemplo, es posible que deba imprimir una única etiqueta si una etiqueta existente se perdió o se dañó. Como alternativa, un trabajador o supervisor de almacén puede que tenga que reimprimir un rollo completo de etiquetas si el número o la composición de una serie completa de etiquetas de oleada ha cambiado (por ejemplo, debido a la escasez de inventario u otras razones). Con frecuencia, incluso si solo ha cambiado el número de cajas, se debe volver a imprimir todo el rollo para mantener el número total exacto en la sección "Caja X de Y" de cada etiqueta.
 
@@ -32,10 +32,10 @@ La característica de reimpresión de etiquetas de oleada admite la siguiente fu
 - Anular etiquetas y volver a imprimirlas simultáneamente. (La capacidad de anular etiquetas está integrada en escenarios de selección corta, por ejemplo).
 - Limpiar el historial de etiquetas de oleadas.
 
-En este tema se presenta una colección de escenarios que muestran, a través de ejemplos, cómo trabajar con la característica de reimpresión de etiquetas de oleada.
+En este artículo se presenta una colección de escenarios que muestran, a través de ejemplos, cómo trabajar con la característica de reimpresión de etiquetas de oleada.
 
 > [!IMPORTANT]
-> Para trabajar en los escenarios que se presentan en este tema, primero debe activar y configurar las características de impresión de oleadas pertinentes, como se describe en [Configurar la impresión de etiquetas de oleada](../warehousing/configure-wave-label-printing.md). Varios de los escenarios de este tema también requieren que trabaje primero en los escenarios de ese tema para generar datos de muestra de requisitos previos.
+> Para trabajar en los escenarios que se presentan en este artículo, primero debe activar y configurar las características de impresión de oleadas pertinentes, como se describe en [Configurar la impresión de etiquetas de oleada](../warehousing/configure-wave-label-printing.md). Varios de los escenarios de este artículo también requieren que trabaje primero en los escenarios de ese artículo para generar datos de muestra de requisitos previos.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Escenario 1: reimprimir etiquetas desde el cliente web
 

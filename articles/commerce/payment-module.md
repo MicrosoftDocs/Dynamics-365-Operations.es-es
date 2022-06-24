@@ -1,6 +1,6 @@
 ---
 title: Módulo de pago
-description: En este tema se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+description: En este artículo se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850284"
 ---
 # <a name="payment-module"></a>Módulo de pago
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+En este artículo se trata el modulo de pago y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 
 El módulo de pago permite a los clientes pagar pedidos con tarjetas de crédito o débito. La integración de pagos para este módulo la proporciona el connector de pagos de Dynamics 365 para Adyen. Para obtener más información sobre cómo instalar y configurar el conector de pagos, consulte [Conector de pago de Dynamics 365 para Adyen](dev-itpro/adyen-connector.md).  
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896416"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -37,7 +37,7 @@ La funcionalidad existente para los diarios financieros (diario, diario de activ
     [![Una línea.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > La definición de Un asiento **no** incluye los casos donde los nombres de diario se configuran como **Solo un número de asiento** pero el usuario escribe un asiento que incluye solo tipos de cuenta contable. En este tema, Un asiento significa que hay un único asiento que contiene más de un proveedor, cliente, banco, activo fijo o proyecto.
+    > La definición de Un asiento **no** incluye los casos donde los nombres de diario se configuran como **Solo un número de asiento** pero el usuario escribe un asiento que incluye solo tipos de cuenta contable. En este artículo, Un asiento significa que hay un único asiento que contiene más de un proveedor, cliente, banco, activo fijo o proyecto.
 
 - Especifique un asiento multilínea donde no haya cuenta de contrapartida.
 
@@ -63,16 +63,16 @@ A continuación, genere el informe **Gastos por proveedor** en el espacio de tra
 
 Debido a los problemas que pueden producirse cuando se usa Un asiento, esta funcionalidad acabará quedando en desuso. Sin embargo, dado que hay espacios funcionales que dependen de esta funcionalidad, no quedará obsoleta de repente en todos los espacios. En su lugar, se utilizará la programación siguiente:
 
-- **Versión de primavera de 2018**: esta funcionalidad se desactivó de forma predeterminada mediante el parámetro **Permitir varias transacciones en un asiento** en la pestaña **General** de la página **Parámetros de contabilidad general**. Sin embargo, puede activarla si su organización tiene un escenario que cae dentro de uno de los espacios funcionales que se mencionan más adelante en este tema.
+- **Versión de primavera de 2018**: esta funcionalidad se desactivó de forma predeterminada mediante el parámetro **Permitir varias transacciones en un asiento** en la pestaña **General** de la página **Parámetros de contabilidad general**. Sin embargo, puede activarla si su organización tiene un escenario que cae dentro de uno de los espacios funcionales que se mencionan más adelante en este artículo.
 
-    - Si su escenario empresarial no requiere Un asiento, le recomendamos que deje la funcionalidad desactivada. Si la utiliza aunque exista una solución alternativa, Microsoft no corregirá los "errores" en las áreas que se mencionarán más adelante en este tema.
+    - Si su escenario empresarial no requiere Un asiento, le recomendamos que deje la funcionalidad desactivada. Si la utiliza aunque exista una solución alternativa, Microsoft no corregirá los "errores" en las áreas que se mencionarán más adelante en este artículo.
     - Le recomendamos que deje de usar Un asiento para las integraciones, a menos que la funcionalidad sea necesaria para uno de los espacios funcionales documentados.
 
 - **Versiones posteriores**: hay varios requisitos empresariales que solo se pueden cumplir con Un asiento. Microsoft debe asegurarse de que se puedan cumplir todos los requisitos empresariales identificados en el sistema después de que la funcionalidad quede en desuso. Por lo tanto, es probable que haya que agregar nuevas características para rellenar los vacíos funcionales. Microsoft no puede proporcionar una solución específica porque cada vacío funcional es diferente y debe evaluarse en función de los requisitos empresariales. Es probable que algunos vacíos funcionales se reemplacen con características que ayuden a cumplir los requisitos empresariales específicos. Sin embargo, se pueden llenar otros vacíos si se sigue permitiendo la entrada en un diario, como cuando se usa un asiento, pero mejorando el sistema para rastrear más detalles según sea necesario.
 
 Una vez que se hayan cubierto todos los espacios funcionales, Microsoft comunicará que la función queda en desuso. Sin embargo, esto no entrará en vigor durante al menos un año tras la comunicación. Aunque Microsoft no puede proporcionar una estimación sobre cuándo quedará en desuso la funcionalidad de Un asiento, es probable que pasen al menos dos años antes de que se produzca. La directiva de Microsoft es dejar que transcurran al menos 12 meses entre el anuncio de la funcionalidad obsoleta y la obsolescencia real, para que los clientes y los proveedores de software independientes (ISV) tengan tiempo de prepararse para el cambio. Por ejemplo, es posible que una organización tenga que actualizar sus procesos de negocio, entidades e integraciones.
 
-La obsolescencia de Un asiento es un cambio importante que recibirá una amplia difusión. Como parte de esa comunicación, Microsoft actualizará este tema, publicará una entrada de blog en el blog de Microsoft Dynamics 365 Finance, actualizará el tema "Características quitadas o en desuso", comunicará el cambio en las conferencias de Microsoft correspondientes, etc.
+La obsolescencia de Un asiento es un cambio importante que recibirá una amplia difusión. Como parte de esa comunicación, Microsoft actualizará este artículo, publicará una entrada de blog en el blog de Microsoft Dynamics 365 Finance, actualizará el artículo "Características quitadas o en desuso", comunicará el cambio en las conferencias de Microsoft correspondientes, etc.
 
 ## <a name="why-use-one-voucher"></a>¿Por qué usar un asiento?
 

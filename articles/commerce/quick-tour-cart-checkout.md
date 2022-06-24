@@ -1,6 +1,6 @@
 ---
-title: Visión general de las páginas del carro y de la finalización de la compra
-description: Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
+title: Información general de las páginas del carro y de la finalización de la compra
+description: Este artículo proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853776"
 ---
-# <a name="cart-and-checkout-pages-overview"></a>Visión general de las páginas del carro y de la finalización de la compra
+# <a name="cart-and-checkout-pages-overview"></a>Información general de las páginas del carro y de la finalización de la compra
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
 
 La página del carro de una sitio web de comercio electrónico muestra todos los artículos que un cliente ha agregado al carro. La página del carro se crea con el módulo del carro. El módulo del carro es un contenedor que hospeda todos los módulos que se necesitan para mostrar artículos en el carro. El módulo del carro puede usar otros módulos para mostrar el resumen de pedidos y los códigos promocionales que se han aplicado al pedido de cliente.
 

@@ -1,6 +1,6 @@
 ---
 title: Enviar pedidos como entregas directas
-description: En este tema se demuestra cómo crear una entrega directa para un pedido de ventas.
+description: En este artículo se demuestra cómo crear una entrega directa para un pedido de ventas.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875170"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar pedidos como entregas directas
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se demuestra cómo crear una entrega directa para un pedido de ventas. La entrega directa se usa si desea enviar mercancías al cliente directamente desde el proveedor, en lugar de enviarlas a su propio almacén primero. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Para finalizar correctamente la segunda subtarea "Crear entregas directas desde el área de trabajo", asegúrese de que el artículo que elige en el pedido de ventas tiene un proveedor predeterminado especificado en la ficha desplegable Compra del productos maestro emitido.
+En este artículo se demuestra cómo crear una entrega directa para un pedido de ventas. La entrega directa se usa si desea enviar mercancías al cliente directamente desde el proveedor, en lugar de enviarlas a su propio almacén primero. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Para finalizar correctamente la segunda subtarea "Crear entregas directas desde el área de trabajo", asegúrese de que el artículo que elige en el pedido de ventas tiene un proveedor predeterminado especificado en la ficha desplegable Compra del productos maestro emitido.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Definir un pedido individual para entrega directa
 1. Vaya a **panel de navegación > Módulos > Clientes > Pedidos > Todos los pedidos de vents**.

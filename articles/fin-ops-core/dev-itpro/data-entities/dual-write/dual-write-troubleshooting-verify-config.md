@@ -1,6 +1,6 @@
 ---
-title: Comprobar configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
-description: Este tema explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
+title: Comprobar configuración de doble escritura en aplicaciones de finanzas y operaciones y Dataverse
+description: Este artículo explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884470"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Comprobar configuración de doble escritura en aplicaciones de Finance and Operations y Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Comprobar configuración de doble escritura en aplicaciones de finanzas y operaciones y Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062809"
 
 
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse. Específicamente explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
+Este artículo proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Dataverse. Específicamente explica cómo puede determinar si la escritura doble está configurada en aplicaciones Finanzas y operaciones y en Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Verifique que la doble escritura esté configurada en una aplicación Finance and Operations
 

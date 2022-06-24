@@ -1,6 +1,6 @@
 ---
 title: Parámetros globales de dispositivos móviles
-description: Este tema explica cómo configurar los ajustes del dispositivo móvil en la página de parámetros de gestión de almacén.
+description: Este artículo explica cómo configurar los ajustes del dispositivo móvil en la página de parámetros de gestión de almacén.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847770"
 ---
 # <a name="global-mobile-device-parameters"></a>Parámetros globales de dispositivos móviles
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar los parámetros globales de gestión de almacén que afectan a la forma en que el sistema interactúa con los dispositivos móviles.
+Este artículo explica cómo configurar los parámetros globales de gestión de almacén que afectan a la forma en que el sistema interactúa con los dispositivos móviles.
 
 Para obtener más información sobre cómo configurar trabajadores de almacén, consulte [Administrar trabajador de almacén](manage-warehouse-workers.md). Para obtener más información sobre el manejo de matrículas en dispositivos móviles, consulte [Recepción de matrículas a través de la aplicación móvil Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md). Para obtener más información sobre los procesos de recuento cíclico, consulte [Recuento cíclico](cycle-counting.md) y [Escenarios de ejemplo de recuento cíclico](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Abrir la página de parámetros de gestión de almacenes
 
-Para abrir la página **Parámetros de gestión de almacenes**, vaya a **Gestión de almacenes \> Configuración \> Parámetros generales del almacén**. A continuación, puede configurar los campos relacionados con el trabajo del dispositivo móvil, como se describe en la siguiente sección de este tema.
+Para abrir la página **Parámetros de gestión de almacenes**, vaya a **Gestión de almacenes \> Configuración \> Parámetros generales del almacén**. A continuación, puede configurar los campos relacionados con el trabajo del dispositivo móvil, como se describe en la siguiente sección de este artículo.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Ficha desplegable Dispositivo móvil en la pestaña General
 

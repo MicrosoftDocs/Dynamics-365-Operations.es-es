@@ -1,6 +1,6 @@
 ---
 title: Importar datos de las filiales desde archivos
-description: Este tema explica cómo preparar los datos de sistemas externos para que se puedan importar en Microsoft Dynamics 365 Finance.
+description: Este artículo explica cómo preparar los datos de sistemas externos para que se puedan importar en Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846781"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importar datos de las filiales desde archivos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo preparar los datos de sistemas externos para que se puedan importar en Microsoft Dynamics 365 Finance. Debe usar la página **Consolidar con importación** (**Consolidaciones \> Consolidar con importación**) para preparar la transferencia de los datos de filiales desde sistemas externos.
+Este artículo explica cómo preparar los datos de sistemas externos para que se puedan importar en Microsoft Dynamics 365 Finance. Debe usar la página **Consolidar con importación** (**Consolidaciones \> Consolidar con importación**) para preparar la transferencia de los datos de filiales desde sistemas externos.
 
 1. Cree una entidad jurídica filial para el proceso de consolidación. Para obtener más información sobre cómo crear entidades jurídicas, consulte [Crear una entidad jurídica](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Para obtener más información, consulte [Preparar una entidad jurídica para su uso en el proceso de consolidación](prepare-company-for-consolidation.md) y [Establecer una entidad jurídica filial para la consolidación](set-up-subsidiary-company-for-consolidation.md).
 

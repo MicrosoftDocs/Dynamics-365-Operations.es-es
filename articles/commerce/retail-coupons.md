@@ -1,6 +1,6 @@
 ---
 title: Configurar vales para ventas minoristas
-description: Este tema proporciona una visión general de los cupones y explica cómo configurarlos en Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general de los cupones y explica cómo configurarlos en Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: 72ad7b527662bb863069b633d64eea41fee67d44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891941"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 

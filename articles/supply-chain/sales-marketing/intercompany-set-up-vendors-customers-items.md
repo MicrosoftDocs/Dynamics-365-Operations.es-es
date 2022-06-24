@@ -1,6 +1,6 @@
 ---
 title: Configurar proveedores, clientes y artículos para el comercio entre empresas vinculadas
-description: Este tema explica cómo configurar proveedores, clientes y artículos para el comercio entre empresas
+description: Este artículo explica cómo configurar proveedores, clientes y artículos para el comercio entre empresas
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3e1eb7b8673f3af682204b65b33a1d8b61742721
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c928435a4e66832b09dbc805664934cfb1236be
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675048"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945766"
 ---
 # <a name="set-up-vendors-customers-and-items-for-intercompany-trade"></a>Configurar proveedores, clientes y artículos para el comercio entre empresas vinculadas
 
@@ -34,12 +34,13 @@ Si desea preparar a la organización para el comercio entre empresas vinculadas,
 1. Seleccione el cliente para definirlo como cliente de empresa vinculada.
 1. En el panel de acciones, en la pestaña **General**, seleccione **Empresas vinculadas**.
 1. Especifique los parámetros de configuración de empresas vinculadas para la cuenta de cliente. Estos parámetros incluyen la entidad jurídica y la cuenta del proveedor, las directivas de los pedidos de compras, las directivas de los pedidos de ventas, la asignación de valores, así como las directivas de los acuerdos de ventas y de compras. También especificará si desea utilizar los valores de los datos base de la cuenta del cliente o de la cuenta del proveedor en la otra entidad jurídica.
-1. En la página **Clientes**, en la ficha desplegable **Factura y entrega**, seleccione la casilla de verificación **Crear pedidos de empresas vinculadas**. Si desea que los pedidos se entreguen directamente a los clientes, active la casilla de verificación **Entrega directa**.
+1. Cuando haya terminado de configurar los parámetros de empresas vinculadas, cierre la página **Empresas vinculadas** para volver a los detalles del cliente seleccionado.
+1. Amplíe la ficha desplegable **Detalles varios** y establezca **Crear pedidos de empresas vinculadas** a *Sí*. Si también desea que los pedidos se entreguen directamente a los clientes, establezca **Entrega directa** como *Sí*.
 
     > [!NOTE]
-    > Si hay algunos artículos que la organización almacena y entrega a los clientes, es posible que no desee crear pedidos de empresas vinculadas de forma automática, incluso si tiene el artículo en existencias. Para desactivar la creación automática de pedidos de artículos que pueda tener en algún momento en existencias, desactive la casilla de verificación **Crear pedidos de empresas vinculadas**.
+    > Si hay algunos artículos que la organización almacena y entrega a los clientes, es posible que no desee crear pedidos de empresas vinculadas de forma automática, incluso si tiene el artículo en existencias. Para desactivar la creación automática de pedidos de artículos que pueda tener en algún momento en existencias, establezca **Crear pedidos de empresas vinculadas** como *No*.
 
-1. Si desea permitir la creación indirecta de líneas adicionales en un pedido de ventas, active la casilla de verificación **Crear líneas de pedido indirectas**. Un usuario,por lo tanto, puede agregar líneas al pedido de ventas original a partir del pedido de ventas de empresas vinculadas.
+1. Si desea permitir la creación indirecta de líneas adicionales en un pedido de ventas, establezca **Crear líneas de pedido indirectas** como *Sí*. Un usuario,por lo tanto, puede agregar líneas al pedido de ventas original a partir del pedido de ventas de empresas vinculadas.
 
 > [!WARNING]
 > Si permite la creación indirecta de líneas de pedido, está permitiendo todas las adiciones al pedido de ventas original desde el pedido de ventas de empresas vinculadas. Cada adición se procesa a continuación a través del cliente y se agrega al pedido y a la factura. Además, cada documento implicado en la venta se imprime y registra automáticamente. No se avisará a los usuarios sobre la adición.

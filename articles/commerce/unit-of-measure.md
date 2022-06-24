@@ -1,6 +1,6 @@
 ---
 title: Aplicar la configuración de unidades de medida
-description: Este tema cubre las configuraciones de unidades de medida y describe cómo aplicarlas en Microsoft Microsoft Dynamics 365 Commerce.
+description: Este artículo cubre las configuraciones de unidades de medida y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884824"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar la configuración de unidades de medida
 
 [!include [banner](includes/banner.md)]
 
-Este tema cubre las configuraciones de unidades de medida y describe cómo aplicarlas en Microsoft Microsoft Dynamics 365 Commerce.
+Este artículo cubre las configuraciones de unidades de medida y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 
 Un producto se puede vender en diferentes unidades, como "cada uno", "par" y "docena". En la sede de Commerce, la unidad de medida de venta por unidad puede definirse para un producto y mostrarse en un sitio de comercio electrónico. Por ejemplo, si un minorista vende un producto tanto individualmente como en docenas, las unidades de medida disponibles se pueden mostrar junto con otra información del producto.
 

@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas generales
-description: Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse.
+description: Este artículo proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853666"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614106"
 
 
 
-Este tema proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Dataverse.
+Este artículo proporciona información general para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Dataverse.
 
 > [!IMPORTANT]
-> Algunos de los problemas que aborda este tema pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
+> Algunos de los problemas que aborda este artículo pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite y vea el inicio de sesión de seguimiento del complemento Dataverse para ver detalles del error
 

@@ -1,6 +1,6 @@
 ---
 title: Agregar análisis a espacios de trabajo mediante Power BI Embedded
-description: Este tema muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo.
+description: Este artículo muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884560"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "6760161"
 > Esta función se admite en Finance and Operations (versión 7.2 y posterior).
 
 ## <a name="introduction"></a>Introducción
-Este tema muestra cómo insertar un informe de Microsoft Power BI en la pestaña **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
+Este artículo muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
 
 ## <a name="prerequisites"></a>Requisitos previos
 + Obtenga acceso a un entorno del desarrollador de software que ejecute la actualización de plataforma 8 o posterior.

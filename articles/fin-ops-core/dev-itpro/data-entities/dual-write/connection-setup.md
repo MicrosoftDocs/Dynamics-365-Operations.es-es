@@ -1,6 +1,6 @@
 ---
 title: Orientación sobre cómo configurar la doble escritura
-description: Este tema describe los escenarios que son compatibles con la configuración de doble escritura.
+description: Este artículo describe los escenarios que son compatibles con la configuración de doble escritura.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873160"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Orientación sobre cómo configurar la doble escritura
 
@@ -26,7 +26,7 @@ ms.locfileid: "8061613"
 
 Puede configurar una conexión de doble escritura entre entorno de Finanzas y operaciones y uno de Dataverse.
 
-+ Un **entorno de Finanzas y operaciones** proporciona la plataforma subyacente para las **aplicaciones de Finanzas y operaciones** (por ejemplo, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources).
++ Un **entorno de Finanzas y operaciones** proporciona la plataforma subyacente para las **aplicaciones de Finanzas y operaciones** (por ejemplo, Microsoft Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources).
 + Un **entorno Dataverse** proporciona la plataforma subyacente para **aplicaciones de interacción con el cliente** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Column Service, Dynamics 365 Marketing y Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
@@ -78,11 +78,11 @@ Para sincronizar los datos existentes de Dataverse con la aplicación de Finanza
 3. [Arranque](bootstrap-company-data.md) los datos Dataverse mediante el uso de un código de empresa de tres letras de la Organización Internacional de Normalización (ISO).
 4. Ejecute la funcionalidad **Sincronización inicia** para las tablas para las que desea sincronizar datos.
 
-Para obtener enlaces a un ejemplo y un enfoque alternativo, consulte la sección [Ejemplo](#example) más adelante en este tema.
+Para obtener enlaces a un ejemplo y un enfoque alternativo, consulte la sección [Ejemplo](#example) más adelante en este artículo.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Una nueva instancia de aplicación de Finance and Operations que tenga datos y una nueva instancia de aplicación de Customer Engagement
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que tiene datos de demostración y una nueva instancia de aplicación de Customer Engagement, siga los pasos de la sección [Una nueva instancia de aplicación de Finance and Operations y una nueva instancia de aplicación de Customer Engagement](#new-new) más arriba en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de finanzas y operaciones que tiene datos de demostración y una nueva instancia de aplicación de Customer Engagement, siga los pasos de la sección [Una nueva instancia de aplicación de finanzas y operaciones y una nueva instancia de aplicación de Customer Engagement](#new-new) más arriba en este artículo. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
 
 1. Abre la aplicación Finance and Operations desde la página LCS, inicie sesión y luego vaya a **Gestión de datos \> Doble escritura**.
 2. Ejecute la funcionalidad **Sincronización inicia** para las tablas para las que desea sincronizar datos.
@@ -91,7 +91,7 @@ Para obtener enlaces a un ejemplo y un enfoque alternativo, consulte la sección
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Una nueva instancia de aplicación de Finance and Operations que tenga datos de demostración y una instancia de aplicación de Customer Engagement existente
 
-Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de Finance and Operations que tiene datos de demostración y una instancia de aplicación de Customer Engagement existente, siga los pasos de la sección [Una nueva instancia de aplicación de Finance and Operations y una instancia de aplicación de Customer Engagement existente](#new-existing) más arriba en este tema. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
+Para configurar una conexión de doble escritura entre una nueva instancia de aplicación de finanzas y operaciones que tiene datos de demostración y una instancia de aplicación de Customer Engagement existente, siga los pasos de la sección [Una nueva instancia de aplicación de finanzas y operaciones y una instancia de aplicación de Customer Engagement existente](#new-existing) más arriba en este artículo. Cuando finalice la configuración de la conexión, si desea sincronizar los datos de demostración con la aplicación de Customer Engagement, siga estos pasos.
 
 1. Abre la aplicación Finance and Operations desde la página LCS, inicie sesión y luego vaya a **Gestión de datos \> Doble escritura**.
 2. Ejecute la funcionalidad **Sincronización inicia** para las tablas para las que desea sincronizar datos.

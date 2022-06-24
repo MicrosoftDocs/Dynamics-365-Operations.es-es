@@ -1,6 +1,6 @@
 ---
-title: Estados de ciclo de vida de ubicaciones funcionales
-description: Este tema describe cómo configurar los estados y modelos de ciclo de vida de la ubicación funcional en Administración de activos.
+title: Estados de ciclo de vida de ubicación técnica
+description: Este artículo describe cómo configurar los estados y modelos de ciclo de vida de la ubicación funcional en Administración de activos.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934669"
 ---
-# <a name="functional-location-lifecycle-states"></a>Estados de ciclo de vida de ubicaciones funcionales
+# <a name="functional-location-lifecycle-states"></a>Estados de ciclo de vida de ubicación técnica
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Este tema describe cómo configurar los estados y modelos de ciclo de vida de la ubicación funcional en Administración de activos. Los estados de ciclo de vida de una ubicación funcional definen los estados por los que puede pasar una ubicación funcional, por ejemplo: creada, activa y finalizada. Puede ver todas las ubicaciones funcionales, independientemente de su estado de ciclo de vida, en la página de lista **Todas las ubicaciones funcionales**. Puede cambiar el estado de una ubicación funcional seleccionándola en la página de lista **Todas las ubicaciones funcionales** y seleccionando **Actualizar estado de ubicación funcional**.
+Este artículo describe cómo configurar los estados y modelos de ciclo de vida de la ubicación funcional en Administración de activos. Los estados de ciclo de vida de una ubicación funcional definen los estados por los que puede pasar una ubicación funcional, por ejemplo: creada, activa y finalizada. Puede ver todas las ubicaciones funcionales, independientemente de su estado de ciclo de vida, en la página de lista **Todas las ubicaciones funcionales**. Puede cambiar el estado de una ubicación funcional seleccionándola en la página de lista **Todas las ubicaciones funcionales** y seleccionando **Actualizar estado de ubicación funcional**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Configurar estados de ciclo de vida de ubicación técnica
 
@@ -39,6 +39,7 @@ Este tema describe cómo configurar los estados y modelos de ciclo de vida de la
 5. Seleccione "Sí" en el botón de alternar **Crear activos** si es posible crear automáticamente un activo con el mismo nombre que la ubicación funcional e instalarlo en la ubicación funcional en este estado.  
 >[!NOTE]
 >Este botón de alternar está relacionado con el campo **Tipo de activo** en el FastTab **General** del formulario **Tipos de ubicación funcional** (**Administración de activos** > **Configuración** > **Ubicaciones funcionales** > **Tipos de ubicación funcional**).
+
 6. Seleccione "Sí" en el botón de alternar **Cambiar el nombre de la ubicación** si es posible modificar el nombre de la ubicación funcional en este estado.
 7. Seleccione "Sí" en el botón de alternar **Nuevas sububicaciones** si es posible agregar nuevas sububicaciones a la ubicación funcional en este estado.
 8. Seleccione "Sí" en el botón de alternar **Instalar activos** si es posible instalar activos en la ubicación funcional en este estado.

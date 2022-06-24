@@ -1,42 +1,42 @@
 ---
 title: Aprobaciones de factura móvil
-description: Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso.
+description: Este artículo está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737364"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946285"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
 [!include [banner](../includes/banner.md)]
 
-Las capacidades móviles permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
+Las capacidades móviles permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este artículo está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este artículo le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-| Requisito previo                                                                                            | Descripción                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Requisito previo                                                                                            | Descripción                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un entorno que tiene la versión 1611 y la actualización de plataforma 3 (noviembre de 2016)                   |
 | Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos la actualización de plataforma 3 (noviembre de 2016). |
 | Instalar revisión KB 3207800.                                                                              | Esta revisión habilita los datos adjuntos que se verán en el cliente móvil, lo cual se incluye en la actualización de plataforma 3 (noviembre de 2016).           |
 | Instalar revisión KB 3208224.                                                                              | El código de la aplicación para la aplicación de aprobación de facturas de proveedores móviles se incluye en la versión 7.0.1 (mayo de 2016).                          |
-| Un dispositivo Android, iOS o Windows que tengan la aplicación móvil instalada. | Busque la aplicación en la tienda de aplicaciones apropiada.                                                                                                                     |
+| Un dispositivo Android, iOS o Windows que tengan la aplicación móvil instalada. | Busque la aplicación en la tienda de aplicaciones apropiada.                            |
 
 ## <a name="introduction"></a>Introducción
 Las aprobaciones móviles para las facturas de proveedor requieren la tres revisiones mencionadas en la sección de los requisititos previos. Estas revisiones no proporcionan un espacio de trabajo para las aprobaciones de facturas. Para saber qué es un espacio de trabajo en el contexto de las aplicaciones móviles, lea el manual referido en la sección de los requisitos previos. Se debe diseñar un espacio de trabajo para aprobaciones de facturas. 
@@ -51,11 +51,11 @@ Cada organización articula y define su proceso empresarial para las facturas de
     -   ¿Las facturas también tienen distribuciones contables en el encabezado de factura? En dicho caso, ¿estas distribuciones contables deben estar disponible en el dispositivo?
 
     > [!NOTE]
-    > Este tema no explica cómo editar distribuciones contables, porque esta funcionalidad no se admite actualmente para los escenarios móviles.
+    > Este artículo no explica cómo editar distribuciones contables, porque esta funcionalidad no se admite actualmente para los escenarios móviles.
 
 -   ¿Los usuarios desearán ver los datos adjuntos de la factura en el dispositivo?
 
-El diseño de la experiencia móvil de las aprobaciones de facturas variará, en función de las respuestas a estas preguntas. El objetivo es optimizar la experiencia del usuario para el proceso empresarial en las plataformas móviles de una organización. En el resto de este tema, revisaremos dos variaciones del escenario que se basan en diferentes respuestas a las preguntas anteriores. 
+El diseño de la experiencia móvil de las aprobaciones de facturas variará, en función de las respuestas a estas preguntas. El objetivo es optimizar la experiencia del usuario para el proceso empresarial en las plataformas móviles de una organización. En el resto de este artículo, revisaremos dos variaciones del escenario que se basan en diferentes respuestas a las preguntas anteriores. 
 
 Como orientación general, al trabajar con el diseñador para aplicaciones móviles, asegúrese de “publicar” los cambios para evitar perder las actualizaciones.
 

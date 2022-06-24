@@ -1,6 +1,6 @@
 ---
-title: Programar la creación del trabajo durante la oleada
-description: Este tema describe cómo configurar y utilizar el método de programación de procesamiento de oleada de creación de trabajos.
+title: Programar la creación de trabajo durante el lanzamiento
+description: Este artículo describe cómo configurar y utilizar el método de programación de procesamiento de oleada de creación de trabajos.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852081"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Programar la creación del trabajo durante la oleada
 
@@ -30,7 +30,7 @@ Cuando la funcionalidad está habilitada, el trabajo planificado se creará auto
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Activar las funciones de creación de trabajos programados en la gestión de funciones
 
-Para utilizar las funciones descritas en este tema, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
+Para utilizar las funciones descritas en este artículo, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
 1. **Bloqueo de trabajo en toda la organización**: requerido para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. **Creación de trabajo programado**: requerido para la configuración manual y automática de la creación de trabajos programados.

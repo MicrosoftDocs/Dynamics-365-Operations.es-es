@@ -1,6 +1,6 @@
 ---
 title: Ajustar resultados de recomendaciones de producto basadas en AI-ML
-description: Este tema explica cómo ajustar los resultados de recomendaciones de productos según la inteligencia artificial-aprendizaje automático (AI-ML) para tu negocio.
+description: Este artículo explica cómo ajustar los resultados de recomendaciones de productos según la inteligencia artificial-aprendizaje automático (AI-ML) para tu negocio.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74fa013d44e0f113bdf0ce0ca9efeb943926e9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901711"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados de recomendaciones de producto basadas en AI-ML
 
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo ajustar los resultados de recomendaciones de productos mediante técnicas de inteligencia artificial-aprendizaje automático (AI-ML) para su empresa. 
+En este artículo se explica cómo ajustar los resultados de recomendaciones de productos mediante técnicas de inteligencia artificial-aprendizaje automático (AI-ML) para su empresa. 
 
 Tras habilitar las recomendaciones de productos, entrarán en vigor las configuraciones predeterminadas; estos parámetros funcionarán ya que pueden funcionar para muchas necesidades. Es mejor planificar pasar algún tiempo evaluando si los resultados se ajustan al movimiento de venta de los productos. Sugerimos evaluar los resultados durante varios días antes de cambiar los parámetros según sea necesario antes de probar de nuevo. 
 

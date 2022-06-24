@@ -1,6 +1,6 @@
 ---
 title: Pedidos de calidad
-description: Este tema describe cómo crear pedidos de calidad de forma manual o automática y cómo trabajar con ellos para realizar inspecciones y registrar los resultados de las pruebas en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo crear pedidos de calidad de forma manual o automática y cómo trabajar con ellos para realizar inspecciones y registrar los resultados de las pruebas en Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857790"
 ---
 # <a name="quality-orders"></a>Pedidos de calidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear pedidos de calidad de forma manual o automática y cómo trabajar con ellos para realizar inspecciones y registrar los resultados de las pruebas en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe cómo crear pedidos de calidad de forma manual o automática y cómo trabajar con ellos para realizar inspecciones y registrar los resultados de las pruebas en Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Pedidos de calidad creados automáticamente
 
@@ -39,7 +39,7 @@ Para crear un pedido de calidad manualmente, siga estos pasos.
 
 1. Vaya a **Gestión del inventario \> Tareas periódicas \> Administración de calidad \> Pedidos de calidad**.
 1. Seleccione **Nuevo**.
-1. En el cuadro de diálogo **Pedidos de calidad**, en el campo **Tipo de referencia**, seleccione la referencia de inventario con la que se relacionará su pedido de calidad. Para obtener una descripción de los tipos de referencia que están disponibles para su selección, consulte la sección [Tipos de referencia de pedidos de calidad](#ref-types), más adelante en este tema.
+1. En el cuadro de diálogo **Pedidos de calidad**, en el campo **Tipo de referencia**, seleccione la referencia de inventario con la que se relacionará su pedido de calidad. Para obtener una descripción de los tipos de referencia que están disponibles para su selección, consulte la sección [Tipos de referencia de pedidos de calidad](#ref-types), más adelante en este artículo.
 
     > [!NOTE]
     > El inventario relacionado con la referencia seleccionada debe estar disponible. Si no hay inventario disponible para la combinación del tipo de referencia, la cantidad y las dimensiones de inventario que seleccione, recibirá un mensaje de error.
@@ -88,7 +88,7 @@ Puede utilizar la página de pedidos de calidad para crear manualmente un nuevo 
 
 ### <a name="from-the-quality-orders-page"></a>Desde la página de pedidos de calidad
 
-Para crear manualmente pedidos de calidad y ver todos los pedidos de calidad existentes, vaya a **Gestión de inventarios \> Tareas periódicas \> Gestión de calidad \> Pedidos de calidad**. Las secciones restantes de este tema proporcionan más información sobre cómo trabajar con la página **Pedidos de calidad**.
+Para crear manualmente pedidos de calidad y ver todos los pedidos de calidad existentes, vaya a **Gestión de inventarios \> Tareas periódicas \> Gestión de calidad \> Pedidos de calidad**. Las secciones restantes de este artículo proporcionan más información sobre cómo trabajar con la página **Pedidos de calidad**.
 
 ### <a name="from-sales-orders"></a>Desde pedidos de ventas
 

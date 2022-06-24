@@ -1,6 +1,6 @@
 ---
-title: Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
-description: Este tema explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+title: Recepción de matrículas de entidad de almacén mediante la aplicación móvil Warehouse Management
+description: Este artículo explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907011"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas mediante la aplicación móvil Gestión de almacenes
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas de entidad de almacén mediante la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+Este artículo explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 
 Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
 

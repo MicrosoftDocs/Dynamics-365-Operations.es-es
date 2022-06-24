@@ -1,6 +1,6 @@
 ---
 title: Cree reglas para el asesor de optimización
-description: Este tema describe cómo agregar nuevas reglas al asesor de optimización.
+description: Este artículo describe cómo agregar nuevas reglas al asesor de optimización.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734673"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850916"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Cree reglas para el asesor de optimización
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo crear nuevas reglas para el **asesor de optimización**. Por ejemplo, puede crear una nueva regla que identifique los casos de solicitud de presupuesto que tengan un título vacío. El uso de títulos en los casos hace que se puedan identificar y buscar con facilidad. Aunque es bastante simple, este ejemplo muestra qué se puede lograr con reglas de optimización. 
+Este artículo explica cómo crear nuevas reglas para el **asesor de optimización**. Por ejemplo, puede crear una nueva regla que identifique los casos de solicitud de presupuesto que tengan un título vacío. El uso de títulos en los casos hace que se puedan identificar y buscar con facilidad. Aunque es bastante simple, este ejemplo muestra qué se puede lograr con reglas de optimización. 
 
 Una *regla* es una comprobación de los datos de la aplicación. Si se cumple la condición que evalúa la regla, se crean oportunidades para optimizar procesos o mejorar datos creados. Se puede actuar sobre las oportunidades y, opcionalmente, se puede medir el impacto de las acciones. 
 

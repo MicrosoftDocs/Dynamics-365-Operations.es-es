@@ -1,6 +1,6 @@
 ---
 title: Configurar equipos de distribución
-description: Este tema describe cómo crear un equipo de distribución.
+description: Este artículo describe cómo crear un equipo de distribución.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742cb79076662e9595b98bb7acf91ffed5e0ac82
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2051ccdbe5786a347c1eba5bd36a0d6c77ad72a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847857"
 ---
 # <a name="set-up-dispatch-teams"></a>Configurar equipos de distribución 
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo crear un equipo de distribución. Una vez creado un equipo de distribución, puede asignar trabajadores al equipo. Cuando cree un pedido de servicio, puede relacionar a continuación un miembro de un equipo de distribución con una actividad en el pedido de servicio.
+Este artículo describe cómo crear un equipo de distribución. Una vez creado un equipo de distribución, puede asignar trabajadores al equipo. Cuando cree un pedido de servicio, puede relacionar a continuación un miembro de un equipo de distribución con una actividad en el pedido de servicio.
 
 1.  Haga clic en **Gestión de servicio** \> **Configuración** \> **Equipos de distribución**.
 

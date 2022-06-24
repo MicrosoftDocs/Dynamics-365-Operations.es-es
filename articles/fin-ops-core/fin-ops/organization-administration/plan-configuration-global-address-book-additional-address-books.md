@@ -1,6 +1,6 @@
 ---
 title: Plan para la libreta de direcciones global y otras libretas de direcciones
-description: Este tema describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación.
+description: Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863170"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plan para la libreta de direcciones global y otras libretas de direcciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa.
+Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales. Algunas de las decisiones requerirán que confirme las decisiones que se han realizado para otras áreas de producto, como la jerarquía organizativa.
 
 ## <a name="global-address-book"></a>Libreta de direcciones global
 

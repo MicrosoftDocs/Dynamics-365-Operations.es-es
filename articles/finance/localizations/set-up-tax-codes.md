@@ -1,6 +1,6 @@
 ---
 title: Configurar de códigos de impuestos
-description: En este tema se explica cómo configurar códigos de impuestos en el servicio de cálculo de Impuestos.
+description: En este artículo se explica cómo configurar códigos de impuestos en el servicio de cálculo de Impuestos.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862939"
 ---
 # <a name="set-up-tax-codes"></a>Configurar de códigos de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar códigos de impuestos en el servicio de cálculo de Impuestos. Incluye la configuración de un escenario simple para hacer que el código de impuestos funcione e información sobre algunas funciones avanzadas del código de impuestos para escenarios complejos.
+En este artículo se explica cómo configurar códigos de impuestos en el servicio de cálculo de Impuestos. Incluye la configuración de un escenario simple para hacer que el código de impuestos funcione e información sobre algunas funciones avanzadas del código de impuestos para escenarios complejos.
 
 > [!IMPORTANT]
 > La configuración de códigos de impuestos en el servicio de cálculo de impuestos es independiente de la entidad jurídica. Puede completar esta configuración en Regulatory Configuration Service (RCS) solo una vez. Los códigos de impuestos se sincronizan automáticamente con Microsoft Dynamics 365 Finance cuando se activa el servicio de cálculo de impuestos para una entidad jurídica seleccionada en Finanzas.

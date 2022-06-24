@@ -1,6 +1,6 @@
 ---
 title: Configurar los pasos de aprobación en un flujo de trabajo
-description: Este tema explica cómo configurar las propiedades de un paso de aprobación.
+description: Este artículo explica cómo configurar las propiedades de un paso de aprobación.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 5d7491c690cce7014f1aca0fb30ff6c3f21f45f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848704"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar los pasos de aprobación en un flujo de trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "8070786"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema explica cómo configurar las propiedades de un paso de aprobación.
+Este artículo explica cómo configurar las propiedades de un paso de aprobación.
 
 Para configurar un paso de aprobación en el editor de flujo de trabajo, haga clic con el botón secundario en el paso de aprobación y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades del paso de aprobación.
 

@@ -1,6 +1,6 @@
 ---
 title: Crear un plan de bajas y ausencias
-description: Este tema describe cómo crear planes de vacaciones en Dynamics 365 Human Resources para diferentes tipos de licencia.
+description: Este artículo describe cómo crear planes de vacaciones en Dynamics 365 Human Resources para diferentes tipos de licencia.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad5d4b1e7b67d1148d01f393a2d548d06b84de9a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 42f7dbf53ad26107d9919d7e6ccfd6f9d3cff7c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858167"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Crear un plan de bajas y ausencias
 
 > [!Important]
-> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
+> La funcionalidad mencionada en este artículo está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

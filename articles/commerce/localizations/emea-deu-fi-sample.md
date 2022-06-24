@@ -1,6 +1,6 @@
 ---
 title: Ejemplo de integración de servicio de registro fiscal para Alemania
-description: Este tema proporciona una visión general del ejemplo de integración fiscal para Alemania en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general del ejemplo de integración fiscal para Alemania en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867767"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Ejemplo de integración de servicio de registro fiscal para Alemania
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del ejemplo de integración fiscal para Alemania en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general del ejemplo de integración fiscal para Alemania en Microsoft Dynamics 365 Commerce.
 
 Para cumplir con los requisitos fiscales locales para las cajas registradoras en Alemania, la funcionalidad de Microsoft Dynamics 365 Commerce para Alemania incluye una integración de muestra del punto de venta (POS) con un servicio de registro fiscal externo. La muestra extiende la [funcionalidad de integración fiscal](fiscal-integration-for-retail-channel.md). Se basa en el [EFR (Registro Fiscal Electrónico)](https://www.efsta.eu/de/fiskalloesungen/deutschland) solución de [EFSTA](https://www.efsta.eu/de/) y habilita la comunicación con el servicio EFR a través del protocolo HTTPS. El servicio EFR debe estar alojado en la estación de hardware minorista o en un equipo separado al que se pueda conectar desde la estación de hardware. La muestra se proporciona en forma de código fuente y es parte del kit de desarrollo de software (SDK) de Retail.
 

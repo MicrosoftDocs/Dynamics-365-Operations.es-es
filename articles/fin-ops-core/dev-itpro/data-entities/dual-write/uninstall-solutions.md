@@ -1,6 +1,6 @@
 ---
 title: Desinstalar soluciones de orquestación de aplicaciones de escritura dual
-description: Este tema explica como desinstalar soluciones de orquestación de aplicaciones de escritura dual.
+description: Este artículo explica como desinstalar soluciones de orquestación de aplicaciones de escritura dual.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455328"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870385"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Desinstalar soluciones de orquestación de aplicaciones de escritura dual
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica como desinstalar soluciones de orquestación de aplicaciones de escritura dual.
+Este artículo explica como desinstalar soluciones de orquestación de aplicaciones de escritura dual.
 
 Algunos clientes instalan sin querer el paquete de orquestación de aplicaciones de escritura dual que instala varias soluciones en su entorno de Microsoft Dataverse. La instalación de soluciones extrañas en el paquete puede causar problemas inesperados e indeseables.
 

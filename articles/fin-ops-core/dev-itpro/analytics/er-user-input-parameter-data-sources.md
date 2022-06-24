@@ -1,6 +1,6 @@
 ---
 title: Utilice fuentes de datos de PARÁMETROS DE ENTRADA DE USUARIO para especificar parámetros para un informe
-description: Este tema explica cómo usar fuentes de datos de PARÁMETROS DE ENTRADA DE USUARIO para especificar parámetros para los informes que genera.
+description: Este artículo explica cómo usar fuentes de datos de PARÁMETROS DE ENTRADA DE USUARIO para especificar parámetros para los informes que genera.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872983"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Utilice fuentes de datos de PARÁMETROS DE ENTRADA DE USUARIO para especificar parámetros para un informe
 
 [!include[banner](../includes/banner.md)]
 
-Cuando diseña [Asignación de modelos](er-overview-components.md#model-mapping-component) de [Informes electrónicos](general-electronic-reporting.md) (ER) y componentes de [formato](er-overview-components.md#format-component) de ER, puede utilizar fuentes de datos de un *PARÁMETRO DE ENTRADA DE USUARIO* para obtener los valores necesarios que se pueden especificar en los campos de entrada de datos en el cuadro de diálogo en runtime, antes de que comience la ejecución de un formato ER. Este tema describe las fuentes de datos de *PARÁMETRO DE ENTRADA DE USUARIO* que son compatibles actualmente.
+Cuando diseña [Asignación de modelos](er-overview-components.md#model-mapping-component) de [Informes electrónicos](general-electronic-reporting.md) (ER) y componentes de [formato](er-overview-components.md#format-component) de ER, puede utilizar fuentes de datos de un *PARÁMETRO DE ENTRADA DE USUARIO* para obtener los valores necesarios que se pueden especificar en los campos de entrada de datos en el cuadro de diálogo en runtime, antes de que comience la ejecución de un formato ER. Este artículo describe las fuentes de datos de *PARÁMETRO DE ENTRADA DE USUARIO* que son compatibles actualmente.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>Propiedades obligatorias
 

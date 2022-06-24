@@ -1,6 +1,6 @@
 ---
-title: Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
-description: Este tema ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en Dynamics 365 Commerce.
+title: Información general de la página de aterrizaje de la categoría predeterminada y la página de resultados de la búsqueda
+description: Este artículo ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881861"
 ---
-# <a name="default-category-landing-page-and-search-results-page-overview"></a>Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Información general de la página de aterrizaje de la categoría predeterminada y la página de resultados de la búsqueda
 
 [!include [banner](includes/banner.md)]
 
-Este tema ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en comercio electrónico de Microsoft Dynamics 365 Commerce.
+Este artículo ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en comercio electrónico de Microsoft Dynamics 365 Commerce.
 
 ## <a name="default-category-landing-page"></a>Página de aterrizaje de categoría predeterminada
 
@@ -32,7 +32,7 @@ La página de aterrizaje de categoría predeterminada es la página a la que se 
 
 ![Página de aterrizaje de categoría predeterminada.](./media/SimpleCategoryLandingDressCategory.png)
 
-En la parte superior de la página se encuentra un encabezado que muestra todas las categorías de producto y otras páginas que el administrador de comercialización ha clasificado. La configuración se realiza como parte de la configuración de la jerarquía de navegación de canal. En la parte inferior de la página hay un pie de página que incluye vínculos rápidos a diversos temas en los que un comprador puede estar interesado.
+En la parte superior de la página se encuentra un encabezado que muestra todas las categorías de producto y otras páginas que el administrador de comercialización ha clasificado. La configuración se realiza como parte de la configuración de la jerarquía de navegación de canal. En la parte inferior de la página hay un pie de página que incluye vínculos rápidos a diversos artículos en los que un comprador puede estar interesado.
 
 Los siguientes componentes son esenciales para una categoría:
 

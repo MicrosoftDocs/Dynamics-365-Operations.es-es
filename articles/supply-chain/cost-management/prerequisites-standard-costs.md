@@ -1,6 +1,6 @@
 ---
-title: Visión general de los requisitos previos de los costes estándar
-description: Este tema describe los pasos básicos para el uso de costes estándar.
+title: Información general de los requisitos previos de los costes estándar
+description: Este artículo describe los pasos básicos para el uso de costes estándar.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895797"
 ---
-# <a name="prerequisites-for-standard-costs-overview"></a>Visión general de los requisitos previos de los costes estándar
+# <a name="prerequisites-for-standard-costs-overview"></a>Información general de los requisitos previos de los costes estándar
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los pasos básicos para el uso de costes estándar. Los pasos posteriores dependen de las operaciones de la empresa. Por ejemplo, los pasos difieren para un entorno de no fabricación, un entorno de fabricación que no usa enrutamientos y un entorno de fabricación que usa enrutamiento. 
+Este artículo describe los pasos básicos para el uso de costes estándar. Los pasos posteriores dependen de las operaciones de la empresa. Por ejemplo, los pasos difieren para un entorno de no fabricación, un entorno de fabricación que no usa enrutamientos y un entorno de fabricación que usa enrutamiento. 
 
 Para establecer los costes estándar, siga estos pasos.
 
@@ -65,7 +65,7 @@ Use el formulario **Configuración de la versión de gestión de costes** para c
 Los clientes que deseen modificar sus artículos existentes a un modelo de inventario de costes estándar deberán usar la página **Conversiones de costes estándar**.
 
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Visión general de conversión de costes estándares](standard-cost-conversion-overview.md)
 

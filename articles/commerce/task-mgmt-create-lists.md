@@ -1,6 +1,6 @@
 ---
 title: Crear listas de tareas y agregar tareas
-description: Este tema describe cómo crear listas de tareas y agregar tareas en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo crear listas de tareas y agregar tareas en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a299be239d911e4605ed26625a313c93bd3020b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881640"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Crear listas de tareas y agregar tareas
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear listas de tareas y agregar tareas en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo crear listas de tareas y agregar tareas en Microsoft Dynamics 365 Commerce.
 
 Una *tarea* define un trabajo específico o una acción que alguien debe completar en o antes de una fecha de vencimiento especificada. En Dynamics 365 Commerce, una tarea puede incluir instrucciones detalladas e información sobre una persona de contacto. También puede incluir enlaces a operaciones de back-office, operaciones de punto de venta (PDV) o páginas del sitio, para ayudar a mejorar la productividad y proporcionar el contexto que el propietario de la tarea requiere para completar la tarea de manera eficiente.
 

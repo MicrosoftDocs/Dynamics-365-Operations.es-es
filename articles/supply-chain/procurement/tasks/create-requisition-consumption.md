@@ -1,6 +1,6 @@
 ---
 title: Crear una solicitud para consumo
-description: En este tema se describe el proceso de crear una solicitud.
+description: En este artículo se describe el proceso de crear una solicitud.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888481"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Crear una solicitud para consumo
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe el proceso de crear una solicitud. Le muestra diferentes formas de buscar productos en el catálogo de compras y cómo agregar un producto que no esté en el catálogo. Antes de comenzar este procedimiento, debe haber configurado una directiva de compra con Consumo como tipo predeterminado de solicitud. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. El procedimiento solo lo puede realizar un perfil de usuario configurado como trabajador. Esta tarea la realiza normalmente un empleado. El rol de seguridad **Empleado** le permitirá realiza las tareas. O bien, si utiliza USMF, puede iniciar sesión como **Alicia**.
+En este artículo se describe el proceso de crear una solicitud. Le muestra diferentes formas de buscar productos en el catálogo de compras y cómo agregar un producto que no esté en el catálogo. Antes de comenzar este procedimiento, debe haber configurado una directiva de compra con Consumo como tipo predeterminado de solicitud. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. El procedimiento solo lo puede realizar un perfil de usuario configurado como trabajador. Esta tarea la realiza normalmente un empleado. El rol de seguridad **Empleado** le permitirá realiza las tareas. O bien, si utiliza USMF, puede iniciar sesión como **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Creación de una nueva solicitud

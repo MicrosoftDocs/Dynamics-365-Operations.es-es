@@ -1,6 +1,6 @@
 ---
 title: Integrar con LinkedIn Talent Hub
-description: Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 Human Resources y LinkedIn Talent Hub.
+description: Este artículo explica cómo configurar la integración entre Microsoft Dynamics 365 Human Resources y LinkedIn Talent Hub.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887759"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrar con LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> La integración entre Dynamics 365 Human Resources y LinkedIn Talent Hub descrito en este tema se retiró el 31 de diciembre de 2021. El servicio de integración dejará de estar disponible después de esta fecha. Las organizaciones que aún no utilicen el servicio de integración no podrán implementar el servicio antes de la jubilación.
+> La integración entre Dynamics 365 Human Resources y LinkedIn Talent Hub descrito en este artículo se retiró el 31 de diciembre de 2021. El servicio de integración dejará de estar disponible después de esta fecha. Las organizaciones que aún no utilicen el servicio de integración no podrán implementar el servicio antes de la jubilación.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) es una plataforma de sistema de seguimiento de candidatos (ATS). Permite buscar, administrar y contratar empleados, todo en un solo lugar. Mediante la integración de Microsoft Dynamics 365 Human Resources con LinkedIn Talent Hub, puede crear fácilmente registros de empleados en Human Resources para los solicitantes contratados para un puesto.
 

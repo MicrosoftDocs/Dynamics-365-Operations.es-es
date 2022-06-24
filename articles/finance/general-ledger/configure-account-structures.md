@@ -1,6 +1,6 @@
 ---
 title: Configurar estructuras contables
-description: En este tema se proporciona información acerca de las estructuras contables y las dimensiones financieras.
+description: En este artículo se proporciona información acerca de las estructuras contables y las dimensiones financieras.
 author: aprilolson
 ms.date: 06/03/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c775703047f4d2ccf2b1c35e2810c015ee1c1506
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907991"
 ---
 # <a name="configure-account-structures"></a>Configurar estructuras contables
 

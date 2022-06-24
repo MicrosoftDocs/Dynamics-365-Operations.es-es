@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876336"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -33,12 +33,9 @@ Las **facturas de servicios** no están relacionadas con los pedidos de ventas. 
 Para obtener más información, consulte:
 
 [Crear facturas de servicios](../accounts-receivable/create-free-text-invoice-new.md)
-
 [Crear una plantilla de factura de servicios](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Asignación de una plantilla de factura de texto libre a un cliente](tasks/assign-free-text-invoice-template-customer.md)
-
-[Generación y registro de facturas de servicios](tasks/post-recurring-free-text-invoices.md)
+[Asignar plantilla de factura de servicios a un cliente](tasks/assign-free-text-invoice-template-customer.md)
+[Generar y publicar facturas de servicios recurrentes](tasks/post-recurring-free-text-invoices.md)
 
 
 Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una **factura proforma** para una factura de cliente de un pedido de ventas o de una factura de servicios. 
@@ -91,8 +88,8 @@ Puede configurar la división de facturas de clientes de pedidos de ventas por s
  - Active la opción **Dividir según el sitio de factura** para crear una factura por cada sitio al registrar. 
  - Active la opción **Dividir según la información de la entrega de factura** para crear una factura por cada dirección de entrega de línea de pedido de ventas al registrar. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registrar en la cuenta de ingresos para líneas de factura de pedido de ventas que no tienen precio
-Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio. Para configurar o ver esta información, vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio. Se define una cuenta de ingresos en la página del parámetro **Publicación de inventario**, en la pestaña **Pedidos de ventas** de definición de cuenta. Si no se selecciona esta opción, las líneas que no tienen información de precios no se contabilizarán en la cuenta **Ingresos**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registrar en la cuenta de ingresos para líneas de factura de pedido de ventas que no tienen precio ni coste
+Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio ni coste. Para configurar o ver esta información, vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio y coste cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio ni coste. Si se selecciona esta opción, el comprobante contendrá movimientos de 0,00 para los tipos de registro **Saldo del cliente** e **Ingresos**. Se define una cuenta de ingresos en la página del parámetro **Publicación de inventario**, en la pestaña **Pedidos de ventas** de definición de cuenta. Si no se selecciona esta opción, las líneas que no tienen información de precios ni de coste no se contabilizarán en la cuenta **Ingresos**. En cambio, el comprobante contendrá un movimiento de 0,00 para el tipo de registro **Saldo del cliente**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Opciones adicionales que modifican el comportamiento de registro
 Los siguientes campos cambian el comportamiento del proceso de registro.

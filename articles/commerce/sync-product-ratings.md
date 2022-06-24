@@ -1,6 +1,6 @@
 ---
 title: Sincronizar clasificaciones de producto en Dynamics 365 Commerce
-description: Este tema describe cómo sincronizar las clasificaciones de productos en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo sincronizar las clasificaciones de productos en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909344"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar clasificaciones de producto en Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo sincronizar las clasificaciones de productos en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo sincronizar las clasificaciones de productos en Microsoft Dynamics 365 Commerce.
 
 Para consumir clasificaciones de productos en omnicanales, como en punto de venta (PDV) y en centros de llamadas, las clasificaciones de productos del servicio de clasificaciones y revisiones deben importarse en la base de datos de canal de Commerce. Cuando las clasificaciones de productos se vuelven disponibles en omnicanales, pueden ayudar a los clientes indirectamente durante sus interacciones con socios de ventas.
 
-Este tema describe las siguientes tareas:
+Este artículo describe las siguientes tareas:
 
 1. Configure **Trabajo de sincronización de clasificaciones de productos** como un trabajo por lotes para sincronizar clasificaciones de productos desde el **servicio de clasificaciones y revisiones**.
 1. Compruebe que el trabajo por lotes para la sincronización de clasificación de productos fue correcto.

@@ -1,6 +1,6 @@
 ---
 title: Consultas e informes sobre materiales peligrosos
-description: Este tema explica cómo trabajar con los distintos informes relacionados con materiales peligrosos. Muchos de estos informes son necesarios para que pueda seguir cumpliendo con las diversas regulaciones de materiales peligrosos durante el envío y almacenamiento.
+description: Este artículo explica cómo trabajar con los distintos informes relacionados con materiales peligrosos. Muchos de estos informes son necesarios para que pueda seguir cumpliendo con las diversas regulaciones de materiales peligrosos durante el envío y almacenamiento.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846051"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e informes sobre materiales peligrosos
 
@@ -63,7 +63,7 @@ Para ver este informe, vaya a **Gestión de información de productos \> Consult
 
 Para obtener más información sobre cómo establecer límites de existencias en un producto despachado, consulte [Establecer límites de existencias para productos peligrosos](hazmat-items.md#stock-limits).
 
-La regulación que se utiliza para los límites de existencias se define en la página **Parámetros de gestión de almacén**. Vaya a **Gestión de almacenes \> Preparar \> Parámetros de gestión de almacén** y luego, en la pestaña **Informes** de **Límite de existencias de materiales peligrosos**, especifique un código de regulación. Para obtener más información, consulte la sección [Configurar un informe de materiales peligrosos](#set-up) previa de este tema.
+La regulación que se utiliza para los límites de existencias se define en la página **Parámetros de gestión de almacén**. Vaya a **Gestión de almacenes \> Preparar \> Parámetros de gestión de almacén** y luego, en la pestaña **Informes** de **Límite de existencias de materiales peligrosos**, especifique un código de regulación. Para obtener más información, consulte la sección [Configurar un informe de materiales peligrosos](#set-up) previa de este artículo.
 
 ## <a name="verified-gross-mass-report"></a>Informe de peso bruto verificado
 

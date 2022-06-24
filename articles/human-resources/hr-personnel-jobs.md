@@ -1,6 +1,6 @@
 ---
 title: Configurar los componentes de un trabajo
-description: Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización.
+description: Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de828bc1ab764a8a1bd084a508f38ff19a3947d5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: afe100879a4f83e4ef16048bc4b1acace19b679b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877725"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar los componentes de un trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693595"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
+Este artículo describe los artículos conceptuales que un trabajo puede incluir y se proporcionan ejemplos de cómo se pueden usar los artículos en la organización. 
 
 Antes de poder crear trabajos, debe configurar información de referencia. Puede crear un trabajo que tiene solo un nombre. Sin embargo, incluyendo información adicional, como un puesto, ofrece los valores predeterminados para los puestos asignados al trabajo. Además, parte de la información que especifique se puede usar para filtrar planes de compensación para trabajos específicos. Si quiere configurar elegibilidad que pueda usar para filtrar planes de compensación para un trabajo específico, debe configurar funciones de trabajo y tipos de trabajo antes de configurar los trabajos. Con estos valores predeterminados disponibles, ahorrará tiempo al agregar puestos al trabajo. 
 

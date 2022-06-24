@@ -1,8 +1,8 @@
 ---
-title: Asignación de inventario para para visibilidad de inventario
-description: Este tema explica cómo configurar y usar la característica de asignación de inventario, que le permite reservar un inventario dedicado para garantizar que pueda cumplir con sus canales o clientes más rentables.
+title: Asignación de inventario de Inventory Visibility
+description: Este artículo explica cómo configurar y usar la característica de asignación de inventario, que le permite reservar un inventario dedicado para garantizar que pueda cumplir con sus canales o clientes más rentables.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852516"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Asignación de inventario para para visibilidad de inventario
 
@@ -98,7 +98,7 @@ Aquí están las medidas calculadas:
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Agregar otras medidas físicas a la medida calculada disponible para asignar
 
-Para utilizar la asignación, debe configurar la medida calculada disponible para asignar (`@iv` .`@available_to_allocate`). Por ejemplo, tiene el origen de datos `fno` y la medida `onordered`, el origen de datos `pos` y la medida `inbound`, y desea hacer una asignación del disponible para la suma de `fno.onordered` y `pos.inbound`. En este caso, `@iv.@available_to_allocate` debería contener `pos.inbound` y `fno.onordered` en la fórmula. Este es un ejemplo:
+Para utilizar la asignación, debe configurar la medida calculada disponible para asignar (`@iv.@available_to_allocate`). Por ejemplo, tiene el origen de datos `fno` y la medida `onordered`, el origen de datos `pos` y la medida `inbound`, y desea hacer una asignación del disponible para la suma de `fno.onordered` y `pos.inbound`. En este caso, `@iv.@available_to_allocate` debería contener `pos.inbound` y `fno.onordered` en la fórmula. Este es un ejemplo:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ Se establecen los nombres de los grupos en la página **Configuración de Power 
 
 Por ejemplo, si usa cuatro nombres de grupo y los configura para \[`channel`, `customerGroup`, `region`, `orderType`\], estos nombres serán válidos para las solicitudes relacionadas con la asignación cuando llame a la API de actualización de configuración.
 
-### <a name="allcoation-using-tips"></a>Asignación conforme a recomendaciones
+### <a name="allocation-using-tips"></a>Asignación conforme a recomendaciones
 
-- Para cada producto, la función de asignación debe usarse en el mismo nivel de dimensión, de acuerdo con la jerarquía de índice de productos que estableció en la [configuración de la jerarquía del índice de productos](inventory-visibility-configuration.md#index-configuration). Por ejemplo, la jerarquía del índice es Sitio, Ubicación, Color, Tamaño. Si asigna alguna cantidad para un producto en el nivel de sitio, ubicación o color. La próxima vez que asigne, también debe hacerlo en el nivel de sitio, ubicación, color, si usa el sitio, la ubicación, el color, el nivel de tamaño o el nivel de sitio, ubicación, los datos no serán consistentes.
+- Para cada producto, la función de asignación debe usarse en el mismo *nivel de dimensión*, de acuerdo con la jerarquía de índice de productos que estableció en la [configuración de la jerarquía del índice de productos](inventory-visibility-configuration.md#index-configuration). Por ejemplo, suponga que su jerarquía de índices es \[`Site`, `Location`, `Color`, `Size`\]. Si asigna alguna cantidad para un producto en el nivel de dimensión \[`Site`, `Location`, `Color`\], la próxima vez que desee asignar este producto, también debe asignar al mismo nivel, \[`Site`, `Location`, `Color`\]. Si usa el nivel \[`Site`, `Location`, `Color`, `Size`\] o \[`Site`, `Location`\], los datos serán inconsistentes.
 - El cambio de nombre del grupo de asignación no afectará los datos guardados en el servicio.
 - La asignación debe ocurrir después de que el producto tenga la cantidad disponible positiva.
+- Para asignar productos de un grupo de *nivel de asignación* alto a un subgrupo, use la API `Reallocate`. Por ejemplo, tiene una jerarquía de grupos de asignación \[`channel`, `customerGroup`, `region`, `orderType`\], y desea asignar algún producto del grupo de asignación \[En línea, VIP\] al grupo de subasignación \[En línea, VIP, UE\], utilice la API `Reallocate` para mover la cantidad. Si usa la API `Allocate`, asignará la cantidad del conjunto común virtual.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>Uso de la API de asignación
 

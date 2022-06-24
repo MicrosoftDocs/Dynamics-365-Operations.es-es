@@ -1,6 +1,6 @@
 ---
 title: Establecer diferentes dimensiones para el embalaje y almacenamiento
-description: Este tema muestra cómo especificar para qué proceso (embalaje, almacenamiento o embalaje anidado) se utiliza cada dimensión especificada.
+description: Este artículo muestra cómo especificar para qué proceso (embalaje, almacenamiento o embalaje anidado) se utiliza cada dimensión especificada.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905497"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Establecer diferentes dimensiones para el embalaje y almacenamiento
 
@@ -33,7 +33,7 @@ Algunos artículos se empaquetan o almacenan de tal manera que es posible que de
 Las dimensiones de *almacenamiento* son compatibles incluso cuando la función *Dimensiones del producto de embalaje* no está habilitada. Los configura utilizando la página **Dimensión física** en Supply Chain Management. Estas dimensiones se utilizan en todos los procesos en los que no se especifican las dimensiones del embalaje y del embalaje anidado.
 
 Las dimensiones de *embalaje* y *embalaje anidado* se configuran utilizando la página **Dimensiones físicas del producto**, que se agrega cuando habilita la característica *Dimensiones del producto de embalaje*.
-Este tema proporciona un escenario que ilustra cómo utilizar esta función.
+Este artículo proporciona un escenario que ilustra cómo utilizar esta función.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Active la función de dimensiones del producto de embalaje
 

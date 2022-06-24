@@ -1,6 +1,6 @@
 ---
 title: Solución PowerBI.com sobre rendimiento financiero
-description: Este tema describe la solución PowerBI.com sobre rendimiento financiero.
+description: Este artículo describe la solución PowerBI.com sobre rendimiento financiero.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ca8338473b2efd91b6570e140ee1def3fa93df14dcf57273f601efb7f548d08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910426"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solución PowerBI.com sobre rendimiento financiero
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767812"
 > [!NOTE]
 > Esta solución de PowerBI.com se ha dejado de utilizar como se documenta en [Características eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Este tema describe la solución PowerBI.com sobre **rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar la solución.
+Este artículo describe la solución PowerBI.com sobre **rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar la solución.
 
 ## <a name="main-account-setup"></a>Configuración de la cuenta principal
 Debido a que las organizaciones quieren que los ingresos aparezcan como cantidades positivas en los informes, la configuración de las cuentas principales es importante. Para que esas cuentas principales aparezcan como importes positivos, el tipo de cuenta principal debe definirse como **Pasivo** o **Ingreso**. Al utilizar estos tipos de cuentas, los informes de Power BI invertirán los signos y mostrarán los importes como positivos.

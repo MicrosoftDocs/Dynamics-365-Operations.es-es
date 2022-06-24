@@ -1,6 +1,6 @@
 ---
 title: Personalizar puntos focales de imagen
-description: En este tema se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8a1b6de774a4d89c0ebcf46847c1b2c5b62374b3e5ac25a0bea2ff30b47510
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9294fcc7302e3651eca1b5edefd556143e49fb93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852824"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar puntos focales de imagen
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo personalizar puntos focales de imagen en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
 Cuando se carga una imagen en la Biblioteca multimedia del generador de sitios de Commerce, el sistema intenta determinar el punto focal de la imagen. Por ejemplo, si la imagen tiene una persona, el sistema establecerá el punto focal en la cara de la persona de forma predeterminada. En la mayoría de los casos, el punto focal configurado automáticamente funciona bien para todas las ventanas gráficas, pero a veces es posible que desee ajustar el punto focal para asegurarse de que una parte específica de la imagen esté siempre visible.
 

@@ -1,6 +1,6 @@
 ---
 title: Solucione el error del motor de programación y capacidad limitada "No se pudo encontrar suficiente capacidad"
-description: Este tema proporciona información sobre las razones y resoluciones de la Orden de producción %1 no se pudo programar. No se pudo encontrar suficiente capacidad'.
+description: Este artículo proporciona información sobre las razones y resoluciones de la Orden de producción %1 no se pudo programar. No se pudo encontrar suficiente capacidad'.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891042"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Solucione el error del motor de programación "No se pudo encontrar suficiente capacidad"
 
@@ -26,7 +26,7 @@ Al ejecutar la programación, es posible que reciba el siguiente mensaje de erro
 
 > No se pudo programar el pedido de producción %1. No se pudo encontrar capacidad suficiente.
 
-Hay varias razones por las que el motor de programación puede fallar y emitir este mensaje de error. Este tema proporciona pautas que lo ayudarán a encontrar la causa raíz del error y luego mitigarlo.
+Hay varias razones por las que el motor de programación puede fallar y emitir este mensaje de error. Este artículo proporciona pautas que lo ayudarán a encontrar la causa raíz del error y luego mitigarlo.
 
 ## <a name="review-the-applicable-resources"></a>Revise los recursos aplicables
 

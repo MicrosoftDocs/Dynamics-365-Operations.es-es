@@ -1,6 +1,6 @@
 ---
 title: Administración de costes descargados frente a transporte
-description: Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte, la gestión del transporte (TMS) y el costo de aterrizaje. Este tema resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos.
+description: Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte, la gestión del transporte (TMS) y el costo de aterrizaje. Este artículo resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905932"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Administración de costes descargados frente a transporte
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte: **gestión del transporte** (TMS) y **coste descargado**. Este tema resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos. Puede utilizar esta información para decidir qué módulo se adapta mejor a sus prácticas comerciales. Es posible que descubra que algunas prácticas comerciales funcionan mejor con TMS, mientras que otras funcionan mejor con el costo de aterrizaje. Luego, dependiendo de los requisitos de su negocio, puede optar por utilizar un módulo exclusivamente, o puede combinar los dos módulos.
+Microsoft Dynamics 365 Supply Chain Management proporciona dos módulos diferentes para trabajar con el transporte: **gestión del transporte** (TMS) y **coste descargado**. Este artículo resume la funcionalidad que los dos módulos tienen en común y destaca las diferencias entre ellos. Puede utilizar esta información para decidir qué módulo se adapta mejor a sus prácticas comerciales. Es posible que descubra que algunas prácticas comerciales funcionan mejor con TMS, mientras que otras funcionan mejor con el costo de aterrizaje. Luego, dependiendo de los requisitos de su negocio, puede optar por utilizar un módulo exclusivamente, o puede combinar los dos módulos.
 
-Este tema no es una revisión completa de todas las características de ninguno de los módulos. En cambio, destaca la funcionalidad disponible en lo que respecta al transporte de mercancías desde un proveedor hasta el almacén de su empresa, donde se pueden consumir.
+Este artículo no es una revisión completa de todas las características de ninguno de los módulos. En cambio, destaca la funcionalidad disponible en lo que respecta al transporte de mercancías desde un proveedor hasta el almacén de su empresa, donde se pueden consumir.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Terminología, datos de referencia y diferencias en los informes
 

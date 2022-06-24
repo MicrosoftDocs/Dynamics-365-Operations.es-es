@@ -1,6 +1,6 @@
 ---
 title: Ejemplo de integración de servicio de registro fiscal para la República Checa
-description: Este tema proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: d255b03242a4cb7a72cef1e8e6fab901ecf953e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910507"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Ejemplo de integración de servicio de registro fiscal para la República Checa
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general del ejemplo de integración fiscal para la República Checa en Microsoft Dynamics 365 Commerce.
 
 Para cumplir con los requisitos fiscales locales para las cajas registradoras en la República Checa, la funcionalidad de Dynamics 365 Commerce para la República Checa incluye una integración de muestra del punto de venta (POS) con un servicio de registro fiscal externo. La muestra extiende la [funcionalidad de integración fiscal](fiscal-integration-for-retail-channel.md). Se basa en el [EFR (Registro Fiscal Electrónico)](https://efsta.org/sicherheitsloesungen/) solución de [EFSTA](https://efsta.org/) y habilita la comunicación con el servicio EFR a través del protocolo HTTPS. El servicio EFR asegura el Registro Electrónico de Ventas (EET - Elektronická proof tržeb), es decir, la transmisión en línea de los datos de ventas a un servicio web fiscal de las autoridades fiscales.
 

@@ -1,6 +1,6 @@
 ---
 title: Definir y gestionar un programa de prestaciones
-description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este tema se ofrece información acerca de cómo configurar y gestionar prestaciones.
+description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 54500cad7fe2b48aa4e3b2057f4edcfcf244959e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 08b80f4f90ce6b4a286120cd6329a45a4ebd3f71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877812"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694946"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Human Resources ofrece una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este tema se ofrece información acerca de cómo configurar y gestionar prestaciones.
+Human Resources ofrece una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
 
 ## <a name="benefit-setup"></a>Configuración de prestaciones
 

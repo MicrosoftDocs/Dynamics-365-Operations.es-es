@@ -1,6 +1,6 @@
 ---
 title: Consolidaciones financieras en línea
-description: Este tema describe las consolidaciones financieras en línea en contabilidad general.
+description: Este artículo describe las consolidaciones financieras en línea en contabilidad general.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: d5848960ec5e30c1356a93ca4cb6545cec9e39de
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848560"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las consolidaciones financieras en línea en contabilidad general. Antes de leer este tema, lea el tema [Visión general de las consolidaciones financieras y la conversión de divisas](financial-consolidations-currency-translation.md).
+Este artículo describe las consolidaciones financieras en línea en contabilidad general. Antes de leer este artículo, lea el artículo [Visión general de las consolidaciones financieras y la conversión de divisas](financial-consolidations-currency-translation.md).
 
 Una vez completada la configuración, especifique los detalles de la consolidación en la página **Consolidar [En línea]**. Cuando haya terminado, puede hacer clic en **Aceptar** o en **Lote** para procesar la consolidación.
 
@@ -90,7 +90,7 @@ En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
+Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el artículo principal de este artículo [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Versión 3.3 del diseño CFDI
-description: Este tema proporciona información sobre la versión 3.3 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
+description: Este artículo proporciona información sobre la versión 3.3 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
 author: sndray
 ms.date: 10/16/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 589620bd9ad6339e66f2a4f5cd64a77502bb9e11e71f385b5243926ea25eb750
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e3c03a06f703c9e2cbb40f63431b0cff0a920c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907660"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 

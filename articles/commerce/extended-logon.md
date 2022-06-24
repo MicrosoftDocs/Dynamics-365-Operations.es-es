@@ -1,6 +1,6 @@
 ---
 title: Configurar y utilizar la capacidad de inicio de sesión ampliada
-description: En este tema se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884320"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>Configurar y utilizar la capacidad de inicio de sesión ampliada
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo configurar y utilizar capacidad de inicio de sesión ampliada de la aplicación de punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 
 El Cloud POS (CPOS) y el Modern POS (MPOS) brindan una capacidad de inicio de sesión extendida que permite a los trabajadores de tiendas minoristas iniciar sesión en la aplicación de PDV escaneando un código de barras o deslizando una tarjeta usando un lector de bandas magnéticas (MSR).
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891158"
 ---
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
@@ -53,7 +53,7 @@ Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.c
 
 #### <a name="white-paper"></a>Documentación
 
-El [cálculo de L. MAT. con una hoja de gestión de costes](https://www.microsoft.com/download/details.aspx?id=101937) describe cómo configurar una hoja de gestión de costes que incluye material y fabricación, y cómo la configuración afecta a los resultados del cálculo de L. MAT. Para explicar mejor los temas, se proporcionan escenarios y datos concretos que demuestran el efecto de los distintos ajustes y configuraciones.
+El [cálculo de L. MAT. con una hoja de gestión de costes](https://www.microsoft.com/download/details.aspx?id=101937) describe cómo configurar una hoja de gestión de costes que incluye material y fabricación, y cómo la configuración afecta a los resultados del cálculo de L. MAT. Para explicar mejor los artículos, se proporcionan escenarios y datos concretos que demuestran el efecto de los distintos ajustes y configuraciones.
 
 #### <a name="blogs"></a>Blogs
 

@@ -1,6 +1,6 @@
 ---
 title: Habilitar las previsiones de flujo de efectivo
-description: Este tema explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
+description: Este artículo explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859886"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Habilitar las previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
+Este artículo explica cómo activar la característica de previsiones de flujo de efectivo en Finance Insights.
 
 > [!NOTE]
 > Para utilizar predicciones de pagos en el flujo de efectivo, debe configurar la característica de predicciones de pagos de clientes como se describe en [Habilitar las predicciones de pagos de clientes](enable-cust-paymnt-prediction.md).

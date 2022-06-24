@@ -1,6 +1,6 @@
 ---
 title: Espacio de trabajo de móvil de colaboración de proveedor
-description: Este tema proporciona información acerca del espacio de trabajo móvil de colaboración de proveedor. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
+description: Este artículo proporciona información acerca del espacio de trabajo móvil de colaboración de proveedor. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851663"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espacio de trabajo de móvil de colaboración de proveedor
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Este tema proporciona información acerca del espacio de trabajo móvil **Colaboración de proveedor**. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
+Este artículo proporciona información acerca del espacio de trabajo móvil de **colaboración de proveedor**. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
 
@@ -97,7 +97,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </tr>
 <tr class="even">
 <td>El usuario proveedor debe tener acceso a la interfaz web de colaboración de proveedor en el cliente web y debe configurar un usuario de colaboración de proveedor.</td><td>Encargados de compras y el administrador del sistema</td>
-<td>Siga los pasos en los temas siguientes para configurar y trabajar en la interfaz web de colaboración de proveedor.
+<td>Siga los pasos en los artículos siguientes para configurar y trabajar en la interfaz web de colaboración de proveedor.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Use la colaboración de proveedor para trabajar con proveedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gestionar usuarios de colaboración de proveedor</a></li>

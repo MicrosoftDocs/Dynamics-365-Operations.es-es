@@ -1,6 +1,6 @@
 ---
 title: Facturas de anticipo frente a anticipos
-description: Este tema describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos).
+description: Este artículo describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos).
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895207"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). Un método crea una factura de anticipo asociada a un pedido de compra. El otro método crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos.
+Este artículo describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). Un método crea una factura de anticipo asociada a un pedido de compra. El otro método crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos.
 
 Las organizaciones pueden emitir anticipos o pagos por adelantado a proveedores por bienes o servicios antes de que estos se satisfagan. Se pueden usar dos métodos para emitir anticipos a los proveedores. Para minimizar el riesgo, puede realizar un seguimiento de los anticipos definiéndolos en pedidos de compra. Para este método, debe crear una factura en anticipo asociada a un pedido de compra. Este método se denomina facturación en anticipo. Las organizaciones que no deseen seguir los pagos por adelantado o anticipos tan de cerca o que no reciben una factura en anticipo del proveedor pueden usar asientos del diario de anticipos en lugar del método de factura en anticipo. Para crear asientos del diario de anticipos, cree entradas de diario y márquelas como asientos del diario de anticipos. Para este método no podrá realizar un seguimiento de los anticipos entregados a un proveedor en relación con los pedidos de compra. Sin embargo, puede marcar un prepago registrado para su liquidación con respecto a un pedido de compra.
 

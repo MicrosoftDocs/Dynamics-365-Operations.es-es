@@ -1,6 +1,6 @@
 ---
 title: Gestionar varias asignaciones derivadas para una única raíz de modelo
-description: Este tema explica cómo administrar varias asignaciones derivadas que se configuraron para una única raíz de modelo.
+description: Este artículo explica cómo administrar varias asignaciones derivadas que se configuraron para una única raíz de modelo.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892490"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gestionar varias asignaciones derivadas para una única raíz de modelo
 
@@ -32,9 +32,9 @@ Los componentes de asignación del modelo ER pueden residir en las configuracion
 
 Muchos proveedores de configuración pueden ofrecer configuraciones de asignación de modelos de ER para el mismo modelo de datos de ER. Esas configuraciones de asignación de modelos pueden contener componentes de asignación para diferentes definiciones de raíz. Puede utilizar una asignación de modelo para una definición de raíz ofrecida por un [proveedor](general-electronic-reporting.md#Provider) y utilizar asignación de modelo para otra definición de raíz ofrecida por otro proveedor.
 
-Los procedimientos de este tema explican cómo administrar múltiples configuraciones de asignación de modelos de ER de un modelo de datos de ER cuando contienen diferentes componentes de asignación de modelos configurados para la misma definición de raíz. 
+Los procedimientos de este artículo explican cómo administrar múltiples configuraciones de asignación de modelos de ER de un modelo de datos de ER cuando contienen diferentes componentes de asignación de modelos configurados para la misma definición de raíz. 
 
-Para completar los procedimientos en este tema, usted debe estar asignado al rol de Administrador del sistema o al de Desarrollador de informes electrónicos.
+Para completar los procedimientos en este artículo, usted debe estar asignado al rol de Administrador del sistema o al de Desarrollador de informes electrónicos.
 
 Todos los siguientes procedimientos se pueden hacer en el USMF de la empresa. No se requiere codificación.
 

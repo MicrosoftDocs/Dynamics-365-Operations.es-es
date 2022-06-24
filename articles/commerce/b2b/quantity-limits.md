@@ -1,6 +1,6 @@
 ---
 title: Establecer límites de cantidad de productos para sitios de comercio electrónico B2B
-description: Este tema describe cómo configurar límites de cantidad de productos para sitios de comercio electrónico de empresa a empresa (B2B).
+description: Este artículo describe cómo configurar límites de cantidad de productos para sitios de comercio electrónico de empresa a empresa (B2B).
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877014"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Establecer límites de cantidad de productos para sitios de comercio electrónico B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo configurar límites de cantidad de productos para sitios de comercio electrónico de empresa a empresa (B2B).
+Este artículo describe cómo configurar límites de cantidad de productos para sitios de comercio electrónico de empresa a empresa (B2B).
 
 La mayoría de los productos tienen una unidad de medida que define su agrupación. La agrupación afecta a cómo se pueden vender los productos. Algunos productos pueden tener una agrupación adicional de cantidades. Esta agrupación determina si los productos se pueden vender como unidades individuales o múltiples, y si hay un límite mínimo o máximo de cantidad de pedido que se debe seguir.
 

@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.26 (mayo de 2022)
-description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.26.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Supply Chain Management 10.0.26.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850768"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.26 (mayo de 2022)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.26. Esta versión tiene el número de compilación 10.0.1192 y está disponible de la siguiente manera:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.26. Esta versión tiene el número de compilación 10.0.1192 y está disponible de la siguiente manera:
 
 - **Vista previa de la versión:** marzo 2022
 - **Disponibilidad general de la versión (actualización automática):** abril de 2022
@@ -29,7 +29,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. Puede que haya actualizaciones de este tema para incluir características que se incluyeron en la compilación después de la publicación inicial del tema.
+La tabla siguiente enumera las características incluidas en esta versión. Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -56,11 +56,11 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
-Recientemente hemos agregado o actualizado significativamente los siguientes temas de ayuda. Estos temas no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en las secciones anteriores. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
+Recientemente hemos agregado o actualizado significativamente los siguientes artículos de ayuda. Estos artículos no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en las secciones anteriores. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
 
-| Área de características | Temas nuevos o actualizados |
+| Área de características | Artículos nuevos o actualizados |
 |---|---|
-| Gestión de costes | Se agregaron ejemplos y diagramas actualizados a cada uno de los siguientes temas:<ul><li>[FIFO con valor físico y marcado](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO con valor físico y marcado](../cost-management/lifo-physical-value-marking.md)</li><li>[Fecha LIFO con valor físico y marcado](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Ejecución del precio de coste promedio móvil](../cost-management/running-average-cost-price.md)</li><li>[Media ponderada con valor físico y marcado](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| Gestión de costes | Se agregaron ejemplos y diagramas actualizados a cada uno de los siguientes artículos:<ul><li>[FIFO con valor físico y marcado](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO con valor físico y marcado](../cost-management/lifo-physical-value-marking.md)</li><li>[Fecha LIFO con valor físico y marcado](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Ejecución del precio de coste promedio móvil](../cost-management/running-average-cost-price.md)</li><li>[Media ponderada con valor físico y marcado](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | Adquisición y abastecimiento | [Discrepancias en los datos de la línea de pedido de compra](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Recursos adicionales
@@ -81,12 +81,12 @@ Consulte [Dynamics 365 y las nubes de la industria: plan del lanzamiento de vers
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
-En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
+En el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
 - Una característica *quitada* dejará de estar disponible en el producto.
 - Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 

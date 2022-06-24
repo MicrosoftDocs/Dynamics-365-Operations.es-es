@@ -1,6 +1,6 @@
 ---
 title: Metodología de la convención de depreciación semestral
-description: Este tema describe el método que utilizan los activos fijos para calcular la depreciación mediante la convención semestral, que calcula seis meses de depreciación durante el primer y último año de servicio de un activo.
+description: Este artículo describe el método que utilizan los activos fijos para calcular la depreciación mediante la convención semestral, que calcula seis meses de depreciación durante el primer y último año de servicio de un activo.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879606"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodología de la convención de depreciación semestral
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tema describe el método que se usa en activos fijos para calcular la depreciación usando la convención semestral. La convención semestral calcula seis meses de depreciación durante el primer y último año de servicio de un activo. Para obtener más información sobre las convenciones de depreciación, consulte [Convenciones y métodos de depreciación](Fixed-asset-depreciation-conventions.md). 
+Este artículo describe el método que se usa en activos fijos para calcular la depreciación usando la convención semestral. La convención semestral calcula seis meses de depreciación durante el primer y último año de servicio de un activo. Para obtener más información sobre las convenciones de depreciación, consulte [Convenciones y métodos de depreciación](Fixed-asset-depreciation-conventions.md). 
 
 Cuando usa la convención de depreciación semestral, el sistema usa el año de adquisición o el año en que el activo se puso en servicio, luego calcula cinco años de depreciación de ese año y luego agrega seis meses. Para ilustrar este proceso, considere un activo que se adquirió por el precio de 50 000 y se puso en servicio en abril de 2020. Suponga también que el activo tiene una vida útil de cinco años.
 

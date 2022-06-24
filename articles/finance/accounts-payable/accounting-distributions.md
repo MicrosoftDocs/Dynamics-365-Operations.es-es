@@ -1,6 +1,6 @@
 ---
 title: Distribuciones contables
-description: Este tema proporciona información acerca de distribuciones contables y describe las opciones de procesamiento disponibles.
+description: Este artículo proporciona información acerca de distribuciones contables y describe las opciones de procesamiento disponibles.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894211"
 ---
 # <a name="accounting-distributions"></a>Distribuciones contables
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de distribuciones contables y describe las opciones disponibles para procesarlas. Las distribuciones contables se usan para asignar importes monetarios para un documento de origen en cuentas contables específicas. 
+Este artículo proporciona información acerca de distribuciones contables y describe las opciones disponibles para procesarlas. Las distribuciones contables se usan para asignar importes monetarios para un documento de origen en cuentas contables específicas. 
 
 Las distribuciones contables son una capacidad de todo el programa que se usa y se extiende por cada documento de origen, como un pedido de compra, una factura de proveedor, un informe de gastos y una factura de servicios. De forma predeterminada, se genera una distribución contable predeterminada para cada línea del documento de origen y el importe monetario, y se habilita de manera condicional para la modificación. 
 

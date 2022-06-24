@@ -1,6 +1,6 @@
 ---
 title: Optimizar el rendimiento con tareas automáticas de limpieza
-description: En este tema se explica cómo mejorar el rendimiento en Microsoft Dynamics 365 Human Resources limpiando el historial de trabajos por lotes.
+description: En este artículo se explica cómo mejorar el rendimiento en Microsoft Dynamics 365 Human Resources limpiando el historial de trabajos por lotes.
 author: twheeloc
 ms.date: 08/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 47cd132c188c39c8700cae6035ae75d0ce71d841
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10d535e54f71e7bb90c7385e09926270a446df7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902209"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Optimizar el rendimiento con tareas automáticas de limpieza
 

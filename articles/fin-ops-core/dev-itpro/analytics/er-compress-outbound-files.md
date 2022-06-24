@@ -1,6 +1,6 @@
 ---
 title: Comprimir documentos grandes que se generan en informes electrónicos
-description: Este tema explica cómo comprimir documentos grandes generados por un formato de informes electrónicos (ER).
+description: Este artículo explica cómo comprimir documentos grandes generados por un formato de informes electrónicos (ER).
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864818"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Comprimir documentos grandes que se generan en informes electrónicos 
 
@@ -33,7 +33,7 @@ Cuando configura una solución, puede ajustar su formato de ER en el diseñador 
 > [!NOTE]
 > La compresión de archivos requiere un porcentaje adicional del uso de la CPU.
 
-Para obtener más información acerca de este enfoque, complete el ejemplo de este tema.
+Para obtener más información acerca de este enfoque, complete el ejemplo de este artículo.
 
 ## <a name="example-compress-an-outbound-document"></a>Ejemplo: comprimir un documento saliente
 
@@ -41,7 +41,7 @@ Este ejemplo muestra cómo un usuario asignado al rol **Administrador de sistema
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-Antes de que pueda completar los procedimientos en este tema, debe completar los siguientes pasos:
+Antes de que pueda completar los procedimientos en este artículo, debe completar los siguientes pasos.
 
 1. [Activar un proveedor de configuración](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Importar las configuraciones de ER de ejemplo](er-defer-xml-element.md#import-the-sample-er-configurations).

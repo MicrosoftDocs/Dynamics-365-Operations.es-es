@@ -1,6 +1,6 @@
 ---
 title: Información general de impuestos deducidos en el origen (TDS) de la India
-description: Este tema proporciona información detallada sobre el impuesto deducido en el origen (TDS) de la India. La documentación de TDS cubre la funcionalidad de esta capacidad.
+description: Este artículo proporciona información detallada sobre el impuesto deducido en el origen (TDS) de la India. La documentación de TDS cubre la funcionalidad de esta capacidad.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 0947481f27323a53d5ef9c7295d8dda078fb4254
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896294"
 ---
 # <a name="indian-tax-deducted-at-source-tds-overview"></a>Información general de impuestos deducidos en el origen (TDS) de la India
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información detallada sobre el impuesto deducido en el origen (TDS) de la India.
+Este artículo proporciona información detallada sobre el impuesto deducido en el origen (TDS) de la India.
 
 La documentación de TDS cubre la funcionalidad de esta capacidad. También explica cómo realizar la configuración básica de TDS, calcular TDS en transacciones, completar el proceso de liquidación de TDS, registrar números de certificado de TDS y generar consultas de TDS, declaraciones de TDS y certificados de TDS. La documentación incluye los siguientes temas:
 

@@ -1,6 +1,6 @@
 ---
 title: Reasignación de actividades
-description: Este tema describe cómo reasignar actividades de servicio de un trabajador a otro trabajador.
+description: Este artículo describe cómo reasignar actividades de servicio de un trabajador a otro trabajador.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55ebcda19aba074191a2820d2ac7faf27313db8e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f6cd7523a9185de0bb2dfd81ffb3fe5e7dba5e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860475"
 ---
 # <a name="reassign-activities"></a>Reasignación de actividades 
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo reasignar actividades de servicio de un trabajador a otro trabajador. Puede reasignar actividades de servicio de un empleado a otro incluso si los empleados están asignados a distintos equipos de distribución.
+Este artículo describe cómo reasignar actividades de servicio de un trabajador a otro trabajador. Puede reasignar actividades de servicio de un empleado a otro incluso si los empleados están asignados a distintos equipos de distribución.
 
 Use los siguientes pasos para asignar una actividad a otro trabajador:
 

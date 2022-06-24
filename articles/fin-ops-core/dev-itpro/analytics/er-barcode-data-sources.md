@@ -1,6 +1,6 @@
 ---
 title: Usar fuentes de datos de código de barras para generar imágenes de código de barras
-description: Este tema explica cómo usar las fuentes de datos de código de barras para generar imágenes de código de barras.
+description: Este artículo explica cómo utilizar orígenes de datos de códigos de barras para generar imágenes de códigos de barras.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880323"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fuentes de datos de código de barras para generar imágenes de código de barras
 
@@ -77,7 +77,7 @@ Cuando configura un origen de datos de **Código de barras**, puede definir par�
 >
 > Cuando vincula un origen de datos de **Código de barras** a un elemento de celda en un formato, y el elemento de celda representa un control de contenido de Word o una imagen de Excel, el origen de datos se presenta en ese vínculo como una función que tiene un único parámetro de tipo **Cadena**. Debe usar este parámetro para especificar el texto que debe transformarse en una imagen de código de barras y leerse cuando se escanea un código de barras generado.
 
-Para obtener más información acerca de esta característica, complete los ejemplos de este tema.
+Para obtener más información acerca de esta característica, complete los ejemplos de este artículo.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Ejemplo: Generar un cheque de pago que contenga un código de barras que codifique el monto a pagar
 
@@ -112,7 +112,7 @@ Para este ejemplo, debe tener acceso a la empresa USMF de Finance para uno de lo
 - Consultor funcional de informes electrónicos
 - Administrador del sistema
 
-Si aún no ha completado el ejemplo del tema [Insertar imágenes y formas en documentos que genera con ER](electronic-reporting-embed-images-shapes.md), descargue las siguientes configuraciones de la solución ER de ejemplo.
+Si aún no ha completado el ejemplo del artículo [Insertar imágenes y formas en documentos que genera con ER](electronic-reporting-embed-images-shapes.md), descargue las siguientes configuraciones de la solución ER de ejemplo.
 
 | Descripción del contenido         | Nombre de archivo                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Adicionalmente, descargue el siguiente archivo de Excel que contiene la plantill
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activar un proveedor de configuración
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo **Litware, Inc.** y que se ha marcado como activo. Si no aparece en la lista o si no está marcado como activo, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el [proveedor de la configuración](general-electronic-reporting.md#Provider) para la empresa de ejemplo **Litware, Inc.** y que se ha marcado como activo. Si no aparece en la lista o si no está marcado como activo, siga los pasos del artículo [Crear un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Establecer la empresa de ejemplo como activa en la página Configuraciones de localización.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ La versión borrador del formato seleccionado se marca como disponible para su u
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Convertir el cheque generado a un PDF
 
-Como se describe en el tema [Generar formularios FTI imprimibles](er-generate-printable-fti-forms.md#finland), puede usar una fuente especial para producir códigos de barras en un documento generado. En este caso, las transformaciones adicionales del documento generado pueden depender de la disponibilidad de esa fuente en el entorno de transformación. Por ejemplo, si intenta convertir un documento a formato PDF u obtener una vista previa del mismo en un entorno donde falta la fuente, los códigos de barras no se representarán correctamente.
+Como se describe en el artículo [Generar formularios FTI imprimibles](er-generate-printable-fti-forms.md#finland), puede usar una fuente especial para producir códigos de barras en un documento generado. En este caso, las transformaciones adicionales del documento generado pueden depender de la disponibilidad de esa fuente en el entorno de transformación. Por ejemplo, si intenta convertir un documento a formato PDF u obtener una vista previa del mismo en un entorno donde falta la fuente, los códigos de barras no se representarán correctamente.
 
 Sin embargo, cuando usa origen de datos **Código de barras** para producir códigos de barras, la representación de esos códigos de barras no depende de ninguna fuente. Por lo tanto, puede convertir fácilmente documentos que contienen los códigos de barras a formato PDF. La siguiente ilustración muestra la vista previa de un cheque de pago generado que ha sido [convertido](electronic-reporting-destinations.md#OutputConversionToPDF) a un PDF, basado en la configuración del [destino](electronic-reporting-destinations.md) de ER configurado.
 

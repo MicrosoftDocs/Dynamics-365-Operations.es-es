@@ -1,6 +1,6 @@
 ---
 title: Intervalos de servicio
-description: Este tema proporciona información sobre cómo trabajar con intervalos de servicio. El intervalo de contrato de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando se crean pedidos de servicio automáticamente.
+description: Este artículo proporciona información sobre cómo trabajar con intervalos de servicio. El intervalo de contrato de servicio indica la frecuencia con la que se crean líneas de pedido de servicio para líneas de contrato de servicio cuando se crean pedidos de servicio automáticamente.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887236"
 ---
 # <a name="service-intervals"></a>Intervalos de servicio
 
@@ -87,7 +87,7 @@ Puesto que no existe ninguna agrupación en el pedido de servicio (definida medi
 
 Las tres líneas de pedido de servicio creadas en esta instancia se encuentran en la franja temporal especificada en el cuadro de diálogo **Crear pedidos de servicio**. Puede ver las líneas de pedido de servicio en el formulario **Contratos de servicio** (**Panel de acciones**\> pestaña **Entregar** \> botón **Ver**).
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Configurar intervalos de servicio](set-up-service-intervals.md)  
 

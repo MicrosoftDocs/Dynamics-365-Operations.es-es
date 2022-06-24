@@ -1,6 +1,6 @@
 ---
 title: Espacio de trabajo de automatización de facturas de proveedor
-description: Este tema explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI.
+description: Este artículo explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865812"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Espacio de trabajo de automatización de facturas de proveedor
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tema explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI. La información de factura de proveedor en este espacio de trabajo se filtra para usuarios específicos y se muestra en un formato gráfico.
+Este artículo explica cómo configurar el espacio de trabajo relacionado con las facturas de proveedores que muestra la información que está disponible a través de Microsoft Power BI. La información de factura de proveedor en este espacio de trabajo se filtra para usuarios específicos y se muestra en un formato gráfico.
 
 ## <a name="overview"></a>Información general
 

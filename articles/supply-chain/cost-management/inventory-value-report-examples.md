@@ -1,6 +1,6 @@
 ---
 title: Ejemplos de informes de valor de inventario y lógica
-description: Este tema proporciona algunos ejemplos de resultados que se presentan en cada tipo de informe de valor de inventario. Los informes de valor de inventario proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
+description: Este artículo proporciona algunos ejemplos de resultados que se presentan en cada tipo de informe de valor de inventario. Los informes de valor de inventario proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877664"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Ejemplos de informes de valor de inventario y lógica
 
 [!include [banner](../includes/banner.md)]
 
-Los informes de valor de inventario proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario. Este tema proporciona algunos ejemplos de resultados que se presentan en cada tipo de informe de valor de inventario.
+Los informes de valor de inventario proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario. Este artículo proporciona algunos ejemplos de resultados que se presentan en cada tipo de informe de valor de inventario.
 
 Para obtener más información sobre cómo generar y utilizar cada tipo de informe de valor de inventario, consulte [Informes de valor de inventario](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Datos de muestra que se usan en estos ejemplos
 
-Los ejemplos de este tema se basan en los datos de muestra de transacciones de inventario que se describen en esta sección.
+Los ejemplos de este artículo se basan en los datos de muestra de transacciones de inventario que se describen en esta sección.
 
 ### <a name="storage-dimension-setup"></a>Configuración de la dimensión de almacenamiento
 
@@ -70,7 +70,7 @@ El sistema de ejemplo incluye una configuración de informes de valor de inventa
 
 ## <a name="inventory-value-report-example-1"></a>Ejemplo de informes de valor de inventario 1
 
-La siguiente tabla e ilustraciones muestran los resultados cuando utiliza los datos de ejemplo y la configuración de informes que se describen anteriormente en este tema.
+La siguiente tabla e ilustraciones muestran los resultados cuando utiliza los datos de ejemplo y la configuración de informes que se describen anteriormente en este artículo.
 
 | Tipo de recurso | Recurso | Sitio | Referencia | Inventario: Cantidad financiera | Inventario: Importe financiero | Inventario: Cantidad física registrada | Inventario: Importe físico registrado | Inventario: Cantidad | Inventario: Importe | Coste unitario promedio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -91,7 +91,7 @@ La siguiente ilustración muestra el informe de **Almacenamiento de informes de 
 
 ## <a name="inventory-value-report-example-2"></a>Ejemplo de informes de valor de inventario 2
 
-La siguiente tabla e ilustraciones muestran los resultados cuando utiliza los datos de ejemplo que se describen anteriormente en este tema, pero usted cambia el valor del campo **Nivel** a *Transacciones* en la configuración del informe, y establece el campo **Fecha de inicio** a *15 de marzo* cuando ejecuta el informe.
+La siguiente tabla e ilustraciones muestran los resultados cuando utiliza los datos de ejemplo que se describen anteriormente en este artículo, pero usted cambia el valor del campo **Nivel** a *Transacciones* en la configuración del informe, y establece el campo **Fecha de inicio** a *15 de marzo* cuando ejecuta el informe.
 
 | Tipo de recurso | Recurso | Sitio | Fecha | Número | Referencia | Inventario: Cantidad financiera | Inventario: Importe financiero | Inventario: Cantidad física registrada | Inventario: Importe físico registrado | Inventario: Cantidad | Inventario: Importe |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Las siguientes subsecciones muestran los informes de valor de inventario que se 
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Ejemplo 3 cuando se usa el nivel de Totales
 
-La siguiente tabla muestra los resultados cuando utiliza los datos de ejemplo y la configuración de informes que se describen anteriormente en este tema. (En esa configuración de informe, el campo **Nivel** está configurado en *Totales*.)
+La siguiente tabla muestra los resultados cuando utiliza los datos de ejemplo y la configuración de informes que se describen anteriormente en este artículo. (En esa configuración de informe, el campo **Nivel** está configurado en *Totales*.)
 
 | Tipo de recurso | Recurso | Sitio | Referencia | Inventario: Cantidad financiera | Inventario: Importe financiero | Inventario: Cantidad física registrada | Inventario: Importe físico registrado | Inventario: Cantidad | Inventario: Importe | Coste unitario promedio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ La siguiente tabla muestra los resultados cuando utiliza los datos de ejemplo y 
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Ejemplo 3 cuando se usa el nivel de Transacciones
 
-La siguiente tabla muestra los resultados cuando usa los datos de ejemplo que se describen anteriormente en este tema, pero usted cambia el valor del campo **Nivel** a *Transacciones* en la configuración del informe.
+La siguiente tabla muestra los resultados cuando usa los datos de ejemplo que se describen anteriormente en este artículo, pero usted cambia el valor del campo **Nivel** a *Transacciones* en la configuración del informe.
 
 | Tipo de recurso | Recurso | Sitio | Fecha | Número | Referencia | Inventario: Cantidad financiera | Inventario: Importe financiero | Inventario: Cantidad física registrada | Inventario: Importe físico registrado | Inventario: Cantidad | Inventario: Importe |
 |---|---|---|---|---|---|---|---|---|---|---|---|

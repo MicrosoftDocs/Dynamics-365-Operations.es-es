@@ -1,6 +1,6 @@
 ---
-title: Rutas y operaciones.
-description: Este tema proporciona información acerca de las rutas y las operaciones.
+title: Rutas y operaciones
+description: En este artículo se proporciona información acerca de rutas y operaciones.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856030"
 ---
-# <a name="routes-and-operations"></a>Rutas y operaciones.
+# <a name="routes-and-operations"></a>Rutas y operaciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de las rutas y las operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
+En este artículo se proporciona información acerca de rutas y operaciones. Una ruta define el proceso para producir un producto o una variante del producto. Describe cada paso (operación) en el proceso de producción y el orden en que estos pasos se deben realizar. Para cada etapa, la ruta también define los recursos de operaciones necesarios, el tiempo de configuración necesaria y el tiempo de ejecución, y cómo el coste se debe calcular.
 
 ## <a name="overview"></a>Visión general
 

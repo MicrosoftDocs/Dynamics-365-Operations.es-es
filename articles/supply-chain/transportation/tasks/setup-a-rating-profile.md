@@ -1,6 +1,6 @@
 ---
 title: Perfiles de clasificación
-description: Este tema describe cómo configurar datos para perfiles de clasificación.
+description: Este artículo describe cómo configurar datos para perfiles de clasificación.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850492"
 ---
 # <a name="rating-profiles"></a>Perfiles de clasificación
 
@@ -56,7 +56,7 @@ Sobre la página **Perfiles de calificación**, puede revisar todos los perfiles
 1. Vaya a **Administración de transporte \> Configuración \> Transportistas \> Transportistas de envío**.
 1. Seleccione un transportista de envío en la lista.
 1. En la ficha desplegable **Perfiles de clasificación**, haga clic en **Nuevo** para crear un perfil de clasificación.
-1. Configure los campos para el nuevo perfil de calificación. Estos campos corresponden a los campos de la página **Perfiles de calificación**, como se describe en la sección anterior de este tema.
+1. Configure los campos para el nuevo perfil de calificación. Estos campos corresponden a los campos de la página **Perfiles de calificación**, como se describe en la sección anterior de este artículo.
 
 > [!NOTE]
 > Perfiles que se crean en la página **Transportistas de envío** también se muestran en la página **Perfiles de calificación**.

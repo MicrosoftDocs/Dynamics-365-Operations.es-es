@@ -1,6 +1,6 @@
 ---
 title: Crear códigos de gastos
-description: Este tema explica cómo configurar códigos de cargos para Proveedores y Clientes.
+description: Este artículo explica cómo configurar códigos de cargos para Proveedores y Clientes.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866094"
 ---
 # <a name="create-charges-codes"></a>Crear códigos de gastos
 
-Este tema explica cómo configurar códigos de cargos para Proveedores y Clientes. Si su organización requiere que se realice un seguimiento de los importes de las ventas o de las compras, además de las partidas en un pedido de ventas o de compra, puede utilizar códigos de cargo para este fin. Por ejemplo, es posible que pague flete y seguro en un pedido de compra, y estos importes se detallen por separado en el pedido de compra. En este caso, puede especificar si estos importes se registran en las cuentas de gastos o si se añaden al coste de los artículos.
+Este artículo explica cómo configurar códigos de cargos para Proveedores y Clientes. Si su organización requiere que se realice un seguimiento de los importes de las ventas o de las compras, además de las partidas en un pedido de ventas o de compra, puede utilizar códigos de cargo para este fin. Por ejemplo, es posible que pague flete y seguro en un pedido de compra, y estos importes se detallen por separado en el pedido de compra. En este caso, puede especificar si estos importes se registran en las cuentas de gastos o si se añaden al coste de los artículos.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Configurar códigos de cargos para clientes
 

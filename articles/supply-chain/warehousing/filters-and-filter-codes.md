@@ -1,6 +1,6 @@
 ---
 title: Configurar filtros de productos para transacciones de almacén
-description: En este tema se describe cómo configurar filtros y filtros de producto para clasificar artículos de inventario de un almacén. También puede usar filtros para especificar qué clientes pueden pedir un artículo concreto y qué artículos se pueden comprar de un proveedor concreto.
+description: En este artículo se describe cómo configurar filtros y filtros de producto para clasificar artículos de inventario de un almacén. También puede usar filtros para especificar qué clientes pueden pedir un artículo concreto y qué artículos se pueden comprar de un proveedor concreto.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850449"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de productos para transacciones de almacén
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo configurar filtros y filtros de producto para clasificar artículos de inventario de un almacén. También puede usar filtros para especificar qué clientes pueden pedir un artículo concreto y qué artículos se pueden comprar de un proveedor concreto.
+En este artículo se describe cómo configurar filtros y filtros de producto para clasificar artículos de inventario de un almacén. También puede usar filtros para especificar qué clientes pueden pedir un artículo concreto y qué artículos se pueden comprar de un proveedor concreto.
 
 Además, puede configurar y usar los códigos de filtros de producto para organizar automáticamente los artículos de inventario en un almacén y combinar los artículos filtrados en los grupos de filtro. Los filtros se pueden utilizar para clasificar los artículos en categorías para los procesos de manipulación, compra y venta. Es posible que desee agrupar elementos o separarlos entre sí cuando la forma en que se manejan se basa en restricciones de peso o manipulación. También puede especificar a qué clientes o proveedores se puede comprar o vender un artículo.
 
@@ -48,7 +48,7 @@ Los filtros de producto proporcionan hasta 10 características **Título del fil
 
     ![Configurar un filtro de producto.](media/Product_Filters10.png "Configurar un filtro de producto")
 
-1. En el campo **Descripción**, especifique un nombre para el código. Por ejemplo, *Codigo 2* podría representar a los proveedores. A continuación, puede crear un filtro de producto para un proveedor o grupo de proveedores específico. Para obtener más información, consulte la sección [Configurar códigos de filtro de proveedor](#vendor-product-filters) más adelante en este tema.
+1. En el campo **Descripción**, especifique un nombre para el código. Por ejemplo, *Codigo 2* podría representar a los proveedores. A continuación, puede crear un filtro de producto para un proveedor o grupo de proveedores específico. Para obtener más información, consulte la sección [Configurar códigos de filtro de proveedor](#vendor-product-filters) más adelante en este artículo.
 
     ![Configuración de filtros de producto.](media/Product_Filters.png "Configuración de filtros de producto")
 

@@ -1,6 +1,6 @@
 ---
 title: Condiciones de asignación
-description: Este tema proporciona información sobre el uso de términos de asignación en una cuenta principal.
+description: Este artículo proporciona información sobre el uso de términos de asignación en una cuenta principal.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859838"
 ---
 # <a name="allocation-terms"></a>Condiciones de asignación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre el uso de términos de asignación en una cuenta principal. Los términos de asignación se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
+Este artículo proporciona información sobre el uso de términos de asignación en una cuenta principal. Los términos de asignación se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
 
 Cada término de asignación que cree en una cuenta principal define el porcentaje de un asiento que se asignará desde una cuenta principal de fuente única y una combinación de dimensiones financieras. Además, usted define la cuenta principal de destino y las dimensiones financieras donde se asignará el importe. 
 

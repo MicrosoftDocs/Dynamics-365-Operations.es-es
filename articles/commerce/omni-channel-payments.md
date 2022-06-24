@@ -1,6 +1,6 @@
 ---
 title: Información general de pagos omnicanal
-description: Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 09/17/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881718"
 ---
 # <a name="omni-channel-payments-overview"></a>Información general de pagos omnicanal
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce. Incluye una lista completa de escenarios admitidos, información sobre funcionalidad, configuración, soluciones de problemas y las descripciones de problemas habituales.
+Este artículo proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce. Incluye una lista completa de escenarios admitidos, información sobre funcionalidad, configuración, soluciones de problemas y las descripciones de problemas habituales.
 
 ## <a name="key-terms"></a>Términos clave
 
@@ -45,15 +45,15 @@ Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 
 
 El término *pagos de omnicanal* describe la capacidad de crear un pedido en un canal y de satisfacerla en otro canal. La clave de compatibilidad de pago de omnicanal es mantener los detalles del pago así como el resto de los detalles de pedido y, a continuación usar esos detalles del pago cuando el pedido se recupere o se procesa en otro canal. Un ejemplo clásico es el escenario "Comprar en línea, recoger en la tienda". En esta situación se agregan los detalles del pago cuando el pedido se crea en línea. A continuación se devuelven al sistema PDV para cargar la tarjeta de pago del cliente en el momento de recogida. 
 
-Todas las situaciones que se describen en este tema se pueden implementar mediante el kit de desarrollo de software estándar (SDK) de los pagos que se ofrece con Commerce. El [Conector de pago de Dynamics 365 para Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) ofrece una implementación del componente estándar de cada escenario que se describe aquí. 
+Todas las situaciones que se describen en este artículo se pueden implementar mediante el kit de desarrollo de software estándar (SDK) de los pagos que se ofrece con Commerce. El [Conector de pago de Dynamics 365 para Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) ofrece una implementación del componente estándar de cada escenario que se describe aquí. 
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-Cada escenario que se describe en este tema requiere un conector de pago que admita pagos de omnicanal. El conector de Adyen también está listo para usarse, ya que admite escenarios que estará disponible con los pagos SDK. Para obtener más información sobre la implementación los conectores de pago, y sobre la SDK de Retail en general, visite [Página principal de Retail para profesionales de TI y desarrolladores](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Cada escenario que se describe en este artículo requiere un conector de pago que admita pagos de omnicanal. El conector de Adyen también está listo para usarse, ya que admite escenarios que estará disponible con los pagos SDK. Para obtener más información sobre la implementación los conectores de pago, y sobre la SDK de Retail en general, visite [Página principal de Retail para profesionales de TI y desarrolladores](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Versiones admitidas
 
-Las capacidades de pago de omnicanal que se describen en este tema se publicaron como parte de la versión 8.1.3 de Microsoft Dynamics 365 for Retail. 
+Las capacidades de pago de omnicanal que se describen en este artículo se publicaron como parte de la versión 8.1.3 de Microsoft Dynamics 365 for Retail. 
 
 #### <a name="card-present-and-card-not-present-connectors"></a>Conectores "Tarjeta presente" y "Tarjeta ausente"
 
@@ -66,7 +66,7 @@ El segundo conjunto de API se llama **iNamedRequestHandler**. Admite la implemen
 Los siguientes componentes y pasos de configuración son necesarios:
 
 - **Integración de comercio electrónico:** la integración con Commerce se requiere para admitir los escenarios donde un pedido se origina en un escaparate en línea. Para obtener más información acerca del SDK del comercio electrónico de Retail, consulte [Kit de desarrollo de software (SDK) de la plataforma de comercio electrónico](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). En un entorno de demostración, el escaparate de referencia admite escenarios de pago de omnicanal. 
-- **Configuración de los pagos en línea:** la configuración del canal conectado debe incluir un conector de pago que se ha actualizado para admitir pagos de omnicanal. Como alternativa, puede usar el conector de pago tal cual. Para obtener información sobre cómo configurar el conector de pago Adyen para tiendas en línea, consulte [Conector de pago de Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Además de los pasos de configuración del comercio electrónico que se describen en este tema, el parámetro **Permitir guardar de la información de pago en comercio electrónico** se debe establecer en **Verdad** en la configuración del conector Adyen. 
+- **Configuración de los pagos en línea:** la configuración del canal conectado debe incluir un conector de pago que se ha actualizado para admitir pagos de omnicanal. Como alternativa, puede usar el conector de pago tal cual. Para obtener información sobre cómo configurar el conector de pago Adyen para tiendas en línea, consulte [Conector de pago de Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Además de los pasos de configuración del comercio electrónico que se describen en este artículo, el parámetro **Permitir guardar de la información de pago en comercio electrónico** se debe establecer en **Verdad** en la configuración del conector Adyen. 
 - **Configuración de pagos de omnicanal:** en la oficina administrativa, vaya a **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros compartidos de Commerce**. A continuación, en la pestaña **Pagos de omnicanal**, establezca la opción **Usar pagos omnicanal** en **Sí**. En las versiones 10.0.12 y posteriores de Commerce, esta configuración está en el espacio de trabajo **Administración de características**. Seleccione la característica **Pagos omnicanal** y haga clic **Habilitar ahora**. 
 - **Servicios de pago:** el centro de llamadas usa el conector de pago predeterminado en la página **Servicios de pago** para procesar los pagos. Para admitir escenarios como “Comprar en centro de llamadas, recoger en tienda,” este conector de pago predeterminado debe ser el conector de pago Adyen o un conector de pago que cumple con los requisitos de implementación de los pagos de omnicanal.
 - **Servicio EFT:** los pagos a través de un terminal de pago se deben configurar en la ficha desplegable **Servicio EFT** del perfil de hardware. El connector de Adyen admite escenarios de pagos omnicanal listos para usarse. Otros conectores de pago que admiten la interfaz **iNamedRequestHandler** también pueden usarse si admiten pagos omnicanal.
@@ -231,7 +231,7 @@ Si la tarjeta que se usó para crear una orden ya no es válida, cuando los prod
 
 Cuando un pedido que tenga varias líneas y formas de pago se recoge, primero el cajero recibe el mensaje **Usar método de pago disponible**. Si hay varios tarjetas, cuando el cajero selecciona **Usar método de pago disponible**, las líneas existentes de forma de pago con tarjeta se capturarán hasta que el saldo se cumpla para las mercancías que se están recogiendo. El cajero no tendrá la opción de seleccionar la tarjeta que se debe usar para las mercancías que se están recogiendo. 
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Preguntas frecuentes sobre pagos](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Conector de pago de Dynamics 365 para Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)

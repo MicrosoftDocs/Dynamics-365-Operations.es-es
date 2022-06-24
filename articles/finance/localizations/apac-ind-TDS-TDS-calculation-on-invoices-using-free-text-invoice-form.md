@@ -1,6 +1,6 @@
 ---
 title: Cálculo de TDS en facturas desde la página de facturas de servicios
-description: Este tema explica cómo calcular los impuestos deducidos en el origen (TDS) en facturas mediante la página de facturas de servicios.
+description: Este artículo explica cómo calcular los impuestos deducidos en el origen (TDS) en facturas mediante la página de facturas de servicios.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5a1960974dff90ef5f0cc8eab018351a9e412858
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b1cf0f5366315884e75a6fee25b88a3aac7d62de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725188"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856622"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>Cálculo de TDS en facturas desde la página de facturas de servicios
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo calcular los impuestos deducidos en el origen (TDS) en facturas mediante la página de **Facturas de servicios**.
+Este artículo explica cómo calcular los impuestos deducidos en el origen (TDS) en facturas mediante la página de **facturas de servicios**.
 
 1. Vaya a **Clientes \> Facturas \> Todas las facturas de servicios**.
 

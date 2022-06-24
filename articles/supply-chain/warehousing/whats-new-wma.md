@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en la aplicación móvil Warehouse Management
-description: Este tema enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo enumera las funciones nuevas y modificadas para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661836"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945734"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tema enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versión 2.0.24.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Páginas de escáner mejoradas para habilitar la opción de escaneo en páginas **Detalles**.
+- Gestos mejorados, como tocar/puntear la pantalla.
+- Problemas de rendimiento mejorados para Android.
+- Se corrigió la ubicación de múltiples encabezados para permitir que se muestren más tarjetas en la página **Consulta**.
+- Desplazamiento mejorado, por lo que se habilita menos distancia para la paginación de desplazamiento.
+- Se agregó una pulsación larga para mostrar texto adicional en la página **Consulta**.
+- Se corrigió la falta de información de dispositivo para Android.
+- Mayor estabilidad.
+- Optimizado el diseño de inicio de sesión.
+- Se agregó el gesto de deslizar hacia la derecha para cerrar las páginas emergentes de diálogo en el teclado numérico, página **Detalles** y páginas de entrada.
 
 ## <a name="version-20220"></a>Versión 2.0.22.0
 

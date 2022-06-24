@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846966"
 ---
 # <a name="cash-discounts"></a>Descuentos por pronto pago
 
@@ -30,7 +30,7 @@ Los descuentos por pronto pago se configuran y se comparten para Proveedores y C
 
 ## <a name="cash-discounts"></a>Descuentos por pronto pago
 
-Los descuentos por pronto pago para clientes o proveedores se pueden crear en la página Descuentos por pronto pago. También puede definir, mediante el campo Código de descuento siguiente, una serie de descuentos por pronto pago que se sucederán uno tras otro cuando venzan las fechas de descuento por pronto pago anteriores. Para obtener más información, consulte el apartado "Ejemplo: serie de descuentos por pronto pago" más adelante en este tema. Si la factura, la transacción de crédito (ya sea un pago o una nota de abono) o ambas se introducen en una divisa diferente a la divisa de contabilidad de la entidad jurídica, el descuento por pronto pago se calcula mediante el tipo de cambio basado en la fecha del pago o la nota de abono. Si la factura y el documento de crédito se especifican en entidades jurídicas diferentes y las divisas de contabilidad de dichas entidades jurídicas son diferentes, el tipo de cambio se toma de la entidad jurídica de la factura, a partir de la fecha del documento de crédito. Para obtener más información, consulte el apartado "Ejemplo: tipos de cambio para los descuentos por pronto pago" más adelante en este tema.
+Los descuentos por pronto pago para clientes o proveedores se pueden crear en la página Descuentos por pronto pago. También puede definir, mediante el campo Código de descuento siguiente, una serie de descuentos por pronto pago que se sucederán uno tras otro cuando venzan las fechas de descuento por pronto pago anteriores. Para obtener más información, consulte el apartado "Ejemplo: serie de descuentos por pronto pago" más adelante en este artículo. Si la factura, la transacción de crédito (ya sea un pago o una nota de abono) o ambas se introducen en una divisa diferente a la divisa de contabilidad de la entidad jurídica, el descuento por pronto pago se calcula mediante el tipo de cambio basado en la fecha del pago o la nota de abono. Si la factura y el documento de crédito se especifican en entidades jurídicas diferentes y las divisas de contabilidad de dichas entidades jurídicas son diferentes, el tipo de cambio se toma de la entidad jurídica de la factura, a partir de la fecha del documento de crédito. Para obtener más información, consulte el apartado "Ejemplo: tipos de cambio para los descuentos por pronto pago" más adelante en este artículo.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Orden predeterminado de la cuenta principal del descuento por pronto pago
 

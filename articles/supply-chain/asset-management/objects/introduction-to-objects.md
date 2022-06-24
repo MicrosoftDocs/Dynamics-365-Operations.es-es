@@ -1,6 +1,6 @@
 ---
 title: Introducción a los activos
-description: Este tema proporciona una visión general de los activos en Administración de activos.
+description: Este artículo proporciona una visión general de los activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874199"
 ---
 # <a name="introduction-to-assets"></a>Introducción a los activos
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767517"
 
  
 
-Este tema proporciona una visión general de los activos en Administración de activos. Un *activo* es cualquier tipo de equipo, como una máquina o una pieza de equipo, que requiere mantenimiento, servicio o reparación.
+Este artículo proporciona una visión general de los activos en Administración de activos. Un *activo* es cualquier tipo de equipo, como una máquina o una pieza de equipo, que requiere mantenimiento, servicio o reparación.
 
-Un activo se actualiza automáticamente con la información relacionada. Por ejemplo, esta información puede tener que ver con órdenes de trabajo nuevas o actualizadas. Puede crear activos mediante el elemento de menú **Todos los activos** o el elemento de menú **Activos pendientes** . Este tema explica cómo crear activos mediante el elemento de menú **Todos los activos**. Para obtener información acerca de la creación de activos mediante el elemento de menú **Activos pendientes** , consulte [Crear activos basados en órdenes de compra](../objects/create-objects-based-on-purchase-orders.md).
+Un activo se actualiza automáticamente con la información relacionada. Por ejemplo, esta información puede tener que ver con órdenes de trabajo nuevas o actualizadas. Puede crear activos mediante el elemento de menú **Todos los activos** o el elemento de menú **Activos pendientes** . Este artículo explica cómo crear activos mediante el elemento de menú **Todos los activos**. Para obtener información acerca de la creación de activos mediante el elemento de menú **Activos pendientes** , consulte [Crear activos basados en órdenes de compra](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Todos los activos
 

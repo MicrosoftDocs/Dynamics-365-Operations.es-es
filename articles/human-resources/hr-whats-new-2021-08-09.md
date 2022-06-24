@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources, 9 de agosto de 2021
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 9 de agosto de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 9 de agosto de 2021.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689281"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882877"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Novedades y cambios en Dynamics 365 Human Resources, 9 de agosto de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se describen las funciones que son nuevas, han cambiado o estarán disponibles próximamente en Microsoft Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Microsoft Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Esta versión incluye las características nuevas y correcciones de errores sigu
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Problema | Descripción |
+| Número del problema | Problema | Description |
 | --- | --- | --- |
 | 558385 | La persona designada predeterminada no se selecciona cuando la opción **Seleccionar automáticamente personas designadas** está activada para las personas designadas predeterminadas. | Este problema ahora está solucionado. Se seleccionan automáticamente varias personas designadas predeterminadas en los planes elegibles cuando la opción **Seleccionar automáticamente personas designadas** de la página **Parámetros compartidos de Human Resources** está activada. |
 | 589617 | En la página **Tiempo libre**, los saldos de **Disponible para comprar** y **Disponible para vender** están en blanco cuando el acceso está restringido a una empresa específica. | Este problema ahora está solucionado. La página **Tiempo libre** muestra los saldos correctos de **Disponible para comprar** y **Disponible para vender** cuando el usuario está restringido a una empresa específica. |

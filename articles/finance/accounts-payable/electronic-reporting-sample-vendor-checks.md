@@ -1,6 +1,6 @@
 ---
 title: Cheques de proveedor de ejemplo para informes electrónicos
-description: Este tema proporciona información general sobre cómo usar los formatos de cheque de muestra de los informes electrónicos.
+description: Este artículo proporciona información general sobre cómo usar los formatos de cheque de muestra de los informes electrónicos.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908194"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Cheques de proveedor de ejemplo para informes electrónicos
 
@@ -28,7 +28,7 @@ Puede usar informes electrónicos (ER) para dar formato a los cheques de proveed
 
 ## <a name="what-check-formats-are-currently-supported"></a>¿Qué formatos de cheque se admiten actualmente?
 
-Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista actual de archivos disponibles que tienen un tipo de activo de **Configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, incluye un vínculo al tema que explica cómo crear un repositorio de LCS para que pueda revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
+Debe ir siempre a la biblioteca de activos compartidos de Microsoft Dynamics Lifecycle Services (LCS) y ver la lista actual de archivos disponibles que tienen un tipo de activo de **Configuración de GER**. La siguiente sección, “¿Qué tengo que configurar? ”, incluye un vínculo al artículo que explica cómo crear un repositorio de LCS para que pueda revisar las configuraciones disponibles e importar las configuraciones seleccionadas.
 
 Microsoft Dynamics 365 Finance incluye un formato de muestra donde el cheque está en la parte superior, seguido de dos secciones de la remesa. También incluye un formato de muestra donde el cheque está en el medio, entre dos secciones de la remesa. Estos formatos de ejemplo se corresponden con los formatos de cheques empresariales Deluxe.
 

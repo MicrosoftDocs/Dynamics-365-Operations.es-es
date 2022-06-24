@@ -1,6 +1,6 @@
 ---
 title: Prorratear los cargos de encabezado con las líneas de ventas coincidentes
-description: Este tema describe las capacidades adicionales para calcular y aplicar cargos automáticos a los pedidos del canal de Commerce mediante la función de cargos automáticos avanzada.
+description: Este artículo describe las capacidades adicionales para calcular y aplicar cargos automáticos a los pedidos del canal de Commerce mediante la función de cargos automáticos avanzada.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886941"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe la funcionalidad para agrupar cargos automáticos de nivel de encabezado y prorratearlos a las líneas de la venta de Commerce. Esta funcionalidad está disponible para las transacciones que se crean en el punto de venta (POS) en la versión 10.0.1 de Retail y las ventas que se crean en un centro de asistencia telefónica en la versión 10.0.2 de Retail.
+Este artículo describe la funcionalidad para agrupar cargos automáticos de nivel de encabezado y prorratearlos a las líneas de la venta de Commerce. Esta funcionalidad está disponible para las transacciones que se crean en el punto de venta (POS) en la versión 10.0.1 de Retail y las ventas que se crean en un centro de asistencia telefónica en la versión 10.0.2 de Retail.
 
 Esta funcionalidad solo está disponible si la función [cargos automáticos avanzados](/dynamics365/unified-operations/retail/omni-auto-charges) está activada mediante la opción en la página **Parámetros de Commerce**. Además, el método de cálculo ampliado para cargos automáticos se puede aplicar solo a los pedidos de ventas que se crean mediante canales de commerce (PDV, un centro de asistencia telefónica y la plataforma de e-commerce de Dynamics).
 

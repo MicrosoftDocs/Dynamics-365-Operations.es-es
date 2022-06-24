@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (8 de marzo de 2021)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 8 de marzo de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 8 de marzo de 2021.
 author: marcelbf
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7b1e616f9bc72ab1f30f69671c673241096f3276
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9280e85f9701573717c4115b4d752ed11be4862e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868079"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Novedades y cambios en Dynamics 365 Human Resources (08 de marzo de 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Emitir |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 486611 | La licencia se muestra en el calendario de licencia cuando **Desactivar la licencia en todos los calendarios** está habilitado | Si **Desactivar la licencia en todos los calendarios** está habilitada, la información de licencias ya no se muestra cuando la función de mejoras del calendario de licencias y ausencias está habilitada.|
 | 508972 | A la entidad de transacción bancaria de ausencias y ausencias falta la validación de la inscripción | Cuando se utiliza la entidad Transacción bancaria de ausencias y ausencias, los empleados que no están inscritos en un plan ya no se pueden importar. |

@@ -1,6 +1,6 @@
 ---
 title: Crear planes de compensación fija
-description: En este tema se describen los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
+description: Este artículo describe los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f4748f66f4027972aabf53e7a1c237b8dbb543
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f254afc37d5afae48c3b2b3b16bd86634ac9aa3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875753"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Crear un plan de compensación fija
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693070"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. En este tema se describen los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
+La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. Este artículo describe los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 
 Los importes de compensación fija se pueden calcular para sus empleados, en función de factores como el rendimiento, la región y los aumentos de presupuesto. Dynamics 365 Human Resources admite tipos de compensación de banda, paso y categoría.
 

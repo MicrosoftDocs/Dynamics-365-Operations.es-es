@@ -1,6 +1,6 @@
 ---
 title: Detectar carros abandonados y enviar notificaciones a los clientes
-description: Este tema describe cómo personalizar la aplicación de muestra de conector de carrito abandonado Microsoft Dynamics 365 Commerce para detectar carros abandonados y enviar notificaciones de recordatorio por correo electrónico a los clientes.
+description: Este artículo describe cómo personalizar la aplicación de muestra de conector de carrito abandonado Microsoft Dynamics 365 Commerce para detectar carros abandonados y enviar notificaciones de recordatorio por correo electrónico a los clientes.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899219"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Detectar carros abandonados y enviar notificaciones a los clientes
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo personalizar la aplicación de muestra de conector de carrito abandonado Microsoft Dynamics 365 Commerce para detectar carros abandonados y enviar notificaciones de recordatorio por correo electrónico a los clientes.
+Este artículo describe cómo personalizar la aplicación de muestra de conector de carrito abandonado Microsoft Dynamics 365 Commerce para detectar carros abandonados y enviar notificaciones de recordatorio por correo electrónico a los clientes.
 
 La capacidad de recuperar ingresos y retener clientes a través de notificaciones de carros abandonados es una capacidad importante que Dynamics 365 Commerce admite. Al personalizar la aplicación de muestra del conector de carro abandonado de Commerce, los minoristas pueden acceder a los carros de compras en Retail Server que no se han modificado durante un período de tiempo definido por los minoristas. Luego, esos carros se pueden recuperar, aumentar con datos de productos y clientes, y pasarlos a un proveedor de marketing por correo electrónico externo que puede generar notificaciones por correo electrónico y enviarles clientes.
 

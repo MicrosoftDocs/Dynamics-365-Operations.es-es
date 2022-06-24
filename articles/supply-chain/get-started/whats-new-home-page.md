@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management
-description: Este tema apunta a temas que describen las características nuevas y modificadas en cada versión de Dynamics 365 Supply Chain Management.
+description: Este artículo apunta a artículos que describen las características nuevas y modificadas en cada versión de Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893450"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Novedades y cambios en Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812983"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Versiones de Dynamics 365 Supply Chain Management
 
-Para ver las novedades o los cambios de cada versión de Dynamics 365 Supply Chain Management, consulte los temas siguientes.
+Para ver las novedades o los cambios de cada versión de Dynamics 365 Supply Chain Management, consulte los artículos siguientes.
 
 | Versión | Crear número | Disponibilidad de actualización automática | Más información |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Para ver las novedades o los cambios de cada versión de Dynamics 365 Supply Cha
 
 ## <a name="releases-before-november-2019"></a>Lanzamientos anteriores a noviembre de 2019
 
-Para ver las novedades o los cambios de las versiones anteriores a noviembre de 2019, consulte los temas siguientes.
+Para ver las novedades o los cambios de las versiones anteriores a noviembre de 2019, consulte los artículos siguientes.
 
 | Desbloquear | Versión | Crear número | Disponibilidad | Más información |
 |---|---|---|---|---|

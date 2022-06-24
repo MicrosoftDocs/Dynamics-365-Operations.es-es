@@ -1,6 +1,6 @@
 ---
 title: Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar entidades de Contacto (Contactos) y Contacto (Clientes) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
+description: En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar entidades de Contacto (Contactos) y Contacto (Clientess) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857355"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062524"
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Microsoft Dataverse para aplicaciones](/powerapps/administrator/data-integrator).
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar tablas de Contacto (Contactos) y Contacto (Clientes) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
+En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar tablas de Contacto (Contactos) y Contacto (Clientes) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
@@ -126,7 +126,7 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 ![Asignación de plantilla contacto a cliente en el integrador de datos.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Cliente potencial a cliente](prospect-to-cash.md)
 

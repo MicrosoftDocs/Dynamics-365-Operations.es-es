@@ -1,6 +1,6 @@
 ---
-title: Política de reserva de dimensión de nivel de almacén flexible
-description: Este tema describe la política de reserva de inventario que permite a las empresas que venden productos con seguimiento por lotes y ejecutan su logística como operaciones habilitadas para WMS reservar lotes específicos para pedidos de clientes, a pesar de que la jerarquía de reservas asociada con los productos no permite la reserva de lotes específicos.
+title: Directiva de reserva de dimensión de nivel de almacén flexible
+description: Este artículo describe la política de reserva de inventario que permite a las empresas que venden productos con seguimiento por lotes y ejecutan su logística como operaciones habilitadas para WMS reservar lotes específicos para pedidos de clientes, a pesar de que la jerarquía de reservas asociada con los productos no permite la reserva de lotes específicos.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885823"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Directiva de reserva de dimensión de nivel de almacén flexible
 
@@ -28,7 +28,7 @@ Cuando una jerarquía de reserva de inventario de tipo *Batch-below\[ubicación\
 
 De manera similar, las placas específicas no se pueden reservar para productos en pedidos de ventas cuando esos productos están asociados con la jerarquía de reserva predeterminada.
 
-Este tema describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos o matrículas de entidad, incluso cuando los productos están asociados con una jerarquía de reservas *Batch-below\[ubicación\]*.
+Este artículo describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos o matrículas de entidad, incluso cuando los productos están asociados con una jerarquía de reservas *Batch-below\[ubicación\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Jerarquía de reservas de inventario
 

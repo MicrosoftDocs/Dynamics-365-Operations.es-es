@@ -1,6 +1,6 @@
 ---
 title: Operación de búsqueda de inventario en PDV
-description: Este tema describe cómo utilizar la operación de búsqueda de inventario en el punto de venta (POS) de Dynamics 365 Commerce para ver la disponibilidad de inventario de productos en tiendas y almacenes.
+description: Este artículo describe cómo utilizar la operación de búsqueda de inventario en el punto de venta (POS) de Dynamics 365 Commerce para ver la disponibilidad de inventario de productos en tiendas y almacenes.
 author: boycezhu
 ms.date: 08/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850258"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operación de búsqueda de inventario en PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo utilizar la operación de búsqueda de inventario en el punto de venta (POS) de Dynamics 365 Commerce para ver la disponibilidad de inventario de productos en tiendas y almacenes.
+Este artículo describe cómo utilizar la operación de búsqueda de inventario en el punto de venta (POS) de Dynamics 365 Commerce para ver la disponibilidad de inventario de productos en tiendas y almacenes.
 
 Una vista precisa del inventario en una organización ayuda a los socios del almacén a proporcionar un servicio al cliente oportuno y eficaz. El momento que más importa es el momento en que un cliente está listo para tomar una decisión de compra. Es importante que los cajeros de la tienda tenga información en tiempo real o casi en tiempo real sobre el inventario a su alcance, de modo que puedan comprometer con precisión la entrega y la recogida del producto.
 

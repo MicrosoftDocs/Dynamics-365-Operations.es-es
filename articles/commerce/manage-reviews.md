@@ -1,6 +1,6 @@
 ---
-title: Administrar clasificaciones y revisiones
-description: Este tema explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
+title: Administrar calificaciones y opiniones
+description: Este artículo explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881332"
 ---
-# <a name="manage-ratings-and-reviews"></a>Administrar clasificaciones y revisiones
+# <a name="manage-ratings-and-reviews"></a>Administrar calificaciones y opiniones
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
+Este artículo explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce uses Microsoft Azure Cognitive Service para moderar automáticamente el texto de revisión redactando palabras profanas. Además, los moderadores pueden utilizar el generador de sitios de Dynamics 365 Commerce para implementar las siguientes tareas manuales:
 

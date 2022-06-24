@@ -1,6 +1,6 @@
 ---
 title: Configurar destinos de informes electrónicos dependientes de acciones
-description: Este tema explica cómo configurar destinos dependientes de acciones para un informe electrónico (ER) que se ha configurado para generar documentos de salida.
+description: Este artículo explica cómo configurar destinos dependientes de acciones para un informe electrónico (ER) que se ha configurado para generar documentos de salida.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876845"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323988"
 
 Puede configurar [destinos](electronic-reporting-destinations.md) para cada componente de salida (carpeta o archivo) de una [configuración](general-electronic-reporting.md#Configuration) de [formato de informe electrónico (ER)](general-electronic-reporting.md) que se usa para generar un documento de salida. Los usuarios que ejecutan un formato de informe electrónico de este tipo y que tienen los derechos de acceso adecuados también pueden cambiar los ajustes de destino configurados en runtime.
 
-En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, un formato de informe electrónico se puede ejecutar mediante el [aprovisionamiento](er-apis-app10-0-17.md) de un código de acción que realiza el usuario al ejecutar ese formato de informe electrónico. Por ejemplo, en el módulo **clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informe electrónico que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción de usuario para el formato de informe electrónico en runtime, puede configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario. Este tema explica cómo configurar destinos de informes electrónicos para este tipo de formato de informe electrónico.
+En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, un formato de informe electrónico se puede ejecutar mediante el [aprovisionamiento](er-apis-app10-0-17.md) de un código de acción que realiza el usuario al ejecutar ese formato de informe electrónico. Por ejemplo, en el módulo **clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informe electrónico que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción de usuario para el formato de informe electrónico en runtime, puede configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario. Este artículo explica cómo configurar destinos de informes electrónicos para este tipo de formato de informe electrónico.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Habilitar los destinos de informes electrónicos dependientes de acciones
 
@@ -82,7 +82,7 @@ La siguiente ilustración muestra cómo puede lograr lo mismo de forma alternati
 
 Cuando se ejecuta un formato de informes electrónicos, si las acciones del usuario han sido aprovisionadas por usuarios que tienen los [permisos](electronic-reporting-destinations.md#security-considerations) adecuados para cambiar la configuración de destino configurada en runtime, aparece un cuadro de diálogo que ofrece la opción de cambiar la configuración de destino configurada. Este cuadro de diálogo es opcional y su apariencia depende de cómo se haya implementado la llamada que hace el marco de informes electrónicos para ejecutar un formato de informes electrónicos. Si aparece este cuadro de diálogo, los destinos de informes electrónicos en él se habilitarán de acuerdo con la acción del usuario que se proporcione.
 
-La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos de formato de informes electrónicos** que aparece cuando se [publica](../../../finance/accounts-receivable/create-free-text-invoice-new.md) una factura de servicios y el formato de informes electrónicos **Factura de servicios (Excel)** se ejecuta para generar este documento si se ha proporcionado la acción **Impresora** y los destinos de informes electrónicos se configuraron para este formato, como se mostró anteriormente en este tema.
+La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos de formato de informes electrónicos** que aparece cuando se [publica](../../../finance/accounts-receivable/create-free-text-invoice-new.md) una factura de servicios y el formato de informes electrónicos **Factura de servicios (Excel)** se ejecuta para generar este documento si se ha proporcionado la acción **Impresora** y los destinos de informes electrónicos se configuraron para este formato, como se mostró anteriormente en este artículo.
 
 ![Cuadro de diálogo que ofrece la opción de cambiar los destinos de informes electrónicos configurados inicialmente para el formato de informes electrónicos en ejecución.](./media/er-destination-action-dependent-02.gif)
 

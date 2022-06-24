@@ -1,6 +1,6 @@
 ---
 title: Insertar aplicaciones de terceros
-description: Este tema explica cómo insertar aplicaciones de terceros para aumentar la funcionalidad de producto.
+description: Este artículo explica cómo insertar aplicaciones de terceros para aumentar la funcionalidad de producto.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868619"
 ---
 # <a name="embed-third-party-apps"></a>Insertar aplicaciones de terceros
 
 [!include [banner](../includes/banner.md)]
 
-Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de Finance and Operations (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
+Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de finanzas y operaciones (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
 
-Antes de poder insertar aplicaciones de terceros en el producto, debe activar la característica **Aplicaciones de página completa** en Administración de características. A continuación, puede utilizar uno de los siguientes métodos para insertar una aplicación o un sitio web de terceros. Estos métodos son análogos a los métodos que se utilizan para insertar aplicaciones de lienzo desde Microsoft Power Apps en Finance and Operations.
+Antes de poder insertar aplicaciones de terceros en el producto, debe activar la característica **Aplicaciones de página completa** en Administración de características. A continuación, puede utilizar uno de los siguientes métodos para insertar una aplicación o un sitio web de terceros. Estos métodos son análogos a los métodos que se utilizan para insertar aplicaciones de lienzo desde Microsoft Power Apps en aplicaciones de finanzas y operaciones.
 
 - Inserte la aplicación o el sitio web en una página existente como una página de pestaña nueva (pestaña dinámica, pestaña desplegable, hoja o sección del espacio de trabajo).
 - Cree una nueva experiencia de página completa para la aplicación o el sitio web desde el panel.
@@ -53,7 +53,7 @@ Utilice este procedimiento si desea complementar una página existente en el sis
     > - La aplicación o el sitio web deben configurarse para que se puedan insertar.
 
 6. Seleccione **Guardar** para insertar la aplicación en la página. La aplicación se agrega como la última pestaña o sección del grupo.
-7. Confirme que la aplicación aparece como se esperaba. Si la aplicación no se representa, consulte la sección [Solución de problemas](#troubleshooting) más adelante en este tema.
+7. Confirme que la aplicación aparece como se esperaba. Si la aplicación no se representa, consulte la sección [Solución de problemas](#troubleshooting) más adelante en este artículo.
 8. Abra el selector de vista y seleccione **Guardar** (si la aplicación debe estar asociada con la vista actual) o **Guardar como** (para guardar la aplicación en una vista diferente).
 
     Si la página no tiene un selector de vista (por ejemplo, si la página es un cuadro de diálogo o un espacio de trabajo), puede omitir este paso.
@@ -75,7 +75,7 @@ Utilice este procedimiento si la aplicación que desea insertar no está relacio
     > - La aplicación o el sitio web deben configurarse para que se puedan insertar.
 
 5. Seleccione **Guardar** para agregar la aplicación al panel de información como un nuevo mosaico.
-6. Seleccione el nuevo mosaico en el panel y confirme que la aplicación aparece como se esperaba. Si la aplicación no se representa, consulte la sección [Solución de problemas](#troubleshooting) más adelante en este tema.
+6. Seleccione el nuevo mosaico en el panel y confirme que la aplicación aparece como se esperaba. Si la aplicación no se representa, consulte la sección [Solución de problemas](#troubleshooting) más adelante en este artículo.
 
 ## <a name="sharing-embedded-apps"></a>Uso compartido de aplicaciones insertadas
 
@@ -126,6 +126,6 @@ Si un sitio web no se representa correctamente después de estar integrado en un
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Desarrollador] Modelado de un sitio web en un formulario
 
-Aunque este tema se centra en insertar aplicaciones o sitios web de terceros mediante la personalización, los desarrolladores también pueden insertarlas en un formulario utilizando la experiencia de desarrollo de Visual Studio. Basta con agregar un **WebsiteHostControl** al formulario. Las propiedades de metadatos disponibles en el control brindan las mismas capacidades que la experiencia de personalización.
+Aunque este artículo se centra en insertar aplicaciones o sitios web de terceros mediante la personalización, los desarrolladores también pueden insertarlas en un formulario utilizando la experiencia de desarrollo de Visual Studio. Basta con agregar un **WebsiteHostControl** al formulario. Las propiedades de metadatos disponibles en el control brindan las mismas capacidades que la experiencia de personalización.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

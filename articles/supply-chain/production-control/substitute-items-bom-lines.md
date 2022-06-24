@@ -1,6 +1,6 @@
 ---
 title: Sustitución material en la fabricación
-description: Este tema describe cómo sustituir materiales durante el proceso de producción.
+description: Este artículo describe cómo sustituir materiales durante el proceso de producción.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f24ed91c7a99eba6129d18c385cea9c9312aebefc325c7e0914b1c0b32231e32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c2e6c9cc8ed85c8c60539b37fb6c51c96bc2872
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855989"
 ---
 # <a name="material-substitution-in-manufacturing"></a>Sustitución material en la fabricación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo sustituir materiales durante el proceso de producción. 
+Este artículo describe cómo sustituir materiales durante el proceso de producción. 
 
 Hay tres métodos para sustituir materiales durante el proceso de producción:
 

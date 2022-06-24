@@ -1,6 +1,6 @@
 ---
 title: Usar los orígenes de datos de JOIN del modelo ER asignaciones para recopilar datos de las tablas de la aplicación múltiple
-description: En este tema se explica cómo puede usar orígenes de datos de tipo JOIN en informes electrónicos (ER).
+description: En este artículo se explica cómo puede usar orígenes de datos de tipo JOIN en informes electrónicos (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845552"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
 
@@ -40,7 +40,7 @@ En el origen de datos configurado **Unión**, cuando todos los orígenes de dato
 > [!NOTE]
 > Usar la función **VALUEIN** en las expresiones de ER que especifican las condiciones para participar registra en orígenes de datos del tipo de combinación no se admite aún. Visite la página [Diseñador de fórmulas en informes electrónicos](general-electronic-reporting-formula-designer.md) para obtener más información sobre esta función.
 
-Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
+Para obtener más información acerca de esta característica, complete el ejemplo de este artículo.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Ejemplo: Usar orígenes de datos JOIN en asignaciones de modelo de ER
 
@@ -48,7 +48,7 @@ Los pasos siguientes se explica cómo el administrador del sistema o el desarrol
 
 ### <a name="prerequisites"></a>Requisitos previos
 
-Para completar los ejemplos de este tema, debe obtener acceso a uno de los siguientes en función de qué servicio se use para completar estos pasos:
+Para completar los ejemplos de este artículo, debe obtener acceso a uno de los siguientes en función de qué servicio se use para completar estos pasos:
 
 **Acceso a Finance para uno de los roles siguientes:**
 
@@ -257,7 +257,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
 ## <a name="limitations"></a>Limitaciones
 
-Como puede ver en el ejemplo de este tema, el origen de datos **UNIRSE** se puede construir a partir de varias fuentes de datos que describen los conjuntos de datos individuales de los registros que eventualmente se deben unir. Puede configurar esos orígenes de datos utilizando la función ER incorporada [FILTRAR](er-functions-list-filter.md). Cuando configura el origen de datos para que se llame más allá del origen de datos **UNIRSE**, puede usar los rangos de empresas como parte de la condición para la selección de datos. La implementación inicial del origen de datos **UNIRSE** no admite fuentes de datos de este tipo. Por ejemplo, cuando llama a un origen de datos basado en [FILTRAR](er-functions-list-filter.md) dentro del alcance de la ejecución de un origen de datos **UNIRSE**, si el origen de datos llamado contiene rangos de empresas como parte de la condición para la selección de datos, se produce una excepción.
+Como puede ver en el ejemplo de este artículo, el origen de datos **UNIRSE** se puede construir a partir de varias fuentes de datos que describen los conjuntos de datos individuales de los registros que eventualmente se deben unir. Puede configurar esos orígenes de datos utilizando la función ER incorporada [FILTRAR](er-functions-list-filter.md). Cuando configura el origen de datos para que se llame más allá del origen de datos **UNIRSE**, puede usar los rangos de empresas como parte de la condición para la selección de datos. La implementación inicial del origen de datos **UNIRSE** no admite fuentes de datos de este tipo. Por ejemplo, cuando llama a un origen de datos basado en [FILTRAR](er-functions-list-filter.md) dentro del alcance de la ejecución de un origen de datos **UNIRSE**, si el origen de datos llamado contiene rangos de empresas como parte de la condición para la selección de datos, se produce una excepción.
 
 En Microsoft Dynamics 365 Finance, versión 10.0.12 (agosto de 2020), puede utilizar rangos de empresas como parte de la condición para la selección de datos en orígenes de datos basados en [FILTRAR](er-functions-list-filter.md) que se llaman dentro del alcance de la ejecución de un origen de datos **UNIRSE**. Debido a las limitaciones de la aplicación creadora de [consultas](../dev-ref/xpp-library-objects.md#query-object-model), los rangos de empresas solo se admiten para el primer origen de datos de un origen de datos **UNIRSE**.
 

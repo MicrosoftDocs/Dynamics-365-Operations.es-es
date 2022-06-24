@@ -1,6 +1,6 @@
 ---
 title: Aplicar la configuración de visualización para las dimensiones del producto
-description: Este tema cubre la configuración de pantalla para las dimensiones del producto y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
+description: Este artículo cubre la configuración de pantalla para las dimensiones del producto y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899184"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Aplicar la configuración de visualización para las dimensiones del producto
 
 [!include [banner](includes/banner.md)]
 
 
-Este tema cubre la configuración de pantalla para las dimensiones del producto y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
+Este artículo cubre la configuración de pantalla para las dimensiones del producto y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce admite el uso de dimensiones de tamaño, estilo y color para distinguir variantes de productos. Las dimensiones se muestran normalmente como valores de texto, como "Pequeño", "Mediano" y "Grande" para los tamaños y "Negro" y "Marrón" para los colores. Sin embargo, si un producto admite muchas variaciones, puede ser difícil examinar variantes, porque se requieren varias selecciones para ver la imagen de cada variante. Para facilitar la búsqueda de variantes de productos, la versión 10.0.20 de Commerce puede usar imágenes y códigos hexadecimales (hex) para mostrar las dimensiones como muestras.
 

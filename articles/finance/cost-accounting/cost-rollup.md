@@ -1,6 +1,6 @@
 ---
 title: Directiva de acumulación de costes y cálculo de costes generales
-description: Este tema proporciona información sobre cómo determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.
+description: Este artículo proporciona información sobre cómo determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874620"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
@@ -33,7 +33,7 @@ La contabilidad de costes permite obtener detalles sobre cómo en el flujo de co
 -   El volumen de entradas de coste generado por el cálculo de gastos generales puede ser muy alto.
 -   No se puede supervisar el flujo de coste entre los objetos de coste.
 
-Para evitar estas implicaciones, la contabilidad de costes le permite configurar la asignación de costes para se ajuste a los requisitos de generación de informes ejecutivos de la organización. Este tema describe cómo puede determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.
+Para evitar estas implicaciones, la contabilidad de costes le permite configurar la asignación de costes para se ajuste a los requisitos de generación de informes ejecutivos de la organización. Este artículo describe cómo puede determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.
 
 > [!NOTE]
 > Puede cambiar las configuraciones si cambian los requisitos de los informes.

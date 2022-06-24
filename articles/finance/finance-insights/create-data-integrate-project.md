@@ -1,6 +1,6 @@
 ---
 title: Crear un proyecto de integración de datos
-description: Este tema explica cómo crear un proyecto de integración de datos.
+description: Este artículo explica cómo crear un proyecto de integración de datos.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876251"
 ---
 # <a name="create-a-data-integration-project"></a>Crear un proyecto de integración de datos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo crear un proyecto de integración de datos.
+Este artículo explica cómo crear un proyecto de integración de datos.
 
 1. Inicie sesión en Microsoft Dynamics 365 Finance.
 2. Vaya a **Espacios de trabajo \> Administración de datos** y seleccione **Entidades de datos**. Espere hasta que se hayan actualizado todas las entidades de datos antes de continuar con el siguiente paso.

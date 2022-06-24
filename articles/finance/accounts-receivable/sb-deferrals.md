@@ -1,6 +1,6 @@
 ---
 title: Aplazamientos de ingresos y gastos en la facturación de suscripción
-description: Este tema explica cómo configurar los aplazamientos de ingresos y gastos en la facturación de suscripción.
+description: Este artículo explica cómo configurar los aplazamientos de ingresos y gastos en la facturación de suscripción.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908107"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Aplazamientos de ingresos y gastos en la facturación de suscripción
 
-Este tema explica cómo configurar y usar los aplazamientos de ingresos y gastos en la facturación de suscripción. Las programaciones de aplazamientos siempre se basan y dependen de un documento de origen subyacente o una programación de facturación. Debido a que se crean en función de los valores predeterminados, no se pueden introducir ni crear por separado.
+Este artículo explica cómo configurar y usar los aplazamientos de ingresos y gastos en la facturación de suscripción. Las programaciones de aplazamientos siempre se basan y dependen de un documento de origen subyacente o una programación de facturación. Debido a que se crean en función de los valores predeterminados, no se pueden introducir ni crear por separado.
 
 El proceso de configuración y uso de aplazamientos de ingresos y gastos ocurre en varias páginas:
 

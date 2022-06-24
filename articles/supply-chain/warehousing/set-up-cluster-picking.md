@@ -1,6 +1,6 @@
 ---
-title: Configurar picking en clúster
-description: En este tema se describe cómo configurar el picking de clústeres y cómo aplicar la confirmación del artículo con el picking de clústeres.
+title: Configurar selección de clústeres
+description: En este artículo se describe cómo configurar el picking de clústeres y cómo aplicar la confirmación del artículo con el picking de clústeres.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862319"
 ---
-# <a name="set-up-cluster-picking"></a>Configurar picking en clúster
+# <a name="set-up-cluster-picking"></a>Configurar selección de clústeres
 
 [!include[banner](../includes/banner.md)]
 
-Este tema describe cómo permitir a los trabajadores usar sus dispositivos móviles para agrupar el trabajo de picking en clústeres, de forma que puedan seleccionar artículos de una única ubicación para varios pedidos de trabajo al mismo tiempo. A esto se le llama *picking en clúster*.
+Este artículo describe cómo permitir a los trabajadores usar sus dispositivos móviles para agrupar el trabajo de picking en clústeres, de forma que puedan seleccionar artículos de una única ubicación para varios pedidos de trabajo al mismo tiempo. A esto se le llama *picking en clúster*.
 
 ## <a name="about-cluster-picking"></a>Acerca del picking en clúster
 

@@ -1,6 +1,6 @@
 ---
 title: Atributos de lote
-description: Este tema proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El tema también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.
+description: Este artículo proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El artículo también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb971e7468245297f2359317533b123a3a4f83a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e5f5a03df63cf4fa90b5e9e67082a0d60eef9afc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899393"
 ---
 # <a name="batch-attributes"></a>Atributos de lote
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El tema también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.
+Este artículo proporciona información acerca de los atributos de lote. Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. El artículo también explica cómo asignar atributos de lote y cómo puede buscar en ellos al reservar lotes.
 
 Los atributos de lote son características de las materias primas y los productos terminados que componen los lotes de inventario. Los atributos de lote pueden variar en función de diversos factores, como las condiciones ambientales, la calidad de las materias primas usadas para producir el lote o el resultado del producto terminado. El número y los tipos de atributos de lote usados pueden variar mucho de una industria a otra. A continuación se muestran dos ejemplos de cómo usar los atributos de lote:
 

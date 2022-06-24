@@ -1,6 +1,6 @@
 ---
 title: Configurar análisis de novedad, frecuencia y monetario (RFM)
-description: Este tema explica cómo configurar un análisis de novedad, frecuencia y monetario (RFM) de los clientes.
+description: Este artículo explica cómo configurar un análisis de novedad, frecuencia y monetario (RFM) de los clientes.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850180"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Configurar análisis de novedad, frecuencia y monetario (RFM)
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar un análisis de novedad, frecuencia y monetario (RFM) de los clientes.
+Este artículo explica cómo configurar un análisis de novedad, frecuencia y monetario (RFM) de los clientes.
 
 El análisis de RFM es una herramienta de marketing que su organización puede usar para evaluar los datos que se generan mediante las compras del cliente. Después de configurar un análisis de RFM, a los clientes se les asigna una puntuación calculada de RFM mientras realizan compras. La puntuación de RFM puede ser una calificación de tres dígitos o un número global, en función de cómo haya configurado el análisis de RFM su organización. Así es cómo funciona la calificación si su organización usa una calificación de tres dígitos para la puntuación:
 

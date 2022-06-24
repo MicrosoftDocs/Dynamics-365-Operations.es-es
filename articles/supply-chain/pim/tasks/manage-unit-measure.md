@@ -1,6 +1,6 @@
 ---
 title: Gestionar las unidades de medida
-description: Este rema describe cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas.
+description: Este artículo describe cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863922"
 ---
 # <a name="manage-units-of-measure"></a>Gestionar las unidades de medida
 
 [!include [banner](../../includes/banner.md)]
 
-Este rema describe cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas.
+Este artículo describe cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas.
 
 ## <a name="open-the-units-page"></a>Abrir la página de unidades
 
 Para crear y trabajar con las unidades de medida que están disponibles en su sistema, vaya a **Administración de la organización \> Configuración \> Unidades \> Unidades**.
 
-Las secciones restantes de este tema describen lo que puede hacer en la página **Unidades**.
+Las secciones restantes de este artículo describen lo que puede hacer en la página **Unidades**.
 
 ## <a name="create-standard-units-and-conversions"></a>Crear unidades y conversiones estándar
 

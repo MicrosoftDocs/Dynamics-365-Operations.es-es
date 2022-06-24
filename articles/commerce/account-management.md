@@ -1,6 +1,6 @@
 ---
 title: Módulos y páginas de gestión de cuentas
-description: Este tema cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
+description: Este artículo cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 03/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c10288aa65d58d1442e742fa8f39b4e380c7b9e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853885"
 ---
 # <a name="account-management-pages-and-modules"></a>Módulos y páginas de gestión de cuentas
 
 [!include [banner](includes/banner.md)]
 
-Este tema cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
+Este artículo cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 
 La gestión de cuentas hace referencia a un grupo de páginas que se usa para gestionar la información relacionada con cuentas del usuario en Dynamics 365 Commerce. Las páginas de la gestión de cuentas incluyen la página de aterrizaje de la gestión de cuentas, la página de perfil de usuario, la página de la dirección del usuario, la página del historial de pedidos, la página de detalles de pedidos, la página de fidelización y la página de la lista de deseos.
 

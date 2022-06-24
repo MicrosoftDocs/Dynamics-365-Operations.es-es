@@ -1,6 +1,6 @@
 ---
 title: Directrices de implementación para la muestra de integración de la unidad de control para Suecia (heredada)
-description: Este tema proporciona pautas para implementar la muestra de integración de la unidad de control para Suecia desde Retail SDK
+description: Este artículo proporciona pautas para implementar la muestra de integración de la unidad de control para Suecia desde Retail SDK
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870556"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Directrices de implementación para la muestra de integración de la unidad de control para Suecia (heredada)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona pautas para implementar la muestra de integración de la unidad de control para Suecia desde el kit de desarrollo de software (SDK) para minoristas en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte [Ejemplo de integración de la unidad de control para Suecia](emea-swe-fi-sample.md). 
+Este artículo proporciona pautas para implementar la muestra de integración de la unidad de control para Suecia desde el kit de desarrollo de software (SDK) para minoristas en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte [Ejemplo de integración de la unidad de control para Suecia](emea-swe-fi-sample.md). 
 
-La muestra de integración fiscal de Suecia forma parte del Retail SDK. Para obtener información sobre cómo instalar y usar el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md). Esta muestra consta de extensiones para Commerce Runtime (CRT), la estación de hardware y punto de venta (PDV). Para ejecutar este ejemplo, debe modificar y compilar el CRT, estación de hardware y proyectos de PDV. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este tema. También le recomendamos que utilice un sistema de control de fuente, como Azure DevOps, donde aún no se han cambiado archivos.
+La muestra de integración fiscal de Suecia forma parte del Retail SDK. Para obtener información sobre cómo instalar y usar el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md). Esta muestra consta de extensiones para Commerce Runtime (CRT), la estación de hardware y punto de venta (PDV). Para ejecutar este ejemplo, debe modificar y compilar el CRT, estación de hardware y proyectos de PDV. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este artículo. También le recomendamos que utilice un sistema de control de fuente, como Azure DevOps, donde aún no se han cambiado archivos.
 
 ## <a name="development-environment"></a>Entorno de desarrollo
 
@@ -257,7 +257,7 @@ El proceso de migración debe constar de los siguientes pasos.
 1. Actualice los componentes de la estación de hardware y POS, deshabilite las extensiones que son parte de la muestra anterior y habilite las extensiones de la muestra actual.
 
     > [!NOTE]
-    > Dependiendo del tipo de entorno, puede encontrar más detalles técnicos sobre el proceso de migración en la sección [Migración en un entorno de desarrollo](#migration-in-a-development-environment) o la sección [Migración en un entorno de producción](#migration-in-a-production-environment) de este tema.
+    > Dependiendo del tipo de entorno, puede encontrar más detalles técnicos sobre el proceso de migración en la sección [Migración en un entorno de desarrollo](#migration-in-a-development-environment) o la sección [Migración en un entorno de producción](#migration-in-a-production-environment) de este artículo.
 
 ### <a name="migration-in-a-development-environment"></a>Migración en un entorno de desarrollo
 

@@ -1,6 +1,6 @@
 ---
-title: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
-description: En este tema se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Supply Chain Management.
+title: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
+description: En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865277"
 ---
-# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
+# <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas o en desuso en Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Este tema se actualizará a medida que se documenten nuevas características quitadas o en desuso para Dynamics 365 Supply Chain Management.
+Este artículo se actualizará a medida que se documenten nuevas características quitadas o en desuso para Dynamics 365 Supply Chain Management.
 
 - Una función *quitada* dejará de estar disponible en el producto.
 - Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.

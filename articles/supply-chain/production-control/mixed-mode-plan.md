@@ -1,6 +1,6 @@
 ---
 title: 'Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto'
-description: Este tema proporciona información acerca de la planificación modo mezcla.
+description: Este artículo proporciona información acerca de la planificación modo mezcla.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857442"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Dynamics 365 Supply Chain Management garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia). 
+Este artículo proporciona información acerca de la planificación modo mezcla. En la planificación modo mezcla, puede modelar la cadena de suministros en función del flujo de materiales. Dynamics 365 Supply Chain Management garantiza que el flujo de materiales siga sus modelos, independientemente de la directiva de suministro seleccionada (kanbans, pedidos de producción, pedidos de compra, pedidos de lote o pedidos de transferencia). 
 
 Puede seleccionar la estrategia completa para suministrar un producto, independientemente de la estructura de producto.  
 

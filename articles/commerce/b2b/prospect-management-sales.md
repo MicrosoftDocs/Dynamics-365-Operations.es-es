@@ -1,6 +1,6 @@
 ---
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B mediante Dynamics 365 Sales
-description: Este tema describe cómo usar Microsoft Dynamics 365 Sales para administrar las aprobaciones de socios comerciales para sitios web de empresa a empresa (B2B) para Dynamics 365 Commerce.
+description: Este artículo describe cómo usar Microsoft Dynamics 365 Sales para administrar las aprobaciones de socios comerciales para sitios web de empresa a empresa (B2B) para Dynamics 365 Commerce.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878630"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B mediante Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo usar Microsoft Dynamics 365 Sales para administrar las aprobaciones de socios comerciales para sitios web de empresa a empresa (B2B) para Dynamics 365 Commerce. Las organizaciones que ya han invertido en la solución Dynamics 365 Sales pueden usar sus conceptos de cliente potencial y oportunidad para el proceso de aprobación de socios comerciales de comercio electrónico B2B.
+Este artículo describe cómo usar Microsoft Dynamics 365 Sales para administrar las aprobaciones de socios comerciales para sitios web de empresa a empresa (B2B) para Dynamics 365 Commerce. Las organizaciones que ya han invertido en la solución Dynamics 365 Sales pueden usar sus conceptos de cliente potencial y oportunidad para el proceso de aprobación de socios comerciales de comercio electrónico B2B.
 
 Para obtener información básica sobre el proceso de aprobación de socios comerciales B2B, consulte [Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B](manage-b2b-users.md).
 

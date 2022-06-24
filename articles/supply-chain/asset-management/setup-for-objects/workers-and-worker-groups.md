@@ -1,6 +1,6 @@
 ---
 title: Trabajadores de mantenimiento y grupos de trabajadores
-description: Este tema explica los trabajadores de mantenimiento y grupos de trabajadores en la Administración de activos.
+description: Este artículo explica los trabajadores de mantenimiento y grupos de trabajadores en la Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860910"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Trabajadores de mantenimiento y grupos de trabajadores
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750133"
 
  
 
-Este tema explica los trabajadores de mantenimiento y grupos de trabajadores en la Administración de activos. En Administración de activos, puede conectar trabajadores de mantenimiento a ubicaciones técnicas. (Para obtener más información acerca de las ubicaciones técnicas, consulte [Crear ubicaciones técnias](../functional-locations/create-functional-locations.md)). Esta función puede ser útil si, por ejemplo, se está programando un trabajo de mantenimiento en un equipo ubicado en la ubicación técnica 01 y desea asignar a trabajadores de mantenimiento de la misma ubicación para efectuar el trabajo.
+Este artículo explica los trabajadores de mantenimiento y grupos de trabajadores en la Administración de activos. En Administración de activos, puede conectar trabajadores de mantenimiento a ubicaciones técnicas. (Para obtener más información acerca de las ubicaciones técnicas, consulte [Crear ubicaciones técnias](../functional-locations/create-functional-locations.md)). Esta función puede ser útil si, por ejemplo, se está programando un trabajo de mantenimiento en un equipo ubicado en la ubicación técnica 01 y desea asignar a trabajadores de mantenimiento de la misma ubicación para efectuar el trabajo.
 
 También puede crear grupos de trabajadores de mantenimiento y asociarles trabajadores de mantenimiento. Esta función es de utilidad al hacer la programación simple del pedido de trabajo si desea programar un grupo de trabajadores de mantenimiento en un pedido de trabajo. Puede usar trabajadores de mantenimiento y grupos de trabajadores de mantenimiento para configurar los trabajadores preferidos de mantenimiento y los trabajadores responsables del mantenimiento. 
 

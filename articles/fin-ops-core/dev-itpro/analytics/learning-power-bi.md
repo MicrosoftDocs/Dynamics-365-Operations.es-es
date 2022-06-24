@@ -1,6 +1,6 @@
 ---
 title: Contenido de formación de Power BI
-description: Este tema describe el contenido en Power BI de formación.
+description: Este artículo describe el contenido en Power BI de formación.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6236868dca26be8cf54ad3cf73e846f2e689af8635e212c493b65a5d1aaa62ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 05146eef92fa0ef973df832aa3431ec32ea0c297
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847322"
 ---
 # <a name="learning-power-bi-content"></a>Contenido de formación de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de **Formación** Microsoft Power BI.
+Este artículo describe el contenido en Microsoft Power BI de **formación**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 

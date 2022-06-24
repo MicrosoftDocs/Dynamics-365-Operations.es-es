@@ -1,6 +1,6 @@
 ---
 title: Informe 340 para España
-description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
+description: En este artículo se ofrece información acerca de cómo configurar y generar el informe 340 para España.
 author: anasyash
 ms.date: 05/02/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 39a721956af171a258bcd2411dd177c9df8f08d2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 06e6293d00bf290ea49b430ca2034808285a569d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864158"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 

@@ -1,6 +1,6 @@
 ---
 title: Encontrar información mediante el uso de búsquedas
-description: En este tema, aprenderá sobre las características de búsqueda y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
+description: En este artículo, aprenderá sobre las características de búsqueda y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
 author: jasongre
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7135487e5d87564163c643d1315c51231fa66de
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ee309330c165dfb0b67f647afc3514d4c827dad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901534"
 ---
 # <a name="find-information-by-using-lookups"></a>Encontrar información mediante el uso de búsquedas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069307"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad. Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos. En este tema, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
+Muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad. Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos. En este artículo, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
 
 ## <a name="responsive-lookups"></a>Búsquedas con capacidad de respuesta
 

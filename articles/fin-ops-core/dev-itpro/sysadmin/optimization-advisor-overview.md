@@ -1,6 +1,6 @@
 ---
-title: Visión general del asesor de optimización
-description: Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Finance and Operations.
+title: Información general de asesor de optimización
+description: Este artículo describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de finanzas y operaciones.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865872"
 ---
-# <a name="optimization-advisor-overview"></a>Visión general de aviso de optimización
+# <a name="optimization-advisor-overview"></a>Información general de asesor de optimización
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Finance and Operations.
+Este artículo describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de finanzas y operaciones.
 
 ## <a name="overview"></a>Información general
 

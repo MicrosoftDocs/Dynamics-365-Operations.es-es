@@ -1,6 +1,6 @@
 ---
 title: Definir directivas de auditoría para documentos de origen
-description: En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría.
+description: En este artículo se explica cómo configurar y ejecutar las reglas de directivas de auditoría.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872539"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir directivas de auditoría para documentos de origen
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría. En el ejemplo se usan informes de gastos con el tipo de gastos de hotel. Este procedimiento usa la empresa de demostración USMF. El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.
+En este artículo se explica cómo configurar y ejecutar las reglas de directivas de auditoría. En el ejemplo se usan informes de gastos con el tipo de gastos de hotel. Este procedimiento usa la empresa de demostración USMF. El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.
 
 1. En el panel de exploración, vaya a **Módulos > Área de trabajo de auditoría > Configuración > Tipo de regla de directivas**.
 2. Seleccione **Nuevo**.

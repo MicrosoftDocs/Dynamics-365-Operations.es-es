@@ -1,6 +1,6 @@
 ---
 title: Conectar periféricos al punto de venta (PDV)
-description: Este tema trata de cómo conectar periféricos a su Retail POS.
+description: Este artículo trata de cómo conectar periféricos a su Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897117"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos al punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tema trata de cómo conectar periféricos a su Retail POS.
+Este artículo trata de cómo conectar periféricos a su Retail POS.
 
 > [!NOTE]
 > Para obtener instrucciones de configuración específicas, consulte [Instalar y configurar Retail Hardware Station](retail-hardware-station-configuration-installation.md) y [Configurar, instalar y activar Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ Los perfiles de recibos se asignan a impresoras dentro del perfil de hardware. S
 
 #### <a name="hardware-profiles"></a>Perfiles de hardware
 
-Los perfiles de hardware se han explicado como un componente para la configuración del cliente anteriormente en este tema. Los perfiles de hardware se asignan directamente a la caja registradora de PDV o a una estación de hardware compartida y se utilizan para especificar los tipos de dispositivos que utiliza una caja registradora de PDV o una estación de hardware específicas. Los perfiles de hardware también se usan para especificar la configuración de EFT que se utiliza para comunicarse con el SDK de pago.
+Los perfiles de hardware se ha explicado como un componente para la configuración del cliente anteriormente en este artículo. Los perfiles de hardware se asignan directamente a la caja registradora de PDV o a una estación de hardware compartida y se utilizan para especificar los tipos de dispositivos que utiliza una caja registradora de PDV o una estación de hardware específicas. Los perfiles de hardware también se usan para especificar la configuración de EFT que se utiliza para comunicarse con el SDK de pago.
 
 #### <a name="visual-profiles"></a>Perfiles visuales
 

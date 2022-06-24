@@ -1,6 +1,6 @@
 ---
-title: Visión general de México
-description: Este tema proporciona vínculos a recursos de documentación para México de Microsoft Dynamics 365 Finance.
+title: Información general para México
+description: Este artículo proporciona vínculos a recursos de documentación para México de Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Mexico
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f114dc28769bbc1e2916da1fc563e40c01d57e8c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3ddd168ca5e94f9d07c9dc255ad424104060fb61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906214"
 ---
-# <a name="mexico-overview"></a>Visión general de México
+# <a name="mexico-overview"></a>Información general para México
 
 [!include [banner](../includes/banner.md)]
 
-Este tema incluye información y vínculos a recursos que pueden ayudarle a configurar para personas jurídicas con una dirección principal en México. 
+Este artículo incluye información y vínculos a recursos que pueden ayudarle a configurar para personas jurídicas con una dirección principal en México. 
 
 
 - [Ámbito de localización mexicana](latam-mex-scope.md)

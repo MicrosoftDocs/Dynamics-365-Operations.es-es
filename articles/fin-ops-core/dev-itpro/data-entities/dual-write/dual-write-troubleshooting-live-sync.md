@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de sincronización en vivo
-description: Este tema proporciona información para la solución de problemas que puede ayudarlo a solucionar problemas con la sincronización en vivo.
+description: Este artículo proporciona información para la solución de problemas que puede ayudarlo a solucionar problemas con la sincronización en vivo.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896716"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -22,10 +22,10 @@ ms.locfileid: "8062372"
 
 
 
-Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finanzas y operaciones y Microsoft Dataverse. Proporciona información específica que puede ayudarlo a solucionar problemas con la sincronización en vivo.
+Este artículo proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Microsoft Dataverse. Proporciona información específica que puede ayudarlo a solucionar problemas con la sincronización en vivo.
 
 > [!IMPORTANT]
-> Algunos de los problemas que aborda este tema pueden requerir la característica de administrador del sistema o credenciales de administrador de inquilinos de Azure Active Directory (Azure AD). Cada sección para cada problema explica si se requiere un rol o credenciales específicas.
+> Algunos de los problemas que aborda este artículo pueden requerir la característica de administrador del sistema o las credenciales de administrador de inquilinos de Azure Active Directory (Azure AD). Cada sección para cada problema explica si se requiere un rol o credenciales específicas.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>La sincronización en vivo muestra un error al crear una fila
 

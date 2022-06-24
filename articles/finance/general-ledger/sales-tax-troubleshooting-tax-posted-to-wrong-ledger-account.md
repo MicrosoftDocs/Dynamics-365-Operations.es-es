@@ -1,6 +1,6 @@
 ---
 title: El impuesto se registra en la cuenta contable incorrecta en el asiento
-description: Este tema proporciona información para la resolución de problemas que puede ayudar cuando los impuestos se registran en la cuenta contable incorrecta en el asiento.
+description: Este artículo proporciona información para la resolución de problemas que puede ayudar cuando los impuestos se registran en la cuenta contable incorrecta en el asiento.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846752"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>El impuesto se registra en la cuenta contable incorrecta en el asiento
 
 [!include [banner](../includes/banner.md)]
 
-Durante el registro, el impuesto puede registrarse en la cuenta contable incorrecta en el asiento. Para solucionar este problema, siga los pasos de las siguientes secciones según sea necesario. Los ejemplos de este tema utilizan un pedido de ventas como documento cempresarial.
+Durante el registro, el impuesto puede registrarse en la cuenta contable incorrecta en el asiento. Para solucionar este problema, siga los pasos de las siguientes secciones según sea necesario. Los ejemplos de este artículo utilizan un pedido de ventas como documento cempresarial.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Busque el código de impuestos de la transacción de impuestos registrada incorrectamente
 

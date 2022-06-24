@@ -1,6 +1,6 @@
 ---
 title: Almacenamiento de datos de vencimiento de cliente
-description: Este tema describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. Puede ejecutar el proceso de almacenamiento de datos de vencimiento del cliente para que la salida esté disponible para su exportación a un sistema externo.
+description: Este artículo describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. Puede ejecutar el proceso de almacenamiento de datos de vencimiento del cliente para que la salida esté disponible para su exportación a un sistema externo.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894153"
 ---
 # <a name="customer-aging-data-storage"></a>Almacenamiento de datos de vencimiento de cliente
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. In Microsoft Dynamics 365 Finance, puede ejecutar el proceso **Almacenamiento de datos de vencimiento de cliente** para que la salida esté disponible para su exportación a un sistema externo. Cuando ejecuta el proceso, las mismas opciones de informes de vencimiento que están disponibles en el sistema están disponibles para sistemas externos. Los detalles siempre se incluyen en los datos exportados.
+Este artículo describe el proceso de uso de almacenamiento externo para datos de vencimiento del cliente. In Microsoft Dynamics 365 Finance, puede ejecutar el proceso **Almacenamiento de datos de vencimiento de cliente** para que la salida esté disponible para su exportación a un sistema externo. Cuando ejecuta el proceso, las mismas opciones de informes de vencimiento que están disponibles en el sistema están disponibles para sistemas externos. Los detalles siempre se incluyen en los datos exportados.
 
 Puede resultar útil poner los datos de vencimiento de los clientes a disposición de un sistema externo para su almacenamiento en los casos en que la salida contenga muchos clientes y / o muchas transacciones. Si el informe **de vencimientos de clientes** agota el tiempo de espera debido a que tiene demasiados datos para imprimir, esta función proporciona una forma alternativa de obtener los mismos datos.
 

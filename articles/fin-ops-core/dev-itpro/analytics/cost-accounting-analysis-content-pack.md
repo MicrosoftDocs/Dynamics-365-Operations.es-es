@@ -1,6 +1,6 @@
 ---
 title: Contenido de análisis de costes de contabilidad de Power BI
-description: Este tema describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI.
+description: Este artículo describe lo que se incluye en el contenido de análisis de contabilidad de costes en Power BI.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876903"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de análisis de costes de contabilidad de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de Microsoft Power BI de **Análisis de contabilidad de costes**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe lo que se incluye en el contenido de **análisis de contabilidad de costes** en Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 

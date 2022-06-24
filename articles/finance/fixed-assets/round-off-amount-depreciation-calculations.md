@@ -1,6 +1,6 @@
 ---
 title: Importe de redondeo para cálculos de depreciación
-description: Este tema describe el campo Depreciación de redondeo que se encuentra en las páginas de Configuración del libro.
+description: Este artículo describe el campo Depreciación de redondeo que se encuentra en las páginas de Configuración del libro.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d6a21bea4688d6f258a98eab174485ceee2cfc
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a93842f7cca483df89188695c945edf77e118cef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870115"
 ---
 # <a name="round-off-amount-for-depreciation-calculations"></a>Importe de redondeo para cálculos de depreciación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el campo **Depreciación de redondeo** que se encuentra en las páginas de **Configuración del libro**.
+Este artículo describe el campo **Depreciación de redondeo** que se encuentra en las páginas de **Configuración del libro**.
 
 Los importes de depreciación de redondeo se establecen para cada libro. Los importes de depreciación de redondeo se usan en el perfil de depreciación de activos fijos que muestra la depreciación futura y el valor del activo fijo, y también en las propuestas de depreciación. Introduzca el importe más bajo de la depreciación permitido para el libro. 
 

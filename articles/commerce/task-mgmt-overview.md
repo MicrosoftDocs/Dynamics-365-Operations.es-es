@@ -1,6 +1,6 @@
 ---
-title: Visión general de la administración de tareas
-description: Este tema proporciona una descripción general de la administración de tareas para gerentes y trabajadores en Microsoft Dynamics 365 Commerce.
+title: Información general de la administración de tareas
+description: Este artículo proporciona una descripción general de la administración de tareas para gerentes y trabajadores en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900343"
 ---
-# <a name="task-management-overview"></a>Visión general de la administración de tareas
+# <a name="task-management-overview"></a>Información general de la administración de tareas
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una descripción general de la administración de tareas para gerentes y trabajadores en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una descripción general de la administración de tareas para gerentes y trabajadores en Microsoft Dynamics 365 Commerce.
 
 En un entorno minorista, siempre es difícil asegurarse de que las tareas sean realizadas por la persona adecuada en el momento adecuado. Los minoristas deben poder notificar a los trabajadores sobre las próximas tareas y proporcionar un contexto comercial relacionado, para que las tareas se puedan completar correctamente y a tiempo.
 

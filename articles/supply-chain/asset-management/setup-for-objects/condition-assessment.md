@@ -1,6 +1,6 @@
 ---
-title: Evaluación de condiciones
-description: En este tema se explica cómo crear una plantilla y un registro de evaluación de condiciones para un activo en Administración de activos.
+title: Evaluación de estado
+description: En este artículo se explica cómo crear una plantilla y un registro de evaluación de condiciones para un activo en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872105"
 ---
-# <a name="condition-assessment"></a>Evaluación de condiciones
+# <a name="condition-assessment"></a>Evaluación de estado
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-En este tema se explica cómo crear una plantilla y un registro de evaluación de condiciones para un activo en Administración de activos. La evaluación de condiciones se realiza a intervalos regulares, y el objetivo principal es crear y mantener datos de condiciones en activos. Visto desde la perspectiva del mantenimiento preventivo, es importante supervisar la información esencial, como el estado actual, y el tiempo de vida restante. Además, si realiza la evaluación de condiciones periódicamente podrá controlar y comparar las condiciones en la maquinaria de la fábrica.
+En este artículo se explica cómo crear una plantilla y un registro de evaluación de condiciones para un activo en Administración de activos. La evaluación de condiciones se realiza a intervalos regulares, y el objetivo principal es crear y mantener datos de condiciones en activos. Visto desde la perspectiva del mantenimiento preventivo, es importante supervisar la información esencial, como el estado actual, y el tiempo de vida restante. Además, si realiza la evaluación de condiciones periódicamente podrá controlar y comparar las condiciones en la maquinaria de la fábrica.
 
 La evaluación de condiciones se puede utilizar para medir y supervisar muchas condiciones de sus equipos. Por ejemplo, puede medir las vibraciones de la maquinaria. Una vez que haya registrado medidas de vibración en Administración de activos para distintos tipos de equipo, puede buscar la evaluación registrada más reciente y ver medidas de vibración.
 

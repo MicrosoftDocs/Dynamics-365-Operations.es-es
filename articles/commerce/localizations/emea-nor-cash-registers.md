@@ -1,6 +1,6 @@
 ---
 title: Funcionalidad de caja registradora para Noruega
-description: Este tema proporciona una descripción general de la función de caja registradora que está disponible para Noruega en Microsoft Dynamics 365 Commerce y proporciona pautas para configurar la funcionalidad.
+description: Este artículo proporciona una descripción general de la función de caja registradora que está disponible para Noruega en Microsoft Dynamics 365 Commerce y proporciona pautas para configurar la funcionalidad.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906708"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Funcionalidad de caja registradora para Noruega
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona una descripción general de la función de caja registradora que está disponible para Noruega en Dynamics 365 Commerce. También proporciona pautas para configurar la funcionalidad. La funcionalidad consta de las siguientes partes:
+Este artículo proporciona una descripción general de la función de caja registradora que está disponible para Noruega en Dynamics 365 Commerce. También proporciona pautas para configurar la funcionalidad. La funcionalidad consta de las siguientes partes:
 
 - Funciones comunes de punto de venta (POS) que están disponibles para clientes en todos los países o regiones. Los ejemplos incluyen una opción que le permite evitar que se imprima una copia de un recibo más de una vez.
 - Funciones específicas de Noruega, como firmas digitales para transacciones de ventas.

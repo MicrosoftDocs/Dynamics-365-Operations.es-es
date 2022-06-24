@@ -1,6 +1,6 @@
 ---
-title: Módulo de galería multimedia
-description: En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+title: Módulo de galería de medios
+description: En este artículo se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0d05129145c5d6c3967b243cb0855a1c4fd3e84e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 73eba2c39f9ebf1e4092545565b8cbf2db75cfb5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881744"
 ---
 # <a name="media-gallery-module"></a>Módulo de galería de medios
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Los módulos de la galería multimedia muestran una o más imágenes en una vista de galería. Los módulos de galería multimedia admiten imágenes en miniatura que se pueden organizar horizontalmente fila (como fila debajo de la imagen) o verticalmente (como columna junto a la imagen). Los módulos de la galería multimedia también proporcionan funcionalidades que permiten que las imágenes se amplíen (aumenten) o se vean en modo de pantalla completa. Para representarse en un módulo de galería multimedia, una imagen debe estar disponible en la Biblioteca multimedia del generador de sitios de Commerce. Actualmente, los módulos de la galería multimedia solo admiten imágenes.
 

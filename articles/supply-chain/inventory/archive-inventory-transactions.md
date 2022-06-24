@@ -1,6 +1,6 @@
 ---
-title: Archivar transacciones del inventario
-description: Este tema describe cómo archivar datos de transacciones de inventario para ayudar a mejorar el rendimiento del sistema.
+title: Transacciones de inventario de archivos
+description: Este artículo describe cómo archivar datos de transacciones de inventario para ayudar a mejorar el rendimiento del sistema.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874112"
 ---
 # <a name="archive-inventory-transactions"></a>Archivar transacciones del inventario
 
 [!include [banner](../../includes/banner.md)]
 
-Con el tiempo, la tabla de transacciones de inventario (`InventTrans`) seguirá creciendo y consumiendo más espacio en la base de datos. Por lo tanto, las consultas que se realicen en la tabla se volverán gradualmente más lentas. Este tema describe cómo puede utilizar la función *Archivo de transacciones de inventario* función para archivar datos sobre transacciones de inventario para ayudar a mejorar el rendimiento del sistema.
+Con el tiempo, la tabla de transacciones de inventario (`InventTrans`) seguirá creciendo y consumiendo más espacio en la base de datos. Por lo tanto, las consultas que se realicen en la tabla se volverán gradualmente más lentas. Este artículo describe cómo puede utilizar la función *Archivo de transacciones de inventario* función para archivar datos sobre transacciones de inventario para ayudar a mejorar el rendimiento del sistema.
 
 > [!NOTE]
 > Solo las transacciones de inventario actualizadas financieramente se pueden archivar en un período de libro mayor cerrado seleccionado. Para ser archivadas, las transacciones de inventario saliente actualizadas financieramente deben tener un estado de emisión de *Vendido*, y las transacciones de inventario de entrada deben tener un estado de recepción de *Comprado*.
@@ -35,7 +35,7 @@ Si una combinación `itemId` e `inventDimId` contiene solo un recibo o transacci
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Activar la función en el sistema
 
-Si su sistema aún no incluye las funciones descritas en este tema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Archivo de transacciones de inventario*. Tenga en cuenta que esta función no se puede desactivar una vez que se ha activado.
+Si su sistema aún no incluye las funciones descritas en este artículo, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Archivo de transacciones de inventario*. Tenga en cuenta que esta función no se puede desactivar una vez que se ha activado.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Cosas a considerar antes de archivar transacciones de inventario
 

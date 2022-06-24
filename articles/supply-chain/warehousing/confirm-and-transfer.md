@@ -1,6 +1,6 @@
 ---
 title: Confirmar y transferir
-description: Este tema explica cómo usar la función Confirmar y transferir, que permite a los usuarios enviar cargas fuera del almacén antes de completar todo el trabajo asociado con esas cargas.
+description: Este artículo explica cómo usar la función Confirmar y transferir, que permite a los usuarios enviar cargas fuera del almacén antes de completar todo el trabajo asociado con esas cargas.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675498"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900575"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar y transferir
 
@@ -55,11 +55,11 @@ Puede dividir solo cargas que cumplan con los siguientes criterios:
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Activar o desactivar la característica de confirmar y transferir
 
-Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Confirmar y transferir* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Confirmar y transferir* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para utilizar la funcionalidad descrita en este artículo, debe activarse la característica *Confirmar y transferir* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Confirmar y transferir* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurar confirmar y transferir
 
-Para usar la característica *Confirmar y transferir*, debe activarla en cada plantilla de carga relevante. Además, dependiendo de sus requisitos, es posible que desee preparar sus plantillas de trabajo para admitir la función. Si desea trabajar en el escenario de ejemplo que se proporciona más adelante en este tema, configure su sistema como se describe en esta sección. (Ese escenario se basa en los datos de demostración **USMF**).
+Para usar la característica *Confirmar y transferir*, debe activarla en cada plantilla de carga relevante. Además, dependiendo de sus requisitos, es posible que desee preparar sus plantillas de trabajo para admitir la función. Si desea trabajar en el escenario de ejemplo que se proporciona más adelante en este artículo, configure su sistema como se describe en esta sección. (Ese escenario se basa en los datos de demostración **USMF**).
 
 ### <a name="prepare-your-load-templates"></a>Prepare sus plantillas de carga
 
@@ -69,9 +69,9 @@ Para usar la característica *Confirmar y transferir*, debe activarla en cada pl
 
 ### <a name="prepare-your-work-templates"></a>Prepare sus plantillas de trabajo
 
-Esta configuración no es necesaria en todas las situaciones. El ejemplo que se muestra aquí garantiza que el trabajo se puede interrumpir por envío para admitir el escenario de ejemplo que se proporciona más adelante en este tema. También hay otras formas de lograr este resultado.
+Esta configuración no es necesaria en todas las situaciones. El ejemplo que se muestra aquí garantiza que el trabajo se puede interrumpir por envío para admitir el escenario de ejemplo que se proporciona más adelante en este artículo. También hay otras formas de lograr este resultado.
 
-1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
+1. Vaya a **Gestión de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
 1. En la cuadrícula en la parte superior de la página, seleccione una plantilla de trabajo existente donde desee configurar la función *Confirmar y transferir*. (Si estás trabajando con los datos de demostración **USMF**, seleccione la plantilla de trabajo **51 Recoger para preparar**). Alternativamente, cree una nueva plantilla de trabajo.
 1. En el panel de acciones, seleccione **Editar consulta** para abrir el cuadro de diálogo **Ventas**.
 1. En el cuadro de diálogo **Ventas**, en la pestaña **Clasificación**, seleccione **Agregar** para añadir una fila a la cuadrícula.

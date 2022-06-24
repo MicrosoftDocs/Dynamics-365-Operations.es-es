@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c5a7e6ece8b999e6bf04e143d3ec0a9ac7389d5f
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907845"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Catálogo de aprendizaje para los responsables de la toma de decisiones empresariales que estén considerando Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 |---------|-------------|--------|--------|
 | [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? ¿Quizás no sabe por dónde empezar con las aplicaciones de Microsoft Dynamics 365 y Power Platform? Aprenda cómo el poder de las aplicaciones comerciales puede ayudarle a transformar su negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 7 horas |
 | [Aspectos básicos de Dynamics 365 y Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas |
-| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de Finance and Operations respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
+| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de finanzas y operaciones respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance faculta a los usuarios empresariales para adaptarse a los entornos empresariales que cambian rápidamente. Ofrece a las empresas todo lo que necesitan para controlar las finanzas y gestionar los fondos con información precisa en cualquier momento para la planificación y la previsión financieras y las ayuda estar actualizadas con herramientas de análisis. Debido a que las finanzas son el núcleo de cualquier negocio, es importante conocer las capacidades de Dynamics 365 Finance. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 1 hora |
 | [Introducción a la gestión de gastos en Dynamics 365 Project Operations](/learn/modules/get-started-expense-management/) | El módulo de gestión de gastos en Dynamics 365 Project Operations permite a las organizaciones rastrear y administrar los gastos de los empleados. La gestión de gastos permite almacenar información de pagos, importar transacciones de tarjetas de crédito y realizar un seguimiento del dinero que gastan los empleados para su organización. También puede configurar directivas de gastos, automatizar aprobaciones y proporcionar un proceso comercial optimizado a través de Project Operations. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 1 hora |
 | [Introducción a Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Con Dynamics 365 Intelligent Order Management, los clientes pueden gestionar la orquestación de los pedidos hasta el proceso de entrega. Estas capacidades permiten a las organizaciones orquestar los flujos de pedidos a través de diferentes plataformas y aplicaciones. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 30 minutos |

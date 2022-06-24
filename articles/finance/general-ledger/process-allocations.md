@@ -1,6 +1,6 @@
 ---
 title: Procesar asignaciones
-description: Este tema proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 Finance y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
+description: Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas en Microsoft Dynamics 365 Finance y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 0629b32d39f4d74ec37eebe92b92e0b186b5fce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877994"
 ---
 # <a name="process-allocations"></a>Procesar asignaciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre las asignaciones, las opciones para procesarlas y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
+Este artículo proporciona información sobre las asignaciones, las opciones para procesarlas y cómo se pueden usar en la planificación presupuestaria. Las asignaciones se usan para distribuir importes en varias combinaciones de cuenta contable. Ayudan a garantizar que los gastos o ingresos se cargan en objeto adecuado en contabilidad.
 
 Las siguientes competencias admiten este proceso:
 

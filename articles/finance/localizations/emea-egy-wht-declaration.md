@@ -1,6 +1,6 @@
 ---
 title: Declaración de retención de impuestos para Egipto
-description: Este tema explica cómo configurar y generar las declaraciones de retención de impuestos para Egipto.
+description: Este artículo explica cómo configurar y generar las declaraciones de retención de impuestos para Egipto.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907698"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Declaración de retención de impuestos para Egipto (EG-00005)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403900"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Información general
-Este tema explica cómo configurar y generar la declaración de retención de impuestos y los formularios 41 y 11 de declaración de retención de impuestos para entidades legales en Egipto 
+Este artículo explica cómo configurar y generar la declaración de retención de impuestos y los formularios 41 y 11 de declaración de retención de impuestos para entidades legales en Egipto 
 
 Todas las entidades egipcias deben preparar el formulario 41 que resume todos los impuestos que se retienen de los proveedores locales y proveedores de servicios. Además del formulario 41, se debe generar el formulario 11 para detallar todos los impuestos retenidos de proveedores extranjeros. 
 
@@ -58,7 +58,7 @@ Para obtener más información sobre cómo importar configuraciones de informes 
 
 La implementación de los formularios de declaración WHT para Egipto se basa en configuraciones de informes electrónicos (ER). Para obtener más información sobre las capacidades y los conceptos de los informes configurables, consulte [Informes electrónicos](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Para entornos de producción y pruebas de aceptación del usuario (UAT), siga las instrucciones del tema, [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Para entornos de producción y pruebas de aceptación del usuario (UAT), siga las instrucciones del artículo, [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Para generar las declaraciones de retención en una entidad jurídica egipcia, debe cargar las siguientes configuraciones:
 

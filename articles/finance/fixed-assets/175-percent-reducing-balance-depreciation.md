@@ -1,6 +1,6 @@
 ---
 title: Depreciación con amortización degresiva del 175 %
-description: Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
+description: Este artículo presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870202"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciación con amortización degresiva del 175 %
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
+Este artículo presenta una visión general del método de depreciación Depreciación con amortización degresiva del 175 %.
 
 Al configurar un método de depreciación de activos fijos y seleccionar el valor **Depreciación degresiva del 175%** en el campo **Método** de la página **Métodos de depreciación**, los activos fijos que se asignan al método de depreciación se deprecian por el mismo porcentaje en cada período de depreciación. 
 
@@ -41,7 +41,7 @@ La selección determina las opciones disponibles en el campo **Frecuencia de per
 
 Puede elegir mantener el valor predeterminado en el campo **Año de depreciación**, **Calendario**. 
 
-La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
+La opción **Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este artículo, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. 
 
 Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 

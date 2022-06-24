@@ -1,7 +1,7 @@
 ---
 title: Mejorar el rendimiento de la planificación maestra
-description: En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas.
-author: ChristianRytt
+description: En este artículo se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897614"
 ---
 # <a name="improve-master-planning-performance"></a>Mejorar el rendimiento de la planificación maestra
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas. Incluye información sobre parámetros y ajustes, y sobre configuraciones y acciones recomendadas. También se incluye un resumen de todos los parámetros importantes que debe tener en cuenta cuando tenga trabajos de planificación maestra de larga ejecución.
+En este artículo se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas. Incluye información sobre parámetros y ajustes, y sobre configuraciones y acciones recomendadas. También se incluye un resumen de todos los parámetros importantes que debe tener en cuenta cuando tenga trabajos de planificación maestra de larga ejecución.
 
-Este tema está dirigido a los administradores de sistemas o usuarios de TI que tienen la capacidad de solucionar problemas. También está dirigido a planificadores de producción o de suministro, ya que incluye información sobre parámetros relacionados con los requisitos de la planificación empresarial. 
+Este artículo está dirigido a los administradores de sistemas o usuarios de TI que tienen la capacidad de solucionar problemas. También está dirigido a planificadores de producción o de suministro, ya que incluye información sobre parámetros relacionados con los requisitos de la planificación empresarial. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parámetros relacionados con el rendimiento de la planificación maestra
 
@@ -151,9 +151,9 @@ Antes de que comience el paso de cobertura, hay un paso de precobertura durante 
 ## <a name="performance-checklist-summary"></a>Resumen de la lista de comprobación del rendimiento
 
 - **Número de subprocesos**: establezca un valor superior a **0** (cero).
-- **Número de tareas en agrupación de trabajos del ayudante**: establezca un valor superior **0** (cero). (Utilice las fórmulas que se indican anteriormente en este tema.)
+- **Número de tareas en agrupación de trabajos del ayudante**: establezca un valor superior **0** (cero). (Utilice las fórmulas que se indican anteriormente en este artículo.)
 - **Uso de memoria caché**: establezca **Máximo** a menos que su sistema tenga poca memoria.
-- **Número de pedidos en agrupación de puesta en firme**: establezca un valor superior **0** (cero). (Utilice la fórmula que se indica anteriormente en este tema.)
+- **Número de pedidos en agrupación de puesta en firme**: establezca un valor superior **0** (cero). (Utilice la fórmula que se indica anteriormente en este artículo.)
 - **Límites de tiempo**: ajústelos a sus necesidades empresariales.
 - **Acciones y futuros**: deshabilite las accciones y futuros si no las utiliza.
 - **Una rutina intensa al mismo tiempo**: no ejecute la planificación maestra junto con ninguna otra rutina intensa.

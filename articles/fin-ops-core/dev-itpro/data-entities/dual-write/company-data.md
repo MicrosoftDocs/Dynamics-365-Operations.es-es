@@ -1,6 +1,6 @@
 ---
 title: Concepto de empresa en Dataverse
-description: Este tema describe la integración de datos de empresa entre Finance and Operations y Dataverse.
+description: Este artículo describe la integración de datos de empresa entre finanzas y operaciones y Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873189"
 ---
 # <a name="company-concept-in-dataverse"></a>Concepto de empresa en Dataverse
 
@@ -49,7 +49,7 @@ Debido a esta configuración, cualquier fila relacionada con la empresa USMF ser
 
 Como muestra la ilustración anterior, esta asignación 1:1 entre la unidad de negocio, la empresa y el equipo es solo un punto de partida. En este ejemplo, una nueva unidad de negocio “Europa” se crea manualmente en Dataverse como principal para DEMF y ESMF. Esta nueva unidad de negocio raíz no está relacionada con la escritura dual. Sin embargo, se puede usar para dar a los miembros del “equipo de ventas EUR” acceso a los datos de la cuenta en DEMF y ESMF estableciendo la visibilidad de los datos en **BU principal/secundaria** en el rol de seguridad asociado.
 
-Un tema final a discutir es cómo la escritura dual determina a qué equipo propietario debe asignar las filas. Este comportamiento se controla mediante la columna **Equipo propietario predeterminado** en la fila cdm\_Company. Cuando la fila cdm\_Company está habilitada para la escritura dual, un complemento crea automáticamente la unidad de negocio asociada y el equipo propietario (si no existe ya) y establece la columna **Equipo propietario predeterminado** . El administrador puede cambiar esta columna a un valor distinto. Sin embargo, el administrador no puede desactivar la columna cuando la tabla está habilitada para la escritura dual.
+Un artículo final a discutir es cómo la escritura dual determina a qué equipo propietario debe asignar las filas. Este comportamiento se controla mediante la columna **Equipo propietario predeterminado** en la fila cdm\_Company. Cuando la fila cdm\_Company está habilitada para la escritura dual, un complemento crea automáticamente la unidad de negocio asociada y el equipo propietario (si no existe ya) y establece la columna **Equipo propietario predeterminado** . El administrador puede cambiar esta columna a un valor distinto. Sin embargo, el administrador no puede desactivar la columna cuando la tabla está habilitada para la escritura dual.
 
 > [!div class="mx-imgBorder"]
 ![Columna de Equipo propietario predeterminado.](media/dual-write-default-owning-team.jpg)

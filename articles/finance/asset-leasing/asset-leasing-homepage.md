@@ -1,6 +1,6 @@
 ---
 title: Página de inicio de arrendamiento de activos
-description: Este tema proporciona una descripción general de la documentación de arrendamiento de activos y vínculos a temas específicos.
+description: Este artículo proporciona una descripción general de la documentación de arrendamiento de activos y vínculos a temas específicos.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889160"
 ---
 # <a name="asset-leasing-home-page"></a>Página de inicio de arrendamiento de activos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema enumera los temas de ayuda que están disponibles para el arrendamiento de activos e incluye vínculos a temas específicos. 
+Este artículo enumera los temas de ayuda que están disponibles para el arrendamiento de activos e incluye vínculos a temas específicos. 
 
 El arrendamiento de activos es una capacidad avanzada para administrar, realizar un seguimiento y automatizar las transacciones financieras de los activos arrendados en Microsoft Dynamics 365 Finance. El arrendamiento de activos cumple con las normas internacionales de contabilidad (NIIF 16) y las normas US GAAP (ASC 842). El arrendamiento de activos captura y procesa la información principal sobre los arrendamientos y ayuda a generar asientos de diario en todo el ciclo de vida del arrendamiento desde el reconocimiento inicial, los asientos de diario mensuales, hasta el deterioro y la terminación del arrendamiento.
 
 Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. En el espacio de trabajo **Gestión de funciones**, busque y seleccione la característica denominada **Arrendamiento de activos** y luego haga clic en el boton **Habilitar ahora**.
 
 ## <a name="asset-leasing-topics"></a>Temas de arrendamiento de activos
-El siguiente tema está disponible para ayudar a configurar y utilizar el arrendamiento de activos. 
+El siguiente artículo está disponible para ayudar a configurar y utilizar el arrendamiento de activos. 
 
- - [Comenzar con el arrendamiento de activos](asset-leasing-quick-start.md): este tema describe las capacidades generales del arrendamiento de activos y enumera y define los términos utilizados en el software y en la documentación.
+ - [Comenzar con el arrendamiento de activos](asset-leasing-quick-start.md): este artículo describe las capacidades generales del arrendamiento de activos y enumera y define los términos utilizados en el software y en la documentación.
  
  ### <a name="set-up-asset-leasing"></a>Configurar los arrendamientos de activos
  Este grupo de temas puede ayudarle a configurar el arrendamiento de activos de una manera óptima para la situación comercial de su organización.  
@@ -77,7 +77,7 @@ Este grupo de temas describe el proceso para agregar arrendamientos, crear factu
  - [Gestionar el arrendamiento a través del marco de importación de arrendamiento](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Informes de arrendamiento de activos
-Este tema describe los informes que están disponibles para arrendamientos de activos. 
+Este artículo describe los informes que están disponibles para arrendamientos de activos. 
 
  - [Informes de arrendamiento de activos](asset-leasing-rprts.md)
  

@@ -1,6 +1,6 @@
 ---
 title: Cálculos de modelo de configuración de producto
-description: En este tema se describe cómo crear cálculos para los atributos en un modelo de configuración de producto
+description: En este artículo se describe cómo crear cálculos para los atributos en un modelo de configuración de producto
 author: t-benebo
 ms.date: 03/18/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35057a4fc59732fea24e4d953cafed633a936ec1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878943"
 ---
 # <a name="product-configuration-model-calculations"></a>Cálculos de modelo de configuración de producto
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo crear cálculos para los atributos en un modelo de configuración de producto.
+En este artículo se describe cómo crear cálculos para los atributos en un modelo de configuración de producto.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

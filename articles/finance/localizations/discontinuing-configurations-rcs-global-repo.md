@@ -1,6 +1,6 @@
 ---
 title: Suspender configuraciones en el repositorio RCS Global
-description: Este tema describe cómo interrumpir las configuraciones en el repositorio RCS Global.
+description: Este artículo describe cómo interrumpir las configuraciones en el repositorio RCS Global.
 author: JaneA07
 ms.date: 02/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 340fc96e7dfe56da9ee8d4831a5980e3e96ec3ee0f2f5a8fb2ab72f713de9737
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894822"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Suspender configuraciones en el repositorio RCS Global
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo interrumpir la configuración en el repositorio RCS Global. Anteriormente, solo era posible eliminar configuraciones que ya no eran necesarias. Sin embargo, ahora puede marcar una configuración lanzada como **Interrumpida** en el repositorio RCS Global. Con esta funcionalidad, también puede hacer lo siguiente: 
+Este artículo describe cómo interrumpir la configuración en el repositorio RCS Global. Anteriormente, solo era posible eliminar configuraciones que ya no eran necesarias. Sin embargo, ahora puede marcar una configuración lanzada como **Interrumpida** en el repositorio RCS Global. Con esta funcionalidad, también puede hacer lo siguiente: 
  
  - Proporcione notificaciones anticipadas cuando se planea suspender una configuración.
  - Incluya detalles aplicables sobre la configuración de reemplazo.

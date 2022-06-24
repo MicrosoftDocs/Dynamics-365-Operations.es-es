@@ -1,6 +1,6 @@
 ---
-title: Visión general de llegadas
-description: Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
+title: Información general de la llegada
+description: Este artículo proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,20 +18,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874083"
 ---
-# <a name="arrival-overview"></a>Visión general de llegadas
+# <a name="arrival-overview"></a>Información general de la llegada
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
+Este artículo proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
 
-La página **Visión general de llegadas** proporciona una visión general de todos los artículos entrantes esperados. También muestra las llegadas que pueden ser inicializadas según la información general. Este tema se centra en el proceso de recepción.
+La página **Visión general de llegadas** proporciona una visión general de todos los artículos entrantes esperados. También muestra las llegadas que pueden ser inicializadas según la información general. Este artículo se centra en el proceso de recepción.
 
 ## <a name="business-scenario"></a>Escenario empresarial
 Considere el escenario siguiente en los procesos de entrada.

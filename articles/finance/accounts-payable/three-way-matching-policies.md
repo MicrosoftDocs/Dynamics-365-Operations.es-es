@@ -1,6 +1,6 @@
 ---
 title: Directivas de triple conciliación
-description: Este tema proporciona ejemplos de triple conciliación.
+description: Este artículo proporciona ejemplos de triple conciliación.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 2d6d98164766e81625bd9eeb9e504e5f0683151e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8110002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904941"
 ---
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona ejemplos de triple conciliación.
+Este artículo proporciona ejemplos de triple conciliación.
 
 ## <a name="example-three-way-matching-for-items"></a>Ejemplo: Triple conciliación para artículos
 

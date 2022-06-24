@@ -1,6 +1,6 @@
 ---
 title: Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
-description: Este tema proporciona información sobre la capacidad de pedidos de almacén que se utiliza como parte de la carga de trabajo de la unidad de escalada de almacén.
+description: Este artículo proporciona información sobre la capacidad de pedidos de almacén que se utiliza como parte de la carga de trabajo de la unidad de escalada de almacén.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893537"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Pedidos de almacenes para unidades de escalado en el perímetro y en la nube
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> No todas las funciones comerciales son totalmente compatibles con la versión preliminar pública cuando se utilizan cargas de trabajo de unidades de escalado. Si solo está usando unidades de escalado, asegúrese de utilizar solo los procesos que este tema describe explícitamente como compatibles.
+> No todas las funciones comerciales son totalmente compatibles con la versión preliminar pública cuando se utilizan cargas de trabajo de unidades de escalado. Si solo está usando unidades de escalado, asegúrese de utilizar solo los procesos que este artículo describe explícitamente como compatibles.
 
 ## <a name="what-are-warehouse-orders"></a>¿Qué son los pedidos de almacén?
 

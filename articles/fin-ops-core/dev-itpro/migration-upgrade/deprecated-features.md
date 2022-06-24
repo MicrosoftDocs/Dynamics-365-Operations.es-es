@@ -1,6 +1,6 @@
 ---
-title: Funciones quitadas u obsoletas de versiones anteriores
-description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores.
+title: Características quitadas o en desuso de versiones anteriores
+description: Este artículo describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866196"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas o en desuso de versiones anteriores
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Características quitadas o en desuso de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
 
 
 
 > [!IMPORTANT]
-> Este tema ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
+> Este artículo ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
 
-Este tema describe las características que se eliminaron o que están en desuso de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
+Este artículo describe las características que se eliminaron o que están en desuso de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 
 - Una función *quitada* dejará de estar disponible en el producto.
 - Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.

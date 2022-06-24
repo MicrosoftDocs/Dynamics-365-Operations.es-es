@@ -1,6 +1,6 @@
 ---
 title: Diseñe un formato ER para mantener las filas juntas en la misma página de Excel
-description: Este tema explica cómo diseñar un formato de informes electrónicos (ER) que mantiene las filas juntas en la misma página de Microsoft Excel.
+description: Este artículo explica cómo diseñar un formato de informes electrónicos (ER) que mantiene las filas juntas en la misma página de Microsoft Excel.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854680"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Diseñe un formato ER para mantener las filas juntas en la misma página de Excel
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema explica cómo un usuario con el rol de administrador del sistema o Consultor funcional de Informes electrónicos puede configurar un [formato](er-overview-components.md#format-component) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes en Microsoft Excel y gestionar la paginación de documentos para que las filas que se creen se conserven en la misma página.
+Este artículo explica cómo un usuario con el rol de administrador del sistema o Consultor funcional de Informes electrónicos puede configurar un [formato](er-overview-components.md#format-component) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes en Microsoft Excel y gestionar la paginación de documentos para que las filas que se creen se conserven en la misma página.
 
 En este ejemplo, modificará el formato ER proporcionado por Microsoft que se utiliza para imprimir facturas de texto sin formato en Excel. Sus modificaciones le permitirán administrar la paginación de un informe de factura de texto libre generado para que todas las filas de una sola línea de factura se mantengan en la misma página cuando sea posible.
 
-Los procedimientos de este tema se pueden completar en la empresa **USMF**. No se requiere codificación.
+Los procedimientos de este artículo se pueden completar en la empresa **USMF**. No se requiere codificación.
 
 En este ejemplo, creará las [configuraciones](general-electronic-reporting.md#Configuration) de ER necesarias para la empresa de ejemplo, **Litware, Inc**. Asegúrese de que está disponible el proveedor de la configuración para la empresa de ejemplo **Litware, Inc.** (`http://www.litware.com`) está en la lista del marco de ER y que está como **Activo**. Si este proveedor de configuración no aparece en la lista o si no está marcado como **Activo**, siga los pasos de [Crear un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -73,7 +73,7 @@ Siga los pasos en [Configurar un destino de formato para la vista previa en pant
 
     ![Revisar la paginación de la factura de texto libre generada en la aplicación de escritorio de Excel.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Los procedimientos restantes de este tema muestran cómo puede ajustar el formato de ER estándar para mejorar el aspecto y la legibilidad del informe de factura manteniendo todo el contenido de una sola línea de factura en la misma página.
+Los procedimientos restantes de este artículo muestran cómo puede ajustar el formato de ER estándar para mejorar el aspecto y la legibilidad del informe de factura manteniendo todo el contenido de una sola línea de factura en la misma página.
 
 ## <a name="create-a-custom-format"></a>Crear un formato personalizado
 

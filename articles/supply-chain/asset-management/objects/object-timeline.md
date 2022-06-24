@@ -1,6 +1,6 @@
 ---
 title: Historial de eventos de activo
-description: Este tema explica cómo obtener acceso al historial de eventos de activo en Administración de activos.
+description: Este artículo explica cómo obtener acceso al historial de eventos de activo en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670fa5800efad99d913e96dee8c6883f150b86d2227143dbdf392c7b380e89a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63045cf2fc493144897b8a857f615105f6d7b50f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865306"
 ---
 # <a name="asset-event-history"></a>Historial de eventos de activo
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750181"
 
  
 
-Este tema explica cómo obtener acceso al historial de eventos de activo en Administración de activos. La página **Historial de eventos de activo** muestra el historial de registro que se ha realizado durante la vida de un activo. Puede obtener acceso a esta página desde los elementos de menú **Todos los activos**, **Activos activos** y **Mis activos activos**. Seleccione un activo y, a continuación, seleccione **Historial de eventos**.
+Este artículo explica cómo obtener acceso al historial de eventos de activo en Administración de activos. La página **Historial de eventos de activo** muestra el historial de registro que se ha realizado durante la vida de un activo. Puede obtener acceso a esta página desde los elementos de menú **Todos los activos**, **Activos activos** y **Mis activos activos**. Seleccione un activo y, a continuación, seleccione **Historial de eventos**.
 
 En el FastTab **Detalles** de la página **Historial de eventos de activos**, puede realizar una búsqueda en toda la información disponible. Por ejemplo, puede usar el historial de eventos del activo para encontrar la siguiente información:
 

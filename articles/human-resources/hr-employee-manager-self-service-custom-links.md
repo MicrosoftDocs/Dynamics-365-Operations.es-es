@@ -1,6 +1,6 @@
 ---
 title: Crear vínculos personalizados en el autoservicio para el director
-description: Este tema describe cómo crear vínculos personalizados en el Autoservicio para directores en Dynamics 365 Human Resources.
+description: Este artículo describe cómo crear vínculos personalizados en el Autoservicio para directores en Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/26/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3437a8ce7af942334c76b763bb216b8492b111bc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0597c8a19bae7997500fc88e38847bcd053643bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853027"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Crear vínculos personalizados en el autoservicio para el director
 

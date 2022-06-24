@@ -1,6 +1,6 @@
 ---
 title: Libro mayor de contabilidad de inventario global
-description: Este tema describe los libros de contabilidad de inventario global, que se definen mediante una combinación de una moneda, un calendario, una convención y una asociación con una entidad jurídica.
+description: Este artículo describe los libros de contabilidad de inventario global, que se definen mediante una combinación de una moneda, un calendario, una convención y una asociación con una entidad jurídica.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5f610fa51fce18ecefbf96892b56b05208c666c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4d3779d7d335a903d7eabfadfed79e47652c6835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897672"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Libro mayor de contabilidad de inventario global
 

@@ -1,6 +1,6 @@
 ---
 title: API públicas de visibilidad de inventario
-description: Este tema describe las API públicas que proporciona Visibilidad de inventario.
+description: Este artículo describe las API públicas que proporciona Visibilidad de inventario.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902035"
 ---
 # <a name="inventory-visibility-public-apis"></a>API públicas de visibilidad de inventario
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe las API públicas que proporciona Visibilidad de inventario.
+Este artículo describe las API públicas que proporciona Visibilidad de inventario.
 
 La API de REST pública del complemento de visibilidad de inventario presenta varios puntos finales específicos para integración. Admite cuatro tipos principales de interacción:
 
@@ -160,7 +160,7 @@ Para obtener un token de servicio de seguridad, siga estos pasos:
    ```
 
 > [!IMPORTANT]
-> Cuando usa la solicitud de recopilación *Postman* para llamar a las API públicas de visibilidad de inventario, debe agregar un token de portador para cada solicitud. Para encontrar su token de portador, seleccione la pestaña **Autorización** debajo de la URL de solicitud, seleccione el tipo **Token de portador** y copie el token de acceso que se obtuvo en el último paso. En secciones posteriores de este tema se usará el `$access_token` para representar el token que se obtuvo en el último paso.
+> Cuando usa la solicitud de recopilación *Postman* para llamar a las API públicas de visibilidad de inventario, debe agregar un token de portador para cada solicitud. Para encontrar su token de portador, seleccione la pestaña **Autorización** debajo de la URL de solicitud, seleccione el tipo **Token de portador** y copie el token de acceso que se obtuvo en el último paso. En secciones posteriores de este artículo se usará el `$access_token` para representar el token que se obtuvo en el último paso.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Crear eventos de cambio de inventario disponible
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-El siguiente ejemplo muestra el contenido del cuerpo de muestra. El comportamiento de esta API difiere del comportamiento de las API que se describen en la sección [Crear eventos de cambio de inventario disponible](#create-onhand-change-event) anterior en este tema. En esta muestra, la cantidad del producto *Camiseta de manga corta* se establecerá en 1.
+El siguiente ejemplo muestra el contenido del cuerpo de muestra. El comportamiento de esta API difiere del comportamiento de las API que se describen en la sección [Crear eventos de cambio de inventario disponible](#create-onhand-change-event) anterior en este artículo. En esta muestra, la cantidad del producto *Camiseta de manga corta* se establecerá en 1.
 
 ```json
 [

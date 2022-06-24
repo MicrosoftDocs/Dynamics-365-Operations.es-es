@@ -1,6 +1,6 @@
 ---
 title: Configuración de entrega
-description: Este tema explica cómo usar los procesos de entrada de inventario de envío.
+description: Este artículo explica cómo usar los procesos de entrada de inventario de envío.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872047"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo usar los procesos de entrada de inventario de envío.
+Este artículo explica cómo usar los procesos de entrada de inventario de envío.
 
-El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este tema incluye información acerca de cómo recibir físicamente el inventario disponible propiedad del proveedor sin crear transacciones de contabilidad general, cómo iniciar un proceso de producción en el que se pueda reservar físicamente el inventario propiedad del proveedor, y cómo cambiar la propiedad de la materia prima para poder procesar el consumo como parte del procesamiento del pedido de producción. También contiene información acerca de cómo los proveedores pueden controlar el consumo del inventario mediante la interfaz de colaboración de proveedor.
+El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este artículo incluye información acerca de cómo recibir físicamente el inventario disponible propiedad del proveedor sin crear transacciones de contabilidad general, cómo iniciar un proceso de producción en el que se pueda reservar físicamente el inventario propiedad del proveedor, y cómo cambiar la propiedad de la materia prima para poder procesar el consumo como parte del procesamiento del pedido de producción. También contiene información acerca de cómo los proveedores pueden controlar el consumo del inventario mediante la interfaz de colaboración de proveedor.
 
 ## <a name="overview-of-the-consignment-process"></a>Información general del proceso de envío
 

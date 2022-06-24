@@ -1,6 +1,6 @@
 ---
-title: El subtotal del resumen del pedido no incluye los impuestos sobre los cargos cuando se utilizan módulos personalizados de resumen del pedido
-description: Este tema proporciona una guía para la solución de problemas que puede ayudar cuando usa módulos de resumen de pedidos personalizados y el subtotal del resumen de pedidos no incluye impuestos sobre los cargos en el escenario "el precio incluye impuestos sobre las ventas".
+title: El subtotal del resumen del pedido no incluye los impuestos sobre los gastos cuando se utilizan módulos personalizados de resumen del pedido.
+description: Este artículo proporciona una guía para la solución de problemas que puede ayudar cuando usa módulos de resumen de pedidos personalizados y el subtotal del resumen de pedidos no incluye impuestos sobre los cargos en el escenario "el precio incluye impuestos sobre las ventas".
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,16 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-04-22
-ms.openlocfilehash: 1a47561a3ac984bc554b5b93546592237c16cf18
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: 260dcb6bc1585615195e32adfcd1da6bfbca294e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848846"
 ---
-# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>El subtotal del resumen del pedido no incluye los impuestos sobre los cargos cuando se utilizan módulos personalizados de resumen del pedido
+# <a name="order-summary-subtotal-doesnt-include-taxes-on-charges-when-using-customized-order-summary-modules"></a>El subtotal del resumen del pedido no incluye los impuestos sobre los gastos cuando se utilizan módulos personalizados de resumen del pedido.
 
-Este tema proporciona una guía para la solución de problemas que puede ayudar cuando usa módulos de resumen de pedidos personalizados y el subtotal del resumen de pedidos no incluye impuestos sobre los cargos en el escenario "el precio incluye impuestos sobre las ventas".
+Este artículo proporciona una guía para la solución de problemas que puede ayudar cuando usa módulos de resumen de pedidos personalizados y el subtotal del resumen de pedidos no incluye impuestos sobre los cargos en el escenario "el precio incluye impuestos sobre las ventas".
 
 ## <a name="description"></a>Description
 

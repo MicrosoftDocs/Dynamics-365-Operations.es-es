@@ -1,6 +1,6 @@
 ---
 title: Tipos de datos primitivos admitidos para fórmulas de informes electrónicos
-description: Este tema proporciona información sobre las entidades de datos primitivos que son compatibles con las fórmulas de informes electrónicos (ER).
+description: Este artículo proporciona información sobre las entidades de datos primitivas que son compatibles con las fórmulas de informes electrónicos (ER).
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fdf33f4cc5f22015c00c57858bd438e6465764
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 41cda188e774630e96c46fba1200fd2e640f9915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891886"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Tipos de datos primitivos admitidos para fórmulas de informes electrónicos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre las entidades de datos primitivos que son compatibles con las expresiones de [informes electrónicos (ER)](general-electronic-reporting.md). A continuación se indica una lista de las entidades de datos primitivos:
+Este artículo proporciona información sobre las entidades de datos primitivas que son compatibles con las expresiones de [informes electrónicos (ER)](general-electronic-reporting.md). A continuación se indica una lista de las entidades de datos primitivos:
 
 - [booleano](#boolean)
 - [fecha](#date)

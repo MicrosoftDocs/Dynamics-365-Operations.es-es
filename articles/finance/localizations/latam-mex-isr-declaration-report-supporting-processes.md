@@ -1,6 +1,6 @@
 ---
 title: Informe de declaración de ISR y procesos auxiliares para México
-description: En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este tema proporciona información acerca de la generación de este informe financiero.
+description: En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este artículo proporciona información acerca de la generación de este informe.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d0964f301507fc676758144ffbf4c22f49488f29da94bc117a2697f442a3e9e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 462e9da52372ea5933430b066509ab567f12cc83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858329"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 
 [!include [banner](../includes/banner.md)]
 
-En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este tema proporciona información acerca de la generación de este informe financiero.
+En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este artículo proporciona información acerca de la generación de este informe.
 
 Debe presentar el informe de la declaración de IRS para cada mes el día diecisiete del siguiente mes o antes. El informe muestra los cálculos detallados de pagos provisionales de impuestos y se basa en los factores siguientes:
 

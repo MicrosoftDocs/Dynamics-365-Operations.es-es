@@ -1,6 +1,6 @@
 ---
 title: Entidades de destino
-description: En este tema se explica cómo obtener una visión general de las entidades de destino en Administración de activos.
+description: En este artículo se explica cómo obtener una visión general de las entidades de destino en Administración de activos.
 author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2d08781ff75b2435e9b71531ce77a59dbee2d90e647087d7c2c58bb4b1227e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860997"
 ---
 # <a name="target-entities"></a>Entidades de destino
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar y procesar pagos puente
-description: En este tema se explica cómo configurar y procesar pagos puente de clientes. Un pago puente es un pago que se registra en la contabilidad general en dos pasos.
+description: En este artículo se explica cómo configurar y procesar pagos puente de clientes. Un pago puente es un pago que se registra en la contabilidad general en dos pasos.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887988"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Configurar y procesar pagos puente
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734202"
 
 Un pago puente es un pago que se registra en la contabilidad general en dos pasos. Por lo general, este enfoque se utiliza cuando el método de pago se establece en **Banco** y debe contabilizar las transacciones en la cuenta bancaria solo cuando la transacción haya sido compensada por el banco. Sin embargo, también puede usarlo para una cuenta contable. En este caso, el sistema mueve el importe de una cuenta principal a otra cuenta principal cuando se procesa la contabilización puente.
 
-Puede crear pagos puente desde Proveedores o Clientes. Aunque este tema explica cómo configurar la contabilización puente para Clientes, los pasos para las transacciones de Proveedores son similares.
+Puede crear pagos puente desde Proveedores o Clientes. Aunque este artículo explica cómo configurar la contabilización puente para Clientes, los pasos para las transacciones de Proveedores son similares.
 
 ## <a name="set-up-bridging-posting"></a>Configuración de contabilización puente
 

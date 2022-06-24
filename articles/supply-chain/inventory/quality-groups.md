@@ -1,6 +1,6 @@
 ---
 title: Grupos de calidad de artículos
-description: Este tema describe cómo usar y crear grupos de calidad de artículos para agrupar productos de manera lógica de modo que puedan asignarse a asociaciones de calidad para la generación automática de pedidos de calidad.
+description: Este artículo describe cómo usar y crear grupos de calidad de artículos para agrupar productos de manera lógica de modo que puedan asignarse a asociaciones de calidad para la generación automática de pedidos de calidad.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875376"
 ---
 # <a name="item-quality-groups"></a>Grupos de calidad de artículos
 
 [!include [banner](../includes/banner.md)]
 
-Un grupo de calidad representa requisitos de prueba comunes para los artículos. Este tema describe cómo usar y crear grupos de calidad de artículos para agrupar productos de manera lógica de modo que puedan asignarse a asociaciones de calidad para la generación automática de pedidos de calidad.
+Un grupo de calidad representa requisitos de prueba comunes para los artículos. Este artículo describe cómo usar y crear grupos de calidad de artículos para agrupar productos de manera lógica de modo que puedan asignarse a asociaciones de calidad para la generación automática de pedidos de calidad.
 
 Para configurar, editar y ver los artículos asignados a un grupo de calidad o los grupos de calidad asignados a un artículo, vaya a **Gestión de inventario \> Configuración \> Grupos de calidad**. Cuando haya definido los requisitos de prueba en la página **Grupos de prueba**, puede definir las reglas para generar automáticamente pedidos de calidad. Para simplificar el proceso, no se definen reglas para artículos individuales. En su lugar, puede definir las reglas para un grupo de calidad en la página **Asociaciones de calidad**.
 

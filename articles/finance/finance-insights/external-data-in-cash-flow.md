@@ -1,6 +1,6 @@
 ---
 title: Datos externos en previsiones de flujo de efectivo
-description: Este tema describe los pasos de configuración que debe completar para que los datos externos se puedan introducir o importar en los pronósticos de flujo de efectivo.
+description: Este artículo describe los pasos de configuración que debe completar para que los datos externos se puedan introducir o importar en los pronósticos de flujo de efectivo.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846984"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Datos externos en previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
 
-Los datos externos se pueden introducir o importar en forma de pronósticos de flujo de efectivo. Este tema describe los pasos de configuración que son específicos para el uso de datos externos y que permiten que los datos externos se incluyan en una previsión de flujo de efectivo.
+Los datos externos se pueden introducir o importar en forma de pronósticos de flujo de efectivo. Este artículo describe los pasos de configuración que son específicos para el uso de datos externos y que permiten que los datos externos se incluyan en una previsión de flujo de efectivo.
 
 ## <a name="external-data-setup"></a>Configuración de datos externos
 

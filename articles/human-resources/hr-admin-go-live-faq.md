@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes sobre la publicación
-description: Este tema enumera las preguntas frecuentes sobre cómo poner en marcha un proyecto de implementación de Dynamics 365 Human Resources.
+description: Este artículo enumera las preguntas frecuentes sobre cómo poner en marcha un proyecto de implementación de Dynamics 365 Human Resources.
 author: rachel-profitt
 ms.date: 10/13/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5b0f58c7ebf03466805d20806316f6f1c32e4a4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dfb2434b0d0573f2edab228fcca77ee653d751a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853114"
 ---
 # <a name="go-live-faq"></a>Preguntas frecuentes sobre la publicación 
 
@@ -30,7 +30,7 @@ ms.locfileid: "8695371"
 
 
 
-Este tema enumera las preguntas frecuentes sobre cómo poner en marcha un proyecto de implementación de Dynamics 365 Human Resources. 
+Este artículo enumera las preguntas frecuentes sobre cómo poner en marcha un proyecto de implementación de Dynamics 365 Human Resources. 
 
 ## <a name="when-can-i-configure-and-request-my-production-environment"></a>¿Cuándo puedo configurar y solicitar mi entorno de producción? 
 

@@ -1,6 +1,6 @@
 ---
-title: Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
-description: Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
+title: Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
+description: Este artículo describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906808"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
+Este artículo describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
 
 ## <a name="overview"></a>Información general
 

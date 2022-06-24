@@ -1,6 +1,6 @@
 ---
-title: Visión general de la optimización de la planificación
-description: Este tema proporciona una visión general de la funcionalidad de la optimización de la planificación.
+title: Información general de la optimización de la planificación
+description: Este artículo proporciona una visión general de la funcionalidad de la optimización de la planificación.
 author: t-benebo
 ms.date: 10/31/2019
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7a44de70eeed4a32af47cd5ab636cac74400a2ac
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 302c92c48765d1c2faddd65c6c6a18ddfd56c71e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891013"
 ---
 # <a name="planning-optimization-overview"></a>Visión general de la optimización de la planificación
 

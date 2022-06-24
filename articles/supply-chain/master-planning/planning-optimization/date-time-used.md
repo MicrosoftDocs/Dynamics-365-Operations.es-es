@@ -1,6 +1,6 @@
 ---
 title: Parámetros de fecha y hora utilizados por Optimización de planificación
-description: Este tema proporciona información sobre los parámetros de fecha y hora que utiliza Optimización de la planificación durante su funcionamiento.
+description: Este artículo proporciona información sobre los parámetros de fecha y hora que utiliza Optimización de la planificación durante su funcionamiento.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885910"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parámetros de fecha y hora utilizados por Optimización de planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema proporciona información sobre los parámetros de fecha y hora que utiliza Optimización de la planificación durante su funcionamiento.
+Este artículo proporciona información sobre los parámetros de fecha y hora que utiliza Optimización de la planificación durante su funcionamiento.
 
 Mientras que el motor de planificación maestro integrado utiliza fechas de transacción en todos los cálculos, Optimización de planificación funciona con valores de fecha y hora que se convierten en fechas. Esta diferencia de comportamiento puede llevar a situaciones en las que, por ejemplo, las transacciones de pronóstico que se crean a la medianoche del día en que se ejecuta la planificación maestra no se incluyen porque Optimización de planificación considera que se crearon antes de la fecha actual.
 

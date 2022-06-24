@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858535"
 ---
 # <a name="collections-management-key-concepts"></a>Conceptos clave de la administración de cobros
 
@@ -34,7 +34,7 @@ Antes de comenzar a configurar cobros o a trabajar con ellos, debe comprender lo
 - Se pueden crear transacciones de cancelación en un solo paso.
 - Se pueden procesar pagos de fondos insuficientes (NSF) en un solo paso.
 
-En este tema se describe cada concepto.
+En este artículo se describe cada concepto.
 
 ## <a name="customer-aging-snapshots"></a>Instantáneas de vencimientos de clientes
 
@@ -86,7 +86,7 @@ El panel de acciones contiene los botones que muestran información relacionada 
 
 Puede renunciar, restablecer o invertir notas de interés completas, o las cuotas e intereses de la transacción que forman parte de las notas de interés. En la pestaña **Cobrar** del panel de acciones de la página de lista **Todos los clientes**, seleccione **Nota de interés**, **Interés de transacción** o **Cuota**.
 
-Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Para obtener información sobre cómo cancelar todos los cargos que debe un cliente, consulte la sección [Crear transacciones de cancelación](#creating-write-off-transactions) de este tema.
+Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Para obtener información sobre cómo cancelar todos los cargos que debe un cliente, consulte la sección [Crear transacciones de cancelación](#creating-write-off-transactions) de este artículo.
 
 Para obtener más información, consulte Crear un código de interés con un intervalo y Interés del proceso.
 

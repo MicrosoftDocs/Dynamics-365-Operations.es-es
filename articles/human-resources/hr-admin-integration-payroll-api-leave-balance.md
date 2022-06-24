@@ -1,6 +1,6 @@
 ---
 title: Saldo de bajas
-description: Este tema proporciona detalles y una consulta de ejemplo para la entidad de saldo de bajas en Dynamics 365 Human Resources.
+description: Este artículo proporciona detalles y una consulta de ejemplo para la entidad de saldo de bajas en Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d26d9624ae8d99b208f77d12137262983499c51
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4792c316b8b7af3e86b097029eb281af4a10d113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899712"
 ---
 # <a name="leave-balance"></a>Saldo de bajas
 
@@ -27,9 +27,9 @@ ms.locfileid: "8064825"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe la entidad de saldo de bajas para Dynamics 365 Human Resources.
+Este artículo describe la entidad de saldo de bajas para Dynamics 365 Human Resources.
 
-### <a name="description"></a>Descripción
+### <a name="description"></a>Description
 
 Esta entidad proporciona el saldo de la licencia por tipo de licencia para un empleado determinado.
 

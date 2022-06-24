@@ -1,6 +1,6 @@
 ---
 title: Devoluciones de ventas
-description: Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
+description: Este artículo ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860417"
 ---
 # <a name="sales-returns"></a>Devoluciones de ventas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
+Este artículo ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 
 Los clientes pueden devolver artículos por varios motivos. Por ejemplo, un artículo puede estar defectuoso o es posible que no cumpla las expectativas del cliente. El proceso de devolución comienza cuando un cliente emite una solicitud para devolver un artículo. Después de que se recibe la solicitud del cliente, se crea un pedido de devolución.
 
@@ -84,7 +84,7 @@ Después de finalizar la encabezado de devolución, puede crear líneas de devol
 -   Cree una línea de devolución mediante la función **Buscar pedido de ventas**. Se recomienda usar esta función al crear un pedido de devolución. La función **Buscar pedido de ventas** establece una referencia desde la línea de devolución a la línea del pedido de ventas facturado y recupera los detalles de línea como número de artículo, la cantidad, el precio, el descuento y los valores de coste de la línea de ventas. La referencia ayuda a garantizar que, cuando el producto se devuelve a la empresa, se ha valorado según el mismo coste unitario al que se vendió. La referencia también valida que los pedidos de devolución no están creados para una cantidad que excede la cantidad a la que se vendió en la factura.
 
 >[!NOTE] 
->Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este tema.
+>Las líneas de devolución que tienen una referencia a un pedido de ventas se gestionan como correcciones o reversiones de la venta. Para obtener más información, consulte la sección sobre anotar asientos en el libro mayor más adelante en este artículo.
 
 ### <a name="charges"></a>Gastos
 
@@ -179,7 +179,7 @@ Antes de que pueda recibir físicamente artículos devueltos en el inventario me
 
 [![Proceso de entrada.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-El proceso tiene otras variantes que no se abordan en este tema. Estas son algunas de estas variaciones:
+El proceso tiene otras variantes que no se abordan en este artículo. Estas son algunas de estas variaciones:
 
 -   No use la lista **Visión general de entradas** para crear un diario de entradas. En su lugar, cree manualmente el diario de entradas. Los pedidos de devolución tendrán **Pedido de ventas** como referencia.
 -   Si utiliza la gestión de almacenes, genere los transportes de pallet La línea de devolución tendrá un estado **Entregado** durante el transporte de pallet.

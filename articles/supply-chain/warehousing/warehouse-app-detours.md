@@ -1,6 +1,6 @@
 ---
 title: Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
-description: Este tema describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan estacionar la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
+description: Este artículo describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan estacionar la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863603"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Las características que se describen en este tema se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
+> Las características que se describen en este artículo se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
 
-Este tema describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan "estacionar" la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
+Este artículo describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan "estacionar" la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
 
 Un desvío es un elemento de menú independiente que se puede abrir desde un paso en una tarea principal. Al final del desvío, el trabajador vuelve al lugar donde dejó la tarea principal. Durante la configuración, especifica el elemento del menú que debe actuar como un desvío. También selecciona qué valores de campo de la tarea principal deben enviarse (copiarse) automáticamente al desvío e introducirse allí. Por lo tanto, debe comprender en qué parte del flujo de tareas desea que el desvío esté disponible para los trabajadores. También debe asegurarse de que la información que se debe copiar al desvío esté disponible para ese paso del flujo de tareas.
 
@@ -46,7 +46,7 @@ Antes de poder configurar desvíos para pasos en los elementos del menú del dis
     - **Módulo:** *Gestión de almacén*
     - **Nombre de la característica**: *Desvíos de aplicaciones de Warehouse Management*
 
-    Esta característica es la que se describe en este tema.
+    Esta característica es la que se describe en este artículo.
 
 1. Actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
@@ -57,7 +57,7 @@ Utilice el siguiente procedimiento para configurar un desvío de una invalidaci�
 
 1. Cree una invalidación específica del menú para el menú y el paso relevantes como se describe en [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md).
 1. Busque la combinación de los valores de **Id. de paso** y **Nombre del elemento del menú** que desea editar y luego seleccione el valor en la columna **Id. de paso**.
-1. En la página que aparece, en la ficha desplegable **Desvíos disponibles (elementos del menú)**, puede especificar el elemento de menú que debe actuar como un desvío. También puede seleccionar qué valores de campo de la tarea principal deben enviarse automáticamente desde y hasta el desvío. Para ver ejemplos que muestran cómo usar esta configuración, consulte los escenarios más adelante en este tema.
+1. En la página que aparece, en la ficha desplegable **Desvíos disponibles (elementos del menú)**, puede especificar el elemento de menú que debe actuar como un desvío. También puede seleccionar qué valores de campo de la tarea principal deben enviarse automáticamente desde y hasta el desvío. Para ver ejemplos que muestran cómo usar esta configuración, consulte los escenarios más adelante en este artículo.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Escenario de ejemplo 1: selección de ventas donde una consulta de ubicación actúa como un desvío
 

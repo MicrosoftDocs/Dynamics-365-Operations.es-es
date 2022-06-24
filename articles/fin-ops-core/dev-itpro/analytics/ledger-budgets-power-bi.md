@@ -1,6 +1,6 @@
 ---
 title: Contenido Real frente a presupuesto de Power BI
-description: Este tema describe el contenido en Power BI de Real frente a presupuesto. Explica cómo acceder a los informes y proporciona información sobre el modelo de datos.
+description: Este artículo describe el contenido en Power BI de Real frente a presupuesto. Explica cómo acceder a los informes y proporciona información sobre el modelo de datos.
 author: panolte
 ms.date: 12/18/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7a5628dc67c721bf616803d6a31047cee09d8a434d43c0175dd8639815b7c9a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff57d052b66103ad716ad8d55afb4fcb095d2c02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847293"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenido Real frente a presupuesto de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido **Real frente a presupuesto** de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe el contenido en Microsoft Power BI de **Real frente a presupuesto**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 

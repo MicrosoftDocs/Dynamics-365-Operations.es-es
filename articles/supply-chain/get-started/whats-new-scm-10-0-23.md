@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
-description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.23.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849485"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.23. Esta versión tiene el número de compilación 10.0.1037 y está disponible de la siguiente manera:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.23. Esta versión tiene el número de compilación 10.0.1037 y está disponible de la siguiente manera:
 
 - **Versión preliminar:** octubre de 2021
 - **Disponibilidad general de la versión (actualización automática):** diciembre de 2021
@@ -29,7 +29,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este tema para incluir características que se incluyeron en la compilación después de la publicación inicial del tema.
+La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Si desea activar o desactivar alguna de estas características, debe hacerlo en 
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
-Recientemente hemos agregado o actualizado significativamente los siguientes temas de ayuda. Estos temas no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
+Recientemente hemos agregado o actualizado significativamente los siguientes artículos de ayuda. Estos artículos no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
 
-| Área de características | Temas nuevos o actualizados |
+| Área de características | Artículos nuevos o actualizados |
 |---|---|
 | Administración de cambios de ingeniería | [Atributos de ingeniería y búsqueda de atributos de ingeniería](../engineering-change-management/engineering-attributes-and-search.md) ahora describe cómo funciona la ingeniería de herencia de atributos. |
 | Planificación maestra | [Planificación maestra con previsiones de demanda](../master-planning/planning-optimization/demand-forecast.md) y [Previsión de las claves de reducción](../master-planning/reduction-keys.md) ahora proporcionan más información sobre cómo trabajar con claves de reducción. |
@@ -74,9 +74,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 | Planificación maestra | [Programación de suministros](../master-planning/supply-schedule.md) |
 | Gestión de almacenes | [Parámetros globales de dispositivos móviles](../warehousing/mobile-device-parameters.md) |
 | Gestión de almacenes | [Anclaje](../warehousing/anchoring.md) |
-| Ventas y marketing | El comercio de empresas vinculadas se describe ahora en detalle, comenzando con [Configurar el comercio de empresas vinculadas](../sales-marketing/intercompany-trade-set-up.md) y sus temas relacionados. |
+| Ventas y marketing | El comercio de empresas vinculadas se describe ahora en detalle, comenzando con [Configurar el comercio de empresas vinculadas](../sales-marketing/intercompany-trade-set-up.md) y sus artículos relacionados. |
 | Ventas y marketing | [Mejoras de rendimiento de limpieza del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Administración de inventario | La documentación de visibilidad de inventario se ha ampliado y actualizado, comenzando con [Información general sobre el complemento de visibilidad de inventario](../inventory/inventory-visibility.md) y sus temas relacionados. |
+| Administración de inventario | La documentación de visibilidad de inventario se ha ampliado y actualizado, comenzando con [Información general sobre el complemento de visibilidad de inventario](../inventory/inventory-visibility.md) y sus artículos relacionados. |
 | Gestión de almacenes | [Cuentas de usuario de dispositivo móvil](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Recursos adicionales
@@ -97,12 +97,12 @@ Consulte [Dynamics 365 y las nubes de la industria: plan del lanzamiento de vers
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
-En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
+En el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
 - Una característica *quitada* dejará de estar disponible en el producto.
 - Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 

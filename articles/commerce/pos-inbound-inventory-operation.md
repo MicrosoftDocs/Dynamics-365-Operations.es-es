@@ -1,6 +1,6 @@
 ---
 title: Operación de inventario entrante en PDV
-description: Este tema describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
+description: Este artículo describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858891"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -215,7 +215,7 @@ Después de que el borrador del documento se envíe con éxito a la sede de Comm
 
 Después de que el documento esté en el estado **Pedido**, es visible en la pestaña **Activo**. Sin embargo, aún no puede ser recibido por la tienda entrante o el almacén. Después de que el almacén de salida ha enviado parte o la totalidad de la orden de transferencia, la tienda o almacén de entrada puede registrar recibos en PDV. Cuando la parte de salida procesa los documentos de orden de transferencia, su estado se actualiza de **Solicitado** a **Enviado** o **Parcialmente enviado**. Después de que los documentos estén en el estado **Enviado** o **Parcialmente Enviado**, la tienda entrante o el almacén pueden contabilizar recibos contra ellos mediante el proceso de recepción de operaciones entrantes.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Operación de inventario saliente en PDV](pos-outbound-inventory-operation.md)
 

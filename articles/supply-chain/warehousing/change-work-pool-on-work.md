@@ -1,6 +1,6 @@
 ---
 title: Cambiar grupo de trabajo en trabajo
-description: Este tema explica cómo puede usar el botón Cambiar grupo de trabajo para elementos de trabajo, para cambiar el grupo de trabajo existente.
+description: Este artículo explica cómo puede usar el botón Cambiar grupo de trabajo para elementos de trabajo, para cambiar el grupo de trabajo existente.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900633"
 ---
 # <a name="change-work-pool-on-work"></a>Cambiar grupo de trabajo en trabajo
 
@@ -34,14 +34,14 @@ A partir de la versión 10.0.25 de Supply Chain Management, esta característica
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurar la característica Cambiar grupo de trabajo en trabajo
 
-Para usar esta característica, debe tener configurados algunos grupos de trabajo. También puede configurar sus plantillas de trabajo para que asignen automáticamente un grupo. Si desea trabajar en el escenario de ejemplo que se proporciona más adelante en este tema, configure su sistema como se describe en esta sección.
+Para usar esta característica, debe tener configurados algunos grupos de trabajo. También puede configurar sus plantillas de trabajo para que asignen automáticamente un grupo. Si desea trabajar en el escenario de ejemplo que se proporciona más adelante en este artículo, configure su sistema como se describe en esta sección.
 
 ### <a name="set-up-work-pools"></a>Configurar grupos de trabajo
 
 Los grupos de trabajo le permiten organizar los elementos de trabajo por tipo. Para trabajar con la característica *Cambiar grupo de trabajo en trabajo*, debe tener al menos dos grupos de trabajo disponibles. Siga estos pasos para ver y agregar grupos de trabajo:
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Trabajo \> Grupos de trabajo**.
-1. Si está trabajando con datos de demostración de la empresa **USMF** y trabajará en el escenario de ejemplo más adelante en este tema, agregue dos grupos de trabajo que tengan la siguiente configuración:
+1. Si está trabajando con datos de demostración de la empresa **USMF** y trabajará en el escenario de ejemplo más adelante en este artículo, agregue dos grupos de trabajo que tengan la siguiente configuración:
 
     - Grupo de trabajo 1:
 
@@ -57,9 +57,9 @@ Los grupos de trabajo le permiten organizar los elementos de trabajo por tipo. P
 
 ### <a name="set-up-work-templates"></a>Configurar plantillas de trabajo
 
-Puede establecer un grupo de trabajo predeterminado para cada una de sus plantillas de trabajo, según lo necesite. Asigne un grupo de trabajo para cada plantilla relevante en la columna **Id. del grupo de trabajo**. En este caso, todos los elementos de trabajo que se generan utilizando una plantilla determinada heredan automáticamente el grupo de trabajo asignado. Si está trabajando con datos de demostración de la empresa **USMF** y trabajará en el escenario de ejemplo más adelante en este tema, siga los siguientes pasos:
+Puede establecer un grupo de trabajo predeterminado para cada una de sus plantillas de trabajo, según lo necesite. Asigne un grupo de trabajo para cada plantilla relevante en la columna **Id. del grupo de trabajo**. En este caso, todos los elementos de trabajo que se generan utilizando una plantilla determinada heredan automáticamente el grupo de trabajo asignado. Si está trabajando con datos de demostración de la empresa **USMF** y trabajará en el escenario de ejemplo más adelante en este artículo, siga los siguientes pasos:
 
-1. Vaya a **Administración de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
+1. Vaya a **Gestión de almacenes \> Configuración \> Trabajo \> Plantillas de trabajo**.
 1. En el Panel de acciones, seleccione **Editar** para poner la página en modo de edición.
 1. Edite la plantilla estableciendo los siguientes valores:
 
@@ -70,7 +70,7 @@ Puede establecer un grupo de trabajo predeterminado para cada una de sus plantil
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
-Este escenario muestra cómo cambiar la secuencia de procesamiento de un elemento de trabajo existente cambiando su grupo de trabajo. Utiliza datos de muestra de la empresa **USMF** y las configuraciones sugeridas anteriormente en este tema.
+Este escenario muestra cómo cambiar la secuencia de procesamiento de un elemento de trabajo existente cambiando su grupo de trabajo. Utiliza datos de muestra de la empresa **USMF** y las configuraciones sugeridas anteriormente en este artículo.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Crear un pedido de ventas y liberarlo en el almacén
 

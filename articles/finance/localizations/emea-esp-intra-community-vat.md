@@ -1,6 +1,6 @@
 ---
 title: IVA intracomunitario para España
-description: Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA).
+description: Este artículo proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA).
 author: Anasyash
 ms.date: 07/09/2020
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 48d3644e392b79e1bd34f10397bb0bafb15bbd8281e10baa6d33c53e988d4127
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69c9b9a1ae131cfc161658927fc2a465fb6ef479
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870017"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.
+Este artículo proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.
 
 La información acerca del impuesto sobre el valor añadido (IVA) intracomunitario se puede calcular y registrar automáticamente. Cuando se registra una factura de proveedor de la Unión Europea (EU), se crean dos transacciones de IVA. Una transacción de IVA se crea para los impuestos pagaderos, y otra transacción de IVA se crea para los impuestos soportados. Antes de poder utilizar la funcionalidad de IVA intracomunitario, debe habilitar la opción **IVA intracomunitario** en la ficha desplegable **Impuestos** de la pestaña **Impuestos y contabilidad** de la página **Parámetros de proveedores** (**Proveedores** \> **Configuración** \> **Parámetros de proveedores**).
 

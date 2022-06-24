@@ -1,6 +1,6 @@
 ---
-title: Introducción a la optimización de la planificación
-description: Este tema explica cómo empezar a usar la función de optimización de la planificación.
+title: Introducción a Optimización de planificación
+description: Este artículo explica cómo empezar a usar la función de optimización de la planificación.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
-ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
+ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900981"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
@@ -99,7 +99,7 @@ El estado de la conexión indica el estado actual de la conexión entre Supply C
 |---|---|---|
 | Conectada | Una conexión se ha establecido entre el servicio de optimización de la planificación y Supply Chain Management. | Sí |
 | Habilitando conexión | Una petición para activar la conexión al servicio de optimización de la planificación está actualmente en curso. | No |
-| Desconectado | No hay conexión al servicio de optimización de la planificación. La conexión se puede cambiar desde LCS, según lo descrito antes en este tema. | No |
+| Desconectado | No hay conexión al servicio de optimización de la planificación. La conexión se puede cambiar desde LCS, según lo descrito antes en este artículo. | No |
 | Deshabilitando conexión | Una petición para desactivar la conexión al servicio de optimización de la planificación está actualmente en curso. | No |
 | Obteniendo estado | El sistema está esperando por la información del estado del servicio de optimización de la planificación. | No |
 

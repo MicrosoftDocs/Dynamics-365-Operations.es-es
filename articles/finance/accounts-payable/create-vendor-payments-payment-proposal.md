@@ -1,6 +1,6 @@
 ---
 title: Creación de pagos de proveedor mediante una propuesta de pago
-description: Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago.
+description: Este artículo proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago.
 author: abruer
 ms.date: 04/04/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845385"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago. 
+Este artículo proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago. Las propuestas de pago se usan a menudo para crear pagos de proveedor, ya que se puede usar la consulta para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de los criterios como la fecha de vencimiento y el descuento por pronto pago. 
 
 Las empresas a menudo usan propuestas de pago para crear pagos de proveedor, ya que se puede usar la consulta asociada a la propuesta de pago para seleccionar rápidamente facturas de proveedor para realizar el pago, en función de la fecha de vencimiento, el descuento por pronto pago y otros criterios. 
 

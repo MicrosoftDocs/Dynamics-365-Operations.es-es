@@ -1,6 +1,6 @@
 ---
 title: Directrices de implementación para cajas registradoras de Noruega (heredadas)
-description: Este tema es una guía de implementación que muestra cómo habilitar la localización de Microsoft Dynamics 365 Commerce para Noruega.
+description: Este artículo es una guía de implementación que muestra cómo habilitar la localización de Microsoft Dynamics 365 Commerce para Noruega.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894471"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Directrices de implementación para cajas registradoras de Noruega (heredadas)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema es una guía de implementación que muestra cómo habilitar la localización de Microsoft Dynamics 365 Commerce para Noruega. La localización consta de varias extensiones de los componentes de Commerce. Por ejemplo, las extensiones le permiten imprimir campos personalizados en recibos, registrar eventos de auditoría adicionales, transacciones de ventas y transacciones de pago en el punto de venta (POS), firmar digitalmente transacciones de ventas e imprimir informes X y Z en formatos locales. Para obtener más información sobre la localización para Noruega, consulte [Funcionalidad de caja registradora para Noruega](./emea-nor-cash-registers.md).
+Este artículo es una guía de implementación que muestra cómo habilitar la localización de Microsoft Dynamics 365 Commerce para Noruega. La localización consta de varias extensiones de los componentes de Commerce. Por ejemplo, las extensiones le permiten imprimir campos personalizados en recibos, registrar eventos de auditoría adicionales, transacciones de ventas y transacciones de pago en el punto de venta (POS), firmar digitalmente transacciones de ventas e imprimir informes X y Z en formatos locales. Para obtener más información sobre la localización para Noruega, consulte [Funcionalidad de caja registradora para Noruega](./emea-nor-cash-registers.md).
 
 Esta muestra es parte del kit de desarrollo de software (SDK) para minoristas. Para obtener información sobre el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-Esta muestra consta de extensiones para Commerce Runtime (CRT), Retail Server y POS. Para ejecutar este ejemplo, debe modificar y compilar el CRT, Retail Server y proyectos POS. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este tema. También le recomendamos que utilice un sistema de control de fuente, como Microsoft Visual Studio Online (VSO), donde aún no se han cambiado archivos.
+Esta muestra consta de extensiones para Commerce Runtime (CRT), Retail Server y POS. Para ejecutar este ejemplo, debe modificar y compilar el CRT, Retail Server y proyectos POS. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este artículo. También le recomendamos que utilice un sistema de control de fuente, como Microsoft Visual Studio Online (VSO), donde aún no se han cambiado archivos.
 
 > [!NOTE]
-> En Commerce 10.0.8 y versiones posteriores, Retail Server se conoce como Commerce Scale Unit. Dado que este tema se aplica a varias versiones anteriores de la aplicación, *Retail Server* se utiliza en todo el tema.
+> En Commerce 10.0.8 y versiones posteriores, Retail Server se conoce como Commerce Scale Unit. Dado que este artículo se aplica a varias versiones anteriores de la aplicación, *Retail Server* se utiliza en todo el artículo.
 >
-> Algunos pasos de los procedimientos de este tema difieren, según la versión de Commerce que esté utilizando. Para obtener más información, vea [Novedades o cambios en Dynamics 365 Retail](../get-started/whats-new.md).
+> Algunos pasos de los procedimientos de este artículo difieren, según la versión de Commerce que esté utilizando. Para obtener más información, vea [Novedades o cambios en Dynamics 365 Retail](../get-started/whats-new.md).
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Uso de perfiles de certificado en canales comerciales
 
@@ -1252,7 +1252,7 @@ Para obtener más información, consulte [Funcionalidad de registro de efectivo 
 
 Siga estos pasos para crear paquetes desplegables que contengan componentes de Commerce y aplicar esos paquetes en un entorno de producción.
 
-1. Complete los pasos en la sección [Componentes de la extensión Cloud POS](#cloud-pos-extension-components) o [Componentes de extensión Modern POS](#modern-pos-extension-components) anteriormente en este tema.
+1. Complete los pasos en la sección [Componentes de la extensión Cloud POS](#cloud-pos-extension-components) o [Componentes de extensión Modern POS](#modern-pos-extension-components) anteriormente en este artículo.
 2. Realice los siguientes cambios en los archivos de configuración del paquete en la carpeta **RetailSdk\\Assets**:
 
     1. En los archivos de configuración **commerceruntime.ext.config** y **CommerceRuntime.MPOSOffline.Ext.config**, agregue las siguientes líneas a la sección **composition**:

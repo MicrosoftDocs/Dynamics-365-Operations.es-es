@@ -1,6 +1,6 @@
 ---
 title: Conciliar extractos bancarios mediante la conciliación bancaria avanzada
-description: La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este tema se explica el proceso de conciliación.
+description: La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este artículo se explica el proceso de conciliación.
 author: moaamer
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27956cbc4d51c1b907138b49947b57a570d98da1
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e5b229821fc1ca1caa55b733af293aaef65a171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859896"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
 [!include [banner](../includes/banner.md)]
 
-La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Dynamics 365 Finance. En este tema se explica el proceso de conciliación.  
+La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Dynamics 365 Finance. En este artículo se explica el proceso de conciliación.  
 
 ## <a name="import-an-electronic-bank-statement"></a>Importar un extracto bancario electrónico
 

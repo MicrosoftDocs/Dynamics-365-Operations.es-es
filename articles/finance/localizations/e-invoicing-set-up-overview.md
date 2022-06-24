@@ -1,6 +1,6 @@
 ---
 title: Configurar la facturación electrónica
-description: Este tema proporciona una descripción general del proceso para instalar y configurar la facturación electrónica.
+description: Este artículo proporciona una descripción general del proceso para instalar y configurar la facturación electrónica.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883130"
 ---
 # <a name="electronic-invoicing-setup"></a>Configurar la facturación electrónica
 
 [!include [banner](../includes/banner.md)]
 
-El tema proporciona una descripción general del proceso para instalar y configurar la facturación electrónica. Debe completar los pasos de configuración en el orden que se especifica aquí. Si un paso es obligatorio, pero lo omite, la funcionalidad no funcionará correctamente y se producirán varios errores durante los pasos posteriores o cuando utilice la funcionalidad. 
+Este artículo proporciona una descripción general del proceso para instalar y configurar la facturación electrónica. Debe completar los pasos de configuración en el orden que se especifica aquí. Si un paso es obligatorio, pero lo omite, la funcionalidad no funcionará correctamente y se producirán varios errores durante los pasos posteriores o cuando utilice la funcionalidad. 
 
 Antes de comenzar, asegúrese de que todos los componentes principales estén configurados correctamente, que se haya registrado en el Regulatory Configuration Service (RCS) y tenga una instancia de RCS, y que el complemento de facturación electrónica esté instalado para su Microsoft Microsoft Dynamics 365 Finance o el entorno Dynamics 365 Supply Chain Management. Para obtener más información, vea [Configurar e instalar la facturación electrónica](e-invoicing-install-add-in-microservices-lcs.md).
 

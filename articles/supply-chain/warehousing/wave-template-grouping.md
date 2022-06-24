@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851257"
 ---
 # <a name="wave-template-grouping"></a>Agrupación de plantillas de oleada
 
@@ -41,7 +41,7 @@ Antes de poder usar la característica *Agrupación de plantillas de oleada*, es
 Para que la agrupación de plantillas de oleada esté disponible, siga estos pasos para configurar su [plantilla de oleada](tasks/configure-wave-processing.md).
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Oleadas \> Plantillas de oleada**.
-1. En el panel izquierdo, seleccione la plantilla de oleada que desea configurar. Si se está preparando para trabajar en el escenario que aparece más adelante en este tema utilizando datos de demostración, seleccione la plantilla **62 Envío predeterminado**.
+1. En el panel izquierdo, seleccione la plantilla de oleada que desea configurar. Si se está preparando para trabajar en el escenario que aparece más adelante en este artículo utilizando datos de demostración, seleccione la plantilla **62 Envío predeterminado**.
 1. Seleccione **Editar** para poner la página en modo de edición.
 1. En la ficha desplegable **General**, establezca los valores siguientes:
 
@@ -84,7 +84,7 @@ También puede usar este escenario como guía para usar la característica cuand
 
 En este escenario se muestra cómo utilizar la agrupación de plantillas de oleada para crear automáticamente varias oleadas, según los criterios de agrupación que se definen en una plantilla de oleada. En este escenario, la plantilla de oleada se configura en el sistema para crear una oleada por servicio de transportista.
 
-Antes de empezar, prepare su plantilla de oleada como se describe en la sección [Establecer una plantilla de oleada para usar una agrupación de plantillas de oleada](#set-up-template) que aparece anteriormente en este tema. Si va a trabajar con datos de demostración para este escenario, asegúrese de utilizar los valores de datos de demostración que se sugieren en ese procedimiento. Esta configuración agrupará sus oleadas de acuerdo con el servicio de transportista que se establece para cada pedido de ventas.
+Antes de empezar, prepare su plantilla de oleada como se describe en la sección [Establecer una plantilla de oleada para usar una agrupación de plantillas de oleada](#set-up-template) que aparece anteriormente en este artículo. Si va a trabajar con datos de demostración para este escenario, asegúrese de utilizar los valores de datos de demostración que se sugieren en ese procedimiento. Esta configuración agrupará sus oleadas de acuerdo con el servicio de transportista que se establece para cada pedido de ventas.
 
 #### <a name="create-sales-order-1"></a>Crear pedido de ventas 1
 

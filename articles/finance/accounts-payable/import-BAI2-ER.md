@@ -1,6 +1,6 @@
 ---
 title: Configure la importación avanzada de conciliaciones bancarias mediante el uso de informes electrónicos
-description: Este tema explica cómo utilizar Informes electrónicos para configurar el proceso avanzado de importación de conciliaciones bancarias.
+description: Este artículo explica cómo utilizar Informes electrónicos para configurar el proceso avanzado de importación de conciliaciones bancarias.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889131"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Configure la importación avanzada de conciliaciones bancarias mediante el uso de informes electrónicos
 
 [!include [banner](../includes/banner.md)]
 
-La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este tema se explica cómo configurar la funcionalidad de importación para los extractos bancarios. La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Microsoft Dynamics 365 Finance admite tres formatos de extractos bancarios: ISO20022, MT940 y BAI2. 
+La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Microsoft Dynamics 365 Finance admite tres formatos de extractos bancarios: ISO20022, MT940 y BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Establecer la configuración de Informes electrónicos
 

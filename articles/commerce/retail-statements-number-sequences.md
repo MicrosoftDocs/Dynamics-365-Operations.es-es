@@ -1,6 +1,6 @@
 ---
 title: Configurar secuencias numéricas para extractos comerciales
-description: Este tema describe cómo configurar las secuencias numéricas que se requieren para extractos comerciales en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo configurar las secuencias numéricas que se requieren para extractos comerciales en Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: db47ca4ee8bac0d55b9a9c732183d2734bce660f
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 5c4eb872ec2151a9f4ac5462ad43dd03a6705487
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880012"
 ---
 # <a name="set-up-number-sequences-for-retail-statements"></a>Configurar secuencias numéricas para extractos comerciales
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tema describe cómo configurar las secuencias numéricas que se requieren para extractos comerciales en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo configurar las secuencias numéricas que se requieren para extractos comerciales en Microsoft Dynamics 365 Commerce.
 
 Se utilizan dos tipos de extractos comerciales en Dynamics 365 Commerce: 
 

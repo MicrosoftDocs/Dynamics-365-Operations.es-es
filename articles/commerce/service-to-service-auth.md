@@ -1,6 +1,6 @@
 ---
 title: Configurar autenticación de servicio a servicio
-description: Este tema describe cómo configurar la autenticación de servicio a servicio en Microsoft Dynamics 365 Commerce para llamar de forma segura a las API de servicio para obtener calificaciones y opiniones.
+description: Este artículo describe cómo configurar la autenticación de servicio a servicio en Microsoft Dynamics 365 Commerce para llamar de forma segura a las API de servicio para obtener calificaciones y opiniones.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871616"
 ---
 # <a name="configure-service-to-service-authentication"></a>Configurar autenticación de servicio a servicio
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo configurar la autenticación de servicio a servicio (S2S) en Microsoft Dynamics 365 Commerce para llamar de forma segura a las interfaces de programación de aplicaciones (API) de servicio para obtener calificaciones y opiniones.
+Este artículo describe cómo configurar la autenticación de servicio a servicio (S2S) en Microsoft Dynamics 365 Commerce para llamar de forma segura a las interfaces de programación de aplicaciones (API) de servicio para obtener calificaciones y opiniones.
 
-Dynamics 365 Commerce ofrece [calificaciones y opiniones](ratings-reviews-overview.md) como una solución omnicanal. Esta solución permite el acceso a las API de servicio desde fuera de Commerce, de modo que se puedan realizar varias tareas. Estas tareas incluyen la importación de calificaciones y opiniones de su sistema externo a Commerce y la exportación de calificaciones y opiniones desde Commerce. Para permitir que Commerce llame de forma segura a las API del servicio de calificaciones y opiniones, primero debe configurar la autenticación S2S completando los procedimientos de este tema.
+Dynamics 365 Commerce ofrece [calificaciones y opiniones](ratings-reviews-overview.md) como una solución omnicanal. Esta solución permite el acceso a las API de servicio desde fuera de Commerce, de modo que se puedan realizar varias tareas. Estas tareas incluyen la importación de calificaciones y opiniones de su sistema externo a Commerce y la exportación de calificaciones y opiniones desde Commerce. Para permitir que Commerce llame de forma segura a las API del servicio de calificaciones y opiniones, primero debe configurar la autenticación S2S completando los procedimientos de este artículo.
 
 ## <a name="add-a-new-app-registration"></a>Agregar un nuevo registro de la aplicación
 

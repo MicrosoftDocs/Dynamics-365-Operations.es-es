@@ -1,6 +1,6 @@
 ---
 title: Parámetros de administración de devoluciones
-description: Este tema describe la página de parámetros de administración de devoluciones. Esta página contiene configuraciones que afectan la publicación, actualizaciones de estado, secuencias de números y otros comportamientos.
+description: Este artículo describe la página de parámetros de administración de devoluciones. Esta página contiene configuraciones que afectan la publicación, actualizaciones de estado, secuencias de números y otros comportamientos.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895536"
 ---
 # <a name="rebate-management-parameters"></a>Parámetros de administración de devoluciones
 
@@ -45,11 +45,11 @@ La siguiente tabla describe los campos que están disponibles en la pestaña **A
 
 ## <a name="number-sequences-tab"></a>Ficha Secuencias numéricas
 
-Use la pestaña **Secuencias numéricas** en la página **Parámetros de gestión de descuentos** para asignar códigos de secuencia numérica a las diferentes secuencias numéricas que utiliza la gestión de devoluciones. La siguiente tabla describe el propósito de cada una de esas secuencias numéricas. Para obtener más información sobre las secuencias numéricas, consulte [Resumen de secuencias numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) y sus temas relacionados.
+Use la pestaña **Secuencias numéricas** en la página **Parámetros de gestión de descuentos** para asignar códigos de secuencia numérica a las diferentes secuencias numéricas que utiliza la gestión de devoluciones. La siguiente tabla describe el propósito de cada una de esas secuencias numéricas. Para obtener más información sobre las secuencias numéricas, consulte [Resumen de secuencias numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) y sus artículos relacionados.
 
-| Referencia | Descripción |
+| Referencia | Description |
 |---|---|
-| Acuerdo de gestión de devoluciones | La secuencia numérica asigna un valor clave único a cada acuerdo de devolución. Esta clave se usa cuando se crean acuerdos. |
+| Oferta de administración de devoluciones | La secuencia numérica asigna un valor clave único a cada acuerdo de devolución. Esta clave se usa cuando se crean acuerdos. |
 | Número de gestión de devoluciones | La secuencia numérica asigna un valor clave único a cada devolución. Esta clave se utiliza para identificar las relaciones de devoluciones. |
 | Número de transacción de devolución | La secuencia numérica asigna un valor clave único a cada transacción de devolución. Esta clave se utiliza para identificar las relaciones de transacciones. |
 | Factura de impuestos | La secuencia numérica asigna un valor clave único a cada factura de devolución. Esta clave se utiliza cuando los diarios de devoluciones se contabilizan automáticamente. |

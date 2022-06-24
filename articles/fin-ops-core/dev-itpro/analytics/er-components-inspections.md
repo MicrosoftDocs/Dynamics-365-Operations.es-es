@@ -1,6 +1,6 @@
 ---
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
-description: Este tema explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
+description: Este artículo explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864847"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
@@ -80,7 +80,7 @@ ER utiliza las siguientes categorías para agrupar las inspecciones de verificac
 
 ## <a name="list-of-inspections"></a>Lista de inspecciones
 
-La tabla siguiente proporciona información general de las inspecciones que proporciona ER. Para obtener más información sobre estas inspecciones, utilice los enlaces de la primera columna para ir a las secciones relevantes de este tema. Esas secciones explican los tipos de componentes para los que ER proporciona inspecciones y cómo puede reconfigurar los componentes de ER para ayudar a prevenir problemas.
+La tabla siguiente proporciona información general de las inspecciones que proporciona ER. Para obtener más información sobre estas inspecciones, utilice los enlaces de la primera columna para ir a las secciones relevantes de este artículo. Esas secciones explican los tipos de componentes para los que ER proporciona inspecciones y cómo puede reconfigurar los componentes de ER para ayudar a prevenir problemas.
 
 <table>
 <thead>

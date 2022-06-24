@@ -1,6 +1,6 @@
 ---
 title: Crear y asignar estructuras de reglas avanzadas
-description: En este tema se explica cómo crear y asignar una estructura de reglas avanzada a una estructura contable.
+description: En este artículo se explica cómo crear y asignar una estructura de reglas avanzada a una estructura contable.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896330"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Crear y asignar estructuras de reglas avanzadas
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo crear y asignar una estructura de reglas avanzada a una estructura contable. Esta guía usa la empresa de demostración de USMF.
+En este artículo se explica cómo crear y asignar una estructura de reglas avanzada a una estructura contable. Esta guía usa la empresa de demostración de USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Crear una estructura de reglas avanzada
 1. Vaya a **Panel de exploración > Módulos > Contabilidad general > Plan de cuentas > Estructuras > Estructuras de reglas avanzada**.

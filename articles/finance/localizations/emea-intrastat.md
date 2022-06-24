@@ -1,6 +1,6 @@
 ---
-title: Visión general de intrastat
-description: Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE).
+title: Información general de intrastat
+description: Este artículo proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE).
 author: EvgenyPopovMBS
 ms.date: 01/13/2021
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97c2b4068f3b8d38281e637ec80f04b19d19be61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894785"
 ---
 # <a name="intrastat-overview"></a>Información general de intrastat
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Este tema también proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
+Este artículo proporciona información acerca de los informes de Intrastat para comercio de bienes y, en algunos casos, servicios entre países y regiones de la Unión Europea (UE). Este artículo también proporciona una visión general del proceso de informes y describe la configuración y los requisitos previos necesarios.
 
 Intrastat es el sistema de recopilación de información y generación de estadísticas sobre comercio de bienes entre países y regiones de la Unión Europea (UE). Siempre que un producto cruce la frontera de otro país o región de la UE. hace falta presentar un informe Intrastat. En varios países y regiones, los informes Intrastat también son obligatorios para los servicios. Los informes Intrastat pueden incluir elementos necesarios y opcionales. Los elementos siguientes son obligatorios: el número de IVA de la parte responsable de proporcionar información, el período de referencia, el flujo (recepción o distribución), el código de mercancía de ocho dígitos, el estado miembro socio (estado miembro de envío en recepción y el estado miembro de destino en distribución), el valor de las mercancías, la cantidad de las mercancías (masa neta y unidad suplementaria) y la naturaleza de la transacción. Los países y regiones también pueden recopilar elementos opcionales bajo distintas condiciones. Algunos elementos opcionales son el país o la región de origen, las condiciones de entrega, el modo de transporte, un código de mercancía más detallado que el CN8, la región de origen en distribución y la región de destino en llegadas, el procedimiento estadístico, el valor estadístico, una descripción de las mercancías y el puerto o el aeropuerto de carga y descarga.
 
@@ -152,7 +152,7 @@ Use la página **Parámetros de comercio exterior** para configurar los parámet
 
 ### <a name="transaction-codes-and-miscellaneous-charges"></a><a name= "transaction-codes-and-miscellaneous-charges"></a>Códigos de transacción y cargos varios
 
-Este tema cubre un escenario en el que una empresa en Alemania debe comprar productos de una empresa en Italia. Para realizar esta compra, la empresa alemana debe configurar nuevos códigos de transacción y configurar reglas de cálculo para el importe de la factura y el importe estadístico para esos códigos de transacción. Adicionalmente, cuando la empresa genera una factura, debe especificar los cargos varios y sus porcentajes. Esos valores se tendrán en cuenta cuando se calcule el valor estadístico.
+Este artículo cubre un escenario en el que una empresa en Alemania debe comprar productos de una empresa en Italia. Para realizar esta compra, la empresa alemana debe configurar nuevos códigos de transacción y configurar reglas de cálculo para el importe de la factura y el importe estadístico para esos códigos de transacción. Adicionalmente, cuando la empresa genera una factura, debe especificar los cargos varios y sus porcentajes. Esos valores se tendrán en cuenta cuando se calcule el valor estadístico.
 
 Este escenario usa la entidad jurídica **DEMF**.
 

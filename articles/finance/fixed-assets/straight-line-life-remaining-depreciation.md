@@ -1,6 +1,6 @@
 ---
 title: Tiempo de vida restante de depreciación lineal
-description: Este tema le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.
+description: Este artículo le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853449"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Tiempo de vida restante de depreciación lineal
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.
+Este artículo le ofrece una visión general del método de depreciación Tiempo de vida restante de depreciación lineal.
 
 Al configurar un perfil de amortización de activo fijo y seleccionar **Tiempo de vida restante de depreciación lineal** en el campo **Método** de la página **Perfiles de depreciación**, la depreciación de los activos fijos que se asigna al perfil de depreciación se basará en el tiempo de vida restante del activo. El importe de depreciación generalmente es el mismo en cada período de depreciación. Para configurar una depreciación lineal restante, también debe seleccionar opciones en los campos **Año de depreciación** y **Frecuencia de períodos** en la página **Métodos de depreciación**. Las opciones disponibles en el campo **Frecuencia de períodos** varían en función del valor seleccionado en el campo **Año de depreciación**.
 
@@ -35,7 +35,7 @@ Puede seleccionar **Calendario** o **Fiscal** en el campo **Año de depreciació
 
 ### <a name="calendar"></a>Calendario
 
-Si selecciona **Calendario** en el campo **_Año de depreciación_*_, se supone un año del 1 de enero al 31 de diciembre, incluso si ha definido el calendario fiscal de otra manera. La opción _* Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este tema, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
+Si selecciona **Calendario** en el campo **_Año de depreciación_*_, se supone un año del 1 de enero al 31 de diciembre, incluso si ha definido el calendario fiscal de otra manera. La opción _* Calendario** actualiza la base de depreciación el 1 de enero de cada año. Normalmente, la base de depreciación es el valor neto en los libros menos el valor residual. En el ejemplo, más adelante en este artículo, la base de depreciación es el numerador en la primera expresión en los cálculos de la columna de cálculos. Si selecciona **Calendario** como año de depreciación, aparecen las siguientes opciones disponibles en el campo **Frecuencia de períodos**:
 
 - **Anual** registra un importe el 31 de diciembre.
 - **Mensual** registra un importe mensual al final de cada mes del calendario.

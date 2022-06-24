@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862580"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -38,7 +38,7 @@ Para definir la configuración de pedido predeterminada para un producto, siga e
     - En la pestaña **Plan**, en el grupo **Configuración de pedido**, seleccione **Configuración de pedido predeterminada**.
     - En la pestaña **Administrar inventario**, en el grupo **Configuración de pedido**, seleccione **Configuración de pedido predeterminada**.
 
-1. Configure las opciones de la manera descrita en el resto de este tema.
+1. Configure las opciones de la manera descrita en el resto de este artículo.
 
 ## <a name="default-order-settings"></a>Configuración predeterminada de pedido
 

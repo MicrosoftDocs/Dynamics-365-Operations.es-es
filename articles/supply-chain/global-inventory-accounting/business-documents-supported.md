@@ -1,6 +1,6 @@
 ---
 title: Documentos comerciales respaldados por la contabilidad de inventario global
-description: Este tema enumera los documentos comerciales que son compatibles con la Contabilidad de inventario global. También proporciona un ejemplo detallado de documentos de órdenes de compra.
+description: Este artículo enumera los documentos comerciales que son compatibles con la Contabilidad de inventario global. También proporciona un ejemplo detallado de documentos de órdenes de compra.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875434"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Documentos comerciales respaldados por la contabilidad de inventario global
 
@@ -32,7 +32,7 @@ Existen dos tipos de documentos empresariales:
 - **Documentos que tienen un diario** - Estos documentos incluyen el recibo del producto, la factura de compra, el albarán y los documentos de la factura de venta.
 - **Documentos que no tienen diario** - Estos documentos incluyen documentos de recuento, movimiento y ajuste de inventario.
 
-Más adelante en este tema, las órdenes de compra se utilizarán como ejemplo para ilustrar el proceso.
+Más adelante en este artículo, las órdenes de compra se utilizarán como ejemplo para ilustrar el proceso.
 
 La siguiente tabla enumera los documentos que admite la versión actual.
 

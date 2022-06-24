@@ -1,6 +1,6 @@
 ---
 title: Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
-description: En este tema se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos. También puede definir códigos específicos que se usan para poner en espera los pedidos sospechosos automática o manualmente.
+description: En este artículo se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos. También puede definir códigos específicos que se usan para poner en espera los pedidos sospechosos automática o manualmente.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885357"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar criterios y reglas para poner en espera pedidos de ventas potencialmente fraudulentos para revisión adicional. La función de comprobación de fraudes se usa para determinar la validez de la información en un pedido de ventas. Si la información del pedido de ventas parece ser cuestionable en función de los criterios y las reglas contra el fraude de una organización, el pedido puede ser puesto en espera para una revisión adicional. En este caso, el pedido no se puede liberar al almacén para continuar procesándose hasta que no se haya borrado el bloqueo.
+Este artículo explica cómo configurar criterios y reglas para poner en espera pedidos de ventas potencialmente fraudulentos para revisión adicional. La función de comprobación de fraudes se usa para determinar la validez de la información en un pedido de ventas. Si la información del pedido de ventas parece ser cuestionable en función de los criterios y las reglas contra el fraude de una organización, el pedido puede ser puesto en espera para una revisión adicional. En este caso, el pedido no se puede liberar al almacén para continuar procesándose hasta que no se haya borrado el bloqueo.
 
 > [!NOTE]
 > Esta función solo se puede usar con el procesamiento de pedidos de ventas del canal de centro de llamadas de Commerce.

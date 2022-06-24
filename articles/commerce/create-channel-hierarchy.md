@@ -1,6 +1,6 @@
 ---
 title: Crear una jerarquía de navegación de canales
-description: En este tema se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 04/27/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 371c648ccd242c990e095e760e5aa7cc81600395
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869011"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Crear una jerarquía de navegación de canales
 
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo crear una nueva jerarquía de navegación de canales en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Información general
 

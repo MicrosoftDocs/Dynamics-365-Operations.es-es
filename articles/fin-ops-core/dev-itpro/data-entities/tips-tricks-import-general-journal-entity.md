@@ -1,6 +1,6 @@
 ---
 title: Importar asientos con la entidad Diario general
-description: Este tema ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.
+description: Este artículo ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867622"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importar asientos con la entidad Diario general
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065079"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.
+Este artículo ofrece sugerencias para importar datos en el Diario general mediante la entidad Diario general.
 
 Puede utilizar la entidad Diario General para importar asientos que tengan un tipo de cuenta o tipo de cuenta de contrapartida **Contabilidad**, **Cliente**, **Proveedor** o **Banco**. El asiento se pueden especificar como una línea, mediante el campo **Cuenta** y **Cuenta de contrapartida**, o como asiento multilínea, donde solo se usa el campo **Cuenta** (y **Cuenta de contrapartida** se deja en blanco en cada línea). La entidad Diario general no admite todos los tipos de cuenta. En su lugar, existen otras entidades para escenarios donde se requieren diferentes combinaciones de tipos de cuenta. Por ejemplo, para importar una transacción de proyecto, utilice la entidad Diario de gastos de proyecto. Cada entidad está diseñada para soportar escenarios específicos. Esto significa que puede haber campos adicionales disponibles en las entidades para esos escenarios. Sin embargo, podría no haber campos adicionales disponibles en entidades de escenarios diferentes.
 

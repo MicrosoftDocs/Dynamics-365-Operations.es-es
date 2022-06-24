@@ -1,6 +1,6 @@
 ---
 title: Informe de retención de impuestos para Indonesia
-description: Este tema explica cómo configurar y generar el informe de retención de impuestos para Indonesia.
+description: Este artículo explica cómo configurar y generar el informe de retención de impuestos para Indonesia.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883192"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>Informe de retención de impuestos para Indonesia (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar y generar el archivo de retención de impuestos PPH que las entidades legales en Indonesia utilizan para informar transacciones de retención en la aplicación e-Bupot.
+Este artículo explica cómo configurar y generar el archivo de retención de impuestos PPH que las entidades legales en Indonesia utilizan para informar transacciones de retención en la aplicación e-Bupot.
 
 La autoridad fiscal de Indonesia (DGT) determina que los empresarios sujetos a impuestos (PKP) que están registrados en KPP Pratama como retenedores / recaudadores de impuestos del impuesto sobre la renta (PPh) Artículo 23 y / o artículo 26 deben informar electrónicamente los Artículos 23 y 26 de la declaración del impuesto sobre la renta mediante el uso de la aplicación e-Bupot. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea52c39ef1c7d7b62f20da9fe4d94103119ccc23
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847110"
 ---
 # <a name="view-and-export-field-descriptions"></a>Ver y exportar descripciones de campos
 
@@ -91,11 +91,11 @@ En esta sección se proporciona información que le ayudará a solucionar los pr
 
 ### <a name="i-cant-find-a-field-description"></a>No puedo encontrar una descripción de campo
 
-Estamos en proceso de agregar descripciones de campos más complejos. Si necesita ayuda para un campo determinado, háganoslo saber agregando un comentario en este tema.
+Estamos en proceso de agregar descripciones de campos más complejos. Si necesita ayuda para un campo determinado, háganoslo saber agregando un comentario en este artículo.
 
 ### <a name="the-field-description-isnt-helpful"></a>La descripción de campo no es útil
 
-Háganoslo saber agregando un comentario en este tema. Si es posible, describa la información adicional que requiera.
+Háganoslo saber agregando un comentario en este artículo. Si es posible, describa la información adicional que requiera.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>No encuentro un campo en la página de Descripciones de campos
 

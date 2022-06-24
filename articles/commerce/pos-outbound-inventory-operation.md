@@ -1,6 +1,6 @@
 ---
-title: Operación de inventario saliente en PDV
-description: Este tema describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
+title: Operación de inventario de salida en PDV
+description: Este artículo describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850232"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario de salida en PDV
 
@@ -187,7 +187,7 @@ Después de que el documento esté en el estado **Pedido**, está listo para el 
 
 Las órdenes de transferencia enviadas completamente se trasladan a la pestaña **Completado** de la lista de documentos **Operación de salida**. Allí, permanecen visibles para los usuarios en la tienda o almacén de salida, en modo de solo lectura, durante siete días.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Operación de inventario entrante en PDV](pos-inbound-inventory-operation.md)
 

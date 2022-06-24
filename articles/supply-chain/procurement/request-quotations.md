@@ -1,6 +1,6 @@
 ---
 title: Visión general de las solicitudes de presupuesto
-description: Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
+description: Este artículo proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895594"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar. En una solicitud de presupuesto, se les pide a los proveedores que proporcionen precios y plazos de entrega para las cantidades de artículos especificadas.
+Este artículo proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar. En una solicitud de presupuesto, se les pide a los proveedores que proporcionen precios y plazos de entrega para las cantidades de artículos especificadas.
 También puede solicitar que especifiquen si hay algunos gastos adicionales, como gastos de envío, o si el proveedor ofrece descuentos para pedidos cuantiosos o por pronto pago de la factura de proveedor.
 
 El proceso de solicitud de presupuesto consta de las siguientes tareas:
@@ -45,7 +45,7 @@ Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desd
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
+Este artículo cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.
 
@@ -59,7 +59,7 @@ Tras elegir una oferta o un número de líneas en una oferta, puede aceptar toda
 
 Un caso de solicitud de presupuesto tiene dos estados: el más bajo y el más alto, puede ver el estado en la página de lista para **Todas las solicitudes de presupuesto**. El estado más bajo es la fase menos avanzada de cualquier línea del caso de solicitud de presupuesto, y el estado más alto, la fase más avanzada. Por ejemplo, digamos que un caso de solicitud de presupuesto con tres líneas se envía a dos proveedores, por lo tanto hay dos solicitudes de presupuesto, cada una con tres líneas. Todas las líneas son **Enviado**. Ahora se introduce una oferta de uno de los proveedores y líneas de la solicitud de presupuesto obtienen el estado **Recibido**. Esto significa que fuera de las tres líneas del caso de solicitud de presupuesto, todas son **Enviado** para una solicitud de presupuesto y **Recibido** para otra solicitud de presupuesto. El estado más bajo será **Enviado** y el estado más alto es **Recibido.**
 
-Estos estados se describirán más detalladamente más adelante en este tema.
+Estos estados se describirán más detalladamente más adelante en este artículo.
 
 ## <a name="setting-up-rfq-functionality"></a>Configuración de la funcionalidad de solicitud de presupuesto
 

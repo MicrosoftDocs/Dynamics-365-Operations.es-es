@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879751"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliación de facturas y pedidos de compra de empresas vinculadas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109977"
 
 La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. Cuando el campo **Registrar factura con discrepancias** en la página **Parámetros de proveedores** se establece en **Requerir aprobación**, se realiza la validación de la conciliación de facturas. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar.
 
-Los ejemplos de este tema usan la configuración siguiente para el negocio entre empresas vinculadas:
+Los ejemplos de este artículo usan la configuración siguiente para el negocio entre empresas vinculadas:
 -   Fabrikam Purchase es la entidad jurídica de compra.
 -   Fabrikam Sales es la entidad jurídica vendedora.
 -   El cliente 4020 pertenece a la empresa Fabrikam Ventas.

@@ -1,6 +1,6 @@
 ---
 title: Configurar la interfaz de ejecución de la planta de producción
-description: Este tema describe cómo crear una o más configuraciones para la interfaz de ejecución de la planta de producción. Al abrir la interfaz de ejecución de la planta de producción, carga automáticamente una configuración seleccionada y un filtro de trabajo que son específicos del navegador y el dispositivo. En la configuración se establecen las políticas que deben ser aplicables para un uso específico.
+description: Este artículo describe cómo crear una o más configuraciones para la interfaz de ejecución de la planta de producción. Al abrir la interfaz de ejecución de la planta de producción, carga automáticamente una configuración seleccionada y un filtro de trabajo que son específicos del navegador y el dispositivo. En la configuración se establecen las políticas que deben ser aplicables para un uso específico.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899422"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -31,15 +31,15 @@ Al abrir la interfaz de ejecución de la planta de producción, carga automátic
 - En un dispositivo en el vestíbulo de la empresa, los empleados registran su entrada cuando entran a la oficina y su salida cuando se van.
 - En un dispositivo de planta, los operadores de máquinas se registran cuando comienzan y cuando terminan los trabajos. También registran los descansos y las actividades indirectas.
 
-Este tema describe las diversas opciones para configurar una interfaz de ejecución de la planta de producción para cada dispositivo en uso en su sitio.
+Este artículo describe las diversas opciones para configurar una interfaz de ejecución de la planta de producción para cada dispositivo en uso en su sitio.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Encienda la interfaz de ejecución del piso de producción y sus características opcionales relacionadas
 
-La interfaz de ejecución de la planta de producción en sí, más varias de las configuraciones opcionales que se describen en este tema, deben estar activadas en su sistema antes de poder utilizarlas. Utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar alguna o todas las funciones descritas en las siguientes subsecciones según sea necesario.
+La interfaz de ejecución de la planta de producción en sí, más varias de las configuraciones opcionales que se describen en este artículo, deben estar activadas en su sistema antes de poder utilizarlas. Utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar alguna o todas las funciones descritas en las siguientes subsecciones según sea necesario.
 
 ### <a name="the-production-floor-execution-interface"></a>La interfaz de ejecución de la planta de producción
 
-Esta es la característica principal descrita en este tema y es un requisito previo para todas las demás características mencionadas en esta sección. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Esta es la característica principal descrita en este artículo y es un requisito previo para todas las demás características mencionadas en esta sección. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Generar matrículas de entidad de almacén
 
@@ -146,7 +146,7 @@ Esta característica agrega configuraciones para la siguiente funcionalidad a la
 - Habilite los ajustes de consumo de material desde el cuadro de diálogo **Informar de progreso**. (Esta funcionalidad también requiere la característica *Registrar el consumo de material en la interfaz de ejecución de la planta de producción (no WMS)*).
 - Habilitar búsquedas por id. de proyecto
 
-Más adelante en este tema se ofrece información sobre cómo utilizar los ajustes.
+Más adelante en este artículo se ofrece información sobre cómo utilizar los ajustes.
 
 Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

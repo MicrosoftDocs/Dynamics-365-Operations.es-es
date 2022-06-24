@@ -1,6 +1,6 @@
 ---
 title: Liberar las líneas de LM y fórmula al almacén
-description: En este tema se describe el proceso para liberar la materia prima para las líneas de LM y las líneas de fórmula al almacén.
+description: En este artículo se describe el proceso para liberar la materia prima para las líneas de LM y las líneas de fórmula al almacén.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860620"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe el proceso para liberar la materia prima para las líneas de lista de materiales (LM) y las líneas de fórmula al almacén. Cuando libera una LM o una línea de fórmula al almacén, primero el sistema determina si los materiales están disponibles ya en la ubicación de entrada de producción de la planta donde el material será consumido para el proceso de producción.
+En este artículo se describe el proceso para liberar la materia prima para las líneas de lista de materiales (LM) y las líneas de fórmula al almacén. Cuando libera una LM o una línea de fórmula al almacén, primero el sistema determina si los materiales están disponibles ya en la ubicación de entrada de producción de la planta donde el material será consumido para el proceso de producción.
 
 - Si el material está disponible en la ubicación de entrada de producción, se selecciona desde dicha ubicación inmediatamente después de que se de la señal para la liberación del material al almacén.
 - Si el material no está disponible en la ubicación de entrada de producción, la liberación de material indica que el material se debe mover de ubicación en el almacén a la ubicación de entrada de producción. El material se mueve a través del trabajo del almacén para selección de la materia prima. Por lo tanto, los procesos del almacén para selección de la materia prima deben estar configurados. Para obtener más información, vea [Visión general sobre el reabastecimiento](../warehousing/replenishment.md) y [Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación](../warehousing/control-warehouse-location-directives.md).

@@ -1,6 +1,6 @@
 ---
 title: Crear un cliente predeterminado
-description: Este tema describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4658356e268d045fcb7065b397411ffc5161864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720968"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894538"
 ---
 # <a name="create-a-default-customer"></a>Crear un cliente predeterminado
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo crear un cliente predeterminado para usarlo al crear un canal en Microsoft Dynamics 365 Commerce.
 
 Al crear un canal, deberá proporcionar un cliente predeterminado. Se puede crear fácilmente un cliente predeterminado después de crear primero el grupo de clientes y la libreta de direcciones de clientes.
 

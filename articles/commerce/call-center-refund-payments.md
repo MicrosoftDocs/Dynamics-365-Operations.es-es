@@ -1,6 +1,6 @@
 ---
 title: Procesamiento de reembolso de pagos en centros de llamadas
-description: Este tema explica cómo se generan los reembolsos de pagos a través de los centros de llamadas cuando se crean devoluciones o cuando se cancelan pedidos o líneas de pedido.
+description: Este artículo explica cómo se generan los reembolsos de pagos a través de los centros de llamadas cuando se crean devoluciones o cuando se cancelan pedidos o líneas de pedido.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880123"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Procesamiento de reembolso de pagos en centros de llamadas
 
-Este tema explica cómo se generan los reembolsos de pagos a través de los centros de llamadas cuando se crean devoluciones o cuando se cancelan pedidos o líneas de pedido.
+Este artículo explica cómo se generan los reembolsos de pagos a través de los centros de llamadas cuando se crean devoluciones o cuando se cancelan pedidos o líneas de pedido.
 
 Un usuario que crea un pedido de devolución para un cliente como usuario de un centro de llamadas en la sede central de Microsoft Dynamics 365 Commerce utiliza la página **Pedido de devolución** para crear la autorización inicial de devolución de materiales (RMA). La RMA define los productos que el cliente desea devolver o cambiar y crea un pedido de ventas de devolución vinculado que tiene un tipo de orden pedido de **Pedido devuelto**. Este pedido devuelto vinculado se utiliza para rastrear la publicación del inventario devuelto y cualquier nota de crédito o reembolso de pago que se registre.
 
@@ -92,7 +92,7 @@ El valor **Sí** de la opción **Aplicar crédito** es aplicable solo cuando el 
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Anulaciones de pagos para devoluciones del centro de llamadas
 
-Aunque la lógica del centro de llamadas determina sistemáticamente el método de pago del reembolso de la manera que se describe anteriormente en este tema, los usuarios a veces pueden querer anular dichos pagos. Por ejemplo, un usuario puede editar o eliminar líneas de pago de reembolso existentes y aplicar nuevas líneas de pago. Los pagos de reembolso calculados por el sistema solo pueden cambiarlos usuarios que tengan los permisos de anulación correctos. Estos permisos se pueden configurar en la página **Anular permisos** de Retail y Commerce. Para anular el pago de un reembolso, el usuario debe estar vinculado a un rol de seguridad en el que la opción **Permitir pago alternativo** esté configurada en **Sí** en la página **Anular permisos**.
+Aunque la lógica del centro de llamadas determina sistemáticamente el método de pago del reembolso de la manera que se describe anteriormente en este artículo, los usuarios a veces pueden querer anular dichos pagos. Por ejemplo, un usuario puede editar o eliminar líneas de pago de reembolso existentes y aplicar nuevas líneas de pago. Los pagos de reembolso calculados por el sistema solo pueden cambiarlos usuarios que tengan los permisos de anulación correctos. Estos permisos se pueden configurar en la página **Anular permisos** de Retail y Commerce. Para anular el pago de un reembolso, el usuario debe estar vinculado a un rol de seguridad en el que la opción **Permitir pago alternativo** esté configurada en **Sí** en la página **Anular permisos**.
 
 ![Permitir una opción de pago alternativa en la página Anular permisos.](media/overridepermissions.png)
 

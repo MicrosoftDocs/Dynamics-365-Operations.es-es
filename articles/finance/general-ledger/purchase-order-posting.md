@@ -1,6 +1,6 @@
 ---
 title: Registro de pedido de compra
-description: Este tema describe la pestaña Pedido de ventas de la página de Perfiles de registro de inventario.
+description: Este artículo describe la pestaña Pedido de ventas de la página de Perfiles de registro de inventario.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849942"
 ---
 # <a name="purchase-order-posting"></a>Registro de pedido de compra
 
@@ -125,7 +125,7 @@ Las solicitudes de compra y las confirmaciones de órdenes de compra también se
 
 ## <a name="procurement-category-posting"></a>Contabilización de categoría de adquisición
 
-Como alternativa a la configuración del registro de inventario para todos los artículos, un grupo de artículos o un solo artículo, puede configurar categorías y controlar el registro contable por categorías de adquisiciones. Para obtener más información sobre cómo configurar categorías y asignarlas a productos, vaya a [Ejemplo de configuración del perfil de publicación](#sample-posting-profile-configuration) anteriormente en este tema.
+Como alternativa a la configuración del registro de inventario para todos los artículos, un grupo de artículos o un solo artículo, puede configurar categorías y controlar el registro contable por categorías de adquisiciones. Para obtener más información sobre cómo configurar categorías y asignarlas a productos, vaya a [Ejemplo de configuración del perfil de publicación](#sample-posting-profile-configuration) anteriormente en este artículo.
 
 Cuando se utilizan categorías con órdenes de compra o facturas de proveedores, la jerarquía de categorías debe asignarse al tipo **Jerarquía de categorías de compras** en la página **Asignaciones de roles de jerarquía de categorías**.
 

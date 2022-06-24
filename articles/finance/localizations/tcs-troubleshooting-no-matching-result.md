@@ -1,6 +1,6 @@
 ---
-title: No se encuentran resultados coincidentes
-description: Este tema explica cómo solucionar el error "No se pudo encontrar ningún resultado coincidente" en el servicio de Cálculo de impuestos.
+title: No se ha encontrado el resultado coincidente
+description: Este artículo explica cómo solucionar el error "No se pudo encontrar ningún resultado coincidente" en el servicio de Cálculo de impuestos.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845155"
 ---
-# <a name="no-matching-result-could-be-found"></a>No se encuentran resultados coincidentes
+# <a name="no-matching-result-could-be-found"></a>No se ha encontrado el resultado coincidente
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica los pasos de solución de problemas que puede seguir si recibe el error "No se pudo encontrar ningún resultado coincidente" en el servicio de Cálculo de impuestos.
+Este artículo explica los pasos de solución de problemas que puede seguir si recibe el error "No se pudo encontrar ningún resultado coincidente" en el servicio de Cálculo de impuestos.
 
 ## <a name="symptom"></a>Síntoma
 

@@ -1,6 +1,6 @@
 ---
 title: Trabajar con diseños predefinidos
-description: En este tema se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896852"
 ---
 # <a name="work-with-preset-layouts"></a>Trabajar con diseños predefinidos
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
 
-Antes de completar los procedimientos de este tema, asegúrese de leer [Diseños personalizados y preestablecidos](templates-layouts-overview.md#preset-and-custom-layouts). Para una visión general, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
+Antes de completar los procedimientos de este artículo, asegúrese de leer [Diseños personalizados y preestablecidos](templates-layouts-overview.md#preset-and-custom-layouts). Para una visión general, consulte [Visión general de plantillas y diseños](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Creación de un nuevo diseño preestablecido
 

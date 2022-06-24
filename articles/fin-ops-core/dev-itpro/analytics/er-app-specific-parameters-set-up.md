@@ -1,6 +1,6 @@
 ---
-title: Configurar los parámetros de un formato de ER por entidad jurídica
-description: En este tema se explica cómo puede configurar los parámetros de un formato de informes electrónicos (ER) por entidad jurídica.
+title: Configurar los parámetros de un formato de informes electrónicos por entidad jurídica
+description: En este artículo se explica cómo puede configurar los parámetros de un formato de informes electrónicos (ER) por entidad jurídica.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890223"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar los parámetros de un formato de ER por entidad jurídica
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644510"
 
 Para completar estos pasos, primero debe completar los pasos en [Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica](er-app-specific-parameters-configure-format.md).
 
-Para completar los ejemplos de este tema, debe tener acceso a Microsoft Dynamics 365 Finance para uno de los roles siguientes:
+Para completar los ejemplos de este artículo, debe tener acceso a Microsoft Dynamics 365 Finance para uno de los roles siguientes:
 
 - Desarrollador de informes electrónicos
 - Consultor funcional de informes electrónicos
@@ -221,7 +221,7 @@ Los parámetros específicos de la aplicación de un formato de ER dependen de l
 
 También puede usar este enfoque de importar y exportar para transferir un formato de ER relacionado con parámetros específicos de la aplicación que se configuró originalmente en una instancia de Finance a otra instancia de Finance.
 
-Si configura parámetros específicos de la aplicación para una versión de un formato ER y luego importa una versión posterior del mismo formato en la instancia de Finance actual, los parámetros específicos de la aplicación existentes no se aplicarán a la versión importada a menos que use la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos**. Para obtener más información, consulte la sección [Reutilizar parámetros existentes](#reuse-existing-parameters) más adelante en este tema.
+Si configura parámetros específicos de la aplicación para una versión de un formato ER y luego importa una versión posterior del mismo formato en la instancia de Finance actual, los parámetros específicos de la aplicación existentes no se aplicarán a la versión importada a menos que use la característica **Usar parámetros específicos de la aplicación de versiones anteriores de formatos de informes electrónicos**. Para obtener más información, consulte la sección [Reutilizar parámetros existentes](#reuse-existing-parameters) más adelante en este artículo.
 
 Cuando selecciona un archivo para importarlo, la estructura de los parámetros específicos de la aplicación en ese archivo se compara con la estructura los orígenes de datos correspondientes del tipo **Búsqueda** en el formato de ER seleccionado para su importación. De forma predeterminada, la importación se completa solo si la estructura de cada parámetro específico de la aplicación coincide con la estructura del origen de datos correspondiente en el formato de ER seleccionado para su importación. Si las estructuras no coinciden, recibe un mensaje de advertencia que indica que la importación no se puede completar. Si fuerza la importación, los parámetros específicos de la aplicación existentes para el formato de ER seleccionado se borrarán, y deberá configurarlos desde el principio.
 

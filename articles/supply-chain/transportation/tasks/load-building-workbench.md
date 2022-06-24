@@ -1,6 +1,6 @@
 ---
 title: Área de trabajo de planificación de la carga
-description: Este tema describe cómo trabajar con el banco de trabajo de creación de carga.
+description: Este artículo describe cómo trabajar con el banco de trabajo de creación de carga.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c6723656baaca42c6b055d759c84fd4392fe04b0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12d8c351f84e9045ffa94f3fcf0dbdefc633d2a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878740"
 ---
 # <a name="load-building-workbench"></a>Área de trabajo de planificación de la carga
 

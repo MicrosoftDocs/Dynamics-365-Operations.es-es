@@ -1,6 +1,6 @@
 ---
 title: Configurar liquidación
-description: Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este tema describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes.
+description: Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este artículo describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes.
 author: kweekley
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910211"
 ---
 # <a name="configure-settlement"></a>Configurar liquidación
 
 [!include [banner](../includes/banner.md)]
 
-Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este tema describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes. 
+Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este artículo describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes. 
 
 Los siguientes parámetros afectan al procesamiento de las liquidaciones en Microsoft Dynamics 365 Finance. La liquidación es el proceso de liquidar una factura con un pago o una nota de abono. Estos parámetros se encuentran en el área **Liquidación** de las páginas **Parámetros de clientes** y **Parámetros de proveedores**.
 

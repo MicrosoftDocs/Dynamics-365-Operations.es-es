@@ -1,6 +1,6 @@
 ---
 title: Preparar metadatos de la aplicación para usarse en RCS
-description: Este tema describe cómo crear una nueva configuración de informes que contenga metadatos de la aplicación.
+description: Este artículo describe cómo crear una nueva configuración de informes que contenga metadatos de la aplicación.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868808"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Preparar metadatos de la aplicación para usarse en RCS
 [!include [banner](../../includes/banner.md)]
 
-Los siguiente pasos explican cómo un usuario en el rol de Administrador del sistema o Desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos (ER) que contiene metadatos de la aplicación para diseñar configuraciones de asignación del modelo de ER en Regulatory Configuration Service (RCS). Esta configuración se utilizará para diseñar una configuración de asignación del modelo de ER de ejemplo para acceder a transacciones de comercio exterior. En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa. Para completar estos pasos, primero debe completar los pasos del tema [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md).
+Los siguiente pasos explican cómo un usuario en el rol de Administrador del sistema o Desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos (ER) que contiene metadatos de la aplicación para diseñar configuraciones de asignación del modelo de ER en Regulatory Configuration Service (RCS). Esta configuración se utilizará para diseñar una configuración de asignación del modelo de ER de ejemplo para acceder a transacciones de comercio exterior. En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa. Para completar estos pasos, primero debe completar los pasos del artículo [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Requisitos previos
 1.    Vaya a **Administración de la organización** > **Espacios de trabajo** > **Informes electrónicos**. 

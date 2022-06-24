@@ -1,6 +1,6 @@
 ---
 title: Instalar y conectar la aplicación de almacén
-description: Este tema explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+description: Este artículo explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885765"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar y conectar la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tema describe cómo configurar la aplicación de almacén anterior (que ahora está en desuso). Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management, consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
+> Este artículo describe cómo configurar la aplicación de almacén anterior (que ahora está en desuso). Si busca información sobre cómo configurar la nueva aplicación móvil Warehouse Management, consulte [Instalar y conectar la aplicación móvil Warehouse Management](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Este tema describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este artículo describe cómo configurar la aplicación de almacén para implementaciones en la nube. Si busca información sobre cómo configurar la aplicación de almacén para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 La aplicación de almacén está disponible en Google Play Store y Microsoft Store. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
 
-Este tema explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+Este artículo explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 
@@ -76,11 +76,11 @@ Para habilitar la aplicación de almacén para interactuar con un servidor espec
 
     ![Asistente de Registrar una aplicación.](media/app-connect-azure-register-wizard.png "Asistente de Registrar una aplicación")
 
-1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este tema como *Id. de cliente*.
+1. Se abre su nuevo registro de aplicación. Anote el valor de **Id. de aplicación (cliente)**, puesto que lo necesitará más adelante. Este id. se referirá más adelante en este artículo como *Id. de cliente*.
 
     ![Identificador de aplicación (cliente).](media/app-connect-azure-app-id.png "Identificador de aplicación (cliente)")
 
-1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este tema).
+1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este artículo).
 
     - **Cargar certificado**: cargue un certificado para usarlo como secreto. Recomendamos este enfoque, porque es más seguro y también se puede automatizar más completamente. Si está ejecutando la aplicación de almacén en dispositivos Windows, anote el valor de **Huella digital** que se muestra después de cargar el certificado. Necesitará este valor cuando configure el certificado en dispositivos Windows.
     - **Nuevo secreto de cliente**: cree una clave introduciendo una descripción de clave y una duración en la sección **Contraseñas** y luego seleccione **Añadir**. Haga una copia de la clave y guárdela de forma segura.
@@ -90,7 +90,7 @@ Para habilitar la aplicación de almacén para interactuar con un servidor espec
 Para obtener más información sobre cómo configurar aplicaciones de servicios web en Azure AD, vea los siguientes recursos:
 
 - Para obtener instrucciones que muestran cómo usar Windows PowerShell para configurar aplicaciones de servicio web en Azure AD, consulte [Procedimiento: usar Azure PowerShell para crear una entidad de servicio con un certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes temas:
+- Para obtener detalles completos sobre cómo crear manualmente una aplicación de servicio web en Azure AD, vea los siguientes artículos:
 
     - [Inicio rápido: registrar una aplicación en la plataforma de identidad de Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Procedimiento: usar el portal para crear una aplicación de Azure AD y entidad de servicio que puede acceder a los recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando un certificado o secreto de cliente
 
-La autenticación con Azure AD proporciona una forma segura de conectar un dispositivo móvil a Supply Chain Management. Puede autenticar usando un secreto de cliente o un certificado. Si va a importar la configuración de conexión, le recomendamos que use un certificado en lugar de un secreto de cliente. Debido a que el secreto del cliente siempre debe almacenarse de forma segura, no puede importarlo desde un archivo de configuración de conexión o un código QR, como se describe más adelante en este tema.
+La autenticación con Azure AD proporciona una forma segura de conectar un dispositivo móvil a Supply Chain Management. Puede autenticar usando un secreto de cliente o un certificado. Si va a importar la configuración de conexión, le recomendamos que use un certificado en lugar de un secreto de cliente. Debido a que el secreto del cliente siempre debe almacenarse de forma segura, no puede importarlo desde un archivo de configuración de conexión o un código QR, como se describe más adelante en este artículo.
 
 Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación de almacén. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 

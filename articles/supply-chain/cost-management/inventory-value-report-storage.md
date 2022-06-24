@@ -1,6 +1,6 @@
 ---
 title: Informes de valor de inventario
-description: Este tema explica cómo configurar, generar y usar informes de valor de inventario. Estos informes proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
+description: Este artículo explica cómo configurar, generar y usar informes de valor de inventario. Estos informes proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854569"
 ---
 # <a name="inventory-value-reports"></a>Informes de valor de inventario
 

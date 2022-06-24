@@ -1,6 +1,6 @@
 ---
 title: Información general sobre gestión de calidad y disconformidades
-description: Este tema presenta las características de gestión de calidad y disconformidades en Microsoft Dynamics 365 Supply Chain Management y explica cómo pueden ayudar a mejorar la calidad del producto en su cadena de suministro.
+description: Este artículo presenta las características de gestión de calidad y disconformidades en Microsoft Dynamics 365 Supply Chain Management y explica cómo pueden ayudar a mejorar la calidad del producto en su cadena de suministro.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907504"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Información general sobre gestión de calidad y disconformidades
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta las características de gestión de calidad y disconformidades en Microsoft Dynamics 365 Supply Chain Management y explica cómo pueden ayudar a mejorar la calidad del producto en su cadena de suministro.
+Este artículo presenta las características de gestión de calidad y disconformidades en Microsoft Dynamics 365 Supply Chain Management y explica cómo pueden ayudar a mejorar la calidad del producto en su cadena de suministro.
 
 El control de calidad requiere realizar pruebas de los productos y gestionar el material de disconformidad. Los procesos de gestión de calidad ayudan a garantizar un nivel superior de la calidad del producto en la cadena de suministro. Estos procesos también ayudan a optimizar los procesos de la cadena de suministro y la satisfacción del cliente. La gestión de calidad puede ayudarle a gestionar los plazos de entrega con productos de disconformidad, independientemente del punto de origen de los productos. Puede vincular resultados de diagnóstico a tareas de corrección. El sistema puede programar tareas para corregir problemas y, por tanto, ayudar a evitar que estos problemas se repitan en el futuro. La gestión de calidad también le permite realizar un seguimiento de los problemas (incluidos los problemas internos) por tipo de problema, y le permite identificar soluciones como soluciones a corto plazo o a largo plazo. Las estadísticas acerca de los indicadores clave de rendimiento (KPI) proporcionan información sobre problemas de disconformidad que se han producido anteriormente y las soluciones aplicadas para corregirlos. Puede usar los datos históricos para ayudar a revisar la eficacia de las medidas de calidad que se han aplicado anteriormente y determinar medidas adecuadas en el futuro.
 

@@ -1,6 +1,6 @@
 ---
 title: Búsqueda de navegación
-description: Este tema explica cómo usar la función de búsqueda para navegar por páginas.
+description: Este artículo explica cómo usar la función de búsqueda para navegar por páginas.
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872689"
 ---
 # <a name="navigation-search"></a>Búsqueda de navegación
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069993"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema explica cómo usar la función de búsqueda para navegar por páginas.
+Este artículo explica cómo usar la función de búsqueda para navegar por páginas.
 
 La aplicación incluye varias áreas y páginas para ayudarle a realizar varias tareas. Para encontrar rápidamente las páginas que necesita para completar las tareas, use la característica de búsqueda de navegación.
 

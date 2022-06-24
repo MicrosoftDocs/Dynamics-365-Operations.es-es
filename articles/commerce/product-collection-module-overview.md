@@ -1,6 +1,6 @@
 ---
 title: Módulos de colección de productos
-description: Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 05/18/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 02a3d6314729f51d6c1dced5037f78d12355c09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871668"
 ---
 # <a name="product-collection-modules"></a>Módulos de colección de productos
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 
 El descubrimiento de productos es una herramienta principal que los minoristas usan para interactuar con sus clientes en un sitio web de comercio electrónico. Los módulos de colección de productos ayudan a los minoristas a crear atractivas experiencias de compra al ofrecer una interfaz visual intuitiva que pueda usarse para crear rápidamente colecciones de productos.
 

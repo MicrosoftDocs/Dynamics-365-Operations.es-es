@@ -1,6 +1,6 @@
 ---
 title: Reabastecimiento según la capacidad de la ubicación
-description: Este tema proporciona información sobre la característica Reabastecimiento según la capacidad de la ubicación. Esta característica permite crear todo el trabajo de reabastecimiento que se requerirá para el día y administra la disponibilidad de ese trabajo de reabastecimiento para garantizar que la ubicación de picking no se quede sin inventario ni supere la capacidad.
+description: Este artículo proporciona información sobre la característica Reabastecimiento según la capacidad de la ubicación. Esta característica permite crear todo el trabajo de reabastecimiento que se requerirá para el día y administra la disponibilidad de ese trabajo de reabastecimiento para garantizar que la ubicación de picking no se quede sin inventario ni supere la capacidad.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899248"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimiento según la capacidad de la ubicación
 
@@ -37,7 +37,7 @@ Para que esta característica esté disponible, active las siguientes caracterí
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configure la función para el escenario de ejemplo
 
-Esta sección proporciona pautas y un ejemplo que muestra cómo configurar la característica Control de calidad y preparar datos de muestra para el escenario de ejemplo que se proporciona más adelante en este tema.
+Esta sección proporciona pautas y un ejemplo que muestra cómo configurar la característica Control de calidad y preparar datos de muestra para el escenario de ejemplo que se proporciona más adelante en este artículo.
 
 ### <a name="enable-sample-data"></a>Habilitar datos de muestra
 
@@ -145,7 +145,7 @@ Las plantillas de reabastecimiento son un conjunto de reglas que controlan cuán
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
-Después de haber puesto a disposición todos los datos de ejemplo descritos anteriormente y configurarlos, puede trabajar en este escenario para probar la característica *Reabastecimiento según la capacidad de la ubicación*. Los valores que se muestran en este escenario suponen que está trabajando con los datos de demostración estándar, que seleccionó la entidad jurídica **USMF** y que preparó los registros de ejemplo que se describen anteriormente en este tema. Este escenario también sirve como ejemplo que muestra cómo se puede usar la característica en una configuración de producción.
+Después de haber puesto a disposición todos los datos de ejemplo descritos anteriormente y configurarlos, puede trabajar en este escenario para probar la característica *Reabastecimiento según la capacidad de la ubicación*. Los valores que se muestran en este escenario suponen que está trabajando con los datos de demostración estándar, que seleccionó la entidad jurídica **USMF** y que preparó los registros de ejemplo que se describen anteriormente en este artículo. Este escenario también sirve como ejemplo que muestra cómo se puede usar la característica en una configuración de producción.
 
 ### <a name="create-replenishment-work"></a>Crear trabajo de reabastecimiento
 

@@ -1,6 +1,6 @@
 ---
-title: Visión general de las páginas de detalles de producto
-description: Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
+title: Información general de las páginas de detalles de producto
+description: Este artículo proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986210"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884294"
 ---
-# <a name="product-details-pages-overview"></a>Visión general de las páginas de detalles de producto
+# <a name="product-details-pages-overview"></a>Información general de las páginas de detalles de producto
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
 
 Una PDP proporciona información detallada sobre un producto y permite a los clientes seleccionar opciones de productos como un tamaño, un estilo y un color. Una PDP debe mostrar toda la información de producto que un cliente necesita para tomar una decisión de compra.
 
@@ -35,7 +35,7 @@ En la ilustración siguiente se muestra un ejemplo de una PDP.
 
 ## <a name="header-and-footer-modules"></a>Módulos de encabezado y pie de página
 
-La parte superior de una PDP tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página tiene un pie de página que contiene vínculos rápidos a diversos temas que pueden interesar a clientes.
+La parte superior de una PDP tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página tiene un pie de página que contiene vínculos rápidos a diversos artículos que pueden interesar a clientes.
 
 ## <a name="buy-box-module"></a>Módulo de cuadro de compra
 

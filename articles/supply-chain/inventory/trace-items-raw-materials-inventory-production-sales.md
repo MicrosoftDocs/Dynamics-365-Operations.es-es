@@ -1,6 +1,6 @@
 ---
 title: Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
-description: Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
+description: Este artículo describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 23d860b86e2eebb520bf2fd472c5655f40dd0ca0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854424"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
+Este artículo describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
 
 La funcionalidad de seguimiento de artículo está disponible en la página **Seguimiento de artículos**. Las siguientes secciones describen cómo puede usar el seguimiento de artículos y cuáles son las opciones y las limitaciones.
 

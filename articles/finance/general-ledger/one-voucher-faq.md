@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes sobre Un asiento
-description: Este tema responde a las preguntas frecuentes acerca de la funcionalidad de Un asiento. Un asiento para diarios financieros (diario, diario de activos fijos, diario de pago del proveedor, etc.) le permite especificar varias transacciones de subcontabilidad en el contexto de un asiento único.
+description: Este artículo responde a las preguntas frecuentes acerca de la funcionalidad de Un asiento. Un asiento para diarios financieros (diario, diario de activos fijos, diario de pago del proveedor, etc.) le permite especificar varias transacciones de subcontabilidad en el contexto de un asiento único.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859809"
 ---
 # <a name="one-voucher-faq"></a>Preguntas frecuentes sobre Un asiento
 
 [!include [banner](../includes/banner.md)]
 
-Este tema responde a las preguntas frecuentes acerca de la funcionalidad de Un asiento. Un asiento para diarios financieros permite introducir múltiples transacciones del subdiario contable en el contexto de un solo asiento. Los diarios que puede incluir en ese asiento pueden ser diarios generales, diarios de activos fijos y diarios de pago de proveedores, entre otros.
+Este artículo responde a las preguntas frecuentes acerca de la funcionalidad de Un asiento. Un asiento para diarios financieros permite introducir múltiples transacciones del subdiario contable en el contexto de un solo asiento. Los diarios que puede incluir en ese asiento pueden ser diarios generales, diarios de activos fijos y diarios de pago de proveedores, entre otros.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>¿Cuándo quedará obsoleta la funcionalidad de Un asiento?
 

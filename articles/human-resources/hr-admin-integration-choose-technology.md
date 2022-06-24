@@ -1,6 +1,6 @@
 ---
 title: Elegir una tecnología de integración de datos
-description: Este tema proporciona información sobre la integración con datos administrados por Human Resources.
+description: Este artículo proporciona información sobre la integración con datos administrados por Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887816"
 ---
 # <a name="choose-a-data-integration-technology"></a>Elegir una tecnología de integración de datos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717150"
 
 
 
-Este tema proporciona información para la integración con datos administrados por Dynamics 365 Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
+Este artículo proporciona información para la integración con datos administrados por Dynamics 365 Human Resources. Describe diferentes tecnologías de integración para ayudarlo a decidir qué tecnologías se adaptan mejor a sus necesidades.
 
 ## <a name="data-integration-background"></a>Trasfondo de integración de datos
 

@@ -1,6 +1,6 @@
 ---
 title: Crear una propuesta de depreciación
-description: En este tema se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos.
+description: En este artículo se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos.
 author: abruer
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db747bf8e3343082feda204fc56d9608313a280e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1f39a1412c6f96fe0a8261602a88a6a3c3cd6b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858507"
 ---
 # <a name="create-a-depreciation-proposal"></a>Crear una propuesta de depreciación
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos. Esta tarea usa la empresa de prueba USMF y el rol de contable.
+En este artículo se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos. Esta tarea usa la empresa de prueba USMF y el rol de contable.
 
 
 ## <a name="create-a-depreciation-proposal"></a>Crear una propuesta de depreciación

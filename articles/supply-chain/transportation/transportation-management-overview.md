@@ -1,6 +1,6 @@
 ---
-title: Visión general de la administración de transporte
-description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
+title: Información general de la administración de transporte
+description: Este artículo proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897469"
 ---
-# <a name="transportation-management-overview"></a>Visión general de la administración de transporte
+# <a name="transportation-management-overview"></a>Información general de la administración de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
+Este artículo proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
 
 La Administración de transporte le permite usar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte.
 

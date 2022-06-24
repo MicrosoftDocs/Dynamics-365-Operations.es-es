@@ -1,30 +1,24 @@
 ---
 title: Configurar un experimento
-description: Este tema describe cómo configurar un experimento en un servicio de terceros.
+description: Este artículo describe cómo configurar un experimento en un servicio de terceros.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1073cdc509622279ce7388b8b406079a4e6e9e09
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769404"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946175"
 ---
 # <a name="set-up-an-experiment"></a>Configurar un experimento
 
-Después [definir una hipótesis y determinar qué métricas de éxito desea utilizar](experimentation-identify.md), deberá configurar su experimento en el servicio de terceros. El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en temas separados.
+Después [definir una hipótesis y determinar qué métricas de éxito desea utilizar](experimentation-identify.md), deberá configurar su experimento en el servicio de terceros. El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en artículos separados.
 
 [ ![Recorrido del usuario de experimentación: configurar.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
@@ -37,13 +31,55 @@ Siga los pasos necesarios para crear su experimento en el servicio de terceros. 
 ## <a name="set-up-your-success-metrics"></a>Configure sus métricas de éxito
 Todo experimento necesita métricas para medir el impacto de las variaciones y validar la hipótesis. Siga los pasos a continuación para habilitar el cálculo de métricas en el servicio de terceros utilizando eventos de telemetría en vivo de Dynamics 365 Commerce.
 
-Para configurar sus métricas de éxito, siga estos pasos:
+Para configurar sus métricas de éxito para los módulos listos para usar, siga estos pasos.
 
 1. En el generador de sitios de Commerce, seleccione la pestaña **Páginas** en el panel de navegación izquierdo y luego seleccione la página para la que desea recopilar métricas. 
 1. Vaya a la sección **ID de eventos para rastrear** en el panel de propiedades derecho de la página o módulo que desea rastrear.
-1. Seleccione **Ver**. Se muestra una lista de todos los ID de eventos. Copie el evento que desea rastrear y pegue la clave del evento en la ubicación designada en el servicio de terceros. Si necesita más de un evento, copie las claves una por una. 
-    - Para saber cómo ver todos los eventos y atributos disponibles, incluidas las visitas a la página y el seguimiento de ingresos, consulte [Eventos de componentes comerciales para diagnóstico y resolución de problemas](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
+1. Seleccione **Ver**. Se muestra una lista de todos los ID de eventos de clic. Copie el evento que desea rastrear y luego pegue la clave del evento en la ubicación designada en el servicio de terceros. Si necesita más de un evento, copie las claves una por una. 
+1. Para vistas de página, use el valor hash SHA-256 del nombre de la página en el generador de sitios anexado con `.PageView`. Por ejemplo, el ID de evento para `Homepage.PageView` sería `e217eb66c7808ecc43b0f5c517c6a83b39d72b91412fbd54a485da9d8e186a9`.
 1. Tome cualquier otro paso para realizar un seguimiento de las métricas según lo requiera el servicio de terceros.
+
+Para los clics de módulos personalizados, siga estos pasos para instrumentar los eventos de clic:
+
+1. Prepare un objeto **TelemetryContent** para el módulo utilizando la siguiente función. Esta función toma el nombre de la página, el nombre del módulo y el objeto de telemetría predeterminado proporcionado por el SDK como entradas.
+
+    ```TypeScript
+    getTelemetryObject(pageName: string, moduleName: string, telemetry: ITelemetry): ITelemetryContent
+    ```
+    
+    A continuación se muestra un ejemplo: 
+    
+    ```TypeScript
+    private readonly telemetryContent: ITelemetryContent = getTelemetryObject(this.props.context.request.telemetryPageName!, this.props.friendlyName, this.props.telemetry);
+    ```
+    
+1. Cree los datos de carga útil que contienen información sobre lo que debe capturarse. Para botones y otros controles estáticos, puede incluir **etext** como "Comprar ahora" o "Buscar". Y para componentes con clics, como hacer clic en una tarjeta de producto, puede enviar el **recid**, que es el ID de registro del producto o el ID del producto.
+
+    ```TypeScript
+    getPayloadObject(eventType: string, telemetryContent: ITelemetryContent, etext: string, recid?: string): IPayLoad
+    ```
+    Como ejemplo de controles estáticos, pase la cadena de texto del botón como se muestra a continuación:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', this.props.telemetryContent, 'Shop Now', '');
+    ```
+    Como ejemplo de clics de productos, pase el recordId de producto como se muestra a continuación:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', telemetryContent!, '', product.RecordId.toString());
+    ```
+    
+1. Llame a la función **OnClick** para registrar el evento.
+
+    ```TypeScript
+    onTelemetryClick = (telemetryContent: ITelemetryContent, payLoad: IPayLoad, linkText: string) => () =>
+    ```
+
+    A continuación se muestra un ejemplo:
+
+    ```TypeScript
+    onClick: onTelemetryClick(this.props.telemetryContent, payLoad, linkText)
+    ```
 
 ## <a name="previous-step"></a>Paso anterior
 [Identificar una hipótesis y determinar métricas para un experimento](experimentation-identify.md) 

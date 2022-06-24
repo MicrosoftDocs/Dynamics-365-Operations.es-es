@@ -1,6 +1,6 @@
 ---
 title: Cálculo de TDS sobre pagos y pagarés
-description: Este tema proporciona información de referencia sobre las diferentes transacciones de pago en las que se calcula el impuesto deducido en el origen (TDS).
+description: Este artículo proporciona información de referencia sobre las diferentes transacciones de pago en las que se calcula el impuesto deducido en el origen (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906329"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>Cálculo de TDS sobre pagos y pagarés
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información de referencia sobre las diferentes transacciones de pago en las que se calcula el impuesto deducido en el origen (TDS).
+Este artículo proporciona información de referencia sobre las diferentes transacciones de pago en las que se calcula el impuesto deducido en el origen (TDS).
 
 | Número de serie | Tipo de transacción | Importe de la transacción | Nombre y ruta de la página | Tipo de cuenta y tipo de cuenta de contrapartida |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

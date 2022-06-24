@@ -1,6 +1,6 @@
 ---
 title: Corrección de una factura de servicios
-description: Este tema explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
+description: Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878200"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
+Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
 
 Para corregir una factura de servicios que ya se ha registrado, ábrala. En la página **Factura**, seleccione **Cancelar** y, a continuación seleccione **Corregir factura**. Seleccione un código de razón, agregue comentarios y seleccione la fecha para la nueva factura corregida. Puede modificar la factura corregida y registrarla. 
 
@@ -44,7 +44,7 @@ Puede identificar la cancelación y la corrección de facturas de dos maneras:
 -   El encabezado de la factura de servicios muestra un estado de **Factura de cancelación '\[número de factura\]'** o **Factura corregida '\[número de factura\]'**.
 
 > [!NOTE]
-> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**. Para obtener más información sobre cómo habilitar las claves de Configuración, consulte la sección Habilitar (o deshabilitar) las claves de configuración del tema [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
+> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**. Para obtener más información sobre cómo habilitar las claves de Configuración, consulte la sección Habilitar (o deshabilitar) las claves de configuración del artículo [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

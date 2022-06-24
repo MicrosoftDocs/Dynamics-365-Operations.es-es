@@ -1,6 +1,6 @@
 ---
 title: Característica de factura dividida
-description: Este tema describe la configuración y la característica para dividir facturas por dirección de entrega y número de cuenta de impuestos (TAN).
+description: Este artículo describe la configuración y la característica para dividir facturas por dirección de entrega y número de cuenta de impuestos (TAN).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1dac8d51c24009dcf0c4acbc49f06f32abf0dec
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874443"
 ---
 # <a name="split-invoice-functionality"></a>Característica de factura dividida
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la configuración y la característica para dividir facturas por dirección de entrega y número de cuenta de impuestos (TAN).
+Este artículo describe la configuración y la característica para dividir facturas por dirección de entrega y número de cuenta de impuestos (TAN).
 
 En la página **Parámetros de proveedores**, en la pestaña **General**, seleccione las casillas **Recepción de producto** o **Factura** para registrar y dividir una recepción o factura de producto que tiene diferentes direcciones de entrega y TAN en la página **Pedido de compra**. La factura registrada se dividirá por dirección de entrega y TAN.
 

@@ -1,6 +1,6 @@
 ---
 title: Reutilizar las configuraciones de ER con plantillas de Excel para generar informes en formato Word
-description: Este tema describe cómo los formatos de informe que fueron diseñados para generar informes como libros de Excel pueden configurarse para generar informes como documentos de Word.
+description: Este artículo describe cómo los formatos de informe que fueron diseñados para generar informes como libros de Excel pueden configurarse para generar informes como documentos de Word.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910397"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Reutilizar las configuraciones de ER con plantillas de Excel para generar informes en formato Word
 

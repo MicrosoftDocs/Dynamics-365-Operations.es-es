@@ -1,6 +1,6 @@
 ---
 title: Opciones de programación de las operaciones
-description: Este tema describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
+description: Este artículo describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb0ee3020c5cfd17e82282e8fddb8f9c6dcdfee
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2f4d1e74855a0a8f73030c222c3f2fe27ce58a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907272"
 ---
 # <a name="operations-scheduling-options"></a>Opciones de programación de las operaciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
+Este artículo describe las opciones de programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 
 La programación de operaciones calcula la siguiente información de un pedido de producción:
 

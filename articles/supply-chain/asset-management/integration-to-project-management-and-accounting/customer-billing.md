@@ -1,6 +1,6 @@
 ---
 title: Facturar por mantenimiento de activos del cliente
-description: Este tema explica cómo crear, procesar y facturar el trabajo de mantenimiento que se realiza sobre los activos que poseen sus clientes.
+description: Este artículo explica cómo crear, procesar y facturar el trabajo de mantenimiento que se realiza sobre los activos que poseen sus clientes.
 author: johanhoffmann
 ms.date: 01/28/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887700"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Facturar por mantenimiento de activos del cliente
 
@@ -40,7 +40,7 @@ Además, la función proporciona la siguiente funcionalidad:
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Activar la característica de facturación al cliente
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión y contabilidad de proyectos*
 - **Nombre de la característica:** *Facturación de órdenes de trabajo*

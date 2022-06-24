@@ -1,6 +1,6 @@
 ---
 title: Interfaz de equipo de gestión de material (MHAX)
-description: Este tema describe cómo configurar la interfaz del equipo de manipulación de materiales (MHAX) para que pueda conectarse a sistemas externos de manipulación de materiales físicos (MH).
+description: Este artículo describe cómo configurar la interfaz del equipo de manipulación de materiales (MHAX) para que pueda conectarse a sistemas externos de manipulación de materiales físicos (MH).
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907098"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaz de equipo de gestión de material (MHAX)
 
@@ -88,7 +88,7 @@ Para crear una suscripción, vaya a **Interfaz del equipo de manipulación de ma
 
 Se puede asociar una consulta a cada suscripción. Esta consulta filtra líneas de trabajo y encabezados para limitar aún más el trabajo que utilizará la suscripción para generar eventos. Para agregar una consulta a una suscripción, seleccione la casilla **Ejecutar consulta** de la suscripción correspondiente en la página **Suscripciones** y luego seleccione **Editar consulta** en el Panel de acciones. Aparece el editor de consultas estándar de Supply Chain Management.
 
-Además, la suscripción incluye un *mapa de suscripción* que asigna campos desde el encabezado de trabajo o la línea de trabajo a algunos o todos los 10 campos de datos libres del evento de salida, según sea necesario. Para devolver información al servicio MHAX, normalmente incluirá el ID de registro de la línea de trabajo o el *ID de par de línea de trabajo*. (El ID de par de línea de trabajo es una nueva propiedad que permite al sistema usar un solo comando de retorno para procesar líneas de selección y colocación). Los campos restantes dependen del caso de uso. Más adelante en este tema se proporcionan algunos ejemplos.
+Además, la suscripción incluye un *mapa de suscripción* que asigna campos desde el encabezado de trabajo o la línea de trabajo a algunos o todos los 10 campos de datos libres del evento de salida, según sea necesario. Para devolver información al servicio MHAX, normalmente incluirá el ID de registro de la línea de trabajo o el *ID de par de línea de trabajo*. (El ID de par de línea de trabajo es una nueva propiedad que permite al sistema usar un solo comando de retorno para procesar líneas de selección y colocación). Los campos restantes dependen del caso de uso. Más adelante en este artículo se proporcionan algunos ejemplos.
 
 Para configurar un mapa de suscripción, seleccione la suscripción correspondiente en la página **Suscripciones** y luego seleccione **Mapa de suscripción** en el Panel de acciones. En el cuadro de diálogo **Mapa de suscripción** que aparece, puede asignar una tabla y un campo para cada campo de datos disponible según lo requiera.
 
@@ -161,7 +161,7 @@ Si se proporciona el ID del par de líneas de trabajo, todas las líneas de trab
 
 Las líneas de selección de ubicaciones controladas por matrículas requieren que **data03** especifique la placa de la que se debe elegir, independientemente de si las líneas están marcadas por el ID del registro de la línea de trabajo o el ID del par de la línea de trabajo. El campo **data04** debe especificar la matrícula de destino del encabezado de trabajo para la selección.
 
-Poner líneas no acepta más información. Se ejecutan basándose únicamente en la ubicación de la línea de trabajo actual y la placa de matrícula de destino del trabajo. Si la colocación debe realizarse en una ubicación diferente, cambie la ubicación de la línea de trabajo como se describe en la sección [Anular eventos](#override-events) más adelante en este tema.
+Poner líneas no acepta más información. Se ejecutan basándose únicamente en la ubicación de la línea de trabajo actual y la placa de matrícula de destino del trabajo. Si la colocación debe realizarse en una ubicación diferente, cambie la ubicación de la línea de trabajo como se describe en la sección [Anular eventos](#override-events) más adelante en este artículo.
 
 Las líneas de trabajo personalizadas no requieren, ni admiten, ninguna información adicional en el evento entrante.
 
@@ -220,7 +220,7 @@ Eventualmente, su cola de entrada comenzará a llenarse de elementos de cola que
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Obtenga una descripción general rápida utilizando el administrador de colas
 
-Para obtener una descripción general rápida de toda la actividad relacionada con sus colas entrantes y salientes, vaya a **Interfaz del equipo de manipulación de materiales \> Espacios de trabajo \> Gestor de colas**. La página **Gestor de colas** proporciona un conjunto de pestañas e iconos que puede usar para monitorear y explorar sus colas. También proporciona enlaces útiles a la mayoría de las otras páginas que se mencionan en este tema.
+Para obtener una descripción general rápida de toda la actividad relacionada con sus colas entrantes y salientes, vaya a **Interfaz del equipo de manipulación de materiales \> Espacios de trabajo \> Gestor de colas**. La página **Gestor de colas** proporciona un conjunto de pestañas e iconos que puede usar para monitorear y explorar sus colas. También proporciona enlaces útiles a la mayoría de las otras páginas que se mencionan en este artículo.
 
 ## <a name="connect-to-the-mhax-service"></a>Conectar al servicio MHAX
 

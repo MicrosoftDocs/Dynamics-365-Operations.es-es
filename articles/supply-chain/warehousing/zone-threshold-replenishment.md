@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893131"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimiento de umbral de zona
 
@@ -45,7 +45,7 @@ Antes de poder usar la característica *Reabastecimiento de umbral de zona*, est
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Configurar reabastecimiento basado en zonas
 
-Para configurar un reabastecimiento basada en zonas, debe configurar varias partes del sistema. Esta sección presenta las diversas configuraciones y proporciona valores de datos de demostración que puede introducir si desea trabajar en el escenario al final de este tema.
+Para configurar un reabastecimiento basada en zonas, debe configurar varias partes del sistema. Esta sección presenta las diversas configuraciones y proporciona valores de datos de demostración que puede introducir si desea trabajar en el escenario al final de este artículo.
 
 ### <a name="set-up-directive-codes"></a>Configurar códigos de directivas
 
@@ -57,7 +57,7 @@ Para ver o editar sus códigos de directivas, vaya a **Gestión de almacenes \> 
 
 #### <a name="prepare-demo-data-directive-codes"></a>Preparar códigos de directivas de datos de demostración
 
-En este ejemplo se muestra cómo preparar un código de directivas. Si tiene previsto trabajar en el escenario al final de este tema, utilice los valores de datos de demostración que se proporcionan aquí. De lo contrario, utilice sus propios valores.
+En este ejemplo se muestra cómo preparar un código de directivas. Si tiene previsto trabajar en el escenario al final de este artículo, utilice los valores de datos de demostración que se proporcionan aquí. De lo contrario, utilice sus propios valores.
 
 1. Seleccione la entidad jurídica **USMF** para trabajar con los datos de demostración.
 1. Vaya a **Gestión de almacenes \> Configurar \> Códigos de directivas**.
@@ -79,7 +79,7 @@ Una plantilla de reabastecimiento es un conjunto de reglas que controlan cuándo
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Preparar una plantilla de reabastecimiento de datos de demostración
 
-En este ejemplo se muestra cómo preparar una plantilla de reabastecimiento. Si tiene previsto trabajar en el escenario al final de este tema, utilice los valores de datos de demostración que se proporcionan aquí. De lo contrario, utilice sus propios valores.
+En este ejemplo se muestra cómo preparar una plantilla de reabastecimiento. Si tiene previsto trabajar en el escenario al final de este artículo, utilice los valores de datos de demostración que se proporcionan aquí. De lo contrario, utilice sus propios valores.
 
 1. Seleccione la entidad jurídica **USMF** para trabajar con los datos de demostración.
 1. Vaya a **Administración de almacenes \> Configurar \> Reabastecimiento \> Plantillas de reabastecimiento**.
@@ -144,7 +144,7 @@ Para ver ejemplos que muestran cómo usar la configuración para crear las direc
 
 #### <a name="prepare-demo-data-location-directives"></a>Preparar directivas de ubicación de datos de demostración
 
-Para preparar datos de demostración para que puedan usarse en el escenario al final de este tema, debe crear dos directivas de ubicación: una para selección y otra para colocación.
+Para preparar datos de demostración para que puedan usarse en el escenario al final de este artículo, debe crear dos directivas de ubicación: una para selección y otra para colocación.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Crear una directiva de selección de reabastecimiento
 
@@ -258,7 +258,7 @@ En esta sección se proporciona un escenario de muestra que expone cómo trabaja
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Preparar los datos de muestra necesarios para el escenario de muestra
 
-Antes de empezar a trabajar en el escenario, debe activar los datos de muestra y configurar la característica como se describe en esta sección y en las secciones anteriores de este tema.
+Antes de empezar a trabajar en el escenario, debe activar los datos de muestra y configurar la característica como se describe en esta sección y en las secciones anteriores de este artículo.
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar la entidad jurídica USMF
 
@@ -266,7 +266,7 @@ Para trabajar en el escenario mediante el uso de los registros y valores de mues
 
 #### <a name="prepare-additional-sample-data"></a>Preparar datos de muestra adicionales
 
-Después de haber seleccionado la entidad jurídica **USMF**, agregue los datos de muestra adicionales que se requieren, como se describe en la sección [Configurar reabastecimiento basado en zonas](#setup) que aparece anteriormente en este tema.
+Después de haber seleccionado la entidad jurídica **USMF**, agregue los datos de muestra adicionales que se requieren, como se describe en la sección [Configurar reabastecimiento basado en zonas](#setup) que aparece anteriormente en este artículo.
 
 #### <a name="check-your-on-hand-inventory"></a>Comprobar el inventario disponible
 

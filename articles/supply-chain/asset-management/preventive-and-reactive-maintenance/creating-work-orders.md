@@ -1,6 +1,6 @@
 ---
 title: Creación de órdenes de trabajo
-description: En este tema se explica cómo crear órdenes de trabajo en Administración de activos.
+description: En este artículo se explica cómo crear órdenes de trabajo en Administración de activos.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891216"
 ---
 # <a name="creating-work-orders"></a>Creación de órdenes de trabajo
 
@@ -60,11 +60,11 @@ Para crear órdenes de trabajo basadas en su programa de mantenimiento, siga est
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Líneas de orden de trabajo grupales que se crean automáticamente mientras se ejecuta un plan de mantenimiento
 
-Esta función le permite definir reglas para agrupar líneas de órdenes de trabajo bajo una sola orden de trabajo cuando el sistema está configurado para generar órdenes de trabajo automáticamente, en base a un plan de mantenimiento. Anteriormente, las órdenes de trabajo generadas automáticamente podían contener solo una línea. Sin embargo, ahora puede agrupar las órdenes de trabajo por, por ejemplo, activo, tipo de activo o ubicación técnica. (Las órdenes de trabajo generadas manualmente ya se podían agrupar de esta manera, como se describe en la sección anterior de este tema).
+Esta función le permite definir reglas para agrupar líneas de órdenes de trabajo bajo una sola orden de trabajo cuando el sistema está configurado para generar órdenes de trabajo automáticamente, en base a un plan de mantenimiento. Anteriormente, las órdenes de trabajo generadas automáticamente podían contener solo una línea. Sin embargo, ahora puede agrupar las órdenes de trabajo por, por ejemplo, activo, tipo de activo o ubicación técnica. (Las órdenes de trabajo generadas manualmente ya se podían agrupar de esta manera, como se describe en la sección anterior de este artículo).
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Habilitar la agrupación para órdenes de trabajo generadas automáticamente
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Administración de activos*
 - **Nombre de la característica:** *aplicar reglas para agrupar órdenes de trabajo mientras ejecuta un plan de mantenimiento*

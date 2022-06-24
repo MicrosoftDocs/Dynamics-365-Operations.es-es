@@ -1,6 +1,6 @@
 ---
-title: Visión general de la doble escritura
-description: Este tema describe de forma general la doble escritura, que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de Finance and Operations.
+title: Información general sobre la doble escritura
+description: Este artículo describe de forma general la doble escritura, que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de finanzas y operaciones.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f39322a0c2ef50ef2bbeb256c80096e0687c4642
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872951"
 ---
 # <a name="dual-write-overview"></a>Visión general de la doble escritura
 
@@ -73,7 +73,7 @@ La doble escritura crea una asignación entre conceptos en aplicaciones de Finan
 
 La doble escritura proporciona integración de datos en las aplicaciones Microsoft Dynamics 365. Este marco robusto vincula entornos y permite que diferentes aplicaciones empresariales trabajen juntas. Estas son las principales razones por las que debería usar la doble escritura:
 
-+ La doble escritura proporciona una integración estrechamente acoplada, casi en tiempo real y bidireccional entre aplicaciones Finance and Operations y aplicaciones Customer Engagement. Esta integración hace de Microsoft Dynamics 365 la ventanilla única para todas sus soluciones empresariales. Los clientes que usan Dynamics 365 Finance y Dynamics 365 Supply Chain Management, pero que usan soluciones que no son de Microsoft para la gestión de relaciones con los clientes (CRM), se están pasando a Dynamics 365 por su soporte de doble escritura.
++ La doble escritura proporciona una integración estrechamente acoplada, casi en tiempo real y bidireccional entre aplicaciones Finance and Operations y aplicaciones Customer Engagement. Esta integración hace de Microsoft Dynamics 365 la ventanilla única para todas sus soluciones empresariales. Clientes que usan Dynamics 365 Finance y Dynamics 365 Supply Chain Management, pero que utilizan soluciones que no son de Microsoft para la administración de relaciones con el cliente (CRM), se están pasando a Dynamics 365 por su compatibilidad con la doble escritura.
 + Los datos de clientes, productos, operaciones, proyectos e Internet de las cosas (IoT) fluyen automáticamente a Dataverse a través de doble escritura. Esta conexión es útil para las empresas que están interesadas en expansiones de Power Platform.
 + La infraestructura de doble escritura sigue el principio sin código / código bajo. Se requiere un mínimo esfuerzo de ingeniería para ampliar los mapas estándar de tabla a tabla e incluir mapas personalizados.
 + La doble escritura admite tanto el modo en línea como el modo fuera de línea. Microsoft es la única compañía que ofrece soporte para modos en línea y fuera de línea.

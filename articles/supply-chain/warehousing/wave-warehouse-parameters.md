@@ -1,6 +1,6 @@
 ---
 title: Parámetros de almacén para el procesamiento de oleadas
-description: Este tema describe cómo configurar los parámetros del almacén para el procesamiento por oleadas. Puede usar el procesamiento para agrupar trabajo de picking para varios pedidos de trabajo en una sola oleada.
+description: Este artículo describe cómo configurar los parámetros del almacén para el procesamiento por oleadas. Puede usar el procesamiento para agrupar trabajo de picking para varios pedidos de trabajo en una sola oleada.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c259ff6c5a2f1190afb82c2ab7ecdc99e2b05846
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909623"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Parámetros de almacén para el procesamiento de oleadas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar los parámetros del almacén para el procesamiento por oleadas. Puede usar el procesamiento para agrupar trabajo de picking para varios pedidos de trabajo en una sola oleada.
+Este artículo describe cómo configurar los parámetros del almacén para el procesamiento por oleadas. Puede usar el procesamiento para agrupar trabajo de picking para varios pedidos de trabajo en una sola oleada.
 
 Para utilizar el procesamiento de oleadas, especifique lo siguiente en la página **Parámetros de gestión de almacén**:
 

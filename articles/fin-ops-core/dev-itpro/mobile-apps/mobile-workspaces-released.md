@@ -1,6 +1,6 @@
 ---
 title: Espacios de trabajo móviles disponibles
-description: Este tema muestra los espacios de trabajo móviles disponibles para administradores el uso.
+description: Este artículo muestra los espacios de trabajo móviles disponibles para administradores el uso.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868651"
 ---
 # <a name="available-mobile-workspaces"></a>Espacios de trabajo móviles disponibles
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este tema indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil Finanzas y Operaciones (Dynamics 365). La siguiente tabla indica el plan de desuso para cada uno de estos espacios de trabajo móviles en términos de si se planea o no una experiencia de reemplazo.  
+Este artículo indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil Finanzas y Operaciones (Dynamics 365). La siguiente tabla indica el plan de desuso para cada uno de estos espacios de trabajo móviles en términos de si se planea o no una experiencia de reemplazo.  
 
 
 | Espacio de trabajo móvil     | Description   | Plan de depreciación   |
@@ -39,7 +39,7 @@ Este tema indica los espacios de trabajo móviles que se están disponibles para
 | [Inventario disponible](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md) | Obtener información de inventario reservado y disponible. |  Reemplazar |
 | [Pedidos de ventas](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md) | Puede permanecer informado sobre los pedidos de ventas.  |  Jubilarse |
 | [Colaboración de proveedor](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Los proveedores pueden estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados. | Jubilarse  |
-| [Administración de activos](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Este espacio de trabajo permite a los usuarios ver y crear solicitudes de mantenimiento y órdenes de trabajo. Los usuarios también pueden ver los trabajos de órdenes de trabajo asignadas en una vista de calendario o de lista. Los activos y ubicaciones funcionales también se pueden ver y buscar. | Reemplazar |
+| [Administración de activos](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Este espacio de trabajo permite a los usuarios ver y crear solicitudes de mantenimiento y órdenes de trabajo. Los usuarios también pueden ver los trabajos de pedidos de trabajo asignadas en una vista de calendario o de lista. Los activos y ubicaciones funcionales también se pueden ver y buscar. | Reemplazar |
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

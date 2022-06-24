@@ -1,6 +1,6 @@
 ---
 title: Revalorización bancaria de divisa extranjera
-description: Este tema proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Incluye información sobre la configuración, la ejecución del proceso, el cálculo para el proceso, y la inversión de transacciones de revalorización.
+description: Este artículo proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Incluye información sobre la configuración, la ejecución del proceso, el cálculo para el proceso, y la inversión de transacciones de revalorización.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863112"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Revalorización bancaria de divisa extranjera
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Explica cómo configurar y ejecutar el proceso, y proporciona información acerca del cálculo para el proceso. También se explica cómo invertir las transacciones de revalorización, si se necesita la inversión.
+Este artículo proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Explica cómo configurar y ejecutar el proceso, y proporciona información acerca del cálculo para el proceso. También se explica cómo invertir las transacciones de revalorización, si se necesita la inversión.
 
 Como parte de una período final, las prácticas contables requieren que los saldos de la cuenta de ese banco en divisas extranjeras se revaloricen mediante distintos tipos de cambio (circulante, histórico, medio, etc.). La característica de revalorización de divisa extranjera del banco se puede usar para revalorizar una o más cuentas bancarias. La función también es una función global. Por lo tanto, desde una sola página, puede revalorizar los bancos en todas las entidades jurídicas a las que tiene acceso.
 

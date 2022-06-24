@@ -1,6 +1,6 @@
 ---
 title: Declaración de IVA (Alemania)
-description: Este tema describe cómo configurar y generar una declaración anticipada del impuesto al valor agregado (IVA) para Alemania en el formato XML oficial.
+description: Este artículo describe cómo configurar y generar una declaración anticipada del impuesto al valor agregado (IVA) para Alemania en el formato XML oficial.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: ff52963c03ec2eb662eb0c20ef2a960e3b999167
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879543"
 ---
 # <a name="vat-declaration-germany"></a>Declaración de IVA (Alemania)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar y generar una declaración anticipada del impuesto al valor agregado (IVA) para Alemania en el formato XML oficial. Este tema también explica cómo obtener una vista previa de la declaración de IVA en formato Microsoft Excel.
+Este artículo describe cómo configurar y generar una declaración anticipada del impuesto al valor agregado (IVA) para Alemania en el formato XML oficial. Este artículo también explica cómo obtener una vista previa de la declaración de IVA en formato Microsoft Excel.
 
 Para generar automáticamente el informe, cree suficientes códigos de impuestos sobre las ventas para mantener una contabilidad de IVA separada para cada casilla en la declaración de IVA anticipada. Además, en los parámetros específicos de la aplicación del formato de informes electrónicos (ER) para la declaración de IVA anticipada, asocie los códigos de impuestos sobre las ventas con el resultado de búsqueda de las búsquedas de las casillas de la declaración de IVA.
 
-Para Alemania, debe configurar **Búsqueda de campos de informe**. Para obtener más información sobre cómo configurar parámetros específicos de la aplicación, consulte la sección [Configurar parámetros específicos de la aplicación para campos de declaración de IVA](#set-up-application-specific-parameters-for-vat-declaration-fields) más adelante en este tema.
+Para Alemania, debe configurar **Búsqueda de campos de informe**. Para obtener más información sobre cómo configurar parámetros específicos de la aplicación, consulte la sección [Configurar parámetros específicos de la aplicación para campos de declaración de IVA](#set-up-application-specific-parameters-for-vat-declaration-fields) más adelante en este artículo.
 
 En la siguiente tabla, la columna "Resultado de la búsqueda" muestra el resultado de la búsqueda que está preconfigurado para una fila de declaración de IVA específica en el formato de declaración de IVA. Utilice esta información para asociar correctamente los códigos de impuestos sobre las ventas con el resultado de la búsqueda y luego con la fila de la declaración de IVA.
 
@@ -176,7 +176,7 @@ Siga estos pasos para definir qué códigos de impuestos sobre las ventas genera
 
     | Campo                  | Description                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Resultado de la búsqueda          | Seleccione el valor del campo del informe. Para obtener más información sobre los valores y su asignación a filas de declaración de IVA, consulte la sección [Resumen de la declaración de IVA](#vat-declaration-overview) anteriormente en este tema.                                                                                               |
+    | Resultado de la búsqueda          | Seleccione el valor del campo del informe. Para obtener más información sobre los valores y su asignación a filas de declaración de IVA, consulte la sección [Resumen de la declaración de IVA](#vat-declaration-overview) anteriormente en este artículo.                                                                                               |
     | Código de impuestos               | Seleccione el código de impuesto sobre las ventas para asociar con el campo del informe. Las transacciones de impuestos registradas que utilizan el código de impuestos sobre las ventas seleccionado se recopilarán en el cuadro de declaración correspondiente. Recomendamos que separe los códigos de impuestos sobre las ventas de tal manera que un código de impuestos sobre las ventas genere importes en un solo cuadro de declaración. |
     | Clasificador de transacciones | Si creó suficientes códigos de impuestos sobre las ventas para determinar un cuadro de declaración, seleccione **\*No en blanco\***. Si no creó suficientes códigos de impuestos sobre las ventas para que un código de impuestos sobre las ventas genere importes en un solo cuadro de declaración, puede configurar un clasificador de transacciones. Están disponibles los siguientes clasificadores de transacción:</br>-   **Compra**</br>-   **PurchaseExempt** (compra exenta de impuestos)</br>-   **PurchaseReverseCharge** (impuesto soportado de un cargo invertido de compra)</br>-   **Ventas**</br>-   **SalesExempt** (venta exenta de impuestos)</br>-   **SalesReverseCharge** (impuesto repercutido a partir de un cargo inverso de compra o un cargo inverso de venta)</br>-   **Impuesto de uso**. </br>Para cada clasificador de transacciones, también está disponible un clasificador para la nota de crédito. Por ejemplo, uno de estos clasificadores es **PurchaseCreditNote** (nota de crédito de compra).</br>Asegúrese de crear dos líneas para cada código de impuesto sobre las ventas: una que tenga el valor del clasificador de transacciones y otra que tenga el clasificador de transacciones para el valor de la nota de crédito. |
 
@@ -212,7 +212,7 @@ Si está configurando la declaración de IVA en una entidad legal que tiene [mú
 El paquete de datos contiene configuraciones de mensajes electrónicos que se utilizan para generar la declaración de IVA en formato XML y luego obtener una vista previa en Excel. Puede ampliar esta configuración o crear la suya propia. Para obtener más información sobre cómo trabajar con mensajería electrónica y crear su propia configuración, consulte [Mensajería electrónica](../general-ledger/electronic-messaging.md).
 
 1. En [Microsoft Dynamics Lifecycle Services(LCS)](https://lcs.dynamics.com/v2), en la biblioteca de activos compartidos, seleccione **Paquete de datos** como tipo de activo y luego descargue **Paquete EM de declaración de IVA DE**. El nombre del archivo descargado es **DE VAT declaration EM package.zip**.
-2. En Dynamics 365 Finance, el espacio de trabajo **Administración de datos**, seleccione **Importación**.
+2. En Dynamics 365 Finance, en el espacio de trabajo **Administración de datos**, seleccione **Importación**.
 3. En la ficha desplegable **Importar**, en el campo **Nombre de grupo** escriba un nombre para el trabajo.
 4. En la ficha desplegable **Entidades seleccionadas**, seleccione **Agregar archivo**.
 5. En el cuadro de diálogo **Agregar archivo**, verifique que el campo **Formato de datos de origen** está configurado en **Paquete**, seleccione **Cargar y agregar** y luego seleccione el archivo zip que descargó anteriormente.
@@ -265,7 +265,7 @@ El paquete de datos contiene configuraciones de mensajes electrónicos que se ut
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Genere una declaración de IVA a partir de mensajes electrónicos
 
-Cuando utiliza mensajes electrónicos para generar el informe, puede recopilar datos fiscales de varias entidades legales. Para obtener más información, consulte la sección [Ejecutar una declaración de IVA para varias entidades legales](#run-a-vat-declaration-for-multiple-legal-entities) más adelante en este tema.
+Cuando utiliza mensajes electrónicos para generar el informe, puede recopilar datos fiscales de varias entidades legales. Para obtener más información, consulte la sección [Ejecutar una declaración de IVA para varias entidades legales](#run-a-vat-declaration-for-multiple-legal-entities) más adelante en este artículo.
 
 El siguiente procedimiento se aplica al ejemplo de procesamiento de mensajes electrónicos que importó de la biblioteca de activos compartidos de LCS.
 
@@ -277,7 +277,7 @@ El siguiente procedimiento se aplica al ejemplo de procesamiento de mensajes ele
     > [!NOTE]
     > Los pasos del 5 al 7 son opcionales.
 
-5. Opcional: en la ficha desplegable **Mensajes**, seleccione **Recopilar datos** y luego seleccione **Aceptar**. Los pagos de impuestos sobre ventas que se generaron anteriormente se agregan al mensaje. Para obtener más información, consulte la sección [Liquidar y registrar impuestos](#settle-and-post-sales-tax) descrita anteriormente en este tema. Si omite este paso, aún puede generar una declaración de IVA utilizando el campo **Versión de declaración de impuestos** en el cuadro de diálogo **Declaración**.
+5. Opcional: en la ficha desplegable **Mensajes**, seleccione **Recopilar datos** y luego seleccione **Aceptar**. Los pagos de impuestos sobre ventas que se generaron anteriormente se agregan al mensaje. Para obtener más información, consulte la sección [Liquidar y registrar impuestos](#settle-and-post-sales-tax) descrita anteriormente en este artículo. Si omite este paso, aún puede generar una declaración de IVA utilizando el campo **Versión de declaración de impuestos** en el cuadro de diálogo **Declaración**.
 6. Opcional: en la ficha desplegable **Elementos de mensaje**, revise los pagos de impuestos sobre ventas que se transfieren para su procesamiento. De forma predeterminada se incluyen todos los pagos de impuestos sobre ventas del período seleccionado que no se incluyeron en ningún otro mensaje del mismo procesamiento.
 7. Opcional: seleccione **Documento original** para revisar los pagos de impuestos sobre ventas o seleccione **Eliminar** para excluir del procesamiento los pagos de impuestos sobre ventas. Si omite este paso, aún puede generar una declaración de IVA utilizando el campo **Versión de declaración de impuestos** en el cuadro de diálogo **Declaración**.
 8. En la ficha desplegable **Mensajes**, seleccione **Actualizar estado**. En el cuadro de diálogo **Actualizar estado**, seleccione **Listo para generar** y luego seleccione **Aceptar**. Verifique que el estado del mensaje cambie a **Listo para generar**.

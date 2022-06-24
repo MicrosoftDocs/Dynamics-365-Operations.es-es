@@ -1,6 +1,6 @@
 ---
 title: Configurar la autenticación de Azure Active Directory para el inicio de sesión de PDV
-description: Este tema explica cómo configurar Azure Active Directory como método de autenticación en punto de venta de Microsoft Dynamics 365 Commerce .
+description: Este artículo explica cómo configurar Azure Active Directory como método de autenticación en punto de venta de Microsoft Dynamics 365 Commerce .
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853937"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurar la autenticación de Azure Active Directory para el inicio de sesión de PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar Azure Active Directory (Azure AD) como método de autenticación en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
+Este artículo explica cómo configurar Azure Active Directory (Azure AD) como método de autenticación en punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 
 Los minoristas que utilizan Dynamics 365 Commerce junto con otros servicios en la nube de Microsoft, como Microsoft Azure, Microsoft 365 y Microsoft Teams normalmente quieren usar Azure AD para la gestión centralizada de las credenciales de usuario para una experiencia de inicio de sesión segura y sin problemas en todas las aplicaciones. Para usar la autenticación de Azure AD para PDV de Commerce, primero debe configurar Azure AD como método de autenticación en la sede de Commerce.
 

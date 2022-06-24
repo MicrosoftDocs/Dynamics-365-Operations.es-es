@@ -1,6 +1,6 @@
 ---
 title: Cumplimiento de existencias de seguridad para los artículos
-description: En este tema se describe el cumplimiento de existencias de seguridad y cómo configurar la cantidad de existencias de seguridad para los artículos.
+description: En este artículo se describe el cumplimiento de existencias de seguridad y cómo configurar la cantidad de existencias de seguridad para los artículos.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887410"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Cumplimiento de existencias de seguridad para los artículos
 
@@ -88,7 +88,7 @@ Si **Claver mínimas** esta en uso, seleccione la casilla de verificación **Per
 El siguiente escenario muestra cómo funciona este parámetro y cuáles son las diferencias entre sus valores.
 
 > [!NOTE]
-> Para todas las ilustraciones en este tema, el eje X representa el inventario, el eje Y representa días, las barras representan el nivel de inventario, las flechas representan transacciones, como las líneas de pedido de ventas, las líneas de pedido de compra, o pedidos planificados.
+> Para todas las ilustraciones en este artículo, el eje X representa el inventario, el eje Y representa días, las barras representan el nivel de inventario, las flechas representan transacciones, como las líneas de pedido de ventas, las líneas de pedido de compra, o pedidos planificados.
 
 [![Escenario común de cumplimiento de existencias de seguridad.](media/Scenario1.png)](media/Scenario1.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Lista de inventario disponible
-description: Este tema describe cómo usar la página de Lista disponible para inspeccionar los detalles del inventario disponible. Muestra algunas de las formas en que las diversas opciones de filtrado y clasificación funcionan juntas, y cómo esas opciones a veces pueden producir resultados inesperados cuando se combinan.
+description: Este artículo describe cómo usar la página de Lista disponible para inspeccionar los detalles del inventario disponible. Muestra algunas de las formas en que las diversas opciones de filtrado y clasificación funcionan juntas, y cómo esas opciones a veces pueden producir resultados inesperados cuando se combinan.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879059"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de inventario disponible
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo usar la página de **Lista disponible** para inspeccionar los detalles del inventario disponible. Muestra algunas de las formas en que las diversas opciones de filtrado y clasificación funcionan juntas, y cómo esas opciones a veces pueden producir resultados inesperados cuando se combinan.
+Este artículo describe cómo usar la página de **Lista disponible** para inspeccionar los detalles del inventario disponible. Muestra algunas de las formas en que las diversas opciones de filtrado y clasificación funcionan juntas, y cómo esas opciones a veces pueden producir resultados inesperados cuando se combinan.
 
 ## <a name="query-your-on-hand-inventory"></a>Consulta el inventario disponible
 
@@ -35,9 +35,9 @@ La página **Lista disponible** se actualiza automáticamente cuando se realizan
 Use las siguientes herramientas para encontrar el conjunto de productos que está buscando:
 
 - En el Panel de acciones, seleccione [**Dimensiones**](#dimensions) para abrir un cuadro de diálogo donde puede agregar o eliminar columnas que se muestran en la cuadrícula **Disponible**.
-- En el [panel **Filtros**](#filters-pane), especifique valores para campos específicos para mostrar solo registros que coincidan con esos valores. Tenga en cuenta que los filtros que defina aquí se aplican a las tablas de origen que pueden agregarse más tarde, de acuerdo con las dimensiones que ha seleccionado para mostrar. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+- En el [panel **Filtros**](#filters-pane), especifique valores para campos específicos para mostrar solo registros que coincidan con esos valores. Tenga en cuenta que los filtros que defina aquí se aplican a las tablas de origen que pueden agregarse más tarde, de acuerdo con las dimensiones que ha seleccionado para mostrar. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este artículo.
 - En el panel **Filtros**, seleccione **Aplicar** para generar la lista de inventario disponible que la cuadrícula **Inventario**.
-- En la cuadrícula **Inventario**, seleccione cualquier encabezado de columna para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+- En la cuadrícula **Inventario**, seleccione cualquier encabezado de columna para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este artículo.
 
 Para cada elemento coincidente, la cuadrícula **Inventario** proporciona las siguientes columnas de información de inventario.
 
@@ -64,7 +64,7 @@ Utilizar el panel **Filtros** para filtrar la lista de inventario disponible par
 > [!IMPORTANT]
 > La página **Lista disponible** se obtiene de una tabla detallada de inventario disponible que incluye todas las dimensiones disponibles. Sin embargo, la lista en esta página es un resumen. Por lo tanto, podría combinar filas de la tabla de origen agregando valores de acuerdo con las dimensiones que se muestran.
 >
-> Los filtros que defina en el panel **Filtros** se aplican a la tabla de origen, no a la lista agregada. Este comportamiento a veces puede producir resultados inesperados. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+> Los filtros que defina en el panel **Filtros** se aplican a la tabla de origen, no a la lista agregada. Este comportamiento a veces puede producir resultados inesperados. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este artículo.
 > 
 > Sin embargo, los [filtros que se proporcionan en la cuadrícula](#grid-filters) *sí* se aplican a la lista agregada. Estos filtros incluyen tanto el filtro rápido en la parte superior de la cuadrícula como el filtro para cada encabezado de columna.
 
@@ -75,7 +75,7 @@ Puede modificar el conjunto de filtros que está disponible en el panel **Filtro
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Seleccione qué dimensiones mostrar
 
-Las dimensiones le brindan más información sobre cada elemento de la lista de inventario disponible y le brindan más formas de ordenar y filtrar la lista. Las dimensiones que selecciona para mostrar también afectan cómo se agregan las filas en la página **Lista disponible**. Esta agregación, a su vez, puede afectar cómo se combinan las filas de las tablas de origen en los resultados que ve. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+Las dimensiones le brindan más información sobre cada elemento de la lista de inventario disponible y le brindan más formas de ordenar y filtrar la lista. Las dimensiones que selecciona para mostrar también afectan cómo se agregan las filas en la página **Lista disponible**. Esta agregación, a su vez, puede afectar cómo se combinan las filas de las tablas de origen en los resultados que ve. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este artículo.
 
 Para personalizar la selección de dimensiones de inventario que se muestra, siga estos pasos.
 
@@ -89,7 +89,7 @@ Para personalizar la selección de dimensiones de inventario que se muestra, sig
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrar en las resultados de la lista de inventario disponible
 
-Puede seleccionar cualquier encabezado de columna en la cuadrícula **Inventario**, para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este tema.
+Puede seleccionar cualquier encabezado de columna en la cuadrícula **Inventario**, para ordenar o filtrar por valores en esa columna. Un filtro rápido en la parte superior de la cuadrícula proporciona opciones de filtrado adicionales. Estos filtros se aplican a los resultados, no a las tablas de origen. Para obtener información sobre cómo este comportamiento puede afectar sus resultados, consulte [ejemplos](#examples) en este artículo.
 
 > [!NOTE]
 > No puede filtrar y ordenar por todas las columnas. La mayoría de las columnas de cantidad no incluyen controles de clasificación y filtrado, porque son campos calculados. La columna **En orden** es una excepción.

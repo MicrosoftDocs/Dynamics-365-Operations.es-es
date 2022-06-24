@@ -1,6 +1,6 @@
 ---
 title: Crear una plantilla de registro para facilitar la entrada de datos
-description: Este tema demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.
+description: Este artículo demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.
 author: margoc
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880207"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Crear una plantilla de registro para facilitar la entrada de datos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo. En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos. Este procedimiento usa la empresa de muestra USMF.
+Este artículo demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo. En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos. Este procedimiento usa la empresa de muestra USMF.
 
 1. En el panel de exploración, vaya a **Módulos > activos fijos > activos fijos > activos fijos**.
 2. Seleccione **Nuevo**.

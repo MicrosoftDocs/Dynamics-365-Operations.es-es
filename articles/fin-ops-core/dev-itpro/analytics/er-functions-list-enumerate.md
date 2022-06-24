@@ -1,6 +1,6 @@
 ---
-title: Función ENUMERATE de ER
-description: Este tema proporciona información general sobre cómo usar la función ENUMERATE de informes electrónicos (ER).
+title: Función de ENUMERATE de ER
+description: En este artículo se proporciona información sobre cómo usar la función ENUMERATE de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97677a52e04f03dd39f507b8f63c8daf32140c2321b0d64a8ba5685d2841be3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ba0ab6ed3c1625904665d87f56745d9810ac782
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891854"
 ---
 # <a name="enumerate-er-function"></a>Función de ENUMERATE de ER
 

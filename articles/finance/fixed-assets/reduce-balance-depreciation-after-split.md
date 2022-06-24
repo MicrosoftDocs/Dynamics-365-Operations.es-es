@@ -1,6 +1,6 @@
 ---
 title: Reducir la depreciación del saldo después de una división
-description: Este tema describe el método que se usa en Activos fijos para calcular la depreciación después de que un activo se haya dividido mediante el método de reducción de saldo.
+description: Este artículo describe el método que se usa en Activos fijos para calcular la depreciación después de que un activo se haya dividido mediante el método de reducción de saldo.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883311"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reducir la depreciación del saldo después de una división
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el método que se usa en Activos fijos para calcular la depreciación después de que un activo se haya dividido en forma de otro activo mediante el método de reducción de saldo. El año de depreciación que se configura en el libro de activos es el año fiscal. Para más información, consulte [Reducir la depreciación del saldo](reduce-balance-depreciation.md) y [Dividir un activo fijo](tasks/split-fixed-asset.md).
+Este artículo describe el método que se usa en Activos fijos para calcular la depreciación después de que un activo se haya dividido en forma de otro activo mediante el método de reducción de saldo. El año de depreciación que se configura en el libro de activos es el año fiscal. Para más información, consulte [Reducir la depreciación del saldo](reduce-balance-depreciation.md) y [Dividir un activo fijo](tasks/split-fixed-asset.md).
 
 Si divide un activo fijo durante un período fiscal posterior al período en el que se adquirió el activo, la depreciación del saldo reducido contabilizará el valor neto en los libros (NBV) del activo para el año anterior. También tendrá en cuenta las transacciones de ajuste de adquisición y depreciación que se generaron a partir de la transacción que dividió el activo. Este comportamiento supone que el activo se adquirió en un año fiscal y se dividió en un año fiscal posterior. El monto que debe depreciarse para el activo original después de la división refleja el NBV del activo antes de que se dividiera el activo y la transacción de ajuste de adquisición y depreciación que se registró para la división.
 

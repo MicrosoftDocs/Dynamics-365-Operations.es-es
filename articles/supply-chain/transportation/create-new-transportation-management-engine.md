@@ -1,6 +1,6 @@
 ---
 title: Crear un nuevo motor de administración de transporte
-description: Este tema describe cómo crear un nuevo motor de administración de transporte en Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo crear un nuevo motor de administración de transporte en Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857268"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Crear un nuevo motor de administración de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear un nuevo motor de administración de transporte en Dynamics 365 Supply Chain Management. 
+Este artículo describe cómo crear un nuevo motor de administración de transporte en Dynamics 365 Supply Chain Management. 
 
 Los motores de administración del transporte (TMS) definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte. Supply Chain Management proporciona varios tipos de motores diferentes que calculan diferentes parámetros, como tarifas, tiempos de tránsito y la cantidad de zonas que se cruzarán durante el tránsito. Este artículo explica cómo utilizar el entorno de desarrollo Microsoft Visual Studio junto con las herramientas de desarrollo de Supply Chain Management para crear e implementar un nuevo motor TMS, y luego cómo configurar el motor en Operaciones. Para obtener más información sobre los motores, consulte [Motores de gestión de transporte](transportation-management-engines.md).
 

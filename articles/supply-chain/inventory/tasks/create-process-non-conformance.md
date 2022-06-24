@@ -1,6 +1,6 @@
 ---
 title: Crear y procesar disconformidades
-description: Este tema describe cómo gestionar los casos de disconformidad, en función de un pedido de calidad existente.
+description: Este artículo describe cómo gestionar los casos de disconformidad, en función de un pedido de calidad existente.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901977"
 ---
 # <a name="create-and-process-nonconformances"></a>Crear y procesar disconformidades
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo gestionar los casos de disconformidad, en función de un pedido de calidad existente. Por lo general, la gestión de disconformidades la realiza un empleado de calidad. Como requisito previo, debe tener disponible un pedido de calidad. (Para obtener información sobre cómo crear un pedido de calidad, consulte [Inspeccionar la calidad de los productos](inspect-quality-goods.md)).
+Este artículo describe cómo gestionar los casos de disconformidad, en función de un pedido de calidad existente. Por lo general, la gestión de disconformidades la realiza un empleado de calidad. Como requisito previo, debe tener disponible un pedido de calidad. (Para obtener información sobre cómo crear un pedido de calidad, consulte [Inspeccionar la calidad de los productos](inspect-quality-goods.md)).
 
 Antes de que un usuario pueda procesar la aprobación de una disconformidad, se le debe asignar un trabajador en el campo **Persona** de la página **Usuarios**. Además, antes de que el usuario pueda utilizar las notas del documento, la opción **Habilitar el manejo de documentos** debe establecerse en *Sí* en sus opciones de usuario.
 

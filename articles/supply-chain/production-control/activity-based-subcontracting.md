@@ -1,6 +1,6 @@
 ---
 title: Subcontratación basada en actividad
-description: Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
+description: Este artículo describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890752"
 ---
 # <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
+Este artículo describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
 
 En Microsoft Dynamics 365 Supply Chain Management hay dos enfoques para subcontratar: pedidos de producción y lean manufacturing. En el método de lean manufacturing, el trabajo de subcontratación se modela como servicio relacionado con una actividad de un flujo de producción. Se han introducido un tipo especial de tipo de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales (L. MAT.). La contabilidad de costes del trabajo subcontratado está completamente integrada en la solución de la gestión de costes de la lean manufacturing.
 

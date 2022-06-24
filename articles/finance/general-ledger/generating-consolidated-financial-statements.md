@@ -1,6 +1,6 @@
 ---
 title: Generar informes financieros consolidados
-description: Este tema describe las distintas situaciones donde se pueden generar los informes financieros consolidados.
+description: Este artículo describe las distintas situaciones donde se pueden generar los informes financieros consolidados.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846810"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generar informes financieros consolidados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las distintas situaciones donde se pueden generar los informes financieros consolidados.
+Este artículo describe las distintas situaciones donde se pueden generar los informes financieros consolidados.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Consolidaciones de un solo nivel y varios niveles entre entidades jurídicas
 El método más sencillo para consolidar mediante un informe financiero es usar los organigramas para agregar datos de distintas empresas que tienen el mismo plan contable y los mismos períodos fiscales. A continuación se muestran los pasos de alto nivel para realizar consolidaciones mediante un organigrama.
@@ -153,7 +153,7 @@ La ilustración siguiente muestra las opciones de la definición de informe que 
 ![Opciones del número del periodo de definición del informe.](./media/options-report-definition-period-number.png "Opciones del número del periodo de definición del informe")
 
 ## <a name="business-unit-consolidations"></a>Consolidaciones de unidad de negocio
-Este tema se ha enfocado en el uso de definiciones y jerarquías organizativas del organigrama en el informe financiero para la consolidación. También puede usar el organigrama para crear informes de consolidación de unidad de negocio, como informes acerca de ventas u operaciones mundiales. Estos informes son un requisito común. Para crearlos, seleccione una empresa y una dimensión para cada unidad en la que desee realizar una consolidación. Por ejemplo, en la siguiente ilustración, la acumulación de la unidad de negocio se logra repitiendo cada empresa en la columna **Empresa** (columna A) e identificando un grupo de valores de dimensión de departamento por empresa en la columna **Dimensiones** (columna D).
+Este artículo se ha enfocado en el uso de definiciones y jerarquías organizativas del organigrama en el informe financiero para la consolidación. También puede usar el organigrama para crear informes de consolidación de unidad de negocio, como informes acerca de ventas u operaciones mundiales. Estos informes son un requisito común. Para crearlos, seleccione una empresa y una dimensión para cada unidad en la que desee realizar una consolidación. Por ejemplo, en la siguiente ilustración, la acumulación de la unidad de negocio se logra repitiendo cada empresa en la columna **Empresa** (columna A) e identificando un grupo de valores de dimensión de departamento por empresa en la columna **Dimensiones** (columna D).
 
 ![Informes de consolidaciones de unidad de negocio.](./media/business-unit-consolidation-reports.png "Informes de consolidaciones de unidad de negocio")
 
@@ -218,7 +218,7 @@ Para obtener los importes convertidos correctamente cuando se usan divisas, el i
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
+Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el artículo principal de este artículo [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener más información acerca de cómo especificar los detalles de consolidaciones en línea, consulte [Consolidaciones financieras en línea](./consolidate-online.md).
 

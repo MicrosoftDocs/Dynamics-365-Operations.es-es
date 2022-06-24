@@ -1,6 +1,6 @@
 ---
 title: Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
-description: En este tema se explica cómo utilizar informes electrónicos (ER) para generar documentos empresariales que tienen imágenes y formas incrustadas en los encabezados o pies de página.
+description: En este artículo se explica cómo utilizar informes electrónicos (ER) para generar documentos empresariales que tienen imágenes y formas incrustadas en los encabezados o pies de página.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854854"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
 
 [!include[banner](../includes/banner.md)]
 
-Este tema explica cómo un usuario con el rol de administrador del sistema o consultor funcional de informes electrónicos puede realizar estas tareas:
+Este artículo explica cómo un usuario con el rol de administrador del sistema o consultor funcional de informes electrónicos puede realizar estas tareas:
 
 - Configurar los parámetros para el marco de [informes electrónicos (ER)](general-electronic-reporting.md).
 - Importe [configuraciones](general-electronic-reporting.md#Configuration) de ER [proporcionadas](general-electronic-reporting.md#Provider) por Microsoft y se utilizan para generar [facturas de servicios](../../../finance/accounts-receivable/create-free-text-invoice-new.md), basadas en [plantilla](er-fillable-excel.md#excel-file-component) en formato de Microsoft Excel.
 - Cree una versión [personalizada (derivada)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) de una configuración de formato ER estándar proporcionada por Microsoft.
 - Modifique la configuración del formato ER personalizado para que genere un informe de factura de texto libre que tenga una imagen del logotipo de la empresa en el pie de página.
 
-Los procedimientos de este tema se pueden completar en la empresa **USMF**. No se requiere codificación. Antes de comenzar, debe descargar y guardar el archivo siguiente.
+Los procedimientos de este artículo se pueden completar en la empresa **USMF**. No se requiere codificación. Antes de comenzar, debe descargar y guardar el archivo siguiente.
 
 | Descripción        | Nombre de archivo |
 |--------------------|-----------|

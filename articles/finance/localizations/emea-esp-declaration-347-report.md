@@ -1,6 +1,6 @@
 ---
 title: Informe del Modelo 347
-description: Este tema proporciona información sobre cómo generar el informe del Modelo 347 que está disponible para las personas jurídicas que tienen su domicilio principal en España.
+description: Este artículo proporciona información sobre cómo generar el informe del Modelo 347 que está disponible para las personas jurídicas que tienen su domicilio principal en España.
 author: Anasyash
 ms.date: 07/27/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0f296cbc1cf3ddf77398114641e28fd5352f2d0118d0de98c25723197961f06b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0913d50747e662d729aaccc035da5acc1b1578f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906262"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]
@@ -104,7 +104,7 @@ La ficha **General** tiene los campos siguientes.
 | Tipo de presentación                  | Seleccione el tipo de medio usado para realizar el Modelo 347:<br>- Telemático<br>- CD-R<br>- Informe<br> El valor predeterminado es **Telemático**.                                                                                                                                                               |
 | Fecha de presentación                  | La fecha de generación del informe.                                                                                                                                                                                                                                                                          |
 | Notificado por                        | El identificador (Id.) del usuario que generó el informe.                                                                                                                                                                                                                                                       |
-| Teléfono                            | El número de teléfono de la persona de contacto. Este valor se transfiere desde la configuración que definió en la sección **Requisitos previos** anterior en este tema.                                                                                                                                               |
+| Teléfono                            | El número de teléfono de la persona de contacto. Este valor se transfiere desde la configuración que definió en la sección **Requisitos previos** anterior en este artículo.                                                                                                                                               |
 | Contacto                              | Especifique el nombre de la persona de contacto.                                                                                                                                                                                                                                                                           |
 | Número de documento de la declaración. | El número de documento del Modelo 347. Este número se completa a partir del campo **Número de documento de la declaración** del cuadro de diálogo **Modelo 347**.                                                                                                                                             |
 | Número declaración anterior        | El número de documento del Modelo 347 original. Este número se completa a partir del campo **Número de declaración anterior** del cuadro de diálogo **Modelo 347**.                                                                                                                                           |
@@ -151,7 +151,7 @@ La pestaña **Totales** muestra el número de operaciones y los importes totales
 14.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**.
 15.  Seleccione **Resultado \> Imprimir**.
 16.  En el cuadro de diálogo **Modelo 347**, en el campo **Asignación de formato**, seleccione el formato **Formato de informe del Modelo 347 (ES)** que descargó anteriormente.
-17.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**. Puede revisar el formato del informe en el ejemplo más adelante en este tema.
+17.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**. Puede revisar el formato del informe en el ejemplo más adelante en este artículo.
 
 ## <a name="generate-the-delta-report"></a>Generar el informe delta
 
@@ -162,7 +162,7 @@ Puede crear un nuevo Modelo 347 para el mismo período y usar el informe delta p
 3.  En el campo **Número de declaración anterior**, especifique el número de la declaración de la declaración original y haga clic en **Aceptar**.
 4.  Seleccione **Resultado \> Informe delta**.
 5.  En el cuadro de diálogo **Informe delta**, en el campo **Asignación de formato**, seleccione el formato **Formato de informe del Modelo 347 (ES)** que descargó anteriormente.
-6.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**. Puede revisar el formato del informe en el ejemplo más adelante en este tema.
+6.  En el campo **Nombre de archivo**, especifique el nombre del archivo y, después, seleccione **Aceptar**. Puede revisar el formato del informe en el ejemplo más adelante en este artículo.
 
 ## <a name="example"></a>Ejemplo
 

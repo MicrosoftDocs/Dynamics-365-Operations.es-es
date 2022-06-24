@@ -1,6 +1,6 @@
 ---
 title: No se puede determinar el código de impuestos
-description: Este tema explica cómo solucionar el error "No se puede determinar el código de impuestos" del servicio de Cálculo de impuestos.
+description: Este artículo explica cómo solucionar el error "No se puede determinar el código de impuestos" del servicio de Cálculo de impuestos.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877870"
 ---
 # <a name="tax-code-cannot-be-determined"></a>No se puede determinar el código de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica los pasos de solución de problemas que puede seguir si recibe el error "No se puede determinar el código de impuestos" en el servicio de Cálculo de impuestos.
+Este artículo explica los pasos de solución de problemas que puede seguir si recibe el error "No se puede determinar el código de impuestos" en el servicio de Cálculo de impuestos.
 
 ## <a name="symptom"></a>Síntoma
 
@@ -121,7 +121,7 @@ Siga estos pasos para solucionar el problema.
 
 ## <a name="mitigation"></a>Mitigación
 
-1. Recorra cada paso en la sección [Solucionar problemas](#troubleshoot) de este tema y corrija la configuración según sea necesario. Si el grupo de impuestos y el grupo de impuestos de artículos no se han determinado correctamente, consulte [No se encontró ningún resultado coincidente](tcs-troubleshooting-no-matching-result.md).
+1. Recorra cada paso en la sección [Solucionar problemas](#troubleshoot) de este artículo y corrija la configuración según sea necesario. Si el grupo de impuestos y el grupo de impuestos de artículos no se han determinado correctamente, consulte [No se encontró ningún resultado coincidente](tcs-troubleshooting-no-matching-result.md).
 2. Si no hay intersección para el grupo de impuestos y el grupo de impuestos de artículos, cree una nueva versión de la característica en RCS y corrija la configuración.
 
     - Vaya a **Características de impuestos** \> **Códigos y grupos de impuestos** > **Grupo de impuestos del artículo**.

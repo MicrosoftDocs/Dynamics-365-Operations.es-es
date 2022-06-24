@@ -1,6 +1,6 @@
 ---
 title: Plantillas de planificación presupuestaria para Excel
-description: Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
+description: Este artículo describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872510"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
+Este artículo describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
 
-Este tema muestra cómo crear plantillas de Excel que se usarán con planes presupuestarios mediante el conjunto de datos de demostración estándar y el inicio de sesión de usuario Admin. Para obtener más información sobre la planificación presupuestaria, consulte [Visión general de la planificación presupuestaria](budget-planning-overview-configuration.md). También puede seguir el tutorial [Planificación presupuestaria](budget-plan.md) para aprender los principios básicos de la configuración y el uso de módulos.
+Este artículo muestra cómo crear plantillas de Excel que se usarán con planes presupuestarios mediante el conjunto de datos de demostración estándar y el inicio de sesión de usuario Admin. Para obtener más información sobre la planificación presupuestaria, consulte [Visión general de la planificación presupuestaria](budget-planning-overview-configuration.md). También puede seguir el tutorial [Planificación presupuestaria](budget-plan.md) para aprender los principios básicos de la configuración y el uso de módulos.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Generación de una hoja de cálculo mediante el diseño del documento de plan presupuestario
 
-Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este tema, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. 
+Los documentos de plan presupuestario se pueden ver y editar mediante uno o varios diseños. Cada diseño puede tener una plantilla de documento de plan presupuestario asociada para ver y editar los datos del plan presupuestario en una hoja de cálculo de Excel. En este artículo, una plantilla de documento de plan presupuestario se generará empleando una configuración de diseño existente. 
 
 1. Abra la **Lista de planes presupuestarios** (**Gestión presupuestaria** &gt; **Planes presupuestarios**). 
 2. Haga clic en **Nuevo** para crear un documento de plan presupuestario. 

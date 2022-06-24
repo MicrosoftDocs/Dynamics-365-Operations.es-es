@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849369"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
@@ -89,7 +89,7 @@ En este ejemplo, el proceso del flujo de trabajo de las líneas de la solicitud 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configuración de flujos de trabajo para solicitudes de compra
 Para dirigir una solicitud de compra a revisión, debe configurar los procesos de flujo de trabajo de la solicitud de compra. El proceso de flujo de trabajo definido controlará la interacción entre el usuario que ha solicitado los artículos (el solicitante) y el revisor y el aprobador del flujo de trabajo. La ruta de la solicitud de compra depende de las condiciones que se especifican en la configuración del flujo de trabajo. Por ejemplo, estas condiciones determinan cuándo debe enrutarse la solicitud de compra, a qué usuario o rol se debe enrutar y las acciones que los usuarios pueden realizar.  
 
-En los ejemplos de este tema se muestra cómo se puede enrutar una solicitud de compra a través de un flujo de trabajo como un documento único o como líneas individuales de la solicitud de compra. También puede configurar un flujo de trabajo para solicitudes de compra que refleje la revisión de control interno de las solicitudes de compra definidas para su organización.  
+En los ejemplos de este artículo se muestra cómo se puede enrutar una solicitud de compra a través de un flujo de trabajo como un documento único o como líneas individuales de la solicitud de compra. También puede configurar un flujo de trabajo para solicitudes de compra que refleje la revisión de control interno de las solicitudes de compra definidas para su organización.  
 
 Los participantes o los revisores a los que una tarea está asignada en un flujo de trabajo pueden ser miembros de un grupo de usuarios concreto, usuarios que tengan un rol de seguridad concreto, usuarios asociados al remitente en una jerarquía directiva o usuarios con nombre o usuarios que tienen responsabilidades de gastos específicas.
 

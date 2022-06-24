@@ -1,6 +1,6 @@
 ---
-title: Mantener plantillas predeterminadas de dimensión financiera
-description: Este tema muestra cómo configurar las plantillas predeterminadas de dimensión financiera.
+title: Mantener plantillas predeterminadas de la dimensión financiera
+description: Este artículo muestra cómo configurar las plantillas predeterminadas de dimensión financiera.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08e795b44e552dbf049b460811a66741d9b6b96f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872423"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a>Mantener plantillas predeterminadas de dimensión financiera
+# <a name="maintain-financial-dimension-default-templates"></a>Mantener plantillas predeterminadas de la dimensión financiera
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema muestra cómo configurar las plantillas predeterminadas de dimensión financiera. Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.
+Este artículo muestra cómo configurar las plantillas predeterminadas de dimensión financiera. Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.
 
 1. En el Panel de exploración, vaya a **Módulos > Contabilidad general > Plan contable > Dimensiones > Plantillas predeterminadas de dimensión financiera**.
 2. Seleccione **Nuevo**.

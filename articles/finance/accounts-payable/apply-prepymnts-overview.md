@@ -1,6 +1,6 @@
 ---
 title: Aplicar anticipo automáticamente para facturas de proveedores
-description: Este tema describe la capacidad para aplicar automáticamente los prepagos a las facturas de los proveedores.
+description: Este artículo describe la capacidad para aplicar automáticamente los prepagos a las facturas de los proveedores.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900082"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Aplicar automáticamente para facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la capacidad para aplicar automáticamente los prepagos a las facturas de los proveedores. Se puede crear un pago por adelantado para una orden de compra como parte de un acuerdo de compra. Después de recibir una factura de proveedor, el anticipo se puede utilizar para liquidar los proveedores de la factura de proveedor. La nueva función permite al sistema utilizar automáticamente los números de orden de compra en una factura de proveedor para buscar los anticipos correspondientes cuando se importa la factura de proveedor.
+Este artículo describe la capacidad para aplicar automáticamente los prepagos a las facturas de los proveedores. Se puede crear un pago por adelantado para una orden de compra como parte de un acuerdo de compra. Después de recibir una factura de proveedor, el anticipo se puede utilizar para liquidar los proveedores de la factura de proveedor. La nueva función permite al sistema utilizar automáticamente los números de orden de compra en una factura de proveedor para buscar los anticipos correspondientes cuando se importa la factura de proveedor.
 
 Si se encuentran pagos anticipados y se pueden aplicar, se agregan líneas a las líneas de factura existentes para aplicar los anticipos. Las líneas de anticipo nunca se consideran durante el proceso de conciliación de facturas.
 

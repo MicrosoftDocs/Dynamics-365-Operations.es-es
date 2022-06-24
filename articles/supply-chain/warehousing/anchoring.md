@@ -1,6 +1,6 @@
 ---
 title: Anclaje
-description: Este tema explica cómo habilitar y usar el anclaje.
+description: Este artículo explica cómo habilitar y usar el anclaje.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903822"
 ---
 # <a name="anchoring"></a>Anclaje
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona detalles sobre el proceso de anclaje. Describe la configuración que se requiere y la lógica que se ejecuta cuando un trabajador del almacén cambia la ubicación de almacenamiento provisional o la de carga.
+Este artículo proporciona detalles sobre el proceso de anclaje. Describe la configuración que se requiere y la lógica que se ejecuta cuando un trabajador del almacén cambia la ubicación de almacenamiento provisional o la de carga.
 
 La administración de anclaje le permite invalidar la ubicación de carga o preparación. Todas las colocaciones abiertas se dirigirán a la nueva ubicación de almacenamiento provisional o de carga que especifique.
 
@@ -36,11 +36,11 @@ Puede configurar el anclaje para los elementos del menú de dispositivo móvil m
 > [!IMPORTANT]
 > La ubicación de las colocaciones abiertas posteriores se cambiará solo en las líneas de trabajo que se generen a partir de la misma línea de plantilla de trabajo. En otras palabras, el sistema anclará las líneas de colocación que se originan en la misma línea de plantilla de trabajo.
 
-Este tema proporciona un escenario que muestra cómo funciona el anclaje. Durante el escenario, creará un conjunto de pedidos de ventas y los enviará al almacén. Luego, anulará la ubicación de almacenamiento provisional sugerida y verificará que todo el trabajo de colocación restante se dirija a la nueva ubicación.
+Este artículo proporciona un escenario que muestra cómo funciona el anclaje. Durante el escenario, creará un conjunto de pedidos de ventas y los enviará al almacén. Luego, anulará la ubicación de almacenamiento provisional sugerida y verificará que todo el trabajo de colocación restante se dirija a la nueva ubicación.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Requisito previo del escenario: hacer que los datos de demostración estén disponibles
 
-El escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en *USMF* antes de empezar.
+El escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en *USMF* antes de empezar.
 
 ## <a name="scenario-setup"></a>Configuración de escenario
 

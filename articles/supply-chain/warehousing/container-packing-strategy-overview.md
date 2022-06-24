@@ -1,6 +1,6 @@
 ---
 title: Estrategias de embalaje de contenedores
-description: Este tema describe las diferencias entre las estrategias de embalaje de contenedores y proporciona ejemplos.
+description: Este artículo describe las diferencias entre las estrategias de embalaje de contenedores y proporciona ejemplos.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862377"
 ---
 # <a name="container-packing-strategies"></a>Estrategias de embalaje de contenedores
 
 [!include [banner](../includes/banner.md)]
 
-Una *estrategia de embalaje de contenedores* es una estrategia que puede utilizar para definir asignaciones de artículos entre contenedores. Este tema explica las diferencias entre las estrategias *Empaquetar en todos los contenedores abiertos* y *Empaquetar solo en el contenedor actual*.
+Una *estrategia de embalaje de contenedores* es una estrategia que puede utilizar para definir asignaciones de artículos entre contenedores. Este artículo explica las diferencias entre las estrategias *Empaquetar en todos los contenedores abiertos* y *Empaquetar solo en el contenedor actual*.
 
 - **Empaquetar en todos los contenedores abiertos** - El sistema debe verificar todos los contenedores abiertos que ya se hayan creado durante el ciclo de contenedorización, para asegurarse de que el artículo quepa en uno de ellos. Durante el embalaje, el sistema verifica cada artículo para determinar si cabe en alguno de los contenedores creados anteriormente. Si el artículo no cabe en un contenedor existente, el sistema crea un contenedor nuevo y continúa hasta que haya terminado de empaquetar todo el pedido.
 

@@ -1,6 +1,6 @@
 ---
 title: Contratar candidatos de trabajo
-description: Este tema describe cómo contratar candidatos en Dynamics 365 Human Resources.
+description: Este artículo describe cómo reclutar candidatos en Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879261"
 ---
 # <a name="recruit-job-candidates"></a>Contratar candidatos de trabajo
 
@@ -47,11 +47,12 @@ Si desea enviar solicitudes de contratación en la contratación de recursos hum
 
 Una vez que las características estén activadas, seleccione la funcionalidad con los siguientes pasos: 
 1. Vaya a **Recursos Humanos** > **Configuración** > **Parámetros de recursos humanos**.
-2. En la pestaña  **Contratación**, establezca el campo **Contratación deshabilitada** en **No**.
-3. En el menú desplegable **Experiencia de contratación**, seleccione **Contratación de recursos humanos**.   
+2. En la pestaña  **Contratación** , establezca el campo **Contratación habilitada** en **Sí**.
+3. En el menú desplegable **Experiencia de contratación**, seleccione **Contratación de recursos humanos**.  
+4. Haga clic en **Guardar**. 
 
 > [!Note] 
-> Una vez seleccionada la opción **Contratación de recursos humanos**, **Proyectos de contratación** (heredado) será de solo lectura. 
+> Una vez seleccionada la opción **Contratación de recursos humanos**, **Proyectos de contratación** (heredado) no estará disponible. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Agregar una ubicación de solicitud de contratación

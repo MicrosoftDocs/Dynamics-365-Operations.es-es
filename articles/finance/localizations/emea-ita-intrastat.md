@@ -1,6 +1,6 @@
 ---
 title: Intrastat italiano
-description: Este tema contiene información sobre los informes Intrastat en Italia.
+description: Este artículo contiene información sobre los informes Intrastat en Italia.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874374"
 ---
 # <a name="italian-intrastat"></a>Intrastat italiano
 
@@ -650,7 +650,7 @@ Siga estos pasos para configurar opciones específicas de italiano para que pued
 6. En la ficha desplegable **Valor estadístico**, establezca la opción **Imprimir y exportar datos estadísticos** a **Sí** si necesario. Esta configuración activa la transferencia de la sección estadística. La sección estadística consta de datos sobre pesos, unidades adicionales, valores estadísticos, plazos de entrega, cronogramas de entrega, modos de transporte y regiones de origen.
 
     > [!NOTE]
-    > Para una declaración trimestral, el informe de Intrastat no incluirá la sección estadística ni información sobre los plazos de entrega y los modos de transporte. Para obtener más información, consulte la tabla en la sección [Descripción general](#overview) de este tema.
+    > Para una declaración trimestral, el informe de Intrastat no incluirá la sección estadística ni información sobre los plazos de entrega y los modos de transporte. Para obtener más información, consulte la tabla en la sección [Descripción general](#overview) de este artículo.
 
 7. En la pestaña **Propiedades de país / región**, enumere todos los países o regiones con los que su organización hace negocios. Para cada país o región, establezca los siguientes campos:
 

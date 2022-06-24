@@ -1,6 +1,6 @@
 ---
 title: Ver informes financieros
-description: En este tema se describe cómo ver y explorar informes financieros en Microsoft Dynamics 365 Finance. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
+description: En este artículo se describe cómo ver y explorar informes financieros en Microsoft Dynamics 365 Finance. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fec130ce7b05a8e0b8182a63679cf7b20983f1d0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907903"
 ---
 # <a name="view-financial-reports"></a>Ver informes financieros
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo ver y explorar informes financieros. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
+En este artículo se describe cómo ver y explorar informes financieros. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 
 ## <a name="financial-reporting-overview"></a>Visión general de informes financieros
 

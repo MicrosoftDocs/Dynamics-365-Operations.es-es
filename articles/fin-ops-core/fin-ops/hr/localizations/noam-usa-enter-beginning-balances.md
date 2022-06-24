@@ -1,6 +1,6 @@
 ---
 title: Especificar saldos iniciales de nómina
-description: El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos.
+description: El artículo se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850029"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
 [!include [banner](../../includes/banner.md)]
 
-El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios que transfieran los datos para una nueva implementación de nóminas desde otro sistema. Para prepararse para especificar los saldos iniciales de nóminas, comprobamos la siguiente información:
+El artículo se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios que transfieran los datos para una nueva implementación de nóminas desde otro sistema. Para prepararse para especificar los saldos iniciales de nóminas, comprobamos la siguiente información:
 
 - Los registros de empleados se especificaron y están disponibles en el sistema
 - Los siguientes datos se configuraron y asignaron a los empleados:

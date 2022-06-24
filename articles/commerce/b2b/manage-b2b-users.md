@@ -1,6 +1,6 @@
 ---
 title: Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
-description: Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
+description: Este artículo describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en Commerce headquarters.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860304"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Administrar usuarios socios comerciales en sitios web de comercio electrónico B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en la sede de Commerce.
+Este artículo describe cómo agregar, eliminar y editar usuarios socios comerciales en sitios web de comercio electrónico de empresa a empresa (B2B) de Microsoft Dynamics 365 Commerce y en Commerce headquarters.
 
 > [!NOTE]
-> - El tema [Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md) es un requisito previo para este documento.
+> - El artículo [Administrar socios comerciales B2B utilizando jerarquías de clientes](partners-customer-hierarchies.md) es un requisito previo para este documento.
 > - Asegúrese de inicializar la entidad de tipos de documentos en la sede de Commerce abriendo el formulario **Tipos de documentos** en **Administración de la organización \> Gestión de documentos \> Tipos de documentos**.
 
 Los sitios web de comercio electrónico B2B requieren que las organizaciones se registren para convertirse en socios comerciales. Una vez que una organización envía los datos de registro a un sitio web de comercio electrónico B2B, la solicitud de registro pasa por un proceso de calificación. Si la organización logra calificarse, se incorpora como socio comercial.
@@ -121,7 +121,7 @@ Para incorporar socios comerciales y usuarios directamente en la sede central de
 
 ## <a name="additional-information"></a>Información adicional
 
-- Todos los trabajos que se mencionan en este tema pueden configurarse para ejecutarse según una programación en un formato por lotes. La expectativa es que los socios comerciales configuren los trabajos por lotes según sea necesario.
+- Todos los trabajos que se mencionan en este artículo pueden configurarse para ejecutarse según una programación en un formato por lotes. La expectativa es que los socios comerciales configuren los trabajos por lotes según sea necesario.
 - Actualmente, solo se puede designar un registro de usuario/cliente como usuario administrador, y ese rol solo se puede cambiar en la sede central de Commerce. No se ofrece funcionalidad de autoservicio que permita a los socios comerciales designar múltiples administradores o cambiar administradores de sitios web de comercio electrónico B2B.
 - Aunque se pueden definir límites de gasto para los usuarios, aún no se ha implementado el cumplimiento de los límites de gasto durante el proceso de entrada de pedidos.
 - Toda la lógica empresarial y la validación de la experiencia de un usuario en un sitio web de comercio electrónico B2B se basan en la configuración del registro del cliente que se asigna al usuario en la sede central de Commerce.

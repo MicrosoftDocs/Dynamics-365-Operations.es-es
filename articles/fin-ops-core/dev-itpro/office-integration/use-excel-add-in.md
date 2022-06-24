@@ -1,6 +1,6 @@
 ---
 title: Ver y actualizar datos de entidad con Excel
-description: Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics.
+description: Este artículo explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862166"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762664"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Este tema explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de Finance and Operations.
+Este artículo explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de Finance and Operations.
 
 Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma rápida y sencilla mediante el complemento de Excel. Este complemento necesita Microsoft Excel 2016 o posterior.
 

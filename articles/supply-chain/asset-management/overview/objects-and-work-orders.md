@@ -1,6 +1,6 @@
 ---
 title: Activos y órdenes de trabajo
-description: En este tema se describen los activos y las órdenes de trabajo en Administración de activos.
+description: En este artículo se describen los activos y las órdenes de trabajo en Administración de activos.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869702"
 ---
 # <a name="assets-and-work-orders"></a>Activos y órdenes de trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718116"
 
  
 
-En este tema se describen los activos y las órdenes de trabajo en Administración de activos. Los activos y las órdenes de trabajo son las partes centrales de Administración de activos. Un *activo* es una máquina o una pieza de la máquina que requiere mantenimiento y servicio continuos. Los activos se pueden crear en una estructura jerárquica y pueden estar relacionados con ubicaciones funcionales. Los trabajos de mantenimiento pueden planificarse en todos los niveles de la estructura de activos.
+En este artículo se describen los activos y las órdenes de trabajo en Administración de activos. Los activos y las órdenes de trabajo son las partes centrales de Administración de activos. Un *activo* es una máquina o una pieza de la máquina que requiere mantenimiento y servicio continuos. Los activos se pueden crear en una estructura jerárquica y pueden estar relacionados con ubicaciones funcionales. Los trabajos de mantenimiento pueden planificarse en todos los niveles de la estructura de activos.
 
 Los distintos datos, como la información de producto y la especificación del activo, así como los planes de mantenimiento necesarios, se configuran en cada activo. La ilustración siguiente muestra una visión general de los datos de activos y la afiliación de los activos con los tipos de trabajo. El texto rojo se usa para ejemplos que muestran herencia y dependencias.
 

@@ -1,6 +1,6 @@
 ---
 title: Crear ubicaciones técnicas
-description: En este tema se explica cómo crear una ubicación técnica en Administración de activos.
+description: En este artículo se explica cómo crear una ubicación técnica en Administración de activos.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869731"
 ---
 # <a name="create-functional-locations"></a>Crear ubicaciones técnicas
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767543"
 
  
 
-En este tema se explica cómo crear una ubicación técnica en Administración de activos.
+En este artículo se explica cómo crear una ubicación técnica en Administración de activos.
 
 Al crear una estructura de ubicación técnica tenga en cuenta que, una vez creada, no podrá moverla de la ubicación original. Esto significa que debe estudiar minuciosamente la estructura de sus ubicaciones técnicas antes de empezar a crearlas en Administración de activos. Si se equivoca al crear una ubicación técnica, puede eliminarla siempre que no se haya utilizado aún.
 

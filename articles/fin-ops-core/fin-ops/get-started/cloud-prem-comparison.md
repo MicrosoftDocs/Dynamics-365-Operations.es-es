@@ -1,6 +1,6 @@
 ---
-title: Comparación de las características en la nube y locales
-description: En este tema se muestran qué características se admiten en la nube y en local.
+title: Comparación de características locales y en la nube
+description: En este artículo se muestran qué características se admiten en la nube y en local.
 author: sericks007
 ms.date: 01/14/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4096089978032f150bf6d711711a948cf1d3232f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879786"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se muestra una comparación de las características disponibles en la nube frente a local para las siguientes aplicaciones:
+En este artículo se muestra una comparación de las características disponibles en la nube frente a local para las siguientes aplicaciones:
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)

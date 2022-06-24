@@ -1,6 +1,6 @@
 ---
 title: Cálculo de TDS en transacciones de empresas vinculadas
-description: Este tema describe el proceso que se utiliza para calcular los impuestos deducidos en el origen (TDS) en transacciones entre empresas vinculadas.
+description: Este artículo describe el proceso que se utiliza para calcular los impuestos deducidos en el origen (TDS) en transacciones entre empresas vinculadas.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888984"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>Cálculo de TDS en transacciones de empresas vinculadas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el proceso que se utiliza para calcular los impuestos deducidos en el origen (TDS) en transacciones entre empresas vinculadas.
+Este artículo describe el proceso que se utiliza para calcular los impuestos deducidos en el origen (TDS) en transacciones entre empresas vinculadas.
 
 Cuando se crea un pedido de compra o pedido de venta entre empresas vinculadas, el grupo de TDS predeterminado que se define para el cliente o proveedor se utiliza para calcular el importe de TDS. El importe de TDS se registra en las cuentas recuperables o de proveedor después de que se registre la factura.
 

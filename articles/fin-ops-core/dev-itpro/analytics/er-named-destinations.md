@@ -1,6 +1,6 @@
 ---
-title: Configurar de informes electrónicos específicos de registros de gestión de impresión
-description: En este tema se explica cómo configurar destinos específicos de registros de gestión de impresión para un formato de informes electrónicos (ER) que se ha configurado para generar documentos salientes.
+title: Configurar destinos de informes electrónicos específicos de registros de gestión de impresión
+description: En este artículo se explica cómo configurar destinos específicos de registros de gestión de impresión para un formato de informes electrónicos (ER) que se ha configurado para generar documentos salientes.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872724"
 ---
-# <a name="configure-print-management-record-specific-er-destinations"></a>Configurar de informes electrónicos específicos de registros de gestión de impresión
+# <a name="configure-print-management-record-specific-er-destinations"></a>Configurar destinos de informes electrónicos específicos de registros de gestión de impresión
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo un usuario que tenga el rol de Administrador del sistema o Funcionario de clientes puede realizar las siguientes tareas:
+En este artículo se explica cómo un usuario que tenga el rol de Administrador del sistema o Funcionario de clientes puede realizar las siguientes tareas:
 
 - Configurar destinos de [informes electrónicos (ER)](general-electronic-reporting.md) con nombre para una solución de ER que genera facturas de servicios.
 - Asignar un destino de ER a un solo registro de [gestión de impresión](document-reporting-services.md).

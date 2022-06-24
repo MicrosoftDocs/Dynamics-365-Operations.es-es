@@ -1,6 +1,6 @@
 ---
 title: P+F de gestión de costes de inventario
-description: Este tema responde a algunas preguntas frecuentes acerca del sistema de gestión de costes de inventario en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo responde a algunas preguntas frecuentes acerca del sistema de gestión de costes de inventario en Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850855"
 ---
 # <a name="inventory-costing-faq"></a>P+F de gestión de costes de inventario
 
 [!include [banner](../includes/banner.md)]
 
-Este tema responde a algunas preguntas frecuentes acerca del sistema de gestión de costes de inventario en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo responde a algunas preguntas frecuentes acerca del sistema de gestión de costes de inventario en Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Cierre de inventario, ajustes y recálculo
 
@@ -359,7 +359,7 @@ Recomendamos que controle y corrija con frecuencia el inventario negativo cuando
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>¿Tengo que crear un artículo nuevo si mi inventario se ha vuelto negativo y uso el promedio móvil?
 
-No Si su organización permite que el inventario se vuelva físicamente negativo y está usando el promedio móvil como modelo de inventario, el sistema usará la secuencia de costes alternativos que se asigna en la página **Parámetros de administración de inventario y almacén** para determinar cómo se asignará el coste a sus emisiones. En general, le recomendamos que evite permitir que su inventario se vuelva físicamente negativo. Para obtener más información, consulte otras preguntas en la sección [Inventario negativo](#negative-inventory) de este tema.
+No Si su organización permite que el inventario se vuelva físicamente negativo y está usando el promedio móvil como modelo de inventario, el sistema usará la secuencia de costes alternativos que se asigna en la página **Parámetros de administración de inventario y almacén** para determinar cómo se asignará el coste a sus emisiones. En general, le recomendamos que evite permitir que su inventario se vuelva físicamente negativo. Para obtener más información, consulte otras preguntas en la sección [Inventario negativo](#negative-inventory) de este artículo.
 
 ## <a name="not-stocked-products"></a>Productos no mantenidos en existencias
 
@@ -433,7 +433,7 @@ Cuando existe una diferencia de precio entre el registro de una actualización f
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Cuando uso el promedio móvil, ¿qué sucede si hay una emisión antes de la recepción?
 
-Por lo general, puede haber un problema antes de la recepción, ya sea porque permite un inventario físico negativo para el grupo de modelos de artículos o porque el problema proviene de antes. Para obtener más información, consulte la sección [Inventario negativo](#negative-inventory) de este tema.
+Por lo general, puede haber un problema antes de la recepción, ya sea porque permite un inventario físico negativo para el grupo de modelos de artículos o porque el problema proviene de antes. Para obtener más información, consulte la sección [Inventario negativo](#negative-inventory) de este artículo.
 
 Si está retrocediendo transacciones, le recomendamos que considere detenidamente su proceso comercial y sus operaciones para determinar si hay alguna manera de evitar este escenario. Si retrocede una transacción para un artículo que utiliza un promedio móvil, el sistema asignará el promedio móvil actual a la transacción. Las emisiones posteriores no se ajustan. Para obtener más información sobre el promedio móvil con transacciones retrocedidas, consulte [Media móvil](moving-average.md).
 

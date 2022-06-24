@@ -1,6 +1,6 @@
 ---
 title: Incorporación de proveedores
-description: En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
+description: En este artículo se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862609"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 

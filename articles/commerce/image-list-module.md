@@ -1,6 +1,6 @@
 ---
 title: Módulo de lista de imágenes
-description: En este tema se tratan los módulos de lista de imágenes y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este artículo se tratan los módulos de lista de imágenes y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 8e47c9806c21de24f0e519d0132374d2e1ff2bbf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892809"
 ---
 # <a name="image-list-module"></a>Módulo de lista de imágenes
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de lista de imágenes y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de lista de imágenes y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 El módulo de lista de imágenes se puede utilizar para agregar fácilmente una colección (matriz) de imágenes a las páginas del sitio. Cada imagen de la matriz se puede configurar con texto de párrafo y URL de enlace. El módulo de lista de imágenes es más adecuado para mostrar logotipos de marcas o una lista que incluye logotipos.
 
