@@ -1,6 +1,6 @@
 ---
 title: Habilitar la gestión del modo de entrega coherente en los canales de comercio electrónico
-description: Este tema describe cómo habilitar el manejo del modo de entrega coherente para abordar posibles problemas relacionados con los flujos de cargos en los canales de comercio electrónico de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo habilitar el manejo del modo de entrega coherente para abordar posibles problemas relacionados con los flujos de cargos en los canales de comercio electrónico de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885594"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Habilitar la gestión del modo de entrega coherente en los canales de comercio electrónico 
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar el manejo del modo de entrega coherente para abordar posibles problemas relacionados con los flujos de cargos en los canales de comercio electrónico de Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo habilitar el manejo del modo de entrega coherente para abordar posibles problemas relacionados con los flujos de cargos en los canales de comercio electrónico de Microsoft Dynamics 365 Commerce.
 
 En Dynamics 365 Commerce, los cargos de nivel de encabezado no prorrateados no se aplican de forma predeterminada en los canales de comercio electrónico. Este comportamiento podría causar uno o ambos de los siguientes problemas en los canales de comercio electrónico:
 

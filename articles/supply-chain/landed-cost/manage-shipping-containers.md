@@ -1,6 +1,6 @@
 ---
 title: Gestionar contenedores de envío
-description: Este tema describe cómo trabajar con contenedores de envío. Los contenedores de envío se utilizan para agrupar mercancías que se agrupan físicamente. También se utilizan en los casos en que los costos deben compartirse solo entre esos bienes, generalmente porque están físicamente juntos.
+description: Este artículo describe cómo trabajar con contenedores de envío. Los contenedores de envío se utilizan para agrupar mercancías que se agrupan físicamente. También se utilizan en los casos en que los costos deben compartirse solo entre esos bienes, generalmente porque están físicamente juntos.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906164"
 ---
 # <a name="manage-shipping-containers"></a>Gestionar contenedores de envío
 
@@ -142,7 +142,7 @@ Para abrir la vista **Líneas**, abra un contenedor de envío y luego seleccione
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Información sobre la ficha desplegable Contenedor de envío
 
-La ficha desplegable **Contenedor de envío** en la vista **Líneas** muestra información sobre la publicación. La mayor parte de esta información también aparece en la vista **Encabezamiento**, como se describió anteriormente en este tema.
+La ficha desplegable **Contenedor de envío** en la vista **Líneas** muestra información sobre la publicación. La mayor parte de esta información también aparece en la vista **Encabezamiento**, como se describió anteriormente en este artículo.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Información y botones en la ficha desplegable Líneas
 

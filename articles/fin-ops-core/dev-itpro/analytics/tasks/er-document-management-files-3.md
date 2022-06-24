@@ -1,6 +1,6 @@
 ---
 title: 'Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 3: Creación del formato)'
-description: Este tema describe cómo configurar un formato de informes electrónicos para utilizar archivos de administración de documentos en la salida de informes electrónicos. (Parte 3)
+description: Este artículo describe cómo configurar un formato de informes electrónicos para utilizar archivos de administración de documentos en la salida de informes electrónicos. (Parte 3)
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cb052e2895cd0eb7f5c3bea9f33d988ef54dfb11e2e31c4212706b7fdaada79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6957b314f8120f3cd240336f93dd6fbb43132759
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908337"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 3: Creación del formato)
 

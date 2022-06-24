@@ -1,6 +1,6 @@
 ---
 title: Información general de la administración de características
-description: Este tema describe la función de Administración de características y cómo puede utilizarla.
+description: Este artículo describe la función de Administración de características y cómo puede utilizarla.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850071"
 ---
 # <a name="feature-management-overview"></a>Información general de la administración de características
 
@@ -41,7 +41,7 @@ La lista de características incluye la información siguiente:
 - **Estado** - Un símbolo indica si una característica está activada (marca de verificación), no está activada (en blanco), se ha programado para ser activada (reloj), es obligatoria (candado), requiere atención antes de activarla (símbolo de advertencia) o no se puede activar (X). El valor que se muestra se usa para todas las entidades jurídicas. Tenga en cuenta que incluso cuando se ha activado, una característica aún se controla mediante la seguridad. Por lo tanto, la característica sólo estará disponible para los usuarios que tengan acceso a ella, en función de su rol de seguridad. También estará disponible solo en las entidades jurídicas a las que tiene acceso el usuario.
 - **Fecha de habilitación** - La fecha en que la característica se ha activado o está programado que lo haga.
 - **Característica agregada** - La fecha en que la característica se ha agregado al entorno. Esta fecha se introduce automáticamente durante la actualización del entorno durante los ciclos de lanzamiento mensuales.
-- **Estado de la característica** - El estado actual del ciclo de vida de la característica: **Vista previa**, **Publicada** (se muestra en blanco), **Activada por defecto** y **Obligatoria**. Los estados se tratan con más detalles más adelante en este tema. 
+- **Estado de la característica** - El estado actual del ciclo de vida de la característica: **Vista previa**, **Publicada** (se muestra en blanco), **Activada por defecto** y **Obligatoria**. Los estados se tratan con más detalles más adelante en este artículo. 
 - **Módulo** - El módulo afectado por la nueva característica.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ La columna **Estado de la función** de estas funciones está en blanco. Las fun
 
 ### <a name="on-by-default-features-optional"></a>Características activadas por defecto (opcional)
 
-Funciones que se actualizan a **Activada por defecto** están activadas de forma predeterminada, pero se pueden desactivar. Después de que las funciones que se pueden deshabilitar hayan estado en el estado **Publicado** durante al menos seis meses, se espera que se trasladen a este estado en la próxima versión importante. Se espera que las aracterísticas que hacen la transición a **Activada por defecto** se comuniquen en el tema [Novedades](../whats-new-changed.md) para el lanzamiento. La actualización la inicia el equipo de producto propietario.
+Funciones que se actualizan a **Activada por defecto** están activadas de forma predeterminada, pero se pueden desactivar. Después de que las funciones que se pueden deshabilitar hayan estado en el estado **Publicado** durante al menos seis meses, se espera que se trasladen a este estado en la próxima versión importante. Se espera que las aracterísticas que hacen la transición a **Activada por defecto** se comuniquen en el artículo [Novedades](../whats-new-changed.md) para el lanzamiento. La actualización la inicia el equipo de producto propietario.
 
 > [!NOTE]
 > Debido a que estas funciones se habilitarán automáticamente, es importante que determine si su organización está lista para adoptar estas funciones o si se requiere más tiempo. Si se requiere más tiempo, puede que sea necesario deshabilitar temporalmente estas funciones. Tenga en cuenta que la transición de una función a **Activado de forma predeterminada** se realiza normalmente en la versión principal antes de que la función esté destinada a convertirse en **Obligatoria**. En ese momento, no tendrá la opción de deshabilitar la función. 

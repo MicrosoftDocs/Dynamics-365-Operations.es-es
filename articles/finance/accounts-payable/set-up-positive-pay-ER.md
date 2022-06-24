@@ -1,6 +1,6 @@
 ---
 title: Configurar y generar archivos de pago positivos mediante el uso de Informes electrónicos
-description: Este tema explica cómo configurar un pago positivo mediante el uso de Informes electrónicos.
+description: Este artículo explica cómo configurar un pago positivo mediante el uso de Informes electrónicos.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878229"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Configurar archivos de pago positivos mediante el uso de Informes electrónicos
 
-Este tema explica cómo configurar un pago positivo y generar archivos de pago positivo usando los informes electrónicos.
+Este artículo explica cómo configurar un pago positivo y generar archivos de pago positivo usando los informes electrónicos.
 
 > [!NOTE] 
 > Antes de usar la función **Generar archivo de pago positivo bancario**, primero deberá actualizar la lista de entidades.

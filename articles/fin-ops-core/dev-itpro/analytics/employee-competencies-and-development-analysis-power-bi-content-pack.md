@@ -1,6 +1,6 @@
 ---
 title: Contenido de competencias y desarrollo de empleados de Power BI
-description: Este tema describe el contenido en Power BI de Desarrollo y competencias de empleados.
+description: Este artículo describe el contenido en Power BI de Desarrollo y competencias de empleados.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 572f6bcfa202995d90080e1a31476122f7ec23d71214d5ff0dd44ed919859c57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851027"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de competencias y desarrollo de empleados de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Power BI de Desarrollo y competencias de empleados. 
+Este artículo describe el contenido en Power BI de Desarrollo y competencias de empleados. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
 Tras conectar el paquete de contenido con sus datos, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, puede aprender más de la aplicación en [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.

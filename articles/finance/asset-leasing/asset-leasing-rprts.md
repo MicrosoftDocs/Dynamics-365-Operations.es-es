@@ -1,6 +1,6 @@
 ---
 title: Informes de arrendamiento de activos
-description: Este tema enumera y describe brevemente los informes que están disponibles en Arrendamiento de activos.
+description: Este artículo enumera y describe brevemente los informes que están disponibles en Arrendamiento de activos.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856723"
 ---
 # <a name="asset-leasing-reports"></a>Informes de arrendamiento de activos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema enumera y describe brevemente los informes que están disponibles en Arrendamiento de activos. La mayoría de los informes se muestran al completar estos pasos o pasos que son muy similares, como se indica. 
+Este artículo enumera y describe brevemente los informes que están disponibles en Arrendamiento de activos. La mayoría de los informes se muestran al completar estos pasos o pasos que son muy similares, como se indica. 
 
 - Para ver la mayoría de los informes de arrendamiento de activos, vaya a **Arrendamiento de activos > Consultas e informes > Informes de arrendamiento** y luego seleccione un informe para verlo. Para los informes que requieren una ruta de selección diferente, los pasos para abrir el informe se incluyen con la descripción de ese informe. 
 - Cuando selecciona un informe para imprimir, se abre una página de parámetros que le permite filtrar la información que se incluye en el informe. Introduzca los criterios de filtrado y luego seleccione **Aceptar** para generar el informe. El informe generado mostrará información que se encuentra dentro de los filtros que especificó.

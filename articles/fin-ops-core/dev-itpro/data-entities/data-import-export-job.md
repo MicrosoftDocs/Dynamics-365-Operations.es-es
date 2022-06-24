@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860175"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644472"
 Para crear y administrar la importación y exportación de datos de trabajos, debe usar el espacio de trabajo **Gestión de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
 > [!NOTE]
-> Este tema asumen que está familiarizado con las [entidades de datos](data-entities.md).
+> Este artículo asumen que está familiarizado con las [entidades de datos](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Proceso de exportación e importación de datos
 Aquí tiene los pasos que debe realizar para importar o exportar datos.
@@ -48,7 +48,7 @@ Aquí tiene los pasos que debe realizar para importar o exportar datos.
 5. Confirme que el trabajo se ejecutó del modo esperado; para ello, consulte el historial del trabajo.
 6. Limpie las tablas de almacenamiento provisional.
 
-En las secciones restantes de este tema se proporcionan más detalles acerca de cada paso del proceso.
+En las secciones restantes de este artículo se proporcionan más detalles acerca de cada paso del proceso.
 
 > [!NOTE]
 > Para actualizar el formulario de importación y exportación de datos para ver el último progreso, utilice el icono de actualización del formulario. No se recomienda la actualización del nivel del explorador porque interrumpirá cualquier trabajo de importación o exportación que no se ejecute en lote.

@@ -1,6 +1,6 @@
 ---
 title: Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
-description: Este tema proporciona información sobre la función que permite que las unidades de báscula ejecuten procesos seleccionados de la carga de trabajo de administración de su almacén.
+description: Este artículo proporciona información sobre la función que permite que las unidades de báscula ejecuten procesos seleccionados de la carga de trabajo de administración de su almacén.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893508"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> No todas las funciones comerciales de gestión de almacenes son totalmente compatibles con los almacenes que ejecutan una carga de trabajo en una unidad de escalado. Asegúrese de utilizar solo los procesos que este tema describe explícitamente como compatibles.
+> No todas las funciones comerciales de gestión de almacenes son totalmente compatibles con los almacenes que ejecutan una carga de trabajo en una unidad de escalado. Asegúrese de utilizar solo los procesos que este artículo describe explícitamente como compatibles.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Ejecución de almacén en unidades de escala
 
@@ -184,7 +184,7 @@ Actualmente, no se admite ningún otro tipo de procesamiento de documentos de or
 >
 > Se requieren algunos pasos adicionales para configurar la aplicación móvil de Warehouse Management en una unidad de escala de borde o en la nube. Para más información, vea [Configurar la aplicación móvil Warehouse Management para unidades de escalado en la nube y en el perímetro](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Cuando ejecuta una carga de trabajo en una unidad de escalado, no puede ejecutar procesos no admitidos para ese almacén específico en el concentrador. Las tablas que se proporcionan más adelante en este tema documentan las capacidades admitidas.
+> Cuando ejecuta una carga de trabajo en una unidad de escalado, no puede ejecutar procesos no admitidos para ese almacén específico en el concentrador. Las tablas que se proporcionan más adelante en este artículo documentan las capacidades admitidas.
 >
 > Los tipos de trabajo de almacén seleccionados se pueden crear tanto en el concentrados como en las unidades de escalado, pero solo se pueden mantener en el concentrador o la unidad de escalado propietarios (la implementación que creó los datos).
 >

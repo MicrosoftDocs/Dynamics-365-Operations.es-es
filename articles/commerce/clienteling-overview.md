@@ -1,6 +1,6 @@
 ---
-title: Visión general de clienteling
-description: En este tema se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
+title: Información general de relación con los clientes
+description: En este artículo se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885620"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -81,7 +81,7 @@ Para activar la funcionalidad de clienteling en su entorno, siga estos pasos.
     - Establezca el orden de visualización de estos atributos. Este orden de visualización determina qué atributos se deben mostrar en la tarjeta de cliente del libro de clientes. Un orden de visualización de 1 se considera más alto que un orden de visualización de 2. Por lo tanto, el atributo que tiene un orden de visualización de 1 se mostrará antes que el atributo que tenga una orden de visualización de 2.
 
     > [!NOTE]
-    > Puede hacer que Customer Insights esté disponible desde la misma página. Sin embargo, un identificador y un secreto de la aplicación de Azure se debe crear, por motivos de autenticación. (Para obtener información sobre los requisitos, consulte la sección [Activar la integración de Customer Insights con Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) más adelante en este tema). Si Customer Insights está activado y selecciona una o más medidas que se deben mostrar en la tarjeta de cliente, estas medidas se mostrarán primero. A continuación, los grupos de atributos del libro de clientes se mostrarán, según el orden de visualización. Por ejemplo, si selecciona dos medidas de Customer Insights, dichas dos medidas y un atributo del libro de clientes se mostrarán en la tarjeta del cliente. (El atributo de libro de clientes que se muestra será el atributo que tenga el orden de visualización más alto.)
+    > Puede hacer que Customer Insights esté disponible desde la misma página. Sin embargo, un identificador y un secreto de la aplicación de Azure se debe crear, por motivos de autenticación. (Para obtener información sobre los requisitos, consulte la sección [Activar la integración de Customer Insights con Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) más adelante en este artículo). Si Customer Insights está activado y selecciona una o más medidas que se deben mostrar en la tarjeta de cliente, estas medidas se mostrarán primero. A continuación, los grupos de atributos del libro de clientes se mostrarán, según el orden de visualización. Por ejemplo, si selecciona dos medidas de Customer Insights, dichas dos medidas y un atributo del libro de clientes se mostrarán en la tarjeta del cliente. (El atributo de libro de clientes que se muestra será el atributo que tenga el orden de visualización más alto.)
 
 6. En la página **Parámetros de Commerce**, en la pestaña **Clienteling**, en el campo **Grupo de atributos del libro de clientes**, seleccione el grupo de atributos que acaba de crear.
 

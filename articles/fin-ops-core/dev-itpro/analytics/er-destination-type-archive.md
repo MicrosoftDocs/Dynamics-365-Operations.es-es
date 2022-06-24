@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER de archivo
-description: Este tema proporciona información sobre cómo configurar un destino de archivo para cada componente FOLDER o FILE de un informe electrónico (ER).
+description: Este artículo proporciona información sobre cómo configurar un destino de archivo para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
 ms.date: 11/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e2566fc5115df8b47277fc6b6d7f4698cea0a00bea83bcb17e9d7a9e9b765b65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 790b96f300ad1a531fa3b65b1ad71fd158d4a4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845697"
 ---
 # <a name="archive-er-destination-type"></a>Tipo de destino de ER de archivo
 

@@ -1,6 +1,6 @@
 ---
 title: Módulo de vista rápida
-description: En este tema se tratan los módulos de vista rápida y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este artículo se tratan los módulos de vista rápida y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9066357fda4f5d91c547622ac64d8c4eef253ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847584"
 ---
 # <a name="quick-view-module"></a>Módulo de vista rápida
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de vista rápida y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de vista rápida y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 El módulo de vista rápida permite a los usuarios ver rápidamente la información del producto cuando buscan productos en una página de lista, y agregar uno o más productos al carro desde la página de lista, sin tener que ir a la página de detalles del producto (PDP). El módulo de vista rápida proporciona una descripción general de la información del producto que los usuarios necesitan para tomar la decisión de "agregar al carrito". También proporciona un vínculo a la PDP, para que los usuarios puedan ver detalles adicionales del producto y opciones de compra.
 

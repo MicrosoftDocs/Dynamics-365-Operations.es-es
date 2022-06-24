@@ -1,6 +1,6 @@
 ---
 title: Contenido de formación organizativa de Power BI
-description: Este tema describe el contenido de Finance and Operations - Formación organizativa de Power BI.
+description: En este artículo se describe finanzas y operaciones, contenido de Power BI sobre formación organizativa.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892432"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenido de formación organizativa de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de Finance and Operations - Formación organizativa de Power BI.
+En este artículo se describe finanzas y operaciones, contenido de Power BI sobre formación organizativa.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
 Tras conectar el paquete de contenido con sus datos, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, puede aprender más de la aplicación en [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.

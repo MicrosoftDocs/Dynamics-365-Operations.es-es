@@ -1,6 +1,6 @@
 ---
 title: Libro mayor integrado
-description: Este tema describe la integración de datos del libro mayor entre Finance and Operations y otras aplicaciones de Dynamics 365 mediante Dataverse.
+description: Este artículo describe la integración de datos del libro mayor entre finanzas y operaciones y otras aplicaciones de Dynamics 365 mediante Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847200"
 ---
 # <a name="integrated-ledger"></a>Libro mayor integrado
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063656"
 
 
 
-En una aplicación empresarial, los datos de contabilidad definen la configuración básica acerca de cómo una empresa hace negocios. Por ejemplo, los datos de contabilidad describen el ejercicio que la empresa sigue, las divisas con las que hace transacciones y las cuentas que utiliza. Este tema describe la integración de estos datos financieros básicos.
+En una aplicación empresarial, los datos de contabilidad definen la configuración básica acerca de cómo una empresa hace negocios. Por ejemplo, los datos de contabilidad describen el ejercicio que la empresa sigue, las divisas con las que hace transacciones y las cuentas que utiliza. Este artículo describe la integración de estos datos financieros básicos.
 
 ## <a name="templates"></a>Plantillas
 

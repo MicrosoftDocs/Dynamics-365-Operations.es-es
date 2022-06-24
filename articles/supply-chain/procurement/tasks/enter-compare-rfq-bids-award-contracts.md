@@ -1,6 +1,6 @@
 ---
 title: Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
-description: Este tema explic a cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores.
+description: Este artículo explica cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893392"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Especificar y comparar ofertas de la solicitud de presupuesto y conceder contratos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explic a cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores. Puede utilizar este procedimiento en la empresa de datos de demostración **USMF**.
+Este artículo explica cómo especificar respuestas a una solicitud de presupuesto (RFQ por sus siglas en inglés), puntuar y comparar ofertas y, a continuación, conceder el contrato a uno de los proveedores. Puede utilizar este procedimiento en la empresa de datos de demostración **USMF**.
 
 Antes de empezar este procedimiento, debe tener una solicitud de presupuesto con dos líneas y que se haya enviado al menos a dos proveedores. Para crear la solicitud de presupuesto, complete el procedimiento [Crear una solicitud de presupuesto](create-request-quotation.md). Es necesario haber configurado criterios de puntuación para poder completar este procedimiento.
 

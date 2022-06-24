@@ -1,6 +1,6 @@
 ---
-title: Visión general de la gestión de documentos empresariales
-description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
+title: Información general de la gestión de documentos empresariales
+description: Este artículo proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903628"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -50,7 +50,7 @@ Para ver una lista completa de todos los informes previstos para la versión de 
 
 Más informes estarán disponibles en versiones futuras. Las notificaciones especiales sobre informes adicionales se enviarán por separado. Para saber cómo revisar la lista de informes disponibles actualmente, consulte la siguiente sección [Lista de configuraciones de informes electrónicos que se han publicado en Finance para admitir documentos empresariales configurables](#list-of-configurations-cbd).
 
-Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
+Para obtener más información acerca de esta característica, complete el ejemplo de este artículo.
 
 ## <a name="configure-er-parameters"></a>Configurar los parámetros de ER
 
@@ -231,7 +231,7 @@ Los usuarios empresariales pueden tener acceso a las plantillas de documentos em
 - Usuarios asignados al rol de **Administrador del sistema**.
 - Usuarios que están asignados a cualquier rol configurado para ejercer el derecho, **Administrar plantillas de documentos empresariales** (nombre AOT **ERBDManageTemplates**).
 
-Use el procedimiento siguiente para editar plantillas de facturas de servicios en el espacio de trabajo de gestión de documentos empresariales. Para completar este procedimiento, debe haber completado todos los procedimientos anteriores en este tema.
+Use el procedimiento siguiente para editar plantillas de facturas de servicios en el espacio de trabajo de gestión de documentos empresariales. Para completar este procedimiento, debe haber completado todos los procedimientos anteriores en este artículo.
 
 1. Inicie sesión como usuario con acceso al espacio de trabajo de administración de documentos empresariales.
 2. Abra el espacio de trabajo de la gestión de documentos empresariales.

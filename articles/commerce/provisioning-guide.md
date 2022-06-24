@@ -1,6 +1,6 @@
 ---
 title: Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
-description: En este tema se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
+description: En este artículo se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 12/17/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 52a263d1ab833eb688b1049cd4e8c584e8c9a94d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868918"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
+En este artículo se explica cómo aprovisionar un entorno de evaluación de Microsoft Dynamics 365 Commerce.
 
-Antes de comenzar, le recomendamos que lea rápidamente este tema para tener una idea de lo que requiere el proceso.
+Antes de comenzar, le recomendamos que lea rápidamente este artículo para tener una idea de lo que requiere el proceso.
 
 > [!NOTE]
 > Los entornos de evaluación de Commerce no suelen estar disponibles y se conceden a socios y clientes por solicitud. Para obtener más información, póngase en contacto con su partner de Microsoft.
 
-Para aprovisionar correctamente un entorno de evaluación de Commerce, debe crear un proyecto que tenga un nombre y tipo de producto específicos. El entorno y Commerce Scale Unit (CSU) también tienen algunos parámetros específicos que necesita usar posteriormente cuando prevea el aprovisionamiento de comercio electrónico. Las instrucciones de este tema describen todos los pasos que son necesarios para completar el aprovisionamiento y los parámetros que debe usar.
+Para aprovisionar correctamente un entorno de evaluación de Commerce, debe crear un proyecto que tenga un nombre y tipo de producto específicos. El entorno y Commerce Scale Unit (CSU) también tienen algunos parámetros específicos que necesita usar posteriormente cuando prevea el aprovisionamiento de comercio electrónico. Las instrucciones de este artículo describen todos los pasos que son necesarios para completar el aprovisionamiento y los parámetros que debe usar.
 
 Tras el aprovisionamiento correcto del entorno de evaluación de Commerce, debe completar algunos pasos posteriores al aprovisionamiento a fin de prepararse para usarlo. Algunos pasos son opcionales, en función de los aspectos del sistema que desee evaluar. Siempre puede completar los pasos opcionales más adelante.
 

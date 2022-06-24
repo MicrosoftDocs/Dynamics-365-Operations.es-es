@@ -1,6 +1,6 @@
 ---
 title: Administración de la calidad para procesos de almacén
-description: Este tema proporciona información acerca de la característica de gestión de calidad para los procesos de almacén. Esta característica amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante la gestión avanzada de almacenes.
+description: Este artículo proporciona información acerca de la característica de gestión de calidad para los procesos de almacén. Esta característica amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante la gestión avanzada de almacenes.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857848"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Administración de la calidad para procesos de almacén
 
@@ -69,7 +69,7 @@ Antes de que el trabajo de almacén se pueda generar automáticamente para mover
 1. Para cada tipo de orden de trabajo, configure directivas de ubicación que apliquen las ubicaciones correctas de control de calidad a las que se debe mover el inventario. Después de completar el control de calidad, la directiva de ubicación para el tipo de orden de trabajo _Pedido de calidad_ asegura que se seleccionará una nueva ubicación de destino para que el inventario se pueda mover fuera de la ubicación de control de calidad.
 1. Configure los elementos de menú relevantes del dispositivo móvil para admitir el movimiento del inventario recibido a la ubicación de control de calidad y el movimiento del inventario que pasa o falla el control de calidad desde la ubicación de control de calidad a una nueva ubicación.
 
-Para ver un ejemplo paso a paso que muestra cómo completar esta configuración, consulte el [escenario de ejemplo](#example-scenario) al final de este tema.
+Para ver un ejemplo paso a paso que muestra cómo completar esta configuración, consulte el [escenario de ejemplo](#example-scenario) al final de este artículo.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Habilitar un almacén para administración de la calidad
 
@@ -188,7 +188,7 @@ El valor **Tipo de referencia** para los siguientes ejemplos es _Compra_ y el va
 | Cargar | Matrícula completa | Sí _(bloqueado/no editable)_ | <p>Ubicación: Sí</p><p>Matrícula: sí _(bloqueado/no editable)_</p> | Sí | 3 | <p>**Dos artículos:**</p><ul><li>**Cantidad de línea de pedido para el artículo A: 120 EA (4 palés)**</li><li>**Cantidad de línea de pedido para el artículo B: 90 EA (3 palés)**</li></ul><p>**Una carga, dos líneas de carga con cada línea de pedido**</p><ol><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo A, 30 EA, LP1<p>Trabajo de muestreo de artículos de calidad para 30 EA</p><p>Pedido de calidad 1 para 30 EA</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo A, 30 EA, LP2<p>Trabajo de pedido de compra para 30 EA (ubicación)</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo A, 30 EA, LP3<p>Trabajo de pedido de compra para 30 EA (ubicación)</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo A, 30 EA, LP4<p>Trabajo de muestreo de artículos de calidad para 30 EA</p><p>Pedido de calidad 1 para 30 EA</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo B, 30 EA, LP5<p>Trabajo de muestreo de artículos de calidad para 30 EA</p><p>Pedido de calidad 1 para 30 EA</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo B, 30 EA, LP6<p>Trabajo de pedido de compra para 30 EA (ubicación)</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el artículo A, 30 EA, LP7<p>Trabajo de pedido de compra para 30 EA (ubicación)</p></li></ol> |
 | Cargar | Porcentaje = 10 | Sí _(bloqueado/no editable)_ | <p>Ubicación: No</p><p>Matrícula de entidad de almacén: No</p> | No | No aplicable | <p>**Cantidad de línea de pedido: 100 EA**</p><p>**No se crean cargas. Se aplica el alcance del pedido**.</p><ol><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el elemento A, 50 EA, LP1<p>Trabajo de muestreo de artículos de calidad para 5 EA</p><p>Pedido de calidad 1 para 5 EA</p><p>Trabajo de pedido de compra para 45 EA (ubicación)</p></li><li>Registrar recibo en la aplicación móvil de gestión de almacenes para el elemento A, 50 EA, LP2<p>Trabajo de muestreo de artículos de calidad para 5 EA</p><p>Pedido de calidad 1 para 5 EA</p><p>Trabajo de pedido de compra para 45 EA (ubicación)</p></li></ol> |
 
-Cuando un trabajador valida uno de los pedidos de calidad que se muestran en la tabla anterior, el sistema genera automáticamente el trabajo de pedidos de calidad para mover el inventario desde la ubicación de control de calidad a la ubicación que se define en la directiva de ubicación para el tipo de orden de trabajo _Pedido de calidad_. Puede configurar cualquier ubicación para este propósito, como una ubicación de devolución o almacenamiento, dependiendo del resultado de la prueba para el pedido de calidad. Para ver un ejemplo de esta configuración, consulte el [escenario de ejemplo](#example-scenario) al final de este tema.
+Cuando un trabajador valida uno de los pedidos de calidad que se muestran en la tabla anterior, el sistema genera automáticamente el trabajo de pedidos de calidad para mover el inventario desde la ubicación de control de calidad a la ubicación que se define en la directiva de ubicación para el tipo de orden de trabajo _Pedido de calidad_. Puede configurar cualquier ubicación para este propósito, como una ubicación de devolución o almacenamiento, dependiendo del resultado de la prueba para el pedido de calidad. Para ver un ejemplo de esta configuración, consulte el [escenario de ejemplo](#example-scenario) al final de este artículo.
 
 Puede volver a abrir un pedido de calidad que ya ha sido validado, siempre que el trabajo del pedido de calidad relacionado con el traslado del inventario desde la ubicación de control de calidad no tenga un valor de **Situación laboral** *Cerrado* o *En progreso*.
 

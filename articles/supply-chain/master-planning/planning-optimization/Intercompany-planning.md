@@ -1,6 +1,6 @@
 ---
 title: Planificación de empresas vinculadas
-description: Este tema describe la planificación de empresas vinculadas y explica cómo configurar la planificación de empresas vinculadas con Planning Optimization en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe la planificación de empresas vinculadas y explica cómo configurar la planificación de empresas vinculadas con Planning Optimization en Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468507"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850681"
 ---
 # <a name="intercompany-planning"></a>Planificación de empresas vinculadas
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468507"
 
 Para algunas organizaciones, las operaciones de logística dependen de otras entidades legales (empresas) en la organización. Estas operaciones se manejan mediante compras y ventas entre empresas, porque cada entidad jurídica tiene un plan de cuentas independiente.
 
-Este tema describe la planificación de empresas vinculadas y explica cómo configurar la planificación de empresas vinculadas con Planning Optimization en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe la planificación de empresas vinculadas y explica cómo configurar la planificación de empresas vinculadas con Planning Optimization en Microsoft Dynamics 365 Supply Chain Management.
 
-Este tema utiliza los siguientes términos importantes de empresas vinculadas:
+Este artículo utiliza los siguientes términos importantes de empresas vinculadas:
 
 - **Río arriba** - Una referencia relativa en una empresa o cadena de suministro. Indica movimiento en la dirección del proveedor de materia prima.
 - **Flujo descendente** - Una referencia relativa en una empresa o cadena de suministro. Indica movimiento en la dirección del cliente.

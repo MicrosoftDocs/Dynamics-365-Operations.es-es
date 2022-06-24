@@ -1,6 +1,6 @@
 ---
 title: Tutorial de la característica de gestión de cambios de ingeniería
-description: Este tema proporciona un tutorial de un extremo a otro que muestra cómo trabajar con la administración de cambios de ingeniería.
+description: Este artículo proporciona un tutorial de un extremo a otro que muestra cómo trabajar con la administración de cambios de ingeniería.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574002"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889646"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tutorial de la característica de gestión de cambios de ingeniería
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona un tutorial de un extremo a otro que muestra cómo trabajar con la administración de cambios de ingeniería. Pasa por cada uno de los escenarios más importantes:
+Este artículo proporciona un tutorial de un extremo a otro que muestra cómo trabajar con la administración de cambios de ingeniería. Pasa por cada uno de los escenarios más importantes:
 
 - Configuración de funciones básicas
 - Cómo una empresa de ingeniería crea un nuevo producto de ingeniería
@@ -35,13 +35,13 @@ Este tema proporciona un tutorial de un extremo a otro que muestra cómo trabaja
 - Cómo programar e implementar los cambios solicitados mediante la creación de una orden de cambio de ingeniería
 - Cómo lanzar un producto que ha sido modificado
 
-Todos los ejercicios de este tema utilizan los datos de muestra estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Además, cada ejercicio se basa en el ejercicio anterior. Por lo tanto, le recomendamos que realice los ejercicios en orden, de principio a fin, especialmente si nunca antes ha utilizado la función de gestión de cambios de ingeniería. De esta manera, obtendrá una comprensión completa de la función.
+Todos los ejercicios de este artículo utilizan los datos de muestra estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Además, cada ejercicio se basa en el ejercicio anterior. Por lo tanto, le recomendamos que realice los ejercicios en orden, de principio a fin, especialmente si nunca antes ha utilizado la función de gestión de cambios de ingeniería. De esta manera, obtendrá una comprensión completa de la función.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Configuración para el escenario de ejemplo
 
-Para seguir el escenario de muestra que se proporciona en este tema, primero debe preparar la función haciendo que los datos de demostración estén disponibles y agregando algunos registros personalizados.
+Para seguir el escenario de muestra que se proporciona en este artículo, primero debe preparar la función haciendo que los datos de demostración estén disponibles y agregando algunos registros personalizados.
 
-Antes de intentar hacer cualquiera de los ejercicios del resto de este tema, siga las instrucciones en todas las subsecciones siguientes. Estas subsecciones también presentan varias páginas de configuración importantes que utilizará cuando configure la gestión de cambios de ingeniería para su propia organización.
+Antes de intentar hacer cualquiera de los ejercicios del resto de este artículo, siga las instrucciones en todas las subsecciones siguientes. Estas subsecciones también presentan varias páginas de configuración importantes que utilizará cuando configure la gestión de cambios de ingeniería para su propia organización.
 
 ### <a name="make-standard-demo-data-available"></a>Hacer que los datos de demostración estándar estén disponibles
 

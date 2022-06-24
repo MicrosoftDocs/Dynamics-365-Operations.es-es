@@ -1,6 +1,6 @@
 ---
 title: Lista de funciones ER en la categoría registro.
-description: Este tema proporciona información sobre las funciones de registro que son compatibles con los informes electrónicos (ER).
+description: Este artículo proporciona información sobre las funciones de registro que son compatibles con los informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2612222ce21e382dae13ee65fb9b9a1d9852e99ddd176bee9fcc3067f72e57db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b84931cb575b40da449b0562977b9bfa6373999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906616"
 ---
 # <a name="list-of-er-functions-in-the-record-category"></a>Lista de funciones ER en la categoría registro.
 
 [!include [banner](../includes/banner.md)]
 
-Las funciones de registro de informes electrónicos (ER) se pueden usar para extraer información y realizar operaciones en las fuentes de datos del tipo de datos *Contenedor (registro)*. Este tema proporciona un resumen de estas funciones.
+Las funciones de registro de informes electrónicos (ER) se pueden usar para extraer información y realizar operaciones en las fuentes de datos del tipo de datos *Contenedor (registro)*. Este artículo proporciona un resumen de estas funciones.
 
 ## <a name="list-of-supported-functions"></a>Lista de funciones permitidas.
 

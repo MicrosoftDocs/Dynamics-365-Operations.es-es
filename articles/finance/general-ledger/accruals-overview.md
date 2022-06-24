@@ -1,6 +1,6 @@
 ---
-title: Información general de acumulaciones
-description: Este tema describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
+title: Visión general de Acumulaciones
+description: Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904712"
 ---
-# <a name="accruals-overview"></a>Información general de acumulaciones
+# <a name="accruals-overview"></a>Visión general de Acumulaciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
+Este artículo describe acumulaciones y proporciona información acerca de cómo configurarlas y crear transacciones.
 
 Las acumulaciones se usan en la contabilidad por devengo para realizar un seguimiento de los ingresos que se reconoce en el período en que se ha obtenido, no cuando se recibe el pago, y para realizar un seguimiento de los gastos (costes) que se reconocen cuando se producen, no cuando se realiza el pago.
 

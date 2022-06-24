@@ -1,6 +1,6 @@
 ---
 title: Integrar la administración de activos con activos fijos.
-description: Este tema explica cómo integrar los módulos de Administración de activos y Activos fijos, para que pueda vincular activos fijos con activos de mantenimiento.
+description: Este artículo explica cómo integrar los módulos de Administración de activos y Activos fijos, para que pueda vincular activos fijos con activos de mantenimiento.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874228"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Integrar la administración de activos con activos fijos.
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567592"
 Al integrar los módulos **Administración de activos** y **Activos fijos**, puede vincular los activos fijos con los activos de mantenimiento. Los usuarios de Activos fijos pueden crear un activo de mantenimiento a partir de un activo fijo nuevo o existente, y los usuarios de Administración de activos pueden asociar un activo de mantenimiento con un activo fijo existente. Esta característica también facilita a los usuarios de Activos fijos ver los costos que se registraron en las órdenes de trabajo para los activos de mantenimiento relacionados.
 
 > [!NOTE]
-> En este tema, *activos de mantenimiento* son los activos del módulo **Administración de activos** y *Activos fijos* son los activos del módulo **Activos fijos**.
+> En este artículo, *activos de mantenimiento* son los activos del módulo **Administración de activos** y *Activos fijos* son los activos del módulo **Activos fijos**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Establecer una ubicación predeterminada para los nuevos activos de mantenimiento que se crean a partir de activos fijos (opcional)
 

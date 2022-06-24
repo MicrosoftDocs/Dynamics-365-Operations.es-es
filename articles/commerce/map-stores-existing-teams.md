@@ -1,6 +1,6 @@
 ---
 title: Asignar tiendas y equipos si estos últimos ya existen en Microsoft Teams
-description: Este tema cubre cómo asignar tiendas y equipos correspondientes en la sede de Dynamics 365 Commerce si su organización ya ha creado equipos en Microsoft Teams antes de la integración con Commerce.
+description: Este artículo cubre cómo asignar tiendas y equipos correspondientes en la sede de Dynamics 365 Commerce si su organización ya ha creado equipos en Microsoft Teams antes de la integración con Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902746"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Asignar tiendas y equipos si estos últimos ya existen en Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Este tema cubre cómo asignar tiendas y equipos correspondientes en la sede de Dynamics 365 Commerce si su organización ya ha creado equipos en Microsoft Teams antes de la integración con Commerce.
+Este artículo cubre cómo asignar tiendas y equipos correspondientes en la sede de Dynamics 365 Commerce si su organización ya ha creado equipos en Microsoft Teams antes de la integración con Commerce.
 
-Su organización puede tener equipos creados para algunas o todas sus tiendas antes de integrar Dynamics 365 Commerce y Microsoft Teams. Si este es el caso, para establecer la sincronización de tareas entre Commerce PDV y Microsoft Teams debe proporcionar la asignación de tiendas y equipo correspondiente en la sede de Commerce.
+Su organización puede tener equipos creados para algunas o todas sus tiendas antes de integrar Dynamics 365 Commerce y Microsoft Teams. Si este es el caso, para establecer la sincronización de tareas entre Commerce PDV y Microsoft Teams debe proporcionar la asignación de tiendas y equipo correspondiente en Commerce headquarters.
 
 ## <a name="map-stores-and-corresponding-teams-in-commerce-headquarters"></a>Asignar tiendas y equipos correspondientes en la sede de Commerce 
 

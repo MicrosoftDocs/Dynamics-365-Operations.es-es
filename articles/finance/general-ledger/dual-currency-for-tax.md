@@ -1,6 +1,6 @@
 ---
 title: Soporte de divisa doble para impuestos
-description: Este tema explica cómo ampliar la función de contabilidad de divisa doble en el dominio fiscal y el impacto para el cálculo y la publicación de impuestos
+description: Este artículo explica cómo ampliar la función de contabilidad de divisa doble en el dominio fiscal y el impacto para el cálculo y la publicación de impuestos
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909051"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Soporte de divisa doble para impuestos
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo ampliar la función de contabilidad de divisa doble para impuestos y el impacto para el cálculo, publicación y ajustes de impuestos.
+Este artículo explica cómo ampliar la función de contabilidad de divisa doble para impuestos y el impacto para el cálculo, publicación y ajustes de impuestos.
 
 La función de divisa doble para Dynamics 365 Finance se introdujo en la versión 8.1 (octubre de 2018). Cambia la forma en que se calculan las entradas contables en la divisa de notificación.
 
@@ -89,7 +89,7 @@ Esta función solo se aplicará a las transacciones nuevas. Para las transaccion
 
 Para evitar el escenario anterior, recomendamos cambiar el valor de este parámetro en un nuevo período de liquidación de impuestos (limpio) que no contenga ninguna transacción de impuestos sin resolver. Para cambiar este valor en la mitad de un período de liquidación de impuestos, ejecute el programa "Liquidación y post impuesto" para el período de liquidación de impuestos actual antes de cambiar este valor de parámetro.
 
-Esta función agregará asientos contables que aclaran las ganancias y pérdidas de los cambios de divisas. Los asientos se realizarán en las cuentas de pérdidas y ganancias del ajuste de moneda realizado cuando se realice la revaluación durante la liquidación del impuesto sobre las ventas. Para obtener más información, consulte la sección [Balance automático de liquidación de impuestos en la moneda del informe](#tax-settlement-auto-balance-in-reporting-currency) más adelante en este tema.
+Esta función agregará asientos contables que aclaran las ganancias y pérdidas de los cambios de divisas. Los asientos se realizarán en las cuentas de pérdidas y ganancias del ajuste de moneda realizado cuando se realice la revaluación durante la liquidación del impuesto sobre las ventas. Para obtener más información, consulte la sección [Balance automático de liquidación de impuestos en la moneda del informe](#tax-settlement-auto-balance-in-reporting-currency) más adelante en este artículo.
 
 > [!NOTE]
 > Durante la liquidación, la información para las dimensiones financieras se toma de las cuentas de impuestos sobre las ventas, que son cuentas de balance, y se ingresa en las cuentas de pérdidas y ganancias de ajuste de moneda, que son cuentas de pérdidas y ganancias. Debido a que las restricciones sobre el valor de las dimensiones financieras difieren entre las cuentas del balance y las cuentas del estado de pérdidas y ganancias, se puede producir un error durante el proceso de Liquidación y posterior al impuesto a las ventas. Para evitar tener que modificar las estructuras de las cuentas, puede activar la función "Completar dimensiones financieras para las cuentas de pérdidas / ganancias de ajuste de divisa para liquidación de impuestos sobre las ventas". Esta característica forzará la derivación de dimensiones financieras a cuentas de pérdidas / ganancias de ajuste de divisa. 

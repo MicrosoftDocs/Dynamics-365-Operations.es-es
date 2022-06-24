@@ -1,6 +1,6 @@
 ---
 title: Configurar múltiples inquilinos B2C en un entorno de Commerce
-description: Este tema describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
+description: Este artículo describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890578"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar múltiples inquilinos B2C en un entorno de Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
+Este artículo describe cuándo y cómo configurar múltiples inquilinos de empresa a consumidor (B2C) por canal Microsoft Azure Active Directory (Azure AD) para la autenticación de usuarios en un entorno dedicado Dynamics 365 Commerce.
 
 Dynamics 365 Commerce usa el servicio de identidad en la nube Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Los usuarios pueden usar los flujos de autenticación para registrarse, iniciar sesión y restablecer su contraseña. Azure AD B2C almacena la información confidencial de autenticación, como el nombre de usuario y contraseña. El registro de usuario es exclusivo de cada inquilino B2C y utiliza credenciales de nombre de usuario (dirección de correo electrónico) o credenciales de proveedor de identidad social.
 

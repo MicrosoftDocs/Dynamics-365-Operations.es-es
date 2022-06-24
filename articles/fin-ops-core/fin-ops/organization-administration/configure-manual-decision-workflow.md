@@ -1,6 +1,6 @@
 ---
 title: Configurar decisiones manuales en un flujo de trabajo
-description: Este tema explica cómo configurar las propiedades de una decisión manual.
+description: Este artículo explica cómo configurar las propiedades de una decisión manual.
 author: ChrisGarty
 ms.date: 06/15/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c143da04c5398190f1f5e4d2ec9eb07c6421459f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910298"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisiones manuales en un flujo de trabajo
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065664"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este tema explica cómo configurar las propiedades de una decisión manual.
+Este artículo explica cómo configurar las propiedades de una decisión manual.
 
 Para configurar una decisión manual, en el editor de flujo de trabajo, haga clic con el botón secundario en la decisión manual y, a continuación, haga clic en **Propiedades** para abrir la página **Propiedades**. A continuación, use los siguientes procedimientos para configurar las propiedades de la decisión manual.
 

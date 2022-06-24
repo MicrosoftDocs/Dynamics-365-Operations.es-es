@@ -1,6 +1,6 @@
 ---
 title: Inversión de cambios en un panel de distribución
-description: Este tema describe cómo invertir las modificaciones no guardadas que realice en un panel de distribución.
+description: Este artículo describe cómo invertir las modificaciones no guardadas que realice en un panel de distribución.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d2d801552518ab912ab240398b376017962151d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 08e0e2c2ce01aeb0f9901dc563198562695482f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852052"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>Inversión de cambios en un panel de distribución 
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo invertir las modificaciones no guardadas que realice en un panel de distribución. Por ejemplo, asigna un trabajador a una actividad de servicio, guarda la información y decide más tarde asignar un trabajador diferente a la actividad de servicio. Modifica el trabajador en el panel de distribución y, a continuación, antes de guardar el cambio, observa que el trabajador recién asignado no está disponible. Puede invertir la modificación no guardada para volver a asignar el trabajador original al pedido de servicio.
+Este artículo describe cómo invertir las modificaciones no guardadas que realice en un panel de distribución. Por ejemplo, asigna un trabajador a una actividad de servicio, guarda la información y decide más tarde asignar un trabajador diferente a la actividad de servicio. Modifica el trabajador en el panel de distribución y, a continuación, antes de guardar el cambio, observa que el trabajador recién asignado no está disponible. Puede invertir la modificación no guardada para volver a asignar el trabajador original al pedido de servicio.
 
 Use los siguientes pasos para invertir cambios no guardados en un panel de distribución:
 

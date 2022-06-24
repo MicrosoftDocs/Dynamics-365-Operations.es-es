@@ -1,6 +1,6 @@
 ---
 title: Mantener la certificación de proveedores
-description: Este tema describe los pasos que los proveedores pueden seguir para mantener sus certificaciones mediante el espacio de trabajo de colaboración de proveedores.
+description: Este artículo describe los pasos que los proveedores pueden seguir para mantener sus certificaciones mediante el espacio de trabajo de colaboración de proveedores.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891448"
 ---
 # <a name="maintain-vendor-certification"></a>Mantener la certificación de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los pasos que sus proveedores pueden seguir para mantener sus certificaciones mediante el **Espacio de trabajo de colaboración de proveedores**. Los ejemplos de certificaciones pueden incluir una empresa de negocios de mujeres (WBE) o una empresa de liderazgo en energía y diseño ambiental (LEED). Los proveedores deberán introducir la información de certificación en el espacio de trabajo **Informacion del proveedor**. A partir de ahí, los proveedores seleccionarán **Más detalles** y luego seleccionarán **Certificaciones**.
+Este artículo describe los pasos que sus proveedores pueden seguir para mantener sus certificaciones mediante el **Espacio de trabajo de colaboración de proveedores**. Los ejemplos de certificaciones pueden incluir una empresa de negocios de mujeres (WBE) o una empresa de liderazgo en energía y diseño ambiental (LEED). Los proveedores deberán introducir la información de certificación en el espacio de trabajo **Informacion del proveedor**. A partir de ahí, los proveedores seleccionarán **Más detalles** y luego seleccionarán **Certificaciones**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Activar la función de certificación de proveedores
 

@@ -1,6 +1,6 @@
 ---
 title: Perfiles de registro de inventario
-description: Este tema proporciona una visión general de los perfiles de registro de inventario.
+description: Este artículo proporciona una visión general de los perfiles de registro de inventario.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e3a3051978f921e01a929496e96909e6c32429
-ms.sourcegitcommit: 00b39900d3cbdbc9ca1ab3145265007f5dc98a3f
+ms.openlocfilehash: cae5b39ef8e6e153fe522dee1874deae2a2cb86e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8806380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901353"
 ---
 # <a name="inventory-posting-profiles"></a>Perfiles de registro de inventario
 

@@ -1,6 +1,6 @@
 ---
 title: Mostrar notificaciones de pedidos en el punto de venta (PDV)
-description: En este tema se describe cómo habilitar notificaciones de pedidos en el punto de venta y el marco de las notificaciones.
+description: En este artículo se describe cómo habilitar notificaciones de pedidos en el punto de venta y el marco de las notificaciones.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853989"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificaciones de pedidos en el punto de venta (PDV)
 
@@ -65,10 +65,10 @@ Tanto para las notificaciones de cumplimentación de pedidos como de recuperaci�
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Habilitar contenido en vivo en los botones de PDV
 
-Los botones de PDV pueden mostrar ahora un recuento para ayudar a los trabajadores a determinar con facilidad qué tareas requieren su asistencia inmediata. Para mostrar este número en un botón de PDV, debe completar la configuración de notificación que se describe anteriormente en este tema (es decir, debe habilitar las notificaciones para una operación, configurar un intervalo de notificaciones y actualizar el grupo de permisos de PDV para el trabajador). Además, debe abrir el diseñador de cuadrícula de botones, ver las propiedades del botón y seleccione la casilla **Habilitar contenido en vivo**. En el campo **Alineación de contenido**, puede seleccionar si el recuento aparece en la esquina superior derecha del botón (**Superior derecha**) o en el centro (**Centro**).
+Los botones de PDV pueden mostrar ahora un recuento para ayudar a los trabajadores a determinar con facilidad qué tareas requieren su asistencia inmediata. Para mostrar este número en un botón de PDV, debe completar la configuración de notificación que se describe anteriormente en este artículo (es decir, debe habilitar las notificaciones para una operación, configurar un intervalo de notificaciones y actualizar el grupo de permisos de PDV para el trabajador). Además, debe abrir el diseñador de cuadrícula de botones, ver las propiedades del botón y seleccione la casilla **Habilitar contenido en vivo**. En el campo **Alineación de contenido**, puede seleccionar si el recuento aparece en la esquina superior derecha del botón (**Superior derecha**) o en el centro (**Centro**).
 
 > [!NOTE]
-> El contenido en vivo se puede habilitar para las operaciones solo si se ha seleccionado la casilla **Habilitar notificaciones** en la página **Operaciones de PDV**, como se describe anteriormente en este tema.
+> El contenido en vivo se puede habilitar para las operaciones solo si se ha seleccionado la casilla **Habilitar notificaciones** en la página **Operaciones de PDV**, como se describe anteriormente en este artículo.
 
 La siguiente ilustración muestra la configuración de contenido en vivo en el diseñador de cuadrícula de botones.
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar revisores de gastos
-description: Este tema describe cómo utilizar los revisores de gastos para seleccionar dinámicamente al usuario al que se asigna una tarea de flujo de trabajo, aprobación o decisión manual.
+description: Este artículo describe cómo utilizar los revisores de gastos para seleccionar dinámicamente al usuario al que se asigna una tarea de flujo de trabajo, aprobación o decisión manual.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863234"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurar revisores de gastos
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Cuando se crea la orden de compra, el campo **Proyecto** debe especificarse. Si 
 
 ## <a name="set-up-expenditure-reviewers"></a>Configuración de revisores de gastos
 
-Este ejemplo muestra cómo configurar un revisor de gastos de solicitud de compra. Para configurar otros tipos de revisores de gastos, reemplace la ruta de navegación en el paso 1 con la ruta apropiada de la tabla en la sección [Tipos de revisores de gastos](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) antes en este tema.
+Este ejemplo muestra cómo configurar un revisor de gastos de solicitud de compra. Para configurar otros tipos de revisores de gastos, reemplace la ruta de navegación en el paso 1 con la ruta apropiada de la tabla en la sección [Tipos de revisores de gastos](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) antes en este artículo.
 
 1. Vaya a **Adquisiciones y abastecimiento \> Configuración \> Políticas \> Revisores de gastos de solicitudes de compra**.
 2. En la página **Revisores de gastos de solicitudes de compra**, seleccione **Nuevo**.

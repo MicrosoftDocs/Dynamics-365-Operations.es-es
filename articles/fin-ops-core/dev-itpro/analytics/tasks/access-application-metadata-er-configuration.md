@@ -1,6 +1,6 @@
 ---
 title: Acceder a metadatos de la aplicación mediante el uso de una configuración de ER
-description: Este tema describe cómo un usuario de Regulatory Configuration Service puede diseñar una nueva asignación de modelo de informes electrónicos mediante el uso de metadatos.
+description: Este artículo describe cómo un usuario de Regulatory Configuration Service puede diseñar una nueva asignación de modelo de informes electrónicos mediante el uso de metadatos.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883665"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Acceder a metadatos de la aplicación mediante el uso de una configuración de ER
 
 [!include [banner](../../includes/banner.md)]
 
-En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos de la aplicación. Se accederá a los metadatos de la aplicación mediante el uso de una configuración de metadatos de ER que contenga un conjunto de metadatos de ejemplo para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema, el procedimiento [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). A continuación, complete los pasos del tema, [Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md).
+En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos de la aplicación. Se accederá a los metadatos de la aplicación mediante el uso de una configuración de metadatos de ER que contenga un conjunto de metadatos de ejemplo para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del artículo, el procedimiento [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). A continuación, complete los pasos del artículo, [Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Requisitos previos
 1. Vaya a **Todos los espacios de trabajo** > **Informes electrónicos**. 

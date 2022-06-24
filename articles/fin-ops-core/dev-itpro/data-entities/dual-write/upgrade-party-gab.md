@@ -1,6 +1,6 @@
 ---
-title: Actualizar al modelo de parte y libreta de direcciones global
-description: Este tema describe cómo actualizar datos de escritura dual al modelo de libreta de direcciones global y de grupo.
+title: Actualizar al modelo de parte y de libreta de direcciones global
+description: Este artículo describe cómo actualizar datos de escritura dual al modelo de libreta de direcciones global y de grupo.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895287"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Actualizar al modelo de parte y de libreta de direcciones global
 
@@ -40,7 +40,7 @@ Al final del proceso, se generan los siguientes archivos de valores separados po
 | ImportFONewPostalAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección postal** en la aplicación de Finanzas y Operaciones. |
 | ImportFONewElectronicAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección electrónica** en la aplicación de Finanzas y Operaciones. |
 
-Este tema explica cómo usar las plantillas de Data Factory y actualizar sus datos. Si no tiene ninguna personalización, puede usar las plantillas tal cual. Sin embargo, si tiene personalizaciones para datos de **Cuenta**, **Contacto** y **Vendedor**, debe modificar las plantillas como se describe en este tema.
+Este artículo explica cómo usar las plantillas de Data Factory y actualizar sus datos. Si no tiene ninguna personalización, puede usar las plantillas tal cual. Sin embargo, si tiene personalizaciones para datos de **Cuenta**, **Contacto** y **Vendedor**, debe modificar las plantillas como se describe en este artículo.
 
 > [!IMPORTANT]
 > Hay instrucciones especiales para ejecutar la dirección postal de la Parte y las plantillas de dirección electrónica de la Parte. Primero debe ejecutar la plantilla de Parte, luego la plantilla de dirección postal de la Parte y luego la plantilla de dirección electrónica de la Parte. Cada plantilla está diseñada para importarse en una factoría de datos separada.

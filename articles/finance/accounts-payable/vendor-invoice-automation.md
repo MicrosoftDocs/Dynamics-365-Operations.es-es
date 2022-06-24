@@ -1,6 +1,6 @@
 ---
 title: Automatización de facturas para documentos escaneados
-description: Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
+description: Este artículo explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883427"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatización de facturas para documentos escaneados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica las entidades de datosdisponibles para la automatización completa de las facturas de proveedor, incluidas las facturas con adjuntos.
+Este artículo explica las entidades de datosdisponibles para la automatización completa de las facturas de proveedor, incluidas las facturas con adjuntos.
 
 Las organizaciones que desean para agilizar los procesos de proveedores (AP) con frecuencia identifican el procesamiento de facturas como una de las principales áreas de proceso que deben aumentar su eficacia. En muchos casos, estas organizaciones delegan el procesamiento de las facturas de papel en un proveedor de servicios de reconocimiento de caracteres ópticos (OCR) de terceros. A continuación reciben metadatos de la factura que se pueden leer automáticamente junto con una imagen digitalizada de cada factura. Para contribuir a la automatización, se incorpora una solución de recta final para habilitar el consumo de estos artefactos en el sistema de facturación. Ahora esta automatización de "recta final" está habilitada desde el principio a través de una solución de automatización de facturas.
 
@@ -46,7 +46,7 @@ La superficie de la solución consiste en los siguientes componentes:
 + Procesamiento de excepciones para las facturas
 + Visualizador de adjuntos en paralelo en las facturas
 
-El resto de este tema proporciona descripciones detalladas de estos componentes de la solución.
+El resto de este artículo proporciona descripciones detalladas de estos componentes de la solución.
 
 ## <a name="data-entities"></a>Entidades de datos
 

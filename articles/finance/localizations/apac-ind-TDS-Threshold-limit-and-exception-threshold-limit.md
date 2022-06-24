@@ -1,6 +1,6 @@
 ---
 title: Límite de umbral y límite de umbral de excepción
-description: Este tema describe los límites de umbral y de excepción para los impuestos deducidos en el origen (TDS).
+description: Este artículo describe los límites de umbral y de excepción para los impuestos deducidos en el origen (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877947"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Límite de umbral y límite de umbral de excepción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los límites de umbral y de excepción para los impuestos deducidos en el origen (TDS). El TDS en facturas y pagos siempre se calcula teniendo en cuenta el límite de umbral y el límite de umbral de excepción definidos para los componentes de impuestos de TDS en la página **Componentes de retención de impuestos**. Los componentes de impuestos de TDS se adjuntan a los códigos de impuestos de TDS, que se incluyen en los grupos de impuestos de TDS. Los grupos de impuestos de TDS se adjuntan a proveedores y clientes para calcular los TDS a nivel de factura o de pago.
+Este artículo describe los límites de umbral y de excepción para los impuestos deducidos en el origen (TDS). El TDS en facturas y pagos siempre se calcula teniendo en cuenta el límite de umbral y el límite de umbral de excepción definidos para los componentes de impuestos de TDS en la página **Componentes de retención de impuestos**. Los componentes de impuestos de TDS se adjuntan a los códigos de impuestos de TDS, que se incluyen en los grupos de impuestos de TDS. Los grupos de impuestos de TDS se adjuntan a proveedores y clientes para calcular los TDS a nivel de factura o de pago.
 
 El TDS se calcula si el importe de una transacción o las transacciones acumuladas registradas con un grupo de TDS específico para un proveedor excede el límite de umbral especificado en la página **Componentes de retención de impuestos**. El TDS no se calculará hasta que el importe acumulado de la transacción exceda el límite de umbral especificado.
 

@@ -1,6 +1,6 @@
 ---
 title: Importar datos de archivos seleccionados manualmente en el modo por lotes
-description: Este tema explica cómo importar datos de archivos seleccionados manualmente en modo por lotes.
+description: Este artículo explica cómo importar datos de archivos seleccionados manualmente en modo por lotes.
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890194"
 ---
 # <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Importar datos de archivos seleccionados manualmente en el modo por lotes
 
@@ -31,11 +31,11 @@ Para usar el marco de [informes electrónicos (ER)](general-electronic-reporting
 
 La nueva capacidad de ER que admite la importación de datos en modo pro lotes permite configurar este proceso de manera automática. Puede usar las configuraciones de ER para realizar la importación de datos mediante la programación de un nuevo trabajo por lotes desde la interfaz de usuario (IU) de ER.
 
-Este tema explica cómo completar la importación de datos de archivos seleccionados manualmente en modo por lotes. Los ejemplos utilizan transacciones del proveedor como datos empresariales. Los pasos de estos ejemplos se pueden completar en la empresa **USMF**. No se requiere codificación.
+Este artículo explica cómo completar la importación de datos de archivos seleccionados manualmente en modo por lotes. Los ejemplos utilizan transacciones del proveedor como datos empresariales. Los pasos de estos ejemplos se pueden completar en la empresa **USMF**. No se requiere codificación.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para completar los ejemplos de este tema, debe tener el acceso siguiente:
+Para completar los ejemplos de este artículo, debe tener el acceso siguiente:
 
 - Uno de los roles siguientes:
 

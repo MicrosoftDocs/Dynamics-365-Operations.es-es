@@ -1,6 +1,6 @@
 ---
 title: Bienes de doble uso
-description: En este tema se explica cómo realizar un seguimiento de productos identificados como de bienes de doble uso, almacenar números de certificados para cada producto relevante y país de destino, e imprimir números de certificados validos en facturas relevantes, albaranes y/o pedidos de ventas.
+description: En este artículo se explica cómo realizar un seguimiento de productos identificados como de bienes de doble uso, almacenar números de certificados para cada producto relevante y país de destino, e imprimir números de certificados validos en facturas relevantes, albaranes y/o pedidos de ventas.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878914"
 ---
 # <a name="dual-use-goods"></a>Bienes de doble uso
 
@@ -42,7 +42,7 @@ Considere el siguiente escenario:
 
 6. El pedido incluye el producto X-100, que se va a enviar a Francia, y existe un certificado francés para el producto. Sin embargo, el certificado ha caducado. Por lo tanto, recibirá el siguiente mensaje de advertencia: "Los certificados de doble uso para uno o más artículos de doble uso en este pedido de ventas no son válidos. ¿Desea continuar con la confirmación? "
 
-En este tema se explica cómo establecer todos los parámetros necesarios para configurar productos de doble uso y admitir este escenario.
+En este artículo se explica cómo establecer todos los parámetros necesarios para configurar productos de doble uso y admitir este escenario.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Definir requisitos de doble uso para cada país relevante
 

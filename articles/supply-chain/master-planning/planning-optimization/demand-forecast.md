@@ -1,6 +1,6 @@
 ---
 title: Planificación maestra con previsiones de demanda
-description: Este tema explica cómo incluir previsiones de demanda durante la planificación maestra con Optimización de la planificación.
+description: Este artículo explica cómo incluir previsiones de demanda durante la planificación maestra con Optimización de la planificación.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879001"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
 
@@ -42,7 +42,7 @@ Para configurar un plan maestro de modo que incluya un pronóstico de demanda, s
 
     - **Modelo de previsión** - Seleccione el modelo de previsión para aplicar. Este modelo se considerará cuando se genere una sugerencia de suministro para el plan maestro actual.
     - **Incluir previsión de la demanda** - Establezca esta opción en *Sí* para incluir la previsión de demanda en el plan maestro actual. Si se configura en *No*, las transacciones de previsión de demanda no se incluirán en el plan maestro.
-    - **Método utilizado para reducir los requisitos de pronóstico** - Seleccione el método que se debe utilizar para reducir los requisitos de pronóstico. Para obtener más información, consulte la sección [Previsión de las claves de reducción](#reduction-keys) más adelante en este tema.
+    - **Método utilizado para reducir los requisitos de pronóstico** - Seleccione el método que se debe utilizar para reducir los requisitos de pronóstico. Para obtener más información, consulte la sección [Previsión de las claves de reducción](#reduction-keys) más adelante en este artículo.
 
 1. En la ficha desplegable **Valla de tiempo en días**, puede establecer los siguientes campos para especificar el período durante el cual se incluye el pronóstico de demanda:
 
@@ -61,7 +61,7 @@ Para configurar un grupo de cobertura de modo que incluya un pronóstico de dema
 1. En la ficha rápida **Otro**, establezca los siguientes campos:
 
     - **Límite de tiempo del plan de previsión** - Ingrese el número de días (desde la fecha de hoy) que se debe solicitar la previsión de demanda. Este valor se puede anular utilizando la opción **Plan de previsión** en el plan maestro, como se describe en la sección anterior.
-    - **Llave de reducción** - Seleccione la clave de reducción para aplicar. Para obtener más información, consulte las secciones [Crear y configurar una clave de reducción de previsión](#create-reduction-key) y [Utilizar una clave de reducción](#use-reduction-key) más adelante en este tema.
+    - **Llave de reducción** - Seleccione la clave de reducción para aplicar. Para obtener más información, consulte las secciones [Crear y configurar una clave de reducción de previsión](#create-reduction-key) y [Utilizar una clave de reducción](#use-reduction-key) más adelante en este artículo.
     - **Reducir el pronóstico en** - Para planes maestros donde el campo **Método utilizado para reducir los requisitos de pronóstico** está configurado en *Transacciones - clave de reducción* o *Transacciones - período dinámico*, especifique qué transacciones deben reducir el pronóstico. Seleccione uno de los siguientes valores:
 
         - **Todas las transacciones** - Todas las transacciones deben reducir el pronóstico.

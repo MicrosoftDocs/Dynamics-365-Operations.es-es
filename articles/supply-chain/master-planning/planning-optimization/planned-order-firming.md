@@ -1,6 +1,6 @@
 ---
 title: Poner en firme pedidos planificados
-description: Este tema explica cómo confirmar pedidos planificados. Cuando se confirman los pedidos planificados, se convierten en pedidos de compra, pedidos de transferencia o pedidos de producción reales.
+description: Este artículo explica cómo confirmar pedidos planificados. Cuando se confirman los pedidos planificados, se convierten en pedidos de compra, pedidos de transferencia o pedidos de producción reales.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857529"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -29,11 +29,11 @@ Hay tres métodos para confirmar los pedidos planificados:
 - **Confirmación automática**: defina un límite de tiempo de confirmación predeterminado para grupos de cobertura, artículos individuales y combinaciones de artículos y planes maestros. Luego, durante las ejecuciones de planificación maestra, las órdenes planificadas se confirmarán automáticamente si la fecha del pedido se encuentra dentro del límite de tiempo especificado para la confirmación.
 - **Confirmación basada en consulta**: defina una consulta para seleccionar pedidos planificados en función de sus propiedades. Puede configurar un trabajo por lotes para ejecutar la consulta y confirmar los pedidos coincidentes con programación regular.
 
-Este tema describe cada método en detalle.
+Este artículo describe cada método en detalle.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Habilitar las funciones que se describen en este tema
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Habilitar las funciones que se describen en este artículo
 
-La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management que utilizan Optimización de planificación. Sin embargo, algunas de las funciones que se describen en este tema deben estar activadas en Administración de funciones antes de poder utilizarlas.
+La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management que utilizan Optimización de planificación. Sin embargo, algunas de las funciones que se describen en este artículo deben estar activadas en Administración de funciones antes de poder utilizarlas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activar o desactivar la confirmación en paralelo de pedidos planificados
 
@@ -97,7 +97,7 @@ La confirmación automática permite confirmar los pedidos planificados como par
 > Los pedidos derivados (es decir, pedidos de compra subcontratados) que estén confirmados mostrarán un estado de *En revisión* cuando el seguimiento de cambios esté habilitado.
 
 > [!IMPORTANT]
-> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada en su sistema, como se describe al principio de este tema. La confirmación automática siempre se puede utilizar con el motor de planificación maestra incorporado.
+> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada en su sistema, como se describe al principio de este artículo. La confirmación automática siempre se puede utilizar con el motor de planificación maestra incorporado.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmación automática con Optimización de planificación frente al motor de planificación integrado
 
@@ -130,7 +130,7 @@ La confirmación basada en consultas le permite planificar la confirmación en f
 Puede combinar la confirmación automática con la confirmación basada en consultas. Por ejemplo, un trabajo de confirmación basado en consultas tiene un límite de tiempo hacia adelante que es más largo que el límite de tiempo para una configuración de cobertura de confirmación automática coincidente. Por lo tanto, el trabajo de confirmación basado en consultas procesará sus pedidos planificados antes de que se desencadene la confirmación automática. Puede aprovechar este comportamiento para programar pedidos para proveedores específicos de manera diferente a los pedidos de productos similares de otros proveedores.
 
 > [!IMPORTANT]
-> Antes de que la función que se describe en esta sección se pueda utilizar, la [función *Confirmación de pedidos planificados con fitrado*](#enable-features) debe estar activada en su sistema, como se describe al principio de este tema.
+> Antes de que la función que se describe en esta sección se pueda utilizar, la [función *Confirmación de pedidos planificados con fitrado*](#enable-features) debe estar activada en su sistema, como se describe al principio de este artículo.
 
 Para confirmar un pedido planificado mediante el proceso de confirmación basado en consultas, siga estos pasos.
 

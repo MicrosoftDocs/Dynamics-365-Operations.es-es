@@ -1,6 +1,6 @@
 ---
 title: Soporte de Inventory Visibility para elementos de WHS
-description: Este tema describe el soporte para la visibilidad del inventario para artículos que están habilitados para procesos de almacén avanzados (artículos WHS).
+description: Este artículo describe el soporte para la visibilidad del inventario para artículos que están habilitados para procesos de almacén avanzados (artículos WHS).
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895681"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>Soporte de Inventory Visibility para elementos de WHS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el soporte para la visibilidad del inventario para artículos que están habilitados para procesos de almacén avanzados (artículos WHS). La característica que agrega esta capacidad a Inventory Visibility se denomina *WHS avanzado*.
+Este artículo describe el soporte para la visibilidad del inventario para artículos que están habilitados para procesos de almacén avanzados (artículos WHS). La característica que agrega esta capacidad a Inventory Visibility se denomina *WHS avanzado*.
 
 ## <a name="whs-items"></a>Artículos WHS
 

@@ -1,6 +1,6 @@
 ---
 title: Generar previsión estadística de línea base
-description: En este tema se proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda.
+description: Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844949"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda. 
+Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda. 
 
 Cuando se crea una previsión de línea base, primero debe especificar los parámetros y los filtros que se usan en el cálculo. Por ejemplo, puede crear una previsión de línea base que estime la demanda en función de los datos de transacción desde último año para una empresa específica, para el mes siguiente y para un grupo seleccionado de artículos. 
 

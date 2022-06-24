@@ -1,6 +1,6 @@
 ---
 title: Secuenciación del trabajo dirigida por el sistema
-description: En este tema se ofrece información sobre la secuencia del trabajo dirigida por el sistema. Esta funcionalidad le permite ordenar y filtrar las órdenes de trabajo que el sistema presenta a los usuarios para su ejecución. Resulta útil en escenarios donde se requieren criterios adicionales para realizar el proceso de picking del almacén.
+description: En este artículo se ofrece información sobre la secuencia del trabajo dirigida por el sistema. Esta funcionalidad le permite ordenar y filtrar las órdenes de trabajo que el sistema presenta a los usuarios para su ejecución. Resulta útil en escenarios donde se requieren criterios adicionales para realizar el proceso de picking del almacén.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849137"
 ---
 # <a name="system-directed-work-sequencing"></a>Secuenciación del trabajo dirigida por el sistema
 
@@ -44,7 +44,7 @@ Antes de poder usar la secuenciación del trabajo dirigida por el sistema, la ca
 
 ### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-Para resolver el escenario utilizando los valores que se presentan en este tema, debe trabajar en un sistema donde se instalen datos de demostración estándar. Además, también debe seleccionar la entidad legal **USMF**. El escenario utiliza el almacén *51* de los datos de demostración.
+Para resolver el escenario utilizando los valores que se presentan en este artículo, debe trabajar en un sistema donde se instalen datos de demostración estándar. Además, también debe seleccionar la entidad legal **USMF**. El escenario utiliza el almacén *51* de los datos de demostración.
 
 > [!IMPORTANT]
 > Antes de liberar los pedidos al almacén, asegúrese de que las ubicaciones de picking tengan suficiente inventario para todos los artículos de los pedidos.

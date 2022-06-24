@@ -1,6 +1,6 @@
 ---
 title: Organizar los recursos mediante departamentos, trabajos y puestos
-description: Este tema describe información conceptual sobre departamentos, trabajos y puestos, que son elementos organizativos que se mantienen en Recursos humanos.
+description: Este artículo describe información conceptual sobre departamentos, trabajos y puestos, que son elementos organizativos que se mantienen en Recursos humanos.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874286"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694834"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos. 
+Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este artículo se describe información conceptual acerca de estos elementos. 
 
 El siguiente ejemplo se usa para ilustrar los conceptos descritos en este artículo.
 

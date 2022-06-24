@@ -1,6 +1,6 @@
 ---
 title: Crear devoluciones en PDV.
-description: Este tema describe cómo iniciar devoluciones para transacciones de pago al contado sin entrega a domicilio o pedidos de clientes en la aplicación del punto de venta (PDV) Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo iniciar devoluciones para transacciones de pago al contado sin entrega a domicilio o pedidos de clientes en la aplicación del punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857007"
 ---
 # <a name="create-returns-in-pos"></a>Crear devoluciones en PDV.
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo iniciar devoluciones para transacciones de pago al contado sin entrega a domicilio o pedidos de clientes en la aplicación del punto de venta (PDV) Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo iniciar devoluciones para transacciones de pago al contado sin entrega a domicilio o pedidos de clientes en la aplicación del punto de venta (PDV) Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > En el lanzamiento de Commerce versión 10.0.20 y posteriores, está disponible una nueva característica que se llama **Experiencia unificada de procesamiento de devoluciones en PDV**. Esta característica proporciona un proceso de devolución más consistente y unificado en PDV, independientemente del tipo de transacción (transacción de pago al contado sin entrega a domicilio o pedido del cliente) o el canal original en el que se creó el pedido. Recomendamos que todas las organizaciones activen esta nueva función para ayudar a mejorar la fiabilidad general del procesamiento de devoluciones a través de PDV.

@@ -1,6 +1,6 @@
 ---
 title: Consolide los envíos cuando se anula la directiva de consolidación de envíos
-description: Este tema presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página Despachar a almacén, y la directiva de consolidación de envío definida por el sistema debe anularse antes del despacho.
+description: Este artículo presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página Despachar a almacén, y la directiva de consolidación de envío definida por el sistema debe anularse antes del despacho.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878711"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolide los envíos cuando se anula la directiva de consolidación de envíos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página **Despachar a almacén**, y la directiva de consolidación de envíos definida por el sistema debe anularse antes del despacho. Es posible que se deba anular la directiva de consolidación de envíos si, por ejemplo, un pedido que generalmente no se consolida con envíos abiertos debe consolidarse con envíos abiertos.
+Este artículo presenta un escenario en el que una o más líneas de ventas deben despacharse manualmente al almacén desde la página **Despachar a almacén**, y la directiva de consolidación de envíos definida por el sistema debe anularse antes del despacho. Es posible que se deba anular la directiva de consolidación de envíos si, por ejemplo, un pedido que generalmente no se consolida con envíos abiertos debe consolidarse con envíos abiertos.
 
 Durante el escenario, creará un conjunto de pedidos de ventas y luego anulará la directiva de consolidación de envíos predeterminada antes de despachar los pedidos al almacén.
 
 ## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-El escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
+El escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurar directivas de consolidación de envíos y filtros de productos
 

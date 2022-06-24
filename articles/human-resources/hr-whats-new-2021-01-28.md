@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources del 28 de enero de 2021
-description: Este tema describe las características nuevas o modificadas en Microsoft Dynamics 365 Human Resources para el 28 de julio de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 28 de enero de 2021.
 author: marcelbf
 ms.date: 01/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d59e242421b1b86c32f9009ae6ae17e0f161a2e2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 46bbda21c3eb2b32030b93afc2a40785c22b124e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909770"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Novedades y cambios en Dynamics 365 Human Resources del 28 de enero de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -48,10 +48,10 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 
-| Número del problema | Emitir |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 539456 | El calendario muestra el tipo de licencia en texto flotante cuando el parámetro **Mostrar solo ausencia sin detalles** está habilitado. | Cuando la opción **Mostrar solo ausencia sin detalles** está habilitada, la fecha de la solicitud se muestra al pasar el mouse. |
 | 528907 | Otorgar acceso a una entidad jurídica en el rol de empleado da como resultado que los responsables no puedan ver la actividad del saldo de licencias para los empleados en el área **Mi equipo** del autoservicio de empleados. |Ahora, establecer esta opción permite a los responsables seguir viendo la actividad del saldo de licencias. |

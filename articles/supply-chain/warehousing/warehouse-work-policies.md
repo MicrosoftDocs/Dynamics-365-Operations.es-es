@@ -1,6 +1,6 @@
 ---
 title: Directivas de trabajo
-description: En este tema se explica cómo configurar directivas de trabajo.
+description: En este artículo se explica cómo configurar directivas de trabajo.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855859"
 ---
 # <a name="work-policies"></a>Directivas de trabajo
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar el sistema y la aplicación móvil Warehouse Management para que admitan directivas de trabajo. Puede utilizar esta funcionalidad para registrar rápidamente el inventario sin crear trabajos de colocación cuando reciba pedidos de compra o transferencia, o cuando complete los procesos de fabricación. Este tema proporciona información general. Para obtener información detallada relacionada con la recepción de matrículas de entidad de almacén, consulte [Recepción de matrículas de entidad de almacén a través de la aplicación móvil Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md).
+En este artículo se explica cómo configurar el sistema y la aplicación móvil Warehouse Management para que admitan directivas de trabajo. Puede utilizar esta funcionalidad para registrar rápidamente el inventario sin crear trabajos de colocación cuando reciba pedidos de compra o transferencia, o cuando complete los procesos de fabricación. Este artículo ofrece información general. Para obtener información detallada relacionada con la recepción de matrículas de entidad de almacén, consulte [Recepción de matrículas de entidad de almacén a través de la aplicación móvil Warehouse Management](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Una directiva de trabajo controla si el trabajo de almacén se crea cuando un artículo manufacturado se informa como terminado o cuando se reciben bienes mediante la aplicación móvil Warehouse Management. Configure cada política de trabajo definiendo las condiciones donde se aplica: los tipos y procesos de órdenes de trabajo, la ubicación del inventario y (opcionalmente) los productos. Por ejemplo, una orden de compra para el producto *A0001* debe recibirse en la ubicación *RECV* del almacén *24*. Más tarde, el producto se usa en otro proceso en la ubicación *RECV*. En este caso, puede configurar una directiva de trabajo para evitar que se cree un trabajo de almacenamiento cuando un trabajador notifica el producto *A0001* como recibido en la ubicación *RECV*.
 
@@ -35,7 +35,7 @@ Una directiva de trabajo controla si el trabajo de almacén se crea cuando un ar
 
 ## <a name="activate-the-features-in-your-system"></a>Activar las características en su sistema
 
-Para que todas las funciones que se describen en este tema estén disponibles en su sistema, active las siguientes dos características en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Para que todas las funciones que se describen en este artículo estén disponibles en su sistema, active las siguientes dos características en [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Mejoras en la recepción de matrícula de entidad de almacén
 - Mejoras de la directiva de trabajo para el trabajo de entrada

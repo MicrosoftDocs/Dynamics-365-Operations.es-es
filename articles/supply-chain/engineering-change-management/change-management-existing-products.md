@@ -1,6 +1,6 @@
 ---
 title: Habilitar la administración de cambios en productos existentes
-description: Este tema explica cómo puede habilitar la gestión de cambios para productos existentes. También describe casos en los que su capacidad para habilitar la gestión de cambios es limitada.
+description: Este artículo explica cómo puede habilitar la gestión de cambios para productos existentes. También describe casos en los que su capacidad para habilitar la gestión de cambios es limitada.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893479"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar la administración de cambios en productos existentes
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo puede habilitar la gestión de cambios para productos existentes. También describe casos en los que su capacidad para habilitar la gestión de cambios es limitada.
+Este artículo explica cómo puede habilitar la gestión de cambios para productos existentes. También describe casos en los que su capacidad para habilitar la gestión de cambios es limitada.
 
 Cuando habilita la administración de cambios para un producto existente, puede crear versiones de ese producto y rastrear los cambios que se le realizan a lo largo de su vida. Por lo tanto, puede realizar un seguimiento de esos cambios mediante el uso de órdenes de cambio. Para habilitar la gestión de cambios, debe convertir los productos relevantes a *artículos de ingeniería* (también denominados productos de ingeniería). Los productos de ingeniería son productos que se versionan y gestionan mediante la gestión de cambios. Se proporciona un asistente para guiarlo a través del proceso de conversión.
 
 ## <a name="turn-this-feature-on-or-off"></a>Activar o desactivar esta característica
 
-La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Habilitar la administración de cambios en productos existentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
+La funcionalidad descrita en este artículo requiere que se activen las características *Administración de cambios de ingeniería* y *Habilitar la administración de cambios en productos existentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restricciones y limitaciones
 
@@ -38,7 +38,7 @@ No todos los tipos de productos se pueden convertir a todos los demás tipos. Se
 - Cuando convierte un producto en un producto de ingeniería, sigue siendo un *producto*. No se convierte en un *producto maestro*.
 - Cuando convierte un producto maestro que tiene un conjunto específico de dimensiones, esas dimensiones se mantienen después del cambio. Por ejemplo, si convierte un producto maestro que tiene la dimensión de tamaño, mantendrá la dimensión de tamaño.
 
-Por lo tanto, si tiene un producto distinto, puede cambiarlo solo a un producto de ingeniería que no rastrea la dimensión del producto en las transacciones (es decir, la dimensión de la versión no se usa). Vea las secciones restantes de este tema para obtener más información sobre estos problemas.
+Por lo tanto, si tiene un producto distinto, puede cambiarlo solo a un producto de ingeniería que no rastrea la dimensión del producto en las transacciones (es decir, la dimensión de la versión no se usa). Vea las secciones restantes de este artículo para obtener más información sobre estos problemas.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Prepárese para la conversión creando todas las categorías de productos de ingeniería requeridas
 
@@ -81,7 +81,7 @@ Siga estos pasos para ejecutar el asistente **Convertir en producto de ingenier�
 
     - **Número de producto** - El número del producto.
     - **Nombre de producto** – El nombre del producto.
-    - **Categoría de ingeniería** - Seleccione la categoría de producto de ingeniería a la que debe pertenecer el producto después de su conversión. Ya debe existir una categoría apropiada para cada producto, como se explicó en la sección anterior de este tema. Debe asignar una categoría a cada producto.
+    - **Categoría de ingeniería** - Seleccione la categoría de producto de ingeniería a la que debe pertenecer el producto después de su conversión. Ya debe existir una categoría apropiada para cada producto, como se explicó en la sección anterior de este artículo. Debe asignar una categoría a cada producto.
     - **Versión** - Ingrese la versión inicial del producto para asignar al producto después de convertirlo. Por ejemplo, puede seleccionar un número que se ajuste a la secuencia numérica que ya usa su categoría. Cada versión de ingeniería almacena los datos relevantes para la ingeniería que son específicos de esa versión. Para más información, vea [Versiones de ingeniería y categorías de productos de ingeniería](engineering-versions-product-category.md).
     - **Estado del ciclo de vida del producto** - Seleccione el estado del ciclo de vida del producto en el que debe estar el producto después de su conversión. El estado del ciclo de vida del producto le permite controlar qué transacciones están permitidas para una versión de ingeniería determinada. Para más información, vea [Estados y transacciones del ciclo de vida del producto](product-lifecycle-state-transactions.md).
     - **Tiene lista de materiales** - Una casilla de verificación seleccionada indica que el producto tiene una lista de materiales. La configuración de esta casilla de verificación puede ayudarlo a decidir cómo configurar la casilla **La lista de materiales actual será parte del producto de ingeniería**.

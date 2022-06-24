@@ -1,6 +1,6 @@
 ---
 title: Administrar las categorías de productos y los productos
-description: En este tema se describe cómo los encargados de comercialización pueden usar categorías de productos para administrar relaciones entre la jerarquía de productos de Commerce y los detalles del producto liberado.
+description: En este artículo se describe cómo los encargados de comercialización pueden usar categorías de productos para administrar relaciones entre la jerarquía de productos de Commerce y los detalles del producto liberado.
 author: ashishmsft
 ms.date: 10/23/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0871475e0910e0a46544c56083b505ff647fd6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878592"
 ---
 # <a name="manage-product-categories-and-products"></a>Administrar las categorías de productos y los productos
 
 [!include [banner](./includes/banner.md)]
 
-Este tema describe una forma mejorada de gestionar categorías de productos y productos en Dynamics 365 Commerce. Las mejoras permiten a los encargados de comercialización visualizar una estructura de propiedades del producto que se reparte entre la jerarquía del producto y los detalles del producto liberado.
+Este artículo describe una forma mejorada de gestionar categorías de productos y productos en Dynamics 365 Commerce. Las mejoras permiten a los encargados de comercialización visualizar una estructura de propiedades del producto que se reparte entre la jerarquía del producto y los detalles del producto liberado.
 
 Para obtener más información acerca de cómo gestionar categorías de productos, en el espacio de trabajo **Administración de categorías y productos**, seleccione el icono **Jerarquía de productos de Commerce**.
 

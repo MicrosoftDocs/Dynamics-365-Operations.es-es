@@ -1,6 +1,6 @@
 ---
 title: Diseñador de fórmulas en los informes electrónicos (ER)
-description: Este tema proporciona información general sobre cómo usar el diseñador de fórmulas en los informes electrónicos (ER).
+description: Este artículo proporciona información general sobre cómo usar el diseñador de fórmulas en los informes electrónicos (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894306"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas para transformar datos de modo que cumplan los requisitos para el cumplimiento y el formato de ese documento. Estas fórmulas se asemejan a fórmulas en Microsoft Excel. Se admiten diversos tipos de funciones en las fórmulas: de texto, de fecha y hora, matemáticas, lógicas, de información y de conversión de tipos de datos, así como otras funciones específicas del dominio empresarial.
+Este artículo explica cómo usar el diseñador de fórmula en informes electrónicos (ER). Cuando diseña un formato para un documento electrónico específico en ER, puede usar fórmulas para transformar datos de modo que cumplan los requisitos para el cumplimiento y el formato de ese documento. Estas fórmulas se asemejan a fórmulas en Microsoft Excel. Se admiten diversos tipos de funciones en las fórmulas: de texto, de fecha y hora, matemáticas, lógicas, de información y de conversión de tipos de datos, así como otras funciones específicas del dominio empresarial.
 
 ## <a name="formula-designer-overview"></a>Visión general del diseñador de fórmulas
 

@@ -1,6 +1,6 @@
 ---
 title: Diseñe configuraciones de ER para suprimir caracteres BOM en archivos generados
-description: Este tema explica cómo configurar un formato de informes electrónicos (ER) para generar informes que suprimen los caracteres de marca BOM.
+description: Este artículo explica cómo configurar un formato de informes electrónicos (ER) para generar informes que suprimen los caracteres de marca BOM.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847470"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Diseñe configuraciones de ER para suprimir caracteres BOM en archivos generados
 
@@ -38,7 +38,7 @@ Si especifica **UTF-8**, **UTF-16** o **UTF-32** como la codificación, la opci�
 
 ![Configuración de la opción Suprimir caracteres BOM de la página de diseñador de formato.](./media/er-suppress-bom-characters-image2.gif)
 
-Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento apropiado. Por ejemplo, complete los pasos del tema [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md). Una vez que haya completado los pasos de la sección [Modificar el formato para que el cálculo se base en la salida generada](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de ese tema, siga estos pasos adicionales.
+Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento apropiado. Por ejemplo, complete los pasos del artículo [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md). Una vez que haya completado los pasos de la sección [Modificar el formato para que el cálculo se base en la salida generada](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) de ese artículo, siga estos pasos adicionales.
 
 1. Especifique la codificación UTF:
 
@@ -48,12 +48,12 @@ Para revisar la funcionalidad en tiempo de ejecución, complete el procedimiento
 2. Genere un archivo XML que incluya un carácter BOM:
 
     1. Cambie la opción **Suprimir caracteres BOM** a **No** para incluir caracteres BOM en archivos XML generados.
-    2. Complete los pasos de la sección [Aplazar la ejecución del elemento XML de resumen para que se utilice el total calculado](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) del tema [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md) y guarde el archivo generado como **SampleXmlReport.xml**.
+    2. Complete los pasos de la sección [Aplazar la ejecución del elemento XML de resumen para que se utilice el total calculado](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) del artículo [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md) y guarde el archivo generado como **SampleXmlReport.xml**.
 
 3. Genere un archivo XML que no incluya un carácter BOM:
 
     1. Cambie la opción **Suprimir caracteres BOM** a **Sí** para eliminar caracteres BOM en archivos XML generados.
-    2. Complete los pasos de la sección [Aplazar la ejecución del elemento XML de resumen para que se utilice el total calculado](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) del tema [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md) y guarde el archivo generado como **SampleXmlReport (1).xml**.
+    2. Complete los pasos de la sección [Aplazar la ejecución del elemento XML de resumen para que se utilice el total calculado](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) del artículo [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md) y guarde el archivo generado como **SampleXmlReport (1).xml**.
 
 4. En una herramienta de comparación de archivos, compare los archivos generados.
 

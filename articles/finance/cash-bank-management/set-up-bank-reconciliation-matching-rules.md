@@ -1,6 +1,6 @@
 ---
 title: Configurar las reglas de coincidencia de conciliación bancaria
-description: Este tema explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación.
+description: Este artículo explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación.
 author: panolte
 ms.date: 08/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 218b07908fe88937d3f495ded356fe4a3606110b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: baea7ea7ec98c905e9ae896a8cf1e4ac54fb4a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899940"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurar las reglas de coincidencia de conciliación bancaria
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación.
+Este artículo explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación.
 
 Puede configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Una regla de coincidencia de conciliación es un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de transacción bancaria de Dynamics 365 Finance durante el proceso de conciliación. Use la página **Reglas que coinciden de conciliación** para configurar las reglas de coincidencia de conciliación. Puede configurar más de una regla de coincidencia y después crear un conjunto de reglas de coincidencia de conciliación bancaria en la página **Conjuntos de reglas de coincidencia de conciliación**. 
 

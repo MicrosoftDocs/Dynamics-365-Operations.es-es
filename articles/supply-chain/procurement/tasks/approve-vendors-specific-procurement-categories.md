@@ -1,6 +1,6 @@
 ---
 title: Aprobar proveedores para categorías de compras específicas
-description: Este tema explica cómo aprobar proveedores para las categorías de compras específicas en Dynamics 365 Supply Chain Management.
+description: Este artículo explica cómo aprobar proveedores para las categorías de compras específicas en Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247833a011704a9e3c83ad4a2b464ee49d6b3f5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bb6861c1cfbc7702fae74b4aa97fe618b50ac0bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903996"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Aprobar proveedores para categorías de compras específicas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo aprobar proveedores para las categorías de compras específicas en Dynamics 365 Supply Chain Management. Cuando se crea una solicitud de compra, puede haber un requisito para seleccionar un proveedor aprobado o preferido, en función de cómo se configuran las directivas de compras. Este procedimiento le muestra cómo especificar que un proveedor está aprobado o preferido para una categoría de compras específica. Esta tarea la lleva a cabo normalmente un profesional de compras. Puede utilizar este procedimiento en la empresa de datos de demostración USMF.
+Este artículo explica cómo aprobar proveedores para las categorías de compras específicas en Dynamics 365 Supply Chain Management. Cuando se crea una solicitud de compra, puede haber un requisito para seleccionar un proveedor aprobado o preferido, en función de cómo se configuran las directivas de compras. Este procedimiento le muestra cómo especificar que un proveedor está aprobado o preferido para una categoría de compras específica. Esta tarea la lleva a cabo normalmente un profesional de compras. Puede utilizar este procedimiento en la empresa de datos de demostración USMF.
 
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Proveedores > Todos los proveedores**.
 2. Seleccione el proveedor que desea establecer como proveedor aprobado o preferido para una categoría.

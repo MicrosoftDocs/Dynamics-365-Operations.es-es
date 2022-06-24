@@ -1,6 +1,6 @@
 ---
-title: Revalorización de divisa extranjera para Contabilidad general
-description: 'Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario.'
+title: Revalorización de divisa extranjera para el libro mayor
+description: 'Este artículo proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario.'
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904539"
 ---
-# <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para Contabilidad general
+# <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para el libro mayor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario. 
+Este artículo proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario. 
 
 Como parte de una período final, las prácticas contables requieren que los saldos de la cuenta de contabilidad general en divisas extranjeras se revaloricen mediante distintos tipos de cambio (circulante, histórico, medio, etc.). Por ejemplo, un convenio contable requiere que los activos y los pasivos se revaloricen al tipo de cambio actual, los activos fijos al tipo de cambio histórico, y las cuentas de pérdidas y ganancias a la media mensual. La revalorización de divisa extranjera de la contabilidad general se puede usar para revalorizar el balance de situación y las cuentas de pérdidas y ganancias. 
 

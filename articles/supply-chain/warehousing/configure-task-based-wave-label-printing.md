@@ -1,6 +1,6 @@
 ---
 title: Programar la impresión de etiquetas de oleada durante la oleada
-description: Este tema describe cómo configurar y utilizar la funcionalidad para la impresión de etiquetas wave basada en tareas.
+description: Este artículo describe cómo configurar y utilizar la funcionalidad para la impresión de etiquetas wave basada en tareas.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889468"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programar la impresión de etiquetas de oleada durante la oleada
 
@@ -30,7 +30,7 @@ Cuando usa la función *Impresión de etiquetas de ondas basada en tareas*, el s
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Active la función de impresión de etiquetas de ondas basada en tareas en la gestión de funciones
 
-Para utilizar las funciones descritas en este tema, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
+Para utilizar las funciones descritas en este artículo, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
 1. *Impresión de etiquetas onduladas* - Esta función es necesaria para habilitar el método de proceso de ondas para la impresión de etiquetas de ondas.
 1. *Bloqueo de trabajo en toda la organización*: esta característica es requerida para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).

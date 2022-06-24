@@ -1,6 +1,6 @@
 ---
 title: Configurar campos promocionados para los pasos en la aplicación móvil Warehouse Management
-description: Este tema describe cómo promocionar y resaltar información específica para cualquier paso en los flujos de tareas para la aplicación móvil Warehouse Management.
+description: Este artículo describe cómo promocionar y resaltar información específica para cualquier paso en los flujos de tareas para la aplicación móvil Warehouse Management.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857065"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurar campos promocionados para los pasos en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Las características que se describen en este tema se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
+> Las características que se describen en este artículo se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
 
-Este tema describe cómo promocionar y resaltar información específica para cualquier paso en los flujos de tareas para la aplicación móvil Warehouse Management. Esta capacidad puede ayudar a centrar la atención de los trabajadores en los campos más importantes mientras trabajan en un flujo. Para cada paso de cada proceso, los administradores pueden seleccionar qué campos promover y qué campos resaltar.
+Este artículo describe cómo promocionar y resaltar información específica para cualquier paso en los flujos de tareas para la aplicación móvil Warehouse Management. Esta capacidad puede ayudar a centrar la atención de los trabajadores en los campos más importantes mientras trabajan en un flujo. Para cada paso de cada proceso, los administradores pueden seleccionar qué campos promover y qué campos resaltar.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Habilitar los campos promocionados en su sistema
 
@@ -44,7 +44,7 @@ Antes de poder configurar campos promocionados, debe completar el siguiente proc
     - **Módulo:** *Gestión de almacén*
     - **Nombre de la característica**: *Campos promocionados de la aplicación Warehouse*
 
-    Esta característica es la que se describe en este tema.
+    Esta característica es la que se describe en este artículo.
 
 1. Actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
@@ -56,7 +56,7 @@ Use el siguiente procedimiento para configurar campos promocionados.
 1. Cree una invalidación específica del menú para el menú y el paso relevantes como se describe en [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md).
 1. Busque la combinación de los valores de **Id. de paso** y **Nombre del elemento del menú** que desea editar y luego seleccione el valor en la columna **Id. de paso**.
 1. En la página que aparece, en la ficha desplegable **Seleccionar campos promocionados**, seleccione **Seleccionar campos** en la barra de herramientas.
-1. En el cuadro de diálogo **Campos promocionados**, seleccione los campos que desea promocionar. También puede resaltar hasta dos de los campos seleccionados. Los campos resaltados se mostrarán en negrita en la aplicación móvil Warehouse Management. Al seleccionar campos, tenga en cuenta el hecho de que algunas pantallas pueden ser lo suficientemente grandes como para mostrar solo uno o dos campos promocionados superiores. Para ver un ejemplo que muestra cómo usar esta configuración, consulte el escenario más adelante en este tema.
+1. En el cuadro de diálogo **Campos promocionados**, seleccione los campos que desea promocionar. También puede resaltar hasta dos de los campos seleccionados. Los campos resaltados se mostrarán en negrita en la aplicación móvil Warehouse Management. Al seleccionar campos, tenga en cuenta el hecho de que algunas pantallas pueden ser lo suficientemente grandes como para mostrar solo uno o dos campos promocionados superiores. Para ver un ejemplo que muestra cómo usar esta configuración, consulte el escenario más adelante en este artículo.
 
     > [!NOTE]
     > La lista **Campos disponibles** se limita a los campos que pueden aparecer para el elemento del menú. Sin embargo, otros factores (como la composición del artículo) determinan si un campo aparece realmente en la aplicación móvil Warehouse Management. Si ha configurado campos promocionados, solo los campos seleccionados aparecerán en la página principal de la aplicación móvil Warehouse Management. Sin embargo, los trabajadores aún pueden ver los campos restantes si tocan en la página de detalles.

@@ -1,6 +1,6 @@
 ---
 title: Insertar aplicaciones de lienzo desde Power Apps
-description: Este tema explica cómo insertar aplicaciones de lienzo de Microsoft Power Apps en el cliente para aumentar la funcionalidad de producto.
+description: Este artículo explica cómo insertar aplicaciones de lienzo de Microsoft Power Apps en el cliente para aumentar la funcionalidad de producto.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898409"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Insertar aplicaciones de lienzo desde Power Apps
 
@@ -33,7 +33,7 @@ Para obtener más información acerca de la integración de aplicaciones de lien
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Agregar una aplicación de lienzo de Power Apps incrustada a una página
 
-Antes de incrustar una aplicación de lienzo de Power Apps en el cliente, primero debe encontrar o compilar una aplicación con las representaciones visuales y/o la funcionalidades deseadas. Este tema no incluye una descripción detallada del proceso para crear aplicaciones. Si es nuevo en Power Apps, mire la [documentación de Power Apps](/powerapps/).
+Antes de incrustar una aplicación de lienzo de Power Apps en el cliente, primero debe encontrar o compilar una aplicación con las representaciones visuales y/o la funcionalidades deseadas. Este artículo no incluye una descripción detallada del proceso para crear aplicaciones. Si es nuevo en Power Apps, mire la [documentación de Power Apps](/powerapps/).
 
 Hay tres formas de insertar una aplicación de lienzo en una aplicación de Finanzas y operaciones. Puede utilizar el enfoque que se adapte mejor a su escenario. 
 
@@ -60,7 +60,7 @@ El siguiente procedimiento muestra cómo insertar una aplicación de lienzo en u
 
     - Si se va a acceder a la aplicación mediante el botón de menú de **Power Apps**, de forma alternativa puede hacer clic en el botón del menú de **Power Apps** en el panel de acciones estándar y, a continuación, seleccionar **Agregar una aplicación**.
 
-3. Configure la aplicación insertada. Para obtener más información, consulte la sección [Configurar una aplicación de lienzo](#configuring-a-canvas-app) más adelante en este tema.
+3. Configure la aplicación insertada. Para obtener más información, consulte la sección [Configurar una aplicación de lienzo](#configuring-a-canvas-app) más adelante en este artículo.
 4. Cuando haya confirmado que la configuración es correcta, seleccione **Insertar**.
 
     - Si la característica **Vistas guardadas** está desactivada, se le pedirá que actualice el explorador para ver la aplicación insertada.
@@ -76,7 +76,7 @@ Es posible que desee insertar una aplicación de lienzo desde el panel de inform
 1. Abra el panel.
 2. Seleccione y mantenga presionada (o haga clic con el botón derecho) la página, seleccione **Personalizar** y luego seleccione **Agregar una página**.
 3. En el panel **Agregar una página**, seleccione **Power Apps**.
-4. Configure la aplicación insertada. Para obtener más información, consulte la sección [Configurar una aplicación de lienzo](#configuring-a-canvas-app) más adelante en este tema.
+4. Configure la aplicación insertada. Para obtener más información, consulte la sección [Configurar una aplicación de lienzo](#configuring-a-canvas-app) más adelante en este artículo.
 5. Seleccione **Guardar** para agregar la aplicación al panel de información como un nuevo mosaico.
 6. Seleccione el nuevo icono en el panel de información y confirme que la aplicación de lienzo aparece como se esperaba.
 
@@ -86,7 +86,7 @@ Al insertar una aplicación de lienzo, debe establecer los siguientes parámetro
 
 - **Nombre**: escriba el texto que debe mostrarse para el botón o la pestaña que va a contener la aplicación insertada. Muchas veces puede que desee repetir el nombre de la aplicación en este campo.
 - **Id. de aplicación**: indica el identificador único global (GUID) de la aplicación de lienzo que desea insertar. Para recuperar este valor, encuentre la aplicación en [make.powerapps.com](https://make.powerapps.com) y después mire en el campo **Identificador de la aplicación** en **Detalles**.
-- **Contexto de entrada para la aplicación**: opcionalmente, puede seleccionar el campo que contiene los datos que desea pasar a la aplicación como entrada. Para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finanzas y operaciones, consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación que aproveche los datos enviados desde aplicaciones de Finanzas y operaciones](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) más adelante en este mismo tema.
+- **Contexto de entrada para la aplicación**: opcionalmente, puede seleccionar el campo que contiene los datos que desea pasar a la aplicación como entrada. Para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finanzas y operaciones, consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación que aproveche los datos enviados desde aplicaciones de Finanzas y operaciones](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) más adelante en este mismo artículo.
 
     A partir de la versión 10.0.19, la entidad jurídica actual también se pasará a la aplicación de lienzo como contexto a través del parámetro de URL **cmp**. Este comportamiento no afectará a la aplicación de lienzo de destino hasta que la aplicación use esa información.
 
@@ -145,7 +145,7 @@ Siga estos pasos para editar la configuración de una aplicación incrustada:
 
 Después de insertar una aplicación en una página, hay algunas maneras de quitarla si es necesario:
 
-- Vaya al panel **Editar una aplicación** mediante las instrucciones de [Editar una aplicación incrustada](#editing-an-embedded-app) en la sección anterior en este tema. Confirme que el panel muestra información para la aplicación incrustada que desea quitar y haga clic en el botón **Eliminar**.
+- Vaya al panel **Editar una aplicación** mediante las instrucciones de [Editar una aplicación incrustada](#editing-an-embedded-app) en la sección anterior en este artículo. Confirme que el panel muestra información para la aplicación incrustada que desea quitar y haga clic en el botón **Eliminar**.
 - Si la aplicación insertada se agregó desde el panel de información, abra el panel, seleccione y mantenga presionado (o haga clic con el botón derecho en) el icono asociado con la aplicación de lienzo, seleccione **Personalizar** y, a continuación, seleccione **Quitar página**. 
 - Debido a que la aplicación incrustada está guardado como datos de personalización, desactivando la personalización de su página también quitará cualquier aplicación incrustada en la página. Tenga en cuenta que borrar la personalización de la página es permanente y no se puede deshacer. Para quitar sus personalizaciones de una página, seleccione **Opciones** y después haga clic en **Personalizar esta página** y finalmente en el botón **Borrar**. Después de actualizar su explorador, todas las personalizaciones anteriores para esta página se quitarán. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más información sobre cómo optimizar páginas utilizando la personalización.
 
@@ -153,7 +153,7 @@ Después de insertar una aplicación en una página, hay algunas maneras de quit
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Desarrollador] Modelado de una aplicación de lienzo en un formulario
 
-Si bien este tema se centra en la incrustación de aplicaciones de lienzo mediante la personalización, los desarrolladores también tienen la opción de agregar una aplicación de lienzo a un formulario mediante la experiencia de desarrollo de Visual Studio. Para hacer esto, simplemente agregue un PowerAppsHostControl al formulario. Las propiedades de metadatos disponibles en el control brindan las mismas capacidades que la experiencia de personalización.
+Si bien este artículo se centra en la incrustación de aplicaciones de lienzo mediante la personalización, los desarrolladores también tienen la opción de agregar una aplicación de lienzo a un formulario mediante la experiencia de desarrollo de Visual Studio. Para hacer esto, simplemente agregue un PowerAppsHostControl al formulario. Las propiedades de metadatos disponibles en el control brindan las mismas capacidades que la experiencia de personalización.
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Desarrollador] Especificar dónde se puede insertar una aplicación
 

@@ -1,6 +1,6 @@
 ---
 title: Introducción al cálculo de impuestos
-description: Este tema explica cómo configurar el cálculo de impuestos.
+description: Este artículo explica cómo configurar el cálculo de impuestos.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855294"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introducción al cálculo de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre cómo comenzar con el cálculo de impuestos. Las secciones de este tema le guían a través del diseño de alto nivel y pasos de configuración en Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
+Este artículo proporciona información sobre cómo comenzar con el cálculo de impuestos. Las secciones de este artículo le guían a través del diseño de alto nivel y pasos de configuración en Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management. 
 
 La configuración consta de tres pasos principales.
 
@@ -77,11 +77,11 @@ Después de completar estos pasos, las siguientes configuraciones se sincronizan
 - Grupos de impuestos
 - Grupos de impuestos de artículos
 
-En las secciones restantes de este tema se proporcionan pasos de configuración más detallados.
+En las secciones restantes de este artículo se proporcionan pasos de configuración más detallados.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Antes de que pueda completar los procedimientos restantes de este tema, debe cumplir los siguientes requisitos previos:<!--TO HERE-->
+Antes de que pueda completar los procedimientos restantes de este artículo, debe cumplir los siguientes requisitos previos:<!--TO HERE-->
 
 - Debe tener acceso a su cuenta de LCS y haber implementado un proyecto de LCS que tenga un entorno de Nivel 2 (o superior) que ejecute la versión 10.0.21 de Dynamics 365 o una versión posterior.
 - Debe crear un entorno de RCS para su organización y debe tener acceso a su cuenta. Para obtener más información sobre cómo crear un entorno de RCS, consulte [Información general de Regulatory Configuration Service](rcs-overview.md).
@@ -212,7 +212,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | Ventas            | BEL       | FRA     | BEL_UE       |
     
     > [!NOTE]
-    > Si el grupo de impuestos sobre las ventas predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este tema.
+    > Si el grupo de impuestos sobre las ventas predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este artículo.
 
 22. En la pestaña **Aplicabilidad del grupo de impuestos de artículos**, seleccione las columnas necesarias para determinar el código de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos de artículos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos de artículos en la línea de transacción.
 
@@ -224,7 +224,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | D0003     | Reducido        |
 
     > [!NOTE]
-    > Si el grupo de impuestos sobre las ventas de artículos predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este tema.
+    > Si el grupo de impuestos sobre las ventas de artículos predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este artículo.
 
     Para obtener más información sobre cómo se determinan los códigos de impuestos en Cálculo de impuestos, consulte [Lógica de determinación del grupo de impuestos y el grupo de impuestos de artículos](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ La configuración en esta sección se realiza por entidad jurídica. Debe config
 2. En la pestaña **General**, establezca los campos siguientes:
 
     - **Habilitar el servicio Cálculo de impuestos**: active esta casilla para habilitar Cálculo de impuestos para la entidad jurídica. Si el complemento de cálculo de impuestos no está habilitado para la entidad jurídica actual, la entidad jurídica seguirá utilizando el motor de impuestos existente para determinar y calcular los impuestos.
-    - **Configuración de características**: seleccione una configuración y versión de característica de impuestos publicada para la entidad jurídica. Para obtener más información sobre cómo configurar y completar una característica de impuestos publicada, consulte la sección anterior de este tema.
+    - **Configuración de características**: seleccione una configuración y versión de característica de impuestos publicada para la entidad jurídica. Para obtener más información sobre cómo configurar y completar una característica de impuestos publicada, consulte la sección anterior de este artículo.
     - **Procesos de negocio** - Seleccione los procesos comerciales para habilitar.
 
 3. En la pestaña **Cálculo**, defina la regla de redondeo esperada para la entidad jurídica. Para obtener más información sobre la lógica de redondeo, consulte [Reglas de redondeo del cálculo de impuestos](https://go.microsoft.com/fwlink/?linkid=2166988).

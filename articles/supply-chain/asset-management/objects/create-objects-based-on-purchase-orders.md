@@ -1,6 +1,6 @@
 ---
 title: Crear activos en función de los pedidos de compra
-description: En este tema se explica cómo puede crear una lista de artículos de activo que se puede usar como la base para crear activos para trabajos de mantenimiento en Administración de activos.
+description: En este artículo se explica cómo puede crear una lista de artículos de activo que se puede usar como la base para crear activos para trabajos de mantenimiento en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893711"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crear activos en función de los pedidos de compra
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754116"
 
  
 
-En este tema se explica cómo puede crear una lista de artículos de activo que se puede usar como la base para crear activos para trabajos de mantenimiento en Administración de activos. Según los artículos del activo, podrá ver una lista de las líneas de pedido de compra que se han creado en esos artículos. El propósito de esta funcionalidad es crear fácilmente un activo en Administración de activos a partir de un pedido de compra.
+En este artículo se explica cómo puede crear una lista de artículos de activo que se puede usar como la base para crear activos para trabajos de mantenimiento en Administración de activos. Según los artículos del activo, podrá ver una lista de las líneas de pedido de compra que se han creado en esos artículos. El propósito de esta funcionalidad es crear fácilmente un activo en Administración de activos a partir de un pedido de compra.
 
 Primero, se configuran los artículos que se van a usar para crear activos a partir de un pedido de compra en **Artículos de activo**. Después de crear una línea de pedido de compra, debe crear los activos en **Activos pendientes**. Se puede decidir en qué etapa del pedido de compra se debe crear el activo.
 

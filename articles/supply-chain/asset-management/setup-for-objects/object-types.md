@@ -1,6 +1,6 @@
 ---
-title: Tipos de activos
-description: En este tema se explica cómo crear tipos de activos en Administración de activos. También describe los elementos relacionados con los tipos de activos.
+title: Tipos de activo
+description: En este artículo se explica cómo crear tipos de activos en Administración de activos. También describe los elementos relacionados con los tipos de activos.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887642"
 ---
-# <a name="asset-types"></a>Tipos de activos
+# <a name="asset-types"></a>Tipos de activo
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Este tema explica cómo crear tipos de activos. También describe los elementos relacionados con los tipos de activos. Los tipos de activos se usan como categorías generales para los activos. Algunos ejemplos son máquinas CNC, equipo de medición y motores de camión. Los tipos de activo se usan para gestionar los tipos de trabajo de mantenimiento (tareas de mantenimiento), los estados de ciclo de vida de activo, los contadores, los atributos de activo, las plantillas de evaluación de condición y los modelos de activo que se pueden seleccionar para un activo. Al crear un activo, debe especificar el tipo.
+Este artículo explica cómo crear tipos de activos. También describe los elementos relacionados con los tipos de activos. Los tipos de activos se usan como categorías generales para los activos. Algunos ejemplos son máquinas CNC, equipo de medición y motores de camión. Los tipos de activo se usan para gestionar los tipos de trabajo de mantenimiento (tareas de mantenimiento), los estados de ciclo de vida de activo, los contadores, los atributos de activo, las plantillas de evaluación de condición y los modelos de activo que se pueden seleccionar para un activo. Al crear un activo, debe especificar el tipo.
 
 Para cada tipo de activo, se pueden crear variaciones de la configuración del tipo de activo. Por ejemplo, si tiene un tipo de activo **Camiones**, puede crear variaciones de ese tipo de activo para los distintos fabricantes del activo y modelos del activo. A cada configuración de tipo de activo se le pueden agregar las piezas de repuesto y los planes de mantenimiento necesarios.
 

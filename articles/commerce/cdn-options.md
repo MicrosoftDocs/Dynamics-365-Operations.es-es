@@ -1,6 +1,6 @@
 ---
 title: Opciones de implementación de la red de entrega de contenido
-description: Este tema revisa las diferentes opciones para la implementación de la red de entrega de contenido (CDN) que se pueden usar con ambientes de Microsoft Dynamics 365 Commerce. Estas opciones incluyen instancias nativas proporcionadas por Commerce de Azure Front Door e instancias propiedad del cliente de Azure Front Door.
+description: Este artículo revisa las diferentes opciones para la implementación de la red de entrega de contenido (CDN) que se pueden usar con ambientes de Microsoft Dynamics 365 Commerce. Estas opciones incluyen instancias nativas proporcionadas por Commerce de Azure Front Door e instancias propiedad del cliente de Azure Front Door.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884426"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Opciones de implementación de la red de entrega de contenido
 
 [!include [banner](includes/banner.md)]
 
-Este tema revisa las diferentes opciones para la implementación de la red de entrega de contenido (CDN) que se pueden usar con ambientes de Microsoft Dynamics 365 Commerce. Estas opciones incluyen instancias nativas proporcionadas por Commerce de Azure Front Door e instancias propiedad del cliente de Azure Front Door.
+Este artículo revisa las diferentes opciones para la implementación de la red de entrega de contenido (CDN) que se pueden usar con ambientes de Microsoft Dynamics 365 Commerce. Estas opciones incluyen instancias nativas proporcionadas por Commerce de Azure Front Door e instancias propiedad del cliente de Azure Front Door.
 
 Los clientes de Commerce tienen varias opciones cuando están considerando qué servicio de red CDN usar con su entorno de Commerce. Commerce se lanza con soporte básico de Azure Front Door que cubre los requisitos básicos de hospedaje y dominio personalizado. Para las empresas que desean más control y capacidades de seguridad más específicas, como un firewall de aplicaciones web (WAF), la mejor opción podría ser usar una instancia de Azure Front Door propiedad del cliente o un servicio CDN externo.
 

@@ -1,6 +1,6 @@
 ---
 title: Actualizaciones reglamentarias
-description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
+description: Este artículo proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904292"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
 [!include [banner](../includes/banner.md)]
 
-Este tema muestra las actualizaciones normativas que se planifican y emiten en las ubicaciones admitidas por Dynamics 365 Finance. Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique. Para más información, consulte [Directiva de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Este artículo muestra las actualizaciones normativas que se planifican y emiten en las ubicaciones admitidas por Dynamics 365 Finance. Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique. Para más información, consulte [Directiva de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener más información sobre otras características normativas planeadas y emitidas, consulte los [planes de lanzamiento de Dynamics 365 y Power Platform](/business-applications-release-notes/index).
 

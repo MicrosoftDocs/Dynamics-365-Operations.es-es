@@ -1,6 +1,6 @@
 ---
 title: Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
-description: Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
+description: Este artículo describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bed2d7d9ad7577c78e3cf14f4b759f1d073ac32f
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 327bb259cc108f1fad068c847441229dcaee7ff1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859238"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
+Este artículo describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
 
 El escenario de planificación maestra implica las condiciones siguientes:
 

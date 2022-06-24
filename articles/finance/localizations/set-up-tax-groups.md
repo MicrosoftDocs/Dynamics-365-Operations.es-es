@@ -1,6 +1,6 @@
 ---
 title: Configurar grupos de impuestos
-description: En este tema se explica cómo configurar grupos de impuestos en el servicio de cálculo de Impuestos.
+description: En este artículo se explica cómo configurar grupos de impuestos en el servicio de cálculo de Impuestos.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 50abafb958edfb8476434ff5842cd84cb186962f
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 89c5670ee7e78f2dc51f128c3ae8d284bb6b925b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862910"
 ---
 # <a name="set-up-tax-groups"></a>Configurar grupos de impuestos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo configurar grupos de impuestos en el servicio de cálculo de Impuestos. También se explica cómo configurar la matriz de reglas de aplicabilidad de los grupos de impuestos y configurar las líneas en la matriz.
+En este artículo se explica cómo configurar grupos de impuestos en el servicio de cálculo de Impuestos. También se explica cómo configurar la matriz de reglas de aplicabilidad de los grupos de impuestos y configurar las líneas en la matriz.
 
 El concepto de grupos de impuestos en el servicio de cálculo de impuestos se asemeja al concepto de grupos de impuestos de ventas en Microsoft Dynamics 365 Finance. Son grupos de códigos de impuestos. El servicio de cálculo de impuestos utiliza la intersección de un grupo de impuestos y un grupo de impuestos de artículos para determinar los códigos de impuestos.
 

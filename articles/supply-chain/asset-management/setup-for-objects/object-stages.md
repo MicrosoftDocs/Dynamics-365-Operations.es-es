@@ -1,6 +1,6 @@
 ---
 title: Estados de ciclo de vida de activos
-description: Este tema explica los estados de ciclo de vida y los modelos de ciclo de vida de activos en Administración de activos.
+description: Este artículo explica los estados de ciclo de vida y los modelos de ciclo de vida de activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901071"
 ---
 # <a name="asset-lifecycle-states"></a>Estados de ciclo de vida de activos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722472"
 
  
 
-Este tema explica los estados de ciclo de vida y los modelos de ciclo de vida de activos en Administración de activos. Los estados de ciclo de vida de activo se uasn para definir si el activo está activo o inactivo. Por ejemplo, puede configurar los estados del ciclo de vida de activo como **Creado**, **Activo** y **Finalizado**.
+Este artículo explica los estados de ciclo de vida y los modelos de ciclo de vida de activos en Administración de activos. Los estados de ciclo de vida de activo se uasn para definir si el activo está activo o inactivo. Por ejemplo, puede configurar los estados del ciclo de vida de activo como **Creado**, **Activo** y **Finalizado**.
 
 > [!NOTE]
 > - Los estados de ciclo de vida de solicitud están vinculados a los estados de ciclo de vida de activo. Por lo tanto, cuando una solicitud se cambia a un nuevo estado de ciclo de vida, el activo vinculado a la solicitud se cambia a un nuevo estado de ciclo de vida. Por ejemplo, si cambia el estado de ciclo de vida de una solicitud a **Entrante**, el estado de ciclo de vida del activo vinculado se cambia al estado de ciclo de vida seleccionado en el campo **Estado de ciclo de vida de entrada** en el FastTab **Estado del ciclo de vida de activo** de la página **Modelos de estado de ciclo de vida de activo**. 

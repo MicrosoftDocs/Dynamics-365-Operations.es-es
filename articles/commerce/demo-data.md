@@ -1,6 +1,6 @@
 ---
 title: Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
-description: Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Commerce.
+description: Este artículo proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897234"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Modern POS (MPOS) y Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Commerce.
+Este artículo proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-Los diseños de pantalla de ejemplo que se incluyen con datos de demostración de Commerce proporcionan contenido que está optimizado para distintos segmentos de venta minorista, roles del trabajador en la tienda, y dispositivos. Un solo diseño puede contener varias combinaciones de y tamaños de diseño de cuadrículas de botones, para ayudar a garantizar la cobertura cuando los trabajadores se desplazan entre dispositivos y estaciones. En este tema se destacan las diferencias entre estos diseños, las operaciones que proporcionan y las experiencias totales que brindan.
+Los diseños de pantalla de ejemplo que se incluyen con datos de demostración de Commerce proporcionan contenido que está optimizado para distintos segmentos de venta minorista, roles del trabajador en la tienda, y dispositivos. Un solo diseño puede contener varias combinaciones de y tamaños de diseño de cuadrículas de botones, para ayudar a garantizar la cobertura cuando los trabajadores se desplazan entre dispositivos y estaciones. En este artículo se destacan las diferencias entre estos diseños, las operaciones que proporcionan y las experiencias totales que brindan.
 
 ![Diseños de datos de demostración interdispositivo.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Migración a la Optimización de planificación para la planificación maestra
-description: Este tema proporciona información sobre el nuevo motor de planificación maestro, Planning Optimization y sobre la migración desde el motor existente.
+description: Este artículo proporciona información sobre el nuevo motor de planificación maestro, Planning Optimization y sobre la migración desde el motor existente.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846110"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
 [!include [banner](../includes/banner.md)]
 
-El motor de planificación maestro incorporado está programado para quedar obsoleto (en desuso). Está siendo reemplazado por el complemento de optimización de planificación para Microsoft Dynamics 365 Supply Chain Management. Este tema proporciona información sobre el impacto en las implementaciones nuevas y existentes. Incluye información sobre las acciones necesarias.
+El motor de planificación maestro incorporado está programado para quedar obsoleto (en desuso). Está siendo reemplazado por el complemento de optimización de planificación para Microsoft Dynamics 365 Supply Chain Management. Este artículo proporciona información sobre el impacto en las implementaciones nuevas y existentes. Incluye información sobre las acciones necesarias.
 
 Optimización de planificación permite que los cálculos de planificación maestra se realicen fuera de Supply Chain Management y su base de datos Azure SQL. Los beneficios que están asociados con Optimización de la planificación incluyen un rendimiento mejorado y un impacto minimizado en la base de datos SQL durante las ejecuciones de la planificación maestra. Como las ejecuciones rápidas de la planificación se pueden realizar incluso durante las horas de oficina, los planificadores puedan inmediatamente reaccionar a los cambios de la demanda o configuración de parámetros.
 
@@ -63,7 +63,7 @@ Actualmente, las excepciones para la migración a Optimización de la planificac
 
 Una vez que las funciones necesarias estén disponibles, Microsoft proporcionará un período de gracia hasta que expire la excepción. Se informará al administrador del entorno cuando las funciones necesarias estén disponibles y haya comenzado el período de gracia.
 
-El siguiente diagrama de flujo resume la información proporcionada en este tema para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962). El grupo de productos es responsable de evaluar y aprobar cada solicitud de excepción, así que envíe su solicitud directamente al grupo de productos mediante el enlace provisto y no cree un ticket de soporte para ello. Si se rechaza su solicitud, no cree una incidencia de soporte técnico porque el Soporte de Microsoft no puede volver a evaluar ni otorgar excepciones.
+El siguiente diagrama de flujo resume la información proporcionada en este artículo para que pueda averiguar rápidamente si debe solicitar una excepción. Si necesita solicitar una excepción, complete y envíe el [Cuestionario de excepción y migración de Planning Optimization](https://go.microsoft.com/fwlink/?linkid=2144962). El grupo de productos es responsable de evaluar y aprobar cada solicitud de excepción, así que envíe su solicitud directamente al grupo de productos mediante el enlace provisto y no cree un ticket de soporte para ello. Si se rechaza su solicitud, no cree una incidencia de soporte técnico porque el Soporte de Microsoft no puede volver a evaluar ni otorgar excepciones.
 
 ![Diagrama de flujo de excepciones.](media/exception-diagram.png "Diagrama de flujo de excepciones")
 

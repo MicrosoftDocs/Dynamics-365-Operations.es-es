@@ -1,6 +1,6 @@
 ---
 title: Ámbito de localización mexicana
-description: Este tema describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México.
+description: Este artículo describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México.
 author: sndray
 ms.date: 04/11/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e0dc816ea05ac48f06f897a881d81f71a0348ee92178767177897bd14befcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a68fb6f93dbe9573d7f2e65a3f118ba666d22ba0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845164"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
@@ -28,7 +28,7 @@ Microsoft dedica normalmente recursos considerables a ampliar la funcionalidad d
 
 Dynamics 365 Finance ayuda a las organizaciones a dirigir sus operaciones empresariales y también a gestionar sus obligaciones de cumplir con las leyes, las normas y las prácticas empresariales específicas y habituales del país o región para gestionar las actividades diarias. Este software incluye características y funciones que están diseñados para abordar las leyes o las normativas de informes normativos, financieros, contables o de impuestos que normalmente afectan a los negocios en México.
 
-Sin embargo, Finance no abordan todos los requisitos legislativos, normativos o comerciales de México, ya que las leyes y normativas varían por la forma en que afectan a organizaciones. Por ejemplo, las características normativas que Microsoft suele crear y poner a disposición del público “listas para usar” para Finance en México no suelen incluir funciones que admiten lo siguiente, salvo lo indicado específicamente en este tema:
+Sin embargo, Finance no abordan todos los requisitos legislativos, normativos o comerciales de México, ya que las leyes y normativas varían por la forma en que afectan a organizaciones. Por ejemplo, las características normativas que Microsoft suele crear y poner a disposición del público “listas para usar” para Finance en México no suelen incluir funciones que admiten lo siguiente, salvo lo indicado específicamente en este artículo:
 
 - Normas nacionales
 - Payroll
@@ -47,7 +47,7 @@ Aunque los socios de canal pudieran ofrecer soluciones que cumplan las normas le
 
 Los socios de canal o clientes solo son responsables de las configuraciones, las personalizaciones, localizaciones, o traducciones que creen o implementen en nombre de los clientes, y también de las actualizaciones de estas soluciones. Son también los únicos responsables del soporte o cualquier otro servicio que se ofrezca a los clientes para estas soluciones. Póngase en contacto con su socio de canal para obtener información acerca de las soluciones que el socio de canal crea para las versiones con licencia de Finance.
 
-Este tema describe la estrategia y el ámbito de los requisitos específicos que Microsoft ha implementado como parte del software de Finance and Operations que puso a disposición general en México.
+Este artículo describe la estrategia y el ámbito de los requisitos específicos que Microsoft ha implementado como parte del software de finanzas y operaciones que puso a disposición general en México.
 
 ## <a name="terminology-and-abbreviations"></a>Terminología y siglas
 **Personalización** se refiere a:
@@ -81,16 +81,16 @@ Este tema describe la estrategia y el ámbito de los requisitos específicos que
 
 Normalmente la estrategia de Microsoft para abordar los requisitos de informes de impuestos, financieros, contables o estatutarios para México consiste en proporcionar localizaciones para Finance que:
 
-- Implementan los requisitos fiscales federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope) más adelante en este tema.
-- Entregan las nuevas características específicas normativas mediante configuraciones o mediante el desarrollo de una nueva funcionalidad que implementa los requisitos federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope), de acuerdo con la información especificada en este tema.
+- Implementan los requisitos fiscales federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope) más adelante en este artículo.
+- Entregan las nuevas características específicas normativas mediante configuraciones o mediante el desarrollo de una nueva funcionalidad que implementa los requisitos federales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope), de acuerdo con la información especificada en este artículo.
 - Entregan nuevas características normativas específicas en el Service Pack más reciente disponible, o en un Service Pack nuevo, para las versiones admitidas de Finance.
 - Aplican los estándares nacionales y las características competitivas de la localización, mientras que Microsoft, a su discreción, determina si son necesarias o adecuadas en función de las necesidades de negocio de la región.
 - No se centre en los requisitos de negocios, segmentos, verticales, regiones, o grandes empresas específicos, incluso cuando estos requisitos son requeridos por leyes, estatutos, o regulaciones en los niveles federal, estatal o de la ciudad.
 - Excluyen los requisitos municipales, excepto los requisitos municipales que se detallan en la sección [Ámbito mexicano de localización](#mexican-localization-scope).
 
-Existen leyes y requisitos específicos que se encuentran fuera de ámbito de Finance. Estas leyes y requisitos se enumeran en la sección [Fuera de ámbito](#out-of-scope) más adelante en este tema.
+Existen leyes y requisitos específicos que se encuentran fuera de ámbito de Finance. Estas leyes y requisitos se enumeran en la sección [Fuera de ámbito](#out-of-scope) más adelante en este artículo.
 
-Las localizaciones mexicanas que Microsoft desarrolla para Finance se limitan a las características y la funcionalidad que se describen en este tema. Por lo tanto, Finance debe ser analizados por clientes potenciales o por un profesional de impuestos (como un auditor fiscal y contable, una empresa especializada en derecho financiero o una empresa de consultoría de impuestos) que pueda realizar una evaluación para determinar si la funcionalidad es adecuada para atender las necesidades del negocio del cliente o si se requieren soluciones personalizadas.
+Las localizaciones mexicanas que Microsoft desarrolla para Finance se limitan a las características y la funcionalidad que se describen en este artículo. Por lo tanto, Finance debe ser analizados por clientes potenciales o por un profesional de impuestos (como un auditor fiscal y contable, una empresa especializada en derecho financiero o una empresa de consultoría de impuestos) que pueda realizar una evaluación para determinar si la funcionalidad es adecuada para atender las necesidades del negocio del cliente o si se requieren soluciones personalizadas.
 
 ## <a name="mexican-localization-scope"></a>Ámbito de localización mexicana
 La interfaz de usuario y la ayuda en línea para Finance se traducen a español mexicano. Es posible que la documentación adicional, como documentación y material para la formación, esté disponible solo en inglés y no esté disponible cuando el software se lance en general en México.
@@ -546,7 +546,7 @@ Los siguientes requisitos específicos están fuera de ámbito en las localizaci
 
 - Generación de CFDI para los documentos de nómina.
 - Los archivos XML electrónicos de las cuentas contables no incluyen la marca digital.
-- Requisitos de estados o regiones distintos de los descritos en la sección [Estrategia mexicana de localización](#mexican-localization-strategy) de este tema.
+- Requisitos de estados o regiones distintos de los descritos en la sección [Estrategia mexicana de localización](#mexican-localization-strategy) de este artículo.
 - Requisitos de agencias reguladoras o autarquías distintos del SAT.
 
 ### <a name="modules"></a>Módulos

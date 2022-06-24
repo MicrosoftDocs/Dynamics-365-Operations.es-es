@@ -1,6 +1,6 @@
 ---
 title: Configurar un elemento de menú de dispositivo móvil para proporcionar una descripción general de la línea de selección
-description: Este tema explica cómo definir cuándo se mostrará una lista de todas las líneas de trabajo a los trabajadores del almacén que están procesando el trabajo del almacén en un dispositivo móvil. Esta capacidad puede ser útil para los trabajadores del almacén que a menudo requieren una descripción general de las líneas de selección en una orden de trabajo para poder optimizar su secuencia de selección.
+description: Este artículo explica cómo definir cuándo se mostrará una lista de todas las líneas de trabajo a los trabajadores del almacén que están procesando el trabajo del almacén en un dispositivo móvil. Esta capacidad puede ser útil para los trabajadores del almacén que a menudo requieren una descripción general de las líneas de selección en una orden de trabajo para poder optimizar su secuencia de selección.
 author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d3a8972c5d2f4c52dddef458ebd6079118cadfe
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885678"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurar un elemento de menú de dispositivo móvil para proporcionar una descripción general de la línea de selección
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar las opciones relacionadas con la descripción general de la línea de selección para los elementos del menú del dispositivo móvil que se utilizan para procesar el trabajo de preparación. La descripción general de la línea de selección permite a los trabajadores del almacén ver y seleccionar de una lista todas las líneas de trabajo relacionadas con su tarea actual. Esta capacidad puede ayudar a los trabajadores a optimizar su secuencia de selección. La característica proporciona opciones que reemplazan el botón **Omitir** estándar que permite a los trabajadores recorrer las líneas de una en una, en un orden fijo. (Sin embargo, la opción de usar ese botón sigue estando disponible).
+Este artículo explica cómo configurar las opciones relacionadas con la descripción general de la línea de selección para los elementos del menú del dispositivo móvil que se utilizan para procesar el trabajo de preparación. La descripción general de la línea de selección permite a los trabajadores del almacén ver y seleccionar de una lista todas las líneas de trabajo relacionadas con su tarea actual. Esta capacidad puede ayudar a los trabajadores a optimizar su secuencia de selección. La característica proporciona opciones que reemplazan el botón **Omitir** estándar que permite a los trabajadores recorrer las líneas de una en una, en un orden fijo. (Sin embargo, la opción de usar ese botón sigue estando disponible).
 
 Los administradores pueden configurar cada elemento de menú individualmente para controlar cómo, cuándo y dónde la aplicación móvil Warehouse Management presenta la descripción general de la línea de selección.
 

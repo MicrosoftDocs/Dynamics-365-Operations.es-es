@@ -1,6 +1,6 @@
 ---
-title: Reservas de visibilidad de inventario
-description: Este tema describe cómo configurar la función de reserva para crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario.
+title: Reservas de Inventory Visibility
+description: Este artículo describe cómo configurar la función de reserva para crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895739"
 ---
-# <a name="inventory-visibility-reservations"></a>Reservas de visibilidad de inventario
+# <a name="inventory-visibility-reservations"></a>Reservas de Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo configurar la función de reserva para crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario.
+Este artículo describe cómo configurar la función de reserva para crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario.
 
 Las reservas marcan una cantidad de inventario que se utilizará en el futuro. Cuando crea una reserva, el sistema evita que otros pedidos reserven o consuman los bienes reservados hasta que la reserva se consuma o se anule. Las reservas se crean, consumen y cancelan mediante llamadas de API al servicio de visibilidad de inventario.
 

@@ -1,30 +1,24 @@
 ---
 title: Promover una variación y completar un experimento
-description: Este tema describe cómo promover una variación exitosa y completar un experimento en Dynamics 365 Commerce.
+description: Este artículo describe cómo promover una variación exitosa y completar un experimento en Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738755"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942752"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promover una variación y completar un experimento
 
-Este tema describe cómo promover la variación que produjo los mejores resultados en su experimento y cómo completar el experimento. El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en temas separados.
+Este artículo describe cómo promover la variación que produjo los mejores resultados en su experimento y cómo completar el experimento. El siguiente diagrama muestra todos los pasos necesarios para configurar y ejecutar un experimento en un sitio web de comercio electrónico en Dynamics 365 Commerce. Los pasos adicionales se tratan en artículos separados.
 
 [ ![Recorrido del usuario de experimentación: revisar y completar.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ Para promocionar la variación ganadora, siga estos pasos.
 ## <a name="delete-your-experiment"></a>Eliminar el experimento
 Si bien no es necesario que elimine un experimento completado en Commerce, puede optar por eliminarlo para ahorrar espacio o limpiar su espacio de trabajo. 
 
-Para eliminar un experimento en el generador de sitios de Commerce, siga estos pasos.
+Para eliminar un experimento completado en el generador de sitios de Commerce, siga estos pasos.
 
 1. Seleccione **Experimentos** en el panel de navegación izquierdo y seleccione el experimento. 
     > [!NOTE]

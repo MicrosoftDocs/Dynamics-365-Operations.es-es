@@ -1,6 +1,6 @@
 ---
 title: El registro TaxTrans no se genera
-description: Este tema proporciona información sobre resolución de problemas que puede ayudar cuando no se genera un registro TaxTrans.
+description: Este artículo proporciona información sobre resolución de problemas que puede ayudar cuando no se genera un registro TaxTrans.
 author: qire
 ms.date: 04/13/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 969d086c77b40b59495ae0d9e631579abf5e0ec6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 402b1200e96ec8130034a03447ca071477544a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846723"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>El registro TaxTrans no se genera
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar y trabajar con retenciones de pedidos del centro de llamadas
-description: En este tema se describe cómo ejecutar retenciones de pedidos con Dynamics 365 Commerce.
+description: En este artículo se describe cómo ejecutar retenciones de pedidos con Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f8c5daecc6aa05cc6a0f5dc4a2bc44a0fbba07d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860146"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurar y trabajar con retenciones de pedidos del centro de llamadas
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características de retención del pedido que Dynamics 365 Commerce tiene para los pedidos de centro de llamadas.
+Este artículo describe las características de retención del pedido que Dynamics 365 Commerce tiene para los pedidos de centro de llamadas.
 
 ## <a name="configuring-call-center-order-holds"></a>Configuración de las retenciones de pedidos del centro de asistencia telefónica
 

@@ -1,6 +1,6 @@
 ---
 title: Crear plantillas de correo electrónico para eventos transaccionales
-description: Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910559"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
 [!include [banner](includes/banner.md)]
 
 
-Este tema describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo crear, cargar y configurar plantillas de correo electrónico para eventos transaccionales en Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce proporciona una solución lista para usar para enviar correos electrónicos que alertan a los clientes sobre eventos transaccionales. Por ejemplo, se pueden enviar correos electrónicos cuando se realiza un pedido, cuando está listo para su recogida o cuando se ha enviado. Este tema describe los pasos para crear, cargar y configurar las plantillas de correo electrónico que se utilizan para enviar correos electrónicos transaccionales.
+Dynamics 365 Commerce proporciona una solución lista para usar para enviar correos electrónicos que alertan a los clientes sobre eventos transaccionales. Por ejemplo, se pueden enviar correos electrónicos cuando se realiza un pedido, cuando está listo para su recogida o cuando se ha enviado. Este artículo describe los pasos para crear, cargar y configurar las plantillas de correo electrónico que se utilizan para enviar correos electrónicos transaccionales.
 
 ## <a name="notification-types"></a>Tipos de notificación
 

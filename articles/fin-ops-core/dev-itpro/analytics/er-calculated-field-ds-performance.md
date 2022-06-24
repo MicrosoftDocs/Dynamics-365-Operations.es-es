@@ -1,6 +1,6 @@
 ---
 title: Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados
-description: Este tema explica cómo puede ayudar a mejorar el rendimiento de las soluciones de generación de Informes electrónicos (ER) agregando orígenes de datos de CAMPO CALCULADO parametrizados.
+description: Este artículo explica cómo puede ayudar a mejorar el rendimiento de las soluciones de generación de Informes electrónicos (ER) agregando orígenes de datos de CAMPO CALCULADO parametrizados.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850125"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo puede realizar [seguimientos de rendimiento](trace-execution-er-troubleshoot-perf.md) de formatos de [Informes electrónicos (ER)](general-electronic-reporting.md) que se ejecutan y luego utilizan la información de esos seguimientos para ayudar a mejorar el rendimiento mediante la configuración de orígenes de datos de **Campo calculado** parametrizados.
+Este artículo explica cómo puede realizar [seguimientos de rendimiento](trace-execution-er-troubleshoot-perf.md) de formatos de [Informes electrónicos (ER)](general-electronic-reporting.md) que se ejecutan y luego utilizan la información de esos seguimientos para ayudar a mejorar el rendimiento mediante la configuración de orígenes de datos de **Campo calculado** parametrizados.
 
 Como parte del proceso de diseño de las configuraciones de informes electrónicos (ER) para generar documentos electrónicos empresariales, se define el método que se usa para recuperar datos de la aplicación y para introducirlos en el resultado generado. Al diseñar un origen de datos de ER parametrizado del tipo de **Campo calculado**, puede reducir la cantidad de llamadas a la base de datos y reducir significativamente el tiempo y el coste que implica recopilar los detalles de la ejecución del formato ER.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- Para completar los ejemplos de este tema, debe tener acceso a uno de los siguientes [roles](../sysadmin/tasks/assign-users-security-roles.md):
+- Para completar los ejemplos de este artículo, debe tener acceso a uno de los siguientes [roles](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Desarrollador de informes electrónicos
     - Consultor funcional de informes electrónicos
     - Administrador del sistema
 
 - La empresa debe establecerse en **DEMF**.
-- Siga los pasos del [Apéndice 1](#appendix1) de este tema para descargar los componentes de la solución ER de Microsoft de ejemplo que se requieren para completar los ejemplos de este tema.
-- Siga los pasos en el [Apéndice 2](#appendix2) de este tema para configurar el conjunto mínimo de parámetros de ER que se requiere para usar el marco de ER para ayudar a mejorar el rendimiento de la solución de Microsoft ER de ejemplo.
+- Siga los pasos del [Apéndice 1](#appendix1) de este artículo para descargar los componentes de la solución ER de Microsoft de ejemplo que se requieren para completar los ejemplos de este artículo.
+- Siga los pasos en el [Apéndice 2](#appendix2) de este artículo para configurar el conjunto mínimo de parámetros de ER que se requiere para usar el marco de ER para ayudar a mejorar el rendimiento de la solución de Microsoft ER de ejemplo.
 
 ## <a name="import-the-sample-er-solution"></a>Importar la solución de ER de ejemplo
 
@@ -48,7 +48,7 @@ Supongamos que debe diseñar una nueva solución de ER para generar un nuevo inf
 El primer paso es importar la solución ER de ejemplo para generar un informe de transacciones del proveedor.
 
 1. Iniciar sesión en la instancia de Microsoft Dynamics 365 Finance que se ha aprovisionado para su empresa.
-2. En este tema, usted creará y modificará las configuraciones de ER necesarias para la empresa de ejemplo, **Litware, Inc.** Asegúrese de que este proveedor de configuración se han agregado a la instancia de Finance y se marca como activo. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En este artículo, usted creará y modificará las configuraciones de ER necesarias para la empresa de ejemplo, **Litware, Inc.** Asegúrese de que este proveedor de configuración se han agregado a la instancia de Finance y se marca como activo. Para obtener más información, consulte [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. En el espacio de trabajo **Informe electrónico**, seleccione el mosaico **Configuraciones de informes** .
 4. En la página **Configuraciones** importe las configuraciones de ER que ha descargado como requisito previo en el Finance, en el orden siguiente: modelo de datos, asignación modelo, formato. Para cada configuración, siga estos pasos:
 
@@ -220,7 +220,7 @@ Siga estos pasos para utilizar el almacenamiento en caché y un origen de datos 
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Ejecute la solución modificada de ER para realizar un seguimiento de la ejecución
 
-Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este tema para generar un nuevo seguimiento del rendimiento.
+Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este artículo para generar un nuevo seguimiento del rendimiento.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Utilizar el seguimiento de rendimiento para analizar los ajustes en la asignación de modelos 
 

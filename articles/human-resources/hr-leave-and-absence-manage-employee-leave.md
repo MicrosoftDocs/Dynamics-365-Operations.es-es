@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d168fe3baac314455b2fefc231ab455a0b85c0e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0ef671ee42848d079cf1ff9bc2328216df4e9e20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888799"
 ---
 # <a name="manage-employee-leave"></a>Administrar bajas de empleados
 
 >[!Important]
->La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
+>La funcionalidad mencionada en este artículo está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

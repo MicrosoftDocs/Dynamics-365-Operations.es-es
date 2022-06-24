@@ -1,6 +1,6 @@
 ---
 title: Información general de la actualización del libro amortización
-description: Este tema describe la funcionalidad del libro actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación.
+description: Este artículo describe la funcionalidad del libreo actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713653"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855502"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Información general de la actualización del libro amortización
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la funcionalidad del libro actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación. La función de modelo de valor y la funcionalidad de libro de depreciación se han combinado en un solo concepto que se conoce como libro. La funcionalidad del libro le permite utilizar un único conjunto de páginas, consultas e informes para todos los procesos de activos fijos de su organización. Este tema proporciona algunos asuntos que debe considerar antes de actualizar. 
+Este artículo describe la funcionalidad del libreo actual en Activos fijos. Esta función se basa en la función del modelo de valor que estaba disponible en versiones anteriores, pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de depreciación. La función de modelo de valor y la funcionalidad de libro de depreciación se han combinado en un solo concepto que se conoce como libro. La funcionalidad del libro le permite utilizar un único conjunto de páginas, consultas e informes para todos los procesos de activos fijos de su organización. Este artículo proporciona algunos asuntos que debe considerar antes de actualizar. 
 
 El proceso de actualización moverá la configuración existente y todas las transacciones existentes a la estructura del nuevo libro. Los modelos de valor se mantendrán como hasta ahora, como un libro que registra en la contabilidad general. Los libros de amortización se moverán a un libro que tiene la opción Registrar en la contabilidad general establecida como No. Los nombres del diario del libro de depreciación se moverán a un nombre de diario de la contabilidad general con la capa de registro establecida a Ninguno. Las transacciones del libro de depreciación se moverán a transacción de activo fijo.
 

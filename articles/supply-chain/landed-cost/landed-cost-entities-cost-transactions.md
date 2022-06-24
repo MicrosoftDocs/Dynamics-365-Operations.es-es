@@ -1,6 +1,6 @@
 ---
-title: Entidades de transacción de coste
-description: Este tema proporciona información sobre las entidades de transacción de costes, que permiten dividir el valor de un coste entre los contenidos de un área de costos mediante la selección de un método de prorrateo.
+title: Entidades de transacción de costes
+description: Este artículo proporciona información sobre las entidades de transacción de costes, que permiten dividir el valor de un coste entre los contenidos de un área de costos mediante la selección de un método de prorrateo.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 41a9525cb766907b7de97f1e856a3b640d7718ac
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860823"
 ---
 # <a name="cost-transaction-entities"></a>Entidades de transacción de coste
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865783"
 ---
 # <a name="posting-definition-examples"></a>Ejemplos de definición de contabilización
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722560"
 
 Este artículo proporciona ejemplos que demuestran cómo se usan las definiciones de contabilización se usan para reservas de gastos de pedidos de compra y para apropiaciones presupuestarias.
 
-Antes de leer este tema, es necesario que esté familiarizado con las definiciones de contabilización y las definiciones de contabilización de transacciones. Para obtener información, vea [Definiciones de contabilización](posting-definitions.md). Los ejemplos siguientes se pueden configurar en la página **Definiciones de contabilización**. Cada uno de los ejemplos contiene estas secciones:
+Antes de leer este artículo, es necesario que esté familiarizado con las definiciones de contabilización y las definiciones de contabilización de transacciones. Para obtener información, vea [Definiciones de contabilización](posting-definitions.md). Los ejemplos siguientes se pueden configurar en la página **Definiciones de contabilización**. Cada uno de los ejemplos contiene estas secciones:
 
 -   Definición de contabilización: criterios de coincidencia
 -   Definición de contabilización: entradas generadas

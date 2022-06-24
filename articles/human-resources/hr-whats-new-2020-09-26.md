@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (26 de septiembre de 2020)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 26 de septiembre de 2020.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 26 de septiembre de 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874257"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (26 de septiembre de 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061393"
 
 
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources. Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources. Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
 Para obtener más información sobre las nuevas características y sus fechas de disponibilidad general previstas, consulte [Visión general del segundo lanzamiento de versiones de Dynamics 365 Human Resources en 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -46,9 +46,9 @@ La siguiente característica estará disponible de forma generalizada en esta ve
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Emitir | Descripción |
+| Número del problema | Problema | Description |
 | --- | --- | --- |
 | 469495 | Actualizar cuadro de diálogo y cuadrícula de dimensiones financieras predeterminadas | El nuevo cuadro de diálogo y la nueva cuadrícula de dimensiones financieras se han actualizado en Human Resources. |
 | 474887 | El elemento de trabajo de solicitud de baja abre un vínculo incorrecto en una decisión manual | Cuando una configuración de flujo de trabajo contiene una decisión manual, navegar a la solicitud de baja desde **Elementos de trabajo asignados a mí** abre el vínculo incorrecto, que muestra un formulario o una solicitud de baja en blanco creados por el usuario actual, en lugar del que se le asignó para la decisión manual. |

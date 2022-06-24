@@ -1,6 +1,6 @@
 ---
 title: Abonar transacciones de suscripción
-description: Este tema muestra cómo pagar transacciones de suscripciones.
+description: Este artículo muestra cómo pagar transacciones de suscripciones.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 898dd8f689a89430c4f307a414fe865a4a15a995
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e23d471e270d7cbeda2bbaa161e729f30e1ebecd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854076"
 ---
 # <a name="credit-subscription-transactions"></a>Abonar transacciones de suscripción 
 

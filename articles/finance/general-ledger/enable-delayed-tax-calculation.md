@@ -1,6 +1,6 @@
 ---
 title: Habilitar el cálculo de impuestos retrasado en diarios
-description: Este tema explica cómo activar la función de Cálculo de impuestos retrasados para ayudar a mejorar el rendimiento del cálculo de impuestos cuando el número de las líneas de diario es muy grande.
+description: Este artículo explica cómo activar la función de Cálculo de impuestos retrasados para ayudar a mejorar el rendimiento del cálculo de impuestos cuando el número de las líneas de diario es muy grande.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887930"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Habilitar el cálculo de impuestos retrasado en diarios
 [!include [banner](../includes/banner.md)]
 
 
-Este tema explica cómo puede retrasar el cálculo de impuestos en los diarios. Esta capacidad ayuda a mejorar el rendimiento de los cálculos de impuestos cuando existen muchas líneas de diario.
+Este artículo explica cómo puede retrasar el cálculo de impuestos en los diarios. Esta capacidad ayuda a mejorar el rendimiento de los cálculos de impuestos cuando existen muchas líneas de diario.
 
 De forma predeterminada, los importes de impuestos en las líneas de diario se calculan siempre que se actualicen los campos relacionados con impuestos. Estos campos incluyen los campos para los grupos de impuestos y los grupos de impuestos de artículos. Cualquier actualización a una línea de diario hace que las cantidades de impuestos se recalculen para todas las líneas de diario. Aunque este comportamiento ayude al usuario a tener en cuenta los importes de impuestos calculados en tiempo real, también puede afectar al rendimiento si el número de líneas de diario es muy grande.
 

@@ -1,6 +1,6 @@
 ---
 title: Recepción de producto frente a pedidos de compra
-description: Este tema describe las distintas opciones para registrar productos como recibidos.
+description: Este artículo describe las distintas opciones para registrar productos como recibidos.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904054"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las distintas opciones para registrar productos como recibidos.
+Este artículo describe las distintas opciones para registrar productos como recibidos.
 
 La recepción de producto es el proceso de registro de que se han recibido los productos que se han pedido, de manera que las líneas de pedido de compra se pueden procesar para facturación. En algunos casos, los productos pasan por un pre-registro, donde se registra información adicional del proveedor antes de que se reciban los productos. Cuando llegan los productos, se marcan primero como **Registrado**. Los productos pueden pasar después por procesos adicionales, como la gestión de la calidad antes de que finalmente se marquen como **Recibido**.
 

@@ -1,6 +1,6 @@
 ---
 title: Usar portales de Microsoft Power Apps con el modelo de datos de parte
-description: Este tema describe los cambios en los roles web para portales de Microsoft Power Apps debido al modelo de datos de parte en escritura dual.
+description: Este artículo describe los cambios en los roles web para portales de Microsoft Power Apps debido al modelo de datos de parte en escritura dual.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898957"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Usar portales de Microsoft Power Apps con el modelo de datos de parte
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060929"
 
 La versión de la solución de orquestación de aplicaciones de escritura dual 2.0.999.0 y posteriores incluye cambios en el modelo de datos en la libreta de direcciones global y de partes para las tablas Cuenta y Contacto. Los cambios permiten relaciones de varios a varios que admiten escenarios empresariales avanzados. Estos cambios no son compatibles con los roles web del portal, incluido el portal del cliente, que se envían listos para usar o que existían en su ambiente antes de instalar la escritura dual. Para que los roles web funcionen como se esperaba, debe crear nuevos roles web utilizando el nuevo modelo de datos. 
 
-En resumen, la forma en que interactúan las tablas ha cambiado, pero los permisos de las tablas en el portal del cliente no han cambiado. Este tema explica cómo crear nuevos roles web que funcionen con el nuevo modelo de datos avanzado.
+En resumen, la forma en que interactúan las tablas ha cambiado, pero los permisos de las tablas en el portal del cliente no han cambiado. Este artículo explica cómo crear nuevos roles web que funcionen con el nuevo modelo de datos avanzado.
 
 Este diagrama muestra la relación de la tabla **sin** el modelo de datos de parte y de libreta de direcciones global:
 

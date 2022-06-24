@@ -1,6 +1,6 @@
 ---
 title: Información general de la integración fiscal para canales de Commerce
-description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
+description: Este artículo proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ea1de0791a0eaffa2a8b1ac57143bdfd753f855b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884853"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Información general de la integración fiscal para canales de Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Este tema es una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce. 
+Este artículo es una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce. 
 
 La integración fiscal incluye la integración con distintos dispositivos fiscales y servicios que habilitan el registro fiscal de la venta de acuerdo con las leyes fiscales locales que se dirijan que impiden fraude fiscal en el sector minorista. A continuación aparecen varias situaciones de ejemplo habituales que se pueden cubrir mediante inclusión de la integración fiscal:
 

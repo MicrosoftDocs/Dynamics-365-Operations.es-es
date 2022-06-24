@@ -1,6 +1,6 @@
 ---
 title: Procesamiento aplazado de trabajo de almacén
-description: En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación de trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
+description: En este artículo se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación de trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899306"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Procesamiento aplazado de trabajo de almacén
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación para trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
+En este artículo se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación para trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
 
 La funcionalidad de procesamiento diferido permite a trabajadores de almacén seguir realizando otros trabajos mientras se procesa la operación de colocación en segundo plano. El procesamiento diferido es útil cuando hay que procesar muchas líneas de trabajo y el trabajador puede dejar que ese trabajo se procese de forma asincrónica. También resulta útil si puede haber aumentos ad hoc o imprevistos de tiempo de procesamiento en el servidor y ese aumento del tiempo de procesamiento puede afectar a la productividad del usuario.
 

@@ -1,6 +1,6 @@
 ---
 title: Recortar imágenes
-description: En este tema se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8618ef19593c362853fe8441c249dd4580d65737
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893070"
 ---
 # <a name="crop-images"></a>Recortar imágenes
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
 La Biblioteca de medios del generador de sitios de Commerce le permite recortar imágenes para optimizarlas para diferentes tipos de módulos y ventanas gráficas.
 

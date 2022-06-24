@@ -1,6 +1,6 @@
 ---
 title: Cargar imágenes
-description: En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892843"
 ---
 # <a name="upload-images"></a>Cargar imágenes
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo subir imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
 La Biblioteca de medios del creador de sitios de Commerce le permite cargar imágenes, ya sea individualmente o en masa, utilizando carpetas. Siempre debe cargar la versión de la imagen con la mayor resolución y calidad, ya que el componente de cambio de tamaño de la imagen optimizará automáticamente la imagen para diferentes ventanas y sus puntos de interrupción.
 

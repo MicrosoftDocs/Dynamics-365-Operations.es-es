@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 219380f2fe44caa56869da05317cbeb4377cc8be7336d01cd65dc5c7eda05442
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e49b63bf7c88b40010967a7f8c1de571e6d7485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845269"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catálogo de aprendizaje para los roles de marketing y ventas de los partners de Microsoft para Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 |-------------|-----------------|-------------|------------|
 | [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? ¿Quizás no sabe por dónde empezar con las aplicaciones de Microsoft Dynamics 365 y Power Platform? Aprenda cómo el poder de las aplicaciones comerciales puede ayudarle a transformar su negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 7 horas |
 | [Aspectos básicos de Dynamics 365 y Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas |
-| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de Finance and Operations respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
+| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de finanzas y operaciones respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance faculta a los usuarios empresariales para adaptarse a los entornos empresariales que cambian rápidamente. Ofrece a las empresas todo lo que necesitan para controlar las finanzas y gestionar los fondos con información precisa en cualquier momento para la planificación y la previsión financieras y las ayuda estar actualizadas con herramientas de análisis. Debido a que las finanzas son el núcleo de cualquier negocio, es importante conocer las capacidades de Dynamics 365 Finance. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 1 hora |
 | [Curso MB-900T01-A: aspectos fundamentales de Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | En este curso, el alumno se familiarizará con la funcionalidad de y el valor de negocio de Dynamics 365. El curso tratará de las aplicaciones de Dynamics 365, Power Platform, los conceptos de la nube, el modelo de seguridad y consideraciones sobre licencias. | Formación con presencial con instructor o en línea; el coste varía según región y partner | 1 día |
 

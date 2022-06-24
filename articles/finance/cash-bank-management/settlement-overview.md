@@ -1,6 +1,6 @@
 ---
 title: Descripción de la liquidación
-description: En este tema se proporciona información general sobre el proceso de liquidación. Describe qué tipos de transacción se pueden liquidar, y el momento y el proceso para liquidarlos. También describe los resultados del proceso de liquidación.
+description: En este artículo se proporciona información general sobre el proceso de liquidación. Describe qué tipos de transacción se pueden liquidar, y el momento y el proceso para liquidarlos. También describe los resultados del proceso de liquidación.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887959"
 ---
 # <a name="settlement-overview"></a>Descripción de la liquidación
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724908"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-En este tema se proporciona información general sobre el proceso de liquidación. Describe qué tipos de transacción se pueden liquidar, y el momento y el proceso para liquidarlos. También describe los resultados del proceso de liquidación.
+En este artículo se proporciona información general sobre el proceso de liquidación. Describe qué tipos de transacción se pueden liquidar, y el momento y el proceso para liquidarlos. También describe los resultados del proceso de liquidación.
 
 Durante la liquidación, las transacciones en un documento se aplican a las transacciones en otro documento para aumentar o reducir los saldos de cada documento. Por ejemplo, un pago se puede aplicar a una factura. Pueden liquidarse distintos tipos de transacción, en diferentes momentos y con diferentes métodos. El proceso de liquidación puede también generar nuevas transacciones.
 

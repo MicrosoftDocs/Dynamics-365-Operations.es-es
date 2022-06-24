@@ -1,6 +1,6 @@
 ---
 title: Implementar un inquilino nuevo de comercio electrónico
-description: Este tema describe cómo implementar un sitio nuevo de comercio electrónico de Dynamics 365 Commerce mediante Microsoft Dynamics Lifecycle Services (LCS).
+description: Este artículo describe cómo implementar un sitio nuevo de comercio electrónico de Dynamics 365 Commerce mediante Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884013"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implementar un inquilino nuevo de comercio electrónico
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo implementar un sitio nuevo de comercio electrónico de Dynamics 365 Commerce mediante Microsoft Dynamics Lifecycle Services (LCS).
+Este artículo describe cómo implementar un sitio nuevo de comercio electrónico de Dynamics 365 Commerce mediante Microsoft Dynamics Lifecycle Services (LCS).
 
 Microsoft Dynamics Lifecycle Services (LCS) es un espacio de colaboración basado en la nube que los socios y clientes pueden utilizar para administrar sus proyectos y entornos, ver la información más reciente de los productos y características de Microsoft Dynamics, y crear, realizar un seguimiento y examinar incidentes de soporte. Las características de administración de comercio electrónico están integradas en LCS.
 

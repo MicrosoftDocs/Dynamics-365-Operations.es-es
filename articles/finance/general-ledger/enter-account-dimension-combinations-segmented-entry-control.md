@@ -1,6 +1,6 @@
 ---
 title: Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
-description: Este tema describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
+description: Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861369"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
+Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
 
 Los usuarios especifican combinaciones de cuenta y dimensiones en diversas páginas, como páginas para diarios generales, gestión presupuestaria, y definiciones de contabilización. Las combinaciones de cuentas y dimensiones válidas dependen de las estructuras contables que se asignan al libro mayor y las reglas avanzadas que se asignan a las estructuras contables. Cuando los usuarios especifican una combinación, pueden escribir manualmente los valores o aprovecharse de una experiencia de búsqueda enriquecida. En el campo, puede empezar a escribir y se buscarán el valor y la descripción. Por ejemplo, si escribe 180 se busca algún valor que comience con esa combinación de números. O bien puede escribir Efectivo y se buscará cualquier valor que tenga una descripción que empiece por Efectivo. También puede usar un comodín para buscar, como \*Efectivo o \*180, si el valor o la descripción contienen los criterios de búsqueda. 
 

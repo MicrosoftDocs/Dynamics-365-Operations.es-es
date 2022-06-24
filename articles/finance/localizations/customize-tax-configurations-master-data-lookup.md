@@ -1,6 +1,6 @@
 ---
 title: Personalizar las configuraciones de impuestos para la búsqueda de datos maestros
-description: Este tema explica cómo personalizar las configuraciones de impuestos para ampliar la funcionalidad de búsqueda de datos maestros.
+description: Este artículo explica cómo personalizar las configuraciones de impuestos para ampliar la funcionalidad de búsqueda de datos maestros.
 author: kai-cloud
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69541316ad4c6c4bb404ea142844ce596b5502b9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 31c15c47fa1dc6861ff555a991d5f9233b7df35e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845195"
 ---
 # <a name="customize-tax-configurations-for-master-data-lookup"></a>Personalizar las configuraciones de impuestos para la búsqueda de datos maestros
 
 [!include [banner](../includes/banner.md)]
 
-Siga los pasos en este tema para personalizar las configuraciones de impuestos y ampliar la funcionalidad de búsqueda de datos maestros.
+Siga los pasos en este artículo para personalizar las configuraciones de impuestos y ampliar la funcionalidad de búsqueda de datos maestros.
 
 ## <a name="import-a-tax-configuration-provided-by-microsoft"></a>Importar una configuración de impuestos proporcionada por Microsoft
 

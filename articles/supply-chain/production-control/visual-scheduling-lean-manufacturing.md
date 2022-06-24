@@ -1,6 +1,6 @@
 ---
 title: Programación visual para lean manufacturing
-description: Este tema proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
+description: Este artículo proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875199"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programación visual para lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
+Este artículo proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
 
-Este tema proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
+Este artículo proporciona información acerca del tablero de programación kanban, que el planificador de producción puede usar para controlar y optimizar el plan de producción de trabajos kanban.
 
 El tablero de programación kanban permite al planificador de producción controlar y optimizar el plan de producción de trabajos kanban. Hace que el flujo de trabajos kanban sea transparente y ofrece al planificador de la producción una herramienta que optimiza y ajusta el plan de producción para la celda de trabajo de lean manufacturing.
 

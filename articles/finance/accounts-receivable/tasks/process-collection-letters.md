@@ -1,6 +1,6 @@
 ---
 title: Procesar cartas de cobro
-description: En este tema se muestra cómo crear, imprimir y registrar cartas de cobro.
+description: En este artículo se muestra cómo crear, imprimir y registrar cartas de cobro.
 author: ShivamPandey-msft
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 005ed8fcb6c3c6f985f1cfa9c0a78675173fb208
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: fbca4acf30e2c58d8bb615d659b883b574a12aa7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909138"
 ---
 # <a name="process-collection-letters"></a>Procesar cartas de cobro
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se muestra cómo crear, imprimir y registrar cartas de cobro. Esta tarea usa la empresa de demostración USMF.
+En este artículo se muestra cómo crear, imprimir y registrar cartas de cobro. Esta tarea usa la empresa de demostración USMF.
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Configurar una secuencia de cartas de cobro en el perfil de registro
 1. Vaya a **Panel de navegación > Módulos > Crédito y cobros > Configuración > Perfiles de contabilización del cliente**.

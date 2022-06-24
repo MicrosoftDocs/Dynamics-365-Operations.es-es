@@ -1,6 +1,6 @@
 ---
 title: Proyectos de contratación masiva
-description: Este tema describe los proyectos de contratación masiva, que permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
+description: Este artículo describe los proyectos de contratación masiva, que permiten a los especialistas de recursos humanos crear varios puestos y contratar de forma eficaz a varios trabajadores para ellos.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ecc181f21c1502b8174765af5a2f2ef738e8477
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 2abf6ed80b7c5f728d7ff922afab8b425bde3df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904199"
 ---
 # <a name="mass-hire-projects"></a>Proyectos de contratación masiva
 

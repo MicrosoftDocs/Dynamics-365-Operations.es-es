@@ -1,6 +1,6 @@
 ---
 title: Pruebas de gestión de calidad
-description: Este tema describe cómo crear pruebas que se puedan usar para pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo crear pruebas que se puedan usar para pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac67ee97a4890c646daefa6b09feae25c4f15d0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857616"
 ---
 # <a name="quality-management-tests"></a>Pruebas de gestión de calidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo crear pruebas que se puedan usar para pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe cómo crear pruebas que se puedan usar para pedidos de calidad en Microsoft Dynamics 365 Supply Chain Management.
 
 Utilice la página **Pruebas** para definir y visualizar las pruebas individuales que determinan si sus productos cumplen las especificaciones. Puede asignar una o varias pruebas individuales a un grupo de pruebas. En este caso, también especifica la información específica de la prueba, como los valores de medida aceptables. Los valores de medida se utilizan para pruebas cuantitativas. Para las pruebas cualitativas, se utilizan variables de prueba.
 

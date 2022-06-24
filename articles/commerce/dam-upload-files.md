@@ -1,6 +1,6 @@
 ---
-title: Subir archivos que no sean imágenes y vídeos
-description: Este tema describe cómo cargar archivos binarios que no sean imágenes y vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
+title: Cargar archivos que no sean imágenes y vídeos
+description: Este artículo describe cómo cargar archivos binarios que no sean imágenes y vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 50f9d793f0e7f34aa21d69c4049a3fe6bf16b58633f7bd555492506dc8d96790
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5952c44d066729d66d62c47249214221fe39ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863444"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Cargar archivos que no sean imágenes y vídeos
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo cargar archivos que no sean imágenes y vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo cargar archivos que no sean imágenes y vídeos en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
 La Biblioteca de medios del generador de sitios de Commerce admite la carga de activos binarios que no sean imágenes o videos. Por ejemplo, es posible que desee subir archivos Microsoft Excel, Microsoft Word, Microsoft PowerPoint o PDF.
 

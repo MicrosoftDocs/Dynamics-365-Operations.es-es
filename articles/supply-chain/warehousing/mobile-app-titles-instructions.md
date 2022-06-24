@@ -1,6 +1,6 @@
 ---
 title: Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management
-description: Este tema describe cómo crear y mostrar instrucciones personalizadas para cada paso de cada flujo de tareas que configure para la aplicación móvil Warehouse Management.
+description: Este artículo describe cómo crear y mostrar instrucciones personalizadas para cada paso de cada flujo de tareas que configure para la aplicación móvil Warehouse Management.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895507"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management
 
 > [!IMPORTANT]
-> Las características que se describen en este tema se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
+> Las características que se describen en este artículo se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
 
-Este tema describe cómo crear y mostrar instrucciones personalizadas para cada paso de cada flujo de tareas que configure para la aplicación móvil Warehouse Management. Cuando los trabajadores del almacén reciben instrucciones bien escritas, pueden comenzar a utilizar nuevos flujos inmediatamente sin necesidad de formación previa. Esta función proporciona las siguientes ventajas:
+Este artículo describe cómo crear y mostrar instrucciones personalizadas para cada paso de cada flujo de tareas que configure para la aplicación móvil Warehouse Management. Cuando los trabajadores del almacén reciben instrucciones bien escritas, pueden comenzar a utilizar nuevos flujos inmediatamente sin necesidad de formación previa. Esta función proporciona las siguientes ventajas:
 
 - **Aumente la velocidad de los trabajadores permitiéndoles seguir instrucciones sencillas para cada paso de la tarea.** Cada paso de un flujo proporciona instrucciones que permiten a los trabajadores de primera línea comprender la tarea.
 - **Proporcione instrucciones que coincidan con sus propios procesos.** Escriba sus propias instrucciones para que coincidan con sus procesos comerciales y de almacén. Por ejemplo, puede hacer que la terminología se ajuste a su espacio físico y abreviaturas locales.

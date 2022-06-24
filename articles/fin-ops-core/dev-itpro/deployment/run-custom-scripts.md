@@ -1,6 +1,6 @@
 ---
 title: Ejecutar scripts X++ personalizados sin tiempo de inactividad
-description: Este tema describe cómo cargar y ejecutar paquetes desplegables que contienen secuencias de comandos X++ personalizadas sin tener que suspender el sistema.
+description: Este artículo describe cómo cargar y ejecutar paquetes desplegables que contienen secuencias de comandos X++ personalizadas sin tener que suspender el sistema.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867340"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Ejecutar scripts X++ personalizados sin tiempo de inactividad
 
@@ -122,7 +122,7 @@ Utilice el siguiente procedimiento para cargar y ejecutar un script.
 
 1. En su aplicación de Finanzas y operaciones, vaya a **Administracion del sistema \> Tareas periódicas \> Base de datos \> Guiones personalizados**.
 1. Seleccione **Cargar**.
-1. Seleccione el paquete desplegable que creó como se describe anteriormente en este tema. Se le pedirá que especifique el propósito del script.
+1. Seleccione el paquete desplegable que creó como se describe anteriormente en este artículo. Se le pedirá que especifique el propósito del script.
 1. El script ahora debe ser aprobado por un usuario que no sea el usuario que lo cargó. El aprobador debe seguir estos pasos:
 
     1. Ir a **Administracion del sistema \> Periódico \> Base de datos \> Guiones personalizados**.

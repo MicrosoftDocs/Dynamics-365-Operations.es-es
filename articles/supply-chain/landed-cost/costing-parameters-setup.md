@@ -1,6 +1,6 @@
 ---
 title: Configuración de los valores de los parámetros de gestión de costes
-description: Cuando configura el módulo de costo de aterrizaje, puede definir varios conjuntos de valores comunes que estarán disponibles cuando seleccione tipos específicos de valores de parámetros de costos en otras partes de la aplicación. Este tema explica cómo establecer estos conjuntos de valores.
+description: Cuando configura el módulo de costo de aterrizaje, puede definir varios conjuntos de valores comunes que estarán disponibles cuando seleccione tipos específicos de valores de parámetros de costos en otras partes de la aplicación. Este artículo explica cómo establecer estos conjuntos de valores.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852342"
 ---
 # <a name="costing-parameter-values-setup"></a>Configuración de los valores de los parámetros de gestión de costes
 
 [!include [banner](../../includes/banner.md)]
 
-Cuando configura el módulo **Coste de aterrizaje**, puede definir varios conjuntos de valores comunes y configuraciones relacionadas por valor. Estos valores estarán disponibles cuando seleccione tipos específicos de valores de parámetros de costos en otras partes de la aplicación. Este tema explica cómo establecer estos conjuntos de valores.
+Cuando configura el módulo **Coste de aterrizaje**, puede definir varios conjuntos de valores comunes y configuraciones relacionadas por valor. Estos valores estarán disponibles cuando seleccione tipos específicos de valores de parámetros de costos en otras partes de la aplicación. Este artículo explica cómo establecer estos conjuntos de valores.
 
 ## <a name="set-up-cost-type-codes"></a>Configurar códigos de tipo de costo
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
-description: Este tema proporciona información sobre los componentes del sistema de ayuda para algunas aplicaciones Microsoft Dynamics 365.
+description: Este artículo proporciona información sobre los componentes del sistema de ayuda para algunas aplicaciones Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900140"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071017"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-En este tema, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finanzas y operaciones, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El tema también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
+En este artículo, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finanzas y operaciones, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El artículo también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 

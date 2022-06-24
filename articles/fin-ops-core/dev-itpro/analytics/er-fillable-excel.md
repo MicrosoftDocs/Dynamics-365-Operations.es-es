@@ -1,6 +1,6 @@
 ---
 title: Diseñar una configuración para generar documentos en formato de Excel
-description: Este tema describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
+description: Este artículo describe cómo diseñar un formato de informe electrónico (ER) para completar una plantilla de Excel y luego generar resultados en forma de documentos en formato Excel.
 author: NickSelin
 ms.date: 05/09/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 4660aaf438ee091eed30387d984746ac2c3b4bd7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854825"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -28,7 +28,7 @@ ms.locfileid: "8811431"
 
 Puede diseñar una configuración de formato de [Informe electrónico (ER)](general-electronic-reporting.md) con un componente de formato ER que puede configurar para generar un documento resultante en un formato de libro de Microsoft Excel. Se deben usar componentes de formato ER específicos para este propósito.
 
-Para obtener más información sobre esta función, siga los pasos del tema [Diseñar una configuración para generar informes en formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
+Para obtener más información sobre esta función, siga los pasos del artículo [Diseñar una configuración para generar informes en formato OPENXML](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="add-a-new-er-format"></a>Agregar un nuevo formato ER
 
@@ -263,7 +263,7 @@ Por un único componente de **Hoja**, puede agregar varios componentes de **Pie 
 
 En el componente **Pie de página**, agregue los componentes anidados requeridos de **Texto\\Cadena**, **Texto\\Fecha y hora** u otro tipo. Configure los enlaces de esos componentes para especificar cómo se rellena el pie de página de su página.
 
-También puede utilizar [códigos de formato](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiales para formatear correctamente el contenido de un pie de página generado. Para aprender a usar este enfoque, siga los pasos del [Ejemplo 1](#example-1), más adelante en este tema.
+También puede utilizar [códigos de formato](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiales para formatear correctamente el contenido de un pie de página generado. Para aprender a usar este enfoque, siga los pasos del [Ejemplo 1](#example-1), más adelante en este artículo.
 
 > [!NOTE]
 > Cuando configure formatos ER, asegúrese de considerar el [límite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) y el número máximo de caracteres para un solo encabezado o pie de página que exista en Excel.

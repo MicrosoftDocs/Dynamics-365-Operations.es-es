@@ -1,6 +1,6 @@
 ---
 title: Facturación electrónica de CFDI
-description: Este tema le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI.
+description: Este artículo le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI.
 author: sndray
 ms.date: 08/03/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9ff97f7ecee4439c09ffc32cc853005a8508146
-ms.sourcegitcommit: f1ef61ee3d731f68e11a5bebc154ed33a7b8eda5
+ms.openlocfilehash: 8ab8a9cd788bb4992665768ef4d4293d9518326b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2021
-ms.locfileid: "7383811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856452"
 ---
 # <a name="e-invoicing-cfdi"></a>Facturación electrónica de CFDI
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI. Puede crear y registrar varios pedidos de ventas como facturas electrónicas y enviar los archivos .pdf y .xml como archivos adjuntos a los clientes. Esta tarea solo se puede completar si está registrado en una entidad jurídica con dirección principal en México. Esta tarea usa la empresa de demostración MXMF.
+Este artículo le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI. Puede crear y registrar varios pedidos de ventas como facturas electrónicas y enviar los archivos .pdf y .xml como archivos adjuntos a los clientes. Esta tarea solo se puede completar si está registrado en una entidad jurídica con dirección principal en México. Esta tarea usa la empresa de demostración MXMF.
 
 > [!NOTE] 
 > Las facturas de clientes que se crean utilizando un diario de contabilidad general no se incluyen entre las facturas electrónicas de CFDI-Clientes que se encuentran en **Clientes** \> **Consultas e informes**\>**CFDI (facturas electrónicas)**.

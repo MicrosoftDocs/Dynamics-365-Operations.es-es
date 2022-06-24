@@ -1,6 +1,6 @@
 ---
 title: Retención de impuestos en transacciones de ventas
-description: Este tema enumera los pasos para evitar el cálculo de la retención de impuestos para clientes seleccionados. Para los clientes que especifican la retención de impuestos en sus pagos, puede asignar el grupo de retención de impuestos predeterminado.
+description: Este artículo enumera los pasos para evitar el cálculo de la retención de impuestos para clientes seleccionados. Para los clientes que especifican la retención de impuestos en sus pagos, puede asignar el grupo de retención de impuestos predeterminado.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d659004a1f61b63d6a782ba6b45bb99030bae9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 75a7fc62c1d493007f3aa88a723465828c557df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910095"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Retención de impuestos en transacciones de ventas
 
-Este tema enumera los pasos para evitar el cálculo de la retención de impuestos para clientes seleccionados. Para los clientes que especifican la retención de impuestos en los pagos que le hacen, puede asignar el **Grupo de retención de impuestos** predeterminado en la página **Clientes**. 
+Este artículo enumera los pasos para evitar el cálculo de la retención de impuestos para clientes seleccionados. Para los clientes que especifican la retención de impuestos en los pagos que le hacen, puede asignar el **Grupo de retención de impuestos** predeterminado en la página **Clientes**. 
 
 1. Vaya a **Panel de exploración > Módulos > Clientes > Clientes > Todos los clientes**.
 

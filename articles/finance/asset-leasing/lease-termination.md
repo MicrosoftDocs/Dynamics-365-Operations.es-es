@@ -1,6 +1,6 @@
 ---
 title: Propuesta de finalización de arrendamiento
-description: Este tema explica cómo proponer la rescisión de un arrendamiento.
+description: Este artículo explica cómo proponer la rescisión de un arrendamiento.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879664"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proponer un arrendamiento para su rescisión
 
 [!include [banner](../includes/banner.md)]
 
-Si un arrendamiento se rescinde anticipadamente, el arrendamiento de activos puede registrar un asiento de rescisión en el diario para cancelar el pasivo por arrendamiento, el activo por derecho de uso (ROU) y la depreciación acumulada, y registrar una ganancia o una pérdida. El proceso de rescisión anticipada finaliza un arrendamiento y los libros de arrendamiento asociados. No rescinde los libros de arrendamiento individuales. Este tema describe la funcionalidad que le permite proponer un arrendamiento para rescisión y procesar el asiento de diario de rescisión del arrendamiento.
+Si un arrendamiento se rescinde anticipadamente, el arrendamiento de activos puede registrar un asiento de rescisión en el diario para cancelar el pasivo por arrendamiento, el activo por derecho de uso (ROU) y la depreciación acumulada, y registrar una ganancia o una pérdida. El proceso de rescisión anticipada finaliza un arrendamiento y los libros de arrendamiento asociados. No rescinde los libros de arrendamiento individuales. Este artículo describe la funcionalidad que le permite proponer un arrendamiento para rescisión y procesar el asiento de diario de rescisión del arrendamiento.
 
 Si un arrendamiento no está clasificado como arrendamiento con tratamiento de arrendamiento diferido y no está asociado con un activo fijo, el arrendamiento de activos produce el siguiente asiento de rescisión en el diario.
 
@@ -121,7 +121,7 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
 
 ### <a name="steps-for-terminating-the-lease"></a>Pasos para rescindir el contrato de arrendamiento
 
-1. Después de crear el arrendamiento como se describió anteriormente en este tema, vaya al libro de arrendamiento y confirme la programación de pagos. Luego publique la entrada del diario de reconocimiento inicial. El activo por derecho de uso inicial es de 71 235,81 $ y el pasivo por arrendamiento debe ser de 70 235,81 $. Para este ejemplo, el arrendamiento se clasificó como un arrendamiento operativo según el Tema 842 de codificación de normas de contabilidad (ASC 842).
+1. Después de crear el arrendamiento como se describió anteriormente en este artículo, vaya al libro de arrendamiento y confirme la programación de pagos. Luego publique la entrada del diario de reconocimiento inicial. El activo por derecho de uso inicial es de 71 235,81 $ y el pasivo por arrendamiento debe ser de 70 235,81 $. Para este ejemplo, el arrendamiento se clasificó como un arrendamiento operativo según el Tema 842 de codificación de normas de contabilidad (ASC 842).
 2. Ejecute el proceso de diario por lotes tres veces para simular el paso de tres años para los pagos por arrendamiento, los gastos por intereses y los gastos de depreciación.
 3. Una vez que haya terminado de ejecutar los tres trabajos por lotes, vuelva al libro de arrendamiento y abra las tablas de transacciones de activos y pasivos para ver el valor en libros actual del activo por derecho de uso y el pasivo por arrendamiento. Después de tres años, el valor del pasivo debe ser de aproximadamente -53.893,00 $ y el valor del activo debe ser de aproximadamente 54.593,00 $.
 

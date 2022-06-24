@@ -1,6 +1,6 @@
 ---
-title: Invertir el estado de una orden de producción
-description: En este tema se describe cómo invertir el estado del pedido de producción.
+title: Revertir el estado de un pedido de producción
+description: En este artículo se describe cómo invertir el estado del pedido de producción.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903967"
 ---
-# <a name="reverse-the-production-order-status"></a>Invertir el estado de una orden de producción
+# <a name="reverse-the-production-order-status"></a>Revertir el estado de un pedido de producción
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo invertir el estado del pedido de producción. 
+En este artículo se describe cómo invertir el estado del pedido de producción. 
 
 Si invierte el estado de una orden de producción, el pedido y todas las operaciones asociadas a las rutas se revierten a un paso anterior del ciclo de vida de la producción. Por ejemplo, un pedido de producción tiene un estado de **Programado** y lo cambia de nuevo a **Creado**. En este caso, el sistema debe cambiar primero el estado a **Estimado**, que es el estado que precede inmediatamente a **Programado**. Después puede cambiar el estado al estado que desee, **Creado**. **Nota**: si el pedido ha alcanzado el estado **Notificar como terminado**, todavía puede invertirlo a un estado anterior. No obstante, debe volver a ejecutar la estimación y la programación de las operaciones o de los trabajos, o ambos tipos de programación, para actualizar la información del pedido. Este paso es obligatorio, porque las reservas del consumo de artículos restantes y el consumo de recursos de operaciones también se deben restablecer. En el resto de este artículo se explica lo que sucede al invertir el estado de un pedido de producción de las siguientes formas:
 

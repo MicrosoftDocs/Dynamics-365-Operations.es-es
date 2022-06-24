@@ -1,6 +1,6 @@
 ---
 title: Crear una característica de globalización
-description: En este tema se explica cómo crear una característica de Globalización.
+description: En este artículo se explica cómo crear una característica de Globalización.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: c622b350f79d36b8fda12598ceae57ee9c7095e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889841"
 ---
 # <a name="create-a-globalization-feature"></a>Crear una característica de globalización
 

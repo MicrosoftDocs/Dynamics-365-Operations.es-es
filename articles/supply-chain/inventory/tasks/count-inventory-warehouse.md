@@ -1,6 +1,6 @@
 ---
 title: Recuento de inventario en un almacén
-description: En este tema se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén.
+description: En este artículo se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén.
 author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7dd3788d3cbf80bfba373f5b6ce9d2e0ca0c07
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7c8712b88867dc4be48bbdb4b905993e3ccbc73f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870648"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Recuento de inventario en un almacén
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén. El procedimiento se aplica a la funcionalidad de “almacenamiento básico”, disponible en el módulo Gestión del inventario, no en la funcionalidad de almacenamiento que está disponible en el módulo Gestión de almacenes. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si usa sus propios datos, asegúrese de que tiene los productos y las ubicaciones configurados, y de que ha creado un nombre de diario de inventario para contar los diarios. El recuento de inventario lo lleva a cabo normalmente un empleado de almacén.
+En este artículo se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén. El procedimiento se aplica a la funcionalidad de “almacenamiento básico”, disponible en el módulo Gestión del inventario, no en la funcionalidad de almacenamiento que está disponible en el módulo Gestión de almacenes. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si usa sus propios datos, asegúrese de que tiene los productos y las ubicaciones configurados, y de que ha creado un nombre de diario de inventario para contar los diarios. El recuento de inventario lo lleva a cabo normalmente un empleado de almacén.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Crear un diario de recuento de inventario

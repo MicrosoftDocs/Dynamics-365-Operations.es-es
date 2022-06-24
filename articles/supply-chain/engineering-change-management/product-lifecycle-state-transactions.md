@@ -1,6 +1,6 @@
 ---
 title: Transacciones y estados del ciclo de vida de producto
-description: Este tema explica cómo puede controlar qué transacciones están permitidas para cada estado del ciclo de vida a medida que un producto de ingeniería atraviesa su ciclo de vida.
+description: Este artículo explica cómo puede controlar qué transacciones están permitidas para cada estado del ciclo de vida a medida que un producto de ingeniería atraviesa su ciclo de vida.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867967"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transacciones y estados del ciclo de vida de producto
 
@@ -37,7 +37,7 @@ Para trabajar con estados del ciclo de vida del producto, vaya a **Gestión de c
 - Para eliminar un estado de ciclo de vida existente, selecciónelo en el panel de lista y luego seleccione **Eliminar** en el Panel de acciones.
 
 > [!NOTE]
-> Los productos de ingeniería utilizan los mismos estados del ciclo de vida del producto que los productos estándar (que no son de ingeniería). También puede abrir la página **Estado del ciclo de vida del producto** que se describe en este tema yendo a **Gestión de información de producto \> Preparar \> Estado del ciclo de vida del producto**. Para obtener más información sobre los estados del ciclo de vida del producto, tanto para productos de ingeniería como para productos estándar, consulte [Descripción general del estado del ciclo de vida del producto](../pim/product-lifecycle.md).
+> Los productos de ingeniería utilizan los mismos estados del ciclo de vida del producto que los productos estándar (que no son de ingeniería). También puede abrir la página **Estado del ciclo de vida del producto** que se describe en este artículo yendo a **Gestión de información de producto \> Preparar \> Estado del ciclo de vida del producto**. Para obtener más información sobre los estados del ciclo de vida del producto, tanto para productos de ingeniería como para productos estándar, consulte [Descripción general del estado del ciclo de vida del producto](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Encabezado
 

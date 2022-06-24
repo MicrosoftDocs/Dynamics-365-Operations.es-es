@@ -1,6 +1,6 @@
 ---
 title: Definición de procesos de recuento de inventario
-description: Este tema describe la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento.
+description: Este artículo describe la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento.
 author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bb86c99e74dc8251ed48c0b749c0b0ef1ce75e34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879030"
 ---
 # <a name="define-inventory-counting-processes"></a>Definición de procesos de recuento de inventario
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento. También le muestra cómo habilitar directivas de recuento en el nivel de almacén y de artículo. Estas tareas las realizará normalmente el supervisor del almacén. Es requisito previo que haya productos emitidos y almacenes. Si usa una empresa de datos de demostración, puede ejecutar este procedimiento en la empresa USMF con cualquier artículo en existencias.
+Este artículo describe la configuración de procesos de recuento de inventario básicos creando un grupo de recuento y un diario de recuento. También le muestra cómo habilitar directivas de recuento en el nivel de almacén y de artículo. Estas tareas las realizará normalmente el supervisor del almacén. Es requisito previo que haya productos emitidos y almacenes. Si usa una empresa de datos de demostración, puede ejecutar este procedimiento en la empresa USMF con cualquier artículo en existencias.
 
 
 ## <a name="create-a-counting-group"></a>Cree un grupo de recuento.

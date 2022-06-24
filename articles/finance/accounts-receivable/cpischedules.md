@@ -1,6 +1,6 @@
 ---
 title: Programación de índices de precios al consumidor
-description: Este tema explica cómo crear la lista de programaciones del índice de precios al consumidor (CPI) que obtiene de Internet para ayudar a determinar el cargo de escalación en la facturación de Suscripción.
+description: Este artículo explica cómo crear la lista de programaciones del índice de precios al consumidor (CPI) que obtiene de Internet para ayudar a determinar el cargo de escalación en la facturación de Suscripción.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f08b79ee00baab3713d9ccc24a7595b1de7a7768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904884"
 ---
 # <a name="consumer-price-index-schedule"></a>Programación de índices de precios al consumidor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo crear, eliminar, revisar y procesar programaciones del índice de precios al consumidor (IPC). Se puede usar una programación de IPC para determinar los precios de los bienes y servicios de consumidor que agrega como líneas de programación de facturación. La programación de CPI se puede usar con escalamiento y precios de descuento en las programaciones de facturación, o se puede procesar manualmente para actualizar los importes de facturación en las programaciones de facturación. Puede introducir programaciones de CPI manualmente o puede importarlas mediante la entidad compuesta de programación de CPI.
+Este artículo explica cómo crear, eliminar, revisar y procesar programaciones del índice de precios al consumidor (IPC). Se puede usar una programación de IPC para determinar los precios de los bienes y servicios de consumidor que agrega como líneas de programación de facturación. La programación de CPI se puede usar con escalamiento y precios de descuento en las programaciones de facturación, o se puede procesar manualmente para actualizar los importes de facturación en las programaciones de facturación. Puede introducir programaciones de CPI manualmente o puede importarlas mediante la entidad compuesta de programación de CPI.
 
 Para añadir una programación de CPI, siga estos pasos.
 

@@ -1,6 +1,6 @@
 ---
 title: Directrices de implementación para la muestra de integración del servicio fiscal para Austria (heredada)
-description: Este tema proporciona pautas para implementar la muestra de integración de impresora fiscal para Austria desde el Kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona pautas para implementar la muestra de integración de impresora fiscal para Austria desde el Kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 7cb0e7b665add397b12e1a841b6a2e9565528d6d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 94fe6817358ae18126a30794fd52fe5eb01a5265
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885446"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Directrices de implementación para la muestra de integración del servicio fiscal para Austria (heredada)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona pautas para implementar la muestra de integración del servicio de registro para Austria desde el kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte el [ejemplo de integración del servicio de registro fiscal para Austria](emea-aut-fi-sample.md). 
+Este artículo proporciona pautas para implementar la muestra de integración del servicio de registro para Austria desde el kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte el [ejemplo de integración del servicio de registro fiscal para Austria](emea-aut-fi-sample.md). 
 
-La muestra de integración fiscal de Austria forma parte del Retail SDK. Para obtener información sobre cómo instalar y usar el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md). El ejemplo de integración fiscal consta de extensiones para Commerce Runtime (CRT), la estación de hardware y el punto de venta (PDV). Para ejecutar este ejemplo, debe modificar y compilar el CRT, estación de hardware y proyectos de PDV. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este tema. También le recomendamos que utilice un sistema de control de fuente, como Azure DevOps, donde aún no se han cambiado archivos.
+La muestra de integración fiscal de Austria forma parte del Retail SDK. Para obtener información sobre cómo instalar y usar el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md). El ejemplo de integración fiscal consta de extensiones para Commerce Runtime (CRT), la estación de hardware y el punto de venta (PDV). Para ejecutar este ejemplo, debe modificar y compilar el CRT, estación de hardware y proyectos de PDV. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este artículo. También le recomendamos que utilice un sistema de control de fuente, como Azure DevOps, donde aún no se han cambiado archivos.
 
 ## <a name="development-environment"></a>Entorno de desarrollo
 

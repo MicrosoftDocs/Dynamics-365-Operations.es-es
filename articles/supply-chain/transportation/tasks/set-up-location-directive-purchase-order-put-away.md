@@ -1,6 +1,6 @@
 ---
 title: Configurar una directiva de ubicación para la ubicación de pedidos de compra
-description: Este tema explica cómo configurar una directiva de ubicación simple.
+description: Este artículo explica cómo configurar una directiva de ubicación simple.
 author: Weijiesa
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2275b2fd70e246955054930b13f29a6c0b287363
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873503"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para la ubicación de pedidos de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo configurar una directiva de ubicación simple. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos. Este procedimiento va destinado al encargado de almacén.
+Este artículo explica cómo configurar una directiva de ubicación simple. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos. Este procedimiento va destinado al encargado de almacén.
 
 1. En el panel de navegación, vaya a **Módulos > Gestión de almacenes > Configuración > Directivas de ubicación**.
 2. En el campo **Tipo de orden de trabajo**, seleccione **Pedidos de compra**.

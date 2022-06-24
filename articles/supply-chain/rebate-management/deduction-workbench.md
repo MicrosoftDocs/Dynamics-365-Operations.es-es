@@ -1,6 +1,6 @@
 ---
 title: Gestionar las deducciones utilizando el banco de trabajo de deducciones
-description: Este tema describe cómo usar el área de trabajo de deducciones para procesar pagos de cliente que incluyan deducciones.
+description: Este artículo describe cómo usar el área de trabajo de deducciones para procesar pagos de cliente que incluyan deducciones.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873619"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Gestionar las deducciones utilizando el banco de trabajo de deducciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo usar el área de trabajo de deducciones para procesar pagos de cliente que incluyan deducciones.
+Este artículo describe cómo usar el área de trabajo de deducciones para procesar pagos de cliente que incluyan deducciones.
 
 Un cliente al que se debe una devolución puede decidir no esperar al desembolso de la devolución. En su lugar, el cliente puede enviar un pago que incluya una deducción para el importe de devolución. Para gestionar este tipo de transacción, puede usar el área de trabajo de deducción para conciliar las deducciones para abrir transacciones de crédito, dividir deducciones, denegar deducciones y cancelar deducciones.
 
 > [!NOTE]
-> El área de trabajo de deducción ha sido parte de la funcionalidad de ventas y marketing de Microsoft Dynamics 365 Supply Chain Management por mucho tiempo. Sin embargo, ahora se ha mejorado para que también funcione con la versión más nueva del módulo **Gestión de reembolsos**. Este tema describe cómo utilizar las funciones anteriores y las funciones de administración de devoluciones del área de trabajo de deducción. Sin embargo, si no [activó e mídulo **Gestión de devoluciones** para su sistema](rebate-management-enable.md), algunas de las funciones que se describen aquí no estarán disponibles para usted.
+> El área de trabajo de deducción ha sido parte de la funcionalidad de ventas y marketing de Microsoft Dynamics 365 Supply Chain Management por mucho tiempo. Sin embargo, ahora se ha mejorado para que también funcione con la versión más nueva del módulo **Gestión de reembolsos**. Este artículo describe cómo utilizar las funciones anteriores y las funciones de administración de devoluciones del área de trabajo de deducción. Sin embargo, si no [activó e mídulo **Gestión de devoluciones** para su sistema](rebate-management-enable.md), algunas de las funciones que se describen aquí no estarán disponibles para usted.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -159,11 +159,11 @@ Para procesar una deducción nueva en el área de trabajo de deducción, siga es
         - *Basado en cantidad* - Se creará una orden de venta negativa o una orden de devolución negativa.
 
     - **Fecha de reclamación** - Seleccione la fecha de la reclamación. La fecha actual es el valor predeterminado.
-    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este tema.
+    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este artículo.
     - **Notas** - Agregue las notas que correspondan. Cuando se aprueba la reclamación, el aprobador podrá editar o agregar a las notas de la reclamación.
     - **Crear diario de reclamaciones** - Configure esta opción para especificar si el diario de reclamaciones debe crearse cuando se crea la reclamación o la deducción:
 
-        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este tema.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
+        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este artículo.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
         - *No* - No se crea ningún diario de reclamaciones en este momento. Se creará cuando se apruebe la reclamación. Aún se puede adjuntar una factura a la nueva reclamación, aunque no se cree un diario de reclamaciones. Sin embargo, la liquidación no se puede realizar sin el diario de reclamaciones.
 
 1. Seleccione **Aceptar**.
@@ -197,11 +197,11 @@ El proceso de creación de una deducción de la liquidación de un cliente se as
         - *Basado en cantidad* - Se creará una orden de venta negativa o una orden de devolución negativa.
 
     - **Fecha de reclamación** - Seleccione la fecha de la reclamación. La fecha actual es el valor predeterminado.
-    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este tema.
+    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este artículo.
     - **Notas** - Agregue las notas que correspondan. Cuando se aprueba la reclamación, el aprobador podrá editar o agregar a las notas de la reclamación.
     - **Crear diario de reclamaciones** - Configure esta opción para especificar si el diario de reclamaciones debe crearse cuando se crea la reclamación o la deducción:
 
-        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este tema.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
+        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este artículo.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
         - *No* - No se crea ningún diario de reclamaciones en este momento. Se creará cuando se apruebe la reclamación. Aún se puede adjuntar una factura a la nueva reclamación, aunque no se cree un diario de reclamaciones. Sin embargo, la liquidación no se puede realizar sin el diario de reclamaciones.
 
 1. Seleccione **Aceptar**.
@@ -235,11 +235,11 @@ El proceso de creación de una deducción de la liquidación desde la página de
         - *Basado en cantidad* - Se creará una orden de venta negativa o una orden de devolución negativa.
 
     - **Fecha de reclamación** - Seleccione la fecha de la reclamación. La fecha actual es el valor predeterminado.
-    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este tema.
+    - **Razón de la reclamación** - Seleccione el código de motivo que se aplica a la deducción actual. La base de reclamación que seleccionó afecta las opciones que se aplican. Para obtener más información sobre cómo crear y configurar los motivos de reclamación que están disponibles para su selección aquí, consulte la sección [Crear motivos de deducción](#deduction-reasons) anterior en este artículo.
     - **Notas** - Agregue las notas que correspondan. Cuando se aprueba la reclamación, el aprobador podrá editar o agregar a las notas de la reclamación.
     - **Crear diario de reclamaciones** - Configure esta opción para especificar si el diario de reclamaciones debe crearse cuando se crea la reclamación o la deducción:
 
-        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este tema.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
+        - *Sí* - El sistema creará y publicará un diario general utilizando el diario de reclamaciones que se configura en la página **Parámetros de cliente**. (Para obtener más información, consulte la sección [ Configurar cliente y deducciones](#accounts-receivable-deductions) anterior en este artículo.) Cuando se adjunta una factura a la reclamación, el diario de reclamaciones se utiliza para reducir el saldo de la factura correspondiente. Si la reclamación se rechaza posteriormente, el diario de reclamaciones y las liquidaciones (si se adjuntó una factura) se revertirán.
         - *No* - No se crea ningún diario de reclamaciones en este momento. Se creará cuando se apruebe la reclamación. Aún se puede adjuntar una factura a la nueva reclamación, aunque no se cree un diario de reclamaciones. Sin embargo, la liquidación no se puede realizar sin el diario de reclamaciones.
 
 1. Seleccione **Aceptar**.
@@ -280,7 +280,7 @@ Para hacer coincidir una deducción con un crédito, siga estos pasos.
 1. En el panel de acciones, seleccione **Mantener  \>Asignar**. El sistema hace coincidir la deducción con el crédito. Si queda un saldo en la deducción, se muestra en el campo **Importe restante** en la ficha **Deducciones**.
 
     > [!NOTE]
-    > Para las deducciones que se crearon utilizando el comando **Nueva deducción** en el banco de trabajo de deducción, la liquidación del cliente o la página del cliente, el comando **Mantener \>Coincidencia** está disponible solo si el campo **Estado de la reclamación** está configurado en *Aceptado*. Este comando se puede utilizar para hacer coincidir manualmente la transacción basada en el precio o en la cantidad con el crédito asociado en la sección **Transacciones abiertas**. Este crédito se crea cuando se aprueba la deducción (utilizando el comando **Mantener\> Aprobar la deducción**), o cuando se adjunta a un crédito existente como se describe en la sección [Créditos creados fuera del proceso de aprobación de deducción](#credits-outside-approval) más adelante en este tema. La tarea periódica *Liquidar deducciones aprobadas* (**Ventas y Marketing \> Tareas periódicas \> Liquidar deducciones aprobadas**) también se puede utilizar para hacer coincidir automáticamente las deducciones y los créditos que tienen valores y cantidades de **ID de deducción** coincidentes.
+    > Para las deducciones que se crearon utilizando el comando **Nueva deducción** en el banco de trabajo de deducción, la liquidación del cliente o la página del cliente, el comando **Mantener \>Coincidencia** está disponible solo si el campo **Estado de la reclamación** está configurado en *Aceptado*. Este comando se puede utilizar para hacer coincidir manualmente la transacción basada en el precio o en la cantidad con el crédito asociado en la sección **Transacciones abiertas**. Este crédito se crea cuando se aprueba la deducción (utilizando el comando **Mantener\> Aprobar la deducción**), o cuando se adjunta a un crédito existente como se describe en la sección [Créditos creados fuera del proceso de aprobación de deducción](#credits-outside-approval) más adelante en este artículo. La tarea periódica *Liquidar deducciones aprobadas* (**Ventas y Marketing \> Tareas periódicas \> Liquidar deducciones aprobadas**) también se puede utilizar para hacer coincidir automáticamente las deducciones y los créditos que tienen valores y cantidades de **ID de deducción** coincidentes.
 
 ### <a name="split-a-deduction"></a>Dividir una deducción
 

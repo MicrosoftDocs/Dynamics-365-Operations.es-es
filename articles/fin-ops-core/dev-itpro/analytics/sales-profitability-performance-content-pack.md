@@ -1,6 +1,6 @@
 ---
 title: Contenido de Power BI de rendimiento de ventas y rentabilidad
-description: Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad.
+description: Este artículo describe lo que se incluye en el contenido de Power BI sobre Rendimiento de ventas y rentabilidad.
 author: ShylaThompson
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ec9ef5f4abf898100c670b1ca1cc845d6ebeeea36f21cdda3a9b7d3f1027d4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898693"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de ventas y rentabilidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de **Rendimiento de ventas y rentabilidad** de Microsoft Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este artículo describe lo que se incluye en el contenido de **Rendimiento de ventas y rentabilidad** de Microsoft Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 

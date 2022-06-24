@@ -1,6 +1,6 @@
 ---
 title: Crear un pago de retención de impuestos
-description: El procedimiento de la tarea Pago de retención de impuestos liquida los saldos de retención de impuestos de Proveedores en las cuentas de retención de impuestos y los anota como contrapartida en la cuenta de liquidación retención de impuestos para un período determinado. Este tema enumera los pasos para configurar un pago de retención de impuestos.
+description: El procedimiento de la tarea Pago de retención de impuestos liquida los saldos de retención de impuestos de Proveedores en las cuentas de retención de impuestos y los anota como contrapartida en la cuenta de liquidación retención de impuestos para un período determinado. Este artículo enumera los pasos para configurar un pago de retención de impuestos.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 2b374d7aeab4d066b0894dde8f542c2f807d1ef9
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855415"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Crear un pago de retención de impuestos
 
-El procedimiento de la tarea Pago de retención de impuestos liquida los saldos de retención de impuestos de Proveedores en las cuentas de retención de impuestos y los anota como contrapartida en la cuenta de liquidación retención de impuestos para un período determinado. Este tema enumera los pasos para configurar un pago de retención de impuestos.
+El procedimiento de la tarea Pago de retención de impuestos liquida los saldos de retención de impuestos de Proveedores en las cuentas de retención de impuestos y los anota como contrapartida en la cuenta de liquidación retención de impuestos para un período determinado. Este artículo enumera los pasos para configurar un pago de retención de impuestos.
 
 > [!NOTE] 
 > La compensación de retención de impuestos (de clientes) no se tiene en cuenta al calcular un pago de retención de impuestos.

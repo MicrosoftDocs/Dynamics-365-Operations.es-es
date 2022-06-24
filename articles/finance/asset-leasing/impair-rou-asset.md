@@ -1,6 +1,6 @@
 ---
 title: Deteriorar activos por derecho de uso
-description: Este tema describe la funcionalidad que registra un deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842).
+description: Este artículo describe la funcionalidad que registra un deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842).
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894124"
 ---
 # <a name="impair-right-of-use-assets"></a>Deteriorar activos por derecho de uso
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Si el valor en libros de un activo por derecho de uso (ROU) no es recuperable, es posible que deba probar si el activo está deteriorado. Si determina que el activo está deteriorado, el arrendamiento de activos puede registrar el deterioro y ajustar el programa de depreciación en consecuencia. Este tema describe la funcionalidad que registra el deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842). El mismo método también se aplica a los arrendamientos de la Norma Internacional de Información Financiera 16 (IFRS 16).
+Si el valor en libros de un activo por derecho de uso (ROU) no es recuperable, es posible que deba probar si el activo está deteriorado. Si determina que el activo está deteriorado, el arrendamiento de activos puede registrar el deterioro y ajustar el programa de depreciación en consecuencia. Este artículo describe la funcionalidad que registra el deterioro y ajusta el programa de depreciación de activos de un arrendamiento operativo del Tema 842 de Codificación de Normas de Contabilidad (ASC 842). El mismo método también se aplica a los arrendamientos de la Norma Internacional de Información Financiera 16 (IFRS 16).
 
 El saldo restante del activo por derecho de uso se amortizará de forma lineal por el número de períodos que queden, independientemente de si el arrendamiento se clasificó como arrendamiento financiero según IFRS 16 o como arrendamiento operativo según ASC 842.
 
@@ -81,9 +81,9 @@ Las siguientes tablas muestran los valores que se establecen en las pestañas **
 | Frecuencia de pago | Anual   |
 | Importe del pago    | 10,000     |
 
-### <a name="steps"></a>Etapas
+### <a name="steps"></a>Pasos
 
-1. Después de crear el arrendamiento como se describió anteriormente en este tema, vaya al libro de arrendamiento y confirme la programación de pagos. Luego publique la entrada del diario de reconocimiento inicial. El activo por derecho de uso inicial y el pasivo por arrendamiento deben ser de 70.235,81 $. Para este ejemplo, el arrendamiento se clasificó como arrendamiento operativo según ASC 842.
+1. Después de crear el arrendamiento como se describió anteriormente en este artículo, vaya al libro de arrendamiento y confirme la programación de pagos. Luego publique la entrada del diario de reconocimiento inicial. El activo por derecho de uso inicial y el pasivo por arrendamiento deben ser de 70.235,81 $. Para este ejemplo, el arrendamiento se clasificó como arrendamiento operativo según ASC 842.
 2. Ejecute el proceso de diario por lotes tres veces para simular el paso de tres años para los pagos por arrendamiento, los gastos por intereses y los gastos de depreciación.
 3. Una vez que haya terminado de ejecutar los tres trabajos por lotes, vuelva al libro de arrendamiento y abra las tablas de transacciones de activos y pasivos para ver el valor en libros actual del activo por derecho de uso y el pasivo por arrendamiento. Después de tres años, el valor del pasivo debe ser de aproximadamente -53.893,00 $ y el valor del activo debe ser de aproximadamente 53.893,00 $. 
 

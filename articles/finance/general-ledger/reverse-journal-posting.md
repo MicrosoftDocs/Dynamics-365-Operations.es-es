@@ -1,6 +1,6 @@
 ---
-title: Invertir diario de registro
-description: Este tema describe capacidades que le permiten invertir los asientos de la transacción de asiento o lista de los diarios financieros.
+title: Revertir diario de registro
+description: Este artículo describe capacidades que le permiten invertir los asientos de la transacción de asiento o lista de los diarios financieros.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868413"
 ---
-# <a name="reverse-journal-posting"></a>Invertir diario de registro
+# <a name="reverse-journal-posting"></a>Revertir diario de registro
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las capacidades de Microsoft Dynamics 365 Finance que permiten que invierta el diario entero o que invierta uno o varios asientos de la transacción de asiento enumerada independientemente de su origen. 
+Este artículo describe las capacidades de Microsoft Dynamics 365 Finance que permiten que invierta el diario entero o que invierta uno o varios asientos de la transacción de asiento enumerada independientemente de su origen. 
 
-Antes de poder usar una de las funciones que se describen en este tema, debe activarlas en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Antes de poder usar una de las funciones que se describen en este artículo, debe activarlas en su sistema. Los administradores pueden usar el espacio de trabajo **Administración de características** para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
  - Módulo: Contabilidad general
  - Nombre de la función: **Reversiones masivas para varios documentos**
 
@@ -69,7 +69,7 @@ Si el asiento supera las 100 líneas, el proceso de inversión se ejecuta median
 
 Si el número de líneas de asiento es 100 o menos, el proceso de inversión se ejecutará inmediatamente. Los resultados se mostrarán en un cuadro diálogo que muestra cualquier asiento que no se ha podido invertir y la razón por la que no ha podido invertirse. Haga clic en **Aceptar** para cerrar el cuadro de diálogo.
 
-Las transacciones se pueden invertir solo si satisfacen las reglas empresariales para invertirlas. Los pagos de proveedor no se pueden invertir con la capacidad anteriormente descrita en este tema. Los pagos de proveedor deben invertirse de acuerdo con los pasos que se describen en [Inversión de un pago de proveedor](../accounts-payable/reverse-vendor-payment.md).
+Las transacciones se pueden invertir solo si satisfacen las reglas empresariales para invertirlas. Los pagos de proveedor no se pueden invertir con la capacidad anteriormente descrita en este artículo. Los pagos de proveedor deben invertirse de acuerdo con los pasos que se describen en [Inversión de un pago de proveedor](../accounts-payable/reverse-vendor-payment.md).
 
 
 

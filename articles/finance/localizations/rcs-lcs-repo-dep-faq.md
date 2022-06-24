@@ -1,6 +1,6 @@
 ---
 title: 'Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)'
-description: Este tema proporciona información sobre la eliminación del almacenamiento de Microsoft Dynamics Lifecycle Services (LCS) que está prevista como parte del despliegue del repositorio global de Regulatory Configuration Service (RCS).
+description: Este artículo proporciona información sobre la eliminación del almacenamiento de Microsoft Dynamics Lifecycle Services (LCS) que está prevista como parte del despliegue del repositorio global de Regulatory Configuration Service (RCS).
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849742"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)
 
@@ -85,7 +85,7 @@ RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada fo
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>¿Hay algún ejemplo que muestre la configuración y la gestión?
 
-No hay ejemplos, pero puede completar los pasos anteriores en este tema para migrar sus configuraciones al repositorio RCS Global.
+No hay ejemplos, pero puede completar los pasos anteriores en este artículo para migrar sus configuraciones al repositorio RCS Global.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>¿Es RCS un requisito previo para configurar los informes electrónicos?
 

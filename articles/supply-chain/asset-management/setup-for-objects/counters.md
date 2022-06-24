@@ -1,6 +1,6 @@
 ---
 title: Medidas de activo
-description: En este tema se explica cómo crear tipos de medidas de activo en Administración de activos.
+description: En este artículo se explica cómo crear tipos de medidas de activo en Administración de activos.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909683"
 ---
 # <a name="counters"></a>Contadores
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo crear tipos de contadores en Administración de activos. Los tipos de contadores se usan para realizar registros de contadores en activos, por ejemplo, sobre el número de horas de producción, o la cantidad producida en el activo. Los tipos de activos están relacionados con los tipos de contadores. Esto significa que solo se puede usar un contador en un activo si el contador está configurado en el tipo de activo que se utiliza en el activo.
+En este artículo se explica cómo crear tipos de contadores en Administración de activos. Los tipos de contadores se usan para realizar registros de contadores en activos, por ejemplo, sobre el número de horas de producción, o la cantidad producida en el activo. Los tipos de activos están relacionados con los tipos de contadores. Esto significa que solo se puede usar un contador en un activo si el contador está configurado en el tipo de activo que se utiliza en el activo.
 
 Para poder realizar registros de contadores en activos, debe crear primero los tipos de contador que desea usar en **Contadores**. A continuación, puede crear registros de contador en activos en **Contadores**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Informe de declaración DIOT
-description: En este tema se proporciona información acerca del informe de declaración DIOT para México.
+description: En este artículo se proporciona información acerca del informe de declaración DIOT para México.
 author: sndray
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a716ae29cf05db67be03121cd0ef4865c5a44fba31900a9f281c4da29a0b26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47b063d16688e63f4fe074661ab13408897caa78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902337"
 ---
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se proporciona información acerca del informe de declaración DIOT para México.
+En este artículo se proporciona información acerca del informe de declaración DIOT para México.
 
 El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Dynamics 365 Finance y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
 

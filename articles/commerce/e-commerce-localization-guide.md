@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce Guía de localización de comercio electrónico
-description: En este tema se describe cómo localizar un sitio de comercio electrónico de Microsoft Dynamics 365 Commerce en idiomas adicionales y configurar el sitio para soportar múltiples canales.
+description: En este artículo se describe cómo localizar un sitio de comercio electrónico de Microsoft Dynamics 365 Commerce en idiomas adicionales y configurar el sitio para soportar múltiples canales.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873393"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce Guía de localización de comercio electrónico
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo localizar un sitio de comercio electrónico de Microsoft Dynamics 365 Commerce en idiomas adicionales y configurar el sitio para soportar múltiples canales, y también cubre los conceptos y la terminología relacionada con el proceso.
+En este artículo se describe cómo localizar un sitio de comercio electrónico de Microsoft Dynamics 365 Commerce en idiomas adicionales y configurar el sitio para soportar múltiples canales, y también cubre los conceptos y la terminología relacionada con el proceso.
 
 Las capacidades de comercio electrónico en Dynamics 365 Commerce se han diseñado para permitir experiencias en línea que se pueden adaptar a países e idiomas específicos, pero al mismo tiempo permiten la máxima reutilización de plantillas, páginas, contenido y medios. También puede crear un sitio básico y luego expandirse a nuevos mercados agregando soporte para países e idiomas adicionales con el tiempo.
 
@@ -79,7 +79,7 @@ En esta configuración, los clientes y socios suelen desarrollar todos los activ
 ![Sitio de comercio electrónico Dynamics 365 Commerce listo para usar](media/loc-guide-1.png)
 
 > [!NOTE]
-> Puede configurar el sitio de demostración de Fabrikam para un idioma adicional para que el desarrollo de contenido se pueda realizar en ese idioma. Para obtener información sobre cómo agregar un nuevo idioma a un sitio y un canal, consulte la sección [Configurar un idioma adicional para su sitio](#configure-an-additional-language-for-your-site) más adelante en este tema.
+> Puede configurar el sitio de demostración de Fabrikam para un idioma adicional para que el desarrollo de contenido se pueda realizar en ese idioma. Para obtener información sobre cómo agregar un nuevo idioma a un sitio y un canal, consulte la sección [Configurar un idioma adicional para su sitio](#configure-an-additional-language-for-your-site) más adelante en este artículo.
 
 Sin embargo, el sistema de administración de contenido (CMS) y el modelo de página para sitios de comercio electrónico Dynamics 365 Commerce se han diseñado para permitir la expansión a nuevos mercados y lugares. Por lo tanto, a través de un solo sitio de comercio electrónico, puede administrar los activos de una tienda en línea que abarca múltiples mercados e idiomas.
 
@@ -117,7 +117,7 @@ Para agregar un idioma a un canal en el generador de sitios, siga estos pasos.
 
 Cuando regrese a la vista **Paginas** en el generador de sitios de Commerce, el nuevo idioma estará disponible en el canal y el selector de configuración regional en la parte superior derecha. Ahora puede crear versiones localizadas de páginas en su idioma base.
 
-El proceso para localizar el contenido de sus páginas y fragmentos está cubierto en la sección [Localizar el contenido del sitio de comercio electrónico](#localize-e-commerce-site-content) más adelante en este tema.
+El proceso para localizar el contenido de sus páginas y fragmentos está cubierto en la sección [Localizar el contenido del sitio de comercio electrónico](#localize-e-commerce-site-content) más adelante en este artículo.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Configurar un nuevo canal para su sitio
 
@@ -156,7 +156,7 @@ Los siguientes activos del sitio de comercio electrónico se pueden localizar en
 
 Todas las páginas, fragmentos y activos multimedia nuevos se crean en el contexto del canal y el idioma que están seleccionados actualmente en el selector de canal y configuración regional. Este idioma suele ser su "idioma base", siempre que no haya configurado idiomas o canales adicionales. En los sitios donde se configuran varios canales e idiomas, el "idioma base" se define por el canal y la configuración regional que ha establecido como predeterminados en la página **Canales** en la configuración del sitio.
 
-Los pasos para localizar contenido para páginas, fragmentos y recursos multimedia son similares. Las excepciones y diferencias se señalarán en las secciones siguientes. Sin embargo, los pasos para localizar el contenido del módulo difieren. Para obtener más información, consulte la sección [Localizar módulos](#localize-modules) en este tema.
+Los pasos para localizar contenido para páginas, fragmentos y recursos multimedia son similares. Las excepciones y diferencias se señalarán en las secciones siguientes. Sin embargo, los pasos para localizar el contenido del módulo difieren. Para obtener más información, consulte la sección [Localizar módulos](#localize-modules) en este artículo.
 
 #### <a name="step-1-export-an-xliff-file"></a>Paso 1: Exportar un archivo XLIFF
 

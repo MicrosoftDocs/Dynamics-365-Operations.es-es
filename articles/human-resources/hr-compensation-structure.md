@@ -1,6 +1,6 @@
 ---
 title: Desarrollar una estructura de compensaciones
-description: Este tema explica cómo crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad.
+description: Este artículo explica cómo crear un plan de compensación fijo e inscribir empleados en el plan siguiendo reglas de idoneidad.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902987"
 ---
 # <a name="develop-a-compensation-structure"></a>Desarrollar una estructura de compensaciones
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693098"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe la creación de un plan de compensación fija y la inscripción de los empleados en el plan siguiendo reglas de idoneidad. Este tema utiliza los datos de demostración de USMF y los aplica a los administradores de compensación y prestaciones.
+Este artículo describe la creación de un plan de compensación fija y la inscripción de los empleados en el plan siguiendo reglas de idoneidad. Este artículo utiliza los datos de demostración de USMF y se aplica a los Gerentes de Compensación y Beneficios.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Crear un plan de compensación fija
 

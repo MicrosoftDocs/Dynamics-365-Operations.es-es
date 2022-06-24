@@ -1,6 +1,6 @@
 ---
-title: Módulo del menú de navegación
-description: En este tema se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+title: Módulo de menú de navegación
+description: En este artículo se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d2ac2bcf4324f2386c97fbf264c076062e6f304c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852754"
 ---
 # <a name="navigation-menu-module"></a>Módulo de menú de navegación
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de menú de navegación y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 El propósito principal de los módulos de menú de navegación es permitir que los usuarios del sitio naveguen por productos y páginas del sitio de acuerdo con la jerarquía de navegación del canal definida en la central de Dynamics 365 Commerce. Los elementos configurados en un módulo del menú de navegación aparecen como navegación del encabezado del sitio. Los módulos del menú de navegación también admiten elementos de menú estáticos que se vinculan a otras páginas en un sitio de comercio electrónico.
 

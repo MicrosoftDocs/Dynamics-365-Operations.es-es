@@ -1,6 +1,6 @@
 ---
 title: Asiento único con varios registros de cliente o proveedor
-description: Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 Finance, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo.
+description: Este artículo proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 Finance, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889102"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo. 
+Este artículo proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo. 
 
 Algunos ejemplos comunes donde el asiento se usa para varios clientes o proveedores incluyen las transacciones de saldos entre clientes, y la compensación de saldos entre clientes y proveedores de la misma organización. 
 
@@ -35,7 +35,7 @@ Un asiento que contiene más de un cliente o proveedor se puede especificar medi
 -   Usando un asiento multilínea, donde no hay cuenta contable de contrapartida, con más de un cliente o proveedor.
 -   Indicando un asiento con la cuenta y la cuenta de contrapartida de proveedor/proveedor, cliente/cliente, proveedor/cliente o cliente/proveedor.
 
-Este tema muestra cómo se procesará el acuerdo cuando se registre un asiento con varios registros de cliente o proveedor. Además, este tema proporciona soluciones para ayudarle a comprender cómo evitar el uso de un asiento con varios clientes o proveedores. En particular, hay ejemplos que muestran dos casos de acuerdo comunes que se han visto afectados por el uso de un asiento con varios clientes o proveedores:
+Este artículo muestra cómo se procesará el acuerdo cuando se registre un asiento con varios registros de cliente o proveedor. Además, este artículo proporciona soluciones para ayudarle a comprender cómo evitar el uso de un asiento con varios clientes o proveedores. En particular, hay ejemplos que muestran dos casos de acuerdo comunes que se han visto afectados por el uso de un asiento con varios clientes o proveedores:
 
 -   Contabilidad de descento en efectivo
 -   Contabilidad de revalorización

@@ -1,6 +1,6 @@
 ---
-title: Migración de cliente potencial a efectivo desde Integrador de datos a escritura dual
-description: Este tema describe cómo migrar un cliente potencial a efectivo desde Integrador de datos a escritura dual.
+title: Migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
+description: Este artículo describe cómo migrar un cliente potencial a efectivo desde Integrador de datos a escritura dual.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894277"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
-La solución Prospect to cash disponible para Data Integrator no es compatible con escritura dual. La razón de esto es el índice msdynce_AccountNumber en la tabla de cuentas que vino como parte de la solución Prospect to cash. Si este índice existe, no puede crear el mismo número de cuenta de cliente en dos entidades legales diferentes. Puede elegir comenzar de cero con doble escritura migrando los datos de Prospect to cash de Data Integrator a dual-write o puede instalar la última versión "dorman" de la solución Prospect to cash. Este tema cubre ambos enfoques.
+La solución Prospect to cash disponible para Data Integrator no es compatible con escritura dual. La razón de esto es el índice msdynce_AccountNumber en la tabla de cuentas que vino como parte de la solución Prospect to cash. Si este índice existe, no puede crear el mismo número de cuenta de cliente en dos entidades legales diferentes. Puede elegir comenzar de cero con doble escritura migrando los datos de Prospect to cash de Data Integrator a dual-write o puede instalar la última versión "dorman" de la solución Prospect to cash. Este artículo cubre ambos enfoques.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Instale la última versión "dorman" de Data Integrator Prospect to cash solution
 
@@ -50,7 +50,7 @@ Para migrar su cliente potencial a efectivo desde Integrador de datos a escritur
 5. Cree una conexión de escritura dual entre la aplicación Finance and Operations y la aplicación de interacción con el cliente para una o más entidades legales.
 6. Habilite mapas de tabla de escritura dual y ejecute la sincronización inicial para los datos de referencia necesarios. (Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).) Ejemplos de datos requeridos incluyen grupos de clientes, condiciones de pago y programas de pago. No habilite los mapas de escritura dual para las tablas que requieren inicialización, como las tablas de cuenta, cotización, línea de cotización, pedido y línea de pedido.
 7. En la aplicación de interacción con el cliente, vaya a **Ajustes avanzados \> Ajustes del sistema \> Gestión de datos \> Reglas de detección duplicadas** y deshabilite todas las reglas.
-8. Inicialice las tablas que se enumeran en el paso 2. Para obtener instrucciones, consulte las secciones restantes de este tema.
+8. Inicialice las tablas que se enumeran en el paso 2. Para obtener instrucciones, consulte las secciones restantes de este artículo.
 9. Abra la aplicación Finance and Operations y habilite los mapas de tabla, como los mapas de tabla de cuenta, cotización, línea de cotización, pedido y línea de pedido. A continuación ejecute la sincronización inicial. (Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).) Este proceso sincronizará información adicional de la aplicación Finance and Operations, como el estado de procesamiento, las direcciones de envío y facturación, los sitios y los almacenes.
 
 ## <a name="account-table"></a>Tabla Cuenta
@@ -98,7 +98,7 @@ Ya que los datos de la tabla **Productos** están diseñados para fluir en una d
 
 ## <a name="quote-and-quote-product-tables"></a>Tablas de cotización y producto de cotización
 
-Para la tabla **Cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de pedidos](#order-table). Para la tabla **Producto de cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de productos de pedido](#order-products-table).
+Para la tabla **Cotización**, siga las instrucciones de la sección anterior de este artículo, [Tabla de pedidos](#order-table). Para la tabla **Producto de cotización**, siga las instrucciones de la sección anterior de este tema, [Tabla de productos de pedido](#order-products-table).
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

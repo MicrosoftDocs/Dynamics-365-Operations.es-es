@@ -1,6 +1,6 @@
 ---
 title: Plantillas de división de ingresos en facturación de suscripción
-description: Este tema explica cómo configurar plantillas de división de ingresos para artículos que se venden como paquetes.
+description: Este artículo explica cómo configurar plantillas de división de ingresos para artículos que se venden como paquetes.
 author: JodiChristiansen
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 145ca6e6f0673a5a09fe9a23cf5e163421617fd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904770"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Plantillas de división de ingresos en facturación de suscripción
 

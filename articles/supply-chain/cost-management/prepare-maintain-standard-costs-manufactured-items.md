@@ -1,6 +1,6 @@
 ---
 title: Preparar el mantenimiento de los costes estándar de artículos fabricados
-description: Este tema decribe los pasos para prepararse para el mantenimiento de costes de artículos fabricados.
+description: Este artículo describe los pasos para prepararse para el mantenimiento de costes de artículos fabricados.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886026"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Preparar el mantenimiento de los costes estándar de artículos fabricados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema decribe los pasos para prepararse para el mantenimiento de costes de artículos fabricados. Los pasos para los artículos fabricados varían ligeramente de los pasos de los artículos adquiridos.
+Este artículo describe los pasos para prepararse para el mantenimiento de costes de artículos fabricados. Los pasos para los artículos fabricados varían ligeramente de los pasos de los artículos adquiridos.
 
 Las directivas que se asignan a los artículos fabricados pueden afectar a los cálculos de coste de los artículos fabricados principales. Para prepararse para mantener los costes de artículos fabricados, siga estos pasos.
 
@@ -63,7 +63,7 @@ Las directivas que se asignan a los artículos fabricados pueden afectar a los c
 
 Si desea utilizar la información de enrutamiento para la gestión de costes necesitará pasos preparativos adicionales. Por ejemplo, las categorías de coste asignadas a las operaciones de enrutamiento deben ser correctas y estar completas.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Amortizar los costes constantes para un artículo fabricado](amortize-constant-costs-manufactured-item.md)
 

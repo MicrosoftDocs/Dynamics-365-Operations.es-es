@@ -1,6 +1,6 @@
 ---
 title: Reglas de eliminación
-description: Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
+description: Este artículo proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864321"
 ---
 # <a name="elimination-rules"></a>Reglas de eliminación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
+Este artículo proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
 
 Las transacciones de eliminación se requieren cuando una entidad jurídica trabaja con una o más entidades jurídicas subsidiarias y usa informes financieros consolidados. Los resultados financieros consolidados deben incluir solo las transacciones que tienen lugar entre la organización consolidada y otras entidades fuera de esas organizaciones. Por lo tanto, las transacciones entre entidades jurídicas que forman parte de la misma organización se deben quitar o eliminar de la contabilidad general de modo que no aparezcan en los informes financieros. Hay varias formas de informar sobre eliminaciones:
 
@@ -34,7 +34,7 @@ Las transacciones de eliminación se requieren cuando una entidad jurídica trab
 -   Se pueden usar informes financieros para mostrar las dimensiones y las cuentas de eliminaciones en una fila o una columna específica.
 -   Se puede usar una entidad jurídica independiente para registrar entradas de la transacciones manuales para realizar un seguimiento de las eliminaciones.
 
-Este tema se centra en las reglas de eliminación que se procesan en una empresa de consolidación o de eliminación. Puede configurar reglas de eliminación para crear transacciones de eliminación en una entidad jurídica especificada como la entidad jurídica de destino para las eliminaciones. Esta entidad jurídica de destino se conoce como la entidad jurídica de eliminación. Se pueden generar diarios de eliminación o bien durante el proceso de consolidación o mediante una propuesta de diario de eliminación. Antes de configurar reglas de eliminación, debería familiarizarse con los términos siguientes:
+Este artículo se centra en las reglas de eliminación que se procesan en una empresa de consolidación o de eliminación. Puede configurar reglas de eliminación para crear transacciones de eliminación en una entidad jurídica especificada como la entidad jurídica de destino para las eliminaciones. Esta entidad jurídica de destino se conoce como la entidad jurídica de eliminación. Se pueden generar diarios de eliminación o bien durante el proceso de consolidación o mediante una propuesta de diario de eliminación. Antes de configurar reglas de eliminación, debería familiarizarse con los términos siguientes:
 
 -   **Entidad jurídica de origen**: la entidad jurídica en la que se han registrado los importes que se eliminaron.
 -   **Entidad jurídica de destino**: la entidad jurídica en la que se registraron las reglas de eliminación.

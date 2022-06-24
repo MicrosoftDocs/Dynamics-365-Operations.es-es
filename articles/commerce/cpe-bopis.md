@@ -1,6 +1,6 @@
 ---
 title: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
-description: Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
+description: Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861975"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
+Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
 
 ## <a name="prerequisite"></a>Requisito previo
 
-Complete los procedimientos de este tema solo después de que se haya aprovisionado y configurado su entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de evaluación de Dynamics 365 Commerce](./cpe-post-provisioning.md).
+Complete los procedimientos de este artículo solo después de que se haya aprovisionado y configurado su entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de evaluación de Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
-Después de que su entorno de Commerce se haya aprovisionado y configurado de principio a fin, puede usar este tema para habilitar escenarios BOPIS.
+Después de que su entorno de Commerce se haya aprovisionado y configurado de principio a fin, puede usar este artículo para habilitar escenarios BOPIS.
 
 ## <a name="configure-the-pos"></a>Configurar el PDV
 
 ### <a name="configure-modern-pos"></a>Configurar Modern POS
 
-Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una estación de hardware. La estación de hardware se ha incluido en el programa Modern POS para clientes Windows y Android. Si está utilizando Cloud POS o Modern POS para iOS, el cliente del punto de venta (PDV) debe estar emparejado con una estación de hardware compartida. Este tema explica cómo configurar BOPIS para clientes Windows y Android. Para obtener más información sobre cómo configurar una estación de hardware compartida, consulte [Configurar e instalar la estación de hardware de Retail](./retail-hardware-station-configuration-installation.md).
+Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una estación de hardware. La estación de hardware se ha incluido en el programa Modern POS para clientes Windows y Android. Si está utilizando Cloud POS o Modern POS para iOS, el cliente del punto de venta (PDV) debe estar emparejado con una estación de hardware compartida. Este artículo explica cómo configurar BOPIS para clientes Windows y Android. Para obtener más información sobre cómo configurar una estación de hardware compartida, consulte [Configurar e instalar la estación de hardware de Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Vaya a **Venta minorista y comercio \> Configuración de canal \> Configuración de PDV \> Registros**.
 2. Seleccione el registro **SANFRAN-5** y luego seleccione **Editar**.
@@ -67,7 +67,7 @@ Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una 
 5. Aparece un cuadro de diálogo de autenticación. Seleccione la cuenta que usa la dirección de correo electrónico que anteriormente estaba asociada con el trabajador **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Si aún no ha asociado a un trabajador con su identidad, la activación no tendrá éxito. En este caso, siga los pasos de la sección "Asociar un trabajador con su identidad" en el tema [Configurar un entorno de evaluación de Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Si aún no ha asociado a un trabajador con su identidad, la activación no tendrá éxito. En este caso, siga los pasos de la sección "Asociar un trabajador con su identidad" en el artículo [Configurar un entorno de evaluación de Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Cuando se le solicite que permita que su organización administre el dispositivo, seleccione **Esta aplicación solo**.
 7. Cuando se complete la activación, seleccione **Empezar**.

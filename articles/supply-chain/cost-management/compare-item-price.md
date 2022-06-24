@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846224"
 ---
 # <a name="compare-item-prices-storage-report"></a>Informe para Comparar precios de almacenamiento de artículos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo ejecutar un informe **Comprar precios de almacenamiento de artículos** y hacer que la salida esté disponible digitalmente, ya sea como una página interactiva en Dynamics 365 Supply Chain Management, o como documento exportado en cualquiera de varios formatos.
+Este artículo explica cómo ejecutar un informe **Comprar precios de almacenamiento de artículos** y hacer que la salida esté disponible digitalmente, ya sea como una página interactiva en Dynamics 365 Supply Chain Management, o como documento exportado en cualquiera de varios formatos.
 
 Cuando vea el informe en su navegador, las columnas y saldos agregados se ajustarán dinámicamente dependiendo de su diseño configurado. Puede ordenar los resultados, filtrarlos, explorarlos en profundidad los datos y más.
 

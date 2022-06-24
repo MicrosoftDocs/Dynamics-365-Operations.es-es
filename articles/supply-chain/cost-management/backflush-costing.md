@@ -1,6 +1,6 @@
 ---
 title: Contabilización previa de los costes
-description: Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing.
+description: Este artículo presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906106"
 ---
 # <a name="backflush-costing"></a>Contabilización previa de los costes
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing. 
+Este artículo presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing. 
 
 El coste de la producción ajustada permite al flujo de producción para utilizar el método de acumulación de costes que se conoce como contabilización previa de los costes. En el método de la contabilización previa de los costes, el material directo que se consume se acumula en la cuenta de costes de (WIP) del trabajo en curso del flujo de producción. Se usa el grupo de modelos de inventario de costes estándar. Los productos recibidos del flujo de producción se deducen del trabajo en curso en su coste estándar. La principal diferencia entre la contabilización previa de los costes y el coste estándar es que, para la contabilización previa de los costes, las desviaciones no se calculan por kanban o el producto terminado. En su lugar, las desviaciones se calculan por el flujo de producción durante un período. Este método presenta un concepto verdaderamente lean para notificar el consumo de materiales. Las cantidades seleccionadas dedicadas de material no se notifican a un kanban o a un pedido de producción. En su lugar, los lotes completos o las unidades de manipulación se almacenan provisionalmente en el flujo de producción. Después de que los lotes o las unidades de manipulación se registren como vacíos, se declaran consumidos. Se puede usar el consumo avanzado, según la [configuración del flujo de producción](../production-control/lean-manufacturing-modeling-lean-organization.md). Antes de que el consumo avanzado se pueda usar, las organizaciones deben permitirse hacer desaparecer material en el trabajo en curso del flujo de producción. La contabilización previa de los costes periódica determina el valor efectivo del trabajo en curso al final del período. Esta determinación se basa en el estado del kanban, las unidades de manipulación y el trabajo kanban. Las desviaciones entre los valores reales y los valores reales del trabajo en curso por grupo de costes y artículos se tienen en cuenta y se muestran como desviaciones.
 

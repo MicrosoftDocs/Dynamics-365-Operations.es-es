@@ -1,6 +1,6 @@
 ---
 title: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
+description: En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860533"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061318"
 
 
 
-En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Dynamics 365 Field Service a pedidos de ventas en Dynamics 365 Supply Chain Management.
+En este artículo se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Dynamics 365 Field Service a pedidos de ventas en Dynamics 365 Supply Chain Management.
 
 [![Sincronización de procesos empresariales entre Supply Chain Management y Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ Para realizar un seguimiento de los pedidos de ventas que se originan de pedidos
 
 De forma predeterminada, la asignación selecciona el origen de ventas para tipo de origen ventas **Integración de pedidos de trabajo** para todos los pedidos de ventas que se creen de pedidos de trabajo. Este comportamiento puede ser útil cuando trabaja con el pedido de ventas en Supply Chain Management. Debe asegurarse de que los pedidos de ventas que se originan de pedidos de trabajo no estén sincronizados de nuevo Field Service como pedidos de trabajo.
 
-Para obtener más información sobre cómo crear la configuración correcta del origen de ventas en Supply Chain Management, consulte la sección "Condiciones previas y configuración de la asignación" de este tema.
+Para obtener más información sobre cómo crear la configuración correcta del origen de ventas en Supply Chain Management, consulte la sección "Condiciones previas y configuración de la asignación" de este artículo.
 
-### <a name="status"></a>Estado
+### <a name="status"></a>Status
 
 Cuando el pedido de ventas se origina desde un pedido de trabajo, el campo **Estado del pedido externo de trabajo** aparece en la pestaña **Configuración** en el encabezado del pedido de ventas. Este campo muestra el estado del sistema de la orden de trabajo en Field Service, para ayudarle a seguir el estado del pedido sincronizado de trabajo de pedidos de ventas en Supply Chain Management. Este campo también puede ayudar al usuario a determinar cuándo el pedido de ventas debe registrarse o facturarse.
 

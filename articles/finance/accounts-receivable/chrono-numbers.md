@@ -1,6 +1,6 @@
 ---
 title: Numeración cronológica de documentos y vales
-description: Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
+description: Este artículo explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876394"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numeración cronológica de documentos y vales
 
 [!include [banner](../includes/banner.md)]
 
 
-En algunos países, existe el requisito legal de numerar los documentos y los vales relacionados en orden cronológico. La cronología debe estar organizada por períodos. Todos los números que pertenecen a períodos anteriores deben ser menores que los números que pertenecen a períodos posteriores. Para cumplir con este requisito, se ha implementado la funcionalidad de numeración cronológica. Este tema explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
+En algunos países, existe el requisito legal de numerar los documentos y los vales relacionados en orden cronológico. La cronología debe estar organizada por períodos. Todos los números que pertenecen a períodos anteriores deben ser menores que los números que pertenecen a períodos posteriores. Para cumplir con este requisito, se ha implementado la funcionalidad de numeración cronológica. Este artículo explica cómo configurar y utilizar números cronológicos para documentos aplicables y vales relacionados.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

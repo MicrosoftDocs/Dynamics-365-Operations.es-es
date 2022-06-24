@@ -1,8 +1,8 @@
 ---
 title: Ver el historial del plan y los registros de planificación
-description: Este tema explica cómo ver el historial de los trabajos de planificación desencadenados por la funcionalidad de optimización de la planificación.
+description: Este artículo explica cómo ver el historial de los trabajos de planificación desencadenados por la funcionalidad de optimización de la planificación.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863951"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Ver el historial del plan y los registros de planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo ver el historial de los trabajos de planificación desencadenados por la funcionalidad de optimización de la planificación en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo explica cómo ver el historial de los trabajos de planificación desencadenados por la funcionalidad de optimización de la planificación en Microsoft Dynamics 365 Supply Chain Management.
 
 Para ver el historial de un plan, abra el plan; para ello, vaya a **Planificación maestra** \> **Configuración** \> **Planes** \> **Planes maestros** y seleccionando **Historial**. El historial contiene todos los trabajos para el plan seleccionado. La lista incluye los trabajos completados y trabajos.
 
-El historial de trabajos para las ejecuciones de planificación maestra de Planning Optimization mantiene solo hasta 60 registros por plan maestro. Siempre que ejecuta un nuevo cálculo de planificación maestra, se elimina el registro histórico más antiguo de ese plan.
+El sistema mantiene un máximo de 60 registros de historial por plan maestro y elimina los registros que tienen más de 30 días. Cada vez que ejecuta un nuevo cálculo de la planificación maestra, el sistema agrega un nuevo registro de historial y luego limpia los registros más antiguos según sea necesario.
 
 Además de ver la hora de inicio y el estado de los trabajos, puede ver el registro para un trabajo específico. El registro incluye información adicional y advertencias. No todos los trabajos tienen un registro. Para ver el registro de un trabajo, seleccione **Registro**. Las entradas del registro solo se almacenan durante 30 días después de la fecha en que finalizó el trabajo, después de eso se eliminan automáticamente.
 

@@ -1,6 +1,6 @@
 ---
 title: Vistas estándar guardadas para Supply Chain Management
-description: Este tema describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas.
+description: Este artículo describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887584"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vistas estándar guardadas para Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management incluye varias vistas guardadas que puede habilitar y usar según sea necesario. Algunas de estas vistas guardadas estándar están optimizadas y nombradas para una función o tarea específica (por ejemplo, "Control de calidad" o "Recepción"). Otras están optimizadas para que incluyan solo los campos y configuraciones que las estadísticas de uso de Microsoft indican que los clientes usan con mayor frecuencia. Estas vistas guardadas normalmente se denominan vistas *simplificadas*. Este tema describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas y personalizarlas.
+Microsoft Dynamics 365 Supply Chain Management incluye varias vistas guardadas que puede habilitar y usar según sea necesario. Algunas de estas vistas guardadas estándar están optimizadas y nombradas para una función o tarea específica (por ejemplo, "Control de calidad" o "Recepción"). Otras están optimizadas para que incluyan solo los campos y configuraciones que las estadísticas de uso de Microsoft indican que los clientes usan con mayor frecuencia. Estas vistas guardadas normalmente se denominan vistas *simplificadas*. Este artículo describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas y personalizarlas.
 
 Para obtener detalles completos sobre cómo trabajar con vistas guardadas, incluidas las vistas guardadas estándar, después de habilitarlas, consulte[ Vistas guardadas](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Para obtener más información sobre cómo personalizar y cambiar el nombre de l
 
 Para utilizar cualquier vista guardada, independientemente de si utilizará las vistas guardadas estándar, debe activar la característica *Vistas guardadas* en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (a partir de la versión 10.0.21, esta característica está activada de forma predeterminada).
 
-Las secciones restantes de este tema proporcionan tablas que describen las vistas guardadas estándar que están disponibles actualmente para cada módulo relevante. Cada tabla muestra el nombre de cada vista guardada, la página donde puede encontrarla y una descripción de la misma. Cada tabla también muestra el nombre de la función que incluye la vista guardada. Para ver una vista guardada estándar en su sistema, debe activar la función especificada en[ Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir de la versión 10.0.25, todas las vistas enumeradas están activadas de forma predeterminada.
+Las secciones restantes de este artículo proporcionan tablas que describen las vistas guardadas estándar que están disponibles actualmente para cada módulo relevante. Cada tabla muestra el nombre de cada vista guardada, la página donde puede encontrarla y una descripción de la misma. Cada tabla también muestra el nombre de la función que incluye la vista guardada. Para ver una vista guardada estándar en su sistema, debe activar la función especificada en[ Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir de la versión 10.0.25, todas las vistas enumeradas están activadas de forma predeterminada.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Vistas guardadas para el módulo de gestión de inventario
 

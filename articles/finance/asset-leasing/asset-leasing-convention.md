@@ -1,6 +1,6 @@
 ---
 title: Convenciones de arrendamiento de activos
-description: En este tema se describen las convenciones de los activos arrendados.
+description: En este artículo se describen las convenciones de los activos arrendados.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898280"
 ---
 # <a name="asset-leasing-conventions"></a>Convenciones de arrendamiento de activos
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-En este tema se describen las convenciones de los activos arrendados. Las convenciones de arrendamiento se utilizan para determinar la fecha de inicio de un libro de arrendamiento. Si la convención de arrendamiento se establece en **Ninguna**, la fecha de inicio es la misma que la fecha de inicio del arrendamiento (es decir, el valor del campo **Fecha de inicio del arrendamiento**). Si la convención de arrendamiento se establece en **Mes entero**, la fecha de inicio es el primer día del mes en el que cae la fecha de comienzo del arrendamiento.
+En este artículo se describen las convenciones de los activos arrendados. Las convenciones de arrendamiento se utilizan para determinar la fecha de inicio de un libro de arrendamiento. Si la convención de arrendamiento se establece en **Ninguna**, la fecha de inicio es la misma que la fecha de inicio del arrendamiento (es decir, el valor del campo **Fecha de inicio del arrendamiento**). Si la convención de arrendamiento se establece en **Mes entero**, la fecha de inicio es el primer día del mes en el que cae la fecha de comienzo del arrendamiento.
 
 La fecha de comienzo determina la fecha de inicio del período para los programas de amortización de pasivos y depreciación de activos. Los gastos por intereses y los gastos de depreciación se contabilizan en la fecha de cierre del período de los anexos correspondientes. El asiento de diario de reconocimiento y ajuste inicial se contabiliza en la fecha de comienzo.
 

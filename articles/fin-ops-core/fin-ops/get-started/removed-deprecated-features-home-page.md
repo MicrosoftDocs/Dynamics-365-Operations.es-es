@@ -1,6 +1,6 @@
 ---
 title: Página principal de características quitadas o en desuso
-description: Este tema proporciona una lista de temas de ayuda sobre funciones quitadas o en desuso en aplicaciones de Finance and Operations.
+description: Este artículo proporciona una lista de temas de ayuda sobre funciones quitadas o en desuso en aplicaciones de finanzas y operaciones.
 author: sericks007
 ms.date: 05/27/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: cc813ba4bafb526c16445eecaed9f1be68a8d726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859992"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Página principal de características quitadas o en desuso
 
@@ -35,6 +35,6 @@ Los siguientes temas proporcionan información sobre las funciones quitadas o en
 - [Características quitadas o en desuso de versiones anteriores](../../dev-itpro/migration-upgrade/deprecated-features.md)
 
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Desusos en Microsoft Power Platform
-En el tema siguiente se proporciona información acerca de los desusos en Microsoft Power Platform:
+En el artículo siguiente se proporciona información acerca de los desusos en Microsoft Power Platform:
 
 - [Se avecinan cambios importantes (desusos) en Power Apps, Power Automate y aplicaciones de interacción con el cliente](/power-platform/important-changes-coming)

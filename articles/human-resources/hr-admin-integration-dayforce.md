@@ -1,6 +1,6 @@
 ---
 title: Configurar la integración con Dayforce
-description: En este tema se describen los pasos de configuración necesarios para la integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce.
+description: En este artículo se describen los pasos de configuración necesarios para la integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896145"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar la integración con Dayforce
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691343"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este tema. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
+La integración entre Microsoft Dynamics 365 Human Resources y Ceridian Dayforce se basa en varios pasos de configuración que se describen en este artículo. Debe configurar la integración en Human Resources y Dayforce para poder procesar un período de pago.
 
 Cuando se utiliza un servicio como Dayforce para completar períodos de pago, debe habilitar la integración en Human Resources. La integración necesita los datos específicos de Human Resources. Por lo tanto, debe comprobar que los datos que se asignen a Dayforce se hayan configurado en Human Resources de una forma que admita la integración. La integración utiliza las amplias categorías de datos siguientes:
 
@@ -37,7 +37,7 @@ Cuando se utiliza un servicio como Dayforce para completar períodos de pago, de
 - Datos de nómina, como ciclos de pago, períodos de sueldo, y códigos de ganancias
 - Datos de trabajadores
 
-En este tema se describen los pasos que debe seguir para habilitar la integración y se explican los tipos de datos y los detalles de configuración que requiere la integración.
+En este artículo se describen los pasos que debe seguir para habilitar la integración y se explican los tipos de datos y los detalles de configuración que requiere la integración.
 
 ## <a name="enable-the-integration"></a>Habilitar la integración
 

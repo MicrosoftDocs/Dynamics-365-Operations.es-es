@@ -1,6 +1,6 @@
 ---
-title: Abrir URL en POS
-description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Commerce.
+title: Abrir dirección URL en PDV
+description: En este artículo se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en  Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 01/28/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 529908df866c71ea84d90bbb5d46b23311ed74d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853971"
 ---
 # <a name="open-url-in-pos"></a>Abrir dirección URL en PDV
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo puede configurar un botón en un punto de venta (POS) Dynamics 365 Commerce para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
+Este artículo describe cómo puede configurar un botón en un punto de venta (POS) Dynamics 365 Commerce para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. 
 
 Esta característica permite la configuración de un botón en PDV, mediante el Diseñador de la cuadrícula de botones para abrir una dirección URL. Actualmente, esto se admite en las siguientes configuraciones:
 

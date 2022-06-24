@@ -1,6 +1,6 @@
 ---
 title: Registrar los números de los certificados de concesión de TDS
-description: Este tema explica cómo registrar los números de certificado de concesión de impuestos deducidos en el origen (TDS) que se emiten a los proveedores.
+description: Este artículo explica cómo registrar los números de certificado de concesión de impuestos deducidos en el origen (TDS) que se emiten a los proveedores.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 994ddbb4666c326d237d53d529ba126f42d48595
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846624"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Registrar los números de los certificados de concesión de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo registrar los números de certificado de concesión de impuestos deducidos en el origen (TDS) que se emiten a los proveedores.
+Este artículo explica cómo registrar los números de certificado de concesión de impuestos deducidos en el origen (TDS) que se emiten a los proveedores.
 
 1. Vaya a **Impuestos \> Impuestos indirectos \> Retención de impuestos \> Concesiones de retenciones de impuestos**.
 2. En el campo **Tipo de impuesto**, seleccione **TDS** para registrar certificados de concesión para el tipo de impuesto TDS.

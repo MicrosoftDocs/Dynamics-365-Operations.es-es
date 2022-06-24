@@ -1,6 +1,6 @@
 ---
 title: Configurar los parámetros de TDS
-description: Este tema explica cómo configurar parámetros para activar la característica de impuestos deducidos en el origen (TDS) en transacciones específicas. Este es un paso necesario para utilizar la característica de impuestos deducidos en el origen (TDS).
+description: Este artículo explica cómo configurar parámetros para activar la característica de impuestos deducidos en el origen (TDS) en transacciones específicas. Este es un paso necesario para utilizar la característica de impuestos deducidos en el origen (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f7c8802d10a065c60894e80c8ff3cb19163d5ffe
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3390cad6979858fbff73769d0d25132ba18a2157
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865624"
 ---
 # <a name="set-the-tds-parameters"></a>Configurar los parámetros de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar parámetros para activar la característica de impuestos deducidos en el origen (TDS) en transacciones específicas. Este es un paso necesario para utilizar la característica de impuestos deducidos en el origen (TDS).
+Este artículo explica cómo configurar parámetros para activar la característica de impuestos deducidos en el origen (TDS) en transacciones específicas. Este es un paso necesario para utilizar la característica de impuestos deducidos en el origen (TDS).
 
 1. Vaya a **Contabilidad general \> Configuración de contabilidad \> Parámetros de Contabilidad general**.
 2. En la pestaña **Impuestos directos**, en la sección **Impuesto deducido en el origen**, establezca la opción **Activar TDS** a **Sí** para activar la característica de TDS y las páginas y campos que se utilizan para ello.

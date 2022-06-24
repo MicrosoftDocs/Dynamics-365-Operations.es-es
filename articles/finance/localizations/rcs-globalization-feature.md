@@ -1,6 +1,6 @@
 ---
 title: 'Servicios de configuración reglamentaria (RCS): características de globalización'
-description: Este tema explica cómo usar los Servicios de configuración regulatoria (RCS) de Microsoft y el repositorio global para crear y usar características de globalización.
+description: Este artículo explica cómo usar los Regulatory Configuration Services (RCS) de Microsoft y el repositorio global para crear y usar características de globalización.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888905"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Servicios de configuración reglamentaria (RCS): características de globalización
 
@@ -64,7 +64,7 @@ Para usar una característica de globalización, primero debe importarla desde e
 
 ## <a name="access-globalization-features"></a>Acceder a características de globalización
 
-1. Asegúrese de que la característica **Características de globalización** está activada en Administración de características, como se describió anteriormente en este tema.
+1. Asegúrese de que la característica **Características de globalización** está activada en Administración de características, como se describió anteriormente en este artículo.
 2. Abra el nuevo espacio de trabajo **Características de globalización**, y luego, en **Caracteristicas**, seleccione el mosaico **Facturación electrónica**.
 
     ![Espacio de trabajo Características globales.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Las siguientes acciones están disponibles para configuraciones:
 - **Ver**: ver las configuraciones de características subyacentes que no requieren ninguna actualización.
 - **Editar**: cree una versión de borrador de una configuración seleccionada para que pueda editar el formato o la asignación de formato en el Diseñador de formatos.
 - **Eliminar**: eliminar una configuración seleccionada de la característica.
-- **Cambiar**: cambiar la base de la característica. Para obtener más información, consulte la sección [Cambiar la base de características de globalización rerivadas](#rebase), más adelante en este tema.
+- **Cambiar**: cambiar la base de la característica. Para obtener más información, consulte la sección [Cambiar la base de características de globalización rerivadas](#rebase), más adelante en este artículo.
 
 ### <a name="setups"></a>Configuraciones
 
@@ -182,7 +182,7 @@ Las siguientes acciones están disponibles para configuraciones de característi
 
 Las siguientes acciones están disponibles para entornos:
 
-- **Habilitar**: para una versión de característica seleccionada, seleccione un entorno publicado y seleccione una fecha **Válido desde** en que debería estar disponible. Para obtener más información, consulte la sección [Configurar entornos para habilitación](#configureenvironment), más adelante en este tema.
+- **Habilitar**: para una versión de característica seleccionada, seleccione un entorno publicado y seleccione una fecha **Válido desde** en que debería estar disponible. Para obtener más información, consulte la sección [Configurar entornos para habilitación](#configureenvironment), más adelante en este artículo.
 - **Cancelar**: eliminar un entorno para una configuración de características.
 
 ### <a name="organizations"></a>Organizaciones

@@ -1,6 +1,6 @@
 ---
 title: Importación y exportación de calificaciones y opiniones
-description: Este tema describe cómo importar y exportar calificaciones y opiniones de productos en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo importar y exportar calificaciones y opiniones de productos en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863410"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Importación y exportación de calificaciones y opiniones
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo importar y exportar calificaciones y opiniones de productos en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo importar y exportar calificaciones y opiniones de productos en Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce ofrece [calificaciones y opiniones](ratings-reviews-overview.md) como una solución omnicanal. Cuando cambia a la solución de calificaciones y opiniones de Dynamics 365 Commerce, es posible que desee mover sus calificaciones y opiniones existentes a la plataforma de Commerce. También es posible que desee exportar calificaciones y opiniones de datos de Commerce, según los requisitos de su empresa. Un conector de Power Automate le permite importar y exportar calificaciones y opiniones en Commerce.
 

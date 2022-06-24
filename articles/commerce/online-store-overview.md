@@ -1,6 +1,6 @@
 ---
-title: Visión general del sitio de comercio electrónico
-description: Este tema proporciona una visión general de la compatibilidad para sitios de comercio electrónico en Microsoft Dynamics 365 Commerce.
+title: Información general del sitio de comercio electrónico
+description: Este artículo proporciona una visión general de la compatibilidad para sitios de comercio electrónico en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899130"
 ---
-# <a name="e-commerce-site-overview"></a>Visión general del sitio de comercio electrónico
+# <a name="e-commerce-site-overview"></a>Información general del sitio de comercio electrónico
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de la compatibilidad para sitios de comercio electrónico en Microsoft Dynamics 365 Commerce. Incluye información sobre cómo se inicializan y gestionan las tiendas en línea de comercio electrónico en Dynamics 365 Commerce. También proporciona vínculos a información adicional sobre tiendas en línea e información sobre cómo definir y configurar un sito de comercio electrónico. Aunque este tema cubre muchos de los conceptos básicos, no cubre todo lo que se requiere para configurar un sitio de comercio electrónico de producción. Se pueden encontrar temas más avanzados en la documentación de Dynamics 365 Commerce.
+Este artículo proporciona una visión general de la compatibilidad para sitios de comercio electrónico en Microsoft Dynamics 365 Commerce. Incluye información sobre cómo se inicializan y gestionan las tiendas en línea de comercio electrónico en Dynamics 365 Commerce. También proporciona vínculos a información adicional sobre tiendas en línea e información sobre cómo definir y configurar un sito de comercio electrónico. Aunque este artículo cubre muchos de los conceptos básicos, no cubre todo lo que se requiere para configurar un sitio de comercio electrónico de producción. Se pueden encontrar artículos más avanzados en la documentación de Dynamics 365 Commerce.
 
 ## <a name="online-store-channel"></a>Canal de la tienda en línea
 
@@ -74,16 +74,16 @@ Dynamics 365 Commerce usa el modelo B2C (empresa a consumidor) de Azure Active D
 
 ## <a name="overview-of-the-default-site-pages"></a>Descripción general de las páginas del sitio predeterminadas
 
-Los sitios **predeterminado** y **fabrikam** incluyen plantillas, fragmentos y páginas preconfigurados para ayudarle a comenzar. Para obtener más información, consulte los siguientes temas:
+Los sitios **predeterminado** y **fabrikam** incluyen plantillas, fragmentos y páginas preconfigurados para ayudarle a comenzar. Para obtener más información, consulte los siguientes artículos:
 
-- [Visión general de la página principal](quick-tour-home-page.md)
+- [Información general de la página principal](quick-tour-home-page.md)
 - [Visión general de la página de detalles de producto](quick-tour-pdp.md)
 - [Visión general de las páginas del carro y de la finalización de la compra](quick-tour-cart-checkout.md)
 - [Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
 
 ## <a name="manage-site-settings"></a>Administrar la configuración del sitio
 
-Para obtener información acerca de cómo administrar la configuración del sitio, vea los siguientes temas:
+Para obtener información acerca de cómo administrar la configuración del sitio, vea los siguientes artículos:
 
 - [Administrar usuarios y roles de comercio electrónico](manage-ecommerce-users-roles.md)
 - [Consideraciones de optimización de motor de búsqueda (SEO) para su sitio](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Para obtener información acerca de cómo administrar la configuración del siti
 
 ## <a name="manage-site-content"></a>Administrar el contenido del sitio
 
-Para obtener información acerca de cómo administrar el contenido del sitio, vea los siguientes temas:
+Para obtener información acerca de cómo administrar el contenido del sitio, vea los siguientes artículos:
 
 - [Glosario del modelo de página](page-elements-overview.md)
 - [Estados y ciclo de vida de documentos](document-states-overview.md)

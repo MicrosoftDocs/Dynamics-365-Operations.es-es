@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908238"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Página principal de Novedades y cambios en aplicaciones de Finance and Operations
 
@@ -41,18 +41,18 @@ Para ver las novedades o los cambios de cada versión de una aplicación de Fina
 
 ## <a name="stand-alone-applications"></a>Aplicaciones independientes
 
-Para ver las novedades o los cambios en Dynamics 365 Human Resources independiente, consulte el siguiente tema:
+Para ver las novedades o los cambios en Dynamics 365 Human Resources independiente, consulte el siguiente artículo:
 
 - **Human Resources:** [Novedades y cambios en Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platform updates
 
-Para ver las novedades o los cambios en las Platform updates para las aplicaciones de Finance and Operations, consulte el siguiente tema:
+Para ver las novedades o los cambios en las Platform updates para las aplicaciones de finanzas y operaciones, consulte el siguiente artículo:
 
 - [Novedades y cambios en Platform updates](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Versiones de Lifecycle Services
-Para ver las novedades o los cambios de cada versión de una aplicación de Lifecycle Services, consulte el siguiente tema:
+Para ver las novedades o los cambios de cada versión de una aplicación de Lifecycle Services, consulte el siguiente artículo:
 
 - [Novedades y cambios en Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

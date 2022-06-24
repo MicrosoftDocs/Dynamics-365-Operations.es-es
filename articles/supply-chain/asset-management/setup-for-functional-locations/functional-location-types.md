@@ -1,6 +1,6 @@
 ---
-title: Tipos de ubicaciones funcionales
-description: En este tema se describe cómo crear tipos de ubicación técnica en Administración de activos.
+title: Tipos de ubicación técnica
+description: En este artículo se describe cómo crear tipos de ubicación técnica en Administración de activos.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879232"
 ---
-# <a name="functional-location-types"></a>Tipos de ubicaciones funcionales
+# <a name="functional-location-types"></a>Tipos de ubicación técnica
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-En este tema se describe cómo crear tipos de ubicación técnica en Administración de activos. Los tipos de ubicación funcional se usan para administrar los requisitos de las ubicaciones técnicas, incluido cómo se instalan los activos en esta. Puede configurar tipos de activos, planes de mantenimiento, atributos funcionales de ubicación y requisitos de atributo del activo que deben usarse en una ubicación funcional que usa el tipo de ubicación funcional específico. Al crear una ubicación funcional, el tipo de ubicación funcional es obligatorio.
+En este artículo se describe cómo crear tipos de ubicación técnica en Administración de activos. Los tipos de ubicación funcional se usan para administrar los requisitos de las ubicaciones técnicas, incluido cómo se instalan los activos en esta. Puede configurar tipos de activos, planes de mantenimiento, atributos funcionales de ubicación y requisitos de atributo del activo que deben usarse en una ubicación funcional que usa el tipo de ubicación funcional específico. Al crear una ubicación funcional, el tipo de ubicación funcional es obligatorio.
 
 >[!NOTE] 
 >Para trabajar con ubicaciones funcionales, debe crear una ubicación funcional predeterminada que solo debe usarse con el fin de crear nuevos activos. Para dicha ubicación funcional predeterminada, debe crear un tipo de ubicación funcional predeterminado que sea realmente sencillo y que permita instalar múltiples activos en la ubicación funcional predeterminada. Consulte [Crear ubicación técnicas](../functional-locations/create-functional-locations.md) para obtener más información sobre cómo configurar ubicaciones técnicas.

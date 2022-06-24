@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861716"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -320,7 +320,7 @@ Esta función es independiente de los métodos de costes asignados al artículo 
 <td>Obtenga acceso a la Ayuda guiada para procedimientos (guías de tarea) y temas sobre conceptos haciendo clic en <strong>Ayuda</strong>.</td>
 <td>El sistema de ayuda de AX 2012 apunta a temas HTML almacenados en un servidor web local. Los clientes y los socios pueden crear su propio sistema de ayuda.</td>
 <td>El sistema de ayuda en la versión actual de Dynamics AX muestra guías de tarea que se almacenan en el BPM de Microsoft Dynamics Lifecycle Services (LCS). El sistema de ayuda también muestra temas del sitio de documentos de Microsoft. Para obtener más información, consulte <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Sistema de Ayuda</a> y <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuevas guías de la tarea (febrero de 2016)</a>.</td>
-<td>Las guías de tarea proporcionan una experiencia guiada e interactiva que le lleva por los pasos de una tarea o de un proceso empresarial. Puede descargar y personalizar las guías de tareas que proporciona Microsoft. El tema proporciona una forma más rápida y flexible de crear, entregar y actualizar la documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.</td>
+<td>Las guías de tarea proporcionan una experiencia guiada e interactiva que le lleva por los pasos de una tarea o de un proceso empresarial. Puede descargar y personalizar las guías de tareas que proporciona Microsoft. El artículo proporciona una forma más rápida y flexible de crear, entregar y actualizar la documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.</td>
 </tr>
 </tbody>
 </table>

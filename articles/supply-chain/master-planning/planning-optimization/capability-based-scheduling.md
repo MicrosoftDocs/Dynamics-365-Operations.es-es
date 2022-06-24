@@ -1,6 +1,6 @@
 ---
 title: Programación con selección de recursos según la capacidad
-description: Este tema describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
+description: Este artículo describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847973"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Programación con selección de recursos según la capacidad
 
 [!include [banner](../../includes/banner.md)]
 
-Al especificar los requisitos de recursos para una operación de una ruta de producción, se define lo que se requiere para realizar esa operación. Por ejemplo, una operación puede requerir un recurso específico o un grupo de recursos, o una combinación de habilidades o capacidades. Este tema describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
+Al especificar los requisitos de recursos para una operación de una ruta de producción, se define lo que se requiere para realizar esa operación. Por ejemplo, una operación puede requerir un recurso específico o un grupo de recursos, o una combinación de habilidades o capacidades. Este artículo describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>Activar la función de programación según la capacidad
 

@@ -1,6 +1,6 @@
 ---
 title: Listas de comprobación de mantenimiento
-description: En este tema se describen las listas de comprobación de mantenimiento en Administración de activos.
+description: En este artículo se describen las listas de comprobación de mantenimiento en Administración de activos.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ece9abcbaed0a1881f6b6a0d1b2357bc87ef181636a37564709f62c6aa38475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854540"
 ---
 # <a name="maintenance-checklists"></a>Listas de comprobación de mantenimiento
 

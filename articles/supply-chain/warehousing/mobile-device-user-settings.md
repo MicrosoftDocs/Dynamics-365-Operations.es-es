@@ -1,6 +1,6 @@
 ---
-title: Configuración de usuario del dispositivo móvil
-description: Este tema explica cómo administrar la configuración de usuario de dispositivos móviles para los trabajadores del almacén.
+title: Configuración de usuario de dispositivo móvil
+description: Este artículo explica cómo administrar la configuración de usuario de dispositivos móviles para los trabajadores del almacén.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882355"
 ---
 # <a name="mobile-device-user-settings"></a>Configuración de usuario del dispositivo móvil
 
@@ -41,7 +41,7 @@ Esta función puede ayudar a los trabajadores a comenzar más rápidamente cada 
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Activar o desactivar la característica de configuración de usuario del dispositivo móvil
 
-Para usar la funcionalidad descrita en este tema, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar la funcionalidad descrita en este artículo, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Crear y administrar configuraciones de usuario
 

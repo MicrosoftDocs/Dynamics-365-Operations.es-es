@@ -1,6 +1,6 @@
 ---
 title: Atributos de ingeniería y búsqueda de atributos de ingeniería
-description: Este tema explica cómo puede utilizar atributos de ingeniería para especificar todas las características no estándar, para garantizar que todos los datos maestros del producto se puedan registrar en el sistema. También explica cómo puede utilizar la búsqueda de atributos de ingeniería para encontrar productos fácilmente, basándose en esas características registradas.
+description: Este artículo explica cómo puede utilizar atributos de ingeniería para especificar todas las características no estándar, para garantizar que todos los datos maestros del producto se puedan registrar en el sistema. También explica cómo puede utilizar la búsqueda de atributos de ingeniería para encontrar productos fácilmente, basándose en esas características registradas.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4b25ab0bfda08b7aa091de8c6833007c586b9c87
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852574"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Atributos de ingeniería y búsqueda de atributos de ingeniería
 

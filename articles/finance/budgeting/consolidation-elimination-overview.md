@@ -1,6 +1,6 @@
 ---
-title: Información general de consolidación y eliminación
-description: Este tema proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
+title: Visión general de consolidación y eliminación
+description: En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871402"
 ---
-# <a name="consolidation-and-elimination-overview"></a>Información general de consolidación y eliminación
+# <a name="consolidation-and-elimination-overview"></a>Visión general de consolidación y eliminación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
+En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
 
 A consolidar datos, los resultados financieros para varias compañías filiales se combinan en resultados para una compañía única y consolidada. Las filiales pueden encontrarse en diferentes versiones o sistemas, es posible que no sean de propiedad completa y pueden usar distintas divisas. Hay varias opciones para consolidar datos:
 

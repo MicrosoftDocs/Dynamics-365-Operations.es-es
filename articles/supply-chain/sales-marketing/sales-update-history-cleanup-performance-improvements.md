@@ -1,6 +1,6 @@
 ---
 title: Programar la limpieza de datos del historial de ventas
-description: Este tema describe cómo puede ayudar a mejorar el rendimiento del sistema programando la tarea periódica de limpieza del historial de actualizaciones de ventas para que se ejecute a intervalos regulares.
+description: Este artículo describe cómo puede ayudar a mejorar el rendimiento del sistema programando la tarea periódica de limpieza del historial de actualizaciones de ventas para que se ejecute a intervalos regulares.
 author: myvakalo
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900836"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Programar la limpieza de datos del historial de ventas
 
@@ -28,7 +28,7 @@ Si usa la tarea periódica *Limpieza del historial de actualizaciones de ventas*
 
 ## <a name="turn-on-the-sales-history-cleanup-features"></a>Activar las funciones de limpieza del historial de ventas
 
-Para configurar y utilizar la tarea periódica *Limpieza del historial de actualizaciones de ventas* junto con todas las características que se describen en este tema, debe habilitar las características *Mejoras en el rendimiento de la limpieza del historial de ventas* y *Limpiar el historial de actualizaciones de ventas según la edad* en Administración de características, como se describe en las siguientes subsecciones.
+Para configurar y utilizar la tarea periódica *Limpieza del historial de actualizaciones de ventas* junto con todas las características que se describen en este artículo, debe habilitar las características *Mejoras en el rendimiento de la limpieza del historial de ventas* y *Limpiar el historial de actualizaciones de ventas según la edad* en Administración de características, como se describe en las siguientes subsecciones.
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>Mejoras de rendimiento de limpieza del historial de ventas
 

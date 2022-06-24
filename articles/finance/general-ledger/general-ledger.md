@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd832c32655aa52fec16852ec5550a34d06f00f4
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904568"
 ---
 # <a name="general-ledger-home-page"></a>Página principal de contabilidad general
 
@@ -57,7 +57,7 @@ Además, las reglas se deben actualizar periódicamente cuando las autoridades f
 Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/release-plans/) para ver las nuevas características que se han planificado. 
 
 #### <a name="financial-reporting"></a>Informes financieros
-Vaya al tema [Visión general de Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) para obtener información sobre los informes financieros.
+Vaya al artículo [Visión general de Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) para obtener información sobre los informes financieros.
 
 #### <a name="blogs"></a>Blogs
 

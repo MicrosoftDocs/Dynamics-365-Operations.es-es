@@ -1,6 +1,6 @@
 ---
 title: Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube.
-description: Este tema explica cómo configurar sus aplicaciones móviles Warehouse Management para almacenes que son atendidos por una unidad de escala en la nube o perimetral.
+description: Este artículo explica cómo configurar sus aplicaciones móviles Warehouse Management para almacenes que son atendidos por una unidad de escala en la nube o perimetral.
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865249"
 ---
 # <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Configurar la aplicación móvil Warehouse Management para unidades de escalado en el perímetro y en la nube.
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar sus aplicaciones móviles de Warehouse Management de modo que se puedan usar en almacenes que son atendidos por una unidad de escala en la nube o perimetral.
+Este artículo explica cómo configurar sus aplicaciones móviles de Warehouse Management de modo que se puedan usar en almacenes que son atendidos por una unidad de escala en la nube o perimetral.
 
 ## <a name="prerequisites"></a>Requisitos previos
 

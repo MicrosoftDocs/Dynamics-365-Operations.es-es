@@ -1,6 +1,6 @@
 ---
 title: Gestionar arrendamientos a través del marco de importación de arrendamientos
-description: Este tema explica cómo utilizar el marco de importación de arrendamientos para ajustar varios arrendamientos al mismo tiempo.
+description: Este artículo explica cómo utilizar el marco de importación de arrendamientos para ajustar varios arrendamientos al mismo tiempo.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894975"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gestionar arrendamientos a través del marco de importación de arrendamientos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo utilizar el marco de importación de arrendamientos para ajustar varios arrendamientos en un solo paso. Al usar esta capacidad, puede ahorrar tiempo y también puede garantizar ajustes más precisos al reducir la posibilidad de errores humanos. Además, esta capacidad puede conectar Microsoft Dynamics 365 Finance con entidades de datos externas para cargar datos de manera eficiente.
+Este artículo explica cómo utilizar el marco de importación de arrendamientos para ajustar varios arrendamientos en un solo paso. Al usar esta capacidad, puede ahorrar tiempo y también puede garantizar ajustes más precisos al reducir la posibilidad de errores humanos. Además, esta capacidad puede conectar Microsoft Dynamics 365 Finance con entidades de datos externas para cargar datos de manera eficiente.
 
 Las siguientes entidades de datos se pueden utilizar para integrar el arrendamiento de activos con sistemas externos:
 

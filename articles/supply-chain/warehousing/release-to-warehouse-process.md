@@ -1,6 +1,6 @@
 ---
 title: Liberar al almacén
-description: Este tema proporciona detalles sobre el proceso de liberación al almacén. Describe las entidades que se crean cuando libera un pedido al almacén y las opciones que puede utilizar para iniciar el proceso.
+description: Este artículo proporciona detalles sobre el proceso de liberación al almacén. Describe las entidades que se crean cuando libera un pedido al almacén y las opciones que puede utilizar para iniciar el proceso.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893189"
 ---
 # <a name="release-to-warehouse"></a>Liberar al almacén
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema proporciona detalles sobre el proceso de liberación al almacén. Describe las entidades que se crean cuando libera un pedido al almacén y las opciones que puede utilizar para iniciar el proceso.
+Este artículo proporciona detalles sobre el proceso de liberación al almacén. Describe las entidades que se crean cuando libera un pedido al almacén y las opciones que puede utilizar para iniciar el proceso.
 
 ## <a name="release-to-warehouse-overview"></a>Descripción general de la liberación a almacén
 
-La liberación al almacén es el proceso de preparar el inventario para el procesamiento de despacho. Cuando libera un pedido al almacén, el sistema crea líneas de carga y envíos. Si se configura el procesamiento automático de ondas, también se crean las cargas y el trabajo requerido. La configuración de las entidades involucradas depende de la configuración del sistema. En esta sección del tema se revisan las entidades que se crean durante el proceso de liberación al almacén y la configuración del sistema que las define.
+La liberación al almacén es el proceso de preparar el inventario para el procesamiento de despacho. Cuando libera un pedido al almacén, el sistema crea líneas de carga y envíos. Si se configura el procesamiento automático de ondas, también se crean las cargas y el trabajo requerido. La configuración de las entidades involucradas depende de la configuración del sistema. En esta sección del artículo se revisan las entidades que se crean durante el proceso de liberación al almacén y la configuración del sistema que las define.
 
 Un *envío* es un grupo de órdenes de venta o líneas de orden de transferencia para el mismo cliente o la misma dirección de entrega.
 
@@ -67,7 +67,7 @@ En conclusión, cuando se libera un pedido al almacén, el flujo más automatiza
 
 Dependiendo de las plantillas de oleadas, las plantillas de trabajo y la configuración de las directivas de ubicación, algunos pasos de este flujo pueden volverse manuales. Sin embargo, el flujo general sigue siendo el mismo.
 
-Tiene varias opciones sobre cómo enviar un pedido al almacén. Puede realizar la operación manualmente o puede configurar un trabajo por lotes. Las secciones restantes de este tema revisan, en detalle, las diversas formas en que puede realizar una operación de liberación al almacén.
+Tiene varias opciones sobre cómo enviar un pedido al almacén. Puede realizar la operación manualmente o puede configurar un trabajo por lotes. Las secciones restantes de este artículo revisan, en detalle, las diversas formas en que puede realizar una operación de liberación al almacén.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Liberación manual al almacén desde las páginas Órdenes de venta y Órdenes de transferencia
 

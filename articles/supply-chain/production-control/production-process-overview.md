@@ -1,6 +1,6 @@
 ---
-title: Visión general del proceso de producción
-description: Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.
+title: Información general del proceso de producción
+description: Este artículo ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852226"
 ---
-# <a name="production-process-overview"></a>Visión general del proceso de producción
+# <a name="production-process-overview"></a>Información general del proceso de producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.
+Este artículo ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.
 
 La producción de productos, un proceso también conocido como el ciclo de vida de producción, sigue los pasos específicos necesarios para completar la fabricación de un artículo. El ciclo de vida comienza con la creación del pedido de producción, el pedido de lote o kanban. Finaliza con un artículo manufacturado terminado listo para el cliente o para otra fase de producción. Cada paso del ciclo de vida requiere diferentes tipos de información para terminar el proceso. Cuando termina cada paso, el pedido de producción, el pedido de lote o el kanban refleja esto cambiando el estado de producción. Distintos tipos de productos requieren diferentes procesos de fabricación.
 

@@ -1,6 +1,6 @@
 ---
-title: Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica
-description: En este tema se explica cómo puede configurar formatos de informes electrónicos (ER) para usar parámetros que se especifican por entidad jurídica.
+title: Configurar formatos de informes electrónicos para usar parámetros especificados por entidad jurídica
+description: En este artículo se explica cómo puede configurar formatos de informes electrónicos (ER) para usar parámetros que se especifican por entidad jurídica.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858839"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica
 
@@ -37,13 +37,13 @@ La característica de parámetros específicos de la aplicación de ER permite a
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para completar los ejemplos de este tema, debe tener acceso a la instancia de los Regulatory Configuration Services (RCS) que se ha aprovisionado para el mismo que el inquilino que Finance para uno de los siguientes roles:
+Para completar los ejemplos de este artículo, debe tener acceso a la instancia de los Regulatory Configuration Services (RCS) que se ha aprovisionado para el mismo que el inquilino que Finance para uno de los siguientes roles:
 
 - Desarrollador de informes electrónicos
 - Consultor funcional de informes electrónicos
 - Administrador del sistema
 
-Le recomendamos que complete los pasos del tema [Admitir llamadas con parámetros de orígenes de datos de ER DE tipo CAMPO CALCULADO](er-calculated-field-type.md). Si ya ha completado estos pasos, puede omitir los pasos en la sección **Importar configuraciones de ER en RCS** que sigue a continuación.
+Le recomendamos que complete los pasos del artículo [Admitir llamadas con parámetros de orígenes de datos de ER DE tipo CAMPO CALCULADO](er-calculated-field-type.md). Si ya ha completado estos pasos, puede omitir los pasos en la sección **Importar configuraciones de ER en RCS** que sigue a continuación.
 
 ## <a name="import-er-configurations-into-rcs"></a>Importar configuraciones de ER en RCS
 
@@ -58,7 +58,7 @@ Descargue y almacene localmente las siguientes configuraciones de ER.
 
 A continuación, inicie sesión en su instancia de RCS.
 
-En este ejemplo, creará una configuración para la empresa de muestra Litware, Inc. Antes de poder completar este procedimiento, debe completar los pasos del tema [Creación y activación de un proveedor de configuraciones](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+En este ejemplo, creará una configuración para la empresa de muestra Litware, Inc. Antes de poder completar este procedimiento, debe completar los pasos del artículo [Creación y activación de un proveedor de configuraciones](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1.  En el panel predeterminado, seleccione **Informes electrónicos**.
 2.  Seleccione **Configuraciones de informes**.
@@ -300,7 +300,7 @@ Repita los pasos de esta sección para los elementos principales del formato **F
 -   Asignación para aprender llamadas con parámetros.xml
 -   Modelo para aprender llamadas con parámetros.xml
 
-Para aprender a usar el formato de ER **Formato para aprender a buscar datos de LE** configurado para configurar conjuntos de impuestos que dependen de la entidad jurídica para filtrar transacciones de impuestos por distintos niveles impositivos, complete los pasos del tema [Configurar los parámetros de un formato de ER por entidad jurídica](er-app-specific-parameters-set-up.md).
+Para aprender a usar el formato de ER **Formato para aprender a buscar datos de LE** configurado para configurar conjuntos de impuestos que dependen de la entidad jurídica para filtrar transacciones de impuestos por distintos niveles impositivos, complete los pasos del artículo [Configurar los parámetros de un formato de ER por entidad jurídica](er-app-specific-parameters-set-up.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -1,6 +1,6 @@
 ---
 title: Consolidar los envíos cuando se despachan al almacén usando despacho automático o pedidos de ventas
-description: Este tema presenta un escenario en el que se despachan múltiples pedidos al almacén en el mismo procedimiento periódico automatizado de despacho al almacén.
+description: Este artículo presenta un escenario en el que se despachan múltiples pedidos al almacén en el mismo procedimiento periódico automatizado de despacho al almacén.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 74d4d9d8429095c3fac80db58f14ac2ef0776798
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 36eb5e788d0473e2fec2214e9aa7e245304347e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875083"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Consolidar los envíos cuando se despachan al almacén usando despacho automático o pedidos de ventas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta un escenario en el que se despachan múltiples pedidos al almacén en el mismo procedimiento periódico automatizado de despacho al almacén. Los pedidos se consolidarán automáticamente en envíos, según las reglas que se definen como directivas de consolidación de envíos.
+Este artículo presenta un escenario en el que se despachan múltiples pedidos al almacén en el mismo procedimiento periódico automatizado de despacho al almacén. Los pedidos se consolidarán automáticamente en envíos, según las reglas que se definen como directivas de consolidación de envíos.
 
 Durante el escenario, creará conjuntos de pedidos de ventas y despachará cada conjunto al almacén. Luego revisará los envíos que se crean o actualizan durante la consolidación de envíos, según las directivas configuradas.
 
 ## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-El escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
+El escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurar directivas de consolidación de envíos y filtros de productos
 

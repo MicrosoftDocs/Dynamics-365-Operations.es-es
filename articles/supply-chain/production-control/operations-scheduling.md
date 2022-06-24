@@ -1,6 +1,6 @@
 ---
 title: Programación de operaciones
-description: Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
+description: En este artículo se proporciona información acerca de programación de operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871902"
 ---
 # <a name="operations-scheduling"></a>Programación de operaciones
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
+En este artículo se proporciona información acerca de programación de operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 
 Puede programar la producción en el nivel de operación y en el nivel de trabajo. A diferencia de la programación de trabajos, la programación de operaciones no expande las operaciones de la ruta de producción en trabajos. Si desea incluir más información en relación con la programación, como información acerca de la capacidad actual, puede ejecutar la programación de trabajos tras ejecutar la programación de operaciones. También puede ejecutar solo una programación de trabajos. La programación de trabajos se usa normalmente para programar trabajos individuales en la planta para un período de tiempo inmediato o a corto plazo.
 

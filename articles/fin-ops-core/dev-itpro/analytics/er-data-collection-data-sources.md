@@ -1,6 +1,6 @@
 ---
 title: Utilizar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos
-description: En este tema se explica cómo usar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos (ER).
+description: En este artículo se explica cómo usar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos (ER).
 author: NickSelin
 ms.date: 08/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 185fb9a33cb4cc655dfdf640b4c239d617426c64
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 7591bed5d01ce2c2f434f0e7c81e441eda98483e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883857"
 ---
 # <a name="use-data-collection-data-sources-in-electronic-reporting-formats"></a>Utilizar orígenes de datos de RECOPILACIÓN DE DATOS en formatos de informes electrónicos
 

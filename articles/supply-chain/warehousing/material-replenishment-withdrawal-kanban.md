@@ -1,6 +1,6 @@
 ---
 title: Reabastecimiento con kanbans de transporte
-description: Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
+description: Este artículo describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
 author: perlynne
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46fa6a833cf5f12a01a19b8bada0066d446e3f9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 517b2eeb3b218fe0820ffa4e1d19b20841837b92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863719"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
+Este artículo describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>El flujo de trabajo para reabastecimiento de material que utiliza el kanban de transporte
 

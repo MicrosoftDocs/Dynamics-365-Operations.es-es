@@ -1,6 +1,6 @@
 ---
 title: Contenedores de envío
-description: Este tema describe cómo configurar contenedores de envío para el módulo de costo de entrega.
+description: Este artículo describe cómo configurar contenedores de envío para el módulo de costo de entrega.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860853"
 ---
 # <a name="shipping-container-setup"></a>Configuración del contenedor de envío
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo configurar contenedores de envío para el módulo **Costo descargado**.
+Este artículo describe cómo configurar contenedores de envío para el módulo **Costo descargado**.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>configurar tipos de contenedor de envío
 
@@ -53,7 +53,7 @@ Para trabajar con contenedores de envío, vaya a **Coste de aterrizaje \> Config
 | Campo | Descripción |
 |---|---|
 | Contenedor de envío | Escriba un nombre/número de identificador único para el contenedor de envío. |
-| Tipo de contenedor de envío | Seleccione el tipo de contenedor de envío. Para obtener más información, consulte la sección [Configurar tipos de contenedor de envío](#shipping-container-types) anteriormente en este tema. |
+| Tipo de contenedor de envío | Seleccione el tipo de contenedor de envío. Para obtener más información, consulte la sección [Configurar tipos de contenedor de envío](#shipping-container-types) anteriormente en este artículo. |
 
 > [!NOTE]
 > - La configuración del contenedor de envío es opcional. Por lo general, lo usará solo si su empresa posee sus propios contenedores de envío o, a menudo, reutiliza los mismos contenedores de envío.

@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
-description: En este tema se describen las características nuevas o modificadas en Dynamics 365 Supply Chain Management 10.0.12.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
 ms.date: 05/29/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44b56a59c3b6bb123151988c403382d7c57efd29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728612"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845036"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.12. Esta versión tiene el número de compilación 10.0.507 y está disponible de la siguiente manera:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.12. Esta versión tiene el número de compilación 10.0.507 y está disponible de la siguiente manera:
 
 - **Versión de vista previa:** mayo de 2020
 - **Disponibilidad general (actualización automática):** julio de 2020
@@ -47,7 +47,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Matrícula de entidad de almacén que recibe mejoras para la aplicación de almacén (continuación)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obtener más información, consulte [Matrícula de entidad de almacén a través de la aplicación móvil Warehouse Management](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Implementación masiva para Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obtener más información, consulte [Instale y conecte la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md).
+- [Implementación masiva para Warehouse mobile app](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obtener más información, consulte [Instale y conecte la aplicación móvil Warehouse Management](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Tiempo de ejecución máximo para el trabajo de limpieza de entradas disponibles de gestión de almacenes](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obtener más información, consulte [Trabajo de limpieza de entradas disponibles de gestión de almacenes](../warehousing/onhand-cleanup.md).
 
@@ -55,9 +55,9 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.12 incluye Platform updates. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.12 de aplicaciones de Finance and Operations (agosto de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.12 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.12 de aplicaciones de Finanzas y Operaciones (agosto de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -71,12 +71,12 @@ Consulte [Dynamics 365: primer lanzamiento de versiones de 2020](/dynamics365-re
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
-En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
+En el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
 - Una característica *quitada* dejará de estar disponible en el producto.
 - Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 

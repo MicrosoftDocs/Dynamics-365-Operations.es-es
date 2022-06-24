@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en Dynamics 365 Human Resources (25 de junio de 2020)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 23 de junio de 2020.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 23 de junio de 2020.
 author: andreabichsel
 ms.date: 06/25/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1a5be61325a919762d690f2483c37b9eec020d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7fe8b685a2b492fe5ad23b410f6a99d81991e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (23 de junio de 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8689842"
 
 
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3347. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
+Este artículo describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3347. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>Cuando una inscripción expira para un empleado despedido, el tipo de baja, el saldo y la cantidad se borran en el formulario de inscripción de licencia (444867)
 

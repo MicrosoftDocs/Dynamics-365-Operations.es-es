@@ -1,6 +1,6 @@
 ---
 title: Programación de suministros
-description: Este tema proporciona información sobre la página de programación de suministros y sus capacidades.
+description: Este artículo proporciona información sobre la página de programación de suministros y sus capacidades.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851750"
 ---
 # <a name="supply-schedule"></a>Programación de suministros
 
@@ -28,7 +28,7 @@ La página **Programa de suministro** muestra una descripción general completa 
 
 Puede abrir la página **Programación de suministros** de cualquiera de las siguientes formas:
 
-- Vaya a **Planificación maestra \> Planificación maestra \> Programación de suministros**. En el cuadro de diálogo **Modificar filtro**, especifique el plan y el producto que está buscando, introduciendo valores de filtro en los campos que se proporcionan. (En el resto de este tema, la colección de valores de filtro que introduce se denomina "el filtro" o "el filtro actual"). Cuando haya terminado, seleccione **Aceptar**.
+- Vaya a **Planificación maestra \> Planificación maestra \> Programación de suministros**. En el cuadro de diálogo **Modificar filtro**, especifique el plan y el producto que está buscando, introduciendo valores de filtro en los campos que se proporcionan. (En el resto de este artículo, la colección de valores de filtro que introduce se denomina "el filtro" o "el filtro actual"). Cuando haya terminado, seleccione **Aceptar**.
 - Vaya a **Gestión de información de productos \> Productos \> Productos despachados**. Seleccione o abra un producto. En el panel Acciones, en la pestaña **Plan** del grupo **Vista**, seleccione **Programación de suministros**.
 - Vaya a **Planificacion maestra \> Configuración \> Previsión de demanda \> Claves de asignación de artículos**. Seleccione una clave de asignación de artículos que se utilice como familia de productos. Luego, en el panel de acciones, seleccione **Programación de suministros**.
 - Vaya a **Planificación maestra \> Planificación maestra \> Pedidos planificados**. Seleccione o abra un pedido planificado. Luego, en el panel Acciones, en la pestaña **Vista** del grupo **Vista**, seleccione **Programación de suministros**.

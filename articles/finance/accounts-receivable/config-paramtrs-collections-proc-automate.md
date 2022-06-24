@@ -1,6 +1,6 @@
 ---
 title: Configurar parámetros para la automatización del proceso de cobro
-description: Este tema describe los parámetros que afectan los procesos de cobro automatizados y proporciona una guía para configurarlos de modo que el proceso automatizado refleje sus intenciones y expectativas.
+description: Este artículo describe los parámetros que afectan los procesos de cobro automatizados y proporciona una guía para configurarlos de modo que el proceso automatizado refleje sus intenciones y expectativas.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900053"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Configurar parámetros para la automatización del proceso de cobro
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los parámetros que afectan los procesos de cobro automatizados y proporciona una guía para configurarlos de modo que el proceso automatizado refleje sus intenciones y expectativas. Para obtener información sobre cómo automatizar los procesos de cobro, consulte [Automatización del proceso de cobro](collections-process-automate.md).
+Este artículo describe los parámetros que afectan los procesos de cobro automatizados y proporciona una guía para configurarlos de modo que el proceso automatizado refleje sus intenciones y expectativas. Para obtener información sobre cómo automatizar los procesos de cobro, consulte [Automatización del proceso de cobro](collections-process-automate.md).
 
 ## <a name="general"></a>General
 Ingrese un número en el **Porcentaje de clientes por tarea por lotes** para determinar el número de tareas por lotes por proceso de automatización. Configure **Registrar cartas de cobro automáticamente** en **Sí**, de forma que el tipo de acción registre la carta de cobro durante la automatización. Establezca **Crear actividades para automatizaciones** en **Sí** para crear y cerrar actividades para tipos de acciones que no son actividades para ver todos los pasos automatizados tomados en una cuenta. Defina el número de días que el historial de cobros se almacena en el **Días en que se debe mantener el historial de automatización del proceso de cobro**. Cuando una factura llega al último paso del proceso de cobro, no se utilizará para crear tipos de acciones de automatización de procesos futuros si **Excluir factura después de activar el último paso del proceso** se establece en **Sí**. La siguiente factura más antigua determina el siguiente paso de automatización del proceso, para garantizar que continúen las acciones de automatización del proceso de cobro. 

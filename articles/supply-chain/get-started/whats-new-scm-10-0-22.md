@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
-description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.22.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849514"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.22. Esta versión tiene el número de compilación 10.0.995 y está disponible de la siguiente manera:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.22. Esta versión tiene el número de compilación 10.0.995 y está disponible de la siguiente manera:
 
 - **Versión preliminar:** septiembre de 2021
 - **Disponibilidad general de la versión (actualización automática):** octubre de 2021
@@ -29,7 +29,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este tema para incluir características que se incluyeron en la compilación después de la publicación inicial del tema.
+La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -47,9 +47,9 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
-Recientemente hemos agregado o actualizado significativamente los siguientes temas de ayuda. Estos temas no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
+Recientemente hemos agregado o actualizado significativamente los siguientes artículos de ayuda. Estos artículos no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
 
-| Área de características | Temas nuevos o actualizados |
+| Área de características | Artículos nuevos o actualizados |
 |---|---|
 | Administración de cambios de ingeniería | [Descripción general de la gestión de cambios de ingeniería](../engineering-change-management/product-engineering-overview.md) ahora enumera todas las funciones opcionales relacionadas disponibles en la administración de características |
 | Planificación maestra | [Configuración de previsión de demanda](../master-planning/demand-forecasting-setup.md) |
@@ -58,9 +58,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes tem
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 incluye Platform updates. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.22 de aplicaciones de Finance and Operations (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.22 de aplicaciones de Finanzas y Operaciones (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -74,12 +74,12 @@ Consulte [Dynamics 365 y las nubes de la industria: plan del lanzamiento de vers
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
-En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
+En el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
 - Una característica *quitada* dejará de estar disponible en el producto.
 - Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 

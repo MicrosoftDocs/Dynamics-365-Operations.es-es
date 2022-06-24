@@ -1,6 +1,6 @@
 ---
 title: Descargue las configuraciones de ER del repositorio global del servicio de configuración
-description: Este tema explica cómo descargar configuraciones de informes electrónicos (ER) desde el repositorio global del servicio de configuración.
+description: Este artículo explica cómo descargar configuraciones de informes electrónicos (ER) desde el repositorio global del servicio de configuración.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891915"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Descargue las configuraciones de ER del repositorio global del servicio de configuración
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo descargar [configuraciones de informes electrónicos (ER)](general-electronic-reporting.md#Configuration) desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Este artículo explica cómo descargar [configuraciones de informes electrónicos (ER)](general-electronic-reporting.md#Configuration) desde el repositorio global del servicio de configuración. Para más información, consulte [Microsoft Dynamics 365 for Finance and Operations: Regulatory services, servicio de configuración](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Abrir el repositorio de configuraciones
 
@@ -80,7 +80,7 @@ Este tema explica cómo descargar [configuraciones de informes electrónicos (ER
     ![Página del repositorio de configuración, ficha desplegable Versiones, botón Importar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> En característica de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver los problemas para poder usar la versión de configuración importada. Para obtener más información, consulte la lista de recursos relacionados para este tema.
+> En característica de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver los problemas para poder usar la versión de configuración importada. Para obtener más información, consulte la lista de recursos relacionados para este artículo.
 
 > [!NOTE]
 > Las configuraciones de ER se pueden configurar como dependientes de otras configuraciones. Por lo tanto, junto con una configuración seleccionada, pueden importarse automáticamente otras configuraciones. Para obtener más información sobre las dependencias de configuración, consulte [Definir la dependencia de las configuraciones de ER en otros componentes](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

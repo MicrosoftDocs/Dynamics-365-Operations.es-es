@@ -1,6 +1,6 @@
 ---
 title: Configurar un inquilino B2C en Commerce
-description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
+description: En este artículo se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853750"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
+En este artículo se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 
 Dynamics 365 Commerce usa Azure AD B2C para admitir credenciales de usuario y flujos de autenticación. Un usuario puede registrarse, iniciar sesión y restablecer su contraseña a través de estos flujos. Azure AD B2C almacena información confidencial de autenticación de usuarios, como el nombre de usuario y la contraseña. El registro de usuario en el inquilino B2C almacenará un registro de cuenta local de B2C o un registro de proveedor de identidad social de B2C. Estos registros de B2C se vincularán de nuevo con el registro del cliente en el entorno de Commerce.
 

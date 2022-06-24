@@ -1,6 +1,6 @@
 ---
 title: Trabajar con artículos serializados en el PDV
-description: Este tema explica cómo administrar artículos serializados en la aplicación de punto de venta (POS).
+description: Este artículo explica cómo administrar artículos serializados en la aplicación de punto de venta (POS).
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880038"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabajar con artículos serializados en el PDV
 
 [!include [banner](includes/banner.md)]
 
-Muchos minoristas venden productos que requieren control de serie. Estos productos se denominan *artículos serializados*. Algunos minoristas pueden querer mantener números de serie en la tienda o el inventario del almacén para fines de seguimiento. Otros minoristas pueden querer capturar números de serie durante el proceso de venta, para fines de servicio y garantía. Este tema explica cómo puede administrar artículos serializados en la aplicación de punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
+Muchos minoristas venden productos que requieren control de serie. Estos productos se denominan *artículos serializados*. Algunos minoristas pueden querer mantener números de serie en la tienda o el inventario del almacén para fines de seguimiento. Otros minoristas pueden querer capturar números de serie durante el proceso de venta, para fines de servicio y garantía. Este artículo explica cómo puede administrar artículos serializados en la aplicación de punto de venta (PDV) de Microsoft Dynamics 365 Commerce.
 
 ## <a name="serial-number-configurations"></a>Configuración de número de serie
 
@@ -124,7 +124,7 @@ Para artículos serializados vendidos para recogida o envío futuro, los usuario
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Aplicar números de serie durante el procesamiento o la recogida del pedido del cliente
 
-Al procesar líneas de pedido de cliente para productos serializados mediante la operación **Procesamiento de pedido** en PDV, PDV impone la captura del número de serie antes del procesamiento final. Así, si no se proporcionó un número de serie durante la captura inicial del pedido, debe capturarse durante los procesos de recolección, empaquetamiento o envío en PDV. Se realiza una validación en cada paso y solo se le pedirá al usuario los datos del número de serie si este falta o ya no es válido. Por ejemplo, si un usuario omite los pasos de recoger o empaquetar, e inicia inmediatamente un envío sin que se haya registrado un número de serie para la línea, el PDV requerirá que se introduzca el número de serie antes de completar el paso final de la factura. Al aplicar la captura del número de serie durante las operaciones de procesamiento de pedidos en PDV, todas las reglas mencionadas anteriormente en este tema siguen siendo aplicables. Solo los artículos serializados configurados como **Activo** pasan por una validación de existencias de inventario de número de serie. Los artículos configurados como **Activo en proceso de ventas** no se validarán. Si se permite un **Inventario negativo físico** para productos **Activos**, se aceptará cualquier número de serie, con independencia de la disponibilidad en existencias. Para los artículos de tipo **Activo** y **Activo en proceso de ventas**, si se configura **Emisión en blanco permitida**, un usuario puede dejar los números de serie en blanco si lo desea durante los pasos de recogida, embalaje y envío.
+Al procesar líneas de pedido de cliente para productos serializados mediante la operación **Procesamiento de pedido** en PDV, PDV impone la captura del número de serie antes del procesamiento final. Así, si no se proporcionó un número de serie durante la captura inicial del pedido, debe capturarse durante los procesos de recolección, empaquetamiento o envío en PDV. Se realiza una validación en cada paso y solo se le pedirá al usuario los datos del número de serie si este falta o ya no es válido. Por ejemplo, si un usuario omite los pasos de recoger o empaquetar, e inicia inmediatamente un envío sin que se haya registrado un número de serie para la línea, el PDV requerirá que se introduzca el número de serie antes de completar el paso final de la factura. Al aplicar la captura del número de serie durante las operaciones de procesamiento de pedidos en PDV, todas las reglas mencionadas anteriormente en este artículo siguen siendo aplicables. Solo los artículos serializados configurados como **Activo** pasan por una validación de existencias de inventario de número de serie. Los artículos configurados como **Activo en proceso de ventas** no se validarán. Si se permite un **Inventario negativo físico** para productos **Activos**, se aceptará cualquier número de serie, con independencia de la disponibilidad en existencias. Para los artículos de tipo **Activo** y **Activo en proceso de ventas**, si se configura **Emisión en blanco permitida**, un usuario puede dejar los números de serie en blanco si lo desea durante los pasos de recogida, embalaje y envío.
 
 Las validaciones de los números de serie también se producirán cuando un usuario realice las operaciones de recogida de los pedidos de los clientes en PDV. La aplicación PDV no permite finalizar la recogida de un producto serializado a menos que pase las validaciones, como se mencionó anteriormente. Las validaciones siempre se basan en la dimensión de seguimiento del producto y las configuraciones del almacén de venta. 
 

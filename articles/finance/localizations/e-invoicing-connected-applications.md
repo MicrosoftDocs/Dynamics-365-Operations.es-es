@@ -1,6 +1,6 @@
 ---
-title: Solicitudes conectadas
-description: Este tema explica cómo configurar aplicaciones en Facturación electrónica.
+title: Aplicaciones conectadas
+description: Este artículo explica cómo configurar aplicaciones en Facturación electrónica.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906298"
 ---
-# <a name="connected-applications"></a>Solicitudes conectadas
+# <a name="connected-applications"></a>Aplicaciones conectadas
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Administración de precio de ventas minoristas
-description: En este tema se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Commerce.
+description: En este artículo se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887019"
 ---
-# <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
+# <a name="retail-sales-price-management"></a>Administración de precio de ventas minoristas
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información acerca del proceso de creación y la administración de precios de ventas en Dynamics 365 Commerce. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
+Este artículo proporciona información acerca del proceso de creación y la administración de precios de ventas en Dynamics 365 Commerce. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
 
 ## <a name="terminology"></a>Terminología
 
-En este tema se utilizan los siguientes términos:
+En este artículo se utilizan los siguientes términos:
 
 | Condición | Definición, uso y notas |
 |---|---|
-| Precio | El importe de unidad única por el que se vende un producto a un cliente de punto de venta (PDV) o en un pedido de ventas. En este tema, el término *precio* hace referencia siempre al precio de venta, no al precio de inventario ni al precio de coste. |
+| Precio | El importe de unidad única por el que se vende un producto a un cliente de punto de venta (PDV) o en un pedido de ventas. En este artículo, el término *precio* hace referencia siempre al precio de venta, no al precio de inventario ni al precio de coste. |
 | Precio base | El precio que se establece en el campo **Precio** en un producto liberado. |
 | Precio de acuerdo comercial | El precio que se establece en un producto o una variante mediante un acuerdo comercial del tipo **Precio (ventas)** . |
-| Mejor precio | Cuando se puede aplicar más de un precio o descuento a un producto, el menor importe del precio y/o el mayor importe de descuento que genera el menor importe neto posible que el cliente debe pagar. En este tema, el concepto de mejor precio siempre se conoce como "el mejor precio". Este mejor precio es diferente y no debe confundirse con el valor de enumeración **Mejor precio** para el modo de concurrencia de un descuento. |
+| Mejor precio | Cuando se puede aplicar más de un precio o descuento a un producto, el menor importe del precio y/o el mayor importe de descuento que genera el menor importe neto posible que el cliente debe pagar. En este artículo, el concepto de mejor precio siempre se conoce como "el mejor precio". Este mejor precio es diferente y no debe confundirse con el valor de enumeración **Mejor precio** para el modo de concurrencia de un descuento. |
 
 ## <a name="price-groups"></a>Grupos de precio
 
@@ -97,7 +97,7 @@ Para utilizar una prioridad de precios para los precios, debe asignar una priori
 
 La característica de prioridad de precios se introdujo para admitir el escenario en el que un minorista desea aplicar precios mayores en un conjunto específico de tiendas. Por ejemplo, un minorista ha definido precios regionales para la costa este de los Estados Unidos, pero desea precios mayores para algunos productos en las tiendas de Nueva York, ya que cuesta más vender algunos productos en la ciudad, y/o porque el mercado local tendrá un precio más alto.
 
-Como se describió en la sección "Mejor precio" de este tema, el motor de precios selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la característica de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
+Como se describió en la sección "Mejor precio" de este artículo, el motor de precios selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la característica de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
 
 Sin embargo, la característica de prioridad de precios permite al minorista crear una prioridad de precios para precios de tienda que sea mayor que la prioridad de precio para precios regionales. De manera alternativa, el minorista puede crear una prioridad de precios solo para precios de tienda y dejar los precios regionales en la prioridad de precios predeterminada, que es 0 (cero). Ambas configuraciones ayudan a garantizar que los precios de tienda se utilizan siempre antes que los precios regionales.
 
@@ -151,7 +151,7 @@ Al utilizar el diario de acuerdos comerciales, puede crear acuerdos comerciales 
 
 Un acuerdo comercial de precio de ventas **Tabla** es para un único cliente que se establece directamente en el acuerdo comercial. Este escenario no es un escenario habitual empresa-consumidor (B2C). Sin embargo, si se produce, el motor de precios utiliza los acuerdos comerciales **Tabla** cuando se determina el precio.
 
-Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con mayor frecuencia. Fuera de Commerce, los acuerdos comerciales de precio de ventas **Grupo** son para un grupo de clientes simple. Sin embargo, en Commerce, el concepto de un grupo de clientes se ha ampliado de modo que sea un grupo de precios más genérico. Un grupo de precios se puede vincular a un canal, una afiliación, un programa de fidelidad o un catálogo. Para obtener información detallada sobre los grupos de precios, consulte la sección "Grupos de precios" que se descrige anteriormente en este tema.
+Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con mayor frecuencia. Fuera de Commerce, los acuerdos comerciales de precio de ventas **Grupo** son para un grupo de clientes simple. Sin embargo, en Commerce, el concepto de un grupo de clientes se ha ampliado de modo que sea un grupo de precios más genérico. Un grupo de precios se puede vincular a un canal, una afiliación, un programa de fidelidad o un catálogo. Para obtener información detallada sobre los grupos de precios, consulte la sección "Grupos de precios" que se descrige anteriormente en este artículo.
 
 > [!NOTE]
 > Un precio de acuerdo comercial siempre se utiliza antes que el precio base.

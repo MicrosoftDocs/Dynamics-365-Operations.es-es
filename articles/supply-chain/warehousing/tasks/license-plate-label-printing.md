@@ -1,6 +1,6 @@
 ---
 title: Habilitar la impresión de la etiqueta de matrícula
-description: En este tema se muestra cómo habilitar la impresión automática de una etiqueta de código de contenedor de envío en serie (SSCC) después de que el último artículo se selecciona del inventario en un proceso de trabajo de selección de ventas.
+description: En este artículo se muestra cómo habilitar la impresión automática de una etiqueta de código de contenedor de envío en serie (SSCC) después de que el último artículo se selecciona del inventario en un proceso de trabajo de selección de ventas.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903677"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar la impresión de la etiqueta de matrícula
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se muestra cómo habilitar la impresión automática de una etiqueta de código de contenedor de envío en serie (SSCC) después de que el último artículo se selecciona del inventario en un proceso de trabajo de selección de ventas. Puede ejecutar este procedimiento en la empresa USMF de los datos de prueba. Si lo ejecuta mediante sus propios datos, debe tener una secuencia numérica configurada para las matrículas de entidad de almacén. Es necesario configurar una impresora de etiquetas para poder comenzar esta tarea. Vaya a Administración de la organización > Configurar > Impresoras de red. En el panel Acciones, haga clic en Opciones y, a continuación, haga clic en el botón Descargar instalador del agente de ruta de documentos. Ejecute el instalador y asegúrese de que tiene una impresora de red de trabajo establecida en Activa para poder continuar con el procedimiento.
+En este artículo se muestra cómo habilitar la impresión automática de una etiqueta de código de contenedor de envío en serie (SSCC) después de que el último artículo se selecciona del inventario en un proceso de trabajo de selección de ventas. Puede ejecutar este procedimiento en la empresa USMF de los datos de prueba. Si lo ejecuta mediante sus propios datos, debe tener una secuencia numérica configurada para las matrículas de entidad de almacén. Es necesario configurar una impresora de etiquetas para poder comenzar esta tarea. Vaya a Administración de la organización > Configurar > Impresoras de red. En el panel Acciones, haga clic en Opciones y, a continuación, haga clic en el botón Descargar instalador del agente de ruta de documentos. Ejecute el instalador y asegúrese de que tiene una impresora de red de trabajo establecida en Activa para poder continuar con el procedimiento.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Configurar el prefijo GS1 de la empresa

@@ -1,6 +1,6 @@
 ---
 title: Trabajar con módulos
-description: Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860201"
 ---
 # <a name="work-with-modules"></a>Trabajar con módulos
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 
 Los módulos son bloques de creación lógicos que componen su estructura de página y tienen diversos propósitos y ámbitos. Algunos módulos son contenedores de alto nivel y su único propósito es mantener y organizar otros módulos (módulos secundarios). Otros módulos, como un módulo de ubicación de imagen sencillo, tienen un propósito muy específico. Otros módulos, como un módulo de carrusel, se encuentren en algún lugar entre esas dos categorías.
 
@@ -151,7 +151,7 @@ Para configurar un módulo de contenedor en una página, siga estos pasos.
 
 1. Seleccione un módulo de contenedor en su página (por ejemplo, un módulo de contenido de fluido o carrusel).
 1. En el panel de propiedades de la derecha, expanda los controles anidados seleccionando los encabezados y establezca los valores de control necesarios.
-1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos que se encuentra junto al nombre del contenedor o de cualquier franja que se encuentre dentro del contenedor y, a continuación, seleccione **Agregar módulo**. A continuación, agregue módulos secundarios al contenedor seleccionado. Para obtener más información, consulte la sección [Trabajar con módulos](#add-a-module) descrita anteriormente en este tema.
+1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos que se encuentra junto al nombre del contenedor o de cualquier franja que se encuentre dentro del contenedor y, a continuación, seleccione **Agregar módulo**. A continuación, agregue módulos secundarios al contenedor seleccionado. Para obtener más información, consulte la sección [Trabajar con módulos](#add-a-module) descrita anteriormente en este artículo.
 1. Si existen varios módulos secundarios como elementos del mismo nivel en un contenedor principal, puede cambiar su orden de visualización en el contenedor principal. Seleccione el botón de puntos suspensivos para un módulo y utilice los botones de flecha arriba y flecha abajo.
 
 ## <a name="additional-resources"></a>Recursos adicionales

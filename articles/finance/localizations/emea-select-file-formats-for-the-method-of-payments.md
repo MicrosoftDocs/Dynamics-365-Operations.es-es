@@ -1,6 +1,6 @@
 ---
 title: Formatos de archivo para métodos de pago
-description: En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
+description: En este artículo se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
 author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca396424256660f251d6889afffb3e90bb76fd54
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: c99413c361397c6818be580deb45ba85620ed5db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871082"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
+En este artículo se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
 
 Hay dos métodos que puede utilizar para obtener formatos de archivo para su uso con métodos de pago, formatos de archivo de informes electrónicos (ER) o formatos de archivo X++. Cuando configura un método de pago para un cliente o proveedor, indica qué formatos de archivo y estándares deben usarse para los pagos y cómo se procesarán los pagos. Puede seleccionar entre los siguientes tipos de formatos:
 

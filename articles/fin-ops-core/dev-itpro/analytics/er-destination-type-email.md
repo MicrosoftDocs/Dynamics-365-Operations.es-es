@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER de correo electrónico
-description: Este tema explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un informe electrónico (ER).
+description: Este artículo explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un informe electrónico (ER).
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845668"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 
@@ -162,7 +162,7 @@ La siguiente ilustración muestra la estructura de un formato ER que se configur
 
 [![Estructura de un formato ER que genera documentos salientes.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-La siguiente ilustración muestra el proceso, como se describe en este tema, de agrupar componentes individuales y habilitar el destino **Correo** para el nuevo grupo, de modo que se envíe una nota de carta de cobro junto con las facturas de cliente correspondientes como archivos adjuntos de correo electrónico.
+La siguiente ilustración muestra el proceso, como se describe en este artículo, de agrupar componentes individuales y habilitar el destino **Correo** para el nuevo grupo, de modo que se envíe una nota de carta de cobro junto con las facturas de cliente correspondientes como archivos adjuntos de correo electrónico.
 
 [![Agrupar componentes individuales y habilitar el destino del correo electrónico.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

@@ -1,6 +1,6 @@
 ---
 title: Cálculo de costes generales
-description: Este tema describe los procesos típicos para calcular y asignar costes generales.
+description: Este artículo describe los procesos típicos para calcular y asignar costes generales.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733945"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882002"
 ---
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los procesos típicos para calcular y asignar costes generales.
+Este artículo describe los procesos típicos para calcular y asignar costes generales.
 
 ## <a name="term-definition"></a>Definición del término
 
@@ -1333,10 +1333,10 @@ Elemento de coste | Objeto de coste<br>CC099 | Objeto de coste<br>CC001 | Objeto
 10001 Electricidad | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Sin clasificar | 0,00 |  |  |  |  |  |  |  |  |  |
 Coste fijo | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Coste variable | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Coste variable | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Directiva de acumulación de costes y cálculo de costes generales](cost-rollup.md).
+> Este artículo muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Directiva de acumulación de costes y cálculo de costes generales](cost-rollup.md).
 
 
 

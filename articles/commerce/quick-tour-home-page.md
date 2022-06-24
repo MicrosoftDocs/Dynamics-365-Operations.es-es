@@ -1,6 +1,6 @@
 ---
-title: Visión general de la página principal
-description: Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
+title: Información general de la página principal
+description: Este artículo proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844681"
 ---
 # <a name="home-page-overview"></a>Información general de la página principal
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
 
 La página principal es la página predeterminada a la que van los compradores cuando visitan un sitio de comercio electrónico. Normalmente, esta página muestra productos y promociones mediante una combinación de módulos de marketing. La página principal debe estar enriquecida con imágenes y texto para mantener a los compradores interesados.
 
@@ -33,7 +33,7 @@ En la siguiente ilustración se muestra un ejemplo de una página principal que 
 
 ![Ejemplo de una página principal.](./media/Homepage2.PNG)
 
-La parte superior de la página principal tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página principal tiene un pie de página que contiene vínculos rápidos a diversos temas que pueden interesar a clientes.
+La parte superior de la página principal tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página principal tiene un pie de página que contiene vínculos rápidos a diversos artículos que pueden interesar a clientes.
 
 La sección principal de la página principal puede resaltar productos, categorías o promociones mediante diversos módulos de Dynamics 365 Commerce:
 
@@ -49,8 +49,8 @@ La sección principal de la página principal puede resaltar productos, categor�
 
     ![Ejemplos de módulos de características.](./media/Feature.PNG)
 
-- **Icono**: un diseño de icono de un módulo de bloque de contenido se usa para mostrar varios productos o categoría de productos mediante una combinación de imágenes y texto en un diseño de varias columnas. En la ilustración de una página principal que aparece anteriormente en este tema, se usa un diseño de icono para la representación de tres columnas de los elementos **Tienda de mujeres**, **Tienda de hombres** y **Tienda de accesorios**.
-- **Reproductor de vídeo:** se puede usar un módulo de reproductor de vídeo para mostrar el contenido del vídeo en la página principal. La ilustración de una página principal que aparece anteriormente en este tema incluye un módulo reproductor de vídeo.
+- **Icono**: un diseño de icono de un módulo de bloque de contenido se usa para mostrar varios productos o categoría de productos mediante una combinación de imágenes y texto en un diseño de varias columnas. En la ilustración de una página principal que aparece anteriormente en este artículo, se usa un diseño de icono para la representación de tres columnas de los elementos **Tienda de mujeres**, **Tienda de hombres** y **Tienda de accesorios**.
+- **Reproductor de vídeo:** se puede usar un módulo de reproductor de vídeo para mostrar el contenido del vídeo en la página principal. La ilustración de una página principal que aparece anteriormente en este artículo incluye un módulo reproductor de vídeo.
 - **Bloque de texto**: un módulo de enriquecimiento de contenido se puede usar para presentar contenido de texto en la página principal en un diseño de varias columnas o de columna única.
 - **Recomendaciones de producto**: los módulos de recomendaciones de producto se usan para mostrar listas, como **Nuevos**, **Tendencias** y **Más vendidos** en la página principal. Estas listas muestran productos basados en tendencias de compras y se pueden generar de manera algorítmica o mantener manualmente. Ayudan a los clientes a detectar rápidamente los productos principales y después continuar comprando.
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar la validación de conciliación de facturas de proveedores
-description: En este tema se brinda información sobre cómo configurar la validación Conciliación de facturas de proveedores.
+description: En este artículo se brinda información sobre cómo configurar la validación Conciliación de facturas de proveedores.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904970"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar la validación de conciliación de facturas de proveedores
 
@@ -44,7 +44,7 @@ Hay disponibles cuatro tipos de validación de conciliación diferentes.
 5. Active o desactive la casilla **Totales de factura de conciliación** para conciliar los totales de factura reales con los totales previstos.
     * Seleccione si se debe mostrar un icono si una discrepancia para la conciliación de la factura supera la tolerancia. Puede seleccionar mostrar el icono cuando una discrepancia positiva supere la tolerancia, o cuando una discrepancia positiva o negativa supere la tolerancia.  
     * Por ejemplo, la tolerancia es del 5 por ciento, y el importe total de la factura del pedido de compra es 100,00. Por tanto, se mostrará un icono de conciliación de precio si el importe total de la factura supera 105,00. Si selecciona **Si es superior o inferior a la tolerancia**, también se mostrará el icono si el importe de la factura es inferior a 95,00.  
-6. En el campo **Porcentaje de tolerancia de totales de factura**, especifique la desviación porcentual aceptable. Este valor es el valor predeterminado de la empresa. Este valor se puede anular para determinados proveedores, mediante la página **Tolerancias de totales de factura**. Para obtener información acerca de cómo anular el porcentaje de tolerancia de totales de factura para un proveedor determinado, consulte la sección "Configurar tolerancia de conciliación de totales de facturas para proveedores" más adelante en este tema.
+6. En el campo **Porcentaje de tolerancia de totales de factura**, especifique la desviación porcentual aceptable. Este valor es el valor predeterminado de la empresa. Este valor se puede anular para determinados proveedores, mediante la página **Tolerancias de totales de factura**. Para obtener información acerca de cómo anular el porcentaje de tolerancia de totales de factura para un proveedor determinado, consulte la sección "Configurar tolerancia de conciliación de totales de facturas para proveedores" más adelante en este artículo.
 7. Establezca **Conciliación de precio y cantidad**.
 8. En el campo **Directiva de conciliación de líneas**, seleccione un valor que se usará como directiva predeterminada para la entidad jurídica con la que está trabajando. **No requerido** significa que no existe ninguna verificación de los precios individuales de la línea de factura en las cantidades de precio o de factura del pedido de compra con las cantidades de albarán necesarias. **Doble conciliación** significa que la verificación de las líneas de factura es necesaria pero solo el pedido de compra y los documentos de factura del proveedor están involucrados en la comprobación. La recepción de producto no se descompone en las validaciones de conciliación. **Triple conciliación** significa que el precio unitario neto de la factura se comparará con el precio unitario neto del pedido de compra y la cantidad de recepción de producto conciliada se comparará con la cantidad de la factura.
 9. Para permitir que se aplique un nivel diferente de conciliación a un artículo, proveedor, combinación de proveedor y artículo o línea de pedido de compra, seleccione un valor en el campo **Permitir anulación de directiva de conciliación**. La directiva de conciliación de líneas de la entidad jurídica se puede invalidar para un proveedor, artículo o combinación de proveedor y artículo concretos en la página **Directiva de conciliación**.

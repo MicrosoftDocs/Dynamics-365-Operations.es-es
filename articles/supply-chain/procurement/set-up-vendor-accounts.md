@@ -1,6 +1,6 @@
 ---
 title: Configuración de cuentas de proveedor
-description: Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
+description: Este artículo describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875286"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
+Este artículo describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
 
 Al crear una cuenta de proveedor, especifique información sobre el proveedor. Esta información se usa para especificar automáticamente datos en documentos y para realizar un seguimiento de la actividad que implica al proveedor. Por ejemplo, puede configurar la siguiente información para un proveedor:
 

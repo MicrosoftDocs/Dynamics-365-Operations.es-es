@@ -1,6 +1,6 @@
 ---
 title: Listas de materiales y fórmulas
-description: Este tema proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto.
+description: Este artículo proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 57a30aba3b0a37d939d0747b2dd305a92c82ae23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887294"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiales y fórmulas
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción. 
+Este artículo proporciona información acerca de las listas de materiales y las fórmulas, que son una parte fundamental de la definición de productos y variantes de producto. Las listas de materiales y las fórmulas especifican los materiales o componentes necesarios para un producto específico. Las fórmulas también especifican los coproductos o productos derivados que se reciben en un contexto específico de la producción. 
 
 ## <a name="bills-of-materials"></a>Listas de materiales
 

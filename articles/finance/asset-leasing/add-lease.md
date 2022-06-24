@@ -1,6 +1,6 @@
 ---
 title: Agregar o copiar arrendamientos (Vista previa)
-description: Este tema describe cómo crear un nuevo arrendamiento introduciendo información para él en Arrendamiento de activos o copiando información de un arrendamiento existente.
+description: Este artículo describe cómo crear un nuevo arrendamiento introduciendo información para él en Arrendamiento de activos o copiando información de un arrendamiento existente.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880943"
 ---
 # <a name="add-or-copy-leases-preview"></a>Agregar o copiar arrendamientos (Vista previa)
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo crear un arrendamiento desde cero en Arrendamiento de activos y también cómo crear un arrendamiento copiando un arrendamiento existente. El proceso para crear un arrendamiento desde cero implica introducir información para el nuevo arrendamiento y luego crear una programación de arrendamiento. Después de configurar al menos un arrendamiento, es posible que le resulte más fácil copiar la información de un arrendamiento existente y luego editar esa información según sea necesario para crear un nuevo contrato de arrendamiento.
+Este artículo explica cómo crear un arrendamiento desde cero en Arrendamiento de activos y también cómo crear un arrendamiento copiando un arrendamiento existente. El proceso para crear un arrendamiento desde cero implica introducir información para el nuevo arrendamiento y luego crear una programación de arrendamiento. Después de configurar al menos un arrendamiento, es posible que le resulte más fácil copiar la información de un arrendamiento existente y luego editar esa información según sea necesario para crear un nuevo contrato de arrendamiento.
 
 ## <a name="create-a-lease"></a>Crear un arrendamiento
 

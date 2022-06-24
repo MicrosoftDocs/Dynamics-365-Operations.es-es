@@ -1,6 +1,6 @@
 ---
 title: Función AND de ER
-description: Este tema proporciona información general sobre cómo usar la función AND de informes electrónicos (ER).
+description: En este artículo se proporciona información sobre cómo usar la función AND de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d327f0f961a11fecdbc055ffbb1f3d8bc15bcfdd732e2565d0a5e9e2c0a31ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd31fc008b066d7e7d68588c41296537975c2b5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894364"
 ---
 # <a name="and-er-function"></a>Función AND de ER
 

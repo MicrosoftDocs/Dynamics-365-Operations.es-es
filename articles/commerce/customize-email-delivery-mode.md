@@ -1,6 +1,6 @@
 ---
 title: Personalizar correos electrónicos transaccionales por modo de entrega
-description: Este tema describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850313"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizar correos electrónicos transaccionales por modo de entrega
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo configurar plantillas de correo electrónico personalizadas para tipos de notificación y modos de entrega específicos en Microsoft Dynamics 365 Commerce.
 
 Los correos electrónicos transaccionales ahora se pueden personalizar para una combinación de un tipo de notificación (por ejemplo, **Pedido creado**, **Pedido empaquetado** o **Pedido facturado**) y un modo de entrega (por ejemplo, durante la noche, recogida en la tienda o recogida en puntos de entrega). Los correos electrónicos transaccionales personalizados permiten a los minoristas proporcionar a sus clientes experiencias de cumplimiento que se adaptan al modo de entrega del pedido. Por ejemplo, el evento "pedido empaquetado" se puede personalizar para que proporcione instrucciones de recolección en un punto de entrega para los clientes que eligen esa opción. Alternativamente, puede proporcionar el transportista de envío y la información de entrega para los clientes que eligen que se envíe su pedido.
 

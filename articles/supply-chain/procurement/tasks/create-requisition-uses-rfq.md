@@ -1,6 +1,6 @@
 ---
 title: Crear una solicitud que utilice una solicitud de presupuesto
-description: Este tema explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra.
+description: Este artículo explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846022"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Crear una solicitud que utilice una solicitud de presupuesto
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF y debe haber iniciado sesión como administrador para completar todos los pasos. Las tareas de esta guía las realizarán normalmente profesionales de compras.
+Este artículo explica cómo agregar la información del precio y del vendedor a una solicitud de compra desde un proceso de solicitud de compra. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF y debe haber iniciado sesión como administrador para completar todos los pasos. Las tareas de esta guía las realizarán normalmente profesionales de compras.
 
 
 ## <a name="create-a-requisition"></a>Creación de una solicitud

@@ -1,6 +1,6 @@
 ---
 title: Invalidar el principio de reserva predeterminado para materiales en producción
-description: Este tema describe cómo establecer un principio de reserva predeterminado para cada grupo de modelos de artículos, de modo que se puedan aplicar automáticamente diferentes principios de reserva para cada artículo que forma parte de una lista de materiales de producción (L.MAT) o una fórmula de orden de lote.
+description: Este artículo describe cómo establecer un principio de reserva predeterminado para cada grupo de modelos de artículos, de modo que se puedan aplicar automáticamente diferentes principios de reserva para cada artículo que forma parte de una lista de materiales de producción (L.MAT) o una fórmula de orden de lote.
 author: johanhoffmann
 ms.date: 12/10/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 11fd2c08c8730d50553b1fc6493908940a022c05
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907243"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Invalidar el principio de reserva predeterminado para materiales en producción
 

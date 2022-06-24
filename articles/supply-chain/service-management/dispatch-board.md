@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb13124bb086b3240a41278aac067775663c6ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 43d74135f8a18cddcb86f719d4c5ecd6a532cc82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878769"
 ---
 #  <a name="dispatch-board"></a>Panel de distribución 
 
@@ -38,7 +38,7 @@ Un panel de distribución es la ubicación central desde la que puede ver el est
 
   - Revisar la lista de actividades de servicio que no se han distribuido.
 
-Para obtener información sobre cómo realizar tareas específicas en un panel de distribución, vea los temas de la sección **Consulte también**.
+Para obtener información sobre cómo realizar tareas específicas en un panel de distribución, vea los artículos de la sección **Consulte también**.
 
 ## <a name="see-also"></a>Consulte también
 

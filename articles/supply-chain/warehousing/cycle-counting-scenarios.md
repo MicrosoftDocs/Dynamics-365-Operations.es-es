@@ -1,6 +1,6 @@
 ---
 title: Escenarios de ejemplo de recuento cíclico
-description: Este tema proporciona una colección de escenarios que exploran las características de conteo cíclico de Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo proporciona una colección de escenarios que exploran las características de conteo cíclico de Microsoft Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899335"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Escenarios de ejemplo de recuento cíclico
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una colección de escenarios que exploran las características de conteo cíclico de Microsoft Dynamics 365 Supply Chain Management. En primer lugar, describe los requisitos para su entorno de Supply Chain Management existente. Luego explica cómo configurar el conteo cíclico y describe todas las etapas del conteo cíclico. Cuando haya terminado, debe tener una buena comprensión del conteo cíclico, incluido el conteo cíclico guiado, el conteo cíclico ciego, el conteo cíclico puntual, los umbrales del conteo cíclico y los planes de conteo cíclico.
+Este artículo proporciona una colección de escenarios que exploran las características de conteo cíclico de Microsoft Dynamics 365 Supply Chain Management. En primer lugar, describe los requisitos para su entorno de Supply Chain Management existente. Luego explica cómo configurar el conteo cíclico y describe todas las etapas del conteo cíclico. Cuando haya terminado, debe tener una buena comprensión del conteo cíclico, incluido el conteo cíclico guiado, el conteo cíclico ciego, el conteo cíclico puntual, los umbrales del conteo cíclico y los planes de conteo cíclico.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 ### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-Cada escenario de este tema hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras trabaja en los escenarios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica (empresa) en **USMF** antes de empezar.
+Cada escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras trabaja en los escenarios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica (empresa) en **USMF** antes de empezar.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Activar la compatibilidad con la aplicación móvil Warehouse Management
 
@@ -158,7 +158,7 @@ Siga estos pasos para crear un trabajo de recuento cíclico para la ubicación d
 
 Una vez creado el trabajo de recuento cíclico, realice el trabajo de recuento cíclico contando los artículos de una ubicación de almacén y usando a continuación un dispositivo móvil para especificar los resultados en Supply Chain Management. Siga estos pasos para realizar el trabajo de recuento cíclico en la aplicación móvil Warehouse Management.
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este tema. Para el ejemplo de este tema, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este artículo. Para el ejemplo de este artículo, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
 1. En el menú principal, seleccione **Inventario**.
 1. En el menú **Inventario**, seleccione **Contador de ciclos guiado**.
 1. Seleccione el campo **Cant.**, ingrese *9* utilizando el teclado numérico y luego seleccione **Aceptar** (botón de marca de verificación).
@@ -227,7 +227,7 @@ Antes de que pueda ocurrir el recuento cíclico ciego, debe crear algo de trabaj
 
 Después de crear el trabajo de recuento cíclico, siga estos pasos para realizar el trabajo en la aplicación móvil Warehouse Management.
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este tema. Para el ejemplo de este tema, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este artículo. Para el ejemplo de este artículo, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
 1. En el menú principal, seleccione **Inventario**.
 1. En el menú **Inventario**, seleccione **Contador de ciclos ciego**.
 1. Seleccione el campo **ID de zona**, ingrese *BULK06* y luego seleccione **OK** (el botón de la marca de verificación).
@@ -259,7 +259,7 @@ El registro disponible indica que hay una cantidad disponible de artículo *L010
 
 Siga estos pasos para realizar el trabajo de recuento cíclico en la aplicación móvil Warehouse Management.
 
-1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este tema. Para el ejemplo de este tema, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
+1. Inicie sesión en la aplicación móvil Warehouse Management como el usuario de trabajo que configuró en la sección [Prepare datos de demostración para los escenarios](#prepare-demo-data) anterior en este artículo. Para el ejemplo de este artículo, el nombre del usuario *Julia Funderburk* y está configurado para almacén *61*. (Los datos de demostración de USMF deberían permitirle iniciar sesión como este usuario de trabajo ingresando *61* como ID de usuario y *1* como contraseña).
 1. En el menú principal, seleccione **Inventario**.
 1. En el menú **Inventario**, seleccione **Recuento puntual**.
 1. Seleccione el campo **Ubicación**, ingrese *01A02R2S1B* y luego seleccione **OK** (el botón de la marca de verificación).

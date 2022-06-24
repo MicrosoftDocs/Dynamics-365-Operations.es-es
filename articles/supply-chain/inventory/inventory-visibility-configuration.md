@@ -1,8 +1,8 @@
 ---
-title: Configurar la visibilidad de inventario
-description: Este tema describe cómo configurar Visibilidad de inventario.
+title: Configurar Inventory Visibility
+description: Este artículo describe cómo configurar Visibilidad de inventario.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895826"
 ---
-# <a name="configure-inventory-visibility"></a>Configurar la visibilidad de inventario
+# <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo configurar la visibilidad de inventario usando la aplicación Visibilidad de inventario de Power Apps.
+Este artículo describe cómo configurar la visibilidad de inventario usando la aplicación Visibilidad de inventario de Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introducción
 
-Antes de comenzar a trabajar con Visibilidad de inventario, debe completar la siguiente configuración como se describe en este tema:
+Antes de comenzar a trabajar con Visibilidad de inventario, debe completar la siguiente configuración como se describe en este artículo:
 
 - [Configuración del origen de datos](#data-source-configuration)
 - [Configuración de partición](#partition-configuration)
@@ -41,7 +41,7 @@ Antes de comenzar, instale y configure el complemento de visibilidad de inventar
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La página de configuración de la aplicación Inventory Visibility
 
-En Power Apps, la página **Configuración** de la [aplicación Visibilidad de inventario](inventory-visibility-power-platform.md) le ayuda a configurar la configuración disponible y la configuración de reserva flexible. Una vez instalado el complemento, la configuración predeterminada incluye el valor de Microsoft Dynamics 365 Supply Chain Management (el origen de datos `fno`). Puede revisar la configuración predeterminada. Además, según sus requisitos comerciales y los requisitos de registro de inventario de su sistema externo, puede modificar la configuración para estandarizar la forma en que los cambios de inventario se pueden publicar, organizar y consultar en los múltiples sistemas. Las secciones restantes de este tema explican cómo utilizar cada parte de la página **Configuración**.
+En Power Apps, la página **Configuración** de la [aplicación Visibilidad de inventario](inventory-visibility-power-platform.md) le ayuda a configurar la configuración disponible y la configuración de reserva flexible. Una vez instalado el complemento, la configuración predeterminada incluye el valor de Microsoft Dynamics 365 Supply Chain Management (el origen de datos `fno`). Puede revisar la configuración predeterminada. Además, según sus requisitos comerciales y los requisitos de registro de inventario de su sistema externo, puede modificar la configuración para estandarizar la forma en que los cambios de inventario se pueden publicar, organizar y consultar en los múltiples sistemas. Las secciones restantes de este artículo explican cómo utilizar cada parte de la página **Configuración**.
 
 Una vez completada la configuración, asegúrese de seleccionar **Actualizar configuración** en la aplicación.
 
@@ -54,6 +54,7 @@ El complemento de visibilidad de inventario agrega varias funciones nuevas a su 
 | *OnHandReservation* | Esta característica le permite crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario. Para obtener más información, consulte [Reservas de Visibilidad de inventario](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Esta característica proporciona un resumen de inventario de productos, junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Esta característica opcional habilita las características programa de cambio de inventario disponible y neto no comprometido (NNC). Para obtener más información, consulte [Programación de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md). |
+| *Asignación* | Esta característica opcional permite que Visibilidad de inventario tenga la capacidad de protección de inventario (ringfencing) y control de sobreventa. Para más información, vea [Asignación de inventario de Inventory Visibility](inventory-visibility-allocation.md). |
 | *Habilitar artículos de almacén en Visibilidad de inventario* | Esta característica opcional permite que la visibilidad del inventario admita artículos que están habilitados para procesos de almacén avanzados (artículos WHS). Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Buscar el punto de conexión de servicio
@@ -320,6 +321,13 @@ Siga estos pasos para configurar el índice de jerarquía de productos.
     - **Número de conjunto** - Las dimensiones que pertenecen al mismo grupo (índice) se agruparán y se les asignará el mismo número de conjunto.
     - **Jerarquía** - La jerarquía se utiliza para definir las combinaciones de dimensiones admitidas que se pueden consultar en un grupo de dimensiones (índice). Por ejemplo, si configura un grupo de dimensiones que tiene una secuencia de jerarquía de *Estilo*, *Color* y *Tamaño*, el sistema admite el resultado de tres grupos de consultas. El primer grupo es solo de estilo. El segundo grupo es una combinación de estilo y color. Y el tercer grupo es una combinación de estilo, color y tamaño. Las otras combinaciones no son compatibles.
 
+> [!TIP]
+> Aquí hay algunos consejos para tener en cuenta al configurar su jerarquía de índices:
+>
+> - Las dimensiones base que se definen en la configuración de la partición no deben definirse en las configuraciones de índice. Si se vuelve a definir una dimensión base en la configuración del índice, no podrá consultar por este índice.
+> - Si necesita consultar solo el inventario agregado por todas las combinaciones de dimensiones, puede configurar un único índice que contenga la dimensión base `Empty`.
+> - Debe tener al menos una jerarquía de índice (por ejemplo, que contenga la dimensión base `Empty`), de lo contrario, las consultas fallarán con el error "No se ha establecido una jerarquía de índice".
+
 ### <a name="example"></a>Ejemplo
 
 Esta sección proporciona un ejemplo que muestra cómo funciona la jerarquía.
@@ -372,11 +380,6 @@ El índice le permite consultar el inventario disponible de las siguientes maner
     - Camiseta, Roja, Pequeña, Normal, 6
     - Camiseta, Roja, Grande, Normal, 7
 
-> [!NOTE]
-> Las dimensiones base que se definen en la configuración de la partición no deben definirse en las configuraciones de índice.
-> 
-> Si debe consultar solo el inventario agregado por todas las combinaciones de dimensiones, puede configurar un único índice que contenga la dimensión base `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuración de reserva (opcional)
 
 Se requiere la configuración de la reserva si desea utilizar la función de reserva flexible. La configuración consta de dos partes fundamentales:
@@ -390,7 +393,7 @@ Cuando realiza una reserva, es posible que desee saber si el inventario disponib
 
 Al configurar la asignación de la medida física a la medida calculada, habilita el servicio de visibilidad de inventario para validar automáticamente la disponibilidad de la reserva, según la medida física.
 
-Antes de configurar esta asignación, las medidas físicas, las medidas calculadas y sus orígenes de datos deben definirse en las fichas **Origen de datos** y **Medida calculada** de la página **Configuración** en Power Apps (como se describió anteriormente en este tema).
+Antes de configurar esta asignación, las medidas físicas, las medidas calculadas y sus orígenes de datos deben definirse en las fichas **Origen de datos** y **Medida calculada** de la página **Configuración** en Power Apps (como se describió anteriormente en este artículo).
 
 Para definir la asignación de reserva flexible, siga estos pasos.
 
@@ -651,11 +654,11 @@ La medida calculada `InventoryDemand` se configura para el origen de datos de `i
 | Suma | `iv` | `ReservPhysical` |
 | Suma | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Configuración del origen de datos de fno
+#### <a name="configuration-of-the-fno-data-source"></a>Configuración del origen de datos de "fno"
 
 Esta sección describe cómo se configura el origen de datos de `fno`.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Asignaciones de dimensiones para el origen de datos fno
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Asignaciones de dimensiones para el origen de datos "fno"
 
 Las asignaciones de dimensiones que se enumeran en la siguiente tabla están configuradas para el origen de datos `fno`.
 
@@ -687,7 +690,7 @@ Las asignaciones de dimensiones que se enumeran en la siguiente tabla están con
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Medidas físicas configuradas para el origen de datos de fno
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Medidas físicas configuradas para el origen de datos de "fno"
 
 Las siguientes medidas físicas están configuradas para el origen de datos de `fno`:
 
@@ -699,11 +702,11 @@ Las siguientes medidas físicas están configuradas para el origen de datos de `
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Configuración del origen de datos de pos
+#### <a name="configuration-of-the-pos-data-source"></a>Configuración del origen de datos de "pos"
 
 Esta sección describe cómo se configura el origen de datos de `pos`.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Medidas físicas para el origen de datos de pos
+##### <a name="physical-measures-for-the-pos-data-source"></a>Medidas físicas para el origen de datos de "pos"
 
 Las siguientes medidas físicas están configuradas para el origen de datos de `pos`:
 
@@ -720,14 +723,14 @@ La medida calculada `AvailQuantity` se configura para el origen de datos de `pos
 | Suma | `pos` | `PosInbound` |
 | Resta | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Configuración del origen de datos de iom
+#### <a name="configuration-of-the-iom-data-source"></a>Configuración del origen de datos de "iom"
 
 Las siguientes medidas físicas están configuradas para el origen de datos de `iom` (Intelligent Order Management):
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Configuración del origen de datos de erp
+#### <a name="configuration-of-the-erp-data-source"></a>Configuración del origen de datos de "erp"
 
 Las siguientes medidas físicas están configuradas para el origen de datos de `erp` (Planificación de recursos empresariales):
 

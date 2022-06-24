@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en Dynamics 365 Human Resources 26 de julio de 2021
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 26 de julio de 2021.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 26 de julio de 2021.
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870940"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Novedades o cambios en Dynamics 365 Human Resources 26 de julio de 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema describe las características que son nuevas, han cambiado o estarán disponibles próximamente en Dynamics 365 Human Resources.
+Este artículo describe las características que son nuevas, que se han cambiado o que vendrán próximamente en Dynamics 365 Human Resources.
 
 Para obtener más información sobre el proceso de actualización y la programación, consulte [Proceso de actualización](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Las siguientes características estarán disponible de forma generalizada en est
 En esta versión se incluyen las siguientes correcciones de errores.
 
 > [!NOTE]
-> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este tema para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del tema.
+> Nuestro objetivo es hacer llegar esta información lo antes posible. Puede que haya actualizaciones de este artículo para incluir correcciones de errores que se incluyeron en la compilación después de la publicación inicial del artículo.
 
-| Número del problema | Problema |  Descripción |
+| Número del problema | Problema |  Description |
 | --- | --- | --- |
 | 600422 | La validación de la dirección de nómina falla para Listo para pagar. | La validación se ha actualizado para requerir solo una dirección del tipo 'Lugar de residencia de nómina' y solo una dirección del tipo 'Lugar de trabajo de nómina'. |
 | 601226 | Problema de integración de datos: el proyecto de exportación de integración de nómina no tiene la opción de inserción completa | La integración de la nómina a Ceridian DayForce fue una inserción incremental en lugar de una inserción completa. Ceridian requiere estar siempre actualizado por completo. Este problema ahora está solucionado, las entidades en el proyecto de exportación de datos ya no cambiarán a la inserción incremental. |

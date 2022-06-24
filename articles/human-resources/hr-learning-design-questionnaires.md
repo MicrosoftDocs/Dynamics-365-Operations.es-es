@@ -1,6 +1,6 @@
 ---
 title: Crear cuestionarios
-description: En este tema se describe el proceso de creación de un cuestionario.
+description: Este artículo describe el proceso para crear un cuestionario.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899654"
 ---
 # <a name="create-questionnaires"></a>Crear cuestionarios
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694862"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
+Este artículo describe el proceso para crear un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas. 
 
 Un cuestionario de cuidado diseño puede ayudarle a aumentar la calidad de los datos recopilados. Con un cuidado diseño, puede seleccionar mejor las opciones adecuadas para un cuestionario en el momento adecuado. Los siguientes puntos pueden ayudarle a planificar un cuestionario efectivo:
 

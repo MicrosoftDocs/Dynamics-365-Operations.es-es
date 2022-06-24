@@ -1,6 +1,6 @@
 ---
-title: Agregar un icono de favoritos
-description: En este tema se explica cómo agregar un icono de favoritos al sitio.
+title: Agregar un icono favorito
+description: En este artículo se explica cómo agregar un icono de favoritos al sitio.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855804"
 ---
 # <a name="add-a-favicon"></a>Agregar un icono favorito
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo agregar un icono de favoritos al sitio.
+En este artículo se explica cómo agregar un icono de favoritos al sitio.
 
 Un icono de favoritos es un pequeño archivo gráfico que se muestra en una pestaña del explorador web, en la barra de direcciones, en el historial de exploración, y en marcadores o favoritos, entre otros lugares. Recomendamos que agregue un icono de favoritos al sitio, ya que representa y refuerza su marca, y ayuda a diferenciar el sitio de otros que los clientes visitan.
 
-Aunque puede agregar varios iconos favoritos de diversos tamaños y tipos de archivos al sitio, este tema muestra cómo agregar un icono favorito único. Sin embargo, se utilizan el mismo proceso y ubicación para agregar más iconos favoritos.
+Aunque puede agregar varios iconos favoritos de diversos tamaños y tipos de archivos al sitio, este artículo muestra cómo agregar un icono favorito único. Sin embargo, se utilizan el mismo proceso y ubicación para agregar más iconos favoritos.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Cargue un icono favorito en la colección de activos del sitio
 

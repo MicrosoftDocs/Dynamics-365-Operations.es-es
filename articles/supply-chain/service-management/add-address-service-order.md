@@ -1,6 +1,6 @@
 ---
 title: Agregar una dirección a un pedido de servicio
-description: Este tema describe cómo agregar una dirección de cliente a un pedido de servicio.
+description: Este artículo describe cómo agregar una dirección de cliente a un pedido de servicio.
 author: sorenva
 ms.date: 05/02/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 560d0c58aebe652e668cc0ec3ed05d84f004872e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844746"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Agregar una dirección a un pedido de servicio    
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo agregar una dirección de cliente a un pedido de servicio. Al crear un pedido de servicio, la información de dirección se transfiere del proyecto al que está vinculado el pedido de servicio. Sin embargo, puede seleccionar una ubicación alternativa a las direcciones que ya haya especificado en Microsoft Dynamics AX para clientes, proveedores, sitios, almacenes, pedidos de servicio y proyectos.
+Este artículo describe cómo agregar una dirección de cliente a un pedido de servicio. Al crear un pedido de servicio, la información de dirección se transfiere del proyecto al que está vinculado el pedido de servicio. Sin embargo, puede seleccionar una ubicación alternativa a las direcciones que ya haya especificado en Microsoft Dynamics AX para clientes, proveedores, sitios, almacenes, pedidos de servicio y proyectos.
 
 También puede crear una nueva dirección. De forma predeterminada, la nueva dirección se transfiere al proyecto. Sin embargo, puede especificar que la nueva dirección solo sea pertinente para esta instancia del servicio. Si lo hace, la nueva dirección no se transfiere al proyecto.
 

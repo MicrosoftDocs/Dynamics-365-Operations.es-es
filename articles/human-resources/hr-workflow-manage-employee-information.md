@@ -1,6 +1,6 @@
 ---
 title: Utilizar flujos de trabajo para administrar la información sobre los empleados
-description: Este tema explica cómo puede usar los flujos de trabajo para administrar la información de los empleados.
+description: Este artículo explica cómo puede usar los flujos de trabajo para administrar la información de los empleados.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908812"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizar flujos de trabajo para administrar la información sobre los empleados
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691537"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema explica cómo puede utilizar la capacidad del flujo de trabajo para que Recursos Humanos administre la información sobre los empleados. Por ejemplo, puede asociar un flujo de trabajo a un puesto y configurar un flujo de trabajo de aprobación que se inicia cuando los empleados cambian su registro.
+Este artículo explica cómo puede utilizar la capacidad del flujo de trabajo para que Recursos Humanos administre la información sobre los empleados. Por ejemplo, puede asociar un flujo de trabajo a un puesto y configurar un flujo de trabajo de aprobación que se inicia cuando los empleados cambian su registro.
 
 La capacidad del flujo de trabajo para Recursos Humanos proporciona numeroso flujos de trabajo para gestionar actividades de Recursos Humanos. Asimismo, hay numerosas opciones disponibles para que pueda modificar flujos de trabajo específicos y asociarlos a una jerarquía de informes. Los flujos de trabajo están disponibles para ayudar a gestionar cambios a varios tipos de información sobre los empleados. Puede asociar un flujo de trabajo a un puesto. A continuación, si los empleados cambian su registro de empleado, se inicia un flujo de trabajo que requiere aprobación antes de que se guarde la nueva información. Los flujos de trabajo están predefinidos para los siguientes tipos de información para ayudarle a gestionar de manera eficiente los cambios y mantener preciosos los datos de sus empleados:
 

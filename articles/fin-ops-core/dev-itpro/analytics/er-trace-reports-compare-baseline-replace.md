@@ -1,6 +1,6 @@
 ---
 title: Mejore el seguimiento de los resultados de los informes electrónicos generados para comparar con valores de línea base
-description: Este tema describe las mejoras a la función de referencia de ER en la versión 10.0.3 (junio 2019) de Microsoft Dynamics 365 for Finance and Operations.
+description: Este artículo describe las mejoras a la función de referencia de ER en la versión 10.0.3 (junio 2019) de Microsoft Dynamics 365 for Finance and Operations.
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847412"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Mejore el seguimiento de los resultados de los informes electrónicos generados para comparar con valores de línea base
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describe el primer conjunto de mejoras que se han hecho en la característica de línea base del marco de informes electrónicos (ER). Estas mejoras están disponibles en la versión 10.0.3 de Microsoft Dynamics 365 for Finance and Operations (junio de 2019) y posteriores.
+En este artículo se describe el primer conjunto de mejoras que se han hecho en la característica de línea base del marco de informes electrónicos (ER). Estas mejoras están disponibles en la versión 10.0.3 de Microsoft Dynamics 365 for Finance and Operations (junio de 2019) y posteriores.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizar la configuración de reglas de línea base
 
-En el tema [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md) se explica cómo configurar el marco de ER para recopilar información sobre ejecuciones del formato de ER y evaluar los resultados de esas ejecuciones. El ejemplo de este tema muestra los pasos que se debe completar.
+En el artículo [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md) se explica cómo configurar el marco de ER para recopilar información sobre ejecuciones del formato de ER y evaluar los resultados de esas ejecuciones. El ejemplo de este artículo muestra los pasos que se debe completar.
 
 Estos son algunos de estos pasos:
 
@@ -45,7 +45,7 @@ Estos son algunos de estos pasos:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Ejemplo: Automatizar la configuración de reglas de línea base
 
-Para completar los pasos de este ejemplo, primero debe completar los pasos del ejemplo en el tema [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md), a través de la sección "Agregar una nueva línea base para un formato de ER designado".
+Para completar los pasos de este ejemplo, primero debe completar los pasos del ejemplo en el artículo [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md), a través de la sección "Agregar una nueva línea base para un formato de ER designado".
 
 ### <a name="review-added-baseline"></a>Revisar línea base agregada
 
@@ -80,7 +80,7 @@ Se ha agregado la línea base para el formato seleccionado **Formato para aprend
 
 ### <a name="run-the-format"></a>Ejecutar el formato
 
-Ya está listo para completar el resto de pasos del ejemplo del tema [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md), empezando por la sección "Ejecutar el formato de ER diseñado y revisar el registro para analizar los resultados".
+Ya está listo para completar el resto de pasos del ejemplo del artículo [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md), empezando por la sección "Ejecutar el formato de ER diseñado y revisar el registro para analizar los resultados".
 
 > [!NOTE]
 > Cuando elimine la regla de línea base agregada automáticamente en la ficha desplegable **Líneas base**, los archivos adjuntos a los que se hace referencia no se eliminan automáticamente.
@@ -91,7 +91,7 @@ Cuando un formato de ER se haya diseñado para contener información que se camb
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Ejemplo: Configurar la línea base de modo que ignore constantemente las partes que cambian de la salida de ER
 
-Para completar los pasos de este ejemplo, primero debe completar los pasos del ejemplo en el tema [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md).
+Para completar los pasos de este ejemplo, primero debe completar los pasos del ejemplo en el artículo [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md).
 
 ### <a name="modify-a-configured-er-format"></a>Modificar un formato de ER configurado
 
@@ -142,7 +142,7 @@ Se ha agregado el componente del formato de ER seleccioando a la lista de compon
 
 ### <a name="make-a-new-baseline-rule"></a>Crear una nueva regla de línea base
 
-Siga los pasos de la sección "Ejemplo: Automatizar la configuración de reglas de línea base" descrita anteriormente en este tema. Una notificación le advierte que el archivo de salida se ha generado mediante el uso de la configuración de línea base, y que se ha producido una sustitución forzada de los enlaces de formato.
+Siga los pasos de la sección "Ejemplo: Automatizar la configuración de reglas de línea base" descrita anteriormente en este artículo. Una notificación le advierte que el archivo de salida se ha generado mediante el uso de la configuración de línea base, y que se ha producido una sustitución forzada de los enlaces de formato.
 
 ![Notificación en la página de configuración.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de pantalla de la notificación en la página Configuraciones")
 

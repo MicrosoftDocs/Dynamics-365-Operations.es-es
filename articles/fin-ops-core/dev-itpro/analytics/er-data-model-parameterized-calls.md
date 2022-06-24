@@ -1,6 +1,6 @@
 ---
 title: Admite llamadas parametrizadas de modelos de datos ER
-description: Este tema explica cómo implementar llamadas parametrizadas de modelos de datos de informes electrónicos (ER).
+description: Este artículo explica cómo implementar llamadas parametrizadas de modelos de datos de informes electrónicos (ER).
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884268"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Admite llamadas parametrizadas de modelos de datos ER
 
@@ -160,7 +160,7 @@ Puede especificar cada parámetro de un campo de modelo de datos para el cual el
 > [!NOTE]
 > No se admite el valor predeterminado para el parámetro de un campo de modelo de datos. Si agrega un parámetro a un campo en un modelo de datos y la versión de ese modelo de datos ya se lanzó y publicó, debe [volver a basar](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) todas las asignaciones y formatos de modelo correspondientes a la nueva versión de este modelo, porque este cambio de modelo de datos no es compatible con versiones anteriores.
 
-Puede configurar campos de modelos de datos parametrizados para hacer que las llamadas de mapeo de modelos sean específicas del formato. Este enfoque puede ayudarlo a reducir la cantidad de asignaciones de modelos que deben configurarse para muchos formatos de un solo modelo de datos. También puede utilizar este enfoque para mejorar el rendimiento de ejecución de sus formatos y reducir el tiempo necesario para generar documentos comerciales. Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
+Puede configurar campos de modelos de datos parametrizados para hacer que las llamadas de mapeo de modelos sean específicas del formato. Este enfoque puede ayudarlo a reducir la cantidad de asignaciones de modelos que deben configurarse para muchos formatos de un solo modelo de datos. También puede utilizar este enfoque para mejorar el rendimiento de ejecución de sus formatos y reducir el tiempo necesario para generar documentos comerciales. Para obtener más información acerca de esta característica, complete el ejemplo de este artículo.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Ejemplo: Use llamadas parametrizadas de modelos de datos ER
 

@@ -1,6 +1,6 @@
 ---
 title: Id. de registro
-description: Este tema proporciona información acerca de la configuración y el uso de Id. de registro.
+description: Este artículo proporciona información acerca de la configuración y el uso de Id. de registro.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883086"
 ---
 # <a name="registration-ids"></a>Id. de registro
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la configuración y el uso de Id. de registro.
+Este artículo proporciona información acerca de la configuración y el uso de Id. de registro.
 
-Muchos países y regiones tienen diferentes normativas y requisitos para registrar números de registro o Id. Este tema proporciona una visión general de la configuración y el procesamiento requeridos para los tipos de registro admitidos para las partes en los distintos países/regiones europeos. Todos los países/regiones tienen requisitos propios para admitir las distintas funciones específicas del país relacionadas con los números de registro suministrados por las distintas oficinas de Estado. Ejemplos de los números de registro son: el número de la Seguridad Social (SSN), el número de identificación fiscal (TIN), y la identificación Europea de IVA (identificador de IVA de la UE). Esta característica proporciona un marco unificado para todos los países en todas las regiones y tiene en cuenta los requisitos específicos de algunos países europeos. Las siguientes secciones describen el flujo general de información que se utiliza para configurar y procesar los Id. de registro.
+Muchos países y regiones tienen diferentes normativas y requisitos para registrar números de registro o Id. Este artículo proporciona una visión general de la configuración y el procesamiento requeridos para los tipos de registro admitidos para las partes en los distintos países/regiones europeos. Todos los países/regiones tienen requisitos propios para admitir las distintas funciones específicas del país relacionadas con los números de registro suministrados por las distintas oficinas de Estado. Ejemplos de los números de registro son: el número de la Seguridad Social (SSN), el número de identificación fiscal (TIN), y la identificación Europea de IVA (identificador de IVA de la UE). Esta característica proporciona un marco unificado para todos los países en todas las regiones y tiene en cuenta los requisitos específicos de algunos países europeos. Las siguientes secciones describen el flujo general de información que se utiliza para configurar y procesar los Id. de registro.
 
 ## <a name="registration-type-creation"></a>Creación de tipo de registro
 Para poder especificar el Id. de registro, debe configurar tipos de registro para los diversos tipos de números de registro a los que está sujeta cada parte. Vaya a la página **Administración de la organización** &gt; **Libreta de direcciones global** &gt; **Tipos de registro** &gt; **Tipos de registro** para crear y gestionar los tipos de registro para proveedores, clientes, trabajadores, y entidades jurídicas en distintos países o regiones.
@@ -51,7 +51,7 @@ La categoría del registro es un identificador de registro de país/región apro
 |-----------------------|----------------|
 | Tipo de registro     | El tipo de registro en un país/región particular.|
 | Restringido a         | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
-| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa de categorías admitidas se muestra más adelante en este tema. |
+| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa de categorías admitidas se muestra más adelante en este artículo. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
 

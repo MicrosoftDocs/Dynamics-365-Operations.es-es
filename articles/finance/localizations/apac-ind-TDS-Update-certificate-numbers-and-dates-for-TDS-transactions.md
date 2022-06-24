@@ -1,6 +1,6 @@
 ---
 title: Actualizar números y fechas de certificados para transacciones de TDS
-description: Este tema explica cómo actualizar los certificados recuperables para registrar los números y las fechas de los certificados que se registraron para cuentas de proveedor, cliente y contables con impuestos deducidos en el origen (TDS).
+description: Este artículo explica cómo actualizar los certificados recuperables para registrar los números y las fechas de los certificados que se registraron para cuentas de proveedor, cliente y contables con impuestos deducidos en el origen (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724822"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904452"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Actualizar números y fechas de certificados para transacciones de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo actualizar los certificados recuperables para registrar los números y las fechas de los certificados que se registraron para cuentas de proveedor, cliente y contables con impuestos deducidos en el origen (TDS). Puede ver los certificados para transacciones de TDS en la página **Certificados recuperables**. Puede actualizar los certificados utilizando el la página **Actualizar certificados**.
+Este artículo explica cómo actualizar los certificados recuperables para registrar los números y las fechas de los certificados que se registraron para cuentas de proveedor, cliente y contables con impuestos deducidos en el origen (TDS). Puede ver los certificados para transacciones de TDS en la página **Certificados recuperables**. Puede actualizar los certificados utilizando el la página **Actualizar certificados**.
 
 Siga estos pasos para actualizar los números y fechas de certificados para transacciones de TDS.
 

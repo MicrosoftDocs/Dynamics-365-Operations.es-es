@@ -1,6 +1,6 @@
 ---
 title: Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
-description: Este tema proporciona una descripción general de las mejoras que proporcionan un cambio sin conexión perfecto para tipos de pago específicos.
+description: Este artículo proporciona una descripción general de las mejoras que proporcionan un cambio sin conexión perfecto para tipos de pago específicos.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869170"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
 
 [!include [banner](../includes/banner.md)]
 
-Si un dispositivo de punto de venta (PDV) pierde su conexión con la base de datos del canal, la mayoría de las operaciones y transacciones PDV que estaban en curso pueden continuar después de que el cajero recibe un mensaje de advertencia sobre la pérdida de conectividad. Sin embargo, en algunos casos, las transacciones tienen elementos que dependen del servicio en tiempo real, y esos elementos no son compatibles cuando el PDV está fuera de línea. Este tema describe algunas funcionalidades que ayudan a reducir el impacto de la conectividad perdida en estos escenarios.
+Si un dispositivo de punto de venta (PDV) pierde su conexión con la base de datos del canal, la mayoría de las operaciones y transacciones PDV que estaban en curso pueden continuar después de que el cajero recibe un mensaje de advertencia sobre la pérdida de conectividad. Sin embargo, en algunos casos, las transacciones tienen elementos que dependen del servicio en tiempo real, y esos elementos no son compatibles cuando el PDV está fuera de línea. Este artículo describe algunas funcionalidades que ayudan a reducir el impacto de la conectividad perdida en estos escenarios.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Completar transacciones de tarjeta regalo en modo sin conexión
 
@@ -50,7 +50,7 @@ Para habilitar la funcionalidad para concluir transacciones de notas de crédito
 
 Los parámetros de Commerce generalmente se almacenan en caché. Por lo tanto, una vez que se actualiza la configuración de este parámetro y se inicia la programación de distribución para sincronizar el cambio en el canal, el cambio puede tardar hasta 24 horas en surtir efecto. Para que el cambio sea efectivo de inmediato, reinicie IIS.
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 - [Funcionalidad sin conexión de punto de venta (PDV)](../pos-offline-functionality.md)
 - [Operaciones de punto de venta (PDV) en línea y sin conexión](../pos-operations.md)

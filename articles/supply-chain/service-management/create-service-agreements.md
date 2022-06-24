@@ -1,6 +1,6 @@
 ---
 title: Crear acuerdos de servicios
-description: Este tema describe cómo utilizar funciones en los módulos Gestión de servicio y Gestión de proyectos y contabilidad para crear contratos de servicio.
+description: Este artículo describe cómo utilizar funciones en los módulos Gestión de servicio y Gestión de proyectos y contabilidad para crear contratos de servicio.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901774"
 ---
 # <a name="create-service-agreements"></a>Crear acuerdos de servicios
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo utilizar funciones en los módulos Gestión de servicio y Gestión de proyectos y contabilidad para crear contratos de servicio.
+Este artículo describe cómo utilizar funciones en los módulos Gestión de servicio y Gestión de proyectos y contabilidad para crear contratos de servicio.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Crear un acuerdo de servicio a partir de la gestión de servicio
 
@@ -51,10 +51,10 @@ Este tema describe cómo utilizar funciones en los módulos Gestión de servicio
 2. Seleccione **Todos los proyectos**.
 3. Seleccione el proyecto de la lista.
 4. En el **Panel de acciones**, seleccione **Administrar**. En el grupo de acción **Nuevo**, seleccione **Servicio** y seleccione **Contrato de servicio**.
-5. Siga los pasos en la sección titulada **Crear un contrato de servicio** según lo descrito anteriormente en este tema para introducir la referencia del proyecto.
+5. Siga los pasos en la sección titulada **Crear un contrato de servicio** según lo descrito anteriormente en este artículo para introducir la referencia del proyecto.
 
 
-## <a name="related-topics"></a>Temas relacionados
+## <a name="related-articles"></a>Artículos relacionados
 
 [Visión general del desarrollo y establecimiento de acuerdos de servicio](service-agreements.md)
 

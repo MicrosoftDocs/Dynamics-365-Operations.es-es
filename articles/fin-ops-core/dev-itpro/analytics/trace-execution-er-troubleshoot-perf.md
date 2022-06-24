@@ -1,6 +1,6 @@
 ---
 title: Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento
-description: Este tema proporciona información acerca de cómo utilizar la función de seguimiento del rendimiento en los informes electrónicos (ER) para solucionar problemas de rendimiento.
+description: Este artículo proporciona información acerca de cómo utilizar la función de seguimiento del rendimiento en los informes electrónicos (ER) para solucionar problemas de rendimiento.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851962"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Seguir la ejecución de formatos de ER para solucionar problemas de rendimiento
 
@@ -305,27 +305,27 @@ También puede ser útil reducir el número de llamadas que se realizan al orige
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importe la configuración de modificación asignación del modelo de ER de RCS en la aplicación
 
-Repita los pasos de la sección anterior [Importar una configuración de ER desde RCS a Finance and Operations](#import-configuration) en este tema para importar la versión 1.2 de la configuración del **Seguimiento del rendimiento de la distribución**.
+Repita los pasos de la sección anterior [Importar una configuración de ER desde RCS a finanzas y operaciones](#import-configuration) en este artículo para importar la versión 1.2 de la configuración del **Seguimiento del rendimiento de la distribución**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Ejecute la solución modificada de ER para realizar un seguimiento de la ejecución
 
 ### <a name="run-the-er-format"></a>Ejecutar formato del ER
 
-Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este tema para generar un nuevo seguimiento del rendimiento.
+Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este artículo para generar un nuevo seguimiento del rendimiento.
 
 ## <a name="work-with-the-execution-trace"></a>Trabajar con el seguimiento de ejecución
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Exporta el seguimiento generado de la aplicación
 
-Repita los pasos de la sección anterior [Exportar el seguimiento generado desde la aplicación](#export-trace) en este tema para guardar localmente un seguimiento del rendimiento nuevo.
+Repita los pasos de la sección anterior [Exportar el seguimiento generado desde la aplicación](#export-trace) en este artículo para guardar localmente un seguimiento del rendimiento nuevo.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Importar el seguimiento generado a RCS
 
-Repita los pasos de la sección anterior [Importar el seguimiento generado a RCS](#import-trace) en este tema para importar el seguimiento del rendimiento nuevo a RCS.
+Repita los pasos de la sección anterior [Importar el seguimiento generado a RCS](#import-trace) en este artículo para importar el seguimiento del rendimiento nuevo a RCS.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Usar el seguimiento de rendimiento para el análisis en RCS – Distribución del modelo
 
-Repita los pasos de la sección anterior [Usar el seguimiento del rendimiento para análisis en RCS - Distribución del modelo](#use-trace) en este tema para analizar el último seguimiento del rendimiento.
+Repita los pasos de la sección anterior [Usar el seguimiento del rendimiento para análisis en RCS - Distribución del modelo](#use-trace) en este artículo para analizar el último seguimiento del rendimiento.
 
 Observe que los ajustes que realizó en la distribución de modelo han eliminado las consultas duplicadas en la base de datos. El número de llamadas a las tablas de base de datos y de orígenes de datos para esta distribución de modelo también se ha reducido. Por lo tanto, el rendimiento de la solución completa de ER ha mejorado.
 
@@ -355,7 +355,7 @@ Si usa una de estas versiones, puede analizar los detalles de seguimientos gener
 
 ### <a name="run-the-er-format"></a>Ejecutar formato del ER
 
-Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este tema para generar un nuevo seguimiento del rendimiento.
+Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este artículo para generar un nuevo seguimiento del rendimiento.
 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER.
 
@@ -379,7 +379,7 @@ Debido a mejoras que se han realizado en el marco de ER, el seguimiento del rend
 
 ### <a name="run-the-er-format"></a>Ejecutar formato del ER
 
-Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este tema para generar un nuevo seguimiento del rendimiento.
+Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este artículo para generar un nuevo seguimiento del rendimiento.
 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER. Este seguimiento ahora incluye los detalles del acceso a la base de datos SQL durante la ejecución del formato de ER.
 

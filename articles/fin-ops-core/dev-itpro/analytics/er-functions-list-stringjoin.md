@@ -1,6 +1,6 @@
 ---
 title: Función STRINGJOIN de ER
-description: En este tema se proporciona información sobre cómo usar la función STRINGJOIN de informes electrónicos (ER).
+description: En este artículo se proporciona información sobre cómo usar la función STRINGJOIN de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 651cc261e6a33b1a824feb94afa767e439196e249bb13b0fc4886dc72bfdd184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08ed76f4dc61ed8afd63ffe99cead4866b63aba9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908514"
 ---
 # <a name="stringjoin-er-function"></a>Función STRINGJOIN de ER
 

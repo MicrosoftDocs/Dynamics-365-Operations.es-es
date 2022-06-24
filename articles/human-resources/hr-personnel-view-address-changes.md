@@ -1,6 +1,6 @@
 ---
 title: Ver y administrar cambios de dirección
-description: En este tema se explica cómo puede ver y administrar los cambios de dirección en Dynamics 365 Human Resources.
+description: En este artículo se explica cómo puede ver y administrar los cambios de dirección en Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695856"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899596"
 ---
 # <a name="view-and-manage-address-changes"></a>Ver y administrar cambios de dirección
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695856"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tema explica cómo puede ver y administrar los cambios de dirección en la página **Editar datos personales** (que se abre desde el área de trabajo **Autoservicio para empleados**) o la página de detalles **Trabajador** en Dynamics 365 Human Resources.
+Este artículo explica cómo puede ver y administrar los cambios de dirección en la página **Editar datos personales** (que se abre desde el área de trabajo **Autoservicio para empleados**) o la página de detalles **Trabajador** en Dynamics 365 Human Resources.
 
 Muchas organizaciones quieren que los empleados administren sus propios datos personales a través de una experiencia de autoservicio. Puede permitir que los usuarios actualicen su dirección en el espacio de trabajo **Autoservicio para empleados**. Puede supervisar estos cambios en el espacio de trabajo **Administración de personal**. Para utilizar esta función, debe especificar el número de días que desea ver los cambios en la página **Parámetros de Recursos Humanos**.
 

@@ -1,8 +1,8 @@
 ---
 title: Personalizar la experiencia del usuario
-description: Este tema explica cómo puede personalizar la aplicación.
+description: Este artículo explica cómo puede personalizar la aplicación.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8603001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845453"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -28,7 +28,7 @@ ms.locfileid: "8603001"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-En este tema explica cómo puede personalizar la aplicación y se cubren los siguientes temas: 
+En este artículo explica cómo puede personalizar la aplicación y se cubren los siguientes temas: 
 
 - **Opciones de todo el sistema**: estas opciones de personalización se realizan en una página de configuración y están disponibles para todos los usuarios. Los ejemplos incluyen el tema de colores y la zona horaria. 
 - **Acceso restringido a la personalización**: en este nivel de acceso, las acciones del usuario asociadas con el uso típico de la página se guardan automáticamente por la aplicación y se restauran la próxima vez que visite la página. Por ejemplo, la aplicación guarda el ancho de las columnas de cuadrícula si las ajusta, y el estado de expandido o contraído de las fichas desplegables. 
@@ -58,7 +58,7 @@ Aquí hay una lista de las acciones que se incluyen en el uso típico de la pág
 
 - **Anchos de columnas de cuadrícula**: puede ajustar el ancho de una columna en una cuadrícula seleccionando la barra de tamaño de la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta que la columna tenga el ancho que desee. La aplicación almacena el ancho que establece para una columna. A continuación, la próxima vez que abre esa página, cambia el tamaño de la columna.
 - **Totales de columna y pie de la cuadrícula**: *(solo disponible cuando el nuevo control de cuadrícula se habilita)*. Puede decidir si se debe mostrar o no un total en la parte inferior de cualquier columna numérica en una cuadrícula, y si debe estar visible el pie de página de la cuadrícula. La aplicación almacena estas preferencias y las aplica la próxima vez que abra la página. Para obtener más información, consulte [Funcionalidades de cuadrícula](grid-capabilities.md). 
-- **Fichas Desplegables**: algunas páginas tienen secciones extensibles llamadas *Fichas Desplegables*. La aplicación almacena información sobre las fichas desplegables que usted ha expandido o contraído. La próxima vez que abra la página, las mismas fichas desplegables se ampliarán o contraerán en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo una ficha desplegable, porque la aplicación no tiene que recuperar información para dicha ficha desplegable hasta que se extienda. Como se explica más adelante en este tema, también puede cambiar el orden de las fichas desplegables de una página.
+- **Fichas Desplegables**: algunas páginas tienen secciones extensibles llamadas *Fichas Desplegables*. La aplicación almacena información sobre las fichas desplegables que usted ha expandido o contraído. La próxima vez que abra la página, las mismas fichas desplegables se ampliarán o contraerán en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo una ficha desplegable, porque la aplicación no tiene que recuperar información para dicha ficha desplegable hasta que se extienda. Como se explica más adelante en este artículo, también puede cambiar el orden de las fichas desplegables de una página.
 - **Cuadros informativos**: algunas páginas tienen un panel de **información relacionada** que muestra la información de solo lectura relacionada con el asunto actual de la página. Cada sección del panel **Información relacionada** se conoce como *cuadro informativo*. Puede ocultar o mostrar el panel **Información relacionada** y también puede ampliar o contraer cuadros informativos individuales. La aplicación almacena estas preferencias. La próxima vez que abra a la página, se expandirán o contraerán el panel **información relacionada** y los cuadros informativos individuales, en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo un panel o cuadro informativo de **Información relacionada**, porque la aplicación no tiene que recuperar información para dichos cuadros informativos hasta que se extiendan.
 - **Paneles de acciones** – Un *panel Acciones* aparece cerca de la parte superior de la mayoría de las páginas. El panel Acciones contiene botones para muchas de las acciones que puede realizar en la página actual. Estos botones se organizan a menudo en fichas. Puede *anclar* el panel Acciones abierto completo o puede contraerlo de forma predeterminada. A continuación, cada vez que abra la página, el panel Acciones se abrirá o contraerá en función de su última interacción con la página. Si ha anclado el panel Acciones abierto, aparecerá la última ficha que había utilizado.
 - **Filtros rápidos** – Un *filtro rápido* aparece sobre muchas cuadrículas. El filtro rápido le permite filtrar la cuadrícula, en función de una sola columna seleccionada. La aplicación almacena la columna en la que ha aplicado el filtro. A continuación, la próxima vez que abra esa página, la cuadrícula utilizará esta misma columna para filtrar de forma predeterminada. Sin embargo, puede seleccionar una columna diferente para filtrar la cuadrícula.
@@ -173,14 +173,14 @@ A partir de la versión 10.0.26, la función **Permitir que los usuarios selecci
 
 ### <a name="personalizing-your-dashboard"></a>Personalización del panel de información
 
-El panel de información suele ser la primera página que verá al abrir la aplicación. Se puede personalizar como cualquier otra página del sistema, utilizando los mismos mecanismos que se describen anteriormente en este tema. 
+El panel de información suele ser la primera página que verá al abrir la aplicación. Se puede personalizar como cualquier otra página del sistema, utilizando los mismos mecanismos que se describen anteriormente en este artículo. 
 
 > [!WARNING]
 > Actualmente, cuando oculta contenido en el panel de información, es importante que apunte directamente a un icono, no al espacio a su alrededor. Si oculta el grupo alrededor de un icono, podría haber resultados inesperados si se agregan más mosaicos más tarde, o si el sistema se cambia a un idioma diferente.
 
 Una funcionalidad de personalización única que está disponible en el tablero es la capacidad de agregar iconos. 
 
-- Si la característica **Aplicaciones de página completa** está desactivada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, iconos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, iconos, listas y vínculos a los espacios de trabajo](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) de este tema.
+- Si la característica **Aplicaciones de página completa** está desactivada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, iconos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, iconos, listas y vínculos a los espacios de trabajo](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) de este artículo.
 - Si la característica **Aplicaciones de página completa** está activada, los iconos nuevos se agregan haciendo clic con el botón derecho en un elemento en el panel de información y luego seleccionando **Agregar una aplicación**. En el cuadro de diálogo, seleccione si desea agregar un icono para un nuevo espacio de trabajo o un icono que tenga contenido de Power Apps o un sitio web. Luego, siga los pasos para configurar la opción que seleccionó. Se creará un nuevo icono en la parte inferior del panel de información. Para obtener más información sobre cómo agregar, editar, eliminar y compartir estas aplicaciones integradas, consulte [Insertar aplicaciones de lienzo desde Power Apps](embed-power-apps.md) e [Insertar aplicaciones de terceros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Uso compartido de personalizaciones
@@ -236,7 +236,7 @@ Otra forma de compartir personalizaciones es mediante la exportación y la impor
 
 #### <a name="export"></a>Exportar
 
-En general, puede exportar una de sus propias vistas o personalizaciones abriendo la página correspondiente, abriendo la barra de herramientas **Personalización** y luego seleccionando **Exportar**. Para obtener más información sobre la barra de herramientas, consulte la sección [Barra de herramientas de personalización](#personalization-toolbar) anteriormente en este tema. Alternativamente, si están habilitadas las [vistas guardadas](saved-views.md), puede ir a **Configuración \> Opciones de usuario \> Personalización** para ver una lista de todas sus personalizaciones en el sistema. Desde allí, puede seleccionar las vistas o personalizaciones para exportar y luego seleccionar **Exportar**.
+En general, puede exportar una de sus propias vistas o personalizaciones abriendo la página correspondiente, abriendo la barra de herramientas **Personalización** y luego seleccionando **Exportar**. Para obtener más información sobre la barra de herramientas, consulte la sección [Barra de herramientas de personalización](#personalization-toolbar) anteriormente en este artículo. Alternativamente, si están habilitadas las [vistas guardadas](saved-views.md), puede ir a **Configuración \> Opciones de usuario \> Personalización** para ver una lista de todas sus personalizaciones en el sistema. Desde allí, puede seleccionar las vistas o personalizaciones para exportar y luego seleccionar **Exportar**.
 
 Además, los administradores pueden exportar las personalizaciones de otros usuarios siguiendo estos pasos.
 
@@ -277,7 +277,7 @@ Si las vistas guardadas no están habilitadas, siga estos pasos.
 
 La página **Personalización** es el centro de administración de personalizaciones a nivel de la organización. El contenido y las capacidades de esta página dependen de si se ha habilitado la característica **Vistas guardadas**.
 
-Para clientes que han activado la característica **Vistas guardadas**, consulte la sección "Gestión global de vistas" en el tema [Vistas guardadas](saved-views.md).
+Para clientes que han activado la característica **Vistas guardadas**, consulte la sección "Gestión global de vistas" en el artículo [Vistas guardadas](saved-views.md).
 
 Para los clientes que no hayan activado aún la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro fichas:
 
@@ -285,6 +285,9 @@ Para los clientes que no hayan activado aún la característica [Vistas guardada
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
 - **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
 - **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
+
+### <a name="service-updates-and-personalization"></a>Actualizaciones y personalización del servicio
+No es necesario eliminar o restablecer los datos de personalización al pasar a una nueva versión del producto. Las personalizaciones y los datos de vistas guardadas seguirán funcionando en todas las actualizaciones. Las excepciones a esto incluirían cambios en el propio formulario que invalidan una personalización (como un control eliminado) o cambios en la consulta base del formulario que cambia su árbol secundario de origen de datos para que ya no coincida con el árbol secundario de origen de datos asociado con la consulta de vista.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalización de dimensiones de inventario
 

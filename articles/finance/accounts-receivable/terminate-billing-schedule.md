@@ -1,6 +1,6 @@
 ---
 title: Dar de baja los programas de facturación
-description: Este tema explica cómo dar de baja los programas de facturación y sus líneas en la facturación de suscripción.
+description: Este artículo explica cómo dar de baja los programas de facturación y sus líneas en la facturación de suscripción.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e823ce950d6a4687dc7cda14e06bffdbb4f37f7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872568"
 ---
 # <a name="terminate-billing-schedules"></a>Dar de baja los programas de facturación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo dar de baja los programas de facturación y sus líneas en la facturación de suscripción. Al dar de baja un programa de facturación, debe tener el estado **Activo**. No puede tener un estado de **En espera**. Del mismo modo, al dar de baja una línea de programa de facturación, debe tener el estado **Activo**. La sección de encabezado del programa de facturación no se ve afectada cuando da de baja una línea del programa de facturación.
+Este artículo explica cómo dar de baja los programas de facturación y sus líneas en la facturación de suscripción. Al dar de baja un programa de facturación, debe tener el estado **Activo**. No puede tener un estado de **En espera**. Del mismo modo, al dar de baja una línea de programa de facturación, debe tener el estado **Activo**. La sección de encabezado del programa de facturación no se ve afectada cuando da de baja una línea del programa de facturación.
 
 Para dar de baja un programa de facturación o una línea de programa de facturación, vaya a uno de los siguientes lugares:
 

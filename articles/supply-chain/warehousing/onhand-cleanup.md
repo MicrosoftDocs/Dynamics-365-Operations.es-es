@@ -1,6 +1,6 @@
 ---
 title: Trabajo de limpieza de entradas disponibles de gestión de almacén
-description: Este tema describe el trabajo de limpieza de entradas disponibles, que ayuda a mejorar el rendimiento del sistema al identificar y eliminar registros relacionados pero innecesarios.
+description: Este artículo describe el trabajo de limpieza de entradas disponibles, que ayuda a mejorar el rendimiento del sistema al identificar y eliminar registros relacionados pero innecesarios.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900517"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103872"
 
 El rendimiento de las consultas que se utilizan para calcular el inventario disponible se ve afectado por el número de registros en las tablas involucradas. Una forma de ayudar a mejorar el rendimiento es reducir el número de registros que la base de datos debe tener en cuenta.
 
-Este tema describe el trabajo de limpieza de entradas disponibles, que elimina registros innecesarios en las tablas InventSum y WHSInventReserve. Estas tablas almacenan información disponible para artículos que están habilitados para el procesamiento de gestión de almacenes. (Estos elementos se denominan elementos WHS). La eliminación de estos registros puede mejorar significativamente el rendimiento de los cálculos disponibles.
+Este artículo describe el trabajo de limpieza de entradas disponibles, que elimina registros innecesarios en las tablas InventSum y WHSInventReserve. Estas tablas almacenan información disponible para artículos que están habilitados para el procesamiento de gestión de almacenes. (Estos elementos se denominan elementos WHS). La eliminación de estos registros puede mejorar significativamente el rendimiento de los cálculos disponibles.
 
 ## <a name="what-the-cleanup-job-does"></a>Qué hace el trabajo de limpieza
 

@@ -1,6 +1,6 @@
 ---
 title: Grupos de revalorización de activos fijos
-description: Este tema proporciona información acerca de la revalorización de activos fijos para España.
+description: Este artículo proporciona información acerca de la revalorización de activos fijos para España.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 12c83dc3f5a813083413f04a1f17ffbb159323c557e7d7d571c8df220a3880a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5fcd4db95b97577d8002a19673b19852b5801ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855314"
 ---
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la revalorización de activos fijos para España.
+Este artículo proporciona información acerca de la revalorización de activos fijos para España.
 
 Los grupos de revalorización se usan para configurar condiciones de revalorización para el activo fijo. Por ejemplo, el grupo de revalorización podría ser un factor o una fecha de revalorización. El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización. Para revalorizar un activo fijo debe especificar el grupo de revalorización en la página **Libros**. El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización.
 

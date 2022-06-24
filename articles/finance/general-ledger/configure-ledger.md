@@ -1,6 +1,6 @@
 ---
 title: Configurar libros de contabilidad
-description: Este tema proporciona información sobre cómo configurar libros contables para cada entidad jurídica. Incluye información sobre cómo seleccionar las divisas, los calendarios fiscales, el plan de cuentas y las estructuras de cuentas que deben usarse con cada entidad jurídica.
+description: Este artículo proporciona información sobre cómo configurar libros contables para cada entidad jurídica. Incluye información sobre cómo seleccionar las divisas, los calendarios fiscales, el plan de cuentas y las estructuras de cuentas que deben usarse con cada entidad jurídica.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864350"
 ---
 # <a name="configure-ledgers"></a>Configurar libros de contabilidad
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre cómo configurar libros contables para cada entidad jurídica. Incluye información sobre cómo seleccionar las divisas, los calendarios fiscales, el plan de cuentas y las estructuras de cuentas que deben usarse con cada entidad jurídica.
+Este artículo proporciona información sobre cómo configurar libros contables para cada entidad jurídica. Incluye información sobre cómo seleccionar las divisas, los calendarios fiscales, el plan de cuentas y las estructuras de cuentas que deben usarse con cada entidad jurídica.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Selección del plan de cuentas
 

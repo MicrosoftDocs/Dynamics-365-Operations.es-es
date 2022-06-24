@@ -1,6 +1,6 @@
 ---
 title: Sistema de ayuda (contiene video)
-description: Este tema proporciona una visión general del sistema de ayuda para las aplicaciones de Finance and Operations.
+description: Este artículo proporciona una visión general del sistema de ayuda para las aplicaciones de finanzas y operaciones.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898380"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -70,7 +70,7 @@ Alternativamente, puede suscribirse a una fuente RSS por aplicación:
 
 ### <a name="leave-us-feedback"></a>Envíenos sus comentarios
 
-Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte inferior de la página.
+Si tiene opiniones o preguntas sobre un artículo, déjenos un comentario en la parte inferior de la página.
 
 1. Seleccione **Comentarios** para ir a los comentarios de la parte inferior de la página. Luego, seleccione **Comentarios del producto** o **Iniciar sesión para enviar comentarios sobre la documentación**.
 
@@ -83,7 +83,7 @@ Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte
 
 ## <a name="contribute-to-the-documentation"></a>Contribuir a la documentación
 
-Puede contribuir y hacer ediciones a la documentación. Para empezar, seleccione el botón **Editar** (símbolo de lápiz) en un tema. El siguiente vídeo muestra cómo puede contribuir a nuestra documentación.
+Puede contribuir y hacer ediciones a la documentación. Para empezar, seleccione el botón **Editar** (símbolo de lápiz) en un artículo. El siguiente vídeo muestra cómo puede contribuir a nuestra documentación.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Para obtener más información, consulte la [Guía del colaborador de documentos
 
 Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel **Ayuda**. Al seleccionar por primera vez una guía de tareas, el panel **Ayuda** mostrará instrucciones detalladas para la tarea. Están disponibles guías de tareas localizadas.
 
-Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 for Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este tema explica cómo buscar las guías de tareas correctas para su producto.
+Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 for Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este artículo explica cómo buscar las guías de tareas correctas para su producto.
 
 ![Vista de lectura de la guía de tareas.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Para acceder al contenido de la ayuda, seleccione el botón **Ayuda** (**?**) y 
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a temas de ayuda desde el panel Ayuda
 
-En el panel **Ayuda**, puede acceder a temas que se aplican al cliente. Al abrir el panel **Ayuda** por primera vez, la pestaña **Ayuda** muestra los temas que se aplican a la página en la que se encuentra actualmente. Si no se encuentran temas, puede escribir palabras clave para limitar la búsqueda. Cuando selecciona un tema en el panel **Ayuda**, se abre en una nueva pestaña del navegador.
+En el panel **Ayuda**, puede acceder a temas que se aplican al cliente. Al abrir el panel **Ayuda** por primera vez, la pestaña **Ayuda** muestra los temas que se aplican a la página en la que se encuentra actualmente. Si no se encuentran temas, puede escribir palabras clave para limitar la búsqueda. Cuando selecciona un artículo en el panel **Ayuda**, se abre en una nueva pestaña del navegador.
 
 > [!IMPORTANT]
 > Esta sección no se aplica a Dynamics 365 Human Resources. El sistema Ayuda de Recursos humanos se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Recursos humanos.

@@ -1,6 +1,6 @@
 ---
 title: Pedidos de clientes en el punto de venta (PDV)
-description: Este tema proporciona información sobre los pedidos de clientes en el punto de venta (PDV). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
+description: Este artículo proporciona información sobre los pedidos de clientes en el punto de venta (PDV). Los pedidos de cliente también se conocen como pedidos especiales. El artículo incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850391"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pedidos de clientes en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre cómo crear y administrar pedidos de clientes en la aplicación de punto de venta (PDV). Los pedidos de los clientes se pueden utilizar para capturar las ventas en las que los compradores desean recoger productos en una fecha posterior, recoger productos de una ubicación diferente o que se les envían artículos. 
+Este artículo proporciona información sobre cómo crear y administrar pedidos de clientes en la aplicación de punto de venta (PDV). Los pedidos de los clientes se pueden utilizar para capturar las ventas en las que los compradores desean recoger productos en una fecha posterior, recoger productos de una ubicación diferente o que se les envían artículos. 
 
 En un mundo de comercio onmicanal, muchos minoristas ofrecen la opción de pedidos de cliente, o pedidos especiales, para cumplir diferentes requisitos de producto y de cumplimiento. Aquí hay algunas situaciones habituales:
 

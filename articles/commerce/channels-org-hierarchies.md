@@ -1,6 +1,6 @@
 ---
 title: Configurar jerarquías organizativas
-description: En este tema se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01ba05566e966eb62a4df0b7b97ee3a442027936
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847689"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar jerarquías organizativas
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
+En este artículo se describe cómo configurar jerarquías organizativas en Microsoft Dynamics 365 Commerce.
 
 Antes de crear canales, debe asegurarse de configurar sus jerarquías organizativas.
 
@@ -34,8 +34,8 @@ Puede usar jerarquías organizativas para ver e informar de su negocio desde dif
 Antes de crear una jerarquía organizativa debe crear organizaciones. Para obtener más información, consulte [Crear entidades jurídicas](channels-legal-entities.md) o [Crear unidades operativas](../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json).
 
 
-Para obtener más información, consulte los siguientes temas.
-- [Visión general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+Para obtener más información, consulte los siguientes artículos.
+- [Información general de las organizaciones y las jerarquías organizativas](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 - [Planificar su jerarquía organizativa](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 - [Crear una jerarquía organizativa](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 

@@ -1,6 +1,6 @@
 ---
 title: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
-description: Este tema presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes.
+description: Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863632"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes. Esto lo realiza normalmente un empleado de recepción.
+Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes. Esto lo realiza normalmente un empleado de recepción.
 
 ## <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Para trabajar en este escenario utilizando los registros de muestra y los valores especificados en este tema, debe utilizar un sistema en el que estén instalados los datos de demostración estándar y debe seleccionar la entidad jurídica *USMF* antes de comenzar.
+Para trabajar en este escenario utilizando los registros de muestra y los valores especificados en este artículo, debe utilizar un sistema en el que estén instalados los datos de demostración estándar y debe seleccionar la entidad jurídica *USMF* antes de comenzar.
 
 En su lugar, puede trabajar en este escenario sustituyendo valores de sus propios datos siempre que tenga los siguientes datos disponibles:
 

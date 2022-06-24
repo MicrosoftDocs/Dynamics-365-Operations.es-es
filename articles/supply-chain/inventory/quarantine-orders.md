@@ -1,6 +1,6 @@
 ---
-title: Órdenes de cuarentena
-description: Este tema describe cómo se usan los pedidos de cuarentena para bloquear inventario.
+title: Pedidos de cuarentena
+description: Este artículo describe cómo se usan los pedidos de cuarentena para bloquear inventario.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869673"
 ---
-# <a name="quarantine-orders"></a>Órdenes de cuarentena
+# <a name="quarantine-orders"></a>Pedidos de cuarentena
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo se usan los pedidos de cuarentena para bloquear inventario.
+Este artículo describe cómo se usan los pedidos de cuarentena para bloquear inventario.
 
 Los pedidos de cuarentena le permiten bloquear inventario. Por ejemplo, puede que desee poner en cuarentena los artículos por motivos de control de calidad. El inventario que se ha puesto en cuarentena se transfiere a un almacén de cuarentena.
 

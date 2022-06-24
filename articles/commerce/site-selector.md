@@ -1,6 +1,6 @@
 ---
 title: Módulo de selector de sitios
-description: En este tema se trata el modulo de selector de sitios y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este artículo se trata el modulo de selector de sitios y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884612"
 ---
 # <a name="site-picker-module"></a>Módulo de selector de sitios
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo de selector de sitios y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se trata el modulo de selector de sitios y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Cuando una empresa tiene diferentes sitios en mercados, regiones y locales, los usuarios del sitio necesitan una forma fácil de cambiar entre sitios y seleccionar su sitio de compras preferido. Para hacer posible este escenario, el módulo de selector de sitios permite a los usuarios navegar en varios sitios. También se recomienda un selector de sitios cuando la [geodetección y redirección](geo-detection-redirection.md) se hayan implementado para su sitio de comercio electrónico, para que los clientes tengan una forma de anular la preferencia del sitio que indican mediante el módulo [selector de país/región](country-region-picker-module.md). 
 

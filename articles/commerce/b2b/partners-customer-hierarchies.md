@@ -1,6 +1,6 @@
 ---
 title: Administrar socios comerciales B2B utilizando jerarquías de clientes
-description: Este tema describe cómo usar jerarquías de clientes para administrar socios comerciales para sitios web de comercio electrónico de empresa a empresa (B2B) para Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo usar jerarquías de clientes para administrar socios comerciales para sitios web de comercio electrónico de empresa a empresa (B2B) para Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864990"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Administrar socios comerciales B2B utilizando jerarquías de clientes
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo usar jerarquías de clientes para administrar socios comerciales para sitios web de comercio electrónico de empresa a empresa (B2B) para Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo usar jerarquías de clientes para administrar socios comerciales para sitios web de comercio electrónico de empresa a empresa (B2B) para Microsoft Dynamics 365 Commerce.
 
 En la sede de Commerce, una *jerarquía de clientes* se utiliza para representar a las organizaciones de socios comerciales que utilizarán su sitio de comercio electrónico B2B. Antes de que pueda comenzar a usar jerarquías de clientes para administrar socios comerciales, debe habilitar las capacidades de comercio electrónico B2B en la sede de Commerce y luego definir una secuencia numérica para la jerarquía de clientes.
 

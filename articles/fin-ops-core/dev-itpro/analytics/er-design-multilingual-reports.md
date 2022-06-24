@@ -1,8 +1,8 @@
 ---
 title: Diseñar informes multilingües en informes electrónicos
-description: Este tema explica cómo puede usar las etiquetas de informes electrónicos (ER) para diseñar y generar informes multilingües.
+description: Este artículo explica cómo puede usar las etiquetas de informes electrónicos (ER) para diseñar y generar informes multilingües.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845755"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Diseñar informes multilingües en informes electrónicos
 
@@ -142,6 +142,9 @@ Si configura un formato ER de esta manera, el informe se genera utilizando el te
 
 Si una etiqueta referenciada no tiene traducción para el idioma del contexto de ejecución del formato, se utiliza el texto de la etiqueta en el idioma EN-US en su lugar.
 
+> [!TIP]
+> Puede usar **FOLDER** y los diferentes tipos de componentes de **FILE** en el formato de informes electrónicos editable para especificar cómo se genera un archivo saliente. Para poner nombre a un archivo generado, configure la [expresión](er-formula-language.md) de ER para el parámetro **Nombre del archivo** del componente. También puede usar etiquetas en la expresión configurada. Como el parámetro **Nombre del archivo** no depende del idioma de forma predeterminada, el texto de todas las etiquetas a las que se refiera en esta expresión queda expuesto en el idioma predeterminado EN-US en el tiempo de ejecución. Sin embargo, en la versión 10.0.28 y posterior, puede habilitar la característica **Aplicar el parámetro "Preferencia de idioma" a la expresión "Nombre del archivo"**. La expresión **Nombre del archivo** usa el parámetro **Preferencia de idioma** cuando se calcula.
+
 ## <a name="language"></a>Idioma
 
 ER admite diferentes formas de especificar un idioma para un informe generado. En el campo **Preferencias de idioma** en la pestaña **Formato**, puede seleccionar los siguientes valores:
@@ -198,7 +201,7 @@ La configuración de un componente ER se realiza en la versión borrador de la c
 
 ![Página de configuraciones ER que ofrece acceso a la versión de la configuración en el estado Borrador.](./media/er-multilingual-labels-configurations.png)
 
-Como se describió anteriormente en este tema, puede agregar las etiquetas ER necesarias a un componente ER editable. De esta forma, puede especificar el texto de las etiquetas ER en el idioma EN-US. Luego puede exportar las etiquetas del componente ER utilizando la función ER incorporada. Seleccione la versión borrador de una configuración de ER que contenga el componente de ER editable y luego seleccione **Intercambiar \> Exportar etiquetas**.
+Como se describió anteriormente en este artículo, puede agregar las etiquetas ER necesarias a un componente ER editable. De esta forma, puede especificar el texto de las etiquetas ER en el idioma EN-US. Luego puede exportar las etiquetas del componente ER utilizando la función ER incorporada. Seleccione la versión borrador de una configuración de ER que contenga el componente de ER editable y luego seleccione **Intercambiar \> Exportar etiquetas**.
 
 ![Página de configuraciones de ER que permite exportar etiquetas de ER desde la versión de configuración seleccionada.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ El control de versiones de ER controla la asignación de etiquetas a cualquier a
 
 La función [LISTOFFIELDS](er-functions-list-listoffields.md) de ER incorporada puede acceder a las etiquetas ER que se han configurado para algunos elementos de los componentes ER.
 
-Como se describió anteriormente en este tema, los atributos **Etiqueta** y **Descripción** de cada valor de enumeración de ER de [modelo](#LinkModelEnum) o [formato](#LinkFormatEnum) se pueden vincular a una etiqueta ER que sea accesible en el componente ER apropiado. Puede configurar una expresión ER donde llame a la función **LISTOFFIELDS** utilizando la enumeración ER como argumento. Esta expresión devuelve una lista que contiene un registro para cada valor de una enumeración ER que se ha definido como un argumento de esta función. Cada registro contiene el valor de una etiqueta ER que está vinculada a un valor de enumeración ER:
+Como se describió anteriormente en este artículo, los atributos **Etiqueta** y **Descripción** de cada valor de enumeración de ER de [modelo](#LinkModelEnum) o [formato](#LinkFormatEnum) se pueden vincular a una etiqueta ER que sea accesible en el componente ER apropiado. Puede configurar una expresión ER donde llame a la función **LISTOFFIELDS** utilizando la enumeración ER como argumento. Esta expresión devuelve una lista que contiene un registro para cada valor de una enumeración ER que se ha definido como un argumento de esta función. Cada registro contiene el valor de una etiqueta ER que está vinculada a un valor de enumeración ER:
 
 - El valor de una etiqueta ER que está vinculada a los atributos **Etiqueta** se almacena en el campo **Etiqueta** del registro devuelto.
 - El valor de una etiqueta ER que está vinculada a los atributos **Descripción** se almacena en el campo **Descripción** del registro devuelto.

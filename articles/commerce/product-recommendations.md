@@ -1,6 +1,6 @@
 ---
-title: Visión general de recomendaciones de producto
-description: En este tema se proporciona información general sobre recomendaciones de productos. Las recomendaciones de producto permiten a los clientes encontrar fácil y rápidamente los productos que desean, e incluso los productos que no pensaban comprar en un principio.
+title: Información general de recomendaciones de producto
+description: En este artículo se proporciona información general sobre recomendaciones de productos. Las recomendaciones de producto permiten a los clientes encontrar fácil y rápidamente los productos que desean, e incluso los productos que no pensaban comprar en un principio.
 author: Moonma
 ms.date: 05/26/2020
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2cb62638e89dd9cd7c01739244d808f664b3f3b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867741"
 ---
 # <a name="product-recommendations-overview"></a>Visión general de recomendaciones de producto
 

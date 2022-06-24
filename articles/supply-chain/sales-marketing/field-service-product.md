@@ -1,6 +1,6 @@
 ---
 title: Sincronizar productos de Supply Chain Management con productos de Field Service
-description: En este tema se describe las plantillas y la tarea subyacente que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
+description: En este artículo se describen las plantillas y la tarea subyacente que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 09460139ba2ae7c9be78b1441e1d095952b405f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 114550f01f3aed197480fb6830fe913dbfa7b570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860562"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Sincronizar productos de Supply Chain Management con productos de Field Service
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describe las plantillas y la tarea subyacente que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
+En este artículo se describen las plantillas y la tarea subyacente que se usan para sincronizar productos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
 La plantilla **Productos de Field Service (Supply Chain Management a Field Service)** usada se basa en la plantilla **Productos (Supply Chain Management a Sales) – Direct** del cliente potencial para cobrar. Para obtener más información, consulte [Productos (Supply Chain Management a Sales) – Directo](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-El tema solo describe las diferencias entre las plantillas **Productos de Field Service (Supply Chain Management a Field Service)** y **Productos (Supply Chain Management a Sales) – Direct**.
+El artículo solo describe las diferencias entre las plantillas **Productos de Field Service (Supply Chain Management a Field Service)** y **Productos (Supply Chain Management a Sales) – Direct**.
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 

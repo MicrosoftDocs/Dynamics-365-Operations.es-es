@@ -1,6 +1,6 @@
 ---
 title: Crear reglas de alertas
-description: Este tema proporciona información sobre alertas y explica cómo crear reglas de alertas.
+description: Este artículo proporciona información sobre alertas y explica cómo crear reglas de alertas.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853628"
 ---
 # <a name="create-alert-rules"></a>Crear reglas de alertas
 
@@ -75,7 +75,7 @@ En la ficha desplegable **Avisar a** del cuadro de diálogo **Crear regla de ale
 
 ## <a name="alerts-as-business-events"></a>Alertas como eventos de negocio
 
-Puede enviar alertas externamente utilizando el marco de eventos empresariales. Al crear una alerta, establezca **Toda la organización** a **No** y establezca **Enviar externamente** a **Sí**. Después de tener la alerta que desencadena el evento de negocio, puede activar un flujo integrado en Power Automate utilizando el desencadenante **Cuando ocurre un evento de negocios** en el conector de Finance and Operations, o enviar explícitamente el evento a un punto final de eventos de negocio a través de **Catálogo de eventos empresariales**.
+Puede enviar alertas externamente utilizando el marco de eventos empresariales. Al crear una alerta, establezca **Toda la organización** a **No** y establezca **Enviar externamente** a **Sí**. Después de tener la alerta que desencadena el evento de negocio, puede activar un flujo integrado en Power Automate utilizando el desencadenante **Cuando ocurre un evento de negocios** en el conector de finanzas y operaciones, o enviar explícitamente el evento a un punto final de eventos de negocio a través de **Catálogo de eventos empresariales**.
 
 ## <a name="create-an-alert-rule"></a>Cree una regla de alerta
 

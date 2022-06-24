@@ -1,6 +1,6 @@
 ---
 title: Introducción a la API de integración de nóminas
-description: Este tema describe la API de integración de nóminas de Dynamics 365 Human Resources.
+description: Este artículo describe la API de integración de nóminas de Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 02/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3743561e3ea3c798c37d71d851eb6b197c8d1c41
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 33c17dd25477b2c34470fe16ce2927c1781ae147
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846405"
 ---
 # <a name="payroll-integration-api-introduction"></a>Introducción a la API de integración de nóminas
 

@@ -1,6 +1,6 @@
 ---
 title: Especificar el tipo de cambio cruzado
-description: Este tema proporciona información acerca de cambios cruzados en Microsoft Dynamics 365 Finance.
+description: Este artículo proporciona información acerca de cambios cruzados en Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889972"
 ---
 # <a name="specify-the-cross-rate"></a>Especificar el tipo de cambio cruzado
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica el propósito de un tipo de cambio cruzado y cómo especificar el tipo de cambio cruzado al liquidar un pago con una factura. Usar un tipo de cambio cruzado cuando se cumplan los criterios siguientes: 
+En este artículo se explica el propósito de un tipo de cambio cruzado y cómo especificar el tipo de cambio cruzado al liquidar un pago con una factura. Usar un tipo de cambio cruzado cuando se cumplan los criterios siguientes: 
 -   Está liquidando un pago con una factura. 
 -   La línea de pago y la línea de factura usan divisas distintas. 
 -   Ninguna divisa es la divisa de contabilidad. 

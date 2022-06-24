@@ -1,6 +1,6 @@
 ---
 title: Estados de ciclo de vida de orden de trabajo
-description: En este tema se explican los estados de ciclo de vida de las órdenes de trabajo en Administración de activos.
+description: En este artículo se explican los estados de ciclo de vida de las órdenes de trabajo en Administración de activos.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860881"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida de orden de trabajo
 
@@ -69,7 +69,7 @@ La siguiente tabla describe las opciones de las secciones **Orden de trabajo** y
 
     En la ficha desplegable **Detalles**, el campo **Modelos de ciclo de vida** muestra el número de modelos de ciclo de vida de orden de trabajo que utilizan este estado de ciclo de vida.
 
-8. En la ficha desplegable **General**, en la sección **Orden de trabajo**, seleccione las funciones que deben estar disponibles para este estado del ciclo de vida estableciendo las opciones relevantes en **Sí**. Para obtener descripciones de las opciones, consulte la tabla anterior en este tema.
+8. En la ficha desplegable **General**, en la sección **Orden de trabajo**, seleccione las funciones que deben estar disponibles para este estado del ciclo de vida estableciendo las opciones relevantes en **Sí**. Para obtener descripciones de las opciones, consulte la tabla anterior en este artículo.
 9. En la sección **Proyecto**, en el campo **Etapa**, seleccione la etapa de proyecto que debe estar relacionada con este estado del ciclo de vida.
 10. En la sección **Proyecto**, establezca la opción **Cerrar actividades** en **Sí** si las actividades de proyecto que se relacionan con cada trabajo de la orden de trabajo deben cerrarse automáticamente cuando la orden de trabajo está en este estado del ciclo de vida.
 
@@ -77,7 +77,7 @@ La siguiente tabla describe las opciones de las secciones **Orden de trabajo** y
     > Para buscar el número de la actividad del proyecto relacionada con un trabajo de órdenes de trabajo, seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, **Órdenes de trabajo activas**, o **Mis órdenes de trabajo activas**. Abra la orden de trabajo, y seleccione el trabajo de la orden de trabajo. El número de actividad se muestra en el campo **Número de actividad** en la sección **Proyecto** en la pestaña **General** de la ficha desplegable **Detalles de línea**.
 
 11. En la sección **Previsión**, establezca la opción **Copiar previsión de horas**, **Copiar previsión de artículo** o **Copiar previsión de gastos** en **Sí** si las previsiones de proyecto de la orden de trabajo tienen que copiarse automáticamente en diarios de la orden de trabajo cuando la orden de trabajo está en este estado del ciclo de vida.
-12. En la sección **Programación**, establezca una de las opciones en **Sí** si tiene que actualizarse el estado de programación para los trabajos de la orden de trabajo cuando la orden de trabajo está en este estado del ciclo de vida. Para obtener descripciones de las opciones **Preparado**, **Inicio**, **Fin**, y **Eliminar líneas de la programación**, consulte la tabla anterior de este tema.
+12. En la sección **Programación**, establezca una de las opciones en **Sí** si tiene que actualizarse el estado de programación para los trabajos de la orden de trabajo cuando la orden de trabajo está en este estado del ciclo de vida. Para obtener descripciones de las opciones **Preparado**, **Inicio**, **Fin**, y **Eliminar líneas de la programación**, consulte la tabla anterior de este artículo.
 
     > [!NOTE]
     > Para ver líneas de programación que están relacionadas con un trabajo de órdenes de trabajo, seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, **Órdenes de trabajo activas**, o **Mis órdenes de trabajo activas**. Abra la orden de trabajo, seleccione el trabajo de la orden de trabajo en la ficha desplegable **Trabajos de órdenes de trabajo**, y vea la información relacionada en la ficha desplegable **Detalles de línea**. El campo **Estado** en la pestaña **Programación** muestra el estado del trabajo de la orden de trabajo. El campo **Estado** se puede establecer en los siguientes valores: **Programado**, **Preparado**, **Iniciado**, **Detenido**, y **Terminado**.

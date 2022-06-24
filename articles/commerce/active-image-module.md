@@ -1,6 +1,6 @@
 ---
 title: Módulo de imagen activa
-description: En este tema se tratan los módulos imagen activa y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+description: En este artículo se tratan los módulos imagen activa y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 06b9162029de3f5f3fede9583fa8a4a96fefb2f3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853859"
 ---
 # <a name="active-image-module"></a>Módulo de imagen activa
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos imagen activa y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos imagen activa y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 Se puede utilizar un módulo de imagen activo para insertar etiquetas de productos en una imagen. Los usuarios del sitio de comercio electrónico pueden pasar el cursor sobre las etiquetas para obtener una vista previa de los productos que se muestran en la imagen. Las vistas previas se muestran en ventanas emergentes. Al seleccionar una ventana emergente de vista previa, los usuarios pueden ir directamente a la página de detalles del producto (PDP) del producto correspondiente.
 

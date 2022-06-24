@@ -1,6 +1,6 @@
 ---
-title: Configuración de publicación de gestión de devoluciones
-description: Este tema describe cómo configurar datos para perfiles de publicación. Los perfiles de contabilización se utilizan para determinar las entradas de contabilización para las líneas de cálculo de la gestión de devoluciones.
+title: Configuración del registro de la administración de devoluciones
+description: Este artículo describe cómo configurar datos para perfiles de publicación. Los perfiles de contabilización se utilizan para determinar las entradas de contabilización para las líneas de cálculo de la gestión de devoluciones.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873590"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuración de publicación de gestión de devoluciones
 
@@ -30,7 +30,7 @@ Esta función funciona en todas las empresas (entidades jurídicas). Puede espec
 
 Para configurar los perfiles de contabilización de la gestión de descuentos para clientes y proveedores, vaya a **Gestión de devoluciones \> Configuración de contabilización de gestión de devoluciones \> Perfiles de contabilización de gestión de devoluciones**. La página **Perfiles de contabilización de gestión de devoluciones** incluye un panel de lista que muestra todos sus perfiles existentes. Puede utilizar los botones del panel de acciones para añadir perfiles a la lista o eliminarlos.
 
-Las secciones restantes de este tema describen cómo utilizar los campos disponibles al crear o editar un perfil.
+Las secciones restantes de este artículo describen cómo utilizar los campos disponibles al crear o editar un perfil.
 
 ## <a name="posting-profile-header"></a>Encabezado de perfil de contabilización
 

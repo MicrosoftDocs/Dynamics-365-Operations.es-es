@@ -1,6 +1,6 @@
 ---
-title: Visión general de los procesos automatizados de facturación de proveedores
-description: Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado.
+title: Información general de los procesos automatizados de facturación de proveedores
+description: Este artículo describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883456"
 ---
-# <a name="automated-vendor-invoicing-processes-overview"></a>Visión general de los procesos automatizados de facturación de proveedores
+# <a name="automated-vendor-invoicing-processes-overview"></a>Información general de los procesos automatizados de facturación de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado. Esta capacidad consta de funciones que están activadas en la gestión de funciones. Estas funciones se aplican solo a las facturas de proveedores, no a las facturas que se procesan con la página **Diario de facturas** o **Diario de registro de facturas**.
+Este artículo describe la capacidad para automatizar el procesamiento de facturas de su proveedor y los beneficios de utilizar un proceso automatizado. Esta capacidad consta de funciones que están activadas en la gestión de funciones. Estas funciones se aplican solo a las facturas de proveedores, no a las facturas que se procesan con la página **Diario de facturas** o **Diario de registro de facturas**.
 
 A menudo las organizaciones trabajan con terceros para procesar las facturas de papel mediante un proveedor de servicios de reconocimiento de caracteres ópticos (OCR). El proveedor de servicios devuelve metadatos de facturas legibles por máquina. Para ayudar con la automatización, las funciones de automatización de Cuentas por pagar le permiten consumir estos artefactos de Cuentas por pagar.
 

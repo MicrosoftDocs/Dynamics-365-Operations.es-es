@@ -1,6 +1,6 @@
 ---
 title: Crear un nuevo producto
-description: En este tema se describe cómo crear un producto compartido nuevo.
+description: En este artículo se describe cómo crear un producto compartido nuevo.
 author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f509758ed062b756d99c93b2721c99dcdbae5155
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 75490661bf6f1e3dc0655cf9bd79316194c63820
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887352"
 ---
 # <a name="create-a-new-product"></a>Crear un nuevo producto
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo crear un producto compartido nuevo. Normalmente se lleva a cabo por un diseñador de producto. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
+En este artículo se describe cómo crear un producto compartido nuevo. Normalmente se lleva a cabo por un diseñador de producto. La empresa de datos de prueba utilizada para crear esta tarea es USMF.
 
 
 ## <a name="create-a-product"></a>Crear un producto

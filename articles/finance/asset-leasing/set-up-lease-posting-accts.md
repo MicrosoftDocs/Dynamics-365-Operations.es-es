@@ -1,6 +1,6 @@
 ---
 title: Configurar cuentas de registro de arrendamiento
-description: Este tema enumera las cuentas de contabilidad necesarias para las transacciones de Arrendamiento de activos y explica cómo definir cuentas de contabilidad en la página de parámetros de contabilidad de arrendamiento.
+description: Este artículo enumera las cuentas de contabilidad necesarias para las transacciones de Arrendamiento de activos y explica cómo definir cuentas de contabilidad en la página de parámetros de contabilidad de arrendamiento.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859925"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Configurar cuentas de registro de arrendamiento
 
 [!include [banner](../includes/banner.md)]
 
-Este tema enumera las cuentas de contabilidad necesarias para las transacciones de Arrendamiento de activos y explica cómo definir cuentas de contabilidad en la página **Parámetros de contabilidad de arrendamiento**.
+Este artículo enumera las cuentas de contabilidad necesarias para las transacciones de Arrendamiento de activos y explica cómo definir cuentas de contabilidad en la página **Parámetros de contabilidad de arrendamiento**.
 
 Para cumplir con el Tema 842 de Codificación de Normas Contables (ASC 842) y la Norma Internacional de Información Financiera 16 (NIIF 16), es posible que deba crear cuentas en su plan de cuentas. Sin embargo, las cuentas que cree para cumplir con los estándares ASC e IFRS no son cuentas de activos fijos. Según la ASC 842, se registra un activo por derecho de uso (ROU) tanto para arrendamientos financieros como operativos. Estos arrendamientos son independientes de los activos fijos. (Sigue pudiendo mantener activos por derecho de uso mediante el uso de activos fijos).
 

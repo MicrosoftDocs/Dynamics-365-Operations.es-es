@@ -1,6 +1,6 @@
 ---
-title: Cerrar la contabilidad general al final del período
-description: En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general.
+title: Cerrar el libro mayor al final del período
+description: En este artículo se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878052"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a>Cerrar la contabilidad general al final del período
+# <a name="close-the-general-ledger-at-period-end"></a>Cerrar el libro mayor al final del período
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general. 
+En este artículo se describen las tareas que se completan normalmente al realizar un cierre de período para la contabilidad general. 
 
 En Contabilidad general, puede completar los procedimientos de cierre de un período o un año. El cierre de procesos prepara al sistema para un período nuevo. Para preparar para un año nuevo, debe ejecutar el proceso de cierre de ejercicio. Cada organización tiene diferentes procesos y pasos que realiza para el final de un período. A continuación se indican algunos pasos opcionales para finales de períodos:
 

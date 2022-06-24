@@ -1,6 +1,6 @@
 ---
 title: Información general de control presupuestario
-description: Este tema presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
+description: Este artículo presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898309"
 ---
 # <a name="budget-control-overview"></a>Información general de control presupuestario
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tema presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
+Este artículo presenta la función de control presupuestario y proporciona información para ayudarlo a configurar el control presupuestario para optimizar la administración de los recursos financieros de su organización.
 
 El control presupuestario admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
 

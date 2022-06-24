@@ -1,6 +1,6 @@
 ---
 title: Planificar su plan de cuentas local
-description: Este tema proporciona información que le ayudará a planificar el plan de cuentas cuando tenga requisitos legales / locales para su organización.
+description: Este artículo proporciona información que le ayudará a planificar el plan de cuentas cuando tenga requisitos legales / locales para su organización.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798305"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946256"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Planificar su plan de cuentas local
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información que le ayudará a planificar el plan de cuentas cuando su organización incluya entidades legales que deben cumplir con los requisitos de las localidades específicas donde operan. Este tema utiliza los siguientes términos para describir planes de cuentas:
+Este artículo proporciona información que le ayudará a planificar el plan de cuentas cuando su organización incluya entidades legales que deben cumplir con los requisitos de las localidades específicas donde operan. Este artículo utiliza los siguientes términos para describir planes de cuentas:
 
 - **Global** - El plan de cuentas que la organización utiliza a nivel mundial. En la mayoría de los casos, se consolidará en este plan de cuentas.
 - **Local** - Un plan de cuentas que utilizan las entidades legales de un país o región específicos.

@@ -1,6 +1,6 @@
 ---
 title: Identificadores de producto
-description: Este tema proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
+description: Este artículo proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851721"
 ---
 # <a name="product-identifiers"></a>Identificadores de producto
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063350"
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
+Este artículo proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
 
 Al trabajar con los productos en planta o en un almacén en Microsoft Dynamics ERP o Microsoft Dynamics CRM, debe tener una buena estrategia para identificar los productos y variantes de producto.
 
@@ -125,7 +125,7 @@ Desafortunadamente, no hay función estándar que le permita buscar los producto
 | Productos V2 | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | En función de la configuración de la entidad y la secuencia numérica para el número de producto, el número de producto se puede crear automáticamente en el momento de la importación. |
 | Variantes del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Según la plantilla de la nomenclatura de producto, el número de producto se puede crear automáticamente en el momento de la importación. Sin embargo, puede importar cualquier número de producto único y dicho número de producto no necesitará seguir la estructura de las plantillas de la nomenclatura de producto. |
 | Traducciones del producto | Nombre de producto, descripción del producto | Nombre de producto, descripción del producto | Esta entidad sobrescribe cualquier lenguaje. Cuando el nombre o la descripción del idioma principal de la entidad jurídica se sobrescribe, el nombre y la descripción del producto en sí se cambian. |
-| Creación de productos liberados V2 | Número de artículo, número de producto, nombre de búsqueda del artículo| Número de artículo, número de producto, nombre de búsqueda del artículo, nombre de búsqueda de producto, nombre de producto | Esta entidad puede ser un desafío cuando las secuencias numéricas se usan durante la creación de nuevos productos liberados. Tanto la secuencia numérica **Código de artículo** como la secuencia numérica **Código de producto** tienen una influencia. Sin embargo, la secuencia numérica **Código de artículo** es por la entidad jurídica, mientras que la secuencia numérica **Número de producto** es global. Por lo tanto, no se recomienda usar la secuencia del número **Código de artículo** al implementar los productos recién liberados. Obviamente, cuando use la entidad para liberar un producto existente, el número de producto debe darse en la entidad. Para obtener más información, consulte la sección "secuencias numéricas de producto y artículo" en este tema. |
+| Creación de productos liberados V2 | Número de artículo, número de producto, nombre de búsqueda del artículo| Número de artículo, número de producto, nombre de búsqueda del artículo, nombre de búsqueda de producto, nombre de producto | Esta entidad puede ser un desafío cuando las secuencias numéricas se usan durante la creación de nuevos productos liberados. Tanto la secuencia numérica **Código de artículo** como la secuencia numérica **Código de producto** tienen una influencia. Sin embargo, la secuencia numérica **Código de artículo** es por la entidad jurídica, mientras que la secuencia numérica **Número de producto** es global. Por lo tanto, no se recomienda usar la secuencia del número **Código de artículo** al implementar los productos recién liberados. Obviamente, cuando use la entidad para liberar un producto existente, el número de producto debe darse en la entidad. Para obtener más información, consulte la sección "secuencias numéricas de producto y artículo" en este artículo. |
 | Variantes de productos emitidos | Código de artículo, dimensiones de producto, número de producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto, dimensiones de producto | Al igual que la entidad **Variantes del producto**, esta entidad puede ser utilizada para crear nuevos productos que sigan la plantilla de la nomenclatura de producto o utilicen sus propios números de producto para la variante. |
 | Descripción externa de artículos para clientes | El código de artículo del cliente, nombre de artículo del cliente, descripción del cliente, la cuenta del cliente | El código de artículo del cliente, nombre de artículo del cliente, descripción del cliente, la cuenta del cliente | Un grupo de clientes (por ejemplo, asociación del comprador) se puede agregar a un grupo mediante la entidad **Grupos de clientes de la descripción externa de artículos**. |
 | Descripción externas de artículos para proveedores | Código de artículo de proveedor, nombre de artículo de proveedor, descripción del proveedor, cuenta de proveedor | Código de artículo de proveedor, nombre de artículo de proveedor, descripción del proveedor, cuenta de proveedor | Un grupo de proveedores (por ejemplo, asociación de compras u organización industrial) se puede agregar a un grupo mediante la entidad **Grupos de proveedores de la descripción externa de artículos**. |
@@ -184,7 +184,7 @@ Siga estos pasos para configurar el entorno.
 
 Ahora puede usar entidades de datos **Entidad de identificador de common data service de la entidad del producto**, **Código de identificador de entidad de producto** y **Ámbito del identificador de entidad de producto** para exportar los identificadores para cualquier sistema de destino.
 
-## <a name="related-topic"></a>Tema relacionado
+## <a name="related-article"></a>Artículo relacionado
 
 [Buscar los productos y variantes de producto durante la entrada de pedidos](search-products-product-variants.md)
 

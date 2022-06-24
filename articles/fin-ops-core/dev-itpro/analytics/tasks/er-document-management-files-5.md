@@ -1,6 +1,6 @@
 ---
 title: 'Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 5: Modificación y ejecución del formato)'
-description: Este tema describe cómo configurar un formato de informes electrónicos (ER) para utilizar archivos de administración de documentos (adjuntos) en la salida de informes electrónicos. (Parte 5)
+description: Este artículo describe cómo configurar un formato de informes electrónicos (ER) para utilizar archivos de administración de documentos (adjuntos) en la salida de informes electrónicos. (Parte 5)
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48175de4e58f9def15bf2bf8b10a1348036c88a1af284eb2a3e5f9fbefd649c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 12e4f3a1a9f6f780587b686baa4e5eadce4b7649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892904"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 5: Modificación y ejecución del formato)
 

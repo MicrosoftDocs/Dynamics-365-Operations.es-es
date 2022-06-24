@@ -1,6 +1,6 @@
 ---
-title: Configurar un perfil de visión general de recepción de artículos
-description: Este tema se centra en la configuración de un perfil general de llegadas.
+title: Configurar un perfil de información general de recepción de artículos
+description: Este artículo se centra en la configuración de un perfil general de llegadas.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872018"
 ---
-# <a name="set-up-an-item-arrival-overview-profile"></a>Configurar un perfil de visión general de recepción de artículos
+# <a name="set-up-an-item-arrival-overview-profile"></a>Configurar un perfil de información general de recepción de artículos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema se centra en la configuración de un perfil general de llegadas. El perfil general de llegadas es una recopilación de reglas que se aplicarán cuando un usuario abra la página Visión general de llegadas. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Este procedimiento normalmente se llevaría a cabo por un empleado de recepción.
+Este artículo se centra en la configuración de un perfil general de llegadas. El perfil general de llegadas es una recopilación de reglas que se aplicarán cuando un usuario abra la página Visión general de llegadas. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Este procedimiento normalmente se llevaría a cabo por un empleado de recepción.
 
 1. En el panel de navegación, vaya a **Módulos > Gestión de inventarios > Configuración > Distribución > Perfiles de visión general de llegadas**.
 2. Seleccione **Nuevo**. Dado que casi siempre trabajará en el mismo almacén para descargar cargas completas de camión, debe crear un perfil general de llegadas para simplificar el proceso de registrar los artículos recibidos.  

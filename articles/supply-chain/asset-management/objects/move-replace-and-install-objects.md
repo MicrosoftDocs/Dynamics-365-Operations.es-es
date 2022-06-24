@@ -1,6 +1,6 @@
 ---
 title: Mover, reemplazar e instalar activos
-description: En este tema se explica cómo mover, reemplazar e instalar activos en Administración de activos.
+description: En este artículo se explica cómo mover, reemplazar e instalar activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872135"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, reemplazar e instalar activos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769644"
 
  
 
-En este tema se explica cómo mover, reemplazar e instalar activos en Administración de activos. Puede crear activos individuales que no tienen ninguna relación con otros activos o puede crear una estructura de activos que incluya un activo (activo principal de nivel superior) y activos secundarios relacionados (subactivos). En Admnistración de activos, hay tres enfoques para mover y cambiar la ubicación de un activo:
+En este artículo se explica cómo mover, reemplazar e instalar activos en Administración de activos. Puede crear activos individuales que no tienen ninguna relación con otros activos o puede crear una estructura de activos que incluya un activo (activo principal de nivel superior) y activos secundarios relacionados (subactivos). En Admnistración de activos, hay tres enfoques para mover y cambiar la ubicación de un activo:
 
 - **Mover** para mover un activo a otra estructura de activos o a otra ubicación de la misma estructura de activos.
 - **Reemplazar** para quitar temporalmente un activo de la estructura de activos de modo que pueda repararse o restaurarse y luego agregar el activo restaurado de nuevo a la estructura de activos. Como alternativa, se puede reemplazar permanentemente un activo utilizado con un nuevo activo.
@@ -42,7 +42,7 @@ En este tema se explica cómo mover, reemplazar e instalar activos en Administra
 Utilice la función **Mover activo** para mover un activo a otra estructura de activos o a otra ubicación de la misma estructura de activos. También puede mover un activo de una estructura de activos de modo que se convierta en un activo independiente que no tenga ninguna relación de estructura.
 
 > [!NOTE]
-> No use esta función si se están reparando o se están reemplazando temporalmente los activos. En tal caso, use la funcionalidad **Reemplazar activo** que se describe más adelante en este tema.
+> No use esta función si se están reparando o se están reemplazando temporalmente los activos. En tal caso, use la funcionalidad **Reemplazar activo** que se describe más adelante en este artículo.
 
 1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo que desea mover. Si el activo tiene activos secundarios, también mueve dichos activos.

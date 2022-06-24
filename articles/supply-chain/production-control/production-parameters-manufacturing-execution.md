@@ -1,6 +1,6 @@
 ---
 title: Parámetros de producción en ejecución de fabricación
-description: Este tema proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
+description: Este artículo proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873677"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
+Este artículo proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
 
 El módulo **Ejecución de fabricación** está concebido principalmente para empresas de fabricación. Puede usarse para registrar la hora y el consumo de artículos en trabajos de producción o proyectos. Antes de comenzar a usar Ejecución de fabricación para registros de trabajos, debe configurar varios parámetros de producción que definen cómo y cuándo se realizan los registros durante el proceso de producción. La configuración de los parámetros de producción afectan a la administración de inventario, la administración de producción y el cálculo de costes.
 

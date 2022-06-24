@@ -1,6 +1,6 @@
 ---
 title: Procesar cambios de eventos de vida
-description: En este tema se explica cómo procesar cambios de eventos de vida en Microsoft Dynamics 365 Human Resources.
+description: En este artículo se explica cómo procesar cambios de eventos de vida en Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f43ee914bb57b14969b6d729218accbd1009d67a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 38b36f2165c9794091321c193f10dd37cc92b866
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858196"
 ---
 # <a name="process-life-event-changes"></a>Procesar cambios de eventos de vida
 

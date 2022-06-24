@@ -1,6 +1,6 @@
 ---
 title: Tipos de importancia de los activos
-description: En este tema se explican los tipos de importancia de los activos en Administración de activos.
+description: En este artículo se explican los tipos de importancia de los activos en Administración de activos.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899509"
 ---
 # <a name="asset-criticality-types"></a>Tipos de importancia de los activos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776929"
 
  
 
-En este tema se explican los tipos de importancia de los activos en Administración de activos. La importancia de los activos está relacionada con los activos y se transfiere a las órdenes de trabajo. No se puede modificar en una orden de trabajo. La importancia de los activos se usa para calcular la importancia de la orden de trabajo durante la programación de esta. Es decir, se usa para calcular hasta qué grado un trabajo de mantenimiento de un activo afecta a la programación de producción y la productividad de la empresa. Para obtener más información sobre la configuración relacionada con el cálculo de puntuaciones para la programación de órdenes de trabajo, consulte [Parámetros de administración de activos](../setup-for-objects/enterprise-asset-management-parameters.md).
+En este artículo se explican los tipos de importancia de los activos en Administración de activos. La importancia de los activos está relacionada con los activos y se transfiere a las órdenes de trabajo. No se puede modificar en una orden de trabajo. La importancia de los activos se usa para calcular la importancia de la orden de trabajo durante la programación de esta. Es decir, se usa para calcular hasta qué grado un trabajo de mantenimiento de un activo afecta a la programación de producción y la productividad de la empresa. Para obtener más información sobre la configuración relacionada con el cálculo de puntuaciones para la programación de órdenes de trabajo, consulte [Parámetros de administración de activos](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Para configurar la importancia, primero se crean los tipos de importancia que se usarán en la configuración del activo. A continuación se configuran las imporatncias de los activos.
 

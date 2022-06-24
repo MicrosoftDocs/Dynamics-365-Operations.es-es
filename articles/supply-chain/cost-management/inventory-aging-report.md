@@ -1,6 +1,6 @@
 ---
 title: Ejemplos de informes de antigüedad de inventario y lógica
-description: Este tema presenta algunos ejemplos que muestran cómo interpretar los resultados de un informe de antigüedad del inventario.
+description: Este artículo presenta algunos ejemplos que muestran cómo interpretar los resultados de un informe de antigüedad del inventario.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848031"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Ejemplos de informes de antigüedad de inventario y lógica
 
 [!include [banner](../includes/banner.md)]
 
-Este tema presenta algunos ejemplos que muestran cómo interpretar los resultados de un informe de **antigüedad del inventario**. Este informe clasifica la cantidad disponible y los valores de inventario para un artículo seleccionado o grupo de artículos en varios períodos. Este tema también muestra la lógica interna del informe.
+Este artículo presenta algunos ejemplos que muestran cómo interpretar los resultados de un informe de **antigüedad del inventario**. Este informe clasifica la cantidad disponible y los valores de inventario para un artículo seleccionado o grupo de artículos en varios períodos. Este artículo también muestra la lógica interna del informe.
 
-Los ejemplos en este tema muestran los resultados que se presentan en un informe de **antigüedad de inventario** estándar. Sin embargo, en general, le recomendamos que utilice la versión [Almacenamiento de informes de antigüedad de inventario](inventory-aging-report-storage.md) de este informe, especialmente cuando tiene muchos artículos y almacenes que deben procesarse. El almacenamiento de informes de antigüedad de inventario guarda cada informe que genera, muestra los resultados como una página interactiva y un gráfico, y le permite exportar cualquier informe guardado.
+Los ejemplos en este artículo muestran los resultados que se presentan en un informe de **antigüedad de inventario** estándar. Sin embargo, en general, le recomendamos que utilice la versión [Almacenamiento de informes de antigüedad de inventario](inventory-aging-report-storage.md) de este informe, especialmente cuando tiene muchos artículos y almacenes que deben procesarse. El almacenamiento de informes de antigüedad de inventario guarda cada informe que genera, muestra los resultados como una página interactiva y un gráfico, y le permite exportar cualquier informe guardado.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Datos de muestra que se usan en estos ejemplos
 
-Los ejemplos de este tema se basan en los datos de muestra de transacciones de inventario que se describen en esta sección.
+Los ejemplos de este artículo se basan en los datos de muestra de transacciones de inventario que se describen en esta sección.
 
 ### <a name="storage-dimension-setup"></a>Configuración de la dimensión de almacenamiento
 

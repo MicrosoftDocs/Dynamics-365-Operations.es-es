@@ -1,6 +1,6 @@
 ---
 title: Destinos de informes electrónicos (ER)
-description: Este tema proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
+description: Este artículo proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
 author: nselin
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851088"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Puede configurar un destino para cada configuración de formato de informes electrónicos (ER) y su componente de salida (una carpeta o un archivo). Los usuarios que tienen derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este tema se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad.
+Puede configurar un destino para cada configuración de formato de informes electrónicos (ER) y su componente de salida (una carpeta o un archivo). Los usuarios que tienen derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este artículo se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad.
 
 Las configuraciones de formato ER suelen contener al menos un componente de salida: un archivo. Normalmente, las configuraciones contienen varios componentes de salida de archivo de diferentes tipos (por ejemplo, XML, TXT, XLSX, DOCX, o PDF) que se agrupan en una carpeta única o varias carpetas. La administración de destinos ER le permite preconfigurar lo que ocurre cuando se ejecuta cada componente. De forma predeterminada, cuando se ejecuta una configuración, se muestra un cuadro de diálogo que le permite guardar o abrir el archivo. El mismo comportamiento también se da al importar una configuración de ER y no configurar destinos específicos para ella. Después de que se cree un destino para un componente de salida principal, ese destino anula el comportamiento predeterminado y la carpeta o el archivo se envía según la configuración del destino.
 

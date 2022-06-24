@@ -1,6 +1,6 @@
 ---
 title: Habilitar la detección de tienda según la ubicación
-description: Este tema describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
+description: Este artículo describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
 author: brianshook
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98aa781a42b1c82cc00c8a680007b7200e9c7413fb8e3a67b0c723ff62c1d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e0fcea2f53a8e1fea5a411981a317eabe94bddb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892054"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar la detección de tienda según la ubicación
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
+Este artículo describe cómo activar la detección de tienda basada en ubicación para su sitio de Dynamics 365 Commerce.
 
 La detección de tienda basada en ubicación le permite proporcionar el contenido del sitio relevante a los clientes, en función de su ubicación. Cuando se activa la detección de tienda basada en tienda, el servicio de representación de Commerce utiliza información de país o región de la dirección IP del explorador web del cliente para dirigir al cliente a la mejor configuración de sitio geográfico que esté disponible.
 

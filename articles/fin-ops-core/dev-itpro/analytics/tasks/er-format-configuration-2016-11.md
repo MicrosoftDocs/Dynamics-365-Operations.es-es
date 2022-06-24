@@ -1,6 +1,6 @@
 ---
 title: ER Crear una configuración de formato (noviembre de 2016)
-description: Este tema explica cómo crear una configuración de formato para informes electrónicos (ER).
+description: Este artículo explica cómo crear una configuración de formato para informes electrónicos (ER).
 author: NickSelin
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d59f0f7c914cc6d59ae441e6f6b8ff249a3e9c03c6ee4b4a75421d875f826a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902665"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Crear una configuración de formato (noviembre de 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una configuración de formato para realizar informes electrónicos (ER). Esta configuración del formato definirá el formato de los documentos electrónicos que se usan para procesar pagos. En este ejemplo, creará una configuración del formato para la empresa de demostración, Litware, Inc. Para completar estos pasos, debe completar primero los pasos del procedimiento "Asignación de modelos a orígenes de datos seleccionados".
+En este artículo se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una configuración de formato para realizar informes electrónicos (ER). Esta configuración del formato definirá el formato de los documentos electrónicos que se usan para procesar pagos. En este ejemplo, creará una configuración del formato para la empresa de demostración, Litware, Inc. Para completar estos pasos, debe completar primero los pasos del procedimiento "Asignación de modelos a orígenes de datos seleccionados".
 
 
 ## <a name="create-a-new-format-configuration"></a>Creación de una configuración de formato nueva

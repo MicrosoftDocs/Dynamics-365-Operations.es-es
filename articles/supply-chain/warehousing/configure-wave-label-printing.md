@@ -1,6 +1,6 @@
 ---
 title: Impresión de etiquetas de oleadas
-description: Este tema describe la impresión de etiquetas de oleada y explica cómo configurarla.
+description: Este artículo describe la impresión de etiquetas de oleada y explica cómo configurarla.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778092"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901832"
 ---
 # <a name="wave-label-printing"></a>Impresión de etiquetas de oleadas
 
@@ -49,7 +49,7 @@ La impresión de etiquetas de oleadas ofrece las siguientes mejoras:
 Estas mejoras hacen que el etiquetado de cajas antes de la paletización sea más eficiente. Benefician especialmente a las empresas que envían a grandes minoristas que confirman automáticamente los recibos de los pedidos escaneando cada caja por separado.
 
 > [!NOTE]
-> Puede implementar los escenarios de configuración que se describen en este tema por separado o en combinación, según los requisitos de su negocio. Puede diseñar varias plantillas de etiquetas de oleadas que funcionen en secuencia (como se ilustra en el escenario 3). Por ejemplo, puede usar el escenario 1 para imprimir etiquetas de cajas y el escenario 2 para imprimir etiquetas de pallets (si las pallets en existencias varían en tamaño y composición).
+> Puede implementar los escenarios de configuración que se describen en este artículo por separado o en combinación, según los requisitos de su negocio. Puede diseñar varias plantillas de etiquetas de oleadas que funcionen en secuencia (como se ilustra en el escenario 3). Por ejemplo, puede usar el escenario 1 para imprimir etiquetas de cajas y el escenario 2 para imprimir etiquetas de pallets (si las pallets en existencias varían en tamaño y composición).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activar la característica de impresión de etiquetas de oleada
 

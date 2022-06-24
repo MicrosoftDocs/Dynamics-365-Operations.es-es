@@ -1,6 +1,6 @@
 ---
 title: Módulo de pie de página
-description: En este tema se tratan los módulos de pie de página y cómo crearlos en Dynamics 365 Commerce.
+description: En este artículo se tratan los módulos de pie de página y cómo crearlos en Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4e7796d9700eabc923f2bb45187832d5993ae56e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876621"
 ---
 # <a name="footer-module"></a>Módulo de pie de página  
 
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de pie de página y se describe cómo crearlos en Microsoft Dynamics 365 Commerce.
+En este artículo se tratan los módulos de pie de página y se describe cómo crearlos en Microsoft Dynamics 365 Commerce.
 
 El módulo de pie de página es un contenedor especial que se usa para hospedar los módulos que aparecen en el pie de página. Por ejemplo, puede incluir vínculos a las diversas páginas de todo el sitio, como las páginas **Ponerse en contacto con nosotros** y **Directivas de la tienda**.
 

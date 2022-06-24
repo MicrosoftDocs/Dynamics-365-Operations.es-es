@@ -1,6 +1,6 @@
 ---
 title: Instalar activos en ubicaciones funcionales
-description: En este tema se explica cómo instalar activos en ubicaciones funcionales en Administración de activos.
+description: En este artículo se explica cómo instalar activos en ubicaciones funcionales en Administración de activos.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894512"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar activos en ubicaciones funcionales
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775756"
 
  
 
-Una vez creadas las estructuras de ubicaciones funcionales, el paso siguiente es instalar activos en las ubicaciones funcionales relevantes. En este tema se explica cómo instalar activos en esas ubicaciones funcionales en Administración de activos. Para obtener información sobre cómo crear activos, consulte [Introducción a los activos](../objects/introduction-to-objects.md).
+Una vez creadas las estructuras de ubicaciones funcionales, el paso siguiente es instalar activos en las ubicaciones funcionales relevantes. En este artículo se explica cómo instalar activos en esas ubicaciones funcionales en Administración de activos. Para obtener información sobre cómo crear activos, consulte [Introducción a los activos](../objects/introduction-to-objects.md).
 
 Si ha creado una estructura de activos, la estructura de activos completa debe estar instalada en una ubicación funcional. Por lo tanto, sólo los activos principales (activos de nivel superior que no tienen ningún activo principal) se pueden seleccionar en una ubicación funcional. Todos los activos secundarios relacionados (subactivos) también se instalarán en la ubicación funcional. Al instalar activos en una ubicación funcional, las dimensiones financieras de la ubicación funcional se pueden transferir automáticamente a ellos, en función de la configuración del tipo de ubicación funcional seleccionada para la ubicación funcional. Para obtener más información sobre cómo configurar tipos de ubicaciones técnicas, consulte [Tipos de ubicación técnicas](../setup-for-functional-locations/functional-location-types.md).
 

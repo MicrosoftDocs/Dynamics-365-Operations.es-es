@@ -1,6 +1,6 @@
 ---
 title: Análisis de defectos de activos
-description: Este tema explica el análisis de los defectos de activos en Administración de activos.
+description: Este artículo explica el análisis de los defectos de activos en Administración de activos.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4503c39a643461c75878c6c7096d824642ad1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869789"
 ---
 # <a name="asset-fault-analysis"></a>Análisis de defectos de activos
 

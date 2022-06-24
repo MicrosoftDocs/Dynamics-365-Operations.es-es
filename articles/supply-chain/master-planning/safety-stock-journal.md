@@ -1,6 +1,6 @@
 ---
 title: Usar el diario de existencias de seguridad para actualizar la cobertura mínima para artículos
-description: Este tema describe cómo utilizar el diario de existencias de seguridad para actualizar la cantidad de existencias de seguridad para artículos mediante el cálculo de propuestas de cobertura mínima basadas en transacciones históricas.
+description: Este artículo describe cómo utilizar el diario de existencias de seguridad para actualizar la cantidad de existencias de seguridad para artículos mediante el cálculo de propuestas de cobertura mínima basadas en transacciones históricas.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851780"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Usar el diario de existencias de seguridad para actualizar la cobertura mínima para artículos
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468563"
 
 Las existencias de seguridad indican una cantidad adicional de un artículo que se mantiene en el inventario para ayudar a reducir el riesgo de que el artículo se agote. Las existencias de seguridad se usan como reserva en caso de que vengan pedidos de ventas pero el proveedor no pueda entregar los artículos adicionales.
 
-Este tema muestra cómo usar el diario de existencias de seguridad para calcular las propuestas de cobertura mínima basadas en transacciones históricas y, a continuación, actualizar la cobertura del artículo con las propuestas.
+Este artículo muestra cómo usar el diario de existencias de seguridad para calcular las propuestas de cobertura mínima basadas en transacciones históricas y, a continuación, actualizar la cobertura del artículo con las propuestas.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Descripción general del uso de cobertura mínima
 
@@ -43,7 +43,7 @@ El valor **Mínimo** se puede establecer de tres formas:
 
 Los diarios de existencias de seguridad se utilizan para calcular una cantidad mínima propuesta en función del uso histórico de un artículo, ya sea para fines mínimos/máximos o para fines del plan de inventario. El uso histórico representa todas las transacciones de emisión durante un período específico. Estas transacciones de emisión incluyen transacciones de órdenes de venta y ajustes de inventario. Los cálculos también identifican el impacto de la cantidad mínima propuesta en el valor del inventario y el cambio en el valor del inventario en comparación con las cantidades mínimas actuales.
 
-Cada línea del diario de existencias de seguridad representa un artículo y sus dimensiones de cobertura. Estas líneas de diario se crean y se muestran en la página **Líneas del diario de existencias de seguridad** (**Planificación maestra \> Planificación maestra \> Ejecutar \> Cálculo de existencias de seguridad**). El proceso empresarial para utilizar los diarios de existencias de seguridad para calcular las cantidades mínimas propuestas se describe más adelante en este tema.
+Cada línea del diario de existencias de seguridad representa un artículo y sus dimensiones de cobertura. Estas líneas de diario se crean y se muestran en la página **Líneas del diario de existencias de seguridad** (**Planificación maestra \> Planificación maestra \> Ejecutar \> Cálculo de existencias de seguridad**). El proceso empresarial para utilizar los diarios de existencias de seguridad para calcular las cantidades mínimas propuestas se describe más adelante en este artículo.
 
 El planificador utiliza un diario de existencias de seguridad para calcular las cantidades mínimas propuestas para artículos seleccionados, en función del uso histórico durante los períodos seleccionados. Los mínimos propuestos se pueden reemplazar manualmente según sea necesario, y puede revisar el impacto potencial de los mínimos propuestos en el valor del inventario. Cuando se registra el diario, las cantidades mínimas asociadas en la cobertura del artículo se actualizan automáticamente.
 
@@ -89,7 +89,7 @@ Siga estos pasos para generar automáticamente líneas de diario.
 
     - **Fecha de inicio** - Seleccione la fecha de inicio del período para el que se deben incluir las emisiones en el cálculo.
     - **Fecha de finalización** - Seleccione la fecha de fin del período para el que se deben incluir las emisiones en este cálculo. Debe haber al menos dos meses entre las fechas de inicio y finalización.
-    - **Calcular la desviación estándar** - Establezca esta opción en *Sí* para calcular la desviación estándar. Debe configurar esta opción en *Sí* para usar la opción **Usar nivel de servicio** cuando calcule la propuesta (como se describe más adelante en este tema).
+    - **Calcular la desviación estándar** - Establezca esta opción en *Sí* para calcular la desviación estándar. Debe configurar esta opción en *Sí* para usar la opción **Usar nivel de servicio** cuando calcule la propuesta (como se describe más adelante en este artículo).
 
 1. En la ficha desplegable **Registros para incluir**, puede configurar filtros y restricciones para definir qué artículos se incluyen. (Por ejemplo, puede filtrar por el valor del **Grupo de cobertura**.) Seleccione **Filtrar** para abrir un cuadro de diálogo del editor de consultas estándar, donde puede definir criterios de selección, criterios de ordenación y combinaciones. Los campos funcionan igual que para otros tipos de consultas en Microsoft Dynamics 365 Supply Chain Management.
 1. En la ficha desplegable **Ejecutar en segundo plano**, seleccione si el trabajo se debe ejecutar en modo por lotes y/o establezca una programación periódica. Los campos funcionan igual que o hacen para otros tipos de [trabajos en segundo plano](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) en Supply Chain Management.
@@ -110,7 +110,7 @@ Este paso calcula un mínimo propuesto para cada línea del diario y el impacto 
 Los cálculos que se muestran no afectarán los valores de cantidad mínima real para cada producto hasta que seleccione **Registrar** en el Panel de acciones. En ese momento, los valores de **Nueva cantidad mínima** se aplicarán a cada producto.
 
 1. Vaya a **Planificación maestra \> Planificación maestra \> Ejecutar \> Cálculo de existencias de seguridad**.
-1. Abra el diario para calcular una propuesta. Alternativamente, cree un nuevo diario como se describe anteriormente en este tema.
+1. Abra el diario para calcular una propuesta. Alternativamente, cree un nuevo diario como se describe anteriormente en este artículo.
 1. En la ficha desplegable **Líneas del diario**, seleccione **Calcular propuesta** en la barra de herramientas. (No tiene que seleccionar ninguna línea.)
 1. En el cuadro de diálogo **Calcular propuesta para nivel mínimo de inventario**, configure los siguientes campos:
 

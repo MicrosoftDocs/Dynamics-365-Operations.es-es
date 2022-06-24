@@ -1,8 +1,8 @@
 ---
 title: Instalar el complemento de visibilidad de inventario
-description: Este tema describe cómo instalar el complemento de visibilidad de inventario para Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo instalar el complemento de visibilidad de inventario para Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895710"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar la visibilidad de inventario
+# <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+Este artículo describe cómo instalar el complemento de visibilidad de inventario para Microsoft Dynamics 365 Supply Chain Management.
 
-Este tema describe cómo instalar el complemento de visibilidad de inventario para Microsoft Dynamics 365 Supply Chain Management.
+Debe usar Microsoft Dynamics Lifecycle Services (LCS) para instalar el complemento de visibilidad de inventario. LCS es un portal de colaboración que proporciona un entorno y un conjunto de servicios actualizados periódicamente que le ayudan a gestionar el ciclo de vida de la aplicación de sus aplicaciones de Finance and Operations. Para obtener más información, consulte [Recursos de Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Debe usar Microsoft Dynamics Lifecycle Services (LCS) para instalar el complemento de visibilidad de inventario. LCS es un portal de colaboración que proporciona un entorno y un conjunto de servicios actualizados periódicamente que le ayudan a gestionar el ciclo de vida de la aplicación de sus aplicaciones de Finance and Operations.
-
-Para obtener más información, consulte [Recursos de Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Le recomendamos que se una al grupo de usuarios del complemento Visibilidad de inventario, donde puede encontrar guías útiles, obtener nuestras últimas actualizaciones y publicar cualquier pregunta que pueda tener sobre el uso de Visibilidad de inventario. Para unirse, envíe un correo electrónico al equipo de productos de Visibilidad de inventario a [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e incluya su identificador de entorno de Supply Chain Management.
 
 ## <a name="inventory-visibility-prerequisites"></a>Requisitos previos Visibilidad de inventario
 
@@ -44,6 +44,9 @@ Si tiene alguna pregunta sobre estos requisitos previos, contacte con el equipo 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalar el complemento de visibilidad de inventario
 
 Antes de instalar el complemento, registre una solicitud y agregue un secreto de cliente a Azure Active Directory (Azure AD) en su suscripción de Azure. Para obtener instrucciones, consulte [Registrar una solicitud](/azure/active-directory/develop/quickstart-register-app) y [Agregar un secreto de cliente](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Asegúrese de anotar los valores de **Id. de la aplicación (cliente)**, **Secreto del cliente** e **Id. de inquilino**, porque los necesitará más adelante.
+
+> [!IMPORTANT]
+> Si tiene más de un entorno LCS, cree una aplicación de Azure AD diferente para cada uno de ellos. Si usa el mismo ID de aplicación y el mismo ID de inquilino para instalar el complemento de visibilidad de inventario para diferentes entornos, se producirá un problema de token para los entornos más antiguos. De este modo, solo será válida la último instalación.
 
 Después de registrar una solicitud y agregar un secreto de cliente en Azure AD, siga estos pasos para instalar el complemento de visibilidad de inventario.
 
@@ -72,11 +75,18 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 1. Seleccione **Instalar**. El estado del complemento se muestra como **Instalando**. Cuando se complete la instalación, actualice la página. El estado debería cambiar a **Instalado**.
 1. En Dataverse, seleccione la sección **Aplicaciones** en la navegación de la izquierda y verifique que **Visibilidad de inventario** Power Apps se instala correctamente. Si la sección **Aplicaciones** no exsite, póngase en contacto con el equipo de productos de Visibilidad del inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> Le recomendamos que se una al grupo de usuarios del complemento Visibilidad de inventario, donde puede encontrar guías útiles, obtener nuestras últimas actualizaciones y publicar cualquier pregunta que pueda tener sobre el uso de Visibilidad de inventario. Para unirse, envíe un correo electrónico al equipo de productos de Visibilidad de inventario a [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) e incluya su identificador de entorno de Supply Chain Management.
-
-> [!IMPORTANT]
-> Si tiene más de un entorno LCS, cree una aplicación de Azure AD diferente para cada entorno. Si usa el mismo ID de aplicación y el mismo ID de inquilino para instalar el complemento de visibilidad de inventario para diferentes entornos, se producirá un problema de token para los entornos más antiguos. Solo será válido el último que se instaló.
+> [!NOTE]
+> Si tarda más de una hora en instalarse desde la página de LCS, es probable que su cuenta de usuario no tenga permiso para instalar soluciones en el entorno de Dataverse. Siga estos pasos para solucionar el problema:
+>
+> 1. Cancele el proceso de instalación del complemento de visibilidad de inventario desde la página LCS.
+> 1. Inicie sesión en el [Centro de administración de Microsoft 365](https://admin.microsoft.com) y asegúrese de que la cuenta de usuario que desea usar para instalar el complemento tenga la licencia de "Plan de Dynamics 365 Unified Operations" asignada. Asigne la licencia si es necesario.
+> 1. Inicie sesión en el [Centro de administración de Power Platform](https://admin.powerplatform.microsoft.com) utilizando la cuenta de usuario correspondiente. A continuación, instale el complemento de visibilidad de inventario siguiendo estos pasos:
+>     1. Seleccione el entorno donde desea instalar el complemento.
+>     1. Seleccione **Aplicaciones de Dynamics 365**.
+>     1. Seleccione **Instalar aplicación**.
+>     1. Seleccione **Visibilidad de inventario**
+>
+> 1. Una vez finalizada la instalación, vuelva a la página de LCS e intente volver a instalar el complemento **Visibilidad de inventario**.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar el complemento de visibilidad de inventario
 

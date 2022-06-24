@@ -1,6 +1,6 @@
 ---
 title: Página principal de Administración de la organización
-description: Este tema nos señala los recursos que le ayudarán en una organización.
+description: Este artículo nos señala los recursos que le ayudarán en una organización.
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882060"
 ---
 # <a name="organization-administration-home-page"></a>Página principal de Administración de la organización
 
 [!include [banner](../includes/banner.md)]
 
-Este tema aborda contenido que le ayudará a capacitar a usuarios y administradores para configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
+Este artículo aborda contenido que le ayudará a capacitar a usuarios y administradores para configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
 
 La mayor parte del contenido que se detalla aquí se aplica a características del módulo **Administración de organización** . Sin embargo, existen un par de tareas, como la creación y el uso de una plantilla de registro, que se pueden realizar en cualquier módulo y así permitirle perfeccionar el funcionamiento de su organización.
 

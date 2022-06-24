@@ -1,6 +1,6 @@
 ---
 title: El correo electrónico de bienvenida no se envía cuando se crean nuevos clientes
-description: Este tema proporciona una guía para la solución de problemas que puede ayudar si no se envía una notificación de correo electrónico de bienvenida cuando se crea un nuevo cliente en Microsoft Dynamics 365 Commerce.
+description: Este artículo proporciona una guía para la solución de problemas que puede ayudar si no se envía una notificación de correo electrónico de bienvenida cuando se crea un nuevo cliente en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 1a4faf6cd189f69232e7f9ab8d0e79b320cfe2d9
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853692"
 ---
 # <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>El correo electrónico de bienvenida no se envía cuando se crean nuevos clientes
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema proporciona una guía para la solución de problemas que puede ayudar si no se envía una notificación de correo electrónico de bienvenida cuando se crea un nuevo cliente en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una guía para la solución de problemas que puede ayudar si no se envía una notificación de correo electrónico de bienvenida cuando se crea un nuevo cliente en Microsoft Dynamics 365 Commerce.
 
 ## <a name="description"></a>Description
 

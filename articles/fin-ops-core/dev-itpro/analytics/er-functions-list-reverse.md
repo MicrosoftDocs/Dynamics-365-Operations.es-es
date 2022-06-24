@@ -1,6 +1,6 @@
 ---
 title: Función REVERSE de ER
-description: Este tema proporciona información general sobre cómo usar la función REVERSE de informes electrónicos (ER).
+description: En este artículo se proporciona información sobre cómo usar la función REVERSE de informes electrónicos (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fc3c2f845f84a5435fd0119a7eaa146caa2dc8da9c931ccfe0915af91ed7cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fce611b755865db15e8877e58d59bdf36bc730fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752372"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881530"
 ---
 # <a name="reverse-er-function"></a>Función REVERSE de ER
 

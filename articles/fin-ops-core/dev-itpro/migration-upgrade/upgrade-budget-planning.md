@@ -1,6 +1,6 @@
 ---
 title: Actualización de la planificación presupuestaria
-description: Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.
+description: Este artículo explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890417"
 ---
 # <a name="upgrade-budget-planning"></a>Actualización de la planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-Existen diferencias significativas en el plan presupuestario entre Microsoft Dynamics AX 2012 y Dynamics 365 Finance. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.  
+Existen diferencias significativas en el plan presupuestario entre Microsoft Dynamics AX 2012 y Dynamics 365 Finance. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este artículo explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.  
 
-El plan presupuestario de Finance tiene muchos mejoras que no estaban disponibles en Dynamics AX 2012. Este tema explica los cambios que los clientes que realizan una actualización deben llevar a cabo. También indica las nuevas características que se deben tener en cuenta durante el proceso de actualización. Debido a la extensión de los cambios, no se podrá abrir ningún plan de presupuesto existente hasta que no se hayan llevado a cabo los cambios descritos en este tema. Sin embargo, en principio los informes deben seguir funcionando y no se requerirá efectuar ningún cambio adicional.
+El plan presupuestario de Finance tiene muchos mejoras que no estaban disponibles en Dynamics AX 2012. Este artículo explica los cambios que los clientes que realizan una actualización deben llevar a cabo. También indica las nuevas características que se deben tener en cuenta durante el proceso de actualización. Debido a la extensión de los cambios, no se podrá abrir ningún plan de presupuesto existente hasta que no se hayan llevado a cabo los cambios descritos en este artículo. Sin embargo, en principio los informes deben seguir funcionando y no se requerirá efectuar ningún cambio adicional.
 
 ## <a name="overview-of-changes"></a>Visión general de los cambios
 Se han introducido muchos cambios importantes en la gestión presupuestaria de Finance and Operations. Estos cambios tienen por objeto facilitar la configuración de la planificación presupuestaria y hacer que sea más reutilizable, a fin de reducir el mantenimiento y la configuración año tras año. Las siguientes áreas de AX 2012 ya no existen en Finance:
@@ -58,7 +58,7 @@ Los procesos de planificación presupuestaria son básicamente los mismos que en
 En AX 2012, los documentos de la justificación se guardaban en una carpeta de archivos adjuntos. No se actualiza ningún documento de justificación anterior. Ahora los documentos de justificación se almacenan en la base de datos. Si esta información debe guardarse en la versión actualizada, puede cargar los documentos de justificación finales de cada plan como un archivo adjunto usando el botón **Justificación** del panel de acciones. En AX 2012, las hojas de cálculo de Excel de cada plan presupuestario se creaban a partir de la plantilla. En Finance, todos los planes abren una copia del diseño. Sin embargo, no se guardan los cambios en el archivo de Excel. Las fórmulas o la información de soporte que se emplearon por cada plan se deben agregar mediante comentarios, un documento de justificación, o algún otro proceso suplementario.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configuración de un entorno actualizado desde AX 2012
-Para ayudarlo a determinar cómo configurar el sistema actualizado, el siguiente ejemplo usa un proceso presupuestario actualizado a partir de datos de demostración de AX 2012. Se crearon datos de configuración predeterminados para las columnas para ayudar con el proceso de actualización. Puede actualizar o eliminar este datos predeterminados si no cumplen sus requisitos de configuración. **Nota:** Hay nuevos campos obligatorios que no estarán establecidos en el sistema. Si se queda bloqueado en una página, como la página **Configuración de planificación presupuestaria**, y no puede salir de ella, puede cerrar el explorador y después volver a abrirlo en una página diferente para especificar los detalles en el orden correcto. Existen campos obligatorios que todavía no están establecidos. Por lo tanto, se pueden producir problemas hasta que no se haya configurado todo y no se hayan establecido todos los campos obligatorios. Este tema explica cómo establecer estos campos, según convenga. Estos son algunos campos obligatorios:
+Para ayudarlo a determinar cómo configurar el sistema actualizado, el siguiente ejemplo usa un proceso presupuestario actualizado a partir de datos de demostración de AX 2012. Se crearon datos de configuración predeterminados para las columnas para ayudar con el proceso de actualización. Puede actualizar o eliminar este datos predeterminados si no cumplen sus requisitos de configuración. **Nota:** Hay nuevos campos obligatorios que no estarán establecidos en el sistema. Si se queda bloqueado en una página, como la página **Configuración de planificación presupuestaria**, y no puede salir de ella, puede cerrar el explorador y después volver a abrirlo en una página diferente para especificar los detalles en el orden correcto. Existen campos obligatorios que todavía no están establecidos. Por lo tanto, se pueden producir problemas hasta que no se haya configurado todo y no se hayan establecido todos los campos obligatorios. Este artículo explica cómo establecer estos campos, según convenga. Estos son algunos campos obligatorios:
 
 -   Página **Proceso de planificación presupuestaria**: campo **Estructura contable predeterminada**
 -   Página **Proceso de planificación presupuestaria**: campo **Diseño** en la ficha desplegable **Reglas y diseños de fase de planificación presupuestaria**

@@ -1,6 +1,6 @@
 ---
 title: Gestionar cambios en fórmulas y sus componentes.
-description: Este tema describe cómo realizar la gestión de fórmulas y gestionar los cambios para procesar los datos maestros de fabricación.
+description: Este artículo describe cómo realizar la gestión de fórmulas y gestionar los cambios para procesar los datos maestros de fabricación.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904083"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gestionar cambios en fórmulas y sus componentes.
 
@@ -29,7 +29,7 @@ Si está utilizando las capacidades de fabricación de procesos de Microsoft Dyn
 
 ## <a name="turn-this-feature-on-or-off"></a>Activar o desactivar esta característica
 
-La funcionalidad descrita en este tema requiere que se activen las características *Administración de cambios de ingeniería* y *Administrar cambios en fórmulas y sus componentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
+La funcionalidad descrita en este artículo requiere que se activen las características *Administración de cambios de ingeniería* y *Administrar cambios en fórmulas y sus componentes* en su sistema. Para obtener detalles sobre cómo activar o desactivar estas características, consulte [Información general de la gestión de cambios de ingeniería](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenciones de nomenclatura de funciones
 
@@ -46,7 +46,7 @@ La siguiente lista resume cómo se aplican las funciones de administración de c
 - **Control de disponibilidad** : use las verificaciones del sistema y la guía del usuario (cuestionarios y listas de verificación) para asegurarse de que todos los datos requeridos del producto se ingresen por completo antes de que se publique el producto. Para obtener más información, consulte [Preparación del producto](product-readiness.md).
 - **Funcionalidad de lanzamiento de productos mejorada**: versiones completamente definidas de un producto y su fórmula de una organización (entidad legal) a otras entidades legales. Incluso puede decidir si la información del producto debe revisarse o editarse antes de su publicación. Para obtener más información, consulte [Liberar estructuras de productos](release-product-structure.md).
 
-Tenga en cuenta que la mayoría de los temas a los que se vinculan en la lista anterior proporcionan ejemplos que se basan en listas de materiales (BOM). Sin embargo, las fórmulas funcionan de manera similar. A continuación, se muestran algunos conceptos adicionales que es útil conocer cuando utiliza la gestión de cambios (o solo la gestión de cambios de fórmulas) para administrar fórmulas y listas de materiales:
+Tenga en cuenta que la mayoría de los artículos a los que se vinculan en la lista anterior proporcionan ejemplos que se basan en listas de materiales (BOM). Sin embargo, las fórmulas funcionan de manera similar. A continuación, se muestran algunos conceptos adicionales que es útil conocer cuando utiliza la gestión de cambios (o solo la gestión de cambios de fórmulas) para administrar fórmulas y listas de materiales:
 
 - Para cada [categoría de ingeniería de producto](engineering-versions-product-category.md), puede especificar el tipo de producción (lista de materiales, fórmula o artículo de planificación). También puede especificar si se requiere soporte de peso capturado para los productos que usan esa categoría.
 - Los coproductos y subproductos no son productos de ingeniería. Por lo tanto, no están versionados. Si debe cambiarlos, simplemente cree un nuevo producto. Este enfoque facilita el mantenimiento.

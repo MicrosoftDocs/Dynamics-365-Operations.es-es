@@ -1,6 +1,6 @@
 ---
-title: Configurar las asignaciones del modelo de ER dependientes de contexto del país
-description: Este tema explica cómo puede configurar asignaciones de modelo de ER de modo que dependen del contexto del país o región de la entidad jurídica que controla su uso.
+title: Configurar asignaciones de modelos de informes electrónicos dependientes del contexto del país
+description: Este artículo explica cómo puede configurar asignaciones de modelo de ER de modo que dependen del contexto del país o región de la entidad jurídica que controla su uso.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883886"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar las asignaciones del modelo de ER dependientes de contexto del país
 
 [!include[banner](../includes/banner.md)]
 
-Puede configurar las asignaciones de modelo de informes electrónicas (ER) de modo que implementen un modelo de datos de ER genérico, pero son específicas de Dynamics 365 Finance. Este tema explica cómo diseñar varias asignaciones de modelos de ER para un modelo de datos de ER para controlar cómo se usan por los formatos de ER correspondientes que se ejecutan desde empresas con contextos diferente de país o región.
+Puede configurar las asignaciones de modelo de informes electrónicas (ER) de modo que implementen un modelo de datos de ER genérico, pero son específicas de Dynamics 365 Finance. Este artículo explica cómo diseñar varias asignaciones de modelos de ER para un modelo de datos de ER para controlar cómo se usan por los formatos de ER correspondientes que se ejecutan desde empresas con contextos diferente de país o región.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para completar los ejemplos de este tema, debe tener el acceso siguiente:
+Para completar los ejemplos de este artículo, debe tener el acceso siguiente:
 
 - Acceso a Finance para uno de los roles siguientes:
     - Desarrollador de informes electrónicos
@@ -42,11 +42,11 @@ Para completar los ejemplos de este tema, debe tener el acceso siguiente:
     - Consultor funcional de informes electrónicos
     - Administrador del sistema
 
-Algunos pasos de este tema requieren la ejecución de un formato de ER. En algunos casos, la ejecución de un formato de ER se verá afectada por el contexto del país o región de la empresa en la que ha iniciado sesión actualmente. Puede ejecutar un formato de ER en la instancia de RCS actual si la empresa que tiene el contexto necesario de país o región está disponible en el RCS. Si no, debe cargar una versión completada de la asignación del modelo de ER y los parámetros de formato de ER que usan el modelo de datos de ER par su instancia de Finance y, después, ejecutar el formato de ER en dicha instancia de Finance. Para obtener más información sobre cómo importar las configuraciones que residen en RCS en una instancia de Finance, consulte [Importar configuraciones de RCS](rcs-download-configurations.md).
+Algunos pasos de este artículo requieren la ejecución de un formato de ER. En algunos casos, la ejecución de un formato de ER se verá afectada por el contexto del país o región de la empresa en la que ha iniciado sesión actualmente. Puede ejecutar un formato de ER en la instancia de RCS actual si la empresa que tiene el contexto necesario de país o región está disponible en el RCS. Si no, debe cargar una versión completada de la asignación del modelo de ER y los parámetros de formato de ER que usan el modelo de datos de ER par su instancia de Finance y, después, ejecutar el formato de ER en dicha instancia de Finance. Para obtener más información sobre cómo importar las configuraciones que residen en RCS en una instancia de Finance, consulte [Importar configuraciones de RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Caso de asignación de un único modelo
 
-Siga los pasos en el [Apéndice 1](#appendix1) de este tema para diseñar los componentes de ER requeridos. Ahora tiene la configuración del modelo de asignaciones **Asignación (general)** que contiene la asignación del modelo para la definición de **Punto de entrada 1**.
+Siga los pasos en el [Apéndice 1](#appendix1) de este artículo para diseñar los componentes de ER requeridos. Ahora tiene la configuración del modelo de asignaciones **Asignación (general)** que contiene la asignación del modelo para la definición de **Punto de entrada 1**.
 
 ![Página de configuraciones de ER, formato para aprender la configuración de asignaciones.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Observe que el explorador web ofrece descargar el archivo de texto generado por 
 
 ## <a name="multiple-shared-model-mappings-case"></a>Caso de asignaciones múltiples de modelos compartidos
 
-Siga los pasos en el [Apéndice 2](#appendix2) de este tema para diseñar los componentes de ER requeridos. Ahora tiene las configuraciones del modelo de asignaciones **Asignación (general)** y **Asignación (general), personalizada**, que cada una de ellas contiene la asignación del modelo para la definición de **Punto de entrada 1**.
+Siga los pasos en el [Apéndice 2](#appendix2) de este artículo para diseñar los componentes de ER requeridos. Ahora tiene las configuraciones del modelo de asignaciones **Asignación (general)** y **Asignación (general), personalizada**, que cada una de ellas contiene la asignación del modelo para la definición de **Punto de entrada 1**.
 
 ![Página de configuraciones de ER, configuración personalizada de asignación general.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Observe que la ejecución del formato de ER seleccionado se ha desarrollado corr
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Caso de asignaciones combinadas de modelos compartidos
 
-Siga los pasos en el [Apéndice 3](#appendix3) de este tema para diseñar los componentes de ER requeridos. Ahora tiene las configuraciones del modelo de asignaciones **Asignación (general)**, **Asignación (general), personalizada** y **Asignación de modelos de asignaciones (FR)** que contienen la asignación de modelos para la definición de **Punto de entrada 1**.
+Siga los pasos en el [Apéndice 3](#appendix3) de este artículo para diseñar los componentes de ER requeridos. Ahora tiene las configuraciones del modelo de asignaciones **Asignación (general)**, **Asignación (general), personalizada** y **Asignación de modelos de asignaciones (FR)** que contienen la asignación de modelos para la definición de **Punto de entrada 1**.
 
 Observe que la versión 1 de la configuración de la asignación de modelos **Asignación (FR)** está configurada de modo que solo se aplique a los formatos de ER del modelo **Modelo para aprender asignaciones** que se ejecutan en las empresas con contexto de país o región francés.
 
@@ -138,10 +138,10 @@ Observe que la ejecución del formato de ER seleccionado se ha desarrollado corr
 
 Como ha comprado, la selección de una asignación de modelo para la ejecución de un formato de ER funciona de la siguiente forma:
 
-- Se especifica la definición de la asignación de modelos que usa un formato de ER (**Punto de entrada 1** en los ejemplos de este tema).
-- Todas las configuraciones de asignación que contienen una asignación con la definición especificada, y que satisfacen cualquier restricción de contexto de país o región que se hayan configurado, se podrían utilizar para ejecutar el formato de ER (**Asignación (general)**, **Asignación (general), personalizada** y **Asignación (FR)** en los ejemplos de este tema).
-- Cualquier asignación de modelo predeterminado con restricciones de contexto de país o región tiene la máxima prioridad de selección (**Asignación (FR)** en los ejemplos de este tema).
-- Cualquier asignación de modelo predeterminado que no tenga restricciones de contexto del país o región tiene la máxima prioridad de selección (**Asignación (general), personalizada** en los ejemplos de este tema).
+- Se especifica la definición de la asignación de modelos que usa un formato de ER (**Punto de entrada 1** en los ejemplos de este artículo).
+- Todas las configuraciones de asignación que contienen una asignación con la definición especificada, y que satisfacen cualquier restricción de contexto de país o región que se hayan configurado, se podrían utilizar para ejecutar el formato de ER (**Asignación (general)**, **Asignación (general), personalizada** y **Asignación (FR)** en los ejemplos de este artículo).
+- Cualquier asignación de modelo predeterminado con restricciones de contexto de país o región tiene la máxima prioridad de selección (**Asignación (FR)** en los ejemplos de este artículo).
+- Cualquier asignación de modelo predeterminado que no tenga restricciones de contexto del país o región tiene la máxima prioridad de selección (**Asignación (general), personalizada** en los ejemplos de este artículo).
 - Cualquier asignación de modelos con restricciones de contexto de país o región tiene prioridad más alta de selección que una asignación de modelos que no tenga restricciones de contexto de país o región.
 
 La siguiente tabla ofrece información sobre los resultados de la selección de asignación de modelos para todos los casos posibles para parámetros de asignación de modelos:

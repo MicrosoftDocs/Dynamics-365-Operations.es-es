@@ -1,6 +1,6 @@
 ---
 title: Configuración de la previsión de la demanda
-description: En este tema se describen las tareas de configuración que debe realizar antes de poder usar la previsión de la demanda.
+description: En este artículo se describen las tareas de configuración que debe realizar antes de poder usar la previsión de la demanda.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901013"
 ---
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar previsiones de demanda.  
+Este artículo describe cómo configurar previsiones de demanda.  
 
 ## <a name="item-allocation-keys"></a>Claves de asignación por artículos
 
@@ -245,7 +245,7 @@ Utilice el siguiente procedimiento para crear un nuevo espacio de trabajo de apr
 1. Complete el asistente siguiendo las instrucciones en pantalla. Tenga en cuenta los siguientes puntos mientras trabaja:
 
     - Utilice la configuración predeterminada a menos que otros puntos de esta lista recomienden configuraciones diferentes.
-    - Asegúrese de seleccionar la región geográfica que coincida con la región donde se implementa su instancia de Supply Chain Management. De lo contrario, algunos de sus datos podrían atravesar los límites de la región. Para obtener más información, consulte el [Aviso de privacidad](#privacy) más adelante en este tema.
+    - Asegúrese de seleccionar la región geográfica que coincida con la región donde se implementa su instancia de Supply Chain Management. De lo contrario, algunos de sus datos podrían atravesar los límites de la región. Para obtener más información, consulte el [Aviso de privacidad](#privacy) más adelante en este artículo.
     - Utilice recursos dedicados, como grupos de recursos, cuentas de almacenamiento, registros de contenedores, almacenes de claves de Azure y recursos de red.
     - En la página **Configurar parámetros de conexión del Azure Machine Learning Service** del asistente, debe proporcionar un nombre de cuenta de almacenamiento. Utilice una cuenta dedicada a la previsión de la demanda. Los datos de entrada y salida de previsión de la demanda se almacenarán en esta cuenta de almacenamiento.
 

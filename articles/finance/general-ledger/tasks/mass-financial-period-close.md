@@ -1,6 +1,6 @@
 ---
 title: Cierre masivo de período financiero
-description: En este tema se muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo.
+description: En este artículo se muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo.
 author: aprilolson
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872452"
 ---
 # <a name="mass-financial-period-close"></a>Cierre masivo de período financiero
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo. Además, la tarea mostrará cómo restringir el registro del grupo de usuarios a módulos específicos.
+En este artículo se muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo. Además, la tarea mostrará cómo restringir el registro del grupo de usuarios a módulos específicos.
 
 1. En el panel de navegación, vaya a **Contabilidad general > Cierre de período > Calendarios del libro mayor**. Tenga en cuenta que la lista de entidades jurídicas presentadas depende del calendario fiscal seleccionado en la página. Solo se mostrarán las entidades jurídicas que usan el calendario fiscal seleccionado.
 2. Seleccione **Editar**.

@@ -1,6 +1,6 @@
 ---
 title: Habilitar recomendaciones de "comprar looks similares"
-description: Este tema describe cómo habilitar las recomendaciones de productos "comprar por aspectos similares" en Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo habilitar las recomendaciones de productos "comprar por aspectos similares" en Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884586"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Habilitar recomendaciones de "comprar looks similares"
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo habilitar las recomendaciones de productos "comprar por aspectos similares" en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo habilitar las recomendaciones de productos "comprar por aspectos similares" en Microsoft Dynamics 365 Commerce.
 
 La característica de recomendaciones "comprar looks similares" de Dynamics 365 Commerce utiliza el poder de la inteligencia artificial y el aprendizaje automático (AI-ML) para ofrecer a los clientes recomendaciones de productos visualmente similares. Al hacer que las recomendaciones de "comprar looks similares" estén disponibles para todos los canales minoristas en Commerce, los minoristas pueden aumentar la satisfacción del cliente al ayudarlos a encontrar fácilmente lo que buscan.
 

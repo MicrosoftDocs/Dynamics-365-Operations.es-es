@@ -1,6 +1,6 @@
 ---
 title: Generar informes financieros
-description: Este tema proporciona información acerca de la generación de un informe financiero.
+description: Este artículo proporciona información acerca de la generación de un informe financiero.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898838"
 ---
 # <a name="generate-financial-reports"></a>Generar informes financieros
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información acerca de la generación de un informe financiero.
+Este artículo proporciona información acerca de la generación de un informe financiero.
 
 Para generar un informe, abra la definición del informe y seleccione el botón **Generar** en la barra de herramientas. La página **Estado de la cola del informe** se abrirá e indicará la ubicación del informe en la cola.
 

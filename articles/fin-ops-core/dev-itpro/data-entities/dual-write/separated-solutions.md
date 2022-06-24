@@ -1,6 +1,6 @@
 ---
 title: Paquete de orquestación de aplicaciones de escritura dual separada
-description: El paquete de orquestación de aplicaciones de escritura dual ya no es un paquete único, sino que se ha separado en paquetes más pequeños. Este tema explica las soluciones y los mapas que contiene cada paquete, y su dependencia de otros paquetes.
+description: El paquete de orquestación de aplicaciones de escritura dual ya no es un paquete único, sino que se ha separado en paquetes más pequeños. Este artículo explica las soluciones y los mapas que contiene cada paquete, y su dependencia de otros paquetes.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874823"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Paquete de orquestación de aplicaciones de escritura dual separada
 
@@ -42,7 +42,7 @@ Debido a que era un paquete único, este paquete creaba una situación de "todo 
 
 ![Paquete separado.](media/separated-package-1.png)
 
-Este tema explica las soluciones y los mapas que contiene cada paquete, y su dependencia de otros paquetes.
+Este artículo explica las soluciones y los mapas que contiene cada paquete, y su dependencia de otros paquetes.
 
 ## <a name="dual-write-application-core"></a>Núcleo de aplicación de doble escritura
 

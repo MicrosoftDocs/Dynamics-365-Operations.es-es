@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.24 (febrero de 2022)
-description: En este tema se describen las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management 10.0.24.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Supply Chain Management 10.0.24.
 author: kamaybac
 ms.date: 12/03/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a8f0dc5c7498d04230e5e7356979e08ee3a86052
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849456"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.24 (febrero de 2022)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.24. Esta versión tiene el número de compilación 10.0.1084 y está disponible de la siguiente manera:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.24. Esta versión tiene el número de compilación 10.0.1084 y está disponible de la siguiente manera:
 
 - **Versión preliminar:** diciembre de 2021
 - **Disponibilidad general de la versión (actualización automática):** enero de 2022
@@ -29,7 +29,7 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. Puede que haya actualizaciones de este tema para incluir características que se incluyeron en la compilación después de la publicación inicial del tema.
+La tabla siguiente enumera las características incluidas en esta versión. Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -52,9 +52,9 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 
-Recientemente hemos agregado o actualizado significativamente los siguientes temas de ayuda. Estos temas no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
+Recientemente hemos agregado o actualizado significativamente los siguientes artículos de ayuda. Estos artículos no están necesariamente relacionados con las nuevas funciones que se agregaron para esta versión, como se enumeran en la sección anterior. Sin embargo, pueden ayudarlo a aprovechar al máximo las funciones existentes.
 
-| Área de características | Temas nuevos o actualizados |
+| Área de características | Artículos nuevos o actualizados |
 |---|---|
 | Gestión de costes | [Informes de valor de inventario](../cost-management/inventory-value-report-storage.md) |
 | Gestión de costes | [Ejemplos de informes de valor de inventario y lógica](../cost-management/inventory-value-report-examples.md) |
@@ -84,12 +84,12 @@ Consulte [Dynamics 365 y las nubes de la industria: plan del lanzamiento de vers
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Características de Supply Chain Management quitadas o en desuso
 
-En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
+En el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
 - Una característica *quitada* dejará de estar disponible en el producto.
 - Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
-Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
+Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el artículo [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 

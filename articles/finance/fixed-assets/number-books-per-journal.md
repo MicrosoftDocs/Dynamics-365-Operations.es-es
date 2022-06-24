@@ -1,6 +1,6 @@
 ---
 title: Número de libros por diario
-description: Este tema describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para depreciación.
+description: Este artículo describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para depreciación.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883340"
 ---
 # <a name="number-of-books-per-journal"></a>Número de libros por diario
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para la depreciación utilizando los campos de la sección **Número de libros por diario**, en la pestaña **General** de la página **Parámetros de activos fijos** (**Activos fijos \> Configurar \> Parámetros de activos fijos**). Estos campos le permiten distribuir el número de libros de activos por diario de adquisiciones y diario de depreciación.
+Este artículo describe la relación entre diarios y libros de activos cuando crea una propuesta de adquisición o depreciación de activos fijos a través de un trabajo por lotes. Puede definir el número máximo de libros que se incluyen para cada adquisición y para la depreciación utilizando los campos de la sección **Número de libros por diario**, en la pestaña **General** de la página **Parámetros de activos fijos** (**Activos fijos \> Configurar \> Parámetros de activos fijos**). Estos campos le permiten distribuir el número de libros de activos por diario de adquisiciones y diario de depreciación.
 
 Para una propuesta de adquisición, el valor predeterminado es al menos 10.000 libros. Para una propuesta de depreciación, el valor predeterminado es al menos 2000 libros.
 

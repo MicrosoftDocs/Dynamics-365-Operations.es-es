@@ -1,6 +1,6 @@
 ---
 title: Flujos de trabajo de aprobación de diario de inventario
-description: Este tema describe cómo puede establecer y usar flujos de trabajo de aprobación de diarios de inventario para registrar diversos tipos de transacciones de inventario físico. Los flujos de trabajo del diario de inventario ayudan a garantizar que solo los diarios de inventario aprobados puedan contabilizarse en las transacciones.
+description: Este artículo describe cómo puede establecer y usar flujos de trabajo de aprobación de diarios de inventario para registrar diversos tipos de transacciones de inventario físico. Los flujos de trabajo del diario de inventario ayudan a garantizar que solo los diarios de inventario aprobados puedan contabilizarse en las transacciones.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873996"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flujos de trabajo de aprobación de diario de inventario
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo establecer y usar flujos de trabajo de aprobación de inventarios para varios para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, listas de materiales (L. MAT.) y la conciliación del inventario físico. Los flujos de trabajo del diario de inventario ayudan a garantizar que solo los diarios de inventario aprobados puedan contabilizarse en las transacciones.
+En este artículo se describe cómo establecer y usar flujos de trabajo de aprobación de inventarios para varios para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, listas de materiales (L. MAT.) y la conciliación del inventario físico. Los flujos de trabajo del diario de inventario ayudan a garantizar que solo los diarios de inventario aprobados puedan contabilizarse en las transacciones.
 
 > [!NOTE]
 > Los flujos de trabajo de aprobación de diarios de inventario se aplican solo a las transacciones registradas utilizando el módulo de Gestión de inventario. No funcionan con diarios de inventario activados desde el módulo Gestión de almacenes.

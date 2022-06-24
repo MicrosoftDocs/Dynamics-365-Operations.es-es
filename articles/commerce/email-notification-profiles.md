@@ -1,6 +1,6 @@
 ---
-title: Configurar un perfil de notificación por correo electrónico
-description: Este tema describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
+title: Configurar perfil de notificación por correo electrónico
+description: Este artículo describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878495"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificación por correo electrónico
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
 
 Cuando crea canales, puede configurar un perfil de notificación por correo electrónico. El perfil de notificación por correo electrónico define los eventos de una transacción de ventas (como eventos de pedido creado, pedido empaquetado y pedido facturado) para los cuales enviará notificaciones a sus clientes. 
 

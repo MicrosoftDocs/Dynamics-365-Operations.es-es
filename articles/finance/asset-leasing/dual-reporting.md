@@ -1,6 +1,6 @@
 ---
 title: Informes duales
-description: Este tema le guía a través de un ejemplo que muestra cómo puede cumplir con los requisitos para la presentación de informes de la Norma Internacional de Información Financiera (IFRS) y la presentación de informes legales en el arrendamiento de activos.
+description: Este artículo le guía a través de un ejemplo que muestra cómo puede cumplir con los requisitos para la presentación de informes de la International Financial Reporting Standard (IFRS) y la presentación de informes legales en el arrendamiento de activos.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886382"
 ---
 # <a name="dual-reporting"></a>Informes duales
 
 [!include [banner](../includes/banner.md)]
 
-Este tema le guía a través de un ejemplo que muestra cómo puede cumplir con los requisitos para la presentación de informes de la Norma Internacional de Información Financiera (IFRS) y la presentación de informes legales en el arrendamiento de activos. Es necesaria la familiaridad con las capas de registro en Microsoft Dynamics 365 Finance y facilitará la comprensión del ejemplo.
+Este artículo le guía a través de un ejemplo que muestra cómo puede cumplir con los requisitos para la presentación de informes de la International Financial Reporting Standard (IFRS) y la presentación de informes legales en el arrendamiento de activos. Es necesaria la familiaridad con las capas de registro en Microsoft Dynamics 365 Finance y facilitará la comprensión del ejemplo.
 
 ## <a name="example"></a>Ejemplo
 

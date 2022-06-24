@@ -1,6 +1,6 @@
 ---
 title: Configurar un almacén mediante una plantilla de configuración de almacén
-description: Este tema explica cómo configurar un almacén mediante una plantilla de configuración de almacén.
+description: Este artículo explica cómo configurar un almacén mediante una plantilla de configuración de almacén.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856117"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar un almacén mediante una plantilla de configuración de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar un almacén mediante una plantilla de configuración de almacén. Existen varias plantillas de configuración predefinidas que puede usar. Para obtener información sobre cómo usar estas plantillas, vea [Plantillas de datos de configuración](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Este artículo explica cómo configurar un almacén mediante una plantilla de configuración de almacén. Existen varias plantillas de configuración predefinidas que puede usar. Para obtener información sobre cómo usar estas plantillas, vea [Plantillas de datos de configuración](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Situaciones de ejemplo donde las plantillas de configuración pueden ser útiles
 
@@ -38,7 +38,7 @@ Las plantillas de configuración pueden ser útiles en diversos escenarios. A co
 - Desea prepararse rápidamente para una demostración de la funcionalidad de almacén.
 - Desea que los artículos existentes y los almacenes utilicen la funcionalidad de Gestión de almacenes en lugar de la funcionalidad en Gestión del inventario.
 
-Este tema se centra en estos primeros escenarios. Muestra cómo puede usar una plantilla de configuración para copiar una configuración desde un entorno de prueba a un entorno de producción.
+Este artículo se centra en estos primeros escenarios. Muestra cómo puede usar una plantilla de configuración para copiar una configuración desde un entorno de prueba a un entorno de producción.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Copiar una configuración desde un entorno de prueba a un entorno de producción
 
@@ -90,9 +90,9 @@ Puede descargar un archivo zip para el paquete de datos. Este archivo contiene t
 
 El registro **Ejecución de la vista** proporciona información detallada acerca de cada entidad de datos que se importe. Puede usar la vista de datos provisional para obtener rápidamente los datos de destino. De esta manera, puede ver cómo se muestran los datos importados en las páginas relacionadas en la aplicación. Al utilizar las plantillas de datos predeterminadas, la secuencia de importación para cada entidad de datos funciona de la forma predefinida, para ayudar a garantizar que todos los datos dependiente se importen primero. Si las entidades personalizadas de los datos son parte del proyecto, debe asegurarse de que se ha definido la secuencia correcta. Para obtener más información, consulte [Plantillas de datos de configuración](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Para obtener más información acerca de cómo usar la plantilla del almacén para copiar la configuración de un almacén de una empresa a una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube sobre [cómo usar una plantilla de almacén para copiar la configuración para Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Para obtener más información acerca de cómo usar la plantilla del almacén para copiar la configuración de un almacén de una empresa a una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube sobre [Cómo usar la plantilla de almacén para copiar la configuración de Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
-## <a name="related-topic"></a>Tema relacionado
+## <a name="related-article"></a>Artículo relacionado
 
 [Plantillas de datos de configuración](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

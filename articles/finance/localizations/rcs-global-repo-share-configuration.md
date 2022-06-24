@@ -1,6 +1,6 @@
 ---
 title: Compartir configuraciones de ER en RCS/repositorio global con organizaciones externas
-description: Este tema explica cómo compartir configuraciones de informes electrónicos (ER) en los Regulatory Configuration Service (RCS) de Microsoft/repositorio global directamente con organizaciones externas.
+description: Este artículo explica cómo compartir configuraciones de informes electrónicos (ER) en los Regulatory Configuration Services (RCS) de Microsoft/repositorio global directamente con organizaciones externas.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888934"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Compartir configuraciones de informes electrónicos (ER) en el repositorio global de Regulatory Configuration Service (RCS) con organizaciones externas.
 

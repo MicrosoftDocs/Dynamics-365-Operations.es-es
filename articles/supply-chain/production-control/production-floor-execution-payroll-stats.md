@@ -1,6 +1,6 @@
 ---
 title: Mostrar saldos de vacaciones en la interfaz de ejecución de la planta de producción
-description: Este tema proporciona un escenario de ejemplo que muestra cómo configurar Microsoft Dynamics 365 Supply Chain Management para que utilice las estadísticas de nómina para proporcionar a los trabajadores una visión general de su saldo de vacaciones para el año en curso.
+description: Este artículo proporciona un escenario de ejemplo que muestra cómo configurar Microsoft Dynamics 365 Supply Chain Management para que utilice las estadísticas de nómina para proporcionar a los trabajadores una visión general de su saldo de vacaciones para el año en curso.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852284"
 ---
 # <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Mostrar saldos de vacaciones en la interfaz de ejecución de la planta de producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona un escenario de ejemplo que muestra cómo configurar Microsoft Dynamics 365 Supply Chain Management para que utilice las estadísticas de nómina para proporcionar a cada trabajador una visión general de su saldo de vacaciones para el año en curso. Los trabajadores podrán ver su saldo de vacaciones en el cuadro de diálogo **Mi día** en la interfaz de ejecución de la planta de producción.
+Este artículo proporciona un escenario de ejemplo que muestra cómo configurar Microsoft Dynamics 365 Supply Chain Management para que utilice las estadísticas de nómina para proporcionar a cada trabajador una visión general de su saldo de vacaciones para el año en curso. Los trabajadores podrán ver su saldo de vacaciones en el cuadro de diálogo **Mi día** en la interfaz de ejecución de la planta de producción.
 
 Este escenario utiliza la ley de vacaciones danesa, donde el año de vacaciones va desde el 1 de septiembre hasta el 31 de agosto. En este escenario, su empresa ha contratado a un nuevo trabajador y le otorgará a ese trabajador un saldo de 10 días de vacaciones por el resto del año de vacaciones en curso.
 

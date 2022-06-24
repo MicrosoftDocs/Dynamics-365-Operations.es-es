@@ -1,6 +1,6 @@
 ---
 title: Procesamiento diferido del movimiento manual de inventario
-description: Este tema describe cómo utilizar el procesamiento diferido del movimiento de inventario manual en Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo utilizar el procesamiento diferido del movimiento de inventario manual en Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863748"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Procesamiento diferido del movimiento manual de inventario
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo utilizar el procesamiento diferido del movimiento de inventario manual en Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe cómo utilizar el procesamiento diferido del movimiento de inventario manual en Microsoft Dynamics 365 Supply Chain Management.
 
 El procesamiento diferido permite a trabajadores de almacén seguir realizando otros trabajos mientras se procesa una operación de colocación en segundo plano. El procesamiento diferido también resulta útil si puede haber aumentos ocasionales o imprevistos de tiempo de procesamiento en el servidor y ese aumento del tiempo de procesamiento puede afectar a la productividad de los trabajadores. El tipo de trabajo *Movimiento de inventario* ahora se ha agregado al conjunto de tipos de trabajo que admite esta función.
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar períodos de liquidación de impuestos
-description: Este tema explica cómo configurar períodos de liquidación de impuestos en Dynamics 365 Finance.
+description: Este artículo explica cómo configurar períodos de liquidación de impuestos en Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846694"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidación de impuestos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo configurar períodos de liquidación de impuestos. Los períodos de liquidación de impuestos contienen información sobre los intervalos de períodos para los que tienen que notificarse y pagarse los impuestos. Un proceso de liquidación se puede ejecutar para un período de liquidación de un intervalo de fechas concreto. Todos los códigos de impuestos asociados con el período de liquidación se liquidarán. Según la configuración de la autoridad fiscal relacionada, la deuda tributaria se registra en un proveedor o en una cuenta de contabilidad general.
+Este artículo explica cómo configurar períodos de liquidación de impuestos. Los períodos de liquidación de impuestos contienen información sobre los intervalos de períodos para los que tienen que notificarse y pagarse los impuestos. Un proceso de liquidación se puede ejecutar para un período de liquidación de un intervalo de fechas concreto. Todos los códigos de impuestos asociados con el período de liquidación se liquidarán. Según la configuración de la autoridad fiscal relacionada, la deuda tributaria se registra en un proveedor o en una cuenta de contabilidad general.
 
 Esta tarea usa la empresa de demostración USMF.
 

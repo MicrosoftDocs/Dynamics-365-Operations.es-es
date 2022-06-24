@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877696"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Restringir la edición de información personal
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695883"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Este tema describe cómo restringir que los empleados editen los detalles de contacto en Dynamics 365 Human Resources. Es posible que desee evitar que los empleados editen ciertos detalles de contacto, como la ubicación de su empresa o la dirección de correo electrónico.
+Este artículo describe cómo restringir que los empleados editen los detalles de contacto en Dynamics 365 Human Resources. Es posible que desee evitar que los empleados editen ciertos detalles de contacto, como la ubicación de su empresa o la dirección de correo electrónico.
 
 > [!NOTE]
 > Para utilizar esta función, primero debe habilitar **(Vista previa) Impedir que los empleados agreguen o editen la dirección y la información de contacto para fines seleccionados** en Gestión de funciones. Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](hr-admin-manage-features.md).<br><br>![Habilitar característica de vista previa.](./media/hr-employee-self-service-restrict-enable.png)

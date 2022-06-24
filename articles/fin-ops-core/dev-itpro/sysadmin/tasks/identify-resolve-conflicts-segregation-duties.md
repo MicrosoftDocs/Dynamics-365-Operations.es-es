@@ -1,6 +1,6 @@
 ---
 title: Identificar y resolver conflictos de segregación de controles
-description: Este tema explica cómo identificar y resolver conflictos de segregación de controles.
+description: Este artículo explica cómo identificar y resolver conflictos de segregación de controles.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883488"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificar y resolver conflictos de segregación de controles
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo identificar y resolver conflictos de segregación de controles. Puede configurar reglas para controles diferentes que deban llevar a cabo diferentes usuarios. Este concepto se denomina "segregación de controles". Cuando la definición de un rol de seguridad o las asignaciones de roles de un usuario infringen las reglas, se registra el conflicto. Todos los conflictos los debe resolver el administrador. Complete el siguiente procedimiento para identificar y resolver conflictos.
+Este artículo explica cómo identificar y resolver conflictos de segregación de controles. Puede configurar reglas para controles diferentes que deban llevar a cabo diferentes usuarios. Este concepto se denomina "segregación de controles". Cuando la definición de un rol de seguridad o las asignaciones de roles de un usuario infringen las reglas, se registra el conflicto. Todos los conflictos los debe resolver el administrador. Complete el siguiente procedimiento para identificar y resolver conflictos.
 
 Después de agregar una regla, verifique que todos los roles existentes sean compatibles. 
 

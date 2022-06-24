@@ -1,6 +1,6 @@
 ---
 title: Diseñador de fórmulas para cálculos de TDS
-description: Este tema proporciona un ejemplo de cómo se calcula el impuesto deducido en el origen (TDS) según la fórmula definida para cada código de impuestos de TDS en el grupo de TDS que se adjunta a la transacción.
+description: Este artículo proporciona un ejemplo de cómo se calcula el impuesto deducido en el origen (TDS) según la fórmula definida para cada código de impuestos de TDS en el grupo de TDS que se adjunta a la transacción.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889872"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>Diseñador de fórmulas para cálculos de TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona un ejemplo de cómo se calcula el impuesto deducido en el origen (TDS) según la fórmula definida para cada código de impuestos de TDS. Los códigos de impuestos de TDS se definen en el grupo de TDS que se adjunta a la transacción. Antes de diseñar fórmulas de TDS, complete la configuración básica necesaria para los TDS como se indica en los siguientes pasos. 
+Este artículo proporciona un ejemplo de cómo se calcula el impuesto deducido en el origen (TDS) según la fórmula definida para cada código de impuestos de TDS. Los códigos de impuestos de TDS se definen en el grupo de TDS que se adjunta a la transacción. Antes de diseñar fórmulas de TDS, complete la configuración básica necesaria para los TDS como se indica en los siguientes pasos. 
 
 - Configure los grupos de componentes de TDS en la página **Grupos de componentes de retención de impuestos**. 
 - Configure los componentes de TDS y adjunte el grupo de componentes de TDS a los componentes de TDS mediante la página **Componentes de retención de impuestos**. 

@@ -1,6 +1,6 @@
 ---
 title: Vista general de contenido CFO de Power BI
-description: Este tema describe el contenido de CFO de Microsoft Power BI.
+description: Este artículo describe el contenido de CFO de Microsoft Power BI.
 author: kweekley
 ms.date: 08/24/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3eab89d55ec90f3b5937773502430bf317e491ae
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 1ea8f12102cc2fac1948027f7c15d45bf5d1b15d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881562"
 ---
 # <a name="cfo-overview-power-bi-content"></a>Vista general de contenido CFO de Power BI
 
 [!include [banner](../includes/banner.md)] 
 
-Este tema describe el **Contenido de CFO** de Microsoft Power BI. El contenido Power BI se aplica a los que usen Microsoft Dynamics 365 for Finance and Operations versión 7.2. Si utiliza la versión 7.3 o superior, consulte [Financial Insights](financial-insights.md).
+Este artículo describe el contenido de la **visión general de CFO** de Microsoft Power BI. El contenido Power BI se aplica a los que usen Microsoft Dynamics 365 for Finance and Operations versión 7.2. Si utiliza la versión 7.3 o superior, consulte [Financial Insights](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 

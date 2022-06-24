@@ -1,6 +1,6 @@
 ---
 title: Crear órdenes de trabajo a partir de solicitudes de mantenimiento
-description: En este tema se explica cómo crear una orden de trabajo a partir de una solicitud de mantenimiento en Administración de activos.
+description: En este artículo se explica cómo crear una orden de trabajo a partir de una solicitud de mantenimiento en Administración de activos.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909712"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726930"
  
 
 
-Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente en órdenes de trabajo. En este tema se describe la forma más rápida de trabajar con solicitudes de mantenimiento, actualiza varias solicitudes de mantenimiento al mismo tiempo y crear una orden de trabajo para varias solicitudes de mantenimiento a la vez. En **Solicitudes de mantenimiento activas** o en la página **Mis solicitudes de mantenimiento de ubicación técnica** también puede trabajar con una solicitud de mantenimiento a la vez y convertir una solicitud de mantenimiento en una orden de trabajo.
+Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente en órdenes de trabajo. En este artículo se describe la forma más rápida de trabajar con solicitudes de mantenimiento, actualiza varias solicitudes de mantenimiento al mismo tiempo y crear una orden de trabajo para varias solicitudes de mantenimiento a la vez. En **Solicitudes de mantenimiento activas** o en la página **Mis solicitudes de mantenimiento de ubicación técnica** también puede trabajar con una solicitud de mantenimiento a la vez y convertir una solicitud de mantenimiento en una orden de trabajo.
 
 > [!NOTE]
 > Cada solicitud de mantenimiento puede relacionarse únicamente con una orden de trabajo. Sin embargo, se pueden incluir varias solicitudes de mantenimiento en una orden de trabajo, aunque las solicitudes de mantenimiento tenga activos diferentes.

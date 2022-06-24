@@ -1,6 +1,6 @@
 ---
-title: Saldos de cuentas de la contabilidad general
-description: 'En este tema se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros.'
+title: Saldos de cuentas de contabilidad
+description: 'En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros.'
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874504"
 ---
 # <a name="general-ledger-account-balances"></a>Saldos de cuentas de la contabilidad general
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones.
+En este artículo se explican dos formas de ver los saldos de la cuenta de contabilidad general: la página de lista Saldo de comprobación y los informes financieros. También se describe cómo actualizar los saldos del conjunto de dimensiones.
 
 Hay varias maneras en que los usuarios pueden ver saldos en la contabilidad general. Algunas de las opciones más comunes son:
 

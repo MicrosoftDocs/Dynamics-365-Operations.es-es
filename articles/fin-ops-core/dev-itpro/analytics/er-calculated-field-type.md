@@ -1,8 +1,8 @@
 ---
 title: Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
-description: Este tema proporciona información sobre cómo usar el tipo de campo calculado para los orígenes de datos de ER.
+description: Este artículo proporciona información sobre cómo usar el tipo de campo calculado para los orígenes de datos de ER.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934711"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo puede diseñar un origen de datos de informes electrónicos (ER) mediante el tipo **Campo calculado**. Este origen de datos puede contener una expresión del ER que, cuando se ejecuta, se puede controlar mediante los valores de los argumentos de parámetros que se configuran en un enlace que llama a este origen de datos. Al configurar llamadas con parámetros de este tipo de origen de datos, puede volver a usar un solo origen de datos en muchos enlaces, lo que reduce el número total de orígenes de datos que se deben configurar en distribuciones de modelos de ER o formatos de ER. También simplifica el componente de ER configurado, que reduce los costes de mantenimiento y el coste de uso de otros consumidores.
+Este artículo explica cómo puede diseñar un origen de datos de informes electrónicos (ER) mediante el tipo **Campo calculado**. Este origen de datos puede contener una expresión del ER que, cuando se ejecuta, se puede controlar mediante los valores de los argumentos de parámetros que se configuran en un enlace que llama a este origen de datos. Al configurar llamadas con parámetros de este tipo de origen de datos, puede volver a usar un solo origen de datos en muchos enlaces, lo que reduce el número total de orígenes de datos que se deben configurar en distribuciones de modelos de ER o formatos de ER. También simplifica el componente de ER configurado, que reduce los costes de mantenimiento y el coste de uso de otros consumidores.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Para completar los ejemplos de este tema, debe tener el acceso siguiente:
+Para completar los ejemplos de este artículo, debe tener el acceso siguiente:
 
 - Acceso a uno de estos roles:
 
@@ -46,10 +46,10 @@ Debe descargar y también almacenar localmente los archivos siguientes.
 
 | **Contenido**                           | **Nombre de archivo**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configuración del modelo datos de ER de ejemplo    | [Modelo para aprender llamadas con parámetros.versión.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Configuración de metadatos de ER de ejemplo      | [Metadatos para aprender llamadas con parámetros.versión.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Configuración del modelo de mapeado de ER de ejemplo | [Asignación para aprender llamadas con parámetros.versión.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuración de formato de ER de ejemplo        | [Formato para aprender llamadas con parámetros.versión.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configuración del modelo datos de ER de ejemplo    | [Modelo para aprender llamadas con parámetros.versión.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Configuración de metadatos de ER de ejemplo      | [Metadatos para aprender llamadas con parámetros.versión.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Configuración del modelo de mapeado de ER de ejemplo | [Asignación para aprender llamadas con parámetros.versión.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Configuración de formato de ER de ejemplo        | [Formato para aprender llamadas con parámetros.versión.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Iniciar sesión en su instancia de RCS
 En este ejemplo, creará una configuración para la empresa del ejemplo, Litware, Inc. First, en RCS, tiene que completar estos pasos, en el procedimiento [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -306,7 +306,7 @@ Cuando un campo calculado con parámetros devuelve un registro, necesita admitir
 Puede ejecutar los formatos de ER inicial y mejorado para asegurarse de que funcionan los campos calculados con parámetros configurados correctamente.
 
 ### <a name="import-er-configurations"></a>Importar configuraciones de ER
-Puede importar las configuraciones revisadas de RCS mediante el repositorio de ER del tipo **RCS**. Si ya ha revisado los pasos en el tema, utilice el tema [Importar configuraciones de informes electrónicos (ER) desde Regulatory Configuration Services (RCS)](rcs-download-configurations.md), use el repositorio de ER configurado para importar las configuraciones tratadas anteriormente en este tema a su entorno. De lo contrario, siga estos pasos:
+Puede importar las configuraciones revisadas de RCS mediante el repositorio de ER del tipo **RCS**. Si ya ha revisado los pasos en el tema, utilice el artículo [Importar configuraciones de informes electrónicos (ER) desde Regulatory Configuration Services (RCS)](rcs-download-configurations.md), use el repositorio de ER configurado para importar las configuraciones tratadas anteriormente en este artículo a su entorno. De lo contrario, siga estos pasos:
 
 1. Seleccione la empresa **DEMF** y en el panel predeterminado, seleccione **Informes electrónicos**.
 2. Seleccione **Configuraciones de informes**.

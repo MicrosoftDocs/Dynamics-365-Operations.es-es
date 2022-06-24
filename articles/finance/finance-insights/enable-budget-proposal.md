@@ -1,6 +1,6 @@
 ---
 title: Habilitar propuestas de presupuesto
-description: Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
+description: En este artículo se explica cómo activar la característica Propuesta de presupuesto en Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c2002dbd480fb520451daf9209423ce64b3239d8
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f9bcf8042931e31de1cdd59df1820238d7826000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899911"
 ---
 # <a name="enable-budget-proposal"></a>Habilitar propuestas de presupuesto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo activar la función de propuesta de presupuesto en Finance Insights.
+En este artículo se explica cómo activar la característica Propuesta de presupuesto en Finance Insights.
 
 1. Abra el espacio de trabajo **Administración de funciones** y siga estos pasos:
 

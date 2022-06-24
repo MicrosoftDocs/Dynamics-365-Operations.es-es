@@ -1,6 +1,6 @@
 ---
 title: Configurar dispositivos móviles para el trabajo de almacén
-description: En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
+description: En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905584"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
+En este artículo se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
 > [!NOTE]
-> Este tema se aplica a las funciones de gestión de almacenes. No se aplica a las funciones de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú de dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
+> Este artículo se aplica a las funciones de gestión de almacenes. No se aplica a las funciones de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú de dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
 
 - Procese una consulta o realice una actividad, como imprimir una etiqueta, generar matrículas de entidad de almacén, iniciar un pedido de producción o buscar rápidamente información sobre los elementos en una ubicación.
 - Cree el trabajo que se realizará con otro proceso. Por ejemplo, la recepción de un artículo para un pedido de compra puede crear un trabajo de ubicación para otro trabajador.
@@ -38,7 +38,7 @@ En este tema se describe cómo configurar los elementos de menú que usan los tr
 Para crear un elemento de menú para una actividad o una consulta, establezca el campo **Modo** como **Indirecto**. A continuación, se ofrece una lista de opciones de **Código de actividad** para seleccionar el tipo de consulta o actividad al que corresponde el elemento de menú. Para crear un elemento de menú para generar trabajo del almacén, establezca el campo **Modo** en **Trabajo**. A continuación, aparece una lista de opciones de **Proceso de creación de trabajo**. Para crear un elemento de menú para el trabajo existente del almacén de proceso, establezca el campo **Modo** en **Trabajo** y, a continuación, establezca la opción **Usar trabajo existente** en **Sí**. 
 
 > [!NOTE]
-> En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este tema.
+> En función del modo seleccionado para el elemento de menú, y de si el elemento de menú se usa para realizar el trabajo existente, el elemento de menú puede ofrecer otros campos. Para obtener información sobre otras selecciones de campos, consulte la sección “Opciones del elemento de menú adicionales” más adelante en este artículo.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar elementos de menú para las actividades y consultas
 

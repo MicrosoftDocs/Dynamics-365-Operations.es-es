@@ -1,6 +1,6 @@
 ---
 title: Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación
-description: Este tema explica cómo puede depurar las fuentes de datos de un formato ER ejecutado para comprender mejor el flujo y la transformación de datos configurados.
+description: Este artículo explica cómo puede depurar las fuentes de datos de un formato ER ejecutado para comprender mejor el flujo y la transformación de datos configurados.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884239"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación
 
@@ -34,7 +34,7 @@ A veces, los datos de la salida generada parecen diferentes de los mismos datos 
 
 Para activar la función de depuración del origen de datos, configure **Habilitar la depuración de datos al ejecutar formato** en **Sí** en los parámetros de usuario ER. Luego puede iniciar la depuración del origen de datos mientras ejecuta un formato ER para generar documentos salientes. También puede usar la opción **Comenzar depuración** para iniciar la depuración del origen de datos para un formato ER que está configurado en el [Diseñador de operaciones ER](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Este tema proporciona pautas para iniciar la depuración del origen de datos para los formatos ER ejecutados. Explica cómo la información puede ayudarle a comprender el flujo de datos y las transformaciones de datos. Los ejemplos de este tema utilizan el proceso comercial para el procesamiento de los pagos de proveedores.
+Este artículo proporciona pautas para iniciar la depuración del origen de datos para los formatos ER ejecutados. Explica cómo la información puede ayudarle a comprender el flujo de datos y las transformaciones de datos. Los ejemplos de este artículo utilizan el proceso comercial para el procesamiento de los pagos de proveedores.
 
 ## <a name="limitations"></a>Limitaciones
 
@@ -49,7 +49,7 @@ Actualmente no se puede acceder a las siguientes configuraciones de formatos ER 
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- Para completar los ejemplos de este tema, debe tener acceso a uno de los siguientes [roles](../sysadmin/tasks/assign-users-security-roles.md):
+- Para completar los ejemplos de este artículo, debe tener acceso a uno de los siguientes [roles](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Desarrollador de informes electrónicos
     - Consultor funcional de informes electrónicos
@@ -57,12 +57,12 @@ Actualmente no se puede acceder a las siguientes configuraciones de formatos ER 
 
 - La empresa debe establecerse en **DEMF**.
 
-- Siga los pasos del [Apéndice 1](#appendix1) de este tema para descargar los componentes de la solución ER de Microsoft que se requieren para procesar los pagos del proveedor.
-- Siga los pasos del [Apéndice 2](#appendix2) de este tema para preparar los proveedores para el procesamiento de pagos de proveedores utilizando la solución ER que descargará.
+- Siga los pasos del [Apéndice 1](#appendix1) de este artículo para descargar los componentes de la solución ER de Microsoft que se requieren para procesar los pagos del proveedor.
+- Siga los pasos del [Apéndice 2](#appendix2) de este artículo para preparar los proveedores para el procesamiento de pagos de proveedores utilizando la solución ER que descargará.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Procesar un pago de proveedor para obtener un archivo de pago
 
-1. Siga los pasos del [Apéndice 3](#appendix3) de este tema para procesar pagos de proveedores.
+1. Siga los pasos del [Apéndice 3](#appendix3) de este artículo para procesar pagos de proveedores.
 
     ![Procesamiento de pagos de proveedores en curso.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Actualmente no se puede acceder a las siguientes configuraciones de formatos ER 
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Procesar un pago a proveedor para la depuración
 
-1. Siga los pasos del [Apéndice 3](#appendix3) de este tema para procesar pagos de proveedores.
+1. Siga los pasos del [Apéndice 3](#appendix3) de este artículo para procesar pagos de proveedores.
 2. En el cuadro de mensaje, seleccione **Sí** para confirmar que desea interrumpir el procesamiento de pagos del proveedor y, en su lugar, iniciar la depuración del origen de datos en la página **Orígenes de datos de depuración**.
 
     ![Cuadro de mensaje de confirmación.](./media/er-data-debugger-start-debugging.png)

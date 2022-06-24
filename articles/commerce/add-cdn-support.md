@@ -1,6 +1,6 @@
 ---
 title: Agregar soporte para una red de entrega de contenido (CDN)
-description: Este tema describe cómo agregar una red de entrega de contenido (CDN) a su entorno de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo agregar una red de entrega de contenido (CDN) a su entorno de Microsoft Dynamics 365 Commerce.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855885"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Agregar soporte para una red de entrega de contenido (CDN)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo agregar una red de entrega de contenido (CDN) a su entorno de Microsoft Dynamics 365 Commerce.
+Este artículo describe cómo agregar una red de entrega de contenido (CDN) a su entorno de Microsoft Dynamics 365 Commerce.
 
 Al configurar un entorno de comercio electrónico en Dynamics 365 Commerce, puede definirlo para trabajar con su servicio de CDN. 
 
@@ -60,7 +60,7 @@ El proceso de configuración de CDN consta de estos pasos generales:
 
 ### <a name="add-a-front-end-host"></a>Agregar un host front-end
 
-Se puede usar cualquier servicio de CDN, pero para el ejemplo que se muestra en este tema, se usa Azure Front Door Service. 
+Se puede usar cualquier servicio de CDN, pero para el ejemplo que se muestra en este artículo, se usa Azure Front Door Service. 
 
 Para obtener información acerca de cómo configurar Azure Front Door Service, consulte [Inicio rápido: crear una puerta delantera para una aplicación web global de alta disponibilidad](/azure/frontdoor/quickstart-create-front-door).
 

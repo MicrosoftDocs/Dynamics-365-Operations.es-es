@@ -1,6 +1,6 @@
 ---
 title: Registros de grupos y cálculos agregados mediante fuentes de datos GROUPBY
-description: En este tema se explica cómo puede usar orígenes de datos de tipo GROUPBY en informes electrónicos (ER).
+description: En este artículo se explica cómo puede usar orígenes de datos de tipo GROUPBY en informes electrónicos (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861798"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Registros de grupos y cálculos agregados mediante fuentes de datos GROUPBY
 
@@ -83,7 +83,7 @@ Siga los pasos de [Configurar el marco de ER](er-quick-start2-customize-report.m
 
 ### <a name="import-the-standard-er-format-configuration"></a>Importar configuraciones del formato estándar de ER
 
-Siga los pasos de [Importar la configuración de formato estándar de ER](er-quick-start2-customize-report.md#ImportERSolution1) para agregar las configuraciones de ER estándar a su instancia actual de Dynamics 365 Finance. Importar la versión 1 de la configuración del **modelo intrastat** desde el repositorio.
+Siga los pasos de [Importar la configuración de formato estándar de ER](er-quick-start2-customize-report.md#ImportERSolution1) para agregar las configuraciones estńdar de ER a su instancia actual de Dynamics 365 Finance. Importar la versión 1 de la configuración del **modelo intrastat** desde el repositorio.
 
 ### <a name="create-a-custom-data-model-configuration"></a>Crear una configuración de modelo de datos personalizada
 

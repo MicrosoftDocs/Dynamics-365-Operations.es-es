@@ -1,6 +1,6 @@
 ---
 title: Configurar componentes de impuestos para el tipo de impuestos TDS
-description: Este tema explica cómo configurar componentes de retención de impuestos para el tipo de impuesto de impuesto deducido en el origen (TDS). También explica cómo definir el límite de umbral que se utiliza para calcular TDS para cada componente de TDS.
+description: Este artículo explica cómo configurar componentes de retención de impuestos para el tipo de impuesto de impuesto deducido en el origen (TDS). También explica cómo definir el límite de umbral que se utiliza para calcular TDS para cada componente de TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871168"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurar componentes de impuestos para el tipo de impuestos TDS
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar componentes de retención de impuestos para el tipo de impuesto de impuesto deducido en el origen (TDS). Los componentes de TDS son TDS, suplementos, PE-Cess y SHE Cess. Este tema también explica cómo definir el umbral que se utiliza para calcular TDS para cada componente de TDS. Además, puede definir un umbral de excepción que se utiliza para calcular TDS para cada componente de TDS.
+Este artículo explica cómo configurar componentes de retención de impuestos para el tipo de impuesto de impuesto deducido en el origen (TDS). Los componentes de TDS son TDS, suplementos, PE-Cess y SHE Cess. Este artículo también explica cómo definir el umbral que se utiliza para calcular TDS para cada componente de TDS. Además, puede definir un umbral de excepción que se utiliza para calcular TDS para cada componente de TDS.
 
 Siga estos pasos para configurar los componentes de TDS.
 

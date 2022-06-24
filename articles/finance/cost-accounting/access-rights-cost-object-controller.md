@@ -1,6 +1,6 @@
 ---
 title: Derechos de acceso para controladores de objeto de coste
-description: Este tema proporciona información sobre los derechos de acceso para los controladores de objeto de coste.
+description: Este artículo proporciona información sobre los derechos de acceso para los controladores de objeto de coste.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903200"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Derechos de acceso para controladores de objeto de coste
 
@@ -38,7 +38,7 @@ Existen cuatro roles únicos en contabilidad de costes.
 | Contable de costes   | Operations   |
 | Controlador de objeto de coste  | Miembros del equipo |
 
-Este tema explica cómo asignar el rol **Controlador de objeto de coste** a un administrador.
+Este artículo explica cómo asignar el rol **Controlador de objeto de coste** a un administrador.
 
 Cuando el rol **Controlador de objeto de coste** se asigna a un administrador, este puede realizar las siguientes tareas:
 
@@ -95,7 +95,7 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 
 > [!IMPORTANT]
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Este tema muestra los requisitos previos que deben estar presentes antes de poder usar el espacio de trabajo **Control de costes**.
+> - Este artículo muestra los requisitos previos que deben estar presentes antes de poder usar el espacio de trabajo **Control de costes**.
 
 Recursos adicionales
 

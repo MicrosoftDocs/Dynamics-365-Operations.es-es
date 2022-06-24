@@ -1,6 +1,6 @@
 ---
-title: Visión general de España
-description: Este tema proporciona vínculos a recursos de documentación para España.
+title: Información general para España
+description: Este artículo proporciona vínculos a recursos de documentación para España.
 author: kfend
 ms.date: 05/26/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cb3407c0bd68e1fa9aec28f04fac222c74f31c
-ms.sourcegitcommit: d27d63c3953b758225cdf29f13f9747e827e59c7
+ms.openlocfilehash: a9da2e61d60ecaf2a95e50dd1ad8fbd07a0d9efe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8807846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868240"
 ---
-# <a name="spain-overview"></a>Visión general de España
+# <a name="spain-overview"></a>Información general para España
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona vínculos a recursos de documentación para España. 
+Este artículo proporciona vínculos a recursos de documentación para España. 
 
 - [Parámetro El descuento por pronto pago se aplica a la factura](emea-esp-cash-discount-applied-invoice.md)
 - [Opciones de letras de cambio españolas](emea-esp-bill-of-exchange-options.md)

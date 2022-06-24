@@ -1,6 +1,6 @@
 ---
-title: Visión general de las páginas de la gestión de cuentas
-description: Este tema proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
+title: Información general de las páginas de la gestión de cuentas
+description: Este artículo proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868892"
 ---
-# <a name="account-management-pages-overview"></a>Visión general de las páginas de la gestión de cuentas
+# <a name="account-management-pages-overview"></a>Información general de las páginas de la gestión de cuentas
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
+Este artículo proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 
 Las páginas de gestión de cuentas permiten a los clientes ver información relacionada con su cuenta y pedidos. Las páginas de la gestión de cuentas incluyen la página de aterrizaje de la gestión de cuentas, y las páginas para el perfil del usuario, direcciones, historial de pedidos, detalles de pedidos, puntos de fidelización y lista de deseos.
 

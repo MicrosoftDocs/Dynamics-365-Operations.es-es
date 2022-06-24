@@ -1,6 +1,6 @@
 ---
 title: Módulo de dirección de envío
-description: En este tema se trata el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+description: En este artículo se trata el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882205"
 ---
 # <a name="shipping-address-module"></a>Módulo de dirección de envío
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+En este artículo se describe el modulo de dirección de envío y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 
 El módulo de dirección de envío permite a los clientes agregar o seleccionar la dirección de envío para un pedido durante el flujo de finalización de compra. Si un cliente inicia sesión, se muestran las direcciones que se guardaron anteriormente para ese cliente, de forma que las pueda seleccionar. El cliente también puede agregar una dirección nueva. El módulo de dirección de envío se usa para todos los artículos de un pedido que requieren envío.
 

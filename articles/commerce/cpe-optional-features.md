@@ -1,6 +1,6 @@
 ---
 title: Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
-description: En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+description: En este artículo se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861923"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
+En este artículo se explica cómo configurar características opcionales para un ambiente de evaluación de Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -108,7 +108,7 @@ Es posible que desee personalizar las plantillas de correo electrónico para que
     - Empaquetar plantilla de pedido
     - Recoger plantilla de pedido
 
-1. Personalice las plantillas mediante un editor HTML o de texto. Vea la lista de [tokens compatibles ](#supported-tokens-in-the-email-template) más adelante en este tema.
+1. Personalice las plantillas mediante un editor HTML o de texto. Vea la lista de [tokens compatibles ](#supported-tokens-in-the-email-template) más adelante en este artículo.
 1. Iniciar sesión en Commerce.
 1. Use el menú de la izquierda, para ir a **Módulos \> Administración de la organización \> Configuración \> Plantillas de correo electrónico de organización**.
 1. Expanda la lista de la izquierda para ver todas las plantillas.

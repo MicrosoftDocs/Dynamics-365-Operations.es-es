@@ -1,6 +1,6 @@
 ---
 title: Gestión de turnos y caja registradora
-description: Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) de Commerce.
+description: Este artículo explica cómo configurar y utilizar los turnos en el punto de venta (PDV) de Commerce.
 author: jblucher
 ms.date: 05/10/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 9c22f1fce99eaeca7b1081524230742e4709de5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877220"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestión de turnos y caja registradora
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) de Commerce.
+Este artículo explica cómo configurar y utilizar los turnos en el punto de venta (PDV) de Commerce.
 
 En Dynamics 365 Commerce, el término *turno* describe la recopilación de datos transaccionales de PDV y actividades entre dos puntos en el tiempo. Para cada turno, la suma de dinero prevista se compara con la suma que se cuenta y declara.
 

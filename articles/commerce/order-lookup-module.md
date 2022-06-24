@@ -1,6 +1,6 @@
 ---
 title: Módulo de búsqueda de pedidos
-description: En este tema se trata el modulo de búsqueda de pedidos y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+description: En este artículo se trata el modulo de búsqueda de pedidos y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869439"
 ---
 # <a name="order-lookup-module"></a>Módulo de búsqueda de pedidos
 
 [!include [banner](includes/banner.md)]
 
-En este tema se trata el modulo de búsqueda de pedidos y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
+En este artículo se trata el modulo de búsqueda de pedidos y se explica la forma de configurarlo en Microsoft Dynamics 365 Commerce.
 
 El módulo de búsqueda de pedidos proporciona un formulario que los clientes pueden utilizar para buscar los pedidos que realizaron en un sitio de comercio electrónico. Se utiliza como parte de la función [Habilitar la búsqueda de pedidos para los pagos de invitados](order-lookup-guest.md). El módulo de búsqueda de pedidos se puede utilizar para buscar pedidos que se enviaron a través de un sitio de comercio electrónico, el punto de venta minorista (POS) o un centro de llamadas. El formulario puede recuperar pedidos enviados tanto por usuarios invitados como por usuarios registrados.
 

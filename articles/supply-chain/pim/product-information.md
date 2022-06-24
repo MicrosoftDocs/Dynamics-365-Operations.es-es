@@ -1,6 +1,6 @@
 ---
 title: Información general del producto
-description: Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales.
+description: Este artículo proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867880"
 ---
 # <a name="product-information-overview"></a>Información general del producto
 
@@ -28,7 +28,7 @@ ms.locfileid: "8063325"
 
 
 
-Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales. 
+Este artículo proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales. 
 
 La información de producto es la base de la cadena de suministro y de las aplicaciones de Commerce en todos los sectores. Hace referencia a los procesos y las tecnologías que se centran en gestionar la información de productos de forma centralizada (por ejemplo, en varias cadenas de suministros). Es esencial que se utilicen las definiciones de producto, la documentación, los atributos y los identificadores compartidos. En los varios módulos de una solución empresarial, la información y la configuración específicas de un producto son necesarias para administrar procesos de negocio relacionados con productos, familias de productos o categorías de productos específicas.
 

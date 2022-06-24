@@ -1,6 +1,6 @@
 ---
 title: Generar un plan con restricciones
-description: Este tema explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.
+description: Este artículo explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8372f4e35b34ff66ef55c0961b867a1aff7a5e6
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 65884d556724cd6132fe328e95a5bec78885c174
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904025"
 ---
 # <a name="generate-a-constrained-plan"></a>Generar un plan con restricciones
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad. El plan garantiza que la fabricación no comience antes de que los materiales estén disponibles y que no se reserven recursos en exceso. 
+Este artículo explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad. El plan garantiza que la fabricación no comience antes de que los materiales estén disponibles y que no se reserven recursos en exceso. 
 
 La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se va a utilizar para el planificador de producción.
 

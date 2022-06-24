@@ -1,6 +1,6 @@
 ---
 title: Crear y administrar usuarios del portal del cliente (contiene vídeo)
-description: Este tema explica cómo crear cuentas de usuario del portal del Cliente y establecer permisos para ellas.
+description: Este artículo explica cómo crear cuentas de usuario del portal del Cliente y establecer permisos para ellas.
 author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905787"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Crear y administrar usuarios del portal del cliente
 

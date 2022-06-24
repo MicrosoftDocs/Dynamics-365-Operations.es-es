@@ -1,6 +1,6 @@
 ---
 title: Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos
-description: Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos.
+description: Este artículo explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos.
 author: kai-cloud
 ms.date: 11/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7640144b1687fc64e55f659d49cdb0817c17294a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d9c234781e55fbf7f29eec14666c939d5d60e2fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879420"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos. Hay una lista desplegable disponible para seleccionar valores en la configuración de cálculo de impuestos para campos como **Entidad jurídica**, **Cuenta de proveedor**, **Código de artículo** y **Plazo de entrega**. Estos valores provienen del entorno Microsoft Dynamics 365 Finance conectado usando el origen de datos de Microsoft Dataverse.
+Este artículo explica cómo configurar y habilitar la función de búsqueda de datos maestros de cálculo de impuestos. Hay una lista desplegable disponible para seleccionar valores en la configuración de cálculo de impuestos para campos como **Entidad jurídica**, **Cuenta de proveedor**, **Código de artículo** y **Plazo de entrega**. Estos valores provienen del entorno Microsoft Dynamics 365 Finance conectado usando el origen de datos de Microsoft Dataverse.
 
 > [!NOTE] 
 > La función de búsqueda de datos maestros de cálculo de impuestos es una función opcional. Puede omitir los siguientes pasos si deshabilita la característica **Soporte para orígenes de datos de Dataverse del servicio de impuestos** en Regulatory Configuration Service (RCS). Sin embargo, en ese caso, la lista desplegable no estará disponible en la configuración de cálculo de impuestos.

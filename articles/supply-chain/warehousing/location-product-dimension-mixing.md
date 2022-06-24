@@ -1,6 +1,6 @@
 ---
 title: Combinación de dimensiones de producto de ubicación
-description: Este tema proporciona información acerca de la combinación de dimensiones de producto de ubicación. Esta funcionalidad de perfil de ubicación ayuda a mejorar la administración de ubicación cuando se utilizan variantes de productos o productos que tienen dimensiones, como en la industria de la moda. Le permite decidir si las configuraciones, colores, estilos y tallas se pueden mezclar para un perfil de ubicación específico, o si solo una de estas dimensiones o una combinación de ellas se puede colocar en la misma ubicación.
+description: Este artículo proporciona información acerca de la combinación de dimensiones de producto de ubicación. Esta funcionalidad de perfil de ubicación ayuda a mejorar la administración de ubicación cuando se utilizan variantes de productos o productos que tienen dimensiones, como en la industria de la moda. Le permite decidir si las configuraciones, colores, estilos y tallas se pueden mezclar para un perfil de ubicación específico, o si solo una de estas dimensiones o una combinación de ellas se puede colocar en la misma ubicación.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885736"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinación de dimensiones de producto de ubicación
 
@@ -28,7 +28,7 @@ La combinación de dimensiones de producto de ubicación es una funcionalidad de
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Activar o desactivar la característica de combinación de dimensiones de producto de ubicación
 
-Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Combinación de dimensiones de producto de ubicación* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Combinación de dimensiones de producto de ubicación* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para utilizar la funcionalidad descrita en este artículo, debe activarse la característica *Combinación de dimensiones de producto de ubicación* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Combinación de dimensiones de producto de ubicación* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Configurar
 
@@ -44,7 +44,7 @@ Cada ubicación en el almacén requiere un perfil de ubicación asociado que des
     > [!NOTE]
     > Puede establecer esta opción en *Sí* solo si la opción **Permitir elementos mixtos** está establecida en *No*.
 
-1. En la ficha desplegable **Combinación de dimensión de producto permitida**, establezca la opción **Talla** en *Sí*. En el escenario que se describe en este tema, la combinación solo se puede hacer para productos que tienen diferentes dimensiones de **Talla**. Sin embargo, hay otras opciones disponibles.
+1. En la ficha desplegable **Combinación de dimensión de producto permitida**, establezca la opción **Talla** en *Sí*. En el escenario que se describe en este artículo, la combinación solo se puede hacer para productos que tienen diferentes dimensiones de **Talla**. Sin embargo, hay otras opciones disponibles.
 1. Seleccione **Guardar**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Crear un producto maestro nuevo y variantes de producto

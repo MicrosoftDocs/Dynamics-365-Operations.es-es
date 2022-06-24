@@ -1,6 +1,6 @@
 ---
 title: Transacciones aplazadas en la facturación de suscripción
-description: Este tema describe las diversas transacciones que se pueden usar en las transacciones de aplazamiento como parte de los aplazamientos de ingresos y gastos en la facturación de suscripción.
+description: Este artículo describe las diversas transacciones que se pueden usar en las transacciones de aplazamiento como parte de los aplazamientos de ingresos y gastos en la facturación de suscripción.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c3862f1a250bf8e56303975b5c6a3560cd84c1e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872597"
 ---
 # <a name="deferral-default-transactions"></a>Transacciones predeterminadas aplazadas
 
-Este tema describe las transacciones que permiten el aplazamiento de ingresos y gastos. Las programaciones de aplazamientos siempre se basan y dependen de un documento de origen o una programación de facturación. Las programaciones de aplazamientos se crean en función de los valores predeterminados, y no se pueden introducir ni crear por separado.
+Este artículo describe las transacciones que permiten el aplazamiento de ingresos y gastos. Las programaciones de aplazamientos siempre se basan y dependen de un documento de origen o una programación de facturación. Las programaciones de aplazamientos se crean en función de los valores predeterminados, y no se pueden introducir ni crear por separado.
 
 ## <a name="sales-order-transaction-deferral"></a>Aplazamiento de transacción de pedido de ventas
 

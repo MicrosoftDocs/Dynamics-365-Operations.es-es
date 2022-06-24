@@ -1,6 +1,6 @@
 ---
 title: Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos
-description: Este tema explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
+description: Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853478"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
+Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
 
 Es posible que, periódicamente, se reciba un aviso de que ha cambiado el coste para sustituir o asegurar activos fijos específicos. Por ejemplo, el gerente podría notificar al usuario de que la tasa de inflación del año pasado fue del 3%, de modo que se debe aumentar el coste de sustitución de todos los activos fijos en un 3%. 
 

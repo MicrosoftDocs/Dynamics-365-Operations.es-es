@@ -1,6 +1,6 @@
 ---
 title: Módulo selector de país/región
-description: En este tema se describe el modulo de selección de país/región y se describe cómo configurarlo en Microsoft Dynamics 365 Commerce.
+description: En este artículo se describe el modulo de selección de país/región y se describe cómo configurarlo en Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862001"
 ---
 # <a name="countryregion-picker-module"></a>Módulo selector de país/región
 
 [!include [banner](includes/banner.md)]
 
-En este tema se describe el modulo de selección de país/región y se describe cómo configurarlo en Microsoft Dynamics 365 Commerce.
+En este artículo se describe el modulo de selección de país/región y se describe cómo configurarlo en Microsoft Dynamics 365 Commerce.
 
 El módulo selector de país/región utiliza la característica de [detección y redirección geográfica](geo-detection-redirection.md) de Dynamics 365 Commerce para mostrar los sitios recomendados a los clientes que soliciten una URL de un sitio de comercio electrónico que no esté asociada con su país o región.
 

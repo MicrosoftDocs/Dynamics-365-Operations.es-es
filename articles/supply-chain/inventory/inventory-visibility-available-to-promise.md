@@ -1,6 +1,6 @@
 ---
 title: Planes de cambio de visibilidad de inventario disponible y neto no comprometido
-description: Este tema describe cómo programar futuros cambios de inventario disponible y calcular cantidades de neto no comprometido (NNC).
+description: Este artículo describe cómo programar futuros cambios de inventario disponible y calcular cantidades de neto no comprometido (NNC).
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856204"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Planes de cambio de visibilidad de inventario disponible y neto no comprometido
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo configurar la función *Programación de cambio de inventario disponible* para programar futuros cambios de inventario disponible y calcular cantidades de neto no comprometido (NNC). El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso de este cálculo puede aumentar considerablemente la capacidad de entrega de su pedido.
+Este artículo describe cómo configurar la función *Programación de cambio de inventario disponible* para programar futuros cambios de inventario disponible y calcular cantidades de neto no comprometido (NNC). El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso de este cálculo puede aumentar considerablemente la capacidad de entrega de su pedido.
 
 Para muchos fabricantes, minoristas o vendedores, no es suficiente saber lo que está disponible actualmente. Deben tener una visibilidad completa de la disponibilidad futura. Esta disponibilidad futura debe considerar el suministro futuro, la demanda futura y el NNC.
 

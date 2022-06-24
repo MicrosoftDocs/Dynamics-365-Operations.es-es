@@ -1,6 +1,6 @@
 ---
 title: Creación de un nuevo diseño de almacén
-description: En este tema se describe cómo configurar la información sobre las ubicaciones en un almacén.
+description: En este artículo se describe cómo configurar la información sobre las ubicaciones en un almacén.
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859325"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Creación de un nuevo diseño de almacén
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se describe cómo configurar la información sobre las ubicaciones en un almacén. Esto solo se aplica a los almacenes creados con el “almacenamiento básico” en el módulo Gestión del inventario, no en los almacenes creados en el módulo Gestión de almacenes. Puede utilizar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
+En este artículo se describe cómo configurar la información sobre las ubicaciones en un almacén. Esto solo se aplica a los almacenes creados con el “almacenamiento básico” en el módulo Gestión del inventario, no en los almacenes creados en el módulo Gestión de almacenes. Puede utilizar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 
 
 ## <a name="set-the-default-location-capacity"></a>Definir la capacidad de la ubicación predeterminada

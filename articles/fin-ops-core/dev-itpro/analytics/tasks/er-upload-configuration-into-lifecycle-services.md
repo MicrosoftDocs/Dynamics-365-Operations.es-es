@@ -1,6 +1,6 @@
 ---
 title: Cargar una configuración en Lifecycle Services
-description: En este tema se explica cómo crear una nueva configuración de Informes electrónicos (ER) y subirla a Microsoft Dynamics Lifecycle Services (LCS).
+description: En este artículo se explica cómo crear una nueva configuración de Informes electrónicos (ER) y subirla a Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2b84fc3167b3edaf6b99fa8bb0efd373c7f57c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885525"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Cargar una configuración en Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede cargar una nueva versión de una [configuración de informe electrónico](../general-electronic-reporting.md#Configuration) y cargarla en la [biblioteca de activos de proyectos](../../lifecycle-services/asset-library.md) en Microsoft Dynamics Lifecycle Services (LCS).
+En este artículo se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede cargar una nueva versión de una [configuración de informe electrónico](../general-electronic-reporting.md#Configuration) y cargarla en la [biblioteca de activos de proyectos](../../lifecycle-services/asset-library.md) en Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!IMPORTANT]
 > El uso de (LCS) como repositorio de almacenamiento para las configuraciones de ER se está poniendo [en desuso](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Para más ifnormación, vea: [Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).

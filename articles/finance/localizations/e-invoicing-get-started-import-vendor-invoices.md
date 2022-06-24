@@ -1,6 +1,6 @@
 ---
 title: Utilizar el servicio de facturación electrónica para importar facturas de proveedores
-description: Este tema proporciona información sobre cómo importar facturas de proveedores mediante el servicio de facturación electrónica.
+description: Este artículo proporciona información sobre cómo importar facturas de proveedores mediante el servicio de facturación electrónica.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865595"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utilizar el servicio de facturación electrónica para importar facturas de proveedores
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983832"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Este tema proporciona información que le ayudará a comenzar con la importación de facturas del proveedor usando el servicio de facturación electrónica. Lo guía a través de los pasos de configuración en Regulatory Configuration Services (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management que debe seguir para recibir facturas electrónicas de proveedor de los proveedores.
+Este artículo proporciona información que le ayudará a comenzar con la importación de facturas del proveedor usando el servicio de facturación electrónica. Lo guía a través de los pasos de configuración en Regulatory Configuration Services (RCS), Dynamics 365 Finance y Dynamics 365 Supply Chain Management que debe seguir para recibir facturas electrónicas de proveedor de los proveedores.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Configurar importación de factura de proveedor en RCS
 Para configurar la importación de facturas de proveedor en RCS, siga estos pasos:

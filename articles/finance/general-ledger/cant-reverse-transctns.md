@@ -1,6 +1,6 @@
 ---
 title: ¿Por qué no puedo revertir esta transacción?
-description: En este tema se describen diferentes razones por las que no se pueden revertir las transacciones. También se muestran soluciones para este problema.
+description: En este artículo se describen diferentes razones por las que no se pueden revertir las transacciones. También se muestran soluciones para este problema.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876193"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>¿Por qué no puedo revertir esta transacción?
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen diferentes razones por las que no se pueden revertir las transacciones. También se muestran soluciones para este problema.
+En este artículo se describen diferentes razones por las que no se pueden revertir las transacciones. También se muestran soluciones para este problema.
 
 ## <a name="symptom"></a>Síntoma
 
@@ -35,14 +35,14 @@ Las organizaciones pueden encontrarse en situaciones en las que deban revertir u
 
 ## <a name="resolution"></a>Resolución
 
-Las transacciones deben cumplir criterios específicos para que puedan revertirse. Las secciones restantes de este tema proporcionan la validación de cada módulo. Aunque este tema se centra en las transacciones en Microsoft Dynamics 365 Finance, algunos de los conceptos y la validación se pueden aplicar a otras aplicaciones, como Dynamics 365 Supply Chain Management.
+Las transacciones deben cumplir criterios específicos para que puedan revertirse. Las secciones restantes de este artículo proporcionan la validación de cada módulo. Aunque este artículo se centra en las transacciones en Microsoft Dynamics 365 Finance, algunos de los conceptos y la validación se pueden aplicar a otras aplicaciones, como Dynamics 365 Supply Chain Management.
 
 Además, el lugar donde se revierte una transacción puede afectar a si se puede revertir o no. Por ejemplo, un pago a un proveedor que se contabiliza como un cheque solo se puede revertir desde la sección **Cheques** en la página de transacción para las cuentas bancarias. No se puede revertir desde la página **Transacciones de asiento** de la contabilidad general.
 
 Si la función **Reversión masiva de varios documentos** (también conocida como la función de reversión masiva) está activada en el espacio de trabajo de **Administración de características**, afecta a cuántas transacciones se pueden revertir y dónde se pueden revertir. Esta función ofrece dos ventajas cuando está activada:
 
 - Para algunos tipos de transacciones, se puede seleccionar y revertir más de una transacción a la vez desde el diario desde el que se registró o desde la página **Transacciones de asiento**. Sin embargo, las transacciones individuales deben haber sido reversibles antes de que se activara la función. Antes de que se introdujera esta función, las transacciones debían revertirse de una en una.
-- *Algunas* transacciones del subdiario contable se pueden revertir desde el diario (diario general) o desde la página **Transacciones de asiento**. No es necesario revertirlas desde la página del subdiario contable. Por ejemplo, un diario de facturas del proveedor solo podía revertirse antes desde la página **Transacciones del proveedor**. Sin embargo, ahora también se puede revertir desde la contabilidad general, desde el diario o desde la página **Transacciones de asiento**. En cada sección de este tema se explican los tipos de transacciones a las que no se aplica esta ventaja.
+- *Algunas* transacciones del subdiario contable se pueden revertir desde el diario (diario general) o desde la página **Transacciones de asiento**. No es necesario revertirlas desde la página del subdiario contable. Por ejemplo, un diario de facturas del proveedor solo podía revertirse antes desde la página **Transacciones del proveedor**. Sin embargo, ahora también se puede revertir desde la contabilidad general, desde el diario o desde la página **Transacciones de asiento**. En cada sección de este artículo se explican los tipos de transacciones a las que no se aplica esta ventaja.
 
 La función de reversión masiva **no** permite revertir más tipos de transacciones. Si un tipo de transacción no se podía revertir anteriormente, sigue sin poderse revertir después de activar esta función. Por ejemplo, las facturas de proveedor con pedido de compra no se pueden revertir, independientemente de si la función de reversión masiva está activada o no.
 
@@ -189,7 +189,7 @@ Los siguientes tipos de transacciones no se pueden revertir:
 
 Varios tipos de transacciones actualizan los subdiarios contables de Clientes. Por ejemplo, facturas de clientes de pedidos de venta, facturas de clientes que se introducen a través del diario general, facturas de servicios, pagos de clientes y cancelaciones.
 
-Si la función de reversión masiva está desactivada, las transacciones se pueden revertir individualmente desde la página **Transacciones del cliente** para las facturas o desde la página **Cuentas bancarias** para los depósitos. Para obtener información sobre cómo revertir un pago, consulte la sección [Gestión de efectivo y bancos](cant-reverse-transctns.md#cash-and-bank-management) más adelante en este tema.
+Si la función de reversión masiva está desactivada, las transacciones se pueden revertir individualmente desde la página **Transacciones del cliente** para las facturas o desde la página **Cuentas bancarias** para los depósitos. Para obtener información sobre cómo revertir un pago, consulte la sección [Gestión de efectivo y bancos](cant-reverse-transctns.md#cash-and-bank-management) más adelante en este artículo.
 
 Si la función de reversión masiva está activada, también se pueden revertir una o más transacciones de Clientes desde la página **Transacciones de asiento** y desde el diario desde el que se registraron. Sin embargo, los depósitos solo se pueden revertir desde la cuenta bancaria y las facturas de servicios solo se pueden revertir desde la página de origen (si la función que permite las correcciones está activada). Además, las transacciones del cliente no se pueden revertir desde la página **Transacciones para \<main account\>** para la contabilidad general. Sin embargo, se pueden revertir desde la página **Transacciones de asiento**.
 

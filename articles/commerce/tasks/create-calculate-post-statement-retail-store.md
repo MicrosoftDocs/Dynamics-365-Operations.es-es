@@ -1,6 +1,6 @@
 ---
 title: Crear, calcular y registrar extractos para una tienda
-description: En este tema se describen los pasos manuales para crear, calcular y registrar un extracto para un almacén.
+description: En este artículo se describen los pasos manuales para crear, calcular y registrar un extracto para un almacén.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873287"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Crear, calcular y registrar extractos para una tienda
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen los pasos manuales para crear, calcular y registrar un extracto para un almacén. También hay trabajos por lotes que se pueden configurar para las mismas tareas. Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros temas. Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics 365 Commerce. Este registro usa la empresa USRT en los datos de demostración.
+En este artículo se describen los pasos manuales para crear, calcular y registrar un extracto para un almacén. También hay trabajos por lotes que se pueden configurar para las mismas tareas. Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros artículos. Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics 365 Commerce. Este registro usa la empresa USRT en los datos de demostración.
 
 1. Seleccione **Operaciones financieras de tienda** en la página principal.
 2. Seleccione **Nuevo extracto**.

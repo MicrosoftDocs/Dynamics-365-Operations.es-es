@@ -1,6 +1,6 @@
 ---
 title: Vencimiento de picking de inventario de directiva de ubicación
-description: Este tema explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección.
+description: Este artículo explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885707"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección. Estas estrategias funcionan en conjunto con las fechas de vencimiento que se registran en las ubicaciones para rastrear cuándo el inventario entró por primera vez al almacén. La característica *Vencimiento de picking de inventario de directiva de ubicación* utiliza la fecha de la ubicación para determinar el vencimiento. La característica *Estado de ubicación del almacén* actualiza la fecha de la ubicación, según la fecha de la matrícula.
+Este artículo explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección. Estas estrategias funcionan en conjunto con las fechas de vencimiento que se registran en las ubicaciones para rastrear cuándo el inventario entró por primera vez al almacén. La característica *Vencimiento de picking de inventario de directiva de ubicación* utiliza la fecha de la ubicación para determinar el vencimiento. La característica *Estado de ubicación del almacén* actualiza la fecha de la ubicación, según la fecha de la matrícula.
 
 Puede usar las estrategias FIFO y LIFO para enviar artículos con seguimiento por lotes y artículos sin seguimiento por lotes, según la fecha en que el inventario entró en el almacén. Esta capacidad puede ser especialmente útil para el inventario sin seguimiento por lotes, en el que una fecha de vencimiento no está disponible para utilizarla en la clasificación.
 

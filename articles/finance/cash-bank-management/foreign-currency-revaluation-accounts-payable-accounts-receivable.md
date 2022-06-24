@@ -1,6 +1,6 @@
 ---
 title: Revalorización de divisa extranjera para clientes y proveedores
-description: Este tema proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas.
+description: Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906395"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Revalorización de divisa extranjera para clientes y proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este tema proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas. 
+Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas. 
 
 El valor teórico, o valor en los libros, de las transacciones de proveedores abiertas en divisas extranjeras varía con el tiempo debido a las fluctuaciones del tipo de cambio. Para actualizar el valor de las transacciones de proveedores y clientes abiertas, ejecute un proceso de revalorización de divisa extranjera. Puede ejecutarse una revalorización de divisa extranjera tanto para clientes como para proveedores. Este proceso utiliza un nuevo tipo de cambio para revalorizar los importes abiertos o no liquidados en una fecha concreta. Las diferencias entre los importes registrados originales y los importes revalorizados generarán un beneficio no realizado o una pérdida para cada transacción abierta. Los subdiarios contables de proveedores y clientes se actualizarán a continuación para reflejar el beneficio no realizado o la pérdida, y se registrará un asiento en la contabilidad general.
 

@@ -1,6 +1,6 @@
 ---
 title: Procesar devoluciones no vinculadas con Dynamics 365 Commerce Payment Connector para Adyen
-description: Este tema describe cómo funcionan las devoluciones no vinculadas cuando se usa Microsoft Dynamics 365 Payment Connector para Adyen.
+description: Este artículo describe cómo funcionan las devoluciones no vinculadas cuando se usa Microsoft Dynamics 365 Payment Connector para Adyen.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885206"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Procesar devoluciones no vinculadas con Dynamics 365 Commerce Payment Connector para Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo funcionan las devoluciones no vinculadas cuando se usa [Microsoft Dynamics 365 Payment Connector para Adyen](adyen-connector.md). También revisa la capacidad de procesar una devolución con un nuevo método de pago en el punto de venta (PDV) o en el centro de llamadas.
+Este artículo describe cómo funcionan las devoluciones no vinculadas cuando se usa [Microsoft Dynamics 365 Payment Connector para Adyen](adyen-connector.md). También revisa la capacidad de procesar una devolución con un nuevo método de pago en el punto de venta (PDV) o en el centro de llamadas.
 
 Dynamics 365 Payment Connector para Adyen admite la capacidad de procesar devoluciones mediante un método de pago diferente al que se utilizó para la transacción original. Aunque le recomendamos que utilice [devoluciones vinculadas](linked-refunds.md) para procesar una devolución con el método de pago original que se proporcionó, en algunos escenarios se requieren devoluciones en un método diferente. Por ejemplo, la tarjeta que se usó para el pago original ahora podría estar caducada o haberse perdido, o podría haberla cancelado el usuario.
 

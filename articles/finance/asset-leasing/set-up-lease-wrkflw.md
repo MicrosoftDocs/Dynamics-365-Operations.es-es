@@ -1,6 +1,6 @@
 ---
 title: Configurar flujos de trabajo de aprobación de arrendamiento
-description: El tema explica cómo configurar un flujo de trabajo de aprobación que se ejecutará cuando se cree un nuevo arrendamiento.
+description: El artículo explica cómo configurar un flujo de trabajo de aprobación que se ejecutará cuando se cree un nuevo arrendamiento.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f7781fcb643d678fed528af947efb01911899f54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724624"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870289"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Configurar flujos de trabajo de aprobación de arrendamiento
 
 [!include [banner](../includes/banner.md)]
 
-El tema explica cómo configurar un flujo de trabajo de aprobación que se ejecutará cuando se cree un nuevo arrendamiento. Para obtener información sobre cómo utilizar el flujo de trabajo, consulte [Utilizar flujos de trabajo de aprobación de arrendamiento](use-create-lease-wrkflw.md). 
+El artículo explica cómo configurar un flujo de trabajo de aprobación que se ejecutará cuando se cree un nuevo arrendamiento. Para obtener información sobre cómo utilizar el flujo de trabajo, consulte [Utilizar flujos de trabajo de aprobación de arrendamiento](use-create-lease-wrkflw.md). 
 
 1. Vaya a **Arrendamiento de activos \> Configuración \> Flujo de trabajo de arrendamientos**.
 2. En la página **Flujo de trabajo de arrendamiento**, seleccione **Nuevo**.

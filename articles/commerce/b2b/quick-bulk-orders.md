@@ -1,6 +1,6 @@
 ---
 title: Colocar pedidos de sitios web B2B rápidamente
-description: Este tema describe las capacidades de Microsoft Dynamics 365 Commerce que permiten a los usuarios de sitios de empresa a empresa (B2B) realizar rápidamente pedidos masivos y repetidos.
+description: Este artículo describe las capacidades de Microsoft Dynamics 365 Commerce que permiten a los usuarios de sitios de empresa a empresa (B2B) realizar rápidamente pedidos masivos y repetidos.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881370"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Colocar pedidos de sitios web B2B rápidamente
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe las capacidades de Microsoft Dynamics 365 Commerce que permiten a los usuarios de sitios de empresa a empresa (B2B) realizar rápidamente pedidos masivos y repetidos.
+Este artículo describe las capacidades de Microsoft Dynamics 365 Commerce que permiten a los usuarios de sitios de empresa a empresa (B2B) realizar rápidamente pedidos masivos y repetidos.
 
 Los sitios web de comercio electrónico B2B de Dynamics 365 Commerce permiten a los usuarios realizar operaciones estándar, como descubrir nuevos productos a través de la búsqueda y la navegación, ver los detalles del producto, agregar artículos al carrito y pagar. Sin embargo, mientras que los clientes de los sitios de empresa a consumidor (B2C) generalmente piden artículos en pequeñas cantidades y los piden solo una vez, los clientes B2B normalmente piden artículos en grandes cantidades y los vuelven a pedir varias veces. Debido a que estos clientes generalmente saben exactamente qué artículos quieren comprar, a menudo se saltan la fase de descubrimiento del producto y pasan directamente al pedido. Para satisfacer las necesidades de estos clientes, los sitios web de comercio electrónico B2B de Commerce ofrecen varias capacidades que les ayudan a realizar pedidos rápidamente.
 
@@ -65,4 +65,4 @@ La siguiente ilustración muestra un ejemplo del historial de pedidos de un usua
 
 ![Volver a pedir desde el historial de pedidos.](../media/Reorder.png)
 
-Este tema ha descrito solo algunas de las formas en que los sitios B2B de Commerce ayudan a los usuarios a encontrar, pedir y volver a pedir rápidamente los productos que desean. Se están desarrollando más capacidades para simplificar aún más el proceso de captura de pedidos al por mayor.
+Este artículo ha descrito solo algunas de las formas en que los sitios B2B de Commerce ayudan a los usuarios a encontrar, pedir y volver a pedir rápidamente los productos que desean. Se están desarrollando más capacidades para simplificar aún más el proceso de captura de pedidos al por mayor.

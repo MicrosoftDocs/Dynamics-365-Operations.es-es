@@ -1,6 +1,6 @@
 ---
 title: Crear calendarios y generar horarios de trabajo
-description: Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este tema se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo.
+description: Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este artículo se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846340"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Crear calendarios y generar horarios de trabajo
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> La funcionalidad mencionada en este tema está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
+> La funcionalidad mencionada en este artículo está disponible actualmente para los clientes de Recursos Humanos en la infraestructura de Finanzas.  
 
 
-Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este tema se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
+Los calendarios describen la capacidad y los horarios de trabajo de los recursos de operaciones. En este artículo se explica cómo definir un calendario laboral basado en una plantilla de horario de trabajo. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 
 1. En la página principal, seleccione **Administración del ciclo de vida de los recursos**.
 2. Seleccione **Calendarios**.

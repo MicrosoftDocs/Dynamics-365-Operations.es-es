@@ -1,6 +1,6 @@
 ---
 title: Configurar los valores de las dimensiones del producto para que aparezcan como muestras
-description: Este tema describe cómo configurar valores de dimensión de producto como muestras en la sede de Microsoft Dynamics 365 Commerce.
+description: Este artículo describe cómo configurar valores de dimensión de producto como muestras en la sede de Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892661"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurar los valores de las dimensiones del producto para que aparezcan como muestras
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo configurar valores de dimensión de producto como muestras en la sede de Microsoft Dynamics 365 Commerce. Para obtener más información acerca de las dimensiones de productos, vea [Dimensiones de productos](../../supply-chain/pim/product-dimensions.md).
+Este artículo describe cómo configurar valores de dimensión de producto como muestras en la sede de Microsoft Dynamics 365 Commerce. Para obtener más información acerca de las dimensiones de productos, vea [Dimensiones de productos](../../supply-chain/pim/product-dimensions.md).
 
 Dynamics 365 Commerce admite el uso de dimensiones de tamaño, estilo y color para representar variantes de productos. Las dimensiones del producto tienen nombres descriptivos que se muestran en las páginas de detalles del producto (PDP) para que se puedan seleccionar las variantes del producto. Ejemplos de estos nombres descriptivos incluyen "Pequeño", "Mediano" y "Grande" para los tamaños y "Negro" y "Marrón" para los colores. Sin embargo, si un producto admite muchas variaciones, se requieren varias selecciones para ver la imagen de cada variante de producto. Por lo tanto, puede resultar lento y tedioso para los clientes buscar y seleccionar variantes de productos.
 
@@ -44,7 +44,7 @@ La siguiente ilustración muestra un ejemplo en el que los colores aparecen como
 
 ![Ejemplo de colores que se muestran como muestras en la página de resultados de búsqueda.](../dev-itpro/media/swatch_searchresults.PNG)
 
-## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilite la función de dimensiones de visualización como muestras en la sede de Commerce
+## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilite la función de dimensiones de visualización como muestras en Commerce headquarters
 
 Para habilitar la función de dimensiones de visualización como muestras en la sede de Commerce, vaya a **Espacios de trabajo \> Administración de características** y active la función **Habilitar un mecanismo para representar dimensiones como muestras**. Cuando esta marca de función está habilitada, se agregan tres nuevos campos para cada dimensión en las tablas correspondientes en la sede de Commerce: **Código hexadecimal**, **URL** (para imágenes) y **RefinerGroup**.
 

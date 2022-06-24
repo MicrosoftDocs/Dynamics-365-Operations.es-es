@@ -1,6 +1,6 @@
 ---
 title: Preparación de producto
-description: En este tema se explica cómo puede utilizar las verificaciones de preparación para asegurarse de que se completen los datos maestros necesarios para un producto antes de que se utilicen en las transacciones.
+description: En este artículo se explica cómo puede utilizar las verificaciones de preparación para asegurarse de que se completen los datos maestros necesarios para un producto antes de que se utilicen en las transacciones.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856233"
 ---
 # <a name="product-readiness"></a>Preparación de producto
 
@@ -61,7 +61,7 @@ Si se crea una *versión* de ingeniería para un producto, el sistema verifica s
 - La versión de ingeniería está configurada como inactiva para bloquear el uso del producto.
 
 > [!NOTE]
-> También puede configurar verificaciones de directivas de preparación para productos estándar (que no sean de ingeniería). Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema.
+> También puede configurar verificaciones de directivas de preparación para productos estándar (que no sean de ingeniería). (Para obtener más información, consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este artículo).
 
 ## <a name="view-readiness-checks"></a>Ver verificaciones de preparación
 
@@ -151,7 +151,7 @@ Para cada fila que agregue, configure los siguientes campos.
 | Empresa | Si configura el campo **Ejecutar en** como *Empresa única*, seleccione la empresa. |
 | Tipo de propietario | Seleccione si las comprobaciones de preparación que genera la fila deben asignarse a una persona o un equipo. |
 | Propietario | Seleccione la persona o equipo al que se deben asignar las comprobaciones de preparación que genera la fila. |
-| Cuestionarios | Seleccione el cuestionario que debe usarse para la lista de verificación. La lista de verificación es una lista de verificación local en la empresa donde se realiza la verificación de preparación. El sistema debe poder evaluar si la lista de verificación se responde correctamente. Por lo tanto, la lista de verificación debe configurarse de manera que se realice una evaluación basada en las respuestas correctas. Para obtener más información sobre cómo crear cuestionarios, consulte [Usando cuestionarios](/dynamicsax-2012/appuser-itpro/using-questionnaires) y sus temas relacionados. |
+| Cuestionarios | Seleccione el cuestionario que debe usarse para la lista de verificación. La lista de verificación es una lista de verificación local en la empresa donde se realiza la verificación de preparación. El sistema debe poder evaluar si la lista de verificación se responde correctamente. Por lo tanto, la lista de verificación debe configurarse de manera que se realice una evaluación basada en las respuestas correctas. Para obtener más información sobre cómo crear cuestionarios, consulte [Usando cuestionarios](/dynamicsax-2012/appuser-itpro/using-questionnaires) y sus artículos relacionados. |
 | Aprobación automática | Los registros de verificación de preparación incluyen una casilla **Aprobado** que indica el estado de aprobación. Seleccione la casilla **Aprobación automática** para verificaciones que deben establecerse como aprobadas inmediatamente después de que el usuario asignado las complete. Desactive esta casilla de verificación para solicitar una aprobación explícita como paso adicional. |
 | Obligatoria | Seleccione esta casilla de verificación para las comprobaciones que debe completar el usuario asignado. Los controles obligatorios no se pueden omitir. |
 
@@ -159,7 +159,7 @@ Para cada fila que agregue, configure los siguientes campos.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Asignar directivas de preparación a productos estándar y de ingeniería
 
-Cuando crea un nuevo producto basado en una categoría de ingeniería, crea un *producto lanzado* y un *producto compartido* relacionado. La forma en que se resuelven las políticas de preparación para un producto lanzado depende de si la característica *Comprobaciones de preparación de producto* está activada para su sistema (consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este tema para obtener detalles sobre esta característica y cómo activarla o desactivarla).
+Cuando crea un nuevo producto basado en una categoría de ingeniería, crea un *producto lanzado* y un *producto compartido* relacionado. La forma en que se resuelven las políticas de preparación para un producto lanzado depende de si la característica *Comprobaciones de preparación de producto* está activada para su sistema (consulte la sección [Comprobaciones de preparación de productos estándar](#standard-products) más adelante en este artículo para obtener detalles sobre esta característica y cómo activarla o desactivarla).
 
 - Cuando la función *Comprobaciones de disponibilidad del producto* está *desactivada* en su sistema, la directiva de preparación se establece y se muestra solo en los registros de [categoría de ingeniería](engineering-versions-product-category.md). Para saber qué directiva se aplica a un producto lanzado, el sistema verifica el campo **Directiva de preparación del producto** para la categoría de ingeniería relacionada. Puede cambiar la directiva de preparación de un producto existente editando la categoría de ingeniería relacionada (no el producto compartido).
 - Cuando la función *Comprobaciones de disponibilidad del producto* está *activada*, agrega un campo **Política de preparación del producto** a la página **Producto** (donde se configuran los productos compartidos) y a la página **Producto lanzado** (donde el valor es de solo lectura y se toma del producto compartido relacionado). El sistema encuentra la directiva de preparación para un producto lanzado al verificar el producto compartido relacionado. Cuando utiliza una categoría de ingeniería para crear un nuevo producto de ingeniería, el sistema crea tanto un producto compartido como un producto lanzado, y copia cualquier configuración de **Directiva de preparación del producto** de la categoría de ingeniería para el nuevo producto compartido. Entonces puede cambiar la directiva de preparación de un producto existente editando el producto compartido (no la categoría de ingeniería de lanzamiento).
@@ -188,14 +188,14 @@ Esta característica requiere que se activen las características *Gestión de c
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Cree políticas de preparación para productos estándar
 
-Puede crear políticas de preparación para productos estándar del mismo modo que lo hace para productos de ingeniería. Consulte la información anterior en este tema.
+Puede crear políticas de preparación para productos estándar del mismo modo que lo hace para productos de ingeniería. Consulte la información anterior en este artículo.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Asignar políticas de preparación a productos estándar
 
-Para asignar una directiva de preparación a un producto estándar, abra el producto compartido relacionado y configure el campo **Directiva de preparación del producto** al nombre de la directiva que se debe aplicar. Para obtener más información, consulte la sección [Asignar políticas de preparación a productos estándar y de ingeniería](#assign-policy) anterior en este tema.
+Para asignar una directiva de preparación a un producto estándar, abra el producto compartido relacionado y configure el campo **Directiva de preparación del producto** al nombre de la directiva que se debe aplicar. Para obtener más información, consulte la sección [Asignar políticas de preparación a productos estándar y de ingeniería](#assign-policy) anterior en este artículo.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Ver y procesar comprobaciones de preparación de productos estándar
 
-Cuando esta función está activada, puede ver y procesar las comprobaciones de preparación para productos estándar de la misma manera que lo hace para productos de ingeniería. Consulte la información anterior en este tema.
+Cuando esta función está activada, puede ver y procesar las comprobaciones de preparación para productos estándar de la misma manera que lo hace para productos de ingeniería. Consulte la información anterior en este artículo.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

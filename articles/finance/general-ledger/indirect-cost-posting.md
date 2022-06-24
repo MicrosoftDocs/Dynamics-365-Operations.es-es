@@ -1,6 +1,6 @@
 ---
 title: Registro de costes indirectos
-description: Este tema explica cómo registrar costes indirectos, crear grupos de costes y agregar nodos a la hoja de cálculo de costes para costes indirectos.
+description: Este artículo explica cómo registrar costes indirectos, crear grupos de costes y agregar nodos a la hoja de cálculo de costes para costes indirectos.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: CostSheetDesigner, BOMCostGroup, ProjCategory, CostingVersion, C
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: d7f4753f69d83d172993e1c9b04be2220fdf253f
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: 04af10760ec50d60cbbc31c233109dffb786933c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868442"
 ---
 # <a name="indirect-cost-posting"></a>Registro de costes indirectos
 

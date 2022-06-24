@@ -1,6 +1,6 @@
 ---
 title: Configurar canales de centro de llamadas
-description: En este tema se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Dynamics 365 Commerce.
+description: En este artículo se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854880"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canales del centro de llamadas
 
@@ -77,7 +77,7 @@ Al definir el canal del centro de llamadas, debe vincular usuarios del canal al 
 De forma predeterminada, el indicador **Venta** en el encabezado del pedido de ventas está activado para todos los pedidos que creen los usuarios del centro de llamadas. Los pedidos pueden aprovechar las características de precios y promociones específicas de Commerce del sistema.
 
 
-Los usuarios que no están vinculados a un canal del centro de llamadas utilizan las funciones de entrada de pedidos estándar de Microsoft Dynamics 365 Finance. Los pedidos que estos usuarios introducen a través del formulario de entrada de pedidos de ventas no se identificarán sistemáticamente al pedidos de Commerce. Además, estos pedidos introducidos por dichos usuarios no estarán sujetos a ninguna regla de procesamiento de finalización de pedidos, lógica de precios u otras validaciones de pedidos que se pueden definir en la configuración del canal del centro de llamadas o los parámetros del sistema del centro de llamadas.
+Los usuarios que no están vinculados a un canal del centro de llamadas utilizan las funciones de entrada de pedidos estándar de Microsoft Microsoft Dynamics 365 Finance. Los pedidos que estos usuarios introducen a través del formulario de entrada de pedidos de ventas no se identificarán sistemáticamente al pedidos de Commerce. Además, estos pedidos introducidos por dichos usuarios no estarán sujetos a ninguna regla de procesamiento de finalización de pedidos, lógica de precios u otras validaciones de pedidos que se pueden definir en la configuración del canal del centro de llamadas o los parámetros del sistema del centro de llamadas.
 
 Una vez que haya terminado de configurar el canal del centro de llamadas y de definir los usuarios del canal, para ayudar a garantizar el comportamiento deseado del sistema, asegúrese de que están definidos todos los parámetros necesarios del centro de llamadas en **Retail y Commerce** \> **Configuración del canal** \> **Configuración del centro de llamadas** \> **Parámetros del centro de llamadas**. Asegúrese de que también están definidas las secuencias numéricas relacionadas.
 

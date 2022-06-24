@@ -1,6 +1,6 @@
 ---
-title: Notificaciones de ejecución de oleadas
-description: Este tema describe la ejecución de notificaciones de oleada y explica cómo configurarlas.
+title: Notificaciones de ejecución de lanzamientos
+description: Este artículo describe la ejecución de notificaciones de oleada y explica cómo configurarlas.
 author: Mirzaab
 ms.date: 04/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: b6218610b673963f5d43e1b29c6fc356ea977935
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906982"
 ---
 # <a name="wave-execution-notifications"></a>Notificaciones de ejecución de oleadas
 

@@ -1,6 +1,6 @@
 ---
 title: Procesar diario de asignaciones contables
-description: En este tema se explica cómo procesar una solicitud de asignación en Dynamics 365 Finance.
+description: En este artículo se explica cómo procesar una solicitud de asignación en Dynamics 365 Finance.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902440"
 ---
 # <a name="process-ledger-allocation-journal"></a>Procesar diario de asignaciones contables
 
 [!include [banner](../../includes/banner.md)]
 
-En este tema se explica cómo procesar una solicitud de asignación. Use la página Solicitud de asignación de proceso para crear un diario de asignaciones que se pueda revisar y aprobar antes de registrarlo en la contabilidad general o se pueda registrar directamente en la contabilidad general. Antes de crear un diario de asignaciones, debe haber al menos una regla de asignación de diario activa. Esta tarea usa la empresa de demostración USMF.
+En este artículo se explica cómo procesar una solicitud de asignación. Use la página Solicitud de asignación de proceso para crear un diario de asignaciones que se pueda revisar y aprobar antes de registrarlo en la contabilidad general o se pueda registrar directamente en la contabilidad general. Antes de crear un diario de asignaciones, debe haber al menos una regla de asignación de diario activa. Esta tarea usa la empresa de demostración USMF.
 
 1. En el panel de navegación, vaya a **Contabilidad general > Asignaciones > Solicitud de asignación de proceso**.
 2. En el campo **Regla**, seleccione el registro deseado en el menú desplegable.

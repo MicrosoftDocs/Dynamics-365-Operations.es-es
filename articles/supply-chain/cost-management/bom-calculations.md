@@ -1,6 +1,6 @@
 ---
 title: Cálculos de L. MAT
-description: La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este tema proporciona información sobre los cálculos de L.MAT.
+description: La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este artículo proporciona información sobre cálculos de L. MAT.
 author: JennySong-SH
 ms.date: 05/01/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 0a71a17efbca3945c5a1010cf7d523a85420e8e2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c19c15f807a809a68043a75ca935fa92217fcd5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902813"
 ---
-# <a name="bom-calculations"></a>Cálculos de L. MAT
+# <a name="bom-calculations"></a>Cálculos de L. MAT.
 
 [!include [banner](../includes/banner.md)]
 
-La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este tema proporciona información sobre los cálculos de L.MAT.
+La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este artículo proporciona información sobre cálculos de L. MAT.
 
 La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página **Cálculos**. La página **Cálculos** se usa para realizar las siguientes tareas:
 

@@ -1,6 +1,6 @@
 ---
 title: Versión 4.0 del diseño CFDI
-description: Este tema proporciona información sobre la versión 4.0 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
+description: Este artículo proporciona información sobre la versión 4.0 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
 author: v-oskinaolga
 ms.date: 4/08/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Mexico
 ms.author: v-oskinaolga
 ms.search.validFrom: 2022-04-01
-ms.openlocfilehash: 89e329b4cecfc1406677358c34a8deb9d7684c6d
-ms.sourcegitcommit: 8c9dfc60ba96dd2afeb2b992cec22700107ad30e
+ms.openlocfilehash: 059a397d0f26819b1d09110ac51b66d2f11b2031
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "8561170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896217"
 ---
 # <a name="cfdi-layout-version-40"></a>Versión 4.0 del diseño CFDI
 

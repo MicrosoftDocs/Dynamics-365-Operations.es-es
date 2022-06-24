@@ -1,6 +1,6 @@
 ---
 title: Implementación masiva de componentes de autoservicio de Commerce sellados
-description: Este tema explica cómo usar el marco para instaladores de componentes de autoservicio para instalar y dar servicio a las implementaciones de manera silenciosa.
+description: Este artículo explica cómo usar el marco para instaladores de componentes de autoservicio para instalar y dar servicio a las implementaciones de manera silenciosa.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898588"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Implementación masiva de componentes de autoservicio de Commerce sellados
 
 [!include [banner](../includes/banner.md)]
 
-Este tema se aplica al marco sellado, los instaladores de componentes que se publican todos los meses, a partir de la versión 10.0.18, y que están disponibles en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Tenga en cuenta que las primeras versiones de estos nuevos instaladores se designan como **(Versión preliminar)**. Sin embargo, la única finalidad de esta designación es diferenciar los nuevos instaladores mientras Microsoft determina si existen requisitos funcionales adicionales para usarlos. No significa que los instaladores no sean válidos para producción. Basándose en el lanzamiento de estos nuevos instaladores, Microsoft planea dejar en desuso los instaladores antiguos (heredados) alrededor de octubre de 2023. 
+Este artículo se aplica al marco sellado, los instaladores de componentes que se publican todos los meses, a partir de la versión 10.0.18, y que están disponibles en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Tenga en cuenta que las primeras versiones de estos nuevos instaladores se designan como **(Versión preliminar)**. Sin embargo, la única finalidad de esta designación es diferenciar los nuevos instaladores mientras Microsoft determina si existen requisitos funcionales adicionales para usarlos. No significa que los instaladores no sean válidos para producción. Basándose en el lanzamiento de estos nuevos instaladores, Microsoft planea dejar en desuso los instaladores antiguos (heredados) alrededor de octubre de 2023. 
 
-En este tema se explica cómo usar los nuevos instaladores para realizar una instalación silenciosa y realizar actualizaciones de servicio a través de argumentos de la línea de comandos. Estos argumentos le permiten realizar implementaciones masivas de varias maneras diferentes.
+En este artículo se explica cómo usar los nuevos instaladores para realizar una instalación silenciosa y realizar actualizaciones de servicio a través de argumentos de la línea de comandos. Estos argumentos le permiten realizar implementaciones masivas de varias maneras diferentes.
 
 > [!NOTE]
 > Los nuevos instaladores sellados de autoservicio no estarán disponibles en la sede central y solo se pueden descargar a través de LCS.
@@ -108,7 +108,7 @@ La migración de los antiguos instaladores de componentes del marco de autoservi
 
 ### <a name="before-you-begin"></a>Antes de comenzar
 
-Es fundamental que elimine el antiguo componente Modern POS de autoservicio. Para obtener más información, consulte los pasos de migración descritos anteriormente en este tema.
+Es fundamental que elimine el antiguo componente Modern POS de autoservicio. Para obtener más información, consulte los pasos de migración descritos anteriormente en este artículo.
 
 ### <a name="examples-of-silent-deployment"></a>Ejemplos de implementación silenciosa
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> No se requiere un archivo de configuración para Modern POS. El instalador ahora tiene parámetros (mostrados anteriormente en este tema) para los distintos valores que se utilizan durante la activación del dispositivo.
+> No se requiere un archivo de configuración para Modern POS. El instalador ahora tiene parámetros (mostrados anteriormente en este artículo) para los distintos valores que se utilizan durante la activación del dispositivo.
 
 El siguiente comando especifica todos los parámetros que deben usarse durante la activación del dispositivo después de instalar la aplicación Modern POS. Este ejemplo utiliza el registro **Houston-3**, que es un valor de uso común en los datos de demostración de Dynamics 365 Commerce.
 
@@ -145,7 +145,7 @@ Puede mezclar y combinar estos conceptos para lograr los resultados de instalaci
 
 ### <a name="before-you-begin"></a>Antes de comenzar
 
-Es fundamental que elimine el antiguo componente de estación de hardware de autoservicio. Para obtener más información, consulte los pasos de migración descritos anteriormente en este tema. Ya no existe una herramienta de información de cuenta de comerciante. En cambio, la información de la cuenta de comerciante se instala cuando un terminal del PDV se empareja con la estación de hardware. Cuando se pruebe este instalador por primera vez, es muy recomendable que ejecute el siguiente comando:
+Es fundamental que elimine el antiguo componente de estación de hardware de autoservicio. Para obtener más información, consulte los pasos de migración descritos anteriormente en este artículo. Ya no existe una herramienta de información de cuenta de comerciante. En cambio, la información de la cuenta de comerciante se instala cuando un terminal del PDV se empareja con la estación de hardware. Cuando se pruebe este instalador por primera vez, es muy recomendable que ejecute el siguiente comando:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> No se requiere un archivo de configuración para la estación de hardware. El instalador ahora tiene parámetros (mostrados anteriormente en este tema) para los distintos valores que se requieren.
+> No se requiere un archivo de configuración para la estación de hardware. El instalador ahora tiene parámetros (mostrados anteriormente en este artículo) para los distintos valores que se requieren.
 
 El siguiente comando especifica todos los parámetros necesarios para omitir las comprobaciones de requisitos previos durante una instalación estándar. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Antes de comenzar
 
-Es fundamental que elimine el antiguo componente CSU de autoservicio (autohospedado). Para obtener más información, consulte los pasos de migración descritos anteriormente en este tema.
+Es fundamental que elimine el antiguo componente CSU de autoservicio (autohospedado). Para obtener más información, consulte los pasos de migración descritos anteriormente en este artículo.
 
 ### <a name="examples-of-silent-deployment"></a>Ejemplos de implementación silenciosa
 

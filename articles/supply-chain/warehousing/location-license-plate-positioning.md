@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889439"
 ---
 # <a name="location-license-plate-positioning"></a>Posición de matrícula de entidad de almacén de ubicación
 
@@ -28,11 +28,11 @@ El posicionamiento de la ubicación de la matrícula de entidad le permite ver d
 
 La función agrega un número de secuencia a cada matrícula de entidad que se coloca en una ubicación de almacenamiento. Este número de secuencia se usa para pedir las matrículas de entidad en la ubicación de almacenamiento. Por lo tanto, la función admite de manera inteligente escenarios en los que los clientes están utilizando un sistema de estantería por gravedad y deben saber, con fines de selección, qué matrícula de entidad está orientada hacia el frente.
 
-Este tema presenta un escenario que muestra cómo configurar y usar la función.
+Este artículo presenta un escenario que muestra cómo configurar y usar la función.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Activar o desactivar la característica de posicionamiento de matrícula de ubicación
 
-Para utilizar la funcionalidad descrita en este tema, debe activarse la característica *Posicionamiento de matrícula de ubicación* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Posicionamiento de matrícula de ubicación* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para utilizar la funcionalidad descrita en este artículo, debe activarse la característica *Posicionamiento de matrícula de ubicación* en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Posicionamiento de matrícula de ubicación* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
@@ -42,7 +42,7 @@ Para resolver este escenario utilizando los valores que se sugieren aquí, debe 
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Configure la función para este escenario
 
-Complete los siguientes procedimientos para configurar la característica de *Posicionamiento de ubicación de matrícula de entidad* para el escenario que se presenta en este tema.
+Complete los siguientes procedimientos para configurar la característica de *Posicionamiento de ubicación de matrícula de entidad* para el escenario que se presenta en este artículo.
 
 #### <a name="location-profiles"></a>Perfiles de ubicación
 

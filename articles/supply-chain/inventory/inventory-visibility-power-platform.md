@@ -1,8 +1,8 @@
 ---
 title: Aplicación Visibilidad de inventario
-description: Este tema describe cómo usar la aplicación Visibilidad de inventario.
+description: Este artículo describe cómo usar la aplicación Visibilidad de inventario.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895768"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Usar la aplicación Visibilidad de inventario
+# <a name="use-the-inventory-visibility-app"></a>Usar la aplicación Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe cómo usar la aplicación Visibilidad de inventario.
+Este artículo describe cómo usar la aplicación Visibilidad de inventario.
 
 Visibilidad de inventario proporciona una aplicación basada en modelo para la visualización. La aplicación contiene tres páginas: **Configuración**, **Visibilidad operativa** y **Resumen de inventario**. Tiene las siguientes características:
 
@@ -70,7 +70,10 @@ Para registrar una solicitud de reserva, debe introducir un valor en el cuerpo d
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Resumen de inventario
 
-**Resumen de inventario** es una vista personalizada para la entidad *Suma de inventario disponible*. Proporciona un resumen de inventario de productos junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. Antes de que pueda ver datos en la pestaña **Resumen de inventario**, debe activar la característica *OnHandMostSpecificBackgroundService* en la pestaña **Gestión de funciones**.
+**Resumen de inventario** es una vista personalizada para la entidad *Suma de inventario disponible*. Proporciona un resumen de inventario de productos junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility cada 15 minutos. Para ver datos en la pestaña **Resumen de inventario**, debe activar la característica *OnHandMostSpecificBackgroundService* en la pestaña **Gestión de funciones** y seleccionar **Configuración de actualización**.
+
+> [!NOTE]
+> La característica *OnHandMostSpecificBackgroundService* solo rastrea los cambios de productos disponibles que ocurrieron después de activar la característica. Los datos de los productos que no han cambiado desde que activó la característica no se sincronizarán desde la caché del servicio de inventario al entorno de Dataverse. Si la página **Resumen de inventario** no muestra toda la información disponible que espera, vaya a **Gestión del inventario > Tareas periódicas > Integración de Visibilidad de inventario**, deshabilite el trabajo por lotes y vuelva a habilitarlo. Esto hará la inserción inicial y todos los datos se sincronizarán con la entidad *Suma de disponibilidad de inventario* en los próximos 15 minutos. Si desea utilizar esta característica, le recomendamos que la active antes de crear cualquier cambio disponible y habilite el trabajo por lotes **Integración de Visibilidad de inventario**.
 
 Usando el **filtro Avanzado** que proporciona Dataverse, puede crear una vista personal que muestre las filas que son importantes para usted. Las opciones de filtro avanzadas le permiten crear una amplia gama de vistas, desde simples hasta complejas. También le permiten agregar condiciones agrupadas y anidadas a los filtros. Para obtener más información sobre cómo utilizar el **filtro Avanzado**, consulte [Editar o crear vistas personales utilizando filtros de cuadrícula avanzados](/powerapps/user/grid-filters-advanced).
 

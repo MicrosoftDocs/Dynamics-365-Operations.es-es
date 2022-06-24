@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903880"
 ---
 # <a name="credit-limits-for-customers"></a>Límites de crédito para clientes
 
@@ -126,7 +126,7 @@ Use el formulario **Clientes** para especificar el importe del límite de crédi
 4.  Si es necesario, especifique el número de licencia u otra identificación gubernamental en el campo **Identificación gubernamental**.
 
 > [!NOTE]
-> En el formulario **Parámetros de clientes**, normalmente se selecciona un tipo de límite de crédito. Sin embargo, si el tipo de límite de crédito está definido en **Ninguno**, también debe activar la casilla **Límite de crédito obligatorio** en el formulario **Clientes** para poder comprobar el límite de crédito del cliente comparado con su saldo. Para obtener más información acerca de los tipos de límite de crédito, consulte “¿De qué documentos y procesos puedo comprobar los límites de crédito?” en este tema. 
+> En el formulario **Parámetros de clientes**, normalmente se selecciona un tipo de límite de crédito. Sin embargo, si el tipo de límite de crédito está definido en **Ninguno**, también debe activar la casilla **Límite de crédito obligatorio** en el formulario **Clientes** para poder comprobar el límite de crédito del cliente comparado con su saldo. Para obtener más información acerca de los tipos de límite de crédito, consulte “¿De qué documentos y procesos puedo comprobar los límites de crédito?” en este artículo. 
 
 **¿Cómo compruebo manualmente los límites de crédito en pedidos de ventas?**
 
