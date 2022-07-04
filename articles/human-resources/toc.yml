@@ -496,6 +496,8 @@
                   items:
                     - name: Gestionar procesos de proyectos de contratación
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Configurar proyectos de contratación
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Introducir manualmente los datos del candidato y de la solicitud
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Desarrollar y abrir solicitudes de trabajo
@@ -622,13 +624,17 @@
                   href: hr-benefits-setup-employment-types.md
                 - name: Configurar autoservicio para empleados
                   href: hr-benefits-setup-employee-self-service.md
-                - name: Crear planes de beneficios
+                - name: Crear planes de prestaciones
                   items:
                     - name: Configurar planes de prestaciones
                       href: hr-benefits-plans-setup.md
+                    - name: Crear planes de prestaciones de trabajador
+                      href: hr-benefits-plans-worker.md
+                    - name: Configurar eventos de vida futuros
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Configurar programas de crédito flexible
                       href: hr-benefits-plans-flex-credit-programs.md
-                - name: Procesar planes de beneficios
+                - name: Procesar planes de prestaciones
                   items:
                     - name: Procesar idoneidad de inscripción
                       href: hr-benefits-process-enrollment-eligibility.md
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Entidades
               items:
+                - name: Detalle del trabajo
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Opción de tipo de empleo
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: Información general de MyLeaveRequests

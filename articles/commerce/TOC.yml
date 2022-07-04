@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (mayo de 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (abril de 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Crear y automatizar pruebas de aceptación del usuario
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurar un entorno de evaluación de Dynamics 365 Commerce
+            - name: Configurar un entorno de espacio aislado de Dynamics 365 Commerce
               items:
-                - name: Información general del entorno de evaluación de Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
+                - name: Aprovisionar un entorno de espacio aislado de Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurar un entorno de evaluación de Dynamics 365 Commerce
+                - name: Configurar un entorno de espacio aislado de Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
+                - name: Configurar BOPIS en un entorno de espacio aislado de Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
+                - name: Configurar características opcionales para un entorno de espacio aislado de Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Preguntas frecuentes sobre entorno de evaluación de Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: Consideraciones sobre la implementación
               items:
                 - name: Opciones de implementación
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: Compatibilidad para periféricos de red
                           href: dev-itpro/network-peripherals.md
+                        - name: Compatibilidad con periféricos
+                          href: Compatible-peripherals.md
                     - name: Diseños de pantalla
                       items:
                         - name: Diseños de pantalla de datos de demostración en MPOS/CPOS
@@ -1400,8 +1396,10 @@
                           href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austria
               items:
-                - name: Ejemplo de integración de servicio de registro para Austria
+                - name: Ejemplo de integración de servicio de registro fiscal para Austria
                   href: localizations/emea-aut-fi-sample.md
+                - name: Directrices de implementación de cajas registradoras para Austria
+                  href: localizations/emea-aut-deployment.md
                 - name: Directrices de implementación para la muestra de integración fiscal para Austria (heredada)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasil
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Canalización de compilación del SDK de Retail
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: Configurar un agente de compilación de Visual Studio 2017 para crear MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: Ejecutar las muestras de PDV
                       href: dev-itpro/pos-run-samples.md
                 - name: Referencia
