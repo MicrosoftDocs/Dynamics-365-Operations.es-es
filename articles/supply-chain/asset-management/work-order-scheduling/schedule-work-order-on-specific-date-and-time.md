@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ec7e300f60f76aaa467238d7a2c2a199fdeafeed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857935"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015967"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Programar orden de trabajo en una fecha y hora específicas
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857935"
 
 Si una orden de trabajo se debe programar en una fecha *y* hora específicas, puede anular el proceso de programación estándar en Administración de activos y crear una programación específica para una orden de trabajo.
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. En la lista de órdenes de trabajo, haga clic en el identificador de la orden de trabajo en la columna **Orden de trabajo**.
 

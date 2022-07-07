@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902093"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015038"
 ---
 # <a name="manually-created-work-orders"></a>Órdenes de trabajo creadas manualmente
 
@@ -34,7 +34,7 @@ Puede crear órdenes de trabajo de manera manual de dos formas:
 
 ## <a name="create-work-order"></a>Crear orden de trabajo
 
-1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione **Nuevo**.
 
@@ -82,7 +82,7 @@ Tenga en cuenta los aspectos siguientes:
 
 Puede crear una orden de trabajo relacionada con una orden de trabajo existente. Esta capacidad resulta útil, por ejemplo, si se desea trabajar con órdenes de trabajo principales y secundarios. Una nueva orden de trabajo se basa en una tarea de la orden de trabajo a partir de una orden de trabajo existente.
 
-1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo para crear una orden de trabajo relacionada.
 
@@ -120,7 +120,7 @@ La ilustración muestra un ejemplo del cuadro de diálogo **Crear orden de traba
 
 Puede crear rápidamente una nueva orden de trabajo a partir de una orden de trabajo existente. Esta forma de trabajar con órdenes de trabajo es diferente a la de crear órdenes de trabajo basadas en [planes de mantenimiento](../preventive-and-reactive-maintenance/maintenance-plans.md). Resulta útil si, por ejemplo, tiene una orden de trabajo que contiene muchas tareas con distintas tareas en diferentes activos que se deben completar a intervalos periódicos.
 
-1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo desde la que desea copiar el contenido.
 
@@ -142,7 +142,7 @@ La ilustración siguiente muestra un ejemplo del diálogo **Copiar orden de trab
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Crear una orden de trabajo basada en una solicitud de mantenimiento
 
-1. Seleccione **Administración de activos** > **Común** > **Solicitudes de mantenimiento** > **Todas las solicitudes de mantenimiento** o **Solicitudes de mantenimiento activas**.
+1. Seleccione **Administración de activos** > **Solicitudes de mantenimiento** > **Todas las solicitudes de mantenimiento** o **Solicitudes de mantenimiento activas**.
 
 2. Seleccione las solicitudes de mantenimiento para las que desea crear una orden de trabajo y haga clic en **Editar**.
 

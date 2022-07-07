@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a69cbca6e6f32812ea00a63751c931a8477991
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
+ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469265"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8960203"
 ---
 # <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
@@ -91,19 +91,13 @@ Tenga en cuenta que el UOM de pronóstico de demanda no tiene que tener ningún 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Configuración de previsión de demanda](demand-forecasting-setup.md)
-
-[Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
-
-[Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
-
-[Autorizar previsión de la demanda ajustada](authorize-adjusted-forecast.md)
-
-[Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)
-
-[Eliminación de valores atípicos de los datos de transacción históricos al calcular una previsión de la demanda](remove-historical-outliers-calculating-demand-forecast.md)
-
-[Amplíe la funcionalidad de previsión de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
+- [Configuración de previsión de demanda](demand-forecasting-setup.md)
+- [Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
+- [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
+- [Autorizar previsión de la demanda ajustada](authorize-adjusted-forecast.md)
+- [Supervisión de la precisión de previsión](monitor-forecast-accuracy.md)
+- [Eliminación de valores atípicos de los datos de transacción históricos al calcular una previsión de la demanda](remove-historical-outliers-calculating-demand-forecast.md)
+- [Vídeo: Amplíe la funcionalidad de previsión de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Webinar: Azure Machine Learning Series para previsión de demanda](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

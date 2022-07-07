@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908725"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016547"
 ---
 # <a name="inbound-and-outbound-assets"></a>Activos de entrada y de salida
 
@@ -37,7 +37,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 
 ## <a name="register-assets-as-inbound"></a>Registrar activos como de entrada
 
-1. Seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Solicitudes de mantenimiento activas**.
+1. Seleccione **Administración de activos** \> **Solicitudes de mantenimiento** \> **Solicitudes de mantenimiento activas**.
 2. Seleccione la solicitud de mantenimiento.
 3. Seleccione **Actualizar estado de solicitud de mantenimiento**.
 4. Seleccione **Entrante** (u otro estado de ciclo de vida que haya creado para los activos de entrada) y, a continuación, seleccione **Aceptar**.
@@ -46,7 +46,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 
 ## <a name="register-inbound-assets-as-received"></a>Registrar los activos entrantes como recibidos
 
-1. Seleccione **Administración de activos** \> **Común** \> **Entrante/saliente** \> **Activos entrantes**.
+1. Seleccione **Administración de activos** \> **Entrante/saliente** \> **Activos entrantes**.
 2. Seleccione el activo o la solicitud de mantenimiento.
 3. Seleccione **Recibir activos**.
 4. En el campo **Recibido**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de entrada**.
@@ -57,14 +57,14 @@ La configuración de Administración de activos determina si puede trabajar con 
 
 Cuando haya completado el mantenimiento o el trabajo de reparación, puede registrar el activo como devuelto.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Solicitudes de mantenimiento activas**.
+1. Seleccione **Administración de activos** \> **Solicitudes de mantenimiento** \> **Solicitudes de mantenimiento activas**.
 2. Seleccione la solicitud de mantenimiento.
 3. Seleccione **Actualizar estado de solicitud de mantenimiento**.
 4. Seleccione **Saliente** (u otro estado de ciclo de vida que haya creado para los activos de salida) y, a continuación, seleccione **Aceptar**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Registrar activos de salida como entregados
 
-1. Seleccione **Administración de activos** \> **Común** \> **Entrante/saliente** \> **Activos salientes**.
+1. Seleccione **Administración de activos** \> **Entrante/saliente** \> **Activos salientes**.
 2. Seleccione el activo o la solicitud de mantenimiento.
 3. Seleccione **Entregar activos**.
 4. En el campo **Entregado**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de salida**.

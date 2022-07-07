@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891100"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013566"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introducción a la contabilidad de inventario global
 
@@ -69,37 +69,6 @@ Antes de poder habilitar la funcionalidad de complemento, debe integrarse con Mi
 
 Para obtener más información, consulte [Habilitar después de la implementación del entorno](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Configurar Dataverse
-
-Antes de configurar Dataverse, agregue los principios del servicio Contabilidad de inventario global a su inquilino siguiendo estos pasos.
-
-1. Instale el módulo Azure AD para Windows PowerShell v2 como se describe en [Instalar Azure Active Directory PowerShell para Graph](/powershell/azure/active-directory/install-adv2).
-1. Ejecute el siguiente comando de PowerShell.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-A continuación, cree usuarios de la aplicación para la contabilidad de inventario global en Dataverse siguiendo estos pasos.
-
-1. Abra la URL de su entorno de Dataverse.
-1. Ir **Configuración avanzada \> Sistema \> Seguridad \> Usuarios** y cree un usuario de la aplicación. Use el campo **Vista** para cambiar la vista de página a *Usuarios de la aplicación*.
-1. Seleccione **Nuevo**.
-1. Establezca el campo **Id. de aplicación** en *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Seleccione **Asignar rol** y luego seleccione *Administrador de sistema*. Si hay un rol que se llama *Usuario de Common Data Service*, selecciónelo también.
-1. Repita los pasos anteriores, pero establezca el campo **Id. de aplicación** en *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Para obtener más información, consulte [Crear un usuario de aplicación](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Si el idioma predeterminado de su instalación Dataverse no es en inglés, siga estos pasos.
-
-1. Vaya a **Configuración avanzada \> Administración \> Idiomas**.
-1. Seleccione *Inglés* (*LanguageCode = 1033*) y seleccione **Solicitar**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Instalar el complemento
 
 Siga estos pasos para instalar el complemento y poder utilizar la Contabilidad de inventario global.
@@ -109,11 +78,21 @@ Siga estos pasos para instalar el complemento y poder utilizar la Contabilidad d
 1. Vaya a **Detalles completos**.
 1. Vaya a **Integración de Power Platform** y seleccione **Configuración**.
 1. En el cuadro de diálogo **Configuración del entorno de Power Platform**, seleccione la casilla de verificación y luego seleccione **Configuración**. Normalmente, la instalación tarda entre 60 y 90 minutos.
-1. Después de la instalación del entorno de Microsoft Power Platform, en la ficha desplegable **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
+1. Cuando termine la configuración del entorno Microsoft Power Platform, inicie sesión en el [Centro de administración de Power Platform](https://admin.powerplatform.microsoft.com) y luego instale el complemento Contabilidad de inventario global siguiendo los siguientes pasos:
+   1. Seleccione el entorno donde desea instalar el complemento.
+   1. Seleccione **Aplicaciones de Dynamics 365**.
+   1. Seleccione **Instalar aplicación**.
+   1. Seleccione **Contabilidad de inventario global de Dynamics 365**.
+   1. Seleccione **Siguiente** para instalar.
+1. Vuelva al entorno LCS. En la ficha desplegable **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 1. Seleccione **Contabilidad de inventario global**.
 1. Siga la guía de instalación y acepte los términos y condiciones.
 1. Seleccione **Instalar**.
 1. En la ficha desplegable **Complementos de entorno**, debería ver que se está instalando la contabilidad de inventario global. Después de unos minutos, el estado debería cambiar de *Instalando* a *Instalado*. (Es posible que tenga que actualizar la página para ver este cambio). En ese momento, la contabilidad de inventario global está lista para usar.
+
+Si el idioma predeterminado de su instalación de Dataverse no es en inglés, siga estos pasos:
+1. Vaya a **Configuración avanzada \> Administración \> Idiomas**.
+1. Seleccione *Inglés* (*LanguageCode = 1033*) y seleccione **Solicitar**.
 
 ## <a name="set-up-the-integration"></a>Configuración de la integración
 

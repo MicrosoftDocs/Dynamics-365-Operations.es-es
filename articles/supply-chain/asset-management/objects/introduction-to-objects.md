@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874199"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016025"
 ---
 # <a name="introduction-to-assets"></a>Introducción a los activos
 
@@ -36,7 +36,7 @@ Un activo se actualiza automáticamente con la información relacionada. Por eje
 
 ## <a name="all-assets"></a>Todos los activos
 
-Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**. La página de lista **Todos los activos** muestra todos los activos y parte de la información relacionada con ellos. Para ver solo los activos activos, seleccione **Activos activos**. Para ver únicamente los activos que están instalados en las ubicaciones funcionales que están relacionadas con usted como trabajador de mantenimiento, seleccione **Mis activos activos**. (Esta relación se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
+Seleccione **Administración de activos** \> **Activos** \> **Todos los activos**. La página de lista **Todos los activos** muestra todos los activos y parte de la información relacionada con ellos. Para ver solo los activos activos, seleccione **Activos activos**. Para ver únicamente los activos que están instalados en las ubicaciones funcionales que están relacionadas con usted como trabajador de mantenimiento, seleccione **Mis activos activos**. (Esta relación se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
 
 En la vista de cuadrícula **Todos los activos**, seleccione un vínculo en la columna **Activo** para ver los detalles del registro seleccionado. Para editar el registro, seleccione el botón **Editar**. La vista de detalles muestra información detallada relacionada con el activo. El panel **Información relacionada** de la derecha contiene información adicional relacionada con el activo. Expanda el panel para mostrar la información relacionada del activo seleccionado.
 

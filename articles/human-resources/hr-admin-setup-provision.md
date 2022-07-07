@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858254"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015357"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -143,7 +143,9 @@ Use la orientación siguiente al determinar en qué entorno de Power Apps implem
 6. Las capacidades de doble escritura para integrar datos de Recursos Humanos con el entorno de Power Apps solo se pueden utilizar si la opción **Habilitar aplicaciones de Dynamics 365** se selecciona para el entorno. Consulte [Página de inicio de doble escritura](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obtener más información sobre doble escritura.
 
     > [!NOTE]
-    > La opción **Habilitar aplicaciones de Dynamics 365** debe seleccionarse en el momento de crear el entorno de Power Apps. Si la opción no está seleccionada en el momento del aprovisionamiento, no podrá utilizar la dobe escritura para integrar datos entre Dynamics 365 Human Resources y el entorno de Power Apps, ni instalar aplicaciones de Dynamics 365, como Dynamics 365 Sales y Field Service, en el entorno. Esta opción no es reversible. Para más información, consulte [Algunas consideraciones importantes al crear un nuevo entorno](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) en el sitio de documentación de Power Platform.
+    > La opción **Habilitar aplicaciones de Dynamics 365** debe seleccionarse en el momento de crear el entorno de Power Apps. Si la opción no está seleccionada en el momento del aprovisionamiento, no podrá utilizar la dobe escritura para integrar datos entre Dynamics 365 Human Resources y el entorno de Power Apps, ni instalar aplicaciones de Dynamics 365, como Dynamics 365 Sales y Field Service, en el entorno. Esta opción no es reversible. 
+    > -  Recursos humanos no admite cambiar la instancia de Dataverse vinculada una vez que Recursos Humanos se haya desplegado en ella. </br></br>
+    > Para más información, consulte [Algunas consideraciones importantes al crear un nuevo entorno](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) en el sitio de documentación de Power Platform.  
 
 7. Una vez que haya determinado el entorno correcto para utilizar, podrá continuar con el proceso de abastecimiento. 
 

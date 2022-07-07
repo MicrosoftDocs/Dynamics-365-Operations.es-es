@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845065"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016750"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845065"
 
 En este artículo se explica cómo programar órdenes de trabajo en Administración de activos. 
 
-El número necesario de horas para una orden de trabajo se define mediante la suma de horas previstas menos las horas registradas. Si se requiere más tiempo, la previsión debe ajustarse según corresponda. En **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, puede ver o editar previsiones en una orden de trabajo seleccionando la orden de trabajo y haciendo clic en **Pronóstico** en la pestaña **Orden de trabajo**. Cuando se hayan creado y estimado las órdenes de trabajo, el paso siguiente para completar las órdenes de trabajo consiste en asignar los trabajadores de mantenimiento y las herramientas que se necesitan.
+El número necesario de horas para una orden de trabajo se define mediante la suma de horas previstas menos las horas registradas. Si se requiere más tiempo, la previsión debe ajustarse según corresponda. En **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, puede ver o editar previsiones en una orden de trabajo seleccionando la orden de trabajo y haciendo clic en **Pronóstico** en la pestaña **Orden de trabajo**. Cuando se hayan creado y estimado las órdenes de trabajo, el paso siguiente para completar las órdenes de trabajo consiste en asignar los trabajadores de mantenimiento y las herramientas que se necesitan.
 
 Solo se pueden programar las órdenes de trabajo con un estado de ciclo de vida que permite la programación. La configuración para permitir la programación se realiza en la ficha desplegable **Administración de activos** > **Configuración** > **Órdenes de trabajo** > **Estados de ciclo de vida** > **General** > botón de alternancia **Permitir programación**.
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo**.
 
 2. Selecciones las órdenes de trabajo que desea programar en la lista. Por ejemplo, puede ordenar la lista por **Estado actual del ciclo de vida**.
 

@@ -1,8 +1,8 @@
 ---
 title: Vídeos
-description: Esta página enumera vídeos de "procedimientos" y de charlas técnicas relacionados con aplicaciones de Finance and Operations que están disponibles en YouTube y otros sitios.
+description: Esta página muestra los vídeos de procedimientos y de charlas técnicas creadas por aplicaciones de Finance and Operations que están disponibles en YouTube y en otros sitios.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488000"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958149"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -34,7 +34,7 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 
 ### <a name="data-integration"></a>Integración de datos
 
-- [Sincronizar pedidos de trabajo entre Dynamics 365 for Field Service y aplicaciones de Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizar un pedido de trabajo entre Dynamics 365 for Field Service y aplicaciones Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Administración de datos
 
@@ -42,7 +42,6 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 
 ### <a name="development"></a>Desarrollo
 
-- [Cómo resolver conflictos en Visual Studio](https://youtu.be/4rxO0zUN2zU)
 - [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Configuración de una rama y una generación de desarrollo](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Configuración de un equipo de desarrollo](https://www.youtube.com/watch?v=cqp9MetfiyM)
@@ -52,7 +51,7 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 
 - [Cómo editar un informe incrustado en un área de trabajo analítica](https://youtu.be/_8WlwmSggcQ)
 - [HCómo insertar los informes de PowerBI.com en aplicaciones de Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Traer la propia base de datos (BYOD) a las aplicaciones de Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Usar su propia base de datos (BYOD) en aplicaciones Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Cómo usar el contenido de Power BI de administración de costes en Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)

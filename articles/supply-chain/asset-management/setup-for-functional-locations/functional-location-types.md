@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879232"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015794"
 ---
 # <a name="functional-location-types"></a>Tipos de ubicación técnica
 
@@ -57,7 +57,7 @@ Ahora se crea el tipo de ubicación funcional predeterminada que se utilizará p
 7. Se utiliza el campo **Tipo de activo** si desea crear automáticamente *un* activo para la ubicación funcional con el mismo identificador y nombre que la ubicación funcional que está creando. Por ejemplo, esto puede ser importante si crea una ubicación funcional estática, como un edificio o un proceso. En ese caso, seleccione el activo que desee usar para el activo creado automáticamente. Recuerde que, si hace una selección en este campo, el botón de alternar **Múltiples activos** debe establecerse en “No”.
 8. En el FastTab **Tipos del activo**, seleccione los tipos de activos que se relacionarán con el tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione los tipos de activos. Si agrega tipos del activo aquí, solo los activos que usen esos tipos del activo se pueden instalar en una ubicación funcional usando este tipo de ubicación funcional. Si no se selecciona ningún tipo de activos en el FastTab **Tipos de activo**, todos los tipos del activo se pueden instalar.
 9. En el FastTab **Planes de mantenimiento**, seleccione los planes de mantenimiento que se deben configurar automáticamente en las nuevas ubicaciones funcionales usando este tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione los planes de mantenimiento. Si agrega planes de mantenimiento aquí, solo se pueden usar esos planes en una ubicación funcional usando este tipo de ubicación funcional.
-10. En el FastTab **Requisitos de atributo de activo**, seleccione los atributos de activo que se deben configurar automáticamente en las nuevas ubicaciones funcionales usando este tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione el atributo. Estos requisitos de atributo funcionan como guías. No se validan con los atributos configurados en un activo (**Administración de activos** > **Campo común** > **Activos** > **Todos los activos** > seleccione el activo en la página de lista > pestaña **General** > botón **Atributos**). Se mostrarán los requisitos de atributo al instalar los activos en las ubicaciones funcionales.
+10. En el FastTab **Requisitos de atributo de activo**, seleccione los atributos de activo que se deben configurar automáticamente en las nuevas ubicaciones funcionales usando este tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione el atributo. Estos requisitos de atributo funcionan como guías. No se validan con los atributos configurados en un activo (**Administración de activos** > **Activos** > **Todos los activos** > seleccione el activo en la página de lista > pestaña **General** > botón **Atributos**). Se mostrarán los requisitos de atributo al instalar los activos en las ubicaciones funcionales.
 11. En el FastTab **Tipos permitidos**, seleccione los tipos de ubicación funcional que deben ser válidos para los tipos de ubicación subfuncional relacionados con un tipo de ubicación funcional principal que use el tipo de ubicación funcional seleccionado.
 12. En el FastTab **Atributos**, seleccione los atributos de la ubicación funcional que se deben configurar automáticamente en las nuevas ubicaciones funcionales usando este tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione el atributo.
 

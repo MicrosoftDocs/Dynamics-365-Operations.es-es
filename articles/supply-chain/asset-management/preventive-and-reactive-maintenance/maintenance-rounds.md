@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852882"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016518"
 ---
 # <a name="maintenance-rounds"></a>Rondas de mantenimiento
 
@@ -87,7 +87,7 @@ La ilustración siguiente muestra un ejemplo de una ronda de mantenimiento con t
 
 Cuando haya configurado una ronda de mantenimiento, ejecute un trabajo de programación para programar todos los trabajos relacionados con la ronda de mantenimiento.
 
-1. Haga clic en **Administración de activos** > **Periódico** > **Mantenimiento preventivo** > **Programar rondas de mantenimiento**, o **Administración de activos** > **Común** > **Programa de mantenimiento** > **Todo el programa de mantenimiento** o **Línea del programa de mantenimiento abiertas** o **Grupos del programa de mantenimiento abiertos** > seleccione una línea del programa de mantenimiento en la lista > botón **Rondas de mantenimiento**.
+1. Haga clic en **Administración de activos** > **Periódico** > **Mantenimiento preventivo** > **Programar rondas de mantenimiento**; o **Administración de activos** > **Programa de mantenimiento** > **Todo el programa de mantenimiento** o **Líneas del programa de mantenimiento abiertas** o **Grupos del programa de mantenimiento abiertos** > seleccione una línea del programa de mantenimiento en la lista > botón **Rondas de mantenimiento**.
 
 2. En el campo **Período**, seleccione el tipo de período que se va a utilizar para el trabajo de programación.
 
@@ -102,7 +102,7 @@ Cuando haya configurado una ronda de mantenimiento, ejecute un trabajo de progra
 
 6. Haga clic en **Aceptar**.
 
-7. Ahora puede ver los trabajos de las rondas de mantenimiento en **Administración de activos** > **Común** > **Programa de mantenimiento** > **Todo el programa de mantenimiento** o **Líneas del programa de mantenimiento abiertas**. Si las rondas programadas están conectadas a un grupo de órdenes de trabajo, verá las líneas del programa de mantenimiento en **Grupos del programa de mantenimiento abiertos**. Las líneas del programa de mantenimiento creada desde una ronda tienen el tipo de referencia "Rondas de mantenimiento".
+7. Ahora puede ver los trabajos de las rondas de mantenimiento en **Administración de activos** > **Programa de mantenimiento** > **Todo el programa de mantenimiento** o **Líneas del programa de mantenimiento abiertas**. Si las rondas programadas están conectadas a un grupo de órdenes de trabajo, verá las líneas del programa de mantenimiento en **Grupos del programa de mantenimiento abiertos**. Las líneas del programa de mantenimiento creada desde una ronda tienen el tipo de referencia "Rondas de mantenimiento".
 
 Las dos siguientes ilustraciones siguientes muestran un trabajo de programación en el cuadro de diálogo **Rondas de mantenimiento de programación** y las líneas del programa de mantenimiento creadas en **Todo el programa de mantenimiento** basándose en ese trabajo de programación.
 

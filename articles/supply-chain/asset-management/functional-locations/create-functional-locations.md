@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869731"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015852"
 ---
 # <a name="create-functional-locations"></a>Crear ubicaciones técnicas
 
@@ -41,7 +41,7 @@ Para poder trabajar con ubicaciones técnica, se crean para empezar dos "categor
 
 Al usar ubicaciones técnicas, empiece por crear la ubicación predeterminada que se utilizará al crear nuevos activos. Esta ubicación técnica es la que se selecciona en **Administración de activos** > **Configurar** > **Parámetros de administración de activos** >  enlace **Activos** > **Ubicación técnica predeterminada**. La ubicación técnica predeterminada se puede utilizar cuando se crean nuevos activos y aún no se ha configurado una estructura ubicación técnica para esos activos.
 
-1. Seleccione **Administración de activos** > **Común** > **Ubicaciones técnicas** > **Todas las ubicaciones técnicas**.  
+1. Seleccione **Administración de activos** > **Ubicaciones técnicas** > **Todas las ubicaciones técnicas**.  
 2. En **Todas las ubicaciones técnicas**, seleccione **Nuevo**.
 3. Inserte un identificador en el campo **Ubicación técnica** (por ejemplo, "0000" o "Predeterminado) para indicar que se trata de una ubicación técnica especial.
 4. Inserte el nombre de la ubicación técnica predeterminada en el campo **Nombre**.
@@ -53,7 +53,7 @@ Al usar ubicaciones técnicas, empiece por crear la ubicación predeterminada qu
 
 El siguiente procedimiento describe cómo se crean las ubicaciones técnicas necesarias para la administración del mantenimiento de la empresa.
 
-1. Seleccione **Administración de activos** > **Común** > **Ubicaciones técnicas** > **Todas las ubicaciones técnicas**. Puede crear una ubicación técnica desde la vista de cuadrícula o desde la vista de detalles.
+1. Seleccione **Administración de activos** > **Ubicaciones técnicas** > **Todas las ubicaciones técnicas**. Puede crear una ubicación técnica desde la vista de cuadrícula o desde la vista de detalles.
 2. Seleccione el botón **Nuevo**.
 3. Inserte un identificador en el campo **Ubicación técnica**.
 4. Inserte un nombre para la ubicación técnica en el campo **Nombre**.

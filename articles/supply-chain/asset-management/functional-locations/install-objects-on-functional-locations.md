@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894512"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016083"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar activos en ubicaciones funcionales
 
@@ -40,7 +40,7 @@ Una vez que haya instalado activos en una ubicación funcional, puede sustituir 
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Instale una estructura de activos en una ubicación funcional.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Ubicaciones funcionales** \> **Todas las ubicaciones funcionales** o **Ubicaciones funcionales activas**.
+1. Seleccione **Administración de activos** \> **Ubicaciones funcionales** \> **Todas las ubicaciones funcionales** o **Ubicaciones funcionales activas**.
 2. Seleccione la ubicación funcional en la que instalar un activo.
 3. Seleccione **Instalar activo**.
 

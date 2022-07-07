@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868112"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016286"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricantes y modelos de activos
 
@@ -53,7 +53,7 @@ Este artículo explica cómo configurar fabricantes de activos y los modelos rel
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Seleccionar un fabricante y un modelo en un objeto
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**.
+1. Seleccione **Administración de activos** \> **_Activos_* \> **Todos los activos**.
 2. En la columna **Activo**, seleccione el vínculo para el activo. Aparecerá la página **Detalles**.
 3. Seleccione **Editar**.
 4. En el FastTab **General**, seleccione valores **Fabricante** y **Modelo**.

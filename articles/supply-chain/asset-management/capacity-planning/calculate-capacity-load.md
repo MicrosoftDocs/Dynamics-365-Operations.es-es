@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849659"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016141"
 ---
 # <a name="calculate-capacity-load"></a>Calcular carga de capacidad
 
@@ -35,7 +35,7 @@ En Administración de activos, puede calcular la carga de capacidad en:
 
 Esto resulta útil si desea obtener una visión general de la carga de capacidad esperada para un período específico. El cálculo de la carga de capacidad se puede realizar en todos los activos o los activos seleccionados. También puede crear un cálculo de los conjuntos de las actividades del tiempo de inactividad o los grupos de órdenes de trabajo.
 
-1. Haga clic en **Administración de activos** > **Consultas** > **Carga de capacidad** o **Administración de activos** > **Común** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Carga de capacidad** o **Administración de activos** > **Común**  > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de mantenimiento en la lista > botón **Carga de capacidad**.
+1. Haga clic en **Administración de activos** > **Consultas** > **Carga de capacidad** o **Administración de activos** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Carga de capacidad** o **Administración de activos** > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de mantenimiento en la lista > botón **Carga de capacidad**.
 
 2. En el diálogo **Calcular la carga de capacidad**, seleccione un período para el cálculo en los campos **Fecha y hora de inicio** y los campos **Fecha y hora final**.
 

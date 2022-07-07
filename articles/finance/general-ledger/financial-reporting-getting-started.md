@@ -2,7 +2,7 @@
 title: Información general de informes financieros
 description: Este artículo describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853420"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033671"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a los informes financieros 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853420"
 
 Este artículo describe cómo acceder a los informes financieros y cómo usar las capacidades de informes financieros. También incluye una descripción de los informes financieros predeterminados proporcionados.
 
-## <a name="accessing-financial-reporting"></a>Acceso a informes financieros
+## <a name="enable-financial-reporting"></a>Habilitar informes financieros
+Para usar el servicio de informes financieros para su organización, un administrador de Lifecycle Services (LCS) debe habilitar este servicio en el portal de LCS para su organización. Si los informes financieros no se han aprovisionado para su entorno, comuníquese con su administrador de LCS para habilitar el servicio. 
+
+## <a name="accessing-financial-reporting"></a>Acceso a los informes financieros
 
 Encontrará el menú **Informes financieros** en los siguientes lugares:
 
-- **Contabilidad general** &gt; **Consultas e informes**
-- **Gestión presupuestaria** &gt; **Consultas e informes** &gt; **Gestión presupuestaria básica**
-- **Gestión presupuestaria** &gt; **Consultas e informes** &gt; **Gestión presupuestaria básica**
-- **Gestión presupuestaria** &gt; **Consultas e informes** &gt; **Control presupuestario**
+- **Contabilidad general** > **Consultas e informes**
+- **Gestión presupuestaria** > **Consultas e informes** > **Gestión presupuestaria básica**
+- **Gestión presupuestaria** > **Consultas e informes** > **Gestión presupuestaria básica**
+- **Gestión presupuestaria** > **Consultas e informes** > **Control presupuestario**
 - Consolidaciones
 
 Para crear y generar informes financieros para una entidad jurídica, debe configurar la siguiente información para esa entidad jurídica:

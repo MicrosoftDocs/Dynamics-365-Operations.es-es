@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907301"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023799"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907301"
 El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 Supply Chain Management. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este artículo explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
 
 Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> La información sobre la colaboración del proveedor en este artículo sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
 
 Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Un administrador configura una configuración general para la colaboración de p
 
 Antes de que las cuentas de usuario se puedan crear para un proveedor externo, deberá configurar la cuenta de proveedor para permitir que utilice la colaboración de proveedor. En la página **Proveedores**, en la pestaña **General** configure el campo **Activación de colaboración**. Las opciones siguientes están disponibles:
 
-- **Activo (el PO se confirma automáticamente)**: los PO se confirman de forma automática si el vendedor los acepta sin cambios.
+- **Activo (el PO se confirma automáticamente)**: los PO se confirman de forma automática si el vendedor los acepta sin cambios. Si usa esta opción, asegúrese de programar el trabajo por lotes *Confirmar pedidos de compra aceptados de la colaboración de proveedor*, que es responsable de procesar las confirmaciones. Para obtener instrucciones, consulte la siguiente sección.
 - **Activo (el PO no se confirma automáticamente)**: es necesario que su oganización confirme los PO manualmente cuando el proveedor los haya aceptado.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Programación del trabajo por lotes de confirmación automática
+
+Si usa la opción **Activo (PC autoconfirmado)** para uno o más de sus proveedores (como se describe en la sección anterior), debe programar el trabajo por lotes *Confirmar pedidos de compra aceptados de la colaboración de proveedor*, que es responsable de procesar y confirmar sus pedidos de compra. De lo contrario, nunca se producirán autoconfirmaciones. Realice el procedimiento siguiente para programar este trabajo.
+
+1. Vaya a **Adquisición y abastecimiento \> Pedidos de compra \> Confirmación de pedido de compra \> Confirmar pedidos de compra aceptados de la colaboración de proveedor**.
+1. En el cuadro de diálogo **Confirmar pedidos de compra aceptados de la colaboración de proveedor**, en la ficha desplegable **Ejecutar en segundo plano**, seleccione **Periodicidad**.
+1. En el cuadro **Definir periodicidad**, defina la programación en la que se debe ejecutar el trabajo. Cuando elija su programación, tenga en cuenta los siguientes aspectos:
+
+    - Si su sistema procesa un gran volumen de datos y ejecuta muchos trabajos por lotes, el rendimiento puede ser un problema. En este caso, probablemente no debería ejecutar este trabajo con más frecuencia que cada 10 minutos (dependiendo de sus otros requisitos). Si el rendimiento no es un problema para usted, puede ejecutarlo cada 1 o 2 minutos si es necesario.
+    - Si sus proveedores tienden a entregar los productos rápidamente (dentro del día que acordaron), la periodicidad debe ser frecuente (cada 10 a 30 minutos más o menos). De esta forma, los trabajadores del almacén podrán recibir las mercancías contra el pedido de compra confirmado después de que se haya realizado la confirmación.
+    - Si sus proveedores tienden a tener un tiempo de espera prolongado (más de 24 horas), puede configurar esta tarea para que se ejecute solo una vez al día más o menos.
+
+1. Seleccione **Aceptar** para aplicar su programación y volver al cuadro de diálogo **Confirmar pedidos de compra aceptados de la colaboración de proveedor**.
+1. Establezca opciones en segundo plano adicionales según sea necesario. El cuadro de diálogo proporciona las opciones habituales para configurar trabajos por lotes en Supply Chain Management.
+
+Para obtener más información sobre los trabajos por lotes, vea [Descripción general del procesamiento por lotes](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Especificar si el proveedor debería ver información de precios
 

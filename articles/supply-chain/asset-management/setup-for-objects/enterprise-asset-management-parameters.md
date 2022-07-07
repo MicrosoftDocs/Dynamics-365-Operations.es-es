@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870822"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015823"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
@@ -37,7 +37,7 @@ La pestaña **Activos** proporciona la siguiente configuración:
 
 - **Ubicación funcional predeterminada** es la ubicación funcional estándar, que se selecciona automáticamente en los activos al crear nuevos activos.  
 - En el campo **Calendario estándar**, seleccione un calendario que se utilizará para calcular los KPI de activos, en caso de que no se seleccione ningún recurso en un activo.  
-- En el campo **Vista**, seleccione la vista estándar que se muestra al abrir **Vista de activo** (**Administración de activos** > **Común** > **Activos** > **Vista de activo**).
+- En el campo **Vista**, seleccione la vista estándar que se muestra al abrir **Vista de activo** (**Administración de activos** > **Activos** > **Vista de activo**).
 - **Tipo de solicitud predeterminado** es el tipo de solicitud de mantenimiento estándar, que se activa automáticamente al crear una nueva solicitud.  
 - Las previsiones de tipos de trabajo se almacenan en el proyecto seleccionado en el campo **Proyecto de previsión**. Para cada tipo de trabajo, se crea una nueva actividad automáticamente en el proyecto de previsión. Las previsiones del tipo de trabajo se guardan en el proyecto de previsión.  
 - En el campo **Modelo**, seleccione el modelo de previsión usado en previsiones de tipo de trabajo y orden de trabajo.

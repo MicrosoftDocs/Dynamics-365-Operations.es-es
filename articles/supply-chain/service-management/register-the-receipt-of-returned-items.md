@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672777"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017300"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Registro de la recepción de artículos devueltos 
 
@@ -87,7 +87,7 @@ Puede utilizar el formulario **Visión general de llegadas** para identificar un
 
 En vez de utilizar el formulario **Visión general de llegadas**, puede utilizar el formulario **Registro** para registrar la recepción de artículos devueltos.
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**. Cree un nuevo pedido de devolución o abra el pedido de devolución de la lista. En la ficha desplegable **Líneas**, seleccione la línea de pedido de devolución. Haga clic en **Actualizar línea** y luego en **Registro**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**. Cree un nuevo pedido de devolución o abra el pedido de devolución de la lista. En la ficha desplegable **Líneas**, seleccione la línea de pedido de devolución. Haga clic en **Actualizar línea** y luego en **Registro**.
 
 2.  Asigne un código de disposición en el campo **Código de disposición** y, a continuación, haga clic en **Aceptar**.
     

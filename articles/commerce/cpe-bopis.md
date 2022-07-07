@@ -1,8 +1,8 @@
 ---
-title: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
-description: Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
+title: Configurar BOPIS en un entorno de espacio aislado de Dynamics 365 Commerce
+description: Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un entorno de espacio aislado de Microsoft Dynamics 365 Commerce después de que se haya aprovisionado.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861975"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013184"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Configurar BOPIS en un entorno de espacio aislado de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un ambiente de evaluación de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
+Este artículo explica cómo configurar la compra en línea, la recogida en la tienda (BOPIS) en un entorno de espacio aislado de Microsoft Dynamics 365 Commerce después de que el entorno se haya aprovisionado.
 
 ## <a name="prerequisite"></a>Requisito previo
 
-Complete los procedimientos de este artículo solo después de que se haya aprovisionado y configurado su entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de evaluación de Dynamics 365 Commerce](./cpe-post-provisioning.md).
+Complete los procedimientos de este artículo solo después de que se haya aprovisionado y configurado su entorno de espacio aislado de Commerce. Para obtener información sobre cómo aprovisionar y configurar su entorno, consulte [Aprovisionar un entorno de espacio aislado de Dynamics 365 Commerce](provisioning-guide.md) y [Configurar un entorno de espacio aislado de Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 Después de que su entorno de Commerce se haya aprovisionado y configurado de principio a fin, puede usar este artículo para habilitar escenarios BOPIS.
 
@@ -67,7 +67,7 @@ Los escenarios BOPIS que implican un pago con tarjeta de crédito requieren una 
 5. Aparece un cuadro de diálogo de autenticación. Seleccione la cuenta que usa la dirección de correo electrónico que anteriormente estaba asociada con el trabajador **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Si aún no ha asociado a un trabajador con su identidad, la activación no tendrá éxito. En este caso, siga los pasos de la sección "Asociar un trabajador con su identidad" en el artículo [Configurar un entorno de evaluación de Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Si aún no ha asociado a un trabajador con su identidad, la activación no tendrá éxito. En este caso, siga los pasos de la sección "Asociar un trabajador con su identidad" en el artículo [Configurar un entorno de espacio aislado de Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Cuando se le solicite que permita que su organización administre el dispositivo, seleccione **Esta aplicación solo**.
 7. Cuando se complete la activación, seleccione **Empezar**.
@@ -140,13 +140,9 @@ Para todos los problemas generales, siempre debe consultar los registros de even
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general del entorno de evaluación de Dynamics 365 Commerce](cpe-overview.md)
+[Aprovisionar un entorno de espacio aislado de Dynamics 365 Commerce](provisioning-guide.md)
 
-[Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md)
-
-[Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
-
-[Preguntas frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
+[Configurar características opcionales para un entorno de espacio aislado de Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

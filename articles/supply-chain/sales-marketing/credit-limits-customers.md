@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903880"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015332"
 ---
 # <a name="credit-limits-for-customers"></a>Límites de crédito para clientes
 
@@ -117,7 +117,7 @@ Use el formulario **Parámetros de clientes** para especificar si se debe mostra
 
 Use el formulario **Clientes** para especificar el importe del límite de crédito para un cliente específico. Debe ser miembro de un rol de seguridad que tenga el arancel Mantener el maestro de cliente (CustCustomersMaintain) asignado al realizar cambios en este formulario.
 
-1.  Haga clic en **Clientes** \> **Común** \> **Clientes** \> **Todos los clientes**. Haga doble clic en una cuenta de cliente.
+1.  Haga clic en **Clientes** \> **Clientes** \> **Todos los clientes**. Haga doble clic en una cuenta de cliente.
 
 2.  En el formulario **Clientes**, en el panel de acciones, haga clic en **Editar**.
 
@@ -132,7 +132,7 @@ Use el formulario **Clientes** para especificar el importe del límite de crédi
 
 En ocasiones, es posible que deba comprobar manualmente el límite de crédito de un cliente. Por ejemplo, puede comprobar manualmente el límite de crédito de un cliente antes de comenzar a introducir un pedido de ventas. Puede usar el formulario **Pedido de ventas** para comprobar manualmente los límites de crédito. Debe ser miembro de un rol de seguridad que tenga el arancel Mantener el pedido de ventas (SalesOrderMaintain) asignado al realizar cambios en este formulario.
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**. Haga doble clic en un pedido de ventas.
+1.  Haga clic en **Ventas y marketing** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**. Haga doble clic en un pedido de ventas.
 
 2.  En el formulario **Pedido de ventas** del panel de acciones en la ficha **Administrar**, seleccione **Comprobar el límite de crédito**.
 

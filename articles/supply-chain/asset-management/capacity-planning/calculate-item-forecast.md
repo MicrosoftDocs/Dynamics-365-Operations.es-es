@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870911"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016112"
 ---
 # <a name="calculate-item-forecast"></a>Calcular previsión de artículo
 
@@ -36,7 +36,7 @@ Al igual que puede crear los cálculos de la carga de capacidad, que se describe
 
 Esto resulta útil si desea obtener una visión general del consumo de artículos esperado (piezas de repuesto así como otros elementos requeridos para completar los pedidos de trabajo) para un período específico. El cálculo de la previsión de artículo se puede realizar en todos los activos o los activos seleccionados. También puede crear un cálculo en una actividad del tiempo de inactividad por mantenimiento (**Todas las actividades del tiempo de inactividad por mantenimiento** o **Actividades de tiempo de inactividad por mantenimiento activas**) o bien respecto a un conjunto de pedidos de trabajo (**Todos los grupos de órdenes de trabajo** o **Grupos de órdenes de trabajo activas**).
 
-1. Haga clic en **Administración de activos** > **Consultas** > **Previsión de artículo** o **Administración de activos** > **Común** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Previsión de artículo** o **Administración de activos** > **Común**  > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de tiempo e inactividad por mantenimiento en la lista > botón **Previsión de artículo**.
+1. Haga clic en **Administración de activos** > **Consultas** > **Previsión de artículo** o **Administración de activos** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Previsión de artículo** o **Administración de activos** > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de tiempo e inactividad por mantenimiento en la lista > botón **Previsión de artículo**.
 
 2. En el diálogo **Calcular la previsión de artículo**, seleccione un período para el cálculo en los campos **Fecha y hora de inicio** y los campos **Fecha y hora final**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908783"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017156"
 ---
 # <a name="multi-level-assets"></a>Activos de varios niveles
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908783"
 
 Este artículo explica cómo crear y eliminar activos de varios niveles. Puede crear activos y subactivos relacionados en una estructura en árbol jerárquica. De esta manera, puede mostrar las relaciones y dependencias entre los activos. Los trabajos de mantenimiento pueden estar relacionadas con todos los niveles de la estructura de árbol. También se pueden crear estadísticas para un nivel individual o como suma de todos los niveles de subactivos.
 
-En la página de lista **Todos los activos** (**Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**), la columna **Activo** muestra los activos por orden jerárquico. La columna **Principal** muestra el elemento principal relacionado. Además, si los activos y los subactivos ya se han creado, la sección **Árbol de activos** en el panel **Información relacionada** se muestra los activos en una estructura de árbol.
+En la página de lista **Todos los activos** (**Administración de activos** \> **Activos** \> **Todos los activos**), la columna **Activo** muestra los activos por orden jerárquico. La columna **Principal** muestra el elemento principal relacionado. Además, si los activos y los subactivos ya se han creado, la sección **Árbol de activos** en el panel **Información relacionada** se muestra los activos en una estructura de árbol.
 
 Para obtener información sobre cómo crear un activo, consulte [Crear un activo](../objects/create-an-object.md). Para crear un subactivo, seleccione el activo principal en el campo **Principal** del FastTab **General**.
 
@@ -38,7 +38,7 @@ Para obtener información sobre cómo crear un activo, consulte [Crear un activo
 
 Si su empresa tiene varias estructuras de activos similares, puede usar la función Copiar de Administración de activos para crearlas rápidamente.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Todos los activos**.
 2. En la página de lista **Todos los activos**, seleccione el activo para copiar. Por ejemplo, si desea copiar la estructura de activos completa, incluidos los subactivos, seleccione un activo principal.
 3. Seleccione **Copiar activo**. En la sección **Copiar de**, el campo **Activo** está configurado con el activo que seleccionó en la página de lista.
 4. En la sección **Copiar a**, en el campo **Activo**, escriba el nombre del nuevo activo.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907388"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016460"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -50,7 +50,7 @@ Cuando se habilita la administración de cambios, los pedidos de compra pasan po
 ## <a name="confirming-purchase-orders"></a>Confirmación de pedidos de compra
 POs que tienen un estado de aprobación de **aprobado** puede pasar por pasos adicionales antes de que se confirmaron. Por ejemplo, es posible que tenga que enviar una consulta de compra al proveedor para consultar precios, descuentos o fechas de entrega. En este caso, puede establecer el pedido de compra en el estado **En revisión externa** con la acción **Consulta de compra**.
 
-Los proveedores que estén configurados para utilizar el portal de proveedores pueden revisar pedidos en el portal, y aprobarlos o rechazarlos. Durante este proceso de revisión, el pedido de compra tiene un estado de **En revisión externa**. El portal de proveedores se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido en Supply Chain Management. De forma alternativa, puede confirmar un pedido de compra manualmente después de recibir la confirmación del proveedor. Si un proveedor rechaza un pedido de compra, el rechazo se recibe junto con el motivo del rechazo y sugerencias para cambios. En este caso, el estado del pedido de compra sigue siendo **En revisión externa**.
+Los proveedores que estén configurados para utilizar el módulo de colaboración con proveedores pueden revisar pedidos en el portal y aprobarlos o rechazarlos. Durante este proceso de revisión, el pedido de compra tiene un estado de **En revisión externa**. El módulo de colaboración con proveedores se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido en Supply Chain Management. De forma alternativa, puede confirmar un pedido de compra manualmente después de recibir la confirmación del proveedor. Si un proveedor rechaza un pedido de compra, el rechazo se recibe junto con el motivo del rechazo y sugerencias para cambios. En este caso, el estado del pedido de compra sigue siendo **En revisión externa**.
 
 También hay una opción para generar una confirmación proforma para un pedido antes del procesamiento de la confirmación real. Esta opción solo crea un informe que puede compartir con el proveedor. No crea ninguna información de diario.
 

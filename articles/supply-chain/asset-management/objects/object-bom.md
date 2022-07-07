@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882790"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016257"
 ---
 # <a name="asset-boms"></a>L. MAT de activos
 
@@ -57,7 +57,7 @@ La configuración del historial de piezas de repuesto se basa en los grupos de a
 
 Después de registrar el consumo de artículos en una orden de trabajo, puede ver el consumo de artículos registrado en la página **L. MAT de activos**.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Activos activos**. Seleccione el activo en la lista y a continuación **L. MAT de activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Activos activos**. Seleccione el activo en la lista y a continuación **L. MAT de activos**.
 
     > [!NOTE]
     > Para ver todos los registros de consumo de artículos de todos los activos, seleccione **Administración de activos** \> **Consultas** \> **Activos** \> **L. MAT de activos**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905035"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016431"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)
 
@@ -818,7 +818,7 @@ Actualmente, Retail Modern POS solo está disponible como aplicación de Windows
 | Ajustar el inventario propiedad del proveedor mediante un diario de recuento. | Es importante que se conserve el inventario del sistema disponible sincronizado con el inventario físico real. El inventario propiedad del proveedor se puede ajustar dentro y fuera mediante procesos de recuento como procesos de ajuste de cantidad y diarios de recuento. |
 | Descubra más información acerca del soporte del envío en Dynamics 365 for Operations | Para obtener más información sobre el soporte para los procesos de envío, consulte [Envío](../../../supply-chain/inventory/consignment.md), [Configuración del envío](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Crear un pedido de reabastecimiento de envío (Guía de tareas)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md), y [Cambiar la propiedad del inventario de envío en base a la demanda de la producción (Guía de tareas)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Colaboración del proveedor (conocido anteriormente como el Portal de proveedores)
+### <a name="vendor-collaboration"></a>Colaboración de proveedor
 
 | Lo que puede hacer | Por qué es importante |
 |-----------------|-----------------------|

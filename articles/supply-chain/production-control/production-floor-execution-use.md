@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860678"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022534"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -263,9 +263,6 @@ Un trabajador registra una pausa seleccionando **Descanso** y seleccionando a co
 
 ## <a name="view-the-my-day-dialog"></a>Ver el cuadro de diálogo "Mi día"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 El diálogo **Mi día** proporciona a los trabajadores una visión general de sus registros y saldos. El diálogo se divide en las siguientes tres secciones:
 
 - La sección principal enumera los registros que el trabajador actual realizó en una fecha seleccionada. Se abre mostrando los registros para el día actual y proporciona un selector de fechas que permite al trabajador ver otros días.
@@ -275,9 +272,6 @@ El diálogo **Mi día** proporciona a los trabajadores una visión general de su
 Los administradores pueden agregar esta característica a la interfaz colocando el botón **Mi día** en una barra de herramientas para cada pestaña relevante como se describe en [Diseñar la interfaz de ejecución de la planta de producción](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>Trabajar en equipos
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Cuando se asigna a varios trabajadores al mismo trabajo de producción, pueden formar un equipo. El equipo puede designar a un trabajador como piloto. Los trabajadores restantes se convierten automáticamente en asistentes de ese piloto. Para el equipo resultante, solo el piloto debe registrar el estado del trabajo. Los registros de tiempo se aplican a todos los miembros del equipo.
 

@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945734"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954674"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>Versión 2.0.25.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+- Mayor rendimiento.
+- Mayor estabilidad.
+- Se ha mejorado la página **Consulta** para admitir textos más largos en los subtítulos.
+- Se ha introducido la capacidad de cancelar inmediatamente un flujo con un solo toque o clic (cuando **Cancelar** es la única acción disponible en **Mas acciones**).
+- Se ha solucionado un problema por el cual a veces se podía perder el enfoque entre los controles de entrada en la página **Editar conexión** y las páginas personalizadas.
+- Se ha solucionado un problema por el cual los botones a veces podían dejar de responder y permanecer como seleccionados cuando se incluían en una vista de desplazamiento.
+- Se ha solucionado un problema por el que a veces se podía usar un diseño incorrecto en la página principal.
 
 ## <a name="version-20240"></a>Versión 2.0.24.0
 

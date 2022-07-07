@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880462"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016808"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsiones, órdenes de trabajo y proyectos
 
@@ -60,7 +60,7 @@ Por ejemplo, en la siguiente ilustración, debido al modo que se configuró el t
 
 ![Figura 1.](media/01-integration-to-pma.png)
 
-El propósito del identificador del proyecto en el trabajo de orden de trabajo y el número de actividad relacionado, es para llevar un seguimiento de los costes relacionados con el trabajo de la orden de trabajo y el activo seleccionada en el mismo, en el módulo **Gestión y contabilidad de proyectos**. Para ver el identificador y el número de actividad del proyecto, seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** y seleccione la orden de trabajo. En la ficha desplegable **Detalles de línea**, el campo **Id. de proyecto** muestra el identificador del proyecto y el campo **Número de actividad** muestra el número de actividad. Para obtener más información acerca del control de costes en Administración de activos, consulte [Control de costes y fechas](../controlling-and-reporting/cost-and-date-control.md).
+El propósito del identificador del proyecto en el trabajo de orden de trabajo y el número de actividad relacionado, es para llevar un seguimiento de los costes relacionados con el trabajo de la orden de trabajo y el activo seleccionada en el mismo, en el módulo **Gestión y contabilidad de proyectos**. (Para ver el identificador y el número de actividad del proyecto, seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** y seleccione la orden de trabajo. En la ficha desplegable **Detalles de línea**, el campo **Id. de proyecto** muestra el identificador del proyecto y el campo **Número de actividad** muestra el número de actividad. Para obtener más información acerca del control de costes en Administración de activos, consulte [Control de costes y fechas](../controlling-and-reporting/cost-and-date-control.md).
 
 La siguiente ilustración presenta una visión general gráfica de los proyectos de órdenes de trabajo y las actividades de proyecto relacionadas.
 

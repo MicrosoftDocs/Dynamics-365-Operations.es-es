@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893653"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014963"
 ---
 # <a name="procurement"></a>Adquisición
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893653"
 
 En Administración de activos, puede obtener una visión general de las solicitudes de compra y los pedidos de compra relacionados con órdenes de trabajo. También es posible crear un pedido de compra o una solicitud de compra a partir de una orden de trabajo.
 
-En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de solicitudes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Solicitud de compra del pedido de trabajo** para realizar distintas acciones:
+En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de solicitudes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Solicitud de compra del pedido de trabajo** para realizar distintas acciones:
 
 - Para abrir la solicitud de compra relacionada, seleccione **solicitud de compra**. 
 - Para abrir la orden de trabajo relacionada, seleccione **Orden de trabajo**.
@@ -39,7 +39,7 @@ La ilustración siguiente muestra un ejemplo de la página de lista **Solicitud 
 ![Figura 1.](media/08-work-orders.png)
 
 
-En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de órdenes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Compra del pedido de trabajo** para realizar distintas acciones:
+En la página de lista **Compra de orden de trabajo** (**Administración de activos** > **Adquisición** > **Compra de orden de trabajo**), se ve una lista de órdenes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Compra del pedido de trabajo** para realizar distintas acciones:
 
 - Para abrir la orden de compra relacionada, seleccione **Orden de compra**. 
 - Para abrir la orden de trabajo relacionada, seleccione **Orden de trabajo**.
@@ -69,7 +69,7 @@ En una solicitud de compra, la fecha usada en el campo **Fecha solicitada** en l
 
 En la página de lista **Todas las órdenes de trabajo**, puede seleccionar una tarea de orden de trabajo y luego crear una orden de pedido de compra o una solicitud de compra relacionada. De esta forma, esto ayuda a garantizar que haya relaciones de proyectos entre el pedido de compra o la solicitud de compra y la orden de trabajo.
 
-1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione el pedido de trabajo para crear para él una orden de compra y, a continuación, seleccione **Editar**.
 

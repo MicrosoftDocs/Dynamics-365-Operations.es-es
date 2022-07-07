@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873677"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016170"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
@@ -63,7 +63,7 @@ En la página **Parámetros de producción**, el consumo automático de la lista
 
 Para cada fase, el campo **Consumo automático de L. MAT** permite seleccionar uno de los tres métodos para seleccionar artículos para un pedido de producción:
 
-- **Principio de vaciado**: esta opción se usa en combinación con una opción definida en la lista de materiales en el módulo de **Producción**. Haga clic en **Control de producción** &gt; **Común** &gt; **Pedidos de producción** &gt; **Todos los pedidos de producción**. En la página **Todos los pedidos de producción**, seleccione un pedido de producción de la lista y, a continuación, en el panel de acciones, haga clic en **L. MAT**. En la página **L. MAT**, en la ficha **Configuración**, en el campo **Principio de vaciado**, seleccione una de las siguientes opciones:
+- **Principio de vaciado**: esta opción se usa en combinación con una opción definida en la lista de materiales en el módulo de **Producción**. Haga clic en **Control de producción** &gt; **Pedidos de producción** &gt; **Todos los pedidos de producción**. En la página **Todos los pedidos de producción**, seleccione un pedido de producción de la lista y, a continuación, en el panel de acciones, haga clic en **L. MAT**. En la página **L. MAT**, en la ficha **Configuración**, en el campo **Principio de vaciado**, seleccione una de las siguientes opciones:
 
   - **Inicio**
   - **Finalizar**

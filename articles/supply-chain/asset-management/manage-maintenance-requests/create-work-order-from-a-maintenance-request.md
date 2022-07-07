@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb54ec3466086afbd87a023a40e346a6a3464c98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909712"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017185"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 
@@ -34,7 +34,7 @@ Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente e
 > [!NOTE]
 > Cada solicitud de mantenimiento puede relacionarse únicamente con una orden de trabajo. Sin embargo, se pueden incluir varias solicitudes de mantenimiento en una orden de trabajo, aunque las solicitudes de mantenimiento tenga activos diferentes.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento**.
+1. Seleccione **Administración de activos** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento**.
 2. Antes de poder crear una orden de trabajo a partir de solicitudes de mantenimiento, debe seleccionar como mínimo un tipo de trabajo de mantenimiento para las solicitudes de mantenimiento, así como una variante y un comercio del tipo de trabajo de mantenimiento, si esta información es pertinente. En la vista de cuadrícula puede actualizar fácilmente la información de una solicitud de mantenimiento.
 3. Cuando esté listo para crear una orden de trabajo, seleccione las solicitudes de mantenimiento que desea incluir en ella.
 
@@ -48,7 +48,7 @@ Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente e
 
     Además, al crear una orden de trabajo basada en una solicitud de mantenimiento, si el activo relacionado con la solicitud de mantenimiento se incluye en un acuerdo de garantía, una barra de mensajes le notificará el acuerdo de garantía.
 
-6. Seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, y abra la nueva orden de trabajo.
+6. Seleccione **Administración de activos** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, y abra la nueva orden de trabajo.
 
     ![Abrir nueva orden de trabajo.](media/05-manage-maintenance-requests.png)
 

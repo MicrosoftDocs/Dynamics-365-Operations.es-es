@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745511"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015475"
 ---
 # <a name="create-an-item-replacement-order"></a>Creación de pedidos de sustitución de artículos 
 
@@ -31,7 +31,7 @@ Los pedidos de sustitución de artículos se suelen crear una vez devuelto e ins
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Crear un pedido de sustitución después de recibir un artículo devuelto
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**.
 
 2.  Cree un nuevo pedido de devolución o seleccione un pedido de devolución de la lista para abrir el formulario **Pedido de devolución - Número de RMA: %1, %2**.
 
@@ -45,7 +45,7 @@ Los pedidos de sustitución de artículos se suelen crear una vez devuelto e ins
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Crear un pedido de sustitución antes de recibir un artículo devuelto
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**.
 
 2.  Cree un nuevo pedido de devolución o seleccione un pedido de devolución de la lista para abrir el formulario **Pedido de devolución - Número de RMA: %1, %2**.
 

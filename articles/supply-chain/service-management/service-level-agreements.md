@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670815"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014704"
 ---
 # <a name="service-level-agreements-overview"></a>Visión general de los contratos de nivel de servicio       
 
@@ -50,7 +50,7 @@ Los pedidos de servicio que cree automáticamente no se vinculan a un SLA.
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>Aplicar el acuerdo de nivel de servicio al acuerdo de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**. Seleccione el acuerdo de servicio al que desea aplicar el SLA y, a continuación, haga clic en **Editar** en el **Panel de acciones**.
+1.  Haga clic en **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**. Seleccione el acuerdo de servicio al que desea aplicar el SLA y, a continuación, haga clic en **Editar** en el **Panel de acciones**.
 
 2.  En el campo **Contrato de nivel de servicio**, seleccione el SLA que desea asignar.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890955"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015505"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Preguntas más frecuentes sobre cálculos para modelos de configuración de productos
 
@@ -73,7 +73,7 @@ Puede sobrescribir el valor que se calcula para el atributo de destino, a menos 
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>¿Cómo se establece un atributo de destino como oculto o de solo lectura?
 Para establecer un atributo como oculto o de solo lectura, siga estos pasos.
 
-1.  Haga clic en **Gestión de información de productos** &gt; **Común** &gt; **Modelos de configuración del producto**.
+1.  Haga clic en **Gestión de información de productos** &gt; **Productos** &gt; **Modelos de configuración del producto**.
 2.  Seleccione un modelo de configuración de producto y haga clic en **Editar** en el panel de acciones.
 3.  En la página **Detalles del modelo de configuración de productos basados en restricciones**, seleccione el atributo que desea usar como atributo de destino.
 4.  En la ficha desplegable **Atributos**, seleccione **Oculto** o **Solo lectura**.
@@ -96,7 +96,7 @@ Este mensaje se muestra cuando un cálculo incluye un error o existe una contrad
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>¿Por qué se produce un mensaje de error aunque haya validado correctamente el modelo de producto?
 Los cálculos no se incluyen en la validación. Debe probar el modelo de configuración de productos para buscar errores en los cálculos. Siga estos pasos para probar un modelo de configuración de productos.
 
-1.  Haga clic en **Gestión de información de productos** &gt; **Común** &gt; **Modelos de configuración del producto**.
+1.  Haga clic en **Gestión de información de productos** &gt; **Productos** &gt; **Modelos de configuración del producto**.
 2.  Seleccione un modelo de configuración de producto y, en el panel de acciones, haga clic en **Ejecutar** y luego en **Probar**.
 
 

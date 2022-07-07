@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891245"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016837"
 ---
 # <a name="create-maintenance-requests"></a>Crear solicitudes de mantenimiento
 
@@ -32,9 +32,9 @@ Pueden usarse solicitudes de mantenimiento cuando los trabajadores de mantenimie
 
 **Ejemplo:** cuando un trabajador de mantenimiento está realizando una reparación, descubre que hay que realizar el mantenimiento de otro activo en esa misma ubicación. Sin embargo, el trabajador de mantenimiento no tiene ni el tiempo ni las piezas de repuesto necesarias para realizar el trabajo de reparación. Así, crea una solicitud de mantenimiento en el activo y especifica una breve descripción del problema.
 
-La sección **Solicitudes de mantenimiento activas** del panel **Información relacionada** a la derecha de la página **Todos los activos** o **Activos activos** (**Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**) muestra las solicitudes de mantenimiento activas vinculados al activo seleccionado.
+La sección **Solicitudes de mantenimiento activas** del panel **Información relacionada**, a la derecha de la página **Todos los activos** o **Activos activos** (**Administración de activos** \> **Activos** \> **Todos los activos** o **Activos activos**) muestra las solicitudes de mantenimiento activas vinculadas al activo seleccionado.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento** o **Solicitudes de mantenimiento activas**.
+1. Seleccione **Administración de activos** \> **Solicitudes de mantenimiento** \> **Todas las solicitudes de mantenimiento** o **Solicitudes de mantenimiento activas**.
 2. Seleccione **Nuevo**.
 3. En el cuadro de diálogo **Crear solicitud**, en el campo **Tipo de solicitud de mantenimiento**, seleccione el tipo de solicitud de mantenimiento. Se sugiere un tipo predeterminado.
 4. En el campo **Descripción**, escriba un nombre o un título que describa brevemente la solicitud de mantenimiento.

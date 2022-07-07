@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678273"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014862"
 ---
 # <a name="create-service-orders-manually"></a>Crear pedidos de servicio manualmente    
 
@@ -34,7 +34,7 @@ Es posible crear pedidos de servicio manualmente mediante un acuerdo de servicio
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Crear un pedido de servicio manualmente a partir de un acuerdo de servicio
 
-1.  Seleccione **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1.  Seleccione **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**.
 
 2.  Seleccione un acuerdo de servicio o cree uno nuevo.
 
@@ -42,7 +42,7 @@ Es posible crear pedidos de servicio manualmente mediante un acuerdo de servicio
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Crear un pedido de servicio manualmente en el formulario de pedidos de servicio
 
-1.  Seleccione **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1.  Seleccione **Gestión de servicio** \> **Pedidos de servicio** \> **Pedidos de servicio**.
 
 2.  Seleccione **Nuevo** para crear un nuevo pedido de servicio.
 
@@ -53,7 +53,7 @@ Es posible crear pedidos de servicio manualmente mediante un acuerdo de servicio
 
 ## <a name="create-a-service-order-from-a-project"></a>Crear un pedido de servicio desde un proyecto
 
-1.  Vaya a **Gestión de proyectos y contabilidad** \> **Común** \> **Proyectos** \> **Todos los proyectos**.
+1.  Vaya a **Gestión de proyectos y contabilidad** \> **Proyectos** \> **Todos los proyectos**.
 
 2.  En el formulario **Proyectos**, en el **Panel Acciones**, seleccione la pestaña **Administrar** \> y luego **Servicio** \> **Pedidos de servicio**.
 
@@ -66,7 +66,7 @@ Es posible crear pedidos de servicio manualmente mediante un acuerdo de servicio
 
 Puede crear un pedido de servicio desde el formulario **Pedidos de ventas** mediante el asistente **Crear un nuevo pedido de servicio basado en el pedido de ventas**.
 
-1.  Vaya a **Ventas y marketing** \> **Común** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**.
+1.  Vaya a **Ventas y marketing** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**.
 
 2.  Abra el pedido de ventas pertinente.
 

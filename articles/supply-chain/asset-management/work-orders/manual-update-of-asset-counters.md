@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897730"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016605"
 ---
 # <a name="manual-update-of-asset-counters"></a>Actualización manual de los contadores de activos
 
@@ -34,7 +34,7 @@ Se puede definir el tipo de contador para un contador de manera que herede los v
 
 En la página **Todos los activos**, cree registros de contador de horas o cantidad en un activo, según sus lecturas en el activo.
 
-1. Seleccione **Administración de activos** > **Común** > **Activos** > **Todos los activos**.
+1. Seleccione **Administración de activos** > **Activos** > **Todos los activos**.
 
 2. Seleccione el activo y, a continuación, en el panel de acciones, en la pestaña **Activo**, en el grupo **Preventivo**, seleccione **Contadores**. La página **Contadores de activos** muestra una lista de todos los registros de contador previos realizados en el activo seleccionado.
 

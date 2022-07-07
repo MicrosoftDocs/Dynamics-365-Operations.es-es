@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c0255da0b8ebc248fd074c88082777afc9d36d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec214ef4ebb6ecb72c1684c515df25d3c2403c14
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882993"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027150"
 ---
 # <a name="administration-overview"></a>Visión general de la administración
 
@@ -110,6 +110,6 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 - [Novedades y cambios en Human Resources](hr-admin-whats-new.md)
 - [Guía de desarrollador](hr-developer-overview.md)
-- [Manual del usuario](hr-hrpro-overview.md)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

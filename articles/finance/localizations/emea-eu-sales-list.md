@@ -2,7 +2,7 @@
 title: Informes de listas de ventas de la UE
 description: Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323481"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012505"
 ---
 # <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
 
@@ -29,7 +29,7 @@ Este artículo proporciona información acerca de los informes de listas de vent
 
 ## <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
 
-Un proveedor que está suministrando mercancías o servicios intracomunitarios a empresas que se encuentran dentro de la Unión Europea (EU) debe enviar una declaración de suministros intracomunitarios (lista de ventas de la UE o ESL). El ESL debe ser enviado normalmente a las autoridades fiscales antes del último día del mes tras el período de calendario que cubre el ESL. El proveedor debe constatar el número de identificación fiscal (IVA) en el ESL y también debe constatar, por cliente, la siguiente información:
+Un proveedor que está suministrando mercancías o servicios intracomunitarios a empresas que se encuentran dentro de la Unión Europea (UE) debe enviar una declaración de suministros intracomunitarios (lista de ventas de la UE o ESL). El ESL debe ser enviado normalmente a las autoridades fiscales antes del último día del mes tras el período de calendario que cubre el ESL. El proveedor debe constatar el número de identificación fiscal (IVA) en el ESL y también debe constatar, por cliente, la siguiente información:
 
 -   El número de identificación fiscal del cliente de la UE
 -   El valor total de los suministros de mercancías y servicios intracomunitarios que se realizan al cliente de la UE en ese período. El proveedor también debe separar los suministros de mercancías generales de los suministros de comercio triangular. Una transacción de comercio triangular implica la entrega directa de mercancía del proveedor del proveedor al cliente cuando ambas partes están registradas en otros estados miembros de la unión europea.
@@ -123,7 +123,7 @@ También puede crear un número de registro de IVA para las contrapartidas en la
 <li>Separador <strong>Parámetros de país o región</strong>: identifica los estados miembros de la UE. Para cada estado miembro de la UE, cree un registro en la página y especifique la información siguiente:
 <ul>
 <li><strong>País o región</strong>: seleccione un país o una región.</li>
-<li><strong>Tipo de país o región</strong>: Si el valor <strong>País o región</strong> es el país o región en el que está registrada su empresa, seleccione <strong>Nacional</strong>. Si el valor <strong>País o región</strong> es un estado miembro de la UE distinto al país o región en el que está registrada su empresa, seleccione <strong>EU</strong>. Si el valor <strong>País o región</strong> no es un estado miembro de la UE, seleccione <strong>Otro país o región</strong>.</li>
+<li><strong>Tipo de país o región</strong>: Si el valor <strong>País o región</strong> es el país o región en el que está registrada su empresa, seleccione <strong>Nacional</strong>. Si el valor <strong>País o región</strong> es un estado miembro de la UE distinto al país o región en el que está registrada su empresa, seleccione <strong>UE</strong>. Si el valor <strong>País o región</strong> no es un estado miembro de la UE, seleccione <strong>Otro país o región</strong>.</li>
 </ul></li>
 <li>Separador <strong>Secuencias numéricas</strong>: en la línea donde el valor <strong>Referencia</strong> es <strong>Lista de ventas de la UE</strong>, seleccione un código de secuencia numérica.</li>
 </ul></td>
@@ -150,7 +150,7 @@ Las transacciones de los siguientes tipos se pueden considerar las transacciones
 -   Facturas del proyecto
 -   Facturas de proveedores
 
-Una transacción se considera una transacción de comercio intracomunitario si la dirección de entrega de la transacción está en un estado miembros de la UE. Para dichos países o regiones, un registro debe existir en el separador **Parámetros de país o región** de la página **Parámetros de comercio exterior**, y el valor **Tipo de país o región** debe establecerse en **UE**. Las transacciones comerciales intracomunitarias se marcan en el campo **Código de lista**. Mediante este campo, también puede separar transacciones generales de comercio intracomunitario de transacciones comerciales triangulares. Puede recopilar información sobre transacciones comerciales intracomunitarias en la página **Lista de ventas de la UE** (haga clic en **Impuestos** &gt; **Declaraciones** &gt; **Comercio exterior** &gt; **Lista de ventas de la UE**) mediante la función **Transferencia**. Esta función le permite incluir las transacciones que tienen importes de los distintos tipos de informes (es decir, los artículos o servicios), según los grupos de impuestos de artículos que se especifican en las líneas de transacción. También puede aplicar otros filtros para definir las transacciones que se deben incluir. La función **Transferencia** crea un registro en la página **Lista de ventas de la UE** para cada transacción de comercio intracomunitario incluida, y se especifica un número de cuenta de contrapartida, un país o región, un número de identificación fiscal (NIF), el número de factura y una fecha, y los importes totales de líneas por tipo de notificación. También copia el valor **Código de lista** de la transacción. Puede cambiar manualmente el código de lista para una transacción en la página **Lista de ventas de la UE**. La función **Transferencia** crea registros donde el valor **Estado de notificación** está establecido en **Incluido**. Puede validar la información que se recopila en la página **Lista de ventas de la UE** mediante la función **Validar**.
+Una transacción se considera una transacción de comercio intracomunitario si la dirección de entrega de la transacción está en un estado miembros de la UE. Para dichos países o regiones, un registro debe existir en el separador **Parámetros de país o región** de la página **Parámetros de comercio exterior**, y el valor **Tipo de país o región** debe establecerse en **UE**. Las transacciones comerciales intracomunitarias se marcan en el campo **Código de lista**. Mediante este campo, también puede separar transacciones generales de comercio intracomunitario de transacciones comerciales triangulares. Puede recopilar información sobre transacciones comerciales intracomunitarias en la página **Lista de ventas de la UE** (haga clic en **Impuestos** &gt; **Declaraciones** &gt; **Comercio exterior** &gt; **Lista de ventas de la UE**) mediante la función **Transferencia**. Esta función le permite incluir las transacciones que tienen importes de los distintos tipos de informes (es decir, los artículos o servicios), según los grupos de impuestos de artículos que se especifican en las líneas de transacción. También puede aplicar otros filtros para definir las transacciones que se deben incluir. La función **Transferencia** crea un registro en la página **Lista de ventas de la UE** para cada transacción de comercio intracomunitario incluida, y se especifica un número de cuenta de contrapartida, un país o región, un número de identificación fiscal (NIF), el número de factura y una fecha, y los importes totales de líneas por tipo de notificación. También copia el valor **Código de lista** de la transacción. Puede cambiar manualmente el código de lista para una transacción en la página **Lista de ventas de la UE**. La función **Transferencia** crea registros donde el valor **Estado de notificación** está establecido en **Incluido**. Puede validar la información que se recopila en la página **Lista de ventas de la UE** mediante la función **Validar**. Puede obtener información detallada sobre la factura (para la dirección de venta) utilizando la función **Totales**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Generar el informe Lista de ventas de la UE
 
@@ -160,8 +160,26 @@ Puede generar un informe **Lista de ventas de la UE** mediante la función **Not
 
 Cuando haya completado el proceso de notificación para un período específico (por ejemplo, cuando las autoridades fiscales han aceptado el informe **Lista de ventas de la UE**), puede marcar los registros de ESL en los que se incluirá el informe para el período configurando el valor **Estado de notificación** a **Cerrado**. Para establecer este estado, use la función **Marcar scomo cerrado** en la página **Lista de ventas de la UE**. Si invierte el cierre del período, puede marcar los registros de ESL configurando el valor **Estado de notificación** a **Incluido**. Estos registros pueden después incluirse en el informe **Lista de ventas de la UE** de nuevo. Para establecer este estado, use la función **Marcar como** **incluido** en la página **Lista de ventas de la UE**.
 
+## <a name="list-of-country-specific-topics"></a>Lista de temas específicos de cada país
 
-
+| País          | Vincular      |
+|------------------|-----------|
+| Austria          | [Lista de ventas de la UE para Austria](emea-aut-eu-sales-list.md)| 
+| Bélgica          |[Lista de ventas de la UE para Bélgica](emea-bel-eu-sales-list.md)|
+| República Checa          |[Lista de ventas de la UE para la República Checa](emea-cze-eu-sales-list.md)|
+| Dinamarca          |[Lista de ventas de la UE para Dinamarca](emea-dnk-eu-sales-list.md)|
+| Estonia          |[Lista de ventas de la UE para Estonia](emea-est-eu-sales-list.md)|
+| Finlandia          |[Lista de ventas de la UE para Finlandia](emea-fin-eu-sales-list.md)|
+| Francia          |[Lista de ventas de la UE para Francia](emea-fra-eu-sales-list.md)|
+| Alemania          |[Lista de ventas de la UE para Alemania](emea-deu-eu-sales-list.md)|
+| Hungría          |[Lista de ventas de la UE para Hungría](emea-hun-eu-sales-list.md)|
+| Letonia          |[Lista de ventas de la UE para Letonia](emea-lva-eu-sales-list.md)|
+| Lituania          |[Lista de ventas de la UE para Lituania](emea-ltu-eu-sales-list.md)|
+| Países Bajos          |[Lista de ventas de la UE para Países Bajos](emea-nl-eu-sales-list.md)|
+| Polonia          |[Lista de ventas de la UE para Polonia.](emea-pol-eu-sales-list.md)|
+| España          |[Lista de ventas de la UE para España (Informe 349)](emea-esp-sales-list.md)|
+| Suecia          |[Lista de ventas de la UE para Suecia.](emea-swe-eu-sales-list.md)|
+| Reino Unido (Irlanda del Norte)          |[Lista de ventas de la UE para el Reino Unido (Irlanda del Norte)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

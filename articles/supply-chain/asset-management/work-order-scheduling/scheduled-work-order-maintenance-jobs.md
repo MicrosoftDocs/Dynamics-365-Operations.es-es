@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849630"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017040"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Trabajos de mantenimiento de órdenes de trabajo programados
 
@@ -32,7 +32,7 @@ La página **Trabajos de mantenimiento de órdenes de trabajo programadas** mues
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Ver trabajos de mantenimiento de órdenes de trabajo programadas
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Trabajos de mantenimiento de órdenes de trabajo activas programadas**. Verá una lista de todas las órdenes de trabajo establecidas para el estado de ciclo de vida "Programada" o "En curso" de la orden de trabajo.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Trabajos de mantenimiento de órdenes de trabajo activas programadas**. Verá una lista de todas las órdenes de trabajo establecidas para el estado de ciclo de vida "Programada" o "En curso" de la orden de trabajo.
 
 2. Puede ordenar la lista, por ejemplo, por trabajador de mantenimiento. También puede utilizar el filtro para restringir la lista a órdenes de trabajo asignadas a un determinado recurso o trabajador de mantenimiento.
 

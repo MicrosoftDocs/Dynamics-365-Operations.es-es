@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671685"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017214"
 ---
 # <a name="set-up-a-preferred-technician"></a>Configuración de un técnico preferido 
 
@@ -31,13 +31,13 @@ Puede seleccionar cualquier trabajador como técnico preferido para un acuerdo d
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Asignar el empleado a un equipo de distribución
 
-1.  Haga clic en **Recursos humanos** \> **Común** \> **Trabajadores** \> **Trabajadores**. Haga doble clic en un trabajador para abrir la página de detalles. En el **Panel de acciones**, haga click en **Configuración** \>**Equipo de distribución** para abrir el formulario **Remitir trabajadores** .
+1.  Haga clic en **Recursos humanos** \> **Trabajadores** \> **Trabajadores**. Haga doble clic en un trabajador para abrir la página de detalles. En el **Panel de acciones**, haga click en **Configuración** \>**Equipo de distribución** para abrir el formulario **Remitir trabajadores** .
 
 2.  En el campo **Equipo de distribución**, seleccione el equipo al que se va a asignar el trabajador.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Asignar un técnico preferido a un acuerdo de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**. Haga doble clic en un acuerdo de servicio para abrir el formulario de detalles.
+1.  Haga clic en **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**. Haga doble clic en un acuerdo de servicio para abrir el formulario de detalles.
 
 2.  En la ficha **General**, seleccione el campo **Técnico preferido** y, a continuación, seleccione el miembro del equipo de distribución apropiado como técnico preferido para el acuerdo de servicio.
 

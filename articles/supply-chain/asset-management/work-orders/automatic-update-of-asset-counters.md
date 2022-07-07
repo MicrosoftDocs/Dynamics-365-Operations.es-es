@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856262"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016228"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Actualización automática de los contadores de activos
 
@@ -53,7 +53,7 @@ Como se mencionó anteriormente, los contadores automáticos se pueden actualiza
 
 5. Seleccione **Aceptar**. 
 
-Una vez realizada la actualización automática del contador de activos, puede ver los registros del contador que están relacionados con el activo en la página **Contadores de activos**. Seleccione **Administración de activos** > **Común** > **Activos** > **Todos los activos**, seleccione el activo y, a continuación, en el panel de acciones, en la pestaña **Activo**, en el grupo **Preventivo**, seleccione **Contadores**.
+Una vez realizada la actualización automática del contador de activos, puede ver los registros del contador que están relacionados con el activo en la página **Contadores de activos**. Seleccione **Administración de activos** > **Activos** > **Todos los activos**, seleccione el activo y, a continuación, en el panel de acciones, en la pestaña **Activo**, en el grupo **Preventivo**, seleccione **Contadores**.
 
 En la página **Valor agregado de activo**, puede obtener una visión general del último registro que se ha hecho en todos los tipos de contador en todos los activos. Seleccione **Administración de activos** > **Consultas** > **Activos** > **Valor agregado de activos**. Esta página es similar a la página **Contadores de activos**, pero no puede agregar o editar registros. Es solo para la visión general.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872135"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015590"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, reemplazar e instalar activos
 
@@ -44,7 +44,7 @@ Utilice la función **Mover activo** para mover un activo a otra estructura de a
 > [!NOTE]
 > No use esta función si se están reparando o se están reemplazando temporalmente los activos. En tal caso, use la funcionalidad **Reemplazar activo** que se describe más adelante en este artículo.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo que desea mover. Si el activo tiene activos secundarios, también mueve dichos activos.
 3. Seleccione **Mover activo**.
 4. Para mover el activo de modo que se convierta en parte de una estructura de activos, seleccione el nuevo activo principal en el campo **Activo principal**. Si está moviendo un activo secundario y desea que sea un activo independiente sin ninguna relación de estructura, deje en blanco del campo **Activo principal**.
@@ -58,7 +58,7 @@ Use la función **Reemplazar activo** en relación con reparaciones, restauracio
 > [!NOTE]
 > Si hay un taller de reparación relacionado con el departamento de producción, puede crear ubicaciones funcionales como **Reparación**, **Residuos** y **Almacenamiento** para gestionar la reparación y la sustitución de activos.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo secundario que se vaya a reemplazar. Si el activo tiene activos secundarios, también reemplaza dichos activos.
 3. Seleccione **Reemplazar activo**.
 
@@ -79,7 +79,7 @@ Use la función **Instalar activo** para instalar una estructura de activos en u
 > [!NOTE]
 > Seleccione siempre un activo principal. El activo principal y los activos secundarios relacionados se mueven a la ubicación funcional seleccionada.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo principal para instalar en otra ubicación funcional.
 3. Seleccione **Instalar activo**.
 

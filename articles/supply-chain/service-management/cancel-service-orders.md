@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670983"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017387"
 ---
 # <a name="cancel-service-orders"></a>Cancelar pedidos de servicio   
 
@@ -36,11 +36,11 @@ Puede cancelar un pedido de servicio o línea de pedido de servicio desde el pro
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Cancelar un pedido de servicio desde el formulario Pedidos de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**. Seleccione el pedido de servicio y haga clic en **Cancelar pedido** en el panel de acciones.
+1.  Haga clic en **Gestión de servicio** \> **Pedidos de servicio** \> **Pedidos de servicio**. Seleccione el pedido de servicio y haga clic en **Cancelar pedido** en el panel de acciones.
 
 ## <a name="cancel-a-service-order-line"></a>Cancelar una línea de pedido de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**. Haga doble clic en el pedido de servicio que contiene la línea que desee cancelar.
+1.  Haga clic en **Gestión de servicio** \> **Pedidos de servicio** \> **Pedidos de servicio**. Haga doble clic en el pedido de servicio que contiene la línea que desee cancelar.
 
 2.  Seleccione la línea del pedido de servicio que desea cancelar y, a continuación, haga clic en **Cancelar línea de pedido** para cambiar el estado de la línea a **Cancelado**.
 

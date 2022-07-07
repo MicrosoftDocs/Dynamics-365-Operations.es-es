@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882732"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017127"
 ---
 # <a name="asset-view"></a>Vista de activos
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882732"
 
 En este artículo se describe la vista de activos en Administración de activos. La página **Vista de activo** muestra los activos activos y las ubicaciones funcionales en una vista de árbol. Por lo tanto, puede obtener fácilmente una visión general de las relaciones de los activos con las ubicaciones funcionales. Además, puede ver información detallada sobre ubicaciones funcionales, activos y listas de materiales relacionadas (BOM). También puede obtener una visión general rápida de las solicitudes de mantenimiento y órdenes de trabajo activas relacionadas con un activo.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Vista de activos**.
 2. Para cambiar la vista que se muestra en la página, seleccione un nuevo valor en el campo **Vista** .
 
     > [!NOTE]

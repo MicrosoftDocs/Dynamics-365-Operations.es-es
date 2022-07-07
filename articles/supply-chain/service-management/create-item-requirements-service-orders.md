@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888423"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016960"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Crear requisitos de artículo para el pedido de servicio
 
@@ -34,14 +34,14 @@ Los requisitos de artículo para los pedidos de servicio se procesan a través d
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Crear un requisito de artículo para un pedido de servicio
 
-1. Vaya a **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1. Vaya a **Gestión de servicio** \> **Pedidos de servicio** \> **Pedidos de servicio**.
 1. Seleccione el pedido de servicio para el que desea crear un requisito de artículo.
 1. En el **Panel de acciones**, en la ficha **Distribución**, seleccione **Requisito de artículo**.
 1. En el formulario **Requisitos de artículos**, especifique la información para el artículo requerido. Para obtener más información acerca de campos específicos, vea [Requisitos de artículos (formulario)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Crear un requisito de artículo para un acuerdo de servicio
 
-1. Vaya a **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1. Vaya a **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**.
 1. Abra el acuerdo de servicio para el que desea crear un requisito de artículo.
 1. En la ficha desplegable **Líneas**, seleccione **Agregar** para crear una línea nueva.
 1. En el campo **Tipo de transacción**, seleccione **Artículo**.

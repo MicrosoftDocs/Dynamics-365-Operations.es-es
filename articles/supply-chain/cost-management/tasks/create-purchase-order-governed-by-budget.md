@@ -2,63 +2,55 @@
 title: Crear un pedido de compra regido por el presupuesto
 description: Use este procedimiento para crear un pedido de compra que se compruebe para ver si hay presupuesto disponible.
 author: JennySong-SH
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8458fc1f47f929ac612acfb3a2d75a79c8fb7d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: aa9777ad3aa487dfb558879335f93f347b8ac749
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671377"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016199"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Crear un pedido de compra regido por el presupuesto
 
 [!include [banner](../../includes/banner.md)]
 
-Use este procedimiento para crear un pedido de compra que se compruebe para ver si hay presupuesto disponible. Este registro usa la empresa USMF con los datos para demostración.
-
+Use este procedimiento para crear un pedido de compra que se compruebe para ver si hay presupuesto disponible.
 
 ## <a name="review-the-budget-control-configuration"></a>Revisar la configuración de control presupuestario
-1. Vaya a Gestión presupuestaria > Configuración > Control presupuestario > Configuración de control presupuestario.
-2. Haga clic en la pestaña Fondos presupuestarios disponibles.
-3. Haga clic en la pestaña Documentos y diarios.
-4. Haga clic en la pestaña Definir reglas de control presupuestario.
-5. Haga clic en la pestaña Definir grupos presupuestarios.
-6. Cierre la página.
 
-## <a name="create-the-purchase-order-header"></a>Crear el encabezado del pedido de compra
-1. Vaya a Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de proveedor, especifique o seleccione un valor.
-4. Expanda la sección General.
-5. En el campo de Fecha de contabilidad, defina la fecha a "2016-01-01".
-6. Haga clic en Aceptar
+1. Vaya a **Gestión presupuestaria > Configuración > Control presupuestario > Configuración de control presupuestario**.
+1. Seleccione la pestaña **Fondos presupuestarios disponibles**.
+1. Seleccione la pestaña **Documentos y diarios**.
+1. Seleccione la pestaña **Definir reglas de control presupuestario**.
+1. Seleccione la pestaña **Definir grupos presupuestarios**.
+1. Cierre la página.
 
-## <a name="add-a-purchase-order-line"></a>Agregar una línea de pedido de compra
-1. En el campo Categoría de compras, especifique o seleccione un valor.
-2. Establezca Cantidad en "2".
-3. En el campo Unidad, especifique o seleccione un valor.
-4. Establezca el precio unitario en "10000".
-5. Haga clic en Operaciones financieras.
-6. Haga clic en Distribuir importes.
-7. En el campo Cuenta contable, especifique el valor "601300-001-023--".
-8. Cierre la página.
+## <a name="create-a-purchase-order"></a>Crear un pedido de compra
+
+1. Vaya a **Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra**.
+1. Seleccione **Nuevo**.
+1. En el campo **Cuenta de proveedor**, especifique o seleccione un valor.
+1. Expanda la ficha desplegable **General**.
+1. En el campo de **Fecha de contabilidad**, defina la fecha.
+1. Seleccione **Aceptar** para crear el diálogo y abrir el nuevo pedido de compras.
+1. En la ficha desplegable **Líneas de pedido de compra**, seleccione **Añadir línea** desde la barra de herramientas para agregar una nueva línea y luego complete la línea según sea necesario para agregar un artículo al pedido.
+1. En la barra de herramientas de la ficha desplegable **Líneas de pedido de compra**, seleccione **Operaciones financieras \> Distribuir importes**.
+1. En el campo **Cuenta contable**, especifique una cuenta.
+1. Cierre la página.
 
 ## <a name="perform-budget-checking"></a>Realizar comprobación presupuestaria
-1. Haga clic en Operaciones financieras.
-2. Haga clic en Realizar comprobación presupuestaria.
-3. Haga clic en Operaciones financieras.
-4. Haga clic en Errores o advertencias de la comprobación presupuestaria.
-5. Haga clic en Cerrar.
 
-
+1. Continúe trabajando con el pedido de compra al que acaba de agregar una línea.
+1. En la barra de herramientas de la ficha desplegable **Líneas de pedido de compra**, seleccione **Operaciones financieras \> Realizar comprobación presupuestaria**.
+1. En la barra de herramientas de la ficha desplegable **Líneas de pedido de compra**, seleccione **Operaciones financieras \> Errores o advertencias de la comprobación presupuestaria**.
+1. Se abre el cuadro de diálogo **Errores o advertencias de la comprobación presupuestaria**. Compruebe los resultados de la verificación y seleccione **Cerrar** para cerrar el diálogo.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

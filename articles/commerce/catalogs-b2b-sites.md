@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848998"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027041"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Crear catálogos de Commerce para sitios B2B
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este artículo describe cómo crear catálogos de productos de Commerce para sitios de negocio a negocio (BB2B) de Microsoft Dynamics 365 Commerce. Para obtener respuestas a las preguntas más frecuentes sobre los catálogos de Commerce para sitios B2B, consulte [Catálogos de Commerce para preguntas frecuentes B2B](catalogs-b2b-sites-FAQ.md).
 

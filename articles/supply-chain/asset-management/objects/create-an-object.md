@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860939"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016315"
 ---
 # <a name="create-an-asset"></a>Crear un activo
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860939"
 
 En este artículo se describe cómo crear un activo en la Administración de activos.
 
-1. Haga clic en **Administración de activos** > **Común** > **Activos** > **Todos los activos** o **Activos activos**.
+1. Haga clic en **Administración de activos** > **Activos** > **Todos los activos** o **Activos activos**.
 2. Haga clic en el botón **Nuevo**.
 3. En el diálogo **Crear activos**, inserte datos relativos al **Activo** (el id. de activo) y el nombre del activo. Seleccione la fecha y la hora para el activo en el campo **Vigente**. A partir de esa fecha podrá instalar el activo en una ubicación técnica, así como mover y reemplazar el activo en una estructura de activo.
 4. En el campo **Tipo de activo**, seleccione el tipo del activo (campo obligatorio). Si es necesario, seleccione **Fabricante del activo** y **Modelo del activo** para el activo. Si solo se ha configurado un producto, ese producto se seleccionará automáticamente en el campo **Fabricante del activo**. Las selecciones disponible en los **Fabricante del activo** y **Modelo del activo** dependerán de la configuración de [Fabricantes y modelos del activo](../setup-for-objects/product-and-model.md).

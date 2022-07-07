@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e09419f802b696179901c394b2b95c9208a12b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8f0469d7a3ada0dc30977978a7e9c616e8cf9781
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678301"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017416"
 ---
 # <a name="cancel-a-return-order"></a>Cancelación de pedidos de devolución 
 
@@ -34,11 +34,11 @@ Si desea guardar un registro de la devolución planificada, puede cancelar un pe
 > <P>Sólo se pueden cancelar los pedidos de devolución con el estado <STRONG>Creado</STRONG>. Los pedidos de devolución con estados <STRONG>Abierto</STRONG> o <STRONG>Cerrado</STRONG> no se pueden cancelar.</P>
 
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**.
     
-     - O bien -
+    O bien
     
-    Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Pedidos de devolución creados**.
+    Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Pedidos de devolución creados**.
 
 2.  Seleccione el pedido de devolución que se va a cancelar.
 

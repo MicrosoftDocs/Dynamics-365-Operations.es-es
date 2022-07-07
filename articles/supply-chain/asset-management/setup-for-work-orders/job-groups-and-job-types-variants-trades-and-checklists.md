@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887613"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016779"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipos de trabajos de mantenimiento, categorías, variantes, oficios y listas de verificación
 
@@ -243,7 +243,7 @@ Puede configurar un trabajo por lotes para actualizar referencias predeterminada
 
 Una vez creadas las combinaciones necesarias predeterminadas de tipo de trabajo de mantenimiento, puede usar la página **Todos los activos** para obtener una visión general del valor predeterminado actual del tipo de trabajo de mantenimiento relacionado con un activo específico. La visión general muestra todas las combinaciones predeterminadas del tipo de trabajo de mantenimiento que se pueden utilizar en el tipo de activo seleccionado para el activo. Estas combinaciones incluyen combinaciones que tienen variaciones de variantes del tipo de trabajo de mantenimiento y comercios de trabajo de mantenimiento.
 
-1. Seleccione **Administración de activos** \> **Común** \> **Activos** \> **Todos los activos** o **Activos activos**.
+1. Seleccione **Administración de activos** \> **Activos** \> **Todos los activos** o **Activos activos**.
 2. En la lista, seleccione el activo para obtener una visión general de las combinaciones de tipos de trabajo de mantenimiento.
 3. En el panel de acciones, en la ficha **General** del grupo **Información relacionada**, seleccione **Tipos de trabajo de mantenimiento**.
 

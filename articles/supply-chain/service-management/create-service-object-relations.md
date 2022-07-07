@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890665"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016981"
 ---
 # <a name="create-service-object-relations"></a>Crear relaciones de objetos de servicio 
 
@@ -33,7 +33,7 @@ Este artículo describe cómo crear relaciones de objeto de servicio para un acu
 
 Siga estos pasos para crear una relación de objeto de servicio para un acuerdo de servicio:
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1.  Haga clic en **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**.
 
 2.  En la lista de **Acuerdos de servicio**, seleccione un acuerdo de servicio existente o haga clic en **Nuevo** para crear un nuevo acuerdo de servicio.
 
@@ -47,7 +47,7 @@ Siga estos pasos para crear una relación de objeto de servicio para un acuerdo 
 
 Siga estos pasos para crear una relación de objeto de servicio para un pedido de servicio:
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.
+1.  Haga clic en **Gestión de servicio** \> **Pedidos de servicio** \> **Pedidos de servicio**.
 
 2.  En la lista **Pedidos de servicio**, seleccione un pedido de servicio existente o cree un nuevo pedido de servicio.
 

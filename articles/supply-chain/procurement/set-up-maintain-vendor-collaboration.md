@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890839"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023771"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Configurar y mantener la colaboración de proveedor
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890839"
 La interfaz de colaboración del proveedor expone un conjunto limitado de información a los usuarios de proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Desde esta interfaz, un proveedor también puede responder a las solicitudes de cotización (RFQ) y ver y editar la información básica de la empresa.
 
 En este artículo se explica cómo configurar la colaboración del proveedor en Dynamics 365 Supply Chain Management. También explica cómo configurar un flujo de trabajo para aprovisionar nuevos usuarios de colaboración de proveedores y cómo administrar los roles de seguridad para esos usuarios.
-
-> [!NOTE]
-> La información sobre la configuración de roles de seguridad para la colaboración de proveedores se aplica solo a la versión actual de finanzas y operaciones. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre los permisos de usuario para el portal de proveedores en Microsoft Dynamics AX, vea [Seguridad del usuario del portal de proveedores](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Configurar roles de seguridad de colaboración de proveedor
 
@@ -138,13 +135,7 @@ Cree un flujo de trabajo del tipo **Desactivar la plataforma de flujo de trabajo
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Habilitar la colaboración de proveedor para un proveedor específico
 
-Antes de crear una cuenta de usuario para alguien que utilizará la colaboración de proveedores, debe configurar el proveedor para que pueda usar la colaboración de proveedores. En la página **Proveedores**, en la pestaña **General** configure el campo **Activación de colaboración**. Las siguientes opciones están disponibles:
-
-- **Activo (el PO se confirma automáticamente)**: los pedidos de compra se confirman de forma automática si el vendedor los acepta sin solicitar cambios.
-- **Activo (el PO no se confirma automáticamente)**: es necesario que su oganización confirme los pedidos de compra manualmente cuando el proveedor los haya aceptado.
-
-> [!NOTE]
-> Los profesionales de adquisiciones de su empresa también pueden realizar esta tarea.
+Antes de crear una cuenta de usuario para alguien que utilizará la colaboración de proveedores, debe configurar el proveedor para que pueda usar la colaboración de proveedores. Para obtener más información acerca de cómo hacer esto, consulte [Colaboración con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Solucionar problemas de aprovisionamiento de nuevos usuarios de colaboración de proveedores
 

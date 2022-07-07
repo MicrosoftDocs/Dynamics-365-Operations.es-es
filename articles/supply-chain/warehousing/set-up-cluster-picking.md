@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862319"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014774"
 ---
 # <a name="set-up-cluster-picking"></a>Configurar selección de clústeres
 
@@ -74,9 +74,14 @@ Cuando se aplica el picking en clúster, es esencial la confirmación del artíc
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Establecer la comprobación de artículos con picking en clúster
 
-1. En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** \> **Gestión de almacén** \> **Configuración** \> **Dispositivo móvil** \> **Elementos de menú del dispositivo móvil**.
+1. Vaya a **Gestión de almacenes** > **Configurar** > **Dispositivo móvil** > **Elementos de menú del dispositivo móvil**.
+1. En el panel de la lista, seleccione el elemento del menú que desee configurar.
+1. En el Panel de acciones, seleccione **Configuración de confirmación de trabajo**.
+1. Realice una de las acciones siguientes:
+    - Si ya existe una línea para el **Tipo de trabajo** que desea configurar, selecciónela y luego seleccione **Editar** en el Panel de acciones.
+    - Si no existe una línea adecuada, seleccione **Nueva** en el Panel de acciones y luego configure el **Tipo de trabajo** al tipo apropiado.
+1. Marque la casilla de verificación **Confirmación del producto** para su línea nueva o seleccionada. Esto permitirá que los trabajadores verifiquen cada pieza de inventario desde el dispositivo móvil.
 
-1. En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**. La opción **Confirmación del producto** le permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

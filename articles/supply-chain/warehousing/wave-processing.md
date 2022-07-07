@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851286"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014630"
 ---
 # <a name="wave-creation-and-processing"></a>Creación y procesamiento de oleadas
 
@@ -60,9 +60,9 @@ Para crear una oleada manualmente, siga estos pasos:
 1. Asegúrese de que las [Plantillas de oleada](wave-templates.md) relevantes no están configuradas para crear automáticamente una oleada para el almacén y los tipos de pedido en los que desea hacerlo manualmente.
 1. En función del tipo de oleada que quiera a crear, use una de las siguientes opciones:
 
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
 
 1. En el campo **Descripción**, especifique una descripción breve de la oleada. Esta debe indicar lo que va a procesar en la oleada.
 
@@ -87,9 +87,9 @@ Cuando se ha creado una oleada pero aún no se ha publicado, puede especificar m
 
 1. En función del tipo de oleada al que desee agregar líneas, use uno de estos métodos:
 
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
-    - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
+    - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
 
 1. Seleccione la oleada. En el panel de acciones, seleccione una de las opciones siguientes:
 
@@ -121,9 +121,9 @@ Para procesar manualmente una oleada que tiene todo su contenido requerido, siga
 
 1. En función del tipo de oleada que desee procesar, haga una de las siguientes cosas:
 
-    - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
-    - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
-    - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
+    - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
+    - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
+    - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
 
 1. Seleccione la oleada que desee procesar. En el panel de acciones, seleccione **Proceso**.
 
@@ -141,9 +141,9 @@ Para liberar una oleada manualmente, siga estos pasos:
 
 1. En función del tipo de oleada que desee liberar, haga una de las siguientes cosas:
 
-      - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
-      - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
-      - Seleccione **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
+      - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de envío** \> **Todas las oleadas**. En el panel Acciones, seleccione **Oleada**.
+      - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de producción** \> **Todas las oleadas de producción**. En el panel Acciones, seleccione **Oleada de producción**.
+      - Seleccione **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas kanban** \> **Todas las oleadas kanban**. En el panel Acciones, seleccione **Crear oleada**.
 
 1. Seleccione la oleada que desee liberar. En el panel Acciones, seleccione **Liberar oleada**.
 
@@ -179,9 +179,9 @@ Si es necesario, puede cancelar una oleada que ya se ha procesado. Para cancelar
 
 1. En función del tipo de oleada que desee cancelar, haga una de las siguientes cosas:
 
-      - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de envío** \> **Todas las oleadas**.
-      - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas de producción** \> **Todas las oleadas de producción**.
-      - Vaya a **Gestión de almacenes** \> **Común** \> **Oleadas** \> **Oleadas kanban** \> **Todas las oleadas kanban**.
+      - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de envío** \> **Todas las oleadas**.
+      - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas de producción** \> **Todas las oleadas de producción**.
+      - Vaya a **Gestión de almacenes** \> **Oleadas de salida** \> **Oleadas kanban** \> **Todas las oleadas kanban**.
 
 1. Seleccione la oleada que desea cancelar. En el panel de acciones, en la pestaña **Trabajo**, seleccione **Cancelar**.
 

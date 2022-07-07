@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a76c0ecefbb8da762ac68cbdd7bb44f68a89894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a310152685f733093cc7e50404c23b6f24c40cc
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851867"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016663"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tiempo de inactividad para órdenes de trabajo
 
@@ -52,7 +52,7 @@ La ilustración siguiente muestra un ejemplo de página de **Códigos de motivo 
 
 ## <a name="create-maintenance-downtime-registrations"></a>Crear registros del tiempo de inactividad por mantenimiento
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo y, a continuación, en la pestaña **Orden de trabajo**, en el grupo **Activo**, seleccione **Tiempo de inactividad por mantenimiento**.
 

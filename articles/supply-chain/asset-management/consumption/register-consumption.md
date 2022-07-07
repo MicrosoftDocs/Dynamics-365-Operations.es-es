@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886055"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015096"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -35,7 +35,7 @@ En algunos casos, es posible que pueda agregar o eliminar líneas de previsión 
 >[!NOTE]
 >Es posible configurar un registro automático de diarios en el estado de ciclo de vida de una orden de trabajo. Consulte [Estados de ciclo de vida de orden de trabajo](../setup-for-work-orders/work-order-lifecycle-states.md) para obtener más información.
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo y haga clic en **Diarios**.
 
@@ -61,7 +61,7 @@ La siguiente captura de pantalla muestra un ejemplo de los registros de horas y 
 
 Si una orden de trabajo contiene varias tareas, puede registrar las horas de trabajo mediante la función **Horas divididas**, lo que significa que una línea de registro de horas se puede distribuir de forma equitativa en cada tarea de la orden de trabajo.
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo y haga clic en **Diarios**.
 

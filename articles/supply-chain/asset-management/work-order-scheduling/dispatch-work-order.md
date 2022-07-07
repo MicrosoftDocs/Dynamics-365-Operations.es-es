@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6b2349d04386a88237ec1cb650890718d41aa5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f78e8642715b0c3fd3d01e8072645ccd9c58d685
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864009"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016866"
 ---
 # <a name="dispatch-work-order"></a>Distribuir orden de trabajo
 
@@ -30,7 +30,7 @@ ms.locfileid: "8864009"
 
 Puede programar una orden de trabajo o varias para un trabajador mediante la funcionalidad **Distribuir** .
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Haga clic en **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo en la lista.
 

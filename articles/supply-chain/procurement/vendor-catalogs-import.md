@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851634"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015566"
 ---
 # <a name="import-vendor-catalogs"></a>Importar catálogo de proveedores
 
@@ -46,7 +46,7 @@ Para importar datos de catálogos de proveedores, debe completar las tareas sigu
 
 4. Configurar el flujo de trabajo para la importación de catálogos. Cree una plantilla del archivo de CMR y compártala con el proveedor.
 
-5. Seleccione **Adquisición y abastecimiento** \> **Común** \> **Catálogos** \> **Catálogos de proveedores** para crear un catálogo de proveedores. Los archivos de solicitud de mantenimiento del catálogo (CMR) que recibe del proveedor se agrupan en este catálogo. 
+5. Seleccione **Adquisición y abastecimiento** \> **Catálogos** \> **Catálogos de proveedores** para crear un catálogo de proveedores. Los archivos de solicitud de mantenimiento del catálogo (CMR) que recibe del proveedor se agrupan en este catálogo.
 
 6. Cargar el archivo de CMR.
 

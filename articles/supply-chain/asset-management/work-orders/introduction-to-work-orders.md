@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902842"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016721"
 ---
 # <a name="introduction-to-work-orders"></a>Introducción a las órdenes de trabajo
 
@@ -47,15 +47,15 @@ Las órdenes de trabajo pueden crearse de las siguientes formas:
 
 ## <a name="all-work-orders"></a>Todas las órdenes de trabajo
 
-Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** para abrir la página con la lista **Todas las órdenes de trabajo**. Esta página muestra todas las órdenes de trabajo y alguna información relacionada con cada una.
+Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** para abrir la página con la lista **Todas las órdenes de trabajo**. Esta página muestra todas las órdenes de trabajo y alguna información relacionada con cada una.
 
 La ilustración siguiente muestra un ejemplo de la página de lista **Todas las órdenes de trabajo**.
 
 ![Figura 1.](media/01-work-orders.png)
 
-Para ver una lista de todas las órdenes de trabajo, seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Órdenes de trabajo activas**. 
+Para ver una lista de todas las órdenes de trabajo, seleccione **Administración de activos** > **Órdenes de trabajo** > **Órdenes de trabajo activas**. 
 
-Para ver una lista de trabajos de órdenes de trabajo que contienen activos instalados en las ubicaciones técnicas con las que está relacionado como trabajador, seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Mis trabajos de mantenimiento de órdenes de trabajo de la ubicación técnica**. (La relación entre los trabajadores y ubicaciones funcionales se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
+Para ver una lista de trabajos de órdenes de trabajo que contienen activos instalados en las ubicaciones técnicas con las que está relacionado como trabajador, seleccione **Administración de activos** > **Órdenes de trabajo** > **Mis trabajos de mantenimiento de órdenes de trabajo de la ubicación técnica**. (La relación entre los trabajadores y ubicaciones funcionales se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
 
 Aquí hay algunas maneras que puede usar la página **Todos los pedidos de trabajo**:
 

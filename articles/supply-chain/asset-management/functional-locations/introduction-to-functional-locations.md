@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882848"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016054"
 ---
 # <a name="introduction-to-functional-locations"></a>Introducción a las ubicaciones funcionales
 
@@ -59,7 +59,7 @@ Después de crear una jerarquía de ubicaciones funcionales, el paso siguiente e
 
 ## <a name="all-functional-locations"></a>Todas las ubicaciones técnicas
 
-Seleccione **Administración de activos** \> **Campo común** \> **Ubicaciones funcionales** \> **Todas las ubicaciones funcionales** para abrir la página lista **Todas las ubicaciones funcionales**. Esta página muestra todas las ubicaciones funcionales y alguna información relacionada con cada una. Para ver solamente las ubicaciones funcionales activas, seleccione **Ubicaciones funcionales activas**. Para ver únicamente las ubicaciones funcionales que están relacionadas con usted como trabajador, seleccione **Mis ubicaciones funcionales activa**. (Esta relación se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
+Seleccione **Administración de activos** \> **Ubicaciones funcionales** \> **Todas las ubicaciones funcionales** para abrir la página de lista **Todas las ubicaciones funcionales**. Esta página muestra todas las ubicaciones funcionales y alguna información relacionada con cada una. Para ver solamente las ubicaciones funcionales activas, seleccione **Ubicaciones funcionales activas**. Para ver únicamente las ubicaciones funcionales que están relacionadas con usted como trabajador, seleccione **Mis ubicaciones funcionales activa**. (Esta relación se configura en la página **Trabajadores**. Para obtener más información, consulte [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md)).
 
 En la página de lista **Todas las ubicaciones funcionales**, seleccione un vínculo en la columna **Ubicación funcional** para ver los detalles del registro seleccionado. Para editar la ubicación funcional, seleccione el botón **Editar**. La vista de detalles muestra información detallada relacionada con la ubicación. También incluye un panel **Información relacionada** a la derecha. Este panel muestra la jerarquía de ubicaciones funcionales. Puede expandir y contraer el panel **Información relacionada**.
 

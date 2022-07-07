@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850797"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954507"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -155,7 +155,7 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Gestión de almacenes | [Procesamiento diferido de la operación de movimiento de inventario manual](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligatoria |
 | Gestión de almacenes | No permitir la creación de cargas, que no cumplan los requisitos de la plantilla de planificación de carga de oleada | Obligatoria |
 | Gestión de almacenes | [Diseños de etiquetas de matrícula de entidad de almacén mejorados](../warehousing/document-routing-layout-for-license-plates.md) | Obligatoria |
-| Gestión de almacenes | [Evaluar todas las acciones para directivas de ubicación de SKU múltiples](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obligatoria |
+| Gestión de almacenes | [Evaluar todas las acciones para directivas de ubicación de SKU múltiples](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Obligatoria |
 | Gestión de almacenes | Ocultar el campo Valor total en las páginas "Todas las cargas" y "Detalles de la carga" | Obligatoria |
 | Gestión de almacenes | Configuración de creación de etiquetas de matrículas de entidad de almacén | Obligatoria |
 | Gestión de almacenes | Corrección manual de línea de carga para administradores o usuarios de confianza similares | Obligatoria |

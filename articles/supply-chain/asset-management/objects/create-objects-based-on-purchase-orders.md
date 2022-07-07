@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893711"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015620"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Crear activos en función de los pedidos de compra
 
@@ -45,7 +45,7 @@ Primero, se configuran los artículos que se van a usar para crear activos a par
 
 ## <a name="create-assets-from-pending-assets"></a>Crear activos a partir de activos pendientes
 
-1. Haga clic en **Administración de activos** > **Común** > **Activos** > **Activos pendiente**.
+1. Haga clic en **Administración de activos** > **Activos** > **Activos pendientes**.
 2. Verá una lista actualizada de los pedidos de compra en función de los artículos seleccionados en **Artículos de activo**.
 3. Puede filtrar el estado de los pedidos de compra para seleccionar en qué estado de ciclo de vida debe crearse el activo. Por ejemplo, puede que solo quiera crear activos cuando se registre una recepción de productos en un pedido de compra.
 4. Seleccione el vínculo **Número de referencia** en una línea de pedido de compra para ver información detallada sobre el artículo.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677097"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017255"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Precio de coste de la devolución e identificador de lote interno de devolución        
 
@@ -38,7 +38,7 @@ Para usar un coste distinto al coste actual para devoluciones de un cliente, use
 
 De forma predeterminada, al agregar artículos a un pedido de devolución, los artículos se devuelven al inventario al precio de coste actual. Para especificar otro precio de coste de devolución, siga estos pasos.
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**.
 
 2.  En el **Panel de acciones**, en el grupo **Nuevo**, haga clic en **Pedido de devolución**.
 
@@ -54,7 +54,7 @@ De forma predeterminada, al agregar artículos a un pedido de devolución, los a
 
 Éste es el método preferido para crear líneas de devolución. Para usar el coste de los productos al momento en el que los vendió al cliente, cree un pedido de devolución y especifique la línea de ventas que desea devolver.
 
-1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de devolución** \> **Todos los pedidos de devolución**.
+1.  Haga clic en **Ventas y marketing** \> **Devoluciones de ventas** \> **Todos los pedidos de devolución**.
 
 2.  En el **Panel de acciones**, en el grupo **Nuevo**, haga clic en **Pedido de devolución**.
 

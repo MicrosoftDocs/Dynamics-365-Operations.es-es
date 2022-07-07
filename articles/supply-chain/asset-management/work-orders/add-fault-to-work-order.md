@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857906"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015009"
 ---
 # <a name="add-fault-to-work-order"></a>Agregar error a orden de trabajo
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857906"
 
 Puede agregar los errores que se configuraron en el diseñador de errores para una orden de trabajo. Deben conectarse uno o más registros de error a los tipos de activos que se usan para el activo que está seleccionado en la orden de trabajo. Para obtener más información sobre la configuración, consulte [Gestión de errores](../setup-for-work-orders/fault-management.md).
 
-1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
 2. Seleccione la orden de trabajo para realizar un registro de errores y, a continuación, en el panel de acciones, en la pestaña **Orden de trabajo**, en el grupo **Activo**, seleccione **Error de activo**.
 
@@ -64,7 +64,7 @@ En la página de lista **Errores de activo**, puede obtener una visión general 
 
 En la página de la lista **Todos los activos**, puede imprimir un informe de errores de activos que muestra todos los registros de error y una visión general gráfica de las estadísticas del error.
 
-1. Seleccione **Administración de activos** > **Común** > **Activos** > **Todos los activos**.
+1. Seleccione **Administración de activos** > **Activos** > **Todos los activos**.
 
 2. Seleccione los activos para los que se imprimirá un informe de errores.
 

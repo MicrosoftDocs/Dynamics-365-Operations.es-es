@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899422"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022576"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -113,9 +113,6 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 ### <a name="enable-the-my-day-dialog"></a>Habilitar el cuadro de diálogo "Mi día"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 El cuadro de diálogo **Mi día** proporciona a los trabajadores una descripción general de sus registros diarios y saldos actuales de tiempo pagado, horas extra pagadas, ausencias y ausencias pagadas.
 
 Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 ### <a name="enable-teams"></a>Habilitar equipos
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Cuando se asigna a varios trabajadores al mismo trabajo de producción, pueden formar un equipo. El equipo puede designar a un trabajador como piloto. Los trabajadores restantes se convierten automáticamente en asistentes de ese piloto. Para el equipo resultante, solo el piloto debe registrar el estado del trabajo. Los registros de tiempo se aplican a todos los miembros del equipo.
 
 Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 - *Equipos de producción en la interfaz de ejecución de la planta de producción*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar configuración adicional en la interfaz de ejecución de la planta de producción
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Esta característica agrega configuraciones para la siguiente funcionalidad a la página **Configurar ejecución de planta de producción**:
 

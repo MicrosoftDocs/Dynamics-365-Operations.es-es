@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849572"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014980"
 ---
 # <a name="work-order-pools"></a>Grupos de órdenes de trabajo
 
@@ -44,7 +44,7 @@ Según necesite, puede colocar una orden de trabajo en varios grupos de órdenes
 
 En la página de lista **Todos los grupos de órdenes de trabajo** o **Grupo de órdenes de trabajo activas**, puede obtener una visión general de los grupos de órdenes de trabajo y crear nuevos grupos.
 
-1. Seleccione **Administración de activos** > **Común** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** o **Grupos de órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** o **Grupos de órdenes de trabajo activas**.
 
 2. Seleccione **Nuevo**.
 

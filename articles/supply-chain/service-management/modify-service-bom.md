@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d519240c0e9e68542e1e10a51eaa2050d011cb4a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c0aac9bf0f312052160b29be606ba587f2de0184
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675722"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014677"
 ---
 # <a name="modify-a-service-bom"></a>Modificar un L. MAT de servicio 
 
@@ -31,7 +31,7 @@ Puede registrar el historial de un elemento dentro de una L. MAT de servicio. Ca
 
 ## <a name="update-a-service-bom-element"></a>Actualizar un elemento de L. MAT de servicio
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1.  Haga clic en **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**.
 
 2.  Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.
 
@@ -52,7 +52,7 @@ Puede registrar el historial de un elemento dentro de una L. MAT de servicio. Ca
 
 ## <a name="delete-a-service-bom-line"></a>Eliminar una línea de L. MAT
 
-1.  Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
+1.  Haga clic en **Gestión de servicio** \> **Acuerdos de servicio** \> **Acuerdos de servicio**.
 
 2.  Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.
 
