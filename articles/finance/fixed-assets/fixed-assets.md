@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d50af9deb5309a31b886441780fe6b40b8b152ae
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880827"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065348"
 ---
 # <a name="fixed-assets-home-page"></a>Página principal de Activos fijos
 
@@ -44,9 +44,9 @@ Vaya a los [Planes de la versión de Microsoft Dynamics 365](/dynamics365/releas
 
 #### <a name="blogs"></a>Blogs
 
-Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog de finanzas [Microsoft Dynamics 365 para finanzas y operaciones](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de partners de Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
@@ -63,3 +63,4 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

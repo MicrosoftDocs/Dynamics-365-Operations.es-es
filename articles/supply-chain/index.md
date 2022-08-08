@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879087"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066069"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
@@ -56,16 +56,16 @@ Para obtener información sobre Dynamics 365 Finance, vaya a la [Página princip
 
 ## <a name="videos"></a>Vídeos
 
-En este breve vídeo se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018).
+En este breve vídeo se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 Finance, versión 8.0 (abril de 2018).
 
-- [Sincronizar pedidos de trabajo entre Field Service y Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Sincronizar órdenes de trabajo entre Field Service y finanzas y operaciones](https://youtu.be/hAB4TDVMjxU)
 
-En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (diciembre de 2017).
+En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 (diciembre de 2017).
 
 - [Asesor de optimización](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Usar plantilla de almacén para copiar configuración](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017).
+En estos breves vídeos se resumen las nuevas características de administración de la cadena de suministro agregadas a Microsoft Dynamics 365 Finance, Enterprise Edition (julio de 2017).
 
 - [Introducción a la contabilidad de costes](https://youtu.be/1pUDtJQZ8FU)
 - [Espacio de trabajo móvil de control de costes](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ En estos breves vídeos se resumen las nuevas características de administració
 - [Aprobar pedidos de compra en dispositivos móviles](https://youtu.be/gZ-gOlJe7H8)
 - [Programación visual con el gráfico de Gantt para pedidos de producción y lote](https://youtu.be/BtbuShkGj4I)
 
-Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad de administración de la cadena de suministro de versiones anteriores de Finance and Operations. Esta funcionalidad ahora forma parte de Dynamics 365 Supply Chain Management; se siguen aplicando los mismos conceptos y los procedimientos son similares en la versión actual.
+Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad de administración de la cadena de suministro de versiones anteriores de finanzas y operaciones. Esta funcionalidad ahora forma parte de Dynamics 365 Supply Chain Management; se siguen aplicando los mismos conceptos y los procedimientos son similares en la versión actual.
 
 - **Gestión de costes**:
   - [Información general de la gestión de costes](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Para cursos y formación en línea, consulte [Dynamics 365 Supply Chain Manageme
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
