@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900691"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070421"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -82,7 +82,7 @@ Si el peso real se captura en la instalación de embalaje durante los procesos d
 > [!NOTE]
 > Como la opción **Embalaje** hace que el inventario se actualice con el peso medio seleccionado, esto podría desencadenar una discrepancia que tendría como resultado un ajuste de ganancia/pérdida de peso capturado o una diferencia entre el peso de inventario disponible y el peso de etiqueta de peso capturado.
 
-Para los procesos internos de gestión de almacenes como correcciones del recuento y ajuste, puede definir si se debe capturar el peso. Si no captura, se usa el peso nominal. Otras opciones le permiten capturar el peso por unidad de peso capturado y por cantidad contable.
+Para los procesos internos, como correcciones del recuento y ajuste, puede definir si se debe capturar el peso. Si no captura, se usa el peso nominal. Otras opciones le permiten capturar el peso por unidad de peso capturado y por cantidad contable.
 
 También puede definir cómo se captura el peso. En uno de los dos flujos principales, las etiquetas de peso capturado se siguen y se utilizan para capturar peso. En el otro flujo, etiquetas de peso capturado no se siguen.
 
@@ -183,7 +183,7 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Otras restricciones y comportamientos para el procesamiento de productos con peso capturado con la gestión de almacenes
 
 - Durante los procesos de la selección en los que no se pide al usuario identificar dimensiones de seguimiento, la asignación del peso se realiza en función del peso medio. Este comportamiento aparece si, por ejemplo, una combinación de dimensiones de seguimiento se usa en la misma ubicación y, después de que un usuario procese selección, sólo un valor de la dimensión de seguimiento se deja en la ubicación.
-- Cuando el inventario se reserva para un producto con peso capturado que está configurado para los procesos de gestión de almacenes, la reserva se realiza en función del peso mínima definido, incluso si esta cantidad es la cantidad que se ha administrado a mano. Este comportamiento difiere del comportamiento de los artículos que no se configuran para los procesos de la gestión de almacenes. Hay una excepción a esta restricción. Para la selección de producción, cuando se selecciona la última cantidad de manipulación de un producto de peso capturado que está controlado por número de serie, se utiliza el peso real.
+- Cuando el inventario se reserva para un producto con peso capturado que está configurado para los procesos de gestión de almacenes (WMS), la reserva se realiza en función del peso mínima definido, incluso si esta cantidad es la cantidad que se ha administrado a mano. Este comportamiento difiere del comportamiento de los artículos que no se configuran para WMS. Hay una excepción a esta restricción. Para la selección de producción, cuando se selecciona la última cantidad de manipulación de un producto de peso capturado que está controlado por número de serie, se utiliza el peso real.
 - Los procesos que usan el peso como parte de los cálculos de la capacidad (umbrales de la gama, descansos del máximo del trabajo, máximos de contenedor, capacidades de carga de la ubicación, etc.) no utilizan el peso real del inventario. En su lugar, los procesos se basan en el peso de administración física que se define para el producto.
 - En general, la funcionalidad de Commerce no se admite para los productos de peso capturado.
 - Para productos de peso capturado, el estado del inventario no se puede actualizar desde **Cambio de estado de almacén**.

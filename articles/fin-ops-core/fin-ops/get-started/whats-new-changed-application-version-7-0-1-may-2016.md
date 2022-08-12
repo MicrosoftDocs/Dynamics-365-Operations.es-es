@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c65c56dfe5d1e32c440789d207f787169c57269
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748273"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124878"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la aplicación Dynamics AX versión 7.0.1 (mayo de 2016)
 
@@ -101,7 +101,7 @@ Este artículo describe las características que son nuevas o que han cambiado e
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
+[Página principal de Novedades y cambios en finanzas y operaciones](whats-new-changed.md)
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 

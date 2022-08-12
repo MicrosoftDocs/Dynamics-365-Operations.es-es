@@ -1,5 +1,5 @@
 ---
-title: Sistema de ayuda (contiene video)
+title: Sistema de ayuda (contiene vídeo)
 description: Este artículo proporciona una visión general del sistema de ayuda para las aplicaciones de finanzas y operaciones.
 author: edupont04
 ms.date: 07/20/2021
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898380"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124206"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -53,7 +53,7 @@ Puede encontrar contenido en docs.microsoft.com utilizando cualquier motor de b�
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
 
-Para suscribirse a una fuente RSS de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com en las aplicaciones de Finance and Operations, use el siguiente vínculo:
+Para suscribirse a una fuente RSS de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com en las aplicaciones de finanzas y operaciones, use el siguiente vínculo:
 
 [Fuente RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Para obtener más información, consulte la [Guía del colaborador de documentos
 
 Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel **Ayuda**. Al seleccionar por primera vez una guía de tareas, el panel **Ayuda** mostrará instrucciones detalladas para la tarea. Están disponibles guías de tareas localizadas.
 
-Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 for Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este artículo explica cómo buscar las guías de tareas correctas para su producto.
+Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este artículo explica cómo buscar las guías de tareas correctas para su producto.
 
 ![Vista de lectura de la guía de tareas.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios q
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

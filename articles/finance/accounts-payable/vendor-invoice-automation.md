@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883427"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070706"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automatización de facturas para documentos escaneados
 
@@ -58,7 +58,7 @@ Un paquete de datos es la unidad de trabajo que debe enviarse para que se puedan
 
 Los adjuntos del documento de la factura de proveedor son una nueva entidad de datos que se introduce como parte de esta función. Se ha modificado la entidad del encabezado de la factura de proveedor para que admita adjuntos. No se ha modificado la entidad de la línea de factura de proveedor para esta función.
 
-Para obtener información detallada sobre los paquetes de datos, consulte [Resumen de gestión de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obtener información sobre cómo crear paquetes de datos utilizando el espacio de trabajo de administración de datos, consulte [Procesar y consumir paquetes de datos en la solución de aplicaciones Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Para obtener información detallada sobre los paquetes de datos, consulte [Resumen de gestión de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obtener información sobre cómo crear paquetes de datos utilizando el espacio de trabajo de administración de datos, consulte [Procesar y consumir paquetes de datos en la solución de aplicaciones de finanzas y operaciones de Dynamics 365](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Para generar rápidamente los datos de prueba que incluyen facturas y adjuntos, siga estos pasos.
 
@@ -86,7 +86,7 @@ Las facturas que se importan mediante los paquetes de datos se pueden asociar a 
 
 ## <a name="exception-processing"></a>Procesamiento de excepciones
 
-En los escenarios en los que las facturas de proveedores se introducen en Finance and Operations a través de integración, debe haber una forma sencilla de que un miembro del equipo de Proveedores procese las facturas con excepciones o errores y cree facturas pendientes a partir de las facturas con errores. Este procesamiento de excepciones para facturas de proveedores ya forma parte de Finance and Operations.
+En los escenarios en los que las facturas de proveedores se introducen en finanzas y operaciones a través de integración, debe haber una forma sencilla de que un miembro del equipo de Proveedores procese las facturas con excepciones o errores y cree facturas pendientes a partir de las facturas con errores. Este procesamiento de excepciones para facturas de proveedores ya forma parte de finanzas y operaciones.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Facturas de proveedores que no pudieron importar la página de lista
 
@@ -225,3 +225,4 @@ De forma predeterminada, si el rol de usuario proporciona derechos de edición e
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

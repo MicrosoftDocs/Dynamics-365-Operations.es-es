@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890069"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124722"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -35,10 +35,10 @@ El nuevo control de cuadrícula proporciona varias capacidades útiles y potente
 - Columnas extensibles
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
-En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Una sección de pie de página en la parte inferior de la cuadrícula que muestra estos totales. 
+En las aplicaciones de finanzas y operaciones, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Una sección de pie de página en la parte inferior de la cuadrícula que muestra estos totales. 
 
 ### <a name="showing-the-grid-footer"></a>Mostrar el pie de página de la cuadrícula
-Hay un área de pie de página en la parte inferior de cada cuadrícula tabular en las aplicaciones Finance and Operations. El pie de página puede mostrar información valiosa relacionada con los datos que aparecen en la cuadrícula. Algunos ejemplos de esta información son:
+Hay un área de pie de página en la parte inferior de cada cuadrícula tabular en las aplicaciones de finanzas y operaciones. El pie de página puede mostrar información valiosa relacionada con los datos que aparecen en la cuadrícula. Algunos ejemplos de esta información son:
 
 - El número de filas seleccionadas en la tabla (cuando selecciona más de un registro)
 - Totales generales en la parte inferior de las columnas numéricas configuradas
@@ -86,7 +86,7 @@ Para admitir este nuevo comportamiento, se ha agregado una nueva columna para el
 Cuando los usuarios introducen datos con antelación al lugar donde el servidor está procesando, pueden esperar algunas degradaciones en la experiencia de entrada de datos, como la falta de búsquedas, la validación de nivel de control y la entrada de valores predeterminados. Se recomienda a los usuarios que necesitan una lista desplegable para encontrar un valor que esperen a que el servidor se ponga al día con la fila actual. La validación de nivel de control y la entrada de valores predeterminados también ocurrirán cuando el servidor procese esa fila.
 
 ### <a name="pasting-from-excel"></a>Pegar desde Excel
-Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de Finanzas y Operaciones a Microsoft Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de introducir datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de Finance and Operations. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
+Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de finanzas y operaciones a Microsoft Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de introducir datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de finanzas y operaciones. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
 
 - Si el número de columnas en la tabla copiada excede el número de columnas que permanecen en la cuadrícula, comenzando desde la ubicación de pegado, se notifica al usuario de que se han ignorado las columnas adicionales. 
 - Si el número de filas en la tabla copiada excede el número de filas en la cuadrícula, comenzando desde la ubicación de pegado, el contenido pegado sobrescribe las celdas existentes y las filas adicionales de la tabla copiada se insertan como nuevas filas en la parte inferior de la cuadrícula. 
@@ -97,7 +97,7 @@ Como un refuerzo de productividad, los usuarios pueden introducir fórmulas mate
 Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, consulte [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupación de datos tabulares
-Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **Agrupación en cuadrículas**, que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finanzas y Operaciones. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
+Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **Agrupación en cuadrículas**, que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de finanzas y operaciones. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
 
 Para usar esta característica, haga clic con el botón derecho en la columna que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo **Agrupar por** columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo:
 
@@ -168,7 +168,7 @@ Si ha optado por que una página individual no use la nueva cuadrícula, es posi
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desarrollador] Optar por cuadrículas individuales fuera de la capacidad de escribir antes de la capacidad del sistema
 Han surgido algunos escenarios que no se prestan para trabajar bien con la capacidad *Escribir antes que el sistema* de la red. (Por ejemplo, algún código que se activa cuando se valida una fila hace que se active una búsqueda de fuentes de datos, y la investigación puede dañar ediciones no confirmadas en filas existentes). Si su organización descubre tal escenario, hay una API disponible que le permite a un el desarrollador excluye una cuadrícula individual de la validación de filas asíncrona y vuelve al comportamiento heredado.
 
-Cuando la validación de filas asincrónicas está deshabilitada en una cuadrícula, los usuarios no pueden crear una nueva fila o moverse a una fila existente diferente en la cuadrícula mientras haya problemas de validación en la fila actual. Como efecto secundario de esta acción, las tablas no se pueden pegar desde Excel en cuadrículas de Finanzas y operaciones.
+Cuando la validación de filas asincrónicas está deshabilitada en una cuadrícula, los usuarios no pueden crear una nueva fila o moverse a una fila existente diferente en la cuadrícula mientras haya problemas de validación en la fila actual. Como efecto secundario de esta acción, las tablas no se pueden pegar desde Excel en cuadrículas de finanzas y operaciones.
 
 Para excluir una cuadrícula individual de una validación de filas asincrónica, agregue la siguiente llamada después de `super()` en el método `run()` del formulario.
 
@@ -200,3 +200,4 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este artículo proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de finanzas y operaciones.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866128"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140451"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -197,6 +197,7 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Cerrar la lista de navegación de formulario de detalles (con el enfoque en la lista de navegación) | Esc                        |
 | Ir al contenido de la página principal (con el enfoque en otro panel)                    | Alt+M,M                    |
 | Ir al panel del cuadro informativo (puede incluirse la opción de abrirlo)                       | Alt+M,B o Ctrl+F2         |
+| Ir a la siguiente llamada de características                                              | Alt+M,C                    |
 
 > [!NOTE]
 > La característica **Optimice el comportamiento de tabulación en formularios de página completa**, introducida en la versión 10.0.26, permite a los usuarios desplazarse por todas las regiones de una página sin necesidad de usar el ratón o un atajo de teclado dedicado para moverse entre regiones. Todavía puede usar los métodos abreviados de teclado existentes (como los métodos abreviados de acordes de teclas Alt+M) para moverse rápidamente entre las regiones de una página.
@@ -269,3 +270,4 @@ La administración de foco describe cómo se maneja el foco del usuario en una a
 [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

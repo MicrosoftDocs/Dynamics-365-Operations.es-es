@@ -1,6 +1,6 @@
 ---
 title: Visión general de Gestión presupuestaria
-description: Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
+description: Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en finanzas y operaciones o cargarlos desde un programa de terceros.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710424"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068972"
 ---
 # <a name="budgeting-overview"></a>Visión general de la gestión presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en Finance and Operations o cargarlos desde un programa de terceros.
+Casi todas las empresas que utilizan la funcionalidad de Financials en Microsoft Dynamics 365 Finance tendrán que poder crear informes de valores presupuestados frente a reales. En este artículo se explica la configuración mínima necesaria para crear presupuestos en finanzas y operaciones o cargarlos desde un programa de terceros.
 
 ## <a name="overview"></a>Información general
 
@@ -89,3 +89,4 @@ Una empresa que está utilizando la funcionalidad de planificación presupuestar
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

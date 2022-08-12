@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873503"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065528"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para la ubicación de pedidos de compra
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo explica cómo configurar una directiva de ubicación simple. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos. Este procedimiento va destinado al encargado de almacén.
+Este artículo explica cómo configurar una directiva de ubicación simple. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado los procesos de gestión de almacenes (WMS) para su almacén y sus artículos. Este procedimiento va destinado al encargado de almacén.
 
 1. En el panel de navegación, vaya a **Módulos > Gestión de almacenes > Configuración > Directivas de ubicación**.
 2. En el campo **Tipo de orden de trabajo**, seleccione **Pedidos de compra**.

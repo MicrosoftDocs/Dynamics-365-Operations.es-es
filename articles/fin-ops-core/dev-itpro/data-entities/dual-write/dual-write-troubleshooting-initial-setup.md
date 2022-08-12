@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882095"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111212"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -27,15 +27,15 @@ Este artículo proporciona información para solución de problemas de integraci
 > [!IMPORTANT]
 > Algunos de los problemas que aborda este artículo pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>No puede vincular una aplicación de Finanzas y operaciones a Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>No puede vincular una aplicación de finanzas y operaciones a Dataverse
 
-**Rol requerido para configurar doble escritura**: Administrador del sistema en aplicaciones de Finanzas y operaciones y Dataverse.
+**Rol requerido para configurar doble escritura**: Administrador del sistema en aplicaciones de finanzas y operaciones y Dataverse.
 
 Los errores en la página **Enlace de configuración a Dataverse** generalmente se deben a problemas de configuración o permisos incompletos. Asegúrese de que toda la compración de estado aprueba en la página **Enlace de configuración a Dataverse**, como se muestra en la siguiente ilustración. No puede vincular la escritura doble a menos que se apruebe toda la comprobación de estado.
 
 ![Comprobación de estado exitosa.](media/health_check.png)
 
-Debe tener credenciales de administrador de inquilinos de Azure AD para vincular los entornos de Finanzas y operaciones y Dataverse. Después de vincular los entornos, los usuarios pueden iniciar sesión utilizando sus credenciales de cuenta y actualizar un mapa de tabla existente.
+Debe tener credenciales de administrador de inquilinos de Azure AD para vincular los entornos de finanzas y operaciones y Dataverse. Después de vincular los entornos, los usuarios pueden iniciar sesión utilizando sus credenciales de cuenta y actualizar un mapa de tabla existente.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encuentre el límite en el número de tablas jurídicas o empresas que pueden vincularse para doble escritura
 
@@ -55,7 +55,7 @@ La doble escritura no admite varias entidades jurídicas o empresas con el mismo
 
 Para desbloquear el cliente, quite los registros duplicados de la tabla **cdm_company** en Dataverse. Además, si la tabla **cdm_company** tiene registros con nombre en blanco, quite o corrija esos registros.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Error al abrir la página de doble escritura en las aplicaciones de Finanzas y operaciones
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Error al abrir la página de doble escritura en las aplicaciones de finanzas y operaciones
 
 Es posible que reciba el siguiente mensaje de error cuando intente vincular un entorno de Dataverse para doble escritura:
 
@@ -70,22 +70,23 @@ Este error ocurre cuando el paso de consentimiento de la aplicación no se ha co
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Seleccione **Aceptar** para proporcionar el consentimiento. Está dando su consentimiento para instalar la aplicación (con `id=33976c19-1db5-4c02-810e-c243db79efde`) en su inquilino.
-+ Esta aplicación es necesaria para que Dataverse se comunique con aplicaciones de Finanzas y operaciones.
++ Esta aplicación es necesaria para que Dataverse se comunique con aplicaciones de finanzas y operaciones.
 
     ![Solucione problemas de la configuración de sincronización inicial.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Si esto no funciona, abra la dirección URL en el modo privado de Microsoft Edge o el modo incógnito de Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>El entorno de Finanzas y operaciones no se puede descubrir
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>El entorno de finanzas y operaciones no se puede descubrir
 
 Podría recibir el siguiente mensaje de error:
 
-*El entorno de aplicaciones de Finanzas y operaciones \*\*\*.cloudax.dynamics.com no es detectable.*
+*El entorno de aplicaciones de finanzas y operaciones \*\*\*.cloudax.dynamics.com no es detectable.*
 
 Hay dos cosas que pueden hacer que un problema del entorno no sea detectable:
 
-+ El usuario utilizado para iniciar sesión no está en el mismo inquilino que la instancia de Finanzas y operaciones.
-+ Están alojadas en Microsoft algunas instancias de Finanzas y operaciones heredadas que tenían un problema de detección. Para solucionar este problema, actualice la instancia de Finanzas y operaciones. El entorno pasará a ser detectable con cualquier actualización.
++ El usuario utilizado para iniciar sesión no está en el mismo inquilino que la instancia de finanzas y operaciones.
++ Están alojadas en Microsoft algunas instancias de finanzas y operaciones heredadas que tenían un problema de detección. Para solucionar este problema, actualice la instancia de finanzas y operaciones. El entorno pasará a ser detectable con cualquier actualización.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

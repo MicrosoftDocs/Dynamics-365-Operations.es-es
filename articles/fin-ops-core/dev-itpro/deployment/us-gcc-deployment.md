@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867284"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103950"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management y Commerce en US Government Community Cloud (GCC)
 
@@ -38,9 +38,9 @@ Una vez completada la incorporación inicial, siga las instrucciones en [Incorpo
 
 ## <a name="environment-deployment"></a>Implementación de entornos
 
-Una vez que haya completado la incorporación del proyecto, puede revisar las capacidades adicionales de LCS que se describen en [Lifecycle Services (LCS)para clientes de aplicaciones de Finanzas y operaciones](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). A continuación, pase a la implementación del entorno.
+Una vez que haya completado la incorporación del proyecto, puede revisar las capacidades adicionales de LCS que se describen en [Lifecycle Services (LCS)para clientes de aplicaciones de finanzas y operaciones](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). A continuación, pase a la implementación del entorno.
 
-- Para implementar entornos administrados por Microsoft a través de LCS, siga las instrucciones en [Lifecycle Services (LCS) para clientes de aplicaciones de Finanzas y operaciones](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Para implementar entornos administrados por Microsoft a través de LCS, siga las instrucciones en [Lifecycle Services (LCS) para clientes de aplicaciones de finanzas y operaciones](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Para entornos hospedados en la nube, consulte [Implementar y acceder a entornos de desarrollo](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). También debe completar el proceso de incorporación de Resource Manager para sus conectores, como se describe en [Completar el proceso de incorporación de Azure Resource Manager para proyectos de US government Lifecycle Services](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Sí. Sin embargo, si su socio usa una identidad que no es de GCC, el vale de sop
 - [Información general de la implementación en la nube](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

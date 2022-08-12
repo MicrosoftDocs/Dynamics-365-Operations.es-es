@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883579"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111706"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883579"
 
 Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se a descargado correctamente a una versión específica de Finance and Operations. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
+Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de finanzas y operaciones. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
 
 Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Los pasos se pueden realizar con cualquier empresa, porque las configuraciones de informes electrónicos se comparten entre todas las empresas. 
 
@@ -46,7 +46,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 7. Seleccione Microsoft Dynamics 365 for Operations (1611).
 8. En el campo versión, escriba "[7.1.1541.3036,8)".
     * [7.1.1541.3036,8)  
-    * Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Finance and Operations, versión 7.1.1541.3036 o posterior, pero no debe superar la versión 8.   
+    * Las dependencias que introduzca serán evaluadas cuando esta configuración se descargue de cualquier ER almacenada. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en finanzas y operaciones, versión 7.1.1541.3036 o posterior, pero no debe superar la versión 8.   
 9. Haga clic en Guardar.
 10. Cierre la página.
 11. Haga clic en Cambiar estado.
@@ -59,7 +59,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 18. Seleccionar Microsoft Dynamics AX 7.0 RTW:
 19. En el campo versión, escriba "[7.0.1265.3015,7.1)".
     * [7.0.1265.3015,7.1)  
-    * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no ser inferior a la versión 1.   
+    * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 Finance, Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no ser inferior a la versión 1.   
 20. Haga clic en Guardar.
 21. Cierre la página.
 22. Haga clic en Cambiar estado.
@@ -136,10 +136,11 @@ Eliminaremos las configuraciones creadas del sistema y las descargaremos de nuev
 25. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
 26. En el árbol, expanda "Modelo de datos de ejemplo".
     * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para la aplicación. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
-    * Si inicia sesión en Finance and Operations, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
+    * Si inicia sesión en finanzas y operaciones, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

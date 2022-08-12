@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022576"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167773"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -92,9 +92,9 @@ A partir de la versión 10.0.25 de Supply Chain Management, esta función está 
 
 Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto.
 
-Existen dos versiones de esta característica. Una admite artículos que *no están* habilitados para utilizar procesos de almacén avanzados (WMS). El otro admite elementos que *están* habilitado para usar WMS. Para usar esta funcionalidad, active una o ambas de las siguientes características en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden), dependiendo de si tiene elementos habilitados para WMS:
+Existen dos versiones de esta característica. Una admite artículos que *no están* habilitados para utilizar procesos de gestión de almacenes (WMS). El otro admite elementos que *están* habilitado para usar WMS. Para usar esta funcionalidad, active una o ambas de las siguientes características en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden), dependiendo de si tiene elementos habilitados para WMS:
 
-- *(Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*
+- *Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*
 - *(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
 
 > [!IMPORTANT]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464920"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109124"
 ---
 # <a name="financial-analysis"></a>Análisis financiero
 
@@ -78,7 +78,7 @@ Actualmente, los datos en informes incrustados de Power BI no pueden limitarse a
 | Deber                                    | Roles | Descripción |
 |-----------------------------------------|-------|------------|
 | Ver el análisis financiero de la empresa actual | <ul><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Auditor</li><li>Administrador presupuestario</li><li>Director General</li><li>Director financiero</li><li>Controlador financiero</li></ul> | Este derecho proporciona acceso a Análisis financiero. De forma predeterminada, la empresa activa se usa como filtro. No puede agregar otras entidades jurídicas. |
-| Ver el análisis financiero de todas las empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
+| Ver el análisis financiero de todas las empresas   | En Microsoft Dynamics 365 Finance, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Informes financieros frente a Análisis financiero
@@ -96,7 +96,7 @@ El siguiente gráfico de comparación ayudará a diferenciar las dos opciones:
 | **Jerarquía de informes de soporte/jerarquía organizativa**   | Sí                                                               | No |
 | **Informe en datos de subcontabilidad**                             | Sí Limitado para un único proveedor, cliente                              | Sí Proveedor, cliente, grupos de proveedores o de clientes, direcciones de proveedores o de clientes, etc. |
 | **Divisa de notificación**                                   | Sí La divisa de contabilidad de y traduce a la divisa de notificación       | No Divisa de contabilidad solo |
-| **Seguridad**                                             | Sí, se adhiere a Finance y al informe de seguridad del árbol | Vista limitada de informes para todas las empresas (independientemente de la seguridad de Finance and Operations) o solo la empresa activa |
+| **Seguridad**                                             | Sí, se adhiere a Finance y al informe de seguridad del árbol | Vista limitada de informes para todas las empresas (independientemente de la seguridad de finanzas y operaciones) o solo la empresa activa |
 | **Adnmite diferentes planes de cuentas y años fiscales** | Sí                                                               | No |
 | **Informe de datos externos**                              | No                                                                | No |
 | **Admite consolidaciones**                               | Sí                                                               | Limitado puede notificar en varias empresas pero solo usa divisa de contabilidad |
@@ -244,3 +244,4 @@ No se requiere la información de los siguientes recursos para habilitar los inf
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895287"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111830"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Actualizar al modelo de parte y de libreta de direcciones global
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895287"
 
 Las [plantillas de Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) ayudan a actualizar los siguientes datos existentes en escritura dual en el modelo de libreta de direcciones global y de parte: los datos de las tablas **Cuenta**, **Contacto** y **Vendedor**, y las direcciones postales y electrónicas.
 
-Se proporcionan las siguientes tres plantillas de Data Factory. Ayudan a conciliar los datos de las aplicaciones de Finanzas y Operaciones y de las de Customer Engagement.
+Se proporcionan las siguientes tres plantillas de Data Factory. Ayudan a conciliar los datos de las aplicaciones de finanzas y operaciones y de las de Customer Engagement.
 
 - **[Plantilla de parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Actualizar datos al esquema Party-GAB de escritura dual/arm_template.json)** - Esta plantilla ayuda a actualizar los datos de **Parte** y **Contacto** que están asociados con datos de **Cuenta**, **Contacto** y **Vendedor**.
 - **[Plantilla de dirección postal de parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Actualizar los datos al esquema Party-GAB de escritura dual/Actualizar a la dirección postal de Parte - GAB/arm_template.json)** - Esta plantilla ayuda a actualizar las direcciones postales asociadas con los datos de **Cuenta**, **Contacto** y **Vendedor**.
@@ -34,11 +34,11 @@ Al final del proceso, se generan los siguientes archivos de valores separados po
 
 | Nombre de archivo | Propósito |
 |---|---|
-| FONewParty.csv | Este archivo ayuda a crear nuevos registros de **Entidad** dentro de la aplicación de Finanzas y Operaciones. |
-| ImportFONewPostalAddressLocation.csv | Este archivo ayuda a crear nuevos registros **Ubicación de dirección postal** en la aplicación de Finanzas y Operaciones. |
-| ImportFONewPartyPostalAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección postal de la parte** en la aplicación de Finanzas y Operaciones. |
-| ImportFONewPostalAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección postal** en la aplicación de Finanzas y Operaciones. |
-| ImportFONewElectronicAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección electrónica** en la aplicación de Finanzas y Operaciones. |
+| FONewParty.csv | Este archivo ayuda a crear nuevos registros de **Entidad** dentro de la aplicación de finanzas y operaciones. |
+| ImportFONewPostalAddressLocation.csv | Este archivo ayuda a crear nuevos registros **Ubicación de dirección postal** en la aplicación de finanzas y operaciones. |
+| ImportFONewPartyPostalAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección postal de la parte** en la aplicación de finanzas y operaciones. |
+| ImportFONewPostalAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección postal** en la aplicación de finanzas y operaciones. |
+| ImportFONewElectronicAddress.csv | Este archivo ayuda a crear nuevos registros **Dirección electrónica** en la aplicación de finanzas y operaciones. |
 
 Este artículo explica cómo usar las plantillas de Data Factory y actualizar sus datos. Si no tiene ninguna personalización, puede usar las plantillas tal cual. Sin embargo, si tiene personalizaciones para datos de **Cuenta**, **Contacto** y **Vendedor**, debe modificar las plantillas como se describe en este artículo.
 
@@ -61,7 +61,7 @@ Una actualización requiere la siguiente preparación:
 + **Claves de integración**: las tablas **Cuenta (cliente)**, **Contacto** y **Vendedor** de las aplicaciones de interacción con el cliente utilizan las claves de integración predefinidas. Si personalizó las claves de integración, debe personalizar la plantilla.
 + **Número de parte:** todos los registros de **Cuenta (cliente)**, **Contacto** y **Vendedor** que se actualizarán tienen un número de parte. Se ignorarán los registros que no tengan un número de parte. Si desea actualizar esos registros, agregue un número de parte antes de iniciar el proceso de actualización.
 + **Interrupción del sistema**: durante el proceso de actualización, deberá desconectar los entornos de Finance and Operations y entornos sin conexión de participación del cliente.
-+ **Instantánea**: toma una instantánea de aplicaciones de Finance and Operaciones y aplicaciones Customer Engagement. A continuación podrá utilizar las instantáneas para restaurar el estado anterior si es necesario.
++ **Instantánea**: toma una instantánea de aplicaciones de finanzas y operaciones y aplicaciones Customer Engagement. A continuación podrá utilizar las instantáneas para restaurar el estado anterior si es necesario.
 
 ## <a name="deployment"></a>Implementación
 
@@ -120,7 +120,7 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Configuración para ejecutar la plantilla de dirección postal de la Parte
 
-1. Inicie sesión en las aplicaciones de interacción con el cliente y vaya a **Configuración** \> **Configuración de personalización**. A continuación, en la pestaña **General**, configure la zona horaria para la cuenta de administrador del sistema. La zona horaria debe estar en la Hora universal coordinada (UTC) para actualizar las fechas "válido desde" y "válido hasta" de las direcciones postales de las aplicaciones de Finanzas y Operaciones.
+1. Inicie sesión en las aplicaciones de interacción con el cliente y vaya a **Configuración** \> **Configuración de personalización**. A continuación, en la pestaña **General**, configure la zona horaria para la cuenta de administrador del sistema. La zona horaria debe estar en la Hora universal coordinada (UTC) para actualizar las fechas "válido desde" y "válido hasta" de las direcciones postales de las aplicaciones de finanzas y operaciones.
 
     ![Configuración de zona horaria para la cuenta de administrador del sistema.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
     | Número | Name | Tipo | Valor |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | cadena | Este parámetro agrega un número de serie a las direcciones postales recién creadas como prefijo. Asegúrese de proporcionar una cadena que no entre en conflicto con las direcciones postales en aplicaciones de Finanzas y Operaciones y aplicaciones de Customer Engagement. Por ejemplo, use **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | cadena | Este parámetro agrega un número de serie a las direcciones postales recién creadas como prefijo. Asegúrese de proporcionar una cadena que no entre en conflicto con las direcciones postales en aplicaciones de finanzas y operaciones y aplicaciones de Customer Engagement. Por ejemplo, use **ADF-PAD-**. |
 
     ![Parámetro global PostalAddressIdPrefix creado en la pestaña Administrar.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
     | Número | Name | Tipo | Valor |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Este parámetro determina qué direcciones del sistema principal se reemplazan en caso de conflictos. Si el valor es **true**, las direcciones principales en las aplicaciones Finanzas y Operaciones reemplazarán las direcciones principales en las aplicaciones de Customer Engagement. Si el valor es **false**, las direcciones principales en las aplicaciones Customer Engagement reemplazarán las direcciones principales en las aplicaciones de Finanzas y Operaciones. |
-    | 2 | ElectronicAddressIdPrefix | cadena | Este parámetro agrega un número de serie a las direcciones electrónicas recién creadas como prefijo. Asegúrese de proporcionar una cadena que no entre en conflicto con las direcciones electrónicas en aplicaciones de Finanzas y Operaciones y aplicaciones de Customer Engagement. Por ejemplo, use **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Este parámetro determina qué direcciones del sistema principal se reemplazan en caso de conflictos. Si el valor es **true**, las direcciones principales en las aplicaciones de finanzas y operaciones reemplazarán las direcciones principales en las aplicaciones de Customer Engagement. Si el valor es **false**, las direcciones principales en las aplicaciones Customer Engagement reemplazarán las direcciones principales en las aplicaciones de finanzas y operaciones. |
+    | 2 | ElectronicAddressIdPrefix | cadena | Este parámetro agrega un número de serie a las direcciones electrónicas recién creadas como prefijo. Asegúrese de proporcionar una cadena que no entre en conflicto con las direcciones electrónicas en aplicaciones de finanzas y operaciones y aplicaciones de Customer Engagement. Por ejemplo, use **ADF-EAD-**. |
 
     ![Parámetros globales IsFOSource y ElectronicAddressIdPrefix creados en la pestaña Administrar.](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
 2. Asegúrese de que las asignaciones se eliminen de la tabla **msdy_dualwriteruntimeconfig** en Dataverse.
 3. Instale [Soluciones de libreta de direcciones global y de fiesta de escritura dual](https://aka.ms/dual-write-gab) de AppSource.
-4. En la aplicación Finanzas y Operaciones, si las siguientes tablas contienen datos, ejecute **Sincronización inicial**:
+4. En la aplicación de finanzas y operaciones, si las siguientes tablas contienen datos, ejecute **Sincronización inicial**:
 
     + Formas de saludo
     + Tipos de carácter personal
@@ -267,10 +267,10 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
     > [!NOTE]
     > Si tiene personalizaciones para **Cuenta**, **Contacto** y **Vendedor**, debe modificar la plantilla.
 
-8. Importe los nuevos registros de **Parte** en la aplicación Finanzas y Operaciones.
+8. Importe los nuevos registros de **Parte** en la aplicación de finanzas y operaciones.
 
     1. Descargue el archivo **FONewParty.csv** de Azure Blob Storage. La ruta es **partybootstrapping/output/FONewParty.csv**.
-    2. Convierta el archivo **FONewParty.csv** en un archivo de Excel e importe el archivo de Excel en la aplicación de Finanzas y Operaciones. Alternativamente, si la importación de CSV funciona para usted, puede importar el archivo .csv directamente. Este paso puede tardar algunas horas en completarse, según el volumen de datos. Para obtener más información, consulte [Resumen de trabajos de importación y exportación de datos](../data-import-export-job.md).
+    2. Convierta el archivo **FONewParty.csv** en un archivo de Excel e importe el archivo de Excel en la aplicación de finanzas y operaciones. Alternativamente, si la importación de CSV funciona para usted, puede importar el archivo .csv directamente. Este paso puede tardar algunas horas en completarse, según el volumen de datos. Para obtener más información, consulte [Resumen de trabajos de importación y exportación de datos](../data-import-export-job.md).
 
     ![Importar los registros de Parte de Dataverse.](media/data-factory-import-party.png)
 
@@ -281,7 +281,7 @@ Esta sección describe la configuración que se requiere antes de ejecutar las p
 
     ![Ejecución de las plantillas de dirección postal y dirección electrónica de la Parte.](media/ADF-7.png)
 
-10. Para actualizar la aplicación de Finanzas y Operaciones con estos datos, debe convertir los archivos .csv en un libro de Excel e [importarlo en la aplicación de Finanzas y Operaciones](../data-import-export-job.md). Alternativamente, si la importación de CSV funciona para usted, puede importar los archivos .csv directamente. Este paso puede tardar algunas horas en completarse, según el volumen.
+10. Para actualizar la aplicación de finanzas y operaciones con estos datos, debe convertir los archivos .csv en un libro de Excel e [importarlo en la aplicación de finanzas y operaciones](../data-import-export-job.md). Alternativamente, si la importación de CSV funciona para usted, puede importar los archivos .csv directamente. Este paso puede tardar algunas horas en completarse, según el volumen.
 
     ![Importación correcta.](media/ADF-8.png)
 
@@ -364,9 +364,9 @@ Esta sección lo lleva a través de los pasos de cada plantilla de Data Factory.
 ### <a name="steps-in-the-party-template"></a>Pasos de la plantilla de Parte
 
 1. Los pasos del 1 al 6 identifican las empresas que están habilitadas para escritura dual y crean una cláusula de filtro para ellas.
-2. Los pasos 7-1 a 7-9 recuperan datos de aplicación de Finanzas y Operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
-3. Los pasos 8 a 9 comparan el número de parte para registros **Cuenta**, **Contacto** y **Proveedor** entre la aplicación de Finanzas y Operaciones y la aplicación de Customer Engagement. Se ignorarán los registros que no tengan un número de parte.
-4. El paso 10 genera dos archivos .csv para los registros de la parte que deben crearse en la aplicación de Customer Engagement y la aplicación de Finanzas y Operaciones.
+2. Los pasos 7-1 a 7-9 recuperan datos de aplicación de finanzas y operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
+3. Los pasos 8 a 9 comparan el número de parte para registros **Cuenta**, **Contacto** y **Proveedor** entre la aplicación de finanzas y operaciones y la aplicación de Customer Engagement. Se ignorarán los registros que no tengan un número de parte.
+4. El paso 10 genera dos archivos .csv para los registros de la parte que deben crearse en la aplicación de Customer Engagement y la aplicación de finanzas y operaciones.
 
     - **FOCDSParty.csv** - Este archivo contiene todos los registros de parte de ambos sistemas, independientemente de si la empresa está habilitada para escritura dual.
     - **FONewParty.csv** - Este archivo contiene un subconjunto de los registros de parte que Dataverse conoce (por ejemplo, cuentas de tipo **Cliente potencial**).
@@ -382,12 +382,12 @@ Esta sección lo lleva a través de los pasos de cada plantilla de Data Factory.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Pasos de la plantilla de dirección postal de la Parte
 
-1. Los pasos 1-1 a 1-10 recuperan datos de aplicación de Finanzas y Operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
-2. El paso 2 desnormaliza los datos de dirección postal en la aplicación de Finanzas y Operaciones uniendo la dirección postal y la dirección postal de parte.
+1. Los pasos 1-1 a 1-10 recuperan datos de aplicación de finanzas y operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
+2. El paso 2 desnormaliza los datos de dirección postal en la aplicación de finanzas y operaciones uniendo la dirección postal y la dirección postal de parte.
 3. El paso 3 elimina los duplicados y combina los datos de cuenta, contacto y dirección del proveedor desde la aplicación de interacción con el cliente.
-4. El paso 4 crea archivos .csv para la aplicación de Finanzas y Operaciones para crear nuevos datos de direcciones basados en cuentas, contactos y direcciones de proveedores.
-5. El paso 5-1 crea archivos .csv para que la aplicación de interacción con el cliente cree todos los datos de dirección, basándose en la aplicación de Finanzas y Operaciones y la aplicación de Customer Engagement.
-6. El paso 5-2 convierte los archivos .csv al formato de importación de Finanzas y Operaciones para importación manual.
+4. El paso 4 crea archivos .csv para la aplicación de finanzas y operaciones para crear nuevos datos de direcciones basados en cuentas, contactos y direcciones de proveedores.
+5. El paso 5-1 crea archivos .csv para que la aplicación de interacción con el cliente cree todos los datos de dirección, basándose en la aplicación de finanzas y operaciones y la aplicación de Customer Engagement.
+6. El paso 5-2 convierte los archivos .csv al formato de importación de finanzas y operaciones para importación manual.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -401,13 +401,13 @@ Esta sección lo lleva a través de los pasos de cada plantilla de Data Factory.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Pasos de la plantilla de dirección electrónica de la Parte
 
-1. Los pasos 1-1 a 1-5 recuperan datos de aplicación de Finanzas y Operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
+1. Los pasos 1-1 a 1-5 recuperan datos de aplicación de finanzas y operaciones y la aplicación de Customer Engagement, y prepara esos datos para actualizarlos.
 2. El paso 2 consolida las direcciones electrónicas en la aplicación de interacción con el cliente a partir de entidades de cuenta, contacto y proveedor.
-3. El paso 3 combina los datos de dirección electrónica principal desde la aplicación de Customer Engagement y la aplicación Finanzas y Operaciones.
+3. El paso 3 combina los datos de dirección electrónica principal desde la aplicación de Customer Engagement y la aplicación de finanzas y operaciones.
 4. El paso 4 crea archivos .csv.
 
-    - Cree nuevos datos de direcciones electrónicas para la aplicación Finanzas y Operaciones, basándose en las direcciones de cuenta, contacto y proveedor.
-    - Cree nuevos datos de direcciones electrónicas para la aplicación de interacción con el cliente, basados en direcciones electrónicas, cuentas, contactos y proveedores en la aplicación de Finanzas y Operaciones.
+    - Cree nuevos datos de direcciones electrónicas para la aplicación de finanzas y operaciones, basándose en las direcciones de cuenta, contacto y proveedor.
+    - Cree nuevos datos de direcciones electrónicas para la aplicación de interacción con el cliente, basados en direcciones electrónicas, cuentas, contactos y proveedores en la aplicación de finanzas y operaciones.
 
 5. El paso 5-1 importa direcciones electrónicas a la aplicación de interacción con el cliente.
 6. El paso 5-2 crea archivos .csv para actualizar las direcciones principales de cuentas y contactos en la aplicación de interacción con el cliente.
@@ -425,3 +425,4 @@ Esta sección lo lleva a través de los pasos de cada plantilla de Data Factory.
 ## <a name="learn-more-about-the-template"></a>Más información sobre la plantilla
 
 Para más información sobre la plantilla, vea [Comentarios para el archivo Léame de la plantilla de Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

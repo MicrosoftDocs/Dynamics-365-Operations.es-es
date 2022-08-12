@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894277"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111906"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar datos de cliente potencial a efectivo desde el integrador de datos a doble escritura
 
@@ -32,7 +32,7 @@ Necesita instalarlo manualmente. Después de la instalación, todo permanece exa
 
 Para migrar su cliente potencial a efectivo desde Integrador de datos a escritura dual, siga estos pasos.
 
-1. Ejecute los trabajos de integrador de datos de cliente potencial a efectivo para realizar una sincronización completa final. De esta forma, se asegura de que ambos sistemas (aplicaciones de Finance and Operations y de interacción con el cliente) tienen todos los datos.
+1. Ejecute los trabajos de integrador de datos de cliente potencial a efectivo para realizar una sincronización completa final. De esta forma, se asegura de que ambos sistemas (aplicaciones de finanzas y operaciones y de interacción con el cliente) tienen todos los datos.
 2. Para ayudar a evitar una posible pérdida de datos, exporte el cliente potencial a datos de caja desde Microsoft Dynamics 365 Sales a un archivo de Excel o un archivo de valores separados por comas (CSV). Exportar datos de las siguientes entidades:
 
     - [Cuenta](#account-table)
@@ -47,25 +47,25 @@ Para migrar su cliente potencial a efectivo desde Integrador de datos a escritur
 
 3. Desinstale la solución cliente potencial a efectivo del entorno de Sales. Este paso elimina las columnas y los datos correspondientes que introdujo la solución Cliente potencial a efectivo.
 4. Instale la solución de escritura dual.
-5. Cree una conexión de escritura dual entre la aplicación Finance and Operations y la aplicación de interacción con el cliente para una o más entidades legales.
+5. Cree una conexión de escritura dual entre la aplicación de finanzas y operaciones y la aplicación de interacción con el cliente para una o más entidades legales.
 6. Habilite mapas de tabla de escritura dual y ejecute la sincronización inicial para los datos de referencia necesarios. (Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).) Ejemplos de datos requeridos incluyen grupos de clientes, condiciones de pago y programas de pago. No habilite los mapas de escritura dual para las tablas que requieren inicialización, como las tablas de cuenta, cotización, línea de cotización, pedido y línea de pedido.
 7. En la aplicación de interacción con el cliente, vaya a **Ajustes avanzados \> Ajustes del sistema \> Gestión de datos \> Reglas de detección duplicadas** y deshabilite todas las reglas.
 8. Inicialice las tablas que se enumeran en el paso 2. Para obtener instrucciones, consulte las secciones restantes de este artículo.
-9. Abra la aplicación Finance and Operations y habilite los mapas de tabla, como los mapas de tabla de cuenta, cotización, línea de cotización, pedido y línea de pedido. A continuación ejecute la sincronización inicial. (Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).) Este proceso sincronizará información adicional de la aplicación Finance and Operations, como el estado de procesamiento, las direcciones de envío y facturación, los sitios y los almacenes.
+9. Abra la aplicación de finanzas y operaciones y habilite los mapas de tabla, como los mapas de tabla de cuenta, cotización, línea de cotización, pedido y línea de pedido. A continuación ejecute la sincronización inicial. (Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).) Este proceso sincronizará información adicional de la aplicación de finanzas y operaciones, como el estado de procesamiento, las direcciones de envío y facturación, los sitios y los almacenes.
 
 ## <a name="account-table"></a>Tabla Cuenta
 
 1. En la columna **Empresa**, ingrese el nombre de la compañía, como **USMF**.
 2. En la columna **Tipo de relación**, ingrese **Cliente** como valor estático. Es posible que no desee clasificar todos los registros de cuenta como clientes en su lógica empresarial.
-3. En la columna **ID de grupo de clientes**, ingrese el número de grupo de clientes de la aplicación Finance and Operations. El valor predeterminado de la solución Cliente potencial a efectivo es **10**.
-4. Si está utilizando la solución Cliente potencial a efectivo sin ninguna personalización de **Número de cuenta**, ingrese un valor de **Número de cuenta** en la columna **Número de parte**. Si hay personalizaciones y no conoce el número del grupo, extraiga esta información de la aplicación Finance and Operations.
+3. En la columna **ID de grupo de clientes**, ingrese el número de grupo de clientes de la aplicación de finanzas y operaciones. El valor predeterminado de la solución Cliente potencial a efectivo es **10**.
+4. Si está utilizando la solución Cliente potencial a efectivo sin ninguna personalización de **Número de cuenta**, ingrese un valor de **Número de cuenta** en la columna **Número de parte**. Si hay personalizaciones y no conoce el número del grupo, extraiga esta información de la aplicación de finanzas y operaciones.
 
 ## <a name="contact-table"></a>Mesa de contacto
 
 1. En la columna **Empresa**, ingrese el nombre de la compañía, como **USMF**.
 2. Establezca las siguientes columnas, según el valor **IsActiveCustomer** en el archivo CSV:
 
-    - Si **IsActiveCustomer** se establece en **Sí** en el archivo CSV, configure la columna **Vendible** en **Sí**. En la columna **ID de grupo de clientes**, ingrese el número de grupo de clientes de la aplicación Finance and Operations. El valor predeterminado de la solución Cliente potencial a efectivo es **10**.
+    - Si **IsActiveCustomer** se establece en **Sí** en el archivo CSV, configure la columna **Vendible** en **Sí**. En la columna **ID de grupo de clientes**, ingrese el número de grupo de clientes de la aplicación de finanzas y operaciones. El valor predeterminado de la solución Cliente potencial a efectivo es **10**.
     - Si **IsActiveCustomer** se establece en **No** en el archivo CSV, configure la columna **Vendible** en **No** y configure la columna **Contacto para** en **Cliente**.
 
 3. Si está utilizando la solución Cliente potencial a efectivo sin ninguna personalización de **Número de contacto**, establezca las siguientes columnas:
@@ -76,7 +76,7 @@ Para migrar su cliente potencial a efectivo desde Integrador de datos a escritur
 
 ## <a name="invoice-table"></a>Tabla de facturación
 
-Ya que los datos de la tabla de **Facturación** están diseñados para fluir en una dirección, desde la aplicación Finance and Operations a la aplicación de interacción con el cliente, no se requiere inicialización. Ejecute la sincronización inicial para migrar todos los datos necesarios de la aplicación Finance and Operations a la aplicación de interacción con el cliente. Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
+Ya que los datos de la tabla de **Facturación** están diseñados para fluir en una dirección, desde la aplicación de finanzas y operaciones a la aplicación de interacción con el cliente, no se requiere inicialización. Ejecute la sincronización inicial para migrar todos los datos necesarios de la aplicación de finanzas y operaciones a la aplicación de interacción con el cliente. Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Tabla Pedidos
 
@@ -94,7 +94,7 @@ Ya que los datos de la tabla de **Facturación** están diseñados para fluir en
 
 ## <a name="products-table"></a>Tabla Productos
 
-Ya que los datos de la tabla **Productos** están diseñados para fluir en una dirección, desde la aplicación Finance and Operations a la aplicación de interacción con el cliente, no se requiere inicialización. Ejecute la sincronización inicial para migrar todos los datos necesarios de la aplicación Finance and Operations a la aplicación de interacción con el cliente. Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
+Ya que los datos de la tabla **Productos** están diseñados para fluir en una dirección, desde la aplicación de finanzas y operaciones a la aplicación de interacción con el cliente, no se requiere inicialización. Ejecute la sincronización inicial para migrar todos los datos necesarios de la aplicación de finanzas y operaciones a la aplicación de interacción con el cliente. Para más información, ver [Consideraciones para la sincronización inicial](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Tablas de cotización y producto de cotización
 
@@ -102,3 +102,4 @@ Para la tabla **Cotización**, siga las instrucciones de la sección anterior de
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

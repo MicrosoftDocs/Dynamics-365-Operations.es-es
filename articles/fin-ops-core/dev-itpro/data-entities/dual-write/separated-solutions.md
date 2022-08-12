@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874823"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111672"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Paquete de orquestación de aplicaciones de escritura dual separada
 
@@ -58,7 +58,7 @@ El paquete Núcleo de la aplicación de doble escritura permite a los usuarios i
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations     | Aplicaciones Customer Engagement                    |
+| Aplicaciones de finanzas y operaciones     | Aplicaciones Customer Engagement                    |
 |---------------------------------|---------------------------------------------|
 | Unidad operativa                  | msdyn_internalorganizations                 |
 | Jerarquía organizativa          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ El paquete de recursos humanos de doble escritura contiene las soluciones y los 
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement         |
+| Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement         |
 |-----------------------------|----------------------------------|
 | Orígenes étnicos              | cdm_ethnicorigins                |
 | Función de trabajo de compensación   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ El paquete de cadena de suministro de doble escritura contiene las soluciones y 
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations                 | Aplicaciones Customer Engagement                      |
+| Aplicaciones de finanzas y operaciones                 | Aplicaciones Customer Engagement                      |
 |---------------------------------------------|-----------------------------------------------|
 | Unidades                                       | uoms                                          |
 | Encabezado de pedidos de ventas de CDS                     | salesorders                                   |
@@ -197,7 +197,7 @@ El paquete de Finance de doble escritura contiene las soluciones y los mapas nec
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations             | Aplicaciones Customer Engagement        |
+| Aplicaciones de finanzas y operaciones             | Aplicaciones Customer Engagement        |
 |-----------------------------------------|---------------------------------|
 | Grupos de retenciones de impuestos                  | msdyn_withholdingtaxgroups      |
 | Contactos de CDS V2 (Cliente)              | contactos                        |
@@ -247,7 +247,7 @@ El paquete de Notas de doble escritura contiene las soluciones y los mapas neces
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Finance and Operations                     | Customer Engagement |
+| Finanzas y operaciones                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Datos adjuntos de documento de encabezado de pedido de ventas    | anotaciones         |
 | Archivos adjuntos de clientes                       | anotaciones         |
@@ -274,7 +274,7 @@ El paquete de Administración de activos de doble escritura contiene las solucio
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations                           | Aplicaciones Customer Engagement                |
+| Aplicaciones de finanzas y operaciones                           | Aplicaciones Customer Engagement                |
 |-------------------------------------------------------|-----------------------------------------|
 | Administración de activos de garantía                             | msdyn_warranties                        |
 | Administración de activos de modelos                               | msdyn_models                            |
@@ -314,7 +314,7 @@ El paquete de libreta de direcciones global y de grupo de escritura dual contien
 
 Los siguientes mapas están disponibles en este paquete.
 
-| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | 
+| Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement | 
 |-----------------------------|--------------------------|
 | Partes de CDS | msdyn_parties | 
 | Ubicaciones de dirección postal de CDS | msdyn_postaladdresscollections | 
@@ -344,3 +344,4 @@ Las soluciones de libreta de direcciones global y de parte de escritura dual dep
 - Paquete de núcleo de aplicación de doble escritura
 - Paquete de Finance de doble escritura
 - Paquete de cadena de suministro de doble escritura
+

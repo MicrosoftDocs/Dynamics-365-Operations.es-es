@@ -1,25 +1,26 @@
 ---
 title: Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes
 description: Este artículo explica cómo puede extender la seguridad de nivel de acceso en contabilidad de costes a la seguridad de nivel de fila en Microsoft Power BI.
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270294
-ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc4d72fb688733b9c1547346c520dd9d77a3b12f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270294"
+ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
+ms.openlocfilehash: 555a815446a6aaca51ed973b5fa43a0a5ab3df83
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883697"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206246"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes
 

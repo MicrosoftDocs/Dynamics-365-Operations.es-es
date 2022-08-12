@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856291"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065656"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parámetros de Human Resources
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856291"
 
 La configuración de algunos parámetros de Recursos Humanos se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de recursos humanos específicos de la empresa.
 
-Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa (es decir, los ajustes se aplican a una sola empresa), se usa la página **Parámetros de recursos humanos**.
+Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa, se usa la página **Parámetros de recursos humanos**.
 
 ![Ir a Parámetros de recursos humanos.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ En Dynamics 365 Finance, los ajustes en la pestaña **Compensación** definen si
 
 En Human Resources, puede utilizar la pesetaña **Compensación** para elegir restringir el acceso a los planes de compensación y establecer una moneda predeterminada.
 
-Para obtener más información acerca de los panes de compensación, consulte [Información general de planes de compensación](hr-compensation-overview.md).
+> [!NOTE]
+> En la infraestructura fusionada, se ha quitado el parámetro de **Divisa** predeterminado en la pestaña **Compensación** de la página **Parámetros de recursos humanos**. En el futuro, la moneda estará controlada por el parámetro **Divisa del libro mayor** para garantizar que no haya conflictos con la funcionalidad de finanzas y operaciones existente y para evitar la duplicación. Para obtener más información sobre cómo usar la funcionalidad de divisa del libro mayor, consulte [Configurar libros de contabilidad](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Pestaña Compensación.](./media/hr-setup-parameters-compensation.png)
+Para obtener más información acerca de los panes de compensación, consulte [Información general de planes de compensación](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Secuencias numéricas
 
@@ -122,7 +123,7 @@ Para obtener más información sobre cómo configurar **Autoservicio para emplea
 Los ajustes en la pestaña **Autoservicio para gerentes** afectan lo que ven los gerentes en el **Autoservicio de gerentes**. En esta pestaña, puede configurar las siguientes opciones:
 
 - El rango de registros que caducan
-- Los administradores de información pueden ver los registros que vencen
+- Información que pueden ver los administradores en los registros que vencen
 - Si los gerentes pueden ver las posiciones abiertas para informes extendidos
 - Vistas de los trabajadores que salen
 - Enlaces útiles para gerentes

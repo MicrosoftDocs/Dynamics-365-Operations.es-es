@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859677"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065319"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Crear vínculos desde Human Resources a otro entorno de Finance
 
@@ -53,7 +53,7 @@ Cada vínculo que cree tendrá la siguiente información definida:
 
    Para encontrar el elemento de menú requerido:
    1. Vaya al entorno de Finance y abra la página que es el destino de la navegación. 
-   2. Copie el elemento de menú desde la URL. Por ejemplo, si desea que el vínculo lo lleve a la lista de empleados de Finance and Operations, especifique el valor que aparece después de "&mi" en la dirección URL. 
+   2. Copie el elemento de menú desde la URL. Por ejemplo, si desea que el vínculo lo lleve a la lista de empleados de finanzas y operaciones, especifique el valor que aparece después de "&mi" en la dirección URL. 
    3. El elemento de menú para navegar a la página de lista de empleados de este ejemplo es: HcmWorkerListPage_Employees.
 
  - **Vínculo al origen de datos**: seleccione el origen de los datos al que hace referencia el vínculo. La mayoría de los orígenes más habituales como **Trabajador** y **Posición** están disponibles.
@@ -63,4 +63,5 @@ Cada vínculo que cree tendrá la siguiente información definida:
 Los administradores del sistema verán los vínculos recién creadaos en las páginas definidas incluso si la opción **Habilitar este vínculo** se establece en **No**. Puede utilizarse para probar vínculos antes de sacarlos y asignarlos a otros empleados. El resto de los roles solo verán los vínculos configurados después de que la opción **Habilitar este vínculo** se establezca en **Sí**. Los empleados con acceso a las páginas en las que se emergen los vínculos tendrán acceso a los vínculos.
 
 Los usuarios también deben tener derechos de seguridad dentro del entorno secundario definido para acceder a las páginas de ese entorno. Si no los tienen, se abre un cuadro de diálogo al utilizar el vínculo.
+
 

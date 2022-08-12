@@ -12,18 +12,18 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54a3dfe64d46b082db12ef05b88075831c9f525e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898554"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070798"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catálogo de aprendizaje para administradores de Dynamics 365 Commerce
 
 ¿Necesita mantener los sistemas y los datos en marcha, aprovisionados y seguros las 24 horas del día?
 
-El catálogo siguiente se organiza desde los conocimientos básicos a los dominios específicos, y desde lo más básico a lo más avanzado. Si hay contenido en varios formatos, se lo haremos saber para que pueda elegir el formato de formación que mejor satisfaga sus necesidades. Este catálogo solo incluye características específicas para Dynamics 365 Commerce. Para capacitación sobre características compartidas con otras aplicaciones Finance and Operations, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
+El catálogo siguiente se organiza desde los conocimientos básicos a los dominios específicos, y desde lo más básico a lo más avanzado. Si hay contenido en varios formatos, se lo haremos saber para que pueda elegir el formato de formación que mejor satisfaga sus necesidades. Este catálogo solo incluye características específicas para Dynamics 365 Commerce. Para capacitación sobre características compartidas con otras aplicaciones de finanzas y operaciones, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Introducción<a name="get-started"></a>
 
@@ -49,3 +49,4 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

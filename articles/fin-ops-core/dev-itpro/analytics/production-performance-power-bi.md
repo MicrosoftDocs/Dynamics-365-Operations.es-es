@@ -6,19 +6,19 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ProductionPerformancePowerBI
+ms.openlocfilehash: e1b8afcc3d1b64c6828e4081b41a74d3b76731bc
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881472"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205745"
 ---
 # <a name="production-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de producción
 
@@ -63,7 +63,7 @@ Los datos siguientes se usan para las páginas de informes en el contenido de Po
 
 La tabla siguiente muestra las medidas agregadas clave que se usan como base del contenido de Power BI.
 
-| Entidad                   | Medidas agregadas clave  | Origen de datos para aplicaciones de Finance and Operations | Campo              |
+| Entidad                   | Medidas agregadas clave  | Origen de datos para aplicaciones de finanzas y operaciones | Campo              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

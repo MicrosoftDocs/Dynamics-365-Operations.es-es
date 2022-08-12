@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857384"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070481"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Notificar como terminado desde el dispositivo de tarjetas de trabajo
 
@@ -50,7 +50,7 @@ Para obtener más información sobre cómo trabajar con la página **Valores pre
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Informar de los artículos controlados por lotes como terminados
 
-El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre artículos por lotes. Estos escenarios se aplican tanto a los artículos que están habilitados para procesos de almacén avanzados como a los artículos que no están habilitados para procesos de almacén avanzados.
+El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre artículos por lotes. Estos escenarios se aplican tanto a los artículos que están habilitados para procesos de gestión de almacenes (WMS) como a los artículos que no están habilitados para WMS.
 
 - **Números de lote asignados manualmente:** los trabajadores introducen un número de lote personalizado. Este número de lote puede provenir de una fuente externa que el sistema no conoce.
 - **Números de lote predefinidos**: los trabajadores seleccionan un número de lote en una lista de números de lote que el sistema genera automáticamente antes de que la orden de producción se envíe al dispositivo de la tarjeta de trabajo.
@@ -129,7 +129,7 @@ Cuando usa este escenario, el campo **Número de lote** que proporciona la pági
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Informar de los artículos controlados por series como terminados
 
-El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre artículos por series. Estos escenarios se aplican tanto a los artículos que están habilitados para procesos de almacén avanzados como a los artículos que no están habilitados para procesos de almacén avanzados.
+El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre artículos por series. Estos escenarios se aplican tanto a los artículos que están habilitados para procesos de gestión de almacenes (WMS) como a los artículos que no están habilitados para WMS.
 
 - **Números de serie asignados manualmente**: los trabajadores introducen un número de serie personalizado. Este número de serie puede provenir de una fuente externa que el sistema no conoce.
 - **Números de serie predefinidos**: los trabajadores seleccionan un número de serie en una lista de números de lote que el sistema genera automáticamente antes de que la orden de producción se envíe al dispositivo de la tarjeta de trabajo.
@@ -212,7 +212,7 @@ Cuando usa este escenario, el campo **Número de serie** que proporciona la pág
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Notificar como terminado a una matrícula
 
-Los procesos avanzados de almacén pueden usar la dimensión de la placa de matrícula para seguir el inventario en ubicaciones de almacén que se han configurado para este propósito. En este caso, se requiere el número de placa cuando un trabajador informa que las cantidades están terminadas.
+Los procesos de gestión de almacenes (WMS) pueden usar la dimensión de la placa de matrícula para seguir el inventario en ubicaciones de almacén que se han configurado para este propósito. En este caso, se requiere el número de placa cuando un trabajador informa que las cantidades están terminadas.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Habilitar informe de matrícula e impresión de etiquetas
 

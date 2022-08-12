@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 130c11320df56c2963653181d00dbf0005b31b69
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cca34e28ebee1863cbc97b0ed518f84b900a4019
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881825"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070771"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Catálogo de aprendizaje para los responsables de la toma de decisiones empresariales y técnicas que estén considerando Dynamics 365 Commerce
 
@@ -25,7 +25,7 @@ ms.locfileid: "8881825"
 
 El catálogo siguiente se organiza desde los conocimientos básicos a los dominios específicos, y desde lo más básico a lo más avanzado. Si hay contenido en varios formatos, se lo haremos saber para que pueda elegir el formato de formación que mejor satisfaga sus necesidades.
 
-Para capacitación sobre características compartidas con otras aplicaciones Finance and Operations, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-bdm.md).
+Para capacitación sobre características compartidas con otras aplicaciones de finanzas y operaciones, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-bdm.md).
 
 ## <a name="get-started"></a>Introducción<a name="get-started"></a>
 
@@ -37,3 +37,4 @@ Para capacitación sobre características compartidas con otras aplicaciones Fin
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

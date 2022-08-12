@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879815"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111982"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuración de la doble escritura de Lifecycle Services
 
@@ -28,8 +28,8 @@ Este artículo explica cómo habilitar escritura dual desde Microsoft Dynamics L
 
 Los clientes deben completar la integración de Power Platform como se describe en los siguientes temas:
 
-- Si aún no usa Microsoft Power Platform y desea expandir sus entornos de Finanzas y Operaciones agregando capacidades de plataforma, consulte [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Si ya tiene entornos Dataverse y Power Platform y desea conectarlos a entornos de Finanzas y Operaciones, consulte [Integración de Power Platform: Habilitar después de la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Si aún no usa Microsoft Power Platform y desea expandir sus entornos de finanzas y operaciones agregando capacidades de plataforma, consulte [Integración de Power Platform: habilitar durante la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Si ya tiene entornos Dataverse y Power Platform y desea conectarlos a entornos de finanzas y operaciones, consulte [Integración de Power Platform: Habilitar después de la implementación del entorno](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Configurar escritura dual para entornos de Dataverse nuevos o ya existentes
 
@@ -53,7 +53,7 @@ Siga estos pasos para configurar la escritura dual desde la página de LCS **Det
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular al entorno de Power Platform.":::
 
-8. Cuando se completa el vínculo, se muestra un hipervínculo. Utilice el enlace para iniciar sesión en el área de administración de escritura dual en el entorno de Finance and Operations. Desde allí, puede configurar asignaciones de entidades.
+8. Cuando se completa el vínculo, se muestra un hipervínculo. Utilice el enlace para iniciar sesión en el área de administración de escritura dual en el entorno de finanzas y operaciones. Desde allí, puede configurar asignaciones de entidades.
 
 ## <a name="linking-mismatch"></a>Desajuste de vinculación
 
@@ -71,3 +71,4 @@ Si recibe esta advertencia, pruebe una de las siguientes soluciones:
 En el pasado, estaba disponible una opción de incidencia de soporte técnico, pero eso fue antes de que existiera la opción 1 anterior.  Microsoft ya no admite solicitudes de vinculación manual a través de incidencias de soporte técnico.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

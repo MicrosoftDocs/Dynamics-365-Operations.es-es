@@ -1,26 +1,26 @@
 ---
 title: Organizar los componentes del informe en el diseñador de informes
 description: En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
-author: ShylaThompson
+author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29fdb6ac6b200956383386c42ccb7627314ea7a2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898722"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135891"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 

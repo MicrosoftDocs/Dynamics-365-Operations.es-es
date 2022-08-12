@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851663"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112162"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espacio de trabajo de móvil de colaboración de proveedor
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851663"
 
 Este artículo proporciona información acerca del espacio de trabajo móvil de **colaboración de proveedor**. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
+Este espacio de trabajo móvil se debe usar con la aplicación móvil de finanzas y operaciones (Dynamics 365).
 
 ## <a name="overview"></a>Información general 
 El espacio de trabajo móvil de **Colaboración de proveedores** mantiene a los proveedores informados sobre nuevos pedidos de compra de modo que puedan ver pedidos y responder a ellos en el cliente web. 
@@ -171,3 +171,4 @@ Si el cliente ha confirmado el pedido de compra, (es decir, el estado del pedido
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

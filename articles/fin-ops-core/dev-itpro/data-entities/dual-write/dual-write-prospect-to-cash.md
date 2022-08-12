@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860120"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112124"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -29,7 +29,7 @@ En las interfaces de la aplicación, puede acceder a los estados de procesamient
 Para obtener información sobre la integración de clientes y contactos, consulte [Maestro de clientes integrado](customer-mapping.md). Para obtener información sobre la integración de productos, consulte [Experiencia unificada del producto](product-mapping.md).
 
 > [!NOTE]
-> En Dynamics 365 Sales, tanto el cliente potencial como el cliente hacen referencia a un registro en la tabla **Cuenta** donde la columna **RelationshipType** es **Cliente potencial** o **Cliente**. Si su lógica empresarial incluye un proceso de calificación **Cuenta** en el que el registro **Cuenta** se crea y califica como cliente potencial primero y después como cliente, ese registro se sincroniza con la aplicación Finance and Operations solo cuando es un cliente (`RelationshipType=Customer`). Si quiere que la fila **Cuenta** se sincronice como un cliente potencial, entonces necesita una asignación personalizada para integrar los datos del cliente potencial.
+> En Dynamics 365 Sales, tanto el cliente potencial como el cliente hacen referencia a un registro en la tabla **Cuenta** donde la columna **RelationshipType** es **Cliente potencial** o **Cliente**. Si su lógica empresarial incluye un proceso de calificación **Cuenta** en el que el registro **Cuenta** se crea y califica como cliente potencial primero y después como cliente, ese registro se sincroniza con la aplicación de finanzas y operaciones solo cuando es un cliente (`RelationshipType=Customer`). Si quiere que la fila **Cuenta** se sincronice como un cliente potencial, entonces necesita una asignación personalizada para integrar los datos del cliente potencial.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
@@ -111,7 +111,7 @@ Las facturas de ventas se crean en Supply Chain Management y se sincronizan en S
 
 Cliente potencial a efectivo incluye una colección de mapas de tabla básicos que funcionan conjuntamente durante la interacción de los datos, como se muestra en la tabla siguiente.
 
-| Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement | Descripción |
+| Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Todos los productos](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clientes V3](mapping-reference.md#101) | cuentas | |
@@ -122,7 +122,7 @@ Cliente potencial a efectivo incluye una colección de mapas de tabla básicos q
 [Encabezado de presupuesto de ventas de CDS](mapping-reference.md#215) | presupuestos | |
 [Líneas de presupuesto de ventas de CDS](mapping-reference.md#214) | quotedetails | |
 [Productos liberados V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas | La tabla V2 de encabezados de facturas de Sales en la aplicación Finance and Operations contiene facturas para pedidos de venta y facturas de servicios. Se aplica un filtro en Dataverse para escritura dual que filtrará cualquier documento de factura de servicios. |
+[Encabezados de factura de ventas V2](mapping-reference.md#118) | facturas | La tabla V2 de encabezados de facturas de Sales en la aplicación de finanzas y operaciones contiene facturas para pedidos de venta y facturas de servicios. Se aplica un filtro en Dataverse para escritura dual que filtrará cualquier documento de factura de servicios. |
 [Líneas de factura de ventas V2](mapping-reference.md#117) | invoicedetails | |
 [Códigos de origen de pedido de ventas](mapping-reference.md#186) | msdyn_salesorderorigins | |
 
@@ -135,3 +135,4 @@ Para obtener información sobre las listas de precios, consulte [Experiencia uni
 - Las dimensiones financieras deben establecerse para los datos maestros, por ejemplo, cliente y proveedor. Cuando se agrega un cliente a un presupuesto o pedido de venta, las dimensiones financieras asociadas con el registro del cliente fluyen automáticamente al pedido. Actualmente, la escritura dual no incluye datos de dimensiones financieras para datos maestros.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

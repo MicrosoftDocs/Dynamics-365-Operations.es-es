@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983013"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065199"
 ---
 # <a name="warehouse-configuration-overview"></a>Visión general de la configuración de almacén
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983013"
 Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 
 > [!NOTE]
-> Este artículo se aplica a las características del módulo **Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo **Administración del inventario**.
+> Este artículo se aplica a las características del módulo **Gestión de almacenes**. No se aplica a las características de almacenes del módulo **Administración del inventario**.
 
 ## <a name="warehouse-layout"></a>Diseño de almacén
-El sistema Administración de almacenes de Supply Chain Management le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
+Procesos de gestión de almacenes (WMS) de Supply Chain Management le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
 
 -   Puede establecer áreas de almacenamiento de alta y baja prioridad para la ubicación óptima de las mercancías.
 -   Puede dividir el almacén en zonas para acomodar distintas necesidades de almacenamiento, como los requisitos de temperatura, o las diferentes tasas de facturación para los artículos.
@@ -42,7 +42,7 @@ El sistema Administración de almacenes de Supply Chain Management le proporcion
 -   Puede agrupar las ubicaciones mediante la configuración de restricciones de capacidad física.
 -   Puede controlar la manera en que se almacenan y se seleccionan los artículos, en función de las reglas definidas por consultas.
 
-Para usar la administración de almacenes en Supply Chain Management, debe crear un almacén y habilitarlo para actividades de gestión de almacenes más avanzadas o especializadas. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
+Para usar WMS en Supply Chain Management, debe crear un almacén y habilitarlo para WMS. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zona, zonas, tipos de ubicación y ubicaciones
 

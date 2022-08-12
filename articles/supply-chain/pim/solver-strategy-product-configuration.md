@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852371"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065536"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estrategia de solucionador para la configuración de productos
 
@@ -29,7 +29,7 @@ ms.locfileid: "8852371"
 
 Este artículo describe cómo puede usar la estrategia de solucionador para mejorar el rendimiento de la configuración de productos.
 
-El concepto de estrategias de solucionador se introdujo primero en la actualización acumulativa 7 (CU7) para Microsoft Dynamics AX 2012 R2. Fue ampliado en la actualización acumulativa 8 (CU8) para Microsoft Dynamics AX 2012 R3 y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
+El concepto de estrategias de solucionador se introdujo primero en la actualización acumulativa 7 (CU7) para Microsoft Dynamics AX 2012 R2. Fue ampliado en la actualización acumulativa 8 (CU8) para Microsoft Dynamics AX 2012 R3 y aplicaciones de finanzas y operaciones, Enterprise Edition 7.3.
 
 El concepto de la estrategia de solucionador consta ahora de las siguientes estrategias:
 

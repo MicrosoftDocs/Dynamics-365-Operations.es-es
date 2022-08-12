@@ -1,5 +1,5 @@
 ---
-title: Resumen de alertas (contiene video)
+title: Resumen de alertas (contiene vídeo)
 description: Este artículo ofrece información general relativa a alertas. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable.
 author: RichdiMSFT
 ms.date: 09/04/2019
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850089"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124270"
 ---
 # <a name="alerts-overview"></a>Información general de alertas
 
@@ -77,13 +77,13 @@ Una regla de alertas tiene cinco componentes:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-El vídeo [Cómo utilizar Alertas para controlar datos filtrados](https://youtu.be/ZYKMcv6kl9s) (ver arriba) se incluye en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo [Cómo utilizar Alertas para controlar datos filtrados](https://youtu.be/ZYKMcv6kl9s) (ver arriba) se incluye en la [Lista de reproducción de finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 ### <a name="alert-rule-options"></a>Opciones de reglas de alertas
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-El vídeo [Opciones de reglas de alertas](https://youtu.be/cpzimwOjicM) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo [Opciones de reglas de alertas](https://youtu.be/cpzimwOjicM) (aparece más arriba) está incluido en la [Lista de reproducción de finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 
 

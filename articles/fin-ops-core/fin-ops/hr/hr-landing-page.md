@@ -1,13 +1,13 @@
 ---
 title: Información general de Human Resources
 description: El módulo de recursos humanos optimiza las tareas rutinarias de mantenimiento de registros, automatiza procesos relacionados con la plantilla de la organización y ofrece un marco para que el personal de recursos humanos gestione áreas de supervisión.
-author: andreabichsel
+author: twheeloc
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom:
 - "20931"
 - intro-internal
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 59a520363fdbb4ab308af48f472d98d654db5880
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983138"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167713"
 ---
 # <a name="human-resources-overview"></a>Información general de Human Resources
 

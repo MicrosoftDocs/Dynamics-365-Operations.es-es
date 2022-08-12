@@ -6,21 +6,22 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 264084
-ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "264084"
+ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
+ms.search.form: HcmWorkforceWorkspace
+ms.openlocfilehash: 156657e5f9876bd051f317f0bbcd8664807dd7d3
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884499"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206631"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Contenido de Power BI de métricas de recursos
 
@@ -58,7 +59,7 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 Asegúrese de descargar el contenido de Power BI **Métricas de recursos** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
 
 > [!NOTE]
-> Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a aplicaciones de Finance and Operations.
+> Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a aplicaciones de finanzas y operaciones.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 En la tabla siguiente se muestran las entidades en las que se basaba el contenido.

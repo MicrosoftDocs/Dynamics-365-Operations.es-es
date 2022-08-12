@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900517"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065161"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900517"
 
 El rendimiento de las consultas que se utilizan para calcular el inventario disponible se ve afectado por el número de registros en las tablas involucradas. Una forma de ayudar a mejorar el rendimiento es reducir el número de registros que la base de datos debe tener en cuenta.
 
-Este artículo describe el trabajo de limpieza de entradas disponibles, que elimina registros innecesarios en las tablas InventSum y WHSInventReserve. Estas tablas almacenan información disponible para artículos que están habilitados para el procesamiento de gestión de almacenes. (Estos elementos se denominan elementos WHS). La eliminación de estos registros puede mejorar significativamente el rendimiento de los cálculos disponibles.
+Este artículo describe el trabajo de limpieza de entradas disponibles, que elimina registros innecesarios en las tablas `InventSum` y `WHSInventReserve`. Estas tablas almacenan información disponible para artículos que están habilitados para el procesamiento de gestión de almacenes. (Estos elementos se denominan elementos WMS). La eliminación de estos registros puede mejorar significativamente el rendimiento de los cálculos disponibles.
 
 ## <a name="what-the-cleanup-job-does"></a>Qué hace el trabajo de limpieza
 
-El trabajo de limpieza de entradas disponibles elimina todos los registros de las tablas WHSInventReserve e InventSum donde están todos los valores de campo son *0* (cero). Estos registros se pueden eliminar porque no contribuyen a la información disponible. El trabajo elimina solo los registros que están debajo del nivel **Ubicación**.
+El trabajo de limpieza de entradas disponibles elimina todos los registros de las tablas `WHSInventReserve` e `InventSum` donde están todos los valores de campo son *0* (cero). Estos registros se pueden eliminar porque no contribuyen a la información disponible. El trabajo elimina solo los registros que están debajo del nivel **Ubicación**.
 
 Si se permite el inventario físico negativo, es posible que el trabajo de limpieza no pueda eliminar todas las entradas relevantes. La razón de esta limitación es que el trabajo debe contemplar un escenario especial donde una matrícula tiene varios números de serie, y uno de esos números de serie se ha vuelto negativo. Por ejemplo, el sistema tendrá cero en la matrícula cuando una matrícula tenga +1 unidades del números de serie 1 y –1 unidades del número de serie 2. Para este escenario especial, el trabajo realiza una eliminación de primer orden, donde primero intenta eliminar de los niveles inferiores.
 

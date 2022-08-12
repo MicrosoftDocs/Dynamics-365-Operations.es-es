@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b5336549937edca6beb94137896f84b460f257f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863864"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111342"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabajo de móvil de la aprobación del pedido de compra
 
@@ -71,7 +71,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargue e instale la aplicación móvil Finance and Operations:
+Descargar e instalar la aplicación móvil de finanzas y operaciones:
 
 - [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -114,3 +114,4 @@ Una vez que haya visualizado el pedido de compra que se le ha asignado y leído 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

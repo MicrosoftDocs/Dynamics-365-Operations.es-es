@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899451"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201878"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
@@ -75,7 +75,7 @@ Un pedido de ventas que se debe reservar de forma automática en entregada el 4 
 
 Existen dos opciones relacionadas con las reservas de la página de **Parámetros de gestión de inventario y almacenes**:
 -   La opción de **Reserva de artículos** de la ficha **General** le permite reservar los recibos de los artículos que únicamente se solicitan en emisiones de artículos de las Cuentas deudoras, Gestión de proyectos y contabilidad, y Control de producción. Si no selecciona esta opción, solo podrá reservar artículos que se hayan recibido físicamente. Si un artículo particular se ha configurado para aceptar un inventario negativo, este campo no es relevante.
--   La opción **Reservar artículos automáticamente** de la ficha **Transporte** determina la configuración predeterminada si los artículos se reservan automáticamente para los pedidos de transferencia. La configuración predeterminada se puede anular en pedidos de transferencia individuales.
+-   La opción **Reservar artículos automáticamente** de la ficha **Transferencia** determina la configuración predeterminada si los artículos se reservan automáticamente para los pedidos de transferencia. La configuración predeterminada se puede anular en pedidos de transferencia individuales.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Directivas de la reserva de inventario en la página de los Parámetros de producción
 

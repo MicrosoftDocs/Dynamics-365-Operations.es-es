@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403850"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109444"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Sincronizar fecha y hora en trabajos de importación
 
@@ -27,7 +27,7 @@ Es importante establecer la zona horaria de su trabajo de importación en la hor
 
 Esta conversión dual hace que las fechas cambien entre aplicaciones. Por ejemplo, la conversión dual podría hacer que la fecha de inicio de un empleado sea diferente entre Dynamics 365 Human Resources y Dynamics 365 Finance debido a las diferencias en las zonas horarias locales. Establecer el trabajo de importación en UTC resuelve este problema.
 
-1. En Dynamics 365 Finance and Operations, seleccione **Administración de datos**.
+1. En finanzas y operaciones de Dynamics 365, seleccione **Administración de datos**.
 
 2. Seleccione **Importar proyectos** y luego seleccione el proyecto.
 
@@ -41,3 +41,4 @@ Esta conversión dual hace que las fechas cambien entre aplicaciones. Por ejempl
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

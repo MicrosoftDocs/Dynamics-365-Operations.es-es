@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: cc813ba4bafb526c16445eecaed9f1be68a8d726
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 27c8e44a43e7bc1b0ed1e759c963b8685a34e623
+ms.sourcegitcommit: de1ac28d9441146d5d91b1f13ab6d8c8a0f7387b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859992"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9187157"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Página principal de características quitadas o en desuso
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>Características quitadas o en desuso en aplicaciones de Finance and Operations
-Los siguientes temas proporcionan información sobre las funciones quitadas o en desuso en aplicaciones de Finance and Operations:
+## <a name="removed-or-deprecated-features-in-finance-and-operations-apps"></a>Características quitadas o en desuso en aplicaciones de finanzas y operaciones
+Los siguientes temas proporcionan información sobre las funciones quitadas o en desuso en aplicaciones de finanzas y operaciones:
 
 - [Características quitadas o en desuso en Dynamics 365 Commerce](../../../commerce/get-started/removed-deprecated-features-commerce.md)
 - [Características quitadas o en desuso en Dynamics 365 Finance](../../../finance/get-started/removed-deprecated-features-finance.md)
 - [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/removed-deprecated-features-scm-updates.md)
+- [Características quitadas o en desuso en Dynamics 365 Human Resources](../../../human-resources/get-started/removed-deprecated-features-hr.md)
 - [Características quitadas o en desuso en Dynamics 365 Project Operations](/dynamics365/project-operations/whats-new/removed-depreciated-features-project)
 - [Características de Platform quitadas o en desuso](../../dev-itpro/get-started/removed-deprecated-features-platform-updates.md)
 - [Características quitadas o en desuso de versiones anteriores](../../dev-itpro/migration-upgrade/deprecated-features.md)
@@ -38,3 +39,4 @@ Los siguientes temas proporcionan información sobre las funciones quitadas o en
 En el artículo siguiente se proporciona información acerca de los desusos en Microsoft Power Platform:
 
 - [Se avecinan cambios importantes (desusos) en Power Apps, Power Automate y aplicaciones de interacción con el cliente](/power-platform/important-changes-coming)
+

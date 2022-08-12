@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888394"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068646"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Liberación por lotes de pedidos de transferencia parcialmente reservados
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888394"
 La funcionalidad de la opción de liberación por lotes de pedidos de transferencia parcialmente reservados le permite liberar parcialmente pedidos de transferencia a un almacén mediante un trabajo por lotes.
 Dado que tiene la opción de liberar una cantidad parcial, no tiene que esperar a que la totalidad del pedido esté disponible en el almacén antes de poder liberar un pedido.
 
-La liberación de pedidos en un almacén es un proceso de gestión avanzada de almacenes. Este proceso implica actividades tales como la recogida, embalaje y envío que un trabajador del almacén puede efectuar usando un dispositivo móvil.
+La liberación de pedidos en un almacén es un proceso de procesos de gestión de almacenes (WMS). Este proceso implica actividades tales como la recogida, embalaje y envío que un trabajador del almacén puede efectuar usando un dispositivo móvil.
 
 ## <a name="where-it-applies"></a>Dónde se aplica
 

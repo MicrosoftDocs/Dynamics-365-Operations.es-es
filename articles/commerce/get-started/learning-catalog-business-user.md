@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: afbd23768c86775e8007f72cb8af4126e4452336
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5d1a1a2a5f4bc3d2bdea8ae87865fb3dbfc8c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897081"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066947"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Catálogo de aprendizaje para usuarios de Dynamics 365 Commerce
 
@@ -25,7 +25,7 @@ ms.locfileid: "8897081"
 
 El catálogo siguiente se organiza desde los conocimientos básicos a los dominios específicos, y desde lo más básico a lo más avanzado. Si hay contenido en varios formatos, se lo haremos saber para que pueda elegir el formato de formación que mejor satisfaga sus necesidades.
 
-Para capacitación sobre características compartidas con otras aplicaciones Finance and Operations, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-business-user.md).
+Para capacitación sobre características compartidas con otras aplicaciones de finanzas y operaciones, consulte el [Catálogo de aprendizaje de Dynamics 365 Finance](../../finance/get-started/learning-catalog-business-user.md).
 
 ## <a name="get-started"></a>Introducción<a name="get-started"></a>
 
@@ -53,3 +53,4 @@ Para capacitación sobre características compartidas con otras aplicaciones Fin
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

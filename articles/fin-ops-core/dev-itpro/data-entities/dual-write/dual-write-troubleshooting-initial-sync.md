@@ -2,19 +2,19 @@
 title: Solucionar problemas durante la sincronización
 description: Este artículo proporciona información para la solución de problemas que puede ayudarlo a solucionar problemas durante la sincronización inicial.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892368"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112094"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante la sincronización
 
@@ -27,7 +27,7 @@ Este artículo proporciona información para solución de problemas de integraci
 > [!IMPORTANT]
 > Algunos de los problemas que aborda este artículo pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificar los errores de sincronización inicial en una aplicación Finance and Operations
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificar los errores de sincronización inicial en una aplicación de finanzas y operaciones
 
 Después de habilitar las plantillas de asignación, el estado de los mapas debe ser **Ejecutando**. Si el estado es **No ejecutando**, se produjeron errores durante la sincronización inicial. Para ver los errores, seleccione la pestaña **Detalles de sincronización inicial** en la página **Escritura doble**.
 
@@ -63,7 +63,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Si este error ocurre de manera constante y no puede completar la sincronización inicial, siga estos pasos para solucionar el problema.
 
-1. Inicie sesión en la máquina virtual (VM) para la aplicación Finance and Operations.
+1. Inicie sesión en la máquina virtual (VM) para la aplicación de finanzas y operaciones.
 2. Abra Microsoft Management Console.
 3. En el panel **Servicios**, asegúrese de que el servicio de exportación de marco de Microsoft Dynamics 365 Data se está ejecutando. Reinícielo si se ha detenido, porque la sincronización inicial lo requiere.
 
@@ -75,7 +75,7 @@ Es posible que reciba el siguiente mensaje de error durante la sincronización i
 
 Para arreglar el problema, siga estos pasos.
 
-1. Iniciar sesión en la aplicación Finance and Operations.
+1. Iniciar sesión en la aplicación de finanzas y operaciones.
 2. En la págona **aplicaciones Azure Active Directory**, elimine el cliente **DtAppID**, y luego agréguelo nuevamente.
 
 ![Cliente DtAppID en la lista de aplicaciones de Azure AD.](media/aad_applications.png)
@@ -102,9 +102,9 @@ A continuación, encontrará algunos ejemplos:
 
 Si tiene filas con valores en estos campos en la tabla del proveedor, en las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** siga estos pasos para completar la sincronización inicial.
 
-1. En la aplicación Finance and Operations, elimine las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** de la asignación y guarde la asignación.
+1. En la aplicación de finanzas y operaciones, elimine las columnas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** de la asignación y guarde la asignación.
 
-    1. En la página de asignación de doble escritura para **Proveedores V2 (msdyn\_vendors)**, en la pestaña **Asignaciones de tablas**, en el filtro izquierdo, seleccione **Finance and Operations apps.Vendors V2**. En el filtro derecho, seleccione **Sales.Vendor**.
+    1. En la página de asignación de doble escritura para **Proveedores V2 (msdyn\_vendors)**, en la pestaña **Asignaciones de tablas**, en el filtro izquierdo, seleccione **Aplicaciones de finanzas y operaciones.Proveedores V2**. En el filtro derecho, seleccione **Sales.Vendor**.
     2. Busque **primarycontactperson** para encontrar la columna de origen **PrimaryContactPersonId**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
@@ -149,9 +149,9 @@ A continuación, encontrará algunos ejemplos:
 
 Si tiene filas en la tabla del cliente con valores en las columnas **ContactPersonID** e **InvoiceAccount**, siga estos pasos para completar la sincronización inicial. Puede usar este enfoque para cualquier tabla lista para usar como **Cuentas** y **Contactos**.
 
-1. En la aplicación Finance and Operations, elimine las columnas **ContactPersonId** e **InvoiceAccount** de la asignación **Clientes V3 (cuentas)** y guarde la asignación.
+1. En la aplicación de finanzas y operaciones, elimine las columnas **ContactPersonId** e **InvoiceAccount** de la asignación **Clientes V3 (cuentas)** y guarde la asignación.
 
-    1. En la página de mapeo de doble escritura para **Clientes V3 (cuentas)**, en la pestaña **Asignaciones de tablas**. En el filtro izquierdo, seleccione **Finance and Operations app.Customers V3**. En el filtro derecho, seleccione **Dataverse.Account**.
+    1. En la página de mapeo de doble escritura para **Clientes V3 (cuentas)**, en la pestaña **Asignaciones de tablas**. En el filtro izquierdo, seleccione **Aplicaciones de finanzas y operaciones.Clientes V3**. En el filtro derecho, seleccione **Dataverse.Account**.
     2. Busque **contactperson** para encontrar la columna de origen **ContactPersonID**.
     3. Seleccione **Acciones** y luego seleccione **Eliminar**.
 
@@ -182,16 +182,16 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
     > Hay dos asignaciones que tienen el mismo nombre. Asegúrese de seleccionar la asignación tenga la descripción siguiente en la pestaña **Detalles**: **Plantilla de doble escritura para sincronización entre Contactos de proveedor FO.CDS V2 con CDS.Contacts. Requiere nuevo paquete \[Dynamics365SupplyChainExtended\].**
 
 5. Vuelva a agregar las columnas **InvoiceAccount** y **ContactPersonId** a la asignación **Clientes V3 (Cuentas)** y guarde la asignación. Tanto la columna **InvoiceAccount** como la columna **ContactPersonId** vuelven a ser parte del modo de sincronización en vivo. En el siguiente paso, completará la sincronización inicial para estas columnas.
-6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación Finanzas y operaciones a Dataverse.
-7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** de Dataverse a la aplicación Finanzas y operaciones, debe utilizar un proyecto de integración de datos.
+6. Ejecute otra vez la sincronización inicial para la asignación **Clientes V3 (Cuentas)**. Debido a que el seguimiento de cambios está deshabilitado, los datos para **InvoiceAccount** y **ContactPersonId** se sincronizarán desde la aplicación de finanzas y operaciones a Dataverse.
+7. Para sincronizar los datos para **InvoiceAccount** y **ContactPersonId** de Dataverse a la aplicación de finanzas y operaciones, debe utilizar un proyecto de integración de datos.
 
-    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas de **Finanzas y operaciones.Customers V3**. La dirección de datos debe ser de Dataverse a la aplicación de Finanzas y operaciones. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](/power-platform/admin/data-integrator).
+    1. En Power Apps, cree un proyecto de integración de datos entre **Sales.Account** y las tablas de **Aplicaciones de finanzas y operaciones.Clientes V3**. La dirección de datos debe ser de Dataverse a la aplicación de finanzas y operaciones. Como **InvoiceAccount** es un nuevo atributo en doble escritura, es posible que desee omitir la sincronización inicial para este atributo. Para obtener más información, consulte [Integrar datos en Dataverse](/power-platform/admin/data-integrator).
 
         La siguiente ilustración muestra un proyecto que actualiza **CustomerAccount** y **ContactPersonId**.
 
         ![Proyecto de integración de datos para actualizar CustomerAccount y ContactPersonId.](media/cust_selfref6.png)
 
-    2. Agregue los criterios de la empresa en el filtro del lado de Dataverse, de forma que solo las filas que coinciden con los criterios de filtro se actualizarán en la aplicación Finanzas y operaciones. Para agregar un filtro, seleccione el botón del filtro. Posteriormente, en el cuadro de diálogo **Editar consulta** puede agregar una consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**.
+    2. Agregue los criterios de la empresa en el filtro del lado de Dataverse, de forma que solo las filas que coinciden con los criterios de filtro se actualizarán en la aplicación de finanzas y operaciones. Para agregar un filtro, seleccione el botón del filtro. Posteriormente, en el cuadro de diálogo **Editar consulta** puede agregar una consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**.
 
         > [NOTA] Si el botón del filtro no está presente, cree un ticket de soporte para solicitar al equipo de integración de datos que habilite la capacidad de filtro en su inquilino.
 
@@ -201,7 +201,7 @@ Si tiene filas en la tabla del cliente con valores en las columnas **ContactPers
 
     La sincronización inicial de las filas ahora se ha completado.
 
-8. En la aplicación Finance and Operations, vuelva a activar Change Tracking en la tabla **Clientes V3**.
+8. En la aplicación de finanzas y operaciones, vuelva a activar Change Tracking en la tabla **Clientes V3**.
 
 ## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Errores de sincronización inicial en asignaciones con más de 10 campos de búsqueda
 
@@ -227,12 +227,21 @@ Es posible que reciba el siguiente mensaje de error cuando intente ejecutar la s
 
 *No se encontró el número de parte en Dataverse*.
 
-Hay un rango establecido en **DirPartyCDSEntity** para aplicaciones de Finanzas y operaciones que filtra grupos de tipo **Persona** y **Organización**. Como resultado, una sincronización inicial de la asignación **Partes de CDS - msdyn_parties** no sincronizará partes de otros tipos, como **Entidad jurídica** y **Unidad Operativa**. El error puede aparecer al ejecutar la sincronización inicial para **Direcciones postales de parte de CDS (msdyn_partypostaladdresses)** o **Contactos de parte V3 (msdyn_partyelectronicaddresses)**.
+Hay un rango establecido en **DirPartyCDSEntity** para aplicaciones de finanzas y operaciones que filtra grupos de tipo **Persona** y **Organización**. Como resultado, una sincronización inicial de la asignación **Partes de CDS - msdyn_parties** no sincronizará partes de otros tipos, como **Entidad jurídica** y **Unidad Operativa**. El error puede aparecer al ejecutar la sincronización inicial para **Direcciones postales de parte de CDS (msdyn_partypostaladdresses)** o **Contactos de parte V3 (msdyn_partyelectronicaddresses)**.
 
-Estamos trabajando en una solución que elimine el rango de tipo de parte en la entidad de tablas de Finanzas y operaciones para que las partes de todo tipo puedan sincronizarse correctamente con Dataverse.
+Estamos trabajando en una solución que elimine el rango de tipo de parte en la entidad de tablas de finanzas y operaciones para que las partes de todo tipo puedan sincronizarse correctamente con Dataverse.
 
 ## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>¿Hay algún problema de rendimiento al ejecutar la sincronización inicial para los datos de Clientes o Contactos?
 
 Si ha ejecutado la sincronización inicial para datos de **Cliente** y tiene las asignaciones de **Cliente** en ejecución, y luego se ejecuta la sincronización inicial para datos de **Contactos**, puede haber problemas de rendimiento durante las inserciones y actualizaciones de las tablas **LogisticsPostalAddress** y **LogisticsElectronicAddress** para direcciones de **Contacto**. Se realiza un seguimiento de las mismas tablas de direcciones postales y direcciones electrónicas globales para **CustCustomerV3Entity** y **VendVendorV2Entity**, y la doble escritura intenta generar más consultas para escribir datos en el otro lado. Si ya ha ejecutado la sincronización inicial para **Cliente**, detenga la asignación correspondiente mientras ejecuta la sincronización inicial para datos de **Contactos**. Haga lo mismo para los datos de **Proveedor**. Una vez finalizada la sincronización inicial, podrá ejecutar todas las asignaciones omitiendo la sincronización inicial.
 
+## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>El tipo de datos Float que tiene un valor cero no se puede sincronizar
+
+La sincronización inicial puede fallar para los registros que tienen un valor cero para un campo de precio, como **Importe de pago fijo** o **Importe** en la moneda de la transacción. En este caso, recibirá un mensaje de error similar al siguiente ejemplo:
+
+*Ocurrió un error al validar los parámetros de entrada: Microsoft.OData.ODataException: no se puede convertir el literal '000000' al tipo esperado 'Edm.Decimal',...*
+
+El problema es con el valor **Idioma local** en **Formatos de datos de origen** en el módulo **Administración de datos**. Cambie el valor del campo **Idioma local** a **en-us** y, a continuación, inténtelo de nuevo.
+
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef392fd744a68c54bc0438152b3487233ac5c7f3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905584"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070361"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -123,13 +123,13 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 <td>Recepción de artículo de pedido de transferencia</td>
 <td>Registre la recepción de una cantidad de un artículo y cree el trabajo de ubicación para otro trabajador.
 
-<strong>Nota</strong>: use esta opción solo si los artículos se han enviado desde un almacén que no está habilitado para procesos de gestión de almacenes.</td>
+<strong>Nota</strong>: use esta opción solo si los artículos se han enviado desde un almacén que no está habilitado para procesos de gestión de almacenes (WMS).</td>
 </tr>
 <tr>
 <td>Recepción de artículo del pedido de transferencia y ubicación</td>
 <td>Registre la recepción de una cantidad de un artículo y ubique los artículos. El mismo trabajador realiza ambas acciones.
 
-<strong>Nota</strong>: use esta opción solo si los artículos se han enviado desde un almacén que no está habilitado para procesos de gestión de almacenes.</td>
+<strong>Nota</strong>: use esta opción solo si los artículos se han enviado desde un almacén que no está habilitado para procesos de gestión de almacenes (WMS).</td>
 </tr>
 <tr>
 <td>Recepción de línea de pedido de transferencia</td>

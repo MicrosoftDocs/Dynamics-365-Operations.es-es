@@ -1,6 +1,6 @@
 ---
 title: Mejore el seguimiento de los resultados de los informes electrónicos generados para comparar con valores de línea base
-description: Este artículo describe las mejoras a la función de referencia de ER en la versión 10.0.3 (junio 2019) de Microsoft Dynamics 365 for Finance and Operations.
+description: Este artículo describe las mejoras a la función de referencia de ER en Microsoft Dynamics 365 Finance versión 10.0.3 (junio de 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847412"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109154"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Mejore el seguimiento de los resultados de los informes electrónicos generados para comparar con valores de línea base
 
 [!include[banner](../includes/banner.md)]
 
-En este artículo se describe el primer conjunto de mejoras que se han hecho en la característica de línea base del marco de informes electrónicos (ER). Estas mejoras están disponibles en la versión 10.0.3 de Microsoft Dynamics 365 for Finance and Operations (junio de 2019) y posteriores.
+En este artículo se describe el primer conjunto de mejoras que se han hecho en la característica de línea base del marco de informes electrónicos (ER). Estas mejoras están disponibles en Microsoft Dynamics 365 Finance versión 10.0.3 (junio de 2019) y posteriores.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizar la configuración de reglas de línea base
 
@@ -208,3 +208,4 @@ Para importar la configuración de línea base de un archivo XML almacenado en M
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

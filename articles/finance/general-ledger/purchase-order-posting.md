@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849942"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151044"
 ---
 # <a name="purchase-order-posting"></a>Registro de pedido de compra
 
@@ -93,10 +93,10 @@ La siguiente tabla muestra ejemplos de los tipos de contabilización predetermin
 
 | Tipo de registro | Ejemplo de cuenta principal | Ejemplo de nombre de cuenta principal | Tipo de cuenta | ¿Debe/Haber? | Cuenta de compensación | P/F | Seguir | Description |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Coste de materiales comprados recibidos | 140100</br>140101 | Inventario de materiales</br>Materiales enviados, no facturados | Activo | Débito | Sí | C | Coste de materiales comprados facturados | Para un pedido de compra, esto ocurre cuando se registra la recepción del producto. La compensación a la cuenta es Gasto de compra, sin factura. El importe registrado en esta cuenta se revierte cuando se registra una factura de pedido de compras. |
+| Coste de materiales comprados recibidos | 140100</br>140101 | Inventario de materiales</br>Materiales enviados, no facturados | Activo | Débito | Sí | C | Coste de materiales comprados facturados | Se usa cuando se registra un recibo de producto de orden de compra, la compensación a la cuenta es Gasto de compra, sin factura. El importe registrado en esta cuenta se revierte cuando se registra una factura de pedido de compras. |
 | Gasto de compra, no facturado | 600180 | Recibos de material | Gasto | Débito | Sí | C | |Para un pedido de compra, esto ocurre cuando se registra la recepción del producto. Se crean dos comprobantes para el recibo para realizar un seguimiento de las variaciones del precio de compra cuando se utiliza el costo estándar. La compensación a la cuenta en el primer comprobante es la acumulación de Compra. La compensación en el segundo comprobante es la suma de las cuentas Costo de los materiales comprados recibidos y Variación del precio de compra. Los importes registrado en esta cuenta se revierten cuando se registra una factura de pedido de compras. |
 | Coste de materiales comprados facturados | 140100 | Inventario de materiales | Activo | Débito | No | V  |Coste de materiales comprados recibidos | Se utiliza cuando se registra una factura de pedido de compras. La compensación a la cuenta es Gasto de compra por producto. Esta cuenta representa el inventario en su hoja de balance. La cuenta utilizada suele ser la misma cuenta utilizada para Coste de unidades entregadas y Coste de unidades facturadas para pedidos de venta. |
-| Gasto de compra para el producto | 600180 | Recibo de materiales | Gasto | Crédito | No | V  | |Se utiliza cuando se registra una factura de pedido de compras. La compensación a esta cuenta es el Coste de materiales comprados. Esta cuenta representa el inventario en su hoja de balance. |
+| Gasto de compra para el producto | 600180 | Recibo de materiales | Gasto | Crédito | Sí | V  | |Se utiliza cuando se registra una factura de pedido de compras. Se crean dos comprobantes para la factura para realizar un seguimiento de las variaciones del precio de compra cuando se utiliza el costo estándar. La compensación a esta cuenta es Gasto de compra por producto, cuenta sin factura que se utiliza en el registro de recibos y se invierte durante la contabilización de facturas. Representa los costes del inventario comprado en la facturación que no se reflejan en la cuenta de inventario en el balance de situación. Este es un registro de pérdidas y ganancias para la desviación en el precio de compra que se ve más comúnmente en las compras de artículos de coste estándar.|
 | Beneficio de precio de recibo fijo (Compra, beneficio de precio de recibo fijo*) | 510310 | Desviación de precio de compra | Gasto | Crédito | No | V | Pérdidas del precio de recepción fijo | Se usa cuando se registra una factura de orden de compra y hay una diferencia entre el precio facturado y el costo predeterminado del artículo. Esta cuenta se utiliza cuando la diferencia es mayor. La cuenta de contrapartida de esta cuenta es la compensación precio de recibo fijo. |
 | Pérdidas de precio de recibo fijo (Compra, pérdidas de precio de recibo fijo*) | 510310 | Desviación de precio de compra | Gasto | Débito | No | V | Ganancias del precio de recepción fijo | Se usa cuando se registra una factura de orden de compra y hay una diferencia entre el precio facturado y el costo predeterminado del artículo. Esta cuenta se utiliza cuando la diferencia es menor. La cuenta de contrapartida de esta cuenta es la compensación precio de recibo fijo. |
 | Contrapartida de precio de recibo fijo (Compra, contrapartida de precio de recibo fijo*) | 140900 | Variación de existencias | Activo | Ambas | No | V  | |Se usa cuando se registra una factura de orden de compra y hay una diferencia entre el precio facturado y el costo predeterminado del artículo. Esta cuenta es la compensación de las cuentas de pérdidas y ganancias de precio de recibo fijo. |

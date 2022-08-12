@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850449"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067540"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de productos para transacciones de almacén
 
@@ -95,7 +95,7 @@ Para configurar códigos de filtro en grupos de artículos, siga estos pasos.
     Por ejemplo, si se seleccionan las casillas de verificación **Usar filtro Código 1** y **Usar filtro Código 2**, los códigos de filtro 1 y 2 del artículo deben coincidir con la configuración del grupo de filtros para el grupo de artículos con el fin de que el grupo de filtros se pueda seleccionar. Cuando crea un nuevo elemento, el grupo de filtro seleccionado será el grupo de filtro predeterminado en los campos **Grupo 1** y **Grupo 2** en la ficha desplegable **Almacén** de la página **Detalles del producto publicado**.
 
 > [!IMPORTANT]
-> Los códigos de filtro de productos están habilitados solo para artículos que utilizan la gestión avanzada de almacenes.
+> Los códigos de filtro de productos están habilitados solo para artículos que utilizan procesos de gestión de almacenes (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Especificar códigos de filtro de productos emitidos
 
@@ -158,7 +158,7 @@ Para configurar códigos de filtro de proveedor, siga estos pasos.
 1. En los campos de **Código 1** a **Código 10**, seleccione los códigos de filtro que se utilizarán como criterio para limitar los artículos que están disponibles para los proveedores en el grupo de artículos seleccionado. Debe realizar una selección para cada código de filtro que esté configurado para el grupo de artículos.
 
 > [!NOTE]
-> La configuración de los filtros de productos del proveedor se aplica a los productos lanzados donde los procesos de gestión del almacén están habilitados para el grupo de dimensiones de almacenamiento asociado. Los códigos de filtro se utilizan para determinar si el sistema permitirá a los usuarios comprar un artículo determinado de un proveedor determinado cuando creen líneas de pedidos de compra. Microsoft Dynamics 365 Supply Chain Management tiene dos métodos para gestionar la aprobación del proveedor. Si existen uno o más productos liberados donde el campo **Método de verificación de proveedor aprobado** está configurado en *Solo advertencia* o *No permitido*, ambos métodos de aprobación de proveedores podrían habilitarse para esos artículos. Esta situación puede causar problemas cuando los usuarios crean líneas de pedidos de compra.
+> La configuración de los filtros de productos del proveedor se aplica a los productos lanzados donde los procesos de gestión de almacenes (WMS) están habilitados para el grupo de dimensiones de almacenamiento asociado. Los códigos de filtro se utilizan para determinar si el sistema permitirá a los usuarios comprar un artículo determinado de un proveedor determinado cuando creen líneas de pedidos de compra. Microsoft Dynamics 365 Supply Chain Management tiene dos métodos para gestionar la aprobación del proveedor. Si existen uno o más productos liberados donde el campo **Método de verificación de proveedor aprobado** está configurado en *Solo advertencia* o *No permitido*, ambos métodos de aprobación de proveedores podrían habilitarse para esos artículos. Esta situación puede causar problemas cuando los usuarios crean líneas de pedidos de compra.
 
 ## <a name="see-also"></a>Consulte también
 

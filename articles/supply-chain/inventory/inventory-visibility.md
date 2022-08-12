@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897643"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066652"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Información general sobre el complemento de visibilidad de inventario
 
@@ -61,9 +61,9 @@ La visibilidad de su inventario proyectado a corto plazo (incluidos el suministr
 
 La función NNC es fácil de adoptar en su proceso diario de entrega de pedidos. Lo que es más importante, al igual que otras ofertas de visibilidad de inventario, la función NNC es *global y en tiempo real*. Por lo tanto, puede configurar varias fórmulas de cálculo de NNC para tener consultas de disponibilidad de inventario completas que cubran todos sus canales comerciales y fuentes de datos. Para obtener más información, consulte [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilidad con elementos de gestión avanzada de almacenes
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Compatibilidad con elementos de procesos de gestión de almacenes (WMS)
 
-Microsoft tiene como objetivo proporcionar una integración lista para usar con la gestión avanzada de almacenes (WHS), para que los clientes de WHS también puedan disfrutar de los beneficios del servicio de visibilidad de inventario. Según el primer lanzamiento de versiones de 2022 (versión preliminar pública en marzo), el servicio de inventario admite consultas de artículos disponibles WHS y NNC. La función de reserva flexible y asignación será compatible con los clientes de WHS en el próximo lanzamiento. Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WHS](inventory-visibility-whs-support.md).
+Microsoft tiene como objetivo proporcionar una integración lista para usar con procesos de gestión de almacenes (WMS), para que los clientes de WMS también puedan disfrutar de los beneficios del servicio de visibilidad de inventario. Según el primer lanzamiento de versiones de 2022 (versión preliminar pública en marzo), el servicio de inventario admite consultas de artículos disponibles WHS y NNC. La función de reserva flexible y asignación será compatible con los clientes de WMS en el próximo lanzamiento. Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WMS](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Licencias
 

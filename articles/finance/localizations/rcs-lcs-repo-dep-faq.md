@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849742"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065686"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)
 
@@ -29,8 +29,8 @@ ms.locfileid: "8849742"
 El uso de Microsoft Dynamics Lifecycle Services (LCS) como repositorio de almacenamiento para las configuraciones de informes electrónicos (ER) se está desactivando. Esta desactivación implicará los siguientes cambios:
 
 - Las configuraciones producidas por Microsoft que se utilizan en las aplicaciones de Microsoft Dynamics 365 ya no se publicarán en la biblioteca de activos compartidos en LCS. En su lugar, se publicarán solo a través del repositorio RCS Global. Sin embargo, las configuraciones para Dynamics AX 2012 seguirán publicándose en la biblioteca de activos compartidos en LCS hasta que finalice el ciclo de vida de soporte para AX 2012.
-- La funcionalidad que permite subir configuraciones a la biblioteca de activos del proyecto en LCS desde las aplicaciones de Finance and Operations, y desde RCS, será desactivada. Sin embargo, podrá seguir utilizando el navegador en LCS para cargar configuraciones en la biblioteca de activos del proyecto. Por lo tanto, podrá seguir añadiendo configuraciones a LCS para que puedan incluirse en los paquetes de soluciones.
-- La importación de configuraciones desde LCS seguirá estando disponible y seguirá siendo compatible con las aplicaciones de Finance and Operations, y en RCS, durante algún tiempo. Sin embargo, la funcionalidad se desactivará antes o después. (La fecha exacta de desactivación se anunciará más adelante)
+- La funcionalidad que permite subir configuraciones a la biblioteca de activos del proyecto en LCS desde las aplicaciones de finanzas y operaciones, y desde RCS, será desactivada. Sin embargo, podrá seguir utilizando el navegador en LCS para cargar configuraciones en la biblioteca de activos del proyecto. Por lo tanto, podrá seguir añadiendo configuraciones a LCS para que puedan incluirse en los paquetes de soluciones.
+- La importación de configuraciones desde LCS seguirá estando disponible y seguirá siendo compatible con las aplicaciones de finanzas y operaciones, y en RCS, durante algún tiempo. Sin embargo, la funcionalidad se desactivará antes o después. (La fecha exacta de desactivación se anunciará más adelante)
 
 ## <a name="deprecation-notice"></a>Aviso de desactivación
 
@@ -73,7 +73,7 @@ Utilice el repositorio de globalización para los siguientes propósitos:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>¿Significa este cambio que LCS no puede utilizarse como almacén central de configuraciones?
 
-Sí. La funcionalidad que permite subir configuraciones a la biblioteca de activos del proyecto en LCS desde las aplicaciones de Finance and Operations se desactivará. Sin embargo, puede seguir utilizando el navegador en LCS para cargar configuraciones en la biblioteca de activos del proyecto según sus necesidades.
+Sí. La funcionalidad que permite subir configuraciones a la biblioteca de activos del proyecto en LCS desde las aplicaciones de finanzas y operaciones se desactivará. Sin embargo, puede seguir utilizando el navegador en LCS para cargar configuraciones en la biblioteca de activos del proyecto según sus necesidades.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Pensé que RCS era un repositorio de reemplazo para importar archivos de plantillas globales. No pensé que se utilizara para almacenar configuraciones. ¿Cuál es la correcta?
 
@@ -81,7 +81,7 @@ RCS es un servicio de diseño para crear y editar configuraciones de ER. RCS tie
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Sin LCS, ¿cuál es la forma sugerida de almacenar las configuraciones para poder gestionar y transferir fácilmente las configuraciones de "prueba" y "producción"?
 
-RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada forma una conexión entre RCS y cualquier instancia de las aplicaciones de Finance and Operations. Dado que RCS puede utilizarse para editar configuraciones, la aplicación conectada puede utilizarse para enviar las configuraciones directamente desde el diseñador a los entornos de aplicaciones de Finance and Operations. Por lo tanto, puede cambiar y probar rápidamente sus configuraciones en lugar de tener que pasar por el almacenamiento a nivel de proyecto de LCS.
+RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada forma una conexión entre RCS y cualquier instancia de las aplicaciones de finanzas y operaciones. Dado que RCS puede utilizarse para editar configuraciones, la aplicación conectada puede utilizarse para enviar las configuraciones directamente desde el diseñador a los entornos de aplicaciones de finanzas y operaciones. Por lo tanto, puede cambiar y probar rápidamente sus configuraciones en lugar de tener que pasar por el almacenamiento a nivel de proyecto de LCS.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>¿Hay algún ejemplo que muestre la configuración y la gestión?
 

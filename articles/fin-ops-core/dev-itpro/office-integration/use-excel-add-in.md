@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862166"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108613"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Ver y actualizar datos de entidad con Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862166"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Este artículo explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de Finance and Operations.
+Este artículo explica cómo abrir los datos de entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Excel de Microsoft Dynamics. Para abrir los datos de entidad, puede comenzar desde Excel o las aplicaciones de finanzas y operaciones.
 
 Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma rápida y sencilla mediante el complemento de Excel. Este complemento necesita Microsoft Excel 2016 o posterior.
 
@@ -40,15 +40,15 @@ Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma
 
 Para obtener más información sobre el uso del complemento de Excel, vea el breve vídeo [Crear una plantilla de Excel para patrones de encabezado y línea](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir los datos de entidad en Excel en el inicio desde una aplicación de Finance and Operations
-1. En una página de aplicación de Finanzas y operaciones, seleccione **Abrir en Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir los datos de entidad en Excel en el inicio desde una aplicación de finanzas y operaciones
+1. En una página de aplicación de finanzas y operaciones, seleccione **Abrir en Microsoft Office**.
 
     Si el origen de datos raíz (tabla) de la página es el mismo que el origen de datos raíz de cualquier entidad, se generan las opciones **Abrir en Excel** predeterminadas en la página. Las opciones **Abrir en Excel** se pueden encontrar en las páginas utilizadas con frecuencia como, por ejemplo, **Todos los proveedores** y **Todos los clientes**.
  
 2. Seleccione la opción **Abrir en Excel** y abra el libro que se ha generado. Este libro contiene información vinculante para la entidad, un puntero para su entorno y un puntero para el complemento de Excel.
 3. En Excel, seleccione **Habilitar edición** para habilitar el complemento de Excel que desee ejecutar. El complemento de Excel se ejecuta en un panel a la derecha de la ventana de Excel.
 4. Si ejecuta el complemento de Excel por primera vez, seleccione **Confiar en este complemento**.
-5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de Finance and Operations. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
+5. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para la aplicación de finanzas y operaciones. El complemento de Excel utilizará el contexto de un inicio de sesión anterior desde el explorador e iniciará su sesión automáticamente, si es posible. (Para obtener información sobre el explorador que se utiliza en función del sistema operativo, consulte [Exploradores utilizados por los complementos de Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Para asegurarse de que el inicio de sesión se ha realizado correctamente, compruebe el nombre de usuario en la esquina superior derecha del complemento de Excel. 
 
 El complemento de Excel lee automáticamente los datos de la entidad que ha seleccionado. Tenga en cuenta que no habrá datos en el libro hasta que el complemento de Excel lo haya leído.
 
@@ -57,7 +57,7 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 2. En la Tienda Office, busque con la palabra clave **Dynamics** y luego seleccione **Agregar** junto al **Complemento de Microsoft Dynamics Office** (el complemento de Excel).
 3. Si ejecuta el complemento de Excel por primera vez, seleccione **Confiar en este complemento** para permitir la ejecución del complemento de Excel. El complemento de Excel se ejecuta en un panel a la derecha de la ventana de Excel.
 4. Seleccione **Agregar información de servidor** para abrir el panel **Opciones**.
-5. En el explorador, copie la URL del explorador de su instancia de aplicación de Finance and Operations de destino, péguela en el campo **URL de servidor** y borre todo lo que sigue al nombre del host. La dirección URL resultante debe tener solo el nombre de host.
+5. En el explorador, copie la URL del explorador de su instancia de aplicación de finanzas y operaciones de destino, péguela en el campo **URL de servidor** y borre todo lo que sigue al nombre del host. La dirección URL resultante debe tener solo el nombre de host.
 
     Por ejemplo, si la URL es `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, elimine todo excepto `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ El complemento de Excel lee automáticamente los datos de la entidad que ha sele
 Una vez que el complemento de Excel lea los datos de la entidad en el libro, puede actualizar los datos en cualquier momento seleccionando **Actualizar** en el complemento de Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Editar datos de la entidad en Excel
-Puede cambiar los datos de entidad de la forma necesaria y después publicarlos en las aplicaciones de Finance and Operations seleccionando **Publicar** en el complemento de Excel. Para editar un registro, seleccione una celda en la hoja de cálculo y, a continuación, modifique el valor de la celda. Para agregar un nuevo registro, siga uno de estos pasos:
+Puede cambiar los datos de entidad de la forma necesaria y después publicarlos en las aplicaciones de finanzas y operaciones seleccionando **Publicar** en el complemento de Excel. Para editar un registro, seleccione una celda en la hoja de cálculo y, a continuación, modifique el valor de la celda. Para agregar un nuevo registro, siga uno de estos pasos:
 
 - Haga clic en cualquier lugar de la tabla de orígenes de datos y, a continuación, seleccione **Nuevo** en el complemento de Excel.
 - Haga clic en cualquier parte de la última fila de la tabla de orígenes de datos y pulse el tabulador hasta que el cursor salga de la última columna de dicha fila y se cree una nueva fila.
@@ -146,3 +146,4 @@ Existen problemas que se pueden resolver con unos sencillos pasos.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

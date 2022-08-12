@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065880"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importar ASN entrantes a través de la entidad de datos V3
 
@@ -29,7 +29,7 @@ Los ASN pueden ayudar a los trabajadores del almacén a saber qué llega y cuán
 En este artículo se presenta una colección de escenarios que muestran, a través de ejemplos, cómo trabajar con asrchivos ASN.
 
 > [!IMPORTANT]
-> La importación *ASN entrante* se aplica solo a los artículos que están habilitados para la gestión avanzada de almacenes (WMS). Antes de recibir un ASN, se debe registrar una orden de compra en el sistema contra el proveedor que envía ese ASN.
+> La importación *ASN entrante* se aplica solo a los artículos que están habilitados para procesos de gestión de almacenes (WMS). Antes de recibir un ASN, se debe registrar una orden de compra en el sistema contra el proveedor que envía ese ASN.
 
 ## <a name="inbound-asn-v3-entity"></a>Entidad entrante ASN V3
 

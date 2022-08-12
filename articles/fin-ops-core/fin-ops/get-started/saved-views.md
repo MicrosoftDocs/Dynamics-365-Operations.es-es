@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845424"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125162"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -215,7 +215,7 @@ Para obtener una lista de los problemas conocidos con las vistas guardadas, cons
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>¿Cómo habilito las vistas guardadas en mi entorno?
 
 > [!NOTE]
-> La característica **Vistas guardadas** requiere que el sistema de personalización de Finance and Operations esté habilitado. Si la personalización se desactiva para todo el entorno, las vistas se deshabilitarán incluso si sigue los pasos siguientes. 
+> La característica **Vistas guardadas** requiere que el sistema de personalización de aplicaciones de finanzas y operaciones esté habilitado. Si la personalización se desactiva para todo el entorno, las vistas se deshabilitarán incluso si sigue los pasos siguientes. 
 
 Puede activar y desactivar la función **Vistas guardadas** a través de la gestión de funciones en cualquier entorno. Una vez activada, las vistas guardadas se habilitarán en todas las sesiones de usuario posteriores.
 
@@ -255,3 +255,4 @@ Si publica una vista en una entidad jurídica específica pero no la publica com
 - **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas. Este comportamiento se produce porque la función permite que las vistas (incluidas las vistas personales) se vinculen a entidades jurídicas específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

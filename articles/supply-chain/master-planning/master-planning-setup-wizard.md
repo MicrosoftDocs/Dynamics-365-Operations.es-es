@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53dfd02ac2f42fd680eb71509dbd41214160f19
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875344"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066030"
 ---
 # <a name="master-planning-setup-wizard"></a>Asistencia de configuración de planificación maestra
 
@@ -31,7 +31,7 @@ Este artículo proporciona una guía para **Asistente de configuración de plani
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-El vídeo [Asistencia de configuración de planificación maestra en Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
+El vídeo [Asistencia de configuración de planificación maestra en Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (aparece más arriba) está incluido en la [Lista de reproducción de finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Requisitos específicos de la empresa

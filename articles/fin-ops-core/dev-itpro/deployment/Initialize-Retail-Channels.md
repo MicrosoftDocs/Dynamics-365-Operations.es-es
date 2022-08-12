@@ -1,22 +1,22 @@
 ---
 title: Inicializar Commerce Scale Unit (nube)
 description: Este artículo explica cómo inicializar Commerce Scale Unit (nube) en Microsoft Dynamics 365 Commerce.
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942863"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183375"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inicializar Commerce Scale Unit (nube)
 
@@ -51,30 +51,30 @@ Commerce Scale Unit está disponible para su implementación en las siguientes r
 
 | Ubicación mundial | Región              | Disponibilidad        | Comentarios                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| AMÉRICAS        | Este de EE. UU.             | Disponibilidad general |                           |
-| AMÉRICAS        | Este de EE. UU. 2           | Disponibilidad general |                           |
-| AMÉRICAS        | Centro y norte de EE. UU.    | Capacidad limitada    |                           |
-| AMÉRICAS        | Centro y sur de EE. UU.    | Capacidad limitada    |                           |
-| AMÉRICAS        | Centro de EE. UU.          | Disponibilidad general |                           |
-| AMÉRICAS        | Oeste de EE. UU.             | Disponibilidad general |                           |
-| AMÉRICAS        | Oeste de EE. UU. 2           | Disponibilidad general |                           |
-| AMÉRICAS        | Canadá central      | Capacidad limitada    |                           |
-| AMÉRICAS        | Este de Canadá         | Capacidad limitada    |                           |
-| AMÉRICAS        | Centro y oeste de EE. UU.     | Capacidad limitada    |                           |
-| APAC            | Este de Australia      | Disponibilidad general |                           |
-| APAC            | Sudeste Asiático      | Capacidad restringida | No se permiten despliegues    |
-| APAC            | Este de Japón          | Disponibilidad general |                           |
-| APAC            | Oeste de Japón          | Disponibilidad general |                           |
-| APAC            | Sudeste de Australia | Disponibilidad general |                           |
-| APAC            | Este de Asia           | Capacidad limitada    |                           |
-| APAC            | Sur de la india         | Capacidad restringida | No se permiten despliegues    |
-| APAC            | Centro de la India       | Capacidad limitada    | Requiere proceso de aprobación |
-| EMEA            | Europa Occidental         | Disponibilidad general |                           |
-| EMEA            | Norte de Europa        | Disponibilidad general |                           |
-| EMEA            | Sur del Reino Unido            | Capacidad limitada    |                           |
-| EMEA            | Oeste del Reino Unido             | Capacidad limitada    |                           |
-| Suiza     | Norte de Suiza   | Capacidad limitada    | Requiere proceso de aprobación |
-| Emiratos Árabes Unidos             | Norte de Emiratos Árabes Unidos           | Capacidad limitada    | Requiere proceso de aprobación |
+| AMÉRICAS        | Este de EE. UU.             | Disponibilidad general |  Ningún comentario.                         |
+| AMÉRICAS        | Este de EE. UU. 2           | Disponibilidad general |  Ningún comentario.                          |
+| AMÉRICAS        | Centro y norte de EE. UU.    | Capacidad limitada    |  Ningún comentario.                            |
+| AMÉRICAS        | Centro y sur de EE. UU.    | Capacidad limitada    |  Ningún comentario.                            |
+| AMÉRICAS        | Centro de EE. UU.          | Disponibilidad general |  Ningún comentario.                            |
+| AMÉRICAS        | Oeste de EE. UU.             | Disponibilidad general |  Ningún comentario.                            |
+| AMÉRICAS        | Oeste de EE. UU. 2           | Disponibilidad general |  Ningún comentario.                            |
+| AMÉRICAS        | Canadá central      | Capacidad limitada    |  Ningún comentario.                            |
+| AMÉRICAS        | Este de Canadá         | Capacidad limitada    |   Ningún comentario.                           |
+| AMÉRICAS        | Centro y oeste de EE. UU.     | Capacidad limitada    |   Ningún comentario.                           |
+| APAC            | Este de Australia      | Disponibilidad general |   Ningún comentario.                           |
+| APAC            | Sudeste Asiático      | Capacidad restringida | No se permiten despliegues.    |
+| APAC            | Este de Japón          | Disponibilidad general |  Ningún comentario.                            |
+| APAC            | Oeste de Japón          | Disponibilidad general |   Ningún comentario.                           |
+| APAC            | Sudeste de Australia | Disponibilidad general |   Ningún comentario.                           |
+| APAC            | Este de Asia           | Capacidad limitada    |   Ningún comentario.                           |
+| APAC            | Sur de la india         | Capacidad restringida | No se permiten despliegues.    |
+| APAC            | Centro de la India       | Capacidad limitada    | Requiere proceso de aprobación. |
+| EMEA            | Europa Occidental         | Capacidad limitada    | No disponible en LCS en este momento. |
+| EMEA            | Norte de Europa        | Capacidad limitada    | No disponible en LCS en este momento. |
+| EMEA            | Sur del Reino Unido            | Disponibilidad general |    Ningún comentario.                          |
+| EMEA            | Oeste del Reino Unido             | Disponibilidad general |    Ningún comentario.                          |
+| Suiza     | Norte de Suiza   | Capacidad limitada    | Requiere proceso de aprobación. |
+| Emiratos Árabes Unidos             | Norte de Emiratos Árabes Unidos           | Capacidad limitada    | Requiere proceso de aprobación. |
 
 La capacidad de implementación en las regiones de capacidad limitada está extremadamente restringida. Las solicitudes de implementación se evalúan caso por caso. Si tiene una necesidad comercial apremiante para la implementación en regiones con capacidad limitada, puede presentar una solicitud de soporte para agregarlo a la lista de espera. Actualmente, las áreas con capacidad restringida no permiten la implementación de Commerce Scale Unit en este momento. 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ed2baff1851eba488233c050cef1f8f73b6bcee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890607"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067314"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Asignar iconos y títulos de paso para la aplicación móvil Warehouse Management
 
@@ -317,8 +317,8 @@ La siguiente tabla muestra cada icono de paso estándar que está disponible act
 <td><img src="media/step-icons-weight-to-consume.png" alt="Weight to consume step icon" title="Icono de paso de peso a consumir"><br>WeightToConsume</td>
 </tr>
 <tr>
-<td><img src="media/step-icons-whs-adjustment-type.png" alt="WHS adjustment type step icon" title="Icono de paso de tipo de ajuste WHS"><br>WHSAdjustmentType</td>
-<td><img src="media/step-icons-whs-receiving-exception.png" alt="WHS receiving exception step icon" title="Icono de paso de excepción de recepción WHS"><br>WHSReceivingException</td>
+<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="Icono de paso de tipo de ajuste WMS"><br>WHSAdjustmentType</td>
+<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="Icono de paso de excepción de recepción WMS"><br>WHSReceivingException</td>
 <td><img src="media/step-icons-wms-location-id.png" alt="WMS location ID step icon" title="Icono de paso de ubicación WMS"><br>WMSLocationID</td>
 <td><img src="media/step-icons-work-id.png" alt="Work ID step icon" title="Icono de paso de ID de trabajo"><br>WorkId</td>
 </tr>

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901919"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103842"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Portal del cliente para introducción de Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ La plantilla del portal del cliente tiene todas las capacidades de personalizaci
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-El vídeo de la [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (que se muestra arriba) está incluido en la [lista de reproducción de disponible en Finanzas y Operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) en YouTube.
+El vídeo de la [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (que se muestra arriba) está incluido en la [lista de reproducción de disponible en finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) en YouTube.
 
 ## <a name="who-should-use-it"></a>¿Quién debería usarlo?
 
@@ -62,7 +62,7 @@ El portal del cliente se proporciona como una plantilla de portales Power Apps. 
 
 [Portales Power Apps](/powerapps/maker/portals/overview) es una característica que permite a los usuarios crear un sitio web externo en el que las personas externas a la organización pueden iniciar sesión. Se requiere poca o ninguna codificación para crear portales. El portal del cliente es una de las muchas [Plantillas de portal de Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) que están disponibles en Microsoft.
 
-La [doble escritura](/powerapps/maker/portals/overview) es un producto listo para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacciones con los clientes y aplicaciones de Finanzas y Operaciones. La doble escritura proporciona una integración bidireccional entre aplicaciones Finanzas y Operaciones y Microsoft Dataverse. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de tablas que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las tablas apropiadas.
+La [doble escritura](/powerapps/maker/portals/overview) es un producto listo para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacciones con los clientes y aplicaciones de finanzas y operaciones. La doble escritura proporciona una integración bidireccional entre aplicaciones de finanzas y operaciones y Microsoft Dataverse. Por tanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de tablas que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las tablas apropiadas.
 
 ![Dependencias del portal del cliente.](media/customer-portal-elements.png "Dependencias del portal del cliente")
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893247"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065970"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para la aplicación móvil Warehouse Management
 
@@ -135,7 +135,7 @@ En función de la configuración de la prioridad del campo de la aplicación de 
 -   Fila 2: descripción del artículo
 -   Fila 3: tamaño
 
-Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog sobre [Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página de tareas, pero se mostrarán en una página de detalles. Para obtener más información y ver ejemplos de la interfaz de usuario, consulte el artículo del blog [Presentando Dynamics 365 Supply Chain Management - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

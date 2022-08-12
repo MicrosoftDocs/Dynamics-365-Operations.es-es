@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895826"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066682"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
@@ -55,7 +55,7 @@ El complemento de visibilidad de inventario agrega varias funciones nuevas a su 
 | *OnHandMostSpecificBackgroundService* | Esta característica proporciona un resumen de inventario de productos, junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Esta característica opcional habilita las características programa de cambio de inventario disponible y neto no comprometido (NNC). Para obtener más información, consulte [Programación de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md). |
 | *Asignación* | Esta característica opcional permite que Visibilidad de inventario tenga la capacidad de protección de inventario (ringfencing) y control de sobreventa. Para más información, vea [Asignación de inventario de Inventory Visibility](inventory-visibility-allocation.md). |
-| *Habilitar artículos de almacén en Visibilidad de inventario* | Esta característica opcional permite que la visibilidad del inventario admita artículos que están habilitados para procesos de almacén avanzados (artículos WHS). Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WHS](inventory-visibility-whs-support.md). |
+| *Habilitar artículos de almacén en Visibilidad de inventario* | Esta característica opcional permite que la visibilidad del inventario admita artículos que están habilitados para procesos de gestión de almacenes (WMS). Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Buscar el punto de conexión de servicio
 
@@ -809,3 +809,4 @@ La siguiente tabla muestra la jerarquía de reservas predeterminada.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

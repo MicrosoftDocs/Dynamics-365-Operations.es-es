@@ -1,26 +1,27 @@
 ---
 title: Definiciones de columna en los informes financieros
 description: Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe que define el contenido de las columnas de un informe.
-author: ShylaThompson
+author: aprilolson
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 106601
-ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 199dceb91195a3488dd269786a8cd59811d8d828db686c3636e3d6320c77bbeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "106601"
+ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.search.form: FinancialReports
+ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729104"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206394"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 

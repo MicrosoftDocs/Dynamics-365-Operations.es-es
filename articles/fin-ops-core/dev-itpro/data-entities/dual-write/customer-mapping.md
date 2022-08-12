@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890467"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111736"
 ---
 # <a name="integrated-customer-master"></a>Maestro de clientes integrado
 
@@ -30,9 +30,9 @@ Los datos del cliente se pueden dominar en más de una aplicación de Dynamics 3
 
 ![Flujo de datos del cliente.](media/dual-write-customer-data-flow.png)
 
-En general, los clientes pueden clasificarse en dos tipos: clientes comerciales/organizativos y consumidores/usuarios finales. Estos dos tipos de clientes se almacenan y controlan de forma diferente en Finance and Operations y Dataverse.
+En general, los clientes pueden clasificarse en dos tipos: clientes comerciales/organizativos y consumidores/usuarios finales. Estos dos tipos de clientes se almacenan y controlan de forma diferente en finanzas y operaciones y Dataverse.
 
-En Finance and Operations, tanto los clientes comerciales/organizativos como los consumidores/usuarios finales se controlan en una sola tabla que se llama **CustTable** (CustCustomerV3Entity) y se clasifican según el atributo **Type**. (Si **Type** se establece en **Organization**, el cliente es un cliente comercial/organizativo y si **Type** se establece en **Person**, el cliente es consumidor/usuario final). La información de la persona de contacto principal se gestiona a través de la tabla SMMContactPersonEntity.
+En finanzas y operaciones, tanto los clientes comerciales/organizativos como los consumidores/usuarios finales se controlan en una sola tabla que se llama **CustTable** (CustCustomerV3Entity) y se clasifican según el atributo **Type**. (Si **Type** se establece en **Organization**, el cliente es un cliente comercial/organizativo y si **Type** se establece en **Person**, el cliente es consumidor/usuario final). La información de la persona de contacto principal se gestiona a través de la tabla SMMContactPersonEntity.
 
 En Dataverse, los clientes comerciales/organizativos se controlan en la tabla de cuenta y se identifican como clientes cuando el atributo **RelationshipType** se establece en **Customer**. La tabla Contact representa tanto a consumidores/usuarios finales como la persona de contacto. Para proporcionar una clara separación entre un cliente/usuario final y una persona de contacto, la tabla **Contact** tiene un indicador booleano llamado **Sellable**. Si **Sellable** es **True**, el contacto es un consumidor/usuario final y se pueden crear citas y pedidos para dicho contacto. Si **Sellable** es **False**, el contacto es solo una persona de contacto principal de un cliente.
 
@@ -42,7 +42,7 @@ Cuando un contacto no sellable participa en un presupuesto o un proceso de pedid
 
 Los datos del cliente incluyen toda la información sobre el cliente, como el grupo de clientes, las direcciones, la información de contacto, el perfil de pago, el perfil de factura y el estado de fidelidad. Una colección de asignaciones de tabla funciona conjuntamente durante la interacción de los datos del cliente, como se muestra en la tabla siguiente.
 
-Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement         | Descripción
+Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement         | Descripción
 ----------------------------|---------------------------------|------------
 [Contactos V2 de CDS](mapping-reference.md#115) | contactos | Esta plantilla sincroniza toda la información de contacto principal, secundaria, y terciaria, para clientes y proveedores.
 [Grupos de clientes](mapping-reference.md#126) | msdyn_customergroups | Esta plantilla sincroniza la información del grupo de clientes.
@@ -57,3 +57,4 @@ Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement       
 [Condiciones de pago](mapping-reference.md#161) | msdyn_paymentterms | Esta plantilla sincroniza los datos de referencia de las los términos de pago (términos de pago), para clientes y proveedores.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

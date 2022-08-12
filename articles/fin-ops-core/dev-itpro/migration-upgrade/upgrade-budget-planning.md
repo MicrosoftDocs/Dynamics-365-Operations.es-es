@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890417"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124040"
 ---
 # <a name="upgrade-budget-planning"></a>Actualización de la planificación presupuestaria
 
@@ -30,7 +30,7 @@ Existen diferencias significativas en el plan presupuestario entre Microsoft Dyn
 El plan presupuestario de Finance tiene muchos mejoras que no estaban disponibles en Dynamics AX 2012. Este artículo explica los cambios que los clientes que realizan una actualización deben llevar a cabo. También indica las nuevas características que se deben tener en cuenta durante el proceso de actualización. Debido a la extensión de los cambios, no se podrá abrir ningún plan de presupuesto existente hasta que no se hayan llevado a cabo los cambios descritos en este artículo. Sin embargo, en principio los informes deben seguir funcionando y no se requerirá efectuar ningún cambio adicional.
 
 ## <a name="overview-of-changes"></a>Visión general de los cambios
-Se han introducido muchos cambios importantes en la gestión presupuestaria de Finance and Operations. Estos cambios tienen por objeto facilitar la configuración de la planificación presupuestaria y hacer que sea más reutilizable, a fin de reducir el mantenimiento y la configuración año tras año. Las siguientes áreas de AX 2012 ya no existen en Finance:
+Se han introducido muchos cambios importantes en la gestión presupuestaria de finanzas y operaciones. Estos cambios tienen por objeto facilitar la configuración de la planificación presupuestaria y hacer que sea más reutilizable, a fin de reducir el mantenimiento y la configuración año tras año. Las siguientes áreas de AX 2012 ya no existen en Finance:
 
 -   Plantillas del plan presupuestario (configuración de la planificación presupuestaria)
 -   Carpetas del plan presupuestario (configuración de la planificación presupuestaria)
@@ -47,7 +47,7 @@ Las columnas son un nuevo concepto que reemplazan a partes de la plantilla de Ex
 
 ### <a name="layouts"></a>Diseños
 
-Los diseños son un nuevo concepto que reemplaza a la plantilla de Excel. Los diseños contienen las columnas que definen qué datos de valores reales o del presupuesto y qué períodos se deben mostrar. Los diseños también se comparten entre el cliente y el complemento de Excel. Por lo tanto, la experiencia de usuario cuando especifica o ve datos en el cliente de Finance and Operations es mejor que la experiencia de usuario en AX 2012. Para especificar datos en un cliente de Finance, ya no tiene que limitarse a ver un solo escenario y entrar en él en una vista de la transacción. En su lugar, una vista de comparación le permite ver y especificar fácilmente los importes de varios períodos y cuentas al mismo tiempo. Los diseños también pueden definirse de modo que pueda especificar y ver divisas, comentarios y otros datos opcionales. Los diseños también le permiten definir las dimensiones contables y las descripciones de la dimensión que se deben mostrar. Los diseños también integran restricciones de escenario para definir qué columnas de una plantilla se pueden editar y qué columnas deben estar disponibles en Excel. Tras definir un diseño, se genera una plantilla para él. Esta plantilla, a su vez, crea la plantilla de Excel correspondiente. Puede editar la plantilla de Excel para que integre más fórmulas y formato y, a continuación puede cargarla de nuevo. Los diseños se asignan a continuación a cada regla de la etapa en la página **Proceso de planificación presupuestaria**. Por lo tanto, los diseños substituyen a las plantillas, que se asignaban y usaban de la misma manera.
+Los diseños son un nuevo concepto que reemplaza a la plantilla de Excel. Los diseños contienen las columnas que definen qué datos de valores reales o del presupuesto y qué períodos se deben mostrar. Los diseños también se comparten entre el cliente y el complemento de Excel. Por lo tanto, la experiencia de usuario cuando especifica o ve datos en el cliente de finanzas y operaciones es mejor que la experiencia de usuario en AX 2012. Para especificar datos en un cliente de Finance, ya no tiene que limitarse a ver un solo escenario y entrar en él en una vista de la transacción. En su lugar, una vista de comparación le permite ver y especificar fácilmente los importes de varios períodos y cuentas al mismo tiempo. Los diseños también pueden definirse de modo que pueda especificar y ver divisas, comentarios y otros datos opcionales. Los diseños también le permiten definir las dimensiones contables y las descripciones de la dimensión que se deben mostrar. Los diseños también integran restricciones de escenario para definir qué columnas de una plantilla se pueden editar y qué columnas deben estar disponibles en Excel. Tras definir un diseño, se genera una plantilla para él. Esta plantilla, a su vez, crea la plantilla de Excel correspondiente. Puede editar la plantilla de Excel para que integre más fórmulas y formato y, a continuación puede cargarla de nuevo. Los diseños se asignan a continuación a cada regla de la etapa en la página **Proceso de planificación presupuestaria**. Por lo tanto, los diseños substituyen a las plantillas, que se asignaban y usaban de la misma manera.
 
 ### <a name="budget-planning-processes"></a>Procesos de planificación presupuestaria
 
@@ -69,7 +69,7 @@ Para ayudarlo a determinar cómo configurar el sistema actualizado, el siguiente
    -   Situaciones del plan presupuestario: reales, línea base, solicitud de presupuesto, presupuesto aprobado
    -   Líneas del plan presupuestario para todas las situaciones en 2017, y valores reales para 2017 y 2016
 
-   Se crearán las columnas siguientes en Finance and Operations:
+   Se crearán las columnas siguientes en finanzas y operaciones:
 
    | Nombre columna    | Situación del plan presupuestario | Período de tiempo de columna | Contrapartida anual |
    |----------------|----------------------|--------------------|-------------|
