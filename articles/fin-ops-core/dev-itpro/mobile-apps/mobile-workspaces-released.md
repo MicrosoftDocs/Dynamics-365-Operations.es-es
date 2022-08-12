@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c9b97d02532b05aac2b02851f1b7b705a047726
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868651"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068147"
 ---
 # <a name="available-mobile-workspaces"></a>Espacios de trabajo móviles disponibles
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Este artículo indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil Finanzas y Operaciones (Dynamics 365). La siguiente tabla indica el plan de desuso para cada uno de estos espacios de trabajo móviles en términos de si se planea o no una experiencia de reemplazo.  
+Este artículo indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil de finanzas y operaciones (Dynamics 365). La siguiente tabla indica el plan de desuso para cada uno de estos espacios de trabajo móviles en términos de si se planea o no una experiencia de reemplazo.  
 
 
 | Espacio de trabajo móvil     | Description   | Plan de depreciación   |
@@ -43,3 +43,4 @@ Este artículo indica los espacios de trabajo móviles que se están disponibles
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

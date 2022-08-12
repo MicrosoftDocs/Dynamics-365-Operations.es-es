@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867340"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103532"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Ejecutar scripts X++ personalizados sin tiempo de inactividad
 
@@ -120,7 +120,7 @@ La siguiente lista describe algunas de las mejores prácticas para escribir, imp
 
 Utilice el siguiente procedimiento para cargar y ejecutar un script.
 
-1. En su aplicación de Finanzas y operaciones, vaya a **Administracion del sistema \> Tareas periódicas \> Base de datos \> Guiones personalizados**.
+1. En su aplicación de finanzas y operaciones, vaya a **Administración del sistema \> Tareas periódicas \> Base de datos \> Guiones personalizados**.
 1. Seleccione **Cargar**.
 1. Seleccione el paquete desplegable que creó como se describe anteriormente en este artículo. Se le pedirá que especifique el propósito del script.
 1. El script ahora debe ser aprobado por un usuario que no sea el usuario que lo cargó. El aprobador debe seguir estos pasos:
@@ -149,6 +149,7 @@ Su selección en el último paso define el estado final del script. Puedes repet
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Cargue y ejecute un paquete desplegable a través de LCS
 
-En lugar de implementar su paquete implementable a través de la interfaz de usuario de su aplicación Finanzas y operaciones, como se describe en la sección anterior, puede cargarlo en LCS y usar el procedimiento normal para implementarlo. Para más información, vea [Instalar paquetes implementables desde la línea de comandos](../deployment/install-deployable-package.md).
+En lugar de implementar su paquete implementable a través de la interfaz de usuario de su aplicación de finanzas y operaciones, como se describe en la sección anterior, puede cargarlo en LCS y usar el procedimiento normal para implementarlo. Para más información, vea [Instalar paquetes implementables desde la línea de comandos](../deployment/install-deployable-package.md).
 
 Aunque este enfoque tiene menos restricciones, proporciona menos protección contra errores. Además, debido a que requiere un reinicio de todos los servidores, provocará cierto tiempo de inactividad.
+

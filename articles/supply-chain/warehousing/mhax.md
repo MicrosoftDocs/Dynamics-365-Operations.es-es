@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907098"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068371"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaz de equipo de gestión de material (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-Puede usar la *interfaz del equipo de manipulación de materiales* (MHAX) para conectar sistemas externos de manipulación de materiales físicos (MH) a un almacén gestionado por la gestión avanzada de almacenes (WMS) en Microsoft Dynamics 365 Supply Chain Management. La interfaz entre los sistemas WMS y MH consta de dos colas: una para eventos salientes (WMS a MH) y otra para eventos entrantes (MH a WMS). El sistema WMS genera eventos de salida basados en líneas de trabajo que se crean durante varios procesos de creación y ejecución de trabajos. El sistema MH luego sondea periódicamente el sistema WMS en busca de nuevos eventos y procesa las respuestas. Una vez que el sistema MH ha terminado de manejar los eventos de acuerdo con las instrucciones de trabajo, envía eventos entrantes, como la finalización de la línea de trabajo y el picking corto.
+Puede usar la *interfaz del equipo de manipulación de materiales* (MHAX) para conectar sistemas externos de manipulación de materiales físicos (MH) a un almacén gestionado por procesos de gestión de almacenes (WMS) en Microsoft Dynamics 365 Supply Chain Management. La interfaz entre los sistemas WMS y MH consta de dos colas: una para eventos salientes (WMS a MH) y otra para eventos entrantes (MH a WMS). El sistema WMS genera eventos de salida basados en líneas de trabajo que se crean durante varios procesos de creación y ejecución de trabajos. El sistema MH luego sondea periódicamente el sistema WMS en busca de nuevos eventos y procesa las respuestas. Una vez que el sistema MH ha terminado de manejar los eventos de acuerdo con las instrucciones de trabajo, envía eventos entrantes, como la finalización de la línea de trabajo y el picking corto.
 
 La siguiente ilustración muestra los diversos elementos y el orden en que ocurren los procesos cuando usa la integración MHAX.
 

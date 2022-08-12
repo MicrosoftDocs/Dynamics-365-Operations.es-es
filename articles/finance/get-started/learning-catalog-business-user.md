@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2c7b1faac6af3356e4621d932031e798413b6563
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889911"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069296"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catálogo de aprendizaje para usuarios de Dynamics 365 Finance
 
@@ -31,16 +31,16 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 |---------|-------------|--------|--------|
 | [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? ¿Quizás no sabe por dónde empezar con las aplicaciones de Microsoft Dynamics 365 y Power Platform? Aprenda cómo el poder de las aplicaciones comerciales puede ayudarle a transformar su negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 8 horas |
 | [Aspectos básicos de Dynamics 365 y Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas   |
-| [Introducción a las aplicaciones de Finance and Operations](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de Finance and Operations respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas.   Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
+| [Introducción a las aplicaciones de finanzas y operaciones](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de finanzas y operaciones respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas.   Como paso inicial en su trayectoria de trabajo con aplicaciones de finanzas y operaciones, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Con Dynamics 365 Intelligent Order Management, los clientes pueden gestionar la orquestación de los pedidos hasta el proceso de entrega. Estas capacidades permiten a las organizaciones orquestar los flujos de pedidos a través de diferentes plataformas y aplicaciones. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 30 minutos |
 | [Curso MB-900T01-A: aspectos fundamentales de Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | En este curso, el alumno se familiarizará con la funcionalidad de y el valor de negocio de Dynamics 365. El curso tratará de las aplicaciones de Dynamics 365, Power Platform, los conceptos de la nube, el modelo de seguridad y consideraciones sobre licencias. | Formación con presencial con instructor o en línea; el coste varía según región y socio | 1 día |
 
 ## <a name="core-platform-knowledge"></a>Conocimiento sobre la plataforma central<a name="core-platform-knowledge"></a>
 
-| Contenido | Descripción | Formato | Longitud |
+| Contenido | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Configurar una organización en aplicaciones de Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | Como consultor funcional que trabaja con aplicaciones de Finance and Operations, debe comprender cómo configurar una organización para el cliente. Esta ruta de aprendizaje le indica, entre otras cosas, cómo configurar las entidades jurídicas, implementar la configuración de seguridad, personalizar la interfaz de usuario para los usuarios, diseñar y compilar aplicaciones móviles e implementar integraciones comunes. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 12 horas  |
-| [Configurar y trabajar con análisis e informes en aplicaciones de Finance and Operations](/learn/paths/configure-analytics-reporting-finance-operations/) | Los responsables de la empresa pueden tomar decisiones importantes en la empresa si tienen detalles precisos sobre los datos financieros y operativos subyacentes. Un usuario comercial también puede configurar y usar la herramienta de informes electrónicos sin una sola línea de código, para adoptar nuevos requisitos reglamentarios y generar documentos comerciales en el formato requerido para intercambiar electrónicamente información con organismos gubernamentales, bancos y otras partes. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 4 horas   |
+| [Configurar una organización en aplicaciones de finanzas y operaciones](/learn/paths/configure-your-organization-finance-ops/) | Como consultor funcional que trabaja con aplicaciones de finanzas y operaciones, debe comprender cómo configurar una organización para el cliente. Esta ruta de aprendizaje le indica, entre otras cosas, cómo configurar las entidades jurídicas, implementar la configuración de seguridad, personalizar la interfaz de usuario para los usuarios, diseñar y compilar aplicaciones móviles e implementar integraciones comunes. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 12 horas  |
+| [Configurar y trabajar con análisis e informes en aplicaciones de finanzas y operaciones](/learn/paths/configure-analytics-reporting-finance-operations/) | Los responsables de la empresa pueden tomar decisiones importantes en la empresa si tienen detalles precisos sobre los datos financieros y operativos subyacentes. Un usuario comercial también puede configurar y usar la herramienta de informes electrónicos sin una sola línea de código, para adoptar nuevos requisitos reglamentarios y generar documentos comerciales en el formato requerido para intercambiar electrónicamente información con organismos gubernamentales, bancos y otras partes. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 4 horas   |
 
 ## <a name="financial-management"></a>Administración financiera<a name="financial-management"></a>
 

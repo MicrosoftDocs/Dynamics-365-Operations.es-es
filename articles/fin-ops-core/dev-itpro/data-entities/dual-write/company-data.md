@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873189"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205948"
 ---
 # <a name="company-concept-in-dataverse"></a>Concepto de empresa en Dataverse
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873189"
 
 
 
-En Finance and Operations, el concepto *empresa* es una interpretación legal y una interpretación empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
+En finanzas y operaciones, el concepto *empresa* es una construcción legal y una construcción empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
 
 Dataverse no tiene un concepto equivalente. El concepto más cercano es *unidad de negocio*, que es un límite principalmente de seguridad y de visibilidad para los datos de usuario. Este concepto no tiene las mismas implicaciones legales o empresariales que el concepto de empresa.
 
 Dado que la unidad de negocio y la empresa no son conceptos equivalentes, no es posible forzar una asignación uno a uno (1: 1) entre ellos para el propósito de la integración de Dataverse. Sin embargo, dado que los usuarios deben, de forma predeterminada, poder ver las mismas filas en la aplicación y Dataverse, Microsoft ha introducido una nueva tabla en Dataverse que se denomina cdm\_Company. Esta tabla es equivalente a la tabla de empresa en la aplicación. Para ayudar a garantizar que la visibilidad de filas es equivalente entre la aplicación y Dataverse de forma inmediata, se recomienda la siguiente configuración para los datos en Dataverse:
 
-+ Para cada fila de empresa de Finance and Operations que se habilite para escritura dual, se creará una fila cdm\_Company asociado.
-+ Cuando se crea una fila cdm\_Company y se habilita para escritura dual, se crea una unidad de negocio predeterminada con el mismo nombre. Aunque se crea automáticamente un equipo predeterminado para esa unidad de negocio, la unidad de negocio no se utiliza.
-+ Se crea un equipo independiente del propietario con el mismo nombre. También está asociado con la unidad de negocio.
++ Para cada fila de empresa de finanzas y operaciones que se habilite para escritura dual, se creará una fila cdm\_Company asociado.
+
++ Cuando se crea una fila cdm\_Company y se habilita para escritura dual, se crea una unidad de negocio predeterminada con el mismo nombre. Aunque se crea automáticamente un equipo propietario predeterminado para esa unidad de negocio, la unidad de negocio no se utiliza.
++ Se crea un equipo independiente del propietario con el mismo nombre con sufijo de doble escritura. También está asociado con la unidad de negocio.
+
 + De forma predeterminada, el propietario de cualquier fila que se crea y se escribe de forma dual en Dataverse se establece en el equipo "propietario de DW" vinculado a la unidad de negocio asociada.
 
 En la siguiente ilustración se muestra un ejemplo de esta configuración de datos en Dataverse.
@@ -43,7 +45,7 @@ Debido a esta configuración, cualquier fila relacionada con la empresa USMF ser
 + La función de “director de ventas” se asigna a los miembros del equipo de “ventas de USMF”.
 + Los usuarios con el rol “director de ventas” pueden tener acceso a cualquier fila de la cuenta que sea miembro de la misma unidad de negocio.
 + El equipo de “ventas de USMF" está vinculado a la unidad de negocio de USMF antes mencionada.
-+ Por lo tanto, los miembros del equipo de "ventas de USMF" pueden ver cualquier cuenta que sea propiedad del usuario de "USMF DW", que habría llegado de la tabla de la empresa USMF en Finance and Operations.
++ Por lo tanto, los miembros del equipo de "ventas de USMF" pueden ver cualquier cuenta que sea propiedad del usuario de "USMF DW", que habría llegado de la tabla de la empresa USMF en finanzas y operaciones.
 
 ![Cómo se pueden usar los equipos.](media/dual-write-company-2.png)
 

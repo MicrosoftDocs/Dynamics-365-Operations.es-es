@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722252"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178455"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Se aplica a:** Recursos humanos en la infraestructura independiente_ 
 
+> [!NOTE]
+> A partir de julio de 2022, los nuevos entornos de Human Resources no se pueden aprovisionar en la infraestructura de Human Resources independiente y los nuevos proyectos de Microsoft Dynamics Lifecycle Services (LCS) no se pueden crear en ella. Los clientes pueden desplegar entornos de Human Resources en la infraestructura de finanzas y operaciones. Para más información, vea [Aprovisionamiento de Human Resources en la infraestructura de finanzas y operaciones](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> El proceso de actualización y revisión en la infraestructura de la aplicación de finanzas y operaciones difiere del proceso de actualización y revisión independiente de Recursos humanos. Para obtener más información sobre el proceso de actualización, consulte [Proceso para ir a la actualización más reciente de finanzas y operaciones](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Para obtener más información sobre revisiones, consulte [Descargar actualizaciones desde Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio. Estas actualizaciones contienen cambios tanto en la aplicación como en la plataforma que a menudo proporcionan mejoras críticas para el servicio, incluidas actualizaciones regulatorias.
 
@@ -37,16 +41,14 @@ Las actualizaciones se lanzan en una cadencia regular en todos los entornos. Hum
 
 Las actualizaciones de Human Resources se aplican a todos los entornos automáticamente. Human Resources proporciona dos tipos de lanzamientos:
 
-- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para obtener más información sobre las versiones de plataforma, vea [Novedades y cambios en actualizaciones de la plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Las actualizaciones quincenales tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones quincenales, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
-
-    Todos los centros de datos compatibles se actualizan cada dos semanas, a menos que se indique lo contrario. Las regiones de EE. UU., Australia, Europa, Reino Unido, Asia y Canadá se incluyen en las actualizaciones quincenales. 
+- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para obtener más información sobre las versiones de plataforma, vea [Novedades y cambios en actualizaciones de la plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Las actualizaciones tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Actualizaciones de soluciones de Dataverse**: estas actualizaciones se producen aproximadamente cada seis semanas, según sea necesario. Incluyen nuevas entidades y cambios a entidades existentes en Dataverse. Estas actualizaciones se lanzan a las mismas regiones que las actualizaciones quincenales, y tardan aproximadamente seis semanas en replicarse en todos los centros de datos. Las actualizaciones de la solución pueden o no alinearse con las actualizaciones quincenales del servicio.
 
 > [!NOTE]
 > Las actualizaciones de la solución están disponibles en todos los centros de datos una vez que se lanzan. Si no desea esperar a que las actualizaciones se repliquen automáticamente, puede aplicarlas manualmente en cualquier entorno en cualquier centro de datos.
 
-Cuando es necesario, Human Resources también proporciona los siguientes tipos de soluciones:
+Cuando es necesario, Human Resources proporciona los siguientes tipos de soluciones:
 
 - **Revisión (hotfix)**: correcciones de errores que pueden ocurrir con o sin una versión de actualización de servicio quincenal
 
@@ -83,11 +85,11 @@ Puede averiguar qué se está trabajando para Recursos Humanos y qué hemos publ
 
 Puede validar las funciones de vista previa en un entorno de espacio aislado antes de habilitarlas en su entorno de producción. Para obtener más información acerca de la activación nuevas características, consulte [Visión general de la Administración de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Todas las características nuevas siguen en versión preliminar durante al menos 30 días como mínimo, y normalmente 30-60 días. Las características más importantes están disponibles en octubre y abril de cada año tras el periodo de prueba preliminar. En cuanto vea características nuevas en el espacio de trabajo Administración de características, puede activarlas. Algunas características pueden estar activadas de forma predeterminada.
+Todas las características nuevas siguen en versión preliminar durante al menos 30 días como mínimo, y normalmente 30-60 días. Las características más importantes están disponibles en octubre y abril de cada año tras el periodo de prueba preliminar. En cuanto vea características nuevas en el espacio de trabajo **Administración de características**, puede activarlas. Algunas características pueden estar activadas de forma predeterminada.
 
 A veces, una característica entera estará activada de forma predeterminada y no se puede desactivar (por ejemplo, el espacio de trabajo Administración de características).
 
-Cuando una característica esté disponible, se puede activar y desactivar en los entornos de producción. El espacio de trabajo Administración de características indica cuando una característica de versión preliminar pasará a ser obligatoria. Esta fecha es un el 1 de octubre o el 1 de abril para que se corresponda con los planes semestrales de publicación. No pueden desactivar características obligatorias. Hasta que llegue a ser obligatoria, se puede activar y desactivar una característica en todos los entornos.
+Cuando una característica esté disponible, se puede activar y desactivar en los entornos de producción. El espacio de trabajo **Administración de características** indica cuando una característica de versión preliminar pasará a ser obligatoria. Esta fecha es un el 1 de octubre o el 1 de abril para que se corresponda con los planes semestrales de publicación. No pueden desactivar características obligatorias. Hasta que llegue a ser obligatoria, se puede activar y desactivar una característica en todos los entornos.
 
 Recomendamos encarecidamente obtener una vista previa de las características en un entorno de prueba o espacio aislado. Es mejor crear una copia de su entorno de producción o base de datos actual en un entorno de espacio aislado para que pueda obtener la experiencia completa de las nuevas funciones con sus datos.
 

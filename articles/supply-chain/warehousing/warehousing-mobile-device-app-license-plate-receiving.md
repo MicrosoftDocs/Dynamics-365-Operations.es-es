@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907011"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069074"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recepción de matrículas de entidad de almacén mediante la aplicación móvil Warehouse Management
 
@@ -26,7 +26,7 @@ ms.locfileid: "8907011"
 
 Este artículo explica cómo configurar la aplicación móvil Warehouse Management para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 
-Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
+Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén (WMS) se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
 
 Los datos de aviso de envío por adelantado están vinculados a cargas y envíos a través de *estructuras de embalaje*, donde los pallets (matrículas principales) pueden contener cajas (matrículas anidadas).
 

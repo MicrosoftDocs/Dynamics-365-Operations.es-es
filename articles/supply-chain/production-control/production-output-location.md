@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 130db343c4d09f2b8d31bf8acad3dcceec2be32e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893305"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067953"
 ---
 # <a name="production-output-location"></a>Ubicación de salida de producción
 
@@ -36,7 +36,7 @@ Una ubicación de salida de producción predeterminada se establece cuando el pr
 3. Si no encuentra ninguna ubicación ahí, use la ubicación de salida definida en el grupo de recursos que utiliza el recurso para la última operación definida en la ruta de producción.
 4. Si no encuentra ninguna ubicación ahí, use la ubicación de salida definida en el almacén definido para el pedido de producción.
 
-Una ubicación de salida de producción predeterminada se establece únicamente para productos que se configuran mediante procesos de almacén avanzados. Cuando este tipo de artículo se notifica como finalizado, se crea el trabajo de almacén del tipo **Ubicación de bienes terminados** o **Ubicación de coproducto y producto derivado**. Este tipo de trabajo usa la ubicación de salida de producción como la ubicación de selección. La localización de ubicació viene determinada por las directivas de ubicación.
+Una ubicación de salida de producción predeterminada se establece únicamente para productos que se configuran mediante procesos de gestión de almacenes (WMS). Cuando este tipo de artículo se notifica como finalizado, se crea el trabajo de almacén del tipo **Ubicación de bienes terminados** o **Ubicación de coproducto y producto derivado**. Este tipo de trabajo usa la ubicación de salida de producción como la ubicación de selección. La localización de ubicació viene determinada por las directivas de ubicación.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

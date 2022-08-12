@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864408"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067445"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
@@ -38,7 +38,7 @@ El ciclo de planificación de recursos para una empresa consta, normalmente, de 
 
 Los procesos tanto para la planificación estratégica a largo plazo como para la planificación presupuestaria anual se admiten a través de un documento de plan presupuestario. Los documentos del plan presupuestario están estrechamente integrados con Microsoft Excel. Los usuarios pueden configurar escenarios monetarios y cuantitativos sin límites y, también, definir una jerarquía organizativa de gestión presupuestaria para admitir métodos de gestión presupuestaria ascendentes y descendentes. Una vez establecido y aprobado un presupuesto en la aplicación, el plan presupuestario se convierte en una entrada de registro presupuestario. Las entradas de registro presupuestario proporcionan herramientas para mantener el presupuesto y para que los importes se puedan seguir localizando mediante los códigos de presupuesto. Las entradas de registro presupuestario le permiten revisar presupuestos originales, realizar transferencias y transferir importes de presupuesto del año anterior. En función del presupuesto establecido, una empresa puede habilitar el control presupuestario. El nivel de control depende de la cultura de la organización y del nivel de vencimiento de la organización. Las organizaciones que tienen un nivel de vencimiento bajo pueden dejar el presupuesto "tal cual" y ser más reactivas que proactivas si un presupuesto no cumple las expectativas. Otras organizaciones pueden habilitar las directivas de control presupuestario que impiden a los usuarios comprar si no hay fondos presupuestarios disponibles.
 
-Por último, las organizaciones muy maduras pueden establecer una cultura de organización en la que se forme a los empleados acerca de los objetivos de la organización y cuyos objetivos se puedan perseguir a través de directivas como "Considerar una reunión en línea en lugar de un viaje". La aplicación incluye un marco de control presupuestario que permite a la dirección de la empresa seleccionar un control rígido (que impide los registros que superarían el presupuesto) o un control flexible (con el que se advierte a los usuarios que superarán los fondos presupuestarios disponibles, pero se les permite decidir cómo continuar). Por último, puede usar las previsiones continuas. Una previsión continua es una comparación periódica de los valores de presupuesto frente a los valores reales y se usa para definir si el funcionamiento de la empresa se adecua al presupuesto. La previsión continua también se usa para identificar tendencias. En Finance and Operations se admiten las previsiones continuas, a través de un documento de plan presupuestario, como las actividades iniciales de planificación. Las previsiones continuas se pueden realizar en paralelo con la planificación para el próximo ciclo presupuestario.
+Por último, las organizaciones muy maduras pueden establecer una cultura de organización en la que se forme a los empleados acerca de los objetivos de la organización y cuyos objetivos se puedan perseguir a través de directivas como "Considerar una reunión en línea en lugar de un viaje". La aplicación incluye un marco de control presupuestario que permite a la dirección de la empresa seleccionar un control rígido (que impide los registros que superarían el presupuesto) o un control flexible (con el que se advierte a los usuarios que superarán los fondos presupuestarios disponibles, pero se les permite decidir cómo continuar). Por último, puede usar las previsiones continuas. Una previsión continua es una comparación periódica de los valores de presupuesto frente a los valores reales y se usa para definir si el funcionamiento de la empresa se adecua al presupuesto. La previsión continua también se usa para identificar tendencias. En finanzas y operaciones se admiten las previsiones continuas, a través de un documento de plan presupuestario, como las actividades iniciales de planificación. Las previsiones continuas se pueden realizar en paralelo con la planificación para el próximo ciclo presupuestario.
 
 -   [Información general de la gestión presupuestaria](basic-budgeting-overview-configuration.md)
 -   [Información general del control presupuestario](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Por ejemplo, puede definir quién realiza los presupuestos, qué se presupuesta 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

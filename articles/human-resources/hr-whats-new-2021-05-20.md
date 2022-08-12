@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a399e1c7ccbd85b58286ec4f3d294f80332c3fd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 36d490832edcef025cb24a06288eb021eb794bd9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891303"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068496"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Novedades y cambios en Dynamics 365 Human Resources a 20 de mayo de 2021
 
@@ -41,7 +41,7 @@ Las siguientes características estarán disponible de forma generalizada en est
 
 | Característica | Plan de lanzamiento | Documentación |
 | --- | --- | --- |
-| Actualización de la plataforma 10.0.18 (42) | -- | [Platform updates para aplicaciones de la versión 10.0.18 de Finance and Operations (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| Actualización de la plataforma 10.0.18 (42) | -- | [Platform updates para aplicaciones de la versión 10.0.18 de finanzas y operaciones (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
 | Aplicación Human Resources para Microsoft Teams ahora admite definiciones de medio día y capacidad de día dividido | -- | [Administrar solicitudes de bajas en Teams](/dynamics365/human-resources/hr-teams-leave-app#create-a-new-request) |
 
 ### <a name="bug-fixes"></a>Correcciones de errores
@@ -87,3 +87,4 @@ Para obtener una lista completa de las características previstas y sus lanzamie
 [Administrar características](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

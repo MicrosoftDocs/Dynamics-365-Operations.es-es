@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e46c5721853ebfe3b9d5955ca5f4e7a4ead570c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fffe9c042c71dc220179bb6d1ba7fd59d5e53cc0
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846311"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069545"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Novedades y cambios en Dynamics 365 Human Resources, 19 de abril de 2021
 
@@ -41,7 +41,7 @@ Las siguientes características estarán disponible de forma generalizada en est
 
 | Característica | Plan de lanzamiento | Documentación |
 | --- | --- | --- |
-| Actualización de la plataforma 10.0.17 (41) | -- | [Actualizaciones de plataforma para aplicaciones de la versión 10.0.17 de Finance and Operations (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Actualización de la plataforma 10.0.17 (41) | -- | [Actualizaciones de plataforma para aplicaciones de la versión 10.0.17 de finanzas y operaciones (abril de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Soporte de campos personalizados en formularios de gestión de prestaciones | [Soporte de campos personalizados en gestión de prestaciones](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Información general de administración de prestaciones](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Correcciones de errores
@@ -77,7 +77,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 | Característica | Detalles |
 | --- | --- |
 | Las aptitudes introducidas por un director para sus empleados se pueden aprobar automáticamente mediante un flujo de trabajo | Próximamente. |
-| Actualización de la plataforma 10.0.18 (42) | La actualización de la plataforma 10.0.18 está programada para comenzar a implementarse con la próxima versión de servicio el 17 de mayo de 2021. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.18 de aplicaciones de finanzas y operaciones (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Actualización de la plataforma 10.0.18 (42) | La actualización de la plataforma 10.0.18 está programada para comenzar a implementarse con la próxima versión de servicio el 17 de mayo de 2021. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.18 de aplicaciones de finanzas y operaciones (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Soporte de campos personalizados en las reglas de idoneidad de gestión de prestaciones  | [Soporte de campo personalizado para el procesamiento de idoneidad](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -90,3 +90,4 @@ Para obtener una lista completa de las características previstas y sus lanzamie
 [Administrar características](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

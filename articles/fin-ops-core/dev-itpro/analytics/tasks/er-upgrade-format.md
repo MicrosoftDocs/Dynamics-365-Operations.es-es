@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883520"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111942"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Actualizar el formato adoptando una nueva versión de base de ese formato
 
@@ -119,7 +119,7 @@ Cambie el estado de la configuración del formato diseñado de Borrador a Comple
     Observe cómo la configuración creada se guarda como versión completada 1.1.1. Esto significa que es la versión 1 del formato BACS personalizado (personalizado ficticio del Reino Unido), que se basa en la versión 1 del formato BACS (personalizado ficticio del Reino Unido), que se basa en la versión 1 del modelo de datos de pagos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Probar el formato personalizado para generar archivos de pago
-Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de Finance and Operations. Seleccione el formato de BACS (personalizado ficticio del Reino Unido) en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido que presenta código IBAN de acuerdo con los requisitos regionales.  
+Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de finanzas y operaciones. Seleccione el formato de BACS (personalizado ficticio del Reino Unido) en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido que presenta código IBAN de acuerdo con los requisitos regionales.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Actualizar la configuración específica de país existente
 Litware. Inc debe actualizar la configuración de BACS (ficticio del Reino Unido) y adoptar nuevos requisitos de país para gestionar el formato de documentos electrónicos. Más adelante, esto se incluirá en una nueva versión de esta configuración que se ofrecerá para los suscriptores de servicio, incluidos Proseware, Inc.  
@@ -239,7 +239,7 @@ Para ello, Proseware, Inc. tiene que cambiar la versión de la configuración ba
     Tenga en cuenta que la configuración creada se guarda como la versión 1.2.2 completada: versión 2 del formato BACS base (personalizado ficticia del Reino Unido), que se basa en la versión 2 del formato BACS base (ficticio Reino Unido), que se basa en la versión 1 del modelo de datos de pagos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Probar el formato personalizado para generación de archivos de pago
-Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de Finance and Operations. Seleccione el formato "BACS (personalizado ficticio del Reino Unido)" en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido por Proseware, Inc. que presenta código de cuenta IBAN de acuerdo con los requisitos regionales. El archivo también debe contener el nodo XML recientemente introducido por Litware, Inc. que muestra el código bancario SWIFT de acuerdo con los requisitos de país.  
+Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de finanzas y operaciones. Seleccione el formato "BACS (personalizado ficticio del Reino Unido)" en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido por Proseware, Inc. que presenta código de cuenta IBAN de acuerdo con los requisitos regionales. El archivo también debe contener el nodo XML recientemente introducido por Litware, Inc. que muestra el código bancario SWIFT de acuerdo con los requisitos de país.  
 
 
 

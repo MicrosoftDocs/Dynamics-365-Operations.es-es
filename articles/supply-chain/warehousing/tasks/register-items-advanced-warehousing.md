@@ -1,6 +1,6 @@
 ---
-title: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
-description: Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes.
+title: Registrar artículos habilitados para procesos de gestión de almacenes mediante un diario de recepción de artículos
+description: Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos de gestión de almacenes (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863632"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066979"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Registrar artículos habilitados para procesos de gestión de almacenes mediante un diario de recepción de artículos
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos avanzados de gestión de almacenes. Esto lo realiza normalmente un empleado de recepción.
+Este artículo presenta un escenario que muestra cómo registrar artículos mediante el diario de recepción de artículos cuando se usa los procesos de gestión de almacenes (WMS). Esto lo realiza normalmente un empleado de recepción.
 
 ## <a name="enable-sample-data"></a>Habilitar datos de muestra
 
@@ -36,7 +36,7 @@ En su lugar, puede trabajar en este escenario sustituyendo valores de sus propio
 - Debe tener un pedido de compra confirmada con una línea de pedido de compra abierta.
 - El artículo de la línea debe mantenerse en existencias. No debe utilizar variantes de producto y no debe tener dimensiones de seguimiento.
 - El artículo debe estar asociado con un grupo de dimensiones de almacenamiento habilitado con proceso de gestión de almacenes.
-- El almacén que se usa debe estar habilitado para los procesos de gestión de almacén y la ubicación que usa para recepción debe controlada por matrículas de entidad de almacén.
+- El almacén que se usa debe estar habilitado para WMS y la ubicación que usa para recepción debe controlada por matrículas de entidad de almacén.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Cree un encabezado de diario de llegada de artículos que utilice la gestión de almacén
 

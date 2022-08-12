@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849311"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065566"
 ---
 # <a name="flushing-principles"></a>Principios de vaciado
 
@@ -50,7 +50,7 @@ Los principios de vaciado se configuran en una jerarquía de valores predetermin
 ## <a name="description-of-the-flushing-principles"></a>Descripción de los principios de vaciado
 
 ### <a name="manual"></a>Manual
-El principio de vaciado manual indica que el registro de consumo de material es una operación manual. Este principio es relevante si, por ejemplo, desea realizar el seguimiento del tiempo, y debe contabilizarse la cantidad de números de lote o números de serie consumidos para fines de seguimiento. El consumo manual se registra en un diario de lista de selección de producción. Para los artículos que se habilitan para procesos de almacén avanzados, se puede aplicar un flujo manual.
+El principio de vaciado manual indica que el registro de consumo de material es una operación manual. Este principio es relevante si, por ejemplo, desea realizar el seguimiento del tiempo, y debe contabilizarse la cantidad de números de lote o números de serie consumidos para fines de seguimiento. El consumo manual se registra en un diario de lista de selección de producción. Para los artículos que se habilitan para procesos de gestión de almacenes (WMS), se puede aplicar un flujo manual.
 
 ### <a name="start"></a>Inicio
 El principio de vaciado Inicio indica que el material se consumirá automáticamente cuando se inicie un pedido de producción. El importe de material que se consume es proporcional a la cantidad iniciada. Si el principio de vaciado Inicio se usa junto con el sistema de ejecución de fabricación, también se pueden usar para vaciar materiales cuando se inicie una operación o un trabajo de proceso. Este principio es relevante si, por ejemplo, la desviación en el consumo es baja, los materiales son materiales de valor reducido, no hay requisitos de seguimiento o hay un tiempo de ejecución breve en las operaciones. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771881"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108776"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planificación de su jerarquía organizativa
 
@@ -42,7 +42,7 @@ Al planificar jerarquías, también es importante tener en cuenta la relación e
 
 Debe tener al menos una entidad jurídica para representar la empresa. Una entidad jurídica puede realizar contratos legales y tiene la obligación de preparar informes financieros que informan sobre su rendimiento.
 
-Las entidades jurídicas pueden usarse para el negocio transaccional o para la consolidación. Esto significa que una entidad jurídica en Finance and Operations no representa necesariamente una entidad real en la empresa. Por ejemplo, una empresa que participa en transacciones puede ser propietaria de entidades jurídicas subsidiarias. En esta situación, se requiere a una entidad jurídica para las transacciones y se requiere una entidad jurídica virtual para consolidar los resultados y los saldos de las entidades jurídicas subsidiarias.
+Las entidades jurídicas pueden usarse para el negocio transaccional o para la consolidación. Esto significa que una entidad jurídica en finanzas y operaciones no representa necesariamente una entidad real en la empresa. Por ejemplo, una empresa que participa en transacciones puede ser propietaria de entidades jurídicas subsidiarias. En esta situación, se requiere a una entidad jurídica para las transacciones y se requiere una entidad jurídica virtual para consolidar los resultados y los saldos de las entidades jurídicas subsidiarias.
 
 Las organizaciones internas de la empresa, tales como las oficinas regionales, se pueden representar como entidades jurídicas adicionales o como unidades operativas de la entidad jurídica principal. No es necesario que una unidad operativa sea una organización legalmente definida. Las unidades operativas se usan para controlar los recursos económicos y los procesos operativos de la empresa. Por ejemplo, los departamentos y los centros de coste son unidades operativas.
 
@@ -171,7 +171,7 @@ Para los países o regiones que se admiten, se puede crear la mayoría de los in
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Si la organización se ha modelado como unidad operativa
 
-Los informes estatutarios se deben crear utilizando otra aplicación. Debe asegurarse de que los datos se capturen en aplicaciones Finance and Operations para admitir los requisitos de cada unidad operativa, donde difieren de los requisitos de la sede central.
+Los informes estatutarios se deben crear utilizando otra aplicación. Debe asegurarse de que los datos se capturen en aplicaciones de finanzas y operaciones para admitir los requisitos de cada unidad operativa, donde difieren de los requisitos de la sede central.
 
 ### <a name="currency"></a>Divisa
 
@@ -242,3 +242,4 @@ Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarq
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

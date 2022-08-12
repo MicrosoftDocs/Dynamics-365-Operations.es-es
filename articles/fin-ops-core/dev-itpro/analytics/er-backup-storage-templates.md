@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880404"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108964"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880404"
 
 La [Visión general del marco de informes electrónicos (ER)](general-electronic-reporting.md) permite a los usuarios de la empresa configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los formatos de ER configurados pueden usar plantillas predefinidas para generar documentos salientes en distintos formatos, como libros Microsoft Excel , documentos Microsoft Word , o documentos PDF. Las plantillas se rellenan con los datos que necesita el flujo de datos configurado para los documentos generados.
 
-Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de Finance and Operations e importarse a otra instancia.
+Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de finanzas y operaciones e importarse a otra instancia.
 
-El marco de ER usa [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
+El marco de ER usa [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de finanzas y operaciones. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
 
-Al gestionar las instancias de Finance and Operations, es posible que desee migrar la instancia actual a otra ubicación. Por ejemplo, puede migrar la instancia de producción a un nuevo entorno de espacio aislado. Si configuró el marco de ER para almacenar plantillas en Blob storage, la tabla DocuValue en el nuevo entorno aislado se refiere a la instancia de Blob storage del entorno de producción. Sin embargo, no se puede acceder a esta instancia desde el entorno aislado, ya que el proceso de migración no admite la migración de artefactos en Blob storage. Por lo tanto, si intenta ejecutar un formato de ER que use una plantilla para generar documentos empresariales, se producirá una excepción, y se le notificará que falta la plantilla. También se le guía para usar la herramienta de limpieza del ER y después volver a importar la configuración del formato de ER que contiene la plantilla. Dado que puede que tenga varias configuraciones de formato de ER, este proceso puede ser largo.
+Al gestionar las instancias de finanzas y operaciones, es posible que desee migrar la instancia actual a otra ubicación. Por ejemplo, puede migrar la instancia de producción a un nuevo entorno de espacio aislado. Si configuró el marco de ER para almacenar plantillas en Blob storage, la tabla DocuValue en el nuevo entorno aislado se refiere a la instancia de Blob storage del entorno de producción. Sin embargo, no se puede acceder a esta instancia desde el entorno aislado, ya que el proceso de migración no admite la migración de artefactos en Blob storage. Por lo tanto, si intenta ejecutar un formato de ER que use una plantilla para generar documentos empresariales, se producirá una excepción, y se le notificará que falta la plantilla. También se le guía para usar la herramienta de limpieza del ER y después volver a importar la configuración del formato de ER que contiene la plantilla. Dado que puede que tenga varias configuraciones de formato de ER, este proceso puede ser largo.
 
 La característica de almacenamiento de copia de seguridad de las plantillas de ER puede ayudarle a crear sus plantillas de modo que están siempre disponibles para generar documentos empresariales.
 
@@ -46,7 +46,7 @@ Para esta función, cada plantilla de una nueva configuración de formato de ER 
 - Importa una nueva configuración del formato de ER que contiene una plantilla.
 - Completa el borrador de versión de una configuración del formato de ER que contiene una plantilla.
 
-Las copias de seguridad de plantillas se migran a una nueva instancia de Finance and Operations como parte de la base de datos de la aplicación.
+Las copias de seguridad de plantillas se migran a una nueva instancia de finanzas y operaciones como parte de la base de datos de la aplicación.
 
 Si una plantilla de un formato de ER se requiere para la generación de documentos salientes, para procesar pagos de proveedor incluidas la generación de avisos de pago y informes de control, por ejemplo, pero la plantilla requerida no se encuentra en la ubicación de almacenamiento principal, los eventos siguientes se producen:
 
@@ -58,7 +58,7 @@ Si una plantilla de un formato de ER se requiere para la generación de document
 
 Para configurar el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes**, complete los pasos siguientes:
 
-1. En Finance and Operations, abra la página **Administración de la organización \> Informes electrónicos \> Configuraciones**.
+1. En finanzas y operaciones, abra la página **Administración de la organización \> Informes electrónicos \> Configuraciones**.
 2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
 3. En el cuadro de diálogo **Parámetros de usuario** , establezca el valor necesario para el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes**.
 
@@ -83,7 +83,7 @@ De forma predeterminada, el proceso de crear automáticamente las copias de segu
 
 Si establece la opción **Detener la creación de copias de seguridad de plantillas** en **Sí** y no desea conservar las copias de seguridad que se realizaron anteriormente de plantillas, seleccione **Borrar almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónico**.
 
-Si ha actualizado el entorno a Finance and Operations, versión 10.0.5 (octubre de 2019), y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
+Si ha actualizado el entorno a finanzas y operaciones versión 10.0.5 (octubre de 2019), y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
 
 ![Página de parámetros de informes electrónicos.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Vaya a **Administración de la organización** \> **Informes electrónicos** \> 
 
 ## <a name="supported-deployments"></a>Implementaciones compatibles
 
-En Finance and Operations, versión 10.0.5, el almacenamiento de copia de seguridad de la función de plantillas de ER solo está disponible en las implementaciones en la nube.
+En finanzas y operaciones versión 10.0.5, el almacenamiento de copia de seguridad de la función de plantillas de ER solo está disponible en las implementaciones en la nube.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

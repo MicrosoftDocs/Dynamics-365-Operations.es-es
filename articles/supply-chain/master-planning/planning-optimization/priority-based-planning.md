@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873822"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186495"
 ---
 # <a name="priority-based-planning"></a>Planificación basada en prioridades
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la Planificación de requisitos de materiales basada en la demanda (DDMRP). La planificación basada en prioridades permite a Optimización de planificación generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
+Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la [Planificación de requisitos de materiales basada en la demanda (DDMRP)](ddmrp-overview.md). La planificación basada en prioridades permite a Optimización de planificación generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
 
 La planificación basada en prioridades le permite priorizar pedidos de reabastecimiento para garantizar que la demanda urgente tenga prioridad sobre la demanda menos importante. Por ejemplo, un pedido de reabastecimiento agotado tendrá prioridad sobre un pedido de reabastecimiento de relleno estándar. El sistema puede dividir automáticamente los pedidos más grandes en pedidos más pequeños separados donde las líneas de pedido se agrupan por prioridad. Luego, puede procesar primero todos los pedidos de alta prioridad.
 

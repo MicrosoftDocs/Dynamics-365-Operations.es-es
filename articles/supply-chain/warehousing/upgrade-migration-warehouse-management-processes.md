@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857094"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065822"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Actualizar la gestión de almacenes Microsoft Dynamics AX 2012 a Supply Chain Management 
 
@@ -37,11 +37,11 @@ Durante una actualización se identifican todos los productos asociados a un gru
 Después de la actualización, puede usar un conjunto de opciones de migración en el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para desbloquear los productos bloqueados durante la actualización y después procesar transacciones para estos productos.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Habilitar artículos en Supply Chain Management 
-Este cambio es necesario porque en Supply Chain Management el seguimiento de artículos forma parte de los procesos de gestión de almacenes. Para estos procesos, todos los almacenes y sus ubicaciones deben estar asociadas a un perfil de ubicación. Si desea utilizar procesos de gestión de almacenes, debe configurar lo siguiente:
--   Los almacenes existentes deben habilitarse para usar los procesos de gestión de almacenes 
--   Los productos emitidos existentes deben asociarse a un grupo de dimensiones de almacenamiento que utilice procesos de gestión de almacenes 
+Este cambio es necesario porque en Supply Chain Management el seguimiento de artículos forma parte de los procesos de gestión de almacenes (WMS). Para estos procesos, todos los almacenes y sus ubicaciones deben estar asociadas a un perfil de ubicación. Si desea utilizar WMS, debe configurar lo siguiente:
+-   Los almacenes existentes deben habilitarse para usar WMS 
+-   Los productos emitidos existentes deben asociarse a un grupo de dimensiones de almacenamiento que utilice WMS 
 
-Si los grupos de dimensiones de almacenamiento de origen usan la dimensión de inventario identificador de palé, las ubicaciones de inventario disponible existentes que utilizaron la dimensión de inventario identificador de palé se deben asociar a un perfil de ubicación donde esté seleccionado el parámetro **Usar seguimiento de matrículas de entidad de almacén**. Si los almacenes existentes no deben habilitarse para utilizar procesos de gestión de almacenes, puede cambiar los grupos de dimensiones de almacenamiento del inventario disponible existentes que usen únicamente las dimensiones de inventario sitio, almacén y ubicación. 
+Si los grupos de dimensiones de almacenamiento de origen usan la dimensión de inventario identificador de palé, las ubicaciones de inventario disponible existentes que utilizaron la dimensión de inventario identificador de palé se deben asociar a un perfil de ubicación donde esté seleccionado el parámetro **Usar seguimiento de matrículas de entidad de almacén**. Si los almacenes existentes no deben habilitarse para utilizar WMS, puede cambiar los grupos de dimensiones de almacenamiento del inventario disponible existentes que usen únicamente las dimensiones de inventario sitio, almacén y ubicación. 
 
 > [!NOTE] 
 >  Puede cambiar el grupo de dimensiones de almacenamiento de artículos incluso si existen transacciones de inventario abiertas.
@@ -56,12 +56,12 @@ Para usarse como parte de un proceso de gestión de almacenes, un artículo debe
 Para desbloquear los productos bloqueados durante la actualización, debe seleccionar un nuevo grupo de dimensiones de almacenamiento para los productos. Tenga en cuenta que puede cambiar el grupo de dimensiones de almacenamiento incluso si existen transacciones de inventario abiertas. Para usar los artículos bloqueados durante la actualización, tiene dos opciones:
 
 -   Cambiar el grupo de dimensiones de almacenamiento del artículo a un grupo de dimensiones de almacenamiento que use únicamente las dimensiones de sitio, almacén y ubicación. Como resultado de este cambio, la dimensión de inventario identificador de palé ya no se usa.
--   Cambiar el grupo de dimensiones de almacenamiento del artículo a un grupo de dimensiones de almacenamiento que use los procesos de gestión de almacenes. Como resultado de este cambio, la dimensión de inventario del número de matrícula ahora se usa.
+-   Cambiar el grupo de dimensiones de almacenamiento del artículo a un grupo de dimensiones de almacenamiento que use WMS. Como resultado de este cambio, la dimensión de inventario del número de matrícula ahora se usa.
 
-## <a name="configure-warehouse-management-processes"></a>Configurar procesos de gestión de almacenes
+## <a name="configure-wms"></a>Configurar WMS
 Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, los productos deben usar un grupo de dimensiones de almacenamiento donde esté seleccionado el parámetro **Usar procesos de gestión de almacenes** .
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>Habilite los almacenes para usar los procesos de gestión de almacenes
+### <a name="enable-warehouses-to-use-wms"></a>Habilitar almacenes para utilizar WMS
 
 1.  Cree al menos un nuevo perfil de ubicación.
 2.  Haga clic en **Gestión de almacenes** &gt; **Configuración** &gt; **Habilitar procesos de gestión de almacenes** &gt; **Habilitar la configuración del almacén**.
@@ -70,7 +70,7 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 5.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, una actualización de datos adicional será necesaria.
 6.  Procese los cambios.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>Cambie el grupo de dimensiones de almacenamiento de los artículos para que use procesos de gestión de almacenes
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Cambie el grupo de dimensiones de almacenamiento de los artículos para que use WMS
 
 1.  Cree un nuevo valor **Estado de inventario** y asígnelo como valor **Id. del estado de inventario predeterminado** en la configuración de **Parámetros de gestión de almacenes**.
 2.  Cree un nuevo grupo de dimensiones de almacenamiento donde esté seleccionado el parámetro **Usar procesos de gestión de almacenes**.

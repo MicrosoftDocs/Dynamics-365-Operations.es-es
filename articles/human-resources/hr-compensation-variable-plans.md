@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853085"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070570"
 ---
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
@@ -42,7 +42,11 @@ Los **Tipos de compensación variable** es un componente obligatorio. Los **Tipo
 Opcionalmente, las empresas pueden configurar **Reglas de atribución**. Las **Reglas de atribución** describen cómo la prima variable debe asignarse en el tiempo. Por ejemplo, una regla de atribución puede indicar que el empleado recibirá el 25 por ciento de la prima total cada año para los cuatro años próximos. Las reglas de atribución solo son informativas.
 
 ## <a name="variable-compensation-plans"></a>Planes de compensación variable
-El **plan de compensación variable** contiene las reglas, los métodos de cálculo y los valores predeterminados para el cálculo de la compensación variable para los empleados inscritos. Al crear un plan de compensación variable, debe configurar el tipo de compensación variable. El tipo de compensación variable determina si el sistema calculará un importe de divisa o varias unidades como prima. También debe definir el método de cálculo:
+El **plan de compensación variable** contiene las reglas, los métodos de cálculo y los valores predeterminados para el cálculo de la compensación variable para los empleados inscritos. Al crear un plan de compensación variable, debe configurar el tipo de compensación variable. El tipo de compensación variable determina si el sistema calculará un importe de divisa o varias unidades como prima. 
+
+El parámetro **Restringir el acceso a roles seleccionados** restringe el acceso al plan de compensación a los roles de seguridad seleccionados que se han asignado a ese plan en Recursos Humanos. Por ejemplo, cuando crea planes de compensación que son para ejecutivos y no deberían estar visibles para todos los roles específicos de recursos humanos, puede usar este parámetro para restringir el acceso a esos planes de compensación. 
+
+También debe definir el método de cálculo:
 
 -   **A partir de un momento específico**: el cálculo de prima variable se basa en la compensación fija que tenía el empleado en una fecha específica. Esta fecha se especifica en el evento de proceso cuando se procesan los nuevos importes de compensación.
 -   **Compuesto**: se calcula un importe de la prima para cada índice salarial de compensación fija único que el empleado tenía entre la fecha inicial del ciclo y la fecha final del ciclo del evento de proceso. Después los índices se agregan conjuntamente para determinar la prima final. Por ejemplo, durante el ciclo, un empleado fue transferido a otro puesto que tenía una tarifa distinta de pago. En este caso, la prima variable se ajusta a la duración del tiempo en que el empleado tuvo cada índice salarial.

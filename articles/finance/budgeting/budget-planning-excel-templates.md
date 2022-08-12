@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872510"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070676"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
@@ -79,7 +79,7 @@ El grupo de campos seleccionado muestra las columnas disponibles en la plantilla
 [![Agregar y insertar columnas.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir la fórmula, cree la fórmula en la hoja de cálculo y, a continuación, cópiela en la ventana **Diseño**. Una tabla enlazada de Finance and Operations normalmente se denominará "AXTable1". Por ejemplo, para sumar las columnas Solicitud de primer trimestre : Solicitud de cuarto trimestre en la hoja de cálculo; la fórmula = AxTable1\[Solicitud primer trimestre\]+AxTable1\[Solicitud segundo trimestre\]+AxTable1\[Solicitud tercer trimestre\]+AxTable1\[Solicitud cuarto trimestre\].
+> Para definir la fórmula, cree la fórmula en la hoja de cálculo y, a continuación, cópiela en la ventana **Diseño**. Una tabla enlazada de finanzas y operaciones normalmente se denominará "AXTable1". Por ejemplo, para sumar las columnas Solicitud de primer trimestre : Solicitud de cuarto trimestre en la hoja de cálculo; la fórmula = AxTable1\[Solicitud primer trimestre\]+AxTable1\[Solicitud segundo trimestre\]+AxTable1\[Solicitud tercer trimestre\]+AxTable1\[Solicitud cuarto trimestre\].
 
 Repita estos pasos para insertar la columna **Ajuste**. Use la fórmula = AxTable1\[Total de la solicitud\]\*$I$1 para esta columna. Esto tomará el valor de la celda I1 y multiplicará los valores de la columna **Total de la solicitud** para calcular los importes de ajuste.
 
@@ -129,3 +129,4 @@ También puede crear y usar las tablas dinámicas y gráficos para agrupaciones 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

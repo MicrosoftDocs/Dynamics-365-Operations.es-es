@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867423"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103984"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de la implementación local
 
@@ -53,7 +53,7 @@ Puede implementar Dynamics 365 Finance + Operations (on-premises). Cuando selecc
 - [Importar configuraciones de informes electrónicos (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generación, publicación e impresión de documentos en implementaciones locales](../analytics/printing-capabilities-on-premises.md)
 - [Configurar servidores proxy para entornos locales](onprem-reverseproxy.md)
-- [Configurar soporte técnico para aplicaciones Finance and Operations](../lifecycle-services/support-experience.md)
+- [Configurar soporte técnico para aplicaciones de finanzas y operaciones](../lifecycle-services/support-experience.md)
 - [Conectividad a Internet de los clientes](../user-interface/client-disconnected.md)
 - [Aplicar actualizaciones a implementaciones locales](apply-updates-on-premises.md)
 - [Volver a implementar entornos locales](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Puede implementar Dynamics 365 Finance + Operations (on-premises). Cuando selecc
 - [Scripts para resolver problemas en entornos locales](onprem-tsg-implementations.md)
 - [Rotación de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locales](on-premises-diagnostics.md)
-- [Características quitadas u obsoletas para Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Características quitadas u obsoletas para finanzas y operaciones](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

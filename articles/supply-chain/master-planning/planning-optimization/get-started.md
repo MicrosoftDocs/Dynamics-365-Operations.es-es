@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900981"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112222"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
@@ -40,7 +40,7 @@ Antes de activar o desactivar la planificación de optimización, se recomienda 
 
 ## <a name="availability"></a>Disponibilidad
 
-Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Brasil, Europa, Reino Unido, Australia, Asia Pacífico, Japón e India. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible. Para obtener más información sobre las geografías de Azure y las regiones relacionadas, consulte [Geografías de Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Brasil, Europa, Francia, Reino Unido, Australia, Asia Pacífico, Japón e India. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible. Para obtener más información sobre las geografías de Azure y las regiones relacionadas, consulte [Geografías de Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Tenga en cuenta que Optimización de planificación no admite implementaciones locales de Dynamics 365 Supply Chain Management.
 
@@ -135,3 +135,4 @@ Si la vista previa de Optimización de la planificación está activada, la plan
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
-title: Página principal de Novedades y cambios en aplicaciones de Finance and Operations
-description: Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las aplicaciones más recientes de Finance and Operations.
+title: Página principal de Novedades y cambios en aplicaciones de finanzas y operaciones
+description: Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las aplicaciones de finanzas y operaciones más recientes.
 author: josaw1
 ms.date: 02/14/2020
 ms.topic: article
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dc3b9b39fb5cb3aaae1247f0229d802410ea5f8
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908238"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125128"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Página principal de Novedades y cambios en aplicaciones de Finance and Operations
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Página principal de Novedades y cambios en aplicaciones de finanzas y operaciones
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="application-releases"></a>Liberaciones de aplicación
 
-Para ver las novedades o los cambios de cada versión de una aplicación de Finance and Operations, consulte los siguientes temas:
+Para ver las novedades o los cambios de cada versión de una aplicación de finanzas y operaciones, consulte los siguientes temas:
 
 - **Finance**: [Novedades y cambios en Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
 - **Human Resources (infraesstructura combinada):** [Novedades y cambios en Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
@@ -60,3 +60,4 @@ Para ver las novedades o los cambios de cada versión de una aplicación de Life
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

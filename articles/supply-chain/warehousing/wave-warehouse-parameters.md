@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067863"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Parámetros de almacén para el procesamiento de oleadas
 
@@ -52,7 +52,7 @@ Para configurar los parámetros de almacén para el procesamiento de oleadas, si
 > [!NOTE]
 > En la plantilla de la oleada que se usa para procesar la oleada, puede especificar parámetros que automatizan el proceso de la oleada. Si configura una programación del trabajo por lotes, debe coordinar la sincronización con la configuración de automatización en la plantilla de la oleada. Para obtener más información, consulte [Crear una plantilla de oleada](wave-templates.md).
 >
-> Si está usando *Administración de transporte* y *Administración avanzada de almacenes*, puede especificar si consolidar cargas al procesar una oleada. Por ejemplo, esto es útil cuando varias pequeñas cargas se pueden enviar al mismo tiempo. Para consolidar cargas cuando procesa una ola, en la pestaña **Cargas**, seleccione la casilla de verificación **Consolidar cargas durante el procesamiento de oleadas**.</P>
+> Si está usando *Administración de transporte* y *procesos de gestión de almacenes (WMS)*, puede especificar si consolidar cargas al procesar una oleada. Por ejemplo, esto es útil cuando varias pequeñas cargas se pueden enviar al mismo tiempo. Para consolidar cargas cuando procesa una ola, en la pestaña **Cargas**, seleccione la casilla de verificación **Consolidar cargas durante el procesamiento de oleadas**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Configurar la reserva parcial o completa para las oleadas de producción
 

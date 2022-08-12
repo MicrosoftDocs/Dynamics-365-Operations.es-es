@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670451"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135581"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO con valor físico y marcado
 
@@ -128,7 +128,7 @@ En la ilustración siguiente se muestran estas transacciones:
 - 6a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 23,00 dólares USD por unidad (promedio móvil de transacciones registradas financieramente)
 - 7\. Se efectúa el cierre de inventario. Según el principio de marcado que utiliza el método LIFO, las transacciones marcadas se liquidan entre sí. En este ejemplo, 3b se liquida contra 2b, y se contabiliza un ajuste para USD 6,00 en 3b para llevar el valor a USD 22,00. En este ejemplo, no se realizan liquidaciones adicionales porque el cierre crea liquidaciones solo para transacciones actualizadas financieramente.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD.
+El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 17,50 dólares USD.
 
 La ilustración siguiente muestra los efectos del modelo de inventario LIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones.
 

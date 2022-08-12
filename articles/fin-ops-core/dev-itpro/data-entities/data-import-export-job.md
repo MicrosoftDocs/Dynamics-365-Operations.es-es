@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860175"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109474"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -209,7 +209,7 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 ## <a name="job-history-clean-up-and-archival"></a>Limpieza y archivo del historial de trabajos 
 La función de limpieza y archivo del historial de trabajos reemplaza las versiones anteriores de la función de limpieza. Esta sección explicará estas nuevas capacidades.
 
-Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de Finanzas y Operaciones que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
+Uno de los principales cambios en la funcionalidad de limpieza es el uso del trabajo por lotes del sistema para limpiar el historial. El uso del trabajo por lotes del sistema permite a las aplicaciones de finanzas y operaciones que el trabajo por lotes de limpieza se programe y se ejecute automáticamente tan pronto como el sistema esté listo. Ya no es necesario programar el trabajo por lotes manualmente. En este modo de ejecución predeterminado, el trabajo por lotes se ejecutará cada hora a partir de medianoche y conservará el historial de ejecución de los 7 días más recientes. El historial depurado se archiva para su futura recuperación. A partir de la versión 10.0.20, esta función está siempre activa.
 
 El segundo cambio en el proceso de limpieza es el archivo del historial de ejecución depurado. El trabajo de limpieza archivará los registros eliminados en el almacenamiento de blobs que DIXF usa para integraciones regulares. El archivo archivado estará en el formato de paquete DIXF y estará disponible durante 7 días en el blob durante el cual se podrá descargar. La longevidad predeterminada de 7 días para el archivo archivado se puede cambiar a un máximo de 90 días en los parámetros.
 
@@ -235,3 +235,4 @@ Para descargar el historial de ejecución archivado, vaya al espacio de trabajo 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

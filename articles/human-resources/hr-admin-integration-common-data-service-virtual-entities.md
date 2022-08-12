@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899741"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067110"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tablas virtuales de Dataverse
 
@@ -124,7 +124,7 @@ El siguiente paso es configurar el origen de datos de la tabla virtual en el ent
 5. En la página **Búsqueda avanzada**, en la lista desplegable **Buscar**, seleccione **Configuraciones de fuentes de datos virtuales de Finance and Operations**.
 
    > [!NOTE]
-   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de datos de origen virtuales de Finance and Operations** no están disponibles en la lista, espere un minuto y actualice la lista.
+   > La instalación de la aplicación de tablas virtuales desde el paso de configuración anterior puede tardar unos minutos. Si las **Configuraciones de datos de origen virtuales de finanzas y operaciones** no están disponibles en la lista, espere un minuto y actualice la lista.
 
 6. Seleccione **Resultados**.
 
@@ -218,3 +218,4 @@ El panel deslizante muestra los resultados de ejecución más recientes del proc
 [Descripción general de la creación de aplicaciones en Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

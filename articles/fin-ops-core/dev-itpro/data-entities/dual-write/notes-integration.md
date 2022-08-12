@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876726"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111468"
 ---
 # <a name="note-integration"></a>Integración de notas
 
@@ -30,7 +30,7 @@ La información del cliente se puede clasificar de las siguientes formas:
 + **Información procesable para un usuario de Dynamics 365**: por ejemplo, un cliente que compra una unidad Surface introduce instrucciones especiales que indican que el dispositivo debe envolverse para regalo antes de la entrega. Estas instrucciones son información procesable que debe manejar el empleado de Contoso responsable del empaquetado.
 + **Información no procesable**: por ejemplo, un cliente visita la tienda de Contoso y, durante su conversación con un asociado de la tienda, expresa interés en juegos y accesorios para juegos de *Halo*. El asociado de la tienda toma nota de esta información. El motor de recomendaciones de productos lo utiliza para hacer recomendaciones al cliente.
 
-En general, la información procesable se captura como *actividades* en las aplicaciones de Finance and Operations y las aplicaciones de participación del cliente. La información no procesable se captura como *notas* en las aplicaciones de Finance and Operations y como *anotaciones* en las aplicaciones de participación del cliente.
+En general, la información procesable se captura como *actividades* en las aplicaciones de finanzas y operaciones y las aplicaciones de participación del cliente. La información no procesable se captura como *notas* en las aplicaciones de finanzas y operaciones y como *anotaciones* en las aplicaciones de participación del cliente.
 
 > [!TIP]
 > Aunque las notas están destinadas para información no procesable, las aplicaciones no le impedirán usarlas para almacenar y manejar información procesable si desea usarlas de esa manera.
@@ -39,7 +39,7 @@ Microsoft está lanzando actualmente funcionalidad para la integración de notas
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Crear una nota en una aplicación de interacción con el cliente
 
-Para crear una nota en una aplicación de interacción con el cliente y luego sincronizarla con una aplicación de Finance and Operations, siga estos pasos.
+Para crear una nota en una aplicación de interacción con el cliente y luego sincronizarla con una aplicación de finanzas y operaciones, siga estos pasos.
 
 1. En la aplicación de interacción con el cliente, abra el registro de la cuenta de un cliente.
 2. En el panel **Escala de tiempo**, seleccione el signo más (**+**) y luego seleccione **Nota** para crear una nota.
@@ -54,7 +54,7 @@ Para crear una nota en una aplicación de interacción con el cliente y luego si
 
     ![Nueva nota en la escala de tiempo del cliente.](media/notes-ce-3.png)
 
-4. Inicie sesión en la aplicación Finance and Operations y abra el mismo registro de cliente. Tenga en cuenta que el botón **Archivos adjuntos** (símbolo de un clip) de la esquina superior derecha indica que el registro tiene un archivo adjunto.
+4. Inicie sesión en la aplicación de finanzas y operaciones y abra el mismo registro de cliente. Tenga en cuenta que el botón **Archivos adjuntos** (símbolo de un clip) de la esquina superior derecha indica que el registro tiene un archivo adjunto.
 
     ![Notificación sobre un archivo adjunto.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Para crear una nota en una aplicación de interacción con el cliente y luego si
 
     ![Nota de la aplicación de interacción con el cliente.](media/notes-ce-5.png)
 
-Las actualizaciones de la nota se sincronizan entre sí, entre la aplicación Finance and Operations y la aplicación de interacción con el cliente.
+Las actualizaciones de la nota se sincronizan entre sí, entre la aplicación de finanzas y operaciones y la aplicación de interacción con el cliente.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Crear una nota en una aplicación de Finance and Operations
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Crear una nota en una aplicación de finanzas y operaciones
 
-También puede crear una nota en una aplicación de Finance and Operations, y se sincronizará con una aplicación de interacción con el cliente.
+También puede crear una nota en una aplicación de finanzas y operaciones, y se sincronizará con una aplicación de interacción con el cliente.
 
-Para crear una nota en una aplicación de Finance and Operations y luego sincronizarla con una aplicación de interacción con el cliente, siga estos pasos.
+Para crear una nota en una aplicación de finanzas y operaciones y luego sincronizarla con una aplicación de interacción con el cliente, siga estos pasos.
 
-1. En la aplicación Finance and Operations, en la página **Archivos adjuntos**, seleccione **Nueva** \> **Nota**.
+1. En la aplicación de finanzas y operaciones, en la página **Archivos adjuntos**, seleccione **Nueva** \> **Nota**.
 
-    ![Creación de una nota en la aplicación Finance and Operations.](media/notes-fo-1.png)
+    ![Creación de una nota en la aplicación de finanzas y operaciones.](media/notes-fo-1.png)
 
 2. Introduzca un título y un breve conjunto de instrucciones, y luego seleccione **Guardar**.
 
@@ -84,17 +84,17 @@ Para crear una nota en una aplicación de Finance and Operations y luego sincron
 
 Puede clasificar una nota como interna o externa.
 
-- En la aplicación Finance and Operations, en la página **Archivos adjuntos**, abra la nota y, a continuación, en el campo **Restricción** campo, seleccione **Interna** o **Externa**.
+- En la aplicación de finanzas y operaciones, en la página **Archivos adjuntos**, abra la nota y, a continuación, en el campo **Restricción** campo, seleccione **Interna** o **Externa**.
 
     ![Campo de restricción.](media/notes-fo-4.png)
 
 También puede crear una URL.
 
-1. En la aplicación Finance and Operations, en la página **Archivos adjuntos**, seleccione **Nueva** \> **URL**.
+1. En la aplicación de finanzas y operaciones, en la página **Archivos adjuntos**, seleccione **Nueva** \> **URL**.
 2. Escriba un título y la URL.
 3. En el campo **Restricción**, seleccione **Interna** o **Externa**.
 
-    ![Creación de una URL en la aplicación Finance and Operations.](media/notes-fo-5.png)
+    ![Creación de una URL en la aplicación de finanzas y operaciones.](media/notes-fo-5.png)
 
 4. Seleccione **Guardar**.
 
@@ -109,7 +109,7 @@ También puede crear una URL.
 
 La integración de notas incluye una colección de mapas de tabla que funcionan conjuntamente durante la interacción de los datos, como se muestra en la tabla siguiente.
 
-| Aplicación de Finance and Operations | Aplicación Customer Engagement | Descripción |
+| Aplicación de finanzas y operaciones | Aplicación Customer Engagement | Description |
 |----------------------------|-------------------------|-------------|
 | [Archivos adjuntos de clientes](mapping-reference.md#230) | Anotaciones | Empresas que utilizan texto sin formato y las URL para capturar información específica del cliente (tanto para organizaciones como para personas). |
 | [Documentos adjuntos de proveedor](mapping-reference.md#231) | Anotaciones | Empresas que utilizan texto sin formato y las URL para capturar información específica del proveedor (tanto para organizaciones como para personas). |
@@ -121,3 +121,4 @@ La integración de notas incluye una colección de mapas de tabla que funcionan 
 Una vez que instale la solución de notas, no podrá desinstalarla. 
 
 Para más información, consulte [Referencia de asignación de escritura doble](mapping-reference.md).
+

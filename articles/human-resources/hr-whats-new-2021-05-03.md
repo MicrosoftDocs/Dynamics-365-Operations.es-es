@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df8bd0277e4f27c23ba25c886d12f589913e5d46
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902871"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066235"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Novedades y cambios en Dynamics 365 Human Resources a 3 de mayo de 2021
 
@@ -70,7 +70,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 
 | Característica | Detalles |
 | --- | --- |
-| Actualización de la plataforma 10.0.18 (42) | La actualización de la plataforma 10.0.18 está programada para comenzar a implementarse con la próxima versión de servicio el 17 de mayo de 2021. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.18 de aplicaciones de finanzas y operaciones (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Actualización de la plataforma 10.0.18 (42) | La actualización de la plataforma 10.0.18 está programada para comenzar a implementarse con la próxima versión de servicio el 17 de mayo de 2021. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.18 de aplicaciones de finanzas y operaciones (mayo de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Soporte de campos personalizados en las reglas de idoneidad de gestión de prestaciones  | [Soporte de campo personalizado para el procesamiento de idoneidad](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Para obtener una lista completa de las características previstas y sus lanzamientos programados, consulte [Visión general del primer lanzamiento de versiones de Dynamics 365 Human Resources en 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
@@ -83,3 +83,4 @@ Para obtener una lista completa de las características previstas y sus lanzamie
 [Administrar características](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

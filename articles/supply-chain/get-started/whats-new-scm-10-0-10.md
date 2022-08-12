@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: e4f489320c864bbe83a992676d94eca15555e7ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870706"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123542"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.10 (mayo de 2020)
 
@@ -49,9 +49,9 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de finanzas y operaciones
 
-Dynamics 365 Supply Chain Management 10.0.10 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.10 de aplicaciones de Finanzas y Operaciones](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md).
+Dynamics 365 Supply Chain Management 10.0.10 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.10 de aplicaciones de finanzas y operaciones](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

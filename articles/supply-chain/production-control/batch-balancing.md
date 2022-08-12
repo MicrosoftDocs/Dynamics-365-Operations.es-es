@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856059"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066558"
 ---
 # <a name="batch-balancing"></a>Equilibrio por lotes
 
@@ -165,22 +165,22 @@ En el subproceso Equilibrar ingredientes del lote, la cantidad de ingredientes q
 
 ### <a name="confirm-and-release-the-formula"></a>Confirmar y liberar la fórmula
 
-Después de que se hayan calculado las cantidades de los ingredientes, puede confirmar y liberar la fórmula. El proceso de lanzamiento varía en función de si los productos están habilitados para los procesos de gestión de almacenes:
+Después de que se hayan calculado las cantidades de los ingredientes, puede confirmar y liberar la fórmula. El proceso de lanzamiento varía en función de si los productos están habilitados para los procesos de gestión de almacenes (WMS):
 
-- Si un producto está habilitado para los procesos de gestión de almacenes, la línea de fórmula se libera al almacén según los principios para los procesos de gestión de almacenes. La línea de fórmula se libera en cantidades que coinciden con las cantidades equilibradas, y se libera para los lotes específicos que se seleccionan para los ingredientes activos.
+- Si un producto está habilitado para WMS, la línea de fórmula se libera al almacén según los principios para WMS. La línea de fórmula se libera en cantidades que coinciden con las cantidades equilibradas, y se libera para los lotes específicos que se seleccionan para los ingredientes activos.
 
     > [!NOTE]
     > Las líneas de fórmula se pueden liberar al almacén solo como parte del proceso de equilibrio por lotes. Aunque haya otras opciones para liberar materiales para la producción al almacén, esas opciones no se pueden usar para las líneas de fórmula.
 
-- Si un producto no está habilitado para los procesos de gestión de almacenes, se crea una lista de selección de producción para el producto cuando confirma y libera la fórmula.
+- Si un producto no está habilitado para WMS, se crea una lista de selección de producción para el producto cuando confirma y libera la fórmula.
 
-En una fórmula única, puede combinar productos que están habilitados para los procesos de gestión de almacenes y productos que no están habilitados para los procesos de gestión de almacenes. Cuando se incluyen los dos tipos de productos en una fórmula, los productos que se habilitan para los procesos de gestión de almacenes se liberan al almacén. Para los productos que no están habilitados para los procesos de gestión de almacenes, se crea una lista de selección cuando se confirma y libera la fórmula.
+En una fórmula única, puede combinar productos que están habilitados para los procesos de gestión de almacenes y productos que no están habilitados para los procesos de gestión de almacenes. Cuando se incluyen los dos tipos de productos en una fórmula, los productos que se habilitan para WMS se liberan al almacén. Para los productos que no están habilitados para WMS, se crea una lista de selección cuando se confirma y libera la fórmula.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Pedidos de lote que no se aplican al equilibrio por lotes
 
 Existen dos excepciones a la regla de que los pedidos de lote se pueden aplicar al equilibrio por lotes si la fórmula tiene al menos una línea de fórmula en la que el **Tipo de ingrediente** es *Activo*.
 
-1. Si una fórmula contiene un ingrediente activo para un producto que está habilitado para los procesos de gestión de almacenes, pero el número de lote está debajo de la ubicación en la jerarquía de reservas, el pedido de lote no se aplica al equilibrio por lotes.
+1. Si una fórmula contiene un ingrediente activo para un producto que está habilitado para WMS, pero el número de lote está debajo de la ubicación en la jerarquía de reservas, el pedido de lote no se aplica al equilibrio por lotes.
 1. Si la unidad de medida de la fórmula es diferente de la unidad de medida del inventario del ingrediente activo, el pedido de lote no es apto para el equilibrio por lotes.
 
 Un pedido de lote que no se aplica al equilibrio por lotes pasa por el ciclo de proceso habitual para los pedidos de lote.

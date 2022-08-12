@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859441"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069828"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espacio de trabajo móvil de inventario disponible
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859441"
 
 Este artículo proporciona información sobre del área de trabajo móvil **Inventario disponible**. Este espacio de trabajo le ayuda a obtener información del inventario reservado y disponible en cualquier momento y en cualquier lugar.
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
+Este espacio de trabajo móvil se debe usar con la aplicación móvil de finanzas y operaciones (Dynamics 365).
 
 ## <a name="overview"></a>Información general
 Por lo general, las empresas tienen múltiples envíos y múltiples recepciones de inventario cada día. Estos movimientos cambian constantemente el estado del inventario disponible. El área de trabajo móvil **Inventario disponible** le permite ver el estado de inventario disponible entre empresas, de modo que puede obtener la información más reciente sobre los datos de inventario en el dispositivo móvil que elija. Independientemente de si trabaja en el almacén, compras, ventas, fabricación o administración, o tiene otras funciones, puede tener acceso a los datos de inventario disponible en cualquier momento y en cualquier lugar. 
@@ -131,3 +131,4 @@ Descargar e instalar la aplicación móvil de finanzas y operaciones (Dynamics 3
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

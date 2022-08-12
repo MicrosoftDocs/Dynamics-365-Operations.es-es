@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857442"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066000"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
 
@@ -33,7 +33,7 @@ Puede seleccionar la estrategia completa para suministrar un producto, independi
 
 Por ejemplo, puede tener control de kanban en el ensamblado, donde los materiales se abastecen para la zona de montaje por pedidos de producción, kanban, transferencias, pedidos de lote o cualquier combinación que sea adecuada para las características de la cadena de suministro, pero puede seguir teniendo visibilidad completa de los suministros. Esta capacidad conduce a procesos de cadena de suministro optimizados y la visibilidad en la cadena de suministro aumenta.  
 
-La granularidad de las directivas de suministro que se usan en la programación maestra depende de las dimensiones de almacenamiento que se habilitan como dimensiones de cobertura. Para permitir que la programación maestra controle el reabastecimiento y el suministro de distintos tipos de ubicaciones (por ejemplo, separando la planta de producción para distintas unidades de producción o separando diferentes tipos de materiales y almacenes de mercancías terminadas), se recomienda que habilite el sitio y el almacén como dimensiones de cobertura. De manera alternativa, el almacén se puede anular como dimensión de cobertura. En ese caso, cuando se usa la gestión de almacenes avanzada, todos los movimientos dentro de un almacén se controlan por el trabajo del almacén, mientras que todos los movimientos de un almacén a otro pueden ser controlados por kanban de retirada.
+La granularidad de las directivas de suministro que se usan en la programación maestra depende de las dimensiones de almacenamiento que se habilitan como dimensiones de cobertura. Para permitir que la programación maestra controle el reabastecimiento y el suministro de distintos tipos de ubicaciones (por ejemplo, separando la planta de producción para distintas unidades de producción o separando diferentes tipos de materiales y almacenes de mercancías terminadas), se recomienda que habilite el sitio y el almacén como dimensiones de cobertura. De manera alternativa, el almacén se puede anular como dimensión de cobertura. En ese caso, cuando se usan procesos de gestión de almacenes (WMS), todos los movimientos dentro de un almacén se controlan por el trabajo del almacén, mientras que todos los movimientos de un almacén a otro pueden ser controlados por kanban de retirada.
 
 ## <a name="supply-policies"></a>Directivas de suministro
 La planificación modo mezcla controla el modo de suministrar un producto y, en función del suministro, el modo de emisión de los requisitos derivados (consumo de artículos de una lista de materiales \[L. MAT\]). Según el tipo de pedido, el sistema automáticamente suministra materiales para que coincidan con los requisitos.  

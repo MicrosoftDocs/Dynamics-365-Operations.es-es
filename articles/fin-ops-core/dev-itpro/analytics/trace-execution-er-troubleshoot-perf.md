@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851962"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108868"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Seguir la ejecución de formatos de ER para solucionar problemas de rendimiento
 
@@ -98,7 +98,7 @@ Supongamos que ha empezado a diseñar una nueva solución de ER para generar un 
 
 Supongamos que haya terminado de diseñar de la primera versión de la solución de ER. Ahora desea probarla en su instancia y analizar el rendimiento de la ejecución.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importar configuraciones de ER de RCS a Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importar configuraciones de ER de RCS a finanzas y operaciones
 
 1. Iniciar sesión en su instancia de aplicación.
 2. Para este tutorial, se importarán las configuraciones de la instancia de RCS (donde se diseñan sus componentes de ER) en la instancia (donde las prueba y finalmente usa). Por lo tanto, debe asegurarse de que se hayan preparado todas artefactos necesarios. Para más instrucciones, consulte el procedimiento [Importar configuraciones de informes electrónicos (ER) de Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
@@ -363,7 +363,7 @@ Observe que el explorador web proporciona un archivo zip para su descarga. Este 
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilice herramientas externas para revisar una seguimiento de ejecución que incluya consultas en bases de datos
 
-Debido a mejoras que se han realizado en el marco de ER, el seguimiento del rendimiento que se genera en formato PerfView ofrece ahora más detalles sobre la ejecución del formato de ER. En la versión 10.0.4 de Microsoft Dynamics 365 for Finance and Operations (julio de 2019), este seguimiento también puede incluir detalles de consultas SQL ejecutadas en la base de datos de aplicaciones.
+Debido a mejoras que se han realizado en el marco de ER, el seguimiento del rendimiento que se genera en formato PerfView ofrece ahora más detalles sobre la ejecución del formato de ER. En la versión 10.0.4 de Microsoft Dynamics 365 Finance (julio de 2019), este seguimiento también puede incluir detalles de consultas SQL ejecutadas en la base de datos de aplicaciones.
 
 ### <a name="configure-user-parameters"></a>Configurar los parámetros del usuario
 
@@ -392,3 +392,4 @@ Observe que el explorador web proporciona un archivo zip para su descarga. Este 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

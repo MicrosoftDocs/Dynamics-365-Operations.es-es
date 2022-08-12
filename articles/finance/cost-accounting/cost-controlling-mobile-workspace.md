@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874678"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069575"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espacio de trabajo móvil de control de costes
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874678"
 
 Este artículo proporciona información sobre del espacio de trabajo móvil de **Control de costes**. Este espacio de trabajo permite a los administradores de un centro de coste ver información acerca del rendimiento del centro de coste en cualquier momento y cualquier lugar.
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
+Este espacio de trabajo móvil se debe usar con la aplicación móvil de finanzas y operaciones (Dynamics 365).
 
 ## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Control de costes** proporciona una vista inmediata del rendimiento actual de los centros de costes al comparar los costes reales con los costes presupuestados. Puede explorar en profundidad el estado de los elementos de coste individuales.
@@ -146,3 +146,4 @@ Descargar e instalar la aplicación móvil de finanzas y operaciones (Dynamics 3
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

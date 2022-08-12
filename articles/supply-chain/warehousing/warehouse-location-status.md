@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850420"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065476"
 ---
 # <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 
@@ -165,7 +165,7 @@ El escenario de ejemplo requiere que prepare dos perfiles de ubicación.
 1. Tenga en cuenta que el campo **Estado de ubicación** para la ubicación desde la que se seleccionó el trabajo de pedido de ventas ahora está establecido en *Picking* y que el campo **Fecha y hora de la última actividad** se ha sido actualizado.
 
 > [!NOTE]
-> Los campos de ubicación se actualizan solo mediante transacciones de almacén. Si mueve el inventario utilizando un diario u otros procesos que no sean de WHS, los campos no se actualizarán.
+> Los campos de ubicación se actualizan solo mediante transacciones de almacén. Si mueve el inventario utilizando un diario u otros procesos que no sean de WMS, los campos no se actualizarán.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

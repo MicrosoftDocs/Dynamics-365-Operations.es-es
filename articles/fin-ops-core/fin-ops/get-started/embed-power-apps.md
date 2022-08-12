@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898409"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123666"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Insertar aplicaciones de lienzo desde Power Apps
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898409"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps es un servicio que permite tanto a desarrolladores como a usuarios no técnicos crear aplicaciones empresariales personalizadas para dispositivos móviles, tabletas y la Web sin escribir código. Las aplicaciones de Finanzas y operaciones admiten la integración con Power Apps. Las aplicaciones de lienzo que usted, su organización,o el ecosistema más amplio desarrollan se pueden insertar en las aplicaciones de Finance and Operations para aumentar la funcionalidad de producto. Por ejemplo, puede crear una aplicación de lienzo en Power Apps que complemente a la aplicación de Finanzas y operaciones con información recuperada de otro sistema.
+Microsoft Power Apps es un servicio que permite tanto a desarrolladores como a usuarios no técnicos crear aplicaciones empresariales personalizadas para dispositivos móviles, tabletas y la Web sin escribir código. Las aplicaciones de finanzas y operaciones admiten la integración con Power Apps. Las aplicaciones de lienzo que usted, su organización,o el ecosistema más amplio desarrollan se pueden insertar en las aplicaciones de finanzas y operaciones para aumentar la funcionalidad de producto. Por ejemplo, puede crear una aplicación de lienzo en Power Apps que complemente a la aplicación de finanzas y operaciones con información recuperada de otro sistema.
 
 Para obtener más información acerca de la integración de aplicaciones de lienzo, vea el vídeo corto [Cómo insertar aplicaciones de lienzo](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -35,7 +35,7 @@ Para obtener más información acerca de la integración de aplicaciones de lien
 
 Antes de incrustar una aplicación de lienzo de Power Apps en el cliente, primero debe encontrar o compilar una aplicación con las representaciones visuales y/o la funcionalidades deseadas. Este artículo no incluye una descripción detallada del proceso para crear aplicaciones. Si es nuevo en Power Apps, mire la [documentación de Power Apps](/powerapps/).
 
-Hay tres formas de insertar una aplicación de lienzo en una aplicación de Finanzas y operaciones. Puede utilizar el enfoque que se adapte mejor a su escenario. 
+Hay tres formas de insertar una aplicación de lienzo en una aplicación de finanzas y operaciones. Puede utilizar el enfoque que se adapte mejor a su escenario. 
 
 - Inserte la aplicación de lienzo en el botón **Power Apps** del panel de acciones estándar de una página. Las aplicaciones que agrega de esta manera aparecen como elementos en el botón de menú **Power Apps** y las aplicaciones se abren en los paneles laterales. 
 - Inserte la aplicación de lienzo directamente en una página existente como una página de pestaña nueva (pestaña dinámica, pestaña desplegable, hoja o sección del espacio de trabajo).
@@ -68,7 +68,7 @@ El siguiente procedimiento muestra cómo insertar una aplicación de lienzo en u
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Insertar una aplicación de lienzo como una experiencia de página completa desde el panel de información
 
-Es posible que desee insertar una aplicación de lienzo desde el panel de información si la aplicación no está relacionada con una página existente, o si desea que la aplicación solo se vea como una experiencia de página completa dentro de la aplicación de Finanzas y operaciones.
+Es posible que desee insertar una aplicación de lienzo desde el panel de información si la aplicación no está relacionada con una página existente, o si desea que la aplicación solo se vea como una experiencia de página completa dentro de la aplicación de finanzas y operaciones.
 
 > [!NOTE]
 > Para que esta capacidad esté disponible, debe activar la característica **Aplicaciones de página completa** en la Administración de características. 
@@ -86,7 +86,7 @@ Al insertar una aplicación de lienzo, debe establecer los siguientes parámetro
 
 - **Nombre**: escriba el texto que debe mostrarse para el botón o la pestaña que va a contener la aplicación insertada. Muchas veces puede que desee repetir el nombre de la aplicación en este campo.
 - **Id. de aplicación**: indica el identificador único global (GUID) de la aplicación de lienzo que desea insertar. Para recuperar este valor, encuentre la aplicación en [make.powerapps.com](https://make.powerapps.com) y después mire en el campo **Identificador de la aplicación** en **Detalles**.
-- **Contexto de entrada para la aplicación**: opcionalmente, puede seleccionar el campo que contiene los datos que desea pasar a la aplicación como entrada. Para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finanzas y operaciones, consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación que aproveche los datos enviados desde aplicaciones de Finanzas y operaciones](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) más adelante en este mismo artículo.
+- **Contexto de entrada para la aplicación**: opcionalmente, puede seleccionar el campo que contiene los datos que desea pasar a la aplicación como entrada. Para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de finanzas y operaciones, consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación que aproveche los datos enviados desde aplicaciones de finanzas y operaciones](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) más adelante en este mismo artículo.
 
     A partir de la versión 10.0.19, la entidad jurídica actual también se pasará a la aplicación de lienzo como contexto a través del parámetro de URL **cmp**. Este comportamiento no afectará a la aplicación de lienzo de destino hasta que la aplicación use esa información.
 
@@ -107,15 +107,15 @@ Una vez que haya insertado una aplicación de lienzo en una página y confirmado
     - Si la característica **Vistas guardadas** está desactivada, el administrador del sistema puede dar una personalización que incluya la aplicación de lienzo al conjunto de usuarios adecuado a través de la página **Personalización**. Como alternativa, puede exportar las personalizaciones de la página y enviarlas a uno o más usuarios. Cada uno de esos usuarios podrá importar la personalización. La barra de herramientas de personalización tiene botones que permiten exportar e importar personalizaciones.
 
 > [!NOTE]
-> Si la aplicación de lienzo se ha compartido con usuarios externos, esos usuarios no pueden usar la aplicación incorporada dentro de aplicaciones de Finance and Operations. Sin embargo, pueden acceder a la aplicación directamente desde Power Apps. Los usuarios externos incluyen invitados y usuarios que no pertenecen al directorio de Microsoft 365 Azure, donde la aplicación de Finanzas y operaciones está implementada.
+> Si la aplicación de lienzo se ha compartido con usuarios externos, esos usuarios no pueden usar la aplicación incorporada dentro de aplicaciones de finanzas y operaciones. Sin embargo, pueden acceder a la aplicación directamente desde Power Apps. Los usuarios externos incluyen invitados y usuarios que no pertenecen al directorio de Microsoft 365 Azure, donde la aplicación de finanzas y operaciones está implementada.
 
 Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más detalles sobre las capacidades de personalización en el producto y cómo utilizarlas.
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creación de una aplicación de lienzo que utiliza datos enviados desde aplicaciones de Finance and Operations
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creación de una aplicación de lienzo que utiliza datos enviados desde aplicaciones de finanzas y operaciones
 
-Cuando crea una aplicación de lienzo que se incrustará en una aplicación de Finance and Operations, una parte importante del proceso es utilizar los datos de entrada de esa aplicación de Finance and Operations. Desde la experiencia de desarrollo de Power Apps, se puede acceder a los datos de entrada que se pasan desde una aplicación de Finanzas y operaciones utilizando la variable **Param("EntityId")**. Además, a partir de la versión 10.0.19, la entidad jurídica actual también se pasará como contexto a la aplicación de lienzo a través de la variable **Param("cmp")**. 
+Cuando crea una aplicación de lienzo que se incrustará en una aplicación de finanzas y operaciones, una parte importante del proceso es utilizar los datos de entrada de esa aplicación de finanzas y operaciones. Desde la experiencia de desarrollo de Power Apps, se puede acceder a los datos de entrada que se pasan desde una aplicación de finanzas y operaciones utilizando la variable **Param("EntityId")**. Además, a partir de la versión 10.0.19, la entidad jurídica actual también se pasará como contexto a la aplicación de lienzo a través de la variable **Param("cmp")**. 
 
-Por ejemplo, en la función de OnStart de la aplicación, puede establecer los datos de entrada desde aplicaciones de Finance and Operations en una variable como esta:
+Por ejemplo, en la función de OnStart de la aplicación, puede establecer los datos de entrada desde aplicaciones de finanzas y operaciones en una variable como esta:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Ver una aplicación de lienzo
 
-Para ver una aplicación de lienzo incrustada en una página de aplicaciones de Finance and Operations, simplemente vaya a una página con una aplicación incrustada. Recuerde que se puede acceder a las aplicaciones mediante el botón **Power Apps** en el panel de acciones estándar. Como alternativa, pueden aparecer directamente en la página como nueva ficha, ficha desplegable u hoja, o como nueva sección en un área de trabajo. Cuando los usuarios intentan cargar una aplicación en una página por primera vez, se les pedirá que inicien sesión. Este paso asegura que los usuarios tengan los permisos adecuados para usar la aplicación.
+Para ver una aplicación de lienzo incrustada en una página de aplicaciones de finanzas y operaciones, simplemente vaya a una página con una aplicación incrustada. Recuerde que se puede acceder a las aplicaciones mediante el botón **Power Apps** en el panel de acciones estándar. Como alternativa, pueden aparecer directamente en la página como nueva ficha, ficha desplegable u hoja, o como nueva sección en un área de trabajo. Cuando los usuarios intentan cargar una aplicación en una página por primera vez, se les pedirá que inicien sesión. Este paso asegura que los usuarios tengan los permisos adecuados para usar la aplicación.
 
 ## <a name="editing-an-embedded-app"></a>Editar una aplicación incrustada
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

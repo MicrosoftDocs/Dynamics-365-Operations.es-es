@@ -1,6 +1,6 @@
 ---
 title: Configurar ubicaciones en un almacén con WMS
-description: Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos avanzados de gestión de almacenes).
+description: Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos de gestión de almacenes (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599357"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067285"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar ubicaciones en un almacén con WMS
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos avanzados de gestión de almacenes). El proceso normalmente lo realiza el director del almacén. Puede realizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Una condición previa es que tenga al menos un sitio configurado.
+Este procedimiento le muestra cómo configurar la ubicación para un nuevo almacén con WMS (un almacén que usa procesos de gestión de almacenes (WMS)). El proceso normalmente lo realiza el director del almacén. Puede realizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Una condición previa es que tenga al menos un sitio configurado.
 
 
 ## <a name="create-a-new-warehouse"></a>Creación de un nuevo almacén
@@ -35,7 +35,7 @@ Este procedimiento le muestra cómo configurar la ubicación para un nuevo almac
 4. En el campo **Nombre**, escriba un valor.
 5. En el campo **Sitio**, seleccione o escriba un valor de sitio existente.
 6. Expanda la sección **Almacén**.
-7. Establezca **Usar procesos de gestión de almacenes** en Sí. Esta configuración permite ejecutar procesos de almacenamiento avanzados mediante trabajos de almacén y dispositivos móviles.
+7. Establezca **Usar procesos de gestión de almacenes** en Sí. Esta configuración permite ejecutar procesos de gestión de almacenes (WMS) mediante trabajos de almacén y dispositivos móviles.
 8. Cierre la página.
 
 ## <a name="define-a-location-format"></a>Definición de un formato de ubicación
@@ -68,7 +68,7 @@ Este procedimiento le muestra cómo configurar la ubicación para un nuevo almac
 5. Cierre la página.
 
 ## <a name="define-location-profile"></a>Definición de un perfil de ubicación
-1. Vaya al **Panel de exploración > Módulos > Gestión de almacenes > Configuración > Almacén > Perfiles de ubicación**. La definición de los perfiles de ubicación es muy importante. Aquí se puede controlar la capacidad de las ubicaciones agrupadas, así como las directivas relacionadas con qué inventario se incluye en el almacén y cómo. Los perfiles de ubicación se pueden usar como opciones de filtrado para controlar los distintos procesos de gestión de almacenes. Como mínimo, debe crear un perfil de ubicación de usuario para habilitar los procesos de gestión de almacenes.
+1. Vaya al **Panel de exploración > Módulos > Gestión de almacenes > Configuración > Almacén > Perfiles de ubicación**. La definición de los perfiles de ubicación es muy importante. Aquí se puede controlar la capacidad de las ubicaciones agrupadas, así como las directivas relacionadas con qué inventario se incluye en el almacén y cómo. Los perfiles de ubicación se pueden usar como opciones de filtrado para controlar los distintos procesos de gestión de almacenes. Como mínimo, debe crear un perfil de ubicación de usuario para habilitar WMS.
 2. Haga clic en **Nuevo**.
 3. En el campo **Id. de perfil de ubicación**, escriba un valor.
 4. En el campo **Nombre**, escriba un valor.

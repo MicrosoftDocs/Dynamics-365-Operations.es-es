@@ -1,5 +1,5 @@
 ---
-title: Obtener soporte para aplicaciones de Finance and Operations o Lifecycle Services (LCS)
+title: Obtener soporte para aplicaciones de finanzas y operaciones o Lifecycle Services (LCS)
 description: Este artículo explica cómo obtener ayuda con aplicaciones de finanzas y operaciones o Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866442"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103415"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtener soporte para aplicaciones de Finance and Operations o Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtener soporte para aplicaciones de finanzas y operaciones o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Este artículo explica cómo obtener ayuda con aplicaciones de finanzas y operac
 <tbody>
 <tr>
 <td>Pregunte a la comunidad.</td>
-<td>Vaya a la página <a href="https://community.dynamics.com/">Comunidad de Dynamics 365</a> para obtener ayuda relacionada con sus consultas a la comunidad de Microsoft Dynamics.</td>
+<td>Vaya a la página <a href="https://community.dynamics.com/">Dynamics 365 Community</a> para obtener ayuda relacionada con sus consultas a la comunidad de Microsoft Dynamics.</td>
 </tr>
 <tr>
 <td>Obtener ayuda con preguntas sobre licencias.</td>
@@ -51,7 +51,7 @@ Este artículo explica cómo obtener ayuda con aplicaciones de finanzas y operac
 <td>En <a href="https://lcs.dynamics.com/">LCS</a>, utilice la herramienta <strong>Búsqueda de temas</strong> para buscar rápidamente artículos de Microsoft Knowledge Base (KB), correcciones y soluciones para los problemas notificados. Puede consultar qué problemas notificados están en proceso de corregirse para un área funcional específica, y cuáles ya han sido corregidos. Para obtener más información, consulte <a href="issue-search-lcs.md">Búsqueda de problema (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Obtenga soporte técnico dentro de su aplicación Finance and Operations.</td>
+<td>Obtenga soporte técnico dentro de su aplicación de finanzas y operaciones.</td>
 <td>Seleccione el botón <strong>Ayuda</strong> (<strong>?</strong>) en la esquina superior derecha de la aplicación y, a continuación, seleccione <strong>Soporte</strong>. Los problemas se notifican en la pestaña <strong>Problemas activos</strong> en LCS. Allí los administradores pueden determinar si deben ofrecer soporte interno o remitir los problemas a Microsoft.</td>
 </tr>
 <tr>
@@ -72,3 +72,4 @@ Este artículo explica cómo obtener ayuda con aplicaciones de finanzas y operac
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

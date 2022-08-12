@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b3660e1c7a0e236456d1a16c628fd5d538f045f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862609"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111377"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 
@@ -46,7 +46,7 @@ En la tabla siguiente muestran los pasos y los roles que están involucrados en 
 | Administrador            | | | Cree un usuario en Supply Chain Management y Microsoft Azure. | | | |
 | Persona de contacto del proveedor    | | | Enviar correo electrónico a la persona de contacto. | Registrar la información del proveedor. | | |
 
-Para ver una demostración rápida del proceso de integración del proveedor, vea este vídeo corto de YouTube sobre [Cómo Integrar a un nuevo proveedor Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Para ver una demostración rápida del proceso de integración del proveedor, vea este vídeo corto de YouTube sobre [Cómo integrar a un nuevo proveedor en finanzas y operaciones](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importar la solicitud de registro del proveedor potencial
 

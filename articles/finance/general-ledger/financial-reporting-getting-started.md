@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033671"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066429"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a los informes financieros 
 
@@ -151,7 +151,7 @@ Puede crear un número ilimitado de organigramas para mostrar los datos de su or
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Actualizar la versión de informes financieros a través de la integración
 
-Las aplicaciones de Finanzas y Operaciones se actualizan todos los meses. Sin embargo, los informes financieros no se actualizan necesariamente con esa cadencia. Además, los clientes tienen más opciones sobre cuándo implementar actualizaciones para las aplicaciones de Finanzas y Operaciones. Las actualizaciones de informes financieros se instalan automáticamente. Los informes financieros tienen una versión designada que se utiliza en un entorno de cliente cuando se implementa una actualización de servicio, cuando se inicia el tiempo de inactividad o cuando el entorno de un cliente está en modo de mantenimiento. Este proceso se conoce como *deslizamiento* o *verdad hasta*, porque todas las implementaciones de los clientes están configuradas con la misma versión de informes financieros.
+Las aplicaciones de finanzas y operaciones se actualizan todos los meses. Sin embargo, los informes financieros no se actualizan necesariamente con esa cadencia. Además, los clientes tienen más opciones sobre cuándo implementar actualizaciones para las aplicaciones de finanzas y operaciones. Las actualizaciones de informes financieros se instalan automáticamente. Los informes financieros tienen una versión designada que se utiliza en un entorno de cliente cuando se implementa una actualización de servicio, cuando se inicia el tiempo de inactividad o cuando el entorno de un cliente está en modo de mantenimiento. Este proceso se conoce como *deslizamiento* o *verdad hasta*, porque todas las implementaciones de los clientes están configuradas con la misma versión de informes financieros.
 
 Los cambios que se publican en cada versión se pueden encontrar en [Novedades y cambios de Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Las actualizaciones de la plataforma y las correcciones de errores se pueden encontrar en la sección "Recursos adicionales" en la parte inferior de la página de cada versión.
 
@@ -254,3 +254,4 @@ Problema: recibe el error "No se puede conectar al servidor de informes financie
 - [Definiciones de organigramas en informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

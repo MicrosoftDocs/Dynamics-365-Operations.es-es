@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872951"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112406"
 ---
-# <a name="dual-write-overview"></a>Visión general de la doble escritura
+# <a name="dual-write-overview"></a>Información general sobre la doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
@@ -26,9 +26,9 @@ ms.locfileid: "8872951"
 
 ## <a name="what-is-dual-write"></a>¿Qué es la doble escritura?
 
-La doble escritura es una infraestructura lista para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de Finance and Operations. Cuando los datos sobre clientes, productos, personas y operaciones fluyen más allá de los límites de la aplicación, todos los departamentos de una organización tienen poder.
+La doble escritura es una infraestructura lista para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de finanzas y operaciones. Cuando los datos sobre clientes, productos, personas y operaciones fluyen más allá de los límites de la aplicación, todos los departamentos de una organización tienen poder.
 
-La doble escritura proporciona una integración bidireccional estrechamente acoplada entre aplicaciones Finanzas y Operaciones y Dataverse. Cualquier cambio de datos en aplicaciones Finanzas y Operaciones hace que se escriba en Dataverse y cualquier cambio de datos en Dataverse hace que se escriba en las aplicaciones Finanzas y Operaciones. Este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones.
+La doble escritura proporciona una integración bidireccional estrechamente acoplada entre aplicaciones de finanzas y operaciones y Dataverse. Cualquier cambio de datos en aplicaciones de finanzas y operaciones hace que se escriba en Dataverse y cualquier cambio de datos en Dataverse hace que se escriba en las aplicaciones de finanzas y operaciones. Este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones.
 
 ![Relación de datos entre aplicaciones.](media/dual-write-overview.jpg)
 
@@ -49,9 +49,9 @@ La infraestructura de doble escritura es extensible y fiable, e incluye las sigu
 + Administración fiable del ciclo de vida de la aplicación
 + Experiencia de configuración lista para usar para nuevos clientes
 
-### <a name="application"></a>Solicitud
+### <a name="application"></a>Aplicación
 
-La doble escritura crea una asignación entre conceptos en aplicaciones de Finance and Operations aplicaciones y conceptos en aplicaciones de interacción con los clientes. Esta integración admite los siguientes escenarios:
+La doble escritura crea una asignación entre conceptos en aplicaciones de finanzas y operaciones aplicaciones y conceptos en aplicaciones de interacción con los clientes. Esta integración admite los siguientes escenarios:
 
 + Maestro de clientes integrado
 + Acceso a tarjetas de fidelización de clientes y puntos de recompensa
@@ -80,15 +80,15 @@ La doble escritura proporciona integración de datos en las aplicaciones Microso
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>¿Qué significa la escritura dual para los desarrolladores y arquitectos de aplicaciones de interacción con los clientes?
 
-La doble escritura automatiza el flujo de datos entre aplicaciones Finance and Operations y aplicaciones de interacción con los clientes. La escritura dual consta de dos soluciones AppSource que están instaladas en Dataverse. Las soluciones amplían el esquema de la tabla, los complementos y los flujos de trabajo en Dataverse para que puedan escalar al tamaño de ERP. Para una implementación exitosa, los desarrolladores y arquitectos de aplicaciones de interacción con los clientes deben comprender estos cambios y colaborar con sus iguales en las aplicaciones de Finance and Operations.
+La doble escritura automatiza el flujo de datos entre aplicaciones de finanzas y operaciones y aplicaciones de interacción con los clientes. La escritura dual consta de dos soluciones AppSource que están instaladas en Dataverse. Las soluciones amplían el esquema de la tabla, los complementos y los flujos de trabajo en Dataverse para que puedan escalar al tamaño de ERP. Para una implementación exitosa, los desarrolladores y arquitectos de aplicaciones de interacción con los clientes deben comprender estos cambios y colaborar con sus iguales en las aplicaciones de finanzas y operaciones.
 
-Para crear paridad con las aplicaciones de Finanzas y Operaciones, la escritura dual hace algunos cambios cruciales en el esquema de Dataverse. Si comprende el plan, puede evitar algunas modificaciones de diseño y desarrollo en el futuro.
+Para crear paridad con las aplicaciones de finanzas y operaciones, la escritura dual hace algunos cambios cruciales en el esquema de Dataverse. Si comprende el plan, puede evitar algunas modificaciones de diseño y desarrollo en el futuro.
 
-+ Cuando el paquete de AppSource de escritura dual está instalado, Dataverse tendrá nuevos conceptos como empresa y parte. Estos conceptos ayudan a las aplicaciones basadas en Dataverse, incluidas Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service y Dynamics 365 Field Service a interactuar sin problemas con las aplicaciones de Finanzas y Operaciones.
++ Cuando el paquete de AppSource de escritura dual está instalado, Dataverse tendrá nuevos conceptos como empresa y parte. Estos conceptos ayudan a las aplicaciones basadas en Dataverse, incluidas Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service y Dynamics 365 Field Service a interactuar sin problemas con las aplicaciones de finanzas y operaciones.
 
 + Las actividades y notas se unifican y amplían para admitir tanto C1 (usuarios del sistema) como C2 (clientes del sistema).
 
-+ Para evitar la pérdida de datos durante la transmisión de divisas entre las aplicaciones de Finanzas y Operaciones y Dataverse, podrá ampliar el número de posiciones decimales en el tipo de datos de divisa de las aplicaciones de interacción con los clientes. La característica traduce automáticamente las filas existentes al nuevo estado extendido en la capa de metadatos. Durante este proceso, el valor de la moneda se convierte en datos decimales en lugar de datos monetarios, y el valor de la moneda admite 10 lugares decimales. Esta función es opcional y las organizaciones que no necesitan más de 4 lugares decimales de precisión no necesitan participar. Para más información, consulte [Migración de tipo de datos de moneda para escritura dual](currrency-decimal-places.md).
++ Para evitar la pérdida de datos durante la transmisión de divisas entre las aplicaciones de finanzas y operaciones y Dataverse, podrá ampliar el número de posiciones decimales en el tipo de datos de divisa de las aplicaciones de interacción con los clientes. La característica traduce automáticamente las filas existentes al nuevo estado extendido en la capa de metadatos. Durante este proceso, el valor de la moneda se convierte en datos decimales en lugar de datos monetarios, y el valor de la moneda admite 10 lugares decimales. Esta función es opcional y las organizaciones que no necesitan más de 4 lugares decimales de precisión no necesitan participar. Para más información, consulte [Migración de tipo de datos de moneda para escritura dual](currrency-decimal-places.md).
 
 + La [fecha de vigencia](../../dev-tools/date-effectivity.md) se agregará a Dataverse. Admitirá datos pasados, presentes y futuros en la misma tabla.
 
@@ -99,3 +99,4 @@ Para obtener más información sobre los próximos cambios, consulte [Novedades 
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875666"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111088"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -32,7 +32,7 @@ En este artículo se describen las ubicaciones técnicas y los activos en Admini
 
 ## <a name="overview"></a>Información general
 
-Administración de activos se integra de manera fluida con varios módulos con otras aplicaciones de Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
+Administración de activos se integra de manera fluida con varios módulos con otras aplicaciones de finanzas y operaciones. La ilustración siguiente muestra las interfaces con otros módulos.
 
 ![Diagrama que muestra cómo la Administración de activos interactúa con otros módulos.](media/01-overview-image.png)
 

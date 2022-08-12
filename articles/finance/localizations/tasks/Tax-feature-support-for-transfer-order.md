@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869992"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203121"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Compatibilidad de la característica de impuestos para pedidos de transferencia
 
@@ -111,7 +111,10 @@ Siga estos pasos para configurar el impuesto involucrado en un pedido de transfe
 6. Defina la aplicabilidad de los grupos de impuestos de artículos.
 
     1. Seleccione **Administrar columnas** y, a continuación, seleccione las columnas que se deben utilizar para crear la tabla de aplicabilidad.
-    2. Agregue reglas de aplicabilidad. No deje en blanco el campo **Grupo de impuestos de artículos**.
+    2. Agregue reglas de aplicabilidad.
+        
+       > [!NOTE]
+       > Si el grupo de impuestos sobre las ventas de artículos que se toma de manera predeterminada de las líneas del documento imponible es correcto, deje esta matriz en blanco. 
         
         Agregue una nueva regla para el envío y la recepción de pedidos de transferencia.
         1. En la página **Reglas de aplicabilidad**, seleccione **Agregar**.

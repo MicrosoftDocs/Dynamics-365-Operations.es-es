@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846665"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068934"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas o en desuso de Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ En este artículo se describen las características que se han quitado (o cuya e
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 > [!NOTE]
-> La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+> La información detallada sobre los objetos de aplicaciones de finanzas y operaciones se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Características quitadas o en desuso en la versión Finance 10.0.26
 
@@ -218,3 +218,4 @@ Para obtener más información sobre las funciones que se han eliminado o desapr
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

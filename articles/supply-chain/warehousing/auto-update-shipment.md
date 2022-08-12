@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903764"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067893"
 ---
 # <a name="shipment-auto-updates"></a>Actualizaciones automáticas de envíos
 
@@ -30,7 +30,7 @@ La funcionalidad de envío automático actualiza automáticamente cantidades (au
 
 Cuando la funcionalidad de envío de actualización automática no se utiliza, sólo fluyen las disminuciones de la cantidad automáticamente hasta que se crea el trabajo del almacén. Los usuarios deben actualizar o eliminar manualmente las líneas, y deben a continuación volver a liberar las líneas si se aumentan cantidades de pedido o se agregan nuevas líneas de pedido. Mediante la funcionalidad de envío de actualización automática, las empresas pueden proporcionar actualizaciones continuamente al almacén sin tener que preocuparse por que los envíos y las cargas relacionados no reflejen actualizaciones de la línea de pedido.
 
-La funcionalidad de envío de actualización automática se aplica a las líneas de pedido de ventas y a las líneas de pedido de transferencia, y está activada para un almacén específico. Por lo tanto, las empresas pueden aplicar diferentes directivas de actualización automática a través de los almacenes, según las necesidades. De forma predeterminada, la directiva de envío de actualización automática para disminuciones de la cantidad se aplica a todos los almacenes que utilicen procesos de gestión de almacenes. Cuando se usa este valor de la directiva predeterminada, sólo fluyen las disminuciones de la cantidad automáticamente a un envío y una carga hasta que se cree el trabajo del almacén. Este comportamiento se parece al comportamiento usado antes de que la funcionalidad de envío de actualización automática fuera especificada.
+La funcionalidad de envío de actualización automática se aplica a las líneas de pedido de ventas y a las líneas de pedido de transferencia, y está activada para un almacén específico. Por lo tanto, las empresas pueden aplicar diferentes directivas de actualización automática a través de los almacenes, según las necesidades. De forma predeterminada, la directiva de envío de actualización automática para disminuciones de la cantidad se aplica a todos los almacenes que utilicen procesos de gestión de almacenes (WMS). Cuando se usa este valor de la directiva predeterminada, sólo fluyen las disminuciones de la cantidad automáticamente a un envío y una carga hasta que se cree el trabajo del almacén. Este comportamiento se parece al comportamiento usado antes de que la funcionalidad de envío de actualización automática fuera especificada.
 
 ## <a name="main-elements-of-the-functionality"></a>Elementos principales de la funcionalidad
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863690"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070301"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -118,7 +118,7 @@ El tránsito directo planificado se implementa como un método de registro de ca
     - **Fuente de suministro:** *Orden de compra*
 
 > [!NOTE]
-> Puede configurar una consulta para controlar cuándo se usa una determinada plantilla de tránsito directo. La consulta de plantillas de tránsito directo solo tiene la tabla *InventTable* (elementos) y la tabla *WHSInventTable* interior unida (artículos WHS). Si desea agregar otras tablas a la consulta, puede unirlas usando solo *existen uniones* o *no existen uniones*. Cuando filtra en las tablas unidas, se recupera un registro de la tabla principal para cada registro coincidente en la tabla unida. Si el tipo de unión es *existe unión*, la búsqueda finaliza una vez que se ha encontrado la primera coincidencia. Por ejemplo, si une la tabla de línea de pedido de ventas a la tabla de artículos, el sistema valida y devuelve los artículos para los que al menos una línea del pedido de ventas tiene la condición definida. Básicamente, los datos se obtienen de la tabla principal (artículos), no de la tabla secundaria (línea de pedido de ventas). Por lo tanto, el filtrado por documentos de origen, como líneas de pedidos de venta o clientes, no se puede realizar de forma inmediata.
+> Puede configurar una consulta para controlar cuándo se usa una determinada plantilla de tránsito directo. La consulta de plantillas de tránsito directo solo tiene la tabla *InventTable* (elementos) y la tabla *WHSInventTable* interior unida (artículos WMS). Si desea agregar otras tablas a la consulta, puede unirlas usando solo *existen uniones* o *no existen uniones*. Cuando filtra en las tablas unidas, se recupera un registro de la tabla principal para cada registro coincidente en la tabla unida. Si el tipo de unión es *existe unión*, la búsqueda finaliza una vez que se ha encontrado la primera coincidencia. Por ejemplo, si une la tabla de línea de pedido de ventas a la tabla de artículos, el sistema valida y devuelve los artículos para los que al menos una línea del pedido de ventas tiene la condición definida. Básicamente, los datos se obtienen de la tabla principal (artículos), no de la tabla secundaria (línea de pedido de ventas). Por lo tanto, el filtrado por documentos de origen, como líneas de pedidos de venta o clientes, no se puede realizar de forma inmediata.
 
 ### <a name="create-a-work-class"></a>Crear una clase de trabajo
 

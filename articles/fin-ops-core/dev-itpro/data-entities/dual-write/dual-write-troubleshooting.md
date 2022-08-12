@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853666"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112376"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -55,28 +55,28 @@ Para ver el registro de seguimiento, siga estos pasos.
 
 Puede copiar el contenido de los registros de seguimiento y pegarlos en otra aplicación, como el Bloc de notas, u otras herramientas para ver registros o archivos de texto, para ver todo el contenido más fácilmente. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones de finanzas y operaciones
 
 **Rol requerido para ver los errores:** Administrador del sistema
 
-Los errores de doble escritura que se originan en Dataverse puede aparecer en la aplicación de Finanzas y operaciones. Para habilitar el registro detallado de errores, siga estos pasos:
+Los errores de doble escritura que se originan en Dataverse puede aparecer en la aplicación de finanzas y operaciones. Para habilitar el registro detallado de errores, siga estos pasos:
 
-1. Para todas las configuraciones del proyecto en las aplicaciones de Finanzas y operaciones tienen una propiedad **IsDebugMode** en la tabla **DualWriteProjectConfiguration**.
-2. Abra la tabla **DualWriteProjectConfiguration** mediante el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones, y agregue **DualWriteProjectConfiguration** a la hoja. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+1. Para todas las configuraciones del proyecto en las aplicaciones de finanzas y operaciones tienen una propiedad **IsDebugMode** en la tabla **DualWriteProjectConfiguration**.
+2. Abra la tabla **DualWriteProjectConfiguration** mediante el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de finanzas y operaciones, y agregue **DualWriteProjectConfiguration** a la hoja. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
 3. Establezca **IsDebugMode** en **Sí** para el proyecto.
 4. Ejecute el escenario que genera errores.
 5. Los registros detallados se almacenan en la tabla **DualWriteErrorLog**.
 6. Para buscar datos en el explorador de tablas, use el siguiente vínculo: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, reemplazando `999` según sea necesario.
 7. Actualice de nuevo después de [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), que está disponible para las actualizaciones de plataforma 37 y posteriores. Si tiene esta solución instalada, el modo de depuración capturará más registros.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verifique los errores de sincronización en la máquina virtual para la aplicación Finance and Operations
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verifique los errores de sincronización en la máquina virtual para la aplicación de finanzas y operaciones
 
 **Rol requerido para ver los errores**: Administrador del sistema
 
 1. Inicie sesión en Microsoft Dynamics LifeCycle Services (LCS).
 2. Abra el proyecto LCS que seleccionó para realizar la prueba de escritura dual.
 3. Seleccione el mosaico **Entornos hospedados en la nube**.
-4. Use Escritorio remoto para iniciar sesión en la máquina virtual (VM) para la aplicación Finance and Operations. Use la cuenta local que se muestra en LCS.
+4. Use Escritorio remoto para iniciar sesión en la máquina virtual (VM) para la aplicación de finanzas y operaciones. Use la cuenta local que se muestra en LCS.
 5. Abra el visor de eventos.
 6. Seleccione **Registros de aplicaciones y servicios \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operacional**.
 7. Revise la lista de errores recientes.
@@ -109,11 +109,11 @@ Las cookies de terceros deben estar permitidas en la configuración del navegado
 1.  Vaya a Configuración -> Permisos del sitio -> Cookies y datos del sitio.
 2.  Desactive 'Bloquear cookies de terceros'.  
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular otro entorno Dataverse de una aplicación de Finanzas y operaciones
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular otro entorno Dataverse de una aplicación de finanzas y operaciones
 
-**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de Finanzas y operaciones o Dataverse.
+**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de finanzas y operaciones o Dataverse.
 
-1. Iniciar sesión en la aplicación Finance and Operations.
+1. Iniciar sesión en la aplicación de finanzas y operaciones.
 2. Vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Doble escritura**.
 3. Seleccione todas las asignaciones en funcionamiento y seleccione **Detener**.
 4. Seleccione **Desvincular entorno**.
@@ -174,3 +174,4 @@ Para solucionar algunos problemas, el equipo de soporte técnico puede tener que
 4. Seleccione **Guardar** para exportar los resultados como HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

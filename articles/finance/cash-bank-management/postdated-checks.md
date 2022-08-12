@@ -1,7 +1,7 @@
 ---
 title: Cheques con fecha futura
-description: Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 Finance. Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura. Por tanto, no se puede cobrar el cheque hasta la fecha especificada.
-author: panolte
+description: Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados. Los cheques con fecha futura se emiten con el fin de realizar y recibir pagos en una fecha futura.
+author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4d32ed9de66bc92e17c5515a4266f41aaeb9f2c1
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722866"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151383"
 ---
 # <a name="postdated-checks"></a>Cheques con fecha futura
 

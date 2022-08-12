@@ -1,6 +1,6 @@
 ---
 title: Administración de la calidad para procesos de almacén
-description: Este artículo proporciona información acerca de la característica de gestión de calidad para los procesos de almacén. Esta característica amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante la gestión avanzada de almacenes.
+description: Este artículo proporciona información acerca de la característica de gestión de calidad para los procesos de almacén. Esta característica amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante procesos de gestión de almacenes (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857848"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069254"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Administración de la calidad para procesos de almacén
 
 [!include [banner](../includes/banner.md)]
 
-La característica _Administración de la calidad para procesos de almacén_ amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante la gestión avanzada de almacenes. El trabajo de almacén se puede generar automáticamente para mover el inventario a la ubicación de control de calidad, en función de un porcentaje o una cantidad fija, o según cada *n* matrículas. Una vez que se ha completado un pedido de calidad, el trabajo se puede generar automáticamente para mover el inventario a la siguiente ubicación en el proceso, dependiendo de los resultados de calidad.
+La característica _Administración de la calidad para procesos de almacén_ amplía las capacidades de gestión de calidad y permite a los usuarios integrar controles de muestreo de artículos en el proceso de recepción del almacén mediante procesos de gestión de almacenes (WMS). El trabajo de almacén se puede generar automáticamente para mover el inventario a la ubicación de control de calidad, en función de un porcentaje o una cantidad fija, o según cada *n* matrículas. Una vez que se ha completado un pedido de calidad, el trabajo se puede generar automáticamente para mover el inventario a la siguiente ubicación en el proceso, dependiendo de los resultados de calidad.
 
 La característica _Administración de la calidad para procesos de almacén_ amplía las capacidades de la función de gestión de calidad básica. Proporciona la opción de crear pedidos de calidad para el inventario que se envía a la ubicación de control de calidad, aunque no siempre se requieren pedidos de calidad. Por lo tanto, permite un proceso de control de calidad ligero basado en el trabajo de almacén.
 
@@ -77,7 +77,7 @@ Antes de aplicar la característica _Administración de la calidad para procesos
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
 1. Seleccione el almacén que desea habilitar para la administración de la calidad.
-1. En la ficha desplegable **Almacén**, configure la opción **Habilitar pedidos de calidad para procesos de almacén** como _Sí_. (Tenga en cuenta que esta opción se puede establecer en _Sí_ solo para almacenes que utilizan procesos de gestión de almacenes).
+1. En la ficha desplegable **Almacén**, configure la opción **Habilitar pedidos de calidad para procesos de almacén** como _Sí_. (Tenga en cuenta que esta opción se puede establecer en _Sí_ solo para almacenes que utilizan procesos de gestión de almacenes (WMS).)
 
 Cuando la opción **Habilitar pedidos de calidad para procesos de almacén** está establecida en _Sí_, la configuración de la asociación de calidad controla si la característica _Administración de calidad para procesos de almacén_ se aplica realmente para el almacén seleccionado. Puede cambiar la configuración de la opción a _No_ en cualquier momento. En ese caso, la función ya no se aplicará al almacén, independientemente de la configuración de la asociación de calidad.
 
@@ -97,7 +97,7 @@ Cada [registro de asociación de calidad](enable-quality-management.md) define t
     - **Todo**: desactiva la característica _Administración de la calidad para procesos de almacén_. Seleccione este valor para todos los tipos de referencia excepto *Compra* y *Producción*.
 
 > [!NOTE]
-> La característica _Administración de la calidad para procesos de almacén_ solo tiene efecto si el artículo en la línea del documento de origen usa procesos avanzados de administración de almacenes y si la opción **Habilitar pedidos de calidad para procesos de almacén** está establecida en _Sí_ para el almacén en la línea del documento de origen.
+> La característica _Administración de la calidad para procesos de almacén_ solo tiene efecto si el artículo en la línea del documento de origen usa procesos de gestión de almacenes (WMS) y si la opción **Habilitar pedidos de calidad para procesos de almacén** está establecida en _Sí_ para el almacén en la línea del documento de origen.
 
 A medida que cada elemento se registra (o se notifica como terminado), el sistema determina qué asociaciones de calidad se le aplican.
 

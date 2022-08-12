@@ -2,7 +2,7 @@
 title: Configurar la integración directa de FatturaPA italiana con SDI
 description: Este artículo proporciona información que lo ayudará a comenzar con la facturación electrónica para Italia y configurar la integración directa de FatturaPA italiana con el sistema Exchange (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853203"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203181"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurar la integración directa de FatturaPA italiana con SDI
 
@@ -69,10 +69,13 @@ Esta sección complementa la sección [Configuración específica del país para
     - Para la acción **Firmar documento**, en el campo **Nombre del certificado**, especifique el Certificado de firma digital.
     - Para la acción **Entregar**, establezca los campos **Dirección URL** y **Certificados**. El valor del campo **Certificados** es una cadena de certificados, el primero de los cuales es el certificado de CA raíz (caentrate.cer) y el segundo es el certificado de Clientes.
 
-4. Seleccione **Validar** para asegurarse de que se hayan configurado todos los campos obligatorios.
-5. Guarde los cambios y cierre la página.
-6. En la pestaña **Configuraciones**, seleccione **Facturas de proyectos** y luego seleccione **Editar**.
-7. Repita los pasos del 3 al 5 para las facturas del proyecto.
+4. En la sección **Reglas de aplicabilidad**, revise las cláusulas y revise o establezca los campos obligatorios:
+    - Revise la cláusula **LegalEntityID** y actualice con el valor correcto de su entidad legal.
+
+5. Seleccione **Validar** para asegurarse de que se hayan configurado todos los campos obligatorios.
+6. Guarde los cambios y cierre la página.
+7. En la pestaña **Configuraciones**, seleccione **Facturas de proyectos** y luego seleccione **Editar**.
+8. Repita los pasos del 3 al 6 para las facturas del proyecto.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Configurar la canalización de procesamiento para la importación
 

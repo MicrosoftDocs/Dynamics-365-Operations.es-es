@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710368"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067220"
 ---
 # <a name="collections-in-accounts-receivable"></a>Cobros en Clientes
 
@@ -65,7 +65,7 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 
 > [!NOTE]
 > Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. Sólo se muestra información para aquellos clientes para los que se haya creado una instantánea de vencimientos. Los registros que se muestran en la página de lista pueden estar más filtrados, por ejemplo:
-> <li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
+> <li>De forma predeterminada, un usuario de finanzas y operaciones tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
 > <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
 > <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente consulte todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
 
@@ -110,3 +110,4 @@ Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hace
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

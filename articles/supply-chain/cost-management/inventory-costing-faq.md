@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850855"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068405"
 ---
 # <a name="inventory-costing-faq"></a>P+F de gestión de costes de inventario
 
@@ -112,11 +112,11 @@ No, no puede habilitar la opción **Inventario financiero** para la dimensión *
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>¿Debo habilitar la opción Usar procesos de administración de almacenes para el grupo de dimensiones de almacenamiento?
 
-Si cree que podría querer usar las características avanzadas de administración de almacenes en el futuro, debe habilitar la opción **Utilizar procesos de administración de almacenes**. Después de guardar un grupo de dimensiones de almacenamiento, ya no puede cambiar la configuración de la opción **Utilizar procesos de administración de almacenes** para el mismo. Si decide utilizar procesos de administración de almacenes más adelante, deberá crear un nuevo almacén donde la opción esté habilitada. No existe un proceso automatizado que pueda usar para mover todo el inventario de un almacén a otro, o para copiar configuraciones relacionadas a un nuevo almacén.
+Si cree que podría querer usar las características de procesos de gestión de almacenes (WMS) en el futuro, debe habilitar la opción **Utilizar procesos de administración de almacenes**. Después de guardar un grupo de dimensiones de almacenamiento, ya no puede cambiar la configuración de la opción **Utilizar procesos de administración de almacenes** para el mismo. Si decide utilizar procesos de administración de almacenes más adelante, deberá crear un nuevo almacén donde la opción esté habilitada. No existe un proceso automatizado que pueda usar para mover todo el inventario de un almacén a otro, o para copiar configuraciones relacionadas a un nuevo almacén.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>¿Puedo habilitar el uso de procesos de administración de almacenes para el grupo de dimensiones de almacenamiento incluso si no planeo usar almacenamiento avanzado?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>¿Puedo habilitar el uso de procesos de administración de almacenes para el grupo de dimensiones de almacenamiento incluso si no planeo usar procesos de gestión de almacenes (WMS)?
 
-Sí, incluso si no planea usar las funciones avanzadas de administración de almacenes, puede habilitar la opción **Utilizar procesos de administración de almacenes** para el grupo de dimensiones de almacenamiento. Para crear y procesar transacciones, deberá completar la configuración mínima, como jerarquías de reserva y grupos de secuencia de unidades. Sin embargo, la configuración del almacenamiento avanzado generalmente se ignora cuando procesa manualmente las listas de selección, los albaranes y las recepciones de productos (por ejemplo, en las páginas de pedidos de ventas y pedidos de compra).
+Sí, incluso si no planea usar las funciones de procesos de gestión de almacenes (WMS), puede habilitar la opción **Utilizar procesos de administración de almacenes** para el grupo de dimensiones de almacenamiento. Para crear y procesar transacciones, deberá completar la configuración mínima, como jerarquías de reserva y grupos de secuencia de unidades. Sin embargo, la configuración de WMS generalmente se ignora cuando procesa manualmente las listas de selección, los albaranes y las recepciones de productos (por ejemplo, en las páginas de pedidos de ventas y pedidos de compra).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>¿Cuándo debo habilitar la opción de inventario físico para un grupo de dimensiones de seguimiento o almacenamiento?
 

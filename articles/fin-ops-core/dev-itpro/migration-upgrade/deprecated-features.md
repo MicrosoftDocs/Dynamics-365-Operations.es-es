@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866196"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124570"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Características quitadas o en desuso de versiones anteriores
 
@@ -28,7 +28,7 @@ ms.locfileid: "8866196"
 
 
 > [!IMPORTANT]
-> Este artículo ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
+> Este artículo ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de finanzas y operaciones, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
 
 Este artículo describe las características que se eliminaron o que están en desuso de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 
@@ -37,7 +37,7 @@ Este artículo describe las características que se eliminaron o que están en d
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -271,7 +271,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 con Platform update 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Control ReportViewer de SQL Server Reporting Services
-Los clientes pueden utilizar la acción **Exportar** proporcionada por el control incrustado SQL Server Reporting Services (SSRS) ReportViewer para descargar documentos producidos por las aplicaciones de Finance and Operations. Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.
+Los clientes pueden utilizar la acción **Exportar** proporcionada por el control incrustado SQL Server Reporting Services (SSRS) ReportViewer para descargar documentos producidos por las aplicaciones de finanzas y operaciones. Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados e
 | **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | Obsoleto: la advertencia es un error en tiempo de compilación con actualizaciones de plataforma para la versión 10.0.11 de aplicaciones de Finance and Operations. |
+| **Estado**                         | Obsoleto: la advertencia es un error en tiempo de compilación con actualizaciones de plataforma para la versión 10.0.11 de aplicaciones de finanzas y operaciones. |
 
 #### <a name="complete-list"></a>Lista completa
 Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).
@@ -1417,3 +1417,4 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

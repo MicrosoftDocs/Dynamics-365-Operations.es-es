@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865872"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109052"
 ---
 # <a name="optimization-advisor-overview"></a>Información general de asesor de optimización
 
@@ -44,7 +44,7 @@ Las directivas de seguridad estándar se aplican a las oportunidades de optimiza
 
 Cuando realiza acciones en algunas oportunidades de optimización, el sistema calcula el impacto de la oportunidad en términos de reducción del tiempo de ejecución de procesos empresariales. Desafortunadamente, esta característica no está disponible para todas las oportunidades de optimización.
 
-Para obtener más información acerca de aviso de optimización, vea el breve vídeo [Asesor de optimización en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Para obtener más información acerca de aviso de optimización, vea el breve vídeo [Asesor de optimización en Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Reglas de optimización
 
@@ -90,7 +90,7 @@ Para desactivar la evaluación de reglas específicas, seleccione la oportunidad
 
 [Crear reglas para el asesor de optimización](./create-rules-optimization-advisor.md)
 
-[Asesor de optimización en Dynamics 365 for Finance and Operations (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Asesor de optimización en Dynamics 365 Finance (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

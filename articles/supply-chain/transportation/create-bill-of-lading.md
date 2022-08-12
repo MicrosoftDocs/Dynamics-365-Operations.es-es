@@ -1,6 +1,6 @@
 ---
 title: Crear un conocimiento de embarque
-description: Este artículo describe cómo crear un conocimiento de embarque al utilizar procesos de gestión de almacenes.
+description: Este artículo describe cómo crear un conocimiento de embarque al utilizar procesos de gestión de almacenes (WMS).
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 68a703475191255ff6ceaee25ef8e2bdf33ba0c2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885794"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069708"
 ---
 # <a name="create-a-bill-of-lading"></a>Crear un conocimiento de embarque
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe cómo crear un conocimiento de embarque al utilizar procesos de gestión de almacenes.  
+Este artículo describe cómo crear un conocimiento de embarque al utilizar procesos de gestión de almacenes (WMS).  
 
 Un conocimiento de embarque es un documento legal entre la empresa que envía los artículos y el transportista. El documento acompaña a los artículos enviados y sirve como recepción de envío cuando los artículos se entregan en el destino. Si utiliza la gestión de almacenes, hay dos maneras de generar un conocimiento de embarque:
 

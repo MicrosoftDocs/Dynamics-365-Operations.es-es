@@ -1,6 +1,6 @@
 ---
 title: Preguntas frecuentes de clientes
-description: Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Finance and Operations.
+description: Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de finanzas y operaciones.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ca763f388bfc59951febf93f314d3df7e12c50cf
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071042"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124440"
 ---
 # <a name="client-faq"></a>Preguntas frecuentes de clientes
 
@@ -28,7 +28,7 @@ ms.locfileid: "8071042"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Finance and Operations.
+Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de finanzas y operaciones.
 
 ## <a name="why-arent-symbols-loaded"></a>¿Por qué los símbolos no se cargan?
 

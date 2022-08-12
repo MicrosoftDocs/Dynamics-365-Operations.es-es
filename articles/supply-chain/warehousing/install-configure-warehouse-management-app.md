@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941777"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171467"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar y conectar la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> Este artículo describe cómo configurar la nueva aplicación de almacén para gestión de almacenes. Si busca información sobre cómo configurar la aplicación de almacén anterior (ahora en desuso), consulte [Instalar y conectar la aplicación del almacén](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Este artículo explica cómo descargar e instalar la aplicación móvil Warehouse Management en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 

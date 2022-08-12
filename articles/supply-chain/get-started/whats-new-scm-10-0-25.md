@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954507"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167743"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -36,8 +36,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Inventario&nbsp;y&nbsp;logística | [Mejoras para materiales peligrosos](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | Próximamente | Administración de características:<br>*Mejoras para materiales peligrosos* |
 | Inventario&nbsp;y&nbsp;logística | [Trabajo de embalaje para estaciones de embalaje](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Próximamente | Administración de características:<br>*Trabajo de embalaje para estaciones de embalaje* |
 | Inventario&nbsp;y&nbsp;logística | [Escanear códigos de barras en el almacén utilizando los estándares de formato GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [Códigos de barras GS1 y códigos QR](../warehousing/gs1-barcodes.md) | Administración de características:<br>*Digitalizar códigos de barras de GS1* |
-| Fabricación | [Consumo de material y reservas en la interfaz de ejecución de planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Versión preliminar) Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*<br><br>Y/o:<br><br>Administración de características:<br>*(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)* |
-| Fabricación | [Registro de consumo de material en unidaes de escalado](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Cargas de trabajo de ejecución de fabricación para unidades de escalado en el perímetro y en la nube](../cloud-edge/cloud-edge-workload-manufacturing.md) | Administración de características:<br>*Registrar el consumo de material en la aplicación móvil en una unidad de escalado* |
+| Fabricación | [Consumo de material y reservas en la interfaz de ejecución de planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*<br><br>Y/o:<br><br>Administración de características:<br>*(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)* |
 | Planificada | [Mantenimiento de calendario centralizado de optimización de planificación](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Calendarios y planificación maestra](../master-planning/supply-chain-calendars-master-planning.md) | Habilitado por defecto |
 | Planificada | [Sugerencias de optimización de la planificación para optimizar el suministro existente](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Mensajes de acción](../master-planning/action-messages.md) | Habilitado por defecto |
 | Planificada | Pedidos planificados simplificados | [Pedidos planificados simplificados](../master-planning/planning-optimization/planned-orders-simplified.md ) | Administración de características:<br>*Pedidos planificados simplificados* |
@@ -183,9 +182,9 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de finanzas y operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.25 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.25 de aplicaciones de Finanzas y Operaciones (abril de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.25 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.25 de aplicaciones de finanzas y operaciones (abril de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-25.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -209,3 +208,4 @@ Antes de eliminar una característica del producto, se anunciará el aviso de de
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

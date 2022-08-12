@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896716"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111438"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -29,7 +29,7 @@ Este artículo proporciona información para solución de problemas de integraci
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>La sincronización en vivo muestra un error al crear una fila
 
-Es posible que reciba el siguiente mensaje de error cuando crea una fila en una aplicación Finance and Operations:
+Es posible que reciba el siguiente mensaje de error cuando crea una fila en una aplicación de finanzas y operaciones:
 
 *\[{\\"error\\":{\\"code\\":\\"0x80072560\\",\\"message\\":\\"El usuario no es miembro de la organización.\\"}}\], El servidor remoto devolvió un error: (403) Prohibido."}}".*
 
@@ -39,27 +39,27 @@ Para solucionar el problema, siga los pasos en [Requisitos del sistema y requisi
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
-Es posible que reciba el siguiente mensaje de error cuando intenta guardar datos de tabla en una aplicación de Finanzas y operaciones:
+Es posible que reciba el siguiente mensaje de error cuando intenta guardar datos de tabla en una aplicación de finanzas y operaciones:
 
 *No se pueden guardar los cambios en la base de datos. La unidad de trabajo no puede confirmar la transacción. No se pueden escribir datos en la entidad uoms. Las escrituras en UnitOfMeasureEntity fallaron con el mensaje de error No se puede sincronizar con las entidades uoms.*
 
-Para solucionar el problema, debe asegurarse de que los datos de referencia de requisitos previos existan en la aplicación de Finanzas y operaciones y Dataverse. Por ejemplo, si un registro de cliente pertenece a un grupo de clientes específico, asegúrese de que el registro del grupo de clientes exista en Dataverse.
+Para solucionar el problema, debe asegurarse de que los datos de referencia de requisitos previos existan en la aplicación de finanzas y operaciones y Dataverse. Por ejemplo, si un registro de cliente pertenece a un grupo de clientes específico, asegúrese de que el registro del grupo de clientes exista en Dataverse.
 
 Si existen datos en ambos lugares y ha confirmado que el problema no está relacionado con los datos, siga estos pasos.
 
-1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
 2. Seleccione y elimine los registros que tienen problemas en el mapa y el proyecto de escritura dual. Habrá dos registros para cada asignación de escritura dual.
 3. Publique los cambios mediante el complemento de Excel. Este paso es importante porque elimina los registros de la entidad y las tablas subyacentes.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestionar errores de privilegio de lectura o escritura cuando crea datos en una aplicación Finance and Operations
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Gestionar errores de privilegio de lectura o escritura cuando crea datos en una aplicación de finanzas y operaciones
 
-Es posible que reciba el mensaje de error "Solicitud incorrecta" cuando crea datos en una aplicación Finanzas y operaciones:
+Es posible que reciba el mensaje de error "Solicitud incorrecta" cuando crea datos en una aplicación de finanzas y operaciones:
 
 ![Ejemplo del mensaje de error de solicitud incorrecta.](media/error_record_id_source.png)
 
 Para solucionar el problema, debe habilitar el privilegio que falta asignando la función de seguridad correcta al equipo de las unidades de negocio asignadas de Dynamics 365 Sales o Dynamics 365 Customer Service.
 
-1. En la aplicación Finance and Operations, busque la unidad de negocio que está asignada en el conjunto de conexión de integración de datos.
+1. En la aplicación de finanzas y operaciones, busque la unidad de negocio que está asignada en el conjunto de conexión de integración de datos.
 
     ![Asignación de la organización.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Para solucionar el problema, debe habilitar el privilegio que falta asignando la
 
 **Rol requerido para arreglar el error:** Administrador del sistema
 
-Es posible que reciba el siguiente mensaje de error cuando crea datos en una aplicación Finance and Operations:
+Es posible que reciba el siguiente mensaje de error cuando crea datos en una aplicación de finanzas y operaciones:
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**No se puede generar la carga útil para la entidad CustCustomerV3Entity**","logDateTime":" 2019-08-27T18:51:52.5843124Z","verboseError":"Error en la creación de la carga útil con error URI no válido: el URI está vacío".}\], isErrorCountUpdated":true}*
 
@@ -85,19 +85,19 @@ Así es como se ve el mensaje error en la aplicación Customer Engagement:
 
 > Error inesperado de código de ISV. (ErrorType = ClientError) Excepción inesperada del complemento (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: no se pudo procesar la cuenta de la entidad - (Un intento de conexión falló porque la parte conectada no respondió correctamente después de un período de tiempo, o la conexión establecida falló porque el anfitrión conectado no pudo responder).
 
-Este error ocurre si el entorno de Dataverse se restablece incorrectamente cuando intenta crear datos en la aplicación de Finanzas y operaciones.
+Este error ocurre si el entorno de Dataverse se restablece incorrectamente cuando intenta crear datos en la aplicación de finanzas y operaciones.
 
 > [!IMPORTANT]
 > Si ha vuelto a vincular los entornos, debe detener todos los mapas de entidades antes de continuar con los pasos de mitigación.
 
-Para solucionar el problema, debe completar los pasos en Dataverse y la aplicación de Finanzas y operaciones.
+Para solucionar el problema, debe completar los pasos en Dataverse y la aplicación de finanzas y operaciones.
 
-1. En la aplicación de Finanzas y operaciones, siga estos pasos:
+1. En la aplicación de finanzas y operaciones, siga estos pasos:
 
-    1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+    1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
     2. Seleccione y elimine los registros que tienen problemas en el mapa y el proyecto de escritura dual. Habrá dos registros para cada asignación de escritura dual.
     3. Publique los cambios mediante el complemento de Excel. Este paso es importante porque elimina los registros de la entidad y las tablas subyacentes.
-    4. Para ayudar a prevenir errores al volver a vincular los entornos de Finanzas y operaciones o Dataverse, asegúrese de que no queden configuraciones de escritura dual.
+    4. Para ayudar a prevenir errores al volver a vincular los entornos de finanzas y operaciones o Dataverse, asegúrese de que no queden configuraciones de escritura dual.
 
 2. En Dataverse, siga estos pasos:
 
@@ -108,12 +108,12 @@ Para solucionar el problema, debe completar los pasos en Dataverse y la aplicaci
     5. Seleccione **Resultados** para ver las configuraciones.
     6. Elimine todas las instancias.
 
-3. En la aplicación de Finanzas y operaciones, siga estos pasos:
+3. En la aplicación de finanzas y operaciones, siga estos pasos:
 
-    1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+    1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
     2. Seleccione y elimine los registros que tienen problemas en el mapa y el proyecto de escritura dual. Habrá dos registros para cada asignación de escritura dual.
     3. Publique los cambios mediante el complemento de Excel. Este paso es importante porque elimina los registros de la entidad y las tablas subyacentes.
-    4. Para ayudar a prevenir errores al volver a vincular los entornos de Finanzas y operaciones o Dataverse, asegúrese de que no queden configuraciones de escritura dual.
+    4. Para ayudar a prevenir errores al volver a vincular los entornos de finanzas y operaciones o Dataverse, asegúrese de que no queden configuraciones de escritura dual.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Error de sincronización en vivo después de hacer una copia completa de la base de datos
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Los datos de las aplicaciones de Finanzas y operaciones no se sincronizan con Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Los datos de las aplicaciones de finanzas y operaciones no se sincronizan con Dataverse
 
-Durante la sincronización en vivo, puede encontrar un problema en el que solo se sincroniza una parte de los datos desde aplicaciones de Finanzas y operaciones para Dataverse o los datos no están sincronizados en absoluto.
+Durante la sincronización en vivo, puede encontrar un problema en el que solo se sincroniza una parte de los datos desde aplicaciones de finanzas y operaciones para Dataverse o los datos no están sincronizados en absoluto.
 
 > [!NOTE]
 > Debe solucionar este problema durante el desarrollo.
@@ -200,13 +200,13 @@ Antes de comenzar a solucionar el problema, revise los siguientes requisitos pre
 
 + Asegúrese de que sus cambios personalizados estén escritos en un solo alcance de transacción.
 + Los eventos empresariales y el marco de escritura dual no se manejan operaciones `doinsert()`, `doUpdate()` y `recordset()`, o registros donde `skipBusinessEvents(true)` está marcado. Si su código está dentro de estas funciones, no se activará la escritura dual.
-+ Los eventos comerciales deben registrarse para la fuente de datos que se asigna. Algunas fuentes de datos pueden usar una combinación externa y pueden estar marcadas como de solo lectura en aplicaciones de Finanzas y operaciones. No se realiza un seguimiento de estas fuentes de datos.
++ Los eventos comerciales deben registrarse para la fuente de datos que se asigna. Algunas fuentes de datos pueden usar una combinación externa y pueden estar marcadas como de solo lectura en aplicaciones de finanzas y operaciones. No se realiza un seguimiento de estas fuentes de datos.
 + Los cambios se activarán solo si las modificaciones están en los campos mapeados. Las modificaciones de campo no mapeadas no activarán la escritura dual.
 + Asegúrese de que las evaluaciones de los filtros proporcionen un resultado válido.
 
 ### <a name="troubleshooting-steps"></a>Pasos de solución de problemas
 
-1. Revise las asignaciones de campos en la página de administración de escritura dual. Si un campo no se asigna de las aplicaciones de Finanzas y operaciones a Dataverse, no se rastreará. Por ejemplo, en la siguiente ilustración, el campo **Descripción** se rastrea desde Dataverse, pero no desde las aplicaciones de Finanzas y operaciones. No se rastrearáan los cambios en ese campo en las aplicaciones de Finanzas y operaciones.
+1. Revise las asignaciones de campos en la página de administración de escritura dual. Si un campo no se asigna de las aplicaciones de finanzas y operaciones a Dataverse, no se rastreará. Por ejemplo, en la siguiente ilustración, el campo **Descripción** se rastrea desde Dataverse, pero no desde las aplicaciones de finanzas y operaciones. No se rastrearán los cambios en ese campo en las aplicaciones de finanzas y operaciones.
 
     ![Campo seguido.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Antes de comenzar a solucionar el problema, revise los siguientes requisitos pre
 
 ### <a name="sample-scenario"></a>Escenario de ejemplo
 
-En las aplicaciones de Finanzas y operaciones, hay una actualización de la dirección para un registro de contacto, pero el cambio de dirección no está sincronizado con Dataverse. Este escenario ocurre porque no hay registro en la tabla **NegociosEventosDefinición** tiene la combinación de la tabla afectada y la entidad. Específicamente, la tabla **LogisticsPostalAddress** no es la fuente de datos directa para la entidad **smmContactpersonCDSV2Entity**. La entidad **smmContactpersonCDSV2Entity** tiene **smmContactPersonV2Entity** como origen de datos y **smmContactPersonV2Entity**, a su vez, tiene **LogisticsPostalAddressBaseEntity** com origen de datos. La tabla **LogisticsPostalAddress** es la fuente de datos para **LogisticsPostalAddressBaseEntity**.
+En las aplicaciones de finanzas y operaciones, hay una actualización de la dirección para un registro de contacto, pero el cambio de dirección no está sincronizado con Dataverse. Este escenario ocurre porque no hay registro en la tabla **NegociosEventosDefinición** tiene la combinación de la tabla afectada y la entidad. Específicamente, la tabla **LogisticsPostalAddress** no es la fuente de datos directa para la entidad **smmContactpersonCDSV2Entity**. La entidad **smmContactpersonCDSV2Entity** tiene **smmContactPersonV2Entity** como origen de datos y **smmContactPersonV2Entity**, a su vez, tiene **LogisticsPostalAddressBaseEntity** com origen de datos. La tabla **LogisticsPostalAddress** es la fuente de datos para **LogisticsPostalAddressBaseEntity**.
 
-Una situación similar puede ocurrir en algunos patrones no estándar, como los casos en los que la tabla que se está modificando en als aplicaciones de Finanzas y operaciones obviamente no está vinculada a la entidad que las contiene. Por ejemplo, los datos de la dirección principal se calculan en la entidad **smmContactPersonCDSV2Entity**. El marco de escritura dual intenta determinar cómo un cambio en una tabla subyacente se asigna a las entidades. Por lo general, este enfoque es suficiente. Sin embargo, en algunos casos, el vínculo es tan complejo que debe ser específico. Debe asegurarse de que el **RecId** de la tabla relacionada está directamente disponible en la entidad. Luego agregue un método estático para monitorear la tabla en busca de cambios.
+Una situación similar puede ocurrir en algunos patrones no estándar, como los casos en los que la tabla que se está modificando en las aplicaciones de finanzas y operaciones obviamente no está vinculada a la entidad que las contiene. Por ejemplo, los datos de la dirección principal se calculan en la entidad **smmContactPersonCDSV2Entity**. El marco de escritura dual intenta determinar cómo un cambio en una tabla subyacente se asigna a las entidades. Por lo general, este enfoque es suficiente. Sin embargo, en algunos casos, el vínculo es tan complejo que debe ser específico. Debe asegurarse de que el **RecId** de la tabla relacionada está directamente disponible en la entidad. Luego agregue un método estático para monitorear la tabla en busca de cambios.
 
 Por ejemplo, revise el método **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** y **VendVendorV2Entity** han sido modificados para manejar esta situación.
 
@@ -250,19 +250,19 @@ Para arreglar el problema, siga estos pasos.
 5. Detenga todos los mapas de escritura dual que se crean en la entidad **smmContactPersonCDSV2Entity**.
 6. Inicie el mapa. Debería ver la nueva tabla (**LogisticsPostalAddress** en este ejemplo) que ha comenzado a rastrear usando la columna **RefTableName** para la fila donde el valor **refentityname** es igual a **smmContactPersonCDSV2Entity** en la tabla **NegociosEventosDefinición**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Error al crear un registro donde se envían varios registros desde una aplicación de Finanzas y operaciones para Dataverse en el mismo lote
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Error al crear un registro donde se envían varios registros desde una aplicación de finanzas y operaciones para Dataverse en el mismo lote
 
-Para cualquier transacción, una aplicación de Finanzas y operaciones crea datos en un lote y los envía como lote a Dataverse. Si se crean dos registros como parte de la misma transacción y hacen referencia entre sí, es posible que reciba un mensaje de error similar al siguiente ejemplo en la aplicación de Finanzas y operaciones:
+Para cualquier transacción, una aplicación de finanzas y operaciones crea datos en un lote y los envía como lote a Dataverse. Si se crean dos registros como parte de la misma transacción y hacen referencia entre sí, es posible que reciba un mensaje de error similar al siguiente ejemplo en la aplicación de finanzas y operaciones:
 
 *No se pueden escribir datos en la entidad aaa_fundingsources. No se puede buscar ebecsfs_contracts con valores {PC00...}. No se puede buscar aaa_fundingsources con valores {PC00...}. Las escrituras en aaa_fundingsources fallaron con el mensaje de error Mensaje de excepción: El servidor remoto devolvió un error: (400) Solicitud incorrecta.*
 
-Para solucionar el problema, cree relaciones de entidad en la app de Finanzas y operaciones para indicar que las dos entidades están relacionadas entre sí y que los registros relacionados se manejan en la misma transacción.
+Para solucionar el problema, cree relaciones de entidad en la app de finanzas y operaciones para indicar que las dos entidades están relacionadas entre sí y que los registros relacionados se manejan en la misma transacción.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Habilitar el registro detallado de mensajes de error
 
-En una aplicación de Finanzas y operaciones, es posible que encuentre errores relacionados con el entorno de Dataverse. Es posible que el mensaje de error no contenga el texto completo del mensaje u otros datos relevantes. Para obtener más información, puede habilitar el registro detallado configurando el indicador **IsDebugMode** que está presente en la entidad **DualWriteProjectConfigurationEntity** en todas las configuraciones del proyecto en aplicaciones de Finanzas y operaciones.
+En una aplicación de finanzas y operaciones, es posible que encuentre errores relacionados con el entorno de Dataverse. Es posible que el mensaje de error no contenga el texto completo del mensaje u otros datos relevantes. Para obtener más información, puede habilitar el registro detallado configurando el indicador **IsDebugMode** que está presente en la entidad **DualWriteProjectConfigurationEntity** en todas las configuraciones del proyecto en aplicaciones de finanzas y operaciones.
 
-1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de Finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
+1. Abra la entidad **DualWriteProjectConfigurationEntity** usando el complemento de Excel. Para usar el complemento, habilite el modo de diseño en el complemento de Excel de finanzas y operaciones y agregue **DualWriteProjectConfigurationEntity** a una hoja de cálculo. Para obtener más información, consulte [Usar Excel para ver y actualizar datos de entidades](../../office-integration/use-excel-add-in.md).
 2. Estableza el indiecador **IsDebugMode** en **Sí** en el proyecto.
 3. Ejecute el escenario.
 4. Los registros detallados están disponibles en la tabla **DualWriteErrorLog**. Para buscar datos mediante el navegador de tablas, utilice la siguiente URL: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ En una aplicación de Finanzas y operaciones, es posible que encuentre errores r
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Error al agregar una dirección para un cliente o contacto
 
-Es posible que reciba el siguiente mensaje de error cuando intente agregar una dirección para un cliente o contacto en aplicaciones de Finanzas y operaciones o Dataverse:
+Es posible que reciba el siguiente mensaje de error cuando intente agregar una dirección para un cliente o contacto en aplicaciones de finanzas y operaciones o Dataverse:
 
 *No se pueden escribir datos en la entidad msdyn_partypostaladdresses.Writes to DirPartyPostalAddressLocationCDSEntity falló con mensaje de error Solicitud fallida con código de estado BadRequest y código de error CDS: 0x80040265 mensaje de respuesta: Se produjo un error en el complemento. Ya existe un registro que tiene los valores de atributo ID de ubicación. La clave de entidad Clave de ID de ubicación requiere que este conjunto de atributos contenga valores únicos. Seleccione valores únicos y vuelva a intentarlo.*
 
@@ -290,7 +290,7 @@ Es posible que reciba el siguiente mensaje de error cuando intenta agregar un cl
 
 *"RecordError0": "Error de escritura para la entidad Clientes V3 con excepción desconocida - No se encontró el registro de parte para el tipo de parte 'Organización'"}.*
 
-Cuando se crea un cliente en Dataverse, se genera un nuevo número de partido. El mensaje de error se muestra cuando el registro del cliente, junto con la parte, se sincroniza con aplicaciones de Finanzas y operaciones, pero ya existe un registro de cliente que tiene un número de parte diferente.
+Cuando se crea un cliente en Dataverse, se genera un nuevo número de partido. El mensaje de error se muestra cuando el registro del cliente, junto con la parte, se sincroniza con aplicaciones de finanzas y operaciones, pero ya existe un registro de cliente que tiene un número de parte diferente.
 
 Para solucionar el problema, busque al cliente mediante la búsqueda de grupo. Si el cliente no existe, cree un nuevo registro de cliente. Si el cliente existe, use la parte existente para crear el nuevo registro de cliente.
 
@@ -300,7 +300,7 @@ Es posible que reciba el siguiente mensaje de error cuando intente crear un nuev
 
 *No se puede actualizar el tipo de una fiesta de 'DirOrganization' a 'DirPerson'; en su lugar, se debe eliminar la fiesta existente seguida de una inserción con el nuevo tipo.*
 
-En Dataverse, hay una secuencia numérica en la tabla **msdyn_party**. Cuando se crea una cuenta en Dataverse, se crea un nuevo partido (por ejemplo **Fiesta-001** del tipo **Organización**). Estos datos se envían a la aplicación de Finanzas y operaciones. Si el entorno de Dataverse se restablece, o el entorno de Finanzas y operaciones está vinculado a un entorno de Dataverse, y luego se crea un nuevo registro de contacto en Dataverse, se cera un nuevo valor de fiesta que comienza con **Fiesta-001**. Esta vez, el registro de fiesta que se crea será **Fiesta-001** del tipo **Persona**. Cuando se sincronizan estos datos, las aplicaciones de Finanzas y operaciones muestran el mensaje de error anterior, porque el registro de la fiesta **Fiesta-001** de tipo **Organización** ya existe.
+En Dataverse, hay una secuencia numérica en la tabla **msdyn_party**. Cuando se crea una cuenta en Dataverse, se crea un nuevo partido (por ejemplo **Fiesta-001** del tipo **Organización**). Estos datos se envían a la aplicación de finanzas y operaciones. Si el entorno de Dataverse se restablece, o el entorno de finanzas y operaciones está vinculado a un entorno de Dataverse, y luego se crea un nuevo registro de contacto en Dataverse, se cera un nuevo valor de fiesta que comienza con **Fiesta-001**. Esta vez, el registro de fiesta que se crea será **Fiesta-001** del tipo **Persona**. Cuando se sincronizan estos datos, las aplicaciones de finanzas y operaciones muestran el mensaje de error anterior, porque el registro de la fiesta **Fiesta-001** de tipo **Organización** ya existe.
 
 Para solucionar el problema, cambie la secuencia numérica automática del campo **msdyn_partynumber** de la tabla **msdyn_party** en Dataverse a una secuencia numérica automática diferente.
 
@@ -355,3 +355,4 @@ Después de actualizar los métodos, siga estos pasos.
 3. Inicie los mapas. Debería ver menos registros en las entidaddes **smmContactPersonCDSV2Entity** y **CustCustomerV3Entity** y la tabla **NegociosEventosDefinición**, y el rendimiento podría mejorar marginalmente.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

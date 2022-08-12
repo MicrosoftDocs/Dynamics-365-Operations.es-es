@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 61c457abf87ce2da554ddb1472512416159c4dca
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897788"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068436"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novedades o cambios en Dynamics 365 Human Resources 22 de junio de 2021
 
@@ -82,7 +82,7 @@ La siguientes características nuevas se incluyen como versión preliminar. Para
 
 | Característica | Detalles |
 | --- | --- |
-| Actualización de la plataforma 10.0.19 (43) | La actualización de la plataforma 10.0.19 está programada para comenzar a implementarse con la próxima versión de servicio el 28 de junio de 2021. Para obtener más información, consulte [Actualizaciones de platforma para la versión 10.0.19 de aplicaciones de finanzas y operaciones (junio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Actualización de la plataforma 10.0.19 (43) | La actualización de la plataforma 10.0.19 está programada para comenzar a implementarse con la próxima versión de servicio el 28 de junio de 2021. Para obtener más información, consulte [Actualizaciones de plataforma para la versión 10.0.19 de aplicaciones de finanzas y operaciones (junio de 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Alternar visualización de años de servicio | Esta función ofrece la opción de usar diferentes fechas para calcular los años de servicio que se muestran en el formulario **Entrada de empleados simplificada** y en el formulario **Personas**.  Estará disponible en los parámetros de Recursos Humanos. |
 |  Habilitar a un administrador de ausencias para administrar la licencia | [Habilitar a un administrador de ausencias para administrar la licencia](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Adjuntos de mandato para tipos de licencia específicos | Esta característica permite a los administradores exigir que se agreguen archivos adjuntos al enviar solicitudes de baja para tipos de baja específicos. |
@@ -99,3 +99,4 @@ Para obtener una lista completa de las características previstas y sus lanzamie
 [Administrar características](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

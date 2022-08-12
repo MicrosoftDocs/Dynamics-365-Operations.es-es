@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e18735117d1f671e0efc0947248bbe266fa0ca6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869673"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065611"
 ---
 # <a name="quarantine-orders"></a>Pedidos de cuarentena
 
@@ -31,7 +31,7 @@ Este artículo describe cómo se usan los pedidos de cuarentena para bloquear in
 Los pedidos de cuarentena le permiten bloquear inventario. Por ejemplo, puede que desee poner en cuarentena los artículos por motivos de control de calidad. El inventario que se ha puesto en cuarentena se transfiere a un almacén de cuarentena.
 
 > [!NOTE]
-> Si utiliza procesos avanzados de administración de almacenes (en Administración de almacenes), el procesamiento de pedidos en cuarentena solo se usa para los pedidos de ventas de devolución.
+> Si utiliza procesos de gestión de almacenes (en el módulo Gestión de almacenes), el procesamiento de pedidos en cuarentena solo se usa para los pedidos de ventas de devolución.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Poner en cuarentena artículos de inventario disponibles
 

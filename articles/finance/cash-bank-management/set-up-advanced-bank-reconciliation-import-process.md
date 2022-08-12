@@ -1,7 +1,7 @@
 ---
 title: Configurar el proceso de importación avanzada de conciliación bancaria
 description: La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,23 @@ ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727381"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151537"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> Esta funcionalidad quedará obsoleta en septiembre de 2022, los nuevos usuarios deben usar informes electrónicos. Para obtener más información, consulte [Configurar importación avanzada de conciliación bancaria mediante informes electrónicos](../accounts-payable/import-bai2-er.md).
+
 
 La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Dynamics 365 Finance. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
 

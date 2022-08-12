@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714845"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069134"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Directivas de unidad de medida y de existencias
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714845"
 
 Este artículo describe cómo se usan las unidades predeterminadas, las secuencias de unidad y las conversiones de unidades en los procesos de almacén.
 
-Los grupos de secuencia de unidades definen la secuencia de unidades que se puede usar en las operaciones de almacén. Se crean en la página **Grupos de secuencias de unidades**. La secuencia muestra la relación de las distintas unidades. Por ejemplo, almacena pallets que contienen cajas que, a su vez, contienen piezas individuales de artículos. En este caso, deberá proporcionar las tres unidades diferentes y el orden lógico de las capas. Los grupos de secuencias de unidades le permiten definir directivas para la agrupación de las matrículas y las unidades predeterminadas que se deben usar para los distintos procesos de almacén. Este artículo se aplica a la solución de almacenamiento avanzada que está disponible en Gestión de almacenes y la solución de almacenamiento más básica que está disponible en Gestión del inventario.
+Los grupos de secuencia de unidades definen la secuencia de unidades que se puede usar en las operaciones de almacén. Se crean en la página **Grupos de secuencias de unidades**. La secuencia muestra la relación de las distintas unidades. Por ejemplo, almacena pallets que contienen cajas que, a su vez, contienen piezas individuales de artículos. En este caso, deberá proporcionar las tres unidades diferentes y el orden lógico de las capas. Los grupos de secuencias de unidades le permiten definir directivas para la agrupación de las matrículas y las unidades predeterminadas que se deben usar para los distintos procesos de almacén. Este artículo se aplica a los procesos de gestión de almacenes (WMS) disponibles en el módulo Gestión de almacenes y la solución de almacenamiento más básica que está disponible en el módulo Gestión del inventario.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Grupos de secuencias de unidades para productos emitidos
 Si desea usar los productos emitidos en los procesos de trabajo de almacén, se les debe asignar un grupo de secuencias de unidades. Si valida un producto que está asociado a un grupo de dimensiones de almacenamiento y la opción **Usar procesos de gestión de almacenes** para el grupo de dimensiones de almacenamiento se establece en **Sí**, recibirá un mensaje de error si no se ha definido una identificación del grupo de secuencias de unidades para el producto. Si el grupo de secuencias de unidades que se usa contiene varias líneas (y por tanto varias unidades), debe configurar una conversión de unidades entre las unidades. Esta configuración se completa en la página **Conversiones de unidades**. La unidad más pequeña de un grupo de secuencias que se asocia a un artículo emitido debe coincidir con la unidad de inventario definida para el producto correspondiente. La unidad de inventario es la unidad que se usará para los cálculos de base del inventario disponible. También puede configurar las conversiones de unidad de medida para las variantes de productos maestros mediante la opción **Habilitar las conversiones de unidad de medida**.

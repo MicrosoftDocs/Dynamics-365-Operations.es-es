@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893102"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069194"
 ---
 # <a name="replenishment-overview"></a>Información general de reabastecimiento
 
@@ -70,8 +70,8 @@ En lugar de tener que aumentar la demanda al final del proceso de asignación y 
 
 |      Requisito previo       |                                                                                                                                Descripción                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Artículo           |                                                                                                        El artículo se debe habilitar para procesos de administración de almacenes.                                                                                                        |
-|        Almacén        | El almacén se debe habilitar para procesos de administración de almacenes. Para habilitar un almacén para procesos de administración de almacenes, en la página <strong>Almacenes</strong>, seleccione el almacén y, a continuación, seleccione la opción <strong>Usar procesos de gestión de almacenes</strong>. |
+|          Artículo           |                                                                                                        El artículo se debe habilitar para procesos de administración de almacenes (WMS).                                                                                                        |
+|        Almacén        | El almacén se debe habilitar para procesos de administración de almacenes (WMS). Para habilitar un almacén para WMS, en la página <strong>Almacenes</strong>, seleccione el almacén y, a continuación, seleccione la opción <strong>Usar procesos de gestión de almacenes</strong>. |
 | Plantillas de reabastecimiento |                                                                   Se debe configurar al menos una plantilla de reabastecimiento para el reabastecimiento mínimo/máximo, el reabastecimiento de la demanda de oleada o el reabastecimiento de la demanda de la carga.                                                                   |
 |        Ubicaciones        |                                                                                                       Se deben crear ubicaciones y conectarse a un perfil de ubicación.                                                                                                       |
 |    Perfiles de ubicación    |                                                                                                        Se requieren perfiles de ubicación para crear ubicaciones.                                                                                                        |

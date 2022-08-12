@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853359"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070646"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Planificar su plan de cuentas
 
@@ -43,7 +43,7 @@ Estos son algunos de los factores que se deben tener en cuenta la hora de planif
 Cree el plan de cuentas en la página **Plan de cuentas**. Puede crear las cuentas principales desde la página **Plan de cuentas** o la página **Cuentas principales**. Sus cuentas principales no deben usar ninguno de los caracteres especiales que se usan como delimitadores en los planes de cuentas. De lo contrario, es posible que experimente inestabilidad o puede que tenga que utilizar siempre las búsquedas o el cuadro de diálogo al especificar combinaciones de cuentas y dimensiones. Para obtener más información, consulte [Crear una cuenta principal](tasks/create-main-account.md).
 
 > [!NOTE]
-> En Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018), puede modificar el delimitador del plan de cuentas desde la página **Parámetros de contabilidad general**.
+> En Dynamics 365 Finance versión 8.0 (abril de 2018), puede modificar el delimitador del plan de cuentas desde la página **Parámetros de contabilidad general**.
 
 Conviene vincular cuentas principales a categorías de cuenta principal, de modo que pueda aprovecharse la ventaja de usar los informes financieros predeterminados sin tener que realizar ninguna modificación. Por lo tanto, puede diseñar y mantener más rápida y fácilmente los informes.
 
@@ -60,3 +60,4 @@ Para obtener más información, consulte los siguientes temas:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

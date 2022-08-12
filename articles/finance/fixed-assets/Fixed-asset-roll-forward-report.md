@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870144"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068792"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Informe de puesta al día para activos fijos
 
@@ -30,7 +30,7 @@ El informe de **Puesta al día para activos fijos** proporciona, en un formato d
 
 El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Este informe sólo está disponible en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, o como sustitución de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
+Este informe sólo está disponible en Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, o como sustitución de Microsoft Dynamics 365 Finance, Enterprise Edition (julio de 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
 
 - **KB 4041754:** la configuración de informes electrónicos (ER) no se puede descargar de LCS como no aplicable para la versión actual después de aplicar el paquete de actualización de la plataforma
 - **KB 4056107:** actualización acumulativa de informe electrónica 5 (GER)
@@ -67,3 +67,4 @@ En la tabla siguiente se describen los campos disponibles en el informe.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

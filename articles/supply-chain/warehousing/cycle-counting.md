@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902231"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065940"
 ---
 # <a name="cycle-counting"></a>Recuento cíclico
 
@@ -52,11 +52,11 @@ La tabla siguiente muestra los requisitos previos que deben cumplirse para poder
 <tbody>
 <tr class="odd">
 <td>Artículo</td>
-<td>El artículo se debe habilitar para procesos de administración de almacenes.</td>
+<td>El artículo se debe habilitar para procesos de administración de almacenes (WMS).</td>
 </tr>
 <tr class="even">
 <td>Almacén</td>
-<td>El almacén se debe habilitar para procesos de administración de almacenes. Para habilitar el almacén para procesos de administración de almacenes, en la página <strong>Almacenes</strong>, seleccione el almacén y, a continuación, seleccione la opción <strong>Usar procesos de gestión de almacenes</strong>. Para permitir que los trabajadores muevan pallets durante un recuento cíclico, en la ficha desplegable <strong>Administración de almacenes</strong>, seleccione la opción <strong>Permitir movimientos de pallet durante el recuento cíclico</strong>.</td>
+<td>El almacén se debe habilitar para procesos de administración de almacenes (WMS). Para habilitar el almacén para WMS, en la página <strong>Almacenes</strong>, seleccione el almacén y, a continuación, seleccione la opción <strong>Usar procesos de gestión de almacenes</strong>. Para permitir que los trabajadores muevan pallets durante un recuento cíclico, en la ficha desplegable <strong>Administración de almacenes</strong>, seleccione la opción <strong>Permitir movimientos de pallet durante el recuento cíclico</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Grupos de trabajo</td>

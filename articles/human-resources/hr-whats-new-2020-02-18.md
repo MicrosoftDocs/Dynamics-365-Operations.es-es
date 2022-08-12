@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42d00f570403af6e7a6a39a6643eec1f59ccdc20
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ec7d8dbc73dce57d3968c4d239a51d27673a2493
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687935"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066295"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (18 de febrero de 2020)
 
@@ -31,7 +31,7 @@ Este artículo describe las características que son nuevas o que se han cambiad
 
 ## <a name="platform-update-32"></a>Actualización 32 de la plataforma 
 
-La Platform update 32 ya está disponible. Para obtener más información, consulte [Novedades o cambios en Platform update 32 para Finance and Operations (febrero de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
+La Platform update 32 ya está disponible. Para obtener más información, consulte [Novedades o cambios en Platform update 32 para finanzas y operaciones (febrero de 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Los valores de búsqueda se recuerdan al cambiar las opciones de vista en forma de empleado optimizada (383833)
 

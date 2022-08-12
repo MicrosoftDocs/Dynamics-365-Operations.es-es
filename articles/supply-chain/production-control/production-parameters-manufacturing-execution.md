@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016170"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070391"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
@@ -71,7 +71,7 @@ Para cada fase, el campo **Consumo automático de L. MAT** permite seleccionar u
   - En blanco (no se ha seleccionado ninguna opción).
   - **Disponible en la ubicación**
 
-    En la ejecución de fabricación, si se selecciona **Principio de vaciado** en el campo **Consumo automático de L. MAT** en la pestaña **Inicio** , todos los materiales que se establecen para **Inicio** en la L. MAT se deducen del inventario cuando se inicia la operación. La opción **Disponible en la ubicación** se usa para los productos que se habilitan para los procesos avanzados del almacén. Si selecciona este principio de vaciado, se vacían los materiales cuando el trabajo del almacén para selección de la materia prima se ha completado. El material también se vacía cuando una línea de la L. MAT que use este principio de vaciado se libera al almacén y el material está disponible en la ubicación de entrada de producción.
+    En la ejecución de fabricación, si se selecciona **Principio de vaciado** en el campo **Consumo automático de L. MAT** en la pestaña **Inicio** , todos los materiales que se establecen para **Inicio** en la L. MAT se deducen del inventario cuando se inicia la operación. La opción **Disponible en la ubicación** se usa para los productos que se habilitan para los procesos de gestión de almacenes (WMS). Si selecciona este principio de vaciado, se vacían los materiales cuando el trabajo del almacén para selección de la materia prima se ha completado. El material también se vacía cuando una línea de la L. MAT que use este principio de vaciado se libera al almacén y el material está disponible en la ubicación de entrada de producción.
 
     > [!NOTE]
     > Si el campo **Principio de vaciado** se establece en la pestaña **Inicio** en la ejecución de fabricación, debe seleccionar el mismo principio en la pestaña **Operaciones** o la pestaña **Notificar como terminado**. Este requisito le ayuda a garantizar que los materiales se deducen del inventario en listas de materiales que usan **Finalizar** como principio de vaciado en el pedido de producción. Si el mismo principio de vaciado no está seleccionado en la ficha **Operaciones** o la ficha **Notificar como terminado** , los materiales se pueden deducir del inventario dos veces.

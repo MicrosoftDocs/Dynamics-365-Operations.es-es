@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6cceabe652429e1c50d27db865700926e211958a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904568"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066371"
 ---
 # <a name="general-ledger-home-page"></a>Página principal de contabilidad general
 
@@ -61,9 +61,9 @@ Vaya al artículo [Visión general de Financial Reporting](../../fin-ops-core/de
 
 #### <a name="blogs"></a>Blogs
 
-Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 finanzas y operaciones - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 ### <a name="videos"></a>Vídeos
 
@@ -71,8 +71,9 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 #### <a name="community-blogs"></a>Blogs de la comunidad
 
-- [Qué debería saber sobre libro mayor en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
+- [Qué debería saber sobre libro mayor en Dynamics 365 Finance](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

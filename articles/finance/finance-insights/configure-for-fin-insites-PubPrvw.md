@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868529"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068117"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Configuración de Finance Insights - versión 10.0.20 y posterior
 
@@ -38,7 +38,7 @@ Finance Insights combina la funcionalidad de Microsoft Dynamics 365 Finance con 
 
 Para implementar los entornos, siga estos pasos.
 
-1. En Microsoft Dynamics Lifecycle Services (LCS), cree o actualice un entorno de Finance. El entorno requiere la versión de la aplicación 10.0.20 o posterior de las aplicaciones de Finance and Operations.
+1. En Microsoft Dynamics Lifecycle Services (LCS), cree o actualice un entorno de Finance. El entorno requiere la versión de la aplicación 10.0.20 o posterior de las aplicaciones de finanzas y operaciones.
 2. El entorno debe ser un entorno de alta disponibilidad (HA) en espacio aislado. (Este tipo de entorno también se conoce como entorno de nivel 2). Para obtener más información, consulte [Planificación de entornos](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Si está configurando Finance Insights en un entorno de espacio aislado, es posible que deba copiar los datos de producción en ese entorno para que funcionen las predicciones. El modelo de predicción utiliza varios años de datos para generar predicciones. Los datos de la demostración de Contoso no contienen suficientes datos históricos para entrenar adecuadamente el modelo de predicción. 
 
@@ -126,7 +126,7 @@ Si no puede encontrar ninguna de las aplicaciones anteriores, intente los siguie
         - **Rendimiento**: es recomendable seleccionar **Estándar**.
         - **Tipo de cuenta**: debe elegir **StorageV2**.
 
-    3. En el cuadro de diálogo **Opciones avanzadas**, para la opción **Data Lake Storage Gen2**, seleccione **Habilitar** en la característica **Espacios de nombres jerárquicos**. Si no activa esta característica, no puede emplear datos que las aplicaciones de Finanzas y Operaciones escriben utilizando servicios como flujos de datos de Power BI.
+    3. En el cuadro de diálogo **Opciones avanzadas**, para la opción **Data Lake Storage Gen2**, seleccione **Habilitar** en la característica **Espacios de nombres jerárquicos**. Si no activa esta característica, no puede emplear datos que las aplicaciones de finanzas y operaciones escriben utilizando servicios como flujos de datos de Power BI.
     4. Seleccione **Revisar y crear**. Cuando se completa la implementación, el nuevo recurso se muestra en Azure Portal.
     5. Vaya a la cuenta de almacenamiento que creó.
     6. En el menú izquierdo, seleccione **Claves de acceso**.
@@ -755,3 +755,4 @@ El complemento puede tardar varios minutos en instalarse.
 Si está interesado en proporcionar comentarios o si necesita asistencia, envíe un correo elecrónico a [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

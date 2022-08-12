@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876135"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135855"
 ---
 # <a name="posting-profiles-overview"></a>Descripción general de perfiles de contabilización
 
-En las aplicaciones de Finanzas y Operaciones, el término *perfiles de contabilización* se utiliza para describir las configuraciones que controlan cómo las cuentas del libro mayor auxiliar se convierten en cuentas principales para que puedan usarse en transacciones que se registran en la contabilidad general. Por ejemplo, controlan cómo se convierte el cliente en una cuenta principal de Cliente cuando se registra una factura.
+En las aplicaciones de finanzas y operaciones, el término *perfiles de contabilización* se utiliza para describir las configuraciones que controlan cómo las cuentas del libro mayor auxiliar se convierten en cuentas principales para que puedan usarse en transacciones que se registran en la contabilidad general. Por ejemplo, controlan cómo se convierte el cliente en una cuenta principal de Cliente cuando se registra una factura.
 
 Algunos módulos y características tienen una página que incluye las palabras "perfil de contabilización" en el nombre (por ejemplo, **Perfil de contabilización del cliente** o **Perfil de contabilización del proveedor**). Además, algunos módulos tienen múltiples opciones para configurar la contabilización de la contabilidad general para las transacciones que se generan desde el libro auxiliar. Por ejemplo, en el módulo **Control de producción**, puede configurar la contabilización por grupo de producción, recurso o grupo de recursos.
 
@@ -34,7 +34,7 @@ Antes de poder configurar los perfiles de contabilización, las definiciones de 
 
 ## <a name="posting-types"></a>Tipos de registro
 
-En las aplicaciones de Finanzas y Operaciones, los tipos de registro se usan para definir una categoría general para un débito o un crédito. Esta categoría es independiente de la cuenta principal en la contabilidad general. Hay tipos de contabilización para cada débito o crédito en la contabilidad general.
+En las aplicaciones de finanzas y operaciones, los tipos de registro se usan para definir una categoría general para un débito o un crédito. Esta categoría es independiente de la cuenta principal en la contabilidad general. Hay tipos de contabilización para cada débito o crédito en la contabilidad general.
 
 Un solo asiento puede tener uno o más tipos de registro. Por ejemplo, una transacción que se registra a través de un diario general donde la cuenta y la cuenta de contrapartida se establecen en **Libro mayor** tendrá un tipo de registro de **Diario contable**, tanto para el débito como para el crédito. Por el contrario, una factura de proveedor tendrá varios tipos de registro. Esos tipos de registro incluirán una línea para el saldo del proveedor y líneas adicionales para la entrada de contrapartida, como **Diario contable**.
 
@@ -111,13 +111,14 @@ Muchos módulos en Dynamics 365 Finance, Dynamics 365 Supply Chain Management, D
 - Contabilización de administración de gastos (próximamente)
 - [Perfil de contabilización de activos fijos](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Contabilización de contabilidad de empresas vinculadas (próximamente)
-- Perfil de contabilización de inventario (próximamente)
+- [Registro de inventario](inventory-posting.md)
 - [Contabilización de costes en destino](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Información general de definiciones de contabilización](posting-definitions.md)
-- Contabilización de control de producción (próximamente)
+- [Registro de la producción](production-posting.md)
 - Contabilización en la contabilidad y gestión de proyectos (próximamente)
 - Contabilización de administración de servicios (próximamente)
 - Contabilización de impuestos (próximamente)
 - Contabilización de tiempo y asistencia (próximamente)
 - Contabilización de administración de transporte (próximamente)
 - Perfiles de contabilización de administración de devoluciones (próximamente)
+

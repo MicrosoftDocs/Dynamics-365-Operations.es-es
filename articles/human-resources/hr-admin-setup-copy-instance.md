@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692433"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178545"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Se aplica a:** Recursos humanos en la infraestructura independiente_ 
 
+> [!NOTE]
+> A partir de junio de 2022, los entornos de recursos humanos solo se pueden implementar en la infraestructura de las aplicaciones de finanzas y operaciones. Para más información, vea [Aprovisionamiento de Human Resources en la infraestructura de finanzas y operaciones](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> La infraestructura de finanzas y operaciones no admite una función de instancia de copia. Puede implementar nuevos entornos y utilizar movimientos de bases de datos para crear copias. Para obtener más información sobre implementaciones de autoservicio, consulte [Descripción general de implementación de autoservicio](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Para obtener más información sobre los movimientos de la base de datos en la infraestructura de finanzas y operaciones, consulte [Página de inicio de operaciones de movimientos de base de datos](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Puede utilizar los servicios Microsoft Dynamics Lifecycle Services (LCS) para copiar una base de datos de Microsoft Dynamics 365 Human Resources en un entorno de espacio retirado. Si tiene otro entorno de espacio retirado, también puede copiar la base de datos del entorno a un entorno de espacio aislado destinado.
 
@@ -50,7 +55,7 @@ Los siguientes eventos ocurren cuando copia una base de datos de Human Resources
 
 - Los documentos de almacenamiento en blobs de Microsoft Azure no se copian de un entorno a otro. Como resultado, los documentos y plantillas que se adjunten no se copiarán y permanecerán en el entorno de origen.
 
-- Todos los usuarios, excepto aquellos con el rol de seguridad "Administrador del sistema" y otras cuentas de usuario de servicios internos, no estarán disponibles. El usuario administrador puede eliminar u ofuscar datos antes de permitir que otros usuarios vuelvan al sistema.
+- Todos los usuarios, excepto aquellos con el rol de seguridad "Administrador del sistema" y otras cuentas de usuario de servicios internos, no estarán disponibles. El usuario administrador puede eliminar datos antes de permitir que otros usuarios vuelvan al sistema.
 
 - Los usuarios con el rol de seguridad "Administrador del sistema" deben realizar los cambios de configuración necesarios, como volver a conectar los puntos finales de integración a servicios o URL específicos.
 
@@ -67,7 +72,7 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 3. Seleccione la instancia que se debe copiar y, a continuación, seleccione **Copiar**.
 
-4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el valor del campo **Estado de copia** se actualice a **Terminado**.
+4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el campo **Estado de copia** se actualice a **Terminado**.
 
    ![[Seleccionar la instancia para sobrescribir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,6 +81,8 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
    ![[Seleccione Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Seleccione el entorno de Power Apps para copiar y luego seleccione **Copiar**.
+
+Para obtener más información sobre copiar entornos de Power Apps, consulte [Copiar un entorno](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Cuando se complete el proceso de copia, inicie sesión en la instancia de destino y habilite la integración con Dataverse. Para obtener más información e instrucciones, consulte [Configurar la integración de Dataverse](./hr-admin-integration-common-data-service.md).
 

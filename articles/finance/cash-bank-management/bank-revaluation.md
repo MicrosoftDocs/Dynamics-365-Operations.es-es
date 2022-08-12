@@ -1,7 +1,7 @@
 ---
 title: Revalorización bancaria de divisa extranjera
 description: Este artículo proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Incluye información sobre la configuración, la ejecución del proceso, el cálculo para el proceso, y la inversión de transacciones de revalorización.
-author: kweekley
+author: angelad116
 ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863112"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151443"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Revalorización bancaria de divisa extranjera
 

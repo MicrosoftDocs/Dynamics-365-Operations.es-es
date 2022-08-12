@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910426"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109562"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solución PowerBI.com sobre rendimiento financiero
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Esta solución de PowerBI.com se ha dejado de utilizar como se documenta en [Características eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Esta solución de PowerBI.com se ha dejado de utilizar como se documenta en [Características eliminadas u obsoletas de finanzas y operaciones](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este artículo describe la solución PowerBI.com sobre **rendimiento financiero**. Describe el panel de información y los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar la solución.
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906366"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065758"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
 [!include [banner](../includes/banner.md)]
 
-La funcionalidad que se introdujo en Microsoft Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018) habilita el cambio de propósito de la divisa de notificación y su uso como segunda divisa de contabilidad. Esta función se denomina *divisa dual*. Los cambios de la divisa dual no se pueden desactivar con una clave de configuración o un parámetro. Dado que la divisa de notificación se usa como segunda divisa de contabilidad, la manera en que la divisa de notificación se calcula en la lógica del registro ha cambiado.
+La funcionalidad que se introdujo en Microsoft Dynamics 365 Finance versión 8.1 (octubre de 2018) habilita el cambio de propósito de la divisa de notificación y su uso como segunda divisa de contabilidad. Esta función se denomina *divisa dual*. Los cambios de la divisa dual no se pueden desactivar con una clave de configuración o un parámetro. Dado que la divisa de notificación se usa como segunda divisa de contabilidad, la manera en que la divisa de notificación se calcula en la lógica del registro ha cambiado.
 
 Además, diferentes módulos se han mejorado para seguir, informar y usar la divisa de notificación en varios procesos. Los módulos implicados incluyen:
 
@@ -209,3 +209,4 @@ En la consolidación de contabilidad general, se ha agregado una nueva opción p
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

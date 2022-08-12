@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868680"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066402"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Espacio de trabajo móvil Aprobaciones de facturas
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868680"
 
 Este artículo proporciona información sobre del área de trabajo móvil **Aprobaciones de facturas**. Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor. 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación móvil de finanzas y operaciones.
 
 ## <a name="overview"></a>Información general
 
@@ -61,7 +61,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
-Descargue e instale la aplicación móvil Finance and Operations:
+Descargar e instalar la aplicación móvil de finanzas y operaciones:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ Descargue e instale la aplicación móvil Finance and Operations:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

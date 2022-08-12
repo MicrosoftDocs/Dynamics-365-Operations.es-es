@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859706"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068860"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de datos de cálculo de impuestos
 
 Este artículo proporciona información sobre cómo se determinan los valores de campo del modelo de datos en las transacciones de cálculo de impuestos.
 
-El *modelo de datos fiscales* se compone de campos obligatorios para los cálculos de impuestos. Microsoft proporciona el *modelo de datos de cálculo de impuestos*, que incluye los campos de encabezado y los campos de línea de los documentos de transacción en aplicaciones de Finanzas y Operaciones. Los campos que se definen en el modelo de datos de cálculo de impuestos son las columnas disponibles de las tablas de reglas de aplicabilidad en la configuración de la configuración de la función de cálculo de impuestos.
+El *modelo de datos fiscales* se compone de campos obligatorios para los cálculos de impuestos. Microsoft proporciona el *modelo de datos de cálculo de impuestos*, que incluye los campos de encabezado y los campos de línea de los documentos de transacción en aplicaciones de finanzas y operaciones. Los campos que se definen en el modelo de datos de cálculo de impuestos son las columnas disponibles de las tablas de reglas de aplicabilidad en la configuración de la configuración de la función de cálculo de impuestos.
 
 > [!NOTE] 
 > Algunos nodos que se definen en el modelo de datos, como **ID de registro** e **ID de tabla**, son para fines técnicos. No son columnas disponibles en la configuración de la función de cálculo de impuestos.
@@ -54,7 +54,7 @@ También puede ver el modelo de datos de cálculo de impuestos y las columnas di
 
     [![Administrar columnas.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-El modelo de datos de cálculo de impuestos está integrado con aplicaciones de Finanzas y Operaciones. Durante cada transacción relacionada con el cálculo de impuestos, los valores de los campos definidos en las tablas de reglas de aplicabilidad se recopilan y envían al servicio de cálculo de impuestos para su cálculo. En la versión 40.46, se encuentran disponibles 57 modelos de datos predefinidos para los siguientes tipos de transacciones: órdenes de compra, órdenes de venta, órdenes de transferencia, solicitudes de compra, solicitudes de cotización y cotizaciones de venta.
+El modelo de datos de cálculo de impuestos está integrado con aplicaciones de finanzas y operaciones. Durante cada transacción relacionada con el cálculo de impuestos, los valores de los campos definidos en las tablas de reglas de aplicabilidad se recopilan y envían al servicio de cálculo de impuestos para su cálculo. En la versión 40.46, se encuentran disponibles 57 modelos de datos predefinidos para los siguientes tipos de transacciones: órdenes de compra, órdenes de venta, órdenes de transferencia, solicitudes de compra, solicitudes de cotización y cotizaciones de venta.
 
 ## <a name="version-updates-and-restrictions"></a>Actualizaciones y restricciones de versión
 
@@ -134,3 +134,4 @@ Se incluuen veintiseis modelos de datos como campos en las líneas de una transa
 | Unidad                          | <ul><li>**Pedido de ventas**: unidad</li><li>**Pedido de compra:** unidad</li><li>**Pedido de transferencia - Envío**: unidad</li><li>**Pedido de transferencia - Recepción**: unidad</li><li>**Solicitud de compra:** unidad</li><li>**Solicitud de presupuesto:** unidad</li><li>**Presupuesto de ventas:** unidad</li></ul> |
 | Número de variante                | <ul><li>**Pedido de ventas:** número de variante</li><li>**Pedido de compra:** número de variante</li><li>**Presupuesto de venta:** número de variante</li></ul> |
 | Almacén                     | <ul><li>**Pedido de ventas:**<ol><li>Línea &gt; Almacén</li><li>Producto &gt; Almacén</li></ol></li><li>**Pedido de compra:**<ol><li>Línea &gt; Almacén</li><li>Producto &gt; Almacén</li></ol></li><li>**Pedido de transferencia - Envío:** desde almacén</li><li>**Orden de transferencia - Recibir:** al almacén</li><li>**Solicitud de compra:** Línea &gt; Almacén</li><li>**Solicitud de presupuesto:** Línea &gt; Almacén</li><li>**Presupuesto de ventas:**<ol><li>Línea &gt; Almacén</li><li>Producto &gt; Almacén</li></ol></li></ul> |
+

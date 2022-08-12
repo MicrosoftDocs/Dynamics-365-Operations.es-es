@@ -1,5 +1,5 @@
 ---
-title: Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
+title: Configurar la experiencia de ayuda para aplicaciones de finanzas y operaciones
 description: Este artículo proporciona información sobre los componentes del sistema de ayuda para algunas aplicaciones Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900140"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123636"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de finanzas y operaciones
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-En este artículo, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finanzas y operaciones, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El artículo también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
+En este artículo, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de finanzas y operaciones, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El artículo también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
-Las aplicaciones de Finanzas y operaciones incluyen descripciones generales conceptuales y otros temas que se publican en el sitio de [documentación de Microsoft Dynamics 365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
+Las aplicaciones de finanzas y operaciones incluyen descripciones generales conceptuales y otros temas que se publican en el sitio de [documentación de Microsoft Dynamics 365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
 
 [![Arquitectura de la Ayuda.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -63,7 +63,7 @@ Para configurar guías de tareas para una solución, siga estos pasos en la pág
 2. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
 3. Establezca el orden de visualización de las bibliotecas de BPM. El orden de visualización define el orden en que las grabaciones de tareas de las bibliotecas aparecerán en el panel **Ayuda**.
 
-Una vez completados estos pasos, puede abrir el panel **Ayuda** y seleccionar la pestaña **Guías de tareas**. Verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en las aplicaciones de Finance and Operations. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda.
+Una vez completados estos pasos, puede abrir el panel **Ayuda** y seleccionar la pestaña **Guías de tareas**. Verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en las aplicaciones de finanzas y operaciones. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda.
 
 ### <a name="showing-translated-task-guides"></a>Mostrar guías de tareas traducidas
 
@@ -87,7 +87,7 @@ Si es socio y promociona una biblioteca para que sea biblioteca corporativa e in
 
 ### <a name="connect-a-custom-help-site"></a>Conectar un sitio de ayuda personalizada
 
-Las aplicaciones Finance and Operations rara vez se usan en su forma original. En su lugar, la solución se personaliza y se extiende para satisfacer las necesidades de la organización. También puede personalizar y ampliar la experiencia de Ayuda. Por ejemplo, puede agregar ayuda personalizada al panel **Ayuda** integrado del producto.
+Las aplicaciones de finanzas y operaciones rara vez se usan en su forma original. En su lugar, la solución se personaliza y se extiende para satisfacer las necesidades de la organización. También puede personalizar y ampliar la experiencia de Ayuda. Por ejemplo, puede agregar ayuda personalizada al panel **Ayuda** integrado del producto.
 
 Microsoft ha proporcionado un kit de herramientas para ayudarle a implementar y conectar ayuda personalizada al panel **Ayuda**. Para obtener información acerca de cómo puede configurar una solución de ayuda personalizada que esté conectada al panel **Ayuda**, consulte [Resumen de ayuda personalizada](../../dev-itpro/help/custom-help-overview.md).
 
@@ -103,3 +103,4 @@ Si desea colaborar con Microsoft en herramientas y procesos para personalizar la
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

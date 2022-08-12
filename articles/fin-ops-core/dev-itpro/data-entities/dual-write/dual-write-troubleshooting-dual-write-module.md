@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas de doble escritura en aplicaciones de finanzas y operaciones
-description: Este artículo proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones finanzas y operaciones.
+description: Este artículo proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones de finanzas y operaciones.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864583"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111182"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de doble escritura en aplicaciones de finanzas y operaciones
 
@@ -22,12 +22,12 @@ ms.locfileid: "8864583"
 
 
 
-Este artículo proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Dataverse. Específicamente, proporciona información que puede ayudarlo a solucionar problemas con el módulo de **Escritura doble** en aplicaciones Finance and Operations.
+Este artículo proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de finanzas y operaciones y Dataverse. Específicamente, proporciona información que puede ayudarlo a solucionar problemas con el módulo de **Escritura doble** en aplicaciones de finanzas y operaciones.
 
 > [!IMPORTANT]
 > Algunos de los problemas que aborda este artículo pueden requerir la característica de administrador del sistema o Microsoft Azure Active Directory (Azure AD) credenciales de administrador de inquilinos. La sección para cada problema explica si se requiere una característica o credenciales específicas.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>No puede cargar el módulo de doble escritura en una aplicación Finance and Operations
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>No puede cargar el módulo de doble escritura en una aplicación de finanzas y operaciones
 
 Si no puede abrir la página **Doble escritura** seleccionando el mosaico **Doble escritura** en el espacio de trabajo **Gestión de datos**, el servicio de integración de datos probablemente esté inactivo. Cree un ticket de soporte para solicitar un reinicio del servicio de integración de datos.
 
@@ -49,7 +49,7 @@ Para solucionar el problema, inicie sesión utilizando una ventana InPrivate en 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Error al vincular el entorno para doble escritura o agregar una nueva asignación de tabla
 
-**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de Finanzas y operaciones y Dataverse.
+**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de finanzas y operaciones y Dataverse.
 
 Puede encontrar el siguiente error al vincular o crear mapas:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Dataverse se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de Finanzas y operaciones y Dataverse puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de tabla. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
+Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Dataverse se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de finanzas y operaciones y Dataverse puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de tabla. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Error al detener la asignación de tabla
 
@@ -97,7 +97,7 @@ Es posible que reciba un mensaje de error como el siguiente cuando intente ejecu
 Es posible que aparezca este error cuando intenta establecer ese estado de una asignación como **En ejecución**. La solución depende de la causa del error:
 
 + Si la asignación tiene asignaciones dependientes, asegúrese de habilitar las asignaciones dependientes de esta asignación de tabla.
-+ Es posible que falten columnas de origen o destino en la asignación. Si falta una columna en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de columnas de tabla faltantes en asignaciones](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si falta una columna en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que las columnas se rellenen automáticamente en la asignación.
++ Es posible que falten columnas de origen o destino en la asignación. Si falta una columna en la aplicación de finanzas y operaciones, siga los pasos de la sección [Problema de columnas de tabla faltantes en asignaciones](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si falta una columna en Dataverse, haga clic en el botón **Actualizar tablas** en la asignación para que las columnas se rellenen automáticamente en la asignación.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Error de discrepancia de versión y actualización de soluciones de doble escritura
 
@@ -112,3 +112,4 @@ Es posible que reciba los siguientes mensajes de error cuando intenta ejecutar l
 Para solucionar los problemas, actualice las soluciones de doble escritura en Dataverse. Asegúrese de actualizar a la solución más reciente cuya versión coincida con la versión de solución requerida.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

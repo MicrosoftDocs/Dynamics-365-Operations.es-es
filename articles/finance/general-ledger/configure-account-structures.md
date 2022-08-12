@@ -2,7 +2,7 @@
 title: Configurar estructuras contables
 description: En este artículo se proporciona información acerca de las estructuras contables y las dimensiones financieras.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907991"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141290"
 ---
 # <a name="configure-account-structures"></a>Configurar estructuras contables
 
@@ -91,6 +91,8 @@ Para continuar agregando criterios adicionales, haga clic en **Duplicar en el se
 Al configurar sus estructuras contables existen algunas prácticas recomendadas que puede seguir. Sin embargo, esto es solo una orientación, por lo que debe considerarse una discusión holística sobre su negocio, plan de crecimiento y plan de mantenimiento como parte de esa discusión.
 
 - Haga que la cuenta principal esté la primera o lo más cerca posible de la frente de la estructura contable, por lo que los usuarios obtienen la mejor experiencia dirigida que pueden durante un asiento contable.
+  
+  - Verifique que cualquier solución de terceros que pretenda utilizar sea compatible con la cuenta principal en la primera posición.
 
 - Vuelva a utilizar las estructuras contables tanto como sea posible para reducir mantenimiento en sus entidades jurídicas.
 

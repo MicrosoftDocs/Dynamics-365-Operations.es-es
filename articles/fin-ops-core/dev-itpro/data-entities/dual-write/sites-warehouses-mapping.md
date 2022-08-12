@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e9940000f53119d9eb5a877005ab7a8abac1577
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852609"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111642"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Sitios y almacenes integrados
 
@@ -28,9 +28,10 @@ Este artículo describe la integración de datos de sitios y almacenes entre fin
 
 Con la integración con Dataverse, estos conceptos y toda la información relacionada están disponibles en Dataverse mediante el uso de las tablas de datos de sitios y almacenes en la tabla siguiente.
 
-Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Descripción
+Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement     | Descripción
 --------------------------|---------------------------|---
 [Sitios](mapping-reference.md#156) | msdyn_operationalsites | |
 [Almacenes](mapping-reference.md#204) | msdyn_warehouses | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868619"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123730"
 ---
 # <a name="embed-third-party-apps"></a>Insertar aplicaciones de terceros
 
 [!include [banner](../includes/banner.md)]
 
-Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de Finance and Operations. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de finanzas y operaciones (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
+Muchos clientes utilizan diversas aplicaciones para administrar su negocio. Algunas de esas aplicaciones son aplicaciones web de terceros que funcionan junto con aplicaciones de finanzas y operaciones. Para proporcionar una experiencia de usuario más fluida, puede utilizar la característica **Aplicaciones de página completa** para insertar esas aplicaciones de terceros directamente en sus aplicaciones de finanzas y operaciones (siempre que las aplicaciones de terceros permitan insertarlas). De esta manera, los usuarios pueden acceder a los sitios web y aplicaciones que necesitan sin tener que cambiar de pestaña o ventana.
 
 Antes de poder insertar aplicaciones de terceros en el producto, debe activar la característica **Aplicaciones de página completa** en Administración de características. A continuación, puede utilizar uno de los siguientes métodos para insertar una aplicación o un sitio web de terceros. Estos métodos son análogos a los métodos que se utilizan para insertar aplicaciones de lienzo desde Microsoft Power Apps en aplicaciones de finanzas y operaciones.
 
@@ -60,7 +60,7 @@ Utilice este procedimiento si desea complementar una página existente en el sis
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Inserte un sitio web como una experiencia de página completa desde el panel
 
-Utilice este procedimiento si la aplicación que desea insertar no está relacionada con una página existente, o si solo desea una experiencia de página completa para la aplicación dentro de la aplicación Finance and Operations.
+Utilice este procedimiento si la aplicación que desea insertar no está relacionada con una página existente, o si solo desea una experiencia de página completa para la aplicación dentro de la aplicación de finanzas y operaciones.
 
 1. Abra el panel.
 2. Seleccione y mantenga presionada (o haga clic con el botón derecho en) el panel de información, seleccione **Personalizar** y, a continuación, seleccione **Agregar una página**.
@@ -89,7 +89,7 @@ Una vez que haya insertado una aplicación mediante uno de los métodos que se d
 
 ## <a name="viewing-embedded-apps"></a>Vista de aplicaciones insertadas
 
-Para ver una aplicación de lienzo insertada en una página de aplicaciones de Finance and Operations, abra la página que tiene la aplicación insertada. Recuerde que, en algunas páginas, se puede acceder a las aplicaciones insertadas mediante el botón **Power Apps** del panel de acciones estándar. Como alternativa, podrían aparecer directamente en la página como nueva pestaña, ficha desplegable u hoja, o como nueva sección en un espacio de trabajo.
+Para ver una aplicación de lienzo insertada en una página de aplicaciones de finanzas y operaciones, abra la página que tiene la aplicación insertada. Recuerde que, en algunas páginas, se puede acceder a las aplicaciones insertadas mediante el botón **Power Apps** del panel de acciones estándar. Como alternativa, podrían aparecer directamente en la página como nueva pestaña, ficha desplegable u hoja, o como nueva sección en un espacio de trabajo.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Editar o eliminar aplicaciones integradas
 
@@ -129,3 +129,4 @@ Si un sitio web no se representa correctamente después de estar integrado en un
 Aunque este artículo se centra en insertar aplicaciones o sitios web de terceros mediante la personalización, los desarrolladores también pueden insertarlas en un formulario utilizando la experiencia de desarrollo de Visual Studio. Basta con agregar un **WebsiteHostControl** al formulario. Las propiedades de metadatos disponibles en el control brindan las mismas capacidades que la experiencia de personalización.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

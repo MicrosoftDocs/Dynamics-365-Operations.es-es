@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869268"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109592"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -66,7 +66,7 @@ ER admite actualmente los formatos de hoja de cálculo de TEXTO, XML, JSON, PDF,
 
 El motor de ER tiene las siguientes capacidades:
 
-- Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico de Finance and Operations.
+- Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico de finanzas y operaciones.
 - Aísla el formato de un informe de la implementación actual. En otras palabras, el formato es aplicable para diferentes versiones.
 - Admite la creación de un formato personalizado que se basa en un formato original. También incluye capacidades para actualizar automáticamente el formato personalizado cuando se producen cambios en el formato original porque se introducen requisitos de localización y personalización.
 - Se convierte en la herramienta estándar principal para la ayuda de los requisitos de localización en los informes electrónicos, tanto para Microsoft como para los socios de MS.
@@ -126,7 +126,7 @@ Una configuración de ER se comparte en las empresas de la aplicación.
 
 #### <a name="provider"></a><a name="Provider"></a>Proveedor
 
-El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de Finance and Operations se marcan como propiedad del proveedor de configuración **Microsoft**.
+El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de finanzas y operaciones se marcan como propiedad del proveedor de configuración **Microsoft**.
 
 Para obtener información sobre cómo registrar un nuevo proveedor de ER, reproduzca la guía de la tarea, **ER Creación de un proveedor de configuraciones y marcarlo como activo** (parte del proceso empresarial **7.5.4.3 Adquirir y desarrollar los componentes del servicio o la solución de TI (10677)**).
 
@@ -143,7 +143,7 @@ Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios
 
 Un repositorio **Biblioteca compartida LCS** proporciona acceso a la lista de configuraciones dentro de la biblioteca de activos compartidos en Lifecycle Services (LCS). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. En la biblioteca compartida LCS del activo puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
 
-Un repositorio del **proyecto LCS** proporciona acceso a la lista de configuraciones de un proyecto LCS específico (biblioteca de activos del proyecto LCS) que se seleccionó al registrarse el repositorio. ER le permite cargar las configuraciones compartidas de la instancia actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones desde un repositorio de **proyecto LCS** en la instancia actual de sus aplicaciones de Finance and Operations.
+Un repositorio del **proyecto LCS** proporciona acceso a la lista de configuraciones de un proyecto LCS específico (biblioteca de activos del proyecto LCS) que se seleccionó al registrarse el repositorio. ER le permite cargar las configuraciones compartidas de la instancia actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones desde un repositorio de **proyecto LCS** en la instancia actual de sus aplicaciones de finanzas y operaciones.
 
 Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia actual. 
 
@@ -270,3 +270,4 @@ La lista de las configuraciones de informes electrónicos para Finance se actual
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

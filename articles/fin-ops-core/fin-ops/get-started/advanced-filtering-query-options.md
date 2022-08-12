@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856929"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123960"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
 
@@ -122,9 +122,9 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td>Dos comillas dobles consecutivas (<strong>""</strong>) busca filas sin valor para la columna actual.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operations consulta</span>) (Finance and Operations consulta entre paréntesis)</td>
+<td>(<span class="code">Consulta de finanzas y operaciones</span>) (consulta de finanzas y operaciones entre paréntesis)</td>
 <td>Que coincide con una consulta definida</td>
-<td>Escriba una consulta como una declaración SQL entre paréntesis utilizando el lenguaje de consulta de Finance and Operations.</td>
+<td>Escriba una consulta como una declaración SQL entre paréntesis utilizando el lenguaje de consulta de finanzas y operaciones.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Como ejemplo de sintaxis para una condición de filtro en un campo del origen de datos raíz, así como un campo de un origen de datos diferente (para la página Todos los clientes)</td>
 </tr>

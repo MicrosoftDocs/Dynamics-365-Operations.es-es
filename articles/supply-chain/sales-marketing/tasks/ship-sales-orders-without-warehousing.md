@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862493"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069164"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar pedidos de ventas sin almacenamiento
 
 [!include [banner](../../includes/banner.md)]
 
-En este artículo se explica cómo actualizar un pedido de ventas cuando los productos se envían al cliente. La guía es aplicable al flujo de cumplimiento que no se ha configurado para la gestión de almacenes (ni el almacenamiento básico o avanzado) y, por tanto. no requiere que se registre la selección del producto antes del envío. Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF. En ambos casos, antes de comenzar esta tarea, cree un pedido de ventas para un producto del inventario con una cantidad de mayor de 1. Para evitar un error de registro, necesita comprobar que la cantidad de producto disponible en el sitio y el almacén que ha seleccionado para pedir cubre la cantidad de pedido.
+En este artículo se explica cómo actualizar un pedido de ventas cuando los productos se envían al cliente. La guía es aplicable al flujo de cumplimiento que no se ha configurado para la gestión de almacenes (ni los procesos de gestión de almacenes (WMS) o básicos) y, por tanto. no requiere que se registre la selección del producto antes del envío. Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF. En ambos casos, antes de comenzar esta tarea, cree un pedido de ventas para un producto del inventario con una cantidad de mayor de 1. Para evitar un error de registro, necesita comprobar que la cantidad de producto disponible en el sitio y el almacén que ha seleccionado para pedir cubre la cantidad de pedido.
 
 ## <a name="post-packing-slip-for-an-order"></a>Registrar albarán para un pedido
 1. En el panel de navegación, vaya a **Módulos > > Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas**.

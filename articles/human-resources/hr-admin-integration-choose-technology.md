@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2c542684642e4f6eda0f862623889a68f85b2b20
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887816"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068890"
 ---
 # <a name="choose-a-data-integration-technology"></a>Elegir una tecnología de integración de datos
 
@@ -70,7 +70,7 @@ Las tablas de Dataverse y sus API asociadas son la mejor opción para acceder a 
 
 ### <a name="dmfdixf-entities"></a>Entidades DMF/DIXF
 
-Human Resources, construido principalmente en la misma plataforma que las aplicaciones Finance and Operations, proporciona un [Marco de gestión de datos (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF también se conoce como el Marco de importación y exportación de datos (DIXF). Human Resources proporciona un conjunto de entidades de datos que puede usar para importar y exportar datos de Human Resources. Aunque las tablas de Dataverse son la interfaz de integración de datos preferida para Human Resources, las entidades de DMF siguen siendo útiles en algunas circunstancias, como:
+Human Resources, construido principalmente en la misma plataforma que las aplicaciones de finanzas y operaciones, proporciona un [Marco de gestión de datos (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF también se conoce como el Marco de importación y exportación de datos (DIXF). Human Resources proporciona un conjunto de entidades de datos que puede usar para importar y exportar datos de Human Resources. Aunque las tablas de Dataverse son la interfaz de integración de datos preferida para Human Resources, las entidades de DMF siguen siendo útiles en algunas circunstancias, como:
 
 - Cuando las tablas de Dataverse aún no están disponibles.
 
@@ -113,7 +113,7 @@ BYOD es apropiado para soluciones de informes, integraciones de datos, mashups d
 
 ### <a name="odata-enabled-entities"></a>Entidades habilitadas para OData
 
-La mayoría de las entidades DMF también están habilitadas para acceder a través del servicio de datos de Human Resources (OData). La documentación proporcionada para el [Servicio OData de Finance and Operations](/dynamics365/unified-operations/dev-itpro/data-entities/odata) se aplica a Human Resources, excepto para crear sus propias entidades expuestas a OData.
+La mayoría de las entidades DMF también están habilitadas para acceder a través del servicio de datos de Human Resources (OData). La documentación proporcionada para el [Servicio OData de finanzas y operaciones](/dynamics365/unified-operations/dev-itpro/data-entities/odata) se aplica a Human Resources, excepto para crear sus propias entidades expuestas a OData.
 
 Aunque se prefieren Dataverse y la implementación de OData proporcionada por Dataverse (a través de la [API web de Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) frente al servicio de datos de Human Resources, el servicio de datos de Human Resources actualmente tiene una cobertura de entidad más completa para los datos de Human Resources.
 
@@ -153,3 +153,4 @@ Con tantas tecnologías de integración diferentes disponibles, decidir qué enf
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

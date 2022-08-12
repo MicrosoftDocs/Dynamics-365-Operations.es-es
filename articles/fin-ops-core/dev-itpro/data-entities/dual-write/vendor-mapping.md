@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905326"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112214"
 ---
 # <a name="integrated-vendor-master"></a>Maestro de proveedores integrado
 
@@ -37,13 +37,13 @@ Si quiere continuar almacenando los datos de proveedor de tienda en la tabla **C
 ![Flujo de datos ampliado del proveedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Si está usando portales de Power Apps para proveedores de autoservicio, la información del proveedor puede fluir directamente a aplicaciones Finanzas y operaciones.
+> Si está usando portales de Power Apps para proveedores de autoservicio, la información del proveedor puede fluir directamente a aplicaciones de finanzas y operaciones.
 
 ## <a name="templates"></a>Plantillas
 
 Los datos del proveedor incluyen toda la información sobre el proveedor, como el grupo de proveedores, las direcciones, la información de contacto, el perfil de pago y el perfil de factura. Una colección de mapas de tabla funciona conjuntamente durante la interacción de los datos del proveedor, como se muestra en la tabla siguiente.
 
-Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | Descripción
+Aplicaciones de finanzas y operaciones | Aplicaciones Customer Engagement     | Descripción
 ----------------------------|-----------------------------|------------
 [Contactos V2 de CDS](mapping-reference.md#115) | contactos | Esta plantilla sincroniza toda la información de contacto principal, secundaria, y terciaria, para clientes y proveedores.
 [Afijos de nombre](mapping-reference.md#155) | msdyn_nameaffixes | Esta plantilla sincroniza los datos de referencia de los afijos de nombre, para clientes y proveedores.
@@ -52,8 +52,9 @@ Aplicaciones de Finance and Operations | Aplicaciones Customer Engagement     | 
 [Líneas de multivencimientos](mapping-reference.md#159) | msdyn_paymentschedulelines | Sincroniza los datos de referencia de las líneas de programación de pago, para clientes y proveedores.
 [Multivencimientos](mapping-reference.md#160) | msdyn_paymentschedules | Esta plantilla sincroniza los datos de referencia de la programación de pago, para clientes y proveedores.
 [Condiciones de pago](mapping-reference.md#161) | msdyn_paymentterms | Esta plantilla sincroniza los datos de referencia de las los términos de pago (términos de pago), para clientes y proveedores.
-[Proveedores V2](mapping-reference.md#202) | msdyn_vendors | Las empresas que utilizan una solución personalizada para los proveedores pueden aprovecharse del concepto de proveedor del componente estándar que se está introduciendo en Dataverse debido a la integración de aplicaciones de Finance and Operations.
+[Proveedores V2](mapping-reference.md#202) | msdyn_vendors | Las empresas que utilizan una solución personalizada para los proveedores pueden aprovecharse del concepto de proveedor del componente estándar que se está introduciendo en Dataverse debido a la integración de aplicaciones de finanzas y operaciones.
 [Grupos de proveedores](mapping-reference.md#200) | msdyn_vendorgroups | Esta plantilla sincroniza la información del grupo de proveedores.
 [Método de pago de proveedor](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Esta plantilla sincroniza la información del método de pago del proveedor.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

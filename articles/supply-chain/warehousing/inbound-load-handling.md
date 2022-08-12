@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855943"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070331"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -56,7 +56,7 @@ La siguiente ilustración muestra el flujo típico para manejar cargas entrantes
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Registrar cantidades de artículos que llegan en una carga entrante
 
-Microsoft Dynamics 365 Supply Chain Management admite varios enfoques operativos para registrar la llegada de los productos pedidos. Por lo tanto, puede configurar el sistema para que coincida con sus requisitos empresariales específicos. Esta sección describe cómo registrar las cantidades de artículos entrantes utilizando un dispositivo móvil cuando la gestión avanzada de almacenes está activada en el sistema. Sin embargo, existe un flujo alternativo que se basa en el uso del diario de llegada de artículos en lugar de un dispositivo móvil. Para más información sobre ese flujo, consulte [Registrar artículos para almacenamiento avanzado mediante un diario de recepción de artículos](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management admite varios enfoques operativos para registrar la llegada de los productos pedidos. Por lo tanto, puede configurar el sistema para que coincida con sus requisitos empresariales específicos. Esta sección describe cómo registrar las cantidades de artículos entrantes utilizando un dispositivo móvil cuando procesos de gestión de almacenes (WMS) está activado en el sistema. Sin embargo, existe un flujo alternativo que se basa en el uso del diario de llegada de artículos en lugar de un dispositivo móvil. Para más información sobre ese flujo, consulte [Registrar artículos habilitados para procesos de gestión de almacenes mediante un diario de recepción de artículos](tasks/register-items-advanced-warehousing.md).
 
 Cuando una carga entrante llega por primera vez al almacén, los trabajadores del almacén deben registrar las cantidades de artículos que se incluyen en el envío. Por lo general, utilizan escáneres de mano. Este flujo de trabajo está disponible solo si los siguientes elementos están presentes en el sistema:
 

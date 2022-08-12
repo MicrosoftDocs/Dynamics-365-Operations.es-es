@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694918"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066804"
 ---
 # <a name="configure-deductions"></a>Configurar deducciones
 
@@ -45,7 +45,7 @@ Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuán
    | **Título** | El código de encabezado del sistema de nóminas que esta deducción usará para la parte de la deducción del empleado al procesar las prestaciones de la nómina. Se utiliza cuando usa un proveedor de nómina externo. |
    | **Referencia del empleado para deducciones de nómina** | Código de deducción del sistema de nóminas que esta deducción usará para la parte del empleado de la deducción al procesar las prestaciones de la nómina. |
    | **Partida de importe** | El código de encabezado del sistema de nóminas que este importe de deducción usará para la parte de la deducción del empleado al procesar las prestaciones de la nómina. Normalmente, se utiliza cuando usa un proveedor de nómina externo. |
-   | **Se puede eliminar** | Especifica si un valor exportado de Dynamics 365 for Finance and Operations puede hacer que el valor se elimine en el sistema de nómina. |
+   | **Se puede eliminar** | Especifica si un valor exportado de Dynamics 365 Finance puede hacer que el valor se elimine en el sistema de nómina. |
    | **Columnas emparejadas** | Especifica si se debe exportar el encabezado y el importe de deducción en columnas adyacentes emparejadas al sistema de nómina. |
    | **Fecha de vigencia del cambio** | La fecha en la que entrará en vigor el cambio de deducción de prestaciones. En esta fecha, la deducción de prestaciones cambia y todos los planes de prestaciones asociados con esta deducción se actualizan, siempre y cuando ejecute el proceso de **Actualización de cambio de deducción**. |
    | **Cambio de deducción completado** | La casilla de **Cambio de deducción completado** se seleccionará automáticamente una vez que el proceso de cambio de actualización de deducción haya completado los cambios de deducción de prestaciones. |
@@ -56,3 +56,4 @@ Usar deducciones en Microsoft Dynamics 365 Human Resources para determinar cuán
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

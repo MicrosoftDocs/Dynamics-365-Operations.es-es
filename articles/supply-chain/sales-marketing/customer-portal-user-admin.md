@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec4f20daac39e1728ab46db159059e51a0cae0a6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905787"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103783"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Crear y administrar usuarios del portal del cliente
 
@@ -33,7 +33,7 @@ Cuando los usuarios se registran por sí mismos, los registros de contacto se cr
 ## <a name="video"></a>Vídeo
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-El vídeo [Invitar a los clientes a registrarse y usar el portal de clientes](https://youtu.be/drGUYHX9QIQ) (se muestra arriba) se incluye en la [Lista de reproducción de Finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+El vídeo [Invitar a los clientes a registrarse y usar el portal de clientes](https://youtu.be/drGUYHX9QIQ) (se muestra arriba) se incluye en la [Lista de reproducción de finanzas y operaciones](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 ## <a name="prerequisite-setup"></a>Requisitos previos de configuración
 

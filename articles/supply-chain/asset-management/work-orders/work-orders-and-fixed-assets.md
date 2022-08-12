@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885997"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112000"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Órdenes de trabajo y activos fijos
 
 [!include [banner](../../includes/banner.md)]
 
 
-En gestión de activos, los activos se pueden relacionar con los activos fijos, y puede crear órdenes de trabajo para dichos activos. Si utiliza esta funcionalidad, puede obtener una visión general completa de activos fijos, de proyectos de inversión relacionados, y los costes registrados en los proyectos de inversión en los módulos **Gestión de proyectos y contabilidad** y **Activos fijos** en Microsoft Dynamics 365 for Finance and Operations.
+En gestión de activos, los activos se pueden relacionar con los activos fijos, y puede crear órdenes de trabajo para dichos activos. Si utiliza esta funcionalidad, puede obtener una visión general completa de activos fijos, de proyectos de inversión relacionados, y los costes registrados en los proyectos de inversión en los módulos **Gestión de proyectos y contabilidad** y **Activos fijos** de las aplicaciones de finanzas y operaciones.
 
 >[!NOTE]
 >El campo **Número de activo fijo** del proyecto de trabajo de la orden de trabajo solo se establece si la opción **Inversión** está seleccionada como el tipo de proyecto en el proyecto de trabajo de la orden de trabajo.

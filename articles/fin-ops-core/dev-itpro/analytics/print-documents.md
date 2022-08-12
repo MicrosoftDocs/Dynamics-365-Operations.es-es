@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984917"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206737"
 ---
 # <a name="document-printing-overview"></a>Visión general de la impresión de documentos
 
@@ -54,7 +54,7 @@ Dado que la solución varía en función del escenario, las aplicaciones proporc
 - El **Escenario 2** usa aplicaciones cliente y servicios de Microsoft 365.
 - El **Escenario 3** requiere soporte desde aplicaciones cliente y desde servicios que se hospedan en Microsoft Azure.
 
-Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada de primera parte que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
+Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de finanzas y operaciones proporcionan a los clientes una aplicación de Azure integrada propia que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
 
 ## <a name="service-overview"></a>Visión general de servicios
 Aunque los documentos producidos por las aplicaciones hospedadas están esperando para ser impresos en un dispositivo conectado a la red, estos se guardan en el almacenamiento de blobs de Azure. El [Agente de instalar ruta de documentos para habilitar la impresión de red](install-document-routing-agent.md) utiliza la autenticación de Azure para establecer un canal seguro para los servicios de Azure.

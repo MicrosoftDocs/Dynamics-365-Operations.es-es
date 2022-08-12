@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945815"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069934"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas o en desuso
 
@@ -30,23 +30,23 @@ En este artículo se describen las características que se han eliminado, o que 
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+La información detallada sobre los objetos de aplicaciones de finanzas y operaciones se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Aviso de desactivación de características a partir de junio de 2022
 
-### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Instalar y configurar la aplicación móvil de Finanzas y Operaciones (Dynamics 365) 
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Instalar y configurar la aplicación móvil de finanzas y operaciones (Dynamics 365) 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Estamos descartando la plataforma y la aplicación móvil Finanzas y Operaciones (Dynamics 365) para consolidar una única plataforma móvil, que es Power Apps. |
-| **¿Reemplazado por otra característica?**   | Sí, las experiencias móviles sobre los datos de la aplicación Finanzas y Operaciones se pueden crear con integración Power Platform. Consulte la [entrada de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) y [Creación de experiencias móviles](../power-platform/build-mobile-experiences.md) para más detalles. |
-| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Motivo de la depreciación/eliminación** | Estamos descartando la plataforma y la aplicación móvil de finanzas y operaciones (Dynamics 365) para consolidar una única plataforma móvil, que es Power Apps. |
+| **¿Reemplazado por otra característica?**   | Sí, las experiencias móviles sobre los datos de la aplicación de finanzas y operaciones se pueden crear con integración Power Platform. Consulte la [entrada de blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) y [Creación de experiencias móviles](../power-platform/build-mobile-experiences.md) para más detalles. |
+| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones |
 | **Opción de implementación**              | Todo |
 | **Status**                         | En desuso. La fecha de finalización del soporte está prevista para octubre de 2024. |
 
 
-## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.29 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.29 de aplicaciones de finanzas y operaciones
 
 ### <a name="panorama-tab-style"></a>Estilo de pestaña Panorámica
 
@@ -67,7 +67,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Estamos eliminando la compatibilidad con la resolución de URL XML, ya que se ha identificado como una posible vulnerabilidad de seguridad. Esto significa que ya no se resolverán los recursos externos asociados con los archivos XML.  |
 | **¿Reemplazado por otra característica?**   | No |
-| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones |
 | **Opción de implementación**              | Todo |
 | **Status**                         | En desuso. |
 
@@ -79,7 +79,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La compatibilidad con secuencias de comandos XSLT en Administración de datos queda en desuso para mejorar la seguridad y la protección de datos en las aplicaciones de finanzas y operaciones.  |
 | **¿Reemplazado por otra característica?**   | No Los clientes y los ISV deberían considerar volver a implementar sus soluciones basadas en el lenguaje X++, en lugar de las secuencias de comandos XSLT. |
-| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations |
+| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones |
 | **Opción de implementación**              | Todo |
 | **Status**                         | En desuso <br><br>**Excepción:** Clientes que actualmente usan secuencias de comandos XLST. Pueden seguir usándolo hasta que actualicen a la versión 10.0.30 o posterior. Para versiones anteriores, la excepción caducará a partir del 31 de enero de 2023. Los clientes con esta excepción han recibido una notificación en el Centro de mensajes disponible en el Centro de administración de Microsoft 365. |
 
@@ -118,7 +118,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todo |
 | **Status**                         | En desuso  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.23 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.23 de aplicaciones de finanzas y operaciones
 
 ### <a name="ondbsynchronize-event"></a>Evento OnDBSynchronize
 
@@ -141,7 +141,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todo |
 | **Estado**                         | En desuso. La fecha de eliminación prevista es abril de 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.21 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.21 de aplicaciones de finanzas y operaciones
 
 ### <a name="skype-for-business-online-support"></a>Soporte de Skype Empresarial Online
 
@@ -196,12 +196,12 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Con el fin de reducir los gastos generales de operación, monitoreo y mantenimiento de la administración de índices por parte de los clientes, esta característica ha sido eliminada. |
 | **¿Reemplazado por otra característica?**   | En el futuro, los servicios de Microsoft realizarán el mantenimiento del índice. Esto ocurrirá continuamente sin afectar las cargas de trabajo de los usuarios. |
-| **Áreas de producto afectadas**         | Aplicaciones de Finance and Operations|
+| **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones|
 | **Opción de implementación**              | Implementación en la nube: afecta a los entornos de producción administrados por Microsoft y a los entornos sandbox de nivel 2 a 5. |
 | **Estado**                         | Esta característica se ha eliminado. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.17 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.17 de aplicaciones de finanzas y operaciones
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
@@ -246,7 +246,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Opción de implementación**              | Todo|
 | **Status**                         | En desuso: Internet Explorer 11 no se admitirá después de agosto de 2021.|
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones de finanzas y operaciones
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
 
@@ -259,7 +259,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Estado**                         | Con la versión 10.0.15, el complemento ya no se incluye en las herramientas de Visual Studio. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.14 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.14 de aplicaciones de finanzas y operaciones
 
 ### <a name="online-users-page"></a>Página de usuarios en línea 
 
@@ -272,7 +272,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Estado**                         | Para octubre de 2021, este formulario se habrá eliminado.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.13 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.13 de aplicaciones de finanzas y operaciones
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Código personalizado definido en las propiedades de informe de SSRS 
@@ -316,19 +316,19 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Estado**                         | En la versión 10.0.13/Platform update 37, la función de vistas guardadas generalmente está disponible, y los clientes pueden activar esta característica opcionalmente. El característica de vistas guardadas será obligatoria en la versión de octubre de 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.12 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.12 de aplicaciones de finanzas y operaciones
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensiones de formulario de control de grupo o cuadrícula que contienen referencias de campo no válidas
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La propiedad del grupo de datos en los controles de cuadrícula o grupo se usa para mostrar automáticamente todos los campos de un grupo de campos. Un control de cuadrícula o grupo agregado por extensión podría contener campos que ya no están definidos en el grupo de campos, o podrían faltar campos que están definidos en el grupo de campos. Esto puede causar un comportamiento incoherente en tiempo de ejecución. Las actualizaciones de plataforma para la versión 10.0.12 de las aplicaciones de Finance and Operations clasifican ahora este problema como una *advertencia* de compilador. Para solucionar este problema, abra la extensión del formulario y guárdelo.
+| **Motivo de la depreciación/eliminación** | La propiedad del grupo de datos en los controles de cuadrícula o grupo se usa para mostrar automáticamente todos los campos de un grupo de campos. Un control de cuadrícula o grupo agregado por extensión podría contener campos que ya no están definidos en el grupo de campos, o podrían faltar campos que están definidos en el grupo de campos. Esto puede causar un comportamiento incoherente en tiempo de ejecución. Las actualizaciones de plataforma para la versión 10.0.12 de las aplicaciones de finanzas y operaciones clasifican ahora este problema como una *advertencia* de compilador. Para solucionar este problema, abra la extensión del formulario y guárdelo.
 | **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará con un error del compilador en una actualización futura. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | Se introduce una advertencia del compilador en actualizaciones de plataformas para la versión 10.0.12 de aplicaciones de Finance and Operations. |
+| **Estado**                         | Se introduce una advertencia del compilador en actualizaciones de plataformas para la versión 10.0.12 de aplicaciones de finanzas y operaciones. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.11 de aplicaciones de finanzas y operaciones
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Lista segura explícita para entornos de autoservicio
 
@@ -354,11 +354,11 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Los grupos de campos en las definiciones de metadatos de la tabla pueden contener referencias de campo que no son válidas. Si estos grupos de campos se implementan, pueden provocar errores del tiempo de ejecución en Financial Reporting y Microsoft SQL Server Reporting Services (SSRS). La Platform update 23 introdujo una *advertencia* de compilador que permitió abordar este problema de metadatos. Platform updates para la versión 10.0.11 de las aplicaciones Finance and Operations clasifican este problema como un *error* de compilador.<p>Para arreglar este problema, siga estos pasos.</p><ol><li>Quite la referencia de campo no válida de la definición del grupo de campos de tabla.</li><li>Vuelva a compilar.</li><li>Asegúrese de abordar cualquier error.</li></ol> |
+| **Motivo de la depreciación/eliminación** | Los grupos de campos en las definiciones de metadatos de la tabla pueden contener referencias de campo que no son válidas. Si estos grupos de campos se implementan, pueden provocar errores del tiempo de ejecución en Financial Reporting y Microsoft SQL Server Reporting Services (SSRS). La Platform update 23 introdujo una *advertencia* de compilador que permitió abordar este problema de metadatos. Platform updates para la versión 10.0.11 de las aplicaciones de finanzas y operaciones clasifican este problema como un *error* de compilador.<p>Para arreglar este problema, siga estos pasos.</p><ol><li>Quite la referencia de campo no válida de la definición del grupo de campos de tabla.</li><li>Vuelva a compilar.</li><li>Asegúrese de abordar cualquier error.</li></ol> |
 | **¿Reemplazado por otra característica?**   | Este error del compilador reemplaza permanentemente la advertencia del compilador.  |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso: la advertencia del compilador es un error del compilador en las Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations. |
+| **Estado**                         | En desuso: la advertencia del compilador es un error del compilador en las Platform updates para la versión 10.0.11 de aplicaciones de finanzas y operaciones. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licencias de ISV creadas utilizando el algoritmo de hash SHA1
 
@@ -398,3 +398,4 @@ Para obtener más información sobre las características que se han eliminado o
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

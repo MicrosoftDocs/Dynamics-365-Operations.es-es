@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa27e20bc0c0ff5c639dfb2d079adef8926f535f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889160"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069359"
 ---
 # <a name="asset-leasing-home-page"></a>Página de inicio de arrendamiento de activos
 
@@ -90,9 +90,9 @@ Vaya a las [Planes de la versión de Microsoft Dynamics 365](/dynamics365/releas
 
 ### <a name="blogs"></a>Blogs
 
-Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 finanzas y operaciones - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
+El [blog de la comunidad de Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los partners de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 ### <a name="videos"></a>Vídeos
 
@@ -100,3 +100,4 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

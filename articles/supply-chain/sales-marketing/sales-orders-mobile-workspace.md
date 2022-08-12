@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844775"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103192"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844775"
 
 Este artículo proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations (Dynamics 365).
+Este espacio de trabajo móvil se debe usar con la aplicación móvil de finanzas y operaciones (Dynamics 365).
 
 ## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
@@ -143,3 +143,4 @@ Descargar e instalar la aplicación móvil de finanzas y operaciones (Dynamics 3
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

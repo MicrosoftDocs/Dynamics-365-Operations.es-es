@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022534"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069798"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
 
@@ -217,7 +217,7 @@ Los trabajadores pueden ajustar el consumo de material para artículos con peso 
 
 En el cuadro de diálogo **Ajustar material**, un trabajador puede hacer y ajustar reservas de material seleccionando **Material de reserva**. El cuadro de diálogo **Material de reserva** que aparece muestra el inventario disponible físicamente para el artículo para cada dimensión de almacenamiento y seguimiento.
 
-Si el material está habilitado para los procesos de almacén avanzados, la lista muestra solo el inventario físicamente disponible para la ubicación de entrada de producción del material. La ubicación de entrada de producción se define en el recurso donde se planifica el trabajo de producción. Si el número de artículo está controlado por lote o número de serie, se muestra la lista completa de números de lote y serie físicamente disponibles. Para especificar una cantidad a reservar, el trabajador puede seleccionar **Material de reserva**. Para eliminar una reserva existente, el trabajador puede seleccionar **Eliminar reserva**.
+Si el material está habilitado para los procesos de gestión de almacenes (WMS), la lista muestra solo el inventario físicamente disponible para la ubicación de entrada de producción del material. La ubicación de entrada de producción se define en el recurso donde se planifica el trabajo de producción. Si el número de artículo está controlado por lote o número de serie, se muestra la lista completa de números de lote y serie físicamente disponibles. Para especificar una cantidad a reservar, el trabajador puede seleccionar **Material de reserva**. Para eliminar una reserva existente, el trabajador puede seleccionar **Eliminar reserva**.
 
 Para obtener más información sobre cómo configurar la ubicación de entrada de producción, consulte la siguiente publicación de blog: [Configuración de la ubicación de entrada de producción](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

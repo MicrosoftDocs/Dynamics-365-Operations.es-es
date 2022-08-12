@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: cb2e2f53942015caf9462692515f24deb9689aed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6234dfa61a5859e2ecaca75594c69c49ba326629
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873909"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167683"
 ---
 # <a name="voyage-creation-entities"></a>Entidades de creación de viajes
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 Las entidades de datos de creación de viajes agrupan las entidades de datos necesarias para crear un viaje de trabajo. Usted o su transitario pueden usar estas entidades de datos para crear registros de viaje, contenedor de envío, folio y línea de viaje que hagan referencia a órdenes de compra existentes o líneas de órdenes de transferencia.
 

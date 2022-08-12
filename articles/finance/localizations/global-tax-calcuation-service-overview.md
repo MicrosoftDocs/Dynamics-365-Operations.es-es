@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954550"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166851"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
@@ -29,7 +29,7 @@ El cálculo de impuestos es un servicio multiinquilino hiperescalable que permit
 El cálculo de impuestos se integra con Dynamics 365 Finance y Dynamics 365 Supply Chain Management. Posteriormente, también se integrará con Dynamics 365 Project Operations, Dynamics 365 Commerce y otras aplicaciones propias y de terceros.
 
 > [!IMPORTANT]
-> Cuando habilita Cálculo de impuestos, es posible que algunas operaciones con datos relacionados se realicen en un centro de datos que no sea el centro de datos que mantiene los datos del servicio. Revise los [Términos y condiciones](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) antes de habilitar Cálculo de impuestos. Su privacidad es importante para nosotros. Para obtener más información, lea nuestra [Declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Cuando habilita Cálculo de impuestos, es posible que algunas operaciones con datos relacionados se realicen en un centro de datos que no sea el centro de datos que mantiene los datos del servicio. Revise los [Términos y condiciones](https://go.microsoft.com/fwlink/?linkid=2156043) antes de habilitar Cálculo de impuestos. Su privacidad es importante para nosotros. Para obtener más información, lea nuestra [Declaración de privacidad](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Cálculo de impuestos es un motor de impuestos basado en microservicios que ofrece escalabilidad exponencial y puede ayudarle a realizar las siguientes tareas:
 

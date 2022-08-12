@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849514"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124802"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
 
@@ -58,9 +58,9 @@ Recientemente hemos agregado o actualizado significativamente los siguientes art
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de finanzas y operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.22 de aplicaciones de Finanzas y Operaciones (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.22 de aplicaciones de finanzas y operaciones (noviembre de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -84,3 +84,4 @@ Antes de eliminar una característica del producto, se anunciará el aviso de de
 Para los cambios importantes que solo afectan al tiempo de compilación y tienen binarios compatibles con entornos de espacio aislado y de producción, el tiempo de puesta en desuso será inferior a 12 meses. Por lo general, son actualizaciones funcionales que hay que hacer en el compilador.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

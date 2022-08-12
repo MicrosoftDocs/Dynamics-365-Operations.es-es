@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1daf630d3a9354012db9b5b487d8a5ed11e0ed
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901100"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066712"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Novedades y cambios en Dynamics 365 Human Resources del 21 de enero de 2021
 
@@ -42,7 +42,7 @@ Las siguientes características estarán disponible de forma generalizada en est
 
 | Característica | Plan de lanzamiento | Documentación |
 | --- | --- | --- |
-| Platform update 10.0.16(40) | -- | [Platform updates para aplicaciones de la versión 10.0.16 de Finance and Operations (febrero de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Platform update 10.0.16(40) | -- | [Platform updates para aplicaciones de la versión 10.0.16 de finanzas y operaciones (febrero de 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Solicitudes y aprobaciones de flujo de trabajo mejoradas | [Mejoras en la experiencia de los flujos de trabajo de organización y administración de personal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opción de configuración de la lista de elementos de trabajo de puesto asignados a mí](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Actualizaciones de cumplimiento de la Ley del Cuidado de salud asequible (ACA) en el Formulario 1095-C, Formulario 1095-B e informes electrónicos en prestaciones heredadas | -- | -- | 
 | Ahora la administración de prestaciones admite informes de cumplimiento de ACA para entidades jurídicas con sede en EE. UU. | -- | [Generar informes de ACA en la Administración de prestaciones](hr-benefits-management-aca-reports.md) |

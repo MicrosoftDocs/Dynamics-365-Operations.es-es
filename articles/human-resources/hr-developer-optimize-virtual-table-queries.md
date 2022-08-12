@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692237"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070184"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Optimizar las consultas de tabla virtual de Dataverse
 
@@ -49,12 +49,12 @@ Una de las causas del rendimiento lento con tablas virtuales de Dataverse para R
 Un ejemplo en el que puede ver este impacto es en las consultas contra la entidad de trabajador (**mshr_hcmworkerentity**) o trabajador de base (**mshr_hcmworkerbaseentity**). Es posible que vea que el problema de rendimiento se manifiesta de diferentes maneras:
 
 - **Ejecución de consultas lenta**: La consulta en la tabla virtual puede devolver los resultados esperados, pero demorar más de lo esperado en completar la ejecución de la consulta.
-- **Tiempo vencido de consulta**: La consulta puede agotar el tiempo de espera y devolver el siguiente error: "Se obtuvo un token para llamar Finance and Operations, pero Finance and Operations devolvió un error de tipo InternalServerError. "
+- **Tiempo vencido de consulta**: La consulta puede agotar el tiempo de espera y devolver el siguiente error: "Se obtuvo un token para llamar finanzas y operaciones, pero finanzas y operaciones devolvió un error de tipo InternalServerError. "
 - **Error inesperado**: La consulta puede devolver un tipo de error 400 con el siguiente mensaje: "Se produjo un error inesperado".
 
   ![Tipo de error 400 en HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Estrangulamiento**: La consulta puede hacer un uso excesivo de los recursos del servidor y quedar sujeta a limitaciones. En este caso, la consulta devuelve el siguiente error: "Se obtuvo un token para llamar Finance and Operations, pero Finance and Operations devolvió un error de tipo 429." Para obtener más información sobre la limitación de recursos humanos, consulte [Preguntas frecuentes sobre la limitación](./hr-admin-integration-throttling-faq.md).
+- **Estrangulamiento**: La consulta puede hacer un uso excesivo de los recursos del servidor y quedar sujeta a limitaciones. En este caso, la consulta devuelve el siguiente error: "Se obtuvo un token para llamar finanzas y operaciones, pero finanzas y operaciones devolvió un error de tipo 429." Para obtener más información sobre la limitación de recursos humanos, consulte [Preguntas frecuentes sobre la limitación](./hr-admin-integration-throttling-faq.md).
 
   ![Tipo de error 429 en HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Para obtener más información sobre la paginación, consulte [Especificar el n�
 - [Preguntas frecuentes sobre limitación](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

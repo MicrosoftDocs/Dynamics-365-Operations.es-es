@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891042"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135611"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Solucione el error del motor de programación "No se pudo encontrar suficiente capacidad"
 
@@ -111,5 +111,41 @@ Para revisar la capacidad disponible en el grupo de recursos, siga estos pasos.
 Al utilizar la programación de operaciones, la planificación maestra planificará la capacidad de acuerdo con el calendario del grupo de recursos principal. Reserva la operación secundaria al mismo tiempo que la operación principal y no tiene en cuenta los calendarios ni la capacidad de la operación secundaria. Esto puede provocar que el pedido de producción se programe en un calendario cerrado o en un momento en que la operación secundaria no esté disponible (calendario cerrado, sin capacidad).
 
 Al utilizar la programación de trabajos, la planificación maestra tendrá en cuenta la capacidad y el calendario de la operación principal y secundaria al programar el pedido. Para que se programe la orden, los calendarios de los recursos de ambas operaciones deben estar abiertos y tener capacidad disponible.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>El plazo máximo del trabajo es demasiado corto
+
+El motor de programación no podrá programar un pedido si el **Plazo máximo del trabajo** establecido para su sitio es menor que el tiempo de entrega especificado para un artículo en su configuración de pedido predeterminada o configuración de cobertura.
+
+Para ver o editar la configuración de **Plazo máximo del trabajo** para su sitio, vaya a **Control de producción \>Configuración \> Parámetros de control de producción** y abra la pestaña **General**.
+
+Para ver o editar la configuración de pedido predeterminada para un artículo, siga estos pasos:
+
+1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
+1. Busque y seleccione el producto deseado en la lista.
+1. En el Panel de acciones, abra la pestaña **Administrar inventario** y seleccione **Configuración predeterminada de pedido**.
+1. Amplíe la ficha desplegable **Inventario** y vea o edite el ajuste **Plazo de inventario** según sea necesario.
+
+Para ver o editar la configuración de cobertura para un artículo, siga estos pasos:
+
+1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
+1. Busque y seleccione el producto deseado en la lista.
+1. En el panel de acciones, abra la pestaña **Plan** y seleccione **Cobertura de artículos**.
+1. Abra la pestaña **Plazo** y vea o edite el valor de **Tiempo de producción** según sea necesario.
+
+## <a name="excessive-quantity-of-required-resources"></a>Cantidad excesiva de recursos requeridos
+
+Durante la programación, el motor intenta hacer coincidir la cantidad de recursos necesaria establecida para una operación de ruta con los recursos aplicables de acuerdo con los requisitos de recursos de la operación. Si establece la cantidad de recursos demasiado alta puede hacer que una ruta sea inviable, lo que producirá un error de programación.
+
+Utilice el siguiente procedimiento para comprobar tanto la cantidad especificada como los recursos aplicables para un producto, una ruta y una operación de ruta seleccionados:
+
+1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
+1. Busque y seleccione el producto deseado en la cuadrícula.
+1. En el Panel acciones, abra la pestaña **Ingeniero** y seleccione **Ruta**.
+1. Busque y seleccione la ruta deseada en la cuadrícula.
+1. Abra la pestaña **Visión general** en la parte inferior de la página.
+1. Seleccione una operación de la lista de operaciones de ruta seleccionadas.
+1. Seleccione **Recursos aplicables** para abrir un cuadro de diálogo donde puede ver los recursos aplicables para la operación de ruta seleccionada.
+1. Abra la pestaña **Carga de recursos**. El campo **Cantidad** de aquí muestra la cantidad de recursos requerida para la operación de ruta seleccionada. Vea y edite si es necesario.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

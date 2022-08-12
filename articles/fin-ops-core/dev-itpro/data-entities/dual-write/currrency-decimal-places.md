@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855598"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112286"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migración de tipo de datos de divisa para doble escritura
 
@@ -29,7 +29,7 @@ El proceso de cambiar el número de lugares decimales tiene dos pasos:
 1. Solicite la migración de Microsoft.
 2. Cambiar el número de decimales en Dataverse.
 
-La aplicación de Finanzas y operaciones y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
+La aplicación de finanzas y operaciones y Dataverse debe admitir el mismo número de decimales en los valores de divisa. De lo contrario, se puede producir una pérdida de datos cuando esta información se sincroniza entre aplicaciones. El proceso de migración reconfigura la forma en que se almacenan los valores de divisa y de tipo de cambio, pero no cambia ningún dato. Una vez completada la migración, se puede aumentar el número de lugares decimales para los códigos de divisa y el precio se puede aumentar, y los datos que los usuarios especifican y ven pueden tener más precisión decimal.
 
 La migración es opcional. Si puede beneficiarse de la compatibilidad para más decimales, le recomendamos que considere la migración. Las organizaciones que no requieren valores con más de cuatro decimales no tienen que migrar.
 
@@ -37,7 +37,7 @@ La migración es opcional. Si puede beneficiarse de la compatibilidad para más 
 
 El almacenamiento para columnas de divisa existentes en Dataverse no puede admitir más de cuatro decimales. Por lo tanto, durante el proceso de migración, los valores de divisa se copian en nuevas columnas internas en la base de datos. Este proceso ocurre continuamente hasta que se hayan migrado todos los datos. Internamente, al final de la migración, los nuevos tipos de almacenamiento reemplazan a los antiguos, pero los valores de los datos no cambian. Las columnas de divisa pueden admitir hasta 10 decimales. Durante el proceso de migración, Dataverse puede continuar usándose sin interrupción.
 
-Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación de Finanzas y operaciones y Dataverse.
+Al mismo tiempo, los tipos de cambio se modifican para que admitan hasta 12 decimales en lugar del límite actual de 10. Este cambio es necesario para que el número de decimales sea el mismo en la aplicación de finanzas y operaciones y Dataverse.
 
 La migración no cambia ningún dato. Después de convertir las columnas de divisa y tipo de cambio, los administradores pueden configurar el sistema para usar hasta 10 decimales para las columnas de moneda especificando el número de lugares decimales para cada divisa de transacción y para la fijación de precios.
 
@@ -100,3 +100,4 @@ Para conocer el comportamiento esperado de la precisión decimal de la moneda pr
 |          | Precisión decimal máxima visible en la interfaz de usuario de resultados de consultas de bases de datos y bases de datos | 10 dígitos. Sin embargo, solo 4 son significativos con todos los ceros más allá de los 4 dígitos decimales. Esto permite una migración más sencilla y rápida de la organización, si es necesario. | 10 dígitos      | 10 dígitos     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+
