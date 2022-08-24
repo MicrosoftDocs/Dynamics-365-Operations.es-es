@@ -1,27 +1,27 @@
 ---
 title: Cargos automáticos avanzados omnicanal
 description: Este artículo describe las capacidades para gestionar otros cargos de pedidos de los pedidos del canal de Commerce mediante el uso de varias funciones avanzadas de cargos automáticos.
-author: hhaines
+author: hhainesms
 ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: d44bc4ef61341c394b627ddbe10768d2ddf98de0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851140"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292715"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -29,7 +29,7 @@ ms.locfileid: "8851140"
 
 Este artículo proporciona información acerca de la configuración y la implementación de características avanzadas de cargos automáticos disponibles en Dynamics 365 for Retail versión 10.0.
 
-Si se habilitan las funciones avanzadas de cargos automáticos, los pedidos creados en cualquier canal de Commerce admitido (punto de venta (PDV), centro de asistencia telefónica y en línea), pueden aprovechar las configuraciones de [cargos automáticos](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas en la aplicación de ERP para el encabezado y los cargos relacionados a nivel de línea.
+Si se habilitan las funciones avanzadas de cargos automáticos, los pedidos creados en cualquier canal de Commerce admitido (punto de venta (PDV), centro de asistencia telefónica y en línea), pueden aprovechar las configuraciones de [cargos automáticos](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas en la aplicación de ERP para el encabezado y los cargos relacionados en el nivel de línea.
 
 En las versiones anteriores a Retail versión 10.0 , las configuraciones de [cargo automático](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) solo están accesibles para los pedidos creados en comercio electrónico y canales de centro de llamadas. En las versiones 10.0 y posteriores, los perdidos creados en PDV pueden usar las configuraciones de cargos automáticos. De esta manera, los cargos adicionales se puede agregar sistemáticamente a las transacciones de ventas.
 
@@ -58,7 +58,7 @@ Para que los cargos automáticos avanzados funcionen correctamente en el entorno
 Las nuevas operaciones son las siguientes.
 
 - **142 - Gestionar cargos** - Esta operación permite a los usuarios de PDV editar los cargos varios para la transacción PDV que se han agregado manualmente o sistemáticamente con los cálculos cargos automáticos.
-- **141 - Agregar cargos de encabezado** - Use esta operación para dar al usuario la capacidad de agregar manualmente cargos varios a nivel de encabezado en cualquier transacción de las ventas PDV (y seleccione el código de cargos que se utilizará).
+- **141 - Agregar cargos de encabezado** - Use esta operación para dar al usuario la capacidad de agregar manualmente cargos varios en el nivel de encabezado en cualquier transacción de las ventas PDV (y seleccione el código de cargos que se utilizará).
 - **140 - Agregar cargos de línea** - Use esta operación para dar al usuario la capacidad de agregar manualmente cargos varios de línea en cualquier transacción de las ventas PDV de línea (y seleccione el código de cargos que se utilizará).
 - **143 - Actualizar los cargos** - Esta operación permite realizar una actualización completa de los cargos para la transacción de ventas. Actualizará cualquier cargo automático sobrescrito por el usuario basándose en la configuración de carrito actual.
 
@@ -82,7 +82,7 @@ Este escenario requiere la configuración de dos tablas de cargos automáticos.
 
 Vaya a **Clientes \> Configuración de cargos \> cargos automáticos**.
 
-Configure dos cargos automáticos a nivel de encabezado. Configurar uno para el "Modo tierra" de entrega y otro para el “Modo aire” de entrega. Para esta situación, configúrelos para usar para “Todos los clientes”.
+Configure dos cargos automáticos en el nivel de encabezado. Configurar uno para el "Modo tierra" de entrega y otro para el “Modo aire” de entrega. Para esta situación, configúrelos para usar para “Todos los clientes”.
 
 Para los cargos de entrega por tierra, en la sección líneas de la página **cargos automáticos** , defina un cargo que se aplique para los pedidos entre 0,01 $ y 100 $ como 10 $. Cree otra línea de cargos para indicar que los pedidos de más de 100,01 $ no tendrán cargos.
 
@@ -98,9 +98,9 @@ Una vez que los pasos de configuración anteriores se completen y los cambios se
 
 En este tiempo los cargos se aplicarán a todas las transacciones de ventas creadas dentro de la entidad jurídica que usen estos modos de entrega, ya que no hay funcionalidad para indicar que una configuración de cargo automático se aplique sólo a un canal vendedor específico.
 
-Para los escenarios de PDV e informes de e-commerce, como no hay “cabecera" definida en estos pedidos, los cargos a nivel de encabezado solo se aplicarán si todas las líneas de ventas en la transacción se fijan para entregarse con el mismo modo de envío. Si hay “modos mixtos” de cumplimiento en las transacciones realizadas por el sistema PDV o e-commerce, sólo tendrán en cuenta y se aplicarán cargos automáticos a nivel de línea.
+Para los escenarios de PDV e informes de e-commerce, como no hay “cabecera" definida en estos pedidos, los cargos en el nivel de encabezado solo se aplicarán si todas las líneas de ventas en la transacción se fijan para entregarse con el mismo modo de envío. Si hay “modos mixtos” de cumplimiento en las transacciones realizadas por el sistema PDV o e-commerce, sólo tendrán en cuenta y se aplicarán cargos automáticos en el nivel de línea.
 
-En escenarios de centro de asistencia telefónica, el usuario tiene control sobre el valor del modo de entrega en el encabezado del pedido, por tanto los cargos nivel de encabezado se aplicarán estos pedidos incluso si alguna de las líneas de ventas que se han configurado usan otro modo de entrega. Los cargos a nivel de encabezado para los pedidos de centro de asistencia telefónica siempre se basarán en el modo de entrega definido en el nivel de encabezado del pedido del pedido de ventas.
+En escenarios de centro de asistencia telefónica, el usuario tiene control sobre el valor del modo de entrega en el encabezado del pedido, por tanto los cargos nivel de encabezado se aplicarán estos pedidos incluso si alguna de las líneas de ventas que se han configurado usan otro modo de entrega. Los cargos en el nivel de encabezado para los pedidos de centro de asistencia telefónica siempre se basarán en el modo de entrega definido en el nivel de encabezado del pedido del pedido de ventas.
 
 ### <a name="auto-charges-line-charges-example"></a>Ejemplo de cargos automáticos de cargos de línea
 
@@ -110,7 +110,7 @@ Un minorista desea agregar un cargo adicional al cliente para las cuotas de conf
 
 #### <a name="setup-and-configuration"></a>Establecimiento y configuración
 
-Este escenario requiere la configuración de una tabla de cargos automáticos a nivel de línea.
+Este escenario requiere la configuración de una tabla de cargos automáticos en el nivel de línea.
 
 Vaya a **Clientes \> Configuración de cargos \> Cargos automáticos**.
 
@@ -122,9 +122,9 @@ Envíe los cargos a Commerce Scale Unit/DB de canal para que los PDV puedan usar
 
 #### <a name="sales-processing-for-this-scenario"></a>Procesado de ventas para este escenario
 
-Una vez que los pasos de configuración anteriores se completen y los cambios se han aplicado a la base de datos de canal, cualquier pedido de cliente o la transacción de ventas creada en PDV, el centro de asistencia, telefónica o los canales de e-commerce que tienen este elemento activarán un cargo a nivel de línea que se añadirá sistemáticamente al total del pedido.
+Una vez que los pasos de configuración anteriores se completen y los cambios se han aplicado a la base de datos de canal, cualquier pedido de cliente o la transacción de ventas creada en PDV, el centro de asistencia, telefónica o los canales de e-commerce que tienen este elemento activarán un cargo en el nivel de línea que se añadirá sistemáticamente al total del pedido.
 
-En este tiempo, los cargos se aplicarán a cualquier línea de ventas que coincida con la configuración de los cargos automáticos a nivel de línea dentro de la entidad jurídica, ya que no hay funcionalidad para configurar un cargo automático a nivel de línea para que se aplique solo a un canal de venta específico.
+En este tiempo, los cargos se aplicarán a cualquier línea de ventas que coincida con la configuración de los cargos automáticos en el nivel de línea dentro de la entidad jurídica, ya que no hay funcionalidad para configurar un cargo automático en el nivel de línea para que se aplique solo a un canal de venta específico.
 
 ### <a name="manual-header-charges-example"></a>Ejemplo de cargos manuales de encabezado
 
@@ -168,7 +168,7 @@ La operación **Agregar cargo de línea** se debe configurar en su [Diseño de p
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>Procesamiento de ventas de cargos de línea manuales
 
-Para ejecutar el escenario en la aplicación de PDV, el usuario PDV creará la transacción de ventas como de costumbre, agregando los productos y cualquier otra configuración para la venta. Antes de cobrar el pago, el usuario debe seleccionar la línea específica en el cargo que se aplicará en la visualización de la lista de artículos del PDV y ejecutar la operación **Agregar cargo de línea** . Se le solicitará al usuario seleccionar un código de cargos y especifica el valor de los cargos. Una vez que el usuario complete el proceso, el cargo se vinculará a la línea y añadirá al total del pedido como un cargo a nivel de línea. El usuario puede repetir el proceso para agregar más cargos de línea a otras líneas de los artículos de la transacción, si es necesario.
+Para ejecutar el escenario en la aplicación de PDV, el usuario PDV creará la transacción de ventas como de costumbre, agregando los productos y cualquier otra configuración para la venta. Antes de cobrar el pago, el usuario debe seleccionar la línea específica en el cargo que se aplicará en la visualización de la lista de artículos del PDV y ejecutar la operación **Agregar cargo de línea** . Se le solicitará al usuario seleccionar un código de cargos y especifica el valor de los cargos. Una vez que el usuario complete el proceso, el cargo se vinculará a la línea y añadirá al total del pedido como un cargo en el nivel de línea. El usuario puede repetir el proceso para agregar más cargos de línea a otras líneas de los artículos de la transacción, si es necesario.
 
 El mismo proceso se puede aplicar al centro de asistencia telefónica mediante la función “mantener cargos” encontrada bajo el menú **Operaciones financieras** en la sección **Líneas de pedido de ventas** en la página **Pedidos de ventas** . Seleccionar esta opción abrirá la página **Mantener cargos** donde el usuario puede agregar un cargo específico de la nueva línea a la transacción.
 
@@ -189,7 +189,7 @@ Si los códigos de motivo se capturan para cargos sobrescritos, un nuevo informe
 Si el parámetro **Usar cargos automáticos avanzados** se establece en **Sí**, el parámetro de Commerce existente para **Devolver cargos de envío** ya no es aplicable. Para indicar qué cargos se deben devolver sistemáticamente a un cliente al usar cargos automáticos avanzados, asegúrese de que el código de cargos relacionado se ha configurado como **Reembolsable** en la página de configuración **Código de cargos** . Asegúrese de que los valores se hayan sincronizado a las bases de datos del canal de Commerce con el proceso de programación de la distribución.
 
 > [!TIP]
-> Para obtener orientación que le ayude a garantizar que los cargos reembolsables a nivel de línea se calculen en función de la cantidad que se devuelve, consulte [Los cargos reembolsables no están calculados según la cantidad devuelta](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
+> Para obtener orientación que le ayude a garantizar que los cargos reembolsables en el nivel de línea se calculen en función de la cantidad que se devuelve, consulte [Los cargos reembolsables no están calculados según la cantidad devuelta](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Devolución de cargos de una transacción de devolución de pedido
 
