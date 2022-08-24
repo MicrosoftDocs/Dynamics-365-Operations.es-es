@@ -1,24 +1,24 @@
 ---
 title: Complemento Hoja de ruta (Carta de Porte)
 description: Este artículo explica cómo configurar y enviar albaranes y órdenes de transferencia que incluyen el complemento Hoja de ruta (Carta de Porte).
-author: v-oloski
+author: AdamTrukawka
 ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: v-olgaoskina
+ms.author: atrukawk
 ms.search.validFrom: 2021-08-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 6bc6f4a1994682e435551c809b0ee9f44e82a7d2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 51b665bacfd76c9983cacebb2cba4cd8875474e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906217"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267120"
 ---
 # <a name="waybill-carta-de-porte-complement"></a>Complemento Hoja de ruta (Carta de Porte)
 

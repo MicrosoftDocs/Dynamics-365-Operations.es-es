@@ -1,28 +1,26 @@
 ---
 title: Visión general de los informes electrónicos (ER)
 description: Este artículo proporciona una visión general de la herramienta de informes electrónicos. Describe conceptos clave, escenarios compatibles y formatos que forman parte de la solución.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109592"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269703"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -78,7 +76,7 @@ El motor de ER tiene las siguientes capacidades:
 
 [![Flujo de datos principal de ER](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Componentes
+### <a name="component"></a>Componente
 
 ER admiten los siguientes tipos de componentes:
 
@@ -89,32 +87,7 @@ ER admiten los siguientes tipos de componentes:
 
 Para obtener más información, consulte [Informes de componentes electrónicos](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Control de versiones de componentes
-
-El control de versiones se admite para componentes de ER. El flujo de trabajo siguiente se proporciona para gestionar cambios en los componentes de ER:
-
-1. La versión que se creó originalmente se marca como una versión **Borrador**. Esta versión se puede editar y está disponible para ejecuciones de prueba.
-2. La versión **Borrador** puede convertirse en una versión **Completado**. Esta versión se puede utilizar en procesos de informes locales.
-3. La versión **Completado** puede convertirse en una versión **Compartido**. Esta versión se publica en LCS y puede utilizarse en procesos globales de informes.
-4. La versión **Compartido** puede convertirse en una versión **Interrumpida**. Esta versión se puede eliminar a continuación.
-
-Las versiones que tienen el estado **Completado** o **Compartido** están disponibles para otro intercambio de datos. En un componente que tiene estos estados se pueden realizar las siguientes acciones:
-
-- El componente se puede serializar en formato XML y exportar como archivo en formato XML.
-- El componente puede volver a serializar desde un archivo XML e importar en la aplicación como una nueva versión de un componente de ER.
-
-#### <a name="component-date-effectivity"></a>Eficacia de la fecha del componente
-
-Las versiones del componente de ER tienen fecha de vigencia. Puede establecer fecha **Vigente desde** para que un componente de ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de la aplicación se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha concreta, la última versión se usa para procesos de informes.
-
-#### <a name="component-access"></a>Acceso del componente
-
-El acceso a los componentes del formato de ER depende de la configuración del código de país o región ISO. Cuando esta opción está en blanco para una versión seleccionada de una configuración de formato, se puede obtener acceso a un componente de formato desde cualquier empresa en tiempo de ejecución. Cuando esta configuración contiene códigos de país o región ISO, un componente de formato solo está disponible desde las empresas que tienen una dirección principal que está definida para uno de los códigos de país o región ISO de un componente de formato.
-
-Diferentes versiones de un componente de formato de datos pueden tener distintos ajustes de los códigos de país o región ISO.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Configuración
+### <a name="configuration"></a><a name="Configuration"></a>Configuración
 
 Una configuración de ER es el contenedor de un componente concreto de ER. Dicho componente puede ser un componente del modelo de datos o un componente del formato. Una configuración puede incluir diferentes versiones de un componente de ER. Cada configuración se marca como perteneciente a un proveedor específico de configuración. La versión **Borrador** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de la aplicación.
 
@@ -124,13 +97,13 @@ La configuración de formato que se crea contiene un componente formato. El comp
 
 Una configuración de ER se comparte en las empresas de la aplicación.
 
-#### <a name="provider"></a><a name="Provider"></a>Proveedor
+### <a name="provider"></a><a name="Provider"></a>Proveedor
 
 El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de finanzas y operaciones se marcan como propiedad del proveedor de configuración **Microsoft**.
 
 Para obtener información sobre cómo registrar un nuevo proveedor de ER, reproduzca la guía de la tarea, **ER Creación de un proveedor de configuraciones y marcarlo como activo** (parte del proceso empresarial **7.5.4.3 Adquirir y desarrollar los componentes del servicio o la solución de TI (10677)**).
 
-#### <a name="repository"></a><a name="Repository"></a>Repositorio
+### <a name="repository"></a><a name="Repository"></a>Repositorio
 
 Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles: 
 
@@ -265,6 +238,7 @@ La lista de las configuraciones de informes electrónicos para Finance se actual
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
+- [Componentes de los informes electrónicos](er-overview-components.md)
 - [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md)
 - [Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
 

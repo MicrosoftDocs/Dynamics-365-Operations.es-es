@@ -1,26 +1,26 @@
 ---
 title: Usar los orígenes de datos de JOIN del modelo ER asignaciones para recopilar datos de las tablas de la aplicación múltiple
 description: En este artículo se explica cómo puede usar orígenes de datos de tipo JOIN en informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 3f03e69dbce7c9039f22dbb8f3afa06f16d9c080
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845552"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285163"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
 

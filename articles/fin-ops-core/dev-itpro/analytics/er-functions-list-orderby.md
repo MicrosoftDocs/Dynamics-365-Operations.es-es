@@ -1,25 +1,25 @@
 ---
 title: Función ORDERBY de ER
 description: En este artículo se proporciona información sobre cómo usar la función ORDERBY de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 12/12/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 23ace859bf75b2adb6ef8604475519a015486948
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883770"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282573"
 ---
 # <a name="orderby-er-function"></a>Función ORDERBY de ER
 
@@ -83,7 +83,7 @@ Cuando el argumento `location` se especifica como **InMemory**, la clasificació
 
 ### <a name="sorting-in-database"></a>Clasificación en la base de datos
 
-Cuando el argumento `location` se especifica como **Consulta**, la clasificación de datos se realiza a nivel de base de datos. En este caso, el argumento `list` debe apuntar a uno de los siguientes orígenes de datos de [informes electrónicos (ER)](general-electronic-reporting.md) que especifique el origen de la aplicación para el que se puede establecer una consulta directa a la base de datos:
+Cuando el argumento `location` se especifica como **Consulta**, la clasificación de datos se realiza en el nivel de base de datos. En este caso, el argumento `list` debe apuntar a uno de los siguientes orígenes de datos de [informes electrónicos (ER)](general-electronic-reporting.md) que especifique el origen de la aplicación para el que se puede establecer una consulta directa a la base de datos:
 
 - Origen de datos del tipo *Registros de tabla*.
 - Relación de un origen de datos del tipo *Registros de tabla*.

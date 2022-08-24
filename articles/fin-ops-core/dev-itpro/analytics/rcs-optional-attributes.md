@@ -1,24 +1,24 @@
 ---
 title: Importar archivos en formato XML con atributos opcionales
 description: En este artículo se proporciona información sobre el diseño de formatos de ER que especifican atributos XML para analizar documentos electrónicos entrantes en formato XML.
-author: NickSelin
+author: kfend
 ms.date: 07/03/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: bd4e2d75a598dd36de8b2ce89e83789d87b3a72e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873233"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276638"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importar archivos en formato XML con atributos opcionales
 

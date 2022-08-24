@@ -1,26 +1,26 @@
 ---
 title: Inspeccionar el componente ER configurado para evitar problemas de runtime
 description: Este artículo explica cómo inspeccionar los componentes de informes electrónicos (ER) configurados para evitar problemas de runtime que puedan ocurrir.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864847"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277862"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspeccionar el componente ER configurado para evitar problemas de runtime
 
@@ -30,8 +30,8 @@ Cada componente de [Informe electrónico (ER)](general-electronic-reporting.md) 
 
 De forma predeterminada, la validación se aplica automáticamente en los siguientes casos para una configuración de ER que contiene los componentes de ER mencionados anteriormente:
 
-- Usted [importa](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una [versión](general-electronic-reporting.md#component-versioning) nueva de una configuración de ER en su instancia de Microsoft Dynamics 365 Finance.
-- Cambia el [estado](general-electronic-reporting.md#component-versioning) de la configuración de ER configurable de **Borrador** a **Completado**.
+- Usted [importa](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una versión nueva de una configuración de ER en su instancia de Microsoft Dynamics 365 Finance.
+- Cambia el estado de la configuración de ER configurable de **Borrador** a **Completado**.
 - Usted [rebasa](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) una configuración de ER editable aplicando una nueva versión base.
 
 Puede ejecutar explícitamente esta validación. Seleccione una de las siguientes tres opciones y siga los pasos que se proporcionan:
@@ -770,7 +770,7 @@ Modifique el formato configurado eliminando el enlace para el elemento de format
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Plantilla no vinculada
 
-Cuando usted configura [manualmente](er-fillable-excel.md#manual-entry) un componente de formato ER para usar una plantilla para generar un documento saliente, debe agregar manualmente el elemento **Excel\\Archivo**, agregue la plantilla requerida como un adjunto del componente editable y seleccione ese adjunto en el elemento **Excel\\Archivo** agregado. De esta manera, indicas que el elemento agregado llenará la plantilla seleccionada en runtime. Cuando configura una versión de componente de formato en [estado](general-electronic-reporting.md#component-versioning), **Borrador** puede agregar varias plantillas al componente editable y luego seleccionar cada plantilla en el elemento **Excel\\Archivo** para ejecutar el formato ER. De esta manera, puede ver cómo se llenan las diferentes plantillas en runtime. Si tiene plantillas que no están seleccionadas en ningún elemento **Excel\\Archivo**, el diseñador de formato ER le advierte que esas plantillas se eliminarán de la versión editable del componente de formato ER cuando su estado cambie de **Borrador** a **Terminado**.
+Cuando usted configura [manualmente](er-fillable-excel.md#manual-entry) un componente de formato ER para usar una plantilla para generar un documento saliente, debe agregar manualmente el elemento **Excel\\Archivo**, agregue la plantilla requerida como un adjunto del componente editable y seleccione ese adjunto en el elemento **Excel\\Archivo** agregado. De esta manera, indicas que el elemento agregado llenará la plantilla seleccionada en runtime. Cuando configura una versión de componente de formato en estado, **Borrador** puede agregar varias plantillas al componente editable y luego seleccionar cada plantilla en el elemento **Excel\\Archivo** para ejecutar el formato ER. De esta manera, puede ver cómo se llenan las diferentes plantillas en runtime. Si tiene plantillas que no están seleccionadas en ningún elemento **Excel\\Archivo**, el diseñador de formato ER le advierte que esas plantillas se eliminarán de la versión editable del componente de formato ER cuando su estado cambie de **Borrador** a **Terminado**.
 
 Los siguientes pasos muestran cómo puede ocurrir este problema.
 

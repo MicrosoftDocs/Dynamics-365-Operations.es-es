@@ -1,25 +1,25 @@
 ---
 title: Impuesto condicional para pagarés o letras de cambio protestados
 description: Este artículo proporciona información acerca de los pagarés o letras de cambio para las entidades jurídicas en España.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BankBillOfExchangeTable, BankPromissoryNoteTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 271503
 ms.search.region: Spain
-ms.author: kfend
-ms.dyn365.ops.version: Version 1611
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: ae77d25ec294e5074ffbbc47d2e9661e822df247
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: Version 1611
+ms.custom: 271503
+ms.search.form: BankBillOfExchangeTable, BankPromissoryNoteTable
+ms.openlocfilehash: 675853c209f82a1cff388d6135fd8d0b59d44c36
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845169"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287803"
 ---
 # <a name="conditional-sales-tax-for-protested-promissory-notes-or-bills-of-exchange"></a>Impuesto condicional para pagarés o letras de cambio protestados
 [!include [banner](../includes/banner.md)]

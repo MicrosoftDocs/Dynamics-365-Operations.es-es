@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881861"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276383"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Información general de la página de aterrizaje de la categoría predeterminada y la página de resultados de la búsqueda
 
@@ -46,6 +46,12 @@ Los siguientes componentes son esenciales para una categoría:
     - Nombre de producto: \[Z-A\]
     - Clasificaciones: de menor a mayor
     - Clasificaciones: de mayor a menor
+
+- **Opciones de ordenación avanzadas** se usan por los visitantes del sitio web para ordenar los productos según criterios inteligentes. Al habiliatar las [recomendaciones de productos](product-recommendations.md), están disponibles las siguientes opciones de ordenación. Para obtener más información, consulte el artículo [Tipos de recomendaciones de productos](product-recommendations.md#types-of-product-recommendations).
+
+    - Crear nuevo
+    - Más vendidos
+    - Tendencias
 
 - **Paginación** permite a los visitantes del sitio web pasar de una página de resultados de productos clasificados a otra página.
 - **Recuento total** proporciona el número total de productos definidos en una categoría.
@@ -78,7 +84,7 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 
 - **Iconos de colocación de producto** muestran los productos para la búsqueda del usuario. De forma predeterminada, estos iconos se ordenan por la puntuación de relevancia de búsqueda con tecnología de nube para la búsqueda del usuario.
 - **Refinadores y resumen de opciones** son filtros que proporcionan recuentos y que se pueden utilizar para limitar artículos. El administrador de comercialización los configura como parte de la configuración de los metadatos de "categorías de canal y atributos de producto".
-- **Opciones de ordenación** se usan por los visitantes del sitio web para ordenar los productos. De forma predeterminada, están disponibles las siguientes opciones de ordenación:
+- **Opciones de ordenación estándar** se usan por los visitantes del sitio web para ordenar los productos. De forma predeterminada, están disponibles las siguientes opciones de ordenación:
 
     - Precio: de menor a mayor
     - Precio: de mayor a menor
@@ -86,7 +92,16 @@ Los siguientes componentes son esenciales para una página de resultados de la b
     - Nombre de producto: \[Z-A\]
     - Clasificaciones: de menor a mayor
     - Clasificaciones: de mayor a menor
-    - Predeterminada
+    - Valor predeterminado 
+    
+    > [!NOTE]
+    > Si los valores **Orden de visualización** se definen para los productos en la jerarquía de navegación, la ordenación predeterminada en una página de categoría respeta los valores definidos en **Orden de visualización**. De lo contrario, la clasificación se realizará por **Número de producto**.)
+    
+- **Opciones de ordenación avanzadas** se usan por los visitantes del sitio web para ordenar los productos según criterios inteligentes. Al habiliatar las [recomendaciones de productos](product-recommendations.md), están disponibles las siguientes opciones de ordenación. Para obtener más información, consulte el artículo [Tipos de recomendaciones de productos](product-recommendations.md#types-of-product-recommendations).
+
+    - Crear nuevo
+    - Más vendidos
+    - Tendencias
 
 - **Paginación** permite a los visitantes del sitio web pasar de una página de resultados de productos clasificados a otra página.
 - **Recuento total** proporciona el número total de productos definidos en una categoría y que coinciden con los criterios de búsqueda.
@@ -94,6 +109,8 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 >[!NOTE]
 >Estas capacidades de búsqueda basadas en la nube están disponibles a partir de la versión 10.0.8. Asegúrese de que en **Parámetros de Commerce > Parámetros de configuración** hay una entrada para "ProductSearch.UseAzureSearch establecido en 'true'". 
 ![Parámetros de configuración para búsqueda en la nube.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Además, para usar las opciones de clasificación avanzadas, como las nuevas, las más vendidas y las tendencias, debe habilitar las [Recomendaciones de productos](product-recommendations.md) para su entorno. Las opciones de clasificación avanzadas están disponibles con Commerce SDK versión 9.35+ y Commerce versión 10.0.20.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

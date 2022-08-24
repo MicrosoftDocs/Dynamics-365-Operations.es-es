@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905465"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218754"
 ---
 # <a name="warehouse-app-event-processing"></a>Procesamiento de eventos de la aplicación de almacén
 
@@ -28,7 +28,7 @@ Los trabajos por lotes que se ejecutan en Supply Chain Management pueden usar da
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Activar o desactivar la característica Procesar eventos de aplicación de almacén
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Procesar eventos de aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria. Por lo tanto, está activado de forma predeterminada y no se puede volver a desactivar. Si está ejecutando una versión que es anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Procesar eventos de aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurar un trabajo por lotes para procesar eventos de aplicaciones de almacén
 

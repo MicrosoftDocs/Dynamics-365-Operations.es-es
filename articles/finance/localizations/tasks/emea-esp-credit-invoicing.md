@@ -1,7 +1,7 @@
 ---
 title: Crear una factura correctiva (España)
 description: Este procedimiento le guía por la manera de crear una factura de corrección.
-author: ShylaThompson
+author: kfend
 ms.date: 12/06/2017
 ms.topic: business-process
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee49c46f1f35cb1e4c0ec4bb97e3fb5d833002e5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: da722a22c8a704a146e736418dfb6e1e465bfd06
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566109"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267126"
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 

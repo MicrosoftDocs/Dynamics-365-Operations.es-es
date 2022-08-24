@@ -1,8 +1,8 @@
 ---
 title: Crear pedidos de centro de llamadas
-description: Este procedimiento le guía por la búsqueda de un cliente, la creación de un nuevo pedido, la búsqueda de un producto y el cobro de pagos del cliente.
+description: Este artículo explica un procedimiento de ejemplo en el que un usuario del centro de llamadas busca un cliente, crea un nuevo pedido, busca un producto y cobra el pago del cliente en Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/29/2018
+ms.date: 08/05/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,51 +14,72 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 78cccabb206d938b850e70b7e8057e20cc6158e1d154fc4876de7918dbe44d87
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d483896ce131e9a7bc60ab5ea7b8fa01a3bea8
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730668"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228520"
 ---
 # <a name="create-call-center-orders"></a>Crear pedidos de centro de llamadas
 
 [!include [banner](../includes/banner.md)]
 
-Este procedimiento le guía por la búsqueda de un cliente, la creación de un nuevo pedido, la búsqueda de un producto y el cobro de pagos del cliente. Este procedimiento usa la empresa de datos de demostración USRT y está pensado para el funcionario de ventas. Requisitos previos: el usuario que complete el procedimiento se configura como usuario del centro de llamadas y el catálogo semestral de Fabrikam se publica con al menos un código fuente en él.
+Este artículo explica un procedimiento de ejemplo en el que un usuario del centro de llamadas busca un cliente, crea un nuevo pedido, busca un producto y cobra el pago del cliente en Microsoft Dynamics 365 Commerce. El procedimiento usa la empresa de datos de demostración USRT y está pensado para funcionarios de ventas. 
+
+## <a name="prerequisites"></a>Requisitos previos
+
+El usuario que completa el procedimiento tiene que configurarse como un usuario del centro de llamadas. Opcionalmente, el catálogo semestral de Fabrikam se puede publicar con al menos un código fuente.
+
+### <a name="add-yourself-as-a-call-center-user"></a>Agréguese como usuario del centro de llamadas
+
+Para agregarse como usuario de centro de llamadas, siga estos pasos.
+
+1. En la sede central de Commerce, vaya a **Retail y Commerce \> Canales \> Centros de llamadsa \> Todos los centros de llamadas**.
+1. En el campo **Usuarios**, seleccione **Usuarios del canal**.
+1. En el panel de acciones, haga clic en **Nueva**.
+1. En el campo **Id. de usuario**, especifique su identificador de usuario.
+1. Escriba su nombre de usuario en el campo **Nombre**. El nombre de usuario puede ser el mismo que el ID de usuario.
+1. En el panel Acciones, seleccione **Guardar**.
+1. Regrese a **Venta minorista y comercio \> Canales \> Centros de llamadas \> Todos los centros de llamadas**.
+1. Seleccione el ID de canal minorista del centro de llamadas.
+1. Confirme que la opción **Habilitar finalización de pedido** está configurada como **Sí**. Si la opción no está visible, puede omitir este paso.
+
+## <a name="complete-the-example-call-center-procedure"></a>Completar el procedimiento del centro de llamadas de ejemplo
+
+Para completar el procedimiento del centro de llamadas de ejemplo, siga estos pasos.
 
 1. Vaya a **Retail y Commerce \> Clientes \> Servicio al cliente**.
-2. En **SearchText**, especifique los criterios de búsqueda para buscar el cliente.
-    * Para este procedimiento de ejemplo, escriba "Karen" y seleccione **Tabulador**.  
-3. Selección Buscar.
-    * Dado que solo hay un cliente llamado "Karen" en los datos de demostración, el resultado se seleccionará automáticamente.  
-4. Seleccione **Nuevo pedido de ventas**.
-5. Expanda o contraiga la sección de encabezado **Pedido de ventas**.
-6. Seleccione el código fuente para el catálogo.
-    * Si no hay códigos de origen activos, puede omitir este paso.  
-7. Seleccione **Agregar línea**.
-8. En el campo **Código de artículo**, especifique el término de búsqueda del artículo.
-    * Para este procedimiento de ejemplo, escriba el código de artículo parcial "8111 " y presione el tabulador. Esto hará que se muestre la ventana de búsqueda del artículo.  
-9. Seleccione el producto que se agregará al pedido de ventas.
-10. Especifique la cantidad de ventas.
-11. Seleccione **Crear**.
-12. Seleccione **Completar** para capturar el pago del cliente.
-13. Seleccione **Agregar**.
-    * El vínculo "Agregar" se encuentra en la pestaña de pagos. Si está contraída, abra la pestaña de pagos.  
-14. Seleccione el método de pago.
-    * Para este procedimiento, seleccione el método de pago en efectivo.  
-15. Cierre la página.
-16. Especifique el importe.
-    * Para este procedimiento, especifique un importe igual al saldo del pedido que se puede ver en la página Resumen de pedido de ventas a la izquierda del campo de importe. Esta acción le permitirá que completar el pedido como totalmente pagado.  
-17. Seleccione **Aceptar**.
-18. Seleccione **Enviar**.
+1. En la pestaña **Búsqueda de clientes**, especifique los criterios de búsqueda para buscar el cliente. Para este procedimiento de ejemplo, escriba **Karen**.
+1. Selección **Buscar**. Aparecerá el cuadro de diálogo **Búsqueda de clientes** y enumerará los resultados de la búsqueda.
+1. Seleccione el registro de cliente para **Karen Berg** que tiene número de cuenta de cliente **2001** y luego seleccione **Seleccionar**.
+1. En el panel de acciones, seleccione **Nuevo pedido de venta**.
+1. A la derecha, seleccione la pestaña **Encabezado**.
+1. En la ficha desplegable **Entrega**, en la sección **Modo de entrega**, seleccione **99 estándar**.
+
+    ![Selección de un modo de entrega.](../media/Select_Mode_of_Delivery.png)
+
+1. A la derecha, seleccione la pestaña **Líneas**.
+1. En la sección **Líneas de orden de venta**, en la nueva fila para la nueva línea de ventas, en el campo **Número de artículo**, introduzca el número de artículo que desea buscar. Para este procedimiento de ejemplo, introduzca **81327** y luego seleccione el producto en la lista desplegable para agregarlo al pedido de ventas.
+1. Introduzca la cantidad de venta en el campo **Cantidad**.
+1. En e campo **Código de origen**, seleccione el código de origen del catálogo. Si no hay códigos de origen activos, puede omitir este paso.
+1. En el panel de acciones, seleccione **Completar** para capturar el pago del cliente. Esta acción abre el cuadro de diálogo **Resumen de pedidos de venta**, que muestra el importe total adeudado. La acción también activa el cálculo de cualquier cargo, como envío y manejo, y los muestra en el cuadro de diálogo **Resumen de pedidos de venta**.
+
+    ![Botón Completar.](../media/Complete_button.png)
+
+1. En el cuadro de diálogo **Resumen de pedidos de venta**, en la ficha desplegable **Pagos**, seleccione **Agregar** para capturar los pagos.
+
+    ![Cuadro de diálogo de resumen Pedido de ventas.](../media/order_summary.png)
+
+1. En el cuadro de diálogo **Introducir la información de pago del cliente**, en el campo **Método de pago**, seleccione el método de pago. Para este procedimiento de ejemplo, seleccione **Efectivo**.
+1. En el campo **Importe de pago**, especifique el importe del pago. Para este ejemplo, introduzca **120,00**, que es igual al saldo del pedido que se muestra en el cuadro de diálogo **Resumen de pedidos de venta**. Al introducir este importe, puede completar el pedido como totalmente pagado.
+1. Seleccione **Aceptar**.
+1. Seleccione **Enviar**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Personalizar correos electrónicos transaccionales por modo de entrega](../customize-email-delivery-mode.md)
 
 [Cambiar el modo de entrega en PDV](../pos-change-delivery-mode.md)
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

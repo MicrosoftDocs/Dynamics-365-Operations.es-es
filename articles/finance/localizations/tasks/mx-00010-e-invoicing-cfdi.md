@@ -1,24 +1,24 @@
 ---
 title: Facturación electrónica de CFDI
 description: Este artículo le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI.
-author: sndray
+author: AdamTrukawka
 ms.date: 08/03/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxGroupLookup, InventLocationIdLookup, SalesEditLines, EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ab8a9cd788bb4992665768ef4d4293d9518326b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxGroupLookup, InventLocationIdLookup, SalesEditLines, EInvoiceCFDIJournal_AR
+ms.openlocfilehash: 38a12bbc4ed4857a6b2443a31ad4c16f41d70e84
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856452"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267633"
 ---
 # <a name="e-invoicing-cfdi"></a>Facturación electrónica de CFDI
 

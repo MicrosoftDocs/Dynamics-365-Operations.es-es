@@ -1,24 +1,24 @@
 ---
 title: (ER) Importar configuraciones desde RCS
 description: En este artículo se proporciona información acerca de cómo un usuario puede importar una nueva versión de una configuración de ER desde RCS.
-author: NickSelin
+author: kfend
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5317b1f7c8c0af6cd5c839e065c590c4474c84de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 55e7a3ae23b708acecb5ac219b885f43b4c7aa0a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850154"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290046"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Importar configuraciones desde RCS
 

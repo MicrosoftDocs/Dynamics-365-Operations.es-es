@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889646"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220039"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Tutorial de la característica de gestión de cambios de ingeniería
 
@@ -45,7 +45,7 @@ Antes de intentar hacer cualquiera de los ejercicios del resto de este artículo
 
 ### <a name="make-standard-demo-data-available"></a>Hacer que los datos de demostración estándar estén disponibles
 
-Trabajar en un sistema donde los [datos de demostración estándar están instalados](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Los datos de demostración estándar agregan datos para varias entidades legales de demostración (empresas y organizaciones). A medida que avance en los ejercicios, utilizará el selector de empresas del lado derecho de la barra de navegación para cambiar entre una empresa (*DEMF*) que está configurado como *organización de ingeniería* y otra empresa (*USMF*) que está configurado como *organización operativa*.
+Trabajar en un sistema donde los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar están instalados. Los datos de demostración estándar agregan datos para varias entidades legales de demostración (empresas y organizaciones). A medida que avance en los ejercicios, utilizará el selector de empresas del lado derecho de la barra de navegación para cambiar entre una empresa (*DEMF*) que está configurado como *organización de ingeniería* y otra empresa (*USMF*) que está configurado como *organización operativa*.
 
 ### <a name="set-up-an-engineering-organization"></a>Configurar una organización de ingeniería
 

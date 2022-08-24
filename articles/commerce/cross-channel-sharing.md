@@ -1,25 +1,25 @@
 ---
 title: Habilitar y usar el uso compartido entre canales
 description: Este artículo describe cómo habilitar y usar la función de uso compartido entre canales del generador de sitios de Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: c05da17327e61d6f61883ab97a403bf2cf8a68f1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866013"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270083"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar y usar el uso compartido entre canales
 
@@ -41,7 +41,7 @@ Los sitios que tienen un solo canal, o los sitios que tienen varios canales que 
 
 ## <a name="enable-cross-channel-sharing"></a>Habilitar el uso compartido entre canales
 
-El uso compartido entre canales está habilitado a nivel de sitio. Esta operación es unidireccional. En otras palabras, una vez que se habilita el uso compartido entre canales, no se puede deshabilitar.
+El uso compartido entre canales está habilitado en el nivel de sitio. Esta operación es unidireccional. En otras palabras, una vez que se habilita el uso compartido entre canales, no se puede deshabilitar.
 
 Para habilitar el uso compartido entre canales en el creador de sitios de Commerce, siga estos pasos.
 

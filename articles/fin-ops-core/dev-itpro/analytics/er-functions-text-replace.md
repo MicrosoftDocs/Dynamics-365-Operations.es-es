@@ -1,25 +1,25 @@
 ---
 title: Función REPLACE de ER
 description: Este artículo proporciona información general sobre cómo usar la función REPLACE de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/02/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c2b1ba82d61a3c163f1d657035b66ace9f15c77
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: e7a27b5015615d9b0f26e8fcddd812b3f51fb945
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878382"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278483"
 ---
 # <a name="replace-er-function"></a>Función REPLACE de ER
 

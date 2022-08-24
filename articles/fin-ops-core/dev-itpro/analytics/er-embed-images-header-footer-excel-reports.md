@@ -1,26 +1,26 @@
 ---
 title: Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
 description: En este artículo se explica cómo utilizar informes electrónicos (ER) para generar documentos empresariales que tienen imágenes y formas incrustadas en los encabezados o pies de página.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854854"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281824"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Diseñe un formato ER para generar un informe en formato Excel con imágenes incrustadas en encabezados o pies de página
 
@@ -196,7 +196,7 @@ En este caso, como representante de Litware, Inc., debe crear (derivar) una nuev
 
 ![Crear una configuración para un formato de pago personalizado en el cuadro de diálogo desplegable Crear configuración.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Se crea la versión 240.112.1 de la configuración del formato ER de la **Factura de servicios (Excel) personalizada**. Esta versión tiene un [estado](general-electronic-reporting.md#component-versioning) de **Borrador** y puede editarse. El contenido actual de su formato ER personalizado coincide con el contenido del formato proporcionado por Microsoft.
+Se crea la versión 240.112.1 de la configuración del formato ER de la **Factura de servicios (Excel) personalizada**. Esta versión tiene un estado de **Borrador** y puede editarse. El contenido actual de su formato ER personalizado coincide con el contenido del formato proporcionado por Microsoft.
 
 ![Nueva versión de la configuración de formato de ER creada en la página Configuraciones.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Configure su formato personalizado para que la imagen del logotipo de la empresa
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marcar el formato personalizado como ejecutable
 
-Debido a que se ha creado la primera versión del formato personalizado y tiene un estado de **Borrador**, puede ejecutarlo con fines de prueba. Para ejecutar el informe, procese un pago de proveedor utilizando el método de pago que se refiere a su formato ER personalizado. De forma predeterminada, cuando llama a un formato de ER desde la aplicación, las únicas versiones que tienen un estado de **Completado** o **Compartido** son las que se [consideran](general-electronic-reporting.md#component-versioning). Este comportamiento ayuda a evitar el uso de formatos ER que tienen diseños inacabados. Sin embargo, para sus ejecuciones de prueba, puede obligar a la aplicación a usar la versión de su formato ER que tenga un estado de **Borrador**. De esta manera, puede ajustar la versión del formato actual si se requieren modificaciones. Para obtener más información, consulte [Aplicabilidad](electronic-reporting-destinations.md#applicability).
+Debido a que se ha creado la primera versión del formato personalizado y tiene un estado de **Borrador**, puede ejecutarlo con fines de prueba. Para ejecutar el informe, procese un pago de proveedor utilizando el método de pago que se refiere a su formato ER personalizado. De forma predeterminada, cuando llama a un formato de ER desde la aplicación, las únicas versiones que tienen un estado de **Completado** o **Compartido** son las que se consideran. Este comportamiento ayuda a evitar el uso de formatos ER que tienen diseños inacabados. Sin embargo, para sus ejecuciones de prueba, puede obligar a la aplicación a usar la versión de su formato ER que tenga un estado de **Borrador**. De esta manera, puede ajustar la versión del formato actual si se requieren modificaciones. Para obtener más información, consulte [Aplicabilidad](electronic-reporting-destinations.md#applicability).
 
 Para utilizar la versión borrador de un formato ER, debe marcar de forma explícita el formato ER.
 

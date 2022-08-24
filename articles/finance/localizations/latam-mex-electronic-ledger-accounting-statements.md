@@ -1,26 +1,26 @@
 ---
 title: Extractos electrónicos de cuenta contable
 description: Este artículo explica cómo configurar y generar los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
-author: sndray
+author: AdamTrukawka
 ms.date: 12/07/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, LedgerConsolidateAccountGroup, LedgerJournalTable, LedgerJournalTransVendInvoice, LedgerParameters, MainAccount, MainAccountConsolidateAccount, VendEditInvoice, VendPaymMode, VendTransInvoicePool
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265314
-ms.assetid: b4a95c26-a49d-4a1d-bf70-90f457df2ddf
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3aa934b6e6cd6535a54d9b29704727c1aefeefb6e7aa11c07f7fd38da6a30375
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 265314
+ms.assetid: b4a95c26-a49d-4a1d-bf70-90f457df2ddf
+ms.search.form: ERSolutionTable, LedgerConsolidateAccountGroup, LedgerJournalTable, LedgerJournalTransVendInvoice, LedgerParameters, MainAccount, MainAccountConsolidateAccount, VendEditInvoice, VendPaymMode, VendTransInvoicePool
+ms.openlocfilehash: 0279cce2d47d45f3b32493f1a35d2cd98fc77870
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778098"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278178"
 ---
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 

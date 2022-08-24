@@ -1,24 +1,24 @@
 ---
 title: Cambiar el encabezado o el logotipo
 description: El procedimiento siguiente muestra los pasos que los administradores del sistema pueden usar para actualizar la imagen del banner o del logotipo que se muestra para una entidad jurídica.
-author: aneesmsft
+author: jasongre
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: aneesa
+ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee62376da24adbbe09cb039c095197067f2db59c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.search.form: OMLegalEntity, DefaultDashboard
+ms.openlocfilehash: 8b64cd91557503f98052f6cf0af475e89ca57b43
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069357"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285871"
 ---
 # <a name="change-the-banner-or-logo"></a>Cambiar el encabezado o el logotipo
 

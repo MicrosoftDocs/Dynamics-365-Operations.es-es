@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167773"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220374"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -87,29 +87,23 @@ A partir de la versión 10.0.25 de Supply Chain Management, esta función está 
 
 ### <a name="enable-registering-of-material-consumption"></a>Habilitar el registro de consumo de material
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto.
 
 Existen dos versiones de esta característica. Una admite artículos que *no están* habilitados para utilizar procesos de gestión de almacenes (WMS). El otro admite elementos que *están* habilitado para usar WMS. Para usar esta funcionalidad, active una o ambas de las siguientes características en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden), dependiendo de si tiene elementos habilitados para WMS:
 
 - *Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*
-- *(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
+- *Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
 
 > [!IMPORTANT]
 > Puede usar solo la función que no es WMS. Sin embargo, si usa WMS, debe habilitar ambas funciones.
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>Habilitar informes sobre artículos con peso capturado
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes para artículos de peso capturado. Los pedidos por lotes se crean a partir de fórmulas, que se pueden definir para que tengan productos de peso capturado y productos de fórmula, coproductos y subproductos. También se puede definir una fórmula para que tenga líneas de fórmula para los ingredientes definidos para el peso capturado. Los artículos con peso capturado utilizan dos unidades de medida para realizar un seguimiento del inventario: cantidad de peso capturado y cantidad de inventario. Por ejemplo, en la industria alimentaria, la carne en caja se puede definir como un artículo con peso capturado, en el que la cantidad de peso capturado se usa para rastrear el número de cajas y la cantidad de inventario se usa para rastrear el peso de las cajas.
 
 Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Versión preliminar) Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción*
+- *Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción*
 
 ### <a name="enable-the-my-day-dialog"></a>Habilitar el cuadro de diálogo "Mi día"
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895207"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227787"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
@@ -78,6 +78,8 @@ El prepago puede eliminarse de la orden de compra a menos que ya haya liquidado 
 Para registrar la factura de prepago del proveedor, vaya a la página **Factura de proveedor**, seleccionando la opción **Factura de prepago** en la página **Pedidos de compra** (**Proveedores \> Común \> Pedidos de compra \> Todos los pedidos de compra \> Pestaña Factura \> Factura de prepago**). Especifique la información de la factura de anticipo, incluido el número de factura. No puede modificar las cantidades de una factura de anticipo. Si el proveedor ha facturado una cantidad parcial del valor de prepago que se define en la orden de compra, puede actualizar el precio unitario para reflejar el valor parcial.
 
 Al registrar la factura de prepago, la cuenta de prepago y saldo del proveedor se actualizará. También se actualizará el valor **Solicitud de prepago** de la definición de prepago contenida en la orden de compra. Las entradas de dimensión financiera predeterminadas para el comprobante de prepago registrado se tomarán de la información del encabezado del pedido de compra.
+
+Si la característica **Bloquear dimensiones financieras en líneas de factura en la factura de pago por adelantado del proveedor** de la página **Gestión de características** está activada, las dimensiones del encabezado o las líneas de prepago no se pueden actualizar. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Contabilizar y liquidar pagos de la factura de prepago
 A continuación, se pagará la factura de prepago desde la página **Diario de pagos**. Para acceder a los diarios de pago, haga clic en **Proveedores \> Diarios \> Pagos \> Diario de pagos**. Después de contabilizar la liquidación del pago en la factura de prepago, se actualizará el valor de la **Solicitud de prepago restante** del pedido de compra.

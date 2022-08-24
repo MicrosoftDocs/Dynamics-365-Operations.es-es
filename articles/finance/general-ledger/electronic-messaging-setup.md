@@ -1,7 +1,7 @@
 ---
 title: Configurar mensajes electrónicos
 description: Este artículo proporciona información sobre cómo configurar la funcionalidad de mensajes electrónicos (EM).
-author: liza-golub
+author: AdamTrukawka
 ms.date: 11/18/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12beb1adbfa4e2f235c8a7c69e786d342c4a4f68
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874591"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279314"
 ---
 # <a name="set-up-electronic-messages"></a>Configurar mensajes electrónicos
 
@@ -266,8 +266,8 @@ Las opciones siguientes están disponibles en el campo **Tipo de acción**:
 - **Exportación de informes electrónicos** Use este tipo de acción para las acciones que deben generar un informe basado en una configuración de ER de exportación en el nivel de elemento de mensaje.
 - **Mensaje de exportación de informes electrónicos** - Use este tipo de acción para las acciones que deben generar un informe basado en una configuración de ER de exportación en el nivel de mensaje (por ejemplo, cuando un mensaje no tiene ningún elemento de mensaje).
 - **Importación de informes electrónicos** - Use este tipo de acción para las acciones que deben generar un informe basado en una configuración de ER de importación en el nivel de elemento de mensaje.
-- **Procesamiento de usuario de nivel de mensaje** Use este tipo de acción para acciones que presuponen alguna acción manual por parte del usuario a nivel de mensaje. Por ejemplo, el usuario podría actualizar el estado de los mensajes.
-- **Procesamiento de usuario** - Use este tipo de acción para acciones que presuponen alguna acción manual por parte del usuario a nivel de elemento. Por ejemplo, el usuario podría actualizar el estado de los elementos de mensajes.
+- **Procesamiento de usuario de nivel de mensaje** Use este tipo de acción para acciones que presuponen alguna acción manual por parte del usuario en el nivel de mensaje. Por ejemplo, el usuario podría actualizar el estado de los mensajes.
+- **Procesamiento de usuario** - Use este tipo de acción para acciones que presuponen alguna acción manual por parte del usuario en el nivel de elemento. Por ejemplo, el usuario podría actualizar el estado de los elementos de mensajes.
 - **Servicio web** - Use este tipo de acción para las acciones que deben transmitir un informe generado a un servicio web. No se usa este tipo de acción para los informes italianos de comunicación de la compra y las facturas de ventas. Para este tipo de acciones, la página **Acciones de procesamiento de mensajes** incluye una ficha desplegable **Detalles varios**, donde podrá especificar un texto de confirmación. Este texto de confirmación se presenta a los usuarios antes de que las solicitudes del servicio Web seleccionado se aborden.
 - **Comprobación de solicitud** - Use este tipo de acción para solicitar la comprobación desde un servidor.
 

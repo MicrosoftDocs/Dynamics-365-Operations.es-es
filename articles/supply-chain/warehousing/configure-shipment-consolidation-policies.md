@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845935"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219544"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -61,7 +61,6 @@ Siga estos pasos para configurar directivas de consolidación de envío predeter
 1. En la ficha desplegable **Almacén**, configure la opción **Consolidar el envío en el despacho al almacén** en *Sí*.
 1. Repita los pasos 2 a 4 para todos los demás almacenes donde se requiera consolidación.
 1. Cierre la página.
-1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
 1. Vaya a **Gestión de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**. Puede que tenga que actualizar su navegador para ver el nuevo elemento de menú **Directivas de consolidación de envíos** después de activar la característica.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
@@ -81,7 +80,6 @@ Siga estos pasos para configurar directivas de consolidación de envío predeter
 
 Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno completamente nuevo.
 
-1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*, si todavía no la ha activado. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
 1. Vaya a **Gestión de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 

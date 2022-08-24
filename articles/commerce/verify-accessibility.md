@@ -6,20 +6,20 @@ ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: caccb6085947193e4a5f8a8555722dd073f0c275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 686ec37f24cf68902c4dd918c0ca8aea7612e1a9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884769"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291983"
 ---
 # <a name="verify-page-content-accessibility"></a>Verificar accesibilidad de contenido de página
 
@@ -29,7 +29,7 @@ En este artículo se describe cómo comprobar la accesibilidad del contenido de 
 
 Cuando haya terminado de modificar una página debe asegurarse de que el contenido sea accesible para todos en la web. En las herramientas de creación de Commerce, puede comprobar fácilmente la accesibilidad del contenido de página mediante el servicio [Microsoft Accessibility Insights](https://accessibilityinsights.io/) integrado. Este servicio comprueba el contenido de su página siguiendo las directrices más recientes de [Accesibilidad del World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility).
 
-La integración de [Microsoft Accessibility Insights](https://accessibilityinsights.io/) debe estar activada a nivel de suscriptor o sitio antes de poder usarla.
+La integración de [Microsoft Accessibility Insights](https://accessibilityinsights.io/) debe estar activada en el nivel de suscriptor o sitio antes de poder usarla.
 
 ## <a name="turn-on-microsoft-accessibility-insights-for-all-the-sites-in-your-tenant"></a>Active Microsoft Accessibility Insights para todos los sitios de su suscriptor
 

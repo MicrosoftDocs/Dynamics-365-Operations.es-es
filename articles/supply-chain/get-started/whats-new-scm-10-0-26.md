@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8be79f259505c084a8680c453ec15a4cef1a890f
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124510"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219076"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.26 (mayo de 2022)
 
@@ -35,7 +35,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 |---|---|---|---|
 | Inventario y logística | [Consulta de visibilidad de inventario disponible para admitir artículos avanzados de gestión de almacén](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Soporte de visibilidad de inventario para artículos WMS](../inventory/inventory-visibility-whs-support.md) | Administración de características:<br>*Habilitar artículos de almacén en Visibilidad de inventario* |
 | Inventario y logística | [Disponible para prometer para el complemento de visibilidad de inventario](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](../inventory/inventory-visibility-available-to-promise.md) | Habilitado por configuración de servicio |
-| Fabricación | [Peso capturado de artículos para la interfaz de ejecución de la planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*(Versión preliminar) Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción* |
+| Fabricación | [Peso capturado de artículos para la interfaz de ejecución de la planta de producción](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción* |
 | Fabricación | Pestaña Mis trabajos en la interfaz de ejecución de la planta de producción <!-- KFM: Add link to release plan when available --> | [Cómo los trabajadores usan la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-use.md) | Administración de características:<br>*Pestaña Mis trabajos en la interfaz de ejecución de la planta de producción* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión

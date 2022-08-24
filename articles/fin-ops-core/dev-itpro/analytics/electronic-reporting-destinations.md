@@ -1,26 +1,26 @@
 ---
 title: Destinos de informes electrónicos (ER)
 description: Este artículo proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851088"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281979"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -118,7 +118,7 @@ Cuando configura destinos de archivo para un formato seleccionado, los configura
 
 [![Vínculo de configuración.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Al mismo tiempo, puede tener múltiples [versiones](general-electronic-reporting.md#component-versioning) del formato que se ha importado a la instancia actual de Finance. Puede verlas si selecciona el vínculo **Configuración** que se ofrece cuando selecciona el **Referencia** campo.
+Al mismo tiempo, puede tener múltiples versiones del formato que se ha importado a la instancia actual de Finance. Puede verlas si selecciona el vínculo **Configuración** que se ofrece cuando selecciona el **Referencia** campo.
 
 [![Versiones de configuración.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ A partir de Finance, **versión 10.0.9**, solo se admite la orientación de pág
 
 Solo se usan las fuentes comunes del sistema operativo Windows para la conversión de una salida que no contiene fuentes insertadas.
 
+### <a name="resources"></a>Recursos
+
+Antes de la versión 10.0.29 de Finance, la conversión de PDF solo podía realizarse fuera de la instancia actual de Finance. Se envió un archivo generado desde Finanzas al servicio de conversión, y ese servicio luego devolvió el documento convertido. Sin embargo, en la versión **10.0.29 y posteriores**, además de la característica **Convertir documentos salientes de informes electrónicos de formatos de Microsoft Office a PDF**, puede habilitar la característica **Utilizar los recursos de la aplicación para realizar la conversión de documentos de CBD de formato Word a PDF**. Esta función le permite convertir documentos de Word generados a formato PDF localmente mediante el uso de recursos del servidor de aplicaciones en la instancia de Finanzas actual. 
+
+Estas son las ventajas de la conversión PDF local cuando la característica **Utilizar los recursos de la aplicación para realizar la conversión de documentos de CBD de formato Word a PDF** esté habilitada:
+
+- El documento en PDF producido no está [limitado](#limitations) a un número máximo de páginas.
+- El documento de Word que se convierte puede contener una [gran cantidad de controles de contenido](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- No se requiere conectividad a Internet en las implementaciones locales.
+
 ### <a name="use-the-pdf-conversion-option"></a>Usar la opción de conversión de PDF
 
 Para activar la conversión de PDF para un destino de archivo, seleccione la casilla **Convertir a PDF**.
@@ -230,7 +240,7 @@ En la ficha desplegable **General**, en el campo **Enviar carpeta como**, selecc
 - **Archivos separados**: entregue cada archivo de un archivo zip generado como un archivo individual.
 
     > [!NOTE]
-    > Cuando selecciona **Archivos separados**, la salida generada se recopila en la memoria en un estado comprimido. Por lo tanto, el [límite de tamaño de archivo](er-compress-outbound-files.md) máximo se aplica para la salida comprimida cuando el tamaño real del archivo puede exceder este límite. Le recomendamos que seleccione este valor cuando espere que el tamaño de la salida generada también sea bastante grande.
+    > Cuando selecciona **Archivos separados**, la salida generada se recopila en la memoria en un estado comprimido. Por lo tanto, el [límite de tamaño de archivo](er-compress-outbound-files.md) máximo se aplica para la salida comprimida cuando el tamaño real del archivo puede exceder este límite. Le recomendamos que seleccione este valor cuando espere que el tamaño de la salida generada sea bastante grande.
 
 [![Configuración de un destino para un componente de formato de carpeta.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

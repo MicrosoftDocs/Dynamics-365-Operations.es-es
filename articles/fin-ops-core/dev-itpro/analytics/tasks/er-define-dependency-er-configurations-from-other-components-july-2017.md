@@ -1,7 +1,7 @@
 ---
 title: Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
 description: Este artículo describe cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia de otros componentes de software.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ff9d1edab13de49ae676708865ebe02a82db34e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111706"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291276"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
 

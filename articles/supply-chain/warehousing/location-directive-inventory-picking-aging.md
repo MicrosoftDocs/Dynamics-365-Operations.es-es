@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068682"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219484"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
@@ -34,8 +34,8 @@ Cuando el inventario se recibe o crea por primera vez en el almacén, el sistema
 
 Para que esta característica esté disponible, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), en este orden:
 
-1. Estado de ubicación de almacén
-1. Vencimiento de picking de inventario de directiva de ubicación
+1. *Estado de la ubicación del almacén* (A partir de la versión 10.0.29, esta función está activada de forma predeterminada. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
+1. *Vencimiento de picking de inventario de directiva de ubicación*
 
 ## <a name="feature-requirements"></a>Requisitos de características
 
@@ -50,7 +50,7 @@ Esta sección proporciona ejemplos que muestran cómo configurar y usar las estr
 
 ### <a name="make-sample-data-available"></a>Hacer que los datos de muestra estén disponibles
 
-Para trabajar en estos escenarios mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
+Para trabajar en estos escenarios mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
 
 También puede usar estos escenarios como guía para usar la característica en un sistema de producción. Sin embargo, en ese caso, debe sustituir sus propios valores para cada configuración aquí descrita.
 

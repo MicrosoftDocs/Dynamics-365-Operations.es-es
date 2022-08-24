@@ -1,25 +1,25 @@
 ---
 title: Informe del Modelo 347
 description: Este artículo proporciona información sobre cómo generar el informe del Modelo 347 que está disponible para las personas jurídicas que tienen su domicilio principal en España.
-author: Anasyash
+author: AdamTrukawka
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 271523
 ms.search.region: Spain
-ms.author: anasyash
-ms.dyn365.ops.version: Version 1611
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c0913d50747e662d729aaccc035da5acc1b1578f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: Version 1611
+ms.custom: 271523
+ms.search.form: ''
+ms.openlocfilehash: 17aeab8ba4efc1ed463390ce9384fda437a2ec21
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906262"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291584"
 ---
 # <a name="declaration-347-report"></a>Informe del Modelo 347
 [!include [banner](../includes/banner.md)]

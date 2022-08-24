@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854308"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219919"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Mejorar el rendimiento del motor de programación
 
@@ -294,7 +294,9 @@ Una alternativa al uso de operaciones paralelas es modelar los pares como recurs
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Ruta con cantidad de recursos superior a 1
 
-Si establece la cantidad de recursos necesarios para una operación superior a uno, el resultado es efectivamente lo mismo que usar operaciones primarias / secundarias porque se envían múltiples trabajos paralelos al motor. Sin embargo, para este caso no existe la opción de utilizar asignaciones de recursos específicos, porque una cantidad mayor que uno requiere que más de un recurso sea aplicable para la operación.
+Si establece la cantidad de recursos necesarios para una operación es mayor que uno, el resultado es efectivamente lo mismo que usar operaciones primarias / secundarias porque se enviarán múltiples trabajos paralelos al motor. Sin embargo, para este caso, no es posible utilizar asignaciones de recursos específicos, porque una cantidad mayor que uno requiere que más de un recurso sea aplicable para la operación.
+
+Una operación secundaria que tiene una cantidad de carga de recursos superior a uno significa que se necesita la cantidad especificada de recursos secundarios para cada recurso de la operación principal. Por ejemplo, si una operación principal tiene su cantidad de recursos establecida en dos y su operación secundaria tiene su cantidad de recursos establecida en tres, entonces se necesita un total de seis recursos para la operación secundaria.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Uso excesivo de la capacidad limitada
 

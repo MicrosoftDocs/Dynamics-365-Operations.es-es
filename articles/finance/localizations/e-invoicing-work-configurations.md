@@ -1,26 +1,26 @@
 ---
 title: Trabajar con configuraciones
 description: Este artículo proporciona una descripción general del escenario principal para trabajar con configuraciones de informes electrónicos (ER) desde el espacio de trabajo de funciones de globalización.
-author: dkalyuzh
+author: gionoder
 ms.date: 01/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: d87559405d2490c314eb2c8b88268af0dc0dfaca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875953"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283067"
 ---
 # <a name="work-with-configurations"></a>Trabajar con configuraciones
 

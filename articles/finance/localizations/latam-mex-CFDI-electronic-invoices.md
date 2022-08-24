@@ -1,26 +1,26 @@
 ---
 title: Facturas electrónicas (CFDI)
 description: Este artículo proporciona información acerca de las facturas electrónicas que su organización puede enviar a la autoridad fiscal mexicana (SAT). Describe el método aprobado actualmente para enviar facturas electrónicas (CFDI), los requisitos para usarlas y la información que incluyen.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EInvoiceCFDIJour_MX, EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, SalesTable, SalesTablePostings
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 29791
-ms.assetid: b6861a2c-c132-48a2-97b5-9cb1020e0512
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0836542bcc5d6c7bcd791df60c4bf07f5270e9d
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.custom: 29791
+ms.assetid: b6861a2c-c132-48a2-97b5-9cb1020e0512
+ms.search.form: EInvoiceCFDIJour_MX, EInvoiceCFDIPACTable_MX, EInvoiceParameters_MX, SalesTable, SalesTablePostings
+ms.openlocfilehash: 4785c01447e7e3899e35a2371d711a0014125290
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485562"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267085"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 

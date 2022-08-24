@@ -1,26 +1,26 @@
 ---
 title: Admite llamadas parametrizadas de modelos de datos ER
 description: Este artículo explica cómo implementar llamadas parametrizadas de modelos de datos de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884268"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276000"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Admite llamadas parametrizadas de modelos de datos ER
 
@@ -278,7 +278,7 @@ Puede implementar las modificaciones cuando un formato en ejecución recopila, e
 
 1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
 2. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, seleccione **Modelo de auditoría de muestra**.
-3. En la ficha desplegable **Versiones**, seleccione la versión **2** que tiene un estado de **[Borrador](general-electronic-reporting.md#component-versioning)**.
+3. En la ficha desplegable **Versiones**, seleccione la versión **2** que tiene un estado de **Borrador**.
 4. Seleccione la ficha desplegable **Componentes de la configuración**.
 5. Seleccione **Diseñador** para abrir el modelo de datos para editar.
 6. En la página **Modelo de datos**, asegúrese de que el campo `Root` se selecciona el campo y, a continuación, seleccione **Nuevo**.

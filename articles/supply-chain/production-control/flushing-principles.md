@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065566"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266440"
 ---
 # <a name="flushing-principles"></a>Principios de vaciado
 
@@ -56,7 +56,10 @@ El principio de vaciado manual indica que el registro de consumo de material es 
 El principio de vaciado Inicio indica que el material se consumirá automáticamente cuando se inicie un pedido de producción. El importe de material que se consume es proporcional a la cantidad iniciada. Si el principio de vaciado Inicio se usa junto con el sistema de ejecución de fabricación, también se pueden usar para vaciar materiales cuando se inicie una operación o un trabajo de proceso. Este principio es relevante si, por ejemplo, la desviación en el consumo es baja, los materiales son materiales de valor reducido, no hay requisitos de seguimiento o hay un tiempo de ejecución breve en las operaciones. 
 
 ### <a name="finish"></a>Finalizar
-El principio de vaciado Finalizar indica que el material se consumirá automáticamente cuando el pedido de producción se notifique como finalizado, o cuando una operación que se configura para consumir los materiales se registra como completada. El importe de material que se consume es proporcional a la cantidad que se notifica como finalizada. Si el principio de vaciado Finalizar se usa junto con el sistema de ejecución de fabricación, también se pueden usar para vaciar materiales cuando se complete una operación o un trabajo de proceso. Este principio es relevante en las mismas situaciones que el principio Inicio. Sin embargo, el principio Finalizar es para operaciones que tienen un tiempo de ejecución más largo, donde los materiales no se deben definir como trabajo en curso antes de que se complete la operación. 
+El principio de vaciado Finalizar indica que el material se consumirá automáticamente cuando el pedido de producción se notifique como finalizado, o cuando una operación que se configura para consumir los materiales se registra como completada. El importe de material que se consume es proporcional a la cantidad que se notifica como finalizada. Si el principio de vaciado Finalizar se usa junto con el sistema de ejecución de fabricación, también se pueden usar para vaciar materiales cuando se complete una operación o un trabajo de proceso. Este principio es relevante en las mismas situaciones que el principio Inicio. Sin embargo, el principio Finalizar es para operaciones que tienen un tiempo de ejecución más largo, donde los materiales no se deben definir como trabajo en curso antes de que se complete la operación.
+
+> [!NOTE]
+> No puede utilizar el principio Terminar vaciado junto con artículos de planificación. En su lugar, recomendamos que utilice el principio de vaciado Inicio. Los elementos de planificación tienen el tipo de producción *Elemento de planificación* y solo se pueden notificar como terminados los coproductos o productos derivados de pedidos de lote creados para elementos de planificación.
 
 ### <a name="available-at-location"></a>Disponible en la ubicación
 El principio de vaciado Disponible en la ubicación indica que el material se consumirá automáticamente cuando se registre como seleccionado para producción. El material se registra como seleccionado de la ubicación cuando se complete el trabajo para la selección de materia prima, o cuando el material está disponible en la ubicación de entrada de producción y la línea de materiales se libera al almacén. La lista de selección que se genera durante el proceso se registra en un trabajo por lotes. Este principio es relevante si, por ejemplo, tiene muchas actividades de selección en un pedido de producción. En este caso, no es necesario actualizar manualmente la lista de selección y puede obtener una vista actual del saldo de trabajo en curso.

@@ -1,24 +1,24 @@
 ---
 title: Automatizar pruebas con informes electrónicos
 description: En este artículo se explica cómo puede utilizar la funcionalidad de línea base del marco de informes electrónicos (ER) para automatizar la prueba de funcionalidades.
-author: NickSelin
+author: kfend
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
+ms.openlocfilehash: 8c7218ad8dec0d90c44967be902b912e36d97d39
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109352"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281884"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar pruebas con informes electrónicos
 

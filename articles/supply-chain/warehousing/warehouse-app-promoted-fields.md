@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857065"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218986"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurar campos promocionados para los pasos en la aplicación móvil Warehouse Management
 
@@ -32,13 +32,7 @@ Este artículo describe cómo promocionar y resaltar información específica pa
 Antes de poder configurar campos promocionados, debe completar el siguiente procedimiento para habilitar las funciones requeridas y generar los nombres de campo requeridos en la aplicación móvil Warehouse Management.
 
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-1. En el [espacio de trabajo **Administración de características**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), las funciones aparecen de la siguiente forma:
-
-    - **Módulo:** *Gestión de almacén*
-    - **Nombre de la función:** *Instrucciones de los pasos de la aplicación de almacén*
-
-    Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Campos promocionados de aplicaciones de Warehouse Management*.
-
+1. Asegúrese de que la función *Instrucciones paso a paso de la aplicación de almacén* está activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Campos promocionados de aplicaciones de Warehouse Management*.
 1. Habilite la característica que se enumera de la siguiente manera:
 
     - **Módulo:** *Gestión de almacén*
@@ -67,7 +61,7 @@ Use el siguiente procedimiento para configurar campos promocionados.
 
 ### <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los datos de demostración estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
+Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Configurar la selección de ventas con pasos promocionados en el paso de la matrícula
 

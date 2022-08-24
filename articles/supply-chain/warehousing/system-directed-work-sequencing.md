@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849137"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219700"
 ---
 # <a name="system-directed-work-sequencing"></a>Secuenciación del trabajo dirigida por el sistema
 
@@ -44,7 +44,7 @@ Antes de poder usar la secuenciación del trabajo dirigida por el sistema, la ca
 
 ### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-Para resolver el escenario utilizando los valores que se presentan en este artículo, debe trabajar en un sistema donde se instalen datos de demostración estándar. Además, también debe seleccionar la entidad legal **USMF**. El escenario utiliza el almacén *51* de los datos de demostración.
+Para resolver el escenario utilizando los valores que se presentan en este artículo, debe trabajar en un sistema donde se instalen [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Además, también debe seleccionar la entidad legal **USMF**. El escenario utiliza el almacén *51* de los datos de demostración.
 
 > [!IMPORTANT]
 > Antes de liberar los pedidos al almacén, asegúrese de que las ubicaciones de picking tengan suficiente inventario para todos los artículos de los pedidos.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124540"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219136"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.23 (enero de 2022)
 
@@ -29,7 +29,7 @@ En este artículo se enumeran las características nuevas o modificadas en Micro
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
+La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -55,7 +55,7 @@ Si desea activar o desactivar alguna de estas características, debe hacerlo en 
 | Gestión de inventario y almacenes | (Rusia) Usar traducciones al idioma local en los formularios principales específicos del país o la región en Administración de inventario | Para la traducción al ruso de Supply Chain Management, esta característica permite el uso de traducciones rusas para nombres de productos/artículos y unidades de medida en las siguientes impresiones de inventario específicas de Rusia: Lista de recuento (INV-3), Lista de recuento (INV-5) y Lista de recuento (INV-6). |
 | Planificación maestra | Azure Machine Learning Service para previsión de demanda | Esta característica permite que Azure Machine Learning Service genere pronósticos de demanda basados en datos históricos. Para obtener más información, consulte [Configuración de la previsión de demanda](../master-planning/demand-forecasting-setup.md). |
 | Adquisición y abastecimiento | Eliminar historial de actualización de pedido de compra | Esta característica le permite eliminar registros históricos temporales relacionados con actualizaciones de órdenes de compra. Agrega un nuevo botón llamado **Eliminar historial de actualización de compra** al panel de acciones en la página **Todas las órdenes de compra**. De forma predeterminada, esta característica está habilitada. |
-| Control de producción | (Versión preliminar) Selección automática de materiales habilitados para almacén para las listas de selección con registro automático | Esta característica permite seleccionar y resolver automáticamente dimensiones de inventario para diarios de lista de selección registrados automáticamente, derivados y de lista de selección previa. |
+| Control de producción | Selección automática de materiales habilitados para almacén para las listas de selección con registro automático | Esta característica permite seleccionar y resolver automáticamente dimensiones de inventario para diarios de lista de selección registrados automáticamente, derivados y de lista de selección previa. |
 | Control de producción | Validar la caducidad de las materias primas frente a la fecha de consumo planificada | Esta característica cambia la forma en que se validan las fechas de vencimiento de los lotes al reservar un lote de materia prima para utilizarlo durante la producción. Cuando esta característica está habilitada, la fecha de vencimiento del lote se valida con la fecha de consumo planificado (la fecha de la materia prima), según lo establecido en la línea de lista de materiales de producción o en la línea de fórmula de orden de lote. Cuando esta característica está desactivada, la fecha de vencimiento del lote se valida con la fecha de entrega planificada de la producción o el pedido del lote (como anteriormente). |
 | Ventas y marketing | Eliminar historial de actualización de ventas según la antigüedad | Esta función le permite establecer la antigüedad máxima de los registros que se deben mantener al ejecutar la tarea periódica **Limpieza del historial de actualización de ventas**. Se eliminarán los registros más antiguos. Esto es útil cuando configura la tarea para que se ejecute periódicamente porque el vencimiento siempre se calcula en relación con la fecha en que se ejecuta la tarea. Sin esta función, solo puede establecer una fecha específica para conservar los registros más antiguos. Para obtener más información, consulte [Programar la limpieza de datos del historial de ventas](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Ventas y marketing | Mejorar el rendimiento de los 100 mejores clientes | Esta característica mejora el rendimiento del informe de clientes **Los 100 mejores** ejecutando siempre el informe en todos los clientes (que es su uso previsto) en lugar de permitir consultas personalizadas. Cuando esta característica está habilitada, todas las configuraciones de **Registros a incluir** están deshabilitadas en el cuadro de diálogo del informe **Los 100 mejores**. |

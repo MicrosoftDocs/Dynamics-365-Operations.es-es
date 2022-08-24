@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687118"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228972"
 ---
 # <a name="plan-type-overview"></a>Descripción general del tipo de plan
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687118"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Un tipo de plan es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan. Por ejemplo, el tipo de plan **Vida básica** tendría el código de tipo de plan **Vida** porque es un tipo de plan de seguro de vida y debe cumplir las reglas establecidas para el código de tipo de plan de **Vida**. Otro tipo de plan podría ser **Vida suplementaria**. Este tipo de plan también tendrá el código de tipo de plan de **Vida** código de tipo de plan.
 
@@ -67,12 +69,12 @@ Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura s
    | --- | --- |
    | **Tipo de plan** | El tipo de plan para el que configurar opciones de eventos de vida. |
    | **Identificador del tipo de evento de vida** | El id. del tipo de evento de vida. |
-   | **Permitir cancelación** | Especifica si un empleado puede cancelar un plan de prestaciones durante el evento de vida. |
    | **Cambiar opción de cobertura** | Especifica si un empleado puede cambiar opciones de cobertura durante el evento de vida. |
    | **Cambiar a un nuevo plan** | Especifica si un empleado puede cambiar planes durante el evento de vida. |
-   | **Cancelar automáticamente el plan** | Especifica si se cancelará automáticamente el plan durante el evento de vida. |
    | **Volver a abrir automáticamente la comprobación de idoneidad** | Especifica si la comprobación de idoneidad de la inscripción en prestaciones se debe volver a abrir automáticamente durante el evento de vida. |
-   | **Ventana de notificación** | Especifica la ventana de notificación, en días, del evento de vida. **Nota**: Si no introduce un importe, el sistema supone que la ventana de informes es cero y no procesará el evento de vida. |
+   | **Período de inscripción de evento de vida** | Especifica la ventana de notificación, en días, del evento de vida. **Nota**: Si no introduce un importe, el sistema supone que la ventana de informes es cero y no procesará el evento de vida. |
+   | **Solo editable por administradores** | Especifica si los administradores pueden cancelar o editar un plan durante un evento de vida. El empleado no puede realizar cambios en el espacio de trabajo **Autoservicio para los empleados**. |
+   | **Cancelar automáticamente el plan** | Especifica si se debe cancelar automáticamente el plan durante un evento de vida. Después de procesar los cambios de eventos de vida, la opción **Plan de cancelación automática** conservará la selección del plan. Solo el estado **Confirmado** o **Controlado** se eliminará. El plan permanece seleccionado. Por lo tanto, los empleados que no seleccionen un plan durante el período de inscripción del evento de vida no perderán la selección del plan. 
 
 5. Seleccione **Guardar**. 
 

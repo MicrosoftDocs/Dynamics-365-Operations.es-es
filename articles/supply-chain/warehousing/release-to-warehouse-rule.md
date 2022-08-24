@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e3d709a185796152b03f8ed83088cb5c3d137bae
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895478"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219760"
 ---
 # <a name="release-to-warehouse-rule"></a>Regla de liberación al almacén
 
@@ -69,7 +69,7 @@ En esta sección se ofrecen dos escenarios en los que puede trabajar para aprend
 
 ### <a name="make-sample-data-available"></a>Hacer que los datos de muestra estén disponibles
 
-Para trabajar en estos escenarios mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
+Para trabajar en estos escenarios mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
 
 También puede usar estos escenarios como guía para la característica cuando trabaje en un sistema de producción. Sin embargo, en ese caso, debe sustituir sus propios valores y puede que le falten algunos tipos de registros necesarios que proporcionan los datos de demostración estándar.
 

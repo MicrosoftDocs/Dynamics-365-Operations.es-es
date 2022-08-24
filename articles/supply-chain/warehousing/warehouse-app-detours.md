@@ -4,19 +4,19 @@ description: Este artículo describe cómo configurar desvíos para los elemento
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863603"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219016"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 
@@ -34,20 +34,8 @@ Un desvío es un elemento de menú independiente que se puede abrir desde un pas
 Antes de poder configurar desvíos para pasos en los elementos del menú del dispositivo móvil, debe completar el siguiente procedimiento para habilitar las funciones requeridas y generar los nombres de campo requeridos en la aplicación móvil Warehouse Management.
 
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-1. En el [espacio de trabajo **Administración de características**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), las funciones aparecen de la siguiente forma:
-
-    - **Módulo:** *Gestión de almacén*
-    - **Nombre de la función:** *Instrucciones de los pasos de la aplicación de almacén*
-
-    Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Desvíos de aplicaciones de Warehouse Management*.
-
-1. Habilite la característica que se enumera de la siguiente manera:
-
-    - **Módulo:** *Gestión de almacén*
-    - **Nombre de la característica**: *Desvíos de aplicaciones de Warehouse Management*
-
-    Esta característica es la que se describe en este artículo.
-
+1. Asegúrese de que la función *Instrucciones paso a paso de la aplicación de almacén* está activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Desvíos de aplicaciones de Warehouse Management*.
+1. Active la característica *Desvíos de aplicaciones de Warehouse Management*. Esta característica es una que se describe en este artículo.
 1. Actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
 
@@ -65,7 +53,7 @@ Este escenario muestra cómo configurar una consulta de ubicación como un desv�
 
 ### <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los datos de demostración estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
+Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Crear una invalidación específica del menú y configurar el desvío para el escenario 1
 
@@ -118,7 +106,7 @@ Puede reemplazar la consulta de ubicación con una consulta de matrícula de ent
 
 ### <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los datos de demostración estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
+Para usar los registros de ejemplos y valores especificados para trabajar en este escenario, debe usar un sistema donde se hayan instalado los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Crear una invalidación específica del menú y configurar el desvío para el escenario 2
 

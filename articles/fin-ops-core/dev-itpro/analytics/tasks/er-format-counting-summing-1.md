@@ -1,24 +1,26 @@
 ---
 title: 'Informe electrónico Configurar el formato para contar y sumar (Parte 1: Creación de formato)'
 description: Este artículo describe cómo configurar un formato de informes electrónicos para realizar recuentos y sumas en función de los datos de la salida de texto ya generados. (Parte 1)
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85a25715018f30d2fd8f1405d50cee0b420c0d34
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
+- ERSolutionTable
+ms.openlocfilehash: b9e0128e55ba6ab356d6942020a34e5e74d6b7e2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902636"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290706"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 1: Creación de formato)
 

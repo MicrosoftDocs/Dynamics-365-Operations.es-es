@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123820"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219166"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -49,7 +49,7 @@ La tabla siguiente enumera las mejoras de características incluidas en esta ver
 | Módulo | Característica&nbsp;nombre&nbsp;en característica&nbsp;administración | Más información |
 |---|---|---|
 | Planificación maestra | Autorización paralela de previsión de la demanda ajustada | Esta característica permite la autorización paralela de la previsión de demanda ajustada de la página **Previsión de la demanda ajustada**. La intención de esta función es aumentar el rendimiento cuando se autoriza una gran cantidad de pronósticos. Al autorizar, el usuario puede especificar el **Número de hilos** en el diálogo de autorización. |
-| Planificación maestra | (Versión preliminar) Consolidación y puesta en firme por lotes de pedidos de lote masivos y empaquetados planificados | Esta característica permite usar trabajos por lotes para poner en firme y consolidar pedidos masivos y empaquetados planificados. |
+| Planificación maestra | Consolidación y puesta en firme por lotes de pedidos de lote masivos y empaquetados planificados | Esta característica permite usar trabajos por lotes para poner en firme y consolidar pedidos masivos y empaquetados planificados. |
 | Control de producción | Copiar rutas genéricas | Esta característica mejora la función de copia de ruta para permitir a los usuarios copiar rutas que no son específicas de un artículo. Permite que el sistema actualice toda la información relevante (como el sitio, el grupo de rutas, los requisitos de recursos y varias horas) después de que se haya utilizado la función de copia de ruta para sobrescribir una ruta que aún no está asignada a un elemento. |
 | Control de producción | Actualizar requisitos de recursos relacionados cuando se cambia una operación de ruta | Esta característica permite al sistema actualizar los requisitos de recursos relacionados después de que un usuario cambie la operación de un paso de ruta existente. |
 | Gestión de información de productos | Preprocesamiento del informe de la lista de materiales para evitar el tiempo de espera | Esta función hace que el informe de la lista de materiales se procese previamente. Esto evitará problemas de tiempo de espera cuando haya una gran carga de datos para el informe. |

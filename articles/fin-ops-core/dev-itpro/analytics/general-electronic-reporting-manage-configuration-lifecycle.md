@@ -1,32 +1,32 @@
 ---
 title: Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 description: Este artículo describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109094"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271595"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Dynamics 365 Finance.
+Este artículo describe cómo administrar el ciclo de vida de las [configuraciones](general-electronic-reporting.md#Configuration) de [informes electrónicos](general-electronic-reporting.md) (ER) para la solución Dynamics 365 Finance.
 
 ## <a name="overview"></a>Información general
 
@@ -105,6 +105,41 @@ En algunos casos, es posible que necesite que el sistema ignore los requisitos p
 
     > [!NOTE]
     > Este parámetro es específico del usuario y específico de la compañía.
+
+## <a name="dependencies-on-other-components"></a>Dependencias de otros componentes
+
+Las configuraciones de ER se pueden configurar como [dependientes](er-download-configurations-global-repo.md#import-filtered-configurations) de otras configuraciones. Por ejemplo, puede [importar](er-download-configurations-global-repo.md) una configuración de [modelo de datos](er-overview-components.md#data-model-component) de ER del repositorio global en sus [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) o instancia de Dynamics 365 Finance y, a continuación, crear una nueva configuración de [formato](er-overview-components.md#format-component) de ER [derivada](er-quick-start2-customize-report.md#DeriveProvidedFormat) de la configuración del modelo de datos de ER importada. La configuración del formato de ER derivado dependerá de la configuración del modelo de datos de ER base.
+
+![Configuración de formato ER derivada en la página Configuraciones.](./media/ger-configuration-lifecycle-img1.png)
+
+Cuando haya terminado de diseñar el formato, puede cambiar el estado de su [versión](general-electronic-reporting.md#component-versioning) inicial de la configuración del formato ER de **Borrador** a **Terminado**. A continuación, puede compartir la versión completa de la configuración del formato ER [publicándola](../../../finance/localizations/rcs-global-repo-upload.md) en el repositorio global. A continuación, puede acceder al repositorio global desde cualquier instancia en la nube de RCS o Finance. Luego puede importar cualquier versión de configuración de ER que sea aplicable a la aplicación desde el repositorio global a esa aplicación.
+
+![Configuración de formato ER publicada en la página Repositorio de configuración.](./media/ger-configuration-lifecycle-img2.png)
+
+En función de la dependencia de la configuración, cuando selecciona la configuración del formato ER en el repositorio global para importarla a una instancia de RCS o Finance recientemente implementada, la configuración del modelo de datos base de ER se encuentra automáticamente en el repositorio global y se importa junto con el formato ER seleccionado. configuración como la configuración base.
+
+También puede exportar su versión de configuración de formato ER fuera de su RCS actual o instancia de Finanzas y almacenarla localmente como un archivo XML.
+
+![Exportación de una versión de la configuración de formato de ER como XML en la página Configuración.](./media/ger-configuration-lifecycle-img3.png)
+
+En versiones de Finance **anteriores a la versión 10.0.29**, cuando intente importar la versión de configuración del formato de ER desde ese archivo XML o desde cualquier repositorio que no sea el repositorio global en una instancia de RCS o Finance recientemente implementada que aún no contiene ninguna configuración de ER, se generará la siguiente excepción para informar que no se puede obtener una configuración base:
+
+> Referencias no resueltas restantes<br>
+No se puede establecer la referencia del objeto '\<imported configuration name\>' a la "base" del objeto (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Importación de la versión de configuración del formato de ER en la página Repositorio de configuración.](./media/ger-configuration-lifecycle-img4.gif)
+
+En la versión **10.0.29 y posteriores**, cuando intente realizar la misma importación de configuración, si no se puede encontrar una configuración base en la instancia de la aplicación actual o en el repositorio de origen que está utilizando actualmente (si corresponde), el marco de ER intentará encontrar automáticamente el nombre de la configuración base que falta en la memoria caché del repositorio global. A continuación, presentará el nombre y el identificador único global (GUID) de la configuración base que falta en el texto de la excepción que se genera.
+
+> Referencias no resueltas restantes<br>
+No se puede establecer la referencia del objeto '\<imported configuration name\>' a la "base" del objeto (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Excepción en la página del repositorio de configuración cuando no se puede encontrar la configuración base.](./media/ger-configuration-lifecycle-img5.png)
+
+Puede usar el nombre provisto para encontrar la configuración base y luego importarla manualmente.
+
+> [!NOTE]
+> Esta nueva opción funciona solo cuando al menos un usuario ya ha iniciado sesión en el repositorio global mediante la página [Repositorios de configuración](er-download-configurations-global-repo.md#open-configurations-repository) o uno de los campos de [búsqueda](er-extended-format-lookup.md) del repositorio global en la instancia de Finance actual y cuando el contenido del repositorio global se ha almacenado en caché.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

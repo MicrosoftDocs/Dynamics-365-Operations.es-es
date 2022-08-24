@@ -18,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6a8bb357a600c20e98f6886cbc29bd5305395ca0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f111ccf8b41ad420d38945b44c323d66f8f778fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696190"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219257"
 ---
 # <a name="commerce-home-page"></a>Página principal de Commerce
 
@@ -54,7 +54,7 @@ Seleccione un área de características para obtener más información al respec
 - [Administrar sus finanzas](retail-statements.md)
 - [Administrar su sitio de comercio electrónico](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
-- [Desarrollo y extensibilidad de Commerce](dev-itpro/dev-retail-home-page.md)
+- [Desarrollo y extensibilidad de Commerce](dev-itpro/retail-sdk/sdk-github.md)
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 

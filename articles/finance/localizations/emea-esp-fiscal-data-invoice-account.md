@@ -1,25 +1,25 @@
 ---
 title: Usar datos fiscales de la cuenta de factura
 description: Para las entidades jurídicas en España, la funcionalidad Usar datos fiscales de cuenta de factura permite la actualización automática de datos fiscales de los pedidos de ventas, las facturas de texto sin formato y los pedidos de compra, en función de la información de la cuenta de facturación. Este artículo proporciona información sobre la funcionalidad Usar datos fiscales de cuenta de factura y explica cómo configurarla.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265224
 ms.search.region: Spain
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9066fcaf0ef05e28c26a9752e5070ab950e89799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 265224
+ms.search.form: CustParameters, VendParameters
+ms.openlocfilehash: ca455ac53c6a393f25125e752b8ce7fec770759b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870020"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273807"
 ---
 # <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
 

@@ -1,27 +1,27 @@
 ---
 title: Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 description: Este artículo describe las capacidades adicionales para calcular y aplicar cargos automáticos a los pedidos del canal de Commerce mediante la función de cargos automáticos avanzada.
-author: hhaines
+author: hhainesms
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 85e75b533e95d149de1cde50c0ef122f58890bbe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886941"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279042"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 

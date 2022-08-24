@@ -1,25 +1,25 @@
 ---
 title: Lista de ventas de la UE para España (Informe 349)
 description: Este artículo proporciona información sobre el informe de lista de ventas de la Unión Europea (UE) para España, también conocido como Informe 349.
-author: AKroshkina
+author: AdamTrukawka
 ms.date: 05/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 12811
 ms.search.region: Spain
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd92b4172becd782a2714ae5832669ac10bcaf8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 12811
+ms.search.form: EUSalesList
+ms.openlocfilehash: 114f78441da1b526741388a74696f5d66423215c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864155"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283908"
 ---
 # <a name="eu-sales-list-for-spain-report-349"></a>Lista de ventas de la UE para España (Informe 349)
 

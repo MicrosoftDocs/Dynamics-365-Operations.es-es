@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860359"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219640"
 ---
 # <a name="configure-wave-processing-example"></a>Ejemplo de configuración del procesamiento de oleadas
 
@@ -29,7 +29,7 @@ En este artículo se proporciona un ejemplo de cómo configurar los criterios qu
 
 ## <a name="enable-sample-data"></a>Habilitar datos de muestra
 
-Para trabajar en este escenario mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los datos de demostración estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
+Para trabajar en este escenario mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. También debe seleccionar la entidad legal **USMF** antes de comenzar.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Escenario de ejemplo: configurar procesamiento de oleadas
 

@@ -2,21 +2,21 @@
 title: Inicializar Commerce Scale Unit (nube)
 description: Este artículo explica cómo inicializar Commerce Scale Unit (nube) en Microsoft Dynamics 365 Commerce.
 author: jashanno
-ms.date: 07/21/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
-ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
-ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
+ms.search.validFrom: 2018-04-30
+ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183375"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271527"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inicializar Commerce Scale Unit (nube)
 
@@ -150,7 +150,7 @@ El proceso de migración es transparente para los canales. Una vez iniciada la i
 
 1. Se creará una nueva Commerce Scale Unit y se asociará con el entorno.
 2. Commerce Scale Unit se registrará como Base de Datos del Canal disponible en la sede.
-3. Todos los canales asignados a la la base de datos de canal **predeterminada** en la sede se actualizará para mapear a la nueva Commerce Scale Unit.
+3. Todos los canales asignados a la base de datos de canal **predeterminada** en la sede se actualizará para mapear a la nueva Commerce Scale Unit.
 4. Se realizará una sincronización completa de datos de Commerce Data Exchange (CDX) para llevar los datos del canal a la nueva unidad de escala.
 
 **Planificación y prueba para la inicialización de la unidad de escala de comercio** Como regla general, al inicializar Commerce Scale Unit, debe planificar una ventana de tiempo de inactividad de cinco horas para las operaciones de la tienda, así como para cualquier operación del canal de comercio electrónico que use Retail Server o Cloud Point of Sale.

@@ -1,27 +1,27 @@
 ---
 title: Definición de descuentos específicos de un canal
 description: Los minoristas establecen a menudo distintos descuentos en diferentes canales. Este artículo revisa los conceptos que necesita conocer para crear un descuento para un canal específico.
-author: scott-tucker
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16401
-ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9ceb5c8e47288e7ffdd3808cd8d60112f81ce314
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 16401
+ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
+ms.search.industry: Retail
+ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
+ms.openlocfilehash: f426503a6897a73010b77082f4277b65545bfcc3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873419"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273564"
 ---
 # <a name="define-channel-specific-discounts"></a>Definir descuentos específicos de un canal
 
@@ -37,7 +37,7 @@ Commerce usa grupos de precios para definir descuentos específicos de canal. Lo
 
 ## <a name="price-groups"></a>Grupos de precios
 
-[![Grupos de precio](./media/price-groups-1024x608.png)](./media/price-groups.png).
+[![Grupos de precio.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 En el diagrama anterior se muestra la relación entre las entidades que pueden estar incluidas en una transacción (canal, catálogo, afiliación, cliente o tarjeta de fidelización) y los distintos tipos de descuento que pueden configurarse. Todas las transacciones se producen en un canal, por lo que se garantiza la presencia del canal en una transacción. Las entidades restantes son opcionales. En cada página de datos maestros hay un vínculo a una página de grupos de precios relacionada donde se pueden ver y agregar grupos de precios según sea necesario. El grupo de precios se usa para relacionar cuatro tipos diferentes de entidades a los descuentos, los ajustes de precios y los acuerdos comerciales. Se recomienda planear una estrategia para nombrar a los grupos de precios con objeto de tenerlos organizados. Una opción sería usar una letra o un prefijo o un sufijo numérico para distinguir entre los diferentes tipos. Por ejemplo, 1-xxxxx para grupos de precios de canal y 2-xxxxx para grupos de precios de catálogo. Existen cuatro páginas de consulta que se centran en cada una de las entidades de Commerce que pueden tener descuentos asociados.
 

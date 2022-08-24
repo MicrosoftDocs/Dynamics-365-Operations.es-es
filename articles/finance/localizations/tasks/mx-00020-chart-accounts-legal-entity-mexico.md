@@ -1,24 +1,24 @@
 ---
 title: MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 description: Configure parámetros específicos en el plan contable para habilitar la generación de informes de contabilidad electrónicos para una entidad jurídica mexicana.
-author: sndray
+author: AdamTrukawka
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: MainAccount, LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08019cb52080bac5d2c4038e4811ef48837ee720
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.search.form: MainAccount, LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
+ms.openlocfilehash: ba366ef651f4da495f1edaca828deb42003e6a79
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595417"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273729"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 

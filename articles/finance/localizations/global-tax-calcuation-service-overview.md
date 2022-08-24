@@ -1,24 +1,24 @@
 ---
 title: Información general del cálculo de impuestos
 description: Este artículo explica el alcance general y las características de la funcionalidad de cálculo de impuestos.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166851"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270677"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
@@ -54,10 +54,15 @@ El cálculo de impuestos está implementado en las siguientes geografías de Azu
 
 - Asia Pacífico
 - Australia
+- Brasil
 - Canadá
 - Europa
+- Francia
+- India
 - Japón
+- Sudáfrica
 - Suiza
+- Emiratos Árabes Unidos
 - Reino Unido
 - Estados Unidos
 
@@ -149,11 +154,15 @@ En la versión 10.0.28 se admiten las siguientes transacciones:
 - Diario de pagos del proveedor
 - Diario de pagos de clientes
 
+En la versión 10.0.29 se admiten las siguientes transacciones: 
+
+- Diario periódico
+
 ## <a name="supported-countriesregions"></a>Países o regiones admitidos
 
-Cálculo de impuestos se puede habilitar por entidad jurídica. 
+El cálculo de impuestos se puede ejecutar con las funciones de localización admitidas en los siguientes países/regiones para la dirección principal de una entidad legal: 
 
-En la versión 10.0.21 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+Se admite en la versión 10.0.21:
 
 - Austria
 - Bélgica
@@ -176,7 +185,7 @@ En la versión 10.0.21 se admiten los siguientes países o regiones para la dire
 - Reino Unido
 - Estados Unidos
 
-En la versión 10.0.22 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+Se admite en la versión 10.0.22:
 
 - Australia
 - Baréin
@@ -191,22 +200,24 @@ En la versión 10.0.22 se admiten los siguientes países o regiones para la dire
 - Sudáfrica
 - Emiratos Árabes Unidos
 
-En la versión 10.0.23 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+Se admite en la versión 10.0.23:
 
 - Tailandia
 - Japón
 - Malasia
 - Singapur
 
-En la versión 10.0.24 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+Se admite en la versión 10.0.24:
 
 - México
 
-En la versión 10.0.26 se admiten los siguientes países o regiones para la dirección principal de una entidad jurídica:
+Se admite en la versión 10.0.26:
 
 - China
 - República Checa
 - España
+
+Para cualquier país o región no localizados por Microsoft, el cálculo de impuestos también se puede habilitar y ejecutar con otras características globales.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

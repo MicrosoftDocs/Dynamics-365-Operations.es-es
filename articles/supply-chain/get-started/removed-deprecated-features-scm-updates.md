@@ -2,7 +2,7 @@
 title: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
 description: En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171527"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218818"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas o en desuso en Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones de finanzas y operaciones se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Funciones quitadas o en desuso en la versión 10.0.29 de Supply Chain Management
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Pedidos de transferencia de existencias que tienen impuesto sobre el precio de transferencia
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo de la depreciación/eliminación** | La funcionalidad de [Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) está siendo reemplazada por lafuncionalidad [Órdenes de traslado de stock para India](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **¿Reemplazado por otra característica?**   | Sí, la funcionalidad de [Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) está siendo reemplazada por lafuncionalidad [Órdenes de traslado de stock para India](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **Áreas de producto afectadas** | Supply Chain Management - inventario |
+| **Opción de implementación** | Nube y local |
+| **Status** | <p>En desuso. La funcionalidad *Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia* no recibirá soporte con correcciones de errores y correcciones de seguridad.</p><p>Después de abril de 2023, se les pedirá a los clientes que utilicen la funcionalidad mejorada, *Órdenes de traslado de stock para India*, por defecto. Después de octubre de 2023, la funcionalidad *Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia* ya no estará disponible y se les pedirá a los clientes que pasen a la funcionalidad mejorada *Órdenes de traslado de stock para India*.</p><p>Para más información, vea [Órdenes de traslado de stock para India](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Funciones quitadas o en desuso en la versión 10.0.19 de Supply Chain Management
 

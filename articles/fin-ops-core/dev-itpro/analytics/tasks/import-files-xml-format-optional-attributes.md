@@ -1,24 +1,24 @@
 ---
 title: (RCS) Importar archivos en formato XML con atributos opcionales
 description: En este artículo se proporciona información acerca de cómo un usuario puede diseñar la configuración del formato de ER para importar archivos en formato XML que contenga atributos opcionales.
-author: NickSelin
+author: kfend
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e07b566cad394069768cd9d57ca02f88213941d3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 5254a3d631129d0e41fcd37a341b54f97cfe6a9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896687"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290016"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Importar archivos en formato XML con atributos opcionales
 

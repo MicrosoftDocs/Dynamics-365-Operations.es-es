@@ -1,21 +1,21 @@
 ---
 title: Configurar la integración directa de FatturaPA italiana con SDI
 description: Este artículo proporciona información que lo ayudará a comenzar con la facturación electrónica para Italia y configurar la integración directa de FatturaPA italiana con el sistema Exchange (SDI).
-author: abaryshnikov
-ms.date: 07/27/2022
+author: gionoder
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: abaryshnikov
+ms.author: gionoder
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: e050d3896b2ba10433e166995d6fc405996cf0b2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203181"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267169"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurar la integración directa de FatturaPA italiana con SDI
 
@@ -91,7 +91,7 @@ Esta sección complementa la sección [Configuración específica del país para
 ### <a name="deploy-the-feature"></a>Implementar la característica
 
 1. Complete, publique e implemente la característica en el entorno del servicio. Para obtener más información, consulte la sección [Implementar la función de facturación electrónica en el entorno de servicio](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) del artículo "Introducción a la facturación electrónica".
-2. Implemente la función en la la aplicación conectada. Para obtener más información, consulte la sección [Implementar la función de facturación electrónica en la aplicación conectada](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) del artículo "Introducción a la facturación electrónica".
+2. Implemente la función en la aplicación conectada. Para obtener más información, consulte la sección [Implementar la función de facturación electrónica en la aplicación conectada](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) del artículo "Introducción a la facturación electrónica".
 
 ### <a name="set-up-finance"></a>Configurar Finance
 

@@ -1,25 +1,25 @@
 ---
 title: Registro de ventas y pagos en línea
 description: Este procedimiento le guía por la configuración y ejecución de un trabajo por lotes periódico para crear pedidos de ventas y pagos para transacciones de la tienda en línea.
-author: psimolin
+author: jashanno
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58af31464768e988bfa8727bcd836032d06b3a9dcfb416c3b9ed274af3285c79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.industry: Retail
+ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
+ms.openlocfilehash: 0db3414a41a27b5c383eddd4c3e7650fb828b422
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720913"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285696"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Registro de ventas y pagos en línea
 

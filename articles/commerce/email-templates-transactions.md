@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910559"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279578"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Crear plantillas de correo electrónico para eventos transaccionales
 
@@ -117,7 +117,29 @@ El tipo de notificación *Pedido cancelado* se activa cuando un pedido se cancel
 
 ### <a name="customer-created"></a>Cliente creado
 
-El tipo de notificación *Cliente creado* se activa cuando se crea una nueva entidad de cliente en la sede de Commerce.
+El tipo de notificación *Cliente creado* se activa cuando se crea una nueva entidad de cliente en la sede de Commerce. 
+
+Para habilitar ls notificaciones creadas por el cliente en Commerce headquarters, vaya a **Retail y Commerce \> Configuración de la sede \> Parámetros \> Parámetros de Commerce \> General**. En la lista desplegable **Perfil de notificación por correo electrónico**, seleccione un perfil de notificación de correo electrónico que contiene el tipo de notificación creada por el cliente. 
+
+De forma predeterminada, los eventos creados por el cliente se cargan en la sede con el trabajo por lotes **Sincronice las solicitudes de clientes y canales**. Si desea utilizar una llamada de servicio en tiempo real para enviar estos eventos, establezca el ID de correo electrónico de la plantilla creada por el cliente en **newCust**. Sin embargo, esto no se recomienda porque las llamadas de servicio en tiempo real son llamadas de "disparar y olvidar" y no tienen la lógica de reintento o reserva que proporcionan los trabajos por lotes.
+
+> [!NOTE] 
+> Cuando habilita las notificaciones creadas por el cliente, los clientes que se crean en todos los canales dentro de la entidad legal recibirán un correo electrónico creado por el cliente. Actualmente, las notificaciones creadas por los clientes no se pueden limitar a un solo canal.  
+
+Cuando se invoca a través del trabajo por lotes, el tipo de notificación creada por el cliente admite el siguiente marcador de posición.
+
+| Nombre de marcador de posición | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | El nombre y apellido del cliente que creó una cuenta. |
+
+Cuando se invoca a través de una llamada de servicio en tiempo real, el tipo de notificación creada por el cliente admite los siguientes marcadores de posición.
+
+| Nombre de marcador de posición | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | El nombre y apellido del cliente que creó una cuenta. |
+| Correo            | La dirección de correo electrónico del cliente que creó una cuenta.    |
+| Teléfono            | Número de teléfono del cliente que creó una cuenta.      |
+| URL              | La URL proporcionada por el cliente cuando creó la cuenta. |
 
 ### <a name="b2b-prospect-approved"></a>Cliente potencial B2B aprobado
 

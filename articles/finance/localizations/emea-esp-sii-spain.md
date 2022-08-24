@@ -1,7 +1,7 @@
 ---
 title: Soporte para múltiples números de registro de IVA en el Suministro Inmediato de Información sobre el IVA (SII) de España
 description: Este artículo describe el alcance de la función Suministro Inmediato de Información del IVA, SII (Suministro Inmediato de Información del IVA, SII) de España para admitir múltiples números de registro de IVA.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Spain
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2021-01-11
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: bef6561f3214c909be1ddb956074a5eaca7bdab0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 616796493cd0ad2cefa55c17311696f55ca07452
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879517"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283033"
 ---
 # <a name="support-for-multiple-vat-registration-numbers-in-immediate-supply-of-information-on-vat-sii-of-spain"></a>Soporte para múltiples números de registro de IVA en el Suministro Inmediato de Información sobre el IVA (SII) de España
 

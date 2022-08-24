@@ -1,22 +1,22 @@
 ---
 title: Solucionar problemas de rendimiento de Store Commerce
 description: Este artículo explica cómo solucionar problemas de rendimiento en la aplicación Store Commerce de Microsoft Dynamics 365 Commerce.
-author: mugunthanm
+author: josaw1
 ms.date: 06/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2022-05-12
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fef4eb7063f4acdbca5fab2ad33ec10e0cb603bd
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.search.industry: Retail
+ms.openlocfilehash: 0354fbac438ff00ba057993a466bbbbfdd99247d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9169056"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286313"
 ---
 # <a name="troubleshoot-store-commerce-performance-issues"></a>Solucionar problemas de rendimiento de Store Commerce
 

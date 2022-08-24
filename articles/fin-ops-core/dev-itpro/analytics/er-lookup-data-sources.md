@@ -1,26 +1,26 @@
 ---
 title: Configurar las fuentes de datos de búsqueda para utilizar parámetros específicos de la aplicación de informes electrónicos
 description: En este artículo se explica cómo puede configurar orígenes de datos de búsqueda en formatos de informes electrónicos (ER) para usar parámetros específicos de la aplicación de ER.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 193f185e0b7a7183f98bf9aff3fd3e1c4589fb58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
+ms.openlocfilehash: f3ce5837b1d20860588848a1b518b3d801a05db4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892548"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285133"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar las fuentes de datos de búsqueda para utilizar parámetros específicos de la aplicación de informes electrónicos 
 

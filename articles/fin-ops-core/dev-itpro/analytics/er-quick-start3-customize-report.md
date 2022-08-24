@@ -1,28 +1,26 @@
 ---
 title: Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
 description: En este artículo se explica cómo personalizar las configuraciones de informe electrónico (ER) proporcionadas por Microsoft para generar un documento electrónico personalizado.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854709"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278958"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar las configuraciones de informes electrónicos para generar un documento electrónico
 
@@ -310,7 +308,7 @@ Como usuario con el rol de Consultor funcional de informes electrónicos puede d
 5. En el campo **Nombre**, escriba **Modelo de factura (Litware)**.
 6. Seleccione **Crear configuración** para agregar la nueva configuración de ER.
 
-Ahora puede utilizar el diseñador de modelos de datos de ER para editar la versión 50.1 de la configuración de ER **Modelo de factura (Litware)** con el [estado](general-electronic-reporting.md#component-versioning) **Borrador**.
+Ahora puede utilizar el diseñador de modelos de datos de ER para editar la versión 50.1 de la configuración de ER **Modelo de factura (Litware)** con el estado **Borrador**.
 
 ![Versión 50.1 de la configuración de ER editable en la página Configuraciones.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ Debe modificar su modelo de datos personalizado agregando un campo nuevo para pr
 
 #### <a name="complete-a-custom-data-model-configuration"></a>Completar una configuración de modelo de datos personalizada
 
-Debe [completar](general-electronic-reporting.md#component-versioning) su trabajo con la versión 50.1 de la configuración de modelo de datos de ER personalizada para que esté disponible, de forma que se puedan agregar otras configuraciones de ER personalizadas.
+Debe completar su trabajo con la versión 50.1 de la configuración de modelo de datos de ER personalizada para que esté disponible, de forma que se puedan agregar otras configuraciones de ER personalizadas.
 
 1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
 2. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, expanda **Modelo de factura** y seleccione **Modelo de factura (Litware)**.
@@ -394,7 +392,7 @@ Debe modificar la asignación de su modelo personalizado y especificar cómo se 
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>Completar una configuración de asignación de modelo personalizada
 
-Debe [completar](general-electronic-reporting.md#component-versioning) su trabajo con la versión 50.19.1 de su configuración de asignación de modelo de ER personalizada para que esté disponible.
+Debe completar su trabajo con la versión 50.19.1 de su configuración de asignación de modelo de ER personalizada para que esté disponible.
 
 1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
 2. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, expanda **Modelo de factura de cliente** \> **Asignación de modelo de factura de cliente** y seleccione **Asignación de modelo de factura (Litware)**.
@@ -428,7 +426,7 @@ Como usuario con el rol de Consultor funcional de informes electrónicos, puede 
 
 ![Agregar una configuración de formato personalizada en la página Configuraciones.](./media/er-quick-start3-adding-custom-format.png)
 
-Ahora puede utilizar el diseñador de operaciones de ER para editar la versión 11.2.2.1 de la configuración de ER **Factura de ventas Peppol (Litware)** con el [estado](general-electronic-reporting.md#component-versioning) **Borrador**.
+Ahora puede utilizar el diseñador de operaciones de ER para editar la versión 11.2.2.1 de la configuración de ER **Factura de ventas Peppol (Litware)** con el estado **Borrador**.
 
 ![Versión 11.2.2.1 de la configuración de ER editable en la página Configuraciones.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ Debe modificar su formato personalizado agregando un nuevo elemento de formato p
 
 #### <a name="complete-a-custom-format-configuration"></a>Completar una configuración de formato personalizada
 
-Debe [completar](general-electronic-reporting.md#component-versioning) su trabajo con la versión 11.2.2.1 de su configuración de formato de ER personalizada para que esté disponible.
+Debe completar su trabajo con la versión 11.2.2.1 de su configuración de formato de ER personalizada para que esté disponible.
 
 1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
 2. En la página **Configuraciones**, en el árbol de configuraciones del panel izquierdo, expanda **Modelo de factura de cliente** \> **Factura de ventas UBL** \> **Factura de ventas** y seleccione **Factura de ventas Peppol**.
@@ -650,7 +648,7 @@ El estado de la versión 32.6.7.2 se cambia de **Borrador** a **Completado** y l
 3. En el panel de acciones, en el grupo **Documento**, seleccione **Enviar** \> **Original**.
 
     > [!NOTE] 
-    > Como ahora tiene dos versiones de la configuración de formato de ER **Factura de venta de Peppol (Litware)** y ninguna versión tiene un valor de [fecha efectiva](general-electronic-reporting.md#component-date-effectivity), se utiliza la última versión para generar una factura electrónica.
+    > Como ahora tiene dos versiones de la configuración de formato de ER **Factura de venta de Peppol (Litware)** y ninguna versión tiene un valor de fecha efectiva, se utiliza la última versión para generar una factura electrónica.
 
 4. Cierre la página **Factura de servicios**.
 

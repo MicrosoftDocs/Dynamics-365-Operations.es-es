@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897266"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218956"
 ---
 # <a name="warehouse-slotting"></a>Slotting de almacén
 
@@ -284,7 +284,7 @@ Para este escenario, use los datos de muestra integrados y cree los registros qu
 
 #### <a name="use-the-usmf-sample-data"></a>Utilice los datos de muestra de USMF
 
-Para trabajar en este escenario mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
+Para trabajar en este escenario mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
 
 #### <a name="create-demand"></a>Crear demanda
 

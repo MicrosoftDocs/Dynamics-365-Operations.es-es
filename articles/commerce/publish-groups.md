@@ -6,20 +6,20 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 76d447a5368cd5e342e8b1b934bb04d45e3378fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 5a19d25b0b34ea3d452cacdd51ea071747ff1d90
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885119"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279015"
 ---
 # <a name="work-with-publish-groups"></a>Trabajar con grupos de publicación
 
@@ -122,7 +122,7 @@ Actualmente, hay un límite de 2000 elementos por grupo de publicación. Tenga e
 
 **¿Los grupos de publicación son como "ramas" de código en la terminología de desarrollo de software?**
 
-Sí y no. Los grupos de publicación pueden considerarse como versiones bifurcadas del sitio. En ese sentido, actúan como ramas. Sin embargo, no existe el concepto de fusión a nivel de elementos individuales. El último elemento publicado solo sobrescribe lo que existía anteriormente, y la acción de publicación más reciente siempre reemplaza a las acciones de publicación anteriores.
+Sí y no. Los grupos de publicación pueden considerarse como versiones bifurcadas del sitio. En ese sentido, actúan como ramas. Sin embargo, no existe el concepto de fusión en el nivel de elementos individuales. El último elemento publicado solo sobrescribe lo que existía anteriormente, y la acción de publicación más reciente siempre reemplaza a las acciones de publicación anteriores.
 
 **¿Puedo programar dos grupos de publicación para que se publiquen a la vez?**
 

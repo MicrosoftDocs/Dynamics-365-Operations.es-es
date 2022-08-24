@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844479"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219949"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Marcado de inventario con optimización de planificación
 
@@ -43,9 +43,15 @@ La vinculación comienza con la inclusión del marcado relevante, las reservas d
 
 Cuando firme una orden planificada, el cuadro de diálogo **Reafirmante** proporciona un campo **Actualizar marcado** que se utiliza para configurar las opciones de marcado para los pedidos que se crean durante el endurecimiento. Seleccione uno de los siguientes valores:
 
-- **No** - No se aplica marcado de inventario.
-- **Estándar** – El marcado de inventarios se actualiza de acuerdo con el diagrama de árbol: Un pedido de requisitos (bajo demanda) está marcado en función de un pedido de entrega (suministro). Si queda alguna cantidad en el pedido de cumplimiento, no se marca y la información de referencia se deja en blanco. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará solo a la orden de venta.
-- **Extendido** – : el pedido de requisitos (demanda) y el pedido de cumplimiento (suministro) se marcan, independientemente de si queda alguna cantidad en el pedido de cumplimiento. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará a la orden de venta y a la orden de compra.
+- *No* - No se aplica marcado de inventario.
+- *Estándar* – El marcado de inventarios se actualiza de acuerdo con el diagrama de árbol: Un pedido de requisitos (bajo demanda) está marcado en función de un pedido de entrega (suministro). Si queda alguna cantidad en el pedido de cumplimiento, no se marca y la información de referencia se deja en blanco. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará solo a la orden de venta.
+- *Extendido* – : el pedido de requisitos (demanda) y el pedido de cumplimiento (suministro) se marcan, independientemente de si queda alguna cantidad en el pedido de cumplimiento. Por ejemplo, si una orden de venta de 100 ea está vinculada a una orden de compra de 150 ea, la información de referencia se asignará a la orden de venta y a la orden de compra.
+- *Estándar de un solo nivel* – Se utiliza el marcado de un solo nivel. El marcado de un solo nivel marca solo el artículo principal, no sus componentes de la lista de materiales (BOM). Por lo tanto, puede mantener flexible la asignación de componentes para órdenes de fabricación después de la puesta en firme. El marcado de un solo nivel permite que el sistema se optimice para los cambios de demanda de última hora. En el marcado de un solo nivel *estándar*, los pedidos de requisitos se marcan con respecto a sus pedidos de cumplimiento, pero los pedidos de cumplimiento no se marcan si tienen una cantidad restante.
+- *Un solo nivel extendido* – Se utiliza el marcado de un solo nivel. En el marcado de un solo nivel *extendido*, los pedidos de requisitos se marcan con respecto a sus pedidos de cumplimiento y los pedidos de cumplimiento siempre se marcan sin importar si tienen una cantidad restante.
 
+Para establecer la opción de marcado predeterminada para su sistema, vaya a **Planificacion maestra \> Configuración \> Parámetros de planificación maestra**. Luego, en la pestaña **Actualización estándar**, configure el campo **Actualizar marcado** con su opción preferida.
+
+> [!NOTE]
+> Las opciones *Estándar de un solo nivel* y *Ampliación de un solo nivel* están disponibles sólo si la función *Automatización de suministro bajo pedido* está habilitada en su sistema. Para obtener más información sobre esta característica y cómo habilitarla, consulte [Automatización de suministro bajo pedido](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

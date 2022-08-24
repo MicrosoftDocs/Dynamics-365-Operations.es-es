@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888865"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227997"
 ---
 # <a name="configure-future-life-events"></a>Configurar eventos de vida futuros
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Puede programar eventos de vida futuros en Dynamics 365 Human Resources.
 
@@ -39,11 +40,12 @@ Puede programar eventos de vida futuros en Dynamics 365 Human Resources.
    | Evento de vida registrado | Se registra la fecha y la hora del evento de vida. |
    | Tipo de registro | Muestra si la acción es una de las siguientes:</br></br>- **Actualizar**: un cambio en un registro existente que sigue eventos de vida</br></br>- **Insertar**: la creación de un nuevo registro de eventos de vida |
    | Identificador del tipo de evento de vida | El identificador único del tipo de evento de vida. |
-   | Tipo de evento de vida | Un catalizador para actualizar la inscripción de prestaciones de un empleado. Para obtener más detalles, consulte la sección de activadores de eventos de vida. |
-   | Estado | Si se ha procesado el evento de vida o no. |
+   | Tipo de evento de vida | Un catalizador para actualizar la inscripción de prestaciones de un empleado. Para obtener más información, consulte la sección de activadores de eventos de vida. |
+   | Status | Si se ha procesado el evento de vida o no. |
    | Línea | El número de línea del evento de vida futuro. |
 
 4. Seleccione **Guardar**. 
 
+Puede eliminar eventos de vida futuros. Si se elimina un evento de vida futuro procesado, también se elimina el registro futuro. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

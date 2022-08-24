@@ -2,7 +2,7 @@
 title: Características quitadas o en desuso de Dynamics 365 Finance
 description: En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068934"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219580"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas o en desuso de Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones de finanzas y operaciones se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/global/axtechrefrep_61). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Características quitadas o en desuso en la versión Finance 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Pedidos de transferencia de existencias que tienen impuesto sobre el precio de transferencia
+
+[Pedidos de transferencia de existencias que tienen impuesto sobre el precio de transferencia](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo de la depreciación/eliminación** | Reemplazado por una funcionalidad mejorada, [Órdenes de traslado de stock para India](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas** | Aplicación |
+| **Opción de implementación** | Todo |
+| **Status** | En desuso: después de abril de 2023, la funcionalidad **Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia** no recibirá soporte con correcciones de errores y correcciones de seguridad. Se les pedirá a los clientes que utilicen la funcionalidad mejorada, [Órdenes de traslado de stock para India](../../finance/localizations/apac-ind-stock-transfer.md). Después de octubre de 2023, la funcionalidad **Órdenes de transferencia de acciones que tienen impuesto sobre el precio de transferencia** ya no estará disponible y se les pedirá a los clientes que pasen a la funcionalidad mejorada Órdenes de traslado de stock para India. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Características quitadas o en desuso en la versión Finance 10.0.26
 

@@ -1,24 +1,24 @@
 ---
 title: MX-00010 Consultar e imprimir una factura electrónica
 description: 'Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente.'
-author: sndray
+author: AdamTrukawka
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EInvoiceCFDIJournal_AR, EInvoiceXMLViewer_MX, DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3edfc0588ba43751c730e9109d45aac6d2b5afabcf29bc9e42d39dea821cb351
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: EInvoiceCFDIJournal_AR, EInvoiceXMLViewer_MX, DefaultDashboard
+ms.openlocfilehash: a9266d7b3eb304d0892a3e93a9a5ef31648369d4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759757"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276470"
 ---
 # <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 

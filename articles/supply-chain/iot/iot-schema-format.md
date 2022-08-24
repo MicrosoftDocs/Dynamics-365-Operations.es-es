@@ -2,7 +2,7 @@
 title: Formatos de esquema para mensajes del centro de IoT
 description: Este artículo explica cómo debe diseñar un esquema de mensajes que pueda usar en Inteligencia de IoT.
 author: johanhoffmann
-ms.date: 04/25/2020
+ms.date: 08/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 705a2150042f9b65f1f4528d6f2699f7306996f5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b6d133d520ce0a1dccb2575e352f63e6ceb2bd3f
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887468"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228644"
 ---
 # <a name="schema-formats-for-iot-hub-messages"></a>Formatos de esquema para mensajes del centro de IoT
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
 Este artículo explica cómo debe diseñar un esquema de mensajes que pueda usar en Inteligencia de IoT.
 

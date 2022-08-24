@@ -1,25 +1,25 @@
 ---
 title: Función NUMSEQVALUE de ER
 description: En este artículo se proporciona información sobre cómo usar la función NUMSEQVALUE de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 12/17/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 569d9ba1497bbc6dfc0ca909207aa5a78a877fe9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 62255f0a47d3c67468cf2cf3922a1886c29c03d6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879844"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271565"
 ---
 # <a name="numseqvalue-er-function"></a>Función NUMSEQVALUE de ER
 
@@ -75,7 +75,7 @@ Para el ámbito de tipo **Compartido**, especifique una cadena vacía como ident
 
 Para los ámbitos de tipo **Empresa** y **Entidad jurídica**, especifique el código de empresa como identificador de ámbito. Si especifica una cadena vacía como el identificador de ámbito para estos tipos de ámbito, se usa el código de la empresa actual.
 
-Cuando se utiliza la sintaxis 1, se solicita la secuencia numérica para el tipo de ámbito **Empresa** y el el código de empresa lo suministra el contexto en el que se ejecuta el formato de ER.
+Cuando se utiliza la sintaxis 1, se solicita la secuencia numérica para el tipo de ámbito **Empresa** y el código de empresa lo suministra el contexto en el que se ejecuta el formato de ER.
 
 ## <a name="example-1"></a>Ejemplo 1
 

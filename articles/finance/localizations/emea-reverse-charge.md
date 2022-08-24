@@ -1,7 +1,7 @@
 ---
 title: Mecanismo de cargo invertido para el régimen de IVA e IBS
 description: Este artículo explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
-author: epodkolz
+author: EricWangChen
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
-ms.author: epodkolz
+ms.author: wangchen
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: deb5678d6f6d8f0cf565ab6cc58cd1a9a20f8f2c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861267"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292239"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mecanismo de cargo invertido para el régimen de IVA e IBS
 

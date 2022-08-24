@@ -1,26 +1,26 @@
 ---
 title: 'Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)'
 description: Este artículo proporciona información sobre la eliminación del almacenamiento de Microsoft Dynamics Lifecycle Services (LCS) que está prevista como parte del despliegue del repositorio global de Regulatory Configuration Service (RCS).
-author: JaneA07
+author: kfend
 ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
+ms.openlocfilehash: 717a2b9b00e137631a7cb9a188bdcf1b33e6af02
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065686"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277226"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS): desactivación del almacenamiento de Lifecycle Services (LCS)
 
@@ -81,7 +81,7 @@ RCS es un servicio de diseño para crear y editar configuraciones de ER. RCS tie
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Sin LCS, ¿cuál es la forma sugerida de almacenar las configuraciones para poder gestionar y transferir fácilmente las configuraciones de "prueba" y "producción"?
 
-RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada forma una conexión entre RCS y cualquier instancia de las aplicaciones de finanzas y operaciones. Dado que RCS puede utilizarse para editar configuraciones, la aplicación conectada puede utilizarse para enviar las configuraciones directamente desde el diseñador a los entornos de aplicaciones de finanzas y operaciones. Por lo tanto, puede cambiar y probar rápidamente sus configuraciones en lugar de tener que pasar por el almacenamiento a nivel de proyecto de LCS.
+RCS utiliza el concepto de *aplicación conectada*. Una aplicación conectada forma una conexión entre RCS y cualquier instancia de las aplicaciones de finanzas y operaciones. Dado que RCS puede utilizarse para editar configuraciones, la aplicación conectada puede utilizarse para enviar las configuraciones directamente desde el diseñador a los entornos de aplicaciones de finanzas y operaciones. Por lo tanto, puede cambiar y probar rápidamente sus configuraciones en lugar de tener que pasar por el almacenamiento en el nivel de proyecto de LCS.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>¿Hay algún ejemplo que muestre la configuración y la gestión?
 

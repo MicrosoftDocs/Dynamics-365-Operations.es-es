@@ -1,26 +1,26 @@
 ---
 title: Informe de declaración de ISR y procesos auxiliares para México
 description: En México, todos los individuos o corporaciones deben presentar un informe de declaración mensual Impuesto sobre la renta (ISR). Este artículo proporciona información acerca de la generación de este informe.
-author: sndray
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ISRConcept_MX, ISRConceptMainAccount_MX, ISRRateTable_MX
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 270644
-ms.assetid: bcc395db-7c00-4151-9340-e83415cb0882
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 462e9da52372ea5933430b066509ab567f12cc83
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 270644
+ms.assetid: bcc395db-7c00-4151-9340-e83415cb0882
+ms.search.form: ISRConcept_MX, ISRConceptMainAccount_MX, ISRRateTable_MX
+ms.openlocfilehash: c10ef0703ea8572a0669ebbb21487154103ef496
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858329"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275885"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 

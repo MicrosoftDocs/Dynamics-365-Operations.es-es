@@ -2,7 +2,7 @@
 title: Vistas guardadas
 description: Este artículo describe cómo usar las características guardadas de las vistas.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125162"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220344"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -46,7 +46,12 @@ Una vez que las vistas se hayan puesto a disposición para un entorno, en la par
 Existen dos variantes de tamaño en selector de la vista: 
 
 - **Selectores grandes de vista**: las páginas que cuentan con una lista prominente tendrán un selector de imagen mayor por varios motivos. Lo que es más importante, el selector de imagen mayor indica las páginas en la vista que pueden incluir los filtros y ordenaciones definidos por el usuario. Dado que los filtros y ordenaciones se incluyen en las vistas, el tamaño mayor de selector también se garantiza ya que los nombres de vista son normalmente la mejor descripción de los datos que se muestran en la pantalla y la expectativa es que los usuarios cambiarán entre las vistas más a menudo en estos tipos de la página. La agrupación en una cuadrícula también se puede guardar en vistas en una página con selectores de vistas grandes. 
+    
+    [![Selector de vista grande que admite modificaciones de consulta en la vista.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
+
 - **Selectores de vista pequeños**: el resto de las páginas a pantalla completa (con excepción de los espacios de trabajo y el panel) tienen un selector de vista más pequeño que aparece junto a la leyenda de la página. Las vistas en estas páginas incluyen solo personalizaciones y los filtros no definido por el usuario.. En estas páginas, la leyenda de la página o título de registro es normalmente la información más importante en la parte superior de la página. El tamaño más pequeño del selector de vistas también refleja una frecuencia esperada inferior de conmutación de estas páginas. 
+    
+    [![Selector de vista pequeño que no admite modificaciones de consulta en la vista.](./media/views-smallViewSelector.png)](./media/views-smallViewSelector.png)
  
 Si selecciona el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página
 
@@ -64,6 +69,8 @@ Para cambiar a otra vista, abra el selector de la vista y seleccione la vista qu
 A diferencia de la personalización tradicional, las vistas no se guardan automáticamente cuando un usuario personaliza la página o cuando un usuario aplica un filtro a una lista o la ordena. Se requiere una acción explícita para guardar estos cambios en una vista. Este requisito ofrece a los usuarios la flexibilidad de crear una vista antes o después de que se hayan realizado los cambios asociados con esa vista. También garantiza que las definiciones de vista no se cambien involuntariamente mediante filtros o personalizaciones únicos. Tenga en cuenta que los elementos de uso de página típicos (por ejemplo, anchos de columna o el estado expandido o contraído de las secciones) se guardan automáticamente en la vista actual, incluso para vistas bloqueadas.
 
 Para garantizar que se conozca el estado actual de la vista, cuando comience a cambiar una vista personalizándola o filtrándola, un asterisco (\*) aparece junto al nombre de la vista actual. Este símbolo indica que está viendo una versión modificada y no guardada de esa vista.
+
+[![Vista con cambios sin guardar.](./media/views-unsavedChanges.png)](./media/views-unsavedChanges.png)
 
 Si desea guardar los cambios, siga estos pasos.
 
@@ -111,7 +118,7 @@ Para una lista de vistas disponibles para dicha página, el conjunto de acciones
 
 Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de activar el botón **Actualizar**.
 
-## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Administrar personalizaciones a nivel de organización con vistas
+## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Administrar personalizaciones en el nivel de organización con vistas
 
 Para ayudar a comprender cómo las vistas guardadas ayudan a mejorar la gestión de personalizaciones en el nivel de organización, en esta sección se describen algunas diferencias en la administración de la personalización con y sin la característica de **Vistas guardadas**.
 
@@ -225,7 +232,7 @@ Si se habilitan las vistas, las personalizaciones existente para un usuario y un
 
 ### <a name="what-pages-support-views"></a>¿Qué páginas son compatibles con las vistas? 
 
-Las vistas están disponibles en la mayoría pero no todas las páginas. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles de información y espacios de trabajo. Las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo, los diálogos desplegables, las búsquedas, las vistas previas mejoradas, actualmente no admiten las vistas. El soporte para vistas de los tipos adicionales de la página, como espacios de trabajo y cuadros de diálogo, se puede considerar para una actualización futura.
+Las vistas están disponibles en la mayoría pero no todas las páginas. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles. Ver soporte para espacios de trabajo está disponible a través de la función **Compatibilidad con vistas guardadas para espacios de trabajo**. La mayoría de las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo desplegables, las búsquedas y las vistas previas mejoradas, actualmente no admiten las vistas. Ver soporte de cuadros de diálogo está disponible a través de la función **Compatibilidad con vistas guardadas para cuadros de diálogo**.
 
 ### <a name="who-is-allowed-to-publish-views"></a>¿Quién tiene permiso para publicar vistas?
 

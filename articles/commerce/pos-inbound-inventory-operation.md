@@ -1,27 +1,27 @@
 ---
 title: Operación de inventario entrante en PDV
 description: Este artículo describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858891"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288362"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -155,15 +155,13 @@ Según lo requiera, puede seleccionar **Recibir todo** en la barra de la aplicac
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Recepción de artículos no planificados en pedidos de compra
 
-En Commerce, versión 10.0.14 y posteriores, los usuarios pueden recibir un producto que no estaba originalmente en el pedido de compra. Para habilitar esta funcionalidad, active **Agregar líneas al pedido de compra durante la recepción del punto de venta**.  
-
-Esta función solo funciona para recibir pedidos de compra. No es posible recibir artículos contra pedidos de transferencia cuando los artículos no fueron pedidos y enviados previamente desde el almacén de salida.
+En Commerce, versión 10.0.14 y posteriores, los usuarios pueden recibir un producto que no estaba originalmente en el pedido de compra. Esta función solo funciona para recibir pedidos de compra. No es posible recibir artículos contra pedidos de transferencia cuando los artículos no fueron pedidos y enviados previamente desde el almacén de salida.
 
 Los usuarios no pueden agregar nuevos productos al pedido de compra durante la recepción de PDV si el pedido de compra [flujo de trabajo de gestión de cambios](../supply-chain/procurement/purchase-order-approval-confirmation.md) está habilitado en la sede de Commerce (HQ). Para habilitar la gestión de cambios, todos los cambios de un pedido de compra deben aprobarse antes de permitir la recepción. Debido a que este proceso permite que un receptor agregue nuevas líneas al pedido de compra, la recepción fallará si el flujo de trabajo de administración de cambios está habilitado. Si la gestión de cambios está habilitada para todos los pedidos de compra o para el proveedor vinculado a la orden de compra que se recibe activamente en PDV, el usuario no puede agregar nuevos productos al pedido de compra durante la recepción en PDV.
 
 La funcionalidad que permite agregar líneas no se puede utilizar como una solución para recibir cantidades adicionales de productos que ya están en el pedido de compra. La sobrerecepción se gestiona mediante la configuración estándar de [sobrerecepción](#over-receiving-validations) para la línea de producto en el pedido de compra.
 
-Si **Agregar líneas al pedido de compra durante la recepción del punto de venta** está habilitado y un usuario está recibiendo con la **Operación entrante** en el PDV, si el usuario escanea o teclea un código de barras de producto o un número de producto que no se reconoce como un artículo en el pedido de compra actual, pero se reconoce como un artículo válido, el usuario recibe un mensaje sobre cómo agregar el artículo al pedido de compra. Si el usuario agrega el artículo al pedido de compra, la cantidad introducida en **Recibiendo ahora** se considera la cantidad solicitada para la línea del pedido de compra.
+Cuando un usuario está recibiendo con la **Operación entrante** en el PDV, si el usuario escanea o teclea un código de barras de producto o un número de producto que se reconoce como un artículo válido pero no se reconoce como un artículo en el pedido de compra actual, el usuario recibe un mensaje que le pide que agregue el artículo al pedido de compra. Si el usuario agrega el artículo al pedido de compra, la cantidad introducida en **Recibiendo ahora** se considera la cantidad solicitada para la línea del pedido de compra.
 
 Cuando el recibo del pedido de compra está completo y se envía a la sede para su procesamiento, las líneas agregadas se crean en el documento maestro del pedido de compra. En la línea del pedido de compra en la sede, habrá un indicador **Agregado mediante PDV** en la pestaña **General** del pedido de la orden de compra. El indicador **Agregado mediante PDV** indica que la línea del pedido de compra se agregó mediante el proceso de recepción de PDV y no era una línea que estaba en el pedido de compra antes de recibirlo.
 

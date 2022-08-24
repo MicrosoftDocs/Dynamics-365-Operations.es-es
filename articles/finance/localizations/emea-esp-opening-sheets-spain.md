@@ -1,25 +1,25 @@
 ---
 title: Entradas especiales y hojas de apertura
 description: Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LedgerOpeningSheet_ES
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 261334
 ms.search.region: Spain
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a6a93410ec3c2efe8b452f1109735e3a844671330f926613bbfab33254075d2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 261334
+ms.search.form: LedgerOpeningSheet_ES
+ms.openlocfilehash: 713dc48b3a80edc586f6a4e3057ad1db552fb9d4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756234"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292300"
 ---
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888336"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218630"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar los envíos utilizando el área de trabajo de consolidación de envíos
 
@@ -41,7 +41,7 @@ Antes de poder usar la función *Consolidación manual de envíos*, debe activar
 - **Módulo:** *Gestión de almacén*
 - **Nombre de función:** *Consolidación manual de envíos*
 
-Como se mencionó en [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md), también debe activar la función *Consolidar envío* antes de poder crear directivas. Sin embargo, ya debería haber completado ese paso.
+Antes de poder crear políticas, también debe activar la característica *Consolidación de envíos*. Para obtener más información, consulte [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crear los pedidos de ventas para este escenario
 

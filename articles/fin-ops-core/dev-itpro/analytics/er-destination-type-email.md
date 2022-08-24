@@ -1,26 +1,26 @@
 ---
 title: Tipo de destino de ER de correo electrónico
 description: Este artículo explica cómo configurar un destino de correo electrónico para cada componente FOLDER o FILE de un informe electrónico (ER).
-author: NickSelin
+author: kfend
 ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 5e58618618d9125db4c81f49f62f48c2ce2f5e62
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845668"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285437"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER de correo electrónico
 

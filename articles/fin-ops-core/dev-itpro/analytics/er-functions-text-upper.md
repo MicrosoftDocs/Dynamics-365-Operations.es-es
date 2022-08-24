@@ -1,25 +1,25 @@
 ---
 title: Función UPPER de ER
 description: Este artículo proporciona información general sobre cómo usar la función UPPER de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 12/05/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 539c9c0d225f4daf53038ce0f26e641ee94ae790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: bdea427dda5f09a3903378012679e9dd3fa86be9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877049"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275353"
 ---
 # <a name="upper-er-function"></a>Función UPPER de ER
 

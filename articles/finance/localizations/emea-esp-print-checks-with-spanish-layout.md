@@ -1,25 +1,25 @@
 ---
 title: Imprimir cheques con diseño español
 description: Este artículo proporciona información sobre cómo imprimir cheques de acuerdo con las normas que se requieren en España.
-author: anasyash
+author: AdamTrukawka
 ms.date: 05/31/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BankChequeLayout, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 274753
 ms.search.region: Spain
-ms.author: anasyash
-ms.dyn365.ops.version: Version 1611
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 004982c0777ebd90f9aae8ccc751fae1319e4506
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: Version 1611
+ms.custom: 274753
+ms.search.form: BankChequeLayout, LedgerJournalTransVendPaym
+ms.openlocfilehash: c5705663c7f0206fc0ac5699126979eec27e69a1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870009"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292297"
 ---
 # <a name="print-checks-by-using-the-spanish-layout"></a>Imprimir cheques con diseño español
 

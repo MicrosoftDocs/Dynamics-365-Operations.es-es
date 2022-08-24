@@ -1,24 +1,24 @@
 ---
 title: Ámbito de localización mexicana
 description: Este artículo describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México.
-author: sndray
+author: AdamTrukawka
 ms.date: 04/11/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abf896dbd6f76f3b8c2553dd9326cebca17d8338
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.search.form: ''
+ms.openlocfilehash: 591c3633264bbe3f13652b5876fae0f685f23ada
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066129"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272099"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 

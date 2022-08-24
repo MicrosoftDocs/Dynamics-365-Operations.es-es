@@ -2,19 +2,19 @@
 title: Libreta de direcciones de partes y global
 description: Este artículo describe la funcionalidad de libreta de direcciones de partes y global de escritura dual.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892204"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9229002"
 ---
 # <a name="party-and-global-address-book"></a>Libreta de direcciones de partes y global
 
@@ -96,7 +96,7 @@ Estas relaciones se almacenan en la tabla **Contacto de parte**. Puede encontrar
 
     ![Ficha Organizaciones asociadas en la página Contacto.](media/party-gab-image3.png)
 
-    Independientemente de su selección, la asociación se crea a nivel de parte, se aplica a todos los roles de parte y se almacena en la entidad **Contacto de parte**.
+    Independientemente de su selección, la asociación se crea en el nivel de parte, se aplica a todos los roles de parte y se almacena en la entidad **Contacto de parte**.
 
 > [!NOTE]
 > El nombre para mostrar de la tabla **Contacto de parte** en las aplicaciones de interacción con el cliente es **Contacto de cliente/proveedor**.
@@ -119,11 +119,11 @@ La cuadrícula incluye las siguientes columnas:
 
 Puede usar el botón **Nueva direccion** de encima de la cuadrícula para crear tantas direcciones postales como desee.
 
-Los campos **Dirección 1** y **Dirección 2** de la pestaña **Resumen** de la página **Cuenta** corresponden a las direcciones **Entrega** y **Factura**, respectivamente.
+En las aplicaciones de participación del cliente, cuando un usuario ingresa las direcciones en la ficha **Resumen** de la página **Cuentas**, los campos **Dirección 1** y **Dirección 2** corresponden a las direcciones **Entrega** y **Factura**, respectivamente. Sin embargo, cuando un usuario crea una dirección postal en las aplicaciones de finanzas y operaciones, las dos primeras direcciones del registro del cliente aparecerán en los campos **Dirección 1** y **Dirección 2**, y el usuario tiene la opción de cambiar el propósito de la dirección a **Entrega** y **Factura**.
 
 ![Pestaña Resumen para direcciones postales.](media/party-gab-image5.png)
 
-Los campos **Dirección 1**, **Dirección 2** y **Dirección 3** de la página **Resumen** del formulario **Contacto** corresponden a las direcciones **Empresa**, **Entrega** y **Factura**, respectivamente.
+De forma similar, los campos **Dirección 1**, **Dirección 2** y **Dirección 3** de la página **Resumen** del formulario **Contacto** corresponden a las direcciones **Empresa**, **Entrega** y **Factura**, respectivamente.
 
 ## <a name="electronic-addresses"></a>Direcciones electrónicas
 

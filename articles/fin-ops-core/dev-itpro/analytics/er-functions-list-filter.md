@@ -1,25 +1,25 @@
 ---
 title: Función FILTER de ER
 description: En este artículo se proporciona información sobre cómo usar la función FILTER de informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfa4afdcfad8c1855a10e1fa37c36cc5b20682ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: cfaf76daa8118942c3650e6b39c853434a20ee30
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884528"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272600"
 ---
 # <a name="filter-er-function"></a>Función FILTER de ER
 
@@ -51,7 +51,7 @@ La lista de registros resultante.
 
 ## <a name="usage-notes"></a><a name="usage-notes"></a>Notas de uso
 
-Esta función difiere de la función [DONDE](er-functions-list-where.md), ya que la condición especificada se aplica a cualquier origen de datos de Informes electrónicos (ER) del tipo *Registros de la tabla* a nivel de la base de datos. La lista y la condición se pueden definir mediante tablas y relaciones.
+Esta función difiere de la función [DONDE](er-functions-list-where.md), ya que la condición especificada se aplica a cualquier origen de datos de Informes electrónicos (ER) del tipo *Registros de la tabla* en el nivel de la base de datos. La lista y la condición se pueden definir mediante tablas y relaciones.
 
 Si uno o ambos argumentos configurados para esta función (`list` y `condition`) no permite que esta solicitud se traduzca para la llamada directa de SQL, se produce una excepción en tiempo de diseño. Esta excepción informa al usuario que `list` o `condition` no se pueden usar para consultar la base de datos.
 

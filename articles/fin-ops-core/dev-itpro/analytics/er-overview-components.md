@@ -1,26 +1,26 @@
 ---
 title: Componentes de los informes electrónicos
 description: Este artículo describe los componentes de informes electrónicos (ER).
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892461"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285043"
 ---
 # <a name="electronic-reporting-components"></a>Componentes de los informes electrónicos
 
@@ -123,15 +123,37 @@ Las versiones que tienen el estado **Completado** o **Compartido** están dispon
 - El componente se puede serializar en formato XML y exportar como archivo en formato XML.
 - El componente puede volver a serializar desde un archivo XML e importar en la aplicación como una nueva versión de un componente de ER.
 
+Para más información, vea [Importar una nueva configuración de modelo de datos](er-quick-start1-new-solution.md#ImportDataModel) y [Exportar versión completa de un formato derivado](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Borradores de versiones en tiempo de ejecución
+
+En sus parámetros de usuario personales para el marco de ER, puede habilitar la opción que le permite especificar si la versión borrador de una configuración de ER se debe usar en tiempo de ejecución. Para obtener información sobre cómo hacer que la opción **Ejecutar borrador** esté disponible para sus configuraciones de ER, consulte [Marcar un formato personalizado como ejecutable](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> Los parámetros de usuario de informes electrónicos son específicos de la compañía y del usuario.
+
+### <a name="draft-format-versions-at-runtime"></a>Versiones en formato de borrador en tiempo de ejecución
+
+De forma predeterminada, cuando ejecuta una solución de ER, se ignoran las versiones preliminares de sus componentes de formato. En su lugar, solo la versión relevante que tiene un estado distinto de **Borrador**. A veces, es posible que desee obligar a ER a usar la versión preliminar de su configuración de formato de ER en tiempo de ejecución. Por ejemplo, después de introducir los cambios necesarios en su versión de borrador, puede usar esa versión de borrador para realizar la ejecución de prueba. De esta manera, puede validar si sus cambios son correctos. Para comenzar a usar la versión en formato borrador, debe [establecer](er-quick-start2-customize-report.md#MarkFormatRunnable) la opción **Ejecutar borrador** de la configuración de ER pertinente en **Sí**.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Borrador de versiones de mapeo de modelos en tiempo de ejecución
+
+De forma predeterminada, cuando ejecuta una solución de ER, se usan siempre las versiones de borrador de sus componentes de asignación de modelos. A veces, es posible que desee obligar a ER a ignorar la versión de borrador de su configuración de asignación de modelos de ER en tiempo de ejecución. En **Versión 10.0.29 y posteriores**, puede habilitar la característica **Tenga siempre en cuenta la opción "Ejecutar borrador" para las asignaciones de modelos de ER** para controlar la versión de mapeo del modelo que se usa en tiempo de ejecución. Cuando se habilita esta característica, el comportamiento es el siguiente:
+
+- Cuando la opción **Ejecutar borrador** está configurada en **No** para una configuración de mapeo de modelo, la versión más alta que no sea borrador de esa configuración se usa en tiempo de ejecución. Se genera una excepción si la configuración no está disponible en la instancia de Finance actual.
+- Cuando la opción **Ejecutar borrador** está configurada en **Sí** para una configuración de mapeo de modelo, la versión de borrador de esa configuración se usa en tiempo de ejecución.
+
 ## <a name="component-date-effectivity"></a>Eficacia de la fecha del componente
 
-Las versiones del componente de ER tienen fecha de vigencia. Puede establecer fecha "Vigente desde" para que un componente de ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de la aplicación se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha específica, la última versión se usa para procesos de informes.
+Las versiones del componente en formato ER tienen fecha de vigencia. Puede establecer fecha "Vigente desde" para que un componente en formato ER especifique la fecha en la que el componente se hace efectivo para procesos de informes. La fecha de sesión de la aplicación se usa para definir si un componente es válido para la ejecución. Si hay más de una versión válida para una fecha específica, la última versión se usa para procesos de informes.
 
 ## <a name="component-access"></a>Acceso del componente
 
-El acceso a los componentes del formato ER depende de la configuración del código de país / región de la Organización Internacional de Normalización (ISO). Si esta opción está en blanco para una versión seleccionada de una configuración de formato, se puede obtener acceso a un componente de formato desde cualquier empresa en runtime. Si esta configuración contiene códigos de país o región ISO, un componente de formato solo está disponible desde las empresas que tienen una dirección principal que está definida para uno de los códigos de país o región ISO de un componente de formato.
+El acceso a los componentes en formato ER y asignación de modelos en tiempo de ejecución depende de la configuración del código de país / región de la Organización Internacional de Normalización (ISO). Si esta opción está en blanco para una versión seleccionada de una configuración de formato o asignación de modelo, se puede obtener acceso a un componente de formato o asignación de modelo desde cualquier empresa en runtime. Si esta configuración contiene códigos de país o región ISO, un componente de formato o asignación de modelo solo está disponible desde las empresas que tienen una dirección principal que está definida para uno de los códigos de país o región ISO de un componente de formato.
 
-Diferentes versiones de un componente de formato de datos pueden tener distintos ajustes de los códigos de país o región ISO.
+Diferentes versiones de un componente de formato o asignación de modelo pueden tener distintos ajustes de los códigos de país o región ISO.
+
+Para obtener más información, consulte [Configurar asignaciones de modelos de informes electrónicos dependientes del contexto del país](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

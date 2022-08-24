@@ -1,28 +1,26 @@
 ---
 title: Ajustar un formato ER para generar un documento electrónico personalizado
 description: Este artículo explica cómo ajustar un formato de informe electrónico (ER) proporcionado por Microsoft para que genere un documento electrónico personalizado.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886802"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283570"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar un formato ER para generar un documento electrónico personalizado
 
@@ -271,7 +269,7 @@ En este caso, como representante de Litware, Inc., debe crear (derivar) una nuev
 
 6. Seleccionar **Crear configuración**.
 
-Se creará la versión 1.1.1 del formato de configuración de ER **BACS (personalizado del Reino Unido)**. Esta versión tiene un [estado](general-electronic-reporting.md#component-versioning) de **Borrador** y puede editarse. El contenido actual de su formato ER personalizado coincide con el contenido del formato proporcionado por Microsoft.
+Se creará la versión 1.1.1 del formato de configuración de ER **BACS (personalizado del Reino Unido)**. Esta versión tiene un estado de **Borrador** y puede editarse. El contenido actual de su formato ER personalizado coincide con el contenido del formato proporcionado por Microsoft.
 
 ![Página de configuraciones con la versión 1.1.1 del formato de configuración de ER BACS (personalizado del Reino Unido).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Debe configurar su formato personalizado para que cumpla con los requisitos espe
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Marcar un formato personalizado como ejecutable
 
-Ahora que se ha creado la primera versión de su formato personalizado y tiene un estado de **Borrador**, puede ejecutarlo con fines de prueba. Para ejecutar el informe, debe procesar un pago de proveedor utilizando el método de pago que se refiere a su formato ER personalizado. De forma predeterminada, cuando llama a un formato de ER desde la aplicación, las únicas versiones que tienen un estado de **Completado** o **Compartido** son las que se [consideran](general-electronic-reporting.md#component-versioning). Este comportamiento ayuda a evitar el uso de formatos ER que tienen diseños inacabados. Sin embargo, para sus ejecuciones de prueba, puede obligar a la aplicación a usar la versión de su formato ER que tenga un estado de **Borrador**. De esta manera, puede ajustar la versión del formato actual si se requieren modificaciones. Para obtener más información, consulte [Aplicabilidad](electronic-reporting-destinations.md#applicability).
+Ahora que se ha creado la primera versión de su formato personalizado y tiene un estado de **Borrador**, puede ejecutarlo con fines de prueba. Para ejecutar el informe, debe procesar un pago de proveedor utilizando el método de pago que se refiere a su formato ER personalizado. De forma predeterminada, cuando llama a un formato de ER desde la aplicación, las únicas versiones que tienen un estado de **Completado** o **Compartido** son las que se consideran. Este comportamiento ayuda a evitar el uso de formatos ER que tienen diseños inacabados. Sin embargo, para sus ejecuciones de prueba, puede obligar a la aplicación a usar la versión de su formato ER que tenga un estado de **Borrador**. De esta manera, puede ajustar la versión del formato actual si se requieren modificaciones. Para obtener más información, consulte [Aplicabilidad](electronic-reporting-destinations.md#applicability).
 
 Para utilizar la versión borrador de un formato ER, debe marcar de forma explícita el formato ER.
 

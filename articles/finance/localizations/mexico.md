@@ -1,7 +1,7 @@
 ---
 title: Información general para México
 description: Este artículo proporciona vínculos a recursos de documentación para México de Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: kfend
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ddd168ca5e94f9d07c9dc255ad424104060fb61
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aa4f96f65d4b83b55c224149e049dc1f2cf95167
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906214"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270604"
 ---
 # <a name="mexico-overview"></a>Información general para México
 

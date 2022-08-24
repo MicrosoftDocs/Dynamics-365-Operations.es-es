@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863748"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219820"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Procesamiento diferido del movimiento manual de inventario
 
@@ -33,7 +33,7 @@ El procesamiento en segundo plano se logra utilizando la [Función de eventos de
 Para que esta característica esté disponible, active las siguientes características en la [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Debe activarlos en este orden:
 
 1. *Bloqueo de trabajo en toda la organización*<br>(A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
-1. *Procesar eventos de la aplicación de almacén*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada).
+1. *Procesar eventos de la aplicación de almacén*<br>A partir de la versión 10.0.25 de Supply Chain Management, esta característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria. Por lo tanto, está activado de forma predeterminada y no se puede volver a desactivar).
 1. *Operaciones de colocación diferidas*
 1. *Procesamiento diferido de la operación de movimiento de inventario manual*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 

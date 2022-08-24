@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065476"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220069"
 ---
 # <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 
@@ -42,10 +42,7 @@ Los siguientes cuatro campos en la página **Ubicaciones** realizan un seguimien
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Activar la característica Estado de ubicación de almacén
 
-Antes de poder usar la característica *Estado de ubicación de almacén*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Estado de ubicación de almacén*
+Para poder usar esta característica, debe estar activada en su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Estado de ubicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurar el estado de ubicación del almacén
 
@@ -55,7 +52,7 @@ Antes de empezar a trabajar en el escenario, debe activar los datos de muestra y
 
 #### <a name="use-the-usmf-legal-entity"></a>Usar la entidad jurídica USMF
 
-Para trabajar en el escenario de ejemplo mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
+Para trabajar en el escenario de ejemplo mediante el uso de los registros y valores de muestra que se especifican aquí, debe estar en un sistema donde estén instalados los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Además, también debe seleccionar la entidad legal **USMF** antes de empezar.
 
 #### <a name="set-up-location-profiles"></a>Configurar perfiles de ubicación
 

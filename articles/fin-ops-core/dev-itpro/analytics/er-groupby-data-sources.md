@@ -1,26 +1,26 @@
 ---
 title: Registros de grupos y cálculos agregados mediante fuentes de datos GROUPBY
 description: En este artículo se explica cómo puede usar orígenes de datos de tipo GROUPBY en informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 0e520705d2441ead5a68ec3284db74999b3d90b5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861798"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277613"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Registros de grupos y cálculos agregados mediante fuentes de datos GROUPBY
 
@@ -48,7 +48,7 @@ En tiempo de ejecución, cada cálculo agregado se realiza para cada grupo de re
 
 ## <a name="execution-location"></a><a name="ExecutionLocation"></a>Ubicación de ejecución
 
-Cuando edita un origen de datos **GroupBy** y especifica el origen de datos base que contiene los registros que se deben agrupar, el sistema detecta automáticamente la [ubicación](#ExecutionLocation) más eficiente para la ejecución de ese origen de datos **GroupBy**. Si el origen de datos base es [consultable](er-functions-list-filter.md#usage-notes) (es decir, si se puede ejecutar a nivel de la base de datos), la base de datos de la aplicación también se especifica como la ubicación de ejecución del origen de datos editable **GroupBy**. De lo contrario, la memoria del servidor de aplicaciones se especifica como la ubicación de ejecución.
+Cuando edita un origen de datos **GroupBy** y especifica el origen de datos base que contiene los registros que se deben agrupar, el sistema detecta automáticamente la [ubicación](#ExecutionLocation) más eficiente para la ejecución de ese origen de datos **GroupBy**. Si el origen de datos base es [consultable](er-functions-list-filter.md#usage-notes) (es decir, si se puede ejecutar en el nivel de la base de datos), la base de datos de la aplicación también se especifica como la ubicación de ejecución del origen de datos editable **GroupBy**. De lo contrario, la memoria del servidor de aplicaciones se especifica como la ubicación de ejecución.
 
 Puede cambiar manualmente la ubicación de ejecución detectada automáticamente seleccionando la ubicación aplicable a la fuente de datos configurada. Si la ubicación de ejecución que se selecciona no es aplicable, se inicia un [error de validacion](er-components-inspections.md#i5) en tiempo de diseño.
 
@@ -192,7 +192,7 @@ Configurar un origen de datos **GroupBy** para agrupar transacciones Intrastat y
     Estos ajustes especifican que, para cada grupo de transporte, se calculará el número de transacciones del grupo.
 
 10. Seleccione **Guardar**.
-11. Revise los parámetros de <a name="ExecutionLocation">ejecución</a> del origen de datos editable. Debe darse cuenta de que **Detección automática** ha sido seleccionado automáticamente en el campo **Lugar de ejecución** y el campo **Ejecución en** campo contiene el valor **SQL**. Estos ajustes especifican que el origen de datos base seleccionado **Transacción** es actualmente consultable y puede ejecutar el origen de datos editable **GroupBy** a nivel de base de datos.
+11. Revise los parámetros de <a name="ExecutionLocation">ejecución</a> del origen de datos editable. Debe darse cuenta de que **Detección automática** ha sido seleccionado automáticamente en el campo **Lugar de ejecución** y el campo **Ejecución en** campo contiene el valor **SQL**. Estos ajustes especifican que el origen de datos base seleccionado **Transacción** es actualmente consultable y puede ejecutar el origen de datos editable **GroupBy** en el nivel de base de datos.
 12. Abra la búsqueda del campo **Lugar de ejecución** para revisar la lista de valores disponibles. Tenga en cuenta que puede seleccionar **Consulta** o **En memoria** para forzar que el origen de datos **GroupBy** se ejecute en el nivel de la base de datos o en la memoria del servidor de aplicaciones.
 13. Selecione **Guardar** y cierre la página **Editar parámetros 'Agrupar por'**.
 14. Seleccione **OK** para completar la configuración del origen de datos **GroupBy**.

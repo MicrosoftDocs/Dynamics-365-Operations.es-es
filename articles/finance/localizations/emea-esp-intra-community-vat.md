@@ -1,25 +1,25 @@
 ---
 title: IVA intracomunitario para España
 description: Este artículo proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA).
-author: Anasyash
+author: AdamTrukawka
 ms.date: 07/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VendFormletterParameters, VendParameters, TaxTrans
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 271523
 ms.search.region: Spain
-ms.author: anasyash
-ms.dyn365.ops.version: Version 1611
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 69c9b9a1ae131cfc161658927fc2a465fb6ef479
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.dyn365.ops.version: Version 1611
+ms.custom: 271523
+ms.search.form: VendFormletterParameters, VendParameters, TaxTrans
+ms.openlocfilehash: 86e6ff3caeca8d57a874bcdf22bdb9fa950dd462
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870017"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267726"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]

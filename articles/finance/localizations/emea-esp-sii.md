@@ -1,7 +1,7 @@
 ---
 title: Suministro inmediato de información del IVA, SII
 description: Este artículo describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Spain
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a0741faf3d72151c5cbc1ec7611ffa1f73f83d6a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2652b22c8eb34bf798dce3d0d8a204a0753e11d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883098"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291621"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 

@@ -1,24 +1,26 @@
 ---
 title: MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 description: Esta tarea le guía por la creación de la cuenta bancaria para México y la asignación del id. de registro de impuestos de RFC.
-author: sndray
+author: AdamTrukawka
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: BankAccountTable,  DefaultDashboard
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Mexico
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b8f77496efb88e4aacb9815490fef16c57d3e56b733d68bcac212d58c44fc09
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form:
+- BankAccountTable
+- DefaultDashboard
+ms.openlocfilehash: 2c266f5a9a0b2e74ce5afb6fc064fe5f3174696c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745733"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273726"
 ---
 # <a name="mx-00020---specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 

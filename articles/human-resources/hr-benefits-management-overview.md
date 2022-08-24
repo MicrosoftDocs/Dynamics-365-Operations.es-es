@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901158"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227909"
 ---
 # <a name="benefits-management-overview"></a>Información general de administración de prestaciones
 
@@ -147,6 +147,16 @@ Antes de poder procesar eventos de vida, debe haber ejecutado la inscripción ab
 - [Procesar eventos de vida](hr-benefits-process-life-events.md)
 - [Procesar cambios de eventos de vida](hr-benefits-process-life-event-changes.md)
 - [Procesar idoneidad de eventos de vida](hr-benefits-process-life-event-eligibility.md)
+
+Una vez que se completa el procesamiento del evento de vida y mientras el período de inscripción del evento de vida esté abierto, los empleados pueden realizar cambios en las opciones del plan que se ven afectadas por el evento de vida. Los administradores pueden realizar los cambios en nombre de los empleados. Una vez que finaliza el período de inscripción y no hay tipos de planes no confirmados relacionados con la transacción del evento de vida, la transacción se cierra.
+
+Todos los planes que se ven afectados por el evento de vida deben seleccionarse o renunciarse y luego confirmarse. Si no se selecciona un plan, no se renuncia y, por lo tanto, no se confirma, la transacción del evento de vida no se cierra.
+
+Los administradores pueden cerrar manualmente una transacción de evento de vida según sea necesario, seleccionándola y luego seleccionando **Cerrar**. Si hay planes no confirmados en la transacción y un administrador quiere cerrarla, el cierre del evento de vida podría restringir las ediciones a esos planes.
+
+Los eventos de vida cerrados no se pueden eliminar.
+
+Los administradores pueden reabrir una transacción de evento de vida según sea necesario, seleccionándola y luego seleccionando **Reabrir**.
 
 ## <a name="rate-updates-optional"></a>Actualizaciones de tarifas (opcional)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849195"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219454"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
@@ -30,8 +30,8 @@ Este artículo proporciona información sobre la funcionalidad que facilita a lo
 
 Antes de poder usar las funciones que se describen en este artículo, debe activarlas en su sistema. Los administradores pueden usar la configuración de [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas funciones y activarlas si es necesario. Active las dos siguientes características, en el orden en que se enumeran. (Ambas características son para el módulo **Gestión de almacenes**).
 
-1. Estado de ubicación de almacén
-2. Uso de la ubicación de consolidación de artículos
+1. *Estado de la ubicación del almacén* (A partir de la versión 10.0.29, esta función está activada de forma predeterminada. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
+2. *Uso de la ubicación de consolidación de artículos*
 
 ## <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 

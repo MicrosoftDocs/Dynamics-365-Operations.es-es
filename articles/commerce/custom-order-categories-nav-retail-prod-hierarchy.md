@@ -2,7 +2,7 @@
 title: Cambiar el orden de clasificación de entidades de comercialización
 description: Este artículo explica los conceptos relacionados con el control el orden de visualización para diversas entidades relacionadas con la comercialización en Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847663"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265846"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Cambiar el orden de clasificación de entidades de comercialización
 
 
 [!Include [banner](includes/banner.md)]
 
-Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales. La funcionalidad Varios puede ayudar a los clientes a detectar fácilmente productos. Por ejemplo, pueden examinar categorías, buscar y filtrar.
+Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales. Hay varias características que pueden ayudar a los clientes a descubrir productos fácilmente. Por ejemplo, los clientes pueden examinar categorías, buscar y filtrar.
 
 Este artículo explica los conceptos relacionados con el control el orden de visualización para diversas entidades relacionadas con la comercialización. También explica cómo cambiar el orden de clasificación.
 
 ## <a name="overview"></a>Información general
 
-La compatibilidad para clasificar diversas entidades relacionadas con la comercialización se ha ampliado. Esta compatibilidad está ahora mejor alineada con los escenarios existentes de clientes, que requerían anteriormente extensiones por parte de socios de implementación.
+En Commerce, la clasificación de varias entidades relacionadas con la comercialización se alinea con los escenarios de clientes existentes y ya no requiere extensiones de los socios de implementación.
 
-En las versiones de Retail anteriores a la versión 10.0.5, el criterio de clasificación para las categorías de la jerarquía de navegación era alfabético. La nueva funcionalidad personalizada del orden de clasificación permite a los encargados de comercialización configurar el orden de clasificación para diversas entidades relacionadas con la comercialización en todos los clientes de usuario final. Estos clientes incluyen sedes empresariales y centros de llamadas.
+En las versiones de Commerce anteriores a la versión 10.0.5, el criterio de clasificación para las categorías de la jerarquía de navegación era alfabético. La funcionalidad personalizada del orden de clasificación actual permite a los encargados de comercialización configurar el orden de clasificación para diversas entidades relacionadas con la comercialización en todos los clientes de usuario final. Estos clientes incluyen sedes empresariales y centros de llamadas.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Configurar el orden de visualización para las categorías de la jerarquía de productos
 
@@ -63,11 +63,11 @@ Antes de poder completar este procedimiento, los datos de prueba se deben instal
 2. En la lista, seleccione la jerarquía **Navegación de moda** .
 3. Haga clic en **Editar jerarquía de categoría**.
 4. Haga clic en **Editar**.
-5. En el árbol seleccione, **Fashion \> Womenswear \> Womens Shoes**.
+5. En el árbol seleccione, **Fashion \> Womenswear \> Women's Shoes**.
 6. En el campo **Orden de visualización**, escriba un número.
 7. En el árbol seleccione, **Fashion \> Womenswear \> Tops**.
 
-    Del mismo modo, puede definir el orden de clasificación para las categorías secundarias.
+Del mismo modo, puede definir el orden de clasificación para las subcategorías.
 
 8. En el árbol seleccione, **Fashion \> Menswear \> Casual Shirts**.
 9. En el campo **Orden de visualización**, escriba un número.
@@ -84,7 +84,7 @@ El orden de visualización para la jerarquía de navegación de canales se refle
 ![PDV con categorías ordenadas de forma personalizada.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> De forma predeterminada, la característica de orden de clasificación personalizado está desactivada. Para obtener información sobre cómo activar esta característica y otras, consulte [Administración de características](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Por defecto, la función **Habilitar orden de visualización para entidades de comercialización** está desactivada. Use [Gestión de características](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activarla. Desués de activar la función, ejecute el trabajo CDX **1110 (Configuración global)** desde el programa de distribución.
+> Si su pedido de categorías en POS no está actualizado, reactive el dispositivo. La información de categoría se recupera cuando se activa el dispositivo, por lo que es posible que el dispositivo deba recuperar la información de categoría con órdenes de visualización actualizadas. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

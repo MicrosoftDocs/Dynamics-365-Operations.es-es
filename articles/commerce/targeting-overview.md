@@ -7,20 +7,20 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: ebac0f4ee98f36027f8cb50a368b9b6dcbb24623
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881666"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279431"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Segmentación por dispositivo, mercado y geolocalización
 
@@ -95,7 +95,7 @@ Para crear un público nuevo en el generador de sitios de Commerce, siga estos p
 Para editar un público, seleccione el hipervínculo correspondiente en la pestaña **Públicos** y luego seleccione **Editar** en el editor de público que aparece. Para ver la lista de destinos y páginas que hacen referencia a un público, seleccione el público en la vista de lista de públicos y luego seleccione **Ver asignaciones**. Para eliminar un público en la vista de lista de públicos o en el editor de públicos, anule la publicación si ya se ha publicado y luego seleccione **Borrar** en la barra de comandos.
 
 > [!NOTE]
-> Los públicos son un concepto a nivel de sitio en el geenrador de sitios de Commerce. Puede compartir el mismo público en varios destinos.
+> Los públicos son un concepto en el nivel de sitio en el geenrador de sitios de Commerce. Puede compartir el mismo público en varios destinos.
 
 ### <a name="rename-an-audience-in-site-builder"></a>Cambiar el nombre del público en el generador de sitios
 

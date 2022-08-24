@@ -1,25 +1,25 @@
 ---
 title: Lista de funciones ER en la categoría lógica.
 description: Este artículo proporciona información sobre las funciones lógicas que son compatibles con los informes electrónicos (ER).
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 1d011968d9cfa4125e7283ca36c3558e3e79b93a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888202"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291306"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Lista de funciones ER en la categoría lógica.
 

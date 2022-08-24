@@ -1,26 +1,26 @@
 ---
 title: Alta e instalación del servicio de Factura Electrónica
 description: Este artículo proporciona información sobre cómo configurar e instalar el servicio de facturación electrónica.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 99f484e5ab8821c78fde776a9d3195dade2a09d5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865537"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283969"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Alta e instalación del servicio de Factura Electrónica
 
