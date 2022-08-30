@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.29 (octubre de 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.28 (agosto de 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.27 (julio de 2022)
@@ -1088,8 +1090,10 @@
                           href: data-entities/dual-write/requirements-and-prerequisites.md
                         - name: Cómo usar el asistente de doble escritura para vincular sus entornos
                           href: data-entities/dual-write/link-your-environment.md
-                        - name: Habilitar mapa de entidad para doble escritura
+                        - name: Habilitar asignación de entidad para doble escritura
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Habilitar una ventana de tiempo de espera de sesión de cinco minutos para sesiones de doble escritura
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Paquete de orquestación de aplicaciones de doble escritura independientes
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Migración de tipo de datos de divisa para doble escritura

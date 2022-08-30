@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (octubre)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (agosto)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (julio)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Recibir notificaciones acerca de las actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Actualizaciones de calidad proactivas
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Automatización de tarea de datos
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: Entrega de soluciones de ISV mediante One Version
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Ver movimientos del diario o transacciones
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Permitir ediciones en datos internos para asientos de contabilidad general
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Ver un asiento de empresas vinculadas relacionado desde un diario
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Publicar líneas de diario y documentos de Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Introducción a la facturación electrónica para Egipto
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Introducción a la facturación electrónica para Francia
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Introducción a la facturación electrónica para México
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Introducción a la Facturación electrónica para Polonia
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Introducción a la facturación electrónica para Arabia Saudí
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Incorporación de la facturación electrónica en Arabia Saudí
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Configurar la integración directa de FatturaPA italiana con SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Utilizar el servicio de facturación electrónica para importar facturas de proveedores
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Preguntas frecuentes sobre facturación electrónica
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Cálculo de impuestos
@@ -1648,6 +1660,10 @@
                           items:
                             - name: Declaración de IVA
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Informes de Polonia
+                          items:
+                            - name: Declaración de IVA
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Informes de España
                           items:
                             - name: 'Suministro inmediato de información del IVA, SII'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcular y ajustar los impuestos en una factura de proveedor
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Ajustar los impuestos mediante diarios generales
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Habilitar cálculo de impuestos retrasado en el diario
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Crear un pago de impuestos
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Configurar retención de impuestos global
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Habilitar el tipo de tasa de cambio de moneda de retención de impuestos global y la configuración del tipo de fecha
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Retención de impuestos en transacciones de compra
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Retención de impuestos en transacciones de ventas
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: Mover archivos NF-e XML como archivos adjuntos
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: 'NT2021.004: actualizaciones de diseño y validación en el documento fiscal electrónico (NF-e)'
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: 'NT2020.005: actualizaciones de diseño y validación en el documento fiscal electrónico (NF-e)'
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: 'NT2020.006: plataforma digital de ventas intermedias para NF-e'
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Pista de auditoría y editar registros para software de contabilidad
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Facturas electrónicas en India
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Impuestos indirectos
                   items:
                     - name: India GST
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Usar un perfil de inventario en documentos y consultas
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Despacho de aduana
+                      items:
+                        - name: Trabajar con despacho de aduanas
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Informes
                   items:
                     - name: Informes financieros
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: Formatos de dirección de Rusia e importación desde FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Importar desde el registro de direcciones estatales (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Aplazamientos
                   items:
                     - name: Configurar aplazamientos
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split
