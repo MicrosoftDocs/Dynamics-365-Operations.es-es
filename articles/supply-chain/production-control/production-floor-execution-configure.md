@@ -2,7 +2,7 @@
 title: Configurar la interfaz de ejecución de la planta de producción
 description: Este artículo describe cómo crear una o más configuraciones para la interfaz de ejecución de la planta de producción. Al abrir la interfaz de ejecución de la planta de producción, carga automáticamente una configuración seleccionada y un filtro de trabajo que son específicos del navegador y el dispositivo. En la configuración se establecen las políticas que deben ser aplicables para un uso específico.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220374"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336197"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -35,7 +35,7 @@ Este artículo describe las diversas opciones para configurar una interfaz de ej
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Encienda la interfaz de ejecución del piso de producción y sus características opcionales relacionadas
 
-La interfaz de ejecución de la planta de producción en sí, más varias de las configuraciones opcionales que se describen en este artículo, deben estar activadas en su sistema antes de poder utilizarlas. Utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar alguna o todas las funciones descritas en las siguientes subsecciones según sea necesario.
+La interfaz de ejecución de la planta de producción en sí, más varias de las configuraciones opcionales que se describen en este artículo, deben estar activadas para su sistema antes de poder utilizarlas. Utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar alguna o todas las funciones descritas en las siguientes subsecciones según sea necesario.
 
 ### <a name="the-production-floor-execution-interface"></a>La interfaz de ejecución de la planta de producción
 
@@ -63,29 +63,32 @@ A partir de la versión 10.0.21 de Supply Chain Management, esta función está 
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción
 
-Esta función agrega una pestaña de administración de activos a la interfaz de ejecución de la planta de producción. Los trabajadores pueden usar esta pestaña para seleccionar un activo que esté conectado a un recurso de máquina que esté dentro del filtro seleccionado de la lista de trabajos. Para el activo de máquina seleccionado, el trabajador puede ver el estado y la salud del activo a partir de los valores de los contadores de hasta cuatro contadores seleccionados. Si desea usar esta función, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta función agrega una pestaña de administración de activos a la interfaz de ejecución de la planta de producción. Los trabajadores pueden usar esta pestaña para seleccionar un activo que esté conectado a un recurso de máquina que esté dentro del filtro seleccionado de la lista de trabajos. Para el activo de máquina seleccionado, el trabajador puede ver el estado y la salud del activo a partir de los valores de los contadores de hasta cuatro contadores seleccionados.
 
-- *Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada).
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-job-search"></a>Habilitar la búsqueda de empleo
+### <a name="job-search"></a>Búsqueda de trabajo
 
-Esta función permite agregar un campo de búsqueda a la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras. Si desea usarla, active las siguientes funciones en [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta función permite agregar un campo de búsqueda a la lista de trabajos. Los trabajadores pueden encontrar un trabajo específico ingresando el ID del trabajo o encontrar todos los trabajos para un pedido específico ingresando el ID del pedido. Los trabajadores pueden ingresar la identificación usando un teclado o escaneando un código de barras.
 
-- *Búsqueda de trabajos para la interfaz de ejecución de la planta de producción*<br>(A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada).
+A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Búsqueda de trabajo para la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Habilitar los informes sobre coproductos y productos derivados
+### <a name="report-on-co-products-and-by-products"></a>Informar sobre coproductos y productos derivados
 
-Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados. Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes. Estos informes incluyen coproductos y productos derivados.
 
-- *Informe de coproductos y productos derivados de la interfaz de ejecución de planta de producción*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Informar sobre coproductos y productos derivados en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Habilite la visualización de números completos de serie, lote y matrícula
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Mostrar números completos de serie, lote y matrícula
 
 Esta función proporciona una experiencia mejorada para ver listas de números de serie, lote y matrícula de entidad de almacén en la interfaz de ejecución de la planta de producción. La pantalla cambia de una vista de tarjeta que muestra un número limitado de caracteres a una vista de lista que proporciona suficiente espacio para mostrar los valores completos. La lista también ofrece la posibilidad de buscar números específicos.
 
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si utiliza una versión anterior a la 10.0.29, entonces los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Mostrar número de serie completo, lote y matrículas de entidad de almacén en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+
 A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Mostrar número de serie completo, lote y matrículas de entidad de almacén en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Habilitar el registro de consumo de material
+### <a name="register-material-consumption"></a>Registrar lista de selección
 
 Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto.
 
@@ -97,7 +100,7 @@ Existen dos versiones de esta característica. Una admite artículos que *no est
 > [!IMPORTANT]
 > Puede usar solo la función que no es WMS. Sin embargo, si usa WMS, debe habilitar ambas funciones.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Habilitar informes sobre artículos con peso capturado
+### <a name="report-on-catch-weight-items"></a>Informar artículos con peso capturado
 
 Los trabajadores pueden utilizar la interfaz de ejecución de la planta de producción para informar el progreso de los pedidos por lotes para artículos de peso capturado. Los pedidos por lotes se crean a partir de fórmulas, que se pueden definir para que tengan productos de peso capturado y productos de fórmula, coproductos y subproductos. También se puede definir una fórmula para que tenga líneas de fórmula para los ingredientes definidos para el peso capturado. Los artículos con peso capturado utilizan dos unidades de medida para realizar un seguimiento del inventario: cantidad de peso capturado y cantidad de inventario. Por ejemplo, en la industria alimentaria, la carne en caja se puede definir como un artículo con peso capturado, en el que la cantidad de peso capturado se usa para rastrear el número de cajas y la cantidad de inventario se usa para rastrear el peso de las cajas.
 
@@ -105,15 +108,13 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 - *Informe sobre artículos con peso capturado desde la interfaz de ejecución de la planta de producción*
 
-### <a name="enable-the-my-day-dialog"></a>Habilitar el cuadro de diálogo "Mi día"
+### <a name="the-my-day-dialog"></a>El cuadro de diálogo "Mi día"
 
 El cuadro de diálogo **Mi día** proporciona a los trabajadores una descripción general de sus registros diarios y saldos actuales de tiempo pagado, horas extra pagadas, ausencias y ausencias pagadas.
 
-Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Vista "Mi día" para la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Vista "Mi día" de la interfaz de ejecución de la planta de producción*
-
-### <a name="enable-teams"></a>Habilitar equipos
+### <a name="teams"></a>Teams
 
 Cuando se asigna a varios trabajadores al mismo trabajo de producción, pueden formar un equipo. El equipo puede designar a un trabajador como piloto. Los trabajadores restantes se convierten automáticamente en asistentes de ese piloto. Para el equipo resultante, solo el piloto debe registrar el estado del trabajo. Los registros de tiempo se aplican a todos los miembros del equipo.
 
@@ -121,7 +122,7 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 - *Equipos de producción en la interfaz de ejecución de la planta de producción*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Habilitar configuración adicional en la interfaz de ejecución de la planta de producción
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Configuración adicional en la interfaz de ejecución de la planta de producción
 
 Esta característica agrega configuraciones para la siguiente funcionalidad a la página **Configurar ejecución de planta de producción**:
 
@@ -136,7 +137,6 @@ Más adelante en este artículo se ofrece información sobre cómo utilizar los 
 Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Configuración adicional de la interfaz de ejecución de la planta de producción*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 

@@ -2,7 +2,7 @@
 title: Vencimiento de picking de inventario de directiva de ubicación
 description: Este artículo explica cómo usar las estrategias de directivas de ubicación de primero en entrar, primero en salir (FIFO) y último en entrar, primero en salir (LIFO) durante la selección.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219484"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335627"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vencimiento de picking de inventario de directiva de ubicación
 
@@ -34,7 +34,7 @@ Cuando el inventario se recibe o crea por primera vez en el almacén, el sistema
 
 Para que esta característica esté disponible, active las siguientes características en [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), en este orden:
 
-1. *Estado de la ubicación del almacén* (A partir de la versión 10.0.29, esta función está activada de forma predeterminada. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
+1. *Estado de la ubicación del almacén* (A partir de la versión 10.0.29, esta función es obligatoria y no se puede desactivar. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
 1. *Vencimiento de picking de inventario de directiva de ubicación*
 
 ## <a name="feature-requirements"></a>Requisitos de características

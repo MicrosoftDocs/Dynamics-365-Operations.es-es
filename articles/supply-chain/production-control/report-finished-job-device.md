@@ -2,7 +2,7 @@
 title: Notificar como terminado desde el dispositivo de tarjetas de trabajo
 description: Este artículo describe cómo configurar el sistema para que los usuarios de un dispositivo de tarjeta de trabajo puedan informar productos terminados de una orden de producción al inventario.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070481"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334637"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Notificar como terminado desde el dispositivo de tarjetas de trabajo
 
@@ -56,13 +56,12 @@ El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre 
 - **Números de lote predefinidos**: los trabajadores seleccionan un número de lote en una lista de números de lote que el sistema genera automáticamente antes de que la orden de producción se envíe al dispositivo de la tarjeta de trabajo.
 - **Números de lote fijos**: los trabajadores no introducen ni seleccionan un número de lote. En cambio, el sistema asigna automáticamente un número de lote a la orden de producción antes de su lanzamiento.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Habilitar la característica en el sistema
 
-Para permitir que sus dispositivos de tarjeta de trabajo acepten un número de lote durante el informe como terminado, debe usar [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar las siguientes características (en este orden):
+Para permitir que sus dispositivos de tarjeta de trabajo acepten un número de lote durante el informe como terminado, debe usar [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar las siguientes características:
 
-1. Mejora de la experiencia del usuario para el cuadro de diálogo de progreso del informe en el dispositivo de tarjeta de trabajo.
-1. Habilite esta opción para especificar números de lote y serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo
+- *Mejora de la experiencia del usuario para el cuadro de diálogo de progreso del informe en el dispositivo de tarjeta de trabajo.*
+- *Habilite esta opción para especificar números de lote y serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Configurar productos que requieren informes de número de lote
 
@@ -137,10 +136,10 @@ El dispositivo de tarjeta de trabajo admite tres escenarios para informar sobre 
 
 ### <a name="enable-the-feature-on-your-system"></a>Habilitar la característica en el sistema
 
-Para permitir que sus dispositivos de tarjeta de trabajo acepten un número de serie durante el informe como terminado, debe usar [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar las siguientes características (en este orden):
+Para permitir que sus dispositivos de tarjeta de trabajo acepten un número de serie durante el informe como terminado, debe usar [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar las siguientes características:
 
-1. Mejora de la experiencia del usuario para el cuadro de diálogo de progreso del informe en el dispositivo de tarjeta de trabajo.
-1. Habilite esta opción para especificar números de lote y serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo
+- *Mejora de la experiencia del usuario para el cuadro de diálogo de progreso del informe en el dispositivo de tarjeta de trabajo.*
+- *Habilite esta opción para especificar números de lote y serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Configurar productos que requieren informes de número de serie
 

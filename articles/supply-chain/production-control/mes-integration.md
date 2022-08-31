@@ -2,7 +2,7 @@
 title: Integración con sistemas de ejecución de fabricación de terceros
 description: Este artículo explica cómo puede integrar Microsoft Dynamics 365 Supply Chain Management con un sistema de ejecución de fabricación de terceros (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068043"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336227"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integración con sistemas de ejecución de fabricación de terceros
 
@@ -45,9 +45,7 @@ Antes de poder usar esta característica, un administrador debe activarla en su 
     1. En la página **Configuración de licencia**, seleccione la casilla de verificación **Tiempo y asistencia**.
     1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-1. Active la característica que aparece en la siguiente forma (ver también [Resumen general de gestión de característica](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Módulo:** *control de producción*
-    - **Nombre de característica:** *Integración del sistema de ejecución de fabricación*
+1. Utilice el espacio de trabajo [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Integración del sistema de ejecución de fabricación*. (A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ## <a name="processes-available-for-mes-integration"></a>Procesos disponibles para la integración de MES
 

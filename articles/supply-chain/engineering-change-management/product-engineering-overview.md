@@ -2,7 +2,7 @@
 title: Resumen de gestión de cambios de ingeniería (contiene vídeo)
 description: Este artículo proporciona una descripción general de la gestión de cambios de ingeniería, que le ayuda a planificar y gestionar el control de versiones del producto y gestionar los ciclos de vida del producto y los cambios de ingeniería.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067404"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334877"
 ---
 # <a name="engineering-change-management-overview"></a>Información general de la gestión de cambios de ingeniería
 
@@ -76,16 +76,16 @@ Luego, active las claves de configuración siguiendo estos pasos. No están acti
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Active las funciones de gestión de cambios de ingeniería adicionales
 
-Después de activar las funciones básicas de gestión de cambios de ingeniería y habilitar sus claves de configuración, se agregan varias funciones de gestión de cambios de ingeniería adicionales y opcionales a la gestión de funciones. Cada una de esas funciones se enumera en el módulo **Gestión de cambios de ingeniería**. La siguiente tabla describe cada función opcional y proporciona enlaces para obtener más información. A partir de la versión 10.0.25 de Supply Chain Management, todas estas características están activadas de forma predeterminada, pero aún puede optar por desactivarlas.
+Después de activar las funciones básicas de gestión de cambios de ingeniería y habilitar sus claves de configuración, se agregan varias funciones de gestión de cambios de ingeniería adicionales y opcionales a la gestión de funciones. Cada una de esas funciones se enumera en el módulo **Gestión de cambios de ingeniería**. La siguiente tabla describe cada función opcional y proporciona enlaces para obtener más información.
 
 | Nombre de la característica en la administración de características | Description | Estado de la característica |
 |---|---|---|
-| Habilitar la administración de cambios en productos existentes | <p>Esta función le permite convertir productos existentes en productos de ingeniería para que pueda comenzar a administrarlos mediante la administración de cambios de ingeniería.</p><p>Para más información, vea [Habilitar la gestión de cambios en productos existentes](change-management-existing-products.md).</p> |
-| Notificaciones de ingeniería para producción | <p>Cuando se cambia un producto en ingeniería, puede ser importante notificar a la producción sobre esos cambios. De esa manera, los trabajadores de producción pueden tomar las medidas adecuadas, como la sustitución de componentes, el reemplazo de la lista de materiales (BOM) o el reemplazo de la ruta. Esta función le permite notificar a la producción sobre cambios en los productos que se están produciendo.</p><p>Para más información, ver [Gestionar cambios en productos de ingeniería](engineering-change-management.md).</p> |
-| Herencia de atributos mejorada para la administración de cambios de ingeniería | <p>Esta característica simplifica la gestión de atributos para productos terminados o artículos intermedios. Cuando esta función está activada, es más fácil identificar todos los atributos que pertenecen a un elemento y puede seleccionar los atributos que deben propagarse desde ese elemento a su elemento principal. Esta característica es útil cuando, por ejemplo, un componente de un producto terminado es frágil, tóxico o inflamable, porque puede identificar fácilmente el atributo frágil, tóxico o inflamable y propagarlo al producto terminado.</p><p>Para más información, vea [Atributos de ingeniería y búsqueda de atributos de ingeniería](engineering-attributes-and-search.md).</p> |
-| Comprobaciones de preparación de producto | <p>Esta función le permite configurar comprobaciones de preparación para productos estándar (que no sean de ingeniería). Utilice verificaciones de preparación del producto para asegurarse de que cada producto esté completamente definido y que todas las políticas requeridas estén configuradas antes de que el producto esté disponible y se utilice en las transacciones. Si desactiva esta función después de haberla utilizado durante un tiempo, se eliminarán todas las comprobaciones de preparación existentes para los productos estándar.</p><p>Para obtener más información, consulte [Preparación del producto](product-readiness.md).</p> |
-| Administrar cambios en fórmulas y sus componentes | <p>Esta función le permite realizar un seguimiento de los cambios en los ingredientes, coproductos y subproductos de la fórmula.</p><p>Para más información, vea [Gestionar cambios en fórmulas y sus ingredientes](manage-formula-changes.md).</p> |
-| Generación de variantes de productos de ingeniería | <p>Esta función le permite generar variantes para productos de ingeniería, según los valores de dimensión disponibles.</p><p>Para más información, vea [Genere variantes para productos de ingeniería](engineering-variants.md).</p> |
+| Habilitar la administración de cambios en productos existentes | <p>Esta función le permite convertir productos existentes en productos de ingeniería para que pueda comenzar a administrarlos mediante la administración de cambios de ingeniería.</p><p>Para más información, vea [Habilitar la gestión de cambios en productos existentes](change-management-existing-products.md).</p> | Activado por defecto a partir de la versión 10.0.25. |
+| Notificaciones de ingeniería para producción | <p>Cuando se cambia un producto en ingeniería, puede ser importante notificar a la producción sobre esos cambios. De esa manera, los trabajadores de producción pueden tomar las medidas adecuadas, como la sustitución de componentes, el reemplazo de la lista de materiales (BOM) o el reemplazo de la ruta. Esta función le permite notificar a la producción sobre cambios en los productos que se están produciendo.</p><p>Para más información, ver [Gestionar cambios en productos de ingeniería](engineering-change-management.md).</p> |  Activado por defecto a partir de la versión 10.0.25. |
+| Herencia de atributos mejorada para la administración de cambios de ingeniería | <p>Esta característica simplifica la gestión de atributos para productos terminados o artículos intermedios. Cuando esta función está activada, es más fácil identificar todos los atributos que pertenecen a un elemento y puede seleccionar los atributos que deben propagarse desde ese elemento a su elemento principal. Esta característica es útil cuando, por ejemplo, un componente de un producto terminado es frágil, tóxico o inflamable, porque puede identificar fácilmente el atributo frágil, tóxico o inflamable y propagarlo al producto terminado.</p><p>Para más información, vea [Atributos de ingeniería y búsqueda de atributos de ingeniería](engineering-attributes-and-search.md).</p> |  Activado por defecto a partir de la versión 10.0.25. |
+| Comprobaciones de preparación de producto | <p>Esta función le permite configurar comprobaciones de preparación para productos estándar (que no sean de ingeniería). Utilice verificaciones de preparación del producto para asegurarse de que cada producto esté completamente definido y que todas las políticas requeridas estén configuradas antes de que el producto esté disponible y se utilice en las transacciones. Si desactiva esta función después de haberla utilizado durante un tiempo, se eliminarán todas las comprobaciones de preparación existentes para los productos estándar.</p><p>Para obtener más información, consulte [Preparación del producto](product-readiness.md).</p> |  Activado por defecto a partir de la versión 10.0.25. |
+| Administrar cambios en fórmulas y sus componentes | <p>Esta función le permite realizar un seguimiento de los cambios en los ingredientes, coproductos y subproductos de la fórmula.</p><p>Para más información, vea [Gestionar cambios en fórmulas y sus ingredientes](manage-formula-changes.md).</p> |  Activado por defecto a partir de la versión 10.0.25. |
+| Generación de variantes de productos de ingeniería | <p>Esta función le permite generar variantes para productos de ingeniería, según los valores de dimensión disponibles.</p><p>Para más información, vea [Genere variantes para productos de ingeniería](engineering-variants.md).</p> |  Activado por defecto a partir de la versión 10.0.25. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

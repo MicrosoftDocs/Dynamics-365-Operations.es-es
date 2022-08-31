@@ -2,7 +2,7 @@
 title: Características quitadas o en desuso en Dynamics 365 Commerce
 description: En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287633"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337606"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Características quitadas o en desuso en Dynamics 365 Commerce
 
@@ -25,13 +25,45 @@ ms.locfileid: "9287633"
 
 En este artículo se describen las características que se han quitado (o cuya eliminación está prevista) de Dynamics 365 Commerce.
 
-- Una función *quitada* dejará de estar disponible en el producto.
-- Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
+- Una característica *quitada* dejará de estar disponible en el producto.
+- Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones de finanzas y operaciones se puede encontrar en los [Informes de referencia técnica](/dynamics/s-e/). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones de finanzas y operaciones.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.29
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Configuración de parámetros de Commerce: permitir que los ajustes de precios incrementen el precio del producto
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Teníamos esta configuración para controlar si la función de ajuste de precios permite aumentar el precio del producto. Cuando este parámetro está desactivado, al usar la función de ajuste de precios, las organizaciones solo pueden establecer el precio unitario de un producto por debajo del precio base y el precio de venta del acuerdo comercial. Rechazamos esta configuración porque la función de ajuste de precios se actualizó para admitir ajustes bidireccionales (aumento o disminución) listos para usar. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Precios y descuentos |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: esta configuración está activada de forma predeterminada desde la versión 10.0.29 de Commerce y se eliminará en octubre de 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Configuración de parámetros de comercio: habilite el informe de precios para la tienda minorista
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Teníamos esta configuración para controlar si la función de informe de precios está disponible para su uso en el formulario de configuración de la tienda. Rechazamos esta configuración porque el formulario de configuración de la tienda se ha actualizado para proporcionar siempre la función de informe de precios como función estándar. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Precios y descuentos |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: esta configuración se eliminará en octubre de 2023. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Configuración de parámetros comerciales: use la fecha de hoy para calcular los precios
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | El motor de precios de Supply Chain Management (SCM) admite el cálculo de precios basado en la fecha de envío solicitada y la fecha de recepción solicitada, junto con la fecha actual. El motor de precios de TheCommerce solo admite el cálculo de precios en función de la fecha de hoy. Para los clientes que usan las capacidades de SCM y Commerce, proporcionamos esta configuración y recomendamos que los clientes siempre la establezcan en **Sí** para que los dos motores de precios puedan trabajar juntos. Rechazamos esta configuración porque no cambia el comportamiento del cálculo y es redundante. |
+| **¿Reemplazado por otra característica?**   | N.º |
+| **Áreas de producto afectadas**         | Precios y descuentos |
+| **Opción de implementación**              | Todo |
+| **Status**                         | En desuso: esta configuración está activada de forma predeterminada desde la versión 10.0.29 de Commerce y se eliminará en octubre de 2023. |
 
 ## <a name="feature-deprecation-effective-july-2022"></a>Aviso de desactivación de características a partir de julio de 2022
 
@@ -39,26 +71,11 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El equipo de Dynamics 365 Commerce ha analizado el uso y la adopción de la característica de análisis de Commernce (versión preliminar), y ha tomado la decisión de no seguir adelante con la disponibilidad general de la característica.   |
+| **Motivo de la depreciación/eliminación** | El equipo de Dynamics 365 Commerce ha analizado el uso y la adopción de la característica de análisis de Commerce (versión preliminar), y ha tomado la decisión de no seguir adelante con la disponibilidad general de la característica.   |
 | **¿Reemplazado por otra característica?**   | En este momento, el análisis de comercio (versión preliminar) no será reemplazado por otra función o solución. La exportación de transacciones sin procesar y datos maestros de aplicaciones de finanzas y operaciones a Azure Data Lake sigue estando disponible, como se explica en [Exportar a Data Lake en aplicaciones de finanzas y operaciones](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Los socios y clientes pueden aprovechar esa secuencia de datos para crear cualquier informe de análisis previsto para sus necesidades comerciales.
 | **Áreas de producto afectadas**         | Commerce analytics (versión preliminar) |
 | **Opción de implementación**              | Todo |
 | **Status**                         | Tenemos previsto deshabilitar esta función antes del 30 de agosto de 2022.  A partir de esta fecha, no se producirá ninguna actualización en los actuales informes de Power BI proporcionados por análisis de Commerce (versión preliminar).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.25
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
-
-La aplicación Modern Point of Sale (MPOS) quedará obsoleta en la versión 10.0.25 de Commerce y se reemplazará con la aplicación Store Commerce.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Las aplicaciones en tienda son la piedra angular de la oferta omnicanal de Dynamics 365 Commerce. Innovamos continuamente para brindar experiencias de tienda modernas e inteligentes, y para modernizar aún más nuestra solución, estamos implementando nuevos conjuntos de cambios que mejorarán significativamente las operaciones de TI y las experiencias de los usuarios con nuestras aplicaciones en tienda existentes en Windows. La nueva aplicación Store Commerce es una actualización tecnológica de la MPOS existente. Proporciona rendimiento mejorado, fiabilidad y compatibilidad a largo plazo en la plataforma Windows y elimina la necesidad de volver a empaquetar la aplicación con cada actualización. |
-| **¿Reemplazado por otra característica?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Áreas de producto afectadas**         | Modern Point of Sale |
-| **Opción de implementación**              | Todo |
-| **Status**                         | En desuso: a partir del lanzamiento de la versión 10.0.25 de Commerce, el instalador de MPOS enviado a través de las máquinas virtuales (VM) LCS se eliminará en octubre de 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.21
 
@@ -130,8 +147,8 @@ El desarrollo de extensiones de PDV mediante ModernPos.sln, CloudPos.sln, POS.Ex
 | **Motivo de la depreciación/eliminación** | A partir de esta versión, en el formulario **Parámetros del programador de comercio** de la sede central de Dynamics 365, el campo **Intervalo completo de generación de conjunto de datos en días** quedará en desuso. Además, el campo se eliminará visualmente para que su valor no se pueda editar. Su valor será **0**. |
 | **¿Reemplazado por otra característica?**   | No |
 | **Áreas de producto afectadas**         | Dynamics 365 Commerce |
-| **Opción de implementación**              | Todos|
-| **Estado**                         | En desuso. No utilice este campo ni cambie su valor.|
+| **Opción de implementación**              | Todo|
+| **Status**                         | En desuso. No utilice este campo ni cambie su valor.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.15
 
@@ -194,7 +211,7 @@ El desarrollo de extensiones de PDV mediante ModernPos.sln, CloudPos.sln, POS.Ex
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Funciones quitadas o en desuso en la versión Commerce 10.0.7
-### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API de GetProductAvailabilities y GetAvailableInventoryNearby
+### <a name="commerce-getproductavailabilities-and-getavailableinventorynearby-apis"></a>API GetProductAvailabilities y GetAvailableInventoryNearby de Commerce
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se han creado API nuevas y optimizadas para reemplazar las API de GetProductAvailabilities y GetAvailableInventoryNearby. |

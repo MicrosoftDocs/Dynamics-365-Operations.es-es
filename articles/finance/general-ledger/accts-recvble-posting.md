@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874585"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324341"
 ---
 # <a name="accounts-receivable-posting"></a>Contabilización de clientes
 
 [!include [banner](../includes/banner.md)]
 
 El perfil de registro principal para el módulo **Clientes** es el perfil de registro del cliente. Este perfil de registro determina la cuenta de resumen que se utiliza cuando los saldos de clientes se registran en la contabilidad general. Un extracto de cuenta es una cuenta principal. También se conoce como la cuenta de resumen de clientes.
+
+El informe **Conciliación de cliente a libro mayor** se puede utilizar después de la contabilización para ayudar a conciliar los saldos de las cuentas del cliente y del libro mayor. El informe utiliza la información que se encuentra en la cuenta de resumen para el perfil de contabilización del cliente. No utiliza la cuenta resumen de la contabilidad que se crea para el documento. Si realiza cambios en el perfil de contabilización del cliente o en el grupo de clientes asignado al cliente después de haber contabilizado las transacciones, el informe puede mostrar diferencias entre el cliente y el saldo de la cuenta contable. Para ver solo las líneas que tienen diferencias y las líneas para las que las cuentas de clientes y la cuenta contable son cero, seleccione el parámetro **Solo diferencias** al imprimir el informe.
 
 Para obtener más información, consulte [Perfiles de contabilización del cliente (formulario)](../accounts-receivable/customer-posting-profiles.md).
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219076"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334727"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.26 (mayo de 2022)
 
@@ -51,7 +51,6 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 | Gestión de información de productos | Limpiar valores de atributo del producto | Esta característica agrega una tarea periódica denominada **Limpiar valores de atributo del producto**, que limpia los registros de valores de atributos de productos que ya no están asociados a ningún producto a través de una categoría de producto. |
 | Gestión de inventario y almacenes | (Rusia) Evitar discrepancias al emitir GTD para pedidos de compra que incluyan artículos habilitados para WMS | Esta función solo está disponible la localización en ruso. Evita las discrepancias que se producen al emitir números de declaración de aduanas (GTD) rusos para pedidos de compra de importación que incluyen artículos habilitados para procesos de gestión de almacenes (WMS). El proceso de emisión de GTD cambia algunos valores de dimensión de inventario en las transacciones de inventario relacionadas para las facturas incluidas en el diario personalizado, lo que genera discrepancias entre los registros de trabajo del pedido de compra y las transacciones de inventario de la compra. Cuando esta función está habilitada, el proceso de emisión de GTD genera un trabajo de ajuste que elimina dichas discrepancias. |
 | Gestión de almacenes | Analizador mejorado para códigos de barras GS1 | Esta característica agrega un analizador mejorado para datos de símbolos GS1. El nuevo analizador implementa el algoritmo de especificación general GS1 para analizar los símbolos GS1 y proporciona una validación de datos más sólida. Para obtener más información consulte [Escanear códigos de barras GS1](../warehousing/gs1-barcodes.md). |
-| Gestión de almacenes | Nuevas páginas de área de trabajo de planificación de la carga | Agrega dos nuevas páginas de área de trabajo de planificación de la carga: **Área de trabajo de planificación de la carga entrante** y **Área de trabajo de planificación de la carga saliente**. |
 | Gestión de almacenes | Aplicación Warehouse Management: GTD en blanco | Esta función solo está disponible la localización en ruso. Permite a los trabajadores que utilizan la Warehouse Management mobile app dejar en blanco los números de declaración de aduanas (GTD) rusos cuando sea necesario. Si la dimensión de seguimiento de GTD está configurada para permitir valores en blanco, el sistema aceptará valores en blanco para GTD para operaciones de inventario siempre que haya inventario disponible. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados

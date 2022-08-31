@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271595"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337203"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de la configuración de los informes electrónicos (ER)
 
@@ -84,7 +84,7 @@ Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden 
 
 ## <a name="data-persistence-consideration"></a>Consideración de la persistencia de datos
 
-Puede individualmente [importar](tasks/er-import-configuration-lifecycle-services.md) diferentes [versiones](general-electronic-reporting.md#component-versioning) de una [configuración](general-electronic-reporting.md#Configuration) de ER a su instancia de Finance. Cuando se importa una nueva versión de una configuración de ER, el sistema controla el contenido de la versión preliminar de esta configuración:
+Puede individualmente [importar](tasks/er-import-configuration-lifecycle-services.md) diferentes versiones de una [configuración](general-electronic-reporting.md#Configuration) de ER a su instancia de Finance. Cuando se importa una nueva versión de una configuración de ER, el sistema controla el contenido de la versión preliminar de esta configuración:
 
 - Cuando la versión importada es inferior a la versión más alta de esta configuración en la instancia de Finance actual, el contenido de la versión preliminar de esta configuración permanece sin cambios.
 - Cuando la versión importada es superior a cualquier otra versión de esta configuración en la instancia de Finance actual, el contenido de la versión importada se copia en la versión preliminar de esta configuración para permitirle continuar editando la última versión completa.
@@ -112,7 +112,7 @@ Las configuraciones de ER se pueden configurar como [dependientes](er-download-c
 
 ![Configuración de formato ER derivada en la página Configuraciones.](./media/ger-configuration-lifecycle-img1.png)
 
-Cuando haya terminado de diseñar el formato, puede cambiar el estado de su [versión](general-electronic-reporting.md#component-versioning) inicial de la configuración del formato ER de **Borrador** a **Terminado**. A continuación, puede compartir la versión completa de la configuración del formato ER [publicándola](../../../finance/localizations/rcs-global-repo-upload.md) en el repositorio global. A continuación, puede acceder al repositorio global desde cualquier instancia en la nube de RCS o Finance. Luego puede importar cualquier versión de configuración de ER que sea aplicable a la aplicación desde el repositorio global a esa aplicación.
+Cuando haya terminado de diseñar el formato, puede cambiar el estado de su versión inicial de la configuración del formato ER de **Borrador** a **Terminado**. A continuación, puede compartir la versión completa de la configuración del formato ER [publicándola](../../../finance/localizations/rcs-global-repo-upload.md) en el repositorio global. A continuación, puede acceder al repositorio global desde cualquier instancia en la nube de RCS o Finance. Luego puede importar cualquier versión de configuración de ER que sea aplicable a la aplicación desde el repositorio global a esa aplicación.
 
 ![Configuración de formato ER publicada en la página Repositorio de configuración.](./media/ger-configuration-lifecycle-img2.png)
 

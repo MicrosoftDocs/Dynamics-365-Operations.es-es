@@ -2,7 +2,7 @@
 title: Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management
 description: Este artículo describe cómo crear y mostrar instrucciones personalizadas para cada paso de cada flujo de tareas que configure para la aplicación móvil Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220161"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334488"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management
 
@@ -28,9 +28,9 @@ Este artículo describe cómo crear y mostrar instrucciones personalizadas para 
 - **Aumente la velocidad de los trabajadores permitiéndoles seguir instrucciones sencillas para cada paso de la tarea.** Cada paso de un flujo proporciona instrucciones que permiten a los trabajadores de primera línea comprender la tarea.
 - **Proporcione instrucciones que coincidan con sus propios procesos.** Escriba sus propias instrucciones para que coincidan con sus procesos comerciales y de almacén. Por ejemplo, puede hacer que la terminología se ajuste a su espacio físico y abreviaturas locales.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Activar la función Instrucciones de los pasos de la aplicación de almacén
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Activar o desactivar la función Instrucciones de los pasos de la aplicación de almacén
 
-Para poder usar esta característica, debe estar activada en su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Instrucciones de paso de aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para poder usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión que es anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Instrucciones detalladas de la aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Títulos e instrucciones de pasos en la aplicación
 

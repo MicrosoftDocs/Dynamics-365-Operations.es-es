@@ -2,7 +2,7 @@
 title: Programar la limpieza de datos del historial de ventas
 description: Este artículo describe cómo puede ayudar a mejorar el rendimiento del sistema programando la tarea periódica de limpieza del historial de actualizaciones de ventas para que se ejecute a intervalos regulares.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900836"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335515"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Programar la limpieza de datos del historial de ventas
 
@@ -42,7 +42,7 @@ La característica mejora el trabajo de limpieza existente de las siguientes for
 
 Después de habilitar la característica, el trabajo por lotes **Limpieza del historial de actualizaciones de ventas** (**Ventas y marketing \> Tareas periódicas \> Limpiar \> Limpieza del historial de actualizaciones de ventas**) funcionará como antes, pero con un mejor rendimiento y durante un máximo de 2 horas. Esto significa que es posible que deba ejecutarse varias veces para limpiar todos los datos durante un periodo de tiempo de retención específico.
 
-Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
+Para poder usar esta característica, debe estar activada para su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Ventas y marketing*
 - **Nombre de la característica:** *Mejoras en el rendimiento de la limpieza del historial de ventas*
@@ -51,10 +51,7 @@ Para poder usar esta característica, debe estar activada en su sistema. Los adm
 
 La característica *Limpiar el historial de actualizaciones de ventas según la edad* le permite especificar la antigüedad máxima de los registros que se deben mantener al ejecutar la tarea periódica *Limpieza del historial de actualización de ventas*. Se eliminarán los registros más antiguos. Esta característica es útil al configurar la tarea para que se ejecute periódicamente porque la edad siempre se calcula en relación con la fecha en que se ejecuta la tarea. Si no usa esta característica, solo puede establecer una fecha específica para conservar los registros más antiguos.
 
-Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Ventas y marketing*
-- **Nombre de característica:** *Eliminar historial de actualización de ventas según la edad*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Eliminar historial de actualización de ventas según la antigüedad* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Configurar y programar la tarea periódica de limpieza del historial de ventas
 

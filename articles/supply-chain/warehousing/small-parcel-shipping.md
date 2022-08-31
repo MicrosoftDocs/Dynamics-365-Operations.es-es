@@ -2,7 +2,7 @@
 title: Envío de paquetes pequeños
 description: Este artículo proporciona información acerca de la función de envío de paquetes pequeños (SPS). Esta característica permite a Microsoft Dynamics 365 Supply Chain Management enviar detalles sobre un contenedor empaquetado al transportista y luego recibir una etiqueta de envío, tarifa de envío y número de seguimiento de ese transportista.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219730"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336167"
 ---
 # <a name="small-parcel-shipping"></a>Envío de paquetes pequeños
 
@@ -34,12 +34,9 @@ La tarifa de envío que se devuelve se agrega al pedido de venta asociado como c
 
 Para poder empezar a usar la funcionalidad SPS, debe activar la característica SPS en la administración de funciones, agregar su motor de tarifas y configurar los módulos **Administración de transporte** y **Administración de características** para admitirla.
 
-### <a name="turn-on-the-sps-feature"></a>Activar la característica SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>Activar o desactivar la característica SPS
 
-Antes de poder usar la característica SPS, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo**: *Administración de transporte*
-- **Nombre de característica**: *Envío de paquetes pequeños*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Envío de paquetes pequeños* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Implementar y configurar motores de tarifas
 

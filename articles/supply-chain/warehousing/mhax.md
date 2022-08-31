@@ -2,7 +2,7 @@
 title: Interfaz de equipo de gestión de material (MHAX)
 description: Este artículo describe cómo configurar la interfaz del equipo de manipulación de materiales (MHAX) para que pueda conectarse a sistemas externos de manipulación de materiales físicos (MH).
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068371"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334367"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaz de equipo de gestión de material (MHAX)
 
@@ -41,12 +41,13 @@ A continuación, se ofrece una explicación de las interacciones que se muestran
 
 Antes de poder utilizar la función MHAX, debe activar tanto su función como su clave de configuración.
 
-1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-2. En el espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, active la función que se denomina *Interfaz del equipo de manipulación de materiales*.
-3. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
-5. Expanda **Comercio \> Gestión de almacén y transporte** y luego seleccione la casilla de verificación **Interfaz del equipo de manipulación de materiales**.
-6. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Si ejecuta Supply Chain Management versión 10.0.28 o anterior, realice uno de los siguientes pasos:
+    1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
+    1. En el espacio de trabajo **[Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, active la función que se denomina *Interfaz del equipo de manipulación de materiales*. (A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar).
+1. Coloque su sistema en modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**.
+1. Expanda **Comercio \> Gestión de almacén y transporte** y luego seleccione la casilla de verificación **Interfaz del equipo de manipulación de materiales**.
+1. Desactive el modo de mantenimiento como se describe en [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>Establecer parámetros MHAX
 

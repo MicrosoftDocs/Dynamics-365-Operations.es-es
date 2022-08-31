@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e3d709a185796152b03f8ed83088cb5c3d137bae
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d39ce6e07a789ff4d605a01b1d5053be150d2727
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219760"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336257"
 ---
 # <a name="release-to-warehouse-rule"></a>Regla de liberación al almacén
 
@@ -30,14 +30,14 @@ La característica *Regla de liberación al almacén* proporciona flexibilidad d
 
 ### <a name="turn-on-the-feature"></a>Activar la característica
 
-Antes de poder usar la característica *Regla de liberación al almacén*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar la característica *Regla de liberación al almacén*, esta debe estar activada para su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Regla de liberación al almacén*
 
 ### <a name="initialize-the-feature"></a>Inicializar la característica
 
-Después de activar la característica en su sistema, debe inicializarla para establecer la regla en el estado inicial correcto para todos los almacenes.
+Después de activar la característica para su sistema, debe inicializarla para establecer la regla en el estado inicial correcto para todos los almacenes.
 
 - Para los almacenes que no están habilitados para la gestión de almacenes, la regla se establece inicialmente en **No aplicable**.
 - Para los almacenes que están habilitados para la gestión de almacenes, la regla se establece inicialmente en **Permitir reserva parcial**.

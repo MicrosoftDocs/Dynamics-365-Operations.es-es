@@ -2,7 +2,7 @@
 title: Invalidar el principio de reserva predeterminado para materiales en producción
 description: Este artículo describe cómo establecer un principio de reserva predeterminado para cada grupo de modelos de artículos, de modo que se puedan aplicar automáticamente diferentes principios de reserva para cada artículo que forma parte de una lista de materiales de producción (L.MAT) o una fórmula de orden de lote.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907243"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334607"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Invalidar el principio de reserva predeterminado para materiales en producción
 
@@ -32,7 +32,7 @@ Por ejemplo, si tiene materias primas o ingredientes que requieren trabajo de se
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Activar o desactivar la característica Anular la reserva de producción predeterminada
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Anular la reserva de producción predeterminada* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Pasar por alto la reserva de producción predeterminada* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Asignar una política de reserva de producción a un grupo de modelos de artículos
 

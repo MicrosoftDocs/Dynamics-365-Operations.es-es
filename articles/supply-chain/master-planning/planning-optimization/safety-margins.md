@@ -2,7 +2,7 @@
 title: Márgenes de seguridad
 description: Este artículo describe cómo se pueden usar los márgenes de seguridad con el complemento de optimización de la planificación para Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854250"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335207"
 ---
 # <a name="safety-margins"></a>Márgenes de seguridad
 
@@ -79,12 +79,9 @@ Tenga en cuenta que cuando se aplican días de emisión, las fechas de los requi
 
 ## <a name="set-up-safety-margins"></a>Configurar márgenes de seguridad
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Activar los márgenes de seguridad en la administración de características
+### <a name="turn-safety-margins-on-or-off"></a>Activar o desactivar los márgenes de seguridad
 
-Antes de poder usar esta característica con Planning Optimization, debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo:** _Planificación maestra_
-- **Nombre de la característica** _Márgenes para Planning Optimization_
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Márgenes de Optimización de planificación* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Definir márgenes de seguridad
 

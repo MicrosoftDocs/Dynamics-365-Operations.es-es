@@ -2,7 +2,7 @@
 title: Tránsito directo planificado
 description: Este artículo describe la planificación avanzada del tránsito directo, donde la cantidad de inventario que se requiere para un pedido se dirige directamente desde la recepción o la creación hasta el muelle de salida o el área de preparación correcta. Todo el inventario restante de la fuente entrante se dirige a la ubicación de almacenamiento correcta a través del proceso regular de almacenamiento.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070301"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334577"
 ---
 # <a name="planned-cross-docking"></a>Tránsito directo planificado
 
@@ -37,10 +37,10 @@ En el momento de la recepción de la orden entrante, la configuración de tráns
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Active las funciones de tránsito directo planificado
 
-Si su sistema aún no incluye las funciones descritas en este artículo, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las características siguientes por este orden:
+Si está ejecutando Supply Chain Management versión 10.0.28 o anterior, es posible que deba habilitar el cross-docking planificado antes de poder usarlo. Vaya a [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active las siguientes funciones en este orden:
 
-1. *Tránsito directo planificado*
-1. *Plantillas de tránsito directo con directivas de ubicación*
+1. *Tránsito directo planificado*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar).
+1. *Plantillas de tránsito directo con directivas de ubicación*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
     > [!NOTE]
     > Esta característica habilita el cmpo **Código de directiva** que se especificará en la plantilla de cross-docking, similar a la forma en que configura las plantillas de reabastecimiento. Habilitar esta función le impide agregar un código de directiva en las líneas de la plantilla de trabajo de cross-docking para la línea *Put*. Esto asegura que la ubicación de colocación final se pueda determinar durante la creación del trabajo antes de considerar las plantillas de trabajo.
 
@@ -92,7 +92,7 @@ El tránsito directo planificado se implementa como un método de registro de ca
 
     - **Código de directiva:** deje en blanco este campo
 
-        Esta opción está habilitada por la característica *Plantillas de cross docking con directivas de ubicación*. El sistema utiliza directivas de ubicación para ayudar a determinar la mejor ubicación para mover el inventario de cross-docking. Puede configurarlo asignando un código de directiva a cada plantilla de cross-docking relevante. Si se establece un código de directiva, cuando haya que generar trabajo el sistema buscará las directivas de ubicación por código de directiva cuando se genera trabajo. De esta forma, puede limitar las directivas de ubicación que se utilizan para una plantilla de cross-docking en particular.
+        Esta opción está habilitada por la función *Plantillas de cross-docking con directivas de ubicación* (a partir de la versión 10.0.29 de Supply Chain Management, la función está activada de forma predeterminada). El sistema utiliza directivas de ubicación para ayudar a determinar la mejor ubicación para mover el inventario de cross-docking. Puede configurarlo asignando un código de directiva a cada plantilla de cross-docking relevante. Si se establece un código de directiva, cuando haya que generar trabajo el sistema buscará las directivas de ubicación por código de directiva cuando se genera trabajo. De esta forma, puede limitar las directivas de ubicación que se utilizan para una plantilla de cross-docking en particular.
 
     - **Validar ventana de tiempo:** *Sí*
 

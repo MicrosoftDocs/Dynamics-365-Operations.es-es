@@ -1,7 +1,7 @@
 ---
 title: Configure la importación avanzada de conciliaciones bancarias mediante el uso de informes electrónicos
 description: Este artículo explica cómo utilizar Informes electrónicos para configurar el proceso avanzado de importación de conciliaciones bancarias.
-author: panolte
+author: angelad116
 ms.date: 03/30/2022
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889131"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337579"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Configure la importación avanzada de conciliaciones bancarias mediante el uso de informes electrónicos
 

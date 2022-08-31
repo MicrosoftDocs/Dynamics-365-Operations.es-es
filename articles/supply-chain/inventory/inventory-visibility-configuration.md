@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066682"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306330"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
@@ -52,7 +52,7 @@ El complemento de visibilidad de inventario agrega varias funciones nuevas a su 
 | Nombre de Administración de características | Description |
 |---|---|
 | *OnHandReservation* | Esta característica le permite crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario. Para obtener más información, consulte [Reservas de Visibilidad de inventario](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | Esta característica proporciona un resumen de inventario de productos, junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | Esta característica proporciona un resumen de inventario de productos, junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. La frecuencia de sincronización predeterminada es una vez cada 15 minutos y se puede configurar hasta una vez cada 5 minutos. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Esta característica opcional habilita las características programa de cambio de inventario disponible y neto no comprometido (NNC). Para obtener más información, consulte [Programación de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md). |
 | *Asignación* | Esta característica opcional permite que Visibilidad de inventario tenga la capacidad de protección de inventario (ringfencing) y control de sobreventa. Para más información, vea [Asignación de inventario de Inventory Visibility](inventory-visibility-allocation.md). |
 | *Habilitar artículos de almacén en Visibilidad de inventario* | Esta característica opcional permite que la visibilidad del inventario admita artículos que están habilitados para procesos de gestión de almacenes (WMS). Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WMS](inventory-visibility-whs-support.md). |

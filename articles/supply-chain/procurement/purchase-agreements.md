@@ -2,7 +2,7 @@
 title: Acuerdos de compra
 description: Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669583"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335897"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
@@ -41,7 +41,7 @@ Para evitar que se utilice y confirme su acuerdo de compra, marque el estado del
 Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario.
 
 > [!IMPORTANT]
-> Para usar la característica de parte responsable debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Parte responsable del acuerdo de compra* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Para usar la característica de parte responsable debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Parte responsable del acuerdo de compra* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar líneas de varios pedidos de compra para satisfacer el compromiso. Hay cuatro tipos de compromisos:

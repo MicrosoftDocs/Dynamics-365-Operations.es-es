@@ -2,7 +2,7 @@
 title: Estrategias de embalaje de contenedores
 description: Este artículo describe las diferencias entre las estrategias de embalaje de contenedores y proporciona ejemplos.
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862377"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335777"
 ---
 # <a name="container-packing-strategies"></a>Estrategias de embalaje de contenedores
 
@@ -77,7 +77,7 @@ Este escenario muestra cómo puede disminuir el número de contenedores que se e
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>Active la función Consolidar envíos en su sistema
 
-Este escenario usa la característica *Consolidar envíos*. Si esa función aún no está disponible en su sistema, debe activarla usando [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Este escenario usa la característica *Consolidar envíos*. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Consolidar envíos* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 #### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 

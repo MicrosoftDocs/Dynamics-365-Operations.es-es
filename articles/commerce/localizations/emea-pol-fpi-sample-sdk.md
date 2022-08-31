@@ -2,25 +2,29 @@
 title: Directrices de implementación para la muestra de integración de la impresora fiscal para Polonia (heredada)
 description: Este artículo proporciona pautas para implementar la muestra de integración de impresora fiscal para Polonia desde el Kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 883f09f73e3b372d6896b6702e54e2e664cff4d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286536"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336724"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Directrices de implementación para la muestra de integración de la impresora fiscal para Polonia (heredada)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Este artículo proporciona pautas para implementar la muestra de integración de la impresora fiscal para Polonia desde el kit de desarrollo de software (SDK) para minoristas de Microsoft Dynamics 365 Commerce en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte el [ejemplo de integración de la impresora fiscal para Polonia](emea-pol-fpi-sample.md). 
+> [!IMPORTANT]
+> Debe seguir las pautas de este artículo solo si está utilizando Microsoft Dynamics 365 Commerce versión 10.0.28 o anterior. En Commerce versión 10.0.29, el ejemplo de integración de impresora fiscal para Polonia está disponible en el kit de desarrollo de software (SDK) de Commerce. Para obtener más información, consulte [Configurar componentes de canal](./emea-pol-fpi-sample.md#configure-channel-components).
+
+Este artículo proporciona pautas para implementar la muestra de integración de la impresora fiscal para Polonia desde el SDK de Retail de Dynamics 365 Commerce en una máquina virtual (VM) de desarrollador en Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información sobre este ejemplo de integración fiscal, consulte el [ejemplo de integración de la impresora fiscal para Polonia](emea-pol-fpi-sample.md). 
 
 La muestra de integración fiscal de Polonia forma parte del Retail SDK. Para obtener información sobre cómo instalar y usar el SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md). Esta muestra consta de extensiones para Commerce Runtime (CRT) y la estación de hardware. Para ejecutar este ejemplo, debe modificar y compilar los proyectos de CRT y la estación de hardware. Le recomendamos que utilice un SDK para minoristas sin modificar para realizar los cambios que se describen en este artículo. También le recomendamos que utilice un sistema de control de fuente, como Azure DevOps, donde aún no se han cambiado archivos.
 

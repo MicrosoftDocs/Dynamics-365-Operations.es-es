@@ -2,7 +2,7 @@
 title: Planificación de producción
 description: Este artículo describe la planificación de la producción y explica cómo modificar los pedidos de producción planificados mediante Optimización de planificación.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873793"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335267"
 ---
 # <a name="production-planning"></a>Planificación de producción
 
@@ -26,9 +26,9 @@ Optimización de planificación admite varios escenarios de producción. Si est�
 
 El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este artículo: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Activar o desactivar esta función para su sistema
 
-Si su sistema aún no incluye las funciones descritas en este artículo, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la característica *Pedidos de producción planificados para Planning Optimization*.
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Pedidos de producción planificados para la optimización de la planificación* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="planned-production-orders"></a>Pedidos de producción planificados
 

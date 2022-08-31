@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893160"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336287"
 ---
 # <a name="replenishment-strategies"></a>Estrategias de reabastecimiento
 
@@ -36,7 +36,7 @@ La temporada alta es un ejemplo de una situación en la que la estrategia *Capac
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Active la función Reposición al máximo según la función de límites de existencias
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado esta función y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Para poder usar esta característica, debe estar activada para su sistema. Los administradores pueden usar el espacio de trabajo [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado esta función y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de caracetrística:** *Reposición al máximo según la función de límites de existencias*

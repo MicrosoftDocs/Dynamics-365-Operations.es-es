@@ -2,7 +2,7 @@
 title: Consultar datos mediante los desvíos de la aplicación móvil Warehouse Management
 description: Este artículo describe cómo configurar los elementos del menú del dispositivo móvil de consulta de datos y usarlos como parte de los desvíos.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220574"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336617"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Consultar datos mediante los desvíos de la aplicación móvil Warehouse Management
 
@@ -35,19 +35,19 @@ Por ejemplo, en el flujo de recepción de órdenes de compra, se requiere un nú
 Antes de que pueda usar la funcionalidad que se describe en este artículo, debe completar el siguiente procedimiento para activar las funciones requeridas.
 
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**. (Para obtener más información acerca de cómo usar el espacio de trabajo **Administración de características**, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
-1. Active la característica que se enumera de la siguiente manera:
+1. Si ejecuta Supply Chain Management versión 10.0.28 o anterior, active la función que se muestra de la siguiente manera:
 
     - **Módulo:** *Gestión de almacén*
     - **Nombre de la función:** *Instrucciones de los pasos de la aplicación de almacén*
 
-    Esta característica es un requisito previo para la característica *Flujo de consulta de datos de la aplicación Warehouse Management*. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md).
+    Esta característica es un requisito previo para la característica *Flujo de consulta de datos de la aplicación Warehouse Management*. A partir de la versión 10.0.29 de Supply Chain Management, es obligatoria y no se puede desactivar. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md).
 
 1. Active la característica que se enumera de la siguiente manera:
 
     - **Módulo:** *Gestión de almacén*
     - **Nombre de la característica**: *Desvíos de aplicaciones de Warehouse Management*
 
-    Esta característica es un requisito previo para la característica *Flujo de consulta de datos de la aplicación Warehouse Management*. Para obtener más información sobre la característica *Desvíos de la aplicación de gestión de almacenes*, vea [Configurar desvíos para los pasos en los elementos del menú del dispositivo móvil](warehouse-app-detours.md).
+    Esta característica es un requisito previo para la característica *Flujo de consulta de datos de la aplicación Warehouse Management*. A partir de la versión 10.0.29 de Supply Chain Management, está activada de forma predeterminada. Para obtener más información sobre la característica *Desvíos de la aplicación de gestión de almacenes*, vea [Configurar desvíos para los pasos en los elementos del menú del dispositivo móvil](warehouse-app-detours.md).
 
 1. Si la característica *Desvíos de la aplicación Warehouse Management* no estaba ya activada, actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Repita este paso para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 1. Active la característica que se enumera de la siguiente manera:

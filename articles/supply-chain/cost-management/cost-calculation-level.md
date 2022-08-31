@@ -2,7 +2,7 @@
 title: Nivel de cálculo de costes
 description: Este artículo describe el nivel de lista de materiales (BOM) que se denomina Nivel de cálculo de costes. Este nivel BOM excluye los pedidos de producción y lote de sus cálculos.
 author: JennySong-SH
-ms.date: 04/23/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 647ef4b13b864cfdbb7905fe7a0d340e85f6c1e6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e63a868696e36c1d4f5d19ea87bdf4d682c39f8c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850884"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334967"
 ---
 # <a name="cost-calculation-level"></a>Nivel de cálculo de costes
 
 [!include [banner](../includes/banner.md)]
 
 El nivel de lista de materiales (BOM) que se denomina **Nivel de cálculo de costes** excluye pedidos de producción y pedidos por lotes de sus cálculos. El sistema usa este nivel cuando ejecuta cálculos de costes en versiones de costes. En procesos como el recálculo y el cierre del inventario, el sistema utiliza en su lugar el nivel BOM **Nivel de costes**.
+
+## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>Activar o desactivar la característica de nivel de cálculo de costes
+
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Nivel de cálculo de costes* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+## <a name="example-scenario"></a>Supuesto de ejemplo
 
 El siguiente escenario simple muestra las diferencias entre Nivel BOM de **Nivel de cálculo de costes** y el nivel BOM **Nivel de costes**.
 

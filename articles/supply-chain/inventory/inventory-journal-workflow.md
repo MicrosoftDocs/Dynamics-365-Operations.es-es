@@ -2,7 +2,7 @@
 title: Flujos de trabajo de aprobación de diario de inventario
 description: Este artículo describe cómo puede establecer y usar flujos de trabajo de aprobación de diarios de inventario para registrar diversos tipos de transacciones de inventario físico. Los flujos de trabajo del diario de inventario ayudan a garantizar que solo los diarios de inventario aprobados puedan contabilizarse en las transacciones.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873996"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334667"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flujos de trabajo de aprobación de diario de inventario
 
@@ -29,12 +29,9 @@ En este artículo se describe cómo establecer y usar flujos de trabajo de aprob
 > [!NOTE]
 > Los flujos de trabajo de aprobación de diarios de inventario se aplican solo a las transacciones registradas utilizando el módulo de Gestión de inventario. No funcionan con diarios de inventario activados desde el módulo Gestión de almacenes.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Active la característica de flujos de trabajo de aprobación de diario de inventario
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Activar o desactivar la característica de flujos de trabajo de aprobación de diario de inventario
 
-A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla o deshabilitarla si es necesario. Aquí, la característica aparece como:
-
-- **Módulo**: *gestión de inventario y almacenes*
-- **Feature name:** *Flujo de trabajo de aprobación del diario de inventario*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.21 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Flujo de trabajo de aprobación el diario de inventario* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Crear flujos de trabajo de aprobación de diario de inventario
 

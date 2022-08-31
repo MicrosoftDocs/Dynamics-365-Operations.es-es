@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861084"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323585"
 ---
 # <a name="create-a-working-time-calendar"></a>Crear un calendario de horas de trabajo
 
-
-> [!Important]
-> La funcionalidad mencionada en este artículo está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Configure al menos un calendario de tiempo laborable que muestre sus días y hor
 
 3. En **Opciones de generación**, seleccione los días laborales para su organización e introduzca las horas de trabajo. 
    - Para agregar un día festivo o un cierre, seleccione el botón **Agregar** junto a **Días festivos y cierres**.
-   - Para agregar tiempo no laborable, como almuerzos o descansos, seleccione **Agregar** debajo de **TIEMPO NO LABORABLE** e introduzca el nombre y el intervalo de tiempo.
+   - Para agregar tiempo no laborable, como almuerzos o descansos, seleccione **Agregar** debajo de **Tiempo no laborable** e introduzca el nombre y el intervalo de tiempo.
 
 4. En **Días**, seleccione **Generar** para generar los días en el calendario. Introduzca el intervalo de fechas para su calendario y luego seleccione **Generar días**.
 
@@ -67,7 +64,7 @@ Puede agregar o cambiar días festivos y cierres por separado desde un calendari
 
 Puede agregar o cambiar horas no laborables por separado desde un calendario de horas de trabajo.
 
-1. En la página **Administración de la organización**, seleccione **TIEMPO NO LABORABLE**.
+1. En la página **Administración de la organización**, seleccione **Tiempo no laborable**.
 
 2. Seleccione **Nuevo** y especifique un nombre e intervalo de tiempo para el tiempo no laborable.
 

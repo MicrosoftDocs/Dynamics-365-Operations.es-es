@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219514"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335687"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -259,7 +259,7 @@ Se recomienda a las empresas que utilizan cargas para planificar y gestionar el 
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Prepare su sistema para ejecutar los escenarios de muestra
 
-Para trabajar con los escenarios de muestra que se describen en esta sección, primero debe asegurarse de que todas las funciones requeridas estén activadas en su sistema. Los datos de demostración requeridos también deben estar disponibles en el sistema.
+Para trabajar con los escenarios de muestra que se describen en esta sección, primero debe asegurarse de que todas las funciones requeridas estén activadas para su sistema. Los datos de demostración requeridos también deben estar disponibles en el sistema.
 
 #### <a name="turn-on-the-required-features"></a>Active las funciones requeridas
 

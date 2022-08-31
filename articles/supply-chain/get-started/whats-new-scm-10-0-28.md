@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228493"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334787"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.28 (agosto de 2022)
 
@@ -36,7 +36,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Inventario y logística | [Entidades de integración de costos descargados para transitarios de terceros](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Información general de entidades de costes en destino](../landed-cost/landed-cost-entities-overview.md) | Habilitado por defecto |
 | Planificada | [Planificación de requisitos de materiales basada en la demanda (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Descripción general de la Planificación de requisitos de materiales basada en la demanda](../master-planning/planning-optimization/ddmrp-overview.md) | Administración de características:<br>*(Versión preliminar) DDMRP para optimización de planificación* |
 | Planificada | [Compatibilidad de Optimización de planificación para capaz de comprometer (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Calcule las fechas de entrega de pedidos de ventas usando CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Administración de características:<br>*(Versión preliminar) CTP para Optimización de planificación* |
-| Planificada | [Soporte de optimización de planificación para vida útil](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Próximamente | Habilitado por defecto |
+| Planificada | [Soporte de optimización de planificación para vida útil](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Planificación maestra para productos con vida útil limitada](../master-planning/planning-optimization/shelf-life.md) | Habilitado por defecto |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión
 

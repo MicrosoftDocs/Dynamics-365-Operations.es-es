@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171467"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335657"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar y conectar la aplicación móvil Warehouse Management
 
@@ -38,7 +38,7 @@ La aplicación móvil Warehouse Management está disponible para los sistemas op
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Activar o desactivar las características de la aplicación móvil de Warehouse Management en Supply Chain Management
 
-Para utilizar la aplicación móvil Warehouse Management, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada en su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para utilizar la aplicación móvil Warehouse Management, la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Configuración de usuario, iconos y títulos de pasos mejorados para la nueva aplicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Obtenga la aplicación móvil Warehouse Management
 

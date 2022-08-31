@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065161"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334397"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabajo de limpieza de entradas disponibles de gestión de almacén
 
@@ -39,7 +39,7 @@ Si se permite el inventario físico negativo, es posible que el trabajo de limpi
 El trabajo de limpieza de entradas disponibles está disponible en **Gestión de inventario \> Tareas periódicas \> Limpiar \> Limpieza de entradas disponibles de gestión de almacén**. Use la configuración de trabajo estándar para controlar el alcance y la programación de la ejecución del trabajo. Además, se proporcionan las siguientes opciones:
 
 - **Eliminar si no se actualiza durante un cierto número des días**: introduzca el número mínimo de días que el trabajo debe esperar antes de eliminar una entrada disponible que cuya cantidad ha bajado a cero. Use esta configuración para ayudar a reducir el riesgo de eliminar entradas disponibles que todavía se están utilizando. Si desea que se realice la limpieza lo antes posible, introduzca *0* (cero) o deje el campo en blanco.
-- **Tiempo máximo de ejecución (horas)**: introduzca el tiempo máximo de ejecución del trabajo de limpieza, en horas. Si el trabajo no se completa antes de que pase este tiempo, guardará el trabajo completado hasta entonces y luego se cerrará. Esta capacidad es especialmente relevante para implementaciones que tengan elevado uso de inventario. En estos casos, debe programar la ejecución del trabajo en momentos en que la carga del sistema sea lo más ligera posible. Si desea que el trabajo por lotes continúe ejecutándose hasta que se complete, introduzca *0* (cero) o deje el campo en blanco. Esta opción solo está disponible si la característica relacionada se ha [activado en el sistema](#max-execution-time).
+- **Tiempo máximo de ejecución (horas)**: introduzca el tiempo máximo de ejecución del trabajo de limpieza, en horas. Si el trabajo no se completa antes de que pase este tiempo, guardará el trabajo completado hasta entonces y luego se cerrará. Esta capacidad es especialmente relevante para implementaciones que tengan elevado uso de inventario. En estos casos, debe programar la ejecución del trabajo en momentos en que la carga del sistema sea lo más ligera posible. Si desea que el trabajo por lotes continúe ejecutándose hasta que se complete, introduzca *0* (cero) o deje el campo en blanco. Esta opción solo está disponible si la característica relacionada se ha [activado para el sistema](#max-execution-time).
 
 Aunque puede ejecutar el trabajo durante el horario comercial habitual, le recomendamos que lo haga fuera del horario laboral. De esta forma, ayuda a evitar conflictos que pueden ocurrir si un usuario está trabajando con un registro que también se está limpiando.
 

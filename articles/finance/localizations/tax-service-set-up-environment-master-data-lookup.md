@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181136"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306215"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Habilitar la búsqueda de datos maestros para la configuración del cálculo de impuestos 
 
@@ -108,7 +108,7 @@ Dataverse usa la aplicación de Azure AD que creó para llamar aplicaciones de f
     - **Proveedor**: establezca este campo en **NonAAD**.
     - **Correo electrónico**: ingrese **dataverseintegration** u otro valor. (El valor no tiene que ser una cuenta de correo electrónico válida).
 
-3. Asigne el rol de seguridad **Aplicación de entidad virtual de CDS** al usuario.
+3. Asigne el rol de seguridad **Aplicación de integración de entidad virtual de Dataverse** al usuario.
 4. Elimine todos los demás roles, incluido **Usuario del sistema**.
 5. Vaya a **Administración del sistema** \> **Configuración** \> **Aplicaciones de Azure Active Directory** para registrar Dataverse. 
 6. Agregue una fila y luego, en el campo **Id. de cliente**, ingrese el valor de **Id. de la aplicación (cliente)** que anotó anteriormente.
@@ -199,17 +199,11 @@ Para obtener más información, [Consulte las entidades virtuales de Microsoft D
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>Configurar la aplicación conectada para Cálculo de impuestos
 
-1. En RCS, abra el espacio de trabajo **Administración de características** y habilite las funciones siguientes:
-
-    - Compatibilidad con orígenes de datos de Informes electrónicos de Dataverse
-    - Soporte de orígenes de datos de Dataverse de servicio de impuestos
-    - Características de globalización
-
-2. Vaya a **Informes electrónicos** y, luego, en la sección **Vínculos relacionados**, seleccione **Aplicaciones conectadas**.
+1. Vaya a **Informes electrónicos** y, luego, en la sección **Vínculos relacionados**, seleccione **Aplicaciones conectadas**.
 
     [![Aplicaciones conectadas.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Seleccione **Nuevo** para agregar un registro e ingrese la siguiente información.
+2. Seleccione **Nuevo** para agregar un registro e ingrese la siguiente información.
 
     - **Nombre** – Introduzca un nombre.
     - **Tipo**: seleccione **Dataverse**.
@@ -217,12 +211,18 @@ Para obtener más información, [Consulte las entidades virtuales de Microsoft D
     - **Inquilino**: introduzca su inquilino.
     - **URL personalizado**: ingrese su URL de Dataverse y adjúntela con **/api/data/v9.1**.
 
-4. Seleccione **Comprobar conexión** y, a continuación, en el cuadro de diálogo que aparece, seleccione **Haga clic aquí para conectarse a la aplicación remota seleccionada**.
+3. Seleccione **Comprobar conexión** y, a continuación, en el cuadro de diálogo, seleccione **Haga clic aquí para conectarse a la aplicación remota seleccionada**.
 
     [![Comprobar la conexión.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Asegúrese de recibir un mensaje de "Correcto" que indica que la conexión se ha establecido correctamente.
+4. Asegúrese de recibir un mensaje de "Correcto" que indica que la conexión se ha establecido correctamente.
 
     [![Mensaje de éxito.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. En RCS, abra el espacio de trabajo **Administración de características** y habilite las funciones siguientes:
+
+    - Características de globalización
+    - Compatibilidad con orígenes de datos de Informes electrónicos de Dataverse
+    - Soporte de orígenes de datos de Dataverse de servicio de impuestos
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Importar y configurar la configuración de asignación de modelos de Dataverse
 

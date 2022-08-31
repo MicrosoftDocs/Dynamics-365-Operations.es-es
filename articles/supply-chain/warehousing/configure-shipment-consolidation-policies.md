@@ -2,7 +2,7 @@
 title: Configurar directivas de consolidación de envíos
 description: Este artículo explica cómo configurar directivas de consolidación de envíos predeterminadas y personalizadas.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219544"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336504"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -33,10 +33,7 @@ Los escenarios que se presentan en este artículo muestran cómo configurar dire
 > [!IMPORTANT]
 > En el [primer escenario](#scenario-1) que se describe en este artículo, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
 
-Antes de poder usar la característica *Directivas de consolidación de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
-
-- **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Consolidar envío*
+Para usar la característica *Directivas de consolidación de envíos*, debe activarla para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Directivas de consolidación de envíos* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 

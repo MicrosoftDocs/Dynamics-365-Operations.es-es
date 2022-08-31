@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 17e336fb059880e54a1cba7c0079e7452925c24d
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220009"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335957"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimiento de umbral de zona
 
@@ -38,7 +38,7 @@ A diferencia del reabastecimiento mínimo/máximo basado en ubicaciones, el reab
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Activar la característica de reabastecimiento de umbral de zona
 
-Antes de poder usar la característica *Reabastecimiento de umbral de zona*, esta debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar la característica *Reabastecimiento de umbral de zona*, esta debe estar activada para su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla si es necesario. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de característica:** *Reabastecimiento de umbral de zona*

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266410"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334757"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.29 (octubre de 2022)
 
@@ -74,10 +74,7 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 
 | Módulo | Nombre de característica | Nuevo estado de la característica |
 | --- | --- | --- |
-| Administración de activos | [Aplicar reglas para agrupar órdenes de trabajo mientras se ejecuta un plan de mantenimiento](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Obligatoria |
 | Administración de activos | [Funcionalidad de administración de activos para la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md) | Obligatoria |
-| Administración de activos | [Mejoras de mantenimiento basadas en contador](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Activado de forma predeterminada |
-| Administración de activos | [Facturación de la orden de trabajo](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | Obligatoria |
 | Gestión de costes | [Cambiar la etiqueta de Cancelación en Cierre y ajuste a Invertir](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Obligatoria |
 | Gestión de costes | Limpiar versiones de gestión de costes transversales de detalles de cálculo de L. MAT | Obligatoria |
 | Gestión de costes | [Comparar almacenamiento de precios de artículos](../cost-management/compare-item-price.md) | Obligatoria |
@@ -102,7 +99,7 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Gestión de inventario y almacenes | Usar unidad de medida y la cantidad de unidad en diarios de inventario | Obligatoria |
 | Gestión de inventario y almacenes | Desbloquear diario de inventario | Obligatoria |
 | Fabricación | [Selección automática de materiales habilitados para almacén para las listas de selección con registro automático](whats-new-scm-10-0-23.md) | Disponibilidad general |
-| Fabricación | Habilitar la visualización de dimensiones del inventario en la lista de materiales para operaciones de ruta de producción | Activado de forma predeterminada |
+| Fabricación | Habilitar la visualización de dimensiones del inventario en la lista de materiales para operaciones de ruta de producción | Obligatoria |
 | Fabricación | [Habilite esta opción para especificar números de lote y serie mientras se notifica como terminado desde el dispositivo de tarjeta de trabajo](../production-control/report-finished-job-device.md) | Activado de forma predeterminada |
 | Fabricación | Mejora de la selección de la cantidad de peso capturado en producción | Activado de forma predeterminada |
 | Fabricación | [Búsqueda de trabajos para la interfaz de ejecución de la planta de producción](../production-control/production-floor-execution-configure.md) | Obligatoria |
@@ -127,20 +124,19 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Planificación maestra | [Puesta en firme de pedido planificado con filtrado](../master-planning/planning-optimization/planned-order-firming.md) | Obligatoria |
 | Planificación maestra | [Pedidos de producción planificados para la optimización de la planificación](../master-planning/planning-optimization/production-planning.md) | Obligatoria |
 | Planificación maestra | [Acuerdos comerciales de compra para la optimización de la planificación](../master-planning/planning-optimization/purchase-trade-agreement.md) | Obligatoria |
-| Planificación maestra | Planificación de recursos con mantenimiento | Obligatoria |
 | Planificación maestra | [Vistas guardadas para pedidos planificados](saved-views-scm.md) | Obligatoria |
 | Adquisición y abastecimiento | Carga los importes De y A en los pedidos de compra | Obligatoria |
 | Adquisición y abastecimiento | Deshabilitar el botón Restablecer de la distribución de la solicitud de compra | Activado de forma predeterminada |
 | Adquisición y abastecimiento | [Habilitar el restablecimiento de los flujos de trabajo relacionados con la compra](whats-new-scm-10-0-20.md) | Activado de forma predeterminada |
 | Adquisición y abastecimiento | [Limitar el número de líneas de pedido de compra por tarea por lotes](whats-new-scm-10-0-27.md) | Activado de forma predeterminada |
 | Adquisición y abastecimiento | [Combinar las dimensiones financieras del proveedor con la dimensión financiera del vínculo de dimensión activo en el pedido de compra](whats-new-scm-10-0-25.md) | Obligatoria |
+| Adquisición y abastecimiento | [Registrar cantidades registradas de productos en existencias y restos de productos sin existencias para recepciones y facturas de proveedor](whats-new-scm-10-0-26.md) | Disponibilidad general |
 | Adquisición y abastecimiento | [Evitar el consumo excesivo de reservas de presupuesto general cuando hay varias solicitudes de compra en el flujo de trabajo](whats-new-scm-10-0-21.md) | Activado de forma predeterminada |
 | Adquisición y abastecimiento | [Parte responsable del acuerdo de compra](../procurement/purchase-agreements.md) | Obligatoria |
 | Adquisición y abastecimiento | [Vistas guardadas para pedidos de compra](saved-views-scm.md) | Obligatoria |
 | Gestión de información de productos | Preprocesamiento de informe de lista de materiales para evitar el tiempo de espera | Obligatoria |
 | Gestión de información de productos | Dimensiones financieras predeterminadas por separado cuando se usan plantillas de artículos | Obligatoria |
 | Gestión de información de productos | Habilitar grupos de dimensiones de productos para plantillas de artículos | Obligatoria |
-| Gestión de información de productos | [Herencia de atributos mejorada para la administración de cambios de ingeniería](../engineering-change-management/engineering-attributes-and-search.md) | Obligatoria |
 | Gestión de información de productos | Mejoras en entidades de artículo-código de barras | Obligatoria |
 | Gestión de información de productos | Volver a generar nombres de variante del producto a partir de la nomenclatura | Obligatoria |
 | Gestión de información de productos | [Vistas guardadas para productos emitidos](saved-views-scm.md) | Obligatoria |
@@ -161,27 +157,30 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Ventas y marketing | [Confirmación del pedido de ventas con un solo clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | Obligatoria |
 | Gestión del transporte | Permitir quitar la conciliación de los albaranes de flete de las líneas de factura de flete sin un diario de facturas de proveedor registrado | Activado de forma predeterminada |
 | Gestión del transporte | [Habilitar la creación de un diario de facturas de proveedor al descartar un albarán de flete](whats-new-scm-10-0-20.md) | Activado de forma predeterminada |
-| Gestión del transporte | [Envío de paquetes pequeños](../warehousing/small-parcel-shipping.md) | Activado de forma predeterminada |
+| Gestión del transporte | [Envío de paquetes pequeños](../warehousing/small-parcel-shipping.md) | Obligatoria |
 | Gestión del transporte | [Documento de certificación de origen de USMCA](../transportation/usmca-certification-of-origin.md) | Activado de forma predeterminada |
 | Gestión de almacenes | [Zona de ubicación adicional](../warehousing/additional-location-zones.md) | Obligatoria |
 | Gestión de almacenes | [Cancelar trabajo](../warehousing/cancel-warehouse-work.md) | Obligatoria |
-| Gestión de almacenes | [Consolidar envío](../warehousing/configure-shipment-consolidation-policies.md) | Activado de forma predeterminada |
+| Gestión de almacenes | [Consolidar envío](../warehousing/configure-shipment-consolidation-policies.md) | Obligatoria |
 | Gestión de almacenes | [Crear y procesar pedidos de transferencia desde la aplicación de almacén](../warehousing/create-transfer-order-from-warehouse-app.md) | Obligatoria |
 | Gestión de almacenes | Plantillas de tránsito directo con directivas de ubicación | Activado de forma predeterminada |
-| Gestión de almacenes | [Desacoplar el trabajo de ubicación de los avisos de envío por adelantado](whats-new-scm-10-0-21.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Operaciones de colocación diferidas](../warehousing/deferred-processing-manual-inventory-movement.md) | Activado de forma predeterminada |
+| Gestión de almacenes | [Desacoplar el trabajo de ubicación de los avisos de envío por adelantado](whats-new-scm-10-0-21.md) | Obligatoria |
+| Gestión de almacenes | [Operaciones de colocación diferidas](../warehousing/deferred-processing-manual-inventory-movement.md) | Obligatoria |
 | Gestión de almacenes | Colocación diferida: contenedor | Activado de forma predeterminada |
 | Gestión de almacenes | Procesamiento put diferido: habilitar para la característica de plantilla de auditoría con el evento de desencadenado establecido en Anterior | Obligatoria |
 | Gestión de almacenes | [Deshabilitar las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado](../inventory/inventory-blocking.md) | Activado de forma predeterminada |
 | Gestión de almacenes | Habilitar la validación rápida para dispositivos móviles de almacén | Obligatoria |
-| Gestión de almacenes | [Reserva flexible de la dimensión de nivel de almacén](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Reserva flexible de matrícula de entidad de almacén comprometida de pedido](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Visualización de carga de trabajo de salida](../warehousing/outbound-workload-visualization.md) | Obligatoria |
+| Gestión de almacenes | [Analizador mejorado para códigos de barras GS1](../warehousing/gs1-barcodes.md) | Disponibilidad general |
+| Gestión de almacenes | [Reserva flexible de matrícula de entidad de almacén comprometida de pedido](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obligatoria |
+| Gestión de almacenes | [Reserva flexible de la dimensión de nivel de almacén](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Obligatoria |
 | Gestión de almacenes | [Uso de la ubicación de consolidación de artículos](../warehousing/item-consolidation-location-utilization.md) | Activado de forma predeterminada |
 | Gestión de almacenes | Historial de recepción de matrículas de entidad de almacén | Activado de forma predeterminada |
 | Gestión de almacenes | [Consolidación de envíos manual](../warehousing/consolidate-shipments-manual-workbench.md) | Activado de forma predeterminada |
+| Gestión de almacenes | [Servicio de selección manual de línea de transferencia para administración o usuarios de confianza similares](whats-new-scm-10-0-28.md) | Disponibilidad general |
 | Gestión de almacenes | [Interfaz de equipo de gestión de material](../warehousing/mhax.md) | Obligatoria |
-| Gestión de almacenes | [Tránsito directo planificado](../warehousing/planned-cross-docking.md) | Activado de forma predeterminada |
+| Gestión de almacenes | [Nuevas páginas de área de trabajo de planificación de la carga](whats-new-scm-10-0-24.md) | Disponibilidad general |
+| Gestión de almacenes | [Visualización de carga de trabajo de salida](../warehousing/outbound-workload-visualization.md) | Obligatoria |
+| Gestión de almacenes | [Tránsito directo planificado](../warehousing/planned-cross-docking.md) | Obligatoria |
 | Gestión de almacenes | [Procesar eventos de la aplicación de almacén](../warehousing/warehouse-app-events.md) | Obligatoria |
 | Gestión de almacenes | Mejora de la consulta para la plantilla de trabajo Ubicación de coproducto y producto derivado | Obligatoria |
 | Gestión de almacenes | [Redondear cantidades por debajo a la unidad de ventas más cercana durante la liberación al almacén](whats-new-scm-10-0-19.md) | Obligatoria |
@@ -190,13 +189,14 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Gestión de almacenes | [Vista guardada para procesamiento de oleadas](saved-views-scm.md) | Obligatoria |
 | Gestión de almacenes | [Vistas guardadas para procesamiento de carga](saved-views-scm.md) | Obligatoria |
 | Gestión de almacenes | [Vistas guardadas para procesamiento de envíos](saved-views-scm.md) | Obligatoria |
-| Gestión de almacenes | Detalles de etiqueta de oleada de envío | Activado de forma predeterminada |
+| Gestión de almacenes | [Digitalizar códigos de barras de GS1](../warehousing/gs1-barcodes.md) | Disponibilidad general |
+| Gestión de almacenes | Detalles de etiqueta de oleada de envío | Obligatoria |
 | Gestión de almacenes | [Asignar unidades mixtas](whats-new-scm-10-0-21.md) | Obligatoria |
 | Gestión de almacenes | [Use una API más rápida para el cierre o la reapertura de contenedores en la estación de embalaje](whats-new-scm-10-0-21.md) | Activado de forma predeterminada |
 | Gestión de almacenes | [Validar plantillas seleccionadas para los trabajos de reabastecimiento](whats-new-scm-10-0-20.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Campos promocionados de aplicación de almacén](../warehousing/warehouse-app-promoted-fields.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Instrucciones detalladas de la aplicación de almacén](../warehousing/mobile-app-titles-instructions.md) | Activado de forma predeterminada |
-| Gestión de almacenes | [Estado de ubicación de almacén](../warehousing/warehouse-location-status.md) | Activado de forma predeterminada |
+| Gestión de almacenes | [Campos promocionados de aplicación de almacén](../warehousing/warehouse-app-promoted-fields.md) | Obligatoria |
+| Gestión de almacenes | [Instrucciones detalladas de la aplicación de almacén](../warehousing/mobile-app-titles-instructions.md) | Obligatoria |
+| Gestión de almacenes | [Estado de ubicación de almacén](../warehousing/warehouse-location-status.md) | Obligatoria |
 | Gestión de almacenes | [Desvíos de la aplicación Warehouse Management](../warehousing/warehouse-app-detours.md) | Activado de forma predeterminada |
 | Gestión de almacenes | [Detalles del trabajo por lotes de oleada](../warehousing/wave-processing.md) | Obligatoria |
 | Gestión de almacenes | [Notificaciones de ejecución de lanzamientos](../warehousing/wave-execution-notifications.md) | Obligatoria |

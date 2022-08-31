@@ -2,7 +2,7 @@
 title: Estado de ubicación de almacén
 description: En este artículo se ofrece una visión general de la característica Estado de ubicación de almacén.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220069"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336107"
 ---
 # <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 
@@ -40,9 +40,9 @@ Los siguientes cuatro campos en la página **Ubicaciones** realizan un seguimien
     - **Selección**: se ha realizado transacciones de salida en la ubicación desde que estuvo vacía por última vez.
     - **Almacenamiento**: se ha realizado transacciones de entrada en la ubicación desde que estuvo vacía por última vez.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>Activar la característica Estado de ubicación de almacén
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>Activar o desactivar la característica Estado de ubicación de almacén
 
-Para poder usar esta característica, debe estar activada en su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Estado de ubicación de almacén* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Estado de ubicación de almacén* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Configurar el estado de ubicación del almacén
 

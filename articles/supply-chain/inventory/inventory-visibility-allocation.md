@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852516"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306126"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Asignación de inventario para para visibilidad de inventario
 
@@ -63,12 +63,11 @@ La característica de asignación de inventario consta de los siguientes compone
 - El origen de datos predefinida relacionada con la asignación, las medidas físicas y las medidas calculadas.
 - Grupos de asignación personalizables que tienen un máximo de ocho niveles.
 - Un conjunto de interfaces de programación de aplicaciones (API) de asignación:
-
-    - asignar
-    - reasignar
-    - desasignar
-    - consumir
-    - consulta
+  - asignar
+  - reasignar
+  - desasignar
+  - consumir
+  - consulta
 
 El proceso de configuración de la característica de asignación consta de dos pasos:
 
@@ -84,23 +83,26 @@ El origen de datos se llama `@iv`.
 Aquí están las medidas físicas iniciales:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Aquí están las medidas calculadas:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Agregar otras medidas físicas a la medida calculada disponible para asignar
 
 Para utilizar la asignación, debe configurar la medida calculada disponible para asignar (`@iv.@available_to_allocate`). Por ejemplo, tiene el origen de datos `fno` y la medida `onordered`, el origen de datos `pos` y la medida `inbound`, y desea hacer una asignación del disponible para la suma de `fno.onordered` y `pos.inbound`. En este caso, `@iv.@available_to_allocate` debería contener `pos.inbound` y `fno.onordered` en la fórmula. Este es un ejemplo:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> Fuente de datos `@iv` es una fuente de datos predefinida y las medidas físicas definidas en `@iv` con prefijo `@` son medidas predefinidas. Estas medidas son una configuración predefinida para la función de asignación, así que no las cambie ni las elimine o es probable que encuentre errores inesperados al usar la función de asignación.
+>
+> Puede agregar nuevas medidas físicas a la medida calculada predefinida `@iv.@available_to_allocate`, pero no debe cambiar su nombre.
 
 ### <a name="change-the-allocation-group-name"></a>Cambiar el nombre del grupo de asignación
 
@@ -136,7 +138,7 @@ Llame a la API `Allocate` para asignar un producto que tiene dimensiones especí
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ Por ejemplo, desea asignar una cantidad de 10 para el producto *Bicicleta*, siti
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Utilice la API `Reallocate` para mover alguna cantidad asignada a otra combinaci
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ Por ejemplo, puede mover dos bicicletas que tengan las dimensiones \[sitio=1, ub
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Utilice la API `Consume` para publicar la cantidad de consumo frente a la asigna
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Ahora, se venden tres bicicletas y se toman del grupo de asignación. Para reali
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Cuando desee consumir una cantidad de 3 y directamente reservar esta cantidad, p
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

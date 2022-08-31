@@ -14,17 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59fe5ece00500f7dafab282c00d572575706f790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894596"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323970"
 ---
-# <a name="configure-leave-and-absence-types"></a>Configurar tipos de bajas y ausencias
-
-> [!Important]
-> La funcionalidad mencionada en este artículo está disponible actualmente para los clientes de Dynamics 365 Human Resources independiente. Algunas o todas las funciones estarán disponibles como parte de una versión futura de la infraestructura de Finance después de la versión 10.0.26 de Finance.
+# <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,31 +38,21 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
 ## <a name="add-a-leave-type"></a>Agregar un tipo de licencia
 
-1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
-
+1. En el espacio de trabajo **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
 2. En **Configuración**, seleccione **Tipos de permisos y ausencias**.
-
 3. Seleccione **Nuevo**.
-
 4. Escriba un nombre para el tipo de baja debajo de **Tipo**, seleccione un flujo de trabajo en **Id. de flujo de trabajo** e introduzca una descripción debajo de **Descripción**.
-
 5. En **General**, seleccione **Ninguno**, **Programado** o **No programado** en el menú desplegable **Categoría**.
-
 6. Seleccione un código de ganancia en el menú desplegable **Código de ganancias**.
-
 7. Debajo de **Código de motivo requerido**, elija si desea requerir un código de motivo. Si desea requerir códigos de motivo, es posible que deba agregarlos. Debajo de **Códigos de motivo**, seleccione **Agregar**, seleccione un código de motivo y luego seleccione la casilla **Habilitado** que se encuentra al lado.
-
 8. Debajo de **Restringir el acceso a los roles seleccionados**, elija si desea restringir el acceso. Luego seleccione los roles de seguridad en **Roles de seguridad para este tipo de permiso**. Los roles de seguridad se definen en el flujo de trabajo que ha seleccionado en **Id. de flujo de trabajo** anteriormente en este procedimiento.
-
 9. Debajo de **Color del calendario**, elija qué color mostrar en los calendarios de permisos y ausencias para este tipo de permisos. 
-
 10. En **Relaciones de suspensión**, elija si desea que este tipo de licencia suspenda otro tipo de licencia o sea suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida. 
-
-10. Seleccione **Guardar**.
+11. Seleccione **Guardar**.
 
 ## <a name="configure-leave-type-rules"></a>Configurar reglas de tipo de permiso
 
-1. Establezca opciones de redondeo para el tipo de baja. Las opciones incluyen **Ninguno**, **Arriba**, **Abajo** y **Aproximación**. También puede establecer la precisión de redondeo para el tipo de baja.
+1. Establezca opciones de redondeo para el tipo **Bajas y ausencias**. Las opciones incluyen **Ninguno**, **Arriba**, **Abajo** y **Aproximación**. También puede establecer la precisión de redondeo para el tipo de baja.
 
 2. Establezca **Corrección de día festivo** para el tipo de baja. Cuando selecciona esta opción, el número de días festivos que caen en un día laboral se utilizará para determinar cómo acumular los permisos para el tipo de baja. Por ejemplo, si el día de Navidad cae en lunes, Human Resources restará un día del tipo de baja al procesar las acumulaciones.
 

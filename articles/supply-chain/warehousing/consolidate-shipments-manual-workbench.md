@@ -2,7 +2,7 @@
 title: Consolidar los envíos utilizando el área de trabajo de consolidación de envíos
 description: Este artículo presenta un escenario en el que se despachan múltiples pedidos al almacén en la misma carga y luego se consolidan en envíos usando el área de trabajo de consolidación de envíos.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218630"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335807"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar los envíos utilizando el área de trabajo de consolidación de envíos
 
@@ -34,14 +34,11 @@ El escenario de este artículo hace referencia a valores y registros que se incl
 
 El escenario que se describe aquí supone que ya ha activado la función, realizado los ejercicios de [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md) y creado las directivas y otros registros que se describen allí. Asegúrese de hacer esos ejercicios antes de continuar con este escenario.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Activar la función manual de consolidación de envíos
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Activar o desactivar la función manual de consolidación de envíos
 
-Antes de poder usar la función *Consolidación manual de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Para usar la consolidación de envío manual, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Consolidación de envíos manuales* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Módulo:** *Gestión de almacén*
-- **Nombre de función:** *Consolidación manual de envíos*
-
-Antes de poder crear políticas, también debe activar la característica *Consolidación de envíos*. Para obtener más información, consulte [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md).
+También debe encender la función *Consolidar envío* antes de poder crear políticas (a partir de la versión 10.0.29 de Supply Chain Management, la función es obligatoria y no se puede desactivar). Para obtener más información, consulte [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crear los pedidos de ventas para este escenario
 

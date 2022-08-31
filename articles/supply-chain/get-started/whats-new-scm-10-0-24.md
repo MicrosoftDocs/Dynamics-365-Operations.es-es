@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166887"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334817"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.24 (febrero de 2022)
 
@@ -48,7 +48,7 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [Gesti�
 | Control de producción | Comprobación de disponibilidad de material a petición para pedidos de producción | Esta característica hace que resulte más rápido abrir la página **Pedidos de producción para liberar**, que está disponible en el espacio de trabajo **Gestión de planta de producción**. Sin esta característica, el sistema comprueba automáticamente si los materiales están disponibles para todos los pedidos de fabricación enumerados en cuanto se abre la página, lo que puede llevar mucho tiempo si se tiene un gran número de pedidos. Cuando esta función está activada, el sistema proporciona un botón en la barra de herramientas, que puede utilizar para iniciar la comprobación de materiales solo para los pedidos seleccionados y cuando sea necesario. |
 | Control de producción | Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS) | Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Esta característica solo admite artículos que no están habilitados para utilizar procesos de gestión de almacenes (WMS). La compatibilidad con elementos habilitados para WMS está programada para una versión futura.<p>Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto. |
 | Control de producción | Notificar como finalizada la carga de trabajo de gestión de almacenes para unidades de escalado en el perímetro y en la nube | Esta función permite a los trabajadores usar la aplicación móvil Warehouse Management notificar que se ha finalizado una producción o un pedido por lotes cuando la aplicación se ejecuta en una carga de trabajo de administración de almacén en una unidad de escala en la nube o en el perímetro. Para más información, consulte [Notificar como terminado y almacenado en una unidad de escalado](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Gestión de almacenes | Nuevas páginas de área de trabajo de planificación de la carga | Habilita dos nuevas páginas de área de trabajo de planificación de la carga: **Área de trabajo de planificación de la carga entrante** y **Área de trabajo de planificación de la carga saliente**. |
+| Gestión de almacenes | Nuevas páginas de área de trabajo de planificación de la carga | Agrega dos nuevas páginas de área de trabajo de planificación de la carga: **Área de trabajo de planificación de la carga entrante** y **Área de trabajo de planificación de la carga saliente**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 

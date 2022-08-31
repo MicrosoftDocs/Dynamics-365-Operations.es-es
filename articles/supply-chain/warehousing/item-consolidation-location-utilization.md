@@ -2,7 +2,7 @@
 title: 'Consolidación de artículos: utilización de ubicación'
 description: Este artículo proporciona información sobre la funcionalidad que facilita a los gerentes de almacén ver y filtrar la utilización volumétrica de ubicaciones en todo el almacén. Los gerentes pueden seleccionar ubicaciones y crear trabajos de movimiento de inventario directamente desde la página Consolidación de artículos para consolidar artículos y, por lo tanto, hacer un mejor uso del espacio de almacén.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219454"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336435"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidación de artículos: utilización de ubicación
 
@@ -30,8 +30,8 @@ Este artículo proporciona información sobre la funcionalidad que facilita a lo
 
 Antes de poder usar las funciones que se describen en este artículo, debe activarlas en su sistema. Los administradores pueden usar la configuración de [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas funciones y activarlas si es necesario. Active las dos siguientes características, en el orden en que se enumeran. (Ambas características son para el módulo **Gestión de almacenes**).
 
-1. *Estado de la ubicación del almacén* (A partir de la versión 10.0.29, esta función está activada de forma predeterminada. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
-2. *Uso de la ubicación de consolidación de artículos*
+1. *Estado de ubicación de almacén*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Para más información, consulte [Estado de localización de almacén](warehouse-location-status.md)).
+2. *Uso de la ubicación de consolidación de artículos*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
 
 ## <a name="warehouse-location-status"></a>Estado de ubicación de almacén
 

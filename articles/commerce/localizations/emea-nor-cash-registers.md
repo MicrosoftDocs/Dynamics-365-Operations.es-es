@@ -2,19 +2,19 @@
 title: Funcionalidad de caja registradora para Noruega
 description: Este artículo proporciona una descripción general de la función de caja registradora que está disponible para Noruega en Microsoft Dynamics 365 Commerce y proporciona pautas para configurar la funcionalidad.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 42eda805646dbb30b40528254a3137102e3075e4
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292746"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346028"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Funcionalidad de caja registradora para Noruega
 
@@ -117,6 +117,13 @@ Para utilizar la funcionalidad específica de Noruega, debe completar estas tare
 
 También debe especificar la siguiente configuración para Noruega.
 
+### <a name="enable-features-for-norway"></a>Habilitar las funciones de Noruega
+
+Debe habilitar las siguientes características en en el espacio de trabajo **Administración de funciones** de Commerce headquarters:
+
+- (Noruega) Habilitar eventos de auditoría adicionales en PDV
+- (Noruega) Habilitar información adicional en extractos de final de día en PDV
+
 ### <a name="set-up-the-legal-entity"></a>Establezca la entidad jurídica
 
 Asegúrese de especificar el nombre de la entidad jurídica. Este nombre se imprimirá en los informes X y Z.
@@ -149,7 +156,7 @@ Sobre la página **Texto de idioma**, agregue los siguientes registros para las 
 
 | Id. del idioma | Texto                   | Id. de texto |
 |-------------|------------------------|---------|
-| en-US       | Título del recibo          | 900011  |
+| es-es       | Título del recibo          | 900011  |
 | en-US       | Es una tarjeta regalo           | 900012  |
 | en-US       | Total (ventas)          | 900013  |
 | en-US       | Impuesto total (ventas)      | 900014  |

@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9270677"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9296005"
 ---
 # <a name="tax-calculation-overview"></a>Información general del cálculo de impuestos
 
@@ -85,6 +85,7 @@ Le recomendamos que importe y configure su configuración de cálculo de impuest
 | 10.0.26         | Configuración de Cálculo de impuestos 40.54.234 |
 | 10.0.27         | Configuración de Cálculo de impuestos 40.54.234 |
 | 10.0.28         | Configuración de Cálculo de impuestos 40.54.234 |
+| 10.0.29         | Configuración de Cálculo de impuestos 40.55.236 |
 
 
 ## <a name="data-flow"></a>Flujo de datos
@@ -156,7 +157,8 @@ En la versión 10.0.28 se admiten las siguientes transacciones:
 
 En la versión 10.0.29 se admiten las siguientes transacciones: 
 
-- Diario periódico
+
+- Diarios periódicos
 
 ## <a name="supported-countriesregions"></a>Países o regiones admitidos
 

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64e536bad996e9a1948dad18437ec6f98ad27033
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: df523dd4da11e24c7b601c8f34aef24ad6cb3b18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691733"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337096"
 ---
 # <a name="configure-life-event-types"></a>Configurar tipos de eventos de vida
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources usa **tipos de eventos de vida** para definir eventos donde es válido actualizar la inscripción de prestaciones para empleados, como al casarse o tener un hijo. Cada id. de tipo de evento de vida solo puede asociarse con un tipo de evento de vida. Por ejemplo, si crea una **id. de evento de vida** llamada **Cambio de dirección** asociado con el tipo de evento de vida **Cambio de dirección de empleado**, no puede crear otra id. con la etiqueta **Cambio de dirección de empleado** y asociarla con el tipo de evento de vida **Cambio de dirección de empleado**. Si un tipo de evento de vida no está asociado con un tipo de plan, el tipo de evento de vida no desencadenará un evento de vida. Para obtener más información, consulte [Crear tipos de planes](hr-benefits-setup-plan-types.md).
 

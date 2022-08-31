@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895768"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306185"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar la aplicación Inventory Visibility
 
@@ -70,10 +70,24 @@ Para registrar una solicitud de reserva, debe introducir un valor en el cuerpo d
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Resumen de inventario
 
-**Resumen de inventario** es una vista personalizada para la entidad *Suma de inventario disponible*. Proporciona un resumen de inventario de productos junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility cada 15 minutos. Para ver datos en la pestaña **Resumen de inventario**, debe activar la característica *OnHandMostSpecificBackgroundService* en la pestaña **Gestión de funciones** y seleccionar **Configuración de actualización**.
+La página **Resumen de inventario** proporciona un resumen de inventario de productos, junto con todas las dimensiones. Es una vista personalizada para la entidad *Suma de inventario disponible*. Los datos de resumen de inventario se sincronizan periódicamente desde Inventory Visibility.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Habilite el resumen de inventario y establezca la frecuencia de sincronización
+
+Para habilitar la página **Resumen de inventario** y establecer la frecuencia de sincronización, siga estos pasos:
+
+1. Abra la página **Configuración**.
+1. Abra la pestaña **Administración y configuración de características**.
+1. Ajuste el interruptor de palanca para la característica **OnHandMostSpecificBackgroundService** en *Sí*.
+1. Cuando la función está habilitada, la sección **Configuración del servicio** está disponible e incluye una fila para configurar la característica **OnHandMostSpecificBackgroundService**. Esta configuración le permite elegir la frecuencia con la que se sincronizan los datos de resumen de inventario. Utilizar los botones **Arriba** y **Abajo** en la columna **Valor** para cambiar el tiempo entre sincronizaciones (que puede ser tan bajo como 5 minutos). A continuación, seleccione **Guardar**.
+1. Seleccione **Actualizar configuración** para guardar todos los cambios.
+
+![Configuración OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Configuración OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
 > La característica *OnHandMostSpecificBackgroundService* solo rastrea los cambios de productos disponibles que ocurrieron después de activar la característica. Los datos de los productos que no han cambiado desde que activó la característica no se sincronizarán desde la caché del servicio de inventario al entorno de Dataverse. Si la página **Resumen de inventario** no muestra toda la información disponible que espera, vaya a **Gestión del inventario > Tareas periódicas > Integración de Visibilidad de inventario**, deshabilite el trabajo por lotes y vuelva a habilitarlo. Esto hará la inserción inicial y todos los datos se sincronizarán con la entidad *Suma de disponibilidad de inventario* en los próximos 15 minutos. Si desea utilizar esta característica, le recomendamos que la active antes de crear cualquier cambio disponible y habilite el trabajo por lotes **Integración de Visibilidad de inventario**.
+
+### <a name="work-with-the-inventory-summary"></a>Trabajar con el resumen de inventario
 
 Usando el **filtro Avanzado** que proporciona Dataverse, puede crear una vista personal que muestre las filas que son importantes para usted. Las opciones de filtro avanzadas le permiten crear una amplia gama de vistas, desde simples hasta complejas. También le permiten agregar condiciones agrupadas y anidadas a los filtros. Para obtener más información sobre cómo utilizar el **filtro Avanzado**, consulte [Editar o crear vistas personales utilizando filtros de cuadrícula avanzados](/powerapps/user/grid-filters-advanced).
 

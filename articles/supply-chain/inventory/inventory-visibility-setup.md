@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895710"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306066"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar Inventory Visibility
 
@@ -88,20 +88,6 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 >
 > 1. Una vez finalizada la instalación, vuelva a la página de LCS e intente volver a instalar el complemento **Visibilidad de inventario**.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar el complemento de visibilidad de inventario
-
-Para desinstalar el complemento de visibilidad de inventario, seleccione **Desinstalar** en la página LCS. El proceso de desinstalación finaliza el complemento de visibilidad de inventario, anula el registro del complemento de LCS y elimina los datos temporales almacenados en la caché de datos del complemento de visibilidad de inventario. Sin embargo, los datos de inventario principal que se almacenan en su suscripción de Dataverse no se eliminan.
-
-Para desinstalar los datos de inventario almacenados en su suscripción de Dataverse, abra [Power Apps](https://make.powerapps.com), seleccione **Entorno** en la barra de navegación y seleccione el entorno de Dataverse que está vinculado con su entorno LCS. Luego vaya a **Soluciones** y elimine las siguientes cinco soluciones en este orden:
-
-1. Anclar la solución para la aplicación Inventory Visibility en soluciones de Dynamics 365
-1. Solución de aplicaciones de Dynamics 365 FNO SCM Inventory Visibility
-1. Configuración del servicio de inventario
-1. Visibilidad de inventario independiente
-1. Solución básica de Dynamics 365 FNO SCM Inventory Visibility
-
-Después de eliminar estas soluciones, también se eliminarán los datos almacenados en tablas.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar la visibilidad del inventario en Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implementar el paquete de integración de visibilidad de inventario
@@ -135,10 +121,45 @@ Una vez que haya instalado el complemento, prepare su sistema de Supply Chain Ma
 
 1. Si habilitó la función opcional *Integración de visibilidad de inventario con compensación de reserva*, abra la pestña **Compensación de reserva** y realice los siguientes ajustes:
     - **Habilitar compensación de reserva** - Ajustado a *Sí* para habilitar esta funcionalidad.
-    - **Modificador de compensación de reserva** - Seleccione el estado de la transacción de inventario que compensará las reservas realizadas en Visibilidad de inventario. Esta configuración determina la etapa de procesamiento del pedido que desencadena las compensaciones. La etapa se rastrea por el estado de la transacción de inventario del pedido. Elija una opción de las siguientes:
+    - **Modificador de compensación de reserva** - Seleccione el estado de la transacción de inventario que compensará las reservas realizadas en Visibilidad de inventario. Esta configuración determina la etapa de procesamiento del pedido que desencadena las compensaciones. La etapa se rastrea por el estado de la transacción de inventario del pedido. Seleccione una de las siguientes opciones:
         - *En orden* - Para el estado *En la transacción*, un pedido enviará una solicitud de compensación cuando se cree. La cantidad de compensación será la cantidad del pedido creado.
         - *Reserva* – Para el estado *Transacción de reserva solicitada*, un pedido enviará una solicitud de compensación cuando esté reservado, recogido, publicado en el albarán o facturado. La solicitud se disparará solo una vez, para el primer paso cuando se produzca el proceso mencionado. La cantidad de compensación será la cantidad a partir de la cual cambió el estado de la transacción de inventario de *En orden* a *Reservado ordenado* (o estado posterior) en la línea de pedido correspondiente.
 
 1. Ir **Gestión del inventario \> Periódico \> Integración de visibilidad de inventario** y habilite el trabajo. Todos los eventos de cambio de inventario de Supply Chain Management ahora se publicarán en Visibilidad de inventario.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar el complemento de visibilidad de inventario
+
+Para desinstalar el complemento de visibilidad de inventario, siga estos pasos:
+
+1. Inicie sesión en de Supply Chain Management.
+1. Ir **Gestión del inventario \> Periódico \> Integración de visibilidad de inventario** y deshabilite el trabajo.
+1. Vaya a LCS y abra la página del entorno en el que desea desinstalar el complemento (consulte también [Instalar el complemento de visibilidad de inventario](#install-add-in)).
+1. Seleccione **Desinstalar**.
+1. El proceso de desinstalación ahora finaliza el complemento de visibilidad de inventario, anula el registro del complemento de LCS y elimina los datos temporales almacenados en la caché de datos del complemento de visibilidad de inventario. Sin embargo, los datos de inventario principal que se sincronizaron con su suscripción de Dataverse todavía se almacenan allí. Para eliminar estos datos, complete el resto de este procedimiento.
+1. Abra [Power Apps](https://make.powerapps.com).
+1. Seleccione **Entorno** en la barra de navegación
+1. Seleccione el entorno de Dataverse que está enlazado con su entorno LCS.
+1. Vaya a **Soluciones** y elimine las siguientes cinco soluciones en este orden:
+    1. Anclar la solución para la aplicación Inventory Visibility en soluciones de Dynamics 365
+    1. Solución de aplicaciones de Dynamics 365 FNO SCM Inventory Visibility
+    1. Configuración del servicio de inventario
+    1. Visibilidad de inventario independiente
+    1. Solución básica de Dynamics 365 FNO SCM Inventory Visibility
+
+    Después de eliminar estas soluciones, también se eliminarán los datos almacenados en tablas.
+
+> [!NOTE]
+> Si restaura una base de datos de Supply Chain Management después de desinstalar el complemento Inventory Visibility y luego desea volver a instalar el complemento, asegúrese de haber eliminado los datos antiguos de Inventory Visibility que están almacenados en su suscripción a Dataverse (como se describe en el procedimiento anterior) antes de reinstalar el complemento. Esto evitará problemas de inconsistencia de datos que de otro modo podrían ocurrir.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>Limpiar datos de visibilidad de inventario de Dataverse antes de restaurar la base de datos de Supply Chain Management
+
+Si ha estado usando Inventory Visibility y luego restauró su base de datos de Supply Chain Management, entonces su base de datos restaurada puede contener datos que ya no son consistentes con los datos sincronizados previamente por Inventory Visibility para Dataverse. Esta inconsistencia de datos puede causar errores del sistema y otros problemas. Por lo tanto, es importante que siempre limpie todos los datos de Visibilidad de inventario de Dataverse antes de restaurar una base de datos de Supply Chain Management.
+
+Si necesita restaurar una base de datos de Supply Chain Management, use el siguiente procedimiento:
+
+1. Desinstale el complemento de visibilidad de inventario y quite todos los datos relacionados de Dataverse, como se describe en [Desinstalar el complemento de visibilidad del inventario](#uninstall-add-in)
+1. Restaure su base de datos de Supply Chain Management, por ejemplo, como se describe en [Restauración de un punto en el tiempo de la base de datos (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) o [Restauración en un momento dado de la base de datos de producción en un entorno de espacio aislado](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Si aún desea usarlo, vuelva a instalar y configure el complemento de visibilidad de inventario como se describe en [Instalar el complemento de visibilidad de inventario](#install-add-in) y [Configurar la integración de visibilidad de inventario](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

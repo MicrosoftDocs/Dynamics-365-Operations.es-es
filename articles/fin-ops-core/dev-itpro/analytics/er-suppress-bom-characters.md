@@ -13,18 +13,18 @@ ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: EROperationDesigner
-ms.openlocfilehash: fa66edef7e39c72d4859a21a1474096f7bc1c1dd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9278808"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324032"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Diseñe configuraciones de ER para suprimir caracteres BOM en archivos generados
 
 [!include [banner](../includes/banner.md)]
 
-Puede diseñar una [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes. Para generar los documentos como archivos de texto o XML, la solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) ER que contiene un componente en formato ER. Para especificar la [codificación de caracteres](/windows/win32/intl/character-sets) que representa el conjunto de caracteres en archivos generados, el formato ER debe contener el elemento de formato **Común\\Archivo**. Para configurar el componente de formato ER, abra la versión [borrador](general-electronic-reporting.md#component-versioning) de la configuración ER creada en el diseñador de formato ER y añada el elemento **Común\\Archivo**. En el campo **Codificación**, especifique la codificación de los archivos salientes que se generan en tiempo de ejecución mediante este componente.
+Puede diseñar una [solución](er-quick-start1-new-solution.md) de [Informes electrónicos (ER)](general-electronic-reporting.md) para generar documentos salientes. Para generar los documentos como archivos de texto o XML, la solución debe incluir una [configuración](general-electronic-reporting.md#Configuration) ER que contiene un componente en formato ER. Para especificar la [codificación de caracteres](/windows/win32/intl/character-sets) que representa el conjunto de caracteres en archivos generados, el formato ER debe contener el elemento de formato **Común\\Archivo**. Para configurar el componente de formato ER, abra la versión borrador de la configuración ER creada en el diseñador de formato ER y añada el elemento **Común\\Archivo**. En el campo **Codificación**, especifique la codificación de los archivos salientes que se generan en tiempo de ejecución mediante este componente.
 
 > [!NOTE]
 > Si el formato contiene un nombre de codificación incorrecto, se genera un error al guardar los cambios en la configuración del formato.

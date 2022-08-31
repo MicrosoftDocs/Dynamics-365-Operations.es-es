@@ -2,7 +2,7 @@
 title: Poner en firme pedidos planificados
 description: Este artículo explica cómo confirmar pedidos planificados. Cuando se confirman los pedidos planificados, se convierten en pedidos de compra, pedidos de transferencia o pedidos de producción reales.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857529"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335357"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -37,19 +37,21 @@ La mayoría de las funciones de pedidos planificados están disponibles en todas
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activar o desactivar la confirmación en paralelo de pedidos planificados
 
-La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados. Para utilizar esta funcionalidad, la característica *Puesta en firme en paralelo de pedidos planificados* debe estar activada para su sistema. A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Puesta en firme en paralelo de pedidos planificados*.
+La confirmación en paralelo ayuda a acelerar el proceso de confirmación al paralelizarlo en varias conversaciones. Este enfoque puede resultar útil cuando se confirman muchos pedidos planificados. Para utilizar esta funcionalidad, la característica *Puesta en firme en paralelo de pedidos planificados* debe estar activada para su sistema. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Habilitar la confirmación de pedidos planificados con filtrado
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.25, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Puesta en firme en paralelo de pedidos planificados*.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Activar o desacivar la confirmación de pedidos planificados con filtrado
 
 La confirmación de pedidos planificados con filtrado le permite definir criterios lógicos para seleccionar qué pedidos planificados confirmar. También puede obtener una vista previa de los pedidos planificados que se seleccionaron, ejecutar el proceso en segundo plano y/o programarlo como un trabajo por lotes.
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Puesta en firme en paralelo de pedidos planificados* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Puesta en firme de pedido planificado con filtrado* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Habiitar la confirmación automática para Optimización de planificación
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Activar o desactivar la confirmación automática para Optimización de planificación
 
 La puesta en firme automática permite confirmar los pedidos planificados como parte del proceso de planificación maestra durante el intervalo de tiempo de confirmación. La confirmación automática siempre es compatible con el motor de planificación integrado en Supply Chain Management. Sin embargo, para usarlo también con Optimización de planificación, debe activar la función.
 
-Para que esta funcionalidad esté disponible en su sistema, vaya a [Gestión de funciones](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Confirmación automática para Optimización de planificación*. (A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada).
+A partir de la versión 10.0.21 de Supply Chain Management, esta función está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y buscando la característica *Puesta en firme automática para la Optimización de la planificación*.
 
 ## <a name="manually-firm-planned-orders"></a>Confirmar manualmente pedidos planificados
 
@@ -67,8 +69,8 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
 
     - **Actualizar marcado**: seleccione la directiva de marcado del inventario que desea utilizar al confirmar los pedidos planificados.
     - **Dejar de confirmar si ocurre un error**; establezca esta opción en *Sí* para dejar de confirmar todos los pedidos planificados seleccionados si se produce un error en uno de ellos. Esta opción debe establecerse en *No* si la opción **Parlelizar confirmación** está configurada en *Sí*.
-    - **Confirmación paralelizada**: esta opción está disponible solo si la [Función *Confirmación paralela de pedidos planificados*](#enable-features) está activada en su sistema, y si ha seleccionado dos o más pedidos planificados para confirmar. Establézcala en *Sí* para ejecutar los procesos de confirmación en paralelo. La confirmación en paralelo puede ayudar a mejorar el rendimiento.
-    - **Number of subprocesos**: esta opción está disponible solo si la [Función *Confirmación paralela de pedidos planificados*](#enable-features) está activada en su sistema, y si ha seleccionado la opción **Confirmación en paralelo** en *Sí*. Introduzca el el número de subprocesos que se utilizarán para paralelizar el proceso de confirmación. Para obtener consejos sobre cómo utilizar esta opción en la planificación maestra, consulte [Mejorar el rendimiento de la planificación maestra](../master-planning-performance.md#number-of-threads).
+    - **Confirmación paralelizada**: esta opción está disponible solo si la [Función *Confirmación paralela de pedidos planificados*](#enable-features) está activada para su sistema, y si ha seleccionado dos o más pedidos planificados para confirmar. Establézcala en *Sí* para ejecutar los procesos de confirmación en paralelo. La confirmación en paralelo puede ayudar a mejorar el rendimiento.
+    - **Number of subprocesos**: esta opción está disponible solo si la [Función *Confirmación paralela de pedidos planificados*](#enable-features) está activada para su sistema, y si ha seleccionado la opción **Confirmación en paralelo** en *Sí*. Introduzca el el número de subprocesos que se utilizarán para paralelizar el proceso de confirmación. Para obtener consejos sobre cómo utilizar esta opción en la planificación maestra, consulte [Mejorar el rendimiento de la planificación maestra](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Un valor de *0* (cero) para el campo **Número de subprocesos** aumenta el tiempo de ejecución de la planificación maestra. Por lo tanto, recomendamos que siempre establezca este campo en un valor que sea superior a 0.
@@ -97,7 +99,7 @@ La confirmación automática permite confirmar los pedidos planificados como par
 > Los pedidos derivados (es decir, pedidos de compra subcontratados) que estén confirmados mostrarán un estado de *En revisión* cuando el seguimiento de cambios esté habilitado.
 
 > [!IMPORTANT]
-> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada en su sistema, como se describe al principio de este artículo. La confirmación automática siempre se puede utilizar con el motor de planificación maestra incorporado.
+> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada para su sistema, como se describe al principio de este artículo. La confirmación automática siempre se puede utilizar con el motor de planificación maestra incorporado.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmación automática con Optimización de planificación frente al motor de planificación integrado
 
@@ -130,7 +132,7 @@ La confirmación basada en consultas le permite planificar la confirmación en f
 Puede combinar la confirmación automática con la confirmación basada en consultas. Por ejemplo, un trabajo de confirmación basado en consultas tiene un límite de tiempo hacia adelante que es más largo que el límite de tiempo para una configuración de cobertura de confirmación automática coincidente. Por lo tanto, el trabajo de confirmación basado en consultas procesará sus pedidos planificados antes de que se desencadene la confirmación automática. Puede aprovechar este comportamiento para programar pedidos para proveedores específicos de manera diferente a los pedidos de productos similares de otros proveedores.
 
 > [!IMPORTANT]
-> Antes de que la función que se describe en esta sección se pueda utilizar, la [función *Confirmación de pedidos planificados con fitrado*](#enable-features) debe estar activada en su sistema, como se describe al principio de este artículo.
+> Antes de que la función que se describe en esta sección se pueda utilizar, la [función *Confirmación de pedidos planificados con fitrado*](#enable-features) debe estar activada para su sistema, como se describe al principio de este artículo.
 
 Para confirmar un pedido planificado mediante el proceso de confirmación basado en consultas, siga estos pasos.
 

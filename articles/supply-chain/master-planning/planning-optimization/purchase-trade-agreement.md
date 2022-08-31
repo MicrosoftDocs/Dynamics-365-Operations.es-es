@@ -2,7 +2,7 @@
 title: Planificación maestra con acuerdos comerciales de compra
 description: Este artículo describe cómo Optimización de planificación puede encontrar el proveedor y/o el tiempo de entrega de un pedido planificado, en función del mejor precio o tiempo de entrega que se encuentra en los acuerdos comerciales de compra.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873764"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335237"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planificación maestra con acuerdos comerciales de compra
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873764"
 
 Este artículo describe cómo Optimización de planificación puede encontrar el proveedor y/o el tiempo de entrega de un pedido planificado, en función del mejor precio o tiempo de entrega que se encuentra entre todos los acuerdos comerciales de compra que se han especificado para un producto determinado.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Active los acuerdos comerciales de compra para la característica Optimización de planificación
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Activar o desactivar los acuerdos comerciales de compra para la característica Optimización de planificación
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
-
-- **Módulo:** *Planificación maestra*
-- **Nombre de característica:** *Acuerdos comerciales de compra para Optimización de planificación*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Acuerdos comerciales de compra para la optimización de la planificación* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Prepare su sistema para evaluar los acuerdos comerciales de compra durante la planificación maestra
 

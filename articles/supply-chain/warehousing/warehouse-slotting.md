@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218956"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336047"
 ---
 # <a name="warehouse-slotting"></a>Slotting de almacén
 
@@ -34,7 +34,7 @@ La función *Mejoras en la asignación de espacios en el almacén* agrega una op
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Activar las características de slotting de almacén
 
-Antes de poder usar estas características, deben estar activadas en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas características y activarlas si es necesario. Active las siguientes funciones según sea necesario:
+Antes de poder usar estas características, deben estar activadas para su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas características y activarlas si es necesario. Active las siguientes funciones según sea necesario:
 
 - Función de asignación de almacén
 - Slotting de almacén para pedidos de transferencia

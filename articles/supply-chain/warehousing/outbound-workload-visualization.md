@@ -2,7 +2,7 @@
 title: Visualización de carga de trabajo de salida
 description: Este artículo proporciona información acerca de la visualización de la carga de trabajo. Esta funcionalidad permite a los gerentes y supervisores del almacén crear gráficos de carga de trabajo personalizados que se pueden usar para monitorear el progreso del trabajo actual y la cantidad que queda. Los gerentes de almacén pueden crear múltiples vistas y configurar la actualización automática según lo requieran.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851344"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334427"
 ---
 # <a name="outbound-workload-visualization"></a>Visualización de carga de trabajo de salida
 
@@ -29,7 +29,7 @@ Esta funcionalidad se puede utilizar para realizar un seguimiento del progreso d
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Activar o desactivar la característica de visualización de carga de trabajo
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Visualización de carga de trabajo* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Visualización de carga de trabajo de salida* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Configurar las visualizaciones de carga de trabajo de salida
 

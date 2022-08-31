@@ -2,7 +2,7 @@
 title: Informe para Comparar precios de almacenamiento de artículos
 description: Aprenda a generar un informe para Comparar precios de almacenamiento de artículos y después explorar y/o exportar el resultado.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846224"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334997"
 ---
 # <a name="compare-item-prices-storage-report"></a>Informe para Comparar precios de almacenamiento de artículos
 
@@ -35,12 +35,9 @@ Los resultados del informe se almacenan en la entidad de datos **Comparar precio
 
 El informe **Comparar precios de almacenamiento de artículos** es útil en los casos en que la salida contiene muchas líneas. Por ejemplo, la salida contendrá muchas líneas si tiene más de 40.000 artículos con un precio de artículo pendiente en la versión de gestión de costes.
 
-## <a name="enable-compare-item-prices-storage"></a>Habilitar comprar precios de almacenamiento de artículos
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Activar o desactivar la característica de almacenamiento de comparar precios de artículos
 
-Antes de poder usar esta función debe habilitarla en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y habilitarla si es necesario. Aquí, la función aparece como:
-
-- **Módulo** - Gestión de costes
-- **Nombre de la función** - Comparar el precio de almacenamiento del artículo
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Comparación de precios de artículos* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Generar un informe Comprar precios de almacenamiento de artículo
 

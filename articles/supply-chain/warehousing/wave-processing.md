@@ -2,7 +2,7 @@
 title: Creación y procesamiento de oleadas
 description: En este artículo se describe cómo crear, procesar y liberar una oleada para crear un trabajo de picking para una carga, un envío, un pedido de producción o un pedido del kanban.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014630"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336017"
 ---
 # <a name="wave-creation-and-processing"></a>Creación y procesamiento de oleadas
 
@@ -191,7 +191,7 @@ Use la página **Detalles del trabajo por lotes de oleada** para inspeccionar lo
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Activar o desactivar la página de detalles del trabajo por lotes de oleada
 
-A partir de la versión 10.0.25 de Supply Chain Management, la página **Detalles del trabajo por lotes de oleada** está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Detalles del trabajo por lotes de oleada* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Detalles del trabajo por lotes de oleada* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Use la página de detalles del trabajo por lotes de oleada
 

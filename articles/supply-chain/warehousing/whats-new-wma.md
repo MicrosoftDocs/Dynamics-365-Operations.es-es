@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9189003"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324215"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20310"></a>Versión 2.0.31.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+
+-   Rendimiento y estabilidad mejorados.
+-   Interfaz de usuario mejorada que hace que sea más rápido y fácil trabajar con largas listas de selección. Los trabajadores ahora pueden buscar un elemento de la lista por nombre en lugar de desplazarse por la lista completa.
+-   Se solucionó un problema por el cual los valores ingresados previamente no se sobrescribían al escanear por carácter.
 
 ## <a name="version-20300"></a>Versión 2.0.30.0
 

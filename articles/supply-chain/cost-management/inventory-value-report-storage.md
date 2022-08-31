@@ -2,7 +2,7 @@
 title: Informes de valor de inventario
 description: Este artículo explica cómo configurar, generar y usar informes de valor de inventario. Estos informes proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854569"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334937"
 ---
 # <a name="inventory-value-reports"></a>Informes de valor de inventario
 
@@ -55,7 +55,7 @@ El informe **Almacenamiento de informes de valor de inventario** es útil cuando
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>Activar o desactivar la característica de almacenamiento de informes de valor de inventario
 
-A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Almacenamiento de informes de valor de inventario* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Almacenamiento de informes de valor de inventario* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Definir configuraciones de informes de valor de inventario
 

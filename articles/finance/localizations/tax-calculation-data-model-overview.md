@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b47ec3922621a15ee1fb1aa8ab1559d9a57418e3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fc90964a5b0bd31b28a8c8d9b7474c063da34205
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220314"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295972"
 ---
 # <a name="tax-calculation-data-model"></a>Modelo de datos de cálculo de impuestos
 
@@ -64,6 +64,7 @@ El modelo de datos de cálculo de impuestos está integrado con aplicaciones de 
     *Restricción:* [un bono](../general-ledger/one-voucher.md#issues-with-one-voucher) y la tarifa de pago no son compatibles.
 
 - **Diario de facturas de proveedores:** Compatible a partir de la versión 40.54.234 y Finance versión 10.0.26.
+- **Diarios periódicos:** Compatible a partir de la versión 40.55.236 y Finance versión 10.0.29.
 
 ## <a name="field-mapping"></a>Asignación de campos
 

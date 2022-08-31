@@ -2,7 +2,7 @@
 title: Crear pedidos de transferencia desde la aplicación de almacén
 description: Este artículo describe cómo crear y procesar pedidos de transferencia desde la función de la aplicación móvil de gestión de almacenes
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877461"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336467"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Crear pedidos de transferencia desde la aplicación de almacén
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877461"
 
 Esta característica permite a los trabajadores de almacén crear y procesar pedidos de transferencia directamente desde la aplicación móvil de gestión de almacenes. Los trabajadores comienzan seleccionando el almacén de destino y luego pueden escanear una o más placas con la aplicación para agregar placas a la orden de transferencia. Cuando el trabajador del almacén selecciona **Orden completa**, un trabajo por lotes creará la orden de transferencia requerida y las líneas de orden según el inventario disponible registrado para esas placas.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Activar o desactivar esta característica
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Active esta función y sus requisitos previos
 
 Antes de poder usar esta característica, esta y sus requisitos previos deben estar habilitados en su sistema. Los administradores pueden usar la página [administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario.
 
 1. Habilite las siguientes dos características (en orden) en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partir de la versión 10.0.25 de Supply Chain Management, estas dos características están activada de forma predeterminada.
-    1. *Procesar eventos de la aplicación de almacén*
-    1. *Crear y procesar pedidos de transferencia desde la aplicación de almacén*
-1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [Confirmar envíos salientes de trabajos por lotes](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Procesar eventos de la aplicación de almacén*<br>(A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar).
+    1. *Crear y procesar pedidos de transferencia desde la aplicación de almacén*<br>(A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar).
+1. Para automatizar el procesamiento de los envíos salientes, también debe habilitar la característica [*Confirmar envíos salientes de trabajos por lotes*](confirm-outbound-shipments-from-batch-jobs.md). A partir de la versión 10.0.21 de Supply Chain Management, esta característica está activada de forma predeterminada. A partir de la versión 10.0.25 de Supply Chain Management, esta característica es obligatoria y no se puede desactivar.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Configurar un elemento de menú del dispositivo móvil para crear pedidos de transferencia
 
@@ -307,11 +307,11 @@ No, no puede agregar más placas a una orden de transferencia que tiene un event
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>¿Cómo puedo encontrar órdenes de transferencia existentes para usar a través del botón "Seleccionar orden de transferencia" en la aplicación móvil de gestión de almacenes, si la orden aún no se ha creado en el sistema backend?
 
-Actualmente, no puede buscar órdenes de transferencia en la aplicación, pero puede encontrar los números de las órdenes de transferencia en la página **Eventos de la aplicación de almacén**. Para más información, vea [Consultar los eventos de la aplicación de almacén](#inquire-the-warehouse-app-events).
+Puede hacer posible que los trabajadores busquen números de orden de transferencia en la aplicación móvil Gestión de almacenes mediante su capacidad de [consulta de datos](warehouse-app-data-inquiry.md). Por ejemplo, podría crear un elemento de menú del dispositivo móvil [desvío](warehouse-app-detours.md) que consulta los datos que se muestran en la página **Eventos de la aplicación de almacén** del cliente web (`WHSMobileDeviceQueueMessageCollection`) como parte del paso *Seleccionar orden - MobileDeviceQueueMessageCollectionIdentifierId*. El número de orden de transferencia coincide con el valor que se muestra en el campo **identificador**. Consulte también [Consultar sobre los eventos de la aplicación de almacén](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>¿Puedo seleccionar manualmente el número de orden de transferencia que se utilizará desde la aplicación móvil de gestión de almacenes?
 
-Solo se admiten los números de orden de transferencia generados automáticamente mediante secuencias de números.
+Solo se admiten los números de orden de transferencia generados automáticamente mediante secuencias de números. Consulte también la respuesta a la pregunta anterior sobre cómo configurar el botón **Seleccionar orden de transferencia**. Para obtener más información sobre cómo encontrar números de orden de transferencia, consulte [Consultar los eventos de la aplicación del almacén](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Procesamiento en segundo plano
 

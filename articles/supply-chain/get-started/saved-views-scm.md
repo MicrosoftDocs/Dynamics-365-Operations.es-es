@@ -2,7 +2,7 @@
 title: Vistas estándar guardadas para Supply Chain Management
 description: Este artículo describe las vistas guardadas estándar que están disponibles y explica cómo habilitarlas.
 author: kamaybac
-ms.date: 02/03/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f94fffb9aa2c208b8c2c0005a2892853eda66a01
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887584"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334847"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vistas estándar guardadas para Supply Chain Management
 
@@ -47,15 +47,15 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo de 
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Lista disponible | Operaciones financieras | Esta vista simplificada le permite concentrarse en la información financiera mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Lista disponible | Control de calidad | Esta vista simplificada le permite concentrarse en el control de calidad mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Lista disponible | Recepción | Esta vista simplificada le permite concentrarse en las operaciones de recepción mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Lista disponible | Envío | Esta vista simplificada le permite concentrarse en las operaciones de envío mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Transacciones | Simplificado | Esta vista simplificada le permite revisar el estado del inventario sin distraerse con la información financiera y otros campos que se utilizan con menos frecuencia. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Pedidos de transferencia | Envío | Esta vista simplificada le permite concentrarse en las operaciones de envío mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Pedidos de transferencia | Recepción | Esta vista simplificada le permite concentrarse en las operaciones de recepción mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Pedidos de transferencia | Control de calidad | Esta vista simplificada le permite concentrarse en las operaciones de control de calidad mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Pedidos de transferencia | Operaciones financieras | Esta vista simplificada le permite concentrarse en la información financiera mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21) |
+| Lista disponible | Operaciones financieras | Esta vista simplificada le permite concentrarse en la información financiera mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Lista disponible | Control de calidad | Esta vista simplificada le permite concentrarse en el control de calidad mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Lista disponible | Recepción | Esta vista simplificada le permite concentrarse en las operaciones de recepción mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Lista disponible | Envío | Esta vista simplificada le permite concentrarse en las operaciones de envío mientras administra el inventario disponible. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Transacciones | Simplificado | Esta vista simplificada le permite revisar el estado del inventario sin distraerse con la información financiera y otros campos que se utilizan con menos frecuencia. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Pedidos de transferencia | Envío | Esta vista simplificada le permite concentrarse en las operaciones de envío mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Pedidos de transferencia | Recepción | Esta vista simplificada le permite concentrarse en las operaciones de recepción mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Pedidos de transferencia | Control de calidad | Esta vista simplificada le permite concentrarse en las operaciones de control de calidad mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Pedidos de transferencia | Operaciones financieras | Esta vista simplificada le permite concentrarse en la información financiera mientras administra los pedidos de transferencias. | Vistas guardadas para Gestión del inventario<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Vistas guardadas para el módulo de planificación maestra
 
@@ -63,8 +63,8 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo de 
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Pedidos planificados: página de detalles del pedido planificado | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para trabajar con los detalles de un solo pedido planificado. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para pedidos planificados<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Pedidos planificados: página de lista de pedidos planificados | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para trabajar con la lista de pedidos planificados. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para pedidos planificados<br><br>(Activado por defecto a partir de la versión 10.0.25) |
+| Pedidos planificados: página de detalles del pedido planificado | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para trabajar con los detalles de un solo pedido planificado. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para pedidos planificados<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Pedidos planificados: página de lista de pedidos planificados | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para trabajar con la lista de pedidos planificados. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para pedidos planificados<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Vistas guardadas para el módulo Adquisiciones y abastecimiento
 
@@ -72,10 +72,10 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo Adq
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Detalles del pedido de compra | Creación de pedidos | Esta vista simplificada está optimizada para crear nuevos pedidos de compra. | Vistas guardadas para pedidos de compra<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Detalles del pedido de compra | Administración de inventario | Esta vista simplificada está optimizada para realizar actividades relacionadas con el inventario, como hacer un seguimiento del inventario que se ha recibido, recibir inventario, verificar los requisitos netos y ajustar las cantidades de los pedidos. | Vistas guardadas para pedidos de compra<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Detalles del pedido de compra | Administración financiera | Esta vista simplificada está optimizada para realizar actividades relacionadas con las finanzas, como facturación y verificación de precios, totales y cargos. | Vistas guardadas para pedidos de compra<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Detalles del pedido de compra | Aprobación de pedido | Esta vista simplificada está optimizada para aprobar pedidos de compra. | Vistas guardadas para pedidos de compra<br><br>(Activado por defecto a partir de la versión 10.0.25) |
+| Detalles del pedido de compra | Creación de pedidos | Esta vista simplificada está optimizada para crear nuevos pedidos de compra. | Vistas guardadas para pedidos de compra<br><br>Activado por defecto a partir de la versión 10.0.25. Se quitó desde la versión 10.0.29). |
+| Detalles del pedido de compra | Administración de inventario | Esta vista simplificada está optimizada para realizar actividades relacionadas con el inventario, como hacer un seguimiento del inventario que se ha recibido, recibir inventario, verificar los requisitos netos y ajustar las cantidades de los pedidos. | Vistas guardadas para pedidos de compra<br><br>Activado por defecto a partir de la versión 10.0.25. Se quitó desde la versión 10.0.29). |
+| Detalles del pedido de compra | Administración financiera | Esta vista simplificada está optimizada para realizar actividades relacionadas con las finanzas, como facturación y verificación de precios, totales y cargos. | Vistas guardadas para pedidos de compra<br><br>Activado por defecto a partir de la versión 10.0.25. Se quitó desde la versión 10.0.29). |
+| Detalles del pedido de compra | Aprobación de pedido | Esta vista simplificada está optimizada para aprobar pedidos de compra. | Vistas guardadas para pedidos de compra<br><br>Activado por defecto a partir de la versión 10.0.25. Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Vistas guardadas para el módulo de gestión de información del producto
 
@@ -83,11 +83,11 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo de 
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Lista de productos lanzados | Creación de producto | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al crear productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Detalles de producto emitido | Creación de producto | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al crear productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Detalles de producto emitido | Administración de información de logística | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información de logística de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Detalles de producto emitido | Administración de información de compra | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información de compra de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Detalles de producto emitido | Administración de información de ventas | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información relacionada con ventas de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21) |
+| Lista de productos lanzados | Creación de producto | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al crear productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Detalles de producto emitido | Creación de producto | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al crear productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Detalles de producto emitido | Administración de información de logística | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información de logística de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Detalles de producto emitido | Administración de información de compra | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información de compra de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Detalles de producto emitido | Administración de información de ventas | Vista de página simplificada que solo incluye los campos que se usan con más frecuencia al administrar información relacionada con ventas de productos. | Vistas guardadas para productos emitidos<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vistas guardadas para el módulo Control de producción
 
@@ -95,10 +95,10 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo Con
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Página de L.MAT de pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Página de detalles del pedido de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Página de listas de selección de órdenes de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21) |
-| Página de lista de pedidos de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21) |
+| Página de L.MAT de pedido de producción | Simplificada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Página de detalles del pedido de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Página de listas de selección de órdenes de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
+| Página de lista de pedidos de producción | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vistas guardadas para el control de producción<br><br>(Activado por defecto a partir de la versión 10.0.21. Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vistas guardadas para el módulo de marketing y Sales
 
@@ -106,10 +106,10 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo Adq
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Diario del albarán | Revisión del diario | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para revisar los diarios de albarán. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Pedido de ventas | Creación de pedido | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para crear pedidos de ventas. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Pedido de ventas | Revisión del pedido | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para revisar pedidos de ventas. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Presupuesto de ventas | Creación de presupuesto | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para crear presupuestos. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25) |
+| Diario del albarán | Revisión del diario | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para revisar los diarios de albarán. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Pedido de ventas | Creación de pedido | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para crear pedidos de ventas. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Pedido de ventas | Revisión del pedido | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para revisar pedidos de ventas. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Presupuesto de ventas | Creación de presupuesto | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para crear presupuestos. | Vistas guardadas para ventas y marketing<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Vistas guardadas para el módulo de gestión de almacén
 
@@ -117,13 +117,13 @@ La siguiente tabla describe las vistas guardadas disponibles para el módulo de 
 
 | Página | Nombre de vista | Ver la descripción | Nombre de característica |
 |---|---|---|---|
-| Todas las cargas | Procesamiento de entrada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar cargas de entrada. | Vistas guardadas para procesamiento de carga<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Todas las cargas | Procesamiento saliente | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar cargas de salida. | Vistas guardadas para procesamiento de carga<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Todos los envíos | Procesamiento entrante | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar envíos de entrada. | Vistas guardadas para procesamiento de envíos<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Todos los envíos | Procesamiento saliente | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar envíos de salida. | Vistas guardadas para procesamiento de envíos<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Todas las oleadas | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para procesamiento de oleadas<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Área de trabajo de planificación de la carga | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para el área de trabajo de planificación de la carga<br><br>(Activado por defecto a partir de la versión 10.0.25) |
-| Detalles del trabajo | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para la página de detalles del trabajo<br><br>(Activado por defecto a partir de la versión 10.0.25) |
+| Todas las cargas | Procesamiento de entrada | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar cargas de entrada. | Vistas guardadas para procesamiento de carga<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Todas las cargas | Procesamiento saliente | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar cargas de salida. | Vistas guardadas para procesamiento de carga<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Todos los envíos | Procesamiento entrante | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar envíos de entrada. | Vistas guardadas para procesamiento de envíos<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Todos los envíos | Procesamiento saliente | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia para procesar envíos de salida. | Vistas guardadas para procesamiento de envíos<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Todas las oleadas | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para procesamiento de oleadas<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Área de trabajo de planificación de la carga | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para el área de trabajo de planificación de la carga<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
+| Detalles del trabajo | Simplificado | Esta vista simplificada incluye solo los campos que se utilizan con más frecuencia. De esta manera, proporciona una descripción general más rápida y un proceso de trabajo simplificado. | Vista guardada para la página de detalles del trabajo<br><br>(Activado por defecto a partir de la versión 10.0.25 Se quitó desde la versión 10.0.29). |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

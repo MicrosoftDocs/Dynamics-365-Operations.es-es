@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219790"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336377"
 ---
 # <a name="gs1-bar-codes"></a>Códigos de barras GS1
 
@@ -108,10 +108,10 @@ Después de analizar los datos del código de barras, se introducirán en los co
 
 ## <a name="turn-on-the-gs1-feature"></a>Activar la característica GS1
 
-Para poder usar esta característica, debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Para poder usar esta característica, debe estar activada para su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de la característica:** *Escanear códigos de barras GS1*
+- **Nombre de la función:** *Escanear códigos de barras GS1*
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Activar la función Analizador mejorado para la característica de códigos de barras GS1
 
@@ -134,7 +134,7 @@ Siga estos pasos para configurar opciones globales de GS1.
 
     - **Carácter FNC1**, **Carácter de Datamatrix** y **Carácter de código QR**: especifican los caracteres que deben interpretarse como un prefijo para cada tipo de código de barras GS1.
     - **Separador de grupos**: especifique el carácter que reemplaza al carácter separador de grupo ASCII.
-    - **Longitud máxima del identificador**: especifique el número máximo de caracteres permitido para el identificador de aplicación. Este campo no es obligatorio si la característica *Analizador GS1 mejorado* está activada en su sistema.
+    - **Longitud máxima del identificador**: especifique el número máximo de caracteres permitido para el identificador de aplicación. Este campo no es obligatorio si la característica *Analizador GS1 mejorado* está activada para su sistema.
 
 > [!NOTE]
 > Los prefijos indican al sistema que un código de barras está codificado según el estándar GS1. Se pueden utilizar hasta tres prefijos (**Carácter FNC1**, **Carácter Datamatrix** y **Carácter de código QR**) simultáneamente y para diversos fines.

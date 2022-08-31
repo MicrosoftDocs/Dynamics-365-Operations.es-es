@@ -2,7 +2,7 @@
 title: Certificación de origen USMCA
 description: Esta función le permite imprimir los documentos de certificación de origen requeridos por el Acuerdo Estados Unidos-México-Canadá (USMCA).
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851373"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336557"
 ---
 # <a name="usmca-certification-of-origin"></a>Certificación de origen USMCA
 
@@ -33,12 +33,9 @@ Solo se puede acceder al documento cuando el país de la dirección principal de
 
 Dependiendo de la selección de impresión del documento, el documento se puede completar previamente con datos de su sistema. Es posible cambiar o agregar datos al documento impreso exportando el documento impreso a un formato editable, como Microsoft Word. Después de la exportación, puede aplicar los cambios necesarios antes de realizar una declaración.
 
-## <a name="turn-on-the-usmca-feature"></a>Activar la característica USMCA
+## <a name="turn-the-usmca-feature-on-or-off"></a>Activar o desactivar la característica USMCA
 
-Antes de poder usar la característica USMCA debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
-
-- **Módulo**: *Administración de transporte*
-- **Nombre de la función:** *Documento de certificación de origen USMCA*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Documento de certificación de origen de USMCA* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Contenido del documento
 

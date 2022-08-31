@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909654"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334518"
 ---
 # <a name="put-to-wall---put-to-store"></a>Asignar a contenedor/Asignar a tienda
 
@@ -32,7 +32,7 @@ Esta funcionalidad de almacenamiento también se conoce con otros nombres, como 
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Active la característica de ordenación de salida
 
-Antes de poder usar la funcionalidad *Asignar a contenedor/Asignar a tienda*, la característica *Ordenación de salida* debe estar activada en su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
+Antes de poder usar la funcionalidad *Asignar a contenedor/Asignar a tienda*, la característica *Ordenación de salida* debe estar activada para su sistema. Los administradores pueden usar el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla si es necesario. Allí, la característica se enumera de la siguiente manera:
 
 - **Módulo:** *Gestión de almacén*
 - **Nombre de la característica:** *Ordenación de salida*

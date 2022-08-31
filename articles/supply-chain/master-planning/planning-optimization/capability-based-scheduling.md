@@ -2,7 +2,7 @@
 title: Programación con selección de recursos según la capacidad
 description: Este artículo describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
 author: t-benebo
-ms.date: 9/3/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847973"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335417"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Programación con selección de recursos según la capacidad
 
@@ -24,12 +24,9 @@ ms.locfileid: "8847973"
 
 Al especificar los requisitos de recursos para una operación de una ruta de producción, se define lo que se requiere para realizar esa operación. Por ejemplo, una operación puede requerir un recurso específico o un grupo de recursos, o una combinación de habilidades o capacidades. Este artículo describe la selección de recursos durante la programación de capacidad infinita al especificar capacidades como requisitos de recursos para una operación.
 
-## <a name="turn-on-the-capability-based-scheduling-feature"></a>Activar la función de programación según la capacidad
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>Activar o desactivar la función de programación según la capacidad
 
-Antes de poder usar esta característica debe estar activada en su sistema. Los administradores pueden usar la configuración de [administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
-
-- **Módulo:** *Planificación maestra*
-- **Nombre de la función:** *Programación de capacidad infinita para Optimización de planificación*
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Programación de capacidad infinita para Optimización de planificación* en el espacio de trabajo [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Para más información sobre esta función, consulte [Programación con capacidad infinita](infinite-capacity-planning.md).
 

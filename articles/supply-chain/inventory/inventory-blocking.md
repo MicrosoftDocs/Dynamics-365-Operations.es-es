@@ -2,7 +2,7 @@
 title: Bloqueo del inventario
 description: Este artículo proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857819"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334697"
 ---
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
@@ -96,11 +96,11 @@ Cuando **Reservar artículos pedidos** está deshabilitado, los recibos esperado
 
 Tenga en cuenta la diferencia en el estado y las dimensiones de la transacción entre los dos casos. Por este motivo, recomendamos habilitar la opción **Reservar artículos pedidos**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Deshabilitar la característica de las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Deshabilitar las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado
 
 Para simplificar las transacciones de inventario en el caso de pedidos de calidad que muestran inventario bloqueado como consecuencia del estado del inventario, el sistema proporciona una característica que deshabilita las recepciones esperadas de dichos pedidos de calidad. Debido a que la recepción esperada se bloquea inmediatamente por el bloqueo del estado del inventario, no hay reducción del inventario disponible debido a este cambio.
 
-Esta característica está desactivada de forma predeterminada. Los administradores pueden activarlo o desactivarlo buscando la característica *Deshabilitar las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Deshabilitar las recepciones esperadas de pedidos de calidad que muestrean el inventario bloqueado* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -2,7 +2,7 @@
 title: Configurar campos promocionados para los pasos en la aplicación móvil Warehouse Management
 description: Este artículo describe cómo promocionar y resaltar información específica para cualquier paso en los flujos de tareas para la aplicación móvil Warehouse Management.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218986"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336077"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurar campos promocionados para los pasos en la aplicación móvil Warehouse Management
 
@@ -29,19 +29,12 @@ Este artículo describe cómo promocionar y resaltar información específica pa
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Habilitar los campos promocionados en su sistema
 
-Antes de poder configurar campos promocionados, debe completar el siguiente procedimiento para habilitar las funciones requeridas y generar los nombres de campo requeridos en la aplicación móvil Warehouse Management.
+Si ejecuta Supply Chain Management version 10.0.28 o anterior, antes de poder configurar campos promocionados, debe completar el siguiente procedimiento para habilitar las funciones requeridas y generar los nombres de campo requeridos en la aplicación móvil Warehouse Management. Si está ejecutando Supply Chain Management versión 10.0.29 o posterior, las funciones son obligatorias y no se pueden desactivar, por lo que puede omitir este procedimiento.
 
-1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
-1. Asegúrese de que la función *Instrucciones paso a paso de la aplicación de almacén* está activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Campos promocionados de aplicaciones de Warehouse Management*.
-1. Habilite la característica que se enumera de la siguiente manera:
-
-    - **Módulo:** *Gestión de almacén*
-    - **Nombre de la característica**: *Campos promocionados de la aplicación Warehouse*
-
-    Esta característica es la que se describe en este artículo.
-
-1. Actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
-1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
+1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**. (Vea [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para obtener más información acerca de esta página).
+1. Asegúrese de que la función *Instrucciones paso a paso de la aplicación de almacén* está activada para su sistema. Esta característica es un requisito previo para la característica *Campos promocionados de aplicaciones de Warehouse Management*. A partir de la versión 10.0.29 de Supply Chain Management, es obligatoria y no se puede desactivar. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md).
+1. Asegúrese de que la función *Campos promocionados de la aplicación de almacén* está activada para su sistema. Esta es la característica principal descrita en este artículo. A partir de la versión 10.0.29 de Supply Chain Management, es obligatoria y no se puede desactivar.
+1. Actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Repita este paso para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Configurar campos promocionados de una invalidación específica del menú
 
