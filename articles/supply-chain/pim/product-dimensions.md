@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867938"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335147"
 ---
 # <a name="product-dimensions"></a>Dimensiones de producto
 
@@ -108,7 +108,7 @@ Cuando esté probando la compatibilidad de sus soluciones con la dimensión de l
 
 #### <a name="turn-on-the-version-dimension"></a>Activar la dimensión de versión
 
-Para poder usar la dimensión de versión, debe estar activada en su sistema. Esta tarea requiere permisos de administrador.
+Para poder usar la dimensión de versión, debe estar activada para su sistema. Esta tarea requiere permisos de administrador.
 
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
 1. Active la característica llamada *Versión de dimensión del producto*. (Para obtener más información, consulte [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
