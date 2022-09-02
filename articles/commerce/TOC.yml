@@ -466,6 +466,8 @@
                           items:
                             - name: Compatibilidad para tarjetas de regalo externas
                               href: dev-itpro/gift-card.md
+                            - name: Uso compartido de datos entre empresas para tarjetas regalo
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Probar el grabador y Regression Suite Automation Tool para Cloud POS
