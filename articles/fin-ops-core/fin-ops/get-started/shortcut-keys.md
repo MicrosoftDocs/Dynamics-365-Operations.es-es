@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este artículo proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de finanzas y operaciones.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140451"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357602"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -135,10 +135,10 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Desplazamiento horizontal                                                                                                   | Mayús + rueda del mouse             |
 | Ir a la columna siguiente/anterior                                                                                       | Tabulador / Mayús+Tab                 |
 | Ir a la fila siguiente/anterior                                                                                          | Flecha arriba / Flecha abajo           |
-| Ir a la fila siguiente/anterior sin seleccionarla<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote> | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
-| Seleccionar/borrar la fila actual<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>                    | Ctrl+Espacio/Ctrl+Clic         |
-| Agregar la fila siguiente/anterior al conjunto seleccionado<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>   | Shift+Space                     |
-| Agregar un intervalo de filas al conjunto seleccionado<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>         | Mayús+Clic                     |
+| Ir a la fila siguiente/anterior sin seleccionarla<br><br>**Nota:** Este método abreviado se aplica únicamente a los escenarios de selección múltiple. | Ctrl+Flecha arriba / Ctrl+Flecha abajo |
+| Seleccionar/borrar la fila actual<br><br>**Nota:** Este método abreviado se aplica únicamente a los escenarios de selección múltiple.                   | Ctrl+Espacio/Ctrl+Clic         |
+| Agregar la fila siguiente/anterior al conjunto seleccionado<br><br>**Nota:** Este método abreviado se aplica únicamente a los escenarios de selección múltiple.  | Shift+Space                     |
+| Agregar un intervalo de filas al conjunto seleccionado<br><br>**Nota:** Este método abreviado se aplica únicamente a los escenarios de selección múltiple.         | Mayús+Clic                     |
 | Ir a la página de datos siguiente/anterior                                                                                   | Re Pág / Av Pág             |
 | Cree una nueva fila en la parte inferior de la cuadrícula                                                                             | Flecha abajo (desde la última fila)  |
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
@@ -148,7 +148,7 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                  |
 | Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                  |
 | Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                  |
-| Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Entrar                           |
+| Ejecutar la acción predeterminada en una cuadrícula<br><br>**Nota:** Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos. | Entrar                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |
 | Mueve la columna actual a la posición siguiente/anterior (centrado en la fila del encabezado)                                   | Ctrl+Mayús+Flecha derecha / Ctrl+Mayús+Flecha izquierda |

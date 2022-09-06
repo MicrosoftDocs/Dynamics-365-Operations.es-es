@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271527"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357668"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inicializar Commerce Scale Unit (nube)
 
@@ -69,8 +69,8 @@ Commerce Scale Unit está disponible para su implementación en las siguientes r
 | APAC            | Este de Asia           | Capacidad limitada    |   Ningún comentario.                           |
 | APAC            | Sur de la india         | Capacidad restringida | No se permiten despliegues.    |
 | APAC            | Centro de la India       | Capacidad limitada    | Requiere proceso de aprobación. |
-| EMEA            | Europa Occidental         | Capacidad limitada    | No disponible en LCS en este momento. |
-| EMEA            | Norte de Europa        | Capacidad limitada    | No disponible en LCS en este momento. |
+| EMEA            | Europa Occidental         | Disponibilidad general    |  Ningún comentario. |
+| EMEA            | Norte de Europa        | Disponibilidad general    |  Ningún comentario. |
 | EMEA            | Sur del Reino Unido            | Disponibilidad general |    Ningún comentario.                          |
 | EMEA            | Oeste del Reino Unido             | Disponibilidad general |    Ningún comentario.                          |
 | Suiza     | Norte de Suiza   | Capacidad limitada    | Requiere proceso de aprobación. |

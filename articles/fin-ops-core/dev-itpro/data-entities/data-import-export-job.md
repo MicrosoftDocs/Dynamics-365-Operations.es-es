@@ -2,7 +2,7 @@
 title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109474"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357614"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -76,6 +76,19 @@ Al seleccionar una entidad, debe seleccionar el formato de los datos que se expo
 
 > [!NOTE]
 > Para formatos de archivo basados en XML, asegúrese de usar solo caracteres legales. Para obtener más detalles sobre los caracteres válidos, consulte [Caracteres válidos en XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 no permite ningún carácter de control excepto tabulaciones, retornos de carro y saltos de línea. Ejemplos de caracteres ilegales son corchetes, corchetes y barras invertidas. 
+
+Utilice Unicode en lugar de una página de códigos específica para importar o exportar datos. Esto ayudará a proporcionar los resultados más consistentes y eliminará los trabajos de administración de datos que fallan porque incluyen caracteres Unicode. Todos los formatos de datos de origen definidos por el sistema que usan Unicode tienen **Unicode** en el nombre del origen. El formato Unicode se aplica seleccionando una página de códigos ANSI de codificación Unicode como **Página de códigos** en la ficha **Configuración regional**. Seleccione una de las siguientes páginas de códigos para Unicode:
+
+| Página de códigos | Nombre para mostrar                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Para obtener más información sobre las páginas de códigos, consulte [Identificadores de páginas de códigos](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Ordenar las entidades
 Puede ordenar las entidades en una plantilla de datos o en trabajos de importación y exportación. Cuando ejecute un trabajo que contenga más de una entidad de datos, asegúrese de que están correctamente ordenadas. Puede ordenar las entidades principales para trabajar con cualquier dependencia funcional que esté entre ellas. Si las entidades no tienen dependencias funcionales, pueden ser programadas en una la importación o exportación paralela. 

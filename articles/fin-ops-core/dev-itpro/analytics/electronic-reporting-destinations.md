@@ -2,7 +2,7 @@
 title: Destinos de informes electrónicos (ER)
 description: Este artículo proporciona información sobre la administración de los destinos de informes electrónicos, los tipos de destinos admitidos y las consideraciones de seguridad.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281979"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360989"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -247,6 +247,52 @@ En la ficha desplegable **General**, en el campo **Enviar carpeta como**, selecc
 ### <a name="limitations"></a>Limitaciones
 
 Si configura el campo **Enviar carpeta como** a **Archivos separados** para **Carpeta** componente que contiene otros anidados componentes **Carpeta**, la configuración no se aplica de forma recursiva a los componentes anidados **Carpeta**.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Cambiar las propiedades de diseño de página de una plantilla
+
+Puede configurar un destino ER para un componente de formato ER que esté diseñado para utilizar una plantilla en un formato de Microsoft Office (Excel o Word) para la generación de informes. Si no es el propietario de este formato y necesita cambiar las propiedades del diseño de página de la plantilla del formato, en las versiones de Finance anteriores a la versión 10.0.29, tiene que crear un formato derivado y modificar las propiedades de la plantilla. A continuación, tiene que mantener la configuración del formato derivado. Sin embargo, en la versión 10.0.29 y posteriores, puede cambiar las propiedades de diseño de página de la plantilla en tiempo de ejecución para evitar crear y mantener la configuración del formato derivado. Para ello, configure las propiedades deseadas como parte de los ajustes del destino ER configurado. Cuando se ejecuta un formato ER y se ejecuta un destino ER que está configurado para utilizar determinadas propiedades de diseño de página, los valores de las propiedades de diseño de página del destino ejecutado se aplican a la plantilla que está utilizando, sustituyendo las propiedades de la plantilla original. Puede configurar diferentes destinos para el componente del mismo formato configurando diferentes propiedades de diseño de página para la plantilla en uso.
+
+Las siguientes propiedades pueden configurarse en un destino ER para un componente de formato diseñado para utilizar una plantilla en formato Excel o Word:
+
+- Orientación de página
+    - Vertical
+    - Horizontal
+- Tamaño del papel
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Ejecutivo
+    - Avisos legales
+    - Letra
+    - Estamento
+    - Tabloide
+- Márgenes de página
+    - Superior
+        - Encabezado
+    - Inferior
+        - Pie de página
+    - Izquierda
+    - Derecha
+
+> [!NOTE]
+> La orientación de la página de la plantilla así configurada debe alinearse con la [orientación de página para una conversión de PDF](#select-a-page-orientation-for-pdf-conversion) si la conversión a PDF está configurada.
+
+Debe seleccionar la unidad de longitud para configurar los márgenes de página:
+
+- Pulgadas
+- Centímetros
+- Milímetros
+
+![Configure las propiedades de diseño de página en la página de destino de informes electrónicos.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Cuando un valor de margen se nombra en centímetros y se especifica con varios decimales, se redondea en tiempo de ejecución al valor más cercano con 1 punto decimal.
+>
+> Cuando un valor de margen se nombra en milímetros y se especifica con decimales, se redondea en tiempo de ejecución para Excel al valor entero más cercano sin punto decimal.
+>
+> Cuando un valor de margen se nombra en milímetros y se especifica con varios decimales, se redondea en tiempo de ejecución para Word al valor más cercano con un punto decimal.
 
 ## <a name="security-considerations"></a>Consideraciones de seguridad
 
