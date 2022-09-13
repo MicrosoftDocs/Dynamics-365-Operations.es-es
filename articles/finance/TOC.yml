@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (noviembre)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (octubre)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (agosto)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Explorador de origen de contabilidad
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Contabilidad pendiente de documentos
+                      href: general-ledger/documents-pending-accounting.md
             - name: Informes y consultas
               items:
                 - name: Ver movimientos del diario y transacciones

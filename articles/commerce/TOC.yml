@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (noviembre de 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (octubre de 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (julio de 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Definir descuentos específicos de un canal
                   href: define-channel-specific-discounts.md
-                - name: Opciones para evitar descuentos de productos comerciales
-                  href: prevent-discounts.md
                 - name: Descuentos basados en forma de pago
                   href: tender_based_discounts.md
                 - name: Descuento por envío
                   href: shipping-discount.md
                 - name: Configurar regalo con promociones de compra
                   href: gift-with-purchase.md
-                - name: Configurar vales
-                  href: retail-coupons.md
-                - name: Mostrar descuentos en PDV
-                  href: discounts-pos.md
+                - name: Vales
+                  href: coupons.md
+                - name: Configuración de precios
+                  href: price-settings.md
                 - name: Informes de precios
                   href: price-report.md
                 - name: Crear acuerdos comerciales específicos del canal
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Operación de búsqueda de inventario en PDV
                       href: pos-inventory-lookup-operation.md
+                    - name: Lista de productos que reconoce el inventario
+                      href: inventory-aware-product-listing.md
                 - name: Pedidos de compra
                   items:
                     - name: Información general de los pedidos de compra
