@@ -2,7 +2,7 @@
 title: Funcionalidades de cuadrícula
 description: Este artículo describe varias características potentes del control de cuadrícula. Debe activar la nueva característica de cuadrícula para tener acceso a estas capacidades.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258959"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405475"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -178,20 +178,22 @@ La característica **Nuevo control de cuadrícula** está disponible directament
 
 Esta característica comenzó a estar habilitada por defecto en la versión 10.0.21. Está previsto que sea obligatorio en octubre de 2022.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
+## <a name="developer-topics"></a>Temas para desarrolladores
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
 Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
 
 ```this.forceLegacyGrid();```
 
 Esta API eventualmente quedará obsoleta para permitir la eliminación del control de cuadrícula heredado. Sin embargo, permanecerá disponible durante al menos 12 meses después de que se anuncie su desuso. Si algún problema requiere el uso de esta API, notifíqueselo a Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzar una página a usar la nueva cuadrícula después de haber optado previamente por no recibir la cuadrícula
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzar una página a usar la nueva cuadrícula después de haber optado previamente por no recibir la cuadrícula
 Si ha optado por que una página individual no use la nueva cuadrícula, es posible que desee volver a habilitar la nueva cuadrícula después de que se hayan resuelto los problemas subyacentes. Para hacer esto, simplemente necesita eliminar la llamada a `forceLegacyGrid()`. El cambio no entrará en vigor hasta que ocurra una de las siguientes situaciones:
 
 - **Reimplementación del entorno**: cuando un entorno se actualiza y se vuelve a implementar, la tabla que almacena las páginas que se excluyeron de la nueva cuadrícula (FormControlReactGridState) se borra automáticamente.
 - **Borrado manual de la tabla**: para escenarios de desarrollo, deberá usar SQL para borrar la tabla FormControlReactGridState y luego reiniciar el AOS. Esta combinación de acciones restablecerá el almacenamiento en caché de las páginas que se excluyeron de la nueva cuadrícula.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desarrollador] Optar por cuadrículas individuales fuera de la capacidad de escribir antes de la capacidad del sistema
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Desarrollador] Optar por cuadrículas individuales fuera de la capacidad de escribir antes de la capacidad del sistema
 Han surgido algunos escenarios que no se prestan para trabajar bien con la capacidad *Escribir antes que el sistema* de la red. (Por ejemplo, algún código que se activa cuando se valida una fila hace que se active una búsqueda de fuentes de datos, y la investigación puede dañar ediciones no confirmadas en filas existentes). Si su organización descubre tal escenario, hay una API disponible que le permite a un el desarrollador excluye una cuadrícula individual de la validación de filas asíncrona y vuelve al comportamiento heredado.
 
 Cuando la validación de filas asincrónicas está deshabilitada en una cuadrícula, los usuarios no pueden crear una nueva fila o moverse a una fila existente diferente en la cuadrícula mientras haya problemas de validación en la fila actual. Como efecto secundario de esta acción, las tablas no se pueden pegar desde Excel en cuadrículas de finanzas y operaciones.
@@ -204,13 +206,18 @@ Para excluir una cuadrícula individual de una validación de filas asincrónica
 > - Esta llamada debe invocarse solo en casos excepcionales y no debe ser la norma para todas las redes.
 > - No recomendamos que alterne esta API en tiempo de ejecución después de que se cargue el formulario.
 
-## <a name="developer-size-to-available-width-columns"></a>[Desarrollador] Columnas de tamaño hasta el ancho disponible
+### <a name="developer-size-to-available-width-columns"></a>[Desarrollador] Columnas de tamaño hasta el ancho disponible
 Si un desarrollador establece la propiedad **WidthMode** en **SizeToAvailable** para las columnas que hay dentro de la nueva cuadrícula, esas columnas tendrán inicialmente el mismo ancho que tendrían si la propiedad estuviera establecida en **SizeToContent**. Sin embargo, se estiran para utilizar el ancho adicional disponible en la cuadrícula. Si la propiedad se establece en **SizeToAvailable** para varias columnas, todas esas columnas compartirán el ancho adicional disponible en la cuadrícula. Sin embargo, si un usuario cambia manualmente el tamaño de una de esas columnas, la columna se volverá estática. Permanecerá en ese ancho y ya no se estirará para ocupar el ancho de cuadrícula adicional disponible.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Desarrollador] Especificar la columna que recibe el foco inicial cuando se crean nuevas filas usando la tecla de flecha hacia abajo
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Desarrollador] Especificar la columna que recibe el foco inicial cuando se crean nuevas filas usando la tecla de flecha hacia abajo
 Como se discutió en la sección [Diferencias al ingresar datos antes del sistema](#differences-when-entering-data-ahead-of-the-system), si la capacidad "Escribiendo antes que el sistema" está habilitada, y un usuario crea una nueva fila usando la tecla **Flecha hacia abajo**, el comportamiento predeterminado es poner el foco en la primera columna de la nueva fila. Esta experiencia puede diferir de la experiencia en la cuadrícula heredada o cuando se selecciona el botón **Nuevo**.
 
 Los usuarios y las organizaciones pueden crear vistas guardadas que están optimizadas para la entrada de datos. (Por ejemplo, puede reordenar las columnas para que la primera columna sea en la que desea comenzar a ingresar datos). Además, a partir de la versión 10.0.29, las organizaciones pueden ajustar este comportamiento mediante el método **selectedControlOnCreate()**. Este método permite a un desarrollador especificar la columna que debe recibir el foco inicial cuando se crea una nueva fila usando la tecla de **flecha hacia abajo**. Como entrada, esta API toma el ID de control que corresponde a la columna que debe recibir el foco inicial.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Desarrollador] Manejo de cuadrículas con controles extensibles que no son de React
+Cuando se está cargando una cuadrícula, si el sistema encuentra un control extensible que no está basado en React, el sistema forzará la representación de la cuadrícula heredada en su lugar. Cuando un usuario encuentra esta situación, aparecerá un mensaje que indica que debe actualizarse la página. Luego, esta página cargará la cuadrícula heredada automáticamente sin más notificaciones a los usuarios hasta la próxima actualización del sistema. 
+
+Para superar esta situación de forma permanente, los autores de controles extensibles pueden crear una versión React del control para usar en la cuadrícula.  Una vez desarrollada, la clase X++ para el control se puede decorar con el atributo **FormReactControlAttribute** para especificar la ubicación del paquete React para cargar para ese control. Vea la clase `SegmentedEntryControl` como ejemplo.  
 
 ## <a name="known-issues"></a>Problemas conocidos
 Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula.
@@ -218,9 +225,12 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 ### <a name="open-issues"></a>Problemas abiertos
 - Después de habilitar la característica **Nuevo control de cuadrícula**, algunas páginas continuarán utilizando el control de cuadrícula existente. Esto ocurrirá en las siguientes situaciones:
  
-    - Existe una lista de tarjetas en la página que se representa en varias columnas.
-    - Existe una lista de tarjetas agrupadas en la página.
-    - Una columna de cuadrícula con un control extensible sin reacción.
+    - [Resuelto] Existe una lista de tarjetas en la página que se representa en varias columnas.
+        - Este tipo de lista de tarjetas es compatible con el **Nuevo control de cuadrícula** a partir de la versión 10.0.30. Se puede eliminar cualquier uso de forceLegacyGrid() para este propósito. 
+    - [Resuelto] Existe una lista de tarjetas agrupadas en la página.
+        - Las listas de tarjetas agrupadas son compatibles con el **Nuevo control de cuadrícula** a partir de la versión 10.0.30. Se puede eliminar cualquier uso de forceLegacyGrid() para este propósito. 
+    - [Resuelto] Una columna de cuadrícula con un control extensible sin reacción.
+        - Los controles extensibles pueden proporcionar una versión React de su control que se cargará cuando se coloque en la cuadrícula y ajustará su definición de control para cargar este control cuando se use en la cuadrícula. Consulte la sección de desarrolladores correspondiente para obtener más detalles. 
 
     Cuando un usuario encuentra por primera vez una de estas situaciones, aparecerá un mensaje sobre la actualización de la página. Después de que aparezca este mensaje, la página continuará utilizando la cuadrícula existente para todos los usuarios hasta la próxima actualización de la versión del producto. Se considerará una mejor administración de estos escenarios, para que se pueda utilizar la nueva cuadrícula, en una actualización futura.
 

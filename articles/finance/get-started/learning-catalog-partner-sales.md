@@ -1,23 +1,23 @@
 ---
 title: Catálogo de aprendizaje para los roles de marketing y ventas de los partners de Microsoft para Dynamics 365 Finance
 description: Encuentre todas las opciones de capacitación para las personas en los roles de ventas y marketing para los partners de Microsoft que trabajan con Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2adacf9a3408b0cc4ee62204e50fceedf740b8fa
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067160"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424577"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catálogo de aprendizaje para los roles de marketing y ventas de los partners de Microsoft para Dynamics 365 Finance
 
@@ -27,9 +27,8 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 
 ## <a name="get-started"></a>Introducción<a name="get-started"></a>
 
-| Contenido  | Descripción  | Formato  | Longitud    |
+| Contenido  | Description  | Formato  | Length    |
 |-------------|-----------------|-------------|------------|
-| [Conozca el valor de negocio de Microsoft Dynamics 365 y Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? ¿Quizás no sabe por dónde empezar con las aplicaciones de Microsoft Dynamics 365 y Power Platform? Aprenda cómo el poder de las aplicaciones comerciales puede ayudarle a transformar su negocio. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 7 horas |
 | [Aspectos básicos de Dynamics 365 y Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 5.5 horas |
 | [Introducción a las aplicaciones de finanzas y operaciones](/learn/paths/get-started-finance-operations/) | Obtenga información sobre cómo las aplicaciones de finanzas y operaciones respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de finanzas y operaciones, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea | 2 horas |
 | [Introducción a Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance faculta a los usuarios empresariales para adaptarse a los entornos empresariales que cambian rápidamente. Ofrece a las empresas todo lo que necesitan para controlar las finanzas y gestionar los fondos con información precisa en cualquier momento para la planificación y la previsión financieras y las ayuda estar actualizadas con herramientas de análisis. Debido a que las finanzas son el núcleo de cualquier negocio, es importante conocer las capacidades de Dynamics 365 Finance. | Módulo de aprendizaje flexible, a su propio ritmo y en línea | 1 hora |

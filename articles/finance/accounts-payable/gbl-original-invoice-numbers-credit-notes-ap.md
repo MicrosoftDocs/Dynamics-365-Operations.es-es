@@ -13,18 +13,18 @@ ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
-ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
+ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277382"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "9409674"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Facturas originales de referencia en notas de abono (facturas de proveedores)
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe cómo crear una referencia a una factura original cuando crea una nota de crédito.
+En algunos países y regiones, existe un requisito legal de que las notas de crédito impresas o los procesos de informes incluyan referencias a las facturas originales. Este artículo describe cómo crear una referencia a una factura original cuando crea una nota de crédito.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -44,11 +44,17 @@ La funcionalidad que se describe en este artículo se aplica a los siguientes do
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Definir una referencia para una factura original
 
+La definición de una referencia a una factura original incluye los siguientes pasos de alto nivel:
+1. Crear y registrar una factura de proveedor.
+2. Crear una nota de abono de proveedor.
+3. Utilice la función Factura rectificativa para vincular la factura con una nota de abono.
+4. Registrar la nota de abono.
+
 Utilice los siguientes procedimientos para definir una referencia a una factura original, según los tipos de documentos empresariales especificados.
 
 ### <a name="vendor-credit-note-purchase-order"></a>Nota de crédito de proveedor (pedido de compra)
 
-1. Vaya a **Proveedores** \> **Pedidos de compra** \> **Todos los pedidos de compra**.
+1. Vaya a **Proveedores** > **Pedidos de compra** > **Todos los pedidos de compra**.
 2. Cree un pedido de compra nuevo o utilice uno existente para crear una nota de crédito.
 3. En el panel de acciones, en la ficha **Factura**, en el grupo **Introducir**, seleccione **Factura rectificativa**.
 4. Introduzca la referencia a la factura original y seleccione el motivo de la corrección.

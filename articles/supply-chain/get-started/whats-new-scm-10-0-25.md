@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219106"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403713"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.25 (abril de 2022)
 
@@ -161,7 +161,7 @@ La tabla también enumera las funciones que anteriormente estaban en versión pr
 | Gestión de almacenes | [Posición de matrícula de entidad de almacén de ubicación](../warehousing/location-license-plate-positioning.md) | Obligatoria |
 | Gestión de almacenes | [Combinación de dimensiones de producto de ubicación](../warehousing/location-product-dimension-mixing.md) | Obligatoria |
 | Gestión de almacenes | Hacer editable el campo de estado de inventario de movimiento de inventario de dispositivo móvil | Obligatoria |
-| Gestión de almacenes | Servicio de recogida manual de línea de ventas para administración o para usuarios de confianza similares | Obligatoria |
+| Gestión de almacenes | [Servicio de recogida manual de línea de ventas para administración o para usuarios de confianza similares](../warehousing/manual-order-line-picking-exception-handling.md) | Obligatoria |
 | Gestión de almacenes | [Impedir que las matrículas de entidad de almacén enviadas se usen en almacenes que no sean el almacén de destino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obligatoria |
 | Gestión de almacenes | Solicitar la resolución de nombres de "Ubicación / N.º licencia" ambiguos | Obligatoria |
 | Gestión de almacenes | [Control de calidad](../warehousing/quality-check.md) | Obligatoria |

@@ -2,7 +2,7 @@
 title: Aplicar configuración de inventario
 description: Este artículo cubre las configuraciones de inventario y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287602"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405330"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configuración de inventario
 
@@ -51,12 +51,12 @@ En Comercio, la configuración del inventario se define en **Configuraciones del
     > [!IMPORTANT] 
     > La opción **Nivel de inventario para varios almacenes** está disponible a partir de la versión 10.0.19 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Configuración de inventario para páginas de lista de productos** - Esta configuración define cómo se muestran los productos agotados en las listas de productos que se representan mediante la colección de productos y los módulos de resultados de búsqueda. Los valores disponibles son **Mostrar en orden con otros productos**, **Ocultar productos agotados de la lista** y **Mostrar los productos agotados al final de la lista**. Para utilizar esta configuración, primero debe configurar algunos requisitos previos en la sede de Commerce. Para más información, vea [Habilite el conocimiento del inventario para el módulo de resultados de búsqueda](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Configuración de inventario para páginas de lista de productos** - Esta configuración define cómo se muestran los productos agotados en las listas de productos que se representan mediante la colección de productos y los módulos de resultados de búsqueda. Los valores disponibles son **Mostrar en orden con otros productos**, **Ocultar productos agotados de la lista** y **Mostrar los productos agotados al final de la lista**. Para utilizar esta configuración, primero debe configurar algunos requisitos previos en la sede de Commerce. Para obtener más información, consulte [Lista de productos con reconocimiento de inventario](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > La configuración **Ajustes de inventario para páginas de lista de productos** está disponible a partir de la versión 10.0.20 de Commerce. Si está actualizando desde una versión anterior de Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones, consulte [Actualizaciones del SDK y la biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Rangos de inventario**: esta configuración define los rangos de inventario para los que se muestran los mensajes para los módulos del sitio. Solo es aplicable si el valor **Total disponible** o el valor **Físicamente disponible** se selecciona para la opción **Nivel de inventario basado en**. Los valores disponibles son **Todos**, **Bajo y agotado** y **Agotado**.
+- **Rangos de inventario**: esta configuración define los mensajes de rango de inventario que se muestran en los módulos del sitio. Solo es aplicable si el valor **Total disponible** o el valor **Físicamente disponible** se selecciona para la opción **Nivel de inventario basado en**. Los valores disponibles son **Todos**, **Bajo y agotado** y **Agotado**.
 
     - Cuando se selecciona **Todos** se mostrarán los mensajes para todos los rangos de inventario, desde en existencias (mensaje "Disponible") hasta agotado (mensaje "Agotado").
     - Cuando se selecciona **Bajo y agotado**, se mostrarán los mensajes para todos los rangos de inventario, excepto en existencias (mensaje "Disponible").

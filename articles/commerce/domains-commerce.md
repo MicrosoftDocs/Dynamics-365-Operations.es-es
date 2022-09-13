@@ -4,22 +4,17 @@ description: Este artículo describe cómo se manejan los dominios en Microsoft 
 author: BrianShook
 ms.date: 08/19/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
-ms.search.validFrom: ''
-ms.dyn365.ops.version: Release 10.0.12
-ms.search.industry: retail
-ms.search.form: ''
-ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336709"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405506"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dominios en Dynamics 365 Commerce
 
@@ -110,10 +105,10 @@ Para configurar dominios personalizados usando un servicio de puerta principal o
 
 - Configure un servicio de puerta de entrada como Azure Front Door para manejar el tráfico front-end y conectarse a su ambiente de Commerce. Esto proporciona un mayor control sobre la gestión de certificados y dominios y políticas de seguridad más granulares.
 
+- Use la instancia de Azure Front Door proporcionada por Commerce. Esto requiere coordinar la acción con el equipo de Dynamics 365 Commerce para la verificación del dominio y la obtención de certificados SSL para su dominio de producción.
+
 > [!NOTE]
 > Si está utilizando un CDN externo o un servicio de puerta de entrada, asegúrese de que la solicitud llegue a la plataforma de Commerce con el nombre de host proporcionado por Commerce, pero con el encabezado X-Forwarded-Host (XFH) \<custom-domain\>. Por ejemplo, si su punto final de Commerce es `xyz.dynamics365commerce.ms` y el dominio personalizado es `www.fabrikam.com`, el encabezado de host de la solicitud reenviada debe ser `xyz.dynamics365commerce.ms` y el encabezado XFH debe ser `www.fabrikam.com`.
-
-- Use la instancia de Azure Front Door proporcionada por Commerce. Esto requiere coordinar la acción con el equipo de Dynamics 365 Commerce para la verificación del dominio y la obtención de certificados SSL para su dominio de producción.
 
 Para obtener información sobre cómo configurar un servicio CDN directamente, consulte [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md).
 

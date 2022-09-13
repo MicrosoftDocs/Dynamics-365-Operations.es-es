@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114947"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423969"
 ---
 # <a name="process-automation"></a>Automatización de procesos
 
@@ -29,6 +29,8 @@ La automatización de procesos permite una programación sencilla de los proceso
 ## <a name="administration"></a>Administración
 
 La página de administración central para todas las automatizaciones de procesos se encuentra en el módulo de Gestión del sistema en el menú **Configuración**. En esta página se mostrarán todos los procesos automatizados (serie) que se configuran en el sistema. También le permitirá agregar nuevas automatizaciones de procesos directamente desde esta página. Después de configurar una serie, puede administrar cada serie de esta lista. Puede optar por editar la serie completa, eliminarla, ver todas las repeticiones en una vista de lista o deshabilitar la serie si desea pausar el trabajo programado durante un período de tiempo. 
+
+Utilice la pestaña **Procesos en segundo plano** en esta página para administrar cualquier proceso en segundo plano que se esté ejecutando en su entorno. Seleccione **Editar** para realizar cambios en la programación de cualquier proceso en segundo plano. Estos cambios pueden incluir un período de tiempo de suspensión que hará que el proceso entre en "reposo" o haga una pausa en la ejecución durante un período específico cada día. Seleccione **Ver los resultados más recientes** para ver los resultados de ejecución de cada proceso en segundo plano.
 
 Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato. El motor de programación de automatización de procesos se basa en la ejecución del trabajo por lotes del sistema **Trabajo del sistema de sondeo de automatización de procesos**. El trabajo no debe modificarse ni manipularse en ningún momento. Si este trabajo por lotes no se está ejecutando o se encuentra en un estado de error, seleccione **Inicializar automatizaciones de procesos** para restablecer el trabajo por lotes. Este restablecimiento garantiza que se inicialicen todas las automatizaciones nuevas lanzadas en una versión más reciente de la aplicación. 
 

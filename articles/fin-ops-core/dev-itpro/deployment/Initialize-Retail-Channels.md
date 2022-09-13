@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357668"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427086"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inicializar Commerce Scale Unit (nube)
 
@@ -73,8 +73,6 @@ Commerce Scale Unit está disponible para su implementación en las siguientes r
 | EMEA            | Norte de Europa        | Disponibilidad general    |  Ningún comentario. |
 | EMEA            | Sur del Reino Unido            | Disponibilidad general |    Ningún comentario.                          |
 | EMEA            | Oeste del Reino Unido             | Disponibilidad general |    Ningún comentario.                          |
-| Suiza     | Norte de Suiza   | Capacidad limitada    | Requiere proceso de aprobación. |
-| Emiratos Árabes Unidos             | Norte de Emiratos Árabes Unidos           | Capacidad limitada    | Requiere proceso de aprobación. |
 
 La capacidad de implementación en las regiones de capacidad limitada está extremadamente restringida. Las solicitudes de implementación se evalúan caso por caso. Si tiene una necesidad comercial apremiante para la implementación en regiones con capacidad limitada, puede presentar una solicitud de soporte para agregarlo a la lista de espera. Actualmente, las áreas con capacidad restringida no permiten la implementación de Commerce Scale Unit en este momento. 
 

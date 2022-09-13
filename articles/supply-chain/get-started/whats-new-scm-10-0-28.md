@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334787"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403722"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.28 (agosto de 2022)
 
@@ -50,7 +50,7 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [gesti�
 | Gestión de inventario y almacenes | (India) Para las reglas de precios de transferencia, ignorar la ubicación cuando "Código de almacén de salida" está establecido en "Todos" | <p>Esta característica se aplica solo a las localizaciones de India. Hace que el proceso de configuración de precios de transferencia para artículos en transferencias de existencias sea más intuitivo.</p><p>Los precios de transferencia se configuran configurando cada artículo con reglas de precios de transferencia. Una forma de hacer esta configuración es incluir una línea de regla donde el campo **Del código de almacén** se establece en *Todos*. Esta configuración indica que el precio de transferencia definido por la línea debe aplicarse independientemente del almacén del que se recolecte el artículo. Cuando esta característica está habilitada, las reglas de precios de transferencia donde el campo **Del código de almacén** se establece en *Todos* ignorará el ajuste **Ubicación**. Por lo tanto, la regla se aplicará independientemente de la ubicación que se especifique en la orden de transferencia. Este comportamiento es probablemente el esperado, porque la ubicación está debajo del almacén en la jerarquía de dimensiones de almacenamiento.</p><p>Sin esta función, el sistema aplicará reglas de este tipo solo cuando la ubicación en la orden de transferencia coincida exactamente con la ubicación establecida para la regla. (Si se establece una ubicación en blanco para la regla, el sistema aplicará la regla solo a las órdenes de transferencia que también tengan un valor en blanco para la ubicación).</p> |
 | Gestión de inventario y almacenes | Limpieza de datos del informe de disponibilidad del inventario | Esta característica ofrece una forma de limpiar los datos que se usan para crear los informes del *Almacenamiento de informes de disponibilidad de inventario*. |
 | Control de producción | Asignar actividades de proyecto para el acuerdo de servicio y las líneas de pedido de servicio | Esta función agrega un campo que se denomina **Actividad del proyecto** al contrato de servicio y líneas de orden de servicio, para que pueda establecer una actividad de proyecto para ellos. La función ayudará a evitar errores de bloqueo cuando publique diarios de proyectos de gestión de servicios que requieran que se establezca una actividad de proyecto.  |
-| Gestión de almacenes | Servicio de selección manual de línea de transferencia para administración o usuarios de confianza similares | Esta función permite a los administradores seleccionar manualmente las transacciones de inventario relacionadas con las líneas de transferencia. Estas líneas incluyen las líneas que ya se han liberado al almacén. Los administradores deben hacer esta selección solo en casos excepcionales, como cuando el sistema está dañado. |
+| Gestión de almacenes | Servicio de selección manual de línea de transferencia para administración o usuarios de confianza similares | Esta función permite a los administradores seleccionar manualmente las transacciones de inventario relacionadas con las líneas de transferencia. Estas líneas incluyen las líneas que ya se han liberado al almacén. Los administradores deben hacer esta selección solo en casos excepcionales, como cuando el sistema está dañado. Para obtener más información, vea [Gestionar manualmente excepciones de selección de línea de venta y transferencia](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentación nuevos y actualizados
 

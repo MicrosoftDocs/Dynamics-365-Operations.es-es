@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306066"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388551"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar y configurar Inventory Visibility
 
@@ -56,7 +56,9 @@ Después de registrar una solicitud y agregar un secreto de cliente en Azure AD,
 1. En la página del entorno, desplácese hacia abajo hasta que encuentre la sección **Complementos de entorno** en la sección **Integración de Power Platform**. Allí, puede encontrar el  nombre del entorno de Dataverse. Confirme que el nombre del entorno de Dataverse es el que desea utilizar para la visibilidad del inventario.
 
     > [!NOTE]
-    > Actualmente, solo se admiten entornos de Dataverse creados mediante LCS. Si su entorno de Dataverse se creó de otra forma (por ejemplo, usando el Centro de administración de Power Apps) y si está vinculado a su entorno de Supply Chain Management, primero debe comunicarse con el equipo de productos de Visibilidad de inventario en [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para solucionar el problema de asignación. Luego podrá instalar Visibilidad de inventario.
+    > Actualmente, solo se admiten entornos de Dataverse creados mediante LCS. Si su entorno de Dataverse se creó de otra forma (por ejemplo, usando el Centro de administración de PowerApps) y si está vinculado a su entorno de Supply Chain Management, primero debe solucionar el problema de asignación antes de instalar el complemento Visibilidad de inventario.
+    >
+    > Es posible que su entorno de doble escritura esté vinculado a una instancia de Dataverse mientras LCS no está configurado para la integración de Power Platform. Este desajuste de vinculación puede provocar un comportamiento inesperado. Recomendamos que los detalles del entorno de LCS coincidan con lo que está conectado en doble escritura para que los eventos comerciales, las tablas virtuales y los complementos puedan usar la misma conexión. Vea [Desajuste de enlace](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) para obtener información sobre cómo solucionar el problema de asignación. Una vez que se resuelve el problema de asignación, puede proceder a instalar Inventory Visibility.
 
 1. En la sección **Complementos de entorno**, seleccione **Instalar un nuevo complemento**.
 
@@ -140,11 +142,11 @@ Para desinstalar el complemento de visibilidad de inventario, siga estos pasos:
 1. Seleccione **Entorno** en la barra de navegación
 1. Seleccione el entorno de Dataverse que está enlazado con su entorno LCS.
 1. Vaya a **Soluciones** y elimine las siguientes cinco soluciones en este orden:
-    1. Anclar la solución para la aplicación Inventory Visibility en soluciones de Dynamics 365
-    1. Solución de aplicaciones de Dynamics 365 FNO SCM Inventory Visibility
-    1. Configuración del servicio de inventario
-    1. Visibilidad de inventario independiente
-    1. Solución básica de Dynamics 365 FNO SCM Inventory Visibility
+    1. Dynamics 365 Inventory Visibility - Delimitador
+    1. Dynamics 365 Inventory Visibility - Aplicación
+    1. Dynamics 365 Inventory Visibility - Controles
+    1. Dynamics 365 Inventory Visibility - Complementos
+    1. Dynamics 365 Inventory Visibility - Base
 
     Después de eliminar estas soluciones, también se eliminarán los datos almacenados en tablas.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306330"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423579"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
@@ -303,13 +303,13 @@ La solución incluye esta configuración de partición por defecto. Por lo tanto
 
 La mayoría de las veces, la consulta de inventario disponible no estará solo en el nivel "total" más alto. En su lugar, es posible que también desee ver resultados agregados en función de las dimensiones del inventario.
 
-Visibilidad de inventario proporciona flexibilidad al permitirle configurar los _índices_. Estos índices se basan en una dimensión o una combinación de dimensiones. Un índice consta de un *número de conjunto*, una *dimensión* y una *jerarquía*, como se define en la siguiente tabla.
+Visibilidad de inventario proporciona flexibilidad al permitirle configurar los _índices_ para mejorar el rendimiento de las consultas. Estos índices se basan en una dimensión o una combinación de dimensiones. Un índice consta de un *número de conjunto*, una *dimensión* y una *jerarquía*, como se define en la siguiente tabla.
 
 | Nombre | Descripción |
 |---|---|
 | Número de conjunto | Dimensiones que pertenecen al mismo conjunto (índice) se agruparán y se les asignará el mismo número de conjunto. |
 | Dimensión | Dimensiones base en las que se agrega el resultado de la consulta. |
-| Jerarquía | La jerarquía se utiliza para definir las combinaciones de dimensiones admitidas que se pueden consultar. Por ejemplo, configura un conjunto de dimensiones que tiene una secuencia de jerarquía de `(ColorId, SizeId, StyleId)`. En este caso, el sistema admite consultas en cuatro combinaciones de dimensiones. La primera combinación está vacía, la segunda es `(ColorId)`, la tercera es `(ColorId, SizeId)` y la cuarta es `(ColorId, SizeId, StyleId)`. Las otras combinaciones no son compatibles. Para obtener más información, consulte los siguientes ejemplos. |
+| Jerarquía | La jerarquía le permite aumentar el rendimiento de combinaciones específicas de dimensión cuando se usan en parámetros de consulta de filtro y agrupación. Por ejemplo, si configura un conjunto de dimensiones con una secuencia de jerarquía de `(ColorId, SizeId, StyleId)`, el sistema puede procesar consultas relacionadas con combinaciones de cuatro dimensiones más rápidamente. La primera combinación está vacía, la segunda es `(ColorId)`, la tercera es `(ColorId, SizeId)` y la cuarta es `(ColorId, SizeId, StyleId)`. No se acelerarán otras combinaciones. Los filtros no están restringidos por orden, pero deben estar dentro de estas dimensiones si desea mejorar su rendimiento. Para obtener más información, consulte los siguientes ejemplos. |
 
 Siga estos pasos para configurar el índice de jerarquía de productos.
 
@@ -319,14 +319,13 @@ Siga estos pasos para configurar el índice de jerarquía de productos.
 1. De forma predeterminada, se proporciona una lista de índices. Para modificar un índice existente, seleccione **Editar** o **Agregar** en la sección del índice correspondiente. Para crear un nuevo conjunto de índices, seleccione **Nuevo conjunto de índices**. Para cada fila en cada conjunto de índices, en el campo **Dimensión**, seleccione de la lista de dimensiones base. Los valores para los siguientes campos se generan automáticamente:
 
     - **Número de conjunto** - Las dimensiones que pertenecen al mismo grupo (índice) se agruparán y se les asignará el mismo número de conjunto.
-    - **Jerarquía** - La jerarquía se utiliza para definir las combinaciones de dimensiones admitidas que se pueden consultar en un grupo de dimensiones (índice). Por ejemplo, si configura un grupo de dimensiones que tiene una secuencia de jerarquía de *Estilo*, *Color* y *Tamaño*, el sistema admite el resultado de tres grupos de consultas. El primer grupo es solo de estilo. El segundo grupo es una combinación de estilo y color. Y el tercer grupo es una combinación de estilo, color y tamaño. Las otras combinaciones no son compatibles.
+    - **Jerarquía** - La jerarquía aumenta el rendimiento de combinaciones específicas de dimensión cuando se usan en parámetros de consulta de filtro y agrupación.
 
 > [!TIP]
 > Aquí hay algunos consejos para tener en cuenta al configurar su jerarquía de índices:
 >
 > - Las dimensiones base que se definen en la configuración de la partición no deben definirse en las configuraciones de índice. Si se vuelve a definir una dimensión base en la configuración del índice, no podrá consultar por este índice.
 > - Si necesita consultar solo el inventario agregado por todas las combinaciones de dimensiones, puede configurar un único índice que contenga la dimensión base `Empty`.
-> - Debe tener al menos una jerarquía de índice (por ejemplo, que contenga la dimensión base `Empty`), de lo contrario, las consultas fallarán con el error "No se ha establecido una jerarquía de índice".
 
 ### <a name="example"></a>Ejemplo
 

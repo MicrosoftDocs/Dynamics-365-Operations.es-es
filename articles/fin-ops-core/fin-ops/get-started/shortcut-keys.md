@@ -2,7 +2,7 @@
 title: Métodos abreviados de teclado
 description: Este artículo proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de finanzas y operaciones.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357602"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405448"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Abrir el panel de filtro (o cambiar el enfoque entre el panel de filtro y el formulario principal si el panel de filtro ya está abierto) | Alt+M,F o Ctrl+F3       |
 | Cerrar el panel de filtro (con el enfoque en el panel de filtro)                                                               | Esc                      |
 | Abrir el sistema de orden/filtrado avanzado                                                                                        | Ctrl+Mayús+F3            |
+| Aplicar el filtro rápido (cuando el foco está en el filtro rápido)                                                              | Entrar                    |
+| Aplicar el filtro de cuadrícula (cuando el foco está en el campo de filtro del encabezado de columna)                                             | Entrar                    |
 
 ## <a name="form-shortcuts"></a>Métodos abreviado de formulario
 
-| Para realizar esta tarea                                    | Presione             |
+| Para realizar esta tarea                                    | Presione              |
 |-----------------------------------------------|-------------------|
 | Crear un nuevo registro                           | Alt+N             |
 | Eliminar un registro                               | Alt+Supr o Alt+F9 |
@@ -157,12 +160,13 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 
 ## <a name="input-control-shortcuts"></a>Métodos abreviados de control de entrada de datos
 
-| Acción                                                                   | Presione                          |
+| Para realizar esta tarea                                                                   | Presione                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Abrir el hipervínculo                                                           | Ctrl+Entrar                    |
-| Especificar la fecha de la sesión en un campo de fecha                                       | J                             |
+| Abrir el hipervínculo (cuando el foco está en un control de solo lectura)<br><br>**Nota:** Este acceso directo solo se aplica cuando está habilitada la característica **Estandarizar la interacción de teclado para cuadro combinado y controles de búsqueda**                   | Entrar    |
+| Especificar la fecha de la sesión en un campo de fecha                                       | B                             |
 | Escribir la fecha actual en un campo de fecha                                       | M                             |
-| Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                         | Alt+Flecha abajo                |
+| Abrir búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                         | Alt+Flecha abajo<br><br>Entrar (cuando está habilitada la característica **Estandarizar la interacción de teclado para cuadro combinado y controles de búsqueda**)                |
 | Cerrar búsquedas, cuadros combinados, selectores de fecha o cuadros de diálogo desplegables                        | Esc                           |
 | Trasladar el enfoque a operaciones de búsqueda (cuando las búsquedas están ya abiertas)                   | Alt+Flecha abajo                |
 | Abrir la vista previa mejorada de control                                          | Alt+Fecha arriba                  |
