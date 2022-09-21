@@ -2,19 +2,19 @@
 title: Dominios en Dynamics 365 Commerce
 description: Este artículo describe cómo se manejan los dominios en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405506"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465203"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dominios en Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ La instancia de Azure Front Door proporcionada por Commerce no admite dominios a
 
 - **Opción 1**: utilice su proveedor de DNS para redirigir el dominio apex a un dominio "www". Por ejemplo, fabrikam.com redirige a `www.fabrikam.com` donde `www.fabrikam.com` es el registro CNAME que apunta a la instancia de Azure Front Door hospedada en Commerce.
 
-- **Opcion 2** - Si su proveedor de DNS admite registros ALIAS, puede apuntar el dominio principal al extremo de la puerta principal. Esto garantiza que se refleje el cambio de IP por parte del extremo de la puerta principal.
+- **opcion 2** - Si su proveedor de DNS admite registros ALIAS, puede apuntar el dominio principal al punto de conexión de Azure Front Door, lo que garantiza que se refleje el cambio de IP por parte del punto de conexión. Debe hospedar la instancia de Azure Front Door usted mismo.
   
-- **Opción 3** - Si su proveedor de DNS no admite registros ALIAS, debe configurar una CDN o una instancia de puerta de entrada por su cuenta para alojar el dominio principal.
+- **Opción 3** - Si su proveedor de DNS no admite registros ALIAS, debe cambiar su proveedor de DNS a Azure DNS y hospedar Azure DNS y la instancia de Azure Front Door usted mismo.
 
 > [!NOTE]
 > Si usa Azure Front Door, también debe configurar una instancia de Azure DNS en la misma suscripción. El dominio apex alojado en Azure DNS puede apuntar a su instancia Azure Front Door como un registro de alias. Esta es la única solución alternativa, ya que los dominios apex siempre deben apuntar a una dirección IP.

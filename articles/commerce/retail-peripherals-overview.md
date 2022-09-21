@@ -2,7 +2,7 @@
 title: Periféricos
 description: En este artículo explica los conceptos relacionados con los periféricos de Commerce.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880090"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460004"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -141,6 +141,9 @@ En el caso de los dispositivos periféricos de PDV, muchos dispositivos USB se p
 Modern POS admite UWP, MSR y escáneres. Por lo tanto, cuando Modern POS está listo para recibir datos desde uno de estos dispositivos y un dispositivo que pertenezca a una de estas clases de dispositivo se conecta, ese dispositivo se podrá utilizar. Por ejemplo, si un escáner de códigos de barras de plug and play se conecta a un equipo de Windows 10 y un inicio de sesión de código de barras se configura para Modern POS, el escáner de códigos de barras estará activo en la página de inicio de sesión. No es necesaria configuración adicional.
 
 Se están agregando clases adicionales de periféricos POS a Windows, como clases para cajas registradoras e impresoras de recibos. La compatibilidad para estas nuevas clases de dispositivo en Modern POS está pendiente.
+
+> [!NOTE] 
+> Ciertos dispositivos USB pueden dejar de responder o no ser fiables cuando se administran mediante una función de administración de energía de Windows 10 llamada [Suspensión selectiva USB](/windows-hardware/drivers/usbcon/usb-selective-suspend). Si un periférico USB deja de responder, puede ser necesario desactivar la función de suspensión selectiva para ese dispositivo. Para obtener más información, consulte [Habilitar suspensión selectiva](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Cuña de teclado
 

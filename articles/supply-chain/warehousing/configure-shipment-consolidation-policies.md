@@ -2,7 +2,7 @@
 title: Configurar directivas de consolidación de envíos
 description: Este artículo explica cómo configurar directivas de consolidación de envíos predeterminadas y personalizadas.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336504"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427992"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
@@ -28,75 +28,49 @@ El proceso de consolidación de envíos que utiliza directivas de consolidación
 
 Los escenarios que se presentan en este artículo muestran cómo configurar directivas de consolidación de envío predeterminadas y personalizadas.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Active la característica Directivas de consolidación de envíos
+> [!WARNING]
+> Si actualiza un sistema Microsoft Dynamics 365 Supply Chain Management en el que ha estado utilizando la función de consolidación de envíos heredada, la consolidación podría dejar de funcionar como espera, a menos que siga los consejos que se brindan aquí.
+>
+> En las instalaciones de Supply Chain Management donde la característica *Directivas de consolidación de envíos* está desactivada, usted habilita la consolidación de envíos usando la configuración **Consolidar el envío en el momento de la entrega al almacén** para cada almacén individual. Esta función es obligatoria a partir de la versión 10.0.29. Cuando está activada, la opción **Consolidar el envío en el momento de la entrega al almacén** se oculta y la funcionalidad se reemplaza por las *directivas de consolidación de envíos* que se describen en este artículo. Cada directiva establece reglas de consolidación e incluye una consulta para controlar dónde se aplica la directiva. Cuando active la función por primera vez, no se definirán políticas de consolidación de envíos en la página **Directivas de consolidación de envíos**. Cuando no se definen políticas, el sistema utiliza el comportamiento heredado. Por tanto, cada almacén existente sigue respetando su configuración de **Consolidar el envío en el momento de la entrega al almacén**, aunque esa configuración ahora está oculta. Sin embargo, después de crear al menos una política de consolidación de envíos, la configuración **Consolidar el envío en el momento de la entrega al almacén** ya no tiene ningún efecto y la funcionalidad de consolidación está totalmente controlada por las políticas.
+>
+> Después de definir al menos una política de consolidación de envíos, el sistema verificará las políticas de consolidación cada vez que se libere un pedido al almacén. El sistema procesa las pólizas usando la clasificación que se define por cada el valor **Secuencia de directiva** de cada directiva. Aplica la primera directiva donde la consulta coincide con el nuevo pedido. Si ninguna consulta coincide con el pedido, cada línea de pedido generará un envío separado que tiene una sola línea de carga. Por lo tanto, como alternativa, le recomendamos que cree una directiva predeterminada que se aplique a todos los almacenes y grupos por número de pedido. Otorgue a esta política alternativa el valor más alto de **Secuencia de directiva**, para que se procese en último lugar.
+>
+> Para reproducir el comportamiento heredado, debe crear una política que no agrupe por número de pedido y que tenga criterios de consulta que incluyan todos los almacenes relevantes.
 
-> [!IMPORTANT]
-> En el [primer escenario](#scenario-1) que se describe en este artículo, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Active la característica Directivas de consolidación de envíos
 
 Para usar la característica *Directivas de consolidación de envíos*, debe activarla para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si está ejecutando una versión anterior a la 10.0.29, los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Directivas de consolidación de envíos* en el espacio de trabamo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a>Configurar sus directivas de consolidación iniciales
 
-Cada escenario de este artículo hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Microsoft Dynamics 365 Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en **USMF** antes de empezar.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Escenario 1: configurar directivas de consolidación de envíos predeterminadas
-
-Hay dos situaciones en las que debe configurar el número mínimo de directivas predeterminadas después de activar la característica *Directivas de consolidación de envíos*.
-
-- Está actualizando un entorno que ya contiene datos.
-- Está configurando un entorno completamente nuevo.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Actualice un entorno donde los almacenes ya están configurados para la consolidación de pedidos cruzados
-
-Cuando comienza este procedimiento, la característica *Directivas de consolidación de envíos* debería estar desactivada, para simular un entorno en el que ya se haya utilizado la característica básica de consolidación de orden cruzado. Luego usará la administración de características para activar la característica, de modo que pueda aprender cómo configurar directivas de consolidación de envíos después de la actualización.
-
-Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno donde los almacenes ya se han configurado para la consolidación de pedidos cruzados.
-
-1. Vaya a **Gestión de almacenes \> Configurar \> Almacén \> Almacenes**.
-1. En la lista, busque y abra el registro de almacén deseado (por ejemplo, almacén *24* en los datos de demostración **USMF**).
-1. En el panel Acciones, seleccione **Editar**.
-1. En la ficha desplegable **Almacén**, configure la opción **Consolidar el envío en el despacho al almacén** en *Sí*.
-1. Repita los pasos 2 a 4 para todos los demás almacenes donde se requiera consolidación.
-1. Cierre la página.
-1. Vaya a **Gestión de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**. Puede que tenga que actualizar su navegador para ver el nuevo elemento de menú **Directivas de consolidación de envíos** después de activar la característica.
-1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
-
-    - Una directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* (siempre que tenga al menos un almacén configurado para usar la característica de consolidación anterior)
-    - Una directiva **Predeterminada** para el tipo de directiva *Ordenes de venta*
-    - Una directiva **Predeterminada** para el tipo de directiva *Problema de transferencia*
-    - Una directiva **CrossOrder** para el tipo de directiva *Problema de transferencia* (siempre que tenga al menos un almacén configurado para usar la característica de consolidación anterior)
-
-    > [!NOTE]
-    > - Ambas directivas **CrossOrder** consideran el mismo conjunto de campos que la lógica anterior, excepto el campo del número de pedido. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como el almacén, el modo de transporte de entrega y la dirección).
-    > - Ambas directivas **Predeterminadas** consideran el mismo conjunto de campos que la lógica anterior, incluido el campo del número de pedido. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como número de pedido, el almacén, el modo de transporte de entrega y la dirección).
-
-1. Selecciona la directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* y luego, en el panel Acciones, seleccione **Editar consulta**.
-1. En el cuadro de diálogo del editor de consultas, observe que se enumeran los almacenes donde la opción **Consolidar el envío en el despacho al almacén** está establecida en *Sí*. Por lo tanto, están incluidos en la consulta.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Crear directivas predeterminadas para un nuevo entorno
-
-Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno completamente nuevo.
+Si está trabajando con un sistema nuevo o un sistema en el que acaba de activa la característica *Directivas de consolidación de envíos* por primera vez, siga estos pasos para configurar sus directivas iniciales de consolidación de envíos.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
-    - Una directiva **Predeterminada** para el tipo de directiva *Ordenes de venta*
-    - Una directiva **Predeterminada** para el tipo de directiva *Problema de transferencia*
+    - Una directiva llamada *Predeterminada* para el tipo de directiva *Ordenes de venta*.
+    - Una directiva llamada *Predeterminada* para el tipo de directiva *Incidencia de transferencia*.
+    - Una directiva llamada *CrossOrder* para el tipo de directiva *Incidencia de transferencia*. (Esta directiva se crea solo si tenía al menos un almacén donde la configuración **Consolidar el envío en el momento de la entrega al almacén** heredada estaba habilitada).
+    - Una directiva llamada *CrossOrder* para el tipo de directiva *Ordenes de venta*. (Esta directiva se crea solo si tenía al menos un almacén donde la configuración **Consolidar el envío en el momento de la entrega al almacén** heredada estaba habilitada).
 
     > [!NOTE]
-    > Ambas directivas **Predeterminadas** consideran el mismo conjunto de campos que la lógica anterior, incluido el campo del número de pedido. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como número de pedido, el almacén, el modo de transporte de entrega y la dirección).
+    > - Ambas directivas *CrossOrder* consideran el mismo conjunto de campos que la lógica anterior. Sin embargo, también consideran el campo del número de orden. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como el almacén, el modo de transporte de entrega y la dirección).
+    > - Ambas directivas *Predeterminada* consideran el mismo conjunto de campos que la lógica anterior. Sin embargo, también consideran el campo del número de orden. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como número de pedido, el almacén, el modo de transporte de entrega y la dirección).
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Escenario 2: configurar directivas de consolidación de envíos personalizadas
+1. Si el sistema genera una directiva *CrossOrder* para el tipo de directiva *Ordenes de venta*, selecciónela y luego, en el panel Acciones, seleccione **Editar consulta**. En el editor de consultas, puede ver en cuál de sus almacenes la configuración **Consolidar el envío en el momento de la entrega al almacén** estaba previamente habilitada para. Por lo tanto, esta política reproduce su configuración anterior para estos almacenes.
+1. Personalice las nuevas políticas predeterminadas según sea necesario agregando o eliminando campos y/o editando las consultas. Puede también agregar tantas directivas nuevas como necesite. Para ver ejemplos que muestran cómo personalizar y configurar sus políticas, consulte el escenario de ejemplo más adelante en este artículo.
 
-Este escenario muestra cómo configurar directivas de consolidación de envío personalizadas. Las directivas personalizadas pueden admitir requisitos comerciales complejos donde la consolidación de envíos depende de varias condiciones. Para cada directiva de ejemplo que aparece más adelante en este escenario, se incluye una breve descripción del caso de negocio. Estas directivas de ejemplo deben configurarse en una secuencia que garantice una evaluación similar a una pirámide de las consultas. (En otras palabras, las directivas que tienen la mayoría de las condiciones deben ser evaluadas como de mayor prioridad).
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Escenario: configurar directivas de consolidación de envíos personalizadas
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Active la característica y prepare los datos maestros para este escenario
+Este escenario proporciona un ejemplo que muestra cómo configurar políticas de consolidación de envío personalizadas y luego probarlas con datos de demostración. Las directivas personalizadas pueden admitir requisitos comerciales complejos donde la consolidación de envíos depende de varias condiciones. Para cada directiva de ejemplo que aparece más adelante en este escenario, se incluye una breve descripción del caso de negocio. Estas directivas de ejemplo deben configurarse en una secuencia que garantice una evaluación similar a una pirámide de las consultas. (En otras palabras, las directivas que tienen la mayoría de las condiciones deben ser evaluadas como de mayor prioridad).
 
-Antes de poder realizar los ejercicios en este escenario, debe activar la característica y preparar los datos maestros necesarios para realizar el filtrado, como se describe en las subsecciones siguientes. (Estos requisitos previos también se aplican a los escenarios enumerados en [Escenarios de ejemplo de cómo usar las directivas de consolidación de envíos](#example-scenarios)).
+### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Active la característica y cree las directivas predeterminadas
+Este escenario hace referencia a valores y registros que se incluyen en los [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar que se proporcionan para Supply Chain Management. Si desea utilizar los valores que se proporcionan aquí mientras realiza los ejercicios, asegúrese de trabajar en un entorno donde estén instalados los datos de demostración y configure la entidad jurídica en *USMF* antes de empezar.
 
-Utilice la administración de características para activar la característica, si aún no la ha activado, y cree las directivas de consolidación predeterminadas que se describen en el [escenario 1](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Preparar datos maestros para este escenario
+
+Antes de poder realizar los ejercicios en este escenario, debe preparar los datos maestros necesarios para realizar el filtrado, como se describe en las subsecciones siguientes. (Estos requisitos previos también se aplican a los escenarios enumerados en la sección [Escenarios de ejemplo de cómo usar las directivas de consolidación de envíos](#example-scenarios)).
 
 #### <a name="create-two-new-product-filter-codes"></a>Crear dos nuevos códigos de filtro de producto
 
@@ -300,7 +274,7 @@ En este ejemplo, creará una directiva *Almacenes que permiten consolidación* q
 - La consolidación con envíos abiertos está desactivada.
 - La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén**).
 
-Por lo general, este caso de negocios se puede abordar mediante las directivas predeterminadas que creó en el [escenario 1](#scenario-1). Sin embargo, también puede crear directivas similares manualmente siguiendo estos pasos.
+Por lo general, este caso de negocios se puede abordar mediante las directivas predeterminadas que creó en el [Configurar sus directivas de consolidación iniciales](#initial-policies). Sin embargo, también puede crear directivas similares manualmente siguiendo estos pasos.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
@@ -345,7 +319,7 @@ Los siguientes escenarios ilustran cómo podría utilizar las directivas de cons
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
+- [Vista general de directivas de consolidación de envíos](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

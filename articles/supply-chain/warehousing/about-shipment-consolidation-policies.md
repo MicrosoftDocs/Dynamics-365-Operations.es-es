@@ -1,5 +1,5 @@
 ---
-title: Directivas de consolidación de envíos
+title: Vista general de directivas de consolidación de envíos
 description: Este artículo proporciona una descripción general de la funcionalidad que proporciona una configuración flexible de las directivas de consolidación de envíos.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903909"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427938"
 ---
-# <a name="shipment-consolidation-policies"></a>Directivas de consolidación de envíos
+# <a name="shipment-consolidation-policies-overview"></a>Vista general de directivas de consolidación de envíos
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Antes de que se introdujeran las directivas de consolidación de envíos, la fun
 
 Las consultas se utilizan para identificar la directiva de consolidación de envíos que se aplica, y luego un conjunto de campos editables determina cómo se agrupan las líneas de carga a nivel de envío. (Este patrón se asemeja al patrón que siguen las plantillas de oleada). Además, se ha añadido a cada directiva uan opción **Consolidar con envíos existentes**. Cuando esta opción está activada, el procedimiento *Despachar al almacén* busca envíos para consolidación buscando entre los envíos existentes que se crearon según la misma directiva de consolidación. En este caso, el sistema seleccionará un envío o carga existente en lugar de crear uno nuevo. Sin embargo, el sistema solo se consolidará con envíos existentes que tengan un estado de *Abierto* ; los envíos que pertenecen a un lanzamiento de oleada con un estado de *Liberado* o superior no se considerarán como objetivos para la consolidación.
 
-Cuando las directivas de consolidación de envíos están disponibles, la opción **Consolidar el envío al despachar al almacén** que anteriormente estaba disponible en la página de configuración **Almacenes** queda oculta. Para ayudarle a realizar la transición a la nueva función de consolidación de envíos, una función en la página **Directivas de consolidación de envíos** crea una directiva predeterminada que incluye automáticamente la configuración anterior para los almacenes existentes. Después de crear esa directiva predeterminada, la opción **Consolidar el envío en el despacho al almacén** de la página de opciones **Almacenes** ya no se considerará.
+Cuando la característica *Directivas de consolidación de envíos* está activada en su sistema, la opción **Consolidar el envío al despachar al almacén** que anteriormente estaba disponible en la página de configuración **Almacenes** queda oculta. Para ayudarle a realizar la transición a la nueva función de consolidación de envíos, una función en la página **Directivas de consolidación de envíos** le deja crear una directiva predeterminada que incluye automáticamente la configuración anterior para los almacenes existentes. Después de crear esa directiva predeterminada, la opción **Consolidar el envío en el despacho al almacén** de la página de opciones **Almacenes** ya no se considerará. Para obtener más información, consulte [Configurar directivas de consolidación de envíos](configure-shipment-consolidation-policies.md).
 
 Puedes usar la página **Despachar al almacén** para anular manualmente la directiva de consolidación aplicable de la misma manera que puede anular las directivas de cumplimiento.
 

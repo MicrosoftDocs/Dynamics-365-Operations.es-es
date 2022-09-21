@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287940"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476821"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -137,7 +137,29 @@ En la ilustración siguiente se muestran expresiones de este tipo. (Se utiliza c
 > 
 > Según esta configuración, el mensaje que se genera para cada pago del deudor, el elemento XML **Ustrd**, contendrá el texto de las notas de pago o, si ese texto estuviera vacío, una lista de números de factura separados por comas que se usan para liquidar el pago.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validación de las fórmulas configuradas
+## <a name="assistance-in-formulas-writing"></a>Asistencia en la redacción de fórmulas
+
+### <a name="data-sources-navigator"></a>Navegador de orígenes de datos
+
+Puede editar una fórmula que represente un elemento de una fuente de datos estructurada. Cuando configuró sus parámetros de ER para presentar la ruta a un elemento de una fuente de datos estructurados como la [ruta de acceso relativa](relative-path-data-bindings-er-models-format.md), el signo "arroba" (@) es [mostrado](er-formula-language.md#relative-path) en la fórmula en lugar de la parte restante de la ruta absoluta de la estructura de árbol jerárquica que se utiliza. Esta parte restante de la ruta absoluta apunta a un elemento principal del editable. En Finance versión **10.0.30 y posteriores**, en la página **Diseñador de fórmulas**, en el panel **Orígenes de datos**, puede seleccionar la opción **Ir a @** para colocar el cursor del árbol de fuentes de datos en un elemento que es el primario del editable. La estructura de todos los elementos ascendentes colapsados se expandirá automática y recursivamente cuando sea necesario. Esta expansión puede ayudarlo a visualizar rápidamente el elemento base del elemento editable, observar los elementos hermanos del elemento editable en el árbol de fuentes de datos y utilizar cada uno de ellos en la fórmula editable si es necesario.
+
+![Utilice la opción "Ir a @" para colocar el cursor del árbol de orígenes de datos en un elemento que sea el principal del editable en la página del diseñador de fórmulas.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Selector de orígenes de datos
+
+En la página **Diseñador de fórmulas**, en el panel **Orígenes de datos** de la izquierda, seleccione un elemento de una fuente de datos que desee incluir en la fórmula editable. Después seleccione **Agregar origen de datos**. Observe que el elemento seleccionado se agrega al texto de la fórmula editable.
+
+> [!TIP]
+> Cuando usa la opción **Agregar origen de datos** en el editor de fórmulas predeterminado, el elemento seleccionado siempre se agrega al final del texto de la fórmula. Cuando hace lo mismo en el [Editor de fórmulas avanzado](er-advanced-formula-editor.md), el elemento seleccionado se inserta en el texto de la fórmula en la posición actual del cursor.
+
+### <a name="built-in-functions-picker"></a>Selector de funciones integradas
+
+En la página **Diseñador de fórmulas**, en el panel **Funciones** de la derecha, seleccione una función integrada ER que desee incluir en la fórmula editable. Luego seleccione **Agregar función**. Observe que la función seleccionada se agrega al texto de la fórmula editable.
+
+> [!TIP]
+> Cuando usa la opción **Agregar función** en el editor de fórmulas predeterminado, la función seleccionada siempre se agrega al final del texto de la fórmula. Cuando hace lo mismo en el [Editor de fórmulas avanzado](er-advanced-formula-editor.md), la función seleccionada se inserta en el texto de la fórmula en la posición actual del cursor.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validación de las fórmulas configuradas
 
 En la página **Diseñador de fórmulas**, seleccione **Probar** para validar cómo funciona la fórmula configurada.
 

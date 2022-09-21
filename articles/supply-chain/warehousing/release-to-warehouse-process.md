@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893189"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428046"
 ---
 # <a name="release-to-warehouse"></a>Liberar al almacén
 
@@ -34,7 +34,7 @@ Una *carga* es un grupo de órdenes de venta o líneas de orden de transferencia
 
 El *trabajo* de almacén es cualquier operación de almacén que realiza un trabajador de almacén. Normalmente, las operaciones de trabajo del almacén constan de al menos dos acciones consecutivas: un trabajador de almacén recoge inventario disponible en una ubicación y después lo pone en otra ubicación.
 
-Cuando los pedidos se liberan al almacén, el sistema crea *líneas de carga* y las agrupa en envíos. El proceso de consolidación de envíos permite la consolidación automatizada de envíos durante el proceso de liberación al almacén. Para obtener más información, consulte [Directivas de consolidación de envíos](about-shipment-consolidation-policies.md).
+Cuando los pedidos se liberan al almacén, el sistema crea *líneas de carga* y las agrupa en envíos. El proceso de consolidación de envíos permite la consolidación automatizada de envíos durante el proceso de liberación al almacén. Para obtener más información, consulte [Vista general de directivas de consolidación de envíos](about-shipment-consolidation-policies.md).
 
 El sistema utiliza *oleadas* para crear trabajos de picking y cargas para envío. Una *plantilla de oleada* debe estar disponible para el tipo de oleada que desea crear y para el almacén de la línea de pedido. Las plantillas de oleada de tipo *Envío* se usan para enviar artículos para los pedidos de ventas y los pedidos de transferencia.
 

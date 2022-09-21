@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878914"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460558"
 ---
 # <a name="dual-use-goods"></a>Bienes de doble uso
 
@@ -85,7 +85,14 @@ Para identificar un producto como un bien de doble uso y aplicarle una categorí
 1. En la ficha desplegable **Comercio exterior**, configure la opción **Productos de doble uso** en **Sí** para identificar el producto actual como un bien de doble uso.
 1. Establezca el campo **Código de doble uso** en el código que se aplique al producto actual. (Ha definido este código en la página **Categorías de doble uso**.)
 
-Esta configuración se verifica cuando crea un pedido de ventas.
+> [!NOTE]
+>
+> El sistema realiza las siguientes comprobaciones de doble uso cuando genera una confirmación de venta:
+>
+> 1. ¿El pedido incluye algún bien que sea de doble uso?
+> 1. Si es así, ¿el país de destino requiere certificados de doble uso?
+> 1. Si es así, ¿existe un certificado válido para cada bien de doble uso para el país de destino y son esos certificados válidos para las fechas de envío confirmadas?
+> 1. Si las respuestas a las preguntas 1 y 2 son "Sí" y la respuesta a la pregunta 3 es "No", entonces el sistema muestra una advertencia para informar al usuario que faltan certificados de doble uso para uno o más productos de doble uso en el órdenes de venta. El usuario probablemente debería obtener los certificados requeridos y volver a intentarlo, pero en su lugar podría anular la advertencia y continuar con la confirmación de la venta si así lo desea.
 
 ## <a name="set-up-dual-use-certificates"></a>Configurar certificados de doble uso
 

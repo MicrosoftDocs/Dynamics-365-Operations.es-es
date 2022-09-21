@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186699"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428154"
 ---
 # <a name="buffer-profile-and-levels"></a>Perfil y niveles de búfer
 
@@ -77,6 +77,14 @@ En la ilustración anterior, si hoy es la mañana del 11 de junio, el ADU de los
 
 - **ADU (pasado)** = (29 + 11 + 23) ÷ 3 = 21
 
+Las siguientes transacciones se tienen en cuenta para el cálculo del uso diario promedio (pasado):
+
+- Transacciones que disminuyen la cantidad del artículo (en la tabla `inventtrans` donde la cantidad es menor que cero)
+- Transacciones con un estado de *En orden*, *Reservado ordenado*, *Físico reservado*, *Escogido*, *Deducido*, o *Vendido*
+- Transacciones con fecha dentro del período hacia atrás elegido (el uso diario promedio del período anterior)
+- Transacciones que no sean trabajo de almacén, cuarentena, cotizaciones de venta o extractos (`WHSWork`, `WHSQuarantine`, `SalesQuotation`, o `Statement`)
+- Transacciones que no sean diarios de transferencia que estén dentro de la misma dimensión de cobertura
+
 ### <a name="average-daily-usage-forward"></a>Uso diario promedio (futuro)
 
 Para un producto nuevo, es posible que no tenga datos de uso anteriores. Por lo tanto, en su lugar, puede usar el ADU proyectado hacia delante (por ejemplo, basado en la demanda prevista). La siguiente ilustración muestra cómo funciona este enfoque cuando el cálculo tiene en cuenta tres días del futuro (incluido hoy).
@@ -86,6 +94,11 @@ Para un producto nuevo, es posible que no tenga datos de uso anteriores. Por lo 
 En la ilustración anterior, si hoy es la mañana del 11 de junio, el ADU de los tres días siguientes (11, 12 y 13 de junio) es 21.66.
 
 - **ADU (futuro)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Las siguientes transacciones se tienen en cuenta para el cálculo del uso diario promedio (hacia adelante):
+
+- Transacciones de pronóstico para el artículo donde se selecciona el pronóstico en el plan maestro
+- Transacciones con fecha dentro del período hacia adelante elegido (el uso diario promedio del período hacia adelante)
 
 ### <a name="average-daily-usage-blended"></a>Uso diario promedio (combinado)
 

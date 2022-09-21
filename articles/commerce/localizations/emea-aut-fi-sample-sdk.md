@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 8d41dfb359a71f24d0cb0c5aa0114225cd28fe59
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313784"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474008"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Directrices de implementación para la muestra de integración del servicio fiscal para Austria (heredada)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Debe seguir las pautas de este artículo solo si está utilizando Microsoft Dynamics 365 Commerce versión 10.0.28 o anterior. En Commerce versión 10.0.29, el ejemplo de integración del servicio de registro fiscal para Austria está disponible en el kit de desarrollo de software (SDK) de Commerce. Para obtener más información, consulte [Configurar componentes de canal](./emea-aut-fi-sample.md#configure-channel-components).

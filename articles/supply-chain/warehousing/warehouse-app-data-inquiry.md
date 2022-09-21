@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336617"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427858"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Consultar datos mediante los desvíos de la aplicación móvil Warehouse Management
 
@@ -268,6 +268,6 @@ Siga estos pasos para probar la configuración de su nueva aplicación móvil.
     ![Recepción de compras utilizando la búsqueda de órdenes de compra por proveedor, ejemplo 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Recepción de compras utilizando la búsqueda de órdenes de compra por proveedor, ejemplo 2")
 
 > [!TIP]
-> En lugar de ejecutar el flujo de recepción haciendo una búsqueda desde el elemento del menú **Recepción de compra**, puede comenzar desde un flujo de consulta (**Principal \> Consulta \> Buscar órdenes de compra por proveedor**) e invoque un desvío para ejecutar el flujo deseado seleccionando una de las tarjetas de la lista. Para utilizar este enfoque, puede definir un desvío en la página **Pasos del dispositivo móvil** para el paso que tiene un valor **ID de paso** de *GenericDataInquiryList*. Debido a que este flujo es un flujo de desvío, no puede invocar más desvíos desde él. Por lo tanto, cuando llegue a la pantalla de entrada de número de artículo, por ejemplo, la búsqueda no estará disponible en ella, porque el sistema actualmente solo admite un nivel de desvíos.
+> En lugar de ejecutar el flujo de recepción haciendo una búsqueda desde el elemento del menú **Recepción de compra**, puede comenzar desde un flujo de consulta (**Principal \> Consulta \> Buscar órdenes de compra por proveedor**) e invoque un desvío para ejecutar el flujo deseado seleccionando una de las tarjetas de la lista. Para utilizar este enfoque, puede definir un desvío en la página **Pasos del dispositivo móvil** para el paso que tiene un valor **ID de paso** de *GenericDataInquiryList*. Siempre que la característica [*Desvíos de varios niveles para la aplicación móvil de gestión de almacenes*](warehouse-app-detours.md) está activada para su sistema, también puede agregar un desvío adicional si es necesario (esta función agrega soporte para hasta dos niveles de desvíos y se puede personalizar para admitir niveles adicionales).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

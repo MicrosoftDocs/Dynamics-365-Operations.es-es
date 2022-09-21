@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5cb2c1234de03e9777921c18e4cbb81eec7feef9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903518"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462284"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Generar líneas de factura al importar facturas de proveedores
 
@@ -45,7 +45,7 @@ Para habilitar la creación automática de líneas de factura, siga estos pasos.
 Para admitir la funcionalidad que se describe en este artículo, la entidad de datos **Encabezado de la factura del proveedor** se ha mejorado. Se han agregado tres campos:
 
 - **HeaderOnlyImport**: este campo debe establecerse en **Sí** para generar líneas para los encabezados de las facturas.
-- **PurchIdRange** - La lista de números de pedidos de compra. Los números de factura pueden ser un rango, como **INV0001..INV0009** (donde los dos puntos separan el inicio y el final del rango), o valores discretos, como **INV0001, INV0003, INV0006**. Todos los pedidos de compra deben pertenecer a la misma cuenta de proveedor en el encabezado de la factura. De lo contrario, recibirá el siguiente mensaje de error: "Error al generar líneas de factura. Los pedidos de compra tienen diferentes cuentas de proveedores ".
+- **PurchIdRange** - La lista de números de pedidos de compra. Los números de factura pueden ser un rango, como **PO0001..PO0009** (donde los dos puntos separan el inicio y el final del rango), o valores discretos, como **PO0001, PO0003, PO0006**. Todos los pedidos de compra deben pertenecer a la misma cuenta de proveedor en el encabezado de la factura. De lo contrario, recibirá el siguiente mensaje de error: "Error al generar líneas de factura. Los pedidos de compra tienen diferentes cuentas de proveedores ".
 - **PackingslipRange** - La lista de números de recibo de producto. Se pueden crear líneas de factura de proveedor a partir de recibos de productos. Sin embargo, los números de recibo de los productos no suelen incluirse en las facturas de los proveedores. Solo introduzca los números de recibo de producto en este campo si puede identificar claramente para qué facturas específicas son los recibos de producto. Se pueden generar líneas de factura a partir de recibos de productos. Si se utiliza este campo, la configuración del campo **Elija la cantidad predeterminada para la creación automática de líneas de factura** en la página **Parámetros de proveedores** se ignora. 
 
 **Limitación** : Si introduce varios números de recibo de producto, se crearán varias facturas de proveedor pendientes con el mismo número de factura. Debe consolidarlos manualmente antes de seguir procesando la factura. En versiones futuras, planeamos consolidar las facturas automáticamente, por lo que se eliminará la limitación.

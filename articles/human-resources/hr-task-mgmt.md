@@ -2,7 +2,7 @@
 title: Administración de tareas
 description: Este artículo explica la funcionalidad de administración de tareas que está disponible en Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897875"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445904"
 ---
 # <a name="task-management"></a>Administración de tareas
 
@@ -69,7 +69,13 @@ En las tres pestañas, los asistentes y gerentes de recursos humanos pueden comp
 
 Puede crear tareas individualmente y luego reutilizarlas en múltiples listas de verificación. Para crear una tarea, en la página **Configuración de incorporación**, en la pestaña **Tareas**, seleccione **Nuevo**.
 
+Puede asignar una tarea creada a varias listas de verificación seleccionando la tarea y luego seleccionando **Aplicar a las listas de verificación** en el menú.
+
 Alternativamente, puede agregar tareas directamente a una lista de verificación. Para agregar una tarea a una lista de verificación, en la página **Configuración de incorporación**, en la pestaña **Lista de Verificación**, cree una nueva lista de verificación para agregar la tarea o agregue la tarea a una lista de verificación existente.
+
+Para editar una tarea en la biblioteca, seleccione **Editar** en el menú de la biblioteca de tareas. Si la tarea está asociada con alguna lista de verificación, esas listas de verificación se mostrarán en la página **Editar tarea**. Si desea que las tareas en cualquier lista de verificación se actualicen con las ediciones, seleccione esas listas de verificación en la sección **Aplicar a las listas de verificación**.
+
+Para eliminar tareas de la biblioteca, seleccione la opción **Eliminar**. Si una tarea está asociada con cualquier lista de verificación, esta acción no eliminará la tarea de esa lista de verificación. La tarea debe eliminarse de la lista de verificación en una acción separada.
 
 > [!NOTE]
 > Si agrega una tarea directamente a una lista de verificación, no puede reutilizarla en otras listas de verificación.
@@ -133,7 +139,15 @@ Las tareas complejas pueden requerir varios pasos o que las personas que realiza
 
 ## <a name="setting-up-checklists"></a>Configuración de listas de verificación
 
-Una lista de verificación es un grupo de tareas. Puede crear tantas listas de verificación como necesite y puede asignar las mismas tareas a varias listas de verificación. Cuando crea una lista de verificación, especifica un propietario y un calendario.
+Una lista de verificación es un grupo de tareas. Puede crear tantas listas de verificación como necesite y puede asignar las mismas tareas a varias listas de verificación.
+
+Para crear una nueva tarea en una lista de verificación, seleccione **Nueva** en la barra del menú **Tareas**. Cuando crea una nueva tarea, puede seleccionar agregarla a la biblioteca de tareas, para que pueda compartirse en varias listas de verificación. Puede agregar la tarea a la biblioteca solo si la opción **Aplicar tarea a la biblioteca** está configurada para **Sí**. Si agrega la tarea a la biblioteca de tareas, también puede agregarla a otras listas de verificación al mismo tiempo seleccionando esas listas de verificación en la sección **Aplicar a las listas de verificación**. Si no agrega la tarea a la biblioteca, solo existirá en la lista de verificación en la que la creó.
+
+Para editar una tarea en la lista de verificación, seleccione **Editar**. Si la tarea está asociada con alguna lista de verificación, esas listas de verificación se mostrarán en la página **Editar tarea**. Si desea que las tareas en otra lista de verificación se actualicen con las ediciones, seleccione esas listas de verificación en la sección **Aplicar a las listas de verificación**.
+
+Para eliminar tareas de la lista de verificación, seleccione **Quitar**. Esta acción simplemente elimina tareas de la lista de verificación. No los elimina de la biblioteca de tareas. Para eliminar una tarea de la biblioteca, vaya a la página de la biblioteca de tareas y seleccione **Eliminar**.
+
+Cuando crea una lista de verificación, especifica un propietario y un calendario.
 
 Si el campo **Tipo de asignación** para una tarea se establece en **Puesto**, **Gerente**, o **Grupo**, pero no se puede derivar ningún individuo específico del tipo de asignación, la tarea se asignará al propietario de la lista de verificación. Estos son algunos ejemplos de situaciones en las que las tareas se asignarán al propietario de la lista de verificación:
 

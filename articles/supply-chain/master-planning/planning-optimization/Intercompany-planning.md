@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850681"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475622"
 ---
 # <a name="intercompany-planning"></a>Planificación de empresas vinculadas
 
@@ -45,8 +45,8 @@ Si ejecuta la planificación maestra desde un plan maestro que incluye la demand
 
 Para utilizar la planificación de empresas vinculadas, debe preparar su sistema de la siguiente manera:
 
-1. Los productos relevantes deben ser lanzados en todas las empresas relevantes. Para obtener más información, consulte [Configurar y usar el comercio de empresas vinculadas en Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) en Microsoft Learn.
-1. La demanda aguas abajo debe cubrirse mediante compras a un proveedor que tenga una relación intercompañía con la compañía aguas arriba y dimensiones de inventario predeterminadas relevantes (sitio y almacén) en el cliente. Para obtener más información, consulte [Configurar y usar el comercio de empresas vinculadas en Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) en Microsoft Learn.
+1. Los productos relevantes deben ser lanzados en todas las empresas relevantes. Para obtener más información, consulte [Configurar y usar el comercio de empresas vinculadas en Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. La demanda aguas abajo debe cubrirse mediante compras a un proveedor que tenga una relación intercompañía con la compañía aguas arriba y dimensiones de inventario predeterminadas relevantes (sitio y almacén) en el cliente. Para obtener más información, consulte [Configurar y usar el comercio de empresas vinculadas en Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. El plan maestro en la empresa aguas arriba debe incluir la demanda aguas abajo planificada, y la compañía relevante y el plan maestro deben especificarse en los planes aguas abajo.
 
 ## <a name="include-planned-downstream-demand"></a>Incluir demanda planificada descendente
@@ -85,6 +85,5 @@ Para este ejemplo, se crea una orden de compra planificada en la empresa USMF pa
 La siguiente ilustración muestra cómo podría aparecer este ejemplo en la página **Vinculación multinivel** de la orden de producción planificada.
 
 ![Ejemplo de intercompañía que involucra a tres empresas.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

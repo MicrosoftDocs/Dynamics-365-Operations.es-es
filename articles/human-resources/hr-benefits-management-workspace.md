@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336947"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472723"
 ---
 # <a name="benefits-management-workspace"></a>Espacio de trabajo de administración de prestaciones
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 En este artículo se describe el espacio de trabajo de **gestión de beneficios** de Dynamics 365 Human Resources.
-
-> [!NOTE]
-> Para ver el espacio de trabajo **Gestión de beneficios**, primero debe habilitar la función **Espacio de trabajo de gestión de beneficios (vista previa)** en la gestión de funciones. Para obtener más información sobre la habilitación de características en vista previa, consulte [Administrar características](hr-admin-manage-features.md).<br><br>![Habilitar el espacio de trabajo de administración de prestaciones.](./media/hr-benefits-management-workspace-enable.png)
 
 El espacio de trabajo **Gestión de beneficios** le brinda una vista rápida de los elementos de beneficios que requieren su atención. En esta página, puede ver lo siguiente:
 

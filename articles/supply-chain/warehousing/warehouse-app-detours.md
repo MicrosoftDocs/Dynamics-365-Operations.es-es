@@ -2,7 +2,7 @@
 title: Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 description: Este artículo describe cómo configurar desvíos para los elementos del menú para que los trabajadores puedan estacionar la tarea actual, realizar otra tarea y luego regresar a la tarea original sin perder ninguna información.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336137"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428073"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 
@@ -35,8 +35,11 @@ Antes de poder configurar desvíos para pasos en los elementos del menú del dis
 
 1. Vaya a **Administración del sistema \> Espacios de trabajo \> Administración de características**.
 1. Asegúrese de que la función *Instrucciones paso a paso de la aplicación de almacén* está activada para su sistema. A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada. Para obtener más información sobre la característica *Instrucciones de los pasos de la aplicación de almacén*, consulte [Personalizar los títulos y las instrucciones de los pasos para la aplicación móvil Warehouse Management](mobile-app-titles-instructions.md). Esta característica es un requisito previo para la característica *Desvíos de aplicaciones de Warehouse Management*.
-1. Active la característica *Desvíos de aplicaciones de Warehouse Management*. Esta característica es una que se describe en este artículo. A partir de la versión 10.0.29 de Supply Chain Management, está activada de forma predeterminada.
-1. Si la característica *Desvíos de la aplicación Warehouse Management* no estaba ya activada, actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Repita este paso para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
+1. Active las siguientes funciones, que proporcionan la funcionalidad descrita en este artículo:
+    - *Desvíos de la aplicación Warehouse Management*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
+    - *Desvíos de varios niveles para la aplicación móvil Warehouse Management*
+1. Si la característica *Desvíos de la aplicación Warehouse Management* y/o *Desvíos multi nivel para la aplicación móvil Warehouse Management* no estaba ya activada, actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
+1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Configurar un desvío de una invalidación específica del menú
 
@@ -147,3 +150,6 @@ En este procedimiento, llevará a cabo una consulta de ubicación mediante la ap
 1. Observe que la matrícula se ha copiado de la tarjeta que seleccionó. Confirme el valor.
 1. Ahora puede seguir el flujo de tareas estándar para completar el movimiento. Una vez completado el trabajo, abra el menú de acciones y seleccione **Cancelar**.
 1. Volverá a la página **Consulta de ubicación**. Tenga en cuenta que los valores no se actualizan automáticamente. Por lo tanto, debe actualizar manualmente la página para ver los cambios del desvío de movimiento.
+
+> [!NOTE]
+> La característica *Desvíos de varios niveles para la aplicación móvil Warehouse Management* le permite definir desvíos de varios niveles (desvíos dentro de desvíos), lo que permitirá a los trabajadores saltar de un desvío existente dos por segundo y luego regresar. La función admite dos niveles de desvíos listos para usar y, si es necesario, puede personalizar su sistema para que admita tres o más niveles de desvíos mediante la creación de extensiones de código en la tabla `WHSWorkUserSessionState`.

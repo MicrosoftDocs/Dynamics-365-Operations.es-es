@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2019-01-31
-ms.openlocfilehash: f19566ce64becea4a53a8479cb5a08579567cda1
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: 74cfe5246ad72cbdedd0ed4e3b3394bf7277919e
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346410"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473860"
 ---
 # <a name="shipping-discount"></a>Descuento por envío
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este artículo describe las capacidades de descuento de envío en Microsoft Dynamics 365 Commerce y la configuración que se requiere para usarlos.
 

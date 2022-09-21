@@ -11,17 +11,16 @@ ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: b56890b546c3cd74b75cf447e62495733ea8d288
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: bc0df6c4aac72907e8523069e3f1ae100780dc3c
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387074"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473941"
 ---
 # <a name="cross-company-data-sharing-for-gift-cards"></a>Uso compartido de datos entre empresas para tarjetas regalo
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 En este artículo se describe cómo configurar Microsoft Dynamics 365 Commerce para utilizar la funcionalidad de compartición de datos de Dynamics 365 Finance para sincronizar los datos de las tarjetas regalo. La funcionalidad de uso compartido de registros de datos se puede utilizar para compartir datos entre empresas entre dos áreas de datos. De esta forma, la tabla interna de regalos de Commerce puede compartir datos entre dos entidades de la empresa. Para obtener más información sobre el uso compartido de datos entre empresas de Dynamics 365 Finance, consulte [Intercambio de datos entre empresas](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
 

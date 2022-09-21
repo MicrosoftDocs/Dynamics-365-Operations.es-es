@@ -2,7 +2,7 @@
 title: Agregar recomendaciones de producto en PDV
 description: Este artículo describe el uso de las recomendaciones de productos en un dispositivo de punto de venta (PDV).
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872808"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460066"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Agregar recomendaciones de producto en PDV
 
@@ -37,7 +37,7 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 
 1. En la página **Detalles del producto**:
 
-    - Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el servicio de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
+    - Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el servicio de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta. Dependiendo de los complementos para el servicio, los minoristas pueden mostrar las recomendaciones **Comprar aspecto similar** y **Comprar descripción similar** para productos, además de recomendaciones personalizadas para usuarios que cuentan con un historial de compras previo.
 
     [![Recomendaciones en la página Detalles de producto.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,25 +50,21 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 
     [![Recomendaciones de la página de la transacción.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configure Commerce para habilitar las recomendaciones de PDV
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configure Commerce para habilitar las recomendaciones de PDV 
 
-Siga estos pasos para configurar recomendaciones de productos:
+Para configurar recomendaciones de productos, confirme que ha completado el proceso de aprovisionamiento para las recomendaciones de productos de Commerce siguiendo los pasos en [Habilitar recomendaciones de productos](../commerce/enable-product-recommendations.md). De forma predeterminada, las recomendaciones aparecen en las páginas **Detalles de producto** y **Detalles del cliente** después de completar los pasos de aprovisionamiento y los datos se han cocinado correctamente. 
 
-1. Asegúrese de que el servicio se ha actualizado a la **compilación 10.0.6**.
-2. Siga las instrucciones de cómo [habilitar recomendaciones de productos](../commerce/enable-product-recommendations.md) para su negocio.
-3. Opcional: para mostrar recomendaciones en la pantalla de transacción, vaya a **Diseño de pantalla**, elija su diseño de pantalla, inicie el **Diseñador de pantalla** y quite el control de **recomendaciones** cuando sea necesario.
-4. Vaya a **Parámetros de Commerce** seleccione **Aprendizaje automático** y seleccione **Sí** en **Habilitar recomendaciones de PDV**.
-5. Para ver recomendaciones sobre el PDV, ejecute el trabajo de configuración global **1110**. Para reflejar los cambios realizados en el diseñador de pantalla del PVD, ejecute el trabajo de configuración de canal **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Agregar recomendaciones a la pantalla de transacción
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Solucionar problemas donde tiene recomendaciones de productos ya habilitadas
+1. Para agregar recomendaciones a la pantalla de transacción, siga los pasos en [Agregar recomendaciones a la pantalla de transacción](add-recommendations-control-pos-screen.md).
+1. Para reflejar los cambios que se realizaron en el diseñador de diseño de pantalla de PDV, ejecute el trabajo de configuración del canal **1070** en Commerce headquarters.
 
-- Vaya a **Parámetros de Commerce** \> **Listas de recomendaciones** \> **Deshabilitar recomendaciones de productos** y ejecute **Trabajo de configuración global \[9999\]**. 
-- Si agregó el **Control de recomendaciones** a su pantalla de transacción mediante el **Diseñador de pantalla**, quítelo también.
-- Si tiene preguntas adicionales, consulte [Preguntas más frecuentes sobre las recomendaciones del producto](../commerce/faq-recommendations.md) para obtener más información.
+> [!NOTE] 
+> Si desea habilitar las recomendaciones de POS mediante el uso del archivo de valores separados por comas (CSV) de RecoMock, debe implementar el archivo CSV en la biblioteca de activos de Microsoft Dynamics Lifecycle Services (LCS) antes de configurar el administrador de diseño. Si usa el archivo CSV de RecoMock, no tiene que habilitar las recomendaciones. El archivo CSV está disponible solo para fines de demostración. Se recomienda para clientes o arquitectos de soluciones que desean imitar la apariencia de las listas de recomendaciones con fines de demostración sin tener que comprar una unidad de mantenimiento de existencias (SKU) adicional.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de recomendaciones de producto](product-recommendations.md)
+[Información general de recomendaciones de producto](product-recommendations.md)
 
 [Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410460"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462311"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Características quitadas o en desuso de Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí |
 | **Áreas de producto afectadas** | Aplicación |
 | **Opción de implementación** | Todo |
-| **Status** | En desuso: después de abril de 2023, la funcionalidad de reconocimiento de ingresos en Dynamics 365 Finance ya no recibirá soporte con correcciones de errores. Se les pedirá a los clientes que utilicen la funcionalidad mejorada, [Facturación de suscripciones](../../finance/accounts-receivable/subscription-billing-summary.md). En octubre de 2023, la función de reconocimiento de ingresos ya no estará disponible. Se les pedirá a los clientes que cambien a la funcionalidad mejorada de Facturación de suscripciones.|
+| **Status** | En desuso: después de abril de 2023, la funcionalidad de reconocimiento de ingresos en Dynamics 365 Finance ya no recibirá soporte con correcciones de errores. Se les pedirá a los clientes que utilicen la funcionalidad mejorada, [Facturación de suscripciones](../../finance/accounts-receivable/subscription-billing-summary.md). En octubre de 2023, la función de reconocimiento de ingresos ya no estará disponible. Se les pedirá a los clientes que cambien a la funcionalidad mejorada de Facturación de suscripciones. Para la característica de paquete como parte del reconocimiento de ingresos, no hay una funcionalidad de reemplazo planificada en este momento.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Características quitadas o en desuso en la versión Finance 10.0.29
 

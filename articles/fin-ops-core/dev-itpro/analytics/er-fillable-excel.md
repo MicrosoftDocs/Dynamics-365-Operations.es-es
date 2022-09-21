@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280936"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476837"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Diseñar una configuración para generar documentos en formato Excel
 
@@ -186,6 +186,9 @@ Cuando un componente **Celda** está configurado para Introducir un valor en una
 
 > [!NOTE]
 > Se considera que cada imagen y forma de Excel está anclada por su esquina superior izquierda a una celda o rango específico de Excel. Si desea replicar una imagen o forma de Excel, debe configurar la celda o rango al que está anclada como una celda o rango replicados.
+
+> [!TIP]
+> Si planea usar una imagen con una escala y relación de aspecto personalizadas en tiempo de ejecución, le recomendamos que configure la opción **Respetar la escala de las imágenes** del [componente de archivo de Excel](#excel-file-component) prmario a **Sí** para aplicar la escala y la relación de aspecto como marcador de posición de esa imagen en la plantilla de Excel que está utilizando.
 
 Para obtener más información sobre cómo insertar imágenes y formas, consulte [Incrustar imágenes y formas en documentos que genere utilizando ER](electronic-reporting-embed-images-shapes.md).
 
