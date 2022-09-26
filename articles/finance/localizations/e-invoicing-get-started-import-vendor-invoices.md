@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283157"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524755"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utilizar el servicio de facturación electrónica para importar facturas de proveedores
 
@@ -107,7 +107,8 @@ Complete los pasos de las dos secciones siguientes para configurar diferentes ti
 2. Seleccione **Modelo de contexto de factura de cliente** y luego seleccione **Crear configuración** > **Derivar del nombre: modelo de contexto de factura de cliente, Microsoft** para crear una configuración derivada.
 3. En la versión **Borrador**, seleccione **Diseñador** y, en el árbol **Modelo de datos**, seleccione **Asignar modelo a fuente de datos**.
 4. En el árbol **Definiciones**, seleccione **DataChannel** y luego seleccione **Diseñador**.
-5. En el árbol **Fuentes de datos**, expanda el contenedor **$Context\_Channel**. En el campo **Valor**, seleccione **Editar** e ingrese el nombre del canal de datos. Nombre del canal dado en la configuración del canal de datos para la característica de Facturación Electrónica en RCS. 
+5. En el árbol **Fuentes de datos**, expanda el contenedor **$Context\_Channel**. 
+6. En el campo **Valor** seleccione **Editar** > **Editar fórmula** y escriba el nombre del canal de datos. Nombre del canal dado en la configuración del canal de datos para la característica de Facturación Electrónica en RCS. 
 7. Seleccione **Guardar** y cierre la página.
 8. Cierre la página.
 9. Seleccione la configuración derivada que acaba de crear desde el **Modelo de contexto de factura de cliente** y en la ficha desplegable **Versiones**, seleccione **Cambiar estado** > **Terminado**.

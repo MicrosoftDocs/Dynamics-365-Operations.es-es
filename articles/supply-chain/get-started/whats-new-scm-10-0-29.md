@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427884"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520760"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.29 (octubre de 2022)
 
@@ -35,7 +35,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
 | Inventario y logística | [Asignar y reservar artículos de WMS en Visibilidad de inventario](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Próximamente | Habilitado por defecto |
-| Inventario y logística | [Precargar listas de inventario disponibles optimizadas](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Próximamente | Habilitado por defecto |
+| Inventario y logística | [Precargar listas de inventario disponibles optimizadas](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [Usar la aplicación Inventory Visibility](../inventory/inventory-visibility-power-platform.md) | Habilitado por configuración de servicio |
 | Automatización del suministro de fabricación contra pedido | [Automatización del suministro de fabricación contra pedido](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Automatización del suministro de fabricación contra pedido](../master-planning/make-to-order-supply-automation.md) | Administración de características:<br>*Automatización del suministro de fabricación contra pedido* |
 | Planificada | [Ver y aplicar conocimientos detallados para DDMRP](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Descripción general de la Planificación de requisitos de materiales basada en la demanda](../master-planning/planning-optimization/ddmrp-overview.md) | Administración de características:<br>*(Versión preliminar) DDMRP para optimización de planificación* |
 | Control de producción | [Hacer que los bienes terminados estén disponibles físicamente antes de registrarlos en los diarios](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Hacer que los bienes terminados estén disponibles físicamente antes de registrarlos en los diarios](../production-control/deferred-posting.md) | Administración de características:<br>*(Versión preliminar) Hacer que los bienes terminados estén disponibles físicamente antes de registrarlos en los diarios* |

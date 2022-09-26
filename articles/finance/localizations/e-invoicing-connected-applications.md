@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277343"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524699"
 ---
 # <a name="connected-applications"></a>Aplicaciones conectadas
 
@@ -35,7 +35,7 @@ La disponibilidad de los parámetros de Finance o Supply Chain Management en RCS
 ## <a name="create-a-connected-application"></a>Crear una aplicación conectada
 
 1. Inicie sesión en su cuenta de RCS.
-2. En el espacio de trabajo **Características de globalización**, en la sección **Ambiente**, seleccione el mosaico **Facturación electrónica**.
+2. En el espacio de trabajo **Característica de globalización**, en la sección **Enlaces relacionados**, seleccione **Configurar entorno**.
 3. En la página **Configuración de entornos**, en el Panel de acciones, seleccione **Aplicaciones conectadas**.
 4. Seleccione **Nuevo** para crear una aplicación conectada.
 5. En el campo **Nombre**, especifique el nombre de la aplicación a conectar.

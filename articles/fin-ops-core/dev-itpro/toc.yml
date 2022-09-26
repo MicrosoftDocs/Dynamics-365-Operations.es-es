@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.28 (agosto de 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Actualizaciones de la plataforma para la versión 10.0.27 (julio de 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Configurar entornos de desarrollo de un solo equipo
                   href: dev-tools/configure-developer-vm.md
+                - name: Proteger entornos de desarrollo de un solo equipo
+                  href: dev-tools/secure-developer-vm.md
                 - name: Preguntas frecuentes sobre las VM de desarrollo y compilación que no permiten el acceso del administrador
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Configurar el VHD descargable para el primer uso

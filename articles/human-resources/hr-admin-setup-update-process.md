@@ -2,7 +2,7 @@
 title: Actualizar proceso
 description: Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio para la aplicación y cambios de plataforma.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178455"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520820"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
 _**Se aplica a:** Recursos humanos en la infraestructura independiente_ 
 
 > [!NOTE]
-> A partir de julio de 2022, los nuevos entornos de Human Resources no se pueden aprovisionar en la infraestructura de Human Resources independiente y los nuevos proyectos de Microsoft Dynamics Lifecycle Services (LCS) no se pueden crear en ella. Los clientes pueden desplegar entornos de Human Resources en la infraestructura de finanzas y operaciones. Para más información, vea [Aprovisionamiento de Human Resources en la infraestructura de finanzas y operaciones](/hr-admin-setup-provision-fo.md).
+> A partir de julio de 2022, los nuevos entornos de Human Resources no se pueden aprovisionar en la infraestructura de Human Resources independiente y los nuevos proyectos de Microsoft Dynamics Lifecycle Services (LCS) no se pueden crear en ella. Los clientes pueden desplegar entornos de Human Resources en la infraestructura de finanzas y operaciones. Para más información, vea [Aprovisionamiento de Human Resources en la infraestructura de finanzas y operaciones](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > El proceso de actualización y revisión en la infraestructura de la aplicación de finanzas y operaciones difiere del proceso de actualización y revisión independiente de Recursos humanos. Para obtener más información sobre el proceso de actualización, consulte [Proceso para ir a la actualización más reciente de finanzas y operaciones](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Para obtener más información sobre revisiones, consulte [Descargar actualizaciones desde Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

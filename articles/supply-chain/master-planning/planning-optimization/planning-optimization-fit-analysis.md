@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347299"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542362"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -62,7 +62,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | --- | --- | --- | --- |
 | Acciones | Grupos de cobertura con el cálculo de acciones habilitado: *\#* | Esta característica ahora se admite. | Compatible |
 | Calendarios base | Calendarios que usan el calendario base: *\#* | Esta característica ahora se admite. | Compatible | 
-| Códigos de disposición de lote | Maestros de disposición de lote no incluidos: *\#* | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 |
+| Códigos de disposición de lote | Maestros de disposición de lote no incluidos: *\#* | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: *\#* | En Supply Chain Management 10.0.28 y posteriores, un proceso llamado *CTP para Optimización de planificación* hace que las fechas confirmadas de envío y recepción estén disponibles después de que se haya ejecutado el plan dinámico. Para versiones anteriores de Supply Chain Management, la configuración de CTP heredada se ignora cuando se habilita Optimización de la planificación. | Compatible |
 | Copia estática en plan dinámico | La copia de plan estático a dinámico está habilitada en los parámetros de planificación maestra. | La optimización de la planificación no copia el plan estático en el plan dinámico, independientemente de esta configuración. En general, este concepto es menos relevante debido a la velocidad y la regeneración completa que proporciona la optimización de planificación. Si se utilizan dos o más planes, se debe activar la planificación maestra para cada plan. | N/A |
 | Puesta en firme | Grupos de cobertura con límite de tiempo de puesta en firme automática establecido: *\#* | En la versión 10.0.7 y posteriores, la puesta en firme se admite como un trabajo por lotes de puesta en firme independiente después de completar la planificación maestra (siempre que *Puesta en firme automática para la optimización de la planificación* se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la puesta en firme de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de puesta en firme. | Compatible |

@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Solución de problemas y preguntas frecuentes
           href: supply-chain-management-troubleshooting.md
-        - name: Globalización
+        - name: Globalization Studio
           items:
+            - name: Información general de Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Recursos de globalización
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Servicios de globalización
@@ -1637,7 +1639,9 @@
                   href: inventory/inventory-locations.md
                 - name: Estados de inventario
                   href: inventory/inventory-statuses.md
-                - name: Creación de un nuevo diseño de almacén
+                - name: Usar códigos de disposición de lote para marcar lotes como disponibles o no disponibles
+                  href: inventory/batch-disposition-codes.md
+                - name: Crear un nuevo diseño de almacén
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Mantener tipos de códigos de barras
                   href: inventory/tasks/maintain-barcode-types.md
