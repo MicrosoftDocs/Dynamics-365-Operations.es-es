@@ -1803,6 +1803,8 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Programación con capacidad infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Programación y planificación de capacidad finita
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: Programación con selección de recursos según la capacidad
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Planificación basada en prioridades
