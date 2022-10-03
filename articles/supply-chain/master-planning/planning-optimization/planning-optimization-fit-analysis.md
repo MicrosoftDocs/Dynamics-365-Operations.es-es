@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542362"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591860"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -94,7 +94,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Producción | Versiones de fórmula con rendimiento: *\#* | Esta característica está pendiente. Actualmente, el rendimiento asociado con la versión de la fórmula se ignora cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 |
 | Producción | Planes que incluyen la secuenciación: *\#* | Esta característica está pendiente. Actualmente, la secuenciación se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 |
 | Producción | Pedidos de producción emitidos que no se han iniciado, cuando el inicio programado es anterior al día de hoy: *\#* | Esta característica está pendiente. Actualmente, si se retrasa una orden de producción, la planificación maestra asumirá que se completará hoy. Esto es relevante para las órdenes de producción emitidas en las que una fecha de entrega es del pasado, pero aún no se ha completado. | Ola futura |
-| Producción | Recursos programados con capacidad finita: *\#* | Esta característica está pendiente. Actualmente, los recursos que están programados con capacidad finita se ignoran cuando la optimización de la planificación está habilitada. La programación se realiza en función del tiempo de entrega predeterminado del producto. | Segundo lanzamiento de versiones de 2022 |
+| Producción | Recursos programados con capacidad finita: *\#* | Esta característica ahora se admite.| Compatible |
 | Producción | Rutas usadas en la planificación: *\#* | Esta característica se admite. | Compatible |
 | Producción | Reserva de línea de ventas mediante expansión: *\#* | La reserva de línea de ventas mediante expansión no se admite cuando la optimización de la planificación está habilitada. | Ola futura |
 | Producción | Programación con expansión de pedidos de producción: *\#* | La programación con expansión de pedidos de producción no se admite cuando la optimización de la planificación está habilitada. Los pedidos de producción se pueden programar individualmente. | Ola futura |

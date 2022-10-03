@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387029"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589099"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Implementación masiva de componentes de autoservicio de Commerce sellados
 
@@ -47,7 +47,7 @@ La siguiente tabla muestra los delimitadores que se pueden utilizar en la ejecuc
 | -EnvironmentId | El id. de entorno. |
 | -HardwareStationAppInsightsInstrumentationKey | La clave de instrumentación de AppInsights de Hardware Station. |
 | Instalar | Un parámetro que especifica si se debe instalar el componente proporcionado por este instalador. Este parámetro es necesario para realizar una instalación y no tiene un guion inicial. |
-| -InstallOffline | Para Modern POS, este parámetro especifica que la base de datos sin conexión también debe instalarse y configurarse. Utilice también el parámetro **-SQLServerName**. De lo contrario, el instalador intentará encontrar una instancia predeterminada que cumpla con los requisitos previos. |
+| -InstallOffline | Para Modern POS, este parámetro especifica que la base de datos sin conexión también debe instalarse y configurarse. Utilice también el parámetro **-SQLServerName**. De lo contrario, el instalador intentará encontrar una instancia predeterminada que cumpla con los requisitos previos. Al usar la autenticación Azure Active Directory (Azure AD), el PDV fuera de línea no funcionará, ya que siempre se requiere conectividad en línea. |
 | -Port | El puerto con el que debe estar asociado y utilizarse por el directorio virtual de Retail Server. Si no se establece ningún puerto, se usará el puerto predeterminado 443. |
 | -Register | El id. de caja registradora, como se muestra en la página **Cajas registradoras** en la sede central. |
 | -RetailServerAadClientId | El id. de cliente de Azure AD que Retail Server debe usar durante las comunicaciones con la sede central. |

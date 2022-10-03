@@ -2,7 +2,7 @@
 title: Actualizaciones reglamentarias
 description: Este artículo proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206208"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596245"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -39,19 +39,14 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |País|Fecha de emisión|Versión|Actualización reglamentaria|
 |--------------------|---------------|-------|-------| 
-|      Brasil         |   2022 de marzo    | 10.0.27        |    Colección ICMS-DIFAL en operaciones dirigidas a contribuyentes no tributarios (Ley Complementaria N° 190/22)  |
-|      Brasil         |   2022 de marzo         | 10.0.27         |    NF-e NT2021.004  v1.00 - Actualización de reglas de validación y diseño  |
-|      Brasil         |   2022 de marzo         | 10.0.27         |    NF-e NT2021.004  v1.00 - Actualización de reglas de validación y diseño - Comercial  |
-|      Brasil         |   2022 de abril         | 10.0.27HF, 10.0.28         |    SPED ECF - DISEÑO 8  |
-|      Europa del Este         |   Julio de 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Extracto de contabilidad general por cuenta principal  |
-|      Lituania|   2022 de febrero | 10.0.27 | i.SAF cambia de 2022-01-01 en Dynamics 365 Finance  |
-|      México         |   2022 de marzo      | 10.0.27      |   Formatos CFDI versión 4.0 (facturas y pagos)  |
-|      México         |   2022 de febrero      | 10.0.27      |   A partir del 1 de enero de 2022 entra en vigor la versión 4.0 del CFDI, con un período de coexistencia entre la versión 3.3 y la versión 4.0 entre el 1 de enero y el 30 de junio de 2022.  |
-|      México         |   2022 de marzo      | 10.0.27      |   Formatos CFDI versión 4.0 (retención)  |
-|      Polonia          |   2022 de abril     | 10.0.27HF, 10.0.28     |   JPK_FA versión 4 a partir del 1 de abril de 2022JPK_V7M - nueva versión de esquema a partir de enero de 2022 |
-|      Rusia          |   2022 de junio     | 10.0.27    |  Informe sobre operaciones con productos rastreables (en el ámbito de la cancelación de bienes rastreables comprados, como monitores, refrigeradores y muebles de oficina para uso propio)|
-|      Singapur      |   Julio de 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | Archivo de auditoría de IRAS (IAF) en formato TXT|
-|      España      |   2022 de marzo| 10.0.27 | El modelo 303 de declaración de IVA cambia el 1 de enero de 2022 en Dynamics 365 Finance|
+|      Brasil         |   2022 de abril         | 10.0.28         |    SPED ECF - DISEÑO 8  |
+|      Brasil         |   2022 de junio         | 10.0.30HF         |    EFD ICMS IPI - versión 3.0.9  |
+|      Brasil         |   Agosto de 2022         | 10.0.30         |    NF-e NT2021.004  v1.31 - Actualización de reglas de validación y diseño  |
+|      Europa del Este         |   Julio de 2022         | 10.0.28HF, 10.0.29         |    Extracto de contabilidad general por cuenta principal  |
+|      Hungría         |   Julio de 2022         | 10.0.30         |    Declaración de IVA en XML (2065A) y versión preliminar en Excel Anexo facturas de compra en XML (2065M)  |
+|      Polonia          |   2022 de abril     | 10.0.28     |   JPK_FA versión 4 a partir del 1 de abril de 2022 |
+|      Rusia          |   2022 de junio     | 10.0.29    |  Importar datos de direcciones del registro de direcciones estatales (GAR)|
+|      Singapur      |   Julio de 2022| 10.0.28HF, 10.0.29 | Archivo de auditoría de IRAS (IAF) en formato TXT|
 
 
 ## <a name="additional-resources"></a>Recursos adicionales

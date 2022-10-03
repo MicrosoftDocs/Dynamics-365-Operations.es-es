@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287092"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593997"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -319,7 +319,7 @@ Esta función es independiente de los métodos de costes asignados al artículo 
 <tr>
 <td>Obtenga acceso a la Ayuda guiada para procedimientos (guías de tarea) y temas sobre conceptos haciendo clic en <strong>Ayuda</strong>.</td>
 <td>El sistema de ayuda de AX 2012 apunta a temas HTML almacenados en un servidor web local. Los clientes y los socios pueden crear su propio sistema de ayuda.</td>
-<td>El sistema de ayuda en la versión actual de Dynamics AX muestra guías de tarea que se almacenan en el BPM de Microsoft Dynamics Lifecycle Services (LCS). El sistema de ayuda también muestra temas del sitio de documentos de Microsoft. Para obtener más información, consulte <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Sistema de Ayuda</a> y <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuevas guías de la tarea (febrero de 2016)</a>.</td>
+<td>El sistema de ayuda en la versión actual de Dynamics AX muestra guías de tarea que se almacenan en el BPM de Microsoft Dynamics Lifecycle Services (LCS). El sistema de ayuda también muestra temas de Microsoft Learn. Para obtener más información, consulte <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Sistema de Ayuda</a> y <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuevas guías de la tarea (febrero de 2016)</a>.</td>
 <td>Las guías de tarea proporcionan una experiencia guiada e interactiva que le lleva por los pasos de una tarea o de un proceso empresarial. Puede descargar y personalizar las guías de tareas que proporciona Microsoft. El artículo proporciona una forma más rápida y flexible de crear, entregar y actualizar la documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.</td>
 </tr>
 </tbody>

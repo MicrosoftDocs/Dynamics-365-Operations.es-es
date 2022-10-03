@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473615"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592056"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -57,7 +57,7 @@ Se está implementando un conjunto de cambios de proceso antes de la activación
 - **Esquema** – Las herramientas garantizarán que las compilaciones de actualizaciones de calidad incluyan solo los cambios de esquema que se pueden aplicar mientras el servicio está en línea. Este enfoque ayudará a preservar la capacidad de aplicar la actualización con un tiempo de inactividad casi nulo.
 - **Mayor escrutinio de cambios** – Actualmente, ya existe un paso de proceso adicional para aprobar los cambios para su inclusión en una actualización de calidad. El escrutinio en el paso adicional se incrementará para ayudar a reducir el potencial de regresiones. No se permiten cambios importantes en las actualizaciones de calidad, y el mayor escrutinio de cambios ayudará a garantizar que cumplamos este objetivo.
 - **Visibilidad** – Enviaremos notificaciones por correo electrónico y Lifecycle Services (LCS) para las próximas actualizaciones de calidad proactivas. Además, los equipos de soporte y los líderes de incidentes tendrán visibilidad de dónde se implementaron de manera proactiva las actualizaciones de calidad.
-- **Versión alternativa** – La división en tramos se utilizará para agrupar todos los cambios en una actualización de calidad proactiva. Si se requiere un respaldo después de una implementación proactiva, se puede hacer a través del sistema de tramos.
+- **Fail Safe a través de tramos** – La distribución en tramos se utilizará para proteger los cambios de código cuando corresponda en una corrección de errores de actualización de calidad o usar la función existente de distribución en tramos relevante para la corrección. Si se requiere una reserva o desactivar un cambio después de una implementación proactiva, se puede hacer a través del sistema de tramos para evitar más fallas.
 - **Designación de sincronización de sandbox** – Menos del 20 por ciento de los clientes de hoy en día tienen múltiples sandboxes y mantienen un sandbox implementado donde la versión coincide con la producción, para ayudar con la resolución de problemas. Si un cliente está usando un espacio aislado para probar una versión más nueva que su producción, ese espacio aislado recibirá actualizaciones de calidad para la versión más nueva.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>¿Cuál es la hoja de ruta de implementación para las actualizaciones de calidad?
@@ -69,7 +69,7 @@ Durante el próximo período de seis meses, aumentaremos gradualmente el porcent
 Debido a que los clientes recibirán regularmente cargas útiles más pequeñas, esperamos que el proceso de mantenerse al día sea más simple. Ajustaremos la frecuencia de implementación de actualizaciones a medida que demostremos la capacidad de ejecutar el proceso sin interrupciones. Este proceso ya está funcionando eficazmente para nuestra plataforma y aplicaciones de Dataverse, y está entregando las mejoras anticipadas en la calidad del servicio. Estamos ansiosos por dar el mismo paso adelante para las aplicaciones de finanzas y operaciones.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>¿Cuándo comenzarán las actualizaciones de calidad para los entornos de producción?
-En este momento, las actualizaciones de calidad solo están dirigidas a entornos aislados. Las actualizaciones de los entornos de producción comenzarán después de noviembre de 2022.
+En este momento, las actualizaciones de calidad solo están dirigidas a entornos aislados. Actualizaremos este espacio con una fecha de inicio para entornos de producción cuando tengamos datos y métricas más concretos de actualizaciones proactivas para sandboxes para medir la preparación para la producción.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>¿Cuál es el calendario para las actualizaciones de calidad de espacio aislado?
 Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuál es el calendario para las actualizaciones de calidad proactivas?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).
