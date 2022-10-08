@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
+ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103532"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "9598092"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Ejecutar scripts X++ personalizados sin tiempo de inactividad
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Esta función le permite cargar y ejecutar paquetes implementables que contienen scripts X++ personalizados sin tener que pasar por Microsoft Dynamics Lifecycle Services (LCS) o suspender su sistema. Por lo tanto, puede corregir inconsistencias de datos menores sin causar ningún tiempo de inactividad disruptivo.
 

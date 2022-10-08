@@ -2,7 +2,7 @@
 title: Novedades y cambios en Dynamics 365 Commerce 10.0.29 (octubre de 2022)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Commerce 10.0.29.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475913"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601581"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Novedades y cambios en Dynamics 365 Commerce (10.0.29 de octubre de 2022)
 
@@ -39,6 +39,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Comercio electrónico | Soporte para la comparación de productos en el comercio electrónico | Permita que los compradores comparen productos en una amplia gama de categorías para que puedan tomar la decisión de compra correcta por sí mismos. Esta función está disponible tanto para sitios de empresa a consumidor (B2C) como B2B. | Generador de sitios | 
 | Tarjetas regalo | Compatibilidad con tablas de tarjetas de regalo minoristas para compartir datos entre empresas | La sede central de Dynamics admite la capacidad de habilitar el uso compartido de datos entre empresas para tablas específicas en la arquitectura de Dynamics. En esta característica, Dynamics 365 Commerce agrega compatibilidad con tablas de tarjetas de regalo minoristas para compartir datos entre empresas. Por lo tanto, una tarjeta de regalo en una empresa ahora puede tener sus datos duplicados en otra empresa del entorno. Los cambios realizados en la tabla de tarjetas de regalo de la empresa de origen se compartirán con la tabla de tarjetas de regalo de la empresa duplicada. | Desarrolladores |
 | Globalización | [Habilite las funciones de localización de Commerce para el nuevo SDK de Commerce](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | La nueva función brinda la posibilidad de habilitar las funciones de localización de Commerce desde la Commerce headquarters mediante el marco o los parámetros de administración de funciones. Las muestras de integración fiscal ahora se incluyen en el nuevo SDK de Commerce y admiten paquetes independientes. Esta característica también permite la adopción de la aplicación Store Commerce por parte de los clientes de comercio global.<p><p>Esta versión incluye características de localización de Commerce y muestras de integración fiscal para [Austria](../localizations/emea-aut-fi-sample.md), [República Checa](../localizations/emea-cze-fi-sample.md), [Francia](../localizations/emea-fra-cash-registers.md), [Alemania](../localizations/emea-deu-fi-sample.md), [Italia](../localizations/emea-ita-fpi-sample.md), [Noruega](../localizations/emea-nor-cash-registers.md) y [Polonia](../localizations/emea-pol-fpi-sample.md). | Habilitado por administradores/fabricantes |
+| Sin conexión | [Compresión de la base de datos sin conexión del PDV](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | Esta nueva característica reduce el tamaño de las bases sin conexión al permitir la compresión de índices automatizada fuera del canal [horario comercial](../dev-itpro/store-hours.md). | Administración de características<p>*Compresión de la base de datos sin conexión del PDV* |
 | Rendimiento | Eliminar la dependencia de RTS para escenarios de "editar cliente" | La alta disponibilidad y el alto rendimiento son expectativas predeterminadas para el punto de venta (POS) y los canales de comercio electrónico. Para ayudar a cumplir con estas expectativas, los canales de Dynamics 365 Commerce ya no tienen que depender de la comunicación en tiempo real con Commerce headquarters cuando se edita la información del cliente. La capacidad de editar la información del cliente de forma asíncrona para clientes asíncronos y no asíncronos puede ayudar a reducir las llamadas en tiempo real a Commerce headquarters. | Habilitado por administradores/fabricantes |
 
 ## <a name="feature-state-changes-in-this-release"></a>Cambios de estado de características en esta versión

@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286847"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627506"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 
@@ -36,12 +36,8 @@ El alcance de la directiva se limita actualmente a establecer las formas de pago
 
 ## <a name="enable-return-policy"></a>Habilitar directiva de devolución
 
-Para habilitar la función de directiva de retorno de canal en la sede de Commerce, siga estos pasos.
+Esta función está activada de forma predeterminada. Puede encontrarlo en el espacio de trabajo **Administración de características** buscando **Habilitar directivas de devolución del canal** en la lista de nombres de características.
 
-1. Vaya al espacio de trabajo **Administración de características** en Dynamics 365 Commerce.
-1. Busque la característica **Habilitar directiva de devoluciones del canal** en la lista de nombres de características.
-1. Seleccione **Habilitar ahora**.
-1. Sobre la página **Programa de distribución**, ejecute el trabajo **1110** (Configuración global) para distribuir el cambio de función.
 
 ## <a name="configure-return-policy"></a>Configurar directiva de devoluciones
 

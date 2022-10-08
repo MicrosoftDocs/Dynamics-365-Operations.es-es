@@ -2,19 +2,19 @@
 title: Configurar la integración fiscal para canales de Commerce
 description: En este artículo se proporcionan instrucciones para configurar la funcionalidad de integración fiscal para canales de Commerce.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276142"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631433"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar la integración fiscal para canales de Commerce
 
@@ -30,9 +30,10 @@ Para habilitar características relacionadas con la funcionalidad de integració
 1. Busque y habilite las siguientes características:
 
     - **Integración fiscal directa desde los registros de PDV** – Esta característica amplía el marco de integración fiscal al agregar la capacidad de crear conectores fiscales que se ejecutarán en el punto de venta (POS). Este tipo de conector se comunica con un dispositivo o servicio fiscal que proporciona una interfaz de programación de aplicaciones (API) HTTP y no requiere una máquina física dedicada en la tienda. Por ejemplo, esta funcionalidad permite la integración fiscal para dispositivos móviles sin necesidad de una estación de hardware compartida.
-    - **Anulaciones de perfiles técnicos de integración fiscal** – Esta característica permite ampliar la configuración de la integración fiscal y agrega la capacidad de verificar los parámetros de conexión en la página de configuración de un registro POS. Cuando esta característica está habilitada, puede anular los parámetros de un perfil técnico.
+    - **Anulaciones de perfiles técnicos de integración fiscal** – Esta característica permite ampliar la configuración de la integración fiscal y agrega la capacidad de anular los parámetros de un perfil técnico. Por ejemplo, es posible especificar cadenas de conexión de dispositivos fiscales en el nivel de registro de PDV individual. La característica también agrega la posibilidad de verificar los parámetros de conexión en la página de **Configuración** de un registro de PDV. 
     - **Estado de registro fiscal de los registros de PDV** – Cuando esta característica está habilitada, puede deshabilitar el proceso de registro fiscal para registros de PDV específicos. Si el registro fiscal está deshabilitado para un registro de PDV, las transacciones de venta no se pueden completar en ese registro.
-    - **Copia de seguridad del almacenamiento de datos local** – Esta característica amplía las capacidades de control de errores del marco de integración fiscal. También permite la copia de seguridad automática de los datos del registro fiscal en caso de pérdida de datos, de modo que los datos en el almacenamiento local se restauran mientras se activa un dispositivo.
+    - **Copia de seguridad del almacenamiento de integración fiscal** – Esta característica amplía las capacidades de gestión de errores del marco de integración fiscal, permitiendo la copia de seguridad automática de los datos de registro fiscal para que los datos del almacenamiento local se puedan restaurar mientras se activa un dispositivo.
+    - **Registro de documentos pospuesto** - Esta característica amplía las capacidades de gestión de errores del marco de integración fiscal permitiendo la opción de posponer el registro fiscal en caso de error del registro fiscal y usar una opción de registro fiscal de respaldo o completar el registro fiscal más tarde por medios distintos al marco de integración fiscal.
 
 ## <a name="set-up-commerce-parameters"></a>Configurar los parámetros de Commerce
 
@@ -286,16 +287,15 @@ Para habilitar los informes fiscales de X/Z que se ejecutarán desde PDV, debe a
     1. Agregue un nuevo botón y defina la propiedad del botón **Impresión fiscal Z**.
     1. En la página **Programación de distribución**, ejecute el trabajo **1090** para transferir cambios a la base de datos del canal.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Habilitar la ejecución manual del registro fisca postpuesto.
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Habilitar la ejecución manual del registro fiscal aplazado
 
-Para habilitar la ejecución manual de un registro fiscal postpuesto, debe agregar un nuevo botón a un diseño de PDV.
+Para habilitar la ejecución manual de un registro fiscal aplazado, debe agregar un nuevo botón a un diseño de PDV.
 
 - En la página **Cuadrículas de botones** , siga las instrucciones que se indican en [Agregar operaciones de PDV a diseños de PDV mediante el diseñador de cuadrícula de botones](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar el diseñador y actualizar un diseño de PDV.
 
     1. Seleccionar el diseño que se va a actualizar.
     1. Agregue un nuevo botón y defina la propiedad del botón **Completar el proceso de registro fiscal**.
     1. En la página **Programación de distribución**, ejecute el trabajo **1090** para transferir sus cambios a la base de datos del canal.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Ver parámetros de conexión y otra información en PDV
 

@@ -2,19 +2,19 @@
 title: Módulos de comparación de productos
 description: Este artículo describe los módulos de comparación de productos y cómo implementarlos para que los clientes puedan hacer comparaciones de productos en sitios web de comercio electrónico de Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474136"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618395"
 ---
 # <a name="product-comparison-modules"></a>Módulos de comparación de productos
 
@@ -91,6 +91,19 @@ Para agregar un botón de comparación de productos a los mosaicos de productos 
 1. En el panel de propiedades de la derecha, configure las propiedades del módulo **Botón de comparación de productos**.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
 1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Agregar un módulo de panel de vista previa de comparación de productos a las páginas de su sitio web
+
+Un módulo de panel de vista previa de comparación de productos proporciona a sus clientes la opción de revisar los productos que agregan o eliminan de la comparación. El panel de vista previa también ofrece las opciones de navegar directamente a la página de comparación o borrar toda la lista de productos. 
+
+Recomendamos que habilite el panel de vista previa en todas las páginas que tengan el **botón de Comparación de productos** habilitado. El módulo se puede agregar al **botón de Comparación de productos** como un espacio o puede usarse como un módulo independiente que puede configurar en cualquier página, incluso cuando no hay una funcionalidad para agregar o quitar productos para comparar. 
+
+Debe agregar manualmente el módulo de panel de vista previa de comparación de productos a la página. Solo debe agregar un módulo de panel de vista previa en una página. Si agrega varias instancias del módulo a una página, el primer módulo se representará y el resto se ignorará.
+
+![Panel de vista previa de comparación de productos](./media/product-comparison-preview-panel-2.png)
+
+Si especifica un límite de comparaciones de productos, tiene la opción de habilitar marcadores de posición grises en el panel de vista previa que indiquen cuántos productos más se pueden agregar a la comparación. Los marcadores de posición grises se reemplazan con productos a medida que se agregan a la comparación. Para configurar un límite de comparaciones de productos y habilitar marcadores de posición grises, en el creador de sitios, vaya a **Configuración del sitio > Extensiones** y realice los cambios en la sección **Comparaciones de productos** . La configuración se aplicará a todos los paneles de vista previa de todas las páginas. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Especifique el número máximo de productos para mostrar en la bandeja de comparación
 

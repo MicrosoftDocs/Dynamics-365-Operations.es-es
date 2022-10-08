@@ -2,19 +2,19 @@
 title: Información general de la integración fiscal para canales de Commerce
 description: Este artículo proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286509"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631250"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Información general de la integración fiscal para canales de Commerce
 
@@ -95,16 +95,20 @@ Esta configuración se utiliza cuando un dispositivo fiscal físico o un servici
 
 El marco fiscal de la integración proporciona las opciones siguientes para gestionar los errores durante el registro fiscal:
 
-- **Reintentar** – Los operadores pueden usar esta opción cuando el error puede resolver rápidamente, y el registro fiscal se puede volver a ejecutar. Por ejemplo, esta opción se puede usar cuando el dispositivo fiscal no está conectado, la impresora fiscal se encuentra sin papel, o hay un atasco de papel en la impresora fiscal.
-- **Cancelar** La opción permite operadores posponer el registro fiscal de la transacción actual o del evento si falla. Después de que se posponga el registro, el transportista puede continuar trabajando en el PDV y puede completar todas las operaciones para las que el registro fiscal no sea necesario. Cuando cualquier evento que requiera el registro fiscal aparece en el sistema PDV (por ejemplo, se abre una nueva transacción), el cuadro de diálogo de tratamiento de errores aparece automáticamente para notificar el operador que la transacción anterior no se registró correctamente y para proporcionar las opciones de procesamiento de errores.
-- **Omitir** – Los operadores pueden usar esta opción cuando el registro fiscal se puede omitir bajo condiciones específicas y las operaciones regulares se pueden continuar en el PDV. Por ejemplo, esta opción se puede usar cuando una transacción de ventas que no se registró se puede registrar en un diario de papel especial.
-- **Marcar como registrado** – Los operadores pueden usar esta opción cuando se registró la transacción realmente en el dispositivo fiscal (por ejemplo, un recibo fiscal se imprimió), pero se produjo un error cuando la respuesta fiscal se guardada en la base de datos de canal.
-- **Posponer** – Los operadores pueden utilizar esta opción cuando la transacción no fue registrada porque el servicio de registro no estaba disponible. 
+- **Reintentar** – El operador puede usar esta opción cuando el error se puede resolver rápidamente y el registro fiscal se puede volver a ejecutar. Por ejemplo, esta opción se puede usar cuando el dispositivo fiscal no está conectado, la impresora fiscal se encuentra sin papel, o hay un atasco de papel en la impresora fiscal.
+- **Cancelar** La opción permite al operador aplazar el registro fiscal de la transacción actual o del evento si falla. Después de que se aplace el registro, el transportista puede continuar trabajando en el PDV y puede completar todas las operaciones para las que el registro fiscal no sea necesario. Cuando cualquier evento que requiera el registro fiscal aparece en el sistema PDV (por ejemplo, se abre una nueva transacción), el cuadro de diálogo de tratamiento de errores aparece automáticamente para notificar el operador que la transacción anterior no se registró correctamente y para proporcionar las opciones de procesamiento de errores.
+- **Omitir** – El operador puede utilizar esta opción cuando no es posible completar el registro fiscal de la transacción o evento actual, por ejemplo, si la impresora fiscal está fuera de servicio **y** el registro fiscal se puede omitir bajo condiciones específicas. Por ejemplo, esta opción se puede usar cuando una transacción de ventas que no se registró se puede registrar en un diario de papel especial. Después de omitir el registro fiscal, se puede continuar con las operaciones regulares en el PDV. 
+- **Marcar como registrado** – El operador puede usar esta opción cuando se registró la transacción o evento actual realmente en el dispositivo fiscal, por ejemplo, se ha impreso un recibo fiscal, pero se produjo un error cuando la respuesta fiscal se guardada en la base de datos de canal. Después de marcar la transacción o evento actual como registrado, se puede continuar con las operaciones regulares en el PDV.
+- **Posponer** – El operador puede utilizar esta opción cuando la transacción no se ha registrado porque el dispositivo o servicio de registro no estaba disponible **y** se aplica una de las siguientes opciones:
+    - Hay una opción de registro fiscal de respaldo y es posible continuar el proceso de registro fiscal para la transacción actual. Por ejemplo, un [dispositivo fiscal](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) local puede ser una opción de respaldo para un servicio de registro fiscal en línea cuando el servicio no está disponible.
+    - El registro fiscal se puede realizar posteriormente por medios distintos al marco de integración fiscal. Por ejemplo, las transacciones pospuestas se pueden registrar fiscalmente en un lote mediante una [funcionalidad independiente](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Después de posponer la transacción o evento actual, se puede continuar con las operaciones regulares en el PDV.
 
-> [!NOTE]
-> Las opciones **Omitir**, **Marcar como registrado** y **Posponer** se deben activar en el proceso de registro fiscal antes usarse. Además, los permisos correspondientes se deben conceder a los operadores.
+> [!WARNING]
+> Las opciones **Omitir**, **Marcar como registrado** y **Posponer** se deben considerar opciones de emergencia y usarse solo en casos excepcionales. Consulte estas opciones de gestión de errores con su asesor jurídico o fiscal y aplique su buen criterio antes de habilitarlas. Las opciones se deben activar en el proceso de registro fiscal antes usarse. Para asegurarse de que los operadores no las utilicen de forma habitual, se deben otorgar los permisos correspondientes a los operadores.
 
-Las opciones **Omitir**, **Marcar como registrado** y **Posponer** activan códigos de información para capturar cierta información específica acerca del error, como el motivo del error o de una justificación para saltarse el registro fiscal o marcar la transacción como registrada. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Se crea una [transacción fiscal](#storing-fiscal-response-in-fiscal-transaction) cuando las opciones **Omitir**, **Marcar como registrado**, o **Posponer** están seleccionadas, pero la transacción fiscal no contiene ninguna respuesta fiscal. Esto le permite capturar el evento de error de registro fiscal. Estas opciones también activan códigos de información para capturar cierta información específica acerca del error, como el motivo del error o una justificación para omitir el registro fiscal o marcar la transacción como registrada. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Registro fiscal opcional
 
@@ -112,11 +116,7 @@ El registro fiscal puede ser obligatorio para algunas operaciones pero opcional 
 
 ### <a name="manually-rerun-fiscal-registration"></a>Volver a ejecutar el registro fiscal de forma manual
 
-Si el registro fiscal de una transacción o de un evento se ha aplazado después de un error (por ejemplo, si el transportista ha seleccionado **Cancelar** en el cuadro de diálogo de tratamiento de errores), puede volver a ejecutar manualmente el registro fiscal invocando una operación correspondiente. Para más información, consulte [Habilitar la ejecución manual del registro fisca postpuesto](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Posponer opción
-
-La opción **Posponer** le permite continuar con el proceso de registro fiscal si falla el paso actual. Se puede utilizar cuando existe la opción de respaldo del registro fiscal.
+Si el registro fiscal de una transacción o de un evento se ha aplazado después de un error (por ejemplo, si el operador ha seleccionado **Cancelar** en el cuadro de diálogo de gestión de errores), puede volver a ejecutar manualmente el registro fiscal invocando una operación correspondiente. Para más información, consulte [Habilitar la ejecución manual del registro fiscal aplazado](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Comprobación del registro fiscal
 
@@ -138,7 +138,7 @@ Si la comprobación de estado falla, el sistema PDV muestra el cuadro de diálog
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Almacenar respuesta fiscal en la transacción fiscal
 
-Cuando el registro fiscal de una transacción o de un evento se ha realizado correctamente, una transacción fiscal se crea en la base de datos del canal y se vincula a la transacción o el evento original. De forma similar, si **Omitir** o la opción **Marcar como registrado** se selecciona para un registro fiscal defectuoso, esta información se almacena en una transacción fiscal. Una transacción fiscal conserva la respuesta fiscal del dispositivo o servicio fiscal. Si el proceso de registro fiscal consta de varios pasos, una transacción fiscal se crea para cada paso del proceso que ha provocado un registro correcto o error.
+Cuando el registro fiscal de una transacción o de un evento se ha realizado correctamente, una transacción fiscal se crea en la base de datos del canal y se vincula a la transacción o el evento original. De forma similar, si la opción **Omitir**, **Marcar como registrado** o **Posponer** se selecciona para un registro fiscal con errores, esta información se almacena en una transacción fiscal. Una transacción fiscal conserva la respuesta fiscal del dispositivo o servicio fiscal. Si el proceso de registro fiscal consta de varios pasos, una transacción fiscal se crea para cada paso del proceso que ha provocado un registro correcto o error.
 
 Las transacciones fiscales son transferidas a la sede central por *P-trabajo*, junto con las transacciones. En el FastTab **Transacciones fiscales** de la página **Transacciones de la tienda** , puede ver las transacciones fiscales que se vinculan a las transacciones.
 
