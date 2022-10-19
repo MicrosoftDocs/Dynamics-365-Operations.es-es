@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 07edea234839a477802e5cd875620509c8f92d69
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573204"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644124"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuración de Finance Insights
 
@@ -106,8 +106,4 @@ Una vez que el complemento se haya instalado correctamente, puede que tarde hast
 > [!NOTE]
 > Si no se ejecuta el proceso **Comprobación del estado de aprovisionamiento de conclusiones**, vaya a **Administración del sistema** > **Consultas** > **Trabajos por lotes**. En el campo **Sistema de sondeo de automatización de procesos**, cambie el valor a **Espera** para iniciar el proceso. 
 > 
-## <a name="feedback-and-support"></a>Comentarios y soporte técnico
-
-Si está interesado en proporcionar comentarios o si necesita asistencia, envíe un correo elecrónico a [Finance Insights (versión preliminar)](mailto:fiap@microsoft.com).
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

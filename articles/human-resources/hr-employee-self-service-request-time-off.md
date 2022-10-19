@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882906"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643916"
 ---
 # <a name="request-time-off"></a>Solicitar permiso
 
@@ -63,6 +63,10 @@ Al actualizar una solicitud de permiso existente, puede agregar un archivo adjun
 2. Para ver sus solicitudes de permiso aprobadas, seleccione **Permiso aprobado**. Para ver sus solicitudes de permiso pendientes, seleccione **Solicitudes de licencia**.
 
 ## <a name="cancel-time-off-requests"></a>Cancelar solicitudes de permisos
+
+>[!NOTE] 
+> **Cancelar indisponibilidad** está disponible cuando la característica **Mejoras de la experiencia del flujo de trabajo de solicitud de baja** está habilitado en el espacio de trabajo de **Administración de características**.  
+
 
 1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Ver permisos** en el mosaico **Saldos de permisos**.
 

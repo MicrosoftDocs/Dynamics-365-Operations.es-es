@@ -2,7 +2,7 @@
 title: Ingresos sin facturar
 description: Este artículo explica cómo configurar artículos y cuentas y usar la característica de ingresos no facturados en la facturación de suscripción.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879693"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644178"
 ---
 # <a name="unbilled-revenue"></a>Ingresos sin facturar
 
@@ -123,15 +123,15 @@ Las distribuciones se recalculan en función del tipo de asignación seleccionad
 
 Se ingresa una programación de facturación para tres años y las facturas se facturan anualmente durante un período de tres años. El importe del contrato total se registra en la cuenta de ingresos no facturados a partir de la cual se crean las facturas anuales. La cuenta de contrapartida es la cuenta de ingresos o de ingresos diferidos.
 
-Tenga en cuenta que la facturación principal y los ingresos sin facturar no funcionan juntos, porque pueden ocurrir problemas de conciliación en contabilidad general. Por ejemplo, en la página **Configuración del grupo de artículos**, el grupo de artículos A está configurado para que el campo **Número de líneas superiores** se establezca en **2**. En la página **Programaciones de facturación** se agregan tres artículos. Los tres artículos pertenecen al grupo de artículos A. Cuando se crea el movimiento de diario inicial para la función de ingresos no facturados, el importe de los tres artículos se procesa en la cuenta no facturada. Cuando se crea la factura para la programación de facturación, solo se incluyen los importes de los dos artículos principales. Por tanto, el importe de la factura no coincide con el importe que se procesó en la cuenta de ingresos no facturados y se producen problemas de conciliación en la contabilidad general.
+La facturación principal y los ingresos sin facturar no funcionan juntos, porque pueden ocurrir problemas de conciliación en contabilidad general. Por ejemplo, en la página **Configuración del grupo de artículos**, el grupo de artículos A está configurado para que el campo **Número de líneas superiores** se establezca en **2**. En la página **Programaciones de facturación** se agregan tres artículos. Los tres artículos pertenecen al grupo de artículos A. Cuando se crea el movimiento de diario inicial para la función de ingresos no facturados, el importe de los tres artículos se procesa en la cuenta no facturada. Cuando se crea la factura para la programación de facturación, solo se incluyen los importes de los dos artículos principales. Por tanto, el importe de la factura no coincide con el importe que se procesó en la cuenta de ingresos no facturados y se producen problemas de conciliación en la contabilidad general.
 
 Si desea utilizar los ingresos no facturados, deje la página **Configuración del grupo de artículos** en blanco, o configure todos los grupos de artículos para que el campo **Número de líneas superiores** se establezca en **0** (cero). Si desea utilizar la facturación superior, no hay acciones de ingresos sin facturar disponibles.
 
 ### <a name="examples"></a>Ejemplo
 
-A partir de la versión 10.0.27, se introduce una nueva cuenta cuando se utilizan ingresos sin facturar. Cuando se registra el proceso inicial **Crear movimiento de diario**, el crédito se realiza en una nueva cuenta de contrapartida de ingresos sin facturar. Esta cuenta se usa en lugar de la cuenta de ingresos, porque el mismo valor debe revertirse cuando se factura la programación de facturación. Si se producen diferencias de tipo de cambio o de redondeo, los importes que se calculan durante el proceso **Generar factura** pueden ser diferentes. Este comportamiento garantiza que el importe neto de las cuentas sea 0 (cero).
+A partir de la versión 10.0.29, se agrega un nuevo parámetro a los parámetros de facturación de contratos recurrentes. Cuando se establece en Sí, el parámetro **Usar cuentas de contrapartida no facturadas** habilita dos nuevas cuentas en **Configuración de ingresos sin facturar**. Las cuentas de compensación de ingresos sin facturar y de compensación de descuentos sin facturar están disponibles y se utilizan mejor cuando las programaciones de facturación se crean en una moneda distinta a la moneda de contabilidad. El uso de las cuentas de contrapartida garantiza que los ingresos sin facturar y las cuentas de descuento sin facturar se reviertan utilizando los mismos tipos de cambio que sus movimientos iniciales. El proceso **Crear movimiento de diario** inicial es el mismo con el débito a ingresos sinfacturar y el crédito a ingresos. Si usa un descuento, el movimiento de diario inicial es el mismo con un débito a descuento y un crédito a descuento sin facturar. 
 
-Este ejemplo muestra cómo utilizar los ingresos sin facturar para reconocer el importe total de un contrato en el balance general como ingresos no facturados. El otro lado del movimiento es la contrapartida de ingresos sin facturar. Cuando usted factura al cliente, los ingresos sin facturar y la contrapartida de ingresos sin facturar se invierten. El reconocimiento de ingresos ocurrirá en el momento de la facturación o de acuerdo con la programación de reconocimiento de aplazamiento que se configuró.
+Este ejemplo muestra cómo utilizar los ingresos sin facturar para reconocer el importe total de un contrato en el balance general como ingresos no facturados. El otro lado del movimiento es el ingreso o el ingreso aplazado. Cuando usted factura al cliente, los ingresos sin facturar se invierten. El reconocimiento de ingresos ocurrirá en el momento de la facturación o de acuerdo con la programación de reconocimiento de aplazamiento que se configuró.
 
 #### <a name="assumptions"></a>Supuestos
 
@@ -151,47 +151,38 @@ Este ejemplo muestra cómo utilizar los ingresos sin facturar para reconocer el 
 
     | Elemento | Fecha inicial | Fecha final | Importe | Frecuencia de facturación | Artículo de aplazamiento | Ingresos sin facturar | Description |
     |---|---|---|---|---|---|---|---|
-    | Licencia | 1 de enero, CY | 31 de diciembre CY+2 | 100,00 $ | Anual | No | Sí | Se facturarán al cliente 100,00 $ anuales. El total de 300,00 $ se registrará por adelantado como ingresos no facturados en el balance de situación y como ingresos en pérdidas y ganancias. Cada factura reducirá el importe sin facturar. |
-    | Mantenimiento | 1 de enero, CY | 31 de diciembre CY+2 | 30,00 $ | Anual | Sí | Sí | Se facturarán al cliente 30,00 $ anuales. El total de 90,00 $ se registrará por adelantado como ingresos no facturados e ingresos aplazados en pérdidas y ganancias. Cada factura reducirá el importe sin facturar. Los ingresos aplazados se reconocerán mensualmente durante 36 meses. |
+    | Licencia | 01 de enero de 2022 | 31 de diciembre de 2024 | 100,00 $ | Anual | N.º | Sí | Se facturarán al cliente 100,00 $ anuales. El total de 300,00 $ se registrará por adelantado como ingresos no facturados en el balance de situación y como ingresos en pérdidas y ganancias. Cada factura reducirá el importe sin facturar. |
+    | Mantenimiento | 01 de enero de 2022 | 31 de diciembre de 2024 | 30,00 $ | Anual | Sí | Sí | Se facturarán al cliente 30,00 $ anuales. El total de 90,00 $ se registrará por adelantado como ingresos no facturados e ingresos aplazados en pérdidas y ganancias. Cada factura reducirá el importe sin facturar. Los ingresos aplazados se reconocerán mensualmente durante 36 meses. |
 
 6. En la página **Todas las programaciones de facturación**, utilice el proceso **Crear movimiento de diario** para registrar el valor del contrato en el balance de situación como ingresos no facturados.
 
 Se crean dos asientos de diario, uno para cada línea en la programación de facturación.
 
-| Cuenta de ingresos sin facturar | Cuenta de contrapartida de ingresos sin facturar | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| Cuenta de ingresos sin facturar | | 300,00 $ | |
-| | Cuenta de contrapartida de ingresos sin facturar | | 300,00 $ |
+| Cuenta | Importe de débito | Importe de crédito |
+|---|---|---|
+| Cuenta de ingresos sin facturar | 300,00 $ | |
+| Cuenta de ingresos | | 300,00 $ |
 
-| Cuenta de ingresos sin facturar | Ingresos diferidos | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| Cuenta de ingresos sin facturar | | 90,00 $ | |
-| |Ingresos de mantenimiento diferidos | | 90,00 $ |
+| Cuenta | Importe de débito | Importe de crédito |
+|---|---|---|
+| Cuenta de ingresos sin facturar | 90,00 $ | |
+| Ingresos diferidos | | 90,00 $ |
 
-El primer asiento de diario se registra en una cuenta de contrapartida de ingresos sin facturar y el segundo se registra en una cuenta de ingresos diferidos. Si la línea de facturación tiene ingresos sin facturar e ingresos diferidos, se utiliza la cuenta de ingresos diferidos, no la contrapartida de ingresos sin facturar. El contrato requiere que la factura para el cliente se cree al comienzo de cada año. Utilice el proceso **Generar factura** para crear la factura. Cuando se crea la factura, se crean los siguientes asientos de diario.
+El contrato requiere que la factura para el cliente se cree al comienzo de cada año. Utilice el proceso **Generar factura** para crear la factura. Cuando se crea la factura, se registra el siguiente asiento de factura.
 
-| Cuenta principal | Cuenta de ingresos sin facturar | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| Contrapartida de ingresos sin facturar | | 100,00 $ | |
-| | Cuenta de ingresos sin facturar | | 100,00 $ |
-| Clientes | | 100,00 $ | |
-| | Cuenta de ingresos | | 100,00 $ |
+| Cuenta| Importe de débito | Importe de crédito |
+|---|---|---|
+| Cuenta de ingresos sin facturar | | 130,00 $ |
+| Clientes | 130,00 $ | |
 
-| Cuenta principal | Cuenta de ingresos sin facturar | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| Cuenta de ingresos de mantenimiento aplazados | | 30,00 $ | |
-| | Cuenta de ingresos sin facturar | | 30,00 $ |
-| Clientes | | 30,00 $ | |
-| | Cuenta de ingresos de mantenimiento aplazados | | 30,00 $ |
+Este mismo asiento de diario se creará con las facturas que se registren al comienzo de los próximos dos años. La cuenta de ingresos sin facturar se reduce cada año durante el proceso **Generar factura**. La cuenta de compensación de ingresos sin facturar se utiliza para equilibrar la cuenta de ingresos sin facturar cuando se utilizan diferentes tipos de cambio. 
 
-Este mismo asiento de diario se creará con las facturas que se registren al comienzo de los próximos dos años. El importe neto de la cuenta de ingresos diferidos será 0 (cero), ya que no existen redondeos ni diferencias de tipo de cambio. Los ingresos diferidos deben revertirse exactamente como se abonaron durante el proceso **Crear movimiento de diario**. Dado que los ingresos siguen siendo diferidos y se reconocerán más adelante, el abono a la cuenta de ingresos diferidos se vuelve a realizar.
+En el último paso, se crea el movimiento de diario de reconocimiento cada mes para reconocer los ingresos aplazados de la cuota de mantenimiento. El movimiento de diario se puede crear utilizando la página **Procesamiento de reconocimiento**. Alternativamente, se puede crear seleccionando **Reconocer** para las líneas en las páginas **Programación de aplazamientos**.
 
-En el último paso, se crea el movimiento de diario de reconocimiento cada mes para reconocer los ingresos de la cuota de mantenimiento diferidos. El movimiento de diario se puede crear utilizando la página **Procesamiento de reconocimiento**. Alternativamente, se puede crear seleccionando **Reconocer** para las líneas en las páginas **Programación de aplazamientos**.
-
-| Cuenta de ingresos aplazados | Cuenta de ingresos | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| Ingresos de mantenimiento diferidos | | 2,50 $ | |
-| | Ingresos de mantenimiento | | 2,50 $ |
+| Cuenta principal | Importe de débito | Importe de crédito |
+|---|---|---|
+| Ingresos diferidos | 2,50 $ | |
+| Ingresos | | 2,50 $ |
 
 Este movimiento de diario se creará cada vez que se ejecute el proceso de reconocimiento para este artículo diferido (un total de 36 veces).
 
@@ -269,18 +260,18 @@ Dado que ambos artículos usan ingresos sin facturar y asignación de ingresos, 
 
 La siguiente tabla muestra el movimiento de diario inicial para los artículos y la factura.
 
-| Cuenta de ingresos sin facturar | Cuenta de ingresos aplazados | Importe de débito | Importe de crédito |
-|---|---|---|---|
-| **Movimiento de diario del artículo 1000** | | | |
-| Cuenta de ingresos sin facturar de débito (401250) | | 1465,26 $ | |
-| | Cuenta de ingresos aplazados de crédito (250600) | | 1465,26 $ |
-| **Movimiento de diario del artículo 0021** | | | |
-| Cuenta de ingresos sin facturar de débito (401250) | | 274,74 $ | |
-| | Cuenta de ingresos aplazados de crédito (250600) | | 274,74 $ |
-| **Factura** | | | |
-| | Cuenta de ingresos sin facturar de crédito | | 1465,26 $ |
-| | Cuenta de ingresos sin facturar de crédito | | 274,74 $ |
-| Cuenta de débito de clientes (130100) | | 1488,16 $ | |
+| Cuenta principal | Importe de débito | Importe de crédito |
+|---|---|---|
+| **Movimiento de diario del artículo 1000** | | | 
+| Cuenta de ingresos sin facturar (401250) | 1465,26 $ | |
+| Cuenta de ingresos aplazados (250600) | | 1465,26 $ |
+| **Movimiento de diario del artículo 0021** | | | 
+| Cuenta de ingresos sin facturar (401250) | 274,74 $ | |
+| Cuenta de ingresos aplazados (250600) | | 274,74 $ |
+| **Factura** | | |
+| Cuenta de ingresos sin facturar | | 1465,26 $ |
+| Cuenta de ingresos sin facturar | | 274,74 $ |
+| Cuenta de clientes (130100) | 1488,16 $ | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Cambios en la línea de programación de facturación, la línea de detalle de facturación o la asignación de ingresos
 

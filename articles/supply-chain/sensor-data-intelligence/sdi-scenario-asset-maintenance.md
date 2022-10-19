@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428406"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644067"
 ---
 # <a name="the-asset-maintenance-scenario"></a>El escenario de mantenimiento de activo
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428406"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 El escenario *mantenimiento de activos* le permite usar datos de sensores para crear registros de contadores. Los registros de contador rastrean el uso de un activo de máquina y se utilizan como entrada para generar el programa de mantenimiento para los activos de máquina.
+
+## <a name="video-instructions"></a>Instrucciones de vídeo
+
+El siguiente vídeo muestra cómo configurar y probar el escenario de mantenimiento de activos utilizando [datos de demostración](../../fin-ops-core/fin-ops/get-started/demo-data.md) estándar. Las secciones restantes de este artículo proporcionan las mismas instrucciones en formato de texto.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Prepare datos de demostración para el escenario de mantenimiento de activos
 

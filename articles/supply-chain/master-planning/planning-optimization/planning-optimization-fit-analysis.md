@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591860"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643750"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -104,11 +104,11 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Márgenes de seguridad | Planes maestros con margen de seguridad: *\#* | Esta característica ahora se admite. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) |  Compatible |
 | Cumplimiento de existencias de seguridad | Registros de cobertura de artículos con "Cumplimiento mínimo" diferente de "Fecha de hoy + tiempo de adquisición": *\#* | La optimización de la planificación siempre utiliza *Fecha de hoy + tiempo de adquisición*. Este cambio se realiza para prepararse para una configuración de planificación simplificada en el futuro y para proporcionar un resultado procesable. Si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen para el inventario disponible bajo actual siempre se retrasarán debido al tiempo de entrega. Este comportamiento puede causar ruido significativo y órdenes planificadas no deseadas. La mejor práctica es cambiar la configuración para que se use *Fecha de hoy + tiempo de adquisición*. Actualice los datos maestros para evitar advertencias. | N/D |
 | Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: *\#* | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 o posterior |
-| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica está pendiente. Actualmente, la vida útil no se considera cuando la optimización de planificación está habilitada, independientemente de esta configuración. | Compatible |
+| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica ahora se admite. | Compatible |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general de la optimización de la planificación](planning-optimization-overview.md)
+[Visión general de la optimización de la planificación](planning-optimization-overview.md)
 
 [Introducción a Optimización de planificación](get-started.md)
 

@@ -2,7 +2,7 @@
 title: Instantáneas de vencimientos de clientes
 description: Este artículo proporciona información sobre las instantáneas de vencimientos de clientes. Una instantánea de vencimientos calcula los saldos para un grupo de clientes en un momento determinado.
 author: JodiChristiansen
-ms.date: 05/05/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 248a71ff3c9f6c30448ff486f3ee42ac534b1825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269574"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643695"
 ---
 # <a name="customer-aging-snapshots"></a>Instantáneas de vencimientos de clientes
 
@@ -31,15 +31,15 @@ La información de la instantánea de vencimientos se muestra en la página de l
 El espacio de trabajo **Crédito y cobros de clientes** también muestra el vencimiento del cliente. Para más información, consulte [el contenido de Power BI sobre administración de créditos y cobros](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Para ayudar a reducir el tiempo necesario para crear una instantánea de vencimientos, active la característica **Mejora del rendimiento de vencimiento del cliente** en el espacio de trabajo **Administración de características**. Sin embargo, no utilice secciones de clientes cuando esta característica esté activada. Si se selecciona una sección de clientes, la característica no funcionará, pero aún puede crear una instantánea de vencimiento.
+> Para ayudar a reducir el tiempo necesario para crear una instantánea de vencimientos, active las siguientes características en el espacio de trabajo **Administración de características**: **Mejora en el rendimiento del vencimiento de clientes** 
+> **Mejora del rendimiento del vencimiento de los clientes con secciones de clientes**  
+> Con ambas características habilitadas, **Sección de clientes** se puede utilizar al crear la instantánea de vencimientos. 
 
 Cuando cree una instantánea de vencimiento del cliente, use los siguientes campos para introducir información sobre ella:
 
 - **Definición de período de vencimiento**: seleccione la definición de período de vencimiento para la instantánea de vencimiento. Puede tener una instantánea de vencimiento para cada definición de período de vencimiento. La instantánea de vencimiento y la definición del período de vencimiento deben crearse por separado.
 - **Id. de grupo**: este campo es opcional. Puede utilizar un grupo para definir el conjunto de clientes que deben procesarse en la instantánea de vencimiento. Si selecciona una sección de clientes en este campo, se crea una instantánea de vencimientos solo para las cuentas de cliente que forman parte de la sección de clientes. La sección de clientes seleccionada debe ser del tipo **Instantánea de vencimientos**. Si deja este campo en blanco, se crea una instantánea de vencimiento para todas las cuentas de los clientes.
 
-    > [!NOTE]
-    > Si la característica **Mejora del rendimiento de vencimiento del cliente** está activada, no seleccione una sección de clientes.
 
 - **Criterios**: la instantánea de vencimiento vencerá según la fecha que seleccione:
 
@@ -52,14 +52,15 @@ Cuando cree una instantánea de vencimiento del cliente, use los siguientes camp
     - **Fecha de hoy**: use la fecha del sistema. Seleccione esta opción si el procesamiento se configura para que se ejecute en un trabajo por lotes periódico. Luego, cada vez que se ejecuta el lote, se usa la fecha del sistema de esa ejecución.
     - **Fecha seleccionada**: use una fecha especificada. Si selecciona esta opción, debe especificar una fecha de vencimiento.
 
-    Por ejemplo, el período de vencimiento actual es de 30 días. Si seleccionas **Fecha de hoy** en este campo, el período de vencimiento actual comienza en la fecha de hoy y luego incluye los 29 días anteriores. Si seleccionas **Fecha seleccionada** e introduce una fecha, el período de vencimiento actual comienza en la fecha especificada y luego incluye los 29 días anteriores.
+   Por ejemplo, el período de vencimiento actual es de 30 días. Si seleccionas **Fecha de hoy** en este campo, el período de vencimiento actual comienza en la fecha de hoy y luego incluye los 29 días anteriores. Si seleccionas **Fecha seleccionada** e introduce una fecha, el período de vencimiento actual comienza en la fecha especificada y luego incluye los 29 días anteriores.
 
 - **Actualizar estado de cobro**: establezca esta opción en **Sí** para actualizar el estado del cobro de transacciones en la página **Cobros** de **Compromiso de pago** a **Compromiso de pago roto** si la fecha de vencimiento es posterior a la fecha en el campo **Fecha de compromiso de pago**. Establezca esta opción en **No** para dejar el estado del cobro sin cambios en la página **Cobros**.
-- **Incluir clientes sin saldo**: establezca esta opción en **Sí** para incluir a todos los clientes, independientemente de su saldo. Si incluye a todos los clientes, le recomendamos que active la característica **Mejora del rendimiento de vencimiento del cliente** y que no utilice secciones de clientes. Establezca esta opción en **No** para incluir solo a los clientes que tienen saldo. Esta configuración ayuda a acelerar el rendimiento, ya que se omiten los clientes que no tienen saldo.
+- **Incluir clientes sin saldo**: establezca esta opción en **Sí** para incluir a todos los clientes, independientemente de su saldo. Si incluye a todos los clientes, le recomendamos que active las características **Mejora del rendimiento de vencimiento del cliente** y **Mejora del rendimiento del vencimiento de los clientes con secciones de clientes**. Establezca esta opción en **No** para incluir solo a los clientes que tienen saldo. Esta configuración ayudará a acelerar el rendimiento, ya que se omiten los clientes que no tienen saldo.
+- **Omitir cálculos de límite de crédito durante el vencimiento**: si esta opción está configurada en **Sí** el proceso de vencimiento no recalculará el importe del **Subtotal de albarán**, el importe de **Subtotal de pedido abierto** y el **Crédito disponible** para cada cliente. Estos saldos se muestran en la página **Saldos vencidos**, en el cuadro informativo en **Límite de crédito**. Para un rendimiento más rápido durante el proceso de vencimiento, establezca esta opción en **Sí**. Configúrela en **No** para recalcular los saldos al ejecutar el proceso de vendimiento. 
 - **Intervalo de empresas**: en la pestaña **Intervalo de empresas**, seleccione las entidades jurídicas (empresas) que incluir en la instantánea de vencimiento. Solo las entidades jurídicas que se configuran para pagos centralizados están disponibles para su selección. Las transacciones de las entidades jurídicas seleccionadas se incluyen en los períodos de vencimiento para los clientes que tienen el mismo Id. de parte en todas esas entidades jurídicas. Los importes de divisa se convierten a la divisa de la entidad jurídica en la que ha iniciado sesión al crear la instantánea de vencimientos.
 
 Le recomendamos que programe este proceso para que se ejecute en un lote.
 
 > [!NOTE]
-> Para ayudar a mejorar el rendimiento del lote cuando se crean instantáneas de vencimiento, introduzca un número en el campo **Número máximo de tareas por lotes** en la ficha desplegable **Valores predeterminados de cobros** en la pestaña **Cobros** de la página **Parámetros de clientes**. En el campo **Calcular vencimientos de saldos de clientes**, le recomendamos que comience con el valor predeterminado de **100** y luego ajuste el valor para optimizar el procesamiento para su situación.
+> Para ayudar a mejorar el rendimiento del lote cuando se crean instantáneas de vencimiento, introduzca un número en el campo **Número máximo de tareas por lotes** en la ficha desplegable **Valores predeterminados de cobros** en la pestaña **Cobros** de la página **Parámetros de clientes**. En el campo **Calcular vencimientos de saldos de clientes**, le recomendamos que comience con un valor entre **12** y **20** y luego ajuste el valor para optimizar el procesamiento para su situación. No recomendamos establecer este valor mayor que **30**, ya que afectará el rendimiento. 
 

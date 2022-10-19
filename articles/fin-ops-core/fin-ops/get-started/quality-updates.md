@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
-ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9592056"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671435"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -71,11 +71,45 @@ Debido a que los clientes recibirán regularmente cargas útiles más pequeñas,
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>¿Cuándo comenzarán las actualizaciones de calidad para los entornos de producción?
 En este momento, las actualizaciones de calidad solo están dirigidas a entornos aislados. Actualizaremos este espacio con una fecha de inicio para entornos de producción cuando tengamos datos y métricas más concretos de actualizaciones proactivas para sandboxes para medir la preparación para la producción.
 
-## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>¿Cuál es el calendario para las actualizaciones de calidad de espacio aislado?
-Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuál es el calendario para las actualizaciones de calidad proactivas?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).
+## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>¿Cuál es la programación para las actualizaciones de calidad proactivas de espacio aislado?
+Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuáles son las ventanas de mantenimiento planeado por región?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+
+### <a name="proactive-quality-update-release-10028"></a>Versión de actualización de calidad proactiva: 10.0.28
+**Versión de la aplicación: 10.0.1265.89**
+**Correspondiente último artículo de KB: 745340**
+
+| Estación | Regiones | Programación completa| Próxima programación de espacio aislado
+|---|---|---|---|
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 15 de septiembre al 18 de septiembre de 2022 y del 19 de septiembre al 22 de septiembre de 2022 | Del 7 de octubre al 10 de octubre de 2022 |
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 25 de septiembre al 28 de septiembre de 2022 | Del 7 de octubre al 10 de octubre de 2022 |
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 26 de septiembre al 29 de septiembre de 2022 | Del 7 de octubre al 10 de octubre de 2022 |
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 28 de septiembre al 1 de octubre de 2022 | Del 7 de octubre al 10 de octubre de 2022 |
+| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
+
+### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.29
+**Versión de la aplicación: 10.0.1326.70**
+**Correspondiente último artículo de KB: 748926**
+
+| Estación | Regiones | Próxima programación de espacio aislado
+|---|---|---|
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022 |
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022 |
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022 |
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 |
+| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar |
+
+> [!IMPORTANT] 
+> Con cinco días de anticipación, Microsoft actualizará la programación anterior y enviará notificaciones por correo electrónico al conjunto de entornos que están programados para recibir estas actualizaciones de calidad. La programación anterior se aplica solo a los entornos que han sido notificados sobre una próxima actualización. Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuáles son las ventanas de mantenimiento planeado por región?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+>
+> Para cada grupo de regiones, o *estación*, donde actualmente está programada la implementación de una actualización de calidad, la programación muestra un rango de cuatro días. Las actualizaciones de calidad comenzarán solo con entornos de espacio aislado. Después, a medida que aumente el porcentaje de sandboxes implementados con éxito, comenzará la implementación en entornos de producción con notificaciones avanzadas a los clientes.
+> 
+> Las actualizaciones de calidad siempre se producirán de forma continua, lo que nos permite apuntar a un conjunto de entornos por programación y completar todos los conjuntos al final del cuarto día para una estación. Sin embargo, esto no significa que una actualización del entorno durará cuatro días. Simplemente significa que no podemos predeterminar qué conjunto de entornos se actualizará en un día determinado dentro del rango de cuatro días. Todas las actualizaciones se realizarán durante las horas de oscuridad, con un tiempo de inactividad casi nulo. Las actualizaciones finalizarán definitivamente dentro de la ventana de la hora oscura de una región determinada.
 
 ## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>¿Cómo se gestionan las horas oscuras para los clientes que tienen una instancia de aplicaciones de finanzas y operaciones pero están activos en varias zonas horarias? 
 No hay horarios especiales fuera de las horas oscuras donde existe una instancia de aplicaciones de finanzas y operaciones, ya que planeamos implementar actualizaciones de calidad de una manera mínimamente disruptiva con [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="what-is-the-current-rollout-cadence-for-proactive-quality-updates"></a>¿Cuál es la frecuencia actual de implementaciones para las actualizaciones de calidad proactivas?
+Actualmente, las actualizaciones de calidad proactivas (PQU) se envían una vez al mes para cada versión admitida de una actualización de servicio. Solo se envía una actualización por mes para determinados entornos de espacio aislado, a menos que los clientes cambien a una nueva versión de actualización del servicio. En ese caso, pueden obtener una PQU preprogramada como parte de un tren existente para la actualización del nuevo servicio. Una vez que se complete el lanzamiento mundial en 2023, la frecuencia de estas actualizaciones aumentará. Siempre recibirá un aviso con al menos un mes de antelación cada vez que haya un cambio en la cadencia de envío.
 
 ## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>¿Cómo garantizará Microsoft la calidad de estas actualizaciones?
 Microsoft se esfuerza por mantener la canalización de lanzamiento lo suficientemente eficiente como para entregar pequeñas cargas útiles para mantener bajo el costo de validación. Cada corrección en una actualización de calidad pasa por un proceso de implementación riguroso y seguro que ayuda a mejorar la calidad y la confiabilidad, reduciendo así el impacto en el cliente. La implementación se llevará a cabo por etapas en entornos de espacio aislado primero, seguida de producción. Las implementaciones por etapas permiten una supervisión adecuada para determinar si una implementación posterior es segura. Detendremos la implementación si se detectan problemas con cada grupo de clientes implementado y nos aseguraremos de que cada paso de la implementación tenga tiempo suficiente para que surjan los problemas. Para cada próxima actualización de calidad, brindaremos visibilidad del calendario a través de actualizaciones de documentación pública y correos electrónicos, para que los clientes puedan planificar con anticipación.
@@ -83,8 +117,20 @@ Microsoft se esfuerza por mantener la canalización de lanzamiento lo suficiente
 ## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>¿Pueden los clientes retrasar, reprogramar o pausar una actualización de calidad?
 N. º El principal objetivo de las actualizaciones de calidad es garantizar que aspectos fundamentales como la seguridad, la privacidad, la confiabilidad, la disponibilidad y el rendimiento mejoren continuamente para nuestros clientes. Al retrasar o pausar una actualización, la seguridad, la disponibilidad y la confiabilidad estarán en riesgo.
 
-## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>¿Cómo se puede saber el conjunto de cambios que se incluyeron en una carga útil de actualización de calidad?
-Podrá ver todos los artículos de KB en una versión de actualización de calidad en la página **Detalles del entorno** en LCS, navegando a la sección **Actualización de calidad**. 
+## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>¿Cómo sé qué conjunto de cambios que se incluyeron en una carga útil de actualización de calidad?
+Los siguientes pasos son una solución temporal a medida que continuamos trabajando para brindar una mejor solución para identificar la lista de cambios que se incluyen en una carga útil de actualización de calidad. 
+
+Use KB# 745340 para el tren de actualización de calidad 10.0.28 y la versión de la aplicación relacionada 10.0.1265.89.
+
+1. En LCS, abra la página **Detalles del entorno** para su espacio aislado. 
+2. En la sección **Actualizaciones disponibles**, seleccione **Ver actualización** para la última compilación de actualización de calidad. 
+3. Exporte la compilación a un CSV o archivo de Microsoft Excel.
+4. En el archivo exportado, ordene la información según el tiempo (la más antigua primero) y luego busque el número de KB 745340 en la columna **Actualizar id.**. Ahora debería poder ver la lista de detalles de KB.
+ 
+ > [!NOTE]
+ > La exportación a un archivo CSV o Excel debe realizarse antes de que se actualice el entorno. De lo contrario, puede usar un entorno con una configuración similar que no tenga instalada la actualización y seguir los pasos anteriores.
+
+[![Ejemplo de entorno con actualización de calidad.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
 ## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>¿Cuál es el proceso si se encuentra un problema crítico después de una actualización de calidad?
 Un problema crítico o regresión es uno o más eventos que generalmente hacen que varios clientes tengan una experiencia degradada con uno o más de nuestros servicios. Estos problemas pueden causar tiempo de inactividad no planificado, incluida la falta de disponibilidad, la degradación del rendimiento y la interferencia con la gestión del servicio. Si hay un impacto amplio en el cliente debido a dichas regresiones, detendremos el lanzamiento de una actualización de calidad hasta que podamos comunicarnos y solucionar el problema. Por lo general, la próxima actualización de calidad tendrá la solución necesaria para reanudar la implementación.
@@ -94,31 +140,34 @@ Si el entorno de un solo cliente se ve afectado, contacte con el soporte de Micr
 ## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>¿Pueden los clientes aplicar manualmente las actualizaciones de revisión de LCS?
 Sí. Para garantizar la paridad continua con el funcionamiento de las revisiones, las actualizaciones de revisiones aún se pueden aplicar a los entornos de los clientes en LCS. Sin embargo, es importante tener en cuenta que las revisiones que se implementan como parte de una actualización de calidad pasan por el SDP estándar antes de que se implemente la actualización. Esto reduce el riesgo de regresiones debido a una mayor calidad. Le recomendamos que elija una actualización de calidad en lugar de aplicar revisiones manualmente para aumentar la confiabilidad.
 
-## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>¿Pueden los clientes autoinstalar una actualización de calidad antes de lo previsto?
+## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>¿Pueden los clientes instalar de forma proactiva una actualización de calidad antes de lo previsto?
 Sí. Puede instalar una actualización de calidad de forma proactiva. Microsoft omitirá la actualización si la versión de compilación actual del entorno es igual o superior a la actualización de calidad en cuestión.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Si un entorno tiene una próxima actualización de servicio mensual programada dentro de una semana, ¿seguirá recibiendo actualizaciones de calidad?
-- Las actualizaciones de calidad no se aplican si hay una actualización de servicio inminente programada dentro de una semana a partir de la fecha programada para la actualización de calidad.
+- Las actualizaciones de calidad no se aplican a entornos de producto si hay una actualización de servicio inminente programada dentro de una semana a partir de la fecha programada para la actualización de calidad.
 - Si un entorno de espacio aislado tiene una versión de compilación igual o superior a la actualización de calidad inminente, se omitirá.
 - Si un entorno de producción tiene una versión de compilación igual o superior a la actualización de calidad inminente, se omitirá.
 - Si un espacio aislado tiene la misma versión de compilación o una superior debido a una actualización de calidad o una actualización manual de la producción, la producción seguirá recibiendo la versión programada de la actualización mensual del servicio. Si no desea que el entorno de producción programado se actualice a la versión de actualización del servicio, puede pausar la actualización del servicio desde LCS. 
 - Le recomendamos que utilice la última versión de actualización de calidad para probar sus cambios para una próxima actualización de servicio para una mejor estabilidad y resultados.
 
+## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Si un entorno tiene una próxima acción programada y una actualización de calidad programada en la misma ventana de mantenimiento, ¿seguirá recibiendo la actualización de calidad?
+Si hay algún conflicto con una acción preprogramada, por ejemplo, una restauración a un momento dado (PITR), la actualización de calidad se reprogramará para la próxima ventana de mantenimiento disponible dentro de la ventana de cuatro días. Para obtener más detalles sobre la programación, consulte [¿Cuál es el calendario para las actualizaciones de calidad proactivas?](#schedule). 
+
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>¿Se puede devolver un entorno a su estado anterior si hay problemas después de aplicar una actualización de calidad?
 Después de aplicar una actualización de calidad, no hay reversión bajo ninguna circunstancia. Solo hay opciones de reenvío de parches disponibles para mitigar los problemas.
 
 ## <a name="what-about-fda-regulation-and-gpx"></a>¿Qué pasa con la regulación FDA y GPX?
-El plan para clientes sujetos a la validación y regulación de la FDA aún está en evolución. Espere más actualizaciones en este espacio pronto. Por ahora, todos estos clientes están exentos de actualizaciones de calidad.
+El plan para clientes sujetos a la validación y regulación de la FDA aún está en evolución. Espere más actualizaciones en este espacio pronto. Por ahora, todos estos clientes están exentos de actualizaciones de calidad. Para asegurarse de que un cliente cumpla con las regulaciones de la FDA, visite [Oferta GPX de Microsoft Azure](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>¿Qué versiones de actualizaciones de servicio son compatibles con estas actualizaciones de calidad?
-Los clientes con versiones anteriores a N-2 no recibirán actualizaciones de calidad. 
+Los clientes de todas las versiones compatibles con las actualizaciones de servicio son aptos para las actualizaciones de calidad. 
 
 ## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Las implementaciones de aplicaciones de finanzas y operaciones con componentes minoristas generalmente requieren trabajo adicional además de tener que volver a implementar MPOS. ¿Cómo afectarán estas actualizaciones de calidad al RetailSDK? 
-Como la naturaleza de las revisiones en sí no cambia en la carga útil de las actualizaciones de calidad, no anticipamos ningún impacto adicional en este momento específicamente relacionado con los componentes minoristas.
+Como la naturaleza de la revisión en sí no cambia en la carga útil de las actualizaciones de calidad, no anticipamos ningún impacto adicional específicamente relacionado con los componentes minoristas en este momento.
 
-## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>¿Hay algún impacto en los entornos alojados en la nube (CHE)? ? 
-N. º
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>¿Hay algún impacto en los entornos alojados en la nube (CHE)? 
+Los entornos CHE están fuera del alcance de las actualizaciones de calidad porque están fuera del alcance de Microsoft
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>¿Hay algún problema de integración con Microsoft Dataverse? 
-N. º
+No hay problemas de integración conocidos para las actualizaciones de calidad con Dataverse.
 

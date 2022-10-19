@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903345"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644013"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Parámetros de facturación periódica del contrato
 
@@ -46,7 +46,8 @@ Utilice la página **Parámetros de facturación periódica del contrato** para 
 8. En el campo **Tipo de transacción de factura**, seleccione el tipo de transacción de factura predeterminado para las nuevas programaciones de facturación.
 9. Seleccione la opción **Alinear aplazamiento con facturación** como **Sí** para alinear la programación de aplazamiento correspondiente para que use las mismas fechas que la programación de facturación. Establézcalo como **No** para usar fechas diferentes.
 10. Si está utilizando la característica de división de ingresos, configure la opción **Crear automáticamente división de ingresos** como **Sí** cuando se agregan artículos a una programación de facturación. La casilla **División de ingresos** se seleccionará automáticamente en la línea de programación de facturación si el artículo está configurado como artículo de división de ingresos. Establezca la opción como **No** si desea seleccionar manualmente la casilla **División de ingresos**.
-11. Configure los campos para la creación de pedidos de ventas:
+11. Establezca la opción **División del cliente** a **Sí** para permitir que una programación de facturación se facture a diferentes clientes. Cuando se establece en **Sí**, la opción **División del cliente** está disponible en el encabezado de la programación de facturación y en la línea de la programación de facturación. 
+12. Configure los campos para la creación de pedidos de ventas:
 
     - Las facturas se pueden consolidar por período, cliente o artículo. Puede establecer cualquier combinación de los valores **Sí** y **No**. Las facturas también se pueden dividir por grupo de artículos.
     - Las siguientes opciones de registro están disponibles para facturas:
@@ -92,6 +93,9 @@ Utilice la página **Parámetros de facturación periódica del contrato** para 
     - **Emitir crédito** – Cree una nota de crédito al dar de baja un programa de facturación o una línea de programa de facturación.
     - **Ajuste de crédito** – Cree un ajuste de crédito para un programa de facturación al dar de baja una línea. El ajuste de crédito aparece en un período de facturación futuro para el programa de facturación. El ajuste de crédito ajustará el importe de la factura para el próximo período de facturación hasta que el crédito haya terminado de aplicarse al programa de facturación.
     - **Sin crédito** – No cree un ajuste de crédito o una nota de crédito al dar de baja un programa de facturación o una línea de programa de facturación. Esta opción está disponible solo cuando utiliza la opción **Sin ajuste** para dar de baja una programación de facturación.
+18. Cuando la opción **Puede finalizar una vez con la devolución** se establece en **No** y una programación de facturación con una frecuencia de facturación de **Una vez**, el estado de la programación de facturación cambia a **Terminado** una vez facturada la programación de facturación. Esta programación de facturación no se puede cancelar y no se puede emitir ningún crédito. Cuando **Puede finalizar una vez con la devolución** se establece en **Sí**, la línea de programación de facturación con una frecuencia de facturación de **Una vez** tendrá el estado **Activa** una vez facturada la programación de facturación. La línea de programación de facturación se puede terminar y se puede procesar un reembolso. 
+19. La opción **Prorratear diariamente** establecida en los parámetros se establecerá de forma predeterminada en la página de terminación masiva y en los cuadros de diálogo de encabezado de programación de facturación y la línea Finalizar. Se puede cambiar durante el proceso de finalización. Cuando se establece en **Sí** cualquier importe de reembolso se calculará utilizando una tarifa diaria. Cuando se establece en **No** se acreditará según la fecha de finalización y la frecuencia de facturación. Por ejemplo, si usa la frecuencia mensual y el importe de facturación fue de 100 $ por mes, el importe del crédito es en incrementos de 100 $. Si la frecuencia de facturación es única, el importe del crédito es 0,00 $. Debe tener el prorrateo diario establecido en Sí para obtener un reembolso por la frecuencia de facturación única. 
+20. Establezca la opción **Crear aplazamiento de crédito** a **Sí** para crear una nueva programación de diferimiento si se acredita una programación de diferimiento existente. Deje la opción establecida en **No** para crear el crédito en la programación de diferimiento existente.
 
 ## <a name="sequence-number-tab"></a>Pestaña Número de secuencia
 

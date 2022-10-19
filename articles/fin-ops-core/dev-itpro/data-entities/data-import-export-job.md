@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357614"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671468"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -64,6 +64,9 @@ Puede agregar entidades específicas a un trabajo de importación o exportación
 
 ### <a name="set-the-data-format-for-the-job"></a>Establecer el formato de datos del trabajo
 Al seleccionar una entidad, debe seleccionar el formato de los datos que se exportarán o importarán. Puede definir los formatos mediante el icono **Configuración de orígenes de datos**. Un formato de datos de origen es una combinación de **Tipo**, **Formato de archivo**, **Delimitador de la fila** y **Delimitador de columna**. También hay otros atributos, pero estos son los clave para comprender. En la tabla siguiente aparecen las combinaciones válidas.
+
+> [!NOTE]
+> El formato de archivo de Excel no está disponible actualmente en el espacio de trabajo para la gestión de datos para Government Community Cloud (GCC).
 
 | Formato de archivo            | Delimitador de columna/fila                       | Estilo XML                 |
 |------------------------|--------------------------------------------|---------------------------|
