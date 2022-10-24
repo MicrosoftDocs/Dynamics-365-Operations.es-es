@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Actualizaciones de la plataforma para la versión 10.0.31 (febrero de 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.30 (noviembre de 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.29 (octubre de 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Realizar un seguimiento de los cambios en una entidad
                   href: data-entities/entity-change-track.md
+                - name: Permitir el seguimiento de cambios de versión de fila para una entidad
+                  href: data-entities/rowversion-change-track.md
                 - name: Buscar información acerca de las entidades de datos estándar
                   href: data-entities/data-entities-report.md
                 - name: Plantillas de datos con varias hojas de cálculo
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Habilitar entidades virtuales de Dataverse
                   href: power-platform/enable-virtual-entities.md
+                - name: Seguimiento de cambios para tablas virtuales en Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Portales de Power Apps con finanzas y operaciones
                   href: power-platform/power-portal-reference.md
                 - name: Preguntas frecuentes sobre entidades virtuales de finanzas y operaciones

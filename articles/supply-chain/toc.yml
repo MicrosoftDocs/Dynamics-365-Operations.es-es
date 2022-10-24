@@ -12,14 +12,12 @@
               items:
                 - name: Novedades y cambios de la página principal de Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (febrero de 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (noviembre de 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (octubre de 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (agosto de 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (julio de 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Características quitadas o en desuso
               items:
                 - name: Página de inicio de características quitadas o en desuso
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Planificación maestra con previsión de la demanda
+                - name: Planificación maestra con previsiones de la demanda
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Planificación maestra con previsiones de suministro
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Planificación maestra con acuerdos comerciales de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Plan basado en presupuestos y solicitudes de presupuesto
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: Parámetros de fecha y hora utilizados por Optimización de planificación
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Márgenes de seguridad
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Crear variantes de productos predefinidas
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Mostrar nombres y descripciones de productos traducidos en la interfaz de usuario
+                  href: pim/show-translated-product-info.md
                 - name: Administrar unidades de medida
                   href: pim/tasks/manage-unit-measure.md
                 - name: Conversión de unidad de medida por variante del producto
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Trabajar con directivas de ubicación
                       href: warehousing/create-location-directive.md
+                    - name: Probar directivas de ubicación con pruebas de aceptación
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Configurar filtros de productos para transacciones de almacén
                       href: warehousing/filters-and-filter-codes.md
                     - name: Límites de existencias de la ubicación
