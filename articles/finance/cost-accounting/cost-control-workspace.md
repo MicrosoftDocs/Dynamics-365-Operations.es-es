@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853507"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682908"
 ---
 # <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes 
 
@@ -53,7 +53,7 @@ En el FastTab **Filtrado de datos**, se definen los datos base para el informe. 
 |-------------------------------------------------------------------|-------------|
 | Libro mayor de contabilidad de costes                                            | El **Libro mayor de la contabilidad de costes** en el que se basa el informe. El valor se deriva del campo **Unidad de control de costes**. |
 | Unidad de control de costes                                                 | El valor que seleccione determina el libro mayor de contabilidad de costes y los objetos de coste en los que se basará este informe. |
-| Jerarquía de dimensión estadística, jerarquía de dimensión de elemento de coste | Un registro de configuración del espacio de trabajo **Control de costes** puede notificar valores monetarios o no monetarios, pero no con el mismo diseño. Seleccione un valor en el campo **Jerarquía de dimensión de elemento de coste** para notificar valores monetarios. Seleccione un valor en el campo **Jerarquía de dimensión estadística** para notificar valores no monetarios. El registro de la jerarquía de dimensión que seleccione determina la estructura de informe y de los niveles de agregación.<blockquote>[!NOTE]<br>Para ver valores monetarios y no monetarios de forma simultánea, puede exportar datos a Microsoft Excel para el paquete de contenido de Microsoft Power BI.</blockquote> |
+| Jerarquía de dimensión estadística, jerarquía de dimensión de elemento de coste | Un registro de configuración del espacio de trabajo **Control de costes** puede notificar valores monetarios o no monetarios, pero no con el mismo diseño. Seleccione un valor en el campo **Jerarquía de dimensión de elemento de coste** para notificar valores monetarios. Seleccione un valor en el campo **Jerarquía de dimensión estadística** para notificar valores no monetarios. El registro de la jerarquía de dimensión que seleccione determina la estructura de informe y de los niveles de agregación.<blockquote>**NOTA:**<br>Para ver valores monetarios y no monetarios de forma simultánea, puede exportar datos a Microsoft Excel para el paquete de contenido de Microsoft Power BI.</blockquote> |
 | Jerarquía de dimensión de objeto de coste      | Seleccione la jerarquía de dimensión de la dimensión del objeto de coste que se adapte al propósito del modo de notificación que esté definiendo. |
 | Versión original del presupuesto                                           | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto original en el contexto de este informe. |
 | Versión revisada del presupuesto                                            | Seleccione el identificador de la versión del presupuesto que actúe como el presupuesto revisado en el contexto de este informe. |
@@ -64,7 +64,7 @@ El cálculo de gastos generales lleva a cabo varios pasos de cálculo sobre los 
 
 | Campo                  | Descripción |
 |------------------------|-------------|
-| Período de calendario fiscal | Seleccione el período de calendario fiscal al que asignar un identificador de cálculo de gastos generales.<blockquote>[!NOTE]<br>Los períodos fiscales que se muestran en el campo provienen del calendario fiscal que está asociado a la contabilidad de costes.</blockquote> |
+| Período de calendario fiscal | Seleccione el período de calendario fiscal al que asignar un identificador de cálculo de gastos generales.<blockquote>**NOTA:**<br>Los períodos fiscales que se muestran en el campo provienen del calendario fiscal que está asociado a la contabilidad de costes.</blockquote> |
 | Versión real         | Seleccione el identificador de cálculo de gastos generales adecuado. |
 | Versión de presupuesto         | Seleccione el identificador de cálculo de gastos generales adecuado. |
 | Versión de presupuesto revisado | Seleccione el identificador de cálculo de gastos generales adecuado. |
@@ -77,10 +77,10 @@ Los valores de las columnas seleccionados se multiplicarán por los valores sele
 
 | Campo                | Descripción |
 |----------------------|-------------|
-| Período actual       | Se muestra el saldo del período fiscal actual.<blockquote>[!NOTE]<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual.</blockquote> |
-| Período anterior      | Se muestra el saldo del período fiscal anterior. Se usa la siguiente fórmula:<br>Periodo fiscal actual - 1<blockquote>[!NOTE]<br>De forma predeterminada, el periodo anterior se determina según la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico como periodo actual. Después, **Período anterior** se volverá a calcular según corresponda.</blockquote> |
-| Año hasta la fecha         | Aparece el año hasta la fecha. Se usa la siguiente fórmula:<br>YearToDate (periodo fiscal actual)<blockquote>[!NOTE]<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y el valor de **Año hasta la fecha** se actualizará en consecuencia.</blockquote> |
-| Año hasta la fecha, promedio | Aparece el promedio del año hasta la fecha. Se usa la siguiente fórmula:<br>(YearToDate [Periodo fiscal actual]) ÷ (Recuento [Periodo fiscal actual])<p><strong>Ejemplo </strong></p><ul><li>**Miembro de dimensión estadística:** empleados a jornada completa</li><li>**Fecha actual:** 3-21-2017</li><li>**Período:** período fiscal 1, período fiscal 2, período fiscal 3</li><li>**Magnitud:** 10, 10, 12</li></ul>En este caso, **Año hasta la fecha, promedio** = (10 + 10 + 12) ÷ 3 = 10,67<p>El valor de **Año hasta la fecha, promedio** se puede calcular para los miembros de la dimensión de elementos de coste y los miembros de la dimensión estadística.</p><blockquote>[!NOTE]<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y los valores de **Año hasta la fecha** y **Año hasta la fecha, promedio** se actualizarán en consecuencia.</blockquote> |
+| Período actual       | Se muestra el saldo del período fiscal actual.<blockquote>**NOTA:**<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual.</blockquote> |
+| Período anterior      | Se muestra el saldo del período fiscal anterior. Se usa la siguiente fórmula:<br>Periodo fiscal actual - 1<blockquote>**NOTA:**<br>De forma predeterminada, el periodo anterior se determina según la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico como periodo actual. Después, **Período anterior** se volverá a calcular según corresponda.</blockquote> |
+| Año hasta la fecha         | Aparece el año hasta la fecha. Se usa la siguiente fórmula:<br>YearToDate (periodo fiscal actual)<blockquote>**NOTA:**<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y el valor de **Año hasta la fecha** se actualizará en consecuencia.</blockquote> |
+| Año hasta la fecha, promedio | Aparece el promedio del año hasta la fecha. Se usa la siguiente fórmula:<br>(YearToDate [Periodo fiscal actual]) ÷ (Recuento [Periodo fiscal actual])<p><strong>Ejemplo </strong></p><ul><li>**Miembro de dimensión estadística:** empleados a jornada completa</li><li>**Fecha actual:** 3-21-2017</li><li>**Período:** período fiscal 1, período fiscal 2, período fiscal 3</li><li>**Magnitud:** 10, 10, 12</li></ul>En este caso, **Año hasta la fecha, promedio** = (10 + 10 + 12) ÷ 3 = 10,67<p>El valor de **Año hasta la fecha, promedio** se puede calcular para los miembros de la dimensión de elementos de coste y los miembros de la dimensión estadística.</p><blockquote>**NOTA:**<br>De forma predeterminada, el periodo actual se determina por la fecha de la sesión. En el espacio de trabajo **Control de costes**, se puede seleccionar un período fiscal específico. El valor seleccionado representa el período actual y los valores de **Año hasta la fecha** y **Año hasta la fecha, promedio** se actualizarán en consecuencia.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Columnas para mostrar de costes
 
@@ -88,11 +88,11 @@ En el FastTab **Columnas para mostrar de costes**, el contable de costes elige q
 
 | Campo                 | Descripción |
 |-----------------------|-------------|
-| Coste fijo            | Este tipo de columna muestra el coste fijo, en función del identificador de gastos generales seleccionado.<blockquote>[!NOTE]<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
-| Coste variable         | Este tipo de columna muestra el coste variable, en función del identificador de gastos generales seleccionado.<blockquote>[!NOTE]<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
-| Coste fijo + variable | Este tipo de columna muestra el coste fijo y el coste variable en función del identificador de gastos generales seleccionado.<blockquote>[!NOTE]<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
-| Coste total            | Este tipo de columna muestra el coste total (coste sin clasificar, coste fijo y coste variable).<blockquote>[!NOTE]<br>El tipo de columna mostrará el saldo en todo momento.</blockquote> |
-| Coste sin clasificar     | Este tipo de columna mostrará el coste sin clasificar.<blockquote>[!NOTE]<br>Esta columna se puede usar para validar si todos los costes se han ordenado correctamente por el cálculo de gastos generales o si las reglas del comportamiento de costes se deben ajustar.</blockquote> |
+| Coste fijo            | Este tipo de columna muestra el coste fijo, en función del identificador de gastos generales seleccionado.<blockquote>**NOTA:**<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
+| Coste variable         | Este tipo de columna muestra el coste variable, en función del identificador de gastos generales seleccionado.<blockquote>**NOTA:**<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
+| Coste fijo + variable | Este tipo de columna muestra el coste fijo y el coste variable en función del identificador de gastos generales seleccionado.<blockquote>**NOTA:**<br>Este tipo de columna mostrará un saldo solo cuando un identificador de cálculo de gastos generales se seleccione para el período fiscal.</blockquote> |
+| Coste total            | Este tipo de columna muestra el coste total (coste sin clasificar, coste fijo y coste variable).<blockquote>**NOTA:**<br>El tipo de columna mostrará el saldo en todo momento.</blockquote> |
+| Coste sin clasificar     | Este tipo de columna mostrará el coste sin clasificar.<blockquote>**NOTA:**<br>Esta columna se puede usar para validar si todos los costes se han ordenado correctamente por el cálculo de gastos generales o si las reglas del comportamiento de costes se deben ajustar.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Columnas para mostrar de costes presupuestados
 
@@ -103,12 +103,12 @@ En el FastTab **Columnas para mostrar de costes presupuestados**, el contable de
 
 | Campo                     | Descripción |
 |---------------------------|-------------|
-| Presupuesto                    | Los saldos presupuestarios se mostrarán por las columnas seleccionadas.<blockquote>[!NOTE]<br>Los saldos estarán basados en las versiones del presupuesto seleccionadas en el FastTab **Filtrado de datos**.</blockquote> |
+| Presupuesto                    | Los saldos presupuestarios se mostrarán por las columnas seleccionadas.<blockquote>**NOTA:**<br>Los saldos estarán basados en las versiones del presupuesto seleccionadas en el FastTab **Filtrado de datos**.</blockquote> |
 | Desviación del presupuesto           | Calcule y muestre la diferencia entre los valores reales y los valores presupuestados. Se usa la siguiente fórmula:<br>Saldos presupuestario – Saldo real |
 | Desviación del presupuesto en %      | Calcule y muestre la diferencia en porcentajes entre los valores reales y los valores presupuestados. Se usa la siguiente fórmula:<br>(Saldo del presupuesto – Saldo real) ÷ Saldo del presupuesto |
-| Umbral de desviación del período | Establezca un umbral para la desviación en el importe monetario para el período actual. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**.<blockquote>[!NOTE]<br>Este campo solo se aplica a los elementos de coste que representan gastos.</blockquote> |
+| Umbral de desviación del período | Establezca un umbral para la desviación en el importe monetario para el período actual. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**.<blockquote>**NOTA:**<br>Este campo solo se aplica a los elementos de coste que representan gastos.</blockquote> |
 | Umbral de desviación del año   | Establezca un umbral para la desviación en el importe monetario para el año. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**. |
-| % de umbral de desviación      | Establezca un umbral para la desviación en porcentaje. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**.<blockquote>[!NOTE]<br>El mismo umbral en porcentaje se aplica al período actual y al año.</blockquote> |
+| % de umbral de desviación      | Establezca un umbral para la desviación en porcentaje. Si se supera el umbral, la línea se destaca en rojo en el espacio de trabajo **Control de costes**.<blockquote>**NOTA:**<br>El mismo umbral en porcentaje se aplica al período actual y al año.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Espacio de trabajo de control de costes
 

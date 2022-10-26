@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428420"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690031"
 ---
 # <a name="the-production-delays-scenario"></a>El escenario de retrasos en la producción
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 El escenario *Retrasos de producción* genera una notificación si el rendimiento de producción cae por debajo de un valor umbral específico. En este escenario, se envía una señal *part-out* a Microsoft Azure IoT Hub para cada artículo producido. En Dynamics 365 Supply Chain Management Management, el retraso de la orden se calcula en función de la cantidad de tiempo en que la orden de producción está programada para ejecutarse, la cantidad de artículos que se deben producir, la cantidad de tiempo que el trabajo ha estado ejecutándose y la cantidad de señales *part-out* que se han recibido. Se genera una notificación de retraso si el número de señales *part-out* para el trabajo caen por debajo del valor umbral del valor esperado.
 

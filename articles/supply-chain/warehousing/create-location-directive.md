@@ -2,7 +2,7 @@
 title: Trabajar con directivas de ubicación
 description: Este artículo describe cómo trabajar con directivas de ubicación. Las directivas de ubicación son reglas definidas por el usuario que ayudan a identificar las ubicaciones de picking y de colocación para el movimiento de inventario.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903706"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689676"
 ---
 # <a name="work-with-location-directives"></a>Trabajar con directivas de ubicación
 
@@ -47,6 +47,20 @@ Para poder crear una directiva de ubicación, debe seguir estos pasos a fin de a
 1. Cree ubicaciones, tipos de ubicación, perfiles de ubicación y formatos de ubicación. Para obtener más información, consulte [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Cree sitios, zonas y grupos de zona. Para obtener más información, consulte [Configuración de almacén](../../commerce/channels-setup-warehouse.md) y [Configurar ubicaciones en un almacén con WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Activar o desactivar la característica de ámbitos de directiva de ubicación
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+La característica *Ámbitos de directiva de ubicación* le brinda más libertad cuando diseña directivas de ubicación y ayuda a reducir las configuraciones redundantes. Agrega una opción **Ámbitos** que sustituye a la anterior opción **SKU múltiple**. Mientras que la opción **SKU múltiple** solo se puede establecer en *Sí* o *No*, la opción de **Ámbitos** proporciona no sólo esos dos ajustes (a través de los valores *Objeto único* y *Varios elementos*) sino también dos más (a través de los valores *Artículo único o pedido* y *Todos*). Para obtener más información acerca de estos ajustes, consulte [Ficha desplegable Directivas de ubicación](#location-directives-tab).
+
+Cuando está habilitada, la opción **Alcance** reemplaza la opción **SKU múltiple** y es 100 por ciento compatible con las configuraciones existentes.
+
+Para usar esta característica, debe activarla para su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla o desactivarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
+
+- **Módulo:** *Gestión de almacén*
+- **Nombre de la característica:** *Ámbitos de la directiva de ubicación*
+
 ## <a name="work-order-types-for-location-directives"></a>Tipos de órdenes de trabajo para directivas de ubicación
 
 Muchos de los campos que se pueden configurar para las directivas de ubicación son comunes a todos los tipos de órdenes de trabajo. Sin embargo, otros campos son específicos para tipos de órdenes de trabajo particulares.
@@ -68,7 +82,7 @@ La siguiente tabla enumera los campos que son comunes a todos los tipos de órde
 | Directivas de ubicación | Sitio |
 | Directivas de ubicación | Almacén |
 | Directivas de ubicación | Código de directiva |
-| Directivas de ubicación | Varios SKU |
+| Directivas de ubicación | Alcance *o* SKU múltiple |
 | Líneas | Número de secuencia |
 | Líneas | Cantidad inicial |
 | Líneas | Cantidad final |
@@ -117,7 +131,9 @@ El panel de acciones de la página **Directivas de ubicación** contiene botones
 
 - **Ascender** - Mueva la directiva de ubicación seleccionada hacia arriba en la secuencia. Por ejemplo, puede moverlo del número de secuencia 4 al número de secuencia 3.
 - **Bajar** - Mueva la directiva de ubicación seleccionada hacia abajo en la secuencia. Por ejemplo, puede moverlo del número de secuencia 4 al número de secuencia 5.
+- **Copiar** – Abra un cuadro de diálogo donde puede crear una copia exacta de la directiva de ubicación actual.
 - **Editar consulta** - Abra un cuadro de diálogo donde puede definir las condiciones bajo las cuales se debe procesar la directiva de ubicación seleccionada. Por ejemplo, es posible que desee que se aplique solo a un almacén específico.
+- **Prueba de aceptacion** – Abra una página donde pueda configurar pruebas automatizadas para determinar cómo se comportarán sus directivas de ubicación en diferentes condiciones de inicio. De esta forma, puede validar rápidamente sus directivas a medida que las crea y las mantiene. Para obtener más información, vea [Probar directivas de ubicación con pruebas de aceptación](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Encabezado de directivas de ubicación
 
@@ -126,7 +142,7 @@ El encabezado de la directiva de ubicación incluye los siguientes campos para e
 - **Secuencia de números** - Este campo indica la secuencia en la que el sistema intenta aplicar cada directiva de ubicación para el tipo de orden de trabajo seleccionado. Los números bajos se aplican primero. Puede cambiar la secuencia utilizando los botones **Subir** y **Bajar** en el Panel de acciones.
 - **Nombre** - Especifique un nombre descriptivo para la directiva de ubicación. Este nombre debería ayudar a identificar el propósito general de la directiva. Por ejemplo, ingrese *Preparación de pedidos de venta en el almacén 24*.
 
-## <a name="location-directives-fasttab"></a>Ficha desplegable de directivas de ubicación
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Ficha desplegable de directivas de ubicación
 
 Los campos en la ficha desplegable **Directivas de ubicación** son específicos del tipo de orden de trabajo que se selecciona en el campo **Tipo de orden de trabajo** en el panel de lista.
 
@@ -145,7 +161,29 @@ Los campos en la ficha desplegable **Directivas de ubicación** son específicos
     > [!TIP]
     > Si se establece un código de directiva, el sistema no buscará las directivas de ubicación por número de secuencia cuando se debe generar el trabajo. En cambio, buscará por código de directiva. De esta manera, se puede ser más específico sobre la directiva de ubicación que se usa para un paso determinado en una plantilla de trabajo, como el paso de almacenamiento provisional de los materiales.
 
-- **Múltiples SKU** – Establezca esta opción en *Sí* para habilitar varias referencias de almacén (SKU) para usar en una ubicación. Por ejemplo, se deben habilitar varios SKU para la ubicación de la puerta de bahía. Si habilita varios SKU, su ubicación de colocación se especificará en el trabajo, como se esperaba. Sin embargo, la ubicación de colocación solo podrá manejar una colocación de varios elementos (si el trabajo incluye diferentes SKU que deben seleccionarse y colocarse). No podrá manejar una sola puesta de SKU. Si configura esta opción en *No*, su ubicación de colocación se especificará solo si su colocación tiene solo un tipo de SKU.
+- **Alcance** – Utilice esta opción para especificar los escenarios a los que se aplicará la directiva de ubicación. Esta opción reemplaza la opción **SKU múltiple** y está disponible sólo si la función *Ámbitos de directiva de ubicación* está activada en su sistema. (Para más información, vea [Activar o desactivar la característica de ámbitos de la directiva de ubicación](#scopes-feature)).
+
+    | Configuración del alcance | Pedido único con un artículo | Múltiples pedidos con el mismo artículo | Pedido único con varios artículos | Varios pedidos con varios artículos |
+    |---|---|---|---|---|
+    | Artículo único | Sí | Sí | N.º | N.º |
+    | Varios artículos | N.º | N.º | Sí | Sí |
+    | Un artículo o pedido | Sí | Sí | Sí | N.º |
+    | Todo | Sí | Sí | Sí | Sí |
+
+    La siguiente tabla describe cuándo están disponibles los ámbitos y si permiten la función **Editar consulta**.
+
+    | Ámbito | Tipo de trabajo compatible | Tipos de orden de trabajo admitidos | Permitir para editar consulta |
+    |---|---|---|---|
+    | Artículo único | Todo | Todo | Sí |
+    | Varios artículos | Todo | Todo | N.º |
+    | Un artículo o pedido | Colocaciones | Ubicación de coproductos y subproductos, ubicación de productos terminados, ubicación kanban, órdenes de compra, órdenes de calidad, reabastecimiento, órdenes de devolución, órdenes de venta, emisión de transferencia y recibo de transferencia | Sí |
+    | Todo | Colocaciones | Todo | N.º |
+
+    > [!NOTE]
+    > - Para realizar colocaciones tanto para artículos múltiples como para artículos únicos, debe asegurarse de que existan directivas de ubicación que cubran ambos escenarios. Por ejemplo, puede configurar una o más directivas de ubicación *Artículo único o pedido* para cubrir escenarios que requieren un ajuste fino (como a través de ediciones a la consulta), y luego uno o más directivas de ubicación *Todos* para cubrir los escenarios restantes.
+    > - A pesar de que los alcances *Objeto unico* y *Varios elementos* se pueden usar para puts, este enfoque generalmente conduce a configuraciones redundantes. Considere usar los alcances *Artículo único o pedido* y *Todos* en su lugar, porque este enfoque producirá una configuración más limpia.
+
+- **Varias SKU** – Utilice esta opción para especificar el escenario al que se aplicará la directiva de ubicación. Este ajuste es reemplazado por el ajuste **Alcance** si la función *Ámbitos de directiva de ubicación* está activada en su sistema. (Para más información, vea [Activar o desactivar la característica de ámbitos de la directiva de ubicación](#scopes-feature)). Establezca esta opción en *Sí* para habilitar el uso de múltiples unidades de almacenamiento (SKU) en una ubicación. Por ejemplo, se deben habilitar varios SKU para la ubicación de la puerta de bahía. Si habilita varios SKU, su ubicación de colocación se especificará en el trabajo, como se esperaba. Sin embargo, la ubicación de colocación solo podrá manejar una colocación de varios elementos (si el trabajo incluye diferentes SKU que deben seleccionarse y colocarse). No podrá manejar una sola puesta de SKU. Si configura esta opción en *No*, su ubicación de colocación se especificará solo si su colocación tiene solo un tipo de SKU.
 
     > [!IMPORTANT]
     > Para poder realizar colocaciones de varios elementos y de un solo SKU, debe especificar dos líneas que tengan la misma estructura y configuración, pero debe establecer la opción **Varios SKU** en *Sí* para una línea y *No* para la otra. Por lo tanto, para las operaciones de colocación, debe tener dos directivas de ubicación idénticas, aunque usted no distinga entre SKU únicas y SKU múltiples en el identificador de trabajo. A menudo, si no configura estas dos directivas de ubicación, las ubicaciones inesperadas de los procesos comerciales vendrán de la directiva de ubicación aplicada. Debe utilizar una configuración similar para las directivas de ubicación que tienen un **Tipo de trabajo** de *selección* si necesita procesar pedidos que incluyen varios SKU.
@@ -255,6 +293,5 @@ Tras crear las directivas de ubicación, puede asociar cada código de directiva
 
 - Vídeo: [Análisis profundo de la configuración de la gestión de almacenes](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Artículo de ayuda: [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

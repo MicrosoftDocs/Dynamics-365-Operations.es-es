@@ -4,23 +4,25 @@ description: Este artículo describe cómo configurar desvíos para los elemento
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428073"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689320"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurar desvíos para pasos en los elementos del menú del dispositivo móvil
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Las características que se describen en este artículo se aplican solo a la nueva aplicación móvil Warehouse Management. No afectan a la antigua aplicación de almacén, que ahora está obsoleta.
@@ -38,6 +40,7 @@ Antes de poder configurar desvíos para pasos en los elementos del menú del dis
 1. Active las siguientes funciones, que proporcionan la funcionalidad descrita en este artículo:
     - *Desvíos de la aplicación Warehouse Management*<br>(A partir de la versión 10.0.29 de Supply Chain Management, esta función está activada de forma predeterminada).
     - *Desvíos de varios niveles para la aplicación móvil Warehouse Management*
+    - *Enviar automáticamente pasos de desvío para la aplicación móvil Warehouse Management*
 1. Si la característica *Desvíos de la aplicación Warehouse Management* y/o *Desvíos multi nivel para la aplicación móvil Warehouse Management* no estaba ya activada, actualice los nombres de los campos en la aplicación móvil Warehouse Management yendo a **Warehouse Management \> Configuración \> Dispositivo móvil \> Nombres de campo de Warehouse Management** y seleccione **Crear configuración predeterminada**. Para más información, consulte [Configurar campos para la aplicación](configure-app-field-names-priorities-warehouse.md).
 1. Repita el paso anterior para cada entidad jurídica (empresa) en la que utilice la aplicación móvil Warehouse Management.
 
@@ -49,7 +52,7 @@ Utilice el siguiente procedimiento para configurar un desvío de una invalidaci�
 1. Busque la combinación de los valores de **Id. de paso** y **Nombre del elemento del menú** que desea editar y luego seleccione el valor en la columna **Id. de paso**.
 1. En la página que aparece, en la ficha desplegable **Desvíos disponibles (elementos del menú)**, puede especificar el elemento de menú que debe actuar como un desvío. También puede seleccionar qué valores de campo de la tarea principal deben enviarse automáticamente desde y hasta el desvío. Para ver ejemplos que muestran cómo usar esta configuración, consulte los escenarios más adelante en este artículo.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Escenario de ejemplo 1: selección de ventas donde una consulta de ubicación actúa como un desvío
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Escenario de ejemplo 1: selección de ventas donde una consulta de ubicación actúa como un desvío
 
 Este escenario muestra cómo configurar una consulta de ubicación como un desvío en un flujo de tareas de selección de ventas dirigido por el trabajador. Este desvío permitirá a los trabajadores buscar todas las matrículas de entidad en el lugar donde están recogiendo y seleccionando las placas de entidad que quieren usar para completar la selección. Este tipo de desvío puede resultar útil si el código de barras está dañado y, por lo tanto, el dispositivo de escáner no puede leerlo. Alternativamente, podría ser útil si un trabajador debe saber lo que realmente está disponible en el sistema. Tenga en cuenta que este escenario solo funciona si realiza la selección en ubicaciones controladas por matrículas.
 
@@ -74,11 +77,13 @@ En este procedimiento, configurará un desvío para el elemento del menú **Sele
 
     - **Copiar de Selección de ventas:** *Ubicación*
     - **Pegar en la consulta de ubicación:** *Ubicación*
+    - **Envío automático:** *Seleccionado* (la página se actualizará con el valor *Ubicación* pegado)
 
 1. Como el desvío en este escenario se configura en el paso de la matrícula de entidad, será útil si los trabajadores pueden llevar la matrícula de la consulta al flujo principal. Por lo tanto, en la sección **Recuperar desde solicitud de ubicación**, seleccione **Agregar** en la barra de herramientas para agregar una fila a la cuadrícula. Después, establezca los siguientes valores para la fila nueva:
 
     - **Copiar de la consulta de ubicación:** *Matrícula de entidad*
     - **Pegar en Selección de ventas:** *Matrícula de entidad*
+    - **Envío automático:** *Desactivado* (no se realizará ninguna actualización automática al regresar del desvío con un valor *Matrícula*)
 
 1. Seleccione **Aceptar**.
 
@@ -131,6 +136,7 @@ En este procedimiento, configurará un desvío para el elemento del menú **Sele
 
     - **Copiar desde la consulta de ubicación:** *Ubicación*
     - **Pegar en Movimiento**: *Ubicación / N.º licencia*
+    - **Envío automático:** *Desactivado* (no se producirá ninguna actualización automática)
 
     En este desvío, no espera que se vuelva a copiar ninguna información, porque el flujo principal era una consulta en la que no se requieren pasos adicionales.
 
@@ -153,3 +159,5 @@ En este procedimiento, llevará a cabo una consulta de ubicación mediante la ap
 
 > [!NOTE]
 > La característica *Desvíos de varios niveles para la aplicación móvil Warehouse Management* le permite definir desvíos de varios niveles (desvíos dentro de desvíos), lo que permitirá a los trabajadores saltar de un desvío existente dos por segundo y luego regresar. La función admite dos niveles de desvíos listos para usar y, si es necesario, puede personalizar su sistema para que admita tres o más niveles de desvíos mediante la creación de extensiones de código en la tabla `WHSWorkUserSessionState`.
+>
+> La característica *Pasos de desvío de envío automático para la aplicación móvil de gestión de almacenes* puede hacer que sea más rápido y fácil para los trabajadores completar los flujos de desvío en la aplicación móvil de gestión de almacenes. Permite omitir algunos pasos del flujo al permitir que la aplicación complete los datos de desvío en el back-end y luego avance automáticamente al siguiente paso al enviar automáticamente la página, como se muestra en [*Escenario de ejemplo 1: selección de ventas donde una consulta de ubicación actúa como un desvío*](#scenario-1).

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542303"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682678"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parámetros no utilizados por Optimización de planificación
 
@@ -111,10 +111,8 @@ Planning Optimization no utiliza los siguientes parámetros u opciones en la pá
 
 - Ficha desplegable **General**:
 
-  - **Incluir inventario disponible** - Pendiente compatibilidad con *Consumo de inventario disponible*.
   - **Reemplazar inventario disponible** - Pendiente compatibilidad con *Consumo de inventario disponible*.
   - **Consumir inventario disponible** - Pendiente compatibilidad con *Consumo de inventario disponible*.
-  - **Incluir transacciones de inventario** - Pendiente compatibilidad con *Consumo de inventario disponible*.
   - **Incluir cotizaciones de ventas** - Pendiente la compatibilidad con *Cotizaciones de venta*.
   - **Incluir solicitud de cotizaciones** - Pendiente la compatibilidad con *Solicitud de cotizaciones*.
   - **Utilice fechas de caducidad** - Pendiente la compatibilidad con *Duración*.
@@ -190,4 +188,3 @@ Optimización de planificación no utiliza el siguiente parámetro en la página
 
   - **Incluido como inventario** - Pendiente la compatibilidad con *Códigos de disposición de lotes*.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
+ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520852"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680018"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferencias entre la planificación maestra incorporada y Optimización de planificación
 
@@ -34,11 +34,12 @@ Los resultados de Optimización de planificación pueden diferir de los resultad
 | Pedidos de devolución | No se consideran los pedidos de devolución. |
 | Programación de características relacionadas | Para obtener más información, consulte [Programación con capacidad infinita ](infinite-capacity-planning.md#limitations). |
 | Cumplimiento de existencias de seguridad | La Optimización de planificación siempre utiliza la opción *Fecha de hoy + hora de adquisición* para el campo **Cumplir con el mínimo** en la página **Cobertura de artículos**. Esto ayuda a evitar pedidos planificados no deseados y otros problemas porque, si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen con inventario disponible siempre se retrasarán debido al tiempo inicial. |
-| Diagrama de árbol de existencias de seguridad y requisitos netos | El tipo de requisito *Stock de seguridad* no se incluye y no se muestra en la página **Requisitos netos**. El stock de seguridad no representa la demanda y no tiene una fecha de requisito asociada. En cambio, establece una restricción sobre la cantidad de inventario que debe estar presente en todo momento. Sin embargo, el valor de campo **Mínimo** se sigue teniendo en cuenta al calcular las órdenes planificadas durante la planificación maestra. Le sugerimos que inspeccione la columna **Cantidad acumulada** de la página **Requisitos netos** para ver cómo se consideró este valor. |
+| Diagrama de árbol de existencias de seguridad y requisitos netos | El tipo de requisito *Stock de seguridad* no se incluye y no se muestra en la página **Requisitos netos**. El stock de seguridad no representa la demanda y no tiene una fecha de requisito asociada. En cambio, establece una restricción sobre la cantidad de inventario que debe estar presente en todo momento. Sin embargo, el valor de campo **Mínimo** se sigue teniendo en cuenta al calcular las órdenes planificadas durante la planificación maestra. Le sugerimos que inspeccione la columna **Cantidad acumulada** de la página **Requisitos netos** para ver cómo se consideró este valor. Debido a que la vinculación es diferente, se pueden sugerir diferentes acciones. |
 | Calendarios de transporte | Se ignora el valor de la columna **Calendario de transporte** de la página **Modos de entrega**. |
 | Código de cobertura mínima/máxima sin valores| Con el motor de planificación integrado, cuando utiliza un código de cobertura mínimo/máximo en el que no se establecen valores mínimos ni máximos, el motor de planificación trata el código de cobertura como un requisito y crea un pedido para cada requisito. Con la optimización de la planificación, el sistema creará un pedido por día para cubrir el monto total de ese día.  |
 | Requisitos netos y pedidos previsionales creados manualmente | Con el motor de planificación incorporado, los pedidos de suministro creados manualmente para un artículo aparecen automáticamente entre los requisitos netos de ese artículo. Por ejemplo, al crear un pedido de compra a partir de un pedido de ventas, el pedido de ventas aparece en la página **Requisitos netos** sin necesidad de realizar ninguna acción previa. Esto se debe a que el motor de planificación integrado registra las transacciones de inventario en la tabla `inventLogTTS` y muestra los cambios en la página **Requisitos netos** para planes dinámicos. Sin embargo, con la Optimización de la planificación, los pedidos creados manualmente no aparecerán entre los requisitos netos de un artículo hasta que se ejecute la Optimización de la Planificación (usando un plan que incluya el artículo), o hasta que seleccione **Actualizar \> Planificacion maestra** en el Panel de Acciones en la página **Requisitos netos**, que ejecutará la planificación maestra para el artículo. Para obtener más información sobre cómo trabajar con la página **Requisitos netos**, consulte [Requisitos netos e información de diagrama de árbol con la Optimización de la Planificación](net-requirements.md). |
 | Asignación de recursos | Cuando se trabaja con capacidad infinita, el motor de planificación maestro integrado asigna todos los pedidos planificados al mismo recurso en un grupo de recursos determinado. La optimización de la planificación mejora esto al seleccionar recursos de manera aleatoria para que diferentes órdenes de producción puedan usar diferentes recursos. Si desea utilizar el mismo recurso para todos los pedidos planificados, debe especificar ese recurso en la ruta. |
+| Tipos de datos extendidos (EDT) | La optimización de la planificación no admite cambios en la precisión de los EDT. Por ejemplo, si amplía la precisión de la cantidad del producto de dos decimales (predeterminado) a cuatro, la Optimización de la planificación seguirá utilizando solo dos decimales. |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

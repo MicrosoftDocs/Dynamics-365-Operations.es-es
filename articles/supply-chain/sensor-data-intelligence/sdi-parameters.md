@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 4a6665cc078e54da4ebb7920ec8826352ab7a816
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5240537e3a6526ceb35253b9e68f46b1753c6a37
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428435"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689383"
 ---
 # <a name="sensor-data-intelligence-parameters"></a>Parámetros de Sensor Data Intelligence
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 La página **Parámetros de Sensor Data Intelligence** proporciona algunas configuraciones que puede usar para configurar la función. Esta configuración incluye parámetros de conexión de Azure y un parámetro para la duración de los mensajes de alerta que se envían a los usuarios en respuesta a las mediciones del sensor.
 

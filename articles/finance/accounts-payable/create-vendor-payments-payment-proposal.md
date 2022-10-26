@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845385"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682888"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
@@ -111,7 +111,7 @@ El control de dimensión permite controlar la agrupación de líneas generadas p
 -   El campo de **Control de dimensión** se activa sin definir más las dimensiones. La propuesta de pago se creará sin tener en cuenta las dimensiones. La transacción creada no hereda ninguna dimensión de la entrada aplicada.
 -   El campo **Control de dimensión** se activa y se habilitan más dimensiones. Ahora puede definir cómo se copiarán las dimensiones en el diario. Por ejemplo: • Active la casilla de verificación de **BusinessUnit** para crear una propuesta de pago por unidad de negocio para el método de pago, • Active la casilla de verificación de **CostCenter** para crear una propuesta de pago por centro de coste para el método de pago.
 
-> [[!NOTE]
+>[!NOTE]
 > Si selecciona más de una dimensión, en la tercera opción se creará una propuesta de pago para la combinación de dimensiones.
 
 #### <a name="bank-account-selection"></a>Selección de cuenta bancaria

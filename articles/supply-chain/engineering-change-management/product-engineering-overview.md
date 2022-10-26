@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334877"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682516"
 ---
 # <a name="engineering-change-management-overview"></a>Información general de la gestión de cambios de ingeniería
 
@@ -73,6 +73,9 @@ Luego, active las claves de configuración siguiendo estos pasos. No están acti
 1. La base de datos debe sincronizarse para asegurarse de que las claves de configuración se han actualizado correctamente para reflejar los cambios. Realice uno de los siguientes pasos, según el tipo de entorno en el que esté trabajando:
     - **Para entornos de nivel 1 (desarrollo)**: abra su proyecto en Microsoft Visual Studio y luego seleccione **Dynamics 365 \> Sincronizar base de datos \> Sincronizar**.
     - **Para entornos de nivel 2 (y superiores)**: la base de datos se sincroniza automáticamente después de activar y desactivar el modo de mantenimiento del entorno, por lo que puede omitir este paso.
+
+> [!NOTE]
+> Para utilizar la gestión de cambios de ingeniería, tanto la secuencia numérica de la L. MAT como la secuencia numérica de la fórmula (si utiliza fórmulas) deben establecerse en *Automático* sobre la página **Secuencias numéricas**.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Active las funciones de gestión de cambios de ingeniería adicionales
 

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186747"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689498"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Visión general de la planificación de requisitos de materiales basada en la demanda (DDMRP)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Durante años, las empresas han utilizado la planificación de requisitos de materiales (MRP) como sistema para calcular los materiales y los componentes necesarios para fabricar un producto. Sin embargo, las cadenas de suministro ahora han cambiado. Las piezas tienen plazos de entrega más largos porque se obtienen cada vez más del extranjero. Por tanto, muchas empresas han informado que experimentan agotamiento o exceso de existencias, porque no saben cuánto inventario almacenar. También hay más fluctuaciones en el mercado (a veces previsiones imprecisas) y los clientes demandan productos en plazos cortos. Por tanto, hay escasez en la cadena de suministro en todo el mundo. Además, las herramientas de MRP a menudo dan a los planificadores miles de acciones para realizar. Por tanto, es difícil saber en qué centrarse. A menudo, la solución a muchos de estos problemas es cambiar a la planificación de requisitos de materiales basada en la demanda (DDMRP).
 

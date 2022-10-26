@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429133"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689202"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Versión preliminar de Dynamics 365 Supply Chain Management 10.0.30 (noviembre de 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.30 (noviembre de 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión preliminar 10.0.30. Esta versión tiene el número de compilación 10.0.1362 y está disponible con la siguiente programación:
+En este artículo se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión 10.0.30. Esta versión tiene el número de compilación 10.0.1362 y está disponible con la siguiente programación:
 
 - **Versión preliminar:** septiembre de 2022
 - **Disponibilidad general de la versión (actualización automática):** octubre de 2022
@@ -35,7 +34,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
 | Fabricación | [Supervisar equipos con Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Página de inicio del sensor de Data Intelligence](../sensor-data-intelligence/sdi-home-page.md) | Administración de características:<br>*(Versión preliminar) Inteligencia de datos de sensor* |
-| Gestión de almacenes | Desvíos de varios niveles para la aplicación móvil Warehouse Management <!-- KFM: Add link when RP updates --> | [Configurar desvíos para pasos en los elementos del menú del dispositivo móvil](../warehousing/warehouse-app-detours.md) | Administración de características:<br>*Desvíos de varios niveles para la aplicación móvil Warehouse Management* |
+| Gestión de almacenes | [Desvíos de varios niveles para la aplicación móvil Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Configurar desvíos para pasos en los elementos del menú del dispositivo móvil](../warehousing/warehouse-app-detours.md) | Administración de características:<br>*Desvíos de varios niveles para la aplicación móvil Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Mejoras de características incluidas en esta versión
 
@@ -52,7 +51,7 @@ Si desea activar o desactivar alguna de estas funciones, debe hacerlo en [gesti�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform update para aplicaciones de Finanzas y Operaciones
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.30 de aplicaciones de Finanzas y Operaciones (noviembre de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.30 de aplicaciones de Finanzas y Operaciones (noviembre de 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 

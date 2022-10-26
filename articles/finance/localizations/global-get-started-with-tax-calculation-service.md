@@ -2,7 +2,7 @@
 title: Introducción al cálculo de impuestos
 description: Este artículo explica cómo configurar el cálculo de impuestos.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573315"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690393"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introducción al cálculo de impuestos
 
@@ -124,6 +124,10 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
 7. Vaya a **Modelo de datos fiscales**, expanda el árbol de archivos y luego seleccione **Configuración fiscal**.
 8. Seleccione la [versión de configuración de impuestos](global-tax-calcuation-service-overview.md#versions) correcta, según su versión de Finance, y después seleccione **Importar**.
 9. En el espacio de trabajo **Características de globalización**, seleccione **Características**, elija el icono **Cálculo de impuestos** y finalmente **Agregar**.
+
+    > [!NOTE]
+    > En la versión 10.0.26 y posteriores, puede importar una función de demostración para la entidad jurídica **DEMF** de demostración. Para obtener más información, consulte [Importar datos de demostración de característica](tax-calculation-import-export-feature.md).
+
 10. Seleccione uno de los siguientes tipos de característica:
 
     - **Nueva caracteristica**: cree una configuración de característica con el contenido en blanco.
@@ -154,8 +158,8 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     - **Aplicabilidad del número de registro de impuestos del proveedor**: si tiene varios números de registro de impuestos para un proveedor, Cálculo de impuestos puede determinar automáticamente el número de registro de impuestos correcto. En la matriz de esta pestaña, defina las reglas que se deben utilizar para tomar la decisión. De lo contrario, Finance y Supply Chain Management continuarán usando el número de registro de impuestos predeterminado en los documentos imponibles para las transacciones de compras.
     - **Aplicabilidad del código de lista**: determinar automáticamente el valor del campo **Código de lista** mediante reglas más flexibles y configurables. En la matriz de esta pestaña, defina las reglas que se deben utilizar para tomar la decisión. De lo contrario, Finance y Supply Chain Management continuarán usando el código predeterminado en los documentos imponibles para las transacciones de ventas.
 
-14. En la pestaña **Códigos de impuestos**, seleccione **Agregar** e introduzca el código de impuestos y una descripción.
-15. Seleccione **Componente de impuestos**. El componente de impuestos es un grupo de métodos de cálculo de impuestos que se definieron en la versión anterior de la configuración de impuestos seleccionada. Están disponibles los siguientes componentes de impuestos:
+15. En la pestaña **Códigos de impuestos**, seleccione **Agregar** e introduzca el código de impuestos y una descripción.
+16. Seleccione **Componente de impuestos**. El componente de impuestos es un grupo de métodos de cálculo de impuestos que se definieron en la versión anterior de la configuración de impuestos seleccionada. Están disponibles los siguientes componentes de impuestos:
 
     - Por importe neto
     - Por importe bruto
@@ -163,8 +167,8 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     - Por margen
     - Impuesto sobre impuesto
 
-16. Seleccione **Guardar**. Hay más campos disponibles, según el componente de impuestos que haya seleccionado.
-17. Utilice las siguientes opciones para identificar la naturaleza del código fiscal:
+17. Seleccione **Guardar**. Hay más campos disponibles, según el componente de impuestos que haya seleccionado.
+18. Utilice las siguientes opciones para identificar la naturaleza del código fiscal:
 
     - Está exento
     - Es IVA de importación
@@ -179,8 +183,8 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
 
     Mantenga los tipos impositivos y los límites de importe impositivo para este código impositivo.
 
-18. Repita los pasos del 14 al 17 para agregar el resto de códigos de impuesto necesarios.
-19. En la pestaña **Grupo de impuestos**, seleccione la columna **Grupo de impuestos**, agréguela a la matriz como condición de entrada y luego agregue líneas para mantener los datos maestros del grupo de impuestos.
+19. Repita los pasos del 15 al 18 para agregar el resto de códigos de impuesto necesarios.
+20. En la pestaña **Grupo de impuestos**, seleccione la columna **Grupo de impuestos**, agréguela a la matriz como condición de entrada y luego agregue líneas para mantener los datos maestros del grupo de impuestos.
 
     He aquí un ejemplo.
 
@@ -191,7 +195,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_UE       | BEL_Exento          |
 
-20. En la pestaña **Grupo de impuestos de artículos**, seleccione la columna **Grupo de impuestos de artículos**, agréguela a la matriz como condición de entrada y luego agregue líneas para mantener los datos maestros del grupo de impuestos de artículos.
+21. En la pestaña **Grupo de impuestos de artículos**, seleccione la columna **Grupo de impuestos de artículos**, agréguela a la matriz como condición de entrada y luego agregue líneas para mantener los datos maestros del grupo de impuestos de artículos.
 
     He aquí un ejemplo.
 
@@ -200,7 +204,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     | Completa           | DEU_VAT19; BEL_VAT21; DEU_Exento; BEL_Exento |
     | Reducido        | DEU_VAT7; BEL_VAT6; DEU_Exento; BEL_Exento   |
 
-21. En la pestaña **Aplicabilidad del grupo de impuestos**, seleccione las columnas necesarias para determinar el grupo de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos en la línea de transacción.
+22. En la pestaña **Aplicabilidad del grupo de impuestos**, seleccione las columnas necesarias para determinar el grupo de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos en la línea de transacción.
 
     He aquí un ejemplo.
 
@@ -214,7 +218,7 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
     > [!NOTE]
     > Si el grupo de impuestos sobre las ventas predeterminado en las líneas del documento imponible es correcto, deje esta matriz en blanco. Para obtener más información, consulte la sección [Diseño de runtime](#runtime) de este artículo.
 
-22. En la pestaña **Aplicabilidad del grupo de impuestos de artículos**, seleccione las columnas necesarias para determinar el código de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos de artículos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos de artículos en la línea de transacción.
+23. En la pestaña **Aplicabilidad del grupo de impuestos de artículos**, seleccione las columnas necesarias para determinar el código de impuestos correcto y, a continuación, seleccione **Agregar**. Introduzca o seleccione valores para cada columna. El campo **Grupo de impuestos de artículos** será la salida de esta matriz. Si esta pestaña no está configurada, se utilizará el grupo de impuestos de artículos en la línea de transacción.
 
     He aquí un ejemplo.
 
@@ -228,10 +232,10 @@ Los pasos de esta sección no están relacionados con una entidad jurídica espe
 
     Para obtener más información sobre cómo se determinan los códigos de impuestos en Cálculo de impuestos, consulte [Lógica de determinación del grupo de impuestos y el grupo de impuestos de artículos](global-sales-tax-group-determination.md).
 
-23. Configure la aplicabilidad de los números de registro de impuestos de clientes, los números de registro de impuestos de proveedores y los códigos de lista según las necesidades de su negocio.
-24. Haga clic en **Guardar** y, a continuación, cierre la página.
-25. Seleccione **Cambiar estado** \> **Completada**. Una vez que el estado cambia a **Completo**, la versión ya no se puede editar.
-26. Seleccione **Cambiar estado** \> **Publicar**. Esta versión de la configuración de la característica de impuestos se enviará al repositorio global y será visible para cada entidad legal en Finance.
+24. Configure la aplicabilidad de los números de registro de impuestos de clientes, los números de registro de impuestos de proveedores y los códigos de lista según las necesidades de su negocio.
+25. Haga clic en **Guardar** y, a continuación, cierre la página.
+26. Seleccione **Cambiar estado** \> **Completada**. Una vez que el estado cambia a **Completo**, la versión ya no se puede editar.
+27. Seleccione **Cambiar estado** \> **Publicar**. Esta versión de la configuración de la característica de impuestos se enviará al repositorio global y será visible para cada entidad legal en Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Configurar Cálculo de impuestos en Dynamics 365
 

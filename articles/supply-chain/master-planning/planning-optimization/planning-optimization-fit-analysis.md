@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643750"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690004"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
@@ -62,7 +62,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | --- | --- | --- | --- |
 | Acciones | Grupos de cobertura con el cálculo de acciones habilitado: *\#* | Esta característica ahora se admite. | Compatible |
 | Calendarios base | Calendarios que usan el calendario base: *\#* | Esta característica ahora se admite. | Compatible | 
-| Códigos de disposición de lote | Maestros de disposición de lote no incluidos: *\#* | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Códigos de disposición de lote | Maestros de disposición de lote no incluidos: *\#* | Esta característica ahora se admite. Para más información, consulte [Use códigos de disposición de lotes para marcar lotes como disponibles o no disponibles](../../inventory/batch-disposition-codes.md) | Compatible |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: *\#* | En Supply Chain Management 10.0.28 y posteriores, un proceso llamado *CTP para Optimización de planificación* hace que las fechas confirmadas de envío y recepción estén disponibles después de que se haya ejecutado el plan dinámico. Para versiones anteriores de Supply Chain Management, la configuración de CTP heredada se ignora cuando se habilita Optimización de la planificación. | Compatible |
 | Copia estática en plan dinámico | La copia de plan estático a dinámico está habilitada en los parámetros de planificación maestra. | La optimización de la planificación no copia el plan estático en el plan dinámico, independientemente de esta configuración. En general, este concepto es menos relevante debido a la velocidad y la regeneración completa que proporciona la optimización de planificación. Si se utilizan dos o más planes, se debe activar la planificación maestra para cada plan. | N/A |
 | Puesta en firme | Grupos de cobertura con límite de tiempo de puesta en firme automática establecido: *\#* | En la versión 10.0.7 y posteriores, la puesta en firme se admite como un trabajo por lotes de puesta en firme independiente después de completar la planificación maestra (siempre que *Puesta en firme automática para la optimización de la planificación* se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la puesta en firme de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de puesta en firme. | Compatible |
@@ -104,11 +104,11 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Márgenes de seguridad | Planes maestros con margen de seguridad: *\#* | Esta característica ahora se admite. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) |  Compatible |
 | Cumplimiento de existencias de seguridad | Registros de cobertura de artículos con "Cumplimiento mínimo" diferente de "Fecha de hoy + tiempo de adquisición": *\#* | La optimización de la planificación siempre utiliza *Fecha de hoy + tiempo de adquisición*. Este cambio se realiza para prepararse para una configuración de planificación simplificada en el futuro y para proporcionar un resultado procesable. Si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen para el inventario disponible bajo actual siempre se retrasarán debido al tiempo de entrega. Este comportamiento puede causar ruido significativo y órdenes planificadas no deseadas. La mejor práctica es cambiar la configuración para que se use *Fecha de hoy + tiempo de adquisición*. Actualice los datos maestros para evitar advertencias. | N/D |
 | Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: *\#* | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 o posterior |
-| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica ahora se admite. | Compatible |
+| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica está pendiente. | Segundo lanzamiento de versiones de 2022 |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la optimización de la planificación](planning-optimization-overview.md)
+[Información general de la optimización de la planificación](planning-optimization-overview.md)
 
 [Introducción a Optimización de planificación](get-started.md)
 

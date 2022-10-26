@@ -2,7 +2,7 @@
 title: Cálculos de impuestos de importación y exportación
 description: Este artículo proporciona información sobre la funcionalidad de importación y exportación del servicio de cálculo de impuestos.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855184"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690243"
 ---
 # <a name="import-and-export-tax-calculations"></a>Cálculos de impuestos de importación y exportación
 
@@ -98,3 +98,21 @@ La hoja de cálculo de Excel que descargó contiene la estructura de la cuadríc
 2. En RCS, en la página de características de **Cálculo de impuestos**, en la pestaña **Aplicabilidad del grupo de impuestos**, seleccione **Agregar** para insertar un registro vacío en la parte inferior de la cuadrícula **Configurar aplicabilidad del grupo de impuestos**.
 3. Seleccione **Ctrl + V** para pegar las filas copiadas en la cuadrícula.
 4. Seleccione **Guardar**.
+
+## <a name="import-feature-demo-data"></a>Importar datos de demostración de funciones
+
+Siga estos pasos para importar datos de demostración de funciones.
+
+1. Inicie sesión en [RCS](https://marketing.configure.global.dynamics.com/).
+2. En el espacio de trabajo **Características de globalización**, seleccione **Características** y, a continuación, seleccione el icono **Cálculo de impuestos**.
+3. Seleccione **Importar**, y luego, en la página **Importar función desde el repositorio global**, seleccione **Sincronizar**. 
+4. En la tabla, seleccione la función **tax-calculation-feature-demo-data** y, a continuación, seleccione **Importar**.
+5. Seleccione **Vista** para revisar los códigos de impuestos, los grupos y las reglas de aplicabilidad que se definen en la función importada.
+6. En Finanzas, cambie a la entidad legal **DEMF** y luego vaya a **Impuesto** \> **Configuración** \> **Configuración de impuestos** \> **Parámetros de cálculo de impuestos**.
+7. En la pestaña **General**, seleccione **Habilitar servicio de cálculo de impuestos**.
+8. En el campo **Nombre de configuración de funciones**, seleccione **tax-calculation-feature-demo-data**.
+9. Seleccione un **Periodo de asentamiento** y un **Grupo de registro contable** para los nuevos códigos de impuestos de demostración y, a continuación, seleccione **Confirmar**.
+10. Seleccione **Guardar**.
+
+> [!NOTE]
+> La función de demostración **tax-calculation-feature-demo-data** se basa en la versión de la función **40.54.234** y se ha diseñado para la entidad legal de demostración **DEMF**. Asegúrese de que Finance y RCS estén actualizados a la versión 10.0.26 o posterior.

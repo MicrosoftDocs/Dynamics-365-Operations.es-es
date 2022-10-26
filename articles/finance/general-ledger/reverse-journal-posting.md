@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284863"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680394"
 ---
 # <a name="reverse-journal-posting"></a>Revertir diario de registro
 
@@ -37,7 +37,7 @@ Antes de poder usar una de las funciones que se describen en este artículo, deb
 Puede invertir las líneas de diario de forma individual. Con el registro de invertir diario, también puede invertir un diario financiero completo. Para invertir un diario: 
 
 - Filtre las revistas publicadas y abra la vista **Líneas** en la revista.
-- Haga clic en el menú **Invertir** en la parte superior de la página.
+- Seleccione el menú **Invertir el diario completo** en la parte superior de la página.
 - Verá el número total de asientos y las líneas de asiento junto con el importe total de las líneas que son invertidas.
 - Seleccione **Sí** para usar las fechas de transacción actuales o **No** para introducir una nueva. En algunos casos, el período de la transacción original puede estar cerrado y usted tiene que especificar una nueva fecha de transacción para la inversión.
 - Si selecciona **No**, especifique una fecha de transacción para la inversión. 

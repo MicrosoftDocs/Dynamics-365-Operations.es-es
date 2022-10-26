@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266493"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689350"
 ---
 # <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Hacer que los bienes terminados estén disponibles físicamente antes de registrarlos en los diarios
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Cuando un trabajador informa que un artículo fabricado está terminado, el sistema lo registra como disponible para su posterior procesamiento físico (como envío o almacenamiento). Durante este proceso, también se contabilizan uno o más diarios (como el informe como diario terminado, diario de lista de selección y diario de tarjeta de ruta). Si desea que sus artículos estén físicamente disponibles antes de que se hayan procesado todas las contabilizaciones, puede configurar el sistema para diferir las contabilizaciones del diario. Luego, las publicaciones diferidas son administradas por un trabajo por lotes que procesará las publicaciones según lo permitan los recursos del sistema.
 

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186742"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689548"
 ---
 # <a name="inventory-positioning"></a>Posicionamiento de inventario
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 El posicionamiento estratégico del inventario implica identificar puntos de desacoplo en su cadena de suministro, donde puede acumular inventario disponible. Este enfoque se utiliza principalmente para ayudar a reducir los plazos de entrega y absorber los impactos en su cadena de suministro. Le permite mitigar el "efecto látigo", porque la variabilidad de la demanda no se transmite a lo largo de la cadena de suministro. (El *efecto látigo* se refiere a cómo las pequeñas fluctuaciones en la demanda a nivel minorista pueden causar fluctuaciones progresivamente mayores en la demanda a nivel mayorista, distribuidor, fabricante y proveedor de materias primas).
 

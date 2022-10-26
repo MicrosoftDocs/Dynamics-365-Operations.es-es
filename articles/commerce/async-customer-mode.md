@@ -2,19 +2,19 @@
 title: Modo de creación de clientes asincrónico
 description: Este artículo describe el modo de creación de clientes asincrónico en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473716"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690299"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Modo de creación de clientes asincrónico
 
@@ -46,6 +46,7 @@ Para ayudar a las organizaciones a usar el modo de creación de clientes asíncr
 | Habilite la paridad entre la creación de clientes sincrónicos y asincrónicos. | 10.0.24 y posteriores | <p>Conmutador de características: **Habilite la creación mejorada de clientes asincrónicos**</p><p>Detalles de la función: capacidad de capturar información adicional, como el título, las afiliaciones del cliente predeterminado y la información de contacto secundaria (número de teléfono y dirección de correo electrónico), mientras crea clientes de forma asíncrona</p> |
 | Mensajes de error fáciles de usar | 10.0.28 y posteriores | Estas mejoras ayudan a mejorar los mensajes de error fáciles de usar si un usuario no puede editar información inmediatamente mientras la sincronización está en proceso. Usted habilita estas mejoras usando el ajuste **Permitir que ciertos elementos de la interfaz de usuario no puedan ser modificados por un cliente asíncrono** en **Configuración del sitio \> Extensiones** en el creador de sitios de Commerce. |
 | Capacidad para editar la información del cliente de forma asíncrona | 10.0.29 y posteriores | <p>Conmutador de características: **Habilitar la edición de clientes en modo asincrónico**</p><p>Detalles de la función: capacidad para editar datos de clientes de forma asíncrona</p><p>Para obtener respuestas a preguntas comunes sobre problemas relacionados con la edición asincrónica de la información del cliente, consulte [Preguntas frecuentes sobre el modo de creación de clientes asíncrono](async-customer-mode-faq.md).</p> |
+| Capacidad de auditar la sincronización de operaciones de gestión de clientes | 10.0.31 y posteriores | Esta mejora permite a los usuarios auditar la sincronización de las operaciones de gestión de clientes en la Commerce headquarters. También permite a los usuarios realizar cambios si son necesarios y sincronizar los datos. |
 
 ### <a name="feature-switch-hierarchy"></a>Jerarquía de conmutador de características
 

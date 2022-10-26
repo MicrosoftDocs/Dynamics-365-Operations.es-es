@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722699"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682917"
 ---
 # <a name="post-with-derived-books"></a>Registro con los libros derivados
 
@@ -34,7 +34,7 @@ Al registrar transacciones para un libro que contiene libros derivados, las tran
 -   También se pueden aplicar otros valores para el tipo de transacción. Por ejemplo, si el libro principal de los libros derivados tiene los mismos intervalos en relación con la venta o cancelación, todos los tipos de transacción de activos fijos están disponibles para la configuración de un libro derivado.
 
 > [!WARNING]
-> La depreciación registrada en el libro derivado será del mismo importe que se registró para el libro principal. Si los métodos de depreciación son distintos entre los libros, no debe generar transacciones de depreciación mediante el proceso derivado. |
+> La depreciación registrada en el libro derivado será del mismo importe que se registró para el libro principal. Si los métodos de depreciación son distintos entre los libros, no debe generar transacciones de depreciación mediante el proceso derivado. 
 
 ## <a name="example"></a>Ejemplo 
 La siguiente información describe cómo configurar las transacciones de adquisición con la función del libro derivado.

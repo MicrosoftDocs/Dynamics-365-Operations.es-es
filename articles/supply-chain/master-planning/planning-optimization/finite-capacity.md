@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573142"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689703"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Planificación y programación de la capacidad finita
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 La capacidad finita es un enfoque que le ayuda a comprender cuánto trabajo se puede producir durante un período específico cuando se tienen en cuenta las limitaciones de los diferentes recursos. El propósito de la programación de capacidad finita es garantizar que el trabajo avance a un ritmo uniforme y eficiente en toda la planta.
 
