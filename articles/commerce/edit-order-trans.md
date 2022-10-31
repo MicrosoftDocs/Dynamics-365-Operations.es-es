@@ -2,7 +2,7 @@
 title: Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
 description: En este artículo se describe cómo editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea en Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287689"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712120"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar y auditar transacciones de pedidos de cliente asincrónicas y pedidos en línea
 
@@ -34,12 +34,13 @@ Entre las versiones 10.0.5 y 10.0.6 de Commerce, se agregó soporte para editar 
 
 ## <a name="edit-and-audit-order-transactions"></a>Editar y auditar transacciones de pedidos
 
-Para editar y auditar transacciones de pedidos en la sede central de Commerce, siga estos pasos.
+Para editar y auditar transacciones de pedidos en Commerce headquarters, siga estos pasos.
 
 1. Instale el [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. En la página **Parámetros comerciales**, en la pestaña **Pedidos de cliente**, en la ficha desplegable **Pedido**, especifique un código de retención para **Código de retención para errores de sincronización de pedidos**.
-1. Abra el espacio de trabajo **Operaciones financieras de tienda**. Las ventanas **Errores de sincronización de pedidos en línea** y **Errores de sincronización de pedidos de cliente** ofrecen una vista prefiltrada de la página de transacciones minoristas. Cada una muestra los registros de transacciones con error en la sincronización para el tipo de pedido correspondiente.
-1. Abra las páginas **Errores de sincronización de pedidos en línea** o **Errores de sincronización de pedidos de cliente**. Seleccione un registro para ver los detalles del error de sincronización. La ficha desplegable **Estado de sincronización** ofrece los siguientes detalles de error:
+1. En la página **Parámetros de Commerce**, en la pestaña **Pedidos de cliente**, en la ficha desplegable **Pedido**, especifique un código de retención para **Código de retención para errores de sincronización de pedidos**.
+2. Pause los demás trabajos de sincronización de pedidos que entren en conflicto con el momento de edición y auditoría de las transacciones.
+3. Abra el espacio de trabajo **Operaciones financieras de tienda**. Las ventanas **Errores de sincronización de pedidos en línea** y **Errores de sincronización de pedido de cliente** ofrecen una vista prefiltrada de la página de transacciones minoristas. Cada una muestra los registros de transacciones con error en la sincronización para el tipo de pedido correspondiente.
+4. Abra las páginas **Errores de sincronización de pedidos en línea** o **Errores de sincronización de pedidos de cliente**. Seleccione un registro para ver los detalles del error de sincronización. La ficha desplegable **Estado de sincronización** ofrece los siguientes detalles de error:
 
     - Estado del pedido pendiente
     - Detalles de errores del pedido
@@ -67,7 +68,15 @@ Para editar y auditar transacciones de pedidos en la sede central de Commerce, s
 
 1. En el archivo de Excel, en el campo **Estado de pedido pendiente**, introduzca **Edición** y luego publique el cambio. De esta forma, evita que el trabajo **Sincronizar pedido** que se está ejecutando en el modo por lotes omita este registro durante el procesamiento.
 1. En el archivo de Excel, modifique los campos adecuados y, a continuación, cargue los datos de nuevo en la sede central de Commerce usando la funcionalidad de publicación del complemento de Excel de Dynamics. Una vez se han publicado los datos, los cambios se reflejarán en el sistema. Durante la publicación, no se realiza ninguna validación para los cambios que hagan los usuarios.
-1. Para ver una traza de auditoría completa de los cambios, seleccione **Ver traza de auditoría** en el encabezado **Transacción comercial** para los cambios de nivel de encabezado y en la sección y el registro pertinentes de la página de transacción adecuada. Por ejemplo, todos los cambios relacionados con las líneas de ventas se mostrarán en la página **Transacciones de ventas**, y todos los cambios relacionados con los pagos se mostrarán en la página **Transacciones de pago**. Se mantienen los siguientes detalles de auditoría para los cambios:
+    > [!NOTE]
+    > Si no encuentra el campo que quiere editar, siga los pasos que indicamos a continuación para agregar el campo que falta en la hoja de cálculo.
+    >   1. Seleccione **Diseño** en el Conector de datos.
+    >   1. Seleccione el icono de lápiz que está junto a la tabla en la que desea agregar un campo.
+    >   1. Seleccione el campo en la sección **Campos disponibles** y luego seleccione **Agregar**.
+    >   1. Agregue tantos campos como necesite y luego seleccione **Actualizar**.
+    >   1. Cuando se complete la actualización, es posible que deba seleccionar **Actualizar** para actualizar los valores.
+
+3. Para ver una traza de auditoría completa de los cambios, seleccione **Ver traza de auditoría** en el encabezado **Transacción comercial** para los cambios de nivel de encabezado y en la sección y el registro pertinentes de la página de transacción adecuada. Por ejemplo, todos los cambios relacionados con las líneas de ventas se mostrarán en la página **Transacciones de ventas**, y todos los cambios relacionados con los pagos se mostrarán en la página **Transacciones de pago**. Se mantienen los siguientes detalles de auditoría para los cambios:
 
     - Fecha y hora de modificación
     - Campo

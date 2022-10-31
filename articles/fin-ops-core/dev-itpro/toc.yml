@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Actualizaciones de la plataforma para la versión 10.0.29 (octubre de 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Actualizaciones de la plataforma para la versión 10.0.28 (agosto de 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Características quitadas o en desuso
               items:
-                - name: Página de inicio de características quitadas o en desuso
+                - name: Página principal de características quitadas o en desuso
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Características de Platform quitadas o en desuso
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -1605,7 +1603,11 @@
             - name: Informe de códigos de licencia y claves de configuración
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Uso compartido de datos entre empresas
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Tablas admitidas para compartir datos
+              href: sysadmin/drs-srs-tables.md
+            - name: Uso compartido de datos para desarrolladores
+              href: sysadmin/drs-srs-dev.md
             - name: Modo de mantenimiento
               href: sysadmin/maintenance-mode.md
             - name: Cuentas del sistema preconfiguradas

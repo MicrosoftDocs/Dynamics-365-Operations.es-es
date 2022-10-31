@@ -12,7 +12,7 @@
               items:
                 - name: Novedades y cambios de la página principal de Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (febrero de 2022)
+                - name: Supply Chain Management 10.0.31 (febrero de 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (noviembre de 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -20,7 +20,7 @@
                   href: get-started/whats-new-scm-10-0-29.md
             - name: Características quitadas o en desuso
               items:
-                - name: Página de inicio de características quitadas o en desuso
+                - name: Página principal de características quitadas o en desuso
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/supply-chain
                 - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
                   href: get-started/removed-deprecated-features-scm-updates.md
@@ -3239,13 +3239,15 @@
               href: transportation/transportation-management-engines.md
             - name: Crear un nuevo motor de administración de transporte
               href: transportation/create-new-transportation-management-engine.md
-            - name: Asociación de un índice de combustible con un transportista como cargo adicional
+            - name: Asociar un índice de combustible con un transportista como cargo adicional
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: Certificación de origen USMCA
               href: transportation/usmca-certification-of-origin.md
+            - name: Facturas comerciales
+              href: transportation/commercial-invoice.md
             - name: Crear un conocimiento de embarque
               href: transportation/create-bill-of-lading.md
-            - name: Planificación de rutas de transporte de flete
+            - name: Planificar rutas de transporte de flete
               href: transportation/plan-freight-transportation-routes-multiple-stops.md
             - name: Planificar cargas mediante la consolidación de concentrador
               items:
@@ -3431,11 +3433,17 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiales y cuotas de embalaje
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: Embalar contenedores para envío
+                    - name: Contenedores de embalaje para envíos
                       href: warehousing/packing-containers.md
+                    - name: Imprimir etiquetas de contenedores
+                      href: warehousing/print-container-labels.md
                     - name: Trabajo de embalaje para empaquetar contenedores de salida y procesar envíos
                       href: warehousing/packing-work.md
-                    - name: Configuración de la reasignación de artículos para la selección corta
+                    - name: Contenedores de embalaje con la aplicación móvil Warehouse Management
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 'Escenario de ejemplo: contenedores de embalaje con la aplicación móvil Warehouse Management'
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
+                    - name: Configurar la reasignación de artículos para la selección corta
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Secuenciación del trabajo dirigida por el sistema
                       href: warehousing/system-directed-work-sequencing.md
@@ -3687,11 +3695,11 @@
                       href: warehousing/tasks/set-up-dispositions-codes.md
                     - name: Directivas de unidad de medida y de existencias
                       href: warehousing/unit-measure-stocking-policies.md
-                    - name: Contenido Power BI de almacén
+                    - name: Contenido de Power BI sobre almacén
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                    - name: Agrupamiento del sistema en una lista de trabajos abierta
+                    - name: Agrupación del sistema en una lista de trabajo abierta
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Diseño de enrutamiento de documentos para etiquetas de matrículas
+                    - name: Diseños de etiquetas de ruta de documentos
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: Códigos de barras GS1 y códigos QR
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a finanzas y operaciones
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Telemetría de almacenamiento
+              items:
+                - name: Habilitar la telemetría de almacenamiento con Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: Supervisar el uso y el rendimiento de los dispositivos móviles
+                  href: warehousing/application-insights-wma.md
         - name: Desarrollo de Supply Chain Management
           items:
             - name: Guía de desarrollo de control de Gantt

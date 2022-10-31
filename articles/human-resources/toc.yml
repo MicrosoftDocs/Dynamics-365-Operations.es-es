@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novedades y cambios en Human Resources
               items:
+                - name: Human Resources 10.0.31 (infraestructura fusionada)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (infraestructura fusionada)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (infraestructura fusionada)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (infraestructura fusionada)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (infraestructura fusionada)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (infraestructura fusionada)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (infraestructura fusionada)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Novedades de Dynamics 365 Human Resources (independiente)
                   items:
                     - name: Novedades de los archivos de Dynamics 365 Human Resources (independiente) en 2021
@@ -64,7 +60,7 @@
                       href: hr-whats-new-2021-01-21.md
                 - name: Características quitadas o en desuso
                   items:
-                    - name: Página de inicio de características quitadas o en desuso
+                    - name: Página principal de características quitadas o en desuso
                       href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                     - name: Características quitadas o en desuso en Dynamics 365 Human Resources
                       href: get-started/removed-deprecated-features-hr.md
@@ -714,10 +710,12 @@
               href: hr-develop-add-performance-journal.md
             - name: Crear un objetivo
               href: hr-develop-create-goal.md
-            - name: Crear una evaluación del rendimiento
+            - name: Crear una revisión de rendimiento
               href: hr-develop-create-performance-review.md
         - name: Aprendizaje
           items:
+            - name: Información general del curso
+              href: hr-course-overview.md
             - name: Configurar cursos de formación
               href: hr-learning-courses.md
             - name: Información general de cuestionarios

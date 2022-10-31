@@ -12,6 +12,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (febrero de 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (noviembre de 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (octubre de 2022)
@@ -20,7 +22,7 @@
                   href: get-started/whats-new-commerce-10-0-28.md
             - name: Características quitadas o en desuso
               items:
-                - name: Página de inicio de características quitadas o en desuso
+                - name: Página principal de características quitadas o en desuso
                   href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?context=/dynamics365/context/commerce
                 - name: Características quitadas o en desuso en finanzas y operaciones
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?context=/dynamics365/context/commerce
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: 'Configuración, autorización y captura de tarjetas de crédito'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: Limitar el uso del símbolo (token) de pago
+                      href: dev-itpro/limit-token-usage.md
                     - name: Configurar denominaciones de efectivo para el PDV
                       href: cash-denominations.md
                     - name: Configurar el procesamiento de tarjetas de crédito
@@ -1234,8 +1238,10 @@
                       href: add-cart-module.md
                     - name: Módulo de icono de carro
                       href: cart-icon-module.md
-                    - name: Módulo de finalización de compra
+                    - name: Módulo de finalización de la compra
                       href: add-checkout-module.md
+                    - name: Códigos de referencia de error del módulo de finalización de la compra
+                      href: checkout-module-error-codes.md
                     - name: Módulo de pago
                       href: payment-module.md
                     - name: Módulo de dirección de envío
