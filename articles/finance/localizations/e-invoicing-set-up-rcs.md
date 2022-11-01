@@ -2,7 +2,7 @@
 title: Configurar Regulatory Configuration Service (RCS)
 description: En este artículo se explica cómo configurar Regulatory Configuration Service (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285799"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710791"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>Configurar Regulatory Configuration Service (RCS)
 
@@ -39,7 +39,16 @@ Un mosaico para el espacio de trabajo **Funciones de globalización** debería a
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Configurar los parámetros para la integración de RCS con la facturación electrónica
 
 1. En el espacio de trabajo **Características de globalización**, en la sección **Configuración relacionada**, seleccione **Parámetros de informes electrónicos**.
-2. En la pestaña **Facturación electrónica**, en el campo **URI de punto de conexión de servicio**, introduzca el punto de conexión de servicio apropiado para su geografía de Microsoft Azure, como se muestra en la siguiente tabla.
+2. La primera vez que configure los parámetros, se le pedirá que se conecte a Life Cycle Services (LCS). Seleccione **Haga clic aquí para conectarse a Lifecycle Services** y, una vez establecida la conexión, seleccione **Aceptar**.
+
+    > [!IMPORTANT]
+    > En los países o regiones en los que se aplica la residencia de datos, y si su RCS se aprovisionó en una región distinta a la de LCS, es posible que reciba el siguiente mensaje de error de conexión en RCS: "No se encontró ningún recurso HTTP que coincida con el URI de la solicitud". Seleccione **Aceptar**. Puede recibir otro mensaje de error en RCS: "No se pudo generar el token de usuario para Dynamics Lifecycle Services en nombre del usuario (). Póngase en contacto con el administrador del sistema".
+    >  
+    > Esto sucede porque LCS es un servicio global y se aprovisiona en una región de EE. UU. Debido a la política de residencia de datos, el RCS de su región actual no puede conectarse a LCS. En estas circunstancias, hay 2 posibles soluciones:
+    > - Elimine RCS de su región actual y vuelva a crearlo en la región de EE. UU.
+    > - Ignore los errores y continúe con la configuración de Facturación electrónica. Estos errores no tienen impacto en la funcionalidad de Facturación electrónica.
+
+3. En la pestaña **Facturación electrónica**, en el campo **URI de punto de conexión de servicio**, introduzca el punto de conexión de servicio apropiado para su geografía de Microsoft Azure, como se muestra en la siguiente tabla.
 
     | Geografía de centros de datos de Azure | Identificador URI de extremo de servicio |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ Un mosaico para el espacio de trabajo **Funciones de globalización** debería a
     | Canadá                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Francia                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | India                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Noruega                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Sudáfrica               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Compruebe que el campo **Id. de aplicación** esté establecido en **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Este valor es un valor fijo. Asegúrese de ingresar solo un identificador único global (GUID) y de que el valor no incluya ningún otro símbolo, como espacios, comas, puntos o comillas.
+3. Revise e ingrese en el campo **ID de aplicación** el valor fijo **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Asegúrese de ingresar solo un identificador único global (GUID) y de que el valor no incluya ningún otro símbolo, como espacios, comas, puntos o comillas.
 4. En el campo **Id. de entorno de LCS**, introduzca el id. de su entorno de Microsoft Dynamics Lifecycle Services LCS. Este valor es la referencia al entorno de Finance o Supply Chain Management que utilizará con el servicio de Facturación Electrónica. Para obtener su identificación, inicie sesión en [LCS](https://lcs.dynamics.com/), abra su proyecto y, a continuación, en la pestaña **Administrar entorno**, en la sección **Detalles del entorno**, busque el campo **Identificación del entorno** campo.
 
     > [!IMPORTANT]

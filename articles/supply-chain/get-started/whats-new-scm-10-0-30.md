@@ -1,5 +1,5 @@
 ---
-title: Versión preliminar de Dynamics 365 Supply Chain Management 10.0.30 (noviembre de 2022)
+title: Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.30 (noviembre de 2022)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
 ms.date: 09/08/2022
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689202"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714808"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.30 (noviembre de 2022)
 
@@ -55,7 +55,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.30 incluye Platform updates.
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
-Para obtener información sobre las correcciones de errores incluidas en cada una de las actualizaciones que forman parte de la versión 10.0.29, inicie sesión en Lifecycle Services (LCS) y consulte el [artículo de KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468).
+Para obtener información sobre las correcciones de errores incluidas en cada una de las actualizaciones que forman parte de la versión 10.0.30, inicie sesión en Lifecycle Services (LCS) y consulte el [artículo de KB](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468).
 
 ### <a name="dynamics-365-and-industry-clouds-2022-release-wave-1-plan"></a>Dynamics 365 y las nubes de la industria: plan del lanzamiento de versiones 1 de 2022
 

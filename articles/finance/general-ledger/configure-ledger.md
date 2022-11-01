@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864350"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713899"
 ---
 # <a name="configure-ledgers"></a>Configurar libros de contabilidad
 
@@ -42,7 +42,7 @@ Cada entidad legal en Dynamics 365 Finance se puede configurar para utilizar una
 
 Tenga en cuenta que, si tiene varias estructuras de cuentas, puede seleccionar solo estructuras de cuentas que no tengan combinaciones superpuestas de cuentas principales y dimensiones financieras. Por ejemplo, una de sus estructuras de cuenta está configurada para agregar una unidad de negocios para las cuentas principales entre 1000 y 1999. En otra estructura de cuenta, ha agregado una dimensión financiera de departamento para las cuentas principales que comienzan con 1. En este caso, solo se puede agregar una de las estructuras de cuenta en la misma entidad jurídica.
 
-Para configurar estructuras de cuentas para su libro mayor, en la página **Libro mayor**, en la ficha desplegable **Estructuras de cuentas**, seleccione **Agregar**, seleccione una estructura de cuenta en la lista y luego seleccione **Seleccionar**. Es posible que las estructura de las cuentas tarden unos minutos en agregarse y guardarse. Tenga en cuenta que las estructuras de cuentas que seleccione deben estar activas. De lo contrario, los detalles de las estructuras de cuentas no serán efectivos en las entidades jurídicas donde están vinculadas.
+Para configurar estructuras de cuentas para su libro mayor, en la página **Libro mayor**, en la ficha desplegable **Estructuras de cuentas**, seleccione **Agregar**, seleccione una estructura de cuenta en la lista y luego seleccione **Seleccionar**. Las estructuras de las cuentas tardarán unos minutos en agregarse y guardarse. Cuando la estructura de cuenta modificada se guarde en el libro mayor, comenzará el proceso para sincronizar todas las transacciones no registradas. Debe esperar hasta que se complete el cambio para el libro mayor actual en la entidad jurídica donde se realiza el cambio antes de poder realizar un cambio en la estructura de la cuenta para un libro mayor en otra entidad jurídica. Tenga en cuenta que las estructuras de cuentas que seleccione deben estar activas. De lo contrario, los detalles de las estructuras de cuentas no serán efectivos en las entidades jurídicas donde están vinculadas.
 
 Para eliminar una estructura de cuenta, en la página **Libro mayor**, en la ficha desplegable **Estructuras de cuentas**, seleccione **Eliminar**. Tenga en cuenta que, si elimina una estructura de cuenta de su libro mayor, no elimina ninguna transacción que se haya registrado mediante la configuración de esa estructura de cuenta.
 
@@ -70,7 +70,7 @@ Para obtener más información sobre asientos de saldo, consulte[ Diarios equili
 
 La página **Libro mayor** también se utiliza para controlar y definir las divisas que se utilizarán cuando las transacciones se registren en el libro mayor. Debe especificar la divisa contable, que es la divisa que se utiliza en la columna **Divisa contable** del libro mayor en todos los asientos. Además, en la columna **Divisa de notificación**, opcionalmente puede seleccionar una segunda divisa. Si selecciona una divisa de notificación, todas las transacciones se registrarán en esa divisa en la columna **Divisa de notificación** del libro mayor en todos los asientos.
 
-Si las transacciones se contabilizan en una divisa diferente, el sistema convierte automáticamente el importe de la transacción desde la divisa de las transacciones a la divisa de contabilidad y divisa de notificación en el asiento. En la página **Libro mayor**, en el campo **Tipo de tipo de cambio de divisa contable**, seleccione el tipo de tipo de cambio que está configurado para los tipos de cambio que se deben usar para convertir los valores de la divisa de transacción a la divisa contable del asiento. Si seleccionó una divisa de notificación, también debe establecer el campo **Tipo de cambio de divisa de notificación** para indicar el tipo de cambio que se debe utilizar para convertir los valores de la divisa de la transacción a la divisa de notificación en el asiento.
+Si las transacciones se contabilizan en una divisa diferente, el sistema convierte automáticamente el importe de la transacción desde la divisa de la transacción a la divisa de contabilidad y divisa de notificación en el asiento. En la página **Libro mayor**, en el campo **Tipo de tipo de cambio de divisa contable**, seleccione el tipo de tipo de cambio que está configurado para los tipos de cambio que se deben usar para convertir los valores de la divisa de transacción a la divisa contable del asiento. Si seleccionó una divisa de notificación, también debe establecer el campo **Tipo de cambio de divisa de notificación** para indicar el tipo de cambio que se debe utilizar para convertir los valores de la divisa de la transacción a la divisa de notificación en el asiento.
 
 Si está utilizando la función de presupuestación, también puede establecer el campo **Tipo de cambio presupuestario** para indicar el tipo de cambio que se debe utilizar para convertir las transacciones presupuestarias de una divisa a otra.
 

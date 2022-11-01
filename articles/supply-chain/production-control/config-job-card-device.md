@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860736"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708627"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar tarjeta de trabajo para dispositivos
 
@@ -73,7 +73,7 @@ La ficha desplegable **General** le permite configurar cada una de las diversas 
 - **Grupo de recursos**: seleccione un grupo de recursos a aplicar como criterio de filtro predeterminado para la lista de trabajos que se muestra a cada trabajador. El dispositivo solo mostrará inicialmente en el dispositivo los trabajos programados en el grupo de recursos seleccionado. Si **Permitir a los trabajadores establecer filtros personales** está habilitado, los trabajadores podrán editar este valor; de lo contrario, este filtro siempre se aplicará cuando la configuración de este dispositivo esté activa.
 - **Recurso**: seleccione un recurso a aplicar como criterio de filtro predeterminado para la lista de trabajos que se muestra a cada trabajador. El dispositivo solo mostrará inicialmente los trabajos programados en el recurso seleccionado. Si **Permitir a los trabajadores establecer filtros personales** está habilitado, los trabajadores podrán editar este valor; de lo contrario, este filtro siempre se aplicará cuando la configuración de este dispositivo esté activa.
 - **Generar matrícula**: establezca esta opción en **Sí** para generar una nueva matrícula cada vez que un trabajador usa el dispositivo de la tarjeta de trabajo para informar como terminado. El número de matrícula de entidad de almacén se genera a partir de una secuencia numérica configurada en la página **Parámetros de gestión de almacén**. Cuando se establece en **No**, los trabajadores deben especificar una matrícula existente al informar de la terminación.
-- **Etiqueta de impresión**: establezca esta opción en **Sí** para imprimir una etiqueta de matrícula cuando un trabajador usa el dispositivo de la tarjeta de trabajo para informar de terminación. La configuración de la etiqueta se configura en la ruta del documento, como se describe en [Diseño de ruta de documento para etiqueta de matrícula](../warehousing/document-routing-layout-for-license-plates.md).
+- **Etiqueta de impresión**: establezca esta opción en **Sí** para imprimir una etiqueta de matrícula cuando un trabajador usa el dispositivo de la tarjeta de trabajo para informar de terminación. La configuración de la etiqueta se configura en la ruta del documento, como se describe en [Diseños de etiqueta de ruta de documento](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

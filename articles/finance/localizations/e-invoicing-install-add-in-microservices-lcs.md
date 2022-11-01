@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272284"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710818"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar el complemento para microservicios en Lifecycle Services
 
@@ -35,7 +35,7 @@ Para registrar un entorno, siga estos pasos.
 2. En el proyecto, en el panel **Entornos**, seleccione su entorno implementado. El entorno que seleccione debe estar ejecutándose.
 3. En la pestaña **Integración de Power Platform**, en la sección **Complementos del entorno**, seleccione **Instalar un nuevo complemento**.
 4. Seleccione **Facturacion electrónica**.
-5. En el campo **Id. de la aplicación AAD**, introduzca **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor es un valor fijo. Asegúrese de introducir solo un identificador único global (GUID). No incluya ningún otro símbolo, como espacios, comas, puntos o comillas.
+5. En el campo **ID de aplicación**, introduzca el valor fijo **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Este valor siempre es fijo. Asegúrese de introducir solo un identificador único global (GUID). No incluya ningún otro símbolo, como espacios, comas, puntos o comillas.
 6. En el campo **Id. de inquilino de AAD**, introduzca el id. de su cuenta de suscripción de Azure. El inquilino de Azure Active Directory (Azure AD) que especifique debe ser el mismo inquilino que se utiliza para Regulatory Configuration Service (RCS).
 7. Revise los términos y condiciones, y luego seleccione la casilla.
 8. Seleccione **Instalar**. Después de unos minutos, el estado debería cambiar de **Instalando** a **Instalado**. Es posible que deba actualizar la página para ver este cambio.

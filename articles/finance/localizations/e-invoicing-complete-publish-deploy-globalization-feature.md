@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279912"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710845"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Completar, publicar e implementar una característica de globalización
 
@@ -59,8 +59,8 @@ En RCS, utilice el comando **Implementar** para publicar una versión de la cara
 2. En la pestaña **Versiones** del lado derecho de la página, seleccione la versión de la característica de facturación electrónica que desea implementar en el entorno de servicio o la aplicación conectada. La versión seleccionada debe tener un estado de **Completo** o **Publicado**.
 3. Seleccione **Implementar** y luego seleccione una o ambas de las siguientes opciones para definir el destino de la implementación:
 
-    - **Aplicación conectada**: la configuración proporcionada por la configuración de la aplicación está escrita en la instancia de Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management que estaba asociada asociada anteriormente con ella.
-    - **Entorno de servicio**: la versión de la característica de facturación electrónica se implementa en el entorno de servicio. La facturación electrónica está lista para recibir y procesar documentos electrónicos enviados por Finance o Supply Chain Management.
+    - **Aplicación conectada**: es opcional pero se debe usar si desea que la configuración proporcionada por la configuración de la aplicación se escriba en la instancia de Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management que estaba asociada asociada anteriormente con ella. Omitir este tipo de implementación requiere la configuración manual de los parámetros definidos en la configuración de la aplicación de Finance o Supply Chain Management.
+    - **Entorno de servicio**: implementa la característica de facturación electrónica en el entorno de servicio. La facturación electrónica está lista para recibir y procesar documentos electrónicos enviados por Finance o Supply Chain Management.
 
 > [!NOTE]
 > Por lo general, cambiará los parámetros de la característica de Informes electrónicos (ER) que debe implementarse en el entorno de servicio. Los cambios en la aplicación conectada serán inusuales. Debe implementar nuevas versiones en la aplicación conectada solo cuando cambie los parámetros correspondientes de su aplicación.

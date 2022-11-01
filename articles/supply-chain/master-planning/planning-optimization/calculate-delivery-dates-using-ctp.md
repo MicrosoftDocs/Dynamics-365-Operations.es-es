@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 9a2d8a66fe7e68ebd5729a401af3f0efe04051b1
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9229945"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714870"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Calcule las fechas de entrega de pedidos de ventas usando CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 La funcionalidad capaz de prometer (CTP) le permite dar a los clientes fechas realistas para cuando puede prometer productos específicos. Para cada línea de ventas, puede proporcionar una fecha que tenga en cuenta el inventario disponible existente, la capacidad de producción y los tiempos de transporte.
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.9
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
-ms.openlocfilehash: 01614aec0da097ee5c0c90bcbe9c7e0065f1d4fe
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c04b13ef05424b27b5abcc2ac7490a7b75797bf5
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277189"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713932"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -61,6 +61,9 @@ RCS generalmente está disponible en las siguientes regiones:
 - Europa
 
 Para obtener una lista completa de regiones, consulte [Dynamics 365 y Power Platform: Disponibilidad, ubicación de los datos, idioma y localización](https://aka.ms/dynamics_365_international_availability_deck).
+
+> [!NOTE] 
+> Actualmente, RCS no está disponible para Government Community Cloud (GCC).
 
 ## <a name="rcs-default-company"></a>Empresa predeterminada de RCS
 

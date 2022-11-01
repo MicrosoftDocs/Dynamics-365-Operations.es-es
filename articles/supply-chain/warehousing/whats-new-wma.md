@@ -10,18 +10,23 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682624"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702205"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20350"></a>Versión 2.0.35.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+- Se solucionó un problema en Android donde la aplicación fallaría si la página **Lista de trabajo** se abrió cuando no se mostraban tarjetas.
 
 ## <a name="version-20340"></a>Versión 2.0.34.0
 

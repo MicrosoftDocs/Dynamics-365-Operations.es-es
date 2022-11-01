@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849601"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714746"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Administrar cambios en productos de ingeniería
 
@@ -141,6 +141,8 @@ Mientras revisa las notificaciones de órdenes de producción en la página **No
 ### <a name="create-a-change-order-from-a-change-request"></a>Crear una orden de cambio a partir de una solicitud de cambio
 
 Un ingeniero que está revisando una solicitud de cambio de ingeniería puede crear una orden de cambio de ingeniería directamente desde la página **Solicitudes de cambio de ingeniería**. En el panel de acciones, en la ficha **Solicitud de cambio**, en el grupo **Orden de cambio de ingeniería**, seleccione **Copiar enlace y productos**.
+
+Asegúrese de seleccionar la empresa correcta para la nueva orden de cambio de ingeniería. Si la orden de cambio resultará en el cambio del propio producto de ingeniería (nueva versión, nuevo producto o nueva variante), entonces la orden de cambio debe asignarse a la empresa de ingeniería. Si solo se necesita un cambio local (**Impacto** se establece en *Ninguno*), la orden de cambio se puede asignar a una empresa local y los cambios se aplicarán al producto actual.
 
 ## <a name="engineering-change-orders"></a>Pedidos de cambio de ingeniería
 

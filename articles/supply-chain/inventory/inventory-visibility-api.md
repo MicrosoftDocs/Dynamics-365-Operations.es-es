@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423605"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719358"
 ---
 # <a name="inventory-visibility-public-apis"></a>API públicas de visibilidad de inventario
 
@@ -47,6 +47,7 @@ En la tabla siguiente se muestran las API actualmente disponibles:
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Registrar | [Crear múltiples cambios de inventario disponible programados](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Registrar | [Consulta mediante el método POST](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Obtener | [Consulta mediante el método GET](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/exactquery | Registrar | [Consulta exacta mediante el método POST](#exact-query-with-post-method) |
 | /api/environment/{environmentId}/allocation/allocate | Registrar | [Crear un evento de asignación](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/unallocate | Registrar | [Crear un evento de desasignación](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/reallocate | Registrar | [Crear un evento de reasignación](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Este es un ejemplo de URL de GET. Esta solicitud GET es exactamente la misma que
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Consulta exacta mediante el método POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+En la parte del cuerpo de esta solicitud, `dimensionDataSource` es un parámetro opcional. Si no está configurado, `dimensions` en `filters` se tratará como *dimensiones base*. Hay cuatro campos obligatorios para `filters`: `organizationId`, `productId`, `dimensions` y `values`.
+
+- `organizationId` debería contener solo un valor, pero sigue siendo una matriz.
+- `productId` puede contener uno o más valores. Si es una matriz vacía, se devolverán todos los productos.
+- En la matriz `dimensions`, `siteId` y `locationId` son obligatorios, pero pueden aparecer con otros elementos en cualquier orden.
+- `values` podría contener una o más tuplas distintas de valores correspondientes a `dimensions`.
+
+`dimensions` en `filters` se agregará automáticamente `groupByValues`.
+
+El parámetro `returnNegative` controla si los resultados contienen entradas negativas.
+
+El siguiente ejemplo muestra el contenido del cuerpo de muestra.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+El siguiente ejemplo muestra cómo consultar todos los productos en varios sitios y ubicaciones.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>Neto no comprometido

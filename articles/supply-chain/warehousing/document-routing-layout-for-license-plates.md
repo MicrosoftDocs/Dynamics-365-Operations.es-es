@@ -1,5 +1,5 @@
 ---
-title: Diseño de enrutamiento de documentos para etiquetas de matrículas
+title: Diseños de etiquetas de ruta de documentos
 description: Este artículo describe cómo usar métodos de formato para imprimir valores en etiquetas.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847886"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708655"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Diseño de enrutamiento de documentos para matrículas de entidad
+# <a name="document-routing-label-layout"></a>Diseño de etiquetas de ruta de documentos
 
 [!include [banner](../includes/banner.md)]
 
+En este artículo se describe cómo crear diseños para etiquetas de matrículas, contenedores y olas. También proporciona pautas para usar el lenguaje de programación Zebra (ZPL) que se usa para crear los diseños.
 
-El diseño de enrutamiento del documento define el diseño de las etiquetas de las matrículas y los datos que se imprimen en ellas. Configure los puntos de activación de impresión cuando configure elementos de menú del dispositivo móvil y plantillas de trabajo.
+Los diseños de etiqueta de enrutamiento del documento definen la forma en que se disponen las etiquetas y los datos que se imprimen en ellas. Configure los puntos de activación de impresión cuando configure elementos de menú del dispositivo móvil y plantillas de trabajo.
 
-En un escenario típico, los empleados de recepción del almacén imprimen las etiquetas de las matrículas inmediatamente después de registrar el contenido de las paletas que llegan al área de recepción. Las etiquetas físicas se aplican a los pallets. Después se pueden usar para la validación como parte del proceso de almacenamiento que sigue y futuras operaciones de picking saliente.
+La información de este artículo se aplica a todos los diseños de etiquetas de enrutamiento de documentos, incluidos los diseños para [etiquetas de matrícula](tasks/license-plate-label-printing.md), [etiquetas de contenedores](print-container-labels.md) y [etiquetas de ola](configure-wave-label-printing.md).
 
-Puede imprimir etiquetas muy complejas, siempre que el dispositivo de impresión pueda interpretar el texto que se le envía. Por ejemplo, un diseño de Lenguaje de programación de cebra (ZPL) que incluye un código de barras podría parecerse al siguiente ejemplo.
+Puede imprimir etiquetas muy complejas, siempre que el dispositivo de impresión pueda interpretar el texto que se le envía. Por ejemplo, un diseño ZPL que incluye un código de barras podría parecerse al siguiente ejemplo.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ Puede imprimir etiquetas muy complejas, siempre que el dispositivo de impresión
 ^PQ1,,,Y^XZ
 ```
 
-Como parte del proceso de impresión de etiquetas, el texto `$LicensePlateId$` en este ejemplo será reemplazado con un valor de datos.
+Como parte del proceso de impresión de etiquetas, el texto `$LicensePlateId$` en este ejemplo será reemplazado con un valor de datos. Varias herramientas de generación de etiquetas ampliamente disponibles pueden ayudarlo a formatear el texto para el diseño de la etiqueta. Muchas de estas herramientas son compatibles con el formato `$FieldName$`. Además, Microsoft Dynamics 365 Supply Chain Management utiliza una lógica de formato especial como parte de la asignación de campo para el diseño de enrutamiento de documentos.
 
 Para ver los valores que se imprimirán, vaya a **Gestión de almacenes \> Consultas e informes \> Etiquetas de matrícula de entidad**.
-
-Varias herramientas de generación de etiquetas ampliamente disponibles pueden ayudarlo a formatear el texto para el diseño de la etiqueta. Muchas de estas herramientas son compatibles con el formato `$FieldName$`. Además, Microsoft Dynamics 365 Supply Chain Management utiliza una lógica de formato especial como parte de la asignación de campo para el diseño de enrutamiento de documentos.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Activar esta función para su sistema
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Más información sobre cómo imprimir etiquetas
 
-Para obtener más información sobre cómo configurar e imprimir etiquetas, vea [Habilitar la impresión de etiquetas de matrículas](tasks/license-plate-label-printing.md).
+Para obtener más información sobre cómo configurar e imprimir etiquetas, vea los siguientes artículos:
 
+- [Impresión de la etiqueta de matrícula](tasks/license-plate-label-printing.md)
+- [Imprimir etiquetas de contenedores](print-container-labels.md)
+- [Impresión de etiquetas de oleadas](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

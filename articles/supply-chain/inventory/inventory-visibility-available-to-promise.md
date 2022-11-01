@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856204"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719318"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Planes de cambio de visibilidad de inventario disponible y neto no comprometido
 
@@ -205,6 +205,7 @@ Puede usar las siguientes direcciones URL de la interfaz de programación de apl
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Crear muchos eventos de cambio de inventario disponible. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Consulta mediante el método `POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Consulta mediante el método `GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Consulta exacta mediante el método `POST`. |
 
 Para obtener más información, consulte [API públicas de Visibilidad de inventario](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ En su solicitud, establezca `QueryATP` como *verdadero* si desea consultar los c
 > [!NOTE]
 > Independientemente de si el parámetro `returnNegative` se establece en *cierto* o *falso* en el cuerpo de la solicitud, el resultado incluirá valores negativos cuando consulte los cambios de inventario disponible programados y los resultados de NNC. Estos valores negativos se incluirán porque, si solo se programan pedidos de demanda o si las cantidades de suministro son menores que las cantidades de demanda, las cantidades de cambio de inventario disponible programadas serán negativas. Si no se incluyeran valores negativos, los resultados serían confusos. Para obtener más información sobre esta opción y cómo funciona para otros tipos de consultas, consulte [API públicas de visibilidad de inventario](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Consulta mediante el método POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-El siguiente ejemplo muestra cómo crear un cuerpo de solicitud que se puede enviar a Inventory Visibility mediante el método `POST`.
+El siguiente ejemplo muestra cómo crear un cuerpo de solicitud de consulta de índice que se puede enviar a Inventory Visibility mediante el método `POST`.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ El siguiente ejemplo muestra cómo crear un cuerpo de solicitud que se puede env
 }
 ```
 
-### <a name="get-method-example"></a>Ejemplo de método GET
+### <a name="query-by-using-the-get-method"></a>Consulta mediante el método GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-El siguiente ejemplo muestra cómo crear una URL de solicitud como solicitud `GET`.
+El siguiente ejemplo muestra cómo crear una URL de solicitud de consulta de índice como solicitud `GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 El resultado de esta solicitud `GET` es exactamente igual que el resultado de la solicitud `POST` en el ejemplo anterior.
 
+### <a name="exact-query-by-using-the-post-method"></a>Consulta exacta mediante el método POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+El siguiente ejemplo muestra cómo crear un cuerpo de solicitud de consulta exacta que se puede enviar a Inventory Visibility mediante el método `POST`.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Ejemplo de resultado de consulta
 
-Los dos ejemplos de consulta anteriores pueden producir la siguiente respuesta. Para este ejemplo, el sistema está configurado con los siguientes ajustes:
+Cualquiera de los dos ejemplos de consulta anteriores pueden producir la siguiente respuesta. Para este ejemplo, el sistema está configurado con los siguientes ajustes:
 
 - **Medida calculada NNC:** *inv disponible = pos.entrada – pos.salida*
 - **Período de programación:** *7*
