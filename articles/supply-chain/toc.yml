@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Configurar directivas para jerarquías de categorías de compras
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Evaluación de riesgos en el suministro
+              items:
+                - name: Información general de la evaluación de riesgos en el suministro
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Configurar evaluación de riesgos en el suministro
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Espacio de trabajo procesable para descubrir y gestionar los riesgos de los proveedores
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Informes de Power BI para análisis de riesgos y clasificación de rendimiento
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Recepción y facturación de productos
               items:
                 - name: Recepción de producto frente a pedidos de compra

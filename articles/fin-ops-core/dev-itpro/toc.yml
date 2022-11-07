@@ -334,13 +334,17 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Preguntas frecuentes sobre la implementación
                       href: deployment/deploymentFAQ.md
+                    - name: Migrar un entorno
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Problemas conocidos con la implementación de autoservicio
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Operaciones de mantenimiento para implementaciones
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Actualizar un entorno
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: Solución de problemas de los entornos implementados con la implementación de autoservicio
+                    - name: Migrar un entorno
+                      href: deployment/geo-to-geo-migrations.md
+                    - name: Solución de problemas de los entornos implementados con la implementación en autoservicio
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Preguntas frecuentes sobre el mantenimiento planificado en entornos de autoservicio
                       href: deployment/plannedmaintenance-selfservice.md
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Incorporación de proyecto
               href: lifecycle-services/project-onboarding.md
+            - name: Administrador de migraciones de proyecto
+              href: lifecycle-services/project-migration-manager.md
             - name: Calculador de suscripción
               href: lifecycle-services/subscription-estimator.md
             - name: Configurar la seguridad

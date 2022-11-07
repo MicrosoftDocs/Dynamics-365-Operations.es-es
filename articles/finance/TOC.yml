@@ -692,20 +692,14 @@
               items:
                 - name: Proceso de configuración de conciliación bancaria avanzada
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Configurar el proceso de importación avanzada de conciliación bancaria
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Configurar proceso de importación avanzada de conciliación bancaria mediante informes electrónicos
                   href: accounts-payable/import-bai2-er.md
                 - name: Configurar las reglas de coincidencia de conciliación bancaria
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Conciliar extractos bancarios mediante la conciliación bancaria avanzada
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Información general de conciliación bancaria avanzada
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Solución de problemas de la importación de archivos de extractos bancarios
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Actualización de la entidad compuesta del diario del banco
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Contabilidad de costes

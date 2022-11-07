@@ -4,6 +4,18 @@
       items:
         - name: Página principal de Dynamics 365 Human Resources
           href: index.md
+        - name: Fusión de la infraestructura de Human Resources
+          items:
+            - name: Información general de la fusión de la infraestructura de Human Resources
+              href: hr-infrastructure-merge.md
+            - name: Migración de clientes de la infraestructura de Human Resources
+              href: hr-cust-migration.md
+            - name: Preguntas frecuentes sobre la fusión de la infraestructura de Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: Preguntas frecuentes sobre la migración de clientes de Human Resources
+              href: customer-migration.md
+            - name: Problemas conocidos de la fusión de la infraestructura de Human Resources
+              href: hr-migration-issues.md
         - name: Novedades y cambios
           items:
             - name: Novedades y cambios en aplicaciones de finanzas y operaciones
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Preguntas frecuentes sobre la publicación
                   href: hr-admin-go-live-faq.md
-                - name: Preguntas frecuentes sobre la fusión de la infraestructura de Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: Preguntas frecuentes sobre la migración de clientes de Human Resources
-                  href: customer-migration.md
                 - name: Recursos de documentación
                   items:
                     - name: Sistema de ayuda
