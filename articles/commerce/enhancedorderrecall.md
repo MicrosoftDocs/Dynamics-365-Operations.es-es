@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869471"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734304"
 ---
 # <a name="recall-order-operation-in-pos"></a>Recuperar la operación de pedido en PDV
 
@@ -65,5 +65,11 @@ Desde la barra de aplicaciones, un usuario puede seleccionar una operación. Dep
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Agregar notificaciones a la operación de pedido de recuperación
 
 En la versión 10.0.18 y posteriores, puede configurar notificaciones de PDV y alertas de mosaicos en vivo para la operación **Recuperación de pedidos** si lo desea. Para más información, consulte [Mostrar notificaciones de pedidos en el punto de venta (PDV)](notifications-pos.md).  
+
+> [!NOTE]
+> Para habilitar la característica de búsqueda de pedidos, asegúrese de que la clave **Presupuesto** esté habilitada en **Configuración de licencias** > **Claves de configuración**.
+>
+> ![La configuración de claves de licencias de presupuesto debe estar habilitada](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

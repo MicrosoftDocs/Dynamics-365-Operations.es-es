@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281464"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734261"
 ---
 # <a name="order-lookup-module"></a>Módulo de búsqueda de pedidos
 
@@ -44,6 +44,12 @@ La siguiente ilustración muestra un ejemplo del formulario que representa el m�
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Agregar un módulo de búsqueda de pedidos a una página
 
 El módulo de búsqueda de pedidos se puede agregar al cuerpo de cualquier página de su sitio de comercio electrónico. Si desea utilizar el módulo de búsqueda de pedidos para habilitar la búsqueda de pedidos para los pagos de invitados, asegúrese de agregarlo a una página que no requiera que el usuario haya iniciado sesión. Para encontrar la configuración **¿Requiere iniciar sesión?** de una página en la vista de árbol del creador de sitios de Commerce, seleccione la ranura **Página predeterminada (requerida)** y observe la parte inferior del panel derecho.
+
+
+> [!NOTE]
+> Para habilitar la característica de búsqueda de pedidos, asegúrese de que la clave **Presupuesto** esté habilitada en **Configuración de licencias** > **Claves de configuración**.
+>
+> ![La configuración de claves de licencias de presupuesto debe estar habilitada](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

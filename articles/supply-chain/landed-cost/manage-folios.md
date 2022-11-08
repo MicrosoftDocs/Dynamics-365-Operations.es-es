@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905903"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725504"
 ---
 # <a name="manage-folios"></a>Administrar folios
 
@@ -48,9 +48,9 @@ La tabla siguiente describe los botones disponibles en la pestaña **Gestoinar**
 
 | Botón | Descripción |
 |---|---|
-| Registrar lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el folio. Si se utilizan envíos de varias empresas, se abre un nuevo cuadro de diálogo de lista de recepción para cada empresa. |
-| Registrar recepción de productos | Publique un recibo de producto para todas las líneas de órdenes de compra en el folio. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de recepción de producto para cada empresa. |
-| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el folio. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de contabilización de facturas para cada empresa. |
+| Registrar lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el folio.  |
+| Registrar recepción de productos | Publique un recibo de producto para todas las líneas de órdenes de compra en el folio. |
+| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el folio.  |
 | Pedido de transferencia de envío | Registrar una orden de transferencia para todas las líneas de la orden de transferencia que están relacionadas con el folio actual en el envío relacionado. |
 | Recibir pedido de transferencia | Registrar una recepción de orden de transferencia para todas las líneas de la orden de transferencia que están relacionadas con el folio actual en el envío relacionado. |
 | Recibir mercancía en tránsito | Reciba todas las líneas de pedido que se encuentren en tránsito en el folio. |
@@ -65,7 +65,7 @@ La tabla siguiente describe los botones disponibles en la pestaña **General** d
 
 | Botón | Descripción |
 |---|---|
-| Lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el folio. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de registro de lista de recepción para cada empresa. |
+| Lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el folio.  |
 | Recepción de producto | Ver el registro de recibo del producto, si se usa. |
 | Recepción de artículos | Vea el diario de llegada de artículos, si se utiliza. |
 | Consulta de costes | Abra la página de consulta de costos para ver todos los costos de un viaje, incluido el contenedor de envío, el folio y la orden de compra. Puede ajustar la vista exacta de la página mediante la acción Ver. En la página de consulta de costos, puede ver cualquiera de las áreas, además del artículo y el código de tipo de costo. Al eliminar estos artículos, puede ajustar la página agrupando los costos. Esta capacidad puede resultar útil si utiliza tamaños y colores. Puede cambiar las dimensiones que se muestran en la página. La página **Costos** muestra solo códigos de tipo de costo donde el campo **Dr** de la pestaña **Registro** está configurado en *Artículo*. |

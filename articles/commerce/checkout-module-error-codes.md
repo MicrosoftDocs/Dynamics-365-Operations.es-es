@@ -2,19 +2,19 @@
 title: Códigos de referencia de error del módulo de finalización de la compra
 description: Este artículo describe los códigos de referencia de error del módulo de pago que se muestran en los mensajes de error para el usuario en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709677"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728255"
 ---
 # <a name="checkout-module-error-reference-codes"></a>Códigos de referencia de error del módulo de finalización de la compra
 
@@ -31,9 +31,13 @@ Según el error que se encuentre, la tabla de este artículo incluye los siguien
 - Información a tener en cuenta en el entorno o configuraciones del conector de pago
 - Información a la que se puede hacer referencia en un caso de soporte, si se requiere asistencia adicional
 
+## <a name="prerequisites"></a>Requisitos previos
+
+Para habilitar los códigos de referencia de errores del módulo de finalización de compra que se enumeran a continuación, en el creador de sitios para su sitio, vaya a **Configuración del sitio \> Extensiones** y, en la sección **Carro y finalización de compra**, seleccione **Habilitar mensajes de visualización de errores de canales en línea mejorados**. 
+
 ## <a name="checkout-module-error-reference-codes"></a>Códigos de referencia de error del módulo de finalización de la compra
 
-Utilice la siguiente tabla para obtener más detalles sobre las referencias de códigos de error proporcionadas por los clientes o experimentadas en la tienda en línea.
+Utilice la siguiente tabla para obtener más detalles sobre las referencias de códigos de error proporcionadas por los clientes o experimentadas en la tienda en línea. Desplácese hacia la derecha para ver la columna **Descripción del error**.
 
 | Código de error | Código de error relacionado con la dinámica | Error de descripción |
 | ---------- | ------------------------------ | ----------------- |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906164"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725453"
 ---
 # <a name="manage-shipping-containers"></a>Gestionar contenedores de envío
 
@@ -40,9 +40,9 @@ La tabla siguiente describe los botones disponibles en la pestaña **Gestoinar**
 
 | Botón | Descripciones |
 |---|---|
-| Registrar lista de recepciones | Publique una lista de recibos o vea las listas de recibos de productos para todas las líneas de órdenes de compra en el contenedor de envío. Si se utilizan envíos de varias empresas, se abre un nuevo cuadro de diálogo de lista de recepción para cada empresa. |
+| Registrar lista de recepciones | Publique una lista de recibos o vea las listas de recibos de productos para todas las líneas de órdenes de compra en el contenedor de envío.  |
 | Registrar recepción de productos | Publique un recibo de producto para todas las líneas de órdenes de compra en el contenedor de envío. |
-| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el contenedor de envío. Si se utilizan envíos de varias empresas, se abre un nuevo cuadro de diálogo de contabilización de facturas para cada empresa. |
+| Registrar factura | Publique una factura para todas las líneas de órdenes de compra en el contenedor de envío.  |
 | Pedido de transferencia de envío | Publique un envío de orden de transferfencia para todas las líneas de órdenes de transferencia en el contenedor de envío. Solo aquellas líneas en el contenedor de envío que son un tipo de orden de transferencia aparecen en el cuadro de diálogo. |
 | Recibir pedido de transferencia | Publique una recepción de orden de transferfencia para todas las líneas de órdenes de transferencia en el contenedor de envío. El cuadro de diálogo de recepción es la forma más sencilla de recibir mercancías en un contenedor de envío o en un viaje, y es una de las tres opciones disponibles. También puede recibir a través de diarios de llegada o procesamiento de dispositivos móviles. |
 | Crear diario de llegadas | Puede generar un diario de llegadas para las organizaciones mediante el uso de funciones de almacén avanzadas. Las opciones son _Inicializar cantidad_ (recomendado), y _Crear a partir de mercancías en tránsito_ o _Crear a partir de órdenes de compra_. Las dos últimas opciones dependen de si se está utilizando el procesamiento de mercancías en tránsito. |
@@ -56,7 +56,7 @@ La tabla siguiente describe los botones disponibles en la pestaña **General** d
 
 | Botón | Descripciones |
 |---|---|
-| Lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el contenedor de envío. Si se utilizan viajes de varias empresas, se abre un nuevo cuadro de diálogo de registro de lista de recepción para cada empresa. |
+| Lista de recepciones | Publique una lista de recibos para todas las líneas de órdenes de compra en el contenedor de envío.  |
 | Recepción de producto | Ver el registro de recibo del producto, si se usa. El proceso de recepción de productos se utilizará solo si las mercancías no utilizan la función de mercancías en tránsito. |
 | Recepción de artículos | Vea el diario de llegada de artículos para el contenedor de envío, si se utiliza ese diario. |
 | Escalas | Los tramos se utilizan para identificar partes separadas de un viaje. Los plazos de entrega se pueden asociar con cada tramo para ayudar con el seguimiento del envío. Para más información, ver [Configuración de viaje de varios tramos](multi-leg-journey-setup.md). |

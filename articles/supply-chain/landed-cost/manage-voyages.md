@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905874"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725491"
 ---
 # <a name="manage-voyages"></a>Gestionar viajes
 
@@ -29,7 +29,8 @@ Un viaje típicamente representa una nave. Sin embargo, dependiendo de sus prác
 La página **Todos los viajes** proporciona detalles del viaje, información de entrega y costos, e información sobre artículos, órdenes de compra y órdenes de transferencia. Para abrir la página **Todos los viajes**, vaya a **Coste de aterrizaje \> Viajes \> Todos los viajes**. Esta página muestra una lista de todos los viajes actuales. Puede utilizar los botones del Panel de acciones para crear, eliminar y trabajar con viajes. Seleccione cualquier viaje de la lista para ver sus detalles.
 
 > [!NOTE]
-> Los contenedores de envío y los folios están vinculados a un viaje. Las líneas de compra están vinculadas a un contenedor de envío. Si los contenedores de envío y los folios están desactivados, también se pueden vincular directamente a un viaje. Además, los costos que se ingresan aquí se distribuyen entre todas las líneas de compra adjuntas.
+> Los contenedores de envío y los folios están vinculados a un viaje. Las líneas de compra están vinculadas a un contenedor de envío. Además, los costos que se ingresan aquí se distribuyen entre todas las líneas de compra adjuntas.
+> El pedido de compra del proyecto no es compatible con el coste descargado.
 
 ## <a name="action-pane"></a>Panel de acciones
 

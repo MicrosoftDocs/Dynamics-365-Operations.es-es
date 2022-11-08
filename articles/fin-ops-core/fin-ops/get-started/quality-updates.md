@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689237"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731620"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -40,13 +40,13 @@ Ya se han implementado múltiples avances que permiten la entrega proactiva de a
 
 - **Actualización de tiempo de inactividad casi nulo** – Para impulsar entornos más frecuentes, es esencial que se reduzca el impacto en la disponibilidad del entorno para preservar los acuerdos de nivel de servicio (SLA) de Dynamics 365. La actualización con tiempo de inactividad casi nulo se introdujo originalmente para ayudar a mejorar la aplicación mensual de parches del sistema operativo mediante el uso de una conmutación por error del clúster para activar la imagen actualizada con una interrupción mínima. El mecanismo para aplicar actualizaciones se está mejorando para que sea aún menos disruptivo y cubrirá tanto la aplicación de parches del sistema operativo como la implementación de actualizaciones de calidad.
 
-    En el caso de los usuarios interactivos, es posible que se interrumpa una sesión activa y el reintento irá al entorno ahora actualizado. Con la introducción de la [programación por lotes basada en prioridades](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), que ahora está disponible de forma opcional, la programación y el procesamiento por lotes se recuperan y se reanudan inmediatamente después de la actualización. La programación por lotes basada en prioridades estará disponible para los clientes antes de que comiencen a participar en la distribución proactiva de actualizaciones de calidad para sus entornos de producción.
+En el caso de los usuarios interactivos, es posible que se interrumpa una sesión activa y el reintento irá al entorno ahora actualizado. Con la introducción de la [programación por lotes basada en prioridades](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la programación y el procesamiento por lotes se recuperan y se reanudan inmediatamente después de la actualización. La programación por lotes basada en prioridades estará disponible para los clientes antes de que comiencen a participar en la distribución proactiva de actualizaciones de calidad para sus entornos de producción.
 
 - **Horas oscuras** – Las horas oscuras se definen para cada región de Azure, y se producirán actualizaciones de tiempo de inactividad casi nulo durante el período de la hora oscura.
 
 ## <a name="the-proactive-update-process"></a>El proceso de actualización proactiva
 
-La implementación de actualizaciones de calidad proactivas seguirá un proceso de implementación seguro (SDP). Los detalles del SDP evolucionarán, pero las actualizaciones de calidad se implementarán inicialmente en entornos de espacio aislado. El proceso comenzará con entornos que opten por una implementación temprana. A medida que aumente el porcentaje de sandboxes implementados con éxito, comenzará la implementación en entornos de producción. Una vez más, el proceso comenzará con entornos que opten por una implementación temprana. Los sistemas de escucha monitorearán la telemetría del sistema y los incidentes de Livesite, y detendrán el lanzamiento de una versión específica si se detecta alguna regresión. Los clientes aún podrán obtener las actualizaciones de calidad antes de la implementación proactiva si así lo desean.
+La implementación de actualizaciones de calidad proactivas seguirá un proceso de implementación seguro (SDP). Los detalles del SDP evolucionarán, pero las actualizaciones de calidad se implementarán inicialmente en entornos de espacio aislado. A medida que aumente el porcentaje de sandboxes implementados con éxito, comenzará la implementación en entornos de producción. Los sistemas de escucha monitorearán la telemetría del sistema y los incidentes de Livesite, y detendrán el lanzamiento de una versión específica si se detecta alguna regresión. Los clientes aún podrán obtener las actualizaciones de calidad antes de la implementación proactiva si así lo desean.
 
 Los datos de administración de versiones actuales muestran que menos del 3 por ciento de las regresiones se introducen en actualizaciones de calidad. Con un mayor enfoque en la eliminación de la regresión y un SDP mejorado, el impacto potencial de las regresiones será dramáticamente menor que las ganancias de calidad que se logran al implementar correcciones más rápidamente para los clientes en general.
 
@@ -92,13 +92,13 @@ Para obtener información sobre las horas de oscuridad para cada región, consul
 **Versión de la aplicación: 10.0.1326.70**
 **Correspondiente último artículo de KB: 748926**
 
-| Estación | Regiones | Próxima programación de espacio aislado
-|---|---|---|
-| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022 |
-| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022 |
-| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022 |
-| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 |
-| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar |
+| Estación | Regiones | Programación completa | Próxima programación de espacio aislado|
+|---|---|---|---|
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022 | Del 2 de noviembre al 5 de noviembre de 2022 |
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022 | Del 2 de noviembre al 5 de noviembre de 2022 |
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022 | Del 2 de noviembre al 5 de noviembre de 2022 |
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 | Del 2 de noviembre al 5 de noviembre de 2022 |
+| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
 
 > [!IMPORTANT] 
 > Con cinco días de anticipación, Microsoft actualizará la programación anterior y enviará notificaciones por correo electrónico al conjunto de entornos que están programados para recibir estas actualizaciones de calidad. La programación anterior se aplica solo a los entornos que han sido notificados sobre una próxima actualización. Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuáles son las ventanas de mantenimiento planeado por región?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

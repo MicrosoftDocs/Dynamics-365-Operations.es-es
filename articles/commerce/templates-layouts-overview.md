@@ -2,7 +2,7 @@
 title: Información general de plantillas y diseños
 description: Este artículo abarca plantillas y diseños en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277943"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733394"
 ---
 # <a name="templates-and-layouts-overview"></a>Información general de plantillas y diseños
 
@@ -66,6 +66,12 @@ La plantilla de este ejemplo define una estructura sencilla y un conjunto de opc
 
 Un importante paso inicial para los administradores de la marca y del sitio es determinar el equilibrio correcto entre restricción y flexibilidad para los autores de página y diseño secundarios. Cuando se usan plantillas, este equilibrio es completamente configurable. Afecta si los elementos de página están actualizados centralmente (bloqueados en la plantilla) o se dejan a niveles secundarios individuales que se encuentren más abajo en la jerarquía de la página.
 
+### <a name="relationship-between-template-defaults-and-page-content"></a>Relación entre los valores predeterminados de la plantilla y el contenido de la página
+
+La función principal de una plantilla es optimizar la experiencia de creación de módulos cuando se crea una página. Incluso cuando los valores predeterminados del módulo están establecidos, o incluso bloqueados, en una plantilla, no hay más conexión de datos desde las configuraciones del módulo de una página a los valores predeterminados de la plantilla, excepto cuando se edita la página. Las plantillas controlan la experiencia de creación de la estructura de la página y, una vez que se crea una página, los valores predeterminados de la plantilla ya no están vinculados al contenido localizable de esa página. En otras palabras, los valores predeterminados del módulo que se establecen en una plantilla controlan la experiencia de creación de las páginas secundarias. No controlan el contenido de esas páginas después de crearlas y editarlas.
+
+La única excepción al comportamiento descrito anteriormente se produce cuando se agrega un [fragmento](work-with-fragments.md) a una plantilla. Los fragmentos se pueden usar para agregar o editar dinámicamente contenido localizable en todas las páginas secundarias de una plantilla o un diseño en cualquier momento, incluso después de que se hayan creado muchas páginas a partir de una plantilla determinada. Es un procedimiento recomendado usar fragmentos en plantillas y diseños siempre que se deba agregar, eliminar o editar dinámicamente contenido localizable en todas las páginas secundarias. Por ejemplo, los fragmentos deben usarse para encabezados, pies de página, metadatos/scripts comunes o cualquier otro contenido que deba poder editarse centralmente y sea el mismo en todas las páginas secundarias. Los fragmentos proporcionan una forma de usar plantillas y diseños para controlar el contenido en todas las páginas secundarias.
+
 Para empezar a usar plantillas, consulte [Trabajar con plantillas](work-with-templates.md).
 
 ## <a name="layouts"></a>Diseños
@@ -96,7 +102,7 @@ Los diseños de su sitio pueden ser *preestablecidos* o *personalizados*:
 
 El diseño preestablecido y los diseños personalizados se editan en las diferentes partes del conjunto de herramientas de creación. Dado que los diseños personalizados no tienen dependencia de otras páginas, se editan directamente en el editor de páginas. En este caso, la existencia de un diseño es principalmente transparente para el usuario y solo se expone en propiedades de nivel de página y a través de las acciones para opciones de diseño. Sin embargo, ya que los cambios realizados a los diseños preestablecidos pueden afectar a muchas páginas secundarias, deben editarse en el editor de diseño, donde las acciones de publicación consideran el impacto completo en sentido descendente en las páginas secundarias.
 
-En las siguientes ilustraciones se muestran escenarios para diseños preestablecidos y personalizados.
+En la siguiente ilustración se muestran escenarios para diseños preestablecidos y personalizados.
 
 ![Escenarios de diseño preestablecidos y personalizados.](../commerce/media/template-figure1.png)
 

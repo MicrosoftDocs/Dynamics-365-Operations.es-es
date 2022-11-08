@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871989"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725531"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuración de los parámetros de costo descargado
 
@@ -125,14 +125,11 @@ La configuración de esta pestaña establece las dimensiones predeterminadas par
 
 La pestaña **Secuencias numéricas** de la página **Parámetros de costo aterrizado** enumera cada tipo de secuencia de números de referencia que requiere el costo de aterrizaje, pero que no se comparte entre las entidades legales. Para cada referencia de la lista, seleccione un código de secuencia numérica.
 
-> [!NOTE]
-> En una configuración de varias empresas, se deben crear diferentes secuencias de números para cada empresa (entidad jurídica).
 
 ## <a name="shared-number-sequences-tab"></a>Pestaña Secuencias numéricas compartidas
 
 La pestaña **Secuencias numéricas compartidas** de la página **Parámetros de costo aterrizado** enumera cada tipo de secuencia de números de referencia que se comparte entre las entidades jurídicas para el costo descargado. Actualmente, solo hay una secuencia numérica en la lista. Esta secuencia numérica se utiliza para la identificación del viaje.
 
-En la página **Todos los viajes**, los usuarios pueden ver todos los viajes en todas las entidades legales. Sin embargo, para editar y procesar un viaje, los usuarios deben estar en la entidad legal del registro seleccionado.
 
 ## <a name="feature-visibility-tab"></a>Pestaña Visibilidad de funciones
 

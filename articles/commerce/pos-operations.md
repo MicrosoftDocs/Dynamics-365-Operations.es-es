@@ -2,7 +2,7 @@
 title: Operaciones de punto de venta (PDV) en línea y sin conexión
 description: Este artículo ofrece información sobre las operaciones de punto de venta (PDV) en Dynamics 365 Commerce. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272859"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728286"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -100,8 +100,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 211  | Anular pago                                      | Anule la línea de pago seleccionada actualmente desde la transacción.                                                                                                                                                 | Sí            | Sí                | No             | Sí               | No              |
 | 212  | Información de la tarjeta de flota                                   | Esta operación no se admite.                                                                                                                                                                                | No aplicable | No aplicable     | No aplicable | No aplicable    | No aplicable  |
 | 213  | Pagar con nota de crédito                                   | Acepte una nota de crédito (asiento) emitida por la tienda.                                                                                                                                                          | Sí            | Sí                | No             | No                | No              |
-| 214  | Pagar con tarjeta regalo                                     | Acepte una tarjeta regalo que emitió la tienda.                                                                                                                                                                      | Sí            | Sí                | No             | No                | No              |
-| 215  | Cobrar en efectivo una tarjeta regalo                                | Esta operación no se admite.                                                                                                                                                                                | Sí            | Sí                | No             | No                | No              |
+| 214  | Pagar con tarjeta regalo                                     | Acepte una tarjeta regalo que emitió la tienda.                                                                                                                                                                      | Sí            | Sí                | N.º             | N.º                | N.º              |
+| 215  | Cobrar en efectivo una tarjeta regalo                                | Transacción de crédito con el importe total del saldo restante de la tarjeta regalo si está dentro del límite de cobro en efectivo configurado.                                                                                                                                                                              | Sí            | Sí                | N.º             | N.º                | N.º              |
 | 216  | Pago del importe exacto mediante tarjeta de crédito                                    | Esta operación no se admite.                                                                                                                                                                                | No aplicable | No aplicable     | No aplicable | No aplicable    | No aplicable  |
 | 217  | Pago del importe exacto mediante cheque                                   | Esta operación no se admite.                                                                                                                                                                                | No aplicable | No aplicable     | No aplicable | No aplicable    | No aplicable  |
 | 218  | Pago del importe exacto con cuenta del cliente                        | Esta operación no se admite.                                                                                                                                                                                | No aplicable | No aplicable     | No aplicable | No aplicable    | No aplicable  |
