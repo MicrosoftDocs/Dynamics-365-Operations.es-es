@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copiar una programación de facturación
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: División del cliente con una programación de facturación
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Características de las programaciones de facturación
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturación por hitos
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Espacio de trabajo de cierre del período financiero
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Optimizar cierre de fin de año
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Cierre de fin de año
                   href: general-ledger/year-end-close.md
                 - name: Cerrar el año fiscal

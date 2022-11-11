@@ -2,7 +2,7 @@
 title: Preguntas frecuentes sobre las actividades de fin de ejercicio
 description: Este artículo enumera las preguntas que pueden surgir al cerrar un ejercicio y las respuestas que pueden ayudar con las actividades de cierre de fin de ejercicio.
 author: moaamer
-ms.date: 12/21/2021
+ms.date: 11/08/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865751"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751969"
 ---
 # <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de ejercicio 
 

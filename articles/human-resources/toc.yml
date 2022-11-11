@@ -541,7 +541,11 @@
                     - name: Contratar candidatos de trabajo
                       href: hr-personnel-recruit.md
         - name: Administración de tareas
-          href: hr-task-mgmt.md
+          items:
+            - name: Información general
+              href: hr-task-mgmt.md
+            - name: Actualización de administración de tareas
+              href: hr-task-update.md
         - name: Bajas y ausencias
           items:
             - name: Información general
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Campos personalizados
           href: hr-developer-custom-fields.md
+        - name: Desarrollar y personalizar
+          items:
+            - name: Enumeración base de género
+              href: enum-exten.md
         - name: Configurar integración de datos
           items:
             - name: Elegir una tecnología de integración de datos
