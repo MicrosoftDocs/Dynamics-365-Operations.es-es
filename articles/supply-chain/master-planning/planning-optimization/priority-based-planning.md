@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335297"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740602"
 ---
 # <a name="priority-based-planning"></a>Planificación basada en prioridades
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la [Planificación de requisitos de materiales basada en la demanda (DDMRP)](ddmrp-overview.md). La planificación basada en prioridades permite a Optimización de planificación generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
+Este artículo describe la función de planificación basada en prioridades de Microsoft Dynamics 365 Supply Chain Management. La función agrega compatibilidad para la planificación basada en la demanda, que es un paso de la [Planificación de requisitos de materiales basada en la demanda (DDMRP)](ddmrp-overview.md). La planificación basada en prioridades permite al sistema generar pedidos planificados que se basan en prioridades de planificación en lugar de fechas de requisitos.
 
 La planificación basada en prioridades le permite priorizar pedidos de reabastecimiento para garantizar que la demanda urgente tenga prioridad sobre la demanda menos importante. Por ejemplo, un pedido de reabastecimiento agotado tendrá prioridad sobre un pedido de reabastecimiento de relleno estándar. El sistema puede dividir automáticamente los pedidos más grandes en pedidos más pequeños separados donde las líneas de pedido se agrupan por prioridad. Luego, puede procesar primero todos los pedidos de alta prioridad.
 
@@ -37,11 +37,11 @@ Para poder usar esta característica, debe estar activada para su sistema. Los a
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Dónde y cómo se asignan las prioridades de planificación
 
-La información de *Prioridad de planificación* sobre la oferta y la demanda es la columna vertebral de la planificación basada en prioridades. La prioridad de planificación define la importancia de una línea de oferta o demanda. Optimización de planificación lo usa cuando el campo **Código de cobertura** está configurado en *Prioridad*.
+La información de *Prioridad de planificación* sobre la oferta y la demanda es la columna vertebral de la planificación basada en prioridades. La prioridad de planificación define la importancia de una línea de oferta o demanda. Planificación maestra lo usa cuando el campo **Código de cobertura** está configurado en *Prioridad*.
 
 La prioridad de planificación suele ser un número entre 0 (cero) y 100, donde 0 representa la mayor importancia. Se muestra y se establece en el campo **Prioridad de planificación**. Puede encontrar este campo en las siguientes páginas: **Líneas de previsión de demanda**, **Detalles de pedido de venta**, **Detalles de pedido de compra**, **Detalles de pedido de transferencia** y **Detalles de pedido planificado**.
 
-Cuando el campo **Código de cobertura** para el artículo o grupo de cobertura relevante se establece en *Prioridad*, Optimización de planificación equilibra la oferta con la demanda mediante el uso de un enfoque basado en la demanda, ya que calcula la prioridad de planificación y, para cada producto lanzado, considera los valores establecidos para los campos **Mínimo**, **Punto de hacer nuevo pedido** y **Máximo** en la página **Cobertura de artículos**.
+Cuando el campo **Código de cobertura** para el artículo o grupo de cobertura relevante se establece en *Prioridad*, planificación maestra equilibra la oferta con la demanda mediante el uso de un enfoque basado en la demanda, ya que calcula la prioridad de planificación y, para cada producto lanzado, considera los valores establecidos para los campos **Mínimo**, **Punto de hacer nuevo pedido** y **Máximo** en la página **Cobertura de artículos**.
 
 > [!NOTE]
 > El valor *Prioridad* está disponible para el campo **Código de cobertura** solo cuando la Optimización de planificación está habilitada.
