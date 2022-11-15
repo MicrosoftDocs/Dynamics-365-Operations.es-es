@@ -2,7 +2,7 @@
 title: Módulo de finalización de compra
 description: En este artículo se describe cómo agregar un módulo de finalización de compra a una página y establecer las propiedades necesarias.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280484"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746235"
 ---
 # <a name="checkout-module"></a>Módulo de finalización de compra
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este artículo se describe cómo agregar un módulo de finalización de compra a una página y establecer las propiedades necesarias.
 
@@ -104,6 +105,8 @@ Para agregar un módulo de finalización del pago a una página nueva y establec
 1. Seleccione **Finalizar edición** para comprobar en el fragmento y luego seleccione **Publicar** para publicarlo.
 1. Cree una plantilla que use el nuevo fragmento de finalización de compra.
 1. Cree una página de finalización de compra que use la nueva plantilla.
+
+> [NOTA] Al usar la autorización de pago único como se describe en [Pagos mejorados en la pantalla de pago de la tienda](./dev-itpro/enhanced-sca.md), en la sección **Información de pago** de la página de pago, confirme que el contenedor de la sección de pago se coloca en último lugar. Esto garantiza que toda la información requerida se recopile en la página de pago antes del pago final y las acciones de finalización del pedido. 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

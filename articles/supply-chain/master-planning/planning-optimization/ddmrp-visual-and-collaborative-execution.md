@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689786"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740833"
 ---
 # <a name="visual-and-collaborative-execution"></a>Ejecución visual y colaborativa
 
@@ -34,7 +34,7 @@ En Microsoft Dynamics 365 Supply Chain Management, puede realizar un seguimiento
 1. Seleccione un elemento liberado que esté configurado como punto de desacoplo. (Para obtener más información, consulte [Posicionamiento de inventario](ddmrp-inventory-positioning.md).)
 1. En el panel de acciones, en la pestaña **Plan**, seleccione **Cobertura de artículos**.
 1. En la página **Cobertura de artículos**, seleccione un registro de cobertura de artículos que cree un punto de desacoplo. (Este registro mostrará el nombre de un grupo de cobertura que está configurado para crear puntos de desacoplo).
-1. Seleccione la pestaña **Disponible**. Esta pestaña incluye un gráfico que muestra cómo las cantidades disponibles cambiaron con el tiempo, junto con el valor del nivel disponible que se registró para un período específico cada vez que se ejecutó la optimización de la planificación. La pestaña también incluye una tabla que muestra a cuál de las siguientes categorías pertenece cada nivel disponible registrado:
+1. Seleccione la pestaña **Disponible**. Esta pestaña incluye un gráfico que muestra cómo las cantidades disponibles cambiaron con el tiempo, junto con el valor del nivel disponible que se registró para un período específico cada vez que se ejecutó la planificación maestra. La pestaña también incluye una tabla que muestra a cuál de las siguientes categorías pertenece cada nivel disponible registrado:
 
     - **Críticamente bajo** – Menos de la mitad del mínimo del período.
     - **Bajo** – Entre la mitad del mínimo y el mínimo.

@@ -2,23 +2,23 @@
 title: Configurar la administración de tareas
 description: Este artículo describe cómo configurar las funciones de administración de tareas en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282771"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746072"
 ---
 # <a name="configure-task-management"></a>Configurar la administración de tareas
 
@@ -80,7 +80,11 @@ La siguiente ilustración muestra la operación **Administración de tareas** en
 
 ![Operación de gestión de tareas en la página de operaciones de PDV.](media/HQ-POS-Tasks-Notifications.png)
 
-Para obtener más información sobre cómo configurar las notificaciones de PDV, vea [Mostrar notificaciones de pedidos en el punto de venta (PDV)](notifications-pos.md).
+Para obtener más información sobre cómo configurar las notificaciones de PDV, consulte el artículo [Mostrar notificaciones de pedidos en el punto de venta (PDV)](notifications-pos.md).
+
+> [!NOTE]
+> Cuando guarde sus cambios, se mostrará el siguiente mensaje de advertencia: **El parámetro de operación no estará habilitado en el diseñador de cuadrícula de botones para un id. de operación igual o inferior a 4000. Si crea una operación personalizada y desea aprobar un parámetro del diseñador de cuadrícula de botones, utilice un id. de operación superior a 4000.** Seleccione **Cerrar** para cerrar el cuadro de diálogo.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Configure el mosaico Tareas en la página de inicio de una aplicación PDV
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689703"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740096"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Planificación y programación de la capacidad finita
 
@@ -28,9 +28,8 @@ La capacidad finita es un enfoque que le ayuda a comprender cuánto trabajo se p
 
 La planificación y programación de la capacidad finita crea un programa más realista para los procesos de producción que el que crea el enfoque de carga infinita. Si no hay suficiente capacidad en los recursos, la fecha de entrega se retrasará y el trabajo se programará cuando haya suficiente capacidad.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Compatibilidad de Optimización de planificación para planificación de la capacidad finita
-
-La planificación y la programación de la capacidad finita funcionan casi de la misma manera, independientemente de si utiliza la optimización de la planificación o el motor de planificación incorporado. Sin embargo, la optimización de la planificación no utiliza el parámetro de límite temporal **Tiempo de cuello de botella**. Cuando utiliza la optimización de la planificación, los recursos de cuello de botella siempre se programan utilizando el mismo límite de tiempo que los recursos que no son de cuello de botella (como lo indica el límite de tiempo de capacidad finita).
+> [!NOTE]
+> La planificación y la programación de la capacidad finita funcionan casi de la misma manera, independientemente de si utiliza la optimización de la planificación o el motor de planificación maestro integrado. Sin embargo, la optimización de la planificación no utiliza el parámetro de límite temporal **Tiempo de cuello de botella**. Cuando utiliza la optimización de la planificación, los recursos de cuello de botella siempre se programan utilizando el mismo límite de tiempo que los recursos que no son de cuello de botella (como lo indica el límite de tiempo de capacidad finita).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Configurar la funcionalidad de capacidad finita
 

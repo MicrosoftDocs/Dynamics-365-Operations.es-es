@@ -2,7 +2,7 @@
 title: Configurar la interfaz de ejecución de la planta de producción
 description: Este artículo describe cómo crear una o más configuraciones para la interfaz de ejecución de la planta de producción. Al abrir la interfaz de ejecución de la planta de producción, carga automáticamente una configuración seleccionada y un filtro de trabajo que son específicos del navegador y el dispositivo. En la configuración se establecen las políticas que deben ser aplicables para un uso específico.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708735"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748696"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar la interfaz de ejecución de la planta de producción
 
@@ -85,17 +85,19 @@ Esta función proporciona una experiencia mejorada para ver listas de números d
 
 Para usar esta característica, debe estar activada para su sistema. A partir de la versión 10.0.25 de Supply Chain Management, la característica está activada de forma predeterminada. A partir de la versión 10.0.29 de Supply Chain Management, la característica es obligatoria y no se puede desactivar. Si utiliza una versión anterior a la 10.0.29, entonces los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Mostrar número de serie completo, lote y matrículas de entidad de almacén en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-
 A partir de la versión 10.0.25 de Supply Chain Management, esta función está activada de forma predeterminada. Los administradores pueden activar o desactivar esta funcionalidad buscando la característica *Mostrar número de serie completo, lote y matrículas de entidad de almacén en la interfaz de ejecución de la planta de producción* en el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Registrar lista de selección
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Esta característica permite a los trabajadores utilizar la interfaz de ejecución de la planta de producción para registrar el consumo de material, los números de lote y los números de serie. Algunos fabricantes, especialmente aquellos dentro de las industrias de proceso, necesitan registrar explícitamente la cantidad de material consumido para cada lote o pedido de producción. Por ejemplo, los trabajadores pueden usar una balanza para pesar la cantidad de material consumido mientras trabajan. Para garantizar la trazabilidad total del material, estas organizaciones también deben registrar qué números de lote se consumieron al producir cada producto.
 
 Existen dos versiones de esta característica. Una admite artículos que *no están* habilitados para utilizar procesos de gestión de almacenes (WMS). El otro admite elementos que *están* habilitado para usar WMS. Para usar esta funcionalidad, active una o ambas de las siguientes características en [Gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (en este orden), dependiendo de si tiene elementos habilitados para WMS:
 
 - *Registrar el consumo de material en la interfaz de ejecución de planta de producción (no WMS)*
-- *Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
+- *(Vista previa) Registrar el consumo de material en la interfaz de ejecución de planta de producción (con WMS habilitado)*
 
 > [!IMPORTANT]
 > Puede usar solo la función que no es WMS. Sin embargo, si usa WMS, debe habilitar ambas funciones.
@@ -138,6 +140,25 @@ Para usar esta funcionalidad, active la siguiente característica en la [Adminis
 
 - *Configuración adicional de la interfaz de ejecución de la planta de producción*
 
+### <a name="enable-the-my-jobs-tab"></a>Habilitar la pestaña mis trabajos
+
+La pestaña **Mis trabajos** permite a los trabajadores ver fácilmente todos los trabajos no iniciados y sin terminar que se les asignan específicamente. Es útil en empresas donde los trabajos a veces o siempre se asignan a trabajadores específicos (recursos humanos) en lugar de otros tipos de recursos (como máquinas).
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Pestaña Mis trabajos en la interfaz de ejecución de la planta de producción*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Habilitar el uso de un teclado numérico en la página de inicio de sesión
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Esta página permite a administradores agregar un control de teclado numérico a la página de información de inicio de sesión para la interfaz de ejecución de la planta de producción. Luego, los trabajadores pueden iniciar sesión usando el teclado numérico para ingresar su identificación de credencial o número personal.
+
+Para usar esta funcionalidad, active la siguiente característica en la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Habilitar el uso de un teclado numérico en la página de inicio de sesión*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabajar con configuraciones de ejecución de la planta de producción
 
 Para crear y mantener configuraciones de ejecución de la planta de producción, vaya a **Control de producción \> Configuración \> Ejecución de fabricación \> Configurar la ejecución de la planta de producción**. La página **Configurar la ejecución de la planta de producción** muestra una lista de configuraciones existentes. En esta página , puede realizar las acciones siguientes:
@@ -161,6 +182,7 @@ Las siguientes configuraciones están disponibles en la ficha desplegable **Gene
 - **Bloquear empleado**: cuando esta opción se establece en *No*, se cerrará inmediatamente la sesión de los trabajadores cuando se registren (en un nuevo trabajo, por ejemplo). La interfaz volverá a la página de inicio de sesión. Cuando esta opción se establece en *Sí*, los trabajadores permanecerán conectados a la interfaz de ejecución de la planta de producción. Sin embargo, un trabajador puede cerrar sesión manualmente para que otro trabajador pueda iniciar sesión mientras la interfaz de ejecución de la planta de producción continúe ejecutándose con la misma cuenta de usuario del sistema. Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](config-job-card-device.md#assigned-users).
 - **Usar el tiempo real de registro**: establezca esta opción en *Sí* para establecer la hora de cada nuevo registro en la hora exacta a la que el trabajador envió el registro. Cuando esta opción se establece en *No*, se utiliza en su lugar la hora de inicio de sesión. Por lo general, querrá establecer esta opción en *Sí*, si ha establecido las opciones **Bloquear empleado** o **Trabajador único**, en *Sí* en aquellos casos en los que los trabajadores suelen permanecer conectados durante períodos más largos.
 - **Trabajador único**: establezca esta opción en *Sí* si solo un trabajador usa cada interfaz de ejecución de la planta de producción en el que esta configuración está activa. Cuando se establece esta opción en *Sí*, la opción **Bloquear empleado** se configura automáticamente en *Sí*. Además, esta opción elimina el requisito (y la capacidad) de que el trabajador inicie sesión con un identificador de distintivo (o similar). En lugar de ello, el trabajador inicia sesión en Microsoft Dynamics 365 Supply Chain Management con una cuenta de usuario del sistema vinculada a un *trabajador con tiempo registrado* (desde la tabla *trabajadores*) y se conecta a la interfaz de ejecución de la planta de producción como ese trabajador al mismo tiempo.
+- **Habilitar teclado numérico** – Establezca esta opción en *Sí* para agregar un teclado numérico a la pantalla de inicio de sesión, lo que permite a los trabajadores ingresar su identificación de credencial o número personal usando un teclado numérico de pantalla táctil. Establezca esta opción en *No* para ocultar el teclado numérico.
 - **Permitir bloquear la pantalla táctil**: establezca esta opción en *Sí* para permitir que los trabajadores bloqueen la pantalla táctil de la interfaz de ejecución de la planta de producción para que puedan limpiarla. Cuando esta opción se establece en *Sí*, se agrega un botón **Bloquear pantalla para limpiar** a la página de inicio de sesión. Cuando un trabajador selecciona este botón, la pantalla táctil se bloquea temporalmente para evitar entradas no deseadas. También se muestra un temporizador de cuenta atrás. El trabajador ahora puede limpiar de forma segura el dispositivo y la pantalla. Cuando finaliza la cuenta descendente, la pantalla táctil se desbloquea automáticamente.
 - **Duración del bloqueo de pantalla**: cuando la opción **Permitir bloqueo de pantalla táctil** está establecida en *Sí*, use esta opción para especificar la cantidad de segundos que la pantalla táctil debe estar bloqueada para su limpieza. La duración debe estar entre 5 y 120 segundos.
 - **Generar matrícula**: establezca esta opción en *Sí* para generar una nueva matrícula cada vez que un trabajador usa la interfaz de ejecución de la planta de producción para informar como terminado. El número de matrícula de entidad de almacén se genera a partir de una secuencia numérica configurada en la página **Parámetros de gestión de almacén**. Cuando esta opción se establece en *No*, los trabajadores deben especificar una matrícula existente al informar de la conclusión.

@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335387"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740478"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolerancia al retraso (días negativos)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ El sistema vincula el cálculo de la tolerancia de retardo a la *fecha de reabas
 Esta fórmula garantiza que la planificación maestra no cree nuevos pedidos de suministro cuando existe suficiente suministro durante el tiempo de entrega del producto.
 
 > [!NOTE]
-> El cálculo de la tolerancia de retraso en la Optimización de planificación siempre utiliza el cálculo de días negativos dinámicos de la planificación maestra incorporada. El valor **Utilice días negativos dinámicos** de la paǵina **Parámetros de planificación maestra** no tiene ningún efecto sobre este comportamiento.
+> El cálculo de la tolerancia de retraso en la Optimización de planificación siempre utiliza el cálculo de días negativos dinámicos del motor de planificación maestro obsoleto. El valor **Utilice días negativos dinámicos** de la paǵina **Parámetros de planificación maestra** no tiene ningún efecto sobre este comportamiento.
 
 Si el suministro existente implica un retraso en la demanda menor o igual que la tolerancia de retraso calculada, la optimización de planificación relaciona el suministro existente con la demanda. En algunos casos, es mejor retrasar la demanda que terminar con un exceso de oferta.
 

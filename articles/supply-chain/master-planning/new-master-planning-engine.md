@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846110"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739961"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migración a la Optimización de planificación para la planificación maestra
 
@@ -31,35 +31,35 @@ El motor de planificación maestro incorporado está programado para quedar obso
 
 Optimización de planificación permite que los cálculos de planificación maestra se realicen fuera de Supply Chain Management y su base de datos Azure SQL. Los beneficios que están asociados con Optimización de la planificación incluyen un rendimiento mejorado y un impacto minimizado en la base de datos SQL durante las ejecuciones de la planificación maestra. Como las ejecuciones rápidas de la planificación se pueden realizar incluso durante las horas de oficina, los planificadores puedan inmediatamente reaccionar a los cambios de la demanda o configuración de parámetros.
 
-Para obtener más información sobre la Optimización de la planificación, consulte [Visión general de la Optimización de la planificación](planning-optimization/planning-optimization-overview.md).
+Para obtener más información sobre la Optimización de la planificación, consulte [Arquitectura de sistema de planificación maestra](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Obsolescencia del motor de planificación maestra existente
 
-Microsoft está en proceso de hacer obsoleto el motor de planificación integrado en favor de la optimización de la planificación. Este cambio afecta a todos los entornos de nube. Las instalaciones locales no se ven afectadas. En la versión 10.0.16 y posteriores, recibirá un mensaje de error si ejecuta la planificación maestra incorporada sin generar órdenes de producción planificadas. Sin embargo, la ejecución de la planificación maestra se completará con éxito a pesar del mensaje de error.
+Microsoft está en proceso de hacer obsoleto el motor de planificación maestra obsoleto en favor de la optimización de la planificación. Este cambio afecta a todos los entornos de nube. Las instalaciones locales no se ven afectadas. En la versión 10.0.16 y posteriores, recibirá un mensaje de error si ejecuta el motor de planificación maestra obsoleto sin generar órdenes de producción planificadas. Sin embargo, la ejecución de la planificación maestra se completará con éxito a pesar del mensaje de error.
 
-Para obtener más información sobre la obsolescencia del motor de planificación integrado, consulte los anuncios en [Funciones eliminadas o obsoletas en Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
+Para obtener más información sobre el motor de planificación maestra obsoleto, consulte los anuncios en [Funciones eliminadas u obsoletas en Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
 
 ## <a name="migration-messages-and-exceptions"></a>Migración, mensajes y excepciones
 
-Los propietarios de entornos existentes que ejecutan el motor de planificación maestro incorporado sin generar órdenes de producción planificadas recibirán un correo electrónico que proporciona detalles sobre el proceso de excepción. Le recomendamos que trabaje con un socio para evaluar y planificar la migración a Planning Optimization.
+Los propietarios de entornos existentes que ejecutan el motor de planificación maestro obsoleto sin generar órdenes de producción planificadas recibirán un correo electrónico que proporciona detalles sobre el proceso de excepción. Le recomendamos que trabaje con un socio para evaluar y planificar la migración a Planning Optimization.
 
-Como se ha mencionado, en la versión 10.0.16 y posteriores, recibirá un mensaje de error si ejecuta la planificación maestra incorporada sin generar órdenes de producción planificadas. Este mensaje de error incluye orientación sobre la migración e instrucciones para solicitar una excepción.
+Como se ha mencionado, en la versión 10.0.16 y posteriores, recibirá un mensaje de error si ejecuta el motor de planificación maestra obsoleto sin generar órdenes de producción planificadas. Este mensaje de error incluye orientación sobre la migración e instrucciones para solicitar una excepción.
 
 ### <a name="new-deployments"></a>Nuevas implementaciones
 
-Planning Optimization debe considerarse el motor de planificación maestro predeterminado para todas las nuevas implementaciones en la nube. En general, la Optimización de la planificación debe utilizarse para todas las implementaciones nuevas que no generan órdenes de producción planificadas durante la planificación maestra. Si una nueva implementación depende de la funcionalidad que Planning Optimization no admite actualmente, puede solicitar una excepción para poder seguir utilizando el motor de planificación maestro integrado.
+Planning Optimization debe considerarse el motor de planificación maestro predeterminado para todas las nuevas implementaciones en la nube. En general, la Optimización de la planificación debe utilizarse para todas las implementaciones nuevas que no generan órdenes de producción planificadas durante la planificación maestra. Si una nueva implementación depende de la funcionalidad que Planning Optimization no admite actualmente, puede solicitar una excepción para poder seguir utilizando el motor de planificación maestro obsoleto.
 
 ### <a name="existing-deployments"></a>Implementaciones existentes
 
-Los propietarios de implementaciones existentes basadas en la nube que dependen de la planificación maestra deben planificar la migración a Optimización de la planificación. Si la implementación depende de la funcionalidad que Planning Optimization no admite actualmente, puede solicitar una excepción para poder seguir utilizando el motor de planificación maestro integrado.
+Los propietarios de implementaciones existentes basadas en la nube que dependen de la planificación maestra deben planificar la migración a Optimización de la planificación. Si la implementación depende de la funcionalidad que Planning Optimization no admite actualmente, puede solicitar una excepción para poder seguir utilizando el motor de planificación maestro obsoleto.
 
 Para los entornos que actualmente utilizan procesos de planificación maestra que se están volviendo obsoletos, Microsoft enviará un correo electrónico al administrador del entorno. Este correo electrónico proporcionará información sobre las acciones necesarias para migrar o solicitar una excepción.
 
 ## <a name="the-exception-process"></a>El proceso de excepciones
 
-Puede solicitar una excepción si debe continuar utilizando el motor de planificación maestro integrado porque sus procesos comerciales dependen en gran medida de al menos una función que no está implementada actualmente en Planning Optimization. Para obtener una lista de las funciones disponibles, consulte [Análisis de ajuste de optimización de planificación](planning-optimization/planning-optimization-fit-analysis.md).
+Puede solicitar una excepción si debe continuar utilizando el motor de planificación maestro obsoleto porque sus procesos comerciales dependen en gran medida de al menos una función que no está implementada actualmente en Planning Optimization. Para obtener una lista de las funciones disponibles, consulte [Análisis de ajuste de optimización de planificación](planning-optimization/planning-optimization-fit-analysis.md).
 
-Actualmente, las excepciones para la migración a Optimización de la planificación solo son pertinentes si su proceso de planificación maestra no incluye la producción (es decir, las órdenes de producción planificadas generadas por la planificación maestra) y necesita el motor de planificación maestra incorporado más allá de la versión 10.0.15.
+Actualmente, las excepciones para la migración a Optimización de la planificación solo son pertinentes si su proceso de planificación maestra no incluye la producción (es decir, las órdenes de producción planificadas generadas por la planificación maestra) y necesita el motor de planificación maestra obsoleto más allá de la versión 10.0.15.
 
 Una vez que las funciones necesarias estén disponibles, Microsoft proporcionará un período de gracia hasta que expire la excepción. Se informará al administrador del entorno cuando las funciones necesarias estén disponibles y haya comenzado el período de gracia.
 
@@ -74,9 +74,9 @@ El siguiente diagrama de flujo resume la información proporcionada en este art�
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>Entornos de espacio aislado
 
-¿Puedo utilizar la planificación maestra integrada en mi entorno de espacio aislado? ¿Necesito una excepción?
+¿Puedo utilizar el motor de planificación maestra obsoleto en mi entorno de espacio aislado? ¿Necesito una excepción?
 
-**Responder:** Las excepciones no suelen ser relevantes para los entornos de espacio aislado porque el error de excepción de Planning Optimization no impide que el motor de planificación maestro integrado se ejecute correctamente. Sin embargo, si el mensaje de error le molesta, puede deshabilitarlo en un entorno de espacio aislado de IaaS (no Service Fabric) ejecutando la siguiente consulta en su base de datos:
+**Respuesta:** Las excepciones no suelen ser relevantes para los entornos de espacio aislado porque el error de excepción de Planning Optimization no impide que el motor de planificación maestro obsoleto se ejecute correctamente. Sin embargo, si el mensaje de error le molesta, puede deshabilitarlo en un entorno de espacio aislado de IaaS (no Service Fabric) ejecutando la siguiente consulta en su base de datos:
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Mi entorno es local. ¿Necesito una excepción?
 
-**Responder:** No. No se requiere una excepción para los entornos locales. Puede seguir utilizando la planificación maestra incorporada. El administrador de su entorno será informado si se requiere alguna acción.
+**Responder:** No. No se requiere una excepción para los entornos locales. Puede seguir utilizando el motor de planificación maestra incorporada obsoleto. El administrador de su entorno será informado si se requiere alguna acción.
 
 ### <a name="production-scenarios"></a>Escenarios de producción
 
 Usamos órdenes de producción planificadas, pero me preocupa lo que sucederá cuando actualicemos a la versión 10.0.16. ¿Debería tomar alguna medida?
 
-**Responder:** No debería preocuparse. Puede seguir utilizando la planificación maestra incorporada en la versión 10.0.16. Sin embargo, le recomendamos que evalúe si la migración a Planning Optimization puede comenzar con la funcionalidad actual. También le recomendamos que se mantenga informado sobre las nuevas funciones.
+**Responder:** No debería preocuparse. Puede seguir utilizando el motor de planificación maestra obsoleto en la versión 10.0.16. Sin embargo, le recomendamos que evalúe si la migración a Planning Optimization puede comenzar con la funcionalidad actual. También le recomendamos que se mantenga informado sobre las nuevas funciones.
 
 ### <a name="email-from-microsoft"></a>Correo electrónico de Microsoft
 
@@ -110,9 +110,9 @@ Nuestro administrador de entorno recibió un correo electrónico de Microsoft. E
 
 Estoy usando la versión 10.0.16 o posterior y recibo el siguiente mensaje de error cuando ejecuto la planificación maestra. ¿Se ha bloqueado la planificación maestra?
 
-> Recibe este mensaje de error porque el motor de planificación maestro integrado se utilizó para escenarios compatibles con Optimización de la planificación. Debe migrar a Optimización de la planificación ahora, ya que la planificación maestra incorporada actual quedará obsoleta. Tenga en cuenta que esta ejecución de planificación maestra se completó correctamente.
+> Recibe este mensaje de error porque el motor de planificación maestro obsoleto se utilizó para escenarios compatibles con Optimización de la planificación. Debe migrar a Optimización de la planificación ahora, ya que el motor planificación maestra incorporada ha quedado obsoleta. Tenga en cuenta que esta ejecución de planificación maestra se completó correctamente.
 >
-> En caso de que su migración tenga una fuerte dependencia de las características pendientes, se puede solicitar una excepción al uso continuo del motor de planificación maestro integrado.
+> En caso de que su migración tenga una fuerte dependencia de las características pendientes, se puede solicitar una excepción al uso continuo del motor de planificación maestro obsoleto.
 >
 > Complete el siguiente cuestionario para comenzar y, si es relevante, solicite una excepción de la migración a Optimización de la planificación.
 

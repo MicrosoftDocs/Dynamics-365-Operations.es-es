@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844536"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739988"
 ---
 # <a name="inventory-forecasts"></a>Previsiones del inventario
 
@@ -395,7 +395,7 @@ Para configurar un plan maestro de modo que incluya un pronóstico de inventario
     - **Período de tiempo de pronóstico** - Si configura la opción **Plan de previsión** como *Sí*, especifique el número de días (a partir de la fecha de hoy) que se debe aplicar el pronóstico de demanda.
 
     > [!IMPORTANT]
-    > La opción **Plan de previsión** aún no es compatible con la Optimización de la planificación.
+    > La opción **Plan de previsión** no es compatible con la Optimización de la planificación.
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Ejecutar un plan maestro que incluya un pronóstico de inventario
 

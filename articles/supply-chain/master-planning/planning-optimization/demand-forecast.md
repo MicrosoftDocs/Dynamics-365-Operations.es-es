@@ -1,6 +1,6 @@
 ---
 title: Planificación maestra con previsiones de demanda
-description: Este artículo explica cómo incluir previsiones de demanda durante la planificación maestra con Optimización de la planificación.
+description: Este artículo explica cómo incluir previsiones de demanda durante la planificación maestra.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879001"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739793"
 ---
-# <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de demanda
+# <a name="master-planning-with-demand-forecasts"></a>Planificación maestra con previsiones de la demanda
 
 [!include [banner](../../includes/banner.md)]
 
-Puede utilizar un pronóstico de demanda junto con la Optimización de planificación para contabilizar la demanda esperada en su planificación maestra. Puede crear manualmente un pronóstico de demanda, importarlo o generarlo utilizando la función de pronóstico de demanda en Microsoft Dynamics 365 Supply Chain Management. Para obtener más información sobre la previsión de la demanda, consulte [Resumen de previsión de la demanda](../introduction-demand-forecasting.md).
+Puede utilizar un pronóstico de demanda para contabilizar la demanda esperada en su planificación maestra. Puede crear manualmente un pronóstico de demanda, importarlo o generarlo utilizando la función de pronóstico de demanda en Microsoft Dynamics 365 Supply Chain Management. Para obtener más información sobre la previsión de la demanda, consulte [Resumen de previsión de la demanda](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > La planificación de previsión separada no es compatible con Optimización de la planificación. Por lo tanto, la configuración de **Plan de pronóstico actual** de la página **Parámetros de planificación maestra** no tiene ningún efecto cuando utiliza la Optimización de la planificación.

@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690004"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750717"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Debe analizar el resultado del análisis de ajuste de Planning Optimization como parte del proceso de migración. Tenga en cuenta que el alcance de la optimización de la planificación no es igual a la funcionalidad de planificación maestra incorporada actual. Le recomendamos que trabaje con su socio y lea la documentación para prepararse para la migración. 
+Debe analizar el resultado del análisis de ajuste de Planning Optimization como parte del proceso de migración. Tenga en cuenta que el alcance de la optimización de la planificación no es igual a la funcionalidad del motor de planificación maestra en desuso. Le recomendamos que trabaje con su socio y lea la documentación para prepararse para la migración.
 
-El análisis de ajuste de Planning Optimization le ayuda a identificar dónde puede diferir el resultado entre el motor de planificación maestro integrado y Planning Optimization. Este análisis se realiza en función de su configuración y datos actuales. 
+El análisis de ajuste de Planning Optimization le ayuda a identificar dónde puede diferir el resultado entre el motor de planificación maestro en desuso y Planning Optimization. Este análisis se realiza en función de su configuración y datos actuales. 
 
 Para ver el resultado del análisis de ajuste de Planning Optimization, vaya a **Planificacion maestra** \> **Preparar** \> **Análisis de ajuste de optimización de planificación** y luego seleccione **Ejecutar análisis**. Si el análisis detecta incoherencias, se enumeran en la misma página. (El análisis puede tardar algunos minutos en ejecutarse).
 
@@ -64,7 +64,6 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Calendarios base | Calendarios que usan el calendario base: *\#* | Esta característica ahora se admite. | Compatible | 
 | Códigos de disposición de lote | Maestros de disposición de lote no incluidos: *\#* | Esta característica ahora se admite. Para más información, consulte [Use códigos de disposición de lotes para marcar lotes como disponibles o no disponibles](../../inventory/batch-disposition-codes.md) | Compatible |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: *\#* | En Supply Chain Management 10.0.28 y posteriores, un proceso llamado *CTP para Optimización de planificación* hace que las fechas confirmadas de envío y recepción estén disponibles después de que se haya ejecutado el plan dinámico. Para versiones anteriores de Supply Chain Management, la configuración de CTP heredada se ignora cuando se habilita Optimización de la planificación. | Compatible |
-| Copia estática en plan dinámico | La copia de plan estático a dinámico está habilitada en los parámetros de planificación maestra. | La optimización de la planificación no copia el plan estático en el plan dinámico, independientemente de esta configuración. En general, este concepto es menos relevante debido a la velocidad y la regeneración completa que proporciona la optimización de planificación. Si se utilizan dos o más planes, se debe activar la planificación maestra para cada plan. | N/A |
 | Puesta en firme | Grupos de cobertura con límite de tiempo de puesta en firme automática establecido: *\#* | En la versión 10.0.7 y posteriores, la puesta en firme se admite como un trabajo por lotes de puesta en firme independiente después de completar la planificación maestra (siempre que *Puesta en firme automática para la optimización de la planificación* se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la puesta en firme de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de puesta en firme. | Compatible |
 | Puesta en firme | Registros de cobertura de artículos con puesta en firme automática establecida: : *\#* | En la versión 10.0.7 y posteriores, la puesta en firme automática se admite como un trabajo por lotes de puesta en firme independiente después de completar la planificación maestra (siempre que *Puesta en firme automática para la optimización de la planificación* se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la puesta en firme de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de puesta en firme. | Compatible |
 | Puesta en firme | Planes maestros con puesta en firme automática establecida: *\#* | En la versión 10.0.7 y posteriores, la puesta en firme automática se admite como un trabajo por lotes de puesta en firme independiente después de completar la planificación maestra (siempre que *Puesta en firma automática para la optimización de la planificación* se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la puesta en firme de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de puesta en firme. | Compatible |
@@ -93,34 +92,27 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Producción | Versiones de fórmula con coproductos o productos derivados: *\#* | Esta característica está pendiente. Actualmente, los coproductos y subproductos asociados con la versión de la fórmula se ignoran cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 |
 | Producción | Versiones de fórmula con rendimiento: *\#* | Esta característica está pendiente. Actualmente, el rendimiento asociado con la versión de la fórmula se ignora cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 |
 | Producción | Planes que incluyen la secuenciación: *\#* | Esta característica está pendiente. Actualmente, la secuenciación se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 |
-| Producción | Pedidos de producción emitidos que no se han iniciado, cuando el inicio programado es anterior al día de hoy: *\#* | Esta característica está pendiente. Actualmente, si se retrasa una orden de producción, la planificación maestra asumirá que se completará hoy. Esto es relevante para las órdenes de producción emitidas en las que una fecha de entrega es del pasado, pero aún no se ha completado. | Ola futura |
+| Producción | Pedidos de producción emitidos que no se han iniciado, cuando el inicio programado es anterior al día de hoy: *\#* | Esta característica está pendiente. Actualmente, si se retrasa una orden de producción, la planificación maestra asumirá que se completará hoy. Esto es relevante para las órdenes de producción emitidas en las que una fecha de entrega es del pasado, pero aún no se ha completado. | Segundo lanzamiento de versiones de 2022 |
 | Producción | Recursos programados con capacidad finita: *\#* | Esta característica ahora se admite.| Compatible |
 | Producción | Rutas usadas en la planificación: *\#* | Esta característica se admite. | Compatible |
-| Producción | Reserva de línea de ventas mediante expansión: *\#* | La reserva de línea de ventas mediante expansión no se admite cuando la optimización de la planificación está habilitada. | Ola futura |
-| Producción | Programación con expansión de pedidos de producción: *\#* | La programación con expansión de pedidos de producción no se admite cuando la optimización de la planificación está habilitada. Los pedidos de producción se pueden programar individualmente. | Ola futura |
+| Producción | Reserva de línea de ventas mediante expansión: *\#* | La reserva de línea de ventas mediante expansión no se admite cuando la optimización de la planificación está habilitada. | Segundo lanzamiento de versiones de 2022 |
+| Producción | Programación con expansión de pedidos de producción: *\#* | La programación con expansión de pedidos de producción no se admite cuando la optimización de la planificación está habilitada. Los pedidos de producción se pueden programar individualmente. | Segundo lanzamiento de versiones de 2022 |
 | Solicitud de presupuestos | Planes maestros con solicitudes de presupuestos habilitadas: *\#* | Esta característica está pendiente. Actualmente, las solicitudes de presupuesto (RFQ) no se consideran demanda cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 |
 | Solicitudes | Planes maestros con solicitudes habilitadas: *\#* | Esta característica ahora se admite. Para obtener más información, consulte [Solicitudes de compra](purchase-requisitions.md) | Compatible |
 | Márgenes de seguridad | Grupos de cobertura con margen de seguridad: *\#* | Esta característica ahora se admite. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) | Compatible |
 | Márgenes de seguridad | Planes maestros con margen de seguridad: *\#* | Esta característica ahora se admite. Para obtener información adicional, consulte [Márgenes de seguridad](safety-margins.md) |  Compatible |
-| Cumplimiento de existencias de seguridad | Registros de cobertura de artículos con "Cumplimiento mínimo" diferente de "Fecha de hoy + tiempo de adquisición": *\#* | La optimización de la planificación siempre utiliza *Fecha de hoy + tiempo de adquisición*. Este cambio se realiza para prepararse para una configuración de planificación simplificada en el futuro y para proporcionar un resultado procesable. Si no se incluye el tiempo de adquisición para el stock de seguridad, los pedidos planificados que se creen para el inventario disponible bajo actual siempre se retrasarán debido al tiempo de entrega. Este comportamiento puede causar ruido significativo y órdenes planificadas no deseadas. La mejor práctica es cambiar la configuración para que se use *Fecha de hoy + tiempo de adquisición*. Actualice los datos maestros para evitar advertencias. | N/D |
-| Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: *\#* | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 o posterior |
-| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica está pendiente. | Segundo lanzamiento de versiones de 2022 |
+| Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: *\#* | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | Segundo lanzamiento de versiones de 2022 |
+| Vida útil | Planes maestros con vida útil habilitada: *\#* | Esta característica ahora se admite. | Compatible |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general de la optimización de la planificación](planning-optimization-overview.md)
-
-[Introducción a Optimización de planificación](get-started.md)
-
-[Diferencias entre la planificación maestra clásica y Optimización de planificación](planning-optimization-differences-with-built-in.md)
-
-[Parámetros no utilizados por Optimización de planificación](not-used-parameters.md)
-
-[Ver historial del plan y registros de planificación](plan-history-logs.md)
-
-[Aplicar filtros a un plan](plan-filters.md)
-
-[Cancelar un trabajo de planificación](cancel-planning-job.md)
+- [Arquitectura del sistema de planificación maestra](../master-planning-architecture.md)
+- [Introducción a planificación maestra](get-started.md)
+- [Diferencias entre la planificación maestra clásica y Optimización de planificación](planning-optimization-differences-with-built-in.md)
+- [Parámetros no utilizados por Optimización de planificación](not-used-parameters.md)
+- [Ver historial del plan y registros de planificación](plan-history-logs.md)
+- [Ejecutar la planificación de un subconjunto de artículos](plan-filters.md)
+- [Cancelar un trabajo de planificación](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

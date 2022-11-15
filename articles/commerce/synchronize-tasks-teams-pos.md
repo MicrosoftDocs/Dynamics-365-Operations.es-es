@@ -2,22 +2,22 @@
 title: Sincronizar la gestión de tareas entre Microsoft Teams y Dynamics 365 Commerce PDV
 description: Este artículo describe cómo sincronizar la administración de tareas entre Microsoft Teams y Dynamics 365 Commerce punto de venta (PDV).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268284"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746107"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sincronizar la gestión de tareas entre Microsoft Teams y Dynamics 365 Commerce PDV
 
@@ -30,6 +30,21 @@ Uno de los propósitos principales de la integración de Teams es permitir la si
 Debido a que Planner se usa como repositorio de tareas en Teams, debe haber un vínculo entre Teams y Dynamics 365 Commerce. Este vínculo se establece mediante el uso de un ID de plan específico para un equipo de tienda determinado.
 
 Los siguientes procedimientos muestran cómo configurar la sincronización de la administración de tareas entre las aplicaciones PDV y Teams.
+
+## <a name="link-pos-and-teams-for-task-management"></a>Vincular PDV y Teams para la gestión de tareas
+
+Para vincular las aplicaciones PDV y Microsoft Teams para la gestión de tareas en la sede de Commerce, siga estos pasos.
+
+> [!NOTE]
+> Antes de intentar integrar la administración de tareas con Teams, asegúrese de haber habilitado la [integración de Dynamics 365 Commerce y Microsoft Teams](enable-teams-integration.md). 
+
+1. Vaya a **Retail y Commerce \> Administración de tareas \> Integración de tareas con Microsoft Teams**.
+1. En el panel Acciones, seleccione **Editar**.
+1. Establezca la opción **Habilitar la integración de integración de tareas** en **Sí**.
+1. En el panel Acciones, seleccione **Guardar**.
+1. En el panel de acciones, seleccione **Configurar administración de tarea**. Debería recibir una notificación que indique que un trabajo por lotes que se denomina **Provisión de equipos** se está creando.
+1. Vaya a **Administración del sistema \> Consultas \> Trabajos por lotes** y busque el trabajo más reciente que tenga la descripción **Provisión de equipos**. Espere hasta que este trabajo termine de ejecutarse.
+1. Ejecute el **trabajo CDX 1070** para publicar el identificador del plan y almacenar referencias en Retail Server.
 
 ## <a name="publish-a-test-task-list-in-teams"></a>Publica una lista de tareas de prueba en Teams
 
@@ -50,20 +65,8 @@ Para publicar una lista de tareas de prueba en Teams, siga estos pasos.
 
 Para más información, consulte [Publique listas de tareas para crear y realizar un seguimiento del trabajo en su organización](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df).
 
-## <a name="link-pos-and-teams-for-task-management"></a>Vincular PDV y Teams para la gestión de tareas
-
-Para vincular las aplicaciones PDV y Microsoft Teams para la gestión de tareas en la sede de Commerce, siga estos pasos.
-
 > [!NOTE]
-> Antes de intentar integrar la administración de tareas con Microsoft Teams, asegúrese de haber habilitado la [integración de Dynamics 365 Commerce y Microsoft Teams](enable-teams-integration.md). 
-
-1. Vaya a **Retail y Commerce \> Administración de tareas \> Integración de tareas con Microsoft Teams**.
-1. En el panel Acciones, seleccione **Editar**.
-1. Establezca la opción **Habilitar la integración de integración de tareas** en **Sí**.
-1. En el panel Acciones, seleccione **Guardar**.
-1. En el panel de acciones, seleccione **Configurar administración de tarea**. Debería recibir una notificación que indique que un trabajo por lotes que se denomina **Provisión de equipos** se está creando.
-1. Vaya a **Administración del sistema \> Consultas \> Trabajos por lotes** y busque el trabajo más reciente que tenga la descripción **Provisión de equipos**. Espere hasta que este trabajo termine de ejecutarse.
-1. Ejecute el **trabajo CDX 1070** para publicar el identificador del plan y almacenar referencias en Retail Server.
+> Después de que la lista de tareas se publique correctamente en Teams, las tareas se mostrarán en PDV. Los gerentes de PDV y los cajeros deben activar el inicio de sesión en Azure AD en PDV. Para obtener más información, consulte el artículo [Habilitar Azure Active Directory autenticación para inicio de sesión en PDV](aad-pos-logon.md). 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

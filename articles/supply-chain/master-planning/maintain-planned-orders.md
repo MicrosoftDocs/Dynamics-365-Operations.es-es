@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c127b25644e417983672c8111925ecd3a51d6ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9df39d271ae61c304f70c38a23e4249eb5920b29
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850710"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740802"
 ---
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
@@ -60,7 +60,7 @@ Si tiene previsto consolidar muchos pedidos al mismo tiempo, una ejecución en p
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los planes maestros](master-plans.md)
+- [Visión general de los planes maestros](master-plans.md)
 
 
 

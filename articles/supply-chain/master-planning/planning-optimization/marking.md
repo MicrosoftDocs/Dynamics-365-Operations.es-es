@@ -1,6 +1,6 @@
 ---
-title: Marcado de inventario con optimización de planificación
-description: Este artículo proporciona información sobre las opciones que están disponibles para marcar el inventario en pedidos firmes cuando usa Planning Optimization.
+title: Marcado de inventario
+description: Este artículo proporciona información sobre las opciones que están disponibles para marcar el inventario en pedidos firmes.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219949"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740613"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Marcado de inventario con optimización de planificación
+# <a name="inventory-marking"></a>Marcado de inventario
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo proporciona información sobre las opciones que están disponibles para marcar el inventario en pedidos firmes cuando usa Planning Optimization.
+Este artículo proporciona información sobre las opciones que están disponibles para marcar el inventario en pedidos firmes.
 
 *Calificación* se utiliza para vincular la oferta y la demanda. Se parece a la *vinculación*, que indica cómo la planificación maestra espera cubrir la demanda. Desde el punto de vista de la planificación, la principal diferencia es que el marcado es más permanente que el pegging.
 

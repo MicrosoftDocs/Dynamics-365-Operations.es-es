@@ -1,6 +1,6 @@
 ---
-title: Requisitos netos e información de diagrama de árbol con planificación integrada
-description: Este artículo proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol en planificación maestra integrada.
+title: Requisitos netos e información de diagrama de árbol con el motor de planificación maestra en desuso
+description: Este artículo proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol en el motor de planificación maestra en desuso.
 author: t-benebo
 ms.date: 04/20/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 08a25af0d7ea15b4bc426dfc54b9b960762e11f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd11cf039704afc520cfa24185aa2e7842af9a00
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846080"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740285"
 ---
-# <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Requisitos netos e información de diagrama de árbol con planificación integrada
+# <a name="net-requirements-and-pegging-information-with-the-deprecated-master-planning-engine"></a>Requisitos netos e información de diagrama de árbol con el motor de planificación maestra en desuso
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,8 +26,8 @@ Cuando ejecuta la planificación maestra, es importante que comprenda su salida,
 
 La página **Requisitos netos** muestra los requisitos netos que se calculan para el producto durante la planificación maestra. También muestra la configuración de cobertura que se aplicó durante la ejecución de la planificación maestra, un desglose de los totales de requisitos por tipo de transacción e información de diagrama de árbol.
 
-La página **Requisitos netos** se comporta de forma ligeramente diferente en función de si está utilizando Optimización de planificación o el motor de planificación maestra integrado. Para obtener más información sobre esta diferencia, consulte [Diferencias entre la planificación maestra integrada y Optimización de planificación](planning-optimization/planning-optimization-differences-with-built-in.md)
+La página **Requisitos netos** se comporta de forma ligeramente diferente en función de si está utilizando Optimización de planificación o el motor de planificación maestra en desuso. Para obtener más información sobre esta diferencia, consulte [Diferencias entre Optimización de planificación y el motor de planificación maestra en desuso](planning-optimization/planning-optimization-differences-with-built-in.md)
 
-Para obtener más información sobre cómo trabajar con esta página, consulte [Requisitos netos e información de diagrama de árbol con Optimización de planificación](planning-optimization/net-requirements.md).
+Para obtener más información sobre cómo trabajar con esta página, consulte [Requisitos netos e información de diagrama de árbol](planning-optimization/net-requirements.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

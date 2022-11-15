@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733481"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752700"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Problemas conocidos de la fusión de infraestructura de Dynamics 365 Human Resources
 
@@ -44,10 +44,3 @@ Se requieren los siguientes tipos de entorno para poder realizar la migración:
 
 La aplicación de Human Resources existente en Teams se está cambiando actualmente a una solución de Microsoft Power Platform. Para más información, consulte [Aplicación de recursos humanos en Teams](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Licencias
-
-No hay cambios en las licencias para Dynamics 365 Human Resources en las siguientes áreas: 
-
-- **Requisito de compra de un número mínimo de licencias**
-- **Licencias para un entorno de producción y espacio aislado**: si tiene licencias independientes de Human Resources que incluyen un entorno de producción y un entorno de espacio aislado, la misma cantidad de licencias estará disponible en la infraestructura de finanzas y operaciones, sin coste adicional.
-- **Licencias adicionales de espacio aislado**: si ha adquirido licencias de espacio aislado adicionales para la aplicación independiente de Human Resources, la misma cantidad de licencias de espacio aislado estará disponible para los entornos de espacio aislado en la infraestructura de finanzas y operaciones. 

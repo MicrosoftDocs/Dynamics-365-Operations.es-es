@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335417"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739908"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Programación con selección de recursos según la capacidad
 
@@ -43,7 +43,7 @@ Para asignar capacidades a un recurso de operación, use la ficha desplegable **
 - **Eficaz**: especifique la primera fecha en la que se aplica la asignación de recursos o capacidades. Durante la programación, el sistema no utilizará un recurso o capacidad que tenga una asignación de capacidad vencida, incluso si ese recurso satisface los requisitos.
 - **Expiración**: especifique la última fecha en la que se aplica la asignación de recursos o capacidades. Durante la programación, el sistema no utilizará un recurso o capacidad que tenga una asignación de capacidad vencida, incluso si ese recurso satisface los requisitos.
 - **Nivel**: especifique el nivel de competencia que debe tener el recurso para la capacidad. Entonces, si especifica un valor **Nivel mínimo necesario** para el recurso o requisito de capacidad, el motor de programación considera el nivel de competencia durante la selección de recursos. El sistema selecciona solo los recursos que tienen la capacidad necesaria en un nivel que iguale o supere el nivel mínimo que se especifica en el requisito de recurso.
-- **Prioridad**: este campo aún no es compatible con Optimización de planificación. Sin embargo, si está utilizando el motor de planificación integrado, puede utilizar el campo **Prioridad** en la asignación del recurso o de la capacidad para definir la prioridad del recurso. Entonces, si *Prioridad* se selecciona en el campo **Selección del recurso principal**, en la página **Parámetros de programación**, el sistema selecciona primero el recurso que tiene la máxima prioridad (es decir, el de menor valor numérico en el campo **Prioridad**) durante la programación.
+- **Prioridad**: este campo aún no es compatible con Optimización de planificación. Sin embargo, si está utilizando el motor de planificación maestro obsoleto, puede utilizar el campo **Prioridad** en la asignación del recurso o de la capacidad para definir la prioridad del recurso. Entonces, si *Prioridad* se selecciona en el campo **Selección del recurso principal**, en la página **Parámetros de programación**, el sistema selecciona primero el recurso que tiene la máxima prioridad (es decir, el de menor valor numérico en el campo **Prioridad**) durante la programación.
 
 ## <a name="example"></a>Ejemplo
 

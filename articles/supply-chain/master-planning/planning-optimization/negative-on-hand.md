@@ -1,6 +1,6 @@
 ---
 title: Planificación con cantidades negativas disponibles
-description: Este artículo explica cómo se maneja la disponibilidad negativa cuando utiliza la optimización de planificación.
+description: Este artículo explica cómo se maneja el negativo disponible.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856146"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741132"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planificación con cantidades negativas disponibles
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856146"
 
 Si el sistema muestra una cantidad agregada negativa disponible, el motor de planificación trata la cantidad como 0 (cero) para ayudar a evitar el exceso de oferta. Así es como funciona esta funcionalidad:
 
-1. La función de optimización de planificación agrega cantidades disponibles en el nivel más bajo de dimensiones de cobertura. (Por ejemplo, si *ubicación* no es una dimensión de cobertura, la optimización de planificación agrega cantidades disponibles en el nivel *almacén*).
+1. La planificación maestra agrega cantidades disponibles en el nivel más bajo de dimensiones de cobertura. (Por ejemplo, si *ubicación* no es una dimensión de cobertura, la planificación maestra agrega cantidades disponibles en el nivel *almacén*).
 1. Si la cantidad disponible en el nivel más bajo de las dimensiones de cobertura es negativa, el sistema supone que la cantidad disponible es realmente 0 (cero).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ El sistema se configura de la siguiente manera:
 - Existe un pedido de ventas por una cantidad de *10* unidades del producto *FG*.
 - La cantidad del pedido de ventas se reserva físicamente contra el inventario disponible existente.
 
-Luego ajuste la cantidad del producto *FG* de modo que el inventario disponible se convierte en 5. Debido a que el inventario de productos disponibles es 5, la cantidad del pedido de ventas ahora se reserva para la cantidad que no está disponible (sería similar si el producto disponible fuera 0, en cuyo caso el pedido de ventas se reservaría para el inventario negativo). Si ejecuta la planificación maestra ahora, se creará un pedido planificado de la cantidad 5 para *FG* para suministrar el pedido de cliente, porque la Optimización de la Planificación siempre utilizará el suministro existente o creará un nuevo pedido planificado para suministrar la reserva física.
-
-## <a name="related-resources"></a>Recursos relacionados
-
-- [Información general de la optimización de la planificación](planning-optimization-overview.md)
-- [Introducción a la optimización de la planificación](get-started.md)
-- [Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
-- [Ver el historial del plan y los registros de planificación](plan-history-logs.md)
-- [Cancelar un trabajo de planificación](cancel-planning-job.md)
+Luego ajuste la cantidad del producto *FG* de modo que el inventario disponible se convierte en 5. Debido a que el inventario de productos disponibles es 5, la cantidad del pedido de ventas ahora se reserva para la cantidad que no está disponible (sería similar si el producto disponible fuera 0, en cuyo caso el pedido de ventas se reservaría para el inventario negativo). Si ejecuta la planificación maestra ahora, se creará un pedido planificado de la cantidad 5 para *FG* para suministrar el pedido de cliente, porque la optimización maestra siempre utilizará el suministro existente o creará un nuevo pedido planificado para suministrar la reserva física.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

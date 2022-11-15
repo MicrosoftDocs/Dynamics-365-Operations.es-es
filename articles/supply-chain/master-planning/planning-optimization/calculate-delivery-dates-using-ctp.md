@@ -1,6 +1,6 @@
 ---
 title: Calcule las fechas de entrega de pedidos de ventas usando CTP
-description: La funcionalidad capaz de prometer (CTP) le permite dar a los clientes fechas realistas para cuando puede prometer productos específicos. Este artículo describe cómo configurar y utilizar CTP para cada motor de planificación (Planning Optimization y el motor integrado).
+description: La funcionalidad capaz de prometer (CTP) le permite dar a los clientes fechas realistas para cuando puede prometer productos específicos. Este artículo describe cómo configurar y utilizar CTP para cada motor de planificación (Planning Optimization y el motor de planificación maestra obsoleto).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714870"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741213"
 ---
-# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Calcule las fechas de entrega de pedidos de ventas usando CTP
+# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Calcular las fechas de entrega de pedidos de ventas usando CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 La funcionalidad capaz de prometer (CTP) le permite dar a los clientes fechas realistas para cuando puede prometer productos específicos. Para cada línea de ventas, puede proporcionar una fecha que tenga en cuenta el inventario disponible existente, la capacidad de producción y los tiempos de transporte.
 
 CTP se extiende la funcionalidad de [neto no comprometido](../../sales-marketing/delivery-dates-available-promise-calculations.md) (ATP) teniendo en cuenta la información de capacidad. Mientras que ATP considera solo la disponibilidad de materiales y asume recursos de capacidad infinita, CTP considera la disponibilidad tanto de materiales como de capacidad. Por lo tanto, proporciona una imagen más realista de si la demanda se puede satisfacer dentro de un marco de tiempo determinado.
 
-La página Requisitos netos se comporta de forma ligeramente diferente en función de si está utilizando Optimización de planificación o el motor de planificación maestra integrado. Este artículo describe cómo configurarlo para cada motor. Actualmente, CTP para la optimización de la planificación solo admite un subconjunto de los escenarios de CTP que son compatibles con el motor integrado.
+La página Requisitos netos se comporta de forma ligeramente diferente en función del motor de planificación que esté usando (Optimización de planificación o el motor de planificación maestra obsoleto). Este artículo describe cómo configurarlo para cada motor. Actualmente, CTP para la optimización de la planificación solo admite un subconjunto de los escenarios de CTP que son compatibles con el motor maestro de planificación obsoleto.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>Active CTP para Optimización de planificación
 
-CTP para el motor de planificación maestro integrado siempre está disponible. Sin embargo, si desea utilizar CTP para la optimización de la planificación, debe activarlo para su sistema. Los administradores pueden usar la configuración de [administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
+CTP para el motor de planificación maestro obsoleto siempre está disponible. Sin embargo, si desea utilizar CTP para la optimización de la planificación, debe activarlo para su sistema. Los administradores pueden usar la configuración de [administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de características**, la función aparece de la siguiente forma:
 
 - **Módulo:** *Planificación maestra*
 - **Nombre de la característica:** *(Versión preliminar) CTP para optimización de planificación*
@@ -47,9 +48,9 @@ Un cálculo de CTP que considera tanto los materiales como los recursos puede mo
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Cómo difiere CTP según el motor de planificación maestra que utilice
 
-La siguiente tabla resume las diferencias entre CTP para la optimización de la planificación y CTP para el motor de planificación maestro incorporado.
+La siguiente tabla resume las diferencias entre CTP para la optimización de la planificación y CTP para el motor de planificación maestro obsoleto.
 
-| Elemento | Optimización de planificación | Motor de planificación maestro incorporado |
+| Elemento | Optimización de planificación | Motor de planificación maestra en desuso |
 |---|---|---|
 | **Control de fecha de entrega** configuración para pedidos, líneas de pedido y productos | *CTP para Optimización de planificación* | *CTP* |
 | Hora de cálculo | El cálculo se activa al ejecutar un plan dinámico como una tarea programada. | El cálculo se activa inmediatamente cada vez que ingresa o actualiza una línea de orden de venta. |
@@ -70,8 +71,8 @@ El método de control de fecha de entrega predeterminado se aplicará a todas la
     - *Plazo de ventas*: el plazo de ventas es el tiempo entre la creación del pedido de ventas y el envío de los artículos. El cálculo de la fecha de entrega se basa en un número predeterminado de días y no considera la disponibilidad de existencias, la demanda conocida o el suministro planificado.
     - *ATP*: ATP es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en una fecha específica. El cálculo del NNC incluye inventario no comprometido, fechas disponibles, recepciones planificadas y emisiones.
     - *ATP + Días de emisión*: la fecha de envío es igual que la fecha de neto no comprometido (NNC) más el margen de emisión del artículo. El margen de emisión es el tiempo que necesario para preparar los artículos para el envío.
-    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro integrado. Si utiliza la Optimización de la planificación, el método de control de fecha de entrega *CTP* no está permitido y, si se selecciona, provocará un error cuando se ejecute el cálculo.
-    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta opción no tiene efecto si está utilizando el motor de planificación maestra integrado, se admiten los productos controlados por lotes.
+    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro obsoleto. Si utiliza la Optimización de la planificación, el método de control de fecha de entrega *CTP* no está permitido y, si se selecciona, provocará un error cuando se ejecute el cálculo.
+    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta opción no tiene efecto si está utilizando el motor de planificación maestra obsoleto, se admiten los productos controlados por lotes.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Establecer anulaciones de control de fecha de entrega para productos individuales
 
@@ -85,7 +86,7 @@ Puede asignar anulaciones para productos específicos en los que desee utilizar 
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a>Programar CTP para cálculos de optimización de planificación
 
-Cuando utiliza CTP para la optimización de la planificación, debe ejecutar un plan dinámico para activar el sistema para realizar los cálculos de CTP y luego establecer las fechas confirmadas de envío y recepción para todos los pedidos relevantes. El plan debe incluir todos los artículos para los que se requieren fechas confirmadas de envío y recepción. (Cuando usa CTP para el motor de planificación integrado, los cálculos de CTP se realizan inmediatamente de forma local. Por lo tanto, no tiene que ejecutar un plan dinámico para ver los resultados de CTP).
+Cuando utiliza CTP para la optimización de la planificación, debe ejecutar un plan dinámico para activar el sistema para realizar los cálculos de CTP y luego establecer las fechas confirmadas de envío y recepción para todos los pedidos relevantes. El plan debe incluir todos los artículos para los que se requieren fechas confirmadas de envío y recepción. (Cuando usa CTP para el motor de planificación maestra obsoleto, los cálculos de CTP se realizan inmediatamente de forma local. Por lo tanto, no tiene que ejecutar un plan dinámico para ver los resultados de CTP).
 
 Para asegurarse de que las fechas estén disponibles a tiempo para todos los usuarios, le recomendamos que configure trabajos por lotes para ejecutar los planes relevantes de forma recurrente. Por ejemplo, un trabajo por lotes configurado para ejecutar un plan dinámico cada 30 minutos establecerá las fechas de envío y recepción confirmadas cada 30 minutos. Por lo tanto, los usuarios que ingresen e importen pedidos tendrán que esperar un máximo de 30 minutos para obtener el envío confirmado y las fechas de recepción.
 
@@ -98,17 +99,17 @@ Para configurar un trabajo por lotes para ejecutar un plan dinámico en un horar
 1. Seleccione **Aceptar** para guardar el programa.
 1. Seleccione **Aceptar** para crear el trabajo por lotes y cerrar el cuadro de diálogo.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>Usar CTP para la planificación maestra incorporada
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Usar CTP para el motor de planificación maestro en desuso
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Cree un nuevo pedido utilizando CTP para la planificación maestra integrada
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Cree un nuevo pedido utilizando CTP para el motor de planificación maestra obsoleto
 
 Cada vez que agrega una nueva orden de venta o línea de orden, el sistema le asigna un método de control de fecha de entrega predeterminado. El encabezado del pedido siempre comienza con el método predeterminado global. Si se asigna una anulación a un artículo pedido, la nueva línea de pedido utilizará esa anulación. De lo contrario, la nueva línea de pedido también utilizará el método predeterminado global. Por tanto, debería establecer los métodos preteterminados para que coincidan con el método de control de fechas de enrega que más usa. Después de crear un pedido, puede anular el método predeterminado en el encabezado del pedido y/o nivel de línea del pedido según lo requiera. Para más información, vea [Establecer métodos de control de fecha de entrega predeterminados](#default-methods) y [Cambiar los pedidos de venta existentes para usar CTP](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Ver fechas de entrega confirmadas cuando usa CTP para la planificación maestra integrada
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Ver fechas de entrega confirmadas cuando usa CTP para el motor de planificación maestra obsoleto
 
-Si está utilizando el motor de planificación maestra incorporado, los cálculos de CTP se aplican a los pedidos y/o líneas de pedido donde el campo **Control de fecha de entrega** se establece en *CTP*.
+Si está utilizando el motor de planificación maestra obsoleto, los cálculos de CTP se aplican a los pedidos y/o líneas de pedido donde el campo **Control de fecha de entrega** se establece en *CTP*.
 
-Para las líneas de ventas que utilizan CTP para la planificación maestra integrada, el sistema establece automáticamente los campos **Fecha de envío confirmada** y **Fecha de recepción confirmada** cada vez que guarde una línea de ventas. Si luego realiza un cambio relevante en una línea de ventas (por ejemplo, cambiando su cantidad o sitio), las fechas se recalcularán inmediatamente.
+Para las líneas de ventas que utilizan CTP para el motor planificación maestra obsoleto, el sistema establece automáticamente los campos **Fecha de envío confirmada** y **Fecha de recepción confirmada** cada vez que guarde una línea de ventas. Si luego realiza un cambio relevante en una línea de ventas (por ejemplo, cambiando su cantidad o sitio), las fechas se recalcularán inmediatamente.
 
 - Para ver las fechas de entrega confirmadas para una línea de orden de venta, abra la orden de venta y seleccione la línea de venta. Luego, en la ficha desplegable **Detalles de línea**, en la pestaña **Entrega**, revise los valores de **Fecha de entrega confirmada** y **Fecha de recepción confirmada**.
 - Para ver las fechas de entrega confirmadas para una orden entera, abra la orden de venta y seleccione la vista **Encabezado**. Luego, en la ficha desplegable **Entrega**, revise los valores de **Fecha de entrega confirmada** y **Fecha de recepción confirmada**.
@@ -155,8 +156,8 @@ Para cambiar un pedido para que use CTP en el nivel de encabezado del pedido, si
 1. Seleccione **Encabezado** para abrir la información de encabezado de la página **Detalles de orden de venta**.
 1. En la ficha **Entrega**, establezca el campo **Control de fecha de entrega** en uno de los siguientes valores, según el motor de planificación que esté utilizando:
 
-    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro integrado. Si está utilizando la optimización de la planificación, el el método de control de fecha de entrega *CTP* no está permitido. Por lo tanto, si selecciona este valor, se producirá un error cuando se ejecute el cálculo.
-    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta configuración no tiene efecto si está utilizando el motor de planificación maestra integrado, se admiten los productos controlados por lotes.
+    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro obsoleto. Si está utilizando la optimización de la planificación, el el método de control de fecha de entrega *CTP* no está permitido. Por lo tanto, si selecciona este valor, se producirá un error cuando se ejecute el cálculo.
+    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta configuración no tiene efecto si está utilizando el motor de planificación maestra en desuso, se admiten los productos controlados por lotes.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Seleccione **OK** para aplicar sus cambios.
@@ -165,15 +166,15 @@ Para cambiar un pedido para que use CTP en el nivel de encabezado del pedido, si
 
 Si creó una línea de pedido utilizando un método de control de fecha de entrega diferente, puede cambiar a CTP en cualquier momento. Los cambios que realice en el nivel de línea no afectarán a ninguna otra línea. Sin embargo, pueden hacer que las fechas generales de entrega del pedido se adelanten o se retrasen, según cómo cambie cada cálculo de línea actualizado. <!-- KFM: Confirm this intro at next revision -->
 
-Para cambiar un pedido para que use CTP para la planificación maestra integrada en el nivel de línea, siga estos pasos.
+Para cambiar un pedido para que use CTP para el motor de planificación maestra en desuso en el nivel de línea, siga estos pasos.
 
 1. Vaya a **Clientes \> Pedidos \> Todos los pedidos de venta**.
 1. Abra la orden de venta que desea configurar o cree una nueva.
 1. Sobre la página **Detalles de la orden de venta**, en la ficha **Línea de orden de venta**, seleccione la línea de orden de venta que desea configurar.
 1. En la ficha **Detalles de línea**, en la pestaña **Entrega**, establezca el campo **Control de fecha de entrega** en uno de los siguientes valores, según el motor de planificación que esté utilizando:
 
-    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro integrado. Si está utilizando la optimización de la planificación, el el método de control de fecha de entrega *CTP* no está permitido. Por lo tanto, si selecciona este valor, se producirá un error cuando se ejecute el cálculo.
-    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta configuración no tiene efecto si está utilizando el motor de planificación maestra integrado, se admiten los productos controlados por lotes.
+    - *CTP* – Utilice el cálculo de CTP proporcionado por el motor de planificación maestro obsoleto. Si está utilizando la optimización de la planificación, el el método de control de fecha de entrega *CTP* no está permitido. Por lo tanto, si selecciona este valor, se producirá un error cuando se ejecute el cálculo.
+    - *CTP para la optimización de la planificación* – Utilice el cálculo de CTP proporcionado por Planning Optimization. Esta configuración no tiene efecto si está utilizando el motor de planificación maestra en desuso, se admiten los productos controlados por lotes.
 
     Aparece el cuadro de diálogo **Fechas de envío y recepción disponibles** con las fechas de envío y recepción disponibles. Este cuadro de diálogo funciona de la misma manera para las líneas de pedido que para el encabezado del pedido, como se describe en la sección anterior.
 

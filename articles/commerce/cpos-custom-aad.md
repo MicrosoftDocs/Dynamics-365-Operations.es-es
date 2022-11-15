@@ -2,22 +2,19 @@
 title: Configurar CPOS para usar una aplicación de Azure AD personalizada
 description: Este artículo explica cómo configurar Cloud POS (CPOS) para usar una aplicación Azure Active Directory (Azure AD) personalizada.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222975"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746270"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Configurar CPOS para usar una aplicación de Azure AD personalizada
 
@@ -52,6 +49,9 @@ Para crear y configurar una aplicación de servidor minorista personalizada en A
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Configurar una aplicación CPOS en Azure AD
 
+> [!IMPORTANT]
+> Si está actualizando una aplicación CPOS personalizada existente de Azure AD que se creó antes de la versión 10.0.21 de Commerce, siga los pasos en [Actualizar una aplicación CPOS personalizada existente de Azure AD creada antes de la versión Commerce 10.0.21](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Para crear y configurar una aplicación CPOS en Azure AD, siga estos pasos.
 
 1. Inicie sesión en el [Centro de administración de Azure Active Directory](https://aad.portal.azure.com) utilizando la cuenta de usuario de Azure AD. La cuenta de usuario no tiene que tener permisos de administrador.
@@ -68,12 +68,25 @@ Para crear y configurar una aplicación CPOS en Azure AD, siga estos pasos.
 1. En la sección **Manifiesto**, configure los parámetros **oauth2AllowIdTokenImplicitFlow** y **oauth2AllowImplicitFlow** como **verdadero** y luego seleccione **Guardar**.
 1. En la sección **Configuración de fichas**, siga estos pasos para agregar dos reclamos:
 
-    - Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Id.** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
-    - Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Acceso** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
+    1. Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Id.** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
+    1. Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Acceso** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
 
 1. En la sección **Permisos de API**, seleccione **Agregar un permiso**.
 1. En la pestaña **API que usa mi organización**, busque la aplicación Retail Server que creó en la sección [Configure una aplicación de servidor minorista personalizada en Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad). Luego seleccione **Agregar permisos**.
 1. En la sección **Visión general**, tome nota del valor del campo **ID de la aplicación (cliente)**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Actualizar una aplicación CPOS personalizada existente de Azure AD aplicación creada antes de la versión 10.0.21 de Commerce
+
+Para actualizar una aplicación CPOS personalizada existente de Azure AD aplicación creada antes de la versión 10.0.21 de Commerce, siga estos pasos. 
+
+1. Abra su aplicación CPOS personalizada de Azure AD en el Azure Portal.
+1. Seleccione la pestaña **Autenticación**.
+1. Copie y guarde el URI de redireccionamiento original del tipo **Web** para usarlo más tarde y luego elimínelo.
+1. Seleccione **Agregar una plataforma** y luego seleccione **Solicitud de una sola página (SPA)**.
+1. Agregue el URI de redirección web original copiado anteriormente a la plataforma SPA.
+1. En la sección **Configuración de fichas**, siga estos pasos para agregar dos reclamos:
+    1. Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Id.** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
+    1. Seleccione **Añadir reclamación opcional**. Establezca el campo **Tipo de token** en **Acceso** y, a continuación, seleccione la reclamación **sid**. Seleccione **Agregar**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Actualizar el archivo de configuración de CPOS
 

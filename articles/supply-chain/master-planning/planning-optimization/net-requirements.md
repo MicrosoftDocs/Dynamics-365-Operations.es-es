@@ -1,6 +1,6 @@
 ---
-title: Requisitos netos e información de diagrama de árbol con Optimización de planificación
-description: Este artículo proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol en Optimización de planificación.
+title: Necesidades netas e información de diagrama de árbol
+description: Este artículo proporciona información sobre los requisitos netos calculados y la información de diagrama de árbol.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888539"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748448"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Requisitos netos e información de diagrama de árbol con Optimización de planificación
+# <a name="net-requirements-and-pegging-information"></a>Necesidades netas e información de diagrama de árbol
 
 [!include [banner](../../includes/banner.md)]
 
-Cuando ejecuta la planificación maestra en Optimización de planificación, es importante que comprenda su salida, cómo el suministro existente cubre la demanda y por qué se generó un suministro específico. Puede usar la página **Requisitos netos** para comprender mejor los requisitos calculados que produce la planificación maestra.
+Cuando ejecuta la planificación maestra, es importante que comprenda su salida, cómo el suministro existente cubre la demanda y por qué se generó un suministro específico. Puede usar la página **Requisitos netos** para comprender mejor los requisitos calculados que produce la planificación maestra.
 
-La página **Requisitos netos** muestra los requisitos netos que Optimización de planificación calculó para el producto. También muestra la configuración de cobertura que se aplicó durante la ejecución de la planificación maestra, un desglose de los totales de requisitos por tipo de transacción e información de diagrama de árbol.
+La página **Requisitos netos** muestra los requisitos netos que la planificación maestra calculó para el producto. También muestra la configuración de cobertura que se aplicó durante la ejecución de la planificación maestra, un desglose de los totales de requisitos por tipo de transacción e información de diagrama de árbol.
 
 ## <a name="open-the-net-requirements-page"></a>Abra la página de requisitos netos
 
@@ -64,8 +64,8 @@ La sección inferior de la página proporciona las siguientes pestañas:
 Los siguientes comandos están disponibles en el Panel de acciones:
 
 - **Actualizar\> Planificación maestra** - Ejecute la planificación maestra directamente desde la página **Requisitos netos**.
-- **Actualizar\> Planificación de previsión** - Ejecute la planificación de previsión directamente desde la página **Requisitos netos**. Optimización de planificación aún no admite esta operación.
-- **Actualizar\> Programación de continuidad** - Ejecute la programación de continuidad directamente desde la página **Requisitos netos**. Optimización de planificación aún no admite esta operación.
+- **Actualizar\> Planificación de previsión** - Ejecute la planificación de previsión directamente desde la página **Requisitos netos**. Optimización de planificación no admite esta operación.
+- **Actualizar\> Programación de continuidad** - Ejecute la programación de continuidad directamente desde la página **Requisitos netos**. Optimización de planificación no admite esta operación.
 
 ## <a name="example-scenario"></a>Supuesto de ejemplo
 
@@ -133,8 +133,6 @@ A continuación, abrirá la página **Requisitos netos** para el producto *1000*
     ![Información de diagrama de árbol para el pedido de ventas](media/pegging-planned-purchase-order.png "Información de diagrama de árbol para el pedido de ventas")
 
 > [!NOTE]
-> Dado que Optimización de planificación aún no admite algunas funciones, los tipos de requisito *Stock de seguridad* y *Lote caducado* no se incluyen en la página **Requisitos netos**. Para obtener más información, consulte [Análisis de aptitud de optimización de la planificación](planning-optimization-fit-analysis.md).
->
-> Si está utilizando el motor de planificación maestra integrado, se admiten los productos controlados por lotes. Para productos controlados por lotes, el inventario disponible vencido se muestra en la página **Requisitos netos**, pero no está vinculado a los requisitos de demanda. Las líneas disponibles caducadas de este tipo se muestran como líneas de requisito de *Lote caducado* en la página **Requisitos netos**.
+> El tipo de requisito *Stock de seguridad* no se incluye en la página **Requisitos netos**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
