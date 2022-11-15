@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 119b77b695ff065c8e45693e1cf7cf15360d441e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1ef8a04ce4ab2180f39a6d2bcdab976eb146d610
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468647"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741240"
 ---
 # <a name="explosion-of-a-bom-version"></a>Expansión de una versión de lista de materiales
 
@@ -38,9 +38,8 @@ La ilustración siguiente muestra el proceso de expansión de la demanda de plan
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Determinar la versión de L. MAT.](master-plan-bom-version-determined.md)
-
-[Información general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
+- [Determinar la versión de L. MAT.](master-plan-bom-version-determined.md)
+- [Información general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
 
 
 

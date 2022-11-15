@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885910"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740914"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parámetros de fecha y hora utilizados por Optimización de planificación
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885910"
 
 Este artículo proporciona información sobre los parámetros de fecha y hora que utiliza Optimización de la planificación durante su funcionamiento.
 
-Mientras que el motor de planificación maestro integrado utiliza fechas de transacción en todos los cálculos, Optimización de planificación funciona con valores de fecha y hora que se convierten en fechas. Esta diferencia de comportamiento puede llevar a situaciones en las que, por ejemplo, las transacciones de pronóstico que se crean a la medianoche del día en que se ejecuta la planificación maestra no se incluyen porque Optimización de planificación considera que se crearon antes de la fecha actual.
+Mientras que el motor de planificación maestro obsoleto utiliza fechas de transacción en todos los cálculos, Optimización de planificación funciona con valores de fecha y hora que se convierten en fechas. Esta diferencia de comportamiento puede llevar a situaciones en las que, por ejemplo, las transacciones de pronóstico que se crean a la medianoche del día en que se ejecuta la planificación maestra no se incluyen porque Optimización de planificación considera que se crearon antes de la fecha actual.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Parámetros para transacciones de emisión y demanda
 

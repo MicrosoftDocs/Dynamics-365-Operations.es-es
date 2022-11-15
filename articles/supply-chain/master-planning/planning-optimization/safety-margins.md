@@ -1,6 +1,6 @@
 ---
 title: Márgenes de seguridad
-description: Este artículo describe cómo se pueden usar los márgenes de seguridad con el complemento de optimización de la planificación para Microsoft Dynamics 365 Supply Chain Management.
+description: Este artículo describe cómo funcionan los márgenes de seguridad durante la planificación maestra.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335207"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740451"
 ---
 # <a name="safety-margins"></a>Márgenes de seguridad
 
 [!include [banner](../../includes/banner.md)]
 
-Este artículo describe cómo se pueden usar los márgenes de seguridad con el complemento de optimización de la planificación para Microsoft Dynamics 365 Supply Chain Management.
+Este artículo describe cómo funcionan los márgenes de seguridad durante la planificación maestra.
 
 ## <a name="safety-margins-overview"></a>Descripción general de los márgenes de seguridad
 
@@ -165,12 +165,5 @@ Los tres tipos de márgenes de seguridad se incluyen cuando el sistema determina
 Por ejemplo, un artículo tiene un plazo de entrega de un día y un margen de recepción de tres días. Un pedido de venta para este artículo se establece como se requiere hoy. En este caso, el retraso se calcula como *tiempo de espera* + *margen de recepción* = cuatro días. Por tanto, si hoy es 14 de agosto, los cuatro días de retraso producen una entrega el 18 de agosto. En la ilustración siguiente se muestra este ejemplo.
 
 ![Ejemplo de cálculo de retraso.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Recursos adicionales
-
-[Introducción a la optimización de la planificación](get-started.md)
-
-[Análisis de idoneidad de optimización de la planificación](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
