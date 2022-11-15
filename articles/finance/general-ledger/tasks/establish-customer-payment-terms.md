@@ -2,7 +2,7 @@
 title: Establecer condiciones de pago de cliente
 description: Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065720"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752786"
 ---
 # <a name="establish-customer-payment-terms"></a>Establecer condiciones de pago de cliente
 
@@ -34,7 +34,11 @@ Este procedimiento define una configuración de descuento por pronto pago y fech
 6. En el campo **Día del mes**, escriba una fecha. La fecha se debe especificar como un número, por ejemplo, “10”, y no como “10°”. 
 7. Haga clic en **Guardar**.
 8. Cierre la página.
-9. Vaya a **Panel de exploración > Módulos > Clientes > Configuración de pagos > Condiciones de pago**.
+9. Vaya a **Panel de exploración > Módulos > Clientes > Configuración de pagos > Condiciones de pago**. 
+
+>[!NOTE] 
+>Si las **Condiciones de pago** son **Dinero**, el campo **Pago en efectivo** en la página **Condiciones de pago** debe ser **No**.
+
 10. Haga clic en **Nuevo**. **Condiciones de pago** se usa para definir cómo se calcularán las fechas de vencimiento. La configuración de fecha de descuento por pronto pago se define en una página independiente. 
 11. En el campo **Condiciones de pago**, escriba un identificador.
 12. En el campo **Descripción**, escriba una descripción.

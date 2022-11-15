@@ -2,23 +2,23 @@
 title: Asignar listas de tareas a tiendas o empleados
 description: Este artículo describe cómo asignar listas de tareas a tiendas o empleados en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284667"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746204"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Asignar listas de tareas a tiendas o empleados
 
@@ -30,7 +30,7 @@ La gestión de tareas en Dynamics 365 Commerce le permite asignar una lista de t
 
 ## <a name="start-the-task-list-assignment-process"></a>Comience el proceso de asignación de la lista de tareas
 
-Para comenzar el proceso de asignación de una lista de tareas, siga estos pasos.
+Antes de comenzar el proceso de asignación de tareas, asegúrese de haber creado una lista de tareas siguiendo los pasos del artículo [Crear listas de tareas y agregar tareas](task-mgmt-create-lists.md). Para comenzar el proceso de asignación de una lista de tareas, siga estos pasos.
 
 1. Vaya a **Retail y Commerce \> Administración de tareas \> Administración de tareas**.
 1. Seleccione la lista de tareas para asignar.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218818"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739880"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Características quitadas o en desuso en Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí, la optimización de la planificación reemplazará al motor de planificación maestro de Supply Chain Management integrado. |
 | **Áreas de producto afectadas**         | Supply Chain Management: planificación maestra |
 | **Opción de implementación**              | Solo en la nube. Optimización de planificación no se admite en implementaciones locales. |
-| **Estado**                         | En desuso. El 1 de abril de 2022, los escenarios de fabricación ya no serán compatibles con el motor de planificación maestra de Supply Chain Management integrado. A partir de esa fecha, Microsoft detendrá todo el desarrollo activo en escenarios de fabricación para el motor de planificación integrado, no lanzará ninguna característica nueva y solo lanzará correcciones de errores críticos. Después de esa fecha, todas las empresas que requieran soporte para escenarios de fabricación deben utilizar la Optimización de la planificación para sus cálculos de planificación maestra. Se espera que la Optimización de la planificación sea totalmente compatible con los escenarios de fabricación para octubre de 2022. Para obtener más información, consulte la [documentación de Optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Las compañías con implementaciones locales de Supply Chain Management pueden continuar usando el motor de planificación maestra integrado para escenarios de fabricación después de abril de 2022. Sin embargo, no se proporcionarán más mejoras de funciones. |
+| **Estado**                         | En desuso. El 1 de abril de 2022, los escenarios de fabricación ya no serán compatibles con el motor de planificación maestra de Supply Chain Management integrado. A partir de esa fecha, Microsoft detendrá todo el desarrollo activo en escenarios de fabricación para el motor de planificación integrado, no lanzará ninguna característica nueva y solo lanzará correcciones de errores críticos. Después de esa fecha, todas las empresas que requieran soporte para escenarios de fabricación deben utilizar la Optimización de la planificación para sus cálculos de planificación maestra. Se espera que la Optimización de la planificación sea totalmente compatible con los escenarios de fabricación para octubre de 2022. Para más información, consulte [Resumen de la planificación maestra obsoleta](../master-planning/deprecated-master-planning-overview.md).<br><br>Las compañías con implementaciones locales de Supply Chain Management pueden continuar usando el motor de planificación maestra integrado para escenarios de fabricación después de abril de 2022. Sin embargo, no se proporcionarán más mejoras de funciones. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Funciones quitadas o en desuso en la versión 10.0.11 de Supply Chain Management
 
@@ -101,7 +101,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **¿Reemplazado por otra característica?**   | Sí, la optimización de la planificación reemplazará al motor de planificación maestro de Supply Chain Management integrado. |
 | **Áreas de producto afectadas**         | Supply Chain Management: planificación maestra |
 | **Opción de implementación**              | Solo en la nube. Optimización de planificación no se admite en implementaciones locales. |
-| **Estado**                         | En desuso. El 1 de abril de 2021, los escenarios de distribución ya no serán compatibles con lel motor de planificación maestra de Dynamics 365 Supply Chain Management integrado. Para escenarios de distribución, los clientes deben usar Optimización de planificación para los cálculos de planificación maestra. Para obtener más información, consulte la [documentación de Optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md). Los clientes con implementaciones locales de Dynamics 365 Supply Chain Management pueden continuar usando el motor de planificación maestra de Supply Chain Management para escenarios de distribución después de abril de 2021. Sin embargo, no se proporcionarán más mejoras de funciones. |
+| **Estado**                         | En desuso. El 1 de abril de 2021, los escenarios de distribución ya no serán compatibles con lel motor de planificación maestra de Dynamics 365 Supply Chain Management integrado. Para escenarios de distribución, los clientes deben usar Optimización de planificación para los cálculos de planificación maestra. Para más información, consulte [Resumen de la planificación maestra obsoleta](../master-planning/deprecated-master-planning-overview.md). Los clientes con implementaciones locales de Dynamics 365 Supply Chain Management pueden continuar usando el motor de planificación maestra de Supply Chain Management para escenarios de distribución después de abril de 2021. Sin embargo, no se proporcionarán más mejoras de funciones. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Anuncios anteriores sobre funciones quitadas u obsoletas
 

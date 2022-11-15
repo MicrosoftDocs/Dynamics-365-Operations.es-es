@@ -1,6 +1,6 @@
 ---
-title: Introducción a Optimización de planificación
-description: Este artículo explica cómo empezar a usar la función de optimización de la planificación.
+title: Introducción a planificación maestra
+description: Este artículo explica cómo empezar a usar la función de planificación maestra en Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295941"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740339"
 ---
-# <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
+# <a name="get-started-with-master-planning"></a>Introducción a planificación maestra
 
 [!include [banner](../../includes/banner.md)]
 
-Como se [anunció previamente](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), Planning Optimization está programado para reemplazar el motor de planificación maestro integrado existente.
-
-Si actualmente utiliza el motor de planificación maestro integrado, debería comenzar a planificar su migración a Planning Optimization ahora. Es importante comenzar de inmediato porque, de lo contrario, sus operaciones podrían verse afectadas cuando se aplica la desactivación (aunque la aplicación no está programada actualmente). Le recomendamos encarecidamente que complete la migración tan pronto como Planning Optimization admita las características que necesita para que pueda comenzar a aprovechar las muchas mejoras de rendimiento y otras capacidades nuevas proporcionadas por el nuevo servicio.
-
-La funcionalidad de optimización de la planificación no admite actualmente todas las características disponibles en el motor de planificación que se incorpora en Supply Chain Management. Por lo tanto, es importante que evalúe si la función que están disponible actualmente en la optimización de la planificación cumplirá sus requisitos. La funcionalidad de Planning Optimization no está activada actualmente de forma predeterminada en Dynamics Lifecycle Services (LCS), por lo que tiene la oportunidad de realizar su evaluación antes de que se active la función.
-
-> [!NOTE]
-> Debe solicitar una excepción de la migración a Planning Optimization si su proceso de planificación maestra no incluye la producción (la planificación maestra generó órdenes de producción planificadas) y necesita el motor de planificación maestra incorporado más allá de la versión 10.0.15. A partir de la versión 10.0.16, se mostrará un error en los entornos al ejecutar la planificación maestra incorporada sin la generación de órdenes de producción planificadas. La optimización de planificación debe utilizarse para todas las implementaciones nuevas que no generan órdenes de producción planificadas durante la planificación maestra. Los propietarios de entornos existentes que ejecutan el motor de planificación maestro incorporado sin generar órdenes de producción planificadas recibirán un correo con detalles sobre el proceso de excepción. Le recomendamos que trabaje con un socio para evaluar y planificar la migración a Planning Optimization.
-
-Antes de activar o desactivar la planificación de optimización, se recomienda encarecidamente que evalúe los resultados del análisis de aptitud de optimización de la planificación. Para obtener más información, consulte [Análisis de aptitud de optimización de la planificación](planning-optimization-fit-analysis.md).
+La planificación maestra en Supply Chain Management la proporciona un servicio externo denominado Complemento de optimización de planificación para Dynamics 365 Supply Chain Management. En este tema se explica cómo obtener y configurar ese servicio.
 
 ## <a name="availability"></a>Disponibilidad
 
@@ -108,31 +99,15 @@ El estado de la conexión indica el estado actual de la conexión entre Supply C
 Si se establece la opción **optimización de la planificación de uso** se determina el motor de planificación que se usa para la planificación maestra:
 
 - **Sí**: la optimización de la planificación se utiliza para la planificación maestra.
-- **No**: el motor de planificación de Supply Chain Management integrado se utiliza para la planificación maestra.
+- **No**: el motor de planificación maestra en desuso se utiliza para la planificación maestra.
 
-Esta configuración se aplica a todas las entidades legales (empresas). No es posible utilizar Planning Optimization en algunas entidades legales y la planificación maestra incorporada en otras entidades legales.
+Esta configuración se aplica a todas las entidades legales (empresas). No es posible utilizar Optimización de planificación en algunas entidades legales y el motor de planificación maestra en desuso en otras entidades legales.
 
 > [!NOTE]
-> Si se activan los trabajos por lotes existentes de planificación creados para el motor de planificación de Supply Chain Management integrado se activan mientras que la opción **optimización de la planificación de uso** está establecida en **Sí**, estos trabajos fallarán.
+> Si se activan los trabajos por lotes existentes de planificación creados para el motor de planificación maestra en desuso se activan mientras que la opción **optimización de la planificación de uso** está establecida en **Sí**, estos trabajos fallarán.
 
 ### <a name="integration-with-the-setup"></a>Integración con la configuración
 
 Si la vista previa de Optimización de la planificación está activada, la planificación maestra se realiza mediante el complemento de optimización de la planificación. En este caso, se ven afectados los resultados y las características de la planificación maestra.
 
-## <a name="additional-resources"></a>Recursos adicionales
-
-[Términos y condiciones de la vista previa](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Visión general de la optimización de la planificación](planning-optimization-overview.md)
-
-[Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
-
-[Ver el historial del plan y los registros de planificación](plan-history-logs.md)
-
-[Aplicar filtros a un plan](plan-filters.md)
-
-[Cancelar un trabajo de planificación](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

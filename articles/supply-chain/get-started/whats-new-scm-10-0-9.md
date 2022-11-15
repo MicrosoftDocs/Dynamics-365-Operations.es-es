@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854482"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740381"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.9 (abril de 2020)
 
@@ -73,7 +73,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 
 - [Consolidación en paralelo de órdenes planificadas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Para obtener más información, consulte [Confirmar pedidos planificados](../master-planning/planning-optimization/planned-order-firming.md) y vea el vídeo [Mejoras de rendimiento y usabilidad de MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
-- [Planificación de optimización para distribución](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Para obtener más información, consulte la [Descripción general de la optimización de planificación](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [Planificación de optimización para distribución](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Para obtener más información consulte [Página de inicio de planificación maestra](../master-planning/master-planning-home-page.md).
 
 - [Mejoras de los acuerdos de compra](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Para obtener más información, consulte [Acuerdos de compra](../procurement/purchase-agreements.md).
 

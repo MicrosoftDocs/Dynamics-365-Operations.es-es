@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690098"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740151"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Planificación maestra con previsiones de suministro
 
@@ -168,13 +168,13 @@ Cuando ejecuta un plan maestro que está configurado para usar *Ninguna* como m�
 
 Ahora edite la orden de compra planificada que se creó después de la última ejecución de planificación y cambie la cantidad a *15 c/u*. Luego aprueba el pedido. La próxima vez que ejecuta el plan maestro, creará una orden de compra planificada para el proveedor *US-101*, sitio *1*, depósito *11*, una cantidad de *10 c/u* y la fecha *10/10/22*. Esta vez, la cantidad se reducirá para reflejar la cantidad del pedido aprobado existente de la ejecución de planificación anterior.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Diferencias entre la Optimización de planificación y el motor de planificación incorporado
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Diferencias entre la Optimización de planificación y el motor de planificación maestra en desuso
 
-Las previsiones de suministro se comportan de forma ligeramente diferente en función del motor de planificación que use (Optimización de planificación o la planificación maestra integrada). Esta sección describe las diferencias.
+Las previsiones de suministro se comportan de forma ligeramente diferente en función del motor de planificación que use (Optimización de planificación o el motor de planificación maestra en desuso). Esta sección describe las diferencias.
 
 ### <a name="vendor-groups"></a>Grupos de proveedores
 
-Cuando agrega una línea pronosticada, puede especificar un proveedor y un grupo de proveedores. En el motor de planificación integrado, los pedidos planificados que se crean se agrupan por la combinación de los valores de proveedor y grupo de proveedores. En Planning Optimization, los pedidos planificados se agrupan por proveedor.
+Cuando agrega una línea pronosticada, puede especificar un proveedor y un grupo de proveedores. En el motor de planificación maestra en desuso, los pedidos planificados que se crean se agrupan por la combinación de los valores de proveedor y grupo de proveedores. En Planning Optimization, los pedidos planificados se agrupan por proveedor.
 
 La siguiente tabla proporciona algunos ejemplos de líneas de previsión de suministro para un artículo.
 
@@ -186,7 +186,7 @@ La siguiente tabla proporciona algunos ejemplos de líneas de previsión de sumi
 
 El proveedor *VendorA* es el proveedor predeterminado para el grupo de proveedores *VendorGroupA*. También es el proveedor predeterminado para el artículo.
 
-El motor de planificación integrado creará los siguientes pedidos:
+El motor de planificación maestra en desuso creará los siguientes pedidos:
 
 - Una orden de compra planificada para el proveedor *VendorA*, grupo de proveedores *VendorGroupA* y una cantidad de *11*
 - Una orden de compra planificada para el proveedor *VendorA* y una cantidad de *7*
@@ -197,7 +197,7 @@ La Optimización de la planificación creará solo un pedido:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Reducción de previsiones generales por previsiones más específicas
 
-En el motor de planificación maestro incorporado, el resultado es impredecible si algunos pronósticos tienen un proveedor pero otros no.
+En el motor de planificación maestro en desuso, el resultado es impredecible si algunos pronósticos tienen un proveedor pero otros no.
 
 En Planning Optimization, las previsiones generales siempre se reducen con previsiones más específicas, como muestra el siguiente ejemplo.
 
@@ -218,15 +218,15 @@ La previsión general (para 15,00 piezas) se reduce por las previsiones más esp
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Respecto a la configuración de pedidos predeterminada cuando se generan pedidos planificados
 
-Cada artículo puede tener una configuración de pedido predeterminada, como una cantidad mínima de pedido de compra. El motor de planificación incorporado ignora esta configuración y, por lo tanto, traduce los pronósticos en pedidos planificados que tienen la misma cantidad. La optimización de la planificación respeta esta configuración cuando los pedidos planificados se generan a partir de las previsiones de suministro. 
+Cada artículo puede tener una configuración de pedido predeterminada, como una cantidad mínima de pedido de compra. El motor de planificación maestra en desuso ignora esta configuración y, por lo tanto, traduce los pronósticos en pedidos planificados que tienen la misma cantidad. La optimización de la planificación respeta esta configuración cuando los pedidos planificados se generan a partir de las previsiones de suministro. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Agregación de pedidos planificados como resultado de la reducción por pedidos aprobados
 
-El motor de planificación maestro incorporado asume que solo un pedido reducirá el pronóstico de suministro existente. Por tanto, si varios pedidos coinciden con una línea de previsión de suministro, sólo el primer pedido la reducirá. En Planning Optimization, todos los pedidos que coincidan con la línea de previsión de suministro la reducirán.
+El motor de planificación maestro en desuso asume que solo un pedido reducirá el pronóstico de suministro existente. Por tanto, si varios pedidos coinciden con una línea de previsión de suministro, sólo el primer pedido la reducirá. En Planning Optimization, todos los pedidos que coincidan con la línea de previsión de suministro la reducirán.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Reducción de las previsiones solo por coincidencia de proveedores
 
-Cuando el motor de planificación maestro incorporado reduce un pronóstico por pedidos de compra emitidos existentes, no garantiza que el proveedor del pedido de compra coincida con el proveedor del pronóstico. La optimización de la planificación reduce los pronósticos solo por órdenes de compra que tienen un valor coincidente en el campo del proveedor.
+Cuando el motor de planificación maestro en desuso reduce un pronóstico por pedidos de compra emitidos existentes, no garantiza que el proveedor del pedido de compra coincida con el proveedor del pronóstico. La optimización de la planificación reduce los pronósticos solo por órdenes de compra que tienen un valor coincidente en el campo del proveedor.
 
 Para las órdenes de producción y transferencia, el campo del proveedor siempre se ignora porque no es relevante para esos tipos de órdenes.
 
@@ -234,4 +234,4 @@ Para las órdenes de producción y transferencia, el campo del proveedor siempre
 
 Si el tipo de pedido predeterminado para un artículo es *Transferir*, las previsiones solo se pueden reducir mediante órdenes de transporte planificadas existentes. Sin embargo, para órdenes de producción y órdenes de compra, solo las órdenes emitidas reducen el pronóstico de suministro.
 
-El motor de planificación incorporado reduce para todos los estados de órdenes de transferencia, mientras que la Optimización de la planificación reduce los pronósticos solo para las órdenes de transferencia que están en el estado *Liberado*.
+El motor de planificación maestra en desuso reduce para todos los estados de órdenes de transferencia, mientras que la Optimización de la planificación reduce los pronósticos solo para las órdenes de transferencia que están en el estado *Liberado*.

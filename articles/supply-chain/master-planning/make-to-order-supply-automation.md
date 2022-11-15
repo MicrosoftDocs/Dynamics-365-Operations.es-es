@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220600"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740204"
 ---
 # <a name="make-to-order-supply-automation"></a>Automatización del suministro de fabricación contra pedido
 
@@ -32,12 +32,6 @@ La característica *Automatización de suministro bajo pedido* agrega varias mej
 - Mejorar el flujo de información de empresas vinculadas. Las órdenes de compra se actualizan para que incluyan campos para el modo de entrega, las condiciones de entrega y el número de artículo externo. Este cambio garantiza que la información detallada de la demanda pueda fluir a la empresa proveedora.
 
 Este artículo describe cómo configurar y utilizar cada mejora.
-
-> [!NOTE]
-> Todas las mejoras que se describen en este artículo se aplican a los sistemas que utilizan la planificación maestra integrada. Las siguientes dos mejoras también son compatibles con el complemento de optimización de planificación para Microsoft Dynamics 365 Supply Chain Management:
->
-> - Tolerancia de retraso en los planes maestros
-> - Control sobre la secuencia de trazabilidad que se utiliza durante la planificación maestra
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Activar la función de automatización de suministro de fabricación bajo pedido
 
@@ -73,7 +67,7 @@ Para abrir la página **Carga de capacidad** para que pueda revisar la capacidad
 
 Estas opciones también están disponibles en el campo **Actualizar marcado** en la ficha **Actualización estándar** de la página **Parámetros de planificación maestra**, donde se define la selección predeterminada para el cuadro de diálogo **Puesta en firme**.
 
-Para obtener más información, consulte [Marcado de inventario con la optimización de la planificación](planning-optimization/marking.md).
+Para obtener más información, consulte [Marcado de inventario](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Establecer la tolerancia de retraso (días negativos) en el nivel del plan maestro
 

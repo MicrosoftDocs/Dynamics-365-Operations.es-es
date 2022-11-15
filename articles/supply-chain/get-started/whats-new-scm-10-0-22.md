@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124802"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740420"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.22 (noviembre de 2021)
 
@@ -29,7 +29,7 @@ En este artículo se enumeran las características nuevas o modificadas en Micro
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
-La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
+La tabla siguiente enumera las características incluidas en esta versión. La columna *Característica* proporciona enlaces al [plan de lanzamiento](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), donde puede ver las fechas de lanzamiento oficiales de cada característica. La columna *Más información* proporciona más detalles y/o vínculos a la documentación relacionada. Para determinar cómo activar una función, consulte la columna *Habilitado por*. Para obtener más información acerca de cómo usar la administración de características, consulte [Visión general de la Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Puede que haya actualizaciones de este artículo para incluir características que se incluyeron en la compilación después de la publicación inicial del artículo.
 
 | Área de características | Característica | Más información | Habilitada por   |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Recientemente hemos agregado o actualizado significativamente los siguientes art
 |---|---|
 | Administración de cambios de ingeniería | [Descripción general de la gestión de cambios de ingeniería](../engineering-change-management/product-engineering-overview.md) ahora enumera todas las funciones opcionales relacionadas disponibles en la administración de características |
 | Planificación maestra | [Configuración de previsión de demanda](../master-planning/demand-forecasting-setup.md) |
-| Planificación maestra | [Requisitos netos e información de diagrama de árbol con Optimización de planificación](../master-planning/planning-optimization/net-requirements.md) |
+| Planificación maestra | [Necesidades netas e información de diagrama de árbol](../master-planning/planning-optimization/net-requirements.md) |
 | Gestión de almacenes | [Liberar al almacén](../warehousing/release-to-warehouse-process.md) proporciona una descripción detallada del proceso completo de liberación al almacén |
 
 ## <a name="additional-resources"></a>Recursos adicionales

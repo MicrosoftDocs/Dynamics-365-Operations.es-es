@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335357"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740532"
 ---
 # <a name="firm-planned-orders"></a>Poner en firme pedidos planificados
 
@@ -33,7 +33,7 @@ Este artículo describe cada método en detalle.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Habilitar las funciones que se describen en este artículo
 
-La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management que utilizan Optimización de planificación. Sin embargo, algunas de las funciones que se describen en este artículo deben estar activadas en Administración de funciones antes de poder utilizarlas.
+La mayoría de las funciones de pedidos planificados están disponibles en todas las instalaciones estándar de Microsoft Dynamics 365 Supply Chain Management. Sin embargo, algunas de las funciones que se describen en este artículo deben estar activadas en Administración de funciones antes de poder utilizarlas.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Activar o desactivar la confirmación en paralelo de pedidos planificados
 
@@ -91,7 +91,7 @@ Para confirmar manualmente los pedidos planificados, busque y seleccione los ped
 
 ## <a name="auto-firm-planned-orders"></a>Confirmación automática de pedidos planificados
 
-La confirmación automática permite confirmar los pedidos planificados como parte del proceso de planificación maestra. Puede definir un límite de tiempo de confirmación predeterminado para grupos de cobertura, artículos individuales y combinaciones de artículos y planes maestros. Luego, durante las ejecuciones de planificación maestra, las órdenes planificadas se confirmarán automáticamente si la fecha del pedido se encuentra dentro del límite de tiempo especificado para la confirmación. Los pedidos planificados que se generan mediante Optimización de planificación y la operación de planificación maestra incorporada manejan la fecha del pedido (es decir, la fecha de inicio) de manera diferente.
+La confirmación automática permite confirmar los pedidos planificados como parte del proceso de planificación maestra. Puede definir un límite de tiempo de confirmación predeterminado para grupos de cobertura, artículos individuales y combinaciones de artículos y planes maestros. Luego, durante las ejecuciones de planificación maestra, las órdenes planificadas se confirmarán automáticamente si la fecha del pedido se encuentra dentro del límite de tiempo especificado para la confirmación. Los pedidos planificados que se generan mediante Optimización de planificación y el motor de planificación maestra incorporada manejan la fecha del pedido (es decir, la fecha de inicio) de manera diferente.
 
 > [!NOTE]
 > La confirmación automática de los pedidos de compra planificados solo puede producirse para artículos asociados a un proveedor.
@@ -99,13 +99,13 @@ La confirmación automática permite confirmar los pedidos planificados como par
 > Los pedidos derivados (es decir, pedidos de compra subcontratados) que estén confirmados mostrarán un estado de *En revisión* cuando el seguimiento de cambios esté habilitado.
 
 > [!IMPORTANT]
-> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada para su sistema, como se describe al principio de este artículo. La confirmación automática siempre se puede utilizar con el motor de planificación maestra incorporado.
+> Antes de que la función que se describe en esta sección se pueda utilizar con Optimización de planificación, la [función *Confirmación automática de Optimización de planificación*](#enable-features) debe estar activada para su sistema, como se describe al principio de este artículo. La confirmación automática siempre se puede utilizar con el motor de planificación maestra en desuso.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Confirmación automática con Optimización de planificación frente al motor de planificación integrado
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Confirmación automática con Optimización de planificación frente al motor de planificación maestra en desuso
 
-La Optimización de planificación y el motor de planificación incorporado pueden utilizarse para confirmación automática de pedidos planificados. Sin embargo, existen algunas diferencias importantes. Por ejemplo, mientras que Optimización de planificación utiliza la fecha del pedido (es decir, la fecha inicial) para determinar qué pedidos planificados confirmar, el motor de planificación incorporado usa la fecha de requisito (es decir, la fecha final). En la tabla siguiente se resumen las diferencias.
+La Optimización de planificación y el motor de planificación maestra en desuso pueden utilizarse para confirmación automática de pedidos planificados. Sin embargo, existen algunas diferencias importantes. Por ejemplo, mientras que Optimización de planificación utiliza la fecha del pedido (es decir, la fecha inicial) para determinar qué pedidos planificados confirmar, el motor de planificación maestra en desuso usa la fecha de requisito (es decir, la fecha final). En la tabla siguiente se resumen las diferencias.
 
-| Característica | Optimización de planificación | Motor de planificación incorporado |
+| Característica | Optimización de planificación | Motor de planificación maestra en desuso |
 |---|---|---|
 | **Base de fecha** | La puesta en firme automática se basa en la fecha del pedido (fecha inicial). | La puesta en firme automática en la fecha de requisito (fecha final). |
 | **Plazo** | Dado que la fecha del pedido (fecha inicial) activa la puesta en firme, no tiene que tener e cuenta el plazo como parte del límite de tiempo de la puesta en firme. | Para ayudar a garantizar que los pedidos se confirmen puntualmente, el límite de tiempo de confirmación debe ser superior al plazo. |
