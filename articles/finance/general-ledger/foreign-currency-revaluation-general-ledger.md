@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904539"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752813"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para el libro mayor
 
@@ -64,7 +64,9 @@ El proceso de revalorización se puede ejecutar para una o más entidades juríd
 
 La revalorización se puede ejecutar para una o más divisas extranjeras. La búsqueda incluirá todas las divisas que se han registrado en el intervalo de fechas relevante para el tipo de cuenta principal (balance de situación o pérdidas y ganancias), para revalorizar las entidades jurídicas seleccionadas. La divisa contable se incluirá en la lista, pero no se revalorizará nada si se selecciona la divisa contable. 
 
-Establezca **Vista previa antes del registro** en **Sí** si desea revisar el resultado de la revalorización de la contabilidad general. La vista previa en la contabilidad general es diferente de la simulación de la revalorización de divisa extranjera de cuentas de clientes y proveedores. La simulación en cuentas de clientes y proveedores es un informe, pero la contabilidad general tiene una vista previa que se pueda publicar sin tener que ejecutar el proceso de revalorización de nuevo. Los resultados de la vista previa se pueden exportar a Microsoft Excel para guardar el historial de cómo se calcularon los importes. No puede usar el procesamiento por lotes si desea obtener una vista previa de los resultados de la revalorización. En la vista previa, el usuario tiene la opción de publicar los resultados de todas las entidades jurídicas mediante el botón **Publicar**. Si hay un problema con los resultados para una entidad jurídica, el usuario también tiene la opción de publicar un subconjunto de las entidades jurídicas mediante el botón **Seleccionar entidades jurídicas para publlicar**. 
+Establezca **Vista previa antes del registro** en **Sí** si desea revisar el resultado de la revalorización de la contabilidad general. La vista previa en la contabilidad general es diferente de la simulación de la revalorización de divisa extranjera de cuentas de clientes y proveedores. La simulación en cuentas de clientes y proveedores es un informe, pero la contabilidad general tiene una vista previa que se pueda publicar sin tener que ejecutar el proceso de revalorización de nuevo. Los resultados de la vista previa se pueden exportar a Microsoft Excel para guardar el historial de cómo se calcularon los importes. No puede usar el procesamiento por lotes si desea obtener una vista previa de los resultados de la revalorización. En la vista previa, el usuario tiene la opción de publicar los resultados de todas las entidades jurídicas mediante el botón **Publicar**. Si hay un problema con los resultados para una entidad jurídica, el usuario también tiene la opción de publicar un subconjunto de las entidades jurídicas mediante el botón **Seleccionar entidades jurídicas para publlicar**.
+
+Si desea excluir los ajustes que se registraron utilizando el **Diario de ajustes de divisa de notificación** del proceso de revalorización, establezca **Excluir ajustes de divisa de notificación** a **Sí**. De forma predeterminada, los ajustes de divisa de notificación se incluyen en la revaluación. 
 
 Una vez finalizado el proceso de revalorización de divisa extranjera, se creará un registro para el seguimiento del historial de cada ejecución.  Se creará un registro individual para cada entidad jurídica y capa de registro.
 

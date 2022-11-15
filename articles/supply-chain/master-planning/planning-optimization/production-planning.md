@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335267"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740559"
 ---
 # <a name="production-planning"></a>Planificación de producción
 
 [!include [banner](../../includes/banner.md)]
-
-Optimización de planificación admite varios escenarios de producción. Si está migrando desde el motor de planificación maestro integrado existente, es importante estar al tanto de algunos cambios de comportamiento.
 
 El siguiente video ofrece una breve introducción a algunos de los conceptos discutidos en este artículo: [Dynamics 365 Supply Chain Management: mejoras en la optimización de la planificación](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Los pedidos de producción planificados incluyen el ID de ruta que se requiere p
 
 - **Pedido de producción planificado** - El tiempo de entrega se basa en el tiempo de entrega estático del producto liberado.
 - **Pedido de producción de puesta en firme** - El tiempo de espera se basa en la programación que utiliza la información de la ruta y las limitaciones de recursos relacionadas.
-
-Para obtener más información sobre la disponibilidad esperada de las funciones, consulte [Análisis de ajuste de optimización de planificación](planning-optimization-fit-analysis.md).
-
-Si depende de la funcionalidad de producción que aún no está disponible para Optimización de la planificación, puede continuar utilizando el motor de planificación maestro integrado. No se requiere ninguna excepción.
 
 ## <a name="delays"></a>Retrasos
 
@@ -76,15 +70,15 @@ Puede usar la página **Expansión** para analizar la demanda necesaria para un 
 
 ## <a name="filters"></a><a name="filters"></a>Filtros
 
-Para asegurarse de que la Optimización de planificación tenga la información necesaria para calcular el resultado correcto, debe incluir todos los productos que tengan alguna relación con los productos en toda la estructura de la lista de materiales del pedido planificado. Para escenarios de planificación que incluyen producción, le recomendamos que evite las ejecuciones de planificación maestra filtradas.
+Para asegurarse de que la planificación maestra tenga la información necesaria para calcular el resultado correcto, debe incluir todos los productos que tengan alguna relación con los productos en toda la estructura de la lista de materiales del pedido planificado. Para escenarios de planificación que incluyen producción, le recomendamos que evite las ejecuciones de planificación maestra filtradas.
 
-Aunque los elementos secundarios dependientes se detectan e incluyen automáticamente en las ejecuciones de planificación maestra cuando se utiliza el motor de planificación maestra incorporado, actualmente la optimización de planificación no realiza esta acción.
+Aunque los elementos secundarios dependientes se detectan e incluyen automáticamente en las ejecuciones de planificación maestra cuando se utiliza el motor de planificación maestra en desuso, actualmente la optimización de planificación no realiza esta acción.
 
 Por ejemplo, si un solo perno de la estructura de la lista de materiales del producto A también se utiliza para producir el producto B, todos los productos de la estructura de la lista de materiales de los productos A y B deben incluirse en el filtro. Debido a que puede resultar complejo garantizar que todos los productos formen parte del filtro, le recomendamos que evite las ejecuciones de planificación maestra filtradas cuando se trata de pedidos de producción. De lo contrario, la planificación maestra proporcionará resultados no deseados.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Razones para evitar ejecuciones de planificación maestra filtradas
 
-Cuando ejecuta una planificación maestra filtrada para un producto, la optimización de la planificación (a diferencia del motor de planificación maestra incorporado) no detecta todos los subproductos y las materias primas en la estructura de la lista de materiales de ese producto y, por lo tanto, no los incluye en la ejecución de planificación maestra. Aunque la optimización de planificación identifica el primer nivel en la estructura de la lista de materiales del producto, no carga ninguna configuración del producto (como el tipo de pedido predeterminado o la cobertura del artículo) de la base de datos.
+Cuando ejecuta una planificación maestra filtrada para un producto, la optimización de la planificación (a diferencia del motor de planificación maestra en desuso) no detecta todos los subproductos y las materias primas en la estructura de la lista de materiales de ese producto y, por lo tanto, no los incluye en la ejecución de planificación maestra. Aunque la optimización de planificación identifica el primer nivel en la estructura de la lista de materiales del producto, no carga ninguna configuración del producto (como el tipo de pedido predeterminado o la cobertura del artículo) de la base de datos.
 
 En la optimización de la planificación, los datos de la ejecución se cargan de antemano y se aplican los filtros. Esto significa que si un subproducto o materia prima incluida en un producto específico no forma parte del filtro, la información sobre él no se extraerá para la ejecución. Además, si el subproducto o la materia prima también se incluye en otro producto, una ejecución filtrada que incluya solo el producto original y sus componentes eliminaría la demanda planificada existente que se creó para ese otro producto.
 

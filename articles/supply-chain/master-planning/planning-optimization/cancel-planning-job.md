@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900952"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741186"
 ---
 # <a name="cancel-a-planning-job"></a>Cancelar un trabajo de planificación
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900952"
 
 En Microsoft Dynamics 365 Supply Chain Management puede cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación. Cuando seleccionas **Cancelar** en el cuadro de diálogo cuando un trabajo de optimización de Planificación se activa directamente desde la interfaz de usuario (no en segundo plano), esto no cancelará el trabajo de optimización de Planificación. Incluso si recibe una advertencia como "Operación cancelada", deberá seguir los siguientes pasos para cancelar un trabajo de planificación con la optimización de planificación.
 
-
-Para cancelar un trabajo activo de planificación, siga estos pasos. 
+Para cancelar un trabajo activo de planificación, siga estos pasos.
 
 > [!NOTE]
 > Sólo puede cancelar trabajos activos.
@@ -45,18 +44,6 @@ El estado del trabajo será **Cancelando** hasta que el servicio de optimizació
 
 > [!NOTE]
 > Para ver cambios de estado, debe actualizar la página seleccionando el botón **Actualizar**.
-
-## <a name="additional-resources"></a>Recursos adicionales
-
-[Visión general de la optimización de la planificación](planning-optimization-overview.md)
-
-[Introducción a la optimización de la planificación](get-started.md)
-
-[Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
-
-[Ver el historial del plan y los registros de planificación](plan-history-logs.md)
-
-[Aplicar filtros a un plan](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
