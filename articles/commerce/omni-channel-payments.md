@@ -2,7 +2,7 @@
 title: Información general de pagos omnicanal
 description: Este artículo proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881718"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746136"
 ---
 # <a name="omni-channel-payments-overview"></a>Información general de pagos omnicanal
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artículo proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce. Incluye una lista completa de escenarios admitidos, información sobre funcionalidad, configuración, soluciones de problemas y las descripciones de problemas habituales.
 
@@ -104,7 +105,7 @@ En las secciones siguientes se describen los pasos para cada escenario y se pres
 Antes de empezar, asegúrese de que se cumplan los siguientes requisitos previos:
 
 - Tiene un escaparate de referencia donde se configura el conector Adyen.
-- La opción **Pagos de omnicanal** en la página **Parámetros compartidos de Commerce** se establece en **Verdadero**. En versiones posteriores, esta característica se pasa al espacio de trabajo **Administración de características** donde puede seleccionar la característica **Pagos omnicanal** característica y hacer clic en **Habilitar ahora**. 
+- La opción **Pagos de omnicanal** en la página **Parámetros compartidos de Commerce** se establece en **Verdadero**. En versiones posteriores, esta configuración se pasa al espacio de trabajo **Administración de características** donde puede seleccionar la característica **Pagos omnicanal** característica y hacer clic en **Habilitar ahora**. 
 - El connector de pago de Adyen está configurado para el registro de Houston PDV.
 - Retail Modern POS para Windows o Android con una estación de hardware integrada o
 - Modern POS para iOS o Cloud POS con estación de hardware compartida conectada. 
@@ -169,9 +170,9 @@ Para ejecutar el escenario, siga estos pasos:
 6. En la barra de búsqueda, introduzca **Seattle**, y seleccione la tienda de **Seattle** para la recogida. 
 7. Seleccione **Aceptar** para aceptar la fecha actual como la fecha de la recogida.
 9. Seleccionar **Pagar con tarjeta** para iniciar el pago.
-10. Introduzca la cantidad del pago por tarjeta que se debe depositar. 
+10. Introduzca la cantidad del pago por tarjeta que se debe depositar.
 11. Complete el pago de depósito en el terminal de pago. 
-12. Una vez que el depósito se pague, seleccione la opción de usar la misma tarjeta para el cumplimiento, y espere a que el pedido esté completado. 
+12. Una vez que el depósito se pague, seleccione la opción de usar la misma tarjeta para el cumplimiento, y espere a que el pedido esté completado. Si se paga el 100 % del depósito (del paso 10 anterior), los fondos se capturan de inmediato contra la tarjeta y no habrá un token de autorización disponible en la facturación porque los fondos ya se capturaron y rastrearon como pagados.
 13. Iniciar el sistema PDV para la tienda de Seattle.
 14. En el PDV, en la página de inicio, seleccione la operación **Pedidos a recoger** para ver los pedidos para recoger en el almacén. 
 15. Seleccione una o más líneas del pedido que se ha creado en el escaparate de referencia y, a continuación seleccione **Recoger**.
@@ -198,7 +199,7 @@ Para ejecutar el escenario, siga estos pasos:
 8. Seleccionar **Pagar con tarjeta** para iniciar el pago.
 9. Introduzca la cantidad del pago por tarjeta que se debe depositar. 
 10. Complete el pago de depósito en el terminal de pago. 
-11. Una vez que el depósito se pague, seleccione la opción de usar la misma tarjeta para el cumplimiento, y espere a que el pedido esté completado.
+11. Una vez que el depósito se pague, seleccione la opción de usar la misma tarjeta para el cumplimiento, y espere a que el pedido esté completado. Si se paga el 100 % del depósito (del paso 9 anterior), los fondos se capturan de inmediato contra la tarjeta y no habrá un token de autorización disponible en la facturación porque los fondos ya se capturaron y rastrearon como pagados.
 
 Cuando el pedido sea recogido, empaquetado y facturado en el área de operaciones,, los detalles de pago que se proporcionan en el sistema PDV se usarán para recuperar los fondos de mercancías que se envían al cliente. 
 

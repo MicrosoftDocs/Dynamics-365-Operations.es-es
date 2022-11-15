@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287521"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751951"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar y administrar imágenes para Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Para todas las entidades excepto los productos, puede sobrescribir la URL de ima
     [![Página de galería de imágenes del catálogo.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Actualmente, la galería no muestra vistas previas de imagen para las URL de imagen de la plantilla multimedia. Para las entidades del catálogo, del trabajador, del cliente y de la categoría, si el usuario proporciona explícitamente una URL a través de esta página, se recomienda que indique qué imagen es la imagen predeterminada, ya que los clientes de Commerce Scale Unit muestran solo una imagen por catálogo, cliente, trabajador y categoría. Si el usuario no especifica una imagen predeterminada, el sistema determina la imagen predeterminada y la envía al visitante del servicio Commerce (MPOS o comercio electrónico).
+> Solo las imágenes accesibles pública y anónimamente se renderizarán en PDV. PDV admite la representación de imágenes alojadas externamente, con el requisito de que las imágenes se devuelvan como un flujo de octetos en línea para solicitudes GET sin encabezados. Con política de acceso anónimo, específica para imágenes alojadas en SharePoint que requieren que los encabezados de solicitud contengan encabezados de host y de agente de usuario, se devolverá una respuesta "Prohibido". Por lo tanto, la gestión de imágenes utilizando SharePoint ya que el host actualmente no es compatible de fábrica. La página de la galería **Catálogo de imágenes** no muestra vistas previas de imagen para las URL de imagen de la plantilla multimedia. Dado que los clientes de Commerce Scale Unit (CSU) solo muestran una imagen por entidad, catálogo cliente, trabajador y categoría, si proporciona una URL mediante esta página para las entidades catálogo, trabajador, cliente y categoría, le recomendamos que indica qué imagen es la predeterminada. Si no especifica una imagen predeterminada, el sistema determina la imagen predeterminada y la envía al visitante del servicio Commerce (MPOS o comercio electrónico).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Sobrescribir la URL de imagen para imágenes de productos del catálogo de la página de vista previa
 
