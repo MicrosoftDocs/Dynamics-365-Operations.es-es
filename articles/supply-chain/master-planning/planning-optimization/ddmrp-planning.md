@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689214"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740312"
 ---
 # <a name="demand-driven-planning"></a>Planificación basada en la demanda
 
@@ -55,4 +55,4 @@ Si ejecuta la planificación maestra ahora, generará un pedido planificado si s
 Este ejemplo genera un pedido de compra planificado para una cantidad de 130, que equivale al nivel máximo menos el flujo neto. Al pedido planificado se le asigna una prioridad de 53,07, en función de su porcentaje de la cantidad máxima. Dado que estos valores se encontraron el 20 de junio, el sistema crea un pedido planificado con fecha del 20 de junio más el plazo de entrega desacoplado del artículo (cinco días hábiles en este ejemplo). Por tanto, dado que cinco días hábiles son una semana a partir de hoy, la orden planificada tiene la fecha del 27 de junio.
 
 > [!NOTE]
-> Optimización de planificación calcula solo los elementos desacoplados mediante DDMRP. Todos los demás artículos se calculan utilizando la planificación estándar de requisitos de material (MRP).
+> Planificaciójn maestra calcula solo los elementos desacoplados mediante DDMRP. Todos los demás artículos se calculan utilizando la planificación estándar de requisitos de material (MRP).
