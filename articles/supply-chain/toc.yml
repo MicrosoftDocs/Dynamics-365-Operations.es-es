@@ -3395,6 +3395,8 @@
           items:
             - name: Información general de la gestión de almacenes
               href: warehousing/warehouse-management-overview.md
+            - name: Comience a configurar el módulo Gestión de almacenes
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Operaciones de almacén de entrada
               items:
                 - name: Gestión de almacén de cargas entrantes para pedidos de compra

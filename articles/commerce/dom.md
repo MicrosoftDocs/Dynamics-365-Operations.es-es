@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878523"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764191"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -68,7 +68,7 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
         > [!NOTE]
         > El Solucionador simplificado se proporciona para que los minoristas puedan probar la característica DOM sin tener que implementar la licencia especial. Las organizaciones no deben usar el Solucionador simplificado en entornos de producción.
         >
-        > El Solucionador de producción mejora el rendimiento (como el número de pedidos y líneas de pedido que se pueden manejar en una ejecución) y la convergencia de resultados (dado que un lote de pedidos puede no producir el mejor resultado en algunas situaciones). Algunas reglas, como **Órdenes parciales** y **Número máximo de ubicaciones** requieren del Solucionador de producción.
+        > El Solucionador de producción mejora el rendimiento (como el número de pedidos y líneas de pedido que se pueden manejar en una ejecución) y la convergencia de resultados (dado que un lote de pedidos puede no producir el mejor resultado en algunas situaciones). La regla **Pedidos parciales** requiere el Solucionador de producción.
 
 6. Vuelva a **Retail y Commerce \> Administración de pedidos distribuida \> Configuración \> Parámetros de DOM**.
 7. En la pestaña **Secuencias numéricas**, asigne las secuencias numéricas necesarias a las distintas entidades de DOM.

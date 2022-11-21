@@ -1188,7 +1188,9 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Las transacciones entre la liquidación de contabilidad y el cierre de fin de año
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: Revalorización de divisa extranjera para el libro mayor
+                - name: Automatización liquidaciones de contabilidad
+                  href: general-ledger/auto-settle.md
+                - name: Revalorización de divisa extranjera para contabilidad general
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Saldos de cuentas de la contabilidad general
                   href: general-ledger/general-ledger-account-balances.md

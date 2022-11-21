@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751969"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752760"
 ---
 # <a name="year-end-activities-faq"></a>Preguntas frecuentes sobre las actividades de fin de ejercicio 
 
@@ -95,7 +95,24 @@ Para poder usar esta característica, debe estar activada en su sistema. Los adm
 - Módulo: Contabilidad general
 - Nombre de la característica: Mejoras de rendimiento para volver a crear conjuntos de dimensiones financieras
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Proveedores: ¿Qué cambios se han realizado para respaldar el informe de fin de ejercicio 1099 para 2021?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Proveedores: ¿Qué cambios se han realizado para admitir el informe de fin de ejercicio 1099 para 2022?
+
+#### <a name="update-to-all-1099-forms"></a>Actualizar a todos los formularios 1099
+Se han realizado los siguientes cambios en todos los formularios 1099 para el año fiscal 2022:
+
+  - En 2021, el año se fijó en los formularios 1099. A partir de 2022, el año se completa con el informe. 
+
+#### <a name="1099-misc"></a>1099-MISC
+Se han realizado las siguientes actualizaciones en el formulario 1099-MISC para el año fiscal 2022:
+
+ - Casilla 13: ahora indica el requisito de presentación de la Ley de Cumplimiento Tributario de Cuentas Extranjeras (Foreign Account Tax Compliance Act, FATCA). 
+ - Casilla 14: ahora se usa para declarar los pagos excesivos por desvinculación laboral dorados. 
+ - Casilla 15: ahora se usa para declarar el pago bajo planes de compensación diferida no calificada (NQDC). 
+ - Casilla 16: ahora se usa para declarar los impuestos retenidos estatales.
+ - Casilla 17: ahora se usa para informar del número de estado del pagador.
+ - Casilla 18: ahora se usa para declarar los ingresos estatales. 
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Proveedores: ¿Qué cambios se han realizado para admitir los informes de fin de ejercicio 1099 para 2021?
 
 En 2021, los formularios DIV, NEC y MISC se modificaron ligeramente y se agregaron algunas casillas adicionales.
 
