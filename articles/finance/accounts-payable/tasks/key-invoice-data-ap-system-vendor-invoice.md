@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716814"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775199"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Datos de factura clave en proveedores mediante una factura de proveedor
 
@@ -68,7 +68,10 @@ Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido d
 17. En el campo **Precio unitario**, escriba un número. Ahora que el precio unitario coincide, el estado se actualiza a Aprobado. Si la directiva permite las discrepancias o si la conciliación solo es una advertencia, podrá registrar la factura.  
 18. Cierre la página.
 19. Haga clic en **Registrar**.
-20. Cierre el formulario. Tenga en cuenta que el pedido de compra ya no aparece en la lista como recibido, sino como no facturado.  
+20. Cierre la página. 
+
+>[!Note] 
+>El pedido de compra ya no aparece en la lista como recibido, sino como no facturado.  
 
 
 

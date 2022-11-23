@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910269"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778394"
 ---
 # <a name="create-sales-order-invoices"></a>Crear facturas de pedidos de ventas
 
@@ -32,12 +32,12 @@ Este artículo describe cómo se factura un pedido de ventas, e incluye la combi
 2. Seleccione un pedido de ventas en la lista. 
 3. En el **panel de acciones**, haga clic en **Factura > Generar > Factura**. Tenga en cuenta que este pedido de ventas tiene varios albaranes asociados con él. Solo mostrará la palabra *múltiple* en lugar del número de albarán.  
 4. Expanda la sección **Parámetros**.
-    - El registro se debe establecer en Sí para registrar la factura. También puede desactivar el registro y solo imprimir la factura. Sin embargo, puede lograr el mismo resultado creando una factura de proforma en lugar de una factura.  
+    - El registro se debe establecer en **Sí** para registrar la factura. También puede desactivar el registro y solo imprimir la factura. Sin embargo, puede lograr el mismo resultado creando una factura de proforma en lugar de una factura.  
     - Esta opción es la que se usa para trabajos por lotes. El trabajo por lotes se ejecuta al registrar pedidos de ventas.
-5. En el campo **Imprimir**, seleccione "Después de".
+5. En el campo **Imprimir**, seleccione **Después de**.
 6. Seleccione **Sí** para **Imprimir factura**. La gestión de impresión puede imprimir varias copias de la factura y también enviar la factura por correo electrónico como archivo PDF.  
-7. En el campo **Imprimir costes**, seleccione "Resumir".
-8. En el campo **Comprobar límite de crédito**, seleccione "Saldo".
+7. En el campo **Imprimir costes**, seleccione **Resumir**.
+8. En el campo **Comprobar límite de crédito**, seleccione **Saldo**.
 9. Haga clic en **Cancelar**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Combinar pedidos en una única factura
@@ -46,8 +46,8 @@ Este artículo describe cómo se factura un pedido de ventas, e incluye la combi
 3. Seleccione varios pedidos de ventas abiertos del mismo cliente.
 4. En el **panel de acciones**, haga clic en **Factura > Generar > Factura**.
 5. Expanda la sección **Parámetros**.
-6. En el campo **Cantidad**, seleccione "Todo". Tenga en cuenta que hay dos facturas que aparecen en la sección de descripción. Ahora vamos a combinarlas en una única factura.  
-7. En el campo **Actualización conjunta para**, seleccione "Cuenta de facturación".
+6. En el campo **Cantidad**, seleccione **Todo**. Tenga en cuenta que hay dos facturas que aparecen en la sección de descripción. Ahora vamos a combinarlas en una única factura.  
+7. En el campo **Actualización conjunta para**, seleccione **Cuenta de facturación**.
 8. Haga clic en **Organizar** para combinar los pedidos de ventas en una única factura. Los dos pedidos de ventas se combinan ahora en una única factura.   
 9. Haga clic en **Cancelar**.
 10. Haga clic en **Sí**.

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752308"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775411"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -112,7 +112,7 @@ Para obtener información sobre las horas de oscuridad para cada región, consul
 | Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
 | Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
 | Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
-| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 15 de noviembre al 18 de noviembre de 2022 |
 | Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.30

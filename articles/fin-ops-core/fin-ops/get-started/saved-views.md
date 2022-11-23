@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220344"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757231"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -107,7 +107,7 @@ Como alternativa, al crear una nueva vista (mediante la acción **Guardar como**
 
 El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas sobre sus vistas personales y el orden de vistas en el selector de la vista. Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más** y, a continuación **Administrar mis vistas**.
 
-**Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, la sección **Mis vistas** del cuadro de diálogo **Gestionar mis vistas** muestra las vistas disponibles para la página en secciones. Cualquier vista que sea específica de la entidad jurídica actual se muestra en su propia sección. La sección **Vistas globales** siempre se muestra, para que pueda administrar las vistas que están disponibles para la página en todas las entidades jurídicas. 
+Si la característica **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, la sección **Mis vistas** del cuadro de diálogo **Administrar mis vistas** muestra las vistas disponibles para la página en secciones. Cualquier vista que sea específica de la entidad jurídica actual se muestra en su propia sección. La sección **Vistas globales** siempre se muestra, para que pueda administrar las vistas que están disponibles para la página en todas las entidades jurídicas. 
 
 Para una lista de vistas disponibles para dicha página, el conjunto de acciones siguiente está disponible.
 
@@ -138,9 +138,9 @@ Para publicar una vista, siga estos pasos:
 
 1. Cree y guarde una copia personal de la vista que desea publicar. 
 2. Con esa vista cargada actualmente, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista. 
-3. Seleccione el botón **Más** y a continuación seleccione **Publicar**. El cuadro de diálogo de la publicación se abrirá.
+3. Seleccione el botón **Más** y a continuación seleccione **Publicar**. Se abrirá el cuadro de diálogo **Publicar**.
 4. Introduzca un nombre para la vista. El nombre que especifique es el nombre que los usuarios que reciben esta vista verán en los selectores de la vista. Los nombres de las vistas publicadas para una página deben ser únicos. No se permiten nombres duplicados, incluso si la lista de roles o entidades jurídicas a las que se aplican difieren.
-5. **Actualización 10.0.17 o posterior:** Si la función de **(vista previa) Soporte de traducción para vistas de organización** está activada, puede agregar traducciones para el nombre de su vista en tantos idiomas como su organización lo requiera seleccionando el botón **Traducciones** junto al campo **Nombre**. El nombre de la vista se mostrará a los usuarios en su idioma actual. También puede establecer el idioma predeterminado para especificar la traducción que se mostrará a los usuarios que ejecutan idiomas para los que no se ha definido ninguna traducción.
+5. Si la característica **Soporte de traducción para vistas de organización** está activada, puede agregar traducciones para el nombre de su vista en tantos idiomas como su organización lo requiera seleccionando el botón **Traducciones** junto al campo **Nombre**. El nombre de la vista se mostrará a los usuarios en su idioma actual. También puede establecer el idioma predeterminado para especificar la traducción que se mostrará a los usuarios que ejecutan idiomas para los que no se ha definido ninguna traducción.
 5. Opcional: ingrese una descripción para la vista, de modo que los usuarios que reciben esta vista puedan comprender mejor su propósito. 
 6. Determine si la vista debe publicarse como la vista predeterminada para los usuarios seleccionados. Cuando una vista se establece como vista predeterminada, los usuarios la verán la próxima vez que abran la página de destino. Se modificará la vista predeterminada global única de cada usuario objetivo. Sin embargo, los usuarios aún pueden cambiar su vista predeterminada después de que se haya publicado.
 
@@ -150,9 +150,10 @@ Para publicar una vista, siga estos pasos:
     > - Si publica una vista como vista predeterminada para algunas o todas las entidades jurídicas, se produce el siguiente comportamiento:
     >
     >    - Si solo se ha activado la función base **Vistas guardadas**, la vista predeterminada global única se cambiará para cada usuario objetivo. 
-    >    - **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada y publica la vista en un subconjunto de entidades jurídicas, la vista predeterminada para esas entidades jurídicas se cambiará para cada usuario objetivo.
+    >    - Si la característica **Soporte de entidad jurídica mejorado para vistas guardadas** está activada y publica la vista en un subconjunto de entidades jurídicas, la vista predeterminada para esas entidades jurídicas se cambiará para cada usuario objetivo.
     >
     > - Si un usuario tiene roles donde se publican varias vistas como la vista predeterminada, la última vista que se publicó se usará como la vista predeterminada del usuario. 
+    > - La publicación no funcionará para las asignaciones de roles realizadas mediante grupos de AAD. 
 
 8. Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista. 
 9. Determine si desea publicar la vista en los roles secundarios de cada rol de seguridad seleccionado. Si lo hace, seleccione la casilla **Incluir roles secundarios** en la fila para los roles de seguridad apropiados. Tenga en cuenta que esta casilla de verificación no está disponible para roles que no tienen roles secundarios.
@@ -162,7 +163,7 @@ Para publicar una vista, siga estos pasos:
     > Tenga en cuenta el siguiente comportamiento si publica una vista en una entidad jurídica específica pero no la publica como vista predeterminada:
     >
     > - Si solo la función base **Vistas guardadas** está activada, el selector de vistas del usuario para la página muestra inicialmente la vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, el selector de vistas de la página siempre la mostrará, independientemente de la entidad jurídica.
-    > - **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas.
+    > - Si la característica **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas.
 
 11. Seleccione **Publicar**.
 
@@ -259,7 +260,7 @@ Para las páginas con selectores de vista grandes (las personalizaciones y consu
 Si publica una vista en una entidad jurídica específica pero no la publica como vista predeterminada, se produce el siguiente comportamiento:
 
 - Si solo la función base **Vistas guardadas** está activada, el selector de vistas del usuario para la página muestra inicialmente la vista solo para las entidades jurídicas especificadas. Sin embargo, después de cargar la vista por primera vez, el selector de vistas de la página siempre la mostrará, independientemente de la entidad jurídica. Este comportamiento se produce porque los usuarios obtienen su propia copia personal de la vista publicada cuando se carga y las vistas personales son globales.
-- **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas. Este comportamiento se produce porque la función permite que las vistas (incluidas las vistas personales) se vinculen a entidades jurídicas específicas.
+- Si la característica **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas solo mostrará la vista para las entidades jurídicas especificadas. Este comportamiento se produce porque la función permite que las vistas (incluidas las vistas personales) se vinculen a entidades jurídicas específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

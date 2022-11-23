@@ -2,13 +2,13 @@
 title: Visión general de consolidación y eliminación
 description: En este artículo se proporciona información general sobre el proceso de consolidación y eliminación. Incluye respuestas a algunas preguntas frecuentes.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871402"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779917"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Visión general de consolidación y eliminación
 
@@ -46,49 +46,38 @@ Las eliminaciones se pueden notificar de varias formas:
 Hay muchos escenarios de consolidación y cada método puede administrar los escenarios de diferentes maneras.
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
-1. Prefiero registrar eliminaciones en una base de datos. ¿Cuáles son mis opciones?
+Prefiero registrar eliminaciones en una base de datos. ¿Cuáles son mis opciones?
+ - Tiene varias opciones. Puede usar la opción **Consolidar en línea** e incluir eliminaciones durante el proceso o como propuesta. Las transacciones se registrarán en la empresa de consolidación. Como alternativa, puede tener una empresa independiente en la que crea manualmente las eliminaciones y, a continuación, usar dicha empresa en informes financieros o en el proceso de consolidación.
 
-Tiene varias opciones. Puede usar la opción **Consolidar en línea** e incluir eliminaciones durante el proceso o como propuesta. Las transacciones se registrarán en la empresa de consolidación. Como alternativa, puede tener una empresa independiente en la que crea manualmente las eliminaciones y, a continuación, usar dicha empresa en informes financieros o en el proceso de consolidación.
+Necesitamos nuestros resultados consolidados en varias divisas de notificación.
+ - La opción **Informes financieros** tiene divisas de notificación ilimitadas. Los datos se traducen durante la generación de informes, en función del tipo de cambio y del método de conversión de la divisa que se establecen en la cuenta principal. Sin embargo, dado que la opción **Consolidar en línea** solo tiene una divisa de notificación, se requiere una empresa consolidada para cada divisa de notificación si usa esa opción. La opción **Informes financieros** es el método recomendado.
 
-2.  Necesitamos nuestros resultados consolidados en varias divisas de notificación.
+Quiero ver el detalle de transacciones para cada empresa.
+ - La opción **Informes financieros** es la solución, ya que el detalle de transacciones se puede ver para tantas empresas como se incluyen en la definición del organigrama.
 
-La opción **Informes financieros** tiene divisas de notificación ilimitadas. Los datos se traducen durante la generación de informes, en función del tipo de cambio y del método de conversión de la divisa que se establecen en la cuenta principal. Sin embargo, dado que la opción **Consolidar en línea** solo tiene una divisa de notificación, se requiere una empresa consolidada para cada divisa de notificación si usa esa opción. La opción **Informes financieros** es el método recomendado.
+Estamos usando la planificación o el control presupuestarios, y se deben consolidar.
+ - La opción **Informes financieros** es la solución para consolidar los datos de planificación presupuestaria o de control presupuestario.
 
-3. Quiero ver el detalle de transacciones para cada empresa.
+Nuestras filiales se extienden por todo el mundo y tienen varios planes de cuentas. ¿Cuál es el mejor método para consolidar nuestros datos?
+- Tiene varias opciones cuando debe administrar varios planes de cuentas. Puede usar la opción **Consolidar en línea** y, a continuación, elegir usar la cuenta de consolidación que está definida en la cuenta principal o un grupo de cuentas de consolidación. También puede usar la opción **Informes financieros**, incluir varios vínculos a las dimensiones financieras de la definición de filas y asignar las cuentas.
 
-La opción **Informes financieros** es la solución, ya que el detalle de transacciones se puede ver para tantas empresas como se incluyen en la definición del organigrama.
+Requerimos varios niveles de consolidación. Es decir, primero consolidamos todas nuestras filiales europeas a la libra británica (GBP). Después, tomamos esos datos y traducimos el importe consolidado a dólares americanos. ¿Cómo podemos hacer esto?
+- Cuando se requieren varios niveles de consolidación y se usan distintas divisas en cada nivel, debe usar la opción **Consolidar en línea**. Se deben crear varias empresas de consolidación que difieran en sus divisas de contabilidad y notificación. La consolidación se debe ejecutar varias veces. La opción **Informes financieros** siempre convierte de la divisa de contabilidad de cada empresa de origen a la divisa seleccionada.
 
-4. Estamos usando la planificación o el control presupuestarios, y se deben consolidar.
+Tenemos filiales en otro sistema. ¿Cómo podemos consolidarlas?
+- Utilice la opción **Consolidar con importación** para llevar los saldos a una empresa de consolidación.
 
-La opción **Informes financieros** es la solución para consolidar los datos de planificación presupuestaria o de control presupuestario.
+Algunas de nuestras filiales no son de propiedad completa. ¿Cuál es el mejor método para consolidarlas?
+- Tiene varias opciones para las filiales de propiedad parcial. Mediante la opción **Informes financieros**, puede definir una definición del organigrama y la propiedad. También puede usar una fila o columna calculada para representar el importe de propiedad parcial. Puede mostrar incluso el interés minoritario como su propia fila de un informe. También puede usar la opción **Consolidar en línea**. La pestaña **Entidades jurídicas** tiene una columna **Propiedad**, donde puede definir el porcentaje propiedad de la empresa matriz.
 
-5. Nuestras filiales se extienden por todo el mundo y tienen varios planes de cuentas. ¿Cuál es el mejor método para consolidar nuestros datos?
+Nuestra organización debe mostrar consolidaciones por unidad de negocio o desea usar las jerarquías organizativas.
+- La opción **Informes financieros** es la solución. Las jerarquías organizativas que tienen entidades jurídicas o dimensiones financieras en ellas se pueden notificar en Informes financieros. También puede crear sus propias jerarquías multinivel mediante una definición del organigrama que tenga una combinación de entidades jurídicas y valores de dimensión.
 
-Tiene varias opciones cuando debe administrar varios planes de cuentas. Puede usar la opción **Consolidar en línea** y, a continuación, elegir usar la cuenta de consolidación que está definida en la cuenta principal o un grupo de cuentas de consolidación. También puede usar la opción **Informes financieros**, incluir varios vínculos a las dimensiones financieras de la definición de filas y asignar las cuentas.
+Tenemos más de una instancia del sistema.
+- Puede consolidar los datos con la opción **Exportación de saldos de compañía** para exportar desde una instancia y, a continuación, usar la opción **Consolidar con importación** en la otra instancia.
 
-6. Requerimos varios niveles de consolidación. Es decir, primero consolidamos todas nuestras filiales europeas a la libra británica (GBP). Después, tomamos esos datos y traducimos el importe consolidado a dólares americanos. ¿Cómo podemos hacer esto?
-
-Cuando se requieren varios niveles de consolidación y se usan distintas divisas en cada nivel, debe usar la opción **Consolidar en línea**. Se deben crear varias empresas de consolidación que difieran en sus divisas de contabilidad y notificación. La consolidación se debe ejecutar varias veces. La opción **Informes financieros** siempre convierte de la divisa de contabilidad de cada empresa de origen a la divisa seleccionada.
-
-7. Tenemos filiales en otro sistema. ¿Cómo podemos consolidarlas?
-
-Utilice la opción **Consolidar con importación** para llevar los saldos a una empresa de consolidación.
-
-8. Algunas de nuestras filiales no son de propiedad completa. ¿Cuál es el mejor método para consolidarlas?
-
-Tiene varias opciones para las filiales de propiedad parcial. Mediante la opción **Informes financieros**, puede definir una definición del organigrama y la propiedad. También puede usar una fila o columna calculada para representar el importe de propiedad parcial. Puede mostrar incluso el interés minoritario como su propia fila de un informe. También puede usar la opción **Consolidar en línea**. La pestaña **Entidades jurídicas** tiene una columna **Propiedad**, donde puede definir el porcentaje propiedad de la empresa matriz.
-
-9. Nuestra organización debe mostrar consolidaciones por unidad de negocio o desea usar las jerarquías organizativas.
-
-La opción **Informes financieros** es la solución. Las jerarquías organizativas que tienen entidades jurídicas o dimensiones financieras en ellas se pueden notificar en Informes financieros. También puede crear sus propias jerarquías multinivel mediante una definición del organigrama que tenga una combinación de entidades jurídicas y valores de dimensión.
-
-10. Tenemos más de una instancia del sistema.
-
-Puede consolidar los datos con la opción **Exportación de saldos de compañía** para exportar desde una instancia y, a continuación, usar la opción **Consolidar con importación** en la otra instancia.
-
-11. ¿Puedo hacer una consolidación con mi presupuesto en estado **BORRADOR**? 
-            
-No podrá procesar ni completar sus presupuestos en la empresa de consolidación. Recomendamos utilizar Financial Reporting para consolidar los borradores de presupuestos.
+¿Puedo hacer una consolidación con mi presupuesto en estado **BORRADOR**? 
+- No podrá procesar ni completar sus presupuestos en la empresa de consolidación. Recomendamos utilizar Financial Reporting para consolidar los borradores de presupuestos.
 
 Para obtener más información, consulte [Revalorización de divisa en una empresa de consolidación](../general-ledger/currency-revaluation-consolidation-company.md).
 

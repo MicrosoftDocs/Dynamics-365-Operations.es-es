@@ -2,7 +2,7 @@
 title: Información general de Dynamics 365 Payment Connector para Adyen
 description: Este artículo proporciona una descripción general Microsoft Dynamics 365 Payment Connector para Adyen.
 author: rassadi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ms.topic: overview
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -12,13 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 931fc69cda8daa2e06b6f1155fbf0369fd2bca55
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728312"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785002"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Información general de Dynamics 365 Payment Connector para Adyen
 
@@ -96,6 +95,11 @@ La lista siguiente describe las versiones mínimas y máximas de firmware de Ady
 
 ### <a name="supported-payment-terminals"></a>Terminales de pago admitidos
 El Dynamics 365 Payment Connector para Adyen aprovecha el [API de terminal de pago de Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) independiente de dispositivos. Es compatible con todos los terminales de pago compatibles con esta interfaz de programación de aplicaciones (API). Para obtener una lista completa de los terminales de pago admitidos, visite la página [Terminales PDV de Adyen](https://www.adyen.com/pos-payments/terminals).
+
+El siguiente video describe las capacidades del terminal de pago Android Adyen Castles SE1.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
 
 ### <a name="supported-payment-instruments"></a>Instrumentos de pago admitidos
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868369"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775225"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Auditar facturas e introducir datos en el sistema de proveedores
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868369"
 
 Al recibir una factura de un proveedor en concepto de bienes o servicios de un pedido de compra, es posible que los procesos comerciales requieran que los bienes o servicios se reciban antes de poder aprobar la factura para su pago. Antes de empezar, asegúrese de que la clave de configuración Conciliación de facturas esté seleccionada. 
 
-En la página **Parámetros de proveedores**, asegúrese de que la opción Habilitar validación de conciliación de facturas esté seleccionada, el campo **Registrar factura con discrepancias** esté establecido en **Requerir aprobación** y el campo **Directiva de conciliación de líneas** esté establecido en **Triple conciliación**.
+En la página **Parámetros de proveedores**, asegúrese de que la opción **Habilitar validación de conciliación de facturas** esté seleccionada, el campo **Registrar factura con discrepancias** esté establecido en **Requerir aprobación** y el campo **Directiva de conciliación de líneas** esté establecido en **Triple conciliación**.
 
 Este procedimiento usa la empresa de demostración USMF. El rol de administrador de proveedores o jefe de contabilidad realizaría estos pasos.
 

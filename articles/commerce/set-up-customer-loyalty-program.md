@@ -2,26 +2,22 @@
 title: Información general de fidelización
 description: Este artículo describe las capacidades de fidelidad dentro de Dynamics 365 Commerce y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 author: josaw1
-ms.date: 07/21/2020
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.region: global
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.custom: 16201,  ""intro-internal
+ms.custom: 16201, "intro-internal"
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
-ms.search.industry: Retail
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
-ms.openlocfilehash: e1b2a5ec6d1a2b925ccae07b5217fbb24a2e6a10
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 17742bb5c0091804fc6f43bb2aabb7af73229890
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277998"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784974"
 ---
 # <a name="loyalty-overview"></a>Visión general de fidelidad
 
@@ -36,6 +32,11 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 - Defina las reglas de obtención para identificar las actividades que un cliente debe completar para obtener recompensas. También puede definir reglas de canje para identificar cuándo y cómo un cliente puede canjear recompensas.
 - Emita tarjetas de fidelización desde cualquier canal que participe en los programas de fidelización y asocie tarjetas de fidelización a uno o varios programas de fidelización en los que puede participar el cliente. También puede asociar un registro de cliente a una tarjeta de fidelización para permitir al cliente agrupar los puntos de fidelización de varias tarjetas y luego canjearlos.
 - Ajuste manualmente las tarjetas de fidelización o transfiera los saldos de recompensas de fidelización de una tarjeta a otra acomodar o recompensar a un cliente.
+
+El siguiente vídeo proporciona información general y una demostración de las capacidades de fidelización en Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wW]
 
 ## <a name="setting-up-loyalty-programs"></a>Configurar programas de fidelidad
 

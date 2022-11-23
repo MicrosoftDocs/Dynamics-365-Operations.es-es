@@ -2,25 +2,25 @@
 title: Espacio de trabajo de cierre del período financiero
 description: Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865723"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780052"
 ---
 # <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865723"
 
 Este artículo proporciona una visión general del espacio de trabajo de **cierre del período financiero** y la configuración asociada.
 
-Espacio de trabajo de cierre del período financiero
+## <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
 El espacio de trabajo **Cierre de período financiero** le permite realizar un seguimiento de sus procesos de cierre financiero en las empresas, las áreas, y las personas. En función de su vista del espacio de trabajo **Cierre de período financiero**, verá todas las tareas y estados de una programación de cierre, o sólo de las tareas que tiene asignadas. 
 

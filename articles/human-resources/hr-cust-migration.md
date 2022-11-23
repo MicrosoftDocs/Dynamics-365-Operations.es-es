@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733463"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760372"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Migración de clientes de Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ La migración de clientes es una "migración mediante lift-and-shift" (movimient
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Copia de seguridad del entorno de Dataverse (espacio aislado)
 
-1. Opcional pero recomendado: actualice el entorno de espacio aislado de Human Resources ya existente utilizando una copia del entorno de producción de Human Resources.
-2. [Cree un entorno de Dataverse](/power-platform/admin/create-environment#create-an-environment-with-a-database) usando el centro de administración de Power Platform.
+ - Opcional pero recomendado: actualice el entorno de espacio aislado de Human Resources ya existente utilizando una copia del entorno de producción de Human Resources.
+ - Cree un entorno de Dataverse usando el centro de administración de Power Platform.
+ - Copie el entorno de Dataverse existente, que está vinculado a la aplicación de Human Resources independiente, al entorno que creó en el paso anterior.
 
-    > [!NOTE]
-    > Cuando agregue una base de datos, asegúrese de que la opción **Habilitar aplicaciones de Dynamics 365** esté configurada en **Sí**.
-
-3. [Copie el entorno de Dataverse ya existente](/power-platform/admin/copy-environment), que está vinculado a la aplicación de Human Resources independiente, al entorno que creó en el paso anterior.
+> [!NOTE]
+> Cuando agregue una base de datos, asegúrese de que la opción **Habilitar aplicaciones de Dynamics 365** esté configurada en **Sí**. Para obtener información detallada, consulte [Preparar un entorno de Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Capacidad de Dataverse
 
@@ -89,9 +88,9 @@ Una vez que se haya creado un nuevo proyecto de Lifecycle Services y se haya com
 #### <a name="prepare-a-power-platform-environment"></a>Preparar un entorno de Power Platform
 
 > [!NOTE]
-> Este paso solo se aplica a la migración del entorno de espacio aislado. Cuando migra el entorno de producción, el entorno del centro de administración de Power Platform ya existente que está asociado al entorno de producción se transferirá.
+> Este paso solo se aplica a la migración del entorno de espacio aislado. Cuando migra el entorno de producción, el entorno del centro de administración de Power Platform ya existente que está asociado al entorno de producción se transferirá. Cuando agregue una base de datos, asegúrese de que el botón **Habilitar aplicaciones de Dynamics 365** esté configurado en **Sí**. 
 
-- En el centro de administración de Power Platform, [cree un entorno de Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) para usarlo para la migración del espacio aislado, o seleccione un entorno ya existente.
+- En el centro de administración de Power Platform, [cree un entorno con una base de datos](/power-platform/admin/create-environment#create-an-environment-with-a-database) para usarlo para la migración del espacio aislado, o seleccione un entorno ya existente.
 - [Copie un entorno](/power-platform/admin/copy-environment) para actualizar el entorno de Power Platform que se utiliza para la asignación.
 
 #### <a name="migrate-the-sandbox-environment"></a>Migrar el entorno de espacio aislado

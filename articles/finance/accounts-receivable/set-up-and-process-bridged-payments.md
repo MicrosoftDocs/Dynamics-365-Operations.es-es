@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887988"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775178"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Configurar y procesar pagos puente
 
 [!include [banner](../includes/banner.md)]
 
-Un pago puente es un pago que se registra en la contabilidad general en dos pasos. Por lo general, este enfoque se utiliza cuando el método de pago se establece en **Banco** y debe contabilizar las transacciones en la cuenta bancaria solo cuando la transacción haya sido compensada por el banco. Sin embargo, también puede usarlo para una cuenta contable. En este caso, el sistema mueve el importe de una cuenta principal a otra cuenta principal cuando se procesa la contabilización puente.
+Un pago puente es un pago que se registra en la contabilidad general en dos pasos. Por lo general, este enfoque se utiliza cuando el método de pago se establece en **Banco** y debe contabilizar las transacciones en la cuenta bancaria solo cuando la transacción haya sido compensada por el banco. Sin embargo, también puede usarlo para una cuenta contable. En este caso, el importe se moverá de una cuenta principal a otra cuenta principal cuando se procesa la contabilización puente.
 
 Puede crear pagos puente desde Proveedores o Clientes. Aunque este artículo explica cómo configurar la contabilización puente para Clientes, los pasos para las transacciones de Proveedores son similares.
 

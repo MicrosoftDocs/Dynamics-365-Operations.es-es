@@ -2,26 +2,19 @@
 title: Operación de inventario entrante en PDV
 description: Este artículo describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288362"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785029"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -31,6 +24,11 @@ En Microsoft Dynamics 365 Commerce, versión 10.0.10 y posteriores, las operacio
 
 > [!NOTE]
 > En la versión 10.0.10 y posteriores de Commerce, cualquier característica nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de **Operaciones de entrada** de PDV. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
+
+El siguiente video proporciona una descripción general de los procesos de negocio y las capacidades de inventario en tienda en Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Requisito previo: configurar un marco de documentos asíncrono
 

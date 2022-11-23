@@ -2,24 +2,19 @@
 title: Información general de clasificaciones y revisiones
 description: En este artículo se tratan las clasificaciones y revisiones en Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269010"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785159"
 ---
 # <a name="ratings-and-reviews-overview"></a>Información general de clasificaciones y revisiones
 
@@ -43,11 +38,16 @@ La solución de clasificaciones y revisiones ofrece widgets que muestran resúme
 
 La solución de revisiones y clasificaciones también proporciona una plantilla de Business Intelligence (BI) que incluye un conjunto de métricas para proporcionar información de clasificaciones y revisiones. Los datos de clasificaciones y revisiones se pueden exportar para un mayor análisis.
 
+El siguiente vídeo proporciona una descripción general y capacidades de calificaciones y opiniones en Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Optar por usar clasificaciones y revisiones de usuario](opt-in-ratings-reviews.md)
 
-[Administrar clasificaciones y revisiones](manage-reviews.md)
+[Administrar calificaciones y opiniones](manage-reviews.md)
 
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
 

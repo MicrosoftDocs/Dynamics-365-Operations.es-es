@@ -2,7 +2,7 @@
 title: Soporte de Inventory Visibility para elementos de WMS
 description: Este artículo describe el soporte para la visibilidad del inventario para artículos que están habilitados para procesos de gestión de almacenes (artículos WMS).
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066622"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762764"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>Soporte de Inventory Visibility para elementos de WMS
 
@@ -45,17 +45,17 @@ Cuando utiliza la función WMS avanzada para la visibilidad del inventario, todo
 
 ## <a name="when-to-use-the-feature"></a>Cuándo usar la característica
 
-Le recomendamos que utilice la función WMS avanzada para Inventory Visibility en escenarios donde se cumplan todas las condiciones siguientes:
+Le recomendamos que utilice la característica WMS para Inventory Visibility en escenarios donde se cumplan todas las condiciones siguientes:
 
 - Está sincronizando los datos de Supply Chain Management con Inventory Visibility.
 - Está utilizando WMS en Supply Chain Management.
-- Los usuarios hacen reservas para artículos de WMS en niveles distintos al nivel de almacén (por ejemplo, porque está utilizando trabajo de almacén).
+- Los usuarios hacen reservas para artículos de WMS en niveles por debajo del nivel de almacén (por ejemplo, en el nivel de matrícula de entidad de almacén porque está procesando trabajo de almacén).
 
 En otros escenarios, los resultados de las consultas disponibles serán los mismos, independientemente de si la función WMS avanzada para Inventory Visibility está habilitada. Además, el rendimiento será mejor si no habilita la característica en estos escenarios, porque hay menos cálculos y menos gastos generales.
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>Habilitar la función WMS avanzada para Inventory Visibility
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>Habilitar la característica WMS para Inventory Visibility
 
-Para habilitar la función WMS avanzada para Inventory Visibility siga los siguientes pasos.
+Para habilitar la característica WMS para Inventory Visibility siga los siguientes pasos.
 
 1. Inicie sesión en Supply Chain Management como administrador.
 1. Abra el espacio de trabajo [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y habilite las funciones siguientes en este orden:
@@ -65,7 +65,7 @@ Para habilitar la función WMS avanzada para Inventory Visibility siga los sigui
 
 1. Vaya a **Gestión del inventario \> Configuración \> Parámetros de integración de Visibilidad de inventario**.
 1. En la pestaña **Habilitar artículos WMS**, configure la opción **Habilitar artículos WMS** en *Sí*.
-1. Iniciar sesión en Power Apps.
+1. Inicie sesión en su entorno de Power Apps y abra **Visibilidad de inventario**.
 1. Abra la página **Configuración** y luego en la pestable **Gestión de características**, active la característica *AdvancedWHS*.
 1. En Supply Chain Management, vaya a **Gestión de inventario \> Tareas periódicas \> Integración de Inventory Visibility**.
 1. En el panel de acciones, seleccione **Deshabilitar** para deshabilitar temporalmente Inventory Visibility.
@@ -82,21 +82,24 @@ Los resultados de las consultas de artículos WMS son esencialmente los mismos q
 - `ReservOrdered`
 - `ReservPhysical`
 
-Todas las demás medidas físicas se calculan tal como están cuando la función WMS avanzada para Inventory Visibility está desactivada.
+Todas las demás medidas físicas se calculan tal como están cuando la característica WMS para Inventory Visibility está deshabilitada.
 
 Para obtener información detallada sobre cómo funcionan los cálculos disponibles para los artículos de WMS, consulte el libro blanco [Reservas en Warehouse management](https://www.microsoft.com/download/details.aspx?id=43284).
 
-Las entidades de datos que se exportan a Dataverse aún no se pueden actualizar las cantidades de los artículos WMS. Las cantidades que se muestran en las entidades de datos son correctas tanto para artículos no WMS como para cantidades que no se ven afectadas por la lógica WMS (es decir, medidas excepto `AvailPhysical`, `AvailOrdered`, `ReservPhysical` y `ReservOrdered` en el origen de datos `fno`).
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>Vista de lista disponible y entidad de datos para artículos WMS
 
-Los cambios en las cantidades de artículos de WMS que se almacenan en el origen de datos de Supply Chain Management están prohibidos. En cuanto a otras características de Inventory Visibility, esta restricción se aplica para ayudar a prevenir conflictos.
+La página **Precargar el resumen de visibilidad del inventario** proporciona una vista para la entidad *Resultados de precarga de consultas de índice disponibles*. A diferencia de la entidad *Resumen de inventario*, la entidad *Resultados de precarga de consultas de índice disponibles* proporciona una lista de inventario disponible para productos junto con dimensiones seleccionadas. La visibilidad de inventario sincroniza los datos de resumen precargados cada 15 minutos.
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>Reservas flexibles en los artículos de WMS en Inventory Visibility
+Si utiliza Inventory Visibility con artículos WMS y desea ver la lista disponible de artículos WMS, le recomendamos que habilite la característica *Precargar el resumen de visibilidad del inventario* (consulte también [Precargar una consulta disponible optimizada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)). Una entidad de datos correspondiente en Dataverse almacena el resultado de la precarga de su consulta, que se actualiza cada 15 minutos. El nombre de la entidad de datos es `Onhand Index Query Preload Result`.
 
-En general, las [reservas flexibles](inventory-visibility-reservations.md) en los artículos WMS son compatibles. Puede incluir medidas físicas relacionadas con WMS en los cálculos de reservas flexibles. 
+> [!IMPORTANT]
+> La entidad de Dataverse es de solo lectura. Puede ver y exportar los datos en las entidades de Inventory Visibility, pero **no los modifique**.
 
-En una limitación conocida, el cálculo *disponible para reserva* no se admite actualmente para artículos WMS. Por lo tanto, si hay una reserva por encima de las dimensiones actuales donde se está produciendo una reserva flexible, el cálculo *disponible para reserva* es incorrecto. Las reservas flexibles no se verán afectadas cuando la opción **ifCheckAvailForReserv** está deshabilitada en la [API de reserva flexible](inventory-visibility-api.md#create-one-reservation-event).
+Los cambios en las cantidades de artículos de WMS que se almacenan en el origen de datos de Supply Chain Management (`fno`) están prohibidos. Este comportamiento coincide con el comportamiento de otras características de Inventory Visibility. Esta restricción se aplica para ayudar a evitar conflictos.
 
-Esta restricción también se aplica a las funciones y personalizaciones que se basan en reservas flexibles (como la asignación).
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>Compatibilidad de artículos WMS para otras funciones en Inventory Visibility
+
+Se admiten [reservas provisionales](inventory-visibility-reservations.md) y [asignación de inventario](inventory-visibility-allocation.md) de artículo WMS. Puede incluir medidas físicas relacionadas con WMS en los cálculos de asignación y reservas provisionales.
 
 ## <a name="calculate-available-to-promise-quantities"></a>Calcular las cantidades netas no comprometidas
 

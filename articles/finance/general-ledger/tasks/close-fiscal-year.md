@@ -2,7 +2,7 @@
 title: Cerrar el ejercicio
 description: Este procedimiento describe el proceso de cierre de fin de año que transfiere los saldos a un nuevo ejercicio.
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717485"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779822"
 ---
 # <a name="close-the-fiscal-year"></a>Cerrar el ejercicio
 
@@ -40,7 +40,7 @@ Si se establece en **Sí**, se crean dos transacciones. Un asiento se crea en el
 
 5. Seleccione **Sí** o **No** para la opción **Establecer el estado del ejercicio en Cerrado de forma permanente**.
 
-Si se establece en **Sí**, el estado del ejercicio se fijará en Cerrado de forma permanente. Debido a que un año cerrado de forma permanente no se puede volver a abrir, ser recomienda establecer esta opción en **No**.  
+Si se establece en **Sí**, el estado del ejercicio se fijará en **Cerrado de forma permanente**. Debido a que un año cerrado de forma permanente no se puede volver a abrir, ser recomienda establecer esta opción en **No**.  
 
 6. Seleccione "**Sí** o **No** para la opción **Decidir si completar un número de asiento durante el cierre de fin de año**.
 

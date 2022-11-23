@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abf6722348b57594509e90ca0defc07783a112b
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 26b1eb5e542acf7496d1a0cf7196716a5de75e4e
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715893"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780594"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
 
@@ -37,13 +37,13 @@ April marca la factura para su pago. No se aplica ningún descuento por pronto p
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha del descuento por pronto pago | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Seleccionado | Siempre            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | USD      | -1.980,00        |
+| Seleccionado | Siempre            | Inv-10030 | 3052    | 28/6/2020          | 12/7/2020 | 10030   | -2.000,00                      | USD      | -1.980,00        |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 12/7/2015 |
+| Fecha del descuento por pronto pago           | 12/7/2020 |
 | Importe de descuento por pronto pago         | -20,00    |
 | Utilizar el descuento por pronto pago            | Siempre    |
 | Descuento por pronto pago aplicado          | 0,00      |
@@ -52,16 +52,16 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 ## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Fecha que se va a usar para calcular los descuentos = Fecha seleccionada
 Si se han registrado la factura y el pago, el descuento por pronto pago todavía se puede obtener si las transacciones se liquidan en la página **Liquidar transacciones**. April cambia el valor en **Fecha que se va a usar para calcular los descuentos** a **Fecha seleccionada**. Después escribe la fecha en el 28 de junio, que se encuentra en el período de descuento por pronto pago para la factura. Esta fecha se usa para calcular un descuento por pronto pago para la transacción. En la página **Liquidar transacciones abiertas**, April ve que, de forma predeterminada, aparece el descuento completo de 20,00. La línea de factura muestra que el importe a liquidar es de 1.980,00.
 
-| Marcar                     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha del descuento por pronto pago | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
-|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Seleccionado y resaltado | Normal            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | USD      | -1.980,00        |
-| Seleccionado                 | Normal            | APP-10030 | 3052    | 15/7/2015          | 15/7/2015 |         | 500,00                         | USD      | 500,00           |
+| Marcar          | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha del descuento por pronto pago | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
+|--------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Seleccionado y resaltado | Normal    | Inv-10030 | 3052    | 28/6/2020         | 12/7/2020 | 10030   | -2.000,00                      | USD      | -1.980,00        |
+| Seleccionado                 | Normal    | APP-10030 | 3052    | 15/7/2020          | 15/7/2020 |         | 500.00                         | USD      | 500.00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. El importe de descuento que se aplica es de 20,00, dado que el importe a liquidar para la factura es el importe predeterminado, 1.980,00.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 12/7/2015 |
+| Fecha del descuento por pronto pago           | 12/7/2020 |
 | Importe de descuento por pronto pago         | -20,00    |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
@@ -71,14 +71,14 @@ April actualiza el valor del campo **Importe para liquidar** a **500,00**. El va
 
 | Marcar                     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Seleccionado y resaltado | Normal            | Inv-10030 | 3052    | 28/6/2015 | 12/7/2015 | 10030   | 2.000,00                       | USD      | -500,00          |
-| Seleccionado                 | Normal            | APP-10030 | 3052    | 15/7/2015 | 15/7/2015 |         | 500,00                         | USD      | 500,00           |
+| Seleccionado y resaltado | Normal            | Inv-10030 | 3052    | 28/6/2020 | 12/7/2020 | 10030   | 2,000.00                       | USD      | -500,00          |
+| Seleccionado                 | Normal            | APP-10030 | 3052    | 15/7/2020 | 15/7/2020 |         | 500.00                         | USD      | 500.00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. El valor del campo **Importe de descuento por pronto pago para aplicar** es **5,05**, dado que el importe que liquidar para la factura se ha cambiado por el importe de pago, 500,00.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 12/7/2015 |
+| Fecha del descuento por pronto pago           | 12/7/2020 |
 | Importe de descuento por pronto pago         | -20,00    |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |

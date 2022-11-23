@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712297"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778421"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuciones contables y asientos del subdiario contable para las facturas de servicios
 
@@ -30,9 +30,9 @@ Las distribuciones contables se usan para definir cómo se contabilizará un imp
 
 ## <a name="accounting-distributions"></a>Distribuciones contables
 
-Puede usar los siguientes botones de la página Factura de texto libre para ver y para modificar probablemente las distribuciones contables de cada importe de la factura de texto libre.
+Puede usar los siguientes botones de la página **Factura de texto libre** para ver y para modificar probablemente las distribuciones contables de cada importe de la factura de texto libre.
 
--   **Distribuir importes**: permite ver y cambiar las distribuciones contables de una línea individual y todas las líneas secundarias, como impuestos o gastos. También puede ver y cambiar distribuciones contables para la línea secundaria directamente desde la página Transacciones de impuestos o la página Transacciones de gastos.
+-   **Distribuir importes**: permite ver y cambiar las distribuciones contables de una línea individual y todas las líneas secundarias, como impuestos o gastos. También puede ver y cambiar distribuciones contables para la línea secundaria directamente desde la página **Transacciones de impuestos** o la página **Transacciones de gastos**.
     -   Permite cambiar importes de encabezado de factura de servicios, como gastos o importes de redondeo de divisa.
     -   Cambie importes de líneas de facturas de texto libre.
 -   **Ver distribuciones**: permite ver las distribuciones contables para todas las líneas del documento. No se pueden cambiar las distribuciones contables desde esta vista.
@@ -120,7 +120,7 @@ Al introducir una factura de servicios, cada importe se va a distribuir de la si
 </table>
 
 ## <a name="distributing-taxes"></a>Distribución de impuestos
-Las distribuciones contables para los impuestos no se pueden crear hasta que se calculen los impuestos. Para calcular los impuestos, debe completar una de las tareas que se describen a continuación en el formulario Factura de texto libre:
+Las distribuciones contables para los impuestos no se pueden crear hasta que se calculen los impuestos. Para calcular los impuestos, debe completar una de las tareas que se describen a continuación en la página **Factura de texto libre**:
 -   Ver los impuestos.
 -   Ver el total de la factura.
 -   Ver el flujo de efectivo.

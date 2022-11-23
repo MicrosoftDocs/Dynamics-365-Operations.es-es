@@ -2,23 +2,23 @@
 title: Exportar datos de las filiales a archivos
 description: Este artículo explica cómo prepararse para exportar datos de Microsoft Dynamics 365 Finance y luego importarlos a una entidad jurídica consolidada.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876164"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779971"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Exportar datos de las filiales a archivos
 
@@ -32,14 +32,14 @@ Use la página **Exportar** (**Administración del sistema \> Espacios de trabaj
 
     | Campo                             | Descripción |
     |-----------------------------------|-------|
-    | Cuenta principal                      | Especifique las cuentas a consolidar. Para incluir todas las cuentas, deje este campo en blanco. |
-    | Usar cuenta de consolidación         | Si ha especificado cuentas de consolidación, establezca esta opción en **Sí**. |
-    | Seleccionar cuenta de consolidación de | Seleccione **Cuenta principal** o **Grupo de cuentas de consolidación**. |
-    | Grupo de cuentas de consolidación       | Seleccione un grupo de cuentas de consolidación para la cuenta de consolidación seleccionada. |
-    | Período de consolidación              | Especifique las fechas "desde" y "hasta" para la consolidación. |
-    | Incluir importes reales            | Establezca esta opción en **Sí** para incluir las cantidades reales. |
-    | Incluir importes de presupuesto            | Establezca esta opción en **Sí** para incluir importes de presupuesto en las consolidaciones. |
-    | Modelos presupuestarios                     | Especifique el modelo de presupuesto a incluir. |
+    | **Cuenta principal**                      | Especifique las cuentas a consolidar. Para incluir todas las cuentas, deje este campo en blanco. |
+    | **Usar cuenta de consolidación**         | Si ha especificado cuentas de consolidación, establezca esta opción en **Sí**. |
+    | **Seleccionar cuenta de consolidación de** | Seleccione **Cuenta principal** o **Grupo de cuentas de consolidación**. |
+    | **Grupo de cuentas de consolidación**       | Seleccione un grupo de cuentas de consolidación para la cuenta de consolidación seleccionada. |
+    | **Período de consolidación**              | Especifique las fechas "desde" y "hasta" para la consolidación. |
+    | **Incluir importes reales**            | Establezca esta opción en **Sí** para incluir las cantidades reales. |
+    | **Incluir importes de presupuesto**            | Establezca esta opción en **Sí** para incluir importes de presupuesto en las consolidaciones. |
+    | **Modelos presupuestarios**                     | Especifique el modelo de presupuesto a incluir. |
 
 3. En la pestaña **Dimensiones financieras**, especifique los detalles de la consolidación:
 

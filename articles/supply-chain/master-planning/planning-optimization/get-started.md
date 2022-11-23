@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740339"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780417"
 ---
 # <a name="get-started-with-master-planning"></a>Introducción a planificación maestra
 
@@ -31,7 +31,7 @@ La planificación maestra en Supply Chain Management la proporciona un servicio 
 
 ## <a name="availability"></a>Disponibilidad
 
-Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Brasil, Europa, Francia, Reino Unido, Australia, Asia Pacífico, Japón e India. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible. Para obtener más información sobre las geografías de Azure y las regiones relacionadas, consulte [Geografías de Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Optimización de planificación está disponible actualmente en las siguientes geografías de Azure: Estados Unidos, Canadá, Brasil, Europa, Francia, Reino Unido, Noruega, Suiza, Australia, Asia Pacífico, Japón e India. Si intenta instalar el complemento desde otra región geográfica, LCS mostrará un mensaje que indica que esta ubicación geográfica no es compatible. Para obtener más información sobre las geografías de Azure y las regiones relacionadas, consulte [Geografías de Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Tenga en cuenta que Optimización de planificación no admite implementaciones locales de Dynamics 365 Supply Chain Management.
 

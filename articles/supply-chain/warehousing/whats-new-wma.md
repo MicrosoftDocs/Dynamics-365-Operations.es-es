@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702205"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764249"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versión 2.0.37.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+- Se agregó una configuración de usuario que les permite a los trabajadores elegir dónde la aplicación muestra las fotos del producto (tanto en las tarjetas como en los encabezados de los pasos, solo en los encabezados de los pasos o en ningún sitio). 
+- Se ha mejorado el diseño de la pantalla de la tarjeta de detalles al reducir el tamaño del banner de pasos y el indicador giratorio de entrada de cantidad, lo que deja más espacio para otro contenido. 
+- Se ha mejorado la interfaz de usuario al ejecutarse en un dispositivo Honeywell Thor. 
+- Se ha mejorado el modo de pantalla completa (solo se aplica a dispositivos con teclado de hardware). 
+- Se han mejorado los resultados al ordenar tarjetas de detalles y páginas personalizadas por prioridad o subprioridad (DataPriority o DisplaySubPriority). 
+- Se agregó soporte para más idiomas. 
+- Estabilidad mejorada. 
+- Se han mejorado varias imágenes e iconos. 
 
 ## <a name="version-20350"></a>Versión 2.0.35.0
 

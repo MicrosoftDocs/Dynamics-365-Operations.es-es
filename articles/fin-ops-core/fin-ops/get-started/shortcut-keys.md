@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405448"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757177"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -50,7 +50,7 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Cerrar una ficha en el panel de acciones o un menú        | Esc                              |
 | Simular un clic con el botón secundario                          | Mayús+F10                        |
 | Abrir el menú contextual    | Ctrl+F10                         |
-| Ejecutar el botón predeterminado en un formulario/cuadro de diálogo | Alt+Entrar                        |
+| Ejecutar el botón predeterminado en una página/cuadro de diálogo | Alt+Entrar                        |
 | Hacer clic en un botón o un icono                          | Entrar o Espacio                   |
 | Ver información actualizada de un icono de recuento       | Alt+Fecha arriba                     |
 | Ver los métodos abreviados disponibles actualmente              | Alt+Mayús+K                      |
@@ -85,22 +85,22 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Abrir el filtrado de cuadrícula para la columna actual                                                                          | Ctrl+G                   |
 | Cerrar el filtrado de cuadrícula para la columna actual                                                                         | Esc                      |
-| Abrir el panel de filtro (o cambiar el enfoque entre el panel de filtro y el formulario principal si el panel de filtro ya está abierto) | Alt+M,F o Ctrl+F3       |
+| Abrir el panel de filtro (o cambiar el enfoque entre el panel de filtro y la página principal si el panel de filtro ya está abierto) | Alt+M,F o Ctrl+F3       |
 | Cerrar el panel de filtro (con el enfoque en el panel de filtro)                                                               | Esc                      |
 | Abrir el sistema de orden/filtrado avanzado                                                                                        | Ctrl+Mayús+F3            |
 | Aplicar el filtro rápido (cuando el foco está en el filtro rápido)                                                              | Entrar                    |
 | Aplicar el filtro de cuadrícula (cuando el foco está en el campo de filtro del encabezado de columna)                                             | Entrar                    |
 
-## <a name="form-shortcuts"></a>Métodos abreviado de formulario
+## <a name="page-shortcuts"></a>Métodos abreviado de página
 
-| Para realizar esta tarea                                    | Presione              |
+| Acción                                    | Presione              |
 |-----------------------------------------------|-------------------|
 | Crear un nuevo registro                           | Alt+N             |
 | Eliminar un registro                               | Alt+Supr o Alt+F9 |
 | Guardar registro                                   | Alt+S o Ctrl+S   |
 | Revertir (restaurar)                              | Ctrl+Mayús+F5     |
 | Actualizar datos                                  | Mayús+F5          |
-| Ir al primer campo visible en el formulario   | Alt+Mayús+F       |
+| Ir al primer campo visible en la página   | Alt+Mayús+F       |
 | Cambiar modo de edición                              | F2                |
 | Adjuntar un documento                             | Ctrl+Mayús+A      |
 | Exportar a Excel                               | Ctrl+Mayús+E      |
@@ -108,13 +108,13 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Ir al registro siguiente (fuera de una cuadrícula)      | Ctrl+Flecha abajo   |
 | Ir al primer registro (fuera de una cuadrícula)     | Ctrl+Inicio         |
 | Ir al último registro (fuera de una cuadrícula)      | Ctrl+Fin          |
-| Cerrar el formulario (hacer clic en Atrás)                   | Esc               |
-| Cerrar el formulario con guardado explícito             | Mayús+Esc         |
-| Cerrar el formulario ignorando cualquier cambio no guardado | Alt+Mayús+Q       |
+| Cerrar la página (seleccionar el botón Atrás)<br><br>**Nota:** Si hay una ventana emergente (información sobre herramientas, selector de fechas, menú desplegable, etc.) abierta, el primer uso de Esc descartará la ventana emergente.       | Esc               |
+| Cerrar la página con guardado explícito             | Mayús+Esc         |
+| Cerrar la página y descartar cualquier cambio no guardado | Alt+Mayús+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Métodos abreviados de navegación en formularios
+## <a name="page-navigation-shortcuts"></a>Métodos abreviados de navegación en páginas
 
-| Acción                                          | Presione                                        |
+| Acción                                          | Presione                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Ir al campo siguiente/anterior.                     | Tabulador / Mayús+Tab                              |
 | Ir a la ficha siguiente/anterior                       | Alt+Mayús+Fecha derecha / Alt+Mayús+Flecha izquierda |
@@ -192,13 +192,13 @@ Los usuarios pueden detectar accesos directos actualmente disponibles directamen
 | Abrir el panel de ayuda                                                            | Ctrl+?                     |
 | Abrir trace parser                                                         | Alt+Mayús+T                |
 | Ir al panel de navegación                                                   | Alt + F1                     |
-| Agregar o quitar un formulario como favorito (con el enfoque en un formulario en el panel de navegación)   | Mayús + F3                    |
+| Agregar o quitar una página como favorita (con el enfoque en una página en el panel de navegación)   | Mayús + F3                    |
 | Ir al panel de acciones estándar                                              | Alt+M,A o Ctrl+F6         |
 | Ir al panel de filtros (puede incluirse la opción de abrirlo)                        | Alt+M,F o Ctrl+F3         |
 | Mover el enfoque al contenido de la página (con el enfoque en el panel de filtros)                | Alt+M,M o Ctrl+F3         |
-| Ir a la lista de navegación del formulario Detalles (puede incluirse la opción de abrirla)    | Alt+M,S o Ctrl+F8         |
+| Ir a la lista de navegación (puede incluirse la opción de abrirla)    | Alt+M,S o Ctrl+F8         |
 | Mover el enfoque al contenido de la página (con el enfoque en la lista de navegación)            | Alt+M,M o Ctrl+F8         |
-| Cerrar la lista de navegación de formulario de detalles (con el enfoque en la lista de navegación) | Esc                        |
+| Cerrar la lista de navegación (con el enfoque en la lista de navegación) | Esc                        |
 | Ir al contenido de la página principal (con el enfoque en otro panel)                    | Alt+M,M                    |
 | Ir al panel del cuadro informativo (puede incluirse la opción de abrirlo)                       | Alt+M,B o Ctrl+F2         |
 | Ir a la siguiente llamada de características                                              | Alt+M,C                    |

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5ecf69c83805834c01c03d0af9b7b8c5310920
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 44f64b9b9cd4fa65d17ba30fb87a688411becd5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725104"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780556"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor
 
@@ -35,20 +35,20 @@ El cliente 4035 tiene una factura de 1000,00 y una nota de abono de 100,00. Cada
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura  | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo  | Divisa |
 |------------|------------------|-----------|----------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10050  | Factura          | 28/6/2015 | 10050    | 1000,00                             |                                       | 1000,00 | USD      |
-| CCRN-10050 | Nota de abono      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
+| FTI-10050  | Factura          | 28/6/2020 | 10050    | 1.000,00                             |                                       | 1.000,00 | USD      |
+| CCRN-10050 | Nota de abono      | 28/6/2020 | CR-10050 |                                      | 100.00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar una nota de abono con una factura
 Desde la página **Transacciones de clientes**, Arnie abre la página **Liquidar transacciones**. Arnie puede usar la página **Liquidar transacciones** para liquidar la nota de abono y la factura. Como parte del proceso de liquidación, Arnie ve las fechas y los importes de descuento por pronto pago. Arnie marca los dos documentos y, a continuación, hace clic en **Registrar** para liquidar las transacciones. Existe un descuento de -1,00 en la nota de abono, porque Fabrikam permite descuentos en notas de abono.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante    | Cuenta | Fecha      | Fecha de vencimiento  | Factura  | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
-| Seleccionado | Normal            | FTI-10050  | 4035    | 28/6/2015 | 28/7/2015 | 10050    | 1000,00                       | USD      | 990,00           |
-| Seleccionado | Normal            | CCRN-10050 | 4035    | 28/6/2015 | 28/7/2015 | CR-10050 | -100,00                        | USD      | -99,00           |
+| Seleccionado | Normal            | FTI-10050  | 4035    | 28/6/2020 | 28/7/2020 | 10050    | 1.000,00                       | USD      | 990.00           |
+| Seleccionado | Normal            | CCRN-10050 | 4035    | 28/6/2020 | 28/7/2020 | CR-10050 | -100,00                        | USD      | -99,00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
-- **Fecha del descuento por pronto pago**: 7/12/2015 
+- **Fecha del descuento por pronto pago**: 7/12/2020 
 - **Importe de descuento por pronto pago**: -1,00     
 - **Utilizar el descuento por pronto pago**: Normal    
 - **Descuento por pronto pago aplicado**: 0,00      

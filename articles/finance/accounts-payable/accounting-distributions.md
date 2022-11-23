@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588963"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779591"
 ---
 # <a name="accounting-distributions"></a>Distribuciones contables
 
@@ -51,7 +51,7 @@ Las capacidades genéricas de distribución contable proporcionan las siguientes
     -   Puede ver el estado de contabilidad del documento actual en **Referencia**. El estado es para el documento entero, e indica si el documento se encuentra en proceso o completado.
 -   **Ver distribuciones**: permite ver las distribuciones contables para todas las líneas y todos los importes monetarios en el documento. No pueden modificar las distribuciones contables desde esta vista.
 
-En la versión 10.0.13, se agregó una función que valida la tabla de distribución contable para garantizar que los nuevos campos estén configurados correctamente. Esta característica se llama **Habilitar la validación adicional de datos para documentos utilizando el marco de contabilidad de documentos de origen**. Esta característica se activará por defecto en la versión 10.0.29. 
+Se agregó una función que valida la tabla de distribución contable para garantizar que los nuevos campos estén configurados correctamente. Esta característica se llama **Habilitar la validación adicional de datos para documentos utilizando el marco de contabilidad de documentos de origen**. Esta característica se activó por defecto en la versión 10.0.29. 
 
 Para obtener más información, consulte [Distribuciones contables y asientos del subdiario contable para las facturas de proveedores](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

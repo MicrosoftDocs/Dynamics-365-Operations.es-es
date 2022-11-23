@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27a6ec8fdba495535227d9d893d59edac5588985
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: cd74c6677f80a9075449908411350f1c81b95b02
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715704"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778367"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Utilizar más que el descuento calculado para un pago de proveedor
 
@@ -32,13 +32,13 @@ El proveedor 3.051 ofrece a Fabrikam un descuento por pronto pago del 4 por cien
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en divisa de la transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Seleccionado | Normal            | Inv-10040 | 3051    | 29/6/2015 | 29/7/2015 | 10040   | 1.000,00                       | USD      | 940,00           |
+| Seleccionado | Normal            | Inv-10040 | 3051    | 29/6/2020 | 29/7/2020 | 10040   | 1.000,00                       | USD      | 940,00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones**.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 12/7/2015 |
+| Fecha del descuento por pronto pago           | 12/7/2020 |
 | Importe de descuento por pronto pago         | 60.00     |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |

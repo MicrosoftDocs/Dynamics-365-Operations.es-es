@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878171"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780573"
 ---
 # <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
 
@@ -25,9 +25,9 @@ ms.locfileid: "8878171"
 
 Este artículo explica cómo crear facturas de texto sin formato. Para el procedimiento, utilice la empresa de demostración **USMF**.
 
-## <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
+## <a name="create-a-free-text-invoice"></a>Crear una factura de servicios
 
-1. Vaya a **Clientes (o libro mayor de ventas) \> Facturas \> Todas las facturas de servicios**.
+1. Vaya a **Clientes \> Facturas \> Todas las facturas de servicios**.
 2. Seleccione **Nuevo**.
 3. En el campo **Cuenta de cliente**, seleccione un valor.
 

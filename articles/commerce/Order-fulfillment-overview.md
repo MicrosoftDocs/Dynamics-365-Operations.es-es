@@ -1,35 +1,37 @@
 ---
 title: Cumplimiento de pedido de almacén
-description: Este artículo proporciona una visión general del cumplimiento de los pedidos de almacén.
+description: Este artículo proporciona una visión general del cumplimiento de los pedidos de almacén en Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854987"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785082"
 ---
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
 
 [!include [banner](includes/banner.md)]
+
+Este artículo proporciona una visión general del cumplimiento de los pedidos de almacén en Microsoft Dynamics 365 Commerce.
 
 Muchos minoristas quisieran optimizar el cumplimiento de pedidos habilitando almacenes para atender pedidos. El cumplimiento de pedidos a nivel del almacén puede facilitar las escenarios de sobreabastecimiento para un almacén específico, o puede ser necesario desde un punto de vista logístico en caso de que tenga un almacén de capacidad adicional o se encuentre dentro de una distancia más cercana de envío al cliente. Para dirigir esta necesidad, una operación unificada de cumplimiento de pedido está disponible en el punto de venta.
 
 Los pedidos para el cumplimiento en un almacén específico tienen el almacén de tienda designado en el encabezado o las líneas del pedido.
 
 La operación de cumplimiento en el punto de venta ofrece una sola área de trabajo en el punto de venta que se puede usar para procesar pedidos. Esto incluye todo, desde aceptar el pedido, a marcarlo como enviado o iniciar la recogida del almacén.
+
+El siguiente vídeo proporciona una descripción general y descripción de las capacidades de proceso de entrega en tienda en Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acceso al cumplimiento unificado de pedido en el punto de venta
 

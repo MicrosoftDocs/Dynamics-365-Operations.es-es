@@ -2,24 +2,24 @@
 title: Información general de pagos de cliente
 description: Este procedimiento le muestra los distintos métodos para introducir pagos de cliente.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99e2e04064d717040cf43469683fd143dc124c4f
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 7b90b7f200133cfb0d30b335aca20c328856fba5
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714377"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778132"
 ---
 # <a name="customer-payment-overview"></a>Información general de pagos de cliente
 
@@ -32,7 +32,7 @@ Este procedimiento le muestra los distintos métodos para introducir pagos de cl
 3. Seleccione el diario de pagos donde se van a guardar los pagos de cliente.
 4. Seleccione el diario o especifíquelo manualmente.
 5. En el **panel de acciones**, haga clic en **Introducir pagos de cliente**. Introducir pagos de cliente se usa para registrar un pago de cliente cada vez. Se especifica la información de pago en la parte superior y, a continuación, se pueden marcar las facturas pagadas con el pago, todo desde la misma página.  
-6. Especifique el cliente de quien recibió el pago. Si no conoce al cliente pero sabe que se pagó una transacción, puede usar el campo Transacción para especificar el pago. Especifique o seleccione la factura en el campo Transacción. De forma predeterminada, el cliente se incluirá automáticamente al seleccionar la transacción.
+6. Especifique el cliente de quien recibió el pago. Si no conoce al cliente pero sabe que se pagó una transacción, puede usar el campo **Transacción** para especificar el pago. Especifique o seleccione la factura en el campo **Transacción**. De forma predeterminada, el cliente se incluirá automáticamente al seleccionar la transacción.
 7. En el campo **Referencia del pago**, especifique una referencia para el pago. La referencia de pago podría ser el número de cheque del cliente o una referencia del pago electrónico del cliente. La referencia de pago solo es obligatoria si se especifica incluir el pago en un resguardo de depósito.  
 8. En el campo **Resguardo de depósito**, seleccione si el pago se incluirá en un resguardo de depósito. 
 9. En el campo **Importe**, especifique el importe del pago al cliente. El importe de pago no se especificará en un valor predeterminado. Se debe especificar manualmente. 
@@ -40,9 +40,9 @@ Este procedimiento le muestra los distintos métodos para introducir pagos de cl
 11. Especifique el importe del pago que se liquidará en la factura marcada. Este campo se puede usar cuando el pago corresponde a un pago parcial. Si no especifica un importe, el importe que liquidar se determina automáticamente.
 12. Haga clic en **Guardar en diario**. Antes de guardar el pago en el diario, asegúrese de que se haya definido la cuenta de contrapartida. **Guardar en diario** guardará el pago y lo pasará al diario. A continuación, podrá continuar especificando el siguiente pago.
 13. Cierre la página.
-14. En **Panel de acciones**, haga clic en Líneas. Al abrir Líneas verá los pagos registrados en la página **Introducir pagos de cliente** y también almacenados en el diario. También puede usar esta página para introducir nuevos pagos de clientes o editar pagos de clientes existentes antes de registrarlos.
+14. En **Panel de acciones**, haga clic en **Líneas**. Al abrir **Líneas** verá los pagos registrados en la página **Introducir pagos de cliente** y también almacenados en el diario. También puede usar esta página para introducir nuevos pagos de clientes o editar pagos de clientes existentes antes de registrarlos.
 15. Haga clic en **Nuevo** para crear otro pago. 
-16. Seleccione el cliente de quien recibió el pago. Si no sabe quién es el cliente pero sabe qué factura desembolsa el pago, use el campo Factura para especificar o seleccionar manualmente la factura. El cliente se incluirá de forma predeterminada una vez se seleccione la factura.  
+16. Seleccione el cliente de quien recibió el pago. Si no sabe quién es el cliente pero sabe qué factura desembolsa el pago, use el campo **Factura** para especificar o seleccionar manualmente la factura. El cliente se incluirá de forma predeterminada una vez se seleccione la factura.  
 17. Haga clic en **Liquidar transacciones** para marcar las facturas pagadas. No es necesario liquidar el pago en ninguna factura. Si es un anticipo o si no sabe qué factura se ha pagado, puede introducir y registrar el pago. El pago se podrá liquidar en una factura más adelante.  
 18. Marque las facturas desembolsadas en el pago. 
 19. En el campo **Importe**, especifique el importe del pago que se liquidará en la factura.
