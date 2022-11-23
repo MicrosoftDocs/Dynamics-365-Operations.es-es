@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129524"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780568"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -31,11 +31,10 @@ Una **factura de cliente para un pedido de ventas** es una factura en relación 
 Las **facturas de servicios** no están relacionadas con los pedidos de ventas. Contienen líneas de pedido que incluyen cuentas contables, descripciones de texto libre y un importe de ventas que especifica el usuario. No puede especificar un número de artículo en este tipo de factura. Debe indicar la información de impuestos correspondiente. En cada línea de factura, se indica una cuenta principal para la venta, que se puede distribuir a varias cuentas contables si hace clic en **Distribuir importes** en la página **Factura de servicios**. Además, el saldo del cliente se registra en la cuenta de resumen del perfil de contabilización que se usa para la factura de servicios.
 
 Para obtener más información, consulte:
-
-[Crear facturas de servicios](../accounts-receivable/create-free-text-invoice-new.md)
-[Crear una plantilla de factura de servicios](../accounts-receivable/create-free-text-invoice-template-new.md)
-[Asignar plantilla de factura de servicios a un cliente](tasks/assign-free-text-invoice-template-customer.md)
-[Generar y publicar facturas de servicios recurrentes](tasks/post-recurring-free-text-invoices.md)
+ - [Crear facturas de servicios](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Crear una plantilla de factura de servicios](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Asignación de una plantilla de factura de texto libre a un cliente](tasks/assign-free-text-invoice-template-customer.md)
+ - [Generación y registro de facturas de servicios](tasks/post-recurring-free-text-invoices.md)
 
 
 Las **facturas proforma** son facturas que se preparan como estimación de los importes reales de la factura antes de registrar la factura. Puede imprimir una **factura proforma** para una factura de cliente de un pedido de ventas o de una factura de servicios. 
@@ -89,7 +88,13 @@ Puede configurar la división de facturas de clientes de pedidos de ventas por s
  - Active la opción **Dividir según la información de la entrega de factura** para crear una factura por cada dirección de entrega de línea de pedido de ventas al registrar. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registrar en la cuenta de ingresos para líneas de factura de pedido de ventas que no tienen precio ni coste
-Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio ni coste. Para configurar o ver esta información, vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio y coste cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio ni coste. Si se selecciona esta opción, el comprobante contendrá movimientos de 0,00 para los tipos de registro **Saldo del cliente** e **Ingresos**. Se define una cuenta de ingresos en la página del parámetro **Publicación de inventario**, en la pestaña **Pedidos de ventas** de definición de cuenta. Si no se selecciona esta opción, las líneas que no tienen información de precios ni de coste no se contabilizarán en la cuenta **Ingresos**. En cambio, el comprobante contendrá un movimiento de 0,00 para el tipo de registro **Saldo del cliente**.
+Tendrá la opción de actualizar la cuenta **Ingresos** cuenta en la **Contabilidad general** para líneas de pedido de ventas que no tienen precio ni coste. 
+
+Para configurar o ver esta información:
+1. Vaya al parámetro **Registrar en cuenta de ingresos para líneas de factura de pedido de venta de precio y coste cero** en la pestaña **Libro mayor e impuesto sobre las ventas** de la **Parámetros de clientes** página. (**Clientes > Configuración >Parámetros de clientes**). 
+2. Seleccione **Sí** para actualizar la cuenta **Ingresos** para las líneas de factura de pedidos de ventas que no tienen precio ni coste. 
+ - Si se selecciona esta opción, el comprobante contendrá movimientos de 0,00 para los tipos de registro **Saldo del cliente** e **Ingresos**. Se define una cuenta de ingresos en la página de parámetros **Publicación de inventario**, en la pestaña de definición de cuenta **Órdenes de venta**. 
+ - Si esta opción no está seleccionada, las líneas que no tienen información de precios o costos no se contabilizarán en la cuenta **Ingresos**. En cambio, el comprobante contendrá un movimiento de 0,00 para el tipo de registro **Saldo del cliente**.
 
 ## <a name="line-creation-sequence-number-information"></a>Información del número de secuencia de creación de línea
 Cuando registre líneas de factura de cliente, tendrá la opción de crear números de secuencia de creación de líneas secuenciales. Los números de secuencia de creación de línea se asignan durante el proceso de registro. Al permitir una numeración no secuencial, puede ayudar a mejorar el rendimiento de registro de facturas de clientes. Los números de secuencia de creación de línea pueden ser utilizados por integraciones de terceros que esperan un orden secuencial. Consulte a su departamento de TI sobre cualquier extensión que pueda integrarse con los números de secuencia de creación de línea.
