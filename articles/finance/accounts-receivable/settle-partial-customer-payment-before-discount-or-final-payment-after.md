@@ -2,25 +2,25 @@
 title: Liquidar un pago parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 description: En este artículo se aborda el efecto de liquidar pagos de las facturas para los clientes. El escenario se centra en los efectos del subdiario, no en la Contabilidad general.
 author: ShivamPandey-msft
-ms.date: 08/22/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277a7b05110ac68a6a9cdc8e0231445c94968d8a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4f6b4527a9f176857e0cc6ba4665688dc8721ac1
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725132"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780549"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidar un pago parcial antes de la fecha de descuento con un pago final después de la fecha de descuento
 
@@ -35,20 +35,20 @@ El 25 de junio, Arnie introduce y registra una factura de 1.000,00 del cliente 4
 
 | Comprobante   | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo  | Divisa |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10020 | Factura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
+| FTI-10020 | Factura          | 25/6/2020 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pago parcial antes de la fecha de descuento por pronto pago
 El 2 de julio, el cliente 4027 hace un pago parcial de 297,00 para la factura. El pago puede optar a un descuento por pronto pago, porque Fabrikam ofrece descuentos por pronto pago en los pagos parciales y el pago parcial se realiza antes de la fecha de descuento por pronto pago. Por lo tanto, el cliente 4027 aprovecha un descuento por pronto pago de 3,00. Arnie registra el pago del cliente 4027 mediante el diario de pagos. A continuación, Arnie abre la página **Liquidar transacciones** para poder marcar la factura para su liquidación.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en débito en divisa de transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
-| Seleccionado | Normal            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
+| Seleccionado | Normal            | FTI-10020 | 4027    | 25/6/2020 | 25/7/2020 | 10020   | 1.000,00                             | USD      | 297,00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**. Si no cambia el valor de **Importe para liquidar** a 297,00, los valores de **Importe de descuento por pronto pago** que aparecen variarán. No obstante, se extraerá un valor de 3,00 como descuento por pronto pago cuando se registre el pago, ya que la liquidación ajusta automáticamente el valor de **Importe para liquidar**.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 09/7/2015 |
+| Fecha del descuento por pronto pago           | 09/7/2020 |
 | Importe de descuento por pronto pago         | 10,00     |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
@@ -58,22 +58,22 @@ Arnie registra este pago. La factura tiene ahora un saldo de 700,00. Se pueden v
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10020  | Factura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 700,00  | USD      |
-| ARP-10020  |  Pago         | 1/7/2015  |         |                                      | 297,00                                | 0,00    | USD      |
-| DISC-10020 |  Descuento por pronto pago   | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
+| FTI-10020  | Factura          | 25/6/2020 | 10020   | 1.000,00                             |                                       | 700.00  | USD      |
+| ARP-10020  |  Pago         | 7/1/2020  |         |                                      | 297,00                                | 0,00    | USD      |
+| DISC-10020 |  Descuento por pronto pago   | 7/1/2020  |         |                                      | 3.00                                  | 0,00    | USD      |
 
 ## <a name="remaining-payment-after-the-cash-discount-date"></a>Pago restante después de la fecha de descuento por pronto pago
 El 11 de julio, que es después del período de descuento, el cliente 4027 paga el resto de la factura. En la página **Liquidar transacciones**, no aparece ningún importe de descuento en el campo **Descuento estimado por pronto pago** y el valor del campo **Importe de descuento por pronto pago** es **0,00**. Cuando el cliente 4027 paga el importe restante de 700,00, no se aplica ningún descuento adicional.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en débito en divisa de transacción | Divisa | Importe para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
-| Seleccionado | Normal            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 700,00                               | USD      | 700,00           |
+| Seleccionado | Normal            | FTI-10020 | 4027    | 25/6/2020 | 25/7/2020 | 10020   | 700.00                               | USD      | 700.00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 09/7/2015 |
+| Fecha del descuento por pronto pago           | 09/7/2020 |
 | Importe de descuento por pronto pago         | 0,00      |
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 3,00      |
@@ -82,14 +82,14 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 Si Arnie cambia el valor en el campo **Utilizar descuento por pronto pago** a **Siempre**, se invalida el ajuste **Calcular descuento por pronto pago para pagos parciales** y se obtiene el descuento por pronto pago. El importe del pago cambia a 693,00 y el descuento por pronto pago corresponde al importe restante de 7,00.
 
 | Marcar     | Utilizar el descuento por pronto pago | Comprobante   | Cuenta | Fecha      | Fecha de vencimiento  | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Divisa | Importe para liquidar |
-|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Seleccionado | Siempre            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 700,00                               |                                       | USD      | 693,00           |
+|----------|-------------------|-----------|---------|-----------|-----------|---------|---------------|---------------------|----------|------------------|
+| Seleccionado | Siempre            | FTI-10020 | 4027    | 25/6/2020 | 25/7/2020 | 10020   | 700.00        |                        | USD      | 693,00           |
 
 La información de descuento aparece en la parte inferior de la página **Liquidar transacciones abiertas**.
 
 | Campo                        | Valor     |
 |------------------------------|-----------|
-| Fecha del descuento por pronto pago           | 09/7/2015 |
+| Fecha del descuento por pronto pago           | 09/7/2020 |
 | Importe de descuento por pronto pago         | 7.00      |
 | Utilizar el descuento por pronto pago            | Siempre    |
 | Descuento por pronto pago aplicado          | 3,00      |
@@ -99,10 +99,10 @@ Arnie cambia de nuevo el valor del campo **Utilizar descuento por pronto pago** 
 
 | Comprobante    | Tipo de transacción | Fecha      | Factura | Importe en débito en divisa de transacción | Importe en crédito en divisa de transacción | Saldo | Divisa |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10020  | Factura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 0,00    | USD      |
-| ARP-10020  |                  | 1/7/2015  |         |                                      | 297,00                                | 0,00    | USD      |
-| DISC-10020 |                  | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
-| ARP-10021  |                  | 11/7/2015 |         |                                      | 700,00                                | 0,00    | USD      |
+| FTI-10020  | Factura          | 25/6/2020 | 10020   | 1.000,00                             |                                       | 0,00    | USD      |
+| ARP-10020  |                  | 7/1/2020  |         |                                      | 297,00                                | 0,00    | USD      |
+| DISC-10020 |                  | 7/1/2020  |         |                                      | 3.00                                  | 0,00    | USD      |
+| ARP-10021  |                  | 11/7/2020 |         |                                      | 700.00                                | 0,00    | USD      |
 
 
 

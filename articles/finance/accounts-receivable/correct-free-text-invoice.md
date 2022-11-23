@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715507"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780580"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715507"
 
 Este artículo explica cómo corregir una factura de servicios que se ha registrado y cómo reenviarla como factura corregida.
 
-Para corregir una factura de servicios que ya se ha registrado, ábrala. En la página **Factura**, seleccione **Cancelar** y, a continuación seleccione **Corregir factura**. Seleccione un código de razón, agregue comentarios y seleccione la fecha para la nueva factura corregida. Puede modificar la factura corregida y registrarla. 
+Para corregir una factura de servicios que ya se ha registrado: 
+1. Abrir la factura de servicios registrada. 
+2. En la página **Factura**, seleccione **Cancelar** y, a continuación seleccione **Corregir factura**. 
+3. Seleccione un código de razón, agregue comentarios y seleccione la fecha para la nueva factura corregida.
+4. Puede modificar la factura corregida y registrarla. 
 
 Al registrar la factura corregida, se crea una factura de cancelación por un importe de crédito que sea igual al importe de la factura original. Por lo tanto, el saldo combinado de las facturas original y de cancelación es igual a 0 (cero). La factura de cancelación se liquida con la factura original. 
 

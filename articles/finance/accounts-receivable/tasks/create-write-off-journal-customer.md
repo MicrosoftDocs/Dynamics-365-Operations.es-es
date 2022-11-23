@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713682"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775309"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Crear una cancelación de un diario para un cliente
 
@@ -48,9 +48,9 @@ Esta guía de tarea le mostrará cómo configurar los parámetros para las cance
 7. Vaya a **Panel de exploración > Módulos > Contabilidad general > Entradas del diario > Diarios generales**.
 8. Seleccione el número de lote del diario que contiene la cancelación. Se crea una línea para revertir el saldo del cliente. Se crean una o más líneas para registrar la cancelación en la cuenta de cancelación.  
 9. Cierre la página.
-10. Cierre la página.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Cancele transacciones desde el formulario de cobros.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Cancelar transacciones desde la página de cobros
 1. Vaya a **Crédito y cobros > Cobros > Saldos vencidos**.
 2. Seleccione el nombre del cliente con las transacciones que desee cancelar. Por ejemplo, seleccione Cave Wholesales (US-004).
 3. Marque la fila de la primera transacción.
@@ -63,7 +63,7 @@ Esta guía de tarea le mostrará cómo configurar los parámetros para las cance
 10. Vaya a **Contabilidad general > Movimientos de diario > Diarios generales**.
 11. Seleccione el número de lote del diario que contiene la cancelación. Se crea una línea para revertir el saldo del cliente. Se crean una o más líneas para registrar la cancelación en la cuenta de cancelación.  
 12. Cierre la página.
-13. Cierre la página.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Cancelación de una factura desde la página Abrir facturas de cliente
 1. Vaya a **Panel de exploración >Módulos > Clientes > Facturas > Facturas de clientes abiertas**.

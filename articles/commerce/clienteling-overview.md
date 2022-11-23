@@ -2,28 +2,23 @@
 title: Información general de relación con los clientes
 description: En este artículo se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885620"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785055"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885620"
 
 
 Muchos minoristas, especialmente los minoristas especializados de alta gama, desean que sus socios de ventas formen relaciones a largo plazo con sus clientes principales. Se espera que los socios sepan los gustos y las aversiones, el historial de compras, las preferencias de productos, y las fechas importantes de estos clientes, como aniversarios y cumpleaños. Los socios necesitan un lugar en el que pueden obtener esta información y fácilmente encontrarla cuando sea necesario. Si esta información está disponible en una única vista, los asociados pueden dedicarse fácilmente a los clientes que cumplan criterios específicos. Por ejemplo, pueden encontrar todos los clientes que prefieran adquirir mochilas, o los clientes que tengan un evento importante que se aproxime, por ejemplo un cumpleaños o un aniversario.
+
+El siguiente video recorre un escenario de ejemplo de clientelización en Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Libro de clientes
 

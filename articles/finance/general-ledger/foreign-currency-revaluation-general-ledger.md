@@ -2,25 +2,25 @@
 title: Revalorización de divisa extranjera para el libro mayor
 description: 'Este artículo proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario.'
 author: kweekley
-ms.date: 06/20/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 96ae50e339c63687a4c8114d3c965123fd5e37ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752813"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779998"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para el libro mayor
 
@@ -38,27 +38,27 @@ Si ejecuta el proceso de revalorización, el saldo en cada cuenta principal que 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Preparación para ejecutar una revalorización de divisa extranjera
 Para poder ejecutar el proceso de revalorización, se requiere la siguiente configuración.
 
--   En la página de **Cuenta principal**:
--   Si la cuenta principal debe revalorizarse en la Contabilidad general, seleccione **Revalorización de divisa extranjera**. Si no debe revalorizarse la cuenta principal (como para las cuentas de clientes y proveedores si se han revalorizado en la contabilidad auxiliar), desactive esta opción.
--   Si la cuenta principal está marcada para su revalorización, especifique el **Tipo de cambio**. Este tipo de cambio se utilizará para revalorizar la cuenta principal. Un campo aparte, **Tipo de cambio para informes financieros**,está disponible para el informe financiero. Los dos campos no se mantienen en sincronización, permitiendo así que se usen distintos tipos de cambio para la revalorización y el informe financiero.
+En la página de **Cuenta principal**:
+ - Si la cuenta principal debe revalorizarse en la Contabilidad general, seleccione **Revalorización de divisa extranjera**. Si no debe revalorizarse la cuenta principal (como para las cuentas de clientes y proveedores si se han revalorizado en la contabilidad auxiliar), desactive esta opción.
+ - Si la cuenta principal está marcada para su revalorización, especifique el **Tipo de cambio**. Este tipo de cambio se utilizará para revalorizar la cuenta principal. Un campo aparte, **Tipo de cambio para informes financieros**,está disponible para el informe financiero. Los dos campos no se mantienen en sincronización, permitiendo así que se usen distintos tipos de cambio para la revalorización y el informe financiero.
 
--   En la página **Libro mayor**:
--   Especificar **Tipo de cambio**. Si no se define el tipo de cambio en la cuenta principal, se va a utilizar este tipo de cambio durante la revalorización de divisa extranjera.
--   Especifique las cuentas de ganancias realizadas, pérdida realizada, ganancias no realizadas y pérdida no realizada para la revalorización de divisa. Las cuentas de beneficio realizado y pérdida realizada se usan si al configurar las transacciones de cuentas de clientes y proveedores, y las cuentas de pérdidas y ganancias no realizadas se usan para revalorizar las transacciones abiertas y las cuentas principales de la contabilidad general.
+En la página **Libro mayor**:
+ - Especificar **Tipo de cambio**. Si no se define el tipo de cambio en la cuenta principal, se va a utilizar este tipo de cambio durante la revalorización de divisa extranjera.
+ - Especifique las cuentas de ganancias realizadas, pérdida realizada, ganancias no realizadas y pérdida no realizada para la revalorización de divisa. Las cuentas de beneficio realizado y pérdida realizada se usan si al configurar las transacciones de cuentas de clientes y proveedores, y las cuentas de pérdidas y ganancias no realizadas se usan para revalorizar las transacciones abiertas y las cuentas principales de la contabilidad general.
 
--   En la página de **Cuentas de revalorización de divisa**:
--   Seleccione diferentes cuentas de revalorización de divisa para cada divisa y empresa. Si no se define ninguna cuenta, se usan las cuentas de la página **Libro mayor**.
+En la página de **Cuentas de revalorización de divisa**:
+ - Seleccione diferentes cuentas de revalorización de divisa para cada divisa y empresa. Si no se define ninguna cuenta, se usan las cuentas de la página **Libro mayor**.
 
 ## <a name="process-foreign-currency-revaluation"></a>Procesamiento de la revalorización de divisa extranjera
 Cuando se complete la configuración, use la página **Revalorización de divisa extranjera** para revalorizar los saldos de las cuentas principales. Puede ejecutar el proceso en tiempo real o programarlo para ejecutarlo mediante un lote. 
 
 La página de **Revalorización de divisa extranjera** mostrará el historial de cada proceso de revalorización, incluido cuando el proceso se ejecutó, qué criterios se definieron, un vínculo al asiento creado para la revalorización y un registro si una revalorización anterior se ha invertido. Para ejecutar el proceso de revalorización, seleccione el botón **Revalorización de divisa extranjera**. 
 
-Los valores **Desde la fecha** y **Hasta la fecha** definen el intervalo de fechas para calcular el saldo de la divisa extranjera que se va a revalorizar. Al revalorizar las cuentas de pérdidas y ganancias, se revaloriza la suma de todas las transacciones que se producen en el intervalo de fechas. Cuando se revaloriza las cuentas de balance de situación, se omite el valor Desde la fecha. En su lugar, el saldo que se revalorizará viene determinado desde el inicio del ejercicio hasta el valor Hasta la fecha. 
+Los valores **Desde la fecha** y **Hasta la fecha** definen el intervalo de fechas para calcular el saldo de la divisa extranjera que se va a revalorizar. Al revalorizar las cuentas de pérdidas y ganancias, se revaloriza la suma de todas las transacciones que se producen en el intervalo de fechas. Cuando se revaloriza las cuentas de balance de situación, se omite el valor **Desde la fecha**. En su lugar, el saldo que se revalorizará viene determinado desde el inicio del ejercicio hasta el valor **Hasta la fecha**. 
 
 La **Fecha del índice** se puede utilizar para definir la fecha, para la cual el tipo de cambio debe tomar un valor predeterminado. Por ejemplo, puede revalorizar los saldos entre el intervalo de fechas del 1 de enero al 31 de enero, pero utiliza el tipo de cambio definido para el 1 de febrero. 
 
-Seleccione las cuentas principales a revalorizar: Todas, balance de situación o las de pérdidas y ganancias. Solo se revalorizarán las cuentas principales marcadas para revalorización (en la página de la cuenta principal). Si desea limitar aún más el intervalo de cuentas principales, use la pestaña Registros **para incluir** para definir un intervalo de cuentas principales o de cuentas principales individuales. 
+Seleccione las cuentas principales a revalorizar: Todas, balance de situación o las de pérdidas y ganancias. Solo se revalorizarán las cuentas principales marcadas para revalorización (en la página de la **cuenta principal**). Si desea limitar aún más el intervalo de cuentas principales, use la pestaña **Registros para incluir** para definir un intervalo de cuentas principales o de cuentas principales individuales. 
 
 El proceso de revalorización se puede ejecutar para una o más entidades jurídicas. La búsqueda mostrará solo las entidades jurídicas a las que tiene acceso. Seleccione las entidades jurídicas para las que desee ejecutar el proceso de revalorización. 
 
@@ -68,7 +68,7 @@ Establezca **Vista previa antes del registro** en **Sí** si desea revisar el re
 
 Si desea excluir los ajustes que se registraron utilizando el **Diario de ajustes de divisa de notificación** del proceso de revalorización, establezca **Excluir ajustes de divisa de notificación** a **Sí**. De forma predeterminada, los ajustes de divisa de notificación se incluyen en la revaluación. 
 
-Una vez finalizado el proceso de revalorización de divisa extranjera, se creará un registro para el seguimiento del historial de cada ejecución.  Se creará un registro individual para cada entidad jurídica y capa de registro.
+Una vez finalizado el proceso de revalorización de divisa extranjera, se creará un registro para el seguimiento del historial de cada ejecución. Se creará un registro individual para cada entidad jurídica y capa de registro.
 
 ## <a name="calculate-unrealized-gainloss"></a>Calcule las pérdidas/ganancias no realizadas
 Las transacciones de pérdidas/ganancias no realizadas se crean de forma diferente entre la revalorización de la Contabilidad general y el proceso de revalorización de cuentas de clientes y proveedores. En las cuentas de clientes y proveedores, la revalorización anterior se invierte completamente (si se supone que la transacción no se establece aún) y se crea una nueva transacción de revalorización para las pérdidas/ganancias no realizadas en base al nuevo tipo de cambio. Esto se debe a que revalorizamos cada transacción individual de cuentas de clientes y proveedores. En contabilidad general, la revalorización anterior no se invierte. En su lugar, se realiza una transacción para el delta entre el saldo de la cuenta principal, incluido cualquier importe de revalorización anterior y el nuevo valor basado en el tipo de cambio de la Fecha de la tasa. 
@@ -82,8 +82,8 @@ Las transacciones de pérdidas/ganancias no realizadas se crean de forma diferen
 La cuenta principal se revaloriza el 31 de enero.  Se calcula el beneficio/pérdida no realizado de la siguiente manera.
 
 | Saldo actual en divisa de transacción | Saldo actual en divisa contable | Tipo de cambio en la revalorización | Nuevo importe de la divisa contable | Pérdidas/ganancias no realizadas    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | 166,67 loss (833,33 – 1000) |
+|--------------------|---------------------------|----------------------------------|------------------------------------|-----------------------------|
+| 500 EUR            | 1000 USD                  | 166.6667                         | 833,33 USD (500 x 1,666667)        | 166,67 loss (833,33 – 1000) |
 
 Se creará el asiento contable siguiente.
 
@@ -95,8 +95,8 @@ Se creará el asiento contable siguiente.
 No se registran nuevas transacciones para el mes de febrero.  La cuenta principal se revaloriza el 28 de febrero.
 
 | Saldo actual en divisa de transacción | Saldo actual en divisa contable | Tipo de cambio en la revalorización | Nuevo importe de la divisa contable | Pérdidas/ganancias no realizadas    |
-|---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 833,33 USD (1000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Ganancias de 416,67 (1250 – 833,33) |
+|---------------------------------------|-----------------------------------|-------------------------------|--------------------|-----------------------------|
+| 500 EUR                 | 833,33 USD (1000 - 166,67)       | 250.0000              | 1250 USD (500 x 2,5)               | Ganancias de 416,67 (1250 – 833,33) |
 
 Se creará el asiento contable siguiente.
 

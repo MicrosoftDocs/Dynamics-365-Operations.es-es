@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069002"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779863"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferencia de subdiarios al libro mayor
 
@@ -35,7 +35,7 @@ Las siguientes opciones están disponibles para transferir lotes de subdiarios:
 - **Asíncrono**: esta opción programará inmediatamente la transferencia de los asientos contables del subdiario contable a la contabilidad general. El asiento de la contabilidad general se registrará tan pronto como los recursos estén disponibles para procesar esta solicitud en el servidor.
 - **Lote programado**: los asientos contables del Libro mayor auxiliar que deben transferirse se agregan a la cola de procesamiento en el Libro mayor. Las entradas en la cola se procesarán en el orden en que se reciban. Cada asiento de la contabilidad general actualizará cuentas a la hora programada si los recursos están disponibles para procesar este trabajo por lotes en el servidor.
 
-En la versión 10.0.8, se realizaron mejoras para mejorar el rendimiento de la opción **Asincrónico**. Esta característica está habilitada debajo del nombre de la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general**.
+Se realizaron mejoras para mejorar el rendimiento de la opción **Asincrónico**. Esta característica está habilitada debajo del nombre de la característica **Optimización del rendimiento de la transferencia de subdiarios a la contabilidad general**.
 
 La funcionalidad para la transferencia asincrónica de lotes del libro mayor auxiliar ayuda a mejorar la transferencia de datos del libro mayor auxiliar al libro mayor general. Al agrupar conjuntos de transacciones más pequeñas y transferir las transacciones en grupos, la funcionalidad procesa las transacciones de manera más eficiente. Cuando las transacciones se agrupan, los recursos del servidor por lotes se utilizan de manera más eficiente.
 

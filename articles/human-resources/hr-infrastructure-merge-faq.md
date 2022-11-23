@@ -2,7 +2,7 @@
 title: Preguntas frecuentes de la fusión de infraestructura de Dynamics 365 Human Resources
 description: Este artículo responde a las preguntas más frecuentes sobre la fusión de la infraestructura para Microsoft Dynamics 365 Human Resources y aplicaciones de finanzas y operaciones.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702077"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779645"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Preguntas frecuentes de la fusión de infraestructura de Dynamics 365 Human Resources
 
