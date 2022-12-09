@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715839"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804273"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
@@ -65,12 +65,13 @@ Se debe definir una cuenta de prepago en la pestaña **Pedido de compra** de la 
 
 La cuenta resumida de cuentas por pagar de compensación se define en el perfil **Registro de proveedores**. Para definir el perfil de publicación predeterminado, haga clic en **Proveedores \>Configuración \> Parámetros de proveedores \>Ficha Contabilidad e impuestos \> Perfil de contabilización con factura de proveedor de prepago**.
 
-La **Directiva de solicitudes de prepago** indica si el sistema aplicará automáticamente las facturas de prepago liquidadas a la factura final que se creó manualmente. Las facturas que se crean utilizando una entidad de datos no deberán referirse a la **Directiva de solicitud de prepago**. Deberá aplicar manualmente las facturas de prepago liquidadas a las facturas que se crearon utilizando una entidad de datos. Para definir la directiva, vaya a **Proveedores \>Configuración \> Parámetros de proveedores \> Ficha Contabilidad e impuestos \> Política de solicitud de prepagos**. Si el campo **Directiva de solicitud de prepagos** está configurado en **Automático**, la factura de prepago se marcará automáticamente para su liquidación con la factura final. Si el campo se establece en **Notificación**, se mostrará una indicación visual de que una factura de prepago está disponible para su aplicación cuando se cree la factura final.
+La **Directiva de solicitudes de prepago** indica si se aplicarán automáticamente las facturas de prepago liquidadas a la factura final que se creó manualmente. Las facturas que se crean utilizando una entidad de datos no deberán referirse a la **Directiva de solicitud de prepago**. Deberá aplicar manualmente las facturas de prepago liquidadas a las facturas que se crearon utilizando una entidad de datos. Para definir la directiva, vaya a **Proveedores \>Configuración \> Parámetros de proveedores \> Ficha Contabilidad e impuestos \> Política de solicitud de prepagos**. Si el campo **Directiva de solicitud de prepagos** está configurado en **Automático**, la factura de prepago se marcará automáticamente para su liquidación con la factura final. Si el campo se establece en **Notificación**, se mostrará una indicación visual de que una factura de prepago está disponible para su aplicación cuando se cree la factura final.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Crear un pedido de compra que contenga información sobre la factura de prepago
 Cuando un proveedor le dice que requiere pago por anticipado de los bienes y servicios incluidos en un pedido de compra, debe definir el valor del pago anticipado para el pedido de compra asociado. Vaya a **Proveedores \> Común \> Pedidos de compra \> Todos los pedidos de compra** y busque el pedido de compra del proveedor. En el panel de acciones, seleccione la pestaña **Compra** y, a continuación, elija **Anticipo**. Especifique la información del anticipo, incluyendo la descripción, el valor del anticipo, si es un importe fijo o un porcentaje y una id. de categoría del anticipo. 
 
-Tenga en cuenta que no se permiten varias definiciones de anticipos en un pedido de compra. Si necesita permitir múltiples anticipos en una orden de compra, contabilice los pagos utilizando el diario de pagos en lugar de una factura de anticipo.
+> [!Note] 
+> No se permiten varias definiciones de anticipos en un pedido de compra. Si necesita permitir múltiples anticipos en una orden de compra, contabilice los pagos utilizando el diario de pagos en lugar de una factura de anticipo.
 
 El prepago puede eliminarse de la orden de compra a menos que ya haya liquidado un pago contra la factura de prepago registrada o haya contabilizado la factura estándar. Para eliminar una información de prepago de la orden de compra, seleccione **proveedores \> Común \> Pedidos de compra \> Todos los pedidos de compra** y busque el pedido de compra del proveedor. En el panel de acciones, seleccione la pestaña **Compra** y, a continuación, elija **Quitar anticipo**.
 

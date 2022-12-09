@@ -2,7 +2,7 @@
 title: Perfiles de contabilización del cliente
 description: Este artículo describe perfiles de contabilización de cliente, que controlan la contabilidad de transacciones de clientes en la contabilidad general.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891706"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799582"
 ---
 # <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
@@ -58,15 +58,15 @@ Si desea que todas las transacciones de cliente tengan el mismo perfil de contab
 </thead>
 <tbody>
 <tr>
-<td>Perfil de registro</td>
+<td><strong>Perfil de contabilización</strong></td>
 <td>Permite especificar un código para el perfil de contabilización. Por ejemplo, podría crear dos perfiles de registro para obtener una cuenta para saldos de clientes en la divisa nacional y otra para saldos de clientes en una divisa extranjera. Podría llamar a una cuenta Nacional y a otra Extranjera.</td>
 </tr>
 <tr>
-<td>Description</td>
+<td><strong>Descripción</strong></td>
 <td>Permite especificar una descripción del perfil de registro. Esto solo se usa para identificar mejor el perfil de contabilización cuando lo ve en esta página.</td>
 </tr>
 <tr>
-<td>Código de cuenta</td>
+<td><strong>Código de cuenta</strong></td>
 <td>Permite especificar si el perfil de registro se aplica a un solo cliente, a un grupo de clientes o a todos los clientes:
 <ul>
 <li><b>Tabla</b>: el perfil de registro se aplica a un único cliente. Seleccione la cuenta de cliente en el campo <b>Número de grupo/cuenta</b>.</li>
@@ -76,33 +76,33 @@ Si desea que todas las transacciones de cliente tengan el mismo perfil de contab
 </td>
 </tr>
 <tr>
-<td>Número de grupo/cuenta</td>
+<td><strong>Número de grupo/cuenta</strong></td>
 <td>Si <b>Tabla</b> está seleccionada en el campo <b>Código de cuenta</b>, seleccione el número de cuenta del cliente asociado al perfil de registro. Si ha seleccionado <b>Grupo</b>, seleccione el grupo de clientes. Si <b>Todos</b> está seleccionado, deje este campo en blanco.</td>
 </tr>
 <tr>
-<td>Extracto de cuenta</td>
+<td><strong>Extracto de cuenta</strong></td>
 <td>Seleccione la cuenta principal que se utilizará como la cuenta de resumen de cliente para los clientes se asocian al perfil de registro. Esta cuenta es la cuenta para el tipo de publicación <b>Saldo del cliente</b>.</td>
 </tr>
 <tr>
-<td>Cuenta de liquidez para pagos</td>
-<td>Permite seleccionar la cuenta contable de liquidez que se usa para previsiones de flujo de efectivo. Este campo solo aparecerá si se habilitan las previsiones de flujo de efectivo.</td>
+<td><strong>Cuenta de liquidez para pagos</strong></td>
+<td>Permite seleccionar la <strong>Cuenta contable de liquidez</strong> que se usa para previsiones de flujo de efectivo. Este campo solo aparecerá si se habilitan las previsiones de flujo de efectivo.</td>
 </tr>
 <tr>
-<td>Pagos de impuestos por adelantado</td>
+<td><strong>Pagos de impuestos por adelantado</strong></td>
 <td><p>Permite seleccionar la cuenta para los impuestos de pagos que se reciben por adelantado.</p>
 <p><strong>Nota:</strong> Use la página <b>Parámetros de clientes</b> para especificar el perfil de registro que se usará cuando un pago se marque como anticipo.</p>
 </td>
 </tr>
 <tr>
-<td>Deudas por efectos descontados</td>
+<td><strong>Deudas por efectos descontados</strong></td>
 <td>Permite seleccionar la cuenta contable para las deudas por efectos descontados.</td>
 </tr>
 <tr>
-<td>Secuencia de la carta de cobro</td>
+<td><strong>Secuencia de la carta de cobro</strong></td>
 <td>Permite seleccionar el identificador de secuencia de la carta de cobro para los clientes a los que se asigna el perfil de registro.</td>
 </tr>
 <tr>
-<td>Código del interés</td>
+<td><strong>Código del interés</strong></td>
 <td>Permite seleccionar el código de interés para el cálculo del interés para los clientes a los que se asigna el perfil de contabilización.</td>
 </tr>
 </tbody>

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785109"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799046"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas o en desuso
 
@@ -71,10 +71,10 @@ Como parte del esfuerzo de trabajo [Un Dynamics, una plataforma](/dynamics365-re
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Estamos eliminando la siguiente lista de conjuntos de cifrado para cumplir con nuestros protocolos de seguridad actuales.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **¿Reemplazado por otra característica?**   | A partir del 31 de enero de 2023, los clientes solo pueden usar nuestras [suites de cifrado estándar](/power-platform/admin/server-cipher-tls-requirements). Este cambio afecta a sus clientes y servidores que se comunican con nuestros servidores, por ejemplo, puede afectar a sus integraciones de terceros que no se adhieren a nuestros conjuntos de cifrado estándar. |
+| **¿Reemplazado por otra característica?**   | A partir de enero de 2023, los clientes solo pueden usar nuestras [suites de cifrado estándar](/power-platform/admin/server-cipher-tls-requirements). Este cambio afecta a sus clientes y servidores que se comunican con nuestros servidores, por ejemplo, puede afectar a sus integraciones de terceros que no se adhieren a nuestros conjuntos de cifrado estándar. |
 | **Áreas de producto afectadas**         | Aplicaciones de finanzas y operaciones |
 | **Opción de implementación**              | Implementaciones en la nube |
-| **Status**                         | En desuso. Los clientes deben actualizar sus servidores antes del 31 de enero de 2023. Para obtener más información sobre cómo configurar el orden de TLS Cipher Suite, consulte [Administrar la seguridad de la capa de transporte (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | En desuso. Los clientes deben actualizar sus servidores antes de enero de 2023. Para obtener más información sobre cómo configurar el orden de TLS Cipher Suite, consulte [Administrar la seguridad de la capa de transporte (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Aviso de desactivación de características a partir de junio de 2022

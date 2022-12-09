@@ -2,7 +2,7 @@
 title: Ver informes financieros
 description: En este artículo se describe cómo ver y explorar informes financieros en Microsoft Dynamics 365 Finance. Incluye información sobre las distintas opciones que se pueden aplicar a los informes financieros para cambiar su aspecto y los datos que incluyen.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907903"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802401"
 ---
 # <a name="view-financial-reports"></a>Ver informes financieros
 
@@ -31,7 +31,7 @@ En este artículo se describe cómo ver y explorar informes financieros. Incluye
 ## <a name="financial-reporting-overview"></a>Visión general de informes financieros
 
 ## <a name="open-a-financial-report"></a>Abrir un informe financiero
-Para abrir un informe, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2015, el informe se genera para el 31 de julio de 2015. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
+Para abrir un informe, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2020, el informe se genera para el 31 de julio de 2020. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
 ## <a name="drill-down-on-a-financial-report"></a>Exploración en profundidad de informes financieros
 Los informes financieros pueden incluir múltiples niveles de detalle. El nivel financiero es el primer nivel que ve al abrir un informe financiero. Para ir al nivel de cuenta, seleccione los datos que desea explorar en profundidad. Por ejemplo, para ver los detalles de la cuenta para ventas, seleccione los datos de ventas que desea explorar. Desde el nivel de cuenta, puede explorar en profundidad para ver las transacciones que componen el saldo de la cuenta. Hay dos formas de ver transacciones: transacciones de informes y transacciones de asientos.
@@ -46,12 +46,12 @@ Puede aplicar filtros de atributos y dimensiones, o cambiar el escenario de pres
 
 -   Para aplicar filtros de atributos a un informe, seleccione **Agregar atributo de filtro**. Seleccione el atributo, escriba el valor del atributo y, a continuación, haga clic en **Aceptar**. Por ejemplo, si selecciona el atributo **Categoría de cuenta**, especifique **VENTAS** como el valor del atributo. Para quitar un filtro de atributo, haga clic en **Borrar**.
 -   Para aplicar filtros de dimensión a un informe, seleccione **Agregar una dimensión de filtro**. Seleccione la dimensión y, a continuación, escriba el id. de la dimensión o seleccione la dimensión en la lista. Para quitar un filtro de dimensión, haga clic en **Borrar**.
--   Para cambiar el escenario en un informe **Real frente a presupuesto**, seleccione un nuevo escenario y haga clic en **Aceptar**. Si el escenario seleccionado es por otro año fiscal, no se devolverá resultado alguno. Por ejemplo, si un informe se genera para FY2015 y la situación actual es para FY2015 y la nueva escenario seleccionado es para FY2016, no se mostrará ningún resultado. Si es necesario un nuevo escenario para otro año fiscal, genere una nueva versión del informe del ejercicio relacionado con la situación.
+-   Para cambiar el escenario en un informe **Real frente a presupuesto**, seleccione un nuevo escenario y haga clic en **Aceptar**. Si el escenario seleccionado es por otro año fiscal, no se devolverá resultado alguno. Por ejemplo, si un informe se genera para FY2015 y la situación actual es para FY2020 y la nueva escenario seleccionado es para FY2016, no se mostrará ningún resultado. Si es necesario un nuevo escenario para otro año fiscal, genere una nueva versión del informe del ejercicio relacionado con la situación.
 
 Al hacer clic en **Aceptar**, se aplican al informe todas las opciones que haya seleccionado. Si decide que no desea aplicar las opciones seleccionadas, haga clic en **Cancelar**.
 
 ## <a name="update-a-financial-report"></a>Actualizar un informe financiero
-Puede actualizar un informe financiero de modo que muestre los datos más recientes para el período y el año para el que se generó el informe. Por ejemplo, si actualiza un informe financiero que se generó para octubre de 2015, el informe refleja las nuevas transacciones que se han registrado para octubre de 2015. Para actualizar un informe financiero, en el Panel de acciones, haga clic en **Actualizar**. Un informe actualizado solo está disponible para la persona que lo actualizó. Para que las demás personas vean los mismos datos, se debe publicar el informe.
+Puede actualizar un informe financiero de modo que muestre los datos más recientes para el período y el año para el que se generó el informe. Por ejemplo, si actualiza un informe financiero que se generó para octubre de 2020, el informe refleja las nuevas transacciones que se han registrado para octubre de 2020. Para actualizar un informe financiero, en el Panel de acciones, haga clic en **Actualizar**. Un informe actualizado solo está disponible para la persona que lo actualizó. Para que las demás personas vean los mismos datos, se debe publicar el informe.
 
 ## <a name="publish-a-financial-report"></a>Publicar un informe financiero
 Tras actualizar un informe financiero, puede publicarlo. Otras personas de la organización podrán verlo entonces. Para publicar un informe, en el Panel de acciones, haga clic en **Publicar**.

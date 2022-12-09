@@ -1,8 +1,8 @@
 ---
 title: Explorador de origen de contabilidad
-description: Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
+description: Este artículo proporciona información acerca de la página Explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
 author: RyanCCarlson2
-ms.date: 06/20/2017
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,41 +15,38 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1200092306c1848a2e705b868c2185362b5a3c89
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5bd5580dc0be37ec89e6c7934b47c7d5593d8716
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710480"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806443"
 ---
 # <a name="accounting-source-explorer"></a>Explorador de origen de contabilidad
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
+Este artículo proporciona información acerca de la página **Explorador del origen de contabilidad**, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
 
-El Explorador de origen de la contabilidad es una nueva página que muestra la información de origen. Puede usar el Explorador del origen de contabilidad como herramienta independiente o analizar los detalles detrás de asientos contables de la contabilidad general. Por ejemplo, puede usar el Explorador de origen de contabilidad para obtener la información de origen detallada para un saldo en Saldo de comprobación o para una transacción de asiento. Puede usar la característica Exportar a MS Excel para segmentar y desglosar la información en Microsoft Excel (por ejemplo, en una tabla dinámica o un informe de tablas dinámicas).
+La página **Explorador de origen de la contabilidad** muestra la información de origen. Puede usarla como herramienta independiente o analizar los detalles detrás de asientos contables de la contabilidad general. Por ejemplo, puede usar la página para obtener la información de origen detallada para un saldo en saldo de comprobación o para una transacción de asiento. Puede usar la característica **Exportar a MS Excel** para segmentar y desglosar la información en Microsoft Excel (por ejemplo, en una tabla dinámica o un informe de tablas dinámicas).
 
-El Explorador de origen de contabilidad siempre muestra el mismo importe total por cuenta contable que muestra la Contabilidad general (por ejemplo, en un Saldo de comprobación). Como en un Saldo de comprobación, puede mostrar segmentos en columnas independientes. Solo tiene que seleccionar el conjunto adecuado de dimensiones financieras. 
+La página **Explorador de origen de contabilidad** siempre muestra el mismo importe total por cuenta contable que muestra la Contabilidad general (por ejemplo, en un saldo de comprobación). Como en un saldo de comprobación, puede mostrar segmentos en columnas independientes. Solo tiene que seleccionar el conjunto adecuado de dimensiones financieras. 
 
-Puede usar parámetros para definir un intervalo de fechas para el análisis. Esta funcionalidad también es similar a la funcionalidad de Saldo de comprobación.
+Puede usar parámetros para definir un intervalo de fechas para el análisis. Esta funcionalidad también es similar a la funcionalidad de saldo de comprobación.
 
-Para todos los documentos que usan el marco del documento de origen, El explorador de origen de contabilidad muestra información adicional basada en las distribuciones contables y, si procede, en distribuciones contables del proyecto. Esta información incluye el tipo de importe monetario, el proyecto, la actividad, la categoría y la propiedad de línea. A continuación se muestran algunos ejemplos del análisis que puede realizar:
+Para todos los documentos que usan el marco del documento de origen, la página **Explorador de origen de contabilidad** muestra información adicional basada en las distribuciones contables y, si procede, en distribuciones contables del proyecto. Esta información incluye los valores de **Tipo de importe monetario**, **Proyecto**, **Actividad**, **Categoría** y **Propiedad de línea**. A continuación se muestran algunos ejemplos del análisis que puede realizar:
 
--   Desviaciones entre los pedidos de compra y las facturas de proveedor, porque cada desviación está representada por un tipo de importe monetario, como la desviación de cargos
--   Gastos y horas facturables frente a no facturables por proyecto, unidad de negocio y cuenta principal
+- Desviaciones entre los pedidos de compra y las facturas de proveedor, porque cada desviación está representada por un tipo de importe monetario, como la desviación de cargos
+- Gastos y horas facturables frente a no facturables por proyecto, unidad de negocio y cuenta principal
 
-Para documentos de origen que usen el concepto de identidades de referencia de documento de origen, el Explorador de origen de contabilidad muestra incluso más detalles, como el cliente, el proveedor, el trabajador, el producto, la cantidad, el texto de unidad y las descripciones. A continuación se muestran algunos ejemplos del análisis que puede realizar:
+Para documentos de origen que usen el concepto de identidades de referencia de documento de origen, la página **Explorador de origen de contabilidad** muestra incluso más detalles, como los valores de **Cliente**, **Proveedor**, **Trabajador**, **Producto**, **Cantidad**, **Texto de unidad** y **Descripción**. A continuación se muestran algunos ejemplos del análisis que puede realizar:
 
--   Los gastos de hotel por unidad de negocio y el marca de hotel para un período fiscal, en función de los informes de gastos
--   Descuentos por proveedor, producto, departamento
+- Los gastos de hotel por unidad de negocio y el marca de hotel para un período fiscal, en función de los informes de gastos
+- Descuentos por proveedor, producto, departamento
 
-Para estos documentos, también puede navegar hasta el documento de origen real desde el Explorador de origen de contabilidad.
+Para estos documentos, también puede navegar hasta el documento de origen real desde la página **Explorador de origen de contabilidad**.
 
 > [!NOTE]
-> A partir de la versión 10.0.20, el botón **Actualizar** proporciona dos rangos adicionales para restringir la consulta inicial que se ejecuta para ingresar datos en la página. Estos rangos adicionales también están disponibles en la versión 10.0.19 como actualización de servicio. Se añadieron los campos siguientes:
->
-> - De asiento, A asiento
-> - De Cuenta principal, A Cuenta principal
+> A partir de la versión 10.0.31, una nueva característica **Filtrado avanzado del explorador de fuentes de contabilidad** está disponible en Administración de características. Esta característica reemplaza el botón **Actualizar** para brindar una experiencia de consulta avanzada más sólida que se asemeja a lo que está disponible en la página **Transacciones de asiento**. El filtro avanzado le permitirá filtrar campos similares a los que encuentra en la página **Consulta de transacciones de asientos**, como **Cuenta contable**, **Unidad de negocio**, **Centro de costos** y **Departamento**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

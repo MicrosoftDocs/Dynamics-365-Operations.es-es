@@ -2,7 +2,7 @@
 title: Ver y diseñar informes financieros
 description: En este artículo se proporcionan ejercicios que le enseñarán a visualizar y crear informes financieros para Microsoft Dynamics 365 Finance.
 author: jcart1106
-ms.date: 10/02/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 92474e7b99af7d83b2089b6652558630c60824c1
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9273437"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799528"
 ---
 # <a name="view-and-design-financial-reports"></a>Ver y diseñar informes financieros
 
@@ -51,30 +51,30 @@ Para este ejercicio, generará y explorará un informe predeterminado existente.
     > [!NOTE]
     > Se le pedirá que descargue el diseñador de informes con un solo clic y que inicie sesión. Use sus credenciales para iniciar sesión.
 
-7. Cambie el año base a 2012 y seleccione **Generar**. Cuando un informe se genera en el diseñador de informes, se abrirá en una nueva pestaña del explorador. Podrá leer el informe en una nueva pestaña del explorador o puede ir a la pestaña original del explorador y abrir el informe desde ahí; para ello, seleccione la lista **Informes financieros**.
+7. Cambie el año base a 2021 y seleccione **Generar**. Cuando un informe se genera en el diseñador de informes, se abrirá en una nueva pestaña del explorador. Podrá leer el informe en una nueva pestaña del explorador o puede ir a la pestaña original del explorador y abrir el informe desde ahí; para ello, seleccione la lista **Informes financieros**.
 8. En el informe abierto, seleccione uno de los importes para explorar el detalle de la cuenta para el informe.
 9. Una vez en el detalle de la cuenta, seleccione una cuenta con datos y realice la acción **Obtener detalles de nivel de transacción de informe**. En el nivel de la transacción del informe, puede ver las propiedades (atributos) que están incluidos en el diseño del informe. En función de la transacción y de la cuenta, se pueden mostrar algunos o todos los atributos.
 10. Cierre el nivel de transacción del informe.
-11. Seleccione la misma cuenta u otra diferente y realice la acción **Abrir transacciones de comprobantes**. Las transacciones de asiento se filtran hasta la combinación de período, el año y cuenta +dimensión de la cuenta seleccionada. Desde las transacciones de asiento, puede elegir explorar otra información sobre la transacción.
-12. Cierre las transacciones de asiento. Dentro de un informe financiero, puede elegir ver los datos para un período o ejercicio diferente o con diferentes atributos y dimensiones aplicadas. Para ello se utiliza la opción **Opciones de informe**.
+11. Seleccione la misma cuenta u otra diferente y realice la acción **Abrir transacciones de comprobantes**. Las transacciones de asiento se filtran hasta la combinación de período, el año y cuenta +dimensión de la cuenta seleccionada. Desde **Transacciones de asiento**, puede elegir explorar otra información sobre la transacción.
+12. Cierre **Transacciones de asiento**. Dentro de un informe financiero, puede elegir ver los datos para un período o ejercicio diferente o con diferentes atributos y dimensiones aplicadas. Para ello se utiliza la opción **Opciones de informe**.
 13. Seleccione **Opciones de informe**.
 14. Seleccione **Agregar una dimensión de filtro** y elija **Unidad de negocio**.
-15. Escriba 001 en el campo y seleccione **Aceptar**. El informe muestra ahora solo los datos para la unidad de negocio 001. Esta es una vista personalizada del informe y no está disponible para que la vean los demás.
+15. Escriba **001** en el campo y seleccione **Aceptar**. El informe muestra ahora solo los datos para la unidad de negocio 001. Esta es una vista personalizada del informe y no está disponible para que la vean los demás.
 16. Cierre el informe filtrado. Los informes financieros se pueden mostrar en cualquier divisa que se agregue a la aplicación.
 17. Seleccione **Divisa** y, a continuación, seleccione **EUR**. El informe se muestra ahora en euros. Los códigos de divisa o los símbolo de divisa incluidos en el diseño del informe se muestran ahora en la divisa aplicada. Si no se define ningún símbolo de divisa para una divisa, no se muestra el símbolo de la divisa.
 18. Cierre el informe **Detalle de contabilidad general**.
 19. Cierre el **Diseñador de informes**.
 
 ## <a name="exercise-2-add-additional-account-properties-to-a-report-design"></a>Ejercicio 2: Agregar propiedades de cuenta adicionales a un diseño de informe
-En este ejercicio, modificará un informe predeterminado existente. Actualizará tanto la definición de fila para incluir todas las cuentas como la definición de columna para contener atributos de cuenta. Una vez que se completen las actualizaciones, generará el informe recién creado y explorará el informe. Empezaremos por la lista Informes financieros.
+En este ejercicio, modificará un informe predeterminado existente. Actualizará tanto la definición de fila para incluir todas las cuentas como la definición de columna para contener atributos de cuenta. Una vez que se completen las actualizaciones, generará el informe recién creado y explorará el informe. Empezaremos por la lista **Informes financieros**.
 
-1. Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
+1. Vaya a **Informes financieros** en **Consultas e informes** en Contabilidad general.
 2. Seleccione la fila para el informe denominado **Resumen de saldo de comprobación – predeterminado**.
 3. Seleccione **Editar**. **Resumen de saldo de comprobación – predeterminado** se abrirá en el diseñador de informes.
-4. Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre Saldo de comprobación detallado con atributos.
+4. Seleccione **Archivo** y, a continuación, **Guardar como** y asigne al informe el nombre **Saldo de comprobación detallado con atributos**.
 
     > [!NOTE]
-    > Cada vez que se crea un nuevo informe en el diseñador de informes, la lista de informes financieros se actualiza.
+    > Cada vez que se crea un nuevo informe en Report designer, la lista **Informes financieros** se actualiza.
 
 5. Desde la definición del informe, seleccione el icono de la definición de filas para abrir la definición de fila **Saldo de comprobación - predeterminado**.
 6. Guarde la definición de fila como **Saldo de comprobación detallado con atributos**.
@@ -107,7 +107,7 @@ En este ejercicio, modificará un informe predeterminado existente. Actualizará
 26. Cierre el **Diseñador de informes**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ejercicio 3: Crear un informe multidimensional mediante un organigrama
-Para este ejercicio, modificará un informe predeterminado existente. Se creará un organigrama y se agregará a una definición del informe para producir un informe de ingresos de centro de coste o por división. Una vez que se completen las actualizaciones, generará el informe de ingresos de centro de coste o por división y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
+Para este ejercicio, modificará un informe predeterminado existente. Se creará un organigrama y se agregará a una definición del informe para producir un **Informe de ingresos de centro de coste o por división**. Una vez que se completen las actualizaciones, generará el **Informe de ingresos de centro de coste o por división** y explorará el informe con el organigrama. Empezaremos por la lista **Informes financieros**.
 
 1. Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
 2. Seleccione la fila para el informe denominado **Informe de ingresos – predeterminado**.
@@ -117,7 +117,7 @@ Para este ejercicio, modificará un informe predeterminado existente. Se creará
 6. Desactive las casillas para todas las dimensiones, excepto **Centro de coste**.
 7. Haga clic en el campo **Desde la dimensión** para la dimensión Centro de coste, escriba **007** y, a continuación, presione la tecla de tabulador. En el campo **Hasta la dimensión**, escriba **018**.
 8. **Guarde** el árbol resultante con el nombre **Centros de coste por división**. Ahora que se ha creado el organigrama, lo modificará para que contenga tres nuevas unidades de acumulación: Marketing, Operaciones y Venta minorista.
-9. En el menú **Ventana**, haga clic en **Centros de coste por división**. (Si el organigrama se ha cerrado; selecciónelo en las Definiciones de los organigramas en el panel de navegación.)
+9. En el menú **Ventana**, haga clic en **Centros de coste por división**. (Si el organigrama se ha cerrado; selecciónelo en las **Definiciones de los organigramas** en el panel de navegación.)
 10. Haga clic en la unidad número dos, **Ferias de muestras** y haga clic en el icono **Insertar unidad de informe**.
 11. Haga doble clic en la columna de la entidad de la fila en blanco y seleccione **USMF**.
 12. Escriba **Marketing** en las columnas B y C.
@@ -131,13 +131,13 @@ Para este ejercicio, modificará un informe predeterminado existente. Se creará
 20. Seleccione **Disminuir nivel de una unidad de notificación**. Observe ahora que la unidad se muestra como elemento secundario de **Marketing**.
 21. Haga clic en la unidad cuatro, **Campaña de marketing** y haga clic con el botón secundario.
 22. Seleccione **Disminuir nivel de una unidad de notificación**.
-23. Haga clic en la visualización gráfica **Operaciones de servicio**. Mantenga presionado el botón izquierdo mouse mientras arrastra la unidad arriba hasta **Operaciones**. Libere el botón izquierdo del mouse para colocar la unidad en la acumulación de la Operación. Repita para **Producción, Control de calidad, Logística, Adquisición y Administración**.
+23. Haga clic en la visualización gráfica **Operaciones de servicio**. Mantenga presionado el botón izquierdo mouse mientras arrastra la unidad arriba hasta **Operaciones**. Libere el botón izquierdo del mouse para colocar la unidad en la acumulación de la Operación. Repita para **Producción**, **Control de calidad**, **Logística**, **Adquisición** y **Administración**.
 24. Haga **Mercado**, **Súper**, **Centro comercial** y **En línea** elementos secundarios de **Venta minorista** disminuyéndolos de nivel o arrastrándolos y colocándolos.
 25. Guarde la reorganización resultante. Ahora que tenemos el árbol creado y organizado, se puede agregar a la definición del informe.
 26. En el menú **Ventana**, seleccione **Informe de ingresos – predeterminado** para abrir la definición del informe.
 27. Haga clic en la flecha desplegable **Tipo de árbol** y seleccione **Organigrama**.
 28. Haga clic en la flecha desplegable Árbol y seleccione **Centros de coste por división**.
-29. Cambie el año base a **2012**, **guarde** los cambios y **genere** el informe. Después de que el informe complete la generación y se abra, puede explorar el informe.
+29. Cambie el año base a **2021**, **guarde** los cambios y **genere** el informe. Después de que el informe complete la generación y se abra, puede explorar el informe.
 30. Seleccione la lista desplegable **Organigrama** para ver las unidades de informe. Como alternativa, puede explorar en profundidad una fila del informe para ver todos los saldos para todas las unidades del organigrama.
 31. Cierre **Informe de ingresos - predeterminado**.
 32. Cierre el **Diseñador de informes**.
@@ -145,11 +145,11 @@ Para este ejercicio, modificará un informe predeterminado existente. Se creará
 ## <a name="exercise-4-create-a-consolidated-report-using-an-organization-hierarchy"></a>Ejercicio 4: Crear un informe consolidado con una jerarquía organizativa
 Para este ejercicio, modificará un informe predeterminado existente. Agregará una jerarquía organizativa en la definición del informe para producir un informe de ingresos consolidado y un balance de situación. Una vez que se completen las actualizaciones, generará el informe consolidado y explorará el informe con el organigrama. Empezaremos por la lista Informes financieros.
 
-1. Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
+1. Vaya a **Informes financieros** en **Consultas e informes** en Contabilidad general.
 2. Seleccione la fila del informe denominado **Balance de situación e informe de ingresos en paralelo – predeterminado**.
 3. Seleccione **Editar**. **Balance de situación e informe de ingresos en paralelo – predeterminado** se abrirá en el diseñador de informes.
 4. Seleccione **Archivo** &gt; **Guardar como** y asígnele el nombre **Balance de situación consolidado e informe de ingresos en paralelo al informe**.
-5. Cambie el año base a 2012.
+5. Cambie el año base a 2021.
 6. Haga clic en la flecha desplegable Árbol y seleccione **Jerarquías organizativas**.
 7. Haga clic en la flecha desplegable Árbol y seleccione **Contoso Holdings**.
 8. Guarde los cambios y genere el informe. Si se le solicita, seleccione todas las unidades de informe. Después de que el informe complete la generación y se abra, puede explorar el informe.
@@ -162,16 +162,16 @@ Para este ejercicio, modificará un informe predeterminado existente. Agregará 
 15. Cierre el **Diseñador de informes**.
 
 ## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Ejercicio 5: Crear un informe de departamento en paralelo
-En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista Informes financieros.
+En este ejercicio, creará un informe nuevo. El informe es un informe de ingresos de departamento en paralelo. Usará una definición de fila existente, pero creará una definición del informe nueva y una definición de columna nueva que use filtros de dimensión. Empezaremos por la lista **Informes financieros**.
 
-1. Vaya a **Informes financieros** en Consultas e informes en Contabilidad general.
+1. Vaya a **Informes financieros** en **Consultas e informes** en Contabilidad general.
 2. Seleccione **Nuevo**. El diseñador de informes se abrirá con una definición del informe en blanco abierta. Su primera tarea será crear la definición de columna.
 3. Cree una nueva definición de columna haciendo clic en **Archivo**, **Nuevo** y, a continuación, en **Definición de columnas**.
 4. En la **Columna A**, seleccione **DESC** para el tipo de columna.
 5. En la **Columna B**, seleccione **FD** para el tipo de columna.
 6. Haga doble clic en el campo **Filtro de dimensiones**.
 7. En la ventana **Dimensión**, haga doble clic en la columna **Departamento**.
-8. En la sección Individual o intervalo del diálogo, haga clic en los **puntos suspensivos** para el campo **De** para que aparezca una lista de departamentos.
+8. En la sección **Individual o intervalo** del diálogo, haga clic en los **puntos suspensivos** para el campo **De** para que aparezca una lista de departamentos.
 9. Seleccione el departamento **022**, **Ventas y marketing** y, a continuación, haga clic en **Aceptar**.
 10. Repita los pasos 5 al 8 para los departamentos 23-25.
 11. En la fila **Encabezado 2** para cada columna FD, escriba las siguientes descripciones de departamento:
@@ -185,7 +185,7 @@ En este ejercicio, creará un informe nuevo. El informe es un informe de ingreso
 13. En el menú **Ventana**, seleccione **Nueva definición del informe** para abrir la definición del informe.
 14. Seleccione **Informe de ingresos - predeterminado** como la definición de fila y **Departamentos en paralelo** como la definición de columna.
 15. Guarde la definición del informe como **Informe de ingresos de departamento en paralelo**.
-16. Cambie el año base a **2012**.
+16. Cambie el año base a **2021**.
 17. Cambiar el nivel de detalle a **Financiero, Cuenta y Transacción**.
 18. **Guarde** sus cambios y **genere**. Una vez que el informe complete la generación y se abra, puede explorar el informe.
 

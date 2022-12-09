@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779537"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804246"
 ---
 # <a name="reconcile-a-bank-account"></a>Conciliar cuenta bancaria
 
@@ -63,7 +63,7 @@ Para activar la casilla **Compensado** para un intervalo de cheques mostrados en
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Cancelar conciliación de extracto bancario 
 
-La funcionalidad de cancelación de conciliación de extracto bancario permite cancelar la conciliación del extracto bancario. Para utilizar esta función, active **Cancelar conciliación de extracto bancario** en el espacio de trabajo **Administración de características**. También deberá habilitar el parámetro **Permitir edición del extracto bancario**. Para ello, vaya a **Gestión de efectivo y bancos > Configuración > Parámetros de gestión de efectivo y bancos > Conciliación bancaria**.
+La funcionalidad **Cancelar conciliación de extracto bancario** permite cancelar la conciliación del extracto bancario. Para utilizar esta función, active **Cancelar conciliación de extracto bancario** en el espacio de trabajo **Administración de características**. También deberá habilitar el parámetro **Permitir edición del extracto bancario**. Para ello, vaya a **Gestión de efectivo y bancos > Configuración > Parámetros de gestión de efectivo y bancos > Conciliación bancaria**.
  
 Las conciliaciones de extracto bancario se pueden cancelar únicamente en el orden cronológico en el que se especificaron. Cuando una conciliación de extracto bancario se cancela, las nuevas transacciones y correcciones se invierten y el resto de transacciones se marcan como no conciliadas.
  

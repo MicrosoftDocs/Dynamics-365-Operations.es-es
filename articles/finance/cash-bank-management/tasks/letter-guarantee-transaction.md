@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779944"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803974"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transacción de carta de garantía
 
@@ -43,7 +43,7 @@ Este procedimiento usa la empresa de demostración USMF.
 1. Vaya a **Clientes > Pedidos > Todos los pedidos de venta**.
 2. Haga clic en **Nuevo**.
 3. En el campo **Cuenta de cliente**, especifique o seleccione un valor.
-4. Expanda la sección General.
+4. Expanda la sección **General**.
 5. En el campo **Sitio**, especifique o seleccione un valor.
 6. En la lista, haga clic en el vínculo de la fila seleccionada.
 7. En el campo **Almacén**, especifique o seleccione un valor.
@@ -52,9 +52,12 @@ Este procedimiento usa la empresa de demostración USMF.
 10. Haga clic en **Aceptar**.
 11. En el campo **Número de artículo**, especifique o seleccione un valor.
 12. En el campo **Precio unitario**, escriba un número.
-13. Expanda la sección Detalles de línea.
-14. Haga clic en la pestaña Entrega.
-    * Nota: Seleccione Control de fecha de entrega = Ninguno  
+13. Expanda la sección **Detalles de línea.**
+14. Haga clic en la ficha **Entrega**.
+
+>[!Note] 
+>Seleccione **Control de fecha de entrega** = **Ninguno**  
+
 15. En el campo **Fecha de envío solicitada**, especifique una fecha.
 16. En el campo **Fecha de envío confirmada**, especifique una fecha.
 
@@ -83,7 +86,7 @@ Este procedimiento usa la empresa de demostración USMF.
 2. En el campo **Número del banco**, escriba un valor.
     * Compruebe los valores en los campos **Margen** y **Gasto** calculados.  
 3. Haga clic en **Aceptar**.
-4. Expanda la sección Acciones.
+4. Expanda la sección **Acciones**.
     * Compruebe el registro "Recibir del banco".  
 5. Haga clic para seguir el vínculo en el campo **Número de lote de diario**.
 6. Haga clic en **Líneas**.
@@ -102,7 +105,7 @@ Este procedimiento usa la empresa de demostración USMF.
 9. En la lista, busque y seleccione el registro deseado.
 10. Haga clic en **Entregar a beneficiario** para abrir el cuadro de diálogo desplegable.
 11. Haga clic en **Aceptar**.
-12. Expanda la sección Acciones.
+12. Expanda la sección **Acciones**.
     * Valide el registro "Entregar a beneficiario".  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Procesar carta de garantía_Aumentar valor
@@ -118,7 +121,7 @@ Este procedimiento usa la empresa de demostración USMF.
 10. En la lista, busque y seleccione el registro deseado.
 11. Haga clic en **Aumentar valor** para abrir el cuadro de diálogo desplegable.
 12. Haga clic en **Aceptar**.
-13. Expanda la sección Acciones.
+13. Expanda la sección **Acciones**.
     * Compruebe el registro "Aumentar valor".  
 14. En la lista, busque y seleccione el registro deseado.
 15. Haga clic para seguir el vínculo en el campo **Número de lote de diario**.
@@ -137,7 +140,7 @@ Este procedimiento usa la empresa de demostración USMF.
 9. En la lista, busque y seleccione el registro deseado.
 10. Haga clic en **Liquidar** para abrir el cuadro de diálogo desplegable.
 11. Haga clic en **Aceptar**.
-12. Expanda la sección Acciones.
+12. Expanda la sección **Acciones**.
     * Compruebe el registro "Liquidar".  
 13. En la lista, busque y seleccione el registro deseado.
 14. Haga clic para seguir el vínculo en el campo **Número de lote de diario**.

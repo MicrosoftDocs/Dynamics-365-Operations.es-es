@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680368"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799636"
 ---
 # <a name="financial-dimensions"></a>Dimensiones financieras
 
@@ -136,6 +136,12 @@ Puede configurar los segmentos de dimensiones derivadas y valores usando entidad
 - La entidad valor de dimensiones derivadas permite importar los valores que se deben derivar de cada dimensión de conducción.
 
 Al usar una entidad para importar datos, si dicha entidad importa dimensiones, las reglas de dimensión derivadas se aplican durante la importación a menos que la entidad anule específicamente dichas dimensiones.
+
+## <a name="financial-dimension-service"></a>Servicio de dimensiones financieras
+
+El complemento de servicio de dimensión financiera está disponible en el entorno de Microsoft Dynamics Lifecycle Services. Proporciona un rendimiento mejorado cuando utiliza el marco de gestión de datos para importar un diario que tiene una gran cantidad de líneas. Para usar el servicio, debe habilitarlo en la página **Parámetros del servicio de dimensión financiera**. Actualmente, el servicio funciona solo en diarios importados que tienen 500 líneas o más. Además, actualmente solo puede procesar diarios generales donde el tipo de cuenta **Contabilidad** está establecido en las líneas del diario. Otros tipos de cuenta en líneas de diario, como **Cliente**, **Proveedor** y **Banco**, actualmente no son compatibles. Este servicio no se invocará cuando las dimensiones derivadas estén configuradas en el sistema.
+
+El servicio de dimensión financiera proporciona un rendimiento mejorado cuando los diarios se importan mediante un nuevo servicio que se ejecuta en paralelo a la importación de datos. Se ejecuta solo en la cuenta principal y los datos de dimensión financiera en el diario, y genera las combinaciones de dimensiones que se especifican en el campo de cadena de cuenta contable en las líneas del diario. El procesamiento convierte esta cadena en el almacenamiento de datos estructurados que el marco de dimensión financiera utiliza en el resto del producto para validación, informes resumidos y consultas. Para obtener más información sobre los informes resumidos de datos de dimensiones financieras, consulte [Conjuntos de dimensiones financieras](financial-dimension-sets.md).
 
 Para obtener más información, consulte los siguientes temas:
 

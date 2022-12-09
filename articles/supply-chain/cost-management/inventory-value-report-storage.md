@@ -2,21 +2,21 @@
 title: Informes de valor de inventario
 description: Este artículo explica cómo configurar, generar y usar informes de valor de inventario. Estos informes proporcionan detalles sobre los importes y cantidades físicas y financieras de su inventario.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334937"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806416"
 ---
 # <a name="inventory-value-reports"></a>Informes de valor de inventario
 
@@ -129,7 +129,7 @@ Utilice la página **Informes de valor de inventario** para configurar el conten
     - **Subcontratación directa** - Establezca esta opción en *Sí* para mostrar los costes de subcontratación directa de trabajo en curso. Esta información resulta útil para subcontratación.
     - **Nivel de detalle** - Seleccione una opción de vista para el informe:
 
-        - *Transacciones* - Ve todas las transacciones relevantes en el informe. Tenga en cuenta que puede experimentar problemas de rendimiento al ver informes que incluyen un gran volumen de transacciones. Por lo tanto, si desea utilizar esta opción de vista, le recomendamos que utilice el informe **Almacenamiento de informes de valor de inventario**.
+        - *Transacciones* - Ve todas las transacciones relevantes en el informe. Puede experimentar problemas de rendimiento al ver informes que incluyen un gran volumen de transacciones. Por lo tanto, si desea utilizar esta opción de vista, le recomendamos que utilice el informe **Almacenamiento de informes de valor de inventario**.
         - *Totales* - Ver el resultado total.
 
     - **Incluir saldo inicial** - Establezca esta opción en *Sí* para mostrar el saldo inicial. Esta opción solo está disponible cuando el campo **Nivel de detalle** está establecido en *Transacciones*.
@@ -172,7 +172,7 @@ Después de generar un informe, puede verlo y explorarlo en cualquier momento me
     - Utilice el campo **Filtro** para filtrar el informe por cualquier valor en cualquiera de las distintas columnas disponibles.
     - Use el menú de vista (sobre el campo **Filtro**) para guardar y cargar sus combinaciones favoritas de opciones de clasificación y filtro.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Exportar un informe de almacenamiento de informes de valor de inventario
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Exportar un informe de almacenamiento de informes de valor de inventario
 
 Cada informe que genera se almacena en la entidad de datos **Valor de inventario**. Puede usar las funciones estándar de administración de datos de Supply Chain Management para exportar datos de esta entidad a cualquier formato de datos compatible, como CSV o Excel.
 
@@ -180,7 +180,7 @@ El siguiente ejemplo muestra cómo exportar un informe **Almacenamiento de infor
 
 1. Vaya a **Administración del sistema \> Áreas de trabajo \> Administración de datos**.
 1. En la sección **Importación y exportación**, seleccione el icono **Exportar**.
-1. En la página **Exportar** que aparece, configurará el trabajo de exportación. Primero especifique un nombre de grupo para el trabajo.
+1. En la página **Exportar** que aparece, configure el trabajo de exportación. Primero especifique un nombre de grupo para el trabajo.
 1. En la sección **Entidades seleccionadas**, seleccione **Agregar entidad**.
 1. En el cuadro de diálogo que aparece, establezca los campos siguientes:
 
@@ -203,6 +203,34 @@ El siguiente ejemplo muestra cómo exportar un informe **Almacenamiento de infor
 1. En la página **Resumen de ejecución** que aparece, puede ver el estado de su trabajo de exportación y una lista de las entidades que se exportaron. En la sección **Estado de procesamiento de la entidad**, seleccione la entidad **Valor de inventario** en la lista y luego seleccione **Descargar archivo** para descargar los datos que se exportaron desde esa entidad.
 
 Para obtener más información sobre cómo usar la administración de datos para exportar datos, vea [Resumen de trabajos de importación y exportación de datos](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+## <a name="delete-stored-inventory-value-reports"></a>Eliminar informes de valor de inventario almacenados
+
+A medida que aumenta el número de informes de valores de inventario almacenados, es posible que eventualmente comiencen a ocupar demasiado espacio en su base de datos. Esta situación puede afectar el rendimiento del sistema y generar mayores costes de almacenamiento de datos. Por tanto, probablemente tendrá que limpiar los informes de vez en cuando eliminando los informes más antiguos.
+
+> [!IMPORTANT]
+> Antes de eliminar cualquiera de sus informes de valores de inventario generados anteriormente, le recomendamos encarecidamente que primero [exporte los informes](#export-stored-report) y los almacene externamente, ya que es posible que no pueda volver a generarlos luego. Esta limitación existe porque cuando genera un informe de valor de inventario, el sistema trabaja hacia atrás desde hoy y procesa cada registro de transacción de inventario en orden inverso a medida que avanza. Si intenta ir demasiado hacia atrás cuando genera un informe, el volumen de transacciones a procesar podría llegar a ser tan grande que se agotará el tiempo de espera del sistema antes de que pueda terminar de generar el informe. La distancia en el pasado para la que puede generar nuevos informes depende de la cantidad de transacciones de inventario que tenga en su sistema para el período de tiempo relevante.
+
+### <a name="delete-one-report-at-a-time"></a>Eliminar un informe a la vez
+
+Siga estos pasos para eliminar un informe almacenado a la vez.
+
+1. [Exporte el informe](#export-stored-report) que planea eliminar y guárdelo en una ubicación externa para referencia futura.
+1. Vaya a **Gestión de costes \> Consultas e informes \> Informe de almacenamiento de valor de inventario**.
+1. En el panel de la lista, seleccione el informe que desea eliminar.
+1. En el panel de acciones, seleccione **Eliminar**.
+1. Un mensaje de advertencia le recuerda que realice una copia de seguridad de los informes generados. Seleccione **Sí** si está listo para proceder con la eliminación.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Eliminar varios informes al mismo tiempo
+
+Siga estos pasos para eliminar varios informes almacenados a la vez.
+
+1. [Exporte todos los informes](#export-stored-report) que planea eliminar y guárdelos en una ubicación externa para referencia futura.
+1. Vaya a **Gestión de costes \> Contabilidad de inventario \> Limpiar \> Limpieza de datos del informe del valor del inventario**.
+1. En el cuadro de diálogo **Limpieza de datos del informe del valor del inventario**, en el campo **Eliminar informe de valores de inventario ejecutado anteriormente**, seleccione la fecha antes de la cual se deben eliminar todos los informes de valores de inventario.
+1. En la ficha desplegable **Registros para incluir**, puede configurar condiciones de filtro adicionales para limitar el conjunto de informes que se eliminarán Seleccione **Filtro** para abrir un diálogo de editor de consulta estándar, donde puede definir criterios las propiedades de los informes que eliminará.
+1. En la ficha desplegable **Ejecutar en segundo plano**, puede especificar cómo, cuándo y con qué frecuencia deben eliminarse los informes. Los campos funcionan igual que o hacen para otros tipos de [trabajos en segundo plano](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) en Supply Chain Management. Sin embargo, normalmente ejecutará este trabajo manualmente cada vez que sea necesario.
+1. Seleccione **Aceptar** para eliminar los informes especificados.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Generar un informe de valor de inventario estándar
 
@@ -245,6 +273,6 @@ Normalmente, utilizará un informe de valor de inventario para ver el valor y la
 - Revise los grupos almacenamiento de artículos y dimensión de seguimiento. Solo dimensiones donde la opción **Inventario financiero** está habilitada pueden mostrarse en el informe.
 - Vaya a **Cost Management \> Configuración de directivas de contabilidad de inventario \> Informes de valor de inventario**, seleccione la configuración del informe que utilizó para generar el informe y asegúrese de que las dimensiones de inventario necesarias estén seleccionadas en la columna **Vista**.
 
-Por ejemplo, tiene un artículo que tiene el número de artículo *A0001*. En el grupo de dimensiones de almacenamiento, solo el sitio está habilitado para el inventario financiero. El sitio y el almacén están habilitados para el inventario físico. En el grupo de dimensiones de seguimiento, el número de lote está habilitado para inventario físico pero no para inventario financiero. Luego, utiliza una configuración de informe en la que se seleccionan el sitio, el almacén y el número de lote. Cuando ve el informe, ve un valor solo para el sitio. Las columnas para el almacén y el número de lote están en blanco. Como muestra este ejemplo, los informes de valor de inventario solo pueden mostrar la dimensión de inventario que está habilitada para el inventario financiero.
+Por ejemplo, tiene un artículo que tiene el número de artículo *A0001*. En el grupo de dimensiones de almacenamiento, solo el sitio está habilitado para el inventario financiero. El sitio y el almacén están habilitados para el inventario físico. En el grupo de dimensiones de seguimiento, el número de lote está habilitado para inventario físico pero no para inventario financiero. Luego, utiliza una configuración de informe en la que se seleccionan el sitio, el almacén y el número de lote. Cuando ve el informe, ve un valor solo para el sitio. Las columnas para el almacén y el número de lote están en blanco. Como muestra este ejemplo, los informes de valor de inventario solo pueden mostrar las dimensiones de inventario que está habilitada para el inventario financiero.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

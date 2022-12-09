@@ -2,7 +2,7 @@
 title: Definiciones de filas en el diseñador de informes financieros
 description: Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274705"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802455"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
@@ -30,11 +30,11 @@ Una definición de fila es un componente de informe, o bloque de creación, que 
 
 ## <a name="create-a-row-definition"></a>Crear una definición de fila
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de las filas**.
+1. En Report designer, en el panel de navegación, haga clic en **Definiciones de las filas**.
 2. En el menú **Archivo**, haga clic en **Nueva** y, a continuación, haga clic en **Definición de filas**. Para obtener más información sobre el contenido de cada celda, vea [Modificar las celdas de la definición de filas](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Abrir una definición de fila
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de las filas**.
+1. En Report designer, en el panel de navegación, haga clic en **Definiciones de las filas**.
 2. Haga doble clic en el nombre de la definición de la fila para abrirla.
 3. Para ver los bloques de creación asociados con la definición de filas, haga clic con el botón secundario en la definición de filas y seleccione **Asociaciones**.
 
@@ -65,13 +65,13 @@ Una dimensión es una intersección de datos y de valores. Puede agrupar datos y
 
 | Opción                | Descripción |
 |-----------------------|-------------|
-| Dimensión             | El modelo que identifica la dimensión que se agrega a la definición de filas. Este modelo contiene una Y comercial (&) o el signo de número (\#) para cada puesto de las dimensiones. Normalmente, use todos los signos & para la dimensión de la cuenta principal y todos los signos de número para otras dimensiones. |
+| Dimensión             | El modelo que identifica la dimensión que se agrega a la definición de filas. Este modelo contiene una Y comercial (&) o el signo de número (\#) para cada puesto de las dimensiones. Normalmente, use todos los signos &amp; para la dimensión de la cuenta principal y todos los signos de número para otras dimensiones. |
 | Inicio de intervalo de dimensión | El primer valor de esta dimensión que se va a agregar a la definición de fila. |
 | Fin de intervalo de dimensión   | El último valor que agregará esta dimensión a la definición de filas. |
 
 Para agregar dimensiones a una definición de fila, siga estos pasos.
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. En el menú **Editar** , haga clic en **Insertar filas de dimensiones**.
 3. En el cuadro de diálogo **Insertar filas desde dimensiones**, en la fila **Dimensiones**, seleccione la celda en la que la dimensión se transferirá a la definición de filas y, a continuación, haga clic en **Todas &&&**.
 4. Para limitar la definición de filas a un intervalo específico de valores de dimensión, especifique el valor de dimensión de inicio en la celda **Inicio del intervalo de la dimensión** y después especifique el valor de dimensión final en la celda **Fin del intervalo de la dimensión**. Para incluir todos los valores de la dimensión seleccionada, deje estas celdas en blanco.
@@ -94,7 +94,7 @@ Si tiene un balance de situación donde se redondean los importes, los totales p
 
 Para ajustar el redondeo en un balance de situación, siga estos pasos.
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. En el menú **Editar**, haga clic en **Ajuste de redondeo**.
 3. En el cuadro **Ajustes de redondeo**, especifique los siguientes valores:
 
@@ -124,7 +124,7 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 <td><strong>Crear un estilo de fuente</strong></td>
 <td>
 <ol>
-<li>En el diseñador de informes, en el menú <strong>Formato </strong>, haga clic en <strong>Estilos y formato</strong>.</li>
+<li>En Report designer, en el menú <strong>Formato</strong>, haga clic en <strong>Estilos y formato</strong>.</li>
 <li>En el cuadro de diálogo <strong>Estilos y formato</strong>, haga clic en <strong>Nuevo</strong> y especifique un nombre único para el estilo nuevo.</li>
 <li>Seleccione las fuentes y haga clic en <strong>Aceptar</strong>.</li>
 </ol>
@@ -134,7 +134,7 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 <td><strong>Modificar un estilo de fuente</strong></td>
 <td>
 <ol>
-<li>En el diseñador de informes, en el menú <strong>Formato </strong>, haga clic en <strong>Estilos y formato</strong>.</li>
+<li>En Report designer, en el menú <strong>Formato</strong>, haga clic en <strong>Estilos y formato</strong>.</li>
 <li>En el cuadro de diálogo <strong>Estilos y formato</strong>, seleccione un estilo para modificar y haga clic en <strong>Modificar</strong>.</li>
 <li>Seleccione las fuentes y haga clic en <strong>Aceptar</strong>.</li>
 </ol>
@@ -144,7 +144,7 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 <td><strong>Aplicar un estilo de fuente</strong></td>
 <td>
 <ol>
-<li>En el diseñador de informes, e una definición o definición de columna, o en encabezados y pies de página, seleccione una o más celdas.</li>
+<li>En Report designer, e una definición o definición de columna, o en encabezados y pies de página, seleccione una o más celdas.</li>
 <li>En la lista <strong>Estilo</strong> de la barra de herramientas, seleccione un estilo de fuente.</li>
 </ol>
 </td>
@@ -156,7 +156,7 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 
 El formato que se especifica en la definición de la fila anula el formato que se especifica en la definición de la columna y la definición del informe. Puede modificar el formato de texto mediante los controles de la barra de herramientas de formato. Estos controles son estándar de Microsoft Windows.
 
-1. En el Diseñador de informes, abra la definición de fila que desee modificar.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. Seleccione las celdas a las que desea dar formato. Para seleccionar varias celdas, mantenga presionada la tecla Ctrl mientras selecciona la celda.
 3. Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y haga clic en **Aumentar sangría** ![Aumentar sangría.](media/indent.gif "Aumentar sangría") en la barra de herramientas.
 
@@ -166,19 +166,19 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Cambiar la anchura de una columna en el panel de vista
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. En el menú **Formato**, seleccione **Anchura de columna**.
 3. En el cuadro de diálogo **Ancho de columna**, escriba un valor y, a continuación, haga clic en **Aceptar**. De forma alternativa, también puede arrastrar el límite derecho de una celda del encabezado de columna para cambiar el ancho de la columna.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Ocultar columnas en el panel de vista
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. Seleccione las columnas que desea minimizar.
 3. Haga clic con el botón secundario y, a continuación, haga clic en **Ocultar**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Mostrar todas las columnas ocultas en el panel de vista
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. Haga clic con el botón secundario en la columna minimizada que desee mostrar y, a continuación, haga clic en **No ocultar**.
 
 

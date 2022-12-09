@@ -2,7 +2,7 @@
 title: Vistas guardadas
 description: Este artículo describe cómo usar las características guardadas de las vistas.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757231"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799501"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -55,7 +55,7 @@ Existen dos variantes de tamaño en selector de la vista:
  
 Si selecciona el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página
 
-**Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas muestra las vistas disponibles en dos secciones. La primera sección muestra las vistas que son específicas de la entidad jurídica actual y la segunda muestra las vistas que están disponibles para todas las entidades jurídicas. La primera sección es visible solo si hay vistas específicas de la entidad jurídica para la página.
+Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, el selector de vistas muestra las vistas disponibles en dos secciones. La primera sección muestra las vistas que son específicas de la entidad jurídica actual y la segunda muestra las vistas que están disponibles para todas las entidades jurídicas. La primera sección es visible solo si hay vistas específicas de la entidad jurídica para la página.
 
 - **Vista estándar**: la vista **estándar** es la vista de lista para usar la página sin personalizaciones aplicadas.
 - **Vistas personales**: las vistas sin los candados representan las vistas personales. Éstas son las vistas que ha creado o que le ha asignado un administrador.
@@ -81,7 +81,7 @@ Si desea guardar los cambios, siga estos pasos.
     1. Seleccione **Guardar como**. 
     2. En el panel **Guardar vista como**, introduzca un nombre y, opcionalmente, una descripción para la vista.
     3. Si desea que esta vista sea su vista predeterminada, seleccione **Anclar como predeterminada**. Para obtener más información sobre las vistas predeterminadas, consulte la sección [Cambiar la vista predeterminada](#changing-the-default-view) que sigue. 
-    4. **Versión 10.0.21 o posterior:** Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, puede seleccionar si desea que esta vista esté disponible para todas las entidades jurídicas o solo para un subconjunto de ellas.
+    4. Si la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, puede seleccionar si desea que esta vista esté disponible para todas las entidades jurídicas o solo para un subconjunto de ellas.
     5. Seleccione **Guardar**.
 
 ## <a name="changing-the-default-view"></a>Cambiar la vista predeterminada
@@ -90,7 +90,7 @@ La vista predeterminada es la vista que el sistema intenta abrir cuando abra la 
 
 > [!NOTE]
 > - En la función **Vistas guardadas**, hay una vista predeterminada global única para todas las entidades jurídicas. Si cambia la vista predeterminada, esa vista se abrirá de manera predeterminada, independientemente de la entidad jurídica en la que se encuentre actualmente.
-> - **Versión 10.0.21 o posterior:** Cuando la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, cada entidad jurídica puede tener su propia vista predeterminada por página.
+> - Cuando la función **Soporte de entidad jurídica mejorado para vistas guardadas** está activada, cada entidad jurídica puede tener su propia vista predeterminada por página.
 
 Para cambiar la vista predeterminada de una página, siga estos pasos:
 
@@ -101,7 +101,7 @@ Para cambiar la vista predeterminada de una página, siga estos pasos:
 Como alternativa, al crear una nueva vista (mediante la acción **Guardar como**), puede hacer que esa nueva vista sea la vista predeterminada mediante la opción **Anclar como predeterminada** antes de guardar la vista.
 
 > [!WARNING]
-> En algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando abre por primera vez una página. Por ejemplo, si abre la página a través de un icono, la consulta del icono se ejecutará independientemente de que la consulta esté asociada a la vista predeterminada. Además, si abre una página cuya vista **Estándar** ya tiene una consulta definida, la consulta original se ejecutará en lugar de la consulta predeterminada de la vista. En este caso, recibirá un mensaje informativo cuando se cargue la vista. Si cambia de vista después de que se haya cargado la página, la consulta de vista debería poder ejecutarse como se esperaba. En la versión 10.0.10 y versiones posteriores, el mensaje informativo que recibe tendrá una acción incrustada que le permitirá cargar directamente la consulta de la vista predeterminada.
+> En algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando abre por primera vez una página. Por ejemplo, si abre la página a través de un icono, la consulta del icono se ejecutará independientemente de que la consulta esté asociada a la vista predeterminada. Además, si abre una página cuya vista **Estándar** ya tiene una consulta definida, la consulta original se ejecutará en lugar de la consulta predeterminada de la vista. En este caso, recibirá un mensaje informativo cuando se cargue la vista con una acción incrustada que le permite cargar directamente la consulta de la vista predeterminada. Si cambia de vista después de que se haya cargado la página, la consulta de vista debería poder ejecutarse como se esperaba. 
 
 ## <a name="managing-personal-views"></a>Gestión de vistas personales
 

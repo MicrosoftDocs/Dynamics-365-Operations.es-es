@@ -2,7 +2,7 @@
 title: Actualizar proceso
 description: Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio para la aplicación y cambios de plataforma.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520820"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819306"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
@@ -41,7 +41,7 @@ Las actualizaciones se lanzan en una cadencia regular en todos los entornos. Hum
 
 Las actualizaciones de Human Resources se aplican a todos los entornos automáticamente. Human Resources proporciona dos tipos de lanzamientos:
 
-- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para obtener más información sobre las versiones de plataforma, vea [Novedades y cambios en actualizaciones de la plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Las actualizaciones tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Actualizaciones de servicio**: las actualizaciones de servicio incluyen actualizaciones de plataforma aplicables cuando se lanzan. Además de las actualizaciones basadas en excepciones, se producen actualizaciones de servicio periódicas después de las actualizaciones de la plataforma de disponibilidad general (GA) de Dynamics 365 Finance. Para obtener más información sobre las versiones de plataforma, vea [Novedades y cambios en actualizaciones de la plataforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Las actualizaciones tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Actualizaciones de soluciones de Dataverse**: estas actualizaciones se producen aproximadamente cada seis semanas, según sea necesario. Incluyen nuevas entidades y cambios a entidades existentes en Dataverse. Estas actualizaciones se lanzan a las mismas regiones que las actualizaciones quincenales, y tardan aproximadamente seis semanas en replicarse en todos los centros de datos. Las actualizaciones de la solución pueden o no alinearse con las actualizaciones quincenales del servicio.
 
@@ -55,15 +55,6 @@ Cuando es necesario, Human Resources proporciona los siguientes tipos de solucio
 - **Corrección de emergencia**: las revisiones proactivas y reactivas que son de naturaleza independiente, pueden incluir solo cambios de configuración o código para resolver problemas del sitio en vivo, y pueden ocurrir aparte de una versión de actualización de servicio quincenal
 
 Las versiones se revisan, prueban y validan en un entorno interno. Después de que las compilaciones se cierran, se implementan en producción.
-
-## <a name="release-cadence-exceptions-in-2021"></a>Liberar excepciones de cadencia en 2021
-
-Para tener en cuenta los días festivos, el calendario de lanzamientos para noviembre y diciembre de 2021 es el siguiente:
-
-- Lanzamiento de noviembre: 1 de noviembre - 14 de noviembre
-- Lanzamiento de diciembre: 29 de noviembre - 12 de diciembre
- 
-La cadencia de lanzamiento de dos semanas se reanudará como de costumbre el 10 de enero de 2022.
 
 ## <a name="communications"></a>Comunicaciones
 

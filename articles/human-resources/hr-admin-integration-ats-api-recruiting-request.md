@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872279"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806385"
 ---
 # <a name="recruiting-request"></a>Solicitud de contratación
 
@@ -68,7 +68,7 @@ Describe una solicitud de contratación para un trabajo.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Describe una solicitud de contratación para un trabajo.
 | **Estado**<br>mshr_status<br>Conjunto de opciones *RecruitingRequestStatus* | Leer/Escribir<br>Obligatorio<br> | Indica el estado de la solicitud de contratación. |
 | **Descripción**<br>mshr_description<br>*Cadena* | Leer/Escribir<br>Obligatorio | Describe la solicitud. |
 | **Id. de ubicación de la solicitud de contratación**<br>mshr_recruitingrequestlocationid<br>*Cadena* | Leer/Escribir<br>Opcional | Identificador único legible por el usuario de la ubicación del trabajo asociada con esta solicitud. |
-| **Valor de id. de ubicación de contratación**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Solo lectura<br>Opcional<br>Clave externa: mshr_hcmrecruitingrequestlocationentityid de la entidad mshr_hcmrecruitingrequestlocationentity | Valor GUID generado por el sistema para identificar la ubicación de solicitud de contratación seleccionada con la solicitud. |
+| **Valor de id. de ubicación de contratación**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Solo lectura<br>Opcional<br>Clave externa: mshr_hcmrecruitingrequestlocationentityid de la entidad mshr_hcmrecruitingrequestlocationentity | Valor GUID generado por el sistema para identificar la ubicación de solicitud de contratación seleccionada con la solicitud. |
 | **Comentarios**<br>mshr_comments<br>*Cadena* | Leer/Escribir<br>Opcional | Comentarios sobre la solicitud de uso para responsables de contratación y técnicos de selección de personal. |
 | **Id. de trabajo**<br>mshr_jobid<br>*Cadena* | Escribir una vez<br>Obligatorio |   Identificador único legible por el usuario del trabajo compartido por todos los puestos asociados con esta solicitud. |
 | **Valor de id. de trabajo**<br>_mshr_fk_job_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_hcmjobentityid de la entidad mshr_hcmjobentity | Identificador único generado por el sistema del trabajo compartido por todos los puestos asociados con la solicitud de contratación. |

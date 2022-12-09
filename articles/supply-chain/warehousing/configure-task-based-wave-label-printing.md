@@ -2,7 +2,7 @@
 title: Programar la impresión de etiquetas de oleada durante la oleada
 description: Este artículo describe cómo configurar y utilizar la funcionalidad para la impresión de etiquetas wave basada en tareas.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889468"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822372"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Programar la impresión de etiquetas de oleada durante la oleada
 
@@ -32,7 +32,6 @@ Cuando usa la función *Impresión de etiquetas de ondas basada en tareas*, el s
 
 Para utilizar las funciones descritas en este artículo, deben estar activadas en su sistema. Use el espacio de trabajo [Administración de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), para activar las siguientes funciones en este orden:
 
-1. *Impresión de etiquetas onduladas* - Esta función es necesaria para habilitar el método de proceso de ondas para la impresión de etiquetas de ondas.
 1. *Bloqueo de trabajo en toda la organización*: esta característica es requerida para la configuración manual y automática de la creación de trabajos programados. (A partir de la versión 10.0.21 de Supply Chain Management, esta función es obligatoria, por lo que está activada de forma predeterminada y no se puede volver a desactivar).
 1. *Impresión de etiquetas de ondas basada en tareas* - Esta función es necesaria para dividir la impresión de etiquetas de onda en un ámbito de transacción independiente.
 

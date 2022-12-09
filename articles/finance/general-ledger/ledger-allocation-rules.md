@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901295"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787563"
 ---
 # <a name="ledger-allocation-rules"></a>Reglas de asignación contable
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901295"
 
 Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
 
-Las reglas de asignación de contabilidad se usan para calcular y para generar automáticamente diarios y asientos contables para asignar saldos contables o importes fijos. Los métodos de asignación pueden ser variables o fijos. Se pueden usar los siguientes métodos de asignación para las reglas de asignación de contabilidad:
+Las reglas de asignación de contabilidad se usan para calcular y para generar automáticamente diarios y asientos contables para asignar saldos contables o importes fijos. Los métodos de asignación pueden ser variables o fijos. La asignación se basa en el valor de la divisa de la transacción. Por ejemplo, los asientos contables de ganancias/pérdidas en divisa extranjera se contabilizan para ajustar los importes en divisa de notificación y contable. Estas entradas no están sujetas a reglas de asignación porque su valor en divisa de la transacción es 0,00. Se pueden usar los siguientes métodos de asignación para las reglas de asignación de contabilidad:
 
 -   **Base**: este método variable se usa cuando la asignación depende de los saldos contables reales, en función de los criterios de filtro. Por ejemplo, los costes de publicidad se pueden asignar según las ventas de cada departamento en proporción con el total de ventas departamentales.
 -   **Porcentaje fijo** y **Peso fijo**: para estos métodos, el porcentaje de asignación o el peso se define directamente para la regla. Por ejemplo, se pueden asignar gastos de publicidad de modo que el departamento A reciba el 70 por ciento de los gastos de publicidad y el departamento B reciba el 30 por ciento.

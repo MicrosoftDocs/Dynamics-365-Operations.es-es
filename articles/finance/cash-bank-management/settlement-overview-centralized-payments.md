@@ -2,7 +2,7 @@
 title: Vista general de la liquidación para pagos centralizados
 description: Este artículo describe el acuerdo para pagos centralizados para Microsoft Dynamics 365 Finance.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151187"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804236"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Vista general de la liquidación para pagos centralizados
 
@@ -84,11 +84,11 @@ Los descuentos generados durante el proceso de liquidación entre empresas se re
 
 Las tolerancias de diferencias de decimales y sobrepagos/pagos insuficientes, se determinan en función de la entidad jurídica pagadora para los sobrepagos, y en función de la entidad jurídica de facturación para los pagos insuficientes. La cuenta de registro que se usa viene determinada por la configuración del campo **Administración de descuentos de efectivo** de la página **Parámetros de clientes** y el campo **Administración de descuentos de efectivo** de la página **Parámetros de proveedores**.
 
--   Si la configuración de administración del descuento es Determinada, o si la configuración es Indeterminada y el descuento aplicable se ha registrado en una entidad jurídica diferente a la del sobrepago, se usa la cuenta automática para descuentos de Cliente, descuentos de Proveedor o Diferencia de decimales de la divisa contable. Puede especificar estas cuentas en la página **Cuentas para transacciones automáticas**.
--   Si la configuración de administración del descuento es Indeterminada y el descuento se ha registrado en la misma entidad jurídica que el sobrepago (la entidad jurídica pagadora y la de facturación son la misma), se ajustará la cuenta de descuentos de efectivo. Por ejemplo, si se liquida una factura para 100,00 con un descuento por pronto pago disponible de 3,00 con un pago de 98,00, la cuenta de descuentos por pronto pago se ajustará para 1,00. El importe de descuento neto es 2,00.
--   Si la configuración de administración del descuento es Indeterminada, el descuento se ha registrado en la misma entidad jurídica que el sobrepago y el sobrepago o pago insuficiente se ha liquidado con varias facturas con descuentos de efectivo, la cuenta de descuentos se ajustará para la última factura.
+-   Si la configuración de administración del descuento es **Determinada**, o si la configuración es **Indeterminada** y el descuento aplicable se ha registrado en una entidad jurídica diferente a la del sobrepago, se usa la cuenta automática para descuentos de Cliente, descuentos de Proveedor o Diferencia de decimales de la divisa contable. Puede especificar estas cuentas en la página **Cuentas para transacciones automáticas**.
+-   Si la configuración de administración del descuento es **Indeterminada** y el descuento se ha registrado en la misma entidad jurídica que el sobrepago (la entidad jurídica pagadora y la de facturación son la misma), se ajustará la cuenta de descuentos de efectivo. Por ejemplo, si se liquida una factura para 100,00 con un descuento por pronto pago disponible de 3,00 con un pago de 98,00, la cuenta de descuentos por pronto pago se ajustará para 1,00. El importe de descuento neto es 2,00.
+-   Si la configuración de administración del descuento es **Indeterminada**, el descuento se ha registrado en la misma entidad jurídica que el sobrepago y el sobrepago o pago insuficiente se ha liquidado con varias facturas con descuentos de efectivo, la cuenta de descuentos se ajustará para la última factura.
 
-Si la selección de administración del descuento es Indeterminada, se aplicarán reglas de liquidación de pago no específico, únicamente en las siguientes situaciones:
+Si la selección de administración del descuento es **Indeterminada**, se aplicarán reglas de liquidación de pago no específico, únicamente en las siguientes situaciones:
 -   Existe un sobrepago.
 -   El sobrepago se liquida con una o varias facturas con descuentos por pronto pago.
 -   El descuento por pronto pago se registra en la misma entidad jurídica que el sobrepago.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f79ef3ed5db7583eb44b99e49c010778ce8524d1
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: e68b28bfde35b51605aa0b653265da6261b69a90
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733470"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819252"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge"></a>Fusión de infraestructura de Dynamics 365 Human Resources 
 
@@ -85,11 +85,12 @@ Durante el proceso automático, las siguientes acciones se completan y deben val
 
     - Configuraciones
     - Roles de seguridad (incluidos roles personalizados)
-    - Flujos de trabajo
+    - Flujos de trabajo (incluidas notificaciones)
     - Personalizaciones y vistas guardadas
     - Transacciones
     - Campos personalizados
     - Archivos adjuntos
+    - Alertas
 
 - Administración de datos: traer la propia base de datos (BYOD).
 - Administración de características: características habilitadas o deshabilitadas.

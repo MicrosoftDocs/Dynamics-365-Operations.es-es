@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276726"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819279"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurar los impuestos para pedidos en línea
 
@@ -33,6 +33,8 @@ Es posible que desee que su canal de comercio electrónico admita opciones como 
 ## <a name="destination-based-taxes-for-online-orders"></a>Impuestos basados en el destino para pedidos en línea
 
 En general, los impuestos para los pedidos en línea que se envían a las direcciones de los clientes quedan definidos según el destino. Cada grupo de impuestos sobre tiene una configuración del impuesto basada en el destino comercial donde su empresa puede definir detalles de destino, como país o región, estado, localidad y ciudad en una forma jerárquica.
+
+La configuración para **Impuesto basado en el destino comercial** se puede encontrar en la sección **Módulo de impuestos > Impuestos indirectos > Impuestos > Grupos de impuestos**.
 
 ### <a name="orders-delivered-to-customer-address"></a>Pedidos entregados a la dirección de un cliente
 

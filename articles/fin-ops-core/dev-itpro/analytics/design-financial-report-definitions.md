@@ -2,7 +2,7 @@
 title: Definiciones de informes en el diseñador de informes financieros
 description: Este artículo proporciona información acerca de las definiciones de informes.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2ffef335c694af56486ccd7738818c4edda49b9e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291810"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802562"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Definiciones de informes en el diseñador de informes financieros
 
@@ -37,7 +37,7 @@ Una definición del informe es un componente de informe (o un bloque de creació
 No obstante, según la forma en que se almacenan los datos en el sistema Microsoft Dynamics ERP, es posible que los detalles de transacción no estén disponibles en los informes.
 
 ## <a name="create-a-report-definition"></a>Crear una definición del informe
-1. En el diseñador de informes, en el menú **Archivo**, haga clic en **Nuevo** y luego seleccione **Definición del informe**.
+1. En Report designer, en el menú **Archivo**, haga clic en **Nuevo** y luego seleccione **Definición del informe**.
 2. Especifique la información adecuada en las pestañas **Informe**, **Salida y distribución**, **Encabezados y pies de página** y **Parámetros**.
 
 ## <a name="contents-of-a-report-definition"></a>Contenido de una definición del informe

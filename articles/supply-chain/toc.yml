@@ -1929,6 +1929,8 @@
                   href: master-planning/planning-optimization/ddmrp-planning.md
                 - name: Ejecución visual y colaborativa
                   href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+                - name: Preguntas frecuentes acerca de DDMRP
+                  href: master-planning/planning-optimization/ddmrp-faqs.md
             - name: Motor de planificación en desuso
               items:
                 - name: Información general de motor de planificación en desuso

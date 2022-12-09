@@ -2,7 +2,7 @@
 title: Configurar tipos de permisos y ausencias
 description: Configure los tipos de baja que los empleados pueden tomar en Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323970"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805214"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,19 +43,25 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 1. En el espacio de trabajo **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
 2. En **Configuración**, seleccione **Tipos de permisos y ausencias**.
 3. Seleccione **Nuevo**.
-4. Escriba un nombre para el tipo de baja debajo de **Tipo**, seleccione un flujo de trabajo en **Id. de flujo de trabajo** e introduzca una descripción debajo de **Descripción**.
+4. Escriba un nombre para el tipo de baja debajo de **Tipo**, introduzca una descripción debajo de **Descripción** y seleccione un flujo de trabajo en **Id. de flujo de trabajo**. Según el tipo de ausencia, seleccione un tipo de solicitud en el campo **Tipo de solicitud**. Por ejemplo, seleccione **Licencia** o **Permiso para ausentarse** .
 5. En **General**, seleccione **Ninguno**, **Programado** o **No programado** en el menú desplegable **Categoría**.
 6. Seleccione un código de ganancia en el menú desplegable **Código de ganancias**.
-7. Debajo de **Código de motivo requerido**, elija si desea requerir un código de motivo. Si desea requerir códigos de motivo, es posible que deba agregarlos. Debajo de **Códigos de motivo**, seleccione **Agregar**, seleccione un código de motivo y luego seleccione la casilla **Habilitado** que se encuentra al lado.
-8. Debajo de **Restringir el acceso a los roles seleccionados**, elija si desea restringir el acceso. Luego seleccione los roles de seguridad en **Roles de seguridad para este tipo de permiso**. Los roles de seguridad se definen en el flujo de trabajo que ha seleccionado en **Id. de flujo de trabajo** anteriormente en este procedimiento.
-9. Debajo de **Color del calendario**, elija qué color mostrar en los calendarios de permisos y ausencias para este tipo de permisos. 
-10. En **Relaciones de suspensión**, elija si desea que este tipo de licencia suspenda otro tipo de licencia o sea suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida. 
-11. Seleccione **Guardar**.
+7. Debajo de **Código de motivo requerido**, seleccione si desea requerir un código de motivo. Si desea requerir códigos de motivo, es posible que deba agregarlos. Debajo de **Códigos de motivo**, seleccione **Agregar**, seleccione un código de motivo y luego seleccione la casilla **Habilitado** que se encuentra al lado.
+8. Si el tipo de solicitud es **Permiso para ausentarse**, siga estos pasos:
+
+      1. En **Con finalización abierta**, seleccione si los usuarios deben poder crear permisos con finalización abierta.
+      2. Si **Con finalización abierta** está habilitado, puede seleccionar si los trabajadores deben enviar un aviso de vuelta al trabajo cuando regresan de un permiso de ausencia.
+      3. Si los trabajadores deben enviar un aviso de vuelta al trabajo, puede habilitar **Habilitar el aviso de vuelta de trabajo**. Si **Habilitar el aviso de vuelta de trabajo** está habilitado, se habilitará automáticamente **Se requiere adjunto** y no se podrá deshabilitar.
+
+9. Si los usuarios deben cargar documentos cuando crean o actualizan solicitudes para ausentarse, puede habilitar **Se requiere adjunto**.
+10. Debajo de **Restringir el acceso a los roles seleccionados**, elija si desea restringir el acceso. Luego, en **Roles de seguridad para este tipo de permiso**, seleccione los roles de seguridad. Los roles de seguridad se definen en el flujo de trabajo que ha seleccionado en **Id. de flujo de trabajo** anteriormente en este procedimiento.
+11. Debajo de **Color del calendario**, seleccione qué color mostrar en los calendarios de permisos y ausencias para este tipo de permisos.
+11. En **Relaciones de suspensión**, elija si desea que este tipo de licencia debe suspender otro tipo de licencia o ser suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida.
+12. Seleccione **Guardar**.
 
 ## <a name="configure-leave-type-rules"></a>Configurar reglas de tipo de permiso
 
 1. Establezca opciones de redondeo para el tipo **Bajas y ausencias**. Las opciones incluyen **Ninguno**, **Arriba**, **Abajo** y **Aproximación**. También puede establecer la precisión de redondeo para el tipo de baja.
-
 2. Establezca **Corrección de día festivo** para el tipo de baja. Cuando selecciona esta opción, el número de días festivos que caen en un día laboral se utilizará para determinar cómo acumular los permisos para el tipo de baja. Por ejemplo, si el día de Navidad cae en lunes, Human Resources restará un día del tipo de baja al procesar las acumulaciones.
 
    Puede establecer días festivos en el calendario de tiempo laborable. Para obtener más información, consulte [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
 1. En la página **Baja y ausencia**, en la pestaña **Enlaces**, en **Configuración**, seleccione **Tipos de bajas y ausencias**.
 
-2. Seleccione un tipo de baja y ausencia en la lista. Entonces, en la sección **General**, use el campo **Se requiere adjunto** para especificar si se debe cargar un archivo adjunto cuando un empleado envía una nueva solicitud de licencia para el tipo de licencia seleccionado. 
+2. Seleccione un **Tipo de bajas y ausencias** en la lista. En la sección **General**, use el campo **Se requiere adjunto** para especificar si se debe cargar un archivo adjunto cuando un empleado envía una nueva solicitud de licencia para el tipo de licencia seleccionado. 
 
 Se requerirá que los empleados carguen un archivo adjunto cuando envíen una nueva solicitud de baja que tenga un tipo de baja donde el campo **Se requiere adjunto** está habilitado. Para ver el archivo adjunto que se cargó como parte de una solicitud de baja, los aprobadores de solicitudes de baja pueden usar la opción **Archivos adjuntos** para los elementos de trabajo que se les asignan. Si se accede a una solicitud de licencia mediante la aplicación de Human Resources en Microsoft Teams, la opción **Ver detalles** para la solicitud de licencia se puede utilizar para ver sus detalles y cualquier archivo adjunto.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715437"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804030"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Crear cheques que tengan el estado en blanco
 
@@ -35,7 +35,7 @@ En la página **Cheques**, realice las tareas de mantenimiento para cheques. Por
 
 Para abrir la página **Cheques**, vaya a **Gestión de efectivo y bancos \> Cuentas bancarias \> Cuentas bancarias** y, a continuación, en el panel de acciones, en la pestaña **Administrar pagos**, en el grupo **Información relacionada**, seleccione **Cheques**. Como alternativa, vaya a **Gestión de efectivo y bancos \> Consultas e informes \> Cheques**.
 
-A continuación, para crear cheques con estado **En blanco**, en el panel de acciones, seleccione **Crear cheques en blanco**. Mientras el sistema está creando cheques en blanco, la cuenta bancaria asociada se desactiva temporalmente. Este comportamiento reduce el riesgo de que se generen pagos a la vez que se crean cheques en blanco. Tras completar el procesamiento, se reactiva la cuenta bancaria asociada.
+A continuación, para crear cheques con estado **En blanco**, en el panel de acciones, seleccione **Crear cheques en blanco**. Mientras se crean cheques en blanco, la cuenta bancaria asociada se desactiva temporalmente. Este comportamiento reduce el riesgo de que se generen pagos a la vez que se crean cheques en blanco. Tras completar el procesamiento, se reactiva la cuenta bancaria asociada.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

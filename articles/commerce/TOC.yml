@@ -1011,7 +1011,23 @@
                 - name: Subir redireccionamientos de URL en grandes cantidades
                   href: upload-bulk-redirects.md
                 - name: Configurar un inquilino B2C en Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: Configurar un inquilino B2C
+                      href: set-up-B2C-tenant.md
+                    - name: Crear o vincular a un inquilino B2C de Azure AD existente
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Crear una aplicación B2C
+                      href: create-b2c-app.md
+                    - name: Crear directivas de flujo de usuario
+                      href: create-user-flow-policies.md
+                    - name: Agregar proveedores de identidad social
+                      href: add-social-identity-providers.md
+                    - name: Actualizar Commerce headquarters con información B2C de Azure AD
+                      href: update-hq-aad-b2c-info.md
+                    - name: Configurar su inquilino B2C en el generador de sitios
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Información B2C adicional
+                      href: additional-b2c-info.md
                 - name: Configurar páginas personalizadas para inicios de sesión de usuario
                   href: custom-pages-user-logins.md
                 - name: Habilitar la vinculación automática de registros de identidad con cuentas de clientes
@@ -1570,6 +1586,8 @@
               items:
                 - name: Generar códigos QR e imprimirlos en recibos para Arabia Saudí
                   href: localizations/emea-sau-qr-code.md
+                - name: Generar y enviar facturas electrónicas simplificadas para Arabia Saudí
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Suecia
               items:
                 - name: Funcionalidad de caja registradora
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Los impuestos sobre los pedidos en línea se han calculado incorrectamente
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Error de sincronización de pedidos relacionado con el servicio de pago predeterminado
+                - name: Problemas de sincronización de pedidos asincrónicos
                   href: troubleshoot/synchronization-error.md
             - name: Procesamiento de pagos
               items:

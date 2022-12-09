@@ -1,8 +1,8 @@
 ---
 title: Interfaz del diseñador de informes
-description: En este artículo se explica cómo navegar por el Diseñador de informes y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos.
+description: En este artículo se explica cómo navegar por Report designer y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274739"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802752"
 ---
 # <a name="report-designer-interface"></a>Interfaz del diseñador de informes
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se explica cómo navegar por el Diseñador de informes y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos.
+En este artículo se explica cómo navegar por Report designer y cómo utilizar las diversas opciones para satisfacer sus requerimientos específicos.
 
-## <a name="report-designer-menu-commands"></a>Comandos de menú del diseñador de informes
+## <a name="report-designer-menu-commands"></a>Comandos de menú de Report designer
 
 En las siguientes tablas se describen los comandos y las opciones de menú que se pueden usar cuando se diseñan informes financieros. Algunos comandos y opciones de menú sólo están disponibles en circunstancias específicas. Por ejemplo, los comandos para promocionar y degradar las unidades de informe solo están disponibles cuando se modifica una definición del organigrama.
 
@@ -50,7 +50,7 @@ El menú **Archivo** está disponible para todos los usuarios e incluye los sigu
 | Definiciones de informe recientes         | Mostrar una lista de informes que se han creado o se han modificado recientemente. Puede seleccionar un informe en la lista. |
 | Definiciones de filas recientes            | Mostrar una lista de definiciones de fila que se han creado o se han modificado recientemente. Puede seleccionar una definición en la lista. |
 | Definiciones de columnas recientes         | Mostrar una lista de definiciones de columna que se han creado o se han modificado recientemente. Puede seleccionar una definición de columna en la lista. |
-| Definiciones de organigramas recientes | Mostrar una lista de definiciones de organigramas que se han creado o se han modificado recientemente. Puede seleccionar una definición de organigrama en la lista. |
+| Definiciones de organigrama recientes | Mostrar una lista de definiciones de organigramas que se han creado o se han modificado recientemente. Puede seleccionar una definición de organigrama en la lista. |
 | Salir                              | Salir del diseñador de informes. |
 
 ### <a name="edit-menu"></a>Editar menú
@@ -68,18 +68,18 @@ El menú **Editar** está disponible para los usuarios que tienen el rol de **Di
 | Buscar                                   | Abra el cuadro de diálogo **Buscar y reemplazar**, donde puede buscar texto en el panel de vista. |
 | Reemplazar                                | Abra el cuadro de diálogo **Buscar y reemplazar**, donde puede buscar y reemplazar texto en el panel de vista. |
 | Insertar filas de dimensiones            | Abrir el cuadro de diálogo **Insertar filas de dimensiones**, donde puede seleccionar los valores de dimensión para incluir en la definición de filas. Este comando está disponible desde una definición de la fila. |
-| Renumerar filas                          | Renumerar todos los códigos numéricos de la fila. Este comando está disponible desde una definición de la fila. |
+| Volver a numerar filas                          | Renumerar todos los códigos numéricos de la fila. Este comando está disponible desde una definición de la fila. |
 | Vínculos de filas                              | Abrir el cuadro de diálogo **Vínculos de filas**, donde puede especificar las fuentes de los vínculos de datos en las definiciones de filas y en definiciones de los organigramas. Este comando está disponible desde una definición de la fila. |
-| Ajuste de redondeo                    | Abrir el cuadro de diálogo **Ajustes de redondeo**, donde puede especificar los parámetros para redondear. Este comando está disponible desde una definición de la fila. |
-| Gestionar conjuntos de dimensiones                  | Abrir el cuadro de diálogo **Conjuntos de dimensiones**, donde puede crear y modificar conjuntos de dimensiones. Este comando está disponible desde una definición de fila o una definición de organigrama. |
+| Ajuste por redondeo                    | Abrir el cuadro de diálogo **Ajustes de redondeo**, donde puede especificar los parámetros para redondear. Este comando está disponible desde una definición de la fila. |
+| Administrar grupos de dimensiones                  | Abrir el cuadro de diálogo **Conjuntos de dimensiones**, donde puede crear y modificar conjuntos de dimensiones. Este comando está disponible desde una definición de fila o una definición de organigrama. |
 | Insertar fila                             | Insertar una fila en blanco en la definición de fila o una fila de cabecera en blanco en la definición de columna. Este comando está disponible desde una definición de fila o una definición de columna. |
 | Eliminar fila                             | Eliminar la fila seleccionada de la definición de filas o la fila seleccionada del encabezado de la definición de columnas. Este comando está disponible desde una definición de fila o una definición de columna. |
 | Insertar columna                          | Insertar una columna en blanco en la definición de la columna. Este comando está disponible desde una definición de columna. |
 | Eliminar columna                          | Eliminar la columna seleccionada de la definición de la columna. Este comando está disponible desde una definición de columna. |
-| Insertar las unidades de informe de dimensiones | Abrir el cuadro de diálogo **Insertar unidades de informe de dimensiones**, donde puede seleccionar los valores de dimensión para incluir en la definición del organigrama. Este comando está disponible desde una definición del organigrama. |
-| Importar jerarquía del conjunto de dimensiones         | Abrir el cuadro de diálogo **Jerarquía del conjunto de dimensiones**, donde puede importar una jerarquía del conjunto de dimensiones de los datos financieros. Este comando está disponible desde una definición de organigrama para un ..\\financial-dimensions\\sistema basado en dimensiones. |
+| Insertar unidades organizativas de dimensiones | Abrir el cuadro de diálogo **Insertar unidades de informe de dimensiones**, donde puede seleccionar los valores de dimensión para incluir en la definición del organigrama. Este comando está disponible desde una definición del organigrama. |
+| Importar jerarquía de grupos de dimensiones         | Abrir el cuadro de diálogo **Jerarquía del conjunto de dimensiones**, donde puede importar una jerarquía del conjunto de dimensiones de los datos financieros. Este comando está disponible desde una definición de organigrama para un ..\\financial-dimensions\\sistema basado en dimensiones. |
 | Insertar unidad organizativa                  | Insertar una fila en blanco en la definición del organigrama. Este comando está disponible desde una definición del organigrama. |
-| Eliminar unidad de informe                  | Eliminar la fila seleccionada de la unidad de informe de la definición del organigrama. Este comando está disponible desde una definición de organigrama. |
+| Eliminar unidad organizativa                  | Eliminar la fila seleccionada de la unidad de informe de la definición del organigrama. Este comando está disponible desde una definición de organigrama. |
 
 ### <a name="view-menu"></a>Menú Ver
 
@@ -89,14 +89,14 @@ El menú **Visualización** está disponible para todos los usuarios e incluye l
 |-----------------|------------------------------------------------------------------------|
 | Panel de exploración | Mostrar u ocultar el panel de navegación.                                      |
 | Barras de herramientas        | Seleccionar las barra de herramientas que son visibles.                                  |
-| Barra de estado      | Mostrar u ocultar la información del estado en la ventana **Diseñador de informes**. |
+| Barra de estado      | Mostrar u ocultar la información del estado en la ventana **Report designer**. |
 | Página principal    | Abre la **Página principal**.                                             |
 
 ### <a name="format-menu"></a>Menú Formato
 
 El menú **Formato** está disponible para los usuarios que tienen el rol de **Diseñador** o **Administrador**. Este menú incluye los comandos siguientes.
 
-| Comando               | Descripción |
+| Comando               | Description |
 |-----------------------|-------------|
 | Estilos y formato | Abra el cuadro de diálogo **Estilos y formato**, donde puede crear y modificar el estilo para el texto de definiciones de filas y definiciones de columnas. Este comando está disponible desde una definición de fila o una definición de columna. |
 | Ancho de columna          | Abra el cuadro de diálogo **Ancho de columna**, donde puede establecer el ancho de la columna seleccionada. Este comando está disponible desde una definición de fila, una definición de columna o una definición de organigrama. |
@@ -162,7 +162,7 @@ El menú **Ayuda** está disponible para todos los usuarios e incluye los siguie
 | Ayuda    | Abra la página del artículo de ayuda para los informes financieros. |
 |         |                                                                          |
 
-## <a name="report-designer-toolbar-buttons"></a>Botones de la barra de herramientas del diseñador de informes
+## <a name="report-designer-toolbar-buttons"></a>Botones de la barra de herramientas de Report designer
 En las siguientes tablas se describen los botones de la barra de herramientas que se pueden usar cuando se diseñan informes. Algunos botones de la barra de herramientas sólo están disponibles en determinadas circunstancias Por ejemplo, los botones para promocionar y degradar las unidades de notificaciones solo están disponibles cuando se modifica una definición del organigrama.
 
 ### <a name="standard-toolbar"></a>Barra de herramientas estándar
@@ -194,18 +194,18 @@ La barra de herramientas estándar ofrece acceso rápido para archivar y editar 
 
 La barra de herramientas de formato proporciona de fácil acceso a los comandos de estilo. Esta barra de herramientas incluye los siguientes botones.
 
-| Botón                                                                                                       | Descripción                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Botón Estilo de fuente.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar el estilo de fuente seleccionado al texto actual.      |
-| [![Botón Fuente.](./media/fonttype.png)](./media/fonttype.png)                                                 | Definir el texto actual al estilo de fuente seleccionado.              |
+| Botón                                                                                                       | Descripción                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![Botón Estilo de fuente.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar el estilo de fuente seleccionado al texto actual.   |
+| [![Botón Fuente.](./media/fonttype.png)](./media/fonttype.png)                                                 | Definir el texto actual al estilo de fuente seleccionado.           |
 | [![Botón Tamaño de fuente.](./media/fontsize.png)](./media/fontsize.png)                                            | Definir el texto actual al tamaño de fuente (en puntos). |
-| [![Botón Negrita.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Poner el texto actual en negrita.                             |
-| [![Botón cursiva.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Poner el texto actual en cursiva.                           |
-| [![Botón Subrayado.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Surayar el texto actual.                             |
-| [![Botón Reducir sangría.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Reducir la sangría del texto actual.                |
-| [![Botón Aumentar sangría.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar la sangría del texto actual.                |
-| [![Botón Color de fondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Cambiar el color de fondo de la celda actual.        |
-| [![Botón color de fuente.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Cambiar el color del texto actual                   |
+| [![Botón Negrita.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Poner el texto actual en negrita.                          |
+| [![Botón cursiva.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Poner el texto actual en cursiva.                        |
+| [![Botón Subrayado.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Surayar el texto actual.                          |
+| [![Botón Reducir sangría.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Reducir la sangría del texto actual.             |
+| [![Botón Aumentar sangría.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar la sangría del texto actual.             |
+| [![Botón Color de fondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Cambiar el color de fondo de la celda actual.     |
+| [![Botón color de fuente.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Cambiar el color del texto actual                |
 
 ### <a name="report-designer-toolbar"></a>Barra de herramientas del diseñador de informes
 
@@ -213,9 +213,9 @@ La barra de herramientas del diseñador de informes ofrece acceso rápido a los 
 
 | Botón                                                                                              | Descripción |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Botón Definición del informe.](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar la definición del informe indicada en el menú **Ventana**. |
-| [![Botón Definición de la fila.](./media/rowc130389.png)](./media/rowc130389.png)                          | Mostrar la definición de filas que se asigna a la definición del informe activo. |
-| [![Botón Definición de la columna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Mostrar la definición de columnas que se asigna a la definición del informe activo. |
+| [![Botón Definición del informe.](./media/reportc130389.png)](./media/reportc130389.png)            | Mostrar la definición del informe indicada en el menú **Ventana**. |
+| [![Botón Definición de la fila.](./media/rowc130389.png)](./media/rowc130389.png)             | Mostrar la definición de filas que se asigna a la definición del informe activo. |
+| [![Botón Definición de la columna.](./media/columnc130389.png)](./media/columnc130389.png)  | Mostrar la definición de columnas que se asigna a la definición del informe activo. |
 | [![Botón Definición del organigrama.](./media/treec130389.png)](./media/treec130389.png)             | Mostrar la definición del organigrama que se asigna a la definición del informe activo. |
 | [![Botón Visor de informes.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Iniciar el visor de informes y mostrar la versión más reciente del informe generado. Este botón está disponible desde una definición del informe si ha generado al menos un informe. |
 | [![Botón Generar informe.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un informe a partir de la definición de informe activa. Este botón está disponible desde una definición de informe. |

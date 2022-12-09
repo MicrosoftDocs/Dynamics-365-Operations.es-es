@@ -2,32 +2,33 @@
 title: Aplicación Store Commerce para plataformas móviles
 description: Este artículo describe cómo comenzar a usar la aplicación Microsoft Dynamics 365 Commerce Store Commerce para Android e iOS.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642346"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815793"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>Aplicación Store Commerce para plataformas móviles
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este artículo describe cómo comenzar a usar las aplicaciones Microsoft Dynamics 365 Commerce Store Commerce para Android e iOS.
 
-Las aplicaciones móviles de Dynamics 365 Commerce para Android e iOS hacen que el proceso de implementación de dispositivos de punto de venta (PDV) móviles con funciones completas para su entorno minorista sea directo y simple. Las aplicaciones móviles de Store Commerce ofrecen todas las capacidades y ventajas de la [Aplicación Store Commerce para Windows](store-commerce.md) en factores de forma de teléfono y tableta. Las aplicaciones móviles de Store Commerce se pueden instalar directamente desde las tiendas de aplicaciones de Apple y Google Play, y no requieren que un desarrollador cree un nuevo paquete de aplicaciones para implementarlas o actualizarlas. 
+Las aplicaciones móviles de Dynamics 365 Commerce para Android e iOS hacen que el proceso de implementación de dispositivos de punto de venta (PDV) móviles con funciones completas para su entorno minorista sea directo y simple. Las aplicaciones móviles de Store Commerce ofrecen casi todas las capacidades y ventajas de la aplicación [Store Commerce para Windows](store-commerce.md) y funcionan bien en una amplia variedad de teléfonos y tabletas Android e iOS. Las aplicaciones móviles de Store Commerce se pueden instalar directamente desde las tiendas de aplicaciones de Apple y Google Play, y no requieren un desarrollador para crear un nuevo paquete de aplicaciones para implementarlas o actualizarlas. 
 
 Las aplicaciones móviles de Store Commerce conservan la paridad funcional total con las aplicaciones híbridas minoristas actuales. Además, Store Commerce para iOS incluye soporte para una estación de hardware dedicada, de modo que los dispositivos iOS puedan comunicarse con terminales de pago en red, impresoras de recibos y cajas registradoras sin necesidad de implementar una estación de hardware compartida. 
 
 > [!IMPORTANT]
-> Las aplicaciones Store Commerce para Windows, Android e iOS son la próxima generación de aplicaciones de PDV para Dynamics 365 Commerce. La aplicación Modern POS (MPOS) actual y las [Aplicaciones híbridas minoristas](hybridapp.md) para dispositivos móviles quedarán obsoletas en octubre de 2023. Microsoft recomienda que use Store Commerce o Cloud POS (CPOS) para todas las nuevas implementaciones de PDV. Los clientes existentes deben planear migrar de la aplicación híbrida Retail a Store Commerce. Para obtener más información sobre la programación de obsolescencia de MPOS y las aplicaciones híbridas de Retail, consulte [Modernizando la pila de tecnología de Dynamics 365 Commerce en tienda](https://www.microsoft.com/download/details.aspx?id=103896). 
+> Las aplicaciones Store Commerce para Windows, Android e iOS son la próxima generación de aplicaciones de PDV para Dynamics 365 Commerce. Las aplicaciones Store Commerce ofrecen numerosas mejoras con respecto a sus predecesoras, al tiempo que conservan la paridad funcional y de características completa. Microsoft dejará de usar MPOS y las aplicaciones híbridas de Retail POS Android e iOS a fines de 2023, y recomienda usar Store Commerce o PDV en la nube (CPOS) para todas las nuevas implementaciones de PDV. Los clientes existentes deben planear migrar de las aplicaciones híbridas Retail a Store Commerce. Para obtener más información, consulte [Migrar Modern POS a Store Commerce](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>Arquitectura de la aplicación
 
@@ -51,7 +52,7 @@ Las aplicaciones móviles de Store Commerce requieren Dynamics 365 Commerce, esp
 Puede instalar las aplicaciones móviles de Store Commerce directamente desde Google Play Store o Apple App Store. 
 
 - [Aplicación Store Commerce para Android](https://aka.ms/storecommerceandroid)
-- Aplicación Store Commerce para iOS (disponible pronto)
+- [Aplicación Store Commerce para iOS](https://aka.ms/storecommerceios)
 
 Los paquetes de aplicaciones de Android (.apk) y de Apple (.ipa) también se pueden descargar desde la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services. 
 

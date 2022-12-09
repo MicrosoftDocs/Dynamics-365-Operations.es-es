@@ -2,7 +2,7 @@
 title: Flujo de trabajo de proveedor
 description: Modifique la información del proveedor y use el flujo de trabajo para aprobarla.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735678"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799474"
 ---
 # <a name="vendor-workflow"></a>Flujo de trabajo de proveedor
 
@@ -46,7 +46,7 @@ Para poder utilizar la funcionalidad de flujo de trabajo debe activarla.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Cambie la información del proveedor y registre los cambios en el flujo de trabajo
 
-Cuando se cambia un campo que está habilitado para el flujo de trabajo, la página **Cambios propuestos** aparece. Esta página muestra el valor original del campo y el nuevo valor que introdujo. El campo que ha cambiado se revierte a su valor original. Un mensaje de estado también le informa de que los cambios no se han enviado. 
+Cuando se cambia un campo que está habilitado para el flujo de trabajo, la página **Cambios propuestos** aparece. Esta página muestra el valor original del campo y el nuevo valor que introdujo. El campo que ha cambiado se revierte a su valor original. Un mensaje de estado también le informará de que los cambios no se han enviado. 
 
 Cada vez que se cambia un campo que está habilitado para el flujo de trabajo, dicho campo se agrega a la lista en la página **Cambios propuestos**. Para descartar el valor propuesto para un campo, use el botón **Descartar** junto al campo de la lista. Para descartar todos los cambios, use el botón **Descartar todos los cambios** en la parte inferior de la página. Seleccione **Aceptar** para cerrar la página.
 

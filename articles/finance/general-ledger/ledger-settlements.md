@@ -2,7 +2,7 @@
 title: Liquidaciones de contabilidad
 description: Este artículo explica cómo usar la página de las liquidaciones de contabilidad para liquidar las transacciones contables e inventir liquidaciones.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902498"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800651"
 ---
 # <a name="ledger-settlements"></a>Liquidaciones de contabilidad
 
@@ -75,7 +75,7 @@ Para liquidar transacciones de contabilidad, siga estos pasos.
 ## <a name="make-transactions-easier-to-find"></a>Facilite encontrar las transacciones
 La página **Liquidaciones de contabilidad** incluye capacidades que facilitan ver las transacciones que necesita para la liquidación.
 
-- Use el filtro **Marcado** para filtrar transacciones en función de si la casilla **Marcado** para ellas esta seleccionada.
+- Use el filtro **Marcado** para filtrar transacciones en función de si la casilla **Marcado** está seleccionada para ellas.
 - Use el filtro **Estado** para filtrar las transacciones en función de su estado.
 - Seleccione **Ordenar por cantidad absoluta** para ordenar los importes por valor absoluto. De esta forma, puede agrupar débitos y créditos que tengan la misma cantidad.
 
@@ -90,7 +90,12 @@ Puede invertir una liquidación que se ha realizado por error.
     > [!IMPORTANT]
     > Todas las transacciones que tengan el mismo ID de liquidación se revertirán, incluso si no están marcadas. Por ejemplo, se marcaron y asentaron cuatro líneas. Las cuatro líneas tienen el mismo ID de liquidación. Si marca una de esas cuatro líneas y luego selecciona **Transacciones marcadas inversamente**, las cuatro líneas se invertirán.
 
+## <a name="unmark-for-selected-users"></a>Desactivar para los usuarios seleccionados
+Seleccione **Desactivar para los usuarios seleccionados** para desactivar transacciones contables liquidadas para todas las entidades legales por Id. de usuario. Por ejemplo, esto permitirá que un administrador de contabilidad desactive transacciones para un usuario que se fue de vacaciones antes de terminar la liquidación o para un usuario que dejó la organización. La acción permitirá marcar esas transacciones para liquidación a cargo de otro usuario.
 
+
+## <a name="unmark-all-transactions"></a>Desmarcar todas las transacciones
+Seleccione **Desactivar todas las transacciones** para desactivar todas las transacciones contables liquidadas de todos los usuarios y todas las entidades legales. Esta acción está disponible para el rol de administrador.
 
 
 

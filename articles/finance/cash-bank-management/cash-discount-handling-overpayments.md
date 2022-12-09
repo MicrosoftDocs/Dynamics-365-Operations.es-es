@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715534"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804165"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Descuentos por pronto pago para sobrepagos
 
@@ -53,7 +53,9 @@ El cliente envía un pago de 95,00 dentro del período de descuento por pronto p
 | Pago       | -95,00 | 0,00    |
 | Descuento por pronto pago | -10,50 | 0,00    |
 
-Se generan los asientos contables siguientes para el pago y la liquidación. **Pago**
+Se generan los asientos contables siguientes para el pago y la liquidación.
+
+**Pago**
 
 | Cuenta             | Importe de débito | Importe de crédito |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ El cliente envía un pago de 95,00 dentro del período de descuento por pronto p
 | Pago       | -95,00 | -0,50   |
 | Descuento por pronto pago | -10,50 | 0,00    |
 
-El importe del sobrepago de 0,50 se mantendrá como saldo de apertura en el pago y se puede liquidar con otra factura. Se generan los asientos contables siguientes para el pago y la liquidación. **Pago**
+El importe del sobrepago de 0,50 se mantendrá como saldo de apertura en el pago y se puede liquidar con otra factura. Se generan los asientos contables siguientes para el pago y la liquidación. 
+
+**Pago**
 
 | Cuenta             | Importe de débito | Importe de crédito |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ El cliente envía un pago de 95,00 dentro de la fecha de descuento por pronto pa
 | Pago       | -95,00 | -0,00   |
 | Descuento por pronto pago | -10,00 | 0,00    |
 
-El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y la factura se consideran liquidados. **Pago**
+El importe del descuento por pronto pago se reduce de 10,50 a 10,00. El pago y la factura se consideran liquidados. 
+
+**Pago**
 
 | Cuenta             | Importe de débito | Importe de crédito |
 |---------------------|--------------|---------------|

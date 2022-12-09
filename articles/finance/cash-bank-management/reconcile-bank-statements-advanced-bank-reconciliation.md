@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151373"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803920"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
@@ -37,7 +37,10 @@ Puede cargar un extracto bancario que contiene información tanto para una cuent
 -   Para importar un único archivo de extracto bancario para una única cuenta, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **No** y seleccione la cuenta bancaria asociada al extracto. Haga clic en **Examinar** para seleccionar el archivo del extracto bancario asociado y, a continuación, haga clic en **Cargar**.
 -   Para importar un único archivo de extracto bancario para varias cuentas, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo del extracto bancario asociado y, a continuación, haga clic en **Cargar**.
 
-Si no se puede asociar ningún extracto del archivo electrónico con la cuenta bancaria o si se asocia con varias cuentas bancarias mediante los campos de identificación, no se importarán. No obstante, se pueden importar todavía otros extractos del archivo. El usuario recibe, a continuación, un mensaje que indica que la importación de los extractos bancarios para las cuentas bancarias específicas no ha podido realizarse. Tenga en cuenta que el usuario que está importando el archivo del extracto bancario debe tener acceso a una entidad jurídica para importar los extractos para las cuentas bancarias de dicha entidad jurídica. 
+Si no se puede asociar ningún extracto del archivo electrónico con la cuenta bancaria o si se asocia con varias cuentas bancarias mediante los campos de identificación, no se importarán. No obstante, se pueden importar todavía otros extractos del archivo. El usuario recibe, a continuación, un mensaje que indica que la importación de los extractos bancarios para las cuentas bancarias específicas no ha podido realizarse. 
+
+>[!Note] 
+>El usuario que está importando el archivo del extracto bancario debe tener acceso a una entidad jurídica para importar los extractos para las cuentas bancarias de dicha entidad jurídica. 
 
 Para cargar varios archivos de extractos a Finance en un único proceso, puede usar un archivo zip. Para importar varios archivos de extractos bancarios para varias cuentas, combine todos los archivos de extractos bancarios en un archivo zip. En el cuadro de diálogo **Importar extractos bancarios**, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo zip que contiene los archivos de extractos bancarios y, a continuación, haga clic en **Cargar**. El proceso de importación reconocerá el archivo zip y cargará cada extracto que se incluye en el mismo, independientemente de la entidad jurídica de la cuenta bancaria.
 

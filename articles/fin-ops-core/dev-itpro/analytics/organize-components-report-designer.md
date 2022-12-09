@@ -2,7 +2,7 @@
 title: Organizar los componentes del informe en el diseñador de informes
 description: En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135891"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802698"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 
@@ -28,16 +28,16 @@ ms.locfileid: "9135891"
 
 Una vez ha diseñado los bloques de creación y los informes generados, resulta útil organizar estos objetos para que los usuarios los encuentren más fácilmente. En este artículo se explica cómo organizar los informes existentes, los bloques de creación y los objetos en el diseñador de informes.
 
-Puede cambiar el nombre de carpetas, informes, bloques de creación y otros objetos en el diseñador de informes para ayudar a organizar sus archivos. En función del tipo de objeto al que quiere cambiar el nombre, puede que tenga que actualizar las asociaciones con ese objeto.
+Puede cambiar el nombre de carpetas, informes, bloques de creación y otros objetos en Report designer para ayudar a organizar sus archivos. En función del tipo de objeto al que quiere cambiar el nombre, puede que tenga que actualizar las asociaciones con ese objeto.
 
-## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en el diseñador de informes
-En el Diseñador de informes, puede cambiar el nombre de carpetas y de definiciones de informe, de fila, de columna y de organigrama.
+## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en Report designer
+En Report designer, puede cambiar el nombre de carpetas y de definiciones de informe, de fila, de columna y de organigrama.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en el Diseñador de informes
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Cambiar el nombre de una carpeta o un bloque de creación en Report designer
 
-1. En el Diseñador de informes, use el panel de navegación para localizar la carpeta o el objeto cuyo nombre desee cambiar.
+1. En Report designer, use el panel de navegación para localizar la carpeta o el objeto cuyo nombre desee cambiar.
 2. Haga clic con el botón secundario en la carpeta o en el informe y, a continuación, haga clic en **Cambiar nombre**. El campo **Nombre** en el panel de navegación pasa a estar activo.
-3. Escriba un nuevo nombre y luego presione Entrar.
+3. Escriba un nuevo nombre y luego presione **Entrar**.
 4. Si el bloque de creación es una definición de fila, definición de columna o definición de organigrama, debe actualizar otros bloques de creación asociados a él. Haga clic con el botón secundario en el bloque de creación al que le cambió el nombre en el paso 3, seleccione **Asociaciones** y, a continuación seleccione un elemento en la lista para actualizarlo.
 5. Repita el paso 4 hasta que todos los elementos asociados se actualizan.
 
@@ -46,7 +46,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 ### <a name="create-a-report-group"></a>Crear un grupo de informes
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
+1. En Report designer, en el panel de navegación, haga clic en **Grupos de informes**.
 2. En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes.](media/report-group.gif "Grupo de informes") en la barra de herramientas.
 3. Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuración de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
 4. Para generar varios informes que muestren las divisas de notificación, active la casilla **Incluir todas las divisas de notificación**. A continuación, para obtener acceso a varias vistas, haga clic en el botón **Divisa** en el visor de la web al ver el informe.
@@ -55,22 +55,22 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 ### <a name="modify-a-report-group"></a>Modificar un grupo de informes
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
+1. En Report designer, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Haga doble clic en el grupo de informes para modificarlo.
 3. En la pestaña **Grupo de informes**, realice los cambios que desee.
 4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar.](media/save.gif "Guardar") en la barra de herramientas.
 
-> \[NOTA\]: Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
+> [NOTE] Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
 
 ### <a name="generate-a-report-group-report"></a>Generar un informe del grupo de informes
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
+1. En Report designer, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Abra el grupo de informes que desea generar.
 3. Haga clic en el botón **Generar informe** ![Generar informe.](media/generate-report.gif "Generar informe") para generar informes.
 
 ### <a name="delete-a-report-group"></a>Eliminar un grupo de informes
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
+1. En Report designer, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Haga clic con el botón secundario en el grupo de informes para eliminarlo y, a continuación, seleccione **Eliminar**.
 3. Cuando aparezca un mensaje de confirmación, haga clic en **Sí**.
 
@@ -81,7 +81,7 @@ En la tabla siguiente se describen los controles de la pestaña **Grupo de infor
 <thead>
 <tr>
 <th>Control</th>
-<th>Descripción</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -113,7 +113,7 @@ En la tabla siguiente se describen los controles de la pestaña **Grupo de infor
 </tr>
 <tr>
 <td>Incluir todas las divisas de notificación</td>
-<td>Las divisas de notificación adicionales que se configuran en el sistema de Microsoft Dynamics ERP, aparecen aquí. Active esta casilla para generar informes adicionales en las divisas que se indican. Para ver estos informes en el Visor web, haga clic en el botón <strong>Divisa</strong> y, a continuación, seleccione una divisa.</td>
+<td>Las divisas de notificación adicionales que se configuran en el sistema de Microsoft Dynamics 365 Finance, aparecen aquí. Active esta casilla para generar informes adicionales en las divisas que se indican. Para ver estos informes en el Visor web, haga clic en el botón <strong>Divisa</strong> y, a continuación, seleccione una divisa.</td>
 </tr>
 <tr>
 <td>Información sobre fechas que no ha sido guardada con la definición del informe</td>

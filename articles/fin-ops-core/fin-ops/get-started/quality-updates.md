@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775411"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805324"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -105,19 +105,19 @@ Para obtener información sobre las horas de oscuridad para cada región, consul
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.29
 **Versión de la aplicación: 10.0.1326.70**  
-**Correspondiente último artículo de KB: 748926**
+**Correspondiente último artículo de KB: 750332**
 
 | Estación | Regiones | Programación completa | Próxima programación de espacio aislado|
 |---|---|---|---|
-| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
-| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
-| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 13 de noviembre al 16 de noviembre de 2022 |
-| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022 y del 2 de noviembre al 5 de noviembre de 2022 | Del 15 de noviembre al 18 de noviembre de 2022 |
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 15 de noviembre al 18 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
 | Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.30
-**Versión de la aplicación: TBD**
-**Correspondiente último artículo de KB: TBD**
+**Versión de la aplicación: 10.0.1362.77**
+**Correspondiente último artículo de KB: 767597**
 
 | Estación | Regiones | Próxima programación de espacio aislado |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft se esfuerza por mantener la canalización de lanzamiento lo suficiente
 N. º El principal objetivo de las actualizaciones de calidad es garantizar que aspectos fundamentales como la seguridad, la privacidad, la confiabilidad, la disponibilidad y el rendimiento mejoren continuamente para nuestros clientes. Al retrasar o pausar una actualización, la seguridad, la disponibilidad y la confiabilidad estarán en riesgo.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>¿Cómo sé qué conjunto de cambios que se incluyeron en una carga útil de actualización de calidad?
-Los siguientes pasos son una solución temporal a medida que continuamos trabajando para brindar una mejor solución para identificar la lista de cambios que se incluyen en una carga útil de actualización de calidad. 
+Siga estos pasos para identificar la lista de cambios que se incluyen en una carga útil de actualización de calidad. 
 
-Use KB# 745340 para el tren de actualización de calidad 10.0.28 y la versión de la aplicación relacionada 10.0.1265.89.
+Use el tren de actualización de calidad 10.0.28 y la versión de la aplicación relacionada 10.0.1265.89.
 
 1. En Lifecycle Services, abra la página **Detalles del entorno** para su espacio aislado. 
 2. En la sección **Actualizaciones disponibles**, seleccione **Ver actualización** para la última compilación de actualización de calidad. 
 3. Exporte la compilación a un CSV o archivo de Microsoft Excel.
-4. En el archivo exportado, ordene la información según el tiempo (la más antigua primero) y luego busque el número de KB 745340 en la columna **Actualizar id.**. Ahora debería poder ver la lista de detalles de KB.
+4. En el archivo exportado, filtre y seleccione la **Versión de compilación** que es menor o igual que el número de compilación 10.0.1265.89. Ahora debería poder ver la carga útil delta.
  
 > [!NOTE]
 > La exportación a un archivo CSV o Excel debe realizarse antes de que se actualice el entorno. De lo contrario, puede usar un entorno con una configuración similar que no tenga instalada la actualización y seguir los pasos anteriores.
@@ -185,8 +185,8 @@ Si hay algún conflicto con una acción preprogramada, por ejemplo, una restaura
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>¿Se puede devolver un entorno a su estado anterior si hay problemas después de aplicar una actualización de calidad?
 Después de aplicar una actualización de calidad, no hay reversión bajo ninguna circunstancia. Solo hay opciones de reenvío de parches disponibles para mitigar los problemas.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>¿Qué pasa con la regulación FDA y GPX?
-El plan para clientes sujetos a la validación y regulación de la FDA aún está en evolución. Espere más actualizaciones en este espacio pronto. Por ahora, todos estos clientes están exentos de actualizaciones de calidad. Para asegurarse de que un cliente cumpla con las regulaciones de la FDA, visite [Oferta GPX de Microsoft Azure](/azure/compliance/offerings/offering-gxp).
+## <a name="what-about-fda-regulation-and-gxp"></a>¿Qué pasa con la regulación FDA y GxP?
+El plan para clientes sujetos a la validación y regulación de la FDA aún está en evolución. Espere más actualizaciones en este espacio pronto. Por ahora, todos estos clientes están exentos de actualizaciones de calidad. Para asegurarse de que un cliente cumpla con las regulaciones de la FDA, visite [Oferta GxP de Microsoft Azure](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>¿Qué versiones de actualizaciones de servicio son compatibles con estas actualizaciones de calidad?
 Los clientes de todas las versiones compatibles con las actualizaciones de servicio son aptos para las actualizaciones de calidad. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715650"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804057"
 ---
 # <a name="set-up-centralized-payments"></a>Configurar pagos centralizados
 
@@ -34,7 +34,10 @@ Siga estos pasos para preparar el procesamiento de pagos de una entidad jurídic
 -   Configurar la contabilidad de empresas vinculadas.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Configurar jerarquías organizativas para pagos centralizados
-Es necesario configurar una jerarquía organizativa para los pagos centralizados. Dicha jerarquía se usará para procesar los pagos de proveedor y de cliente centralizados. **Nota:** Para los pagos centralizados, la estructura de la jerarquía no es relevante. Cualquier entidad jurídica de la jerarquía podrá procesar pagos en nombre de cualquier otra entidad jurídica de la jerarquía. En la página **Jerarquías organizativas**, puede crear una nueva jerarquía organizativa. En el campo **Propósito** debe seleccionar **Pagos centralizados**. 
+Es necesario configurar una jerarquía organizativa para los pagos centralizados. Dicha jerarquía se usará para procesar los pagos de proveedor y de cliente centralizados. 
+
+>[!Note] 
+>Para los pagos centralizados, la estructura de la jerarquía no es relevante. Cualquier entidad jurídica de la jerarquía podrá procesar pagos en nombre de cualquier otra entidad jurídica de la jerarquía. En la página **Jerarquías organizativas**, puede crear una nueva jerarquía organizativa. En el campo **Propósito** debe seleccionar **Pagos centralizados**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Configuración de una cuenta de empresas vinculadas para pagos centralizados
 Cuando las transacciones de pago de la entidad jurídica actual se liquidan con facturas de otras entidades jurídicas, se crean para cada entidad jurídica las transacciones de destinatario de pago y de remitente de pago correspondientes. Debe especificar la entidad jurídica en la que se registran los descuentos por pronto pago y los importes de pérdidas o beneficios realizados. Antes de empezar, decida qué entidad jurídica usará para procesar los pagos de proveedor y cliente. Si una entidad jurídica procesa los pagos de proveedor pero otra entidad jurídica procesa los pagos de cliente, tendrá que cambiar a cada entidad jurídica. En la página **Contabilidad de empresas vinculadas** puede seleccionar un registro de relaciones de empresas vinculadas para la entidad jurídica en cuyo nombre va a procesar los pagos. 

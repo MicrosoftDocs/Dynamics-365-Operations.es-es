@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135551"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802833"
 ---
 # <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
 
@@ -51,17 +51,17 @@ Los siguientes ejemplos son códigos válidos de fila:
 
 ### <a name="change-a-row-code-in-a-row-definition"></a>Cambiar un código de fila en una definición de filas
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. En la fila correspondiente, especifique el nuevo valor en la celda en la columna **Código de la fila**.
 
 ### <a name="reset-numeric-row-codes"></a>Restablecer los códigos numéricos de la fila
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. En el menú **Editar**, haga clic en **Renumerar filas**.
-3. En el cuadro de diálogo **Renumerar filas**, especifique los nuevos valores para el código de la fila de inicio y el incremento del código de la fila. Puede restablecer los códigos numéricos de la fila a valores equidistantes. Sin embargo, el diseñador de informes renumera solo los códigos de fila que empiecen por números (por ejemplo 130 o 246). No renumera los códigos de fila que empiecen por letras (por ejemplo INCOME\_93 o TP0693).
+3. En el cuadro de diálogo **Renumerar filas**, especifique los nuevos valores para el código de la fila de inicio y el incremento del código de la fila. Puede restablecer los códigos numéricos de la fila a valores equidistantes. Sin embargo, Report designer renumera solo los códigos de fila que empiecen por números (por ejemplo 130 o 246). No renumera los códigos de fila que empiecen por letras (por ejemplo INCOME\_93 o TP0693).
 
 > [!NOTE]
-> Cuando se reenumeran los códigos de la fila, el diseñador de informes actualiza automáticamente las referencias **TOT** y **CAL**. Por ejemplo, si una fila **TOT** hace referencia a un intervalo que empiece por el código 100 de la fila y se renumeran las filas, empezando por 90, la referencia **TOT** cambia del 100 al 90.
+> Cuando se reenumeran los códigos de la fila, Report designer actualiza automáticamente las referencias **TOT** y **CAL**. Por ejemplo, si una fila **TOT** hace referencia a un intervalo que empiece por el código 100 de la fila y se renumeran las filas, empezando por 90, la referencia **TOT** cambia del 100 al 90.
 
 ## <a name="add-a-description"></a>Agregar una descripción
 La celda de la descripción ofrece una visión general de los datos financieros en la fila del informe, como “ingresos” o “ingresos netos.” El texto en la celda **Descripción** aparece en el informe exactamente como se ha especificado en la definición de filas.
@@ -71,19 +71,19 @@ La celda de la descripción ofrece una visión general de los datos financieros 
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Agregar la descripción de una línea en un informe
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Seleccione la celda **Descripción** y especifique el nombre de la fila del informe.
 3. Aplique el formato.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Agregue el texto adicional de un organigrama en la visión general
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Especifique el código de texto adicional y cualquier otro texto en la celda **Descripción** apropiada.
 3. Aplique el formato.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limitar el texto adicional a una unidad de notificación específica
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Localice la fila donde el texto adicional debe ser creado, y después haga doble clic en la celda en la columna **Fórmulas, filas o unidades relacionadas**.
 3. En el cuadro de diálogo **Selección de la unidad de notificación**, en el campo **Organigrama**, seleccione un organigrama.
 4. En el campo **Selección de organigrama para restricción**, expanda o contraiga el organigrama y seleccione un organigrama.
@@ -96,7 +96,7 @@ La celda **Código de formato** ofrece una selección de opciones preformateadas
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Agregar un código de formato a una fila del informe
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después seleccione una definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después seleccione una definición de fila para modificarla.
 2. Haga doble clic en la celda **Código del formato**.
 3. Seleccione un código de formato en la lista. La tabla siguiente describe los códigos de formato y sus acciones.
 
@@ -149,7 +149,7 @@ Al crear una fórmula total de filas, deberá usar códigos de fila para especif
 
 ### <a name="create-a-row-total"></a>Crear un total de fila
 
-1. En el Diseñador de informes, haga clic en **Definiciones de filas** y abra la definición de fila que desee modificar.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Haga doble clic en la celda **Código de formato** en la definición de filas y seleccione **TOT**.
 3. En la celda **Fórmulas, filas o unidades relacionadas**, especifique la fórmula total.
 
@@ -162,7 +162,7 @@ En la columna **Código de formato** en una definición de fila, se aplican los 
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar una fila de formato a una fila de importe
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después seleccione una definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después seleccione una definición de fila para modificarla.
 2. En la fila de formato, en la celda **Fórmulas, filas o unidades relacionadas**, especifique el código de fila de la fila de importe que se desea eliminar.
 
     > [!NOTE]
@@ -192,13 +192,13 @@ En una definición de columna, el tipo de columna **CALC** indica una columna qu
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Seleccione la fila base en una definición de filas para un cálculo de la columna
 
-1. En el diseñador del informe, haga clic en **Definiciones de columna** y, a continuación, abra la definición de columna para un informe de ingresos.
+1. En Report designer, haga clic en **Definiciones de columna** y, a continuación, abra la definición de columna para un informe de ingresos.
 2. Agregue una nueva columna a la definición de columna y defina el tipo de columna en **CALC**.
 3. En la celda **Fórmula** de la nueva columna, especifique la fórmula **X/BASEROW**, donde **X** es el tipo de columna **FD** para considerar un porcentaje.
 4. Haga doble clic en la celda **Reemplazo de formato o divisa**.
 5. En la caja de diálogo **Reemplazo de formato**, en la lista **Categoría de formato**, seleccione **Porcentaje** y luego haga clic en **Aceptar**.
 6. En el menú **Archivo**, haga clic en **Guardar como** para guardar la definición de la columna con un nombre nuevo. Agregue **CBR** al nombre de archivo actual (por ejemplo, **CUR\_YTD\_CBR**). Esta definición de la columna es su definición de columna de la fila base.
-7. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila usando el cálculo de la fila base.
+7. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila usando el cálculo de la fila base.
 8. Inserte una nueva fila sobre la fila en la que debe comenzar el cálculo de la fila de base.
 9. Haga doble clic en la celda **Código de formato** en la definición de filas y luego seleccione **CBR**.
 10. En la celda **Fórmulas, filas o unidades relacionadas**, especifique el número de código de la fila para la fila base.
@@ -227,7 +227,7 @@ Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de des
 
 ### <a name="select-a-sorting-code"></a>Seleccionar un código de ordenación
 
-1. En el diseñador del informes, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
+1. En Report designer, haga clic en **Definiciones de filas** y después abra la definición de fila para modificarla.
 2. Haga doble clic en la celda **Código de formato** y seleccione un código de ordenación.
 3. En la celda **Fórmulas, filas o unidades relacionadas**, especifique el intervalo de códigos de fila que desea ordenar. Para especificar un intervalo, especifique el primer código de fila, dos puntos (:) y, a continuación, el código de la última fila. Por ejemplo, escriba **160:490** para especificar que el intervalo es de la fila 160 a la fila 490.
 4. En la celda **Restricción de columnas**, especifique la letra de la columna de informe para usar en la ordenación.
@@ -239,21 +239,21 @@ Los códigos de ordenación ordenan cuentas o valores, ordenan un informe de des
 
 En el siguiente ejemplo, los valores de la columna D del informe se ordenarán en orden ascendente desde la fila 160 hasta la 490. Además, los valores absolutos en la columna G del informe se ordenarán en orden descendente desde la fila 610 hasta la 940.
 
-| Código de fila | Descripción                                         | Código de formato | Fórmulas, filas o unidades relacionadas | Saldo normal | Restricción de columnas | Vínculo a dimensiones financieras |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Clasificado por la desviación mensual en orden ascendente       | DES         |                             |                |                    |                              |
-| 130      |                                                     | ORD        | 160:490                     |                | D                  |                              |
-| 160      | Ventas                                               |             |                             | C              |                    | 4100                         |
-| 190      | Devoluciones de ventas                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Ingresos por intereses                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Ordenado por la varianza absoluta del año hasta la fecha en orden descendente | DES         |                             |                |                    |                              |
-| 580      |                                                     | ORDESCABS   | 610:940                     |                | G                  |                              |
-| 610      | Ventas                                               |             |                             | C              |                    | 4100                         |
-| 640      | Devoluciones de ventas                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Ingresos por intereses                                     |             |                             | C              |                    | 7000                         |
+| Código de la fila | Description                             | Código de formato | Fórmulas, filas o unidades relacionadas | Saldo normal | Restricción de columna | Vínculo a dimensiones financieras |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Clasificado por la desviación mensual en orden ascendente       | DES         |                |                |                    |                              |
+| 130      |                                        | ORD        | 160:490                     |                | D                  |                              |
+| 160      | Ventas                                   |             |                             | C              |                    | 4100                         |
+| 190      | Devoluciones de ventas                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Ingresos por intereses              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | DES         |                             |                |                    |                              |
+| 550      | Ordenado por la varianza absoluta del año hasta la fecha en orden descendente | DES         |             |                |                    |                              |
+| 580      |                              | ORDESCABS   | 610:940                     |                | G                  |                              |
+| 610      | Ventas                     |             |                             | C              |                    | 4100                         |
+| 640      | Devoluciones de ventas                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Ingresos por intereses               |             |                             | C              |                    | 7000                         |
 
 
 ## <a name="specify-a-format-override-cell"></a>Especificar una celda de anulación de formato
@@ -266,7 +266,7 @@ La celda **Anulación de formato** especifica el formato que se usa para la fila
 
 ### <a name="override-cell-formatting"></a>Anulación del formato de celda
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. En la fila que desea anular el formato, haga doble clic en la celda en la columna **Anulación de formato**.
 3. En el cuadro de diálogo **Anulación de formato**, seleccione las opciones de formato que se usarán para dicha fila en el informe.
 4. Haga clic en **Aceptar**.
@@ -327,7 +327,7 @@ El tipo debe representar el valor positivo y después el valor negativo. Normalm
 | 0.00%;(0.00%)                  | 123456.00% | (123456.00%) | 0.00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Especificar una celda de saldo normal
-La celda **Saldo normal** en una definición de fila controla el signo de los importes de una fila. Para invertir el signo de una fila, o si el saldo normal de una cuenta es un crédito, especifique **C** en la celda **Saldo normal** para dicha fila. El diseñador de informes invierte el signo en todas las cuentas de saldo de crédito en esa fila. Cuando el diseñador de informes convierte estas cuentas, quita la característica de débito o crédito de todos los importes y por tanto realiza el balance directo. Por ejemplo, para calcular los ingresos netos, tiene que restar los gastos de los ingresos. Normalmente, las filas sumadas y calculadas no se ven afectadas por un código **C**. Sin embargo, el control de impresión **XCR** en la definición de la columna invierte el signo de cualquier fila que contenga una **C** en la columna **Saldo normal**. Este formato es especialmente importante cuando desea mostrar todas las desviaciones desfavorables como importes negativos. Si un número sumado o calculado tiene el signo incorrecto, escriba una **C** en la celda **Saldo normal** para que la fila invierta el signo.
+La celda **Saldo normal** en una definición de fila controla el signo de los importes de una fila. Para invertir el signo de una fila, o si el saldo normal de una cuenta es un crédito, especifique **C** en la celda **Saldo normal** para dicha fila. Report designer invierte el signo en todas las cuentas de saldo de crédito en esa fila. Cuando Report designer convierte estas cuentas, quita la característica de débito o crédito de todos los importes y por tanto realiza el balance directo. Por ejemplo, para calcular los ingresos netos, tiene que restar los gastos de los ingresos. Normalmente, las filas sumadas y calculadas no se ven afectadas por un código **C**. Sin embargo, el control de impresión **XCR** en la definición de la columna invierte el signo de cualquier fila que contenga una **C** en la columna **Saldo normal**. Este formato es especialmente importante cuando desea mostrar todas las desviaciones desfavorables como importes negativos. Si un número sumado o calculado tiene el signo incorrecto, escriba una **C** en la celda **Saldo normal** para que la fila invierta el signo.
 
 ## <a name="specify-a-row-modifier-cell"></a>Especificar una celda modificadora de fila
 El contenido de la celda **Modificador de fila** en una definición de fila reemplaza los ejercicios, los períodos y otra información especificada en la definición de columna para dicha fila. El modificador seleccionado se aplica a cada cuenta en la fila. Puede modificar cada fila mediante uno o más de los siguientes tipos de modificadores:
@@ -338,7 +338,7 @@ El contenido de la celda **Modificador de fila** en una definición de fila reem
 
 ### <a name="override-a-column-definition"></a>Anular una definición de columna
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. En la fila que desea anular la definición de la columna, haga doble clic en la celda **Modificador de fila**.
 3. En el cuadro de diálogo **Modificador de fila**, seleccione una opción en el campo **Modificador de cuenta**. Para obtener una descripción de las opciones, vea la sección “Modificadores de cuenta”.
 4. En el campo **Modificador del código del libro**, seleccione el código del libro que se usará para la fila.
@@ -356,7 +356,7 @@ El contenido de la celda **Modificador de fila** en una definición de fila reem
 
 ### <a name="account-modifiers"></a>Modificadores de cuenta
 
-Cuando selecciona una cuenta concreta, el diseñador de informes combina normalmente la cuenta y los ejercicios, los períodos y otra información que especifique en la definición de la columna. Puede usar información distinta, como diferentes períodos fiscales, para filas específicas. La tabla siguiente muestra los modificadores de cuenta que están disponibles. Sustituya el signo de número (\#) por un valor que sea igual o menor que el número de períodos de un ejercicio.
+Cuando selecciona una cuenta concreta, Report designer combina normalmente la cuenta y los ejercicios, los períodos y otra información que especifique en la definición de la columna. Puede usar información distinta, como diferentes períodos fiscales, para filas específicas. La tabla siguiente muestra los modificadores de cuenta que están disponibles. Sustituya el signo de número (\#) por un valor que sea igual o menor que el número de períodos de un ejercicio.
 
 | Modificador de cuenta | ¿Qué se imprime?                                                                           |
 |------------------|-------------------------------------------------------------------------------------------|
@@ -386,7 +386,7 @@ Algunos sistemas contables admiten atributos de cuentas y atributos de transacci
 La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**.
 
 > [!NOTE]
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información de una fila que ya se encuentra en la definición de fila, agregue la información a la celda **Vínculo a dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
+> Report designer no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics 365 Finance que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información de una fila que ya se encuentra en la definición de fila, agregue la información a la celda **Vínculo a dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
 
 | Tipo de vínculo que se selecciona       | La descripción de la columna de vínculo cambia a esto |
 |----------------------------------|----------------------------------------------------|
@@ -395,7 +395,7 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 
 ### <a name="specify-a-dimension-or-range"></a>Especificar una dimensión o un intervalo
 
-1. En el Diseñador de informes, abra la definición de fila que desee modificar.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. Haga doble clic en una celda de la columna **Vínculo a dimensiones financieras**.
 3. En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda situada bajo el nombre de la dimensión.
 4. En el cuadro de diálogo para la dimensión, seleccione **Individual o intervalo**.
@@ -404,60 +404,60 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 7. Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Dimensiones**.
 
 ## <a name="display-zero-balance-accounts-in-a-row-definition"></a>Mostrar las cuentas de saldo cero en una definición de filas
-De forma predeterminada, el diseñador de informes no imprime ninguna fila que no tenga un saldo correspondiente en los datos financieros. Por lo tanto, puede crear una definición de fila que incluya todos los valores de segmento o todos los valores de dimensión naturales y después usar dicha definición de filas para cualquiera de los departamentos.
+De forma predeterminada, Report designer no imprime ninguna fila que no tenga un saldo correspondiente en los datos financieros. Por lo tanto, puede crear una definición de fila que incluya todos los valores de segmento o todos los valores de dimensión naturales y después usar dicha definición de filas para cualquiera de los departamentos.
 
 ### <a name="modify-zero-balance-settings"></a>Modificar la configuración de saldo cero
 
-1. En el diseñador de informes, abra la definición del informe para modificarla.
+1. En Report designer, abra la definición del informe para modificarla.
 2. En la pestaña **Parámetros**, en **Otro formato**, seleccione las opciones para la definición de filas que se usa en la definición del informe.
 3. En el menú **Archivo**, haga clic en **Guardar** para guardar los cambios.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Usar intervalos y caracteres comodín en una definición de filas
-Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. El diseñador de informes extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo al diseñador de informes que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\**_, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como _* 60** y **600000**. El diseñador de informes reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres.
+Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dimensiones**, puede poner un carácter comodín (? o \*) en cualquier posición de un segmento. Report designer extrae todos los valores de las posiciones definidas sin tener en cuenta los caracteres comodín. Por ejemplo, la definición de filas solo contiene valores naturales de segmentos y los segmentos naturales tienen cuatro caracteres. Si escribe **6???** en una fila, le está pidiendo a Report designer que incluya todas las cuentas con un valor natural de segmento que empiece por 6. Si escribe **6\**_, se devuelven los mismos resultados, pero los resultados también incluyen valores de la variable anchura, como _* 60** y **600000**. Report designer reemplaza cada carácter comodín (?) por la gama completa de valores posibles, que incluyen letras y caracteres especiales. Por ejemplo, en el intervalo de **12?0** a **12?4**, el carácter comodín en **12?0** se reemplaza con el valor más bajo del conjunto de caracteres, y el carácter comodín en **12?4** se reemplazan con el valor más alto del conjunto de caracteres.
 
 > [!NOTE]
 > Debe evitar usar caracteres comodín para las cuentas de inicio y fin en intervalos. Si usa los caracteres comodín en la cuenta de inicio o la cuenta de fin, puede obtener resultados inesperados.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>intervalos de un único segmento o de una única dimensión
 
-Puede especificar un intervalo de valores de segmento o valores de dimensión. La ventaja de especificar un intervalo es que no tiene que actualizar la definición de filas cada vez que un nuevo valor de segmento o valor de dimensión se agrega a los datos financieros. Por ejemplo, el intervalo **+Cuenta=\[6100:6900\]** extrae los valores de las cuentas de la 6100 a la 6900 para el importe de fila. Cuando un intervalo incluye un carácter comodín (?), el diseñador de informes no evalúa el intervalo según cada carácter. En su lugar, se determinan los puntos bajos y altos del intervalo y luego se incluyen los valores de fin y todos los valores entre ellos.
+Puede especificar un intervalo de valores de segmento o valores de dimensión. La ventaja de especificar un intervalo es que no tiene que actualizar la definición de filas cada vez que un nuevo valor de segmento o valor de dimensión se agrega a los datos financieros. Por ejemplo, el intervalo **+Cuenta=\[6100:6900\]** extrae los valores de las cuentas de la 6100 a la 6900 para el importe de fila. Cuando un intervalo incluye un carácter comodín (?), Report designer no evalúa el intervalo según cada carácter. En su lugar, se determinan los puntos bajos y altos del intervalo y luego se incluyen los valores de fin y todos los valores entre ellos.
 
 > [!NOTE]
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+> Report designer no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics 365 Finance que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de varios segmentos o varias dimensiones
 
-Cuando se especifica un intervalo mediante combinaciones de varios valores de dimensión, la comparación del intervalo se hace ..\\financial-dimensions\\dimensión por dimensión. La comparación del intervalo no se puede realizar carácter por carácter o o por segmento parcial. Por ejemplo, el intervalo **+Cuenta=\[5000:6000\], Departamento=\[1000:2000\], Centro de coste=\[00\]** incluye únicamente las cuentas que coinciden con cada segmento. En este escenario, la primera dimensión debe estar en el intervalo de 5000 a 6000, la segunda dimensión debe estar en el intervalo de 1000 a 2000 y la última dimensión debe ser 00. Por ejemplo, **+Cuenta=\[5100\], Departamento=\[1100\], Centro de coste=\[01\]** no se incluye en el informe, ya que el segmento último se encuentra fuera del intervalo específico. Si un valor del segmento contiene espacios, incluya ese valor en corchetes (\[ \]). Los siguientes valores son válidos para un segmento de cuatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Los valores de dimensión se deben incluir entre corchetes (\[ \]) y el diseñador de informes agrega estos corchetes para el usuario. Cuando un intervalo de varios segmentos o de varias dimensiones incluye caracteres comodín (? o \*), se determina el punto bajo y alto de todo el intervalo de varios segmentos o varias dimensiones y luego se incluyen los valores de fin y todos los valores entre ellos. Si tiene un intervalo de gran tamaño, como todo el intervalo de cuentas de 40000 a 99999, debe especificar una cuenta de inicio válida y una cuenta de fin válida siempre que sea posible.
+Cuando se especifica un intervalo mediante combinaciones de varios valores de dimensión, la comparación del intervalo se hace ..\\financial-dimensions\\dimensión por dimensión. La comparación del intervalo no se puede realizar carácter por carácter o o por segmento parcial. Por ejemplo, el intervalo **+Cuenta=\[5000:6000\], Departamento=\[1000:2000\], Centro de coste=\[00\]** incluye únicamente las cuentas que coinciden con cada segmento. En este escenario, la primera dimensión debe estar en el intervalo de 5000 a 6000, la segunda dimensión debe estar en el intervalo de 1000 a 2000 y la última dimensión debe ser 00. Por ejemplo, **+Cuenta=\[5100\], Departamento=\[1100\], Centro de coste=\[01\]** no se incluye en el informe, ya que el segmento último se encuentra fuera del intervalo específico. Si un valor del segmento contiene espacios, incluya ese valor en corchetes (\[ \]). Los siguientes valores son válidos para un segmento de cuatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Los valores de dimensión se deben incluir entre corchetes (\[ \]) y Report designer agrega estos corchetes para el usuario. Cuando un intervalo de varios segmentos o de varias dimensiones incluye caracteres comodín (? o \*), se determina el punto bajo y alto de todo el intervalo de varios segmentos o varias dimensiones y luego se incluyen los valores de fin y todos los valores entre ellos. Si tiene un intervalo de gran tamaño, como todo el intervalo de cuentas de 40000 a 99999, debe especificar una cuenta de inicio válida y una cuenta de fin válida siempre que sea posible.
 
 > [!NOTE] 
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+> Report designer no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics 365 Finance que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Agregar o quitar de otras cuentas en una definición de filas
 Para agregar o quitar los importes monetarios en una cuenta de importes monetarios a otra cuenta, puede usar el símbolo más (+) y el símbolo menos (-) en la celda **Vincular a dimensiones financieras**. La tabla siguiente muestra los formatos aceptables para agregar y quitar vínculos a los datos financieros.
 
-| Operación                                                                               | Use este formato                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Agregar dos cuentas completas cualificadas.                                                       | +División=\[000\], Cuenta=\[1205\], Departamento=\[00\]+División=\[100\], Cuenta=\[1205\], Departamento=\[00\] |
-| Agregar dos valores de segmento.                                                                 | +Cuenta=\[1205\]+Cuenta=\[1210\]                                                                           |
-| Agregar valores de segmento que incluyen caracteres comodín.                                    | +Cuenta=\[120?+Cuenta=\[11??\]                                                                             |
-| Agregar un intervalo de cuentas completas cualificadas.                                                | +División=\[000:100\], Cuenta=\[1205\], Departamento=\[00\]                                                   |
-| Agregar un intervalo de valores de segmento.                                                          | +Cuenta=\[1200:1205\]                                                                                       |
-| Agregar un intervalo de valores de segmento que incluyen caracteres comodín.                         | +Cuenta=\[120?:130?\]                                                                                       |
+| Operación                                            | Use este formato                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Agregar dos cuentas completas cualificadas.      | +División=\[000\], Cuenta=\[1205\], Departamento=\[00\]+División=\[100\], Cuenta=\[1205\], Departamento=\[00\] |
+| Agregar dos valores de segmento.                    | +Cuenta=\[1205\]+Cuenta=\[1210\]                                                                           |
+| Agregar valores de segmento que incluyen caracteres comodín.  | +Cuenta=\[120?+Cuenta=\[11??\]                                                                     |
+| Agregar un intervalo de cuentas completas cualificadas.              | +División=\[000:100\], Cuenta=\[1205\], Departamento=\[00\]                                           |
+| Agregar un intervalo de valores de segmento.                | +Cuenta=\[1200:1205\]                                                                                       |
+| Agregar un intervalo de valores de segmento que incluyen caracteres comodín.         | +Cuenta=\[120?:130?\]                                                           |
 | Quitar una cuenta completamente calificada de otra cuenta completamente calificada.              | +División=\[000\], Cuenta=\[1205\], Departamento=\[00\]-División=\[100\], Cuenta=\[1205\], Departamento=\[00\] |
-| Quitar un valor del segmento de otro valor del segmento.                                  | +Cuenta=\[1205\]-Cuenta=\[1210\]                                                                           |
-| Quitar un valor del segmento que incluya un carácter comodín de otro valor del segmento. | +Cuenta=\[1200\]-Cuenta=\[11??\]                                                                           |
-| Quitar un intervalo de cuentas completas cualificadas.                                           | -División=\[000:100\], Cuenta=\[1200:1205\], Departamento=\[00:01\]                                           |
-| Quitar un intervalo de valores de segmento.                                                     | -Cuenta=\[1200:1205\]                                                                                       |
-| Quitar un intervalo de valores de segmento que incluyen caracteres comodín.                    | -Cuenta=\[120?:130?\]                                                                                       |
+| Quitar un valor del segmento de otro valor del segmento.          | +Cuenta=\[1205\]-Cuenta=\[1210\]                                                               |
+| Quitar un valor del segmento que incluya un carácter comodín de otro valor del segmento. | +Cuenta=\[1200\]-Cuenta=\[11??\]                                        |
+| Quitar un intervalo de cuentas completas cualificadas.                               | -División=\[000:100\], Cuenta=\[1200:1205\], Departamento=\[00:01\]                   |
+| Quitar un intervalo de valores de segmento.                   | -Cuenta=\[1200:1205\]                                                                                       |
+| Quitar un intervalo de valores de segmento que incluyen caracteres comodín.                    | -Cuenta=\[120?:130?\]                                               |
 
-Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, el diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }.
+Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, Report designer no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }.
 
 > [!NOTE]
-> Para restar valores, debe escribirlos entre paréntesis. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones al diseñador de informes para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
+> Para restar valores, debe escribirlos entre paréntesis. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones a Report designer para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Agregar o quitar cuentas de otras cuentas
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En Report designer, abra la definición de fila que desee modificar.
 2. En la fila apropiada, haga doble clic en la celda de la columna **Víncular a las dimensiones financieras**.
 3. En la primera fila del cuadro de diálogo **Dimensiones**, siga estos pasos:
 
@@ -471,7 +471,7 @@ Aunque puede modificar las cuentas directamente, también puede usar el cuadro d
 > [!NOTE]
 > El operador se aplica a todas las dimensiones de la fila.
 
-## <a name="description-of-the-dimensions-dialog-box"></a>Descripción del cuaro de diálogo Dimensiones
+## <a name="description-of-the-dimensions-dialog-box"></a>Descripción del cuadro de diálogo de dimensiones
 En la tabla siguiente se describen los campos del cuadro de diálogo **Dimensiones**.
 
 | Artículo                | Descripción |
@@ -485,7 +485,7 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 
 ### <a name="create-a-set-of-dimension-values"></a>Crear un conjunto de valores de dimensión
 
-1. En el diseñador de informes, abra la definición de la fila, la columna o el organigrama para modificarlas.
+1. En Report designer, abra la definición de fila, columna u organigrama que desee modificar.
 2. En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3. En el cuadro de diálogo **Administrar los conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de conjunto de valores de dimensión que quiere crear y haga clic en **Nuevo**.
 4. En el cuadro de diálogo **Nuevo**, especifique un nombre y una descripción del conjunto.
@@ -497,7 +497,7 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 
 ### <a name="update-a-set-of-dimension-values"></a>Actualizar un grupo de valores de dimensión
 
-1. En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
+1. En Report designer, abra la definición de fila, columna u organigrama que desee modificar.
 2. En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3. En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4. En la lista, seleccione el conjunto de valores de dimensión para actualizarlo, y haga clic en **Modificar**.
@@ -511,7 +511,7 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 
 ### <a name="copy-a-dimension-set"></a>Copiar un conjunto de dimensiones
 
-1. En el diseñador de informes, abra la definición de la fila, la columna o el organigrama para modificarlas.
+1. En Report designer, abra la definición de fila, columna u organigrama que desee modificar.
 2. En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3. En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4. En la lista, elija el conjunto que quiere copiar y haga clic en **Guardar como**.
@@ -519,7 +519,7 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 
 ### <a name="delete-a-dimension-set"></a>Eliminar un grupo de dimensiones
 
-1. En el Diseñador de informes, abra la definición de fila, columna u organigrama que desee modificar.
+1. En Report designer, abra la definición de fila, columna u organigrama que desee modificar.
 2. En el menú **Editar**, haga clic en **Administrar los conjuntos de valores de dimensión**.
 3. En el cuadro de diálogo **Gestionar conjuntos de valores de dimensión**, en el campo **Dimensión**, seleccione el tipo de dimensión.
 4. Seleccione el grupo que se debe eliminar y haga clic en **Eliminar**. Haga clic en **Sí** para eliminar permanentemente el grupo de valores de dimensión.

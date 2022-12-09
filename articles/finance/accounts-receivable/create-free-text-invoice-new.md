@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780573"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788550"
 ---
 # <a name="create-a-free-text-invoice"></a>Crear una factura de servicio
 
@@ -69,6 +69,8 @@ Este artículo explica cómo crear facturas de texto sin formato. Para el proced
     * Puede cambiar el control de tiempo de la impresión de facturas. Seleccionar **Actual** para imprimir cada factura según se actualiza. Seleccione **Posterior** para imprimir cuando todas las facturas estén actualizadas.
     * Para cambiar cómo se comprueba el límite de crédito del cliente antes de registrar la factura, cambie el valor en el campo **Tipo de límite de crédito**.
     * Puede seleccionar detener la contabilización de facturas de servicios cuando se produce un error en la pestaña **Actualizaciones** en la página **Parámetros de clientes** (**Clientes > Configuración > Parámetros de clientes**). Seleccione **Sí** para que el parámetro **Detener la publicación de facturas de texto libre en el primer error** detenga la contabilización de facturas de servicios cuando se produce un error. Si realiza la publicación en un lote, un error detendrá el proceso de publicación y el estado del lote se establecerá en **Error**. Si no se selecciona esta opción, el proceso de contabilización omitirá una factura con un error de contabilización y continuará contabilizando facturas adicionales. Si se contabiliza en un lote, un error de contabilización no evitará que se contabilicen otras facturas. El estado del lote será **Terminado**. Un informe detallado del proceso de publicación estará disponible para su revisión en el historial de trabajos por lotes.
+    * En Microsoft Dynamics 365 Finance 10.0.30, la característica **Mejora del registro de facturas de servicios para el cálculo de totales** mejora el rendimiento de registro al permitir que se ejecute de manera más eficiente. Cuando esta característica está habilitada, el registro guardará los totales calculados, en lugar de volver a calcular los totales varias veces durante el proceso de registro. 
+    * En Microsoft Dynamics 365 Finance 10.0.31, la característica **Mejora del proceso de registro por lotes de facturas de servicios** mejora el rendimiento de registro al permitir que se ejecute de manera más eficiente. Cuando esta característica está habilitada, el registro utiliza un patrón que autogestiona la carga de trabajo de registro por lotes en una cantidad fija de subprocesos, en lugar de asignar una cantidad fija de documentos en una cantidad ilimitada de subprocesos.
     * Para imprimir la factura, establezca la opción en **Sí**.
     * Para registrar la factura, establezca la opción en **Sí**. Puede imprimir la factura sin registrarla.
 

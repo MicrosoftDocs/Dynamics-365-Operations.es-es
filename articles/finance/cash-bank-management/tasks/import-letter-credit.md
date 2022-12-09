@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779448"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804001"
 ---
 # <a name="import-letter-of-credit"></a>Importar créditos documentarios
 
@@ -42,7 +42,10 @@ Este procedimiento usa la empresa de demostración USMF.
 10. En la lista, haga clic en el vínculo de la fila seleccionada.
 11. En el campo **Fecha contable**, escriba una fecha.
 12. En el campo **Fecha de entrega**, especifique una fecha.
-    * Nota: El campo **Tipo de documento bancario** debe ser **Crédito documentario**.  
+
+>[!Note] 
+>El campo **Tipo de documento bancario** debe ser **Crédito documentario**.  
+
 13. Haga clic en **Aceptar**.
 14. En el campo **Número de artículo**, especifique o seleccione un valor.
 15. En la lista, busque y seleccione el registro deseado.
@@ -97,7 +100,7 @@ Este procedimiento usa la empresa de demostración USMF.
 1. En el panel de acciones, haga clic en **Recibir.**
 2. Haga clic en **Recepción de producto.**
 3. En el campo **PurchParmTable_Num**, escriba un valor.
-    * Seleccione el Número de envío creado con referencia a la carta de crédito.  
+    * Seleccione el **Número de envío** creado con referencia a la carta de crédito.  
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
 5. En el campo **Fecha de recepción de producto**, especifique una fecha.
 6. Haga clic en **Aceptar**.
@@ -108,7 +111,7 @@ Este procedimiento usa la empresa de demostración USMF.
 1. Vaya a **Gestión de efectivo y bancos > Carta de crédito > Importar carta de crédito e importar cobro**.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Compruebe el estado de la carta de crédito de importación.     
+    * Compruebe el **Estado de la carta de crédito de importación**.     
 4. Cierre la página.
 5. Cierre la página.
 
@@ -152,7 +155,7 @@ Este procedimiento usa la empresa de demostración USMF.
 6. En el campo **Fecha**, escriba una fecha.
 7. En el campo **Cuenta**, especifique los valores deseados.
 8. Haga clic en **Liquidar transacciones**.
-9. Expanda la sección Totales.
+9. Expanda la sección **Totales**.
 10. En el campo **Mostrar**, seleccione una opción.
     * Compruebe que se han actualizado los campos **Número de documento bancario** y **Número de envío**.  
 11. Selecciona la casilla **Marcar**.
@@ -167,12 +170,12 @@ Este procedimiento usa la empresa de demostración USMF.
 1. Vaya a **Gestión de efectivo y bancos > Carta de crédito > Importar carta de crédito e importar cobro**.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * Compruebe el estado de la carta de crédito de importación.   
+    * Compruebe el **Estado de la carta de crédito de importación**.   
 4. Cierre la página.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Comprobar el límite de crédito bancario y el informe de utilización
 1. Vaya a **Gestión de efectivo y bancos > Consultas e informes > Cartas de crédito o garantía > Informe de créditos bancarios y uso**.
-2. Expanda la sección Registros que incluir.
+2. Expanda la sección **Registros que incluir**.
 3. Haga clic en **Filtro.**
     * Defina el campo **Criterios** con la cuenta bancaria necesaria.  
 4. En el campo **Criterios**, especifique o seleccione un valor.

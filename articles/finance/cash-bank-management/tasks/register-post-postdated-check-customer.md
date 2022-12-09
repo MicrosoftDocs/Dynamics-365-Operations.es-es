@@ -12,18 +12,22 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f89adfc3055da346cfe9b6951076094b133c842
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 06846141aff993dbcc9654d81a3e267343e925c0
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779726"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803866"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar un cheque con pago diferido para un cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Puede registrar detalles de un cheque con fecha futura recibido de un cliente. También puede registrar los cheques con fecha futura y generar transacciones financieras. Realice las tareas siguientes antes de registrar un cheque con fecha futura de un cliente:  * Configure cheques con fecha futura en la página Gestión de efectivo y bancos * Configure una forma de pago para los cheques con fecha futura   El rol para este procedimiento es Tesorero. Este procedimiento usa la empresa de demostración USMF.
+Puede registrar detalles de un cheque con fecha futura recibido de un cliente. También puede registrar los cheques con fecha futura y generar transacciones financieras. Realice las tareas siguientes antes de registrar un cheque posfechado recibido de un cliente:  
+ - Establezca cheques posfechados en la página **Gestión de efectivo y bancos** 
+ - Configure una forma de pago para los cheques posfechados   
+  
+ El rol de este procedimiento es Tesorero. Este procedimiento usa la empresa de demostración USMF.
 
 1. Vaya a **Clientes > Pagos > Diario de pagos**.
 2. Haga clic en **Nuevo**.

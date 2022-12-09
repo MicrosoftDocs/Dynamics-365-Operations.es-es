@@ -2,7 +2,7 @@
 title: Suministro inmediato de información del IVA, SII
 description: Este artículo describe cómo configurar y usar Dynamics 365 Finance para interoperar con el sistema SII de España.
 author: AdamTrukawka
-ms.date: 11/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Spain
 ms.author: atrukawk
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a2652b22c8eb34bf798dce3d0d8a204a0753e11d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0990247b525cef92e5696a042b54b985b5835afc
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291621"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799059"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -565,6 +565,22 @@ Para limitar el acceso al procesamiento **SII** y **CollectionInCash**, siga est
 1.  Vaya a **Impuestos \> Configuración \> Mensajes electrónicos \> Procesamiento de mensaje electrónico**.
 2.  Seleccione el procesamiento **SII** o **CollectionInCash** y luego agregue los grupos de seguridad que deben trabajar con ese procesamiento. Si no se define un grupo de seguridad para el procesamiento, solo un administrador del sistema puede ver el procesamiento en la página **Mensajes electrónicos**.
 
+## <a name="set-up-exempt-code-types-on-issued-and-received-invoice-formats"></a><a name='exempt'></a> Configurar tipos de códigos de exención en formatos de facturas emitidas y recibidas
+
+Para respaldar el escenario de informes de tipos de códigos exentos en facturas emitidas y recibidas, complete los siguientes pasos.
+
+1. Vaya a **Espacio de trabajo** > **Informes electrónicos**.
+2. Vaya a **Configuraciones de informes**.
+3. En el panel izquierdo, expanda el nodo **Modelo de comunicación de facturas**.
+4. Seleccione las configuraciones de formato **Formato de factura emitida de SII (ES)** con una versión superior a 108.54 o **Formato de factura recibida de SII (ES)** con una versión superior a la 108.47.
+5. Seleccione **Configuraciones** > **Parámetros específicos de la aplicación** > **Configuración**
+6. Seleccione **ExemptionCauseTypeLookUp**
+7. En la pestaña **Condiciones**, seleccione **Agregar**.
+8. En el campo **Resultado de la búsqueda**, seleccione el tipo de exención aplicable.
+9. En el campo **Código de exención fiscal**, ingrese el código de exención fiscal para cada tipo de exención.
+10. Seleccione **Guardar** y cierre la página.
+11. Seleccione **Cambiar estado** > **Completada**.
+
 ## <a name="additional-setup-in-finance-for-reporting-to-the-sii-system"></a>Configuración adicional en Finance para informar al sistema SII
 
 ### <a name="exclude-transactions-that-have-a-negative-sales-tax-percentage-from-sii-processing"></a>Excluir las transacciones que tienen un porcentaje de impuesto a las ventas negativo del procesamiento de SII
@@ -609,6 +625,30 @@ Para comprobar que configuró correctamente los parámetros para la clase ejecut
 1.  Vaya a **Impuesto \> Configuración \> Mensajes electrónicos \> Configuraciones de clase ejecutables**.
 2.  Seleccione la clase ejecutable **SIIGenerateItems** que está asociada con el nombre de clase ejecutable **EMCreateItemsController**.
 3.  En el Panel de acciones, seleccione **Parámetros**, y luego configure el valor **TipoOperación** para el campo adicional **Id. de operación intracomunitaria**.
+
+### <a name="set-up-sales-tax-codes-to-report-the-exempt-code-types-on-issued-and-received-invoices-files"></a>Configurar códigos de impuestos sobre las ventas para informar de los tipos de códigos exentos en archivos de facturas emitidas y recibidas
+
+Además de la configuración de tipos de códigos de exención en los formatos de facturas emitidas y recibidas, complete los siguientes pasos para agregar tipos de códigos de exención a los códigos de impuestos sobre las ventas para los campos de facturas emitidas y recibidas.
+
+1. Vaya a **Impuestos** > **Impuestos indirectos** > **Impuestos** > **Grupos de impuestos**.
+2. Seleccione un **Grupo de impuestos**.
+3. Para cada código de impuesto sobre las ventas al que se le otorgan exenciones de impuestos, en la pestaña **Configuración**, seleccione un **Código de impuestos**.
+5. En la columna **Código de exención**, ingrese el **Tipo de código de exención**. El tipo de código debe ser el mismo código que ingresó en la búsqueda **ExemptionCauseType** en la sección[Configurar tipos de códigos de exención en formatos de facturas emitidas y recibidas](#exempt).
+6. Seleccione **Guardar**.
+
+Esta configuración impulsa el cumplimiento de la etiqueta 'CausaExencionType' en los archivos de facturas emitidas y recibidas.
+
+### <a name="set-up-item-sales-tax-codes-to-flag-the-good-investments-on-the-received-invoices-file"></a>Configurar códigos de impuestos sobre las ventas de artículos para marcar las buenas inversiones en el archivo de facturas recibidas
+
+Para distinguir la adquisición de productos entre inversiones y no inversiones a partir de facturas recibidas, complete los siguientes pasos.
+
+1. Vaya a **Impuestos** > **Impuestos indirectos** > **Impuestos** > **Grupos de impuestos de artículos**.
+2. Seleccione un **Grupo de impuestos de artículos**.
+3. En el campo **Tipo de notificación**, seleccione **Inversión**.
+4. Seleccione **Guardar**.
+
+Esta configuración impulsa el cumplimiento de la etiqueta 'Inversion' de Bien en los archivos de facturas recibidas.
+
 
 ## <a name="reporting-to-the-sii-system-of-spain-for-multiple-vat-registrations"></a><a name="multiple-vat"></a>Reportando al sistema SII de España para múltiples registros de IVA
 

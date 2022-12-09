@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291900"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802806"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -34,24 +34,24 @@ Una definición de columna puede contener de dos a 255 columnas.
 
 ### <a name="create-a-column-definition"></a>Permite crear una definición de columna
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de columnas**.
+1. En Report designer, en el panel de navegación, haga clic en **Definiciones de columnas**.
 2. En el menú **Archivo**, haga clic en **Nueva** y, a continuación, haga clic en **Definición de columna**.
 3. Agregar el contenido de la definición de la columna.
 
 ### <a name="open-a-column-definition"></a>Abrir una definición de columna
 
-1. En el diseñador de informes, en el panel de navegación, haga clic en **Definiciones de columnas**.
+1. En Report designer, en el panel de navegación, haga clic en **Definiciones de columnas**.
 2. Haga doble clic en una definición de columna para abrirla.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Agregar una columna a una definición de columna
 
-1. En el diseñador del informes, haga clic en **Definiciones de columnas** y después abra la definición de columna para modificarla.
+1. En Report designer, haga clic en **Definiciones de columnas** y después abra la definición de columna para modificarla.
 2. Seleccione la columna donde una nueva columna debe ser insertada.
 3. En el menú **Editar**, haga clic en **Insertar columna**. La nueva columna aparece a la izquierda de la columna seleccionada.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Eliminar una columna de una definición de columna
 
-1. En el Diseñador de informes, haga clic en **Definiciones de columnas** y abra la definición de columna que desee modificar.
+1. En Report designer, haga clic en **Definiciones de columnas** y después abra la definición de columna para modificarla.
 2. Seleccione la columna que se debe eliminar.
 3. En el menú **Editar**, haga clic en **Eliminar columna**.
 
@@ -72,19 +72,19 @@ Esta información aparece en las siguientes áreas en la definición de la colum
 
 - Las filas de detalle de la columna son las filas debajo de las filas de encabezado en la definición de la columna. Las filas de detalle de la columna definen la información que se incluyen en el informe. En la siguiente tabla se muestran y describen las filas de detalle de la columna.
 
-    | Nombre de la fila de detalle de la columna                                                | Descripción                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Tipo de columna                                                           | (Requerido) Especifique el tipo de datos en la columna.                                                     |
-    | Código de libro/Categoría de atributo                                          | Especifique la información de los datos financieros de las columnas de tipo **FD** y **ATTR**.                       |
-    | Períodos del período del ejercicio cubiertos                                    | Especifique la información de los datos financieros de las columnas de tipo **FD**.                                     |
-    | Fórmula                                                               | Especifique una fórmula de cálculo para las columnas de tipo **CALC**.                                        |
-    | Los espacios adicionales de la anchura de columna antes del control de impresión de anulación del formato de la columna | Especifique las opciones especiales de formato.                                                                        |
-    | Restricciones de columna                                                   | Restrinja los datos.                                                                                         |
-    | Unidad de notificación                                                        | Restrinja la columna, de modo que muestre solo los datos para la unidad de notificación especificada.                      |
-    | Filtro de la divisa de la visualización de la divisa                                      | Formato de divisa.                                                                                       |
-    | Filtro de dimensiones                                                      | Especifique un filtro para restringir datos a determinadas unidades de notificación de datos financieros.                           |
-    | Filtro de atributo                                                      | Especifique un filtro para restringir los datos financieros.                                                       |
-    | Fecha inicial Fecha final                                                   | Restrinja los datos financieros a fechas específicas.                                                         |
+    | Nombre de la fila de detalle de la columna                                                | Descripción                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Tipo de columna                                                           | (Requerido) Especifique el tipo de datos en la columna.                                      |
+    | Código de libro/Categoría de atributo                                          | Especifique la información de los datos financieros de las columnas de tipo **FD** y **ATTR**.     |
+    | Períodos del período del ejercicio cubiertos                                    | Especifique la información de los datos financieros de las columnas de tipo **FD**.              |
+    | Fórmula                                                               | Especifique una fórmula de cálculo para las columnas de tipo **CALC**.                  |
+    | Los espacios adicionales de la anchura de columna antes del control de impresión de anulación del formato de la columna | Especifique las opciones especiales de formato.                                               |
+    | Restricciones de columna                                                   | Restrinja los datos.                                                                        |
+    | Unidad de notificación                                                        | Restrinja la columna, de modo que muestre solo los datos para la unidad de notificación especificada.      |
+    | Filtro de la divisa de la visualización de la divisa                                      | Formato de divisa.                                                                      |
+    | Filtro de dimensiones                                                      | Especifique un filtro para restringir datos a determinadas unidades de notificación de datos financieros.           |
+    | Filtro de atributo                                                      | Especifique un filtro para restringir los datos financieros.                                      |
+    | Fecha inicial Fecha final                                                   | Restrinja los datos financieros a fechas específicas.                                    |
     | Justificación                                                         | Alínee a la izquierda, al centro o a la derecha la descripción especificada en la definición de filas. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Restricción de la columna en una definición de columna
@@ -99,7 +99,7 @@ La celda **Restricciones de columna** puede incluir los códigos que restringen 
 
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Añadir una restricción de columna en una definición de columna
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Restricciones de la columna** para la columna que se va a restringir.
 3. En el cuadro de diálogo **Restricciones de la columna**, seleccione uno o más códigos que figuran en la lista, y haga clic en **Aceptar**.
 
@@ -121,7 +121,7 @@ En la tabla siguiente se describen los códigos de restricción de la columna.
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir una columna a una unidad de notificación
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Unidad de notificación** para la columna que se va a restringir.
 3. En el cuadro de diálogo **Selección de la unidad de notificación**, en la lista **Organigrama**, seleccione un organigrama.
 4. Expanda o contraiga la lista de unidades, seleccione una unidad de notificación, y haga clic en **Aceptar**.
@@ -133,18 +133,18 @@ Puede agregar, modificar y eliminar los encabezados que aparecen en la parte sup
 
 Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar y eliminar los encabezados que aparecen en la parte superior de las columnas en un informe. En la tabla siguiente se describen los campos del cuadro de diálogo **Encabezado de columna**.
 
-| Campo                 | Descripción |
+| Campo                 | Description |
 |-----------------------|-------------|
-| Texto del encabezado de columna    | Este texto aparece en el encabezado de columna. Puede escribir texto directamente en este campo, o hacer clic en **Insertar AutoTexto** para seleccionar una opción que permite actualizar el encabezado de columna cada vez que se genera el informe. Para incluir varios códigos de autotexto, haga clic en **Insertar AutoTexto** otra vez, y haga clic en otro código en la lista. |
+| Texto del encabezado de columna    | Este texto aparece en el encabezado de columna. Puede escribir texto directamente en este campo, o hacer clic en **Insertar autotexto** para seleccionar una opción que permite actualizar el encabezado de columna cada vez que se genera el informe. Para incluir varios códigos de autotexto, haga clic en **Insertar autotexto** otra vez, y haga clic en otro código en la lista. |
 | Aplicar formato a las opciones        | Aplique el formato a un encabezado de columna, como cuadro o subrayado. |
 | Extensión desde y extensión hasta | Defina la columna o las columnas en las que se aplica el texto de encabezado. |
 | Justificación         | Especifique cómo se debe alinear el texto del encabezado de columna se para la columna o el intervalo de columnas especificadas en los campos **Extensión desde** y **Extensión hasta**. |
 
 ### <a name="create-a-column-header"></a>Crear un encabezado de columna
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en una celda de encabezado.
-3. En el cuadro de diálogo **Encabezado de columna**, escriba el texto del encabezado de columna. De forma alternativa, haga clic en **Inserta AutoTexto** y seleccione una opción.
+3. En el cuadro de diálogo **Encabezado de columna**, escriba el texto del encabezado de columna. De forma alternativa, haga clic en **Inserta autotexto** y seleccione una opción.
 4. En el campo **Opciones de formato**, especifique un formato para el encabezado.
 5. En el campo **Extensión desde**, especifique la letra de la columna desde la que el encabezado de columna debe comenzar. En el campo **Extensión hasta**, especifique la letra de la columna desde la que el encabezado de columna debe acabar.
 6. En **Justificación**, seleccione si el texto del encabezado de columna debe estar justificado a la izquierda, al centro o a la derecha.
@@ -152,7 +152,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 ### <a name="add-a-column-header-row"></a>Agregar una fila del encabezado de columna
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Seleccione una celda en la fila de cabecera.
 3. En el menú **Editar**, haga clic en **Insertar fila**. La nueva fila se inserta por encima de la fila seleccionada en el paso 2.
 
@@ -161,7 +161,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 ### <a name="delete-a-column-header-row"></a>Eliminar una fila del encabezado de columna
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la fila de cabecera, seleccione la celda para eliminar.
 3. En el menú **Editar**, haga clic en **Eliminar fila**.
 
@@ -199,9 +199,9 @@ Los encabezados de extensión condicionales pueden incluir varias columnas que s
 
 #### <a name="create-a-conditional-spanning-header"></a>Crear un encabezado de extensión condicional
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en una celda de encabezado.
-3. En el cuadro de diálogo **Encabezado de columna**, escriba el texto del encabezado de columna. De forma alternativa, haga clic en **Inserta AutoTexto** y seleccione una opción.
+3. En el cuadro de diálogo **Encabezado de columna**, escriba el texto del encabezado de columna. De forma alternativa, haga clic en **Inserta autotexto** y seleccione una opción.
 4. En el campo **Opciones de formato**, especifique un estilo de formato para el encabezado.
 5. Especifique un período en relación con el período de la base especificada cuando se genera el informe. En los campos **Extensión desde** y **Extensión hasta**, especifique uno de los siguientes valores: **BASE**, **BASE-X** o **BASE+X**, donde X es el número de períodos desde el período de la base. Por ejemplo, si especifica **BASE** en el campo **Extensión desde**, el texto de encabezado extensión adicional de columna empieza en el encabezado de columna donde el valor de **Período base** de la definición del informe es igual al valor de la definición **Período**. Finaliza en la columna que se indica en el campo **Extensión hasta**. Por lo tanto, si la extensión es BASE a M, y el valor de **Período de base** es **4**, el encabezado comienza en la columna en el período establecido en **4** y finaliza en la columna M. Los encabezados se detienen y comienzan en columnas de impresión solo.
 6. En **Justificación**, seleccione si el texto del encabezado de columna debe estar justificado a la izquierda, al centro o a la derecha.
@@ -211,18 +211,18 @@ Los encabezados de extensión condicionales pueden incluir varias columnas que s
 
 Un usuario está creando un informe para una previsión de seis meses dinámica. El usuario quiere que la palabra “Real” se imprima encima de las columnas que contengan datos reales, y que la palabra “Presupuesto” se imprima encima de las columnas que contienen las previsiones de presupuesto. Cada mes que el informe se ejecuta, hay un columna más de real y una columna menos de presupuesto. Aunque el usuario puede modificar la definición de la columna manualmente cada vez que se genera el informe para ajustar los encabezados, para ahorrar tiempo y esfuerzo, decide crear encabezados de extensión condicional que van a crear automáticamente encabezados de las columnas adecuadas cada vez que el informe se ejecuta. El usuario abre al diseñador del informe, hace clic en **Definición de la columna** en el panel de navegación, y abre la definición de columna del informe. Luego, el usuario especifica información siguiente. El período de la base de la definición del informe es 4.
 
-|      Formato         |  C   | mil millones             | C             | B             | E             | V             | G (Verde)             | H             | I             | J             | mil             | L             | L             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Encabezado 1            |      | Real        | Presupuesto        |               |               |               |               |               |               |               |               |               |               |
-| Encabezado 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| Encabezado 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Tipo de columna         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+|  Formato   |  C   | mil millones     | C      | B       | E        | V       | G (Verde)       | H      | I             | J             | mil             | L             | L             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| Encabezado 1   |    | Real    | Presupuesto        |         |         |        |       |          |        |               |               |               |               |
+| Encabezado 2   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| Encabezado 3    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Tipo de columna  | DESC | FD   | FD     | FD    | FD   | FD    | FD      | FD            | FD            | FD            | FD            | FD            | FD            |
 | Código de libro/Atributo |      | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    | REAL        | PRESUPUESTO2012    |
-| Año fiscal         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Período              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Año fiscal |  | BASE   | BASE   | BASE   | BASE   | BASE    | BASE    | BASE     | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Período  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Períodos cubiertos     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
-| Ancho de columna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Control de impresión       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Ancho de columna   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Control de impresión  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
 El usuario hace doble clic en la celda de encabezado de una columna en la columna B para abrir el cuadro de diálogo **Encabezado de columna**, donde escribe la información siguiente.
 
@@ -251,7 +251,7 @@ Ahora, cada vez que se genere este informa, la palabra “Real” se imprimirá 
 ## <a name="apply-column-justification"></a>Aplicar justificación de columna.
 La celda **Justificación** se usa para aplicar formato de justificación a una columna de la descripción en un informe. Esta opción solo afecta a las descripciones de la columna, no a los valores reales.
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Justificación**.
 3. Seleccione uno de los siguientes valores en la lista:
 
@@ -274,8 +274,8 @@ La celda **Anchura de columna** especifica el número de caracteres que se usar�
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Especificar la anchura de una columna en un informe
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
-2. En la celda **Anchura de columna**, especifique el número de espacios para la anchura de la columna. La anchura máxima de cualquier columna es de 255 caracteres (este número incluye céntimos, comas y paréntesis). También puede habilitar el diseñador de informes para seleccionar la anchura adecuada para la columna, en función del contenido de la celda, haga doble clic en la celda **Anchura de columna** y haga clic en **Ajustar automáticamente**.
+1. En Report designer, abra la definición de la columna para modificarla.
+2. En la celda **Anchura de columna**, especifique el número de espacios para la anchura de la columna. La anchura máxima de cualquier columna es de 255 caracteres (este número incluye céntimos, comas y paréntesis). También puede habilitar Report designer para seleccionar la anchura adecuada para la columna, en función del contenido de la celda, haga doble clic en la celda **Anchura de columna** y haga clic en **Ajustar automáticamente**.
 
 ### <a name="add-space-between-columns"></a>Agregar espacio entre columnas
 
@@ -283,7 +283,7 @@ La celda **Espacios adicionales antes de la columna** especifica la anchura del 
 
 #### <a name="specify-the-space-between-columns"></a>Especificar el espacio entre las columnas
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la celda **Espacios adicionales antes de la columna**, especifique el número de espacios para insertar entre las columnas.
 
 ### <a name="specify-a-format-currency-override"></a>Especificar una anulación de divisa de formato
@@ -292,7 +292,7 @@ La celda **Anulación de formato o de divisa** especifica el formato de decimal,
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Asignar un reemplazo de divisa de formato a una columna de informe
 
-1. En el Diseñador de informes, abra la definición de columna que desee modificar.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en una celda **Reemplazo de formato o de divisa** en una columna de importe.
 3. En el cuadro de diálogo **Anulación de formato**, seleccione las opciones de formato.
 
@@ -306,7 +306,7 @@ La celda **Control de impresión** puede contener los códigos que ajustan la vi
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | No se imprime                                     | Excluir los importes en esta columna del informe que se imprime y de los cálculos. Para incluir una columna de no impresión en un cálculo, vaya a la columna directamente en la fórmula de cálculo. Por ejemplo, la columna C sin impresión se incluye en el cálculo siguiente: **B+C+D**. Sin embargo, la columna C sin impresión no se incluye en el cálculo siguiente: **B:D**. |
 | XCR                | Cambiar el signo si el saldos típico de la fila es crédito | Cree un presupuesto o informe comparativo donde cualquier variación desfavorable (como un déficit de ingresos o un gasto de saturación) es siempre negativo. Aplique este código a una columna **CALC** para invertir el signo del importe de la columna si el saldo típico de una fila en una determinada es un crédito (según se identifica por una **C** en la columna **Saldo normal** de la definición de filas).<p><strong>Nota:</strong> Para las filas <strong>TOT</strong> y</strong>CAL</strong> que mantienen normalmente saldos de crédito, asegúrese de especificar una <strong>C</strong> en la columna <strong>Saldo normal</strong> en la definición de filas.</p> |
-| X0                 | Eliminar la columna si son todos ceros o espacios en blanco          | Excluya una columna **FD** del informe si todas las celdas en la columna están en blanco o contienen ceros. |
+| X0            | Eliminar la columna si son todos ceros o espacios en blanco   | Excluya una columna **FD** del informe si todas las celdas en la columna están en blanco o contienen ceros. |
 | SR                 | Eliminar redondeo                               | Evitar que los importes en esta columna se redondeen. |
 | XR                 | Eliminar acumulación                                 | Eliminar una acumulación. Si el informe usa un organigrama, los importes en esta columna no se agrupan en nodos principales posteriores. |
 | RP                 | Repetir columna en cada página                      | Repita una columna especificada en cada página de un informe. Por ejemplo, puede usar el código de control de impresión **RP** para incluir a una columna de tipo **FILA** que tira en de códigos de fila en cada página. |
@@ -325,7 +325,7 @@ La celda **Control de impresión** puede contener los códigos que ajustan la vi
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Agregar los códigos de control de impresión a una columna del informe
 
-1. En el Diseñador de informes, abra la definición de columna que desee modificar.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Control de impresión**.
 3. En el cuadro de diálogo **Control de impresión** seleccione un código de la lista **Seleccionar las opciones de control de impresión**. Para seleccionar más de un código, mantenga presionada la tecla Ctrl mientras selecciona los códigos.
 4. Seleccione una opción en el campo **Opciones de impresión condicional**. De forma predeterminada, la opción **(ninguno)** está seleccionada. Solo puede seleccionar un código de impresión condicional cada vez.
@@ -342,7 +342,7 @@ El tipo de información que cada columna en un informe incluye se especifica con
 
 ### <a name="specify-a-column-type"></a>Seleccione un tipo de columna
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la columna correspondiente, haga doble clic en una celda en la fila **Tipo de columna**.
 3. Seleccione un tipo de columna en la lista. En la tabla siguiente se proporciona una descripción de los diferentes tipos de columnas.
 
@@ -436,11 +436,11 @@ Puede ir más allá de los límites del ejercicio en cualquiera de las especific
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Especificar los períodos de una columna FD
 
-1. En el Diseñador de informes, abra la definición de columna que desee modificar.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la columna **FD**, haga doble clic en la celda en la fila **Período**, y seleccione una opción en la lista.
 3. En la barra de fórmula encima del panel de navegación, o en la celda **Período**, complete la fórmula. Sustituya cualquier signo de número (\#) por el valor adecuado.
 
-#### <a name="periods-covered-cell"></a>Celda de Período de cobertura
+#### <a name="periods-covered-cell"></a>Celda Períodos cubiertos
 
 La celda **Períodos cubiertos** identifica lo importe que la columna debe mostrar. Este importe se encuentra en relación con el valor en las celdas **Ejercicio** y **Período** de la columna. Están disponibles las siguientes opciones.
 
@@ -453,19 +453,19 @@ La celda **Períodos cubiertos** identifica lo importe que la columna debe mostr
 
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Especifique los períodos que están cubiertos para una columna de FD
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la columna **FD**, haga doble clic en la celda en la fila **Períodos cubiertos** y luego seleccione una opción en la lista.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>El filtro del atributo en una definición de la columna
 
-Los atributos son valores de los datos que definen más aún una cuenta o una transacción. Los atributos de la cuenta incluyen **Activo**, **Pasivo**, **Ingresos** y **Gastos**. Los atributos de transacción incluyen **Descripción de la transacción** y **Fecha de aplicación de la transacción**. La compatibilidad del atributo puede diferir entre los sistemas Microsoft Dynamics ERP. La celda **Filtro del atributo** restringe los datos en las columnas **FD** a los valores o a los intervalos específicos para las categorías del atributo. Aunque esta característica se pueda usar junto con la columna **ATTR**, la columna **ATTR** no se requiere. En la columna **FD**, hay un límite en las cuentas o las transacciones que el informe incluirá del filtro del atributo.
+Los atributos son valores de los datos que definen más aún una cuenta o una transacción. Los atributos de la cuenta incluyen **Activo**, **Pasivo**, **Ingresos** y **Gastos**. Los atributos de transacción incluyen **Descripción de la transacción** y **Fecha de aplicación de la transacción**. La compatibilidad del atributo puede diferir entre los sistemas Microsoft Dynamics 365 Finance. La celda **Filtro del atributo** restringe los datos en las columnas **FD** a los valores o a los intervalos específicos para las categorías del atributo. Aunque esta característica se pueda usar junto con la columna **ATTR**, la columna **ATTR** no se requiere. En la columna **FD**, hay un límite en las cuentas o las transacciones que el informe incluirá del filtro del atributo.
 
 > [!NOTE]
 > Para ver qué atributos admite el sistema EPR, consulte la guía de integración correspondiente.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Aplicar un filtro de atributos para una columna de FD en un informe
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Filtro de atributos** de una columna **FD**.
 3. En el cuadro de diálogo **Filtro de atributos**, haga doble clic en la celda de la columna **Atributo** y seleccione el tipo de filtro.
 4. Para limitar más los resultados, especifique un intervalo en las columnas **Desde** y **Hasta**. La celda **Desde** debe contener un valor.
@@ -498,7 +498,7 @@ También puede usar cualquier combinación de caracteres alfanuméricos para una
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Aplicar un filtro de la dimensión para una columna de un informe
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Filtro de la dimensión** para una columna **FD**.
 3. En el cuadro de diálogo **Dimensiones**, especifique los filtros para aplicar.
 4. Haga clic en **Aceptar**.
@@ -510,16 +510,16 @@ Un informe de varias divisas puede mostrar importes en la divisa de contabilidad
 - **Visualización de divisa**: especificar el tipo de divisa (contabilidad, informes, transacción o informe traducido) donde se muestran las transacciones. La funcionalidad de traducido a una divisa de notificación se denomina en ocasiones traducción de la divisa. La traducción de la divisa es la capacidad de notificar importes de la contabilidad general en una divisa que puede no ser la divisa funcional de la empresa o la divisa de notificación en que se registró la transacción.
 - **Filtro de la divisa**: especifique un filtro de la divisa. Solo las transacciones que se especifican en la divisa seleccionada se muestran en el informe.
 
-> 
+
 Para determinar la divisa de contabilidad de una empresa, siga estos pasos.
 
-1. En el Diseñador de informes, en el menú **Compañía**, haga clic en **Compañías**.
+1. En Report designer, en el menú **Compañía**, haga clic en **Compañías**.
 2. En el cuadro de diálogo **Empresas**, seleccione una empresa, y haga clic en **Ver**.
 3. En el cuadro de diálogo **Ver empresa**, en **Opciones regionales**, puede ver la divisa que se define para la empresa seleccionada.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar la divisa en un informe de varias divisas
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Visualización de divisa** en a columna **FD** correspondiente, y seleccione la opción para mostrar la información de divisa: **Divisa de contabilidad del libro mayor**, **Divisa de notificación**, divisa de transacción o seleccione traducir a otra divisa de notificación.
 3. Haga doble clic en la celda **Filtro de la divisa** en la columna **FD** correspondiente, y seleccione el código de divisa correspondiente en la lista. Solo las transacciones que se especifican en esta divisa se muestran en el informe.
 
@@ -529,7 +529,7 @@ Para determinar la divisa de contabilidad de una empresa, siga estos pasos.
 Un usuario ha realizado las siguientes selecciones de divisa en la definición de la columna:
 
 - **Filtro de la divisa:** Yen
-- **Visualización de la divisa:** divisa contable del libro mayor (dólares estadounidenses).
+- **Visualización de la divisa:** divisa contable del libro mayor (dólares estadounidenses)
 
 Debido al filtro de la divisa que ha seleccionado, el informe incluye solo las transacciones especificadas en yenes japoneses (JPY). Debido a la visualización de la divisa que ha seleccionado, el informe muestra las transacciones en la divisa contable, dólares estadounidenses (USD).
 
@@ -566,7 +566,7 @@ Para sumar, restar, multiplicar o dividir columnas, especifique las letras de la
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Usar una fórmula de cálculo en una definición de columnas
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En Report designer, abra la definición de la columna para modificarla.
 2. En la columna **CALC** correspondiente, especifique una fórmula en la celda **Fórmula**.
 
 #### <a name="complex-calculations"></a>Cálculos complejos

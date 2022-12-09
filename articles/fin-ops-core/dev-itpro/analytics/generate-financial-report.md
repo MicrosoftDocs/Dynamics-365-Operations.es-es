@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f55fe1a23735d8631a5918fa49e08f74eee4d37
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898838"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802779"
 ---
 # <a name="generate-financial-reports"></a>Generar informes financieros
 
@@ -67,7 +67,7 @@ Para generar un informe usando **Diseñador de informes**, abra la definición d
 
 Los grupos de informes son una forma eficaz de generar varios informes al mismo tiempo. Por ejemplo, suponga que sabe que a fin de mes sus usuarios generan ocho informes cada mes. Cree un grupo de informes y en lugar de seleccionar **Generar** para cada uno de los ocho informes del grupo, puede seleccionar **Generar** para el grupo de informes y los ocho informes se generarán en un solo paso. Cuando se hayan generado los informes del grupo de informes seleccionado, puede ir a **Informes financieros** (**Libro mayor > Consultas e informes > Informes financieros**) para ver los informes individuales. Complete los pasos siguientes para configurar un grupo de informes.
 
-1. En Diseñador de informes, seleccione **Grupos de informes**. 
+1. En **Report designer**, seleccione **Grupos de informes**. 
 2. Seleccione las definiciones de informes existentes para incluirlas en su grupo de informes. 
 3. Seleccione anular la configuración de la empresa, los detalles y la fecha de cada uno de los informes que se incluirán en el grupo.
    Recomendamos configurar **Empresa**, **Período**, **Año** y **Nivel de detalle** para cada informe. 
@@ -76,21 +76,21 @@ Los grupos de informes son una forma eficaz de generar varios informes al mismo 
 ## <a name="schedule-report-generation"></a>Programar la generación de informes
 Muchas compañías cuentan con un conjunto base de informes que se ejecutan en intervalos programados para la alineación con sus procesos empresariales. Puede programar un informe para que se genere con regularidad, por ejemplo diaria, semanal, mensual o anualmente. Esto puede realizarse en un solo informe o en un grupo de informes que incluye varias compañías. Deberá especificar las credenciales para cada una de las compañías especificadas, tales como las de una definición de organigrama. Si las credenciales no son válidas, el informe mostrará solo la información a la que tiene permiso de acceso, como la empresa en la que ha iniciado sesión en este momento. La información de salida se lee primero en el grupo de informes y luego en los informes individuales.
 
-A medida que se crean y se guardan las programaciones del informe, se muestran en el panel de navegación en Programaciones del informe. Puede crear carpetas para organizar los informes. Si un informe único de una programación no se ejecuta, se seguirán ejecutando los demás informes.
+A medida que se crean y se guardan las programaciones del informe, se muestran en el panel de navegación en **Programaciones del informe**. Puede crear carpetas para organizar los informes. Si un informe único de una programación no se ejecuta, se seguirán ejecutando los demás informes.
 
 > [!IMPORTANT]
 > Para crear, modificar y eliminar programaciones de informe, deberá tener el rol Diseñador o Administrador. Cuando se ejecuta un informe, se usan las credenciales del usuario que creó la programaciónpara generar el informe.
 
 ### <a name="create-a-report-schedule"></a>Crear una programación del informe
 
-1. En el diseñador de informes, en el menú **Archivo**, seleccione **Nuevo** y luego seleccione **Programación de informes**. Se abre el cuadro de diálogo **Nueva programación de informes**.
+1. En el **Report designer**, en el menú **Archivo**, seleccione **Nuevo** y luego seleccione **Programación de informes**. Se abre el cuadro de diálogo **Nueva programación de informes**.
 2. En **Configuración**, seleccione un informe individual o un grupo de informes a programar. Solo estarán disponibles los informes o grupos de informes de la selección de compañía o bloque de creación en la que haya iniciado sesión.
 3. Seleccione la casilla **Activar** para activar la programación de informes. Solamente el creador del informe o un administrador puede activar o desactivar una programación de informe.
 4. Seleccione el botón **Permisos** para especificar las credenciales de la empresa. De manera predeterminada, la información de inicio de sesión se usa para la compañía en la que haya iniciado sesión. Si se incluyen otras empresas, como en los informes de definiciones de organigramas, seleccione **Usar credenciales independientes** y, a continuación, especifique las credenciales para cualquier otra empresa incluida en la programación del informe. Puede seleccionar **Autenticación de Windows** o escribir un nombre de usuario y una contraseña para cada empresa. Seleccione la casilla **Guardar credenciales** para guardar las credenciales de dichas empresas y, a continuación, elija **Aceptar** para cerrar el cuadro de diálogo.
 5. En **Frecuencia**, en el campo **Iniciar periodicidad**, seleccione la fecha en la que comenzará la programación. De manera predeterminada, se selecciona la fecha de sistema actual del equipo cliente.
 6. En el campo **Generar informe a las**, seleccione la hora a la que se debe generar el informe. Si especifica una hora anterior a la hora actual del sistema, el informe se ejecutará en la siguiente fecha programada.
-7. En el área **Patrón de periodicidad**, especifique la frecuencia con la que se ejecuta el informe. De forma predeterminada, se selecciona **Diariamente**, con un valor de Intervalo (días) de 1. Otras opciones incluyen Todas las semanas, Todos los meses y Todos los años.
-8. En el área Intervalo de periodicidad, seleccione cuándo el informe debe dejar de generarse.
+7. En el área **Patrón de periodicidad**, especifique la frecuencia con la que se ejecuta el informe. De forma predeterminada, se selecciona **Diariamente**, con un valor de **Intervalo (días)** de **1**. Otras opciones incluyen **Todas las semanas**, **Todos los meses** y **Todos los años**.
+8. En el área **Intervalo de periodicidad**, seleccione cuando se debe dejar de generar el informe.
 
     - **Sin fecha de finalización**: la programación del informe se ejecuta de forma indefinida.
     - **Establecer número de ocurrencias**: la programación de informes se ejecuta el número de veces especificado y después se desactiva.
@@ -102,7 +102,7 @@ Para copiar una programación de informe, debe tener el rol de diseñador o de a
 
 ### <a name="copy-a-report-schedule"></a>Copiar una programación nueva
 
-1. En Diseñador de informes, seleccione **Programaciones de informes** en el panel de navegación y abra la programación de informes que desea copiar.
+1. En Report designer, seleccione **Programaciones de informes** en el panel de navegación y abra la programación de informes que desea copiar.
 2. En el menú **Archivo**, seleccione **Guardar como** y especifique un nuevo nombre y una descripción para la programación en el cuadro de diálogo **Guardar como**. Seleccione **Aceptar** y la nueva programación se mostrará en el panel de navegación.
 3. En la nueva programación, modifique los campos y la información según sea necesario, y luego seleccione **Guardar** en la barra de herramientas, o elija **Guardar** en el menú **Archivo**.
 
@@ -110,13 +110,13 @@ Para eliminar una programación del informe, debe ser el propietario de la progr
 
 ### <a name="delete-a-report-schedule"></a>Eliminar una programación del informe
 
-1. En Diseñador de informes, seleccione **Programaciones de informes** en el panel de navegación.
+1. En Report designer, seleccione **Programaciones de informes** en el panel de navegación.
 2. Seleccione la programación de informes que desee eliminar y, a continuación, seleccione **Eliminar** o presione la tecla **Eliminar**.
 3. En el cuadro de diálogo de verificación de eliminación, seleccione **Sí** para eliminar permanentemente la programación del informe. Si no tiene permiso para eliminar la programación, se mostrará un mensaje y el informe no se eliminará.
 
 ### <a name="credentials-and-report-schedules"></a>Credenciales y programaciones de informes
 
-Si no especifica las credenciales necesarias para todas las empresas incluidas en los informes, aparece el siguiente mensaje al guardar la programación del informe: "Debe especificar sus credenciales para las empresas que se incluyen en esta programación del informe. Seleccione el botón Permisos para especificar las credenciales".
+Si no especifica las credenciales necesarias para todas las empresas incluidas en los informes, aparece el siguiente mensaje al guardar la programación del informe: "Debe especificar sus credenciales para las empresas que se incluyen en esta programación del informe. Seleccione el botón **Permisos** para especificar las credenciales".
 
 Por ejemplo, un usuario inicia sesión en la Compañía A con su nombre de usuario y contraseña. El usuario crea una programación para un informe que usa una definición del organigrama para recopilar datos de varias empresas. Al guardar la programación del informe, se le solicita al usuario que especifique las credenciales para las demás compañías especificadas en la definición de organigrama. Cuando caduquen sus credenciales, los informes afectados en la programación del informe no se generarán hasta que se hayan actualizado las credenciales. Aparecerá un mensaje en la cola de informes para indicar que se deben actualizar los permisos. La programación del informe falla si tienen lugar las siguientes situaciones (porque requieren credenciales):
 
@@ -141,7 +141,7 @@ No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es 
 
 ### <a name="run-missing-account-analysis"></a>Ejecutar análisis de cuentas que faltan
 
-1. En Diseñador de informes, seleccione **Herramientas** y luego elija **Análisis de cuentas que faltan**.
+1. En Report designer, seleccione **Herramientas** y luego elija **Análisis de cuentas que faltan**.
 2. En el campo **Filtro de empresas**, seleccione una empresa para filtrar los resultados o seleccione **Todas (sin filtro)** para mostrar los resultados de todas las empresas disponibles.
 3. En el campo **Filtro de dimensiones**, seleccione una dimensión para filtrar los resultados o seleccione **Todas (sin filtro)** para ver toda la información de dimensiones para todas las dimensiones disponibles.
 4. En el campo **Agrupar por**, seleccione una opción para ordenar los resultados. Puede ordenar los resultados según el bloque de creación afectado u ordenar los resultados por conjuntos de dimensiones y valores.
@@ -151,7 +151,7 @@ No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es 
 8. Seleccione **Actualizar** para actualizar las excepciones que ha abordado. Seleccione **Sí** para realizar una actualización completa de todos los resultados o seleccione **No** para realizar una actualización parcial.
 
     > [!NOTE]
-    > El formulario se actualiza automáticamente al abrirse, a menos que el formulario se haya abierto en los últimos 15 minutos.
+    > El formulario se actualiza automáticamente al abrirse, a menos que la página se haya abierto en los últimos 15 minutos.
 
 9. Cuando los problemas estén resueltos, seleccione **Aceptar** para cerrar el cuadro de diálogo.
 

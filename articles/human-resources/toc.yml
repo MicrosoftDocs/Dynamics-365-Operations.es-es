@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Solicitud de permiso para ausentarse
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Crear un permiso para ausentarse con finalización abierta
+              href: hr-create-open-leave-absence.md
             - name: Administrar bajas de empleados
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Ver análisis de bajas y ausencias

@@ -2,7 +2,7 @@
 title: Configurar las opciones de elegibilidad de contacto personal
 description: En este artículo se explica cómo configurar opciones de idoneidad para contactos personales en Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 251a12b0da364744f1d8c84324099708a2f816a1
-ms.sourcegitcommit: 1717ff6af1879c6f3a8360936c42ecf55f86acd0
+ms.openlocfilehash: e3e393002901f31c035a54bd8036ed20ecdf9e00
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "9749292"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803894"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurar las opciones de elegibilidad de contacto personal
 
@@ -43,7 +43,8 @@ Este artículo explica cómo configurar los tipos de contactos personales que pu
    | **Código de idoneidad de contacto** | Código del sistema que mejor describe la opción de idoneidad personal. Puede elegir entre: <ul><li>Relación</li><li>Estudiante</li><li>Dependiente mayor de edad</li><li>Dependiente deshabilitado demasiado mayor</li></ul> |
    | **Estado** | El estado de la opción de idoneidad. Si el estado de una opción de idoneidad está configurado como inactivo, no puede seleccionar esa opción de idoneidad de contacto personal para contactos personales. |
    | **Relación** | Especifica la relación entre el contacto personal y el empleado. Este campo solo está activo si el código de idoneidad de contacto está establecido en Relación. |
-   | **Vencimiento** | La edad mínima de un contacto personal idóneo para el plan de prestaciones. Este campo solo está activo si selecciona una relación. Esta edad se compara con la edad calculada del contacto personal. La edad calculada es: (Fecha de cobertura - fecha de nacimiento del contacto personal / 365). Este número siempre es un entero. |
+   | **Vencimiento** |Especifica la edad máxima de un contacto personal idóneo para el plan de prestaciones. Este campo solo está activo si selecciona una relación. Esta edad se compara con la edad calculada del contacto personal. La edad calculada es: (Fecha de cobertura - fecha de nacimiento del contacto personal / 365). Este número siempre es un entero.
+Para la opción de elegibilidad del contacto **Persona dependiente mayor de edad**, la edad en este campo es la edad mínima. Por ejemplo, si la edad se establece en 18 en la opción **Dependiente mayor de edad**, los dependientes que se marquen como dependientes mayores de edad y tengan 18 años o más estarían cubiertos por la opción de elegibilidad.  |
 
 4. Seleccione **Guardar**. 
 
