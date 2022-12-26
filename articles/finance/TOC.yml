@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: Archivo de auditoría estándar para informe electrónico de impuestos (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: Solicitud de liquidación de contabilidad
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Cierre de final del período
               items:
                 - name: Cerrar la contabilidad general al final del período
@@ -1186,11 +1188,23 @@
                   href: general-ledger/faq-year-end-activities.md
                 - name: Liquidaciones de contabilidad
                   href: general-ledger/ledger-settlements.md
-                - name: Las transacciones entre la liquidación de contabilidad y el cierre de fin de año
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Transacciones entre la liquidación de contabilidad y el cierre de fin de año
+                  items:
+                    - name: Transacciones entre la liquidación de contabilidad y el cierre de fin de año
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Prepararse para transacciones entre la liquidación de contabilidad antes del cierre de fin de año
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Prepararse para transacciones entre la liquidación de contabilidad después del cierre de fin de año
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Característica de transacciones entre la liquidación de contabilidad y la divisa de notificación descuadrada
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Transacciones entre la liquidación de contabilidad antes del cierre de fin de año utilizando la ventana de consultas
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Transacciones entre la liquidación de contabilidad después del cierre de fin de año utilizando la ventana de consultas
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Automatización liquidaciones de contabilidad
                   href: general-ledger/auto-settle.md
-                - name: Revalorización de divisa extranjera para contabilidad general
+                - name: Revalorización de divisa extranjera para la contabilidad general
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Saldos de cuentas de la contabilidad general
                   href: general-ledger/general-ledger-account-balances.md
