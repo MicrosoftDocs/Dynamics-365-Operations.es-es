@@ -2,7 +2,7 @@
 title: Versión preliminar de Dynamics 365 Commerce 10.0.30 (noviembre de 2022)
 description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Commerce 10.0.30.
 author: josaw1
-ms.date: 08/31/2022
+ms.date: 12/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-09-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 0149c9671e8baeb26965b4f136ed91d09e2d039b
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: a449c7eff21c059555f9659ea932705858d26275
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405574"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831757"
 ---
 # <a name="preview-of-dynamics-365-commerce-10030-november-2022"></a>Versión preliminar de Dynamics 365 Commerce 10.0.30 (noviembre de 2022)
 
@@ -35,7 +35,7 @@ La tabla siguiente enumera las características incluidas en esta versión. Pued
 | Área de características | Característica | Más información | Habilitada por   |
 |---------|------------------|----------------|--------------| 
 | Atención al cliente   | Converse en un sitio de comercio electrónico usando un bot de Power Virtual Agents. | Esta característica les dará a los usuarios del sitio de comercio electrónico la opción de usar un bot de chat de Power Virtual Agents para solicitudes de soporte. | Habilitado por administradores/fabricantes para usuarios finales |
-| Información  |  Transmita eventos de operational insights del punto de venta (PDV) a su cuenta de Application Insights. | [Registros de acceso en Application Insights](../dev-itpro/retail-component-events-diagnostics-troubleshooting.md#enable-diagnostic-events-in-application-insights)   |  Participación de desarrolladores/profesionales de TI   |
+| Información  |  Transmita eventos de operational insights del punto de venta (PDV) a su cuenta de Application Insights. | [Registros de acceso en Application Insights](../dev-itpro/operational-insights.md#enable-diagnostic-events-in-application-insights)   |  Participación de desarrolladores/profesionales de TI   |
 |  Pagos  | Compatibilidad con pedidos de PayPal más allá del período de autorización de 29 días. | El período máximo de autorización para PayPal es de 29 días, periodo tras el cual se debe generar una nueva autorización e ID de pedido. Como alternativa, PayPal ofrece una opción en la que se puede hacer referencia a un pedido de PayPal como pedido general, lo que permite varias autorizaciones y capturas para el mismo ID de pedido, en lugar de generar una nueva autorización e ID de pedido a los 29 días). | Al configurar el conector de pago de PayPal en Commerce headquarters, el campo **OrderIntent** se ha agregado y puede tener dos valores:<p><p>- **Autorizar** - Esta configuración es la predeterminada (si el campo se deja en blanco, **Autorizar** actuará de forma predeterminada). La configuración de **OrderIntent** como **Autorizar** se correlaciona con el valor de **processing_instruction** de PayPal de **NO_INSTRUCTION**. El pedido será autorizado con PayPal y la autorización no podrá ser modificada cuando se utilice este valor.<p>- **Guardar** - Cuando el valor de **OrderIntent** se establece en **Guardar**, esto se correlaciona con el valor de **processing_instruction** de PayPal de **ORDER_SAVED_EXPLICITLY**. Las referencias de pedidos se guardarán en el servicio de PayPal cuando se utilice este valor.  |
 | Inicio de sesión de PDV  | [Habilitar capacidades de diagnóstico de autoservicio para inicio de sesión de PDV](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-self-serve-diagnosis-capabilities-pos-sign-in)  |  Esta característica proporciona capacidades de diagnóstico de autoservicio en el punto de venta (PDV) y Commerce headquarters para ayudar a empleados y gerentes de la tienda a identificar y solucionar rápidamente las causas raíz de los problemas de inicio de sesión de PDV.<p><p>- Los mensajes de error que se muestran en la pantalla de inicio de sesión de PDV se mejoraron para proporcionar información concreta sobre la causa raíz que puede ayudar a los empleados de la tienda que usan PDV a comprender qué salió mal para que puedan realizar las acciones necesarias para resolver el problema.<p>- La función **Inicio de sesión de la prueba** está disponible en la página **Trabajadores** de Commerce headquarters para que los gerentes de tiendas que configuran dispositivos PDV puedan simular el inicio de sesión de PDV. En caso de error de inicio de sesión, esta función proporciona prácticas guías de solución de problemas para que los administradores puedan verificar las configuraciones relevantes, corregir problemas y validar las correcciones.  | Activado de forma predeterminada |
 

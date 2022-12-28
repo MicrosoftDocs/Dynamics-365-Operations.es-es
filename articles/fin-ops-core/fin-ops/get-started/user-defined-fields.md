@@ -2,23 +2,23 @@
 title: Crear y trabajar con campos personalizados
 description: En este artículo se muestra cómo crear campos personalizados a través de la interfaz de usuario para adaptar la aplicación a su negocio.
 author: jasongre
-ms.date: 05/24/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: fdb4d0065bd12fc721ce55314c0a46fe8d17c6ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18e7e8525352e8fdc397621c381ed4297837e30c
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847139"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887297"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Crear y trabajar con campos personalizados
 
@@ -35,15 +35,15 @@ Este vídeo muestra lo sencillo que es agregar un campo personalizado a una pág
 
 ## <a name="creating-custom-fields"></a>Crear campos personalizados
 
-Una vez identificada la información adicional cuyo seguimiento desea realizar en la aplicación, puede crear el campo personalizado en la tabla apropiada y exponer ese campo nuevo en una página.
+Una vez identificada la información adicional para seguir en la aplicación, puede crear el campo personalizado en la tabla apropiada y exponer ese campo nuevo en una página.
 
-Los siguientes pasos describen el proceso para crear un campo personalizado y colocar ese campo en un formulario.
+Los siguientes pasos describen el proceso para crear un campo personalizado y colocar ese campo en una página.
 
-1. Vaya al formulario en el que es necesario el nuevo campo.
+1. Vaya a la página en la que es necesario el nuevo campo.
 2. Puesto que el objetivo final es exponer el campo personalizado en un formulario, el punto de entrada para crear campos personalizados existe dentro de la experiencia de personalización. Abra la barra de herramientas de personalización seleccionando **Opciones** y, a continuación, **Personalizar este formulario**.
 3. Haga click en **Insertar** y, a continuación, en **Campo**.
-4. Seleccione la región del formulario en la que desea exponer el nuevo campo. Tras la selección, el cuadro de diálogo **Insertar campos** mostrará una lista de campos existentes que se pueden insertar en la región seleccionada del formulario.
-5. Asegúrese de que el campo en el que está interesado no existe en la lista. Si existe, simplemente puede seleccionar ese campo en la lista y hacer clic en **Insertar**.
+4. Seleccione la región del formulario en la que desea exponer el nuevo campo. Tras la selección, el cuadro de diálogo **Insertar campos** mostrará una lista de campos existentes que se pueden insertar en la región seleccionada de la página.
+5. Confirme que el campo en el que está interesado no existe en la lista. Si existe, simplemente puede seleccionar ese campo en la lista y hacer clic en **Insertar**.
 6. Haga clic en el botón **Crear nuevo campo** encima de la lista para iniciar el proceso de crear un campo personalizado. Se abrirá el cuadro de diálogo **Crear nuevo campo**.
 
     Si no ve el botón **Crear nuevo campo**, no dispone de los permisos necesarios para usar esta función.
@@ -59,9 +59,13 @@ Los siguientes pasos describen el proceso para crear un campo personalizado y co
 
     3. Proporcione un nombre, una etiqueta y un texto de ayuda para el campo. El nombre corresponde al nombre de campo físico en la base de datos, mientras que la etiqueta y el texto de ayuda son el texto utilizado para representar este campo en la interfaz de usuario.
 
-8. Si este es el único campo que necesita crear para este formulario, haga clic en **Guardar**. Si necesita crear campos adicionales, haga clic en **Guardar y nuevo** y vuelva al paso 7. Tenga en cuenta que actualmente hay un límite de **20 campos personalizados por tabla**.
-9. Dejar el cuadro de diálogo **Crear nuevo campo** le devolverá al cuadro de diálogo **Insertar campos** . Cualquier campo personalizado recién agreado se marcará automáticamente en la lista de campos que se insertará en el formulario.
-10. Haga clic en **Insertar** para insertar los campos marcados en la región seleccionada del formulario.
+8. Si este es el único campo que necesita crear para esta página, haga clic en **Guardar**. Si necesita crear campos adicionales, haga clic en **Guardar y nuevo** y vuelva al paso 7. 
+
+>[!Note] 
+> Actualmente, hay un límite de **20 campos personalizados por tabla**.
+
+9. Dejar el cuadro de diálogo **Crear nuevo campo** le devolverá al cuadro de diálogo **Insertar campos** . Cualquier campo personalizado recién agreado se marcará automáticamente en la lista de campos que se insertará en la página.
+10. Haga clic en **Insertar** para insertar los campos marcados en la región seleccionada de la página.
 11. **Opcional:** habilite el modo **Mover** de la barra de herramientas de personalización para mover los campos nuevos a su ubicación deseada en la región seleccionada. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más información sobre cómo usar las diversas capacidades de personalización para optimizar un formulario para su uso personal.
 
 > [!WARNING]
@@ -72,12 +76,12 @@ Los siguientes pasos describen el proceso para crear un campo personalizado y co
 
 Después de crear un campo personalizado y exponerlo en una página, puede que desee proporcionar esta vista de página actualizada que incluye el nuevo campo a otros usuarios en el sistema. Esto se puede realizar de dos formas distintas mediante las capacidades de personalización de producto:
 
-- La ruta recomendada es **publicar una [vista guardada](saved-views.md)** con el campo personalizado agregado a la página para el conjunto apropiado de usuarios. Si la función de vistas guardadas no está habilitada, el administrador del sistema puede aplicar la personalización a los usuarios deseados desde el formulario de Personalización. Para más información, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
+- La ruta recomendada es **publicar una [vista guardada](saved-views.md)** con el campo personalizado agregado a la página para el conjunto apropiado de usuarios. Si la función de vistas guardadas no está habilitada, el administrador del sistema puede aplicar la personalización a los usuarios deseados desde la página **Personalización**. Para más información, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
 - Como alternativa, puede exportar los cambios (llamados *personalizaciones*), enviarlos a uno o varios usuarios y hacer que cada uno de estos usuarios importe los cambios. La opción **Gestionar** en la barra de herramientas de personalización le permite exportar e importar personalizaciones.
 
 ## <a name="managing-custom-fields"></a>Gestionar campos personalizados
 
-La gestión de todos los campos personalizados en el sistema se puede lograr a través de la página **Campos personalizados** en el módulo de administración del sistema. Esta página permite a los usuarios acceder muchas capacidades, entre las que se incluyen:
+La gestión de todos los campos personalizados se puede lograr a través de la página **Campos personalizados** en el módulo de administración del sistema. Esta página permite a los usuarios acceder muchas capacidades, entre las que se incluyen:
 
 - Ver una lista de todos los campos personalizados en el sistema.
 - Edición limitada de campos personalizados existentes.
@@ -87,7 +91,7 @@ La gestión de todos los campos personalizados en el sistema se puede lograr a t
 
 ### <a name="viewing-all-custom-fields"></a>Ver todos los campos personalizados
 
-La página **Campos personalizados** proporciona visibilidad a todos los campos personalizados que se han definido en el sistema. Seleccione simplemente la tabla que le interese, y la página se actualizará para mostrar una lista de los campos personalizados asociados a esa tabla. Elegir un campo personalizado de la lista le permitirá ver todos los detalles sobre el campo.
+La página **Campos personalizados** proporciona visibilidad a todos los campos personalizados que se han definido en el sistema. Seleccione la tabla que le interese, y la página se actualizará para mostrar una lista de los campos personalizados asociados a esa tabla. Elegir un campo personalizado de la lista le permitirá ver todos los detalles sobre el campo.
 
 ### <a name="editing-custom-fields"></a>Editar campos personalizados
 
@@ -101,18 +105,18 @@ Una vez creado un campo personalizado, solo se pueden modificar determinados fra
 
 *No puede* editar los siguientes atributos:
 
-- Nombre del campo
+- Nombre de campo
 - Tipo de datos
 
-Además, para los campos de la lista de selección, se puede reordenar el conjunto de valores válidos para el campo personalizado, y se pueden agregar nuevos valores; sin embargo, los valores existentes para el campo de la lista de selección no se pueden eliminar. Recuerde hacer clic en **Aplicar cambios** cuando termine de editar campos para una tabla determinada para que se guarden los cambios.
+Además, para los campos de la lista de selección, se puede reordenar el conjunto de valores válidos para el campo personalizado, y se pueden agregar nuevos valores; sin embargo, los valores existentes para el campo de la lista de selección no se pueden eliminar. Haga clic en **Aplicar cambios** cuando termine de editar campos para una tabla determinada para que se guarden los cambios.
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Exponer campos personalizados en entidades de datos
 
-También puede ser importante permitir que los campos personalizados estén visibles en entidades de datos. Las entidades de datos se utilizan en la característica [Visión general de la integración en Office](../../dev-itpro/office-integration/office-integration.md), así como para los escenarios de importación/exportación de datos.
+También puede ser importante permitir que los campos personalizados estén visibles en entidades de datos. Las entidades de datos se utilizan en la característica [Visión general de la integración en Office](../../dev-itpro/office-integration/office-integration.md) y para los escenarios de importación/exportación de datos.
 
 Siga estos tres pasos para exponer un campo personalizado en una entidad de datos:
 
-1. Seleccione el campo personalizado en el formulario **Campos personalizados** .
+1. Seleccione el campo personalizado en la página **Campos personalizados** .
 2. Expanda la sección **Entidades** para ver el conjunto de entidades relevantes.
 3. Haga clic en el botón **Editar**.
 4. Modifique el campo **Habilitado** que se va a seleccionar para cada entidad que debe exponer este campo.
@@ -128,7 +132,7 @@ Los siguientes pasos describen el proceso para traducir campos personalizados en
 2. Seleccione el botón **Traducciones** en el panel de acciones. Se abrirá un menú desplegable con las traducciones existentes para este campo.
 3. El menú desplegable **Idioma** muestra el conjunto de idiomas para los que ya se han proporcionado traducciones.
 
-    Si desea editar una traducción existente, seleccione el idioma deseado desde el menú y modifique los valores para la etiqueta y el texto de ayuda.
+    Si desea editar una traducción existente, seleccione el idioma desde el menú y modifique los valores para la etiqueta y el texto de ayuda.
 
     De lo contrario, haga clic en el botón **Agregar idioma**, seleccione el idioma deseado desde el menú y, a continuación, proporcione valores traducidos para la etiqueta y el texto de ayuda.
 
@@ -136,7 +140,7 @@ Los siguientes pasos describen el proceso para traducir campos personalizados en
 
 ### <a name="deleting-custom-fields"></a>Eliminar campos personalizados
 
-En raras ocasiones, puede decidir si un campo personalizado ya no es neceasario. Si esto ocurre, un administrador del sistema puede optar por eliminar el campo de la página **Campos personalizados**. Para ello, asegúrese de que se selecciona el campo correcto, haga clic en **Eliminar**, haga clic en **Sí** para confirmar la eliminación y finalmente haga clic en **Aplicar cambios**.
+Si decide que un campo personalizado ya no es necesario, un administrador del sistema puede optar por eliminar el campo de la página **Campos personalizados**. Para eliminar un campo personalizado, seleccione el campo para eliminar, haga clic en **Eliminar**, haga clic en **Sí** para confirmar la eliminación y finalmente haga clic en **Aplicar cambios**.
 
 > [!NOTE]
 > Esta acción no se puede deshacer y dará lugar a los datos asociados al campo que se eliminará permanentemente de la base de datos.
@@ -145,11 +149,11 @@ En raras ocasiones, puede decidir si un campo personalizado ya no es neceasario.
 
 ### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>¿Por qué no puedo introducir un valor en mi campo personalizado? 
 
-Si no puede escribir un valor en el campo personalizado cuando la página está en modo de edición, esto puede deberse a que la tabla a la que se agregó el campo es actualmente de solo lectura. Todos los campos de una tabla se vuelven de solo lectura si la tabla de respaldo está configurada actualmente como de solo lectura en la página.   
+Si no puede escribir un valor en el campo personalizado cuando la página está en modo de **edición**, esto puede deberse a que la tabla a la que se agregó el campo es actualmente de solo lectura. Todos los campos de una tabla se vuelven de solo lectura si la tabla de respaldo está configurada actualmente como de solo lectura en la página.   
 
 ### <a name="who-can-create-custom-fields"></a>¿Quién puede crear campos personalizados?
 
-Como elemento de protección para el sistema, solo los administradores del sistema pueden crear campos personalizados de forma predeterminada. Sin embargo, estos usuarios avanzados que la organización considera necesario pueden obtener derechos para crear campos personalizados por un administrador del sistema mediante el rol de seguridad **Usuario avanzado de personalización de tiempo de ejecución**. Los usuarios sin este rol de seguridad no podrán crear campos personalizados, pero si podrán ver e interactuar con los campos personalizados agregados por otros usuarios en el sistema.
+Solo los administradores del sistema pueden crear campos personalizados de forma predeterminada. Sin embargo, estos usuarios avanzados que la organización considera necesario pueden obtener derechos para crear campos personalizados por un administrador del sistema mediante el rol de seguridad **Usuario avanzado de personalización de tiempo de ejecución**. Los usuarios sin este rol de seguridad no podrán crear campos personalizados, pero si podrán ver e interactuar con los campos personalizados agregados por otros usuarios en el sistema.
 
 ### <a name="what-tables-support-custom-fields"></a>¿Qué tablas admiten campos personalizados?
 
@@ -172,6 +176,14 @@ Por motivos rendimiento y técnicos, solo las tablas que cumplen las siguientes 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>¿Puedo hacer referencia a campos personalizados desde las herramientas para desarrolladores?  
 
 Los campos personalizados solo se pueden administrar a través de la interfaz de usuario. No es posible hacer referencia a estos campos en el código. 
+
+### <a name="how-can-i-move-custom-fields-between-environments"></a>¿Cómo puedo mover campos personalizados entre entornos? 
+
+La recomendación actual para mover campos personalizados entre entornos es volver a crear manualmente los campos personalizados en el entorno de destino. Para ver la lista completa de campos personalizados en una tabla en particular:
+1. Vaya a la página **Campos personalizados**, seleccione esa tabla del menú desplegable. 
+2. En el entorno de destino, siga el proceso descrito anteriormente en este artículo para volver a crear cada campo. 
+3. Una vez que se hayan creado todos los campos, haga clic en **Aplicar cambios**.  
+4. Mueva todas las personalizaciones que contengan campos personalizados exportándolas desde el entorno original e importándolas al entorno de destino.  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

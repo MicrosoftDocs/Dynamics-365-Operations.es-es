@@ -2,7 +2,7 @@
 title: Certificado de la persona
 description: Este artículo describe la entidad Certificado de la persona para Dynamics 365 Human Resources.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3c3be061cb8a18a19729932352c82ff3b787000
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f9d5a8c83d9714a4d10dec16e66ab87b794b074
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897933"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887327"
 ---
 # <a name="person-certificate"></a>Certificado de la persona
 
@@ -53,17 +53,20 @@ Esta entidad describe los certificados profesionales de un candidato.
 
 ## <a name="properties"></a>Propiedades
 
-| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Descripción |
+| Propiedad<br>**Nombre físico**<br>**_Tipo_** | Utilizar | Description |
 | --- | --- | --- |
-| **Id. de entidad de certificado de la persona**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | Solo lectura<br>Obligatorio | Identificador único generado por el sistema para el registro de entidad de certificado de la persona. |
-| **Número de parte**<br>mshr_partynumber<br>*Cadena* | Leer/Escribir<br>Obligatorio | El id. de entidad (persona) del candidato. |
-| **Valor de id. de persona**<br>_mshr_fk_person_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_dirpersonentityid de mshr_dirpersonentity | Identificador único generado por el sistema de registro de entidad (persona) de la parte. |
 | **Id. de tipo de certificado**<br>mshr_certificatetypeid<br>*Cadena* | Leer/Escribir<br>Obligatorio |  Identificador del tipo de certificado definido en Human Resources. |
-| **Valor de id. de tipo de certificado**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_hcmcertificatetypeentityid de mshr_hcmcertificatetypeentity | Identificador único generado por el sistema del tipo de certificado de la entidad asociada. |
 | **Fecha inicial**<br>mshr_startdate<br>*Fecha y hora* | Leer/Escribir<br>Obligatorio | La fecha en la que se emitió el certificado. |
 | **Fecha final**<br>mshr_enddate<br>*Fecha y hora* | Leer/Escribir<br>Opcional | La fecha en la que expirará el certificado. |
 | **Notas**<br>mshr_notes<br>*Cadena* | Leer/Escribir<br>Opcional | Notas para los técnicos de selección de personal y los responsables de contratación. |
-| **Campo principal**<br>mshr_primaryfield<br>*Cadena* | Solo lectura<br>Obligatorio |  Campo que se utilizará como identificador principal del registro de entidad. Combinación de número de entidad, id. de tipo de certificado y fecha de inicio. |
+| **Número de parte**<br>mshr_partynumber<br>*Cadena* | Leer/Escribir<br>Obligatorio | El id. de entidad (persona) del candidato. |
+| **Campo primario**<br>mshr_primaryfield<br>*Cadena* | Solo lectura<br>Obligatorio |  Campo que se utilizará como identificador principal del registro de entidad. Combinación de número de entidad, id. de tipo de certificado y fecha de inicio. |
+| **Valor de id. de tipo de certificado**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_hcmcertificatetypeentityid de mshr_hcmcertificatetypeentity | Identificador único generado por el sistema del tipo de certificado de la entidad asociada. |
+| **Valor de id. de persona**<br>_mshr_fk_person_id_value<br>*GUID* | Solo lectura<br>Obligatorio<br>Clave externa: mshr_dirpersonentityid de mshr_dirpersonentity | Identificador único generado por el sistema de registro de entidad (persona) de la parte. |
+| **Id. de entidad de certificado de la persona**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | Solo lectura<br>Obligatorio | Identificador único generado por el sistema para el registro de entidad de certificado de la persona. |
+
+
+
 
 ## <a name="see-also"></a>Consulte también
 

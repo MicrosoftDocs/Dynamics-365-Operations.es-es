@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764249"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843690"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novedades o cambios en la aplicación móvil Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este artículo enumera las nuevas funciones, las revisiones, las mejoras y los problemas conocidos para cada versión publicada de la aplicación móvil Warehouse Management para Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20390"></a>Versión 2.0.39.0
+
+Esta versión introduce las características nuevas, correcciones y mejoras siguientes:
+- Mayor estabilidad. 
+- Los campos de la página **Personalizada** ya no se ordenan automáticamente según su configuración de prioridad y subprioridad.  
+- La aplicación ahora usa la configuración de prioridad y subprioridad para cada campo para identificar el campo principal de una página. El campo principal se muestra en el encabezado del paso. 
+- Se solucionó un problema por el cual el teclado virtual no se ocultaba en Android.
+- Se solucionó un problema por el cual el control numérico de cantidad mostraba un valor correcto incorrecto al abrirse en el flujo de *movimiento*. 
+- Se solucionó un problema por el cual el valor del control numérico de cantidad de solo lectura no estaba centrado correctamente. 
+- Se solucionó un problema por el que las páginas web no se abrían desde la página **Acerca de**. 
+- El tema de color *Auto* ahora toma su apariencia predeterminada (claro u oscuro) según el tema global establecido en el sistema operativo del dispositivo móvil.
 
 ## <a name="version-20370"></a>Versión 2.0.37.0
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Release 10.0.11
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
-ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 61bc5e3f36bd2ae6e38ed0f511d70a7ae62e045c
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291366"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9832041"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación
 
@@ -28,7 +28,7 @@ ms.locfileid: "9291366"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Cuando [configure](tasks/er-format-configuration-2016-11.md) una solución de informes electrónicos (ER) para generar documentos electrónicos resultantes, se definen los métodos que se usan para sacar datos de la aplicción e introducirlos en la salida que se genera. Para que el soporte del ciclo de vida de la solución ER sea más eficiente, su solución debe consistir en un modelo de datos ER y sus componentes de asignación, y también un formato ER y sus componentes correspondientes, de modo que la asignación del modelo sea específica de la aplicación, mientras que otros componentes permanecen independientes de la aplicación. Por lo tanto, varios componentes de ER podrían afectar al proceso de introducir datos en la salida generada.
+Cuando [configure](tasks/er-format-configuration-2016-11.md) una solución de informes electrónicos (ER) para generar documentos electrónicos resultantes, se definen los métodos que se usan para sacar datos de la aplicción e introducirlos en la salida que se genera. Para que el soporte del ciclo de vida de la solución ER sea más eficiente, su solución debe consistir en un modelo de datos ER y sus componentes correspondientes, y también un formato ER y sus componentes correspondientes, de modo que la asignación del modelo sea específica de la aplicación, mientras que otros componentes permanecen independientes de la aplicación. Por lo tanto, varios componentes de ER podrían afectar al proceso de introducir datos en la salida generada.
 
 A veces, los datos de la salida generada parecen diferentes de los mismos datos en la base de datos de la aplicación. En estos casos, querrá determinar qué componente de ER es responsable de la transformación de datos. La función del depurador de la fuente de datos ER reduce significativamente el tiempo y el coste involucrados en esta investigación. Puede interrumpir la ejecución de un formato ER y abrir la interfaz del depurador de origen de datos. Allí, puede examinar las fuentes de datos disponibles y seleccionar una fuente de datos individual para la ejecución. Esta ejecución manual simula la ejecución de la fuente de datos durante la ejecución real de un formato ER. El resultado se presenta en una página donde puede analizar los datos que se reciben.
 

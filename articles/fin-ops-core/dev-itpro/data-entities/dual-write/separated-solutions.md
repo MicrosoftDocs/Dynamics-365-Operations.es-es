@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7f2a9b9e52b80c0feae0ac0dcb1ddf0a5c0cd27c
+ms.sourcegitcommit: 8aba7d2f45ef03a14f33f4b430ce92a11c876e2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111672"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9884126"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Paquete de orquestación de aplicaciones de escritura dual separada
 
@@ -183,6 +183,7 @@ El paquete Cadena de suministro de escritura dual depende de los siguientes tres
 - Paquete de núcleo de aplicación de doble escritura
 - Paquete de Finance de doble escritura
 - Paquete de Human Resources de doble escritura
+- Tablas comunes de Dynamics 365 HR
 
 ## <a name="dual-write-finance"></a>Finance de doble escritura
 

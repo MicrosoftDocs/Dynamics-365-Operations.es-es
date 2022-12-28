@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846868"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831843"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Información general de la conversión de consolidaciones financieras y divisa
 
@@ -64,7 +64,7 @@ Aquí hay alguna de las situaciones de consolidación que Consolidar en línea a
 - Consolidaciones que implican varias divisas contables
 
 ## <a name="legal-entity-setup"></a>Configuración de entidades legales
-Antes de procesar una consolidación, debe configurar la entidad jurídica. Puede ejecutar la consolidación tantas veces como sea necesario, y todos los datos se convertirán desde la divisa de contabilidad de la empresa de origen a la divisa que está definida para la empresa de consolidación. Por lo tanto, para la siguiente estructura organizativa, si debe convertir todas las empresas norteamericanas primero a dólares estadounidenses (USD) y luego a euros (EUR), la divisa de la empresa matriz, debe tener al menos dos empresas de consolidación.
+Antes de procesar una consolidación, debe configurar la entidad jurídica. Puede ejecutar la consolidación tantas veces como sea necesario, y todos los datos se convertirán desde la divisa de contabilidad de la empresa de origen a la divisa de notificación que está definida para la empresa de consolidación. Por lo tanto, para la siguiente estructura organizativa, si debe convertir todas las empresas norteamericanas primero a dólares estadounidenses (USD) y luego a euros (EUR), la divisa de la empresa matriz, debe tener al menos dos empresas de consolidación.
 
 ![Estructura de la organización.](./media/organizational-structure.png "Estructura de la organización")
 

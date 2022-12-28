@@ -2,7 +2,7 @@
 title: Consolidaciones financieras en línea
 description: Este artículo describe las consolidaciones financieras en línea en contabilidad general.
 author: aprilolson
-ms.date: 07/09/2018
+ms.date: 12/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5843ac78adf32e738d9882c7f4e9e04a79200700
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848560"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838289"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
@@ -45,6 +45,19 @@ Esta es una explicación de los diversos campos de esta pestaña:
 - **Período de consolidación** Use los campos de esta sección para definir el período de consolidación.
 
     - **De** y **A** permite especificar un intervalo de fechas para la consolidación. Si deja estos campos en blanco, la consolidación se procesará para todos los períodos definidos en el calendario de contabilidad para la empresa. No recomendamos que deje este campo en blanco.
+    - **Seleccionar importe de consolidación de**: utilice este campo para especificar si se utilizarán los importes de moneda de contabilidad o los importes de moneda de informes de las empresas de origen para actualizar los importes de moneda de contabilidad de la empresa de consolidación.
+
+        - Seleccione **Moneda de contabilidad** para utilizar los importes de divisa de contabilidad de las empresas de origen para actualizar los importes de divisa de contabilidad en la empresa de consolidación. Cuando se seleccione este valor, use el campo **Consolidar moneda contable** para definir cómo se calcularán las monedas contables en la compañía de consolidación.
+        - Seleccione **Moneda de informe** para utilizar los importes de moneda de informe de las empresas de origen para calcular los importes de moneda de contabilidad en la empresa de consolidación.
+
+            - Si la moneda de informe de la empresa de origen es la misma que la moneda de contabilidad de la empresa de consolidación, los importes de la moneda de informe se copian de la empresa de origen a la empresa de consolidación.
+            - Si la moneda de informes de la empresa de origen difiere de la moneda de contabilidad de la empresa de consolidación, los valores se convierten utilizando la información de cambio definida en la pestaña **Conversión de moneda** de esta página para calcular los valores de la empresa de consolidación.
+
+    - **Moneda de contabilidad consolidada**: este campo está disponible solo si el campo **Seleccionar monto de consolidación de** está establecido en **Moneda de contabilidad**. Úselo para especificar si los importes de moneda de contabilidad de las empresas de origen se convierten mediante tipos de cambio o se copian en la empresa de consolidación. Seleccione **Usar conversión de moneda** para usar la información de tipo de cambio definida en la pestaña **Conversión de moneda** para calcular la contabilidad de consolidación saldos Seleccione **Usar monto de moneda de contabilidad** para copiar los montos de moneda de contabilidad de las empresas de origen a la empresa de consolidación.
+
+        - Si la moneda contable de la empresa de origen es la misma que la moneda de contabilidad de la empresa de consolidación, los importes de la moneda se copian de la empresa de origen a la empresa de consolidación.
+        - Si la moneda contable de la empresa de origen difiere de la moneda de contabilidad de la empresa de consolidación, los valores se convierten utilizando la información de cambio definida en la pestaña **Conversión de moneda** de esta página para calcular los valores de la empresa de consolidación.
+
     - **Importes reales de inclusión** Establezca esta opción en **Sí** para consolidar los datos reales.
     - **Incluir los importes presupuestarios** Establezca esta opción en **Sí** para consolidar los datos del registro presupuestario.
     - **Volver a crear los saldos durante la consolidación** No se recomienda que establezca esta opción en **Sí**. En su lugar, vuelva a crear saldos como un trabajo por lotes independiente.
@@ -80,9 +93,9 @@ En la pestaña **Eliminación** , tiene tres opciones para procesar las eliminac
 Para obtener más información acerca de las eliminaciones, consulte [Reglas de eliminación](./elimination-rules.md).
 
 ## <a name="currency-translation"></a>Traducción de la divisa
-En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la cuenta y el tipo de cambio, y el índice. Tres opciones están disponibles en el campo **Aplicar tipo de cambio de**:
+En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la cuenta y el tipo de cambio, y el índice. Si la empresa de consolidación está asignada a cuentas principales diferentes a las de la empresa de origen, la cuenta principal de la empresa de consolidación debe introducirse en la fecha **Desde** y **Hasta fecha**, no las cuentas principales de la empresa de origen. Para cada fila de entidad jurídica y cuentas principales, hay tres opciones disponibles en el campo **Aplicar tipo de cambio de**:
 
-- **Fecha de consolidación** La fecha de consolidación se usará para obtener el tipo de cambio. Este tipo es equivalente a la tasa al contado o al índice de final de mes. Se verá una vista previa de la tasa, pero no se puede editar.
+- **Fecha de consolidación** – La fecha que se define en el campo **Periodo de consolidación hasta** de la pestñaa **Criterios** de la consolidación se usarán para obtenr el tipo de cambio. Este tipo es equivalente a la tasa al contado o al índice de final de mes. Se verá una vista previa de la tasa, pero no se puede editar.
 - **Fecha de transacción** La fecha de cada transacción se usará para seleccionar un tipo de cambio. Esta opción es la que más se suele usar para los activos fijos y suele denominarse tipo histórico. No puede ver una vista previa de la tasa debido a que habrá muchas tasas para las diversas transacciones en el intervalo de la cuenta.
 - **Tasa definida por el usuario** Después de activar esta opción, puede especificar el tipo de cambio que desee. Esta opción puede ser útil para los tipos de cambio medio o si está consolidando con un tipo de cambio fijo.
 

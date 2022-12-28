@@ -2,7 +2,7 @@
 title: Configurar destinos de informes electrónicos dependientes de acciones
 description: Este artículo explica cómo configurar destinos dependientes de acciones para un informe electrónico (ER) que se ha configurado para generar documentos de salida.
 author: kfend
-ms.date: 02/09/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,24 @@ ms.dyn365.ops.version: 10.0.17
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
-ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 80a432a431891c02e4bf5c71cfe2bd9642c41c75
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286259"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843807"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
 [!include [banner](../includes/banner.md)]
 
-Puede configurar [destinos](electronic-reporting-destinations.md) para cada componente de salida (carpeta o archivo) de una [configuración](general-electronic-reporting.md#Configuration) de [formato de informe electrónico (ER)](general-electronic-reporting.md) que se usa para generar un documento de salida. Los usuarios que ejecutan un formato de informe electrónico de este tipo y que tienen los derechos de acceso adecuados también pueden cambiar los ajustes de destino configurados en runtime.
+Puede configurar [destinos](electronic-reporting-destinations.md) para cada componente de salida (carpeta o archivo) de un formato de [configuración](general-electronic-reporting.md#Configuration) de [informes electrónicos (ER)](general-electronic-reporting.md) que se usa para generar un documento de salida. Los usuarios que ejecutan un formato de informe electrónico de este tipo y que tienen los derechos de acceso adecuados también pueden cambiar los ajustes de destino configurados en runtime.
 
 En la **versión 10.0.17 y posteriores** de Microsoft Dynamics 365 Finance, un formato de informe electrónico se puede ejecutar mediante el [aprovisionamiento](er-apis-app10-0-17.md) de un código de acción que realiza el usuario al ejecutar ese formato de informe electrónico. Por ejemplo, en el módulo **clientes**, en la configuración de Gestión de impresión, puede seleccionar un formato de informe electrónico que genere un documento empresarial específico, como una factura de servicios. A continuación, puede seleccionar **Ver** para obtener una versión preliminar de la factura o **Imprimir** para enviarla a una impresora. Si se pasa una acción de usuario para el formato de informe electrónico en runtime, puede configurar diferentes destinos de informes electrónicos para diferentes acciones de usuario. Este artículo explica cómo configurar destinos de informes electrónicos para este tipo de formato de informe electrónico.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Habilitar los destinos de informes electrónicos dependientes de acciones
 
-Para configurar destinos de informes electrónicos dependientes de acciones en la instancia actual de Finance y habilitar la [nueva](er-apis-app10-0-17.md) API de informes electrónicos, abra el espacio de trabajo [Administración de características](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) y active la característica **Configurar destinos de informes electrónicos específicos para usarlos en diferentes acciones de gestión**. Para utilizar destinos de informes electrónicos configurados para informes [específicos](#reports-list-wave1) en runtime, habilite la función **Redirigir la salida de informes de gestión basados en destinos de informes electrónicos que son específicos de acciones del usuario (oleada1)**.
+Para configurar destinos de informes electrónicos dependientes de acciones en la instancia actual de Finance y habilitar la [nueva](er-apis-app10-0-17.md) API de informes electrónicos, abra el espacio de trabajo [Administración de características](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) y active la característica **Configurar destinos de informes electrónicos específicos para usarlos en diferentes acciones de gestión**. Para utilizar destinos de informes electrónicos configurados para informes en runtime, habilite la función **Redirigir la salida de informes de gestión basados en destinos de informes electrónicos que son específicos de acciones del usuario (oleada1)**.
 
 ## <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de informes electrónicos dependientes de acciones
 
@@ -89,6 +89,51 @@ La siguiente ilustración muestra un ejemplo del cuadro de diálogo **Destinos d
 > [!NOTE]
 > Si configuró destinos de informes electrónicos para varios componentes del formato de informes electrónicos en ejecución, se ofrecerá una opción por separado para cada componente configurado del formato de informes electrónicos.
 
+Si se aplican varios formatos de ER como plantillas de informes para el documento seleccionado, todos los destinos de ER para todas las plantillas de informes de ER aplicables se muestran en el cuadro de diálogo y están disponibles para el ajuste manual en tiempo de ejecución.
+
+Si no hay [plantillas de informes de SQL Server Reporting Services (SSRS)](SSRS-report.md) aplicables al documento seleccionado, la selección estándar de destinos de administración de impresión se oculta dinámicamente.
+
+A partir de la versión de Finance **10.0.31**, puede cambiar manualmente los destinos de ER asignados en tiempo de ejecución para los siguientes documentos comerciales:
+
+- Extracto de cuenta de cliente
+- Nota de interés
+- Nota de la carta de cobro
+- Aviso de pago del cliente
+- Aviso de pago de proveedor
+
+Para activar la capacidad para cambiar los destinos de ER en tiempo de ejecución, habilite la función **Permitir el ajuste de destinos ER en tiempo de ejecución** en el espacio de trabajo [Administración de características](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace).
+
+> [!IMPORTANT]
+> Para los informes **Aviso de pago del cliente** y **Aviso de pago del proveedor**, la capacidad de cambiar manualmente los destinos de ER solo está disponible si el vuelo **ForcePrintJobSettings** está habilitado.
+
+[![Ajuste de destinos de ER en tiempo de ejecución.](./media/ERdestinaiotnChangeUI.jpg)](./media/ERdestinaiotnChangeUI.jpg)
+
+> [!NOTE]
+> Cuando la opción **Usar destino de administración de impresión** está establecida en **Sí**, el sistema usa los destinos de ER predeterminados que están configurados para informes de urgencias específicos. Todos los cambios manuales que se realizan en el cuadro de diálogo se ignoran. Establezca la opción **Usar destino de administración de impresión** en **No** para procesar documentos en los destinos de ER que se definen en el cuadro de diálogo inmediatamente antes de ejecutar los informes.
+
+Los siguientes documentos comerciales no asumen la selección explícita del usuario de una acción cuando se ejecutan:
+
+- Extracto de cuenta de cliente
+- Nota de interés
+- Nota de la carta de cobro
+- Aviso de pago del cliente
+- Aviso de pago de proveedor
+
+La siguiente lógica se usa para determinar qué acción se usa mientras se procesan los informes anteriores:
+
+- Si el vuelo **ForcePrintJobSettings** está habilitado:
+
+    - Si la opción **Usar destino de administración de impresión** se establece en **Sí**, se usa la acción **Imprimir**.
+    - Si la opción **Usar destino de administración de impresión** se establece en **No**, se usa la acción **Ver**.
+
+- Si el vuelo **ForcePrintJobSettings** no está habilitado:
+
+    - Si la opción **Usar destino de administración de impresión** está establecida en **Sí**, la opción **Imprimir** se utiliza para los informes **Aviso de pago del cliente** y **Aviso de pago del proveedor**.
+    - Si la opción **Usar destino de administración de impresión** está establecida en **No**, la plantilla de informe de SSRS predeterminada siempre se usa para el Informes **Aviso de pago del cliente** y **Aviso de pago del proveedor**, independientemente de cualquier configuración de ER que esté configurada.
+    - La acción **Imprimir** siempre se utiliza para los informes **Estado de cuenta del cliente**, **Nota de interés** y **Nota de carta de cobro**.
+
+Para la lógica anterior, las acciones **Imprimir** o **Ver** pueden usarse para configurar destinos de informes de ER dependientes de la acción. En tiempo de ejecución, solo los destinos de ER que están configurados para una acción específica se filtran en el cuadro de diálogo.
+
 ## <a name="verify-the-provided-user-action"></a>Verificar la acción del usuario proporcionada
 
 Puede verificar qué acción de usuario, si corresponde, se proporciona para el formato de informes electrónicos en ejecución cuando realiza una acción de usuario específica. Esta verificación es importante cuando debe configurar destinos de informes electrónicos dependientes de acciones, pero no está seguro de qué código de acción de usuario se proporciona, si corresponde. Por ejemplo, cuando comienza a registrar una factura de servicios y establece la opción **Imprimir factura** a **Sí** en el cuadro de diálogo **Registrar la factura de servicios**, puede configurar la opción **Usar destino de gestión de impresora** a **Sí** o **No**.
@@ -105,23 +150,9 @@ Siga estos pasos para verificar el código de acción del usuario que se proporc
 
     ![Página de registros de ejecución de informes electrónicos que contiene información sobre el código de acción del usuario que se ha proporcionado para la ejecución filtrada de un formato de informes electrónicos.](./media/er-destination-action-dependent-03.png)
 
-## <a name=""></a><a name="reports-list-wave1">Lista de documentos empresariales (oleada 1)</a>
-
-La siguiente lista de documentos empresariales está controlada por la característica **Redirigir la salida de informes de gestión basados en destinos de informes electrónicos que son específicos de acciones del usuario (oleada1)**:
-
-- Factura de cliente (factura de servicios)
-- Factura de cliente (factura de ventas)
-- Pedido de compra
-- Consulta de compra de pedido de compra
-- Confirmación del pedido de ventas
-- Nota de la carta de cobros
-- Nota de interés
-- Aviso de pago de proveedor
-- Solicitud de presupuesto
-
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+[Información general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
 [Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 

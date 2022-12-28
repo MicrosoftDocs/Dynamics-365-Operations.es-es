@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762710"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831784"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Usar la aplicación Inventory Visibility
 
@@ -106,7 +106,7 @@ Para habilitar la página **Resumen de inventario** y establecer la frecuencia d
 
 1. Abra la página **Configuración**.
 1. Abra la pestaña **Administración y configuración de características**.
-1. Ajuste el interruptor de palanca para la característica **OnHandMostSpecificBackgroundService** en *Sí*.
+1. Ajuste el interruptor de palanca para la característica *OnHandMostSpecificBackgroundService* en *Sí*.
 1. Cuando la función está habilitada, la sección **Configuración del servicio** está disponible e incluye una fila para configurar la característica **OnHandMostSpecificBackgroundService**. Esta configuración le permite elegir la frecuencia con la que se sincronizan los datos de resumen de inventario. Utilizar los botones **Arriba** y **Abajo** en la columna **Valor** para cambiar el tiempo entre sincronizaciones (que puede ser tan bajo como 5 minutos). A continuación, seleccione **Guardar**.
 
     ![La configuración OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "La configuración OnHandMostSpecificBackgroundService")
@@ -125,10 +125,10 @@ Supply Chain Management almacena una gran cantidad de información sobre su inve
 
 La página **Precargar el resumen de visibilidad del inventario** proporciona una vista para la entidad *Resultados de precarga de consultas de índice disponibles*. A diferencia de la entidad *Resumen de inventario*, la entidad *Resultados de precarga de consultas de índice disponibles* proporciona una lista de inventario disponible para productos junto con dimensiones seleccionadas. La visibilidad de inventario sincroniza los datos de resumen precargados cada 15 minutos.
 
-Para ver los datos en la pestaña **Precargar el resumen de visibilidad del inventario**, debe activar la característica *OnHandIndexQueryPreloadBackgroundService* en la pestaña **Gestión de características** de la página **Configuración** y luego seleccione **Actualizar configuración** (ver también [Configurar visibilidad de inventario](inventory-visibility-configuration.md)).
+Para ver los datos en la pestaña **Precarga del resumen de visibilidad de inventario**, debe activar y configurar la característica *OnHandIndexQueryPreloadBackgroundService*. Consulte [Activar y configurar consultas disponibles precargadas](inventory-visibility-configuration.md#query-preload-configuration) para obtener instrucciones.
 
 > [!NOTE]
-> Al igual que con la característica *OnhandMostSpecificBackgroudService*, la característica *OnHandIndexQueryPreloadBackgroundService* solo realiza un seguimiento de los cambios en el inventario disponible que ocurrieron después de activar la característica. Los datos de los productos que no han cambiado desde que activó la característica no se sincronizarán desde la caché del servicio de inventario al entorno de Dataverse. Si la página **Resumen de inventario** no muestra toda la información disponible que espera, vaya a **Gestión del inventario > Tareas periódicas > Integración de Visibilidad de inventario**, deshabilite el trabajo por lotes y vuelva a habilitarlo. Esto hará la inserción inicial y todos los datos se sincronizarán con la entidad *Resultados de precarga de consulta de índice disponibles* en los próximos 15 minutos. Si desea utilizar esta característica, le recomendamos que la active antes de crear cualquier cambio disponible y habilite el trabajo por lotes **Integración de Visibilidad de inventario**.
+> Al igual que con la característica *OnHandMostSpecificBackgroundService*, la característica *OnHandIndexQueryPreloadBackgroundService* solo realiza un seguimiento de los cambios en el inventario disponible que ocurrieron después de activar la característica. Los datos de los productos que no han cambiado desde que activó la característica no se sincronizarán desde la caché del servicio de inventario al entorno de Dataverse. Si la página **Resumen de inventario** no muestra toda la información disponible que espera, vaya a **Gestión del inventario > Tareas periódicas > Integración de Visibilidad de inventario**, deshabilite el trabajo por lotes y vuelva a habilitarlo. Esto hará la inserción inicial y todos los datos se sincronizarán con la entidad *Resultados de precarga de consulta de índice disponibles* en los próximos 15 minutos. Si desea utilizar esta característica, le recomendamos que la active antes de crear cualquier cambio disponible y habilite el trabajo por lotes **Integración de Visibilidad de inventario**.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>Filtre y explore los resúmenes de inventario
 

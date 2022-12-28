@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 3fe21df8be010ace3070ad08ed95f3d3efc7b01d
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752700"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838565"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Problemas conocidos de la fusión de infraestructura de Dynamics 365 Human Resources
 
@@ -43,4 +43,8 @@ Se requieren los siguientes tipos de entorno para poder realizar la migración:
 ## <a name="teams-integration"></a>Integración de Teams
 
 La aplicación de Human Resources existente en Teams se está cambiando actualmente a una solución de Microsoft Power Platform. Para más información, consulte [Aplicación de recursos humanos en Teams](hr-admin-teams-leave-app.md).
+
+## <a name="dual-write-integration"></a>Integración de doble escritura
+
+La doble escritura es una infraestructura lista para usar que proporciona interacción casi en tiempo real entre aplicaciones de interacción con los clientes y aplicaciones de finanzas y operaciones. Si su organización utiliza escritura dual para las integraciones, es posible que se vea afectado por algunos de los problemas que se encontraron. Para obtener más información sobre tablas y problemas de Dataverse, consulte [Tablas de Dataverse](hr-developer-entities.md).
 

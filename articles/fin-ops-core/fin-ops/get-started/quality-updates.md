@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
-ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
+ms.openlocfilehash: 7d8de017c54a13a9935d74d33a57813922c9f823
+ms.sourcegitcommit: 8aee31d6dffabe13969dd5b9de4e0bf95f53e67e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2022
-ms.locfileid: "9805324"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887140"
 ---
 # <a name="proactive-quality-updates"></a>Actualizaciones de calidad proactivas
 
@@ -28,16 +28,24 @@ Esta premisa se ve confirmada por los resultados: menor número de incidentes en
 
 ## <a name="what-you-need-to-know"></a>Lo que necesita saber
 
-- Las actualizaciones de calidad proactivas se aplican mensualmente.
-- Microsoft aplicará actualizaciones de calidad proactivas a cualquier entorno de espacio aislado que esté ejecutando una actualización de servicio que fue [en servicio](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) cuando se crearon las actualizaciones proactivas de calidad.
-- Se permitirán excepciones para las actualizaciones de calidad proactivas para los clientes que están regulados por la Administración de Drogas y Alimentos de los EE. UU. (FDA).
+- Las actualizaciones de calidad proactivas (PQU) se aplican mensualmente.
+- Se permiten excepciones para las actualizaciones de calidad proactivas para los clientes que están regulados solo por la Administración de Drogas y Alimentos de los EE. UU. (FDA).
+- Las actualizaciones de calidad proactivas nunca degradarán el entorno ni actualizarán automáticamente de una versión de actualización del servicio a otra. 
 - Microsoft está determinando cómo se administrarán las actualizaciones de calidad proactivas para entornos regulados y para clientes de nube soberanos y gubernamentales.
-- Las notificaciones relacionadas con actualizaciones de calidad proactivas se publican en el [Centro de mensajes Microsoft 365](https://admin.microsoft.com/AdminPortal/) y en un banner en el proyecto de Microsoft Dynamics Lifecycle Services.
+- Las notificaciones relacionadas con las actualizaciones de calidad proactivas se publican en el [Centro de mensajes de Microsoft 365](https://admin.microsoft.com/AdminPortal/).
 - Cinco días antes de que se aplique una actualización de calidad proactiva a un entorno, se notifica a los clientes que se realizará la actualización.
 - Los clientes no pueden cancelar ni posponer las actualizaciones de calidad proactivas.
 - Las actualizaciones de calidad proactivas se instalan durante la [ventana de mantenimiento planificado](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) del período específco de la región.
 - Las actualizaciones de calidad están diseñadas para tener un bajo riesgo de problemas o regresiones, y esto es compatible con los datos de Microsoft.
 - Microsoft recomienda realizar pruebas específicas para problemas específicos o revisiones específicas relacionadas con una actualización de calidad proactiva.
+- TODOS los sandboxes, excepto aquellos que tienen una excepción con límite de tiempo debido a razones reglamentarias, se incorporarán antes del 7 de enero de 2023.
+- La incorporación de producción para las actualizaciones de calidad proactiva comenzará a partir del 21 de enero de 2023. 
+- La incorporación de producción solo comenzará para los proyectos de Lifecycle Services que tienen sandbox(es) incorporados y que hasta ahora reciben actualizaciones de calidad proactivas con una cadencia regular para todas las versiones de actualización de servicio admitidas. Esto solo se aplica a entornos de clientes a los que no se les ha proporcionado ninguna excepción debido a razones reglamentarias o legales.
+- Para obtener un cronograma completo de actualizaciones de calidad proactivas para entornos de sandbox y producción en el transcurso de 2023, consulte a continuación.
+- Cada actualización de servicio tiene al menos un tren de lanzamiento de PQU en curso o programado para comenzar. Una vez que sus entornos estén incorporados al proceso de PQU, puede recibir una actualización de calidad proactiva programada previamente en todos ellos cuando pase a una actualización de servicio de versión más nueva. Consulte el cronograma para determinar cuándo se programa una PQU para una actualización de servicio si planea actualizar a una versión más reciente de actualización de servicio. 
+
+> [!Note]
+> Los sandboxes y los entornos de producción de prueba de rendimiento estándar (nivel 4), prueba de rendimiento premium (nivel 5) recibirán PQU los fines de semana. 
 
 ## <a name="focus-on-quality-updates"></a>Centrarse en actualizaciones de calidad
 
@@ -75,33 +83,22 @@ Se está implementando un conjunto de cambios de proceso antes de la activación
     > El equipo de comunicaciones de Microsoft está investigando una degradación continua de las herramientas de correo electrónico que impide la entrega de notificaciones por correo electrónico. Por favor continúe monitoreando el Centro de mensajes de Microsoft 365 para mensajes relacionados con la incorporación y notificación.
 
 - **Fail Safe a través de tramos** – La distribución en tramos se utilizará para proteger los cambios de código cuando corresponda en una corrección de errores de actualización de calidad o usar la función existente de distribución en tramos relevante para la corrección. Si se requiere una reserva o desactivar un cambio después de una implementación proactiva, se puede hacer a través del sistema de tramos para evitar más fallas.
-- **Designación de sincronización de sandbox** – Menos del 20 por ciento de los clientes de hoy en día tienen múltiples sandboxes y mantienen un sandbox implementado donde la versión coincide con la producción, para ayudar con la resolución de problemas. Si un cliente está usando un espacio aislado para probar una versión más nueva que su producción, ese espacio aislado recibirá actualizaciones de calidad para la versión más nueva.
+- **Designación de sincronización de sandbox**: la actualización escalonada a un sandbox aislado de elección junto con la producción no es compatible en este momento. Todos los entornos sandbox de nivel 2 y nivel 3 recibirán actualizaciones proactivas al menos 7 días antes del entorno de producción en un proyecto de Lifecycle Services. De nuevo, esto solo se aplica a entornos de clientes a los que no se les ha proporcionado ninguna excepción debido a razones reglamentarias o legales.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>¿Cuál es la hoja de ruta de implementación para las actualizaciones de calidad?
 
-Se espera que la distribución de actualizaciones de calidad proactivas para entornos sandbox comience a fines de septiembre u octubre de 2022 para los clientes de la nube pública de Azure. Los entornos de prueba también comenzarán a recibir una implementación de actualización proactiva en ese momento. En septiembre, se enviará una notificación a cada cliente para informarles sobre el horario previsto para sus entornos. Solo se permitirán excepciones al proceso de distribución actualizado proactivo para los clientes regulados por la FDA. Todavía estamos trabajando en cómo se gestionarán los entornos regulados y los clientes de nube soberanos y gubernamentales.
+La distribución de actualizaciones de calidad proactivas para entornos sandbox comenzó en septiembre de 2022 para los clientes de la nube pública de Azure. Para el 1 de enero de 2023, completaremos la incorporación del 99 % de los sandbox a actualizaciones de calidad proactivas.
 
-Durante el próximo período de seis meses, aumentaremos gradualmente el porcentaje de entornos de espacio aislado que reciben actualizaciones proactivas, hasta que se incluyan todos los entornos designados y se avance hacia la actualización de los entornos de producción. A lo largo del período, realizaremos un seguimiento para garantizar que el proceso de implementación sea fluido y que estemos alcanzando nuestro objetivo de cargas útiles no disruptivas.
+Solo se permiten excepciones al proceso de distribución actualizado proactivo para los clientes regulados por la FDA. Todavía estamos trabajando en cómo se gestionarán los entornos regulados y los clientes de nube soberanos y gubernamentales. 
 
-Debido a que los clientes recibirán regularmente cargas útiles más pequeñas, esperamos que el proceso de mantenerse al día sea más simple. Ajustaremos la frecuencia de implementación de actualizaciones a medida que demostremos la capacidad de ejecutar el proceso sin interrupciones. Este proceso ya está funcionando eficazmente para nuestra plataforma y aplicaciones de Dataverse, y está entregando las mejoras anticipadas en la calidad del servicio. Estamos ansiosos por dar el mismo paso adelante para las aplicaciones de finanzas y operaciones.
+Debido a que los clientes recibirán regularmente cargas útiles más pequeñas, esperamos que el proceso de mantenerse al día sea más simple. Ajustaremos la frecuencia de implementación de actualizaciones a medida que demostremos la capacidad de ejecutar el proceso sin interrupciones. Este proceso ya está funcionando eficazmente para nuestra plataforma y aplicaciones de Dataverse, y está entregando las mejoras anticipadas en la calidad del servicio. Estamos dando el mismo paso adelante para las aplicaciones de finanzas y operaciones.
+
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>¿Cuándo comenzarán las actualizaciones de calidad para los entornos de producción?
-En este momento, las actualizaciones de calidad solo están dirigidas a entornos aislados. Actualizaremos este espacio con una fecha de inicio para entornos de producción cuando tengamos datos y métricas más concretos de actualizaciones proactivas para sandboxes para medir la preparación para la producción.
+Durante los primeros meses de 2023, a partir del 15 de enero, comenzaremos a incorporar entornos de producción para actualizaciones proactivas y aumentaremos gradualmente el porcentaje de entornos de producción que reciben actualizaciones proactivas. Solo nos enfocaremos en un entorno de producción en un proyecto de Lifecycle Services que ya tenga los entornos sandbox integrados para recibir actualizaciones proactivas. Antes de una actualización, los clientes con los entornos de producción que se están incorporando recibirán una notificación a través del centro de mensajes o el banner de Lifecycle Services. Para obtener un cronograma completo de actualizaciones de calidad proactivas para entornos de sandbox y producción en el transcurso de 2023, consulte a continuación.
 
 ## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>¿Cuál es la programación para las actualizaciones de calidad proactivas de espacio aislado?
 Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuáles son las ventanas de mantenimiento planeado por región?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
-
-### <a name="proactive-quality-update-release-10028"></a>Versión de actualización de calidad proactiva: 10.0.28
-**Versión de la aplicación: 10.0.1265.89**  
-**Correspondiente último artículo de KB: 745340**
-
-| Estación | Regiones | Programación completa| Próxima programación de espacio aislado
-|---|---|---|---|
-| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | 15 de septiembre al 18 de septiembre de 2022, 19 de septiembre al 22 de septiembre de 2022 y 7 de octubre al 10 de octubre de 2022 | Del 25 de octubre al 28 de octubre de 2022 |
-| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 25 de septiembre al 28 de septiembre de 2022 y del 7 de octubre al 10 de octubre de 2022 | Del 25 de octubre al 28 de octubre de 2022 |
-| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 26 de septiembre al 29 de septiembre de 2022 y del 7 de octubre al 10 de octubre de 2022 | Del 25 de octubre al 28 de octubre de 2022 |
-| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 28 de septiembre al 1 de octubre de 2022 y del 7 de octubre al 10 de octubre de 2022 | Del 25 de octubre al 28 de octubre de 2022 |
-| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.29
 **Versión de la aplicación: 10.0.1326.70**  
@@ -109,23 +106,83 @@ Para obtener información sobre las horas de oscuridad para cada región, consul
 
 | Estación | Regiones | Programación completa | Próxima programación de espacio aislado|
 |---|---|---|---|
-| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | Del 14 de octubre al 17 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
-| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | Del 15 de octubre al 18 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
-| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | Del 16 de octubre al 19 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 13 de noviembre al 16 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
-| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | Del 17 de octubre al 20 de octubre de 2022, del 2 de noviembre al 5 de noviembre de 2022, del 15 de noviembre al 18 de noviembre de 2022 | Del 5 de diciembre al 8 de diciembre|
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | 14 de octubre al 17 de octubre de 2022, 2 de noviembre al 5 de noviembre de 2022, 13 de noviembre al 16 de noviembre de 2022, 5 de diciembre al 8 de diciembre de 2022 | Del 2 al 5 de enero de 2023 |
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | 15 de octubre al 18 de octubre de 2022, 2 de noviembre al 5 de noviembre de 2022, 13 de noviembre al 16 de noviembre de 2022, 5 de diciembre al 8 de diciembre de 2022 | Del 2 al 5 de enero de 2023 |
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, oeste de Europa, este de EE. UU., centro de EAU | 16 de octubre al 19 de octubre de 2022, 2 de noviembre al 5 de noviembre de 2022, 13 de noviembre al 16 de noviembre de 2022, 5 de diciembre al 8 de diciembre de 2022 | Del 2 al 5 de enero de 2023 |
+| Estación 4 | Norte de Europa, centro de EE. UU., oeste de EE. UU. | 17 de octubre al 20 de octubre de 2022, 2 de noviembre al 5 de noviembre de 2022, 15 de noviembre al 18 de noviembre de 2022, 5 de diciembre al 8 de diciembre de 2022 | Del 2 al 5 de enero de 2023 |
 | Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Versión de actualización de calidad proactiva: 10.0.30
 **Versión de la aplicación: 10.0.1362.77**
 **Correspondiente último artículo de KB: 767597**
 
-| Estación | Regiones | Próxima programación de espacio aislado |
+| Estación | Regiones | Programación completa | Próxima programación de espacio aislado |
+|---|---|---|---|
+| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | 1 de diciembre al 4 de diciembre de 2022 |  13 de diciembre al 16 de diciembre de 2022 | 
+| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | 2 de diciembre al 5 de diciembre de 2022 |  13 de diciembre al 16 de diciembre de 2022 | 
+| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, norte de Europa, este de EE. UU., centro de EAU | 3 de diciembre al 6 de diciembre de 2022 |  13 de diciembre al 16 de diciembre de 2022 | 
+| Estación 4 | Oeste de Europa, centro de EE. UU., oeste de EE. UU. | 4 de diciembre al 7 de diciembre de 2022 |  13 de diciembre al 16 de diciembre de 2022 | 
+| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar | Sin programar |
+
+### <a name="proactive-quality-update-calendar-year-2023-schedule"></a><a name="schedule"></a> Calendario proactivo de actualización de calidad calendario año 2023
+
+#### <a name="stations-to-region-mapping"></a><a name="Stations-Regions"></a> Mapeo de estaciones a regiones
+
+| Estaciones | Regiones |
+|---|---|
+| Estación 1 | Por determinar |
+| Estación 2 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza |
+| Estación 3 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia |
+| Estación 4 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, norte de Europa, este de EE. UU., centro de EAU |
+| Estación 5 | Oeste de Europa, centro de EE. UU., oeste de EE. UU. |
+| Estación 6 | DoD, Government Community Cloud (GCC), China |
+
+
+> [!IMPORTANT]
+> Este es un calendario de alto nivel para el año 2023. Para obtener un cronograma más concreto, consulte el ejemplo a continuación para la versión 2 del 10.0.30 de enero. El horario exacto y la versión de la aplicación se actualizarán 7 días antes del inicio de un tren de actualización de calidad.
+
+> [!Note]
+> Solo los entornos de producción integrados recibirán la actualización para el tren 10.0.30 Release-2, los entornos integrados recibirán una comunicación explícita.
+
+| Tren de actualización de calidad | Corte de versión | Duración del tren |
 |---|---|---|
-| Estación 1 | Centro de Canadá, este de Canadá, centro de Francia, centro de la India, este de Noruega, oeste de Suiza | 1 de diciembre al 4 de diciembre de 2022 |
-| Estación 2 | Sur de Francia, sur de la India, oeste de Noruega, norte de Suiza, norte de Sudáfrica, este de Australia, sur de Reino Unido, norte de EAU, este de Japón, sudeste de Australia, sudeste de Asia | 2 de diciembre al 5 de diciembre de 2022 |
-| Estación 3 | Este de Asia, oeste de Reino Unido, oeste de Japón, sur de Brasil, norte de Europa, este de EE. UU., centro de EAU | 3 de diciembre al 6 de diciembre de 2022 |
-| Estación 4 | Oeste de Europa, centro de EE. UU., oeste de EE. UU. | 4 de diciembre al 7 de diciembre de 2022 |
-| Estación 5 | DoD, Government Community Cloud (GCC), China | Sin programar |
+| Versión 10.0.30-2 | 16 de diciembre de 2022 | Del 2 al 29 de enero de 2023 |
+| Versión 10.0.30-3 | 13 de enero de 2023 | 30 de enero-25 de febrero de 2023 |
+| Versión 10.0.30-4 | 24 de febrero de 2023 | 6 de marzo - 8 de abril de 2023 |
+| Versión 10.0.31-1 | 3 de febrero de 2023 | 13 de febrero de 2023 al 18 de marzo de 2023|
+| Versión 10.0.31-2 | 3 de marzo de 2023 | 13 de marzo - 15 de abril de 2023|
+| Versión 10.0.31-3 | 14 de abril de 2023 | 24 de abril de 2023 al 27 de mayo de 2023|
+| Versión 10.0.32-1 | 31 de marzo de 2023 | 10 de abril de 2023 al 13 de mayo de 2023|
+| Versión 10.0.32-2 | 28 de abril de 2023 | 8 de mayo de 2023 al 10 de junio de 2023|
+| Versión 10.0.32-3 | 26 de mayo de 2023 | 5 de junio de 2023 al 8 de julio de 2023|
+| Versión 10.0.33-1 | 28 de abril de 2023 | 8 de mayo de 2023 al 10 de junio de 2023|
+| Versión 10.0.33-2 | 26 de mayo de 2023 | 5 de junio de 2023 al 8 de julio de 2023|
+| Versión 10.0.33-3 | 14 de julio de 2023 | 24 de julio de 2023-26 de agosto de 2023|
+| Versión 10.0.34-1 | 23 de junio de 2023 | 3 de julio de 2023-5 de agosto de 2023|
+| Versión 10.0.34-2 | 21 de julio de 2023 | 31 de julio-2 de septiembre de 2023|
+| Versión 10.0.34-3 | 1 de septiembre de 2023 | Del 11 de septiembre al 14 de octubre de 2023|
+| Versión 10.0.35-1 | 28 de julio de 2023 | 7 de agosto - 9 de septiembre de 2023|
+| Versión 10.0.35-2 | 25 de agosto de 2023 | Del 4 de septiembre al 7 de octubre de 2023|
+| Versión 10.0.35-3 | 20 de octubre de 2023 | 30 de octubre de 2023-16 de diciembre de 2023|
+| Versión 10.0.36-1 | 29 de septiembre de 2023 | 9 de octubre de 2023-11 de noviembre de 2023|
+| Versión 10.0.36-2 | 27 de octubre de 2023 | 6 de noviembre de 2023-16 de diciembre de 2023|
+| Versión 10.0.36-3 | 12 de enero de 2024 | 22 de enero de 2023-24 de febrero de 2024|
+| Versión 10.0.37-1 | 3 de noviembre de 2023 | 13 de noviembre de 2023 al 6 de enero de 2024|
+| Versión 10.0.37-2 | 30 de diciembre de 2023 | 8 de enero-10 de febrero de 2024|
+| Versión 10.0.37-3 | 27 de enero de 2024 | 5 de febrero de 2024 al 9 de marzo de 2024|
+| Versión 10.0.37-4 | 23 de febrero de 2024 | 4 de marzo - 6 de abril de 2024|
+
+### <a name="proactive-quality-update-upcoming-10030-release-2-train-schedule"></a><a name="schedule"></a> Programación de tren de actualización de calidad proactiva próxima versión 10.0.30-2
+**Versión de la aplicación: 10.0.1362.99**
+
+| Estaciones | Próxima programación de espacio aislado | Programación de producción próxima |
+|---|---|---|
+| Estación 1 | No disponible | No disponible |
+| Estación 2 | Del 2 al 5 de enero de 2023 | Del 21 al 22 de enero de 2023 |
+| Estación 3 | Del 3 al 6 de enero de 2023 | Del 28 al 29 de enero de 2023 |
+| Estación 4 | Del 9 al 12 de enero de 2023 | No disponible |
+| Estación 5 | Del 16 al 19 de enero de 2023 | No disponible |
+| Estación 6 | No disponible | No disponible |
 
 > [!IMPORTANT] 
 > Con cinco días de anticipación, Microsoft actualizará la programación anterior y enviará una notificación al conjunto de entornos que están programados para recibir estas actualizaciones de calidad. La programación anterior se aplica solo a los entornos que han sido notificados sobre una próxima actualización. Para obtener información sobre las horas de oscuridad para cada región, consulte [¿Cuáles son las ventanas de mantenimiento planeado por región?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

@@ -2,7 +2,7 @@
 title: Migración de clientes de Dynamics 365 Human Resources a la infraestructura de finanzas y operaciones
 description: Este artículo describe la migración de clientes de Microsoft Dynamics 365 Human Resources a la infraestructura de finanzas y operaciones.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760372"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831730"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Migración de clientes de Dynamics 365 Human Resources
 
@@ -43,7 +43,7 @@ La migración de clientes es una "migración mediante lift-and-shift" (movimient
  - Copie el entorno de Dataverse existente, que está vinculado a la aplicación de Human Resources independiente, al entorno que creó en el paso anterior.
 
 > [!NOTE]
-> Cuando agregue una base de datos, asegúrese de que la opción **Habilitar aplicaciones de Dynamics 365** esté configurada en **Sí**. Para obtener información detallada, consulte [Preparar un entorno de Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment)
+> Cuando agregue una base de datos, asegúrese de que la opción **Habilitar aplicaciones de Dynamics 365** esté configurada en **Sí**. Para obtener información detallada, consulte [Preparar un entorno de Power Platform](hr-cust-migration.md#prepare-a-power-platform-environment).
 
 ### <a name="dataverse-capacity"></a>Capacidad de Dataverse
 
@@ -67,7 +67,7 @@ Para crear un proyecto nuevo, siga estos pasos.
 7. Seleccione la casilla de verificación para aceptar los términos y condiciones.
 8. Seleccione **Crear**.
 
-Una vez que haya creado un nuevo proyecto de Lifecycle Services, siga estos pasos para instalarlo y configurarlo.
+Una vez que haya creado un nuevo proyecto de Lifecycle Services, siga estos pasos para instalar y configurar el proyecto.
 
 1. Seleccione **Incorporación de proyecto** para completar la incorporación del proyecto. Para obtener más información, consulte [Incorporación de proyecto](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md).
 
@@ -158,6 +158,7 @@ Una vez que haya terminado de migrar y validar un entorno de espacio aislado, si
 
 - El estimador de suscripciones debe haberse completado.
 - La [valoración de preparación](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) en vivo debe haberse completado.
+- El usuario que inicia la migración de producción en Lifecycle Services debe tener una función de administrador del sistema en Power Platform. 
 
 #### <a name="migrate-the-production-environment"></a>Migrar el entorno de producción
 

@@ -2,7 +2,7 @@
 title: Habilitar varios modos de recogida de la entrega para pedidos de clientes
 description: Este artículo explica la funcionalidad de Microsoft Dynamics 365 Commerce que le permite crear pedidos de clientes para recoger en una tienda.
 author: hhainesms
-ms.date: 06/07/2021
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,29 +12,29 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e4d8883b3dc1c4a0e12bcb00b6441f76d73da92e
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858917"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831594"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar varios modos de recogida de la entrega para pedidos de clientes
 
 [!include [banner](includes/banner.md)]
 
 
-En Microsoft Dynamics 365 Commerce, versión 10.0.16 y posteriores, las organizaciones pueden definir múltiples modos de entrega entre los que los compradores o asociados de ventas pueden elegir cuando crean un pedido que se recogerá en una tienda. De esta manera, las organizaciones pueden brindar múltiples opciones de recolección a sus compradores. Por ejemplo, muchos minoristas ahora ofrecen a los compradores la opción de recoger sus pedidos en la tienda o en un punto de entrega. Commerce admite la configuración de estos diferentes modos de recogida de la entrega. Los usuarios pueden aprovecharlos cuando crean pedidos de clientes en cualquier canal de Commerce compatible (comercio electrónico, centro de llamadas o tienda).
+En Microsoft Dynamics 365 Commerce, las organizaciones pueden definir múltiples modos de entrega entre los que los compradores o asociados de ventas pueden elegir cuando crean un pedido que se recogerá en una tienda. De esta manera, las organizaciones pueden brindar múltiples opciones de recolección a sus compradores. Por ejemplo, muchos minoristas ahora ofrecen a los compradores la opción de recoger sus pedidos en la tienda o en un punto de entrega. Commerce admite la configuración de estos diferentes modos de recogida de la entrega. Los usuarios pueden aprovecharlos cuando crean pedidos de clientes en cualquier canal de Commerce compatible (comercio electrónico, centro de llamadas o tienda).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Habilitar y configurar varios modos de recogida de la entrega
 
-Para usar esta funcionalidad, active la característica **Compatibilidad para múltiples modos de recogida de la entrega** en el espacio de trabajo **Administración de características** en la sede central de Commerce. Después de activar la función, se requiere una configuración adicional.
+La característica **Compatibilidad para múltiples modos de recogida de la entrega** en el espacio de trabajo **Administración de características** en Commerce Headquarters se ha convertido en obligatoria y se debe habilitar en el entorno.
 
-En la versión 10.0.15 y anteriores de Commerce, las organizaciones pueden definir solo un modo de entrega como el modo de entrega de recogida designado. Esta definición se realiza en la página **Parámetros de Commerce**. En la versión 10.0.16 y posteriores, cuando activa la característica **Compatibilidad para múltipledoos de entrega de recogida**, el modo de entrega que se definió previamente como el modo de entrega de recogida en la página **Parámetros de Commerce** se copia automáticamente en la nueva configuración para los modos de recogida de la entrega.
+Si definió anteriormente un modo de entrega con retiro en la página **Parámetros de comercio**, ese modo aparece en la configuración actual para los modos de entrega con retiro.
 
 ![Modos de recogida de la entrega en la página de parámetros de Commerce.](media/multiplepickupparameter.png)
 
-Después de activar la características **Compatibilidad para múltiples modos de recogida de la entrega**, puede definir varios modos de recogida de la entrega en la cuadrícula **Modo de recogida de la entrega** la ficha desplegable **Modos de entrega** en la pestaña **Pedidos de clientes** de la página **Parámetros de Commerce**.
+Puede definir varios modos de entrega de recogida en la cuadrícula **Modo de entrega de recogida** en **Parámetros de Commerce** >  pestaña **Pedidos de clientes** > ficha desplegable **Modos de entrega**.  
 
 Los campos **Modo de realización de la entrega** y **Modo electrónico de entrega** y la opción **Mostrar solo opciones con transportista para pedidos de envío**, se han reubicado en esta ficha desplegable.
 
@@ -47,8 +47,6 @@ Después de definir los modos de recogida de la entrega adicionales, agréguelos
 > [!NOTE]
 > Aparte del modo de entrega de recogida existente que se copia en la cuadrícula **Modo de recogida de la entrega** cuando activa la característica **Compatibilidad para múltiples modos de recogida de la entrega**, para cada configuración de modo de entrega de recogida adicional que cree, debe configurar nuevos modos de entrega. Cuando agrega modos de entrega a la cuadrícula **Modo de recogida de la entrega**, Commerce valida si alguna línea de ventas abierta activa ya los usa. Si se encuentran líneas de venta abiertas, recibirá un mensaje de error. Los modos de entrega no se consideran modos de recogida de la entrega hasta que se hayan cerrado todas las líneas de venta abiertas que los utilizan (ya sea facturadas o canceladas).
 
-> [!IMPORTANT]
-> Después de definir más de un modo de entrega de recogida en la página **Parámetros de Commerce**, la característica **Compatibilidad para múltiples modos de recogida de la entrega** se vuelve obligatoria y ya no se puede desactivar. Si debe desactivar la característica, elimine todos los modos de recogida de la entrega excepto uno de la cuadrícula **Modo de recogida de entrega**. Cuando solo se define un modo de entrega de recogida, la característica ya se considera obligatoria y se puede desactivar.
 
 ### <a name="e-commerce-site-configurations"></a>Configuraciones del sitio de comercio electrónico
 

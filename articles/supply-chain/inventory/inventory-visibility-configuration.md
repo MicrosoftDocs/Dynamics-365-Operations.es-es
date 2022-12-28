@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765715"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850033"
 ---
 # <a name="configure-inventory-visibility"></a>Configurar Inventory Visibility
 
@@ -32,6 +32,7 @@ Antes de comenzar a trabajar con Visibilidad de inventario, debe completar la si
 - [Configuración de partición](#partition-configuration)
 - [Configuración de jerarquía de índice de productos](#index-configuration)
 - [Configuración de reserva (opcional)](#reservation-configuration)
+- [Configuración de precarga de consultas (opcional)](#query-preload-configuration)
 - [Muestra de configuración predeterminada](#default-configuration-sample)
 
 ## <a name="prerequisites"></a>Requisitos previos
@@ -40,7 +41,7 @@ Antes de comenzar, instale y configure el complemento de visibilidad de inventar
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>La página de configuración de la aplicación Inventory Visibility
 
-En Power Apps, la página **Configuración** de la [aplicación Visibilidad de inventario](inventory-visibility-power-platform.md) le ayuda a configurar la configuración disponible y la configuración de reserva flexible. Una vez instalado el complemento, la configuración predeterminada incluye el valor de Microsoft Dynamics 365 Supply Chain Management (el origen de datos `fno`). Puede revisar la configuración predeterminada. Además, según sus requisitos comerciales y los requisitos de registro de inventario de su sistema externo, puede modificar la configuración para estandarizar la forma en que los cambios de inventario se pueden publicar, organizar y consultar en los múltiples sistemas. Las secciones restantes de este artículo explican cómo utilizar cada parte de la página **Configuración**.
+En Power Apps, la página **Configuración** de la [aplicación Visibilidad de inventario](inventory-visibility-power-platform.md) le ayuda a configurar la configuración disponible y la configuración de reserva flexible. Una vez instalado el complemento, la configuración predeterminada incluye el valor de Microsoft Dynamics 365 Supply Chain Management (el origen de datos `fno`). Puede revisar la configuración predeterminada. Además, según sus requisitos comerciales y los requisitos de registro de inventario de su sistema externo, puede modificar la configuración para estandarizar la forma en que los cambios de inventario se pueden publicar, organizar y consultar en los múltiples sistemas. Las secciones restantes del artículo explican cómo utilizar cada parte de la página **Configuración**.
 
 Una vez completada la configuración, asegúrese de seleccionar **Actualizar configuración** en la aplicación.
 
@@ -52,10 +53,13 @@ El complemento de visibilidad de inventario agrega varias funciones nuevas a su 
 |---|---|
 | *OnHandReservation* | Esta característica le permite crear reservas, consumir reservas o anular la reserva de cantidades de inventario especificadas mediante el uso de Visibilidad de inventario. Para obtener más información, consulte [Reservas de Visibilidad de inventario](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Esta característica proporciona un resumen de inventario de productos, junto con todas las dimensiones. Los datos de resumen de inventario se sincronizarán periódicamente desde Inventory Visibility. La frecuencia de sincronización predeterminada es una vez cada 15 minutos y se puede configurar hasta una vez cada 5 minutos. Para obtener más información, consulte [resumen de inventario](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Esta característica hace posible precargar consultas disponibles de Visibilidad de inventario para armar listas disponibles con dimensiones preseleccionadas. La frecuencia de sincronización predeterminada es una vez cada 15 minutos. Para más información, vea [Precargar una consulta disponible optimizada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnHandIndexQueryPreloadBackgroundService* | Esta función obtiene y almacena periódicamente un conjunto de datos de resumen de inventario disponible en función de sus dimensiones preconfiguradas. Proporciona un resumen de inventario que solo incluye las dimensiones que son relevantes para su negocio diario y que es compatible con artículos habilitados para procesos de gestión de almacenes (WMS). Para obtener más información, consulte [Activar y configurar consultas disponibles precargadas](#query-preload-configuration) y [Precargar una consulta disponible simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Esta característica opcional habilita las características programa de cambio de inventario disponible y neto no comprometido (NNC). Para obtener más información, consulte [Programación de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md). |
 | *Asignación* | Esta característica opcional permite que Visibilidad de inventario tenga la capacidad de protección de inventario (ring fencing) y control de sobreventa. Para más información, vea [Asignación de inventario de Inventory Visibility](inventory-visibility-allocation.md). |
 | *Habilitar artículos de almacén en Visibilidad de inventario* | Esta característica opcional permite que la visibilidad del inventario admita artículos que están habilitados para procesos de gestión de almacenes (WMS). Para obtener más información, consulte [Compatibilidad de visibilidad de inventario para artículos WMS](inventory-visibility-whs-support.md). |
+
+> [!IMPORTANT]
+> Le recomendamos que utilice la función *OnHandIndexQueryPreloadBackgroundService* o la función *OnHandMostSpecificBackgroundService*, no ambas. Habilitar ambas características afectará el rendimiento.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Buscar el punto de conexión de servicio
 
@@ -178,6 +182,15 @@ Si su origen de datos es Supply Chain Management, no es necesario que vuelva a c
 1. Inicie sesión en su entorno de Power Apps y abra **Visibilidad de inventario**.
 1. Abra la página **Configuración**.
 1. En la pestaña **Fuente de datos**, seleccione la fuente de datos para agregar medidas físicas (por ejemplo, la fuente de datos `ecommerce`). Entonces, en la sección **Medidas Físicas**, seleccione **Agregar** y especifique el nombre de la medida (por ejemplo, `Returned` si desea registrar las cantidades devueltas en esta fuente de datos para Visibilidad de inventario). Guarde los cambios.
+
+### <a name="extended-dimensions"></a>Dimensiones extendidas
+
+Los clientes que deseen utilizar orígenes de datos externos en el origen de datos pueden aprovechar la extensibilidad que ofrece Dynamics 365 creando [Extensiones de clase](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) para las clases `InventOnHandChangeEventDimensionSet` y `InventInventoryDataServiceBatchJobTask`.
+
+Asegúrese de sincronizar con la base de datos después de crear las extensiones para que los campos personalizados se agreguen en la tabla `InventSum`. Luego, puede consultar la sección Dimensiones anteriormente en este artículo para asignar sus dimensiones personalizadas a cualquiera de las ocho dimensiones extendidas en `BaseDimensions` en el inventario.
+
+> [!NOTE] 
+> Para obtener detalles adicionales sobre la creación de extensiones, consulte [Página de inicio de extensibilidad](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
 ### <a name="calculated-measures"></a>Medidas calculadas
 
@@ -496,6 +509,30 @@ Una secuencia de dimensión válida debe seguir estrictamente la jerarquía de r
 ## <a name="available-to-promise-configuration-optional"></a>Configuración de neto no comprometido (opcional)
 
 Puede configurar la visibilidad del inventario para que le permita programar futuros cambios de inventario disponible y calcular las cantidades de neto no comprometido (NNC). El NNC es la cantidad de un artículo que esté disponible y se pueda prometer a un cliente en el siguiente periodo. El uso de este cálculo puede aumentar considerablemente la capacidad de entrega de su pedido. Para usar esta función, debe habilitarla en la pestaña **Administración de características** y luego configurarla en la pestaña **Ajustes de NNC**. Para más información, ver [Planes de cambio de visibilidad de inventario disponible y neto no comprometido](inventory-visibility-available-to-promise.md).
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Consulte Activar y configurar consultas disponibles precargadas para obtener instrucciones (opcional)
+
+La visibilidad de inventario puede obtener y almacenar periódicamente un conjunto de datos de resumen de inventario disponible en función de sus dimensiones preconfiguradas. Esto proporciona las prestaciones siguientes:
+
+- Una vista más limpia que almacena un resumen de inventario que solo incluye las dimensiones que son relevantes para su negocio diario.
+- Un resumen de inventario que es compatible con artículos habilitados para procesos de gestión de almacenes (WMS).
+
+Consulte [Precargar una consulta disponible simplificada](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) para obtener más información sobre cómo trabajar con esta función después de configurarla.
+
+> [!IMPORTANT]
+> Le recomendamos que utilice la función *OnHandIndexQueryPreloadBackgroundService* o la función *OnHandMostSpecificBackgroundService*, no ambas. Habilitar ambas características afectará el rendimiento.
+
+Siga estos pasos para configurar la característica:
+
+1. Inicie sesión en la aplicación Power App de visibilidad de inventario.
+1. Vaya a **Configuración \> Administración de características y configuración**.
+1. Si la característica *OnHandIndexQueryPreloadBackgroundService* ya está habilitada, le recomendamos que la desactive por ahora porque el proceso de limpieza puede tardar mucho tiempo en completarse. Vovlerá a activarla de nuevo más adelante en este procedimiento.
+1. Abra la pestaña **Configuración de precarga**.
+1. En la sección **Paso 1: Limpiar almacenamiento previo a la carga**, seleccione **Limpiar** para limpiar la base de datos y prepararla para aceptar su nueva configuración de agrupación.
+1. En la sección **Paso 2: Configurar Agrupar por valores**, en el campo **Agrupar resultado por**, ingrese una lista de nombres de campo separadas por coma para agrupar los resultados de su consulta. Una vez que tenga datos en la base de datos de almacenamiento de precarga, no podrá cambiar esta configuración hasta que limpie la base de datos, como se describe en el paso anterior.
+1. Vaya a **Configuración \> Administración de características y configuración**.
+1. Active la característica *OnHandIndexQueryPreloadBackgroundService*.
+1. Seleccione **Actualizar configuración** en la esquina superior derecha de la página **Configuración** para confirmar los cambios.
 
 ## <a name="complete-and-update-the-configuration"></a>Completar y actualizar la configuración
 

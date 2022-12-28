@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115036"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838401"
 ---
 # <a name="configure-google-pay-with-adyen"></a>Configurar Google Pay con Adyen
 
@@ -90,11 +90,6 @@ Para configurar una tienda en línea de Commerce para usar Google Pay, siga esto
 
 1. Una vez que haya terminado de configurar las propiedades del conector, ejecute el trabajo de programación de la distribución **1070 (Configuración del canal)**.
 
-## <a name="configure-commerce-pos-for-google-pay"></a>Configurar PDV de Commerce para Google Pay
-
-La configuración de PDV utiliza la configuración del campo **Servicio EFT** del perfil de hardware para Dynamics 365 Payment Connector para Adyen. Para obtener información sobre cómo configurar el servicio de transferencia electrónica de fondos (EFT) para Dynamics 365 Payment Connector para Adyen en Commerce headquarters, consulte [Configurar una sección del perfil de hardware de Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-La asignación de procesador para el conector Adyen captura los tipos de tarjetas de cartera que usa Google Pay en el terminal del PDV.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>Utilizar el módulo de pago express con Google Pay
 
@@ -223,6 +218,12 @@ El orden en que se muestran los métodos de entrega en el módulo de pago expré
 El módulo de finalización de pago también utiliza el módulo de opciones de entrega cuando los modos de entrega se representen durante la finalización del pago. Para obtener más información, consulte [Módulo de opciones de entrega](../delivery-options-module.md).
 
 Los modos de entrega se muestran a medida que se agregan a la lista **Modos de entrega** en la tienda en línea.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>Configurar PDV de Commerce para Google Pay
+
+La configuración de PDV utiliza la configuración del campo **Servicio EFT** del perfil de hardware para Dynamics 365 Payment Connector para Adyen. Para obtener información sobre cómo configurar el servicio de transferencia electrónica de fondos (EFT) para Dynamics 365 Payment Connector para Adyen en Commerce headquarters, consulte [Configurar un perfil de hardware de Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+La asignación de procesador para el conector Adyen captura los tipos de tarjetas de cartera que usa Google Pay en el terminal del PDV.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

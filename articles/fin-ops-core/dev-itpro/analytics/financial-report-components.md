@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
-ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
+ms.openlocfilehash: 180b3c64b9eb506f162071a67b1fa9b728a569ce
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802725"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831620"
 ---
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
@@ -65,7 +65,7 @@ Para abrir un bloque de creación bloqueado, abra el bloque de creación y haga 
 
 ## <a name="building-block-groups"></a>Grupos de bloque de creación
 
-Los bloques de creación son las definiciones de la filas, las definiciones de las columnas, las definiciones de los organigramas y las definiciones de los informes que se crean para un informe. Los grupos de bloques de creación son colecciones de las definiciones y de los conjuntos de dimensiones.
+Los bloques de creación son las definiciones de la filas, las definiciones de las columnas, las definiciones de los organigramas y las definiciones de los informes que se crean para un informe. Los grupos de bloques de creación son colecciones de las definiciones y de los conjuntos de valores.
 
 ### <a name="view-a-building-block-group"></a>Ver un grupo de bloques de creación
 
@@ -78,17 +78,17 @@ Puede ver todos los bloques de creación asignados a un grupo de bloques de crea
 
 ### <a name="export-a-building-block-group"></a>Exportar un grupo de bloques de creación
 
-Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones. Report Designer incluye los conjuntos de valores y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 
 1. En Report designer, en el menú **Compañía**, haga clic en **Grupos de bloques de creación**.
 2. En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que se va a exportar y, a continuación, haga clic en **Exportar**.
 3. En el cuadro de diálogo **Exportar**, seleccione las definiciones del informe que desea exportar:
 
     - Para exportar todas las definiciones de informes y los loques de creación asociados, haga clic en **Seleccionar todo**.
-    - Para exportar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, haga clic en la pestaña apropiada y, a continuación, seleccione los artículos que se exportarán. Mantenga presionada la tecla CTRL para seleccionar varios elementos de una pestaña.
+    - Para exportar informes, filas, columnas, organigramas o conjuntos de valores específicos, haga clic en la pestaña apropiada y, a continuación, seleccione los artículos que se exportarán. Mantenga presionada la tecla CTRL para seleccionar varios elementos de una pestaña.
 
     > [!NOTE]
-    > Cuando se seleccionan informes para exportar, se seleccionan las filas, las columnas, los organigramas y los grupos de dimensión asociados.
+    > Cuando se seleccionan informes para exportar, se seleccionan las filas, las columnas, los organigramas y los grupos de valores asociados.
 
 4. Cuando haya terminado de seleccionar artículos para exportar, haga clic en **Exportar**.
 5. En el cuadro de diálogo **Guardar como**, seleccione una ubicación a la que desea exportar el grupo de bloques de creación.
@@ -97,7 +97,7 @@ Puede exportar un grupo de bloques de creación o bloques de creación de inform
 
 ### <a name="import-a-building-block-group"></a> Importar un grupo de bloques de creación
 
-Puede importar un grupo de bloques de creación en un grupo de bloques de creación existente. Todos los grupos de bloques de creación conservan sus referencias de empresa y estilos de fuente originales e incluyen los conjuntos de dimensiones pertinentes.
+Puede importar un grupo de bloques de creación en un grupo de bloques de creación existente. Todos los grupos de bloques de creación conservan sus referencias de empresa y estilos de fuente originales e incluyen los conjuntos de valores pertinentes.
 
 1. En Report designer, en el menú **Compañía**, haga clic en **Grupos de bloques de creación**.
 2. En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo en el que desea importar un grupo de bloques de creación y haga clic en **Importar**.
@@ -105,7 +105,7 @@ Puede importar un grupo de bloques de creación en un grupo de bloques de creaci
 4. En el cuadro de diálogo **Importar**, seleccione las definiciones del informe que desea importar:
 
     - Para importar todas las definiciones de informes y los bloques de creación asociados, haga clic en **Seleccionar todo**.
-    - Para importar informes, filas, columnas, organigramas o conjuntos de dimensiones específicos, seleccione los informes, filas, columnas, orgnaigramas o conjuntos de dimensiones que desea importar.
+    - Para importar informes, filas, columnas, organigramas o conjuntos de valores específicos, seleccione los informes, filas, columnas, orgnaigramas o conjuntos de valores que desea importar.
 
 5. Cuando haya terminado de seleccionar artículos para importar, haga clic en **Importar**.
 

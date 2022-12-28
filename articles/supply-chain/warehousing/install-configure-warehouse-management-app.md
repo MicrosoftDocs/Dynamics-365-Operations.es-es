@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714772"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838482"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar y conectar la aplicación móvil Warehouse Management
 
@@ -58,10 +58,10 @@ La forma más sencilla de instalar la aplicación en un solo dispositivo es inst
 
 Como alternativa a la instalación desde una tienda de aplicaciones, puede descargar la aplicación desde Microsoft App Center. El App Center proporciona paquetes instalables que puede descargar. Además de la versión actual, App Center también le permite descargar versiones anteriores y puede proporcionar versiones de vista previa con las próximas funciones que puede probar. Para descargar versiones actuales, anteriores o de vista previa de la aplicación móvil Warehouse Management desde Microsoft App Center, utilice uno de los siguientes enlaces:
 
-- **Windows (UWP):** [Gestión de almacenes (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Gestión de almacenes (Windows)](https://aka.ms/wma-windows-official-release)  
     Para obtener instrucciones sobre cómo instalar un paquete descargado en un dispositivo Windows y luego configurar los certificados necesarios, consulte [Instalar una compilación desde App Center](/appcenter/distribution/installation).
 
-- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Warehouse Management (Android)](https://aka.ms/wma-android-official-release)  
     Si descarga una versión en vista previa, se requieren algunos pasos adicionales para instalarla. Para obtener más detalles, consulte [Probar aplicaciones Android](/appcenter/distribution/testers/testing-android).
 
 Para obtener información sobre cómo instalar una compilación descargada del App Center, consulte [Instalar una compilación](/appcenter/distribution/installation).

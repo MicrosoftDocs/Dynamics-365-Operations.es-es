@@ -2,23 +2,23 @@
 title: Revalorización bancaria de divisa extranjera
 description: Este artículo proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Incluye información sobre la configuración, la ejecución del proceso, el cálculo para el proceso, y la inversión de transacciones de revalorización.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151443"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887270"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Revalorización bancaria de divisa extranjera
 
@@ -39,17 +39,8 @@ Para poder ejecutar el proceso de revalorización, se requiere la siguiente conf
 - En la página **Libro mayor**, especifique el tipo de cambio. Si no se define un tipo de cambio en la cuenta principal, se va a utilizar este tipo de cambio durante la revalorización de divisa extranjera.
 - En la página **Libro mayor**, especifique las cuentas de beneficio realizado, pérdida realizada, beneficio no realizado y pérdida no realizada para la revalorización de divisa. Se utilizan las cuentas de beneficio realizado y de pérdida realizada cuando se liquiden las transacciones de los clientes y los proveedores. Las cuentas de beneficio no realizado y pérdidas no realizadas se usan para revalorizar transacciones abiertas y cuentas principales de contabilidad general.
 - En la página **Cuentas de revalorización de divisa**, seleccione cuentas de revalorización de divisa diferentes para cada divisa y empresa. Si no se define ninguna cuenta, se usan las cuentas de la página **Libro mayor**.
+- En la página **Parámetros de gestión de efectivo y bancos**, agregue una secuencia numérica para la revalorización de divisa extranjera en la pestaña **Secuencias numéricas**.
 
-## <a name="enable-foreign-currency-revaluation"></a>Active revalorización de divisa extranjera
-
-Debe activar la característica de la revalorización de divisa extranjera del banco antes de poder procesar revalorizaciones de divisa extranjera.
-
-1. Vaya a **Gestión de efectivo y bancos \> Configurar \> Parámetros de gestión de efectivo y bancos**.
-2. En la pestaña **General** , bajo **Revalorización de divisa extranjera**, establezca la opción **Activar revalorización bancaria** en **Sí** para activar la función para la entidad jurídica actual. 
-3. En la pestaña **Secuencias numéricas** , agregue una secuencia numérica para la revalorización de divisa extranjera.
-4. Actualice el explorador para ver **Revalorización de divisa extranjera** en la sección **Tareas periódicas** de la página de área.
-
-Debe activar la función para cada entidad jurídica que utiliza la revalorización de divisa extranjera. Si tiene asignado el rol de administrador del sistema o el rol de administrador de características, puede eliminar este paso habilitando la característica denominada **Habilitar la revalorización del banco sin un parámetro** en el área de trabajo **Administración de características**.
 
 > [!NOTE]
 > Si su entidad jurídica usa un ruso, un polaco, o un país/húngaro un código de región, puede hacer ya la revalorización de divisa extranjera del banco. No podrá utilizar la revalorización de divisa extranjera usada por otros países o regiones.

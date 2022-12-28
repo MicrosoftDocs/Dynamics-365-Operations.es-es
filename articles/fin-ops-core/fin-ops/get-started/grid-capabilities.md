@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405475"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852394"
 ---
 # <a name="grid-capabilities"></a>Funcionalidades de cuadrícula
 
@@ -225,6 +225,7 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 ### <a name="open-issues"></a>Problemas abiertos
 - Después de habilitar la característica **Nuevo control de cuadrícula**, algunas páginas continuarán utilizando el control de cuadrícula existente. Esto ocurrirá en las siguientes situaciones:
  
+    - [Resuelto] Problema 762533: error inesperado del cliente al seleccionar una fila en una lista de tarjetas.
     - [Resuelto] Existe una lista de tarjetas en la página que se representa en varias columnas.
         - Este tipo de lista de tarjetas es compatible con el **Nuevo control de cuadrícula** a partir de la versión 10.0.30. Se puede eliminar cualquier uso de forceLegacyGrid() para este propósito. 
     - [Resuelto] Existe una lista de tarjetas agrupadas en la página.
